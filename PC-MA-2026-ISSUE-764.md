@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U106; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U107; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 52 | 0 | 106 |
-| Entregáveis de unidade C/H/Q | 474 | 156 | 0 | 318 |
+| Unidades reais previstas | 158 | 51 | 0 | 107 |
+| Entregáveis de unidade C/H/Q | 474 | 153 | 0 | 321 |
 | Tarefas macro individualizadas | 62 | 27 | 0 | 35 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U106` e `U144` = **106 unidades**. Pendentes: `U075`, `U107–U143`, `U145–U158` = **52 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U107` e `U144` = **107 unidades**. Pendentes: `U075`, `U108–U143`, `U145–U158` = **51 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **108 = 91 físicas locais + 17 vínculos canônicos**. U106 acrescentou uma visão física local; os demais números foram preservados. Não confundir 108 visões materializadas com 106 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **109 = 92 físicas locais + 17 vínculos canônicos**. U107 acrescentou uma visão física local; os demais números foram preservados. Não confundir 109 visões materializadas com 107 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U107 — Responsabilidade civil do Estado**, C/H/Q `pending`. U106 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U107–U111 não forem concluídas.
+**Próxima ação editorial: U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006**, C/H/Q `pending`. U107 foi concluída e confirmada na `main`; PC-E12-C/H/Q continua `pending` enquanto U108–U111 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -393,7 +393,7 @@ Classificação PC-R02 recebida: **U101 parcial**; **U098–U100 e U102–U111 n
 | 7 | U104 — Improbidade administrativa — Lei 8.429/1992 — `improbidade-administrativa-lei-8429` | Sanções aos agentes públicos nos casos descritos pelo item 7 e Lei nº 8.429/1992 com alterações. Preservar a formulação literal do edital e revalidar a redação legal vigente no corte | nova/local; apoio parcial dos canônicos de improbidade; snapshot `e9c1fc36912ea873b59839f3d1ff156497029cdd` | done | done | done |
 | 8 | U105 — Poderes administrativos — `poderes-administrativos` | Poder hierárquico, disciplinar, regulamentar, poder de polícia, uso e abuso do poder. Depende do mapa institucional de U098; não duplicar controle de U106 | nova/local; apoio parcial de duas aparições físicas TCE; snapshot `99a34a6044c291dde3723dada96ef50d9240106e` | done | done | done |
 | 9 — controle | U106 — Controle da Administração pública — `controle-administracao-publica` | Controle administrativo, judicial e legislativo. Desdobramento editorial do primeiro núcleo do item 9; dialoga com U105, mas não absorve responsabilidade civil | nova/local; apoio parcial de duas aparições físicas TCE e dois canônicos especializados; snapshot `41e19b326d8f6b8b9728868afda1823796ae7905` | done | done | done |
-| 9 — responsabilização | U107 — Responsabilidade civil do Estado — `responsabilidade-civil-estado` | Responsabilidade civil do Estado. Desdobramento editorial do segundo núcleo do item 9; regime material próprio, sem repetir modalidades de controle de U106 | nova/local; sem doador integral | pending | pending | pending |
+| 9 — responsabilização | U107 — Responsabilidade civil do Estado — `responsabilidade-civil-estado` | Responsabilidade civil do Estado. Desdobramento editorial do segundo núcleo do item 9; regime material próprio, sem repetir modalidades de controle de U106 | nova/local; apoio parcial de duas aparições físicas TCE; snapshot `6be4cab5ee0dfcfeec1895e24502aa68a7b9e0cf` | done | done | done |
 | 10 | U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006 — `estatuto-policia-civil-maranhao-lei-8508` | Lei Estadual nº 8.508/2006 e alterações. Regime policial estadual; fronteira com U109, U110 e U111 deve ser explicitada por assunto | nova/local; sem doador integral | pending | pending | pending |
 | 11 | U109 — Regime jurídico único dos servidores públicos civis do Maranhão — Lei Estadual 6.107/1994 — `regime-juridico-servidores-maranhao-lei-6107` | Lei Estadual nº 6.107/1994 e alterações. Regime geral estadual; não duplicar o estatuto policial específico de U108 | nova/local; sem doador integral | pending | pending | pending |
 | 12 | U110 — Organização administrativa da Polícia Civil do Maranhão — Lei Estadual 10.238/2015 — `organizacao-policia-civil-maranhao-lei-10238` | Lei Estadual nº 10.238/2015 e alterações. Organização administrativa da PC-MA; ponte com U099 apenas para conceitos gerais, sem substituir a lei estadual | nova/local; sem doador integral | pending | pending | pending |
@@ -462,6 +462,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U104 | `e9c1fc36912ea873b59839f3d1ff156497029cdd` | 18 + 2 | FGV TCE-SC 2026, Auditor Fiscal de Controle Externo — Direito, questão 28; Cebraspe STJ 2024, Analista Judiciário, item 53 |
 | U105 | `99a34a6044c291dde3723dada96ef50d9240106e` | 18 + 2 | Cebraspe SEFA-PR 2026, Agente Fazendário, questão 17, gabarito C; Cebraspe TCE-RS 2025, Auditor de Controle Externo, item 79, gabarito C |
 | U106 | `41e19b326d8f6b8b9728868afda1823796ae7905` | 18 + 2 | Cebraspe TCE-MG 2026, conhecimentos gerais, questões 22 e 24, gabaritos C e A |
+| U107 | `6be4cab5ee0dfcfeec1895e24502aa68a7b9e0cf` | 18 + 2 | FGV ALE-AM 2025, Procurador, questão 29, gabarito definitivo C; Cebraspe PC-RJ 2022, Delegado, questão 46, gabarito oficial publicado D |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -517,22 +518,23 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U104 | `bd3311e39bde2f4600869bc27d493d384716ae1a` | `ef055dcf31500e9985266712c14f67d161386e4a` | `5b97d0a6d15712cca8f048ad59b936800c24a5ac` | `83b5b2391f2694dcf00952814682ff366c1b2c6b` |
 | U105 | `b28f4dbce4b2da5d13743855be8e89df0850a070` | `9d64f30a119c76915fae88032ac4a8cf8e712803` | `28917777bfa86e65f8290f6d9c45e1291eec7c15` | `c6af4a423a763015ab00767e5828e89c497f501f` |
 | U106 | `bbfaca2c3d1b8a81cf7df5f770ec8805f67ea204` | `b75811d15560f88d4c948ddb5b72ea03ecd4fc72` | `eadc50d319a3e14ecfe55ae738ffccae1b8797c8` | `d5e54642f42c0865484f92da8ae4cc00dffb4bc1` |
+| U107 | `62b2d9d2bad2ab8f4cfce27abb941b14b7360f90` | `8369cc1819e4d3569cd13ded987f85bcef021b67` | `f49282e6231901515e6831e747e93b045f83419a` | `a96882894f85eac0a42355affe88ecb180d50648` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`.
 
-### Último aceite — U106
+### Último aceite — U107
 
-Pacote de Controle da Administração pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u106`, `order: 106`. Snapshot editorial final `41e19b326d8f6b8b9728868afda1823796ae7905`; base de publicação `faae78285472edad775ea0687b039bb7dbeb7bd9`. A comparação base→snapshot confirma **exatamente quatro arquivos da U106**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Responsabilidade civil do Estado: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u107`, `order: 107`. Snapshot editorial final `6be4cab5ee0dfcfeec1895e24502aa68a7b9e0cf`; base de publicação `91df0eb518d681dcd7716423349f24c1d046ff61`. A comparação base→snapshot confirma **exatamente quatro arquivos da U107**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`. As gravações finais apenas expandiram abreviações institucionais e ajustaram a proveniência textual.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. Foram auditadas como doadoras parciais duas aparições físicas do TCE-MA — `conhecimentos-gerais/direito-administrativo/controle-administracao-publica/` e `conhecimentos-especificos/nocoes-direito-administrativo/nocoes-controle-administracao-publica/` — além dos canônicos `controle-externo/controle-interno-externo/` e `controle-externo/controle-administrativo/`. As origens dividem o tema de modos diferentes, possuem identidades próprias e não formam uma origem única integral para a U106. Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais de prova anterior verificada**.
+A unidade permanece **nova/local**, sem `vinculo.json`. Foram auditadas como doadoras parciais duas aparições físicas do TCE-MA: `conhecimentos-gerais/direito-administrativo/responsabilidade-civil-estado/` e `conhecimentos-especificos/nocoes-direito-administrativo/nocoes-responsabilidade-civil-estado/`. Conteúdos, revisões rápidas e referências divergem; apenas o banco físico de 60 questões coincide, integralmente autoral. Não foi inferida origem única. Foram publicadas **20 questões — 18 autorais + 2 adaptações não literais de provas anteriores verificadas**.
 
-Recorte e fronteiras: conceito e classificações de controle; controle administrativo, hierarquia versus supervisão finalística, autotutela, anulação, revogação, convalidação, limites processuais, decadência e recursos no regime federal; controle judicial, jurisdição una, juridicidade, discricionariedade e políticas públicas; controle legislativo por sustação, fiscalização, convocação, pedidos de informação e comissão parlamentar de inquérito; controle externo financeiro dos artigos 70 e 71; sistemas de controle interno do artigo 74; posição constitucional dos tribunais de contas e atualização do artigo 75 pela Emenda Constitucional 139/2026. A responsabilidade civil do Estado permanece exclusivamente na U107.
+Recorte e fronteiras: fundamento do artigo 37, § 6º; conexão funcional; teoria do risco administrativo; atos comissivos e danos por atos lícitos; responsabilidade das prestadoras privadas de serviço público; omissões e culpa do serviço; dever específico de proteção em custódia; nexo causal em crime praticado por foragido; atividade de risco anormal; culpa exclusiva e concorrente da vítima, fato de terceiro, caso fortuito e força maior; polo passivo e regresso; tabeliães e registradores; imunidade parlamentar material; erro judiciário e prisão além do tempo fixado; reparação do dano. U106 permanece exclusivamente responsável pelos mecanismos de controle.
 
-A auditoria normativa incorporou a **Emenda Constitucional 139, de 5/5/2026**, já vigente no corte, que qualifica os tribunais de contas como instituições permanentes e essenciais ao exercício do controle externo. Foram preservados os limites da autotutela conforme as Súmulas 346 e 473 e o Tema 138 do Supremo Tribunal Federal; no controle judicial, o Tema 698 foi usado para separar intervenção legítima diante de ausência ou deficiência grave de política pública da substituição indevida das escolhas administrativas legítimas.
+A auditoria jurisprudencial incorporou os Temas 130, 592, 362, 940, 777 e 950 do Supremo Tribunal Federal e os precedentes do Superior Tribunal de Justiça sobre ato estatal lícito, omissão geral e atividade de risco anormal. Tema 130 preserva a responsabilidade objetiva da prestadora também perante não usuários; Tema 592 destaca o dever específico de proteção da pessoa presa; Tema 362 exige nexo causal direto no caso do foragido; Tema 940 separa a ação da vítima contra a pessoa jurídica do regresso contra o agente; Tema 777 cobre danos de tabeliães e registradores; Tema 950, publicado antes do corte, trata a imunidade parlamentar material como excludente no campo protegido.
 
-Fontes revalidadas: Constituição, especialmente artigos 5º, XXXV, 49, 50, 58 e 70–75; Emenda Constitucional 139/2026; Lei 9.784/1999, especialmente artigos 50 e 53–65, com recorte federal explícito; Decreto-Lei 200/1967 como referência de supervisão federal; Lei 7.347/1985 apenas como mapa de instrumento coletivo; Súmulas 346 e 473; Temas 138 e 698 do Supremo Tribunal Federal. Questões anteriores: Cebraspe TCE-MG 2026, conhecimentos gerais para todos os cargos, questões 22 e 24, gabaritos definitivos C e A.
+Fontes revalidadas: Constituição, especialmente artigos 5º, XLIX e LXXV, e 37, § 6º; Código Civil, artigos 43, 927, 944 e 945; Temas 130, 592, 362, 940, 777 e 950 do Supremo Tribunal Federal; Recurso Especial 1.492.832, Distrito Federal; Informativos 733 e 674 do Superior Tribunal de Justiça. Questões anteriores: FGV Assembleia Legislativa do Amazonas 2025, Procurador, questão 29, gabarito definitivo C; Cebraspe Polícia Civil do Rio de Janeiro 2022, Delegado, questão 46, gabarito oficial publicado D.
 
-O material renderizado evita siglas e abreviações técnicas mediante escrita por extenso, e os termos indispensáveis são ensinados no corpo; por isso não há marcação `abbr` necessária. O JSON permanece em texto puro. Corte preservado em **13/7/2026**; consulta/revalidação em 19/9/2026. Próxima unidade habilitada: U107 — Responsabilidade civil do Estado.
+O material renderizado evita siglas e abreviações técnicas mediante escrita por extenso; os conceitos técnicos indispensáveis são ensinados no corpo, por isso não há marcação `abbr` necessária. O JSON permanece em texto puro. Corte legislativo preservado em **13/7/2026**; jurisprudência revalidada em 19/9/2026 sob a regra editalícia própria. Próxima unidade habilitada: U108 — Estatuto da Polícia Civil do Estado do Maranhão — Lei Estadual 8.508/2006.
 
 ### Registros operacionais superados
 
