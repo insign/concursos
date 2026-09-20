@@ -4,7 +4,7 @@
 
 Constituição, artigo 5º, inciso LVIII:
 
-**civilmente identificado → não será identificado criminalmente**, salvo hipóes previstas em lei.
+**civilmente identificado → não será identificado criminalmente**, salvo hipóteses previstas em lei.
 
 A Lei nº 12.037/2009 disciplina as exceções.
 
@@ -125,7 +125,7 @@ compartilhamento limitado a:
 - impressões digitais;
 - informações necessárias para identificar o titular.
 
-Integração ou interoperabilidade com outros bancos depende de acordo ou convênio.
+Integração com outros bancos depende de acordo ou convênio.
 
 ### Proteções
 
