@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U124; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U125; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 34 | 0 | 124 |
-| Entregáveis de unidade C/H/Q | 474 | 102 | 0 | 372 |
+| Unidades reais previstas | 158 | 33 | 0 | 125 |
+| Entregáveis de unidade C/H/Q | 474 | 99 | 0 | 375 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U124` e `U144` = **124 unidades**. Pendentes: `U075`, `U125–U143`, `U145–U158` = **34 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U125` e `U144` = **125 unidades**. Pendentes: `U075`, `U126–U143`, `U145–U158` = **33 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **126 = 109 físicas locais + 17 vínculos canônicos**. U124 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 126 visões materializadas com 124 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **127 = 110 físicas locais + 17 vínculos canônicos**. U125 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 127 visões materializadas com 125 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U124: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U125: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U125 — Crimes de tortura — Lei 9.455/1997**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U124 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U125–U141 não forem concluídas.
+**Próxima ação editorial: U126 — Estatuto da Criança e do Adolescente — Lei 8.069/1990**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U125 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U126–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -455,7 +455,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 |---|---|---|---|---|---|---|---|
 | 1 | U123 — Lei de Drogas — tráfico ilícito e uso indevido de substâncias entorpecentes — `lei-drogas-lei-11343` | Lei nº 11.343/2006 integral no estado aplicável ao corte; preservar Sistema Nacional de Políticas Públicas sobre Drogas, prevenção/tratamento, crimes, investigação e procedimento, sem reduzir o item apenas ao tráfico | nova/local; fontes primárias; sem doador integral; snapshot `7e25095085350dd42b32651d0f1bb05c0e4ca343` | Lei nº 15.281/2025 e Lei nº 15.358/2026 incorporadas no que alteram o diploma antes do corte; Tema 506 e jurisprudência oficial revalidados em 20/9/2026 | done | done | done |
 | 2 | U124 — Abuso de autoridade — Lei 13.869/2019 — `abuso-autoridade-lei-13869` | Lei nº 13.869/2019 integral: sujeitos, finalidade específica, crimes, efeitos, penas restritivas, procedimento e alterações legislativas | nova/local; apoios U090/U096 apenas incidentais; snapshot `530e79176b3c8bf39d39e3924c791eb02dbcfc1c` | Lei nº 14.321/2022 incorporada no art. 15-A; art. 7º-B atualizado pela Lei nº 14.365/2022; ADI 7.201 ainda sem decisão colegiada final na revalidação; busca domiciliar 5–21 h conforme STJ | done | done | done |
-| 3 | U125 — Crimes de tortura — Lei 9.455/1997 — `crimes-tortura-lei-9455` | Lei nº 9.455/1997 integral. O ano **1965** é erro literal do edital, preservado acima | nova/local; fontes primárias | Lei nº 15.410/2026 acrescentou modalidade de tortura antes do corte; revalidar texto compilado em 13/7/2026 | pending | pending | pending |
+| 3 | U125 — Crimes de tortura — Lei 9.455/1997 — `crimes-tortura-lei-9455` | Lei nº 9.455/1997 integral. O ano **1965** é erro literal do edital, preservado acima | nova/local; fontes primárias; snapshot `74e0556a36812b92b336ed4d760db513208f02f7` | Lei nº 15.410/2026 incorporada no inciso III; regime inicial fechado não tratado como automático; perda do cargo, posição de garante e extraterritorialidade revalidados em jurisprudência oficial | done | done | done |
 | 4 | U126 — Estatuto da Criança e do Adolescente — Lei 8.069/1990 — `estatuto-crianca-adolescente-lei-8069` | Lei nº 8.069/1990 integral. O ano **1970** é erro literal do edital, preservado acima | nova/local; fontes primárias | Conectar à U122 apenas como base constitucional. Reconstruir o texto no corte: alterações posteriores a 13/7/2026 não entram | pending | pending | pending |
 | 5 | U127 — Estatuto do Desarmamento — Lei 10.826/2003 — `estatuto-desarmamento-lei-10826` | Lei nº 10.826/2003 integral, incluindo registros, porte, crimes e disposições correlatas exigidas pelo diploma | nova/local; fontes primárias | Lei nº 15.358/2026 alterou a Lei nº 10.826/2003 antes do corte; não usar redação histórica | pending | pending | pending |
 | 6 | U128 — Crimes ambientais — Lei 9.605/1998 — `crimes-ambientais-lei-9605` | Lei nº 9.605/1998 no recorte integral do diploma citado, com ênfase penal sem apagar disposições gerais, processuais e administrativas necessárias à compreensão da lei | nova/local; fontes primárias | U122 fornece apenas a base do art. 225; não substituir a lei penal ambiental por Direito Constitucional | pending | pending | pending |
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U125 é a primeira unidade pendente de PC-E14. U123–U124 estão C/H/Q `done`; U125–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U126 é a primeira unidade pendente de PC-E14. U123–U125 estão C/H/Q `done`; U126–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -560,6 +560,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U122 | `87653efc1e5c9c94ba81d3e724524c1adae1cdb0` | 28 + 0 | Nenhuma anterior forçada; questões externas localizadas foram descartadas quando dependiam de recorte previdenciário específico, redação histórica ou nuance fora do núcleo constitucional da unidade |
 | U123 | `7e25095085350dd42b32651d0f1bb05c0e4ca343` | 37 + 0 | Nenhuma anterior atribuída sem verificação; conjunto autoral cobre o diploma no corte de 13/7/2026 e a jurisprudência oficial revalidada, sem quota artificial |
 | U124 | `530e79176b3c8bf39d39e3924c791eb02dbcfc1c` | 30 + 1 | Cebraspe TJ-SC 2022, prova oral de Direito Penal, questão 7 sobre violência institucional, adaptada não literalmente com padrão oficial |
+| U125 | `74e0556a36812b92b336ed4d760db513208f02f7` | 30 + 3 | MP-SE 2022 questão 22, gabarito E; PC-RO 2022 oral questão 15; MPE-TO 2022 discursiva questão 2, todas adaptadas não literalmente e com gabarito/padrão oficial |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -633,24 +634,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U122 | `75a17df6ef8e7869147f51d989e18f8a2be09f52` | `7a74dceb2f9ac14476c0270c2c6604b755ef881b` | `9c5d9190f73334c5dd9a43257d1d51a2bd65fe12` | `f368b5e0225b311c8ad6e227e5cec2defd9bd991` |
 | U123 | `3948fac71ce38a2e7e215493ff285fa3fd2c0f4a` | `815988ac9e92910b9da1ae5c29eba9c76078c642` | `9f75fe89f129b0c8a0cbd61cd79b71c5b0a43b3d` | `4db67ee276cfed96c088b86d9f8b908ee9f8044e` |
 | U124 | `536034442f3a382498abb7079574ac48e2e9fccf` | `3c25e1b61ca2ea2d32a22bc595330594a221be2d` | `0c4bff568bc675d70ab04248b8f8db99cf925eb1` | `e47bd5b29a32f72e7c84423945f15924df6bcf46` |
+| U125 | `e4c91fbf6a78a35b631345a862c5a41233ca7b84` | `9fbbaee78447abaddfd3784286989e7e24c2cb86` | `d1a54ef20e59ec7dda0b4bb88b6fa638d9f2ce9a` | `ac00b9b20e7d2a76704a59cfe5959f644a94ddab` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U124
+### Último aceite — U125
 
-Pacote de **Abuso de autoridade — Lei nº 13.869/2019**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u124`, `order: 124`. Snapshot editorial final `530e79176b3c8bf39d39e3924c791eb02dbcfc1c`; base reservada `bf62b54e7edec48aaa302412b67fd9c6f79ee385`. A comparação base→snapshot confirma **exatamente quatro arquivos da U124**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Crimes de tortura — Lei nº 9.455/1997**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u125`, `order: 125`. Snapshot editorial final `74e0556a36812b92b336ed4d760db513208f02f7`; base reservada `a8aeac01ad165deb1b97d5684b33eca05eadcd7b`. A comparação base→snapshot confirma **exatamente quatro arquivos da U125**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. U090 e U096 foram lidas integralmente apenas como fronteiras: crimes funcionais gerais permanecem em U090; requisitos e prazos de prisão temporária permanecem em U096. U124 cobre sujeitos, finalidade específica, ação penal, efeitos da condenação, responsabilidades, todos os tipos penais vigentes do diploma, procedimento e disposições finais.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. O erro literal do edital — **Lei 9.455/1965** — permanece documentado, mas o material usa a fonte primária correta: Lei nº 9.455, de 7/4/1997.
 
-Corte legislativo de **13/7/2026**: o artigo 15-A, incluído pela Lei nº 14.321/2022, foi incorporado; a pena vigente do artigo 7º-B do Estatuto da Advocacia foi atualizada para 2 a 4 anos pela Lei nº 14.365/2022, sem confundir o efeito legislativo atual com a redação histórica do artigo 43 da Lei nº 13.869/2019. A revalidação do processo oficial da ADI 7.201 em 20/9/2026 não mostrou decisão colegiada final; votos individuais não foram apresentados como tese vinculante. As ADIs 6.234 e 6.240 foram registradas como não conhecidas, sem retirada dos artigos 27, 29 e 31.
+Corte legislativo de **13/7/2026**: a Lei nº 15.410/2026, vigente desde 21/5/2026, foi incorporada no novo inciso III do artigo 1º, que tipifica a submissão reiterada de mulher a intenso sofrimento físico ou mental no contexto de violência doméstica e familiar, sem prejuízo de outras infrações. O conteúdo distingue esse tipo autônomo dos incisos I e II sem importar requisitos ausentes de violência/grave ameaça ou guarda/poder/autoridade.
 
-Jurisprudência oficial usada: Recurso em Habeas Corpus 196.496/RN, Terceira Seção do Superior Tribunal de Justiça, para a janela de busca domiciliar **5h–21h**, e precedente institucional sobre o artigo 36, que exige excesso exacerbado, demonstração pela parte e falta de correção, além da finalidade específica. A regra de corte jurisprudencial do edital permanece separada do corte legislativo e será revalidada em PC-F03.
+Jurisprudência oficial revalidada: tortura-prova do inciso I, a, não exige sofrimento qualificado como intenso; tortura-castigo do inciso II é crime próprio e exige posição de garante; mera hierarquia informal entre detentos não basta; relação privada juridicamente relevante pode preencher guarda/poder/autoridade; perda do cargo público é efeito automático da condenação por tortura, quando aplicável; e a literalidade do § 7º não torna obrigatório o regime inicial fechado após a orientação constitucional aplicada pelo Superior Tribunal de Justiça. A regra de extraterritorialidade do artigo 2º foi separada da competência federal automática, inexistente apenas pelo fato de a tortura ter ocorrido no exterior.
 
-Foram publicadas **31 questões: 30 autorais + 1 anterior**, esta última adaptação não literal de questão oral Cebraspe TJ-SC 2022 sobre violência institucional, com padrão oficial no documento-fonte. Nenhuma resolução separada foi necessária.
+Foram publicadas **33 questões: 30 autorais + 3 anteriores verificadas**. As anteriores são adaptações não literais de: MP-SE 2022, questão objetiva 22, gabarito definitivo E, sobre tortura-castigo como crime próprio; PC-RO 2022, prova oral, questão 15, sobre extraterritorialidade e competência; e MPE-TO 2022, questão discursiva 2, sobre tortura-prova e intensidade do sofrimento. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` com 27.234 caracteres e `cheat-sheet.md` com 5.986. Microglossário pós-inspeção: **6 pares `abbr` no conteúdo e 3 no cheat sheet, todos balanceados**; abreviações de horário foram expandidas e as siglas remanescentes nas referências são IDs internos ou algarismos romanos excluídos da marcação. O JSON permanece em texto puro, `questionSetRevision: 1`, 31 IDs únicos, 30 origens `authorial`, 1 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
+Densidade final: `conteudo.md` com 22.296 caracteres e `cheat-sheet.md` com 4.293. Microglossário pós-inspeção: **14 pares `abbr` no conteúdo e 2 no cheat sheet, todos balanceados**; as abreviações institucionais residuais foram expandidas nas referências e os tokens em maiúsculas restantes são algarismos romanos ou IDs internos. O JSON permanece em texto puro, `questionSetRevision: 1`, 33 IDs únicos, 30 origens `authorial`, 3 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
 
-**PC-E14 permanece em andamento:** U123–U124 estão C/H/Q `done`; U125–U141 seguem `pending`. A próxima intervenção habilitada é U125 — Crimes de tortura — Lei nº 9.455/1997, preservando o erro literal “9.455/1965” do edital apenas como divergência documental.
+**PC-E14 permanece em andamento:** U123–U125 estão C/H/Q `done`; U126–U141 seguem `pending`. A próxima intervenção habilitada é U126 — Estatuto da Criança e do Adolescente — Lei nº 8.069/1990, preservando o erro literal “Lei 8.069/1970” do edital apenas como divergência documental.
 
 ### Registros operacionais superados
 
