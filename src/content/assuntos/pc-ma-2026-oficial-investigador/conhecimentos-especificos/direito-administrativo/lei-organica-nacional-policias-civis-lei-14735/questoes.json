@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u111-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 14.735/2023 institui, em relação às polícias civis,",
+      "options": [
+        {
+          "id": "A",
+          "text": "normas gerais nacionais de organização e funcionamento, preservada a legislação local compatível."
+        },
+        {
+          "id": "B",
+          "text": "regime federal exclusivo que revoga automaticamente toda lei estadual anterior."
+        },
+        {
+          "id": "C",
+          "text": "apenas regras sobre concursos públicos."
+        },
+        {
+          "id": "D",
+          "text": "normas aplicáveis somente ao Distrito Federal."
+        },
+        {
+          "id": "E",
+          "text": "regulamento administrativo sem força legal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei 14.735 estabelece normas gerais nacionais. O artigo 49 mantém válidas as leis locais naquilo que não forem incompatíveis com a lei nacional."
+    },
+    {
+      "id": "u111-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei 14.735/2023, as polícias civis são instituições",
+      "options": [
+        {
+          "id": "A",
+          "text": "temporárias e auxiliares do Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "permanentes, com funções exclusivas e típicas de Estado, essenciais à justiça criminal."
+        },
+        {
+          "id": "C",
+          "text": "de natureza militar."
+        },
+        {
+          "id": "D",
+          "text": "subordinadas funcionalmente ao Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "destinadas exclusivamente à identificação civil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º qualifica as polícias civis como instituições permanentes, típicas de Estado, essenciais à justiça criminal e imprescindíveis à segurança pública."
+    },
+    {
+      "id": "u111-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É princípio institucional básico expressamente previsto na Lei 14.735/2023",
+      "options": [
+        {
+          "id": "A",
+          "text": "descontinuidade investigativa criminal."
+        },
+        {
+          "id": "B",
+          "text": "continuidade investigativa criminal."
+        },
+        {
+          "id": "C",
+          "text": "supremacia absoluta do sigilo sobre direitos fundamentais."
+        },
+        {
+          "id": "D",
+          "text": "independência hierárquica entre todos os cargos."
+        },
+        {
+          "id": "E",
+          "text": "militarização da atividade investigativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 4º inclui a continuidade investigativa criminal entre os princípios institucionais."
+    },
+    {
+      "id": "u111-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distribuição do efetivo policial, segundo diretriz da Lei 14.735/2023, deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a extensão territorial."
+        },
+        {
+          "id": "B",
+          "text": "número de habitantes, extensão territorial e índices de criminalidade."
+        },
+        {
+          "id": "C",
+          "text": "somente arrecadação tributária."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente decisão discricionária do Delegado-Geral."
+        },
+        {
+          "id": "E",
+          "text": "apenas número de delegacias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º vincula o planejamento e distribuição do efetivo a população, território e índices de criminalidade."
+    },
+    {
+      "id": "u111-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ressalvadas a competência da União e as infrações penais militares, compete privativamente à Polícia Civil",
+      "options": [
+        {
+          "id": "A",
+          "text": "polícia ostensiva e preservação da ordem pública."
+        },
+        {
+          "id": "B",
+          "text": "polícia judiciária civil e apuração de infrações penais."
+        },
+        {
+          "id": "C",
+          "text": "defesa externa do Estado."
+        },
+        {
+          "id": "D",
+          "text": "execução penal."
+        },
+        {
+          "id": "E",
+          "text": "fiscalização tributária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esse é o núcleo do artigo 6º da Lei 14.735/2023."
+    },
+    {
+      "id": "u111-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integra a estrutura organizacional básica nacional prevista no artigo 7º",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conselho Superior de Polícia Civil."
+        },
+        {
+          "id": "B",
+          "text": "Tribunal de Polícia Civil."
+        },
+        {
+          "id": "C",
+          "text": "Ministério Público Policial."
+        },
+        {
+          "id": "D",
+          "text": "Justiça Administrativa Policial."
+        },
+        {
+          "id": "E",
+          "text": "Secretaria Nacional de Inquéritos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Conselho Superior é um dos dez órgãos ou tipos de unidade essenciais da estrutura básica."
+    },
+    {
+      "id": "u111-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Delegado-Geral de Polícia Civil deve apresentar planejamento estratégico de gestão",
+      "options": [
+        {
+          "id": "A",
+          "text": "em até 10 dias da posse."
+        },
+        {
+          "id": "B",
+          "text": "em até 30 dias após a nomeação."
+        },
+        {
+          "id": "C",
+          "text": "somente ao final do mandato."
+        },
+        {
+          "id": "D",
+          "text": "apenas se houver determinação judicial."
+        },
+        {
+          "id": "E",
+          "text": "em prazo definido pelo Ministério Público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 8º fixa prazo de até 30 dias após a nomeação."
+    },
+    {
+      "id": "u111-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Conselho Superior de Polícia Civil, segundo a Lei 14.735/2023,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é composto exclusivamente por delegados da classe mais elevada."
+        },
+        {
+          "id": "B",
+          "text": "é presidido pelo Delegado-Geral e composto por representantes de todos os cargos efetivos, respeitada a lei local."
+        },
+        {
+          "id": "C",
+          "text": "é órgão do Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "não admite participação de outros cargos policiais."
+        },
+        {
+          "id": "E",
+          "text": "é presidido pelo Governador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 9º prevê representantes de todos os cargos efetivos e participação paritária conforme a legislação local."
+    },
+    {
+      "id": "u111-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na hipótese de demissão em processo disciplinar, a Lei 14.735/2023 garante",
+      "options": [
+        {
+          "id": "A",
+          "text": "recurso direto e único ao Governador."
+        },
+        {
+          "id": "B",
+          "text": "recurso ao Conselho Superior e, em última instância, ao Chefe do Poder Executivo."
+        },
+        {
+          "id": "C",
+          "text": "recurso apenas ao Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "ausência de recurso administrativo."
+        },
+        {
+          "id": "E",
+          "text": "recurso apenas ao Corregedor-Geral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 3º do artigo 10 estabelece duplo grau de revisão administrativa em caso de demissão."
+    },
+    {
+      "id": "u111-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O quadro de cargos de nível superior previsto nacionalmente inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "delegado, oficial investigador e, se integrada à estrutura, perito oficial criminal."
+        },
+        {
+          "id": "B",
+          "text": "delegado, escrivão e agente necessariamente como cargos separados."
+        },
+        {
+          "id": "C",
+          "text": "somente delegado e perito."
+        },
+        {
+          "id": "D",
+          "text": "somente oficial investigador."
+        },
+        {
+          "id": "E",
+          "text": "cargos definidos exclusivamente por decreto federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 19 adota delegado, oficial investigador e perito oficial criminal quando a perícia estiver integrada."
+    },
+    {
+      "id": "u111-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o cargo de Oficial Investigador de Polícia, a Lei 14.735/2023 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "bacharelado em Direito."
+        },
+        {
+          "id": "B",
+          "text": "graduação completa em qualquer área reconhecida pelo Ministério da Educação."
+        },
+        {
+          "id": "C",
+          "text": "ensino médio."
+        },
+        {
+          "id": "D",
+          "text": "três anos de atividade jurídica."
+        },
+        {
+          "id": "E",
+          "text": "curso técnico policial prévio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º do artigo 20 exige graduação completa em qualquer área reconhecida."
+    },
+    {
+      "id": "u111-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para delegado de polícia, a Lei 14.735/2023 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer graduação e dois anos de experiência."
+        },
+        {
+          "id": "B",
+          "text": "bacharelado em Direito e três anos de atividade jurídica ou policial."
+        },
+        {
+          "id": "C",
+          "text": "somente bacharelado em Direito."
+        },
+        {
+          "id": "D",
+          "text": "mestrado em Direito."
+        },
+        {
+          "id": "E",
+          "text": "dez anos de atividade policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 20, § 3º, fixa bacharelado em Direito e três anos de atividade jurídica ou policial."
+    },
+    {
+      "id": "u111-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na prova de títulos do concurso para delegado, a Lei 14.735/2023 determina que a prova de títulos corresponda a, no mínimo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "5% da nota total do certame."
+        },
+        {
+          "id": "B",
+          "text": "10% da nota total do certame."
+        },
+        {
+          "id": "C",
+          "text": "20% da nota total do certame."
+        },
+        {
+          "id": "D",
+          "text": "30% da nota total do certame."
+        },
+        {
+          "id": "E",
+          "text": "50% da nota total do certame."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 21, § 2º, estabelece mínimo de 10% do total da nota do concurso."
+    },
+    {
+      "id": "u111-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Oficial Investigador de Polícia exerce, entre outras, atribuições",
+      "options": [
+        {
+          "id": "A",
+          "text": "apuratórias, cartorárias, procedimentais, de obtenção de dados, inteligência e ações investigativas."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente de vigilância predial."
+        },
+        {
+          "id": "C",
+          "text": "jurisdicionais."
+        },
+        {
+          "id": "D",
+          "text": "legislativas."
+        },
+        {
+          "id": "E",
+          "text": "privativas de perito oficial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a síntese do artigo 27, que assegura atuação técnica e científica dentro das atribuições."
+    },
+    {
+      "id": "u111-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a promulgação de partes vetadas em 2024, a Lei 14.735/2023 passou a assegurar, entre outros pontos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "jornada nacional máxima de 40 horas semanais, nos termos da legislação do ente."
+        },
+        {
+          "id": "B",
+          "text": "jornada mínima nacional de 60 horas semanais."
+        },
+        {
+          "id": "C",
+          "text": "supressão do auxílio-saúde."
+        },
+        {
+          "id": "D",
+          "text": "proibição de licença classista remunerada."
+        },
+        {
+          "id": "E",
+          "text": "revogação integral do artigo 30."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso XIX do artigo 30 foi promulgado em 2024, juntamente com outros dispositivos antes vetados."
+    },
+    {
+      "id": "u111-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A policial civil que retorna de licença-maternidade possui garantia de permanência na mesma lotação por",
+      "options": [
+        {
+          "id": "A",
+          "text": "três meses."
+        },
+        {
+          "id": "B",
+          "text": "seis meses."
+        },
+        {
+          "id": "C",
+          "text": "um ano."
+        },
+        {
+          "id": "D",
+          "text": "dois anos."
+        },
+        {
+          "id": "E",
+          "text": "prazo indefinido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 30, inciso XV, prevê seis meses após o retorno."
+    },
+    {
+      "id": "u111-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à custódia em dependências da Polícia Civil, a Lei 14.735/2023",
+      "options": [
+        {
+          "id": "A",
+          "text": "obriga que todo preso provisório permaneça em delegacia."
+        },
+        {
+          "id": "B",
+          "text": "veda a custódia de preso e adolescente infrator, salvo interesse fundamentado na investigação policial."
+        },
+        {
+          "id": "C",
+          "text": "permite custódia sem justificativa por até 30 dias."
+        },
+        {
+          "id": "D",
+          "text": "disciplina apenas adolescentes."
+        },
+        {
+          "id": "E",
+          "text": "não trata do tema."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 40 contém a vedação e a exceção investigativa fundamentada."
+    },
+    {
+      "id": "u111-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Conselho Nacional da Polícia Civil, instituído pela Lei 14.735/2023 e regulamentado em 2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é órgão jurisdicional."
+        },
+        {
+          "id": "B",
+          "text": "possui função consultiva e deliberativa sobre políticas de padronização e intercâmbio nas competências das polícias civis."
+        },
+        {
+          "id": "C",
+          "text": "substitui os Conselhos Superiores estaduais."
+        },
+        {
+          "id": "D",
+          "text": "é comandado pelo Supremo Tribunal Federal."
+        },
+        {
+          "id": "E",
+          "text": "possui competência penal originária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 44 institui o Conselho Nacional; o Decreto 12.996/2026 regulamentou sua finalidade e competências."
+    },
+    {
+      "id": "u111-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito das leis locais anteriores à Lei 14.735/2023, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foram todas revogadas automaticamente."
+        },
+        {
+          "id": "B",
+          "text": "permanecem válidas naquilo que não sejam incompatíveis com a lei nacional."
+        },
+        {
+          "id": "C",
+          "text": "somente valem após ratificação federal."
+        },
+        {
+          "id": "D",
+          "text": "não podem suplementar a lei nacional."
+        },
+        {
+          "id": "E",
+          "text": "deixaram de disciplinar organização policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a regra expressa do artigo 49."
+    },
+    {
+      "id": "u111-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 20 da prova Cebraspe para Delegado da Polícia Civil do Ceará, aplicada em 25/5/2025, assinale a opção correta à luz da Lei 14.735/2023.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A lei orgânica estadual da Polícia Civil, de iniciativa do Governador, pode estabelecer regras específicas, inclusive sobre diretrizes da proposta orçamentária, observadas as normas gerais nacionais."
+        },
+        {
+          "id": "B",
+          "text": "A lei nacional eliminou toda competência legislativa estadual sobre Polícia Civil."
+        },
+        {
+          "id": "C",
+          "text": "A penalidade de demissão admite recurso administrativo apenas diretamente ao Chefe do Executivo."
+        },
+        {
+          "id": "D",
+          "text": "A promoção póstuma depende sempre da existência de vaga."
+        },
+        {
+          "id": "E",
+          "text": "A permanência na mesma lotação após licença-maternidade é garantida por um ano."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito oficial definitivo da questão original é A. A alternativa corresponde ao artigo 3º: a lei local, de iniciativa do Governador, disciplina matérias específicas respeitando as normas gerais nacionais. A redação foi adaptada."
+    }
+  ]
+}
