@@ -451,7 +451,7 @@ Isso não torna a suspensão automática: afastado esse obstáculo, ainda precis
 
 | Instituto | Momento | Critério de pena | Processo |
 |---|---|---|---|
-| transação penal | antes da ação penal seguir normalmente | infração no sistema de menor potencial ofensivo + requisitos do art. 76 | evita o processo completo se cumprida |
+| transação penal | antes da ação penal seguir normalmente | infração no sistema de menor potencial ofensivo + requisitos do artigo 76 | evita o processo completo se cumprida |
 | suspensão condicional do processo | depois do oferecimento da denúncia | pena mínima ≤ 1 ano | processo é recebido e fica suspenso |
 
 Não confunda “pena máxima até 2 anos” com “pena mínima até 1 ano”.
@@ -547,7 +547,7 @@ A iniciativa ministerial está ligada à titularidade da ação penal pública.
 
 # Parte VIII — Limites e disposições finais
 
-## 23. Artigo 90: regra de transição e ADI 1.719
+## 23. Artigo 90: regra de transição e <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 1.719
 
 O artigo 90 diz que as disposições da Lei nº 9.099/1995 não se aplicam aos processos cuja instrução já estivesse iniciada quando a lei entrou em vigor.
 
@@ -593,7 +593,7 @@ A Súmula 536 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> torna a 
 
 nos delitos sujeitos ao rito da Lei Maria da Penha.
 
-Por isso, o caso da prova oral PC-CE 2025 sobre perseguição declarou expressamente que a situação não estava no contexto de violência doméstica e familiar contra a mulher.
+Por isso, o caso da prova oral Polícia Civil do Ceará 2025 sobre perseguição declarou expressamente que a situação não estava no contexto de violência doméstica e familiar contra a mulher.
 
 ### 25.1 Crimes ambientais
 
@@ -639,7 +639,7 @@ A U128 ensina esses requisitos especiais. Aqui basta a fronteira:
 17. **“Durante a suspensão do processo corre normalmente a prescrição.”** Errado.
 18. **“Juiz pode conceder suspensão à revelia do Ministério Público.”** Errado segundo a Súmula 696 do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 19. **“Recurso especial cabe normalmente de Turma Recursal.”** Errado segundo a Súmula 203 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
-20. **“Artigo 90 pode impedir retroatividade penal benéfica.”** Errado segundo a ADI 1.719 do <abbr title="Supremo Tribunal Federal">STF</abbr>.
+20. **“Artigo 90 pode impedir retroatividade penal benéfica.”** Errado segundo a <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 1.719 do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 ---
 
@@ -666,4 +666,4 @@ Sem consultar:
 17. Qual a diferença entre revogação obrigatória e facultativa?
 18. O que ensinam as Súmulas 243, 337 e 696?
 19. Qual é o limite da Lei Maria da Penha?
-20. O que a ADI 1.719 fez com o artigo 90?
+20. O que a <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 1.719 fez com o artigo 90?
