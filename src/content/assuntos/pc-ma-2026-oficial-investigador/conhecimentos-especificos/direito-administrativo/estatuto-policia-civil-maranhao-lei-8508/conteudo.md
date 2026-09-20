@@ -248,7 +248,7 @@ A Lei Estadual 8.957/2009 reorganizou carreira, cargos e remuneração e revogou
 - artigos 15 a 20;
 - artigos 28 a 42.
 
-Contudo, a Lei Estadual 9.712/2012 **repristinou os artigos 19 e 20** e acrescentou parágrafo único ao artigo 20.
+Contudo, a Lei Estadual 9.712/2012 **repristinou os artigos 19 e 20** e acrescentou parágrafo único ao artigo 20. **Repristinar**, aqui, significa fazer voltar a vigorar uma norma que havia sido expressamente revogada.
 
 Assim, no corte:
 
@@ -426,7 +426,7 @@ A Lei 8.867/2008:
 - acrescentou o § 5º ao artigo 49, relacionado à medalha Pontes de Miranda;
 - deu nova redação ao artigo 153.
 
-O PDF da Lei 8.508 hospedado pela Polícia Civil ainda apresenta no artigo 153 o texto antigo sobre medalha. Essa versão não reflete integralmente a alteração de 2008.
+O arquivo institucional da Lei 8.508 hospedado pela Polícia Civil ainda apresenta no artigo 153 o texto antigo sobre medalha. Essa versão não reflete integralmente a alteração de 2008.
 
 ---
 
@@ -868,13 +868,13 @@ O artigo 152 disciplina publicação em boletim interno e afasta a alegação de
 
 ---
 
-## 41. Artigo 153: cuidado com o PDF antigo
+## 41. Artigo 153: cuidado com o arquivo institucional antigo
 
 A Lei Estadual 8.867/2008 deu nova redação ao artigo 153.
 
 A redação nova é **transitória e histórica**, referente ao enquadramento de servidores que, na data da promulgação da lei, exerciam atividades de motorista ou operador de rádio nos setores indicados.
 
-O PDF da Lei 8.508 hospedado pela Polícia Civil ainda mostra a redação antiga ligada à medalha. Para vigência, prevalece a alteração legislativa de 2008.
+O arquivo institucional da Lei 8.508 hospedado pela Polícia Civil ainda mostra a redação antiga ligada à medalha. Para vigência, prevalece a alteração legislativa de 2008.
 
 ---
 
@@ -925,7 +925,7 @@ A U108 não substitui:
 | artigos 21–27 | vigentes |
 | artigos 28–42 | revogados |
 | artigos 43 em diante | estudar com alterações posteriores |
-| artigo 153 | redação de 2008, de caráter transitório; PDF oficial hospedado está desatualizado nesse ponto |
+| artigo 153 | redação de 2008, de caráter transitório; o arquivo institucional hospedado está desatualizado nesse ponto |
 | nomes antigos de Comissário/Investigador/Escrivão | ler à luz da unificação para Oficial Investigador em 2026 |
 
 ---
@@ -960,5 +960,5 @@ A U108 não substitui:
 26. Demissão e cassação: julgamento final pelo Governador.
 27. Pedido/recurso: 30 dias.
 28. Revisão disciplinar não pode agravar pena.
-29. Artigo 153 do PDF hospedado pela Polícia Civil está superado pela Lei 8.867/2008.
+29. O texto antigo do artigo 153 no arquivo hospedado pela Polícia Civil está superado pela Lei 8.867/2008.
 30. O cargo atual é Oficial Investigador, criado em 2026 pela unificação de antigos cargos.
