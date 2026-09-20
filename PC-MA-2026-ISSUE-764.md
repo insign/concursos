@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U127; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U128; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 31 | 0 | 127 |
-| Entregáveis de unidade C/H/Q | 474 | 93 | 0 | 381 |
+| Unidades reais previstas | 158 | 30 | 0 | 128 |
+| Entregáveis de unidade C/H/Q | 474 | 90 | 0 | 384 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U127` e `U144` = **127 unidades**. Pendentes: `U075`, `U128–U143`, `U145–U158` = **31 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U128` e `U144` = **128 unidades**. Pendentes: `U075`, `U129–U143`, `U145–U158` = **30 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **129 = 112 físicas locais + 17 vínculos canônicos**. U127 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 129 visões materializadas com 127 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **130 = 113 físicas locais + 17 vínculos canônicos**. U128 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 130 visões materializadas com 128 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U127: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U128: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U128 — Crimes ambientais — Lei 9.605/1998**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U127 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U128–U141 não forem concluídas.
+**Próxima ação editorial: U129 — Lei Maria da Penha — Lei 11.340/2006**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U128 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U129–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -458,7 +458,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 3 | U125 — Crimes de tortura — Lei 9.455/1997 — `crimes-tortura-lei-9455` | Lei nº 9.455/1997 integral. O ano **1965** é erro literal do edital, preservado acima | nova/local; fontes primárias; snapshot `74e0556a36812b92b336ed4d760db513208f02f7` | Lei nº 15.410/2026 incorporada no inciso III; regime inicial fechado não tratado como automático; perda do cargo, posição de garante e extraterritorialidade revalidados em jurisprudência oficial | done | done | done |
 | 4 | U126 — Estatuto da Criança e do Adolescente — Lei 8.069/1990 — `estatuto-crianca-adolescente-lei-8069` | Lei nº 8.069/1990 integral. O ano **1970** é erro literal do edital, preservado acima | nova/local; fontes primárias; U122 apenas apoio constitucional; snapshot `8860a3e26163a442b86791622ea90d4ba1eff8e4` | Corte reconstruído: Leis 15.413/2026 e 15.426/2026 incorporadas; Lei 15.450/2026 excluída por vacatio; Lei 15.487/2026 excluída por ser pós-corte; crimes digitais retrocedidos à redação vigente em 13/7/2026 | done | done | done |
 | 5 | U127 — Estatuto do Desarmamento — Lei 10.826/2003 — `estatuto-desarmamento-lei-10826` | Lei nº 10.826/2003 integral, incluindo registros, porte, crimes e disposições correlatas exigidas pelo diploma | nova/local; fontes primárias; snapshot `264bd0ee22fe42d16e760823d93f72b471426840` | Lei nº 15.358/2026 incorporada no art. 21-A; Leis nº 14.967/2024 e 15.306/2025 incorporadas; ADI 3.112, guardas municipais, registro vencido, ineficácia absoluta e referendo revalidados em fontes oficiais | done | done | done |
-| 6 | U128 — Crimes ambientais — Lei 9.605/1998 — `crimes-ambientais-lei-9605` | Lei nº 9.605/1998 no recorte integral do diploma citado, com ênfase penal sem apagar disposições gerais, processuais e administrativas necessárias à compreensão da lei | nova/local; fontes primárias | U122 fornece apenas a base do art. 225; não substituir a lei penal ambiental por Direito Constitucional | pending | pending | pending |
+| 6 | U128 — Crimes ambientais — Lei 9.605/1998 — `crimes-ambientais-lei-9605` | Lei nº 9.605/1998 no recorte integral do diploma citado, com ênfase penal sem apagar disposições gerais, processuais e administrativas necessárias à compreensão da lei | nova/local; fontes primárias; U122 apenas apoio constitucional; snapshot `c4ab59d6f8befcf5854e4a5c47c0cdb51df04250` | Leis nº 14.944/2024, 15.150/2025, 15.190/2025, 15.299/2025 e 15.355/2026 incorporadas; pessoa jurídica sem dupla imputação obrigatória, Tema 1.377, art. 48 permanente e ADPF 640 revalidados | done | done | done |
 | 7 | U129 — Lei Maria da Penha — Lei 11.340/2006 — `lei-maria-penha-lei-11340` | Lei nº 11.340/2006 integral: conceitos, formas de violência, assistência, medidas protetivas, atuação policial/judicial e disposições penais/processuais pertinentes | nova/local; apoio incidental U086, sem origem compartilhada | Lei nº 15.455/2026 alterou o diploma antes do corte; U086 é ponte penal, não substituto | pending | pending | pending |
 | 8; 13 | U130 — Investigação criminal conduzida pelo delegado de polícia — Lei 12.830/2013 — `investigacao-criminal-delegado-lei-12830` | Lei nº 12.830/2013 integral. Esta unidade absorve as duas ocorrências do edital sem duplicação física | nova/local; apoio parcial U092, conteúdo `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8` | U092 ensina inquérito policial; U130 ensina a lei especial e suas prerrogativas/garantias, evitando repetição do procedimento geral | pending | pending | pending |
 | 9 | U131 — Lavagem de dinheiro — Lei 9.613/1998 — `lavagem-dinheiro-lei-9613` | Lei nº 9.613/1998 integral: tipos, medidas, deveres preventivos, comunicação/controle e procedimento aplicável | nova/local; fontes primárias | Lei nº 15.358/2026 alterou o diploma antes do corte; distinguir crime antecedente, ocultação/dissimulação e deveres administrativos | pending | pending | pending |
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U128 é a primeira unidade pendente de PC-E14. U123–U127 estão C/H/Q `done`; U128–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U129 é a primeira unidade pendente de PC-E14. U123–U128 estão C/H/Q `done`; U129–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -563,6 +563,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U125 | `74e0556a36812b92b336ed4d760db513208f02f7` | 30 + 3 | MP-SE 2022 questão 22, gabarito E; PC-RO 2022 oral questão 15; MPE-TO 2022 discursiva questão 2, todas adaptadas não literalmente e com gabarito/padrão oficial |
 | U126 | `8860a3e26163a442b86791622ea90d4ba1eff8e4` | 45 + 1 | Cebraspe Polícia Civil de Rondônia 2022, prova oral de Legislação Penal e Processual Penal Extravagante, questão 16 sobre aplicação excepcional do Estatuto após os 18 anos, adaptada não literalmente com padrão oficial |
 | U127 | `264bd0ee22fe42d16e760823d93f72b471426840` | 36 + 1 | Cebraspe Polícia Federal, Delegado, prova oral aplicada em 2020, Malote 1, Direito Penal, questão 3 sobre numeração suprimida e art. 16 §1º IV, adaptada não literalmente com padrão oficial |
+| U128 | `c4ab59d6f8befcf5854e4a5c47c0cdb51df04250` | 38 + 1 | Cebraspe PGE-RN 2023, prova objetiva aplicada em 25/2/2024, questão 49 sobre art. 29; adaptação não literal com itens II e IV corretos |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -639,24 +640,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U125 | `e4c91fbf6a78a35b631345a862c5a41233ca7b84` | `9fbbaee78447abaddfd3784286989e7e24c2cb86` | `d1a54ef20e59ec7dda0b4bb88b6fa638d9f2ce9a` | `ac00b9b20e7d2a76704a59cfe5959f644a94ddab` |
 | U126 | `764107eb9fe23ed1311620f320c0501934338f8e` | `f3f507ab20703852a0806bdc111308126d7d4189` | `f2e9aa814b2814ea9d50783311bacd02ea890f2d` | `d7f92bb637be70cf8bab2f4a54d2b3d5447201a6` |
 | U127 | `58733d32469c50062dba35638e14f0ae7b67e039` | `54d049ff475d83c6ab5966befcc8687f4ca72e57` | `6c29d3b839eec925370a5e98bced071d447edd2f` | `55611f74ab40df30b1e11bfaa2e07aab20fb2bcd` |
+| U128 | `e7120b0ee22fc2140c7cd47758d7f08370322dc5` | `04a48d7fdea3fb5c7a6a720063176dda80dc55df` | `7078d689f16045da4982bda9a630e01fa6b1dfb2` | `ab44e2d771ca35ecf2bd493a595a8117c8ea549d` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U127
+### Último aceite — U128
 
-Pacote de **Estatuto do Desarmamento — Lei nº 10.826/2003**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u127`, `order: 127`. Snapshot editorial final `264bd0ee22fe42d16e760823d93f72b471426840`; base reservada `ac15adf0adde7d00e3654d4d2973060e5a047f80`. A comparação base→snapshot confirma **exatamente quatro arquivos da U127**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Crimes ambientais — Lei nº 9.605/1998**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u128`, `order: 128`. Snapshot editorial final `c4ab59d6f8befcf5854e4a5c47c0cdb51df04250`; base reservada `01a2a2fec2dcd9ca3377340acf42be0e2bcce30c`. A comparação base→snapshot confirma **exatamente quatro arquivos da U128**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. A produção cobre integralmente o desenho da Lei nº 10.826/2003: Sistema Nacional de Armas, registro e aquisição, posse, porte e categorias autorizadas, segurança privada e institucional, taxas, crimes dos arts. 12–21-A, classificação e controle, armas apreendidas, simulacros, idade mínima, regularização/entrega, multas administrativas, Banco Nacional de Perfis Balísticos e referendo.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. U122 foi lida integralmente apenas como apoio constitucional do artigo 225; o pacote U128 permanece autônomo e cobre as regras específicas de responsabilização, sanções, processo, crimes e infrações administrativas da Lei nº 9.605/1998.
 
-Corte legislativo de **13/7/2026**: incorporadas a Lei nº 14.967/2024 nos arts. 7º e 23, §4º; a Lei nº 15.306/2025 no porte das polícias legislativas; e a Lei nº 15.358/2026, vigente desde 25/3/2026, com o novo art. 21-A e aumento de 2/3 nos arts. 12, 14 e 16 nas hipóteses de conexão legal com crime de drogas ou comércio ilícito de entorpecentes. O material não projeta automaticamente sobre o novo dispositivo teses jurisprudenciais construídas antes de sua vigência.
+Corte legislativo de **13/7/2026**: foram incorporadas a Lei nº 14.944/2024, que ampliou o artigo 41 para “floresta ou demais formas de vegetação”; a Lei nº 15.150/2025, com tatuagens e piercings estéticos em cães e gatos no artigo 32; a Lei nº 15.190/2025, já em vigor no corte, que elevou a pena do artigo 60, criou aumento até o dobro quando houver estudo prévio de impacto ambiental e reformulou o artigo 67 para exigir dolo e conhecimento do desacordo normativo, revogando a forma culposa; a Lei nº 15.299/2025, com a regra de 45 dias do artigo 49; e a Lei nº 15.355/2026, com o novo § 1º-C do artigo 32 para desastre ambiental prejudicial a animais.
 
-Controle de constitucionalidade e jurisprudência oficial revalidados: ADI 3.112, que afastou os parágrafos de inafiançabilidade dos arts. 14 e 15 e a proibição absoluta de liberdade provisória do art. 21; precedentes do Supremo Tribunal Federal que afastam restrições populacionais ao porte das guardas municipais e exigem efetiva necessidade concreta; Superior Tribunal de Justiça sobre registro vencido do próprio titular versus arma de terceiro falecido, natureza de perigo abstrato, ineficácia absoluta do armamento e perdimento no art. 14. O referendo de 2005 foi revalidado no Tribunal Superior Eleitoral: a opção “Não” venceu com 63,94%, de modo que a proibição geral condicionada no art. 35 não entrou em vigor.
+Cobertura integral organizada: responsabilidade de pessoas físicas e jurídicas; desconsideração e liquidação; aplicação das penas; penas das pessoas jurídicas; apreensão e destinação; ação penal, transação e suspensão condicional; crimes contra fauna e flora; poluição e demais crimes; patrimônio urbano/cultural; crimes contra administração ambiental; infrações e sanções administrativas, inclusive prazos 20/30/20/5; cooperação internacional; subsidiariedade penal/processual e termo de compromisso.
 
-Foram publicadas **37 questões: 36 autorais + 1 anterior verificada**, esta última adaptação não literal da questão 3 da prova oral Cebraspe para Delegado da Polícia Federal, aplicada em 2020, com padrão oficial sobre arma de uso permitido com numeração suprimida, enquadrada no art. 16, §1º, IV, mesmo com posterior recuperação pericial da identificação. Nenhuma resolução separada foi necessária.
+Jurisprudência oficial revalidada: Recurso Extraordinário 548.181 do Supremo Tribunal Federal, afastando dupla imputação obrigatória para pessoa jurídica; ADPF 640 sobre interpretação incompatível com abate imediato de animais apreendidos em maus-tratos; Tema Repetitivo 1.377 do Superior Tribunal de Justiça, que qualifica a primeira parte do artigo 54 como crime formal e dispensa dano efetivo e perícia obrigatória; jurisprudência sobre artigo 48 como crime permanente; e aplicação excepcional da insignificância diante de lesividade ambiental verdadeiramente inexpressiva.
 
-Densidade final: `conteudo.md` com 31.277 caracteres e `cheat-sheet.md` com 7.297. Microglossário pós-inspeção: **17 pares `abbr` no conteúdo e 9 no cheat sheet, todos balanceados**; abreviações institucionais/geográficas residuais foram expandidas nas referências, restando apenas algarismos romanos e IDs internos fora da marcação. O JSON permanece texto puro, `questionSetRevision: 1`, 37 IDs únicos, 36 origens `authorial`, 1 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
+Foram publicadas **39 questões: 38 autorais + 1 anterior verificada**, esta última adaptação não literal da questão 49 da prova objetiva Cebraspe da Procuradoria-Geral do Estado do Rio Grande do Norte, concurso 2023/aplicação 2024, sobre artigo 29; a adaptação preserva os núcleos corretos de inaplicabilidade à pesca e possibilidade legal de não aplicação da pena na guarda doméstica de espécie silvestre não ameaçada. Nenhuma resolução separada foi necessária.
 
-**PC-E14 permanece em andamento:** U123–U127 estão C/H/Q `done`; U128–U141 seguem `pending`. A próxima intervenção habilitada é U128 — Crimes ambientais — Lei nº 9.605/1998.
+Densidade final: `conteudo.md` com 33.358 caracteres e `cheat-sheet.md` com 7.777. Microglossário pós-inspeção: **16 pares `abbr` no conteúdo e 8 no cheat sheet, todos balanceados**; abreviações geográficas e institucionais residuais foram expandidas nas referências, restando apenas algarismos romanos e IDs internos. O JSON permanece texto puro, `questionSetRevision: 1`, 39 IDs únicos, 38 origens `authorial`, 1 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
+
+**PC-E14 permanece em andamento:** U123–U128 estão C/H/Q `done`; U129–U141 seguem `pending`. A próxima intervenção habilitada é U129 — Lei Maria da Penha — Lei nº 11.340/2006.
 
 ### Registros operacionais superados
 
