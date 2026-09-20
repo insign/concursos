@@ -215,10 +215,9 @@ test('filters origins with native controls while preserving the filtered subset 
 
   await page.getByLabel('Autorais').check();
   await page.reload();
-  await expect(page.getByLabel('Todas as origens')).toBeChecked();
-  await expect(page.locator('[data-question-count]')).toHaveText(
-    `${questions.length} questões no conjunto editorial atual.`,
-  );
+  await expect(page.getByLabel('Autorais')).toBeChecked();
+  await expect(page.locator('[data-question-count]')).toContainText(`Exibindo ${authorialQuestions.length}`);
+  await expect(page.locator('[data-question-count]')).toContainText(`de ${questions.length}`);
 
   await page.getByLabel('Autorais').focus();
   await page.keyboard.press('Space');

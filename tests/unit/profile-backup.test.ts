@@ -98,8 +98,9 @@ describe('profile backup', () => {
         questionLayout: 'ten',
         correctionMode: 'immediate',
         shuffleQuestions: true,
+        questionOriginFilter: 'all',
       },
-      ['questionLayout', 'correctionMode', 'shuffleQuestions'],
+      ['questionLayout', 'correctionMode', 'shuffleQuestions', 'questionOriginFilter'],
     );
 
     const preservedDocument = createEmptyAnswerDocument(1);
@@ -265,6 +266,7 @@ describe('profile backup', () => {
         questionLayout: 'single',
         correctionMode: 'on-submit',
         shuffleQuestions: false,
+        questionOriginFilter: 'all',
       },
       ['correctionMode'],
     );

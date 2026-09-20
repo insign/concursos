@@ -13,6 +13,12 @@
       <label><input type="radio" name="questionLayout" value="all" /> Todas</label>
     </fieldset>
     <fieldset>
+      <legend>Tipo de questão padrão</legend>
+      <label><input type="radio" name="questionOriginFilter" value="all" /> Todas as origens</label>
+      <label><input type="radio" name="questionOriginFilter" value="authorial" /> Autorais</label>
+      <label><input type="radio" name="questionOriginFilter" value="previous_exam" /> Concursos anteriores</label>
+    </fieldset>
+    <fieldset>
       <legend>Correção padrão</legend>
       <label><input type="radio" name="correctionMode" value="on-submit" /> Ao finalizar</label>
       <label><input type="radio" name="correctionMode" value="immediate" /> Imediata</label>
@@ -37,6 +43,7 @@
     type PreferenceField,
     type Preferences,
   } from '../lib/preferences';
+  import type { QuestionOriginFilter } from '../lib/print-export';
   import { recalculateProgress } from '../lib/progress';
   import { requestProfileSync } from '../lib/sync';
 
@@ -57,6 +64,8 @@
       const preferences = await loadPreferences(profileId);
       storedPreferences = preferences;
       (form.elements.namedItem('questionLayout') as RadioNodeList).value = preferences.questionLayout;
+      (form.elements.namedItem('questionOriginFilter') as RadioNodeList).value =
+        preferences.questionOriginFilter;
       (form.elements.namedItem('correctionMode') as RadioNodeList).value = preferences.correctionMode;
       (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
     };
@@ -72,11 +81,12 @@
       const submittedPreferences: Preferences = {
         schemaVersion: 1,
         questionLayout: String(data.get('questionLayout')) as 'single' | 'ten' | 'all',
+        questionOriginFilter: String(data.get('questionOriginFilter')) as QuestionOriginFilter,
         correctionMode: String(data.get('correctionMode')) as 'immediate' | 'on-submit',
         shuffleQuestions: data.has('shuffleQuestions'),
       };
       const dirtyFields = (
-        ['questionLayout', 'correctionMode', 'shuffleQuestions'] as PreferenceField[]
+        ['questionLayout', 'questionOriginFilter', 'correctionMode', 'shuffleQuestions'] as PreferenceField[]
       ).filter((field) => submittedPreferences[field] !== storedPreferences[field]);
       if (dirtyFields.length === 0) {
         status.textContent = 'Nenhuma preferência foi alterada.';

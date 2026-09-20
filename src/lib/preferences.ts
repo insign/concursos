@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { getSharedDocumentRecord, updateSharedDocuments, type SharedDocumentUpdate } from './offline-db';
+import type { QuestionOriginFilter } from './print-export';
 import type { CorrectionMode, QuestionLayout } from './questionnaire';
 
 export const preferencesSchema = z
@@ -8,6 +9,7 @@ export const preferencesSchema = z
     questionLayout: z.enum(['single', 'ten', 'all']),
     correctionMode: z.enum(['immediate', 'on-submit']),
     shuffleQuestions: z.boolean(),
+    questionOriginFilter: z.enum(['all', 'authorial', 'previous_exam']).default('all'),
   })
   .strict();
 
@@ -19,6 +21,7 @@ export const DEFAULT_PREFERENCES: Preferences = {
   questionLayout: 'single',
   correctionMode: 'on-submit',
   shuffleQuestions: false,
+  questionOriginFilter: 'all',
 };
 
 export async function loadPreferences(profileId: string): Promise<Preferences> {
@@ -73,7 +76,7 @@ export async function savePreferences(
 export function withPreference(
   preferences: Preferences,
   field: PreferenceField,
-  value: QuestionLayout | CorrectionMode | boolean,
+  value: QuestionLayout | CorrectionMode | QuestionOriginFilter | boolean,
 ): Preferences {
   return { ...preferences, [field]: value };
 }

@@ -479,6 +479,7 @@ describe('offline database', () => {
       questionLayout: 'single' as const,
       correctionMode: 'on-submit' as const,
       shuffleQuestions: false,
+      questionOriginFilter: 'all' as const,
     };
     await savePreferences(
       'perfil-a1',
@@ -547,6 +548,7 @@ describe('offline database', () => {
         questionLayout: 'single',
         correctionMode: 'on-submit',
         shuffleQuestions: false,
+        questionOriginFilter: 'all',
       },
       ['correctionMode'],
     );

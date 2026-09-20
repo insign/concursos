@@ -95,8 +95,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   let layout: QuestionLayout = preferences.questionLayout;
   let correctionMode: CorrectionMode = preferences.correctionMode;
   let shuffle = preferences.shuffleQuestions;
-  // Display-only state: never persist this filter with profile preferences.
-  let originFilter: QuestionOrigin | 'all' = 'all';
+  let originFilter: QuestionOrigin | 'all' = preferences.questionOriginFilter;
   let pageStart = 0;
   let visibleAll = 10;
 
@@ -169,8 +168,8 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   };
 
   const persistPreference = async (
-    field: 'questionLayout' | 'correctionMode' | 'shuffleQuestions',
-    value: QuestionLayout | CorrectionMode | boolean,
+    field: 'questionLayout' | 'questionOriginFilter' | 'correctionMode' | 'shuffleQuestions',
+    value: QuestionLayout | QuestionOrigin | 'all' | CorrectionMode | boolean,
   ) => {
     preferences = withPreference(preferences, field, value);
     try {
@@ -494,6 +493,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       originFilter = input.value as QuestionOrigin | 'all';
       resetQuestionView();
       render();
+      void persistPreference('questionOriginFilter', originFilter);
     });
   }
 
