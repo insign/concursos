@@ -607,28 +607,27 @@ export async function cleanupInactiveContestCaches(overrides: PackageEnvironment
     const { cacheStorage } = environment(overrides);
     const records = await listOfflineContestRecords();
     const cacheNames = new Set(await cacheStorage.keys());
-    const activeNames = new Set<string>();
+    const { ghostContestIds, orphanCacheNames } = classifyInactiveContestCaches(records, cacheNames);
 
-    for (const record of records) {
-      if (cacheNames.has(record.activeCacheName)) {
-        activeNames.add(record.activeCacheName);
-      } else {
-        await deleteOfflineContestRecord(record.contestStorageId);
-      }
+    for (const contestStorageId of ghostContestIds) {
+      await deleteOfflineContestRecord(contestStorageId);
     }
 
-    for (const name of cacheNames) {
-      if (name.startsWith(CONTEST_CACHE_PREFIX) && !activeNames.has(name)) await cacheStorage.delete(name);
+    for (const name of orphanCacheNames) {
+      await cacheStorage.delete(name);
     }
   });
 }
 
-async function listInactiveContestCaches(
-  overrides: PackageEnvironment = {},
-): Promise<{ ghostContestIds: string[]; orphanCacheNames: string[] }> {
-  const { cacheStorage } = environment(overrides);
-  const records = await listOfflineContestRecords();
-  const cacheNames = new Set(await cacheStorage.keys());
+interface InactiveContestCaches {
+  ghostContestIds: string[];
+  orphanCacheNames: string[];
+}
+
+function classifyInactiveContestCaches(
+  records: readonly OfflineContestRecord[],
+  cacheNames: ReadonlySet<string>,
+): InactiveContestCaches {
   const activeNames = new Set<string>();
   const ghostContestIds: string[] = [];
 
@@ -644,6 +643,13 @@ async function listInactiveContestCaches(
     (name) => name.startsWith(CONTEST_CACHE_PREFIX) && !activeNames.has(name),
   );
   return { ghostContestIds, orphanCacheNames };
+}
+
+async function listInactiveContestCaches(overrides: PackageEnvironment = {}): Promise<InactiveContestCaches> {
+  const { cacheStorage } = environment(overrides);
+  const records = await listOfflineContestRecords();
+  const cacheNames = new Set(await cacheStorage.keys());
+  return classifyInactiveContestCaches(records, cacheNames);
 }
 
 export { getOfflineContestRecord, listOfflineContestRecords };
