@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u134-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a regra que estrutura a Lei nº 12.037/2009, a pessoa civilmente identificada",
+      "options": [
+        {
+          "id": "A",
+          "text": "não será submetida a identificação criminal, salvo nas hipóteses previstas em lei."
+        },
+        {
+          "id": "B",
+          "text": "deve ser identificada criminalmente sempre que houver inquérito policial."
+        },
+        {
+          "id": "C",
+          "text": "somente pode apresentar passaporte como documento civil."
+        },
+        {
+          "id": "D",
+          "text": "fica dispensada de qualquer identificação em investigação criminal."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser identificada criminalmente depois de condenação definitiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição e o artigo 1º da Lei nº 12.037/2009 adotam a não submissão do civilmente identificado à identificação criminal como regra, ressalvadas as hipóteses legais."
+    },
+    {
+      "id": "u134-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os documentos capazes de comprovar identificação civil para a Lei nº 12.037/2009, inclui-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "passaporte."
+        },
+        {
+          "id": "B",
+          "text": "apenas carteira de identidade, com exclusão de qualquer outro documento."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente certidão de nascimento."
+        },
+        {
+          "id": "D",
+          "text": "somente carteira de trabalho."
+        },
+        {
+          "id": "E",
+          "text": "apenas documento expedido pela autoridade policial do local do fato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 2º admite, entre outros, carteira de identidade, carteira de trabalho, carteira profissional, passaporte, identificação funcional e outro documento público apto a identificar o indiciado."
+    },
+    {
+      "id": "u134-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os documentos de identificação militares, para fins da Lei nº 12.037/2009,",
+      "options": [
+        {
+          "id": "A",
+          "text": "não possuem qualquer valor para identificação civil."
+        },
+        {
+          "id": "B",
+          "text": "são equiparados aos documentos de identificação civil."
+        },
+        {
+          "id": "C",
+          "text": "valem apenas depois de autorização judicial."
+        },
+        {
+          "id": "D",
+          "text": "substituem obrigatoriamente todos os demais documentos."
+        },
+        {
+          "id": "E",
+          "text": "só podem ser usados por militares da ativa em investigação militar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 2º equipara os documentos de identificação militares aos documentos de identificação civil."
+    },
+    {
+      "id": "u134-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A apresentação de documento com rasura ou indício de falsificação",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede toda identificação criminal."
+        },
+        {
+          "id": "B",
+          "text": "somente autoriza apreensão do documento, nunca identificação criminal."
+        },
+        {
+          "id": "C",
+          "text": "é uma das hipóteses legais em que pode ocorrer identificação criminal."
+        },
+        {
+          "id": "D",
+          "text": "autoriza condenação automática por falsidade."
+        },
+        {
+          "id": "E",
+          "text": "só possui relevância depois do trânsito em julgado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 3º, inciso I, prevê a possibilidade de identificação criminal quando o documento tiver rasura ou indício de falsificação."
+    },
+    {
+      "id": "u134-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o documento apresentado for insuficiente para identificar cabalmente o indiciado, a Lei nº 12.037/2009",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe a identificação criminal porque algum documento foi apresentado."
+        },
+        {
+          "id": "B",
+          "text": "exige condenação definitiva."
+        },
+        {
+          "id": "C",
+          "text": "permite apenas fotografia, sem outras formas de identificação."
+        },
+        {
+          "id": "D",
+          "text": "admite a identificação criminal."
+        },
+        {
+          "id": "E",
+          "text": "determina o arquivamento da investigação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 3º, inciso II, admite a identificação criminal quando o documento é insuficiente para identificar cabalmente o indiciado."
+    },
+    {
+      "id": "u134-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A mera apresentação de dois documentos de identidade distintos",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre autoriza identificação criminal."
+        },
+        {
+          "id": "B",
+          "text": "gera presunção absoluta de falsidade."
+        },
+        {
+          "id": "C",
+          "text": "obriga coleta de material biológico."
+        },
+        {
+          "id": "D",
+          "text": "dispensa comparação entre os dados."
+        },
+        {
+          "id": "E",
+          "text": "não basta para o inciso III; é necessário que contenham informações conflitantes entre si."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 3º, inciso III, exige documentos de identidade distintos com informações conflitantes entre si."
+    },
+    {
+      "id": "u134-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a identificação criminal for essencial às investigações policiais, nos termos do artigo 3º, inciso IV,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autoridade policial pode determiná-la sozinha em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "é necessário despacho da autoridade judiciária competente, que pode decidir por iniciativa própria ou mediante representação prevista em lei."
+        },
+        {
+          "id": "C",
+          "text": "somente a defesa pode requerer a medida."
+        },
+        {
+          "id": "D",
+          "text": "a medida depende de condenação definitiva."
+        },
+        {
+          "id": "E",
+          "text": "o Ministério Público não pode requerer a medida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso IV exige despacho judicial. O juiz pode decidir por iniciativa própria ou mediante representação da autoridade policial, do Ministério Público ou da defesa."
+    },
+    {
+      "id": "u134-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O uso de outros nomes ou diferentes qualificações constantes de registros policiais",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode fundamentar identificação criminal na hipótese do artigo 3º, inciso V."
+        },
+        {
+          "id": "B",
+          "text": "é irrelevante para a Lei nº 12.037/2009."
+        },
+        {
+          "id": "C",
+          "text": "só permite identificação depois da sentença condenatória."
+        },
+        {
+          "id": "D",
+          "text": "autoriza automaticamente quebra de sigilo bancário."
+        },
+        {
+          "id": "E",
+          "text": "substitui a necessidade de qualquer documento civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 3º, inciso V, prevê essa hipótese para resolver dúvida sobre a identidade da pessoa registrada."
+    },
+    {
+      "id": "u134-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao estado de conservação ou à antiguidade do documento, a Lei nº 12.037/2009 permite identificação criminal quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o documento tiver mais de cinco anos, independentemente de sua legibilidade."
+        },
+        {
+          "id": "B",
+          "text": "o documento tiver sido expedido em outro estado, em qualquer circunstância."
+        },
+        {
+          "id": "C",
+          "text": "conservação, distância temporal ou distância da localidade de expedição impossibilitarem a completa identificação dos caracteres essenciais."
+        },
+        {
+          "id": "D",
+          "text": "o documento for passaporte válido."
+        },
+        {
+          "id": "E",
+          "text": "a autoridade preferir um documento mais recente, ainda que a identificação esteja plenamente segura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 3º, inciso VI, vincula a hipótese à impossibilidade de completa identificação dos caracteres essenciais, não a um prazo fixo."
+    },
+    {
+      "id": "u134-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A hipótese acrescentada pela Lei nº 15.295/2025 ao artigo 3º, inciso VII, usa como marco processual",
+      "options": [
+        {
+          "id": "A",
+          "text": "a simples notícia do crime."
+        },
+        {
+          "id": "B",
+          "text": "a instauração do inquérito."
+        },
+        {
+          "id": "C",
+          "text": "o mero oferecimento da denúncia."
+        },
+        {
+          "id": "D",
+          "text": "o recebimento da denúncia pelo juiz."
+        },
+        {
+          "id": "E",
+          "text": "o trânsito em julgado da condenação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O inciso VII fala expressamente em recebimento da denúncia pelo juiz pelos crimes legalmente enumerados."
+    },
+    {
+      "id": "u134-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para que o crime do artigo 2º da Lei nº 12.850/2013 integre a hipótese do artigo 3º, inciso VII, da Lei nº 12.037/2009,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a organização criminosa deve utilizar ou ter à disposição armas de fogo."
+        },
+        {
+          "id": "B",
+          "text": "basta a existência de três investigados."
+        },
+        {
+          "id": "C",
+          "text": "é indispensável condenação por lavagem de dinheiro."
+        },
+        {
+          "id": "D",
+          "text": "a organização deve atuar exclusivamente no exterior."
+        },
+        {
+          "id": "E",
+          "text": "não pode haver arma de fogo disponível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alínea correspondente ao crime de organização criminosa exige utilização ou disponibilidade de armas de fogo."
+    },
+    {
+      "id": "u134-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As cópias dos documentos apresentados pelo indiciado",
+      "options": [
+        {
+          "id": "A",
+          "text": "só são juntadas se forem considerados suficientes."
+        },
+        {
+          "id": "B",
+          "text": "devem ser destruídas quando houver identificação criminal."
+        },
+        {
+          "id": "C",
+          "text": "devem ser juntadas ao inquérito ou outra investigação mesmo quando os documentos forem considerados insuficientes."
+        },
+        {
+          "id": "D",
+          "text": "ficam exclusivamente com o identificado."
+        },
+        {
+          "id": "E",
+          "text": "dependem de autorização do Ministério Público para serem juntadas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parágrafo único do artigo 3º determina a juntada das cópias ainda que os documentos sejam insuficientes."
+    },
+    {
+      "id": "u134-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na execução da identificação criminal, a autoridade responsável",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve expor publicamente o identificado para confirmar sua identidade."
+        },
+        {
+          "id": "B",
+          "text": "deve tomar providências para evitar o constrangimento do identificado."
+        },
+        {
+          "id": "C",
+          "text": "pode impor constrangimento como forma de punição."
+        },
+        {
+          "id": "D",
+          "text": "deve divulgar as fotografias em rede social institucional."
+        },
+        {
+          "id": "E",
+          "text": "fica dispensada de observar qualquer cuidado pessoal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 4º impõe à autoridade a adoção de providências para evitar o constrangimento do identificado."
+    },
+    {
+      "id": "u134-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 5º da Lei nº 12.037/2009, a identificação criminal incluirá",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente fotografia."
+        },
+        {
+          "id": "B",
+          "text": "somente impressões digitais."
+        },
+        {
+          "id": "C",
+          "text": "apenas coleta genética."
+        },
+        {
+          "id": "D",
+          "text": "processos datiloscópico e fotográfico."
+        },
+        {
+          "id": "E",
+          "text": "apenas reconhecimento por testemunhas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 5º estabelece que a identificação criminal incluirá os processos datiloscópico, relativo às impressões digitais, e fotográfico."
+    },
+    {
+      "id": "u134-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na redação vigente no corte de 13 de julho de 2026, nas hipóteses dos incisos IV e VII do artigo 3º, a identificação criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "incluirá coleta de material biológico para obtenção do perfil genético."
+        },
+        {
+          "id": "B",
+          "text": "não pode envolver material biológico."
+        },
+        {
+          "id": "C",
+          "text": "pode envolver material biológico apenas se houver condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "exige consentimento escrito em toda hipótese."
+        },
+        {
+          "id": "E",
+          "text": "limita-se obrigatoriamente a fotografia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 5º, § 1º, com redação da Lei nº 15.295/2025, determina que nessas hipóteses a identificação incluirá a coleta de material biológico para obtenção do perfil genético."
+    },
+    {
+      "id": "u134-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos casos de prisão em flagrante decorrente dos crimes referidos no artigo 3º, inciso VII,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a identificação criminal é proibida até o recebimento da denúncia."
+        },
+        {
+          "id": "B",
+          "text": "somente fotografia pode ser feita."
+        },
+        {
+          "id": "C",
+          "text": "também será realizada identificação criminal com coleta de material biológico para perfil genético."
+        },
+        {
+          "id": "D",
+          "text": "a coleta depende de condenação transitada em julgado."
+        },
+        {
+          "id": "E",
+          "text": "o flagrante elimina qualquer necessidade de identificação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 5º, § 2º, cria regra própria para o flagrante pelos crimes do inciso VII, incluindo coleta de material biológico."
+    },
+    {
+      "id": "u134-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os dados relacionados à coleta do perfil genético, segundo o artigo 5º-A, serão armazenados em banco de dados",
+      "options": [
+        {
+          "id": "A",
+          "text": "comercial gerenciado por empresa privada escolhida pelo investigado."
+        },
+        {
+          "id": "B",
+          "text": "gerenciado por unidade oficial de perícia criminal."
+        },
+        {
+          "id": "C",
+          "text": "de livre acesso ao público."
+        },
+        {
+          "id": "D",
+          "text": "administrado obrigatoriamente pela defesa."
+        },
+        {
+          "id": "E",
+          "text": "sem qualquer regra de sigilo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º-A determina armazenamento em banco de perfis genéticos gerenciado por unidade oficial de perícia criminal."
+    },
+    {
+      "id": "u134-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As informações genéticas constantes dos bancos de dados, nos termos do artigo 5º-A,",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem revelar livremente qualquer característica comportamental."
+        },
+        {
+          "id": "B",
+          "text": "podem ser usadas para qualquer finalidade administrativa."
+        },
+        {
+          "id": "C",
+          "text": "devem revelar todas as características somáticas possíveis."
+        },
+        {
+          "id": "D",
+          "text": "não podem revelar características somáticas ou comportamentais, salvo determinação genética de gênero prevista na lei."
+        },
+        {
+          "id": "E",
+          "text": "são necessariamente públicas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 1º do artigo 5º-A restringe a revelação de características somáticas ou comportamentais, ressalvando a determinação genética de gênero conforme a literalidade legal."
+    },
+    {
+      "id": "u134-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O uso dos dados do banco de perfis genéticos para finalidade diversa da prevista em lei ou em decisão judicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre permitido."
+        },
+        {
+          "id": "B",
+          "text": "gera apenas advertência verbal."
+        },
+        {
+          "id": "C",
+          "text": "não produz consequência jurídica."
+        },
+        {
+          "id": "D",
+          "text": "é livre se o usuário for agente público."
+        },
+        {
+          "id": "E",
+          "text": "pode gerar responsabilidade civil, penal e administrativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O § 2º do artigo 5º-A prevê sigilo e responsabilização civil, penal e administrativa pelo uso indevido."
+    },
+    {
+      "id": "u134-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando houver coincidência entre perfis genéticos, as informações obtidas",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem constar de laudo pericial firmado por perito oficial devidamente habilitado."
+        },
+        {
+          "id": "B",
+          "text": "dispensam qualquer formalização pericial."
+        },
+        {
+          "id": "C",
+          "text": "podem ser divulgadas anonimamente sem controle."
+        },
+        {
+          "id": "D",
+          "text": "devem ser certificadas apenas pela autoridade policial, sem perícia."
+        },
+        {
+          "id": "E",
+          "text": "substituem automaticamente a prova judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º do artigo 5º-A exige laudo pericial assinado por perito oficial devidamente habilitado."
+    },
+    {
+      "id": "u134-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes do trânsito em julgado da sentença condenatória, a Lei nº 12.037/2009",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige que toda certidão de antecedentes mencione a identificação criminal."
+        },
+        {
+          "id": "B",
+          "text": "obriga divulgação da fotografia a qualquer interessado."
+        },
+        {
+          "id": "C",
+          "text": "veda menção à identificação criminal em atestados de antecedentes ou informações não destinadas ao juízo criminal."
+        },
+        {
+          "id": "D",
+          "text": "proíbe qualquer informação ao próprio juízo criminal."
+        },
+        {
+          "id": "E",
+          "text": "manda eliminar automaticamente todos os registros da investigação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 6º veda a menção à identificação criminal em atestados de antecedentes ou informações não destinadas ao juízo criminal antes do trânsito em julgado da condenação."
+    },
+    {
+      "id": "u134-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos casos previstos no artigo 7º, o indiciado ou réu pode requerer",
+      "options": [
+        {
+          "id": "A",
+          "text": "a exclusão automática de todos os dados biométricos sem qualquer requisito."
+        },
+        {
+          "id": "B",
+          "text": "a retirada da identificação fotográfica do inquérito ou processo, nas condições legais e mediante prova de identificação civil."
+        },
+        {
+          "id": "C",
+          "text": "a destruição imediata de todo o inquérito."
+        },
+        {
+          "id": "D",
+          "text": "a exclusão do perfil genético em qualquer fase sem condições."
+        },
+        {
+          "id": "E",
+          "text": "o cancelamento da ação penal por ter sido fotografado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 7º trata especificamente da retirada da identificação fotográfica, após as condições processuais indicadas e com prova da identificação civil."
+    },
+    {
+      "id": "u134-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à exclusão do perfil genético dos bancos de dados, o artigo 7º-A prevê que",
+      "options": [
+        {
+          "id": "A",
+          "text": "condenação gera exclusão automática no dia do término da pena."
+        },
+        {
+          "id": "B",
+          "text": "absolvição nunca permite exclusão."
+        },
+        {
+          "id": "C",
+          "text": "todo perfil é apagado cinco anos após a coleta."
+        },
+        {
+          "id": "D",
+          "text": "a absolvição é hipótese de exclusão; na condenação, há exclusão a requerimento após 20 anos do cumprimento da pena."
+        },
+        {
+          "id": "E",
+          "text": "a exclusão depende sempre de 20 anos contados da denúncia."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 7º-A distingue absolvição e condenação; nesta última, exige requerimento e 20 anos contados do cumprimento da pena."
+    },
+    {
+      "id": "u134-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 7º-B, a identificação do perfil genético deve ser armazenada",
+      "options": [
+        {
+          "id": "A",
+          "text": "em banco de dados sigiloso, conforme regulamento do Poder Executivo."
+        },
+        {
+          "id": "B",
+          "text": "em rede social pública."
+        },
+        {
+          "id": "C",
+          "text": "apenas no processo físico."
+        },
+        {
+          "id": "D",
+          "text": "sem qualquer regulamentação."
+        },
+        {
+          "id": "E",
+          "text": "em cadastro comercial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 7º-B estabelece armazenamento em banco de dados sigiloso conforme regulamento do Poder Executivo."
+    },
+    {
+      "id": "u134-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Banco Nacional Multibiométrico e de Impressões Digitais tem, entre seus objetivos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir todos os documentos civis do país."
+        },
+        {
+          "id": "B",
+          "text": "armazenar exclusivamente perfis genéticos."
+        },
+        {
+          "id": "C",
+          "text": "armazenar registros biométricos para subsidiar investigações criminais federais, estaduais ou distritais."
+        },
+        {
+          "id": "D",
+          "text": "comercializar registros biométricos."
+        },
+        {
+          "id": "E",
+          "text": "funcionar apenas para fins eleitorais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 7º-C atribui ao banco a finalidade de armazenar registros biométricos, como impressões digitais e, quando possível, íris, face e voz, para subsidiar investigações criminais."
+    },
+    {
+      "id": "u134-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na integração do Banco Nacional Multibiométrico e de Impressões Digitais com bancos de natureza civil, administrativa ou eleitoral, o compartilhamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é irrestrito."
+        },
+        {
+          "id": "B",
+          "text": "inclui obrigatoriamente todos os dados médicos."
+        },
+        {
+          "id": "C",
+          "text": "dispensa convênio."
+        },
+        {
+          "id": "D",
+          "text": "permite comercialização da base."
+        },
+        {
+          "id": "E",
+          "text": "fica limitado às impressões digitais e às informações necessárias para identificar o titular."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 7º-C limita o compartilhamento dessas bases a impressões digitais e informações necessárias à identificação do titular; a integração ou interoperabilidade com outros bancos ocorre por acordo ou convênio com a unidade gestora."
+    },
+    {
+      "id": "u134-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o Banco Nacional Multibiométrico e de Impressões Digitais, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "seus dados são públicos e podem ser vendidos."
+        },
+        {
+          "id": "B",
+          "text": "os dados são sigilosos, coincidências biométricas devem constar de laudo de perito oficial habilitado e a comercialização total ou parcial da base é proibida."
+        },
+        {
+          "id": "C",
+          "text": "a coincidência biométrica dispensa laudo."
+        },
+        {
+          "id": "D",
+          "text": "somente a defesa pode acessar seus dados."
+        },
+        {
+          "id": "E",
+          "text": "a lei autoriza sua comercialização desde que parcial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os §§ 8º a 10 do artigo 7º-C protegem o sigilo, exigem laudo pericial oficial para coincidências e vedam a comercialização total ou parcial da base."
+    },
+    {
+      "id": "u134-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A autoridade policial e o Ministério Público, para acessar o Banco Nacional Multibiométrico e de Impressões Digitais em investigação ou ação penal instaurada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem consultar livremente qualquer registro sem controle judicial."
+        },
+        {
+          "id": "B",
+          "text": "dependem de autorização do investigado."
+        },
+        {
+          "id": "C",
+          "text": "só podem acessar depois da condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "podem requerer o acesso ao juiz competente."
+        },
+        {
+          "id": "E",
+          "text": "precisam de autorização do Poder Legislativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 11 do artigo 7º-C prevê requerimento ao juiz competente no caso de inquérito ou ação penal instaurados."
+    },
+    {
+      "id": "u134-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o fechamento da Lei nº 12.037/2009, é correto afirmar que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrou em vigor na data de sua publicação e revogou a Lei nº 10.054/2000."
+        },
+        {
+          "id": "B",
+          "text": "só entrou em vigor dez anos depois."
+        },
+        {
+          "id": "C",
+          "text": "manteve integralmente vigente a Lei nº 10.054/2000."
+        },
+        {
+          "id": "D",
+          "text": "não possui regra de vigência."
+        },
+        {
+          "id": "E",
+          "text": "revogou a Constituição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os artigos 8º e 9º estabelecem, respectivamente, vigência na publicação e revogação da Lei nº 10.054/2000."
+    }
+  ]
+}
