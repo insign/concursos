@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u114-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O caput do artigo 5º da Constituição assegura a inviolabilidade dos direitos à",
+      "options": [
+        {
+          "id": "A",
+          "text": "vida, liberdade, igualdade, segurança e propriedade."
+        },
+        {
+          "id": "B",
+          "text": "vida, saúde, educação, trabalho e moradia."
+        },
+        {
+          "id": "C",
+          "text": "liberdade, propriedade, nacionalidade, voto e trabalho."
+        },
+        {
+          "id": "D",
+          "text": "igualdade, previdência, propriedade, voto e saúde."
+        },
+        {
+          "id": "E",
+          "text": "vida, dignidade, cidadania, soberania e propriedade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 5º enumera vida, liberdade, igualdade, segurança e propriedade."
+    },
+    {
+      "id": "u114-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem consentimento do morador, a determinação judicial autoriza ingresso em casa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a qualquer hora."
+        },
+        {
+          "id": "B",
+          "text": "apenas durante o dia."
+        },
+        {
+          "id": "C",
+          "text": "somente à noite."
+        },
+        {
+          "id": "D",
+          "text": "apenas se houver desastre."
+        },
+        {
+          "id": "E",
+          "text": "somente após autorização do Ministério Público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pela literalidade do art. 5º, XI, ordem judicial permite ingresso sem consentimento durante o dia; flagrante, desastre e socorro são hipóteses distintas."
+    },
+    {
+      "id": "u114-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 280 do Supremo Tribunal Federal, o ingresso policial forçado em domicílio sem mandado",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre ilícito no período noturno, mesmo em flagrante."
+        },
+        {
+          "id": "B",
+          "text": "é lícito sempre que o agente encontre ilícito depois de entrar."
+        },
+        {
+          "id": "C",
+          "text": "pode ser lícito, inclusive à noite, quando houver fundadas razões anteriores, justificadas posteriormente, indicativas de flagrante no interior da casa."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas de denúncia anônima não verificada."
+        },
+        {
+          "id": "E",
+          "text": "dispensa qualquer justificativa posterior."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A tese do Tema 280 exige fundadas razões indicativas de flagrante, justificadas a posteriori; a descoberta posterior do ilícito não convalida entrada arbitrária."
+    },
+    {
+      "id": "u114-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre reunião e associação, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reunião em local aberto ao público depende de autorização prévia da autoridade."
+        },
+        {
+          "id": "B",
+          "text": "Associação pode ser compulsoriamente dissolvida por ato administrativo."
+        },
+        {
+          "id": "C",
+          "text": "A suspensão de atividade de associação exige decisão judicial; a dissolução compulsória exige, além disso, trânsito em julgado."
+        },
+        {
+          "id": "D",
+          "text": "É permitida associação de caráter paramilitar."
+        },
+        {
+          "id": "E",
+          "text": "A Constituição pode obrigar qualquer pessoa a permanecer associada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Reunião exige prévio aviso, não autorização. Suspensão depende de decisão judicial; dissolução compulsória exige decisão judicial transitada em julgado."
+    },
+    {
+      "id": "u114-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na requisição administrativa decorrente de iminente perigo público, a Constituição prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "indenização sempre prévia e em dinheiro."
+        },
+        {
+          "id": "B",
+          "text": "indenização ulterior, se houver dano."
+        },
+        {
+          "id": "C",
+          "text": "perda definitiva da propriedade sem indenização."
+        },
+        {
+          "id": "D",
+          "text": "indenização apenas mediante emenda constitucional."
+        },
+        {
+          "id": "E",
+          "text": "indenização prévia, ainda que não haja dano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 5º, XXV, permite o uso da propriedade particular e assegura indenização ulterior se houver dano."
+    },
+    {
+      "id": "u114-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O contraditório e a ampla defesa, com os meios e recursos a ela inerentes, são assegurados",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente no processo penal."
+        },
+        {
+          "id": "B",
+          "text": "somente no processo judicial."
+        },
+        {
+          "id": "C",
+          "text": "a litigantes em processo judicial ou administrativo e aos acusados em geral."
+        },
+        {
+          "id": "D",
+          "text": "apenas depois do trânsito em julgado."
+        },
+        {
+          "id": "E",
+          "text": "somente a servidores públicos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 5º, LV, alcança processo judicial e administrativo, litigantes e acusados em geral."
+    },
+    {
+      "id": "u114-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição qualifica o racismo como crime",
+      "options": [
+        {
+          "id": "A",
+          "text": "afiançável e prescritível."
+        },
+        {
+          "id": "B",
+          "text": "inafiançável e imprescritível."
+        },
+        {
+          "id": "C",
+          "text": "inafiançável, mas necessariamente prescritível."
+        },
+        {
+          "id": "D",
+          "text": "sujeito apenas a multa."
+        },
+        {
+          "id": "E",
+          "text": "insuscetível de graça, mas afiançável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 5º, XLII, determina que o racismo é inafiançável e imprescritível, sujeito à pena de reclusão nos termos da lei."
+    },
+    {
+      "id": "u114-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da prisão civil por dívida, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o depositário infiel pode ser preso civilmente sempre que houver contrato escrito."
+        },
+        {
+          "id": "B",
+          "text": "a Constituição não contém nenhuma referência a depositário infiel."
+        },
+        {
+          "id": "C",
+          "text": "a Súmula Vinculante 25 considera ilícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito."
+        },
+        {
+          "id": "D",
+          "text": "a dívida alimentar nunca pode gerar prisão civil."
+        },
+        {
+          "id": "E",
+          "text": "toda dívida contratual admite prisão civil."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Embora o texto do art. 5º, LXVII, ainda mencione depositário infiel, a Súmula Vinculante 25 afasta sua prisão civil."
+    },
+    {
+      "id": "u114-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação entre problema e remédio constitucional está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ameaça à liberdade de locomoção — habeas corpus."
+        },
+        {
+          "id": "B",
+          "text": "omissão normativa — ação popular."
+        },
+        {
+          "id": "C",
+          "text": "acesso a dado pessoal próprio em banco público — mandado de injunção."
+        },
+        {
+          "id": "D",
+          "text": "ato lesivo ao patrimônio público — habeas data."
+        },
+        {
+          "id": "E",
+          "text": "direito líquido e certo residual — habeas corpus."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Habeas corpus tutela a liberdade de locomoção contra violência ou coação, atual ou ameaçada, decorrente de ilegalidade ou abuso de poder."
+    },
+    {
+      "id": "u114-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No mandado de segurança coletivo, a associação deve estar",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalmente constituída e em funcionamento há pelo menos um ano."
+        },
+        {
+          "id": "B",
+          "text": "constituída há pelo menos cinco anos."
+        },
+        {
+          "id": "C",
+          "text": "autorizada pelo Presidente da República."
+        },
+        {
+          "id": "D",
+          "text": "registrada no Congresso Nacional."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente formada por servidores públicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, LXX, exige, para a associação, constituição legal e funcionamento há pelo menos um ano, na defesa dos interesses de seus membros ou associados."
+    },
+    {
+      "id": "u114-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O mandado de injunção é cabível quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "há ameaça concreta à liberdade de locomoção."
+        },
+        {
+          "id": "B",
+          "text": "a falta de norma regulamentadora torna inviável o exercício de direito ou liberdade constitucional ou de prerrogativa ligada à nacionalidade, soberania ou cidadania."
+        },
+        {
+          "id": "C",
+          "text": "se pretende anular ato lesivo ao meio ambiente por qualquer pessoa."
+        },
+        {
+          "id": "D",
+          "text": "se pretende acessar dado de terceiro."
+        },
+        {
+          "id": "E",
+          "text": "há direito líquido e certo plenamente exercitável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O mandado de injunção combate omissão normativa que inviabiliza o exercício das posições constitucionais indicadas no art. 5º, LXXI."
+    },
+    {
+      "id": "u114-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 5º, § 3º, equipara a emendas constitucionais tratados e convenções internacionais sobre direitos humanos aprovados",
+      "options": [
+        {
+          "id": "A",
+          "text": "por maioria simples em sessão conjunta."
+        },
+        {
+          "id": "B",
+          "text": "em cada Casa do Congresso, em dois turnos, por três quintos dos respectivos membros."
+        },
+        {
+          "id": "C",
+          "text": "apenas pelo Senado, por maioria absoluta."
+        },
+        {
+          "id": "D",
+          "text": "por referendo popular obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "pelo Presidente da República sem deliberação legislativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esse é o procedimento constitucional especial previsto no art. 5º, § 3º."
+    },
+    {
+      "id": "u114-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os direitos sociais expressamente previstos no artigo 6º está",
+      "options": [
+        {
+          "id": "A",
+          "text": "transporte."
+        },
+        {
+          "id": "B",
+          "text": "propriedade industrial."
+        },
+        {
+          "id": "C",
+          "text": "extradição."
+        },
+        {
+          "id": "D",
+          "text": "asilo político."
+        },
+        {
+          "id": "E",
+          "text": "sigilo da fonte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 6º inclui, entre outros, educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança e previdência social."
+    },
+    {
+      "id": "u114-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às idades mínimas de trabalho, a Constituição proíbe",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer trabalho a menores de 18 anos."
+        },
+        {
+          "id": "B",
+          "text": "qualquer trabalho a menores de 16 anos, salvo aprendiz a partir dos 14, e trabalho noturno, perigoso ou insalubre a menores de 18."
+        },
+        {
+          "id": "C",
+          "text": "aprendizagem antes dos 16 anos em qualquer hipótese."
+        },
+        {
+          "id": "D",
+          "text": "trabalho diurno a menores de 21 anos."
+        },
+        {
+          "id": "E",
+          "text": "somente trabalho perigoso a menores de 16 anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 7º, XXXIII, combina os limites de 16, 14 para aprendiz e 18 para trabalho noturno, perigoso ou insalubre."
+    },
+    {
+      "id": "u114-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula Vinculante 40 do Supremo Tribunal Federal, a contribuição confederativa do artigo 8º, IV,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é exigível de todos os trabalhadores da categoria."
+        },
+        {
+          "id": "B",
+          "text": "é exigível apenas dos filiados ao sindicato respectivo."
+        },
+        {
+          "id": "C",
+          "text": "é proibida em qualquer hipótese."
+        },
+        {
+          "id": "D",
+          "text": "depende de lei complementar federal para existir."
+        },
+        {
+          "id": "E",
+          "text": "é devida somente por servidores públicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula Vinculante 40 restringe a exigibilidade da contribuição confederativa aos filiados ao sindicato respectivo."
+    },
+    {
+      "id": "u114-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É brasileiro nato, entre outras hipóteses, o nascido no estrangeiro de pai brasileiro ou mãe brasileira que",
+      "options": [
+        {
+          "id": "A",
+          "text": "seja registrado em repartição brasileira competente."
+        },
+        {
+          "id": "B",
+          "text": "tenha necessariamente dois avós brasileiros."
+        },
+        {
+          "id": "C",
+          "text": "se naturalize antes dos 18 anos."
+        },
+        {
+          "id": "D",
+          "text": "resida fora do Brasil por quinze anos."
+        },
+        {
+          "id": "E",
+          "text": "renuncie a qualquer outra nacionalidade no nascimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 12, I, c, prevê o registro em repartição brasileira competente como uma das vias para o filho de pai brasileiro ou mãe brasileira nascido no exterior."
+    },
+    {
+      "id": "u114-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Emenda Constitucional nº 131/2023, a mera aquisição de outra nacionalidade pelo brasileiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera perda automática da nacionalidade brasileira."
+        },
+        {
+          "id": "B",
+          "text": "não gera, por si só, perda automática da nacionalidade brasileira."
+        },
+        {
+          "id": "C",
+          "text": "gera perda apenas para brasileiros natos."
+        },
+        {
+          "id": "D",
+          "text": "gera suspensão dos direitos políticos por dez anos."
+        },
+        {
+          "id": "E",
+          "text": "depende de autorização do Congresso para não gerar perda."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A EC 131/2023 retirou a antiga hipótese de perda automática pela simples aquisição de outra nacionalidade."
+    },
+    {
+      "id": "u114-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São inalistáveis, nos termos da Constituição,",
+      "options": [
+        {
+          "id": "A",
+          "text": "analfabetos e maiores de 70 anos."
+        },
+        {
+          "id": "B",
+          "text": "estrangeiros e conscritos durante o serviço militar obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "brasileiros naturalizados."
+        },
+        {
+          "id": "D",
+          "text": "maiores de 16 e menores de 18 anos."
+        },
+        {
+          "id": "E",
+          "text": "todos os militares."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 14, § 2º, torna inalistáveis estrangeiros e conscritos durante o serviço militar obrigatório."
+    },
+    {
+      "id": "u114-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A lei que alterar o processo eleitoral",
+      "options": [
+        {
+          "id": "A",
+          "text": "só entra em vigor um ano após a publicação."
+        },
+        {
+          "id": "B",
+          "text": "entra em vigor na publicação, mas não se aplica à eleição que ocorra até um ano da data de sua vigência."
+        },
+        {
+          "id": "C",
+          "text": "não produz efeitos enquanto não houver referendo."
+        },
+        {
+          "id": "D",
+          "text": "aplica-se imediatamente a qualquer eleição."
+        },
+        {
+          "id": "E",
+          "text": "depende de lei complementar para vigorar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 16 separa vigência imediata da regra de não aplicação ao pleito que ocorra dentro de um ano."
+    },
+    {
+      "id": "u114-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos partidos políticos, a Constituição",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite coligações nas eleições proporcionais e as proíbe nas majoritárias."
+        },
+        {
+          "id": "B",
+          "text": "permite coligações nas eleições majoritárias e as proíbe nas proporcionais."
+        },
+        {
+          "id": "C",
+          "text": "exige vinculação obrigatória entre candidaturas nacionais e locais."
+        },
+        {
+          "id": "D",
+          "text": "permite subordinação a governo estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "autoriza organização paramilitar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 17 assegura autonomia partidária, admite coligações majoritárias e veda coligações proporcionais, além de preservar os demais limites constitucionais."
+    },
+    {
+      "id": "u114-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 32 da prova Cebraspe DPE/AC — Defensor Público 2024, assinale a hipótese constitucional correta de perda da nacionalidade brasileira.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aquisição voluntária de qualquer segunda nacionalidade."
+        },
+        {
+          "id": "B",
+          "text": "Pedido expresso de perda perante autoridade brasileira competente, ressalvada situação que gere apatridia."
+        },
+        {
+          "id": "C",
+          "text": "Residência no exterior por mais de cinco anos."
+        },
+        {
+          "id": "D",
+          "text": "Casamento com estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "Exercício de profissão no exterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo D. Após a EC 131/2023, o pedido expresso perante autoridade competente é hipótese constitucional, ressalvada a apatridia; a adaptação remapeia a resposta para B."
+    },
+    {
+      "id": "u114-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 6 da prova Cebraspe PGE/MS — Procurador 2021, a ação popular",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente cabe quando houver dano financeiro comprovado aos cofres públicos."
+        },
+        {
+          "id": "B",
+          "text": "pode tutelar moralidade administrativa e outros bens constitucionais mesmo sem demonstração de prejuízo financeiro ao erário."
+        },
+        {
+          "id": "C",
+          "text": "pode ser proposta por qualquer pessoa, inclusive estrangeiro sem cidadania brasileira."
+        },
+        {
+          "id": "D",
+          "text": "é substituto do habeas corpus."
+        },
+        {
+          "id": "E",
+          "text": "protege apenas dados pessoais em banco público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo D: o cabimento da ação popular não depende de prejuízo aos cofres públicos, pois o art. 5º, LXXIII, também protege moralidade administrativa, meio ambiente e patrimônio histórico e cultural."
+    },
+    {
+      "id": "u114-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 27 da prova Cebraspe TJ/RR — serventias extrajudiciais 2025, assinale a alternativa correta sobre habeas data.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É instrumento adequado para obter, em qualquer situação, cópia integral de procedimento administrativo."
+        },
+        {
+          "id": "B",
+          "text": "Pode substituir recurso judicial contra decisão anterior."
+        },
+        {
+          "id": "C",
+          "text": "Não é meio adequado para obter certidão de inteiro teor de procedimento administrativo apenas por ser de interesse do impetrante."
+        },
+        {
+          "id": "D",
+          "text": "Sindicato pode impetrá-lo para obter dados pessoais de qualquer filiado."
+        },
+        {
+          "id": "E",
+          "text": "Nunca cabe para dados de pagamentos tributários do próprio contribuinte."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo B. A adaptação preserva o núcleo: habeas data não é via genérica para obter inteiro teor de procedimento administrativo; o Tema 582 admite seu uso para o próprio contribuinte acessar dados tributários pessoais em sistemas fazendários."
+    }
+  ]
+}
