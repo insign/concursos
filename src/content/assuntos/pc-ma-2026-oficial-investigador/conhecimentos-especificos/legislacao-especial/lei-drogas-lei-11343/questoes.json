@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u123-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 11.343/2006, a caracterização de uma substância como droga depende, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas de sua capacidade abstrata de causar alteração de humor."
+        },
+        {
+          "id": "B",
+          "text": "de especificação em lei ou em listas periodicamente atualizadas pelo Poder Executivo da União, além da capacidade de causar dependência."
+        },
+        {
+          "id": "C",
+          "text": "de prévia condenação judicial relativa à substância."
+        },
+        {
+          "id": "D",
+          "text": "de decreto estadual para cada apreensão."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente da quantidade encontrada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A própria lei vincula o conceito de droga à capacidade de causar dependência e à especificação normativa em lei ou listas periodicamente atualizadas pelo Poder Executivo da União."
+    },
+    {
+      "id": "u123-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Sistema Nacional de Políticas Públicas sobre Drogas articula, entre outros eixos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente repressão policial e execução penal."
+        },
+        {
+          "id": "B",
+          "text": "prevenção do uso indevido, atenção e reinserção social, além da repressão à produção não autorizada e ao tráfico ilícito."
+        },
+        {
+          "id": "C",
+          "text": "apenas tratamento hospitalar compulsório."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente fiscalização alfandegária."
+        },
+        {
+          "id": "E",
+          "text": "somente políticas educacionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei de Drogas combina política pública de prevenção, atenção e reinserção com repressão penal; não se limita ao tráfico."
+    },
+    {
+      "id": "u123-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o plantio de vegetais dos quais possam ser extraídas drogas, a Lei nº 11.343/2006 estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre livre quando destinado a pesquisa privada."
+        },
+        {
+          "id": "B",
+          "text": "é proibido, sem qualquer exceção."
+        },
+        {
+          "id": "C",
+          "text": "é proibido em regra, admitindo autorização da União para fins medicinais ou científicos em condições fiscalizadas."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas de autorização municipal."
+        },
+        {
+          "id": "E",
+          "text": "é automaticamente permitido em pequena escala comercial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra é a proibição, com possibilidade de autorização legal ou regulamentar, inclusive autorização da União para fins medicinais ou científicos em local e prazo predeterminados e sob fiscalização."
+    },
+    {
+      "id": "u123-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas atividades de prevenção do uso indevido de drogas, a lei adota como orientação",
+      "options": [
+        {
+          "id": "A",
+          "text": "estratégia única e indiferente às vulnerabilidades do público."
+        },
+        {
+          "id": "B",
+          "text": "intervenção baseada apenas em punição criminal."
+        },
+        {
+          "id": "C",
+          "text": "redução de fatores de vulnerabilidade e risco e fortalecimento de fatores de proteção, com atenção ao conhecimento científico e ao contexto."
+        },
+        {
+          "id": "D",
+          "text": "exclusão das áreas de educação e assistência social."
+        },
+        {
+          "id": "E",
+          "text": "proibição de estratégias de redução de riscos e danos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 18 e 19 estruturam a prevenção em redução de vulnerabilidades e riscos, fortalecimento de proteção e estratégias adequadas ao contexto, com base científica."
+    },
+    {
+      "id": "u123-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação ao tratamento de pessoa com dependência de drogas, a Lei nº 11.343/2006 prioriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "internação involuntária por tempo indeterminado."
+        },
+        {
+          "id": "B",
+          "text": "tratamento ambulatorial, deixando a internação como medida excepcional quando os recursos extra-hospitalares forem insuficientes."
+        },
+        {
+          "id": "C",
+          "text": "acolhimento compulsório em comunidade terapêutica."
+        },
+        {
+          "id": "D",
+          "text": "internação em unidade prisional comum."
+        },
+        {
+          "id": "E",
+          "text": "tratamento apenas após decisão penal condenatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O tratamento ambulatorial é prioritário. A internação é excepcional e depende da insuficiência de recursos extra-hospitalares, além dos demais requisitos legais."
+    },
+    {
+      "id": "u123-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na absoluta falta de familiar ou responsável legal, a internação involuntária pode ser solicitada, nos termos da lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "por qualquer agente de segurança pública, sem outras condições."
+        },
+        {
+          "id": "B",
+          "text": "por servidor público autorizado das áreas previstas em lei, excluídos os agentes de segurança pública."
+        },
+        {
+          "id": "C",
+          "text": "apenas pelo juiz criminal."
+        },
+        {
+          "id": "D",
+          "text": "somente pelo empregador da pessoa."
+        },
+        {
+          "id": "E",
+          "text": "por qualquer particular que tenha conhecimento do uso de drogas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A hipótese subsidiária admite solicitação de servidor público das áreas de saúde, assistência social ou órgão integrante do sistema previsto na lei, mas exclui agentes de segurança pública."
+    },
+    {
+      "id": "u123-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A internação involuntária destinada à desintoxicação, quando preenchidos os requisitos legais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode durar até um ano."
+        },
+        {
+          "id": "B",
+          "text": "não possui limite temporal."
+        },
+        {
+          "id": "C",
+          "text": "deve durar apenas o tempo necessário, observado o limite máximo de 90 dias."
+        },
+        {
+          "id": "D",
+          "text": "tem prazo fixo mínimo de 180 dias."
+        },
+        {
+          "id": "E",
+          "text": "só pode terminar por ordem judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei limita a internação involuntária ao tempo necessário à desintoxicação e fixa máximo de 90 dias; a família ou representante legal também pode requerer sua interrupção."
+    },
+    {
+      "id": "u123-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Plano Individual de Atendimento previsto na Lei de Drogas deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser elaborado apenas após seis meses de acolhimento."
+        },
+        {
+          "id": "B",
+          "text": "ser público e imutável."
+        },
+        {
+          "id": "C",
+          "text": "ser elaborado em até 30 dias do ingresso, com tratamento confidencial das informações e atualização conforme a evolução do atendimento."
+        },
+        {
+          "id": "D",
+          "text": "substituir toda avaliação multidisciplinar."
+        },
+        {
+          "id": "E",
+          "text": "ser dispensado nas comunidades terapêuticas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O plano é construído a partir de avaliação técnica, tem prazo de até 30 dias, é confidencial e deve acompanhar a evolução do atendimento."
+    },
+    {
+      "id": "u123-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre comunidade terapêutica acolhedora, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É estabelecimento de internação involuntária hospitalar."
+        },
+        {
+          "id": "B",
+          "text": "O acolhimento é residencial e transitório, depende de adesão voluntária e não admite isolamento físico como método."
+        },
+        {
+          "id": "C",
+          "text": "Pode receber qualquer quadro médico grave sem avaliação."
+        },
+        {
+          "id": "D",
+          "text": "Dispensa Plano Individual de Atendimento."
+        },
+        {
+          "id": "E",
+          "text": "É modalidade obrigatória para todo usuário reincidente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A comunidade terapêutica acolhedora opera com participação voluntária, caráter residencial e transitório, avaliação e plano individual, sem se confundir com internação médico-hospitalar."
+    },
+    {
+      "id": "u123-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 506 do Supremo Tribunal Federal, adquirir ou portar Cannabis sativa para consumo pessoal",
+      "options": [
+        {
+          "id": "A",
+          "text": "continua sendo infração penal com pena privativa de liberdade."
+        },
+        {
+          "id": "B",
+          "text": "não constitui infração penal, embora a conduta permaneça ilícita em sentido extrapenal e sujeita às consequências definidas na tese."
+        },
+        {
+          "id": "C",
+          "text": "passou a ser atividade comercial lícita."
+        },
+        {
+          "id": "D",
+          "text": "é sempre tráfico se houver mais de uma porção."
+        },
+        {
+          "id": "E",
+          "text": "não permite apreensão da substância."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 506 afastou a natureza penal do porte de cannabis para consumo pessoal, sem transformar a conduta em atividade lícita; a tese mantém apreensão e medidas dos incisos I e III do art. 28."
+    },
+    {
+      "id": "u123-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Até legislação superveniente, o Tema 506 estabeleceu presunção relativa de uso pessoal de cannabis quando a quantidade for de até",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 gramas ou uma planta, exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "20 gramas ou duas plantas, sem possibilidade de prova contrária."
+        },
+        {
+          "id": "C",
+          "text": "40 gramas ou seis plantas-fêmeas."
+        },
+        {
+          "id": "D",
+          "text": "100 gramas ou dez plantas de qualquer espécie."
+        },
+        {
+          "id": "E",
+          "text": "qualquer quantidade, desde que o agente alegue uso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parâmetro fixado é de até 40 gramas de cannabis ou seis plantas-fêmeas, e a presunção é relativa, não absoluta."
+    },
+    {
+      "id": "u123-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa é encontrada com 20 gramas de cannabis fracionados em diversos invólucros, acompanhados de balança e registros de vendas. À luz do Tema 506,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a quantidade inferior a 40 gramas impede qualquer apuração por tráfico."
+        },
+        {
+          "id": "B",
+          "text": "a presunção de uso é absoluta."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade pode afastar a presunção de uso se justificar, com elementos concretos e objetivos, os indícios de mercancia."
+        },
+        {
+          "id": "D",
+          "text": "o caso deve ser arquivado automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "só o peso da droga pode ser considerado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A presunção de uso é relativa. A tese admite seu afastamento diante de elementos concretos de tráfico, desde que a autoridade motive objetivamente a conclusão."
+    },
+    {
+      "id": "u123-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de tráfico do art. 33 da Lei nº 11.343/2006",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige necessariamente venda por dinheiro."
+        },
+        {
+          "id": "B",
+          "text": "só se configura com importação."
+        },
+        {
+          "id": "C",
+          "text": "possui diversos núcleos, de modo que fornecer ou entregar droga pode configurar o delito mesmo sem venda."
+        },
+        {
+          "id": "D",
+          "text": "não alcança guardar droga para fins de tráfico."
+        },
+        {
+          "id": "E",
+          "text": "não alcança transporte."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 33 é tipo de ação múltipla, com numerosos verbos. Venda é apenas uma das formas possíveis de realização."
+    },
+    {
+      "id": "u123-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A hipótese do art. 33, § 1º, envolvendo agente policial disfarçado exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "que o policial provoque a primeira intenção criminosa sem indício anterior."
+        },
+        {
+          "id": "B",
+          "text": "elementos probatórios razoáveis de conduta criminosa preexistente."
+        },
+        {
+          "id": "C",
+          "text": "autorização do acusado."
+        },
+        {
+          "id": "D",
+          "text": "que a droga seja necessariamente importada."
+        },
+        {
+          "id": "E",
+          "text": "que o agente esteja uniformizado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A própria lei condiciona a hipótese à presença de elementos probatórios razoáveis de conduta criminosa preexistente, evitando tratar provocação sem base anterior como fundamento suficiente."
+    },
+    {
+      "id": "u123-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Oferecer droga eventualmente, sem objetivo de lucro, a pessoa do relacionamento do agente, para juntos a consumirem,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre atípico."
+        },
+        {
+          "id": "B",
+          "text": "corresponde à hipótese específica do art. 33, § 3º, se presentes seus requisitos."
+        },
+        {
+          "id": "C",
+          "text": "é necessariamente associação para o tráfico."
+        },
+        {
+          "id": "D",
+          "text": "é financiamento do tráfico."
+        },
+        {
+          "id": "E",
+          "text": "equivale automaticamente ao porte de cannabis do Tema 506."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 3º possui figura própria para oferta eventual, sem lucro, a pessoa de relacionamento, destinada a consumo conjunto."
+    },
+    {
+      "id": "u123-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para incidência da causa de diminuição do tráfico privilegiado, exige-se cumulativamente que o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "seja primário e nada mais."
+        },
+        {
+          "id": "B",
+          "text": "seja primário, tenha bons antecedentes, não se dedique a atividades criminosas e não integre organização criminosa."
+        },
+        {
+          "id": "C",
+          "text": "confesse e entregue toda a droga."
+        },
+        {
+          "id": "D",
+          "text": "tenha menos de 21 anos."
+        },
+        {
+          "id": "E",
+          "text": "pratique apenas tráfico transnacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "São quatro requisitos cumulativos do art. 33, § 4º: primariedade, bons antecedentes, não dedicação a atividades criminosas e não integração de organização criminosa."
+    },
+    {
+      "id": "u123-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula Vinculante 63 do Supremo Tribunal Federal, o tráfico privilegiado",
+      "options": [
+        {
+          "id": "A",
+          "text": "configura sempre crime hediondo."
+        },
+        {
+          "id": "B",
+          "text": "não configura crime hediondo."
+        },
+        {
+          "id": "C",
+          "text": "só deixa de ser hediondo se houver colaboração premiada."
+        },
+        {
+          "id": "D",
+          "text": "é contravenção penal."
+        },
+        {
+          "id": "E",
+          "text": "é equiparado a crime culposo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula Vinculante 63 afasta a natureza hedionda do tráfico privilegiado do art. 33, § 4º."
+    },
+    {
+      "id": "u123-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reconhecido o tráfico privilegiado e ausentes vetores negativos na primeira fase da dosimetria, a Súmula Vinculante 59 estabelece, observados os requisitos legais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "regime fechado obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "proibição de substituir a pena."
+        },
+        {
+          "id": "C",
+          "text": "regime aberto e substituição da pena privativa de liberdade por restritiva de direitos."
+        },
+        {
+          "id": "D",
+          "text": "absolvição automática."
+        },
+        {
+          "id": "E",
+          "text": "aplicação obrigatória de medida de segurança."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esse é o comando da Súmula Vinculante 59, condicionado aos requisitos indicados no próprio enunciado."
+    },
+    {
+      "id": "u123-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 35 da Lei de Drogas tipifica associação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma pessoa com intenção futura de traficar."
+        },
+        {
+          "id": "B",
+          "text": "duas ou mais pessoas para o fim de praticar os crimes indicados no dispositivo, reiteradamente ou não."
+        },
+        {
+          "id": "C",
+          "text": "três ou mais pessoas apenas em crime transnacional."
+        },
+        {
+          "id": "D",
+          "text": "quatro ou mais pessoas, necessariamente armadas."
+        },
+        {
+          "id": "E",
+          "text": "duas pessoas apenas se houver financiamento externo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 35 fala em duas ou mais pessoas associadas para a finalidade descrita, reiteradamente ou não. Não se confunde com mero concurso ocasional de agentes."
+    },
+    {
+      "id": "u123-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Financiar ou custear a prática dos crimes indicados no art. 36",
+      "options": [
+        {
+          "id": "A",
+          "text": "é mera causa de aumento sem tipo autônomo."
+        },
+        {
+          "id": "B",
+          "text": "constitui crime autônomo, com pena de 8 a 20 anos, além de multa."
+        },
+        {
+          "id": "C",
+          "text": "é conduta atípica se o financiador não tocar na droga."
+        },
+        {
+          "id": "D",
+          "text": "é sempre absorvido pela associação."
+        },
+        {
+          "id": "E",
+          "text": "só é crime se o tráfico for internacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 36 cria delito autônomo de financiamento ou custeio, com pena própria."
+    },
+    {
+      "id": "u123-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A causa de aumento do art. 40, I, relativa à transnacionalidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige necessariamente que a droga atravesse fisicamente a fronteira."
+        },
+        {
+          "id": "B",
+          "text": "não pode incidir em tentativa."
+        },
+        {
+          "id": "C",
+          "text": "pode incidir com prova da destinação internacional, ainda que não se consume a transposição de fronteira, conforme Súmula 607 do Superior Tribunal de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas da nacionalidade estrangeira do agente."
+        },
+        {
+          "id": "E",
+          "text": "é aplicável somente a crimes do art. 28."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Súmula 607 afirma que a destinação internacional comprovada basta para a majorante, sem exigência de efetiva transposição da fronteira."
+    },
+    {
+      "id": "u123-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As causas de aumento do art. 40 aplicáveis aos crimes abrangidos pelo dispositivo elevam a pena, em regra, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "um décimo a um quinto."
+        },
+        {
+          "id": "B",
+          "text": "um sexto a dois terços."
+        },
+        {
+          "id": "C",
+          "text": "metade obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "duas vezes em todas as hipóteses."
+        },
+        {
+          "id": "E",
+          "text": "três quartos a quatro quintos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 40 prevê aumento de 1/6 a 2/3 nas hipóteses enumeradas."
+    },
+    {
+      "id": "u123-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as hipóteses do art. 40 está a prática do crime",
+      "options": [
+        {
+          "id": "A",
+          "text": "nas dependências ou imediações de determinados estabelecimentos e locais especialmente protegidos, como estabelecimentos prisionais, de ensino ou hospitalares."
+        },
+        {
+          "id": "B",
+          "text": "apenas em residência particular."
+        },
+        {
+          "id": "C",
+          "text": "somente durante o período noturno."
+        },
+        {
+          "id": "D",
+          "text": "apenas por estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "somente com droga importada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 40 contém majorante ligada a diversos locais e suas imediações, incluindo estabelecimentos prisionais, de ensino, hospitalares e outros enumerados na lei."
+    },
+    {
+      "id": "u123-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 40-A, acrescentado pela Lei nº 15.358/2026, diferencia-se do art. 40 porque, em seu recorte específico,",
+      "options": [
+        {
+          "id": "A",
+          "text": "extingue a pena."
+        },
+        {
+          "id": "B",
+          "text": "prevê somente multa."
+        },
+        {
+          "id": "C",
+          "text": "determina aplicação em dobro das penas dos arts. 33 a 37."
+        },
+        {
+          "id": "D",
+          "text": "usa necessariamente a fração de um sexto."
+        },
+        {
+          "id": "E",
+          "text": "se aplica ao porte para uso pessoal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alteração de 2026 criou regra de duplicação das penas dos arts. 33 a 37 nas condições específicas do art. 40-A."
+    },
+    {
+      "id": "u123-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No art. 41, a redução de pena de um terço a dois terços pressupõe colaboração voluntária que resulte, nos termos legais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas em confissão."
+        },
+        {
+          "id": "B",
+          "text": "somente na recuperação da droga apreendida."
+        },
+        {
+          "id": "C",
+          "text": "na identificação dos demais coautores ou partícipes e na recuperação total ou parcial do produto do crime."
+        },
+        {
+          "id": "D",
+          "text": "necessariamente em denúncia de crime diverso."
+        },
+        {
+          "id": "E",
+          "text": "somente em pagamento de multa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 41 associa o benefício aos resultados descritos no texto legal: identificação dos demais agentes e recuperação total ou parcial do produto do crime."
+    },
+    {
+      "id": "u123-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na fixação da pena dos crimes da Lei de Drogas, o art. 42 determina especial preponderância de",
+      "options": [
+        {
+          "id": "A",
+          "text": "natureza e quantidade da substância, personalidade e conduta social do agente."
+        },
+        {
+          "id": "B",
+          "text": "apenas idade da vítima."
+        },
+        {
+          "id": "C",
+          "text": "somente confissão."
+        },
+        {
+          "id": "D",
+          "text": "valor do patrimônio familiar."
+        },
+        {
+          "id": "E",
+          "text": "estado civil do agente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 42 dá preponderância à natureza e quantidade da substância ou produto e à personalidade e conduta social do agente."
+    },
+    {
+      "id": "u123-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à liberdade provisória nos crimes abrangidos pelo art. 44, a interpretação constitucional consolidada pelo Supremo Tribunal Federal afirma que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a proibição legal é absoluta e automática."
+        },
+        {
+          "id": "B",
+          "text": "é inconstitucional a vedação legal absoluta constante do art. 44, sem prejuízo de prisão cautelar quando presentes fundamentos próprios."
+        },
+        {
+          "id": "C",
+          "text": "todo preso por tráfico deve ser solto sem análise judicial."
+        },
+        {
+          "id": "D",
+          "text": "a prisão preventiva é proibida."
+        },
+        {
+          "id": "E",
+          "text": "a lei não contém qualquer referência a liberdade provisória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 959 consolidou a inconstitucionalidade da expressão que vedava liberdade provisória no art. 44; isso não impede prisão cautelar concretamente fundamentada."
+    },
+    {
+      "id": "u123-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo legal para conclusão do inquérito policial nos crimes da Lei de Drogas é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias em qualquer situação."
+        },
+        {
+          "id": "B",
+          "text": "30 dias se o indiciado estiver preso e 90 dias se estiver solto, com possibilidade legal de duplicação nas condições do art. 51."
+        },
+        {
+          "id": "C",
+          "text": "60 dias preso e 120 dias solto, sem prorrogação."
+        },
+        {
+          "id": "D",
+          "text": "90 dias preso e 30 dias solto."
+        },
+        {
+          "id": "E",
+          "text": "5 dias preso e 15 dias solto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 51 prevê 30 dias para indiciado preso e 90 dias para solto, admitindo duplicação por decisão judicial nas condições legais."
+    },
+    {
+      "id": "u123-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após prisão em flagrante e recebimento do auto, a Lei de Drogas prevê, quanto à destruição da droga, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o juiz aguarde o trânsito em julgado para qualquer providência."
+        },
+        {
+          "id": "B",
+          "text": "o juiz determine a destruição em 10 dias, preservada amostra, e a autoridade policial a execute em 15 dias nas condições legais."
+        },
+        {
+          "id": "C",
+          "text": "a destruição seja sempre imediata sem amostra."
+        },
+        {
+          "id": "D",
+          "text": "somente o Ministério Público possa determinar a destruição."
+        },
+        {
+          "id": "E",
+          "text": "a droga seja mantida integralmente até a sentença."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os prazos centrais são 10 dias para a determinação judicial e 15 dias para a execução policial, preservando-se amostra necessária à perícia."
+    },
+    {
+      "id": "u123-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a droga é apreendida sem prisão em flagrante, o art. 50-A estabelece destruição, preservada amostra necessária, no prazo máximo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 50-A prevê destruição das drogas apreendidas sem prisão em flagrante em até 30 dias, guardada amostra necessária."
+    },
+    {
+      "id": "u123-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A infiltração de agentes e a não atuação policial imediata previstas no art. 53 dependem, nos termos da lei, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "autorização judicial, ouvido o Ministério Público."
+        },
+        {
+          "id": "B",
+          "text": "autorização exclusiva do investigado."
+        },
+        {
+          "id": "C",
+          "text": "ato unilateral de qualquer particular."
+        },
+        {
+          "id": "D",
+          "text": "prévia condenação."
+        },
+        {
+          "id": "E",
+          "text": "aprovação do Poder Legislativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As técnicas especiais do art. 53 são submetidas a autorização judicial e oitiva do Ministério Público; a não atuação controlada possui requisitos adicionais."
+    },
+    {
+      "id": "u123-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Recebidos os autos pelo Ministério Público na fase prevista no art. 54, o prazo legal para as providências ali enumeradas é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 dias."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 54 fixa 10 dias para que o Ministério Público adote as providências previstas, como arquivamento, diligências ou denúncia."
+    },
+    {
+      "id": "u123-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes do recebimento da denúncia no procedimento especial da Lei de Drogas, a defesa prévia escrita é apresentada, em regra, no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "15 dias úteis."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 55 estabelece prazo de 10 dias para a resposta escrita do acusado."
+    },
+    {
+      "id": "u123-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito do art. 59 da Lei de Drogas e do recurso de apelação, a Súmula 347 do Superior Tribunal de Justiça dispõe que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a apelação só pode ser conhecida se o réu estiver preso."
+        },
+        {
+          "id": "B",
+          "text": "o conhecimento da apelação do réu independe de sua prisão."
+        },
+        {
+          "id": "C",
+          "text": "não cabe apelação em crime de tráfico."
+        },
+        {
+          "id": "D",
+          "text": "somente o Ministério Público pode apelar."
+        },
+        {
+          "id": "E",
+          "text": "a fuga extingue automaticamente o recurso já interposto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 347 impede condicionar o conhecimento do recurso de apelação à prisão do réu."
+    },
+    {
+      "id": "u123-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos crimes dos arts. 33 a 37 praticados com caráter transnacional, a Lei nº 11.343/2006 atribui, em regra, competência à",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justiça Eleitoral."
+        },
+        {
+          "id": "B",
+          "text": "Justiça do Trabalho."
+        },
+        {
+          "id": "C",
+          "text": "Justiça Federal, observada a disciplina territorial do art. 70."
+        },
+        {
+          "id": "D",
+          "text": "Justiça Militar em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "jurisdição estrangeira exclusiva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 70 atribui à Justiça Federal o processo e julgamento dos crimes dos arts. 33 a 37 com caráter transnacional, observada a regra territorial legal."
+    },
+    {
+      "id": "u123-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O confisco alargado do art. 63-F, nos crimes abrangidos pela regra, permite avaliar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o objeto material encontrado na prisão."
+        },
+        {
+          "id": "B",
+          "text": "a diferença entre o patrimônio do condenado e aquele compatível com seu rendimento lícito, observados os requisitos legais."
+        },
+        {
+          "id": "C",
+          "text": "todo patrimônio de familiares sem processo."
+        },
+        {
+          "id": "D",
+          "text": "somente bens imóveis."
+        },
+        {
+          "id": "E",
+          "text": "apenas valores em moeda estrangeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 63-F trabalha com a diferença entre patrimônio do condenado e patrimônio compatível com rendimentos lícitos, dentro de seus pressupostos e garantias."
+    },
+    {
+      "id": "u123-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.281/2025, vigente antes do corte do edital, acrescentou ao art. 23 da Lei de Drogas",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma causa de aumento do tráfico internacional."
+        },
+        {
+          "id": "B",
+          "text": "estratégia específica de assistência à saúde de mulheres usuárias e dependentes de álcool, com especial atenção a gestantes e puérperas."
+        },
+        {
+          "id": "C",
+          "text": "a descriminalização geral de todas as drogas."
+        },
+        {
+          "id": "D",
+          "text": "novo crime de associação."
+        },
+        {
+          "id": "E",
+          "text": "regra de competência da Justiça Federal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração de 2025 inseriu estratégia específica de assistência à saúde para mulheres usuárias e dependentes de álcool, especialmente gestantes e puérperas."
+    }
+  ]
+}
