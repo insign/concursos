@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u104-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime atual da Lei nº 8.429/1992, uma ilegalidade administrativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "configura improbidade automaticamente, ainda que não haja dolo."
+        },
+        {
+          "id": "B",
+          "text": "só constitui improbidade quando também estão presentes dolo, tipicidade e os requisitos materiais do tipo aplicável."
+        },
+        {
+          "id": "C",
+          "text": "jamais pode gerar qualquer outra forma de responsabilidade."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser controlada se houver enriquecimento ilícito."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de lesão ao erário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei de Improbidade trabalha com ilícito qualificado. Mera ilegalidade não substitui dolo, enquadramento em tipo vigente e requisitos próprios dos artigos 9º, 10 ou 11."
+    },
+    {
+      "id": "u104-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei de Improbidade Administrativa, o conceito de agente público",
+      "options": [
+        {
+          "id": "A",
+          "text": "limita-se a servidor efetivo concursado e remunerado."
+        },
+        {
+          "id": "B",
+          "text": "exclui agentes políticos."
+        },
+        {
+          "id": "C",
+          "text": "inclui quem exerce, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades alcançadas pela lei."
+        },
+        {
+          "id": "D",
+          "text": "depende sempre de estabilidade no serviço público."
+        },
+        {
+          "id": "E",
+          "text": "abrange apenas agentes da União."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 2º adota conceito amplo, que inclui agentes políticos e pessoas que exerçam função pública de forma transitória ou gratuita."
+    },
+    {
+      "id": "u104-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um particular que não é agente público pode responder por improbidade quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas conhece socialmente o agente investigado."
+        },
+        {
+          "id": "B",
+          "text": "induz ou concorre dolosamente para a prática do ato de improbidade."
+        },
+        {
+          "id": "C",
+          "text": "obtém qualquer benefício econômico, mesmo sem participação."
+        },
+        {
+          "id": "D",
+          "text": "é sócio de empresa contratada, independentemente de conduta própria."
+        },
+        {
+          "id": "E",
+          "text": "discorda de decisão administrativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º exige induzimento ou concurso doloso. Benefício, vínculo societário ou relação contratual isolados não criam responsabilidade automática."
+    },
+    {
+      "id": "u104-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação descreve corretamente o dolo exigido pela Lei nº 8.429/1992?",
+      "options": [
+        {
+          "id": "A",
+          "text": "É qualquer descumprimento formal da lei."
+        },
+        {
+          "id": "B",
+          "text": "É presumido sempre que houver dano elevado."
+        },
+        {
+          "id": "C",
+          "text": "É a vontade livre e consciente de alcançar o resultado ilícito tipificado; mera voluntariedade não basta."
+        },
+        {
+          "id": "D",
+          "text": "Equivale a negligência grave."
+        },
+        {
+          "id": "E",
+          "text": "É dispensável nos atos do artigo 10."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reforma de 2021 definiu dolo como vontade livre e consciente dirigida ao resultado ilícito tipificado. Culpa e mera voluntariedade não bastam."
+    },
+    {
+      "id": "u104-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a interpretação fixada pelo Supremo Tribunal Federal em 2026 para o artigo 1º, § 8º, a proteção da divergência interpretativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "abrange qualquer opinião pessoal do gestor, ainda que sem apoio jurisprudencial."
+        },
+        {
+          "id": "B",
+          "text": "depende de jurisprudência assentada nos Tribunais Superiores ou no Supremo Tribunal Federal ou, na falta dela, de decisão de mérito transitada em julgado de colegiado de segundo grau, e não opera quando evidenciado dolo ou erro grosseiro."
+        },
+        {
+          "id": "C",
+          "text": "transforma erro grosseiro em causa automática de condenação por improbidade culposa."
+        },
+        {
+          "id": "D",
+          "text": "exige apenas um parecer interno da própria autoridade."
+        },
+        {
+          "id": "E",
+          "text": "deixa de valer se o entendimento for superado no futuro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Supremo qualificou as fontes que podem sustentar a divergência interpretativa e ressalvou dolo e erro grosseiro. Mesmo assim, erro grosseiro não substitui o dolo exigido para condenação."
+    },
+    {
+      "id": "u104-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O elemento material distintivo do ato de improbidade do artigo 9º é",
+      "options": [
+        {
+          "id": "A",
+          "text": "vantagem patrimonial indevida obtida em razão da função."
+        },
+        {
+          "id": "B",
+          "text": "dano efetivo e comprovado ao erário em qualquer caso."
+        },
+        {
+          "id": "C",
+          "text": "mera violação abstrata à legalidade."
+        },
+        {
+          "id": "D",
+          "text": "falta de prestação de contas, mesmo sem finalidade ilícita."
+        },
+        {
+          "id": "E",
+          "text": "existência de sanção disciplinar anterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 9º trata do enriquecimento ilícito. Dano ao erário pode coexistir, mas não é requisito indispensável do tipo."
+    },
+    {
+      "id": "u104-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para caracterizar lesão ao erário no artigo 10, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "dano patrimonial apenas presumido pela irregularidade."
+        },
+        {
+          "id": "B",
+          "text": "perda patrimonial efetiva e comprovada, além do dolo e dos demais requisitos."
+        },
+        {
+          "id": "C",
+          "text": "enriquecimento do agente em qualquer hipótese."
+        },
+        {
+          "id": "D",
+          "text": "condenação prévia pelo tribunal de contas."
+        },
+        {
+          "id": "E",
+          "text": "mera inobservância formal de procedimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A redação atual exige perda patrimonial efetiva e comprovada. Irregularidade formal ou risco abstrato não substituem o dano."
+    },
+    {
+      "id": "u104-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o artigo 11 da Lei de Improbidade Administrativa, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seu rol é meramente exemplificativo e pode ser ampliado por analogia."
+        },
+        {
+          "id": "B",
+          "text": "Qualquer violação genérica à moralidade basta para condenação."
+        },
+        {
+          "id": "C",
+          "text": "Seu rol é taxativo e a condenação exige, entre outros elementos, dolo, finalidade indevida, ilegalidade objetiva e lesividade relevante."
+        },
+        {
+          "id": "D",
+          "text": "Exige sempre dano patrimonial efetivo."
+        },
+        {
+          "id": "E",
+          "text": "Admite modalidade culposa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reforma passou a exigir tipicidade fechada para o artigo 11, sem analogia sancionadora, além dos requisitos gerais e específicos do dispositivo."
+    },
+    {
+      "id": "u104-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quais sanções são próprias de condenação exclusivamente pelo artigo 11, segundo o artigo 12, III?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perda da função pública e suspensão dos direitos políticos por até 12 anos."
+        },
+        {
+          "id": "B",
+          "text": "Multa de até 24 vezes a remuneração e proibição de contratar ou receber benefícios por até quatro anos."
+        },
+        {
+          "id": "C",
+          "text": "Suspensão dos direitos políticos por até 14 anos e multa equivalente ao acréscimo."
+        },
+        {
+          "id": "D",
+          "text": "Perda obrigatória de todos os bens e valores do réu."
+        },
+        {
+          "id": "E",
+          "text": "Prisão civil e suspensão dos direitos políticos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 12, III, não prevê perda da função pública nem suspensão dos direitos políticos para o artigo 11; prevê multa de até 24 remunerações e proibição de contratar ou receber benefícios por até quatro anos."
+    },
+    {
+      "id": "u104-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual combinação de sanções corresponde corretamente aos artigos 9º e 10?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Artigo 9º: suspensão política até 14 anos e multa equivalente ao acréscimo; artigo 10: suspensão até 12 anos e multa equivalente ao dano."
+        },
+        {
+          "id": "B",
+          "text": "Artigo 9º: multa de 24 remunerações; artigo 10: nenhuma multa."
+        },
+        {
+          "id": "C",
+          "text": "Artigo 9º: suspensão até quatro anos; artigo 10: suspensão até 14 anos."
+        },
+        {
+          "id": "D",
+          "text": "Ambos possuem apenas multa e proibição de contratar."
+        },
+        {
+          "id": "E",
+          "text": "Artigo 10 nunca admite perda da função."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No artigo 9º, a suspensão dos direitos políticos pode chegar a 14 anos e a multa equivale ao acréscimo patrimonial; no artigo 10, os limites são 12 anos e multa equivalente ao dano."
+    },
+    {
+      "id": "u104-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após o julgamento do Supremo Tribunal Federal de 24 de junho de 2026, a perda da função pública nos casos em que a sanção é prevista",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica sempre limitada ao vínculo de mesma qualidade existente no momento do fato."
+        },
+        {
+          "id": "B",
+          "text": "não pode alcançar vínculo assumido depois da conduta."
+        },
+        {
+          "id": "C",
+          "text": "deve, como regra, estender-se aos demais vínculos públicos, sendo excepcional e motivada a decisão de não estender a determinado vínculo."
+        },
+        {
+          "id": "D",
+          "text": "foi abolida da Lei de Improbidade."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser aplicada a servidor efetivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Supremo declarou inconstitucionais limitações do artigo 12, § 1º, e interpretou a extensão aos demais vínculos como poder-dever, permitindo não estender apenas excepcionalmente e com fundamentação."
+    },
+    {
+      "id": "u104-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à sanção de proibição de contratar com o poder público, o entendimento firmado pelo Supremo Tribunal Federal em 2026 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela deve ficar obrigatoriamente limitada ao órgão diretamente lesado."
+        },
+        {
+          "id": "B",
+          "text": "ela pode alcançar os três níveis da Federação, sem limitação automática ao ente diretamente lesado."
+        },
+        {
+          "id": "C",
+          "text": "ela foi declarada integralmente inconstitucional."
+        },
+        {
+          "id": "D",
+          "text": "somente pode alcançar a União."
+        },
+        {
+          "id": "E",
+          "text": "somente pode atingir pessoa jurídica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Supremo invalidou a limitação territorial prevista na reforma e assentou que a proibição pode alcançar os três níveis federativos."
+    },
+    {
+      "id": "u104-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após o julgamento das Ações Diretas de Inconstitucionalidade 7.156 e 7.236, a indisponibilidade de bens em ação de improbidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode garantir ressarcimento e nunca pode alcançar multa civil."
+        },
+        {
+          "id": "B",
+          "text": "só pode atingir bens comprovadamente ilícitos."
+        },
+        {
+          "id": "C",
+          "text": "pode, dentro do limite cautelar e respeitadas as impenhorabilidades, abranger ressarcimento, multa civil e enriquecimento ilícito, inclusive com bens de origem lícita."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser decretada depois do trânsito em julgado."
+        },
+        {
+          "id": "E",
+          "text": "dispensa fundamentação quando houver vários réus."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em 24/6/2026, o Supremo afastou as restrições que excluíam multa civil e bens lícitos, permitindo a garantia desses valores dentro do limite necessário e das proteções legais."
+    },
+    {
+      "id": "u104-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após as Ações Diretas de Inconstitucionalidade 7.042 e 7.043, possuem legitimidade para propor ação de improbidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o Ministério Público."
+        },
+        {
+          "id": "B",
+          "text": "somente a pessoa jurídica pública lesada."
+        },
+        {
+          "id": "C",
+          "text": "Ministério Público e pessoa jurídica pública interessada, de forma concorrente e disjuntiva."
+        },
+        {
+          "id": "D",
+          "text": "somente o tribunal de contas competente."
+        },
+        {
+          "id": "E",
+          "text": "qualquer cidadão, independentemente de previsão legal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Supremo restabeleceu a legitimidade ativa concorrente e disjuntiva do Ministério Público e das pessoas jurídicas públicas interessadas."
+    },
+    {
+      "id": "u104-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No acordo de não persecução civil em matéria de improbidade, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a manifestação prévia do Tribunal de Contas é condição obrigatória de validade."
+        },
+        {
+          "id": "B",
+          "text": "o acordo só pode ser celebrado antes da ação."
+        },
+        {
+          "id": "C",
+          "text": "a homologação judicial é dispensada se houver ressarcimento."
+        },
+        {
+          "id": "D",
+          "text": "o Supremo Tribunal Federal declarou inconstitucional a consulta obrigatória ao Tribunal de Contas, embora apoio técnico continue possível."
+        },
+        {
+          "id": "E",
+          "text": "o descumprimento permite novo acordo imediatamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Supremo declarou inconstitucional o artigo 17-B, § 3º, que exigia consulta obrigatória ao Tribunal de Contas. O acordo pode ocorrer em diferentes fases e está sujeito aos demais controles legais."
+    },
+    {
+      "id": "u104-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma absolvição criminal por insuficiência de provas, relacionada aos mesmos fatos discutidos na ação de improbidade,",
+      "options": [
+        {
+          "id": "A",
+          "text": "encerra automaticamente a ação de improbidade."
+        },
+        {
+          "id": "B",
+          "text": "não encerra automaticamente a ação; o Supremo reconheceu efeito impeditivo apenas em hipóteses qualificadas, como inexistência do fato, ausência de participação e determinadas excludentes."
+        },
+        {
+          "id": "C",
+          "text": "prova automaticamente a inexistência de dolo civil."
+        },
+        {
+          "id": "D",
+          "text": "transforma a ação em processo penal."
+        },
+        {
+          "id": "E",
+          "text": "torna imprescritíveis todas as sanções."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em 25/6/2026, o Supremo preservou a autonomia relativa das instâncias e delimitou os fundamentos penais que efetivamente impedem a tramitação da ação de improbidade."
+    },
+    {
+      "id": "u104-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 13/7/2026, qual regra deve ser aplicada ao prazo prescricional após um marco interruptivo previsto no artigo 23?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O prazo recomeça sempre por quatro anos."
+        },
+        {
+          "id": "B",
+          "text": "O prazo recomeça por oito anos, porque o Supremo declarou inconstitucional a redução pela metade; o Tribunal também fixou prazo máximo de 20 anos para a ação."
+        },
+        {
+          "id": "C",
+          "text": "O prazo deixa de existir e todas as sanções tornam-se imprescritíveis."
+        },
+        {
+          "id": "D",
+          "text": "O prazo recomeça por dois anos."
+        },
+        {
+          "id": "E",
+          "text": "A interrupção foi declarada inconstitucional em todos os seus marcos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em 1º/7/2026, o Supremo invalidou a expressão que reduzia pela metade o prazo após interrupção, preservou os marcos interruptivos e fixou teto prescricional de 20 anos."
+    },
+    {
+      "id": "u104-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 897 do Supremo Tribunal Federal, a pretensão de ressarcimento ao erário é imprescritível quando fundada em",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer irregularidade administrativa, mesmo culposa e atípica."
+        },
+        {
+          "id": "B",
+          "text": "ato doloso tipificado na Lei de Improbidade Administrativa."
+        },
+        {
+          "id": "C",
+          "text": "todo débito reconhecido por tribunal de contas."
+        },
+        {
+          "id": "D",
+          "text": "qualquer contrato administrativo inválido."
+        },
+        {
+          "id": "E",
+          "text": "mera falta de prestação de contas, independentemente de dolo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 897 limita a imprescritibilidade ao ressarcimento fundado em ato doloso tipificado como improbidade. As sanções pessoais continuam sujeitas à prescrição."
+    },
+    {
+      "id": "u104-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 28 da prova FGV para Auditor Fiscal de Controle Externo do Tribunal de Contas de Santa Catarina, área Direito, concurso 2026, qual afirmação corresponde ao direito intertemporal da prescrição na Lei de Improbidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O regime prescricional da Lei nº 14.230/2021 retroage integralmente a fatos antigos."
+        },
+        {
+          "id": "B",
+          "text": "O novo regime prescricional é irretroativo, e seus novos marcos temporais contam a partir da publicação da reforma."
+        },
+        {
+          "id": "C",
+          "text": "Toda pretensão sancionadora anterior a 2021 tornou-se automaticamente imprescritível."
+        },
+        {
+          "id": "D",
+          "text": "Os novos marcos só se aplicam a fatos ocorridos depois de julho de 2026."
+        },
+        {
+          "id": "E",
+          "text": "A reforma extinguiu os marcos interruptivos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O gabarito oficial da prova apontou a irretroatividade do novo regime prescricional. O Tema 1.199 do Supremo Tribunal Federal estabelece que os novos marcos temporais passam a ser considerados a partir da publicação da Lei nº 14.230/2021. A redação foi adaptada sem reprodução literal."
+    },
+    {
+      "id": "u104-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 53 da prova Cebraspe para Analista Judiciário do Superior Tribunal de Justiça, 2024, a prescrição das sanções por improbidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "extingue necessariamente qualquer pretensão de ressarcimento ao erário."
+        },
+        {
+          "id": "B",
+          "text": "não impede, por si só, o prosseguimento de pretensão de ressarcimento quando presentes os requisitos da imprescritibilidade reconhecida pelo Supremo Tribunal Federal: ato doloso tipificado na Lei de Improbidade."
+        },
+        {
+          "id": "C",
+          "text": "torna imprescritível a multa civil."
+        },
+        {
+          "id": "D",
+          "text": "impede o reconhecimento de qualquer ato doloso em processo civil."
+        },
+        {
+          "id": "E",
+          "text": "só existe para atos do artigo 11."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original foi julgado errado ao afirmar que a prescrição das sanções obsta necessariamente o ressarcimento. A adaptação explicita o requisito atual do Tema 897: a imprescritibilidade alcança ressarcimento fundado em ato doloso tipificado na Lei de Improbidade."
+    }
+  ]
+}
