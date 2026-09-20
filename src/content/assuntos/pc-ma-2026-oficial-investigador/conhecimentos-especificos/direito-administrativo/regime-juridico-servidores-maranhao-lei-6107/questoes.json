@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u109-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei Estadual 6.107/1994, servidor público é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pessoa que preste serviço ao Estado, ainda que sem investidura."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa legalmente investida em cargo público."
+        },
+        {
+          "id": "C",
+          "text": "somente o ocupante de cargo em comissão."
+        },
+        {
+          "id": "D",
+          "text": "apenas o empregado de empresa estatal."
+        },
+        {
+          "id": "E",
+          "text": "qualquer contratado temporário, independentemente da lei específica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição estatutária vincula a condição de servidor à investidura legal em cargo público."
+    },
+    {
+      "id": "u109-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de validade de concurso público segundo o estatuto estadual pode ser de até",
+      "options": [
+        {
+          "id": "A",
+          "text": "um ano, sem prorrogação."
+        },
+        {
+          "id": "B",
+          "text": "dois anos, prorrogável uma única vez por igual período."
+        },
+        {
+          "id": "C",
+          "text": "três anos, prorrogável indefinidamente."
+        },
+        {
+          "id": "D",
+          "text": "quatro anos, sem prorrogação."
+        },
+        {
+          "id": "E",
+          "text": "cinco anos, prorrogável uma vez."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra estatutária reproduz o modelo de validade de até dois anos, com uma única prorrogação por igual período."
+    },
+    {
+      "id": "u109-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A investidura no cargo público ocorre com",
+      "options": [
+        {
+          "id": "A",
+          "text": "a inscrição no concurso."
+        },
+        {
+          "id": "B",
+          "text": "a homologação do resultado."
+        },
+        {
+          "id": "C",
+          "text": "a nomeação."
+        },
+        {
+          "id": "D",
+          "text": "a posse."
+        },
+        {
+          "id": "E",
+          "text": "o primeiro pagamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei Estadual 6.107/1994 estabelece que a investidura ocorre com a posse."
+    },
+    {
+      "id": "u109-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as formas atuais de provimento preservadas na Lei Estadual 6.107/1994 está",
+      "options": [
+        {
+          "id": "A",
+          "text": "transferência."
+        },
+        {
+          "id": "B",
+          "text": "acesso."
+        },
+        {
+          "id": "C",
+          "text": "reintegração."
+        },
+        {
+          "id": "D",
+          "text": "ascensão funcional."
+        },
+        {
+          "id": "E",
+          "text": "contratação celetista."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução permanecem como formas de provimento. Acesso e transferência foram revogados como formas estatutárias."
+    },
+    {
+      "id": "u109-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da estabilidade, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A literalidade antiga da Lei Estadual 6.107/1994 ainda prevalece ao fixar estabilidade após dois anos."
+        },
+        {
+          "id": "B",
+          "text": "A Constituição vigente exige três anos de efetivo exercício e avaliação especial de desempenho, prevalecendo sobre a literalidade estadual antiga."
+        },
+        {
+          "id": "C",
+          "text": "A estabilidade é adquirida na posse."
+        },
+        {
+          "id": "D",
+          "text": "A estabilidade independe de concurso público."
+        },
+        {
+          "id": "E",
+          "text": "A Constituição vigente fixa estabilidade após vinte e quatro meses."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei estadual ainda conserva redação antiga de dois anos, mas a Constituição vigente estabelece três anos de efetivo exercício e avaliação especial de desempenho."
+    },
+    {
+      "id": "u109-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre disponibilidade de servidor estável em razão da extinção do cargo ou declaração de desnecessidade,",
+      "options": [
+        {
+          "id": "A",
+          "text": "prevalece a antiga literalidade estadual de remuneração integral."
+        },
+        {
+          "id": "B",
+          "text": "a Constituição vigente determina remuneração proporcional ao tempo de serviço até adequado aproveitamento."
+        },
+        {
+          "id": "C",
+          "text": "o servidor perde automaticamente o vínculo."
+        },
+        {
+          "id": "D",
+          "text": "a disponibilidade é sempre sem remuneração."
+        },
+        {
+          "id": "E",
+          "text": "o servidor é obrigatoriamente aposentado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição Federal atual prevalece sobre a redação estadual antiga e prevê disponibilidade com remuneração proporcional ao tempo de serviço até aproveitamento."
+    },
+    {
+      "id": "u109-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 11.894/2023 acrescentou à lista de vacância da Lei 6.107/1994 a hipótese de",
+      "options": [
+        {
+          "id": "A",
+          "text": "licença para interesses particulares."
+        },
+        {
+          "id": "B",
+          "text": "posse em outro cargo inacumulável."
+        },
+        {
+          "id": "C",
+          "text": "afastamento para pós-graduação."
+        },
+        {
+          "id": "D",
+          "text": "remoção a pedido."
+        },
+        {
+          "id": "E",
+          "text": "substituição de cargo em comissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração de 2023 acrescentou ao artigo 39 a vacância decorrente de posse em outro cargo inacumulável."
+    },
+    {
+      "id": "u109-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A redistribuição, na redação atual do artigo 45, corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao deslocamento apenas do servidor, sem o cargo, para outro Poder."
+        },
+        {
+          "id": "B",
+          "text": "ao deslocamento do servidor e do respectivo cargo para outro órgão ou entidade do mesmo Poder, no interesse da Administração."
+        },
+        {
+          "id": "C",
+          "text": "a uma penalidade disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "ao retorno do servidor aposentado."
+        },
+        {
+          "id": "E",
+          "text": "à exoneração seguida de nova nomeação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei Estadual 11.766/2022 atualizou a redistribuição como deslocamento do servidor juntamente com o cargo, dentro do mesmo Poder e em interesse administrativo."
+    },
+    {
+      "id": "u109-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se servidor recebe diárias para viagem oficial que não chega a realizar, a restituição deve ocorrer, segundo o estatuto, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "cinco dias."
+        },
+        {
+          "id": "C",
+          "text": "dez dias."
+        },
+        {
+          "id": "D",
+          "text": "trinta dias."
+        },
+        {
+          "id": "E",
+          "text": "sessenta dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 6.107 estabelece restituição das diárias em cinco dias quando a viagem não ocorre."
+    },
+    {
+      "id": "u109-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito das licenças, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei 6.107 não prevê licença para interesses particulares."
+        },
+        {
+          "id": "B",
+          "text": "licença para acompanhar cônjuge está sempre limitada a vinte e quatro meses."
+        },
+        {
+          "id": "C",
+          "text": "nova licença da mesma espécie concedida em até sessenta dias após a anterior, sem retorno ao serviço, pode ser considerada prorrogação."
+        },
+        {
+          "id": "D",
+          "text": "licença-maternidade estadual é de noventa dias."
+        },
+        {
+          "id": "E",
+          "text": "licença-paternidade não admite extensão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O estatuto contém licença para interesses particulares e excepciona algumas modalidades do limite geral de 24 meses. A regra dos sessenta dias caracteriza continuidade da licença nas condições legais."
+    },
+    {
+      "id": "u109-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após as alterações legislativas estaduais, a licença por adoção ou guarda para fins de adoção é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "trinta dias, independentemente da idade."
+        },
+        {
+          "id": "B",
+          "text": "sessenta dias para qualquer criança."
+        },
+        {
+          "id": "C",
+          "text": "cento e oitenta dias, nas condições legais atuais."
+        },
+        {
+          "id": "D",
+          "text": "noventa dias apenas para criança menor de um ano."
+        },
+        {
+          "id": "E",
+          "text": "um ano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei Estadual 10.464/2016 consolidou licença de 180 dias para adoção ou guarda para adoção, sem a antiga redução por idade da criança."
+    },
+    {
+      "id": "u109-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 11.720/2022 permite ao servidor com filho ou pessoa sob curatela com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "redução automática e permanente da jornada pela metade, sem avaliação."
+        },
+        {
+          "id": "B",
+          "text": "redução de carga horária semanal em até metade, nas condições e mediante o procedimento legal."
+        },
+        {
+          "id": "C",
+          "text": "apenas licença sem remuneração."
+        },
+        {
+          "id": "D",
+          "text": "aposentadoria automática."
+        },
+        {
+          "id": "E",
+          "text": "redução apenas se a pessoa com deficiência for menor de dezoito anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei de 2022 ampliou o benefício para filho ou curatelado com deficiência de qualquer idade, com redução de até metade e avaliação/procedimento específicos."
+    },
+    {
+      "id": "u109-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É dever do servidor estadual",
+      "options": [
+        {
+          "id": "A",
+          "text": "cumprir toda ordem superior, ainda que manifestamente ilegal."
+        },
+        {
+          "id": "B",
+          "text": "zelar pela economia do material e conservação do patrimônio público."
+        },
+        {
+          "id": "C",
+          "text": "utilizar recursos públicos em atividade particular quando não houver dano."
+        },
+        {
+          "id": "D",
+          "text": "omitir irregularidade praticada pela chefia."
+        },
+        {
+          "id": "E",
+          "text": "recusar atendimento ao público por conveniência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 209 inclui zelo pelo material e patrimônio. A ordem manifestamente ilegal não deve ser cumprida, e irregularidades precisam ser comunicadas à autoridade competente."
+    },
+    {
+      "id": "u109-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na acumulação ilegal de cargos, a boa-fé do servidor",
+      "options": [
+        {
+          "id": "A",
+          "text": "é irrelevante em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "pode permitir a opção por um dos vínculos, sem a consequência punitiva própria da má-fé, conforme o regime estadual."
+        },
+        {
+          "id": "C",
+          "text": "torna a acumulação constitucional."
+        },
+        {
+          "id": "D",
+          "text": "impede a Administração de exigir opção."
+        },
+        {
+          "id": "E",
+          "text": "obriga demissão dos dois cargos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O estatuto diferencia a situação de boa-fé da acumulação mantida com má-fé, que pode acarretar sanções e restituições."
+    },
+    {
+      "id": "u109-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação disciplinar prescreve, em regra, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "180 dias para advertência/repreensão, dois anos para suspensão e cinco anos para demissão/cassação/destituição."
+        },
+        {
+          "id": "B",
+          "text": "um ano para qualquer penalidade."
+        },
+        {
+          "id": "C",
+          "text": "dois anos para qualquer penalidade."
+        },
+        {
+          "id": "D",
+          "text": "cinco anos para qualquer penalidade."
+        },
+        {
+          "id": "E",
+          "text": "prazo imprescritível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são os três prazos centrais do estatuto, ressalvada a aplicação do prazo penal quando a infração também constituir crime nas condições legais."
+    },
+    {
+      "id": "u109-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sindicância prevista no estatuto estadual pode resultar em",
+      "options": [
+        {
+          "id": "A",
+          "text": "demissão aplicada diretamente pelo sindicante."
+        },
+        {
+          "id": "B",
+          "text": "arquivamento, advertência, repreensão, suspensão de até trinta dias ou instauração de processo administrativo disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "prisão administrativa."
+        },
+        {
+          "id": "D",
+          "text": "cassação imediata da aposentadoria."
+        },
+        {
+          "id": "E",
+          "text": "somente arquivamento ou ação judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sindicância possui poder sancionador limitado e deve encaminhar infrações mais graves para processo administrativo disciplinar."
+    },
+    {
+      "id": "u109-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo administrativo disciplinar da Lei Estadual 6.107/1994, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a comissão é formada por um único servidor."
+        },
+        {
+          "id": "B",
+          "text": "o afastamento preventivo pode durar sessenta dias, prorrogável uma vez por igual período."
+        },
+        {
+          "id": "C",
+          "text": "a defesa é sempre de cinco dias."
+        },
+        {
+          "id": "D",
+          "text": "a revisão pode agravar a pena."
+        },
+        {
+          "id": "E",
+          "text": "o excesso de prazo gera nulidade automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O afastamento preventivo tem duração de até 60 dias, prorrogável por igual período. A comissão é de três servidores estáveis e a revisão não pode agravar a penalidade."
+    },
+    {
+      "id": "u109-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual 12.286/2024 restabeleceu o artigo 88 da Lei 6.107/1994. Essa regra",
+      "options": [
+        {
+          "id": "A",
+          "text": "criou gratificação geral para todos os servidores civis."
+        },
+        {
+          "id": "B",
+          "text": "trata de aumento de produtividade específico do Grupo Ocupacional Tributação, Arrecadação e Fiscalização."
+        },
+        {
+          "id": "C",
+          "text": "instituiu vantagem policial para Oficial Investigador."
+        },
+        {
+          "id": "D",
+          "text": "alterou a duração do estágio probatório."
+        },
+        {
+          "id": "E",
+          "text": "eliminou a licença para interesses particulares."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 88 restabelecido em 2024 é específico do grupo tributário e não deve ser generalizado para outras carreiras."
+    },
+    {
+      "id": "u109-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 28 da prova Cebraspe para Investigador de Polícia do Maranhão, aplicada em 28/1/2018, considere as regras de licença da Lei Estadual 6.107/1994. Assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O estatuto não prevê licença para interesses particulares."
+        },
+        {
+          "id": "B",
+          "text": "Toda licença da mesma espécie concedida depois da anterior constitui novo período independente, ainda que o servidor não retorne ao serviço e o intervalo seja inferior a sessenta dias."
+        },
+        {
+          "id": "C",
+          "text": "A licença para acompanhar cônjuge ou companheiro está obrigatoriamente limitada a vinte e quatro meses."
+        },
+        {
+          "id": "D",
+          "text": "A licença para interesses particulares existe; licença da mesma espécie concedida em até sessenta dias sem retorno pode ser prorrogação; e a licença para acompanhar cônjuge está entre as exceções ao limite geral de vinte e quatro meses."
+        },
+        {
+          "id": "E",
+          "text": "Somente licenças médicas são admitidas pelo estatuto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo da questão original é D, correspondente às assertivas II e III corretas: a lei trata a nova licença da mesma espécie dentro de sessenta dias como prorrogação nas condições previstas e a licença para acompanhar cônjuge pode ultrapassar o limite geral de 24 meses. A redação foi adaptada."
+    },
+    {
+      "id": "u109-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 29 da mesma prova Cebraspe de 2018, o servidor estadual escolhido em convenção partidária para concorrer a mandato eletivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanece obrigatoriamente em exercício até a eleição."
+        },
+        {
+          "id": "B",
+          "text": "recebe licença remunerada desde a convenção até a posse."
+        },
+        {
+          "id": "C",
+          "text": "é exonerado automaticamente do cargo efetivo."
+        },
+        {
+          "id": "D",
+          "text": "somente se afasta depois do registro da candidatura."
+        },
+        {
+          "id": "E",
+          "text": "tem afastamento sem remuneração da escolha em convenção até a véspera do registro da candidatura, segundo a disciplina estatutária."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito definitivo da questão original é E. A Lei Estadual 6.107/1994 prevê afastamento sem remuneração nesse intervalo da atividade político-partidária. A formulação foi adaptada sem reprodução literal."
+    }
+  ]
+}
