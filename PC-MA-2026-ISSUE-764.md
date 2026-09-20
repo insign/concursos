@@ -430,6 +430,8 @@ A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais
 
 **PC-E13 concluído:** U112–U122 estão publicadas e C/H/Q `done`. Antes de iniciar PC-E14, materializar a divisão individual U123–U141 a partir do edital oficial, porque o agregado recebido não preserva títulos/recortes/diplomas suficientes para selecionar U123 sem inferência.
 
+**Controle de corte e fontes primárias:** a produção usará a [Constituição Federal compilada](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) no estado aplicável ao corte legislativo de **13/7/2026**. A consulta de planejamento em 20/09/2026 confirmou a [Emenda Constitucional nº 139, de 5/5/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm), publicada em 6/5/2026, como alteração constitucional anterior ao corte a ser considerada quando material ao recorte; ela alterou o § 1º do art. 31 e o art. 75. Em U115, a [Lei Complementar nº 230, de 15/4/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm), publicada em 16/4/2026, deve ser auditada na aplicação do art. 18, § 4º, sem expandir o capítulo além do edital. Jurisprudência seguirá a regra temporal registrada na seção 3, sem converter o corte legislativo em corte jurisprudencial por inferência.
+
 ### Legislação Especial — PC-E14 / U123–U141
 
 Planejamento materializado em 20/09/2026, token `PC-E14-PLANEJAMENTO-20260920T1155-01`, base `56f1fb1b337bfb02b54461e02c3cbd82c2da3a16`. Fonte programática: [Edital nº 1 — PCMA — Oficial Investigador, de 13/07/2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf), item 20.2.3, seção **LEGISLAÇÃO ESPECIAL**. A conferência visual das páginas do programa confirma **20 itens numerados** para os **19 IDs U123–U141** já preservados.
@@ -479,7 +481,7 @@ A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: 
 
 **Ordem habilitada:** U123 é a primeira unidade pendente de PC-E14. U123–U141 permanecem C/H/Q `pending`; o planejamento não altera totais nem constitui aceite editorial.
 
-**Controle de corte e fontes primárias:** a produção usará a [Constituição Federal compilada](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) no estado aplicável ao corte legislativo de **13/7/2026**. A consulta de planejamento em 20/09/2026 confirmou a [Emenda Constitucional nº 139, de 5/5/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm), publicada em 6/5/2026, como alteração constitucional anterior ao corte a ser considerada quando material ao recorte; ela alterou o § 1º do art. 31 e o art. 75. Em U115, a [Lei Complementar nº 230, de 15/4/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm), publicada em 16/4/2026, deve ser auditada na aplicação do art. 18, § 4º, sem expandir o capítulo além do edital. Jurisprudência seguirá a regra temporal registrada na seção 3, sem converter o corte legislativo em corte jurisprudencial por inferência.
+
 
 
 ## 8. Evidências de publicação e aceite transferidas
