@@ -152,7 +152,7 @@ Para decidir se a droga se destinava a consumo pessoal, o juiz considera, entre 
 - circunstâncias sociais e pessoais;
 - conduta e antecedentes do agente.
 
-As medidas de prestação de serviços e comparecimento a programa educativo têm duração legal própria, maior na reincidência. A resistência injustificada pode gerar admoestação verbal e multa. A prescrição do artigo 30 é de **2 anos**, observadas as regras legais de interrupção.
+As medidas de prestação de serviços e comparecimento a programa educativo têm duração legal própria, maior na reincidência. A resistência injustificada pode gerar admoestação verbal (repreensão formal) e multa. A prescrição do artigo 30 é de **2 anos**, observadas as regras legais de interrupção.
 
 ### 5.1 Cannabis: o Tema 506 do Supremo mudou a natureza da resposta
 
@@ -160,16 +160,16 @@ O <abbr title="Supremo Tribunal Federal">STF</abbr>, no Tema 506, decidiu que **
 
 Até que o legislador estabeleça critério próprio, há **presunção relativa de uso pessoal** quando a quantidade for de até:
 
-- **40 gramas de cannabis**; ou
+- **40 gramasramas de cannabis**; ou
 - **6 plantas-fêmeas**.
 
 “Presunção relativa” significa que o limite **não decide o caso sozinho**.
 
-- Mesmo abaixo do limite, pode haver prisão por tráfico se existirem elementos concretos de mercancia, como modo de acondicionamento, circunstâncias da apreensão, balança, registros de venda ou outras provas objetivas.
+- Mesmo abaixo do limite, pode haver prisão por tráfico se existirem elementos concretos de comercialização, como modo de acondicionamento, circunstâncias da apreensão, balança, registros de venda ou outras provas objetivas.
 - Acima do limite, o juiz ainda pode reconhecer situação de uso se o conjunto de provas demonstrar finalidade pessoal.
 - Ao afastar a presunção de usuário em quantidade inferior ao parâmetro, a autoridade policial deve justificar de modo detalhado os elementos objetivos que apontam tráfico.
 
-**Pegadinha:** 40 gramas não é uma “franquia para portar droga”, e quantidade superior não produz presunção absoluta de tráfico.
+**Pegadinha:** 40 gramasramas não é uma “franquia para portar droga”, e quantidade superior não produz presunção absoluta de tráfico.
 
 ---
 
@@ -256,7 +256,7 @@ Conduzir embarcação ou aeronave após consumo de drogas, expondo a dano potenc
 
 # Parte V — Causas de aumento, colaboração e consequências
 
-## 8. Artigo 40: majorantes de 1/6 a 2/3
+## 8. Artigo 40: causas de aumento de 1/6 a 2/3\n\n**Majorante** é uma causa legal que aumenta a pena depois de identificado o delito e calculada a pena nas etapas anteriores.
 
 Nos crimes dos artigos 33 a 37, as penas aumentam de **1/6 a 2/3** quando ocorrer hipótese legal, entre elas:
 
@@ -276,7 +276,7 @@ A Lei nº 15.358/2026 acrescentou o artigo 40-A, vigente desde 25 de março de 2
 
 As penas dos artigos 33 a 37 são **aplicadas em dobro** quando o crime for cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto ou para a realização das condutas abrangidas pelo marco legal referido no próprio dispositivo.
 
-O parágrafo único determina **concurso material** com o delito relativo à arma de fogo quando o crime envolver arma, independentemente de ela estar diretamente ligada à comercialização da droga ou ser empregada para assegurá-la.
+O parágrafo único determina **concurso material** — aplicação cumulativa das penas dos delitos, conforme as regras do Código Penal — com o delito relativo à arma de fogo quando o crime envolver arma, independentemente de ela estar diretamente ligada à comercialização da droga ou ser empregada para assegurá-la.
 
 Não confunda:
 
@@ -494,7 +494,7 @@ A Lei nº 11.343/2006 entrou em vigor **45 dias** após sua publicação e revog
 
 | Situação | Regra central |
 |---|---|
-| porte de cannabis para uso pessoal | não é infração penal segundo Tema 506; parâmetro de 40 g ou 6 plantas-fêmeas gera presunção relativa |
+| porte de cannabis para uso pessoal | não é infração penal segundo Tema 506; parâmetro de 40 gramas ou 6 plantas-fêmeas gera presunção relativa |
 | tráfico, artigo 33 | múltiplos verbos; venda não é indispensável |
 | oferta eventual sem lucro para consumo conjunto | hipótese especial do artigo 33, § 3º |
 | tráfico privilegiado | redução de 1/6 a 2/3, requisitos cumulativos; não hediondo |
@@ -513,8 +513,8 @@ A Lei nº 11.343/2006 entrou em vigor **45 dias** após sua publicação e revog
 ## 19. Pegadinhas de alta frequência
 
 1. **“Tráfico exige venda.”** Errado. O artigo 33 contém vários verbos.
-2. **“40 g de cannabis tornam o porte automaticamente lícito.”** Errado. A conduta permanece ilícita extrapenalmente e o parâmetro é presunção relativa de uso.
-3. **“Acima de 40 g é sempre tráfico.”** Errado. O conjunto probatório continua decisivo.
+2. **“40 gramas de cannabis tornam o porte automaticamente lícito.”** Errado. A conduta permanece ilícita extrapenalmente e o parâmetro é presunção relativa de uso.
+3. **“Acima de 40 gramas é sempre tráfico.”** Errado. O conjunto probatório continua decisivo.
 4. **“Tráfico privilegiado é hediondo.”** Errado segundo a Súmula Vinculante 63.
 5. **“A majorante transnacional exige cruzar a fronteira.”** Errado segundo a Súmula 607 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>.
 6. **“Toda internação involuntária pode durar indefinidamente.”** Errado. O limite legal para desintoxicação é de 90 dias.

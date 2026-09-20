@@ -23,7 +23,7 @@
 | internação | excepcional; unidade de saúde/hospital geral; médico |
 | involuntária | familiar/responsável; subsidiariamente agente público autorizado, **não segurança pública** |
 | prazo involuntária | só desintoxicação necessária; máximo **90 dias** |
-| comunicações | internação/alta em **72 h** |
+| comunicações | internação/alta em **72 horas** |
 | <abbr title="Plano Individual de Atendimento">PIA</abbr> | até **30 dias**, confidencial e atualizável |
 | comunidade terapêutica | acolhimento voluntário, residencial/transitório; **não internação** |
 | mulheres alcoolistas | estratégia específica do art. 23, incluída pela Lei 15.281/2025 |
@@ -39,7 +39,7 @@ Critérios: natureza/quantidade + local/condições + circunstâncias sociais/pe
 - cannabis para uso pessoal **não é infração penal**;
 - conduta continua ilícita extrapenalmente;
 - apreensão + medidas dos incisos I e III do art. 28;
-- presunção relativa de usuário: até **40 g** de cannabis ou **6 plantas-fêmeas**;
+- presunção relativa de usuário: até **40 gramas** de cannabis ou **6 plantas-fêmeas**;
 - abaixo do limite ainda pode haver tráfico com elementos concretos;
 - acima do limite ainda pode ser reconhecido uso pessoal;
 - autoridade policial deve justificar objetivamente o afastamento da presunção.
@@ -114,7 +114,7 @@ Se houver arma de fogo na hipótese legal → concurso material nos termos do pa
 
 Redução **1/3 a 2/3** com colaboração voluntária que produza os resultados legalmente exigidos: identificação dos demais agentes **e** recuperação total ou parcial do produto do crime.
 
-## Dosimetria e consequências
+## Fixação da pena e consequências
 
 - art. 42: natureza e quantidade + personalidade e conduta social têm preponderância.
 - art. 43: multa tem disciplina própria.
@@ -162,13 +162,13 @@ O texto do art. 59 não pode ser isolado.
 - medidas assecuratórias atingem bens, direitos e valores com vínculo indiciário ao crime;
 - alienação antecipada busca preservar valor econômico;
 - bens definitivamente perdidos seguem destinação legal, inclusive ao <abbr title="Fundo Nacional Antidrogas">Funad</abbr>;
-- art. 63-F: confisco alargado compara patrimônio do condenado com patrimônio compatível com renda lícita nos crimes abrangidos.
+- art. 63-F: confisco alargado (perda patrimonial calculada pela diferença injustificada) compara patrimônio do condenado com patrimônio compatível com renda lícita nos crimes abrangidos.
 
 ## Números que merecem memória
 
-- **40 g / 6 plantas-fêmeas** — parâmetro relativo de cannabis para uso;
+- **40 gramas / 6 plantas-fêmeas** — parâmetro relativo de cannabis para uso;
 - **90 dias** — máximo da internação involuntária para desintoxicação;
-- **72 h** — comunicação de internação/alta;
+- **72 horas** — comunicação de internação/alta;
 - **30 dias** — <abbr title="Plano Individual de Atendimento">PIA</abbr>;
 - **5–15** — tráfico;
 - **3–10** — maquinário e associação;
@@ -184,7 +184,7 @@ O texto do art. 59 não pode ser isolado.
 
 - tráfico **não** exige venda;
 - quantidade **não** resolve sozinha uso × tráfico;
-- 40 g é presunção relativa, não autorização;
+- 40 gramas é presunção relativa, não autorização;
 - associação ≠ concurso ocasional;
 - tráfico privilegiado ≠ hediondo;
 - art. 40 ≠ art. 40-A;
