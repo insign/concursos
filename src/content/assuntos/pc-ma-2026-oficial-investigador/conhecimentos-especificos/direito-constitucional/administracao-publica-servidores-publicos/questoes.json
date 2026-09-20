@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u116-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os princípios expressos no caput do art. 37 da Constituição são",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência."
+        },
+        {
+          "id": "B",
+          "text": "legalidade, motivação, proporcionalidade, segurança jurídica e eficiência."
+        },
+        {
+          "id": "C",
+          "text": "impessoalidade, razoabilidade, autotutela, publicidade e supremacia."
+        },
+        {
+          "id": "D",
+          "text": "moralidade, indisponibilidade, hierarquia, publicidade e eficiência."
+        },
+        {
+          "id": "E",
+          "text": "legalidade, continuidade, especialidade, eficiência e motivação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 37 enumera legalidade, impessoalidade, moralidade, publicidade e eficiência."
+    },
+    {
+      "id": "u116-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra constitucional de concurso público alcança, em princípio, a investidura em",
+      "options": [
+        {
+          "id": "A",
+          "text": "cargo ou emprego público."
+        },
+        {
+          "id": "B",
+          "text": "apenas cargo efetivo."
+        },
+        {
+          "id": "C",
+          "text": "somente emprego público."
+        },
+        {
+          "id": "D",
+          "text": "qualquer cargo em comissão."
+        },
+        {
+          "id": "E",
+          "text": "função de confiança."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, II, exige concurso para investidura em cargo ou emprego público, ressalvada a nomeação para cargo em comissão declarado em lei de livre nomeação e exoneração."
+    },
+    {
+      "id": "u116-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de validade do concurso público pode ser de até",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois anos, prorrogável uma vez por igual período."
+        },
+        {
+          "id": "B",
+          "text": "quatro anos, improrrogável."
+        },
+        {
+          "id": "C",
+          "text": "um ano, prorrogável duas vezes."
+        },
+        {
+          "id": "D",
+          "text": "cinco anos, a critério da Administração."
+        },
+        {
+          "id": "E",
+          "text": "dois anos, sem possibilidade de prorrogação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, III, estabelece validade de até dois anos, prorrogável uma vez por igual período."
+    },
+    {
+      "id": "u116-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Funções de confiança e cargos em comissão destinam-se constitucionalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "direção, chefia e assessoramento."
+        },
+        {
+          "id": "B",
+          "text": "qualquer atividade operacional permanente."
+        },
+        {
+          "id": "C",
+          "text": "substituir o concurso em carreiras técnicas."
+        },
+        {
+          "id": "D",
+          "text": "serviços temporários de excepcional interesse público."
+        },
+        {
+          "id": "E",
+          "text": "atividades exclusivamente jurisdicionais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, V, limita funções de confiança e cargos em comissão a direção, chefia e assessoramento."
+    },
+    {
+      "id": "u116-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A contratação por tempo determinado exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "lei e necessidade temporária de excepcional interesse público."
+        },
+        {
+          "id": "B",
+          "text": "cargo em comissão previamente criado."
+        },
+        {
+          "id": "C",
+          "text": "concurso com validade mínima de quatro anos."
+        },
+        {
+          "id": "D",
+          "text": "apenas decisão discricionária da chefia."
+        },
+        {
+          "id": "E",
+          "text": "situação permanente de carência de pessoal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, IX, remete à lei os casos de contratação temporária para necessidade temporária de excepcional interesse público."
+    },
+    {
+      "id": "u116-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A publicidade de atos, programas, obras, serviços e campanhas dos órgãos públicos deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter caráter educativo, informativo ou de orientação social e não caracterizar promoção pessoal."
+        },
+        {
+          "id": "B",
+          "text": "sempre conter nome e imagem da autoridade responsável."
+        },
+        {
+          "id": "C",
+          "text": "ser exclusivamente promocional."
+        },
+        {
+          "id": "D",
+          "text": "dispensar finalidade pública se houver interesse eleitoral."
+        },
+        {
+          "id": "E",
+          "text": "ser sigilosa por regra."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, §1º, exige caráter educativo, informativo ou de orientação social e veda promoção pessoal."
+    },
+    {
+      "id": "u116-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Emenda Constitucional nº 138/2025, é constitucionalmente admitida, havendo compatibilidade de horários e observância do teto,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a acumulação de um cargo de professor com outro de qualquer natureza."
+        },
+        {
+          "id": "B",
+          "text": "a acumulação irrestrita de três cargos públicos."
+        },
+        {
+          "id": "C",
+          "text": "somente professor com cargo técnico ou científico."
+        },
+        {
+          "id": "D",
+          "text": "qualquer combinação de dois cargos públicos."
+        },
+        {
+          "id": "E",
+          "text": "dois cargos administrativos comuns."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A EC 138/2025 alterou o art. 37, XVI, b, substituindo a antiga fórmula professor + técnico/científico por professor + outro cargo de qualquer natureza."
+    },
+    {
+      "id": "u116-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à criação de entidades da Administração indireta, a Constituição estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "autarquia é criada por lei específica, enquanto empresa pública, sociedade de economia mista e fundação têm sua instituição autorizada por lei específica."
+        },
+        {
+          "id": "B",
+          "text": "todas são criadas diretamente por decreto."
+        },
+        {
+          "id": "C",
+          "text": "empresa pública é criada diretamente por lei específica."
+        },
+        {
+          "id": "D",
+          "text": "autarquia depende apenas de autorização legislativa, seguida de registro."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma entidade depende de lei."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, XIX, distingue criação da autarquia de autorização para instituição das demais entidades ali indicadas."
+    },
+    {
+      "id": "u116-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A responsabilidade civil prevista no art. 37, §6º, estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas jurídicas de direito público e privadas prestadoras de serviços públicos respondem pelos danos de seus agentes nessa qualidade, com regresso em caso de dolo ou culpa."
+        },
+        {
+          "id": "B",
+          "text": "somente a pessoa física do agente responde perante a vítima."
+        },
+        {
+          "id": "C",
+          "text": "a responsabilidade estatal depende sempre de prova de dolo do agente."
+        },
+        {
+          "id": "D",
+          "text": "não há ação regressiva contra o agente."
+        },
+        {
+          "id": "E",
+          "text": "empresas privadas prestadoras de serviço público nunca respondem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a estrutura do art. 37, §6º: responsabilidade da pessoa jurídica perante o lesado e regresso contra o agente se houver dolo ou culpa."
+    },
+    {
+      "id": "u116-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A readaptação constitucional do servidor titular de cargo efetivo pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "limitação física ou mental, compatibilidade das novas atribuições e manutenção da remuneração do cargo de origem, observadas habilitação e escolaridade exigidas."
+        },
+        {
+          "id": "B",
+          "text": "demissão seguida de novo concurso."
+        },
+        {
+          "id": "C",
+          "text": "redução obrigatória da remuneração."
+        },
+        {
+          "id": "D",
+          "text": "livre escolha de qualquer cargo."
+        },
+        {
+          "id": "E",
+          "text": "aposentadoria compulsória prévia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, §13, disciplina a readaptação nos termos descritos."
+    },
+    {
+      "id": "u116-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No mandato eletivo de Vereador, havendo compatibilidade de horários, o servidor abrangido pelo art. 38",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém as vantagens do cargo, emprego ou função e recebe também a remuneração do mandato eletivo."
+        },
+        {
+          "id": "B",
+          "text": "deve obrigatoriamente abandonar o vínculo público."
+        },
+        {
+          "id": "C",
+          "text": "fica sem remuneração de ambos os vínculos."
+        },
+        {
+          "id": "D",
+          "text": "aplica-se sempre a regra do mandato federal."
+        },
+        {
+          "id": "E",
+          "text": "perde o tempo de serviço para todos os efeitos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 38, III, preserva o vínculo e as remunerações quando houver compatibilidade de horários."
+    },
+    {
+      "id": "u116-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após o julgamento definitivo da ADI 2.135 pelo Supremo Tribunal Federal, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Constituição não impõe atualmente regime jurídico único obrigatório para todos os servidores da administração direta, autarquias e fundações."
+        },
+        {
+          "id": "B",
+          "text": "o regime jurídico único voltou a ser obrigatoriamente exigido para todos os entes."
+        },
+        {
+          "id": "C",
+          "text": "todos os servidores atuais tiveram seu regime automaticamente alterado."
+        },
+        {
+          "id": "D",
+          "text": "emprego público passou a ser vedado."
+        },
+        {
+          "id": "E",
+          "text": "o art. 39 foi integralmente revogado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF julgou constitucional a retirada da obrigatoriedade textual do regime jurídico único pela EC 19/1998, com efeitos voltados a contratações futuras e sem troca automática do regime dos atuais servidores."
+    },
+    {
+      "id": "u116-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 40 da Constituição disciplina o regime próprio de previdência social dos",
+      "options": [
+        {
+          "id": "A",
+          "text": "servidores titulares de cargos efetivos."
+        },
+        {
+          "id": "B",
+          "text": "ocupantes exclusivos de cargo em comissão."
+        },
+        {
+          "id": "C",
+          "text": "empregados públicos celetistas."
+        },
+        {
+          "id": "D",
+          "text": "trabalhadores temporários exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "prestadores de serviço sem vínculo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 40 dirige o RPPS aos servidores titulares de cargos efetivos."
+    },
+    {
+      "id": "u116-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O agente que ocupa exclusivamente cargo em comissão de livre nomeação e exoneração submete-se, em regra constitucional, ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "Regime Geral de Previdência Social."
+        },
+        {
+          "id": "B",
+          "text": "regime próprio do ente, obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "regime militar."
+        },
+        {
+          "id": "D",
+          "text": "regime previdenciário escolhido pela autoridade."
+        },
+        {
+          "id": "E",
+          "text": "sistema sem contribuição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 40, §13, aplica o RGPS a quem ocupa exclusivamente cargo em comissão, cargo temporário, mandato eletivo ou emprego público."
+    },
+    {
+      "id": "u116-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aposentadoria compulsória dos titulares de cargos efetivos alcançados pela Lei Complementar nº 152/2015 ocorre aos",
+      "options": [
+        {
+          "id": "A",
+          "text": "75 anos."
+        },
+        {
+          "id": "B",
+          "text": "70 anos em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "65 anos."
+        },
+        {
+          "id": "D",
+          "text": "80 anos."
+        },
+        {
+          "id": "E",
+          "text": "62 anos para mulheres e 65 para homens."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A LC 152/2015 fixa 75 anos para os agentes nela enumerados, em execução da autorização constitucional do art. 40."
+    },
+    {
+      "id": "u116-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No âmbito da União, a idade mínima constitucional da aposentadoria voluntária comum do servidor titular de cargo efetivo é, respectivamente, para mulher e homem,",
+      "options": [
+        {
+          "id": "A",
+          "text": "62 e 65 anos."
+        },
+        {
+          "id": "B",
+          "text": "60 e 65 anos."
+        },
+        {
+          "id": "C",
+          "text": "55 e 60 anos."
+        },
+        {
+          "id": "D",
+          "text": "65 e 65 anos."
+        },
+        {
+          "id": "E",
+          "text": "60 e 62 anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 40, §1º, III, fixa 62/65 no âmbito da União; nos demais entes, a idade mínima segue suas normas constitucionais e legais próprias dentro da moldura federal."
+    },
+    {
+      "id": "u116-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A estabilidade prevista no art. 41 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "cargo efetivo, concurso público, três anos de efetivo exercício e avaliação especial de desempenho."
+        },
+        {
+          "id": "B",
+          "text": "apenas três anos em qualquer vínculo público."
+        },
+        {
+          "id": "C",
+          "text": "cargo em comissão por três anos."
+        },
+        {
+          "id": "D",
+          "text": "emprego público por dois anos."
+        },
+        {
+          "id": "E",
+          "text": "somente aprovação no concurso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição combina cargo efetivo provido por concurso, três anos de efetivo exercício e avaliação especial de desempenho."
+    },
+    {
+      "id": "u116-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O servidor estável pode perder o cargo, entre outras hipóteses constitucionais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "mediante processo administrativo com ampla defesa."
+        },
+        {
+          "id": "B",
+          "text": "por decisão verbal da chefia."
+        },
+        {
+          "id": "C",
+          "text": "sem motivação por conveniência política."
+        },
+        {
+          "id": "D",
+          "text": "apenas por sentença penal condenatória."
+        },
+        {
+          "id": "E",
+          "text": "nunca, após adquirir estabilidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 41, §1º, inclui sentença judicial transitada em julgado, processo administrativo com ampla defesa e avaliação periódica na forma de lei complementar; o art. 169 traz hipótese adicional."
+    },
+    {
+      "id": "u116-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a demissão do servidor estável for invalidada por sentença judicial, a Constituição prevê sua",
+      "options": [
+        {
+          "id": "A",
+          "text": "reintegração."
+        },
+        {
+          "id": "B",
+          "text": "reversão."
+        },
+        {
+          "id": "C",
+          "text": "promoção automática."
+        },
+        {
+          "id": "D",
+          "text": "aposentadoria."
+        },
+        {
+          "id": "E",
+          "text": "redistribuição obrigatória."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 41, §2º, prevê reintegração; o eventual ocupante estável da vaga terá tratamento constitucional próprio."
+    },
+    {
+      "id": "u116-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o cargo do servidor estável for extinto ou declarado desnecessário, ele",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica em disponibilidade com remuneração proporcional ao tempo de serviço até adequado aproveitamento."
+        },
+        {
+          "id": "B",
+          "text": "é automaticamente demitido sem remuneração."
+        },
+        {
+          "id": "C",
+          "text": "passa obrigatoriamente para cargo em comissão."
+        },
+        {
+          "id": "D",
+          "text": "é aposentado integralmente."
+        },
+        {
+          "id": "E",
+          "text": "perde a estabilidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 41, §3º, prevê disponibilidade com remuneração proporcional ao tempo de serviço até adequado aproveitamento."
+    },
+    {
+      "id": "u116-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 15 da prova Cebraspe SEFA/PR — Agente Fazendário Estadual, aplicada em 25/1/2026, assinale a alternativa correta sobre a organização constitucional da Administração pública.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autarquias são criadas por ato administrativo após autorização legislativa."
+        },
+        {
+          "id": "B",
+          "text": "Empresa pública é pessoa jurídica de direito privado integrante da Administração indireta."
+        },
+        {
+          "id": "C",
+          "text": "A criação de autarquia é exemplo de desconcentração."
+        },
+        {
+          "id": "D",
+          "text": "Eficiência é princípio apenas implícito no art. 37."
+        },
+        {
+          "id": "E",
+          "text": "A Administração pode fazer tudo o que não for proibido em lei."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo E. A alternativa equivalente é a que reconhece a empresa pública como pessoa jurídica de direito privado da Administração indireta; a adaptação remapeia a resposta para B."
+    },
+    {
+      "id": "u116-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 76 da prova FGV TCE-SC — Auditor Fiscal de Controle Externo — Direito, 2026, uma pessoa ocupa exclusivamente cargo em comissão e se aposenta pelo regime aplicável a esse vínculo. À luz da Constituição, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela se submete ao Regime Geral de Previdência Social, e essa aposentadoria não constitui concessão de aposentadoria de servidor efetivo sujeita ao registro do tribunal de contas nos termos do art. 71, III."
+        },
+        {
+          "id": "B",
+          "text": "ela integra obrigatoriamente o regime próprio do ente."
+        },
+        {
+          "id": "C",
+          "text": "todo ocupante de cargo em comissão adquire estabilidade após três anos."
+        },
+        {
+          "id": "D",
+          "text": "o tribunal de contas deve registrar qualquer aposentadoria privada."
+        },
+        {
+          "id": "E",
+          "text": "cargo em comissão se converte em cargo efetivo para fins previdenciários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo A. O art. 40, §13, sujeita ocupante exclusivo de cargo em comissão ao RGPS; por isso, sua aposentadoria não é uma concessão de aposentadoria de servidor efetivo para registro nos termos do art. 71, III."
+    }
+  ]
+}
