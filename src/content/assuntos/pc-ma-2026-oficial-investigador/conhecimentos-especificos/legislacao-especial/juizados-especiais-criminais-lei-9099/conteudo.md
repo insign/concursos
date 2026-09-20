@@ -261,7 +261,7 @@ Da sentença que aplica a transação cabe a apelação prevista no artigo 82.
 
 ## 12. Descumprimento: Súmula Vinculante 35
 
-A <abbr title="Supremo Tribunal Federal">STF</abbr>, na Súmula Vinculante 35, fixou que a homologação da transação penal **não forma coisa julgada material**.
+O <abbr title="Supremo Tribunal Federal">STF</abbr>, na Súmula Vinculante 35, fixou que a homologação da transação penal **não forma coisa julgada material**.
 
 **Coisa julgada material** é a estabilidade que impede rediscutir, em novo processo, a decisão de mérito tornada definitiva.
 
@@ -437,7 +437,17 @@ O Ministério Público pode propor a suspensão:
 - se o acusado não estiver sendo processado nem tiver sido condenado por outro crime;
 - se presentes os demais requisitos legais associados à suspensão condicional da pena.
 
-### 19.1 Transação penal × suspensão condicional
+### 19.1 Condenação anterior: literalidade e período depurador
+
+A literalidade do artigo 89 menciona o acusado que **não tenha sido condenado por outro crime**.
+
+O <abbr title="Supremo Tribunal Federal">STF</abbr>, porém, possui precedente no sentido de que uma condenação anterior já alcançada pelo **período depurador de 5 anos** do artigo 64, I, do Código Penal não constitui, por si só, impedimento permanente ao benefício.
+
+**Período depurador** é o intervalo após o cumprimento ou extinção da pena ao fim do qual a condenação anterior deixa de produzir reincidência nos termos do Código Penal.
+
+Isso não torna a suspensão automática: afastado esse obstáculo, ainda precisam ser examinados os demais requisitos do artigo 89 e do artigo 77 do Código Penal.
+
+### 19.2 Transação penal × suspensão condicional
 
 | Instituto | Momento | Critério de pena | Processo |
 |---|---|---|---|
@@ -483,7 +493,16 @@ A suspensão **poderá ser revogada** se:
 
 Se o prazo terminar sem revogação:
 
-- o juiz declara extinta a punibilidade.
+- a regra legal é a declaração de extinção da punibilidade.
+
+### 21.1 Descumprimento ocorrido no período e revogação posterior — Tema 920/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
+
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixou no Tema Repetitivo 920 que, se a condição foi descumprida **durante o período de prova**, o benefício pode ser revogado mesmo que a decisão de revogação seja tomada depois de ultrapassado formalmente o prazo.
+
+A chave é temporal:
+
+- descumprimento ocorreu **durante** a vigência → revogação posterior pode ser possível;
+- não se cria, com isso, uma condição nova depois de terminado o período.
 
 Durante a suspensão:
 
