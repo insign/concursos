@@ -72,6 +72,8 @@ Dentro do prazo de validade, devem ser observadas as regras constitucionais e ed
 
 ## 3. Formas atuais de provimento
 
+**Provimento** é o modo jurídico pelo qual um cargo público é preenchido ou um servidor passa a ocupá-lo nas hipóteses previstas em lei.
+
 A lista vigente do artigo 11 deve ser lida sem restaurar figuras já revogadas.
 
 As formas de provimento atualmente preservadas são:
@@ -222,6 +224,8 @@ O aproveitamento é obrigatório quando surge cargo compatível, observados os r
 
 ## 11. Vacância
 
+**Vacância** é a situação em que o cargo deixa de ter aquele ocupante, pelas causas previstas em lei.
+
 A lista atual de vacância inclui:
 
 - exoneração;
@@ -324,7 +328,7 @@ Quando a suspensão é convertida em multa, o servidor permanece em serviço e s
 
 Valores devidos ao erário podem ser descontados da remuneração em parcelas, observados os limites legais.
 
-A lei trabalha com limite mensal de até **um quinto** da remuneração ou provento para determinadas reposições e indenizações.
+A lei trabalha com limite mensal de até **um quinto** da remuneração ou do **provento**, isto é, da prestação remuneratória paga ao aposentado, para determinadas reposições e indenizações.
 
 No desligamento do serviço, o saldo deve ser quitado no prazo legal, sob pena das medidas de cobrança cabíveis.
 
@@ -550,7 +554,7 @@ Isso evita transformar matrícula em curso remoto em licença integral automáti
 
 A Lei Estadual 11.720/2022 ampliou a proteção.
 
-Servidor da administração direta, autárquica ou fundacional abrangida pode obter redução da carga semanal em até **metade** para acompanhar tratamento de filho ou pessoa sob curatela com deficiência, congênita ou adquirida, independentemente da idade, nas condições legais.
+Servidor da administração direta, autárquica ou fundacional abrangida pode obter redução da carga semanal em até **metade** para acompanhar tratamento de filho ou pessoa sob **curatela**, medida judicial pela qual um curador assiste ou representa a pessoa nos atos civis definidos judicialmente, com deficiência congênita ou adquirida, independentemente da idade, nas condições legais.
 
 Pontos importantes:
 
@@ -794,7 +798,7 @@ Entre as hipóteses de demissão estão:
 
 **Abandono de cargo** → ausência intencional por mais de **30 dias consecutivos**.
 
-**Inassiduidade habitual** → falta por **60 dias interpolados** dentro de 12 meses, sem causa justificada.
+**Inassiduidade habitual** → falta por **60 dias interpolados**, isto é, não necessariamente consecutivos, dentro de 12 meses, sem causa justificada.
 
 ---
 
@@ -813,6 +817,8 @@ Sempre confira qual sanção está em discussão antes de escolher a autoridade.
 ---
 
 ## 48. Prescrição disciplinar
+
+**Prescrição disciplinar** é a perda da possibilidade de aplicar a sanção pelo decurso do prazo legal, ressalvados os marcos de interrupção ou suspensão previstos no ordenamento.
 
 A ação disciplinar prescreve em:
 
