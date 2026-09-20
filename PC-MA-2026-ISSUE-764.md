@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U130; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U131; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 28 | 0 | 130 |
-| Entregáveis de unidade C/H/Q | 474 | 84 | 0 | 390 |
+| Unidades reais previstas | 158 | 27 | 0 | 131 |
+| Entregáveis de unidade C/H/Q | 474 | 81 | 0 | 393 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U130` e `U144` = **130 unidades**. Pendentes: `U075`, `U131–U143`, `U145–U158` = **28 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U131` e `U144` = **131 unidades**. Pendentes: `U075`, `U132–U143`, `U145–U158` = **27 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **132 = 115 físicas locais + 17 vínculos canônicos**. U130 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 132 visões materializadas com 130 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **133 = 116 físicas locais + 17 vínculos canônicos**. U131 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 133 visões materializadas com 131 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U130: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U131: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U131 — Lavagem de dinheiro — Lei 9.613/1998**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U130 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U131–U141 não forem concluídas.
+**Próxima ação editorial: U132 — Crimes hediondos — Lei 8.072/1990**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U131 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U132–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -461,7 +461,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 6 | U128 — Crimes ambientais — Lei 9.605/1998 — `crimes-ambientais-lei-9605` | Lei nº 9.605/1998 no recorte integral do diploma citado, com ênfase penal sem apagar disposições gerais, processuais e administrativas necessárias à compreensão da lei | nova/local; fontes primárias; U122 apenas apoio constitucional; snapshot `c4ab59d6f8befcf5854e4a5c47c0cdb51df04250` | Leis nº 14.944/2024, 15.150/2025, 15.190/2025, 15.299/2025 e 15.355/2026 incorporadas; pessoa jurídica sem dupla imputação obrigatória, Tema 1.377, art. 48 permanente e ADPF 640 revalidados | done | done | done |
 | 7 | U129 — Lei Maria da Penha — Lei 11.340/2006 — `lei-maria-penha-lei-11340` | Lei nº 11.340/2006 integral: conceitos, formas de violência, assistência, medidas protetivas, atuação policial/judicial e disposições penais/processuais pertinentes | nova/local; apoio incidental U086; snapshot `a0345091a78b118d6fdaf99d623f3c5fe23a6c54` | Leis nº 15.380, 15.383, 15.384, 15.411, 15.412, 15.438 e 15.455/2026 incorporadas; Tema 1.249 e súmulas revalidados; tensão jurisprudencial do art. 20 registrada sem falsa uniformização | done | done | done |
 | 8; 13 | U130 — Investigação criminal conduzida pelo delegado de polícia — Lei 12.830/2013 — `investigacao-criminal-delegado-lei-12830` | Lei nº 12.830/2013 integral. Esta unidade absorve as duas ocorrências do edital sem duplicação física | nova/local; apoio parcial U092, conteúdo `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8`; snapshot `deab3c171c5472c55f1688cf4aaf38c78e37449a` | ADI 5.043 incorporada: investigação não é monopólio do delegado; ADIs 5.059/5.073 pendentes em 20/9/2026; requisição, avocação, remoção e indiciamento revalidados | done | done | done |
-| 9 | U131 — Lavagem de dinheiro — Lei 9.613/1998 — `lavagem-dinheiro-lei-9613` | Lei nº 9.613/1998 integral: tipos, medidas, deveres preventivos, comunicação/controle e procedimento aplicável | nova/local; fontes primárias | Lei nº 15.358/2026 alterou o diploma antes do corte; distinguir crime antecedente, ocultação/dissimulação e deveres administrativos | pending | pending | pending |
+| 9 | U131 — Lavagem de dinheiro — Lei 9.613/1998 — `lavagem-dinheiro-lei-9613` | Lei nº 9.613/1998 integral: tipos, medidas, deveres preventivos, comunicação/controle e procedimento aplicável | nova/local; fontes primárias; snapshot `d4863b22519c95a8efa310f4918c1e5a709fd109` | Lei nº 15.358/2026 incorporada nos arts. 4º-A e 7º; ativos virtuais/CNPEP e estrutura atual do Coaf incorporados; art. 17-D inconstitucional; Tema 990 e autolavagem revalidados | done | done | done |
 | 10 | U132 — Crimes hediondos — Lei 8.072/1990 — `crimes-hediondos-lei-8072` | Lei nº 8.072/1990 integral no corte, com rol, consequências e regras especiais vigentes | nova/local; apoio incidental U096 | Lei nº 15.358/2026 integra o corte; alterações posteriores a 13/7/2026 devem ser excluídas. Não fundir com prisão temporária | pending | pending | pending |
 | 11 | U133 — Crimes resultantes de preconceito de raça ou cor — Lei 7.716/1989 — `crimes-preconceito-raca-cor-lei-7716` | Lei nº 7.716/1989 integral no corte, preservando tipos, causas e disposições gerais atuais | nova/local; biblioteca de igualdade racial é somente apoio conceitual parcial, blob `8eb5f97caddf3274a2215fe6883939edfaf5bac7` | Não confundir o Estatuto da Igualdade Racial com a lei penal especial; verificar alterações legislativas até o corte | pending | pending | pending |
 | 12 | U134 — Identificação criminal do civilmente identificado — Lei 12.037/2009 — `identificacao-criminal-lei-12037` | Lei nº 12.037/2009 integral, incluindo hipóteses, procedimentos e tratamento dos dados nos limites do diploma | nova/local; fontes primárias | Ponte mínima com U092 e garantias de U114; não transformar em capítulo geral de identificação civil | pending | pending | pending |
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U131 é a primeira unidade pendente de PC-E14. U123–U130 estão C/H/Q `done`; U131–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U132 é a primeira unidade pendente de PC-E14. U123–U131 estão C/H/Q `done`; U132–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -566,6 +566,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U128 | `c4ab59d6f8befcf5854e4a5c47c0cdb51df04250` | 38 + 1 | Cebraspe PGE-RN 2023, prova objetiva aplicada em 25/2/2024, questão 49 sobre art. 29; adaptação não literal com itens II e IV corretos |
 | U129 | `a0345091a78b118d6fdaf99d623f3c5fe23a6c54` | 36 + 2 | Cebraspe CAESB 2024, matriz oficial com justificativas, questões 28 e 29 sobre descumprimento de medida protetiva e incidência do sistema protetivo; adaptações não literais revalidadas no corte |
 | U130 | `deab3c171c5472c55f1688cf4aaf38c78e37449a` | 25 + 3 | Cebraspe PC-RO 2022, prova oral, questão 47; PC-ES Delegado 2022, discursiva, questão 3; PC-SE Delegado 2018, discursiva, questão 2; adaptações não literais com padrões oficiais |
+| U131 | `d4863b22519c95a8efa310f4918c1e5a709fd109` | 38 + 1 | Cebraspe PGE-CE 2021, questão 38, gabarito definitivo C, adaptada não literalmente; padrão oral PF 2025 tinha inconsistência interna documentada e não foi importado como questão |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -645,28 +646,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U128 | `e7120b0ee22fc2140c7cd47758d7f08370322dc5` | `04a48d7fdea3fb5c7a6a720063176dda80dc55df` | `7078d689f16045da4982bda9a630e01fa6b1dfb2` | `ab44e2d771ca35ecf2bd493a595a8117c8ea549d` |
 | U129 | `2b3d303fcbe987f22a8755d4f64f5d69e9b34ff3` | `ba514e2b9b08706f95ac3e525b7ae395e2d69d54` | `4687825cfeda016574f174e61a0f975706b9c1c9` | `62b10575c957fe2ec687df57e7acaf2f2569b04b` |
 | U130 | `cf0ac868ad0cb159beb12c4922f20b6773813aad` | `b2016ce011121331c49411c6469febd9e3aaf055` | `8c67c0196b7841bbd22d7fb7253ebaae0b628d23` | `62bcb85b8dc1cbd2182c1b723455bc2caacb636e` |
+| U131 | `bb1d18003fd4cc2b8f00c692a7b44bdbd8795f14` | `befbcacbad496086b268779281e4a2897769a244` | `7ad0effe394a137b1cba77349aa462e5c49af052` | `4022ffb022c65aeb610ba2d83a08b9e028c15b2f` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U130
+### Último aceite — U131
 
-Pacote de **Investigação criminal conduzida pelo delegado de polícia — Lei nº 12.830/2013**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u130`, `order: 130`. A unidade absorve as duas ocorrências do edital, itens 8 e 13, sem duplicação física. Snapshot editorial final `deab3c171c5472c55f1688cf4aaf38c78e37449a`; base reservada `38c56090a438d8f21a35b353aeeab06e684727ea`. A comparação base→snapshot confirma **exatamente quatro arquivos da U130**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Lavagem de dinheiro — Lei nº 9.613/1998**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u131`, `order: 131`. Snapshot editorial final `d4863b22519c95a8efa310f4918c1e5a709fd109`; base reservada `0a6846ff4836988e90619eb18ab2f47f43da0b4e`. A comparação base→snapshot confirma **exatamente quatro arquivos da U131**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. U092 — Inquérito policial — foi lida integralmente como apoio parcial, conteúdo `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8`. U092 continua responsável por instauração, prazos, sigilo, diligências gerais, conclusão, arquivamento e valor informativo; U130 concentra a Lei nº 12.830/2013, evitando duplicação.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral. A busca na `main` não localizou origem física ou canônica compatível. U123 é apenas ponte para a regra especial de bens oriundos do tráfico; U130 contém a investigação criminal pelo delegado; esses recortes não foram duplicados.
 
-No corte legislativo de **13/7/2026**, não foi identificada alteração textual da Lei nº 12.830/2013. A atualização material é jurisprudencial. A ADI 5.043 do Supremo Tribunal Federal, concluída em 2025, foi incorporada para afastar interpretação do artigo 2º, § 1º, que atribua privativa ou exclusivamente ao delegado a condução de toda investigação criminal; o Senado Federal registra a declaração de inconstitucionalidade parcial sem redução do texto.
+Corte legislativo de **13/7/2026**: a Lei nº 15.358/2026 foi incorporada nos artigos 4º-A e 7º, com disciplina patrimonial distinta conforme competência da Justiça Federal, Estadual ou do Distrito Federal. Também foram incorporadas as alterações da Lei nº 14.478/2022 sobre ativos virtuais, prestadores de serviços de ativos virtuais e Cadastro Nacional de Pessoas Expostas Politicamente, e a Lei nº 13.974/2020 para a estrutura institucional atual do Coaf.
 
-As ADIs 5.059 e 5.073 foram revalidadas em 20/9/2026. Houve voto do relator em 27/8/2026 sobre poder de requisição, reserva de jurisdição, avocação, redistribuição e remoção, mas o julgamento foi suspenso e posteriormente retirado do calendário de 10/9/2026. A página oficial ainda não mostrava decisão colegiada final. O material registra esse **estado processual**, sem transformar voto individual em tese vinculante; PC-F03 deverá revalidar eventual conclusão na janela final do edital.
+O tipo penal foi ensinado com a distinção entre autonomia e dependência lógica da infração antecedente: após a Lei nº 12.683/2012, **qualquer infração penal** pode gerar produto lavável; não é necessária condenação prévia, identificação do autor antecedente ou persistência de sua punibilidade, mas deve existir fato antecedente penalmente típico. Jurisprudência do Superior Tribunal de Justiça foi usada para diferenciar autolavagem — admissível com atos autônomos de ocultação/dissimulação — do mero recebimento ou exaurimento do produto do antecedente.
 
-O artigo 2º, § 2º, é ensinado em conjunto com a reserva de jurisdição: a requisição legal de perícia, informações, documentos e dados não elimina autorização judicial quando Constituição ou lei a exigem. Precedente do Superior Tribunal de Justiça foi usado apenas para mostrar que dados cadastrais básicos podem, nas hipóteses legais, ser requisitados diretamente, sem generalização para conteúdos mais protegidos.
+O Tema 990 do Supremo Tribunal Federal foi incorporado para o compartilhamento formal de relatórios de inteligência financeira e procedimento fiscal com órgãos de persecução, sem confundir esse compartilhamento com requisição irrestrita de dados bancários ou fiscais brutos. A ADI 4.911 foi incorporada para registrar que o artigo 17-D, embora ainda apareça no compilado, foi declarado inconstitucional e não pode fundamentar afastamento automático de servidor público apenas pelo indiciamento.
 
-Indiciamento: foram revalidados o HC 169.731 e o HC 115.015 do Supremo Tribunal Federal e o Informativo 552 do Superior Tribunal de Justiça, afastando imposição judicial do indiciamento e preservando sua natureza privativa, fundamentada e técnico-jurídica. A mesma lógica impede o Ministério Público de impor ao delegado a conclusão de indiciamento, sem prejudicar suas competências próprias. A privatividade não exclui controle jurisdicional de ilegalidade; precedente de 2025 do Superior Tribunal de Justiça determinou cancelamento do registro quando as provas que o embasavam foram declaradas nulas.
+Foram publicadas **39 questões: 38 autorais + 1 anterior verificada**, adaptação não literal da questão 38 da prova objetiva Cebraspe/PGE-CE 2021, gabarito definitivo C, sobre colaboração espontânea. O padrão da prova oral Cebraspe/PF 2025 foi consultado, mas não convertido em questão porque continha inconsistência interna ao qualificar a natureza do crime; a divergência foi registrada em `referencias.md` em vez de normalizada silenciosamente. Nenhuma resolução separada foi necessária.
 
-Foram publicadas **28 questões: 25 autorais + 3 anteriores verificadas**, adaptações não literais de Cebraspe PC-RO 2022, prova oral questão 47; PC-ES Delegado 2022, discursiva questão 3; e PC-SE Delegado 2018, discursiva questão 2. Elas cobrem, respectivamente, avocação/remoção/indiciamento, estrutura e momento do indiciamento e impossibilidade de sua imposição pelo Ministério Público. Nenhuma resolução separada foi necessária.
+Densidade final: `conteudo.md` com 29.525 caracteres e `cheat-sheet.md` com 7.059. Microglossário pós-inspeção: **24 pares `abbr` no conteúdo e 10 no cheat sheet, todos balanceados**; nas referências permanece apenas o ID interno `PC-F03` fora da marcação. O JSON permanece texto puro, `questionSetRevision: 1`, 39 IDs únicos, 38 origens `authorial`, 1 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
 
-Densidade final: `conteudo.md` com 18.542 caracteres e `cheat-sheet.md` com 4.414. Microglossário pós-inspeção: **27 pares `abbr` no conteúdo e 9 no cheat sheet, todos balanceados**. O token remanescente `PC-F03` é ID interno e não recebe marcação; nas referências, “STF” remanescente integra título oficial de notícia. O JSON permanece texto puro, `questionSetRevision: 1`, 28 IDs únicos, 25 origens `authorial`, 3 `previous_exam` e todos os gabaritos apontam para alternativas existentes.
-
-**PC-E14 permanece em andamento:** U123–U130 estão C/H/Q `done`; U131–U141 seguem `pending`. A próxima intervenção habilitada é U131 — Lavagem de dinheiro — Lei nº 9.613/1998.
+**PC-E14 permanece em andamento:** U123–U131 estão C/H/Q `done`; U132–U141 seguem `pending`. A próxima intervenção habilitada é U132 — Crimes hediondos — Lei nº 8.072/1990.
 
 ### Registros operacionais superados
 
