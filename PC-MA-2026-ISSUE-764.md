@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U121; PC-E12 permanece concluído e PC-E13 segue em execução; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U122; PC-E13 — Direito Constitucional está concluído; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 37 | 0 | 121 |
-| Entregáveis de unidade C/H/Q | 474 | 111 | 0 | 363 |
-| Tarefas macro individualizadas | 62 | 26 | 0 | 36 |
+| Unidades reais previstas | 158 | 36 | 0 | 122 |
+| Entregáveis de unidade C/H/Q | 474 | 108 | 0 | 366 |
+| Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U121` e `U144` = **121 unidades**. Pendentes: `U075`, `U122–U143`, `U145–U158` = **37 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U122` e `U144` = **122 unidades**. Pendentes: `U075`, `U123–U143`, `U145–U158` = **36 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **123 = 106 físicas locais + 17 vínculos canônicos**. U121 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 123 visões materializadas com 121 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **124 = 107 físicas locais + 17 vínculos canônicos**. U122 acrescentou uma visão física local; o `grupo.json` de Direito Constitucional permanece estrutural e não é visão nem unidade. Não confundir 124 visões materializadas com 122 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
 Reservas ativas na transferência: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos**, C/H/Q `pending`. U121 foi concluída; PC-E13-C/H/Q permanece `pending` como macro enquanto U122 não for concluída.
+**Próxima ação: materializar o planejamento individual de PC-E14 — Legislação Especial (U123–U141)** a partir do edital oficial antes de selecionar U123. O registro detalhado preserva apenas o agregado U123–U141 e explicita que a lista integral de diplomas/literalidades e os títulos individuais não eram recuperáveis do corpo recebido; não inventar U123 por inferência. PC-E13-C/H/Q está `done`.
 
 ### Pendências e divergências herdadas
 
@@ -160,7 +160,7 @@ Cada célula C/H/Q representa a tarefa de sufixo correspondente, por exemplo PC-
 | PC-E10 | Direito Penal — U081–U090 | done | done | done |
 | PC-E11 | Direito Processual Penal — U091–U097 | done | done | done |
 | PC-E12 | Direito Administrativo — U098–U111 | done | done | done |
-| PC-E13 | Direito Constitucional — U112–U122 | pending | pending | pending |
+| PC-E13 | Direito Constitucional — U112–U122 | done | done | done |
 | PC-E14 | Legislação Especial — U123–U141 | pending | pending | pending |
 | PC-E15 | Direitos Humanos — U142–U148 | pending | pending | pending |
 | PC-E16 | Medicina Legal — U149–U155 | pending | pending | pending |
@@ -222,7 +222,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U075 | Geografia do Maranhão; parcial | C/H/Q pending no consolidado; divergência física sem aceite preservada |
 | U098–U100; U102–U111 | Direito Administrativo; novas | C/H/Q pending; recortes individuais ausentes no corpo recebido |
 | U101 | Direito Administrativo; parcial | C/H/Q done; aceite recebido sem detalhamento antigo suficiente neste corpo |
-| U112–U122 | Direito Constitucional; novas | C/H/Q pending; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; ver seção 7 |
+| U112–U122 | Direito Constitucional; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; evidências individuais na seção 8 |
 | U123–U141 | Legislação Especial; novas | C/H/Q pending; lista integral de diplomas/literalidades não recuperável do corpo recebido |
 | U142 | Direitos Humanos; parcial; `teoria-geral-direitos-humanos` | C/H/Q pending; reserva PC-R04-U142-20260915-01 explicitamente liberada |
 | U143; U145–U148 | Direitos Humanos; novas | C/H/Q pending; detalhes individuais ausentes |
@@ -426,9 +426,9 @@ A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais
 | 9; 9.1 | U119 — Poder Judiciário — disposições gerais — `poder-judiciario` | Somente disposições gerais necessárias ao item 9.1. Órgãos, competências específicas e Conselho Nacional de Justiça do pacote TCE são fronteira, não cobertura automática | nova/local; apoio físico TCE Geral `poder-judiciario/` auditado, árvore `7610d95da2f769f40db18019a6b08df97491df8d`; recorte concentrado nos arts. 92–100, com EC 130/2023, EC 134/2024 e EC 136/2025 revalidadas; snapshot `401c841cbfdc2e14a4ad5c31a0ec38e4f7e93fda` | done | done | done |
 | 10 | U120 — Funções essenciais à Justiça — Advocacia, Ministério Público, Advocacia Pública e Defensoria Pública — `funcoes-essenciais-justica` | Preservar **Advocacia** como item literal além de Ministério Público, Advocacia Pública e Defensoria Pública. Não tratar essas funções como integrantes do Poder Judiciário | nova/local; apoio físico TCE Geral `funcoes-essenciais-justica/` auditado, árvore `15b3fdda3f3a7a8c60c3e18743f26aee1920dd44`; arts. 127–135 revalidados, Advocacia do art. 133 incorporada como núcleo próprio; snapshot `feecaac55f1e9ab1bb94fdb4aedca87f0238c98c` | done | done | done |
 | 11; 11.1–11.2 | U121 — Defesa do Estado e das instituições democráticas — segurança pública — `defesa-estado-seguranca-publica` | Defesa do Estado e das instituições democráticas; segurança pública e sua organização. Fazer ponte com U111 somente para a Polícia Civil, sem transformar a Lei 14.735/2023 em substituto do art. 144 e dos demais órgãos constitucionais | nova/local; sem doador integral; Constituição arts. 136–144 e fontes primárias revalidadas; ponte seletiva U111 somente para Polícia Civil; STF ADI 6.457, Tema 656 e ADPF 1.214 auditados; snapshot `8424c7feca7d7a23fb86510d5d10b9f143fe812a` | done | done | done |
-| 12; 12.1–12.4 | U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos — `ordem-social-seguridade-meio-ambiente-familia` | Base e objetivos da ordem social; seguridade social; meio ambiente; família, criança, adolescente, idoso e indígena. Não antecipar legislação infraconstitucional específica sem necessidade | TCE Noções: `constituicao-federal-artigos-23-170-225-231/`, árvore `ccac1f14f63196bea99f23270328fe12e9462d5a`; apoio somente para art. 225 e art. 231, com demais núcleos ausentes | pending | pending | pending |
+| 12; 12.1–12.4 | U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos — `ordem-social-seguridade-meio-ambiente-familia` | Base e objetivos da ordem social; seguridade social; meio ambiente; família, criança, adolescente, idoso e indígena. Não antecipar legislação infraconstitucional específica sem necessidade | nova/local; apoio seletivo TCE Noções `constituicao-federal-artigos-23-170-225-231/`, árvore `ccac1f14f63196bea99f23270328fe12e9462d5a`, apenas arts. 225/231; demais núcleos produzidos de fontes primárias; snapshot `87653efc1e5c9c94ba81d3e724524c1adae1cdb0` | done | done | done |
 
-**Ordem habilitada:** U122 é a primeira unidade pendente de PC-E13. U112–U121 estão publicadas; seguir U122, salvo dependência material comprovada ou pedido explícito.
+**PC-E13 concluído:** U112–U122 estão publicadas e C/H/Q `done`. Antes de iniciar PC-E14, materializar a divisão individual U123–U141 a partir do edital oficial, porque o agregado recebido não preserva títulos/recortes/diplomas suficientes para selecionar U123 sem inferência.
 
 **Controle de corte e fontes primárias:** a produção usará a [Constituição Federal compilada](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) no estado aplicável ao corte legislativo de **13/7/2026**. A consulta de planejamento em 20/09/2026 confirmou a [Emenda Constitucional nº 139, de 5/5/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc139.htm), publicada em 6/5/2026, como alteração constitucional anterior ao corte a ser considerada quando material ao recorte; ela alterou o § 1º do art. 31 e o art. 75. Em U115, a [Lei Complementar nº 230, de 15/4/2026](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp230.htm), publicada em 16/4/2026, deve ser auditada na aplicação do art. 18, § 4º, sem expandir o capítulo além do edital. Jurisprudência seguirá a regra temporal registrada na seção 3, sem converter o corte legislativo em corte jurisprudencial por inferência.
 
@@ -506,6 +506,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U119 | `401c841cbfdc2e14a4ad5c31a0ec38e4f7e93fda` | 24 + 0 | Nenhuma anterior forçada; doador só trazia autorais no recorte e candidatos externos inadequados/anulados foram descartados |
 | U120 | `feecaac55f1e9ab1bb94fdb4aedca87f0238c98c` | 24 + 1 | CESPE/UnB TRT 8ª Região 2013, Cargo 11, questão 9, gabarito definitivo D; adaptação não literal do núcleo do art. 133 |
 | U121 | `8424c7feca7d7a23fb86510d5d10b9f143fe812a` | 24 + 2 | Cebraspe PC-ES Delegado 2022, questão 47, gabarito definitivo A; Cebraspe PC-AL Escrivão 2021, item 74, gabarito definitivo C; item 75 anulado e excluído |
+| U122 | `87653efc1e5c9c94ba81d3e724524c1adae1cdb0` | 28 + 0 | Nenhuma anterior forçada; questões externas localizadas foram descartadas quando dependiam de recorte previdenciário específico, redação histórica ou nuance fora do núcleo constitucional da unidade |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -576,24 +577,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U119 | `574ea42a9f759fdf8973d96218c7bc80656f60d0` | `8c552ee8e607b52efab4f60ded4ce93ef6bb843a` | `9462c47e3ca0a819880b1d77c13146ba46656e3e` | `82884da01c91e33091c600fada7924606e6ff7be` |
 | U120 | `9e18a57b6002ec1c83a64e76c036c0b5b3de269b` | `3ad993c85f534f8dfa939b820bbb3dc3c7261d4b` | `b1eb9f095341b6a68a50b37c08ae99a648e26001` | `3c6160f3a892a916cd3098e22c585144acfb7bd7` |
 | U121 | `4695e1c104a6a83315627085cd3ddae31a5435bf` | `dd33e3da676c663c258cc1707a02c53766510fbe` | `7e37028f0d0cf28ef6b9195688308281a8be7598` | `f3eff3d142c146b096be0e3009d4b255aa63e36c` |
+| U122 | `75a17df6ef8e7869147f51d989e18f8a2be09f52` | `7a74dceb2f9ac14476c0270c2c6604b755ef881b` | `9c5d9190f73334c5dd9a43257d1d51a2bd65fe12` | `f368b5e0225b311c8ad6e227e5cec2defd9bd991` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`.
 
-### Último aceite — U121
+### Último aceite — U122
 
-Pacote de Defesa do Estado e das instituições democráticas — segurança pública: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u121`, `order: 121`. Snapshot editorial final `8424c7feca7d7a23fb86510d5d10b9f143fe812a`; base de publicação `0468e8efc016b9eeaf056bac175fdb32929a625a`. A comparação base→snapshot confirma **exatamente quatro arquivos da U121**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de Ordem social — seguridade social, meio ambiente, família e grupos protegidos: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u122`, `order: 122`. Snapshot editorial final `87653efc1e5c9c94ba81d3e724524c1adae1cdb0`; base de publicação `1a485001271f4f760474b7d485d42c5d775820cc`. A comparação base→snapshot confirma **exatamente quatro arquivos da U122**, sem alterações laterais: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json` e sem doador físico/canônico integral. U111 foi auditada somente como ponte para a Polícia Civil: a Lei 14.735/2023 complementa o regime constitucional das polícias civis, mas não substitui o artigo 144 nem as competências dos demais órgãos de segurança pública.
+A unidade permanece **nova/local**, sem `vinculo.json`. O pacote TCE Noções `constituicao-federal-artigos-23-170-225-231/` (árvore `ccac1f14f63196bea99f23270328fe12e9462d5a`) foi auditado integralmente e reaproveitado apenas como apoio seletivo nos artigos 225 e 231. Os artigos 23 e 170 do doador estão fora do item 12; os núcleos de ordem social, seguridade, saúde, previdência, assistência, família, criança/adolescente/jovem, idoso e artigo 232 foram produzidos de fontes primárias.
 
-Foram publicadas **26 questões — 24 autorais + 2 adaptações não literais verificadas**. A primeira deriva da questão 47 da prova Cebraspe PC-ES — Delegado de Polícia, aplicação de 11/9/2022, gabarito definitivo A, sobre o controle congressual do estado de defesa. A segunda deriva do item 74 da prova Cebraspe PC-AL — Escrivão de Polícia, 2021, gabarito definitivo C, sobre direção e subordinação constitucional das polícias civis. O item 75 da mesma prova foi anulado e foi expressamente descartado.
+Foram publicadas **28 questões autorais e nenhuma questão anterior**. A pesquisa localizou itens externos de seguridade e assistência, mas eles não foram incorporados quando dependiam de recorte previdenciário específico, redação histórica ou nuance fora do núcleo constitucional pretendido. Não foi criada quota artificial de anteriores.
 
-Recorte coberto: estado de defesa e estado de sítio, seus pressupostos, procedimentos, medidas, prazos, controles e encerramento; Forças Armadas e serviço militar; ausência de poder moderador no artigo 142 segundo a ADI 6.457; segurança pública do artigo 144, com todos os órgãos e competências constitucionais; subordinação aos Governadores; organização sistêmica; guardas municipais no texto constitucional e na jurisprudência atual do Tema 656 e da ADPF 1.214; remuneração por subsídio; e segurança viária.
+Recorte coberto: artigo 193, inclusive planejamento social participativo; seguridade dos artigos 194–204, com distinção entre saúde, previdência e assistência, financiamento e regras de custeio; direito à saúde e organização da rede; regime geral e previdência complementar; assistência sem contribuição; meio ambiente do artigo 225; família do artigo 226; prioridade constitucional a criança, adolescente e jovem, inimputabilidade e relações familiares dos artigos 227–229; proteção ao idoso no artigo 230; e direitos materiais, territoriais e processuais indígenas dos artigos 231–232. Educação, cultura, desporto, ciência/tecnologia/inovação e comunicação social foram excluídos por não integrarem os subitens 12.1–12.4.
 
-Fontes revalidadas: Constituição Federal compilada, artigos 136–144; Emendas Constitucionais nº 18/1998, nº 77/2014, nº 82/2014 e nº 104/2019; Emenda Constitucional nº 139/2026 como controle temporal sem alteração do Título V; Lei Complementar 97/1999; Lei 13.675/2018; Lei 14.735/2023 apenas como ponte; e fontes oficiais do Supremo Tribunal Federal para ADI 6.457, Tema 656 e ADPF 1.214. O corte legislativo permanece em **13/7/2026**. A jurisprudência foi consultada em 20/9/2026 e permanece sujeita à validação temporal final de PC-F03 conforme a regra própria do edital.
+Fontes revalidadas: Constituição Federal compilada, especialmente artigos 193–204 e 225–232; Emendas Constitucionais nº 103/2019, nº 108/2020, nº 114/2021, nº 132/2023 e nº 65/2010; Emenda Constitucional nº 139/2026 como controle temporal sem alteração do recorte. O corte legislativo permanece em **13/7/2026**.
 
-Microglossário: três marcações `abbr` no conteúdo estão balanceadas; a inspeção residual dos artefatos didáticos encontrou somente algarismos romanos e identificadores administrativos fora da aula. O JSON permanece em texto puro. Não foram criadas resoluções separadas, pois as explicações das questões são suficientes.
+Densidade: não existe doador integral comparável; o texto local tem aproximadamente **20,2 mil caracteres visíveis**, enquanto o doador parcial mais amplo tem cerca de 17,8 mil e cobre também artigos 23 e 170 alheios ao item. O crescimento aparente decorre da produção de todos os núcleos ausentes e não de expansão do apoio parcial. Microglossário: quatro marcações `abbr` no conteúdo estão balanceadas; não há abreviações institucionais renderizadas sem expansão. O JSON permanece em texto puro. Não foram criadas resoluções separadas.
 
-Próxima unidade habilitada: U122 — Ordem social — seguridade social, meio ambiente, família e grupos protegidos.
+**PC-E13 — Direito Constitucional está concluído:** U112–U122 possuem C/H/Q `done`. A próxima intervenção deve materializar o planejamento individual de **PC-E14 — Legislação Especial (U123–U141)** diretamente do edital oficial antes de selecionar U123, pois o registro agregado recebido não preserva títulos, recortes e diplomas suficientes para inferi-los.
 
 ### Registros operacionais superados
 
