@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U148; PC-E15 — Direitos Humanos está concluído e PC-E16 — Medicina Legal permanece `pending`; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U148 e a preparação individual de PC-E16; PC-E15 — Direitos Humanos está concluído e PC-E16 — Medicina Legal permanece `pending`; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **148 = 131 físicas locais + 17 vínculos can
 
 Reservas ativas após o aceite de U148: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima ação: preparação de PC-E16 — Medicina Legal (U149–U155)**. Os sete IDs permanecem C/H/Q `pending` e o registro recebido não materializa seus recortes individuais; antes da primeira produção, reconstruir do programa integral a matriz item/subitem → unidade/título/recorte → destino/identidade/ordem, sem inventar definições ausentes.
+**Preparação de PC-E16 — Medicina Legal concluída e materializada abaixo. Próxima ação editorial: U149 — Fundamentos da Medicina Legal — conceitos, importância e divisões**, C/H/Q `pending`. Os sete IDs U149–U155 permanecem `pending`; a estrutura do grupo Medicina Legal será publicada junto do primeiro pacote completo, sem criar grupo vazio.
 
 ### Pendências e divergências herdadas
 
@@ -231,7 +231,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U147 | Direitos Humanos; nova; `controle-convencionalidade-direitos-humanos-constituicao` | C/H/Q done; snapshot `017f1aadec3af39d105dbfc125f97c89827c94cf`; ver matriz/evidência abaixo |
 | U148 | Direitos Humanos; nova; `grupos-vulneraveis-atividade-policial-direitos-humanos` | C/H/Q done; snapshot `f6d10d28d9c6ffd9bb4f372ddc993c7929591f48`; ver matriz/evidência abaixo |
 | U144 | Direitos Humanos; parcial; `sistema-global-onu-dudh` | C/H/Q done; visão física resolvida na `main`, commit de publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; doador histórico não inferido; ver matriz de PC-E15 abaixo |
-| U149–U155 | Medicina Legal; novas | C/H/Q pending; detalhes individuais ausentes |
+| U149–U155 | Medicina Legal; novas | C/H/Q pending; planejamento individual materializado em 21/09/2026 sob `PC-E16-PLANEJAMENTO-20260921T0532-01`; ver matriz de PC-E16 abaixo |
 | U156–U158 | Criminologia; novas | C/H/Q pending; detalhes individuais ausentes |
 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
@@ -547,8 +547,78 @@ A classificação PC-R02 permanece autoritativa: **U142 e U144 são parciais; U1
 
 Para U143 e U145–U148, PC-R02 determina **nova/local**. Apoios acima são somente materiais de fronteira/reaproveitamento seletivo e devem ser lidos integralmente antes de qualquer cópia; nenhum autoriza vínculo ou importação automática de questões. Na produção, pesquisar fontes primárias e questões anteriores verificáveis sem quota, reconstruir o corte legislativo de 13/7/2026 e aplicar a regra jurisprudencial do edital. Não ampliar “grupos vulneráveis” por enumeração arbitrária: partir de categorias/proteções sustentadas pelas fontes oficiais pertinentes e ensinar as pontes com os diplomas já estudados.
 
-**Próxima preparação habilitada:** PC-E16 — Medicina Legal, U149–U155. C/H/Q permanecem `pending`; os recortes individuais estão ausentes no registro recebido e devem ser materializados a partir do programa integral antes da primeira unidade editorial.
+**Próxima unidade habilitada:** U149 — Fundamentos da Medicina Legal — conceitos, importância e divisões, C/H/Q `pending`. A preparação individual de U149–U155 foi materializada em 21/09/2026; o grupo `medicina-legal` permanece ausente e deve ser criado somente junto do primeiro pacote completo.
 
+
+
+### Medicina Legal — PC-E16 / U149–U155
+
+Planejamento individual materializado em **21/09/2026**, token `PC-E16-PLANEJAMENTO-20260921T0532-01`, base `f59ad79d1dfe4cb33264ebcc3be76e3dc24533eb`. Fonte programática: [Edital nº 1 — PCMA — Oficial Investigador, de 13/07/2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf), item 20.2.3, seção **MEDICINA LEGAL**. A página do programa foi reconferida textual e visualmente nesta preparação. PC-F03 permanece responsável pela reconsulta final de publicações oficiais e pela distinção de qualquer alteração posterior aplicável.
+
+#### Programa literal preservado
+
+1. Conceitos, importância e divisões da medicina legal.  
+2. Corpo de delito, perícia e peritos em medicina legal.  
+3. Documentos médico-legais.  
+   3.1 Conceitos de identidade, identificação e reconhecimento.  
+4. Principais métodos de identificação.  
+5. Lesões e mortes por ação contundente, por armas brancas e por projéteis de arma de fogo comuns e de alta energia.  
+6. Conceito e diagnóstico da morte.  
+   6.1 Fenômenos cadavéricos.  
+   6.2 Cronotanatognose, comoriência e primoriência.  
+   6.3 Exumação.  
+   6.4 Causa jurídica da morte.  
+   6.5 Morte súbita e morte suspeita.  
+7. Exame de locais de crime.  
+8. Modificadores e avaliação pericial da imputabilidade penal e da capacidade civil.  
+   8.1 Doença mental, desenvolvimento mental incompleto ou retardado, perturbação mental.
+
+A transcrição acima preserva a terminologia do edital, inclusive **“causa jurídica da morte”**, **“desenvolvimento mental incompleto ou retardado”** e **“perturbação mental”**. A produção pode explicar a terminologia técnica e seu contexto jurídico, mas não reescrever silenciosamente o programa.
+
+#### Decisão de divisão dos sete IDs
+
+O programa possui **oito itens principais para sete IDs preservados U149–U155**. Há uma única junção editorial:
+
+- **U151 reúne os itens 3 + 4.** O próprio subitem 3.1 introduz identidade, identificação e reconhecimento, e o item 4 imediatamente cobra os principais métodos de identificação. Separar conceitos de métodos criaria dependência artificial e repetição. A unidade permanece internamente navegável entre documentos médico-legais e identificação.
+- Itens 1, 2, 5, 6, 7 e 8 permanecem um a um em U149, U150 e U152–U155.
+
+Não há criação ou renumeração de ID. Identidades planejadas e preservadas: `pc-u149`–`pc-u155`; ordens 149–155.
+
+#### Estrutura consumidora
+
+O grupo físico planejado é:
+
+`src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/`
+
+Descriptor a publicar **junto do primeiro pacote completo U149**, nunca vazio:
+
+- `schemaVersion: 1`
+- título: **Medicina Legal**
+- `order: 7`
+
+O grupo anterior publicado, Direitos Humanos, possui ordem 6; os sete slugs abaixo foram pesquisados na `main` em 21/09/2026 e não apresentaram colisão. Grupos não entram na rota pública e não recebem identidade persistida própria.
+
+A classificação PC-R02 permanece autoritativa: **U149–U155 são novas/locais**. A busca no repositório e a auditoria dos apoios disponíveis não localizaram pacote integral médico-legal compatível; menções institucionais ou conteúdos jurídico-processuais não autorizam `vinculo.json`. #765 e #766 não registravam reserva concorrente desta origem nesta preparação; PER-E09 de #766 permanece futura e `pending`, sem material publicado que possa ser tratado como doador ou consumidor comprovado.
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / dependências | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 1 | U149 — **Fundamentos da Medicina Legal — conceitos, importância e divisões** | **nova/local**; sem doador integral. U110 C `964c165875d61266f3f7df2b0d43e961ee7f0bc2` apenas como contexto institucional do Instituto Médico Legal e da clínica/tanatologia forense | `fundamentos-medicina-legal`; físico PC-MA + novo grupo Medicina Legal; `pc-u149`; 149 | Construir o papel da Medicina Legal como ponte entre conhecimento médico e questões jurídicas; importância para investigação/justiça e mapa das divisões somente para orientar U150–U155. Não antecipar capítulos técnicos | PC-MA; corte legislativo 13/7/2026; sem pré-requisito específico; fornece vocabulário e mapa ao bloco | pending | pending | pending |
+| 2 | U150 — **Corpo de delito, perícia e peritos em Medicina Legal** | **nova/local**; U093 C `514a163e1778a22bd15e846339cede3cdef7d4ec` auditada como apoio jurídico-processual, não origem médico-legal | `corpo-delito-pericia-peritos-medicina-legal`; físico PC-MA + grupo; `pc-u150`; 150 | Ensinar sentido médico-legal de corpo de delito, exame/perícia, função e limites do perito e raciocínio técnico. U093 continua responsável por CPP, cadeia de custódia, número de peritos, laudo e regras processuais; trazer apenas a ponte indispensável | PC-MA; corte 13/7/2026; U149 como base conceitual; U093 como fronteira processual | pending | pending | pending |
+| 3; 3.1; 4 | U151 — **Documentos médico-legais e identificação — identidade, reconhecimento e métodos** | **nova/local**; U134 C `7ce73aa206eb1f3672c7f1804b0488391cfafb0d` como fronteira da Lei nº 12.037/2009; U110 C `964c165875d61266f3f7df2b0d43e961ee7f0bc2` como contexto institucional de identificação/papiloscopia | `documentos-medico-legais-identificacao`; físico PC-MA + grupo; `pc-u151`; 151 | Documentos médico-legais: conceitos/funções e espécies pertinentes; depois distinguir identidade, identificação e reconhecimento e ensinar os principais métodos médico-legais de identificação. Não duplicar identificação criminal legal de U134 nem reconhecimento processual de U093 | PC-MA; corte 13/7/2026; U149 fornece mapa; U093/U134 são fronteiras jurídicas | pending | pending | pending |
+| 5 | U152 — **Traumatologia médico-legal — lesões por ação contundente, armas brancas e projéteis** | **nova/local**; nenhuma origem integral localizada | `traumatologia-medico-legal-lesoes-armas-projeteis`; físico PC-MA + grupo; `pc-u152`; 152 | Mecanismos, padrões de lesão e morte por ação contundente, armas brancas e projéteis comuns/de alta energia; comparar achados de valor médico-legal. Não transformar a unidade em curso geral de balística ou criminalística | PC-MA; corte 13/7/2026; U149 como vocabulário; fontes médico-legais verificáveis a revalidar na produção | pending | pending | pending |
+| 6; 6.1–6.5 | U153 — **Tanatologia forense — morte, fenômenos cadavéricos e cronologia médico-legal** | **nova/local**; U110 C `964c165875d61266f3f7df2b0d43e961ee7f0bc2` apenas confirma o campo institucional de tanatologia forense, sem conteúdo do edital | `tanatologia-forense-morte-fenomenos-cadavericos`; físico PC-MA + grupo; `pc-u153`; 153 | Conceito/diagnóstico da morte; fenômenos cadavéricos; cronotanatognose; comoriência/primoriência; exumação; causa jurídica da morte; morte súbita e suspeita. Não antecipar exame de local de U154 além das pontes necessárias | PC-MA; corte 13/7/2026; U149 como mapa e U150 para noção de exame/perícia | pending | pending | pending |
+| 7 | U154 — **Exame médico-legal de locais de crime** | **nova/local**; U093 C `514a163e1778a22bd15e846339cede3cdef7d4ec` como fronteira processual de preservação/cadeia de custódia | `exame-medico-legal-locais-crime`; físico PC-MA + grupo; `pc-u154`; 154 | Papel e observações médico-legais no local, relação entre corpo, lesões, morte e contexto; integração com outras perícias. Cadeia de custódia e criminalística geral entram somente como ponte, porque U093 e outras unidades já possuem esses recortes | PC-MA; corte 13/7/2026; depende de U150 e ganha clareza após U152/U153, sem exigir leitura perfeita | pending | pending | pending |
+| 8; 8.1 | U155 — **Psiquiatria forense — imputabilidade penal e capacidade civil** | **nova/local**; U085 C `3ddca37ced16bec08dc177bc95cbd571c35e43ec` como fronteira jurídico-penal; apoios de capacidade civil/LBI devem ser usados apenas para evitar equivaler deficiência a incapacidade | `psiquiatria-forense-imputabilidade-capacidade-civil`; físico PC-MA + grupo; `pc-u155`; 155 | Avaliação pericial e modificadores da imputabilidade penal e da capacidade civil; doença mental, desenvolvimento mental incompleto/retardado e perturbação mental na perspectiva médico-legal. U085 permanece responsável pelos efeitos dogmáticos do Código Penal; Direito Civil/LBI delimitam capacidade sem substituir a avaliação pericial | PC-MA; corte 13/7/2026; U149/U150 fornecem método pericial; U085 é fronteira penal | pending | pending | pending |
+
+#### Ordem e critérios de produção
+
+**Ordem habilitada:** U149 → U150 → U151 → U152 → U153 → U154 → U155.
+
+A sequência ensina primeiro o objeto da disciplina, depois como a perícia médico-legal produz conhecimento e documentos; em seguida identificação, lesões, morte, integração no local e, por fim, avaliação psiquiátrico-forense. U154 pode usar U152/U153 como apoio, mas não depende de leitura perfeita a ponto de bloquear sua produção se esses capítulos já tiverem suas pontes mínimas.
+
+Para todas as sete unidades, PC-R02 determina **nova/local**. U093, U085, U110 e U134 são apoios/fronteiras, não doadores integrais e não autorizam cópia automática de questões. Na produção, revalidar fontes médico-legais/institucionais e provas anteriores verificáveis sem quota; preservar a literalidade do programa e separar conceito médico-legal de consequência jurídica já ensinada em outras disciplinas.
+
+**Próxima unidade habilitada:** U149 — Fundamentos da Medicina Legal — conceitos, importância e divisões, C/H/Q `pending`. A primeira publicação de U149 deverá criar simultaneamente `medicina-legal/grupo.json` válido, evitando estrutura vazia.
 
 
 ## 8. Evidências de publicação e aceite
@@ -761,7 +831,7 @@ Densidade final: `conteudo.md` com **32.246 caracteres**, `cheat-sheet.md` com *
 
 A inspeção pós-publicação corrigiu a formulação sobre direitos preservados na privação de liberdade, ensinou explicitamente `custódia`, tecnologia assistiva, adaptação razoável e categorias de refúgio/deslocamento, e substituiu jargão operacional por linguagem ensinável. Fontes oficiais revalidadas em 21/9/2026: Constituição, OHCHR Pocketbook/Police Standards, Código de Conduta da ONU, Princípios Básicos sobre Uso da Força e Armas de Fogo, Convenção contra a Tortura, base oficial de tratados e Leis nº 9.455/1997 e nº 12.847/2013, além das pontes nacionais. O corte legislativo de 13/7/2026 foi preservado.
 
-**PC-E15 — Direitos Humanos está concluído:** U142–U148 estão C/H/Q `done`, e as três tarefas macro PC-E15-C/H/Q passam a `done`. A próxima preparação habilitada é PC-E16 — Medicina Legal (U149–U155), cujos recortes individuais ainda precisam ser materializados do programa integral antes da produção.
+**PC-E15 — Direitos Humanos está concluído:** U142–U148 estão C/H/Q `done`, e as três tarefas macro PC-E15-C/H/Q passam a `done`. A preparação de PC-E16 foi posteriormente materializada; a próxima unidade editorial é U149 — Fundamentos da Medicina Legal.
 
 ### Registros operacionais superados
 
