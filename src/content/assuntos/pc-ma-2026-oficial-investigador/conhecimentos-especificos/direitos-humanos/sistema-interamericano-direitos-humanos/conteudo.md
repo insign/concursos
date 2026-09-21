@@ -374,7 +374,7 @@ Compare:
 | Instrumento | Órgão | Núcleo |
 | --- | --- | --- |
 | medidas cautelares | Comissão | gravidade + urgência + risco de dano irreparável, conforme seu Regulamento |
-| medidas provisórias | Corte | extrema gravidade + urgência + evitar dano irreparável, nos termos do art. 63.2 |
+| medidas provisórias | Corte | extrema gravidade + urgência + evitar dano irreparável, nos termos do artigo 63, item 2 |
 
 ## 23. Competência consultiva: não depende de um caso individual
 
@@ -432,7 +432,7 @@ Imagine uma denúncia de violação atribuída a um Estado-parte.
 | produz relatórios/recomendações | sim | profere sentenças e pareceres consultivos |
 | submissão de caso à Corte | pode submeter | recebe caso legitimamente submetido |
 | função contenciosa | não é tribunal | sim, se houver competência |
-| função consultiva | atua como órgão consultivo da <abbr title="Organização dos Estados Americanos">OEA</abbr> em sua esfera | emite pareceres nos termos do art. 64 |
+| função consultiva | atua como órgão consultivo da <abbr title="Organização dos Estados Americanos">OEA</abbr> em sua esfera | emite pareceres nos termos do artigo 64 |
 | proteção urgente | medidas cautelares | medidas provisórias |
 
 ## 27. Pegadinhas para recuperar em segundos
