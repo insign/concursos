@@ -625,7 +625,7 @@ Isso não significa que todo crime comum envolvendo campanha “vira eleitoral�
 
 ---
 
-## 19. Polícia judiciária eleitoral — Resolução TSE nº 23.640/2021
+## 19. Polícia judiciária eleitoral — Resolução <abbr title="Tribunal Superior Eleitoral">TSE</abbr> nº 23.640/2021
 
 A Polícia Federal exerce prioritariamente a função de polícia judiciária em matéria eleitoral.
 
@@ -689,7 +689,7 @@ Comunicação verbal:
 - assinada pelo apresentante;
 - assinada por duas testemunhas.
 
-A Resolução TSE nº 23.640/2021 moderniza o fluxo operacional, admitindo comunicação também à polícia e ao Ministério Público Eleitoral.
+A Resolução <abbr title="Tribunal Superior Eleitoral">TSE</abbr> nº 23.640/2021 moderniza o fluxo operacional, admitindo comunicação também à polícia e ao Ministério Público Eleitoral.
 
 ### Artigo 357 — denúncia
 
@@ -720,7 +720,7 @@ O artigo 359, na redação literal, prevê depoimento pessoal e resposta escrita
 
 O Tribunal Superior Eleitoral, porém, determinou integração obrigatória com a reforma do Código de Processo Penal.
 
-A Resolução TSE nº 23.640/2021 manda aplicar obrigatoriamente os artigos:
+A Resolução <abbr title="Tribunal Superior Eleitoral">TSE</abbr> nº 23.640/2021 manda aplicar obrigatoriamente os artigos:
 
 - 395;
 - 396;
@@ -783,7 +783,7 @@ O Código de Processo Penal aplica-se subsidiária ou supletivamente:
 | 330 | remete aos 328/329 revogados; não é novo tipo autônomo |
 | 333 | revogado |
 | 336 | permanece, mas parte de sua lista remete a tipos revogados |
-| 337 | **não recepcionado pela Constituição de 1988**, segundo o TSE |
+| 337 | **não recepcionado pela Constituição de 1988**, segundo o <abbr title="Tribunal Superior Eleitoral">TSE</abbr> |
 
 Não confunda:
 
@@ -838,7 +838,7 @@ Não confunda:
 ## 25. Pegadinhas finais
 
 1. Lei nº 15.358/2026 alterou o Código Eleitoral, mas **não o título dos crimes**.
-2. O TSE registrou a anualidade eleitoral para as alterações de alistamento/cancelamento em 2026.
+2. O <abbr title="Tribunal Superior Eleitoral">TSE</abbr> registrou a anualidade eleitoral para as alterações de alistamento/cancelamento em 2026.
 3. Artigo 284 fornece mínimos quando o tipo só dá máximo.
 4. Artigo 299 é crime formal.
 5. Corrupção eleitoral não exige que o autor seja candidato.
@@ -853,13 +853,13 @@ Não confunda:
 14. Artigo 347 exige ordem direta e individualizada e dolo.
 15. Artigo 350 exige finalidade eleitoral e falsidade relevante.
 16. “Caixa dois” pode configurar artigo 350, mas o rótulo não substitui a análise dos elementos do tipo.
-17. Tema 1.260/STF admite dupla responsabilização crime eleitoral + improbidade, com competências distintas.
+17. Tema 1.260/<abbr title="Supremo Tribunal Federal">STF</abbr> admite dupla responsabilização crime eleitoral + improbidade, com competências distintas.
 18. Justiça Eleitoral julga crime comum conexo quando a conexão é reconhecida.
 19. Crimes do Código são de ação pública, mas ação privada subsidiária pode caber por inércia ministerial.
 20. Denúncia eleitoral: prazo legal de **10 dias**.
 21. Resposta escrita: **10 dias**; alegações finais: **5 dias por parte**; recurso final: **10 dias**.
 22. O procedimento atual incorpora artigos 395, 396, 396-A, 397 e 400 do Código de Processo Penal.
-23. Artigo 363 não autoriza hoje execução provisória automática: o TSE registra exigência de trânsito em julgado para ambas as partes.
+23. Artigo 363 não autoriza hoje execução provisória automática: o <abbr title="Tribunal Superior Eleitoral">TSE</abbr> registra exigência de trânsito em julgado para ambas as partes.
 
 ---
 
@@ -885,5 +885,5 @@ Sem consultar:
 16. Qual é a natureza da ação penal eleitoral?
 17. Quando cabe ação privada subsidiária?
 18. Qual prazo da denúncia?
-19. Quais artigos do Código de Processo Penal devem ser integrados ao rito por força da Resolução TSE nº 23.640/2021?
+19. Quais artigos do Código de Processo Penal devem ser integrados ao rito por força da Resolução <abbr title="Tribunal Superior Eleitoral">TSE</abbr> nº 23.640/2021?
 20. Por que a literalidade do artigo 363 precisa de ressalva?
