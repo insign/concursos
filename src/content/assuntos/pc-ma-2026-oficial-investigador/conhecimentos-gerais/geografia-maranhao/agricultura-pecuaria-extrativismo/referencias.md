@@ -19,3 +19,30 @@
 - Fundação Getulio Vargas. [PM-MA 2012 — Soldado Combatente, prova Tipo 1 — Branca](https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_01.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf). Questão 50; base da adaptação sobre babaçu e Frexal.
 
 **Controle do corte:** para a Polícia Civil do Maranhão 2026, não foram usados como fundamento material publicado somente após 13/7/2026. Em particular, ficaram fora do recorte a notícia da Agência Nacional de Mineração de 21/7/2026 sobre repasses de Compensação Financeira pela Exploração Mineral e atualizações mensais da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis posteriores ao corte.
+
+
+## Proveniência e reaproveitamento
+
+- Classificação da U075: **parcial/local**. A unidade reúne, em um único pacote físico da PC-MA, dois recortes canônicos distintos da biblioteca; por isso **não** deve usar `vinculo.json`, que apontaria para apenas uma unidade canônica e perderia parte do programa.
+- Doador canônico de agropecuária: `src/content/biblioteca/historia-geografia-estado-maranhao/agricultura-pecuaria-maranhenses/`.
+  - C `cc64362b737d12ae128eead942872c97476d008a`
+  - H `51506cc651a8f26b7c4e8a8e67c7a16af74063ce`
+  - R `a9e69e67f5c7c1c50d4aad3f58f14de9a77fb434`
+  - Q `356f5d085f7553a2e3db93d7d5768acbf0cfcc9e`
+  - consumidores comprovados por `vinculo.json`: TCE-MA 2026 Analista Administração e TCE-MA 2026 Técnico Administrativo, vínculo blob `2106af2a76934fa743426381ea44a7560a2314f2`.
+- Doador canônico de extrativismo: `src/content/biblioteca/historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral/`.
+  - C `bbc84eba4f587bcb6973efc1fc226632d9d1a979`
+  - H `465633cb61540f53d655190f9498611ef7b1bd4a`
+  - R `e20aa333ed98fe0bca664fefee34e7d1f5948d27`
+  - Q `2392bd71b6228a6f30b351b36be1799a9ce2322b`
+  - consumidores comprovados por `vinculo.json`: TCE-MA 2026 Analista Administração e TCE-MA 2026 Técnico Administrativo, vínculo blob `39322aad93b2e6cfd3ee21e84908be7ff5af09d4`.
+
+### O que foi reaproveitado e o que ficou local
+
+- Do canônico de agropecuária, a U075 reaproveita a estrutura agrária, agricultura familiar, <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr>, classificação das lavouras, principais produtos, pecuária e a distinção estoque × fluxo.
+- Do canônico de extrativismo, reaproveita a fronteira cultivo/criação × retirada de estoque natural, babaçu/açaí/lenha/carvão, pesca × aquicultura, potencial/título/produção mineral, logística × local de extração e petróleo/gás.
+- A U075 **condensa** os dois doadores para os itens 9 e 10 do programa da PC-MA; não copia integralmente os capítulos canônicos. Ficam fora detalhes doadores sem ganho proporcional para este recorte, como séries ampliadas, <abbr title="Compensação Financeira pela Exploração Mineral">CFEM</abbr>, caça e inventários extensos de questões.
+- O corte também diverge: os canônicos do TCE foram fechados com corte documental de **04/08/2026**; a U075 foi adaptada ao corte PC-MA de **13/07/2026**. Por isso a referência da ANM de 21/07/2026 e outras atualizações posteriores ao edital foram excluídas do fundamento material da U075.
+- As questões anteriores foram adaptadas localmente, não copiadas como objetos do banco canônico: U075 preserva seus próprios IDs publicados e `origin: previous_exam`, com atribuições verificáveis a Cebraspe/CBM-TO 2021 e FGV/PM-MA 2012.
+- Pacote físico original publicado em `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`. Antes desta reconciliação, C/H/R/Q permaneceram sem alteração material desde esse commit: C `667b534e1ec5720636cd1488b9887fdd3c0e500b`; H `3b53e51436e1aaaeef5f301a82f5192d42755361`; R `7ee97f1f9559dddb324e5a2662dcaae3804342ac`; Q `61ac2de7af522616a833e940f1243ec8a9e8023d`.
+- Auditoria de 21/09/2026: conteúdo e revisão cobrem integralmente o recorte combinado; `questoes.json` mantém `schemaVersion: 1`, `questionSetRevision: 1`, 10 IDs únicos, cinco alternativas por questão, gabaritos válidos e explicações não vazias. Não foi necessária resolução separada.
