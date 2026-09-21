@@ -572,7 +572,7 @@ No artigo 86:
 
 A Lei nº 15.358/2026 chegou a reescrever percentuais de progressão no artigo 112 da Lei de Execução Penal, com percentuais de 70%, 75%, 80% e 85% em determinadas hipóteses.
 
-Mas isso **não é a redação vigente no corte da PC-MA**.
+Mas isso **não é a redação vigente no corte da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr>**.
 
 Em **8 de maio de 2026**, a Lei nº 15.402/2026 reescreveu novamente o artigo 112. Portanto:
 
@@ -788,9 +788,9 @@ A própria Lei nº 15.358/2026 manda aplicar disposições materiais e probatór
 | remuneração de administrador | até 10% |
 | retribuição de terceiro colaborador patrimonial | até 5% |
 | banco nacional/estadual | 180 dias |
-| suspensão de CNPJ do estabelecimento | 180 dias |
+| suspensão de <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr> do estabelecimento | 180 dias |
 | audiência de custódia | até 24 horas |
-| destinação descentralizada do FNSP | pelo menos 60% |
+| destinação descentralizada do <abbr title="Fundo Nacional de Segurança Pública">FNSP</abbr> | pelo menos 60% |
 
 ---
 
@@ -814,7 +814,7 @@ A própria Lei nº 15.358/2026 manda aplicar disposições materiais e probatór
 16. “A Lei nº 15.358 deixou vigentes no corte os percentuais de progressão que inseriu em março.” **Errado:** Lei nº 15.402/2026 os substituiu em maio.
 17. “A alteração do artigo 91, II, foi sancionada.” **Errado:** vetada.
 18. “Audiência de custódia do texto alterado é necessariamente presencial.” **Errado:** o marco adotou videoconferência como regra, com presença excepcional nas condições legais.
-19. “FNSP é só polícia ostensiva.” **Errado:** o marco ampliou finalidades e usos.
+19. “<abbr title="Fundo Nacional de Segurança Pública">FNSP</abbr> é só polícia ostensiva.” **Errado:** o marco ampliou finalidades e usos.
 20. “A Lei das Apostas ficou fora do marco.” **Errado:** é um dos diplomas alterados.
 
 ---
