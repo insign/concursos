@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U135; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U136; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 23 | 0 | 135 |
-| Entregáveis de unidade C/H/Q | 474 | 69 | 0 | 405 |
+| Unidades reais previstas | 158 | 22 | 0 | 136 |
+| Entregáveis de unidade C/H/Q | 474 | 66 | 0 | 408 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U135` e `U144` = **135 unidades**. Pendentes: `U075`, `U136–U143`, `U145–U158` = **23 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U136` e `U144` = **136 unidades**. Pendentes: `U075`, `U137–U143`, `U145–U158` = **22 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **137 = 120 físicas locais + 17 vínculos canônicos**. U135 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 137 visões materializadas com 135 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **138 = 121 físicas locais + 17 vínculos canônicos**. U136 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 138 visões materializadas com 136 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U135: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U136: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U136 — Estatuto da Pessoa Idosa — Lei 10.741/2003**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U135 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U136–U141 não forem concluídas.
+**Próxima ação editorial: U137 — Crimes de trânsito — Lei 9.503/1997**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U136 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U137–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -466,7 +466,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 11 | U133 — Crimes resultantes de preconceito de raça ou cor — Lei 7.716/1989 — `crimes-preconceito-raca-cor-lei-7716` | Lei nº 7.716/1989 integral no corte, preservando tipos, causas e disposições gerais atuais | nova/local; apoio conceitual canônico `estatuto-igualdade-racial-fundamentos-direitos`, blob `8eb5f97caddf3274a2215fe6883939edfaf5bac7`; snapshot `d733eecd1168de9e747744be4847f1ff0b09dace` | Lei nº 14.532/2023 incorporada; injúria racial, ADO 26/MI 4.733, HC 154.248, continuidade normativo-típica, racismo recreativo e efeitos não automáticos revalidados | done | done | done |
 | 12 | U134 — Identificação criminal do civilmente identificado — Lei 12.037/2009 — `identificacao-criminal-lei-12037` | Lei nº 12.037/2009 integral, incluindo hipóteses, procedimentos e tratamento dos dados nos limites do diploma | nova/local; fontes primárias; snapshot `6396c10c3ca81cdb2fa42c191f387d5a10e273df` | Lei nº 15.295/2025 incorporada nos arts. 3º, VII, e 5º, §§ 1º–2º; Leis nº 12.654/2012 e 13.964/2019 absorvidas; RHC 162.703/STJ registrado com corte temporal e Tema 905/STF ainda sem tese final em 20/9/2026 | done | done | done |
 | 14 | U135 — Juizados Especiais Criminais — Lei 9.099/1995 — `juizados-especiais-criminais-lei-9099` | Recorte **criminal** da Lei nº 9.099/1995, com disposições comuns indispensáveis, competência, composição civil, transação penal, procedimento e suspensão condicional do processo; não cobrir Juizado Especial Cível como assunto autônomo | nova/local; fontes primárias; snapshot `817e4071156a64fcdeb9cff397b3b21db966ac01` | Lei nº 11.313/2006, Lei nº 13.603/2018 e Lei nº 14.245/2021 incorporadas; art. 85 reconciliado com Lei nº 9.268/1996 e HC 79.474/STF; SV 35, Súmulas 203/243/337/536, Súmula 696/STF, ADI 1.719 e Tema 920/STJ revalidados | done | done | done |
-| 15 | U136 — Estatuto da Pessoa Idosa — Lei 10.741/2003 — `estatuto-pessoa-idosa-lei-10741` | Lei nº 10.741/2003 integral. O edital usa “Estatuto do Idoso”; a denominação oficial vigente é “Estatuto da Pessoa Idosa” | nova/local; biblioteca `acessibilidade-prioridade-atendimento` é apoio parcial, blob `f0d4cfd100e4608d44920012f23e6d821ba8bc11` | U122 fornece base constitucional do art. 230; não duplicar a lei inteira lá | pending | pending | pending |
+| 15 | U136 — Estatuto da Pessoa Idosa — Lei 10.741/2003 — `estatuto-pessoa-idosa-lei-10741` | Lei nº 10.741/2003 integral. O edital usa “Estatuto do Idoso”; a denominação oficial vigente é “Estatuto da Pessoa Idosa” | nova/local; apoio parcial canônico `acessibilidade-prioridade-atendimento`, blob `f0d4cfd100e4608d44920012f23e6d821ba8bc11`; snapshot `e8e2b49dd97f881084a97e168db912e9418bc7a0` | Lei nº 14.423/2022 incorporada; Lei nº 15.163/2025 incorporada nos arts. 94/99; U122 apenas ponte do art. 230; ADI 3.768, Tema 952/STJ e art. 102/STJ revalidados | done | done | done |
 | 16 | U137 — Crimes de trânsito — Lei 9.503/1997 — `crimes-transito-lei-9503` | Recorte dos crimes de trânsito do Código de Trânsito Brasileiro e disposições gerais/processuais diretamente necessárias a eles; não transformar U137 em curso integral de trânsito administrativo | nova/local; fontes primárias | Reconstruir texto até 13/7/2026; alterações posteriores ao corte do Código de Trânsito Brasileiro não entram | pending | pending | pending |
 | 17 | U138 — Crimes eleitorais — Lei 4.737/1965 — `crimes-eleitorais-codigo-eleitoral-lei-4737` | Recorte penal do Código Eleitoral: crimes, sanções e disposições processuais diretamente ligadas; não cobrir Direito Eleitoral integral | nova/local; fontes primárias | Lei nº 15.358/2026 alterou o Código Eleitoral antes do corte; preservar o recorte criminal do item | pending | pending | pending |
 | 18 | U139 — Organização criminosa — Lei 12.850/2013 — `organizacao-criminosa-lei-12850` | Lei nº 12.850/2013 integral: conceito, crimes, investigação, meios de obtenção da prova, colaboração, infiltração, ação controlada e procedimento | nova/local; referências incidentais em PC-E10/E11, sem doador integral | Distinguir a Lei nº 12.850/2013 do novo marco da U140; alterações posteriores a 13/7/2026 devem ser excluídas | pending | pending | pending |
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U136 é a primeira unidade pendente de PC-E14. U123–U135 estão C/H/Q `done`; U136–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U137 é a primeira unidade pendente de PC-E14. U123–U136 estão C/H/Q `done`; U137–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -571,6 +571,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U133 | `d733eecd1168de9e747744be4847f1ff0b09dace` | 31 + 2 | Cebraspe TJ-SC notarial 2022, prova oral questão 7 sobre efeitos extrapenais; PC-RO 2022, prova oral questão 9 sobre distinção histórica da injúria/racismo, atualizada expressamente ao regime pós-Lei 14.532/2023 |
 | U134 | `6396c10c3ca81cdb2fa42c191f387d5a10e273df` | 29 + 0 | Prova oficial Cebraspe PC-MA 2017/2018, Cargo 2 Investigador, auditada junto ao gabarito definitivo; nenhum item direto da Lei nº 12.037/2009 foi atribuído como anterior |
 | U135 | `817e4071156a64fcdeb9cff397b3b21db966ac01` | 35 + 1 | Cebraspe PC-CE Delegado 2025, prova oral, questão 3: perseguição simples fora da Lei Maria da Penha, menor potencial ofensivo, termo circunstanciado e regra do art. 69; adaptação não literal com padrão oficial |
+| U136 | `e8e2b49dd97f881084a97e168db912e9418bc7a0` | 47 + 2 | Cebraspe TRT-8 2022, Analista/Serviço Social, questão 35 sobre prioridade na restituição do imposto de renda; DPE-SE 2021/2022, Defensor, questão 69 sobre prioridade especial 80+ no acesso à justiça; adaptações não literais |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -655,24 +656,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U133 | `7a77f5e9cf314272185555db430de47f524fe5b4` | `9ca34049a8c3dc8ec5e03dd18b0449512aa02d5a` | `06bfcd39be1a4adb47c4b4c8fd7b57c427e427c3` | `6f1d4fe75135b8a5d7ba9005418b6f46a65e2a44` |
 | U134 | `7ce73aa206eb1f3672c7f1804b0488391cfafb0d` | `7e233923e8794819917e1cc4517311cb0ed71ff6` | `4fcf235faeaeb5e99938298224b4bf95f57b9267` | `8fe3e60d425621050c281d1240d65933d1dc4249` |
 | U135 | `06eb4d39a0b434dc6c4a044bb527066d0cbbd9a9` | `4937bb509056a0654798008c1d217d262a0c72a8` | `804e27d1b9af1e9625c646f6fc7e0f47d044e9f4` | `4279ac9eaa26d61efc25ec79a1b209860f012a08` |
+| U136 | `65d1cdd00ff84cc73a70893c0a5ce493beddb78f` | `92492171f8907e675db8d8965c74122ff9deba89` | `bfb6b8b533c7250bf827979cbe93633b406e4d74` | `92c1711a4225d7f032d0720d385a3bc98e6d0a93` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U135
+### Último aceite — U136
 
-Pacote de **Juizados Especiais Criminais — Lei nº 9.099/1995**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u135`, `order: 135`. Snapshot editorial final `817e4071156a64fcdeb9cff397b3b21db966ac01`; base reservada `2f2d952822cbb4bab0702d835f095c7f51529905`. A comparação base→snapshot confirma **exatamente quatro arquivos da U135**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Estatuto da Pessoa Idosa — Lei nº 10.741/2003**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u136`, `order: 136`. Snapshot editorial final `e8e2b49dd97f881084a97e168db912e9418bc7a0`; base reservada `04919fc65b33404eef96dfd1e3d872cfbc1175e0`. A comparação base→snapshot confirma **exatamente quatro arquivos da U136**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. A auditoria do acervo encontrou somente apoios incidentais — especialmente U128, para o regime especial ambiental, e U129, para o afastamento pela Lei Maria da Penha — sem doador integral compatível. U091–U097 foram usadas apenas para pontes processuais necessárias, sem duplicar inquérito, prova ou cautelares.
+A unidade permanece **nova/local**, sem `vinculo.json`. O apoio parcial canônico `nocoes-direitos-humanos/acessibilidade-prioridade-atendimento`, conteúdo `f0d4cfd100e4608d44920012f23e6d821ba8bc11`, foi auditado integralmente; seu recorte principal são as Leis nº 10.048/2000 e nº 10.098/2000, portanto só foram aproveitadas pontes conceituais de prioridade e acessibilidade. U122 — Ordem social — foi lida integralmente como ponte constitucional do artigo 230, sem copiar ou duplicar o Estatuto. O conjunto de questões do canônico não foi copiado porque testa predominantemente diplomas diferentes.
 
-Corte legislativo de **13/7/2026** reconstruído com a Lei nº 9.099/1995 compilada. Foram incorporadas a Lei nº 11.313/2006 nos artigos 60–61, a Lei nº 13.603/2018 no artigo 62 e a Lei nº 14.245/2021 no artigo 81. A página oficial consolidada não registrava alteração de 2025 ou 2026 no recorte. O artigo 85 foi ensinado com sua literalidade histórica e o regime jurídico atual após a Lei nº 9.268/1996 e o HC 79.474/STF, sem ensinar conversão de multa em prisão como vigente.
+Corte legislativo de **13/7/2026** reconstruído a partir do texto compilado oficial. A forma literal “Estatuto do Idoso” do edital foi preservada documentalmente, enquanto os artefatos usam a denominação oficial **Estatuto da Pessoa Idosa**, alterada pela Lei nº 14.423/2022. A Lei nº 15.163/2025 foi incorporada: artigo 94 sem aplicação da Lei nº 9.099/1995 aos crimes do Estatuto e aos crimes violentos contra pessoa idosa, independentemente da pena, e artigo 99 com penas atuais de 2–5, 3–7 e 8–14 anos.
 
-Cobertura organizada: infração de menor potencial ofensivo; conexão/continência; competência territorial e citação; termo circunstanciado e regra de flagrante/fiança; audiência preliminar; composição civil e representação; transação penal, impedimentos e efeitos; Súmula Vinculante 35; denúncia/queixa e procedimento sumaríssimo; proteção da vítima; apelação e embargos; multa e execução; artigo 88; suspensão condicional do processo, condições, revogação e prescrição; período depurador; Súmulas 243, 337 e 696; Tema 920; artigo 90/ADI 1.719; Justiça Militar e aplicação subsidiária; fronteiras com Lei Maria da Penha e crimes ambientais.
+Cobertura integral organizada: proteção 60+/prioridade 80+; vida, dignidade, alimentos, saúde e violência; educação, cultura, trabalho, previdência e assistência; moradia e transporte; medidas de proteção; política e entidades de atendimento; fiscalização, sanções e procedimentos administrativos/judiciais; acesso à justiça e Ministério Público; proteção coletiva; multas/execução; regime penal e crimes dos artigos 96–109; disposições finais e fronteiras temporais. A distinção 60/65/80 e os percentuais/prazos de maior incidência foram sintetizados sem transformar a aula em uma lista de números.
 
-Foram publicadas **36 questões: 35 autorais + 1 anterior verificada**, adaptação não literal da questão 3 da prova oral Cebraspe da Polícia Civil do Ceará para Delegado, concurso 2025, sobre perseguição simples fora do contexto doméstico, competência do Juizado, termo circunstanciado e artigo 69. Nenhuma quota foi forçada e nenhuma resolução separada foi necessária.
+Jurisprudência oficial revalidada: ADI 3.768/STF sobre gratuidade urbana/semiurbana; Tema Repetitivo 952/STJ para qualificar a vedação a discriminação etária em planos de saúde; Informativo 547/STJ sobre o verbo “desviar” no artigo 102. O regime histórico do antigo artigo 94 não foi ensinado como vigente depois da Lei nº 15.163/2025.
 
-Densidade final: `conteudo.md` com **28.075 caracteres** e `cheat-sheet.md` com **7.979**. Microglossário pós-inspeção: **36 pares `abbr` no conteúdo e 17 no cheat sheet, todos balanceados**; abreviações jurídicas dispensáveis foram expandidas e as referências ficaram sem siglas institucionais soltas. O JSON permanece texto puro, `questionSetRevision: 1`, **36 IDs únicos**, 35 origens `authorial`, 1 `previous_exam`, cinco alternativas por questão e todos os gabaritos apontando para alternativas existentes.
+Foram publicadas **49 questões: 47 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais da questão 35 do Cebraspe/TRT-8 2022 (prioridade na restituição do imposto de renda, gabarito A) e da questão 69 do Cebraspe/DPE-SE 2021, aplicada em 2022 (prioridade especial 80+ no acesso à justiça, gabarito D). Nenhuma resolução separada foi necessária.
 
-**PC-E14 permanece em andamento:** U123–U135 estão C/H/Q `done`; U136–U141 seguem `pending`. A próxima intervenção habilitada é U136 — Estatuto da Pessoa Idosa — Lei nº 10.741/2003.
+Densidade final: `conteudo.md` com **43.202 caracteres** e `cheat-sheet.md` com **9.245**. Microglossário pós-inspeção: **7 pares `abbr` no conteúdo e 5 no cheat sheet, todos balanceados**; abreviações de artigo foram expandidas e não restaram siglas institucionais/técnicas soltas fora de algarismos romanos. O JSON permanece texto puro, `questionSetRevision: 1`, **49 IDs únicos**, 47 origens `authorial`, 2 `previous_exam`, cinco alternativas por questão e todos os gabaritos apontando para alternativas existentes.
+
+**PC-E14 permanece em andamento:** U123–U136 estão C/H/Q `done`; U137–U141 seguem `pending`. A próxima intervenção habilitada é U137 — Crimes de trânsito — Lei nº 9.503/1997.
 
 ### Registros operacionais superados
 
