@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u157-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função básica da Criminologia, no recorte desta unidade, consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixar penas para casos concretos."
+        },
+        {
+          "id": "B",
+          "text": "produzir conhecimento empírico e fundamentado sobre o fenômeno criminal que possa descrever, explicar e avaliar respostas."
+        },
+        {
+          "id": "C",
+          "text": "substituir a política criminal."
+        },
+        {
+          "id": "D",
+          "text": "eliminar toda criminalidade."
+        },
+        {
+          "id": "E",
+          "text": "definir exclusivamente tipos penais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Criminologia produz conhecimento empírico sobre delito, delinquente, vítima e controle social e pode avaliar respostas; não decide sozinha a política nem fixa pena."
+    },
+    {
+      "id": "u157-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre função descritiva e explicativa é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "descrever já prova causalidade."
+        },
+        {
+          "id": "B",
+          "text": "explicar significa apenas contar quantos casos existem."
+        },
+        {
+          "id": "C",
+          "text": "descrever identifica padrões e distribuição; explicar testa hipóteses sobre mecanismos e relações."
+        },
+        {
+          "id": "D",
+          "text": "explicar dispensa dados."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença entre ambas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Descrição responde o que, onde, quando e com que frequência; explicação busca mecanismos e confronta hipóteses."
+    },
+    {
+      "id": "u157-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da relação entre correlação e causalidade, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correlação pode indicar uma associação que merece investigação, mas não prova causalidade por si só."
+        },
+        {
+          "id": "B",
+          "text": "Toda correlação prova causalidade."
+        },
+        {
+          "id": "C",
+          "text": "Se não há correlação, nunca pode haver qualquer relação."
+        },
+        {
+          "id": "D",
+          "text": "Causalidade pode ser concluída apenas pela ordem temporal."
+        },
+        {
+          "id": "E",
+          "text": "Correlação é irrelevante para pesquisa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Associação empírica é ponto de partida; causalidade exige desenho e evidência mais fortes."
+    },
+    {
+      "id": "u157-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Criminologia pode contribuir para prevenção porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolhe automaticamente a política pública."
+        },
+        {
+          "id": "B",
+          "text": "define obrigatoriamente a pena."
+        },
+        {
+          "id": "C",
+          "text": "elimina a necessidade de avaliação."
+        },
+        {
+          "id": "D",
+          "text": "produz conhecimento sobre padrões, fatores e respostas que pode subsidiar estratégias preventivas."
+        },
+        {
+          "id": "E",
+          "text": "substitui o Direito Penal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conhecimento criminológico pode informar desenho preventivo, mas não escolhe automaticamente a intervenção."
+    },
+    {
+      "id": "u157-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'intervir na pessoa do infrator', usada em formulações doutrinárias sobre as funções da Criminologia,",
+      "options": [
+        {
+          "id": "A",
+          "text": "significa presumir doença mental em todo autor de delito."
+        },
+        {
+          "id": "B",
+          "text": "pode abranger medidas de educação, tratamento, acompanhamento ou reinserção conforme o caso, sem patologização automática."
+        },
+        {
+          "id": "C",
+          "text": "obriga prisão em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "elimina direitos individuais."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de condenação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Intervenção deve ser entendida funcionalmente e dentro da legalidade, sem supor patologia universal."
+    },
+    {
+      "id": "u157-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Avaliar respostas ao crime significa, entre outras tarefas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas confirmar que uma lei foi publicada."
+        },
+        {
+          "id": "B",
+          "text": "presumir que toda política alcançou seu objetivo."
+        },
+        {
+          "id": "C",
+          "text": "examinar implementação, público alcançado, resultados e efeitos inesperados."
+        },
+        {
+          "id": "D",
+          "text": "medir somente número de servidores."
+        },
+        {
+          "id": "E",
+          "text": "dispensar comparação com objetivos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Avaliação criminológica pode abranger processo, resultados, custos e efeitos não planejados."
+    },
+    {
+      "id": "u157-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fórmula mais útil para diferenciar os três campos é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criminologia normatiza; política criminal descreve; Direito Penal coleta dados."
+        },
+        {
+          "id": "B",
+          "text": "Criminologia pune; política criminal julga; Direito Penal entrevista."
+        },
+        {
+          "id": "C",
+          "text": "Criminologia legisla; política criminal sentencia; Direito Penal pesquisa."
+        },
+        {
+          "id": "D",
+          "text": "Todos exercem função idêntica."
+        },
+        {
+          "id": "E",
+          "text": "Criminologia produz diagnóstico; política criminal seleciona estratégias; Direito Penal disciplina normativamente parte das respostas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A separação é didática: conhecimento empírico, escolha estratégica e formalização normativa possuem funções distintas, ainda que dialoguem."
+    },
+    {
+      "id": "u157-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Política criminal pode ser compreendida como campo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolhas, princípios e estratégias públicas relacionadas à prevenção, controle e resposta ao fenômeno criminal."
+        },
+        {
+          "id": "B",
+          "text": "mera classificação dogmática de crimes."
+        },
+        {
+          "id": "C",
+          "text": "perícia material de vestígios."
+        },
+        {
+          "id": "D",
+          "text": "apenas criação de penas privativas de liberdade."
+        },
+        {
+          "id": "E",
+          "text": "estatística sem decisão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Política criminal envolve desenho e escolha de respostas, podendo incluir instrumentos penais e não penais."
+    },
+    {
+      "id": "u157-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É correto afirmar que política criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "se resume a aumento de pena."
+        },
+        {
+          "id": "B",
+          "text": "se confunde integralmente com Direito Penal."
+        },
+        {
+          "id": "C",
+          "text": "abrange apenas prisão."
+        },
+        {
+          "id": "D",
+          "text": "pode incluir medidas sociais, urbanas, policiais, processuais, penitenciárias e de atenção a vítimas."
+        },
+        {
+          "id": "E",
+          "text": "não pode ser tratada como política pública."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A política criminal é mais ampla que política penal estrita e pode combinar múltiplos instrumentos."
+    },
+    {
+      "id": "u157-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Criminalizar e descriminalizar determinada conduta são",
+      "options": [
+        {
+          "id": "A",
+          "text": "atos sem dimensão político-criminal."
+        },
+        {
+          "id": "B",
+          "text": "escolhas político-criminais possíveis, submetidas ao ordenamento e ao processo decisório competente."
+        },
+        {
+          "id": "C",
+          "text": "decisões exclusivamente criminológicas."
+        },
+        {
+          "id": "D",
+          "text": "decisões do perito."
+        },
+        {
+          "id": "E",
+          "text": "sinônimos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ambas são opções de política criminal; a Criminologia pode informar, mas não decidir automaticamente."
+    },
+    {
+      "id": "u157-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma política criminal baseada em evidências deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser escolhida por intuição e avaliada apenas depois de muitos anos."
+        },
+        {
+          "id": "B",
+          "text": "dispensar dados se houver consenso político."
+        },
+        {
+          "id": "C",
+          "text": "usar dados e hipóteses explícitas e avaliar implementação e efeitos."
+        },
+        {
+          "id": "D",
+          "text": "ignorar resultados indesejados."
+        },
+        {
+          "id": "E",
+          "text": "considerar qualquer correlação como prova."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Políticas baseadas em evidências articulam diagnóstico, intervenção e avaliação."
+    },
+    {
+      "id": "u157-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A evidência empírica, na formulação de política criminal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui legalidade e direitos fundamentais."
+        },
+        {
+          "id": "B",
+          "text": "determina uma única política obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "elimina escolhas valorativas."
+        },
+        {
+          "id": "D",
+          "text": "torna irrelevantes custos e efeitos distributivos."
+        },
+        {
+          "id": "E",
+          "text": "informa a decisão, mas não substitui limites jurídicos, proporcionalidade, viabilidade e escolhas públicas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Evidência é condição relevante para boa decisão, mas não resolve sozinha questões normativas e jurídicas."
+    },
+    {
+      "id": "u157-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma política pública instalou cem postes em área prevista. Esse número é exemplo principalmente de",
+      "options": [
+        {
+          "id": "A",
+          "text": "produto da política."
+        },
+        {
+          "id": "B",
+          "text": "resultado causal definitivo."
+        },
+        {
+          "id": "C",
+          "text": "efeito de longo prazo comprovado."
+        },
+        {
+          "id": "D",
+          "text": "reincidência."
+        },
+        {
+          "id": "E",
+          "text": "taxa de vitimização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Postes instalados são entregas ou produtos; não demonstram, sozinhos, redução de crime."
+    },
+    {
+      "id": "u157-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A redução de roubos após uma intervenção, se confirmada de modo robusto como efeito da medida, corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "produto apenas."
+        },
+        {
+          "id": "B",
+          "text": "insumo administrativo."
+        },
+        {
+          "id": "C",
+          "text": "mera atividade."
+        },
+        {
+          "id": "D",
+          "text": "resultado da política."
+        },
+        {
+          "id": "E",
+          "text": "norma penal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Resultado é a mudança no fenômeno-alvo; produto é a entrega realizada."
+    },
+    {
+      "id": "u157-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes de concluir que uma política 'não funcionou', é importante verificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a opinião de seus gestores."
+        },
+        {
+          "id": "B",
+          "text": "somente o orçamento previsto."
+        },
+        {
+          "id": "C",
+          "text": "se foi realmente implementada como desenhada e atingiu o público/território previstos."
+        },
+        {
+          "id": "D",
+          "text": "se houve cobertura de imprensa."
+        },
+        {
+          "id": "E",
+          "text": "se a lei tinha nome específico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Falha de implementação e falha da teoria da intervenção são problemas distintos."
+    },
+    {
+      "id": "u157-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'depois da política, o indicador caiu; logo a política causou a queda' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre correta."
+        },
+        {
+          "id": "B",
+          "text": "insuficiente, porque outros fatores podem ter mudado ao mesmo tempo."
+        },
+        {
+          "id": "C",
+          "text": "regra legal."
+        },
+        {
+          "id": "D",
+          "text": "suficiente em qualquer desenho de avaliação."
+        },
+        {
+          "id": "E",
+          "text": "equivalente a experimento controlado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sequência temporal não basta para atribuir causalidade."
+    },
+    {
+      "id": "u157-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma avaliação mais forte de efeitos pode recorrer, quando viável, a",
+      "options": [
+        {
+          "id": "A",
+          "text": "séries temporais, grupos comparáveis e desenhos experimentais ou quase experimentais."
+        },
+        {
+          "id": "B",
+          "text": "apenas relatos de sucesso dos executores."
+        },
+        {
+          "id": "C",
+          "text": "somente número de ações executadas."
+        },
+        {
+          "id": "D",
+          "text": "uma única notícia jornalística."
+        },
+        {
+          "id": "E",
+          "text": "intuição do avaliador."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Comparações estruturadas ajudam a separar efeito da intervenção de mudanças externas."
+    },
+    {
+      "id": "u157-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual pergunta pertence principalmente à avaliação de processo ou implementação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A política causou redução de 20% no indicador?"
+        },
+        {
+          "id": "B",
+          "text": "Qual é o conceito de delito?"
+        },
+        {
+          "id": "C",
+          "text": "A intervenção foi executada no território, prazo e público previstos?"
+        },
+        {
+          "id": "D",
+          "text": "Qual pena deve ser aplicada?"
+        },
+        {
+          "id": "E",
+          "text": "Qual teoria sociológica explica o crime?"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Avaliação de processo verifica execução, alcance e fidelidade ao desenho."
+    },
+    {
+      "id": "u157-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual pergunta pertence principalmente à avaliação de resultado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantas reuniões foram realizadas?"
+        },
+        {
+          "id": "B",
+          "text": "Quantos profissionais receberam material?"
+        },
+        {
+          "id": "C",
+          "text": "Quantos postes foram comprados?"
+        },
+        {
+          "id": "D",
+          "text": "A equipe foi treinada?"
+        },
+        {
+          "id": "E",
+          "text": "O indicador de vitimização mudou no sentido esperado?"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Resultado refere-se à mudança desejada no fenômeno, não apenas às entregas."
+    },
+    {
+      "id": "u157-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Efeitos não planejados de política criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ser ignorados se o objetivo principal melhorou."
+        },
+        {
+          "id": "B",
+          "text": "também devem ser avaliados, inclusive custos, deslocamentos, estigmatização ou impactos desiguais."
+        },
+        {
+          "id": "C",
+          "text": "não fazem parte de avaliação criminológica."
+        },
+        {
+          "id": "D",
+          "text": "existem apenas em políticas penais."
+        },
+        {
+          "id": "E",
+          "text": "não podem atingir grupos específicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma política pode produzir benefícios e efeitos adversos simultaneamente; ambos importam."
+    },
+    {
+      "id": "u157-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A função crítica da Criminologia permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que toda instituição falha."
+        },
+        {
+          "id": "B",
+          "text": "substituir o juiz."
+        },
+        {
+          "id": "C",
+          "text": "abolir automaticamente qualquer política."
+        },
+        {
+          "id": "D",
+          "text": "comparar funções declaradas de instituições com efeitos efetivamente observados."
+        },
+        {
+          "id": "E",
+          "text": "dispensar evidência empírica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Controle social é objeto da Criminologia; por isso, instituições e efeitos de suas práticas podem ser avaliados empiricamente."
+    },
+    {
+      "id": "u157-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'política criminal'",
+      "options": [
+        {
+          "id": "A",
+          "text": "refere-se tecnicamente a estratégias públicas sobre o fenômeno criminal e não é sinônimo de política partidária."
+        },
+        {
+          "id": "B",
+          "text": "significa campanha eleitoral."
+        },
+        {
+          "id": "C",
+          "text": "designa apenas programa de partido político."
+        },
+        {
+          "id": "D",
+          "text": "é sinônimo de propaganda governamental."
+        },
+        {
+          "id": "E",
+          "text": "não possui sentido técnico nas ciências criminais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conceito pertence às ciências criminais e às políticas públicas; decisões podem ser politicamente debatidas sem que o termo se reduza à disputa partidária."
+    },
+    {
+      "id": "u157-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No ciclo diagnóstico → estratégia → implementação → avaliação, a Criminologia contribui especialmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir todo processo político."
+        },
+        {
+          "id": "B",
+          "text": "fixar a pena individual."
+        },
+        {
+          "id": "C",
+          "text": "diagnóstico, explicação e avaliação empírica que podem informar escolhas político-criminais."
+        },
+        {
+          "id": "D",
+          "text": "julgar constitucionalidade em definitivo."
+        },
+        {
+          "id": "E",
+          "text": "editar leis."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Criminologia fornece e avalia conhecimento; formulações normativas e decisões institucionais cabem aos órgãos competentes."
+    },
+    {
+      "id": "u157-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação à U158, a U157 deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "antecipar detalhadamente prevenção primária, secundária e terciária."
+        },
+        {
+          "id": "B",
+          "text": "ensinar todos os modelos sociológicos."
+        },
+        {
+          "id": "C",
+          "text": "importar modelos de reação ao crime do edital antigo."
+        },
+        {
+          "id": "D",
+          "text": "tratar Criminologia Ambiental como item obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "limitar-se à função geral de prevenção e à relação com política criminal, deixando classificações e teorias para U158."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A fronteira preserva o programa: U158 é responsável por teorias sociológicas e prevenção primária/secundária/terciária."
+    },
+    {
+      "id": "u157-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 94 do Cebraspe/PC-MA 2018 para Delegado, em cenário de violência praticada em rua escura, assinale a opção correta sobre a função da política criminal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deve apenas classificar juridicamente o tipo penal."
+        },
+        {
+          "id": "B",
+          "text": "Deve decidir a pena do autor no caso concreto."
+        },
+        {
+          "id": "C",
+          "text": "Deve limitar-se a produzir estatística sem recomendar intervenção."
+        },
+        {
+          "id": "D",
+          "text": "Pode propor medidas para reduzir condições facilitadoras, como urbanização e iluminação, com base no diagnóstico do problema."
+        },
+        {
+          "id": "E",
+          "text": "Substitui a investigação criminal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão original teve gabarito definitivo D. A banca atribuiu à política criminal a proposição de medidas destinadas a reduzir condições facilitadoras do crime."
+    },
+    {
+      "id": "u157-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 86 da prova UECE/PC-CE 2025 para Oficial Investigador, estudar e recomendar meios de prevenção e repressão à delinquência é tarefa principalmente da",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criminalística."
+        },
+        {
+          "id": "B",
+          "text": "política criminal."
+        },
+        {
+          "id": "C",
+          "text": "Medicina Legal."
+        },
+        {
+          "id": "D",
+          "text": "dogmática processual."
+        },
+        {
+          "id": "E",
+          "text": "estatística descritiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Comunicado nº 143/2025 da CEV/UECE confirmou no gabarito definitivo e em parecer específico que a resposta correta era 'Política Criminal'."
+    }
+  ]
+}
