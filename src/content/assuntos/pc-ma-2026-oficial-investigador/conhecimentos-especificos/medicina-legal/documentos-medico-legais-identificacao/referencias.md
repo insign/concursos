@@ -35,7 +35,7 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 9. **<abbr title="International Criminal Police Organization">INTERPOL</abbr>. Fingerprints.** Referência institucional sobre uso de impressões digitais em identificação e em identificação de vítimas de desastres, inclusive em conjunto com <abbr title="ácido desoxirribonucleico">DNA</abbr>.  
    https://www.interpol.int/How-we-work/Forensics/Fingerprints
 
-10. **Polícia Científica de Santa Catarina. Programa PCI Conecta.** Programa institucional multidisciplinar de localização de desaparecidos e identificação de pessoas de identidade indeterminada com Antropologia Forense, Odontologia Legal, Genética Forense, Papiloscopia e representação facial.  
+10. **Polícia Científica de Santa Catarina. Programa Conecta.** Programa institucional multidisciplinar de localização de desaparecidos e identificação de pessoas de identidade indeterminada com Antropologia Forense, Odontologia Legal, Genética Forense, Papiloscopia e representação facial.  
     https://www.policiacientifica.sc.gov.br/pci-conecta/
 
 ## Questões anteriores verificadas
@@ -59,5 +59,5 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 - U093, conteúdo blob 514a163e1778a22bd15e846339cede3cdef7d4ec, permanece responsável pelo reconhecimento de pessoas do artigo 226 do <abbr title="Código de Processo Penal">CPP</abbr> e pela disciplina probatória processual.
 - U134, conteúdo blob 7ce73aa206eb1f3672c7f1804b0488391cfafb0d, permanece responsável pela Lei nº 12.037/2009, identificação criminal, coleta genética e bancos biométricos.
 - U110, conteúdo blob 964c165875d61266f3f7df2b0d43e961ee7f0bc2, foi usado apenas como contexto institucional do Instituto de Identificação e da papiloscopia na Polícia Civil do Maranhão.
-- O arquivo anexado conteudo.md foi auditado e corresponde a material de Administração do TCE/MA, sem aderência física ou canônica à U151; nenhum trecho foi reaproveitado.
+- O arquivo anexado conteudo.md foi auditado e corresponde a material de Administração do Tribunal de Contas do Estado do Maranhão, sem aderência física ou canônica à U151; nenhum trecho foi reaproveitado.
 - Corte legislativo preservado em **13/07/2026**; fontes oficiais revalidadas em **21/09/2026**.
