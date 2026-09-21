@@ -71,7 +71,7 @@ A garantia de prioridade compreende, entre outros pontos:
 - preferência na formulação e execução de políticas sociais públicas;
 - destinação privilegiada de recursos públicos;
 - formas alternativas de participação, ocupação e convívio com outras gerações;
-- prioridade do atendimento pela própria família em relação ao atendimento asilar, salvo situações legalmente excepcionadas;
+- prioridade do atendimento pela própria família em relação ao acolhimento institucional de longa permanência, salvo situações legalmente excepcionadas;
 - capacitação e reciclagem de recursos humanos em geriatria, gerontologia e prestação de serviços;
 - mecanismos de divulgação educativa sobre envelhecimento;
 - acesso à rede local de saúde e assistência social;
@@ -110,7 +110,7 @@ Os Conselhos Nacional, Estaduais, do Distrito Federal e Municipais da Pessoa Ido
 
 # Parte II — Direitos fundamentais
 
-## 3. Vida, liberdade, respeito e dignidade — arts. 8º a 10
+## 3. Vida, liberdade, respeito e dignidade — artigos 8º a 10
 
 O envelhecimento é um **direito personalíssimo**. Sua proteção é um direito social.
 
@@ -155,7 +155,7 @@ e abrange preservação de:
 
 ---
 
-## 4. Alimentos — arts. 11 a 14
+## 4. Alimentos — artigos 11 a 14
 
 A prestação de alimentos segue a legislação civil.
 
@@ -177,7 +177,7 @@ Se a pessoa idosa ou seus familiares não possuírem condições econômicas de 
 
 ---
 
-## 5. Saúde — arts. 15 a 19
+## 5. Saúde — artigos 15 a 19
 
 A pessoa idosa tem direito à atenção integral à saúde por meio do <abbr title="Sistema Único de Saúde">SUS</abbr>, com acesso:
 
@@ -287,7 +287,7 @@ A lei define violência como ação ou omissão praticada em local público ou p
 
 ---
 
-## 6. Educação, cultura, esporte e lazer — arts. 20 a 25
+## 6. Educação, cultura, esporte e lazer — artigos 20 a 25
 
 A pessoa idosa tem direito a:
 
@@ -332,7 +332,7 @@ O poder público deve apoiar universidade aberta às pessoas idosas e incentivar
 
 ---
 
-## 7. Profissionalização e trabalho — arts. 26 a 28
+## 7. Profissionalização e trabalho — artigos 26 a 28
 
 A pessoa idosa tem direito ao trabalho, respeitadas suas condições:
 
@@ -357,9 +357,13 @@ O poder público deve criar e estimular programas de:
 
 ---
 
-## 8. Previdência e assistência social — arts. 29 a 36
+## 8. Previdência e assistência social — artigos 29 a 36
 
-Os benefícios previdenciários de aposentadoria e pensão devem observar critérios que preservem o valor real, segundo a legislação.
+Os benefícios previdenciários de aposentadoria e pensão devem observar critérios de cálculo que preservem o valor real dos salários sobre os quais incidiram contribuições, nos termos da legislação.
+
+Na aposentadoria por idade, a perda da qualidade de segurado não impede a concessão se a pessoa já contar, no requerimento, com o tempo de contribuição correspondente à carência legal exigida.
+
+Parcelas de benefício pagas com atraso por responsabilidade da Previdência Social devem ser atualizadas pelo mesmo índice usado para reajustar os benefícios do Regime Geral, no período legalmente considerado.
 
 O Estatuto fixa o dia **1º de maio** como data-base dos aposentados e pensionistas.
 
@@ -385,7 +389,7 @@ O benefício já concedido a membro da família nos termos do artigo 34 não ent
 
 Entidade de longa permanência ou casa-lar deve firmar contrato de prestação de serviços com a pessoa idosa.
 
-Em entidade filantrópica ou casa-lar, pode haver participação no custeio.
+Em entidade filantrópica ou **casa-lar**, modalidade residencial de atendimento em ambiente semelhante a uma moradia, pode haver participação no custeio.
 
 O Conselho Municipal da Pessoa Idosa ou, na falta dele, o Conselho Municipal de Assistência Social define a forma de participação, que não pode exceder **70% de qualquer benefício previdenciário ou de assistência social percebido pela pessoa idosa**.
 
@@ -393,7 +397,7 @@ Se a pessoa idosa for incapaz, seu representante legal firma o contrato.
 
 ---
 
-## 9. Habitação — arts. 37 e 38
+## 9. Habitação — artigos 37 e 38
 
 A pessoa idosa tem direito a moradia digna:
 
@@ -422,7 +426,7 @@ Em programas habitacionais públicos ou subsidiados com recursos públicos:
 
 ---
 
-## 10. Transporte — arts. 39 a 42
+## 10. Transporte — artigos 39 a 42
 
 ### 10.1 Transporte urbano e semiurbano
 
@@ -465,7 +469,7 @@ em veículos do sistema de transporte coletivo.
 
 # Parte III — Medidas de proteção
 
-## 11. Quando as medidas de proteção são aplicadas — arts. 43 a 45
+## 11. Quando as medidas de proteção são aplicadas — artigos 43 a 45
 
 As medidas protetivas são aplicáveis sempre que direitos reconhecidos pelo Estatuto forem ameaçados ou violados:
 
@@ -500,7 +504,7 @@ Não confunda medida de proteção com pena criminal: a finalidade imediata é i
 
 # Parte IV — Política e entidades de atendimento
 
-## 12. Política de atendimento — arts. 46 a 48
+## 12. Política de atendimento — artigos 46 a 48
 
 A política de atendimento resulta de conjunto articulado de ações:
 
@@ -522,7 +526,7 @@ Entidades governamentais e não governamentais devem inscrever seus programas no
 
 ---
 
-## 13. Princípios e obrigações das entidades — arts. 49 e 50
+## 13. Princípios e obrigações das entidades — artigos 49 e 50
 
 Programas de institucionalização de longa permanência devem observar, entre outros, os princípios de:
 
@@ -564,7 +568,7 @@ A lista é extensa porque a lei transforma o atendimento institucional em ativid
 
 ---
 
-## 14. Fiscalização e sanções das entidades — arts. 52 a 55
+## 14. Fiscalização e sanções das entidades — artigos 52 a 55
 
 Entidades são fiscalizadas, entre outros, por:
 
@@ -573,10 +577,22 @@ Entidades são fiscalizadas, entre outros, por:
 - Vigilância Sanitária;
 - outros órgãos legalmente previstos.
 
-As sanções variam conforme a entidade seja:
+As sanções variam conforme a entidade.
 
-- governamental;
-- não governamental.
+**Entidade governamental** pode receber:
+
+- advertência;
+- afastamento provisório de dirigentes;
+- afastamento definitivo de dirigentes;
+- fechamento de unidade ou interdição de programa.
+
+**Entidade não governamental** pode receber:
+
+- advertência;
+- multa;
+- suspensão parcial ou total de repasse de verbas públicas;
+- interdição de unidade ou suspensão de programa;
+- proibição de atendimento a pessoas idosas em defesa do interesse público.
 
 A aplicação considera:
 
@@ -591,7 +607,7 @@ Em infração que coloque em risco direitos, o fato deve ser comunicado ao Minis
 
 # Parte V — Infrações administrativas e apuração
 
-## 15. Infrações administrativas — arts. 56 a 58
+## 15. Infrações administrativas — artigos 56 a 58
 
 ### 15.1 Descumprimento das obrigações do artigo 50
 
@@ -620,7 +636,7 @@ Os valores das multas administrativas devem ser atualizados anualmente na forma 
 
 ---
 
-## 16. Processo administrativo — arts. 59 a 63
+## 16. Processo administrativo — artigos 59 a 63
 
 O procedimento de apuração pode iniciar-se:
 
@@ -637,7 +653,7 @@ Se houver risco à vida ou à saúde, a autoridade pode aplicar sanções cabív
 
 ---
 
-## 17. Apuração judicial de irregularidade em entidade — arts. 64 a 68
+## 17. Apuração judicial de irregularidade em entidade — artigos 64 a 68
 
 A irregularidade de entidade de atendimento pode ser apurada por procedimento judicial iniciado por:
 
@@ -659,7 +675,7 @@ Quando entidade governamental sofre medida, a autoridade administrativa superior
 
 # Parte VI — Acesso à justiça e Ministério Público
 
-## 18. Prioridade processual — arts. 69 a 71
+## 18. Prioridade processual — artigos 69 a 71
 
 A lei admite criação de varas especializadas e exclusivas para pessoas idosas.
 
@@ -702,7 +718,7 @@ Esse é um exemplo clássico de “preferência da preferência”.
 
 ---
 
-## 19. Ministério Público — arts. 72 a 77
+## 19. Ministério Público — artigos 72 a 77
 
 Entre as atribuições do Ministério Público estão:
 
@@ -724,7 +740,7 @@ A falta de intervenção ministerial obrigatória pode gerar **nulidade**, inval
 
 ---
 
-## 20. Proteção judicial de interesses — arts. 78 a 92
+## 20. Proteção judicial de interesses — artigos 78 a 92
 
 O Estatuto assegura acesso à justiça para direitos:
 
@@ -760,13 +776,17 @@ Podem propor as ações, conforme a lei:
 
 A lei admite todas as espécies de ação capazes de proteger os direitos.
 
-### 20.3 Custas e execução
+### 20.3 Multas, custas e execução
+
+Os valores de multas previstas no Estatuto revertem ao **Fundo da Pessoa Idosa**, onde houver, ou, na falta dele, ao Fundo Municipal de Assistência Social, vinculados ao atendimento à pessoa idosa.
+
+Multas não recolhidas em até **30 dias após o trânsito em julgado** são exigidas por execução promovida pelo Ministério Público, facultada a iniciativa dos demais legitimados em caso de inércia.
 
 Não há adiantamento de custas, emolumentos, honorários periciais ou outras despesas.
 
-O Ministério Público não responde por honorários de sucumbência, salvo comprovada má-fé.
+Não se impõe sucumbência ao Ministério Público.
 
-Se a sentença favorável não for executada em **60 dias** após o trânsito em julgado, o Ministério Público deve promover a execução, facultada igual iniciativa aos demais legitimados.
+Se a sentença condenatória favorável à pessoa idosa não for executada pelo autor em **60 dias após o trânsito em julgado**, o Ministério Público deve promover a execução, facultada igual iniciativa aos demais legitimados nas condições legais.
 
 ### 20.4 Inquérito civil
 
@@ -774,7 +794,9 @@ Qualquer pessoa pode provocar a iniciativa do Ministério Público.
 
 Servidor público deve fazê-lo quando tiver conhecimento de fatos que possam constituir objeto de ação civil.
 
-Certidões e informações requisitadas pelo Ministério Público devem ser fornecidas em prazo de **10 dias**, salvo disposição legal diferente.
+Para instruir a petição inicial, o interessado pode requerer certidões e informações às autoridades competentes, que devem fornecê-las em **10 dias**.
+
+Em inquérito civil, o Ministério Público pode requisitar certidões, informações, exames ou perícias e fixar prazo que **não pode ser inferior a 10 dias**.
 
 Antes de arquivar inquérito civil ou peças de informação, o Ministério Público deve remeter o arquivamento ao órgão interno competente em **3 dias**.
 
@@ -782,7 +804,7 @@ Antes de arquivar inquérito civil ou peças de informação, o Ministério Púb
 
 # Parte VII — Crimes
 
-## 21. O regime criminal mudou em 2025 — arts. 93 a 95
+## 21. O regime criminal mudou em 2025 — artigos 93 a 95
 
 Aqui está uma atualização decisiva para a prova.
 
@@ -815,7 +837,7 @@ Não se aplicam as imunidades patrimoniais familiares dos artigos 181 e 182 do C
 
 ---
 
-## 22. Crimes de discriminação e omissão de assistência — arts. 96 e 97
+## 22. Crimes de discriminação e omissão de assistência — artigos 96 e 97
 
 ### 22.1 Discriminação — artigo 96
 
@@ -868,7 +890,7 @@ Se resulta morte:
 
 ---
 
-## 23. Abandono e exposição a perigo — arts. 98 e 99
+## 23. Abandono e exposição a perigo — artigos 98 e 99
 
 ### 23.1 Abandono — artigo 98
 
@@ -906,7 +928,7 @@ Não use as penas históricas mais baixas de materiais desatualizados.
 
 ---
 
-## 24. Crimes ligados a trabalho, saúde, ordens e informação — arts. 100 e 101
+## 24. Crimes ligados a trabalho, saúde, ordens e informação — artigos 100 e 101
 
 O artigo 100 pune com reclusão de **6 meses a 1 ano** e multa condutas como:
 
@@ -941,7 +963,7 @@ No Informativo 547, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> con
 
 ---
 
-## 26. Acolhimento, cartão bancário e exposição pública — arts. 103 a 105
+## 26. Acolhimento, cartão bancário e exposição pública — artigos 103 a 105
 
 ### Artigo 103 — procuração como condição de acolhimento
 
@@ -966,7 +988,7 @@ Exibir ou veicular, por qualquer meio de comunicação, informações ou imagens
 
 ---
 
-## 27. Procurações, contratos e atos notariais — arts. 106 a 108
+## 27. Procurações, contratos e atos notariais — artigos 106 a 108
 
 ### Artigo 106
 
@@ -1033,7 +1055,7 @@ A lei também determinou:
 |---|---:|
 | pessoa idosa | **60+** |
 | prioridade especial entre pessoas idosas | **80+** |
-| benefício assistencial do art. 34 | **65+** |
+| benefício assistencial do artigo 34 | **65+** |
 | gratuidade urbana/semiurbana federal | **65+** |
 | assentos reservados no coletivo urbano/semiurbano | **10%** |
 | moradia pública/subsidiada reservada | **mínimo 3%** |
