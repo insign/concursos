@@ -9,19 +9,19 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 
 ## Trauma contundente e por instrumentos de ponta/gume
 
-2. **Revisão “Trauma Forensics in Blunt and Sharp Force Injuries”.** Revisão médico-legal sobre mecanismos e padrões de trauma contundente e por ação cortante/perfurante, incluindo escoriações, contusões/equimoses e lacerações. Usada para a organização morfológica, sem converter um padrão de lesão em identificação automática de instrumento.  
+2. **Eze UO, Ojifinni KA. Trauma Forensics in Blunt and Sharp Force Injuries. Journal of the West African College of Surgeons. 2022;12(4):94–101.** Revisão médico-legal sobre mecanismos e padrões de trauma contundente e por ação cortante/perfurante, incluindo escoriações, contusões/equimoses e lacerações. Usada para a organização morfológica, sem converter um padrão de lesão em identificação automática de instrumento.  
    https://pmc.ncbi.nlm.nih.gov/articles/PMC9802595/
 
 3. **Schmidt U. Sharp force injuries in “clinical” forensic medicine. Forensic Science International. 2010;195(1-3):1-5.** Revisão sobre princípios morfológicos de lesões por instrumentos de ponta/gume e cautelas na diferenciação de circunstâncias acidentais, autoinfligidas e produzidas por terceiros.  
    https://pubmed.ncbi.nlm.nih.gov/19939596/
 
-4. **Forensic Pathologist Testimony, Part 1: Common Questions and Considerations.** Revisão sobre interpretação de feridas incisas/perfurantes, influência de força, tecidos, roupas e características do instrumento; usada para evitar inferências excessivas a partir da forma isolada da lesão.  
+4. **Gill JR, Ely SF. Forensic Pathologist Testimony, Part 1: Common Questions and Considerations. Academic Forensic Pathology. 2024/2025;15(1):28–41.** Revisão sobre interpretação de feridas incisas/perfurantes, influência de força, tecidos, roupas e características do instrumento; usada para evitar inferências excessivas a partir da forma isolada da lesão.  
    https://pmc.ncbi.nlm.nih.gov/articles/PMC11558648/
 
-5. **Maguire S et al. Can you age bruises accurately in children? A systematic review. Archives of Disease in Childhood. 2005.** Revisão sistemática sobre a baixa precisão da estimativa de idade de equimoses pela cor. Sustenta a ressalva de que o chamado espectro equimótico não funciona como relógio universal.  
-   https://pubmed.ncbi.nlm.nih.gov/15665179/
+5. **Grossman SE, Johnston A, Vanezis P, Perrett D. Can we assess the age of bruises? An attempt to develop an objective technique. Medicine, Science and the Law. 2011;51(3):170–176.** Estudo com avaliação visual por especialistas e análise de cor; sustenta a ressalva de que cor isolada não permite cronologia exata confiável.  
+   https://pubmed.ncbi.nlm.nih.gov/21905574/
 
-6. **Ciência & Saúde Coletiva — estudo de lesões bucomaxilofaciais em exames periciais no Instituto Médico Legal de São Luís, Maranhão.** Apoio local para a terminologia observada em registros periciais — instrumentos contundentes, cortantes, perfurantes e combinações, além de escoriação, equimose, hematoma e diferentes formas de ferida. Não é origem física da U152.  
+6. **Garcez RHM, Thomaz EBAF, Marques RC, Azevedo JAP, Lopes FF. Caracterização de lesões bucomaxilofaciais decorrentes de agressão física: diferenças entre gênero. Ciência & Saúde Coletiva. 2019;24(3):1143–1152.** Apoio local para a terminologia observada em registros periciais — instrumentos contundentes, cortantes, perfurantes e combinações, além de escoriação, equimose, hematoma e diferentes formas de ferida. Não é origem física da U152.  
    https://www.scielo.br/j/csc/a/S5zwvRrbdGwmG5NzsdGwvKm/?format=html
 
 ## Ferimentos por projéteis de arma de fogo
@@ -29,10 +29,10 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 7. **Große Perdekamp M, Pollak S. Autopsy findings in victims of gunshot injuries: wound ballistic considerations based on test shots to simulants and composite models. International Journal of Legal Medicine. 2025.** Revisão de morfologia de entradas conforme distância, orla de escoriação, enxugo, disparos encostados, ação dos gases, canal intracorporal, cavitação, tecido/ossos e variabilidade do ferimento.  
    https://pmc.ncbi.nlm.nih.gov/articles/PMC12532641/
 
-8. **Wound ballistics of firearm-related injuries — revisão de mecanismos de transferência de energia.** Apoio para cavidade permanente/temporária, deformação, fragmentação e dependência do efeito lesivo em relação à interação entre projétil e tecido.  
+8. **Baum GR, Baum JT, Hayward D, MacKay BJ. Gunshot Wounds: Ballistics, Pathology, and Treatment Recommendations, with a Focus on Retained Bullets. Orthopedic Research and Reviews. 2022;14:293–317.** Apoio para cavidade permanente/temporária, deformação, fragmentação e dependência do efeito lesivo em relação à interação entre projétil e tecido.  
    https://pmc.ncbi.nlm.nih.gov/articles/PMC9462949/
 
-9. **Comparative analysis of high- and low-velocity firearm injuries — estudo indexado no PubMed, identificador 38146043.** Usado somente como exemplo de que estudos podem adotar critérios operacionais próprios para “alta velocidade”; a U152 não transforma um limiar de pesquisa em definição universal do edital.  
+9. **Manta AM et al. The wounding potential of assault rifles: analysis of the dimensions of entrance and exit wounds and comparison with conventional handguns. A multicentric study. Forensic Science, Medicine and Pathology. 2024;20(3):896–909.** Usado somente como exemplo de que estudos podem adotar critérios operacionais próprios para “alta velocidade”; a U152 não transforma um limiar de pesquisa em definição universal do edital.  
    https://pubmed.ncbi.nlm.nih.gov/38146043/
 
 ## Questões anteriores verificadas
@@ -60,5 +60,5 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 - U149 fornece o mapa de Traumatologia; U150 fornece método pericial; U151 encerra documentos/identificação. Nenhuma delas é origem de conteúdo traumático integral.
 - U153 permanece responsável por diagnóstico da morte, fenômenos cadavéricos, cronotanatognose, causa jurídica, morte súbita/suspeita; U154 permanece responsável pelo exame médico-legal do local.
 - A busca no repositório não localizou pacote físico ou canônico integral compatível. #765 e #766 não registravam reserva concorrente desta origem na seleção.
-- Os arquivos anexados ao projeto foram auditados: o conteudo.md é de Administração do Tribunal de Contas do Estado do Maranhão; os três PDFs são edital/retificação do Tribunal de Contas do Estado do Maranhão. Não houve reaproveitamento por ausência de aderência à U152.
+- Os arquivos anexados ao projeto foram auditados: o conteudo.md é de Administração do Tribunal de Contas do Estado do Maranhão; os três documentos anexados são edital/retificação do Tribunal de Contas do Estado do Maranhão. Não houve reaproveitamento por ausência de aderência à U152.
 - Corte legislativo preservado em **13/07/2026**; fontes e provas revalidadas em **21/09/2026**.
