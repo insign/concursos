@@ -48,7 +48,7 @@
 14. **Supremo Tribunal Federal. Inquérito 4.435/Distrito Federal — quarto agravo regimental, Plenário, julgamento em 14 mar. 2019.** Competência da Justiça Eleitoral para processar e julgar crimes eleitorais e crimes comuns que lhes sejam conexos, cabendo à Justiça especializada examinar a conexão no caso concreto.  
     https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-reafirma-competencia-da-justica-eleitoral-para-julgar-crimes-comuns-conexos-a-delitos-eleitorais/
 
-15. **Tribunal Superior Eleitoral. Resolução nº 23.618, de 7 de maio de 2020, com alterações posteriores.** Organização de zonas eleitorais específicas para crimes comuns conexos aos eleitorais, em decorrência do Inquérito 4.435/DF.  
+15. **Tribunal Superior Eleitoral. Resolução nº 23.618, de 7 de maio de 2020, com alterações posteriores.** Organização de zonas eleitorais específicas para crimes comuns conexos aos eleitorais, em decorrência do Inquérito 4.435/Distrito Federal.  
     https://www.tse.jus.br/legislacao/compilada/res/2020/resolucao-no-23-618-de-7-de-maio-de-2020
 
 16. **Tribunal Superior Eleitoral. Temas Selecionados — Crimes eleitorais e processo penal eleitoral — Pena/Execução.** Página atualizada em 10 jun. 2026 registra orientação segundo a qual, no cenário processual vigente, a execução da pena depende de trânsito em julgado para acusação e defesa, afastando leitura do artigo 363 como autorização automática de execução provisória.  
