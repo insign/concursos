@@ -32,7 +32,7 @@ Brasil acrescenta pontes constitucionais/legais relevantes, como:
 - povos indígenas;
 - mulher em violência doméstica;
 - proteção racial;
-- pessoas sob custódia.
+- pessoas privadas de liberdade.
 
 ## Salvaguardas rápidas
 
