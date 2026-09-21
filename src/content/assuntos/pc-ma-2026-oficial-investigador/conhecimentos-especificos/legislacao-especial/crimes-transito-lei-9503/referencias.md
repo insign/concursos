@@ -74,7 +74,7 @@ Alterações posteriores ao corte, inclusive as Leis nº 15.485/2026 e nº 15.50
 21. **Cebraspe — Polícia Civil de Pernambuco, concurso 2023, prova oral de Legislação Penal e Processual Penal Extravagante, questão 4.** Padrão oficial: embriaguez ao volante e condução sem habilitação são delitos autônomos; o padrão aplica a Súmula 664 do Superior Tribunal de Justiça e rejeita consunção entre os artigos 306 e 309. A U137 utiliza adaptação não literal desse núcleo.  
     https://cdn.cebraspe.org.br/concursos/pc_pe_23/arquivos/MALOTE1_027_PC_PE_23_ORAL_COM_PADRAO.PDF
 
-Não foi estabelecida quota de questões anteriores. A questão 19 do concurso Cebraspe/MP-AP Promotor 2021, embora pertinente à embriaguez, foi descartada porque o gabarito definitivo oficial a anulou.
+Não foi estabelecida quota de questões anteriores. A questão 19 do concurso Cebraspe/Ministério Público do Amapá — Promotor 2021, embora pertinente à embriaguez, foi descartada porque o gabarito definitivo oficial a anulou.
 
 ## Proveniência e fronteiras
 
