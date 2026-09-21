@@ -25,7 +25,7 @@ Fontes revalidadas para a U145 e o corte legislativo de **13 de julho de 2026**.
    https://www.ohchr.org/Documents/Publications/Reporting-ICCPR-Training-Guide.pdf
 
 7. **Nações Unidas. Conselho Econômico e Social. Resolução 1985/17, de 28 de maio de 1985.** Base institucional para a criação do Comitê de Direitos Econômicos, Sociais e Culturais, reconstituindo o grupo de trabalho encarregado de auxiliar o Conselho no monitoramento do Pacto. A fonte é relevante para a distinção de prova: o texto originário do Pacto não cria expressamente esse Comitê.  
-   https://digitallibrary.un.org/record/103982
+   https://digitallibrary.un.org/record/100079
 
 8. **Office of the United Nations High Commissioner for Human Rights. Ratifying the International Covenants: The International Covenant on Economic, Social and Cultural Rights and the International Covenant on Civil and Political Rights — Ratification Toolkit.** Síntese oficial das obrigações e do monitoramento; registra o Comitê de Direitos Econômicos, Sociais e Culturais como órgão estabelecido pela Resolução 1985/17 para exercer funções de monitoramento atribuídas ao Conselho Econômico e Social.  
    https://www.ohchr.org/sites/default/files/documents/publications/ratification-toolkits/ICESCR-ICCPR-Ratification-Toolkit-EN.pdf
@@ -48,7 +48,7 @@ Não foi imposta quota de questões anteriores. Foram escolhidos somente itens c
 ## Proveniência, recorte e fronteiras
 
 - Unidade U145, identidade `pc-u145`, ordem 145, consumidor `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`.
-- Classificação PC-R02: **nova/local**, sem `vinculo.json`. A busca na `main`, biblioteca, acervo TCE e unidades já publicadas não localizou pacote integral dos dois Pactos.
+- Classificação PC-R02: **nova/local**, sem `vinculo.json`. A busca na `main`, biblioteca, acervo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> e unidades já publicadas não localizou pacote integral dos dois Pactos.
 - Destino: `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direitos-humanos/pactos-internacionais-direitos-humanos-1966/`.
 - U144 — `sistema-global-onu-dudh`, blobs C `2f98183d0de073ccddd9c416aa9a3801696fae0d`, H `5cbfbbcf9a754c042b0ad561834decb2188eb8f4`, R `6e0b74bc45b5513d11aeb632e9c9fe0dbf18f7a1`, Q `cde2bf84c2f54868d26f156027954624cd3aa7d0` — foi lida integralmente e permanece a unidade de arquitetura das Nações Unidas e da Declaração Universal. Ela remete expressamente os Pactos e seus mecanismos a U145.
 - U143 — `direito-internacional-direitos-humanos-brasil`, blobs C `6b338488ea8ee3d5ce917b0ee80419141004fcae`, H `0150bb55ef818c1581b51f42bfe1b5d4681aa4f4`, R `97029862f812d77655c8ee0d0f000e0d0814c132`, Q `e9f1bb2153ba87d1e339abd43b07099f24c17a08` — foi lida integralmente e permanece responsável por incorporação, ratificação/promulgação e hierarquia brasileira. U145 faz apenas a ponte cronológica dos Decretos nº 591/592.
