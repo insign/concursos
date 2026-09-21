@@ -79,7 +79,7 @@ Objetos específicos.
 | <abbr title="estudo médico-legal da morte e do cadáver">tanatologia forense</abbr> | morte |
 | <abbr title="aplicação da psiquiatria a questões jurídicas">psiquiatria forense</abbr> | mente/capacidade |
 
-**Pegadinha Cebraspe:** antropologia, traumatologia e asfixiologia **não** são ramos da parte geral.
+**Pegadinha <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>:** antropologia, traumatologia e asfixiologia **não** são ramos da parte geral.
 
 ## Importância
 
