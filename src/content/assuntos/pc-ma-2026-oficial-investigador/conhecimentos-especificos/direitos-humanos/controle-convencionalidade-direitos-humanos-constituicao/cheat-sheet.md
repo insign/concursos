@@ -25,7 +25,6 @@ com normas internacionais de direitos humanos aplicáveis.
 
 - artigo 1º.1 → respeitar + garantir;
 - artigo 2º → adequar o direito interno;
-- artigo 29 → interpretação protetiva e limites.
 
 ### Convenção de Viena
 
