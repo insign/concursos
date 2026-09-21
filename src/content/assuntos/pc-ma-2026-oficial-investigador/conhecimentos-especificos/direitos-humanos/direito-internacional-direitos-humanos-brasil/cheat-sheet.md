@@ -21,7 +21,7 @@ TRATADO
 
 Convenção de Viena:
 
-- art. 26 → **pacta sunt servanda**: tratado em vigor deve ser cumprido de boa-fé;
+- art. 26 → <abbr title="tratados em vigor devem ser cumpridos de boa-fé">pacta sunt servanda</abbr>: tratado em vigor deve ser cumprido de boa-fé;
 - art. 27 → Estado não usa direito interno como justificativa ordinária para inadimplemento.
 
 **Isso não define a hierarquia interna.**
