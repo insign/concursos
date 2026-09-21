@@ -4,7 +4,7 @@
 
 **plano internacional ≠ plano interno**
 
-\`\`\`text
+```text
 TRATADO
 → celebração pelo Executivo
 → aprovação do Congresso
@@ -13,7 +13,7 @@ TRATADO
 → promulgação/publicação
 → executoriedade interna
 → definir hierarquia
-\`\`\`
+```
 
 ## Relação internacional × interna
 
@@ -133,7 +133,7 @@ Hierarquia depende:
 
 ## Sequência de prova
 
-\`\`\`text
+```text
 É tratado de direitos humanos?
         ↓
 SIM
@@ -141,8 +141,8 @@ SIM
 Foi aprovado em cada Casa, 2 turnos, 3/5?
         ↓
 SIM → equivalente a emenda
-NÃO → supralegal, segundo STF
-\`\`\`
+NÃO → supralegal, segundo Supremo Tribunal Federal
+```
 
 ## Pegadinhas
 
