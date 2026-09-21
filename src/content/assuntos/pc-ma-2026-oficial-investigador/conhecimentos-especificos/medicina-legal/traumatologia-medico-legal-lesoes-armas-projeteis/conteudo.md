@@ -182,8 +182,8 @@ A prova costuma cobrar o mecanismo:
 | Ação predominante | Lesão típica |
 |---|---|
 | gume | incisa/cortante |
-| ponta | punctória/perfurante |
-| ponta + gume | perfuroincisa/perfurocortante |
+| ponta | perfurante |
+| ponta + gume | perfurocortante |
 | gume + massa | cortocontusa |
 
 Um mesmo objeto pode atuar de mais de uma maneira conforme o modo de uso. Uma faca, por exemplo, pode cortar com o gume ou penetrar pela ponta.
@@ -499,7 +499,7 @@ Orifícios de saída costumam:
 - não apresentar tatuagem ou esfumaçamento produzidos pela boca da arma;
 - variar muito conforme deformação, fragmentação, tecido e energia residual.
 
-É comum ensinar que entrada é menor e mais regular e saída é maior e evertida.
+É comum ensinar que entrada é menor e mais regular e saída é maior e tem bordas voltadas para fora.
 
 Isso é uma **tendência**, não uma lei universal.
 
