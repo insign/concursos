@@ -54,7 +54,7 @@ O artigo 33 identifica como órgãos competentes para os assuntos relacionados a
 1. a Comissão Interamericana de Direitos Humanos;
 2. a Corte Interamericana de Direitos Humanos.
 
-A Comissão e a Corte têm funções diferentes. A primeira recebe e processa petições, monitora situações e formula recomendações; a segunda exerce funções jurisdicionais previstas na Convenção, inclusive competência contenciosa quando preenchidos os requisitos próprios.
+A Comissão e a Corte têm funções diferentes. A primeira recebe e processa petições, monitora situações e formula recomendações; a segunda exerce funções jurisdicionais previstas na Convenção, inclusive <abbr title="competência para decidir casos concretos submetidos ao tribunal">competência contenciosa</abbr> quando preenchidos os requisitos próprios.
 
 ## 4. Brasil: quatro datas que não devem ser misturadas
 
@@ -63,13 +63,13 @@ No caso brasileiro, separe quatro marcos:
 - **25/09/1992** → depósito do instrumento de adesão à <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr>;
 - **25/09/1992** → entrada em vigor da Convenção para o Brasil, conforme o registro do tratado;
 - **06/11/1992** → Decreto nº 678 promulga a Convenção no Brasil;
-- **10/12/1998** → o Brasil deposita declaração reconhecendo como obrigatória a competência contenciosa da Corte, em condição de reciprocidade e por prazo indeterminado, para fatos posteriores a essa declaração.
+- **10/12/1998** → o Brasil deposita declaração reconhecendo como obrigatória a <abbr title="competência para decidir casos concretos submetidos ao tribunal">competência contenciosa</abbr> da Corte, em condição de reciprocidade e por prazo indeterminado, para fatos posteriores a essa declaração.
 
 O Decreto nº 4.463/2002 promulgou internamente essa declaração de reconhecimento.
 
 A ordem temporal resolve uma pegadinha frequente:
 
-> ser parte da <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> **não equivale automaticamente** a ter reconhecido, desde a mesma data, a jurisdição contenciosa obrigatória da Corte.
+> ser parte da <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> **não equivale automaticamente** a ter reconhecido, desde a mesma data, a <abbr title="jurisdição para decidir casos concretos submetidos ao tribunal">jurisdição contenciosa</abbr> obrigatória da Corte.
 
 ---
 
@@ -141,7 +141,7 @@ Não é necessário transportar para esta unidade toda a teoria do Pacto Interna
 
 ## 8. Artigo 27: suspensão de garantias não é suspensão de tudo
 
-Em guerra, perigo público ou outra emergência que ameace a independência ou a segurança do Estado-parte, a Convenção admite medidas de derrogação somente:
+Em guerra, perigo público ou outra emergência que ameace a independência ou a segurança do Estado-parte, a Convenção admite medidas de suspensão temporária de obrigações somente:
 
 - na medida e pelo tempo estritamente exigidos pela situação;
 - sem incompatibilidade com outras obrigações internacionais;
@@ -174,6 +174,16 @@ O artigo 29 contém regras de interpretação que impedem, entre outras coisas, 
 - excluir efeitos da Declaração Americana e de outros atos internacionais da mesma natureza.
 
 O artigo 30 acrescenta que restrições permitidas pela Convenção só podem ser aplicadas conforme leis editadas por razões de interesse geral e para a finalidade para a qual foram estabelecidas.
+
+### 9.1 Emendas e protocolos adicionais: o catálogo pode ser ampliado
+
+A própria Convenção prevê caminhos formais para desenvolver seu sistema de proteção.
+
+O artigo 76 permite propostas de **emenda** por Estado-parte diretamente e pela Comissão ou pela Corte por intermédio do Secretário-Geral. A entrada em vigor da emenda depende das ratificações exigidas pelo próprio artigo.
+
+O artigo 77 permite que Estado-parte e Comissão apresentem propostas de **protocolos adicionais** para incluir progressivamente outros direitos e liberdades no sistema de proteção. Cada protocolo define sua forma de entrada em vigor e se aplica aos Estados que sejam partes dele.
+
+Pegadinha: essa abertura não significa que qualquer ato posterior da <abbr title="Organização dos Estados Americanos">OEA</abbr> altere automaticamente a <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr>. Existem procedimentos próprios de emenda e protocolo.
 
 ---
 
@@ -240,7 +250,7 @@ Os requisitos dos itens 1 e 2 não se aplicam quando:
 - houver negativa de acesso aos recursos internos ou impedimento de esgotá-los;
 - houver demora injustificada na decisão sobre esses recursos.
 
-A lógica é de subsidiariedade, não de formalismo cego: em regra, o Estado deve ter oportunidade de responder internamente; mas o sistema não exige um recurso inexistente, inacessível ou indefinidamente paralisado.
+A lógica é de uso complementar do sistema internacional, não de formalismo cego: em regra, o Estado deve ter oportunidade de responder internamente; mas o sistema não exige um recurso inexistente, inacessível ou indefinidamente paralisado.
 
 ## 14. Inadmissibilidade e duplicidade internacional
 
@@ -418,7 +428,7 @@ Imagine uma denúncia de violação atribuída a um Estado-parte.
 | --- | --- | --- |
 | natureza principal no fluxo | órgão de promoção/proteção e processamento de petições | tribunal internacional |
 | recebe petição de pessoa/grupo | sim | não diretamente |
-| pode buscar solução amistosa | sim | não é a função do art. 48 |
+| pode buscar solução amistosa | sim | não é a função do artigo 48 |
 | produz relatórios/recomendações | sim | profere sentenças e pareceres consultivos |
 | submissão de caso à Corte | pode submeter | recebe caso legitimamente submetido |
 | função contenciosa | não é tribunal | sim, se houver competência |
