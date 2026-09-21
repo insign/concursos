@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u156-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor distinção entre Criminologia e Direito Penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criminologia é apenas comentário doutrinário do Código Penal."
+        },
+        {
+          "id": "B",
+          "text": "Criminologia estuda empiricamente o fenômeno criminal, enquanto o Direito Penal organiza normativamente crimes e consequências jurídicas."
+        },
+        {
+          "id": "C",
+          "text": "Direito Penal é ciência empírica e a Criminologia é exclusivamente normativa."
+        },
+        {
+          "id": "D",
+          "text": "Criminologia e Direito Penal têm objeto e método idênticos."
+        },
+        {
+          "id": "E",
+          "text": "Criminologia trata apenas de provas materiais de casos concretos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Criminologia trabalha com fenômenos observáveis e integração de saberes; o Direito Penal estrutura respostas normativas."
+    },
+    {
+      "id": "u156-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte do edital, Criminologia pode ser caracterizada como campo",
+      "options": [
+        {
+          "id": "A",
+          "text": "empírico e interdisciplinar."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente dogmático."
+        },
+        {
+          "id": "C",
+          "text": "apenas estatístico."
+        },
+        {
+          "id": "D",
+          "text": "puramente biológico."
+        },
+        {
+          "id": "E",
+          "text": "estritamente processual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Empirismo e interdisciplinaridade são os dois traços metodológicos expressamente cobrados pelo edital."
+    },
+    {
+      "id": "u156-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São objetos clássicos da Criminologia expressamente listados no edital",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime, pena, processo e prova."
+        },
+        {
+          "id": "B",
+          "text": "delito, juiz, polícia e sentença."
+        },
+        {
+          "id": "C",
+          "text": "lei, pena, prisão e perícia."
+        },
+        {
+          "id": "D",
+          "text": "delito, delinquente, vítima e controle social."
+        },
+        {
+          "id": "E",
+          "text": "tipicidade, ilicitude, culpabilidade e punibilidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O edital lista literalmente delito, delinquente, vítima e controle social."
+    },
+    {
+      "id": "u156-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que a Criminologia é empírica significa que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa teoria."
+        },
+        {
+          "id": "B",
+          "text": "usa apenas dados quantitativos."
+        },
+        {
+          "id": "C",
+          "text": "busca conhecimento por observação sistemática da realidade e análise de dados ou experiências verificáveis."
+        },
+        {
+          "id": "D",
+          "text": "estuda somente fatos que podem ser vistos diretamente."
+        },
+        {
+          "id": "E",
+          "text": "produz previsões infalíveis sobre indivíduos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Empirismo envolve conexão sistemática com a realidade observável, podendo usar métodos quantitativos, qualitativos ou mistos."
+    },
+    {
+      "id": "u156-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual exemplo representa pesquisa empírica qualitativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copiar a definição legal de furto."
+        },
+        {
+          "id": "B",
+          "text": "Classificar artigos do Código Penal por pena abstrata."
+        },
+        {
+          "id": "C",
+          "text": "Repetir uma teoria sem observar nenhum dado."
+        },
+        {
+          "id": "D",
+          "text": "Calcular somente a pena prevista para determinado delito."
+        },
+        {
+          "id": "E",
+          "text": "Realizar entrevistas e observação de campo para compreender práticas de um grupo ou instituição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Entrevistas e observação de campo produzem dados empíricos qualitativos."
+    },
+    {
+      "id": "u156-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre estatísticas criminais oficiais, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "reproduzem necessariamente toda a criminalidade real."
+        },
+        {
+          "id": "B",
+          "text": "devem ser interpretadas considerando subnotificação, critérios de registro e capacidade de detecção."
+        },
+        {
+          "id": "C",
+          "text": "não têm qualquer utilidade para a Criminologia."
+        },
+        {
+          "id": "D",
+          "text": "são sempre superiores a métodos qualitativos."
+        },
+        {
+          "id": "E",
+          "text": "provam causalidade por si mesmas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Registros oficiais são fontes relevantes, mas não são um espelho perfeito da totalidade dos fatos."
+    },
+    {
+      "id": "u156-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Interdisciplinaridade significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "integrar perspectivas e métodos de diferentes campos para responder a um problema comum."
+        },
+        {
+          "id": "B",
+          "text": "substituir todas as disciplinas por uma única ciência."
+        },
+        {
+          "id": "C",
+          "text": "apenas reunir bibliografias sem diálogo entre elas."
+        },
+        {
+          "id": "D",
+          "text": "autorizar qualquer profissional a executar atos reservados a outras profissões."
+        },
+        {
+          "id": "E",
+          "text": "abandonar o método empírico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo da interdisciplinaridade é integração funcional de saberes, não simples justaposição."
+    },
+    {
+      "id": "u156-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Empirismo e interdisciplinaridade diferem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "empirismo é jurídico e interdisciplinaridade é estatística."
+        },
+        {
+          "id": "B",
+          "text": "empirismo exclui outras ciências."
+        },
+        {
+          "id": "C",
+          "text": "interdisciplinaridade elimina a observação."
+        },
+        {
+          "id": "D",
+          "text": "empirismo diz respeito à conexão com dados/realidade; interdisciplinaridade, ao diálogo entre saberes."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença entre os termos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os conceitos respondem a perguntas distintas: como conhecer a realidade e quais saberes integrar."
+    },
+    {
+      "id": "u156-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao delito, a perspectiva criminológica",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente idêntica ao conceito analítico de crime do Direito Penal."
+        },
+        {
+          "id": "B",
+          "text": "considera irrelevante o contexto social."
+        },
+        {
+          "id": "C",
+          "text": "pode tratá-lo como fenômeno social e problema coletivo, além da definição jurídico-formal."
+        },
+        {
+          "id": "D",
+          "text": "elimina a importância da lei penal."
+        },
+        {
+          "id": "E",
+          "text": "limita-se à tipicidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Criminologia amplia a observação do delito para sua dimensão social, empírica e institucional."
+    },
+    {
+      "id": "u156-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da fórmula doutrinária de 'problema social' cobrada pelo Cebraspe em 2025, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela se resume a tipicidade, ilicitude e culpabilidade."
+        },
+        {
+          "id": "B",
+          "text": "a banca considerou elementos como incidência massiva, caráter aflitivo e persistência espaço-temporal."
+        },
+        {
+          "id": "C",
+          "text": "ela é norma legal obrigatória para todo estudo criminológico."
+        },
+        {
+          "id": "D",
+          "text": "ela exige repercussão midiática."
+        },
+        {
+          "id": "E",
+          "text": "ela exclui qualquer preocupação com intervenção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na questão 64 da PC-CE 2025, a alternativa correta usou essa fórmula doutrinária; ela deve ser reconhecida como critério de prova, não como definição universal."
+    },
+    {
+      "id": "u156-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Estudar processos de criminalização significa perguntar também",
+      "options": [
+        {
+          "id": "A",
+          "text": "como certos comportamentos passam a ser definidos e tratados como crimes."
+        },
+        {
+          "id": "B",
+          "text": "qual é apenas a pena abstrata prevista."
+        },
+        {
+          "id": "C",
+          "text": "qual juiz julgará um caso específico."
+        },
+        {
+          "id": "D",
+          "text": "como calcular prescrição."
+        },
+        {
+          "id": "E",
+          "text": "qual vestígio existe em uma cena."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Criminologia pode estudar produção da lei, violação da lei e reações sociais à violação."
+    },
+    {
+      "id": "u156-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O delinquente, como objeto criminológico, deve ser estudado",
+      "options": [
+        {
+          "id": "A",
+          "text": "como portador de essência criminosa universal."
+        },
+        {
+          "id": "B",
+          "text": "apenas por características físicas."
+        },
+        {
+          "id": "C",
+          "text": "apenas pelo diagnóstico médico."
+        },
+        {
+          "id": "D",
+          "text": "em sua trajetória, contexto e relação com fatores e instituições, evitando explicações deterministas automáticas."
+        },
+        {
+          "id": "E",
+          "text": "somente pela pena recebida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A abordagem criminológica contemporânea evita reduzir a pessoa a um único traço ou causa."
+    },
+    {
+      "id": "u156-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre explicações monocausais do delito, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "um único fator social sempre explica qualquer delito."
+        },
+        {
+          "id": "B",
+          "text": "um diagnóstico individual prevê necessariamente comportamento criminal."
+        },
+        {
+          "id": "C",
+          "text": "o fenômeno criminal pode envolver múltiplos fatores e contextos, devendo-se evitar determinismo automático."
+        },
+        {
+          "id": "D",
+          "text": "classe social determina de forma necessária quem delinquirá."
+        },
+        {
+          "id": "E",
+          "text": "característica física é suficiente para prever crime."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Criminologia trabalha com fenômeno complexo; associação não implica determinação individual."
+    },
+    {
+      "id": "u156-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A vítima é objeto da Criminologia porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estudo criminológico inclui danos, processos de vitimização e respostas sociais e institucionais."
+        },
+        {
+          "id": "B",
+          "text": "ela é apenas fonte de prova."
+        },
+        {
+          "id": "C",
+          "text": "ela é sempre responsável pelo fato."
+        },
+        {
+          "id": "D",
+          "text": "sua experiência é irrelevante ao controle social."
+        },
+        {
+          "id": "E",
+          "text": "Vitimologia estuda exclusivamente o autor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vítima e os processos de vitimização integram o objeto criminológico."
+    },
+    {
+      "id": "u156-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vitimologia é o campo dedicado principalmente ao estudo",
+      "options": [
+        {
+          "id": "A",
+          "text": "da pena abstrata."
+        },
+        {
+          "id": "B",
+          "text": "da tipicidade penal."
+        },
+        {
+          "id": "C",
+          "text": "de vestígios materiais."
+        },
+        {
+          "id": "D",
+          "text": "da vítima e dos processos de vitimização."
+        },
+        {
+          "id": "E",
+          "text": "da competência jurisdicional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vitimologia investiga vítimas, danos, vulnerabilidades e respostas institucionais."
+    },
+    {
+      "id": "u156-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vitimização secundária ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a vítima sofre o dano inicial do delito."
+        },
+        {
+          "id": "B",
+          "text": "a resposta institucional produz novo sofrimento ou revitimização, por exemplo por tratamento desrespeitoso."
+        },
+        {
+          "id": "C",
+          "text": "o autor reincide necessariamente."
+        },
+        {
+          "id": "D",
+          "text": "a vítima deixa de existir juridicamente."
+        },
+        {
+          "id": "E",
+          "text": "o delito não é comunicado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A vitimização secundária decorre do contato inadequado com instâncias formais ou outras respostas institucionais."
+    },
+    {
+      "id": "u156-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Controle social pode ser definido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente atuação policial."
+        },
+        {
+          "id": "B",
+          "text": "somente imposição de pena."
+        },
+        {
+          "id": "C",
+          "text": "mecanismos sociais e institucionais que transmitem normas, promovem conformidade e reagem a desvios."
+        },
+        {
+          "id": "D",
+          "text": "apenas decisões do Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente censura informal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O conceito abrange mecanismos formais e informais."
+    },
+    {
+      "id": "u156-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É exemplo típico de controle social informal",
+      "options": [
+        {
+          "id": "A",
+          "text": "família e escola na transmissão de expectativas e normas sociais."
+        },
+        {
+          "id": "B",
+          "text": "sentença criminal."
+        },
+        {
+          "id": "C",
+          "text": "denúncia do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "prisão executada pelo Estado."
+        },
+        {
+          "id": "E",
+          "text": "processo judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Família, escola e redes de convivência exercem controle informal por socialização, aprovação e desaprovação."
+    },
+    {
+      "id": "u156-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É exemplo típico de controle social formal",
+      "options": [
+        {
+          "id": "A",
+          "text": "aprovação familiar."
+        },
+        {
+          "id": "B",
+          "text": "reputação no grupo de amigos."
+        },
+        {
+          "id": "C",
+          "text": "normas de convivência comunitária."
+        },
+        {
+          "id": "D",
+          "text": "pressão de pares."
+        },
+        {
+          "id": "E",
+          "text": "atuação de polícia, Ministério Público e Poder Judiciário dentro de regras institucionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Instituições do sistema de justiça são exemplos de controle formal."
+    },
+    {
+      "id": "u156-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito do controle social formal, é incorreto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "opera mediante competências e procedimentos."
+        },
+        {
+          "id": "B",
+          "text": "atua sempre sem filtros, prioridades ou limitações."
+        },
+        {
+          "id": "C",
+          "text": "pode aplicar sanções juridicamente previstas."
+        },
+        {
+          "id": "D",
+          "text": "integra o objeto de estudo da Criminologia."
+        },
+        {
+          "id": "E",
+          "text": "pode ser analisado empiricamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Instituições formais também selecionam casos, possuem recursos limitados e operam segundo procedimentos; não atuam de modo indiferenciado."
+    },
+    {
+      "id": "u156-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma forte reprovação comunitária sem atuação estatal é exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle formal judicial."
+        },
+        {
+          "id": "B",
+          "text": "controle pericial."
+        },
+        {
+          "id": "C",
+          "text": "Criminalística."
+        },
+        {
+          "id": "D",
+          "text": "controle social informal."
+        },
+        {
+          "id": "E",
+          "text": "tipicidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A sanção social pode ser intensa mesmo sem aparato formal do Estado."
+    },
+    {
+      "id": "u156-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se duas variáveis aparecem associadas em dados criminológicos, a conclusão adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a associação pode justificar investigação de hipóteses, mas não prova causalidade automaticamente."
+        },
+        {
+          "id": "B",
+          "text": "uma causa necessariamente a outra."
+        },
+        {
+          "id": "C",
+          "text": "os dados devem ser ignorados."
+        },
+        {
+          "id": "D",
+          "text": "a associação prova culpabilidade individual."
+        },
+        {
+          "id": "E",
+          "text": "não existe qualquer relação possível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Correlação é ponto de partida para análise, não prova automática de nexo causal."
+    },
+    {
+      "id": "u156-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Criminologia e Criminalística diferem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criminalística estuda apenas leis."
+        },
+        {
+          "id": "B",
+          "text": "Criminologia examina apenas cadáveres."
+        },
+        {
+          "id": "C",
+          "text": "Criminologia estuda o fenômeno criminal em dimensões sociais/individuais/institucionais; Criminalística examina vestígios materiais de casos concretos."
+        },
+        {
+          "id": "D",
+          "text": "as duas são sinônimas."
+        },
+        {
+          "id": "E",
+          "text": "Criminalística substitui pesquisa criminológica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As áreas podem dialogar, mas têm objetos e métodos distintos."
+    },
+    {
+      "id": "u156-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dados criminológicos sobre grupos populacionais",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam autoria individual."
+        },
+        {
+          "id": "B",
+          "text": "autorizam presumir culpa de qualquer integrante."
+        },
+        {
+          "id": "C",
+          "text": "substituem prova judicial."
+        },
+        {
+          "id": "D",
+          "text": "permitem identificar automaticamente futuros infratores."
+        },
+        {
+          "id": "E",
+          "text": "podem informar padrões e contextos, mas não provam culpabilidade de uma pessoa específica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Inferência de grupo não substitui prova individual nem permite etiquetamento determinista."
+    },
+    {
+      "id": "u156-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 61 da prova Cebraspe/PC-CE 2025 para Delegado, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Controle social informal é exercido somente pelo Estado."
+        },
+        {
+          "id": "B",
+          "text": "Polícia, Ministério Público e Judiciário são exemplos de controle informal."
+        },
+        {
+          "id": "C",
+          "text": "Sociedade civil pode exercer controle informal, enquanto polícia judiciária, Ministério Público e Judiciário integram o controle formal."
+        },
+        {
+          "id": "D",
+          "text": "Família é instituição de controle formal penal."
+        },
+        {
+          "id": "E",
+          "text": "Controle social não integra o objeto da Criminologia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo C, reconhecendo como corretos os itens sobre controle informal pela sociedade civil e controle formal por instituições estatais."
+    },
+    {
+      "id": "u156-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 64 da prova Cebraspe/PC-CE 2025 para Delegado, a perspectiva criminológica do delito",
+      "options": [
+        {
+          "id": "A",
+          "text": "é mais ampla que a fórmula jurídico-penal e, na doutrina adotada pela questão, considera elementos de problema social como incidência massiva, caráter aflitivo e persistência espaço-temporal."
+        },
+        {
+          "id": "B",
+          "text": "se reduz a tipicidade, ilicitude e culpabilidade."
+        },
+        {
+          "id": "C",
+          "text": "depende exclusivamente da pena cominada."
+        },
+        {
+          "id": "D",
+          "text": "ignora fenômenos sociais."
+        },
+        {
+          "id": "E",
+          "text": "é idêntica à Criminalística."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo A. A banca contrapôs conceito jurídico-formal e perspectiva criminológica do delito como problema social."
+    },
+    {
+      "id": "u156-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 65 da prova Cebraspe/PC-CE 2025 para Delegado, qual aspecto metodológico foi reconhecido pela banca como contribuição de Lombroso à Criminologia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandono de observação de dados."
+        },
+        {
+          "id": "B",
+          "text": "adoção exclusiva de método jurídico-dedutivo."
+        },
+        {
+          "id": "C",
+          "text": "negação de qualquer investigação empírica."
+        },
+        {
+          "id": "D",
+          "text": "adoção do método empírico-indutivo em suas investigações."
+        },
+        {
+          "id": "E",
+          "text": "substituição de toda pesquisa por juízo moral."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão original teve gabarito definitivo D. U156 usa a questão apenas para fixar a virada metodológica empírica; o aprofundamento das escolas pertence à U158."
+    }
+  ]
+}
