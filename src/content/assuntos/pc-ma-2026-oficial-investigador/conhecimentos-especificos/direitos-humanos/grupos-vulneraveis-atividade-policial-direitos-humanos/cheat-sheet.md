@@ -21,7 +21,7 @@ Parte III do *Pocketbook on Human Rights for Law Enforcement Officials*:
 - gênero;
 - minorias;
 - migrantes;
-- refugiados e deslocados internos;
+- <abbr title="pessoas protegidas pelo regime jurídico de refúgio">refugiados</abbr> e <abbr title="pessoas deslocadas dentro do próprio país">deslocados internos</abbr>;
 - pessoas com deficiência;
 - vítimas.
 
@@ -45,7 +45,7 @@ Brasil acrescenta pontes constitucionais/legais relevantes, como:
 | pessoa idosa | prioridade + dignidade + autonomia |
 | migrante/refugiado | status não elimina direitos; atenção a idioma/trauma |
 | vítima/testemunha | segurança + informação + privacidade + proteção |
-| pessoa custodiada | dependência estatal → dever reforçado de cuidado |
+| pessoa sob <abbr title="guarda ou controle direto de autoridade">custódia</abbr> | dependência estatal → dever reforçado de cuidado |
 
 <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>: deficiência **não** presume incapacidade.
 
@@ -83,7 +83,7 @@ Não justificam:
 Convenção contra a Tortura:
 - artigo 2º → prevenção + proibição absoluta;
 - artigo 10 → treinamento;
-- artigo 11 → revisão de interrogatório/custódia;
+- artigo 11 → revisão de interrogatório/<abbr title="guarda ou controle direto de autoridade">custódia</abbr>;
 - artigo 12 → investigação pronta/imparcial;
 - artigo 13 → denúncia + proteção;
 - artigo 15 → declaração obtida por tortura não é prova contra vítima;
@@ -162,7 +162,7 @@ Arma:
 - mínimo necessário;
 - sempre dentro do Princípio 9.
 
-## Custódia
+## <abbr title="guarda ou controle direto de autoridade">Custódia</abbr>
 
 Força → só quando estritamente necessária para:
 - segurança/ordem; ou
@@ -208,6 +208,6 @@ Superior responde se sabia/deveria saber do uso ilegal e não preveniu, impediu 
 - força necessária ≠ força ilimitada;
 - arma de fogo ≠ ferramenta ordinária;
 - reunião ilegal não violenta ≠ força ampla;
-- custódia ≠ licença para coerção;
+- <abbr title="guarda ou controle direto de autoridade">custódia</abbr> ≠ licença para coerção;
 - emergência ≠ tortura;
 - ordem superior ≠ escudo para abuso manifesto.
