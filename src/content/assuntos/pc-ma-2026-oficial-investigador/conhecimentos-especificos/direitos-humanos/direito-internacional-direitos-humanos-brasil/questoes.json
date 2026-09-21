@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u143-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 5º, § 2º, da Constituição Federal permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o catálogo constitucional de direitos é materialmente aberto a direitos decorrentes do regime, dos princípios e dos tratados internacionais dos quais o Brasil seja parte."
+        },
+        {
+          "id": "B",
+          "text": "somente os direitos escritos literalmente no artigo 5º possuem proteção constitucional."
+        },
+        {
+          "id": "C",
+          "text": "todo tratado internacional é automaticamente equivalente a emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "os tratados internacionais substituem os direitos previstos na Constituição."
+        },
+        {
+          "id": "E",
+          "text": "o Congresso Nacional não participa da incorporação de tratados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º impede a leitura do catálogo de direitos como lista fechada e inclui direitos decorrentes de tratados dos quais o Brasil seja parte."
+    },
+    {
+      "id": "u143-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No plano internacional, a Convenção de Viena sobre o Direito dos Tratados estabelece, como regra, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Estado pode invocar qualquer lei interna para justificar o descumprimento de tratado."
+        },
+        {
+          "id": "B",
+          "text": "tratado em vigor obriga as partes e deve ser cumprido de boa-fé, e o direito interno não pode ser usado ordinariamente para justificar seu inadimplemento."
+        },
+        {
+          "id": "C",
+          "text": "a Constituição de cada Estado deixa de ter relevância interna após a ratificação."
+        },
+        {
+          "id": "D",
+          "text": "todo tratado possui hierarquia supraconstitucional."
+        },
+        {
+          "id": "E",
+          "text": "ratificação e promulgação são o mesmo ato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os arts. 26 e 27 consagram boa-fé/pacta sunt servanda e vedam, como regra, invocar o direito interno para justificar inadimplemento do tratado."
+    },
+    {
+      "id": "u143-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação de que o Estado não pode invocar seu direito interno para justificar o inadimplemento de tratado",
+      "options": [
+        {
+          "id": "A",
+          "text": "resolve automaticamente a posição hierárquica do tratado no direito brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "significa que todo tratado está acima da Constituição."
+        },
+        {
+          "id": "C",
+          "text": "é uma regra do plano internacional e não substitui a análise constitucional da hierarquia doméstica."
+        },
+        {
+          "id": "D",
+          "text": "torna desnecessário o artigo 5º, § 3º."
+        },
+        {
+          "id": "E",
+          "text": "dispensa a incorporação doméstica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Responsabilidade internacional e hierarquia interna são perguntas distintas. A primeira decorre do compromisso internacional; a segunda depende da Constituição e da jurisprudência brasileira."
+    },
+    {
+      "id": "u143-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Constituição Federal, compete ao Presidente da República",
+      "options": [
+        {
+          "id": "A",
+          "text": "celebrar tratados, convenções e atos internacionais, sujeitos ao referendo do Congresso Nacional."
+        },
+        {
+          "id": "B",
+          "text": "aprovar sozinho tratado de direitos humanos como emenda constitucional."
+        },
+        {
+          "id": "C",
+          "text": "editar decreto legislativo de aprovação do tratado."
+        },
+        {
+          "id": "D",
+          "text": "atribuir por decreto status supraconstitucional ao tratado."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a manifestação do Congresso em todos os tratados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 84, VIII, atribui ao Presidente a celebração de tratados, convenções e atos internacionais, sujeitos ao referendo do Congresso."
+    },
+    {
+      "id": "u143-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento brasileiro de incorporação de tratados, o decreto legislativo corresponde, em regra, à",
+      "options": [
+        {
+          "id": "A",
+          "text": "ratificação internacional realizada pelo Presidente."
+        },
+        {
+          "id": "B",
+          "text": "aprovação parlamentar do ato internacional."
+        },
+        {
+          "id": "C",
+          "text": "promulgação executiva do tratado."
+        },
+        {
+          "id": "D",
+          "text": "decisão do Supremo Tribunal Federal sobre hierarquia."
+        },
+        {
+          "id": "E",
+          "text": "entrada em vigor internacional automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Congresso formaliza sua aprovação por decreto legislativo. Ratificação e promulgação pertencem a etapas distintas."
+    },
+    {
+      "id": "u143-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência que melhor representa o procedimento descrito pela jurisprudência do STF é",
+      "options": [
+        {
+          "id": "A",
+          "text": "promulgação → assinatura → aprovação parlamentar → ratificação."
+        },
+        {
+          "id": "B",
+          "text": "aprovação parlamentar → assinatura → promulgação → negociação."
+        },
+        {
+          "id": "C",
+          "text": "celebração → aprovação parlamentar → ratificação internacional → promulgação/publicação para executoriedade interna."
+        },
+        {
+          "id": "D",
+          "text": "ratificação → emenda constitucional automática → decreto legislativo."
+        },
+        {
+          "id": "E",
+          "text": "assinatura → executoriedade interna imediata → aprovação parlamentar posterior."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A jurisprudência constitucional descreve procedimento com atuação do Executivo e do Congresso, ratificação internacional e posterior promulgação/publicação para executoriedade doméstica."
+    },
+    {
+      "id": "u143-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ratificação de um tratado é, segundo a Convenção de Viena,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ato internacional pelo qual o Estado manifesta seu consentimento em obrigar-se pelo tratado."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo de decreto legislativo."
+        },
+        {
+          "id": "C",
+          "text": "ato pelo qual o Judiciário confere status constitucional."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo de publicação no Diário Oficial."
+        },
+        {
+          "id": "E",
+          "text": "ato exclusivo do Congresso que dispensa atuação internacional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Convenção de Viena define ratificação como ato internacional de manifestação do consentimento estatal em obrigar-se."
+    },
+    {
+      "id": "u143-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A promulgação presidencial, no modelo de incorporação descrito pelo STF,",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui a aprovação parlamentar."
+        },
+        {
+          "id": "B",
+          "text": "é irrelevante para a executoriedade doméstica."
+        },
+        {
+          "id": "C",
+          "text": "culmina a incorporação doméstica, com promulgação, publicação oficial e executoriedade interna."
+        },
+        {
+          "id": "D",
+          "text": "transforma qualquer tratado em emenda constitucional."
+        },
+        {
+          "id": "E",
+          "text": "é equivalente à ratificação perante o depositário internacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ADI 1.480 descreve o decreto presidencial de promulgação como etapa culminante para publicidade e executoriedade no plano interno."
+    },
+    {
+      "id": "u143-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para que tratado ou convenção internacional sobre direitos humanos seja equivalente a emenda constitucional, o artigo 5º, § 3º, exige aprovação",
+      "options": [
+        {
+          "id": "A",
+          "text": "em sessão unicameral, por dois terços."
+        },
+        {
+          "id": "B",
+          "text": "em cada Casa do Congresso, em um turno, por maioria absoluta."
+        },
+        {
+          "id": "C",
+          "text": "em cada Casa do Congresso, em dois turnos, por três quintos dos respectivos membros."
+        },
+        {
+          "id": "D",
+          "text": "somente no Senado, em dois turnos, por três quintos."
+        },
+        {
+          "id": "E",
+          "text": "pelo Presidente e pelo Supremo Tribunal Federal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fórmula constitucional é: cada Casa, dois turnos, três quintos."
+    },
+    {
+      "id": "u143-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratado de direitos humanos aprovado pelo rito do artigo 5º, § 3º, possui",
+      "options": [
+        {
+          "id": "A",
+          "text": "status meramente regulamentar."
+        },
+        {
+          "id": "B",
+          "text": "status supralegal, apenas."
+        },
+        {
+          "id": "C",
+          "text": "equivalência às emendas constitucionais."
+        },
+        {
+          "id": "D",
+          "text": "status de lei ordinária."
+        },
+        {
+          "id": "E",
+          "text": "status supraconstitucional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A própria Constituição atribui equivalência às emendas constitucionais quando observado o rito qualificado."
+    },
+    {
+      "id": "u143-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do STF, tratado de direitos humanos regularmente incorporado sem o rito do artigo 5º, § 3º, possui status",
+      "options": [
+        {
+          "id": "A",
+          "text": "supraconstitucional."
+        },
+        {
+          "id": "B",
+          "text": "supralegal."
+        },
+        {
+          "id": "C",
+          "text": "de lei municipal."
+        },
+        {
+          "id": "D",
+          "text": "de emenda constitucional automática."
+        },
+        {
+          "id": "E",
+          "text": "sem eficácia interna."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O RE 466.343 consolidou a supralegalidade desses tratados: abaixo da Constituição e acima da legislação infraconstitucional ordinária."
+    },
+    {
+      "id": "u143-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'supralegal', no contexto dos tratados de direitos humanos, significa posição",
+      "options": [
+        {
+          "id": "A",
+          "text": "acima da Constituição."
+        },
+        {
+          "id": "B",
+          "text": "abaixo das leis ordinárias."
+        },
+        {
+          "id": "C",
+          "text": "abaixo da Constituição e acima da legislação infraconstitucional ordinária."
+        },
+        {
+          "id": "D",
+          "text": "idêntica à de decreto administrativo."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente idêntica à de emenda constitucional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Supralegalidade é uma posição intermediária: Constituição acima, legislação ordinária abaixo."
+    },
+    {
+      "id": "u143-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No caso do depositário infiel, a supralegalidade da Convenção Americana sobre Direitos Humanos implicou",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação formal do artigo 5º, LXVII, da Constituição."
+        },
+        {
+          "id": "B",
+          "text": "inaplicabilidade da legislação infraconstitucional incompatível, sem superar o texto constitucional."
+        },
+        {
+          "id": "C",
+          "text": "elevação automática da Convenção a emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "autorização da prisão civil em qualquer modalidade de depósito."
+        },
+        {
+          "id": "E",
+          "text": "revogação da Súmula Vinculante 25."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O precedente não apagou o texto constitucional; a norma supralegal paralisou a eficácia da legislação inferior incompatível."
+    },
+    {
+      "id": "u143-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula Vinculante 25 estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é lícita a prisão civil do depositário judicial."
+        },
+        {
+          "id": "B",
+          "text": "é ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito."
+        },
+        {
+          "id": "C",
+          "text": "somente o depositário voluntário pode ser preso."
+        },
+        {
+          "id": "D",
+          "text": "a prisão depende de tratado aprovado por três quintos."
+        },
+        {
+          "id": "E",
+          "text": "a prisão do depositário é matéria exclusivamente internacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A súmula consolidou a ilicitude da prisão civil do depositário infiel em qualquer modalidade."
+    },
+    {
+      "id": "u143-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual dos conjuntos contém apenas atos internacionais que constam da lista oficial da Presidência da República como aprovados pelo rito do artigo 5º, § 3º?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convenção sobre os Direitos das Pessoas com Deficiência; Tratado de Marraqueche; Convenção Interamericana contra o Racismo."
+        },
+        {
+          "id": "B",
+          "text": "Pacto Internacional de Direitos Civis e Políticos; Convenção Americana; Declaração Universal."
+        },
+        {
+          "id": "C",
+          "text": "Convenção Americana; Carta da ONU; Tratado de Marraqueche."
+        },
+        {
+          "id": "D",
+          "text": "Declaração Universal; Convenção de Viena; Convenção sobre Deficiência."
+        },
+        {
+          "id": "E",
+          "text": "Pacto Internacional de Direitos Econômicos, Sociais e Culturais; Carta da OEA; Convenção Interamericana contra o Racismo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lista oficial reúne, entre os atos qualificados, a Convenção sobre Deficiência e protocolo, o Tratado de Marraqueche e a Convenção Interamericana contra o Racismo."
+    },
+    {
+      "id": "u143-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A circunstância de um tratado versar sobre direitos humanos",
+      "options": [
+        {
+          "id": "A",
+          "text": "é suficiente, por si só, para torná-lo equivalente a emenda constitucional."
+        },
+        {
+          "id": "B",
+          "text": "dispensa aprovação do Congresso."
+        },
+        {
+          "id": "C",
+          "text": "não substitui a verificação do rito do artigo 5º, § 3º, para a equivalência a emenda."
+        },
+        {
+          "id": "D",
+          "text": "torna o tratado supraconstitucional."
+        },
+        {
+          "id": "E",
+          "text": "dispensa ratificação e promulgação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A matéria de direitos humanos é necessária ao § 3º, mas a equivalência também depende do rito qualificado."
+    },
+    {
+      "id": "u143-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mesmo quando o tratado de direitos humanos é aprovado pelo rito do artigo 5º, § 3º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as demais etapas internacionais e de promulgação deixam de existir."
+        },
+        {
+          "id": "B",
+          "text": "o rito qualificado substitui a ratificação internacional."
+        },
+        {
+          "id": "C",
+          "text": "a aprovação qualificada define a hierarquia, mas o tratado ainda segue as etapas pertinentes de ratificação, entrada em vigor e promulgação."
+        },
+        {
+          "id": "D",
+          "text": "o tratado passa a valer antes de qualquer manifestação do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "o Congresso assume a competência exclusiva para ratificar internacionalmente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os exemplos oficiais qualificados mostram aprovação especial, depósito/ratificação, entrada em vigor e promulgação por decreto."
+    },
+    {
+      "id": "u143-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prevalência dos direitos humanos está prevista na Constituição como",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundamento da República no artigo 1º."
+        },
+        {
+          "id": "B",
+          "text": "objetivo fundamental no artigo 3º."
+        },
+        {
+          "id": "C",
+          "text": "princípio que rege as relações internacionais no artigo 4º."
+        },
+        {
+          "id": "D",
+          "text": "regra de competência do Congresso."
+        },
+        {
+          "id": "E",
+          "text": "critério de quórum do artigo 5º, § 3º."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prevalência dos direitos humanos é o inciso II do artigo 4º."
+    },
+    {
+      "id": "u143-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o artigo 4º da Constituição, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Soberania e dignidade da pessoa humana integram seus dez princípios internacionais."
+        },
+        {
+          "id": "B",
+          "text": "Independência nacional, defesa da paz e solução pacífica dos conflitos são princípios das relações internacionais."
+        },
+        {
+          "id": "C",
+          "text": "Desenvolvimento nacional substitui o progresso da humanidade."
+        },
+        {
+          "id": "D",
+          "text": "O artigo proíbe a concessão de asilo político."
+        },
+        {
+          "id": "E",
+          "text": "A cooperação entre os povos visa exclusivamente ao desenvolvimento brasileiro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Independência nacional, defesa da paz e solução pacífica dos conflitos estão expressamente no artigo 4º."
+    },
+    {
+      "id": "u143-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cooperação entre os povos, no artigo 4º, tem como finalidade expressa",
+      "options": [
+        {
+          "id": "A",
+          "text": "o desenvolvimento nacional."
+        },
+        {
+          "id": "B",
+          "text": "o progresso da humanidade."
+        },
+        {
+          "id": "C",
+          "text": "a formação de um Estado mundial."
+        },
+        {
+          "id": "D",
+          "text": "a extinção das soberanias estatais."
+        },
+        {
+          "id": "E",
+          "text": "a unificação monetária latino-americana."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição fala em cooperação entre os povos para o progresso da humanidade."
+    },
+    {
+      "id": "u143-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parágrafo único do artigo 4º determina que o Brasil buscará",
+      "options": [
+        {
+          "id": "A",
+          "text": "integração apenas econômica dos países da América do Sul."
+        },
+        {
+          "id": "B",
+          "text": "integração econômica, política, social e cultural dos povos da América Latina, visando a uma comunidade latino-americana de nações."
+        },
+        {
+          "id": "C",
+          "text": "fusão constitucional obrigatória com Estados vizinhos."
+        },
+        {
+          "id": "D",
+          "text": "criação imediata de uma federação continental."
+        },
+        {
+          "id": "E",
+          "text": "unificação jurídica de todas as constituições americanas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a estrutura literal do parágrafo único do artigo 4º."
+    },
+    {
+      "id": "u143-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prevalência dos direitos humanos prevista no artigo 4º",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma todo tratado de direitos humanos em emenda constitucional."
+        },
+        {
+          "id": "B",
+          "text": "elimina a necessidade de distinguir tratados supralegais e equivalentes a emenda."
+        },
+        {
+          "id": "C",
+          "text": "orienta as relações internacionais, mas não substitui o rito do artigo 5º, § 3º, nem a jurisprudência sobre hierarquia."
+        },
+        {
+          "id": "D",
+          "text": "confere status supraconstitucional a qualquer declaração internacional."
+        },
+        {
+          "id": "E",
+          "text": "dispensa aprovação parlamentar de tratados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 4º, II, é princípio internacional; a hierarquia interna exige análise própria."
+    },
+    {
+      "id": "u143-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que distingue corretamente decreto legislativo, ratificação e decreto presidencial de promulgação.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os três são nomes diferentes para o mesmo ato."
+        },
+        {
+          "id": "B",
+          "text": "Decreto legislativo é aprovação parlamentar; ratificação manifesta consentimento internacional; decreto de promulgação dá publicidade/executoriedade doméstica segundo o modelo do STF."
+        },
+        {
+          "id": "C",
+          "text": "Decreto legislativo é ratificação; ratificação é decisão judicial; promulgação é votação do Senado."
+        },
+        {
+          "id": "D",
+          "text": "Ratificação antecede necessariamente toda aprovação parlamentar."
+        },
+        {
+          "id": "E",
+          "text": "Promulgação presidencial é dispensada sempre que o tratado tratar de direitos humanos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As três etapas possuem sujeitos, planos e funções distintas."
+    },
+    {
+      "id": "u143-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O item 2.3 do edital da PC-MA utiliza a expressão 'tratados de direitos fundamentais'. No estudo sistemático do bloco, essa redação deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser silenciosamente substituída no registro oficial."
+        },
+        {
+          "id": "B",
+          "text": "ser ignorada porque não possui qualquer relação com os itens vizinhos."
+        },
+        {
+          "id": "C",
+          "text": "ser preservada como literalidade do edital e compreendida em conjunto com os itens 2.1 e 2.2, que tratam de direito internacional dos direitos humanos e de tratados de direitos humanos."
+        },
+        {
+          "id": "D",
+          "text": "ser interpretada como referência exclusiva a tratados comuns sem conteúdo de direitos humanos."
+        },
+        {
+          "id": "E",
+          "text": "ser tratada como prova de que o artigo 5º, § 3º, não se aplica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O planejamento preserva a literalidade peculiar do item 2.3 e a contextualiza com os subitens imediatamente anteriores, sem correção silenciosa."
+    },
+    {
+      "id": "u143-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 86 do Cebraspe para Médico-Legista da Polícia Civil de Rondônia, aplicada em 25/9/2022, tratados e convenções internacionais sobre direitos humanos serão equivalentes às emendas constitucionais quando aprovados",
+      "options": [
+        {
+          "id": "A",
+          "text": "em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros."
+        },
+        {
+          "id": "B",
+          "text": "em sessão unicameral, por dois terços."
+        },
+        {
+          "id": "C",
+          "text": "somente pelo Senado, por maioria absoluta."
+        },
+        {
+          "id": "D",
+          "text": "em cada Casa, em turno único, por maioria simples."
+        },
+        {
+          "id": "E",
+          "text": "pelo Presidente da República, independentemente do Congresso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original cobrou exatamente o rito do art. 5º, § 3º, e teve gabarito definitivo A. A formulação foi adaptada sem reprodução literal do conjunto da prova."
+    },
+    {
+      "id": "u143-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 45 do Cebraspe para a ANATEL em 2024, assinale a formulação constitucionalmente correta sobre tratados de direitos humanos.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equivalência a emenda depende de sessão unicameral do Congresso e dois terços dos votos."
+        },
+        {
+          "id": "B",
+          "text": "A equivalência a emenda depende de aprovação em cada Casa, em dois turnos, por três quintos dos respectivos membros."
+        },
+        {
+          "id": "C",
+          "text": "Todo tratado de direitos humanos é automaticamente emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "A aprovação por maioria simples em reunião conjunta é suficiente para equivalência constitucional."
+        },
+        {
+          "id": "E",
+          "text": "O rito qualificado é dispensado quando o tratado já entrou em vigor internacionalmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original atribuiu equivocadamente o rito a sessão unicameral e dois terços e recebeu gabarito definitivo Errado. A alternativa B reproduz o critério constitucional correto."
+    }
+  ]
+}
