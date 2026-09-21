@@ -18,7 +18,7 @@ Fontes revalidadas para a U148 em **21 de setembro de 2026**. Corte legislativo 
 4. **United Nations. Code of Conduct for Law Enforcement Officials — General Assembly resolution 34/169, de 17 de dezembro de 1979.** Artigos 1º–3º e 5º: servir a comunidade, proteger pessoas contra atos ilegais, dignidade/direitos humanos, uso estritamente necessário da força e proibição de tortura e maus-tratos.  
    https://www.ohchr.org/sites/default/files/codeofconduct.pdf
 
-5. **United Nations. Basic Principles on the Use of Force and Firearms by Law Enforcement Officials.** Adotados no Oitavo Congresso das Nações Unidas sobre Prevenção do Crime e Tratamento dos Delinquentes, Havana, 27 de agosto a 7 de setembro de 1990. Princípios 4–10, 13–16 e 22–26: meios não violentos, necessidade, proporcionalidade, proteção da vida, armas de fogo, aviso, assembleias, custódia, reporte e responsabilidade.  
+5. **United Nations. Basic Principles on the Use of Force and Firearms by Law Enforcement Officials.** Adotados no Oitavo Congresso das Nações Unidas sobre Prevenção do Crime e Tratamento dos Delinquentes, Havana, 27 de agosto a 7 de setembro de 1990. Princípios 4–10, 13–16 e 22–26: meios não violentos, necessidade, proporcionalidade, proteção da vida, armas de fogo, aviso, assembleias, <abbr title="guarda ou controle direto de autoridade">custódia</abbr>, reporte e responsabilidade.  
    https://www.ohchr.org/sites/default/files/Documents/ProfessionalInterest/firearms.pdf
 
 6. **Office of the United Nations High Commissioner for Human Rights. Human Rights Standards and Practice for the Police.** Síntese institucional dos princípios de legalidade, necessidade, não discriminação, proporcionalidade e humanidade na atuação policial.  
@@ -26,7 +26,7 @@ Fontes revalidadas para a U148 em **21 de setembro de 2026**. Corte legislativo 
 
 ## Tortura e maus-tratos
 
-7. **United Nations. Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment.** Adotada pela Assembleia Geral pela Resolução 39/46, de 10 de dezembro de 1984. Artigos 1º–2º e 10–16: definição, prevenção absoluta, treinamento, revisão de custódia/interrogatórios, investigação, denúncia, prova obtida por tortura e outros maus-tratos.  
+7. **United Nations. Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment.** Adotada pela Assembleia Geral pela Resolução 39/46, de 10 de dezembro de 1984. Artigos 1º–2º e 10–16: definição, prevenção absoluta, treinamento, revisão de <abbr title="guarda ou controle direto de autoridade">custódia</abbr>/interrogatórios, investigação, denúncia, prova obtida por tortura e outros maus-tratos.  
    https://www.ohchr.org/Documents/Publications/CoreTreatiesen.pdf
 
 8. **United Nations Human Rights Treaty Body Database — Brazil.** Registro oficial: Brasil assinou a Convenção contra a Tortura em 23 de setembro de 1985, ratificou em 28 de setembro de 1989 e a Convenção entrou em vigor para o país em 28 de outubro de 1989.  
@@ -40,7 +40,7 @@ Fontes revalidadas para a U148 em **21 de setembro de 2026**. Corte legislativo 
 
 ## Pontes brasileiras seletivas de proteção
 
-11. **Brasil. Lei nº 8.069, de 13 de julho de 1990 — Estatuto da Criança e do Adolescente, texto compilado.** Proteção integral, prioridade, integridade e garantias na apreensão/custódia; conteúdo integral permanece na U126.  
+11. **Brasil. Lei nº 8.069, de 13 de julho de 1990 — Estatuto da Criança e do Adolescente, texto compilado.** Proteção integral, prioridade, integridade e garantias na apreensão/<abbr title="guarda ou controle direto de autoridade">custódia</abbr>; conteúdo integral permanece na U126.  
     https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm
 
 12. **Brasil. Lei nº 11.340, de 7 de agosto de 2006 — Lei Maria da Penha.** Atendimento policial especializado, proteção da integridade e prevenção de revitimização; sistema integral permanece na U129.  
