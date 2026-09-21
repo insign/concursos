@@ -55,7 +55,7 @@ A Convenção de Viena sobre o Direito dos Tratados, promulgada no Brasil pelo D
 - artigo 26: tratado em vigor obriga as partes e deve ser cumprido de boa-fé;
 - artigo 27: uma parte não pode invocar seu direito interno para justificar o inadimplemento do tratado, sem prejuízo da regra específica do artigo 46.
 
-A expressão latina **pacta sunt servanda** resume a primeira ideia: acordos em vigor devem ser cumpridos.
+A expressão latina <abbr title="tratados em vigor devem ser cumpridos de boa-fé">pacta sunt servanda</abbr> resume a primeira ideia: acordos em vigor devem ser cumpridos.
 
 ### 3.1 Isso não significa que tratado seja automaticamente superior à Constituição brasileira
 
@@ -85,7 +85,7 @@ A doutrina costuma contrastar:
 - **monismo:** direito internacional e interno integram uma ordem unitária;
 - **dualismo:** são ordens distintas, exigindo mecanismo de recepção para produzir efeitos domésticos.
 
-O <abbr title="Supremo Tribunal Federal">STF</abbr>, na medida cautelar da Ação Direta de Inconstitucionalidade 1.480, descreveu o sistema brasileiro, para executoriedade doméstica dos tratados, como uma forma de **dualismo moderado**: não exige transformar o tratado em uma nova lei, mas exige o procedimento constitucional de aprovação e promulgação.
+O <abbr title="Supremo Tribunal Federal">STF</abbr>, na medida cautelar da Ação Direta de Inconstitucionalidade 1.480, descreveu o sistema brasileiro, para executoriedade doméstica dos tratados, como uma forma de <abbr title="modelo em que o tratado exige procedimento interno de incorporação">dualismo moderado</abbr>: não exige transformar o tratado em uma nova lei, mas exige o procedimento constitucional de aprovação e promulgação.
 
 Para prova, a expressão doutrinária é menos importante que o fluxo concreto:
 
