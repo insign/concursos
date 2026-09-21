@@ -14,7 +14,7 @@ Pessoa **não submete diretamente** caso contencioso à Corte.
 
 - adotada: **22/11/1969**;
 - vigor internacional: **18/07/1978**;
-- art. 33 → Comissão + Corte;
+- artigo 33 → Comissão + Corte;
 - proteção internacional = convencional + complementar/coadjuvante da interna.
 
 ### Artigos 1º e 2º
@@ -42,7 +42,7 @@ Pegadinhas:
 - estrangeiro → expulsão **coletiva** proibida;
 - art. 25 → recurso simples, rápido ou efetivo.
 
-## Art. 27 — suspensão
+## Artigo 27 — suspensão
 
 Emergência não permite suspender tudo.
 
@@ -62,13 +62,13 @@ Direitos políticos (art. 23) → **não suspensíveis**.
 - pode buscar solução amistosa;
 - medidas **cautelares**.
 
-### Art. 44 — quem peticiona
+### Artigo 44 — quem peticiona
 
 - qualquer pessoa;
 - grupo de pessoas;
 - entidade não governamental legalmente reconhecida em Estado membro da <abbr title="Organização dos Estados Americanos">OEA</abbr>.
 
-## Admissibilidade — art. 46
+## Admissibilidade — artigo 46
 
 Regra:
 1. esgotar recursos internos;
@@ -81,7 +81,7 @@ Exceções a 1 + 2:
 - acesso aos recursos negado/impedido;
 - demora injustificada.
 
-## Comunicação interestatal — art. 45
+## Comunicação interestatal — artigo 45
 
 Estado contra Estado → depende de **declaração de reconhecimento da competência** nas condições do artigo.
 
@@ -94,7 +94,7 @@ Não confundir com petição individual.
 - relatório/recomendações;
 - eventual submissão à Corte.
 
-**Art. 61:** só **Estados-partes + Comissão** submetem caso à Corte.
+**Artigo 61:** só **Estados-partes + Comissão** submetem caso à Corte.
 
 ## Corte Interamericana
 
@@ -107,7 +107,7 @@ Não confundir com petição individual.
 
 Não é automática com a ratificação da <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr>.
 
-Estado deve reconhecer competência nas condições do art. 62.
+Estado deve reconhecer competência nas condições do artigo 62.
 
 Se houver violação:
 - restabelecer gozo do direito;
@@ -122,7 +122,7 @@ Caso ainda não submetido → Corte pode agir a pedido da Comissão.
 
 ### Consultiva
 
-Art. 64:
+Artigo 64:
 - interpretação da Convenção e de outros tratados de direitos humanos aplicáveis aos Estados americanos;
 - opinião sobre compatibilidade de leis internas, a pedido de Estado membro.
 
@@ -158,7 +158,8 @@ Art. 64:
 - relatório da Comissão ≠ sentença;
 - pessoa pode peticionar ≠ pessoa pode submeter caso à Corte;
 - seis meses ≠ regra absoluta;
-- art. 26 existe;
+- artigo 26 existe;
+- artigos 76–77 → emendas e protocolos adicionais podem desenvolver o catálogo;
 - direitos políticos ≠ suspensíveis;
 - adesão brasileira em 1992 ≠ reconhecimento da Corte em 1992;
 - controle de convencionalidade → U147.
