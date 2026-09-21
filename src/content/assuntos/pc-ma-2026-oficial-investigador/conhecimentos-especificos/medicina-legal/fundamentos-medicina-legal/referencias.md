@@ -7,16 +7,16 @@ Fontes revalidadas para a U149 em **21 de setembro de 2026**. Corte legislativo 
 1. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Polícia Civil do Maranhão — Oficial Investigador de Polícia, de 13 de julho de 2026.** Item 20.2.3, Medicina Legal, item 1: “Conceitos, importância e divisões da medicina legal”. Fonte programática da unidade.  
    https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf
 
-2. **Conselho Federal de Medicina. Resolução CFM nº 2.430, de 21 de maio de 2025.** Regulamenta o ato médico pericial e a produção de prova técnica médica. O artigo 1º enquadra a norma na especialidade de Medicina Legal e Perícia Médica; o artigo 2º define a perícia médica em sentido amplo como ato médico voltado a contribuir para autoridades administrativas, policiais ou judiciárias. Vigente antes do corte.  
+2. **Conselho Federal de Medicina. Resolução <abbr title="Conselho Federal de Medicina">CFM</abbr> nº 2.430, de 21 de maio de 2025.** Regulamenta o ato médico pericial e a produção de prova técnica médica. O artigo 1º enquadra a norma na especialidade de Medicina Legal e Perícia Médica; o artigo 2º define a perícia médica em sentido amplo como ato médico voltado a contribuir para autoridades administrativas, policiais ou judiciárias. Vigente antes do corte.  
    https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2025/2430
 
-3. **Conselho Federal de Medicina. Notícia institucional de 30 de maio de 2025 sobre a Resolução CFM nº 2.430/2025.** Registra o reconhecimento da Medicina Legal e Perícia Médica como especialidade e destaca relevância social, método próprio e produção de prova técnica.  
+3. **Conselho Federal de Medicina. Notícia institucional de 30 de maio de 2025 sobre a Resolução <abbr title="Conselho Federal de Medicina">CFM</abbr> nº 2.430/2025.** Registra o reconhecimento da Medicina Legal e Perícia Médica como especialidade e destaca relevância social, método próprio e produção de prova técnica.  
    https://portal.cfm.org.br/noticias/nova-resolucao-do-cfm-sistematiza-recomendacoes-na-especialidade-de-medicina-legal-e-pericia-medica
 
-4. **Ministério da Educação — Comissão Nacional de Residência Médica. Resolução CNRM nº 19, de 6 de julho de 2021.** Aprova a matriz de competências da residência em Medicina Legal e Perícias Médicas. O objetivo geral abrange atuação judicial criminal, cível, trabalhista e extrajudicial, além da diferenciação entre paciente e periciado.  
+4. **Ministério da Educação — Comissão Nacional de Residência Médica. Resolução <abbr title="Comissão Nacional de Residência Médica">CNRM</abbr> nº 19, de 6 de julho de 2021.** Aprova a matriz de competências da residência em Medicina Legal e Perícias Médicas. O objetivo geral abrange atuação judicial criminal, cível, trabalhista e extrajudicial, além da diferenciação entre paciente e periciado.  
    https://www.gov.br/mec/pt-br/residencia-medica/crm/2021/resolucao-cnrm-no-19-de-6-de-julho-de-2021-resolucao-cnrm-no-19-de-6-de-julho-de-2021-dou-imprensa-nacional.pdf
 
-5. **Conselho Federal de Medicina — Comissão Mista de Especialidades.** Relação institucional das especialidades médicas, incluindo “Medicina legal e perícia médica”, vinculada à Resolução CNRM nº 19/2021.  
+5. **Conselho Federal de Medicina — Comissão Mista de Especialidades.** Relação institucional das especialidades médicas, incluindo “Medicina legal e perícia médica”, vinculada à Resolução <abbr title="Comissão Nacional de Residência Médica">CNRM</abbr> nº 19/2021.  
    https://portal.cfm.org.br/?page_id=156910
 
 ## Contexto institucional da Polícia Civil do Maranhão
@@ -25,11 +25,11 @@ Fontes revalidadas para a U149 em **21 de setembro de 2026**. Corte legislativo 
 
 ## Questões anteriores verificadas
 
-7. **Cebraspe — Polícia Científica do Estado de Alagoas, conhecimentos básicos para cargos de nível médio, aplicação em 15 de janeiro de 2023, caderno 701_POLC_AL_CB3_01, item 36.** O item afirmou que antropologia forense, traumatologia forense e asfixiologia forense seriam ramos da Medicina Legal Geral. **Gabarito definitivo: Errado.** A U149 usa adaptação não literal em `u149-p01`.  
+7. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Científica do Estado de Alagoas, conhecimentos básicos para cargos de nível médio, aplicação em 15 de janeiro de 2023, caderno `701_POLC_AL_CB3_01`, item 36.** O item afirmou que antropologia forense, traumatologia forense e asfixiologia forense seriam ramos da Medicina Legal Geral. **Gabarito definitivo: Errado.** A U149 usa adaptação não literal em `u149-p01`.  
    Prova: https://cdn.cebraspe.org.br/concursos/POLC_AL_22/arquivos/701_POLC_AL_CB3_01.PDF  
    Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/POLC_AL_22/arquivos/GAB_DEFINITIVO_701_POLC_AL_CB3_01_%28CB3%29.PDF
 
-8. **Cebraspe — Polícia Científica do Estado de Alagoas, mesma prova, item 37.** O item tratou a Medicina Legal como disciplina formada pela aplicação de conhecimentos de especialidades médicas e de outras áreas biológicas ao Direito. **Gabarito definitivo: Certo.** A U149 usa adaptação não literal em `u149-p02`.  
+8. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Científica do Estado de Alagoas, mesma prova, item 37.** O item tratou a Medicina Legal como disciplina formada pela aplicação de conhecimentos de especialidades médicas e de outras áreas biológicas ao Direito. **Gabarito definitivo: Certo.** A U149 usa adaptação não literal em `u149-p02`.  
    Mesmos caderno e gabarito da referência anterior.
 
 ## Fronteiras e proveniência
