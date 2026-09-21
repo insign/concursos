@@ -74,7 +74,7 @@ A resposta policial deve preservar, entre outros eixos:
 - preservação da identidade em situações protegidas por sigilo;
 - garantias específicas quando houver apreensão ou privação de liberdade.
 
-Quando adolescente é apreendido, por exemplo, a legislação especial exige comunicação à autoridade judiciária e à família ou pessoa indicada, exame da possibilidade de liberação e proteção contra transporte ou custódia em condições atentatórias à dignidade.
+Quando adolescente é apreendido, por exemplo, a legislação especial exige comunicação à autoridade judiciária e à família ou pessoa indicada, exame da possibilidade de liberação e proteção contra transporte ou privação de liberdade em condições atentatórias à dignidade.
 
 O objetivo aqui não é repetir a U126. É perceber a ponte operacional:
 
@@ -499,7 +499,7 @@ Pegadinha:
 
 ---
 
-# Parte VII — Assembleias e custódia
+# Parte VII — Assembleias e <abbr title="guarda ou controle direto de autoridade">custódia</abbr>
 
 ## 28. Assembleia ilegal e não violenta: evitar força
 
@@ -522,7 +522,7 @@ Portanto:
 
 > arma de fogo **não é instrumento para simplesmente dispersar multidão**.
 
-## 30. Pessoas sob custódia: força e arma têm limites próprios
+## 30. Pessoas sob <abbr title="guarda ou controle direto de autoridade">custódia</abbr>: força e arma têm limites próprios
 
 O Princípio 15 estabelece que, em relação a pessoa sob custódia ou detenção, força só pode ser usada quando estritamente necessária:
 
