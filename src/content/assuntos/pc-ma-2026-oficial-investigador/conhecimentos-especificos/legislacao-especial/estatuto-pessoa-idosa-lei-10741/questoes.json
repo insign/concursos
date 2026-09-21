@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u136-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para fins do Estatuto da Pessoa Idosa, considera-se pessoa idosa quem tem",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais de 65 anos."
+        },
+        {
+          "id": "B",
+          "text": "idade igual ou superior a 65 anos."
+        },
+        {
+          "id": "C",
+          "text": "idade igual ou superior a 60 anos."
+        },
+        {
+          "id": "D",
+          "text": "mais de 70 anos."
+        },
+        {
+          "id": "E",
+          "text": "idade igual ou superior a 80 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 1º define pessoa idosa como aquela com idade igual ou superior a 60 anos."
+    },
+    {
+      "id": "u136-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A obrigação de assegurar à pessoa idosa os direitos previstos no artigo 3º, com absoluta prioridade, recai sobre",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o poder público."
+        },
+        {
+          "id": "B",
+          "text": "a família, a comunidade, a sociedade e o poder público."
+        },
+        {
+          "id": "C",
+          "text": "somente a família e o Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "apenas a União e os Municípios."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente entidades de atendimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º distribui o dever entre família, comunidade, sociedade e poder público."
+    },
+    {
+      "id": "u136-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as concretizações da prioridade previstas no Estatuto está",
+      "options": [
+        {
+          "id": "A",
+          "text": "a exclusão da pessoa idosa de políticas universais."
+        },
+        {
+          "id": "B",
+          "text": "a obrigatoriedade de atendimento institucional em vez de familiar."
+        },
+        {
+          "id": "C",
+          "text": "a perda da restituição prioritária do imposto de renda."
+        },
+        {
+          "id": "D",
+          "text": "a prioridade no recebimento da restituição do imposto de renda."
+        },
+        {
+          "id": "E",
+          "text": "a prioridade apenas em serviços públicos, nunca privados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 3º inclui a prioridade no recebimento da restituição do imposto de renda."
+    },
+    {
+      "id": "u136-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre pessoas idosas, a prioridade especial prevista na lei beneficia, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as maiores de 80 anos."
+        },
+        {
+          "id": "B",
+          "text": "as maiores de 65 anos."
+        },
+        {
+          "id": "C",
+          "text": "somente as centenárias."
+        },
+        {
+          "id": "D",
+          "text": "as maiores de 70 anos."
+        },
+        {
+          "id": "E",
+          "text": "todas em igualdade absoluta, sem preferência interna."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Estatuto assegura prioridade especial às pessoas maiores de 80 anos em relação às demais pessoas idosas."
+    },
+    {
+      "id": "u136-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na área de saúde, a prioridade especial da pessoa maior de 80 anos",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre prevalece sobre toda urgência médica."
+        },
+        {
+          "id": "B",
+          "text": "é abolida pelo Estatuto."
+        },
+        {
+          "id": "C",
+          "text": "só existe em plano privado."
+        },
+        {
+          "id": "D",
+          "text": "vale apenas para marcação administrativa de consultas."
+        },
+        {
+          "id": "E",
+          "text": "não prevalece sobre situações de emergência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 15 prevê prioridade especial aos maiores de 80 anos, exceto em caso de emergência."
+    },
+    {
+      "id": "u136-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da obrigação alimentar no Estatuto da Pessoa Idosa, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é divisível de modo obrigatório e a pessoa idosa não pode escolher o prestador."
+        },
+        {
+          "id": "B",
+          "text": "é solidária, podendo a pessoa idosa optar entre os prestadores."
+        },
+        {
+          "id": "C",
+          "text": "cabe exclusivamente ao Estado."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser fixada em processo judicial."
+        },
+        {
+          "id": "E",
+          "text": "não admite título executivo extrajudicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 12 qualifica a obrigação alimentar como solidária e permite à pessoa idosa escolher entre os prestadores."
+    },
+    {
+      "id": "u136-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Transação sobre alimentos referendada perante promotor de justiça ou defensor público constitui",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera recomendação sem eficácia executiva."
+        },
+        {
+          "id": "B",
+          "text": "sentença judicial definitiva."
+        },
+        {
+          "id": "C",
+          "text": "título executivo extrajudicial."
+        },
+        {
+          "id": "D",
+          "text": "crime de abandono material."
+        },
+        {
+          "id": "E",
+          "text": "ato necessariamente nulo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 13 confere eficácia de título executivo extrajudicial à transação referendada nessas condições."
+    },
+    {
+      "id": "u136-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção integral à saúde da pessoa idosa é assegurada por intermédio do",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sistema Único de Saúde, com acesso universal e igualitário."
+        },
+        {
+          "id": "B",
+          "text": "regime geral de previdência social, mediante contribuição."
+        },
+        {
+          "id": "C",
+          "text": "plano privado obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "Ministério Público, exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "sistema penitenciário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 15 assegura atenção integral pelo Sistema Único de Saúde, com acesso universal e igualitário."
+    },
+    {
+      "id": "u136-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O poder público deve fornecer gratuitamente à pessoa idosa, nos termos do Estatuto,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente medicamentos emergenciais."
+        },
+        {
+          "id": "B",
+          "text": "apenas medicamentos genéricos."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente próteses."
+        },
+        {
+          "id": "D",
+          "text": "medicamentos, especialmente os de uso continuado, além de próteses, órteses e outros recursos necessários ao tratamento, habilitação ou reabilitação."
+        },
+        {
+          "id": "E",
+          "text": "qualquer produto sem relação com saúde."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 15 prevê fornecimento gratuito desses recursos."
+    },
+    {
+      "id": "u136-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Estatuto e a jurisprudência qualificada do STJ sobre planos de saúde, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo reajuste por idade é sempre ilícito."
+        },
+        {
+          "id": "B",
+          "text": "a idade pode justificar qualquer percentual de reajuste."
+        },
+        {
+          "id": "C",
+          "text": "reajuste etário não é automaticamente inválido, mas deve observar contrato, regulação e vedação a percentuais abusivos ou discriminatórios."
+        },
+        {
+          "id": "D",
+          "text": "o Estatuto não protege pessoa idosa contra discriminação em plano de saúde."
+        },
+        {
+          "id": "E",
+          "text": "plano de saúde pode cobrar valor diferente apenas por decisão unilateral sem base atuarial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 15 veda discriminação por idade e o Tema 952 do STJ admite reajuste etário somente sob condições que afastem abuso e discriminação."
+    },
+    {
+      "id": "u136-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a pessoa idosa internada ou em observação necessita de acompanhante, o Estatuto estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o acompanhante é sempre proibido."
+        },
+        {
+          "id": "B",
+          "text": "deve ser assegurado acompanhante, e eventual impossibilidade deve ser justificada por escrito pelo profissional responsável."
+        },
+        {
+          "id": "C",
+          "text": "o direito existe apenas após os 80 anos."
+        },
+        {
+          "id": "D",
+          "text": "o acompanhante depende de ordem judicial em todos os casos."
+        },
+        {
+          "id": "E",
+          "text": "a instituição pode negar sem justificativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 16 assegura acompanhante e exige justificativa escrita para a impossibilidade."
+    },
+    {
+      "id": "u136-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a pessoa idosa está no domínio de suas faculdades mentais, a escolha do tratamento de saúde considerado mais favorável cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "à própria pessoa idosa."
+        },
+        {
+          "id": "B",
+          "text": "sempre ao curador."
+        },
+        {
+          "id": "C",
+          "text": "sempre ao filho mais velho."
+        },
+        {
+          "id": "D",
+          "text": "sempre ao Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente ao diretor do hospital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 17 prioriza a autonomia da própria pessoa idosa quando ela tem capacidade de decisão."
+    },
+    {
+      "id": "u136-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em caso de suspeita ou confirmação de violência contra pessoa idosa, os serviços de saúde públicos e privados devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter sigilo absoluto e não comunicar a ninguém."
+        },
+        {
+          "id": "B",
+          "text": "comunicar apenas à família."
+        },
+        {
+          "id": "C",
+          "text": "comunicar apenas se houver sentença penal."
+        },
+        {
+          "id": "D",
+          "text": "realizar notificação compulsória à autoridade sanitária e comunicação obrigatória aos órgãos indicados pela lei."
+        },
+        {
+          "id": "E",
+          "text": "comunicar somente ao conselho nacional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 19 prevê notificação compulsória e comunicação obrigatória a órgãos de proteção, entre eles polícia, Ministério Público e conselhos."
+    },
+    {
+      "id": "u136-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos eventos artísticos, culturais, esportivos e de lazer, a pessoa idosa tem direito a",
+      "options": [
+        {
+          "id": "A",
+          "text": "gratuidade universal obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "desconto máximo de 20%."
+        },
+        {
+          "id": "C",
+          "text": "desconto de pelo menos 50% e acesso preferencial."
+        },
+        {
+          "id": "D",
+          "text": "desconto apenas se tiver mais de 80 anos."
+        },
+        {
+          "id": "E",
+          "text": "desconto somente em eventos públicos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 23 assegura desconto de pelo menos 50% e acesso preferencial."
+    },
+    {
+      "id": "u136-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na admissão da pessoa idosa em trabalho ou emprego, inclusive concurso, o Estatuto",
+      "options": [
+        {
+          "id": "A",
+          "text": "veda discriminação e limite máximo de idade, salvo quando a natureza do cargo o exigir."
+        },
+        {
+          "id": "B",
+          "text": "fixa limite obrigatório de 70 anos para qualquer função."
+        },
+        {
+          "id": "C",
+          "text": "proíbe pessoa idosa de participar de concurso."
+        },
+        {
+          "id": "D",
+          "text": "permite discriminação etária sem justificativa."
+        },
+        {
+          "id": "E",
+          "text": "exige aposentadoria antes da admissão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 27 veda discriminação e limite máximo de idade, ressalvada a natureza do cargo."
+    },
+    {
+      "id": "u136-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O primeiro critério de desempate em concurso público, segundo o Estatuto, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "maior tempo de serviço privado."
+        },
+        {
+          "id": "B",
+          "text": "menor renda."
+        },
+        {
+          "id": "C",
+          "text": "maior número de dependentes."
+        },
+        {
+          "id": "D",
+          "text": "menor idade."
+        },
+        {
+          "id": "E",
+          "text": "idade, dando-se preferência à pessoa de idade mais elevada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O parágrafo único do artigo 27 adota a maior idade como primeiro critério de desempate."
+    },
+    {
+      "id": "u136-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A preparação da pessoa idosa para a aposentadoria deve ser estimulada com antecedência mínima de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses."
+        },
+        {
+          "id": "B",
+          "text": "1 ano."
+        },
+        {
+          "id": "C",
+          "text": "2 anos."
+        },
+        {
+          "id": "D",
+          "text": "5 anos."
+        },
+        {
+          "id": "E",
+          "text": "10 anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 28 prevê preparação para aposentadoria com antecedência mínima de um ano."
+    },
+    {
+      "id": "u136-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O benefício mensal previsto no artigo 34 do Estatuto é assegurado, nos termos da legislação assistencial, à pessoa idosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "com 60 anos, independentemente de renda."
+        },
+        {
+          "id": "B",
+          "text": "com 62 anos e qualquer renda."
+        },
+        {
+          "id": "C",
+          "text": "com 80 anos apenas."
+        },
+        {
+          "id": "D",
+          "text": "a partir de 65 anos, sem meios de prover a própria subsistência nem de tê-la provida pela família."
+        },
+        {
+          "id": "E",
+          "text": "aposentada obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 34 fixa idade a partir de 65 anos e requisito de ausência de meios próprios ou familiares."
+    },
+    {
+      "id": "u136-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em entidade filantrópica ou casa-lar, a participação da pessoa idosa no custeio, definida nos termos legais, não poderá exceder",
+      "options": [
+        {
+          "id": "A",
+          "text": "30% do benefício."
+        },
+        {
+          "id": "B",
+          "text": "50% do benefício."
+        },
+        {
+          "id": "C",
+          "text": "70% de qualquer benefício previdenciário ou de assistência social percebido."
+        },
+        {
+          "id": "D",
+          "text": "90% da renda total."
+        },
+        {
+          "id": "E",
+          "text": "100% do benefício."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 35 limita a participação a 70%, na forma definida pelo conselho competente."
+    },
+    {
+      "id": "u136-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em programa habitacional público ou subsidiado com recursos públicos, devem ser reservadas às pessoas idosas",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelo menos 3% das unidades residenciais."
+        },
+        {
+          "id": "B",
+          "text": "exatamente 1% das unidades."
+        },
+        {
+          "id": "C",
+          "text": "10% das unidades em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "5% apenas em capitais."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma unidade específica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 38 exige reserva de pelo menos 3% das unidades residenciais."
+    },
+    {
+      "id": "u136-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A gratuidade dos transportes coletivos públicos urbanos e semiurbanos prevista no Estatuto alcança, segundo a regra federal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as pessoas com 60 anos."
+        },
+        {
+          "id": "B",
+          "text": "maiores de 65 anos."
+        },
+        {
+          "id": "C",
+          "text": "somente aposentados."
+        },
+        {
+          "id": "D",
+          "text": "maiores de 80 anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas beneficiários assistenciais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 39 assegura gratuidade aos maiores de 65 anos; para 60 a 65 anos, a legislação local define as condições."
+    },
+    {
+      "id": "u136-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos veículos de transporte coletivo urbano e semiurbano abrangidos pelo Estatuto, devem ser reservados para pessoas idosas",
+      "options": [
+        {
+          "id": "A",
+          "text": "2% dos assentos."
+        },
+        {
+          "id": "B",
+          "text": "3% dos assentos."
+        },
+        {
+          "id": "C",
+          "text": "5% dos assentos."
+        },
+        {
+          "id": "D",
+          "text": "20% dos assentos."
+        },
+        {
+          "id": "E",
+          "text": "10% dos assentos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 39 determina reserva de 10% dos assentos."
+    },
+    {
+      "id": "u136-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No transporte coletivo interestadual, para pessoa idosa com renda igual ou inferior a dois salários mínimos, o Estatuto assegura",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma vaga gratuita por empresa, sem desconto adicional."
+        },
+        {
+          "id": "B",
+          "text": "gratuidade para todos os assentos."
+        },
+        {
+          "id": "C",
+          "text": "duas vagas gratuitas por veículo e, para os excedentes, desconto de pelo menos 50%."
+        },
+        {
+          "id": "D",
+          "text": "somente desconto de 10%."
+        },
+        {
+          "id": "E",
+          "text": "nenhum benefício específico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 40 prevê duas vagas gratuitas por veículo e desconto de no mínimo 50% para os excedentes com a renda prevista."
+    },
+    {
+      "id": "u136-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos estacionamentos públicos e privados, o Estatuto assegura reserva de",
+      "options": [
+        {
+          "id": "A",
+          "text": "2% das vagas."
+        },
+        {
+          "id": "B",
+          "text": "3% das vagas."
+        },
+        {
+          "id": "C",
+          "text": "10% das vagas."
+        },
+        {
+          "id": "D",
+          "text": "5% das vagas."
+        },
+        {
+          "id": "E",
+          "text": "20% das vagas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 41 fixa 5% das vagas, posicionadas para melhor comodidade."
+    },
+    {
+      "id": "u136-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As medidas de proteção do artigo 43 podem ser aplicadas quando os direitos da pessoa idosa forem ameaçados ou violados",
+      "options": [
+        {
+          "id": "A",
+          "text": "por sociedade ou Estado, por família/curador/entidade ou em razão da condição pessoal da pessoa idosa."
+        },
+        {
+          "id": "B",
+          "text": "somente por entidade privada."
+        },
+        {
+          "id": "C",
+          "text": "apenas por crime com condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "somente por familiar."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente pelo poder público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 43 lista essas três fontes de ameaça ou violação."
+    },
+    {
+      "id": "u136-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as medidas específicas de proteção do artigo 45 está",
+      "options": [
+        {
+          "id": "A",
+          "text": "prisão automática do familiar."
+        },
+        {
+          "id": "B",
+          "text": "perda automática de patrimônio."
+        },
+        {
+          "id": "C",
+          "text": "encaminhamento à família ou curador, orientação e apoio, tratamento de saúde e, conforme o caso, abrigo."
+        },
+        {
+          "id": "D",
+          "text": "condenação penal sem processo."
+        },
+        {
+          "id": "E",
+          "text": "internação compulsória em qualquer situação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 45 prevê medidas protetivas dessa natureza, voltadas a interromper risco e restaurar direitos."
+    },
+    {
+      "id": "u136-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os princípios dos programas de institucionalização de longa permanência está",
+      "options": [
+        {
+          "id": "A",
+          "text": "rompimento obrigatório dos vínculos familiares."
+        },
+        {
+          "id": "B",
+          "text": "atendimento massificado sem individualização."
+        },
+        {
+          "id": "C",
+          "text": "mudança frequente de instituição como regra."
+        },
+        {
+          "id": "D",
+          "text": "proibição de participação comunitária."
+        },
+        {
+          "id": "E",
+          "text": "preservação dos vínculos familiares e atendimento personalizado em pequenos grupos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 49 orienta a institucionalização pela preservação de vínculos, personalização e dignidade."
+    },
+    {
+      "id": "u136-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui obrigação de entidade de atendimento prevista no artigo 50",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensar qualquer contrato escrito."
+        },
+        {
+          "id": "B",
+          "text": "celebrar contrato escrito de prestação de serviços e manter registros individualizados, entre outras obrigações."
+        },
+        {
+          "id": "C",
+          "text": "impedir assistência religiosa."
+        },
+        {
+          "id": "D",
+          "text": "ocultar abandono moral do Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "reter documentos de cidadania."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 50 impõe contrato escrito e diversas obrigações documentais, assistenciais e de proteção."
+    },
+    {
+      "id": "u136-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A entidade de atendimento que deixa de cumprir as determinações do artigo 50, se o fato não for crime, fica sujeita a",
+      "options": [
+        {
+          "id": "A",
+          "text": "multa de R$ 500 a R$ 3.000 e possível interdição até cumprimento das exigências."
+        },
+        {
+          "id": "B",
+          "text": "apenas advertência verbal."
+        },
+        {
+          "id": "C",
+          "text": "multa fixa de R$ 50."
+        },
+        {
+          "id": "D",
+          "text": "prisão automática do dirigente sem processo."
+        },
+        {
+          "id": "E",
+          "text": "multa de R$ 10.000 a R$ 100.000 em qualquer caso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 56 prevê multa de R$ 500 a R$ 3.000 e possível interdição."
+    },
+    {
+      "id": "u136-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O profissional de saúde ou responsável por estabelecimento que deixa de comunicar à autoridade competente crime contra pessoa idosa do qual tenha conhecimento fica sujeito, administrativamente, a",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma sanção."
+        },
+        {
+          "id": "B",
+          "text": "apenas pena criminal do artigo 102."
+        },
+        {
+          "id": "C",
+          "text": "multa de R$ 50 a R$ 100."
+        },
+        {
+          "id": "D",
+          "text": "multa de R$ 500 a R$ 3.000, aplicada em dobro na reincidência."
+        },
+        {
+          "id": "E",
+          "text": "interdição obrigatória e definitiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 57 prevê essa multa e seu dobro em caso de reincidência."
+    },
+    {
+      "id": "u136-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo administrativo de apuração de infração às normas de proteção à pessoa idosa, o prazo para defesa é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "60 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 60 assegura prazo de 10 dias para defesa."
+    },
+    {
+      "id": "u136-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na apuração judicial de irregularidade em entidade de atendimento, o requerido tem prazo para resposta de",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "15 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 66 prevê resposta em 10 dias."
+    },
+    {
+      "id": "u136-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prioridade processual prevista no Estatuto é assegurada a quem figure como parte ou interveniente e tenha",
+      "options": [
+        {
+          "id": "A",
+          "text": "60 anos ou mais."
+        },
+        {
+          "id": "B",
+          "text": "65 anos ou mais apenas."
+        },
+        {
+          "id": "C",
+          "text": "70 anos ou mais."
+        },
+        {
+          "id": "D",
+          "text": "80 anos ou mais exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "qualquer idade, sem requisito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 71 assegura prioridade a pessoa com idade igual ou superior a 60 anos."
+    },
+    {
+      "id": "u136-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a morte da pessoa beneficiada pela prioridade processual, a prioridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "cessa obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "passa automaticamente a qualquer herdeiro."
+        },
+        {
+          "id": "C",
+          "text": "só continua para filho menor."
+        },
+        {
+          "id": "D",
+          "text": "continua apenas se o processo for criminal."
+        },
+        {
+          "id": "E",
+          "text": "pode estender-se ao cônjuge ou companheiro sobrevivente, em união estável, maior de 60 anos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 71 prevê essa extensão ao cônjuge ou companheiro sobrevivente nas condições legais."
+    },
+    {
+      "id": "u136-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre processos de pessoas idosas, o Estatuto assegura prioridade especial",
+      "options": [
+        {
+          "id": "A",
+          "text": "à pessoa mais pobre, sempre."
+        },
+        {
+          "id": "B",
+          "text": "à pessoa com 65 anos ou mais."
+        },
+        {
+          "id": "C",
+          "text": "à pessoa aposentada."
+        },
+        {
+          "id": "D",
+          "text": "à pessoa maior de 80 anos."
+        },
+        {
+          "id": "E",
+          "text": "apenas ao titular de benefício assistencial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 71 contém preferência especial para maiores de 80 anos."
+    },
+    {
+      "id": "u136-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as funções do Ministério Público previstas no Estatuto está",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente denunciar crimes."
+        },
+        {
+          "id": "B",
+          "text": "instaurar inquérito civil, propor ação civil pública, inspecionar entidades e requisitar providências e informações nas hipóteses legais."
+        },
+        {
+          "id": "C",
+          "text": "substituir permanentemente toda decisão da pessoa idosa capaz."
+        },
+        {
+          "id": "D",
+          "text": "administrar diretamente todas as entidades privadas."
+        },
+        {
+          "id": "E",
+          "text": "aplicar penas criminais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 74 confere amplo conjunto de atribuições protetivas e investigativas ao Ministério Público."
+    },
+    {
+      "id": "u136-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ações previstas para tutela dos direitos da pessoa idosa, em regra, são propostas no foro",
+      "options": [
+        {
+          "id": "A",
+          "text": "do domicílio do réu exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "da capital federal."
+        },
+        {
+          "id": "C",
+          "text": "do domicílio da pessoa idosa, com competência absoluta, ressalvadas competências constitucionais."
+        },
+        {
+          "id": "D",
+          "text": "escolhido livremente pelo Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "do local da entidade, obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Estatuto adota o foro do domicílio da pessoa idosa, com as ressalvas legais."
+    },
+    {
+      "id": "u136-a38",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a sentença favorável à pessoa idosa não for executada após o trânsito em julgado, o Ministério Público deve promover a execução depois de",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias."
+        },
+        {
+          "id": "B",
+          "text": "30 dias."
+        },
+        {
+          "id": "C",
+          "text": "45 dias."
+        },
+        {
+          "id": "D",
+          "text": "60 dias."
+        },
+        {
+          "id": "E",
+          "text": "1 ano."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Estatuto prevê atuação ministerial se a sentença não for executada em 60 dias."
+    },
+    {
+      "id": "u136-a39",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime vigente após a Lei nº 15.163/2025, aos crimes previstos no Estatuto da Pessoa Idosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se aplica a Lei nº 9.099/1995; a mesma exclusão alcança crimes praticados com violência contra pessoa idosa, independentemente da pena."
+        },
+        {
+          "id": "B",
+          "text": "aplica-se sempre a transação penal quando a pena máxima for de até quatro anos."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se obrigatoriamente o Juizado Especial Criminal."
+        },
+        {
+          "id": "D",
+          "text": "não se aplicam Código Penal nem Código de Processo Penal."
+        },
+        {
+          "id": "E",
+          "text": "a Lei nº 9.099/1995 é aplicada apenas aos crimes violentos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 94, na redação de 2025, afasta expressamente a Lei nº 9.099/1995 nessas hipóteses."
+    },
+    {
+      "id": "u136-a40",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os crimes definidos no Estatuto da Pessoa Idosa são de ação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "privada."
+        },
+        {
+          "id": "B",
+          "text": "pública condicionada à representação."
+        },
+        {
+          "id": "C",
+          "text": "pública incondicionada."
+        },
+        {
+          "id": "D",
+          "text": "subsidiária obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente civil."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 95 dispõe que os crimes definidos no Estatuto são de ação penal pública incondicionada."
+    },
+    {
+      "id": "u136-a41",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do artigo 96, de discriminação da pessoa idosa por motivo de idade, tem pena básica de",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 2 a 5 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 6 meses a 1 ano e multa."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 6 meses a 3 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 8 a 14 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 96 prevê reclusão de 6 meses a 1 ano e multa."
+    },
+    {
+      "id": "u136-a42",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No crime de omissão de assistência do artigo 97, se do fato resultar morte, a pena",
+      "options": [
+        {
+          "id": "A",
+          "text": "não sofre alteração."
+        },
+        {
+          "id": "B",
+          "text": "é aumentada em um terço."
+        },
+        {
+          "id": "C",
+          "text": "é aumentada pela metade."
+        },
+        {
+          "id": "D",
+          "text": "é dobrada."
+        },
+        {
+          "id": "E",
+          "text": "é aplicada em triplo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 97 prevê pena em triplo quando da omissão resulta morte."
+    },
+    {
+      "id": "u136-a43",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na redação vigente do artigo 99, após a Lei nº 15.163/2025, a pena do tipo básico é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 2 meses a 1 ano."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 1 a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 7 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 2 a 5 anos."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de 8 a 14 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 15.163/2025 elevou o tipo básico do artigo 99 para reclusão de 2 a 5 anos."
+    },
+    {
+      "id": "u136-a44",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se da conduta do artigo 99 resulta morte, a pena vigente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 8 a 14 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 5 anos."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 6 meses a 3 anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 1 a 4 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º do artigo 99 prevê reclusão de 8 a 14 anos."
+    },
+    {
+      "id": "u136-a45",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 102 do Estatuto pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente furto praticado por estranho."
+        },
+        {
+          "id": "B",
+          "text": "qualquer dívida civil contraída pela pessoa idosa."
+        },
+        {
+          "id": "C",
+          "text": "apropriar-se de ou desviar bens, proventos, pensão ou outro rendimento da pessoa idosa, dando-lhes aplicação diversa da finalidade."
+        },
+        {
+          "id": "D",
+          "text": "apenas reter documento de identidade."
+        },
+        {
+          "id": "E",
+          "text": "somente fraude bancária praticada por instituição financeira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 102 pune apropriação ou desvio patrimonial; o STJ já destacou que a modalidade desviar não exige posse prévia."
+    },
+    {
+      "id": "u136-a46",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reter cartão magnético de conta bancária ou documento relativo a benefício, provento ou pensão da pessoa idosa para assegurar dívida configura, em tese, o crime do",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo 96."
+        },
+        {
+          "id": "B",
+          "text": "artigo 99."
+        },
+        {
+          "id": "C",
+          "text": "artigo 102."
+        },
+        {
+          "id": "D",
+          "text": "artigo 103."
+        },
+        {
+          "id": "E",
+          "text": "artigo 104."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 104 pune a retenção desses documentos para assegurar recebimento ou ressarcimento de dívida."
+    },
+    {
+      "id": "u136-a47",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre os artigos 106 e 107 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos tratam apenas de abandono."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 106 pune induzir pessoa idosa sem discernimento a outorgar procuração; o artigo 107 pune coagi-la a doar, contratar, testar ou outorgar procuração."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 106 trata de transporte e o 107 de saúde."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 107 exige apenas erro notarial sem coação."
+        },
+        {
+          "id": "E",
+          "text": "ambos tratam somente de multas administrativas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 106 trabalha com indução de pessoa sem discernimento; o artigo 107, com coação para atos patrimoniais ou de última vontade."
+    },
+    {
+      "id": "u136-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 35 do Cebraspe para Analista Judiciário/Serviço Social do TRT da 8ª Região, concurso 2022, constitui garantia expressa do Estatuto da Pessoa Idosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prioridade no recebimento da restituição do imposto de renda."
+        },
+        {
+          "id": "B",
+          "text": "o limite máximo geral de 70 anos para admissão em emprego."
+        },
+        {
+          "id": "C",
+          "text": "a inexistência de prioridade em políticas públicas."
+        },
+        {
+          "id": "D",
+          "text": "a proibição de qualquer atividade profissional após 60 anos."
+        },
+        {
+          "id": "E",
+          "text": "o cômputo obrigatório de benefício assistencial de outro familiar no cálculo referido pelo artigo 34."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O gabarito definitivo da questão original foi A. A prioridade na restituição do imposto de renda está no artigo 3º; as demais alternativas contrariam o Estatuto."
+    },
+    {
+      "id": "u136-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 69 do Cebraspe para Defensor Público Substituto da DPE/SE, concurso 2021, a chamada prioridade especial das pessoas com mais de 80 anos aparece corretamente no direito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "saúde, inclusive com precedência absoluta sobre emergências."
+        },
+        {
+          "id": "B",
+          "text": "trabalho, dispensando os requisitos do cargo."
+        },
+        {
+          "id": "C",
+          "text": "transporte, criando gratuidade interestadual sem requisito de renda."
+        },
+        {
+          "id": "D",
+          "text": "acesso à justiça, com prioridade especial na tramitação em relação às demais pessoas idosas."
+        },
+        {
+          "id": "E",
+          "text": "habitação, garantindo imóvel gratuito."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo da questão original foi D. O Estatuto prevê prioridade especial para maiores de 80 anos na tramitação processual, enquanto a saúde ressalva emergências e os demais direitos não têm os efeitos absolutos descritos."
+    }
+  ]
+}
