@@ -193,7 +193,7 @@ Segundo essa orientação, o procedimento culmina no **decreto presidencial de p
 
 Pegadinha:
 
-> **ratificação internacional não substitui, sozinha, a etapa de promulgação exigida pelo modelo brasileiro descrito pelo STF.**
+> **ratificação internacional não substitui, sozinha, a etapa de promulgação exigida pelo modelo brasileiro descrito pelo <abbr title="Supremo Tribunal Federal">STF</abbr>.**
 
 ## 10. O rito qualificado não elimina as demais etapas
 
@@ -236,7 +236,7 @@ Isso significa hierarquia constitucional qualificada pelo rito do § 3º. Não t
 - “supraconstitucional”;
 - “emenda constitucional numerada automaticamente”.
 
-### 11.2 Não: supralegalidade segundo o STF
+### 11.2 Não: supralegalidade segundo o <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 No julgamento do Recurso Extraordinário 466.343 e em precedentes associados, o <abbr title="Supremo Tribunal Federal">STF</abbr> consolidou o entendimento de que tratados internacionais sobre direitos humanos, regularmente ratificados e internalizados **sem** o rito do artigo 5º, § 3º, possuem status **supralegal**.
 
@@ -430,11 +430,11 @@ Sem consultar:
 5. Quem participa da aprovação parlamentar?
 6. O que é decreto legislativo?
 7. Ratificação ocorre em qual plano?
-8. Promulgação presidencial cumpre qual função no modelo descrito pelo STF?
+8. Promulgação presidencial cumpre qual função no modelo descrito pelo <abbr title="Supremo Tribunal Federal">STF</abbr>?
 9. Qual a fórmula do artigo 5º, § 3º?
 10. Todo tratado de direitos humanos usa esse rito?
 11. Qual o status do tratado que usa o rito?
-12. Qual o status, segundo o STF, do tratado de direitos humanos sem esse rito?
+12. Qual o status, segundo o <abbr title="Supremo Tribunal Federal">STF</abbr>, do tratado de direitos humanos sem esse rito?
 13. O que significa supralegal?
 14. Por que o caso do depositário infiel é útil?
 15. Quais três atos aparecem na lista oficial de tratados equivalentes a emenda?
