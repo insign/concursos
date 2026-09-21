@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U149; PC-E16 — Medicina Legal permanece `pending` com U149 `done` e U150–U155 `pending`; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U150; PC-E16 — Medicina Legal permanece `pending` com U149–U150 `done` e U151–U155 `pending`; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 10 | 0 | 148 |
-| Entregáveis de unidade C/H/Q | 474 | 30 | 0 | 444 |
+| Unidades reais previstas | 158 | 9 | 0 | 149 |
+| Entregáveis de unidade C/H/Q | 474 | 27 | 0 | 447 |
 | Tarefas macro individualizadas | 62 | 17 | 0 | 45 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U149` = **148 unidades**. Pendentes: `U075`, `U150–U158` = **10 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U150` = **149 unidades**. Pendentes: `U075`, `U151–U158` = **9 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **149 = 132 físicas locais + 17 vínculos canônicos**. U149 acrescentou uma nova visão física local. Não confundir 149 visões materializadas com 148 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **150 = 133 físicas locais + 17 vínculos canônicos**. U150 acrescentou uma nova visão física local. Não confundir 150 visões materializadas com 149 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U149: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
+Reservas ativas após o aceite de U150: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima ação editorial: U150 — Corpo de delito, perícia e peritos em Medicina Legal**, C/H/Q `pending`. U149 está `done`; U150–U155 permanecem `pending`. O grupo Medicina Legal foi publicado junto do primeiro pacote completo.
+**Próxima ação editorial: U151 — Documentos médico-legais e identificação — identidade, reconhecimento e métodos**, C/H/Q `pending`. U149–U150 estão `done`; U151–U155 permanecem `pending`.
 
 ### Pendências e divergências herdadas
 
@@ -604,7 +604,7 @@ A classificação PC-R02 permanece autoritativa: **U149–U155 são novas/locais
 | Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / dependências | C | H | Q |
 |---|---|---|---|---|---|---|---|---|
 | 1 | U149 — **Fundamentos da Medicina Legal — conceitos, importância e divisões** | **nova/local**; fontes oficiais CFM/CNRM e prova oficial Cebraspe; U110 apenas como contexto institucional; snapshot `2e5a7ef47149cde3c78e7455d897a86708251c8c` | `fundamentos-medicina-legal`; físico PC-MA + grupo Medicina Legal; `pc-u149`; 149 | Campo médico aplicado a questões jurídicas; paciente × periciado; importância investigativa/judicial; Medicina Legal × perícia × Criminalística; parte geral × especial; deontologia/diceologia; mapa de antropologia, traumatologia, asfixiologia, toxicologia, sexologia, tanatologia e psiquiatria forense sem antecipar U150–U155 | PC-MA; corte 13/7/2026; fontes oficiais revalidadas em 21/9/2026; fornece vocabulário e mapa ao bloco | done | done | done |
-| 2 | U150 — **Corpo de delito, perícia e peritos em Medicina Legal** | **nova/local**; U093 C `514a163e1778a22bd15e846339cede3cdef7d4ec` auditada como apoio jurídico-processual, não origem médico-legal | `corpo-delito-pericia-peritos-medicina-legal`; físico PC-MA + grupo; `pc-u150`; 150 | Ensinar sentido médico-legal de corpo de delito, exame/perícia, função e limites do perito e raciocínio técnico. U093 continua responsável por CPP, cadeia de custódia, número de peritos, laudo e regras processuais; trazer apenas a ponte indispensável | PC-MA; corte 13/7/2026; U149 como base conceitual; U093 como fronteira processual | pending | pending | pending |
+| 2 | U150 — **Corpo de delito, perícia e peritos em Medicina Legal** | **nova/local**; fontes normativas CPP/Leis nº 12.030/2009 e 12.842/2013/Resolução CFM nº 2.430/2025; U093 C `514a163e1778a22bd15e846339cede3cdef7d4ec` como fronteira processual; snapshot `171d2a25da31d093ebf3e1e59f2e81a56fe19566` | `corpo-delito-pericia-peritos-medicina-legal`; físico PC-MA + grupo; `pc-u150`; 150 | Corpo de delito × vestígio × exame; materialidade × autoria; perícia, objeto, quesitos, fluxo dado→achado→inferência→conclusão; autonomia/responsabilidade do perito; perito oficial criminal × médico-perito; assistente técnico; laudo e divergência. U093 mantém cadeia de custódia e rito processual detalhado | PC-MA; corte 13/7/2026; U149 como base; fontes oficiais revalidadas em 21/9/2026 | done | done | done |
 | 3; 3.1; 4 | U151 — **Documentos médico-legais e identificação — identidade, reconhecimento e métodos** | **nova/local**; U134 C `7ce73aa206eb1f3672c7f1804b0488391cfafb0d` como fronteira da Lei nº 12.037/2009; U110 C `964c165875d61266f3f7df2b0d43e961ee7f0bc2` como contexto institucional de identificação/papiloscopia | `documentos-medico-legais-identificacao`; físico PC-MA + grupo; `pc-u151`; 151 | Documentos médico-legais: conceitos/funções e espécies pertinentes; depois distinguir identidade, identificação e reconhecimento e ensinar os principais métodos médico-legais de identificação. Não duplicar identificação criminal legal de U134 nem reconhecimento processual de U093 | PC-MA; corte 13/7/2026; U149 fornece mapa; U093/U134 são fronteiras jurídicas | pending | pending | pending |
 | 5 | U152 — **Traumatologia médico-legal — lesões por ação contundente, armas brancas e projéteis** | **nova/local**; nenhuma origem integral localizada | `traumatologia-medico-legal-lesoes-armas-projeteis`; físico PC-MA + grupo; `pc-u152`; 152 | Mecanismos, padrões de lesão e morte por ação contundente, armas brancas e projéteis comuns/de alta energia; comparar achados de valor médico-legal. Não transformar a unidade em curso geral de balística ou criminalística | PC-MA; corte 13/7/2026; U149 como vocabulário; fontes médico-legais verificáveis a revalidar na produção | pending | pending | pending |
 | 6; 6.1–6.5 | U153 — **Tanatologia forense — morte, fenômenos cadavéricos e cronologia médico-legal** | **nova/local**; U110 C `964c165875d61266f3f7df2b0d43e961ee7f0bc2` apenas confirma o campo institucional de tanatologia forense, sem conteúdo do edital | `tanatologia-forense-morte-fenomenos-cadavericos`; físico PC-MA + grupo; `pc-u153`; 153 | Conceito/diagnóstico da morte; fenômenos cadavéricos; cronotanatognose; comoriência/primoriência; exumação; causa jurídica da morte; morte súbita e suspeita. Não antecipar exame de local de U154 além das pontes necessárias | PC-MA; corte 13/7/2026; U149 como mapa e U150 para noção de exame/perícia | pending | pending | pending |
@@ -619,7 +619,7 @@ A sequência ensina primeiro o objeto da disciplina, depois como a perícia méd
 
 Para todas as sete unidades, PC-R02 determina **nova/local**. U093, U085, U110 e U134 são apoios/fronteiras, não doadores integrais e não autorizam cópia automática de questões. Na produção, revalidar fontes médico-legais/institucionais e provas anteriores verificáveis sem quota; preservar a literalidade do programa e separar conceito médico-legal de consequência jurídica já ensinada em outras disciplinas.
 
-**Próxima unidade habilitada:** U150 — Corpo de delito, perícia e peritos em Medicina Legal, C/H/Q `pending`. U149 e `medicina-legal/grupo.json` já estão publicados e aceitos.
+**Próxima unidade habilitada:** U151 — Documentos médico-legais e identificação — identidade, reconhecimento e métodos, C/H/Q `pending`. U149–U150 estão publicados e aceitos.
 
 
 ## 8. Evidências de publicação e aceite
@@ -720,6 +720,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U147 | `017f1aadec3af39d105dbfc125f97c89827c94cf` | 24 + 2 | Cebraspe DPE-AC 2024, prova oral de Direitos Humanos, Ponto 1, padrão oficial sobre matrizes nacional/internacional; Cebraspe TRF6 2025, Agente da Polícia Judicial, item 86, gabarito definitivo Errado, sobre tratado de direitos humanos e norma constitucional originária; adaptações não literais |
 | U148 | `f6d10d28d9c6ffd9bb4f372ddc993c7929591f48` | 24 + 2 | Cespe/PRF Curso de Formação, 3ª turma, 2ª prova, 1/7/2005: item 72, gabarito definitivo Certo, sobre proteção especial de grupos vulneráveis; item 79, gabarito definitivo Certo, sobre necessidade e meios menos agressivos no uso da força; adaptações não literais |
 | U149 | `2e5a7ef47149cde3c78e7455d897a86708251c8c` | 20 + 2 | Cebraspe/POLC-AL 2023, conhecimentos básicos de nível médio, itens 36 E e 37 C: classificação geral/especial e conceito interdisciplinar da Medicina Legal; adaptações não literais |
+| U150 | `171d2a25da31d093ebf3e1e59f2e81a56fe19566` | 24 + 2 | Cebraspe PC-MA 2018, Médico Legista, questão 29, gabarito definitivo A, sobre perícia contraditória; Cebraspe PC-ES 2022, Delegado, questão 64, gabarito definitivo E, sobre necessidade de perícia e conhecimento técnico; questão PC-MA 28 anulada foi auditada e descartada |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -817,24 +818,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U147 | `4cfcfc711700858206a64a3ecf608270e1346611` | `656f829d4e8f406fdab76487c4affcedf67841d4` | `6db2b39f331614903a84be2cf6bf7e8b1e7e94ef` | `a939e70fc033964e78c887f048ea3ea993b9addf` |
 | U148 | `f2b31c160639e015a60f6d0c9be4659dc4ee4f21` | `541e9ddcff14fc3b1ccb6212770f5d34df9bcd19` | `2dc942229508bcf785aff895707ceb0c50f3bfdd` | `9e82493b38b15586e16eb13e7fa735f3b49647e5` |
 | U149 | `466ad8c691dc2663ea4c469adafd88919897f3dc` | `618a18ca7287d1bca06ba291d2058b73a97d29f9` | `ffda98c815e608702dabc8769ec07935999874a0` | `b0d340ed1cfd1e67445380a0fa3fecb347fe93a0` |
+| U150 | `133bb568efd3982448c4d22eb6b52aa29116229b` | `d59468a73b384c14926ef9fbe9adfa626e2d5310` | `dfe8262863e7b248d0b637c137e1b761225f890c` | `aa6b18b1f86a454e0648f820ff23642101c512ee` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U149
+### Último aceite — U150
 
-Pacote de **Fundamentos da Medicina Legal — conceitos, importância e divisões**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u149`, `order: 149`. Snapshot editorial final `2e5a7ef47149cde3c78e7455d897a86708251c8c`; base reservada `165d98b214ac3b3d9788abc93af58daa3c64a9dc`. A comparação base→snapshot confirma **exatamente cinco arquivos novos**, todos próprios: `medicina-legal/grupo.json` e os quatro artefatos da U149.
+Pacote de **Corpo de delito, perícia e peritos em Medicina Legal**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u150`, `order: 150`. Snapshot editorial final `171d2a25da31d093ebf3e1e59f2e81a56fe19566`; base reservada `534dd3e9d5c0ef9465948021ebc676ab0ce29310`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U150**, sem alteração lateral.
 
-O grupo **Medicina Legal**, ordem 7, foi criado junto do primeiro pacote completo, blob `a76f7f63dd98bfa62fed7c8672f05197a604b949`. A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral compatível. U110 foi usada apenas como fronteira institucional da estrutura técnico-científica da Polícia Civil; nenhum artefato foi copiado.
+A unidade permanece sem `vinculo.json` e sem doador integral compatível. U093 foi auditada integralmente como fronteira processual e permanece responsável pela disciplina completa do Código de Processo Penal, cadeia de custódia, rito, número de peritos, prazos e valoração probatória. U150 ensina apenas as pontes necessárias ao raciocínio médico-legal.
 
-Cobertura publicada: conceito da Medicina Legal como interface entre conhecimento médico/biológico e questão jurídica; amplitude criminal, cível, trabalhista, administrativa e extrajudicial; distinção paciente × periciado; Medicina Legal × Perícia Médica × Criminalística × decisão jurídica; importância da prova técnica e limites de certeza; parte geral × especial; deontologia × diceologia; mapa de antropologia, traumatologia, asfixiologia, toxicologia, sexologia, tanatologia e psiquiatria forense; e fluxo problema jurídico → objeto técnico → método → conclusão → decisão da autoridade. U150–U155 permanecem responsáveis pelos aprofundamentos técnicos.
+Cobertura publicada: vestígio × corpo de delito × exame de corpo de delito; materialidade × autoria; exame direto/indireto com cautela para não confundir a classificação processual com “perícia indireta” da regulamentação profissional; perícia como resposta técnica especializada; objeto e quesitos; fluxo dados→achados→inferência→conclusão; nexo causal; perito oficial criminal e autonomia técnica/científica/funcional; reserva profissional da perícia médica e dos exames médico-legais; perito médico oficial; imparcialidade, responsabilidade pessoal e impedimentos; assistente técnico; conteúdo lógico do laudo; divergência/perícia contraditória; e limites entre conclusão técnica e decisão jurídica.
 
-Foram publicadas **22 questões: 20 autorais + 2 anteriores verificadas**, sem quota artificial. As anteriores são adaptações não literais dos itens 36 e 37 do caderno Cebraspe/POLC-AL 2023, com gabaritos definitivos respectivamente Errado e Certo, sobre classificação geral/especial e conceito interdisciplinar da Medicina Legal. Nenhuma resolução separada foi necessária.
+Foram publicadas **26 questões: 24 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais da questão 29 do Cebraspe/PC-MA 2018 — Médico Legista, gabarito definitivo A, sobre perícia contraditória, e da questão 64 do Cebraspe/PC-ES 2022 — Delegado, gabarito definitivo E, sobre necessidade de conhecimento técnico para a perícia. A questão 28 da PC-MA 2018, embora pertinente, foi excluída porque o gabarito definitivo a anulou por divergência de literatura. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` com **21.464 caracteres**, `cheat-sheet.md` com **3.706**, `referencias.md` com **5.182** e `questoes.json` com **20.803**. Microglossário final: **19 pares `abbr` no conteúdo, 11 no cheat sheet e 6 nas referências**, todos balanceados e sem títulos vazios; CFM/CNRM/Cebraspe/PC-MA não permanecem nus nos materiais renderizados auditados. `questionSetRevision: 1`, **22 IDs únicos**, cinco alternativas por questão, gabaritos válidos e explicações não vazias.
+Densidade final: `conteudo.md` **25.159 caracteres**, `cheat-sheet.md` **4.449**, `referencias.md` **5.618** e `questoes.json` **24.444**. Microglossário: **21/7/6 pares `abbr`** em conteúdo/revisão/referências, todos balanceados e sem títulos vazios; CPP/CFM/Cebraspe/PC-MA não permanecem nus nos materiais renderizados auditados. `questionSetRevision: 1`, **26 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
 
-Fontes revalidadas em 21/9/2026: Edital PC-MA; Resolução CFM nº 2.430/2025 e notícia institucional correspondente; Resolução CNRM nº 19/2021; relação institucional de especialidades do CFM; estrutura técnico-científica já publicada em U110; prova e gabarito definitivos Cebraspe/POLC-AL 2023. O corte legislativo de 13/7/2026 foi preservado.
+Fontes revalidadas em 21/9/2026: Edital PC-MA; Código de Processo Penal; Leis nº 12.030/2009 e nº 12.842/2013; Resolução CFM nº 2.430/2025; provas e gabaritos definitivos Cebraspe PC-MA 2018 e PC-ES 2022. O corte legislativo de 13/7/2026 foi preservado.
 
-**PC-E16 permanece em andamento:** U149 está C/H/Q `done`; U150–U155 seguem `pending`. Próxima unidade: U150 — Corpo de delito, perícia e peritos em Medicina Legal.
+**PC-E16 permanece em andamento:** U149–U150 estão C/H/Q `done`; U151–U155 seguem `pending`. Próxima unidade: U151 — Documentos médico-legais e identificação — identidade, reconhecimento e métodos.
 
 ### Registros operacionais superados
 
