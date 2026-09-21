@@ -157,7 +157,7 @@ O texto compilado atual mostra redação mais ampla do inciso I:
 - participação de criança/adolescente **ou**
 - organização destinada a crimes previstos no Estatuto da Criança e do Adolescente.
 
-Essa segunda parte veio com a Lei nº 15.487/2026, de agosto de 2026, e **não pertence ao corte da PC-MA**.
+Essa segunda parte veio com a Lei nº 15.487/2026, de agosto de 2026, e **não pertence ao corte da Polícia Civil do Maranhão**.
 
 ---
 
@@ -1031,8 +1031,8 @@ Sem consultar:
 11. Quando o Ministério Público pode deixar de denunciar?
 12. Quem negocia e quem não negocia?
 13. Quais três medidas não podem apoiar-se só nas declarações?
-14. O que o Supremo decidiu na ADI 5.508?
-15. Como ler o § 14 após a ADI 5.567?
+14. O que o Supremo decidiu na <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.508?
+15. Como ler o § 14 após a <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.567?
 16. Qual a diferença entre ação controlada e infiltração quanto ao controle judicial?
 17. Qual o prazo de infiltração presencial?
 18. Qual o teto da infiltração virtual?
