@@ -681,7 +681,7 @@ A divisão mantém IDs U156–U158 já previstos e acompanha três problemas cog
 
 Para as três unidades, preservar a diferença entre Criminologia empírica/interdisciplinar, política criminal como campo de escolhas e Direito Penal como sistema normativo. Teorias sociológicas não devem virar simples lista de autores: na produção, organizar por problema explicativo → mecanismo → implicação → limite/contraste, com fonte verificável. Prevenção primária/secundária/terciária deve ser ensinada por alvo, momento e exemplos institucionais seguros, sem inventar eficácia causal.
 
-**PC-E17 concluído:** U156–U158 estão publicados e aceitos com C/H/Q `done`. **Não há unidade editorial independente habilitada:** somente U075 permanece `pending` por divergência já registrada; PC-R04/PC-E08 e o fechamento integral aguardam sua reconciliação.
+**PC-E17 concluído:** U156–U158 estão publicados e aceitos com C/H/Q `done`. Com a reconciliação posterior de U075, **U001–U158 estão aceitas** e a próxima frente habilitada é PC-F01 — conferência final da matriz contra o edital consolidado.
 
 ## 8. Evidências de publicação e aceite
 
