@@ -153,7 +153,7 @@ Artigo 180 do <abbr title="Código de Processo Penal">CPP</abbr>:
 - terceiro perito;
 - eventualmente novo exame.
 
-**Perícia contraditória**, na questão PC-MA 2018: manifestações individualizadas sem posição comum.
+**Perícia contraditória**, na questão <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> 2018: manifestações individualizadas sem posição comum.
 
 ## Quando não cabe perícia
 
