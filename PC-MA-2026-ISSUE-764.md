@@ -624,6 +624,8 @@ Para todas as sete unidades, PC-R02 determina **nova/local**. U093, U085, U110 e
 
 ### Criminologia — preparação PC-E17
 
+Preparação concluída sob `PC-E17-PLANEJAMENTO-20260921-01`, com base `3a6bcdb2f529fa93fa9197c499abbd983a32a9e1` e snapshot publicado `a0ee549ae9d135babfe4cd19041585fb14a5547c`. A comparação base→snapshot altera **somente este arquivo-mestre**, materializando planejamento sem criar grupo vazio, assuntos parciais ou alterar totais. U156–U158 permanecem C/H/Q `pending`.
+
 Programa oficial revalidado no Edital nº 1 — PCMA — Investigador, de 13/07/2026, item 20.2.3. O edital atribui **3 questões objetivas** a Criminologia e traz literalmente:
 
 1. Criminologia.  
