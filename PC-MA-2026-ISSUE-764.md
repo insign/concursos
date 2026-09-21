@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U155; PC-E16 — Medicina Legal está `done` com U149–U155 `done`; a próxima frente editorial é PC-E17 — Criminologia, cujos recortes individuais U156–U158 ainda precisam ser materializados antes da produção; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U155 e a preparação de PC-E17 — Criminologia; PC-E16 — Medicina Legal está `done`, e U156–U158 permanecem C/H/Q `pending` com recortes individuais agora materializados; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **155 = 138 físicas locais + 17 vínculos can
 
 Reservas ativas após o aceite de U155: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima ação editorial: preparação de PC-E17 — Criminologia — U156–U158.** Os três IDs estão `pending`, são classificados como novos, mas seus recortes individuais ainda não estão materializados no estado autoritativo; consolidar o programa literal e a matriz antes de produzir o primeiro pacote.
+**Próxima ação editorial: U156 — Fundamentos da Criminologia — conceito, métodos e objetos**, C/H/Q `pending`. A preparação PC-E17 materializou programa literal, matriz, identidades, slugs, dependências e fronteiras para U156–U158; o grupo `criminologia` permanece planejado para criação junto do primeiro pacote completo, sem placeholder.
 
 ### Pendências e divergências herdadas
 
@@ -232,7 +232,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U148 | Direitos Humanos; nova; `grupos-vulneraveis-atividade-policial-direitos-humanos` | C/H/Q done; snapshot `f6d10d28d9c6ffd9bb4f372ddc993c7929591f48`; ver matriz/evidência abaixo |
 | U144 | Direitos Humanos; parcial; `sistema-global-onu-dudh` | C/H/Q done; visão física resolvida na `main`, commit de publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; doador histórico não inferido; ver matriz de PC-E15 abaixo |
 | U149–U155 | Medicina Legal; novas | C/H/Q done; U155 snapshot final `e32e4fbec514febb820401e89a53c0be26a40345`; PC-E16 concluído; ver matriz de PC-E16 abaixo |
-| U156–U158 | Criminologia; novas | C/H/Q pending; detalhes individuais ausentes |
+| U156–U158 | Criminologia; novas | C/H/Q pending; preparação individual materializada em 21/09/2026 sob `PC-E17-PLANEJAMENTO-20260921-01`; U156 fundamentos/métodos/objetos, U157 funções/política criminal, U158 modelos teóricos/teorias sociológicas/prevenção |
 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
 
@@ -621,6 +621,56 @@ Para todas as sete unidades, PC-R02 determina **nova/local**. U093, U085, U110 e
 
 **PC-E16 concluído:** U149–U155 estão publicados e aceitos com C/H/Q `done`. **Próxima preparação habilitada: PC-E17 — Criminologia — U156–U158**, cujos recortes individuais ainda precisam ser materializados a partir do programa literal antes da produção.
 
+
+### Criminologia — preparação PC-E17
+
+Programa oficial revalidado no Edital nº 1 — PCMA — Investigador, de 13/07/2026, item 20.2.3. O edital atribui **3 questões objetivas** a Criminologia e traz literalmente:
+
+1. Criminologia.  
+   1.1 Conceito.  
+   1.2 Métodos: empirismo e interdisciplinaridade.  
+   1.3 Objetos da criminologia: delito, delinquente, vítima, controle social.  
+2. Funções da criminologia.  
+   2.1 Criminologia e política criminal.  
+3. Modelos teóricos da criminologia.  
+   3.1 Teorias sociológicas.  
+   3.2 Prevenção da infração penal no Estado democrático de direito.  
+   3.3 Prevenção primária.  
+   3.4 Prevenção secundária.  
+   3.5 Prevenção terciária.
+
+A transcrição acima foi conferida diretamente na página 65 do PDF oficial em 21/09/2026. **Não importar do edital PC-MA 2017** os antigos itens “3.6 Modelos de reação ao crime” ou “4 Criminologia Ambiental”: eles não constam do programa 2026. Esta diferença é uma exclusão programática explícita, não correção silenciosa.
+
+O grupo físico planejado é:
+
+`src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/criminologia/`
+
+Descriptor a publicar **somente junto do primeiro pacote completo U156**:
+
+- `schemaVersion: 1`
+- título: **Criminologia**
+- `order: 8`
+- descrição planejada: **Fundamentos, funções, teorias e prevenção criminológica aplicados à compreensão do crime e do controle social.**
+
+O grupo Medicina Legal publicado possui ordem 7; o caminho `criminologia/grupo.json` está ausente na `main`, como esperado antes do primeiro pacote. Os três slugs e os `storageId` abaixo foram pesquisados na `main` em 21/09/2026 e não apresentaram colisão. Não criar grupo vazio nem arquivos parciais na etapa de planejamento.
+
+A classificação PC-R02 permanece autoritativa: **U156–U158 são novas/locais**. Buscas no repositório por Criminologia, objetos da criminologia, política criminal, prevenção criminológica, teorias sociológicas e IDs `pc-u156`–`pc-u158` não localizaram origem física ou canônica integral compatível. #765 e #766 continuam sem reserva concorrente e sem pacote publicado que possa ser tratado como doador comprovado. Os anexos disponíveis no projeto são materiais do Tribunal de Contas do Estado do Maranhão e não oferecem recorte aderente.
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / dependências | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 1; 1.1–1.3 | U156 — **Fundamentos da Criminologia — conceito, métodos e objetos** | **nova/local**; nenhuma origem integral localizada; fontes criminológicas e provas oficiais a revalidar na produção | `fundamentos-criminologia-conceito-metodos-objetos`; físico PC-MA + grupo Criminologia; `pc-u156`; 156 | Criminologia como campo empírico e interdisciplinar; conceito; empirismo e interdisciplinaridade; delito, delinquente, vítima e controle social como objetos. Construir contraste mínimo com Direito Penal normativo sem antecipar modelos teóricos de U158 | PC-MA; corte 13/7/2026; unidade-base do bloco; edital revalidado em 21/9/2026 | pending | pending | pending |
+| 2; 2.1 | U157 — **Funções da Criminologia e política criminal** | **nova/local**; nenhuma origem integral localizada; fontes criminológicas e institucionais a revalidar na produção | `funcoes-criminologia-politica-criminal`; físico PC-MA + grupo; `pc-u157`; 157 | Funções descritiva/explicativa e contribuição para prevenção/intervenção dentro dos limites das fontes; relação Criminologia × política criminal; separar conhecimento empírico, escolha político-criminal e dogmática penal sem transformar a unidade em aula geral de Direito Penal | PC-MA; corte 13/7/2026; U156 fornece conceito, método e objetos | pending | pending | pending |
+| 3; 3.1–3.5 | U158 — **Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal** | **nova/local**; nenhuma origem integral localizada; teorias e provas oficiais a revalidar na produção | `modelos-teoricos-criminologia-prevencao`; físico PC-MA + grupo; `pc-u158`; 158 | Modelos teóricos e teorias sociológicas relevantes ao item genérico; prevenção no Estado democrático de direito; prevenção primária, secundária e terciária. Não importar “modelos de reação ao crime” nem “Criminologia Ambiental” do edital antigo; evitar catálogo enciclopédico de escolas sem ganho de prova | PC-MA; corte 13/7/2026; U156 como base conceitual e U157 para função/política criminal | pending | pending | pending |
+
+#### Ordem e critérios de produção
+
+**Ordem habilitada:** U156 → U157 → U158.
+
+A divisão mantém IDs U156–U158 já previstos e acompanha três problemas cognitivos diferentes: primeiro **o que a Criminologia é, como conhece e o que observa**; depois **para que esse conhecimento serve e como se relaciona à política criminal**; por fim **como os modelos sociológicos explicam o fenômeno e como a prevenção é classificada**. Não há necessidade concreta de novo desdobramento nesta preparação; permanecem **158 unidades**.
+
+Para as três unidades, preservar a diferença entre Criminologia empírica/interdisciplinar, política criminal como campo de escolhas e Direito Penal como sistema normativo. Teorias sociológicas não devem virar simples lista de autores: na produção, organizar por problema explicativo → mecanismo → implicação → limite/contraste, com fonte verificável. Prevenção primária/secundária/terciária deve ser ensinada por alvo, momento e exemplos institucionais seguros, sem inventar eficácia causal.
+
+**Próxima unidade habilitada:** U156 — Fundamentos da Criminologia — conceito, métodos e objetos, C/H/Q `pending`. A criação do grupo `criminologia` deve ocorrer no mesmo commit do primeiro pacote completo U156.
 
 ## 8. Evidências de publicação e aceite
 
