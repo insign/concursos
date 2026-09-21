@@ -1,69 +1,50 @@
-# Redes de computadores, IPv4, IPv6 e Wi‑Fi — revisão rápida
+# Redes de computadores, <abbr title="Internet Protocol version 4">IPv4</abbr>, <abbr title="Internet Protocol version 6">IPv6</abbr> e <abbr title="Tecnologia de rede local sem fio">Wi‑Fi</abbr> — revisão rápida
 
-## Alcance
+## Alcance e funções
 
-| Tipo | Ideia |
+| Elemento | Recuperação |
 | --- | --- |
-| <abbr title="Local Area Network — rede de área local">LAN</abbr> | área local |
-| <abbr title="Metropolitan Area Network — rede de área metropolitana">MAN</abbr> | escala metropolitana |
-| <abbr title="Wide Area Network — rede de longa distância">WAN</abbr> | longa distância |
+| <abbr title="Local Area Network — rede de área local">LAN</abbr> | alcance local |
+| <abbr title="Metropolitan Area Network — rede de área metropolitana">MAN</abbr> | alcance metropolitano |
+| <abbr title="Wide Area Network — rede de longa distância">WAN</abbr> | alcance geográfico amplo |
+| <abbr title="Comutador que encaminha dados na rede local">switch</abbr> de enlace | encaminha quadros na rede local |
+| roteador | encaminha pacotes entre redes <abbr title="Internet Protocol — protocolo da Internet">IP</abbr> |
+| ponto de acesso | conecta clientes sem fio à rede local |
 
-## Dispositivos
+Funções distintas podem coexistir no mesmo aparelho. Em **estrela**, a falha central pode afetar vários nós; a falha de um cabo de estação tende a afetar aquela estação.
 
-- **switch** → encaminha quadros na rede local;
-- **roteador** → encaminha pacotes entre redes IP;
-- **ponto de acesso** → conecta clientes Wi‑Fi à rede local;
-- funções podem coexistir no mesmo equipamento físico.
+## <abbr title="Internet Protocol version 4">IPv4</abbr>
 
-## IPv4
+**32 bits = quatro octetos**; cada octeto decimal vai de `0` a `255`.
 
-<abbr title="Internet Protocol version 4">IPv4</abbr> = **32 bits = 4 octetos**.
-
-Pesos de um octeto:
-
-`128 64 32 16 8 4 2 1`
+Pesos: `128 64 32 16 8 4 2 1`.
 
 `50 = 32 + 16 + 2` → `00110010`.
 
-Notação <abbr title="Classless Inter-Domain Routing — roteamento sem classes">CIDR</abbr>:
+<abbr title="Classless Inter-Domain Routing — roteamento sem classes">CIDR</abbr>: `/24` = 24 bits de prefixo, oito restantes; `/26` deixa seis. Prefixo maior → menos bits para a parte de <abbr title="Dispositivo que origina ou recebe comunicação na rede">host</abbr>.
 
-- `/24` → 24 bits de prefixo;
-- prefixo maior → menos bits de host.
+| Finalidade | Faixa |
+| --- | --- |
+| privadas | `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16` |
+| <abbr title="Comunicação do dispositivo consigo mesmo">loopback</abbr> | `127.0.0.0/8` |
+| <abbr title="Endereçamento para comunicação no mesmo enlace">link-local</abbr> | `169.254.0.0/16` |
 
-Faixas úteis:
+## <abbr title="Internet Protocol version 6">IPv6</abbr>
 
-- privadas: `10/8`, `172.16/12`, `192.168/16`;
-- loopback: `127/8`;
-- link-local: `169.254/16`.
+**128 bits** = oito grupos de quatro dígitos hexadecimais na forma completa.
 
-## IPv6
+- Zeros à esquerda podem ser omitidos; `::` comprime grupos zero **uma única vez**.
+- `::1` = <abbr title="Comunicação do dispositivo consigo mesmo">loopback</abbr>; `fe80::/10` = <abbr title="Endereçamento para comunicação no mesmo enlace">link-local</abbr>.
+- Forma completa pode ser válida mesmo sem compressão.
+- Não possui <abbr title="Difusão para todos no domínio correspondente">broadcast</abbr>; essa função é suprida por <abbr title="Entrega a todas as interfaces do grupo identificado">multicast</abbr>.
 
-<abbr title="Internet Protocol version 6">IPv6</abbr> = **128 bits**, oito grupos hexadecimais.
+**Entrega:** <abbr title="Entrega a uma interface específica">unicast</abbr> → uma interface; <abbr title="Entrega a todas as interfaces do grupo identificado">multicast</abbr> → todos do grupo; <abbr title="Entrega a um membro do grupo, escolhido pelo roteamento">anycast</abbr> → um do grupo.
 
-- zeros à esquerda podem ser omitidos;
-- `::` comprime uma sequência de grupos zero e só pode aparecer uma vez;
-- `::1` = loopback;
-- `fe80::/10` = link-local;
-- não usa broadcast.
+## <abbr title="Tecnologia de rede local sem fio">Wi‑Fi</abbr>
 
-## Wi‑Fi
+- Família <abbr title="Institute of Electrical and Electronics Engineers">IEEE</abbr> 802.11; Ethernet → <abbr title="Institute of Electrical and Electronics Engineers">IEEE</abbr> 802.3.
+- <abbr title="Service Set Identifier — identificador da rede sem fio">SSID</abbr> = identificador da rede, **não senha**.
+- <abbr title="Wi-Fi Protected Access 2 — proteção de acesso sem fio">WPA2</abbr>/<abbr title="Wi-Fi Protected Access 3 — proteção de acesso sem fio">WPA3</abbr> protegem a comunicação sem fio; não garantem proteção de ponta a ponta de todo aplicativo.
+- Frequência não é velocidade nem alcance; <abbr title="Tecnologia de rede local sem fio">Wi‑Fi</abbr> não é Internet.
 
-- família <abbr title="Institute of Electrical and Electronics Engineers">IEEE</abbr> 802.11;
-- <abbr title="Service Set Identifier — nome lógico da rede Wi‑Fi">SSID</abbr> = nome lógico da rede, não senha;
-- <abbr title="Wi‑Fi Protected Access 2 — proteção de acesso sem fio">WPA2</abbr>/<abbr title="Wi‑Fi Protected Access 3 — proteção de acesso sem fio">WPA3</abbr> protegem o acesso sem fio;
-- Wi‑Fi ≠ Internet.
-
-## Método
-
-**alcance → meio → equipamento → versão IP → prefixo/endereço → efeito**
-
-## Pegadinhas
-
-- switch ≠ roteador;
-- <abbr title="Internet Protocol version 4">IPv4</abbr> = 32 bits;
-- <abbr title="Internet Protocol version 6">IPv6</abbr> = 128 bits;
-- octeto = 8 bits;
-- `/24` ≠ 24 hosts;
-- privado ≠ inválido;
-- representação <abbr title="Internet Protocol version 6">IPv6</abbr> não comprimida pode ser válida;
-- <abbr title="Service Set Identifier — nome lógico da rede Wi‑Fi">SSID</abbr> ≠ senha.
+**Método:** alcance → meio → equipamento → versão <abbr title="Internet Protocol — protocolo da Internet">IP</abbr> → prefixo/endereço → efeito.

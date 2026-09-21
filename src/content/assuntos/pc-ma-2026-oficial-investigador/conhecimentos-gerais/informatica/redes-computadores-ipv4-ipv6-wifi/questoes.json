@@ -15,7 +15,7 @@
         {"id":"E","text":"Internet pública."}
       ],
       "correctOptionId": "A",
-      "explanation": "LAN descreve rede de área local, adequada ao alcance de um prédio ou campus." 
+      "explanation": "LAN descreve rede de área local, adequada ao alcance de um prédio ou campus."
     },
     {
       "id": "u026-a02",
@@ -30,7 +30,7 @@
         {"id":"E","text":"Impressora."}
       ],
       "correctOptionId": "B",
-      "explanation": "O roteador interliga redes e decide o próximo encaminhamento conforme rotas IP." 
+      "explanation": "O roteador interliga redes e decide o próximo encaminhamento conforme rotas IP."
     },
     {
       "id": "u026-a03",
@@ -45,7 +45,7 @@
         {"id":"E","text":"eliminar a necessidade de endereços IP."}
       ],
       "correctOptionId": "B",
-      "explanation": "O ponto de acesso fornece conectividade sem fio aos clientes e os integra à rede local." 
+      "explanation": "O ponto de acesso fornece conectividade sem fio aos clientes e os integra à rede local."
     },
     {
       "id": "u026-a04",
@@ -60,7 +60,7 @@
         {"id":"E","text":"128 bits."}
       ],
       "correctOptionId": "B",
-      "explanation": "IPv4 usa 32 bits, normalmente apresentados como quatro octetos decimais." 
+      "explanation": "IPv4 usa 32 bits, normalmente apresentados como quatro octetos decimais."
     },
     {
       "id": "u026-a05",
@@ -75,7 +75,7 @@
         {"id":"E","text":"1 a 65535."}
       ],
       "correctOptionId": "B",
-      "explanation": "Um octeto tem 8 bits, portanto representa 256 valores, de 0 a 255." 
+      "explanation": "Um octeto tem 8 bits, portanto representa 256 valores, de 0 a 255."
     },
     {
       "id": "u026-a06",
@@ -90,7 +90,7 @@
         {"id":"E","text":"24 roteadores."}
       ],
       "correctOptionId": "B",
-      "explanation": "O número após a barra informa o comprimento, em bits, do prefixo da rede." 
+      "explanation": "O número após a barra informa o comprimento, em bits, do prefixo da rede."
     },
     {
       "id": "u026-a07",
@@ -105,7 +105,7 @@
         {"id":"E","text":"32."}
       ],
       "correctOptionId": "B",
-      "explanation": "IPv4 possui 32 bits. Com 26 bits de prefixo, restam 6 bits." 
+      "explanation": "IPv4 possui 32 bits. Com 26 bits de prefixo, restam 6 bits."
     },
     {
       "id": "u026-a08",
@@ -120,7 +120,7 @@
         {"id":"E","text":"224.0.0.1"}
       ],
       "correctOptionId": "B",
-      "explanation": "192.168.0.0/16 é uma das três faixas privadas definidas na RFC 1918." 
+      "explanation": "192.168.0.0/16 é uma das três faixas privadas definidas na RFC 1918."
     },
     {
       "id": "u026-a09",
@@ -135,7 +135,7 @@
         {"id":"E","text":"identificação de SSID."}
       ],
       "correctOptionId": "A",
-      "explanation": "A faixa 127.0.0.0/8 é reservada a loopback." 
+      "explanation": "A faixa 127.0.0.0/8 é reservada a loopback."
     },
     {
       "id": "u026-a10",
@@ -150,7 +150,7 @@
         {"id":"E","text":"128 bits."}
       ],
       "correctOptionId": "E",
-      "explanation": "IPv6 usa endereços de 128 bits." 
+      "explanation": "IPv6 usa endereços de 128 bits."
     },
     {
       "id": "u026-a11",
@@ -165,7 +165,7 @@
         {"id":"E","text":"Toda forma não comprimida é inválida."}
       ],
       "correctOptionId": "C",
-      "explanation": "A compressão por :: representa uma sequência de grupos zero e só pode aparecer uma vez, para preservar a interpretação inequívoca." 
+      "explanation": "A compressão por :: representa uma sequência de grupos zero e só pode aparecer uma vez, para preservar a interpretação inequívoca."
     },
     {
       "id": "u026-a12",
@@ -180,7 +180,7 @@
         {"id":"E","text":"endereço IPv4 privado."}
       ],
       "correctOptionId": "B",
-      "explanation": "::1 é o endereço de loopback IPv6." 
+      "explanation": "::1 é o endereço de loopback IPv6."
     },
     {
       "id": "u026-a13",
@@ -195,7 +195,7 @@
         {"id":"E","text":"Broadcast é obrigatório em fe80::/10."}
       ],
       "correctOptionId": "B",
-      "explanation": "A arquitetura IPv6 não define broadcast; multicast e anycast atendem outras formas de entrega múltipla ou por grupo." 
+      "explanation": "IPv6 não possui endereços de broadcast. Conforme a RFC 4291, seção 2, a função de difusão é suprida por multicast, que entrega a todas as interfaces do grupo. Anycast também existe em IPv6, mas entrega a apenas um membro, escolhido pelas métricas de roteamento; não é entrega múltipla equivalente ao broadcast. A alternativa B reconhece mecanismos existentes, sem torná-los sinônimos."
     },
     {
       "id": "u026-a14",
@@ -210,7 +210,7 @@
         {"id":"E","text":"SMTP."}
       ],
       "correctOptionId": "B",
-      "explanation": "IEEE 802.11 é a família de padrões de redes locais sem fio associada ao Wi-Fi." 
+      "explanation": "IEEE 802.11 é a família de padrões de redes locais sem fio associada ao Wi-Fi."
     },
     {
       "id": "u026-a15",
@@ -225,7 +225,7 @@
         {"id":"E","text":"o certificado digital do roteador."}
       ],
       "correctOptionId": "B",
-      "explanation": "SSID identifica logicamente a rede sem fio e não deve ser confundido com senha ou mecanismo de segurança." 
+      "explanation": "SSID identifica logicamente a rede sem fio e não deve ser confundido com senha ou mecanismo de segurança."
     },
     {
       "id": "u026-a16",
@@ -240,7 +240,7 @@
         {"id":"E","text":"transformar SSID em senha."}
       ],
       "correctOptionId": "A",
-      "explanation": "Na estrela, as conexões convergem a um ponto central; sua indisponibilidade pode comprometer ampla parte da rede." 
+      "explanation": "Na estrela, as conexões convergem a um ponto central; sua indisponibilidade pode comprometer ampla parte da rede."
     },
     {
       "id": "u026-p01",
@@ -255,7 +255,7 @@
         {"id":"E","text":"11000000.10101000.00001010.00110001"}
       ],
       "correctOptionId": "D",
-      "explanation": "192=11000000, 168=10101000, 10=00001010 e 50=00110010. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 31, gabarito definitivo D." 
+      "explanation": "192=11000000, 168=10101000, 10=00001010 e 50=00110010. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 31, gabarito definitivo D."
     },
     {
       "id": "u026-p02",
@@ -270,7 +270,7 @@
         {"id":"E","text":"16 bits."}
       ],
       "correctOptionId": "A",
-      "explanation": "IPv6 utiliza endereços de 128 bits. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 43, gabarito definitivo A." 
+      "explanation": "IPv6 utiliza endereços de 128 bits. Adaptação curta e não literal de FGV — ALEMA, Técnico de Gestão Administrativa — Analista de Suporte de Rede, Tipo 1, 2023, questão 43, gabarito definitivo A."
     }
   ]
 }
