@@ -24,19 +24,19 @@ Fontes consultadas e revalidadas para o recorte da U141 e o corte legislativo de
 
 ## Supremo Tribunal Federal
 
-7. **Supremo Tribunal Federal. Tema 661 da repercussão geral — RE 625.263/PR.** Tese: renovações sucessivas de interceptação são lícitas quando persistem os requisitos do artigo 2º, há necessidade concreta e complexidade investigativa e cada decisão é devidamente motivada; fundamentações padronizadas ou genéricas são ilegais. Trânsito em julgado em 30 ago. 2022.  
+7. **Supremo Tribunal Federal. Tema 661 da repercussão geral — <abbr title="Recurso Extraordinário">RE</abbr> 625.263/<abbr title="Paraná">PR</abbr>.** Tese: renovações sucessivas de interceptação são lícitas quando persistem os requisitos do artigo 2º, há necessidade concreta e complexidade investigativa e cada decisão é devidamente motivada; fundamentações padronizadas ou genéricas são ilegais. Trânsito em julgado em 30 ago. 2022.  
    https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=661
 
 8. **Supremo Tribunal Federal. Constituição e Supremo — artigo 5º.** Repertório oficial utilizado para as distinções sobre gravação telefônica feita por interlocutor e para a aplicação da competência aparente na autorização de interceptação durante a investigação.  
    https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=5&abrirBase=CF
 
-9. **Supremo Tribunal Federal. Tema 977 da repercussão geral — ARE 1.042.075/RJ.** Julgamento concluído em 25 jun. 2025: distingue apreensão física de celular e acesso aos dados internos; fixa, como regra para aparelho apreendido, consentimento livre ou prévia decisão judicial fundamentada/delimitada, com exceção específica para aparelho encontrado fortuitamente e acesso limitado à identificação do fato, autoria ou proprietário, sujeito a justificação posterior.  
+9. **Supremo Tribunal Federal. Tema 977 da repercussão geral — <abbr title="Recurso Extraordinário com Agravo">ARE</abbr> 1.042.075/<abbr title="Rio de Janeiro">RJ</abbr>.** Julgamento concluído em 25 jun. 2025: distingue apreensão física de celular e acesso aos dados internos; fixa, como regra para aparelho apreendido, consentimento livre ou prévia decisão judicial fundamentada/delimitada, com exceção específica para aparelho encontrado fortuitamente e acesso limitado à identificação do fato, autoria ou proprietário, sujeito a justificação posterior.  
    https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=977
 
-10. **Supremo Tribunal Federal. ADI 3.450.** Ação que questiona a interpretação do artigo 3º da Lei nº 9.296/1996 que permite ao juiz determinar interceptação de ofício na fase de investigação criminal. A literalidade legal foi preservada no conteúdo sem converter a controvérsia em tese final inexistente.  
+10. **Supremo Tribunal Federal. <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 3.450.** Ação que questiona a interpretação do artigo 3º da Lei nº 9.296/1996 que permite ao juiz determinar interceptação de ofício na fase de investigação criminal. A literalidade legal foi preservada no conteúdo sem converter a controvérsia em tese final inexistente.  
     https://portal.stf.jus.br/processos/detalhe.asp?incidente=2282869
 
-11. **Supremo Tribunal Federal. Pauta conjunta da ADI 3.450, ADI 4.112 e RE 625.263.** Fonte oficial para a identificação do objeto das ações sobre decretação judicial de ofício e constitucionalidade da Lei nº 9.296/1996.  
+11. **Supremo Tribunal Federal. Pauta conjunta da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 3.450, <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.112 e <abbr title="Recurso Extraordinário">RE</abbr> 625.263.** Fonte oficial para a identificação do objeto das ações sobre decretação judicial de ofício e constitucionalidade da Lei nº 9.296/1996.  
     https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=405494
 
 ## Superior Tribunal de Justiça
