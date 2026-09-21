@@ -45,7 +45,7 @@
 13. **Tribunal Superior Eleitoral. Resolução nº 23.640, de 29 de abril de 2021.** Dispõe sobre apuração de crimes eleitorais: polícia judiciária, notícia-crime, flagrante, termo circunstanciado, inquérito e integração obrigatória dos artigos 395, 396, 396-A, 397 e 400 do Código de Processo Penal ao rito penal eleitoral.  
     https://www.tse.jus.br/legislacao/compilada/res/2021/resolucao-no-23-640-de-29-de-abril-de-2021
 
-14. **Supremo Tribunal Federal. Inquérito 4.435/DF — quarto agravo regimental, Plenário, julgamento em 14 mar. 2019.** Competência da Justiça Eleitoral para processar e julgar crimes eleitorais e crimes comuns que lhes sejam conexos, cabendo à Justiça especializada examinar a conexão no caso concreto.  
+14. **Supremo Tribunal Federal. Inquérito 4.435/Distrito Federal — quarto agravo regimental, Plenário, julgamento em 14 mar. 2019.** Competência da Justiça Eleitoral para processar e julgar crimes eleitorais e crimes comuns que lhes sejam conexos, cabendo à Justiça especializada examinar a conexão no caso concreto.  
     https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-reafirma-competencia-da-justica-eleitoral-para-julgar-crimes-comuns-conexos-a-delitos-eleitorais/
 
 15. **Tribunal Superior Eleitoral. Resolução nº 23.618, de 7 de maio de 2020, com alterações posteriores.** Organização de zonas eleitorais específicas para crimes comuns conexos aos eleitorais, em decorrência do Inquérito 4.435/DF.  
@@ -56,28 +56,28 @@
 
 ## Jurisprudência de alto rendimento
 
-17. **Tribunal Superior Eleitoral. AgR-RHC 0600040-44, julgamento em 4 ago. 2025.** Artigo 289: fraude no alistamento exige dolo genérico e expediente ardil; uso de nome de terceiro não é requisito. Fonte: anotação oficial do artigo 289.  
+17. **Tribunal Superior Eleitoral. Agravo Regimental em Recurso em Habeas Corpus 0600040-44, julgamento em 4 ago. 2025.** Artigo 289: fraude no alistamento exige dolo genérico e expediente ardil; uso de nome de terceiro não é requisito. Fonte: anotação oficial do artigo 289.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
-18. **Tribunal Superior Eleitoral. REspEl 0601664-41, 10 abr. 2025; AgR-AREspE 42651, 27 mar. 2025.** Artigo 299: corrupção eleitoral é crime formal, consumado com a prática de núcleo típico, independentemente de entrega ou aceitação efetiva da vantagem. Fonte: anotação oficial do artigo 299.  
+18. **Tribunal Superior Eleitoral. Recurso Especial Eleitoral 0601664-41, 10 abr. 2025; Agravo Regimental em Recurso Especial Eleitoral 42651, 27 mar. 2025.** Artigo 299: corrupção eleitoral é crime formal, consumado com a prática de núcleo típico, independentemente de entrega ou aceitação efetiva da vantagem. Fonte: anotação oficial do artigo 299.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
 19. **Tribunal Superior Eleitoral. Conflito de Jurisdição 0600032-70, 19 mar. 2026.** Crimes eleitorais contra a honra praticados na internet: se não for identificável o local de inserção, aplica-se subsidiariamente o critério do domicílio ou residência do réu previsto no artigo 72 do Código de Processo Penal. Fonte: anotação do artigo 324.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
-20. **Supremo Tribunal Federal. ADI 6.225, julgamento em 23 ago. 2021.** Rejeitou impugnação à pena do regime de denunciação caluniosa eleitoral do artigo 326-A quanto aos fundamentos constitucionais discutidos.  
+20. **Supremo Tribunal Federal. Ação Direta de Inconstitucionalidade 6.225, julgamento em 23 ago. 2021.** Rejeitou impugnação à pena do regime de denunciação caluniosa eleitoral do artigo 326-A quanto aos fundamentos constitucionais discutidos.  
     https://portal.stf.jus.br/processos/detalhe.asp?incidente=5783284
 
-21. **Tribunal Superior Eleitoral. REspe 36173, julgamento em 14 out. 2014.** Não recepção do artigo 337 do Código Eleitoral pela Constituição de 1988. Fonte: anotação oficial do artigo 337.  
+21. **Tribunal Superior Eleitoral. Recurso Especial Eleitoral 36173, julgamento em 14 out. 2014.** Não recepção do artigo 337 do Código Eleitoral pela Constituição de 1988. Fonte: anotação oficial do artigo 337.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
-22. **Tribunal Superior Eleitoral. RHC 12861, 1º dez. 2015; RHC 154711, 3 set. 2013; HC 130882, 18 out. 2011.** Artigo 347: desobediência eleitoral pressupõe ordem judicial direta e individualizada e atuação dolosa. Fonte: anotação oficial do artigo 347.  
+22. **Tribunal Superior Eleitoral. Recurso em Habeas Corpus 12861, 1º dez. 2015; Recurso em Habeas Corpus 154711, 3 set. 2013; Habeas Corpus 130882, 18 out. 2011.** Artigo 347: desobediência eleitoral pressupõe ordem judicial direta e individualizada e atuação dolosa. Fonte: anotação oficial do artigo 347.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
-23. **Supremo Tribunal Federal. Tema 1.260 da repercussão geral — ARE 1.428.742.** Mérito julgado em fev. 2026, trânsito em julgado em 13 mar. 2026: admite responsabilização simultânea por crime eleitoral de “caixa dois” do artigo 350 e improbidade; reconhecida inexistência do fato ou negativa de autoria na esfera eleitoral, há repercussão administrativa; ação de improbidade é da Justiça Comum.  
+23. **Supremo Tribunal Federal. Tema 1.260 da repercussão geral — Recurso Extraordinário com Agravo 1.428.742.** Mérito julgado em fev. 2026, trânsito em julgado em 13 mar. 2026: admite responsabilização simultânea por crime eleitoral de “caixa dois” do artigo 350 e improbidade; reconhecida inexistência do fato ou negativa de autoria na esfera eleitoral, há repercussão administrativa; ação de improbidade é da Justiça Comum.  
     https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1260
 
-24. **Tribunal Superior Eleitoral. AgR-AREspE 0600340-05, 23 jun. 2025; AgR-REspEl 7381, 9 nov. 2023.** Artigo 350: documentos apresentados à Justiça Eleitoral podem sustentar falsidade ideológica; perícia documental não é requisito universal; exige-se dolo e finalidade de alterar verdade sobre fato relevante para fins eleitorais. Fonte: anotação oficial do artigo 350.  
+24. **Tribunal Superior Eleitoral. Agravo Regimental em Recurso Especial Eleitoral 0600340-05, 23 jun. 2025; Agravo Regimental em Recurso Especial Eleitoral 7381, 9 nov. 2023.** Artigo 350: documentos apresentados à Justiça Eleitoral podem sustentar falsidade ideológica; perícia documental não é requisito universal; exige-se dolo e finalidade de alterar verdade sobre fato relevante para fins eleitorais. Fonte: anotação oficial do artigo 350.  
     https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral-1/codigo-eleitoral-lei-nb0-4.737-de-15-de-julho-de-1965
 
 ## Questões anteriores verificadas
