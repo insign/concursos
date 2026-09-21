@@ -1,0 +1,1266 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u137-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Aos crimes de trânsito previstos no Código de Trânsito Brasileiro aplicam-se, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente as normas do próprio Código."
+        },
+        {
+          "id": "B",
+          "text": "as normas gerais do Código Penal e do Código de Processo Penal e, no que couber, a Lei nº 9.099/1995."
+        },
+        {
+          "id": "C",
+          "text": "apenas a Lei nº 9.099/1995."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente o Código de Processo Civil."
+        },
+        {
+          "id": "E",
+          "text": "somente normas administrativas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 291 integra o capítulo penal às normas gerais penais/processuais e à Lei nº 9.099/1995 no que couber."
+    },
+    {
+      "id": "u137-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na lesão corporal culposa de trânsito, os artigos 74, 76 e 88 da Lei nº 9.099/1995 deixam de ser aplicáveis quando o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "possui habilitação válida."
+        },
+        {
+          "id": "B",
+          "text": "presta socorro."
+        },
+        {
+          "id": "C",
+          "text": "conduz em velocidade regular."
+        },
+        {
+          "id": "D",
+          "text": "está sob influência de álcool, participa de corrida/manobra não autorizada ou excede a máxima da via em mais de 50 km/h."
+        },
+        {
+          "id": "E",
+          "text": "é primário."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São as três exceções expressas do artigo 291, § 1º."
+    },
+    {
+      "id": "u137-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas hipóteses excepcionais do artigo 291, § 1º, a investigação da lesão corporal culposa deverá ocorrer por",
+      "options": [
+        {
+          "id": "A",
+          "text": "inquérito policial."
+        },
+        {
+          "id": "B",
+          "text": "ação civil pública."
+        },
+        {
+          "id": "C",
+          "text": "termo circunstanciado obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "processo administrativo apenas."
+        },
+        {
+          "id": "E",
+          "text": "mediação privada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º determina a instauração de inquérito policial."
+    },
+    {
+      "id": "u137-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A suspensão ou proibição de obter permissão ou habilitação para dirigir, quando aplicada como penalidade criminal geral do capítulo, tem duração de",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias a 1 ano."
+        },
+        {
+          "id": "B",
+          "text": "1 mês a 3 anos."
+        },
+        {
+          "id": "C",
+          "text": "2 meses a 5 anos."
+        },
+        {
+          "id": "D",
+          "text": "5 a 10 anos."
+        },
+        {
+          "id": "E",
+          "text": "prazo indeterminado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 293 fixa duração de dois meses a cinco anos."
+    },
+    {
+      "id": "u137-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Transitada em julgado a sentença condenatória, a entrega da permissão ou da carteira de habilitação à autoridade judiciária deve ocorrer em",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "48 horas."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 293, § 1º, estabelece 48 horas."
+    },
+    {
+      "id": "u137-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A medida cautelar do artigo 294 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "sentença definitiva."
+        },
+        {
+          "id": "B",
+          "text": "condenação anterior obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "pedido exclusivo da defesa."
+        },
+        {
+          "id": "D",
+          "text": "apenas risco patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "necessidade para garantia da ordem pública e decisão motivada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 294 permite suspensão/proibição cautelar em investigação ou ação penal, mediante decisão motivada e necessidade de garantia da ordem pública."
+    },
+    {
+      "id": "u137-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A multa reparatória do artigo 297",
+      "options": [
+        {
+          "id": "A",
+          "text": "é paga à vítima ou sucessores e não pode superar o prejuízo material demonstrado."
+        },
+        {
+          "id": "B",
+          "text": "é sempre destinada ao fundo de trânsito."
+        },
+        {
+          "id": "C",
+          "text": "substitui toda indenização civil sem compensação."
+        },
+        {
+          "id": "D",
+          "text": "não depende de prejuízo material."
+        },
+        {
+          "id": "E",
+          "text": "tem valor ilimitado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A multa reparatória reverte à vítima ou sucessores, tem teto no prejuízo demonstrado e é descontada da indenização civil."
+    },
+    {
+      "id": "u137-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui agravante específica dos crimes de trânsito prevista no artigo 298",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser réu primário."
+        },
+        {
+          "id": "B",
+          "text": "prestar pronto socorro."
+        },
+        {
+          "id": "C",
+          "text": "cometer a infração com veículo sem placas ou com placas falsas ou adulteradas."
+        },
+        {
+          "id": "D",
+          "text": "ter residência fixa."
+        },
+        {
+          "id": "E",
+          "text": "confessar espontaneamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 298 enumera, entre outras, a utilização de veículo sem placas ou com placas falsas/adulteradas."
+    },
+    {
+      "id": "u137-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos sinistros com vítima, se o condutor prestar pronto e integral socorro,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o crime deixa de existir."
+        },
+        {
+          "id": "B",
+          "text": "fica imune a qualquer processo penal."
+        },
+        {
+          "id": "C",
+          "text": "deve obrigatoriamente ser preso em flagrante."
+        },
+        {
+          "id": "D",
+          "text": "não se imporá prisão em flagrante nem se exigirá fiança por força do artigo 301."
+        },
+        {
+          "id": "E",
+          "text": "a vítima perde direito à indenização."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 301 incentiva o socorro com essa consequência processual."
+    },
+    {
+      "id": "u137-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O homicídio culposo básico na direção de veículo automotor é punido com",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 2 a 4 anos e suspensão ou proibição de dirigir."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 5 a 8 anos apenas."
+        },
+        {
+          "id": "C",
+          "text": "detenção de 6 meses a 1 ano ou multa."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 3 a 6 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a pena do artigo 302, caput."
+    },
+    {
+      "id": "u137-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do homicídio culposo de trânsito é aumentada de um terço à metade se o agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "possuir habilitação adequada."
+        },
+        {
+          "id": "B",
+          "text": "praticar o fato fora de faixa de pedestres."
+        },
+        {
+          "id": "C",
+          "text": "prestar socorro imediatamente."
+        },
+        {
+          "id": "D",
+          "text": "não estiver trabalhando."
+        },
+        {
+          "id": "E",
+          "text": "não possuir permissão ou habilitação, praticar o crime em faixa/calçada, omitir socorro ou conduzir profissionalmente transporte de passageiros."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 302, § 1º, contém essas quatro hipóteses."
+    },
+    {
+      "id": "u137-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o homicídio culposo de trânsito é praticado por agente sob influência de álcool ou substância psicoativa que determine dependência, a pena é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de 6 meses a 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 3 a 6 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 5 a 8 anos, além da suspensão ou proibição de dirigir."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de 8 a 14 anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 302, § 3º, prevê reclusão de cinco a oito anos e suspensão/proibição."
+    },
+    {
+      "id": "u137-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STJ, a embriaguez do condutor em acidente com morte",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera automaticamente dolo eventual."
+        },
+        {
+          "id": "B",
+          "text": "não basta, isoladamente, para presumir dolo eventual."
+        },
+        {
+          "id": "C",
+          "text": "torna sempre competente o Tribunal do Júri."
+        },
+        {
+          "id": "D",
+          "text": "impede o reconhecimento de culpa em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "elimina a necessidade de analisar as circunstâncias do caso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STJ exige circunstâncias concretas adicionais para justificar a conclusão excepcional de dolo eventual."
+    },
+    {
+      "id": "u137-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A lesão corporal culposa básica na direção de veículo automotor tem pena de",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de 5 a 8 anos."
+        },
+        {
+          "id": "B",
+          "text": "detenção de 2 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de 3 a 7 anos."
+        },
+        {
+          "id": "D",
+          "text": "detenção de 6 meses a 2 anos, além da suspensão ou proibição de dirigir."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 303, caput, prevê detenção de seis meses a dois anos e suspensão/proibição."
+    },
+    {
+      "id": "u137-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A forma do artigo 303, § 2º, exige cumulativamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacidade psicomotora alterada por álcool/substância e lesão grave ou gravíssima."
+        },
+        {
+          "id": "B",
+          "text": "qualquer ingestão de álcool e lesão leve."
+        },
+        {
+          "id": "C",
+          "text": "apenas excesso de velocidade."
+        },
+        {
+          "id": "D",
+          "text": "morte da vítima."
+        },
+        {
+          "id": "E",
+          "text": "fuga do local."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º exige alteração psicomotora por álcool/substância e resultado grave ou gravíssimo."
+    },
+    {
+      "id": "u137-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na forma qualificada do artigo 303, § 2º, a pena privativa de liberdade é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses a 1 ano."
+        },
+        {
+          "id": "B",
+          "text": "1 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "2 a 5 anos de reclusão."
+        },
+        {
+          "id": "D",
+          "text": "5 a 8 anos."
+        },
+        {
+          "id": "E",
+          "text": "8 a 14 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 2º fixa reclusão de dois a cinco anos."
+    },
+    {
+      "id": "u137-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de omissão de socorro do artigo 304",
+      "options": [
+        {
+          "id": "A",
+          "text": "não incide se terceiro socorrer a vítima."
+        },
+        {
+          "id": "B",
+          "text": "pode incidir mesmo se terceiro suprir a omissão ou se a vítima tiver morte instantânea ou ferimentos leves."
+        },
+        {
+          "id": "C",
+          "text": "exige sempre resultado morte."
+        },
+        {
+          "id": "D",
+          "text": "é punido apenas com multa."
+        },
+        {
+          "id": "E",
+          "text": "só existe se o condutor estiver embriagado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 304 explicita essas situações."
+    },
+    {
+      "id": "u137-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 305 pune o condutor que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não possui habilitação, sem perigo de dano."
+        },
+        {
+          "id": "B",
+          "text": "recusa teste de etilômetro."
+        },
+        {
+          "id": "C",
+          "text": "trafega em baixa velocidade."
+        },
+        {
+          "id": "D",
+          "text": "afasta-se do local do sinistro para fugir à responsabilidade penal ou civil."
+        },
+        {
+          "id": "E",
+          "text": "deixa de portar documento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Esse é o núcleo do artigo 305."
+    },
+    {
+      "id": "u137-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 907 do STF, o crime do artigo 305",
+      "options": [
+        {
+          "id": "A",
+          "text": "é constitucional e não viola, por si só, a garantia de não autoincriminação."
+        },
+        {
+          "id": "B",
+          "text": "é inconstitucional."
+        },
+        {
+          "id": "C",
+          "text": "foi revogado."
+        },
+        {
+          "id": "D",
+          "text": "somente protege responsabilidade civil."
+        },
+        {
+          "id": "E",
+          "text": "exige confissão do agente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF considerou constitucional o artigo 305, preservando direito ao silêncio e excludentes."
+    },
+    {
+      "id": "u137-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de embriaguez ao volante do artigo 306 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "resultado lesão corporal."
+        },
+        {
+          "id": "B",
+          "text": "resultado morte."
+        },
+        {
+          "id": "C",
+          "text": "sinistro efetivo."
+        },
+        {
+          "id": "D",
+          "text": "autuação administrativa prévia."
+        },
+        {
+          "id": "E",
+          "text": "condução de veículo automotor com capacidade psicomotora alterada por álcool ou substância psicoativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Esse é o núcleo do artigo 306."
+    },
+    {
+      "id": "u137-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um dos parâmetros legais de constatação do artigo 306 é concentração de álcool no ar alveolar igual ou superior a",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,03 mg/L."
+        },
+        {
+          "id": "B",
+          "text": "0,3 mg/L."
+        },
+        {
+          "id": "C",
+          "text": "3 mg/L."
+        },
+        {
+          "id": "D",
+          "text": "6 mg/L."
+        },
+        {
+          "id": "E",
+          "text": "30 mg/L."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 306, § 1º, I, usa 0,3 miligrama de álcool por litro de ar alveolar."
+    },
+    {
+      "id": "u137-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parâmetro legal no sangue para o artigo 306 é concentração igual ou superior a",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,6 decigrama por litro."
+        },
+        {
+          "id": "B",
+          "text": "3 decigramas por litro."
+        },
+        {
+          "id": "C",
+          "text": "6 decigramas por litro."
+        },
+        {
+          "id": "D",
+          "text": "30 decigramas por litro."
+        },
+        {
+          "id": "E",
+          "text": "60 decigramas por litro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei prevê seis decigramas de álcool por litro de sangue."
+    },
+    {
+      "id": "u137-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A materialidade do artigo 306 pode ser comprovada",
+      "options": [
+        {
+          "id": "A",
+          "text": "por teste, exame clínico, perícia, vídeo, prova testemunhal ou outros meios admitidos, preservada a contraprova."
+        },
+        {
+          "id": "B",
+          "text": "somente por etilômetro."
+        },
+        {
+          "id": "C",
+          "text": "somente por exame de sangue."
+        },
+        {
+          "id": "D",
+          "text": "apenas por confissão."
+        },
+        {
+          "id": "E",
+          "text": "somente por perícia judicial posterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º admite diversos meios de prova."
+    },
+    {
+      "id": "u137-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STJ em informativo de junho de 2026, o artigo 306",
+      "options": [
+        {
+          "id": "A",
+          "text": "depende de multa administrativa anterior."
+        },
+        {
+          "id": "B",
+          "text": "exige perigo concreto a pessoa determinada."
+        },
+        {
+          "id": "C",
+          "text": "não admite prova testemunhal."
+        },
+        {
+          "id": "D",
+          "text": "é crime de perigo abstrato e a ação penal não depende de autuação administrativa prévia."
+        },
+        {
+          "id": "E",
+          "text": "foi revogado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Informativo 893 reafirmou a autonomia penal e a natureza de perigo abstrato do delito."
+    },
+    {
+      "id": "u137-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A simples recusa ao teste do etilômetro",
+      "options": [
+        {
+          "id": "A",
+          "text": "configura automaticamente o crime do artigo 306."
+        },
+        {
+          "id": "B",
+          "text": "equivale sempre a confissão."
+        },
+        {
+          "id": "C",
+          "text": "não basta, sozinha, para provar a alteração da capacidade psicomotora exigida pelo crime."
+        },
+        {
+          "id": "D",
+          "text": "gera homicídio culposo."
+        },
+        {
+          "id": "E",
+          "text": "elimina a infração administrativa correspondente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A recusa tem disciplina administrativa própria; o crime exige prova da alteração psicomotora pelos meios legalmente admitidos."
+    },
+    {
+      "id": "u137-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 307 também pune o condenado que",
+      "options": [
+        {
+          "id": "A",
+          "text": "deixa de pagar multa em 24 horas."
+        },
+        {
+          "id": "B",
+          "text": "deixa de entregar a permissão ou habilitação no prazo legal após o trânsito em julgado."
+        },
+        {
+          "id": "C",
+          "text": "troca de endereço."
+        },
+        {
+          "id": "D",
+          "text": "não presta depoimento."
+        },
+        {
+          "id": "E",
+          "text": "recusa acordo civil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 307 remete ao prazo de 48 horas do artigo 293."
+    },
+    {
+      "id": "u137-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do artigo 308 exige, além de participação em corrida, disputa, competição, exibição ou manobra não autorizada em via pública,",
+      "options": [
+        {
+          "id": "A",
+          "text": "resultado morte obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "ausência de qualquer risco."
+        },
+        {
+          "id": "C",
+          "text": "mera presença como espectador."
+        },
+        {
+          "id": "D",
+          "text": "situação de risco à incolumidade pública ou privada."
+        },
+        {
+          "id": "E",
+          "text": "embriaguez obrigatória."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O risco à incolumidade integra o tipo do artigo 308."
+    },
+    {
+      "id": "u137-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se do crime do artigo 308 resultar lesão corporal grave, sem dolo nem assunção do risco, a pena privativa de liberdade é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses a 1 ano."
+        },
+        {
+          "id": "B",
+          "text": "2 a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "3 a 6 anos de reclusão."
+        },
+        {
+          "id": "D",
+          "text": "5 a 10 anos."
+        },
+        {
+          "id": "E",
+          "text": "8 a 14 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 1º do artigo 308 fixa reclusão de três a seis anos."
+    },
+    {
+      "id": "u137-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se do crime do artigo 308 resultar morte, sem dolo nem assunção do risco, a pena privativa de liberdade é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses a 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "2 a 5 anos."
+        },
+        {
+          "id": "C",
+          "text": "3 a 6 anos."
+        },
+        {
+          "id": "D",
+          "text": "4 a 8 anos."
+        },
+        {
+          "id": "E",
+          "text": "5 a 10 anos de reclusão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O § 2º prevê reclusão de cinco a dez anos."
+    },
+    {
+      "id": "u137-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do artigo 309, de dirigir sem habilitação ou com direito cassado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige geração de perigo de dano."
+        },
+        {
+          "id": "B",
+          "text": "é sempre de perigo abstrato."
+        },
+        {
+          "id": "C",
+          "text": "dispensa condução em via pública."
+        },
+        {
+          "id": "D",
+          "text": "exige resultado lesão."
+        },
+        {
+          "id": "E",
+          "text": "é punido com reclusão de 5 a 8 anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A redação do artigo 309 exige perigo de dano, portanto perigo concreto."
+    },
+    {
+      "id": "u137-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 575 do STJ, o artigo 310",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige lesão efetiva."
+        },
+        {
+          "id": "B",
+          "text": "é crime de perigo abstrato, independentemente de lesão ou perigo concreto na condução."
+        },
+        {
+          "id": "C",
+          "text": "é mera infração administrativa."
+        },
+        {
+          "id": "D",
+          "text": "foi absorvido pelo artigo 309."
+        },
+        {
+          "id": "E",
+          "text": "exige corrida não autorizada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 575 consolida a natureza de perigo abstrato do artigo 310."
+    },
+    {
+      "id": "u137-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O contraste correto entre os artigos 309 e 310 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos exigem perigo concreto."
+        },
+        {
+          "id": "B",
+          "text": "ambos são de perigo abstrato."
+        },
+        {
+          "id": "C",
+          "text": "309 é administrativo e 310 penal."
+        },
+        {
+          "id": "D",
+          "text": "309 exige perigo de dano; 310 é tratado pelo STJ como perigo abstrato."
+        },
+        {
+          "id": "E",
+          "text": "310 exige resultado morte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa distinção é expressa/firmada pela lei e pela Súmula 575."
+    },
+    {
+      "id": "u137-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula 664 do STJ, entre os crimes dos artigos 306 e 309",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se aplica consunção."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 306 sempre absorve o 309."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 309 sempre absorve o 306."
+        },
+        {
+          "id": "D",
+          "text": "há concurso apenas se ocorrer morte."
+        },
+        {
+          "id": "E",
+          "text": "um deles é contravenção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Súmula 664 reconhece autonomia entre embriaguez e direção sem habilitação com perigo."
+    },
+    {
+      "id": "u137-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 311 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer excesso mínimo de velocidade em qualquer via."
+        },
+        {
+          "id": "B",
+          "text": "apenas proximidade de escola."
+        },
+        {
+          "id": "C",
+          "text": "velocidade incompatível com a segurança em local legalmente indicado e geração de perigo de dano."
+        },
+        {
+          "id": "D",
+          "text": "resultado lesão obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "embriaguez obrigatória."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O tipo combina local sensível, velocidade incompatível e perigo de dano."
+    },
+    {
+      "id": "u137-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 312 pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "deixar de pagar multa."
+        },
+        {
+          "id": "B",
+          "text": "dirigir sem habilitação."
+        },
+        {
+          "id": "C",
+          "text": "recusar etilômetro."
+        },
+        {
+          "id": "D",
+          "text": "prestar socorro."
+        },
+        {
+          "id": "E",
+          "text": "alterar artificiosamente lugar, coisa ou pessoa em sinistro com vítima para induzir polícia, perito ou juiz a erro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Esse é o núcleo de fraude na cena previsto no artigo 312."
+    },
+    {
+      "id": "u137-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime do artigo 312 pode incidir",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente depois do recebimento da denúncia."
+        },
+        {
+          "id": "B",
+          "text": "mesmo antes do início formal do procedimento preparatório, inquérito ou processo."
+        },
+        {
+          "id": "C",
+          "text": "somente após sentença."
+        },
+        {
+          "id": "D",
+          "text": "apenas se houver confissão."
+        },
+        {
+          "id": "E",
+          "text": "somente em sinistro sem vítima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único expressamente admite incidência antes do início formal dos procedimentos."
+    },
+    {
+      "id": "u137-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 312-A determina que, havendo substituição da pena nos crimes dos artigos 302 a 312, a prestação de serviço deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "estar ligada a resgate, pronto-socorro, atendimento ou recuperação de vítimas de trânsito, nas formas legais."
+        },
+        {
+          "id": "B",
+          "text": "ser exclusivamente administrativa em órgão de trânsito."
+        },
+        {
+          "id": "C",
+          "text": "ser sempre pecuniária."
+        },
+        {
+          "id": "D",
+          "text": "ocorrer apenas em escola."
+        },
+        {
+          "id": "E",
+          "text": "ser cumprida fora de qualquer serviço público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 312-A direciona a prestação de serviços para atividades relacionadas às vítimas de trânsito."
+    },
+    {
+      "id": "u137-a38",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 312-B estabelece que, nos crimes dos artigos 302, § 3º, e 303, § 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibida toda substituição de pena."
+        },
+        {
+          "id": "B",
+          "text": "não se aplica todo o artigo 44 do Código Penal."
+        },
+        {
+          "id": "C",
+          "text": "a pena deve ser sempre cumprida em regime fechado."
+        },
+        {
+          "id": "D",
+          "text": "não se aplica especificamente o inciso I do caput do artigo 44 do Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "a suspensão de dirigir é eliminada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A literalidade afasta especificamente o inciso I do artigo 44, não toda possibilidade de substituição."
+    },
+    {
+      "id": "u137-a39",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se um condutor embriagado, sem habilitação, dirige em via pública gerando perigo de dano, a jurisprudência consolidada do STJ indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente responde pelo artigo 306."
+        },
+        {
+          "id": "B",
+          "text": "somente responde pelo artigo 309."
+        },
+        {
+          "id": "C",
+          "text": "os delitos dos artigos 306 e 309 são autônomos e não se aplica consunção."
+        },
+        {
+          "id": "D",
+          "text": "o fato é atípico."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 309 é absorvido administrativamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a consequência da Súmula 664."
+    },
+    {
+      "id": "u137-a40",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se pessoa habilitada entrega veículo a indivíduo embriagado sem condições de conduzi-lo com segurança, o artigo mais diretamente aplicável à entrega, em tese, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo 309."
+        },
+        {
+          "id": "B",
+          "text": "artigo 310."
+        },
+        {
+          "id": "C",
+          "text": "artigo 305."
+        },
+        {
+          "id": "D",
+          "text": "artigo 304."
+        },
+        {
+          "id": "E",
+          "text": "artigo 312."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 310 pune permitir, confiar ou entregar direção a pessoa sem condições de condução segura, inclusive por embriaguez."
+    },
+    {
+      "id": "u137-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 31 do Cebraspe para Defensor Público da DPE/AC, aplicação de 2017, assinale a afirmação compatível com a jurisprudência consolidada sobre crimes de trânsito.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O artigo 311 é crime de perigo abstrato."
+        },
+        {
+          "id": "B",
+          "text": "O artigo 309 dispensa perigo de dano."
+        },
+        {
+          "id": "C",
+          "text": "Permitir, confiar ou entregar direção nas hipóteses do artigo 310 constitui crime de perigo abstrato, independentemente de lesão ou perigo concreto na condução."
+        },
+        {
+          "id": "D",
+          "text": "A embriaguez ao volante sempre absorve a direção sem habilitação."
+        },
+        {
+          "id": "E",
+          "text": "O artigo 306 só pode ser provado por etilômetro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo da questão original foi C. O núcleo foi posteriormente consolidado na Súmula 575 do STJ."
+    },
+    {
+      "id": "u137-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 4 da prova oral Cebraspe da Polícia Civil de Pernambuco de 2023, considere agente que dirige embriagado e, sem habilitação, gera perigo de dano. Quanto aos artigos 306 e 309 do Código de Trânsito Brasileiro,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o artigo 306 absorve necessariamente o 309."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 309 absorve necessariamente o 306."
+        },
+        {
+          "id": "C",
+          "text": "há um único crime complexo."
+        },
+        {
+          "id": "D",
+          "text": "os delitos são autônomos e não se aplica o princípio da consunção."
+        },
+        {
+          "id": "E",
+          "text": "a falta de habilitação é sempre mera infração administrativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O padrão oficial da prova oral aplicou a Súmula 664 do STJ e rejeitou a consunção entre os artigos 306 e 309."
+    }
+  ]
+}
