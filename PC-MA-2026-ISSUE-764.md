@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U154; PC-E16 — Medicina Legal permanece `pending` com U149–U154 `done` e U155 `pending`; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U155; PC-E16 — Medicina Legal está `done` com U149–U155 `done`; a próxima frente editorial é PC-E17 — Criminologia, cujos recortes individuais U156–U158 ainda precisam ser materializados antes da produção; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 5 | 0 | 153 |
-| Entregáveis de unidade C/H/Q | 474 | 15 | 0 | 459 |
-| Tarefas macro individualizadas | 62 | 17 | 0 | 45 |
+| Unidades reais previstas | 158 | 4 | 0 | 154 |
+| Entregáveis de unidade C/H/Q | 474 | 12 | 0 | 462 |
+| Tarefas macro individualizadas | 62 | 14 | 0 | 48 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U154` = **153 unidades**. Pendentes: `U075`, `U155–U158` = **5 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U155` = **154 unidades**. Pendentes: `U075`, `U156–U158` = **4 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **154 = 137 físicas locais + 17 vínculos canônicos**. U154 acrescentou uma nova visão física local. Não confundir 154 visões materializadas com 153 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **155 = 138 físicas locais + 17 vínculos canônicos**. U155 acrescentou uma nova visão física local. Não confundir 155 visões materializadas com 154 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U154: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
+Reservas ativas após o aceite de U155: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima ação editorial: U155 — Psiquiatria forense — imputabilidade penal e capacidade civil**, C/H/Q `pending`. U149–U154 estão `done`; U155 permanece `pending`.
+**Próxima ação editorial: preparação de PC-E17 — Criminologia — U156–U158.** Os três IDs estão `pending`, são classificados como novos, mas seus recortes individuais ainda não estão materializados no estado autoritativo; consolidar o programa literal e a matriz antes de produzir o primeiro pacote.
 
 ### Pendências e divergências herdadas
 
@@ -163,7 +163,7 @@ Cada célula C/H/Q representa a tarefa de sufixo correspondente, por exemplo PC-
 | PC-E13 | Direito Constitucional — U112–U122 | done | done | done |
 | PC-E14 | Legislação Especial — U123–U141 | done | done | done |
 | PC-E15 | Direitos Humanos — U142–U148 | done | done | done |
-| PC-E16 | Medicina Legal — U149–U155 | pending | pending | pending |
+| PC-E16 | Medicina Legal — U149–U155 | done | done | done |
 | PC-E17 | Criminologia — U156–U158 | pending | pending | pending |
 
 PC-E09-C inclui orientação de redação; PC-E09-H recupera repertório/estrutura; PC-E09-Q reúne fixação e propostas abertas no material didático, sem atribuí-las à objetiva do cargo. PC-E14-C inclui auditoria normativa das literalidades defeituosas, sem correção silenciosa.
@@ -231,8 +231,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U147 | Direitos Humanos; nova; `controle-convencionalidade-direitos-humanos-constituicao` | C/H/Q done; snapshot `017f1aadec3af39d105dbfc125f97c89827c94cf`; ver matriz/evidência abaixo |
 | U148 | Direitos Humanos; nova; `grupos-vulneraveis-atividade-policial-direitos-humanos` | C/H/Q done; snapshot `f6d10d28d9c6ffd9bb4f372ddc993c7929591f48`; ver matriz/evidência abaixo |
 | U144 | Direitos Humanos; parcial; `sistema-global-onu-dudh` | C/H/Q done; visão física resolvida na `main`, commit de publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; doador histórico não inferido; ver matriz de PC-E15 abaixo |
-| U149–U154 | Medicina Legal; novas | C/H/Q done; U154 snapshot final `337acf29a10f04e3398939152ef1604d63ab5274`; ver matriz de PC-E16 abaixo |
-| U155 | Medicina Legal; nova | C/H/Q pending; planejamento individual materializado em 21/09/2026 sob `PC-E16-PLANEJAMENTO-20260921T0532-01`; ver matriz de PC-E16 abaixo |
+| U149–U155 | Medicina Legal; novas | C/H/Q done; U155 snapshot final `e32e4fbec514febb820401e89a53c0be26a40345`; PC-E16 concluído; ver matriz de PC-E16 abaixo |
 | U156–U158 | Criminologia; novas | C/H/Q pending; detalhes individuais ausentes |
 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
@@ -610,7 +609,7 @@ A classificação PC-R02 permanece autoritativa: **U149–U155 são novas/locais
 | 5 | U152 — **Traumatologia médico-legal — lesões por ação contundente, armas brancas e projéteis** | **nova/local**; fontes médico-legais e científicas Eze/Ojifinni, Schmidt, Gill/Ely, Große Perdekamp/Pollak, Baum et al., Grossman et al. e estudo local de São Luís; Cebraspe PC-RO 2022; snapshot final `7bfb11cc0b2467d992507aebf3f39e173834dd79` | `traumatologia-medico-legal-lesoes-armas-projeteis`; físico PC-MA + grupo; `pc-u152`; 152 | Mecanismo→tecido→morfologia→limite; escoriação/equimose/hematoma/ferida contusa; ações cortante, perfurante, perfurocortante e cortocontundente; lesões de defesa com cautela; projétil perfurocontundente, energia/cavitação, entrada/resíduos/distância, Benassi/Hoffmann, saída, trajeto/trajetória, sedenho e alta energia sem limiar universal inventado. U153 mantém morte/tanatologia e U154 o local de crime | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U149–U151 como base; U153/U154 como fronteiras | done | done | done |
 | 6; 6.1–6.5 | U153 — **Tanatologia forense — morte, fenômenos cadavéricos e cronologia médico-legal** | **nova/local**; Resolução CFM nº 2.173/2017, Lei nº 9.434/1997, Código Civil art. 8º, CPP art. 163, Ministério da Saúde, revisões de intervalo pós-morte e Cebraspe PC-RO 2022; U110 apenas como contexto institucional; snapshot `3fd6efac49a21362486b004f50195fc2e124734d` | `tanatologia-forense-morte-fenomenos-cadavericos`; físico PC-MA + grupo; `pc-u153`; 153 | Diagnóstico da morte e morte encefálica; algor, livor, rigor e desidratação; autólise, putrefação, maceração, mumificação e adipocera; cronotanatognose como estimativa integrada; comoriência e divergência terminológica primoriência/premoriência; exumação; causa médica × mecanismo × causa/maneira médico-legal; morte súbita × suspeita; SVO × IML. U154 mantém o exame de local | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U149–U152 como base; U154 como fronteira | done | done | done |
 | 7 | U154 — **Exame médico-legal de locais de crime** | **nova/local**; CPP arts. 6º, 158-A/B, 164, 165 e 169; NIJ 2024 como apoio metodológico não normativo; U093/U152/U153 como fronteiras; provas oficiais Cebraspe PF 2025 e PC-RJ 2022; snapshot `337acf29a10f04e3398939152ef1604d63ab5274` | `exame-medico-legal-locais-crime`; físico PC-MA + grupo; `pc-u154`; 154 | Perinecroscopia e seu limite; preservação × início do exame; documentação antes de mover; posição e relação corpo/ambiente; local de encontro × lesão × morte; fenômenos pós-morte como teste de compatibilidade; lesões/roupas/sangue/intervenção médica; local alterado; relação espacial/defenestração; perinecroscopia × necropsia; Medicina Legal × Criminalística sem organograma nacional inventado | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U093 mantém cadeia de custódia, U152 lesões e U153 Tanatologia | done | done | done |
-| 8; 8.1 | U155 — **Psiquiatria forense — imputabilidade penal e capacidade civil** | **nova/local**; U085 C `3ddca37ced16bec08dc177bc95cbd571c35e43ec` como fronteira jurídico-penal; apoios de capacidade civil/LBI devem ser usados apenas para evitar equivaler deficiência a incapacidade | `psiquiatria-forense-imputabilidade-capacidade-civil`; físico PC-MA + grupo; `pc-u155`; 155 | Avaliação pericial e modificadores da imputabilidade penal e da capacidade civil; doença mental, desenvolvimento mental incompleto/retardado e perturbação mental na perspectiva médico-legal. U085 permanece responsável pelos efeitos dogmáticos do Código Penal; Direito Civil/LBI delimitam capacidade sem substituir a avaliação pericial | PC-MA; corte 13/7/2026; U149/U150 fornecem método pericial; U085 é fronteira penal | pending | pending | pending |
+| 8; 8.1 | U155 — **Psiquiatria forense — imputabilidade penal e capacidade civil** | **nova/local**; Código Penal art. 26; CPP arts. 149–154; Código Civil arts. 1º, 3º, 4º e 1.783-A; Lei nº 13.146/2015; Resolução CFM nº 2.430/2025; literatura de Psiquiatria Forense; U085 C `3ddca37ced16bec08dc177bc95cbd571c35e43ec` como fronteira jurídico-penal; snapshot `e32e4fbec514febb820401e89a53c0be26a40345` | `psiquiatria-forense-imputabilidade-capacidade-civil`; físico PC-MA + grupo; `pc-u155`; 155 | Diagnóstico ≠ incapacidade; entendimento × autodeterminação; avaliação retrospectiva no fato; estado mental atual e fontes colaterais; terminologia legal × clínica; doença mental, desenvolvimento mental incompleto/retardado e perturbação mental/saúde mental; psicose, humor, neurocognição, deficiência intelectual e outros diagnósticos somente pelo efeito funcional; simulação/dissimulação; capacidade civil após LBI; curatela excepcional e limitada; tomada de decisão apoiada; penal × civil por objeto/tempo; laudos restritos ao quesito. U085 mantém efeitos dogmáticos e consequências penais | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U149/U150 como base; U085 como fronteira | done | done | done |
 
 #### Ordem e critérios de produção
 
@@ -620,7 +619,7 @@ A sequência ensina primeiro o objeto da disciplina, depois como a perícia méd
 
 Para todas as sete unidades, PC-R02 determina **nova/local**. U093, U085, U110 e U134 são apoios/fronteiras, não doadores integrais e não autorizam cópia automática de questões. Na produção, revalidar fontes médico-legais/institucionais e provas anteriores verificáveis sem quota; preservar a literalidade do programa e separar conceito médico-legal de consequência jurídica já ensinada em outras disciplinas.
 
-**Próxima unidade habilitada:** U155 — Psiquiatria forense — imputabilidade penal e capacidade civil, C/H/Q `pending`. U149–U154 estão publicados e aceitos.
+**PC-E16 concluído:** U149–U155 estão publicados e aceitos com C/H/Q `done`. **Próxima preparação habilitada: PC-E17 — Criminologia — U156–U158**, cujos recortes individuais ainda precisam ser materializados a partir do programa literal antes da produção.
 
 
 ## 8. Evidências de publicação e aceite
@@ -726,6 +725,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U152 | `7bfb11cc0b2467d992507aebf3f39e173834dd79` | 24 + 5 | Cebraspe PC-RO 2022, Médico-Legista: objetivas 24 D, 35 B, 37 A e 38 C sobre tiro encostado/Benassi, víbices, Benassi e sedenho; prova oral questão 31 sobre cone de explosão; adaptações não literais |
 | U153 | `3fd6efac49a21362486b004f50195fc2e124734d` | 26 + 5 | Cebraspe PC-RO 2022, Médico-Legista: prova oral questões 2, 6 e 13 sobre morte encefálica, fenômenos cadavéricos e cronotanatognose/comoriência; objetivas 43 B e 41 C sobre rigidez e maceração; adaptações não literais |
 | U154 | `337acf29a10f04e3398939152ef1604d63ab5274` | 24 + 2 | Cebraspe PF 2025, Perito Criminal Federal — Medicina Legal, item 85 C, sobre início do exame/perinecroscopia com a chegada do perito; Cebraspe PC-RJ 2022, Delegado, questão 92 B, sobre integração de perícias, local e relações espaciais; adaptações não literais |
+| U155 | `e32e4fbec514febb820401e89a53c0be26a40345` | 26 + 2 | Cebraspe PC-RO 2022, Médico-Legista, prova oral: questões 24 e 32, padrões oficiais sobre imputabilidade × responsabilidade × capacidade civil e limites/modificadores da imputabilidade; adaptações não literais |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -828,24 +828,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U152 | `a040f7896c5f953fd1b016e5b8c09a2ca8343aa2` | `8b064630c927aac8ad9c1078771a88e67103d9ed` | `1a3eba1514876c74a9f8838ae53259ffd6fe60f8` | `a0a146a92ab9308a876e7c75749cb1e8bf8c8993` |
 | U153 | `86e896e991cb5e7e53eabd22ae51ad82cc1ce90e` | `2ca49ff5f2a8e3fd8c16f894367e04b57e599da2` | `95ba6d1b27084dea9fa7ac223e56683a5a5fd221` | `d1ed520ad7318b3c844c24c0a0e0d70f83419134` |
 | U154 | `995521dc432975b1ab97895c6aea20b0453c66fe` | `981ccc8dba235345a8be40b50352cbbf310fa9b9` | `e58cdd90ec8085737f4115d96a87fd866258b99d` | `06b8bd67789ab7b826d3213456ca02c3db2e5289` |
+| U155 | `08cc87f0631d2b040dfb6d1702c6b82478e0a5e6` | `5bd1cd25019f299af6fdd3dfc6e96be589006fef` | `b6aedf72ddc2557c50b1d89219c1bad714b4cb48` | `8070da81949d8db0728fc3b17feff203027c3bd9` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U154
+### Último aceite — U155
 
-Pacote de **Exame médico-legal de locais de crime**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u154`, `order: 154`. Snapshot editorial final `337acf29a10f04e3398939152ef1604d63ab5274`; base reservada `be172903ba7c1b7abacd6fab7597708a085e7688`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U154**, sem alteração lateral.
+Pacote de **Psiquiatria forense — imputabilidade penal e capacidade civil**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u155`, `order: 155`. Snapshot editorial final `e32e4fbec514febb820401e89a53c0be26a40345`; base reservada `f3b783d498f019e536b9e6055b54b4510f032747`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U155**, sem alteração lateral.
 
-A unidade permanece sem `vinculo.json` e sem doador integral compatível. U093 foi preservada como dona da cadeia de custódia e do procedimento probatório; U152, da morfologia traumática; U153, dos fenômenos cadavéricos e cronotanatognose. Os anexos disponíveis foram conferidos e são edital/retificação do Tribunal de Contas do Estado do Maranhão, sem aderência ao recorte. #765/#766 não possuíam reserva concorrente.
+A unidade permanece sem `vinculo.json` e sem doador integral compatível. U085 foi resolvida no caminho físico `direito-penal/imputabilidade-penal-concurso-pessoas/` e lida como fronteira: sua dogmática do artigo 26, efeitos penais, menoridade, embriaguez, medida de segurança e concurso de pessoas não foram duplicados. U149/U150 fornecem mapa e método pericial. Código Civil e Lei Brasileira de Inclusão foram usados para impedir a equivalência indevida entre deficiência, transtorno mental e incapacidade civil.
 
-Cobertura publicada: perinecroscopia no vocabulário de concurso e seu limite perante o exame criminalístico geral; preservação anterior × início do ato pericial com chegada do perito; fotografia do cadáver na posição encontrada, lesões e vestígios; documentação do geral ao detalhe antes da movimentação; posição, roupas, objetos e intervenções médicas; distinção entre local de encontro, local da lesão e local da morte; uso de livores, rigidez, ambiente e decomposição como testes de compatibilidade sem inferência isolada; correlação lesão × superfície × objeto; sangue sem antecipar análise especializada de padrões; alterações iatrogênicas; local alterado e dever de registrar consequências; proibição pedagógica de encenar a cena para fotografia; relações espaciais e defenestração; perinecroscopia × necropsia; causa/maneira × autoria; integração Medicina Legal × Criminalística sem inventar atribuição nacional uniforme. O guia NIJ 2024 foi usado somente como apoio metodológico internacional e não como norma brasileira.
+Cobertura publicada: diagnóstico psiquiátrico × incapacidade jurídica; imputabilidade × responsabilidade penal; eixos cognitivo e volitivo do artigo 26; critério biopsicológico; reconstrução retrospectiva do estado mental no momento do fato; incidente de insanidade como ponte; distinção entre linguagem legal e diagnóstico clínico atual; doença mental, desenvolvimento mental incompleto ou retardado e divergência literal “perturbação mental” do edital × “perturbação de saúde mental” do Código; exame do estado mental, fontes colaterais, testes auxiliares, simulação e dissimulação; psicose, transtornos do humor, neurocognitivos, deficiência intelectual e outros diagnósticos analisados pelo efeito funcional; capacidade civil após a Lei nº 13.146/2015; incapacidade absoluta/relativa atual; curatela extraordinária e limitada; tomada de decisão apoiada; diferença temporal entre avaliação penal e civil; estrutura e limites dos laudos. A terminologia antiga do Código foi preservada somente na literalidade, sem transformá-la em rótulo clínico contemporâneo.
 
-Foram publicadas **26 questões: 24 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais do item 85 do Cebraspe/PF 2025 — Perito Criminal Federal, Área Medicina Legal, gabarito definitivo Certo — e da questão 92 do Cebraspe/PC-RJ 2022 — Delegado, gabarito definitivo B. Nenhuma resolução separada foi necessária.
+Foram publicadas **28 questões: 26 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais das questões 24 e 32 da prova oral Cebraspe/PC-RO 2022 — Médico-Legista, com padrões oficiais sobre imputabilidade, responsabilidade, capacidade civil e modificadores/limites da imputabilidade. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` **19.365 caracteres**, `cheat-sheet.md` **4.587**, `referencias.md` **5.400** e `questoes.json` **25.016**. Microglossário: **12/8/4 pares `abbr`** em conteúdo/revisão/referências, todos balanceados; a inspeção automática de caixa alta deixou apenas numerais romanos de headings. `questionSetRevision: 1`, **26 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
+Densidade final: `conteudo.md` **24.030 caracteres**, `cheat-sheet.md` **4.624**, `referencias.md` **6.306** e `questoes.json` **27.244**. Microglossário: **12/3/3 pares `abbr`** em conteúdo/revisão/referências, todos balanceados; a inspeção automática deixou somente numerais romanos e iniciais bibliográficas fora das marcações. `questionSetRevision: 1`, **28 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
 
-Fontes revalidadas em 21/9/2026: Edital PC-MA; Código de Processo Penal, especialmente artigos 6º, 158-A/B, 164, 165 e 169; National Institute of Justice, Death Investigation: A Guide for the Scene Investigator 2024, apenas como metodologia internacional; prova e gabarito definitivo Cebraspe/PF 2025; prova e gabarito definitivo Cebraspe/PC-RJ 2022. O corte legislativo de 13/7/2026 foi preservado.
+Fontes revalidadas em 21/9/2026: Edital PC-MA; Código Penal; Código de Processo Penal; Código Civil; Lei nº 13.146/2015; Resolução CFM nº 2.430/2025; literatura revisada sobre ética, vieses e relação entre transtorno mental e categorias jurídicas; padrões oficiais Cebraspe/PC-RO 2022. O corte legislativo de 13/7/2026 foi preservado.
 
-**PC-E16 permanece em andamento:** U149–U154 estão C/H/Q `done`; U155 segue `pending`. Próxima unidade: U155 — Psiquiatria forense — imputabilidade penal e capacidade civil.
+**PC-E16 — Medicina Legal está concluído:** U149–U155 possuem C/H/Q `done` e evidência na `main`. Próxima frente: **PC-E17 — Criminologia — U156–U158**. Como os recortes individuais dessas três unidades não estão materializados no estado autoritativo, a próxima ação é a preparação/planejamento do bloco antes da produção.
 
 ### Registros operacionais superados
 
