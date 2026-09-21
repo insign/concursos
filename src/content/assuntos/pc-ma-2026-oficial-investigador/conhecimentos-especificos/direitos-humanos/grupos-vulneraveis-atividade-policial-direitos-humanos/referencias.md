@@ -12,7 +12,7 @@ Fontes revalidadas para a U148 em **21 de setembro de 2026**. Corte legislativo 
 
 ## <abbr title="Organização das Nações Unidas">ONU</abbr> — atividade policial, grupos protegidos e força
 
-3. **Office of the United Nations High Commissioner for Human Rights. Pocketbook on Human Rights for Law Enforcement Officials.** Parte III: “Groups Requiring Special Protection or Treatment”, com capítulos sobre crianças, gênero, minorias, migrantes, refugiados/deslocados internos, pessoas com deficiência e vítimas. Fonte de organização operacional do item 7, sem convertê-la em rol universal fechado.  
+3. **Office of the United Nations High Commissioner for Human Rights. Pocketbook on Human Rights for Law Enforcement Officials.** Parte III: “Groups Requiring Special Protection or Treatment”, com capítulos sobre crianças, gênero, minorias, migrantes, <abbr title="pessoas protegidas pelo regime jurídico de refúgio">refugiados</abbr>/<abbr title="pessoas deslocadas dentro do próprio país">deslocados internos</abbr>, pessoas com deficiência e vítimas. Fonte de organização operacional do item 7, sem convertê-la em rol universal fechado.  
    https://searchlibrary.ohchr.org/record/33450/files/pocketbook-hr-law-enforcement-officials.pdf
 
 4. **United Nations. Code of Conduct for Law Enforcement Officials — General Assembly resolution 34/169, de 17 de dezembro de 1979.** Artigos 1º–3º e 5º: servir a comunidade, proteger pessoas contra atos ilegais, dignidade/direitos humanos, uso estritamente necessário da força e proibição de tortura e maus-tratos.  
