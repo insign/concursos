@@ -248,7 +248,7 @@ Restrições podem existir quando:
 - necessárias em sociedade democrática;
 - voltadas aos fins admitidos pelo próprio Pacto, como segurança nacional, segurança pública, ordem pública, saúde ou moral públicas, ou direitos e liberdades das demais pessoas.
 
-Essa regra é particularmente importante porque uma prova anterior do Cebraspe já cobrou que o Pacto **admite restrições** à reunião.
+Essa regra é particularmente importante porque uma prova anterior do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> já cobrou que o Pacto **admite restrições** à reunião.
 
 ### 11.5 Associação e sindicatos
 
