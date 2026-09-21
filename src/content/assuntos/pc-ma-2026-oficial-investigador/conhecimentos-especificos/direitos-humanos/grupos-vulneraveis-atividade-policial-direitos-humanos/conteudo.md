@@ -51,7 +51,7 @@ Nessa parte, o manual trata especificamente de:
 - gênero;
 - minorias;
 - migrantes;
-- refugiados e pessoas deslocadas internamente;
+- <abbr title="pessoas protegidas pelo regime jurídico de refúgio">refugiados</abbr> e <abbr title="pessoas deslocadas dentro do próprio país">pessoas deslocadas internamente</abbr>;
 - pessoas com deficiência;
 - vítimas.
 
@@ -149,9 +149,9 @@ Se houver dificuldade de comunicação, limitação funcional ou necessidade de 
 
 A lei ainda impõe comunicação de situações de violência nos casos e canais nela previstos. Os crimes e prazos específicos permanecem na U136.
 
-## 8. Migrantes, refugiados e pessoas deslocadas
+## 8. Migrantes, <abbr title="pessoas protegidas pelo regime jurídico de refúgio">refugiados</abbr> e <abbr title="pessoas deslocadas dentro do próprio país">pessoas deslocadas</abbr>
 
-O manual da <abbr title="Organização das Nações Unidas">ONU</abbr> trata migrantes, refugiados e pessoas deslocadas internamente como categorias que podem exigir proteção ou tratamento especial na atuação de forças de segurança.
+O manual da <abbr title="Organização das Nações Unidas">ONU</abbr> trata migrantes, <abbr title="pessoas protegidas pelo regime jurídico de refúgio">refugiados</abbr> e <abbr title="pessoas deslocadas dentro do próprio país">pessoas deslocadas internamente</abbr> como categorias que podem exigir proteção ou tratamento especial na atuação de forças de segurança.
 
 Barreiras frequentes podem envolver:
 
@@ -162,7 +162,7 @@ Barreiras frequentes podem envolver:
 - medo de autoridades;
 - dependência econômica ou de terceiros.
 
-A condição migratória **não apaga a dignidade nem os direitos humanos**.
+A situação migratória **não apaga a dignidade nem os direitos humanos**.
 
 A atuação deve distinguir:
 
