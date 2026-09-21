@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após a conclusão de **PC-F01**: U001–U158 permanecem C/H/Q `done`; a matriz foi conferida contra o edital oficial consolidado sem lacuna programática identificada, sem dupla contagem de unidade e sem redistribuição de pesos. PC-F02–PC-F05 permanecem `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após a correção pontual de **U026 em PC-F02**, publicada e relida em 21/09/2026: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; a triagem estrutural de PC-F02 e as correções de U035 e U026 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -57,9 +57,9 @@ Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U158` =
 
 Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos canônicos**. A aceitação de U075 não criou nova visão: sua visão física já existia desde `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`. Neste ponto, 158 visões e 158 unidades aceitas coincidem numericamente, mas continuam sendo dimensões distintas.
 
-Reservas ativas após o aceite de U075: **nenhuma**. PC-R04 está `done`, com **42/42** unidades parciais aceitas.
+A correção de U026 não cria unidade ou tarefa macro adicional e não reabre seus aceites. O restante não concluído de PC-F02 volta a `pending` ao encerrar este ciclo; reservas ativas são controladas exclusivamente no painel da #764. PC-R04 permanece `done`, com **42/42** unidades parciais aceitas.
 
-**Próxima ação habilitada: PC-F02 — inspeção manual de schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.** PC-F01 está `done` com auditoria registrada abaixo.
+**Próxima ação habilitada: PC-F02 — continuar a inspeção editorial dos artefatos ainda não certificados, conforme os limites e evidências abaixo.** Não repetir a publicação de U026 nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
 
 ### Pendências e divergências herdadas
 
@@ -223,6 +223,33 @@ A conferência cobriu a tabela de provas do item 7, os critérios objetivos/disc
 - **Cortes:** legislação com entrada em vigor até 13/07/2026 integra o recorte conforme item 19.32; jurisprudência de tribunais superiores segue a regra própria de publicação até 30 dias antes da prova, sem ser reduzida ao corte legislativo.
 - **Resultado PC-F01:** `done`. A próxima etapa é PC-F02; esta auditoria não substitui a inspeção de schemas, links, `abbr`, referências, questões, vínculos e consumidores prevista nela.
 
+### PC-F02 — triagem documentada e correções pontuais
+
+**Resultado deste ciclo, em 21/09/2026: parcial; PC-F02 permanece `pending`.** A triagem anterior partiu de `ae9d40e369724a3d33e1749bdbe701bd672ee749`. Foram publicadas e relidas duas intervenções próprias: referências de U035 em `2bb073899bfa28b00ef6b77e0211e1e8e674a810` e correção editorial de U026 em `3327d909417c04134b52ff3317fb35a80299734a`. Nenhuma delas autoriza marcar a macro inteira como concluída.
+
+| Dimensão da triagem | Evidência e alcance | Limite do resultado |
+|---|---|---|
+| Inventário físico e vínculos | 600 arquivos na árvore consumidora: 141 pacotes com quatro artefatos, 17 vínculos e 19 descritores de grupo; quatro artefatos presentes em cada origem canônica resolvida | Presença não certifica suficiência pedagógica ou validade de todas as fontes |
+| Organização e identidade | Descritores e vínculos conferidos; 158 slugs finais distintos; ordens consumidoras 1–158 sem lacunas; 141 identidades locais `pc-uNNN` e 17 identidades canônicas distintas; sem mistura de arquivos físicos com vínculo | Não altera identidades, ordens, rotas ou classificação de reaproveitamento |
+| Consumidores canônicos | Os 17 canônicos possuem vínculos explícitos da PC-MA e dos dois cargos do TCE-MA | São 17 visões da PC-MA, não 51 unidades desta campanha; nenhum pacote da SEAP/Perícia foi presumido consumidor |
+| Questões | 158 conjuntos, **3.369 questões locais + 965 canônicas = 4.334**; estrutura, campos, IDs, revisões positivas, alternativas e referência do gabarito examinados | Não equivale a auditoria semântica de 4.334 gabaritos, distratores, atribuições e explicações |
+| Formatos de questões | 22 questões em oito conjuntos têm número de alternativas diferente de cinco; o schema aceita ao menos duas | Não converter automaticamente questões anteriores nem confundir formato didático com a prova oficial |
+| Resoluções e blobs | Não há `resolucoes/*.md` nas 158 origens inspecionadas; 100 linhas de quatro blobs já individualizadas no arquivo foram confrontadas com a árvore-base sem divergência | Ausência de resolução não prova que todas as explicações dispensam aprofundamento |
+
+Os oito conjuntos com alternativas em quantidade diferente de cinco são U035, U036, U037, U038, U039, U041, U062 e U101. Suas contagens e formatos não foram modificados. Buscas por marcação defeituosa e leitura estrutural de arquivos não demonstram que toda sigla está marcada nem que toda microdescrição está correta; a formulação anterior de conformidade geral fica expressamente limitada por este registro.
+
+**U035 — referências:** `src/content/biblioteca/raciocinio-logico/estruturas-logicas/referencias.md`, blob final `6a702f5320cbe93d95ccf07bb9fdae31bbd59a67`. Foram acrescentados os endereços das três fontes já indicadas e sua identificação; C/H/Q e vínculos permaneceram intactos. A origem é compartilhada por PC-MA, TCE-MA Analista Administração e TCE-MA Técnico Administrativo. Trata-se de correção de referências, não de nova certificação integral desses três consumidores.
+
+**U026 — correção concluída:** os quatro artefatos locais foram lidos integralmente, assim como os conteúdos vizinhos U025 e U027. A aula agora constrói interface, enlace, quadro, pacote, bits, prefixo e representação hexadecimal antes de exigir esses conceitos; distingue entrega a uma interface, a todo o grupo e a um membro escolhido pelo roteamento. Corrigiu-se a aproximação indevida de anycast à entrega múltipla: a função de broadcast é suprida por multicast no IPv6, conforme a RFC 4291, seção 2. A revisão rápida recupera apenas o que a aula ensina. As siglas renderizadas receberam expansão contextual; os campos de texto puro das questões foram preservados.
+
+Em Q, a única alteração material é a explicação de `u026-a13`; o restante do diff é remoção de espaços finais e término de arquivo. Permanecem **18 questões, 16 autorais + 2 anteriores**, os mesmos IDs, `origin`, enunciados, alternativas e gabaritos. `revision` e `questionSetRevision` permanecem 1, pois não houve mudança de enunciado, opções, resposta correta ou composição do conjunto. As adaptações FGV/ALEMA 2023, questões 31 e 43, foram reconferidas na prova e no gabarito definitivo; não foram acrescentadas questões apenas para cumprir quota.
+
+Referências de U026 foram completadas com fontes primárias técnicas e identificação precisa; a consulta de 21/09/2026 não muda o corte de 13/07/2026. A página de segurança da Wi-Fi Alliance retornou erro de acesso nesta consulta, sem prova de indisponibilidade permanente; foi substituída, para o mecanismo de proteção da conexão sem fio, por documentação oficial acessível da Apple. Não foram importadas listas comerciais de dispositivos. Fontes, proveniência, fronteiras e blobs finais estão nas seções 6 e 8 e no `referencias.md` da unidade.
+
+**Tamanho e intervenção:** C passou de 8.853 para 13.064 bytes; H, de 2.384 para 3.743 bytes. Esses números incluem marcação e não medem diretamente tempo de leitura. O texto visível ganhou as pontes conceituais e a distinção de entrega que faltavam; blocos repetidos de método e pegadinhas foram reunidos. HTML e microdescrições acrescentam ajuda no ponto de uso, separada da explicação central. Não foi feita contagem independente de palavras visíveis e de atributos, portanto não se afirma redução quantitativa de tempo ou de texto. Não houve mudança de infraestrutura, schema, grupo, identidade, rota, corte ou quantidade de unidades.
+
+**Restante de PC-F02:** falta concluir e registrar a inspeção editorial contextual dos demais artefatos, incluindo referências, Markdown, microglossário, atribuições, gabaritos e suficiência das explicações. A triagem não permite dar aceite por lote aos outros 140 pacotes locais nem aos 17 canônicos. O próximo ciclo deve selecionar um recorte ainda não certificado, preservar a correção publicada de U026 e os aceites existentes, e só encerrar PC-F02 quando seu escopo completo estiver efetivamente inspecionado. Não existe bloqueio de gravação demonstrado nesta retomada: o GitHub voltou a aceitar publicação. A reserva própria deve ser encerrada após a sincronização do painel, sem manter trabalho não executado como atividade de fundo.
+
 ## 5. Reaproveitamento e indexação das 158 unidades
 
 Classificação PC-R02 preservada, sem nova auditoria de compatibilidade por esta migração:
@@ -308,6 +335,14 @@ Grupo `conhecimentos-gerais/informatica/`; origem nova/local, sem doador integra
 | 10 | U034 — `criptomoedas-nocoes-gerais`; pc-u034 / 34 | Chaves, transações, validação, consenso, blockchain, carteiras, custódia, mineração e serviços; não recomenda investimento nem transforma hash em prova de veracidade/autoria |
 
 Canônicos de competências digitais `redes-tcp-ip-interoperabilidade` e `comunicacao-colaboracao-remota` foram referências de fronteira ou de questões verificadas, não origens integrais dessas unidades. Continuam fora do escopo de edição.
+
+#### U026 — parcial/local, inspeção corretiva em PC-F02
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / evidência | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 20.2.2, Informática, 6 | U026 — **Redes de computadores, IPv4, IPv6 e Wi‑Fi** — alcance, meios, equipamentos, topologias, endereçamento e acesso sem fio | **parcial/local**. Proveniência da cópia previamente registrada: `src/content/biblioteca/competencias-digitais-informatica-aplicada-setor-publico/redes-tcp-ip-interoperabilidade/`; C `819a2ba0355f8db797caf3c13d4f37834b876b70`; H `e9429dc03a05e016097cfabb1ec685324f9a12c1`; R `2300a433fea94a823bbfd5fbbdcf95ad712a9cbd`; Q `5c61956e0a200fd8e7f3208b797d7411deb15e8a` | `redes-computadores-ipv4-ipv6-wifi`; `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/informatica/redes-computadores-ipv4-ipv6-wifi/`; `pc-u026`; 26 | Preservado o núcleo local de redes; completadas pontes e corrigida a distinção multicast/anycast. U025 mantém correio/protocolos de aplicação; U027 mantém nuvem e colaboração. Não houve nova cópia do doador, alteração canônica, vínculo ou ampliação para diagnóstico/interoperabilidade | PC-MA, `pcma-2026-invest`; corte 13/7/2026; correção dos quatro artefatos confirmada em `3327d909417c04134b52ff3317fb35a80299734a`; blobs finais na seção 8 | done | done | done |
+
+Os quatro SHA doadores acima documentam a proveniência histórica conservada no pacote, não uma declaração de que o canônico permaneceu inalterado. A intervenção trabalhou exclusivamente a origem física já publicada. A rota permanece `/concursos/pc-ma-2026-oficial-investigador/redes-computadores-ipv4-ipv6-wifi/`.
 
 ### Contabilidade
 
@@ -474,7 +509,6 @@ O edital contém **12 itens principais** (1–12) para apenas **11 IDs** preserv
 Grupo publicado com o primeiro pacote completo de U112: `conhecimentos-especificos/direito-constitucional/`, título `Direito Constitucional`, ordem 4, blob `72f92c43fbfd3c52571cb480fab5856f6918f6ff`. Consumidor comum: `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`. Identidades `pc-u112`–`pc-u122`, ordens 112–122. Destinos: prefixo físico PC-MA + grupo + slug.
 
 A classificação PC-R02 permanece autoritativa: **U112–U122 são novas/locais**. Não existe grupo canônico de Direito Constitucional em `src/content/biblioteca/` e não foi encontrado vínculo compatível. O acervo do TCE contém pacotes físicos úteis como **apoio parcial**, mas isso não altera a classificação nem autoriza `vinculo.json`, cópia cega ou aceite sem auditoria. As #765/#766 não possuem reserva concorrente nem implantação publicada desses destinos nesta consolidação.
-
 | Edital | ID / título / slug | Recorte, dependências e fronteiras | Apoio físico observado / SHA de árvore | C | H | Q |
 |---|---|---|---|---|---|---|
 | 1; 1.1 | U112 — Estado e Constituição — conceito, conteúdo, objeto e classificação — `estado-e-constituicao` | Estado e Constituição; conceito, conteúdo, objeto e classificação da Constituição. Abre o bloco; não antecipar emendas, princípios ou aplicabilidade além da ponte mínima | nova/local; TCE Noções `cf88-conceito-classificacoes-emendas/`, árvore `3ce14775185bf4a2a6f4b882e54d930666456cac`, usado seletivamente; snapshot `016c3b2c0a460ba9ee7036d587dbd237d375a6c6` | done | done | done |
@@ -743,6 +777,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 |---|---|---|---|
 | U022 | `22b32a62d1723303a83977de1875ad1de9d72822` | 17 + 3 | Telebras/CESPE 2015, itens 102 C, 106 C, 108 E; o relato também menciona PCDF em outra linha de fontes, divergência de atribuição a conferir no pacote |
 | U025 | `a8e5a26179da711ee98087622ef2e916059cae3f` | 16 + 4 | FGV Câmara do Recife 2014, ALEMA 2023, PM-SP 2024; Cebraspe MP-TO 2024 |
+| U026 | `3327d909417c04134b52ff3317fb35a80299734a` — correção pontual de PC-F02; aceites preservados | 16 + 2 | FGV ALEMA 2023, Analista de Suporte de Rede, Tipo 1, questões 31 D e 43 A; prova e gabarito definitivo reconferidos em 21/09/2026; IDs `u026-p01` e `u026-p02` preservados |
 | U028 | `706d590f022b309ab360ecb95df88f697efb83ad` | 17 + 3 | Cebraspe PCDF administrativa 2024, itens 118–120 com justificativas |
 | U031 | `6adf643a07273a512bdac30696f158dad8de1913` | 17 + 3 | Cebraspe POLC-AL 2023; item 35 anulado do CB3 excluído |
 | U034 | `029063007bf2c31f0480e2236b21d610334b8bfb` | 17 + 3 | Cesgranrio Banco do Brasil 2021, A25/B23; 2023, A24; questão Cebraspe anulada descartada |
@@ -848,6 +883,7 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 |---|---|---|---|---|
 | U022 | `318358e2fd8ff603c4b81c123ab33991cca1edab` | `4fe0f52cdf32f6c9f5e45de8343327c9dbd265b1` | `4af751fbb8922a85d0672425201072f378857872` | `2a0263eddfcfed3da7598c9e8827827bfa653303` |
 | U025 | `d347cc042833ace0ad886288ea96d665004e6ce7` | `d931fc35d95d69e1fa83ab6453a437e3b2db8a14` | `cef414bb0353969fb9bce35d4045abfed35a0433` | `edab46630128b63802815817181c9c568ed8a51c` |
+| U026 | `4eadb1ca2eef7636e943b3e23b87f97f2256fec7` | `2fab30d6c9a637c10bd3241351911496690da8db` | `857c47e1128fd19235c8598ee333c25d189c076a` | `11775933e7a5d56dce7f935bab692f925b9c2069` |
 | U028 | `c5a0b35a5c9fe78ebc6358356cbc8b24f4e0778b` | `8ab68af41233d024925f11d3a498ce2b127ca45f` | `f8a1a62d95f26266fcd2b8638c77447a07c41dd1` | `ca24db77bc4e87113cb78122bfb6f06ec27cf8cb` |
 | U031 | `af5a2a1b48163d64e6da2427fe1ca5dc7101b799` | `e4d20fc31105d355c82e2130da8826e7017322ae` | `579e407b2c7eb8f90ec8c877c07962868ad84eeb` | `6cc4d154de6e74d0ea577eeff336d72bcbcc312b` |
 | U034 | `a9557be4fc2ac89f63db020671ec72a39e983abd` | `5c86dff693fdbe018bee8b01b2d154c557b235a1` | `30a406ec9423c879dfec7732337a8b46075c981f` | `6908d3904dabd83809747defea6e8ba8a4ab94e7` |
@@ -973,7 +1009,7 @@ A fonte também registrava criações acidentais de sentinelas, commits sem muda
 
 Seguir integralmente `AGENTS.md`: iniciante inteligente com pouco tempo; compreensão, retenção e acerto por minuto. Ler existentes/doados inteiros e vizinhos, auditar ordem cognitiva, pré-requisitos, lacunas, redundâncias, remissões, exemplos e aplicabilidade. Revalidar fontes primárias, sem inventar norma, dado, entendimento, questão, atribuição ou URL.
 
-C ensina: problema/contraste/mecanismo antes de termos, contexto funcional, poucos exemplos decisivos e hipotéticos identificados, tabelas como síntese. Preservar literalidade, definições, fórmulas, requisitos, exceções, prazos, jurisprudência e pegadinhas. H recupera somente o estudado. Q testa com gabarito único, distratores plausíveis, explicações e origens verdadeiras; revisões de questão/conjunto seguem o schema. Referências completas e sem órfãs; resoluções complexas apenas quando necessárias.
+C ensina: problema/contraste/mecanismo antes de termos, contexto funcional, poucos exemplos decisivos e hipotéticos identificados, tabelas como síntese. Preservar literalidade, definições, fórmulas, requisitos, exceções, prazos, jurisprudência e pegadinhas. H recupera somente o estudado. Q testa com gabarito único, distratores plausíveis e explicações, com origens verdadeiras; revisões de questão/conjunto seguem o schema. Referências completas e sem órfãs; resoluções complexas apenas quando necessárias.
 
 Aplicar `abbr` a cada sigla/abreviatura técnica ou institucional no material didático renderizado, inclusive tabelas e após definição. Termos não ensinados recebem microdescrição contextual; conceitos indispensáveis permanecem no corpo. Não esconder regras em atributos, aninhar tags, inserir HTML no `title`, marcar campos puros ou revelar respostas. Este registro administrativo não substitui a auditoria das marcações nos artefatos didáticos.
 
