@@ -40,10 +40,10 @@ Não foi imposta quota de questões anteriores. Apenas o item diretamente verifi
 
 ## Proveniência, reaproveitamento e fronteiras
 
-- Unidade U146, identidade pc-u146, ordem 146, consumidor PC-MA 2026 — Oficial Investigador, identidade do concurso pcma-2026-invest.
+- Unidade U146, identidade pc-u146, ordem 146, consumidor <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> 2026 — Oficial Investigador, identidade do concurso pcma-2026-invest.
 - Classificação PC-R02: **nova/local**, sem vínculo canônico e sem doador integral compatível localizado.
 - Destino físico: src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direitos-humanos/sistema-interamericano-direitos-humanos/.
-- A busca na biblioteca, no acervo do Tribunal de Contas do Estado do Maranhão e nas campanhas SEAP-MA e Perícia encontrou apenas menções incidentais à Convenção e à Corte, não um pacote integral de Organização dos Estados Americanos, Convenção, Comissão, Corte e fluxo de petições.
+- A busca na biblioteca, no acervo do Tribunal de Contas do Estado do Maranhão e nas campanhas <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP-MA</abbr> e Perícia encontrou apenas menções incidentais à Convenção e à Corte, não um pacote integral de Organização dos Estados Americanos, Convenção, Comissão, Corte e fluxo de petições.
 - O canônico src/content/biblioteca/nocoes-direitos-humanos/teoria-geral-direitos-fundamentais/ foi auditado como apoio de fronteira: trata da hierarquia brasileira da Convenção e do depositário infiel, mas não ensina o sistema interamericano completo. Não foi usado como origem nem alterado.
 - U143 — direito-internacional-direitos-humanos-brasil — permanece responsável por incorporação, ratificação/promulgação, artigo 5º, § 3º, supralegalidade e relações entre direito internacional e interno.
 - U145 — pactos-internacionais-direitos-humanos-1966 — permanece responsável pelo sistema convencional global dos Pactos.
