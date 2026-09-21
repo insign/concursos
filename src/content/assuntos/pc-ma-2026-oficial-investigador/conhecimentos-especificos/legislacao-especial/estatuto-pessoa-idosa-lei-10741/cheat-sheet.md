@@ -4,7 +4,7 @@
 
 - proteção do Estatuto: **60+**;
 - prioridade especial entre pessoas idosas: **80+**;
-- benefício assistencial do art. 34: **65+**, com requisitos;
+- benefício assistencial do artigo 34: **65+**, com requisitos;
 - gratuidade urbana/semiurbana federal: **65+**;
 - corte: **13/07/2026**;
 - nome oficial desde 2022: **Estatuto da Pessoa Idosa**.
@@ -173,7 +173,7 @@ Renda ≤ 2 salários mínimos:
 
 **5%** das vagas públicas/privadas.
 
-## Medidas de proteção — arts. 43–45
+## Medidas de proteção — artigos 43–45
 
 Entram quando direito é ameaçado/violado por:
 
@@ -190,7 +190,7 @@ Podem ser isoladas/cumulativas:
 - abrigo;
 - abrigo temporário.
 
-## Entidades — arts. 46–55
+## Entidades — artigos 46–55
 
 Princípios:
 
@@ -226,7 +226,7 @@ Fiscalização:
 
 Art. 56:
 
-- descumprir art. 50;
+- descumprir artigo 50;
 - multa **R$ 500–3.000** se não crime;
 - possível interdição.
 
@@ -288,15 +288,19 @@ Arquivamento de inquérito civil:
 
 → remessa interna em **3 dias**.
 
-Sentença favorável sem execução:
+Multa do Estatuto não recolhida:
 
-→ Ministério Público promove execução após **60 dias**.
+→ execução após **30 dias do trânsito em julgado**, nos termos legais.
+
+Sentença condenatória favorável sem execução pelo autor:
+
+→ Ministério Público promove execução após **60 dias do trânsito em julgado**.
 
 ## Crimes — atualização decisiva
 
 Lei nº 15.163/2025:
 
-- art. 94 atualizado;
+- artigo 94 atualizado;
 - **Lei nº 9.099/1995 não se aplica**:
   - aos crimes do Estatuto;
   - aos crimes praticados com violência contra pessoa idosa;
@@ -410,8 +414,8 @@ Impedir/embaraçar fiscalização:
 - interestadual: **2 vagas / 50%**;
 - entidade: **70%**;
 - defesa: **10 dias**;
-- multa art. 56/57: **500–3.000**;
-- multa art. 58: **500–1.000**.
+- multa artigo 56/57: **500–3.000**;
+- multa artigo 58: **500–1.000**.
 
 ## Pegadinhas
 
@@ -424,7 +428,7 @@ Impedir/embaraçar fiscalização:
 - transporte interestadual exige renda ≤ 2 salários mínimos;
 - medidas de proteção ≠ penas;
 - Lei 9.099 não se aplica no regime penal atual;
-- art. 99 mudou em 2025;
+- artigo 99 mudou em 2025;
 - ação penal = pública incondicionada;
-- art. 102: apropriar **ou desviar**;
-- art. 104: retenção de cartão/documento para garantir dívida é crime.
+- artigo 102: apropriar **ou desviar**;
+- artigo 104: retenção de cartão/documento para garantir dívida é crime.
