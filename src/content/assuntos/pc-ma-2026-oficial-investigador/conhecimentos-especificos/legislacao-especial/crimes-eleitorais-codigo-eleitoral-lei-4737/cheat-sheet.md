@@ -9,7 +9,7 @@
 
 Lei nº 15.358/2026:
 
-- alterou arts. 5º e 71;
+- alterou artigos 5º e 71;
 - **não alterou o título penal**;
 - <abbr title="Tribunal Superior Eleitoral">TSE</abbr>: mudanças eleitorais de 2026 em alistamento/cancelamento sujeitas à anualidade para o pleito de 2026.
 
@@ -46,7 +46,7 @@ Artigo 287:
 
 297 → impedir/embaraçar sufrágio.
 
-298 → prisão/detenção com violação do art. 236.
+298 → prisão/detenção com violação do artigo 236.
 
 ### 299 — corrupção eleitoral
 
@@ -127,7 +127,7 @@ Também vídeo falso.
 
 Aumento **1/3–1/2**:
 
-- imprensa/rádio/TV/internet/rede social/live;
+- imprensa/rádio/televisão/internet/rede social/live;
 - menosprezo/discriminação contra mulher ou por cor/raça/etnia.
 
 ### 324–326
@@ -211,7 +211,7 @@ Pena:
 
 342–345 → omissões funcionais/serviço eleitoral.
 
-346 → violação do art. 377.
+346 → violação do artigo 377.
 
 ### 347 — desobediência
 
@@ -343,5 +343,5 @@ Direito vigente:
 - 354-A ≠ 350;
 - Justiça Eleitoral pode julgar comum conexo;
 - ação pública ≠ impossibilidade absoluta de queixa subsidiária;
-- interrogatório não fica no início só porque o art. 359 histórico sugere isso;
-- art. 363 precisa de leitura constitucional atual.
+- interrogatório não fica no início só porque o artigo 359 histórico sugere isso;
+- artigo 363 precisa de leitura constitucional atual.
