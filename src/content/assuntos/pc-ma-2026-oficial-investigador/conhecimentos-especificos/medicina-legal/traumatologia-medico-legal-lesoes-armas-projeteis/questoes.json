@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u152-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na interpretação médico-legal de uma lesão traumática, a sequência mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificar primeiro o objeto específico e depois adaptar a morfologia a essa hipótese."
+        },
+        {
+          "id": "B",
+          "text": "examinar mecanismo, forma de ação, tecido atingido e morfologia antes de formular conclusão sobre instrumento compatível."
+        },
+        {
+          "id": "C",
+          "text": "presumir a intenção do agente a partir do local da lesão."
+        },
+        {
+          "id": "D",
+          "text": "considerar que cada tipo de instrumento produz apenas uma única forma de lesão."
+        },
+        {
+          "id": "E",
+          "text": "substituir o exame morfológico pela narrativa da vítima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A traumatologia reconstrói o mecanismo a partir dos achados. A morfologia pode indicar compatibilidade com uma classe de ação, sem individualizar automaticamente o objeto."
+    },
+    {
+      "id": "u152-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Escoriação é melhor definida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "perda superficial da epiderme, frequentemente relacionada a atrito ou força tangencial."
+        },
+        {
+          "id": "B",
+          "text": "coleção sanguínea encapsulada."
+        },
+        {
+          "id": "C",
+          "text": "ferida profunda causada exclusivamente por ponta."
+        },
+        {
+          "id": "D",
+          "text": "ruptura obrigatória de osso."
+        },
+        {
+          "id": "E",
+          "text": "depósito de fuligem sobre a pele."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A escoriação é lesão superficial da epiderme; pode resultar de atrito ou outra ação tangencial contundente."
+    },
+    {
+      "id": "u152-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre equimose e hematoma é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "equimose sempre forma cavidade e hematoma nunca contém sangue."
+        },
+        {
+          "id": "B",
+          "text": "hematoma é sempre superficial e equimose sempre profunda."
+        },
+        {
+          "id": "C",
+          "text": "equimose corresponde a sangue infiltrado nos tecidos, enquanto hematoma é coleção mais localizada."
+        },
+        {
+          "id": "D",
+          "text": "equimose decorre apenas de corte e hematoma apenas de projétil."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença médico-legal entre os termos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Equimose é infiltração hemorrágica tecidual; hematoma é acúmulo sanguíneo mais delimitado."
+    },
+    {
+      "id": "u152-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a estimativa de idade de equimoses pela cor, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma cor específica corresponde sempre ao mesmo número de horas."
+        },
+        {
+          "id": "B",
+          "text": "a coloração independe da profundidade da lesão e do tom de pele."
+        },
+        {
+          "id": "C",
+          "text": "o espectro cromático clássico permite datação exata em qualquer pessoa."
+        },
+        {
+          "id": "D",
+          "text": "a cor pode auxiliar como informação contextual, mas não oferece cronologia exata universal isoladamente."
+        },
+        {
+          "id": "E",
+          "text": "somente equimoses amarelas podem ser datadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Estudos mostram grande variabilidade na evolução cromática; profundidade, região, pigmentação, iluminação e outros fatores limitam a datação por cor."
+    },
+    {
+      "id": "u152-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um achado que favorece ferida contusa, em comparação com uma ferida incisa típica, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "margem sempre perfeitamente regular."
+        },
+        {
+          "id": "B",
+          "text": "presença de pontes de tecido no fundo da lesão."
+        },
+        {
+          "id": "C",
+          "text": "ausência absoluta de equimose marginal."
+        },
+        {
+          "id": "D",
+          "text": "corte limpo produzido necessariamente por gume."
+        },
+        {
+          "id": "E",
+          "text": "profundidade sempre maior que o comprimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pontes de tecido decorrem do rasgo incompleto de estruturas e são achado clássico de laceração por força contundente."
+    },
+    {
+      "id": "u152-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma ferida incisa típica, espera-se com maior frequência",
+      "options": [
+        {
+          "id": "A",
+          "text": "margens relativamente regulares e ausência de pontes de tecido."
+        },
+        {
+          "id": "B",
+          "text": "pontes de tecido como requisito obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "orifício puntiforme com grande profundidade."
+        },
+        {
+          "id": "D",
+          "text": "fuligem na margem."
+        },
+        {
+          "id": "E",
+          "text": "fratura óssea como condição necessária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na ação cortante predomina o gume, que divide o tecido de forma mais limpa; variações podem ocorrer conforme tensão e região."
+    },
+    {
+      "id": "u152-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação predominantemente perfurante caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "gume deslizando superficialmente."
+        },
+        {
+          "id": "B",
+          "text": "massa e gume atuando juntos."
+        },
+        {
+          "id": "C",
+          "text": "ponta penetrando, podendo produzir pequena abertura externa e grande profundidade."
+        },
+        {
+          "id": "D",
+          "text": "partículas de pólvora incrustadas."
+        },
+        {
+          "id": "E",
+          "text": "atrito tangencial da epiderme."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na ação perfurante, a ponta é o elemento principal; o tamanho externo não mede diretamente a extensão interna."
+    },
+    {
+      "id": "u152-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma lesão perfurocortante resulta principalmente da associação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "massa e superfície romba."
+        },
+        {
+          "id": "B",
+          "text": "ponta e gume."
+        },
+        {
+          "id": "C",
+          "text": "calor e pressão."
+        },
+        {
+          "id": "D",
+          "text": "atrito e fuligem."
+        },
+        {
+          "id": "E",
+          "text": "onda sonora e compressão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Instrumentos perfurocortantes penetram pela ponta e cortam pelo gume."
+    },
+    {
+      "id": "u152-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação cortocontundente, predomina a associação entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "ponta e pressão negativa."
+        },
+        {
+          "id": "B",
+          "text": "calor e gume."
+        },
+        {
+          "id": "C",
+          "text": "ponta e rotação."
+        },
+        {
+          "id": "D",
+          "text": "gume e massa/impacto."
+        },
+        {
+          "id": "E",
+          "text": "fuligem e pólvora."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Instrumentos cortocontundentes combinam capacidade de corte com massa e impacto, podendo gerar dano profundo e fraturas."
+    },
+    {
+      "id": "u152-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A forma de uma ferida perfurocortante",
+      "options": [
+        {
+          "id": "A",
+          "text": "reproduz obrigatoriamente e em escala perfeita a seção da lâmina."
+        },
+        {
+          "id": "B",
+          "text": "permite identificar sempre a faca específica."
+        },
+        {
+          "id": "C",
+          "text": "pode ser modificada por tensão da pele, ângulo e movimento, devendo ser interpretada como compatibilidade, não como molde perfeito."
+        },
+        {
+          "id": "D",
+          "text": "não sofre influência da elasticidade dos tecidos."
+        },
+        {
+          "id": "E",
+          "text": "é independente do modo de uso do instrumento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A morfologia sofre influência de fatores locais e dinâmicos. Ela pode indicar classe de ação, mas não individualiza automaticamente o instrumento."
+    },
+    {
+      "id": "u152-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lesões em mãos e antebraços compatíveis com defesa",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam, isoladamente, que houve homicídio."
+        },
+        {
+          "id": "B",
+          "text": "podem apoiar hipótese de reação defensiva, mas precisam ser interpretadas no conjunto."
+        },
+        {
+          "id": "C",
+          "text": "excluem acidente em qualquer situação."
+        },
+        {
+          "id": "D",
+          "text": "são obrigatórias em toda agressão com arma branca."
+        },
+        {
+          "id": "E",
+          "text": "determinam a intenção do agressor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lesões de defesa têm valor contextual. Sua presença ou ausência não decide isoladamente a dinâmica nem a causa jurídica."
+    },
+    {
+      "id": "u152-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação médico-legal tradicional, o projétil de arma de fogo é considerado agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente cortante."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente perfurante."
+        },
+        {
+          "id": "C",
+          "text": "térmico apenas."
+        },
+        {
+          "id": "D",
+          "text": "cortocontundente."
+        },
+        {
+          "id": "E",
+          "text": "perfurocontundente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O projétil penetra e transfere energia de modo contundente aos tecidos, razão da classificação tradicional como perfurocontundente."
+    },
+    {
+      "id": "u152-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A energia cinética de um projétil aumenta especialmente com a velocidade porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a energia é proporcional ao quadrado da velocidade na expressão E = 1/2 mv²."
+        },
+        {
+          "id": "B",
+          "text": "a velocidade não participa da energia cinética."
+        },
+        {
+          "id": "C",
+          "text": "a massa é sempre irrelevante."
+        },
+        {
+          "id": "D",
+          "text": "toda energia disponível é transferida integralmente ao corpo."
+        },
+        {
+          "id": "E",
+          "text": "o calibre determina sozinho a energia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A velocidade aparece ao quadrado na fórmula da energia cinética. Ainda assim, o dano depende da energia efetivamente transferida e da interação projétil-tecido."
+    },
+    {
+      "id": "u152-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cavidade temporária é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o orifício cutâneo que permanece após cicatrização."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo de orla de enxugo."
+        },
+        {
+          "id": "C",
+          "text": "expansão transitória dos tecidos ao redor do trajeto durante a transferência de energia."
+        },
+        {
+          "id": "D",
+          "text": "depósito permanente de fuligem."
+        },
+        {
+          "id": "E",
+          "text": "apenas o fragmento metálico retido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A cavidade temporária representa deslocamento radial transitório; a cavidade permanente corresponde ao dano persistente ao longo do canal."
+    },
+    {
+      "id": "u152-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre projéteis de alta energia, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o edital estabelece um limiar universal em metros por segundo."
+        },
+        {
+          "id": "B",
+          "text": "maior energia pode ampliar cavitação e dano, mas o resultado depende também de deformação, fragmentação, estabilidade e tecidos atingidos."
+        },
+        {
+          "id": "C",
+          "text": "o orifício de entrada é obrigatoriamente enorme."
+        },
+        {
+          "id": "D",
+          "text": "todo projétil de alta energia permanece no corpo."
+        },
+        {
+          "id": "E",
+          "text": "velocidade é o único fator relevante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A extensão da lesão depende da interação dinâmica do projétil com o alvo. Não há no edital um limiar numérico universal."
+    },
+    {
+      "id": "u152-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A orla de enxugo em um orifício de entrada corresponde principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "pólvora incrustada na derme."
+        },
+        {
+          "id": "B",
+          "text": "queimadura térmica."
+        },
+        {
+          "id": "C",
+          "text": "equimose profunda."
+        },
+        {
+          "id": "D",
+          "text": "material transportado pelo projétil e depositado junto à entrada."
+        },
+        {
+          "id": "E",
+          "text": "rasgos radiais produzidos apenas por gases."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A orla de enxugo é depósito de material removido/transportado pelo projétil. Não deve ser confundida com fuligem da combustão."
+    },
+    {
+      "id": "u152-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre tatuagem e esfumaçamento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "tatuagem envolve partículas de pólvora incrustadas; esfumaçamento é depósito superficial de fuligem."
+        },
+        {
+          "id": "B",
+          "text": "tatuagem é fuligem removível e esfumaçamento é pólvora incrustada."
+        },
+        {
+          "id": "C",
+          "text": "ambas são sempre queimaduras."
+        },
+        {
+          "id": "D",
+          "text": "ambas decorrem exclusivamente do projétil, sem resíduos da combustão."
+        },
+        {
+          "id": "E",
+          "text": "não há diferença técnico-morfológica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tatuagem resulta de grãos de pólvora que atingem e se incrustam na pele; o esfumaçamento é depósito superficial de fuligem."
+    },
+    {
+      "id": "u152-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em disparo encostado sobre região com plano ósseo subjacente, pode ocorrer",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência completa de ação dos gases."
+        },
+        {
+          "id": "B",
+          "text": "somente tatuagem externa, sem entrada de gases."
+        },
+        {
+          "id": "C",
+          "text": "distensão dos tecidos pelos gases, com rasgos radiais e aspecto estrelado."
+        },
+        {
+          "id": "D",
+          "text": "impossibilidade de encontrar fuligem no osso."
+        },
+        {
+          "id": "E",
+          "text": "orifício necessariamente idêntico ao calibre."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gases que penetram a ferida podem encontrar resistência óssea e distender os tecidos, favorecendo rasgos radiais em tiros encostados."
+    },
+    {
+      "id": "u152-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sinal de Benassi corresponde classicamente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "equimose linear no braço."
+        },
+        {
+          "id": "B",
+          "text": "fuligem depositada no osso, especialmente no crânio, em contexto de tiro encostado."
+        },
+        {
+          "id": "C",
+          "text": "tatuagem por pólvora em disparo distante."
+        },
+        {
+          "id": "D",
+          "text": "orla de enxugo em qualquer ferida incisa."
+        },
+        {
+          "id": "E",
+          "text": "fratura em instrumento cortante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sinal de Benassi é descrito como depósito fuliginoso no osso craniano em disparo encostado."
+    },
+    {
+      "id": "u152-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'orifício de saída é sempre maior que o de entrada' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "regra absoluta."
+        },
+        {
+          "id": "B",
+          "text": "verdadeira apenas porque a pele não é elástica."
+        },
+        {
+          "id": "C",
+          "text": "verdadeira para qualquer munição."
+        },
+        {
+          "id": "D",
+          "text": "incorreta como regra absoluta, pois deformação, fragmentação, cavitação e suporte externo podem alterar a morfologia."
+        },
+        {
+          "id": "E",
+          "text": "verdadeira apenas em tiros encostados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Saídas tendem a ser mais irregulares, mas há numerosas exceções. Tamanho isolado não basta para classificar entrada e saída."
+    },
+    {
+      "id": "u152-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na terminologia médico-legal clássica, trajeto e trajetória se distinguem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "trajeto é o percurso no interior do corpo e trajetória é o percurso no espaço antes de atingir o corpo."
+        },
+        {
+          "id": "B",
+          "text": "trajetória é sempre o percurso interno e trajeto é o externo."
+        },
+        {
+          "id": "C",
+          "text": "ambos designam apenas o orifício de saída."
+        },
+        {
+          "id": "D",
+          "text": "trajeto só existe quando o projétil fica retido."
+        },
+        {
+          "id": "E",
+          "text": "trajetória só existe em arma branca."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A banca pode inverter os termos: trajeto é intracorporal; trajetória é o percurso externo."
+    },
+    {
+      "id": "u152-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lesão em sedenho descreve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ferida cortante longitudinal."
+        },
+        {
+          "id": "B",
+          "text": "fratura craniana por instrumento contundente."
+        },
+        {
+          "id": "C",
+          "text": "trajeto superficial ou subcutâneo de projétil que contorna a região sem penetrar profundamente em cavidade."
+        },
+        {
+          "id": "D",
+          "text": "qualquer ferida de saída."
+        },
+        {
+          "id": "E",
+          "text": "queimadura por gases."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sedenho é um trajeto superficial/subcutâneo, conceito diretamente cobrado em Medicina Legal."
+    },
+    {
+      "id": "u152-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando um projétil atinge osso, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o osso não modifica o comportamento do projétil."
+        },
+        {
+          "id": "B",
+          "text": "podem ocorrer fratura, deformação/fragmentação do projétil e formação de fragmentos ósseos capazes de ampliar o dano."
+        },
+        {
+          "id": "C",
+          "text": "o projétil necessariamente para."
+        },
+        {
+          "id": "D",
+          "text": "não há cavitação nos tecidos adjacentes."
+        },
+        {
+          "id": "E",
+          "text": "o orifício cutâneo revela sozinho toda a extensão interna."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Osso e projétil interagem dinamicamente; fragmentos e mudança de estabilidade podem alterar o dano subsequente."
+    },
+    {
+      "id": "u152-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos limites da conclusão em Traumatologia Médico-Legal, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma lesão perfurocortante identifica automaticamente a faca específica."
+        },
+        {
+          "id": "B",
+          "text": "lesão de defesa determina homicídio por si só."
+        },
+        {
+          "id": "C",
+          "text": "um pequeno orifício exclui projétil de alta energia."
+        },
+        {
+          "id": "D",
+          "text": "a forma isolada define a causa jurídica da morte."
+        },
+        {
+          "id": "E",
+          "text": "a morfologia pode sustentar compatibilidade com mecanismo ou classe de instrumento, mas a dinâmica final depende do conjunto de dados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A conclusão deve ser proporcional aos achados. Instrumento específico, intenção e causa jurídica exigem integração com outras evidências."
+    },
+    {
+      "id": "u152-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 24 da prova Cebraspe/PC-RO 2022 para Médico-Legista, uma ferida na cabeça apresenta orla de escoriação, enxugo, esfumaçamento e aspecto de 'buraco de mina'. Qual hipótese é mais compatível?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disparo distante, sem ação de gases ou resíduos."
+        },
+        {
+          "id": "B",
+          "text": "Ferida típica de saída."
+        },
+        {
+          "id": "C",
+          "text": "Disparo encostado somente em tecido mole, sem plano resistente."
+        },
+        {
+          "id": "D",
+          "text": "Disparo encostado sobre plano ósseo, situação em que pode ocorrer sinal de Benassi."
+        },
+        {
+          "id": "E",
+          "text": "Lesão exclusivamente cortante."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão original teve gabarito definitivo D. O conjunto clássico aponta tiro encostado sobre osso, com ação dos gases e possibilidade de fuligem óssea."
+    },
+    {
+      "id": "u152-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 35 da prova Cebraspe/PC-RO 2022 para Médico-Legista, víbices são",
+      "options": [
+        {
+          "id": "A",
+          "text": "escoriações circulares."
+        },
+        {
+          "id": "B",
+          "text": "equimoses em forma de estrias."
+        },
+        {
+          "id": "C",
+          "text": "feridas perfurantes."
+        },
+        {
+          "id": "D",
+          "text": "fraturas lineares."
+        },
+        {
+          "id": "E",
+          "text": "zonas de esfumaçamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. Víbice é denominação clássica para equimose linear/em estria."
+    },
+    {
+      "id": "u152-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 37 da prova Cebraspe/PC-RO 2022 para Médico-Legista, o sinal de Benassi corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "halo fuliginoso no osso craniano."
+        },
+        {
+          "id": "B",
+          "text": "queimadura produzida apenas pela passagem física do projétil."
+        },
+        {
+          "id": "C",
+          "text": "orla de escoriação do orifício de saída."
+        },
+        {
+          "id": "D",
+          "text": "tatuagem em tiro distante."
+        },
+        {
+          "id": "E",
+          "text": "ferida incisa no couro cabeludo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo A. O sinal clássico é fuligem no osso, associado sobretudo a tiro encostado craniano."
+    },
+    {
+      "id": "u152-p04",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 38 da prova Cebraspe/PC-RO 2022 para Médico-Legista, lesão em sedenho é",
+      "options": [
+        {
+          "id": "A",
+          "text": "orifício de entrada com tatuagem obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "trajetória aérea do projétil antes de atingir a vítima."
+        },
+        {
+          "id": "C",
+          "text": "trajeto superficial ou subcutâneo que contorna a região sem alcançar cavidade profunda."
+        },
+        {
+          "id": "D",
+          "text": "ferida de saída necessariamente evertida."
+        },
+        {
+          "id": "E",
+          "text": "fratura óssea causada por projétil retido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo C. Sedenho descreve passagem superficial/subcutânea do projétil."
+    },
+    {
+      "id": "u152-p05",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 31 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, o chamado cone de explosão de um tiro a curta distância reúne",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o projétil."
+        },
+        {
+          "id": "B",
+          "text": "somente sangue e fragmentos de pele."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente fuligem, sem gases ou pólvora."
+        },
+        {
+          "id": "D",
+          "text": "somente chama, com alcance idêntico ao de todos os demais componentes."
+        },
+        {
+          "id": "E",
+          "text": "gases aquecidos/chama, resíduos de combustão como fuligem e partículas de pólvora, com alcances e concentrações que variam com distância e características da arma/munição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O padrão oficial descreveu chama/gases, fuligem e pólvora como componentes do cone, com alcances diferentes e dependência da distância e das características da arma."
+    }
+  ]
+}
