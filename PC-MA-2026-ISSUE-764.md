@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U138; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U139; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 20 | 0 | 138 |
-| Entregáveis de unidade C/H/Q | 474 | 60 | 0 | 414 |
+| Unidades reais previstas | 158 | 19 | 0 | 139 |
+| Entregáveis de unidade C/H/Q | 474 | 57 | 0 | 417 |
 | Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U138` e `U144` = **138 unidades**. Pendentes: `U075`, `U139–U143`, `U145–U158` = **20 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U139` e `U144` = **139 unidades**. Pendentes: `U075`, `U140–U143`, `U145–U158` = **19 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **140 = 123 físicas locais + 17 vínculos canônicos**. U138 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 140 visões materializadas com 138 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **141 = 124 físicas locais + 17 vínculos canônicos**. U139 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 141 visões materializadas com 139 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U138: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U139: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U139 — Organização criminosa — Lei 12.850/2013**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U138 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U139–U141 não forem concluídas.
+**Próxima ação editorial: U140 — Marco Legal do Combate ao Crime Organizado — Lei 15.358/2026**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U139 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U140–U141 não forem concluídas.
 
 ### Pendências e divergências herdadas
 
@@ -469,7 +469,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 15 | U136 — Estatuto da Pessoa Idosa — Lei 10.741/2003 — `estatuto-pessoa-idosa-lei-10741` | Lei nº 10.741/2003 integral. O edital usa “Estatuto do Idoso”; a denominação oficial vigente é “Estatuto da Pessoa Idosa” | nova/local; apoio parcial canônico `acessibilidade-prioridade-atendimento`, blob `f0d4cfd100e4608d44920012f23e6d821ba8bc11`; snapshot `e8e2b49dd97f881084a97e168db912e9418bc7a0` | Lei nº 14.423/2022 incorporada; Lei nº 15.163/2025 incorporada nos arts. 94/99; U122 apenas ponte do art. 230; ADI 3.768, Tema 952/STJ e art. 102/STJ revalidados | done | done | done |
 | 16 | U137 — Crimes de trânsito — Lei 9.503/1997 — `crimes-transito-lei-9503` | Recorte dos crimes de trânsito do Código de Trânsito Brasileiro e disposições gerais/processuais diretamente necessárias a eles; não transformar U137 em curso integral de trânsito administrativo | nova/local; fontes primárias; snapshot `0ddbfa13780ee040563048fdc716998c39856b1f` | Capítulo XIX revalidado no corte; Lei 14.599/2023 incorporada na terminologia e redações pertinentes; mudanças de 2025/2026 fora do capítulo auditadas; Tema 907/STF, Súmulas 575/664/STJ e Informativo 893/STJ revalidados | done | done | done |
 | 17 | U138 — Crimes eleitorais — Lei 4.737/1965 — `crimes-eleitorais-codigo-eleitoral-lei-4737` | Recorte penal do Código Eleitoral: crimes, sanções e disposições processuais diretamente ligadas; não cobrir Direito Eleitoral integral | nova/local; fontes primárias; snapshot `7391fe95fbad81d80fc251e3f1d259c97f8bb8fb` | Lei nº 15.358/2026 auditada: alterações nos arts. 5º/71, sem mudança do Título IV; anualidade 2026 registrada pelo TSE; Inq 4.435/STF, Tema 1.260/STF, art. 337 não recepcionado, execução e rito penal revalidados | done | done | done |
-| 18 | U139 — Organização criminosa — Lei 12.850/2013 — `organizacao-criminosa-lei-12850` | Lei nº 12.850/2013 integral: conceito, crimes, investigação, meios de obtenção da prova, colaboração, infiltração, ação controlada e procedimento | nova/local; referências incidentais em PC-E10/E11, sem doador integral | Distinguir a Lei nº 12.850/2013 do novo marco da U140; alterações posteriores a 13/7/2026 devem ser excluídas | pending | pending | pending |
+| 18 | U139 — Organização criminosa — Lei 12.850/2013 — `organizacao-criminosa-lei-12850` | Lei nº 12.850/2013 integral: conceito, crimes, investigação, meios de obtenção da prova, colaboração, infiltração, ação controlada e procedimento | nova/local; referências incidentais em PC-E10/E11, sem doador integral; snapshot `516f2b70ee03625901405465906d66c74adbd173` | Lei nº 15.245/2025 incorporada no art. 2º, § 1º, e nos arts. 21-A/21-B; Lei nº 15.487/2026 pós-corte excluída; Lei nº 15.358/2026 preservada como U140 sem falsa alteração da Lei nº 12.850; ADIs 5.508/5.567, Tema 1.441 e corroboração revalidados | done | done | done |
 | 19 | U140 — Marco Legal do Combate ao Crime Organizado — Lei 15.358/2026 — `marco-combate-crime-organizado-lei-15358` | Lei nº 15.358/2026 integral — Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann), crimes próprios, normas processuais/operacionais e alterações legislativas promovidas | nova/local; fragmentos das alterações aparecem em PC-E10/E11, sem pacote integral | Em vigor desde a publicação em março de 2026. É dependência transversal de U123, U127, U131, U132 e U138; essas unidades devem aplicar suas alterações antes de U140 ser estudada | pending | pending | pending |
 | 20 | U141 — Interceptação telefônica — Lei 9.296/1996 — `interceptacao-telefonica-lei-9296` | Lei nº 9.296/1996 integral + ponte mínima indispensável para **conceito** e **provas ilícitas**, termos expressamente usados no edital | nova/local; fontes primárias | U093 cobre teoria geral da prova; U141 não deve duplicá-la, apenas explicar a conexão necessária com interceptação e ilicitude | pending | pending | pending |
 
@@ -479,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U139 é a primeira unidade pendente de PC-E14. U123–U138 estão C/H/Q `done`; U139–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**Ordem habilitada:** U140 é a primeira unidade pendente de PC-E14. U123–U139 estão C/H/Q `done`; U140–U141 permanecem C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
 
 
 
@@ -574,6 +574,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U136 | `e8e2b49dd97f881084a97e168db912e9418bc7a0` | 47 + 2 | Cebraspe TRT-8 2022, Analista/Serviço Social, questão 35 sobre prioridade na restituição do imposto de renda; DPE-SE 2021/2022, Defensor, questão 69 sobre prioridade especial 80+ no acesso à justiça; adaptações não literais |
 | U137 | `0ddbfa13780ee040563048fdc716998c39856b1f` | 40 + 2 | Cebraspe DPE-AC 2017, questão 31, gabarito C, sobre perigo abstrato do art. 310; PC-PE 2023, prova oral questão 4, padrão oficial sobre autonomia dos arts. 306/309 e Súmula 664/STJ; adaptações não literais |
 | U138 | `7391fe95fbad81d80fc251e3f1d259c97f8bb8fb` | 44 + 2 | Cebraspe TJ-MA 2022, questão 69, alternativa C, sobre ação privada subsidiária em crime eleitoral; PC-RJ Delegado 2022, prova discursiva Grupo 1/Ponto 1, sobre art. 350 e competência por conexão; adaptações não literais e atualizadas |
+| U139 | `516f2b70ee03625901405465906d66c74adbd173` | 44 + 2 | Cebraspe PC-RO 2022, questão 55, gabarito C, sobre ausência do juiz nas negociações de colaboração; PF Delegado oral 2019, questão 4, padrão oficial sobre legitimidade do delegado e ADI 5.508; adaptações não literais atualizadas |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -661,26 +662,27 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U136 | `65d1cdd00ff84cc73a70893c0a5ce493beddb78f` | `92492171f8907e675db8d8965c74122ff9deba89` | `bfb6b8b533c7250bf827979cbe93633b406e4d74` | `92c1711a4225d7f032d0720d385a3bc98e6d0a93` |
 | U137 | `62c100222f3862182f2b5cad119f591598f7874f` | `4fd25d10ac922a3c16028659e120cbfbf0c26eac` | `8d27cce8fc6f83ddf915744c5d81bf24df772ae2` | `5906acfbff3ffca525a31f833891254fcc5e9208` |
 | U138 | `e32008929e304291993994075c0d43043a8f9253` | `d5f7567dafb92a138a650373119db95552030d7e` | `e1d21b32275288bda3c7b7cd6648b72a43e32816` | `faf62d5f4f16f54fc44c5c2f6fa29b6215c28cf3` |
+| U139 | `8579bed20b7a1095189b19ee1906ba89de4bce6a` | `ecffb8ca25256b85bb2ad0ef11b8aa571dbd482e` | `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e` | `6db4d2f061870894b6aecfb5fe31ae6b379876a2` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U138
+### Último aceite — U139
 
-Pacote de **Crimes eleitorais — Código Eleitoral — Lei nº 4.737/1965**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u138`, `order: 138`. Snapshot editorial final `7391fe95fbad81d80fc251e3f1d259c97f8bb8fb`; base reservada `b3d656700addee5cb3057145ec06bc8bc49a9530`. A comparação base→snapshot confirma **exatamente quatro arquivos da U138**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Organização criminosa — Lei nº 12.850/2013**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u139`, `order: 139`. Snapshot editorial final `516f2b70ee03625901405465906d66c74adbd173`; base reservada `f130d6afb0b1dfa9aa61bee9915a70c1c2dbc59a`. A comparação base→snapshot confirma **exatamente quatro arquivos da U139**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json`. A busca no acervo encontrou somente referências incidentais ao Código Eleitoral, sem pacote físico ou canônico integral compatível. U135 foi usada apenas como ponte para institutos da Lei nº 9.099/1995; U091–U097 preservam a teoria processual penal geral; U140 estudará integralmente a Lei nº 15.358/2026.
+A unidade permanece **nova/local**, sem `vinculo.json`. A busca no acervo localizou apenas referências incidentais à Lei nº 12.850/2013 em U089, U123, U130, U134 e outras unidades, sem doador integral compatível. U089 foi usada como fronteira para associação criminosa; U130 apenas como moldura da investigação policial. Nenhum trecho ou conjunto de questões foi copiado como origem física.
 
-Corte legislativo de **13/7/2026** reconstruído a partir do Código Eleitoral compilado e anotado pelo Tribunal Superior Eleitoral. A Lei nº 15.358/2026 foi auditada: alterou os artigos 5º e 71, ligados à situação eleitoral de pessoas privadas de liberdade, mas **não alterou o Título IV dos crimes**. A anotação oficial do Tribunal Superior Eleitoral sobre o Processo Administrativo 0600587-56/2026 registra ainda a inaplicabilidade dessas mudanças às Eleições 2026 em razão da anualidade eleitoral. Não foi inventado efeito penal para essa lei.
+Corte legislativo de **13/7/2026** reconstruído a partir do texto compilado oficial. A Lei nº 15.245/2025 foi incorporada na nova redação do artigo 2º, § 1º, e nos artigos 21-A e 21-B, com os crimes de obstrução e conspiração para obstrução. A Lei nº 15.487/2026, de 6/8/2026, foi excluída: sua ampliação do artigo 2º, § 4º, I, é pós-corte. A Lei nº 15.358/2026 foi tratada apenas como fronteira da U140 e não como alteração direta da Lei nº 12.850/2013.
 
-Cobertura organizada: artigos 283–288; crimes dos artigos 289–354-A; revogações dos artigos 294, 322, 328, 329 e 333; ressalva do artigo 330; artigo 337 não recepcionado; corrupção eleitoral; coação; votação/apuração; fatos sabidamente inverídicos; crimes contra a honra; denunciação caluniosa; violência política contra a mulher; crimes contra o funcionamento da Justiça Eleitoral; falsidades; apropriação de recursos; competência por conexão; polícia judiciária eleitoral; ação penal e rito dos artigos 355–364.
+Cobertura integral organizada: conceito, aplicação e crime de organização criminosa; arma/comando/majorantes; efeitos para agentes públicos; meios de obtenção de prova; contratação sigilosa do artigo 3º; colaboração premiada pós-Lei nº 13.964/2019, benefícios, negociação, homologação, corroboração, defesa e sigilo; ação controlada; infiltração presencial e virtual; dados cadastrais e registros; crimes dos artigos 18–21-B; procedimento, sigilo e disposições finais.
 
-Jurisprudência oficial revalidada: corrupção eleitoral formal em julgados de 2025 do Tribunal Superior Eleitoral; competência de crimes eleitorais e comuns conexos conforme Inquérito 4.435/STF; competência territorial de crimes contra a honra online em julgado do Tribunal Superior Eleitoral de março de 2026; Tema 1.260/STF, com trânsito em julgado em 13/3/2026, sobre artigo 350 e improbidade; artigo 337 não recepcionado; artigo 347 com ordem direta/individualizada e dolo; e orientação do Tribunal Superior Eleitoral atualizada em 10/6/2026 que afasta execução provisória da pena antes do trânsito em julgado para acusação e defesa, impedindo leitura isolada do artigo 363.
+Jurisprudência oficial revalidada: ADI 5.508/STF sobre legitimidade do delegado para celebrar acordo na investigação; ADI 5.567/STF sobre constitucionalidade dos dispositivos questionados e interpretação conforme do direito ao silêncio; Informativo 869/STJ sobre impossibilidade de condenação fundada exclusivamente em colaboração; jurisprudência de 2025 sobre natureza personalíssima do acordo e legitimidade do delatado; Tema 1.441/STF registrado como **pendente de tese final** em 20/9/2026, sem inventar resultado.
 
-Foram publicadas **46 questões: 44 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais da questão 69 do Cebraspe/TJ-MA 2022, alternativa C, sobre ação privada subsidiária, e do padrão definitivo da prova discursiva Cebraspe/PC-RJ Delegado 2022, sobre falsidade ideológica eleitoral e crimes comuns conexos. Nenhuma resolução separada foi necessária.
+Foram publicadas **46 questões: 44 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais da questão 55 do Cebraspe/PC-RO Delegado 2022, gabarito definitivo C, e da questão 4 da prova oral Cebraspe/PF Delegado 2019, com padrão oficial sobre colaboração pelo delegado e ADI 5.508. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` com **30.933 caracteres**, `cheat-sheet.md` com **7.344** e `referencias.md` com **11.469**. Microglossário pós-inspeção: **8 pares `abbr` no conteúdo e 8 no cheat sheet, todos balanceados**; referências tiveram abreviações técnicas e geográficas expandidas, restando apenas algarismos romanos. O JSON permanece texto puro, `questionSetRevision: 1`, **46 IDs únicos**, 44 origens `authorial`, 2 `previous_exam`, cinco alternativas por questão e todos os gabaritos apontando para alternativas existentes.
+Densidade final: `conteudo.md` com **33.562 caracteres**, `cheat-sheet.md` com **7.316** e `referencias.md` com **6.965**. Microglossário pós-inspeção: **10 pares `abbr` no conteúdo e 5 no cheat sheet, todos balanceados**; abreviações jurídicas e a sigla institucional do concurso foram expandidas. O JSON permanece texto puro, `questionSetRevision: 1`, **46 IDs únicos**, 44 origens `authorial`, 2 `previous_exam`, cinco alternativas por questão e todos os gabaritos apontando para alternativas existentes.
 
-**PC-E14 permanece em andamento:** U123–U138 estão C/H/Q `done`; U139–U141 seguem `pending`. A próxima intervenção habilitada é U139 — Organização criminosa — Lei nº 12.850/2013.
+**PC-E14 permanece em andamento:** U123–U139 estão C/H/Q `done`; U140–U141 seguem `pending`. A próxima intervenção habilitada é U140 — Marco Legal do Combate ao Crime Organizado — Lei nº 15.358/2026.
 
 ### Registros operacionais superados
 
