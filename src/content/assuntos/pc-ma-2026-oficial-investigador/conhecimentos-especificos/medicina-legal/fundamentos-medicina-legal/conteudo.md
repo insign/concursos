@@ -413,7 +413,7 @@ Ele será desenvolvido em U152.
 
 Estuda formas de asfixia de interesse médico-legal.
 
-O edital da PC-MA não criou uma unidade autônoma de asfixiologia. Ela pode aparecer apenas quando necessária a alguma explicação, sem ampliar silenciosamente o programa.
+O edital da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> não criou uma unidade autônoma de asfixiologia. Ela pode aparecer apenas quando necessária a alguma explicação, sem ampliar silenciosamente o programa.
 
 ### 15.4 <abbr title="estudo dos efeitos de substâncias tóxicas e intoxicações de interesse jurídico">Toxicologia forense</abbr>
 
@@ -684,7 +684,7 @@ A prova pode trocar essas colunas.
 7. **“Conclusão médica gera automaticamente a decisão jurídica.”** Errado.
 8. **“Deontologia estuda direitos profissionais.”** Errado: estuda deveres.
 9. **“Diceologia estuda deveres profissionais.”** Errado: estuda direitos.
-10. **“Antropologia forense pertence à Medicina Legal Geral.”** Errado na classificação didática clássica cobrada pelo Cebraspe.
+10. **“Antropologia forense pertence à Medicina Legal Geral.”** Errado na classificação didática clássica cobrada pelo <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>.
 11. **“Traumatologia forense pertence à parte geral.”** Errado.
 12. **“Tanatologia estuda essencialmente identificação em vida.”** Errado: seu núcleo é morte/cadáver.
 13. **“Psiquiatria forense trata apenas tratamento psiquiátrico.”** Errado: no campo pericial, responde a questões jurídicas ligadas à condição mental.
