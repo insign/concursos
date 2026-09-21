@@ -2,14 +2,14 @@
 
 ## Mapa
 
-- conceito + crime: arts. 1º–2º;
-- meios de obtenção: art. 3º;
-- colaboração: arts. 3º-A–7º;
-- ação controlada: arts. 8º–9º;
-- infiltração: arts. 10–14;
-- dados: arts. 15–17;
-- crimes investigativos: arts. 18–21-B;
-- procedimento/sigilo: arts. 22–23;
+- conceito + crime: artigos 1º–2º;
+- meios de obtenção: artigo 3º;
+- colaboração: artigos 3º-A–7º;
+- ação controlada: artigos 8º–9º;
+- infiltração: artigos 10–14;
+- dados: artigos 15–17;
+- crimes investigativos: artigos 18–21-B;
+- procedimento/sigilo: artigos 22–23;
 - corte: **13/07/2026**.
 
 ## Conceito
@@ -61,7 +61,7 @@ Comando individual/coletivo:
 
 → pena agravada, mesmo sem ato executivo pessoal.
 
-### § 4º — corte PC-MA
+### § 4º — corte Polícia Civil do Maranhão
 
 Aumento **1/6–2/3**:
 
@@ -133,7 +133,7 @@ Sem advogado/defensor:
 
 → **sem tratativa**.
 
-## Resultados do art. 4º
+## Resultados do artigo 4º
 
 Um ou mais:
 
@@ -200,7 +200,7 @@ Renúncia ao recurso contra homologação:
 
 → cláusula nula.
 
-## Silêncio — ADI 5.567/<abbr title="Supremo Tribunal Federal">STF</abbr>
+## Silêncio — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.567/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 “Renúncia” do §14:
 
