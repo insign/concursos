@@ -27,15 +27,15 @@ Fontes revalidadas em **21 de setembro de 2026**. Corte legislativo da campanha:
 
 ## Questões anteriores verificadas
 
-7. **Cebraspe — Polícia Civil do Estado do Maranhão, concurso 2017/2018, Cargo 3 — Médico Legista, conhecimentos específicos, aplicação em 28 de janeiro de 2018, questão 29.** Cobrança do conceito de “perícia contraditória”; gabarito oficial definitivo **A**, correspondente à divergência com manifestações individualizadas sem posição comum. A U150 usa adaptação não literal em `u150-p01`.  
+7. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil do Estado do Maranhão, concurso 2017/2018, Cargo 3 — Médico Legista, conhecimentos específicos, aplicação em 28 de janeiro de 2018, questão 29.** Cobrança do conceito de “perícia contraditória”; gabarito oficial definitivo **A**, correspondente à divergência com manifestações individualizadas sem posição comum. A U150 usa adaptação não literal em `u150-p01`.  
    Prova: https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/373_SSPMA_APC_003_01.PDF  
    Gabarito: https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/GAB_DEFINITIVO_373_SSPMA_APC_003_01.PDF
 
-8. **Cebraspe — Polícia Civil do Estado do Espírito Santo, Delegado de Polícia, aplicação em 11 de setembro de 2022, questão 64.** Questão sobre corpo de delito e perícia em Medicina Legal; gabarito oficial definitivo **E**, segundo o qual a perícia deve ser indeferida quando o fato não depender de conhecimento técnico especial, observadas as regras próprias do exame de corpo de delito. A U150 usa adaptação não literal em `u150-p02`.  
+8. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil do Estado do Espírito Santo, Delegado de Polícia, aplicação em 11 de setembro de 2022, questão 64.** Questão sobre corpo de delito e perícia em Medicina Legal; gabarito oficial definitivo **E**, segundo o qual a perícia deve ser indeferida quando o fato não depender de conhecimento técnico especial, observadas as regras próprias do exame de corpo de delito. A U150 usa adaptação não literal em `u150-p02`.  
    Prova: https://cdn.cebraspe.org.br/concursos/pc_es_22_delegado/arquivos/729_PC_ES_001_01.PDF  
    Gabarito: https://cdn.cebraspe.org.br/concursos/pc_es_22_delegado/arquivos/GAB_DEFINITIVO_729_PC_ES_001_01.PDF
 
-9. **Cebraspe — Polícia Civil do Estado do Maranhão, concurso 2017/2018, Cargo 3 — Médico Legista, questão 28.** A questão tratava de perícia e exames periciais, mas foi **anulada** no gabarito definitivo por divergência na literatura sobre uma de suas opções. Foi auditada e **não foi usada** como questão anterior na U150.  
+9. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil do Estado do Maranhão, concurso 2017/2018, Cargo 3 — Médico Legista, questão 28.** A questão tratava de perícia e exames periciais, mas foi **anulada** no gabarito definitivo por divergência na literatura sobre uma de suas opções. Foi auditada e **não foi usada** como questão anterior na U150.  
    Justificativa oficial: https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/PC_MA_17_APC_JUSTIFICATIVAS_DE_ALTERA____ES_DE_GABARITO.PDF
 
 ## Proveniência e fronteiras
