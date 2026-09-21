@@ -239,6 +239,12 @@ A lista do artigo 3º reúne **meios de obtenção da prova**, isto é, técnica
 
 Não trate colaboração premiada, por exemplo, como se as declarações do colaborador fossem prova autossuficiente.
 
+### 9.1 Contratação sigilosa de recursos técnicos — §§ 1º e 2º
+
+Havendo necessidade justificada de preservar sigilo sobre a capacidade investigatória, o artigo 3º admite contratação sem licitação de serviços técnicos especializados, aquisição ou locação de equipamentos destinados à polícia judiciária para rastreamento e obtenção de provas ligadas à captação ambiental e à interceptação.
+
+O § 2º ainda contém remissão textual à antiga Lei nº 8.666/1993 quanto à dispensa de publicação e manda comunicar o órgão de controle interno. Como a Lei nº 8.666/1993 foi posteriormente revogada, a remissão histórica deve ser reconhecida sem transformar esse texto em autorização para ignorar o regime de contratação pública vigente.
+
 ---
 
 # Parte III — Colaboração premiada
@@ -387,6 +393,8 @@ Se a proposta não atende aos requisitos:
 - o juiz pode recusar a homologação;
 - devolve às partes para adequações.
 
+Antes de conceder benefícios pactuados, o juiz ou tribunal deve, nas hipóteses do § 7º-A, fazer análise fundamentada do mérito da denúncia, do perdão judicial e das etapas iniciais da aplicação da pena, ressalvadas as situações legais de não oferecimento de denúncia ou sentença já proferida.
+
 Cláusulas de renúncia ao direito de impugnar a decisão homologatória são nulas.
 
 ---
@@ -465,6 +473,8 @@ O acordo deve ser escrito e conter, entre outros:
 - aceitação do colaborador e defensor;
 - assinaturas;
 - medidas de proteção, quando necessárias.
+
+O pedido de homologação é distribuído sigilosamente e o juiz decide em **48 horas**.
 
 O acordo e os depoimentos permanecem em sigilo:
 
@@ -875,9 +885,20 @@ Se for determinado depoimento do investigado:
 
 ---
 
-# Parte XI — Fronteiras essenciais
+# Parte XI — Disposições finais e fronteiras
 
-## 32. Organização criminosa × associação criminosa
+## 32. Artigos 24 a 27: efeitos legislativos e vigência
+
+A Lei nº 12.850/2013:
+
+- deu nova redação, à época, ao artigo 288 do Código Penal, substituindo a antiga figura de quadrilha ou bando pela associação criminosa;
+- alterou a pena do falso testemunho/perícia do artigo 342 do Código Penal;
+- revogou a Lei nº 9.034/1995;
+- entrou em vigor **45 dias após a publicação oficial**.
+
+O artigo 288 recebeu alterações posteriores, inclusive da Lei nº 15.245/2025. Por isso, quando a questão cobrar a associação criminosa **atual**, use o Código Penal vigente estudado na U089, e não apenas a redação histórica transcrita no artigo 24 da Lei nº 12.850/2013.
+
+## 33. Organização criminosa × associação criminosa
 
 | Critério | Organização criminosa — Lei 12.850 | Associação criminosa — Código Penal |
 |---|---|---|
@@ -891,7 +912,7 @@ A diferença não é apenas quantitativa.
 
 ---
 
-## 33. U139 × U140
+## 34. U139 × U140
 
 U139:
 
@@ -915,7 +936,7 @@ Não transforme o novo marco em “reforma da Lei nº 12.850/2013” se a própr
 
 # Parte XII — Jurisprudência de alto rendimento
 
-## 34. Delegado pode celebrar colaboração — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.508/<abbr title="Supremo Tribunal Federal">STF</abbr>
+## 35. Delegado pode celebrar colaboração — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.508/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 O Supremo Tribunal Federal validou a legitimidade do delegado para celebrar acordo de colaboração premiada na fase do inquérito, observadas:
 
@@ -925,7 +946,7 @@ O Supremo Tribunal Federal validou a legitimidade do delegado para celebrar acor
 
 ---
 
-## 35. Direito ao silêncio — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.567/<abbr title="Supremo Tribunal Federal">STF</abbr>
+## 36. Direito ao silêncio — <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.567/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 O Supremo:
 
@@ -935,7 +956,7 @@ O Supremo:
 
 ---
 
-## 36. Corroboração — Superior Tribunal de Justiça
+## 37. Corroboração — Superior Tribunal de Justiça
 
 A regra legal impede:
 
@@ -949,7 +970,7 @@ Em 2025, a Corte Especial do Superior Tribunal de Justiça reafirmou que condena
 
 ---
 
-## 37. Tema 1.441/<abbr title="Supremo Tribunal Federal">STF</abbr>
+## 38. Tema 1.441/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 Tema sobre colaboração de advogado investigado e sigilo profissional.
 
@@ -964,7 +985,7 @@ Questão de prova que atribua ao Supremo uma tese final nesse tema, nessa data, 
 
 # Parte XIII — Pegadinhas finais
 
-## 38. Vinte e quatro erros frequentes
+## 39. Vinte e quatro erros frequentes
 
 1. “Organização criminosa = 3 pessoas.” Errado: **4+**.
 2. “Divisão de tarefas precisa ser formal.” Errado.
@@ -993,7 +1014,7 @@ Questão de prova que atribua ao Supremo uma tese final nesse tema, nessa data, 
 
 ---
 
-## 39. Recuperação ativa
+## 40. Recuperação ativa
 
 Sem consultar:
 
