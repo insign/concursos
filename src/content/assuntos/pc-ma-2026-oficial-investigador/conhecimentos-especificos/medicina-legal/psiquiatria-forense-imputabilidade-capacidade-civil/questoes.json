@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u155-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Psiquiatria Forense, a presença de um diagnóstico psiquiátrico",
+      "options": [
+        {
+          "id": "A",
+          "text": "determina automaticamente inimputabilidade penal."
+        },
+        {
+          "id": "B",
+          "text": "é um dado relevante, mas deve ser relacionado ao funcionamento, ao momento e à pergunta jurídica examinada."
+        },
+        {
+          "id": "C",
+          "text": "substitui a avaliação de entendimento e autodeterminação."
+        },
+        {
+          "id": "D",
+          "text": "prova incapacidade civil global."
+        },
+        {
+          "id": "E",
+          "text": "dispensa fontes colaterais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Diagnóstico clínico e categoria jurídica não se sobrepõem automaticamente. A perícia precisa avaliar efeito funcional, nexo temporal e objeto jurídico."
+    },
+    {
+      "id": "u155-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença mais adequada entre imputabilidade e responsabilidade penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas são conclusões exclusivamente médicas."
+        },
+        {
+          "id": "B",
+          "text": "imputabilidade é sinônimo de condenação."
+        },
+        {
+          "id": "C",
+          "text": "imputabilidade envolve capacidade relevante ao fato; responsabilidade penal é conclusão jurídica do sistema de justiça."
+        },
+        {
+          "id": "D",
+          "text": "responsabilidade é determinada apenas pelo diagnóstico."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença conceitual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A perícia subsidia a avaliação da imputabilidade; a atribuição de responsabilidade penal é jurídica e não pertence ao perito isoladamente."
+    },
+    {
+      "id": "u155-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 26 do Código Penal exige examinar, no momento da ação ou omissão,",
+      "options": [
+        {
+          "id": "A",
+          "text": "capacidade de entender o caráter ilícito e de determinar-se segundo esse entendimento."
+        },
+        {
+          "id": "B",
+          "text": "apenas inteligência escolar."
+        },
+        {
+          "id": "C",
+          "text": "somente presença de doença mental."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente memória de longo prazo."
+        },
+        {
+          "id": "E",
+          "text": "apenas capacidade civil patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os eixos funcionais são entendimento e autodeterminação, ligados à condição mental e ao momento do fato."
+    },
+    {
+      "id": "u155-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A avaliação médico-legal de imputabilidade é predominantemente",
+      "options": [
+        {
+          "id": "A",
+          "text": "prospectiva, sem relação com o fato passado."
+        },
+        {
+          "id": "B",
+          "text": "limitada ao estado mental no dia da entrevista."
+        },
+        {
+          "id": "C",
+          "text": "independente de prontuários e testemunhos."
+        },
+        {
+          "id": "D",
+          "text": "retrospectiva, buscando reconstruir o estado mental no momento juridicamente relevante."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente psicométrica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O perito examina o presente, mas precisa reconstruir retrospectivamente as capacidades no momento da ação ou omissão."
+    },
+    {
+      "id": "u155-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa está sem sintomas psicóticos no dia da perícia, meses após o fato. A conclusão mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela necessariamente estava sem sintomas no dia do fato."
+        },
+        {
+          "id": "B",
+          "text": "o estado atual deve ser integrado ao histórico e a fontes colaterais para reconstruir o estado mental no fato."
+        },
+        {
+          "id": "C",
+          "text": "não é possível realizar qualquer perícia retrospectiva."
+        },
+        {
+          "id": "D",
+          "text": "a ausência atual de sintomas prova plena imputabilidade passada."
+        },
+        {
+          "id": "E",
+          "text": "o diagnóstico anterior torna a análise do fato desnecessária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Estado atual e estado passado não são equivalentes. A reconstrução exige cronologia, registros, relatos e relação entre sintomas e comportamento."
+    },
+    {
+      "id": "u155-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O incidente de insanidade mental previsto no Código de Processo Penal serve, no recorte desta unidade, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir a sentença criminal."
+        },
+        {
+          "id": "B",
+          "text": "decretar curatela civil automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "viabilizar exame médico-legal quando houver dúvida sobre a integridade mental do acusado."
+        },
+        {
+          "id": "D",
+          "text": "definir pena por decisão do perito."
+        },
+        {
+          "id": "E",
+          "text": "dispensar o exame clínico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 149 do CPP abre a via processual para avaliação médico-legal quando há dúvida sobre integridade mental; os efeitos jurídicos pertencem ao processo."
+    },
+    {
+      "id": "u155-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'doença mental' do artigo 26 deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "um único diagnóstico psiquiátrico moderno."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo automático de esquizofrenia."
+        },
+        {
+          "id": "C",
+          "text": "prova automática de incapacidade."
+        },
+        {
+          "id": "D",
+          "text": "categoria legal ampla cuja relevância depende do efeito funcional concreto no caso."
+        },
+        {
+          "id": "E",
+          "text": "categoria exclusiva do direito civil."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão legal não corresponde a uma única categoria diagnóstica contemporânea e não elimina a análise funcional."
+    },
+    {
+      "id": "u155-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à expressão 'desenvolvimento mental incompleto ou retardado', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser preservada quando se cita a literalidade legal, mas não usada como rótulo clínico contemporâneo da pessoa."
+        },
+        {
+          "id": "B",
+          "text": "é a nomenclatura clínica moderna preferencial."
+        },
+        {
+          "id": "C",
+          "text": "equivale automaticamente a deficiência intelectual."
+        },
+        {
+          "id": "D",
+          "text": "gera incapacidade civil absoluta em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "dispensa avaliação de funcionamento adaptativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A redação é histórica e legal. A terminologia clínica atual é diferente, e a equivalência jurídica/diagnóstica não pode ser automática."
+    },
+    {
+      "id": "u155-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O edital usa 'perturbação mental', enquanto o parágrafo único do artigo 26 usa",
+      "options": [
+        {
+          "id": "A",
+          "text": "deficiência civil."
+        },
+        {
+          "id": "B",
+          "text": "perturbação de saúde mental."
+        },
+        {
+          "id": "C",
+          "text": "transtorno de personalidade obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "doença neurológica exclusiva."
+        },
+        {
+          "id": "E",
+          "text": "incapacidade econômica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diferença literal deve ser preservada. O Código Penal emprega 'perturbação de saúde mental'."
+    },
+    {
+      "id": "u155-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de sintomas psicóticos",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre elimina entendimento e autodeterminação."
+        },
+        {
+          "id": "B",
+          "text": "sempre preserva imputabilidade."
+        },
+        {
+          "id": "C",
+          "text": "deve ser relacionada ao momento, à intensidade e ao efeito sobre entendimento e autodeterminação."
+        },
+        {
+          "id": "D",
+          "text": "define automaticamente curatela."
+        },
+        {
+          "id": "E",
+          "text": "dispensa exame do comportamento no fato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Psicose pode ou não produzir comprometimento juridicamente relevante; o nexo funcional precisa ser demonstrado."
+    },
+    {
+      "id": "u155-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na avaliação de deficiência intelectual, é inadequado concluir apenas com base em",
+      "options": [
+        {
+          "id": "A",
+          "text": "funcionamento adaptativo."
+        },
+        {
+          "id": "B",
+          "text": "comunicação e autonomia prática."
+        },
+        {
+          "id": "C",
+          "text": "histórico do desenvolvimento."
+        },
+        {
+          "id": "D",
+          "text": "habilidades sociais."
+        },
+        {
+          "id": "E",
+          "text": "um número isolado de quociente intelectual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A avaliação moderna considera funcionamento intelectual e adaptativo, além de contexto e início no desenvolvimento; um escore isolado não resolve a questão forense."
+    },
+    {
+      "id": "u155-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um diagnóstico de transtorno de personalidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna o indivíduo necessariamente inimputável."
+        },
+        {
+          "id": "B",
+          "text": "não determina, por si, perda de entendimento, autodeterminação ou capacidade civil."
+        },
+        {
+          "id": "C",
+          "text": "é sinônimo de incapacidade absoluta."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer ato civil."
+        },
+        {
+          "id": "E",
+          "text": "substitui a análise pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O efeito jurídico não decorre do rótulo diagnóstico, mas do funcionamento relevante para a questão examinada."
+    },
+    {
+      "id": "u155-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fontes colaterais em Psiquiatria Forense são importantes porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ajudam a reconstruir cronologia, funcionamento e consistência para além do relato do periciado."
+        },
+        {
+          "id": "B",
+          "text": "servem apenas para confirmar o que o periciado disse."
+        },
+        {
+          "id": "C",
+          "text": "substituem obrigatoriamente a entrevista."
+        },
+        {
+          "id": "D",
+          "text": "devem ser ignoradas por falta de sigilo."
+        },
+        {
+          "id": "E",
+          "text": "definem a conclusão jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Prontuários, familiares, testemunhos e outros registros podem documentar estado e comportamento próximos ao fato e reduzir dependência de uma única narrativa."
+    },
+    {
+      "id": "u155-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Testes psicológicos, neuropsicológicos ou instrumentos estruturados",
+      "options": [
+        {
+          "id": "A",
+          "text": "decidem sozinhos a imputabilidade."
+        },
+        {
+          "id": "B",
+          "text": "substituem o exame clínico e documental."
+        },
+        {
+          "id": "C",
+          "text": "produzem automaticamente uma conclusão de incapacidade civil."
+        },
+        {
+          "id": "D",
+          "text": "podem auxiliar a avaliação, mas seus resultados devem ser integrados ao conjunto pericial."
+        },
+        {
+          "id": "E",
+          "text": "são sempre obrigatórios em qualquer perícia."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Instrumentos são auxiliares; a conclusão exige integração clínica, funcional, documental e contextual."
+    },
+    {
+      "id": "u155-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Simulação e dissimulação distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "simulação é ocultar sintomas e dissimulação é produzi-los."
+        },
+        {
+          "id": "B",
+          "text": "ambas significam doença mental."
+        },
+        {
+          "id": "C",
+          "text": "simulação envolve produzir ou exagerar sintomas; dissimulação envolve ocultá-los."
+        },
+        {
+          "id": "D",
+          "text": "simulação pode ser presumida em qualquer relato incomum."
+        },
+        {
+          "id": "E",
+          "text": "dissimulação sempre prova imputabilidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As duas são hipóteses de consistência, não diagnósticos automáticos. Devem ser fundamentadas em dados objetivos e convergentes."
+    },
+    {
+      "id": "u155-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação pericial psiquiátrica difere da relação terapêutica porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o perito tem compromisso de defender a versão do periciado."
+        },
+        {
+          "id": "B",
+          "text": "o exame pericial visa tratamento longitudinal."
+        },
+        {
+          "id": "C",
+          "text": "o perito não precisa informar a finalidade do exame."
+        },
+        {
+          "id": "D",
+          "text": "o perito atua como advogado técnico de uma parte."
+        },
+        {
+          "id": "E",
+          "text": "a finalidade é avaliativa e elucidativa para uma questão externa, com dever de imparcialidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A perícia não é consulta terapêutica; o examinado deve conhecer a finalidade e o perito deve manter imparcialidade, objetividade e limites do objeto."
+    },
+    {
+      "id": "u155-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Código Civil vigente, são absolutamente incapazes de exercer pessoalmente os atos da vida civil",
+      "options": [
+        {
+          "id": "A",
+          "text": "os menores de 16 anos."
+        },
+        {
+          "id": "B",
+          "text": "todas as pessoas com deficiência."
+        },
+        {
+          "id": "C",
+          "text": "todas as pessoas com transtorno mental."
+        },
+        {
+          "id": "D",
+          "text": "todos os idosos."
+        },
+        {
+          "id": "E",
+          "text": "todas as pessoas sob tratamento psiquiátrico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Após a Lei Brasileira de Inclusão, o artigo 3º do Código Civil mantém como absolutamente incapazes apenas os menores de 16 anos."
+    },
+    {
+      "id": "u155-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 4º do Código Civil inclui entre os relativamente incapazes",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda pessoa com deficiência."
+        },
+        {
+          "id": "B",
+          "text": "qualquer pessoa com diagnóstico psiquiátrico."
+        },
+        {
+          "id": "C",
+          "text": "toda pessoa maior de 70 anos."
+        },
+        {
+          "id": "D",
+          "text": "quem, por causa transitória ou permanente, não puder exprimir sua vontade, além das demais hipóteses legais."
+        },
+        {
+          "id": "E",
+          "text": "todo usuário de medicamento psicotrópico."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A incapacidade relativa é definida pelas hipóteses legais atuais; diagnóstico psiquiátrico isolado não aparece como regra automática."
+    },
+    {
+      "id": "u155-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Brasileira de Inclusão estabelece que a deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "retira automaticamente a plena capacidade civil."
+        },
+        {
+          "id": "B",
+          "text": "não afeta, por si, a plena capacidade civil da pessoa."
+        },
+        {
+          "id": "C",
+          "text": "impede casamento e direitos reprodutivos."
+        },
+        {
+          "id": "D",
+          "text": "gera curatela obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "elimina o direito ao voto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º da LBI afirma expressamente que a deficiência não afeta a plena capacidade civil, inclusive nos direitos pessoais enumerados pela lei."
+    },
+    {
+      "id": "u155-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A curatela da pessoa com deficiência, segundo a Lei Brasileira de Inclusão,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é regra geral e permanente."
+        },
+        {
+          "id": "B",
+          "text": "atinge necessariamente todos os atos pessoais."
+        },
+        {
+          "id": "C",
+          "text": "é extraordinária, proporcional e limitada, quando necessária, aos atos de natureza patrimonial e negocial."
+        },
+        {
+          "id": "D",
+          "text": "impede casamento e voto."
+        },
+        {
+          "id": "E",
+          "text": "substitui automaticamente toda decisão da pessoa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A LBI limita a curatela e preserva direitos pessoais; a medida deve ser excepcional, proporcional e pelo menor tempo possível."
+    },
+    {
+      "id": "u155-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A curatela, nos termos do artigo 85 da Lei Brasileira de Inclusão, não alcança automaticamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "direitos patrimoniais."
+        },
+        {
+          "id": "B",
+          "text": "atos negociais."
+        },
+        {
+          "id": "C",
+          "text": "administração patrimonial nos limites fixados."
+        },
+        {
+          "id": "D",
+          "text": "questões econômicas abrangidas pela decisão."
+        },
+        {
+          "id": "E",
+          "text": "corpo, sexualidade, matrimônio, privacidade, educação, saúde, trabalho e voto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei exclui expressamente esses direitos pessoais do alcance da curatela."
+    },
+    {
+      "id": "u155-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tomada de decisão apoiada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "processo em que a pessoa escolhe apoiadores de confiança para auxiliá-la na tomada de decisões civis, preservando seu protagonismo."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo de interdição total."
+        },
+        {
+          "id": "C",
+          "text": "medida penal de segurança."
+        },
+        {
+          "id": "D",
+          "text": "curatela automática de todos os atos."
+        },
+        {
+          "id": "E",
+          "text": "declaração médica unilateral de incapacidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1.783-A do Código Civil cria mecanismo de apoio escolhido pela própria pessoa, distinto da curatela."
+    },
+    {
+      "id": "u155-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença temporal mais importante entre avaliação de imputabilidade penal e avaliação de capacidade civil é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas examinam sempre e apenas o presente."
+        },
+        {
+          "id": "B",
+          "text": "ambas examinam sempre e apenas o passado."
+        },
+        {
+          "id": "C",
+          "text": "a civil é sempre retrospectiva ao momento do crime."
+        },
+        {
+          "id": "D",
+          "text": "a imputabilidade é retrospectiva ao momento do fato; a capacidade civil frequentemente examina funcionamento atual para atos concretos."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença temporal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As perguntas jurídicas são distintas: penal olha o estado no fato; civil frequentemente examina capacidade atual e necessidades presentes."
+    },
+    {
+      "id": "u155-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa teve episódio psicótico grave no passado, mas hoje está estável e exerce atos civis com autonomia. É correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o comprometimento passado prova incapacidade civil atual."
+        },
+        {
+          "id": "B",
+          "text": "as respostas periciais podem ser diferentes porque penal e civil examinam momentos e funções distintas."
+        },
+        {
+          "id": "C",
+          "text": "a estabilidade atual prova plena imputabilidade no fato passado."
+        },
+        {
+          "id": "D",
+          "text": "um diagnóstico antigo torna qualquer avaliação atual inútil."
+        },
+        {
+          "id": "E",
+          "text": "a pessoa deve necessariamente ser curatelada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mesma pessoa pode ter apresentado comprometimento relevante no passado e hoje possuir capacidade ampla; objeto e tempo definem a avaliação."
+    },
+    {
+      "id": "u155-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um laudo de imputabilidade bem construído deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "limitar-se ao nome do diagnóstico."
+        },
+        {
+          "id": "B",
+          "text": "omitir as fontes colaterais."
+        },
+        {
+          "id": "C",
+          "text": "separar dados, estado atual, reconstrução do estado no fato, nexo sintoma-conduta, entendimento, autodeterminação e limites."
+        },
+        {
+          "id": "D",
+          "text": "decidir a pena."
+        },
+        {
+          "id": "E",
+          "text": "concluir obrigatoriamente sobre curatela."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O raciocínio pericial deve tornar explícita a passagem entre dados, funcionamento no momento do fato e conclusão técnica."
+    },
+    {
+      "id": "u155-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em perícia cujo objeto é exclusivamente imputabilidade penal, o perito",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve sempre decretar curatela."
+        },
+        {
+          "id": "B",
+          "text": "deve concluir sobre todos os atos da vida civil."
+        },
+        {
+          "id": "C",
+          "text": "deve recomendar interdição global por qualquer transtorno."
+        },
+        {
+          "id": "D",
+          "text": "pode substituir o juiz nas questões civis."
+        },
+        {
+          "id": "E",
+          "text": "deve ater-se ao objeto e não concluir automaticamente sobre capacidade civil ou curatela sem avaliação específica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A ética pericial exige aderência ao objeto. Questões civis precisam de avaliação própria quando forem juridicamente relevantes."
+    },
+    {
+      "id": "u155-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 24 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, assinale a formulação correta sobre imputabilidade e responsabilidade penal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A imputabilidade é decidida exclusivamente pelo juiz sem apoio pericial."
+        },
+        {
+          "id": "B",
+          "text": "A imputabilidade pode ser objeto de avaliação médico-legal das capacidades mentais, enquanto a responsabilidade penal é conclusão jurídica."
+        },
+        {
+          "id": "C",
+          "text": "Responsabilidade penal e capacidade civil são sinônimos."
+        },
+        {
+          "id": "D",
+          "text": "Todo diagnóstico psiquiátrico exclui responsabilidade."
+        },
+        {
+          "id": "E",
+          "text": "O perito define sozinho a condenação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial distinguiu imputabilidade como objeto passível de avaliação pericial e responsabilidade penal como atribuição jurídica. A adaptação preserva essa separação."
+    },
+    {
+      "id": "u155-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 32 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, o artigo 26 do Código Penal exige, para o caput,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas diagnóstico de doença mental."
+        },
+        {
+          "id": "B",
+          "text": "perturbação de saúde mental com qualquer efeito mínimo."
+        },
+        {
+          "id": "C",
+          "text": "doença mental ou desenvolvimento mental incompleto/retardado associada a incapacidade inteira de entendimento ou autodeterminação no momento do fato."
+        },
+        {
+          "id": "D",
+          "text": "qualquer transtorno de personalidade."
+        },
+        {
+          "id": "E",
+          "text": "incapacidade civil declarada anteriormente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão oficial cobrou os modificadores da imputabilidade e a literalidade dos artigos 26 a 28. No caput do artigo 26, condição legal relevante deve estar ligada a incapacidade total no momento da ação ou omissão."
+    }
+  ]
+}
