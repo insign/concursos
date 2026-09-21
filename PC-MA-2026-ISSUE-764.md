@@ -43,30 +43,30 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U141; PC-E14 — Legislação Especial está concluído e PC-E15 — Direitos Humanos permanece `pending`; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U142; PC-E14 — Legislação Especial está concluído e PC-E15 — Direitos Humanos permanece `pending`; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 17 | 0 | 141 |
-| Entregáveis de unidade C/H/Q | 474 | 51 | 0 | 423 |
+| Unidades reais previstas | 158 | 16 | 0 | 142 |
+| Entregáveis de unidade C/H/Q | 474 | 48 | 0 | 426 |
 | Tarefas macro individualizadas | 62 | 20 | 0 | 42 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U141` e `U144` = **141 unidades**. Pendentes: `U075`, `U142–U143`, `U145–U158` = **17 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U142` e `U144` = **142 unidades**. Pendentes: `U075`, `U143`, `U145–U158` = **16 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **143 = 126 físicas locais + 17 vínculos canônicos**. U141 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 143 visões materializadas com 141 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **143 = 126 físicas locais + 17 vínculos canônicos**. O aceite de U142 não acrescentou visão: sua visão física já havia sido publicada antes desta retomada e já integrava a contagem. Não confundir 143 visões materializadas com 142 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U141: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U142: **nenhuma**. PC-R04 permanece `pending`, agora com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima intervenção habilitada: U142 — `teoria-geral-direitos-humanos`**, unidade parcial com C/H/Q `pending` e reserva antiga explicitamente liberada. A execução deve coordenar o reaproveitamento parcial de PC-R04 com PC-E15, sem inferir título, origem ou recorte além do que estiver materializado na `main` e nas fontes da campanha.
+**Próxima intervenção habilitada: preparação individual de PC-E15 para U143 e U145–U148.** U144 permanece `done`; os títulos/recortes das demais unidades ainda não estão materializados neste registro e devem ser reconstruídos do edital oficial e da `main` antes de selecionar U143, sem inferência por memória ou numeração.
 
 ### Pendências e divergências herdadas
 
 | Registro | Situação recebida | Tratamento |
 |---|---|---|
 | U075 | Visão física publicada, sem aceite operacional; divergência já registrada | Preservar e pular; não transformar publicação física em aceite nem reabrir outras unidades |
-| U142 | `teoria-geral-direitos-humanos`, C/H/Q `pending`; reserva antiga explicitamente liberada | Não considerar a reserva antiga ativa; auditar quando selecionada |
+| U142 | `teoria-geral-direitos-humanos`, C/H/Q `done`; visão física publicada anteriormente e reaproveitamento parcial auditado nesta intervenção | Origem canônica `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais`; proveniência, lacunas, cortes e evidência materializados abaixo |
 | PC-P02–PC-P05 | Referências genéricas à implantação, mas ausência das quatro linhas próprias | Distinguir 66 previstas de 62 verificáveis; não inventar restauração, estado ou aceite |
 | Programa e matriz antigos | O corpo recebido remete parte das definições e da transcrição integral a registros anteriores que já não estavam nele | Preservar o que está materializado abaixo; ausência de título, recorte, origem ou SHA é lacuna documental herdada, não licença para adivinhá-los |
 | U081–U087 | Checklists e evidências de aceite `done`, mas linhas da matriz de planejamento ainda `pending` | Os dois registros são explicitados na matriz abaixo; nenhuma normalização silenciosa nesta migração |
@@ -139,7 +139,7 @@ O corte legislativo adotado é **13/7/2026**. Não aplicá-lo automaticamente a 
 - [x] PC-R01 — `done` — Inventário integral do acervo candidato, consumidores e artefatos concluído conforme evidência registrada na campanha; detalhamento antigo parcialmente ausente no corpo recebido.
 - [x] PC-R02 — `done` — Classificação das 158 unidades: 17 integrais, 42 parciais e 99 novas, conforme seção 5.
 - [x] PC-R03 — `done` — 17/17 unidades integrais implantadas por vínculo canônico conforme aceite recebido; revalidar origens antes de editar.
-- [ ] PC-R04 — `pending` — Preparar/publicar cópias parciais locais após completar suas lacunas, preservando proveniência e identidades. 40/42 aceitas; U075 divergente e U142 pendente.
+- [ ] PC-R04 — `pending` — Preparar/publicar cópias parciais locais após completar suas lacunas, preservando proveniência e identidades. **41/42 aceitas**; somente U075 permanece divergente/pendente.
 - [x] PC-R05 — `done` — Lacunas, unidades novas e dependências consolidadas conforme aceite recebido, sem inventar o detalhamento antigo ausente.
 
 ### Produção por bloco
@@ -224,7 +224,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U101 | Direito Administrativo; parcial | C/H/Q done; aceite recebido sem detalhamento antigo suficiente neste corpo |
 | U112–U122 | Direito Constitucional; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; evidências individuais na seção 8 |
 | U123–U141 | Legislação Especial; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E14-PLANEJAMENTO-20260920T1155-01`; ver seção 7 |
-| U142 | Direitos Humanos; parcial; `teoria-geral-direitos-humanos` | C/H/Q pending; reserva PC-R04-U142-20260915-01 explicitamente liberada |
+| U142 | Direitos Humanos; parcial; `teoria-geral-direitos-humanos` | C/H/Q done; origem canônica `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais` auditada integralmente; publicação física original `6284f683b02d1365ee665cc5f84c61dfc344ac8c`; referências/proveniência corrigidas em `996d97373c59761d0b31e70b95183cf4192646a1`; detalhamento abaixo |
 | U143; U145–U148 | Direitos Humanos; novas | C/H/Q pending; detalhes individuais ausentes |
 | U144 | Direitos Humanos; parcial | C/H/Q done; não importar novo aceite nem inventar origem ausente |
 | U149–U155 | Medicina Legal; novas | C/H/Q pending; detalhes individuais ausentes |
@@ -479,8 +479,19 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**PC-E14 concluído:** U123–U141 estão C/H/Q `done`; PC-E14-C/H/Q passa a `done`. A próxima intervenção habilitada da campanha é U142 — `teoria-geral-direitos-humanos`, unidade parcial ainda `pending`, com a reserva antiga liberada.
+**PC-E14 concluído:** U123–U141 estão C/H/Q `done`; PC-E14-C/H/Q passa a `done`.
 
+### Direitos Humanos — PC-E15 / U142 materializada
+
+O detalhamento histórico das sete unidades U142–U148 ainda não estava integralmente preservado no registro recebido. Nesta intervenção foi materializada **somente U142**, cuja visão física já existia na `main`; U143 e U145–U148 permanecem sem títulos/recortes individualizados neste arquivo e devem ser preparados a partir do edital oficial antes da próxima produção. U144 conserva seu aceite herdado, sem nova inferência documental.
+
+Grupo existente: `conhecimentos-especificos/direitos-humanos/`, título **Direitos Humanos**, ordem **6**, blob `dcdda844f95a0f401cdb1e943b02c1c8e68972c1`. Consumidor U142: `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`; identidade `pc-u142`, ordem 142, destino físico `conhecimentos-especificos/direitos-humanos/teoria-geral-direitos-humanos/`.
+
+| Edital | ID / título / slug | Recorte e destino | Origem / reaproveitamento / fronteiras | Consumidor / corte / evidência | C | H | Q |
+|---|---|---|---|---|---|---|---|
+| 1; 1.1; 1.2 | U142 — Teoria geral dos direitos humanos — `teoria-geral-direitos-humanos` | Conceito, evolução, características, dimensões ou gerações e fundamentação dos direitos humanos; físico/local, `storageId: pc-u142`, ordem 142 | **Parcial/local** a partir do canônico `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais/`: conteúdo `10d5a904fd6faba4861d57d26cfce7ff5eed3929`, cheat `28b18575106d22fae5fa9a42e95da26ec35b2ba4`, referências `eefc2f1e7f696b52511add3830bdac33742496a9`, questões `96306012ef1081a4bbb67dc062dfc3eb557c3609`. Reaproveita distinções direitos humanos/fundamentais/do homem, características e três dimensões tradicionais; corta titulares/funções, eficácia, tratados/hierarquia, restrições/proporcionalidade e outros blocos constitucionais do doador; completa localmente evolução histórica e fundamentação. U113/U114 são fronteiras constitucionais | PC-MA; corte 13/7/2026. Publicação física original `6284f683b02d1365ee665cc5f84c61dfc344ac8c`; C/H/Q atuais permaneceram idênticos a essa publicação. Referências/proveniência atualizadas em `996d97373c59761d0b31e70b95183cf4192646a1`. Consumidores canônicos TCE-MA explicitamente ligados, vínculo blob `f855f9eb4a5b793882565737e9e2321bad1f0d64`; nenhum canônico foi alterado | done | done | done |
+
+**Próxima preparação habilitada:** materializar individualmente U143 e U145–U148 de PC-E15 a partir do edital oficial e da `main`, preservando U144 `done`. Não selecionar U143 por inferência antes dessa publicação documental.
 
 
 
@@ -575,6 +586,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U137 | `0ddbfa13780ee040563048fdc716998c39856b1f` | 40 + 2 | Cebraspe DPE-AC 2017, questão 31, gabarito C, sobre perigo abstrato do art. 310; PC-PE 2023, prova oral questão 4, padrão oficial sobre autonomia dos arts. 306/309 e Súmula 664/STJ; adaptações não literais |
 | U138 | `7391fe95fbad81d80fc251e3f1d259c97f8bb8fb` | 44 + 2 | Cebraspe TJ-MA 2022, questão 69, alternativa C, sobre ação privada subsidiária em crime eleitoral; PC-RJ Delegado 2022, prova discursiva Grupo 1/Ponto 1, sobre art. 350 e competência por conexão; adaptações não literais e atualizadas |
 | U139 | `516f2b70ee03625901405465906d66c74adbd173` | 44 + 2 | Cebraspe PC-RO 2022, questão 55, gabarito C, sobre ausência do juiz nas negociações de colaboração; PF Delegado oral 2019, questão 4, padrão oficial sobre legitimidade do delegado e ADI 5.508; adaptações não literais atualizadas |
+| U142 | `6284f683b02d1365ee665cc5f84c61dfc344ac8c` — C/H/Q aceitos sem regravação; referências finais em `996d97373c59761d0b31e70b95183cf4192646a1` | 18 + 2 | Cebraspe TRF6 2025, item 32, gabarito definitivo Certo, sobre liberdade de expressão/1ª dimensão; Cebraspe TCE-MG 2026, questão 29, gabarito definitivo E, sobre universalidade e indivisibilidade; adaptações não literais |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -665,24 +677,23 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U139 | `8579bed20b7a1095189b19ee1906ba89de4bce6a` | `ecffb8ca25256b85bb2ad0ef11b8aa571dbd482e` | `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e` | `6db4d2f061870894b6aecfb5fe31ae6b379876a2` |
 | U140 | `fee3c34f654c78e4ae297f3b45aba86c78f6707e` | `edcef283410a47219f0e2accd1c33acf7dcc8080` | `87bf3b961c725940bf8ab164a8c57d3449c00933` | `1854575e70621bde7eaec7d0124626f00fa4fedf` |
 | U141 | `d1177739c3d547bfd2280df3b74315d4812e4ea7` | `3d5da38701831594758d3162d6f69abe6e34a101` | `482324052ee4e96e52a8f35a1a18aae4fbaac80b` | `dfda2b6fdc1fd1cb388d34a11c7e90e760397188` |
+| U142 | `0d8f5960f4e2cc3b1d73d922c6eaa5f92fdba366` | `8d1e6cb5d767fed153fc3c087b8bf9f4e2fd4b71` | `56be3927280a0f76da8c6ca5334dc7ddce6507d9` | `45693b52bc4d7cf7f603c3b9b50d154266e43e72` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U141
+### Último aceite — U142
 
-Pacote de **Interceptação telefônica — Lei nº 9.296/1996**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u141`, `order: 141`. Snapshot editorial final `bb478c51c0f3b841f95fba5363378b71463bd593`; base reservada `30bd3cc642b1b6e1939a2976ff554e04296a3c74`. A comparação base→snapshot confirma **exatamente quatro arquivos da U141**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Teoria geral dos direitos humanos**: C/H/Q `done`, **parcial/local**, consumidor PC-MA, `storageId: pc-u142`, `order: 142`. A visão física e os quatro artefatos foram originalmente publicados no commit `6284f683b02d1365ee665cc5f84c61dfc344ac8c`; a auditoria desta retomada confirmou que `conteudo.md`, `cheat-sheet.md` e `questoes.json` permanecem byte-identical aos respectivos blobs daquela publicação. Não foi criado commit artificial para esses três arquivos. As únicas mudanças necessárias foram em `referencias.md`, concluídas em `996d97373c59761d0b31e70b95183cf4192646a1`; a comparação da base reservada `bfb7f8648a5369c7b9dc412afa33a062fb275a82` até esse snapshot toca **somente as referências da U142**.
 
-A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral compatível. U093 — prova no processo penal — foi lida integralmente como fronteira e já contém a teoria geral dos artigos 155–157 do Código de Processo Penal; U141 repete somente a ponte mínima necessária entre interceptação ilícita, nexo causal e fonte independente. U124 preserva o artigo 10 como efeito da Lei nº 13.869/2019 e U139 apenas remete à interceptação como meio de obtenção da prova. Nenhum conteúdo ou conjunto de questões desses vizinhos foi copiado como origem física.
+O recorte programático foi revalidado no edital oficial: item 1 — conceito, evolução e características; 1.1 — dimensões/gerações; 1.2 — características e fundamentação. A origem canônica parcial `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais/` foi lida integralmente, inclusive C/H/R/Q, e seus dois consumidores TCE-MA foram resolvidos por `vinculo.json` explícito. Nenhum arquivo da biblioteca ou desses consumidores foi alterado.
 
-Corte legislativo de **13/7/2026**: texto integral da Lei nº 9.296/1996 com as alterações das Leis nº 13.869/2019 e nº 13.964/2019. Foram revalidados os requisitos dos artigos 1º–5º, execução, autos apartados, sigilo, inutilização, captação ambiental dos artigos 8º-A e 10-A e crimes. O Tema 661/STF foi incorporado para renovações sucessivas motivadas; o Tema 977/STF para distinguir apreensão de celular e acesso a dados armazenados; serendipidade, competência aparente, degravação e identificação de voz foram limitadas aos precedentes oficiais pertinentes. As ADIs 3.450/4.112 foram registradas somente como controvérsia sobre iniciativa judicial de ofício na investigação, sem inventar tese final.
+Do doador foram aproveitados apenas os núcleos compatíveis — distinções entre direitos humanos, fundamentais e direitos do homem; características; e três dimensões tradicionais. Foram excluídos os blocos canônicos de garantias fundamentais, titulares/funções, aplicação/eficácia, eficácia horizontal, tratados e hierarquia, restrições/proporcionalidade, cláusula pétrea e articulação constitucional-internacional. As lacunas do doador para **evolução histórica** e **fundamentação** foram completadas localmente com fontes institucionais e primárias. U113 e U114 permanecem como fronteiras constitucionais; U142 não antecipa os demais itens de PC-E15.
 
-Cobertura pedagógica: conceito e distinções entre interceptação, escuta, gravação por interlocutor, quebra de sigilo, dados armazenados e captação ambiental; reserva de jurisdição; três impedimentos do artigo 2º; legitimados; pedido verbal e decisão em 24 horas; períodos de 15 dias e renovações; execução policial e acompanhamento ministerial; transcrição, auto circunstanciado, autos apartados e inutilização; ponte mínima com prova ilícita e derivada; encontro fortuito, competência e dados de celular; captação ambiental e crimes dos artigos 10 e 10-A.
+Foram aceitas **20 questões: 18 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais do item 32 do Cebraspe/TRF6 2025, gabarito definitivo Certo, e da questão 29 do Cebraspe/TCE-MG aplicada em 25/1/2026, gabarito definitivo E. O banco canônico mais amplo foi auditado, mas não copiado como conjunto. Nenhuma resolução separada foi necessária.
 
-Foram publicadas **40 questões: 38 autorais + 2 anteriores verificadas**, sem quota artificial. As anteriores são adaptações não literais da questão 49 do Cebraspe/PC-MA Escrivão 2018, gabarito definitivo C, sobre autos apartados/apensação, e da questão 4 da prova oral Cebraspe/PF Delegado 2021, com padrão oficial sobre natureza da interceptação, legitimados e crime de detenção conexo a crime de reclusão. Nenhuma resolução separada foi necessária.
+Densidade final: `conteudo.md` com **17.973 caracteres**, `cheat-sheet.md` com **3.387**, `referencias.md` com **8.119** e `questoes.json` com **17.776**. Microglossário final: **9 pares `abbr` no conteúdo, 5 no cheat sheet e 14 nas referências**, balanceados e sem títulos vazios; o JSON permanece texto puro. `questionSetRevision: 1`, **20 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
 
-Densidade final: `conteudo.md` com **28.885 caracteres**, `cheat-sheet.md` com **7.836**, `referencias.md` com **8.758** e `questoes.json` com **38.553**. Por ser unidade nova, não há crescimento relativo a doador. Microglossário pós-inspeção: **32 pares `abbr` no conteúdo, 13 no cheat sheet e 10 nas referências**, todos balanceados, sem aninhamento ou títulos vazios; o JSON permanece texto puro. `questionSetRevision: 1`, **40 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
-
-**PC-E14 — Legislação Especial está concluído:** U123–U141 estão C/H/Q `done`; as três macros PC-E14-C/H/Q passam a `done`. A próxima intervenção habilitada é U142 — `teoria-geral-direitos-humanos`, unidade parcial ainda `pending` e com a reserva antiga explicitamente liberada.
+**PC-R04 avança para 41/42 parciais aceitas**, restando apenas U075, que continua divergente/pendente. **PC-E15 permanece pending** porque U143 e U145–U148 ainda não foram executadas; U144 permanece `done`. A próxima intervenção habilitada é a preparação individual do restante de PC-E15, não a produção de U143 sem recorte publicado.
 
 ### Registros operacionais superados
 
