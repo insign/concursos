@@ -59,7 +59,7 @@ Visões consumidoras registradas: **143 = 126 físicas locais + 17 vínculos can
 
 Reservas ativas após o aceite de U142: **nenhuma**. PC-R04 permanece `pending`, agora com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima intervenção habilitada: preparação individual de PC-E15 para U143 e U145–U148.** U144 permanece `done`; os títulos/recortes das demais unidades ainda não estão materializados neste registro e devem ser reconstruídos do edital oficial e da `main` antes de selecionar U143, sem inferência por memória ou numeração.
+**Próxima ação editorial: U143 — Direito internacional dos direitos humanos e direito brasileiro — incorporação, hierarquia e relações internacionais**, C/H/Q `pending`, conforme o planejamento individual de PC-E15 materializado nesta intervenção. U142 e U144 permanecem `done`; U145–U148 seguem `pending`.
 
 ### Pendências e divergências herdadas
 
@@ -225,8 +225,8 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U112–U122 | Direito Constitucional; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; evidências individuais na seção 8 |
 | U123–U141 | Legislação Especial; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E14-PLANEJAMENTO-20260920T1155-01`; ver seção 7 |
 | U142 | Direitos Humanos; parcial; `teoria-geral-direitos-humanos` | C/H/Q done; origem canônica `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais` auditada integralmente; publicação física original `6284f683b02d1365ee665cc5f84c61dfc344ac8c`; referências/proveniência corrigidas em `996d97373c59761d0b31e70b95183cf4192646a1`; detalhamento abaixo |
-| U143; U145–U148 | Direitos Humanos; novas | C/H/Q pending; detalhes individuais ausentes |
-| U144 | Direitos Humanos; parcial | C/H/Q done; não importar novo aceite nem inventar origem ausente |
+| U143; U145–U148 | Direitos Humanos; novas | C/H/Q pending; planejamento individual materializado em 20/09/2026 sob `PC-E15-PLANEJAMENTO-20260920-01`; ver matriz de PC-E15 abaixo |
+| U144 | Direitos Humanos; parcial; `sistema-global-onu-dudh` | C/H/Q done; visão física resolvida na `main`, commit de publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; doador histórico não inferido; ver matriz de PC-E15 abaixo |
 | U149–U155 | Medicina Legal; novas | C/H/Q pending; detalhes individuais ausentes |
 | U156–U158 | Criminologia; novas | C/H/Q pending; detalhes individuais ausentes |
 
@@ -481,17 +481,69 @@ A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: 
 
 **PC-E14 concluído:** U123–U141 estão C/H/Q `done`; PC-E14-C/H/Q passa a `done`.
 
-### Direitos Humanos — PC-E15 / U142 materializada
+### Direitos Humanos — PC-E15 / U142–U148
 
-O detalhamento histórico das sete unidades U142–U148 ainda não estava integralmente preservado no registro recebido. Nesta intervenção foi materializada **somente U142**, cuja visão física já existia na `main`; U143 e U145–U148 permanecem sem títulos/recortes individualizados neste arquivo e devem ser preparados a partir do edital oficial antes da próxima produção. U144 conserva seu aceite herdado, sem nova inferência documental.
+Planejamento individual materializado em **20/09/2026**, token `PC-E15-PLANEJAMENTO-20260920-01`, base `6d4169eae57d50b59d010f28f0cc2f9bc479b18b`. Fonte programática: [Edital nº 1 — PCMA — Oficial Investigador, de 13/07/2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf), item 20.2.3, seção **DIREITOS HUMANOS**. A conferência textual e visual da página do programa confirma oito itens principais, 1–8, para sete IDs U142–U148 já preservados.
 
-Grupo existente: `conhecimentos-especificos/direitos-humanos/`, título **Direitos Humanos**, ordem **6**, blob `dcdda844f95a0f401cdb1e943b02c1c8e68972c1`. Consumidor U142: `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`; identidade `pc-u142`, ordem 142, destino físico `conhecimentos-especificos/direitos-humanos/teoria-geral-direitos-humanos/`.
+#### Programa literal preservado
 
-| Edital | ID / título / slug | Recorte e destino | Origem / reaproveitamento / fronteiras | Consumidor / corte / evidência | C | H | Q |
-|---|---|---|---|---|---|---|---|
-| 1; 1.1; 1.2 | U142 — Teoria geral dos direitos humanos — `teoria-geral-direitos-humanos` | Conceito, evolução, características, dimensões ou gerações e fundamentação dos direitos humanos; físico/local, `storageId: pc-u142`, ordem 142 | **Parcial/local** a partir do canônico `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais/`: conteúdo `10d5a904fd6faba4861d57d26cfce7ff5eed3929`, cheat `28b18575106d22fae5fa9a42e95da26ec35b2ba4`, referências `eefc2f1e7f696b52511add3830bdac33742496a9`, questões `96306012ef1081a4bbb67dc062dfc3eb557c3609`. Reaproveita distinções direitos humanos/fundamentais/do homem, características e três dimensões tradicionais; corta titulares/funções, eficácia, tratados/hierarquia, restrições/proporcionalidade e outros blocos constitucionais do doador; completa localmente evolução histórica e fundamentação. U113/U114 são fronteiras constitucionais | PC-MA; corte 13/7/2026. Publicação física original `6284f683b02d1365ee665cc5f84c61dfc344ac8c`; C/H/Q atuais permaneceram idênticos a essa publicação. Referências/proveniência atualizadas em `996d97373c59761d0b31e70b95183cf4192646a1`. Consumidores canônicos TCE-MA explicitamente ligados, vínculo blob `f855f9eb4a5b793882565737e9e2321bad1f0d64`; nenhum canônico foi alterado | done | done | done |
+1. Conceito, evolução e características dos direitos humanos.  
+   1.1 Dimensões/gerações de direitos humanos.  
+   1.2 Características e fundamentação.  
+2. Direito internacional dos direitos humanos e o direito brasileiro.  
+   2.1 Relação entre o direito internacional dos direitos humanos e o direito interno.  
+   2.2 Procedimento de incorporação dos tratados de direitos humanos na perspectiva da Constituição Federal.  
+   2.3 **Hierarquia dos tratados de direitos fundamentais na ordem jurídica interna brasileira.**  
+   2.4 Princípios que regem as relações internacionais do Brasil.  
+3. Sistema global de proteção dos direitos humanos.  
+   3.1 Organização das Nações Unidas (ONU).  
+   3.2 Declaração Universal dos Direitos Humanos (1948).  
+   3.3 Pacto Internacional de Direitos Civis e Políticos (1966).  
+   3.4 Pacto Internacional de Direitos Econômicos, Sociais e Culturais (1966).  
+4. Sistema Regional Interamericano de Proteção dos Direitos Humanos.  
+   4.1 Organização dos Estados Americanos (OEA).  
+   4.2 Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica).  
+   4.3 Comissão Interamericana de Direitos Humanos e Corte Interamericana de Direitos Humanos.  
+5. Controle de convencionalidade.  
+   5.1 Conceito, fundamentos e modalidades.  
+6. Direitos humanos na Constituição Federal de 1988.  
+   6.1 Dignidade da pessoa humana como fundamento da República.  
+7. Direitos e proteção de grupos vulneráveis.  
+8. Direitos humanos e atividade policial.  
+   8.1 Papel das forças de segurança na promoção e proteção dos direitos humanos.  
+   8.2 Prevenção e combate à tortura e aos maus-tratos.  
+   8.3 Regras de uso da força e de armas de fogo pela ONU.
 
-**Próxima preparação habilitada:** materializar individualmente U143 e U145–U148 de PC-E15 a partir do edital oficial e da `main`, preservando U144 `done`. Não selecionar U143 por inferência antes dessa publicação documental.
+O item **2.3** é mantido exatamente como publicado — “tratados de direitos fundamentais” —, sem correção silenciosa. Na produção, a expressão deve ser explicada no contexto dos itens 2.1–2.2 e das fontes constitucionais/internacionais, sem reescrever o edital.
+
+#### Decisão de divisão dos sete IDs
+
+U142 e U144 já possuem identidades e material publicado. A U144 cobre 3/3.1/3.2 e seu próprio conteúdo e cheat sheet remetem expressamente os Pactos de 1966 a **U145**; essa fronteira é preservada. Restam quatro blocos consecutivos para apenas dois IDs finais: por isso, **U147 reúne 5+6** e **U148 reúne 7+8**. Não há criação, renumeração ou deslocamento de IDs.
+
+- **U147 = controle de convencionalidade + proteção constitucional:** a junção é funcional porque o controle exige compreender o parâmetro internacional e sua articulação com a ordem interna; o art. 1º, III, funciona como âncora constitucional, sem repetir U113/U114.
+- **U148 = grupos vulneráveis + atividade policial:** a junção conecta proteção reforçada de pessoas/grupos em situação de vulnerabilidade aos deveres operacionais de segurança pública, prevenção de tortura e uso da força; estatutos e leis especiais já estudados entram apenas como pontes, não como repetição integral.
+
+Grupo existente: `conhecimentos-especificos/direitos-humanos/`, título **Direitos Humanos**, ordem **6**, blob `dcdda844f95a0f401cdb1e943b02c1c8e68972c1`. Consumidor comum: `pc-ma-2026-oficial-investigador` / `pcma-2026-invest`. Identidades preservadas `pc-u142`–`pc-u148`, ordens 142–148. Os cinco slugs novos foram pesquisados na `main` sem colisão; U144 conserva o slug publicado.
+
+A classificação PC-R02 permanece autoritativa: **U142 e U144 são parciais; U143 e U145–U148 são novas/locais**. Apoio temático não muda a classe nem autoriza `vinculo.json`. #765 e #766 não registram reserva concorrente desta origem nesta preparação.
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / dependências | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 1; 1.1; 1.2 | U142 — **Teoria geral dos direitos humanos** — conceito, evolução, características, dimensões/gerações e fundamentação | **parcial/local**; canônico auditado `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais/`: C `10d5a904fd6faba4861d57d26cfce7ff5eed3929`, H `28b18575106d22fae5fa9a42e95da26ec35b2ba4`, R `eefc2f1e7f696b52511add3830bdac33742496a9`, Q `96306012ef1081a4bbb67dc062dfc3eb557c3609` | `teoria-geral-direitos-humanos`; físico PC-MA + grupo; `pc-u142`; 142 | Reaproveita distinções humanos/fundamentais/do homem, características e dimensões; completa evolução/fundamentação; U113/U114 são fronteiras | PC-MA; corte 13/7/2026; publicação `6284f683b02d1365ee665cc5f84c61dfc344ac8c`, referências finais `996d97373c59761d0b31e70b95183cf4192646a1` | done | done | done |
+| 2; 2.1–2.4 | U143 — **Direito internacional dos direitos humanos e direito brasileiro — incorporação, hierarquia e relações internacionais** | **nova/local**; fontes primárias. Apoios parciais: canônico de teoria geral C `10d5a904fd6faba4861d57d26cfce7ff5eed3929`; U113 C `adf00fef2be25c59c6335db4f6dde1fc104fd3cc`; U114 C `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1` | `direito-internacional-direitos-humanos-brasil`; físico PC-MA + grupo; `pc-u143`; 143 | Ensinar relação internacional/interna, incorporação e hierarquia no Brasil e princípios do art. 4º; não reensinar teoria geral, direitos fundamentais ou remédios. Preservar a literalidade peculiar do item 2.3 | PC-MA; corte legislativo 13/7/2026; depende de U142 apenas como vocabulário; U113/U114 como fronteira | pending | pending | pending |
+| 3; 3.1–3.2 | U144 — **Sistema global de proteção dos direitos humanos: Nações Unidas e Declaração Universal** | **parcial/local, done**; origem física atual `sistema-global-onu-dudh/`, publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; blobs atuais C `2f98183d0de073ccddd9c416aa9a3801696fae0d`, H `5cbfbbcf9a754c042b0ad561834decb2188eb8f4`, R `6e0b74bc45b5513d11aeb632e9c9fe0dbf18f7a1`, Q `cde2bf84c2f54868d26f156027954624cd3aa7d0`. Doador histórico da classificação parcial não é inferido | `sistema-global-onu-dudh`; físico PC-MA + grupo; `pc-u144`; 144 | Sistema ONU, mecanismos básicos e DUDH. O canônico `nocoes-direitos-humanos/declaracao-universal-direitos-humanos/` é apoio compatível atual, não origem histórica presumida. A própria U144 fixa U145 para os Pactos | PC-MA; corte 13/7/2026; U142 como base conceitual; U145 recebe 3.3–3.4 | done | done | done |
+| 3.3–3.4 | U145 — **Pactos Internacionais de 1966 — direitos civis e políticos; direitos econômicos, sociais e culturais** | **nova/local**; fontes primárias dos dois Pactos e atos brasileiros de incorporação; sem doador integral localizado | `pactos-internacionais-direitos-humanos-1966`; físico PC-MA + grupo; `pc-u145`; 145 | Completar o sistema global iniciado em U144: natureza convencional, estrutura, direitos, obrigações e mecanismos indispensáveis dos dois Pactos. Não reescrever DUDH/ONU; protocolos facultativos só na ponte estritamente necessária ao mecanismo cobrado | PC-MA; corte 13/7/2026; depende de U144; U143 fornece incorporação/hierarquia brasileira | pending | pending | pending |
+| 4; 4.1–4.3 | U146 — **Sistema Interamericano de Direitos Humanos — OEA, Convenção Americana, Comissão e Corte** | **nova/local**; fontes primárias da OEA, Convenção Americana, Comissão e Corte; sem doador integral localizado | `sistema-interamericano-direitos-humanos`; físico PC-MA + grupo; `pc-u146`; 146 | Arquitetura regional, CADH, funções/competências de Comissão e Corte e fluxo essencial. Não antecipar controle de convencionalidade além da ponte para U147 | PC-MA; corte 13/7/2026; U143 fornece relação direito internacional/interno | pending | pending | pending |
+| 5; 5.1; 6; 6.1 | U147 — **Controle de convencionalidade e direitos humanos na Constituição Federal de 1988** | **nova/local**; fontes primárias interamericanas/constitucionais e jurisprudência oficial pertinente. Apoios: U113 C `adf00fef2be25c59c6335db4f6dde1fc104fd3cc`; U114 C `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1` | `controle-convencionalidade-direitos-humanos-constituicao`; físico PC-MA + grupo; `pc-u147`; 147 | Conceito, fundamentos e modalidades do controle; posição da dignidade e dos direitos humanos na CF/88 apenas no nível do item 6. Não duplicar princípios fundamentais, catálogo/remédios ou toda a teoria de tratados de U143 | PC-MA; corte legislativo 13/7/2026; jurisprudência conforme regra temporal do edital; depende de U143 e U146 | pending | pending | pending |
+| 7; 8; 8.1–8.3 | U148 — **Proteção de grupos vulneráveis e direitos humanos na atividade policial** | **nova/local**; fontes primárias internacionais e nacionais. Apoios incidentais atuais: U121 C `4695e1c104a6a83315627085cd3ddae31a5435bf`; U122 C `75a17df6ef8e7869147f51d989e18f8a2be09f52`; U126 C `764107eb9fe23ed1311620f320c0501934338f8e`; U129 C `2b3d303fcbe987f22a8755d4f64f5d69e9b34ff3`; U133 C `7a77f5e9cf314272185555db430de47f524fe5b4`; U136 C `65d1cdd00ff84cc73a70893c0a5ce493beddb78f`; canônico LBI C `f9f3c08165f23b4bd09896337e5e6fd3d3cf4273` | `grupos-vulneraveis-atividade-policial-direitos-humanos`; físico PC-MA + grupo; `pc-u148`; 148 | Construir proteção reforçada sem transformar o item 7 em repetição de estatutos; depois aplicar deveres de promoção/proteção à função policial, prevenção da tortura/maus-tratos e regras ONU de uso da força/armas de fogo. Leis especiais e grupos protegidos entram como pontes seletivas | PC-MA; corte 13/7/2026; U121 dá moldura da segurança pública; U142/U147 fornecem princípios; sem depender de leitura perfeita das unidades especiais | pending | pending | pending |
+
+#### Ordem e critérios de produção
+
+**Ordem habilitada após este planejamento:** U143 → U145 → U146 → U147 → U148; U144 é pulada por estar `done`. A sequência preserva pré-requisitos: incorporação/hierarquia antes dos tratados específicos, sistema global antes dos Pactos, sistema interamericano antes do controle de convencionalidade e fundamentos antes da aplicação policial.
+
+Para U143 e U145–U148, PC-R02 determina **nova/local**. Apoios acima são somente materiais de fronteira/reaproveitamento seletivo e devem ser lidos integralmente antes de qualquer cópia; nenhum autoriza vínculo ou importação automática de questões. Na produção, pesquisar fontes primárias e questões anteriores verificáveis sem quota, reconstruir o corte legislativo de 13/7/2026 e aplicar a regra jurisprudencial do edital. Não ampliar “grupos vulneráveis” por enumeração arbitrária: partir de categorias/proteções sustentadas pelas fontes oficiais pertinentes e ensinar as pontes com os diplomas já estudados.
+
+**Próxima unidade habilitada:** U143, C/H/Q `pending`. PC-E15-C/H/Q permanece `pending` até U143, U145–U148 serem concluídas; U142/U144 continuam `done`.
 
 
 
