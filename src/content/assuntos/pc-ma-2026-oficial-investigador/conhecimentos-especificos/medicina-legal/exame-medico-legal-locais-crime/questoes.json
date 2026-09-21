@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u154-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ideia central do exame médico-legal de um local com cadáver é",
+      "options": [
+        {
+          "id": "A",
+          "text": "interpretar o corpo sem considerar o ambiente."
+        },
+        {
+          "id": "B",
+          "text": "integrar posição, ambiente, lesões e fenômenos cadavéricos, testando hipóteses em conjunto."
+        },
+        {
+          "id": "C",
+          "text": "substituir a necropsia por fotografias."
+        },
+        {
+          "id": "D",
+          "text": "identificar o autor do crime apenas pela posição do corpo."
+        },
+        {
+          "id": "E",
+          "text": "repetir integralmente a cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A U154 trabalha a relação corpo-local: posição, lesões, fenômenos pós-morte e ambiente devem ser correlacionados antes de formular conclusões."
+    },
+    {
+      "id": "u154-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No vocabulário de concursos, perinecroscopia refere-se principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "análise exclusiva de documentos médicos."
+        },
+        {
+          "id": "B",
+          "text": "necropsia interna completa."
+        },
+        {
+          "id": "C",
+          "text": "exame do cadáver no local e de sua relação com o ambiente."
+        },
+        {
+          "id": "D",
+          "text": "interrogatório de testemunhas."
+        },
+        {
+          "id": "E",
+          "text": "exame laboratorial de substâncias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Perinecroscopia focaliza o cadáver no contexto em que foi encontrado; o exame criminalístico geral do local pode ser mais amplo."
+    },
+    {
+      "id": "u154-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre preservação do local e início do exame pericial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a preservação pode começar antes da chegada do perito; o ato pericial de exame começa com sua atuação no local."
+        },
+        {
+          "id": "B",
+          "text": "nenhuma preservação pode ocorrer antes da chegada do perito."
+        },
+        {
+          "id": "C",
+          "text": "o isolamento da área e a perinecroscopia são exatamente o mesmo ato."
+        },
+        {
+          "id": "D",
+          "text": "o exame deve começar antes de qualquer preservação."
+        },
+        {
+          "id": "E",
+          "text": "a preservação é desnecessária quando há cadáver."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O CPP impõe preservação antes da chegada dos peritos; isso não transforma o isolamento prévio no próprio ato pericial."
+    },
+    {
+      "id": "u154-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Código de Processo Penal, o cadáver em exame de local deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser removido antes de qualquer fotografia."
+        },
+        {
+          "id": "B",
+          "text": "ser fotografado apenas após a necropsia."
+        },
+        {
+          "id": "C",
+          "text": "ser fotografado somente se houver identificação desconhecida."
+        },
+        {
+          "id": "D",
+          "text": "ser fotografado na posição em que foi encontrado, com registro possível das lesões externas e vestígios do local."
+        },
+        {
+          "id": "E",
+          "text": "ser reposicionado em decúbito dorsal antes da documentação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 164 exige fotografia do cadáver na posição encontrada e, quando possível, das lesões externas e vestígios deixados no local."
+    },
+    {
+      "id": "u154-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma sequência documental coerente para o local é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detalhe da lesão → remoção → visão geral."
+        },
+        {
+          "id": "B",
+          "text": "visão geral → corpo no ambiente → relações espaciais → detalhes → superfície sob o corpo após remoção."
+        },
+        {
+          "id": "C",
+          "text": "remoção → reconstrução por memória → fotografia."
+        },
+        {
+          "id": "D",
+          "text": "coleta → isolamento → reconhecimento."
+        },
+        {
+          "id": "E",
+          "text": "necropsia → fotografia do local."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A progressão do geral para o particular preserva contexto antes da manipulação e permite relacionar detalhes à posição original."
+    },
+    {
+      "id": "u154-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Local de encontro do cadáver, local da lesão fatal e local da morte",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sempre idênticos."
+        },
+        {
+          "id": "B",
+          "text": "só podem divergir em morte natural."
+        },
+        {
+          "id": "C",
+          "text": "podem coincidir ou ser diferentes, conforme a dinâmica do caso."
+        },
+        {
+          "id": "D",
+          "text": "não possuem relevância pericial."
+        },
+        {
+          "id": "E",
+          "text": "são definidos apenas pela posição dos livores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A pessoa pode deslocar-se após a lesão ou o cadáver pode ser movido; por isso, os três locais não são necessariamente idênticos."
+    },
+    {
+      "id": "u154-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Livores incompatíveis com a posição atual do cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam, sozinhos, homicídio."
+        },
+        {
+          "id": "B",
+          "text": "provam, sozinhos, transporte post mortem."
+        },
+        {
+          "id": "C",
+          "text": "são irrelevantes no local."
+        },
+        {
+          "id": "D",
+          "text": "demonstram necessariamente erro na necropsia."
+        },
+        {
+          "id": "E",
+          "text": "podem sugerir movimentação, mas devem ser interpretados com fixação, compressão, tempo e outros dados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A distribuição dos livores é teste de compatibilidade, não prova isolada de movimentação."
+    },
+    {
+      "id": "u154-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A rigidez cadavérica no local pode auxiliar principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliar compatibilidade da postura e possível manipulação, considerando o estágio pós-morte."
+        },
+        {
+          "id": "B",
+          "text": "identificar geneticamente o cadáver."
+        },
+        {
+          "id": "C",
+          "text": "determinar autoria penal."
+        },
+        {
+          "id": "D",
+          "text": "substituir toda estimativa temporal."
+        },
+        {
+          "id": "E",
+          "text": "demonstrar obrigatoriamente morte violenta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Rigor pode contribuir para avaliar posição e manipulação, mas sofre variação temporal e ambiental e não decide o caso isoladamente."
+    },
+    {
+      "id": "u154-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao encontrar uma faca ao lado de um cadáver com ferimentos, o procedimento técnico adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "concluir que a faca é necessariamente a arma do crime."
+        },
+        {
+          "id": "B",
+          "text": "ignorar a faca por estar fora do corpo."
+        },
+        {
+          "id": "C",
+          "text": "atribuir autoria a quem tocou a faca por último."
+        },
+        {
+          "id": "D",
+          "text": "avaliar compatibilidade morfológica, relação espacial e outros vestígios antes de estabelecer nexo."
+        },
+        {
+          "id": "E",
+          "text": "considerar a proximidade espacial prova suficiente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Objeto próximo não equivale a instrumento lesivo; a relação depende de compatibilidade e outros elementos periciais."
+    },
+    {
+      "id": "u154-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre manchas de sangue no local, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de sangue visível exclui hemorragia relevante."
+        },
+        {
+          "id": "B",
+          "text": "a distribuição deve ser documentada, podendo apoiar hipóteses, mas análises complexas de padrão exigem exame especializado."
+        },
+        {
+          "id": "C",
+          "text": "qualquer mancha define a posição original da vítima."
+        },
+        {
+          "id": "D",
+          "text": "toda mancha próxima ao cadáver pertence à vítima."
+        },
+        {
+          "id": "E",
+          "text": "a Medicina Legal dispensa relação entre sangue e ambiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recorte médico-legal reconhece o valor contextual do sangue sem transformar a unidade em curso de análise de padrões de manchas."
+    },
+    {
+      "id": "u154-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roupas devem ser observadas no exame de local porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "não sofrem alterações durante o evento."
+        },
+        {
+          "id": "B",
+          "text": "são irrelevantes às lesões."
+        },
+        {
+          "id": "C",
+          "text": "podem conter rasgos, materiais e sangue, cobrir lesões e modificar a interpretação da relação entre corpo e ambiente."
+        },
+        {
+          "id": "D",
+          "text": "identificam automaticamente o agressor."
+        },
+        {
+          "id": "E",
+          "text": "substituem o exame corporal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Roupas são parte do contexto do corpo e podem explicar ou gerar incompatibilidades relevantes."
+    },
+    {
+      "id": "u154-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Achado iatrogênico é",
+      "options": [
+        {
+          "id": "A",
+          "text": "alteração produzida por intervenção de saúde, como acesso venoso ou marca de reanimação."
+        },
+        {
+          "id": "B",
+          "text": "qualquer lesão produzida por arma branca."
+        },
+        {
+          "id": "C",
+          "text": "todo fenômeno cadavérico."
+        },
+        {
+          "id": "D",
+          "text": "qualquer vestígio coletado no local."
+        },
+        {
+          "id": "E",
+          "text": "lesão necessariamente criminosa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Iatrogênico significa decorrente de intervenção de saúde e deve ser distinguido das lesões do evento investigado."
+    },
+    {
+      "id": "u154-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o local já foi alterado antes da chegada do perito, o Código de Processo Penal orienta que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda perícia seja abandonada."
+        },
+        {
+          "id": "B",
+          "text": "os objetos sejam recolocados de memória."
+        },
+        {
+          "id": "C",
+          "text": "o fato seja considerado sem vestígios."
+        },
+        {
+          "id": "D",
+          "text": "as alterações sejam registradas e suas consequências para a dinâmica sejam discutidas."
+        },
+        {
+          "id": "E",
+          "text": "o laudo omita a alteração para evitar dúvida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 169 exige registro das alterações e discussão de suas consequências; alteração não significa inutilidade automática."
+    },
+    {
+      "id": "u154-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se um objeto foi movido antes da documentação, o mais adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "recolocá-lo na posição presumida e fotografar como se fosse original."
+        },
+        {
+          "id": "B",
+          "text": "ignorar sua movimentação."
+        },
+        {
+          "id": "C",
+          "text": "registrar a mudança e usar fontes confiáveis anteriores, sem encenar uma posição supostamente original."
+        },
+        {
+          "id": "D",
+          "text": "retirá-lo definitivamente do caso."
+        },
+        {
+          "id": "E",
+          "text": "considerar a cena automaticamente falsa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Recriar a cena por memória mistura fato e hipótese. A alteração deve ser explicitamente documentada."
+    },
+    {
+      "id": "u154-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Distâncias entre cadáver, parapeito, objetos e pontos de impacto",
+      "options": [
+        {
+          "id": "A",
+          "text": "explicam a dinâmica por si sós."
+        },
+        {
+          "id": "B",
+          "text": "ganham valor quando correlacionadas com geometria, lesões, superfícies e outros vestígios."
+        },
+        {
+          "id": "C",
+          "text": "são irrelevantes em quedas."
+        },
+        {
+          "id": "D",
+          "text": "substituem qualquer exame do corpo."
+        },
+        {
+          "id": "E",
+          "text": "permitem sempre determinar intenção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Relações espaciais precisam ser interpretadas dentro de um modelo físico compatível com os demais achados."
+    },
+    {
+      "id": "u154-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A perinecroscopia e a necropsia se relacionam porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira substitui sempre a segunda."
+        },
+        {
+          "id": "B",
+          "text": "a necropsia torna o local irrelevante."
+        },
+        {
+          "id": "C",
+          "text": "ambas são apenas procedimentos fotográficos."
+        },
+        {
+          "id": "D",
+          "text": "a perinecroscopia só ocorre após a necropsia."
+        },
+        {
+          "id": "E",
+          "text": "a primeira fornece contexto e achados externos; a segunda aprofunda o exame cadavérico, devendo os resultados ser correlacionados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Local e necropsia fornecem conjuntos complementares de informação."
+    },
+    {
+      "id": "u154-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma cena aparentemente compatível com suicídio",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa perícia."
+        },
+        {
+          "id": "B",
+          "text": "prova autoria da própria vítima."
+        },
+        {
+          "id": "C",
+          "text": "deve ser tratada como hipótese a ser testada contra corpo, local e demais evidências."
+        },
+        {
+          "id": "D",
+          "text": "impede necropsia."
+        },
+        {
+          "id": "E",
+          "text": "permite ignorar inconsistências."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A aparência da cena não substitui investigação; hipóteses médico-legais devem ser testadas e podem ser contraditas por outros achados."
+    },
+    {
+      "id": "u154-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Medicina Legal e Criminalística, no local de morte,",
+      "options": [
+        {
+          "id": "A",
+          "text": "possuem objetos parcialmente distintos e podem fornecer informações complementares."
+        },
+        {
+          "id": "B",
+          "text": "são sempre a mesma disciplina."
+        },
+        {
+          "id": "C",
+          "text": "não podem atuar no mesmo caso."
+        },
+        {
+          "id": "D",
+          "text": "têm atribuições nacionais idênticas em qualquer ente federativo."
+        },
+        {
+          "id": "E",
+          "text": "dispensam integração de resultados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Medicina Legal enfatiza corpo e fenômenos biológicos; a Criminalística pode abranger ambiente e vestígios materiais. A organização concreta varia."
+    },
+    {
+      "id": "u154-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre as atribuições de médico-legista e perito criminal no local, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o médico-legista sempre comparece, por regra nacional uniforme."
+        },
+        {
+          "id": "B",
+          "text": "somente médico-legista pode observar o cadáver."
+        },
+        {
+          "id": "C",
+          "text": "somente perito criminal pode registrar fenômenos cadavéricos."
+        },
+        {
+          "id": "D",
+          "text": "as atribuições concretas variam conforme legislação e organização institucional; não se deve inventar um organograma nacional único."
+        },
+        {
+          "id": "E",
+          "text": "o edital permite ignorar o CPP."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O edital cobra exame médico-legal de local; a estrutura institucional varia entre entes e órgãos."
+    },
+    {
+      "id": "u154-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal fronteira da U154 com a U093 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "U154 deve repetir todas as dez etapas da cadeia de custódia."
+        },
+        {
+          "id": "B",
+          "text": "U154 usa preservação e fixação como ponte, enquanto U093 mantém o regime completo da cadeia de custódia."
+        },
+        {
+          "id": "C",
+          "text": "U093 estuda somente Tanatologia."
+        },
+        {
+          "id": "D",
+          "text": "U154 dispensa vestígios."
+        },
+        {
+          "id": "E",
+          "text": "não há fronteira entre as unidades."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cadeia de custódia completa já é conteúdo de U093; U154 foca o significado médico-legal da relação corpo-local."
+    },
+    {
+      "id": "u154-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal fronteira da U154 com a U152 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "U154 deve reensinar toda a balística."
+        },
+        {
+          "id": "B",
+          "text": "U152 estuda somente local de crime."
+        },
+        {
+          "id": "C",
+          "text": "U152 ensina morfologia e mecanismos das lesões; U154 correlaciona esses achados com o ambiente."
+        },
+        {
+          "id": "D",
+          "text": "U154 não pode mencionar lesões."
+        },
+        {
+          "id": "E",
+          "text": "as duas unidades são idênticas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O conhecimento de lesões é pré-requisito aplicado no local, mas não deve ser duplicado."
+    },
+    {
+      "id": "u154-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal fronteira da U154 com a U153 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "U154 substitui cronotanatognose."
+        },
+        {
+          "id": "B",
+          "text": "U153 não estuda fenômenos cadavéricos."
+        },
+        {
+          "id": "C",
+          "text": "U154 define novamente todos os tempos de livor e rigor."
+        },
+        {
+          "id": "D",
+          "text": "U153 ensina fenômenos e cronologia; U154 usa esses fenômenos para testar compatibilidade com posição e ambiente."
+        },
+        {
+          "id": "E",
+          "text": "não existe relação entre Tanatologia e local."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A U154 aplica o conhecimento tanatológico ao contexto espacial sem reensinar a U153."
+    },
+    {
+      "id": "u154-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma cena na qual o cadáver foi removido durante socorro e recolocado depois, a interpretação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "documentar a intervenção e limitar inferências que dependam da posição original."
+        },
+        {
+          "id": "B",
+          "text": "tratar a posição atual como necessariamente original."
+        },
+        {
+          "id": "C",
+          "text": "considerar a cena imprestável para qualquer conclusão."
+        },
+        {
+          "id": "D",
+          "text": "apagar referências ao atendimento."
+        },
+        {
+          "id": "E",
+          "text": "atribuir todas as marcas no corpo ao agressor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Intervenções precisam ser registradas; algumas relações originais podem ter sido perdidas, mas outras conclusões permanecem possíveis."
+    },
+    {
+      "id": "u154-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O fluxo mental mais adequado em questão de local de crime com cadáver é",
+      "options": [
+        {
+          "id": "A",
+          "text": "objeto próximo → culpado → encerramento."
+        },
+        {
+          "id": "B",
+          "text": "necropsia → reconstrução da fotografia → preservação."
+        },
+        {
+          "id": "C",
+          "text": "mover corpo → fotografar → formular hipótese."
+        },
+        {
+          "id": "D",
+          "text": "identificar autor → examinar lesões."
+        },
+        {
+          "id": "E",
+          "text": "preservar → documentar → relacionar corpo e ambiente → localizar compatibilidades/incompatibilidades → correlacionar com outras perícias."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Esse fluxo mantém a documentação anterior à manipulação e impede que uma hipótese precoce controle a leitura dos vestígios."
+    },
+    {
+      "id": "u154-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 85 da prova Cebraspe/PF 2025 para Perito Criminal Federal — Medicina Legal, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preservação e perinecroscopia começam necessariamente no mesmo instante."
+        },
+        {
+          "id": "B",
+          "text": "O isolamento só pode começar após a chegada do perito."
+        },
+        {
+          "id": "C",
+          "text": "O local pode ser preservado antes; o exame de local/perinecroscopia propriamente dito inicia-se com a chegada e atuação do perito."
+        },
+        {
+          "id": "D",
+          "text": "O exame começa com a remoção do cadáver."
+        },
+        {
+          "id": "E",
+          "text": "A preservação é dispensável quando o perito está a caminho."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item original foi julgado Certo no gabarito definitivo. A distinção é entre preservação anterior da cena e início do ato pericial de exame com a chegada do perito."
+    },
+    {
+      "id": "u154-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 92 da prova Cebraspe/PC-RJ 2022 para Delegado, em uma investigação de queda de altura com dois cadáveres, a reconstrução médico-legal deve priorizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma única lesão externa, independentemente do local."
+        },
+        {
+          "id": "B",
+          "text": "a integração de achados periciais, exame do local e relações espaciais, como distâncias e linha de projeção."
+        },
+        {
+          "id": "C",
+          "text": "apenas a presença de um objeto potencialmente lesivo."
+        },
+        {
+          "id": "D",
+          "text": "somente a toxicologia, sem considerar geometria."
+        },
+        {
+          "id": "E",
+          "text": "a aparência inicial da cena como conclusão definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. No cenário, o conjunto de perícias e relações espaciais permitia distinguir as causas jurídicas das mortes."
+    }
+  ]
+}
