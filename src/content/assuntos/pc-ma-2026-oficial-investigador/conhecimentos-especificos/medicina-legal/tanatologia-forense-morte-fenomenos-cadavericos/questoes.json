@@ -1,0 +1,936 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u153-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Tanatologia Forense, no recorte desta unidade, organiza-se principalmente em torno de",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas classificação de lesões traumáticas."
+        },
+        {
+          "id": "B",
+          "text": "diagnóstico da morte, fenômenos cadavéricos, estimativa temporal e análise médico-legal das circunstâncias."
+        },
+        {
+          "id": "C",
+          "text": "somente identificação de cadáveres."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente análise de documentos médicos."
+        },
+        {
+          "id": "E",
+          "text": "apenas estudo de crimes contra a vida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Tanatologia Forense estuda morte e transformações cadavéricas com finalidade médico-legal, incluindo realidade da morte, cronologia e circunstâncias."
+    },
+    {
+      "id": "u153-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação clássica, a perda da consciência logo após a morte é",
+      "options": [
+        {
+          "id": "A",
+          "text": "fenômeno abiótico imediato."
+        },
+        {
+          "id": "B",
+          "text": "fenômeno transformativo conservador."
+        },
+        {
+          "id": "C",
+          "text": "fenômeno putrefativo gasoso."
+        },
+        {
+          "id": "D",
+          "text": "fenômeno exclusivo de mumificação."
+        },
+        {
+          "id": "E",
+          "text": "prova de comoriência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Perda da consciência, insensibilidade e cessação de funções integram os fenômenos imediatos/negativos na classificação tradicional."
+    },
+    {
+      "id": "u153-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Morte encefálica distingue-se de coma porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "coma sempre significa morte da pessoa."
+        },
+        {
+          "id": "B",
+          "text": "morte encefálica depende somente da ausência de consciência."
+        },
+        {
+          "id": "C",
+          "text": "morte encefálica exige perda completa e irreversível das funções encefálicas segundo protocolo específico."
+        },
+        {
+          "id": "D",
+          "text": "qualquer sedação profunda equivale a morte encefálica."
+        },
+        {
+          "id": "E",
+          "text": "morte encefálica não exige exclusão de causas confundidoras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Resolução CFM nº 2.173/2017 define morte encefálica por perda completa e irreversível das funções encefálicas, com requisitos e procedimentos padronizados."
+    },
+    {
+      "id": "u153-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É pré-requisito para iniciar a determinação de morte encefálica",
+      "options": [
+        {
+          "id": "A",
+          "text": "causa do coma desconhecida."
+        },
+        {
+          "id": "B",
+          "text": "temperatura central inferior a 32 °C."
+        },
+        {
+          "id": "C",
+          "text": "presença de intoxicação grave não esclarecida."
+        },
+        {
+          "id": "D",
+          "text": "lesão encefálica conhecida, irreversível e capaz de causar morte encefálica, sem confundidores tratáveis."
+        },
+        {
+          "id": "E",
+          "text": "apenas ausência de pulso periférico."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resolução exige causa encefálica conhecida e irreversível e exclusão de fatores tratáveis capazes de confundir o diagnóstico."
+    },
+    {
+      "id": "u153-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os procedimentos mínimos exigidos para determinação de morte encefálica estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois exames clínicos, teste de apneia e exame complementar."
+        },
+        {
+          "id": "B",
+          "text": "um exame clínico e nenhuma avaliação complementar."
+        },
+        {
+          "id": "C",
+          "text": "apenas tomografia e eletrocardiograma."
+        },
+        {
+          "id": "D",
+          "text": "somente teste de apneia."
+        },
+        {
+          "id": "E",
+          "text": "duas declarações familiares."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Resolução CFM nº 2.173/2017 exige dois exames clínicos, teste de apneia e exame complementar."
+    },
+    {
+      "id": "u153-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O algor mortis é",
+      "options": [
+        {
+          "id": "A",
+          "text": "acúmulo gravitacional de sangue."
+        },
+        {
+          "id": "B",
+          "text": "resfriamento do cadáver em direção ao equilíbrio térmico com o ambiente."
+        },
+        {
+          "id": "C",
+          "text": "rigidez muscular pós-morte."
+        },
+        {
+          "id": "D",
+          "text": "autodigestão enzimática dos tecidos."
+        },
+        {
+          "id": "E",
+          "text": "transformação cérea da gordura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Algor mortis ou algidez é o resfriamento cadavérico, cuja velocidade depende de múltiplos fatores ambientais e corporais."
+    },
+    {
+      "id": "u153-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A forma tecnicamente mais adequada de usar a temperatura corporal na cronotanatognose é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicar sempre a mesma perda de temperatura por hora."
+        },
+        {
+          "id": "B",
+          "text": "ignorar o ambiente."
+        },
+        {
+          "id": "C",
+          "text": "usar somente uma medida superficial."
+        },
+        {
+          "id": "D",
+          "text": "converter qualquer temperatura diretamente em hora exata."
+        },
+        {
+          "id": "E",
+          "text": "integrá-la a ambiente, corpo e outros fenômenos cadavéricos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A temperatura é útil, sobretudo cedo, mas não obedece a uma taxa universal; deve ser integrada com outros dados."
+    },
+    {
+      "id": "u153-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Livores cadavéricos correspondem principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "hemorragias traumáticas intradérmicas."
+        },
+        {
+          "id": "B",
+          "text": "rigidez dos músculos dependentes."
+        },
+        {
+          "id": "C",
+          "text": "acúmulo gravitacional de sangue em regiões declivosas após cessar a circulação."
+        },
+        {
+          "id": "D",
+          "text": "putrefação bacteriana da pele."
+        },
+        {
+          "id": "E",
+          "text": "desidratação das mucosas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Livor ou hipóstase é o acúmulo gravitacional de sangue nas regiões dependentes."
+    },
+    {
+      "id": "u153-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma região de livor, a área comprimida contra uma superfície pode permanecer mais pálida porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a compressão dificulta o acúmulo de sangue naquele ponto."
+        },
+        {
+          "id": "B",
+          "text": "o sangue coagula apenas nas áreas de pressão."
+        },
+        {
+          "id": "C",
+          "text": "a região comprimida se transforma em equimose."
+        },
+        {
+          "id": "D",
+          "text": "a compressão impede toda decomposição."
+        },
+        {
+          "id": "E",
+          "text": "livor só ocorre em partes expostas ao ar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Áreas de apoio podem apresentar palidez relativa por compressão vascular, contraste clássico útil na interpretação da posição do corpo."
+    },
+    {
+      "id": "u153-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a fixação dos livores, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre sempre exatamente na mesma hora."
+        },
+        {
+          "id": "B",
+          "text": "não sofre influência de ambiente ou condição do corpo."
+        },
+        {
+          "id": "C",
+          "text": "permanece indefinidamente deslocável."
+        },
+        {
+          "id": "D",
+          "text": "há progressão temporal, mas estudos mostram variabilidade que impede um horário universal rígido."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de putrefação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Meta-análise recente encontrou grande heterogeneidade nos tempos de aparecimento e fixação; cronologias rígidas devem ser evitadas."
+    },
+    {
+      "id": "u153-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A rigidez cadavérica relaciona-se principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "deposição de fuligem."
+        },
+        {
+          "id": "B",
+          "text": "alterações bioquímicas musculares com depleção de ATP."
+        },
+        {
+          "id": "C",
+          "text": "acúmulo de sangue por gravidade."
+        },
+        {
+          "id": "D",
+          "text": "evaporação da água corporal."
+        },
+        {
+          "id": "E",
+          "text": "proliferação exclusiva de insetos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A depleção de ATP impede o ciclo normal actina-miosina e participa do estabelecimento do rigor mortis."
+    },
+    {
+      "id": "u153-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência clássica ensinada em Medicina Legal, a rigidez tende a instalar-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeiro nos maiores músculos dos membros inferiores e por último na face."
+        },
+        {
+          "id": "B",
+          "text": "simultaneamente em todos os músculos."
+        },
+        {
+          "id": "C",
+          "text": "das massas musculares menores para as maiores, didaticamente da cabeça em direção aos membros."
+        },
+        {
+          "id": "D",
+          "text": "somente depois da putrefação avançada."
+        },
+        {
+          "id": "E",
+          "text": "apenas se houver trauma."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A sequência clássica cobrada pelo Cebraspe vai de pequenos grupos/cabeça para grupos maiores e membros, embora o tempo varie."
+    },
+    {
+      "id": "u153-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Com a progressão da putrefação, a rigidez cadavérica",
+      "options": [
+        {
+          "id": "A",
+          "text": "tende a desaparecer pela degradação dos tecidos."
+        },
+        {
+          "id": "B",
+          "text": "aumenta indefinidamente."
+        },
+        {
+          "id": "C",
+          "text": "transforma-se em livor."
+        },
+        {
+          "id": "D",
+          "text": "torna-se sinal exclusivo de morte violenta."
+        },
+        {
+          "id": "E",
+          "text": "deixa de sofrer qualquer influência ambiental."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A decomposição degrada proteínas e desfaz a rigidez; ela não se intensifica indefinidamente."
+    },
+    {
+      "id": "u153-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre autólise e putrefação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "autólise depende exclusivamente de insetos e putrefação de trauma."
+        },
+        {
+          "id": "B",
+          "text": "ambas são apenas formas de mumificação."
+        },
+        {
+          "id": "C",
+          "text": "putrefação é fenômeno puramente enzimático sem microrganismos."
+        },
+        {
+          "id": "D",
+          "text": "autólise só ocorre após esqueletização."
+        },
+        {
+          "id": "E",
+          "text": "autólise decorre de enzimas do próprio tecido; putrefação envolve principalmente atividade microbiana."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Autólise é autodigestão celular; putrefação é decomposição associada à atividade microbiana."
+    },
+    {
+      "id": "u153-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência didática clássica da putrefação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "rigidez, coma, livor e mumificação."
+        },
+        {
+          "id": "B",
+          "text": "fase cromática, gasosa, coliquativa e redução esquelética."
+        },
+        {
+          "id": "C",
+          "text": "maceração, coma, edema e calcificação."
+        },
+        {
+          "id": "D",
+          "text": "livor, rigor, apneia e autólise."
+        },
+        {
+          "id": "E",
+          "text": "adipocera, ressuscitação e mumificação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sequência clássica organiza a putrefação em períodos cromático, gasoso, coliquativo e de redução esquelética."
+    },
+    {
+      "id": "u153-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mumificação é favorecida principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "umidade intensa e pouca evaporação."
+        },
+        {
+          "id": "B",
+          "text": "imersão aquática permanente como condição obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "abundante proliferação bacteriana com liquefação."
+        },
+        {
+          "id": "D",
+          "text": "secagem intensa em ambiente favorável à evaporação."
+        },
+        {
+          "id": "E",
+          "text": "acúmulo de sangue nas regiões declivosas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Mumificação é fenômeno conservador por desidratação acentuada, geralmente em ambiente seco e ventilado."
+    },
+    {
+      "id": "u153-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Adipocera é melhor descrita como",
+      "options": [
+        {
+          "id": "A",
+          "text": "rigidez localizada instantânea."
+        },
+        {
+          "id": "B",
+          "text": "mancha verde abdominal."
+        },
+        {
+          "id": "C",
+          "text": "transformação cérea do tecido adiposo favorecida por condições úmidas e de menor oxigenação."
+        },
+        {
+          "id": "D",
+          "text": "perda superficial da epiderme por atrito."
+        },
+        {
+          "id": "E",
+          "text": "fenômeno exclusivo do cérebro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adipocera é transformação conservadora da gordura, com aspecto céreo/saponificado, favorecida por umidade e ambientes pouco oxigenados."
+    },
+    {
+      "id": "u153-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A maceração cadavérica estudada em Medicina Legal relaciona-se tipicamente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "concepto morto retido no ambiente intrauterino."
+        },
+        {
+          "id": "B",
+          "text": "cadáver adulto seco em deserto."
+        },
+        {
+          "id": "C",
+          "text": "cadáver enterrado em solo úmido com adipocera."
+        },
+        {
+          "id": "D",
+          "text": "apenas morte por arma de fogo."
+        },
+        {
+          "id": "E",
+          "text": "livores em decúbito dorsal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A maceração asséptica é fenômeno clássico do concepto morto e retido intrauterinamente."
+    },
+    {
+      "id": "u153-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cronotanatognose é",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinação obrigatoriamente exata do minuto da morte."
+        },
+        {
+          "id": "B",
+          "text": "estimativa médico-legal do momento ou intervalo da morte a partir de fenômenos e outros dados."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de exumação."
+        },
+        {
+          "id": "D",
+          "text": "estudo exclusivo da causa jurídica."
+        },
+        {
+          "id": "E",
+          "text": "diagnóstico de identidade por impressão digital."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cronotanatognose estima a cronologia da morte; a formulação responsável trabalha com intervalos compatíveis e incerteza."
+    },
+    {
+      "id": "u153-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação ao potássio do humor vítreo na estimativa pós-morte, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "fornece a hora exata sem margem de erro."
+        },
+        {
+          "id": "B",
+          "text": "elimina necessidade de contexto."
+        },
+        {
+          "id": "C",
+          "text": "não sofre erro de coleta ou análise."
+        },
+        {
+          "id": "D",
+          "text": "pode integrar modelos de estimativa, mas está sujeito a variabilidade e incerteza estatística."
+        },
+        {
+          "id": "E",
+          "text": "serve apenas para identificar o cadáver."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Modelos com potássio vítreo são úteis, mas erros pré-analíticos, analíticos e estatísticos limitam a precisão."
+    },
+    {
+      "id": "u153-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 8º do Código Civil, comoriência ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "é provado que uma pessoa morreu antes de outra."
+        },
+        {
+          "id": "B",
+          "text": "duas pessoas morrem necessariamente no mesmo local."
+        },
+        {
+          "id": "C",
+          "text": "duas ou mais pessoas morrem na mesma ocasião e não é possível averiguar precedência, presumindo-se morte simultânea."
+        },
+        {
+          "id": "D",
+          "text": "qualquer morte ocorre de forma súbita."
+        },
+        {
+          "id": "E",
+          "text": "há exumação de dois cadáveres."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei presume simultaneidade quando não é possível estabelecer quem precedeu os demais; o local físico idêntico não é requisito do texto."
+    },
+    {
+      "id": "u153-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte do edital da PC-MA, primoriência refere-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "presunção obrigatória de morte simultânea."
+        },
+        {
+          "id": "B",
+          "text": "tempo de putrefação."
+        },
+        {
+          "id": "C",
+          "text": "primeiro sinal de livor."
+        },
+        {
+          "id": "D",
+          "text": "primeiro exame de morte encefálica."
+        },
+        {
+          "id": "E",
+          "text": "possibilidade de estabelecer que uma pessoa morreu antes da outra; outras fontes usam o termo premoriência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O edital usa 'primoriência'; padrão Cebraspe/PC-RO usa 'premoriência'. No recorte, o núcleo é a precedência de uma morte."
+    },
+    {
+      "id": "u153-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Exumação distingue-se de necropsia porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "exumação é a retirada do cadáver da sepultura; necropsia é o exame do cadáver."
+        },
+        {
+          "id": "B",
+          "text": "necropsia é sempre anterior à morte."
+        },
+        {
+          "id": "C",
+          "text": "exumação é sinônimo de autólise."
+        },
+        {
+          "id": "D",
+          "text": "necropsia só pode ocorrer após exumação."
+        },
+        {
+          "id": "E",
+          "text": "exumação não tem finalidade pericial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pode haver exumação para novo exame cadavérico, mas os atos não são sinônimos."
+    },
+    {
+      "id": "u153-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre causa médica e causa jurídica/maneira da morte é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "causa médica sempre corresponde a homicídio."
+        },
+        {
+          "id": "B",
+          "text": "causa médica identifica doença/lesão causal; a maneira médico-legal examina circunstâncias como natural, violenta ou indeterminada, com homicídio/suicídio/acidente entre as mortes violentas."
+        },
+        {
+          "id": "C",
+          "text": "causa jurídica é sempre parada cardiorrespiratória."
+        },
+        {
+          "id": "D",
+          "text": "mecanismo fisiopatológico substitui toda investigação da causa."
+        },
+        {
+          "id": "E",
+          "text": "não existe distinção em Medicina Legal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A causa médica e o mecanismo fisiopatológico não respondem à mesma pergunta que a classificação médico-legal das circunstâncias."
+    },
+    {
+      "id": "u153-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença mais útil entre morte súbita e morte suspeita é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "morte súbita é sempre violenta, enquanto morte suspeita é sempre natural."
+        },
+        {
+          "id": "B",
+          "text": "morte súbita descreve principalmente evolução rápida e inesperada, enquanto morte suspeita expressa dúvida relevante sobre a origem ou possibilidade de causa externa."
+        },
+        {
+          "id": "C",
+          "text": "morte suspeita exige homicídio já comprovado."
+        },
+        {
+          "id": "D",
+          "text": "morte súbita possui um único limite temporal universal aceito."
+        },
+        {
+          "id": "E",
+          "text": "os dois termos são sinônimos em Medicina Legal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Morte súbita enfatiza a rapidez e o caráter inesperado; morte suspeita indica incerteza relevante quanto à origem/circunstâncias e necessidade de investigação."
+    },
+    {
+      "id": "u153-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à distinção funcional entre Serviço de Verificação de Óbito e Instituto Médico-Legal, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos recebem exclusivamente mortes violentas."
+        },
+        {
+          "id": "B",
+          "text": "o Serviço de Verificação de Óbito é responsável apenas por identificação criminal."
+        },
+        {
+          "id": "C",
+          "text": "o Instituto Médico-Legal recebe apenas mortes naturais sem diagnóstico."
+        },
+        {
+          "id": "D",
+          "text": "o Serviço de Verificação de Óbito atua principalmente em morte natural sem diagnóstico esclarecido, enquanto o Instituto Médico-Legal recebe causas externas confirmadas ou suspeitas e outros casos médico-legais."
+        },
+        {
+          "id": "E",
+          "text": "a distinção depende exclusivamente da idade da pessoa falecida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regulamentação sanitária separa a investigação de morte natural sem diagnóstico, típica do SVO, dos casos de causa externa confirmada ou suspeita e demais situações médico-legais, encaminhados ao IML."
+    },
+    {
+      "id": "u153-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 2 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, qual conjunto integra corretamente a determinação de morte encefálica conforme a Resolução CFM nº 2.173/2017?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pré-requisitos clínicos, dois exames clínicos, teste de apneia e exame complementar."
+        },
+        {
+          "id": "B",
+          "text": "Somente ausência de consciência e pulso."
+        },
+        {
+          "id": "C",
+          "text": "Um único exame neurológico, sem excluir confundidores."
+        },
+        {
+          "id": "D",
+          "text": "Somente exame complementar de imagem."
+        },
+        {
+          "id": "E",
+          "text": "Autorização familiar como critério diagnóstico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial exige pré-requisitos, dois exames clínicos, teste de apneia e exame complementar, além das condições clínicas definidas na resolução."
+    },
+    {
+      "id": "u153-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 6 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, constituem fenômenos cadavéricos consecutivos clássicos",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente perda da consciência e apneia."
+        },
+        {
+          "id": "B",
+          "text": "morte encefálica e coma."
+        },
+        {
+          "id": "C",
+          "text": "apenas putrefação e esqueletização."
+        },
+        {
+          "id": "D",
+          "text": "desidratação, resfriamento, hipóstase e rigidez cadavérica."
+        },
+        {
+          "id": "E",
+          "text": "apenas maceração fetal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O padrão oficial listou desidratação, resfriamento, hipóstase e rigidez entre os fenômenos consecutivos/mediatos."
+    },
+    {
+      "id": "u153-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 13 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, comoriência significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova de que um indivíduo morreu antes dos demais."
+        },
+        {
+          "id": "B",
+          "text": "morte em locais necessariamente idênticos."
+        },
+        {
+          "id": "C",
+          "text": "presunção de morte simultânea quando não se consegue averiguar precedência entre pessoas falecidas na mesma ocasião."
+        },
+        {
+          "id": "D",
+          "text": "morte súbita em várias pessoas."
+        },
+        {
+          "id": "E",
+          "text": "exumação simultânea de dois cadáveres."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O padrão oficial reproduz o núcleo do art. 8º do Código Civil: sem possibilidade de estabelecer precedência, presumem-se simultaneamente mortos."
+    },
+    {
+      "id": "u153-p04",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 43 da prova objetiva Cebraspe/PC-RO 2022 para Médico-Legista, a sequência clássica da rigidez cadavérica ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "das maiores massas musculares para as menores, dos pés para a cabeça."
+        },
+        {
+          "id": "B",
+          "text": "das massas musculares menores para as maiores, didaticamente da cabeça para os pés."
+        },
+        {
+          "id": "C",
+          "text": "somente após o período coliquativo."
+        },
+        {
+          "id": "D",
+          "text": "sem qualquer ordem reconhecida na literatura clássica."
+        },
+        {
+          "id": "E",
+          "text": "apenas nos músculos lesionados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. O padrão clássico cobrado descreve progressão de menores para maiores massas musculares e da cabeça para os pés."
+    },
+    {
+      "id": "u153-p05",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 41 da prova objetiva Cebraspe/PC-RO 2022 para Médico-Legista, a maceração asséptica ocorre tipicamente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "cadáver adulto mumificado."
+        },
+        {
+          "id": "B",
+          "text": "cadáver exposto ao ar em putrefação gasosa."
+        },
+        {
+          "id": "C",
+          "text": "concepto morto e retido intrauterinamente."
+        },
+        {
+          "id": "D",
+          "text": "cadáver submerso com adipocera."
+        },
+        {
+          "id": "E",
+          "text": "cadáver com livor fixo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo C e tratou a maceração asséptica como fenômeno do concepto morto retido no útero."
+    }
+  ]
+}
