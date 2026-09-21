@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U157; PC-E17 — Criminologia permanece `pending` com U156–U157 `done` e U158 `pending`; PC-E16 — Medicina Legal permanece `done`; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U158; PC-E17 — Criminologia está `done` com U156–U158 `done`. Todas as unidades editoriais independentes estão aceitas, exceto U075, cuja divergência física/operacional já registrada permanece pendente e não deve ser normalizada silenciosamente.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 2 | 0 | 156 |
-| Entregáveis de unidade C/H/Q | 474 | 6 | 0 | 468 |
-| Tarefas macro individualizadas | 62 | 14 | 0 | 48 |
+| Unidades reais previstas | 158 | 1 | 0 | 157 |
+| Entregáveis de unidade C/H/Q | 474 | 3 | 0 | 471 |
+| Tarefas macro individualizadas | 62 | 11 | 0 | 51 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U157` = **156 unidades**. Pendentes: `U075`, `U158` = **2 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U158` = **157 unidades**. Pendente: somente `U075` = **1 unidade**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **157 = 140 físicas locais + 17 vínculos canônicos**. U157 acrescentou uma nova visão física local; grupos não contam como visão nem unidade. Não confundir 157 visões materializadas com 156 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos canônicos**. U158 acrescentou uma nova visão física local; grupos não contam como visão nem unidade. Não confundir 158 visões materializadas com 157 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U157: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
+Reservas ativas após o aceite de U158: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
 
-**Próxima ação editorial: U158 — Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal**, C/H/Q `pending`. U156–U157 estão `done`; U158 é a última unidade editorial planejada de PC-E17.
+**Nenhuma unidade editorial independente permanece habilitada após U158.** U075 é a única unidade pendente, já registrada como divergência física/operacional; preservar e não normalizar silenciosamente trabalho alheio. PC-R04 e PC-E08 permanecem `pending` por U075, e PC-F01–PC-F05 continuam bloqueadas para encerramento integral enquanto essa divergência não for reconciliada com evidência.
 
 ### Pendências e divergências herdadas
 
@@ -164,7 +164,7 @@ Cada célula C/H/Q representa a tarefa de sufixo correspondente, por exemplo PC-
 | PC-E14 | Legislação Especial — U123–U141 | done | done | done |
 | PC-E15 | Direitos Humanos — U142–U148 | done | done | done |
 | PC-E16 | Medicina Legal — U149–U155 | done | done | done |
-| PC-E17 | Criminologia — U156–U158 | pending | pending | pending |
+| PC-E17 | Criminologia — U156–U158 | done | done | done |
 
 PC-E09-C inclui orientação de redação; PC-E09-H recupera repertório/estrutura; PC-E09-Q reúne fixação e propostas abertas no material didático, sem atribuí-las à objetiva do cargo. PC-E14-C inclui auditoria normativa das literalidades defeituosas, sem correção silenciosa.
 
@@ -232,8 +232,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U148 | Direitos Humanos; nova; `grupos-vulneraveis-atividade-policial-direitos-humanos` | C/H/Q done; snapshot `f6d10d28d9c6ffd9bb4f372ddc993c7929591f48`; ver matriz/evidência abaixo |
 | U144 | Direitos Humanos; parcial; `sistema-global-onu-dudh` | C/H/Q done; visão física resolvida na `main`, commit de publicação `a1049c04dcec9558e6588b2953a82b17ba41eb94`; doador histórico não inferido; ver matriz de PC-E15 abaixo |
 | U149–U155 | Medicina Legal; novas | C/H/Q done; U155 snapshot final `e32e4fbec514febb820401e89a53c0be26a40345`; PC-E16 concluído; ver matriz de PC-E16 abaixo |
-| U156–U157 | Criminologia; novas | C/H/Q done; U157 snapshot `472b3dc39cd0faa71da14d42aacc92ee9066cc11`; grupo Criminologia criado com U156 |
-| U158 | Criminologia; nova | C/H/Q pending; preparação individual materializada em 21/09/2026 sob `PC-E17-PLANEJAMENTO-20260921-01`; modelos teóricos/teorias sociológicas/prevenção |
+| U156–U158 | Criminologia; novas | C/H/Q done; U158 snapshot `dbb19b0a3a39f5b1a3a41043005fe6e342582767`; PC-E17 concluído; grupo Criminologia criado com U156 |
 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
 
@@ -663,7 +662,7 @@ A classificação PC-R02 permanece autoritativa: **U156–U158 são novas/locais
 |---|---|---|---|---|---|---|---|---|
 | 1; 1.1–1.3 | U156 — **Fundamentos da Criminologia — conceito, métodos e objetos** | **nova/local**; Braga 2014 sobre empirismo/interdisciplinaridade; Revista da AGU sobre controle social; padrões/provas oficiais Cebraspe PC-MA Delegado 2025, PC-CE Delegado 2025, DEPEN e DPDF; snapshot `21147435173e18446521cdc1553c547c68a01a01` | `fundamentos-criminologia-conceito-metodos-objetos`; físico PC-MA + grupo Criminologia; `pc-u156`; 156 | Conceito e diferença funcional perante Direito Penal; empirismo com métodos quantitativos/qualitativos e limites dos dados; interdisciplinaridade como integração; delito como problema social além da fórmula normativa; delinquente sem essencialismo; vítima/vitimologia e vitimização secundária; controle social formal × informal; correlação × causalidade; limite perante Criminalística. U157 mantém funções/política criminal e U158 modelos/teorias/prevenção | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; unidade-base do bloco | done | done | done |
 | 2; 2.1 | U157 — **Funções da Criminologia e política criminal** | **nova/local**; Universidade de São Paulo DPM0116; Souza/Ifanger 2023; Resolução ECOSOC 2002/13; Declaração de Kyoto 2021; estratégia UNODC; provas oficiais Cebraspe PC-MA 2018 e CEV/UECE PC-CE 2025; snapshot `472b3dc39cd0faa71da14d42aacc92ee9066cc11` | `funcoes-criminologia-politica-criminal`; físico PC-MA + grupo; `pc-u157`; 157 | Produção de conhecimento confiável; descrição × explicação; prevenção/intervenção geral sem antecipar U158; avaliação de respostas; Criminologia × política criminal × Direito Penal; política criminal como escolha estratégica e política pública mais ampla que pena; evidência, direitos, implementação, produto × resultado, avaliação de processo/efeitos e função crítica. U158 mantém modelos, teorias sociológicas e prevenção primária/secundária/terciária | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U156 como base | done | done | done |
-| 3; 3.1–3.5 | U158 — **Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal** | **nova/local**; nenhuma origem integral localizada; teorias e provas oficiais a revalidar na produção | `modelos-teoricos-criminologia-prevencao`; físico PC-MA + grupo; `pc-u158`; 158 | Modelos teóricos e teorias sociológicas relevantes ao item genérico; prevenção no Estado democrático de direito; prevenção primária, secundária e terciária. Não importar “modelos de reação ao crime” nem “Criminologia Ambiental” do edital antigo; evitar catálogo enciclopédico de escolas sem ganho de prova | PC-MA; corte 13/7/2026; U156 como base conceitual e U157 para função/política criminal | pending | pending | pending |
+| 3; 3.1–3.5 | U158 — **Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal** | **nova/local**; Merton 1938; Sage/Matsueda sobre Sutherland; Open University sobre Becker; Office of Justice Programs sobre oportunidade/subculturas; materiais do Escritório das Nações Unidas sobre Drogas e Crime e do Conselho Econômico e Social; provas oficiais Cebraspe PC-CE 2025, DPE-PA 2022 e PC-GO 2017; snapshot `dbb19b0a3a39f5b1a3a41043005fe6e342582767` | `modelos-teoricos-criminologia-prevencao`; físico PC-MA + grupo; `pc-u158`; 158 | Ponte clássica × positivista; desorganização social; anomia/strain de Merton; associação diferencial; subculturas e oportunidades; labelling; vínculo social; criminologia crítica e janelas quebradas; prevenção no Estado democrático de direito; prevenção primária, secundária e terciária por alvo/momento. Não foram importados modelos de reação ao crime nem Criminologia Ambiental | PC-MA; corte 13/7/2026; fontes revalidadas em 21/9/2026; U156/U157 como base | done | done | done |
 
 #### Ordem e critérios de produção
 
@@ -673,7 +672,7 @@ A divisão mantém IDs U156–U158 já previstos e acompanha três problemas cog
 
 Para as três unidades, preservar a diferença entre Criminologia empírica/interdisciplinar, política criminal como campo de escolhas e Direito Penal como sistema normativo. Teorias sociológicas não devem virar simples lista de autores: na produção, organizar por problema explicativo → mecanismo → implicação → limite/contraste, com fonte verificável. Prevenção primária/secundária/terciária deve ser ensinada por alvo, momento e exemplos institucionais seguros, sem inventar eficácia causal.
 
-**Próxima unidade habilitada:** U158 — Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal, C/H/Q `pending`. U156–U157 estão publicados e aceitos.
+**PC-E17 concluído:** U156–U158 estão publicados e aceitos com C/H/Q `done`. **Não há unidade editorial independente habilitada:** somente U075 permanece `pending` por divergência já registrada; PC-R04/PC-E08 e o fechamento integral aguardam sua reconciliação.
 
 ## 8. Evidências de publicação e aceite
 
@@ -781,6 +780,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U155 | `e32e4fbec514febb820401e89a53c0be26a40345` | 26 + 2 | Cebraspe PC-RO 2022, Médico-Legista, prova oral: questões 24 e 32, padrões oficiais sobre imputabilidade × responsabilidade × capacidade civil e limites/modificadores da imputabilidade; adaptações não literais |
 | U156 | `21147435173e18446521cdc1553c547c68a01a01` | 24 + 3 | Cebraspe PC-CE 2025, Delegado: questões 61 C, 64 A e 65 D sobre controle social, perspectiva criminológica do delito e método empírico-indutivo; adaptações não literais; item DEPEN com gabarito apenas preliminar foi auditado e não usado como questão anterior |
 | U157 | `472b3dc39cd0faa71da14d42aacc92ee9066cc11` | 24 + 2 | Cebraspe PC-MA 2018, Delegado, questão 94 D sobre política criminal e redução de condições facilitadoras; CEV/UECE PC-CE 2025, Oficial Investigador, questão 86 — resposta definitiva Política Criminal; adaptações não literais |
+| U158 | `dbb19b0a3a39f5b1a3a41043005fe6e342582767` | 24 + 5 | Cebraspe PC-CE 2025, Delegado, questões 59 C e 66 D sobre teorias sociológicas e escola clássica; Cebraspe DPE-PA 2022, questões 40 E e 37 C sobre labelling e prevenção secundária; Cebraspe PC-GO 2017, questão 18 E sobre prevenção terciária; adaptações não literais |
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
 
@@ -886,24 +886,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U155 | `08cc87f0631d2b040dfb6d1702c6b82478e0a5e6` | `5bd1cd25019f299af6fdd3dfc6e96be589006fef` | `b6aedf72ddc2557c50b1d89219c1bad714b4cb48` | `8070da81949d8db0728fc3b17feff203027c3bd9` |
 | U156 | `4eede47209a8691222ba456698c8e3a1a802c282` | `c19f9a7187c53d46c303d4bf90ce05d3119c7dc5` | `7d2a874bbf0cfd9d6d64295db00ad6fd3ca5f1d1` | `63d530c1c59bbde858dd5af852f7d01547597ebb` |
 | U157 | `ab612c02d300b0a98dd853b01e3a9e31dd24a7ae` | `743c8a8bd6543f826125ea66f33a23d3b27fe1b2` | `29b283af2d8950007db248cc33316a3a619cd9ab` | `615b12ddb99dcaefd598022948b10fb9e8ae7222` |
+| U158 | `6da937183c6dbed61fb5f55aeec28ced8f02de0a` | `d55cf52d03940fcbdc062dfd9b806508a614efbf` | `9d80c072cde031fd0080cef060cbde04dbf95738` | `a82d9feec060b6b73e8bf967bf262a83e926aec8` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`; Criminologia `01f15802bf7114e3f55e57fe91efd16df3f9fb8e`.
 
-### Último aceite — U157
+### Último aceite — U158
 
-Pacote de **Funções da Criminologia e política criminal**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u157`, `order: 157`. Snapshot editorial final `472b3dc39cd0faa71da14d42aacc92ee9066cc11`; base reservada `3242d6c7bc6ccb0489acaf9ef3ee16736610d797`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U157**, sem alteração lateral.
+Pacote de **Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u158`, `order: 158`. Snapshot editorial final `dbb19b0a3a39f5b1a3a41043005fe6e342582767`; base reservada `e91b3397bbbb1b1b7df6c28c55a822229b37ccef`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U158**, sem alteração lateral.
 
-A unidade permanece sem `vinculo.json` e sem doador integral compatível. U156 foi usada como base conceitual, sem cópia automática; U158 foi preservada para modelos teóricos, teorias sociológicas e prevenção primária/secundária/terciária. Buscas no repositório, #765/#766 e anexos não localizaram material integral aderente.
+A unidade permanece sem `vinculo.json` e sem doador integral compatível. U156/U157 foram usadas como base conceitual, sem cópia automática; buscas no repositório, #765/#766 e anexos não localizaram pacote integral aderente. O recorte do edital 2026 foi preservado: itens 3 e 3.1–3.5 apenas; “modelos de reação ao crime” e “Criminologia Ambiental” não foram importados do edital antigo.
 
-Cobertura publicada: função científica de produzir conhecimento contrastado; descrever × explicar; correlação × causalidade; prevenção e intervenção apenas no nível funcional geral; avaliação de respostas; política criminal como campo de escolhas e estratégias, mais amplo que política penal estrita; Criminologia × política criminal × Direito Penal; políticas baseadas em evidências; evidência sem automatismo decisório; definição de problema e indicador; produto × resultado; implementação × efeito; avaliação causal com cautela; direitos fundamentais e efeitos não planejados; função crítica sobre instituições de controle. A classificação de prevenção e os modelos teóricos permanecem integralmente em U158.
+Cobertura publicada: ponte escola clássica × positivismo; tradição ecológica/desorganização social; anomia/strain de Merton com cinco adaptações; associação diferencial de Sutherland; subculturas de Cohen; oportunidades legítimas/ilegítimas de Cloward e Ohlin; labelling de Becker/Lemert e desvio secundário; vínculo social de Hirschi; criminologia crítica e seletividade; hipótese das janelas quebradas com limite; prevenção no Estado democrático de direito; tipologia primária/secundária/terciária por alvo e momento; riscos de estigmatização e proibição de converter fator de risco em presunção de culpa. A aula organiza teoria por problema→mecanismo→limite→prevenção, sem catálogo enciclopédico.
 
-Foram publicadas **26 questões: 24 autorais + 2 anteriores verificadas**. As anteriores são adaptações não literais da questão 94 do Cebraspe/PC-MA 2018 — Delegado, gabarito definitivo D — e da questão 86 da CEV/UECE PC-CE 2025 — Oficial Investigador. No caderno 2, “Política Criminal” era a alternativa D; o Comunicado nº 143/2025 confirmou a resposta em gabarito definitivo e parecer específico da banca. Nenhuma resolução separada foi necessária.
+Foram publicadas **29 questões: 24 autorais + 5 anteriores verificadas**. As anteriores são adaptações não literais de: Cebraspe/PC-CE 2025, Delegado, questões 59 C e 66 D; Cebraspe/DPE-PA 2022, questões 40 E e 37 C; Cebraspe/PC-GO 2017, questão 18 E. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` **18.862 caracteres**, `cheat-sheet.md` **3.270**, `referencias.md` **5.121** e `questoes.json` **23.827**. Microglossário: **5/3/0 pares `abbr`** em conteúdo/revisão/referências, balanceados; não restaram siglas técnicas nuas na inspeção automática. `questionSetRevision: 1`, **26 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
+Densidade final: `conteudo.md` **20.899 caracteres**, `cheat-sheet.md` **3.671**, `referencias.md` **8.018** e `questoes.json` **26.761**. Microglossário: **9/2/4 pares `abbr`** em conteúdo/revisão/referências, balanceados; a inspeção automática deixou somente numerais romanos de headings. `questionSetRevision: 1`, **29 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
 
-Fontes revalidadas em 21/9/2026: Edital PC-MA; programa institucional da Universidade de São Paulo; Souza/Ifanger 2023; Conselho Econômico e Social das Nações Unidas, Resolução 2002/13; Declaração de Kyoto 2021; estratégia do Escritório das Nações Unidas sobre Drogas e Crime; prova/gabarito Cebraspe PC-MA 2018; prova, gabarito definitivo e parecer CEV/UECE PC-CE 2025. O corte programático de 13/7/2026 foi preservado.
+Fontes revalidadas em 21/9/2026: Edital PC-MA; Robert K. Merton; Sage/Matsueda sobre Sutherland; Open University sobre Becker; Office of Justice Programs sobre Cloward/Ohlin e subculturas; Escritório das Nações Unidas sobre Drogas e Crime e Conselho Econômico e Social sobre prevenção; Constituição de 1988; provas e gabaritos oficiais Cebraspe PC-CE 2025, DPE-PA 2022 e PC-GO 2017. O corte programático de 13/7/2026 foi preservado.
 
-**PC-E17 permanece em andamento:** U156–U157 estão C/H/Q `done`; U158 segue `pending`. Próxima unidade: U158 — Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal.
+**PC-E17 — Criminologia está concluído:** U156–U158 possuem C/H/Q `done` e evidência na `main`. Não há unidade editorial independente habilitada. Somente U075 permanece `pending` por divergência física/operacional já registrada; PC-R04, PC-E08 e o fechamento integral continuam aguardando reconciliação, sem normalização silenciosa.
 
 ### Registros operacionais superados
 
