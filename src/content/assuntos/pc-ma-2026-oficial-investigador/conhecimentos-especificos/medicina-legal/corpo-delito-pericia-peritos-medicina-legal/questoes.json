@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u150-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em Medicina Legal, corpo de delito deve ser compreendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "sinônimo obrigatório de cadáver."
+        },
+        {
+          "id": "B",
+          "text": "realidade material ou conjunto de elementos materiais relacionados à infração e suscetíveis de demonstração técnica."
+        },
+        {
+          "id": "C",
+          "text": "nome dado exclusivamente ao laudo do médico-legista."
+        },
+        {
+          "id": "D",
+          "text": "declaração da vítima sobre o fato."
+        },
+        {
+          "id": "E",
+          "text": "confissão do investigado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Corpo de delito não significa necessariamente corpo humano. A expressão se refere à materialidade deixada pela infração e sujeita a exame."
+    },
+    {
+      "id": "u150-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre corpo de delito e exame de corpo de delito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o primeiro é a realidade material e o segundo é a operação técnico-pericial realizada sobre ela."
+        },
+        {
+          "id": "B",
+          "text": "ambos são sinônimos perfeitos."
+        },
+        {
+          "id": "C",
+          "text": "o exame é o vestígio bruto e o corpo de delito é a sentença."
+        },
+        {
+          "id": "D",
+          "text": "o corpo de delito é sempre uma pessoa viva."
+        },
+        {
+          "id": "E",
+          "text": "o exame é uma declaração testemunhal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O corpo de delito é o objeto material da demonstração; o exame é a atividade técnica que o analisa."
+    },
+    {
+      "id": "u150-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do Código de Processo Penal, vestígio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer suspeita não confirmada."
+        },
+        {
+          "id": "B",
+          "text": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, relacionado à infração penal."
+        },
+        {
+          "id": "C",
+          "text": "apenas material biológico."
+        },
+        {
+          "id": "D",
+          "text": "somente objeto apreendido por perito oficial."
+        },
+        {
+          "id": "E",
+          "text": "qualquer conclusão lançada no laudo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição legal de vestígio alcança objeto ou material bruto, visível ou latente, relacionado à infração."
+    },
+    {
+      "id": "u150-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um exame que demonstra a existência e as características de uma lesão",
+      "options": [
+        {
+          "id": "A",
+          "text": "comprova automaticamente a autoria do fato."
+        },
+        {
+          "id": "B",
+          "text": "contribui para a materialidade, mas não identifica automaticamente quem produziu a lesão."
+        },
+        {
+          "id": "C",
+          "text": "substitui qualquer investigação de autoria."
+        },
+        {
+          "id": "D",
+          "text": "define necessariamente o dolo do agente."
+        },
+        {
+          "id": "E",
+          "text": "dispensa análise jurídica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Materialidade e autoria são questões distintas. O exame pode esclarecer a realidade material sem individualizar o autor."
+    },
+    {
+      "id": "u150-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando uma infração deixa vestígios, a confissão do acusado",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui o exame de corpo de delito."
+        },
+        {
+          "id": "B",
+          "text": "não substitui o exame de corpo de delito exigido pelo Código de Processo Penal."
+        },
+        {
+          "id": "C",
+          "text": "transforma automaticamente o exame em facultativo."
+        },
+        {
+          "id": "D",
+          "text": "somente substitui o exame se for judicial."
+        },
+        {
+          "id": "E",
+          "text": "dispensa perícia quando houver duas testemunhas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158 do Código de Processo Penal expressamente impede que a confissão supra o exame de corpo de delito em infração vestigial."
+    },
+    {
+      "id": "u150-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'perícia indireta' usada na Resolução CFM nº 2.430/2025 e o 'exame de corpo de delito indireto' do Código de Processo Penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ser tratados como conceitos necessariamente idênticos."
+        },
+        {
+          "id": "B",
+          "text": "pertencem a contextos normativos distintos e não devem ser automaticamente equiparados."
+        },
+        {
+          "id": "C",
+          "text": "foram ambos abolidos."
+        },
+        {
+          "id": "D",
+          "text": "só se aplicam à Odontologia."
+        },
+        {
+          "id": "E",
+          "text": "significam sempre exame por telemedicina."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução profissional e o Código de Processo Penal usam classificações próprias. A identificação do contexto normativo evita falsa equivalência."
+    },
+    {
+      "id": "u150-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Resolução CFM nº 2.430/2025, os exames médico-legais de natureza criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ser realizados sempre de forma presencial."
+        },
+        {
+          "id": "B",
+          "text": "devem ser sempre realizados por telemedicina."
+        },
+        {
+          "id": "C",
+          "text": "podem ser substituídos por entrevista telefônica."
+        },
+        {
+          "id": "D",
+          "text": "não são atos médicos."
+        },
+        {
+          "id": "E",
+          "text": "não admitem exame físico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 23 da resolução estabelece a realização presencial dos exames médico-legais criminais."
+    },
+    {
+      "id": "u150-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A perícia é necessária, em sentido funcional, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a questão depende de conhecimento técnico ou científico especializado."
+        },
+        {
+          "id": "B",
+          "text": "a autoridade deseja apenas confirmar sua hipótese."
+        },
+        {
+          "id": "C",
+          "text": "qualquer fato está sendo investigado, ainda que não haja questão técnica."
+        },
+        {
+          "id": "D",
+          "text": "há confissão, independentemente de vestígios."
+        },
+        {
+          "id": "E",
+          "text": "o perito concorda previamente com a conclusão esperada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A perícia serve para resolver questão técnica ou científica, e não para validar uma narrativa previamente escolhida."
+    },
+    {
+      "id": "u150-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quesito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pergunta técnica formal dirigida ao perito sobre a matéria examinada."
+        },
+        {
+          "id": "B",
+          "text": "sentença elaborada pelo perito."
+        },
+        {
+          "id": "C",
+          "text": "nome do vestígio antes da coleta."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo de cadeia de custódia."
+        },
+        {
+          "id": "E",
+          "text": "decisão de culpabilidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quesito delimita uma pergunta técnica a ser respondida pelo perito dentro de sua competência."
+    },
+    {
+      "id": "u150-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual quesito é mais adequadamente dirigido a um perito médico-legista?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Qual pena deve ser aplicada ao investigado?"
+        },
+        {
+          "id": "B",
+          "text": "O acusado é juridicamente culpado?"
+        },
+        {
+          "id": "C",
+          "text": "As características da lesão são compatíveis com ação por instrumento cortante?"
+        },
+        {
+          "id": "D",
+          "text": "A denúncia deve ser recebida?"
+        },
+        {
+          "id": "E",
+          "text": "O réu deve ser absolvido?"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Compatibilidade de lesão e mecanismo é questão técnica. Culpabilidade, pena e decisões processuais pertencem à autoridade jurídica."
+    },
+    {
+      "id": "u150-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma sequência coerente do raciocínio pericial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "conclusão, escolha seletiva de dados e justificativa posterior."
+        },
+        {
+          "id": "B",
+          "text": "objeto, dados, método, achados, interpretação e conclusão."
+        },
+        {
+          "id": "C",
+          "text": "sentença, exame e quesito."
+        },
+        {
+          "id": "D",
+          "text": "autoria, pena e laudo."
+        },
+        {
+          "id": "E",
+          "text": "hipótese policial, confirmação e condenação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conclusão deve resultar do objeto, dos dados, do método, dos achados e da interpretação técnica, e não antecedê-los."
+    },
+    {
+      "id": "u150-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma perícia, 'achado' corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao que foi efetivamente observado ou medido no exame."
+        },
+        {
+          "id": "B",
+          "text": "à consequência jurídica já decidida."
+        },
+        {
+          "id": "C",
+          "text": "à suspeita inicial da autoridade."
+        },
+        {
+          "id": "D",
+          "text": "ao gabarito de um quesito jurídico."
+        },
+        {
+          "id": "E",
+          "text": "à pena prevista no tipo penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Achado é o resultado observado ou mensurado; sua interpretação posterior pode gerar inferências e conclusões."
+    },
+    {
+      "id": "u150-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nexo causal, em contexto médico-pericial, exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas que o dano tenha ocorrido depois do evento."
+        },
+        {
+          "id": "B",
+          "text": "relação tecnicamente demonstrada entre evento ou condição antecedente e dano subsequente."
+        },
+        {
+          "id": "C",
+          "text": "mera coincidência temporal."
+        },
+        {
+          "id": "D",
+          "text": "confissão da pessoa examinada."
+        },
+        {
+          "id": "E",
+          "text": "decisão prévia da autoridade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sequência temporal não basta. O nexo exige fundamentação técnica da relação de causa e efeito."
+    },
+    {
+      "id": "u150-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 12.030/2009 assegura ao perito oficial de natureza criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "autonomia técnica, científica e funcional."
+        },
+        {
+          "id": "B",
+          "text": "autonomia para decidir a sentença."
+        },
+        {
+          "id": "C",
+          "text": "dispensa de formação específica."
+        },
+        {
+          "id": "D",
+          "text": "subordinação científica ao investigado."
+        },
+        {
+          "id": "E",
+          "text": "prerrogativa de alterar a lei processual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei assegura autonomia técnica, científica e funcional e exige concurso público e formação acadêmica específica."
+    },
+    {
+      "id": "u150-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São categorias de peritos de natureza criminal mencionadas pela Lei nº 12.030/2009",
+      "options": [
+        {
+          "id": "A",
+          "text": "peritos criminais, médico-legistas e odontolegistas."
+        },
+        {
+          "id": "B",
+          "text": "somente médicos-legistas."
+        },
+        {
+          "id": "C",
+          "text": "somente delegados e médicos."
+        },
+        {
+          "id": "D",
+          "text": "juízes, promotores e peritos."
+        },
+        {
+          "id": "E",
+          "text": "apenas profissionais de laboratório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 12.030/2009 enumera peritos criminais, médico-legistas e odontolegistas, conforme a legislação específica do ente."
+    },
+    {
+      "id": "u150-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre perícia criminal e perícia médica, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo perito criminal é médico."
+        },
+        {
+          "id": "B",
+          "text": "perícia médica e exames médico-legais possuem reserva profissional médica, mas a perícia criminal oficial abrange também outras categorias técnicas."
+        },
+        {
+          "id": "C",
+          "text": "somente médicos podem exercer qualquer perícia criminal."
+        },
+        {
+          "id": "D",
+          "text": "odontolegistas não são peritos de natureza criminal."
+        },
+        {
+          "id": "E",
+          "text": "a Lei nº 12.842/2013 aboliu a perícia criminal não médica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 12.842/2013 reserva perícia médica e exames médico-legais ao médico, com exceções legais, enquanto a Lei nº 12.030/2009 abrange outras categorias de peritos criminais."
+    },
+    {
+      "id": "u150-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A finalidade primordial do ato médico-pericial, segundo a Resolução CFM nº 2.430/2025, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "terapêutica."
+        },
+        {
+          "id": "B",
+          "text": "avaliativa e elucidativa."
+        },
+        {
+          "id": "C",
+          "text": "punitiva."
+        },
+        {
+          "id": "D",
+          "text": "investigativa sem método médico."
+        },
+        {
+          "id": "E",
+          "text": "administrativa sem conclusão técnica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução distingue a finalidade pericial da relação terapêutica clássica: o ato é avaliativo e elucidativo."
+    },
+    {
+      "id": "u150-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A autonomia do médico perito",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza conclusão sem método."
+        },
+        {
+          "id": "B",
+          "text": "é compatível com responsabilidade técnica e exige fundamentação da escolha metodológica."
+        },
+        {
+          "id": "C",
+          "text": "permite ignorar dados contrários."
+        },
+        {
+          "id": "D",
+          "text": "elimina dever de imparcialidade."
+        },
+        {
+          "id": "E",
+          "text": "transfere a responsabilidade do ato a terceiros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autonomia protege a independência técnica, mas vem acompanhada de responsabilidade pessoal, método e fundamentação."
+    },
+    {
+      "id": "u150-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O assistente técnico médico é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o mesmo profissional que o perito oficial."
+        },
+        {
+          "id": "B",
+          "text": "médico contratado pela parte para assisti-la tecnicamente em perícia médica."
+        },
+        {
+          "id": "C",
+          "text": "juiz responsável por valorar o laudo."
+        },
+        {
+          "id": "D",
+          "text": "servidor que necessariamente assina o laudo oficial."
+        },
+        {
+          "id": "E",
+          "text": "testemunha sem função técnica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Resolução CFM nº 2.430/2025 define o assistente técnico médico como profissional contratado pelas partes para assisti-las na perícia."
+    },
+    {
+      "id": "u150-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um laudo médico-pericial tecnicamente adequado deve explicitar, entre outros elementos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "metodologia, objeto, análise técnico-científica e respostas aos quesitos quando apresentados."
+        },
+        {
+          "id": "B",
+          "text": "somente a conclusão final."
+        },
+        {
+          "id": "C",
+          "text": "apenas a hipótese da autoridade."
+        },
+        {
+          "id": "D",
+          "text": "apenas a lista de documentos recebidos."
+        },
+        {
+          "id": "E",
+          "text": "a decisão jurídica que deverá ser adotada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma profissional exige elementos que permitam compreender e revisar o raciocínio técnico, não só a conclusão."
+    },
+    {
+      "id": "u150-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'a lesão é compatível com o mecanismo X' permite concluir, por si só, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "X foi necessariamente a única causa."
+        },
+        {
+          "id": "B",
+          "text": "há compatibilidade técnica, sem prova automática de causalidade exclusiva."
+        },
+        {
+          "id": "C",
+          "text": "o autor foi identificado."
+        },
+        {
+          "id": "D",
+          "text": "o dolo foi comprovado."
+        },
+        {
+          "id": "E",
+          "text": "qualquer mecanismo alternativo está excluído."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Compatibilidade é uma inferência limitada. Transformá-la em causalidade exclusiva sem dados adicionais é salto inferencial."
+    },
+    {
+      "id": "u150-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo penal, o laudo pericial",
+      "options": [
+        {
+          "id": "A",
+          "text": "vincula necessariamente o juiz."
+        },
+        {
+          "id": "B",
+          "text": "pode ser aceito ou rejeitado, no todo ou em parte, e não substitui a função decisória do juiz."
+        },
+        {
+          "id": "C",
+          "text": "é equivalente à sentença."
+        },
+        {
+          "id": "D",
+          "text": "não admite esclarecimento."
+        },
+        {
+          "id": "E",
+          "text": "não pode conter divergência entre peritos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 182 do Código de Processo Penal afirma que o juiz não fica adstrito ao laudo."
+    },
+    {
+      "id": "u150-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando peritos divergem tecnicamente, o Código de Processo Penal prevê que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a divergência seja ocultada para preservar a autoridade da perícia."
+        },
+        {
+          "id": "B",
+          "text": "as posições sejam registradas, podendo haver laudos separados, terceiro perito e, em certas condições, novo exame."
+        },
+        {
+          "id": "C",
+          "text": "a perícia seja automaticamente nula."
+        },
+        {
+          "id": "D",
+          "text": "prevaleça sempre o perito mais antigo."
+        },
+        {
+          "id": "E",
+          "text": "o assistente técnico passe a decidir."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 180 preserva a divergência de forma transparente e prevê mecanismos para sua apreciação."
+    },
+    {
+      "id": "u150-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cadeia de custódia é relevante para a perícia porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite rastrear e preservar o material examinado, embora seu detalhamento processual pertença à U093."
+        },
+        {
+          "id": "B",
+          "text": "substitui o método pericial."
+        },
+        {
+          "id": "C",
+          "text": "prova automaticamente a autoria."
+        },
+        {
+          "id": "D",
+          "text": "é aplicável apenas a prova digital."
+        },
+        {
+          "id": "E",
+          "text": "torna desnecessária a identificação do vestígio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Uma metodologia adequada aplicada a material sem identidade ou rastreabilidade pode perder confiabilidade. O rito completo da cadeia permanece em U093."
+    },
+    {
+      "id": "u150-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 29 da prova Cebraspe para Médico Legista da Polícia Civil do Maranhão, aplicada em 28/1/2018, a chamada perícia contraditória caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "divergência técnica em que as manifestações dos peritos são individualizadas e não alcançam posição comum."
+        },
+        {
+          "id": "B",
+          "text": "exame obrigatoriamente realizado por um único perito."
+        },
+        {
+          "id": "C",
+          "text": "qualquer exame feito sobre vestígio material."
+        },
+        {
+          "id": "D",
+          "text": "declaração oral de testemunha sobre questão científica."
+        },
+        {
+          "id": "E",
+          "text": "perícia em que o juiz determina previamente a conclusão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo A. O núcleo corresponde à divergência entre peritos, compatível com a disciplina do artigo 180 do Código de Processo Penal."
+    },
+    {
+      "id": "u150-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 64 da prova Cebraspe para Delegado da Polícia Civil do Espírito Santo, aplicada em 11/9/2022, assinale a afirmação correta sobre necessidade de perícia.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo fato processual exige prova pericial, mesmo sem questão técnica."
+        },
+        {
+          "id": "B",
+          "text": "A confissão torna desnecessário o exame de corpo de delito quando há vestígios."
+        },
+        {
+          "id": "C",
+          "text": "O juiz fica vinculado a qualquer laudo produzido."
+        },
+        {
+          "id": "D",
+          "text": "A perícia é obrigatória sempre que uma parte a requerer."
+        },
+        {
+          "id": "E",
+          "text": "Ressalvada a disciplina própria do exame de corpo de delito, a perícia pode ser indeferida quando a prova do fato não depender de conhecimento técnico especial ou ela for desnecessária ao esclarecimento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A questão original teve gabarito definitivo E. A regra deve ser lida com a ressalva do exame de corpo de delito, que possui disciplina própria nos crimes que deixam vestígios."
+    }
+  ]
+}
