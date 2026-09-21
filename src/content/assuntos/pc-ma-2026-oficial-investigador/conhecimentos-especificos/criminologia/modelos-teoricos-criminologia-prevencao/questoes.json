@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u158-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A escola clássica da criminologia é associada principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinismo biológico e método empírico-indutivo."
+        },
+        {
+          "id": "B",
+          "text": "livre-arbítrio, racionalidade, responsabilidade e proporcionalidade."
+        },
+        {
+          "id": "C",
+          "text": "rotulação e desvio secundário."
+        },
+        {
+          "id": "D",
+          "text": "anomia e estrutura de oportunidades."
+        },
+        {
+          "id": "E",
+          "text": "desorganização social de bairros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tradição clássica enfatiza escolha, livre-arbítrio, legalidade e proporcionalidade; o positivismo é que se associa à investigação causal determinista."
+    },
+    {
+      "id": "u158-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O positivismo criminológico representou, historicamente, uma mudança para",
+      "options": [
+        {
+          "id": "A",
+          "text": "negação de causas do crime."
+        },
+        {
+          "id": "B",
+          "text": "exclusão de investigação empírica."
+        },
+        {
+          "id": "C",
+          "text": "centralidade exclusiva da norma penal."
+        },
+        {
+          "id": "D",
+          "text": "investigação empírica de causas e fatores do comportamento delitivo."
+        },
+        {
+          "id": "E",
+          "text": "teoria da rotulação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O positivismo deslocou o foco para causalidade, determinismo e investigação empírica, embora várias formulações históricas estejam superadas."
+    },
+    {
+      "id": "u158-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A teoria da desorganização social procura explicar principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "por que todo indivíduo pobre delinque."
+        },
+        {
+          "id": "B",
+          "text": "como a pena produz intimidação abstrata."
+        },
+        {
+          "id": "C",
+          "text": "como características de organização comunitária e controle informal se relacionam à concentração territorial de delitos."
+        },
+        {
+          "id": "D",
+          "text": "como o crime é aprendido em grupos íntimos."
+        },
+        {
+          "id": "E",
+          "text": "como rótulos institucionais produzem desvio secundário."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A tradição de Chicago relaciona barreiras estruturais, redes comunitárias e controle informal à distribuição espacial do delito."
+    },
+    {
+      "id": "u158-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Da teoria da desorganização social não se pode concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo morador de área vulnerável terá comportamento criminoso."
+        },
+        {
+          "id": "B",
+          "text": "redes comunitárias podem influenciar controle informal."
+        },
+        {
+          "id": "C",
+          "text": "condições territoriais podem ser objeto de estudo criminológico."
+        },
+        {
+          "id": "D",
+          "text": "organização social local pode afetar a capacidade coletiva de enfrentar problemas."
+        },
+        {
+          "id": "E",
+          "text": "características de bairros podem ser analisadas empiricamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A teoria opera no nível comunitário; inferir destino individual a partir de característica de área é erro ecológico/determinista."
+    },
+    {
+      "id": "u158-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na formulação de Robert K. Merton, a anomia/strain decorre da tensão entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "vítima e sistema de justiça."
+        },
+        {
+          "id": "B",
+          "text": "controle formal e informal apenas."
+        },
+        {
+          "id": "C",
+          "text": "delito natural e delito legal."
+        },
+        {
+          "id": "D",
+          "text": "sanção e recompensa."
+        },
+        {
+          "id": "E",
+          "text": "metas culturalmente valorizadas e acesso desigual a meios institucionalmente legítimos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Merton desloca a anomia para a estrutura social: metas valorizadas combinadas com acesso desigual a meios legítimos geram pressão."
+    },
+    {
+      "id": "u158-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo de Merton, a adaptação denominada inovação ocorre quando o indivíduo",
+      "options": [
+        {
+          "id": "A",
+          "text": "rejeita metas e aceita meios."
+        },
+        {
+          "id": "B",
+          "text": "aceita metas culturais, mas utiliza meios ilegítimos para alcançá-las."
+        },
+        {
+          "id": "C",
+          "text": "rejeita metas e meios sem substituí-los."
+        },
+        {
+          "id": "D",
+          "text": "substitui metas e meios por nova ordem."
+        },
+        {
+          "id": "E",
+          "text": "aceita metas e meios legítimos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Inovação preserva metas socialmente valorizadas, mas recorre a meios ilegítimos quando os meios institucionais são bloqueados ou rejeitados."
+    },
+    {
+      "id": "u158-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo de Merton, conformidade significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceitar metas culturais e meios legítimos."
+        },
+        {
+          "id": "B",
+          "text": "aceitar metas e rejeitar meios legítimos."
+        },
+        {
+          "id": "C",
+          "text": "rejeitar metas e aceitar meios."
+        },
+        {
+          "id": "D",
+          "text": "rejeitar metas e meios."
+        },
+        {
+          "id": "E",
+          "text": "substituir metas e meios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conformidade é a adaptação que aceita simultaneamente metas culturais e meios institucionalizados."
+    },
+    {
+      "id": "u158-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Associação diferencial, em Sutherland, sustenta que",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime decorre de traço corporal inato."
+        },
+        {
+          "id": "B",
+          "text": "rótulo estatal é a única causa do delito."
+        },
+        {
+          "id": "C",
+          "text": "comportamento criminoso é aprendido em interação social, inclusive técnicas e definições favoráveis à violação da lei."
+        },
+        {
+          "id": "D",
+          "text": "todo contato com criminosos gera delito."
+        },
+        {
+          "id": "E",
+          "text": "o crime decorre apenas de pobreza."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A teoria explica o comportamento criminal como aprendido em interação, especialmente em grupos íntimos."
+    },
+    {
+      "id": "u158-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São dimensões clássicas da associação diferencial",
+      "options": [
+        {
+          "id": "A",
+          "text": "tipicidade, ilicitude, culpabilidade e punibilidade."
+        },
+        {
+          "id": "B",
+          "text": "metas, meios, inovação e ritualismo."
+        },
+        {
+          "id": "C",
+          "text": "apego, compromisso, envolvimento e crença."
+        },
+        {
+          "id": "D",
+          "text": "frequência, duração, prioridade e intensidade."
+        },
+        {
+          "id": "E",
+          "text": "estigma, rótulo, controle e desvio secundário."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sutherland usa essas dimensões para qualificar a exposição a definições favoráveis/desfavoráveis à violação da lei."
+    },
+    {
+      "id": "u158-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A teoria das subculturas de Albert Cohen associa delinquência juvenil a",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera herança genética."
+        },
+        {
+          "id": "B",
+          "text": "frustração de status e formação de valores alternativos no grupo."
+        },
+        {
+          "id": "C",
+          "text": "ausência absoluta de qualquer regra."
+        },
+        {
+          "id": "D",
+          "text": "rotulação estatal como mecanismo exclusivo."
+        },
+        {
+          "id": "E",
+          "text": "cálculo jurídico de pena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cohen liga subculturas delinquentes a problemas de status e a padrões alternativos de reconhecimento grupal."
+    },
+    {
+      "id": "u158-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cloward e Ohlin acrescentam ao debate da anomia a ideia de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente oportunidades legítimas importam."
+        },
+        {
+          "id": "B",
+          "text": "crime é sempre individual."
+        },
+        {
+          "id": "C",
+          "text": "subculturas não dependem de contexto."
+        },
+        {
+          "id": "D",
+          "text": "todos têm igual acesso a meios ilegítimos."
+        },
+        {
+          "id": "E",
+          "text": "o acesso a oportunidades ilegítimas também é desigualmente distribuído."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A teoria da oportunidade diferencial examina tanto bloqueios legítimos quanto disponibilidade de meios ilegítimos."
+    },
+    {
+      "id": "u158-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre subcultura, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "nem toda subcultura é criminosa; o termo designa valores e normas compartilhados por um grupo dentro da sociedade mais ampla."
+        },
+        {
+          "id": "B",
+          "text": "toda subcultura é delinquente."
+        },
+        {
+          "id": "C",
+          "text": "subcultura é sinônimo de gangue."
+        },
+        {
+          "id": "D",
+          "text": "subcultura pressupõe crime violento."
+        },
+        {
+          "id": "E",
+          "text": "subcultura é conceito exclusivamente jurídico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Subcultura é categoria sociológica ampla; apenas algumas subculturas podem sustentar condutas delinquentes."
+    },
+    {
+      "id": "u158-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A abordagem do labelling desloca a atenção para",
+      "options": [
+        {
+          "id": "A",
+          "text": "biologia do autor."
+        },
+        {
+          "id": "B",
+          "text": "apenas cálculo racional da pena."
+        },
+        {
+          "id": "C",
+          "text": "processos de reação social, seleção e aplicação de rótulos de desvio."
+        },
+        {
+          "id": "D",
+          "text": "somente oportunidades ilegítimas."
+        },
+        {
+          "id": "E",
+          "text": "apenas estrutura econômica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Becker e Lemert enfatizam como regras, rótulos e reações sociais influenciam trajetórias de desvio."
+    },
+    {
+      "id": "u158-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desvio secundário, em formulação associada a Lemert, refere-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer primeira infração."
+        },
+        {
+          "id": "B",
+          "text": "comportamento influenciado pela internalização/reação ao rótulo e pelo papel social de desviante."
+        },
+        {
+          "id": "C",
+          "text": "crime cometido por segunda pessoa."
+        },
+        {
+          "id": "D",
+          "text": "reincidência definida exclusivamente pelo Código Penal."
+        },
+        {
+          "id": "E",
+          "text": "desvio produzido por pobreza."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reação social e a identidade rotulada podem reorganizar a trajetória do indivíduo, gerando desvio secundário."
+    },
+    {
+      "id": "u158-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre associação diferencial e labelling é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas são idênticas."
+        },
+        {
+          "id": "B",
+          "text": "labelling explica aprendizagem de técnicas e associação diferencial explica rotulação."
+        },
+        {
+          "id": "C",
+          "text": "associação diferencial é teoria jurídica."
+        },
+        {
+          "id": "D",
+          "text": "associação diferencial enfatiza aprendizagem; labelling enfatiza reação social e rotulação."
+        },
+        {
+          "id": "E",
+          "text": "labelling é teoria biológica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As duas são sociológicas, mas operam por mecanismos distintos: aprendizado social versus reação/seleção."
+    },
+    {
+      "id": "u158-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na teoria do vínculo social de Hirschi, os quatro componentes são",
+      "options": [
+        {
+          "id": "A",
+          "text": "metas, meios, inovação e ritualismo."
+        },
+        {
+          "id": "B",
+          "text": "controle, vítima, delito e delinquente."
+        },
+        {
+          "id": "C",
+          "text": "frequência, duração, prioridade e intensidade."
+        },
+        {
+          "id": "D",
+          "text": "status, subcultura, conflito e retraimento."
+        },
+        {
+          "id": "E",
+          "text": "apego, compromisso, envolvimento e crença."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Hirschi explica conformidade por vínculos sociais: attachment, commitment, involvement e belief."
+    },
+    {
+      "id": "u158-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criminologia crítica desloca a análise também para",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas características corporais do infrator."
+        },
+        {
+          "id": "B",
+          "text": "processos de criminalização, seletividade, poder e efeitos das instituições de controle."
+        },
+        {
+          "id": "C",
+          "text": "somente previsão individual de delito."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente tipos penais."
+        },
+        {
+          "id": "E",
+          "text": "apenas vitimização primária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Abordagens críticas estudam como normas e instituições selecionam condutas e pessoas e quais efeitos produzem."
+    },
+    {
+      "id": "u158-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A hipótese das janelas quebradas sustenta, em linhas gerais, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo crime é fruto de rótulo."
+        },
+        {
+          "id": "B",
+          "text": "desordem urbana não tem relação com controle social."
+        },
+        {
+          "id": "C",
+          "text": "sinais de desordem não enfrentados podem favorecer mais desordem e enfraquecimento do controle informal."
+        },
+        {
+          "id": "D",
+          "text": "qualquer desordem autoriza repressão sem limites."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de anomia de Merton."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A hipótese relaciona sinais de desordem e dinâmica de controle social, mas não autoriza automaticamente políticas repressivas indiscriminadas."
+    },
+    {
+      "id": "u158-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Estado democrático de direito, prevenção criminal deve partir da premissa de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "risco equivale a culpa."
+        },
+        {
+          "id": "B",
+          "text": "perfil estatístico permite sanção penal preventiva."
+        },
+        {
+          "id": "C",
+          "text": "direitos podem ser suspensos por suspeita genérica."
+        },
+        {
+          "id": "D",
+          "text": "estratégias preventivas devem respeitar dignidade, igualdade, legalidade e garantias fundamentais."
+        },
+        {
+          "id": "E",
+          "text": "eficiência prevalece sempre sobre direitos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Prevenção deve operar dentro dos limites constitucionais; fator de risco não equivale a autoria ou culpa."
+    },
+    {
+      "id": "u158-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Prevenção primária caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "medidas universais/estruturais sobre condições gerais antes de risco individualizado."
+        },
+        {
+          "id": "B",
+          "text": "intervenção apenas sobre condenados."
+        },
+        {
+          "id": "C",
+          "text": "vigilância apenas de reincidentes."
+        },
+        {
+          "id": "D",
+          "text": "medidas exclusivas do sistema prisional."
+        },
+        {
+          "id": "E",
+          "text": "tratamento pós-delito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A prevenção primária atua de modo amplo e estrutural, como educação, trabalho, saneamento e urbanização."
+    },
+    {
+      "id": "u158-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É exemplo típico de prevenção primária",
+      "options": [
+        {
+          "id": "A",
+          "text": "programa de apoio a egressos."
+        },
+        {
+          "id": "B",
+          "text": "policiamento focalizado apenas em grupo de risco específico."
+        },
+        {
+          "id": "C",
+          "text": "política ampla de educação, saneamento e melhoria urbana."
+        },
+        {
+          "id": "D",
+          "text": "tratamento do condenado para reduzir reincidência."
+        },
+        {
+          "id": "E",
+          "text": "monitoramento de autor já condenado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Medidas sociais e estruturais de alcance geral são clássicos exemplos de prevenção primária."
+    },
+    {
+      "id": "u158-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Prevenção secundária dirige-se principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda população sem diferenciação."
+        },
+        {
+          "id": "B",
+          "text": "grupos, contextos ou situações de risco antes da consolidação da prática delitiva."
+        },
+        {
+          "id": "C",
+          "text": "apenados e egressos exclusivamente."
+        },
+        {
+          "id": "D",
+          "text": "somente vítimas depois do crime."
+        },
+        {
+          "id": "E",
+          "text": "apenas mudanças legislativas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A prevenção secundária é seletiva e focaliza riscos específicos antes de reincidência ou trajetória consolidada."
+    },
+    {
+      "id": "u158-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É exemplo típico de prevenção secundária",
+      "options": [
+        {
+          "id": "A",
+          "text": "educação universal."
+        },
+        {
+          "id": "B",
+          "text": "programa de reinserção de egressos."
+        },
+        {
+          "id": "C",
+          "text": "tratamento penitenciário."
+        },
+        {
+          "id": "D",
+          "text": "política nacional de saneamento."
+        },
+        {
+          "id": "E",
+          "text": "programa de prevenção policial focalizado em contexto de alto risco."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A banca já reconheceu programa de prevenção policial como exemplo de prevenção secundária."
+    },
+    {
+      "id": "u158-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Prevenção terciária tem como objetivo central",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir fatores estruturais gerais."
+        },
+        {
+          "id": "B",
+          "text": "atuar apenas antes de qualquer delito."
+        },
+        {
+          "id": "C",
+          "text": "evitar reincidência e promover reinserção de quem já se envolveu em delito."
+        },
+        {
+          "id": "D",
+          "text": "substituir a investigação."
+        },
+        {
+          "id": "E",
+          "text": "punir grupos de risco."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prevenção terciária atua após o envolvimento criminal, com foco em redução de reincidência e reintegração."
+    },
+    {
+      "id": "u158-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 59 do Cebraspe/PC-CE 2025 para Delegado, assinale a opção correta sobre teorias sociológicas.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Merton define anomia apenas como ausência completa de normas, sem considerar metas, meios ou oportunidades."
+        },
+        {
+          "id": "B",
+          "text": "Labelling explica o crime como comportamento herdado biologicamente."
+        },
+        {
+          "id": "C",
+          "text": "Desorganização social relaciona crime a fragilidade do controle comunitário; labelling enfatiza reação social; a hipótese das janelas quebradas associa desordem tolerada a aumento de desordem/crime."
+        },
+        {
+          "id": "D",
+          "text": "Associação diferencial e labelling são sinônimos."
+        },
+        {
+          "id": "E",
+          "text": "A teoria das janelas quebradas nega qualquer relação entre desordem e controle."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo C, com I, III e IV corretos e a formulação de Merton no item II considerada incorreta."
+    },
+    {
+      "id": "u158-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 40 do Cebraspe/DPE-PA 2022, o labelling approach compreende o desvio principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "resultado exclusivo da biologia."
+        },
+        {
+          "id": "B",
+          "text": "mera aplicação do conceito formal de crime."
+        },
+        {
+          "id": "C",
+          "text": "efeito inevitável da pobreza."
+        },
+        {
+          "id": "D",
+          "text": "decisão racional calculada pela pena."
+        },
+        {
+          "id": "E",
+          "text": "processo influenciado pela reação e pelo controle social seletivo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A questão original teve gabarito definitivo E, enfatizando o crime/desvio como produto do controle social seletivo na perspectiva da rotulação."
+    },
+    {
+      "id": "u158-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 37 do Cebraspe/DPE-PA 2022, constitui exemplo de prevenção secundária",
+      "options": [
+        {
+          "id": "A",
+          "text": "educação universal."
+        },
+        {
+          "id": "B",
+          "text": "melhoria geral das condições de trabalho."
+        },
+        {
+          "id": "C",
+          "text": "programa de prevenção policial focalizado."
+        },
+        {
+          "id": "D",
+          "text": "programa amplo de combate à fome."
+        },
+        {
+          "id": "E",
+          "text": "ressocialização de pessoa encarcerada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo C. A banca classificou programa de prevenção policial como prevenção secundária."
+    },
+    {
+      "id": "u158-p04",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 18 do Cebraspe/PC-GO 2017 para Delegado, prevenção terciária consiste principalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "políticas universais de educação."
+        },
+        {
+          "id": "B",
+          "text": "melhoria estrutural de saneamento."
+        },
+        {
+          "id": "C",
+          "text": "atuação difusa sobre toda população."
+        },
+        {
+          "id": "D",
+          "text": "intervenção apenas antes do delito."
+        },
+        {
+          "id": "E",
+          "text": "ações reabilitadoras dirigidas a quem já foi condenado, buscando evitar reincidência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A questão original teve gabarito definitivo E e associou prevenção terciária a ações sobre o apenado para evitar reincidência."
+    },
+    {
+      "id": "u158-p05",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 66 do Cebraspe/PC-CE 2025 para Delegado, a escola clássica fundamenta a responsabilidade principalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinismo biológico."
+        },
+        {
+          "id": "B",
+          "text": "rotulação institucional."
+        },
+        {
+          "id": "C",
+          "text": "desorganização social."
+        },
+        {
+          "id": "D",
+          "text": "livre-arbítrio e autodeterminação."
+        },
+        {
+          "id": "E",
+          "text": "aprendizagem diferencial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão original teve gabarito definitivo D. A escola clássica é associada ao livre-arbítrio, diferentemente do determinismo positivista."
+    }
+  ]
+}
