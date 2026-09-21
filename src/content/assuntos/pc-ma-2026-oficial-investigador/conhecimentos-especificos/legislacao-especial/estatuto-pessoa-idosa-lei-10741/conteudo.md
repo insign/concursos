@@ -566,6 +566,8 @@ Entidades de atendimento devem, entre outras obrigações:
 
 A lista é extensa porque a lei transforma o atendimento institucional em atividade **documentada, fiscalizável e orientada à dignidade**, não simples alojamento.
 
+Instituições filantrópicas ou sem fins lucrativos que prestem serviços a pessoas idosas têm direito à **assistência judiciária gratuita**.
+
 ---
 
 ## 14. Fiscalização e sanções das entidades — artigos 52 a 55
@@ -576,6 +578,8 @@ Entidades são fiscalizadas, entre outros, por:
 - Ministério Público;
 - Vigilância Sanitária;
 - outros órgãos legalmente previstos.
+
+A lei também exige **publicidade das prestações de contas** dos recursos públicos e privados recebidos pelas entidades de atendimento.
 
 As sanções variam conforme a entidade.
 
@@ -776,6 +780,12 @@ Podem propor as ações, conforme a lei:
 
 A lei admite todas as espécies de ação capazes de proteger os direitos.
 
+Para obrigações de fazer ou não fazer, o juiz pode conceder **tutela específica**, determinar providências que assegurem resultado prático equivalente e impor **multa diária**, inclusive sem pedido expresso, nas condições legais.
+
+O juiz também pode atribuir **efeito suspensivo aos recursos** para evitar dano irreparável à parte.
+
+Quando sentença transitada em julgado condena o poder público, o juiz deve remeter peças à autoridade competente para apuração da responsabilidade civil e administrativa do agente a quem se atribua a ação ou omissão.
+
 ### 20.3 Multas, custas e execução
 
 Os valores de multas previstas no Estatuto revertem ao **Fundo da Pessoa Idosa**, onde houver, ou, na falta dele, ao Fundo Municipal de Assistência Social, vinculados ao atendimento à pessoa idosa.
@@ -805,6 +815,8 @@ Antes de arquivar inquérito civil ou peças de informação, o Ministério Púb
 # Parte VII — Crimes
 
 ## 21. O regime criminal mudou em 2025 — artigos 93 a 95
+
+O artigo 93 determina aplicação subsidiária, no que couber, da **Lei da Ação Civil Pública**. A remissão não transforma os crimes em matéria civil; ela preserva a integração procedimental prevista pelo Estatuto.
 
 Aqui está uma atualização decisiva para a prova.
 
