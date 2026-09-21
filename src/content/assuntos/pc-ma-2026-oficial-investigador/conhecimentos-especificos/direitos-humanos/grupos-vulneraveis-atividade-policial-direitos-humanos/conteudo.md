@@ -123,8 +123,8 @@ A <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr
 A atuação policial deve permitir participação real. Conforme a necessidade, isso pode envolver:
 
 - comunicação acessível;
-- recurso de tecnologia assistiva;
-- adaptação razoável;
+- **tecnologia assistiva**, isto é, recurso ou serviço que amplia funcionalidade, autonomia e participação;
+- **adaptação razoável**, isto é, ajuste necessário e adequado ao caso concreto sem ônus desproporcional e indevido;
 - respeito à forma de comunicação da pessoa;
 - acesso físico ao serviço;
 - atendimento direto à própria pessoa, e não apenas ao acompanhante.
@@ -202,9 +202,9 @@ Isso cria riscos específicos:
 - tortura ou maus-tratos;
 - uso abusivo da força.
 
-A pessoa presa ou detida **não perde sua dignidade nem os direitos incompatíveis apenas com a própria restrição legítima de liberdade**.
+A pessoa presa ou detida **não perde sua dignidade nem os direitos que não sejam incompatíveis com a própria restrição legítima de liberdade**.
 
-Por isso, custódia é um dos contextos em que prevenção, registro, fiscalização, investigação de abusos e acesso a cuidados possuem especial importância.
+Nesta unidade, **custódia** significa a situação em que a pessoa se encontra sob guarda ou controle direto de uma autoridade. Por isso, é um dos contextos em que prevenção, registro, fiscalização, investigação de abusos e acesso a cuidados possuem especial importância.
 
 ---
 
@@ -628,7 +628,7 @@ Há:
 
 O objetivo não é rotular. É **prever salvaguardas necessárias**.
 
-### 3. Comunique e desescale quando possível
+### 3. Comunique e reduza a tensão quando possível
 
 Antes de coerção, se a situação permitir:
 
