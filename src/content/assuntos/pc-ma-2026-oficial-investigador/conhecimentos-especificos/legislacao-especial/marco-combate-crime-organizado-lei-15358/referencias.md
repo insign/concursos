@@ -4,7 +4,7 @@ Fontes consultadas e revalidadas para o corte legislativo de **13 de julho de 20
 
 ## Edital
 
-- CEBRASPE. **Edital nº 1 — PCMA — Investigador, de 13 de julho de 2026**. Programa de Legislação Especial nos itens 20.2.2 e 20.2.3; regras temporais nos itens 19.32–19.33.1.  
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital nº 1 — <abbr title="Polícia Civil do Maranhão">PCMA</abbr> — Investigador, de 13 de julho de 2026**. Programa de Legislação Especial nos itens 20.2.2 e 20.2.3; regras temporais nos itens 19.32–19.33.1.  
   https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf
 
 ## Fonte normativa central
@@ -17,7 +17,7 @@ Fontes consultadas e revalidadas para o corte legislativo de **13 de julho de 20
 
 ## Revalidação temporal indispensável
 
-- BRASIL. **Lei nº 15.402, de 8 de maio de 2026**. Reescreveu o artigo 112 da Lei de Execução Penal antes do corte da PC-MA. Por isso, os percentuais de progressão inseridos pela Lei nº 15.358/2026 em março são tratados na aula como alteração histórica promovida pelo marco, e não como redação vigente do artigo 112 em 13 de julho de 2026.  
+- BRASIL. **Lei nº 15.402, de 8 de maio de 2026**. Reescreveu o artigo 112 da Lei de Execução Penal antes do corte da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr>. Por isso, os percentuais de progressão inseridos pela Lei nº 15.358/2026 em março são tratados na aula como alteração histórica promovida pelo marco, e não como redação vigente do artigo 112 em 13 de julho de 2026.  
   https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15402.htm
 
 - BRASIL. **Lei nº 15.397, de 30 de abril de 2026**. Alterou novamente dispositivos patrimoniais do Código Penal alcançados pelo artigo 33 da Lei nº 15.358/2026, inclusive furto, roubo e receptação. A U140 registra o comando alterador do marco; a redação consolidada desses crimes no corte é tratada na unidade própria de Direito Penal.  
@@ -52,4 +52,4 @@ Fontes consultadas e revalidadas para o corte legislativo de **13 de julho de 20
 - O texto da Lei nº 15.358/2026 foi estudado integralmente por blocos funcionais, sem reproduzir longos trechos da fonte.
 - Os quatro vetos foram preservados como vetos; remissões residuais ao § 3º do artigo 2º não foram “corrigidas”.
 - Alterações posteriores ao marco foram incorporadas apenas quando necessárias para dizer qual redação estava efetivamente vigente em 13 de julho de 2026.
-- Não foi usado material dos anexos TCE-MA como fonte normativa desta unidade, porque pertencem a outro concurso e não constituem doador integral compatível para U140.
+- Não foi usado material dos anexos <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> como fonte normativa desta unidade, porque pertencem a outro concurso e não constituem doador integral compatível para U140.
