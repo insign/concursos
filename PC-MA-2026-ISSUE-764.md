@@ -43,23 +43,23 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U140; PC-E13 — Direito Constitucional está concluído e PC-E14 — Legislação Especial está em andamento; a migração documental anterior permanece apenas como origem deste registro.
+Estado editorial após o aceite confirmado de U141; PC-E14 — Legislação Especial está concluído e PC-E15 — Direitos Humanos permanece `pending`; a migração documental anterior permanece apenas como origem deste registro.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 18 | 0 | 140 |
-| Entregáveis de unidade C/H/Q | 474 | 54 | 0 | 420 |
-| Tarefas macro individualizadas | 62 | 23 | 0 | 39 |
+| Unidades reais previstas | 158 | 17 | 0 | 141 |
+| Entregáveis de unidade C/H/Q | 474 | 51 | 0 | 423 |
+| Tarefas macro individualizadas | 62 | 20 | 0 | 42 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U140` e `U144` = **140 unidades**. Pendentes: `U075`, `U141–U143`, `U145–U158` = **18 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074`, `U076–U141` e `U144` = **141 unidades**. Pendentes: `U075`, `U142–U143`, `U145–U158` = **17 unidades**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
 
-Visões consumidoras registradas: **142 = 125 físicas locais + 17 vínculos canônicos**. U140 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 142 visões materializadas com 140 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **143 = 126 físicas locais + 17 vínculos canônicos**. U141 acrescentou uma visão física local; o `grupo.json` de Legislação Especial permanece estrutural e não é visão nem unidade. Não confundir 143 visões materializadas com 141 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
 
-Reservas ativas após o aceite de U140: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
+Reservas ativas após o aceite de U141: **nenhuma**. PC-R04 permanece `pending`, com **40/42** parciais aceitas. U075 permanece divergente e U142 permanece `pending`.
 
-**Próxima ação editorial: U141 — Interceptação telefônica — Lei 9.296/1996**, C/H/Q `pending`, conforme o planejamento individual de PC-E14. U123–U140 estão C/H/Q `done`; PC-E14-C/H/Q permanece `pending` enquanto U141 não for concluída.
+**Próxima intervenção habilitada: U142 — `teoria-geral-direitos-humanos`**, unidade parcial com C/H/Q `pending` e reserva antiga explicitamente liberada. A execução deve coordenar o reaproveitamento parcial de PC-R04 com PC-E15, sem inferir título, origem ou recorte além do que estiver materializado na `main` e nas fontes da campanha.
 
 ### Pendências e divergências herdadas
 
@@ -161,7 +161,7 @@ Cada célula C/H/Q representa a tarefa de sufixo correspondente, por exemplo PC-
 | PC-E11 | Direito Processual Penal — U091–U097 | done | done | done |
 | PC-E12 | Direito Administrativo — U098–U111 | done | done | done |
 | PC-E13 | Direito Constitucional — U112–U122 | done | done | done |
-| PC-E14 | Legislação Especial — U123–U141 | pending | pending | pending |
+| PC-E14 | Legislação Especial — U123–U141 | done | done | done |
 | PC-E15 | Direitos Humanos — U142–U148 | pending | pending | pending |
 | PC-E16 | Medicina Legal — U149–U155 | pending | pending | pending |
 | PC-E17 | Criminologia — U156–U158 | pending | pending | pending |
@@ -223,8 +223,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U098–U100; U102–U111 | Direito Administrativo; novas | C/H/Q pending; recortes individuais ausentes no corpo recebido |
 | U101 | Direito Administrativo; parcial | C/H/Q done; aceite recebido sem detalhamento antigo suficiente neste corpo |
 | U112–U122 | Direito Constitucional; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; evidências individuais na seção 8 |
-| U123–U140 | Legislação Especial; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E14-PLANEJAMENTO-20260920T1155-01`; ver seção 7 |
-| U141 | Legislação Especial; nova | C/H/Q pending; planejamento individual materializado em 20/09/2026 sob `PC-E14-PLANEJAMENTO-20260920T1155-01`; ver seção 7 |
+| U123–U141 | Legislação Especial; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E14-PLANEJAMENTO-20260920T1155-01`; ver seção 7 |
 | U142 | Direitos Humanos; parcial; `teoria-geral-direitos-humanos` | C/H/Q pending; reserva PC-R04-U142-20260915-01 explicitamente liberada |
 | U143; U145–U148 | Direitos Humanos; novas | C/H/Q pending; detalhes individuais ausentes |
 | U144 | Direitos Humanos; parcial | C/H/Q done; não importar novo aceite nem inventar origem ausente |
@@ -472,7 +471,7 @@ A classificação PC-R02 permanece autoritativa: **U123–U141 são novas/locais
 | 17 | U138 — Crimes eleitorais — Lei 4.737/1965 — `crimes-eleitorais-codigo-eleitoral-lei-4737` | Recorte penal do Código Eleitoral: crimes, sanções e disposições processuais diretamente ligadas; não cobrir Direito Eleitoral integral | nova/local; fontes primárias; snapshot `7391fe95fbad81d80fc251e3f1d259c97f8bb8fb` | Lei nº 15.358/2026 auditada: alterações nos arts. 5º/71, sem mudança do Título IV; anualidade 2026 registrada pelo TSE; Inq 4.435/STF, Tema 1.260/STF, art. 337 não recepcionado, execução e rito penal revalidados | done | done | done |
 | 18 | U139 — Organização criminosa — Lei 12.850/2013 — `organizacao-criminosa-lei-12850` | Lei nº 12.850/2013 integral: conceito, crimes, investigação, meios de obtenção da prova, colaboração, infiltração, ação controlada e procedimento | nova/local; referências incidentais em PC-E10/E11, sem doador integral; snapshot `516f2b70ee03625901405465906d66c74adbd173` | Lei nº 15.245/2025 incorporada no art. 2º, § 1º, e nos arts. 21-A/21-B; Lei nº 15.487/2026 pós-corte excluída; Lei nº 15.358/2026 preservada como U140 sem falsa alteração da Lei nº 12.850; ADIs 5.508/5.567, Tema 1.441 e corroboração revalidados | done | done | done |
 | 19 | U140 — Marco Legal do Combate ao Crime Organizado — Lei 15.358/2026 — `marco-combate-crime-organizado-lei-15358` | Lei nº 15.358/2026 integral — Marco Legal do Combate ao Crime Organizado no Brasil (Lei Raul Jungmann), crimes próprios, normas processuais/operacionais, desarticulação patrimonial, perda civil, bancos de dados e alterações legislativas promovidas | nova/local; fragmentos das alterações aparecem em PC-E10/E11, sem pacote integral; snapshot `3c5715315b12f7115f63cd9cf92c6fab9e4c548c` | Veto nº 14/2026 preservado no corte; sobreposição temporal da Lei nº 15.402/2026 no art. 112 da LEP e da Lei nº 15.397/2026 nos crimes patrimoniais revalidada; 44 questões autorais; cobrança FGV/MPRJ 2026 verificada sem reprodução integral | done | done | done |
-| 20 | U141 — Interceptação telefônica — Lei 9.296/1996 — `interceptacao-telefonica-lei-9296` | Lei nº 9.296/1996 integral + ponte mínima indispensável para **conceito** e **provas ilícitas**, termos expressamente usados no edital | nova/local; fontes primárias | U093 cobre teoria geral da prova; U141 não deve duplicá-la, apenas explicar a conexão necessária com interceptação e ilicitude | pending | pending | pending |
+| 20 | U141 — Interceptação telefônica — Lei 9.296/1996 — `interceptacao-telefonica-lei-9296` | Lei nº 9.296/1996 integral + ponte mínima indispensável para **conceito** e **provas ilícitas**, termos expressamente usados no edital | nova/local; U093 como fronteira de prova ilícita; U124/U139 como incidências; snapshot `bb478c51c0f3b841f95fba5363378b71463bd593` | Corte 13/7/2026; Leis nº 13.869/2019 e 13.964/2019 incorporadas; Temas 661 e 977/STF, serendipidade e competência aparente revalidados; ADIs 3.450/4.112 registradas como controvérsia em tramitação; 38 questões autorais + 2 anteriores verificadas | done | done | done |
 
 #### Controle de corte e dependências legislativas
 
@@ -480,7 +479,7 @@ Toda unidade de PC-E14 deve ser produzida com a redação aplicável em **13/7/2
 
 A produção deve rejeitar contaminação pós-corte. Exemplo já identificado: a Lei nº 15.487/2026, publicada em agosto, alterou ECA, Crimes Hediondos e Lei nº 12.850/2013 depois de 13/7/2026; essas mudanças não pertencem à objetiva deste edital. O mesmo cuidado vale para alterações posteriores do Código de Trânsito Brasileiro. PC-F03 fará a revalidação final, mas cada U123–U141 precisa nascer com o corte correto.
 
-**Ordem habilitada:** U141 é a primeira unidade pendente de PC-E14. U123–U140 estão C/H/Q `done`; U141 permanece C/H/Q `pending`. PC-E14-C/H/Q continua `pending` até a conclusão de todas as unidades do bloco.
+**PC-E14 concluído:** U123–U141 estão C/H/Q `done`; PC-E14-C/H/Q passa a `done`. A próxima intervenção habilitada da campanha é U142 — `teoria-geral-direitos-humanos`, unidade parcial ainda `pending`, com a reserva antiga liberada.
 
 
 
@@ -665,24 +664,25 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U138 | `e32008929e304291993994075c0d43043a8f9253` | `d5f7567dafb92a138a650373119db95552030d7e` | `e1d21b32275288bda3c7b7cd6648b72a43e32816` | `faf62d5f4f16f54fc44c5c2f6fa29b6215c28cf3` |
 | U139 | `8579bed20b7a1095189b19ee1906ba89de4bce6a` | `ecffb8ca25256b85bb2ad0ef11b8aa571dbd482e` | `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e` | `6db4d2f061870894b6aecfb5fe31ae6b379876a2` |
 | U140 | `fee3c34f654c78e4ae297f3b45aba86c78f6707e` | `edcef283410a47219f0e2accd1c33acf7dcc8080` | `87bf3b961c725940bf8ab164a8c57d3449c00933` | `1854575e70621bde7eaec7d0124626f00fa4fedf` |
+| U141 | `d1177739c3d547bfd2280df3b74315d4812e4ea7` | `3d5da38701831594758d3162d6f69abe6e34a101` | `482324052ee4e96e52a8f35a1a18aae4fbaac80b` | `dfda2b6fdc1fd1cb388d34a11c7e90e760397188` |
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`.
 
-### Último aceite — U140
+### Último aceite — U141
 
-Pacote de **Marco Legal do Combate ao Crime Organizado — Lei nº 15.358/2026**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u140`, `order: 140`. Snapshot editorial final `3c5715315b12f7115f63cd9cf92c6fab9e4c548c`; base reservada `294f6409d8e6784ccc81528df761ccea9e744b98`. A comparação base→snapshot confirma **exatamente quatro arquivos da U140**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
+Pacote de **Interceptação telefônica — Lei nº 9.296/1996**: C/H/Q `done`, nova/local, consumidor PC-MA, `storageId: pc-u141`, `order: 141`. Snapshot editorial final `bb478c51c0f3b841f95fba5363378b71463bd593`; base reservada `30bd3cc642b1b6e1939a2976ff554e04296a3c74`. A comparação base→snapshot confirma **exatamente quatro arquivos da U141**, sem alteração lateral: `conteudo.md`, `cheat-sheet.md`, `referencias.md` e `questoes.json`.
 
-A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral compatível. Os efeitos da Lei nº 15.358/2026 já absorvidos por U123, U127, U131, U132 e U138 foram tratados como fronteiras/dependências, não como origem física. U139 permaneceu autônoma para a Lei nº 12.850/2013. Os anexos recebidos do TCE-MA não foram usados como fonte normativa ou doador desta unidade.
+A unidade permanece **nova/local**, sem `vinculo.json` e sem doador integral compatível. U093 — prova no processo penal — foi lida integralmente como fronteira e já contém a teoria geral dos artigos 155–157 do Código de Processo Penal; U141 repete somente a ponte mínima necessária entre interceptação ilícita, nexo causal e fonte independente. U124 preserva o artigo 10 como efeito da Lei nº 13.869/2019 e U139 apenas remete à interceptação como meio de obtenção da prova. Nenhum conteúdo ou conjunto de questões desses vizinhos foi copiado como origem física.
 
-Corte legislativo de **13/7/2026** reconstruído a partir da Lei nº 15.358/2026 e das alterações supervenientes anteriores ao edital. O Veto nº 14/2026 foi preservado: § 3º do artigo 2º, alteração pretendida do artigo 91, II, do Código Penal e artigo 43/parágrafo único não foram convertidos em norma vigente. A Lei nº 15.402/2026, vigente desde 8/5/2026, reescreveu o artigo 112 da Lei de Execução Penal e tornou históricos, para o corte, os percentuais de progressão inseridos pelo marco em março. A Lei nº 15.397/2026 foi considerada nas alterações patrimoniais do Código Penal, sem duplicar a U087.
+Corte legislativo de **13/7/2026**: texto integral da Lei nº 9.296/1996 com as alterações das Leis nº 13.869/2019 e nº 13.964/2019. Foram revalidados os requisitos dos artigos 1º–5º, execução, autos apartados, sigilo, inutilização, captação ambiental dos artigos 8º-A e 10-A e crimes. O Tema 661/STF foi incorporado para renovações sucessivas motivadas; o Tema 977/STF para distinguir apreensão de celular e acesso a dados armazenados; serendipidade, competência aparente, degravação e identificação de voz foram limitadas aos precedentes oficiais pertinentes. As ADIs 3.450/4.112 foram registradas somente como controvérsia sobre iniciativa judicial de ofício na investigação, sem inventar tese final.
 
-Cobertura integral organizada: crimes de domínio social estruturado e favorecimento; conceito de organização criminosa ultraviolenta; causas de aumento e efeitos especiais; inquérito, decisões, forças-tarefa, cooperação e meios de prova; cautelares patrimoniais, perdimento extraordinário, intervenção empresarial e medidas definitivas; ação civil autônoma de perdimento; bancos nacional/estaduais; auxílio-reclusão; e alterações no Código Penal, Lei dos Crimes Hediondos, Lei de Execução Penal, Lei de Drogas, Estatuto do Desarmamento, Código de Processo Penal, Lei de Lavagem de Dinheiro, Código Eleitoral, Fundo Nacional de Segurança Pública e Lei das Apostas de Quota Fixa.
+Cobertura pedagógica: conceito e distinções entre interceptação, escuta, gravação por interlocutor, quebra de sigilo, dados armazenados e captação ambiental; reserva de jurisdição; três impedimentos do artigo 2º; legitimados; pedido verbal e decisão em 24 horas; períodos de 15 dias e renovações; execução policial e acompanhamento ministerial; transcrição, auto circunstanciado, autos apartados e inutilização; ponte mínima com prova ilícita e derivada; encontro fortuito, competência e dados de celular; captação ambiental e crimes dos artigos 10 e 10-A.
 
-Foram publicadas **44 questões autorais**, sem quota artificial e sem reprodução integral de prova anterior. A cobrança da FGV no XXXIX Concurso do Ministério Público do Estado do Rio de Janeiro, prova de Promotor de Justiça Substituto de 31/5/2026, foi verificada como evidência de incidência da nova lei, inclusive em tema de perdimento extraordinário, e registrada nas referências. Nenhuma resolução separada foi necessária.
+Foram publicadas **40 questões: 38 autorais + 2 anteriores verificadas**, sem quota artificial. As anteriores são adaptações não literais da questão 49 do Cebraspe/PC-MA Escrivão 2018, gabarito definitivo C, sobre autos apartados/apensação, e da questão 4 da prova oral Cebraspe/PF Delegado 2021, com padrão oficial sobre natureza da interceptação, legitimados e crime de detenção conexo a crime de reclusão. Nenhuma resolução separada foi necessária.
 
-Densidade final: `conteudo.md` com **41.152 caracteres**, `cheat-sheet.md` com **7.652**, `referencias.md` com **5.192** e `questoes.json` com **40.867**. Por ser unidade nova, não existe crescimento relativo a doador. Microglossário pós-inspeção: **14 pares `abbr` no conteúdo, 9 no cheat sheet e 5 nas referências, todos balanceados, sem títulos vazios**; o JSON permaneceu texto puro. `questionSetRevision: 1`, **44 IDs únicos**, cinco alternativas por questão, gabaritos apontando para opções existentes e explicações não vazias.
+Densidade final: `conteudo.md` com **28.885 caracteres**, `cheat-sheet.md` com **7.836**, `referencias.md` com **8.758** e `questoes.json` com **38.553**. Por ser unidade nova, não há crescimento relativo a doador. Microglossário pós-inspeção: **32 pares `abbr` no conteúdo, 13 no cheat sheet e 10 nas referências**, todos balanceados, sem aninhamento ou títulos vazios; o JSON permanece texto puro. `questionSetRevision: 1`, **40 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
 
-**PC-E14 permanece em andamento:** U123–U140 estão C/H/Q `done`; U141 segue `pending`. A próxima intervenção habilitada é U141 — Interceptação telefônica — Lei nº 9.296/1996.
+**PC-E14 — Legislação Especial está concluído:** U123–U141 estão C/H/Q `done`; as três macros PC-E14-C/H/Q passam a `done`. A próxima intervenção habilitada é U142 — `teoria-geral-direitos-humanos`, unidade parcial ainda `pending` e com a reserva antiga explicitamente liberada.
 
 ### Registros operacionais superados
 
