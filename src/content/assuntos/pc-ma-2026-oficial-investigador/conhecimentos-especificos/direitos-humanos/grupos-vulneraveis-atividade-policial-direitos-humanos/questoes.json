@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u148-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estudo de grupos vulneráveis aplicado à atividade policial, a noção de vulnerabilidade deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "presunção geral de incapacidade civil de todos os integrantes de determinados grupos."
+        },
+        {
+          "id": "B",
+          "text": "condição contextual de maior exposição a risco, discriminação ou barreiras que pode exigir salvaguardas reforçadas para assegurar direitos em igualdade."
+        },
+        {
+          "id": "C",
+          "text": "autorização para restringir direitos sem fundamento individualizado."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo jurídico de pobreza econômica."
+        },
+        {
+          "id": "E",
+          "text": "critério que elimina a autonomia da pessoa protegida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vulnerabilidade, nesta unidade, é contextual e não equivale a incapacidade. A proteção diferenciada busca tornar efetivos direitos e acesso à proteção."
+    },
+    {
+      "id": "u148-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Parte III do Pocketbook on Human Rights for Law Enforcement Officials organiza capítulos específicos sobre",
+      "options": [
+        {
+          "id": "A",
+          "text": "crianças, gênero, minorias, migrantes, refugiados e deslocados internos, pessoas com deficiência e vítimas."
+        },
+        {
+          "id": "B",
+          "text": "apenas crianças e pessoas idosas."
+        },
+        {
+          "id": "C",
+          "text": "somente suspeitos de crimes violentos."
+        },
+        {
+          "id": "D",
+          "text": "somente nacionais do Estado em que a polícia atua."
+        },
+        {
+          "id": "E",
+          "text": "apenas servidores públicos e agentes políticos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O manual oficial reúne essas sete frentes sob a rubrica de grupos que exigem proteção ou tratamento especial; essa organização não constitui rol universal fechado."
+    },
+    {
+      "id": "u148-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A proteção diferenciada de pessoa pertencente a grupo vulnerável",
+      "options": [
+        {
+          "id": "A",
+          "text": "é incompatível com a igualdade porque todos devem receber formato idêntico de atendimento."
+        },
+        {
+          "id": "B",
+          "text": "pode ser necessária para remover barreiras e permitir igualdade real de acesso e exercício de direitos."
+        },
+        {
+          "id": "C",
+          "text": "autoriza presumir que a pessoa não possa decidir por si."
+        },
+        {
+          "id": "D",
+          "text": "dispensa fundamento jurídico para a atuação policial."
+        },
+        {
+          "id": "E",
+          "text": "elimina a necessidade de comunicação direta com a própria pessoa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Igualdade material pode exigir adaptações e salvaguardas. Tratar todos de modo formalmente idêntico pode manter a barreira que impede a participação em igualdade."
+    },
+    {
+      "id": "u148-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando uma situação envolve criança ou adolescente, a atuação policial orientada por direitos humanos deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignorar a fase de desenvolvimento porque direitos humanos exigem tratamento idêntico em qualquer idade."
+        },
+        {
+          "id": "B",
+          "text": "considerar prioridade, integridade, compreensão adequada e garantias próprias de apreensão ou custódia."
+        },
+        {
+          "id": "C",
+          "text": "presumir responsabilidade penal adulta."
+        },
+        {
+          "id": "D",
+          "text": "afastar a comunicação à família em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "permitir transporte em condições constrangedoras para facilitar a operação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição e o Estatuto da Criança e do Adolescente exigem proteção integral, prioridade e salvaguardas específicas, inclusive em apreensão e custódia."
+    },
+    {
+      "id": "u148-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No atendimento policial de mulher em situação de violência doméstica e familiar, evitar revitimização significa, entre outras medidas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "repetir o relato tantas vezes quanto possível para testar sua consistência."
+        },
+        {
+          "id": "B",
+          "text": "evitar inquirições desnecessárias, contato evitável com o suspeito e questionamentos indevidos que produzam novo dano ou constrangimento."
+        },
+        {
+          "id": "C",
+          "text": "substituir automaticamente a vontade da vítima pela decisão do agente."
+        },
+        {
+          "id": "D",
+          "text": "impedir qualquer registro eletrônico do relato."
+        },
+        {
+          "id": "E",
+          "text": "recusar atendimento quando não houver lesão física visível."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei Maria da Penha prevê atendimento especializado e medidas para preservar integridade física, psíquica e emocional, reduzindo novo dano institucional."
+    },
+    {
+      "id": "u148-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à pessoa com deficiência no atendimento policial, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a deficiência presume incapacidade civil."
+        },
+        {
+          "id": "B",
+          "text": "o agente deve sempre falar exclusivamente com o acompanhante."
+        },
+        {
+          "id": "C",
+          "text": "acessibilidade, comunicação adequada e respeito à autonomia podem ser necessários para assegurar participação em igualdade."
+        },
+        {
+          "id": "D",
+          "text": "a adaptação razoável é proibida por criar tratamento desigual."
+        },
+        {
+          "id": "E",
+          "text": "somente deficiência física exige proteção contra violência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei Brasileira de Inclusão desloca o foco da incapacidade para barreiras, acessibilidade e autonomia. A própria pessoa permanece interlocutora sempre que puder se comunicar."
+    },
+    {
+      "id": "u148-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prioridade conferida à pessoa idosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza presumir incapacidade de decidir."
+        },
+        {
+          "id": "B",
+          "text": "deve ser combinada com respeito à dignidade, à autonomia e ao risco concreto."
+        },
+        {
+          "id": "C",
+          "text": "elimina qualquer necessidade de consentimento."
+        },
+        {
+          "id": "D",
+          "text": "impede a própria pessoa de relatar fatos diretamente à polícia."
+        },
+        {
+          "id": "E",
+          "text": "somente existe a partir dos 80 anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Estatuto protege desde os 60 anos e assegura prioridade, mas isso não infantiliza a pessoa nem elimina sua capacidade de decisão."
+    },
+    {
+      "id": "u148-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na atuação policial, raça, cor, origem étnica, religião ou pertencimento comunitário",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem ser usados, por si sós, para presumir periculosidade."
+        },
+        {
+          "id": "B",
+          "text": "podem justificar intensidade maior de força sem dado adicional."
+        },
+        {
+          "id": "C",
+          "text": "não devem substituir fundamento objetivo e individualizado para abordagem, proteção ou uso de coerção."
+        },
+        {
+          "id": "D",
+          "text": "eliminam a possibilidade de investigação."
+        },
+        {
+          "id": "E",
+          "text": "obrigam a polícia a recusar relato da vítima."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A atuação policial deve ser não discriminatória. Características protegidas não são atalho legítimo para periculosidade, recusa de proteção ou força mais intensa."
+    },
+    {
+      "id": "u148-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre migrantes, refugiados e pessoas deslocadas, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a condição migratória elimina a proteção internacional de direitos humanos."
+        },
+        {
+          "id": "B",
+          "text": "idioma, trauma ou medo de autoridades podem exigir ajustes no atendimento, sem transformar a condição migratória em presunção de criminalidade."
+        },
+        {
+          "id": "C",
+          "text": "somente nacionais podem ser considerados vítimas."
+        },
+        {
+          "id": "D",
+          "text": "a falta de documentos autoriza qualquer forma de coerção."
+        },
+        {
+          "id": "E",
+          "text": "todo migrante deve ser tratado como suspeito de infração penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O manual da ONU trata essas categorias como possíveis contextos de proteção especial. Situação administrativa e necessidade de proteção devem ser distinguidas."
+    },
+    {
+      "id": "u148-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pessoa privada de liberdade",
+      "options": [
+        {
+          "id": "A",
+          "text": "perde a dignidade e todos os direitos não expressamente repetidos em lei."
+        },
+        {
+          "id": "B",
+          "text": "fica sob maior controle estatal, o que reforça deveres de cuidado, prevenção de abuso e fiscalização."
+        },
+        {
+          "id": "C",
+          "text": "pode ser submetida a força por mera conveniência disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "não está protegida contra tortura."
+        },
+        {
+          "id": "E",
+          "text": "não tem direito a atendimento médico após uso da força."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Custódia cria relação de dependência estatal e exige proteção reforçada; a restrição legítima de liberdade não elimina dignidade nem direitos incompatíveis apenas com a própria custódia."
+    },
+    {
+      "id": "u148-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 1º do Código de Conduta para os Funcionários Responsáveis pela Aplicação da Lei, os agentes devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "servir a comunidade e proteger todas as pessoas contra atos ilegais, cumprindo os deveres impostos pela lei."
+        },
+        {
+          "id": "B",
+          "text": "proteger somente vítimas já reconhecidas judicialmente."
+        },
+        {
+          "id": "C",
+          "text": "usar força como primeiro instrumento de obediência."
+        },
+        {
+          "id": "D",
+          "text": "substituir tribunais na aplicação de penas."
+        },
+        {
+          "id": "E",
+          "text": "atuar sem limites legais sempre que invoquem segurança pública."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Código combina serviço à comunidade, proteção das pessoas e cumprimento dos deveres legais."
+    },
+    {
+      "id": "u148-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 2º do Código de Conduta da ONU estabelece que os agentes devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "respeitar e proteger a dignidade humana e manter e defender os direitos humanos de todas as pessoas."
+        },
+        {
+          "id": "B",
+          "text": "priorizar eficiência operacional mesmo quando houver tratamento discriminatório."
+        },
+        {
+          "id": "C",
+          "text": "proteger direitos apenas de pessoas inocentadas."
+        },
+        {
+          "id": "D",
+          "text": "desconsiderar direitos humanos durante prisões."
+        },
+        {
+          "id": "E",
+          "text": "aplicar direitos humanos apenas quando houver ordem judicial específica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dignidade e os direitos humanos integram o próprio desempenho da função de aplicação da lei."
+    },
+    {
+      "id": "u148-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º do Código de Conduta estabelece que a força",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser usada sempre que houver resistência verbal."
+        },
+        {
+          "id": "B",
+          "text": "somente pode ser usada quando estritamente necessária e na medida requerida para o desempenho do dever."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatória em toda prisão."
+        },
+        {
+          "id": "D",
+          "text": "pode ultrapassar o necessário se a infração for grave."
+        },
+        {
+          "id": "E",
+          "text": "não está sujeita a proporcionalidade ou controle."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º trata a força como excepcional, limitada à necessidade e ao grau exigido para a finalidade legítima."
+    },
+    {
+      "id": "u148-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação à tortura e a outros tratamentos cruéis, desumanos ou degradantes, o Código de Conduta da ONU",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite exceção por ordem superior."
+        },
+        {
+          "id": "B",
+          "text": "permite exceção em instabilidade política."
+        },
+        {
+          "id": "C",
+          "text": "proíbe infligir, instigar ou tolerar tais atos e rejeita ordem superior ou emergência como justificativa."
+        },
+        {
+          "id": "D",
+          "text": "proíbe apenas tortura física."
+        },
+        {
+          "id": "E",
+          "text": "permite maus-tratos quando houver confissão relevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 5º contém proibição absoluta e afasta justificativas como ordem superior, guerra, ameaça à segurança, instabilidade política e emergência."
+    },
+    {
+      "id": "u148-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Convenção contra a Tortura determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "circunstância excepcional pode justificar tortura se houver ameaça à segurança nacional."
+        },
+        {
+          "id": "B",
+          "text": "ordem superior é justificativa suficiente."
+        },
+        {
+          "id": "C",
+          "text": "nenhuma circunstância excepcional e nenhuma ordem superior justificam tortura."
+        },
+        {
+          "id": "D",
+          "text": "a proibição vale apenas durante paz."
+        },
+        {
+          "id": "E",
+          "text": "o Estado só deve agir depois de condenação internacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 2º exige medidas preventivas e afirma expressamente o caráter absoluto da proibição."
+    },
+    {
+      "id": "u148-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prevenção da tortura, segundo a Convenção contra a Tortura, envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas criação de tipo penal."
+        },
+        {
+          "id": "B",
+          "text": "treinamento, revisão de práticas de interrogatório e custódia, investigação, direito de denúncia e regras sobre prova obtida por tortura, entre outras medidas."
+        },
+        {
+          "id": "C",
+          "text": "somente atendimento médico posterior à condenação."
+        },
+        {
+          "id": "D",
+          "text": "apenas fiscalização internacional."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente medidas disciplinares internas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 10 a 16 constroem um sistema preventivo que atua antes, durante e depois da custódia, e não apenas na punição posterior."
+    },
+    {
+      "id": "u148-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Princípio Básico 4 da ONU sobre uso da força e armas de fogo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "armas de fogo devem ser usadas antes de meios não violentos."
+        },
+        {
+          "id": "B",
+          "text": "meios não violentos devem ser aplicados, tanto quanto possível, antes da força; esta só entra se outros meios forem ineficazes ou sem perspectiva de atingir o resultado."
+        },
+        {
+          "id": "C",
+          "text": "todo meio não violento deve ser repetido indefinidamente mesmo diante de ameaça iminente."
+        },
+        {
+          "id": "D",
+          "text": "força é obrigatória em qualquer resistência."
+        },
+        {
+          "id": "E",
+          "text": "a regra se aplica apenas a protestos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Princípio 4 estabelece prioridade aos meios não violentos, sem exigir passividade quando são ineficazes ou inadequados ao risco concreto."
+    },
+    {
+      "id": "u148-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o uso lícito da força for inevitável, o Princípio 5 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "uso da intensidade máxima para encerrar rapidamente a ocorrência."
+        },
+        {
+          "id": "B",
+          "text": "contenção e proporcionalidade, minimização de dano, preservação da vida, assistência médica e notificação de pessoas próximas."
+        },
+        {
+          "id": "C",
+          "text": "apenas comunicação verbal posterior."
+        },
+        {
+          "id": "D",
+          "text": "dispensa de socorro se o uso foi legal."
+        },
+        {
+          "id": "E",
+          "text": "apenas justificativa escrita do agente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Necessidade não encerra a análise. O modo de uso deve permanecer proporcional e orientado à redução de dano e preservação da vida."
+    },
+    {
+      "id": "u148-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Princípio 9, o uso de arma de fogo contra pessoas",
+      "options": [
+        {
+          "id": "A",
+          "text": "é permitido para garantir obediência a qualquer ordem policial."
+        },
+        {
+          "id": "B",
+          "text": "tem hipóteses restritas ligadas a ameaça grave à vida, prisão ou fuga de pessoa que apresente esse perigo, e depende da insuficiência de meios menos extremos."
+        },
+        {
+          "id": "C",
+          "text": "é permitido em toda fuga, independentemente do perigo."
+        },
+        {
+          "id": "D",
+          "text": "é obrigatório quando o suspeito estiver desarmado e correr."
+        },
+        {
+          "id": "E",
+          "text": "não possui requisitos próprios além da regra geral de força."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Princípio 9 cria limiar específico e mais alto para armas de fogo e exige insuficiência de meios menos extremos."
+    },
+    {
+      "id": "u148-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O uso letal intencional de arma de fogo, segundo o Princípio 9,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é permitido sempre que facilitar uma prisão."
+        },
+        {
+          "id": "B",
+          "text": "somente pode ocorrer quando estritamente inevitável para proteger vida."
+        },
+        {
+          "id": "C",
+          "text": "é permitido para dispersar reunião ilegal não violenta."
+        },
+        {
+          "id": "D",
+          "text": "é permitido por ordem superior, independentemente do risco."
+        },
+        {
+          "id": "E",
+          "text": "não exige ameaça à vida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fórmula é mais estrita: uso letal intencional só quando estritamente inevitável para proteger vida."
+    },
+    {
+      "id": "u148-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas situações de arma de fogo previstas no Princípio 9, o Princípio 10 estabelece, como regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma identificação ou aviso."
+        },
+        {
+          "id": "B",
+          "text": "identificação do agente e aviso claro, com tempo para cumprimento, salvo hipóteses em que o aviso gere risco grave ou seja claramente inadequado ou inútil."
+        },
+        {
+          "id": "C",
+          "text": "aviso apenas depois do disparo."
+        },
+        {
+          "id": "D",
+          "text": "aviso obrigatório mesmo quando ele próprio crie risco de morte a terceiros."
+        },
+        {
+          "id": "E",
+          "text": "aviso somente para pessoas desarmadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O aviso é regra, mas admite exceções ligadas ao risco e à inutilidade manifesta nas circunstâncias."
+    },
+    {
+      "id": "u148-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto a assembleias e pessoas sob custódia, os Princípios Básicos estabelecem que",
+      "options": [
+        {
+          "id": "A",
+          "text": "reunião ilegal não violenta autoriza força ampla e pessoa custodiada pode sofrer força por conveniência."
+        },
+        {
+          "id": "B",
+          "text": "reunião ilegal não violenta exige evitar força ou limitá-la ao mínimo; em custódia, força só cabe quando estritamente necessária para segurança, ordem ou proteção pessoal."
+        },
+        {
+          "id": "C",
+          "text": "arma de fogo pode ser usada para dispersar qualquer reunião."
+        },
+        {
+          "id": "D",
+          "text": "custódia elimina os requisitos do Princípio 9."
+        },
+        {
+          "id": "E",
+          "text": "violência em assembleia autoriza arma de fogo sem limite adicional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os Princípios 13 a 16 mantêm necessidade e limitação tanto em assembleias quanto na custódia; arma de fogo continua submetida ao limiar do Princípio 9."
+    },
+    {
+      "id": "u148-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após uso da força com lesão grave, morte ou outra consequência séria, os Princípios Básicos da ONU",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensam registro se o agente acreditar que agiu legalmente."
+        },
+        {
+          "id": "B",
+          "text": "preveem reporte, revisão efetiva e, em situações graves, comunicação detalhada às autoridades competentes, além de acesso a processo independente para a pessoa afetada."
+        },
+        {
+          "id": "C",
+          "text": "proíbem qualquer revisão administrativa."
+        },
+        {
+          "id": "D",
+          "text": "exigem apenas comunicação à imprensa."
+        },
+        {
+          "id": "E",
+          "text": "impedem controle judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os Princípios 22 e 23 ligam o uso da força a mecanismos de reporte, revisão, controle e acesso a processo independente."
+    },
+    {
+      "id": "u148-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre ordens e responsabilidade no uso da força, os Princípios Básicos determinam que",
+      "options": [
+        {
+          "id": "A",
+          "text": "superiores jamais podem responder por omissão."
+        },
+        {
+          "id": "B",
+          "text": "ordem superior sempre exclui responsabilidade do agente."
+        },
+        {
+          "id": "C",
+          "text": "não deve haver sanção por recusa de ordem ilegal de força ou por reporte de uso ilegal; ordem manifestamente ilegal não funciona como defesa quando o agente sabia disso e podia recusá-la."
+        },
+        {
+          "id": "D",
+          "text": "todo subordinado deve executar ordem mesmo se manifestamente ilegal."
+        },
+        {
+          "id": "E",
+          "text": "somente quem efetuou o disparo pode responder."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os Princípios 24 a 26 tratam de responsabilidade de comando, proteção de quem recusa ou reporta uso ilegal e limites da obediência hierárquica."
+    },
+    {
+      "id": "u148-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 72 da 2ª prova do Curso de Formação da Polícia Rodoviária Federal, 3ª turma, aplicada pelo Cespe em 1º/7/2005, a proteção especial de grupos vulneráveis deve ser compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "autorização para reduzir os direitos dos grupos considerados frágeis."
+        },
+        {
+          "id": "B",
+          "text": "mecanismo destinado a enfrentar desvantagens, discriminações e barreiras que dificultam o exercício igual de direitos."
+        },
+        {
+          "id": "C",
+          "text": "presunção de incapacidade jurídica de todo integrante do grupo."
+        },
+        {
+          "id": "D",
+          "text": "privilégio sem relação com igualdade ou proteção de direitos."
+        },
+        {
+          "id": "E",
+          "text": "regime aplicável somente a estrangeiros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item oficial 72 recebeu gabarito definitivo Certo ao reconhecer a necessidade de proteção especial diante de dificuldades e preconceitos. A adaptação atualiza a linguagem e preserva o núcleo de igualdade e proteção reforçada."
+    },
+    {
+      "id": "u148-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 79 da 2ª prova do Curso de Formação da Polícia Rodoviária Federal, 3ª turma, aplicada pelo Cespe em 1º/7/2005, o princípio da necessidade no uso da força significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "força e arma de fogo devem ser usadas sempre que forem juridicamente disponíveis, mesmo havendo alternativa eficaz menos agressiva."
+        },
+        {
+          "id": "B",
+          "text": "o agente deve preferir meios menos coercitivos e somente recorrer à força quando outros meios forem ineficazes ou insuficientes para alcançar objetivo legítimo."
+        },
+        {
+          "id": "C",
+          "text": "a força deve ser máxima para reduzir o tempo da ocorrência."
+        },
+        {
+          "id": "D",
+          "text": "necessidade elimina o dever de proporcionalidade."
+        },
+        {
+          "id": "E",
+          "text": "armas de fogo podem ser usadas para qualquer fuga."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item oficial 79 recebeu gabarito definitivo Certo ao relacionar necessidade à insuficiência de meios menos agressivos para alcançar objetivo legítimo. A adaptação aproxima a redação dos Princípios Básicos da ONU."
+    }
+  ]
+}
