@@ -12,7 +12,7 @@ Fontes revalidadas para a U147 em **21 de setembro de 2026**. Corte legislativo 
 
 ## Tratados e fundamentos normativos
 
-3. **Brasil. Decreto nº 678, de 6 de novembro de 1992 — Convenção Americana sobre Direitos Humanos.** Especialmente artigos 1º, 2º, 25 e 29: deveres de respeitar/garantir, adequação do direito interno, proteção judicial e regras de interpretação.  
+3. **Brasil. Decreto nº 678, de 6 de novembro de 1992 — Convenção Americana sobre Direitos Humanos.** Especialmente artigos 1º e 2º: deveres de respeitar/garantir e adequação do direito interno.  
    https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm
 
 4. **Brasil. Decreto nº 7.030, de 14 de dezembro de 2009 — Convenção de Viena sobre o Direito dos Tratados.** Artigos 26 e 27: boa-fé no cumprimento dos tratados e impossibilidade de invocar o direito interno como justificativa para inadimplemento, ressalvada a regra específica do artigo 46.  
@@ -34,7 +34,7 @@ Fontes revalidadas para a U147 em **21 de setembro de 2026**. Corte legislativo 
 
 ## Brasil — hierarquia e efeito interno
 
-9. **Supremo Tribunal Federal. Recurso Extraordinário 466.343/SP — Tema 60 da repercussão geral.** Base para a posição supralegal dos tratados de direitos humanos incorporados sem o rito do artigo 5º, § 3º, e para a impossibilidade de prisão civil do depositário infiel.  
+9. **Supremo Tribunal Federal. Recurso Extraordinário 466.343 — Tema 60 da repercussão geral.** Base para a posição supralegal dos tratados de direitos humanos incorporados sem o rito do artigo 5º, § 3º, e para a impossibilidade de prisão civil do depositário infiel.  
    https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2343529&numeroProcesso=466343&numeroTema=60
 
 10. **Supremo Tribunal Federal. Súmula Vinculante 25.** Registra a ilicitude da prisão civil do depositário infiel, qualquer que seja a modalidade do depósito.  
