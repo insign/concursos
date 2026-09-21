@@ -40,7 +40,7 @@ Pegadinhas:
 - dívida → sem prisão, **salvo** ordem judicial por dever alimentar;
 - expressão → sem censura prévia geral; exceção dos espetáculos públicos para proteção moral da infância/adolescência;
 - estrangeiro → expulsão **coletiva** proibida;
-- art. 25 → recurso simples, rápido ou efetivo.
+- artigo 25 → recurso simples, rápido ou efetivo.
 
 ## Artigo 27 — suspensão
 
@@ -50,7 +50,7 @@ Não suspensíveis:
 
 **3 / 4 / 5 / 6 / 9 / 12 / 17 / 18 / 19 / 20 / 23 + garantias judiciais indispensáveis**
 
-Direitos políticos (art. 23) → **não suspensíveis**.
+Direitos políticos (artigo 23) → **não suspensíveis**.
 
 ## Comissão Interamericana
 
@@ -103,7 +103,7 @@ Não confundir com petição individual.
 - uma reeleição;
 - tribunal internacional.
 
-### Contenciosa
+### <abbr title="competência para decidir casos concretos submetidos ao tribunal">Contenciosa</abbr>
 
 Não é automática com a ratificação da <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr>.
 
@@ -120,7 +120,7 @@ Corte → **extrema gravidade + urgência + evitar dano irreparável**.
 
 Caso ainda não submetido → Corte pode agir a pedido da Comissão.
 
-### Consultiva
+### <abbr title="competência para emitir pareceres interpretativos sem julgar um caso contencioso">Consultiva</abbr>
 
 Artigo 64:
 - interpretação da Convenção e de outros tratados de direitos humanos aplicáveis aos Estados americanos;
