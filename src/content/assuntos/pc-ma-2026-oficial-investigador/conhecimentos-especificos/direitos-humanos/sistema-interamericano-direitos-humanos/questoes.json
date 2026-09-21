@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u146-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No fluxo básico do Sistema Interamericano de Direitos Humanos, uma pessoa que pretenda denunciar violação da Convenção Americana deve, em regra, dirigir a petição inicialmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "à Corte Interamericana, que decide a admissibilidade antes de remeter o caso à Comissão."
+        },
+        {
+          "id": "B",
+          "text": "à Comissão Interamericana, que processa petições e pode, preenchidos os requisitos do sistema, levar o caso à Corte."
+        },
+        {
+          "id": "C",
+          "text": "à Assembleia Geral da OEA, única legitimada para receber denúncias individuais."
+        },
+        {
+          "id": "D",
+          "text": "ao Conselho de Segurança das Nações Unidas."
+        },
+        {
+          "id": "E",
+          "text": "diretamente ao Estado de nacionalidade de um juiz da Corte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A petição individual é apresentada à Comissão. Pelo artigo 61 da Convenção, apenas Estados-partes e a Comissão podem submeter casos à Corte."
+    },
+    {
+      "id": "u146-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Carta da Organização dos Estados Americanos, a função principal da Comissão Interamericana de Direitos Humanos é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir os tribunais nacionais em qualquer causa de direitos fundamentais."
+        },
+        {
+          "id": "B",
+          "text": "promover a observância e a proteção dos direitos humanos e servir como órgão consultivo da Organização nessa matéria."
+        },
+        {
+          "id": "C",
+          "text": "legislar diretamente para todos os Estados americanos."
+        },
+        {
+          "id": "D",
+          "text": "julgar criminalmente indivíduos acusados de violações de direitos humanos."
+        },
+        {
+          "id": "E",
+          "text": "executar as sentenças nacionais contra Estados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 106 da Carta da OEA atribui à Comissão função principal de promover observância e proteção dos direitos humanos e de servir como órgão consultivo da Organização."
+    },
+    {
+      "id": "u146-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 33 da Convenção Americana sobre Direitos Humanos identifica como órgãos competentes para conhecer dos assuntos relacionados ao cumprimento da Convenção",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Comissão Interamericana e a Corte Interamericana."
+        },
+        {
+          "id": "B",
+          "text": "a Corte Internacional de Justiça e o Tribunal Penal Internacional."
+        },
+        {
+          "id": "C",
+          "text": "somente a Comissão Interamericana."
+        },
+        {
+          "id": "D",
+          "text": "somente a Corte Interamericana."
+        },
+        {
+          "id": "E",
+          "text": "o Conselho Permanente da OEA e o Conselho de Segurança da ONU."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Convenção enumera expressamente a Comissão Interamericana de Direitos Humanos e a Corte Interamericana de Direitos Humanos."
+    },
+    {
+      "id": "u146-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao Brasil no Sistema Interamericano, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A adesão à Convenção e o reconhecimento da jurisdição contenciosa obrigatória da Corte ocorreram simultaneamente em 1992."
+        },
+        {
+          "id": "B",
+          "text": "O Brasil reconheceu a jurisdição contenciosa obrigatória da Corte em 10 de dezembro de 1998, depois de ter aderido à Convenção em 1992."
+        },
+        {
+          "id": "C",
+          "text": "O Brasil nunca reconheceu a jurisdição contenciosa da Corte."
+        },
+        {
+          "id": "D",
+          "text": "O reconhecimento brasileiro da Corte vale apenas para fatos anteriores a 1998."
+        },
+        {
+          "id": "E",
+          "text": "A Convenção somente entrou em vigor para o Brasil após o Decreto nº 4.463/2002."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O depósito da adesão brasileira à Convenção ocorreu em 25/9/1992; o reconhecimento da competência contenciosa obrigatória da Corte foi depositado em 10/12/1998, para fatos posteriores, sob condição de reciprocidade."
+    },
+    {
+      "id": "u146-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os artigos 1º e 2º da Convenção Americana estruturam, respectivamente, deveres de",
+      "options": [
+        {
+          "id": "A",
+          "text": "respeitar e garantir os direitos sem discriminação e adotar medidas internas quando necessárias à efetivação."
+        },
+        {
+          "id": "B",
+          "text": "apenas editar leis penais e abolir todos os recursos administrativos."
+        },
+        {
+          "id": "C",
+          "text": "transferir à Corte a competência legislativa nacional."
+        },
+        {
+          "id": "D",
+          "text": "garantir direitos somente a nacionais do Estado-parte."
+        },
+        {
+          "id": "E",
+          "text": "suspender a Constituição sempre que houver conflito com tratado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 1º trata do dever de respeitar e garantir os direitos; o artigo 2º exige medidas legislativas ou de outra natureza quando necessárias à efetivação interna."
+    },
+    {
+      "id": "u146-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o direito à vida na Convenção Americana, a literalidade do artigo 4º estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a proteção legal da vida é formulada, em geral, desde o momento da concepção."
+        },
+        {
+          "id": "B",
+          "text": "a pena de morte deve ser obrigatoriamente adotada pelos Estados."
+        },
+        {
+          "id": "C",
+          "text": "o direito à vida pode ser suspenso em qualquer emergência."
+        },
+        {
+          "id": "D",
+          "text": "a Convenção não disciplina pena de morte."
+        },
+        {
+          "id": "E",
+          "text": "somente cidadãos nacionais possuem direito à vida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 4º utiliza a fórmula de proteção legal do direito à vida, em geral, desde o momento da concepção, além de impor restrições à pena de morte."
+    },
+    {
+      "id": "u146-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 7º da Convenção Americana, a proibição de detenção por dívidas",
+      "options": [
+        {
+          "id": "A",
+          "text": "não admite qualquer ressalva."
+        },
+        {
+          "id": "B",
+          "text": "não limita ordens de autoridade judicial competente expedidas por inadimplemento de obrigação alimentar."
+        },
+        {
+          "id": "C",
+          "text": "somente vale para dívidas tributárias."
+        },
+        {
+          "id": "D",
+          "text": "autoriza prisão administrativa por dívida contratual."
+        },
+        {
+          "id": "E",
+          "text": "foi retirada da Convenção por protocolo posterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Convenção veda detenção por dívidas, mas ressalva mandados de autoridade judicial competente expedidos por inadimplemento de dever alimentar."
+    },
+    {
+      "id": "u146-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da liberdade de pensamento e expressão na Convenção Americana, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a censura prévia geral é a regra."
+        },
+        {
+          "id": "B",
+          "text": "a Convenção veda toda responsabilidade posterior pelo abuso da expressão."
+        },
+        {
+          "id": "C",
+          "text": "a regra é a ausência de censura prévia, sem prejuízo da exceção convencional para espetáculos públicos voltada à proteção moral da infância e adolescência."
+        },
+        {
+          "id": "D",
+          "text": "a proteção alcança apenas imprensa escrita."
+        },
+        {
+          "id": "E",
+          "text": "a liberdade de expressão pode ser suspensa sem requisitos em qualquer crise política."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 13 proíbe censura prévia como regra e admite a classificação/censura prévia de espetáculos públicos apenas para regular acesso de crianças e adolescentes com finalidade de proteção moral."
+    },
+    {
+      "id": "u146-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Convenção Americana, ao tratar de circulação e residência,",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe expressamente a expulsão coletiva de estrangeiros."
+        },
+        {
+          "id": "B",
+          "text": "proíbe toda expulsão individual, mesmo nos casos previstos em lei."
+        },
+        {
+          "id": "C",
+          "text": "nega o direito de sair do próprio país."
+        },
+        {
+          "id": "D",
+          "text": "permite privação arbitrária do direito de entrar no próprio país."
+        },
+        {
+          "id": "E",
+          "text": "trata apenas da circulação de agentes diplomáticos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 22 contém proibição expressa de expulsão coletiva de estrangeiros; isso não equivale a proibição absoluta de toda expulsão individual."
+    },
+    {
+      "id": "u146-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A proteção judicial prevista no artigo 25 da Convenção Americana corresponde, em síntese,",
+      "options": [
+        {
+          "id": "A",
+          "text": "à inexistência de recursos judiciais contra violações de direitos."
+        },
+        {
+          "id": "B",
+          "text": "ao direito a recurso simples, rápido ou efetivo perante juiz ou tribunal competente contra atos que violem direitos fundamentais."
+        },
+        {
+          "id": "C",
+          "text": "ao direito exclusivo de recorrer à Corte Interamericana antes de usar a jurisdição nacional."
+        },
+        {
+          "id": "D",
+          "text": "à suspensão de toda competência dos tribunais internos."
+        },
+        {
+          "id": "E",
+          "text": "a recurso disponível apenas a agentes estatais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 25 exige proteção judicial efetiva contra violações de direitos fundamentais, sem transformar a Corte Interamericana em recurso ordinário interno."
+    },
+    {
+      "id": "u146-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 26 da Convenção Americana demonstra que o tratado",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignora completamente direitos econômicos, sociais, educacionais, científicos e culturais."
+        },
+        {
+          "id": "B",
+          "text": "prevê compromisso de medidas para alcançar progressivamente a plena efetividade de direitos implícitos nas normas correspondentes da Carta da OEA."
+        },
+        {
+          "id": "C",
+          "text": "transforma todo direito social em obrigação penal."
+        },
+        {
+          "id": "D",
+          "text": "revoga o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais."
+        },
+        {
+          "id": "E",
+          "text": "só se aplica a Estados que não sejam membros da OEA."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 26 é a cláusula de desenvolvimento progressivo da Convenção, vinculada às normas econômicas, sociais, educacionais, científicas e culturais da Carta da OEA."
+    },
+    {
+      "id": "u146-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na suspensão de garantias prevista no artigo 27 da Convenção Americana,",
+      "options": [
+        {
+          "id": "A",
+          "text": "os direitos políticos podem ser suspensos livremente."
+        },
+        {
+          "id": "B",
+          "text": "o direito à vida pode ser suspenso por simples decreto."
+        },
+        {
+          "id": "C",
+          "text": "direitos como vida, integridade, consciência e religião, família, nacionalidade e direitos políticos integram o núcleo não suspensível, junto das garantias judiciais indispensáveis à sua proteção."
+        },
+        {
+          "id": "D",
+          "text": "todos os direitos podem ser suspensos se houver guerra."
+        },
+        {
+          "id": "E",
+          "text": "a discriminação por raça ou religião é autorizada durante emergência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 27.2 enumera direitos não suspensíveis, incluindo o artigo 23 sobre direitos políticos, e preserva as garantias judiciais essenciais à proteção desse núcleo."
+    },
+    {
+      "id": "u146-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Comissão Interamericana de Direitos Humanos é composta, segundo a Convenção, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "sete membros eleitos a título pessoal."
+        },
+        {
+          "id": "B",
+          "text": "um representante oficial de cada Estado-parte."
+        },
+        {
+          "id": "C",
+          "text": "quinze juízes vitalícios."
+        },
+        {
+          "id": "D",
+          "text": "cinco ministros indicados pela Corte."
+        },
+        {
+          "id": "E",
+          "text": "apenas cidadãos do Estado denunciado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Comissão tem sete membros de alta autoridade moral e reconhecido saber em direitos humanos, eleitos a título pessoal e não como delegados estatais."
+    },
+    {
+      "id": "u146-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 44 da Convenção Americana permite apresentar petição à Comissão",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente à vítima direta e pessoalmente."
+        },
+        {
+          "id": "B",
+          "text": "a qualquer pessoa, grupo de pessoas ou entidade não governamental legalmente reconhecida em um ou mais Estados membros da OEA."
+        },
+        {
+          "id": "C",
+          "text": "somente ao Ministério Público do Estado denunciado."
+        },
+        {
+          "id": "D",
+          "text": "apenas a Estados que tenham reconhecido a jurisdição da Corte."
+        },
+        {
+          "id": "E",
+          "text": "apenas à Corte Interamericana."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A legitimidade do artigo 44 é ampla e não se limita à própria vítima."
+    },
+    {
+      "id": "u146-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A comunicação em que um Estado-parte alega que outro Estado-parte violou direitos da Convenção",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automaticamente admitida contra qualquer Estado-parte, sem declaração adicional."
+        },
+        {
+          "id": "B",
+          "text": "depende do reconhecimento da competência da Comissão nas condições do artigo 45."
+        },
+        {
+          "id": "C",
+          "text": "é proibida pela Convenção."
+        },
+        {
+          "id": "D",
+          "text": "deve ser proposta por pessoa física."
+        },
+        {
+          "id": "E",
+          "text": "é julgada diretamente pela Assembleia Geral da ONU."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 45 prevê declarações específicas para comunicações interestatais. Essa disciplina é distinta da petição individual do artigo 44."
+    },
+    {
+      "id": "u146-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os requisitos de admissibilidade do artigo 46 da Convenção Americana estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "esgotamento dos recursos internos, prazo de seis meses a partir da notificação da decisão final e ausência de duplicidade internacional, ressalvadas as exceções convencionais."
+        },
+        {
+          "id": "B",
+          "text": "julgamento prévio pela Corte e condenação criminal do agente público."
+        },
+        {
+          "id": "C",
+          "text": "nacionalidade da vítima no Estado denunciado e autorização do chefe de governo."
+        },
+        {
+          "id": "D",
+          "text": "prazo invariável de dez anos e inexistência de qualquer processo interno."
+        },
+        {
+          "id": "E",
+          "text": "aceitação prévia do pedido pela Assembleia Geral da OEA."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são filtros expressos do artigo 46, com exceções ao esgotamento e ao prazo em hipóteses como falta de devido processo, impedimento de acesso e demora injustificada."
+    },
+    {
+      "id": "u146-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O esgotamento dos recursos internos e o prazo de seis meses não se aplicam, nos termos do artigo 46.2, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o peticionário apenas prefere o foro internacional."
+        },
+        {
+          "id": "B",
+          "text": "há falta de devido processo interno, impedimento de acesso ou esgotamento dos recursos, ou demora injustificada na decisão."
+        },
+        {
+          "id": "C",
+          "text": "o Estado possui qualquer sistema judicial."
+        },
+        {
+          "id": "D",
+          "text": "a petição foi apresentada por organização não governamental."
+        },
+        {
+          "id": "E",
+          "text": "a Corte já proferiu sentença sobre o mesmo caso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 46.2 prevê precisamente essas três hipóteses como exceções aos requisitos de esgotamento e prazo."
+    },
+    {
+      "id": "u146-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento perante a Comissão, a solução amistosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "é vedada porque toda petição deve terminar em sentença da Corte."
+        },
+        {
+          "id": "B",
+          "text": "pode ser buscada pela Comissão, desde que fundada no respeito aos direitos humanos reconhecidos no sistema."
+        },
+        {
+          "id": "C",
+          "text": "substitui a Convenção por acordo puramente privado sem controle."
+        },
+        {
+          "id": "D",
+          "text": "somente pode ocorrer depois de sentença da Corte."
+        },
+        {
+          "id": "E",
+          "text": "depende de autorização do Conselho de Segurança."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 48 permite à Comissão colocar-se à disposição das partes para solução amistosa baseada no respeito aos direitos humanos reconhecidos pela Convenção."
+    },
+    {
+      "id": "u146-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à submissão de casos à Corte Interamericana,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer indivíduo pode submeter diretamente um caso."
+        },
+        {
+          "id": "B",
+          "text": "somente os Estados-partes e a Comissão possuem, pelo artigo 61, o direito de submeter um caso."
+        },
+        {
+          "id": "C",
+          "text": "somente a vítima possui legitimidade."
+        },
+        {
+          "id": "D",
+          "text": "somente a Assembleia Geral da OEA pode submeter casos."
+        },
+        {
+          "id": "E",
+          "text": "organizações não governamentais submetem casos diretamente sem passar pela Comissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A legitimidade para o ato de submissão do caso à Corte é reservada pelo artigo 61 a Estados-partes e Comissão."
+    },
+    {
+      "id": "u146-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A jurisdição contenciosa obrigatória da Corte Interamericana",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre automaticamente da mera assinatura da Convenção."
+        },
+        {
+          "id": "B",
+          "text": "decorre automaticamente da adesão à Convenção, sem possibilidade de declaração própria."
+        },
+        {
+          "id": "C",
+          "text": "depende do reconhecimento pelo Estado-parte ou de acordo especial, nos termos do artigo 62."
+        },
+        {
+          "id": "D",
+          "text": "não existe na Convenção."
+        },
+        {
+          "id": "E",
+          "text": "somente pode ser reconhecida por prazo de um ano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 62 disciplina declaração de reconhecimento da jurisdição da Corte, que pode ser feita na ratificação/adesão ou posteriormente, além da possibilidade de acordo especial."
+    },
+    {
+      "id": "u146-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As medidas provisórias da Corte Interamericana pressupõem",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera conveniência administrativa."
+        },
+        {
+          "id": "B",
+          "text": "extrema gravidade, urgência e necessidade de evitar dano irreparável às pessoas."
+        },
+        {
+          "id": "C",
+          "text": "sentença condenatória transitada em julgado em tribunal nacional."
+        },
+        {
+          "id": "D",
+          "text": "pedido exclusivo do Conselho Permanente da OEA."
+        },
+        {
+          "id": "E",
+          "text": "que o caso já esteja necessariamente submetido à Corte, sem exceção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 63.2 exige extrema gravidade, urgência e prevenção de dano irreparável. Em assunto ainda não submetido à Corte, ela pode agir a pedido da Comissão."
+    },
+    {
+      "id": "u146-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na função consultiva prevista no artigo 64 da Convenção Americana, a Corte pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas revisar sentenças penais nacionais."
+        },
+        {
+          "id": "B",
+          "text": "interpretar a Convenção e outros tratados de proteção de direitos humanos nos Estados americanos e, a pedido de Estado membro, opinar sobre compatibilidade de leis internas."
+        },
+        {
+          "id": "C",
+          "text": "editar leis nacionais vinculantes."
+        },
+        {
+          "id": "D",
+          "text": "substituir o Congresso de um Estado."
+        },
+        {
+          "id": "E",
+          "text": "receber petição individual como se fosse ação contenciosa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A competência consultiva é distinta da contenciosa e abrange interpretação de instrumentos de direitos humanos e pareceres sobre compatibilidade normativa nos termos do artigo 64."
+    },
+    {
+      "id": "u146-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sentença da Corte Interamericana",
+      "options": [
+        {
+          "id": "A",
+          "text": "é recorrível para a Comissão."
+        },
+        {
+          "id": "B",
+          "text": "é definitiva e inapelável; dúvida sobre sentido ou alcance pode gerar pedido de interpretação em até noventa dias da notificação."
+        },
+        {
+          "id": "C",
+          "text": "não vincula o Estado que é parte no caso."
+        },
+        {
+          "id": "D",
+          "text": "só produz efeitos se aprovada pela Assembleia Geral da OEA."
+        },
+        {
+          "id": "E",
+          "text": "pode ser ignorada livremente pelo Estado condenado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 67 e 68 estabelecem caráter definitivo e inapelável da sentença, interpretação em até 90 dias e compromisso de cumprimento pelos Estados-partes nos casos em que sejam partes."
+    },
+    {
+      "id": "u146-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A declaração brasileira de reconhecimento da competência contenciosa obrigatória da Corte Interamericana alcança, conforme o ato promulgado pelo Decreto nº 4.463/2002,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente fatos anteriores a 10 de dezembro de 1998."
+        },
+        {
+          "id": "B",
+          "text": "fatos posteriores a 10 de dezembro de 1998, sob condição de reciprocidade e por prazo indeterminado."
+        },
+        {
+          "id": "C",
+          "text": "qualquer fato desde 1969, sem limite temporal."
+        },
+        {
+          "id": "D",
+          "text": "apenas controvérsias comerciais."
+        },
+        {
+          "id": "E",
+          "text": "apenas casos previamente autorizados pelo Congresso individualmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A declaração reconhece como obrigatória a competência da Corte para fatos posteriores a 10/12/1998, sob reciprocidade e por prazo indeterminado."
+    },
+    {
+      "id": "u146-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 55 do Cebraspe para Delegado de Polícia do Espírito Santo, aplicada em 11/9/2022, assinale a alternativa compatível com a Convenção Americana sobre Direitos Humanos.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ratificação da Convenção torna automaticamente obrigatória a jurisdição contenciosa da Corte, sem reconhecimento adicional."
+        },
+        {
+          "id": "B",
+          "text": "A Convenção não contém qualquer norma relacionada a desenvolvimento progressivo de direitos econômicos, sociais e culturais."
+        },
+        {
+          "id": "C",
+          "text": "Os direitos políticos podem ser suspensos durante a emergência prevista no artigo 27."
+        },
+        {
+          "id": "D",
+          "text": "A Convenção prevê mecanismos para incluir outros direitos por emendas e protocolos adicionais."
+        },
+        {
+          "id": "E",
+          "text": "A denúncia da Convenção extingue imediatamente toda responsabilidade por atos praticados antes de produzir efeitos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito definitivo da questão 55 foi D. A Convenção contém procedimentos de emenda e de protocolos adicionais para incluir outros direitos; a formulação acima é adaptação não literal ao recorte da U146."
+    }
+  ]
+}
