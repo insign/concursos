@@ -1,0 +1,1386 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u139-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 12.850/2013, organização criminosa exige associação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas ou mais pessoas, em qualquer circunstância."
+        },
+        {
+          "id": "B",
+          "text": "três ou mais pessoas, sem outros requisitos."
+        },
+        {
+          "id": "C",
+          "text": "quatro ou mais pessoas, estruturalmente ordenada e com divisão de tarefas, ainda que informal."
+        },
+        {
+          "id": "D",
+          "text": "cinco ou mais pessoas, necessariamente com hierarquia formal."
+        },
+        {
+          "id": "E",
+          "text": "quatro ou mais pessoas apenas se houver arma de fogo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 1º, § 1º, exige quatro ou mais pessoas, estrutura ordenada e divisão de tarefas, ainda que informal."
+    },
+    {
+      "id": "u139-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O objetivo da organização criminosa, segundo o conceito legal, é obter",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente vantagem econômica."
+        },
+        {
+          "id": "B",
+          "text": "direta ou indiretamente, vantagem de qualquer natureza."
+        },
+        {
+          "id": "C",
+          "text": "apenas vantagem política."
+        },
+        {
+          "id": "D",
+          "text": "somente vantagem patrimonial superior a determinado valor."
+        },
+        {
+          "id": "E",
+          "text": "vantagem necessariamente obtida no exterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei usa a expressão vantagem de qualquer natureza."
+    },
+    {
+      "id": "u139-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às infrações praticadas pela organização criminosa, o artigo 1º, § 1º, exige, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "crimes com pena mínima superior a quatro anos."
+        },
+        {
+          "id": "B",
+          "text": "crimes hediondos exclusivamente."
+        },
+        {
+          "id": "C",
+          "text": "qualquer contravenção, sem outro requisito."
+        },
+        {
+          "id": "D",
+          "text": "infrações penais com pena máxima superior a quatro anos, ou de caráter transnacional."
+        },
+        {
+          "id": "E",
+          "text": "crimes com pena máxima igual a quatro anos apenas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A literalidade usa pena máxima superior a quatro anos ou caráter transnacional."
+    },
+    {
+      "id": "u139-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal diferença quantitativa entre associação criminosa do Código Penal e organização criminosa da Lei nº 12.850/2013 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira exige três ou mais pessoas; a segunda, quatro ou mais, além dos requisitos estruturais próprios."
+        },
+        {
+          "id": "B",
+          "text": "ambas exigem quatro pessoas."
+        },
+        {
+          "id": "C",
+          "text": "a primeira exige cinco e a segunda duas."
+        },
+        {
+          "id": "D",
+          "text": "a organização criminosa exige apenas duas pessoas."
+        },
+        {
+          "id": "E",
+          "text": "a associação criminosa exige quatro ou mais pessoas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A associação criminosa do artigo 288 exige três ou mais; a organização criminosa exige quatro ou mais e outros elementos."
+    },
+    {
+      "id": "u139-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime básico do artigo 2º possui como núcleos",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente integrar e financiar."
+        },
+        {
+          "id": "B",
+          "text": "prometer e receber."
+        },
+        {
+          "id": "C",
+          "text": "ocultar e dissimular."
+        },
+        {
+          "id": "D",
+          "text": "associar-se e reunir-se."
+        },
+        {
+          "id": "E",
+          "text": "promover, constituir, financiar ou integrar organização criminosa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "São os quatro verbos do artigo 2º."
+    },
+    {
+      "id": "u139-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena básica do artigo 2º é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de seis meses a dois anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de um a três anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de três a oito anos e multa."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de quatro a doze anos e multa."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de oito a quatorze anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O caput prevê reclusão de três a oito anos e multa, sem prejuízo das demais infrações."
+    },
+    {
+      "id": "u139-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.245/2025, o artigo 2º, § 1º, pune quem impede ou embaraça investigação de infração que envolva organização criminosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente se não integrar a própria organização."
+        },
+        {
+          "id": "B",
+          "text": "com as mesmas penas, se o fato não constituir crime mais grave."
+        },
+        {
+          "id": "C",
+          "text": "apenas quando houver violência."
+        },
+        {
+          "id": "D",
+          "text": "somente se for agente público."
+        },
+        {
+          "id": "E",
+          "text": "com pena de seis meses a dois anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reforma de 2025 acrescentou expressamente a subsidiariedade: se o fato não constituir crime mais grave."
+    },
+    {
+      "id": "u139-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se, na atuação da organização criminosa, houver emprego de arma de fogo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pena é duplicada obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "a pena aumenta de um sexto a dois terços."
+        },
+        {
+          "id": "C",
+          "text": "não há reflexo penal."
+        },
+        {
+          "id": "D",
+          "text": "a pena aumenta até a metade."
+        },
+        {
+          "id": "E",
+          "text": "o crime passa a ter pena de quatro a doze anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º prevê aumento até a metade."
+    },
+    {
+      "id": "u139-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quem exerce comando individual ou coletivo da organização criminosa",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem a pena agravada, ainda que não pratique pessoalmente atos de execução."
+        },
+        {
+          "id": "B",
+          "text": "só responde se executar pessoalmente um crime-fim."
+        },
+        {
+          "id": "C",
+          "text": "recebe automaticamente aumento de dois terços."
+        },
+        {
+          "id": "D",
+          "text": "fica isento se não portar arma."
+        },
+        {
+          "id": "E",
+          "text": "responde apenas administrativamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º agrava a pena de quem exerce comando mesmo sem atos executivos pessoais."
+    },
+    {
+      "id": "u139-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 13/07/2026, integra a majorante do artigo 2º, § 4º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "organização destinada a crimes do Estatuto da Criança e do Adolescente, por força da Lei nº 15.487/2026."
+        },
+        {
+          "id": "B",
+          "text": "qualquer participação de pessoa maior de sessenta anos."
+        },
+        {
+          "id": "C",
+          "text": "participação de criança ou adolescente."
+        },
+        {
+          "id": "D",
+          "text": "mera existência de quatro integrantes."
+        },
+        {
+          "id": "E",
+          "text": "qualquer atuação em mais de um município."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ampliação para organização destinada a crimes do ECA veio somente em agosto de 2026 e é pós-corte."
+    },
+    {
+      "id": "u139-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.487/2026, para a objetiva da PC-MA com corte em 13/07/2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser integralmente incorporada."
+        },
+        {
+          "id": "B",
+          "text": "revogou a Lei nº 12.850/2013 antes do corte."
+        },
+        {
+          "id": "C",
+          "text": "alterou o artigo 21-A no corte."
+        },
+        {
+          "id": "D",
+          "text": "criou a colaboração premiada."
+        },
+        {
+          "id": "E",
+          "text": "é posterior ao corte e sua ampliação do artigo 2º, § 4º, I, deve ser excluída."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei foi publicada em 6/8/2026, portanto depois do corte."
+    },
+    {
+      "id": "u139-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Havendo indícios suficientes de que funcionário público integra organização criminosa, o juiz pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "demiti-lo definitivamente sem processo."
+        },
+        {
+          "id": "B",
+          "text": "determinar seu afastamento cautelar sem prejuízo da remuneração, se necessário à investigação ou instrução."
+        },
+        {
+          "id": "C",
+          "text": "reduzir sua remuneração pela metade."
+        },
+        {
+          "id": "D",
+          "text": "aplicar automaticamente oito anos de interdição."
+        },
+        {
+          "id": "E",
+          "text": "impedir qualquer defesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a medida cautelar prevista no artigo 2º, § 5º."
+    },
+    {
+      "id": "u139-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A condenação transitada em julgado de funcionário público nos termos do artigo 2º, § 6º, acarreta",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas multa."
+        },
+        {
+          "id": "B",
+          "text": "afastamento cautelar sem perda do cargo."
+        },
+        {
+          "id": "C",
+          "text": "suspensão por seis meses."
+        },
+        {
+          "id": "D",
+          "text": "perda do cargo/função/emprego/mandato e interdição para função ou cargo público por oito anos após o cumprimento da pena."
+        },
+        {
+          "id": "E",
+          "text": "interdição vitalícia obrigatória."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa é a consequência legal do § 6º."
+    },
+    {
+      "id": "u139-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se houver indícios de participação de policial nos crimes da Lei nº 12.850/2013,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Corregedoria instaura inquérito policial e comunica ao Ministério Público, que designa membro para acompanhamento."
+        },
+        {
+          "id": "B",
+          "text": "o processo é automaticamente arquivado."
+        },
+        {
+          "id": "C",
+          "text": "somente o Ministério Público pode investigar."
+        },
+        {
+          "id": "D",
+          "text": "a autoridade judicial deve decretar prisão preventiva."
+        },
+        {
+          "id": "E",
+          "text": "a Corregedoria fica proibida de atuar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do § 7º."
+    },
+    {
+      "id": "u139-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 3º-A, a colaboração premiada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sentença penal negociada."
+        },
+        {
+          "id": "B",
+          "text": "prova plena e autossuficiente."
+        },
+        {
+          "id": "C",
+          "text": "negócio jurídico processual e meio de obtenção de prova."
+        },
+        {
+          "id": "D",
+          "text": "recurso criminal."
+        },
+        {
+          "id": "E",
+          "text": "medida cautelar pessoal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 13.964/2019 qualificou expressamente o acordo dessa forma."
+    },
+    {
+      "id": "u139-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O recebimento da proposta de colaboração premiada",
+      "options": [
+        {
+          "id": "A",
+          "text": "encerra a investigação."
+        },
+        {
+          "id": "B",
+          "text": "marca o início das negociações e da confidencialidade."
+        },
+        {
+          "id": "C",
+          "text": "gera automaticamente perdão judicial."
+        },
+        {
+          "id": "D",
+          "text": "obriga homologação."
+        },
+        {
+          "id": "E",
+          "text": "dispensa defensor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º-B atribui essas duas funções ao recebimento da proposta."
+    },
+    {
+      "id": "u139-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A mera recepção de proposta de colaboração ou assinatura do termo de confidencialidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "suspende automaticamente o inquérito."
+        },
+        {
+          "id": "B",
+          "text": "extingue a punibilidade."
+        },
+        {
+          "id": "C",
+          "text": "impede qualquer cautelar."
+        },
+        {
+          "id": "D",
+          "text": "obriga o Ministério Público a denunciar."
+        },
+        {
+          "id": "E",
+          "text": "não suspende, por si só, a investigação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 3º-B, § 3º, afasta a suspensão automática."
+    },
+    {
+      "id": "u139-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As tratativas de colaboração premiada",
+      "options": [
+        {
+          "id": "A",
+          "text": "não podem ocorrer sem advogado constituído ou defensor público."
+        },
+        {
+          "id": "B",
+          "text": "podem ocorrer sem defesa se o colaborador for maior."
+        },
+        {
+          "id": "C",
+          "text": "devem ser conduzidas pelo juiz."
+        },
+        {
+          "id": "D",
+          "text": "prescindem de poderes específicos."
+        },
+        {
+          "id": "E",
+          "text": "não podem ser registradas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A defesa técnica é indispensável em todas as tratativas."
+    },
+    {
+      "id": "u139-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É resultado legalmente apto a fundamentar benefício de colaboração",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer informação sem utilidade."
+        },
+        {
+          "id": "B",
+          "text": "confissão sem resultado externo."
+        },
+        {
+          "id": "C",
+          "text": "mera promessa de ajudar futuramente."
+        },
+        {
+          "id": "D",
+          "text": "identificação de coautores ou revelação da estrutura da organização, entre outros resultados previstos."
+        },
+        {
+          "id": "E",
+          "text": "apenas recuperação integral do produto do crime."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 4º admite um ou mais dos cinco resultados legais."
+    },
+    {
+      "id": "u139-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes da sentença, a colaboração efetiva e voluntária pode ensejar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente multa."
+        },
+        {
+          "id": "B",
+          "text": "perdão judicial, redução de até dois terços ou substituição por restritiva de direitos."
+        },
+        {
+          "id": "C",
+          "text": "apenas progressão de regime."
+        },
+        {
+          "id": "D",
+          "text": "absolvição automática."
+        },
+        {
+          "id": "E",
+          "text": "redução fixa de metade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses são os benefícios do caput do artigo 4º."
+    },
+    {
+      "id": "u139-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo para denúncia ou o processo relativo ao colaborador pode ser suspenso por",
+      "options": [
+        {
+          "id": "A",
+          "text": "trinta dias improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "três meses, sem suspensão prescricional."
+        },
+        {
+          "id": "C",
+          "text": "até seis meses, prorrogáveis por igual período, com suspensão da prescrição."
+        },
+        {
+          "id": "D",
+          "text": "um ano obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "tempo indeterminado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É o regime do artigo 4º, § 3º."
+    },
+    {
+      "id": "u139-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Ministério Público pode deixar de oferecer denúncia ao colaborador, nos termos do artigo 4º, § 4º, quando, além dos demais requisitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o fato não era previamente conhecido, o colaborador não é líder e é o primeiro a colaborar efetivamente."
+        },
+        {
+          "id": "B",
+          "text": "o colaborador é líder da organização."
+        },
+        {
+          "id": "C",
+          "text": "a infração já era investigada e ele é o último colaborador."
+        },
+        {
+          "id": "D",
+          "text": "o juiz exige a medida de ofício."
+        },
+        {
+          "id": "E",
+          "text": "basta existir confissão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são os requisitos cumulativos específicos do não oferecimento."
+    },
+    {
+      "id": "u139-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a colaboração for posterior à sentença,",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhum benefício é possível."
+        },
+        {
+          "id": "B",
+          "text": "a pena deve ser aumentada."
+        },
+        {
+          "id": "C",
+          "text": "só cabe perdão judicial."
+        },
+        {
+          "id": "D",
+          "text": "a progressão exige sempre todos os requisitos objetivos."
+        },
+        {
+          "id": "E",
+          "text": "a pena pode ser reduzida até a metade ou pode haver progressão mesmo sem requisitos objetivos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "É a regra do artigo 4º, § 5º."
+    },
+    {
+      "id": "u139-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na formalização do acordo de colaboração premiada, o juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "participa das negociações para fixar as cláusulas."
+        },
+        {
+          "id": "B",
+          "text": "atua como celebrante principal."
+        },
+        {
+          "id": "C",
+          "text": "não participa das negociações; exerce controle judicial na homologação."
+        },
+        {
+          "id": "D",
+          "text": "substitui o defensor."
+        },
+        {
+          "id": "E",
+          "text": "pode obrigar o Ministério Público a aceitar qualquer proposta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 6º separa negociação e controle judicial."
+    },
+    {
+      "id": "u139-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a ADI 5.508 do STF,",
+      "options": [
+        {
+          "id": "A",
+          "text": "delegado é absolutamente impedido de celebrar colaboração."
+        },
+        {
+          "id": "B",
+          "text": "é constitucional a legitimidade do delegado para celebrar acordo na fase do inquérito, observadas as balizas legais."
+        },
+        {
+          "id": "C",
+          "text": "somente o juiz celebra acordo."
+        },
+        {
+          "id": "D",
+          "text": "o acordo policial dispensa manifestação ministerial."
+        },
+        {
+          "id": "E",
+          "text": "a colaboração foi declarada inconstitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Plenário validou a atuação do delegado na fase investigativa."
+    },
+    {
+      "id": "u139-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na homologação, o juiz deve examinar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a assinatura do colaborador."
+        },
+        {
+          "id": "B",
+          "text": "somente o valor econômico recuperado."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente a opinião do delegado."
+        },
+        {
+          "id": "D",
+          "text": "regularidade, legalidade, adequação dos benefícios/resultados e voluntariedade."
+        },
+        {
+          "id": "E",
+          "text": "o mérito de todos os crimes de terceiros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 13.964/2019 especificou esses controles."
+    },
+    {
+      "id": "u139-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao direito ao silêncio do colaborador, a ADI 5.567 do STF estabeleceu que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a expressão legal de renúncia não extingue o direito fundamental, devendo ser lida como exercício voluntário da opção no âmbito do acordo assistido."
+        },
+        {
+          "id": "B",
+          "text": "o direito ao silêncio foi abolido para todo investigado."
+        },
+        {
+          "id": "C",
+          "text": "o colaborador nunca deve dizer a verdade."
+        },
+        {
+          "id": "D",
+          "text": "a defesa técnica é dispensável."
+        },
+        {
+          "id": "E",
+          "text": "o § 14 foi integralmente revogado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O STF conferiu interpretação conforme ao termo “renúncia”."
+    },
+    {
+      "id": "u139-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Somente com base nas declarações do colaborador, a lei impede",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer investigação preliminar."
+        },
+        {
+          "id": "B",
+          "text": "apenas a sentença condenatória."
+        },
+        {
+          "id": "C",
+          "text": "medidas cautelares reais/pessoais, recebimento de denúncia/queixa e sentença condenatória."
+        },
+        {
+          "id": "D",
+          "text": "somente busca e apreensão."
+        },
+        {
+          "id": "E",
+          "text": "apenas prisão preventiva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a regra de corroboração do artigo 4º, § 16."
+    },
+    {
+      "id": "u139-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O réu delatado, em relação ao acordo de outro colaborador,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode sempre anulá-lo por simples menção ao seu nome."
+        },
+        {
+          "id": "B",
+          "text": "é parte necessária do acordo."
+        },
+        {
+          "id": "C",
+          "text": "deve negociar as cláusulas."
+        },
+        {
+          "id": "D",
+          "text": "pode contestar declarações e provas, mas não tem legitimidade automática para impugnar a validade de negócio personalíssimo alheio."
+        },
+        {
+          "id": "E",
+          "text": "não possui direito de defesa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A jurisprudência distingue o acordo personalíssimo do conteúdo probatório usado contra o delatado."
+    },
+    {
+      "id": "u139-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação controlada consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "retardar intervenção policial ou administrativa para observar a ação e agir no momento mais eficaz à prova e informação."
+        },
+        {
+          "id": "B",
+          "text": "realizar prisão imediatamente em todo caso."
+        },
+        {
+          "id": "C",
+          "text": "interceptar comunicação sem lei."
+        },
+        {
+          "id": "D",
+          "text": "infiltrar qualquer particular."
+        },
+        {
+          "id": "E",
+          "text": "deixar a investigação sem supervisão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o conceito do artigo 8º."
+    },
+    {
+      "id": "u139-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao controle judicial da ação controlada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre se exige autorização judicial prévia nos mesmos termos da infiltração."
+        },
+        {
+          "id": "B",
+          "text": "há comunicação prévia ao juiz, que pode estabelecer limites e comunica o Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "não há qualquer comunicação."
+        },
+        {
+          "id": "D",
+          "text": "o juiz deve dirigir a operação."
+        },
+        {
+          "id": "E",
+          "text": "somente o Ministério Público pode comunicá-la."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei usa comunicação prévia; a estrutura não é idêntica à autorização da infiltração."
+    },
+    {
+      "id": "u139-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação controlada com transposição de fronteiras exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas comunicação à imprensa."
+        },
+        {
+          "id": "B",
+          "text": "autorização do investigado."
+        },
+        {
+          "id": "C",
+          "text": "dispensa de cooperação."
+        },
+        {
+          "id": "D",
+          "text": "ordem do país estrangeiro sem participação brasileira."
+        },
+        {
+          "id": "E",
+          "text": "cooperação das autoridades dos países que figurem como provável itinerário ou destino."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 9º exige cooperação internacional para reduzir riscos."
+    },
+    {
+      "id": "u139-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A infiltração presencial de agente policial exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas decisão do delegado."
+        },
+        {
+          "id": "B",
+          "text": "mera comunicação ao juiz."
+        },
+        {
+          "id": "C",
+          "text": "autorização judicial circunstanciada, motivada e sigilosa, além de subsidiariedade probatória."
+        },
+        {
+          "id": "D",
+          "text": "consentimento do investigado."
+        },
+        {
+          "id": "E",
+          "text": "que o agente não seja policial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 10 exige autorização judicial e impossibilidade de obter a prova por outros meios disponíveis."
+    },
+    {
+      "id": "u139-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cada autorização de infiltração presencial pode durar até",
+      "options": [
+        {
+          "id": "A",
+          "text": "trinta dias, sem renovação."
+        },
+        {
+          "id": "B",
+          "text": "seis meses, com possíveis renovações justificadas."
+        },
+        {
+          "id": "C",
+          "text": "um ano improrrogável."
+        },
+        {
+          "id": "D",
+          "text": "setecentos e vinte dias obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "tempo ilimitado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 10 prevê até seis meses e renovações necessárias; o teto global de 720 dias é da modalidade virtual."
+    },
+    {
+      "id": "u139-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na infiltração virtual, o total das autorizações não pode exceder",
+      "options": [
+        {
+          "id": "A",
+          "text": "180 dias."
+        },
+        {
+          "id": "B",
+          "text": "360 dias."
+        },
+        {
+          "id": "C",
+          "text": "540 dias."
+        },
+        {
+          "id": "D",
+          "text": "720 dias."
+        },
+        {
+          "id": "E",
+          "text": "1.440 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 10-A, § 4º, fixa teto total de 720 dias."
+    },
+    {
+      "id": "u139-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prova obtida em infiltração virtual sem observância do artigo 10-A é",
+      "options": [
+        {
+          "id": "A",
+          "text": "nula."
+        },
+        {
+          "id": "B",
+          "text": "sempre válida."
+        },
+        {
+          "id": "C",
+          "text": "mera irregularidade sem consequência."
+        },
+        {
+          "id": "D",
+          "text": "automaticamente sigilosa, mas válida."
+        },
+        {
+          "id": "E",
+          "text": "convertida em prova testemunhal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 7º declara expressamente a nulidade."
+    },
+    {
+      "id": "u139-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O agente infiltrado que pratica crime no curso da infiltração",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre imune."
+        },
+        {
+          "id": "B",
+          "text": "é sempre punido."
+        },
+        {
+          "id": "C",
+          "text": "não é punível quando inexigível conduta diversa; responde pelos excessos."
+        },
+        {
+          "id": "D",
+          "text": "recebe perdão automático por qualquer delito."
+        },
+        {
+          "id": "E",
+          "text": "não precisa guardar proporcionalidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei combina inexigibilidade de conduta diversa com responsabilidade por excessos."
+    },
+    {
+      "id": "u139-a38",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Independentemente de autorização judicial, delegado e Ministério Público podem acessar, pelo artigo 15,",
+      "options": [
+        {
+          "id": "A",
+          "text": "conteúdo de mensagens e extratos bancários."
+        },
+        {
+          "id": "B",
+          "text": "somente dados cadastrais de qualificação pessoal, filiação e endereço."
+        },
+        {
+          "id": "C",
+          "text": "qualquer geolocalização em tempo real."
+        },
+        {
+          "id": "D",
+          "text": "interceptação telefônica."
+        },
+        {
+          "id": "E",
+          "text": "todo histórico de internet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 15 limita o acesso direto a dados cadastrais básicos."
+    },
+    {
+      "id": "u139-a39",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os artigos 16 e 17 utilizam o prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "seis meses."
+        },
+        {
+          "id": "B",
+          "text": "um ano."
+        },
+        {
+          "id": "C",
+          "text": "dois anos."
+        },
+        {
+          "id": "D",
+          "text": "dez anos."
+        },
+        {
+          "id": "E",
+          "text": "cinco anos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Empresas de transporte e concessionárias de telefonia devem manter/acessar os registros previstos por cinco anos."
+    },
+    {
+      "id": "u139-a40",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 18 pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "integrar organização criminosa."
+        },
+        {
+          "id": "B",
+          "text": "fazer ação controlada sem comunicação."
+        },
+        {
+          "id": "C",
+          "text": "recusar dado cadastral."
+        },
+        {
+          "id": "D",
+          "text": "revelar identidade, fotografar ou filmar colaborador sem autorização escrita."
+        },
+        {
+          "id": "E",
+          "text": "deixar de denunciar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 18 protege a identidade do colaborador."
+    },
+    {
+      "id": "u139-a41",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 21-A, incluído em 2025, pune, entre outras condutas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "solicitar mediante vantagem ou ordenar violência/grave ameaça contra pessoas protegidas para obstruir, embaraçar ou retaliar persecução ou medida contra o crime organizado."
+        },
+        {
+          "id": "B",
+          "text": "qualquer reunião de quatro pessoas."
+        },
+        {
+          "id": "C",
+          "text": "somente recusa de documento."
+        },
+        {
+          "id": "D",
+          "text": "mera crítica a agente público."
+        },
+        {
+          "id": "E",
+          "text": "apenas violência já consumada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o núcleo da obstrução de ações contra o crime organizado."
+    },
+    {
+      "id": "u139-a42",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 21-B diferencia-se do 21-A porque pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas funcionário público."
+        },
+        {
+          "id": "B",
+          "text": "somente ameaça consumada."
+        },
+        {
+          "id": "C",
+          "text": "o ajuste de duas ou mais pessoas para praticar violência ou grave ameaça com a finalidade especial prevista."
+        },
+        {
+          "id": "D",
+          "text": "a revelação de identidade do colaborador."
+        },
+        {
+          "id": "E",
+          "text": "o acesso indevido a dados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 21-B criminaliza a conspiração, antecipando a tutela ao ajuste."
+    },
+    {
+      "id": "u139-a43",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena dos artigos 21-A e 21-B é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reclusão de três a oito anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de quatro a doze anos e multa."
+        },
+        {
+          "id": "C",
+          "text": "detenção de seis meses a dois anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de um a quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "multa apenas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 15.245/2025 fixou quatro a doze anos e multa para ambos."
+    },
+    {
+      "id": "u139-a44",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para réu preso, a instrução criminal nos crimes da Lei nº 12.850/2013 deve, em regra, encerrar-se em",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "60 dias."
+        },
+        {
+          "id": "C",
+          "text": "90 dias."
+        },
+        {
+          "id": "D",
+          "text": "até 120 dias, prorrogáveis por até igual período mediante decisão fundamentada nas hipóteses legais."
+        },
+        {
+          "id": "E",
+          "text": "um ano sem necessidade de fundamentação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "É o prazo do artigo 22, parágrafo único."
+    },
+    {
+      "id": "u139-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 55 do Cebraspe para Delegado da Polícia Civil de Rondônia, concurso 2022, assinale a afirmação correta sobre colaboração premiada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O acordo é meio de prova autossuficiente."
+        },
+        {
+          "id": "B",
+          "text": "O juiz participa das negociações para definir as cláusulas."
+        },
+        {
+          "id": "C",
+          "text": "O magistrado não participa das negociações para formalização do acordo, exercendo posteriormente o controle judicial previsto em lei."
+        },
+        {
+          "id": "D",
+          "text": "Não se admite colaboração após sentença."
+        },
+        {
+          "id": "E",
+          "text": "Delegado jamais pode celebrar acordo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito definitivo da questão original foi C. A separação entre negociação e homologação permanece no regime atual."
+    },
+    {
+      "id": "u139-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 4 da prova oral Cebraspe para Delegado de Polícia Federal, aplicada em 2019, à luz da Lei nº 12.850/2013 e da ADI 5.508 do STF,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o Ministério Público pode celebrar colaboração em qualquer fase."
+        },
+        {
+          "id": "B",
+          "text": "o delegado de polícia possui legitimidade para celebrar acordo na fase do inquérito, com defesa, manifestação ministerial e controle judicial nos termos legais."
+        },
+        {
+          "id": "C",
+          "text": "o juiz é parte negociadora do acordo."
+        },
+        {
+          "id": "D",
+          "text": "o acordo policial dispensa homologação."
+        },
+        {
+          "id": "E",
+          "text": "a colaboração não pode produzir benefícios penais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial abordou a legitimidade do delegado e a ADI 5.508; a adaptação foi atualizada para o regime legal posterior à Lei nº 13.964/2019."
+    }
+  ]
+}
