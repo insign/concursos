@@ -43,29 +43,28 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após o aceite confirmado de U158; PC-E17 — Criminologia está `done` com U156–U158 `done`. Todas as unidades editoriais independentes estão aceitas, exceto U075, cuja divergência física/operacional já registrada permanece pendente e não deve ser normalizada silenciosamente.
+Estado editorial após a reconciliação e aceite de U075; **U001–U158 estão C/H/Q `done`**. PC-R04 e PC-E08 estão concluídos. O fechamento PC-F01–PC-F05 passa a ser a única frente pendente individualizada; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Unidades reais previstas | 158 | 1 | 0 | 157 |
-| Entregáveis de unidade C/H/Q | 474 | 3 | 0 | 471 |
-| Tarefas macro individualizadas | 62 | 11 | 0 | 51 |
+| Unidades reais previstas | 158 | 0 | 0 | 158 |
+| Entregáveis de unidade C/H/Q | 474 | 0 | 0 | 474 |
+| Tarefas macro individualizadas | 62 | 5 | 0 | 57 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
-Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U074` e `U076–U158` = **157 unidades**. Pendente: somente `U075` = **1 unidade**. Cada conjunto possui o mesmo estado em C/H/Q nesta consolidação; isso não obriga igualdade de estados em ciclos futuros.
+Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U158` = **158 unidades aceitas**. C/H/Q estão `done` em todas as unidades.
 
-Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos canônicos**. U158 acrescentou uma nova visão física local; grupos não contam como visão nem unidade. Não confundir 158 visões materializadas com 157 unidades aceitas. O total de unidades canônicas únicas não deve ser deduzido automaticamente da quantidade de vínculos sem resolver suas origens.
+Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos canônicos**. A aceitação de U075 não criou nova visão: sua visão física já existia desde `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`. Neste ponto, 158 visões e 158 unidades aceitas coincidem numericamente, mas continuam sendo dimensões distintas.
 
-Reservas ativas após o aceite de U158: **nenhuma**. PC-R04 permanece `pending`, com **41/42** parciais aceitas; somente U075 permanece divergente/pendente nessa frente.
+Reservas ativas após o aceite de U075: **nenhuma**. PC-R04 está `done`, com **42/42** unidades parciais aceitas.
 
-**Nenhuma unidade editorial independente permanece habilitada após U158.** U075 é a única unidade pendente, já registrada como divergência física/operacional; preservar e não normalizar silenciosamente trabalho alheio. PC-R04 e PC-E08 permanecem `pending` por U075, e PC-F01–PC-F05 continuam bloqueadas para encerramento integral enquanto essa divergência não for reconciliada com evidência.
+**Próxima ação habilitada: PC-F01 — conferência final da matriz contra o edital consolidado.** Todas as 158 unidades e os 474 entregáveis C/H/Q estão `done`; PC-R04 e PC-E08 foram desbloqueados pela reconciliação explícita de U075.
 
 ### Pendências e divergências herdadas
 
 | Registro | Situação recebida | Tratamento |
 |---|---|---|
-| U075 | Visão física publicada, sem aceite operacional; divergência já registrada | Preservar e pular; não transformar publicação física em aceite nem reabrir outras unidades |
 | U142 | `teoria-geral-direitos-humanos`, C/H/Q `done`; visão física publicada anteriormente e reaproveitamento parcial auditado nesta intervenção | Origem canônica `nocoes-direitos-humanos/teoria-geral-direitos-fundamentais`; proveniência, lacunas, cortes e evidência materializados abaixo |
 | PC-P02–PC-P05 | Referências genéricas à implantação, mas ausência das quatro linhas próprias | Distinguir 66 previstas de 62 verificáveis; não inventar restauração, estado ou aceite |
 | Programa e matriz antigos | O corpo recebido remete parte das definições e da transcrição integral a registros anteriores que já não estavam nele | Preservar o que está materializado abaixo; ausência de título, recorte, origem ou SHA é lacuna documental herdada, não licença para adivinhá-los |
@@ -139,7 +138,7 @@ O corte legislativo adotado é **13/7/2026**. Não aplicá-lo automaticamente a 
 - [x] PC-R01 — `done` — Inventário integral do acervo candidato, consumidores e artefatos concluído conforme evidência registrada na campanha; detalhamento antigo parcialmente ausente no corpo recebido.
 - [x] PC-R02 — `done` — Classificação das 158 unidades: 17 integrais, 42 parciais e 99 novas, conforme seção 5.
 - [x] PC-R03 — `done` — 17/17 unidades integrais implantadas por vínculo canônico conforme aceite recebido; revalidar origens antes de editar.
-- [ ] PC-R04 — `pending` — Preparar/publicar cópias parciais locais após completar suas lacunas, preservando proveniência e identidades. **41/42 aceitas**; somente U075 permanece divergente/pendente.
+- [x] PC-R04 — `done` — **42/42** unidades parciais aceitas; U075 reconciliada explicitamente em 21/09/2026 com os dois canônicos doadores e corte PC-MA documentados.
 - [x] PC-R05 — `done` — Lacunas, unidades novas e dependências consolidadas conforme aceite recebido, sem inventar o detalhamento antigo ausente.
 
 ### Produção por bloco
@@ -155,7 +154,7 @@ Cada célula C/H/Q representa a tarefa de sufixo correspondente, por exemplo PC-
 | PC-E05 | Estatística — U050–U055 | done | done | done |
 | PC-E06 | Administração — U056–U061 | done | done | done |
 | PC-E07 | História do Maranhão — U062–U068 | done | done | done |
-| PC-E08 | Geografia do Maranhão — U069–U077 | pending | pending | pending |
+| PC-E08 | Geografia do Maranhão — U069–U077 | done | done | done |
 | PC-E09 | Atualidades — U078–U080 — somente discursiva | done | done | done |
 | PC-E10 | Direito Penal — U081–U090 | done | done | done |
 | PC-E11 | Direito Processual Penal — U091–U097 | done | done | done |
@@ -219,7 +218,7 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 | U063–U067 | História do Maranhão; integrais | C/H/Q done; resolver vínculos publicados |
 | U069–U071; U073 | Geografia do Maranhão; integrais | C/H/Q done; resolver vínculos publicados |
 | U072; U074; U076–U077 | Geografia do Maranhão; parciais | C/H/Q done; preservar origens/identidades da main, não recriá-las |
-| U075 | Geografia do Maranhão; parcial | C/H/Q pending no consolidado; divergência física sem aceite preservada |
+| U075 | Geografia do Maranhão; parcial; `agricultura-pecuaria-extrativismo` | C/H/Q done; publicação original `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`; proveniência reconciliada em `d54f46305e09214e67a46ac4ff4e76ec18b7b278` |
 | U098–U100; U102–U111 | Direito Administrativo; novas | C/H/Q pending; recortes individuais ausentes no corpo recebido |
 | U101 | Direito Administrativo; parcial | C/H/Q done; aceite recebido sem detalhamento antigo suficiente neste corpo |
 | U112–U122 | Direito Constitucional; novas | C/H/Q done; planejamento individual materializado em 20/09/2026 sob `PC-E13-PLANEJAMENTO-20260920T0843-01`; evidências individuais na seção 8 |
@@ -237,6 +236,16 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
 
 ## 6. Matriz dos recortes explicitamente disponíveis
+
+### Geografia do Maranhão — reconciliação U075
+
+O Edital nº 1 da PCMA, de 13/07/2026, exige literalmente no item 20.2.2: **9 A agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária. 10 Extrativismo: vegetal, animal e mineral.**
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / evidência | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 9–10 | U075 — **Agricultura, pecuária e extrativismo** | **parcial/local**; canônico `historia-geografia-estado-maranhao/agricultura-pecuaria-maranhenses/`: C `cc64362b737d12ae128eead942872c97476d008a`, H `51506cc651a8f26b7c4e8a8e67c7a16af74063ce`, R `a9e69e67f5c7c1c50d4aad3f58f14de9a77fb434`, Q `356f5d085f7553a2e3db93d7d5768acbf0cfcc9e`; canônico `historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral/`: C `bbc84eba4f587bcb6973efc1fc226632d9d1a979`, H `465633cb61540f53d655190f9498611ef7b1bd4a`, R `e20aa333ed98fe0bca664fefee34e7d1f5948d27`, Q `2392bd71b6228a6f30b351b36be1799a9ce2322b` | `agricultura-pecuaria-extrativismo`; físico PC-MA + grupo Geografia do Maranhão; `pc-u075`; 75 | Fusão local dos dois canônicos: agropecuária + extrativismo. Não usa `vinculo.json` porque um único vínculo perderia metade do programa. Condensa detalhes dos canônicos e adapta o corte TCE 04/08/2026 ao corte PC-MA 13/07/2026 | PC-MA; corte 13/7/2026; pacote físico `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`; reconciliação `d54f46305e09214e67a46ac4ff4e76ec18b7b278` | done | done | done |
+
+Os dois canônicos têm consumidores comprovados por `vinculo.json` em TCE-MA 2026 Analista Administração e Técnico Administrativo. A auditoria confirmou que C/H/Q da U075 permaneceram materialmente idênticos desde a publicação original; apenas `referencias.md` recebeu a proveniência explícita.
 
 ### Informática
 
@@ -704,6 +713,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U055 | `37404cca5f53142390e9a57b8a40f6a9a7de4fa2` | 17 + 3 | Telebras, aplicação 8/2/2026, 108 C, 109 E, 111 C |
 | U057 | `ba15dd92f41993e8e381be78b658daa0073e3473` — aceite sem mudança | 17 + 3 | FGV TJMS 2024, questão 51 E, remapeada para C; FUB 2013, 110 E/113 C |
 | U058 | `37404cca5f53142390e9a57b8a40f6a9a7de4fa2` — aceite sem mudança | 17 + 3 | FGV PGM-Rio 2025, 59 A/64 B; TCE-PA 2024, 77 A |
+| U075 | `d54f46305e09214e67a46ac4ff4e76ec18b7b278` — reconciliação de proveniência; pacote original `c1e00edc44afebf5cf73c783ace20fd7a69e1b75` | 8 + 2 | Cebraspe CBM-TO 2021, questão 23 sobre MATOPIBA; FGV PM-MA 2012, questão 50 sobre babaçu/Frexal; adaptações não literais |
 | U078 | `721e63e781b1b174ff2e359b021556a4f4fa1ca1` | 18 + 0 | Anteriores incompatíveis descartadas; quatro propostas abertas autorais no conteúdo |
 | U079 | `f95163ece27b1456240fb50ec76138b4930a1cbf` | 19 + 1 | Padrão definitivo Cebraspe TCE-MS 2025, discursiva sobre inteligência artificial; quatro propostas abertas |
 | U080 | `ae8c6d3295427fda9ea8bd0fccf98990f1979df6` | 19 + 1 | Cebraspe STJ 2024, item 40 C; quatro propostas abertas |
@@ -808,6 +818,7 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U055 | `d71e06ff4229ec6f9b6527ad1401cc0a23cfb44b` | `419a9e0417efd1d8656ece04cfc4d9ed1d3cbab1` | `758acb453c09e4d1db1c150cb940acca6112eb0a` | `0de83d36453d9e9c160c3b406bed821fc9f1108a` |
 | U057 | `d1c846c69e1423d0b21f83369612037ef1a1ac2a` | `964deafe01841fad9bad4f0109f10568e3abed81` | `2a66d0cc5d0c872782cd7ccb1d145b3e5c75fbc4` | `8c7d27741eabe99ad5e136bc343564268112c4cd` |
 | U058 | `4f33221bd5e4f45c3b15d4bae49bcc76bd9fe3da` | `cbc22818c4f3c192f6a750258773c461f5eeefcc` | `d335440b9a48944e3781ccdaba6d6cc8728bc579` | `5e89a83f317d3964200c8debe40bcd24d0367d40` |
+| U075 | `667b534e1ec5720636cd1488b9887fdd3c0e500b` | `3b53e51436e1aaaeef5f301a82f5192d42755361` | `416537459ddce6eb2c8e89689141798ca0a71549` | `61ac2de7af522616a833e940f1243ec8a9e8023d` |
 | U078 | `21d5d08da2f16b00f342671e43e84608eb0c53ac` | `75e3bae6cd90db0ae3caa6d0c0b1e4f7e93e44b8` | `498ff346e8023081bcecc0e1cc74e0dd756e94e2` | `72f245b56989a621735969f37da1eae320753506` |
 | U079 | `39780b372cce0a05ea1a14c351df184f02a75458` | `10658951392e269e07f4e1f5d0d5b2f2459927e2` | `c8d54f3e9d8e1ff6f94fa04030fc61083dbd4c40` | `4d862650a504ba96640b08bc4174b5f52aff791d` |
 | U080 | `b15badc440ca953ce467c3e857046bf63d357b4b` | `ccce97317bd8c4a96f636a3c63a910f15ba756b2` | `3ee58eb313d113f82746158f5bb9dfe86afd5d6c` | `847c81fcf32ae945519ce8da568cb30a796976cf` |
@@ -890,21 +901,19 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 
 Blobs estruturais associados aos primeiros pacotes completos: Contabilidade `c1868c624b0a92639db8b5f7dfcbc9913e7440df`; Estatística `957be6167d93ef27ef77978c0baf849a249397a6`; Atualidades `a3ac4c576674a8f56ae65208a978e1e9ad2c0dff`; Direito Penal `bda9a32fc55a9ccce2711acb12584fe2c5fd11ad`; Direito Processual Penal `3376f123e7d8a5e9f04b14bdab4834cf62b83c63`; Direito Constitucional `72f92c43fbfd3c52571cb480fab5856f6918f6ff`; Legislação Especial `46e77cc0f43cf786a09a8bbb477fa71a7091d0a0`; Criminologia `01f15802bf7114e3f55e57fe91efd16df3f9fb8e`.
 
-### Último aceite — U158
+### Último aceite — U075
 
-Pacote de **Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal**: C/H/Q `done`, **nova/local**, consumidor PC-MA, `storageId: pc-u158`, `order: 158`. Snapshot editorial final `dbb19b0a3a39f5b1a3a41043005fe6e342582767`; base reservada `e91b3397bbbb1b1b7df6c28c55a822229b37ccef`. A comparação base→snapshot confirma **exatamente quatro arquivos novos da U158**, sem alteração lateral.
+U075 — **Agricultura, pecuária e extrativismo** foi reconciliada por solicitação explícita do usuário e aceita C/H/Q `done`, **parcial/local**, consumidor PC-MA, `storageId: pc-u075`, `order: 75`.
 
-A unidade permanece sem `vinculo.json` e sem doador integral compatível. U156/U157 foram usadas como base conceitual, sem cópia automática; buscas no repositório, #765/#766 e anexos não localizaram pacote integral aderente. O recorte do edital 2026 foi preservado: itens 3 e 3.1–3.5 apenas; “modelos de reação ao crime” e “Criminologia Ambiental” não foram importados do edital antigo.
+A visão física havia sido publicada em `c1e00edc44afebf5cf73c783ace20fd7a69e1b75` e permaneceu materialmente estável. A intervenção `d54f46305e09214e67a46ac4ff4e76ec18b7b278` alterou somente `referencias.md` para registrar a proveniência que faltava; C/H/Q não foram reescritos.
 
-Cobertura publicada: ponte escola clássica × positivismo; tradição ecológica/desorganização social; anomia/strain de Merton com cinco adaptações; associação diferencial de Sutherland; subculturas de Cohen; oportunidades legítimas/ilegítimas de Cloward e Ohlin; labelling de Becker/Lemert e desvio secundário; vínculo social de Hirschi; criminologia crítica e seletividade; hipótese das janelas quebradas com limite; prevenção no Estado democrático de direito; tipologia primária/secundária/terciária por alvo e momento; riscos de estigmatização e proibição de converter fator de risco em presunção de culpa. A aula organiza teoria por problema→mecanismo→limite→prevenção, sem catálogo enciclopédico.
+A origem parcial foi resolvida em dois canônicos da biblioteca: `agricultura-pecuaria-maranhenses` e `extrativismo-vegetal-animal-mineral`, ambos com consumidores TCE Analista/Técnico comprovados por vínculos. A unidade permanece física/local porque funde dois canônicos e adapta o corte 04/08/2026 dos doadores ao corte PC-MA 13/07/2026; não há mistura físico+`vinculo.json`.
 
-Foram publicadas **29 questões: 24 autorais + 5 anteriores verificadas**. As anteriores são adaptações não literais de: Cebraspe/PC-CE 2025, Delegado, questões 59 C e 66 D; Cebraspe/DPE-PA 2022, questões 40 E e 37 C; Cebraspe/PC-GO 2017, questão 18 E. Nenhuma resolução separada foi necessária.
+Blobs finais: C `667b534e1ec5720636cd1488b9887fdd3c0e500b`; H `3b53e51436e1aaaeef5f301a82f5192d42755361`; R `416537459ddce6eb2c8e89689141798ca0a71549`; Q `61ac2de7af522616a833e940f1243ec8a9e8023d`. Q mantém `schemaVersion: 1`, `questionSetRevision: 1`, 10 IDs únicos, 8 autorais + 2 anteriores verificadas, cinco alternativas e gabaritos válidos.
 
-Densidade final: `conteudo.md` **20.899 caracteres**, `cheat-sheet.md` **3.671**, `referencias.md` **8.018** e `questoes.json` **26.761**. Microglossário: **9/2/4 pares `abbr`** em conteúdo/revisão/referências, balanceados; a inspeção automática deixou somente numerais romanos de headings. `questionSetRevision: 1`, **29 IDs únicos**, cinco alternativas por questão, gabaritos existentes e explicações não vazias.
+O programa literal foi reconferido no PDF oficial: item 9 cobre agricultura maranhense, principais produtos e pecuária; item 10, extrativismo vegetal, animal e mineral. Fontes centrais foram revalidadas em 21/09/2026.
 
-Fontes revalidadas em 21/9/2026: Edital PC-MA; Robert K. Merton; Sage/Matsueda sobre Sutherland; Open University sobre Becker; Office of Justice Programs sobre Cloward/Ohlin e subculturas; Escritório das Nações Unidas sobre Drogas e Crime e Conselho Econômico e Social sobre prevenção; Constituição de 1988; provas e gabaritos oficiais Cebraspe PC-CE 2025, DPE-PA 2022 e PC-GO 2017. O corte programático de 13/7/2026 foi preservado.
-
-**PC-E17 — Criminologia está concluído:** U156–U158 possuem C/H/Q `done` e evidência na `main`. Não há unidade editorial independente habilitada. Somente U075 permanece `pending` por divergência física/operacional já registrada; PC-R04, PC-E08 e o fechamento integral continuam aguardando reconciliação, sem normalização silenciosa.
+**Efeito:** U001–U158 passam a C/H/Q `done`; PC-R04 passa a `done` (42/42 parciais); PC-E08-C/H/Q passam a `done`. Próxima ação habilitada: PC-F01.
 
 ### Registros operacionais superados
 
