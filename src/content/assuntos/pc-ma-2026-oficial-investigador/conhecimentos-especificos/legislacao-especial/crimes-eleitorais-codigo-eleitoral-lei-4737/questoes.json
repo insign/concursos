@@ -1,0 +1,1386 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u138-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o Código Eleitoral comina pena de detenção sem indicar o mínimo, o artigo 284 estabelece como mínimo",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "15 dias."
+        },
+        {
+          "id": "C",
+          "text": "1 mês."
+        },
+        {
+          "id": "D",
+          "text": "6 meses."
+        },
+        {
+          "id": "E",
+          "text": "1 ano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 284 fixa 15 dias como mínimo da detenção quando o tipo só indica a pena máxima."
+    },
+    {
+      "id": "u138-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a lei eleitoral manda agravar ou atenuar a pena sem indicar a quantidade, o artigo 285 determina variação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/10 a 1/5."
+        },
+        {
+          "id": "B",
+          "text": "1/6 a 1/4."
+        },
+        {
+          "id": "C",
+          "text": "1/4 a 1/2."
+        },
+        {
+          "id": "D",
+          "text": "1/5 a 1/3."
+        },
+        {
+          "id": "E",
+          "text": "1/3 a 2/3."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 285 prevê agravamento ou atenuação entre um quinto e um terço."
+    },
+    {
+      "id": "u138-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 289 do Código Eleitoral pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "inscrever-se fraudulentamente eleitor."
+        },
+        {
+          "id": "B",
+          "text": "reter título contra a vontade do eleitor."
+        },
+        {
+          "id": "C",
+          "text": "votar em seção diversa."
+        },
+        {
+          "id": "D",
+          "text": "induzir alguém a não votar."
+        },
+        {
+          "id": "E",
+          "text": "falsificar documento particular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo do artigo 289 é inscrever-se fraudulentamente como eleitor."
+    },
+    {
+      "id": "u138-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao artigo 294 do Código Eleitoral, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "tipifica corrupção eleitoral."
+        },
+        {
+          "id": "B",
+          "text": "tipifica coação do eleitor."
+        },
+        {
+          "id": "C",
+          "text": "está vigente com pena de multa."
+        },
+        {
+          "id": "D",
+          "text": "foi declarado inconstitucional em 2026."
+        },
+        {
+          "id": "E",
+          "text": "foi revogado pela Lei nº 8.868/1994."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 294 está revogado."
+    },
+    {
+      "id": "u138-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O crime de corrupção eleitoral do artigo 299",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige efetiva entrega da vantagem e voto conforme combinado."
+        },
+        {
+          "id": "B",
+          "text": "só pode ser cometido por candidato registrado."
+        },
+        {
+          "id": "C",
+          "text": "é formal e pode consumar-se com a prática de núcleo típico, independentemente da entrega ou aceitação efetiva da vantagem."
+        },
+        {
+          "id": "D",
+          "text": "exige alteração do resultado da eleição."
+        },
+        {
+          "id": "E",
+          "text": "admite apenas a forma passiva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A jurisprudência atual do TSE reafirma a natureza formal do artigo 299."
+    },
+    {
+      "id": "u138-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a configuração do artigo 299, a condição de candidato do agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "é elemento indispensável."
+        },
+        {
+          "id": "B",
+          "text": "não é requisito do tipo, que pode ser praticado por qualquer pessoa."
+        },
+        {
+          "id": "C",
+          "text": "só é dispensada em segundo turno."
+        },
+        {
+          "id": "D",
+          "text": "é substituída pela filiação partidária obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "é necessária apenas na modalidade solicitar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 299 é crime comum quanto ao sujeito ativo; candidato registrado não é requisito típico."
+    },
+    {
+      "id": "u138-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na corrupção eleitoral, uma promessa genérica de política pública dirigida indistintamente ao eleitorado",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre configura o artigo 299."
+        },
+        {
+          "id": "B",
+          "text": "configura o crime apenas se feita por candidato."
+        },
+        {
+          "id": "C",
+          "text": "é equiparada a recebimento de vantagem."
+        },
+        {
+          "id": "D",
+          "text": "não se confunde automaticamente com a vantagem dirigida a eleitor determinado ou determinável para obter voto ou abstenção."
+        },
+        {
+          "id": "E",
+          "text": "gera necessariamente tentativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O TSE distingue promessa genérica de campanha da vantagem eleitoralmente dirigida exigida pelo tipo."
+    },
+    {
+      "id": "u138-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre os artigos 300 e 301 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o artigo 300 envolve servidor que se vale da autoridade; o artigo 301 envolve violência ou grave ameaça."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 300 trata de falsidade e o 301 de propaganda."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 301 exige servidor público."
+        },
+        {
+          "id": "D",
+          "text": "ambos possuem exatamente o mesmo núcleo."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 300 foi revogado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 300 exige abuso da autoridade funcional; o 301, violência ou grave ameaça."
+    },
+    {
+      "id": "u138-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o artigo 302, a leitura atual deve considerar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo o dispositivo foi revogado."
+        },
+        {
+          "id": "B",
+          "text": "nunca sofreu alteração relevante."
+        },
+        {
+          "id": "C",
+          "text": "o TSE anota revogação parcial de sua parte final pela Lei nº 6.091/1974, permanecendo necessário ler o núcleo com essa legislação especial."
+        },
+        {
+          "id": "D",
+          "text": "aplica-se apenas a plebiscitos."
+        },
+        {
+          "id": "E",
+          "text": "é mera infração administrativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A anotação oficial do TSE registra revogação parcial pela Lei nº 6.091/1974."
+    },
+    {
+      "id": "u138-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Votar ou tentar votar mais de uma vez ou em lugar de outra pessoa corresponde ao artigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "297."
+        },
+        {
+          "id": "B",
+          "text": "301."
+        },
+        {
+          "id": "C",
+          "text": "305."
+        },
+        {
+          "id": "D",
+          "text": "307."
+        },
+        {
+          "id": "E",
+          "text": "309."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Esse é o núcleo do artigo 309."
+    },
+    {
+      "id": "u138-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Violar ou tentar violar o sigilo do voto é conduta prevista no artigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "299."
+        },
+        {
+          "id": "B",
+          "text": "312."
+        },
+        {
+          "id": "C",
+          "text": "323."
+        },
+        {
+          "id": "D",
+          "text": "337."
+        },
+        {
+          "id": "E",
+          "text": "350."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 312 protege o sigilo do voto."
+    },
+    {
+      "id": "u138-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 323 exige divulgação de fatos",
+      "options": [
+        {
+          "id": "A",
+          "text": "que o agente sabe inverídicos, relativos a partidos ou candidatos e capazes de influenciar o eleitorado."
+        },
+        {
+          "id": "B",
+          "text": "verdadeiros, ainda que irrelevantes."
+        },
+        {
+          "id": "C",
+          "text": "apenas sobre autoridades públicas não candidatas."
+        },
+        {
+          "id": "D",
+          "text": "necessariamente produzidos por inteligência artificial."
+        },
+        {
+          "id": "E",
+          "text": "que tenham efetivamente alterado o resultado da eleição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tipo exige conhecimento da falsidade e capacidade de influência, não resultado eleitoral efetivo."
+    },
+    {
+      "id": "u138-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do artigo 323 é aumentada de um terço até metade, entre outras hipóteses, quando o crime",
+      "options": [
+        {
+          "id": "A",
+          "text": "é praticado fora do período eleitoral sem qualquer finalidade eleitoral."
+        },
+        {
+          "id": "B",
+          "text": "é cometido por carta privada não divulgada."
+        },
+        {
+          "id": "C",
+          "text": "é cometido sem referência a partido ou candidato."
+        },
+        {
+          "id": "D",
+          "text": "é praticado por internet, rede social ou transmissão em tempo real."
+        },
+        {
+          "id": "E",
+          "text": "é cometido por pessoa não filiada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A internet, rede social e transmissão em tempo real integram as causas de aumento do artigo 323."
+    },
+    {
+      "id": "u138-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Caluniar alguém na propaganda eleitoral ou visando a fins de propaganda significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir fato apenas ofensivo à reputação."
+        },
+        {
+          "id": "B",
+          "text": "ofender a dignidade sem imputar fato."
+        },
+        {
+          "id": "C",
+          "text": "imputar falsamente fato definido como crime."
+        },
+        {
+          "id": "D",
+          "text": "divulgar qualquer crítica política."
+        },
+        {
+          "id": "E",
+          "text": "descumprir ordem judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 324 exige falsa imputação de fato definido como crime."
+    },
+    {
+      "id": "u138-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A difamação eleitoral do artigo 325 caracteriza-se pela imputação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime necessariamente falso."
+        },
+        {
+          "id": "B",
+          "text": "fato ofensivo à reputação, em contexto de propaganda eleitoral ou visando a seus fins."
+        },
+        {
+          "id": "C",
+          "text": "mera opinião elogiosa."
+        },
+        {
+          "id": "D",
+          "text": "fato apenas contra candidato registrado."
+        },
+        {
+          "id": "E",
+          "text": "contravenção a quem se sabe inocente para instaurar investigação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 325 tutela a reputação e não exige imputação de crime."
+    },
+    {
+      "id": "u138-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 326, a injúria eleitoral atinge diretamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "o patrimônio."
+        },
+        {
+          "id": "B",
+          "text": "a fé pública documental."
+        },
+        {
+          "id": "C",
+          "text": "o cadastro eleitoral."
+        },
+        {
+          "id": "D",
+          "text": "a regularidade da urna."
+        },
+        {
+          "id": "E",
+          "text": "a dignidade ou o decoro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Injúria é ofensa à dignidade ou ao decoro."
+    },
+    {
+      "id": "u138-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o artigo 326-A, a falsa atribuição a pessoa sabidamente inocente deve ser feita",
+      "options": [
+        {
+          "id": "A",
+          "text": "com finalidade eleitoral e de modo a causar a instauração de uma das investigações ou ações previstas no tipo."
+        },
+        {
+          "id": "B",
+          "text": "apenas em propaganda gratuita."
+        },
+        {
+          "id": "C",
+          "text": "sem qualquer finalidade específica."
+        },
+        {
+          "id": "D",
+          "text": "somente contra candidato."
+        },
+        {
+          "id": "E",
+          "text": "apenas mediante documento público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A finalidade eleitoral é elemento específico do artigo 326-A."
+    },
+    {
+      "id": "u138-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 326-B exige, entre outros elementos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer crítica a agente política, independentemente de discriminação."
+        },
+        {
+          "id": "B",
+          "text": "apenas ameaça física contra eleitor."
+        },
+        {
+          "id": "C",
+          "text": "assédio, constrangimento, humilhação, perseguição ou ameaça a candidata ou mandatária, com menosprezo/discriminação descritos na lei e finalidade de impedir ou dificultar campanha ou mandato."
+        },
+        {
+          "id": "D",
+          "text": "resultado lesão corporal grave."
+        },
+        {
+          "id": "E",
+          "text": "que a vítima tenha mais de 60 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O tipo combina vítima qualificada, fundamento discriminatório e finalidade especial."
+    },
+    {
+      "id": "u138-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 326-B, a pena aumenta em um terço quando a vítima é",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente candidata à Presidência."
+        },
+        {
+          "id": "B",
+          "text": "servidora pública."
+        },
+        {
+          "id": "C",
+          "text": "filiada a partido."
+        },
+        {
+          "id": "D",
+          "text": "gestante, maior de 60 anos ou pessoa com deficiência."
+        },
+        {
+          "id": "E",
+          "text": "eleitora sem candidatura."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São as três hipóteses do parágrafo único."
+    },
+    {
+      "id": "u138-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que contém apenas artigos revogados pela Lei nº 9.504/1997 no bloco de propaganda.",
+      "options": [
+        {
+          "id": "A",
+          "text": "323, 324 e 325."
+        },
+        {
+          "id": "B",
+          "text": "322, 328, 329 e 333."
+        },
+        {
+          "id": "C",
+          "text": "326-A, 326-B e 327."
+        },
+        {
+          "id": "D",
+          "text": "331, 332 e 334."
+        },
+        {
+          "id": "E",
+          "text": "335, 336 e 337."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 322, 328, 329 e 333 foram revogados pela Lei nº 9.504/1997."
+    },
+    {
+      "id": "u138-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 337 do Código Eleitoral",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi ampliado em 2026."
+        },
+        {
+          "id": "B",
+          "text": "é crime vigente sem ressalvas."
+        },
+        {
+          "id": "C",
+          "text": "foi considerado não recepcionado pela Constituição de 1988 pelo TSE."
+        },
+        {
+          "id": "D",
+          "text": "foi convertido em infração administrativa."
+        },
+        {
+          "id": "E",
+          "text": "tipifica falsidade ideológica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O TSE decidiu no REspe 36173 que o artigo 337 não foi recepcionado pela Constituição de 1988."
+    },
+    {
+      "id": "u138-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Destruir, suprimir ou ocultar urna contendo votos ou documentos relativos à eleição corresponde ao artigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "339."
+        },
+        {
+          "id": "B",
+          "text": "340."
+        },
+        {
+          "id": "C",
+          "text": "347."
+        },
+        {
+          "id": "D",
+          "text": "350."
+        },
+        {
+          "id": "E",
+          "text": "354-A."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 339 protege urnas e documentos eleitorais."
+    },
+    {
+      "id": "u138-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência anotada pelo TSE, o simples não comparecimento de mesário no dia da votação",
+      "options": [
+        {
+          "id": "A",
+          "text": "configura automaticamente o artigo 344."
+        },
+        {
+          "id": "B",
+          "text": "é sempre corrupção eleitoral."
+        },
+        {
+          "id": "C",
+          "text": "equivale ao artigo 347."
+        },
+        {
+          "id": "D",
+          "text": "é punido pelo artigo 350."
+        },
+        {
+          "id": "E",
+          "text": "não basta, por si só, para configurar o crime de recusar ou abandonar serviço eleitoral do artigo 344."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O TSE distingue simples ausência de recusa ou abandono penalmente típico."
+    },
+    {
+      "id": "u138-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o crime do artigo 347, a jurisprudência do TSE exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "ordem genérica dirigida a toda sociedade."
+        },
+        {
+          "id": "B",
+          "text": "ordem judicial direta e individualizada, além de dolo."
+        },
+        {
+          "id": "C",
+          "text": "resultado dano eleitoral."
+        },
+        {
+          "id": "D",
+          "text": "que o agente seja candidato."
+        },
+        {
+          "id": "E",
+          "text": "violência ou grave ameaça."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O crime de desobediência eleitoral exige ordem direta/individualizada e conduta dolosa."
+    },
+    {
+      "id": "u138-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Falsificar documento público ou alterar documento público verdadeiro para fins eleitorais corresponde ao artigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "323."
+        },
+        {
+          "id": "B",
+          "text": "326-A."
+        },
+        {
+          "id": "C",
+          "text": "347."
+        },
+        {
+          "id": "D",
+          "text": "348."
+        },
+        {
+          "id": "E",
+          "text": "350."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 348 é falsidade material de documento público para fins eleitorais."
+    },
+    {
+      "id": "u138-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Falsificar documento particular ou alterar documento particular verdadeiro para fins eleitorais corresponde ao artigo",
+      "options": [
+        {
+          "id": "A",
+          "text": "348."
+        },
+        {
+          "id": "B",
+          "text": "350."
+        },
+        {
+          "id": "C",
+          "text": "349."
+        },
+        {
+          "id": "D",
+          "text": "352."
+        },
+        {
+          "id": "E",
+          "text": "354."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 349 trata da falsidade material em documento particular."
+    },
+    {
+      "id": "u138-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 350 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "omissão ou inserção de declaração falsa/diversa em documento, com finalidade eleitoral e dolo sobre fato relevante."
+        },
+        {
+          "id": "B",
+          "text": "falsificação material obrigatória de assinatura."
+        },
+        {
+          "id": "C",
+          "text": "apropriação de recurso eleitoral."
+        },
+        {
+          "id": "D",
+          "text": "violência política."
+        },
+        {
+          "id": "E",
+          "text": "compra de voto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 350 é falsidade ideológica eleitoral, não falsidade material nem apropriação."
+    },
+    {
+      "id": "u138-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 350, se o documento é público, a pena legal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção até 6 meses."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de 2 a 4 anos apenas."
+        },
+        {
+          "id": "C",
+          "text": "multa sem pena privativa."
+        },
+        {
+          "id": "D",
+          "text": "reclusão até 3 anos e 3 a 10 dias-multa."
+        },
+        {
+          "id": "E",
+          "text": "reclusão até 5 anos e 5 a 15 dias-multa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Essa é a cominação do artigo 350 para documento público."
+    },
+    {
+      "id": "u138-a29",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Tema 1.260 do STF fixou que",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime eleitoral e improbidade nunca podem coexistir."
+        },
+        {
+          "id": "B",
+          "text": "é possível dupla responsabilização por caixa dois eleitoral e improbidade; certas decisões eleitorais repercutem na esfera administrativa; e a ação de improbidade é da Justiça Comum."
+        },
+        {
+          "id": "C",
+          "text": "toda irregularidade de campanha deve ser julgada como improbidade na Justiça Eleitoral."
+        },
+        {
+          "id": "D",
+          "text": "a Justiça Eleitoral julga a ação de improbidade."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 350 foi revogado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tese do Tema 1.260 diferencia as instâncias e competências."
+    },
+    {
+      "id": "u138-a30",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 354-A pune",
+      "options": [
+        {
+          "id": "A",
+          "text": "a doação lícita à campanha."
+        },
+        {
+          "id": "B",
+          "text": "o uso de documento falso."
+        },
+        {
+          "id": "C",
+          "text": "a apropriação, por candidato ou administrador financeiro/de fato, de bens, recursos ou valores destinados ao financiamento eleitoral em proveito próprio ou alheio."
+        },
+        {
+          "id": "D",
+          "text": "a propaganda em língua estrangeira."
+        },
+        {
+          "id": "E",
+          "text": "o voto em lugar de outra pessoa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 354-A tutela recursos destinados ao financiamento eleitoral."
+    },
+    {
+      "id": "u138-a31",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o STF no Inquérito 4.435, havendo crime eleitoral e crime comum conexo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre prevalece a Justiça Federal."
+        },
+        {
+          "id": "B",
+          "text": "sempre há cisão obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "o crime eleitoral é remetido à Justiça comum."
+        },
+        {
+          "id": "D",
+          "text": "a Justiça Eleitoral é competente para processar e julgar o conjunto conexo, cabendo-lhe examinar a conexão no caso concreto."
+        },
+        {
+          "id": "E",
+          "text": "a conexão é juridicamente irrelevante."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O STF reafirmou a competência da Justiça Eleitoral para crimes comuns conexos aos eleitorais."
+    },
+    {
+      "id": "u138-a32",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Resolução TSE nº 23.640/2021, a função de polícia judiciária em matéria eleitoral é exercida prioritariamente pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polícia Federal."
+        },
+        {
+          "id": "B",
+          "text": "Polícia Militar."
+        },
+        {
+          "id": "C",
+          "text": "Guarda Municipal."
+        },
+        {
+          "id": "D",
+          "text": "Polícia Legislativa."
+        },
+        {
+          "id": "E",
+          "text": "Receita Federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Polícia Federal exerce prioritariamente a polícia judiciária eleitoral; a polícia estadual atua supletivamente onde não houver órgão federal."
+    },
+    {
+      "id": "u138-a33",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O inquérito policial eleitoral deve ser concluído, segundo a Resolução TSE nº 23.640/2021, em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias para preso e 10 para solto."
+        },
+        {
+          "id": "B",
+          "text": "10 dias para preso e 15 para solto."
+        },
+        {
+          "id": "C",
+          "text": "10 dias para preso e 30 para solto."
+        },
+        {
+          "id": "D",
+          "text": "15 dias para preso e 30 para solto."
+        },
+        {
+          "id": "E",
+          "text": "30 dias em qualquer caso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A resolução reproduz os prazos de 10 dias para preso e 30 dias para solto."
+    },
+    {
+      "id": "u138-a34",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os crimes definidos no Código Eleitoral são, nos termos do artigo 355, de ação penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "privada."
+        },
+        {
+          "id": "B",
+          "text": "pública."
+        },
+        {
+          "id": "C",
+          "text": "pública condicionada à representação em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "popular."
+        },
+        {
+          "id": "E",
+          "text": "civil sancionadora."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 355 afirma que as infrações penais do Código são de ação pública."
+    },
+    {
+      "id": "u138-a35",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação penal pública nos crimes eleitorais",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede em absoluto qualquer queixa-crime."
+        },
+        {
+          "id": "B",
+          "text": "depende sempre de representação do candidato."
+        },
+        {
+          "id": "C",
+          "text": "pode ser substituída livremente pela ação privada."
+        },
+        {
+          "id": "D",
+          "text": "não exclui ação privada subsidiária quando houver verdadeira inércia ministerial nas condições reconhecidas pela jurisprudência."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser proposta pelo juiz eleitoral."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O TSE admite ação privada subsidiária se o Ministério Público não denuncia, não pede diligências nem arquivamento no prazo legal."
+    },
+    {
+      "id": "u138-a36",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo legal do artigo 357 para o Ministério Público oferecer denúncia é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "48 horas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 357 fixa dez dias."
+    },
+    {
+      "id": "u138-a37",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A denúncia será rejeitada pelo artigo 358 quando, entre outras hipóteses,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o acusado negar o fato."
+        },
+        {
+          "id": "B",
+          "text": "houver prova testemunhal."
+        },
+        {
+          "id": "C",
+          "text": "o crime admitir tentativa."
+        },
+        {
+          "id": "D",
+          "text": "o réu for primário."
+        },
+        {
+          "id": "E",
+          "text": "o fato narrado evidentemente não constituir crime ou estiver extinta a punibilidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 358 prevê essas hipóteses e também ilegitimidade/falta de condição."
+    },
+    {
+      "id": "u138-a38",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No rito penal eleitoral atual, a Resolução TSE nº 23.640/2021 determina aplicação obrigatória dos artigos 395, 396, 396-A, 397 e 400 do",
+      "options": [
+        {
+          "id": "A",
+          "text": "Código Civil."
+        },
+        {
+          "id": "B",
+          "text": "Código de Processo Civil."
+        },
+        {
+          "id": "C",
+          "text": "Código de Processo Penal."
+        },
+        {
+          "id": "D",
+          "text": "Código Tributário Nacional."
+        },
+        {
+          "id": "E",
+          "text": "Código Penal Militar."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A integração do rito eleitoral com esses dispositivos do CPP foi expressamente determinada pelo TSE."
+    },
+    {
+      "id": "u138-a39",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A leitura atual do artigo 359 deve considerar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o interrogatório permanece obrigatoriamente como primeiro ato da instrução."
+        },
+        {
+          "id": "B",
+          "text": "a integração com o Código de Processo Penal coloca o interrogatório como último ato da instrução, conforme entendimento do TSE."
+        },
+        {
+          "id": "C",
+          "text": "o acusado não possui resposta escrita."
+        },
+        {
+          "id": "D",
+          "text": "não há produção de prova testemunhal."
+        },
+        {
+          "id": "E",
+          "text": "o artigo foi revogado integralmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O TSE aplica a sistemática mais benéfica introduzida no CPP, inclusive o interrogatório ao final da instrução."
+    },
+    {
+      "id": "u138-a40",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de resposta escrita do acusado no processo penal eleitoral é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "48 horas."
+        },
+        {
+          "id": "B",
+          "text": "3 dias."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "15 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 359, parágrafo único, prevê dez dias."
+    },
+    {
+      "id": "u138-a41",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a instrução, o artigo 360 prevê prazo de alegações finais de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias para cada parte."
+        },
+        {
+          "id": "B",
+          "text": "10 dias conjuntos."
+        },
+        {
+          "id": "C",
+          "text": "48 horas para cada parte."
+        },
+        {
+          "id": "D",
+          "text": "15 dias para a defesa apenas."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "São cinco dias a cada uma das partes."
+    },
+    {
+      "id": "u138-a42",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Contra decisão final de condenação ou absolvição do juiz eleitoral, o artigo 362 prevê recurso ao Tribunal Regional no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 dias."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "15 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 362 fixa prazo de dez dias."
+    },
+    {
+      "id": "u138-a43",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A literalidade do artigo 363, que menciona execução após condenação regional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza hoje prisão automática antes do trânsito em julgado."
+        },
+        {
+          "id": "B",
+          "text": "revogou a presunção de inocência."
+        },
+        {
+          "id": "C",
+          "text": "impede recursos aos tribunais superiores."
+        },
+        {
+          "id": "D",
+          "text": "aplica-se apenas à multa."
+        },
+        {
+          "id": "E",
+          "text": "deve ser lida à luz da orientação atual do TSE e STF, que veda execução provisória da pena e exige trânsito em julgado para acusação e defesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Página do TSE atualizada em 2026 registra a impossibilidade de execução penal sem trânsito em julgado para ambas as partes."
+    },
+    {
+      "id": "u138-a44",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.358/2026, no que interessa à U138,",
+      "options": [
+        {
+          "id": "A",
+          "text": "criou novo crime eleitoral no artigo 355-A."
+        },
+        {
+          "id": "B",
+          "text": "alterou os artigos 5º e 71 do Código Eleitoral, mas não modificou o Título IV dos crimes."
+        },
+        {
+          "id": "C",
+          "text": "revogou o artigo 299."
+        },
+        {
+          "id": "D",
+          "text": "aumentou a pena do artigo 350."
+        },
+        {
+          "id": "E",
+          "text": "revogou o processo penal eleitoral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 15.358/2026 alterou regras de alistamento/cancelamento, não o título penal."
+    },
+    {
+      "id": "u138-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 69 do Cebraspe para Juiz de Direito Substituto do TJ/MA, concurso 2022, é correto afirmar que, nos crimes eleitorais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ação privada subsidiária é sempre inadmissível."
+        },
+        {
+          "id": "B",
+          "text": "o Ministério Público pode permanecer inerte indefinidamente sem consequência."
+        },
+        {
+          "id": "C",
+          "text": "admite-se ação penal privada subsidiária quando o Ministério Público não oferece denúncia, não requer diligências nem pede arquivamento no prazo legal."
+        },
+        {
+          "id": "D",
+          "text": "a corrupção eleitoral só pode ser praticada por candidato registrado."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 299 admite tentativa segundo jurisprudência consolidada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gabarito oficial da questão original foi C. A jurisprudência eleitoral admite a queixa subsidiária nas condições indicadas."
+    },
+    {
+      "id": "u138-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do padrão definitivo Cebraspe da prova discursiva para Delegado da Polícia Civil do Rio de Janeiro, aplicada em 2022, se uma investigação reúne falsidade ideológica eleitoral do artigo 350 e crimes comuns conexos, a regra jurisprudencial de competência indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os fatos devem sempre ser julgados separadamente."
+        },
+        {
+          "id": "B",
+          "text": "a Justiça comum estadual julga todos os delitos."
+        },
+        {
+          "id": "C",
+          "text": "a Justiça Federal julga todos os delitos."
+        },
+        {
+          "id": "D",
+          "text": "a Justiça Eleitoral aprecia os crimes eleitorais e os comuns conexos, ressalvadas particularidades constitucionais de competência e a análise concreta da conexão."
+        },
+        {
+          "id": "E",
+          "text": "a falsidade do artigo 350 deixa de ser eleitoral por estar conexa a crime comum."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O padrão oficial e o entendimento do STF no Inquérito 4.435 reconhecem a competência da Justiça Eleitoral sobre crimes comuns conexos aos eleitorais."
+    }
+  ]
+}
