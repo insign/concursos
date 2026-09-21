@@ -2,16 +2,16 @@
 
 ## Mapa
 
-- regime geral: arts. 291–301;
-- crimes: arts. 302–312;
-- substituição: arts. 312-A e 312-B;
+- regime geral: artigos 291–301;
+- crimes: artigos 302–312;
+- substituição: artigos 312-A e 312-B;
 - corte: **13/07/2026**.
 
 ## Art. 291
 
 Aplicam-se Código Penal, Código de Processo Penal e Lei 9.099/1995 no que couber.
 
-Lesão corporal culposa: arts. 74, 76 e 88 da Lei 9.099 **não** se aplicam se houver:
+Lesão corporal culposa: artigos 74, 76 e 88 da Lei 9.099 **não** se aplicam se houver:
 
 1. álcool/substância psicoativa;
 2. corrida/disputa/exibição/manobra não autorizada;
@@ -29,7 +29,7 @@ Nessas hipóteses:
 - não começa enquanto condenado estiver preso pela condenação;
 - reincidência em crime do <abbr title="Código de Trânsito Brasileiro">CTB</abbr> → juiz aplica suspensão.
 
-Cautelar do art. 294:
+Cautelar do artigo 294:
 
 - investigação ou ação penal;
 - garantia da ordem pública;
@@ -82,7 +82,7 @@ Base:
 
 Aumento:
 
-mesmas hipóteses do art. 302, § 1º.
+mesmas hipóteses do artigo 302, § 1º.
 
 Álcool/substância + lesão **grave/gravíssima**:
 
@@ -227,16 +227,16 @@ Substituição por serviço comunitário em atividade ligada a:
 
 Arts. 302 §3º e 303 §2º:
 
-→ não se aplica o **inciso I** do art. 44 do Código Penal.
+→ não se aplica o **inciso I** do artigo 44 do Código Penal.
 
 **Não leia como proibição absoluta de substituição.**
 
 ## Pegadinhas
 
-- art. 301 ≠ art. 304;
+- artigo 301 ≠ artigo 304;
 - álcool sozinho ≠ dolo eventual;
-- art. 303 §2º exige lesão grave/gravíssima;
-- etilômetro não é obrigatório para provar art. 306;
+- artigo 303 §2º exige lesão grave/gravíssima;
+- etilômetro não é obrigatório para provar artigo 306;
 - 309 = perigo concreto;
 - 310 = perigo abstrato;
 - 306 não absorve 309;
