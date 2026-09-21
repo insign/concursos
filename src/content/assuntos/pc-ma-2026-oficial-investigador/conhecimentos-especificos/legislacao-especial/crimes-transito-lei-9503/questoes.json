@@ -52,7 +52,7 @@
         },
         {
           "id": "D",
-          "text": "está sob influência de álcool, participa de corrida/manobra não autorizada ou excede a máxima da via em mais de 50 km/h."
+          "text": "está sob influência de álcool, participa de corrida/manobra não autorizada ou transita em velocidade superior à máxima permitida para a via em 50 km/h."
         },
         {
           "id": "E",
@@ -60,7 +60,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "São as três exceções expressas do artigo 291, § 1º."
+      "explanation": "São as três exceções expressas do artigo 291, § 1º, preservada a literalidade do limite de velocidade."
     },
     {
       "id": "u137-a03",
