@@ -1,0 +1,1326 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "pc-u140-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 15.358/2026, a organização criminosa ultraviolenta, denominada facção criminosa, pressupõe agrupamento de, no mínimo:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 pessoas, desde que haja divisão de tarefas."
+        },
+        {
+          "id": "b",
+          "text": "3 pessoas, nas condições de violência, grave ameaça ou coação previstas na lei."
+        },
+        {
+          "id": "c",
+          "text": "4 pessoas, necessariamente com estrutura ordenada."
+        },
+        {
+          "id": "d",
+          "text": "5 pessoas, ainda que sem violência ou grave ameaça."
+        },
+        {
+          "id": "e",
+          "text": "3 pessoas, desde que todas exerçam liderança."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O artigo 2º, § 2º, fixa o mínimo de 3 pessoas. Não se deve importar o mínimo de 4 pessoas da definição geral da Lei nº 12.850/2013."
+    },
+    {
+      "id": "pc-u140-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena básica do crime de domínio social estruturado é de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "reclusão de 8 a 12 anos e multa."
+        },
+        {
+          "id": "b",
+          "text": "reclusão de 12 a 20 anos e multa."
+        },
+        {
+          "id": "c",
+          "text": "reclusão de 15 a 30 anos."
+        },
+        {
+          "id": "d",
+          "text": "reclusão de 20 a 40 anos, sem prejuízo das sanções por ameaça, violência ou outros crimes."
+        },
+        {
+          "id": "e",
+          "text": "reclusão de 20 a 30 anos, exclusivamente."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O artigo 2º prevê reclusão de 20 a 40 anos e preserva a aplicação das sanções correspondentes à ameaça, à violência ou a outros crimes."
+    },
+    {
+      "id": "pc-u140-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a conduta que integra o catálogo do artigo 2º da Lei nº 15.358/2026:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Realizar reunião pacífica de associação não criminosa."
+        },
+        {
+          "id": "b",
+          "text": "Deixar de comunicar crime de terceiro, sem dever jurídico específico."
+        },
+        {
+          "id": "c",
+          "text": "Impor, mediante violência ou grave ameaça, controle social para exercício de atividade econômica, comercial ou de serviço público ou comunitário."
+        },
+        {
+          "id": "d",
+          "text": "Possuir bem de luxo sem origem comprovada, independentemente de vínculo com crime."
+        },
+        {
+          "id": "e",
+          "text": "Descumprir obrigação contratual civil."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O inciso IV do artigo 2º tipifica a imposição violenta ou ameaçadora de controle social sobre atividades econômicas, comerciais, serviços públicos ou comunitários."
+    },
+    {
+      "id": "pc-u140-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas hipóteses do artigo 2º, § 1º, a pena do domínio social estruturado é aumentada:",
+      "options": [
+        {
+          "id": "a",
+          "text": "de 1/6 a 1/3."
+        },
+        {
+          "id": "b",
+          "text": "de 1/3 à metade."
+        },
+        {
+          "id": "c",
+          "text": "pela metade, de forma fixa."
+        },
+        {
+          "id": "d",
+          "text": "de 2/3 ao dobro."
+        },
+        {
+          "id": "e",
+          "text": "sempre em dobro."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A fração legal é de 2/3 até o dobro, conforme o § 1º do artigo 2º."
+    },
+    {
+      "id": "pc-u140-q005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O emprego de drones e tecnologias sofisticadas pode configurar causa de aumento quando:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ocorrer em qualquer atividade recreativa do agente."
+        },
+        {
+          "id": "b",
+          "text": "for usado apenas para registrar imagens sem relação com o crime."
+        },
+        {
+          "id": "c",
+          "text": "servir ao monitoramento territorial, inteligência operacional, comunicação cifrada, dissimulação, georreferenciamento de operações repressivas ou finalidade semelhante de facilitação, coordenação ou defesa dos atos do artigo 2º."
+        },
+        {
+          "id": "d",
+          "text": "for propriedade de terceiro de boa-fé."
+        },
+        {
+          "id": "e",
+          "text": "for empregado depois de encerrada a atividade criminosa e sem conexão com ela."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O inciso XI do § 1º não pune a tecnologia em si; exige função operacional ligada à facilitação, coordenação ou defesa das condutas do artigo 2º."
+    },
+    {
+      "id": "pc-u140-q006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte legislativo de 13 de julho de 2026, qual dispositivo estava vetado e sem conteúdo normativo vigente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O artigo 2º, § 2º."
+        },
+        {
+          "id": "b",
+          "text": "O artigo 2º, § 3º."
+        },
+        {
+          "id": "c",
+          "text": "O artigo 2º, § 4º."
+        },
+        {
+          "id": "d",
+          "text": "O artigo 3º."
+        },
+        {
+          "id": "e",
+          "text": "O artigo 29."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O § 3º do artigo 2º foi vetado. O Veto nº 14/2026 ainda não havia sido apreciado no corte."
+    },
+    {
+      "id": "pc-u140-q007",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os crimes previstos no artigo 2º são insuscetíveis de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas anistia e graça."
+        },
+        {
+          "id": "b",
+          "text": "apenas fiança."
+        },
+        {
+          "id": "c",
+          "text": "anistia, graça, indulto, fiança e livramento condicional."
+        },
+        {
+          "id": "d",
+          "text": "fiança e acordo de não persecução, exclusivamente."
+        },
+        {
+          "id": "e",
+          "text": "apenas indulto e livramento condicional."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O § 4º do artigo 2º enumera anistia, graça, indulto, fiança e livramento condicional."
+    },
+    {
+      "id": "pc-u140-q008",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quem pratica atos preparatórios com propósito inequívoco de consumar conduta do artigo 2º:",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre impunível."
+        },
+        {
+          "id": "b",
+          "text": "responde pela pena do crime consumado sem redução."
+        },
+        {
+          "id": "c",
+          "text": "fica sujeito à pena do crime consumado, reduzida de 1/3 até 1/2."
+        },
+        {
+          "id": "d",
+          "text": "responde apenas por contravenção."
+        },
+        {
+          "id": "e",
+          "text": "recebe redução fixa de 2/3."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O § 5º antecipa expressamente a tutela penal e prevê redução de 1/3 até 1/2 sobre a pena do crime consumado."
+    },
+    {
+      "id": "pc-u140-q009",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pena do crime de favorecimento ao domínio social estruturado é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 a 12 anos, sem multa."
+        },
+        {
+          "id": "b",
+          "text": "8 a 16 anos e multa."
+        },
+        {
+          "id": "c",
+          "text": "12 a 20 anos e multa."
+        },
+        {
+          "id": "d",
+          "text": "20 a 40 anos, sem multa."
+        },
+        {
+          "id": "e",
+          "text": "2 a 8 anos e multa."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo 3º fixa reclusão de 12 a 20 anos e multa."
+    },
+    {
+      "id": "pc-u140-q010",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao crime do artigo 3º aplicam-se, por remissão expressa:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todos os parágrafos do artigo 2º."
+        },
+        {
+          "id": "b",
+          "text": "somente os §§ 1º e 2º do artigo 2º."
+        },
+        {
+          "id": "c",
+          "text": "os §§ 4º a 8º do artigo 2º."
+        },
+        {
+          "id": "d",
+          "text": "os §§ 4º a 9º do artigo 2º."
+        },
+        {
+          "id": "e",
+          "text": "apenas o § 9º do artigo 2º."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O parágrafo único do artigo 3º remete aos §§ 4º a 8º, não ao § 9º."
+    },
+    {
+      "id": "pc-u140-q011",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a remissão do artigo 4º ao § 3º do artigo 2º, assinale a correta:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A remissão fez nascer automaticamente o texto vetado."
+        },
+        {
+          "id": "b",
+          "text": "A remissão deve ser ignorada e apagada da lei."
+        },
+        {
+          "id": "c",
+          "text": "A remissão permaneceu escrita, mas não confere conteúdo autônomo ao § 3º vetado."
+        },
+        {
+          "id": "d",
+          "text": "O § 3º entrou em vigor por força da Lei dos Crimes Hediondos."
+        },
+        {
+          "id": "e",
+          "text": "O veto foi automaticamente rejeitado em 25 de abril de 2026."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo 4º preserva remissão literal a dispositivo vetado. A remissão não supera o veto nem cria norma inexistente."
+    },
+    {
+      "id": "pc-u140-q012",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos crimes da Lei nº 15.358/2026, o inquérito policial deve ser concluído, em regra, em:",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 dias com preso e 30 com solto."
+        },
+        {
+          "id": "b",
+          "text": "30 dias com preso e 90 com solto."
+        },
+        {
+          "id": "c",
+          "text": "60 dias com preso e 180 com solto."
+        },
+        {
+          "id": "d",
+          "text": "90 dias com preso e 270 com solto, prorrogável por igual período."
+        },
+        {
+          "id": "e",
+          "text": "180 dias com preso e 360 com solto, sem prorrogação."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O artigo 5º fixa 90 dias para indiciado preso e 270 dias para solto, com prorrogação por igual período."
+    },
+    {
+      "id": "pc-u140-q013",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na disciplina do artigo 5º, os prazos de 15 dias, 5 dias e 24 horas correspondem, respectivamente, a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "parecer do Ministério Público, decisão judicial e duração da audiência."
+        },
+        {
+          "id": "b",
+          "text": "decisão judicial ordinária, parecer do Ministério Público em representação do delegado e manifestação/decisão simultâneas em urgência."
+        },
+        {
+          "id": "c",
+          "text": "conclusão do inquérito, denúncia e resposta à acusação."
+        },
+        {
+          "id": "d",
+          "text": "decisão judicial, denúncia e prisão temporária."
+        },
+        {
+          "id": "e",
+          "text": "parecer policial, perícia e julgamento."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A sequência correta é: juiz 15 dias; Ministério Público 5 dias na representação do delegado; urgência, Ministério Público e juiz em 24 horas simultâneas."
+    },
+    {
+      "id": "pc-u140-q014",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O descumprimento dos prazos do artigo 5º:",
+      "options": [
+        {
+          "id": "a",
+          "text": "gera automaticamente relaxamento da prisão."
+        },
+        {
+          "id": "b",
+          "text": "gera automaticamente liberdade provisória."
+        },
+        {
+          "id": "c",
+          "text": "anula toda a investigação."
+        },
+        {
+          "id": "d",
+          "text": "não gera automaticamente relaxamento ou liberdade; o juiz avalia as circunstâncias do caso."
+        },
+        {
+          "id": "e",
+          "text": "extingue a punibilidade."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O § 4º afasta efeito libertatório automático."
+    },
+    {
+      "id": "pc-u140-q015",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação de força-tarefa integrada nos termos do artigo 6º deve ser formalizada por:",
+      "options": [
+        {
+          "id": "a",
+          "text": "decreto legislativo."
+        },
+        {
+          "id": "b",
+          "text": "portaria exclusiva do juiz."
+        },
+        {
+          "id": "c",
+          "text": "termo de cooperação que defina objetivos, área, prazos, chefia operacional e critérios de sigilo/intercâmbio."
+        },
+        {
+          "id": "d",
+          "text": "acordo verbal entre os órgãos."
+        },
+        {
+          "id": "e",
+          "text": "sentença penal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O § 1º do artigo 6º exige termo de cooperação com esses elementos."
+    },
+    {
+      "id": "pc-u140-q016",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos meios de obtenção de prova, a Lei nº 15.358/2026:",
+      "options": [
+        {
+          "id": "a",
+          "text": "proíbe o uso dos meios da Lei nº 12.850/2013."
+        },
+        {
+          "id": "b",
+          "text": "revoga a Lei nº 12.850/2013."
+        },
+        {
+          "id": "c",
+          "text": "manda aplicar, no que couber, meios da Lei nº 12.850/2013 e ferramentas pertinentes da Lei nº 9.613/1998."
+        },
+        {
+          "id": "d",
+          "text": "autoriza apenas prova documental."
+        },
+        {
+          "id": "e",
+          "text": "autoriza exclusivamente interceptação telefônica."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os artigos 8º e 32 constroem ponte expressa com os meios de prova da Lei nº 12.850/2013; o artigo 8º também faz referência pertinente à Lei nº 9.613/1998."
+    },
+    {
+      "id": "pc-u140-q017",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As medidas cautelares patrimoniais do artigo 9º podem ser decretadas pelo juiz:",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente depois do trânsito em julgado."
+        },
+        {
+          "id": "b",
+          "text": "somente a pedido da defesa."
+        },
+        {
+          "id": "c",
+          "text": "de ofício, a requerimento do Ministério Público ou por representação do delegado, ouvido o Ministério Público, havendo indícios suficientes."
+        },
+        {
+          "id": "d",
+          "text": "apenas por requisição administrativa do Banco Central."
+        },
+        {
+          "id": "e",
+          "text": "sem qualquer requisito probatório."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo 9º exige indícios suficientes e prevê as três vias: de ofício, requerimento ministerial ou representação do delegado com oitiva do Ministério Público."
+    },
+    {
+      "id": "pc-u140-q018",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual medida está expressamente contemplada no artigo 9º?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cancelamento automático de cidadania."
+        },
+        {
+          "id": "b",
+          "text": "Proibição de saída do território nacional e apreensão imediata de passaporte quando houver risco de evasão."
+        },
+        {
+          "id": "c",
+          "text": "Perda automática de todo patrimônio familiar."
+        },
+        {
+          "id": "d",
+          "text": "Prisão civil por dívida."
+        },
+        {
+          "id": "e",
+          "text": "Dissolução de partido político."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O inciso VIII permite proibição de saída do País e apreensão do passaporte quando houver risco de evasão."
+    },
+    {
+      "id": "pc-u140-q019",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de decretada medida do artigo 9º, o investigado ou acusado pode comprovar a origem lícita do bem no prazo de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "48 horas."
+        },
+        {
+          "id": "b",
+          "text": "5 dias."
+        },
+        {
+          "id": "c",
+          "text": "10 dias da intimação."
+        },
+        {
+          "id": "d",
+          "text": "15 dias da decisão, independentemente de intimação."
+        },
+        {
+          "id": "e",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O § 6º fixa 10 dias contados da intimação."
+    },
+    {
+      "id": "pc-u140-q020",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O perdimento extraordinário previsto no artigo 9º pode ocorrer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente após condenação transitada em julgado."
+        },
+        {
+          "id": "b",
+          "text": "independentemente de condenação penal, quando ficar clara a origem ilícita do bem, direito ou valor."
+        },
+        {
+          "id": "c",
+          "text": "apenas em ação civil autônoma."
+        },
+        {
+          "id": "d",
+          "text": "automaticamente com a apreensão."
+        },
+        {
+          "id": "e",
+          "text": "somente para dinheiro em espécie."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O § 8º admite perdimento extraordinário independente de condenação quando a origem ilícita estiver clara."
+    },
+    {
+      "id": "pc-u140-q021",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra de perdimento extraordinário:",
+      "options": [
+        {
+          "id": "a",
+          "text": "sempre alcança terceiro de boa-fé."
+        },
+        {
+          "id": "b",
+          "text": "não se aplica ao lesado e ao terceiro interessado de boa-fé nas condições definidas pela lei."
+        },
+        {
+          "id": "c",
+          "text": "só protege pessoa jurídica pública."
+        },
+        {
+          "id": "d",
+          "text": "nunca protege terceiro."
+        },
+        {
+          "id": "e",
+          "text": "exige que o terceiro prove vínculo com a organização."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O § 9º protege lesado e terceiro interessado que, de boa-fé, não tinham condições de conhecer a procedência, utilização ou destinação ilícita."
+    },
+    {
+      "id": "pc-u140-q022",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A intervenção judicial em pessoa jurídica beneficiada pelos grupos abrangidos pela lei tem prazo inicial do interventor de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 dias, improrrogáveis."
+        },
+        {
+          "id": "b",
+          "text": "90 dias, improrrogáveis."
+        },
+        {
+          "id": "c",
+          "text": "até 6 meses, com possibilidade de prorrogações por iguais períodos se persistirem os fundamentos."
+        },
+        {
+          "id": "d",
+          "text": "1 ano, sem prorrogação."
+        },
+        {
+          "id": "e",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A lei trabalha com período inicial de até 6 meses, renovável em iguais períodos mediante persistência dos fundamentos."
+    },
+    {
+      "id": "pc-u140-q023",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O confisco ampliado do artigo 11 considera bens incompatíveis com a renda declarada do condenado nos:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 anos anteriores ao fato."
+        },
+        {
+          "id": "b",
+          "text": "3 anos posteriores ao fato."
+        },
+        {
+          "id": "c",
+          "text": "5 anos anteriores ao fato, salvo prova cabal de origem lícita."
+        },
+        {
+          "id": "d",
+          "text": "10 anos anteriores, sem exceção."
+        },
+        {
+          "id": "e",
+          "text": "20 anos anteriores."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A janela expressa é de 5 anos anteriores ao fato criminoso."
+    },
+    {
+      "id": "pc-u140-q024",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação civil autônoma de perdimento:",
+      "options": [
+        {
+          "id": "a",
+          "text": "depende sempre da condenação penal."
+        },
+        {
+          "id": "b",
+          "text": "é incompatível com processo penal paralelo."
+        },
+        {
+          "id": "c",
+          "text": "independe da responsabilidade civil ou criminal, ressalvada a sentença penal absolutória que reconheça taxativamente a inexistência do fato."
+        },
+        {
+          "id": "d",
+          "text": "é exclusiva da União."
+        },
+        {
+          "id": "e",
+          "text": "somente cabe para imóveis."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo 17 afirma a independência e prevê como ressalva a absolvição que reconheça taxativamente a inexistência do fato."
+    },
+    {
+      "id": "pc-u140-q025",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma medida de urgência preparatória da ação civil de perdimento perde eficácia se a ação principal não for proposta em:",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 dias, sem prorrogação."
+        },
+        {
+          "id": "b",
+          "text": "90 dias, prorrogáveis por 30."
+        },
+        {
+          "id": "c",
+          "text": "180 dias, prorrogáveis indefinidamente."
+        },
+        {
+          "id": "d",
+          "text": "365 dias, prorrogáveis uma vez por igual período mediante decisão fundamentada."
+        },
+        {
+          "id": "e",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O artigo 22, § 1º, prevê 365 dias e admite uma prorrogação por igual período, fundamentada."
+    },
+    {
+      "id": "pc-u140-q026",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na administração e colaboração patrimonial da ação civil, os percentuais máximos são, respectivamente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "5% para administrador e 10% para terceiro colaborador."
+        },
+        {
+          "id": "b",
+          "text": "10% para administrador e 5% para terceiro colaborador."
+        },
+        {
+          "id": "c",
+          "text": "20% e 20%."
+        },
+        {
+          "id": "d",
+          "text": "5% e 5%."
+        },
+        {
+          "id": "e",
+          "text": "10% e 10%."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O administrador pode receber até 10%; o terceiro colaborador que cumpra os requisitos do artigo 28 pode receber até 5% do produto da liquidação."
+    },
+    {
+      "id": "pc-u140-q027",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo previsto pelo artigo 29 para regulamentação do Banco Nacional e criação dos bancos estaduais/distrital é de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 dias."
+        },
+        {
+          "id": "b",
+          "text": "60 dias."
+        },
+        {
+          "id": "c",
+          "text": "90 dias."
+        },
+        {
+          "id": "d",
+          "text": "180 dias contados da publicação."
+        },
+        {
+          "id": "e",
+          "text": "365 dias."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O artigo 29 estabelece 180 dias."
+    },
+    {
+      "id": "pc-u140-q028",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a comparação correta entre o artigo 2º, § 6º, e o artigo 30:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ambos têm texto idêntico."
+        },
+        {
+          "id": "b",
+          "text": "O § 6º refere crimes do artigo 2º e alcança prisão cautelar ou pena em fechado/semiaberto; o artigo 30 abrange qualquer crime da lei, mas menciona recolhimento em regime fechado."
+        },
+        {
+          "id": "c",
+          "text": "O artigo 30 só trata de favorecimento e regime aberto."
+        },
+        {
+          "id": "d",
+          "text": "O § 6º não trata de auxílio-reclusão."
+        },
+        {
+          "id": "e",
+          "text": "O artigo 30 concede auxílio-reclusão em regime fechado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "As duas regras não são idênticas; a distinção de alcance material e de regime é uma pegadinha literal."
+    },
+    {
+      "id": "pc-u140-q029",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao artigo 91, inciso II, do Código Penal, a Lei nº 15.358/2026:",
+      "options": [
+        {
+          "id": "a",
+          "text": "teve a alteração sancionada integralmente."
+        },
+        {
+          "id": "b",
+          "text": "teve a alteração vetada."
+        },
+        {
+          "id": "c",
+          "text": "revogou o artigo 91 inteiro."
+        },
+        {
+          "id": "d",
+          "text": "substituiu o artigo 91 por artigo 91-B."
+        },
+        {
+          "id": "e",
+          "text": "não tratou de qualquer efeito patrimonial no Código Penal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alteração pretendida do artigo 91, II, foi vetada. Já o artigo 91-A recebeu o § 5º."
+    },
+    {
+      "id": "pc-u140-q030",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contexto especial definido pelo marco, a pena do homicídio doloso prevista na alteração do Código Penal é de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 a 20 anos."
+        },
+        {
+          "id": "b",
+          "text": "8 a 30 anos."
+        },
+        {
+          "id": "c",
+          "text": "12 a 30 anos."
+        },
+        {
+          "id": "d",
+          "text": "20 a 40 anos."
+        },
+        {
+          "id": "e",
+          "text": "30 a 50 anos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O artigo 33 da Lei nº 15.358/2026 inseriu pena de 20 a 40 anos para o homicídio doloso no contexto especial."
+    },
+    {
+      "id": "pc-u140-q031",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para estudar furto, roubo e receptação no corte de 13 de julho de 2026, deve-se lembrar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a Lei nº 15.358 foi a última alteração desses crimes antes do corte."
+        },
+        {
+          "id": "b",
+          "text": "a Lei nº 15.397/2026 alterou novamente dispositivos patrimoniais depois do marco e antes do corte."
+        },
+        {
+          "id": "c",
+          "text": "as alterações patrimoniais do marco foram todas vetadas."
+        },
+        {
+          "id": "d",
+          "text": "a Lei nº 15.397 é posterior ao corte."
+        },
+        {
+          "id": "e",
+          "text": "nenhuma lei de 2026 alterou esses tipos."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Lei nº 15.397, de 30 de abril de 2026, é posterior ao marco e anterior ao corte, por isso o texto consolidado deve considerar essa sobreposição."
+    },
+    {
+      "id": "pc-u140-q032",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a comunicação monitorada entre advogado e cliente na Lei de Execução Penal após a Lei nº 15.358/2026, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "pode ser livremente entregue ao juiz da instrução."
+        },
+        {
+          "id": "b",
+          "text": "depende de razões fundadas de conluio reconhecidas judicialmente e de análise por juízo de controle da legalidade distinto do juízo de instrução/julgamento."
+        },
+        {
+          "id": "c",
+          "text": "é proibida em qualquer hipótese."
+        },
+        {
+          "id": "d",
+          "text": "dispensa decisão judicial."
+        },
+        {
+          "id": "e",
+          "text": "o conteúdo indeferido pode ser consultado pelo juiz da instrução."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O novo artigo 41-B cria filtro judicial separado para preservar o sigilo profissional e impedir acesso do juízo da instrução a conteúdo ilícito ou indeferido."
+    },
+    {
+      "id": "pc-u140-q033",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os percentuais de 70%, 75%, 80% e 85% inseridos pela Lei nº 15.358/2026 no artigo 112 da Lei de Execução Penal:",
+      "options": [
+        {
+          "id": "a",
+          "text": "continuavam sendo a redação vigente em 13 de julho de 2026."
+        },
+        {
+          "id": "b",
+          "text": "foram substituídos por nova redação dada pela Lei nº 15.402/2026, vigente desde 8 de maio de 2026."
+        },
+        {
+          "id": "c",
+          "text": "foram vetados originalmente."
+        },
+        {
+          "id": "d",
+          "text": "só entrariam em vigor em 2027."
+        },
+        {
+          "id": "e",
+          "text": "foram transferidos para o Código Penal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Lei nº 15.402/2026 reescreveu o artigo 112 antes do corte. Os percentuais do marco são relevantes como alteração histórica, não como redação atual em 13/7."
+    },
+    {
+      "id": "pc-u140-q034",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 40-A inserido na Lei de Drogas determina, nas condições especiais do marco, que as penas dos artigos 33 a 37:",
+      "options": [
+        {
+          "id": "a",
+          "text": "sejam reduzidas pela metade."
+        },
+        {
+          "id": "b",
+          "text": "sejam substituídas por multa."
+        },
+        {
+          "id": "c",
+          "text": "sejam aplicadas em dobro."
+        },
+        {
+          "id": "d",
+          "text": "sejam aumentadas em 1/6."
+        },
+        {
+          "id": "e",
+          "text": "não sofram alteração."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei nº 15.358/2026 criou regra de aplicação em dobro para os artigos 33 a 37 quando presente o contexto legal."
+    },
+    {
+      "id": "pc-u140-q035",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Estatuto do Desarmamento, o novo artigo 21-A prevê, para os crimes dos artigos 12, 14 e 16 nas hipóteses legais ligadas a drogas, aumento de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/6."
+        },
+        {
+          "id": "b",
+          "text": "1/3."
+        },
+        {
+          "id": "c",
+          "text": "metade."
+        },
+        {
+          "id": "d",
+          "text": "2/3."
+        },
+        {
+          "id": "e",
+          "text": "dobro."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A causa de aumento é de 2/3."
+    },
+    {
+      "id": "pc-u140-q036",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Código de Processo Penal, a Lei nº 15.358/2026 passou a prever audiência de custódia, em regra, por:",
+      "options": [
+        {
+          "id": "a",
+          "text": "carta precatória em até 5 dias."
+        },
+        {
+          "id": "b",
+          "text": "videoconferência em tempo real, no prazo máximo de 24 horas após a prisão."
+        },
+        {
+          "id": "c",
+          "text": "mensagem eletrônica sem presença da defesa."
+        },
+        {
+          "id": "d",
+          "text": "ato escrito em 48 horas."
+        },
+        {
+          "id": "e",
+          "text": "sessão secreta sem Ministério Público."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A redação introduzida no artigo 310 trabalha com videoconferência em tempo real e prazo máximo de 24 horas."
+    },
+    {
+      "id": "pc-u140-q037",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A alteração do Código Eleitoral promovida pela Lei nº 15.358/2026 incluiu no artigo 5º:",
+      "options": [
+        {
+          "id": "a",
+          "text": "perda definitiva do voto de todo condenado."
+        },
+        {
+          "id": "b",
+          "text": "impedimento ligado às pessoas recolhidas a estabelecimento prisional enquanto perdurar a privação de liberdade, ainda que sem condenação definitiva."
+        },
+        {
+          "id": "c",
+          "text": "alistamento obrigatório de estrangeiros presos."
+        },
+        {
+          "id": "d",
+          "text": "suspensão do título apenas após trânsito em julgado."
+        },
+        {
+          "id": "e",
+          "text": "regra exclusiva para presos militares."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O artigo 40 do marco alterou o artigo 5º do Código Eleitoral com essa formulação."
+    },
+    {
+      "id": "pc-u140-q038",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na disciplina do Fundo Nacional de Segurança Pública, a Lei nº 15.358/2026 determina que, nas condições da fonte indicada pela lei, pelo menos qual percentual anual seja destinado à execução descentralizada por Estados e Distrito Federal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10%."
+        },
+        {
+          "id": "b",
+          "text": "25%."
+        },
+        {
+          "id": "c",
+          "text": "40%."
+        },
+        {
+          "id": "d",
+          "text": "60%."
+        },
+        {
+          "id": "e",
+          "text": "90%."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O novo § 5º do artigo 5º da Lei nº 13.756/2018 trabalha com pelo menos 60% dos recursos anuais da fonte especificada."
+    },
+    {
+      "id": "pc-u140-q039",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos operadores de apostas de quota fixa não autorizados, a Lei nº 15.358/2026 criou mecanismos que incluem:",
+      "options": [
+        {
+          "id": "a",
+          "text": "liberação automática das contas enquanto houver recurso."
+        },
+        {
+          "id": "b",
+          "text": "bloqueio de contas e impedimento de novas transações voltadas à exploração irregular, observadas as garantias administrativas legais."
+        },
+        {
+          "id": "c",
+          "text": "anistia das multas anteriores."
+        },
+        {
+          "id": "d",
+          "text": "autorização provisória automática para qualquer operador."
+        },
+        {
+          "id": "e",
+          "text": "proibição de ressarcimento aos apostadores."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O artigo 42 introduziu bloqueio e prevenção financeira, com devido processo administrativo e preservação do ressarcimento devido aos apostadores."
+    },
+    {
+      "id": "pc-u140-q040",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre Lei nº 15.358/2026 e Lei nº 12.850/2013 é corretamente descrita como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "revogação total da Lei nº 12.850."
+        },
+        {
+          "id": "b",
+          "text": "substituição do conceito geral de organização criminosa pelo conceito de facção."
+        },
+        {
+          "id": "c",
+          "text": "complementaridade: o novo marco cria regime especial e aproveita disposições materiais e probatórias da Lei nº 12.850 quando cabíveis."
+        },
+        {
+          "id": "d",
+          "text": "incompatibilidade absoluta entre os diplomas."
+        },
+        {
+          "id": "e",
+          "text": "aplicação da Lei nº 12.850 apenas a crimes sem violência."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O marco não substitui a Lei nº 12.850. Ele cria regime especial e remete a disposições materiais e meios de prova daquela lei quando couber."
+    },
+    {
+      "id": "pc-u140-q041",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem regra diversa em tratado, bens situados no Brasil perdidos civilmente por solicitação de autoridade estrangeira competente serão, depois das despesas legais:",
+      "options": [
+        {
+          "id": "a",
+          "text": "integralmente destinados ao Estado estrangeiro."
+        },
+        {
+          "id": "b",
+          "text": "integralmente destinados à União."
+        },
+        {
+          "id": "c",
+          "text": "repartidos em partes iguais entre Brasil e Estado requerente."
+        },
+        {
+          "id": "d",
+          "text": "repartidos em 70% para o Brasil e 30% para o requerente."
+        },
+        {
+          "id": "e",
+          "text": "destruídos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo 14 prevê repartição em partes iguais, depois de deduzidas as despesas de guarda, manutenção, alienação ou devolução."
+    },
+    {
+      "id": "pc-u140-q042",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Código Penal, a suspensão da eficácia da inscrição no CNPJ do estabelecimento utilizado para permitir, facilitar ou ocultar receptação, nas condições do artigo 92 alterado, é de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 dias."
+        },
+        {
+          "id": "b",
+          "text": "60 dias."
+        },
+        {
+          "id": "c",
+          "text": "90 dias."
+        },
+        {
+          "id": "d",
+          "text": "180 dias."
+        },
+        {
+          "id": "e",
+          "text": "1 ano."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 15.358/2026 inseriu suspensão por 180 dias na hipótese prevista."
+    },
+    {
+      "id": "pc-u140-q043",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui favorecimento ao domínio social estruturado:",
+      "options": [
+        {
+          "id": "a",
+          "text": "alegar falsamente pertencer a grupo abrangido pela lei com o fim de obter vantagem ou intimidar terceiros."
+        },
+        {
+          "id": "b",
+          "text": "alegar falsamente ser servidor público sem qualquer conexão com os grupos."
+        },
+        {
+          "id": "c",
+          "text": "deixar de aderir ao grupo após convite."
+        },
+        {
+          "id": "d",
+          "text": "recusar-se a ceder imóvel ao grupo."
+        },
+        {
+          "id": "e",
+          "text": "denunciar a organização à polícia."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O artigo 3º, inciso VI, tipifica a falsa alegação de pertencimento quando usada para obter vantagem ou intimidar."
+    },
+    {
+      "id": "pc-u140-q044",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a distinção correta entre perdimento extraordinário, medidas definitivas do artigo 11 e ação civil autônoma de perdimento:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Todos dependem necessariamente de condenação transitada em julgado."
+        },
+        {
+          "id": "b",
+          "text": "Perdimento extraordinário pode independer de condenação; artigo 11 atua após trânsito em julgado; a ação civil é autônoma e segue regime próprio."
+        },
+        {
+          "id": "c",
+          "text": "A ação civil só existe depois do artigo 11."
+        },
+        {
+          "id": "d",
+          "text": "Perdimento extraordinário exige sempre ação civil prévia."
+        },
+        {
+          "id": "e",
+          "text": "O artigo 11 é mera medida cautelar."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lei cria três vias diferentes: perdimento extraordinário no artigo 9º, medidas definitivas pós-trânsito no artigo 11 e ação civil autônoma nos artigos 12 a 28."
+    }
+  ]
+}
