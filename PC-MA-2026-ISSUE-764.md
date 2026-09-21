@@ -43,13 +43,13 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado editorial após a reconciliação e aceite de U075; **U001–U158 estão C/H/Q `done`**. PC-R04 e PC-E08 estão concluídos. O fechamento PC-F01–PC-F05 passa a ser a única frente pendente individualizada; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após a conclusão de **PC-F01**: U001–U158 permanecem C/H/Q `done`; a matriz foi conferida contra o edital oficial consolidado sem lacuna programática identificada, sem dupla contagem de unidade e sem redistribuição de pesos. PC-F02–PC-F05 permanecem `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Unidades reais previstas | 158 | 0 | 0 | 158 |
 | Entregáveis de unidade C/H/Q | 474 | 0 | 0 | 474 |
-| Tarefas macro individualizadas | 62 | 5 | 0 | 57 |
+| Tarefas macro individualizadas | 62 | 4 | 0 | 58 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos can
 
 Reservas ativas após o aceite de U075: **nenhuma**. PC-R04 está `done`, com **42/42** unidades parciais aceitas.
 
-**Próxima ação habilitada: PC-F01 — conferência final da matriz contra o edital consolidado.** Todas as 158 unidades e os 474 entregáveis C/H/Q estão `done`; PC-R04 e PC-E08 foram desbloqueados pela reconciliação explícita de U075.
+**Próxima ação habilitada: PC-F02 — inspeção manual de schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.** PC-F01 está `done` com auditoria registrada abaixo.
 
 ### Pendências e divergências herdadas
 
@@ -169,11 +169,59 @@ PC-E09-C inclui orientação de redação; PC-E09-H recupera repertório/estrutu
 
 ### Fechamento e aceite
 
-- [ ] PC-F01 — `pending` — Conferir a matriz contra todos os itens/subitens do edital consolidado, sem lacunas, dupla contagem ou redistribuição inferida de pesos.
+- [x] PC-F01 — `done` — Matriz conferida em 21/09/2026 contra o Edital nº 1, itens 7, 8, 9, 19.32–19.33.1 e 20.2.2–20.2.3; sem lacuna programática identificada, sem dupla contagem de unidade e sem redistribuição de pesos; auditoria detalhada abaixo.
 - [ ] PC-F02 — `pending` — Inspecionar manualmente schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.
 - [ ] PC-F03 — `pending` — Reconsultar publicações oficiais e fontes materiais, distinguindo alterações posteriores do corte e resolvendo/explicitando literalidades defeituosas.
 - [ ] PC-F04 — `pending` — Confirmar na `main` commits e arquivos resolvidos; consolidar origens, consumidores, cobertura e duplicações por unidade.
 - [ ] PC-F05 — `pending` — Recalcular macros, unidades reais, canônicas/locais e visões; fechar #764 somente com cobertura integral, tudo `done` e nenhuma reserva ativa.
+
+### PC-F01 — conferência final da matriz contra o edital
+
+**Fonte oficial revalidada em 21/09/2026:** Edital nº 1 — PCMA — Oficial Investigador, de 13/07/2026, PDF oficial do Cebraspe:  
+https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf
+
+A conferência cobriu a tabela de provas do item 7, os critérios objetivos/discursivos dos itens 8–9, o corte legislativo/jurisprudencial dos itens 19.32–19.33.1 e todo o programa dos itens 20.2.2–20.2.3.
+
+#### Estrutura de prova preservada, sem redistribuir pesos
+
+| Bloco oficial | Distribuição oficial | Cobertura editorial |
+|---|---|---|
+| Grupo I — conhecimentos gerais | Língua Portuguesa 10; Informática 12; Raciocínio Lógico 6; Contabilidade 6; Estatística 4; Administração 4; **Legislação e Conhecimentos Regionais Históricos e Geográficos 3** = **45 questões** | U001–U077; História U062–U068 e Geografia U069–U077 compartilham o único peso oficial de 3 questões; **não** foi criado peso separado por disciplina ou por unidade |
+| Grupo II — conhecimentos específicos | Direito Penal 10; Processual Penal 8; Administrativo 8; Constitucional 8; Legislação Especial 8; Direitos Humanos 5; Medicina Legal 5; Criminologia 3 = **55 questões** | U081–U158; pesos permanecem no nível das disciplinas, sem rateio por unidade |
+| Prova discursiva | 1 redação, até 30 linhas, 20 pontos, tema relevante da atualidade pertinente ao cargo; aprovação com NPD ≥ 10 | U078–U080; Atualidades permanece **somente discursiva** e suas questões objetivas didáticas são fixação, não peso da P1 |
+| Prova objetiva | 100 questões de múltipla escolha, cinco opções e uma resposta correta; eliminação abaixo de 50 pontos | 45 + 55 = 100; nenhuma quota editorial de Q foi tratada como peso oficial |
+
+#### Cobertura do programa por disciplina
+
+| Programa oficial | Unidades | Visões publicadas | Resultado da conferência |
+|---|---:|---:|---|
+| Língua Portuguesa 1–7.4 | U001–U021 | 21 locais | leitura/interpretação, gêneros, ortografia, coesão, morfossintaxe, reescrita e correspondência oficial cobertos |
+| Informática 1–10, inclusive 8.1–8.6 | U022–U034 | 12 locais + 1 vínculo | internet/intranet, sistemas, suítes, e-mail, navegação, redes, nuvem, segurança/investigação digital, IA e criptomoedas cobertos |
+| Raciocínio Lógico 1–7 | U035–U042 | 1 local + 7 vínculos | estruturas, argumentação, proposicional, primeira ordem, contagem/probabilidade, conjuntos e problemas cobertos; preservada a grafia editalícia **“3,4 Leis De Morgan”** sem correção silenciosa |
+| Contabilidade 1–12 | U043–U049 | 7 locais | fundamentos/patrimônio, fatos, contas, plano, escrituração, operações, balancete/demonstrações/normas cobertos |
+| Estatística 1–5.2 | U050–U055 | 6 locais | descritiva, probabilidade/distribuições, limites/amostras, inferência, regressão e amostragem cobertos |
+| Administração 1–2.10 | U056–U061 | 6 locais | administração gerencial/comportamento, sistemas federais, orçamento, SIDOR/SIAFI, receita, despesa e execução cobertos |
+| História do Maranhão 1–14 | U062–U068 | 2 locais + 5 vínculos | França Equinocial até fatos políticos/econômicos/sociais da segunda metade do século XX cobertos |
+| Geografia do Maranhão 1–15 | U069–U077 | 5 locais + 4 vínculos | localização/áreas protegidas, clima/relevo/hidrografia/vegetação/população, itens 9–10 em U075, indústria, setor terciário, malha/portos/aeroportos/cultura cobertos |
+| Atualidades — somente P2 | U078–U080 | 3 locais | segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, desenvolvimento sustentável e ecologia distribuídos sem peso objetivo |
+| Direito Penal 1–12 | U081–U090 | 10 locais | parte geral, imputabilidade/concurso e crimes dos títulos exigidos cobertos |
+| Direito Processual Penal 1–6 | U091–U097 | 7 locais | princípios/sistemas, inquérito, prova, flagrante, preventiva, temporária e cautelares cobertos; as **duas ocorrências do item 4** foram preservadas em U094 e U095 |
+| Direito Administrativo 1–13 | U098–U111 | 14 locais | todos os itens cobertos; item 9 foi desdobrado em U106 (controle) + U107 (responsabilidade civil) sem criar peso próprio |
+| Direito Constitucional 1–12.4 | U112–U122 | 11 locais | todo o programa coberto; itens 3+4 foram reunidos em U114 como direitos/garantias + remédios constitucionais, sem perda de subitem |
+| Legislação Especial 1–20 | U123–U141 | 19 locais | vinte ocorrências do edital cobertas por dezenove unidades porque a Lei 12.830/2013 aparece nos itens **8 e 13** e é tratada uma única vez em U130, com ambas as ocorrências registradas |
+| Direitos Humanos 1–8.3 | U142–U148 | 7 locais | teoria geral, DIDH/interno, sistema global, pactos, sistema interamericano, convencionalidade/Constituição e grupos vulneráveis/atividade policial cobertos; preservada a literalidade peculiar do item 2.3 |
+| Medicina Legal 1–8.1 | U149–U155 | 7 locais | fundamentos, perícia/peritos, documentos/identificação, traumatologia, tanatologia, local de crime e psiquiatria forense cobertos |
+| Criminologia 1–3.5 | U156–U158 | 3 locais | conceito/métodos/objetos, funções/política criminal, modelos sociológicos e prevenção primária/secundária/terciária cobertos; não foram importados os antigos itens “modelos de reação ao crime” ou “Criminologia Ambiental” |
+
+#### Fecho da auditoria
+
+- **Cobertura programática:** nenhum item/subitem do programa oficial de 13/07/2026 ficou sem responsável na matriz aceita.
+- **Inventário materializado na `main`: 158 visões = 141 pacotes físicos locais + 17 `vinculo.json` canônicos**, exatamente o total de 158 unidades previstas.
+- **Dupla contagem evitada:** a repetição da Lei nº 12.830/2013 nos itens 8 e 13 de Legislação Especial não cria duas unidades; os dois “4” de Processo Penal são conteúdos diferentes e permanecem separados; junções e desdobramentos pedagógicos registrados não alteram pesos.
+- **Pesos:** permanecem exclusivamente os do item 7.1 do edital. A quantidade de unidades, questões didáticas ou subtarefas C/H/Q não foi convertida em peso de prova.
+- **Discursiva:** Atualidades continua fora da objetiva e ligada à redação de até 30 linhas; não há importação de suas questões de fixação para a distribuição de 100 pontos da P1.
+- **Cortes:** legislação com entrada em vigor até 13/07/2026 integra o recorte conforme item 19.32; jurisprudência de tribunais superiores segue a regra própria de publicação até 30 dias antes da prova, sem ser reduzida ao corte legislativo.
+- **Resultado PC-F01:** `done`. A próxima etapa é PC-F02; esta auditoria não substitui a inspeção de schemas, links, `abbr`, referências, questões, vínculos e consumidores prevista nela.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
