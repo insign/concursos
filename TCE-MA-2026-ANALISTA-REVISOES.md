@@ -108,7 +108,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H015 | `colocacao-pronominal` | = | V | [`74107ba`](https://github.com/insign/concursos/commit/74107baa8a4d1c5adbe22e22c698537637335ebc) |
 | H016 | `significacao-substituicao-lexical` | `significacao-substituicao` | V | [`2e81e87`](https://github.com/insign/concursos/commit/2e81e87f46065c4d9b7ea30e4681751ab95cdb2e) |
 | H017 | `reorganizacao-oracoes-periodos` | = | V | [`f766f8f`](https://github.com/insign/concursos/commit/f766f8fce10a26a37136467f2cb6030e95d81d12) |
-| H018 | `reescrita-generos-formalidade` | = | V | — |
+| H018 | `reescrita-generos-formalidade` | = | V | [`348fb77`](https://github.com/insign/concursos/commit/348fb77c74e0c0f17ec0f18dbc7caf31ce5d4d67) |
 
 ### M02 — Competências Digitais e Informática Aplicada ao Setor Público
 
