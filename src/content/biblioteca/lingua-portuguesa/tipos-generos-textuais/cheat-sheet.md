@@ -1,146 +1,109 @@
 # Tipos e gêneros textuais em revisão rápida
 
-## Vocabulário que cai
+## Primeiro: descubra a categoria pedida
 
-- **Dissertativo-expositivo:** apresenta, define, classifica ou explica.
-- **Dissertativo-argumentativo:** defende tese com razões.
-- **Injuntivo:** orienta ação futura.
+| Categoria | Pergunta-chave | Exemplo |
+| --- | --- | --- |
+| **Gênero** | Que ação comunicativa socialmente reconhecível este texto realiza? | edital |
+| **Tipo/sequência** | Como o trecho organiza o conteúdo? | injuntiva |
+| **Domínio/esfera** | Em que campo social o texto funciona? | administrativo |
+| **Suporte** | Em que meio físico ou digital circula? | portal eletrônico |
+
+**Gênero ≠ tipo ≠ domínio ≠ suporte.** Tema ou suporte isolado também não define gênero.
+
+## Sequências: reconheça pelo funcionamento
+
+| Sequência | Núcleo | Pista decisiva |
+| --- | --- | --- |
+| Narrativa | acontecimentos e mudança | progressão temporal de ações |
+| Descritiva | quadro, estado, propriedades | elementos organizados no espaço ou em um mesmo momento |
+| Dissertativo-expositiva | conhecimento | definição, explicação, classificação, comparação |
+| Dissertativo-argumentativa | tese + sustentação | razões orientadas para adesão a uma posição |
+| Injuntiva | orientação de ação | ordem, recomendação, obrigação, permissão ou proibição |
+| Dialogal | interação por turnos | pergunta, resposta, alternância; nem toda tipologia a separa |
+
+**Automatismos perigosos:** pretérito não garante narração; adjetivo não garante descrição; dado não garante exposição; opinião isolada não garante argumentação; imperativo não é obrigatório na injunção.
+
+## Contrastes que mais decidem
+
+### Narração × descrição
+
+- **Narração:** o tempo avança e algo muda.
+- **Descrição:** o trecho constrói um quadro; movimentos podem servir apenas para compor a cena.
+- Descrição pode ordenar elementos no espaço e variar pelo ponto de observação.
+- Efeito **cinematográfico**: observador parado + objeto móvel passando diante dele.
+
+### Exposição × argumentação
+
+- **Exposição:** “o que é?”, “como funciona?”, “quais são as categorias?”.
+- **Argumentação:** “qual posição é defendida?” + “por quais razões?”.
+- Dados, exemplos e conceitos podem aparecer nos dois casos; a função global decide.
+- Argumentos podem mobilizar **dados, causa/consequência, comparação, exemplo ou autoridade**.
+- A banca também pode pedir a natureza da razão: **social, econômica, educacional, jurídica** etc.; classifique pelo conteúdo efetivamente usado.
+
+### Injunção × narração
+
+- “O usuário abriu o sistema e confirmou o envio.” → narração.
+- “Abra o sistema e confirme o envio.” → injunção.
 - **Instrucional:** ensina como fazer.
-- **Prescritivo:** determina o que deve, pode ou não pode ser feito.
-- **Dissertativo:** termo amplo; descubra se o texto expõe ou argumenta.
+- **Prescritivo:** estabelece o que deve, pode ou não pode ser feito.
 
-## Quatro categorias
+## Trecho local × texto global
 
-| Categoria | Pergunta | Exemplo |
-| --- | --- | --- |
-| Gênero | Que ação comunicativa concreta? | edital |
-| Tipo/sequência | Como o conteúdo se organiza? | injuntiva |
-| Domínio/esfera | Em que campo social? | administrativo |
-| Suporte | Em que meio circula? | portal |
+Textos reais combinam sequências. **Predominante não significa exclusiva.**
 
-- Gênero é social, histórico, relativamente estável e dinâmico.
-- Tipo é organização linguístico-discursiva abstrata.
-- Domínio reúne gêneros; suporte apresenta gêneros.
-- Tema ou suporte isolado não define gênero.
+- Se o comando disser **“no trecho”**, classifique aquele segmento.
+- Se disser **“o texto é predominantemente...”**, observe macroestrutura e finalidade.
+- Se perguntar **“qual é o gênero?”**, volte à ação comunicativa, aos participantes, à circulação e à composição.
 
-## Tipos mais cobrados
+A primeira sequência, a mais longa ou a mais visível não decide sozinha.
 
-| Tipo | Núcleo | Pistas |
-| --- | --- | --- |
-| Narrativo | acontecimentos e mudança | ações, agentes, progressão temporal |
-| Descritivo | propriedades e estados | partes, localização, caracterização |
-| Dissertativo-expositivo | conhecimento e explicação | definição, classificação, dados, exemplos |
-| Dissertativo-argumentativo | tese e adesão | razões, evidências, concessão, refutação |
-| Injuntivo | orientação de ação | etapas, ordem, recomendação, obrigação |
-| Dialogal | interação por turnos | pergunta, resposta, alternância |
+## Gêneros de alta frequência
 
-- Pretérito não basta para narração.
-- Adjetivo não basta para descrição.
-- Dados não tornam o texto necessariamente expositivo.
-- Opinião isolada não basta para argumentação.
-- Imperativo não é obrigatório na injunção.
-- Dialogal não aparece como tipo autônomo em todas as teorias.
+### Administrativos e institucionais
 
-## Exposição × argumentação
-
-- **Exposição:** “O que é? Como funciona? Quais são as categorias?”
-- **Argumentação:** “Qual posição se defende? Por quais razões?”
-- Texto argumentativo também pode expor dados e conceitos.
-- Texto expositivo pode citar especialistas sem tentar obter adesão a uma tese.
-
-## Predominância
-
-- Textos reais combinam sequências.
-- A dominante organiza finalidade e macroestrutura.
-- Sequência local não classifica sozinha o texto inteiro.
-- Predominante não significa exclusiva.
-
-## Gênero × tipo provável
-
-| Gênero | Sequências frequentes |
+| Gênero | Finalidade típica |
 | --- | --- |
-| Editorial | argumentativa |
-| Artigo de opinião | argumentativa |
-| Verbete | expositiva |
-| Manual/tutorial | injuntiva ou instrucional |
-| Edital/regulamento | expositiva e prescritiva |
-| Notícia | narrativa e/ou expositiva |
-| Reportagem | expositiva, narrativa, descritiva |
-| Parecer/nota técnica | expositiva e argumentativa |
-| Relatório | expositiva, descritiva e narrativa |
-| Ata | narrativa e expositiva |
+| Edital | publicar regras, condições, critérios e prazos |
+| Ofício | comunicar institucionalmente a destinatário definido |
+| Ata | registrar ocorrências e deliberações de reunião |
+| Relatório | organizar atividades, método, dados, resultados e conclusões |
+| Parecer | analisar questão e concluir com fundamento |
+| Despacho | decidir, determinar ou encaminhar em processo |
+| Requerimento | pedir formalmente providência |
+| Nota técnica | analisar tema especializado e subsidiar decisão |
 
-A tabela indica tendência, não regra automática.
-
-## Administrativos
-
-| Gênero | Finalidade |
-| --- | --- |
-| Edital | publicar regras, condições e prazos |
-| Ofício | comunicar institucionalmente |
-| Ata | registrar reunião e deliberações |
-| Relatório | organizar atividades, método e resultados |
-| Parecer | analisar e concluir com fundamento |
-| Despacho | decidir, determinar ou encaminhar processo |
-| Requerimento | solicitar providência |
-| Nota técnica | analisar tema e subsidiar decisão |
-| Formulário | coletar dados em campos padronizados |
-| Manual | sistematizar orientações |
-
-## Jornalísticos e opinativos
+### Jornalísticos e opinativos
 
 | Gênero | Traço decisivo |
 | --- | --- |
-| Notícia | informar acontecimento |
-| Reportagem | aprofundar com contexto e fontes |
-| Entrevista | organizar perguntas e respostas |
-| Editorial | posição institucional do veículo |
-| Artigo de opinião | tese de autor identificado |
+| Notícia | informar acontecimento de interesse público |
+| Reportagem | aprofundar com contexto, dados e fontes |
+| Entrevista | organizar interação entre entrevistador e entrevistado |
+| Editorial | expressar posição institucional do veículo |
+| Artigo de opinião | defender posição de autor identificado |
 | Carta do leitor | reagir a publicação ou tema |
-| Charge | comentário crítico contextual |
-| Tirinha | sequência curta de quadros |
+| Charge | comentar criticamente fato/contexto, em geral de modo verbo-visual |
+| Tirinha | organizar sequência breve de quadros |
+
+Outros úteis: **verbete** define/sistematiza; **resenha crítica** apresenta e avalia obra; **manual/tutorial** orienta procedimento; **convite** chama para evento e informa condições.
+
+## Mistura de forma e função
+
+Na <abbr title="Forma de um gênero usada para cumprir a função de outro">intergenericidade</abbr>, um texto assume a aparência de outro gênero, mas a **finalidade comunicativa efetiva** prevalece na classificação.
+
+Ex.: anúncio organizado como “Ingredientes” + “Modo de preparo” continua publicitário se seu objetivo é promover matrícula ou produto.
+
+Isso difere da simples combinação de sequências dentro do mesmo gênero.
 
 ## Método de prova
 
-1. Identifique se o comando pede gênero, tipo ou os dois.
-2. Complete: “o texto serve principalmente para...”.
-3. Pergunte se há tese sustentada ou apenas explicação.
-4. Procure relato, caracterização ou orientação.
-5. Confira produtor, destinatário, circulação e composição.
-6. Determine a predominância pelo plano global.
-7. Elimine trocas entre gênero, tipo, domínio e suporte.
+1. **Leia o comando:** gênero, tipo, domínio, suporte ou finalidade?
+2. Complete: **“o texto serve principalmente para...”**.
+3. Veja a progressão: fato avança, quadro é construído, conceito é explicado, tese é sustentada ou ação é orientada?
+4. Delimite: **trecho local ou texto inteiro?**
+5. Confirme o gênero por **finalidade + participantes + circulação + composição + estilo**.
+6. Elimine trocas de categoria.
+7. Em argumentação, identifique **tese, tipo de razão e função da fonte citada**.
 
-## Pegadinhas corrigidas
-
-- ❌ **Notícia é necessariamente narrativa.**  
-  ✅ Notícia é gênero; a sequência predominante depende do texto.
-
-- ❌ **Receita é tipo textual.**  
-  ✅ Receita é gênero; injuntivo/instrucional é o tipo habitual.
-
-- ❌ **Jornalístico é gênero individual.**  
-  ✅ Jornalístico é domínio que reúne notícia, reportagem, editorial etc.
-
-- ❌ **Portal eletrônico é gênero.**  
-  ✅ Portal é suporte ou ambiente de circulação.
-
-- ❌ **Todo texto com dados é expositivo.**  
-  ✅ Dados também podem sustentar uma tese argumentativa.
-
-- ❌ **Toda opinião forma argumentação.**  
-  ✅ Procure posição e sustentação.
-
-- ❌ **Só há injunção com imperativo.**  
-  ✅ Obrigação, permissão, proibição e etapas também orientam conduta.
-
-- ❌ **A primeira sequência define todo o texto.**  
-  ✅ Vale a finalidade e a macroestrutura.
-
-- ❌ **Predominante significa exclusiva.**  
-  ✅ Textos reais são heterogêneos.
-
-- ❌ **Mudar de papel para portal cria novo gênero.**  
-  ✅ O gênero pode permanecer, ainda que o suporte provoque adaptações.
-
-- ❌ **A forma imitada sempre define o gênero.**  
-  ✅ Na <abbr title="forma de um gênero usada com função de outro">intergenericidade</abbr>, prevalece a finalidade comunicativa efetiva.
+**Atalho final:** categoria pedida → função → progressão → predominância → confirmação pelas pistas.
