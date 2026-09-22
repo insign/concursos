@@ -8,7 +8,7 @@ Uma transformação pode falhar em três níveis independentes:
 |---|---|
 | gramática | a estrutura final está correta? |
 | equivalência | participantes, relações, tempo, modalidade e referente foram preservados? |
-| foco | a informação principal, o <abbr title="alcance interpretativo de um operador na frase">escopo</abbr> e a hierarquia discursiva continuam adequados ao comando? |
+| <abbr title="informação destacada pela organização da frase">foco</abbr> | a informação principal, o <abbr title="alcance interpretativo de um operador na frase">escopo</abbr> e a hierarquia discursiva continuam adequados ao comando? |
 
 **Gramatical ≠ necessariamente equivalente.**
 
@@ -16,8 +16,8 @@ Uma transformação pode falhar em três níveis independentes:
 
 1. verbos e locuções;
 2. sujeitos;
-3. complementos e predicativos;
-4. adjuntos;
+3. complementos e <abbr title="termos que atribuem característica ao sujeito ou ao objeto">predicativos</abbr>;
+4. <abbr title="termos que acrescentam circunstância ou especificação sem completar a regência">adjuntos</abbr>;
 5. conectores;
 6. pronomes e antecedentes;
 7. relação lógica entre as orações.
@@ -29,15 +29,15 @@ Uma transformação pode falhar em três níveis independentes:
 | deslocamento | função, referente, foco e pontuação | criar ambiguidade ou vírgula indevida |
 | fusão | relação lógica, antecedentes e escopo | inventar causa/conclusão ou restrição |
 | divisão | elo argumentativo e referência | deixar fragmento ou enfraquecer concessão |
-| redução/desenvolvimento | sujeito e relação lógica | escolher conector incompatível |
-| ativa ↔ passiva | participantes, tempo e modalidade | apagar agente ou mudar foco |
+| redução/desenvolvimento | sujeito, relação lógica, tempo e modo | escolher conector ou correlação verbal incompatível |
+| ativa ↔ passiva | participantes, tempo e <abbr title="valor de possibilidade, obrigação ou certeza expresso na construção">modalidade</abbr> | apagar agente ou mudar foco |
 | nominalização | participantes e informação temporal/modal | apagar agente, tempo ou aspecto |
 
 ## Ordem e foco
 
 - Ordem direta de referência: **sujeito + verbo + complementos + adjuntos**.
 - Ordem direta favorece clareza; não é a única ordem gramatical.
-- `A proposta, a comissão a rejeitou.` → topicalização + retomada.
+- `A proposta, a comissão a rejeitou.` → <abbr title="deslocamento de um termo para posição de tópico, com destaque e possível retomada">topicalização</abbr> + retomada.
 - Deslocar adjunto pode mudar a leitura do termo modificado.
 
 ## Pontuação que decide sentido
@@ -82,12 +82,14 @@ Uma transformação pode falhar em três níveis independentes:
 |---|---|
 | `ao terminar` | quando terminou |
 | `por faltar documento` | porque faltava documento |
-| `para reduzir custos` | a fim de reduzir / para que reduzisse |
+| `para reduzir custos` | para que reduzisse |
 | `concluído o processo` | quando o processo foi concluído |
 
 Regras:
 
 - forma nominal: infinitivo, gerúndio ou particípio;
+- `a fim de reduzir` continua reduzida; trocar só a preposição não desenvolve a oração;
+- infinitivo flexionado continua reduzido: `antes de os servidores saírem` → `antes que os servidores saíssem`;
 - reduzida pode ter palavra introdutória;
 - sujeito precisa permanecer recuperável;
 - particípio concorda: `concluída a análise`;
@@ -130,7 +132,8 @@ Sujeito elíptico recuperável; nenhuma relação nova foi inventada.
 | pode aprovar | pode ser aprovado |
 | havia aprovado | havia sido aprovado |
 
-- <abbr title="objeto direto">OD</abbr> → sujeito paciente.
+- <abbr title="objeto direto">OD</abbr> → sujeito paciente, **se a construção admitir passiva**.
+- Não force a transformação em complemento preposicionado: `precisa de servidores` ≠ `servidores são precisados`.
 - Auxiliar e particípio concordam com o novo sujeito.
 - Agente omitido pode significar perda de informação.
 - Ativa tende a focalizar agente; passiva, paciente.
@@ -138,12 +141,12 @@ Sujeito elíptico recuperável; nenhuma relação nova foi inventada.
 ### `se`
 
 - `Publicaram-se os resultados.` → passiva; plural.
-- `Precisa-se de servidores.` → sujeito indeterminado; singular.
+- `Precisa-se de servidores.` → <abbr title="construção em que não se identifica quem pratica a ação">sujeito indeterminado</abbr>; singular.
 - `Vive-se bem.` → sujeito indeterminado; singular.
 
 **Nem todo `se` é apassivador.**
 
-## Nominalização
+## <abbr title="transformação de uma construção verbal em estrutura nominal">Nominalização</abbr>
 
 `A equipe analisou os dados.` → `a análise dos dados pela equipe`.
 
@@ -152,12 +155,12 @@ Pode apagar:
 - agente;
 - tempo;
 - modalidade;
-- aspecto;
+- <abbr title="modo de apresentar o desenvolvimento, duração ou conclusão de um evento">aspecto</abbr>;
 - referência clara.
 
 Não invente agente na verbalização se a forma nominal não o informa.
 
-## Elipse, paralelismo e referência
+## <abbr title="omissão de termo recuperável pelo contexto">Elipse</abbr>, <abbr title="uso de estruturas correspondentes em funções equivalentes">paralelismo</abbr> e referência
 
 - Elipse segura: `A equipe revisou e encaminhou o processo.`
 - <abbr title="omissão de termo já expresso anteriormente">Zeugma</abbr>: `A equipe analisou o contrato; o setor, o parecer.`
@@ -183,7 +186,7 @@ Operadores sensíveis: **não, só, também, até, apenas, quase**.
 4. colocação pronominal;
 5. pontuação;
 6. paralelismo;
-7. correferência;
+7. <abbr title="relação entre expressões que apontam para o mesmo referente">correferência</abbr>;
 8. coerência.
 
 ## Método rápido
