@@ -6,7 +6,7 @@
 2. Qual função exerce?
 3. Qual é a oração?
 4. Há verbo simples ou cadeia verbal?
-5. Existe atrator inequívoco na mesma oração?
+5. Existe <abbr title="Elemento que condiciona a próclise">atrator</abbr> inequívoco na mesma oração?
 6. O verbo está no futuro simples?
 7. O principal é infinitivo, gerúndio ou particípio?
 8. A reescrita preserva referente e sentido?
@@ -26,7 +26,7 @@
 | negativa | próclise |
 | relativo | próclise |
 | subordinativa | próclise |
-| interrogativo/exclamativo | próclise |
+| palavra interrogativa / oração exclamativa ou optativa | próclise |
 | `em + gerúndio` | próclise |
 | advérbio sem pausa | próclise favorecida ou exigida conforme a orientação |
 | advérbio com pausa | reanalisar |
@@ -44,6 +44,7 @@
 - `Para que se evitem dúvidas...`
 - `Em se tratando de urgência...`
 - `Que Deus o proteja.`
+- O sinal `?` sozinho não atrai: `Entregaram-lhe o parecer?`.
 
 ## 5. Falsos atratores
 
@@ -86,6 +87,8 @@ Retire o inciso e reconstrua a frase-base.
 | sujeito expresso | `Eu lhe comunicarei.` em descrições que admitem a próclise |
 | ênclise simples | `Comunicarei-lhe` é rejeitada na orientação conservadora |
 
+Mesóclise: apenas futuro do presente ou futuro do pretérito do indicativo; não se aplica a `quando me entregarem` nem a `talvez me entreguem`.
+
 Mesóclise é correta, mas marcada estilisticamente.
 
 ## 9. Grafia com `o/a/os/as`
@@ -109,13 +112,15 @@ Mesóclise é correta, mas marcada estilisticamente.
 - `referiu-se`
 - `comunicou-lhe`
 - `informou-nos`
+- `-mos + nos`: `preparamos + nos` → `preparamo-nos`
+- compare `-mos + os`: `preparamos + os` → `preparamo-los`
 
 ## 10. Formas nominais
 
 ### Infinitivo
 
 - sem atrator: `informá-lo`
-- com negativa: `não o informar`
+- com negativa: `não o informar`; a ênclise ao infinitivo também pode ser admitida: `não informá-lo`
 - variação: `para o ajudar` / `para ajudá-lo`
 
 ### Gerúndio
@@ -130,6 +135,7 @@ Nunca depois do particípio:
 
 - `Tinha-o informado.`
 - `Não o tinha informado.`
+- auxiliar no futuro: `Ter-me-ia informado.`; com negativa: `Não me teria informado.`
 - não `tinha informado-o`.
 
 ## 11. Locução com infinitivo ou gerúndio

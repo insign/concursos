@@ -64,7 +64,7 @@
     },
     {
       "id": "q3583",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase exemplifica próclise?",
       "options": [
@@ -75,11 +75,11 @@
         {"id": "E", "text": "Não me avisaram sobre a mudança."}
       ],
       "correctOptionId": "E",
-      "explanation": "Em 'não me avisaram', o pronome aparece antes do verbo e é atraído pela negativa. B contém ênclise, C contém mesóclise e D usa forma tônica. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Em 'não me avisaram', o pronome aparece antes do verbo e é atraído pela negativa. A contém ênclise, B contém mesóclise e C usa forma tônica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3584",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase exemplifica ênclise?",
       "options": [
@@ -90,7 +90,7 @@
         {"id": "E", "text": "A simples presença de “se” torna o verbo impessoal e invariável no singular."}
       ],
       "correctOptionId": "A",
-      "explanation": "O pronome posposto ao verbo e unido por hífen caracteriza ênclise. A contém próclise, C contém mesóclise e D não contém clítico. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O pronome posposto ao verbo e unido por hífen caracteriza ênclise. B contém próclise, C contém mesóclise e D usa forma tônica, sem clítico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3585",
@@ -379,7 +379,7 @@
     },
     {
       "id": "q3604",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase exemplifica mesóclise no futuro do pretérito?",
       "options": [
@@ -390,7 +390,7 @@
         {"id": "E", "text": "A mesóclise é possível em qualquer tempo verbal e em qualquer forma nominal."}
       ],
       "correctOptionId": "A",
-      "explanation": "'Dir-se-ia' insere o pronome na forma do futuro do pretérito. A, embora correta, contém próclise motivada pela negativa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "'Dir-se-ia' insere o pronome na forma do futuro do pretérito. B, embora também gramatical, contém próclise motivada pela negativa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3605",
