@@ -19,16 +19,19 @@ async function seedNavigationRecord(page: Page): Promise<void> {
   await page.evaluate(
     ({ profileId, route, updatedAt }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-navigation', 1);
+        const request = indexedDB.open('concursos-navigation', 2);
         request.onupgradeneeded = () => {
-          if (!request.result.objectStoreNames.contains('navigation')) {
-            request.result.createObjectStore('navigation', { keyPath: 'profileId' });
+          if (!request.result.objectStoreNames.contains('navigationContests')) {
+            const store = request.result.createObjectStore('navigationContests', {
+              keyPath: 'recordId',
+            });
+            store.createIndex('by-profile', 'profileId', { unique: false });
           }
         };
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const database = request.result;
-          const transaction = database.transaction('navigation', 'readwrite');
+          const transaction = database.transaction('navigationContests', 'readwrite');
           const document = {
             schemaVersion: 1,
             updatedAt,
@@ -54,10 +57,19 @@ async function seedNavigationRecord(page: Page): Promise<void> {
               progress: 0.65,
             },
           };
-          transaction.objectStore('navigation').put({
+          transaction.objectStore('navigationContests').put({
+            recordId: `${profileId}::exemplo`,
             profileId,
-            current: document,
-            base: document,
+            contestStorageId: 'exemplo',
+            current: {
+              schemaVersion: 2,
+              contestStorageId: 'exemplo',
+              updatedAt,
+              cursor: null,
+              points: { fundamentos: document },
+              cleared: {},
+            },
+            base: null,
             remoteVersion: 7,
             remoteCreatedAt: updatedAt,
             outboxState: 'clean',

@@ -4,24 +4,27 @@ import {
   registerLocalStateFlusher,
 } from './local-durability';
 import {
-  clearNavigationReadingPosition,
-  getNavigationRecord,
+  clearContestReadingPosition,
+  findNavigationByRoute,
+  getNavigationContestRecord,
   hasPendingNavigation,
-  saveNavigationDocument,
+  listNavigationContestRecords,
+  saveNavigationShard,
 } from './navigation-db';
 import {
+  contestShardFingerprint,
   createNavigationDocument,
-  maxReadingPosition,
+  isResumablePoint,
   navigationPendingRouteKey,
   navigationCatalogSchema,
   navigationDestination,
   navigationFingerprint,
   navigationSessionKey,
+  newestContestResume,
+  newestGlobalResume,
   normalizeReadingPositionForResume,
   normalizeTextQuote,
-  readingPositionsSameSubject,
-  shouldPersistReadingPosition,
-  shouldPreserveReadingForContestCatalog,
+  upsertContestPoint,
   type NavigationCatalog,
   type NavigationCatalogEntry,
   type NavigationContext,
@@ -425,9 +428,8 @@ export function startNavigationRuntime(): void {
     markLocalStatePending();
   };
   let offered: NavigationDocument | null = null;
-  let lastFingerprint: string | null = null;
-  let lastRemoteVersion: number | null = null;
-  let lastRemoteCreatedAt: string | null = null;
+  const lastFingerprints = new Map<string, string>();
+  const lastRemoteVersions = new Map<string, { version: number | null; createdAt: string | null }>();
   let suppressCaptureUntil = 0;
   let suppressedCaptureRequested = false;
   let semanticCaptureRequested = false;
@@ -479,83 +481,66 @@ export function startNavigationRuntime(): void {
     if (!entry) return;
 
     const context = captureContext(entry);
+    const contestStorageId = context.contestStorageId;
+    // Rotas fora de concurso (/, /simulados/, /configuracoes/) não persistem:
+    // a retomada global deriva dos shards dos concursos.
+    if (!contestStorageId) return;
     const contentRoot = document.querySelector<HTMLElement>('[data-navigation-content]');
     let readingPosition: ReadingPosition | null = null;
     let isStudiedForCurrent = false;
-    if (
-      context.activeTab !== 'questions' &&
-      contentRoot &&
-      context.contestStorageId &&
-      context.subjectStorageId
-    ) {
+    if (context.subjectStorageId) {
+      // O estado estudado vale para qualquer aba do assunto (inclusive questões).
       const studied = isStudied(
         await loadStudied(profileId),
-        studiedSubjectId(context.contestStorageId, context.subjectStorageId),
+        studiedSubjectId(contestStorageId, context.subjectStorageId),
       );
       isStudiedForCurrent = studied;
       if (generation !== captureGeneration || offered) return;
-      readingPosition = studied
-        ? null
-        : preservedReadingPosition ?? captureReadingPosition(contentRoot);
-    }
-    let normalizedReadingPosition = normalizeReadingPositionForResume(readingPosition);
-    let snapshot = createNavigationDocument(currentRoute(), context, normalizedReadingPosition);
-    let fingerprint = navigationFingerprint(snapshot);
-    const record = await getNavigationRecord(profileId);
-    if (generation !== captureGeneration || offered) return;
-
-    if (!forcePersist && record) {
-      const sameSubject = readingPositionsSameSubject(record.current, snapshot);
-      if (sameSubject) {
-        const existingPos = record.current.readingPosition;
-        const candidateRaw = readingPosition;
-        const isClearStudied = candidateRaw === null && existingPos !== null && isStudiedForCurrent;
-        if (isClearStudied) {
-          if (captureTimer) clearTimeout(captureTimer);
-          captureTimer = undefined;
-          captureGeneration += 1;
-          suppressedCaptureRequested = false;
-          semanticCaptureRequested = false;
-          suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
-          await clearSubjectReadingPosition(context.contestStorageId!, context.subjectStorageId!);
-          return;
-        }
-        const mergedPos = maxReadingPosition(existingPos, candidateRaw);
-        const mergedSnapshot = createNavigationDocument(currentRoute(), context, mergedPos);
-        const posSame = JSON.stringify(existingPos) === JSON.stringify(mergedPos);
-        const contextSame =
-          JSON.stringify(record.current.context) === JSON.stringify(mergedSnapshot.context) &&
-          record.current.route === mergedSnapshot.route;
-        if (posSame && contextSame) {
-          lastFingerprint = navigationFingerprint(record.current);
-          return;
-        }
-        if (JSON.stringify(mergedPos) !== JSON.stringify(snapshot.readingPosition)) {
-          snapshot = mergedSnapshot;
-          fingerprint = navigationFingerprint(snapshot);
-        }
+      if (context.activeTab !== 'questions' && contentRoot) {
+        readingPosition = studied
+          ? null
+          : preservedReadingPosition ?? captureReadingPosition(contentRoot);
       }
     }
+    const normalizedReadingPosition = normalizeReadingPositionForResume(readingPosition);
+    const snapshot = createNavigationDocument(currentRoute(), context, normalizedReadingPosition);
+    const record = await getNavigationContestRecord(profileId, contestStorageId);
+    if (generation !== captureGeneration || offered) return;
 
-    if (!forcePersist && record && shouldPreserveReadingForContestCatalog(record.current, entry)) {
-      lastFingerprint = navigationFingerprint(record.current);
+    if (isStudiedForCurrent && context.subjectStorageId) {
+      // Assunto estudado nunca avança o cursor: registra/valida a lápide e sai.
+      // clearContestReadingPosition é idempotente (não reescreve lápide existente).
+      if (captureTimer) clearTimeout(captureTimer);
+      captureTimer = undefined;
+      captureGeneration += 1;
+      suppressedCaptureRequested = false;
+      semanticCaptureRequested = false;
+      suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
+      await clearSubjectReadingPosition(contestStorageId, context.subjectStorageId);
       return;
     }
-    if (!forcePersist && fingerprint === lastFingerprint) return;
-    if (record && fingerprint === navigationFingerprint(record.current)) {
-      lastFingerprint = fingerprint;
-      return;
+
+    const updated = upsertContestPoint(record?.current ?? null, snapshot);
+    if (!forcePersist && record) {
+      const currentFingerprint = contestShardFingerprint(record.current);
+      const updatedFingerprint = contestShardFingerprint(updated);
+      if (currentFingerprint === updatedFingerprint) {
+        lastFingerprints.set(contestStorageId, currentFingerprint);
+        return;
+      }
+      if (!forcePersist && updatedFingerprint === lastFingerprints.get(contestStorageId)) return;
     }
 
-    const saved = await saveNavigationDocument(
+    const saved = await saveNavigationShard(
       profileId,
-      snapshot,
+      contestStorageId,
+      updated,
       () => generation === captureGeneration && !offered && topNavigationPhase === 'idle',
     );
-    if (!saved || generation !== captureGeneration || offered) return;
-    lastFingerprint = fingerprint;
-    if (requestSync) {
-      window.dispatchEvent(new CustomEvent('concursos:navigation-updated', { detail: { profileId } }));
+    if (generation !== captureGeneration || offered) return;
+    lastFingerprints.set(contestStorageId, contestShardFingerprint(saved?.current ?? updated));
+    if (requestSync && saved) {
+        window.dispatchEvent(new CustomEvent('concursos:navigation-updated', { detail: { profileId } }));
     }
   };
 
@@ -710,7 +695,16 @@ export function startNavigationRuntime(): void {
       return Promise.resolve(false);
     }
     if (runningSync) return runningSync;
-    runningSync = requestNavigationProfileSync(profileId).finally(() => {
+    runningSync = (async () => {
+      const catalog = await catalogPromise;
+      // A rota de índice do concurso não tem [data-navigation-root]: resolve o
+      // concurso pelo catálogo para que o shard ativo sempre faça leitura completa.
+      const currentContest =
+        catalogEntryForRoute(catalog, currentRoute())?.contestStorageId ??
+        documentEntryForCurrentRoute()?.contestStorageId ??
+        null;
+      return requestNavigationProfileSync(profileId, currentContest);
+    })().finally(() => {
       runningSync = null;
     });
     return runningSync;
@@ -720,61 +714,89 @@ export function startNavigationRuntime(): void {
     contestStorageId: string,
     subjectStorageId: string,
   ): Promise<boolean> => {
-    markNavigationPending();
-    const record = await clearNavigationReadingPosition(
+    const record = await clearContestReadingPosition(
       profileId,
       contestStorageId,
       subjectStorageId,
     );
+    // No-op (já invalidado) não é atividade local: não muda a revisão de durabilidade.
     if (!record) return false;
+    markNavigationPending();
     if (!ready) studiedClearPendingBeforeReady = true;
     hideOffer();
-    lastFingerprint = navigationFingerprint(record.current);
+    lastFingerprints.set(contestStorageId, contestShardFingerprint(record.current));
     window.dispatchEvent(
       new CustomEvent('concursos:navigation-updated', { detail: { profileId } }),
     );
     return true;
   };
 
+  // Invalida pontos e cursores de assuntos estudados em todos os shards.
+  const clearStudiedHistory = async (): Promise<void> => {
+    const records = await listNavigationContestRecords(profileId);
+    if (records.length === 0) return;
+    const studied = await loadStudied(profileId);
+    for (const record of records) {
+      const { contestStorageId } = record.current;
+      const subjects = new Set(Object.keys(record.current.points));
+      const cursorSubject = record.current.cursor?.context.subjectStorageId;
+      if (cursorSubject) subjects.add(cursorSubject);
+      for (const subjectStorageId of subjects) {
+        if (isStudied(studied, studiedSubjectId(contestStorageId, subjectStorageId))) {
+          await clearSubjectReadingPosition(contestStorageId, subjectStorageId);
+        }
+      }
+    }
+  };
+
   const inspectRemoteChange = async () => {
     try {
       if (!ready) return;
-      const record = await getNavigationRecord(profileId);
-      if (!record) return;
-
-      const { contestStorageId, subjectStorageId } = record.current.context;
-      if (
-        record.current.readingPosition &&
-        contestStorageId &&
-        subjectStorageId &&
-        isStudied(
-          await loadStudied(profileId),
-          studiedSubjectId(contestStorageId, subjectStorageId),
-        )
-      ) {
-        await clearSubjectReadingPosition(contestStorageId, subjectStorageId);
+      await clearStudiedHistory();
+      const fresh = await listNavigationContestRecords(profileId);
+      const global = newestGlobalResume(fresh.map((record) => record.current));
+      if (!global) {
+        // Sem candidato vigente: uma oferta anterior ficou obsoleta.
+        if (offered) hideOffer();
         return;
       }
-      if (record.remoteVersion === null) return;
+      // Candidato global mudou de concurso/rota: a oferta anterior não vale mais.
+      if (
+        offered &&
+        (offered.context.contestStorageId !== global.document.context.contestStorageId ||
+          offered.route !== global.document.route)
+      ) {
+        hideOffer();
+      }
+      const owner = fresh.find((record) => record.current.contestStorageId === global.contestStorageId);
+      if (!owner || owner.remoteVersion === null) return;
 
+      const seen = lastRemoteVersions.get(global.contestStorageId);
       const incarnationChanged =
-        (lastRemoteCreatedAt !== null &&
-          record.remoteCreatedAt !== null &&
-          record.remoteCreatedAt !== lastRemoteCreatedAt) ||
-        (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
+        (seen !== undefined &&
+          seen.createdAt !== null &&
+          owner.remoteCreatedAt !== null &&
+          owner.remoteCreatedAt !== seen.createdAt) ||
+        (seen !== undefined && seen.version !== null && owner.remoteVersion < seen.version);
       const newer =
         incarnationChanged ||
-        lastRemoteVersion === null ||
-        record.remoteVersion > lastRemoteVersion;
+        seen === undefined ||
+        seen.version === null ||
+        owner.remoteVersion > seen.version;
 
-      lastRemoteVersion = incarnationChanged
-        ? record.remoteVersion
-        : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
-      lastRemoteCreatedAt = record.remoteCreatedAt;
+      lastRemoteVersions.set(global.contestStorageId, {
+        version: incarnationChanged ? owner.remoteVersion : Math.max(seen?.version ?? 0, owner.remoteVersion),
+        createdAt: owner.remoteCreatedAt,
+      });
       if (!newer) return;
 
-      const fingerprint = navigationFingerprint(record.current);
-      if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
+      const fingerprint = contestShardFingerprint(owner.current);
+      if (
+        fingerprint !== lastFingerprints.get(global.contestStorageId) &&
+        owner.outboxState === 'clean'
+      ) {
+        showOffer(global.document);
+      }
     } catch {
       // Uma falha de leitura local mantém a navegação atual e será reavaliada no próximo gatilho.
     }
@@ -793,7 +815,10 @@ export function startNavigationRuntime(): void {
     const destination = navigationDestination(document);
     if (destination !== currentDestination()) {
       suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
-      lastFingerprint = navigationFingerprint(document);
+      // Não grava fingerprint de ponto único em lastFingerprints (formato de shard):
+      // a próxima captura recalcula pelo shard e evita reoferta falsa.
+      const contestStorageId = document.context.contestStorageId;
+      if (contestStorageId) lastFingerprints.delete(contestStorageId);
       if (document.route !== currentRoute()) {
         sessionStorage.setItem(pendingRouteKey, document.route);
         navigationRedirectPending = true;
@@ -805,7 +830,8 @@ export function startNavigationRuntime(): void {
       void runRestoreCurrentDocument(document);
       return;
     }
-    lastFingerprint = navigationFingerprint(document);
+    const contestStorageId = document.context.contestStorageId;
+    if (contestStorageId) lastFingerprints.delete(contestStorageId);
     void runRestoreCurrentDocument(document);
   });
 
@@ -1003,47 +1029,63 @@ export function startNavigationRuntime(): void {
 
   initialization = (async () => {
     const catalog = await catalogPromise;
+    const initialContest =
+      catalogEntryForRoute(catalog, currentRoute())?.contestStorageId ??
+      documentEntryForCurrentRoute()?.contestStorageId ??
+      null;
     if (navigator.onLine) {
       try {
-        await bootstrapNavigation(profileId);
+        await bootstrapNavigation(profileId, initialContest);
       } catch {
         // A cópia local continua utilizável quando o bootstrap remoto falha.
       }
     }
-    const record = await getNavigationRecord(profileId);
-    const target = record ? catalogEntryForRoute(catalog, record.current.route) : null;
+    // Estado estudado (inclusive adotado do remoto no bootstrap) é aplicado
+    // antes de calcular a oferta/retomada inicial.
+    await clearStudiedHistory();
+    const rows = await listNavigationContestRecords(profileId);
+    const global = newestGlobalResume(rows.map((row) => row.current));
+    const resumeDocument = global?.document ?? null;
+    const target = resumeDocument ? catalogEntryForRoute(catalog, resumeDocument.route) : null;
     const currentEntry =
       catalogEntryForRoute(catalog, currentRoute()) ?? documentEntryForCurrentRoute();
     const initialResumeOffered =
       shouldOfferInitialResume &&
       !explicitNavigation &&
-      record &&
+      resumeDocument &&
       target &&
-      record.current.route !== currentRoute();
+      resumeDocument.route !== currentRoute();
     if (initialResumeOffered) {
-      showOffer(record.current, record.outboxState === 'pending');
+      const owner = rows.find((row) => row.current.contestStorageId === global!.contestStorageId);
+      showOffer(resumeDocument, owner?.outboxState === 'pending');
     } else {
       markSessionStarted();
     }
 
-    if (record) {
-      lastFingerprint = navigationFingerprint(record.current);
-      lastRemoteVersion = record.remoteVersion;
-      lastRemoteCreatedAt = record.remoteCreatedAt;
-      if (
-        !explicitNavigation &&
-        shouldRestorePendingRoute &&
-        target &&
-        record.current.route === currentRoute()
-      ) {
-        await runRestoreCurrentDocument(record.current);
+    if (resumeDocument) {
+      for (const row of rows) {
+        lastFingerprints.set(row.contestStorageId, contestShardFingerprint(row.current));
+        lastRemoteVersions.set(row.contestStorageId, {
+          version: row.remoteVersion,
+          createdAt: row.remoteCreatedAt,
+        });
+      }
+      const restored = shouldRestorePendingRoute
+        ? await findNavigationByRoute(profileId, currentRoute())
+        : null;
+      if (!explicitNavigation && restored && target) {
+        await runRestoreCurrentDocument(restored);
       }
     }
     ready = true;
+    // Preservação independe de autorização pendente: reabrir o assunto
+    // (deep link #focus incluído) não pode regredir o ponto salvo.
+    const currentPoint = await findNavigationByRoute(profileId, currentRoute());
     const preserveInitialReadingPosition = Boolean(
-      record?.current.route === currentRoute() &&
-        record.current.context.activeTab === 'content' &&
-        record.current.readingPosition !== null &&
+      currentPoint &&
+        currentPoint.route === currentRoute() &&
+        currentPoint.context.activeTab === 'content' &&
+        currentPoint.readingPosition !== null &&
         currentEntry?.activeTab === 'content',
     );
     const preservePositionDuringInitialCapture =
@@ -1055,19 +1097,23 @@ export function startNavigationRuntime(): void {
         false,
         true,
         false,
-        record!.current.readingPosition ?? undefined,
+        currentPoint!.readingPosition ?? undefined,
       );
     } else if (preserveInitialReadingPosition) {
       await runSaveCurrent(false, false, true, false);
     } else {
-      if (!record || !target) {
+      if (!resumeDocument || !target) {
         await runSaveCurrent(false);
-        window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
       } else {
         await runSaveCurrent();
       }
     }
     announceNavigationReady(profileId);
+    // Publica reparos/capturas silenciosas do init sem aguardar o ciclo
+    // periódico: o bootstrap já assentou o estado remoto.
+    if (await hasPendingNavigation(profileId)) {
+      void synchronize(true).then(inspectRemoteChange);
+    }
     if (studiedClearPendingBeforeReady && await hasPendingNavigation(profileId)) {
       void synchronize(true).then(inspectRemoteChange);
     }

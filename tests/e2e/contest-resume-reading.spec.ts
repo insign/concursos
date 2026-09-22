@@ -3,10 +3,11 @@ import { expect, test } from './fixtures';
 const alias = 'retomar-concurso-teste';
 const contestRoute = '/concursos/concurso-exemplo/';
 const contentRoute = '/concursos/concurso-exemplo/assunto-exemplo/';
-const navigationDocumentId = `concursos--${alias}--navegacao`;
+const contestStorageId = 'exemplo';
+const navigationShardId = `concursos--${alias}--navegacao--${contestStorageId}`;
 const timestamp = '2026-07-25T00:00:00.000Z';
 
-function readingDocument(progress = 0.65) {
+function readingPoint(progress = 0.65) {
   return {
     schemaVersion: 1,
     updatedAt: timestamp,
@@ -34,25 +35,41 @@ function readingDocument(progress = 0.65) {
   };
 }
 
+function readingShard(progress = 0.65) {
+  return {
+    schemaVersion: 2,
+    contestStorageId: 'exemplo',
+    updatedAt: timestamp,
+    cursor: null,
+    points: { fundamentos: readingPoint(progress) },
+    cleared: {},
+  };
+}
+
 async function seedLocalNavigation(
   page: import('@playwright/test').Page,
-  document: ReturnType<typeof readingDocument>,
+  shard: ReturnType<typeof readingShard>,
 ): Promise<void> {
   await page.evaluate(
-    ({ profileId, current, updatedAt }) =>
+    ({ profileId, contestStorageId, current, updatedAt }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-navigation', 1);
+        const request = indexedDB.open('concursos-navigation', 2);
         request.onupgradeneeded = () => {
-          if (!request.result.objectStoreNames.contains('navigation')) {
-            request.result.createObjectStore('navigation', { keyPath: 'profileId' });
+          if (!request.result.objectStoreNames.contains('navigationContests')) {
+            const store = request.result.createObjectStore('navigationContests', {
+              keyPath: 'recordId',
+            });
+            store.createIndex('by-profile', 'profileId', { unique: false });
           }
         };
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const database = request.result;
-          const transaction = database.transaction('navigation', 'readwrite');
-          transaction.objectStore('navigation').put({
+          const transaction = database.transaction('navigationContests', 'readwrite');
+          transaction.objectStore('navigationContests').put({
+            recordId: `${profileId}::${contestStorageId}`,
             profileId,
+            contestStorageId,
             current,
             base: current,
             remoteVersion: 1,
@@ -75,7 +92,57 @@ async function seedLocalNavigation(
           transaction.onabort = () => reject(transaction.error);
         };
       }),
-    { profileId: alias, current: document, updatedAt: timestamp },
+    { profileId: alias, contestStorageId, current: shard, updatedAt: timestamp },
+  );
+}
+
+async function localShardProgress(
+  page: import('@playwright/test').Page,
+): Promise<number | null> {
+  return page.evaluate(
+    ({ profileId, contestStorageId }) =>
+      new Promise<number | null>((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 2);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const get = database
+            .transaction('navigationContests')
+            .objectStore('navigationContests')
+            .get(`${profileId}::${contestStorageId}`);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve(
+              get.result?.current?.points?.fundamentos?.readingPosition?.progress ?? null,
+            );
+            database.close();
+          };
+        };
+      }),
+    { profileId: alias, contestStorageId },
+  );
+}
+
+async function localShardRoute(page: import('@playwright/test').Page): Promise<string | null> {
+  return page.evaluate(
+    ({ profileId, contestStorageId }) =>
+      new Promise<string | null>((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 2);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const get = database
+            .transaction('navigationContests')
+            .objectStore('navigationContests')
+            .get(`${profileId}::${contestStorageId}`);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve(get.result?.current?.points?.fundamentos?.route ?? null);
+            database.close();
+          };
+        };
+      }),
+    { profileId: alias, contestStorageId },
   );
 }
 
@@ -88,7 +155,7 @@ test('keeps resume reading hidden without an active alias', async ({ page }) => 
 
 test('refreshes from IndexedDB when an alias changes without reloading', async ({ page }) => {
   await page.goto(contestRoute);
-  await seedLocalNavigation(page, readingDocument());
+  await seedLocalNavigation(page, readingShard());
   await page.evaluate((profileId) => {
     localStorage.setItem('concursos:active-alias', profileId);
     window.dispatchEvent(
@@ -106,7 +173,7 @@ test('highlights the in-progress subject check in the catalog listing', async ({
     localStorage.setItem('concursos:active-alias', profileId);
   }, alias);
   await page.goto(contestRoute);
-  await seedLocalNavigation(page, readingDocument());
+  await seedLocalNavigation(page, readingShard());
   await page.evaluate((profileId) => {
     window.dispatchEvent(
       new CustomEvent('concursos:navigation-updated', { detail: { profileId } }),
@@ -124,14 +191,14 @@ test('waits for remote bootstrap before exposing a stale local candidate', async
   kvStore,
 }) => {
   await page.goto(contestRoute);
-  await seedLocalNavigation(page, readingDocument(0.15));
+  await seedLocalNavigation(page, readingShard(0.15));
   await page.evaluate((profileId) => {
     localStorage.setItem('concursos:active-alias', profileId);
   }, alias);
-  kvStore.set(navigationDocumentId, {
+  kvStore.set(navigationShardId, {
     version: 2,
     createdAt: timestamp,
-    json: readingDocument(0.75),
+    json: readingShard(0.75),
   });
 
   let releaseRemote!: () => void;
@@ -141,7 +208,7 @@ test('waits for remote bootstrap before exposing a stale local candidate', async
   await page.route('https://kv.helio.me/**', async (route) => {
     if (
       route.request().method() === 'GET' &&
-      route.request().url().endsWith(navigationDocumentId)
+      route.request().url().endsWith(navigationShardId)
     ) {
       await remoteGate;
     }
@@ -158,35 +225,17 @@ test('waits for remote bootstrap before exposing a stale local candidate', async
   await expect(page.getByRole('button', { name: 'Resumir leitura' })).toBeVisible({
     timeout: 30_000,
   });
-  await expect.poll(() =>
-    page.evaluate(
-      (profileId) =>
-        new Promise<number | null>((resolve, reject) => {
-          const request = indexedDB.open('concursos-navigation', 1);
-          request.onerror = () => reject(request.error);
-          request.onsuccess = () => {
-            const database = request.result;
-            const get = database.transaction('navigation').objectStore('navigation').get(profileId);
-            get.onerror = () => reject(get.error);
-            get.onsuccess = () => {
-              resolve(get.result?.current?.readingPosition?.progress ?? null);
-              database.close();
-            };
-          };
-        }),
-      alias,
-    ),
-  ).toBe(0.75);
+  await expect.poll(() => localShardProgress(page), { timeout: 30_000 }).toBe(0.75);
 });
 
 test('resumes the remote reading position in focus mode from the contest page', async ({
   page,
   kvStore,
 }) => {
-  kvStore.set(navigationDocumentId, {
+  kvStore.set(navigationShardId, {
     version: 4,
     createdAt: timestamp,
-    json: readingDocument(),
+    json: readingShard(),
   });
   await page.addInitScript((profileId) => {
     localStorage.setItem('concursos:active-alias', profileId);
@@ -196,25 +245,7 @@ test('resumes the remote reading position in focus mode from the contest page', 
   const resume = page.getByRole('button', { name: 'Resumir leitura' });
   await expect(resume).toBeVisible({ timeout: 30_000 });
   await expect(resume).toBeEnabled();
-  await expect.poll(() =>
-    page.evaluate(
-      (profileId) =>
-        new Promise<string | null>((resolve, reject) => {
-          const request = indexedDB.open('concursos-navigation', 1);
-          request.onerror = () => reject(request.error);
-          request.onsuccess = () => {
-            const database = request.result;
-            const get = database.transaction('navigation').objectStore('navigation').get(profileId);
-            get.onerror = () => reject(get.error);
-            get.onsuccess = () => {
-              resolve(get.result?.current?.route ?? null);
-              database.close();
-            };
-          };
-        }),
-      alias,
-    ),
-  ).toBe(contentRoute);
+  await expect.poll(() => localShardRoute(page), { timeout: 30_000 }).toBe(contentRoute);
 
   await resume.click();
   await expect(page).toHaveURL(new RegExp(`${contentRoute.replaceAll('/', '\\/')}#focus$`));

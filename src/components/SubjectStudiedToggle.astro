@@ -27,8 +27,7 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   import { getActiveAlias } from '../lib/identity';
   import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
   import { requestProfileSync } from '../lib/sync';
-  import { getNavigationRecord } from '../lib/navigation-db';
-  import { canResumeReading } from '../lib/navigation';
+  import { listNavigationContestRecords } from '../lib/navigation-db';
   import { whenNavigationReady } from '../lib/navigation-runtime';
 
   const buttons = Array.from(
@@ -84,30 +83,27 @@ const { contestStorageId, subjectStorageId } = Astro.props;
       for (const button of buttons) delete button.dataset.progress;
       return;
     }
-    let activeContestId: string | undefined;
-    let activeSubjectId: string | undefined;
+    let inProgress = new Set<string>();
     try {
       await whenNavigationReady(profileId);
       if (revision !== progressRevision || getActiveAlias() !== profileId) return;
-      const record = await getNavigationRecord(profileId);
-      const context = record?.current.context;
-      if (
-        record &&
-        context?.contestStorageId &&
-        canResumeReading(record.current, context.contestStorageId)
-      ) {
-        activeContestId = context.contestStorageId;
-        activeSubjectId = context.subjectStorageId ?? undefined;
-      }
+      const rows = await listNavigationContestRecords(profileId);
+      inProgress = new Set(
+        rows.flatMap((row) =>
+          Object.keys(row.current.points).map(
+            (subjectStorageId) => `${row.contestStorageId}--${subjectStorageId}`,
+          ),
+        ),
+      );
     } catch {
-      // Runtime ou registro indisponível: nenhum assunto em andamento.
+      // Runtime ou registros indisponíveis: nenhum assunto em andamento.
     }
     if (revision !== progressRevision || getActiveAlias() !== profileId) return;
     for (const button of buttons) {
       if (
-        activeSubjectId &&
-        activeContestId === button.dataset.contestStorageId &&
-        activeSubjectId === button.dataset.subjectStorageId
+        button.dataset.contestStorageId &&
+        button.dataset.subjectStorageId &&
+        inProgress.has(`${button.dataset.contestStorageId}--${button.dataset.subjectStorageId}`)
       ) {
         button.dataset.progress = 'true';
       } else {

@@ -10,12 +10,12 @@ import {
   type LocalAnswerRecord,
 } from './offline-db';
 import {
-  getNavigationRecord,
-  saveNavigationDocument,
+  listNavigationContestRecords,
+  saveNavigationShard,
   whenNavigationWritesSettled,
 } from './navigation-db';
 import { flushPendingLocalState } from './local-durability';
-import { navigationDocumentSchema } from './navigation';
+import { navigationContestDocumentSchema, navigationDocumentSchema } from './navigation';
 import { loadPreferences, preferencesSchema } from './preferences';
 import {
   materializeSubjectProgress,
@@ -44,6 +44,7 @@ export const profileBackupSchema = z
     answers: z.array(backupAnswerSchema),
     preferences: preferencesSchema,
     navigation: navigationDocumentSchema.nullable().optional(),
+    navigationContests: z.array(navigationContestDocumentSchema).optional(),
   })
   .strict()
   .superRefine((backup, context) => {
@@ -125,11 +126,11 @@ export async function createProfileBackup(profileId: string, now = new Date()): 
   await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
   await flushPendingLocalState();
   await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
-  const [records, preferences, catalog, navigationRecord] = await Promise.all([
+  const [records, preferences, catalog, navigationRows] = await Promise.all([
     listProfileAnswerRecords(profileId),
     loadPreferences(profileId),
     loadBackupCatalog(),
-    getNavigationRecord(profileId),
+    listNavigationContestRecords(profileId),
   ]);
   const catalogBySubject = new Map(
     catalog.map((subject) => [subjectKey(subject.contestStorageId, subject.subjectStorageId), subject]),
@@ -156,7 +157,7 @@ export async function createProfileBackup(profileId: string, now = new Date()): 
     sourceAlias: profileId,
     answers,
     preferences,
-    navigation: navigationRecord?.current ?? null,
+    navigationContests: navigationRows.map((row) => row.current),
   });
 }
 
@@ -232,11 +233,13 @@ export async function importProfileBackup(profileId: string, value: unknown): Pr
         progress: { schemaVersion: 1, subjects: progressSubjects },
         progressDirtyFields: [PREFERENCES_PROGRESS_DIRTY_FIELD, ...Object.keys(progressSubjects)],
       });
-      if (backup.navigation) {
-        try {
-          await saveNavigationDocument(targetAlias, backup.navigation);
-        } catch {
-          // Falha ao importar navegação não bloqueia importação das respostas
+      if (backup.navigationContests) {
+        for (const shard of backup.navigationContests) {
+          try {
+            await saveNavigationShard(targetAlias, shard.contestStorageId, shard);
+          } catch {
+            // Falha ao importar navegação não bloqueia importação das respostas
+          }
         }
       }
       return { answerCount: answers.length, sourceAlias: backup.sourceAlias, targetAlias };

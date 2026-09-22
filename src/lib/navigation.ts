@@ -191,46 +191,12 @@ function hasResumeReadingPosition(document: NavigationDocument): boolean {
   );
 }
 
-export function canResumeReading(
-  document: NavigationDocument,
-  contestStorageId: string,
-): boolean {
-  return (
-    hasResumeReadingPosition(document) &&
-    document.context.contestStorageId === contestStorageId
-  );
-}
-
-export function clearReadingPosition(
-  document: NavigationDocument,
-  contestStorageId: string,
-  subjectStorageId: string,
-  now = new Date(),
-): NavigationDocument {
-  if (
-    document.readingPosition === null ||
-    document.context.contestStorageId !== contestStorageId ||
-    document.context.subjectStorageId !== subjectStorageId
-  ) {
-    return document;
-  }
-  return { ...document, updatedAt: now.toISOString(), readingPosition: null };
+export function isResumablePoint(document: NavigationDocument): boolean {
+  return hasResumeReadingPosition(document);
 }
 
 export const READING_PROGRESS_EPSILON = 1e-6;
 export const MIN_RESUME_PROGRESS = 0.02;
-
-export function readingPositionsSameSubject(
-  a: NavigationDocument,
-  b: NavigationDocument,
-): boolean {
-  return (
-    a.route === b.route &&
-    a.context.contestStorageId === b.context.contestStorageId &&
-    a.context.subjectStorageId === b.context.subjectStorageId &&
-    a.context.subjectStorageId !== null
-  );
-}
 
 export function normalizeReadingPositionForResume(
   position: ReadingPosition | null,
@@ -238,25 +204,6 @@ export function normalizeReadingPositionForResume(
   if (!position) return null;
   if (position.progress < MIN_RESUME_PROGRESS) return null;
   return position;
-}
-
-export function shouldPersistReadingPosition(
-  existing: ReadingPosition | null,
-  candidate: ReadingPosition | null,
-  currentStudied: boolean,
-): boolean {
-  const normalizedCandidate = normalizeReadingPositionForResume(candidate);
-  if (currentStudied) return normalizedCandidate === null && existing !== null;
-  if (existing === null) return normalizedCandidate !== null;
-  if (normalizedCandidate === null) return false;
-  if (normalizedCandidate.progress > existing.progress + READING_PROGRESS_EPSILON) return true;
-  if (Math.abs(normalizedCandidate.progress - existing.progress) <= READING_PROGRESS_EPSILON) {
-    return (
-      normalizedCandidate.blockIndex > existing.blockIndex ||
-      normalizedCandidate.relativeOffset > existing.relativeOffset + READING_PROGRESS_EPSILON
-    );
-  }
-  return false;
 }
 
 export function maxReadingPosition(
@@ -275,18 +222,6 @@ export function maxReadingPosition(
   )
     return normalized;
   return existing;
-}
-
-export function shouldPreserveReadingForContestCatalog(
-  current: NavigationDocument,
-  next: NavigationCatalogEntry,
-): boolean {
-  return (
-    next.activeTab === 'catalog' &&
-    next.contestStorageId !== null &&
-    next.contestStorageId === current.context.contestStorageId &&
-    hasResumeReadingPosition(current)
-  );
 }
 
 export const navigationCatalogSchema = z
@@ -357,5 +292,283 @@ export function createNavigationDocument(
     route,
     context,
     readingPosition,
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Histórico de leitura por concurso (issue 782)
+//
+// Um documento por (perfil, concurso) guarda um ponto retomável por assunto,
+// sem limite de quantidade e sem poda. `points` usa o mesmo formato do
+// documento de navegação para reaproveitar normalização, comparação e
+// restauração. `cleared` registra invalidações explícitas (assunto estudado)
+// para que um aparelho desatualizado não ressuscite o ponto.
+// ---------------------------------------------------------------------------
+
+const contestStorageIdSchema = z.string().regex(STORAGE_ID_PATTERN).max(20);
+const subjectMapKeySchema = z.string().regex(STORAGE_ID_PATTERN).max(32);
+
+export const navigationContestDocumentSchema = z
+  .object({
+    schemaVersion: z.literal(2),
+    contestStorageId: contestStorageIdSchema,
+    updatedAt: z.string().regex(ISO_DATE_PATTERN),
+    cursor: navigationDocumentSchema.nullable(),
+    points: z.record(subjectMapKeySchema, navigationDocumentSchema),
+    cleared: z.record(subjectMapKeySchema, z.string().regex(ISO_DATE_PATTERN)),
+  })
+  .strict()
+  .superRefine((document, context) => {
+    for (const [subjectStorageId, point] of Object.entries(document.points)) {
+      if (
+        point.context.contestStorageId !== document.contestStorageId ||
+        point.context.subjectStorageId !== subjectStorageId ||
+        !hasResumeReadingPosition(point)
+      ) {
+        context.addIssue({ code: 'custom', message: 'Ponto de leitura inconsistente com o concurso' });
+        return;
+      }
+      if (document.cleared[subjectStorageId] !== undefined) {
+        context.addIssue({ code: 'custom', message: 'Assunto presente em pontos e invalidações' });
+        return;
+      }
+    }
+    if (document.cursor !== null && document.cursor.context.contestStorageId !== null) {
+      if (document.cursor.context.contestStorageId !== document.contestStorageId) {
+        context.addIssue({ code: 'custom', message: 'Cursor de outro concurso' });
+      }
+    }
+  });
+
+export type NavigationContestDocument = z.infer<typeof navigationContestDocumentSchema>;
+
+export function contestShardRecordId(profileId: string, contestStorageId: string): string {
+  return `${profileId}::${contestStorageId}`;
+}
+
+function maxIsoDate(a: string, b: string): string {
+  return a >= b ? a : b;
+}
+
+function contestDocumentUpdatedAt(document: NavigationContestDocument): string {
+  let latest = document.cursor?.updatedAt ?? '1970-01-01T00:00:00.000Z';
+  for (const point of Object.values(document.points)) latest = maxIsoDate(latest, point.updatedAt);
+  for (const clearedAt of Object.values(document.cleared)) latest = maxIsoDate(latest, clearedAt);
+  return latest;
+}
+
+export function normalizeContestDocument(document: NavigationContestDocument): NavigationContestDocument {
+  const points: Record<string, NavigationDocument> = {};
+  for (const [subjectStorageId, point] of Object.entries(document.points)) {
+    const normalized = normalizeNavigationDocument(point);
+    if (!hasResumeReadingPosition(normalized)) continue;
+    if (normalized.context.subjectStorageId !== subjectStorageId) continue;
+    points[subjectStorageId] = normalized;
+  }
+  const cursor = document.cursor ? normalizeNavigationDocument(document.cursor) : null;
+  return navigationContestDocumentSchema.parse({
+    ...document,
+    cursor,
+    points,
+    updatedAt: contestDocumentUpdatedAt({ ...document, cursor, points }),
+  });
+}
+
+export function createContestDocument(
+  contestStorageId: string,
+  now = new Date(),
+): NavigationContestDocument {
+  return navigationContestDocumentSchema.parse({
+    schemaVersion: 2,
+    contestStorageId,
+    updatedAt: now.toISOString(),
+    cursor: null,
+    points: {},
+    cleared: {},
+  });
+}
+
+/** Insere ou avança o ponto de um assunto; posição não retomável só atualiza o cursor. */
+export function upsertContestPoint(
+  shard: NavigationContestDocument | null,
+  point: NavigationDocument,
+  now = new Date(),
+): NavigationContestDocument {
+  const contestStorageId =
+    shard?.contestStorageId ?? point.context.contestStorageId ?? 'desconhecido';
+  const base = shard ?? createContestDocument(contestStorageId, now);
+  const subjectStorageId = point.context.subjectStorageId;
+  const normalized = normalizeNavigationDocument(point);
+  const resumable = hasResumeReadingPosition(normalized) && subjectStorageId !== null;
+  const points = { ...base.points };
+  const cleared = { ...base.cleared };
+  if (resumable && subjectStorageId) {
+    const existing = points[subjectStorageId] ?? null;
+    const merged = normalizeNavigationDocument({
+      ...normalized,
+      readingPosition: maxReadingPosition(existing?.readingPosition ?? null, normalized.readingPosition),
+    });
+    points[subjectStorageId] = merged;
+    delete cleared[subjectStorageId];
+  }
+  const cursor =
+    !base.cursor || normalized.updatedAt >= base.cursor.updatedAt ? normalized : base.cursor;
+  return normalizeContestDocument({ ...base, cursor, points, cleared });
+}
+
+/** Invalida o ponto de um assunto (estudado); mantém o registro como lápide publicável. */
+export function clearContestPoint(
+  shard: NavigationContestDocument | null,
+  contestStorageId: string,
+  subjectStorageId: string,
+  now = new Date(),
+): NavigationContestDocument {
+  const base = shard ?? createContestDocument(contestStorageId, now);
+  const points = { ...base.points };
+  delete points[subjectStorageId];
+  // Lápide monotônica: nunca regride carimbo existente, updatedAt do ponto
+  // nem updatedAt do cursor do próprio assunto (que também é invalidado).
+  const cursorStamp =
+    base.cursor?.context.subjectStorageId === subjectStorageId ? base.cursor.updatedAt : '';
+  const clearedAt = maxIsoDate(
+    maxIsoDate(maxIsoDate(now.toISOString(), base.points[subjectStorageId]?.updatedAt ?? ''), cursorStamp),
+    base.cleared[subjectStorageId] ?? '',
+  );
+  const cleared = { ...base.cleared, [subjectStorageId]: clearedAt };
+  const cursor =
+    base.cursor?.context.subjectStorageId === subjectStorageId
+      ? normalizeNavigationDocument({ ...base.cursor, readingPosition: null })
+      : base.cursor;
+  return normalizeContestDocument({ ...base, cursor, points, cleared });
+}
+
+/**
+ * Une dois documentos do mesmo concurso: pontos distintos coexistem, o mesmo
+ * assunto usa avanço máximo e invalidação mais recente vence ponto antigo.
+ */
+export function mergeContestDocuments(
+  local: NavigationContestDocument,
+  remote: NavigationContestDocument,
+): NavigationContestDocument {
+  if (local.contestStorageId !== remote.contestStorageId) {
+    throw new Error('Documentos de concursos distintos não podem ser mesclados');
+  }
+  const points: Record<string, NavigationDocument> = {};
+  const cleared: Record<string, string> = {};
+  const subjects = new Set([...Object.keys(local.points), ...Object.keys(remote.points)]);
+  for (const subject of subjects) {
+    const left = local.points[subject] ?? null;
+    const right = remote.points[subject] ?? null;
+    const leftCleared = local.cleared[subject] ?? null;
+    const rightCleared = remote.cleared[subject] ?? null;
+    const newestCleared = leftCleared && rightCleared ? maxIsoDate(leftCleared, rightCleared) : (leftCleared ?? rightCleared);
+    const winner = left && right
+      ? (() => {
+        const baseDoc = left.updatedAt >= right.updatedAt ? left : right;
+        return normalizeNavigationDocument({
+          ...baseDoc,
+          readingPosition: maxReadingPosition(left.readingPosition, right.readingPosition),
+          updatedAt: maxIsoDate(left.updatedAt, right.updatedAt),
+        });
+      })()
+      : (left ?? right)!;
+    if (newestCleared && newestCleared >= winner.updatedAt) {
+      cleared[subject] = newestCleared;
+    } else {
+      points[subject] = winner;
+    }
+  }
+  for (const subject of new Set([...Object.keys(local.cleared), ...Object.keys(remote.cleared)])) {
+    if (points[subject] === undefined && cleared[subject] === undefined) {
+      cleared[subject] = maxIsoDate(local.cleared[subject] ?? '', remote.cleared[subject] ?? '');
+    }
+  }
+  let cursor =
+    !local.cursor ? remote.cursor : !remote.cursor ? local.cursor
+      : local.cursor.updatedAt >= remote.cursor.updatedAt ? local.cursor : remote.cursor;
+  // Cursor de assunto invalidado não carrega posição retomável.
+  const cursorSubject = cursor?.context.subjectStorageId ?? null;
+  const cursorCleared = cursorSubject ? (cleared[cursorSubject] ?? null) : null;
+  if (cursor && cursorSubject && cursorCleared && cursorCleared >= cursor.updatedAt) {
+    cursor = normalizeNavigationDocument({ ...cursor, readingPosition: null });
+  }
+  return normalizeContestDocument({
+    schemaVersion: 2,
+    contestStorageId: local.contestStorageId,
+    updatedAt: maxIsoDate(local.updatedAt, remote.updatedAt),
+    cursor,
+    points,
+    cleared,
+  });
+}
+
+/** Ponto de assunto mais recente do concurso; nulo sem ponto retomável. */
+export function newestContestPoint(
+  shard: NavigationContestDocument | null | undefined,
+): NavigationDocument | null {
+  if (!shard) return null;
+  let newest: NavigationDocument | null = null;
+  for (const point of Object.values(shard.points)) {
+    if (!newest || point.updatedAt > newest.updatedAt) newest = point;
+  }
+  return newest;
+}
+
+/** Retomada do concurso (ponto de assunto, com cursor não invalidado como fallback). */
+export function newestContestResume(
+  shard: NavigationContestDocument | null | undefined,
+): NavigationDocument | null {
+  if (!shard) return null;
+  const point = newestContestPoint(shard);
+  if (point) return point;
+  const cursor = shard.cursor;
+  // Cursor precisa pertencer a este concurso (rotas sem concurso são locais).
+  if (!cursor || cursor.context.contestStorageId !== shard.contestStorageId) return null;
+  const cursorSubject = cursor.context.subjectStorageId;
+  if (cursorSubject && shard.cleared[cursorSubject] && shard.cleared[cursorSubject] >= cursor.updatedAt) {
+    return null;
+  }
+  return cursor;
+}
+
+/** Igualdade canônica (ordem de chaves irrelevante, cursor incluído). */
+export function contestDocumentsEqual(
+  a: NavigationContestDocument,
+  b: NavigationContestDocument,
+): boolean {
+  return contestShardFingerprint(a) === contestShardFingerprint(b);
+}
+
+/** Continue global: documento mais recente entre concursos. */
+export function newestGlobalResume(
+  shards: NavigationContestDocument[],
+): { contestStorageId: string; document: NavigationDocument } | null {
+  let winner: { contestStorageId: string; document: NavigationDocument } | null = null;
+  for (const shard of shards) {
+    const candidate = newestContestResume(shard);
+    if (!candidate) continue;
+    if (!winner || candidate.updatedAt > winner.document.updatedAt) {
+      winner = { contestStorageId: shard.contestStorageId, document: candidate };
+    }
+  }
+  return winner;
+}
+
+export function contestShardFingerprint(shard: NavigationContestDocument): string {
+  return JSON.stringify({
+    cursor: shard.cursor
+      ? { route: shard.cursor.route, context: shard.cursor.context, readingPosition: shard.cursor.readingPosition }
+      : null,
+    points: Object.fromEntries(
+      Object.entries(shard.points)
+        .sort(([a], [b]) => (a < b ? -1 : 1))
+        .map(([subject, point]) => [
+          subject,
+          { route: point.route, context: point.context, readingPosition: point.readingPosition },
+        ]),
+    ),
+    cleared: Object.fromEntries(
+      Object.entries(shard.cleared).sort(([a], [b]) => (a < b ? -1 : 1)),
+    ),
   });
 }

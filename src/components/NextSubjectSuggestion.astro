@@ -59,8 +59,8 @@ const serializedConfig = JSON.stringify({
 <script>
   import { getActiveAlias } from '../lib/identity';
   import { loadStudied, studiedSubjectId } from '../lib/studied';
-  import { getNavigationRecord } from '../lib/navigation-db';
-  import { canResumeReading } from '../lib/navigation';
+  import { listNavigationContestRecords } from '../lib/navigation-db';
+  import { newestContestPoint } from '../lib/navigation';
   import {
     areAllSubjectsStudied,
     parseSubjectSuggestionPayload,
@@ -151,9 +151,9 @@ const serializedConfig = JSON.stringify({
       const version = ++refreshVersion;
       if (!profileId) return;
       try {
-        const [studiedDoc, navRecord] = await Promise.all([
+        const [studiedDoc, contestRows] = await Promise.all([
           loadStudied(profileId).catch(() => ({ studiedSubjectIds: [] as string[] })),
-          getNavigationRecord(profileId).catch(() => null),
+          listNavigationContestRecords(profileId).catch(() => []),
         ]);
         if (version !== refreshVersion || getActiveAlias() !== profileId) return;
         const resumeByContest = new Map<string, string | null>();
@@ -161,9 +161,11 @@ const serializedConfig = JSON.stringify({
           const cid = inst.config.contestStorageId;
           if (!resumeByContest.has(cid)) {
             let rid: string | null = null;
-            const cur = navRecord?.current;
-            if (cur && canResumeReading(cur, cid)) {
-              rid = studiedSubjectId(cur.context.contestStorageId!, cur.context.subjectStorageId!);
+            const resume = newestContestPoint(
+              contestRows.find((row) => row.contestStorageId === cid)?.current,
+            );
+            if (resume?.context.contestStorageId && resume.context.subjectStorageId) {
+              rid = studiedSubjectId(resume.context.contestStorageId, resume.context.subjectStorageId);
             }
             resumeByContest.set(cid, rid);
           }

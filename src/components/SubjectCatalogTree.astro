@@ -184,3 +184,108 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
       controls.dataset.subjectTreeReady = '';
     });
 </script>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { getNavigationContestRecord } from '../lib/navigation-db';
+  import { whenNavigationReady } from '../lib/navigation-runtime';
+  import { navigationPendingRouteKey } from '../lib/navigation';
+
+  interface ResumeLink {
+    link: HTMLAnchorElement;
+    contestStorageId: string;
+    subjectStorageId: string;
+    defaultLabel: string;
+    defaultHref: string;
+  }
+
+  // Coletado uma vez; o estado (rótulo/rota) é recalculado a cada evento.
+  const resumeLinks: ResumeLink[] = Array.from(
+    document.querySelectorAll<HTMLAnchorElement>('.subject-reading-link'),
+  ).flatMap((link) => {
+    const card = link.closest('.subject-card');
+    const toggle = card?.querySelector('[data-subject-storage-id]');
+    const contestStorageId = toggle?.getAttribute('data-contest-storage-id');
+    const subjectStorageId = toggle?.getAttribute('data-subject-storage-id');
+    if (!contestStorageId || !subjectStorageId) return [];
+    return [{
+      link,
+      contestStorageId,
+      subjectStorageId,
+      defaultLabel: link.getAttribute('aria-label') ?? '',
+      defaultHref: link.getAttribute('href') ?? '',
+    }];
+  });
+
+  if (resumeLinks.length > 0) {
+    // Handler único e idempotente: resolve o alvo atual pelo perfil ativo.
+    for (const entry of resumeLinks) {
+      entry.link.addEventListener('click', () => {
+        const route = entry.link.dataset.resumeRoute;
+        const profileId = getActiveAlias();
+        if (!route || !profileId) return;
+        sessionStorage.setItem(navigationPendingRouteKey(profileId), route);
+      });
+    }
+
+    let refreshRevision = 0;
+    const enhanceResumeLinks = async () => {
+      const revision = ++refreshRevision;
+      const profileId = getActiveAlias();
+      if (!profileId) {
+        for (const entry of resumeLinks) resetLink(entry);
+        return;
+      }
+      try {
+        await whenNavigationReady(profileId);
+        if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
+        const records = new Map(
+          await Promise.all(
+            [...new Set(resumeLinks.map((entry) => entry.contestStorageId))].map(async (contestId) => {
+              const record = await getNavigationContestRecord(profileId, contestId).catch(
+                () => undefined,
+              );
+              return [contestId, record] as const;
+            }),
+          ),
+        );
+        if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
+        for (const entry of resumeLinks) {
+          const point = records.get(entry.contestStorageId)?.current.points[entry.subjectStorageId];
+          if (!point?.readingPosition) {
+            resetLink(entry);
+            continue;
+          }
+          const percent = Math.round(point.readingPosition.progress * 100);
+          const title = entry.defaultLabel.replace(/^Ler\s+/, '').replace(/\s+sem distrações$/, '');
+          entry.link.setAttribute(
+            'aria-label',
+            `Retomar leitura de ${title || 'assunto'} (${percent}%)`,
+          );
+          entry.link.dataset.resume = 'true';
+          entry.link.dataset.resumeRoute = point.route;
+          // O href precisa apontar para a rota salva (pode ter query) para a
+          // autorização pendente casar na chegada e restaurar a posição.
+          entry.link.setAttribute('href', `${point.route}#focus`);
+        }
+      } catch {
+        // best-effort; o link SSR permanece funcional
+      }
+    };
+
+    function resetLink(entry: ResumeLink): void {
+      delete entry.link.dataset.resume;
+      delete entry.link.dataset.resumeRoute;
+      entry.link.setAttribute('aria-label', entry.defaultLabel);
+      if (entry.defaultHref) entry.link.setAttribute('href', entry.defaultHref);
+    }
+
+    window.addEventListener('concursos:navigation-ready', () => void enhanceResumeLinks());
+    window.addEventListener('concursos:navigation-updated', () => void enhanceResumeLinks());
+    window.addEventListener('concursos:navigation-synced', () => void enhanceResumeLinks());
+    window.addEventListener('concursos:profile-changed', () => void enhanceResumeLinks());
+    window.addEventListener('focus', () => void enhanceResumeLinks());
+    window.addEventListener('pageshow', () => void enhanceResumeLinks());
+    if (getActiveAlias()) void enhanceResumeLinks();
+  }
+</script>

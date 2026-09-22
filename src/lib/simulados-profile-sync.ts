@@ -147,7 +147,11 @@ function remoteSimuladoCount(preflight: SimuladosPreflight): number {
 }
 
 function remoteNavigationCount(preflight: NavigationPreflight): number {
-  return Number(preflight.remote !== null);
+  let count = 0;
+  for (const remote of preflight.remotes.values()) {
+    if (remote !== null) count += 1;
+  }
+  return count;
 }
 
 async function runSimuladosSync(profileId: string): Promise<boolean> {
@@ -229,12 +233,13 @@ export function requestSimuladosProfileSync(
 
 export async function requestNavigationProfileSync(
   profileId = getActiveAlias(),
+  currentContestStorageId?: string | null,
 ): Promise<boolean> {
   if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) return false;
   return enqueue(async () => {
     announceStatus('syncing', 'Sincronizando posição de leitura...', profileId, 'navigation');
     try {
-      const result = await withSimuladosLease((hooks) => synchronizeNavigation(profileId, hooks));
+      const result = await withSimuladosLease((hooks) => synchronizeNavigation(profileId, hooks, currentContestStorageId));
       announceNavigation(profileId, result.failures, result.remoteVersion);
       announceStatus(
         result.failures === 0 ? 'synced' : 'error',

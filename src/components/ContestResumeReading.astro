@@ -19,26 +19,46 @@ const { contestStorageId } = Astro.props;
     <p>Retome o último conteúdo deste concurso no modo sem distrações.</p>
   </div>
   <button class="button" type="button" data-resume-reading disabled>Resumir leitura</button>
+  <ul data-resume-reading-list hidden></ul>
 </section>
 
 <script>
   import { getActiveAlias } from '../lib/identity';
-  import { getNavigationRecord } from '../lib/navigation-db';
+  import { getNavigationContestRecord } from '../lib/navigation-db';
   import { whenNavigationReady } from '../lib/navigation-runtime';
   import {
-    canResumeReading,
     navigationPendingRouteKey,
-    resumeReadingDestination,
+    newestContestPoint,
   } from '../lib/navigation';
 
   document.querySelectorAll<HTMLElement>('[data-contest-resume-reading]').forEach((root) => {
     const contestStorageId = root.dataset.contestStorageId!;
     const button = root.querySelector<HTMLButtonElement>('[data-resume-reading]')!;
+    const list = root.querySelector<HTMLUListElement>('[data-resume-reading-list]')!;
     let refreshRevision = 0;
+    // Alvo atual do botão principal; só existe com ponto retomável do concurso.
+    let primaryRoute: string | null = null;
 
     const hide = () => {
       root.hidden = true;
       button.disabled = true;
+      primaryRoute = null;
+      list.hidden = true;
+      list.replaceChildren();
+    };
+
+    const titleForRoute = (route: string): string => {
+      const anchor = document.querySelector<HTMLAnchorElement>(
+        `.subject-card-title[href="${CSS.escape(route)}"]`,
+      );
+      return anchor?.textContent?.trim() || route;
+    };
+
+    const goToPoint = (route: string) => {
+      const profileId = getActiveAlias();
+      if (!profileId) return;
+      sessionStorage.setItem(navigationPendingRouteKey(profileId), route);
+      location.assign(`${route}#focus`);
     };
 
     const refresh = async (hideWhileLoading = false) => {
@@ -53,14 +73,34 @@ const { contestStorageId } = Astro.props;
       try {
         await whenNavigationReady(profileId);
         if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
-        const record = await getNavigationRecord(profileId);
+        const record = await getNavigationContestRecord(profileId, contestStorageId);
         if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
-        if (!record || !canResumeReading(record.current, contestStorageId)) {
+        // O CTA do concurso exige ponto retomável de assunto, nunca apenas o cursor.
+        const newest = newestContestPoint(record?.current);
+        if (!newest) {
           hide();
           return;
         }
         root.hidden = false;
         button.disabled = false;
+        primaryRoute = newest.route;
+        list.replaceChildren();
+        const others = Object.entries(record!.current.points)
+          .filter(([subjectStorageId]) => subjectStorageId !== newest.context.subjectStorageId)
+          .sort(([, a], [, b]) => (a.updatedAt < b.updatedAt ? 1 : -1));
+        for (const [, point] of others) {
+          const item = document.createElement('li');
+          const link = document.createElement('a');
+          const percent = Math.round((point.readingPosition?.progress ?? 0) * 100);
+          link.href = `${point.route}#focus`;
+          link.textContent = `Retomar ${titleForRoute(point.route)} (${percent}%)`;
+          link.addEventListener('click', () => {
+            sessionStorage.setItem(navigationPendingRouteKey(profileId), point.route);
+          });
+          item.append(link);
+          list.append(item);
+        }
+        list.hidden = others.length === 0;
       } catch {
         hide();
       }
@@ -88,17 +128,13 @@ const { contestStorageId } = Astro.props;
           await refresh();
           return;
         }
-        const record = await getNavigationRecord(profileId);
-        if (
-          getActiveAlias() !== profileId ||
-          !record ||
-          !canResumeReading(record.current, contestStorageId)
-        ) {
+        const record = await getNavigationContestRecord(profileId, contestStorageId);
+        const newest = newestContestPoint(record?.current);
+        if (getActiveAlias() !== profileId || !newest) {
           await refresh();
           return;
         }
-        sessionStorage.setItem(navigationPendingRouteKey(profileId), record.current.route);
-        location.assign(resumeReadingDestination(record.current));
+        goToPoint(newest.route);
       } catch {
         await refresh();
       }

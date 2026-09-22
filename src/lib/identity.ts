@@ -71,8 +71,10 @@ export function buildReadingPreferencesDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--leitura`);
 }
 
-export function buildNavigationDocumentId(alias: string): string {
-  return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--navegacao`);
+export function buildNavigationContestDocumentId(alias: string, contestStorageId: string): string {
+  const user = validateUserAlias(alias);
+  const contest = validateSegment(contestStorageId, CONTEST_MAX_LENGTH, 'ID de armazenamento do concurso');
+  return assertRemoteIdLength(`concursos--${user}--navegacao--${contest}`);
 }
 
 const SIMULADO_ID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;

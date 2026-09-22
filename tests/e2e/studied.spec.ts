@@ -8,7 +8,8 @@ const readingUrl = `/concursos/${contest}/${subjectSlug}/#focus`;
 const contestUrl = `/concursos/${contest}/`;
 const subjectId = 'tcema-2026-adm--leitura-tipos-generos';
 const estudadosDocId = `concursos--${alias}--estudados`;
-const navigationDocId = `concursos--${alias}--navegacao`;
+const navigationShardId = `concursos--${alias}--navegacao--tcema-2026-adm`;
+const studiedSubjectStorageId = 'leitura-tipos-generos';
 
 async function installFullscreenMock(page: import('@playwright/test').Page): Promise<void> {
   await page.addInitScript(() => {
@@ -80,14 +81,24 @@ async function readLocalReadingPosition(page: import('@playwright/test').Page): 
   return page.evaluate(
     (profileId) =>
       new Promise<unknown>((resolve, reject) => {
-        const request = indexedDB.open('concursos-navigation', 1);
+        const request = indexedDB.open('concursos-navigation', 2);
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const database = request.result;
-          const get = database.transaction('navigation').objectStore('navigation').get(profileId);
+          if (!database.objectStoreNames.contains('navigationContests')) {
+            database.close();
+            resolve(null);
+            return;
+          }
+          const get = database
+            .transaction('navigationContests')
+            .objectStore('navigationContests')
+            .get(`${profileId}::tcema-2026-adm`);
           get.onerror = () => reject(get.error);
           get.onsuccess = () => {
-            resolve(get.result?.current?.readingPosition ?? null);
+            resolve(
+              get.result?.current?.points?.['leitura-tipos-generos']?.readingPosition ?? null,
+            );
             database.close();
           };
         };
@@ -204,8 +215,9 @@ test('clears the reading point while studied and allows a new point after undo',
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
-          ?.readingPosition ?? null,
+        (kvStore.get(navigationShardId)?.json as
+          | { points?: Record<string, { readingPosition?: unknown } | null> }
+          | undefined)?.points?.[studiedSubjectStorageId]?.readingPosition ?? null,
       { timeout: 30_000 },
     )
     .not.toBeNull();
@@ -216,11 +228,12 @@ test('clears the reading point while studied and allows a new point after undo',
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
-          ?.readingPosition,
+        (kvStore.get(navigationShardId)?.json as
+          | { points?: Record<string, { readingPosition?: unknown } | null> }
+          | undefined)?.points?.[studiedSubjectStorageId],
       { timeout: 30_000 },
     )
-    .toBeNull();
+    .toBeUndefined();
 
   await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.7));
   await page.waitForTimeout(1_200);
@@ -238,9 +251,9 @@ test('clears the reading point while studied and allows a new point after undo',
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocId)?.json as
-          | { readingPosition?: { progress?: number } | null }
-          | undefined)?.readingPosition?.progress ?? 0,
+        (kvStore.get(navigationShardId)?.json as
+          | { points?: Record<string, { readingPosition?: { progress?: number } | null }> }
+          | undefined)?.points?.[studiedSubjectStorageId]?.readingPosition?.progress ?? 0,
       { timeout: 30_000 },
     )
     .toBeGreaterThan(0);
@@ -262,9 +275,9 @@ test('clears the reading point while studied and allows a new point after undo',
   await page.waitForTimeout(1_200);
   expect(await readLocalReadingPosition(page)).not.toBeNull();
   expect(
-    (kvStore.get(navigationDocId)?.json as
-      | { readingPosition?: { progress?: number } | null }
-      | undefined)?.readingPosition?.progress ?? 0,
+    (kvStore.get(navigationShardId)?.json as
+      | { points?: Record<string, { readingPosition?: { progress?: number } | null }> }
+      | undefined)?.points?.[studiedSubjectStorageId]?.readingPosition?.progress ?? 0,
   ).toBeGreaterThan(0);
 });
 
@@ -276,8 +289,9 @@ test('keeps the reading point cleared across concurrent tabs', async ({ page, co
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
-          ?.readingPosition ?? null,
+        (kvStore.get(navigationShardId)?.json as
+          | { points?: Record<string, { readingPosition?: unknown } | null> }
+          | undefined)?.points?.[studiedSubjectStorageId]?.readingPosition ?? null,
       { timeout: 30_000 },
     )
     .not.toBeNull();
@@ -288,11 +302,12 @@ test('keeps the reading point cleared across concurrent tabs', async ({ page, co
   await expect
     .poll(
       () =>
-        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
-          ?.readingPosition,
+        (kvStore.get(navigationShardId)?.json as
+          | { points?: Record<string, { readingPosition?: unknown } | null> }
+          | undefined)?.points?.[studiedSubjectStorageId],
       { timeout: 30_000 },
     )
-    .toBeNull();
+    .toBeUndefined();
   await otherPage.waitForTimeout(1_200);
   expect(await readLocalReadingPosition(otherPage)).toBeNull();
   await otherPage.close();
