@@ -14,8 +14,8 @@
 | --- | --- |
 | sujeito simples | verbo com o núcleo |
 | sujeito composto anteposto | plural |
-| sujeito composto posposto | plural ou atração |
-| sujeito oracional | singular |
+| sujeito composto posposto | plural ou <abbr title="Concordância com o núcleo mais próximo em construção que a admite">atração</abbr> |
+| <abbr title="Oração inteira que exerce a função de sujeito">sujeito oracional</abbr> | singular |
 | infinitivos como unidade | singular |
 | infinitivos como ações distintas | plural |
 
@@ -39,15 +39,17 @@
 - Sinônimos e gradação podem formar unidade no singular.
 - Enumeração resumida: “Prazos, custos, riscos, **tudo foi** examinado.”
 
-## 5. Partitivas e quantidades
+## 5. <abbr title="Expressões como a maioria de que destacam parte de um conjunto">Partitivas</abbr> e quantidades
 
 - maioria de + plural → singular ou plural.
 - coletivo simples → singular.
 - **cada um dos**, **nenhum dos**, **qualquer um dos** → singular.
-- mais de um → singular; reciprocidade ou repetição pode levar ao plural.
+- mais de um → singular; <abbr title="Ação de um participante sobre outro e vice-versa">reciprocidade</abbr> ou repetição pode levar ao plural.
 - fração → tendência de concordância com o numerador.
 - percentual sem especificador → verbo com o número.
 - percentual com especificador → examine percentual, nome e foco.
+- percentual posposto ao verbo → no padrão editorial adotado no capítulo, concorde com o número: `Foram reservados 30% da verba`.
+- percentual determinado → o número controla: `Esses 30% da verba foram reservados`.
 - um milhão → singular; dois milhões → plural.
 - um total de cem processos → singular com *total*.
 - cem processos → plural.
@@ -67,7 +69,7 @@
 - título de obra pode ser tomado como unidade: “Memórias Póstumas... é uma obra”.
 - não decida apenas pela terminação gráfica.
 
-## 8. Impessoais
+## 8. <abbr title="Verbos usados em oração sem sujeito naquele emprego">Impessoais</abbr>
 
 - **haver** = existir/ocorrer/tempo → singular.
 - locução: “deve haver”, “pode haver”.
@@ -75,6 +77,9 @@
 - **existir, ocorrer, surgir** → concordam com o sujeito.
 - **haja vista** → invariável no padrão editorial.
 - hora/distância com **ser** → acompanha a expressão numérica.
+- demonstrativo neutro + predicativo plural → plural frequente: `Isso são dificuldades`.
+- pronome pessoal orienta **ser**: `Os responsáveis somos nós`.
+- quantidade tomada como bloco → singular: `Dez anos é muito tempo`.
 
 ## 9. Construções com `se`
 
@@ -95,15 +100,19 @@
 - “Aos gestores cabe revisar” → sujeito de *cabe* é a oração.
 - “Antes de os gestores revisarem” → sujeito expresso do infinitivo.
 
-## 11. Cadeias passivas
+## 11. Cadeias passivas e particípio
 
-> auxiliar + ser + particípio/predicativo
+> auxiliar + ser + particípio/<abbr title="Característica atribuída ao sujeito ou ao objeto por meio do verbo">predicativo</abbr>
 
 - “A ata e o parecer **tinham sido aprovados**.”
 - “A ata e a certidão foram consideradas **válidas**.”
 - Verifique auxiliar, particípio e predicativo separadamente.
+- `ter/haver + particípio` em tempo composto → particípio invariável: `tinham revisado`.
+- passiva com `ser + particípio` → particípio concorda: `foram consideradas válidas`.
 
 ## 12. Concordância nominal
+
+- <abbr title="Característica atribuída ao complemento verbal">predicativo do objeto</abbr> concorda com o objeto: `considerou válidas as certidões`.
 
 - um nome → determinantes e adjetivos com o nome.
 - adjetivo anteposto → proximidade, em regra.
@@ -131,6 +140,10 @@
 | dado/visto participiais | variáveis |
 | salvo/exceto preposicionais | invariáveis |
 | alerta | depende do emprego |
+| todo = inteiro/reforço | varia: `parede toda pintada` |
+| conforme = de acordo | adjetivo varia: `declarações conformes`; conjunção não varia |
+| caro/barato | característica varia; com verbo de preço, advérbio invariável |
+| qualquer | plural `quaisquer` |
 | leso | varia no composto |
 
 ## 14. `Possível` e expressões predicativas

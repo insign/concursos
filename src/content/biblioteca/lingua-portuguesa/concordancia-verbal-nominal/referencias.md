@@ -1,10 +1,10 @@
 # Referências — Concordância verbal e nominal
 
-Fontes consultadas em **5 de setembro de 2026**. Os capítulos gramaticais sustentam as relações de concordância; os manuais institucionais também contêm preferências editoriais, identificadas como tais no conteúdo. As consultas assinadas documentam variantes e seus limites, sem substituir o recorte brasileiro do estudo.
+Fontes revalidadas em **22 de setembro de 2026**. Os capítulos gramaticais sustentam as relações de concordância; os manuais institucionais também contêm preferências editoriais, identificadas como tais no conteúdo. As consultas assinadas documentam variantes e seus limites, sem substituir o recorte brasileiro do estudo.
 
 ## Programa dos dois cargos
 
-- **Tribunal de Contas do Estado do Maranhão — <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>.** [Edital de abertura de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Seção 14.2.3, Conhecimentos Gerais, Língua Portuguesa, item 5.5; páginas 42–43 do arquivo. Concordância verbal e nominal no programa comum, aplicável a Analista Administração e Técnico-Administrativa.
+- **Tribunal de Contas do Estado do Maranhão — <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>.** [Edital nº 1, de 6 de julho de 2026, versão consolidada após o Edital nº 2](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/FB3B3652560CBE6DEDD864B83A61FE5A9D2A7C935588EAB7E944F0EABD87ECFC.pdf). Seção 14.2.3, Conhecimentos Gerais, Língua Portuguesa, item 5.5; página 43 do arquivo. Concordância verbal e nominal no programa comum, aplicável a Analista Administração e Técnico-Administrativa. Revalidado em 22 set. 2026.
 
 ## Estrutura da oração, concordância e formas verbais
 
@@ -24,6 +24,12 @@ Fontes consultadas em **5 de setembro de 2026**. Os capítulos gramaticais suste
 - **Maria Regina Rocha. Ciberdúvidas da Língua Portuguesa.** [Um milhão e meio de reais foi gasto](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/um-milhao-e-meio-de-reais-foi-gasto/12163). Concordância singular com a quantidade e registro de plural com o nome especificador; base do contraste com quantidade decimal.
 - **Wilton Fonseca. Ciberdúvidas da Língua Portuguesa.** [Zero: com ou sem plural?](https://ciberduvidas.iscte-iul.pt/artigos/rubricas/idioma/zero-com-ou-sem-plural/2837), 28 de novembro de 2013. Variação no nome acompanhado de *zero*, com observações específicas sobre referências brasileiras.
 - **Carla Marques. Ciberdúvidas da Língua Portuguesa.** [A concordância com nem um nem outro](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-concordancia-com-nem-um-nem-outro/35536), 4 de novembro de 2019. Singular normativo na construção com nome expresso e oscilação documentada no emprego pronominal.
+
+## Contraprova em provas oficiais
+
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>). Câmara dos Deputados — Consultor Legislativo, Área XXII, Tipo 1, 2023.** Questões 16 e 19: controlador da concordância verbal e concordância do predicativo do objeto. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/area-xxii-t1-manha.docx.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/manhacamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-manha.pdf). Acesso em: 22 set. 2026.
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>). Câmara dos Deputados — Analista Legislativo, Informática Legislativa, Tipo 1, 2023.** Questão 12: contraste entre `meio`, `todo`, `anexo` e a construção `o mais ... possível`. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/cns103-analista-legislativo-informatica-legislativacns103-tipo-1.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf). Acesso em: 22 set. 2026.
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>). Secretaria de Estado da Fazenda do Espírito Santo — Auditor Fiscal da Receita Estadual, Prova 2, Tipo 1, 2021.** Questão 10: percentuais, partitiva e concordância com `um milhão`. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/sefaz-es-auditor-fiscal-da-receita-estadual-p2-af02-tipo-1.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/sefazes2021_gabarito_definitivo.pdf). Acesso em: 22 set. 2026.
 
 ## Função das palavras e expressões particulares
 
