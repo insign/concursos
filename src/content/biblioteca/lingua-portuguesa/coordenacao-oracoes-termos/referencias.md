@@ -2,7 +2,7 @@
 
 ## Recorte e atualização
 
-Fontes eletrônicas consultadas em 5 de setembro de 2026. O recorte é o item 5.2 de Língua Portuguesa dos conhecimentos gerais, comum aos cargos de Analista de Administração e Técnico-Administrativa desta campanha. A data registra a consulta das fontes, não uma mudança da gramática. Os exemplos do capítulo são hipotéticos; classificações tradicionais e análises descritivas são distinguidas quando divergem.
+Fontes eletrônicas revalidadas em 22 de setembro de 2026. O recorte é o item 5.2 de Língua Portuguesa dos conhecimentos gerais, comum aos cargos de Analista de Administração e Técnico-Administrativa desta campanha. A data registra a consulta das fontes, não uma mudança da gramática. Os exemplos do capítulo são hipotéticos; classificações tradicionais e análises descritivas são distinguidas quando divergem.
 
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. **Edital número 1 do Tribunal de Contas do Estado do Maranhão, de 6 de julho de 2026**, versão consolidada com a retificação de 29 de julho de 2026. Subitem 14.2.3, Língua Portuguesa, item 5.2; página 43. Delimita as relações de coordenação entre orações e entre termos da oração. [Documento oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/FB3B3652560CBE6DEDD864B83A61FE5A9D2A7C935588EAB7E944F0EABD87ECFC.pdf).
 
@@ -25,6 +25,9 @@ Fontes eletrônicas consultadas em 5 de setembro de 2026. O recorte é o item 5.
 - FUNDAÇÃO GETULIO VARGAS. **Tribunal de Contas do Estado da Bahia — Agente Público**, Tipo 3, Amarela, 2013. Questões 1 e 3: contraste com *mas também* e valor aditivo de *assim como* e *bem como*. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/tce_2013_ns_agente_publico_tipo_03.pdf) e [gabarito definitivo, Tipo 3](https://conhecimento.fgv.br/sites/default/files/concursos/tceba13_agente_gabarito_definitivo.pdf).
 
 Esses documentos sustentam os pontos indicados do capítulo. Não constituem confirmação em bloco das atribuições de origem registradas no banco de questões.
+
+- FUNDAÇÃO GETULIO VARGAS. **Assembleia Legislativa do Estado do Maranhão — Assistente Legislativo Administrativo, Criador e Desenvolvedor de Web e Plataformas Digitais, Tipo 2, 2023**. Questão 2: emprego adversativo contextual de `e`. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/cnm201-assistente-legislativo-administrativo-criador-e-desenvolvedor-de-web-e-plataformas-digitaiscnm201-tipo-2.pdf) e [gabarito definitivo retificado, Tipo 2, questão 2 = E](https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf). Acesso em: 22 set. 2026.
+- FUNDAÇÃO GETULIO VARGAS. **Companhia de Pesquisa de Recursos Minerais — Analista em Geociências, Letras, Tipo 1, 2025**. Questão 47: valor aditivo da correlação `não só... mas também`. [Caderno oficial](https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-letras-cns02e23-tipo-1.pdf) e [gabarito definitivo, questão 47 = D](https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf). Acesso em: 22 set. 2026.
 
 ## Bibliografia de aprofundamento
 

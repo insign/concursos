@@ -6,7 +6,7 @@
 2. Descubra exatamente quais unidades o conector liga.
 3. Verifique se elas ocupam o mesmo nível sintático.
 4. Classifique a relação contextual, não apenas a palavra.
-5. Confira escopo da negação, paralelismo e pontuação.
+5. Confira <abbr title="Alcance de uma expressão sobre os membros ligados">escopo</abbr> da negação, paralelismo e pontuação.
 
 ## Coordenação de termos × coordenação de orações
 
@@ -33,7 +33,7 @@ Os membros coordenados devem ser comparáveis em:
 
 | Tipo | Núcleo de sentido | Conectores frequentes |
 | --- | --- | --- |
-| aditiva | soma/continuidade | e, nem, bem como, não só... mas também |
+| aditiva | soma/continuidade | e, nem, bem como, assim como, não só... mas também |
 | adversativa | contraste/restrição | mas, porém, contudo, todavia, entretanto |
 | alternativa | escolha/alternância | ou, ora... ora, quer... quer, seja... seja |
 | conclusiva | inferência | logo, portanto, por conseguinte, pois deslocado |
@@ -55,7 +55,8 @@ Trocar por *mas* explicita contraste e pode alterar o foco.
 
 - **não revisou nem publicou** — ambos negados;
 - **não revisou e publicou** — tende a negar só o primeiro;
-- **não só revisou, mas também publicou** — os dois fatos são afirmados.
+- **não só revisou, mas também publicou** — correlação aditiva; os dois fatos são afirmados.
+- **mas também**, isolado de uma correlação compatível, não vira rótulo automático de adição.
 
 ## Correlações
 
@@ -123,7 +124,7 @@ Teste: explica o fato ou justifica a fala/ordem?
 
 Mudam ritmo e ênfase.
 
-## Paralelismo
+## <abbr title="Correspondência de estrutura, função e sentido entre membros coordenados">Paralelismo</abbr>
 
 Cheque:
 
@@ -142,6 +143,13 @@ Cheque:
 - **A analista revisou o relatório; o auditor, a planilha.**
 
 A vírgula marca a omissão de *revisou*.
+
+### Antecipação com retomada × anacoluto
+
+- **Esses processos, precisamos revisá-los.** — admite análise de objeto direto pleonástico: o termo antecipado é retomado por `-los`.
+- **Esses processos, a equipe precisa de mais tempo.** — <abbr title="Ruptura em que um termo inicial fica sem função sintática na construção seguinte">anacoluto</abbr>: o tópico inicial fica sem função na oração que segue.
+
+**Não chame toda antecipação com vírgula de anacoluto.**
 
 ## Coordenação coletiva, distributiva e ambígua
 
@@ -162,7 +170,7 @@ A vírgula marca a omissão de *revisou*.
 
 - conector não determina sozinho a classificação;
 - independência coordenativa é sobretudo sintática;
-- `mas também` pode ser aditivo;
+- `não só... mas também` é aditivo; `mas também` isolado exige examinar a construção;
 - `e` pode ter valor adversativo ou consecutivo;
 - `ou` não é sempre exclusivo;
 - `pois` não é sempre explicativo;

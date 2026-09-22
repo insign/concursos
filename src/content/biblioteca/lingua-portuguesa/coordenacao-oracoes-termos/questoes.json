@@ -1594,33 +1594,33 @@
     },
     {
       "id": "q3272",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Em 'Esses processos, precisamos revisá-los hoje', o termo inicial exemplifica",
+      "prompt": "Em 'Esses processos, precisamos revisá-los hoje', a análise que evita classificar automaticamente a antecipação como anacoluto é:",
       "options": [
         {
           "id": "A",
-          "text": "oração coordenada assindética."
+          "text": "'Esses processos' pode ser analisado como objeto direto pleonástico, antecipado e retomado por '-los'."
         },
         {
           "id": "B",
-          "text": "sujeito separado indevidamente do predicado."
+          "text": "'Esses processos' é necessariamente sujeito de 'precisamos'."
         },
         {
           "id": "C",
-          "text": "zeugma do verbo 'precisamos'."
+          "text": "A vírgula indica zeugma do verbo 'revisar'."
         },
         {
           "id": "D",
-          "text": "anacoluto com tópico retomado na oração."
+          "text": "O pronome '-los' não mantém relação sintática com o termo antecipado."
         },
         {
           "id": "E",
-          "text": "A conjunção 'e' exprime somente soma neutra e jamais recebe valor contextual mais específico."
+          "text": "Toda antecipação de complemento seguida de pronome é erro de pontuação."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "O tópico inicial fica solto da construção e é retomado pelo pronome 'los'. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "A",
+      "explanation": "O termo antecipado e o pronome '-los' exprimem o mesmo complemento de 'revisar', permitindo a análise tradicional de objeto direto pleonástico. A retomada impede tratar a construção automaticamente como ruptura sintática. Fonte: questão autoral baseada no conteúdo e em José Neves Henriques, 'A vírgula, outra vez', Ciberdúvidas da Língua Portuguesa."
     },
     {
       "id": "q3273",
@@ -2779,18 +2779,33 @@
     },
     {
       "id": "q3344",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em 'Esses processos, precisamos revisá-los hoje', o segmento inicial exemplifica:",
+      "prompt": "Em 'Esses processos, a equipe precisa de mais tempo', o segmento inicial exemplifica:",
       "options": [
-        {"id": "A", "text": "anacoluto com retomada pronominal"},
-        {"id": "B", "text": "sujeito separado indevidamente do predicado"},
-        {"id": "C", "text": "oração conclusiva"},
-        {"id": "D", "text": "zeugma verbal"},
-        {"id": "E", "text": "coordenação alternativa"}
+        {
+          "id": "A",
+          "text": "objeto direto pleonástico retomado por pronome."
+        },
+        {
+          "id": "B",
+          "text": "zeugma do verbo 'precisar'."
+        },
+        {
+          "id": "C",
+          "text": "anacoluto, pois o termo inicial fica sem função sintática na construção que segue."
+        },
+        {
+          "id": "D",
+          "text": "oração coordenada assindética."
+        },
+        {
+          "id": "E",
+          "text": "sujeito composto de 'precisa'."
+        }
       ],
-      "correctOptionId": "A",
-      "explanation": "O tópico inicial fica sintaticamente solto e é retomado por 'los'. Fonte: questão inspirada em cobrança Cebraspe, MPE/TO 2024, sobre paralelismo e relações adversativas em períodos extensos."
+      "correctOptionId": "C",
+      "explanation": "Diferentemente da construção com retomada pronominal, aqui 'esses processos' fica solto em relação à oração 'a equipe precisa de mais tempo', caracterizando a ruptura tradicionalmente chamada anacoluto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3345",
