@@ -44,6 +44,7 @@
 - **àquele, àquela, àquilo**: preposição + início do demonstrativo.
 - proposta **a que** me referi: `que` sem artigo.
 - proposta **à qual** me referi: `a qual` com artigo.
+- **a qual unidade?**: `qual` interrogativo; há preposição, mas não artigo → sem crase.
 - pessoa **a quem** entreguei.
 - autora **a cujo texto** aludi: nunca `à cujo`.
 - situação semelhante **à que** enfrentamos = **àquela que**.
@@ -64,6 +65,8 @@
 - Evitar `à medida em que` e `na medida que` no padrão formal adotado.
 
 ## Horas: `há × a × à`
+
+<abbr title="Horário determinado">Hora marcada</abbr> ≠ intervalo decorrido/futuro.
 
 - terminou **há duas horas**: tempo decorrido.
 - terminará daqui **a duas horas**: futuro.
@@ -106,9 +109,11 @@
 
 ## Facultativos
 
-- possessivo feminino: **a sua/à sua proposta**.
+- possessivo feminino + nome expresso: **a sua/à sua proposta**.
+- possessivo com nome omitido: **semelhante à minha** (= à minha proposta); não trate como facultatividade automática.
 - nome próprio feminino: **a Ana/à Ana**.
 - depois de **até**: **até a/até à sala**.
+- Facultatividade = variação real de artigo/preposição; **não** escolha livre do acento.
 - Facultatividade depende da possibilidade real de omitir artigo ou preposição.
 
 ## Casa, terra e topônimos

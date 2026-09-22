@@ -79,7 +79,7 @@
     },
     {
       "id": "q3524",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em qual frase as duas condições básicas para a crase estão presentes?",
       "options": [
@@ -90,7 +90,7 @@
         {"id": "E", "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."}
       ],
       "correctOptionId": "A",
-      "explanation": "'Referir-se' exige 'a' e 'a resolução' admite artigo definido; em A não há preposição, e em C e D não há artigo feminino 'a'. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "'Referir-se' exige 'a' e 'a resolução' admite artigo definido; em B não há preposição, e em C e D não há artigo feminino 'a'. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3525",
@@ -139,7 +139,7 @@
     },
     {
       "id": "q3528",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em qual frase o demonstrativo não recebe acento porque não há preposição anterior?",
       "options": [
@@ -150,7 +150,7 @@
         {"id": "E", "text": "Aquele parecer foi publicado."}
       ],
       "correctOptionId": "E",
-      "explanation": "'Aquele' é sujeito sem preposição em B; nas demais frases, os regentes selecionam 'a', que se contrai com o demonstrativo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "'Aquele' é sujeito sem preposição em E; nas demais frases, os regentes selecionam 'a', que se contrai com o demonstrativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3529",
@@ -199,7 +199,7 @@
     },
     {
       "id": "q3532",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual alternativa apresenta somente locuções femininas tradicionalmente acentuadas?",
       "options": [
@@ -210,7 +210,7 @@
         {"id": "E", "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."}
       ],
       "correctOptionId": "D",
-      "explanation": "As expressões da alternativa B são locuções adverbiais femininas consagradas; as demais contêm masculino, repetição, artigo indefinido ou pronomes sem artigo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As expressões da alternativa D são locuções adverbiais femininas consagradas; as demais contêm masculino, repetição, artigo indefinido ou pronomes sem artigo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3533",
@@ -799,7 +799,7 @@
     },
     {
       "id": "q3572",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual alternativa contém somente locuções prepositivas femininas acentuadas?",
       "options": [
@@ -810,7 +810,7 @@
         {"id": "E", "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."}
       ],
       "correctOptionId": "D",
-      "explanation": "As expressões de B terminam em 'de' e introduzem complemento, funcionando como locuções prepositivas; A é conjuntiva, C é adverbial e D não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As expressões de D terminam em 'de' e introduzem complemento, funcionando como locuções prepositivas; A é conjuntiva, B é adverbial e C não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q3573",
@@ -2224,7 +2224,7 @@
     },
     {
       "id": "q3667",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Assinale a frase em que o emprego do acento grave indicativo da crase é optativo.",
       "options": [
@@ -2235,7 +2235,7 @@
         {"id": "E", "text": "Respondi às perguntas do juiz."}
       ],
       "correctOptionId": "C",
-      "explanation": "Questão original da FGV, Assembleia Legislativa do Estado do Maranhão — Técnico de Gestão Administrativa – Revisor, Tipo 1 (Branca), 2013, questão 47. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_tecnico_de_gestao_administrativa_-_revisao_de_textos_-_tipo_01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_tecnico_gabarito_definitivo.pdf."
+      "explanation": "Questão original da FGV, Assembleia Legislativa do Estado do Maranhão — Técnico de Gestão Administrativa – Revisor, Tipo 1 (Branca), 2013, questão 48. Gabarito definitivo: C. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_tecnico_de_gestao_administrativa_-_revisao_de_textos_-_tipo_01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_tecnico_gabarito_definitivo.pdf."
     },
     {
       "id": "q3668",
