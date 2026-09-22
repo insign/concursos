@@ -1,6 +1,6 @@
 # Referências — Verbo como classe de palavras
 
-Consultas verificadas em **5 de setembro de 2026**. O capítulo trata a norma-padrão brasileira e distingue classificações tradicionais, variantes reconhecidas e recomendações editoriais. A data de consulta não cria um corte normativo nem transforma preferência de manual de redação em proibição gramatical universal.
+Consultas revalidadas em **22 de setembro de 2026**. O capítulo trata a norma-padrão brasileira e distingue classificações tradicionais, variantes reconhecidas e recomendações editoriais. A data de consulta não cria um corte normativo nem transforma preferência de manual de redação em proibição gramatical universal.
 
 ## Programa e nomenclatura
 
@@ -22,3 +22,10 @@ Consultas verificadas em **5 de setembro de 2026**. O capítulo trata a norma-pa
 ## Desenvolvimento do processo e gerúndio
 
 - **Silva, Ana Rosa da.** [Português — Gerúndio e gerundismo](https://educacao.uol.com.br/planos-de-aula/medio/portugues-gerundio-e-gerundismo.htm). Plano de aula autoral, <abbr title="Universo Online">UOL</abbr> Educação, seção “Estratégias”. Apoio didático aos valores de duração, simultaneidade e desenvolvimento, inclusive com referência futura. Não se adota como fato comprovado a hipótese de origem do gerundismo apresentada na seção “Comentário”.
+
+
+## Contraprova oficial
+
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>) CONHECIMENTO.** Secretaria de Estado da Educação, do Esporte e do Lazer do Rio Grande do Norte — Professor de Língua Portuguesa, Tipo 1, 2025. Questões 49 e 58: desinência modo-temporal e distinção entre formas de voz passiva. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf. Acesso em: 22 set. 2026.
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>) CONHECIMENTO.** Ministério Público do Estado do Rio de Janeiro — Técnico do Ministério Público, Área Administrativa, Tipo 3, 2025. Questão 10: passagem da passiva analítica para a pronominal e concordância na locução passiva. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf. Acesso em: 22 set. 2026.
+- **FUNDAÇÃO GETULIO VARGAS (<abbr title="Fundação Getulio Vargas">FGV</abbr>) CONHECIMENTO.** Câmara dos Deputados — Analista Legislativo, Técnica Legislativa, Tipo 3, 2023. Questão 13: concordância e diferentes empregos de `haver`, inclusive em `haver de + infinitivo`. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/cns301-analista-legislativo-tecnica-legislativacns301-tipo-3.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-manha.pdf. Acesso em: 22 set. 2026.

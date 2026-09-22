@@ -66,7 +66,7 @@ Em locução com o mesmo sujeito:
 
 ## Classificações
 
-- Regular: segue o paradigma.
+- Regular: segue o <abbr title="Conjunto das formas flexionadas de um verbo">paradigma</abbr>.
 - Irregular: altera radical ou terminações.
 - Anômalo: alterações profundas, conforme a gramática.
 - Defectivo: paradigma incompleto no uso normativo.
@@ -92,7 +92,7 @@ Classificações podem coexistir.
 | `ter/haver + particípio` | tempo composto |
 | `ser + particípio` | passiva |
 | `estar + gerúndio` | progressividade |
-| `ir + infinitivo` | futuro/iminência |
+| `ir + infinitivo` | futuro/intenção; pode sugerir iminência |
 | `dever + infinitivo` | obrigação/probabilidade |
 | `poder + infinitivo` | possibilidade/permissão/capacidade |
 | `haver de + infinitivo` | futuro/modalidade |
@@ -102,9 +102,10 @@ Nem toda sequência de verbos é locução.
 
 ## Vozes
 
-- Ativa: sujeito pratica.
+- Ativa: estrutura não passiva; o sujeito pode não ser agente — `A candidata recebeu a notícia.`
 - Passiva analítica: `ser + particípio`.
 - Passiva sintética: <abbr title="verbo transitivo direto">VTD</abbr>/<abbr title="verbo transitivo direto e indireto">VTDI</abbr> + `se`.
+- Em locução passiva sintética, o auxiliar concorda com o sujeito: `têm-se publicado relatórios` ↔ `relatórios têm sido publicados`.
 - Reflexiva: sujeito age sobre si.
 - Recíproca: sujeitos agem uns sobre os outros.
 
@@ -149,6 +150,7 @@ Passiva exige objeto direto na ativa.
 | Construção | Regra |
 | --- | --- |
 | `há problemas` | `haver` impessoal |
+| `há de haver alternativas` | locução impessoal: primeiro `haver` auxiliar; segundo, existencial |
 | `deve haver problemas` | auxiliar no singular |
 | `existem problemas` | pessoal; concorda |
 | `ocorreram problemas` | pessoal; concorda |
