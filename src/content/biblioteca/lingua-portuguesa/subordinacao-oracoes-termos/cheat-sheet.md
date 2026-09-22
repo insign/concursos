@@ -4,7 +4,7 @@
 
 **Subordinação = dependência sintática.** Pergunte sempre:
 
-1. qual é o núcleo/regente?
+1. qual é o núcleo/<abbr title="Termo que exige ou seleciona um complemento">regente</abbr>?
 2. qual função a unidade dependente exerce?
 3. ela completa, modifica ou circunstancia?
 
@@ -47,6 +47,8 @@
 - objetiva indireta → regente **verbal**;
 - completiva nominal → regente **nominal**.
 
+**`de que` não decide:** `duvida de que...` = objetiva indireta; `dúvida de que...` = completiva nominal. Localize o regente.
+
 - `que` integrante → não retoma antecedente;
 - `que` relativo → retoma antecedente e exerce função interna.
 
@@ -66,7 +68,7 @@
 
 - `que`: geral;
 - `quem`: pessoa; aceita preposição exigida;
-- `o qual`: reduz ambiguidade;
+- `o qual`: pode reduzir ambiguidade, mas não resolve sozinho quando mais de um antecedente tem o mesmo gênero e número;
 - `cujo`: posse; concorda com o possuído; **sem artigo depois**;
 - `onde`: lugar.
 
@@ -101,6 +103,8 @@
 ## Desenvolvidas × reduzidas
 
 - desenvolvida: verbo flexionado + conectivo, em geral;
+- `É preciso estar atento.` → `estar atento` é substantiva subjetiva reduzida de infinitivo;
+- infinitivo pessoal continua reduzido: `É importante os servidores revisarem os dados`;
 - reduzida de infinitivo: **Para evitar erros**, revise;
 - reduzida de gerúndio: **Havendo recurso**, reexamine;
 - reduzida de particípio: **Terminada a sessão**, saíram.
@@ -144,9 +148,10 @@ Analise **de dentro para fora**.
 - preposição ≠ complemento nominal automático;
 - `que` ≠ conjunção integrante automática;
 - `se` ≠ condição automática;
-- vírgula em adjetiva pode mudar alcance;
+- vírgula em adjetiva pode mudar alcance: restritiva seleciona; explicativa comenta referente já identificado;
 - verbo elíptico pode formar comparativa;
 - forma reduzida não fixa o valor semântico;
+- `ao + infinitivo` não é automaticamente temporal: `Ao persistirem os sintomas...` pode expressar condição (`se persistirem`).
 - causa ≠ explicação;
 - consequência ≠ conclusão;
 - concessão ≠ adversidade.
