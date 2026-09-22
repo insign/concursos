@@ -6,9 +6,9 @@ Pontuação organiza:
 
 - sintaxe;
 - relações entre segmentos;
-- escopo;
+- <abbr title="Alcance de uma expressão sobre o trecho afetado">escopo</abbr>;
 - foco;
-- pressupostos;
+- <abbr title="Informações tratadas como dadas pela formulação">pressupostos</abbr>;
 - ritmo e destaque.
 
 Pausa oral, isoladamente, não cria regra.
@@ -34,7 +34,7 @@ Facultativo ≠ semanticamente neutro.
 
 ## Frase-base
 
-1. retire o inciso;
+1. retire o <abbr title="Trecho intercalado que interrompe a frase-base">inciso</abbr>;
 2. reconstrua a oração;
 3. identifique a função;
 4. confira abertura e fechamento.
@@ -68,6 +68,7 @@ Errado:
 ## Adjunto adverbial
 
 - anteposto extenso: vírgula normalmente exigida;
+- enquadrador da afirmação: `Em geral, os relatórios chegam completos.`;
 - curto anteposto: frequentemente facultativa;
 - intercalado: par de sinais;
 - posposto integrado: geralmente sem isolamento.
@@ -80,6 +81,12 @@ Errado:
 > Uns defendiam a revisão; outros, a manutenção.
 
 A vírgula marca a omissão de `defendiam`.
+
+## `Mas` adversativo
+
+- vírgula antes: `O texto estava correto, mas precisava de concisão.`;
+- não ponha vírgula automaticamente depois: `mas precisava`;
+- se houver inciso: `mas, segundo o revisor, precisava`.
 
 ## Coordenação com `e`
 
@@ -116,6 +123,8 @@ Examine:
 > Demonstrou que houve falha.  
 > Demonstrou que, segundo a auditoria, houve falha.
 
+**Antecedente + relativa restritiva:** preserve a ligação. Em `o manjar que lhe fora servido`, intercalar `lenta e delicadamente` entre `manjar` e `que` pode romper ou deslocar a relação.
+
 ## Restritiva × explicativa
 
 > Os servidores que concluíram receberam certificado.  
@@ -130,7 +139,7 @@ Retirar vírgulas pode manter a gramática e alterar o sentido.
 
 - anteposta: normalmente isolada;
 - intercalada: par de sinais;
-- posposta: pode permanecer integrada;
+- posposta: pode permanecer integrada, especialmente quando completa circunstância estreitamente ligada ao predicado (`revisou para que não houvesse falhas`);
 - reduzida anteposta: normalmente isolada.
 
 > Quando o prazo terminar, publicaremos.  
@@ -271,7 +280,7 @@ Em citação:
 
 1. reconstrua a frase-base;
 2. identifique sujeito, verbo, complementos e incisos;
-3. classifique coordenação ou subordinação;
+3. classifique coordenação ou subordinação e localize o <abbr title="Termo que exige ou seleciona um complemento">regente</abbr>;
 4. determine se o sinal é proibido, obrigatório, facultativo ou editorial;
 5. compare correção e sentido separadamente;
 6. observe escopo, pressuposto e foco;
