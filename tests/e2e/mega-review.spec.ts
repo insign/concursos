@@ -46,13 +46,14 @@ test('links and renders an optional mega review with rich Markdown', async ({ pa
 
   await page.emulateMedia({ media: 'print' });
   await expect(page.locator('.mega-review-actions')).toBeHidden();
-  // Conteúdo real hidratado: a expansão sai como etiqueta abaixo do termo.
+  // Conteúdo real hidratado: a expansão sai inline após o termo, "ID (Indicador de desempenho)".
   const megaAbbreviation = page.locator('abbr[data-abbreviation-popover-trigger]').filter({ hasText: /^ID$/ });
   await expect(megaAbbreviation).toHaveAttribute('data-abbreviation-title', 'Indicador de desempenho');
   const megaPrintLabel = await megaAbbreviation.evaluate((element) =>
     window.getComputedStyle(element, '::after').content,
   );
   expect(megaPrintLabel).toContain('Indicador de desempenho');
+  expect(megaPrintLabel).toContain('(');
   await page.emulateMedia({ media: 'screen' });
 });
 
@@ -72,5 +73,12 @@ test('keeps the mega review readable without JavaScript', async ({ browser }) =>
   await expect(
     page.locator('abbr[title]').filter({ hasText: /^ID$/ }),
   ).toHaveAttribute('title', 'Indicador de desempenho');
+  await page.emulateMedia({ media: 'print' });
+  const noJsPrintLabel = await page.locator('abbr[title]').filter({ hasText: /^ID$/ }).evaluate((element) =>
+    window.getComputedStyle(element, '::after').content,
+  );
+  expect(noJsPrintLabel).toContain('Indicador de desempenho');
+  expect(noJsPrintLabel).toContain('(');
+  expect(noJsPrintLabel).toContain(')');
   await context.close();
 });

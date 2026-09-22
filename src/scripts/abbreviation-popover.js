@@ -119,7 +119,8 @@ if (triggers.length > 0) {
     if (!trigger.hasAttribute('tabindex')) trigger.tabIndex = 0;
     trigger.dataset.abbreviationPopoverTrigger = '';
     // Preserva a expansão para o impresso/PDF: o CSS de print lê
-    // attr(data-abbreviation-title), pois o title é removido abaixo.
+    // attr(data-abbreviation-title) e exibe inline " (significado)",
+    // pois o title é removido abaixo.
     trigger.dataset.abbreviationTitle = title;
     trigger.removeAttribute('title');
 

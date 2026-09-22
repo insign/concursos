@@ -195,9 +195,9 @@ test('works in focus mode and stays out of print', async ({ page }) => {
   await page.emulateMedia({ media: 'print' });
   await expect(tooltip).toBeHidden();
   await expect(abbreviation).toHaveCSS('text-decoration-line', 'none');
-  // Etiqueta Kindle-like: fora do fluxo (não alarga o termo), expansão abaixo.
-  await expect(abbreviation).toHaveCSS('display', 'inline-block');
-  await expect(abbreviation).toHaveCSS('position', 'relative');
+  // Expansão inline: participa do fluxo, "SIGLA (significado)" em itálico.
+  await expect(abbreviation).toHaveCSS('display', 'inline');
+  await expect(abbreviation).toHaveCSS('position', 'static');
   await expect(abbreviation).toHaveAttribute(
     'data-abbreviation-title',
     'Tribunal de Contas do Estado com uma denominação institucional extensa para testar viewports baixos',
@@ -206,13 +206,18 @@ test('works in focus mode and stays out of print', async ({ page }) => {
     window.getComputedStyle(element, '::after').content,
   );
   expect(printLabel).toContain('denominação institucional extensa');
-  expect(printLabel).not.toContain('(');
+  expect(printLabel).toContain('(');
+  expect(printLabel).toContain(')');
   const printLabelPosition = await abbreviation.evaluate((element) =>
     window.getComputedStyle(element, '::after').position,
   );
-  expect(printLabelPosition).toBe('absolute');
-  const printArrowPosition = await abbreviation.evaluate((element) =>
-    window.getComputedStyle(element, '::before').position,
+  expect(printLabelPosition).toBe('static');
+  const printLabelStyle = await abbreviation.evaluate((element) =>
+    window.getComputedStyle(element, '::after').fontStyle,
   );
-  expect(printArrowPosition).toBe('absolute');
+  expect(printLabelStyle).toBe('italic');
+  const printArrowContent = await abbreviation.evaluate((element) =>
+    window.getComputedStyle(element, '::before').content,
+  );
+  expect(printArrowContent).toBe('none');
 });

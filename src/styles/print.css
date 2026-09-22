@@ -79,84 +79,53 @@
     padding-right: 0;
   }
 
-  /* Siglas e microglossário no impresso/PDF: etiqueta compacta abaixo do
-     termo com seta apontando para cima (estilo leitor Kindle). Seta e
-     etiqueta são absolutamente posicionadas e NÃO participam do fluxo: a
-     largura do termo nunca é contaminada pela largura da etiqueta (sem
-     espaços fantasmas ao redor de siglas curtas). O espaço vertical é
-     reservado via padding-bottom fixo (--abbr-reserve) para seta (5pt) +
-     etiqueta de até 2 linhas (21pt = 17.5 texto + 2 padding + 1.5 bordas).
-     Cobre o artigo e o bundle (que vive fora de .reading-surface),
-     com e sem JavaScript: o runtime preserva o title em
+  /* Siglas e microglossário no impresso/PDF: expansão inline logo após o
+     termo — "SIGLA (significado)" — com o parentético em itálico discreto.
+     Participa do fluxo normal (pode quebrar linha em parágrafos, listas,
+     tabelas e bundle). Cobre o artigo e o bundle (que vive fora de
+     .reading-surface), com e sem JavaScript: o runtime preserva o title em
      data-abbreviation-title antes de removê-lo. */
   .reading-surface article abbr[title]:not([title=""]),
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""]),
   .print-bundle-section abbr[title]:not([title=""]),
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""]) {
-    position: relative;
-    display: inline-block;
-    --abbr-reserve: 26pt;
-    padding-bottom: var(--abbr-reserve);
+    display: inline;
+    position: static;
+    padding: 0;
     text-decoration: none;
     cursor: inherit;
-    break-inside: avoid;
-    page-break-inside: avoid;
+    overflow-wrap: anywhere;
   }
 
-  /* Seta apontando para cima, no topo da área reservada. */
+  /* Sem seta no formato inline. */
   .reading-surface article abbr[title]:not([title=""])::before,
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::before,
   .print-bundle-section abbr[title]:not([title=""])::before,
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::before {
-    content: "";
-    position: absolute;
-    top: calc(100% - var(--abbr-reserve));
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 2.5pt solid transparent;
-    border-right: 2.5pt solid transparent;
-    border-bottom: 3pt solid #000;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    content: none;
   }
 
-  /* Etiqueta compacta abaixo da seta (modo sem JavaScript ou HTML estático). */
+  /* Expansão inline a partir do title (HTML estático / sem JavaScript). */
   .reading-surface article abbr[title]:not([title=""])::after,
   .print-bundle-section abbr[title]:not([title=""])::after {
-    content: attr(title);
+    content: " (" attr(title) ")";
   }
 
-  /* Etiqueta compacta abaixo da seta (quando o runtime executou). */
+  /* Expansão inline quando o runtime executou (title movido para o data). */
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after,
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after {
-    content: attr(data-abbreviation-title);
+    content: " (" attr(data-abbreviation-title) ")";
   }
 
   .reading-surface article abbr[title]:not([title=""])::after,
   .reading-surface article abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after,
   .print-bundle-section abbr[title]:not([title=""])::after,
   .print-bundle-section abbr[data-abbreviation-title]:not([data-abbreviation-title=""])::after {
-    position: absolute;
-    top: calc(100% - var(--abbr-reserve) + 5pt);
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-    max-width: 60mm;
-    margin: 0;
-    padding: 1pt 3pt;
-    border: 0.75pt solid #000;
-    border-radius: 2pt;
-    background: #fff;
-    color: #000;
-    font-size: 7pt;
-    font-weight: 500;
-    line-height: 1.25;
-    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #333;
     overflow-wrap: anywhere;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
   }
 
   /* Referências nunca saem no impresso/PDF: bloco oculto na tela de
