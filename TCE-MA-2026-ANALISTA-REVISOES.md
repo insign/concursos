@@ -7,7 +7,7 @@ Concurso: `tce-ma-2026-analista-administracao` / `tcema-2026-adm`.
 
 Esta campanha revisa **cheat sheets (H)** e, ao fim de cada grupo direto, sua **mega revisão (M)**. O objetivo é recuperação rápida, precisão e acerto por minuto de estudo. `conteudo.md` é base comparativa já submetida à campanha pedagógica #755; não é alvo desta campanha.
 
-A **issue undefined** é a única fonte de verdade para `pending/analyzing/done`, reserva, próxima ação e totais. Este arquivo não duplica o checklist e não mantém diário.
+A **issue #784** é a única fonte de verdade para `pending/analyzing/done`, reserva, próxima ação e totais. Este arquivo não duplica o checklist e não mantém diário.
 
 A `main`, `AGENTS.md`, schemas, catálogos, `grupo.json`, resolvedor, vínculos e ADRs definem estrutura, identidades e origens. Pedidos explícitos do usuário prevalecem.
 
