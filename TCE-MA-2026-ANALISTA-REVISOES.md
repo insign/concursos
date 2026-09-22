@@ -70,7 +70,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 
 | M | Caminho do grupo em A | H dependentes | Origem de M | Evidência |
 |---|---|---|---|---|
-| M01 | `G/lingua-portuguesa` | H001–H018 | V: `lingua-portuguesa` | — |
+| M01 | `G/lingua-portuguesa` | H001–H018 | V: `lingua-portuguesa` | [`eb9996a`](https://github.com/insign/concursos/commit/eb9996a16eb36c0d0bd14bbdc442735895cb562c) |
 | M02 | `G/competencias-digitais-informatica-aplicada-setor-publico` | H019–H035 | V: `competencias-digitais-informatica-aplicada-setor-publico` | — |
 | M03 | `G/raciocinio-logico` | H036–H045 | V: `raciocinio-logico` | — |
 | M04 | `G/controle-externo` | H046–H054 | V: `controle-externo` | — |
