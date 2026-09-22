@@ -104,7 +104,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H011 | `pontuacao` | = | V | [`ce39485`](https://github.com/insign/concursos/commit/ce39485fb8d1df2f618df939524b991e94a83be3) |
 | H012 | `concordancia-verbal-nominal` | = | V | [`633d2ed`](https://github.com/insign/concursos/commit/633d2edad8488fea0f52dfec5d18ccffafa6247a) |
 | H013 | `regencia-verbal-nominal` | = | V | [`54024f3`](https://github.com/insign/concursos/commit/54024f3660072e9e4fc89e78cefd8a3b7f3bde44) |
-| H014 | `crase` | = | V | — |
+| H014 | `crase` | = | V | [`40ef056`](https://github.com/insign/concursos/commit/40ef056aea0f5e6b24547dc75012db92b30e6ca2) |
 | H015 | `colocacao-pronominal` | = | V | — |
 | H016 | `significacao-substituicao-lexical` | `significacao-substituicao` | V | — |
 | H017 | `reorganizacao-oracoes-periodos` | = | V | — |
