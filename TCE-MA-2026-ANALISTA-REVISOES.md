@@ -98,7 +98,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H005 | `emprego-tempos-modos-verbais` | = | V | [`399e848`](https://github.com/insign/concursos/commit/399e848e708407dca5660a411798c3a14014e6f9) |
 | H006 | `classes-nominais-de-palavras` | = | V | [`8ff2ba5`](https://github.com/insign/concursos/commit/8ff2ba505f1afe39b353149b36081d589aef9f8e) |
 | H007 | `verbo-como-classe-de-palavras` | = | V | [`695b0f9`](https://github.com/insign/concursos/commit/695b0f999b0f7c36b3c84b63a5c595606f13beb2) |
-| H008 | `classes-invariaveis-de-palavras` | = | V | — |
+| H008 | `classes-invariaveis-de-palavras` | = | V | [`3850cee`](https://github.com/insign/concursos/commit/3850ceecc6e3cdee876788cb4ca30cdc5d0f17c0) |
 | H009 | `coordenacao-oracoes-termos` | = | V | — |
 | H010 | `subordinacao-oracoes-termos` | = | V | — |
 | H011 | `pontuacao` | = | V | — |
