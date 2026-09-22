@@ -7,6 +7,7 @@
 - Regência nominal: o regente é substantivo, adjetivo ou advérbio.
 - A acepção concreta define a transitividade.
 - Nem todo termo preposicionado é complemento; pode ser adjunto.
+- Preposição visível ≠ <abbr title="objeto indireto">OI</abbr> automático: `conhece a si mesmo` tem <abbr title="objeto direto precedido de preposição sem mudar a transitividade do verbo">objeto direto preposicionado</abbr>.
 
 ## Método rápido
 
@@ -48,6 +49,12 @@
 - **responder a** pergunta/pessoa; responder **que**; responder **por** atos.
 - **ir a/para**, **chegar a**, **voltar de/a/para**.
 
+## Preposição regencial × nocional
+
+- **regencial/relacional**: exigida pelo regente — `aspira **ao** cargo`, `oriundo **de** outra unidade`;
+- **nocional**: acrescenta relação de sentido — `trabalhou **com** cuidado`, `viajou **com** a equipe`;
+- o teste é reconstruir o regente e perguntar se a relação permanece exigida, não apenas localizar uma preposição.
+
 ## Dois complementos
 
 | Verbo | Coisa/conteúdo | Pessoa |
@@ -56,9 +63,10 @@
 | cientificar | cientificar alguém **de** algo | pessoa = objeto direto |
 | pagar | pagar a dívida | pagar **ao** credor |
 | perdoar | perdoar a ofensa | perdoar **ao** réu |
+| agradecer | agradecer o auxílio | agradecer **ao** servidor |
 
 - “Informei-**lhe o fato**” / “informei-**o do fato**”.
-- “Paguei-**lhe a dívida**”; “perdoei-**lhe a ofensa**”.
+- “Paguei-**lhe a dívida**”; “perdoei-**lhe a ofensa**”; “agradeci-**lhe o auxílio**”.
 - Não misture esquemas: *informei-lhe do fato*.
 
 ## Construções pronominais
@@ -84,6 +92,8 @@
 
 ## Pronomes oblíquos
 
+**Pessoa não define a função:** `informei o servidor` → `informei-o`; já `informei o resultado ao servidor` → `informei-lhe o resultado`.
+
 | Função | Forma típica | Exemplo |
 | --- | --- | --- |
 | objeto direto | o, a, os, as | aspirou a fumaça → aspirou-a |
@@ -91,6 +101,7 @@
 | pronominal | me, te, se, nos, vos + preposição | lembrou-se do prazo |
 
 - assistir ao filme → assistir **a ele**, não *assistir-lhe* na tradição.
+- preposição antes de relativo conserva a regência: `otimismo **de que** precisamos`; `cargo **a que** aspiramos`.
 - aspirar ao cargo → aspirar **a ele**.
 - informar o servidor do fato → informá-**lo do fato**.
 - informar o fato ao servidor → informar-**lhe o fato**.
@@ -183,7 +194,7 @@ Um único complemento não serve automaticamente a regentes diferentes.
 ## Checklist de prova
 
 1. A acepção mudou?
-2. A preposição é exigida ou circunstancial?
+2. A preposição é exigida pelo regente, apenas nocional ou pertence a objeto direto preposicionado?
 3. O pronome substitui <abbr title="objeto direto">OD</abbr> ou <abbr title="objeto indireto">OI</abbr>?
 4. Há objeto direto para formar passiva?
 5. A preposição foi mantida antes de **que** ou do relativo?
