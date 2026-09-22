@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após a correção pontual de **U026 em PC-F02**, publicada e relida em 21/09/2026: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; a triagem estrutural de PC-F02 e as correções de U035 e U026 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após a inspeção contextual de **U001 em PC-F02**, concluída com publicação e releitura em 21/09/2026: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; os recortes U001 e U026 foram inspecionados e a correção de referências de U035 está documentada na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -57,9 +57,9 @@ Recontagem dos aceites registrados, sem somar macros ou visões: `U001–U158` =
 
 Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos canônicos**. A aceitação de U075 não criou nova visão: sua visão física já existia desde `c1e00edc44afebf5cf73c783ace20fd7a69e1b75`. Neste ponto, 158 visões e 158 unidades aceitas coincidem numericamente, mas continuam sendo dimensões distintas.
 
-A correção de U026 não cria unidade ou tarefa macro adicional e não reabre seus aceites. O restante não concluído de PC-F02 volta a `pending` ao encerrar este ciclo; reservas ativas são controladas exclusivamente no painel da #764. PC-R04 permanece `done`, com **42/42** unidades parciais aceitas.
+As inspeções pontuais de PC-F02 não criam unidade ou tarefa macro adicional e não reabrem aceites. O restante não concluído de PC-F02 fica `pending` ao encerrar este ciclo; reservas ativas são controladas exclusivamente no painel da #764. PC-R04 permanece `done`, com **42/42** unidades parciais aceitas.
 
-**Próxima ação habilitada: PC-F02 — continuar a inspeção editorial dos artefatos ainda não certificados, conforme os limites e evidências abaixo.** Não repetir a publicação de U026 nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
+**Próxima ação habilitada: PC-F02 — inspeção contextual de U002, Tipos e gêneros textuais, e continuidade dos recortes ainda não certificados.** Não repetir as publicações de U001 ou U026 nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
 
 ### Pendências e divergências herdadas
 
@@ -225,7 +225,7 @@ A conferência cobriu a tabela de provas do item 7, os critérios objetivos/disc
 
 ### PC-F02 — triagem documentada e correções pontuais
 
-**Resultado deste ciclo, em 21/09/2026: parcial; PC-F02 permanece `pending`.** A triagem anterior partiu de `ae9d40e369724a3d33e1749bdbe701bd672ee749`. Foram publicadas e relidas duas intervenções próprias: referências de U035 em `2bb073899bfa28b00ef6b77e0211e1e8e674a810` e correção editorial de U026 em `3327d909417c04134b52ff3317fb35a80299734a`. Nenhuma delas autoriza marcar a macro inteira como concluída.
+**Resultado consolidado em 21/09/2026: parcial; PC-F02 permanece `pending`.** A triagem anterior partiu de `ae9d40e369724a3d33e1749bdbe701bd672ee749`. As intervenções confirmadas são: referências de U035 em `2bb073899bfa28b00ef6b77e0211e1e8e674a810`, correção editorial de U026 em `3327d909417c04134b52ff3317fb35a80299734a` e inspeção contextual concluída de U001, com ajuste de Q/referências em `e86513514022eef8e8733a567d25174b1f0dc370`. Nenhuma delas autoriza marcar a macro inteira como concluída.
 
 | Dimensão da triagem | Evidência e alcance | Limite do resultado |
 |---|---|---|
@@ -246,9 +246,15 @@ Em Q, a única alteração material é a explicação de `u026-a13`; o restante 
 
 Referências de U026 foram completadas com fontes primárias técnicas e identificação precisa; a consulta de 21/09/2026 não muda o corte de 13/07/2026. A página de segurança da Wi-Fi Alliance retornou erro de acesso nesta consulta, sem prova de indisponibilidade permanente; foi substituída, para o mecanismo de proteção da conexão sem fio, por documentação oficial acessível da Apple. Não foram importadas listas comerciais de dispositivos. Fontes, proveniência, fronteiras e blobs finais estão nas seções 6 e 8 e no `referencias.md` da unidade.
 
-**Tamanho e intervenção:** C passou de 8.853 para 13.064 bytes; H, de 2.384 para 3.743 bytes. Esses números incluem marcação e não medem diretamente tempo de leitura. O texto visível ganhou as pontes conceituais e a distinção de entrega que faltavam; blocos repetidos de método e pegadinhas foram reunidos. HTML e microdescrições acrescentam ajuda no ponto de uso, separada da explicação central. Não foi feita contagem independente de palavras visíveis e de atributos, portanto não se afirma redução quantitativa de tempo ou de texto. Não houve mudança de infraestrutura, schema, grupo, identidade, rota, corte ou quantidade de unidades.
+**Tamanho e intervenção de U026:** C passou de 8.853 para 13.064 bytes; H, de 2.384 para 3.743 bytes. Esses números incluem marcação e não medem diretamente tempo de leitura. O texto visível ganhou as pontes conceituais e a distinção de entrega que faltavam; blocos repetidos de método e pegadinhas foram reunidos. HTML e microdescrições acrescentam ajuda no ponto de uso, separada da explicação central. Não foi feita contagem independente de palavras visíveis e de atributos, portanto não se afirma redução quantitativa de tempo ou de texto. Não houve mudança de infraestrutura, schema, grupo, identidade, rota, corte ou quantidade de unidades.
 
-**Restante de PC-F02:** falta concluir e registrar a inspeção editorial contextual dos demais artefatos, incluindo referências, Markdown, microglossário, atribuições, gabaritos e suficiência das explicações. A triagem não permite dar aceite por lote aos outros 140 pacotes locais nem aos 17 canônicos. O próximo ciclo deve selecionar um recorte ainda não certificado, preservar a correção publicada de U026 e os aceites existentes, e só encerrar PC-F02 quando seu escopo completo estiver efetivamente inspecionado. Não existe bloqueio de gravação demonstrado nesta retomada: o GitHub voltou a aceitar publicação. A reserva própria deve ser encerrada após a sincronização do painel, sem manter trabalho não executado como atividade de fundo.
+**U001 — inspeção contextual concluída:** conteúdo, revisão rápida, referências e as 36 questões foram lidos integralmente. U002 foi lida como vizinha para preservar a fronteira entre interpretar textos de gêneros variados (item 1) e classificar tipos/gêneros (item 2), sem estender o aceite da inspeção a U002. A aula já organiza o raciocínio por evidência, limites da inferência, implícitos, sentido global, vozes e integração de recursos; os conceitos são ensinados antes de cobrados. H recupera esse conteúdo sem introduzir fundamento novo. Frontmatter, Markdown, microdescrições, exemplos hipotéticos e remissões foram examinados. **C e H foram aceitos sem alteração**, nos blobs registrados na seção 8; crescimento de texto visível, marcação e microdescrições desses dois arquivos: zero.
+
+As 32 questões autorais de U001 tiveram comandos, cinco alternativas, gabarito único e explicações examinados em relação aos textos hipotéticos. As quatro adaptações anteriores foram confrontadas com os cadernos oficiais e gabaritos definitivos: Agência Espacial Brasileira 2025, questões 1 D e 2 A; Aracaju Auditor 2021, questões 1 D e 2 B. A única correção de Q é `q109`: o resumo omitira a referência à época de Bentham exigida por “contemporâneo a ele”. O texto original sustenta a pista temporal e o papel de Caenegem como historiador citado, agora explicitados no resumo e na explicação. **`q109.revision`: 2 → 3**; alternativas, gabarito, ID e `origin` preservados. As outras 35 questões não mudaram. `questionSetRevision` permanece **6**, pois a composição do conjunto não mudou. Não foi necessária resolução separada nem acréscimo de questões.
+
+O commit `e86513514022eef8e8733a567d25174b1f0dc370` altera somente Q e referências locais de U001 e foi relido na `main`. As referências ganharam suporte primário direto para intertextualidade e multimodalidade, identificação da revisão de `q109` e limites de consulta. Os quatro verbetes do glossário universitário foram lidos; identificação/resumos dos dois artigos acadêmicos foram revalidados, sem afirmar nova leitura integral destes. O acesso direto ao artigo de D'Ávila falhou, mas seu registro oficial indexado foi consultado; o gabarito da Agência Espacial Brasileira teve confirmação textual, sem renderização bem-sucedida. Isso não foi ocultado como sucesso visual. As duas provas, o gabarito de Aracaju e o trecho do programa foram conferidos também visualmente. Corte programático mantido em **13/07/2026**; a página dinâmica do concurso não permitiu concluir inexistência de retificações, cuja consolidação final permanece em PC-F03. Não houve nova cópia do doador histórico nem edição canônica/TCE; o crescimento ficou restrito à pista de leitura, sua explicação e à documentação de suporte.
+
+**Restante de PC-F02:** U001 e U026 possuem inspeções contextuais documentadas; permanecem **139 pacotes locais e 17 origens canônicas** sem essa certificação final registrada. A referência corrigida de U035 não constitui inspeção integral do canônico. A triagem não permite aceite por lote de referências, Markdown, microglossário, atribuições, gabaritos ou suficiência das explicações. **Próximo recorte: U002 — Tipos e gêneros textuais.** Preservar as intervenções publicadas e só encerrar PC-F02 após inspecionar seu escopo completo. A reserva própria deve ser encerrada após a sincronização do painel; não há atividade de fundo nem bloqueio de gravação demonstrado neste ciclo.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
@@ -280,7 +286,8 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 
 | Unidades | Informação disponível | Estado recebido / limite da migração |
 |---|---|---|
-| U001–U005; U007–U019 | Língua Portuguesa; parciais | C/H/Q done; títulos, mapeamento integral e proveniência individual não estavam materializados |
+| U001 | Língua Portuguesa; parcial/local; `leitura-interpretacao-tipos-generos` | C/H/Q done; matriz, origem histórica e evidência individual materializadas na inspeção de PC-F02; ver seções 6 e 8 |
+| U002–U005; U007–U019 | Língua Portuguesa; parciais | C/H/Q done; títulos, mapeamento integral e proveniência individual não estavam materializados |
 | U006 | Língua Portuguesa, item 5; `estrutura-morfossintatica-periodo` | C/H/Q done, aceite sem mudança; token PC-E01-U006-20260916-01; caminho/SHA completos não individualizados no registro recebido |
 | U020 | Língua Portuguesa, itens 7/7.1/7.3; `redacao-oficial-linguagem` | C/H/Q done, aceite sem mudança; token PC-E01-U020-20260916-01; sem restauração de campos ausentes |
 | U021 | Língua Portuguesa, itens 7.2/7.4; `expedientes-oficiais-formatos` | C/H/Q done, aceite sem mudança; token PC-E01-U021-20260916-01 |
@@ -311,6 +318,16 @@ O formato completo a manter quando cada linha for trabalhada é: **item/subitem 
 Esses registros são lacunas de documentação, não placeholders de aulas. Os assuntos publicados permanecem na `main`; uma futura reconstrução documental deve verificar arquivos/identidades, programa e evidências, distinguindo informação encontrada de decisão editorial nova. Não reabrir `done` apenas por ausência de `abbr` ou por esta reorganização.
 
 ## 6. Matriz dos recortes explicitamente disponíveis
+
+### Língua Portuguesa — inspeção contextual U001
+
+O item 20.2.2 do Edital nº 1, página 62, exige literalmente: **1 Compreensão e interpretação de textos de gêneros variados.** O item 2, reconhecimento de tipos e gêneros, permanece em U002; a semelhança do slug histórico não funde os recortes.
+
+| Edital | ID / título / recorte | Origem / SHA e classe | Slug / destino / identidade / ordem | Aproveitamento, lacunas e fronteiras | Consumidor / corte / evidência | C | H | Q |
+|---|---|---|---|---|---|---|---|---|
+| 20.2.2, Língua Portuguesa, 1 | U001 — **Leitura, compreensão e interpretação de textos** — informação explícita, inferências e seus limites, implícitos, sentido global, argumentação, vozes, efeitos de linguagem e integração verbal/visual/numérica | **parcial/local**. Doador histórico `src/content/biblioteca/lingua-portuguesa/leitura-interpretacao-tipos-generos/`, commit `6f9c945821bf14568c51801f26c82295df43de46`; C `85dbe7c90266f5adf3044a9bcca06e2564cece49`; H `ad466b8c7fd43232b66a491fe34eebd14783e3ba`; R `ab4d4a48d0dc935b8c1b059ea4000830ba4420fa`; Q `4ed13fafbf53a8821215e297457923b23b3d4240` | `leitura-interpretacao-tipos-generos`; `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/`; `pc-u001`; 1 | Seleção local de 32 autorais + 4 adaptações; 53 questões do doador não importadas, sem excluir nada da biblioteca. C/H preservados após leitura integral; pista temporal de q109 restaurada e referências complementadas. U002 mantém a classificação dos tipos/gêneros. Sem pré-requisito editorial pendente | PC-MA, `pcma-2026-invest`; corte 13/7/2026; inspeção de 21/9/2026; Q/R corrigidos em `e86513514022eef8e8733a567d25174b1f0dc370`; C/H sem mudança, blobs na seção 8 | done | done | done |
+
+Os quatro blobs doadores foram conferidos no commit histórico; não houve nova cópia nem reauditoria integral de seu banco de 89 questões. Os vínculos atuais dos dois cargos TCE, ambos blob `7d2d43adfb11db91d5fc9c62b9c16a7205b948b8`, apontam para esse canônico com ordem 1. O pacote PC-MA é físico e independente, sem `vinculo.json`; seus consumidores não são inferidos dos consumidores do doador. Rota preservada: `/concursos/pc-ma-2026-oficial-investigador/leitura-interpretacao-tipos-generos/`.
 
 ### Geografia do Maranhão — reconciliação U075
 
@@ -775,6 +792,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 
 | Unidade | Commit final de publicação ou main no aceite sem mudança | Questões autorais + anteriores | Referência das anteriores registrada no corpo recebido |
 |---|---|---|---|
+| U001 | `e86513514022eef8e8733a567d25174b1f0dc370` — inspeção contextual de PC-F02 concluída; Q/R ajustados, C/H sem alteração | 32 + 4 | Cebraspe Agência Espacial Brasileira 2025, questões 1 D e 2 A; Aracaju Auditor 2021, questões 1 D e 2 B; quatro adaptações não literais reconferidas em 21/09/2026; q109 passa à revisão 3, conjunto permanece na revisão 6 |
 | U022 | `22b32a62d1723303a83977de1875ad1de9d72822` | 17 + 3 | Telebras/CESPE 2015, itens 102 C, 106 C, 108 E; o relato também menciona PCDF em outra linha de fontes, divergência de atribuição a conferir no pacote |
 | U025 | `a8e5a26179da711ee98087622ef2e916059cae3f` | 16 + 4 | FGV Câmara do Recife 2014, ALEMA 2023, PM-SP 2024; Cebraspe MP-TO 2024 |
 | U026 | `3327d909417c04134b52ff3317fb35a80299734a` — correção pontual de PC-F02; aceites preservados | 16 + 2 | FGV ALEMA 2023, Analista de Suporte de Rede, Tipo 1, questões 31 D e 43 A; prova e gabarito definitivo reconferidos em 21/09/2026; IDs `u026-p01` e `u026-p02` preservados |
@@ -875,12 +893,13 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U157 | `472b3dc39cd0faa71da14d42aacc92ee9066cc11` | 24 + 2 | Cebraspe PC-MA 2018, Delegado, questão 94 D sobre política criminal e redução de condições facilitadoras; CEV/UECE PC-CE 2025, Oficial Investigador, questão 86 — resposta definitiva Política Criminal; adaptações não literais |
 | U158 | `dbb19b0a3a39f5b1a3a41043005fe6e342582767` | 24 + 5 | Cebraspe PC-CE 2025, Delegado, questões 59 C e 66 D sobre teorias sociológicas e escola clássica; Cebraspe DPE-PA 2022, questões 40 E e 37 C sobre labelling e prevenção secundária; Cebraspe PC-GO 2017, questão 18 E sobre prevenção terciária; adaptações não literais |
 
-C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. Todos os conjuntos individualizados foram registrados com `questionSetRevision: 1`; preservar IDs/origin e rever revisões quando houver alteração lógica.
+C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. O registro recebido atribuía `questionSetRevision: 1` aos conjuntos então individualizados. U001, agora documentada individualmente, mantém `questionSetRevision: 6`, com `q005` em revisão 2, `q109` em revisão 3, `q110`–`q112` em revisão 2 e as demais em revisão 1. Preservar IDs/origin e observar as revisões efetivas de cada artefato quando houver alteração lógica.
 
 ### Blobs dos quatro artefatos
 
 | Unidade | C | H | R | Q |
 |---|---|---|---|---|
+| U001 | `07473a916ab5e2b299d62cce98feb6fac45f36ac` | `c75427b21479f88af6b57cbda04ff34f70b25fef` | `a95361908d3993c0fb7a834dfc5b8d06d70aa95c` | `dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6` |
 | U022 | `318358e2fd8ff603c4b81c123ab33991cca1edab` | `4fe0f52cdf32f6c9f5e45de8343327c9dbd265b1` | `4af751fbb8922a85d0672425201072f378857872` | `2a0263eddfcfed3da7598c9e8827827bfa653303` |
 | U025 | `d347cc042833ace0ad886288ea96d665004e6ce7` | `d931fc35d95d69e1fa83ab6453a437e3b2db8a14` | `cef414bb0353969fb9bce35d4045abfed35a0433` | `edab46630128b63802815817181c9c568ed8a51c` |
 | U026 | `4eadb1ca2eef7636e943b3e23b87f97f2256fec7` | `2fab30d6c9a637c10bd3241351911496690da8db` | `857c47e1128fd19235c8598ee333c25d189c076a` | `11775933e7a5d56dce7f935bab692f925b9c2069` |
