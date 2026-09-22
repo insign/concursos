@@ -15,6 +15,7 @@
 
 - Valores frequentes: lugar, tempo, modo, intensidade, afirmação, negação e dúvida.
 - Locução adverbial: `à tarde`, `às pressas`, `de repente`, `com certeza`.
+- Terminação `-mente` não garante modo: `certamente` pode marcar afirmação; `provavelmente`, dúvida.
 
 ### Variável × invariável
 
@@ -24,6 +25,7 @@
 | `bastantes motivos` | `bastante preparadas` |
 | `muitas candidatas` | `estudaram muito` |
 | `poucos recursos` | `trabalharam pouco` |
+| `menos candidatas` | `estudaram menos` |
 
 **Adverbial = invariável.**
 
@@ -35,14 +37,16 @@
 - Liga termos e cria relação contextual: causa, finalidade, origem, direção, companhia, meio, matéria, assunto, oposição, tempo etc.
 - Locuções: `a fim de`, `por causa de`, `em vez de`, `acerca de`, `de acordo com`.
 - Combinação/contração ajudam a reconhecer a preposição: `ao`, `do`, `no`, `pelo`.
+- `para a sala` pode marcar direção/finalidade; `para a equipe, o prazo é curto` introduz ponto de vista.
+- `até a portaria` marca limite; `até a diretora participou` pode ter valor denotativo de inclusão — não classifique só pela forma.
 
 ### Polifuncionais
 
 | Forma | Exemplo | Classe |
 | --- | --- | --- |
 | `segundo` | `segundo candidato` | numeral |
-| `segundo` | `segundo o edital` | preposição acidental |
-| `conforme` | `conforme o edital` | preposição acidental |
+| `segundo` | `segundo o edital` | <abbr title="Palavra de outra classe usada como preposição">preposição acidental</abbr> |
+| `conforme` | `conforme o edital` | <abbr title="Palavra de outra classe usada como preposição">preposição acidental</abbr> |
 | `conforme` | `conforme prevê o edital` | conjunção conformativa |
 
 ## Conjunção
@@ -63,6 +67,8 @@
 | finalidade | `para que`, `a fim de que` |
 | tempo | `quando` |
 
+`e` pode somar, ordenar ou produzir contraste contextual; `ou` pode excluir uma opção ou apenas reunir possibilidades. **A classe permanece conjuntiva, mas o valor nasce do contexto.**
+
 **Detalhamento sintático completo = assuntos 009/010.**
 
 ### Mesma forma, emprego diferente
@@ -71,7 +77,7 @@
 | --- | --- | --- |
 | `pois` | após ordem: explicação | deslocado/após verbo: conclusão |
 | `se` | `não sei se virá` = integrante | `se vier` = condição |
-| `que` | `disse que viria` = conjunção | `texto que chegou` = pronome relativo |
+| `que` | `disse que viria` = <abbr title="Conjunção que introduz oração com função substantiva">conjunção integrante</abbr> | `texto que chegou` = pronome relativo |
 | `quando` | `quando chegou` = conjunção | `quando chegará?` = advérbio interrogativo |
 | `ora` | `ora lê, ora escreve` = alternância | `ora!` = interjeição |
 
@@ -113,4 +119,5 @@
 - advérbio não concorda: `elas estão meio cansadas`;
 - locução é classificada pela função do conjunto;
 - conjunção não implica vírgula automática;
+- `menos`, `e`, `ou`, `até` e palavras em `-mente` exigem leitura contextual, não rótulo automático.
 - não transforme este assunto em coordenação/subordinação completas.
