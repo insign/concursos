@@ -3,147 +3,144 @@
 ## Mapa central
 
 - **Coesão**: marcas linguísticas e elementos recuperáveis que articulam partes do texto.
-- **Coerência**: interpretabilidade global e compatibilidade entre as ideias.
+- **Coerência**: construção de sentido global compatível com contexto e propósito.
 - Coesão **favorece**, mas não garante, coerência.
-- Em reescrita, conferir separadamente: correção, referente, relação de sentido, alcance, coerência e efeito argumentativo.
+- Em reescrita, confira separadamente: **correção, referente, relação de sentido, alcance, coerência e efeito argumentativo**.
 
-## Mecanismos clássicos
+## Mecanismos que a banca mistura
 
 | Mecanismo | Pergunta de prova | Exemplo |
 | --- | --- | --- |
 | Referência | A que termo, fato ou segmento a forma remete? | `O parecer chegou. Ele será lido.` |
 | Substituição | Que unidade recuperável foi ocupada por outra? | `Preciso de uma cópia. Você tem uma?` |
 | Elipse | Que termo foi omitido e pode ser recuperado? | `Ana analisou contratos; Bruno, convênios.` |
-| Conjunção | Qual relação o conector explicita? | `Faltava assinatura; portanto, o ato não valeu.` |
-| Coesão lexical | Como o vocabulário mantém e desenvolve o tópico? | `tribunal` → `Corte` → `ele` |
+| Conjunção | Que relação o conector explicita? | `Faltava assinatura; portanto, reveja o ato.` |
+| Coesão lexical | Como o vocabulário mantém/desenvolve o tópico? | `tribunal` → `Corte` |
 
-## Referenciação
+## Referenciação: acompanhe o objeto de discurso
 
 - **Referente**: entidade, fato, conceito ou segmento a que se remete.
-- **Antecedente**: expressão textual que ajuda a identificar o referente.
+- **Antecedente**: expressão textual que ajuda a localizar o referente.
 - **Cadeia referencial**: introdução → manutenção → recategorização.
-- Antecedente mais próximo não é automaticamente o referente correto.
-- Conferir: sentido, gênero, número, função, contexto e ausência de ambiguidade.
+- O antecedente mais próximo **não vence automaticamente**: combine concordância, papel semântico, predicado, tópico e contexto.
 
 | Tipo | Funcionamento | Exemplo |
 | --- | --- | --- |
-| Anáfora direta | Retoma o mesmo referente. | `O ato foi publicado. Ele vigora.` |
-| Anáfora indireta | Ativa referente associado a uma <abbr title="elemento anterior que ativa um referente associado">âncora</abbr>. | `Entrou no prédio. A recepção estava vazia.` |
-| Catáfora | Antecipa conteúdo posterior. | `Isto importa: revisar o contrato.` |
-| Exófora | Depende da situação externa. | `Coloque isso ali.` |
+| Anáfora direta | retoma o mesmo referente | `O ato foi publicado. Ele vigora.` |
+| Anáfora indireta | ativa referente associado a uma <abbr title="Elemento anterior que permite inferir um referente associado">âncora</abbr> | `Entrou no prédio. A recepção estava vazia.` |
+| Catáfora | antecipa conteúdo posterior | `Isto importa: revisar o contrato.` |
+| Exófora | depende da situação externa | `Coloque isso ali.` |
 
-- Anáfora indireta não exige <abbr title="referência de expressões ao mesmo referente">correferência</abbr> literal; exige associação inferível.
-- Demonstrativos podem retomar, antecipar ou apontar para fora do texto.
-- Não aplicar mecanicamente `este = catáfora` e `esse = anáfora`.
-- `Outro` costuma introduzir entidade diferente, não simples retomada.
+- Anáfora indireta não exige <abbr title="Relação entre expressões que apontam para o mesmo referente">correferência</abbr> literal; exige associação inferível.
+- Demonstrativos podem retomar, antecipar ou apontar para fora do texto: não use `este = catáfora` e `esse = anáfora` como fórmula automática.
+- `O mesmo relatório` tende a preservar identidade; `outro relatório` introduz, em regra, exemplar diferente.
+- Repetição controlada pode ser melhor que pronome ambíguo em texto técnico.
 
 ## Pronomes relativos
 
-- Identifique o **antecedente exato** e a função do relativo na oração.
-- `que`: pode exercer diferentes funções; o antecedente não é sempre o nome mais próximo.
-- `ao qual`: a preposição pode decorrer da regência — `procedimento ao qual aderiu`.
-- `cujo`: expressa posse, concorda com o termo posterior e não admite artigo — `empresa cujo contrato`.
-- `onde`: retoma lugar; para outros antecedentes, use construção compatível, como `em que`.
-- Teste: estrutura, concordância, regência e plausibilidade semântica.
+1. Delimite a oração relativa.
+2. Proponha o antecedente.
+3. Recoloque-o na posição do relativo.
+4. Confira **função, concordância, regência e plausibilidade semântica**.
+
+Alertas:
+
+- `que`: antecedente não é necessariamente o nome mais próximo;
+- `ao qual`: a preposição pode vir da regência — `procedimento ao qual aderiu`;
+- `cujo`: posse; concorda com o termo posterior e não admite artigo — `empresa cujo contrato`;
+- `onde`: prototipicamente locativo; para antecedente não locativo, `em que`/`no qual` costuma ser mais neutro.
 
 ## Substituição e elipse
 
-- Pronome costuma **referir**; em classificação estrita, isso não é idêntico à substituição.
-- **Substituição nominal**: `Você precisa de uma cópia? Tenho uma.`
+- Pronome normalmente **refere**; em classificação estrita, referência não é o mesmo que substituição.
+- **Substituição nominal**: `Preciso de uma cópia. Você tem uma?`
 - **Substituição verbal**: `A equipe revisou os autos; a relatora também o fez.`
-- **Elipse**: omite termo recuperável com segurança.
-- Elipse ambígua não é economia eficiente.
+- O verbo **fazer** pode substituir um predicado: `As crianças brincaram; os pais não faziam o mesmo.`
+- **Elipse**: omissão de termo recuperável — `A primeira unidade analisou contratos; a segunda, convênios.`
+- Se duas reconstruções forem plausíveis, há ambiguidade, não economia eficiente.
 
 ## Coesão lexical
 
 | Recurso | Ideia-chave |
 | --- | --- |
-| Repetição | Pode manter precisão e evitar ambiguidade. |
-| Sinonímia contextual | Só vale se as formas designarem o mesmo referente no texto. |
-| Hiperônimo | Termo mais geral: `documentos`. |
-| Hipônimo | Termo mais específico: `contratos`, `convênios`. |
-| Encapsulador | Resume oração, sequência, parágrafo ou inferência: `esses fatos`. |
-| Nominalização | `decidiu revisar` → `a decisão`; pode apagar agente, tempo ou modalidade. |
+| Repetição | pode manter precisão e evitar ambiguidade |
+| Sinonímia contextual | só vale se as formas mantiverem o referente no contexto |
+| Hiperônimo | termo mais geral: `documentos` |
+| Hipônimo | termo mais específico: `contratos`, `atas` |
+| Encapsulador | resume oração, sequência, parágrafo ou inferência: `isso`, `esses fatos` |
+| Nominalização | `decidiu suspender` → `a decisão`; pode apagar agente, tempo ou modalidade |
 
-## Conectores: relações principais
+Encapsulador também avalia: `essa ocorrência` é mais neutro que `essa irregularidade` ou `essa fraude`; a classificação precisa de apoio no texto.
+
+## Conectores: relação antes do rótulo
 
 | Relação | Marcas frequentes |
 | --- | --- |
-| Adição | `e`, `também`, `além disso` |
-| Oposição | `mas`, `porém`, `contudo` |
-| Concessão | `embora`, `ainda que`, `apesar de` |
-| Causa | `porque`, `já que`, `visto que`, `como` |
-| Explicação/justificativa | `porque`, `que`, `pois`, `porquanto` |
-| Consequência | `por isso`, `de modo que`, `de forma que` |
-| Conclusão | `portanto`, `logo`, `por conseguinte`, `assim`, `pois` posposto |
-| Condição | `se`, `caso`, `desde que` |
-| Finalidade | `para`, `para que`, `a fim de` |
-| Conformidade | `conforme`, `segundo`, `consoante` |
-| Comparação | `como`, `assim como`, `tal qual` |
+| Adição | `e`, `também`, `além disso`, `bem como`, `não só... como também` |
+| Oposição | `mas`, `porém`, `contudo`, `entretanto` |
+| Concessão | `embora`, `ainda que`, `mesmo que`, `apesar de`, `mesmo assim` |
+| Causa/justificativa | `porque`, `já que`, `visto que`, `dado que`, `pois`, `como` |
+| Consequência/conclusão | `por isso`, `de modo que`, `portanto`, `logo`, `por conseguinte`, `assim` |
+| Condição | `se`, `caso`, `desde que`, `contanto que` |
+| Finalidade | `para que`, `a fim de que` |
 | Proporção | `à medida que`, `quanto mais... mais` |
+| Tempo | `quando`, `em seguida` |
+| Comparação/conformidade | `como`, `assim como`; `conforme`, `segundo` |
 | Alternância | `ou... ou`, `ora... ora` |
 
 ### Relações próximas
 
-- **Causa**: origem do fato — `Adiou-se a sessão porque faltava quórum.`
-- **Explicação**: fundamento de ordem ou afirmação — `Adie a sessão, pois falta quórum.`
-- **Consequência**: efeito — `Faltava quórum; por isso, adiou-se a sessão.`
-- **Conclusão**: inferência — `Falta quórum; portanto, a sessão deve ser adiada.`
-- `Mas` e `embora` sinalizam contraste, mas adversidade e concessão não são idênticas.
+- **Causa**: origem apresentada para um fato — `Adiou-se a sessão porque faltava quórum.`
+- **Justificativa**: fundamento de afirmação, ordem ou inferência — `Adie a sessão, pois falta quórum.`
+- **Consequência**: efeito apresentado — `Faltava quórum; por isso, adiou-se a sessão.`
+- **Conclusão**: inferência do enunciador — `Falta quórum; portanto, a sessão deve ser adiada.`
+- `mas` e `embora` podem preservar contraste de expectativa, mas exigem estruturas sintáticas diferentes.
+- `mesmo assim` marca concessão/contraste, não simples adição.
 
 ### `Pois`
 
-- Explicativo: `Reveja o ato, pois ele contém vício.`
+- Explicativo/justificativo: `Reveja o ato, pois ele contém vício.`
 - Conclusivo e posposto: `O ato contém vício; deverá, pois, ser revisto.`
-- `Pois` conclusivo intercalado fica entre vírgulas.
-- Posição ajuda; a relação entre as proposições confirma o valor.
+- Posição e pontuação ajudam; a relação entre as proposições confirma o valor.
 
-### Formas polifuncionais
+### Formas com mais de um valor
 
-| Forma | Valores possíveis |
+| Forma | Valores contextuais |
 | --- | --- |
 | `como` | causa, comparação, conformidade |
-| `e` | adição, sequência, consequência contextual, contraste |
+| `e` | adição, sequência, consequência contextual |
 | `já` | tempo, contraste |
 | `assim` | modo, consequência, conclusão |
-| `então` | tempo, consequência, conclusão |
-| `pois` | explicação, conclusão |
+| `então` | tempo, consequência/conclusão |
+| `pois` | justificativa, conclusão |
 
 Troca de conector exige preservar **sintaxe, pontuação, modo/tempo verbal, relação lógica, alcance e orientação argumentativa**.
 
-## Alcance
+## Alcance, sequenciação e progressão
 
-- Um mecanismo pode ligar palavras, orações, períodos ou parágrafos.
-- `Isso`, `essa medida`, `diante disso` e formas semelhantes podem encapsular blocos inteiros.
-- Proximidade gráfica não decide sozinha o alcance.
-- Pergunte: liga apenas os segmentos vizinhos ou resume toda a argumentação anterior?
+- Um mecanismo pode ligar **termos, orações, períodos ou vários parágrafos**.
+- `Isso`, `essa medida`, `diante desse quadro` podem encapsular blocos inteiros.
+- Proximidade gráfica é pista, não prova: explicite mentalmente o conteúdo retomado.
+- Sequência temporal: `inicialmente`, `em seguida`, `por fim`.
+- Organização do documento: `acima`, `abaixo`, `no quadro seguinte`.
+- <abbr title="Expressão que orienta o leitor sobre a organização do próprio texto">Marcador metadiscursivo</abbr>: `em síntese`, `por outro lado`, `quanto a`.
 
-## Sequenciação e progressão
+| Progressão | Movimento |
+| --- | --- |
+| Tema constante | mesmo tópico recebe informações novas |
+| Linear | informação nova vira tema do segmento seguinte |
+| Tema derivado | tópico geral se desdobra em subtópicos |
 
-- **Temporal**: `inicialmente`, `em seguida`, `por fim`.
-- **Espacial**: `acima`, `abaixo`, `ao lado`.
-- **Metadiscursiva**: `em síntese`, `por outro lado`, `quanto a`.
-- `Por outro lado` pede contraste ou mudança de perspectiva; não é simples `além disso`.
-- **Tema constante**: mesmo tema recebe novas informações.
-- **Progressão linear**: informação nova vira tema seguinte.
-- **Tema derivado**: tópico geral se reparte em subtópicos.
-- Texto eficiente equilibra informação compartilhada e informação nova.
-
-## Na discursiva
-
-- Repita o termo técnico quando o pronome puder ser ambíguo.
-- Use encapsulador que represente exatamente o segmento anterior.
-- Cada parágrafo deve retomar algo relevante e acrescentar informação.
-- Não use conector como ornamento.
-- Preserve paralelismo em enumerações.
-- Revise antecedente, alcance e regência dos relativos.
+**Fio sem avanço = repetição vazia. Avanço sem fio = ruptura.**
 
 ## Roteiro de resolução
 
 1. Leia o trecho anterior e o posterior.
 2. Localize as unidades realmente ligadas.
-3. Reconstrua referente, âncora, termo substituído ou elíptico.
-4. Identifique o antecedente e a função de eventual pronome relativo.
-5. Nomeie a relação do conector no contexto.
+3. Reconstrua referente, <abbr title="Elemento anterior que permite inferir um referente associado">âncora</abbr>, termo substituído, elíptico ou bloco encapsulado.
+4. Se houver relativo, identifique antecedente e função.
+5. Nomeie a relação do conector **no contexto**.
 6. Teste sintaxe, pontuação, modo verbal, sentido, precisão e alcance.
 7. Confira se a reescrita mantém progressão e efeito argumentativo.
+
+Na revisão discursiva: repita o termo técnico quando o pronome puder ser ambíguo; use encapsulador fiel ao bloco anterior; não use conector como ornamento; preserve paralelismo nas enumerações.
