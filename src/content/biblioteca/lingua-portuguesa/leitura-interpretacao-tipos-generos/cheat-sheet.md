@@ -1,172 +1,114 @@
 # Leitura, compreensão e interpretação em revisão rápida
 
-## Regra central
+## Regra de ouro
 
-Toda resposta deve ser sustentada por **marcas textuais, relações internas ou dados pertinentes do contexto**. Plausível não significa autorizado.
+A resposta correta precisa ser **autorizada pelo texto inteiro**, não apenas ser plausível. Localize a marca decisiva e preserve **força, alcance, tempo, causa e voz**.
 
-> **Certo ou errado:** uma única oração, condição, consequência ou restrição sem apoio torna o item inteiro errado.
+> **Certo ou errado:** uma única condição, consequência, restrição ou generalização sem apoio derruba o item inteiro.
 
-## Rota Cebraspe
+## Rota <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>
 
-**comando → resposta provisória → prova textual → força da conclusão → conferência integral**
+**comando → resposta provisória → evidência → força da conclusão → palavra crítica → item inteiro**
 
-1. Leia exatamente o comando.
-2. Responda mentalmente antes das opções.
-3. Localize a evidência decisiva.
-4. Classifique a força da conclusão.
-5. Compare cada palavra relevante.
-6. Julgue o item inteiro.
-
-## Comandos da banca
-
-| Comando | Exigência |
+| Comando | O que exige |
 | --- | --- |
-| Segundo/de acordo com o texto | máxima aderência ao que foi apresentado |
+| Segundo/de acordo com o texto | aderência máxima ao que foi apresentado |
 | Depreende-se/infere-se | conclusão autorizada, não apenas possível |
 | Evidencia-se | marca textual clara |
-| O autor defende/sustenta | posição do enunciador, não voz citada |
+| O autor defende/sustenta | posição do enunciador, não voz apenas citada |
 | Finalidade | efeito comunicativo predominante |
 | Função do trecho | papel da parte na progressão global |
 | Sem prejuízo do sentido | preservação das relações relevantes |
 
-## Operações
+## Escala de autorização
 
-| Operação | Foco |
+| Nível | Teste |
 | --- | --- |
-| Compreensão | informação apresentada e relações internas |
-| Interpretação | sentido global, efeito, finalidade e posição |
-| Inferência | conclusão autorizada por pistas |
-| Opinião pessoal | avaliação sem obrigação de prova textual |
+| **Explícito** | está afirmado ou representado diretamente |
+| **Necessário** | decorre sem alternativa compatível |
+| **Fortemente autorizado** | é a leitura mais sustentada pelo conjunto de pistas |
+| **Possível** | é compatível, mas não está confirmada |
+| **Extrapolado** | acrescenta certeza, causa, intenção ou alcance |
+| **Contraditório** | é incompatível com o texto |
 
-## Força da conclusão
+**Possível ≠ inferível.** Experiência pessoal também não substitui prova textual.
 
-- **Explícito:** afirmado ou representado diretamente.
-- **Necessário:** decorre sem alternativa compatível.
-- **Fortemente autorizado:** é a leitura mais sustentada.
-- **Possível:** compatível, mas não confirmada.
-- **Extrapolado:** acrescenta certeza ou conteúdo.
-- **Contraditório:** incompatível com o texto.
+## Detector de distorção
 
-**Possível não significa inferível.**
+| Eixo | Preserve | Desconfie de |
+| --- | --- | --- |
+| Quantidade | alguns, parte, maioria | todos, nenhum |
+| Certeza/obrigação | pode, provavelmente | deve, certamente |
+| Frequência | às vezes, em geral | sempre, nunca |
+| Intensidade | reduziu, dificultou | eliminou, impediu |
+| Tempo | antes, depois, ainda, já | inversão da sequência |
+| Causa | ocorreu depois de | ocorreu por causa de |
+| Voz | segundo X, X afirma | o autor afirma |
+| Escopo | em certas situações | em qualquer caso |
 
-## Checklist das oito dimensões
+Outras trocas frequentes: **começou ≠ concluiu; improvável ≠ impossível; exemplo ≠ regra geral; detalhe ≠ ideia principal**.
 
-Antes de marcar, confira:
-
-1. **quantificador:** alguns, muitos, parte, todos;
-2. **modalidade:** pode, deve, certamente, provavelmente;
-3. **negação:** não, nunca, apenas, salvo;
-4. **intensidade:** reduziu, eliminou, dificultou, impediu;
-5. **tempo:** antes, depois, ainda, já;
-6. **causalidade:** relação temporal não prova causa;
-7. **voz:** autor, especialista, personagem, instituição;
-8. **restrição:** condição, recorte, exceção e escopo.
-
-## Paráfrase fiel
-
-Preserve:
-
-- alguns ≠ todos;
-- pode ≠ deve;
-- às vezes ≠ sempre;
-- reduziu ≠ eliminou;
-- dificultou ≠ impossibilitou;
-- começou ≠ concluiu;
-- improvável ≠ impossível;
-- depois ≠ por causa de;
-- exemplo ≠ totalidade.
-
-## Implícitos
+## Implícitos: não confunda
 
 | Fenômeno | Teste rápido |
 | --- | --- |
-| Pressuposição | conteúdo de fundo acionado por marca linguística |
+| Pressuposição | conteúdo de fundo acionado pela formulação; frequentemente persiste sob negação |
 | Acarretamento | consequência semântica necessária |
-| Implicatura | sentido contextual geralmente cancelável |
+| Implicatura | sentido inferido da situação comunicativa e, em geral, cancelável |
 
-Gatilhos frequentes: **parar de, voltar a, deixar de, continuar, ainda, novamente, descobrir**. Contexto e formulação concreta continuam necessários.
+Gatilhos comuns de pressuposição: **parar de, voltar a, deixar de, continuar, ainda, novamente, descobrir**. O contexto concreto continua mandando.
 
-## Núcleo do texto
+## Mapa do texto
 
 | Conceito | Pergunta |
 | --- | --- |
 | Assunto | Qual é o campo geral? |
 | Tema | Qual recorte central é desenvolvido? |
-| Tópico | Qual é o foco deste trecho? |
+| Tópico | Qual é o foco local deste trecho? |
 | Ideia principal | Qual informação organiza o conjunto? |
 | Tese | Qual posição é defendida? |
 
-- Tema não é título nem palavra mais repetida.
-- Tese exige posição; argumento sustenta; exemplo ilustra.
-- Detalhe ou ressalva não substitui a ideia principal.
-- Um texto expositivo pode ter ideia principal sem defender tese controversa.
+- **Tese** = posição; **argumento** = sustentação; **exemplo** = ilustração.
+- Concessão reconhece um ponto sem abandonar necessariamente a tese.
+- Ressalva ou detalhe não substitui a ideia principal.
+- Texto expositivo pode ter ideia principal sem defender tese controversa.
 
-## Finalidade e ponto de vista
+## Vozes, finalidade e função
 
-Finalidades: informar, explicar, instruir, regulamentar, solicitar, persuadir, avaliar, criticar, relatar e entreter.
+**Voz citada não é automaticamente posição do autor.** <abbr title="Presença de diferentes vozes ou perspectivas no discurso">Polifonia</abbr> ocorre quando o texto põe em cena perspectivas distintas; atribuição e contraste indicam quem sustenta cada avaliação.
 
-Marcas de ponto de vista:
+Finalidades recorrentes: informar, explicar, instruir, regulamentar, solicitar, persuadir, avaliar, criticar, relatar e entreter.
 
-- adjetivos avaliativos;
-- modalizadores;
-- verbos de dizer;
-- seleção de dados;
-- concessão e contraste;
-- ironia e aspas de distanciamento.
+Marcas de ponto de vista: adjetivos avaliativos, grau de certeza, verbos de dizer, seleção de dados, concessão, contraste, ironia e aspas de distanciamento.
 
-**Voz citada não é automaticamente posição do autor.**
-
-## Função de trechos
-
-Um segmento pode apresentar problema, definir, especificar, exemplificar, comparar, explicar causa ou consequência, fazer ressalva, responder objeção ou concluir.
-
-Classifique pela relação com o conjunto, não por uma palavra isolada.
+Um trecho pode **definir, especificar, exemplificar, comparar, explicar causa ou consequência, ressalvar, objetar, refutar ou concluir**. Classifique pela relação com o conjunto.
 
 ## Sentido contextual
 
-- Denotação: uso literal ou referencial predominante.
-- Conotação: valor figurado, simbólico ou avaliativo.
-- Acepção dicionarizada possível não garante adequação ao contexto.
+- **Denotação:** uso literal ou referencial predominante.
+- **Conotação:** valor figurado, simbólico ou avaliativo.
+- Acepção possível no dicionário não basta: precisa caber no contexto.
 - Ambiguidade pode ser lexical, sintática, referencial, de escopo ou pragmática.
-- Intertextualidade exige relação significativa entre textos, não mera coincidência temática.
+- <abbr title="Relação significativa de um texto com outro texto ou discurso">Intertextualidade</abbr> exige retomada significativa — citação, alusão, paródia ou outra relação —, não mera coincidência temática.
 
-## Multimodalidade
+## Multimodalidade e gráficos
 
-Integre palavras, imagem, cor, tipografia, posição, expressão, legenda, gráfico e fonte.
+Integre palavras, imagem, cor, tipografia, posição, expressão, legenda, gráfico e fonte. Elemento visual pode completar, restringir, contradizer ou ironizar o verbal.
 
 Em gráficos:
 
 1. confira título, período, unidade e fonte;
-2. distinga valor absoluto, percentual e ponto percentual;
+2. diferencie valor absoluto, percentual e **ponto percentual** — diferença direta entre percentuais;
 3. examine escala e origem do eixo;
-4. não transforme correlação em causa;
-5. respeite ressalvas verbais.
+4. variação conjunta não prova causa;
+5. preserve ressalvas do texto verbal.
 
-## Como a banca distorce
+## Fechamento em cinco perguntas
 
-| Texto | Item |
-| --- | --- |
-| parte | todos |
-| pode | ocorrerá |
-| às vezes | sempre |
-| reduziu | eliminou |
-| depois | por causa de |
-| segundo a fonte | o autor afirma |
-| em certas situações | em qualquer caso |
-| exemplo | regra geral |
+1. **O que exatamente o comando pede?**
+2. **Onde está a evidência?**
+3. **A conclusão tem a mesma força e o mesmo alcance?**
+4. **A voz e a relação lógica foram preservadas?**
+5. **Há uma palavra final que extrapola o começo correto?**
 
-## Pegadinhas
-
-- palavra repetida → relações alteradas;
-- possibilidade → inferência necessária;
-- sequência temporal → causa;
-- voz citada → opinião do autor;
-- assunto → tema;
-- exemplo → tese;
-- detalhe → ideia principal;
-- acepção possível → sentido contextual;
-- imagem → mero enfeite;
-- experiência pessoal → conclusão textual;
-- começo fiel → final extrapolado.
-
-**Fechamento:** localize, relacione, infira, compare e confira o item inteiro.
+**Localize → relacione → meça a força → compare → julgue o item inteiro.**
