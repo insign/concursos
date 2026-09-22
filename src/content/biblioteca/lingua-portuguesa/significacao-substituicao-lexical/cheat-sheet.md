@@ -10,7 +10,7 @@ Uma substituição só é segura quando preserva, conforme o comando:
 2. acepção contextual;
 3. participantes e referentes;
 4. modalidade, tempo e aspecto;
-5. quantificação e escopo;
+5. quantificação e <abbr title="alcance interpretativo de uma expressão sobre parte do enunciado">escopo</abbr>;
 6. relação lógica;
 7. registro, avaliação e precisão;
 8. coesão e coerência global.
@@ -97,11 +97,11 @@ Resolver ambiguidade pode acrescentar informação não autorizada.
 - `alguns` não significa logicamente `alguns e não todos`.
 - `nenhum` contradiz `algum`.
 
-## Gate gramatical
+## Filtro gramatical
 
 Verifique:
 
-- classe gramatical;
+- classe gramatical e natureza da unidade definida;
 - flexão;
 - concordância;
 - regência;
@@ -116,7 +116,10 @@ Exemplos:
 
 - `assistir ao evento` → `ver o evento`;
 - `visar ao cargo` → `pretender o cargo`;
+- `por motivo não justificável` → `injustificadamente`: mudar de classe pode ser válido se função e sentido forem recompostos;
 - `medidas urgentes` → `providência urgente`, com todos os ajustes.
+
+Em definição lexical, confira se a explicação descreve a mesma natureza da palavra, e não outra categoria de conteúdo. Em sinonímia, teste também a **intensidade**: `talentoso` → `genial` pode formar progressão, não equivalência neutra.
 
 ## Colocações e expressões fixas
 
@@ -137,7 +140,7 @@ Troca palavra por palavra pode romper sentido idiomático, regência ou naturali
 
 ## Informação e foco
 
-- hipônimo → hiperônimo: generaliza e pode perder informação;
+- hipônimo → hiperônimo: generaliza e pode perder informação; como retomada, porém, o hiperônimo pode manter o mesmo referente já identificado;
 - hiperônimo → hipônimo: especifica e pode inventar dado;
 - ativa → passiva: pode manter participantes e mudar foco;
 - passiva sem agente: pode perder informação;
@@ -223,7 +226,7 @@ Trocar conector pode mudar:
 ## Referência e encapsulamento
 
 - pronome ou hiperônimo pode retomar o mesmo referente;
-- correferência não garante equivalência avaliativa;
+- <abbr title="duas expressões que apontam para o mesmo referente no texto">correferência</abbr> não garante equivalência avaliativa;
 - repetição pode ser preferível em texto técnico;
 - `essa hipótese`, `esse fato`, `essa decisão` retomam e classificam o conteúdo.
 
@@ -247,7 +250,7 @@ Não trate automaticamente como sinônimos:
 2. Reconstrua quem fez o quê, a quem, quando e com qual certeza.
 3. Marque operadores, quantificadores, modais, conectores e pronomes.
 4. Selecione a acepção contextual.
-5. Rode o gate gramatical.
+5. Rode o filtro gramatical.
 6. Faça o teste de retorno.
 7. Crie um contraexemplo.
 8. Verifique escopo e referência.
