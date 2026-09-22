@@ -35,10 +35,12 @@ Antes de reescrever, responda:
 |---|---|
 | informal | proximidade, espontaneidade, marcas conversacionais |
 | semiformal | objetividade, cordialidade, baixa cerimônia |
-| formal | norma-padrão, precisão, protocolo, impessoalidade |
+| formal | maior controle da norma-padrão, precisão e convenções da situação |
 
 - Formalidade ≠ rebuscamento.
 - Informalidade ≠ incorreção.
+- Cargo, título ou hierarquia não fixam sozinhos o <abbr title="conjunto de escolhas linguísticas ajustadas à situação de uso">registro</abbr>; relação entre participantes, finalidade e situação também contam.
+- Rótulos como `corrente`, `familiar` e `erudito` variam entre classificações; se a questão os definir, use a definição do enunciado sem transformá-la em regra geral.
 - Período longo e palavra rara não tornam o texto mais formal.
 - Clareza e concisão podem aumentar a formalidade.
 
@@ -61,12 +63,12 @@ Antes de reescrever, responda:
 | Controle | Pergunta |
 |---|---|
 | fonte | quem afirmou continua igual? |
-| modalidade | possibilidade, certeza e obrigação foram mantidas? |
+| <abbr title="valor de possibilidade, certeza, obrigação ou recomendação expresso na formulação">modalidade</abbr> | possibilidade, certeza e obrigação foram mantidas? |
 | agente | quem age ou sofre a ação mudou? |
 | tempo/quantidade | prazo, data, frequência ou alcance foram enfraquecidos? |
 | lógica | causa, condição, concessão ou conclusão permanecem? |
 | polaridade | negação e restrições continuam? |
-| dêixis | `hoje`, `amanhã`, `aqui` e `isso` ainda são localizáveis? |
+| <abbr title="referência dependente de pessoa, tempo ou espaço da enunciação">dêixis</abbr> | `hoje`, `amanhã`, `aqui` e `isso` ainda são localizáveis? |
 
 Preservar não é copiar palavra por palavra; é manter informação, relações e compromisso do enunciador.
 
@@ -105,10 +107,12 @@ Retire quando não funcionais:
 
 Preserve incerteza real: `acho que das duas às quatro` só vira horário categórico se houver confirmação. Em texto persistente, troque `amanhã` por data absoluta: `em 21 de julho de 2026`.
 
+Ao relatar fala de outro ponto temporal, ajuste pessoa, tempo verbal e dêixis; no mesmo dia, parte da ancoragem pode continuar válida.
+
 ## Técnico → público geral
 
 1. Mantenha a causa e o efeito.
-2. Substitua jargão por expressão clara.
+2. Substitua <abbr title="vocabulário próprio de uma área de atividade">jargão</abbr> por expressão clara.
 3. Explique termo indispensável.
 4. Não elimine precisão normativa ou operacional.
 5. Não prometa resultado ausente na fonte.
@@ -134,7 +138,7 @@ Preserve incerteza real: `acho que das duas às quatro` só vira horário categ�
 
 Controles úteis: clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade, padronização e norma-padrão.
 
-- Impessoalidade não exige passiva nem agente oculto.
+- <abbr title="ausência de personalismo indevido na comunicação pública">Impessoalidade</abbr> não exige passiva nem agente oculto.
 - Concisão não autoriza cortar prazo, condição, fonte ou responsável.
 - Tratamento e endereçamento dependem da norma e do órgão aplicáveis; regra federal não é universal.
 - Neste assunto, priorize a adequação de gênero e registro, não a memorização de formatos de correspondência.
@@ -175,11 +179,11 @@ Formalizar não é aumentar automaticamente a força do ato.
 3. Inventarie fatos, fontes, prazos e modalidade.
 4. Planeje a estrutura do gênero de chegada.
 5. Ajuste registro, tratamento, jargão e oralidade.
-6. Rode gates gramaticais e referenciais.
+6. Rode checagens gramaticais e referenciais.
 7. Compare a nova versão com a base.
 8. Simule a leitura pelo destinatário.
 
-## Gates finais
+## Checagens finais
 
 - O gênero cumpre sua finalidade?
 - O leitor e o suporte foram considerados?
