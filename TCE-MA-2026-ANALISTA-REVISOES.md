@@ -151,7 +151,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
-| H046 | `controle-interno-externo` | = | V | — |
+| H046 | `controle-interno-externo` | = | V | `657fb8995f03a3b4aeeb1ef3cefc737a02ecb06c` |
 | H047 | `controle-parlamentar` | = | V | — |
 | H048 | `controle-tribunais-contas` | = | V | — |
 | H049 | `controle-administrativo` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H046: q52204604 exige contraste controle de legalidade × mérito ausente da aula; item e gabarito definitivos conferidos. Reavaliar aula/banco no escopo próprio, sem ampliar H por esse item.
 - H037: q52203702 e q52203705 exigem distinguir abdução, ausente da aula; H040: q5108 e q5138 exigem fórmula de existência única, que a aula só menciona sem ensinar. Reavaliar aula/banco em escopo próprio, sem ampliar H/M por esses itens.
 - H039: `conteudo.md`, seção 14, restringe “possível” a verdadeiro em algum diagrama “mas não em todos”, confundindo possibilidade com contingência. Corrigir a aula em revisão própria; considerar possível o que vale em ao menos uma configuração admissível.
 - H029, H032, H033 e H035: `conteudo.md` confunde a data do ato E1 (6/7) com a publicação informada pelo Tribunal (7/7), marco do corte legislativo. Corrigir as aulas em revisão própria.
