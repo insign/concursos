@@ -202,6 +202,8 @@ Ele também é útil em enumerações complexas:
 
 Não pense nele como uma “pausa média” automática. O sinal cria hierarquia estrutural.
 
+Quando uma abreviatura já termina em ponto, esse mesmo ponto pode encerrar o período: “Foram examinados mapas, atas, relatórios <abbr title="et cetera, expressão latina equivalente a e outras coisas">etc.</abbr>” — não se escreve `etc..`. A vírgula antes de <abbr title="et cetera, expressão latina equivalente a e outras coisas">etc.</abbr> varia entre manuais institucionais; se a questão indicar um padrão editorial, siga o padrão cobrado.
+
 ### 6.2 Dois-pontos: o primeiro trecho anuncia o segundo
 
 > Há três etapas: coleta, análise e conclusão.  
@@ -264,6 +266,12 @@ No discurso direto, a pontuação também mostra a relação entre fala e oraç�
 > “O prazo terminou”, afirmou a relatora.  
 > “O prazo”, afirmou a relatora, “terminou ontem.”
 
+O travessão também pode marcar a fala em diálogo:
+
+> — O prazo terminou — afirmou a relatora.
+
+O primeiro travessão abre a fala; o segundo delimita a intervenção de quem fala. A escolha entre aspas e travessões depende do gênero e da convenção adotada.
+
 Manuais editoriais podem divergir em convenções específicas, como a posição do ponto em relação às aspas. Quando a questão indicar um manual, siga o padrão explicitamente exigido; não transforme preferência editorial em regra universal da língua.
 
 ## 9. Interrogação, exclamação e reticências
@@ -276,7 +284,11 @@ Na pergunta indireta, o conteúdo integra outra oração:
 
 > A relatora perguntou se o recurso havia sido protocolado.
 
-A presença de dúvida não cria automaticamente `?`.
+A presença de dúvida não cria automaticamente `?`. Mas uma pergunta indireta pode aparecer dentro de uma pergunta direta maior:
+
+> Você sabe se o recurso foi protocolado?
+
+O ponto de interrogação pertence ao enunciado inteiro, que pergunta algo ao interlocutor.
 
 O ponto de exclamação marca apelo, emoção ou ordem enfática. Uma ordem também pode terminar com ponto final; a escolha altera o tom e deve ser compatível com o gênero textual.
 
