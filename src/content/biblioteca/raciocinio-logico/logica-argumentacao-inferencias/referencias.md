@@ -1,4 +1,7 @@
-- CEBRASPE. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do Cargo 1.
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>. [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do Cargo 1.
 - DUTIH NOVAES, Catarina; BENTHEM, Johan van; HITCHCOCK, David. [Argument and Argumentation](https://plato.stanford.edu/archives/fall2024/entries/argument/). Stanford Encyclopedia of Philosophy, edição de outono de 2024.
 - HAWTHORNE, James. [Inductive Logic](https://plato.stanford.edu/entries/logic-inductive/). Stanford Encyclopedia of Philosophy, revisão substantiva de 24 fev. 2025.
-- ALMEIDA, Aires. [Validade, verdade e solidez de argumentos](https://ensina.rtp.pt/explicador/validade-verdade-e-solidez-de-argumentos/). RTP Ensina, 2020.
+- ALMEIDA, Aires. [Validade, verdade e solidez de argumentos](https://ensina.rtp.pt/explicador/validade-verdade-e-solidez-de-argumentos/). <abbr title="Rádio e Televisão de Portugal">RTP</abbr> Ensina, 2020.
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>. [Caderno de conhecimentos gerais, cargos de Analista Judiciário, Tribunal Regional Federal da 6ª Região, aplicação em 19/1/2025](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG1_01.PDF), itens 23–26.
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>. [Gabarito oficial definitivo do caderno de conhecimentos gerais, Tribunal Regional Federal da 6ª Região, 2025](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG1_01.PDF), itens 23–26.

@@ -1,211 +1,53 @@
 # Lógica de argumentação
 
-## Recorte
+**Ache a conclusão antes de avaliar o raciocínio.** Pergunte o que o autor quer que seja aceito e quais afirmações oferece como razões. “Logo” e “portanto” podem sinalizar conclusão; “porque” e “pois”, premissa. A posição e o marcador não decidem a função: uma explicação pode responder por que um fato já aceito ocorreu, enquanto um argumento oferece razões para aceitar uma tese.
 
-**Aqui:** premissas, conclusões, pressupostos, validade, solidez, dedução, indução, analogia, força da conclusão e padrões condicionais usados para avaliar argumentos.
+## Reconstrua a passagem
 
-**Depois:** proposições, tabelas-verdade, equivalências, De Morgan, diagramas, primeira ordem, contagem, probabilidade e conjuntos.
-
-## Estrutura mínima
-
-- **premissa:** razão oferecida;
-- **conclusão:** tese sustentada;
-- **inferência:** passagem da premissa à conclusão;
-- **pressuposto:** ponte não expressa da qual a passagem depende.
-
-> Pergunta-chave: **o que o autor quer que eu aceite e por quê?**
-
-## Argumento × outros textos
-
-| Texto | Função |
+| Peça | Pergunta de recuperação |
 |---|---|
-| argumento | razões sustentam uma conclusão |
-| relato | informa fatos |
-| explicação | mostra por que fato aceito ocorreu |
-| opinião isolada | afirma posição sem razão |
+| Premissa | Que razão foi oferecida? |
+| Conclusão | Que tese essa razão pretende sustentar? |
+| Inferência | Como se passa das razões à tese? |
+| Pressuposto | Que ponte ficou implícita, mas é compatível com o que o autor efetivamente disse? |
 
-Indicadores são pistas, não comandos automáticos:
+**Premissas ligadas** só produzem o passo juntas: regra geral + enquadramento do caso. **Premissas independentes** oferecem apoio próprio. Uma **conclusão intermediária** encerra um passo e vira premissa do seguinte. Ao reconstruir um pressuposto, examine se a passagem desaba sem a ponte; não acrescente uma razão inventada apenas para tornar a tese convincente.
 
-- conclusão: `portanto`, `logo`, `assim`, `por isso`;
-- premissa: `porque`, `pois`, `já que`, `visto que`.
+## Escolha o teste pela força pretendida
 
-## Premissas
-
-- **ligadas:** só funcionam em conjunto;
-- **independentes:** cada uma oferece algum apoio;
-- **conclusão intermediária:** conclusão de um passo + premissa do seguinte.
-
-## Pressuposto
-
-Teste rápido:
-
-1. identifique premissas e conclusão;
-2. pergunte qual ponte falta;
-3. negue a ponte candidata;
-4. se o apoio desaba, ela pode ser necessária.
-
-Não invente premissa só para salvar o argumento.
-
-## Verdade × validade × solidez
-
-| Conceito | Teste |
-|---|---|
-| verdade | conteúdo da afirmação |
-| validade | premissas verdadeiras podem coexistir com conclusão falsa? |
-| solidez | válido + todas as premissas verdadeiras |
-
-### Decore
-
-- premissa falsa **não** prova invalidade;
-- conclusão verdadeira **não** prova validade;
-- válido **não** significa sólido;
-- sólido → conclusão verdadeira.
-
-## Contraexemplo
-
-Para derrubar validade dedutiva, construa:
-
-```text
-todas as premissas = verdadeiras
-conclusão = falsa
-```
-
-Um cenário coerente basta.
-
-## Força da conclusão
-
-| Grau | Significado |
-|---|---|
-| necessária | não pode falhar dadas as premissas |
-| provável | tem apoio, mas pode falhar |
-| possível | não foi excluída |
-
-`possível ≠ provável ≠ necessário`
-
-Palavras universais (`sempre`, `todos`, `necessariamente`, `sem exceção`) exigem apoio mais forte.
-
-## Dedução × indução × analogia
-
-| Tipo | Pretensão | Como testar |
+| Passagem | O apoio promete | Teste econômico |
 |---|---|---|
-| dedução | garantia | procure contraexemplo |
-| indução | probabilidade | examine base, representatividade e alcance |
-| analogia | transferência por semelhança | procure diferenças relevantes |
+| Dedução | Necessidade: com as premissas verdadeiras, a conclusão não pode ser falsa. | Busque **contraexemplo**: um cenário possível com todas as premissas verdadeiras e a conclusão falsa. Um só refuta a validade. |
+| Indução | Apoio provável a uma generalização ou previsão, sem garantia. | Examine tamanho, seleção e representatividade da base; compare seu universo e período com o alcance da conclusão. |
+| Analogia | Transferir ao caso alvo uma expectativa apoiada em semelhanças com um caso conhecido. | Confira se as semelhanças afetam o resultado e se alguma diferença relevante rompe a transferência. |
 
-### Dedução
+**Possível** significa compatível com o que se sabe; **provável** requer apoio relevante; **necessário** não admite falha se as premissas forem verdadeiras. Uma amostra limitada pode apoiar uma previsão cautelosa, mas não “sempre”, “todos” ou “necessariamente”. Numa analogia, uma diferença decisiva pode pesar mais que muitas semelhanças superficiais.
 
-Premissas verdadeiras + forma válida → conclusão verdadeira.
+## Validade não é verdade da conclusão
 
-### Indução
+| Pergunta | Resposta que importa |
+|---|---|
+| Uma afirmação é verdadeira? | Avalie seu conteúdo. |
+| A dedução é válida? | É impossível ter premissas verdadeiras **e** conclusão falsa? |
+| A dedução é sólida? | A forma é válida **e** todas as premissas são verdadeiras? |
 
-Fortalece com:
+Premissa falsa impede **solidez**, mas não demonstra **invalidade**; conclusão verdadeira não prova validade. Dedução sólida garante conclusão verdadeira. Para invalidar a forma, mantenha as premissas e procure a conclusão falsa num cenário coerente, ainda que esse cenário não tenha ocorrido.
 
-- base suficiente;
-- amostra representativa;
-- diversidade;
-- conclusão proporcional.
+## Regra condicional: siga a seta
 
-Enfraquece com:
+Se a regra fornecida for `A → B` (“se A, então B”), **A basta para B**, mas B pode ter outra origem. Distinga validade da forma e verdade factual da própria regra.
 
-- poucos casos;
-- seleção enviesada;
-- universalização;
-- exceções ignoradas.
+| Dado além de `A → B` | Inferência | Por quê? |
+|---|---|---|
+| `A` | `B` — válida (<abbr title="Regra de inferência que afirma a condição e conclui a consequência">modus ponens</abbr>) | A condição ocorreu. |
+| `não B` | `não A` — válida (<abbr title="Regra de inferência que nega a consequência e conclui a negação da condição">modus tollens</abbr>) | Se A ocorresse, B ocorreria. |
+| `B` | `A` — inválida | B pode acontecer por outra via. |
+| `não A` | `não B` — inválida | A regra não exclui outras vias para B. |
 
-### Analogia
+## Feche a questão
 
-Pergunte:
+1. Separe tese, razões, ponte implícita e passos intermediários.
+2. Veja se a pretensão é necessidade, probabilidade ou transferência por analogia.
+3. Aplique o teste correspondente e pergunte se a razão é **relevante** para a propriedade afirmada e **suficiente** para a extensão e a certeza da conclusão.
 
-1. semelhança é relevante?
-2. diferença pode romper a transferência?
-3. conclusão é modesta?
-
-Uma diferença decisiva pode vencer várias semelhanças superficiais.
-
-## Condicionais
-
-Considere `Se A, então B`.
-
-### Válidos
-
-**Afirma A → conclui B**
-
-```text
-Se A, então B.
-A.
-Logo, B.
-```
-
-**Nega B → conclui não A**
-
-```text
-Se A, então B.
-Não B.
-Logo, não A.
-```
-
-### Inválidos
-
-**Afirma B → conclui A**
-
-```text
-Se A, então B.
-B.
-Logo, A.  ← B pode ter outra origem
-```
-
-**Nega A → conclui não B**
-
-```text
-Se A, então B.
-Não A.
-Logo, não B.  ← B pode ocorrer por outro caminho
-```
-
-## Relevância × suficiência
-
-- **relevante:** a razão tem relação com a conclusão;
-- **suficiente:** a base sustenta a força e a extensão da conclusão.
-
-Exemplos:
-
-- “é popular → é legal”: falta relevância;
-- “2 reclamações → todos rejeitam”: falta suficiência.
-
-## Método em 6 passos
-
-1. ache a conclusão;
-2. liste as premissas;
-3. procure pressuposto ou conclusão intermediária;
-4. classifique a força: necessária, provável ou possível;
-5. escolha o teste: contraexemplo, base indutiva ou diferença analógica;
-6. confira relevância e suficiência.
-
-## Pegadinhas
-
-- conclusão verdadeira ≠ argumento válido;
-- premissa falsa ≠ argumento inválido;
-- válido ≠ sólido;
-- exemplo favorável ≠ necessidade;
-- possível ≠ provável;
-- provável ≠ necessário;
-- sucessão temporal ≠ causalidade necessária;
-- semelhança superficial ≠ analogia forte;
-- um caso ≠ regra universal;
-- `A → B` + `B` não prova `A`;
-- `A → B` + `não A` não prova `não B`;
-- marcador como “logo” não substitui análise do contexto;
-- pressuposto não pode ser inventado livremente.
-
-## Checklist
-
-- [ ] Qual é a conclusão?
-- [ ] Quais são as premissas?
-- [ ] Há pressuposto?
-- [ ] Há conclusão intermediária?
-- [ ] É dedução, indução ou analogia?
-- [ ] A conclusão é necessária, provável ou possível?
-- [ ] Existe contraexemplo?
-- [ ] A base indutiva é suficiente?
-- [ ] Há diferença relevante na analogia?
-- [ ] A razão é relevante para a tese?
+Popularidade, sozinha, não demonstra legalidade; duas reclamações não sustentam “todos rejeitam”. **A maioria** de um grupo não garante que um integrante específico tenha a propriedade. A sucessão de fatos também não estabelece, por si, causa e efeito.
