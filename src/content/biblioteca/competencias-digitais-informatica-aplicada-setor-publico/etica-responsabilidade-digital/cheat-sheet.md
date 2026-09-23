@@ -1,170 +1,54 @@
 # Ética, responsabilidade digital, desinformação, inclusão e acessibilidade
 
-**Corte normativo:** 06/07/2026 · **Atualização editorial:** 10/08/2026
+## Serviço digital: quatro verificações
 
-## Mapa essencial
+**Finalidade pública → responsável → informação confiável → jornada concluível.** Solução eficiente para o órgão pode transferir custo ou barreira ao cidadão. Legalidade e competência são indispensáveis; avalie também necessidade, proporcionalidade, equidade, segurança, privacidade e efeitos reais. Fornecedor ou automação não retiram responsabilidade do órgão por fiscalização, correção e prestação de contas.
 
-| Eixo | Regra de uma linha |
+| Pergunta | Evidência útil |
 |---|---|
-| ética digital | tecnologia deve servir à finalidade pública e respeitar direitos |
-| responsabilidade digital | papéis, registros, fiscalização, correção e prestação de contas |
-| integridade da informação | verificar origem, contexto e evidência antes de usar ou divulgar |
-| inclusão digital | conexão + dispositivo + custo + competência + linguagem + suporte |
-| acessibilidade digital | remover barreiras para que a jornada possa ser concluída por pessoas com deficiência |
+| Usuário compreende finalidade, critério relevante e limites? | Transparência em linguagem clara. |
+| É possível reconstruir evento, alteração e responsável? | Rastreabilidade com registros pertinentes e protegidos; guardar indefinidamente não é requisito. |
+| O controle pode ser avaliado e o resultado questionado? | Auditabilidade (avaliar controles) e contestabilidade (corrigir dado ou decisão) com canal efetivo. |
 
-> **Legalidade é indispensável, mas não esgota a ética. Automação e fornecedor não eliminam responsabilidade institucional.**
+## Suspeita de desinformação: intenção e prova
 
-## Ética e responsabilidade
-
-| Pergunta | Controle |
+| Categoria | Teste distintivo |
 |---|---|
-| para quê? | finalidade pública |
-| precisa mesmo? | necessidade e proporcionalidade |
-| afeta quem? | equidade e inclusão |
-| o usuário entende? | transparência |
-| pode ser corrigido? | contestabilidade |
-| dá para reconstruir? | rastreabilidade |
-| quem responde? | responsabilização |
+| *Misinformation* (informação incorreta) | Falsa ou inexata **sem intenção** de enganar. |
+| *Disinformation* (desinformação deliberada) | Falsa, manipulada ou enganosa **com intenção** de enganar. |
+| *Malinformation* (informação real usada para causar dano) | Pode ser verdadeira, mas usada fora de contexto ou abusivamente para prejudicar. |
 
-- eficiência pública ≠ apenas reduzir custo interno;
-- “foi o sistema” ≠ justificativa suficiente;
-- terceirização ≠ terceirização da responsabilidade;
-- rastreabilidade ≠ retenção ilimitada.
+**Fabricado** é criado falsamente; **manipulado** altera material; **falso contexto** associa material verdadeiro a data/local/evento errados; **impostor** simula fonte legítima; **amplificação coordenada** multiplica artificialmente o alcance. Viralidade, muitos espelhos e conteúdo sintético realista não demonstram autenticidade nem independência das fontes.
 
-## Desinformação: contraste central
+**Pausar → delimitar alegação → rastrear origem e data → conferir fonte primária e contexto → comparar fontes independentes → comunicar grau de confiança.** Falta de prova imediata não torna alegação falsa: diga o que está confirmado e o que segue em apuração. Órgão deve medir dano, alcance e urgência antes de corrigir em canal oficial acessível, alcançar o público afetado e atualizar quando surgirem fatos; repetição desnecessária pode amplificar boato. Crítica, opinião e sátira não se tornam desinformação deliberada por discordância institucional; eventual restrição depende de competência, fundamento, devido processo e proporcionalidade. Guias da <abbr title="Secretaria de Comunicação Social da Presidência da República">Secom</abbr> orientam fluxos, sem criar lei geral.
 
-| Categoria | Verdade/falsidade | Intenção |
-|---|---|---|
-| **misinformation** | falsa ou inexata | sem intenção de enganar |
-| **disinformation** | falsa/manipulada/enganosa | intenção deliberada de enganar |
-| **malinformation** | pode ser verdadeira | uso abusivo ou fora de contexto para causar dano |
+## Inclusão: conectividade é apenas o começo
 
-### Técnicas
-
-- **fabricado:** totalmente falso;
-- **manipulado:** material alterado;
-- **falso contexto:** material verdadeiro + data/local/evento errado;
-- **impostor:** imita fonte legítima;
-- **amplificação coordenada:** cria aparência artificial de consenso ou urgência.
-
-**Viralidade ≠ verdade. Muitos sites ≠ fontes independentes. Sintético ≠ falso.**
-
-## Verificação rápida
-
-**P-O-C-F-R**
-
-1. **Pausar** antes de compartilhar.
-2. **Origem:** autor, publicação inicial e canal.
-3. **Contexto:** data, local, recorte e versões.
-4. **Fonte primária:** ato, dado ou documento competente.
-5. **Registrar** grau de confiança e evidências proporcionais ao risco.
-
-Se ainda houver incerteza: diga **o que está confirmado** e **o que continua em apuração**.
-
-## Resposta institucional
-
-**Triar → verificar → corrigir → distribuir → atualizar.**
-
-- gravidade, alcance e urgência orientam a resposta;
-- nem todo erro exige grande pronunciamento;
-- correção deve destacar a informação correta e a fonte;
-- evite amplificar a falsidade desnecessariamente;
-- combater desinformação ≠ silenciar crítica ou opinião.
-
-## Inclusão digital
-
-### Acesso ≠ inclusão
-
-| Dimensão | Exemplo de barreira |
+| Obstáculo | Decisão sobre a jornada |
 |---|---|
-| conexão | baixa velocidade/franquia |
-| dispositivo | celular antigo/tela pequena |
-| custo | dados móveis/impressão |
-| competência | dificuldade de preencher ou avaliar informação |
-| linguagem | jargão e instruções confusas |
-| acessibilidade | incompatibilidade com tecnologia assistiva |
-| confiança | medo de fraude ou canal falso |
-| suporte | ausência de ajuda efetiva |
+| Rede fraca, dados móveis caros, aparelho antigo ou compartilhado | Página leve e compatível; salvar e retomar, avisar requisitos antes de começar. |
+| Letramento, jargão, medo de fraude ou erro confuso | Instruções claras, endereço verificável, erro acionável, protocolo e suporte. |
+| Leitor de tela, teclado ou limitação cognitiva/sensorial | Todas as etapas e documentos devem oferecer acesso equivalente. |
+| Canal de ajuda depende da mesma ferramenta que falhou | Oferecer meio alternativo ou atendimento assistido sem compartilhar credenciais. |
 
-### Digital ≠ exclusivo
+**Digital por padrão não é digital exclusivo.** A Lei nº 14.129/2021 prevê acessibilidade e possibilidade de atendimento presencial no seu âmbito; para Estado e tribunal estadual, sua aplicação depende da adoção de comandos por ato normativo próprio (art. 2º). A Lei nº 15.263/2025, de **linguagem simples**, alcança a administração direta e indireta de todos os Poderes e entes. Informar primeiro o essencial, usar frases diretas, explicar termo técnico e testar compreensão; simplificar forma sem perder precisão jurídica.
 
-Lei nº 14.129/2021, no seu âmbito:
+## Acessibilidade: lei, referência técnica e serviço inteiro
 
-- tecnologias de **amplo acesso**;
-- autosserviço preferencial;
-- **sem prejuízo do atendimento presencial**;
-- para demais entes federados, aplicação depende da adoção prevista no art. 2º.
-
-## Linguagem simples — Lei nº 15.263/2025
-
-Aplicável à administração direta e indireta de **todos os Poderes da União, Estados, DF e Municípios**.
-
-Priorize:
-
-- informação principal primeiro;
-- voz ativa;
-- frases diretas;
-- menos redundância e imprecisão;
-- linguagem acessível à pessoa com deficiência;
-- teste de compreensão com o público-alvo.
-
-**Linguagem simples ≠ retirar precisão jurídica.**
-
-## Acessibilidade digital
-
-### Natureza das referências
-
-| Referência | Natureza |
+| Fonte | Qual regra recuperar? |
 |---|---|
-| <abbr title="Lei Brasileira de Inclusão">LBI</abbr>, art. 63 | obrigação jurídica de acessibilidade nos sítios abrangidos |
-| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1 | modelo brasileiro para governo eletrônico |
-| <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2 | recomendação técnica <abbr title="World Wide Web Consortium">W3C</abbr> |
-| <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> NBR 17225:2025 | norma brasileira para conteúdo e aplicações web |
-| Lei nº 15.263/2025 | política de linguagem simples |
+| <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>, art. 63 | Acessibilidade **obrigatória** nos sítios de governo e empresas abrangidas, conforme melhores práticas e diretrizes internacionais. |
+| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1 | Recomendações de acessibilidade para sítios e portais; observar âmbito de incorporação, sem equiparar documento técnico à própria lei. |
+| <abbr title="Diretrizes de Acessibilidade para Conteúdo Web">WCAG</abbr> 2.2 | Diretriz internacional: **perceptível, operável, compreensível, robusto**. A, AA e AAA são níveis de critérios de sucesso, não percentuais de usuários. |
+| <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> <abbr title="Norma Brasileira">NBR</abbr> 17225:2025 | Norma técnica brasileira para conteúdo e aplicações web; verifique se foi incorporada pelo regime aplicável. |
 
-### POUR
-
-- **P**erceptível
-- **O**perável
-- **U**nderstandable / Compreensível
-- **R**obusto
-
-A, AA e AAA = **níveis de critérios de sucesso**, não percentuais de usuários.
-
-### Barreiras que caem em prova
-
-| Barreira | Resposta |
+| Barreira no serviço | Resposta identificável |
 |---|---|
-| imagem informativa | alternativa textual |
-| só mouse | teclado + foco perceptível |
-| campo sem identificação | rótulo e instrução |
-| erro só por cor/código | texto + ação corretiva |
-| mídia sem alternativa | recurso equivalente |
-| PDF-imagem | conteúdo pesquisável/acessível |
-| CAPTCHA inacessível | alternativa equivalente acessível |
+| Imagem informativa, campo sem rótulo ou erro só por cor | Texto equivalente, rótulo/instrução e correção compreensível. |
+| Etapa só pelo mouse ou foco invisível | Teclado com foco perceptível. |
+| Vídeo com imagem descrita, mas áudio sem alternativa | **Legenda sincronizada e transcrição/alternativa textual** do áudio e informação visual relevante; descrever só imagem não transmite a fala. |
+| <abbr title="Portable Document Format">PDF</abbr> como mera imagem ou <abbr title="Teste automatizado para distinguir humanos de robôs">CAPTCHA</abbr> inacessível | Conteúdo pesquisável/legível e mecanismo equivalente acessível. |
 
-Automação de teste ajuda, mas **não garante** acessibilidade.
+**Descoberta → autenticação → formulário → anexos → protocolo → acompanhamento/recurso → suporte.** Página inicial acessível não compensa etapa obrigatória inacessível. Teste automático detecta parte das barreiras; conclua a jornada com pessoas e tecnologias assistivas.
 
-## Jornada completa
-
-**Descoberta → requisitos → autenticação → formulário → anexos/assinatura → pagamento → protocolo → acompanhamento/recurso → documentos/suporte**
-
-Página inicial acessível + etapa obrigatória inacessível = **jornada inacessível**.
-
-## Pegadinhas-relâmpago
-
-- ética digital ≠ segurança da informação;
-- legalidade ≠ análise ética completa;
-- automação ≠ ausência de responsável;
-- misinformation ≠ disinformation;
-- malinformation pode ser verdadeira;
-- viralidade ≠ veracidade;
-- conteúdo sintético ≠ necessariamente falso;
-- combate à desinformação ≠ censura genérica;
-- conexão ≠ inclusão;
-- digitalização ≠ canal único;
-- linguagem simples ≠ simplificação incorreta;
-- acessibilidade ≠ apenas contraste;
-- WCAG/eMAG/NBR ≠ a própria lei;
-- teste automático ≠ conformidade garantida;
-- página acessível ≠ jornada acessível.
+**Corte:** edital nº 1 datado de 6/7/2026, publicação informada pelo Tribunal em **7/7/2026**; separe vigência de lei, natureza técnica das recomendações e atualização posterior de interfaces.
