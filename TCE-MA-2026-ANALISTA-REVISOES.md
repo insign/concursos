@@ -136,7 +136,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
-| H036 | `estruturas-logicas` | = | V | — |
+| H036 | `estruturas-logicas` | = | V | [`0bcebdb`](https://github.com/insign/concursos/commit/0bcebdb9b19aa382d22a106a0635806d6e849d4e) |
 | H037 | `logica-argumentacao-inferencias` | = | V | — |
 | H038 | `proposicoes-tabelas-verdade` | = | V | — |
 | H039 | `equivalencias-de-morgan-diagramas-logicos` | `equivalencias-de-morgan` | V | — |
