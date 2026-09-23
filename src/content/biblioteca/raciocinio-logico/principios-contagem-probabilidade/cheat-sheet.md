@@ -1,231 +1,39 @@
 # Princípios de contagem e probabilidade
 
-## Matriz de decisão
+**Defina o resultado antes da fórmula:** trocar duas pessoas muda uma comissão sem cargos? Não. Muda presidente e vice? Sim. Alternativas **disjuntas** somam; etapas sucessivas multiplicam as opções efetivamente disponíveis em cada etapa.
 
-| Pergunta | Se sim |
+## Escolha a contagem
+
+Considere $n$ objetos/tipos e $k$ escolhas. Em fatoriais, $0!=1$.
+
+| Resultado diferente quando... | Contagem | Condições |
+|---|---|---|
+| Usa todos os distintos e troca a ordem | $n!$ (permutação) | $n\ge0$. |
+| Escolhe parte, com ordem/cargos | $A_{n,k}=\dfrac{n!}{(n-k)!}$ | $0\le k\le n$; sem reposição. |
+| Escolhe parte, sem ordem | $C_{n,k}=\dfrac{n!}{k!(n-k)!}$ | $0\le k\le n$; sem reposição. |
+| Escolhe em etapas, com repetição e ordem | $n^k$ | $n\ge1$, $k\ge0$; todas as opções disponíveis em cada etapa. |
+| Ordena $n$ itens com cópias iguais | $\dfrac{n!}{a_1!\cdots a_r!}$ | Grupos indistinguíveis de tamanhos $a_i$, com $\sum_i a_i=n$. |
+| Escolhe $k$ entre $n$ tipos, repetição sem ordem | $\binom{n+k-1}{k}$ | $n\ge1$, $k\ge0$. |
+| Dispõe $n$ distintos em círculo sem assento marcado | $(n-1)!$ | $n\ge1$; rotações equivalem; reflexões só se o comando permitir. |
+
+**Restrição:** fixe posições antes de contar; junte vizinhos em bloco e conte sua ordem interna; para separar, use lacunas ou total menos adjacentes. Em numeral, zero não ocupa a primeira posição. Trocas de cópias iguais não criam novas ordens. “Pelo menos um” costuma favorecer o complemento “nenhum”.
+
+Para alternativas sobrepostas, subtraia a interseção: $|A\cup B|=|A|+|B|-|A\cap B|$. Em três conjuntos, subtraia as três interseções de pares e devolva a interseção tripla. Ao distribuir $N\ge0$ objetos em $r\ge1$ caixas, **alguma** contém ao menos $\lceil N/r\rceil$; isso não identifica qual nem garante quantidade exata. Com 31 objetos e 6 caixas, o maior mínimo garantido é 6: se cada caixa tivesse no máximo 5, só caberiam 30.
+
+## Probabilidade: identifique o universo
+
+Em espaço finito de resultados elementares <abbr title="que têm a mesma probabilidade de ocorrer">equiprováveis</abbr>, $P(A)=|A|/|\Omega|$ para evento $A$ em $\Omega$, o conjunto de todos os resultados possíveis. Em dois dados honestos distinguíveis, **36 duplas ordenadas** são <abbr title="que têm a mesma probabilidade de ocorrer">equiprováveis</abbr>; as somas não são.
+
+| Gatilho | Regra e condição |
 |---|---|
-| alternativas mutuamente excludentes? | somar |
-| etapas sucessivas? | multiplicar |
-| usa todos os objetos distintos e ordem importa? | permutação |
-| escolhe parte e ordem importa? | arranjo |
-| escolhe parte e ordem não importa? | combinação |
-| há cópias indistinguíveis? | dividir pelos fatoriais das repetições |
-| repetição permitida e ordem não importa? | combinação com repetição |
-| rotações são equivalentes? | permutação circular |
+| Não A | $P(A^c)=1-P(A)$. |
+| A ou B, incluindo ambos | $P(A\cup B)=P(A)+P(B)-P(A\cap B)$; se disjuntos, interseção zero. |
+| A sabendo que B | $P(A\mid B)=P(A\cap B)/P(B)$, **se $P(B)>0$**; $P(A\cap B)=P(A\mid B)P(B)$. |
+| A e B independentes | $P(A\cap B)=P(A)P(B)$; com $P(B)>0$, $P(A\mid B)=P(A)$. |
+| Ao menos um sucesso | $1-(1-p)^t$, se $t\ge1$ tentativas independentes têm, cada uma, sucesso com chance $0\le p\le1$. |
 
-## Fórmulas de contagem
+**Exclusão mútua não é independência:** se ambos os eventos têm probabilidade positiva e não ocorrem juntos, conhecer um elimina o outro. Sem reposição, composição e chance seguinte em geral mudam; com reposição, a composição é restaurada, mas verifique as condições reais do experimento. $P(A\mid B)$ e $P(B\mid A)$ respondem a perguntas diferentes.
 
-$$
-n!,\qquad 0!=1
-$$
+**Origens possíveis:** se $B_1,\ldots,B_m$ formam uma <abbr title="divisão do espaço em eventos que não se sobrepõem e cobrem todos os resultados">partição</abbr>, com $P(B_i)>0$, então $P(A)=\sum_i P(A\mid B_i)P(B_i)$. Observado $A$ com $P(A)>0$, $P(B_j\mid A)=P(A\mid B_j)P(B_j)/P(A)$. O peso inicial $P(B_j)$ é a <abbr title="probabilidade de uma origem antes de observar a nova evidência">taxa-base</abbr>; não o omita ao inverter o condicionamento.
 
-$$
-P_n=n!
-$$
-
-$$
-A_{n,p}=\frac{n!}{(n-p)!}
-$$
-
-$$
-C_{n,p}=\binom np=\frac{n!}{p!(n-p)!}
-$$
-
-$$
-A_{n,p}=C_{n,p}\,p!
-$$
-
-Permutação com repetição:
-
-$$
-\frac{n!}{a_1!\cdots a_r!}
-$$
-
-Circular:
-
-$$
-(n-1)!
-$$
-
-Combinação com repetição:
-
-$$
-\binom{n+p-1}{p}
-$$
-
-## Restrições
-
-- **Juntos:** forme um bloco; conte a ordem interna se ela puder variar.
-- **Separados:** use lacunas ou total menos adjacentes.
-- **Posição fixa:** retire objeto e posição antes de permutar.
-- **Número:** zero não inicia numeral.
-- **Repetidos:** trocas de cópias iguais não criam novo resultado.
-- **Círculo:** rotações coincidem; reflexão só coincide se o enunciado disser.
-
-## Complemento e inclusão-exclusão
-
-Contagem:
-
-$$
-N(\text{desejado})
-=N(\text{total})-N(\text{indesejado})
-$$
-
-Dois conjuntos:
-
-$$
-|A\cup B|=|A|+|B|-|A\cap B|
-$$
-
-Três:
-
-$$
-|A\cup B\cup C|
-=\sum|A|-\sum|A\cap B|+|A\cap B\cap C|
-$$
-
-> “Pelo menos um” → pense primeiro em **nenhum**.
-
-## Casa dos pombos
-
-$$
-N\text{ objetos em }r\text{ caixas}
-\Rightarrow
-\text{alguma caixa tem ao menos }
-\left\lceil\frac Nr\right\rceil
-$$
-
-## Probabilidade básica
-
-Em espaço finito **equiprovável**:
-
-$$
-P(A)=\frac{|A|}{|\Omega|}
-$$
-
-$$
-0\le P(A)\le1
-$$
-
-$$
-P(A^c)=1-P(A)
-$$
-
-$$
-P(A\cup B)
-=P(A)+P(B)-P(A\cap B)
-$$
-
-Se mutuamente exclusivos:
-
-$$
-P(A\cap B)=0
-$$
-
-## Condicional × independência
-
-Condicional:
-
-$$
-P(A\mid B)=\frac{P(A\cap B)}{P(B)},
-\qquad P(B)>0
-$$
-
-Produto:
-
-$$
-P(A\cap B)=P(A\mid B)P(B)
-$$
-
-Independência:
-
-$$
-P(A\cap B)=P(A)P(B)
-$$
-
-Quando definida:
-
-$$
-P(A\mid B)=P(A)
-$$
-
-> **Não confunda exclusão mútua com independência.** Eventos positivos mutuamente exclusivos são dependentes.
-
-## Reposição
-
-Sem reposição: composição e denominador normalmente mudam.
-
-Com reposição: composição é restaurada.
-
-Exemplo, urna com 3 vermelhas e 2 azuis:
-
-$$
-P(VV\text{ sem reposição})
-=\frac35\frac24=\frac3{10}
-$$
-
-$$
-P(VV\text{ com reposição})
-=\frac35\frac35=\frac9{25}
-$$
-
-## Pelo menos um sucesso
-
-Se as $n$ tentativas são independentes e cada uma tem sucesso com probabilidade $p$:
-
-$$
-P(\ge1\text{ sucesso})
-=1-(1-p)^n
-$$
-
-## Probabilidade total e Bayes
-
-Se $B_1,\ldots,B_k$ formam <abbr title="eventos disjuntos cuja união é o espaço amostral">partição</abbr>:
-
-$$
-P(A)=\sum_iP(A\mid B_i)P(B_i)
-$$
-
-Bayes:
-
-$$
-P(B_j\mid A)
-=
-\frac{P(A\mid B_j)P(B_j)}
-{\sum_iP(A\mid B_i)P(B_i)}
-$$
-
-> Taxa-base importa. Em geral, $P(A\mid B)\ne P(B\mid A)$.
-
-## Modelos rápidos
-
-- $n$ moedas honestas → $2^n$ sequências equiprováveis.
-- dois dados distinguíveis → 36 duplas ordenadas.
-- exatamente $k$ posições especiais em $n$ → $\binom nk$.
-- senha/código → conte posição por posição.
-- urna/cartas → verifique ordem e reposição.
-
-## Pegadinhas
-
-- Comissão ≠ pódio.
-- Alternativas somam; etapas multiplicam.
-- Repetição não é automática.
-- “Pelo menos um” → complemento “nenhum”.
-- Somas de dois dados não são equiprováveis.
-- Zero não pode ocupar o primeiro algarismo.
-- União sobreposta exige subtrair a interseção.
-- Multiplicar $P(A)P(B)$ exige independência.
-- Sem reposição, a segunda probabilidade muda.
-- $P(A\mid B)$ ≠ $P(B\mid A)$.
-- Rotação ≠ reflexão.
-
-## Checklist
-
-1. O que conta como resultado diferente?
-2. A ordem importa?
-3. Há repetição ou objetos iguais?
-4. Existem restrições de posição ou adjacência?
-5. Os resultados elementares são equiprováveis?
-6. Há informação condicionante?
-7. Há reposição?
-8. O resultado probabilístico ficou entre 0 e 1?
+**Conferência final:** ordem, repetição, restrição, resultados <abbr title="que têm a mesma probabilidade de ocorrer">equiprováveis</abbr>, evento condicionante e reposição; a probabilidade calculada deve estar entre 0 e 1.

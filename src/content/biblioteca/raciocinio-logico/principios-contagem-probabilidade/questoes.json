@@ -289,9 +289,9 @@
     },
     {
       "id": "q5158",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Distribuindo 31 processos entre 6 equipes, alguma equipe receberá pelo menos",
+      "prompt": "Distribuindo 31 processos entre 6 equipes, qual é o MAIOR número de processos que se pode garantir que alguma equipe receberá pelo menos?",
       "options": [
         {"id": "A", "text": "5 processos."},
         {"id": "B", "text": "31 processos."},
@@ -300,7 +300,7 @@
         {"id": "E", "text": "8 processos."}
       ],
       "correctOptionId": "C",
-      "explanation": "Pelo princípio da casa dos pombos, a concentração mínima garantida é ceil(31/6)=6."
+      "explanation": "Se cada equipe recebesse no máximo 5 processos, seriam distribuídos apenas 30; portanto, alguma recebe ao menos 6. A distribuição 6, 5, 5, 5, 5, 5 mostra que não se pode garantir 7. Assim, 6 é o maior limite inferior garantido. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q5159",
