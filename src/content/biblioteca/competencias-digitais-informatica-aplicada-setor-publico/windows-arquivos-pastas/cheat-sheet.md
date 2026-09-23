@@ -1,145 +1,70 @@
 # Microsoft Windows: revisão rápida
 
-## 1. Versão e objetos
+## 1. Identifique o objeto antes do comando
 
-| Item | Regra |
+| Objeto | O que muda quando se age sobre ele |
 |---|---|
-| Windows | sistema operacional |
-| Explorador de Arquivos | aplicativo para navegar e gerenciar itens |
-| arquivo | unidade de informação identificada por nome e caminho |
-| pasta | contêiner hierárquico |
-| atalho | referência; não é cópia do destino |
-| ícone fixado | acesso conveniente; não instala nem duplica |
+| Windows | sistema operacional: coordena recursos, dispositivos, usuários e execução dos aplicativos |
+| Aplicativo | programa que trabalha com arquivos; abrir ou fechar sua janela não cria, salva ou exclui automaticamente o documento |
+| Arquivo | dados armazenados sob nome e caminho; salvar grava alterações, fechar não garante gravação |
+| Pasta (diretório) | contém arquivos e subpastas; mover a pasta conserva sua hierarquia interna |
+| Atalho | referência a um arquivo, pasta ou programa; remover o atalho não apaga o destino |
+| Ícone fixado | acesso na barra de tarefas ou no Iniciar; fixar não instala, e desafixar não desinstala |
+| Janela, aba e processo | janela/aba mostram conteúdo; um processo pode continuar em segundo plano após fechar a janela |
 
-- A versão citada na questão prevalece.
-- 24H2 e 25H2 atendem computadores existentes; 26H1 é voltada a certos dispositivos novos e não é atualização local geral.
-- Fechar janela não garante encerrar todo processo em segundo plano.
+**Recorte:** o edital não escolhe uma versão. Vale a versão indicada no enunciado; menus e suporte a formatos variam. No Windows 11, `24H2` e `25H2` atendem equipamentos existentes, enquanto `26H1` se destina a certos dispositivos novos e não é atualização local geral. Não projete a interface atual sobre uma questão de Windows 10.
 
-## 2. Interface e Explorador
+## 2. Localize o comando e o lugar
 
-| Recurso | Função |
+| Na interface | Para que serve / cuidado |
 |---|---|
-| Área de trabalho | superfície principal; `Win + D` mostra ou oculta |
-| Menu Iniciar | pesquisa, aplicativos, arquivos, conta, configurações e energia |
-| Barra de tarefas | inicia e alterna apps; fixado ≠ em execução |
-| `Win + A` | Configurações Rápidas no Windows 11 |
-| `Win + N` | notificações e calendário no Windows 11 |
-| `Alt + Tab` | alterna janelas |
-| `Win + Tab` | Visão de Tarefas |
-| `Win + E` | abre o Explorador |
+| Área de trabalho e Iniciar | acesso a janelas, aplicativos, pesquisa, conta, configurações e energia |
+| Barra de tarefas | abre ou alterna janelas; ícone fixado não indica que o programa esteja em execução |
+| Explorador de Arquivos | gerencia locais e itens; Início/Acesso Rápido contém referências e itens recentes, sem mover a pasta fixada |
+| Barra de endereços | mostra ou recebe **caminho**; voltar no histórico difere de subir à pasta que contém a atual |
+| Painel de navegação / conteúdo | árvore de locais / itens do local selecionado |
+| Caixa de pesquisa | busca no escopo escolhido; não substitui o endereço |
+| Painel de visualização / detalhes | prévia compatível / propriedades; não modifica o conteúdo |
 
-Partes do Explorador:
+**Atalhos que decidem:** `Win + E` abre o Explorador; `Win + D` mostra/oculta a área de trabalho; `Alt + Tab` alterna janelas; `Win + Tab` mostra a Visão de Tarefas; `Win + L` bloqueia sem encerrar a sessão. No Windows 11, `Win + A` abre Configurações Rápidas e `Win + N`, notificações. No Explorador, `Ctrl + T` abre aba, `Ctrl + W` fecha a aba ativa (ou a janela, se única), `Ctrl + Tab` alterna abas e `Ctrl + N` abre outra janela. Fechar aba não exclui a pasta.
 
-- barra de endereços = caminho;
-- caixa de pesquisa = busca no escopo atual;
-- painel de navegação = árvore de locais;
-- painel de conteúdo = itens do local;
-- painel de visualização = prévia;
-- painel de detalhes = propriedades;
-- barra de status = seleção e controles de apresentação.
+## 3. Leia o caminho e o nome
 
-Abas:
+Em `C:\Users\Ana\Documents\relatorio.docx`, `C:` identifica um **volume** (unidade lógica), `C:\` é sua raiz, `\` separa níveis e `Ana` é a pasta do perfil no exemplo. Letras diferentes indicam volumes distintos, não necessariamente discos físicos. O mesmo nome pode existir em pastas diferentes.
 
-- `Ctrl + T`: nova aba;
-- `Ctrl + W`: fecha aba ativa; fecha a janela se for a única;
-- `Ctrl + Tab`: próxima aba;
-- `Ctrl + Shift + Tab`: aba anterior;
-- fechar aba não exclui a pasta.
-
-## 3. Caminhos, nomes, extensões e pesquisa
-
-Exemplo: `C:\Users\Ana\Documents\relatorio.docx`
-
-- `C:` = unidade; `C:\` = raiz; `\` separa níveis;
-- mesmo nome pode existir em caminhos diferentes;
-- trocar `.txt` por `.pdf` não converte o conteúdo;
-- extensão pode estar oculta e não prova segurança.
-
-Nomes:
-
-| Regra | Exemplos |
+| Decisão | Regra curta |
 |---|---|
-| proibidos | `<`, `>`, `:`, `"`, `/`, `\`, `?`, `*` e barra vertical |
-| reservados | `CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9`, `LPT1`–`LPT9` |
-| extensão não neutraliza | `CON.txt` continua inválido |
-| terminação | não encerrar por espaço ou ponto |
+| Nome comum | não aceita `< > : " / \ ? *` nem a barra vertical (&#124;); nomes de dispositivo como `CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9` e `LPT1`–`LPT9` permanecem reservados mesmo com extensão; a interface não aceita terminar com espaço ou ponto |
+| Extensão | sufixo do nome, como `.docx`; ajuda a associar aplicativo, mas pode estar oculto, não comprova segurança nem transforma o formato real ao ser renomeado |
+| Aplicativo padrão | define com que programa um tipo abre; mudar a associação não converte o arquivo |
+| Exibição | Ícones/miniaturas, Lista, Detalhes e Conteúdo mudam a apresentação; ordenar, agrupar e filtrar não mudam o caminho nem criam pastas |
+| Pesquisa | depende de local, permissões, formato e índice (catálogo que acelera a busca); nome do arquivo e palavras em seu conteúdo são buscas distintas |
 
-Pesquisa e indexação:
+O índice Clássico cobre por padrão pastas usuais do perfil e área de trabalho; o Avançado amplia locais, sujeito a exclusões. **Sem resultado não prova ausência do arquivo.** `Ctrl + E`/`Ctrl + F` põem foco na pesquisa; `Ctrl + L`/`Alt + D`, no endereço.
 
-- o escopo atual importa;
-- modo Clássico indexa áreas comuns; Aprimorado amplia o alcance;
-- índice pode conter nome, caminho, propriedades e conteúdo compatível;
-- ausência no índice ≠ inexistência;
-- `Ctrl + E`/`Ctrl + F`: pesquisa; `Ctrl + L`/`Alt + D`: endereço.
+## 4. Preveja o resultado da operação
 
-Exibições:
+Seleção: clique escolhe um item; `Ctrl` + clique, itens separados; `Shift` + clique, intervalo; `Ctrl + A`, todos os itens da área ativa. `Ctrl + C` copia para a área de transferência (prepara a colagem sem tirar a origem), `Ctrl + X` recorta para mover, `Ctrl + V` cola no destino. `Ctrl + Z` pode desfazer uma ação recente compatível, não recupera toda exclusão. `F2` renomeia; `Ctrl + Shift + N` cria pasta; `Alt + Enter` abre propriedades.
 
-- Ícones = miniatura/ícone;
-- Lista = apresentação compacta;
-- Detalhes = linhas e colunas;
-- Conteúdo/Blocos = nome com propriedades;
-- classificar, agrupar, filtrar ou mudar exibição não move arquivos.
-
-## 4. Selecionar, copiar, mover e excluir
-
-| Seleção | Resultado |
-|---|---|
-| clique | um item |
-| `Ctrl` + clique | itens não contíguos |
-| `Shift` + clique | intervalo contíguo |
-| `Ctrl + A` | todos os itens da área ativa |
-
-| Operação | Atalho |
-|---|---|
-| copiar | `Ctrl + C` |
-| recortar | `Ctrl + X` |
-| colar | `Ctrl + V` |
-| desfazer | `Ctrl + Z` |
-| nova pasta | `Ctrl + Shift + N` |
-| renomear | `F2` |
-| propriedades | `Alt + Enter` |
-
-Arrastar e soltar:
-
-| Origem/destino | Sem tecla | `Shift` | `Ctrl` | `Ctrl + Shift` |
+| Arrastar entre pastas comuns | Sem tecla | Com `Shift` | Com `Ctrl` | Com `Ctrl + Shift` |
 |---|---|---|---|---|
-| mesmo volume | mover | mover | copiar | criar atalho |
-| volumes diferentes | copiar | mover | copiar | criar atalho |
+| Mesmo volume | move | move | copia | cria atalho |
+| Volumes diferentes | copia | move | copia | cria atalho |
 
-Lixeira:
+Confira o sinal junto ao ponteiro: destinos especiais, permissões e conflitos de nome podem alterar o resultado. Ao mover uma pasta para dentro de outra, a primeira permanece **subpasta** com seus arquivos; eles não são despejados diretamente na pasta de destino. **Enviar para > unidade removível** ao selecionar um arquivo normalmente o copia para a raiz dessa unidade e preserva o original, sem recriar todo o caminho de origem.
 
-- `Delete`/`Ctrl + D`: envia normalmente à Lixeira;
-- `Shift + Delete`: exclui sem Lixeira;
-- Restaurar retorna, em regra, ao local original;
-- rede, mídia removível, tamanho e configuração podem mudar o comportamento;
-- sem Lixeira não significa irrecuperável em sentido forense.
+Em volumes <abbr title="New Technology File System">NTFS</abbr> (sistema de arquivos que admite permissões), **herança** significa receber as regras de acesso da pasta de destino: copiar herda; mover dentro do mesmo volume preserva, em regra, as permissões originais; mover entre volumes herda. Ferramentas e configurações particulares podem mudar isso. Oculto afeta a apresentação; somente leitura afeta edição quando respeitado; permissão controla acesso; criptografia protege dados com chave. O <abbr title="Encrypting File System">EFS</abbr> (criptografia de arquivo por sistema de arquivos) exige edição e condições compatíveis; não está disponível no Windows Home.
 
-## 5. Compactação e programas
+## 5. Excluir, compactar e administrar programas
 
-- ZIP reúne e pode reduzir tamanho; não é sinônimo de criptografia.
-- JPEG e outros formatos já comprimidos podem reduzir pouco.
-- Windows 11 24H2 oferece suporte nativo a ZIP, RAR, 7z e TAR, mas não a todo arquivo criptografado.
-- instalar ≠ fixar ≠ criar atalho;
-- desafixar ou apagar atalho não desinstala;
-- mudar aplicativo padrão não converte arquivos;
-- `Ctrl + Shift + Esc` abre o Gerenciador de Tarefas;
-- Finalizar tarefa pode causar perda de dados não salvos;
-- `Win + L` bloqueia sem encerrar a sessão.
+| Situação | Decisão |
+|---|---|
+| `Delete` ou `Ctrl + D` no Explorador | item local elegível vai normalmente à Lixeira e sai da pasta original; Restaurar costuma devolvê-lo ao local de origem |
+| `Shift + Delete`, unidade removível ou compartilhamento de rede | não presuma passagem pela Lixeira local; tamanho do item e configuração para exclusão direta também importam |
+| Prazo e recuperação | Lixeira tem capacidade configurável; não há prazo universal de 30 dias. Sensor de Armazenamento pode limpar itens conforme sua configuração. Lixeira não é cópia de segurança |
+| Arquivo `.zip` | reúne e pode comprimir; extrair grava itens fora do pacote. Imagens já comprimidas podem quase não diminuir; compactar não criptografa |
+| Windows 11 `24H2` | suporte nativo a `.zip`, `.rar`, `.7z` e `.tar`, com limitações para arquivos compactados criptografados |
 
-**Aprofundamento <abbr title="New Technology File System">NTFS</abbr>:** mover no mesmo volume tende a preservar permissões; copiar ou mover para outro volume tende a herdar as permissões do destino.
+**Programas:** instalar pode exigir autorização administrativa (Controle de Conta de Usuário), conforme instalador e configuração; fixar ícone ou criar atalho não instala. Desinstalar remove o aplicativo pelo mecanismo próprio; apagar atalho não o faz. `Ctrl + Shift + Esc` abre o Gerenciador de Tarefas para examinar aplicativos, processos em segundo plano e processos do Windows; finalizar processo pode perder dados não salvos. Bloquear a sessão não encerra aplicativos.
 
-## 6. Pegadinhas e método
-
-- Explorador ≠ Windows.
-- Atalho ≠ cópia.
-- Fixar ≠ instalar.
-- Minimizar ≠ encerrar.
-- Renomear extensão ≠ converter.
-- Oculto ≠ criptografado.
-- Pesquisa sem resultado ≠ arquivo inexistente.
-- Fechar aba ≠ excluir pasta.
-- Classificar/agrupar ≠ mover.
-- ZIP ≠ criptografia.
-- Dado em Lixeira ≠ já apagado do local original e irrecuperável.
-
-Sequência: **objeto → operação → origem/destino → tecla → versão → configuração → efeito real**.
+**Pergunta de prova:** qual objeto, em qual versão e volume, recebe qual comando/modificador, sob quais configurações, com que efeito na origem e no destino?
