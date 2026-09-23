@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7539",
@@ -184,7 +184,7 @@
     },
     {
       "id": "q7545",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A crise do babaçu nos anos 1970-1980 relacionou-se a",
       "options": [
@@ -202,7 +202,7 @@
         },
         {
           "id": "D",
-          "text": "pecuarização, madeira, óleos concorrentes, defasagem tecnológica e políticas descontínuas."
+          "text": "pecuarização, madeira, óleos concorrentes e defasagem tecnológica."
         },
         {
           "id": "E",
@@ -210,7 +210,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A crise combinou mudanças no campo, no mercado de óleos e no processamento industrial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Mudanças no uso da terra e no acesso aos babaçuais, concorrência de óleos e dificuldades tecnológicas e de custo do processamento agravaram a crise relativa; não se trata de causa única. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7546",
