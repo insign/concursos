@@ -137,7 +137,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
 | H036 | `estruturas-logicas` | = | V | [`0bcebdb`](https://github.com/insign/concursos/commit/0bcebdb9b19aa382d22a106a0635806d6e849d4e) |
-| H037 | `logica-argumentacao-inferencias` | = | V | — |
+| H037 | `logica-argumentacao-inferencias` | = | V | [`513842cdc`](https://github.com/insign/concursos/commit/513842cdc31f896b25e22cd6535901b06fcbb575) |
 | H038 | `proposicoes-tabelas-verdade` | = | V | — |
 | H039 | `equivalencias-de-morgan-diagramas-logicos` | `equivalencias-de-morgan` | V | — |
 | H040 | `logica-primeira-ordem` | = | V | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H037: q52203702 e q52203705 exigem distinguir abdução, conceito ausente do `conteudo.md`; reavaliar aula/banco em escopo próprio antes da M03.
 
 - H029, H032, H033 e H035: `conteudo.md` confunde a data do ato E1 (6/7) com a publicação informada pelo Tribunal (7/7), marco do corte legislativo. Corrigir as aulas em revisão própria.
 - H029: aula descreve como atual em 6/9 o andamento do Tema 533, com sessão encerrada em 14/9 e sem inteiro teor confirmado no portal do STF; q522043 requer fundamento processual fora da aula. Revalidar publicação do julgado e banco na revisão própria.
