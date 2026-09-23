@@ -1,127 +1,43 @@
 # Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: órgãos e organização interna
 
-## Corte
+## Corte e pergunta de classificação
 
-- Edital: **6/7/2026**.
-- Regimento: Resolução Administrativa nº 1/2000 **com alterações vigentes até o edital**.
-- Resolução nº **391/2023** = peça-chave deste assunto.
-- Resolução nº **441/2026** é pré-edital, mas altera diárias; **não muda o art. 9º**.
+O Regimento aprovado pela Resolução Administrativa nº 1/2000 inclui as alterações vigentes até a **publicação** do Edital nº 1 (informada para **7/7/2026**; o ato é de **6/7**). A Resolução nº 391/2023, publicada em 7/12/2023, reformulou os arts. 9º, 16 e 22–25. A Resolução nº 441/2026, publicada antes do edital, altera diárias, sem mudar o rol do art. 9º.
 
-## Art. 9º — órgãos do Tribunal
+Antes de contar pessoas, identifique **qual conjunto a questão pede**: órgão enumerado no art. 9º, membro do Tribunal, órgão ministerial junto a ele ou estrutura administrativa de apoio.
 
-**P + 2C + P/V + C/O + 2CP + CT**
+## Art. 9º: rol de órgãos, não organograma completo
 
-| Bloco | Órgãos |
+| Função | Órgãos enumerados |
 | --- | --- |
-| colegiado central | Plenário |
-| colegiados fracionários | Primeira Câmara + Segunda Câmara |
-| direção | Presidência + Vice-Presidência |
-| integridade/relacionamento | Corregedoria + Ouvidoria |
-| comissões permanentes | Ética/Gestão de Pessoas/Processo Produtivo + Transformação Digital/Inovação Tecnológica e Jurídica |
-| comissão eventual | comissões temporárias |
+| Deliberação colegiada | Plenário; Primeira e Segunda Câmaras |
+| Direção | Presidência; Vice-Presidência |
+| Orientação interna e escuta | Corregedoria; Ouvidoria |
+| Colaboração | Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno; Comissão de Transformação Digital e Inovação Tecnológica e Jurídica; comissões temporárias |
 
-**Não entram no rol do art. 9º:** Secretaria, gabinetes, <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> e <abbr title="Ministério Público de Contas">MPC</abbr>.
+**Fora desse rol:** Secretaria, gabinetes, <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> (escola de formação) e <abbr title="Ministério Público de Contas">MPC</abbr> (órgão ministerial que atua junto ao Tribunal). Estar na instituição não equivale a ser órgão **do art. 9º**. A Câmara **do Tribunal** é colegiado interno; Câmara **Municipal** é Poder Legislativo do município. Corregedoria orienta/fiscaliza funções internas; Ouvidoria recebe manifestações da sociedade, sem julgar contas.
 
-## Órgão × estrutura de apoio
+## Pessoas e Presidência das Câmaras
 
-| Estrutura | Enquadramento |
-| --- | --- |
-| Plenário/Câmaras | órgãos colegiados |
-| Presidência/Vice | órgãos de direção |
-| Corregedoria/Ouvidoria | órgãos regimentais |
-| comissões | órgãos regimentais de colaboração |
-| MPC | órgão ministerial junto ao TCE/MA; fora do rol do art. 9º |
-| Secretaria | apoio administrativo; fora do art. 9º |
-| ESCEX | capacitação; fora do art. 9º |
+- **Sete Conselheiros** titulares; **três Conselheiros-Substitutos**, com ingresso por concurso de provas e títulos e regime próprio de substituição. Pessoa investida no cargo não se confunde com órgão colegiado ou Secretaria.
+- **Primeira Câmara (art. 16):** preside o Conselheiro que deixou a Presidência do Tribunal no **mandato imediatamente anterior**.
+- **Segunda Câmara (art. 16):** preside o Conselheiro **mais antigo no cargo dentre seus integrantes**, desde que **não tenha sido eleito** no mandato em curso Vice-Presidente, Corregedor ou Ouvidor. A referência é a antiguidade *na composição da Câmara*, com o filtro legal.
 
-## Membros
+## Comissões: compare composição, comando e fim
 
-- **7 Conselheiros** = titulares.
-- **3 Conselheiros-Substitutos** = carreira própria; ingresso por concurso de provas e títulos.
-- **4 Procuradores de Contas** = MPC.
+| Regra | Ética, Gestão de Pessoas e Processo Produtivo (art. 22) | Transformação Digital e Inovação Tecnológica e Jurídica (art. 22-A) | Temporária (art. 22-B) |
+| --- | --- | --- | --- |
+| Integrantes | Corregedor + **2 Conselheiros** + **1 Conselheiro-Substituto** + **1 Procurador de Contas** | **3 Conselheiros** + **2 Conselheiros-Substitutos** + **1 Procurador de Contas** | **2 ou mais**, exclusivamente Conselheiros ou Conselheiros-Substitutos |
+| Designação/criação | Integrantes designados pelo Pleno | Integrantes designados pelo Pleno | Pleno **ou Presidente** indica os membros no ato de criação |
+| Presidência | Conselheiro Corregedor | Conselheiro integrante que não exerça simultaneamente Vice-Presidência, Corregedoria, Ouvidoria ou Presidência de Câmara | Conforme o ato de criação |
+| Secretaria e substituição | Substituto integra como **secretário-executivo**; na ausência do Presidente, demais Conselheiros da comissão por antiguidade | Um dos dois Substitutos é **secretário-executivo**; na ausência do Presidente, demais Conselheiros da comissão por antiguidade | Extingue-se ao término do prazo fixado **ou** ao alcançar o objetivo |
 
-## Câmaras — art. 16
+Nas duas comissões permanentes há Procurador de Contas; na temporária, o rol de integrantes **não o inclui**. O art. 25 remete a **ato normativo** a definição das competências das permanentes e das atribuições de suas presidências e secretarias executivas: nome da comissão não basta para deduzir poderes.
 
-| Câmara | Quem preside |
-| --- | --- |
-| Primeira | Conselheiro que deixou a Presidência do TCE no mandato imediatamente anterior |
-| Segunda | Conselheiro mais antigo no cargo entre os integrantes, se não exercer Vice-Presidência, Corregedoria ou Ouvidoria no mandato em curso |
+## <abbr title="Ministério Público de Contas">MPC</abbr>: número e escolha da chefia
 
-**Pegadinha:** Câmara do TCE ≠ Câmara Municipal.
+**Quatro Procuradores de Contas**, órgão ministerial essencial à função de controle externo e fora do art. 9º. Ingresso por **concurso de provas e títulos**, participação da <abbr title="Ordem dos Advogados do Brasil">OAB</abbr>, bacharelado em Direito, **três anos de atividade jurídica** e respeito à ordem de classificação.
 
-## Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno — art. 22
+Para a **chefia**, os Procuradores formam **lista tríplice entre seus integrantes** → o **Governador** nomeia o Procurador-Geral **em quinze dias** → **mandato de dois anos**, com **uma recondução**. Não confundir a investidura na carreira com a escolha do Procurador-Geral.
 
-**C + 2C + 1CS + 1PC**
-
-- Corregedor;
-- + 2 Conselheiros;
-- + 1 Conselheiro-Substituto = **secretário-executivo**;
-- + 1 Procurador de Contas;
-- todos designados pelo Pleno.
-
-**Preside:** Corregedor.  
-**Substituição:** demais Conselheiros da comissão, por antiguidade.
-
-## Comissão de Transformação Digital e Inovação Tecnológica e Jurídica — art. 22-A
-
-**3C + 2CS + 1PC**
-
-- 3 Conselheiros;
-- 2 Conselheiros-Substitutos;
-- 1 dos Substitutos = **secretário-executivo**;
-- 1 Procurador de Contas;
-- designação pelo Pleno.
-
-**Presidente:** Conselheiro integrante que **não** exerça simultaneamente:
-- Vice-Presidência;
-- Corregedoria;
-- Ouvidoria;
-- Presidência de Câmara.
-
-**Substituição:** demais Conselheiros da comissão, por antiguidade.
-
-## Comissões temporárias — art. 22-B
-
-**2+ membros**, somente entre:
-- Conselheiros;
-- Conselheiros-Substitutos.
-
-**Criação:** Pleno **ou** Presidente.  
-**Fim:** término do prazo **ou** alcance do objetivo.
-
-## Competências das comissões — art. 25
-
-As competências das duas comissões permanentes e as atribuições de seus Presidentes e secretários-executivos são definidas por **ato normativo**.
-
-**Nome da comissão ≠ autorização para inventar competência.**
-
-## Corregedoria × Ouvidoria
-
-| Corregedoria | Ouvidoria |
-| --- | --- |
-| orientação e fiscalização funcional interna | escuta e relacionamento com a sociedade |
-| disciplina e integridade institucional | manifestações e participação social |
-| não é controle externo sobre jurisdicionados | não é órgão julgador |
-
-## MPC
-
-- Essencial à função de controle externo.
-- **4 Procuradores de Contas**.
-- Ingresso: concurso de provas e títulos + <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> + Direito + **3 anos de atividade jurídica**.
-- **Carreira:** página institucional informa nomeação dos Procuradores pelo Procurador-Geral, observada a classificação.
-- **Chefia do MPC:** lista tríplice entre Procuradores → Governador nomeia → 2 anos → 1 recondução.
-
-## Pegadinhas-relâmpago
-
-- Art. 9º **não** é organograma completo.
-- Secretaria **não** é órgão do art. 9º.
-- ESCEX **não** é órgão do art. 9º.
-- MPC atua **junto** ao TCE/MA; não é Secretaria.
-- Conselheiro-Substituto **não** é servidor administrativo comum.
-- Corregedoria interna **não** é controle externo.
-- Ouvidoria recebe manifestações; **não julga**.
-- As duas comissões permanentes têm **Procurador de Contas**.
-- Temporária: **2+**, só Conselheiros/Substitutos.
-- Temporária: criação pelo **Pleno ou Presidente**.
-- Primeira Câmara → **ex-Presidente**.
-- Segunda Câmara → **mais antigo**, com incompatibilidades.
+**Fronteira:** quórum, sessões e distribuição → 057; a Lei nº 9.936/2013 e unidades administrativas → 069–070.
