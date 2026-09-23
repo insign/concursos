@@ -1,125 +1,35 @@
-# Lei nº 9.936/2013: organização e controle externo
+# Lei nº 9.936/2013: organização, direção e unidades técnicas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>
 
-## Corte Normativo
+**Corte:** E1 publicado em 7/7/2026. Lei 9.936/2013, alterada em 2019 e pela Lei 12.822/2026 (republicada em 9/4); Resoluções 408/2024 e 417/2025, esta **republicada em 8/4/2025**. Cargos, requisitos e remuneração: assunto 070.
 
-| Fonte | Ponto-chave |
+## Que fonte descreve qual camada?
+
+| Camada | Regra útil |
 | --- | --- |
-| Lei nº 9.936/2013 | estrutura legal do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
-| Lei nº 11.170/2019 | quatro secretarias; 3 <abbr title="Núcleos de Fiscalização">NUFIS</abbr> e 12 Líderes na lei |
-| Resolução nº 408/2024 | estrutura administrativa geral |
-| Resolução nº 417/2025, republicada em 8/4/2025 | organização específica da <abbr title="Secretaria de Fiscalização">SEFIS</abbr>; **3 Gerentes** |
-| Lei nº 12.822/2026, republicada em 9/4/2026 | Gabinete do Procurador-Geral de Contas no art. 3º |
+| Tribunal | **7 Conselheiros + 3 Conselheiros-Substitutos + <abbr title="Ministério Público de Contas">MPC</abbr> com 4 Procuradores** (art. 2º). Membros deliberam conforme Lei Orgânica e Regimento; equipe técnica não julga. |
+| Secretaria do Tribunal (art. 9º) | Unidades estratégicas, técnicas e administrativas que apoiam as competências. <abbr title="Secretaria Geral">SEGER</abbr> dirige apoio geral; <abbr title="Secretaria de Gestão">SEGES</abbr>, gestão financeira, patrimônio e pessoas; <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr>, tecnologia e inovação; <abbr title="Secretaria de Fiscalização">SEFIS</abbr>, controle externo. As três especializadas vinculam-se à <abbr title="Secretaria Geral">SEGER</abbr>. |
+| <abbr title="Secretaria de Fiscalização">SEFIS</abbr> | Secretário dirige; Gerentes coordenam segmentos; Líderes chefiam equipes; Auditores Estaduais de Controle Externo executam fiscalização e instrução. **Relatório técnico subsidia a decisão; não a substitui.** |
 
-**Art. 7º da Resolução nº 417:** prevalece sobre as atribuições dos arts. 63 a 72 da Resolução nº 408.
+**Art. 3º da lei:** Pleno; Primeira e Segunda Câmaras; **7 gabinetes de Conselheiros, 3 de Substitutos e 4 de Procuradores**; Presidência, Vice-Presidência, Corregedoria e Ouvidoria; Secretaria; <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>; e **Gabinete do Procurador-Geral de Contas (inciso XII, Lei 12.822/2026)**. Este gabinete **não eleva** os quatro cargos de Procurador. A compilação digital da Lei 9.936 ainda omite o inciso XII; considere a alteração publicada antes do edital. A Lei Orgânica define atribuições da <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>; ato do Tribunal regulamenta as unidades (art. 11).
 
-## Composição
+## Lei × regulamento da fiscalização
 
-| Elemento | Quantidade |
-| --- | ---: |
-| Conselheiros | 7 |
-| Conselheiros-Substitutos | 3 |
-| Procuradores de Contas | 4 |
-
-- TCE/MA = órgão de **controle externo**.
-- Atribuições dos membros: Lei Orgânica + Regimento Interno.
-- **Tribunal ≠ Secretaria**: a Secretaria instrui, fiscaliza e apoia; não julga por si só.
-
-## Art. 3º Da Lei
-
-1. Pleno.
-2. Primeira e Segunda Câmaras.
-3. 7 Gabinetes de Conselheiros.
-4. 3 Gabinetes de Conselheiros-Substitutos.
-5. 4 Gabinetes de Procuradores de Contas.
-6. Presidência.
-7. Vice-Presidência.
-8. Corregedoria.
-9. Ouvidoria.
-10. Secretaria do Tribunal.
-11. <abbr title="Escola Superior de Controle Externo">ESCEX</abbr>.
-12. **Gabinete do Procurador-Geral de Contas** — incluído em 2026 antes do edital.
-
-## Secretaria Do Tribunal
-
-**Conjunto de unidades estratégicas + técnicas + administrativas.**
-
-| Secretaria | Direção essencial |
+| Fonte | Retrato expresso |
 | --- | --- |
-| <abbr title="Secretaria Geral">SEGER</abbr> | apoio técnico e serviços administrativos em geral |
-| <abbr title="Secretaria de Gestão">SEGES</abbr> | finanças, patrimônio e pessoas |
-| <abbr title="Secretaria de Tecnologia e Inovação">SETIN</abbr> | tecnologia e inovação |
-| SEFIS | controle externo |
+| **Lei 9.936**, art. 9º, § 1º, IV | Gabinete do Secretário de Fiscalização + **3 <abbr title="Núcleos de Fiscalização">NUFIS</abbr> + 12 Líderes**. |
+| **Resolução 417/2025**, arts. 2º–4º | <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> + <abbr title="Gerentes de Fiscalização">GEFIS</abbr> + Líderes; organização operacional em **3 gerências temáticas** e <abbr title="Núcleo de Informações Estratégicas">NIE</abbr>. |
+| **Resolução 408/2024** | Estrutura administrativa geral; arts. 63–72 têm suas **atribuições** superadas pela prevalência específica do art. 7º da Resolução 417. A resolução anterior não desaparece integralmente. |
 
-**Vínculo:** SEGES + SETIN + SEFIS → SEGER.
+**Leia a fonte pedida no comando:** a redação legal conserva os <abbr title="Núcleos de Fiscalização">NUFIS</abbr>; o ato específico posterior usa <abbr title="Gerentes de Fiscalização">GEFIS</abbr>. Não combine os dois retratos nem atribua à resolução revogação de lei.
 
-- Art. 10: finalidade e atribuições da ESCEX vêm da Lei Orgânica.
-- Art. 11: ato do TCE regulamenta Presidência, Vice, Corregedoria, Ouvidoria, unidades da Secretaria, ESCEX e <abbr title="Comitê de Gestão Orçamentária, Financeira e de Política Salarial">COFIP</abbr>.
+**Republicação da 417:** o primeiro dos **dois dispositivos numerados art. 3º** traz **1 Secretário, 3 Gerentes, 12 Líderes, 4 Assistentes**. A nota de republicação corrigiu o inciso II; **2 Gerentes** não é o quantitativo do texto republicado. O Comitê Gestor da Secretaria reúne Secretário e **3 Gerentes**.
 
-## Lei × Regulamento
-
-| Fonte | Estrutura finalística da SEFIS |
-| --- | --- |
-| Lei nº 9.936/2013 | Gabinete + **3 NUFIS** + **12 Líderes** |
-| Resolução nº 417/2025 | <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> + **3 <abbr title="Gerentes de Fiscalização">GEFIS</abbr>** + Líderes; <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> e segmentos temáticos no art. 4º |
-
-**Regra de prova:** identifique a fonte. Não misture os dois retratos e não diga que resolução revogou a lei.
-
-## Republicação Da Resolução nº 417
-
-A republicação de **8/4/2025** corrigiu o inciso II do primeiro art. 3º:
-
-| Função | Quantidade correta |
-| --- | ---: |
-| Secretário de Fiscalização | 1 |
-| Gerente de Fiscalização | **3** |
-| Líder de Fiscalização | 12 |
-| Assistente da SEFIS | 4 |
-
-- A nota oficial diz que a resolução foi republicada para corrigir o inciso II do art. 3º.
-- Permanece a peculiaridade formal de **dois dispositivos numerados como art. 3º**.
-- “2 Gerentes” = redação anterior à correção; **não use como regra vigente no corte**.
-
-## Cadeia Da SEFIS
-
-1. **Secretário:** dirige o controle externo; coordena, acompanha e avalia resultados.
-2. **Gerente:** planeja, coordena e supervisiona o segmento temático.
-3. **Líder:** chefia equipe e supervisiona ações, instruções e relatórios.
-4. **Auditores:** executam fiscalizações e instruções.
-
-## Organização Temática
-
-| Unidade | Matéria | Líderes |
+| Destino técnico na <abbr title="Secretaria de Fiscalização">SEFIS</abbr> | Objeto | Líderes |
 | --- | --- | ---: |
-| NIE | informações estratégicas; vínculo direto ao GAFIS | 1 |
-| Gerência I | ações de fiscalização | 4 |
-| Gerência II | atos normativos, consultas e atos de pessoal | 3 |
-| Gerência III | contas, <abbr title="Tomada de contas especial">TCE</abbr>, denúncias e representações | 4 |
-| **Total** |  | **12** |
+| <abbr title="Núcleo de Informações Estratégicas">NIE</abbr>, direto ao <abbr title="Gabinete do Secretário de Fiscalização">GAFIS</abbr> | Informações estratégicas; segue Resolução 266/2017. | 1 |
+| Gerência I | Ações de fiscalização do art. 44 da Lei Orgânica. | 4 |
+| Gerência II | Atos normativos; instrução de consultas e atos de pessoal. | 3 |
+| Gerência III | Contas de governo e gestores, tomadas especiais, denúncias e representações estaduais e municipais. | 4 |
+| **Total** | **1 + 4 + 3 + 4** | **12** |
 
-**Soma:** 1 + 4 + 3 + 4 = 12.
-
-## Matriz De Questão-Situação
-
-| Situação | Resposta |
-| --- | --- |
-| fiscalização de transparência municipal | Gerência I |
-| instrução técnica de consulta | Gerência II |
-| instrução de ato de pessoal | Gerência II |
-| contas de governo | Gerência III |
-| contas de gestor | Gerência III |
-| tomada de contas especial | Gerência III |
-| denúncia ou representação | Gerência III |
-| informação estratégica | NIE, ligado ao GAFIS |
-
-## Pegadinhas
-
-- Secretaria **não julga**.
-- NUFIS estão na **lei**; GEFIS estão no **regulamento específico posterior**.
-- A Resolução nº 408 não desapareceu inteira.
-- Arts. 63 a 72 da nº 408 não são o modelo específico atual da SEFIS.
-- A republicação da nº 417 fixa **3 Gerentes**.
-- O texto republicado ainda repete a numeração “art. 3º”.
-- NIE não está no rol sintético do art. 2º, mas aparece no art. 4º, § 2º.
-- Gerência I = fiscalização; II = normas/consultas/pessoal; III = contas/TCE/denúncias/representações.
-- Relatório técnico subsidia decisão; não equivale a julgamento.
-- Cargos, códigos, valores, requisitos e anexos ficam no Assunto 070.
+O <abbr title="Núcleo de Informações Estratégicas">NIE</abbr> aparece no **art. 4º, § 2º**, ainda que não no rol sintético do art. 2º. **Gerente** planeja e coordena o segmento; **Líder** chefia e supervisiona planejamento, execução e relatório; **Auditor** faz o trabalho técnico. A distribuição é por **matéria**, não pelas antigas fases preventiva, concomitante e posterior.
