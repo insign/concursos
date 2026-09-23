@@ -208,7 +208,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H090 | `extrativismo-vegetal-animal-mineral` | `extrativismo-vegetal-animal-min` | V | [`e281217`](https://github.com/insign/concursos/commit/e28121728d6813997e6f2d6ffbde420dd583007a) |
 | H091 | `industrias-base-transformacao` | = | V | [`d3f1f88`](https://github.com/insign/concursos/commit/d3f1f880bc55d6a90c0477fe82b4770e12eb55da) |
 | H092 | `comercio-telecom-transportes` | = | V | [`fd8f2bc`](https://github.com/insign/concursos/commit/fd8f2bcb54b6db9c9c1b30f0360ad2003c72929b) |
-| H093 | `malha-viaria-portos-aeroportos` | = | V | — |
+| H093 | `malha-viaria-portos-aeroportos` | = | V | [`4fc457b`](https://github.com/insign/concursos/commit/4fc457b790d1f775c6161ad76a41857d90dd7f72) |
 | H094 | `cultura-maranhense` | = | V | — |
 
 ### M07 — Noções de Direitos Humanos
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H093: a aula trata 6/7 como publicação do E1, embora o Tribunal registre 7/7, e incorpora notícia de 27/8 e mudança empresarial de 1/9 após o corte de 4/8; corrigir a aula em escopo próprio.
 
 - H088: a aula usa a estimativa de 2026 como mais recente no corte de 4/8, mas o arquivo oficial do IBGE foi disponibilizado apenas em 25/8 e a publicação é posterior; corrigir a aula em escopo próprio.
 - H084–H085: as aulas tratam 6/7/2026 (data do ato E1) como publicação e corte; notícia institucional registra publicação em 7/7. Corrigir as aulas em revisão própria.
