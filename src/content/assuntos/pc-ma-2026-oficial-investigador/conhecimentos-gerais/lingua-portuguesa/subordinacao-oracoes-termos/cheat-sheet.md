@@ -1,140 +1,60 @@
 # Subordinação entre orações e termos
 
-## Regra-mãe
+**Subordinação = dependência sintática.** Localize quem depende de quem e com qual função. “Sentido completo” e posição inicial não identificam a principal.
 
-**Subordinação = dependência sintática.**
+## Termos: complemento ou modificação?
 
-Pergunte:
+`confiar na equipe` → complemento verbal; `favorável ao recurso` e `necessidade de revisão` → complemento nominal; `relatório sigiloso` → adjunto adnominal; `agir com cautela` → circunstância verbal.
 
-1. qual é o núcleo/regente ou antecedente?
-2. qual unidade depende dele?
-3. a dependente completa, modifica ou estabelece circunstância?
+**Complemento nominal:** completa substantivo/adjetivo/advérbio; alvo ou conteúdo é pista. **Adjunto adnominal:** determina ou caracteriza substantivo; agente, possuidor, origem ou característica são pistas. Preposição e possibilidade de omissão **não decidem sozinhas**.
 
-“Ter sentido completo” **não** separa coordenação de subordinação.
+## Substantivas: “isso” revela uma pista; a função confirma
 
-## Entre termos
-
-| Estrutura | Leitura |
+| Tipo | Reconhecimento |
 | --- | --- |
-| confiar **na equipe** | complemento do verbo |
-| favorável **ao recurso** | complemento do adjetivo |
-| necessidade **de revisão** | complemento do nome |
-| relatório **sigiloso** | modificação do substantivo |
-| agir **com cautela** | circunstância verbal |
+| subjetiva | **isso** convém — sujeito |
+| objetiva direta | informou **isso** — complemento verbal direto |
+| objetiva indireta | duvida **disso** — complemento verbal preposicionado |
+| completiva nominal | dúvida **disso** — complemento do nome |
+| predicativa | a conclusão é **isso** — predicativo do sujeito |
+| apositiva | uma exigência: **que todos assinem** — explica termo anterior |
 
-### Complemento nominal × adjunto adnominal
+`duvida de que` × `dúvida de que`: localize o <abbr title="palavra que exige um complemento">regente</abbr>, verbal ou nominal.
 
-- complemento nominal: completa substantivo, adjetivo ou advérbio; alvo/conteúdo é pista frequente;
-- adjunto adnominal: determina ou caracteriza substantivo; agente/possuidor/origem/característica são pistas frequentes.
+`que` integrante não retoma antecedente nem exerce função interna. `Não sei se virá` → pergunta indireta; `se vier, avise` → condição.
 
-**Preposição sozinha não decide.**
+## Adjetivas: relativo retoma e exerce função interna
 
-## Substantivas
+Reponha o <abbr title="termo retomado pelo pronome relativo">antecedente</abbr>: `documento que chegou` → **documento** chegou; `norma a que obedeceu` → obedeceu **à norma**. Preserve a preposição exigida.
 
-Teste inicial: substitua a oração por **isso**.
+**Restritiva** seleciona subconjunto, sem isolamento; **explicativa** comenta o grupo identificado, isolada. Vírgulas podem mudar o alcance.
 
-| Tipo | Função |
-| --- | --- |
-| subjetiva | sujeito |
-| objetiva direta | objeto direto |
-| objetiva indireta | complemento de verbo com preposição |
-| completiva nominal | complemento de nome/adjetivo/advérbio |
-| predicativa | predicativo do sujeito |
-| apositiva | aposto |
+`que` — uso amplo; `quem` — pessoa; `cujo` — posse, concorda com o possuído, **sem artigo depois**; `onde` — lugar. Antecedente abstrato: `situação em que`.
 
-Chaves:
-
-- *duvida **de que...*** → regente verbal → objetiva indireta;
-- *dúvida **de que...*** → regente nominal → completiva nominal;
-- `que` integrante → não retoma antecedente;
-- `se` integrante → pergunta indireta;
-- `se` condicional → cria hipótese.
-
-## Adjetivas
-
-**Relativo = liga + retoma antecedente + exerce função interna.**
-
-Teste: recoloque o antecedente.
-
-> norma **a que** obedeceu → obedeceu **à norma**
-
-### Restritiva × explicativa
-
-| Tipo | Efeito |
-| --- | --- |
-| restritiva | seleciona subconjunto; em regra, sem isolamento |
-| explicativa | comenta referente já identificado; isolada |
-
-Vírgula pode mudar **alcance**, não só ritmo.
-
-### Relativos
-
-- `que`: uso amplo;
-- `quem`: pessoa; recebe preposição exigida;
-- `cujo`: posse; concorda com o possuído; **sem artigo depois**;
-- `onde`: lugar.
-
-## Adverbiais
+## Adverbiais: contexto, não palavra isolada
 
 | Relação | Marcas frequentes |
 | --- | --- |
-| causa | porque, já que, como |
-| consequência | tão/tanto/tal... que; de modo que |
-| finalidade | para que, a fim de que |
-| condição | se, caso, contanto que |
-| concessão | embora, ainda que, mesmo que, conquanto |
-| tempo | quando, enquanto, assim que |
-| proporção | à medida que, quanto mais... mais |
-| comparação | como, do que, quanto |
-| conformidade | conforme, segundo, consoante |
+| causa / consequência | `porque` / `tão… que`, `de modo que` |
+| finalidade / condição | `para que` / `se`, `caso` |
+| concessão | `embora`, `ainda que`, `mesmo que`, `conquanto` |
+| tempo / proporção | `quando` / `à medida que`, `quanto mais… mais` |
+| comparação / conformidade | `mais… do que` / `conforme`, `segundo` |
 
-**Conectivo é pista; contexto decide.**
+Finalidade não garante resultado. `Se houver` → `caso haja`: ajuste verbal. Comparação pode conter verbo <abbr title="omitido, mas recuperável pelo contexto">elíptico</abbr>.
 
-Fronteiras: causa ≠ explicação; consequência ≠ conclusão; concessão ≠ adversidade.
+**Fronteiras:** causa do fato × explicação de ordem; consequência subordinada × conclusão coordenada; concessão (`embora chovesse`) × adversidade (`chovia, mas…`).
 
 ## Desenvolvidas × reduzidas
 
-- desenvolvida: verbo finito + conectivo, em geral;
-- reduzida de infinitivo: **Para reduzir erros**, revise;
-- reduzida de gerúndio: **Havendo recurso**, reexamine;
-- reduzida de particípio: documentos **enviados ontem**.
+Desenvolvida: indicativo/subjuntivo, geralmente com conjunção ou relativo. Reduzida: **infinitivo, gerúndio ou particípio**; forma não determina função.
 
-**Forma nominal não determina função.**
+`É necessário revisar` → subjetiva; `documentos enviados ontem` → adjetiva; `havendo recurso` → condicional neste contexto; `para reduzir erros` → final.
 
-Ao desenvolver, preserve sujeito + tempo + modo + relação semântica.
+Infinitivo pessoal continua reduzido: `os servidores revisarem`. `Ao + infinitivo` pode indicar tempo ou condição. `Revisar os dados` → `a revisão dos dados` produz expressão nominal, **não oração desenvolvida**.
 
-## Encaixamento
+## Encaixamento e alcance
 
-> Afirmou **[que demonstrou [que os dados eram insuficientes]]**.
+`Afirmou [que demonstrou [que os dados eram insuficientes]]`: resolva **de dentro para fora**. Subordinadas podem coordenar-se entre si. `Não apenas… mas também` soma no mesmo nível: correlação não prova subordinação.
 
-Resolva **de dentro para fora**.
-
-Coordenação pode ficar dentro de bloco subordinado; correlação não significa automaticamente subordinação.
-
-## Escopo
-
-- **não afirmou** que era falso → nega o ato de afirmar;
-- afirmou que **não era falso** → afirma conteúdo negativo.
-
-Reescrita gramatical pode mudar sentido.
-
-## Método rápido
-
-1. marque verbos/formas nominais;
-2. delimite orações;
-3. ache regente/antecedente;
-4. descubra a função/relação;
-5. recoloque antecedente se houver relativo;
-6. resolva encaixamentos de dentro para fora;
-7. confirme por conectivo, pontuação, tempo, modo e sentido;
-8. confira escopo na reescrita.
-
-## Pegadinhas
-
-- `de que` ≠ completiva nominal automática;
-- `que` ≠ conjunção integrante automática;
-- `se` ≠ condição automática;
-- vírgula pode alterar restrição/explicação;
-- verbo elíptico pode formar comparativa;
-- gerúndio/infinitivo não fixam valor semântico;
-- correção gramatical ≠ manutenção de sentido.
+`Não afirmou que era falso` nega a afirmação; `afirmou que não era falso` afirma conteúdo negativo. Ao reescrever, preserve **função, antecedente, preposição, sujeito, tempo, modo, pontuação e alcance**.
