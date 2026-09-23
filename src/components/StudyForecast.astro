@@ -305,40 +305,44 @@ function formatPerWeek(value: number): string {
     let hydratedAlias: string | null | undefined;
     let formDirty = false;
 
-    const doRefresh = async (mode: 'hydrate' | 'recalc'): Promise<void> => {
+    const doRefresh = async (): Promise<void> => {
       const profileId = getActiveAlias();
       let studied = new Set<string>();
-      let saved: ForecastContestSettings | null = null;
+      let settings: Awaited<ReturnType<typeof loadForecastSettings>> | null = null;
       if (profileId) {
         try {
-          const [studiedDoc, settings] = await Promise.all([
+          const [studiedDoc, loaded] = await Promise.all([
             loadStudied(profileId).catch(() => ({ studiedSubjectIds: [] as string[] })),
             loadForecastSettings(profileId).catch(() => null),
           ]);
           if (getActiveAlias() !== profileId) return;
           studied = new Set(studiedDoc.studiedSubjectIds);
-          if (settings) saved = contestForecastSettings(settings, roots[0]?.model.contestStorageId ?? '');
+          settings = loaded;
         } catch {
           // best-effort; calcula do zero
         }
       }
       for (const instance of roots) {
+        const saved = settings
+          ? contestForecastSettings(settings, instance.model.contestStorageId)
+          : null;
         if (profileId !== hydratedAlias) {
           // Troca de alias (ou primeira carga): reseta para o salvo ou o padrão.
           if (saved) applyToForm(instance.form, saved);
           else applyToForm(instance.form, DEFAULT_FORECAST_PARAMS);
-          hydratedAlias = profileId;
           formDirty = false;
-        } else if (mode === 'recalc' && saved && !formDirty) {
-          // Aba retomada com formulário intocado: adota o salvo mais recente.
+        } else if (saved && !formDirty) {
+          // Configuração mais recente (outra aba, outro aparelho via sync):
+          // adota quando o formulário está intocado; edição em curso nunca é mexida.
           if (signatureOf(instance.form) !== JSON.stringify(saved)) applyToForm(instance.form, saved);
         }
         await renderInstance(instance, studied);
       }
+      hydratedAlias = profileId;
     };
 
-    const refresh = (mode: 'hydrate' | 'recalc'): void => {
-      refreshTail = refreshTail.then(() => doRefresh(mode)).catch(() => undefined);
+    const refresh = (): void => {
+      refreshTail = refreshTail.then(() => doRefresh()).catch(() => undefined);
     };
 
     const persist = (instance: (typeof roots)[number]): void => {
@@ -346,35 +350,39 @@ function formatPerWeek(value: number): string {
       if (!profileId) return;
       const { frequency, subjectsPerDay, subtractStudied } = readParams(instance.form);
       if (!Number.isInteger(subjectsPerDay) || subjectsPerDay < 1 || subjectsPerDay > 20) return;
+      const snapshot = JSON.stringify({ frequency, subjectsPerDay, subtractStudied });
+      const storageId = instance.model.contestStorageId;
       refreshTail = refreshTail
         .then(() =>
-          saveContestForecastSettings(profileId, instance.model.contestStorageId, {
+          saveContestForecastSettings(profileId, storageId, {
             frequency,
             subjectsPerDay,
             subtractStudied,
           }),
         )
         .then(() => {
-          formDirty = false;
-          return requestProfileSync(profileId);
+          // Só limpa o dirty se o formulário ainda reflete o que foi gravado;
+          // digitação posterior mantém o estado sujo e nunca é revertida.
+          if (signatureOf(instance.form) === snapshot) formDirty = false;
         })
-        .then(() => undefined)
         .catch(() => undefined);
+      // Sync fora da fila de render: recalcs nunca esperam o round-trip do KV.
+      void requestProfileSync(profileId).catch(() => undefined);
     };
 
     for (const instance of roots) {
       instance.form.addEventListener('input', () => {
         formDirty = true;
-        refresh('recalc');
+        refresh();
       });
       instance.form.addEventListener('change', () => {
         formDirty = true;
-        refresh('recalc');
+        refresh();
         persist(instance);
       });
       instance.form.addEventListener('submit', (event) => {
         event.preventDefault();
-        refresh('recalc');
+        refresh();
         persist(instance);
       });
     }
@@ -384,30 +392,30 @@ function formatPerWeek(value: number): string {
       const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
       const delay = Math.max(0, nextMidnight.getTime() - now.getTime());
       window.setTimeout(() => {
-        refresh('recalc');
+        refresh();
         scheduleMidnightRefresh();
       }, delay);
     };
 
-    window.addEventListener('concursos:studied-updated', () => refresh('recalc'));
-    window.addEventListener('concursos:profile-changed', () => refresh('hydrate'));
+    window.addEventListener('concursos:studied-updated', () => refresh());
+    window.addEventListener('concursos:profile-changed', () => refresh());
     window.addEventListener('concursos:sync-status', (event) => {
       const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
       if (
         (!detail?.profileId || detail.profileId === getActiveAlias()) &&
         (detail?.state === 'synced' || detail?.state === 'error')
       )
-        refresh('hydrate');
+        refresh();
     });
     window.addEventListener('storage', (event) => {
-      if (event.key === 'concursos:active-alias') refresh('hydrate');
+      if (event.key === 'concursos:active-alias') refresh();
     });
-    window.addEventListener('pageshow', () => refresh('recalc'));
-    window.addEventListener('focus', () => refresh('recalc'));
+    window.addEventListener('pageshow', () => refresh());
+    window.addEventListener('focus', () => refresh());
     document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') refresh('recalc');
+      if (document.visibilityState === 'visible') refresh();
     });
-    refresh('hydrate');
+    refresh();
     scheduleMidnightRefresh();
   }
 </script>
