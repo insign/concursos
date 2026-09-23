@@ -159,7 +159,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H051 | `improbidade-sancoes-procedimento` | = | V | [`504a87d`](https://github.com/insign/concursos/commit/504a87d311e91c39431c78da8d13c4be00b89e56) |
 | H052 | `contencioso-controle-judicial` | = | V | [`5a45c3e`](https://github.com/insign/concursos/commit/5a45c3ef9f5dda03fe390ec3ab0e7029939aed7a) |
 | H053 | `controle-atividade-financeira` | = | V | [`4d1d704`](https://github.com/insign/concursos/commit/4d1d70493beb78e69246bea799fa8b86d462b7b1) |
-| H054 | `tcu-tces-tcema-constituicao` | = | V | — |
+| H054 | `tcu-tces-tcema-constituicao` | = | V | [`0312361`](https://github.com/insign/concursos/commit/031236123330a7c48aa1697bfbbf4dfd1465d3b0) |
 
 ### M05 — Legislação Específica
 
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H054: a aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal registra 7/7. q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente; revisar ensino/banco no escopo próprio, sem ampliar H/M por essas peculiaridades.
 - H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
 - H051: q52205101 exige regime de parcelamento/juros e cláusula de contratação em acordo não desenvolvido na aula; verificar pertinência e ensino em revisão própria, sem converter detalhe isolado em regra do H/M.
