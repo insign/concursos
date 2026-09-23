@@ -197,7 +197,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H079 | `vitorinismo-greve-1951` | = | V | [`508ddeb`](https://github.com/insign/concursos/commit/508ddeb5732c84fe27d46dba020fae57d70d2e99) |
 | H080 | `fatos-politicos-maranhao-sec-xx` | = | V | [`2bb4c76`](https://github.com/insign/concursos/commit/2bb4c765ee268573a315f00c1d22bcd0538404e3) |
 | H081 | `fatos-economicos-maranhao-sec-xx` | = | V | [`8e35bd1`](https://github.com/insign/concursos/commit/8e35bd140cdb35a6950e1d68d1b1238cbd335ce7) |
-| H082 | `fatos-sociais-maranhao-sec-xx` | = | V | — |
+| H082 | `fatos-sociais-maranhao-sec-xx` | = | V | [`b7008f7`](https://github.com/insign/concursos/commit/b7008f75ec33747c431e3daabad02455bb65d583) |
 | H083 | `localizacao-limites-extremos` | = | V | — |
 | H084 | `geomorfologia-geologia-relevo` | = | V | — |
 | H085 | `areas-protecao-parques-nacionais` | = | V | — |
