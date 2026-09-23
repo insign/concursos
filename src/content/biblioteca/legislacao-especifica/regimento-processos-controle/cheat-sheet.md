@@ -1,224 +1,45 @@
 # Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: processos de controle externo
 
-## Corte
+## Corte e pergunta inicial
 
-- Edital: **6/7/2026**.
-- Base: Regimento Interno — Resolução Administrativa nº 1/2000, com alterações vigentes até o edital.
-- **Res. 423/2025:** processo eletrônico + ciclo do art. 162-A.
-- **Res. 424/2025:** ajuste da instrução; § 9º do art. 153.
-- Eixo do 058 = **Regimento**. Sistemas externos são acessórios.
+O Regimento (Resolução Administrativa nº 1/2000, compilado com alterações) deve ser lido no corte da **publicação do Edital nº 1, informada para 7/7/2026**; 6/7 é a data do ato. As Resoluções nº 423/2025 (rito eletrônico e ciclo) e nº 424/2025 (instrução) já integravam o regime. Ao receber matéria: **classifique a natureza → autue → instrua → decida → encerre**. Natureza designa a espécie do processo; acórdão/decisão são resultados, não espécies.
 
-## Art. 142 — 13 naturezas
+## Artigo 142: naturezas em blocos, com incisos
 
-**G-G-T-C-F-V-D-R-P-C-R-N-O**
-
-| # | Natureza |
+| Incisos | Naturezas |
 | --- | --- |
-| I | Prestação de contas anual de **Governo** |
-| II | Prestação de contas anual de **Gestores** |
-| III | **Tomada de contas especial** |
-| IV | **Consulta** |
-| V | Acompanhamento da gestão **Fiscal** |
-| VI | Acompanhamento da gestão de recursos **Vinculados** |
-| VII | **Denúncia** |
-| VIII | **Representação** |
-| IX | Legalidade dos atos de **Pessoal** |
-| X | Legalidade dos atos e **Contratos** |
-| XI | **Recurso de revisão** |
-| XII | Elaboração de ato **Normativo** |
-| XIII | **Outros** que exijam decisão colegiada |
+| I–IV | **I** contas anuais de governo; **II** contas anuais de gestores; **III** tomada de contas especial; **IV** tomada de contas |
+| V–VIII | **V** fiscalização; **VI** denúncia; **VII** representação; **VIII** consulta |
+| IX–X | **IX** apreciação da legalidade de atos de pessoal; **X** apreciação da legalidade de atos e contratos |
+| XI–XIII | **XI** recurso de revisão; **XII** elaboração de ato normativo; **XIII** outros processos que exijam decisão colegiada |
 
-### Parágrafos que viram questão
+O inciso **IV é tomada de contas**; o **V é fiscalização**. Acompanhamentos da gestão fiscal ou de recursos vinculados podem integrar a atividade de controle, mas **não substituem esses nomes nos incisos IV–V**. A redação do artigo 142 foi dada pela Resolução nº 268/2017.
 
-| Situação | Regra |
-| --- | --- |
-| Chefe do Executivo também pratica atos de gestão | continua **natureza I**, com análise técnica pertinente à II |
-| contas anuais de Presidentes do Legislativo / dirigentes de órgãos constitucionalmente autônomos | **natureza II** |
-| subnaturezas | podem ser criadas por **resolução** |
-| reconsideração + embargos | mantêm natureza do processo originário + mesma relatoria |
-| revisão | é natureza própria: **XI** |
-| processos administrativos | natureza disciplinada por **portaria do Presidente** |
+**Regras que mudam a leitura da classe:** chefe do Executivo que também ordena despesas conserva natureza **I**, com análise técnica pertinente a **II**; contas anuais dos Presidentes dos Legislativos e dirigentes de órgãos constitucionalmente autônomos são **II**. Resolução pode estabelecer subnaturezas. **Reconsideração e embargos** mantêm natureza, autos e relator do processo originário; **revisão** tem natureza **XI**. Processo administrativo tem classificação definida por portaria da Presidência.
 
-## Art. 162-A — ciclo
+## Ciclo (artigo 162-A) × instrução
 
-**I-D-E**
-
-> **Instaurar = Autuar → Desenvolver = Instruir + <abbr title="Ministério Público de Contas">MPC</abbr> + Relator + Colegiados + recursos → Encerrar = trânsito em julgado e/ou arquivamento**
-
-| Etapa | Núcleo |
-| --- | --- |
-| instauração | autuação pelo protocolo da Secretaria |
-| desenvolvimento | atos de instrução, MPC, relator, Pleno/Câmaras e recursos cabíveis |
-| encerramento | trânsito em julgado **e/ou** arquivamento |
-
-**Autuação ≠ julgamento.**  
-**Fim da instrução ≠ fim do processo.**
-
-## Art. 150 — quem dirige?
-
-**Relator preside a instrução.**
-
-Pode determinar saneamento e demais providências necessárias.
-
-Pode delegar ao titular da Unidade Técnica:
-- diligências;
-- saneamento;
-- providências **sem decisão de mérito**.
-
-> Unidade Técnica instrui; colegiado/relator decide nos limites da competência.
-
-## Art. 153 — o que a instrução olha?
-
-**P-P-P-A-B-B**
-
-1. **P**lanejamento e leis orçamentárias: conformidade normativa.
-2. **P**rogramas governamentais: resultados.
-3. **P**olíticas públicas: impacto econômico/social.
-4. **A**tos e contratos: legalidade, legitimidade, economicidade e conformidade.
-5. **B**alanços: situação financeira, orçamentária, patrimonial + resultado.
-6. **B**enefícios: quantificação dos benefícios gerados pelas ações de controle, quando aplicável.
-
-### Relatório técnico
-
-- exame conforme a natureza;
-- conclusões;
-- assinatura do **Auditor Estadual de Controle Externo responsável**.
-
-### § 9º — pegadinha 2025
-
-Pontos específicos solicitados **não bloqueiam** outros pontos complementares que **emergirem da instrução**.
-
-## Arts. 155, 156 e 161
-
-| Regra | Lembrete |
-| --- | --- |
-| dado/providência preliminar indispensável | servidor comunica ao titular da unidade → providência/diligência |
-| fim da instrução | **relatório final da unidade competente** |
-| reabertura | é possível nas hipóteses regimentais |
-
-## Arts. 157 e 157-A
-
-### Instrução completa
-
-**T + P + R**
-- **T**écnica: exame da Unidade Técnica.
-- **P**artes: ciência/manifestações quando cabíveis.
-- **R**elatório: instrução ou fiscalização.
-
-### Processo eletrônico
-
-- etapas do rito em **meio eletrônico**;
-- atos processuais **digitais**;
-- produzir + comunicar + armazenar + validar eletronicamente.
-
-Detalhes de citação, defesa, revelia, provas e prazos → **Assunto 060**.
-
-## Art. 152 — urgência
-
-Pode haver preferência, entre outras hipóteses, para:
-- inspeção/auditoria solicitada pelo Legislativo;
-- informações para demandas judiciais;
-- consulta urgente;
-- denúncia/representação com fato grave;
-- cautelar;
-- risco de grande dano ao erário;
-- recursos;
-- outras matérias assim definidas pelo Pleno/Presidência.
-
-**Urgência ≠ procedência.**
-
-## Art. 229 — atos de pessoal para registro
-
-### Entram
-- admissão de pessoal;
-- aposentadoria;
-- transferência para reserva remunerada;
-- reforma;
-- pensão;
-- transformação de aposentadoria por invalidez em seguro-reabilitação, na hipótese legal.
-
-### Não entra na admissão
-**Nomeação para cargo em comissão.**
-
-### Não confunda
-
-> Órgão de origem pratica/concede o ato.  
-> TCE/MA **aprecia a legalidade para fins de registro**.
-
-## Fiscalização — art. 245 e seguintes
-
-Fiscalização alcança, entre outros:
-- planejamento/execução orçamentária;
-- licitações e contratos;
-- convênios e congêneres;
-- atos de pessoal;
-- inspeções e auditorias;
-- transferências de recursos.
-
-**Fiscalizar ≠ julgar.**
-
-## Receita também entra no radar
-
-| Artigo | Objeto | Instrumentos-chave |
+| Momento | Marco | Consequência |
 | --- | --- | --- |
-| 252 | recursos transferidos | inspeção + auditoria + contas |
-| 255 | arrecadação | acompanhamento em suas etapas |
-| 256 | renúncia de receitas | preferencialmente inspeção/auditoria |
+| Instauração | autuação pelo protocolo da Secretaria | formaliza o processo, sem decidir irregularidade |
+| Desenvolvimento | instrução técnica, pronunciamento do <abbr title="Ministério Público de Contas">MPC</abbr>, atos do relator, apreciação/julgamento e recursos cabíveis | varia com a natureza; não impõe todos os atos em todos os processos |
+| Encerramento | **trânsito em julgado e/ou arquivamento** nas hipóteses normativas | diferente do fim da instrução |
 
-## Arts. 257–259 — inspeção × auditoria
+**Relator preside a instrução** (artigo 150) e pode determinar saneamento (correção/complementação de falhas) e diligências (busca de dados), inclusive delegando ao titular da Unidade Técnica providências **sem decisão de mérito**. A Unidade Técnica analisa e conclui em relatório, assinado pelo Auditor Estadual de Controle Externo responsável; relatório **não julga**. Informação preliminar indispensável ausente → servidor comunica ao titular da unidade, que decide sobre providência/diligência. **Relatório final da unidade encerra a instrução** (artigo 156), que pode ser reaberta nas hipóteses regimentais; não encerra automaticamente o processo.
 
-### Base comum
+A instrução, conforme a natureza (artigo 153), relaciona **planejamento e orçamento → resultados dos programas → impacto das políticas → conformidade dos atos e contratos (legalidade, legitimidade, economicidade) → balanços → benefícios da atuação do Tribunal, quando aplicável**. Encaminhamento para pontos específicos **não impede** exame de pontos complementares que emerjam da instrução (§ 9º). Instrução completa requer exame técnico, ciência/manifestações das partes quando cabíveis e relatório (artigo 157). **Urgência** de cautelar, fato grave em denúncia/representação, risco de grande dano, solicitação legislativa ou recurso dá prioridade de tramitação (artigo 152), **não procedência**.
 
-Naturezas:
-**C-F-O-O-P**
-- contábil;
-- financeira;
-- orçamentária;
-- operacional;
-- patrimonial.
+O artigo 157-A leva as etapas do rito ao **meio eletrônico** e prevê atos digitais para produção, comunicação, guarda e validação. Citação, defesa, revelia, provas e prazos têm regras próprias (060); o meio eletrônico não elimina contraditório quando devido.
 
-Parâmetros:
-**legalidade + legitimidade + economicidade**.
+## Objeto controlado: registro e fiscalização
 
-### Inspeção — art. 258
+**Atos de pessoal (artigo 229):** órgão de origem pratica admissão ou concessão; o Tribunal **aprecia legalidade para registro**. Entram admissão (exceto **cargo em comissão**), aposentadoria, transferência à reserva remunerada, reforma, pensão e transformação legal de aposentadoria por invalidez em **seguro-reabilitação** (modalidade regimental condicionada à legislação). Melhoria posterior sem alteração do fundamento legal da concessão dispensa nova apreciação; mudança do fundamento ou correção de quantitativo segue a regra de registro.
 
-**L-D-F**
-- **L**acuna/omissão de informação;
-- **D**úvida;
-- **F**ato específico a apurar.
+**Fiscalização (artigos 245 e seguintes):** alcança atos que produzam receita ou despesa, transferências, contratações e pessoal. Recursos de convênio/acordo/ajuste → inspeções, auditorias e exame das contas; arrecadação → acompanhamento de suas etapas; renúncia de receitas (benefício fiscal que reduz ingresso) → preferencialmente inspeções/auditorias, avaliando eficiência, eficácia, economicidade e resultados. Fiscalizar **produz elementos**; julgar cabe ao órgão competente.
 
-Tende a atuação **dirigida/pontual**.
-
-### Auditoria — art. 259
-
-**D-O-R**
-- **D**ados e conformidade técnica/jurídica;
-- **O**rganização e funcionamento / desempenho operacional;
-- **R**esultados de programas e projetos.
-
-Tende a exame **estruturado e planejado**.
-
-> Não use só “tamanho” para distinguir: use a **finalidade regimental**.
-
-## 10 pegadinhas finais
-
-1. Art. 142 = **13** naturezas.
-2. Governo ≠ gestores.
-3. Chefe do Executivo gestor: natureza continua **I**.
-4. Reconsideração/embargos mantêm natureza; **revisão** tem natureza própria.
-5. **Autuação = instauração**.
-6. Relator preside a instrução.
-7. Relatório técnico ≠ decisão.
-8. § 9º do art. 153 admite ponto complementar emergente.
-9. Cargo em comissão fica fora do registro da admissão.
-10. Processo eletrônico muda o **meio**, não a competência nem as garantias.
-
-## Fronteiras
-
-| Assunto | Deixar para ele |
+| Instrumento | Pergunta prática |
 | --- | --- |
-| 059 | denúncia, representação e consulta — rito |
-| 060 | citação, defesa, revelia, provas e prazos |
-| 061 | decisões, sanções e execução |
-| 062 | recursos e revisão |
-| 063 | atos normativos, ética e regras finais |
+| **Inspeção** (258) | Falta informação, há dúvida ou fato específico/denúncia a apurar? Pode ser determinada fora da programação nas condições regimentais. |
+| **Auditoria** (259) | É preciso examinar dados, gestão, organização, funcionamento, desempenho operacional ou resultados de programas? Segue plano específico nos termos regimentais. |
+
+Ambas podem cobrir dimensões contábil, financeira, orçamentária, operacional e patrimonial (257). **Finalidade**, não apenas tamanho, distingue os instrumentos. Denúncia/consulta → 059; decisões e recursos → 061–062.

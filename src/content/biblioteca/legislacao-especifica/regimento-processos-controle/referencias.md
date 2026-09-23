@@ -1,4 +1,4 @@
-- [Consulta de Atos Normativos do TCE/MA](https://app.tcema.tc.br/publicacao/#/muraldocumentos?destino=e), canal oficial para consulta das resoluções e do Regimento Interno.
-- [Resolução TCE/MA nº 424, de 25 de junho de 2025](https://app.tcema.tc.br/diario/publicacao/pdf/9289), Diário Oficial Eletrônico do TCE/MA, edição nº 2805/2025, publicada em 26 jun. 2025.
-- Regimento Interno do TCE/MA, aprovado pela Resolução Administrativa nº 1, de 21 de janeiro de 2000, com alterações vigentes até a publicação do edital em 6 jul. 2026.
-- [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias), referência institucional complementar.
+- [Regimento Interno compilado do Tribunal de Contas do Estado do Maranhão](https://publicacao.apps.tcema.tc.br/#/documentohtml/8207?compilado=true). Texto oficial consultado em 23 set. 2026; conferir anotações de cada alteração frente ao corte de 7 jul. 2026.
+- [Consulta de Atos Normativos do TCE/MA](https://publicacao.apps.tcema.tc.br/#/muraldocumentos?destino=e), canal oficial para consulta das resoluções e do Regimento Interno.
+- [Resolução TCE/MA nº 424, de 25 de junho de 2025](https://app.tcema.tc.br/diario/publicacao/pdf/9289), Diário Oficial Eletrônico do Tribunal, edição nº 2805/2025, publicada em 26 jun. 2025.
+- [Competências do TCE/MA](https://www.tcema.tc.br/institucional/competencias/), referência institucional complementar.

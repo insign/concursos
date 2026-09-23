@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q6159",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "No Assunto 058, considerando o corte do edital de 6 de julho de 2026, o eixo principal de estudo é",
+      "prompt": "No Assunto 058, considerando a publicação do Edital nº 1 informada para 7 de julho de 2026, o eixo principal de estudo é",
       "options": [
         {
           "id": "A",
-          "text": "a arquitetura dos processos de controle externo prevista no Regimento Interno, com as alterações vigentes até o edital."
+          "text": "a arquitetura dos processos de controle externo prevista no Regimento Interno, com as alterações vigentes até a publicação do edital."
         },
         {
           "id": "B",
@@ -30,7 +30,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O Assunto 058 tem como eixo o Regimento Interno vigente no corte do edital. Denúncias/consultas em detalhe, garantias, decisões, sanções e recursos ficam para os assuntos 059 a 063."
+      "explanation": "O Assunto 058 tem como eixo o Regimento Interno vigente até a publicação do edital. Denúncias/consultas em detalhe, garantias, decisões, sanções e recursos ficam para os assuntos 059 a 063."
     },
     {
       "id": "q6160",
@@ -244,9 +244,9 @@
     },
     {
       "id": "q6167",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "O acompanhamento da gestão fiscal, no mapa do art. 142, é",
+      "prompt": "A fiscalização, no mapa do art. 142 do Regimento, é",
       "options": [
         {
           "id": "A",
@@ -270,13 +270,13 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Acompanhamento da gestão fiscal é a natureza prevista no art. 142, V."
+      "explanation": "O inciso V do art. 142 prevê fiscalização como natureza processual. Acompanhamento da gestão fiscal não é o nome desse inciso no texto compilado."
     },
     {
       "id": "q6168",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "O acompanhamento da gestão de recursos vinculados é classificado pelo Regimento Interno como",
+      "prompt": "A representação é classificada pelo art. 142 do Regimento Interno como",
       "options": [
         {
           "id": "A",
@@ -300,7 +300,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O art. 142, VI, prevê o acompanhamento da gestão de recursos vinculados como natureza processual."
+      "explanation": "O inciso VII do art. 142 prevê representação como natureza processual, distinta de denúncia (VI) e consulta (VIII)."
     },
     {
       "id": "q6169",
