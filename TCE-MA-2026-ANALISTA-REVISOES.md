@@ -165,7 +165,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
-| H055 | `regimento-instituicao-competencia` | `regimento-instituicao-tcema` | V | — |
+| H055 | `regimento-instituicao-competencia` | `regimento-instituicao-tcema` | V | `fd2f9933d5442a79f62feec73d463a77bed56558` |
 | H056 | `regimento-orgaos-organizacao` | `regimento-orgaos-tcema` | V | — |
 | H057 | `regimento-sessoes-distribuicao` | `regimento-sessoes-tcema` | V | — |
 | H058 | `regimento-processos-controle` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H055: a aula trata 6/7 (data do ato E1) como publicação e corte, enquanto o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria; a questão q6028 já foi corrigida nesta campanha.
 - H054: a aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal registra 7/7. q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente; revisar ensino/banco no escopo próprio, sem ampliar H/M por essas peculiaridades.
 - H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
