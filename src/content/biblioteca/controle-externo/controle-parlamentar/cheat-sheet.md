@@ -1,155 +1,40 @@
 # Controle parlamentar
 
-## Núcleo
+## Decisão rápida: órgão → verbo → efeito
 
-- Legislativo fiscaliza Administração e governo **nos limites da Constituição**.
-- Freios e contrapesos ≠ hierarquia sobre o Executivo.
-- Primeiro passo em questão: identificar **quem** pratica o ato.
+O Legislativo fiscaliza governo e Administração por competências delimitadas. **Freios e contrapesos não criam hierarquia sobre o Executivo nem poder geral de administrar, anular ou revogar seus atos.** Controle político também deve respeitar a Constituição e direitos fundamentais.
 
-## Órgão → competência
+| Quem | Instrumento e alcance | Fronteira que decide |
+| --- | --- | --- |
+| Congresso Nacional | <abbr title="artigo">art.</abbr> 49, V: **sustar** ato **normativo** do Executivo que exorbite do poder regulamentar ou da delegação legislativa | Sustação interrompe efeitos; não é anulação geral por ilegalidade nem revogação administrativa por conveniência. |
+| Congresso Nacional | <abbr title="artigo">art.</abbr> 49, IX: **julgar** contas anuais do Presidente e apreciar relatórios de execução dos planos | <abbr title="Tribunal de Contas da União">TCU</abbr> emite parecer prévio; se as contas não forem apresentadas ao Congresso em 60 dias da abertura da sessão legislativa, a Câmara procede à tomada. |
+| Congresso ou qualquer das Casas | <abbr title="artigo">art.</abbr> 49, X: **fiscalizar e controlar** atos do Executivo, incluída a administração indireta | Fiscalizar entidade não é assumir sua gestão. |
+| Congresso Nacional | <abbr title="artigo">art.</abbr> 49, XI: **zelar** pela própria competência legislativa diante da atribuição normativa de outros Poderes | Proteção da esfera legislativa; o inciso V contém uma sustação específica. |
+| Câmara / Senado | <abbr title="artigos">arts.</abbr> 51, I, e 52: Câmara **autoriza** por 2/3 de seus membros instauração de processo contra Presidente, Vice e Ministros; Senado **processa e julga** crimes de responsabilidade nas hipóteses do <abbr title="artigo">art.</abbr> 52 e **aprova previamente** certas autoridades | Autorizar, processar, julgar e aprovar não são verbos intercambiáveis; crimes comuns do Presidente não são julgados pelo Parlamento. |
 
-| Órgão | Regra-chave |
+## Informação parlamentar: presencial ou escrita?
+
+| Instrumento | Iniciativa / destinatário | Consequência |
+| --- | --- | --- |
+| Convocação pessoal — texto principal do <abbr title="artigo">art.</abbr> 50 | Câmara, Senado **ou qualquer comissão** convocam Ministro de Estado, titular de órgão diretamente subordinado à Presidência ou Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>, sobre assunto previamente determinado. | Ausência sem justificativa adequada importa crime de responsabilidade. |
+| Comparecimento espontâneo — § 1º | Ministro, por iniciativa própria e mediante entendimento com a Mesa, expõe assunto relevante de seu Ministério à Casa ou comissão. | Não é convocação. |
+| Pedido escrito — § 2º | **Mesas** da Câmara ou do Senado dirigem o pedido a Ministro ou outra pessoa indicada na parte principal do <abbr title="artigo">art.</abbr> 50. | Recusa, falta de resposta em **30 dias** ou informação falsa importam crime de responsabilidade. |
+
+Comissões, no âmbito da matéria de sua competência (<abbr title="artigo">art.</abbr> 58, § 2º), realizam audiências públicas, convocam Ministros, recebem petições, reclamações e representações, solicitam depoimentos de autoridades ou cidadãos e apreciam programas, planos e obras com parecer. **Receber relato não equivale a julgá-lo ou sancionar.** Comissão comum não recebe automaticamente os poderes especiais de investigação de uma <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>.
+
+## <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>: criação, objeto e tempo
+
+- **Criar:** requerimento de **1/3** dos membros da Casa + **fato determinado** (objeto delimitado, sem devassa genérica; fatos conexos exigem pertinência) + **prazo certo**. Requisitos presentes protegem o direito da minoria; a maioria não dispõe de veto discricionário à criação. Na <abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr>, são necessários **1/3 da Câmara e 1/3 do Senado**; o Regimento Comum prevê instituição automática.
+- **Prorrogar:** prazo certo não significa proibição de prorrogação. A Lei nº 1.579/1952 exige deliberação da respectiva Casa, dentro da legislatura em curso. Criação pela minoria **não assegura prorrogação automática** (<abbr title="Supremo Tribunal Federal">STF</abbr>, <abbr title="Mandado de Segurança">MS</abbr> 40.799, julgado em 26/3/2026); a continuidade observa as regras parlamentares.
+
+## Poderes investigatórios: dado passado ≠ comunicação em curso
+
+A <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> investiga e reúne elementos: diligências, depoimentos, requisição de informações e documentos. Para acessar **sigilo bancário, fiscal ou registros telefônicos pretéritos**, requer **deliberação colegiada + motivação concreta** que delimite pessoa, período, objeto, necessidade e nexo com o fato investigado. Referência genérica ao interesse público não basta.
+
+| Pode deliberar diretamente, preenchidos os requisitos | Depende de juiz (reserva de jurisdição: decisão reservada ao Judiciário) |
 | --- | --- |
-| Congresso | art. 49, V: sustar ato normativo exorbitante |
-| Congresso | art. 49, IX: julgar contas presidenciais |
-| Congresso ou qualquer Casa | art. 49, X: fiscalizar atos do Executivo, inclusive administração indireta |
-| Câmara/Senado/comissão | convocação pessoal do art. 50 |
-| Mesas | pedido escrito do art. 50, § 2º |
-| comissão | audiências, convocações, reclamações, depoimentos |
-| <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>/<abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr> | investigação parlamentar, sem jurisdição |
+| Acesso fundamentado a dados bancários/fiscais e registros telefônicos anteriores. | Interceptação de **conversas em curso**, busca domiciliar coercitiva, prisão preventiva/temporária e indisponibilidade de bens. |
 
-## Art. 49
+Prisão em flagrante decorre da situação de flagrância e não equivale a decretar prisão cautelar. Na cautelar patrimonial do <abbr title="artigo">art.</abbr> 3º-A da Lei nº 1.579/1952, **indícios veementes de origem ilícita de bens → comissão delibera → presidente solicita → juízo criminal competente decide**; a <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr> não bloqueia bens por si.
 
-**V** → sustar ato normativo do Executivo que exorbite:
-- poder regulamentar; ou
-- delegação legislativa.
-
-**IX** → Congresso julga contas do Presidente.  
-<abbr title="Tribunal de Contas da União">TCU</abbr> → parecer prévio.  
-Câmara → toma contas omitidas.
-
-**X** → Congresso fiscaliza diretamente ou por qualquer Casa, inclusive administração indireta.
-
-**XI** → preservação da competência legislativa.
-
-### Fórmula
-
-`SUSTAR ≠ ANULAR ≠ REVOGAR`
-
-## Art. 50
-
-| Instrumento | Quem |
-| --- | --- |
-| convocação pessoal | Câmara, Senado ou qualquer comissão |
-| comparecimento espontâneo | Ministro, por iniciativa própria + entendimento com a Mesa |
-| pedido escrito | Mesa da Câmara ou Mesa do Senado |
-
-### Podem ser convocados
-
-- Ministro de Estado;
-- titular de órgão diretamente subordinado à Presidência;
-- Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
-
-Convocação → assunto previamente determinado.  
-Ausência sem justificativa adequada → crime de responsabilidade.
-
-Pedido escrito → recusa, omissão por **30 dias** ou informação falsa → crime de responsabilidade.
-
-## Comissões — art. 58, § 2º
-
-- audiência pública;
-- convocação de Ministro;
-- recebimento de petição/reclamação/representação/queixa;
-- solicitação de depoimento de autoridade ou cidadão;
-- apreciação de programas, planos e obras.
-
-Receber manifestação ≠ julgá-la procedente.
-
-## CPI — criação
-
-**CPI:**  
-`1/3 + fato determinado + prazo certo`
-
-Atendidos os requisitos → direito da minoria.
-
-**CPMI:**  
-`1/3 da Câmara + 1/3 do Senado`
-
-## CPI — poderes
-
-Pode, com pertinência e fundamentação:
-
-- diligenciar;
-- ouvir investigados/testemunhas;
-- requisitar documentos e informações;
-- quebrar sigilo bancário;
-- quebrar sigilo fiscal;
-- obter registros telefônicos pretéritos.
-
-### Sigilo: checklist
-
-`colegiado + fundamentação específica + destinatário + período + objeto + nexo com o fato`
-
-## Reserva de jurisdição
-
-| CPI pode | Só Judiciário |
-| --- | --- |
-| sigilo bancário/fiscal | interceptação telefônica em curso |
-| registros telefônicos pretéritos | busca domiciliar |
-| requisitar documentos | prisão preventiva/temporária |
-| investigar e ouvir | indisponibilidade de bens |
-
-**Registros telefônicos ≠ interceptação.**
-
-## Art. 3º-A da Lei nº 1.579/1952
-
-`CPI delibera → presidente solicita → juiz decide`
-
-Indícios veementes de origem ilícita de bens não autorizam a CPI a decretar diretamente a cautelar.
-
-## Depoente
-
-- advogado inclusive em reunião secreta;
-- silêncio contra autoincriminação;
-- não produzir prova contra si;
-- testemunha continua com dever de verdade sobre o que não a incrimine.
-
-## Relatório
-
-CPI **investiga e relata**.  
-Não condena civil ou criminalmente.
-
-Conclusões podem seguir ao <abbr title="Ministério Público">MP</abbr> e demais órgãos competentes.
-
-## Prorrogação
-
-Prazo certo é requisito.
-
-**<abbr title="Mandado de Segurança">MS</abbr> 40.799/<abbr title="Supremo Tribunal Federal">STF</abbr> (26/3/2026):**
-- minoria tem direito à criação, preenchidos os requisitos;
-- não há direito automático da minoria à prorrogação;
-- continuidade segue deliberação e regras parlamentares.
-
-## Câmara × Senado
-
-**Câmara**
-- art. 51, I: autoriza instauração nas hipóteses constitucionais;
-- toma contas presidenciais omitidas.
-
-**Senado**
-- processa e julga crimes de responsabilidade do art. 52;
-- aprova previamente autoridades nas hipóteses constitucionais.
-
-## Pegadinhas
-
-- fiscalização ≠ hierarquia;
-- sustação do art. 49, V ≠ anulação geral;
-- pedido escrito ≠ convocação;
-- comissão pode convocar no art. 50;
-- CPMI exige 1/3 **de cada Casa**;
-- CPI não tem todos os poderes de juiz;
-- sigilo bancário/fiscal pode ser quebrado pela CPI com fundamentação;
-- interceptação em curso exige juiz;
-- CPI não decreta indisponibilidade de bens;
-- relatório de CPI não condena;
-- criação da CPI ≠ prorrogação automática.
+O depoente pode estar com advogado **inclusive em sessão secreta** e calar-se quanto a respostas autoincriminatórias (que o comprometeriam penalmente). A testemunha continua obrigada a dizer a verdade sobre o restante. O relatório conclui e encaminha, se for o caso, ao <abbr title="Ministério Público">MP</abbr> e aos órgãos competentes: **investigar/relatar não é condenar**. Atos da comissão lesivos a direitos admitem controle judicial, preservada sua autonomia parlamentar legítima.
