@@ -206,7 +206,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H088 | `populacao-urbanizacao-movimentos` | = | V | [`f70bb96`](https://github.com/insign/concursos/commit/f70bb960f913e6109f7dd29f9cf6de6188378140) |
 | H089 | `agricultura-pecuaria-maranhenses` | = | V | [`4ad0a63`](https://github.com/insign/concursos/commit/4ad0a63b36c6d46d8914e48ecb2fb354dbc8be44) |
 | H090 | `extrativismo-vegetal-animal-mineral` | `extrativismo-vegetal-animal-min` | V | [`e281217`](https://github.com/insign/concursos/commit/e28121728d6813997e6f2d6ffbde420dd583007a) |
-| H091 | `industrias-base-transformacao` | = | V | — |
+| H091 | `industrias-base-transformacao` | = | V | [`d3f1f88`](https://github.com/insign/concursos/commit/d3f1f880bc55d6a90c0477fe82b4770e12eb55da) |
 | H092 | `comercio-telecom-transportes` | = | V | — |
 | H093 | `malha-viaria-portos-aeroportos` | = | V | — |
 | H094 | `cultura-maranhense` | = | V | — |
