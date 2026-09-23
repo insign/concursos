@@ -141,7 +141,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H038 | `proposicoes-tabelas-verdade` | = | V | [`86678854e`](https://github.com/insign/concursos/commit/86678854e48b4abf088a97eea2db9ec1db86916d) |
 | H039 | `equivalencias-de-morgan-diagramas-logicos` | `equivalencias-de-morgan` | V | [`f3664ba48`](https://github.com/insign/concursos/commit/f3664ba488d3b8e9437cbc8ffef150e3770f62a4) |
 | H040 | `logica-primeira-ordem` | = | V | [`94ad6d303`](https://github.com/insign/concursos/commit/94ad6d30358fbc523f58978f868cc4c7287337ff) |
-| H041 | `principios-contagem-probabilidade` | `contagem-probabilidade` | V | — |
+| H041 | `principios-contagem-probabilidade` | `contagem-probabilidade` | V | [`898222dfa`](https://github.com/insign/concursos/commit/898222dfa5a88c3aeaf6b1349ed34193f09ff228) |
 | H042 | `operacoes-conjuntos` | = | V | — |
 | H043 | `problemas-aritmeticos` | = | V | — |
 | H044 | `problemas-geometricos` | = | V | — |
