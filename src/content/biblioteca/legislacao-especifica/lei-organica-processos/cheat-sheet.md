@@ -1,103 +1,47 @@
-# Lei Orgânica: Processos
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: processos
 
-## Corte
+**Corte:** E1 publicado em 7/7/2026 (ato de 6/7). Lei 8.258/2005, arts. 118–128; contas/fiscalização no assunto 066 e espécies de decisões/recursos no 068.
 
-- **Arts. 118 a 128 da Lei nº 8.258/2005**.
-- Regra vigente no edital: **6 jul. 2026**.
-- 066 = contas/instrumentos de controle.
-- 068 = decisões, débitos, sanções, execução e recursos em detalhe.
+## Quem age e em que etapa
 
-## Quem é quem
-
-| Ator | Chave de prova |
+| Sujeito processual (art. 118) | Função |
 | --- | --- |
-| responsável | parte qualificada pela ordem jurídica |
-| interessado | parte com razão legítima para intervir reconhecida |
-| relator | preside a instrução |
-| <abbr title="Ministério Público de Contas">MPC</abbr> | fiscal da lei |
-| Secretaria | documentação, comunicação e instrução sob direção do relator |
+| **Parte** | Responsável (qualificado pela ordem jurídica) ou interessado (razão legítima de intervir **reconhecida** pelo relator ou Tribunal). Pode agir diretamente ou por procurador constituído, **ainda que não advogado**. |
+| **Relator** | Conselheiro ou Conselheiro-Substituto; preside a instrução, pode sobrestar (adiar) julgamento, determinar citação ou saneamento (corrigir o processo), de ofício ou provocado. Submete mérito ao Pleno ou Câmara. |
+| <abbr title="Ministério Público de Contas">MPC</abbr> | Fiscal da lei; emite parecer na etapa própria. |
+| Secretaria | Documenta, comunica e instrui sob direção do relator. |
 
-**Parte = responsável + interessado.**
+**Nem todo sujeito é parte.** Distribuição aos relatores: **publicidade + alternatividade + sorteio**; a forma é definida pelo Regimento Interno.
 
-Parte atua diretamente ou por procurador constituído, **ainda que não advogado**.
+**Rito (art. 120):** instauração → instrução → parecer do <abbr title="Ministério Público de Contas">MPC</abbr> → julgamento → recursos. Na instrução, a vedação do art. 96, VIII, também alcança servidores (interesse próprio, vínculos pessoais e atuação anterior incompatível). Admite-se meio eletrônico, inclusive assinatura digital certificada ou cadastro disciplinado pelo Tribunal. Prova **sempre documental**, mesmo eletrônica; prova ilícita inadmissível.
 
-## Distribuição e fluxo
+**Art. 122:** atos normativos disciplinam tramitação, vista/cópia dos autos (peças do processo), nulidades/comunicações, certidões/informações e arquivamento. A lista é **exemplificativa**; a lei não especifica sozinha os procedimentos.
 
-**Distribuição = publicidade + alternatividade + sorteio.**
+## Prazos: evento inicial → contagem → vencimento
 
-**Rito:**
+Os prazos são **contínuos**, inclusive em feriados. Identifique a ciência do art. 123; **exclua o dia inicial e inclua o vencimento**. Se vencer em dia sem expediente, prorrogue até o **primeiro dia útil imediato**.
 
-`instauração → instrução → parecer do MPC → julgamento → recursos`
-
-Na instrução, aplica-se aos servidores a vedação do art. 96, VIII.
-
-## Eletrônico e prova
-
-| Tema | Regra de uma linha |
+| Evento | Referência para o início |
 | --- | --- |
-| meio eletrônico | admitido conforme disciplina do Tribunal |
-| prova | **sempre documental**, inclusive eletrônica |
-| prova ilícita | inadmissível |
-| art. 122 | rol **não exaustivo** de matérias regulamentadas por ato normativo |
+| Citação ou intimação de decisão interlocutória (decisão no curso do processo) | Recebimento pela parte. |
+| Ciência comprovada de outro modo | Data do documento comprobatório. |
+| Parte não localizada | Publicação do edital no Diário Oficial Eletrônico do Tribunal. |
+| Acórdão (decisão colegiada) ou parecer prévio | Publicação no Diário Oficial Eletrônico do Tribunal. |
+| Outros casos, salvo regra expressa | Publicação da decisão no Diário Oficial Eletrônico do Tribunal. |
 
-Art. 122: tramitação; vista/cópia; nulidades/comunicações; certidões/informações; arquivamento.
+**Acréscimo ou retificação de publicação devolve o prazo**, inclusive citação/intimação. **Recesso não suspende nem interrompe** prazo de recurso, defesa, cumprimento de determinação e demais prazos da parte; a prorrogação do vencimento sem expediente continua aplicável. Esgotado o prazo, ocorre **preclusão** (perda do direito de praticar ou alterar o ato) sem declaração, salvo **justo motivo comprovado**.
 
-## Motor dos prazos
+## Citação e defesa: localize a regra especial
 
-`evento do art. 123 → exclui o dia inicial → contagem contínua → inclui o vencimento → sem expediente? 1º dia útil imediato`
+Ciência para defesa é **formalidade essencial**. Carta registrada com <abbr title="Aviso de Recebimento">AR</abbr> comprova entrega no endereço indicado: **não exige assinatura do próprio citado**. Se não houver **nenhuma assinatura/rubrica** no <abbr title="Aviso de Recebimento">AR</abbr>, a citação é por edital. Comparecimento espontâneo para ciência supre falta de citação.
 
-- Prazos são **contínuos**; feriado não interrompe.
-- Acréscimo/retificação de publicação: **devolve o prazo**.
-- Recesso: **não suspende nem interrompe** prazo da parte.
-- Prazo perdido: preclusão independentemente de declaração.
-- Exceção: **justo motivo comprovado**.
-
-### Termos iniciais
-
-| Situação | Referência |
+| Citação | Defesa: **30 dias**, prorrogáveis por **até mais 30** a critério do relator, contados da... |
 | --- | --- |
-| citação | recebimento pela parte |
-| intimação interlocutória | recebimento pela parte |
-| outra ciência comprovada | data do documento |
-| parte não localizada | publicação do edital |
-| acórdão/parecer prévio | publicação no <abbr title="Diário Oficial Eletrônico">DOE</abbr> do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> |
-| demais decisões | publicação no DOE, salvo regra expressa |
+| Postal | assinatura/rubrica do <abbr title="Aviso de Recebimento">AR</abbr>. |
+| Por edital | publicação do edital. |
 
-## Citação, defesa e revelia
+A parte apresenta razões de fato e direito **sobre cada ocorrência do relatório técnico**, com provas. Ocorrência sem impugnação → revelia **quanto àquela ocorrência**; nenhuma defesa → revelia total e processo prossegue. Contra o revel, prazos correm **sem intimação**; ele pode intervir em qualquer fase, recebendo o processo **como estiver**.
 
-| Situação | Regra |
-| --- | --- |
-| citação normal | carta registrada + <abbr title="Aviso de recebimento">AR</abbr> no endereço indicado |
-| assinatura no AR | não precisa ser do próprio citado |
-| nenhuma assinatura/rubrica no AR | edital no DOE |
-| comparecimento espontâneo | supre falta de citação |
-| defesa | **30 dias** |
-| prorrogação | até **+30 dias**, a critério do relator |
-| ocorrência não contestada | revelia quanto à ocorrência |
-| nenhuma defesa no prazo | revelia para todos os efeitos; processo prossegue |
-| revel | prazos correm sem intimação; pode intervir no estado atual do processo |
+## Fala na sessão
 
-Defesa = razões articuladas de fato e de direito + impugnação das ocorrências + provas.
-
-## Sustentação oral
-
-**Linha temporal:**
-
-`relatório → sustentação oral → voto/proposta`
-
-- parte ou procurador constituído, ainda que não advogado;
-- requerimento **antes do início da sessão**;
-- forma de exercício: Regimento Interno.
-
-## Pegadinhas
-
-- Nem todo sujeito processual é parte.
-- Interessado não entra por simples autodeclaração: exige razão legítima reconhecida.
-- Sorteio não é o único princípio da distribuição.
-- Eletrônico **não** significa prova não documental.
-- Prazo contínuo **não** significa vencimento obrigatório em dia sem expediente.
-- Recesso **não** paralisa os prazos da parte previstos no art. 126.
-- Prorrogação da defesa não é automática.
-- Revelia pode ser **parcial** (por ocorrência) ou **total** (sem defesa).
-- Intervenção posterior do revel ocorre no estado em que o processo estiver; a Lei não promete repetição de etapas.
-- Sustentação oral vem **depois do relatório e antes do voto/proposta**.
+**Relatório → sustentação oral → voto/proposta de decisão.** Parte ou procurador constituído, mesmo não advogado, deve **requerer a sustentação antes do início da sessão**. O Regimento define a forma; essa fala não substitui a defesa escrita na instrução.
