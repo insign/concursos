@@ -1,173 +1,58 @@
 # Operações com conjuntos
 
-## Fluxo
+**Qual é o universo e que região a frase seleciona?** Fixe $U$ antes de falar em “fora” ou “nenhum”; complemente apenas em relação a ele. $|A|$ é a <abbr title="número de elementos distintos de um conjunto">cardinalidade</abbr> de $A$: repetição e ordem de escrita não contam.
 
-1. Qual é o **universo**?
-2. A frase fala de elemento ($\in$) ou subconjunto ($\subseteq$)?
-3. Traduza a região.
-4. Se houver números, preencha primeiro a região mais interna.
-5. Corrija dupla contagem com inclusão-exclusão.
-6. Confira se as regiões são possíveis e não negativas.
+## Elemento, conjunto e região
 
-## Notação que não pode confundir
-
-| Símbolo | Leitura |
+| Notação | Leia sem trocar as unidades |
 |---|---|
-| $x\in A$ | $x$ é elemento de $A$ |
-| $x\notin A$ | $x$ não pertence a $A$ |
-| $A\subseteq B$ | todo elemento de $A$ está em $B$ |
-| $A\subsetneq B$ | inclusão própria |
-| $|A|$ | <abbr title="número de elementos distintos do conjunto">cardinalidade</abbr> |
+| $x\in A$ | Objeto $x$ pertence a $A$. |
+| $A\subseteq B$ | Todo elemento de $A$ pertence a $B$; igualdade é possível. |
+| $A\subsetneq B$ | $A$ está contido em $B$ e $A\ne B$. |
+| $\varnothing\subseteq A$ | O vazio está contido em todo conjunto; isso não diz $\varnothing\in A$. |
 
-$$
-x\in A
-\iff
-\{x\}\subseteq A.
-$$
+$x\in A$ equivale a $\{x\}\subseteq A$, mas **não** a $\{x\}\in A$. Ainda, $|\varnothing|=0$ e $|\{\varnothing\}|=1$; mesma cardinalidade entre conjuntos não implica igualdade de elementos.
 
-Mas $\{x\}\in A$ é outra afirmação.
-
-## Vazio
-
-$$
-|\varnothing|=0,
-\qquad
-|\{\varnothing\}|=1.
-$$
-
-$$
-\varnothing\subseteq A
-$$
-
-para todo conjunto $A$.
-
-**Subconjunto de todo conjunto ≠ elemento de todo conjunto.**
-
-## Tradução rápida
-
-| Expressão | Região |
+| Frase | Região / operação |
 |---|---|
-| pelo menos um / $A$ ou $B$ | $A\cup B$ |
-| ambos / simultaneamente | $A\cap B$ |
-| $A$, mas não $B$ | $A\setminus B$ |
-| exatamente um | $A\triangle B$ |
-| nenhum | $(A\cup B)^c$ |
-| não ambos | $(A\cap B)^c$ |
-| somente $A$ entre três | $A\setminus(B\cup C)$ |
+| A ou B, pelo menos um | $A\cup B$: inclui quem está em ambos. |
+| A e B, ambos | $A\cap B$: exige as duas condições. |
+| A, mas não B | $A\setminus B=A\cap B^c$: a ordem importa. |
+| Exatamente um dos dois | $A\triangle B=(A\cup B)\setminus(A\cap B)$. |
+| Nenhum dos dois | $(A\cup B)^c$: fora dos dois. |
+| Não ambos | $(A\cap B)^c$: basta faltar uma condição. |
+| Somente A entre três | $A\setminus(B\cup C)$. |
 
-> “Ou” na união é **inclusivo**.
+O complemento é $A^c=U\setminus A$; conjuntos **disjuntos** têm $A\cap B=\varnothing$. “Nenhum” e “não ambos” normalmente escolhem regiões diferentes.
 
-## Operações
+## Simplifique sem mudar a região
 
-$$
-A\cup B=\{x:x\in A\text{ ou }x\in B\}
-$$
+| Lei | Formas para recuperar |
+|---|---|
+| Repetição e extremos | $A\cup A=A$, $A\cap A=A$; $A\cup\varnothing=A$, $A\cap U=A$, $A\cup U=U$, $A\cap\varnothing=\varnothing$. |
+| Troca e agrupamento | União e interseção admitem comutatividade e associatividade, sem trocar a operação. |
+| Absorção | $A\cup(A\cap B)=A$; $A\cap(A\cup B)=A$. |
+| Distributividade | $A\cap(B\cup C)=(A\cap B)\cup(A\cap C)$; $A\cup(B\cap C)=(A\cup B)\cap(A\cup C)$. |
+| De Morgan | $(A\cup B)^c=A^c\cap B^c$; $(A\cap B)^c=A^c\cup B^c$. |
 
-$$
-A\cap B=\{x:x\in A\text{ e }x\in B\}
-$$
+Ao complementar uma expressão composta, **complemente cada parcela e troque união/interseção**. Valem também $A\cup A^c=U$, $A\cap A^c=\varnothing$ e $(A^c)^c=A$.
 
-$$
-A\setminus B=A\cap B^c
-$$
+## Conte sem sobrepor regiões
 
-$$
-A^c=U\setminus A
-$$
+Para conjuntos finitos $A,B\subseteq U$, a <abbr title="regra que corrige a contagem repetida das interseções">inclusão-exclusão</abbr> retira quem foi contado duas vezes:
 
 $$
-A\triangle B
-=(A\cup B)\setminus(A\cap B)
+|A\cup B|=|A|+|B|-|A\cap B|,\qquad
+|A\triangle B|=|A|+|B|-2|A\cap B|.
 $$
 
-- diferença: ordem importa;
-- complemento: universo importa;
-- diferença simétrica: **exatamente um**.
-
-## Leis de uma linha
+Somente $A$: $|A|-|A\cap B|$; nenhum: $|U|-|A\cup B|$. Para conferir dados com $U$ finito:
 
 $$
-A\cup A=A,
-\qquad
-A\cap A=A
+\max(0,|A|+|B|-|U|)\le |A\cap B|\le\min(|A|,|B|).
 $$
 
-$$
-A\cup\varnothing=A,
-\qquad
-A\cap U=A
-$$
-
-$$
-A\cup U=U,
-\qquad
-A\cap\varnothing=\varnothing
-$$
-
-Absorção:
-
-$$
-A\cup(A\cap B)=A,
-\qquad
-A\cap(A\cup B)=A.
-$$
-
-Distributividade:
-
-$$
-A\cap(B\cup C)=(A\cap B)\cup(A\cap C),
-$$
-
-$$
-A\cup(B\cap C)=(A\cup B)\cap(A\cup C).
-$$
-
-## De Morgan
-
-$$
-(A\cup B)^c=A^c\cap B^c
-$$
-
-$$
-(A\cap B)^c=A^c\cup B^c
-$$
-
-**Complementou? Troque $\cup$ por $\cap$ e vice-versa.**
-
-## Dois conjuntos: fórmulas
-
-$$
-|A\cup B|=|A|+|B|-|A\cap B|
-$$
-
-Somente $A$:
-
-$$
-|A|-|A\cap B|
-$$
-
-Exatamente um:
-
-$$
-|A\triangle B|
-=|A|+|B|-2|A\cap B|
-$$
-
-Nenhum:
-
-$$
-|U|-|A\cup B|
-$$
-
-Limites:
-
-$$
-\max(0,|A|+|B|-|U|)
-\le |A\cap B|
-\le \min(|A|,|B|).
-$$
-
-## Três conjuntos
+**Três conjuntos: comece pelo centro.** Uma interseção de pares, como $A\cap B$, **inclui** a região tripla; a região “A e B, mas não C” é $|A\cap B|-|A\cap B\cap C|$. Preencha tripla → pares exclusivos → conjuntos exclusivos → fora da união.
 
 $$
 |A\cup B\cup C|
@@ -176,46 +61,4 @@ $$
 +|A\cap B\cap C|.
 $$
 
-### Ordem de preenchimento
-
-1. tripla;
-2. exatamente dois;
-3. somente um;
-4. fora da união.
-
-Interseção de pares é **inclusiva**:
-
-$$
-|A\cap B\text{ somente}|
-=|A\cap B|-|A\cap B\cap C|.
-$$
-
-Pelo menos dois:
-
-$$
-|A\cap B|+|A\cap C|+|B\cap C|
--2|A\cap B\cap C|.
-$$
-
-## Pegadinhas
-
-- $x\in A$ ≠ $x\subseteq A$.
-- $\varnothing\subseteq A$ não implica $\varnothing\in A$.
-- $\varnothing\ne\{\varnothing\}$.
-- Repetição não aumenta cardinalidade.
-- Mesma cardinalidade não implica igualdade.
-- União inclui quem está na interseção.
-- $A\setminus B\ne B\setminus A$ em geral.
-- Complemento sem universo está incompleto.
-- “Nenhum” ≠ “não ambos”.
-- $A\cap B$ inclui quem também está em $C$.
-- Na fórmula de três conjuntos, a região tripla volta com sinal **positivo**.
-
-## Conferência final
-
-- Identifiquei o universo?
-- Traduzi a frase antes de calcular?
-- Diferenciei elemento de subconjunto?
-- Comecei pela região mais interna?
-- Corrigi a dupla contagem?
-- O total das regiões respeita $|U|$?
+“Pelo menos dois” = soma das três interseções de pares **menos duas vezes** a tripla. Ao final, nenhuma região pode ser negativa e a soma de todas, inclusive fora da união, deve ser $|U|$.
