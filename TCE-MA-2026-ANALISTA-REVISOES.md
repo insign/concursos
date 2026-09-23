@@ -140,7 +140,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H037 | `logica-argumentacao-inferencias` | = | V | [`513842cdc`](https://github.com/insign/concursos/commit/513842cdc31f896b25e22cd6535901b06fcbb575) |
 | H038 | `proposicoes-tabelas-verdade` | = | V | [`86678854e`](https://github.com/insign/concursos/commit/86678854e48b4abf088a97eea2db9ec1db86916d) |
 | H039 | `equivalencias-de-morgan-diagramas-logicos` | `equivalencias-de-morgan` | V | [`f3664ba48`](https://github.com/insign/concursos/commit/f3664ba488d3b8e9437cbc8ffef150e3770f62a4) |
-| H040 | `logica-primeira-ordem` | = | V | — |
+| H040 | `logica-primeira-ordem` | = | V | [`94ad6d303`](https://github.com/insign/concursos/commit/94ad6d30358fbc523f58978f868cc4c7287337ff) |
 | H041 | `principios-contagem-probabilidade` | `contagem-probabilidade` | V | — |
 | H042 | `operacoes-conjuntos` | = | V | — |
 | H043 | `problemas-aritmeticos` | = | V | — |
@@ -302,7 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
-- H037: q52203702 e q52203705 exigem distinguir abdução, conceito ausente do `conteudo.md`; reavaliar aula/banco em escopo próprio antes da M03.
+- H037: q52203702 e q52203705 exigem distinguir abdução, ausente da aula; H040: q5108 exige fórmula de existência única, que a aula só menciona sem ensinar. Reavaliar aula/banco em escopo próprio antes da M03.
 
 - H029, H032, H033 e H035: `conteudo.md` confunde a data do ato E1 (6/7) com a publicação informada pelo Tribunal (7/7), marco do corte legislativo. Corrigir as aulas em revisão própria.
 - H029: aula descreve como atual em 6/9 o andamento do Tema 533, com sessão encerrada em 14/9 e sem inteiro teor confirmado no portal do STF; q522043 requer fundamento processual fora da aula. Revalidar publicação do julgado e banco na revisão própria.
