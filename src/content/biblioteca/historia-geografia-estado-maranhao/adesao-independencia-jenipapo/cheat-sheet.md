@@ -1,137 +1,21 @@
 # Adesão do Maranhão ao Império, Independência e Batalha do Jenipapo
 
-## Linha-mestra
+## Reconstrua a campanha
 
-$$
-\text{Lisboa}
-\rightarrow \text{resistência}
-\rightarrow \text{Jenipapo}
-\rightarrow \text{Caxias/interior}
-\rightarrow \text{São Luís isolada}
-\rightarrow \text{Cochrane}
-\rightarrow 28/07/1823
-$$
-
-## Quatro datas
-
-| Data | Evento |
+| Marco | O que muda |
 |---|---|
-| **13 mar. 1823** | Batalha do Jenipapo — Campo Maior/<abbr title="Piauí">PI</abbr> |
-| **27 jul. 1823** | exigência de Cochrane registrada pela Junta |
-| **28 jul. 1823** | adesão formal de São Luís ao Império |
-| **7 ago. 1823** | juramento da Independência em Caxias |
+| **1822** | O 7 de setembro não integra automaticamente o Maranhão. São Luís mantém laços comerciais, marítimos e administrativos com Lisboa; o constitucionalismo das Cortes portuguesas não implica adesão ao governo de Pedro I. |
+| **13 mar. 1823 — Jenipapo, Campo Maior (Piauí)** | Fidié, governador das armas português, vence **taticamente**, mas não retoma Oeiras. Suprimentos e resistência local levam sua campanha para Caxias. |
+| **Interior maranhense** | Matões disputa a aproximação de Fidié; Caxias concentra a resistência portuguesa e é cercada; a mudança de José Félix Pereira de Burgos no eixo de Itapecuru enfraquece as comunicações com São Luís. Pastos Bons é área sertaneja de mobilização, não uma segunda batalha decisiva. |
+| **27–28 jul. 1823 — São Luís** | Com o interior sob pressão, Cochrane exige a adesão em 27/7; a Câmara Geral formaliza a Independência política da província em **28/7**. |
+| **7 ago. 1823 — Caxias** | Juramento da Independência na cidade: o ato na capital não encerrou instantaneamente o processo no interior. |
 
-## Causas da não adesão
+**Causa anterior ao combate:** a orientação atlântica para Lisboa, com redes de algodão, arroz, crédito, cargos e navegação, ajuda a explicar a resistência de parte dos dirigentes de São Luís. As elites não agiram como bloco único. Defender Constituição podia significar apoiar as Cortes de Lisboa e rejeitar o Rio.
 
-**Lisboa > Rio**, para parte importante dos grupos de São Luís, por:
+**Resultado ≠ efeito:** no Jenipapo, combatentes piauienses e cearenses, inclusive voluntários de diferentes grupos sociais, enfrentaram forças portuguesas mais organizadas. A vitória imediata de Fidié não restaurou seu controle de Oeiras; distinguir combate de campanha evita atribuir a ele uma vitória final. A história de bagagem portuguesa capturada não é ponto documental seguro.
 
-- rotas marítimas;
-- comércio;
-- crédito;
-- algodão e arroz;
-- cargos e redes políticas;
-- resistência à centralização no Rio de Janeiro.
+**Dois teatros:** Fidié atua por terra, de Oeiras a Caxias. Cochrane acrescenta ameaça naval à capital já isolada; não há batalha naval entre os dois em São Luís. Seu navio é a **nau Pedro I**. Isolamento, abastecimento e pressão naval explicam a adesão formal, que não foi um acordo pacífico e espontâneo.
 
-> Jenipapo **não é causa original** desses vínculos.
+**Participação e consequência:** tropas, <abbr title="Corpos armados locais que auxiliam tropas regulares">milícias</abbr>, vaqueiros, lavradores, indígenas, pessoas negras, libertos e pobres livres participaram com interesses diversos. Não projete sobre todos um nacionalismo pronto nem deduza abolição da escravidão ou igualdade social da incorporação política ao Império.
 
-## Jenipapo
-
-| Elemento | Resposta |
-|---|---|
-| data | **13/3/1823** |
-| local | **Campo Maior, Piauí** |
-| português | **João José da Cunha Fidié** |
-| objetivo independentista | impedir Fidié de retomar Oeiras |
-| resultado tático | **vitória portuguesa** |
-| efeito posterior | Fidié não retoma Oeiras e segue para Caxias |
-
-### Fórmula
-
-**vitória tática portuguesa ≠ vitória estratégica da campanha**
-
-## Quatro localidades do Maranhão
-
-| Local | Papel |
-|---|---|
-| **São José dos Matões** | ponto disputado na aproximação de Fidié a Caxias |
-| **Caxias** | principal concentração portuguesa no interior; cercada |
-| **Itapecuru-Mirim** | eixo produtivo/comunicação; Burgos muda de campo |
-| **Pastos Bons** | área sertaneja de circulação, fronteira e defesa |
-
-> Não invente em Pastos Bons uma batalha equivalente ao Jenipapo.
-
-## Caxias
-
-- Fidié concentra-se ali após Jenipapo.
-- Cerco com forças do Piauí, Ceará e Maranhão.
-- **7 ago. 1823:** juramento da Independência.
-- Microdatas de capitulação/ocupação variam; não são o núcleo.
-
-## Itapecuru-Mirim
-
-**José Félix Pereira de Burgos** passa ao campo independentista.
-
-Efeito:
-
-**Itapecuru enfraquecido para Portugal → comunicações piores → São Luís mais isolada.**
-
-## Cochrane
-
-- comandante naval a serviço de D. Pedro I;
-- atua no fim de julho;
-- embarcação: **Nau Pedro I**;
-- blefe sobre força imperial maior;
-- bloqueio/ameaça naval sobre capital já enfraquecida.
-
-### Pegadinha
-
-**Cochrane não derrotou Fidié em batalha naval em São Luís.**
-
-Fidié: Jenipapo → Caxias.  
-Cochrane: pressão naval → São Luís.
-
-## 28 de julho
-
-**avanço terrestre + isolamento + abastecimento ruim + pressão naval → adesão formal**
-
-> Ato formal de adesão ≠ processo pacífico e espontâneo.
-
-## Personagens
-
-| Nome | Associação |
-|---|---|
-| **Fidié** | comandante português; Jenipapo e Caxias |
-| **Cochrane** | pressão naval sobre São Luís |
-| **José Félix Pereira de Burgos** | Itapecuru-Mirim; muda de campo |
-| **D. Pedro I** | novo centro imperial |
-
-## Anacronismo
-
-**Antônio de Sampaio** tinha cerca de 13 anos em 1823.
-
-→ pertence à **Balaiada**, não à Independência do Maranhão.
-
-## Participação social
-
-- tropas regulares;
-- milícias;
-- vaqueiros e lavradores;
-- indígenas;
-- negros e mestiços;
-- libertos e pobres livres.
-
-**participação ampla ≠ programa social único**
-
-## Pegadinhas de uma linha
-
-- 7/9/1822 não integrou automaticamente o Maranhão.
-- Jenipapo = **Piauí**.
-- Fidié venceu **taticamente**.
-- Jenipapo não criou os vínculos com Lisboa.
-- Fidié foi para **Caxias**.
-- Cochrane pressionou **São Luís**.
-- **Nau Pedro I**, não “fragata Pedro I”.
-- **28/7 = São Luís**.
-- **7/8 = Caxias**.
-- Matões, Caxias, Itapecuru e Pastos Bons têm papéis distintos.
-- Adesão formal não significa fim imediato das disputas.
+**Localize sem trocar:** Jenipapo = Piauí, março; São Luís = adesão, julho; Caxias = juramento, agosto. Antônio de Sampaio pertence à Balaiada posterior, não ao comando da campanha de 1823.
