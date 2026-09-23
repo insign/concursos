@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7839",
@@ -1624,9 +1624,9 @@
     },
     {
       "id": "q7893",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A associação correta entre formações do Cerrado é",
+      "prompt": "Em aproximação didática entre nomenclaturas das formações do Cerrado, qual associação é a mais adequada?",
       "options": [
         {
           "id": "A",
@@ -1650,7 +1650,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A densidade arbórea diminui do Cerradão para formações parque e gramíneo-lenhosas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Savana Parque aproxima-se didaticamente de campo sujo e Savana Gramíneo-Lenhosa de campo limpo; as correspondências não são equivalências taxonômicas universais. O critério de prova é o gradiente de densidade lenhosa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7894",
