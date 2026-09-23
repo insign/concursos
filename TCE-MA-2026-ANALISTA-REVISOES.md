@@ -74,7 +74,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M02 | `G/competencias-digitais-informatica-aplicada-setor-publico` | H019–H035 | V: `competencias-digitais-informatica-aplicada-setor-publico` | [`dbaeec3a29`](https://github.com/insign/concursos/commit/dbaeec3a29140ab8e1480e3dcea0701f9b5d04d9) |
 | M03 | `G/raciocinio-logico` | H036–H045 | V: `raciocinio-logico` | `ff6dd84d7a3693950b36f6b28ba6ae825a1bbd4a` |
 | M04 | `G/controle-externo` | H046–H054 | V: `controle-externo` | [`cfb3291`](https://github.com/insign/concursos/commit/cfb329124273c1cda28254fadf1363c5dae031d7) |
-| M05 | `G/legislacao-especifica` | H055–H072 | V: `legislacao-especifica` | — |
+| M05 | `G/legislacao-especifica` | H055–H072 | V: `legislacao-especifica` | [`37edcc7`](https://github.com/insign/concursos/commit/37edcc716d1ce4411c5cb43c5b50ebf8c183fea0) |
 | M06 | `G/historia-geografia-estado-maranhao` | H073–H094 | L | — |
 | M07 | `G/nocoes-direitos-humanos` | H095–H102 | V: `nocoes-direitos-humanos` | — |
 | M08 | `E/administracao-publica` | H103–H114 | L | — |
@@ -302,29 +302,13 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
-- H072: a aula confunde 6/7 (data de E1) com publicação/corte em 7/7; corrigir no escopo da aula. Antes da M05, confirmar eventual ato alterador da norma nº 82/2025 se a análise depender dele; a consulta não fundamenta afirmar sua inexistência.
-- H071: aula usa 6/7 (data do ato E1) como publicação/corte, mas Tribunal informa 7/7. Textos integrais da DN 28/2017, IN 56/2018 e DN 38/2020 não abriram diretamente no portal; cotejar na M05 se necessário. Corrigir aula em escopo próprio.
-- H070: aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal informa 7/7. Corrigir na revisão própria da aula.
-- H069: aula usa 6/7 (ato E1) como publicação/corte, mas Tribunal informa 7/7. Compilação oficial da Lei 9.936/2013 ainda omite o inciso XII de 2026; conferir a republicação oficial da Lei 12.822/2026 nas referências de H070 ao revisar a aula/M05.
+- H055–H072: as 18 aulas tratam 6/7, data do Edital nº 1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir nas aulas em escopo próprio.
+- H059: a aula atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269 e atribui ao Regimento o “sempre que possível” da Lei Orgânica sobre o parecer da consulta. Corrigir na aula.
+- H062–H063: a aula H062 omite Governador da vedação à revisão do art. 139, § 7º. A H063 ensina oito dias no art. 312, cujo texto compilado fixa sete; art. 26 reformado e seus parágrafos antigos exigem conciliação de vigência, inclusive no banco q6513–17. Corrigir em escopo próprio.
+- H061 e H065: q6359 exige CEI/DDNT e q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, sem ensino correspondente nas aulas. Reavaliar pertinência/ensino em escopo próprio.
+- H069–H071: a compilação oficial da Lei nº 9.936/2013 omite o inciso XII de 2026, apesar da republicação da Lei nº 12.822/2026 referida em H070. A íntegra da Decisão Normativa nº 28/2017, da Instrução Normativa nº 56/2018 e da Decisão Normativa nº 38/2020 não abriu diretamente; cotejar em revisão própria se a aula exigir conclusão adicional.
+- H064, H066 e H068: os inteiros teores da Arguição 982, da Resolução nº 324/2020 e dos Temas 1287, 642 e 899 não abriram na consulta anterior; as aulas usaram notícias oficiais e textos normativos correlatos. Revalidar texto primário em revisão própria se a conclusão depender dele.
 
-- H068: aula toma 6/7 como publicação/corte E1 (Tribunal informa 7/7). Páginas de inteiro teor dos Temas 1287, 642 e 899 não abriram no portal do STF; foram verificadas notícias oficiais e texto compilado da Lei, revalidar inteiro teor na futura M05 se necessário.
-
-- H067: aula confunde 6/7 (ato E1) com publicação/corte; Tribunal informa 7/7. Corrigir na revisão própria da aula.
-
-- H066: aula trata 6/7 (data do ato E1) como publicação/corte; Tribunal informa 7/7. PDF oficial da Resolução 324/2020 não abriu na consulta; definições de instrumentos apoiadas na aula e notícia institucional, revalidar texto normativo em revisão própria se pertinente à M05.
-
-- H065: aula trata 6/7 (data do ato E1) como publicação/corte; publicação informada pelo Tribunal foi 7/7. q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, ausente da aula; revisar ensino/pertinência no escopo próprio.
-
-- H064: aula toma 6/7 como publicação E1 (Tribunal informa 7/7). Inteiro teor da ADPF 982 não abriu no portal do STF nesta consulta; revalidar na futura M05 se necessário.
-- H063: aula chama 6/7 de publicação E1 (Tribunal informa 7/7) e ensina **oito** dias no art. 312, quando Regimento compilado fixa **sete**. Art. 26 caput reformado pela Resolução 391/2023 versa pautas, mas seus §§ 1º–2º antigos permanecem no compilado; aula os afasta categoricamente, banco q6513–17 os cobra literalmente. Conciliar vigência material e pertinência em revisão própria antes de usá-los como contraprova da M05.
-- H062: aula atribui publicação de E1 a 6/7 (Tribunal informa 7/7) e menciona apenas prefeito na vedação de revisão do art. 139, § 7º, que também abrange governador; corrigir no escopo próprio.
-- H061: aula trata 6/7 como publicação de E1 (Tribunal informa 7/7); q6359 exige siglas CEI/DDNT não ensinadas na aula. Rever no escopo próprio. O portal do STF retornou 502 ao abrir inteiro teor dos Temas 642/1287; revalidar na futura M05 se necessário.
-- H060: aula usa 6/7 como publicação de E1, em vez de 7/7 informado pelo Tribunal; rever no escopo próprio.
-- H059: a aula usa 6/7 como publicação de E1 (Tribunal informa 7/7), atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269, e chama de redação atual do Regimento o “sempre que possível” da Lei Orgânica para o parecer. Rever no escopo da aula.
-- H058: aula considera 6/7 como publicação/corte de E1, mas o Tribunal informa 7/7; corrigir em revisão própria.
-- H057: aula trata 6/7 (data de E1) como publicação/corte, mas o Tribunal informa 7/7; corrigir em revisão própria.
-- H056: a aula registra 6/7 como publicação/corte de E1, embora a publicação informada pelo Tribunal seja 7/7; corrigir em revisão própria.
-- H055: a aula trata 6/7 (data do ato E1) como publicação e corte, enquanto o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria.
 - H054: a aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal registra 7/7. q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente; revisar ensino/banco no escopo próprio, sem ampliar H/M por essas peculiaridades.
 - H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
