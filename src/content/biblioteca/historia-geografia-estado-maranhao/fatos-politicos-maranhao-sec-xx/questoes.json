@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7479",
@@ -874,9 +874,9 @@
     },
     {
       "id": "q7508",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O bipartidarismo foi extinto em",
+      "prompt": "Qual é a data da lei que extinguiu formalmente os partidos criados sob o bipartidarismo do regime militar?",
       "options": [
         {
           "id": "A",
@@ -896,11 +896,11 @@
         },
         {
           "id": "E",
-          "text": "29 de novembro de 1979."
+          "text": "20 de dezembro de 1979."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A reforma partidária abriu caminho para PDS, PMDB e outras novas ou reorganizadas siglas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Lei nº 6.767, de 20/12/1979, extinguiu formalmente os partidos do sistema anterior. O encerramento político situado em novembro não se confunde com o marco jurídico da lei. Fonte: questão autoral baseada na Lei nº 6.767/1979, art. 2º, https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6767-20-dezembro-1979-357280-publicacaooriginal-1-pl.html."
     },
     {
       "id": "q7509",
