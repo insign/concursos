@@ -119,8 +119,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H021 | `microsoft-word-documentos` | = | V | [`f70c5a8`](https://github.com/insign/concursos/commit/f70c5a8139cbfe566fac195db47ed053e1e9f09d) |
 | H022 | `microsoft-excel-planilhas` | = | V | [`2c2f868`](https://github.com/insign/concursos/commit/2c2f8687f06f16b9bb37dc0b78986bd7b71e76ea) |
 | H023 | `microsoft-powerpoint-apresentacoes` | `powerpoint-apresentacoes` | V | `cabce0f7b167cf9b81342b62a16afa5452dbb5d6` |
-| H024 | `redes-tcp-ip-interoperabilidade` | = | V | `95e036f790a006d138f419534b13f93ca188f833` |
-| H025 | `comunicacao-colaboracao-remota` | = | V | `0bd6c064efce28061c34732cd061bae6c20417f3` |
+| H024 | `redes-tcp-ip-interoperabilidade` | = | V | `df3ed5db1aae462c5b8ec6e26d099ebc8e1b4d79` |
+| H025 | `comunicacao-colaboracao-remota` | = | V | `df3ed5db1aae462c5b8ec6e26d099ebc8e1b4d79` |
 | H026 | `backup-armazenamento-nuvem` | = | V | `a78c7cb619b099047fe38bb04cdc37a460d8859b` |
 | H027 | `malware-protecao-ameacas` | = | V | — |
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | — |
