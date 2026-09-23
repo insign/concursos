@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q5019",
@@ -523,21 +523,6 @@
       ],
       "correctOptionId": "A",
       "explanation": "A negação de uma universal exige um contraexemplo; além disso, negar 'vende moqueca e caranguejada' produz 'não vende moqueca ou não vende caranguejada'. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Fiscal Sanitário — Odontologia; 2025; questão 6; https://conhecimento.fgv.br/sites/default/files/concursos/fiscal-sanitario-odontologia-cns011-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-smsnovaiguacu.pdf."
-    },
-    {
-      "id": "q52203906",
-      "revision": 1,
-      "origin": "previous_exam",
-      "prompt": "A negação de “Nenhum advogado é ingênuo” é:",
-      "options": [
-        {"id": "A", "text": "Há, pelo menos, um advogado ingênuo."},
-        {"id": "B", "text": "Alguns ingênuos são advogados."},
-        {"id": "C", "text": "Todos os advogados são ingênuos."},
-        {"id": "D", "text": "Todos os ingênuos são advogados."},
-        {"id": "E", "text": "Todos os advogados não são ingênuos."}
-      ],
-      "correctOptionId": "A",
-      "explanation": "'Nenhum advogado é ingênuo' nega a existência de alguém que seja simultaneamente advogado e ingênuo; sua negação afirma a existência de ao menos um caso assim. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Amazonas — Analista Legislativo — Analista de Sistema, Tipo Branca; 2025; questão 24; https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-de-sistema-cns303-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf."
     },
     {
       "id": "q52203907",
