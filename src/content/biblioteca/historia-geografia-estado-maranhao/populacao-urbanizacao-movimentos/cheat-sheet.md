@@ -1,148 +1,22 @@
-# População, povoamento e movimentos no Maranhão
+# População, povoamento, densidade, urbanização e movimentos populacionais
 
-## Matriz de conceitos
+## Primeiro identifique medida, data e território
 
-| Termo | Chave de prova |
+| Pergunta | Regra e âncora |
 |---|---|
-| população absoluta | total de habitantes em data e território definidos |
-| densidade | população ÷ área; média espacial |
-| povoamento | processo e padrão histórico-espacial de ocupação |
-| crescimento natural | nascimentos − óbitos |
-| saldo migratório | imigrantes − emigrantes |
-| crescimento total | natural + saldo migratório + ajustes |
+| **Quantos?** | Censo 2022: **6.776.699 residentes** no Maranhão; estimativa para **1º/7/2025: 7.018.211**. Estimativa entre censos não é nova contagem; dado com referência 2026 foi disponibilizado **após o corte do edital** e não substitui o de 2025 na revisão. |
+| **Quão concentrados?** | Densidade = população ÷ área; **20,56 habitantes por quilômetro quadrado** no Censo 2022. Média estadual não implica distribuição uniforme: São Luís concentra habitantes, Imperatriz articula o oeste/sudoeste, Timon relaciona-se a Teresina e Balsas é polo do sul. População absoluta, densidade e povoamento (processo histórico da ocupação) são medidas diferentes. |
+| **Quanto mudou?** | De **6.574.789 (2010)** para **6.776.699 (2022)**: mais 201.910 habitantes. Taxa geométrica anual segue r = (Pt/P0)^(1/n) − 1, em que **P0** é população inicial, **Pt** população final e **n** o intervalo em anos; não divida simplesmente a variação percentual por doze. Crescimento natural = nascimentos − óbitos; saldo migratório = entradas − saídas. |
 
-**Populoso ≠ denso ≠ povoamento.**
+**Urbano ≠ todo crescimento:** participação urbana passou de **63,08% em 2010 a 70,93% em 2022**, mas a comparação exige cautela: o Censo 2022 passou a privilegiar critérios de forma das edificações e função urbana, com perímetro municipal legal como insumo complementar. Redução de moradores classificados rurais não demonstra, isoladamente, êxodo rural. **Urbanização** é aumento da participação/organização urbana; **crescimento urbano**, acréscimo absoluto de habitantes das cidades; **conurbação**, continuidade física de manchas; **região metropolitana legal**, recorte criado por lei; **metropolização**, integração funcional em torno de centro. A lei não prova conurbação de todos os municípios.
 
-## Fórmulas
+## Movimentos: residência habitual decide
 
-$$D=P/A$$
-
-$$r=(P_t/P_0)^{1/n}-1$$
-
-Taxa geométrica ≠ variação percentual ÷ número de anos.
-
-## Números-chave
-
-| Indicador | Valor |
-|---|---:|
-| Censo 2010 | 6.574.789 |
-| Censo 2022 corrente | **6.776.699** |
-| estimativa 1º/7/2025 | **7.018.211** |
-| densidade 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** |
-| crescimento 2010-2022 | **+201.910 / +3,07% / ~0,25% <abbr title="ao ano">a.a.</abbr>** |
-
-**7.018.211 = estimativa de 2025, não Censo 2022.**
-
-## Urbano × rural
-
-| Situação | 2010 | 2022 |
-|---|---:|---:|
-| urbana | 4.147.149 | 4.806.990 |
-| rural | 2.427.640 | 1.969.709 |
-| grau de urbanização | 63,08% | **70,93%** |
-
-Aumento: **7,85 pontos percentuais**.
-
-- redução rural ≠ êxodo rural como causa única;
-- em 2022, **prevalecem critérios morfológicos e funcionais** na delimitação urbano/rural;
-- zoneamento legal municipal = insumo complementar, não regra exclusiva;
-- comparação municipal 2010 × 2022 exige cautela metodológica.
-
-## Distribuição e povoamento
-
-- litoral/São Luís: maior concentração;
-- vales fluviais: eixos históricos de interiorização;
-- Imperatriz: polo do sudoeste/oeste;
-- Timon/Caxias: articulação com o leste e Teresina;
-- Balsas: polo do sul;
-- grandes áreas do centro, sul e sudoeste: baixas densidades relativas.
-
-Contrastes 2022:
-
-| Município | População | Densidade |
-|---|---:|---:|
-| São Luís | 1.037.775 | 1.779,87 |
-| Imperatriz | 273.110 | 199,49 |
-| Alto Parnaíba | 11.109 | 1,00 |
-
-São Luís: cerca de **15,31%** da população estadual.
-
-## Urbanização: não confunda
-
-| Conceito | Ideia central |
+| Indicador | Responde a qual pergunta? |
 |---|---|
-| urbanização | aumento da participação urbana/transformação do espaço |
-| crescimento urbano | aumento absoluto da população urbana |
-| metropolização | integração funcional e espacial em torno de grande centro |
-| conurbação | continuidade física das manchas urbanizadas |
-| região metropolitana legal | recorte criado por norma jurídica |
+| **Naturalidade** | Onde nasceu? Estoque acumulado de pessoas nascidas fora; não data o deslocamento. |
+| **Última etapa** | Onde morava imediatamente antes da residência atual? |
+| **Data fixa** | Onde morava em duas datas definidas? Fluxo em intervalo específico. No período 2017–2022, a amostra preliminar indicou mais saídas que entradas interestaduais no Maranhão; saldo negativo não significa entrada zero ou queda obrigatória da população total. |
+| **Pendularidade** | Trabalha/estuda em outro município e retorna regularmente sem mudar residência? Timon–Teresina é exemplo de deslocamento interestadual que **não é migração**. |
 
-**RM legal ≠ prova automática de integração funcional.**
-
-Arranjos Populacionais e <abbr title="Regiões de Influência das Cidades">REGIC</abbr> servem como apoio para entender integração e influência; sempre observe a **edição** do estudo.
-
-## Movimentos populacionais
-
-| Medida | O que capta |
-|---|---|
-| imigração | entrada com mudança de residência |
-| emigração | saída com mudança de residência |
-| saldo migratório | entradas − saídas |
-| naturalidade | estoque acumulado ligado ao lugar de nascimento |
-| última etapa | residência imediatamente anterior |
-| data fixa | residência em duas datas definidas |
-| pendularidade | deslocamento recorrente sem mudança necessária de residência |
-
-### Estoque ≠ fluxo
-
-- não naturais do <abbr title="Maranhão">MA</abbr> residentes no estado: **514.870**;
-- naturais do MA residentes em outra <abbr title="Unidade da Federação">UF</abbr>: **1.826.563**.
-
-Esses valores são **estoques por naturalidade**, não fluxos de 2017-2022.
-
-### Data fixa 2017-2022 — interestadual
-
-| Indicador | Valor |
-|---|---:|
-| imigrantes | 130.658 |
-| emigrantes | 259.886 |
-| saldo | **−129.228** |
-| taxa líquida | **−1,91%** |
-
-Saldo negativo = saídas > entradas. **Não** significa imigração zero nem queda obrigatória da população total.
-
-Origens de destaque para o MA: Pará, Piauí e São Paulo.
-
-Destinos de destaque desde o MA: Goiás, Pará e Mato Grosso.
-
-## Pendularidade
-
-- trabalho no mesmo município: **89,8%**;
-- trabalho em outro município: **9,5%**;
-- estudo no mesmo município: **93,7%**;
-- estudo em outro município: **6,2%**.
-
-Timon → Teresina para trabalhar/estudar, sem mudança residencial = **deslocamento pendular interestadual**, não migração.
-
-## Pegadinhas de uma linha
-
-- população absoluta = densidade: **falso**;
-- povoamento = densidade: **falso**;
-- densidade média = distribuição uniforme: **falso**;
-- 7.018.211 = Censo 2022: **falso**;
-- crescimento total = crescimento natural: **falso**;
-- urbanização = metropolização: **falso**;
-- RM legal = arranjo funcional: **falso**;
-- estoque por naturalidade = migração recente: **falso**;
-- saldo negativo = zero imigração: **falso**;
-- pendularidade = migração: **falso**.
-
-## Método rápido
-
-1. Marque **data + território**.
-2. Identifique **censo, estimativa ou amostra**.
-3. Pergunte: **estoque, fluxo ou taxa?**
-4. Separe **população absoluta, densidade e povoamento**.
-5. Separe **urbanização, metropolização e conurbação**.
-6. Em migração, fixe **origem, destino e período**.
-7. Movimento recorrente sem mudança residencial = **pendularidade**.
+**Rede urbana:** São Luís município, Ilha do Maranhão, arranjo populacional estatístico e região metropolitana legal são escalas distintas. A pesquisa <abbr title="Regiões de Influência das Cidades">REGIC</abbr> avalia funções e influência, não ordena cidades apenas por população; a edição do estudo altera recorte e comparação.
