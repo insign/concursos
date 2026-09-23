@@ -122,7 +122,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H024 | `redes-tcp-ip-interoperabilidade` | = | V | `df3ed5db1aae462c5b8ec6e26d099ebc8e1b4d79` |
 | H025 | `comunicacao-colaboracao-remota` | = | V | `df3ed5db1aae462c5b8ec6e26d099ebc8e1b4d79` |
 | H026 | `backup-armazenamento-nuvem` | = | V | `a78c7cb619b099047fe38bb04cdc37a460d8859b` |
-| H027 | `malware-protecao-ameacas` | = | V | — |
+| H027 | `malware-protecao-ameacas` | = | V | `bab566c28b2c0ad2961731355929d3f664fc6fae` |
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | — |
 | H029 | `marco-civil-internet` | = | V | — |
 | H030 | `assinaturas-certificacao-digital` | = | V | — |
@@ -299,3 +299,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H151 | `desenvolvimento-capacitacao` | `gp-desenvolvimento-capacitacao` | L | — |
 | H152 | `cargos-carreiras-salarios` | `gp-cargos-carreiras-salarios` | L | — |
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
+
+## 9. Dependência aberta para M02
+
+- H027: o banco contém itens sobre autenticação de e-mail (SPF/DKIM/DMARC), consentimento OAuth e adware/stalkerware que o `conteudo.md` não ensina. Avaliar pertinência, realocação ou ensino em revisão própria do conteúdo/banco; a M02 deve seguir o recorte confirmado enquanto essa divergência estiver aberta.
