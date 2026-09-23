@@ -1,156 +1,28 @@
 # Adesão do Maranhão à República e Revolução de 1930
 
-## Fórmulas mentais
+## 1889: regime nacional, conflito local
 
-$$
-1889 = 15/11\ (\text{Rio}) + 17/11\ (\text{conflito}) + 18/11\ (\text{Junta})
-$$
-
-$$
-1930 = \text{oposição} + 24º\ BC + 8/10\ (\text{Junta}) + \text{interventoria}
-$$
-
-## 1889: datas que não se confundem
-
-| Data | Marco |
+| Data | Marco e alcance |
 |---|---|
-| 13 maio 1888 | Abolição |
-| 15 nov. 1889 | proclamação nacional |
-| 16 nov. | *O Globo* divulga telegrama |
-| 17 nov. | manifestação negra e repressão |
-| 18 nov. | proclamação formal e Junta no Maranhão |
-| 22 nov. | retirada de símbolos monárquicos |
-| 17 dez. | Pedro Tavares Júnior assume |
+| **15 nov.** | Proclamação nacional no Rio; as províncias passariam a estados da federação, não a repúblicas independentes. |
+| **16 nov.** | Telegrama publicado em *O Globo* leva a notícia a São Luís. |
+| **17 nov.** | Libertos e outros manifestantes negros temem reversão da Abolição de 1888; protestam diante do jornal republicano e sofrem repressão armada. |
+| **18 nov.** | Instalação formal da República no Maranhão, substituição do último presidente provincial, Tito Augusto Pereira de Matos, por Junta Provisória (governo colegiado transitório) civil e militar. |
+| **22 nov.** | Junta determina retirada de símbolos imperiais das repartições; adesões no interior chegam em etapas. |
 
-## Massacre dos Libertos
+O **Massacre dos Libertos** não é apoio popular à escravidão: pessoas negras defendiam a liberdade recente em face de republicanos que incluíam proprietários. Registros divergem sobre vítimas; evite cifra única sem atribuição. O ofício da Junta em 18/11 apresenta a transição como “sem abalo da ordem pública”: descreve a versão administrativa do dia da instalação, não apaga o protesto e as mortes de 17/11.
 
-- Local: São Luís, diante do jornal republicano *O Globo*.
-- Sujeitos: libertos, homens de cor, trabalhadores e cidadãos do 13 de Maio.
-- Motivo: temor de perda da liberdade após a queda da Monarquia.
-- Contexto: Abolição recente e persistência de coerção escravista.
-- Repressão: tropas abriram fogo.
-- Número oficial: quatro mortos e vários feridos.
-- Estimativas maiores exigem qualificação.
-- Resultado historiográfico: raça como fronteira da cidadania republicana.
+**Depois:** Pedro Augusto Tavares Júnior substituiu a Junta por nomeação federal em dezembro. A Constituição federal de **1891** consolidou federalismo (autonomia de estados dentro da União) e a Constituição maranhense data de **4/7/1891**. Autonomia formal não significou sufrágio universal: analfabetos, mendigos e outras categorias eram excluídos; mulheres não foram reconhecidas como eleitoras na prática da época, sem constar como exclusão nominal naquela enumeração.
 
-## Versão oficial x experiência social
+## 1930: ruptura dentro da República
 
-| Fonte oficial de 18 nov. | Historiografia do pós-Abolição |
+| Sequência | Identificação segura |
 |---|---|
-| mudança “sem abalo da ordem” | manifestação e mortes em 17 nov. |
-| celebra transição institucional | recupera agência política negra |
-| lista atos da Junta | analisa repressão e silenciamento |
+| **1º mar.** | Magalhães de Almeida deixa o governo; seu grupo conserva influência. **José Pires Sexto** assume e é o governador deposto em outubro. |
+| **7–8 out.** | Levante oposicionista com o **<abbr title="24º Batalhão de Caçadores">24º BC</abbr>**: deflagração em 7/10; queda de Pires Sexto e Junta Revolucionária em **8/10**. Reis Perdigão é articulador e chefe civil; Tarquínio Lopes Filho, liderança oposicionista. |
+| **8 out.–14 nov.** | Junta de **Reis Perdigão, Celso Reis de Freitas e José Ribamar Campos**. |
+| **Após 14 nov.** | José Luso Torres assume como interventor nomeado pelo poder federal; Reis Perdigão depois responde interinamente; Astolfo Serra assume em janeiro de 1931. |
 
-> As duas fontes tratam momentos e perspectivas diferentes; não apague nenhuma.
+A eleição presidencial de março opôs a chapa situacionista de **Júlio Prestes** à **Aliança Liberal** de Vargas; resultados oficiais devem ser lidos no contexto de coerção e denúncias de fraude. Magalhãesistas, marcelinistas e tarquinistas eram redes de chefias e alianças, não blocos modernos uniformes. O **tenentismo** (contestação político-militar da ordem oligárquica) articulou-se a opositores; a deposição enfraqueceu o grupo governista e abriu intervenções e recomposição local, sem democratização social automática.
 
-## Junta de 1889
-
-Ofício do <abbr title="Arquivo Público do Estado do Maranhão">APEM</abbr> lista:
-
-- João Luís Tavares;
-- José Francisco de Viveiros;
-- Francisco Xavier de Carvalho;
-- José de Lourenço da Silva Milanês;
-- Cândido Floriano da Costa Barreto;
-- Augusto Frutuoso Monteiro da Silva.
-
-Algumas obras incluem Belfort Duarte e falam em sete membros. Atribua a lista ao documento usado.
-
-## Atos republicanos
-
-- Último presidente provincial: **Tito Augusto Pereira de Matos**.
-- 22 nov.: retirada de coroas, bandeiras, retratos e insígnias.
-- Adesões do interior ocorreram gradualmente.
-- 17 dez.: Pedro Augusto Tavares Júnior assume por nomeação federal.
-- Província torna-se estado; não uma república independente.
-
-## Federalismo e limites
-
-- Constituição federal: 24 fev. 1891.
-- Constituição maranhense: 4 jul. 1891.
-- Autonomia estadual formal ampliada.
-- Presidencialismo e separação de Poderes.
-- Analfabetos e mulheres sem voto.
-- Sem integração social ampla dos libertos.
-- Federalismo não equivale a democracia universal.
-
-## Facções antes de 1930
-
-| Grupo | Referência |
-|---|---|
-| magalhãesistas | situação de Magalhães de Almeida |
-| marcelinistas | oposição de Marcelino Machado |
-| tarquinistas | oposição de Tarquínio Lopes Filho |
-
-Não antecipar Vitorinismo ou Greve de 1951.
-
-## Eleições de 1930
-
-- Data: 1º mar. 1930.
-- Júlio Prestes venceu oficialmente no Maranhão.
-- Aliança Liberal: Vargas e João Pessoa.
-- Tarquinistas e marcelinistas apoiaram oposição.
-- Fraude/coerção limitam interpretação dos resultados.
-- Magalhães de Almeida deixou o governo em 1º mar.
-- **José Pires Sexto** governou de 1º mar. a 8 out.
-
-## Revolução no Maranhão
-
-- Revolução nacional: 3 out. 1930.
-- Deflagração local: 7-8 out.
-- 24º Batalhão de Caçadores: núcleo militar.
-- Reis Perdigão: articulador e chefe civil.
-- Tarquínio Lopes Filho: liderança oposicionista.
-- 8 out.: queda de Pires Sexto e início da Junta.
-
-## Junta de 1930
-
-| Integrante | Papel |
-|---|---|
-| José Maria Reis Perdigão | civil |
-| Celso Reis de Freitas | tenente |
-| José Ribamar Campos | tenente |
-
-- Período: 8 out. a 14 nov. 1930.
-- Luso Torres não integrou a Junta; assumiu depois como interventor.
-
-## Sequência de poder
-
-1. José Pires Sexto: até 8 out.
-2. Junta: 8 out.-14 nov.
-3. José Luso Torres: interventor.
-4. Reis Perdigão: interino desde 27 nov.
-5. Astolfo Serra: desde 9 jan. 1931.
-
-## Efeitos imediatos
-
-- queda do governo eleito;
-- enfraquecimento do magalhãesismo;
-- substituição de autoridades;
-- reorganização administrativa;
-- Junta e interventorias;
-- centralização na relação com Vargas;
-- recomposição de elites, não democratização completa.
-
-## 1889 x 1930
-
-| 1889 | 1930 |
-|---|---|
-| queda da Monarquia | queda da ordem situacionista |
-| Tito de Matos | José Pires Sexto |
-| Junta em 18 nov. | Junta em 8 out. |
-| conflito racial pós-Abolição | levante civil-militar |
-| província vira estado | estado recebe interventores |
-
-## Pegadinhas
-
-- República nacional em 15 nov.; adesão formal local em 18 nov.
-- Massacre em 17 nov.; quatro mortos oficiais.
-- Libertos defendiam a liberdade, não a escravidão.
-- “Sem abalo” é versão administrativa, não descrição total.
-- Tito de Matos, não José Bento, era o último presidente provincial.
-- Magalhães de Almeida não foi deposto em outubro.
-- Pires Sexto foi o governador deposto.
-- Reis Perdigão e Tarquínio apoiaram tenentismo e Revolução.
-- 7 e 8 out. podem indicar etapas distintas.
-- Luso Torres veio depois da Junta.
+**Junta ≠ mesmo efeito institucional:** em 1889 administrou a passagem de **província imperial a estado republicano**, com autonomia federativa formal; em 1930 substituiu **um governo estadual dentro da República**, seguida de interventoria e maior centralização federal. A Greve de 1951 pertence a outro contexto.
