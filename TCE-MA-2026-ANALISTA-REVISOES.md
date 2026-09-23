@@ -199,7 +199,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H081 | `fatos-economicos-maranhao-sec-xx` | = | V | [`8e35bd1`](https://github.com/insign/concursos/commit/8e35bd140cdb35a6950e1d68d1b1238cbd335ce7) |
 | H082 | `fatos-sociais-maranhao-sec-xx` | = | V | [`b7008f7`](https://github.com/insign/concursos/commit/b7008f75ec33747c431e3daabad02455bb65d583) |
 | H083 | `localizacao-limites-extremos` | = | V | [`d052be8`](https://github.com/insign/concursos/commit/d052be8ffe6ae0359f08fe8169e9a804033f5360) |
-| H084 | `geomorfologia-geologia-relevo` | = | V | — |
+| H084 | `geomorfologia-geologia-relevo` | = | V | [`df250c2`](https://github.com/insign/concursos/commit/df250c2f884ab1f8799044edbbf90959b1f43041) |
 | H085 | `areas-protecao-parques-nacionais` | = | V | — |
 | H086 | `climas-formacoes-vegetais` | = | V | — |
 | H087 | `rios-bacias-maranhenses` | = | V | — |
