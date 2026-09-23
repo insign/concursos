@@ -1,115 +1,42 @@
-# Controle: conceito, tipos, interno e externo
+# Controle da Administração: cinco perguntas
 
-## Fluxo de classificação
+**Um fato pode receber vários controles e vários rótulos.** Antes de decorar uma classificação, identifique o critério do enunciado.
 
-1. **Quem controla quem?** → interno × externo.
-2. **Quando?** → prévio × concomitante × posterior.
-3. **Como começou?** → de ofício × provocado.
-4. **O que é examinado?** → legalidade, legitimidade, economicidade, desempenho.
-5. **Qual a função?** → prevenir, detectar, corrigir, orientar, avaliar ou responsabilizar.
+| Pergunta | Critério | Distinção decisiva |
+|---|---|---|
+| Quem controla quem? | posição institucional | **Interno:** no próprio Poder/estrutura controlada; **externo:** controlador institucionalmente fora dela, com competência própria. Autonomia técnica de uma controladoria não muda, por si, sua posição. |
+| Quando? | momento | **Prévio** antes, **concomitante** durante, **posterior** depois do ato/resultado. Externo também pode atuar antes ou durante, conforme a competência. |
+| Como começou? | iniciativa | **De ofício:** iniciativa do órgão; **provocado:** denúncia, representação, recurso ou outro instrumento admissível. Provocar não transfere ao interessado o poder de decidir ou sancionar. |
+| O que se examina? | objeto e parâmetro | Dimensão da fiscalização ≠ critério usado para julgá-la: quadro abaixo. |
+| Para quê? | função | Prevenir, detectar, orientar, corrigir, avaliar ou subsidiar responsabilização. Fiscalização não significa sanção automática. |
 
-> Eixos diferentes **podem acumular-se**.
+**Exemplo hipotético:** uma unidade do Executivo acompanha de ofício a entrega contratual do próprio Executivo para verificar conformidade jurídica: controle **interno + concomitante + de ofício + de legalidade**. Os eixos acumulam-se, sem se substituírem.
 
-## Interno × externo
+## Interno × externo: dois usos de “externo”
 
-| Interno | Externo |
-| --- | --- |
-| dentro da própria estrutura ou do mesmo Poder controlado | controlador situado fora da estrutura institucional controlada |
-| acompanha gestão e riscos de perto | exerce competência externa própria |
-| inclui controles da gestão e auditoria | no sentido constitucional, conecta-se aos arts. 70 e seguintes |
+- **Sentido orgânico amplo:** quem fiscaliza está fora da estrutura/Poder fiscalizado. Legislativo fiscalizando Executivo é externo; unidade do Executivo fiscalizando o próprio Executivo é interna.
+- **Sentido constitucional dos <abbr title="artigos">arts.</abbr> 70–71:** a fiscalização da União cabe ao Congresso Nacional mediante controle externo, exercido com o auxílio do <abbr title="Tribunal de Contas da União">TCU</abbr>, e ao sistema de controle interno de cada Poder. O Tribunal auxilia o Congresso na arquitetura constitucional; apoio do interno ao externo não estabelece subordinação hierárquica geral.
+- **Controle interno é um sistema**, não só auditoria interna periódica. Acompanha atos e riscos da gestão; mantém atribuições próprias ao lado do externo. Controle social é a participação de cidadãos e organizações na fiscalização e na provocação de órgãos competentes; não cria, por si, um órgão estatal com poder de anular ou sancionar.
 
-**Autonomia técnica da controladoria ≠ controle externo.**
+## <abbr title="artigo">Art.</abbr> 70: dimensão, parâmetro e responsável
 
-**Controle interno ≠ auditoria interna.**
+| Aspectos da fiscalização — **cinco dimensões** | Padrões de exame e alcance textual |
+|---|---|
+| Contábil; financeira; orçamentária; operacional; patrimonial. O mesmo fato pode envolver mais de uma. | **Legalidade:** conformidade com normas; **legitimidade:** finalidade pública e princípios; **economicidade:** relação racional entre meios, custos e finalidade, não menor preço isolado. O texto também menciona aplicação das <abbr title="Transferências públicas de recursos para custear atividades ou despesas">subvenções</abbr> e renúncia de receitas. |
 
-## Art. 70 — fórmula de prova
+O parágrafo único alcança **qualquer pessoa física ou jurídica, pública ou privada**: quem usa, arrecada, guarda, gerencia ou administra recursos e bens públicos ou valores pelos quais a União responda, bem como quem assume obrigações pecuniárias em nome dela. O vínculo material pode obrigar uma entidade privada a prestar contas sem torná-la órgão público.
 
-### 5 dimensões
+## <abbr title="artigo">Art.</abbr> 74: sistema interno e dever de comunicação
 
-**C F O O P**
+Legislativo, Executivo e Judiciário mantêm sistema de controle interno **de forma integrada**. Recupere as quatro finalidades constitucionais pela pergunta feita ao sistema:
 
-- **C**ontábil
-- **F**inanceira
-- **O**rçamentária
-- **O**peracional
-- **P**atrimonial
+| Finalidade | O que verificar |
+|---|---|
+| Planejamento e orçamento — inciso I | Metas do <abbr title="Plano Plurianual">PPA</abbr>, execução dos programas de governo e orçamentos da União. |
+| Regularidade e resultados — inciso II | Comprovar legalidade e avaliar **eficácia** (alcance de objetivos) e **eficiência** (resultados em relação aos recursos empregados) da gestão orçamentária, financeira e patrimonial nos órgãos/entidades federais, inclusive aplicação de recursos públicos por entidades de direito privado. |
+| Exposições da União — inciso III | Operações de crédito, <abbr title="Garantias pessoais dadas em títulos de crédito">avais</abbr> e garantias; direitos e haveres. |
+| Articulação — inciso IV | Apoiar o controle externo em sua missão institucional, preservando competências próprias. |
 
-### Parâmetros-chave
+**§ 1º:** responsáveis pelo controle interno que tomem conhecimento de irregularidade ou ilegalidade **dão ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr>, sob pena de <abbr title="Responsabilização conjunta com outro responsável, conforme os requisitos jurídicos">responsabilidade solidária</abbr>** — obrigação ligada ao conhecimento e à omissão de comunicação, não responsabilização automática por toda falha constatada. **§ 2º:** cidadão, partido político, associação ou sindicato podem, na forma da lei, denunciar irregularidade ou ilegalidade ao <abbr title="Tribunal de Contas da União">TCU</abbr>; a denúncia não lhes entrega a competência de decidir.
 
-- legalidade;
-- legitimidade;
-- economicidade.
-
-Além disso: aplicação das subvenções + renúncia de receitas.
-
-**Dimensão ≠ parâmetro.**
-
-## Art. 70 — prestação de contas
-
-Pode alcançar:
-
-- pessoa física **ou** jurídica;
-- pública **ou** privada;
-- desde que se enquadre na relação constitucional com recursos, bens, valores ou obrigações públicos.
-
-**Privado prestando contas ≠ órgão público.**
-
-## Art. 74 — quatro finalidades
-
-1. metas do <abbr title="Plano Plurianual">PPA</abbr> + programas + orçamentos;
-2. legalidade + eficácia + eficiência da gestão e aplicação de recursos públicos por entidades privadas;
-3. operações de crédito + avais + garantias + direitos + haveres;
-4. apoiar o controle externo.
-
-### Eficácia × eficiência
-
-| Eficácia | Eficiência |
-| --- | --- |
-| alcance dos objetivos | resultados × recursos usados |
-
-## Art. 74, § 1º
-
-Responsável pelo controle interno:
-
-**conheceu irregularidade/ilegalidade → dá ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr> → omissão pode gerar responsabilidade solidária.**
-
-Não transforme qualquer erro em solidariedade automática.
-
-## Momento
-
-| Tipo | Quando |
-| --- | --- |
-| prévio | antes |
-| concomitante | durante |
-| posterior | depois |
-
-Um mesmo processo pode ter os três.
-
-**Externo ≠ necessariamente posterior.**
-
-## Iniciativa
-
-- **de ofício:** iniciativa do órgão;
-- **provocado:** denúncia, representação, recurso etc.
-
-**Provocar ≠ decidir.**
-
-## Legalidade × legitimidade × economicidade
-
-| Parâmetro | Pergunta |
-| --- | --- |
-| legalidade | está conforme o ordenamento? |
-| legitimidade | respeita finalidade pública e princípios aplicáveis? |
-| economicidade | custos e meios são racionais para o resultado? |
-
-**Economicidade ≠ menor preço automático.**
-
-## Pegadinhas
-
-- controle ≠ sanção;
-- controle interno e externo são complementares;
-- “controle externo” doutrinário amplo ≠ necessariamente “controle externo” constitucional dos arts. 70 e seguintes;
-- classificações dependem do critério adotado;
-- dimensões do art. 70 podem incidir juntas sobre o mesmo fato;
-- cidadão pode provocar controle, mas não recebe competência estatal automática;
-- controlador também deve respeitar competência, motivação e processo.
+**Fecho de prova:** dimensão ≠ parâmetro; posição ≠ momento; interno ≠ auditoria isolada; apoio ≠ hierarquia; economicidade ≠ menor preço; controle ≠ punição. O controlador também deve respeitar sua competência, motivação e garantias processuais aplicáveis.
