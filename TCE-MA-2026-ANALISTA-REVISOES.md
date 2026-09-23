@@ -195,7 +195,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H077 | `balaiada-caracterizacao-causas` | = | V | [`2f12260`](https://github.com/insign/concursos/commit/2f1226034bdc3842b48d65e2aee8f6f0d75ce922) |
 | H078 | `adesao-republica-revolucao-1930` | = | V | [`4a5303e`](https://github.com/insign/concursos/commit/4a5303eb454926a5f23d54d1d83c12e86a28c0bd) |
 | H079 | `vitorinismo-greve-1951` | = | V | [`508ddeb`](https://github.com/insign/concursos/commit/508ddeb5732c84fe27d46dba020fae57d70d2e99) |
-| H080 | `fatos-politicos-maranhao-sec-xx` | = | V | — |
+| H080 | `fatos-politicos-maranhao-sec-xx` | = | V | [`2bb4c76`](https://github.com/insign/concursos/commit/2bb4c765ee268573a315f00c1d22bcd0538404e3) |
 | H081 | `fatos-economicos-maranhao-sec-xx` | = | V | — |
 | H082 | `fatos-sociais-maranhao-sec-xx` | = | V | — |
 | H083 | `localizacao-limites-extremos` | = | V | — |
