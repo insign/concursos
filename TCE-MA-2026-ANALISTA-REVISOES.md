@@ -121,7 +121,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H023 | `microsoft-powerpoint-apresentacoes` | `powerpoint-apresentacoes` | V | `cabce0f7b167cf9b81342b62a16afa5452dbb5d6` |
 | H024 | `redes-tcp-ip-interoperabilidade` | = | V | `95e036f790a006d138f419534b13f93ca188f833` |
 | H025 | `comunicacao-colaboracao-remota` | = | V | `0bd6c064efce28061c34732cd061bae6c20417f3` |
-| H026 | `backup-armazenamento-nuvem` | = | V | — |
+| H026 | `backup-armazenamento-nuvem` | = | V | `a78c7cb619b099047fe38bb04cdc37a460d8859b` |
 | H027 | `malware-protecao-ameacas` | = | V | — |
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | — |
 | H029 | `marco-civil-internet` | = | V | — |
