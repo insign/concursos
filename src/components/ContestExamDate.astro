@@ -44,8 +44,12 @@ const { examDate } = Astro.props;
   }
 
   for (const node of document.querySelectorAll('[data-exam-countdown]')) {
+    updateCountdown(node as HTMLElement);
+  }
+
+  function updateCountdown(node: HTMLElement): void {
     const examDate = node.getAttribute('data-exam-date') ?? '';
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(examDate)) continue;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(examDate)) return;
     const diff = calendarDateToEpochDays(examDate) - calendarDateToEpochDays(localTodayIso(new Date()));
     if (diff > 1) node.textContent = `Faltam ${diff} dias para a prova objetiva.`;
     else if (diff === 1) node.textContent = 'Falta 1 dia para a prova objetiva.';
@@ -53,4 +57,26 @@ const { examDate } = Astro.props;
     else if (diff === -1) node.textContent = 'Atenção: a data da prova objetiva já passou há 1 dia.';
     else node.textContent = `Atenção: a data da prova objetiva já passou há ${Math.abs(diff)} dias.`;
   }
+
+  function updateAllCountdowns(): void {
+    for (const node of document.querySelectorAll('[data-exam-countdown]')) {
+      updateCountdown(node as HTMLElement);
+    }
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) updateAllCountdowns();
+  });
+
+  function scheduleMidnightRefresh(): void {
+    const now = new Date();
+    const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+    const delay = Math.max(0, nextMidnight.getTime() - now.getTime());
+    window.setTimeout(() => {
+      updateAllCountdowns();
+      scheduleMidnightRefresh();
+    }, delay);
+  }
+
+  scheduleMidnightRefresh();
 </script>
