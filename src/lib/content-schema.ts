@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { isValidCalendarDate } from './exam-date';
 
 const nonEmptyText = z.string().trim().min(1);
 const stableId = z.string().regex(/^[A-Za-z0-9_-]{1,64}$/);
@@ -20,6 +21,18 @@ export const groupSchema = z
     title: nonEmptyText,
     order: z.number().int().nonnegative(),
     description: nonEmptyText.optional(),
+  })
+  .strict();
+
+export const contestInfoSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    storageId: storageSegment.max(20),
+    examDate: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, 'Formato inválido. Utilize AAAA-MM-DD.')
+      .refine(isValidCalendarDate, 'Data inexistente no calendário civil.')
+      .nullable(),
   })
   .strict();
 
@@ -183,6 +196,7 @@ export const questionSetSchema = z
   });
 
 export type ContestData = z.infer<typeof contestSchema>;
+export type ContestInfoData = z.infer<typeof contestInfoSchema>;
 export type GroupData = z.infer<typeof groupSchema>;
 export type MegaReviewData = z.infer<typeof megaReviewSchema>;
 export type MegaReviewVinculoData = z.infer<typeof megaReviewVinculoSchema>;

@@ -2,6 +2,7 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import {
   cheatSheetSchema,
+  contestInfoSchema,
   contestSchema,
   groupSchema,
   megaReviewSchema,
@@ -36,8 +37,16 @@ const concursos = defineCollection({
   schema: contestSchema,
 });
 
-const grupos = defineCollection({
+const provas = defineCollection({
   loader: glob({
+    base: './src/content/provas',
+    pattern: '**/*.json',
+    generateId: ({ entry }) => contestIdFromEntry(entry),
+  }),
+  schema: contestInfoSchema,
+});
+
+const grupos = defineCollection({  loader: glob({
     base: './src/content/assuntos',
     pattern: '**/grupo.json',
     generateId: ({ entry }) => groupIdFromEntry(entry),
@@ -174,6 +183,7 @@ const vinculos = defineCollection({
 
 export const collections = {
   concursos,
+  provas,
   grupos,
   megaRevisoes,
   megaReviewVinculos,

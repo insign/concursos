@@ -1,0 +1,56 @@
+---
+import { formatExamDatePtBr } from '../lib/exam-date';
+
+interface Props {
+  examDate: string | null;
+}
+
+const { examDate } = Astro.props;
+---
+
+<section class="contest-exam-date print-hidden" aria-labelledby="exam-date-title">
+  <p class="eyebrow">Prova objetiva</p>
+  <h2 id="exam-date-title">Data da prova objetiva</h2>
+  {examDate ? (
+    <>
+      <p>
+        <time datetime={examDate}>{formatExamDatePtBr(examDate)}</time>
+      </p>
+      <p data-exam-countdown data-exam-date={examDate} aria-live="polite"></p>
+    </>
+  ) : (
+    <p>Data da prova objetiva a definir.</p>
+  )}
+</section>
+
+<script>
+  function calendarDateToEpochDays(isoDate: string): number {
+    const year = Number(isoDate.slice(0, 4));
+    const month = Number(isoDate.slice(5, 7));
+    const day = Number(isoDate.slice(8, 10));
+    const y = month <= 2 ? year - 1 : year;
+    const era = Math.floor((y >= 0 ? y : y - 399) / 400);
+    const yoe = y - era * 400;
+    const mp = month <= 2 ? month + 9 : month - 3;
+    const doy = Math.floor((153 * mp + 2) / 5) + day - 1;
+    const doe = yoe * 365 + Math.floor(yoe / 4) - Math.floor(yoe / 100) + doy;
+    return era * 146097 + doe - 719468;
+  }
+
+  function localTodayIso(now: Date): string {
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    return `${now.getFullYear()}-${month}-${day}`;
+  }
+
+  for (const node of document.querySelectorAll('[data-exam-countdown]')) {
+    const examDate = node.getAttribute('data-exam-date') ?? '';
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(examDate)) continue;
+    const diff = calendarDateToEpochDays(examDate) - calendarDateToEpochDays(localTodayIso(new Date()));
+    if (diff > 1) node.textContent = `Faltam ${diff} dias para a prova objetiva.`;
+    else if (diff === 1) node.textContent = 'Falta 1 dia para a prova objetiva.';
+    else if (diff === 0) node.textContent = 'A prova objetiva é hoje.';
+    else if (diff === -1) node.textContent = 'Atenção: a data da prova objetiva já passou há 1 dia.';
+    else node.textContent = `Atenção: a data da prova objetiva já passou há ${Math.abs(diff)} dias.`;
+  }
+</script>

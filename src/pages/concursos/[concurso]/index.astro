@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ContestExamDate from '../../../components/ContestExamDate.astro';
 import ContestResumeReading from '../../../components/ContestResumeReading.astro';
 import ContestSearch from '../../../components/ContestSearch.astro';
 import OfflineContestButton from '../../../components/OfflineContestButton.astro';
@@ -34,6 +35,7 @@ const { contest } = Astro.props;
       <p><a href={`/simulados/?concurso=${contest.storageId}`}>Gerar simulado deste concurso</a></p>
     </header>
 
+    <ContestExamDate examDate={contest.examDate} />
     <ContestResumeReading contestStorageId={contest.storageId} />
     <OfflineContestButton contestStorageId={contest.storageId} contestTitle={contest.title} />
     <ContestSearch contestStorageId={contest.storageId} contestSlug={contest.slug} contestTitle={contest.title} />
