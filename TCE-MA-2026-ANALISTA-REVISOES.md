@@ -174,7 +174,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H061 | `regimento-decisoes-execucao` | = | V | `4a2c2b133894cdf3aeb7166842c9a119d9a4e66d` |
 | H062 | `regimento-recursos-revisao` | = | V | `260dc9f5ffc1915e9a3a3c4ae24dd23d73e2a595` |
 | H063 | `regimento-atos-etica-finais` | = | V | `83f679ae924ea92d5c2c164d9bcc9e5a9a9c54b1` |
-| H064 | `lei-organica-jurisdicao` | = | V | — |
+| H064 | `lei-organica-jurisdicao` | = | V | `8f93eddb369bb04f4ab20e96b4265d3cae1f0064` |
 | H065 | `lei-organica-organizacao-mpc` | = | V | — |
 | H066 | `lei-organica-contas-controle` | = | V | — |
 | H067 | `lei-organica-processos` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H064: aula toma 6/7 como publicação E1 (Tribunal informa 7/7). Inteiro teor da ADPF 982 não abriu no portal do STF nesta consulta; revalidar na futura M05 se necessário.
 - H063: aula chama 6/7 de publicação E1 (Tribunal informa 7/7) e ensina **oito** dias no art. 312, quando Regimento compilado fixa **sete**. Art. 26 caput reformado pela Resolução 391/2023 versa pautas, mas seus §§ 1º–2º antigos permanecem no compilado; aula os afasta categoricamente, banco q6513–17 os cobra literalmente. Conciliar vigência material e pertinência em revisão própria antes de usá-los como contraprova da M05.
 - H062: aula atribui publicação de E1 a 6/7 (Tribunal informa 7/7) e menciona apenas prefeito na vedação de revisão do art. 139, § 7º, que também abrange governador; corrigir no escopo próprio.
 - H061: aula trata 6/7 como publicação de E1 (Tribunal informa 7/7); q6359 exige siglas CEI/DDNT não ensinadas na aula. Rever no escopo próprio. O portal do STF retornou 502 ao abrir inteiro teor dos Temas 642/1287; revalidar na futura M05 se necessário.
