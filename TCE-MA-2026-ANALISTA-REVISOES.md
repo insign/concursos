@@ -176,7 +176,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H063 | `regimento-atos-etica-finais` | = | V | `83f679ae924ea92d5c2c164d9bcc9e5a9a9c54b1` |
 | H064 | `lei-organica-jurisdicao` | = | V | `8f93eddb369bb04f4ab20e96b4265d3cae1f0064` |
 | H065 | `lei-organica-organizacao-mpc` | = | V | `d2b78d0bfe8914e9d9b093a289e51a89f3f278c1` |
-| H066 | `lei-organica-contas-controle` | = | V | — |
+| H066 | `lei-organica-contas-controle` | = | V | `2c43e2f2d994cdc66865540feb8016364c04a89f` |
 | H067 | `lei-organica-processos` | = | V | — |
 | H068 | `lei-organica-decisoes-recursos` | = | V | — |
 | H069 | `organizacao-controle-externo` | = | V | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H066: aula trata 6/7 (data do ato E1) como publicação/corte; Tribunal informa 7/7. PDF oficial da Resolução 324/2020 não abriu na consulta; definições de instrumentos apoiadas na aula e notícia institucional, revalidar texto normativo em revisão própria se pertinente à M05.
 
 - H065: aula trata 6/7 (data do ato E1) como publicação/corte; publicação informada pelo Tribunal foi 7/7. q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, ausente da aula; revisar ensino/pertinência no escopo próprio.
 
