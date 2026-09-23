@@ -303,7 +303,8 @@ function formatPerWeek(value: number): string {
     let refreshTail: Promise<void> = Promise.resolve();
     // Alias para o qual o formulário foi hidratado; null = sem alias; undefined = nunca.
     let hydratedAlias: string | null | undefined;
-    let formDirty = false;
+    // Alias dono da edição em curso (null = edição sem alias); undefined = formulário limpo.
+    let dirtyAlias: string | null | undefined;
 
     const doRefresh = async (): Promise<void> => {
       const profileId = getActiveAlias();
@@ -327,11 +328,14 @@ function formatPerWeek(value: number): string {
           ? contestForecastSettings(settings, instance.model.contestStorageId)
           : null;
         if (profileId !== hydratedAlias) {
-          // Troca de alias (ou primeira carga): reseta para o salvo ou o padrão.
-          if (saved) applyToForm(instance.form, saved);
-          else applyToForm(instance.form, DEFAULT_FORECAST_PARAMS);
-          formDirty = false;
-        } else if (saved && !formDirty) {
+          // Troca de alias (ou primeira carga): reseta para o salvo ou o padrão,
+          // exceto edição feita sob o próprio alias nessa janela — ela vence.
+          if (dirtyAlias !== profileId) {
+            if (saved) applyToForm(instance.form, saved);
+            else applyToForm(instance.form, DEFAULT_FORECAST_PARAMS);
+            dirtyAlias = undefined;
+          }
+        } else if (saved && dirtyAlias === undefined) {
           // Configuração mais recente (outra aba, outro aparelho via sync):
           // adota quando o formulário está intocado; edição em curso nunca é mexida.
           if (signatureOf(instance.form) !== JSON.stringify(saved)) applyToForm(instance.form, saved);
@@ -363,25 +367,27 @@ function formatPerWeek(value: number): string {
         .then(() => {
           // Só limpa o dirty se o formulário ainda reflete o que foi gravado;
           // digitação posterior mantém o estado sujo e nunca é revertida.
-          if (signatureOf(instance.form) === snapshot) formDirty = false;
+          if (signatureOf(instance.form) === snapshot) dirtyAlias = undefined;
+          // Sync depois do save (fire-and-forget): o outbox já está pending
+          // quando o sync lê, e recalcs nunca esperam o round-trip do KV.
+          void requestProfileSync(profileId).catch(() => undefined);
         })
         .catch(() => undefined);
-      // Sync fora da fila de render: recalcs nunca esperam o round-trip do KV.
-      void requestProfileSync(profileId).catch(() => undefined);
     };
 
     for (const instance of roots) {
       instance.form.addEventListener('input', () => {
-        formDirty = true;
+        dirtyAlias = getActiveAlias();
         refresh();
       });
       instance.form.addEventListener('change', () => {
-        formDirty = true;
+        dirtyAlias = getActiveAlias();
         refresh();
         persist(instance);
       });
       instance.form.addEventListener('submit', (event) => {
         event.preventDefault();
+        dirtyAlias = getActiveAlias();
         refresh();
         persist(instance);
       });
