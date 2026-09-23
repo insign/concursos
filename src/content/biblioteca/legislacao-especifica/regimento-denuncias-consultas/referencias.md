@@ -1,4 +1,5 @@
-- [Regimento Interno completo do TCE/MA](https://www.tcema.tc.br/index.php/component/content/article/39-uncategorised/1430-regimento-interno-completo-2), Tribunal de Contas do Estado do Maranhão.
+- [Regimento Interno completo do TCE/MA](https://publicacao.apps.tcema.tc.br/#/documentohtml/8207?compilado=true), Tribunal de Contas do Estado do Maranhão, texto compilado consultado em 23 set. 2026; aplicar ao corte apenas redações anteriores.
+- [Lei Orgânica nº 8.258/2005, texto compilado](https://publicacao.apps.tcema.tc.br/#/documentohtml/8200?compilado=true), Tribunal de Contas do Estado do Maranhão, especialmente arts. 40–43 e 59–60.
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, especialmente art. 74, § 1º.
 - [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf), Assembleia Legislativa do Maranhão.
 - [Legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), Tribunal de Contas do Estado do Maranhão — repositório oficial de atos normativos e publicações do Tribunal.

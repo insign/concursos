@@ -1,151 +1,39 @@
 # Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: denúncias, representações e consultas
 
-## Mapa de 20 segundos
+## Escolha o instrumento
 
-| Instrumento | Para quê? | Quem? |
+| Situação | Instrumento | Legitimidade que decide |
 | --- | --- | --- |
-| denúncia | comunicar irregularidade/ilegalidade | cidadão, partido, associação, sindicato |
-| representação | comunicar irregularidade/ilegalidade | legitimado específico |
-| consulta | dúvida normativa | autoridade legitimada |
+| Notícia de irregularidade ou ilegalidade | denúncia | cidadão, partido político, associação ou sindicato |
+| Notícia de irregularidade ou ilegalidade por agente habilitado | representação | rol específico da Lei Orgânica e do Regimento |
+| Dúvida sobre aplicação de norma em matéria de competência do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> | consulta | autoridades do art. 269 do Regimento |
 
-**Denúncia/representação = fato possivelmente irregular.**  
-**Consulta = tese normativa.**
+**Fato a apurar → denúncia/representação; tese normativa → consulta.** Seletividade prioriza, sem julgar mérito.
 
-## Denúncia: memorize
+## Denúncia e representação: entrada e salvaguardas
 
-**Legitimados:** cidadão + partido + associação + sindicato.
+- **Denúncia formal:** matéria da competência do Tribunal, responsável sob sua jurisdição, relato claro e objetivo, autor identificado/qualificado com endereço e indício da irregularidade (arts. 265–266). Identidade conhecida pelo Tribunal pode permanecer protegida: **sigilo ≠ anonimato**. Sigilo até decisão definitiva; pode persistir sobre objeto/autoria. Denunciante não sofre sanção pela denúncia, salvo má-fé comprovada.
+- **Representação:** legitimidade específica do art. 43 da Lei nº 8.258/2005 e art. 268-A do Regimento: Ministério Público Federal ou estadual; controle interno no dever constitucional; parlamentares, magistrados, servidores e autoridades por fato conhecido em razão do cargo; tribunais de contas e câmaras municipais; equipes de inspeção/auditoria; unidades técnicas do Tribunal; outros por lei específica. O <abbr title="Ministério Público de Contas">MPC</abbr> figura na Resolução nº 437/2026; lei específica não cria legitimidade universal.
+- **Prazo próprio da denúncia:** apreciação até **90 dias do recebimento**, prorrogável uma vez por igual período **a juízo do Plenário** (art. 265, § 4º). Certidão pedida ao Presidente: fornecimento em até **15 dias do pedido** se a apuração terminou ou foi arquivada; após **90 dias da entrada da denúncia**, fornecimento obrigatório mesmo com investigação pendente, com alerta sobre eventual sigilo (art. 267).
 
-**Formalmente:** matéria do TCE/MA + clareza + identificação/qualificação + endereço + indícios.
+## Resolução nº 437/2026: triagem → autuação → seletividade
 
-**Sigilo não é anonimato.**
+**Regra geral:** qualquer canal encaminha à Ouvidoria. A triagem exige competência do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, linguagem clara, nome e <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> ou <abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>, endereço residencial e eletrônico e **indícios mínimos**, que sustentam a notícia sem provar definitivamente o mérito. Matéria fora da competência → informar ao autor o órgão competente. Falta de clareza, qualificação, endereço ou lastro → comunicação de irregularidade no banco da fiscalização, **sem autuação** como denúncia/representação; pode subsidiar controle posterior. Dados do autor recebem proteção sigilosa.
 
-- autor identificado → dados protegidos;
-- manifestação anônima pode chegar à Ouvidoria;
-- sem requisitos formais → pode virar **comunicação de irregularidade**, não denúncia autuada.
+Requisitos atendidos → autuação no <abbr title="Sistema de Processo Eletrônico">SPE</abbr> → unidade técnica analisa a seletividade em até **cinco dias úteis do recebimento dos autos**. **Pedido cautelar** → Relator diretamente, após autuação.
 
-## Representação: legitimidade específica
+| Etapa | Pergunta que resolve | Consequência |
+| --- | --- | --- |
+| <abbr title="Risco, Relevância, Oportunidade e Materialidade">RROM</abbr> | Risco de dano, importância do objeto, utilidade de agir agora, expressão econômica ou material | atingida pontuação mínima, passa à matriz seguinte; limiar é definido em ato próprio |
+| <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> | Gravidade dos efeitos, urgência de agir, tendência sem intervenção | ordena a prioridade da instrução |
 
-Art. 43 da Lei nº 8.258/2005:
+Oportunidade: fase do ato, correção e prescrição. Materialidade: valor, proporção e impacto, inclusive hipóteses relevantes sem valor mensurável. Limiar e calculadora dependem de ato próprio. Seletividade aprovada → instrução por prioridade; não atendida → **proposta** de arquivamento ao Relator, ouvido o <abbr title="Ministério Público de Contas">MPC</abbr> em **10 dias úteis**. Concordância do <abbr title="Ministério Público de Contas">MPC</abbr> → arquivamento monocrático motivado possível; discordância → decisão de arquivamento pelo Plenário. Relator pode mandar prosseguir. Vício sanado, nova prova ou fato superveniente relevante permitem reapresentação.
 
-- Ministério Público;
-- controle interno;
-- parlamentares, magistrados, servidores e autoridades em razão do cargo;
-- Tribunais de Contas e Câmaras Municipais;
-- equipes de inspeção/auditoria;
-- <abbr title="Ministério Público de Contas">MPC</abbr> e unidades técnicas do TCE/MA;
-- outros legitimados por lei específica.
+**Exceção do art. 20:** representações do Ministério Público Federal/estadual; controle interno na hipótese constitucional; autoridades que souberam do fato pelo cargo; tribunais de contas/câmaras municipais; equipes de inspeção/auditoria; <abbr title="Ministério Público de Contas">MPC</abbr> e unidades técnicas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> **dispensam tanto triagem quanto seletividade**. Não estenda automaticamente a dispensa à denúncia nem aos demais legitimados por lei específica.
 
-## Fluxo da Resolução nº 437/2026
+## Consulta: legitimado, forma e efeito
 
-### Regra geral
-
-**Ouvidoria → triagem → <abbr title="Sistema de Processo Eletrônico">SPE</abbr> → seletividade → instrução/priorização**
-
-Triagem verifica:
-
-1. competência;
-2. clareza;
-3. nome + <abbr title="Cadastro de Pessoas Físicas">CPF</abbr>/<abbr title="Cadastro Nacional da Pessoa Jurídica">CNPJ</abbr>;
-4. endereço residencial + e-mail;
-5. lastro probatório mínimo.
-
-Faltou requisito essencial?  
-**→ comunicação de irregularidade → banco da fiscalização.**
-
-Pedido cautelar?  
-**→ pode ir direto ao Relator.**
-
-## Seletividade
-
-**Prazo:** unidade técnica, até **5 dias úteis** do recebimento.
-
-### 1º RROM
-
-- **R**isco
-- **R**elevância
-- **O**portunidade
-- **M**aterialidade
-
-Atingiu mínimo? → vai para GUT.
-
-### 2º GUT
-
-- **G**ravidade
-- **U**rgência
-- **T**endência
-
-**RROM primeiro; GUT depois.**
-
-Oportunidade = utilidade de agir **agora**: fase do ato/contrato, correção tempestiva, prescrição/decadência, objeto vigente ou exaurido.
-
-Seletividade **não é mérito** e **não aplica sanção**.
-
-## Art. 20: exceção que derruba questão
-
-Representações destes legitimados **não passam por triagem nem seletividade**:
-
-- <abbr title="Ministério Público">MP</abbr> Federal/Estadual;
-- controle interno;
-- parlamentares, magistrados, servidores e demais autoridades em razão do cargo;
-- Tribunais de Contas e Câmaras Municipais;
-- equipes de inspeção/auditoria;
-- MPC e unidades técnicas do TCE/MA.
-
-**Pegadinha:** “toda denúncia e representação passa por triagem/seletividade” = **FALSO**.
-
-## Matriz de fluxo
-
-| Caso | Destino |
-| --- | --- |
-| manifestação regular comum | triagem → autuação → seletividade |
-| faltam requisitos | comunicação de irregularidade |
-| pedido cautelar | Relator |
-| representação do art. 20 | sem triagem e sem seletividade |
-
-## Consulta
-
-**Objeto:** dúvida sobre aplicação de norma em matéria do TCE/MA.
-
-**Não serve:** denúncia, representação, recurso, caso concreto, suporte de sistema.
-
-Legitimados centrais:
-
-- Governador;
-- Presidentes da Assembleia e <abbr title="Tribunal de Justiça">TJ</abbr>;
-- Prefeito;
-- Presidente de Câmara;
-- <abbr title="Procurador-Geral de Justiça">PGJ</abbr>;
-- <abbr title="Procurador-Geral do Estado">PGE</abbr>;
-- presidente de comissão parlamentar;
-- Secretários de Estado/equivalentes.
-
-Requisitos-chave:
-
-- objeto preciso;
-- formulação articulada e clara;
-- pertinência temática quando cabível;
-- consulta prévia aos prejulgados;
-- parecer técnico/jurídico.
-
-**Lei Orgânica:** parecer **sempre que possível**.  
-**e-Consulta:** orientação operacional para **juntar o parecer**.
-
-## Prejulgado
-
-**PREJULGA A TESE, NÃO O FATO.**
-
-- caráter normativo;
-- consulta já respondida → tese vigente pode ser encaminhada e autos arquivados;
-- reforma/revogação da tese → instrução para apreciação do Pleno.
-
-## Pegadinhas finais
-
-- denúncia ampla ≠ representação universal;
-- sigilo ≠ anonimato;
-- comunicação de irregularidade ≠ denúncia/representação autuada;
-- triagem ≠ julgamento;
-- seletividade ≠ mérito;
-- RROM → GUT, nunca o contrário;
-- art. 20 = sem triagem + sem seletividade;
-- consulta ≠ caso concreto;
-- prejulgado = tese, não fato.
+- **Quem:** Governador; presidentes da Assembleia Legislativa e do Tribunal de Justiça; prefeito e presidente de câmara municipal; chefe do Ministério Público estadual; procurador-geral do Estado; presidentes de comissão da Assembleia/câmara; secretários de Estado ou equivalentes do Executivo estadual. Cidadão nessa qualidade pode denunciar, mas não tem legitimidade geral para consulta.
+- **Como:** via <abbr title="sistema eletrônico de consultas do Tribunal">e-Consulta</abbr>, com objeto preciso, dúvida articulada sobre aplicação de norma e parecer do órgão de assistência técnica/jurídica da autoridade. A **Lei Orgânica** usa “sempre que possível” para o parecer; o **Regimento vigente, art. 269, § 1º**, determina que a consulta seja instruída com ele. A pesquisa prévia de prejulgados é orientação do serviço, não requisito autônomo desse artigo. **Pertinência temática adicional** do § 3º aplica-se especificamente aos presidentes de comissão e aos secretários/equivalentes (incisos IV e V).
+- **Limite:** consulta resolve **tese, não fato ou caso concreto**. Pode mencionar o caso que motivou a dúvida, desde que a pergunta permaneça em tese; não substitui assessoramento ordinário nem suporte para sistemas. Consulta inadmissível é, em regra, arquivada sem exame do mérito.
+- **Saída:** resposta com caráter normativo constitui **prejulgamento da tese**. Se já existe tese vigente, encaminha-se o ato ao consulente e arquivam-se os autos; possibilidade de reformar ou revogar exige instrução e decisão do Pleno.
