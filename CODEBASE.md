@@ -32,9 +32,10 @@
 │   ├── robots.txt                     # Crawler policy
 │   └── icons/                         # PWA, Apple touch and theme icons
 ├── src/
-│   ├── content.config.ts              # Eight Astro Content Collections and loaders
+│   ├── content.config.ts              # Astro Content Collections and loaders
 │   ├── content/
 │   │   ├── concursos/*.json           # Contest metadata
+│   │   ├── provas/*.json              # Per-contest exam info (examDate, nullable)
 │   │   └── assuntos/<concurso>/
 │   │       ├── <grupo>[/<subgrupo>]/grupo.json # Required group descriptors
 │   │       ├── <grupo>[/<subgrupo>]/mega-revisao/index.md # Optional group mega review
@@ -90,9 +91,10 @@
 
 ### Collections
 
-`src/content.config.ts` declares the following eight strict collections:
+`src/content.config.ts` declares strict collections including:
 
 - `concursos`: `src/content/concursos/**/*.json`, IDs from `contestIdFromEntry`, validated by `contestSchema`.
+- `provas`: `src/content/provas/**/*.json`, IDs from `contestIdFromEntry`, validated by `contestInfoSchema` (per-contest `storageId` + nullable `examDate`); joined into the catalog by `storageId`, fail-closed.
 - `grupos`: `src/content/assuntos/**/grupo.json`, IDs from `groupIdFromEntry`, validated by `groupSchema`.
 - `megaRevisoes`: `src/content/assuntos/**/mega-revisao/index.md`, IDs from `megaReviewIdFromEntry`, validated by `megaReviewSchema`.
 - `conteudos`: `src/content/assuntos/**/conteudo.md`, IDs from `subjectIdFromEntry`, validated by `subjectSchema`.
@@ -149,7 +151,7 @@
 
 ### Catalog and editorial validation
 
-- `src/lib/catalog.ts`: `getCatalog()` loads all eight collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`. Phase 0–3 memoizes by build: module-scoped `catalogPromise` ensures a single `loadCatalog()` per build/SSR instance.
+- `src/lib/catalog.ts`: `getCatalog()` loads the collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, joins optional per-contest exam info from `provas` by `storageId` (fail-closed), indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`. Phase 0–3 memoizes by build: module-scoped `catalogPromise` ensures a single `loadCatalog()` per build/SSR instance.
 - `src/lib/catalog-core.ts`: `buildCatalogIndex()` validates canonical IDs, optional mega-review ownership, contest-local review slugs alongside contest/subject storage IDs, companion files, group ancestry, non-empty groups, contest references, public subject slug uniqueness, orphan resolutions, question existence and exact question revisions; its validation matrix takes a `requireReferences` option (subject references always required; a mega review requires references iff it exists; resolutions require the aggregate iff any resolution exists; orphaned/duplicated/empty-body references fail); it sorts the group tree and flat subject projection, assigns previous/next subject IDs and adds mega-review routes to `createOfflineInventory()`.
 - `src/lib/content-schema.ts`: strict Zod schemas for contests, groups, mega reviews, subjects, resolutions, question sets and synchronization question sets.
 - `src/lib/content-paths.ts`: path normalization, route-segment checks and parsers for contest, group, mega-review, subject and resolution IDs; also `referenceIdFromEntry`/`parseReferenceId` for reference entries.
