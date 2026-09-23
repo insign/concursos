@@ -170,7 +170,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H057 | `regimento-sessoes-distribuicao` | `regimento-sessoes-tcema` | V | `361a29efcdab7f8a634a2458d9933f0bbae97db4` |
 | H058 | `regimento-processos-controle` | = | V | `6a016ed0a34e3554a4e35772ad4b35cdb89ac2d7` |
 | H059 | `regimento-denuncias-consultas` | = | V | `868bb4b3c855af58ceb45015270d4483525bee5e` |
-| H060 | `regimento-garantias-prazos` | = | V | — |
+| H060 | `regimento-garantias-prazos` | = | V | `7cf990eda26f1a048d2263d5e20bb67e5b506c6b` |
 | H061 | `regimento-decisoes-execucao` | = | V | — |
 | H062 | `regimento-recursos-revisao` | = | V | — |
 | H063 | `regimento-atos-etica-finais` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H060: aula usa 6/7 como publicação de E1, em vez de 7/7 informado pelo Tribunal; rever no escopo próprio.
 - H059: a aula usa 6/7 como publicação de E1 (Tribunal informa 7/7), atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269, e chama de redação atual do Regimento o “sempre que possível” da Lei Orgânica para o parecer. Rever no escopo da aula.
 - H058: aula considera 6/7 como publicação/corte de E1, mas o Tribunal informa 7/7; corrigir em revisão própria.
 - H057: aula trata 6/7 (data de E1) como publicação/corte, mas o Tribunal informa 7/7; corrigir em revisão própria.
