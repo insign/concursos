@@ -71,6 +71,10 @@ export function buildReadingPreferencesDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--leitura`);
 }
 
+export function buildForecastDocumentId(alias: string): string {
+  return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--previsoes`);
+}
+
 export function buildNavigationContestDocumentId(alias: string, contestStorageId: string): string {
   const user = validateUserAlias(alias);
   const contest = validateSegment(contestStorageId, CONTEST_MAX_LENGTH, 'ID de armazenamento do concurso');

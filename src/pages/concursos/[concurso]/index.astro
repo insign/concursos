@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ContestExamDate from '../../../components/ContestExamDate.astro';
+import StudyForecast from '../../../components/StudyForecast.astro';
 import ContestResumeReading from '../../../components/ContestResumeReading.astro';
 import ContestSearch from '../../../components/ContestSearch.astro';
 import OfflineContestButton from '../../../components/OfflineContestButton.astro';
@@ -36,6 +37,7 @@ const { contest } = Astro.props;
     </header>
 
     <ContestExamDate examDate={contest.examDate} />
+    <StudyForecast contest={contest} />
     <ContestResumeReading contestStorageId={contest.storageId} />
     <OfflineContestButton contestStorageId={contest.storageId} contestTitle={contest.title} />
     <ContestSearch contestStorageId={contest.storageId} contestSlug={contest.slug} contestTitle={contest.title} />

@@ -17,6 +17,8 @@ export * from './catalog-core';
 const REQUIRE_REFERENCES = true;
 
 export interface CatalogSubject extends CatalogSubjectIndex {
+  /** Origem canônica resolvida (`vinculo.json`) ou `null` quando o assunto é físico. */
+  canonicalId: string | null;
   contentEntry: CollectionEntry<'conteudos'>;
   cheatSheetEntry: CollectionEntry<'cheatSheets'>;
   questionSetEntry: CollectionEntry<'questoes'>;
@@ -214,6 +216,7 @@ async function loadCatalog(): Promise<Catalog> {
         }
         return {
           ...subject,
+          canonicalId: canonical ?? null,
           contentEntry: contentEntry as CollectionEntry<'conteudos'>,
           cheatSheetEntry: cheatSheetEntry as CollectionEntry<'cheatSheets'>,
           questionSetEntry: questionSetEntry as CollectionEntry<'questoes'>,

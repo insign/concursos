@@ -94,3 +94,43 @@ export function formatExamDatePtBr(isoDate: string): string {
   const { year, month, day } = parseParts(isoDate);
   return `${String(day).padStart(2, '0')}/${String(month).padStart(2, '0')}/${String(year).padStart(4, '0')}`;
 }
+
+/**
+ * Converte contagem inteira de dias de época de volta em data civil `YYYY-MM-DD`.
+ * Algoritmo inverso exato (civil-from-days, Howard Hinnant), sem `Date`/fuso.
+ */
+export function epochDaysToCalendarDate(epochDays: number): string {
+  if (!Number.isInteger(epochDays)) {
+    throw new Error(`Contagem de dias deve ser inteira: "${epochDays}"`);
+  }
+  const z = epochDays + 719468;
+  const era = Math.floor((z >= 0 ? z : z - 146096) / 146097);
+  const doe = z - era * 146097;
+  const yoe = Math.floor(
+    (doe - Math.floor(doe / 1460) + Math.floor(doe / 36524) - Math.floor(doe / 146096)) / 365,
+  );
+  const y = yoe + era * 400;
+  const doy = doe - (365 * yoe + Math.floor(yoe / 4) - Math.floor(yoe / 100));
+  const mp = Math.floor((5 * doy + 2) / 153);
+  const d = doy - Math.floor((153 * mp + 2) / 5) + 1;
+  const m = mp < 10 ? mp + 3 : mp - 9;
+  const year = m <= 2 ? y + 1 : y;
+  return `${String(year).padStart(4, '0')}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+}
+
+/** Soma dias civis inteiros a uma data `YYYY-MM-DD` (aceita valores negativos). */
+export function addCalendarDays(isoDate: string, days: number): string {
+  if (!Number.isInteger(days)) {
+    throw new Error(`Dias a somar devem ser inteiros: "${days}"`);
+  }
+  return epochDaysToCalendarDate(calendarDateToEpochDays(isoDate) + days);
+}
+
+/**
+ * Dia da semana civil no padrão ISO: 1 = segunda … 7 = domingo.
+ * Derivado da contagem de época (1970-01-01 foi quinta-feira), sem `Date`.
+ */
+export function isoWeekday(isoDate: string): number {
+  const raw = (calendarDateToEpochDays(isoDate) + 3) % 7;
+  return (raw < 0 ? raw + 7 : raw) + 1;
+}

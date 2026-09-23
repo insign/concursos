@@ -4,7 +4,7 @@ import type { AnswerDocument } from './questionnaire';
 import type { SimuladoDocument } from './simulados';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 6;
+const OFFLINE_DB_VERSION = 7;
 
 export type OutboxState = 'clean' | 'pending';
 
@@ -136,6 +136,10 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: LocalSharedDocumentRecord;
   };
+  previsoes: {
+    key: string;
+    value: LocalSharedDocumentRecord;
+  };
   simulados: {
     key: string;
     value: LocalSimuladoRecord;
@@ -218,6 +222,10 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       }
       if (!database.objectStoreNames.contains('leitura')) {
         database.createObjectStore('leitura', { keyPath: 'profileId' });
+      }
+      // v6 -> v7: parâmetros da calculadora de previsão por concurso (issue 780).
+      if (!database.objectStoreNames.contains('previsoes')) {
+        database.createObjectStore('previsoes', { keyPath: 'profileId' });
       }
       // v3 -> v4: simulados detalhados (keyed por documentId, como responses) e o índice singleton.
       if (!database.objectStoreNames.contains('simulados')) {
@@ -374,7 +382,7 @@ export async function getLocalAnswerRecord(documentId: string): Promise<LocalAns
   return (await openOfflineDb()).get('responses', documentId);
 }
 
-export type SharedStoreName = 'preferences' | 'progress' | 'estudados' | 'leitura' | 'simuladosIndex';
+export type SharedStoreName = 'preferences' | 'progress' | 'estudados' | 'leitura' | 'previsoes' | 'simuladosIndex';
 
 export interface SharedDocumentUpdate {
   storeName: SharedStoreName;
@@ -410,7 +418,7 @@ export function updateSharedDocuments(
   const write = (async () => {
     const database = await openOfflineDb();
     const transaction = database.transaction(
-      ['preferences', 'progress', 'estudados', 'leitura', 'simuladosIndex'],
+      ['preferences', 'progress', 'estudados', 'leitura', 'previsoes', 'simuladosIndex'],
       'readwrite',
     );
     const updatedAt = Date.now();
@@ -419,6 +427,7 @@ export function updateSharedDocuments(
       progress: await transaction.objectStore('progress').get(profileId),
       estudados: await transaction.objectStore('estudados').get(profileId),
       leitura: await transaction.objectStore('leitura').get(profileId),
+      previsoes: await transaction.objectStore('previsoes').get(profileId),
       simuladosIndex: await transaction.objectStore('simuladosIndex').get(profileId),
     };
     const documents: Record<SharedStoreName, unknown | undefined> = {
@@ -426,6 +435,7 @@ export function updateSharedDocuments(
       progress: records.progress?.current,
       estudados: records.estudados?.current,
       leitura: records.leitura?.current,
+      previsoes: records.previsoes?.current,
       simuladosIndex: records.simuladosIndex?.current,
     };
 
@@ -1157,7 +1167,7 @@ export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | '
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
   const database = await openOfflineDb();
-  const [answerCount, simuladoCount, preferences, progress, studied, reading, simuladosIndex] =
+  const [answerCount, simuladoCount, preferences, progress, studied, reading, forecast, simuladosIndex] =
     await Promise.all([
       database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
       database.countFromIndex('simulados', 'by-profile-outbox', [profileId, 'pending']),
@@ -1165,6 +1175,7 @@ export async function hasPendingOutbox(profileId: string): Promise<boolean> {
       database.get('progress', profileId),
       database.get('estudados', profileId),
       database.get('leitura', profileId),
+      database.get('previsoes', profileId),
       database.get('simuladosIndex', profileId),
     ]);
   return (
@@ -1174,6 +1185,7 @@ export async function hasPendingOutbox(profileId: string): Promise<boolean> {
     progress?.outboxState === 'pending' ||
     studied?.outboxState === 'pending' ||
     reading?.outboxState === 'pending' ||
+    forecast?.outboxState === 'pending' ||
     simuladosIndex?.outboxState === 'pending'
   );
 }
@@ -1228,7 +1240,7 @@ export function discardPendingProfile(profileId: string): Promise<void> {
     }
     await simuladoTransaction.done;
 
-    for (const storeName of ['preferences', 'progress', 'estudados', 'leitura', 'simuladosIndex'] as const) {
+    for (const storeName of ['preferences', 'progress', 'estudados', 'leitura', 'previsoes', 'simuladosIndex'] as const) {
       const sharedTransaction = database.transaction(storeName, 'readwrite');
       const shared = await sharedTransaction.store.get(profileId);
       if (shared?.outboxState === 'pending') {

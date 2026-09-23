@@ -1,0 +1,382 @@
+---
+import type { CatalogContest, CatalogGroup } from '../lib/catalog';
+import { formatExamDatePtBr, getLocalTodayIso } from '../lib/exam-date';
+import {
+  calculateForecast,
+  DEFAULT_FORECAST_PARAMS,
+  deduplicateUnits,
+  filterUnitsByScope,
+  subjectsPerWeek,
+  type ForecastFrequency,
+  type ForecastScope,
+  type ForecastUnit,
+} from '../lib/study-forecast';
+import { studiedSubjectId } from '../lib/studied';
+
+interface Props {
+  contest: CatalogContest;
+}
+
+interface GroupOption {
+  id: string;
+  title: string;
+  depth: number;
+  count: number;
+}
+
+const { contest } = Astro.props;
+
+const allUnits: ForecastUnit[] = contest.subjects.map((subject) => ({
+  originKey: subject.canonicalId ?? subject.id,
+  studiedSubjectIds: [studiedSubjectId(contest.storageId, subject.storageId)],
+  groupPathIds: subject.groupPath.map((group) => group.id),
+}));
+const units = deduplicateUnits(allUnits);
+
+function collectGroups(groups: CatalogGroup[], depth: number, out: GroupOption[]): void {
+  for (const group of groups) {
+    const count = units.filter((unit) => unit.groupPathIds.includes(group.id)).length;
+    out.push({ id: group.id, title: group.title, depth, count });
+    const children = group.children.filter((child) => child.kind === 'group');
+    collectGroups(children as CatalogGroup[], depth + 1, out);
+  }
+}
+
+const groupOptions: GroupOption[] = [];
+collectGroups(contest.children, 0, groupOptions);
+const rootGroups = groupOptions.filter((group) => group.depth === 0);
+
+const initialScope: ForecastScope = { kind: 'concurso', groupId: null };
+const initialResult = calculateForecast(
+  units,
+  new Set<string>(),
+  DEFAULT_FORECAST_PARAMS,
+  contest.examDate,
+  getLocalTodayIso(),
+);
+
+const prefix = `forecast-${contest.storageId}`;
+const serializedModel = JSON.stringify({
+  contestStorageId: contest.storageId,
+  examDate: contest.examDate,
+  units,
+  defaults: DEFAULT_FORECAST_PARAMS,
+}).replaceAll('<', '\\u003c');
+
+function formatPerWeek(value: number): string {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1).replace('.', ',');
+}
+---
+
+<section class="study-forecast print-hidden" aria-labelledby={`${prefix}-title`} data-study-forecast>
+  <p class="eyebrow">Planejamento</p>
+  <h2 id={`${prefix}-title`}>Previsão de conclusão</h2>
+
+  <form data-forecast-form>
+    <fieldset>
+      <legend>Dias de estudo</legend>
+      <label>
+        <input type="radio" name="frequency" value="seg-sex" checked={DEFAULT_FORECAST_PARAMS.frequency === 'seg-sex'} />
+        Segunda a sexta
+      </label>
+      <label>
+        <input type="radio" name="frequency" value="todos-os-dias" checked={DEFAULT_FORECAST_PARAMS.frequency === 'todos-os-dias'} />
+        Todos os dias
+      </label>
+      <label>
+        <input type="radio" name="frequency" value="alternados" checked={DEFAULT_FORECAST_PARAMS.frequency === 'alternados'} />
+        Dias alternados
+      </label>
+    </fieldset>
+
+    <div>
+      <label for={`${prefix}-per-day`}>Assuntos por dia de estudo</label>
+      <input
+        type="number"
+        id={`${prefix}-per-day`}
+        name="subjectsPerDay"
+        min="1"
+        max="20"
+        step="1"
+        value={DEFAULT_FORECAST_PARAMS.subjectsPerDay}
+      />
+    </div>
+
+    <div>
+      <label for={`${prefix}-scope`}>Escopo</label>
+      <select id={`${prefix}-scope`} name="scope">
+        <option value="concurso">Todo o concurso ({units.length})</option>
+        <optgroup label="Grandes grupos">
+          {rootGroups.map((group) => (
+            <option value={group.id}>{group.title} ({group.count})</option>
+          ))}
+        </optgroup>
+        <optgroup label="Grupos">
+          {groupOptions.map((group) => (
+            <option value={group.id}>{`${'— '.repeat(group.depth)}${group.title} (${group.count})`}</option>
+          ))}
+        </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" name="subtractStudied" checked={DEFAULT_FORECAST_PARAMS.subtractStudied} />
+        Descontar assuntos já marcados como estudados
+      </label>
+    </div>
+  </form>
+
+  <div role="status" aria-live="polite" data-forecast-result>
+    <p data-forecast-main>
+      {initialResult.status === 'ok' && initialResult.completionIso
+        ? `Previsão de conclusão: ${formatExamDatePtBr(initialResult.completionIso)}`
+        : 'Previsão indisponível.'}
+    </p>
+    <p data-forecast-detail>
+      {`${initialResult.remainingSubjects} pendentes de ${initialResult.totalSubjects} assuntos · ${formatPerWeek(initialResult.subjectsPerWeek)} por semana`}
+    </p>
+    <p data-forecast-exam></p>
+  </div>
+  <p data-forecast-note></p>
+  <script type="application/json" data-forecast-model set:html={serializedModel}></script>
+</section>
+
+<script>
+  import { daysUntilExam, formatExamDatePtBr, getLocalTodayIso } from '../lib/exam-date';
+  import { getActiveAlias } from '../lib/identity';
+  import { loadStudied } from '../lib/studied';
+  import {
+    contestForecastSettings,
+    loadForecastSettings,
+    saveContestForecastSettings,
+    type ForecastContestSettings,
+  } from '../lib/forecast-settings';
+  import { requestProfileSync } from '../lib/sync';
+  import {
+    calculateForecast,
+    deduplicateUnits,
+    DEFAULT_FORECAST_PARAMS,
+    filterUnitsByScope,
+    type ForecastFrequency,
+    type ForecastScope,
+    type ForecastUnit,
+  } from '../lib/study-forecast';
+
+  interface ForecastModel {
+    contestStorageId: string;
+    examDate: string | null;
+    units: ForecastUnit[];
+    defaults: ForecastContestSettings;
+  }
+
+  function plural(count: number, one: string, many: string): string {
+    return count === 1 ? one : many;
+  }
+
+  function formatPerWeek(value: number): string {
+    return Number.isInteger(value) ? String(value) : value.toFixed(1).replace('.', ',');
+  }
+
+  const roots = Array.from(
+    document.querySelectorAll<HTMLElement>('[data-study-forecast]:not([data-forecast-ready])'),
+  ).flatMap((root) => {
+    const serialized = root.querySelector<HTMLScriptElement>('[data-forecast-model]')?.textContent;
+    const form = root.querySelector<HTMLFormElement>('[data-forecast-form]');
+    const main = root.querySelector<HTMLElement>('[data-forecast-main]');
+    const detail = root.querySelector<HTMLElement>('[data-forecast-detail]');
+    const exam = root.querySelector<HTMLElement>('[data-forecast-exam]');
+    const note = root.querySelector<HTMLElement>('[data-forecast-note]');
+    if (!serialized || !form || !main || !detail || !exam || !note) return [];
+    root.setAttribute('data-forecast-ready', '');
+    return [{ root, form, main, detail, exam, note, model: JSON.parse(serialized) as ForecastModel }];
+  });
+
+  function readScope(form: HTMLFormElement): ForecastScope {
+    const select = form.elements.namedItem('scope') as HTMLSelectElement | null;
+    const value = select?.value ?? 'concurso';
+    if (value === 'concurso') return { kind: 'concurso', groupId: null };
+    return { kind: 'grupo', groupId: value };
+  }
+
+  function readParams(form: HTMLFormElement): {
+    frequency: ForecastFrequency;
+    subjectsPerDay: number;
+    subtractStudied: boolean;
+  } {
+    const data = new FormData(form);
+    const frequency = (data.get('frequency') as ForecastFrequency) || DEFAULT_FORECAST_PARAMS.frequency;
+    const subjectsPerDay = Number(data.get('subjectsPerDay'));
+    const subtractStudied = data.get('subtractStudied') === 'on';
+    return { frequency, subjectsPerDay, subtractStudied };
+  }
+
+  function renderExam(
+    exam: HTMLElement,
+    examDate: string | null,
+    kind: string,
+    days: number | null,
+    todayIso: string,
+  ): void {
+    if (!examDate || days === null) {
+      exam.textContent = 'Sem data de prova objetiva no catálogo.';
+      return;
+    }
+    const pastDelta = daysUntilExam(examDate, todayIso);
+    const pastWarning =
+      pastDelta < 0
+        ? ` Atenção: a data da prova objetiva já passou há ${Math.abs(pastDelta)} ${plural(Math.abs(pastDelta), 'dia', 'dias')}.`
+        : '';
+    if (kind === 'folga') {
+      exam.textContent = `Folga de ${days} ${plural(days, 'dia', 'dias')} em relação à prova objetiva.${pastWarning}`;
+    } else if (kind === 'no-dia') {
+      exam.textContent = `A conclusão estimada cai no dia da prova objetiva.${pastWarning}`;
+    } else if (kind === 'atraso') {
+      const delay = Math.abs(days);
+      exam.textContent = `Atraso de ${delay} ${plural(delay, 'dia', 'dias')} em relação à prova objetiva.${pastWarning}`;
+    } else {
+      exam.textContent = pastWarning.trim();
+    }
+  }
+
+  async function renderInstance(
+    instance: (typeof roots)[number],
+    studiedIds: ReadonlySet<string>,
+    saved: ForecastContestSettings | null,
+    version: number,
+    refreshVersion: { current: number },
+  ): Promise<void> {
+    const { form, main, detail, exam, note, model } = instance;
+    if (version !== refreshVersion.current) return;
+    const { frequency, subjectsPerDay, subtractStudied } = saved ?? readParams(form);
+    const scope = readScope(form);
+    const scoped = deduplicateUnits(filterUnitsByScope(model.units, scope));
+    const todayIso = getLocalTodayIso();
+    const result = calculateForecast(
+      scoped,
+      subtractStudied ? studiedIds : new Set<string>(),
+      { schemaVersion: 1, frequency, subjectsPerDay, subtractStudied },
+      model.examDate,
+      todayIso,
+    );
+    if (version !== refreshVersion.current) return;
+    if (result.status === 'ok' && result.completionIso) {
+      main.textContent = `Previsão de conclusão: ${formatExamDatePtBr(result.completionIso)}`;
+      detail.textContent =
+        `${result.remainingSubjects} ${plural(result.remainingSubjects, 'pendente', 'pendentes')} de ` +
+        `${result.totalSubjects} ${plural(result.totalSubjects, 'assunto', 'assuntos')} · ` +
+        `${formatPerWeek(result.subjectsPerWeek)} por semana`;
+      renderExam(exam, model.examDate, result.examKind, result.examDays, todayIso);
+    } else if (result.status === 'concluido') {
+      main.textContent = 'Todos os assuntos deste escopo já foram concluídos.';
+      detail.textContent = `${result.totalSubjects} ${plural(result.totalSubjects, 'assunto', 'assuntos')} no escopo.`;
+      renderExam(exam, model.examDate, result.examKind, result.examDays, todayIso);
+    } else if (result.status === 'escopo-vazio') {
+      main.textContent = 'Este recorte não possui assuntos para calcular.';
+      detail.textContent = '';
+      exam.textContent = '';
+    } else if (result.status === 'ritmo-invalido') {
+      main.textContent = 'Informe ao menos 1 assunto por dia de estudo.';
+      detail.textContent = '';
+      exam.textContent = '';
+    } else {
+      main.textContent = 'Previsão além do horizonte de cálculo; aumente o ritmo.';
+      detail.textContent = '';
+      exam.textContent = '';
+    }
+    const profileId = getActiveAlias();
+    note.textContent = profileId
+      ? ''
+      : 'Sem alias ativo: cálculo do zero e ritmo não salvo. Ative um alias para descontar concluídos e lembrar o ritmo.';
+  }
+
+  if (roots.length > 0) {
+    const refreshVersion = { current: 0 };
+    const first = roots[0];
+    if (first) {
+      const contestStorageId = first.model.contestStorageId;
+
+    const refresh = async (applySaved: boolean) => {
+      const version = ++refreshVersion.current;
+      const profileId = getActiveAlias();
+      let studied = new Set<string>();
+      let saved: ForecastContestSettings | null = null;
+      if (profileId) {
+        try {
+          const [studiedDoc, settings] = await Promise.all([
+            loadStudied(profileId).catch(() => ({ studiedSubjectIds: [] as string[] })),
+            loadForecastSettings(profileId).catch(() => null),
+          ]);
+          if (version !== refreshVersion.current || getActiveAlias() !== profileId) return;
+          studied = new Set(studiedDoc.studiedSubjectIds);
+          if (settings) saved = contestForecastSettings(settings, contestStorageId);
+        } catch {
+          // best-effort; calcula do zero
+        }
+      }
+      for (const instance of roots) {
+        if (applySaved && saved) applyToForm(instance.form, saved);
+        await renderInstance(instance, studied, applySaved ? saved : null, version, refreshVersion);
+      }
+    };
+
+    const applyToForm = (form: HTMLFormElement, saved: ForecastContestSettings) => {
+      for (const node of form.querySelectorAll<HTMLInputElement>('input[name="frequency"]')) {
+        node.checked = node.value === saved.frequency;
+      }
+      const perDay = form.elements.namedItem('subjectsPerDay') as HTMLInputElement | null;
+      if (perDay) perDay.value = String(saved.subjectsPerDay);
+      const toggle = form.elements.namedItem('subtractStudied') as HTMLInputElement | null;
+      if (toggle) toggle.checked = saved.subtractStudied;
+    };
+
+    const persist = async (form: HTMLFormElement) => {
+      const profileId = getActiveAlias();
+      if (!profileId) return;
+      const { frequency, subjectsPerDay, subtractStudied } = readParams(form);
+      if (!Number.isInteger(subjectsPerDay) || subjectsPerDay < 1 || subjectsPerDay > 20) return;
+      try {
+        await saveContestForecastSettings(profileId, contestStorageId, {
+          frequency,
+          subjectsPerDay,
+          subtractStudied,
+        });
+        await requestProfileSync(profileId);
+      } catch {
+        // best-effort; o cálculo em tela permanece válido
+      }
+    };
+
+    for (const instance of roots) {
+      instance.form.addEventListener('input', () => {
+        void refresh(false);
+        void persist(instance.form);
+      });
+      instance.form.addEventListener('change', () => {
+        void refresh(false);
+        void persist(instance.form);
+      });
+    }
+
+    window.addEventListener('concursos:studied-updated', () => void refresh(false));
+    window.addEventListener('concursos:profile-changed', () => void refresh(true));
+    window.addEventListener('concursos:sync-status', (event) => {
+      const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
+      if (
+        (!detail?.profileId || detail.profileId === getActiveAlias()) &&
+        (detail?.state === 'synced' || detail?.state === 'error')
+      )
+        void refresh(true);
+    });
+    window.addEventListener('storage', (event) => {
+      if (event.key === 'concursos:active-alias') void refresh(true);
+    });
+    window.addEventListener('pageshow', () => void refresh(false));
+    window.addEventListener('focus', () => void refresh(false));
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') void refresh(false);
+    });
+    void refresh(true);
+    }
+  }
+</script>
