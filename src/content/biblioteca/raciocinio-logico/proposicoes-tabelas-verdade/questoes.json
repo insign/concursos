@@ -394,9 +394,9 @@
     },
     {
       "id": "q5012",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Com as mesmas definições, “O comprovante será emitido somente se o cadastro estiver completo” corresponde a",
+      "prompt": "Considere p: “O cadastro está completo” e q: “O comprovante será emitido”. A frase “O comprovante será emitido somente se o cadastro estiver completo” corresponde a",
       "options": [
         {"id": "A", "text": "p → q."},
         {"id": "B", "text": "q → p."},
@@ -465,7 +465,7 @@
         {"id": "E", "text": "{q, r}."}
       ],
       "correctOptionId": "B",
-      "explanation": "Das três disjunções verdadeiras, a única atribuição compatível entre as alternativas é q verdadeira, sem exigir p ou r verdadeiras. Fonte: questão oficial; FGV; BANESTES — Técnico Bancário, Tipo 1; 2023; questão 21; caderno https://conhecimento.fgv.br/sites/default/files/concursos/cnm201-tecnico-bancariocnm201-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/banestes-gabaritos-definitivos_0.pdf."
+      "explanation": "Somente q é necessariamente verdadeira. Se q fosse falsa, p∨q exigiria p verdadeira e q∨~r exigiria r falsa; então r∨~p seria falsa, contrariando o enunciado. Com q verdadeira, p e r ainda podem ser ambas falsas, p falsa e r verdadeira, ou ambas verdadeiras. Assim, o comando identifica a proposição cuja verdade é forçada pelas premissas, não uma única atribuição completa. Fonte: questão oficial; FGV; BANESTES — Técnico Bancário, Tipo 1; 2023; questão 21; caderno https://conhecimento.fgv.br/sites/default/files/concursos/cnm201-tecnico-bancariocnm201-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/banestes-gabaritos-definitivos_0.pdf."
     },
     {
       "id": "q52203802",

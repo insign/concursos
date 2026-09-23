@@ -94,12 +94,12 @@
     },
     {
       "id": "q5215",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Se A = {1,2,3} e B = {3,4}, então A ∪ B é:",
-      "options": [{"id":"A","text":"{1,2,3,4}."},{"id":"B","text":"{3}."},{"id":"C","text":"{1,2}."},{"id":"D","text":"{1,2,4}."},{"id":"E","text":"{1,2,3,3,4}."}],
+      "options": [{"id":"A","text":"{1,2,3,4}."},{"id":"B","text":"{3}."},{"id":"C","text":"{1,2}."},{"id":"D","text":"{1,2,4}."},{"id":"E","text":"{1,2,3}."}],
       "correctOptionId": "A",
-      "explanation": "A união reúne quem está em A, em B ou em ambos, sem repetir elementos."
+      "explanation": "A união reúne os elementos que pertencem a A, a B ou a ambos: 1, 2, 3 e 4. Repetir a escrita de um elemento não muda o conjunto; omitir 4 deixa de representar a união."
     },
     {
       "id": "q5216",
