@@ -115,7 +115,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
 | H019 | `competencias-digitais-publicas` | = | V | [`fdf03c6`](https://github.com/insign/concursos/commit/fdf03c60f53d55bd189a1ea50b4070a45cb76de3) |
-| H020 | `windows-arquivos-pastas` | = | V | — |
+| H020 | `windows-arquivos-pastas` | = | V | [`82ce0e9`](https://github.com/insign/concursos/commit/82ce0e986ec20058aa1cf99a9e2e08e5fc0ac07b) |
 | H021 | `microsoft-word-documentos` | = | V | — |
 | H022 | `microsoft-excel-planilhas` | = | V | — |
 | H023 | `microsoft-powerpoint-apresentacoes` | `powerpoint-apresentacoes` | V | — |
