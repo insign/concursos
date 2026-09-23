@@ -1,157 +1,19 @@
 # Fatos sociais do Maranhão na segunda metade do século XX
 
-## Fórmula mental
+## Mudança produtiva → deslocamento → direitos e conflito (1951–2000)
 
-> mudanças produtivas/fundiárias + crescimento/deslocamentos → urbanização + conflitos + desigualdades + organização coletiva
-
-## Recorte
-
-- **1951-2000**.
-- 1951 = apenas transição do assunto anterior.
-- Demografia detalhada, densidade, povoamento e fluxos = Assunto 088.
-- Lei municipal de 2002 sobre babaçu = fora.
-
-## Rural → urbano
-
-| Processo | Efeito social |
+| Processo | Leitura social |
 |---|---|
-| crescimento e deslocamentos populacionais | expansão das cidades |
-| integração rodoviária | circulação, migração e novos centros regionais |
-| valorização da terra | disputas rurais e urbanas |
-| grandes projetos | atração de trabalhadores e pressão sobre serviços |
-| urbanização | maioria urbana ao final do século, sem universalização de infraestrutura |
+| **Rodovias, terras e projetos** | Integração de mercados, pecuarização e valorização fundiária deslocaram pessoas e intensificaram disputas entre posseiros, proprietários, empresas e comunidades. **Posse** é uso ou controle de fato; **propriedade** é direito formal. <abbr title="Fraude documental para legitimar domínio fundiário">Grilagem</abbr> é uma forma de conflito, não sinônimo de todos eles. |
+| **Migração e cidades** | Imperatriz cresceu com circulação pela Belém-Brasília, comércio e serviços. São Luís expandia-se antes do complexo industrial dos anos 1980; projetos reforçaram pressões sobre moradia, transporte e serviços. **Urbanização** é maior proporção urbana; maioria urbana em 2000 não implica infraestrutura universal nem fim do campo. |
+| **Trabalho e desigualdade** | Comércio, construção, serviços e indústria somaram-se a agricultura familiar, pecuária e extrativismo; empregos dos grandes projetos não absorveram todos os migrantes. <abbr title="Concentração territorial de grupos e serviços segundo desigualdades sociais">Segregação socioespacial</abbr> e periferização (acesso desigual a moradia e serviços, não mera distância do centro) acompanharam a expansão. |
 
-> Urbanização ≠ saneamento, moradia ou serviços universais.
+## Terra e organização coletiva: sequência útil
 
-## São Luís × Imperatriz
+**1968**: Reserva e Delegacias de Terras estaduais → **1969**: Lei estadual 2.979 sobre destinação de terras públicas → **1971**: <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr> e colonização dirigida (ocupação orientada por projetos estatais). “Espaços vazios” nos documentos de planejamento não significavam ausência de ocupantes e usos da terra.
 
-| Cidade | Chave social |
-|---|---|
-| São Luís | expansão já anterior aos grandes projetos; periferização e desigualdade urbana reforçadas nos anos 1980 |
-| Imperatriz | Belém-Brasília + circulação + comércio/serviços + migração + centralidade regional |
+A organização rural **antecedeu 1964**: <abbr title="Associação dos Trabalhadores Agrícolas do Maranhão">ATAM</abbr> em 1956, <abbr title="Movimento de Educação de Base">MEB</abbr> na educação popular desde os anos 1960 e sindicalização no Pindaré em 1963. A repressão após o golpe alterou essas redes. Separe <abbr title="Movimento de Educação de Base">MEB</abbr> (educação), <abbr title="Comunidades Eclesiais de Base">CEBs</abbr> (organização comunitária religiosa) e <abbr title="Comissão Pastoral da Terra">CPT</abbr> (apoio à questão agrária); não são sindicato nem órgãos estatais.
 
-- Rodovia ≠ causa única de Imperatriz.
-- <abbr title="Programa Grande Carajás">PGC</abbr>/Alumar ≠ causa única da periferização de São Luís.
+**Quebradeiras de coco:** trabalho, renda, livre acesso aos babaçuais e defesa das palmeiras formam uma luta territorial com protagonismo feminino. <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> surge em **1989** como associação de articulação e apoio rural; encontro interestadual de **1991** articula as quebradeiras, e em **1995** consolida o nome <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr>. A Lei 05/1997 de Lago do Junco é marco pioneiro do Babaçu Livre; proteções municipais posteriores de **2002** não podem ser projetadas nela.
 
-## Periferização
-
-- não é apenas distância do centro;
-- combina acesso desigual a terra, moradia, transporte e serviços;
-- autoconstrução, ocupações, palafitas e conjuntos habitacionais coexistem;
-- segregação socioespacial = distribuição desigual de grupos e infraestrutura.
-
-## Trabalho
-
-| Campo | Cidade |
-|---|---|
-| posseiros e pequenos proprietários | comércio e serviços |
-| parceiros e arrendatários | construção civil |
-| agricultura familiar | funcionalismo |
-| extrativismo do babaçu | trabalho doméstico |
-| assalariamento temporário | indústria e informalidade |
-
-> Grande projeto pode criar empregos sem absorver toda a população atraída.
-
-## Questão agrária
-
-| Conceito | Chave |
-|---|---|
-| posse | exercício fático |
-| propriedade | direito formal |
-| grilagem | fraude para legitimar domínio |
-| expropriação | perda dos meios de produção/vida |
-| terra de trabalho | reprodução familiar |
-| terra de negócio | renda, valorização ou especulação |
-
-- Lei de Terras estadual: **1969**.
-- <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr>: **1971**.
-- Política estatal + rodovias + incentivos + valorização fundiária → conflitos.
-- Conflito agrário ≠ massacre.
-
-## Organização rural
-
-> conflito por terra/trabalho → associação → educação popular → sindicalização → repressão → reorganização
-
-- **1956**: <abbr title="Associação dos Trabalhadores Agrícolas do Maranhão">ATAM</abbr>.
-- início dos anos 1960: <abbr title="Movimento de Educação de Base">MEB</abbr> e formação rural.
-- **1963**: sindicalização rural ganha forma no Pindaré.
-- **1964**: repressão e maior controle institucional.
-
-## MEB × CEBs × CPT
-
-| Organização | Núcleo |
-|---|---|
-| MEB | educação popular e formação de lideranças |
-| <abbr title="Comunidades Eclesiais de Base">CEBs</abbr> | comunidades territoriais e participação de leigos |
-| <abbr title="Comissão Pastoral da Terra">CPT</abbr> | questão agrária e apoio a trabalhadores rurais |
-
-CEB ≠ sindicato ≠ partido.
-
-## Grandes projetos: efeitos sociais
-
-- atração de trabalhadores;
-- valorização fundiária e imobiliária;
-- pressão sobre moradia e serviços;
-- remanejamentos e disputas territoriais;
-- mudança do mercado de trabalho;
-- mobilização comunitária.
-
-> Industrialização não explica sozinha a periferização.
-
-## Quebradeiras de coco
-
-- trabalho + renda + babaçuais + território + protagonismo feminino;
-- conflitos: cercamentos, derrubada de palmeiras, cobrança de acesso, “quebra de meia”;
-- organização cresce via clubes de mães, associações e sindicatos.
-
-### Marcos
-
-| Ano | Marco |
-|---|---|
-| 1989 | fundação da <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> |
-| 1991 | primeiro encontro/articulação interestadual |
-| 1995 | consolidação do nome <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> |
-| 1997 | Lei Municipal nº 05/1997 de Lago do Junco — Babaçu Livre |
-
-## Não confundir organizações
-
-| Organização | Natureza |
-|---|---|
-| ASSEMA | articulação e assessoria no Médio Mearim |
-| MIQCB | movimento interestadual de quebradeiras |
-| sindicato | representação trabalhista |
-| cooperativa | produção/comercialização |
-
-## Constituição de 1988
-
-- amplia bases jurídicas dos direitos sociais;
-- <abbr title="Sistema Único de Saúde">SUS</abbr> integra a nova ordem constitucional;
-- art. 231: direitos originários indígenas;
-- art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>: propriedade quilombola nas condições previstas;
-- reconhecimento jurídico ≠ efetivação automática.
-
-## Rupturas × permanências
-
-| Rupturas | Permanências |
-|---|---|
-| urbanização acelerada | importância social do campo |
-| novos grandes projetos | conflitos territoriais |
-| diversificação do trabalho urbano | informalidade |
-| novas organizações sociais | desigualdades de acesso |
-| Constituição de 1988 | distância entre direito formal e efetivação |
-| MIQCB/ASSEMA | trabalho extrativista familiar |
-
-## Pegadinhas
-
-- 1951-2000, não “1951/1952”.
-- Maioria urbana em 2000 ≠ infraestrutura universal.
-- População/migração detalhadas = Assunto 088.
-- Posse ≠ propriedade.
-- Grilagem ≠ todo conflito agrário.
-- Organização rural antecede 1964.
-- MEB ≠ CEB ≠ CPT.
-- ASSEMA ≠ MIQCB.
-- MIQCB: articulação em 1991; nome consolidado em 1995.
-- Babaçu Livre: Lago do Junco, **1997**.
-- Regras municipais de 2002 não retroagem a 1997.
-- Direitos constitucionais ≠ efetivação automática.
+**1988:** direitos sociais, direitos originários indígenas (art. 231) e propriedade quilombola nas condições do art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr> ampliam fundamentos jurídicos. Reconhecimento não garante automaticamente titulação, demarcação, serviços ou igualdade efetiva. Essa distância entre direito e implementação é parte do período.
