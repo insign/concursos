@@ -178,7 +178,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H065 | `lei-organica-organizacao-mpc` | = | V | `d2b78d0bfe8914e9d9b093a289e51a89f3f278c1` |
 | H066 | `lei-organica-contas-controle` | = | V | `2c43e2f2d994cdc66865540feb8016364c04a89f` |
 | H067 | `lei-organica-processos` | = | V | `8e9f507ea35b61206afc716f210a0734a0be6867` |
-| H068 | `lei-organica-decisoes-recursos` | = | V | — |
+| H068 | `lei-organica-decisoes-recursos` | = | V | `eb0f0f2020d6347c79c0d9c0ff4a86c40db6acee` |
 | H069 | `organizacao-controle-externo` | = | V | — |
 | H070 | `unidades-administrativas-cargos-funcoes` | `unidades-cargos-funcoes` | V | — |
 | H071 | `tomada-contas-especial-in-50` | `tce-in-50-2017` | V | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H068: aula toma 6/7 como publicação/corte E1 (Tribunal informa 7/7). Páginas de inteiro teor dos Temas 1287, 642 e 899 não abriram no portal do STF; foram verificadas notícias oficiais e texto compilado da Lei, revalidar inteiro teor na futura M05 se necessário.
 
 - H067: aula confunde 6/7 (ato E1) com publicação/corte; Tribunal informa 7/7. Corrigir na revisão própria da aula.
 
