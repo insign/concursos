@@ -1,124 +1,26 @@
 # Invasão e expulsão dos holandeses do Maranhão
 
-## Linha-mestra
+**Chave:** conquistar **São Luís** em 1641 não era controlar rios, abastecimento e interior; a resistência que começou em 1642 tornou essa distância decisiva até 1644.
 
-$$
-1641\ (\text{conquista}) \rightarrow 1642\ (\text{sublevação}) \rightarrow 1643\ (\text{recuperação}) \rightarrow 1644\ (\text{expulsão})
-$$
+| Marco | Quem e onde | O que mudou |
+| --- | --- | --- |
+| **1641 — conquista** | Expedição da <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> toma São Luís; **Jan Cornelisz Lichthart** comanda a força naval, **Koin Anderson** integra o comando militar; **Bento Maciel Parente** é capturado. | A capital e o porto caem, sem domínio estável de toda a capitania. **Maurício de Nassau** governava o Brasil neerlandês, mas não comandou pessoalmente a frota. |
+| **1642 — sublevação** | Resistência aberta no **vale do Itapecuru**, com liderança inicial de **Antônio Muniz Barreiros Filho** e participação coletiva. | Disputa de propriedades, rios, caminhos e suprimentos fora do núcleo ocupado. |
+| **1643 — continuidade** | Muniz morre; **Antônio Teixeira de Melo** ganha destaque. | A guerra prossegue e posições neerlandesas são perdidas; ainda não é a expulsão. |
+| **1644 — expulsão** | Resistentes recuperam o Maranhão; o Conselho Ultramarino já registra o fato em julho e atribui serviços da reconquista a Teixeira de Melo. | Fim do domínio político-militar neerlandês e restabelecimento do governo português. **28 de fevereiro** é data tradicional da retirada final; retenha antes o ano e o evento. |
 
-## Quatro marcos
+## Por que veio uma frota neerlandesa após 1640?
 
-| Ano | O que lembrar |
-|---|---|
-| **1641** | <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> conquista São Luís |
-| **1642** | resistência organizada ganha força no Itapecuru |
-| **1643** | recuperação progressiva de áreas |
-| **1644** | fim do domínio neerlandês no Maranhão |
+**União Ibérica (1580–1640) → possessões portuguesas entram no conflito com as Províncias Unidas → <abbr title="Companhia Neerlandesa das Índias Ocidentais">WIC</abbr> (criada em 1621) usa a base de Pernambuco, ocupada desde 1630 → Maranhão em 1641.** A **Restauração portuguesa de 1640** não desfez imediatamente operações militares e interesses ultramarinos.
 
-## Contexto em uma linha
+O interesse não se resumia ao açúcar: **porto e fortificações, rotas do litoral norte e da Amazônia, rios, produção regional e alianças locais** importavam. Projeto de explorar não significa que toda exploração tenha se realizado. A companhia precisava sustentar guarnições e circular por redes fluviais que a posse da capital não garantia.
 
-**União Ibérica → guerra neerlandesa atinge domínios portugueses → WIC expande-se no Atlântico → Restauração portuguesa de 1640 não produz paz ultramarina instantânea.**
+**Povos indígenas:** neerlandeses e portugueses buscaram combatentes, canoas, guias, alimentos e informação. Comunidades negociavam alianças e não compunham um bloco homogêneo. A perda dessas redes agravava a fragilidade da ocupação.
 
-- WIC criada em **1621**.
-- Pernambuco sob ocupação neerlandesa desde **1630**.
-- Maranhão invadido **depois** da Restauração portuguesa de 1640.
-
-## Por que o Maranhão interessava
-
-**porto + fortificações + litoral norte + produtos regionais + rios/rotas + Amazônia + alianças locais**
-
-> Açúcar fazia parte do interesse, mas **não explica sozinho** a ocupação.
-
-## Personagens indispensáveis
-
-| Nome | Associação |
-|---|---|
-| **Jan Cornelisz Lichthart** | comando naval da conquista |
-| **Koin Anderson** | comando militar associado à operação |
-| **Bento Maciel Parente** | governador português capturado em 1641 |
-| **Antônio Muniz Barreiros Filho** | liderança inicial da resistência de 1642 |
-| **Antônio Teixeira de Melo** | fase decisiva da recuperação e expulsão |
-
-### Pegadinha de Nassau
-
-**Maurício de Nassau governava o Brasil neerlandês, mas não comandou pessoalmente a frota que tomou São Luís.**
-
-## 1641 — conquista
-
-- São Luís é tomada pela WIC.
-- Ano-chave: **1641**.
-- Rijksmuseum registra bombardeio/conquista em **30 out. 1641**; outras fontes registram etapas em novembro.
-- Se o enunciado não indicar ato ou fonte, retenha o **ano**, não uma microdata.
-- Vitória inicial ≠ domínio estável.
-
-## Ocupação: onde estava a fragilidade
-
-A WIC dependia de:
-
-**Pernambuco + navios + suprimentos + guarnições dispersas + rios/caminhos + cooperação local**
-
-Logo, controlar São Luís não significava controlar toda a capitania.
-
-## Povos indígenas
-
-- Ambos os lados buscaram alianças indígenas.
-- Funções: combate, canoas, guias, abastecimento, tradução e informação.
-- Alianças podiam mudar.
-- “Os indígenas” ≠ bloco político único.
-
-## 1642 — sublevação
-
-- Espaço central: **vale do Itapecuru**.
-- Ano-chave: **1642**.
-- Liderança inicial: **Antônio Muniz Barreiros Filho**.
-- Resistência = movimento coletivo; não obra de um único chefe.
-
-## 1643 × 1644
-
-| **1643** | **1644** |
-|---|---|
-| recuperação progressiva | expulsão final |
-| resistência ganha iniciativa | domínio neerlandês termina |
-| ocupantes perdem áreas | soberania portuguesa é restabelecida |
-
-**Antônio Teixeira de Melo** = nome-chave da fase final.
-
-Data tradicional da retirada: **28 fev. 1644**. Priorize o ano e o sentido histórico.
-
-## Maranhão × Pernambuco
+## Distinga o Maranhão de Pernambuco
 
 | Maranhão | Pernambuco |
-|---|---|
-| invasão: **1641** | ocupação desde **1630** |
-| sublevação: **1642** | Insurreição: **1645** |
-| expulsão: **1644** | fim do domínio neerlandês: **1654** |
+| --- | --- |
+| Tomada **1641** → resistência **1642** → expulsão **1644** | Ocupação desde **1630** → Insurreição **1645** → fim do domínio **1654** |
 
-> A resistência maranhense **precede** a Insurreição Pernambucana.
-
-## Consequências
-
-- domínio português restabelecido;
-- reorganização de governo e defesa;
-- expansão setentrional da WIC limitada;
-- conexão Maranhão–Grão-Pará preservada sob domínio português.
-
-## Vocabulário útil
-
-- **Holandês:** termo consagrado no edital.
-- **Neerlandês:** termo mais abrangente para as Províncias Unidas.
-- **WIC:** companhia privilegiada; não é sinônimo de toda a sociedade neerlandesa.
-- **Restauração:** recuperação do domínio português.
-- **Expulsão:** fim do domínio político-militar neerlandês no Maranhão.
-
-## Pegadinhas finais
-
-- 1640 = Restauração portuguesa; **1641 = invasão do Maranhão**.
-- Nassau ≠ comandante presencial do ataque.
-- WIC ≠ toda a população neerlandesa.
-- Interesse neerlandês ≠ somente açúcar.
-- Tomada de São Luís ≠ controle estável de toda a capitania.
-- Itapecuru = núcleo importante da resistência.
-- Antônio Muniz = fase inicial; Antônio Teixeira de Melo = fase decisiva.
-- 1643 ≠ 1644.
-- Expulsão do Maranhão ≠ Insurreição Pernambucana.
-- Povos indígenas = agentes com alianças diversas.
+A resistência maranhense **precede** a Insurreição Pernambucana. Uma gravura neerlandesa liga bombardeio e conquista a **30/10/1641**, enquanto narrativas datam etapas em novembro; sem indicação do ato específico, **1641** é o marco seguro da tomada.
