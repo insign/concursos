@@ -1,146 +1,51 @@
 # Cultura maranhense
 
-## Mapa mental
+## Identifique a prática por sua marca
 
-**manifestação → território → marca → reconhecimento**
-
-Cultura maranhense = diversidade + conflito + recriação. Cultura popular é viva; mudança não significa automaticamente perda de identidade.
-
-## Manifestações: associação rápida
-
-| Manifestação | Gatilho de prova |
+| Manifestação | Reconhecimento rápido |
 |---|---|
-| **Bumba Meu Boi** | ciclo, sotaques, Catirina/Francisco, miolo, Cazumbá |
-| **Tambor de Crioula** | coreiras + tambores + punga/umbigada |
-| **Tambor de Mina** | religião; voduns/orixás/encantados; terreiros |
-| **Terecô** | Codó/Cocais; encantaria; não é sinônimo de Mina |
-| **Divino** | corte simbólica + bandeira + mastro + **caixeiras** |
-| **Cacuriá** | ligação histórica com Divino; caixas + pares + humor |
-| **Carnaval** | fofão, blocos, escolas e grupos tradicionais |
-| **Reggae** | radiolas + DJs + agarradinho + clubes |
+| **Bumba Meu Boi** | ciclo festivo, auto com Catirina e Francisco em versões recorrentes; **miolo** move a armação; sotaque é modo de tocar, dançar e brincar, não pronúncia |
+| **Tambor de Crioula** | dança afro-brasileira de **coreiras** (dançarinas), três tambores e **punga** (gesto de convite/troca na roda); devoções e usos festivos variados |
+| **Tambor de Mina** | religião afro-brasileira; casas, voduns, orixás e encantados conforme a tradição; Casa das Minas (tradição jeje, ligada ao culto de voduns) e Casa de Nagô têm trajetórias próprias |
+| **Terecô** | tradição religiosa associada sobretudo a Codó/Cocais e à **encantaria** (relações com entidades chamadas encantados); dialoga com Mina sem ser sinônimo |
+| **Divino Espírito Santo** | corte simbólica, bandeira, mastro e **caixeiras** (mulheres que executam repertório ritual nas caixas); Alcântara é referência, não local exclusivo |
+| **Cacuriá** | dança autônoma historicamente ligada aos momentos recreativos do Divino; caixas, pares, humor; Dona Teté teve papel na popularização |
+| **Carnaval de São Luís** | blocos, escolas, tribos e **fofão** mascarado; este não é o Cazumbá do boi |
+| **Reggae de São Luís** | **radiolas** (grandes sistemas de som), clubes e dança em pares, o agarradinho |
 
-## Bumba Meu Boi
+O boi percorre **ensaios → batismo → brincadas → morte ritual**, em calendário variável: “morte” encerra a temporada, sem dia fixo. O auto de Catirina e Francisco tem versões; personagens indígenas dramatizados não descrevem povos reais. Os cinco **sotaques didáticos**, sem esgotar variações locais, são:
 
-### Ciclo
-
-**ensaios → batismo → brincadas → morte**
-
-Calendário varia entre grupos.
-
-### Personagens
-
-- Catirina deseja língua do boi;
-- Pai Francisco/Chico atende ao desejo;
-- **miolo** movimenta a armação;
-- **Cazumbá**: forte associação com Baixada.
-
-Auto possui variantes.
-
-### Sotaques
-
-| Sotaque | Associação |
+| Sotaque | Sinal distintivo |
 |---|---|
-| **Matraca/Ilha** | matracas + pandeirões + tambor-onça |
-| **Zabumba** | Guimarães/litoral ocidental + zabumbas |
-| **Baixada/Pindaré** | andamento cadenciado + Cazumbá |
-| **Costa de Mão** | Cururupu + pandeiro tocado com costas das mãos |
-| **Orquestra** | Munim + sopros/cordas + percussão |
+| Matraca / Ilha | matracas, pandeirões, tambor-onça |
+| Zabumba | zabumbas; Guimarães e litoral ocidental |
+| Baixada / Pindaré | cadência e Cazumbá |
+| Costa de Mão | pandeiro tocado com as costas da mão; Cururupu |
+| Orquestra | sopros e cordas com percussão; região do Munim |
 
-**Sotaque = modo de brincar**, não pronúncia.
+Também reconheça **Lelê** (dança em pares), **São Gonçalo** (dança de devoção/promessa) e as diferenças de contexto entre práticas que compartilham tambores. Religiosidade de uma roda de Crioula pode variar; nome semelhante não a transforma em Tambor de Mina.
 
-Cinco sotaques = síntese didática, não diversidade exaustiva.
+## Que tipo de patrimônio?
 
-### Títulos
-
-- <abbr title="Instituto do Patrimônio Histórico e Artístico Nacional">Iphan</abbr>: **2011**, Livro das Celebrações;
-- <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr>: **2019**;
-- revalidação nacional: aprovada pelo Conselho Consultivo em **25–26/03/2025**; termo formalizado em setembro.
-
-Revalidação ≠ novo registro ≠ nova inscrição UNESCO.
-
-## Crioula × Mina × Terecô
-
-| | Natureza | Chave |
-|---|---|---|
-| **Tambor de Crioula** | forma de expressão/dança | punga, coreiras; Iphan 2007; revalidado 2021 |
-| **Tambor de Mina** | religião afro-brasileira | voduns, orixás, encantados, transe |
-| **Terecô** | tradição religiosa/encantaria | Codó e Cocais; dialoga com Mina, mas é distinto |
-
-Casa das Minas = referência jeje. Casa de Nagô = outra casa matriz, não filial.
-
-## Divino e Cacuriá
-
-**Divino:** Alcântara é destaque, não exclusividade; caixeiras executam repertório ritual.
-
-**Cacuriá:** dança autônoma ligada historicamente ao momento recreativo das festas do Divino; Dona Teté = popularização, não “invenção individual”.
-
-## Carnaval × boi
-
-- **fofão** → carnaval de São Luís;
-- **Cazumbá** → sobretudo Bumba Meu Boi da Baixada.
-
-Fofão ≠ Cazumbá.
-
-## Reggae
-
-- expansão local: décadas de 1970–1980;
-- radiolas, DJs, clubes, dança em pares;
-- Lei **14.668/2023**: São Luís = **Capital Nacional do Reggae**;
-- UNESCO 2018 = reggae da **Jamaica**.
-
-Capital Nacional ≠ Iphan ≠ UNESCO.
-
-## Patrimônio: só o essencial
-
-| Referência | Marco |
+| Instrumento | Objeto e exemplo |
 |---|---|
-| **Alcântara** | tombamento federal **1948**; não é sítio UNESCO autônomo |
-| **Centro Histórico de São Luís** | tombamento **1974**; UNESCO **1997** |
-| **Tambor de Crioula** | registro Iphan **2007**; revalidação **2021** |
-| **Bumba Meu Boi** | Iphan **2011**; UNESCO **2019**; revalidação **2025** |
+| **tombamento** | protege bem material: conjunto histórico de **Alcântara, 1948**; Centro Histórico de **São Luís, 1974** |
+| **registro** pelo <abbr title="Instituto do Patrimônio Histórico e Artístico Nacional">Iphan</abbr> | reconhece bem imaterial e orienta salvaguarda (continuidade e transmissão): Tambor de Crioula, **2007**; Bumba Meu Boi, **2011** |
+| inscrição da <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> | reconhecimento internacional distinto: Centro Histórico de São Luís, **1997**, e Bumba Meu Boi, **2019** |
+| título por lei | Lei 14.668/2023: São Luís **Capital Nacional do Reggae**; não é registro ou inscrição internacional |
 
-- tombamento → patrimônio material;
-- registro → patrimônio imaterial + salvaguarda;
-- UNESCO → reconhecimento internacional próprio;
-- título legal → não vira automaticamente tombamento ou registro.
+A revalidação do registro nacional da Crioula em **2021** e do boi em **2025** confirma a continuidade do reconhecimento, sem criar primeiro registro novo. Alcântara não constitui sítio autônomo da Lista do Patrimônio Mundial. A inscrição de São Luís refere-se ao tecido urbano de arquitetura luso-brasileira; a história de fundação francesa não muda esse objeto. A <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> reconheceu em 2018 o **reggae da Jamaica**, não especificamente o circuito ludovicense.
 
-## Literatura e artes: pares essenciais
+## Nomes, obras e saberes em pares úteis
 
-| Referência | Chave |
+| Referência | Associação para recuperar |
 |---|---|
-| Gonçalves Dias | “Canção do Exílio”, “I-Juca-Pirama”, *Os Timbiras* |
-| Maria Firmina dos Reis | *Úrsula* (1859), autoria feminina negra e crítica à escravidão |
-| Sousândrade | *O Guesa* |
-| Aluísio Azevedo | Naturalismo; *O Mulato*, *O Cortiço* |
-| Artur Azevedo | teatro; *A Capital Federal*, *O Mambembe* |
-| Josué Montello | *Os Tambores de São Luís* |
-| Ferreira Gullar | neoconcretismo; *Poema Sujo* |
-| João do Vale | “Carcará” |
-| Alcione | samba |
-| Tribo de Jah | reggae |
+| Gonçalves Dias | indianismo romântico (representação literária idealizada de indígenas); “Canção do Exílio”, “I-Juca-Pirama” |
+| Maria Firmina dos Reis | *Úrsula* (1859), autoria negra feminina e perspectiva antiescravista |
+| Sousândrade | *O Guesa*, experimentação poética |
+| Aluísio Azevedo / Artur Azevedo | *O Mulato* e *O Cortiço* / teatro de costumes |
+| Josué Montello / Ferreira Gullar | *Os Tambores de São Luís* / *Poema Sujo* e neoconcretismo (movimento artístico brasileiro de reação à arte concreta) |
+| João do Vale / Alcione / Tribo de Jah | “Carcará” / samba / reggae |
+| **Dila**, Dileusa Dinis Rodrigues | artes visuais do cotidiano e das festas e paisagens urbanas e rurais nordestinas |
 
-“Atenas Brasileira” = circuito letrado, não resumo de toda a cultura.
-
-## Culinária e artesanato
-
-- arroz de cuxá → vinagreira + camarão seco + gergelim, com variações;
-- juçara → uso local ligado ao fruto/preparação de açaí;
-- tiquira → **destilado de mandioca**;
-- doce de espécie → Alcântara;
-- artesanato → fibras, cerâmica, rendas, bordados, máscaras e indumentária do boi.
-
-## Pegadinhas finais
-
-1. manifestação popular ≠ prática congelada;
-2. personagem do folguedo ≠ povo real;
-3. Crioula ≠ Mina;
-4. Terecô ≠ simples sinônimo de Mina;
-5. Divino ≠ exclusivo de Alcântara;
-6. cinco sotaques ≠ todas as variações possíveis;
-7. Cazumbá ≠ todos os bois;
-8. fofão ≠ Cazumbá;
-9. São Luís UNESCO material; Bumba UNESCO imaterial;
-10. revalidação do Bumba em 2025 ≠ novo título;
-11. Capital Nacional do Reggae ≠ UNESCO;
-12. “Atenas Brasileira” ≠ toda a cultura maranhense;
-13. tiquira ≠ destilado de cana.
+“Atenas Brasileira” remete ao prestígio do circuito letrado de São Luís, sem definir toda a cultura do estado. Na culinária, **arroz de cuxá** usa vinagreira, camarão seco e gergelim com variações; **juçara** designa localmente fruto/preparação de açaí; **tiquira** é destilado de mandioca, e doce de espécie remete a Alcântara. Fibras, cerâmica, rendas e adereços do boi carregam trabalho e técnicas transmitidas. Para resolver, use **natureza da prática → marca → território associado → instrumento de reconhecimento**; associação territorial não significa exclusividade.
