@@ -1,5 +1,6 @@
 - Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 82/2025](https://diario.apps.tcema.tc.br/publicacao/pdf/9406). Diário Oficial Eletrônico, edição nº 2921/2025, publicada em 15 dez. 2025, p. 2-5.
-- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true). Lei Orgânica do TCE/MA; arts. 44, 50, 51 e 52.
-- Brasil. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 163-A.
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true). Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>; artigos 44, 50, 51 e 52.
+- Brasil. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Artigo 163-A.
 - Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 84/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9472). Diário Oficial Eletrônico, edição nº 2987/2026, publicada em 8 abr. 2026, p. 11-15.
 - Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Item 13.32 e conteúdo programático de Legislação Específica.
+- Tribunal de Contas do Estado do Maranhão. [TCE publica edital de concurso público](https://www.tcema.tc.br/index.php/noticias-concurso-tcema). Notícia de 8 jul. 2026 que informa publicação do edital em 7 jul. 2026.

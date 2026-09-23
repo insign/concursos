@@ -1,198 +1,51 @@
 # <abbr title="Instrução Normativa">IN</abbr> <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 82/2025
 
-## Recorte
+## Recorte e relógios
 
-- Edital: **6 jul. 2026**.
-- Cobrança expressa: **IN nº 82/2025**.
-- Vigência da IN: **15 dez. 2025**.
-- Estrutura: **10 artigos · 6 capítulos · sem anexos**.
-- Até o edital: nenhuma alteração textual formal localizada.
-- IN nº 84/2026: ato **correlato**, não transportar seus requisitos próprios para a literalidade da IN nº 82.
+O edital nº 1 é de **6 jul. 2026**, publicado em **7 jul. 2026**; cobra expressamente a norma nº 82/2025. Ela foi aprovada em **10 dez. 2025**, publicada e posta em vigor em **15 dez. 2025**. A implementação integral das medidas foi fixada para **1º jan. 2026** (artigo 8º); a Secretaria de Fiscalização deveria **propor normas complementares em 30 dias** (artigo 9º). O prazo do plano de ação do artigo 3º é aquele **fixado pelo Tribunal**, sem número de dias na norma.
 
-## Fórmula mental
+**Fronteira:** a norma nº 84/2026 trata de requisitos correlatos de certidão para transferências especiais; seus requisitos próprios não são texto da norma nº 82/2025.
 
-$$
-\text{origem} \rightarrow \text{emenda} \rightarrow \text{executor/beneficiário} \rightarrow \text{despesa} \rightarrow \text{beneficiário final}
-$$
+## Percurso do recurso: o que verificar?
 
-- **Transparência:** permite ver.
-- **Rastreabilidade:** permite ligar as etapas e reconstruir o percurso.
-
-## Mapa dos artigos
-
-| Art. | Núcleo |
+| Pergunta | Regra de recuperação |
 |---|---|
-| 1º | alcance + princípios |
-| 2º | competências do TCE/MA |
-| 3º | plano de ação |
-| 4º | divulgação prévia |
-| 5º | sistemas + dados abertos |
-| 6º | fiscalização + possível <abbr title="Tomada de contas especial">TCE</abbr> |
-| 7º | <abbr title="Tribunal de Contas da União">TCU</abbr> × TCE/MA |
-| 8º | implementação até 1º jan. 2026 |
-| 9º | <abbr title="Secretaria de Fiscalização">Sefis</abbr>: 30 dias |
-| 10 | vigência na publicação |
+| Qual recurso? | Emendas **estaduais e municipais**, inclusive transferências voluntárias **delas decorrentes** (artigo 1º); não são todas as transferências voluntárias. |
+| Quem e por onde? | Do parlamentar e ato aprovador ao executor, despesa e **beneficiário final**. Transparência permite consultar; **rastreabilidade** permite reconstruir a ligação entre as etapas. |
+| Qual controle? | Legalidade, impessoalidade, moralidade, publicidade e eficiência orientam fiscalização, acompanhamento e julgamento. |
 
-## Art. 1º — alcance
+O Tribunal fiscaliza gestores e **entidades privadas sem fins lucrativos** que recebam esses recursos; acompanha a transparência dos órgãos sujeitos à sua fiscalização (jurisdicionados), inclusive eventual integração de sistemas; examina contas intermediárias ou de passagem (trânsito por conta antes do destino) e saques em espécie. São **sinais a verificar**, não prova automática de desvio. Confere também o registro de receitas e despesas conforme as normas nacionais de contabilidade pública e o <abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr>, com fontes, classificações e códigos que identifiquem a emenda, e pode expedir atos de padronização (artigo 2º).
 
-**Emendas estaduais + municipais + transferências voluntárias delas decorrentes.**
+## Antes e durante a execução: dois planos, nove campos
 
-Não = toda transferência voluntária.
-
-Princípios expressos:
-
-**L I M P E**
-
-- legalidade;
-- impessoalidade;
-- moralidade;
-- publicidade;
-- eficiência.
-
-## Art. 2º — 6 competências
-
-1. Fiscalizar gestores **da origem ao beneficiário final**.
-2. Fiscalizar **entidades privadas sem fins lucrativos** beneficiárias.
-3. Acompanhar transparência, inclusive eventual integração de sistemas.
-4. Verificar **contas intermediárias, contas de passagem e saques em espécie**.
-5. Verificar receitas/despesas conforme normas nacionais e **<abbr title="Plano de Contas Aplicado ao Setor Público">PCASP</abbr>**, com fontes, classificações e códigos.
-6. Expedir atos complementares de padronização.
-
-**Prática de risco ≠ ilícito automaticamente comprovado.**
-
-## Art. 3º — plano de ação
-
-Prazo: **o TCE/MA fixa**.
-
-Conteúdo mínimo:
-
-- diagnóstico;
-- cronograma de correção/melhoria;
-- responsáveis;
-- integração com planejamento, orçamento, finanças e controle interno.
-
-### Não confunda
-
-| Plano de ação | Plano de trabalho |
+| Plano de ação (artigo 3º) | Plano de trabalho (artigo 4º) |
 |---|---|
-| art. 3º | art. 4º |
-| adequação institucional | objeto da emenda |
-| transparência/rastreabilidade | detalhamento + metas + finalidade |
+| Órgão ou entidade fiscalizada apresenta, no prazo fixado pelo Tribunal, **diagnóstico**, **cronograma de correção ou melhoria**, **responsáveis** e previsão de **integração** com planejamento, orçamento, finanças e controle interno. | Integra o **objeto da despesa** divulgado por emenda, com detalhamento, metas e finalidade. Não é o plano institucional de adequação. |
 
-## Art. 4º — transparência antes da execução
+O Tribunal verifica divulgação eletrônica pública **antes da execução orçamentária e financeira**. Reconstrua os nove campos do parágrafo único do artigo 4º:
 
-**Antes da execução orçamentária e financeira**, em meio eletrônico público:
-
-1. parlamentar proponente;
-2. código único + ato que aprovou;
-3. objeto + plano de trabalho + metas + finalidade;
-4. valor;
-5. executor/beneficiário;
-6. localidade;
-7. cronograma físico e financeiro;
-8. empenho, liquidação, ordem bancária, notas fiscais, medições, recibos e relatórios;
-9. instrumentos jurídicos + processo administrativo.
-
-### Dois momentos
-
-- **Planejamento:** publicidade prévia.
-- **Execução:** atualização dos documentos à medida que surgem.
-
-Publicar autor, objeto e valor só depois do primeiro pagamento = **não atende à anterioridade**.
-
-## Art. 5º — sistemas e dados abertos
-
-Destinatários: **Executivo Estadual + Executivos Municipais**.
-
-Devem:
-
-- adaptar sistemas;
-- integrar bases, inclusive **<abbr title="Plataforma de transferências e parcerias da União">Transferegov</abbr>**;
-- garantir transparência **completa + gratuita + tempestiva + aberta**;
-- manter plataforma de dados abertos;
-- designar unidade de governança.
-
-Plataforma aberta = **consulta + download + reutilização**.
-
-Cooperação técnica: **facultativa** (`poderão`).
-
-Resultado de transparência/rastreabilidade: **obrigatório**.
-
-Execução de emendas em 2026 → implementação integral do art. 5º como **condição prévia**.
-
-## Art. 6º — fiscalização e TCE
-
-Fiscalização abrange:
-
-- receitas transferidas;
-- execução orçamentária;
-- execução financeira;
-- atos administrativos dos beneficiários.
-
-Base procedimental: arts. **44, 50 e 51** da Lei nº 8.258/2005.
-
-### Conversão em TCE
-
-O Tribunal **poderá** converter quando houver:
-
-1. omissão no dever de prestar contas;
-2. não comprovação da aplicação dos recursos;
-3. indícios que exijam apuração individualizada de responsabilidades.
-
-**Poderá ≠ conversão automática por qualquer falha.**
-
-Após conversão:
-
-- autoridade beneficiária é comunicada;
-- deve assegurar instrução regular;
-- eventual recomposição do erário;
-- podem ser incluídos solidários;
-- inspeções, auditorias especiais e cautelares.
-
-## Art. 7º — TCU × TCE/MA
-
-| TCU | TCE/MA |
+| Eixo | Dados exigidos |
 |---|---|
-| julga prestação de contas de **emenda federal individual** | fiscaliza e analisa **execução local** pelos jurisdicionados |
+| Autoria e identificação (I–II) | Parlamentar proponente; **código único da emenda** vinculado ao ato normativo que a aprovou. |
+| Destino e planejamento (III–VII) | Objeto, plano de trabalho detalhado, metas e finalidade; valor alocado; órgão ou entidade executora/beneficiária; localidade beneficiada; cronograma físico e financeiro. |
+| Execução (VIII) | Dados completos: **empenho** (compromisso da despesa no orçamento), **liquidação** (verificação do direito ao pagamento), ordem bancária, notas fiscais, medições, recibos e relatórios. |
+| Suporte jurídico (IX) | Instrumentos celebrados para executar a emenda e número do processo administrativo correspondente. |
 
-Destaque: **<abbr title="Rede Integrar de Políticas Públicas Descentralizadas">Rede Integrar</abbr>**.
+**Leitura para conciliar o caput com o inciso VIII:** os dados de autoria, objeto, valor e planejamento devem estar públicos previamente; documentos produzidos ao executar a despesa são incorporados conforme surgem. A norma não diz que todos os comprovantes futuros já precisam existir antes da execução.
 
-Origem federal não cria zona sem fiscalização estadual.
+## Sistemas: deveres e condição de início (artigo 5º)
 
-## Três marcos que não podem ser trocados
+O **Executivo estadual e os Executivos municipais** devem adaptar sistemas de fiscalização, orçamento e finanças para cadastrar, identificar, registrar, acompanhar e rastrear emendas; viabilizar integração com bases federais, estaduais e municipais, inclusive a plataforma Transferegov, com consistência e **interoperabilidade** (troca compatível de dados); assegurar transparência ativa completa, gratuita, tempestiva e em formato aberto. Cada Executivo deve manter plataforma que permita **consulta, download e reutilização** e designar unidade responsável pela governança das informações.
 
-| Regra | Marco |
+Instrumentos de **cooperação técnica** para compartilhar soluções são facultativos; o atendimento dos deveres acima não é. A implementação **integral** do artigo 5º é condição **prévia** ao início da execução das emendas no exercício de **2026** (parágrafo 4º). Documento apenas visível, sem dados reutilizáveis, não satisfaz por si só essa exigência de formato aberto.
+
+## Fiscalização, conversão e competências (artigos 6º–7º)
+
+O Tribunal aprecia a fiscalização das emendas estaduais e municipais, independentemente da modalidade, sobre regularidade das receitas transferidas, execução orçamentária e financeira e atos administrativos dos beneficiários. Aplicam-se os instrumentos dos artigos **44, 50 e 51** da Lei nº 8.258/2005 e as normas gerais e adicionais pertinentes à instrução e ao julgamento.
+
+| Se ocorrer... | Decisão e efeito |
 |---|---|
-| vigência | **15 dez. 2025** |
-| implementação integral | **1º jan. 2026** |
-| proposta da Sefis | **30 dias** |
+| Omissão na prestação de contas; aplicação dos recursos não comprovada; **ou** indícios de irregularidade que requeiram apuração individual de responsáveis. | O Tribunal **poderá** converter a fiscalização em **tomada de contas especial** (procedimento para apurar responsabilidade e possível dano), conforme o artigo 52 da lei orgânica. Não há conversão automática por qualquer falha. |
+| Conversão determinada. | Comunica-se a autoridade do órgão ou entidade beneficiária, que deve garantir a instrução regular dos autos e eventual recomposição do erário. O Tribunal pode incluir **responsáveis solidários** (responsabilidade conjunta), ordenar inspeções ou auditorias especiais e adotar **cautelares** (medidas provisórias de proteção), quando necessário. |
 
-**Plano de ação do art. 3º não tem prazo numérico fixo na IN.**
-
-## Art. 9º — os 30 dias
-
-Quem? **Secretaria de Fiscalização**.
-
-Para quê? Propor edição/alteração de INs complementares sobre:
-
-- fluxos;
-- formulários;
-- roteiros;
-- listas de verificação.
-
-## Pegadinhas finais
-
-- IN nº 82 ≠ apenas <abbr title="transferências especiais">emendas PIX</abbr>.
-- Transferência voluntária só entra quando decorrer da emenda abrangida.
-- Entidade privada sem fins lucrativos também é fiscalizada.
-- Plano de ação ≠ plano de trabalho.
-- 30 dias ≠ prazo do plano de ação.
-- Transparência prévia ≠ esperar o encerramento da despesa.
-- Conta de passagem ≠ prova automática de crime.
-- Cooperação técnica facultativa ≠ obrigações tecnológicas facultativas.
-- <abbr title="Portable Document Format">PDF</abbr> apenas visível ≠ necessariamente dado aberto reutilizável.
-- Conversão em TCE ≠ automática.
-- TCU julga a conta federal individual; TCE/MA fiscaliza a execução local.
-- 10 dez. 2025 = data da IN; **15 dez. 2025 = vigência**.
-- 1º jan. 2026 = implementação integral, não início de vigência.
-- IN nº 84/2026 = correlata; não ampliar a literalidade da IN nº 82 com requisitos próprios de outro ato.
+**Emenda federal individual:** o <abbr title="Tribunal de Contas da União">TCU</abbr> julga sua prestação de contas; o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> ainda fiscaliza e analisa a **execução local** pelos entes sob sua jurisdição, especialmente nas ações da Rede Integrar. A origem federal não afasta esse controle local.
