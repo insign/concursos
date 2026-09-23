@@ -1,144 +1,46 @@
 # <abbr title="Processo Eletrônico Nacional">PEN</abbr> e <abbr title="Sistema Eletrônico de Informações">SEI</abbr>
 
-## Regra de ouro
+## Descubra a função antes da ferramenta
 
-**PEN ≠ SEI.**
+| Etapa | Solução e efeito |
+|---|---|
+| Ecossistema | <abbr title="Processo Eletrônico Nacional">PEN</abbr>: soluções e serviços para processo administrativo eletrônico; **não** é um software único. |
+| Expansão | <abbr title="Programa Nacional de Processo Eletrônico">ProPEN</abbr> (Decreto nº 11.946/2024): programa de apoio à adoção por Estados, Distrito Federal e Municípios; não se confunde com o <abbr title="Processo Eletrônico Nacional">PEN</abbr>. |
+| Entrada externa | Protocolo gov.br: envio de requerimentos e documentos pelo cidadão aos órgãos participantes. |
+| Gestão interna | <abbr title="Sistema Eletrônico de Informações">SEI</abbr>: sistema criado pelo <abbr title="Tribunal Regional Federal da 4ª Região">TRF4</abbr> para produzir, assinar, organizar, tramitar e acompanhar processos e documentos. |
+| Expedição entre sistemas | Tramita gov.br: troca de processo/documento avulso entre **sistemas de processo eletrônico distintos**, sem exigir <abbr title="Sistema Eletrônico de Informações">SEI</abbr> em ambas as pontas. |
+| Consulta e identificação | Protocolo Integrado mostra dados/histórico, **não** a íntegra automática; <abbr title="Número Único de Protocolo">NUP</abbr> identifica processo ou documento, **não** assina, tramita nem define acesso. |
 
-- **PEN:** infraestrutura pública de soluções e serviços.
-- **SEI:** sistema de processo administrativo eletrônico integrante do PEN.
+**Entrada → gestão → expedição → consulta → identificação.** Versão do sistema, módulo e configuração local não viram regra universal; tampouco se deve afirmar adoção do <abbr title="Sistema Eletrônico de Informações">SEI</abbr> pelo <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> sem ato próprio.
 
-Corte: **10/08/2026**. Em 2026, a linha **SEI 5** já integra o ambiente oficial do PEN; a versão 5.0.4 estava disponível desde 29/04/2026.
+## Norma federal: suporte eletrônico, mesmos requisitos jurídicos
 
-## Mapa funcional
+O Decreto nº 8.539/2015 aplica-se à administração pública federal **direta, autárquica e fundacional**, sem impor seus comandos automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Nesse âmbito, o processo usa meio eletrônico como regra, **salvo inviabilidade ou indisponibilidade cujo prolongamento cause dano relevante à celeridade**; o ato excepcional em papel é incorporado depois. Sistemas devem verificar autoria/integridade e usar programas de código aberto **preferencialmente**, sem exigência de um software específico.
 
-| Se a questão disser... | Pense em... |
-| --- | --- |
-| infraestrutura de processo eletrônico | PEN |
-| sistema criado pelo <abbr title="Tribunal Regional Federal da 4ª Região">TRF4</abbr> | SEI |
-| expansão das soluções | <abbr title="Programa Nacional de Processo Eletrônico">ProPEN</abbr> |
-| expedição entre sistemas | Tramita GOV.BR |
-| entrada de requerimento do cidadão | Protocolo GOV.BR |
-| consulta de dados de tramitação | Protocolo Integrado |
-| identificação padronizada | <abbr title="Número Único de Protocolo">NUP</abbr> |
+| Evento federal | Critério recuperável |
+|---|---|
+| Ato protocolado | Realizado **no dia e na hora do recebimento pelo sistema**, com recibo eletrônico; abertura posterior pelo servidor não altera o marco. |
+| Último dia do prazo | Salvo regra contrária, até **23h59, horário oficial de Brasília**. Indisponibilidade técnica do sistema prorroga até 23h59 do **primeiro dia útil seguinte à resolução**. |
+| Documento nato-digital | Nasceu eletrônico; assinado segundo norma aplicável, pode ser **original**. |
+| Documento digitalizado enviado pelo interessado | Representação de papel; em regra, **cópia simples**, não original só por digitalizar. Conferência pela administração de original em papel pode gerar cópia autenticada administrativamente nas condições do decreto. |
 
-**Entrada → Protocolo GOV.BR**  
-**Gestão → SEI**  
-**Expedição → Tramita GOV.BR**  
-**Consulta → Protocolo Integrado**  
-**Identificação → NUP**
+**Assinatura eletrônica** e **controle de acesso** são atos diferentes. Nem todo documento exige certificado da <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>; autoria, integridade, risco e norma do ato determinam o nível aplicável.
 
-## Decreto nº 8.539/2015
+## No <abbr title="Sistema Eletrônico de Informações">SEI</abbr>: qual operação produz qual efeito?
 
-Âmbito: administração pública federal **direta, autárquica e fundacional**.
+| Ação | Efeito; erro a evitar |
+|---|---|
+| Atribuir | Distribui trabalho **na unidade**; não cria propriedade exclusiva nem transfere competência. |
+| Enviar | Tramita a outra unidade; não conclui automaticamente o trabalho no destino. |
+| Concluir na unidade | Encerra a providência **local**; não apaga, arquiva definitivamente ou fecha os autos em todas as unidades. Reabrir só para nova atuação, não para mera consulta. |
+| Relacionar × anexar | Relacionar mantém autos autônomos com vínculo referencial; anexar integra processos de forma mais forte. |
+| Sobrestar | Suspende andamento por decisão formal; não equivale a concluir. |
+| Acompanhamento, anotação, ciência e blocos | Monitoram ou organizam; **não** enviam o processo. Ciência registra conhecimento, não decisão; bloco de assinatura disponibiliza documentos, sem tramitar os autos. |
 
-| Tema | Regra curta |
-| --- | --- |
-| meio eletrônico | regra geral do processo abrangido |
-| exceção | inviabilidade ou indisponibilidade relevante |
-| recebimento | dia e hora registrados pelo sistema |
-| prazo | sem regra especial, até 23h59 do último dia |
-| nato-digital | pode ser original se corretamente assinado |
-| digitalizado | não vira original automaticamente |
+Documento **interno** é produzido no editor do <abbr title="Sistema Eletrônico de Informações">SEI</abbr>; **externo**, fora dele e depois incluído. Externo pode ser nato-digital ou digitalizado. Usuário externo recebe acesso ou assinatura **delimitados**; cadastro externo não lhe dá perfil interno.
 
-Não generalize esse decreto a todo ente ou Poder.
+## Acesso e gestão documental
 
-## Documento
+**Público** no <abbr title="Sistema Eletrônico de Informações">SEI</abbr> indica ausência de restrição cadastrada, **não publicação na internet**. **Restrito** pede hipótese jurídica e acesso limitado; **sigiloso** usa credencial/configuração específica, sem corresponder automaticamente aos graus reservado, secreto e ultrassecreto da <abbr title="Lei de Acesso à Informação">LAI</abbr>. A orientação federal afasta do <abbr title="Sistema Eletrônico de Informações">SEI</abbr> informação formalmente classificada nesses graus. O sistema aplica controles; não cria a base legal do sigilo.
 
-| Tipo | Origem |
-| --- | --- |
-| interno | produzido no editor do SEI |
-| externo | produzido/recebido fora do editor |
-| nato-digital | nasceu eletrônico |
-| digitalizado | veio de documento não digital |
-
-## Operações essenciais
-
-| Operação | O que faz | O que NÃO faz |
-| --- | --- | --- |
-| atribuir | distribui trabalho a usuário | não cria propriedade exclusiva |
-| enviar | tramita para unidade(s) | não conclui automaticamente na destinatária |
-| concluir | encerra providência local | não elimina nem arquiva globalmente |
-| reabrir | recoloca em trabalho para nova ação | consulta simples não exige reabertura |
-| acesso externo | libera conteúdo delimitado | não transforma externo em interno |
-
-### Sequência mental
-
-**atribuir → organizar**  
-**enviar → tramitar**  
-**concluir → terminar trabalho local**  
-**reabrir → voltar a atuar**
-
-## Acesso
-
-| Nível | Regra |
-| --- | --- |
-| público | sem restrição jurídica cadastrada |
-| restrito | acesso limitado + hipótese legal |
-| sigiloso | credencial específica + configuração própria |
-
-Pegadinhas:
-
-- público no SEI ≠ publicado na internet;
-- sistema controla acesso, mas não cria fundamento legal;
-- sigiloso no SEI ≠ automaticamente reservado/secreto/ultrassecreto da <abbr title="Lei de Acesso à Informação">LAI</abbr>;
-- informação formalmente classificada nesses graus não deve tramitar pelo SEI, segundo orientação federal vigente.
-
-## Recursos auxiliares
-
-| Recurso | Efeito real |
-| --- | --- |
-| acompanhamento especial | monitora; não tramita |
-| anotação | observação da unidade; não acompanha envio |
-| comentário | apoio; não substitui documento formal |
-| ciência | registra conhecimento; não é decisão |
-| retorno programado | monitora devolução; não devolve sozinho |
-| bloco de assinatura | disponibiliza minutas; não envia o processo |
-| bloco interno/reunião | organiza; não altera acesso/tramitação sozinho |
-
-## Relacionar × anexar × sobrestar
-
-| Operação | Regra |
-| --- | --- |
-| relacionar | vínculo referencial; autos autônomos |
-| anexar | integração processual mais forte |
-| sobrestar | suspende andamento por determinação formal |
-
-**Relacionar ≠ anexar. Sobrestar ≠ concluir.**
-
-## Tramita GOV.BR
-
-- integrante do PEN;
-- expede processos e documentos avulsos entre **<abbr title="sistemas de processo eletrônico">SPEs</abbr>**;
-- conecta sistemas diferentes;
-- não exige que todos usem SEI;
-- “Barramento de Serviços do PEN” = denominação histórica.
-
-## Protocolo e NUP
-
-- **Protocolo GOV.BR:** recebe demanda externa.
-- **Protocolo Integrado:** consulta dados/histórico; não entrega automaticamente a íntegra.
-- **NUP:** identifica; não assina, não tramita e não define acesso.
-
-## Gestão documental — só o essencial
-
-Processo eletrônico continua sujeito a classificação, temporalidade, destinação e preservação.
-
-**SEI não resolve sozinho toda a preservação arquivística.**
-
-## Pegadinhas-relâmpago
-
-- PEN ≠ SEI.
-- Decreto nº 8.539/2015 não criou o PEN.
-- Tramita ≠ Protocolo GOV.BR.
-- Protocolo Integrado ≠ íntegra automática.
-- NUP ≠ tramitação.
-- Configuração local ≠ regra universal.
-- Atribuição ≠ exclusividade.
-- Conclusão local ≠ encerramento global.
-- Público ≠ internet.
-- Restrito exige fundamento legal.
-- Acompanhamento ≠ envio.
-- Ciência ≠ decisão.
-- Retorno programado ≠ devolução automática.
-- Bloco de assinatura ≠ envio do processo.
-- Relacionar ≠ anexar.
+Processo digital ainda requer classificação, prazos de guarda, destinação, integridade e preservação de longo prazo. Implantar <abbr title="Sistema Eletrônico de Informações">SEI</abbr> não resolve sozinho a gestão arquivística.
