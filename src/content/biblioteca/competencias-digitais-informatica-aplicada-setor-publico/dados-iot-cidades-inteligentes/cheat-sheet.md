@@ -1,214 +1,63 @@
 # Big data, análise de dados, <abbr title="Internet das Coisas">IoT</abbr> e cidades inteligentes
 
-Corte: **10/08/2026**.
+## Da medição à política
 
-## Mapa de 30 segundos
+**Medir → contextualizar → analisar → decidir → avaliar.** Um sensor mede nível do rio; unidade, local, horário e fonte tornam o número interpretável; análise permite alerta; resultado da política depende também de comunicação, resposta e avaliação. Mais registros ou dispositivos não garantem melhor decisão.
 
-| Conceito | Regra curta |
-| --- | --- |
-| dado | representação de fato, medida ou valor |
-| informação | dado contextualizado/processado |
-| big data | escala, ritmo, variedade ou complexidade que exige tratamento adequado |
-| IoT | coisas/dispositivos conectados e interoperáveis |
-| cidade inteligente | tecnologia aplicada a problemas urbanos e valor público |
+| Organização | Gatilho | Cuidado |
+|---|---|---|
+| Dado estruturado | Campos e esquema previsíveis: tabela, cadastro. | Estrutura não prova correção. |
+| Semiestruturado | Chaves ou marcações flexíveis, como <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Extensible Markup Language">XML</abbr> e *logs* (registros de eventos). | Pode exigir transformação para análise tabular. |
+| Não estruturado | Texto livre, imagem, áudio ou vídeo sem esquema tabular de origem. | Conteúdo numérico ou textual em escala também pode resistir à organização em tabela. |
+| Metadado | Descreve significado, unidade, fonte, período, método e atualização. | Sem ele, unir bases com campos parecidos pode alterar o sentido. |
 
-**Mais dados ≠ melhor decisão. IoT ≠ <abbr title="inteligência artificial">IA</abbr>. Mais sensores ≠ cidade mais inteligente.**
+**Qualidade é adequação ao uso:** acurácia = medição correta; completude = campos necessários presentes; consistência = regras/fontes compatíveis; atualidade = valor ainda útil; validade = formato/domínio esperado. **Cobertura** pergunta quem ficou de fora: uma amostra grande de usuários de aplicativo pode não representar a população. Medição ausente, campo desconhecido e valor **zero** são situações diferentes.
 
-## Organização dos dados
+## Big data e análise: pergunta antes de ferramenta
 
-| Tipo | Exemplo |
-| --- | --- |
-| estruturado | tabela, cadastro, transação |
-| semiestruturado | <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Extensible Markup Language">XML</abbr>, log |
-| não estruturado | texto livre, imagem, áudio, vídeo |
+*Big data* descreve escala, ritmo, diversidade ou complexidade que demandam técnicas adequadas; não tem limite universal em bytes. Os **5 Vs** são heurística, não lista legal fechada:
 
-- Metadado = significado, fonte, unidade, período, método.
-- Estruturado ≠ correto.
-- JSON é normalmente semiestruturado.
+| Volume | Velocidade | Variedade | Veracidade | Valor |
+|---|---|---|---|---|
+| Quantidade | Ritmo de chegada e processamento | Fontes e formatos | Confiabilidade | Utilidade legítima da análise |
 
-## 5 Vs
+<abbr title="Internet das Coisas">IoT</abbr> pode aumentar **volume, velocidade e variedade** por novas fontes e fluxos. Alto volume com baixa veracidade produz erro em escala.
 
-| V | Pense em... |
-| --- | --- |
-| volume | quantidade |
-| velocidade | ritmo de chegada/processamento |
-| variedade | fontes e formatos |
-| veracidade | confiança/qualidade |
-| valor | utilidade legítima |
+| Análise | Pergunta e alcance |
+|---|---|
+| Descritiva | **O que ocorreu?** Conta e compara eventos observados. |
+| Diagnóstica | **Por que ocorreu ou com que fatores se relaciona?** Investiga hipóteses, sem provar automaticamente causa. |
+| Preditiva | **O que pode ocorrer?** Estima sob dados e premissas, sem garantir o futuro. |
+| Prescritiva | **Que ação recomendar sob metas e restrições?** Não cria orçamento ou competência. |
 
-**Volume sem veracidade = erro em escala.**
+**Associação ≠ causa:** correlação mostra variação conjunta; atribuição causal exige enfrentar explicações alternativas. *Contrafactual* é o que provavelmente ocorreria sem a intervenção. Mesmo uma previsão correta não demonstra que a política produziu o resultado. Compare indicadores com definição, fonte, período, unidade, população, território e **denominador**: totais e taxas respondem perguntas diferentes.
 
-## Qualidade e cobertura
+| Etapa da política | Exemplo de alerta de enchente | O que ainda falta provar? |
+|---|---|---|
+| Insumo | Equipe e sensores. | Mobilização não é entrega. |
+| Produto | Pontos monitorados e alertas emitidos. | Entrega não é efeito. |
+| Resultado | Antecedência maior do aviso. | Mudança observada não atribui todo efeito à ação. |
+| Impacto | Perdas reduzidas de forma sustentada e atribuível. | Exige avaliação e explicações alternativas. |
 
-| Dimensão | Pergunta |
-| --- | --- |
-| acurácia | representa corretamente o fenômeno? |
-| completude | campos necessários estão preenchidos? |
-| consistência | fontes/regras são compatíveis? |
-| atualidade | ainda serve à decisão? |
-| validade | formato/domínio estão corretos? |
+A <abbr title="Infraestrutura Nacional de Dados">IND</abbr> é contexto de integração no Executivo federal: metadados, significado comum, responsabilidades, segurança e acesso tornam intercâmbio útil. **Interoperabilidade** é a capacidade de trocar e utilizar informações; conexão técnica isolada não corrige qualidade nem autoriza todo uso de dados.
 
-Pegadinhas:
+## <abbr title="Internet das Coisas">IoT</abbr>: identificar cada componente
 
-- completo pode estar errado;
-- dado antigo pode estar completo e desatualizado;
-- amostra grande pode continuar enviesada;
-- ausência de dado ≠ zero.
+O Decreto nº 9.854/2019 institui o Plano Nacional de Internet das Coisas: infraestrutura de serviços de valor adicionado com conexão física ou virtual de **coisas** (objetos físicos ou digitais identificáveis) a **dispositivos**, baseada em tecnologias de informação e comunicação e interoperabilidade. Dispositivo tem comunicação obrigatória; sensoriamento, atuação, coleta, armazenamento e processamento são capacidades opcionais. Aderir ao plano e aplicar sua disciplina federal não decorrem automaticamente da existência de um projeto estadual.
 
-## Tipos de análise
+| Ponto do fluxo | Função e contraste |
+|---|---|
+| Sensor | Observa ou mede; não age fisicamente pela medição. |
+| Atuador | Converte comando em ação física; um equipamento pode reunir sensor e atuador. |
+| Conectividade | Transporta observação e comando; alcance, banda, latência (atraso), energia, custo e disponibilidade definem a escolha. |
+| <abbr title="Equipamento intermediário que agrega dispositivos ou converte protocolos">Gateway</abbr> | Agrega ou converte comunicação; pode ser dispensado conforme a arquitetura. |
+| <abbr title="Processamento próximo à fonte dos dados">Edge</abbr> | Trata dados perto do dispositivo; pode coexistir com nuvem/plataforma remota. |
+| Plataforma | Integra, armazena, monitora ou analisa; não substitui decisão do serviço. |
 
-| Tipo | Pergunta |
-| --- | --- |
-| descritiva | o que ocorreu? |
-| diagnóstica | por que/com que fatores ocorreu? |
-| preditiva | o que provavelmente ocorrerá? |
-| prescritiva | que ação é recomendável sob restrições? |
+**Telemetria** é medição enviada remotamente ao sistema; **comando** volta para ordenar ação. Sensor de rio que só grava localmente, sem comunicação em rede, não caracteriza sozinho uma solução conectada. <abbr title="Internet das Coisas">IoT</abbr> pode operar por regra fixa sem <abbr title="Inteligência Artificial">IA</abbr>. Em serviço físico, prever dispositivo identificado, acesso controlado, atualização, falha de rede/energia, leitura ausente e estado seguro.
 
-- Preditiva **estima**; não prova causa.
-- Prescritiva **recomenda**; não cria competência ou orçamento.
-- As quatro categorias não formam escada obrigatória.
+## Cidade inteligente: resultado, inclusão e continuidade
 
-## Correlação × causalidade
+A Carta Brasileira para Cidades Inteligentes é **orientação estratégica**, sem criar lei ou certificação: transformação digital junto ao desenvolvimento urbano sustentável, participação, inclusão, resiliência e uso responsável de dados. Sensores em mobilidade, saneamento ou defesa civil são meios. Verificar problema concreto, público alcançado, manutenção, sustentabilidade, resposta operacional e efeito avaliado; muitos sensores sem serviço acessível ou ação pública não bastam.
 
-| Termo | Regra |
-| --- | --- |
-| correlação | associação entre variáveis |
-| causalidade | efeito atribuído após considerar explicações alternativas |
-| contrafactual | o que provavelmente ocorreria sem a intervenção |
-
-**Depois de X ≠ por causa de X.**
-
-## Políticas públicas
-
-| Categoria | Exemplo em alerta de enchente |
-| --- | --- |
-| insumo | equipe + sensores |
-| produto | pontos monitorados + alertas emitidos |
-| resultado | aviso com maior antecedência |
-| impacto | redução sustentável de perdas atribuível à política |
-
-**Sensor instalado = produto, não impacto.**
-
-Antes de comparar indicadores, confira:
-
-- definição;
-- fonte;
-- período;
-- unidade;
-- população/território;
-- denominador;
-- limitações.
-
-## Dados no setor público
-
-- Metadados ajudam a interpretar e descobrir dados.
-- Interoperabilidade = troca útil entre sistemas/organizações.
-- Integração técnica sem significado comum pode gerar interpretação errada.
-- <abbr title="Infraestrutura Nacional de Dados">IND</abbr> = contexto atual de integração e compartilhamento governamental; não substitui qualidade, competência ou regras de acesso.
-
-## IoT
-
-Decreto nº 9.854/2019:
-
-- institui o Plano Nacional de IoT;
-- envolve coisas/dispositivos, conectividade, serviços e interoperabilidade;
-- IoT não é qualquer acesso à internet;
-- IoT pode operar sem IA.
-
-## Sensor × atuador
-
-| Elemento | Função |
-| --- | --- |
-| sensor | observa/mede e gera dado |
-| atuador | executa ação física |
-| conectividade | transporta dados/comandos |
-| gateway | pode concentrar e converter protocolos |
-| edge | processa perto da fonte |
-| plataforma/nuvem | integra, armazena, monitora e analisa |
-
-**Sensor observa; atuador age.**
-
-## Telemetria × comando
-
-| Fluxo | Exemplo |
-| --- | --- |
-| telemetria | sensor envia nível do rio |
-| comando | sistema manda fechar válvula |
-
-- Gateway não é obrigatório em toda solução.
-- Edge e nuvem podem coexistir.
-- Comunicação escolhida depende de alcance, banda, latência, energia, custo e disponibilidade.
-
-## IoT: noções de continuidade
-
-Uma solução urbana deve prever:
-
-- dispositivo identificado/autenticado;
-- acesso controlado;
-- atualização e manutenção;
-- falha de rede/energia/plataforma;
-- sensor defeituoso ou dado ausente;
-- estado seguro quando a automação falha.
-
-## Cidades inteligentes
-
-Carta Brasileira:
-
-- transformação digital + desenvolvimento urbano sustentável;
-- tecnologia para problemas concretos;
-- valor público, inclusão, colaboração e resiliência;
-- uso responsável de dados e <abbr title="tecnologias da informação e comunicação">TIC</abbr>;
-- **é orientação estratégica, não lei**.
-
-## Aplicações urbanas
-
-| Área | Aplicação |
-| --- | --- |
-| mobilidade | frota, chegada, semáforos |
-| iluminação | falhas, consumo, regulação |
-| saneamento | pressão, vazão, perdas |
-| resíduos | demanda e rotas |
-| ambiente | ar, ruído, chuva, calor |
-| energia | medição e gestão |
-| defesa civil | rios, pluviômetros, sirenes |
-
-## Decisão rápida
-
-| Se a questão disser... | Pense primeiro em... |
-| --- | --- |
-| quantidade/ritmo/formatos/confiança/utilidade | 5 Vs |
-| o que ocorreu | descritiva |
-| fatores relacionados | diagnóstica |
-| futuro provável | preditiva |
-| ação recomendada | prescritiva |
-| associação | correlação |
-| efeito atribuído | causalidade |
-| recurso mobilizado | insumo |
-| entrega imediata | produto |
-| mudança no serviço | resultado |
-| efeito amplo atribuído | impacto |
-| fenômeno medido | sensor |
-| ação física | atuador |
-| observação enviada | telemetria |
-| instrução para agir | comando |
-| tecnologia urbana orientada a problema | cidade inteligente |
-
-## Pegadinhas-relâmpago
-
-1. Big data ≠ apenas volume.
-2. 5 Vs ≠ regra legal fechada.
-3. Estrutura ≠ qualidade.
-4. Completo ≠ atual.
-5. Amostra grande ≠ representativa.
-6. Ausência ≠ zero.
-7. Preditiva ≠ causal.
-8. Prescritiva ≠ decisão competente.
-9. Correlação ≠ causalidade.
-10. Produto ≠ impacto.
-11. IoT ≠ IA.
-12. Sensor ≠ atuador.
-13. Gateway pode ser dispensado.
-14. Edge pode coexistir com nuvem.
-15. Telemetria ≠ comando.
-16. Carta Brasileira ≠ lei.
-17. Mais sensores ≠ mais inteligência urbana.
+**Decisão de prova:** identifique a pergunta da análise, confirme qualidade/cobertura e o tipo de inferência; na <abbr title="Internet das Coisas">IoT</abbr>, encontre quem mede, quem comunica e quem atua; na cidade inteligente, procure benefício público demonstrável e público incluído.
