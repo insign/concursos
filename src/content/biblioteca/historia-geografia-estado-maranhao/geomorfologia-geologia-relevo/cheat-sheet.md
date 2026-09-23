@@ -1,97 +1,29 @@
-# Geomorfologia, geologia e relevo do Maranhão
-
-## Fórmula mental
-
-> **geologia = substrato · geomorfologia = processos · relevo = formas**
-
-Litologia condiciona; não controla sozinha.
-
-## Estrutura geológica
-
-| Setor/chave | Associação |
-|---|---|
-| maior parte do estado | **Bacia do Parnaíba**, sedimentar |
-| noroeste | **Fragmento São Luís + Cinturão Gurupi**, terrenos antigos |
-| faixa costeira | bacias costeiras + Barreiras + depósitos quaternários |
-
-> **Bacia sedimentar ≠ bacia hidrográfica.**
+# Geomorfologia, geologia, recursos minerais e relevo maranhense
 
 ## Substrato → processo → forma
 
-| Relação | Resultado típico |
+| Pergunta | Resposta que localiza o conceito |
 |---|---|
-| camadas com resistências diferentes | erosão diferencial → chapadas/mesas/rebordos |
-| acumulação fluvial | planícies/terraços |
-| acumulação fluviomarinha | baixadas/planícies costeiras |
-| deposição eólica | dunas |
-| materiais pouco consolidados + erosão | tabuleiros dissecados/vales |
+| **Geologia** | Que materiais e estruturas (camadas, fraturas) sustentam a paisagem? A ampla Bacia Sedimentar do Parnaíba predomina; no noroeste, Fragmento São Luís e Cinturão Gurupi são terrenos antigos; costa tem depósitos recentes e Grupo Barreiras. **Bacia geológica** não é bacia hidrográfica (área drenada por um rio). |
+| **Geomorfologia** | Como a forma muda? <abbr title="Desagregação e alteração local da rocha">Intemperismo</abbr> altera no lugar; erosão remove e transporta; sedimentação deposita. Resistência desigual das camadas favorece chapadas e mesas; rios e mar acumulam nas planícies, vento forma dunas. |
+| **Relevo** | Qual forma ficou? Costa: planície, Baixada Maranhense (campos inundáveis e outras feições), Golfão, Lençóis de dunas e lagoas sazonais. Interior: tabuleiros, vales e chapadas; sul: Chapada das Mesas e das Mangabeiras; noroeste: terrenos antigos mais recortados. Rocha sedimentar **não exige superfície plana**. |
 
-> Sedimentar **não** significa “todo plano”.
-
-## Planalto × planície × baixada
-
-| Forma | Regra de prova |
+| Forma | Gatilho correto |
 |---|---|
-| **planalto** | denudação > acumulação |
-| **planície** | acumulação > denudação |
-| **baixada** | região de terras baixas com feições diversas |
+| **Planalto** | Superfície relativamente elevada perante áreas vizinhas em pelo menos uma borda; altitude absoluta, inclinação e grau de recorte variam. A leitura tradicional associa <abbr title="Rebaixamento por intemperismo e erosão">denudação</abbr> predominante, mas ela **não é critério universal isolado** na classificação em desenvolvimento. |
+| **Planície** | Relevo predominantemente plano em depósitos recentes, com acumulação relevante; não significa ausência total de erosão. |
+| **Depressão/baixada** | Depressão é relativamente rebaixada perante o entorno, não abaixo do nível do mar; baixada é designação regional de terras baixas com formas diversas. |
+| **Chapada/mesa/tabuleiro/duna** | Chapada tem topo tabular e bordas; mesa é remanescente menor; tabuleiro é superfície tabular baixa ou moderada; duna é areia acumulada pelo vento. |
 
-Auxiliares:
+**Mapa espacial mínimo:** Parnaíba = predomínio sedimentar; São Luís–Gurupi = noroeste antigo; costa = deposição e dunas; sul/sudoeste = chapadas. A escala e a taxonomia do mapa podem mudar as subdivisões. O relevo pode ser controlado pela litologia (natureza da rocha), mas não **somente** por ela; clima, estrutura, drenagem e tempo também atuam.
 
-- depressão = rebaixada perante o entorno;
-- chapada = topo tabular + bordas marcadas;
-- tabuleiro = superfície tabular baixa/moderada;
-- duna = acumulação eólica.
+## Potencial mineral não é extração
 
-> Planalto ≠ altitude mínima. Depressão ≠ abaixo do nível do mar.
-
-## Costa × interior/sul
-
-| Região | Formas-chave |
+| Associação geológica | Substância ou indicação |
 |---|---|
-| costa | Planície Costeira, Golfão, Baixada, Lençóis, tabuleiros |
-| noroeste/oeste | terrenos antigos e relevo mais dissecado |
-| sudoeste | **Chapada das Mesas** |
-| sul | **Chapada das Mangabeiras** |
-| Balsas | depressão interplanáltica |
+| São Luís–Gurupi | Ouro. |
+| Formação Codó | Calcário e gipsita (matéria-prima do gesso). |
+| Depósitos sedimentares/fluviais | Areia, argila e cascalho. |
+| Bacia do Parnaíba | Gás natural em campos terrestres; não em toda a bacia. |
 
-Lençóis = **dunas + lagoas sazonais**, não deserto climático nem chapada.
-
-## Recursos minerais
-
-| Associação | Recurso |
-|---|---|
-| São Luís/Gurupi | **ouro** |
-| Formação Codó | **gipsita + calcário** |
-| depósitos/coberturas sedimentares | argila, areia, cascalho |
-| Bacia do Parnaíba | **gás natural** |
-
-## Status mineral
-
-> ocorrência → recurso → reserva
-
-**Produção** = lavra efetivamente realizada/declarada; não é sinônimo de potencial.
-
-- processo minerário ≠ mina;
-- potencial ≠ reserva;
-- porto/exportação ≠ extração local;
-- gipsita ≠ gesso beneficiado.
-
-## Pegadinhas
-
-- Maranhão exclusivamente sedimentar: **falso**.
-- Gurupi domina todo o estado: **falso**.
-- Litologia é o único controle: **falso**.
-- Formas tabulares em domínio sedimentar: **verdadeiro**.
-- Baixada = todo litoral: **falso**.
-- Lençóis = deserto/chapada: **falso**.
-- Ocorrência mineral = reserva: **falso**.
-- Lista de relevo diferente = mapa errado: **falso**; escala/taxonomia podem variar.
-
-## Método rápido
-
-1. Separe **substrato, processo, forma e recurso**.
-2. Lembre: **Parnaíba = domínio sedimentar; São Luís/Gurupi = noroeste antigo**.
-3. Compare **denudação × acumulação**.
-4. Priorize **planaltos, planícies e baixadas**.
-5. Em mineração, exija o **status** do recurso.
+**Ocorrência** é indício; **recurso** exige concentração e perspectiva razoável de aproveitamento; **reserva** é parcela com viabilidade de lavra após fatores técnicos, econômicos, ambientais e jurídicos; **produção** é extração efetiva no período. Porto que embarca minério de outra unidade federativa não comprova lavra maranhense.

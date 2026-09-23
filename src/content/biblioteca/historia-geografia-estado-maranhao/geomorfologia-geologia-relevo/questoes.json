@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7719",
@@ -544,9 +544,9 @@
     },
     {
       "id": "q7737",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Planalto é definido sobretudo por",
+      "prompt": "Na leitura geomorfológica tradicional, o planalto costuma associar-se a",
       "options": [
         {
           "id": "A",
@@ -570,7 +570,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O critério geomorfológico é processual; não há uma altitude mínima universal que defina planalto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A associação processual tradicional é o predomínio da denudação, sem altitude mínima fixa; essa chave evolutiva não define sozinha toda classificação atual. No sistema de classificação de relevo em desenvolvimento, importa também sua elevação relativa às superfícies adjacentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7738",
