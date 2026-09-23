@@ -129,7 +129,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H031 | `pen-sei-processo-eletronico` | = | V | [`905499a`](https://github.com/insign/concursos/commit/905499ac1cc964609a660512b1bfd3438e31895f) |
 | H032 | `governo-digital-dados-abertos` | = | V | [`2543211a7e`](https://github.com/insign/concursos/commit/2543211a7ee7fa6a8e58eb93ec4d4e131eafe47d) |
 | H033 | `ia-automacao-servicos-publicos` | = | V | [`5b1e7b80bf`](https://github.com/insign/concursos/commit/5b1e7b80bf9cbba66ee16125df88e72026756a33) |
-| H034 | `dados-iot-cidades-inteligentes` | = | V | — |
+| H034 | `dados-iot-cidades-inteligentes` | = | V | [`91c987e50f`](https://github.com/insign/concursos/commit/91c987e50f19564b5e9ddc178e1d095bb8048851) |
 | H035 | `etica-responsabilidade-digital` | = | V | — |
 
 ### M03 — Raciocínio Lógico
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Dependência aberta para M02
 
+- H034: q52203402–q52203403 mencionam gabarito definitivo de prova FUB 2015, mas a cópia oficial do gabarito não foi localizada; confirmar fonte primária antes de usar esses itens como evidência. H034 foi confrontada com anteriores PRF 2021 e TCDF 2024 verificáveis.
 - H033: `conteudo.md` §12 afirma que o edital foi publicado em 6/7; o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria; H/M observam o corte documental confirmado.
 - H032: `conteudo.md` data a publicação de E1 em 6/7, quando o Tribunal informa 7/7; apresenta a Portaria SGD/MGI nº 11.229/2025 como vigente, embora a vigência tenha sido adiada para 30/11/2026, e trata e-SIC como canal separado de Fala.BR, integrado desde 2020. Revisar a aula em escopo próprio. q522326 exige o inciso literal de custo/risco não ensinado; reavaliar no banco sem inflar H/M.
 - H029: `conteudo.md` §10 chama 6/7 de corte legislativo, embora o edital tenha publicação informada em 7/7; também fixa como atual em 6/9 o andamento do Tema 533, já encerrada a sessão em 14/9, sem inteiro teor confirmado no portal do STF. Corrigir a aula em revisão própria; q522043 exige fundamento processual fora da aula. M02 não deve inferir tese nova nem importar decretos posteriores ao corte.
