@@ -107,6 +107,8 @@ Pode substituir fronteira menor e criar novo período:
 
 Confira letra inicial, completude e mudança de articulação.
 
+`<abbr title="et cetera, expressão latina equivalente a e outras coisas">etc.</abbr>`: o ponto da abreviatura também pode encerrar o período; a vírgula anterior varia conforme o manual editorial adotado.
+
 ## Incisos: vírgulas, travessões e parênteses
 
 - vírgulas: maior integração;
@@ -133,6 +135,7 @@ Colchetes em citação:
 
 - direta: `O prazo terminou?`
 - indireta: `Perguntou se o prazo terminara.`
+- pergunta maior direta com conteúdo indireto: `Você sabe se o prazo terminou?`
 - `!`: apelo/emoção/ordem enfática;
 - `…`: suspensão/hesitação/continuação sugerida;
 - `[...]`: corte editorial, não hesitação do autor.
