@@ -209,7 +209,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H091 | `industrias-base-transformacao` | = | V | [`d3f1f88`](https://github.com/insign/concursos/commit/d3f1f880bc55d6a90c0477fe82b4770e12eb55da) |
 | H092 | `comercio-telecom-transportes` | = | V | [`fd8f2bc`](https://github.com/insign/concursos/commit/fd8f2bcb54b6db9c9c1b30f0360ad2003c72929b) |
 | H093 | `malha-viaria-portos-aeroportos` | = | V | [`4fc457b`](https://github.com/insign/concursos/commit/4fc457b790d1f775c6161ad76a41857d90dd7f72) |
-| H094 | `cultura-maranhense` | = | V | — |
+| H094 | `cultura-maranhense` | = | V | [`81bb9d4`](https://github.com/insign/concursos/commit/81bb9d4416e87932903e0571fa9d43f0648b216d) |
 
 ### M07 — Noções de Direitos Humanos
 
