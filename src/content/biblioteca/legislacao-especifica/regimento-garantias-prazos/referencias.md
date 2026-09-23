@@ -1,7 +1,8 @@
 - [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, art. 5º, LIV, LV, LVI e LXXVIII.
 - [Legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), base oficial de atos normativos do Tribunal, incluindo o Regimento Interno e suas alterações.
-- Resolução Administrativa nº 001/2000 — Regimento Interno do Tribunal de Contas do Estado do Maranhão, especialmente arts. 157-A, 158, 163, 281 e 290 a 294 e art. 300, com alterações vigentes na publicação do edital.
-- Resolução TCE/MA nº 423, de 12 de março de 2025 — reforma da tramitação e do processo eletrônico, vigente antes do edital.
+- [Regimento Interno compilado](https://publicacao.apps.tcema.tc.br/#/documentohtml/8207?compilado=true), Tribunal de Contas do Estado do Maranhão, especialmente arts. 157-A, 158, 290–294 e 300; considerar somente redações vigentes no corte.
+- [Lei Orgânica nº 8.258/2005, texto compilado](https://publicacao.apps.tcema.tc.br/#/documentohtml/8200?compilado=true), Tribunal de Contas do Estado do Maranhão, especialmente art. 127.
+- Resolução nº 423/2025 do Tribunal de Contas do Estado do Maranhão — reforma da tramitação eletrônica e do art. 158, incorporada ao Regimento compilado.
 - [D.O.E. TCE/MA — Edição nº 2983/2026, de 30 mar. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9468), ato oficial que confirma aplicação do Regimento com redação dada pela Resolução nº 423/2025.
 - [D.O.E. TCE/MA — Edição nº 2992/2026, de 15 abr. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9477), editais oficiais que aplicam o art. 290 e registram prazos de defesa e prorrogação.
 - [D.O.E. TCE/MA — Edição nº 3026/2026, de 9 jun. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9511), aplicação oficial do art. 290 em citação por edital antes do edital do concurso.
