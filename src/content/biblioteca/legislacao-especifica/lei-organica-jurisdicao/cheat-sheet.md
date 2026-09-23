@@ -1,119 +1,43 @@
 # Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: jurisdição e competência
 
-## Corte
+**Duas perguntas:** quem e quais matérias estão sob **jurisdição** (arts. 6º–7º)? Que ato pode praticar o Tribunal nessa esfera, por sua **competência** (arts. 1º–5º)? Jurisdição própria e privativa em todo o território estadual é jurisdição administrativa de controle externo; não transforma o Tribunal em órgão do Judiciário.
 
-**Edital: 6/7/2026.** Núcleo: **arts. 1º–7º da Lei nº 8.258/2005** + distinção indispensável sobre Prefeito ordenador de despesas conforme a **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982**.
+## Reconheça o verbo da competência — art. 1º
 
-## Mapa mental
-
-**jurisdição = quem/o que está sujeito**  
-**competência = o que o TCE pode fazer**
-
-**Constituição → Lei Orgânica → Regimento/atos internos**
-
-## Art. 1º — verbos de competência
-
-| Verbo | Objeto típico |
-| --- | --- |
-| **apreciar** | contas de governo; legalidade para registro; cálculo de quotas-partes; constitucionalidade incidental |
-| **julgar** | contas de administradores/responsáveis; contas do Presidente da Câmara; infrações administrativas fiscais |
-| **realizar** | auditorias, inspeções e acompanhamentos |
-| **acompanhar/fiscalizar** | receitas, <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, desestatização, transferências e aplicação de recursos |
-| **decidir** | denúncias, consultas e representações |
-| **assinar prazo** | correção de ilegalidade |
-| **sustar** | ato impugnado não corrigido |
-| **representar** | irregularidades ou abusos ao Poder competente |
-| **expedir** | cautelares para prevenir lesão e assegurar efetividade |
-| **elaborar/propor/organizar/eleger** | autogoverno e iniciativa normativa do Tribunal |
-
-## Parecer x julgamento x registro
-
-| Instituto | Quem/objeto | Resultado |
+| Situação | Ato do Tribunal | Limite que decide |
 | --- | --- | --- |
-| parecer prévio | contas de **governo** de Governador/Prefeito | manifestação técnica para julgamento político |
-| julgamento | administradores, responsáveis e contas de gestão | decisão do TCE |
-| registro | admissão + aposentadoria/reforma/pensão | controle de legalidade do ato |
+| contas anuais do Governador/Prefeito como chefe de governo | **apreciar e emitir parecer prévio** | julgamento político pelo Legislativo |
+| contas de administradores e responsáveis e do Presidente de Câmara | **julgar** | alcance inclui pessoa física/jurídica pública ou privada ligada a bens e valores públicos ou causadora de dano |
+| admissão de pessoal; aposentadoria, reforma e pensão | **apreciar legalidade para registro** | **exceto** admissão em cargo em comissão e melhoria de benefício que não altera fundamento legal |
+| auditoria, inspeção e acompanhamento contábil, financeiro, orçamentário, operacional e patrimonial | **realizar** por iniciativa própria ou solicitação legislativa cabível | auxílio ao Legislativo não é subordinação |
+| receitas e quotas municipais; responsabilidade fiscal; desestatização; convênios e transferências; declarações patrimoniais | **acompanhar/fiscalizar** | controle não se restringe à despesa |
+| denúncia, representação e consulta | **decidir** | denúncia por cidadão/partido/associação/sindicato; resposta à consulta é normativa, prejulga a **tese, não o fato** |
+| ilegalidade não corrigida | **assinar prazo** e, se não atendido, **sustar ato**, comunicando ao Legislativo | sanção, cautelar (proteção provisória) e sustação têm funções diferentes |
+| irregularidade/abuso fora da providência direta | **representar** ao Poder competente | encaminhamento não transfere competências alheias |
+| organização interna e projetos de lei | **eleger, organizar, elaborar Regimento e propor** | poder regulamentar e iniciativa legislativa não criam competência nova nem fazem o Tribunal legislar sozinho |
 
-### Registro — exceções
+No julgamento de contas e fiscalizações, examine **legalidade, legitimidade, economicidade, subvenções** (transferências para apoiar atividade) e **renúncia de receita** (receita dispensada por política pública), art. 1º, § 1º. A deliberação reúne **relatório** com conclusão técnica e parecer do Ministério Público, **fundamentação** de fatos/direito e **dispositivo** decisório (§ 3º).
 
-- admissão em **cargo em comissão** → fora do registro;
-- melhoria posterior de benefício **sem alterar fundamento legal** → sem novo registro.
+**Arts. 2º–5º:** rol anual dos ordenadores de despesas (quem autoriza atos de execução da despesa) e demais responsáveis, com endereços/alterações; poder regulamentar sobre atribuições e processos; acesso irrestrito às fontes de informação da Administração estadual/municipal **no exercício da competência**, inclusive sistemas; recesso de **21/12 a 4/1**, sem prejuízo da Secretaria.
 
-## Art. 1º, §§ 1º–3º
+## Quem entra na jurisdição? Art. 7º
 
-**Controle examina:** legalidade + legitimidade + economicidade + subvenções + renúncia de receitas.
-
-**Consulta:** caráter normativo + prejulgamento **da tese**, não do fato/caso concreto.
-
-**Deliberação essencial:**
-1. relatório;
-2. fundamentação;
-3. dispositivo.
-
-## Arts. 2º–5º
-
-| Artigo | Memorize |
+| Inciso | Vínculo com o controle |
 | --- | --- |
-| 2º | rol anual de ordenadores e responsáveis + endereços/alterações + informações necessárias |
-| 3º | poder regulamentar dentro da competência/jurisdição |
-| 4º | acesso irrestrito às fontes de informação da Administração estadual/municipal, inclusive sistemas eletrônicos |
-| 5º | recesso: **21/12 a 4/1**, sem prejuízo dos serviços da Secretaria |
-
-## Art. 6º — regra de ouro da jurisdição
-
-**jurisdição própria e privativa + todo o território estadual + pessoas e matérias sujeitas à competência do TCE/MA**
-
-⚠️ “Jurisdição” aqui **não é Poder Judiciário**.
-
-## Art. 7º — os 9 grupos
-
-| Inciso | Quem entra na jurisdição |
-| --- | --- |
-| I | quem deve prestar contas ou tem atos sujeitos à fiscalização por lei |
-| II | pessoa física/jurídica, pública/privada, ligada a dinheiro, bens, valores ou obrigações públicas |
-| III | quem causa perda, extravio ou irregularidade com dano ao erário |
-| IV | dirigentes de empresa pública ou sociedade de economia mista criada com recursos estaduais/municipais |
-| V | dirigentes/liquidantes de empresa encampada, intervinda ou incorporada ao patrimônio público |
-| VI | responsáveis por entidade privada com contribuição parafiscal + serviço de interesse público/social |
-| VII | responsáveis por recursos de convênio, acordo, ajuste ou congênere |
-| VIII | representantes públicos em assembleias de estatais/<abbr title="Sociedade anônima">S.A.</abbr> + conselhos fiscal/administração, nos atos de gestão ruinosa/liberalidade previstos |
+| I–III | dever legal de contas/fiscalização; qualquer pessoa pública ou privada que administre recursos ou assuma obrigação pecuniária (em dinheiro) em nome do ente; causador de perda, extravio ou irregularidade com dano |
+| IV–V | dirigentes de empresas públicas/sociedades de economia mista com recursos do Estado/Município; dirigentes/liquidantes (encerramento de empresa) de empresa encampada (assumida pelo poder público), sob intervenção ou incorporada ao patrimônio público |
+| VI–VII | responsáveis por entidades privadas que recebem contribuições parafiscais (receitas compulsórias vinculadas) e prestam serviço de interesse público/social; responsáveis pela **aplicação de recursos** repassados por convênio, acordo, ajuste ou congênere |
+| VIII | representantes públicos em assembleia de estatal/sociedade anônima e, solidariamente na hipótese legal, membros de conselhos fiscal e de administração por gestão ruinosa (deterioração patrimonial grave) ou liberalidade à custa da sociedade |
 | IX | sucessores, **até o valor do patrimônio transferido** |
 
-### Contrastes do art. 7º
+**Pessoa privada não é imune**: identifique a ligação jurídica com recursos, patrimônio ou responsabilidade. Um convenente privado, por exemplo, entra pelo inciso VII; depois localize no art. 1º a competência para fiscalizar a aplicação.
 
-- **privado pode entrar** → incisos II, VI e VII;
-- **dano sem gestão formal também entra** → III;
-- **sucessor responde com limite** → IX;
-- **convênio tem hipótese expressa** → VII.
+## Prefeito: efeito depende do tipo de contas
 
-## Prefeito — matriz decisiva
-
-| Papel do Prefeito | Conta | Competência |
+| Papel | Contas | Quem decide |
 | --- | --- | --- |
-| chefe de governo | contas de governo | TCE emite parecer prévio → Câmara julga |
-| ordenador de despesas | contas de gestão | **TCE julga** |
-| reflexo eleitoral da <abbr title="Lei Complementar">LC</abbr> 64/1990, art. 1º, I, “g” | efeito eleitoral | competência da **Câmara Municipal** preservada |
+| chefe de governo | anuais de governo | parecer prévio do Tribunal; julgamento político da Câmara |
+| ordenador de despesas | gestão dos recursos | Tribunal julga; se irregulares, pode imputar débito e sanções **não eleitorais** sem ratificação da Câmara |
+| efeito eleitoral do art. 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990 | repercussão eleitoral | competência da Câmara preservada |
 
-### ADPF 982
-
-**Prefeito ordenador:**
-
-- deve prestar contas;
-- TCE julga as contas de gestão;
-- irregularidade → TCE pode imputar **débito** e aplicar **sanções não eleitorais**;
-- não precisa ratificação da Câmara para esses efeitos;
-- efeito eleitoral da alínea “g” → Câmara Municipal.
-
-⚠️ Não use “toda conta de Prefeito é julgada pela Câmara”.
-
-## Outras pegadinhas de uma linha
-
-- **auxílio ao Legislativo ≠ subordinação**.
-- **cautelar ≠ decisão final**.
-- **poder regulamentar ≠ criação de competência nova**.
-- **acesso irrestrito à informação ≠ fiscalização sem finalidade legal**.
-- **pessoa privada ≠ imunidade ao controle**.
-- **parecer prévio ≠ acórdão de julgamento de contas de gestão**.
-- **fiscalização de receita ≠ controle apenas de despesa**.
-- **Conselho/representante em estatal pode entrar na jurisdição** nas hipóteses do art. 7º, VIII.
-- **sucessão patrimonial limita responsabilidade** ao valor transferido.
+A distinção é a da <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 do <abbr title="Supremo Tribunal Federal">STF</abbr>: perguntar apenas “é prefeito?” é insuficiente. Artigos 9º–10 e efeitos de contas ficam para o assunto de contas. **Corte legislativo:** publicação do edital de abertura informada pelo Tribunal em **7/7/2026**, distinta da data do ato.
