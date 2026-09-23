@@ -145,7 +145,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H042 | `operacoes-conjuntos` | = | V | [`b9cddaf`](https://github.com/insign/concursos/commit/b9cddaf33e8c8039687abb6ffe8d779baab5c800) |
 | H043 | `problemas-aritmeticos` | = | V | [`aa7ceb5`](https://github.com/insign/concursos/commit/aa7ceb525818800babae5a51d7429100e246d40b) |
 | H044 | `problemas-geometricos` | = | V | [`d7c9ae4`](https://github.com/insign/concursos/commit/d7c9ae4f3f166a20ede2a73cb73d0bfab70f2401) |
-| H045 | `problemas-matriciais` | = | V | — |
+| H045 | `problemas-matriciais` | = | V | [`331f025`](https://github.com/insign/concursos/commit/331f0254a6e945db2b8fc564fdba1edd59a63f0d) |
 
 ### M04 — Controle Externo
 
