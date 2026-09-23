@@ -192,7 +192,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H074 | `invasao-expulsao-holandeses` | = | V | [`4274555`](https://github.com/insign/concursos/commit/427455538aecf242a6b3e79e7414a2806fc4d1eb) |
 | H075 | `revolta-bequimao-companhias` | = | V | [`c9c2923`](https://github.com/insign/concursos/commit/c9c2923875b5f760aa476d9d0885af0c5b48171c) |
 | H076 | `adesao-independencia-jenipapo` | = | V | [`d4c7fde`](https://github.com/insign/concursos/commit/d4c7fde14a9c34f9171a7b48a6f54ad65deaeff6) |
-| H077 | `balaiada-caracterizacao-causas` | = | V | — |
+| H077 | `balaiada-caracterizacao-causas` | = | V | [`2f12260`](https://github.com/insign/concursos/commit/2f1226034bdc3842b48d65e2aee8f6f0d75ce922) |
 | H078 | `adesao-republica-revolucao-1930` | = | V | — |
 | H079 | `vitorinismo-greve-1951` | = | V | — |
 | H080 | `fatos-politicos-maranhao-sec-xx` | = | V | — |
