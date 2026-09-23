@@ -1,190 +1,47 @@
-# Governo digital, GOV.BR, dados abertos e transparência
+# Governo digital, <abbr title="Governo do Brasil">GOV.BR</abbr>, dados abertos e transparência
 
-## Cortes
+## Serviço: digitalizar ou transformar?
 
-| Camada | Corte |
+**Informatizar/digitalizar** troca ferramenta ou suporte; **transformar** redesenha a jornada, elimina etapas desnecessárias, integra capacidades e mede o serviço. Portal é entrada, não execução automática da política. **Autosserviço** dispensa mediação humana naquela operação; serviço digital deve conservar acessibilidade e atendimento presencial quando necessário.
+
+A Lei nº 14.129/2021 organiza governo digital, serviços, participação e dados. **Art. 2º:** aplicação direta aos órgãos federais abrangidos; Estado e tribunal de contas estadual só entram no regime da lei federal **se adotarem seus comandos por ato normativo próprio**. Não atribuir automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> decretos ou plataformas do Executivo federal. Corte legislativo do edital: normas em vigor até sua publicação, informada em **7/7/2026**; funcionamento da plataforma pode mudar após a consulta.
+
+| Expressão | Critério de reconhecimento |
 |---|---|
-| legislação do edital | 6/7/2026 |
-| funcionalidades GOV.BR | verificadas em 27/7/2026 |
+| Plataforma de governo digital | Serviços digitais **comuns e compartilhados**, ofertados para vários órgãos; permite solicitação e acompanhamento, com painel de desempenho no regime legal. |
+| Governo como plataforma | Infraestrutura para uso seguro e responsável de dados públicos e interação entre agentes; mais amplo que um portal. |
+| Laboratório de inovação | Espaço de experimentação **colaborativa** com sociedade; protótipo e aprendizado, não catálogo. |
+| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> × <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> | A primeira articula objetivos nacionais; a segunda orienta o âmbito federal. Rede Gov.br é colaboração federativa voluntária, sem transferir competências. |
 
-Método operacional pode mudar; conceito jurídico permanece.
+**Diretrizes de decisão:** simplificar exigências, linguagem clara, acessibilidade, integração sem acesso indiscriminado, transparência, proteção de dados e multicanais. <abbr title="Capacidade de sistemas diferentes trocarem e utilizarem informações">Interoperabilidade</abbr> não cria base única nem autoriza compartilhar qualquer dado pessoal.
 
-## Governo digital
+## Identidade digital: confiança não é direito ao serviço
 
-| Termo | Regra |
+**Identificar → autenticar → medir confiança → autorizar a operação → verificar requisitos materiais → decidir.** Conta Ouro prova identidade em grau alto; não concede benefício cujo requisito não foi cumprido.
+
+| Peça do ecossistema gov.br | Faz | Não faz |
+|---|---|---|
+| Portal | Permite encontrar informação e serviço. | Não decide todo pedido. |
+| Conta | Identifica/autentica usuário. | Não autoriza todo ato nem unifica todas as bases. |
+| Aplicativo | Oferece recursos móveis de segurança, validação e carteira. | Não é condição para simplesmente existir uma conta. |
+| Carteira de Documentos Digitais | Apresenta/compartilha documento disponibilizado. | Não emite o documento no lugar do órgão competente. |
+
+**Bronze → Prata → Ouro:** confiança crescente, conforme métodos de validação oficiais; método e interface são dados operacionais mutáveis. O Balcão orienta e auxilia, mas não eleva diretamente para Prata/Ouro. A **verificação em duas etapas**, disponível para Prata/Ouro, é um recurso adicional ativável: nível alto não significa código exigido em toda entrada. Quando ativada, a orientação oficial usa o aplicativo para gerar código, não mensagem de texto nem autenticador externo.
+
+## Dado público, acessível e aberto
+
+| Qualificação | Pergunta |
 |---|---|
-| informatização | tecnologia no processo existente |
-| transformação | redesenha jornada e organização |
-| autosserviço | serviço sem mediação humana |
-| plataforma | capacidade comum e compartilhada |
-| governo como plataforma | infraestrutura para dados e interação |
-| laboratório | experimentação colaborativa |
-| registro de referência | fonte íntegra de dado fundamental |
+| Público/acessível | O dado sob custódia do Estado pode ser divulgado ou consultado, observadas restrições legais e proteção pessoal? |
+| Aberto (Lei nº 14.129, art. 4º) | Está acessível, digital, **estruturado em formato aberto**, processável por máquina, referenciado na internet e sob **licença aberta** para uso e reúso? |
+| Restrito/pessoal | Existe sigilo legal ou tratamento de dado pessoal que exija finalidade, necessidade e proteção? Abertura não afasta a <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>. |
 
-Tecnologia = meio para valor público.
+**Baixável ≠ aberto.** Imagem escaneada ou <abbr title="Portable Document Format">PDF</abbr> legível pode informar uma pessoa sem oferecer dado estruturado para máquina. **Conjunto** organiza tema; **recurso** entrega arquivo/acesso; **catálogo** permite descobrir; **metadado** descreve campos, origem e atualização; **formato** estrutura; **licença** autoriza reúso; <abbr title="Interface de Programação de Aplicações">API</abbr> viabiliza consulta programática. Catálogo ou <abbr title="Interface de Programação de Aplicações">API</abbr> não garantem por si arquivo disponível, qualidade ou licença.
 
-## Estratégias
+No Executivo federal, a <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> coordena padrões e governança; o Portal Brasileiro cataloga conjuntos; o <abbr title="Plano de Dados Abertos">PDA</abbr> organiza inventário, prioridades, cronograma, responsáveis e monitoramento. O Decreto nº 8.777/2016 é **federal**: ciclo bienal frequente não é obrigação universal para qualquer ente.
 
-| Instrumento | Função |
-|---|---|
-| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> | articulação nacional |
-| <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> | estratégia federal |
-| Rede Gov.br | colaboração voluntária federativa |
+## Transparência: publicar, responder, permitir reúso
 
-## Ecossistema GOV.BR
+**Ativa** divulga sem pedido; **passiva** responde pedido segundo a <abbr title="Lei de Acesso à Informação">LAI</abbr>; **dado aberto** acrescenta reúso técnico e jurídico. A motivação do pedido de acesso não pode ser exigida. Acesso parcial exige separar o que é público do que tem restrição, com resposta fundamentada e via de recurso.
 
-| Elemento | Função |
-|---|---|
-| portal | encontrar |
-| conta | identificar/autenticar |
-| aplicativo | segurança e recursos móveis |
-| carteira | apresentar documentos |
-| serviço integrado | executar política pública |
-
-Conta pode existir sem aplicativo.
-
-## Fluxo da identidade
-
-```text
-Identificar → autenticar → nível de confiança →
-autorizar → verificar elegibilidade → decidir
-```
-
-Ouro ≠ benefício garantido.
-
-## Níveis
-
-| Nível | Regra |
-|---|---|
-| Bronze | básico, fator único |
-| Prata | alto, multifator |
-| Ouro | máximo, multifator |
-
-| Método atual | Nível |
-|---|---|
-| Receita/<abbr title="Instituto Nacional do Seguro Social">INSS</abbr>/Balcão | Bronze |
-| <abbr title="Carteira Nacional de Habilitação">CNH</abbr>, banco, <abbr title="Sistema de Gestão de Pessoas">SIGEPE</abbr> | Prata |
-| <abbr title="Tribunal Superior Eleitoral">TSE</abbr>, <abbr title="Carteira de Identidade Nacional">CIN</abbr>, <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> <abbr title="pessoa física">PF</abbr> | Ouro |
-
-Métodos = informação operacional.
-
-## Balcão
-
-- cria/recupera e orienta;
-- consulta nível;
-- não atribui automaticamente Prata/Ouro;
-- ajuda o cidadão a validar no app/navegador.
-
-## Segurança
-
-- <abbr title="autenticação de dois fatores">2FA</abbr>: Prata/Ouro;
-- código somente no app GOV.BR;
-- não chega por SMS;
-- autenticador externo não gera;
-- gerencie dispositivos e histórico;
-- trocar/desvincular o app remove autorizações.
-
-## Carteira
-
-```text
-Órgão emite → documento é disponibilizado →
-usuário adiciona → apresenta/compartilha
-```
-
-Adicionar ≠ emitir. Cada documento tem regra própria.
-
-## Dados
-
-| Termo | Regra |
-|---|---|
-| público | sob custódia estatal |
-| acessível | consultável por uma via |
-| aberto | estruturado, máquina, formato e licença |
-| pessoal | finalidade e proteção |
-| sigiloso | restrição legal |
-
-Baixável ≠ aberto.
-
-## Arquitetura de dados abertos
-
-| Elemento | Função |
-|---|---|
-| conjunto | coleção lógica |
-| recurso | <abbr title="Comma-Separated Values">CSV</abbr>, <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Application Programming Interface">API</abbr> etc. |
-| catálogo | descoberta |
-| metadado | descrição |
-| formato | estrutura técnica |
-| licença | autorização de reúso |
-| API | acesso programático |
-| responsável | qualidade/atualização |
-
-## Qualidade
-
-- dicionário de dados;
-- identificador persistente;
-- atualização;
-- histórico de mudanças;
-- esquema estável;
-- links funcionais;
-- versão de API;
-- contato e limitações.
-
-## INDA, Portal e PDA
-
-| Item | Função |
-|---|---|
-| <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> | padrões e governança |
-| Portal Brasileiro | catálogo |
-| <abbr title="Plano de Dados Abertos">PDA</abbr> | inventário, prioridade, cronograma, responsáveis e monitoramento |
-
-PDA frequentemente bienal ≠ obrigação universal apenas pelo Decreto nº 8.777.
-
-## Transparência
-
-| Tipo | Regra |
-|---|---|
-| ativa | sem pedido |
-| passiva | resposta ao pedido |
-| dados abertos | reúso estruturado |
-
-Motivo do pedido de acesso não pode ser exigido.
-
-## Canais
-
-| Canal | Função |
-|---|---|
-| <abbr title="Serviço de Informação ao Cidadão">SIC</abbr> | atendimento de acesso |
-| e-SIC | meio eletrônico |
-| Fala.BR | plataforma integrada de acesso e ouvidoria |
-
-Plataforma única ≠ fluxo jurídico único.
-
-## Casos
-
-| Caso | Chave |
-|---|---|
-| Ouro sem requisito | autentica, não gera elegibilidade |
-| conta sem app | possível; recursos podem exigir app |
-| Balcão | orienta, não eleva diretamente |
-| ambiente de protótipos | laboratório |
-| <abbr title="Portable Document Format">PDF</abbr> escaneado | não é dado aberto estruturado |
-| catálogo com link quebrado | portal ≠ fonte |
-| pedido e denúncia no Fala.BR | fluxos distintos |
-
-## Pegadinhas
-
-- digitalização ≠ transformação;
-- portal ≠ conta ≠ aplicativo;
-- login ≠ autorização;
-- autenticação ≠ elegibilidade;
-- nível ≠ mérito;
-- Balcão ≠ elevação direta;
-- app ≠ conta;
-- carteira ≠ órgão emissor;
-- público ≠ aberto;
-- PDF ≠ abertura;
-- catálogo ≠ dado;
-- metadado ≠ recurso;
-- API ≠ licença;
-- transparência ativa ≠ passiva;
-- ciclo bienal ≠ regra universal do Decreto nº 8.777.
+<abbr title="Serviço de Informação ao Cidadão">SIC</abbr> é o atendimento; o sistema eletrônico <abbr title="Sistema Eletrônico do Serviço de Informação ao Cidadão">e-SIC</abbr> foi **integrado em 2020** ao módulo de acesso à informação do <abbr title="Plataforma Integrada de Ouvidoria e Acesso à Informação">Fala.BR</abbr>, não é canal eletrônico paralelo atual. A plataforma também recebe manifestações de ouvidoria, sem fundir o rito jurídico de pedido de acesso com denúncia, reclamação ou sugestão.
