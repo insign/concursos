@@ -172,7 +172,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H059 | `regimento-denuncias-consultas` | = | V | `868bb4b3c855af58ceb45015270d4483525bee5e` |
 | H060 | `regimento-garantias-prazos` | = | V | `7cf990eda26f1a048d2263d5e20bb67e5b506c6b` |
 | H061 | `regimento-decisoes-execucao` | = | V | `4a2c2b133894cdf3aeb7166842c9a119d9a4e66d` |
-| H062 | `regimento-recursos-revisao` | = | V | — |
+| H062 | `regimento-recursos-revisao` | = | V | `260dc9f5ffc1915e9a3a3c4ae24dd23d73e2a595` |
 | H063 | `regimento-atos-etica-finais` | = | V | — |
 | H064 | `lei-organica-jurisdicao` | = | V | — |
 | H065 | `lei-organica-organizacao-mpc` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H062: aula atribui publicação de E1 a 6/7 (Tribunal informa 7/7) e menciona apenas prefeito na vedação de revisão do art. 139, § 7º, que também abrange governador; corrigir no escopo próprio.
 - H061: aula trata 6/7 como publicação de E1 (Tribunal informa 7/7); q6359 exige siglas CEI/DDNT não ensinadas na aula. Rever no escopo próprio. O portal do STF retornou 502 ao abrir inteiro teor dos Temas 642/1287; revalidar na futura M05 se necessário.
 - H060: aula usa 6/7 como publicação de E1, em vez de 7/7 informado pelo Tribunal; rever no escopo próprio.
 - H059: a aula usa 6/7 como publicação de E1 (Tribunal informa 7/7), atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269, e chama de redação atual do Regimento o “sempre que possível” da Lei Orgânica para o parecer. Rever no escopo da aula.
