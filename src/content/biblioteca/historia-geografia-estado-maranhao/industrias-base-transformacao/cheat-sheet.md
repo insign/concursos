@@ -1,153 +1,35 @@
 # Parque industrial: indústrias de base e de transformação
 
-## Mapa do assunto
+## Três perguntas, três classificações
 
-**Base × transformação → cadeias → polos → fatores locacionais → pegadinhas de etapa e território.**
-
-## Base × transformação
-
-| Conceito | Chave |
-|---|---|
-| indústria de base | categoria funcional: fornece insumos/intermediários a outras cadeias |
-| indústria de transformação | obtém produto novo por transformação de materiais |
-
-**Uma indústria pode ser, ao mesmo tempo, de base e de transformação.**
-
-Ex.: alumina, alumínio, celulose, aço e cimento.
-
-## Etapa da cadeia
-
-| Situação | Natureza |
-|---|---|
-| cultivar eucalipto/soja, criar gado | produção primária |
-| retirar minério da jazida | extração |
-| produzir alumina, celulose, aço, gesso | transformação |
-| gerar/distribuir eletricidade | energia |
-| executar obra | construção |
-| transportar/armazenar/embarcar | logística |
-
-**Porto ≠ fábrica. Ferrovia ≠ extração.**
-
-## Três polos-âncora
-
-| Polo | Cadeia principal | Regra de prova |
+| Pergunta | Critério | Exemplo |
 |---|---|---|
-| **São Luís** | alumina/alumínio | <abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr> ≠ siderúrgica |
-| **Imperatriz** | celulose/papel | eucalipto ≠ celulose |
-| **Açailândia** | ferro-gusa/aço/metalmecânica | minério em trânsito ≠ lavra local |
+| **O que a unidade faz?** | <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr>: seção A, produção agropecuária/florestal; B, extração; C, transformação; D, eletricidade e gás; F, construção; H, transporte | bauxita retirada = B; refinada em alumina = C; embarcada = H |
+| **Para que serve o produto?** | finalidade econômica: bem intermediário, de capital ou de consumo | alumina e celulose podem alimentar outra produção; máquina é bem de capital |
+| **Qual papel exerce na cadeia?** | indústria de base fornece insumos fundamentais a outras indústrias | refino de alumina é **transformação** e pode ser chamado funcionalmente de **base** |
 
-## São Luís — Alumar
+“Indústria de base” não é seção própria da <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> e **não exclui** transformação. Esta obtém produto novo por processo físico, químico ou biológico. Atenção: moagem, trituração e concentração de certos minérios associadas à lavra podem continuar na seção B; a palavra “beneficiamento” sozinha não resolve a classificação. **Parque industrial** reúne plantas e suas relações produtivas no estado; um distrito industrial é apenas uma área organizada para empresas, com estágio de implantação próprio.
 
-**bauxita → alumina → alumínio primário**
+## Polos como mapa de cadeias
 
-- bauxita: matéria-prima mineral;
-- alumina: produto do refino;
-- alumínio: produto da redução eletrolítica;
-- terminal: logística;
-- redução de alumínio: atividade **eletrointensiva**.
+| Polo | Sequência e ponto de virada | Fator locacional decisivo |
+|---|---|---|
+| **São Luís — <abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr>** | bauxita extraída no Pará → recebimento em São Luís → **alumina** por refino → **alumínio** por redução eletrolítica (conversão com eletricidade) | porto para insumos e produtos; redução **eletrointensiva** (demanda elevada de eletricidade) |
+| **Imperatriz — Suzano** | eucalipto cultivado → madeira transportada → **celulose** → papel ou <abbr title="Papel leve usado para higiene e produtos sanitários">tissue</abbr>; celulose de mercado também pode ser vendida a terceiros | floresta plantada, água, escala e escoamento |
+| **Açailândia — siderurgia/<abbr title="Aço Verde do Brasil">AVB</abbr>** | minério que chega pelo Corredor Carajás → **ferro-gusa** (ferro primário de alto-forno) → aço e laminados | ferrovia, insumos, energia e mercado |
 
-**Bauxita recebida em São Luís ≠ bauxita extraída no Maranhão.**
+<abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr> produz alumina e alumínio, **não** ferro-gusa ou aço inoxidável; seu terminal não é refinaria. Em Açailândia, carvão vegetal de eucalipto pode atuar como **redutor** (ajuda a remover oxigênio do minério) no alto-forno; isso não faz do gusa um produto extrativo vegetal. A extração de minério em outro estado não passa a ser maranhense porque a matéria-prima cruza a ferrovia ou é transformada aqui.
 
-Capacidade instalada ≠ produção do ano.
+Há ainda processamento de alimentos e bebidas, gipsita → gesso, calcário → cimento, argila → cerâmica e madeira → móveis. Gado, grãos, gipsita e árvores são matérias-primas; abate, moagem industrial, fabricação de gesso e móveis são etapas transformadoras. Porto Franco e Balsas têm conexão agroindustrial, Grajaú tem cadeia gesseira e Timon reúne atividades diversas: polos não substituem um censo de fábricas em operação.
 
-## Imperatriz — celulose e papel
+## Não troque os números da cadeia
 
-**eucalipto → madeira → celulose → papel/tissue**
-
-- eucalipto cultivado: produção florestal;
-- madeira transportada: logística;
-- celulose/papel: transformação;
-- terminal: logística.
-
-Celulose = bem intermediário de destaque.
-
-Fontes corporativas podem agregar capacidades de modos diferentes: **não decore cifra isolada sem saber o escopo**.
-
-## Açailândia — metalurgia
-
-**minério de ferro → ferro-gusa → aço/produtos de aço**
-
-- minério do Pará: extração na origem;
-- <abbr title="Estrada de Ferro Carajás">EFC</abbr>: transporte;
-- gusa/aço no MA: transformação metalúrgica;
-- <abbr title="Aço Verde do Brasil">AVB</abbr>: referência industrial do polo.
-
-Carvão vegetal como redutor ≠ ferro-gusa como produto extrativo vegetal.
-
-## Outras cadeias
-
-| Matéria-prima/atividade | Transformação |
+| Expressão | O que demonstra |
 |---|---|
-| gado | abate/processamento de carnes |
-| leite | laticínios |
-| grãos | farinhas, óleo, ração |
-| gipsita | gesso |
-| calcário | cimento |
-| argila | cerâmica |
-| madeira | produtos de madeira/móveis |
+| anúncio, projeto, licença ou construção | estágio do empreendimento; nenhum prova produção efetiva |
+| capacidade instalada | potencial técnico da unidade em certo escopo, não volume realizado |
+| produção efetiva | resultado de período e produto determinados |
+| movimentação portuária ou exportação | circulação, inclusive de produtos vindos de fora, não origem nem fabricação local |
+| empregos, estabelecimentos e valor | dimensões diferentes do parque industrial |
 
-**Armazenar ou exportar matéria-prima sem processamento não cria produto industrial novo.**
-
-## Distribuição espacial
-
-- **São Luís:** alumina/alumínio + conexões portuárias;
-- **Imperatriz:** celulose/papel + parque diversificado;
-- **Açailândia:** metalurgia/siderurgia + Corredor Carajás;
-- **Porto Franco/Balsas:** relação agroindustrial;
-- **Grajaú:** cadeia gesseira;
-- **Timon:** atividades empresariais diversificadas.
-
-Projeto ≠ implantado ≠ operando.
-
-Distrito industrial ≠ todo o parque industrial estadual.
-
-## Fatores locacionais
-
-- matéria-prima e fornecedores;
-- energia e água;
-- ferrovia, rodovia, porto e armazenagem;
-- mercado;
-- mão de obra e serviços especializados;
-- terrenos e infraestrutura;
-- incentivos/licenciamento;
-- integração com outras plantas.
-
-**Não existe fator único universal.**
-
-## Encadeamentos
-
-**Para trás:** compras de insumos, máquinas, energia e serviços.
-
-**Para a frente:** usos posteriores de alumínio, aço, celulose, cimento etc.
-
-Mais carga movimentada ≠ maior adensamento industrial local automaticamente.
-
-## Quatro comparações obrigatórias
-
-- **capacidade ≠ produção**;
-- **investimento/anúncio ≠ operação**;
-- **exportação ≠ origem local**;
-- **movimentação logística ≠ transformação**.
-
-## Pegadinhas-relâmpago
-
-1. indústria de base = seção <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> → **falso**;
-2. base e transformação são excludentes → **falso**;
-3. Alumar produz ferro-gusa/aço inoxidável → **falso**;
-4. bauxita recebida em São Luís prova lavra local → **falso**;
-5. eucalipto cultivado já é celulose → **falso**;
-6. terminal de celulose fabrica celulose → **falso**;
-7. minério na EFC foi extraído em Açailândia → **falso**;
-8. gipsita e gesso são a mesma etapa → **falso**;
-9. capacidade declarada = produção efetiva → **falso**;
-10. distrito anunciado = todas as fábricas operantes → **falso**.
-
-## Questão oficial-chave
-
-**Cebraspe / <abbr title="Polícia Militar do Maranhão">PM-MA</abbr> / Soldado / 2017 / item 51:** a assertiva que chamou a Alumar de siderúrgica produtora de ferro-gusa e aço inoxidável recebeu gabarito **Errado**.
-
-Chave: **Alumar = alumina + alumínio.**
-
-## Método rápido
-
-Pergunte: **etapa + produto + polo + variável + território + tempo**.
+**Encadeamento para trás** são compras de matéria-prima, energia, máquinas e serviços; **para a frente**, usos posteriores de alumina, aço, celulose ou cimento. Grande carga embarcada não mede automaticamente fornecedores locais. Resolva pela sequência **etapa → produto → território → medida → período**.
