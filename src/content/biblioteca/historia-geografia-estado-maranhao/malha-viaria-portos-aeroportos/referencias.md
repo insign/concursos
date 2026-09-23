@@ -1,3 +1,5 @@
+> Corte factual: 4 de agosto de 2026. Informações conjunturais posteriores a esse corte não fundamentam o resumo.
+
 - Cebraspe/TCE-MA. [Edital nº 1, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Geografia do Maranhão, itens 13 e 14.
 - DNIT. [Plano Nacional de Viação e Sistema Nacional de Viação](https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv). Cadastro e situação da malha federal.
 - DNIT. [Mapa de Manutenção Rodoviária — Maranhão, fevereiro de 2026](https://www.gov.br/dnit/pt-br/rodovias/mapa-de-gerenciamento/mapas-de-manutencao-fevereiro-2026/114-mapa_ma.pdf). Total da malha DNIT e versão do SNV utilizada.
@@ -12,13 +14,8 @@
 - Presidência da República. [Lei nº 12.815/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12815.htm). Conceitos de porto organizado, arrendamento e terminal de uso privado.
 - EMAP. [Histórico do Porto do Itaqui](https://website.portodoitaqui.com/emap/historico). Conexões ferroviárias, corredor para o Centro-Oeste e área economicamente servida pelo porto.
 - Ministério de Portos e Aeroportos. [Renovação da gestão do Itaqui até 2051](https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/noticias/2026/01/ministerio-de-portos-e-aeroportos-e-governo-do-maranhao-antecipam-renovacao-da-gestao-do-porto-do-itaqui-ate-2051). 29 jan. 2026.
-- Ministério de Portos e Aeroportos. [De norte a sul, os caminhos que levam a produção brasileira ao mundo](https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/noticias/2026/08/de-norte-a-sul-os-caminhos-que-levam-a-producao-brasileira-ao-mundo). Movimentação de Ponta da Madeira em 2025 e integração de corredores, 27 ago. 2026.
 - Alumar. [Fact sheet](https://www.alcoa.com/brasil/pt/pdf/brasil-alumar-fact-sheet.pdf). Complexo industrial e terminal.
 - ANAC. [Cadastro de Aeródromos](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos-privativo/cadastro-de-aerodromos). Conceitos e cadastro oficial.
 - ANAC. [Portaria nº 16.285/SIA, de 31 de janeiro de 2025](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2025/portaria-16285). Certificação operacional de São Luís, SBSL/MA0001.
 - ANAC. [Portaria nº 17.879/SIA, de 16 de setembro de 2025](https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2025/portaria-17879). Certificação operacional de Imperatriz, SBIZ/MA0002.
 - ANAC. [Metadados dos Dados de Movimentação Aeroportuária](https://www.anac.gov.br/acesso-a-informacao/dados-abertos/areas-de-atuacao/operador-aeroportuario/dados-de-movimentacao-aeroportuaria/60-dados-de-movimentacao-aeroportuaria). RIMA, pousos/decolagens, passageiros, carga e correio.
-- Motiva. [Fato Relevante — Conclusão da Transação da Plataforma de Aeroportos](https://ri.motiva.com.br/noticia/fato-relevante-conclusao-da-transacao-da-plataforma-de-aeroportos/). Venda concluída à ASUR em 1º set. 2026.
-- ASUR. [ASUR closes acquisition of Motiva’s interests in airports in Brazil, Ecuador, Costa Rica and Curaçao](https://www.asur.com.mx/asur-signs-deal-to-acquire-motiva-s-stake-in-airport-business-in-brazil-ecuador-costa-rica-and-curacao-2). Comunicado de 1º set. 2026 sobre a conclusão da aquisição.
-- Motiva Aeroportos. [Aeroporto de São Luís](https://aeroportos.motiva.com.br/sao-luis-ma/o-aeroporto/sobre-o-aeroporto/). Nome e código IATA no recorte anterior à transição de marca.
-- Motiva Aeroportos. [Aeroporto de Imperatriz](https://aeroportos.motiva.com.br/imperatriz-ma/o-aeroporto/sobre-o-aeroporto/). Nome e código IATA no recorte anterior à transição de marca.
