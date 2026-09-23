@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q5979",
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "q6028",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Para o concurso de 2026, o Regimento deve ser estudado considerando",
       "options": [
@@ -1484,7 +1484,7 @@
         },
         {
           "id": "B",
-          "text": "as alterações vigentes até a publicação do edital em 6/7/2026."
+          "text": "as alterações vigentes até a publicação do edital em 7/7/2026."
         },
         {
           "id": "C",
@@ -1500,7 +1500,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O edital permite cobrança da legislação vigente até sua publicação; alterações regimentais anteriores ao corte devem ser consideradas."
+      "explanation": "O edital admite alterações legais vigentes até a publicação. O Edital nº 1 é datado de 6/7/2026, mas sua publicação foi informada para 7/7/2026; confira o texto regimental vigente nesse corte."
     },
     {
       "id": "q6029",

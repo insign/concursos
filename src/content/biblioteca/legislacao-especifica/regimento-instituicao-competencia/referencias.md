@@ -2,6 +2,6 @@
 - BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm). Arts. 70, 71 e 75.
 - ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/ged/constituicao-estadual/detalhe.html). Disposições sobre controle externo estadual e municipal.
 - MARANHÃO. Lei Estadual nº 8.258/2005. Lei Orgânica do Tribunal de Contas do Estado do Maranhão.
-- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Competências](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias). Rol institucional e fundamentos das atribuições do TCE/MA.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Competências](https://www.tcema.tc.br/institucional/competencias/). Rol institucional e fundamentos das atribuições do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 - TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Portal oficial de legislação](https://app.tcema.tc.br/publicacao/#/muraldocumentos?destino=e). Consulta de atos normativos e alterações regimentais.
-- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Resolução TCE/MA nº 441/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9486). Alteração regimental anterior à publicação do edital.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Resolução TCE/MA nº 441/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9486). Alteração regimental publicada em 30/4/2026, antes do corte do edital.
