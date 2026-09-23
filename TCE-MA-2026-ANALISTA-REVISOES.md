@@ -75,7 +75,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M03 | `G/raciocinio-logico` | H036–H045 | V: `raciocinio-logico` | `ff6dd84d7a3693950b36f6b28ba6ae825a1bbd4a` |
 | M04 | `G/controle-externo` | H046–H054 | V: `controle-externo` | [`cfb3291`](https://github.com/insign/concursos/commit/cfb329124273c1cda28254fadf1363c5dae031d7) |
 | M05 | `G/legislacao-especifica` | H055–H072 | V: `legislacao-especifica` | [`37edcc7`](https://github.com/insign/concursos/commit/37edcc716d1ce4411c5cb43c5b50ebf8c183fea0) |
-| M06 | `G/historia-geografia-estado-maranhao` | H073–H094 | L | — |
+| M06 | `G/historia-geografia-estado-maranhao` | H073–H094 | L | [`7cb9f65`](https://github.com/insign/concursos/commit/7cb9f65926262303f7b6b4cfe72b7afa430e6eef) |
 | M07 | `G/nocoes-direitos-humanos` | H095–H102 | V: `nocoes-direitos-humanos` | — |
 | M08 | `E/administracao-publica` | H103–H114 | L | — |
 | M09 | `E/administracao-recursos-materiais-patrimoniais` | H115–H123 | L | — |
