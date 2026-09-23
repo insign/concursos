@@ -1,393 +1,127 @@
 # Microsoft Excel: planilhas, fórmulas, funções e gráficos
 
-## Roteiro de prova
+## Ordem de leitura na prova
 
-**Ambiente → valor armazenado → fórmula → referências → função → critérios → resultado → apresentação.**
+**Ambiente e versão → tipo da célula → precedência → referências ao copiar → critérios → resultado → apresentação.**
 
-- Desktop, Web, versão, idioma e localidade podem mudar recursos e sintaxe.
-- Valor, fórmula e formato exibido são camadas diferentes.
-- Primeiro descubra o que a fórmula faz; depois calcule.
+## Estrutura, valor e aparência
 
-## Estrutura
-
-| Elemento | Regra |
+| Elemento | Recuperação |
 |---|---|
-| pasta de trabalho | arquivo do Excel |
-| planilha | aba dentro da pasta |
-| célula | interseção de linha e coluna |
-| intervalo | conjunto de células |
-| Caixa de Nome | endereço/nome da seleção |
-| Barra de Fórmulas | conteúdo ou fórmula da célula |
+| pasta de trabalho | arquivo que contém planilhas |
+| planilha | aba com linhas e colunas; `D7` é coluna D, linha 7 |
+| intervalo | células entre extremos inclusive: `B2:E5` tem 4 × 4 células |
+| Caixa de Nome | endereço ou nome da seleção |
+| Barra de Fórmulas | conteúdo ou fórmula da célula ativa |
 
-- Limpar conteúdo ≠ excluir célula.
-- Ocultar ≠ remover.
-- Excluir linha/coluna desloca a estrutura.
+- **Número × texto:** armazene `00123` como texto para conservar zeros; formato `00000` apenas exibe zeros no número 123. Texto numérico pode ordenar por caracteres e ser ignorado por `SOMA` em intervalos.
+- **Data/hora:** valores válidos são números seriais; dias inteiros e frações de dia representam data e hora. Texto que parece data pode não servir ao cálculo.
+- **Valor × formato:** `0,25` em porcentagem aparece como `25%`; formatar o número 25 como porcentagem pode exibir `2500%`. Reduzir casas decimais arredonda a exibição, enquanto `ARRED` altera o resultado do cálculo.
+- **Pincel de Formatação:** copia aparência, inclusive orientação, sem valor/fórmula; duplo clique permite vários destinos, conforme permissões de proteção.
+- **Limpar conteúdo / limpar formato / excluir / ocultar:** os dois primeiros removem respectivamente dado ou aparência; excluir altera a estrutura e pode afetar referências; ocultar conserva dados.
 
-## Tipos e formatos
+## Fórmulas e referências
 
-- números, texto, datas, horas, lógicos, vazios e erros;
-- data/hora costuma ser número serial;
-- `0,25` formatado como porcentagem aparece como `25%`;
-- formato não altera necessariamente o valor;
-- `00123` pode precisar ser texto;
-- reduzir casas decimais pode arredondar só a exibição.
+Uma fórmula normalmente começa com `=`. Em português do Brasil, são comuns `,` decimal e `;` entre argumentos; **a configuração regional da questão prevalece**.
 
-## Operadores e precedência
+| Ordem de precedência, da maior à menor | Operadores |
+|---|---|
+| referência | `:` intervalo; espaço, células comuns a dois intervalos (interseção); união conforme configuração |
+| sinal e porcentagem | negação `-` antes de `%` |
+| potência; produto; soma | `^` → `*` e `/` → `+` e `-` |
+| texto; comparação | `&` concatena → `=`, `<>`, `<`, `>`, `<=`, `>=` |
 
-1. referência;
-2. negação;
-3. `%`;
-4. `^`;
-5. `*` e `/`;
-6. `+` e `-`;
-7. `&`;
-8. comparações.
+Mesma prioridade: da esquerda para a direita. Parênteses antecipam o cálculo: `=2+3*4` dá 14, `=(2+3)*4` dá 20. **No Excel, a negação precede a potência:** `=-2^2` dá 4; `=-(2^2)` dá -4.
 
-```text
-=2+3*4       → 14
-=(2+3)*4     → 20
-```
-
-- pt-BR típico: decimal `,` e argumentos `;`.
-- A configuração regional prevalece.
-
-## Referências
-
-| Referência | Coluna | Linha |
+| Referência em fórmula copiada uma coluna à direita e uma linha abaixo | Resultado | Fixo |
 |---|---|---|
-| `A1` | varia | varia |
-| `$A$1` | fixa | fixa |
-| `$A1` | fixa | varia |
-| `A$1` | varia | fixa |
+| `A1` | `B2` | nada |
+| `$A$1` | `$A$1` | coluna e linha |
+| `$A1` | `$A2` | coluna |
+| `A$1` | `B$1` | linha |
 
-```text
-=$A2*B$1
-```
+`=$A2*B$1` torna-se `=$A3*C$1`. `=MÉDIA(E$2:E2)` copiada para baixo mantém o início e expande o fim. **Mover** por recorte difere de copiar; excluir células referidas pode invalidá-las, mesmo com `$`. Dependência da própria célula, direta ou indireta, é **referência circular**. `Cadastro!A2` indica outra aba; referência externa depende do arquivo/caminho.
 
-Copiada uma coluna à direita e uma linha abaixo:
+## Resumos e contagens
 
-```text
-=$A3*C$1
-```
-
-## Funções básicas
-
-| Necessidade | Função |
+| Pergunta | Função e atenção |
 |---|---|
-| total | `SOMA` |
-| média | `MÉDIA` |
-| maior/menor | `MÁXIMO` / `MÍNIMO` |
-| k-ésimo maior/menor | `MAIOR` / `MENOR` |
-| contar números | `CONT.NÚM` |
-| contar não vazias | `CONT.VALORES` |
-| contar vazias | `CONTAR.VAZIO` |
+| total / média / extremos | `SOMA`, `MÉDIA`, `MÁXIMO`, `MÍNIMO` |
+| posição na ordem | `MAIOR(intervalo;k)` / `MENOR(intervalo;k)`; repetidos ocupam posições, `k=1` dá o extremo |
+| quantos números | `CONT.NÚM`, incluindo datas numéricas |
+| quantas células com conteúdo | `CONT.VALORES`, incluindo texto, erro e fórmula que retorna `""` |
+| quantas parecem vazias | `CONTAR.VAZIO`, incluindo célula vazia e fórmula que retorna `""` |
 
-```text
-=MAIOR(E2:E100;3)
-=MENOR(E2:E100;2)
-```
+Em **intervalo referenciado**, `SOMA` e `MÉDIA` ignoram texto e vazios; erros podem propagar-se, e zero participa da média. `=A1+"texto"` pode dar `#VALOR!`. Uma fórmula `=""` pode ser contada **tanto** por `CONT.VALORES` quanto por `CONTAR.VAZIO`; as contagens não formam necessariamente uma partição.
 
-- `MÁXIMO` = `MAIOR(...;1)`.
-- `CONT.VALORES` ≠ contar números.
+## Critérios: testar uma linha, somar ou contar outra
 
-## Critérios
-
-| Objetivo | Função |
+| Objetivo | Sintaxe e decisão |
 |---|---|
-| somar com um critério | `SOMASE` |
-| somar com vários critérios | `SOMASES` |
-| contar com um critério | `CONT.SE` |
-| contar com vários critérios | `CONT.SES` |
+| somar com um critério | `SOMASE(intervalo;critério;[intervalo_soma])`: testa o primeiro; sem terceiro, soma nele próprio |
+| somar com vários | `SOMASES(intervalo_soma;intervalo_critérios1;critério1;...)`: soma primeiro, testa pares simultâneos |
+| contar com um / vários | `CONT.SE(intervalo;critério)` / `CONT.SES(intervalo1;critério1;...)`: devolvem quantidade, não total |
 
-### SOMASE
+`=SOMASE(B2:B100;"Saúde";E2:E100)` testa B e soma E na mesma linha; `=SOMASE(E2:E100;">70")` testa e soma E, excluindo 70. Alinhe os intervalos em `SOMASE`; em `SOMASES` e `CONT.SES`, mantenha **mesmas dimensões e registros correspondentes**. Todos os critérios são simultâneos.
 
-```text
-=SOMASE(intervalo;critério;[intervalo_soma])
-=SOMASE(E2:E100;">70000")
-=SOMASE(B2:B100;"Saúde";E2:E100)
-```
+- Comparação com célula: `">"&H1`; `">H1"` não lê H1. Em texto, `*` corresponde a qualquer sequência, `?` a um caractere e `~` permite procurar o símbolo literalmente.
+- Período com hora: `=CONT.SES(G2:G100;">="&H1;G2:G100;"<"&(H2+1))`, com H1/H2 como datas válidas e H2 sem horário, inclui o último dia inteiro. `"<="&H2` exclui horários após a meia-noite de H2.
 
-- terceiro argumento é opcional;
-- sem ele, soma o próprio intervalo testado.
+## Decisão, busca e erros
 
-### SOMASES
+- `SE(teste;se_verdadeiro;se_falso)` escolhe um ramo; `E(...)` exige todos os testes, `OU(...)` ao menos um. Em `SE` dentro de `SE`, leia primeiro o teste externo.
+- `PROCV(valor;tabela;índice_coluna;FALSO)` procura na **primeira coluna** do intervalo e retorna dela própria ou de outra à direita, pelo índice contado dentro do intervalo. `FALSO`/`0` busca exata; `VERDADEIRO`/`1` ou **argumento omitido** faz busca aproximada, com primeira coluna ordenada crescentemente (maior limite menor ou igual ao procurado). Abaixo do primeiro limite: `#N/D`.
+- `CORRESP(valor;intervalo;0)` dá posição relativa da primeira correspondência exata; omitir o modo usa `1`, busca aproximada em ordem crescente. `ÍNDICE(intervalo;posição)` devolve o item. Combiná-los permite devolver coluna à esquerda; empate com `CORRESP(...;0)` usa a primeira ocorrência.
+- `PROCX(valor;matriz_busca;matriz_retorno;[se_não_encontrado])` separa busca e retorno, inclusive para a esquerda, e é exata por padrão. Disponível no Microsoft 365 e Excel 2021/2024, **não** no Excel 2016/2019; a saída opcional trata ausência de correspondência, não qualquer erro.
+- `HOJE()` devolve data e `AGORA()` data/hora no recálculo; `TEXTO(data;"dd/mm/aaaa")` devolve **texto**. `&` concatena. `ESQUERDA`, `DIREITA`, `EXT.TEXTO` extraem caracteres, `NÚM.CARACT` conta e `ARRUMAR` elimina espaços comuns excedentes (não todos os espaços importados da Web).
 
-```text
-=SOMASES(intervalo_soma;intervalo_critérios1;critério1;...)
-=SOMASES(E2:E500;B2:B500;"Saúde";F2:F500;"Pago")
-```
-
-- intervalo somado vem primeiro;
-- todos os critérios devem ser satisfeitos.
-
-### CONT.SES
-
-```text
-=CONT.SES(F2:F500;"Pendente";E2:E500;">100000")
-```
-
-- conta registros; não soma.
-
-### Operador + célula
-
-```text
-=SOMASE(E2:E100;">"&H1)
-```
-
-### Curingas
-
-- `*`: qualquer sequência;
-- `?`: um caractere;
-- `~`: escapa curinga literal.
-
-## Lógica
-
-```text
-=SE(teste;verdadeiro;falso)
-=SE(E(B2="Saúde";E2>100000);"Prioritário";"Normal")
-=SE(OU(F2="Pendente";F2="Bloqueado");"Acompanhar";"Sem alerta")
-```
-
-- `E`: todas verdadeiras.
-- `OU`: ao menos uma verdadeira.
-
-### SE aninhado
-
-```text
-=SE(A2="valor padrão";0;SE(B2>0,5;B2;-1))
-```
-
-### SEERRO
-
-```text
-=SEERRO(PROCV(A2;Cadastro!A:D;4;FALSO);"Cadastro não localizado")
-```
-
-- melhora a saída;
-- não corrige cadastro ou referência;
-- devolver `0` para todo erro pode mascarar problema.
-
-## Pesquisa e referência
-
-### PROCV
-
-```text
-=PROCV(valor;tabela;índice_coluna;FALSO)
-```
-
-- procura na primeira coluna;
-- retorna à direita;
-- `FALSO`/`0`: exata;
-- aproximação exige base apropriada.
-
-### CORRESP
-
-```text
-=CORRESP(valor;intervalo;0)
-```
-
-Retorna **posição**.
-
-### ÍNDICE
-
-```text
-=ÍNDICE(intervalo;posição)
-```
-
-Retorna o item.
-
-### ÍNDICE + CORRESP
-
-```text
-=ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))
-```
-
-- flexível;
-- funciona em versões antigas;
-- busca para qualquer direção.
-
-### PROCX
-
-```text
-=PROCX(A2;Cadastro!A:A;Cadastro!D:D;"Não encontrado")
-```
-
-- exata por padrão;
-- busca e retorno independentes;
-- pode não existir em versão antiga.
-
-## Datas e texto
-
-```text
-=HOJE()
-=AGORA()
-=TEXTO(HOJE();"dd/mm/aaaa")
-=A2&" - "&B2
-```
-
-- `TEXTO` devolve texto;
-- data visual ≠ necessariamente data numérica;
-- `&` concatena, não soma.
-
-## Erros
-
-| Erro | Causa comum |
+| Mensagem | Investigar primeiro |
 |---|---|
-| `#DIV/0!` | divisão por zero |
-| `#N/D` | não encontrado |
-| `#NOME?` | nome inválido |
-| `#REF!` | referência quebrada |
+| `#DIV/0!` | divisor zero ou vazio |
 | `#VALOR!` | tipo incompatível |
-| `#NÚM!` | argumento numérico inválido |
-| `#DESPEJAR!` | área de matriz bloqueada |
+| `#NOME?` | nome, função ou aspas |
+| `#REF!` | referência invalidada |
+| `#N/D` | busca sem correspondência |
+| `#NÚM!` | argumento numérico impossível |
+| `#DESPEJAR!` | área ocupada onde uma fórmula de matriz dinâmica tentaria preencher várias células |
 
-Diagnóstico:
+`#####` pode indicar coluna estreita, sem erro na fórmula. Examine tipos, referências, precedentes (células usadas) e dependentes (que usam o resultado); Avaliar Fórmula percorre etapas. `SEERRO(valor;alternativa)` troca a saída, **sem corrigir a causa**; zero pode mascarar falha.
 
-1. Barra de Fórmulas;
-2. referências;
-3. tipos;
-4. Avaliar Fórmula;
-5. precedentes/dependentes;
-6. só então `SEERRO`.
+## Base, registros e relatório
 
-## Tabela do Excel
-
-- estrutura a base;
-- filtros integrados;
-- expansão automática;
-- referências estruturadas;
-- boa fonte para gráfico e Tabela Dinâmica.
-
-```text
-=SOMA(TabelaDespesas[Valor])
-```
-
-**Tabela do Excel ≠ Tabela Dinâmica.**
-
-## Classificação e filtro
-
-- classificar muda ordem;
-- expandir seleção preserva registros;
-- filtrar oculta temporariamente;
-- filtro não exclui;
-- ordenar só uma coluna pode corromper a relação entre campos.
-
-## Duplicatas
-
-| Recurso | Efeito |
+| Ação | Efeito decisivo |
 |---|---|
-| filtro de exclusivos | oculta/copia exclusivos |
-| Remover Duplicatas | exclui linhas |
-| realçar duplicatas | só formata |
-| `ÚNICO` | gera matriz dinâmica, quando disponível |
+| Tabela do Excel | estrutura registros, filtros, expansão e referências por nome de coluna: `=SOMA(TabelaDespesas[Valor])` |
+| classificar | muda ordem; expanda a seleção para manter campos na mesma linha |
+| filtrar | oculta linhas, sem excluí-las; `SOMA` ainda as inclui; `SUBTOTAL(9;intervalo)` ignora filtradas e `SUBTOTAL(109;intervalo)` também ignora ocultadas manualmente |
+| Remover Duplicatas | colunas escolhidas formam chave; conserva primeira ocorrência e exclui a linha duplicada **dentro da tabela/seleção**; compara resultados exibidos, até formatos de data podem afetar a comparação |
+| filtrar exclusivos / `ÚNICO` | mostra ou produz lista sem apagar registros; `ÚNICO` preenche células vizinhas com os resultados em Microsoft 365 e Excel 2021/2024 |
+| Validação de Dados | restringe digitação conforme regra e alerta, mas colagem pode contorná-la |
+| Formatação Condicional | altera aparência por regra, sem mudar valor |
+| Proteger Planilha / Proteger Estrutura da Pasta | restringem, respectivamente, edição de células e operações com abas; bloqueio de célula depende de ativar a proteção e permissões |
 
-- colunas selecionadas formam a chave;
-- primeira ocorrência fica;
-- linha inteira duplicada é removida;
-- fórmulas diferentes com resultado igual podem ser duplicatas.
+**Tabela Dinâmica resume, Tabela do Excel organiza.** Fonte: cabeçalhos únicos, registro por linha, tipos coerentes, sem subtotais manuais. Categorias em Linhas/Colunas, medida em Valores, filtro geral em Filtros; segmentação oferece botões. Campo numérico tende a Soma, texto/tipos mistos podem resultar em Contagem. Após mudar dados, **Atualizar** o relatório; intervalo fixo ainda pode excluir novas linhas.
 
-## Validação e formatação condicional
+## Visualizar, imprimir e salvar
 
-- validação limita entrada e pode mostrar alerta;
-- colagem pode contornar certas validações;
-- formatação condicional muda aparência, não valor;
-- cor vermelha ≠ valor negativo.
-
-## Tabela Dinâmica
-
-### Fonte
-
-- uma linha de cabeçalho;
-- uma linha por registro;
-- tipos coerentes;
-- sem subtotais manuais;
-- prefira Tabela do Excel.
-
-### Áreas
-
-| Área | Papel |
+| Pergunta visual | Escolha |
 |---|---|
-| Linhas | categorias verticais |
-| Colunas | categorias horizontais |
-| Valores | soma, contagem, média etc. |
-| Filtros | restringe relatório inteiro |
+| comparar categorias / acompanhar tempo | barras ou colunas / linhas |
+| partes de um todo | pizza ou rosca, poucas partes de uma mesma série |
+| dois valores numéricos / distribuição em faixas | dispersão / histograma |
+| mediana, quartis e pontos afastados | caixa e bigodes; quartis dividem valores ordenados em quatro partes; ponto atípico não é erro comprovado |
+| séries com escalas diferentes | gráfico combinado; identifique a escala de cada eixo |
 
-- campos podem ser movidos;
-- verifique Soma versus Contagem;
-- pode filtrar, classificar, agrupar, expandir e recolher;
-- datas podem ser agrupadas;
-- segmentação filtra visualmente;
-- alteração na fonte pode exigir **Atualizar**;
-- intervalo fixo pode não incluir novas linhas.
+Confira título, unidade e escala: eixo truncado distorce comparação; variação conjunta não prova causalidade. Gráfico Dinâmico acompanha a Tabela Dinâmica, inclusive quando ela requer atualização.
 
-## Gráficos
+**Impressão:** defina seleção/área, orientação, margens, quebras e escala. Títulos repetem linhas ou colunas nas páginas; cabeçalho/rodapé é outro recurso. Grade na tela não garante impressão. Ajustar tudo em uma página pode prejudicar leitura.
 
-| Objetivo | Gráfico |
+| Formato | Preserva ou perde |
 |---|---|
-| comparar categorias | colunas/barras |
-| tendência temporal | linhas |
-| parte do todo | pizza/rosca, poucas categorias |
-| relação de variáveis | dispersão |
-| distribuição | histograma |
-| quartis e atípicos | caixa e bigodes |
+| <abbr title="Pasta de trabalho do Excel em Office Open XML">XLSX</abbr> | padrão sem macros em <abbr title="Visual Basic for Applications">VBA</abbr> |
+| <abbr title="Pasta de trabalho do Excel habilitada para macros">XLSM</abbr> / <abbr title="Pasta de trabalho binária do Excel">XLSB</abbr> | comportam macros; segundo é binário |
+| <abbr title="Formato legado de pasta de trabalho do Excel">XLS</abbr> | formato legado, com limites de compatibilidade |
+| <abbr title="Comma-Separated Values — valores separados por vírgulas">CSV</abbr> | texto da planilha ativa; não preserva abas, estilos, gráficos e estrutura de fórmulas; conferir separador, datas e zeros à esquerda |
+| <abbr title="OpenDocument Spreadsheet">ODS</abbr> / <abbr title="Portable Document Format">PDF</abbr> | interoperabilidade com possíveis perdas / apresentação fixa |
 
-- evite 3D decorativo;
-- título e unidade;
-- eixo truncado exige cautela;
-- correlação ≠ causalidade;
-- Gráfico Dinâmico acompanha Tabela Dinâmica.
-
-## Impressão
-
-- área de impressão;
-- orientação e papel;
-- margens;
-- escala;
-- largura/altura em páginas;
-- títulos repetidos;
-- quebras;
-- cabeçalho/rodapé;
-- linhas de grade.
-
-“Ajustar tudo em uma página” pode tornar ilegível.
-
-## Formatos
-
-| Formato | Regra |
-|---|---|
-| XLSX | padrão sem macros |
-| XLSM | habilitado para macros |
-| XLSB | binário |
-| XLS | legado |
-| <abbr title="Comma-Separated Values">CSV</abbr> | uma planilha textual, sem estilos/fórmulas/gráficos |
-| <abbr title="OpenDocument Spreadsheet">ODS</abbr> | compatibilidade parcial |
-| <abbr title="Portable Document Format">PDF</abbr> | saída fixa |
-
-- CSV ≠ pasta completa;
-- XLSX não preserva <abbr title="Visual Basic for Applications">VBA</abbr>;
-- macros podem executar código;
-- Excel Web ≠ desktop.
-
-## Pegadinhas finais
-
-- pasta ≠ planilha;
-- formato ≠ valor;
-- limpar ≠ excluir;
-- ocultar ≠ remover;
-- `A1` ≠ `$A$1`;
-- `CONT.NÚM` ≠ `CONT.VALORES`;
-- `MÁXIMO` ≠ segundo maior;
-- `SOMASE` ≠ `SOMASES`;
-- `CONT.SES` conta;
-- `CORRESP` retorna posição;
-- `ÍNDICE` retorna item;
-- `PROCV` procura na primeira coluna;
-- `PROCX` depende da versão;
-- `SEERRO` não corrige a causa;
-- filtro ≠ Remover Duplicatas;
-- Tabela ≠ Tabela Dinâmica;
-- Contagem em Tabela Dinâmica pode indicar tipo misto;
-- atualizar fonte ≠ atualizar relatório;
-- gráfico não corrige base;
-- CSV ≠ XLSX;
-- Web ≠ desktop.
+Macro é uma rotina de automação que pode executar código. Excel para a Web pode abrir e preservar uma pasta com macros em <abbr title="Visual Basic for Applications">VBA</abbr>, mas não cria, executa ou edita essas macros. Recurso e sintaxe dependem da versão e do ambiente informados na questão.

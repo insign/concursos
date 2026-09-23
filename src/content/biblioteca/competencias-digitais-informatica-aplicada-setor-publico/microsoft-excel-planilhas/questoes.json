@@ -649,7 +649,7 @@
     },
     {
       "id": "q4042",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Para retornar nome de analista em A2:A100 correspondente ao maior valor de D2:D100, usa-se",
       "options": [
@@ -657,7 +657,7 @@
         { "id": "B", "text": "`=CORRESP(A2:A100;MÁXIMO(D2:D100);0)`." },
         { "id": "C", "text": "`=SOMA(A2:A100;MÁXIMO(D2:D100))`." },
         { "id": "D", "text": "`=CONT.SE(A2:A100;MÁXIMO(D2:D100))`." },
-        { "id": "E", "text": "`ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))`." }
+        { "id": "E", "text": "`=ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))`." }
       ],
       "correctOptionId": "E",
       "explanation": "CORRESP encontra a posição do maior valor, e ÍNDICE devolve o nome na posição correspondente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -1009,15 +1009,15 @@
     },
     {
       "id": "q4066",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Qual sequencia apresenta a precedência dos principais operadores do Excel, do nível mais alto para o mais baixo?",
+      "prompt": "Qual sequência apresenta a precedência dos principais operadores do Excel, do nível mais alto para o mais baixo?",
       "options": [
-        { "id": "A", "text": "negação; referência; exponenciação; porcentagem; concatenação multiplicação/divisão; adição/subtração; comparação." },
+        { "id": "A", "text": "negação; referência; exponenciação; porcentagem; concatenação; multiplicação/divisão; adição/subtração; comparação." },
         { "id": "B", "text": "concatenação; referência; comparação; porcentagem; exponenciação; multiplicação/divisão; adição/subtração; negação." },
-        { "id": "C", "text": "multiplicação/divisão; referência; comparação; adição/subtração; concatenação exponenciação; porcentagem; negação." },
-        { "id": "D", "text": "negação; multiplicação/divisão; comparação adição/subtração concatenação exponenciação porcentagem referência." },
-        { "id": "E", "text": "referência; negação porcentagem exponenciação multiplicação/divisão adção/subtração concatenação comparação." }
+        { "id": "C", "text": "multiplicação/divisão; referência; comparação; adição/subtração; concatenação; exponenciação; porcentagem; negação." },
+        { "id": "D", "text": "negação; multiplicação/divisão; comparação; adição/subtração; concatenação; exponenciação; porcentagem; referência." },
+        { "id": "E", "text": "referência; negação; porcentagem; exponenciação; multiplicação/divisão; adição/subtração; concatenação; comparação." }
       ],
       "correctOptionId": "E",
       "explanation": "Operadores de referência precedem negação, porcentagem, exponenciação, multiplicação/divisão, adição/subtração, concatenação e comparação. Fonte: questão adaptada de FGV; MPRJ; Analista do Ministério Público — Área Administrativa; 2025; questão 58; prova https://conhecimento.fgv.br/sites/default/files/concursos/analista-do-ministerio-publico-area-administrativacns101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/gabaritodefinitivo09.09_mprjanalista.pdf; adaptação: alternativas condensadas, preservando a ordem cobrada e o gabarito."
