@@ -1,176 +1,39 @@
 # Extrativismo vegetal, animal e mineral
 
-## Mapa do assunto
+## A origem do recurso decide a atividade
 
-**Retirar do estoque natural → vegetal / animal / mineral.**
-
-Não confunda **extração** com **cultivo, criação, transformação ou transporte**.
-
-## Fronteiras essenciais
-
-| Situação | Classe |
+| Recurso / ato | Classificação e fonte |
 |---|---|
-| açaí coletado em vegetação espontânea | extração vegetal |
-| açaí cultivado | agricultura / <abbr title="Produção Agrícola Municipal">PAM</abbr> |
-| eucalipto plantado | silvicultura |
-| peixe capturado no mar ou rio | pesca extrativa |
-| peixe criado em viveiro | aquicultura |
-| minério retirado da jazida | lavra mineral |
-| alumina, aço, celulose | indústria |
-| minério paraense passando pelo MA | logística |
+| açaí de vegetação espontânea, amêndoa de babaçu coletada | extrativismo vegetal; <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> |
+| açaí cultivado | agricultura; <abbr title="Produção Agrícola Municipal">PAM</abbr> |
+| madeira de eucalipto plantado | silvicultura; <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>, em universo separado da extração espontânea |
+| captura de peixe ou marisco no ambiente natural | pesca extrativa; estatística do <abbr title="Ministério da Pesca e Aquicultura">MPA</abbr> |
+| criação controlada de peixe | aquicultura, não captura; <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> |
+| retirada de minério da jazida | lavra; produção mineral da <abbr title="Agência Nacional de Mineração">ANM</abbr> |
+| produção de petróleo e gás | fonte própria: <abbr title="Agência Nacional do Petróleo, Gás Natural e Biocombustíveis">ANP</abbr> |
 
-## Fonte × objeto
+A fonte e o nome do produto isolado não bastam: **carvão e madeira** podem vir tanto de vegetação espontânea quanto de floresta plantada. A <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> registra os dois universos em separado. Em 2024, carvão vegetal, **amêndoa** de babaçu, açaí **fruto** e lenha se destacavam em valor na extração vegetal maranhense. Amêndoa não é coco inteiro nem óleo industrializado; pó de carnaúba não é cera pronta. Compare valor com valor e quantidade na mesma unidade: tonelada não equivale a metro cúbico.
 
-| Fonte | Use para |
+**Babaçu Livre** articula acesso das quebradeiras aos babaçuais e proteção das palmeiras; a Reserva Extrativista Quilombo do Frexal, em Mirinzal, é referência territorial. Importância social, volume colhido e valor monetário são critérios distintos. Eucalipto plantado → madeira de silvicultura → celulose industrial: a etapa muda ao longo da cadeia.
+
+## Captura e manejo
+
+**Pesca marinha** usa mar e costa; **continental**, rios, lagos e várzeas. Manguezais e estuários oferecem abrigo, alimentação e reprodução para recursos pesqueiros e sustentam mariscagem (coleta costeira de moluscos e crustáceos). A importância ecológica não informa uma tonelagem municipal.
+
+O boletim do <abbr title="Ministério da Pesca e Aquicultura">MPA</abbr> 2023–2024 recompõe séries com cobertura e métodos heterogêneos: diferença entre dois anos não prova tendência longa ou causa. **Sem estimativa estadual consolidada para captura continental não significa zero**. O <abbr title="Registro Geral da Atividade Pesqueira">RGP</abbr> é cadastro/licenciamento de pescadores, não medição de desembarque. **Defeso** é restrição temporária de captura, ligada a recurso, área e período para proteger fases biológicas; pesca artesanal também está sujeita a regras. Caça profissional de fauna silvestre é proibida pela Lei 5.197/1967; não a trate como setor equivalente à pesca.
+
+## Mineral: qual estágio foi demonstrado?
+
+| Evidência | O que permite concluir |
 |---|---|
-| <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>/<abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> | extração vegetal + silvicultura |
-| PAM | cultivo agrícola |
-| <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> | criação/aquicultura |
-| <abbr title="Ministério da Pesca e Aquicultura">MPA</abbr> | pesca |
-| <abbr title="Agência Nacional de Mineração">ANM</abbr> | mineração/<abbr title="Compensação Financeira pela Exploração Mineral">CFEM</abbr> |
-| <abbr title="Serviço Geológico do Brasil">SGB</abbr> | geologia/potencial |
-| <abbr title="Agência Nacional do Petróleo, Gás Natural e Biocombustíveis">ANP</abbr> | petróleo e gás |
+| ocorrência ou recurso mineral | presença ou potencial investigado; não comprova mina em operação |
+| reserva | parcela com viabilidade avaliada; não equivale a produção anual |
+| título minerário | situação administrativa; sozinho não demonstra tonelagem lavrada |
+| produção declarada por local e período | extração no recorte perguntado |
+| <abbr title="Compensação Financeira pela Exploração Mineral">CFEM</abbr> | compensação financeira, não massa: município afetado por ferrovia ou porto pode receber sem lavra em seu território |
 
-## Extrativismo vegetal — 2024
+A <abbr title="Agência Nacional de Mineração">ANM</abbr> destaca **ouro e gipsita** no valor mineral maranhense de 2023; potencial geológico não se converte automaticamente em produção. Produção bruta do minério já inclui o metal contido: não some as duas massas. Para petróleo e gás, use a <abbr title="Agência Nacional do Petróleo, Gás Natural e Biocombustíveis">ANP</abbr>; o destaque maranhense é o **gás terrestre** da Bacia do Parnaíba. **Bacia** é unidade geológica, **campo** é área produtora delimitada; reserva, gás produzido, processado e geração termelétrica medem coisas diferentes. O anuário de 2026 cobre a série até 2025, sem transformar média diária de um mês em total anual.
 
-Produtos de maior destaque em **valor**:
+## Faça a rastreabilidade da cadeia
 
-1. **carvão vegetal**;
-2. **babaçu-amêndoa**;
-3. **açaí-fruto**;
-4. **lenha**.
-
-### Partes e unidades
-
-- babaçu → **amêndoa**;
-- açaí → **fruto**;
-- jaborandi → **folha**;
-- carnaúba → pó ≠ fibra ≠ cera beneficiada;
-- carvão/frutos → t;
-- lenha/madeira em tora → m³.
-
-**t ≠ m³. Valor ≠ quantidade.**
-
-## Açaí: origem decide
-
-| Origem | Base |
-|---|---|
-| espontânea | PEVS / extrativismo |
-| cultivada | PAM / agricultura |
-
-O açaí extrativo teve volume muito superior ao cultivado no Maranhão em 2024.
-
-## Babaçu
-
-- forte importância econômica **e social**;
-- quebradeiras de coco, trabalho familiar/comunitário e acesso aos babaçuais;
-- volume ≠ valor ≠ importância social;
-- amêndoa ≠ coco inteiro ≠ óleo industrializado.
-
-## Silvicultura ≠ extração espontânea
-
-- eucalipto plantado → silvicultura;
-- madeira para celulose → matéria-prima florestal plantada;
-- celulose → indústria;
-- carvão pode ter origem extrativa **ou** plantada.
-
-## Extrativismo animal
-
-| Modalidade | Chave |
-|---|---|
-| pesca marinha | mar, costa, baías, estuários |
-| pesca continental | rios, lagos, várzeas |
-| mariscagem | coleta costeira de moluscos/crustáceos |
-| aquicultura | criação controlada; não é pesca extrativa |
-
-### Estatística pesqueira
-
-MPA 2023-2024 = **retomada estatística**, com fontes heterogêneas.
-
-- pesca marinha MA 2023: ~**19,01 mil t**;
-- pesca marinha MA 2024: ~**18,42 mil t**;
-- pequena queda ≠ tendência longa/causa provada;
-- pesca continental estadual não consolidada ≠ zero.
-
-**Dado de aquicultura não pode virar captura extrativa.**
-
-## Manguezais e estuários
-
-- abrigo, alimentação e reprodução;
-- sustentam pesca e mariscagem artesanais;
-- associação ecológica ≠ tonelagem municipal;
-- defeso = restrição temporária/específica, não proibição eterna.
-
-## Artesanal × industrial
-
-**Artesanal:** menor escala, trabalho familiar/comunitário, desembarque disperso.
-
-**Industrial:** maior capitalização, autonomia e armazenamento.
-
-Artesanal ≠ sempre sustentável. Industrial ≠ sempre ilegal.
-
-## Mineração: sequência conceitual
-
-**Ocorrência → recurso → reserva**
-
-Mas não há progressão automática.
-
-- ocorrência/potencial ≠ mina;
-- título ≠ produção;
-- produção bruta ≠ metal contido;
-- CFEM ≠ toneladas.
-
-## Destaques minerais do Maranhão
-
-- **ouro**;
-- **gipsita**;
-- produção de **minério de ferro** também confirmada pela ANM;
-- minerais de construção têm relevância regional.
-
-**Ferro contido está dentro do minério bruto: não somar.**
-
-## Petróleo e gás
-
-Fonte: **ANP**.
-
-No corte de 4/8/2026, prefira o **Anuário 2026**, que consolida dados até **2025**, a médias isoladas de dezembro de 2024.
-
-Chave maranhense: **gás natural terrestre / Bacia do Parnaíba**; petróleo tem peso muito menor.
-
-Não confunda:
-
-- anual × média mensal diária;
-- produção × reserva;
-- gás produzido × gás processado/distribuído;
-- produção de gás × geração termelétrica;
-- bacia × campo × poço.
-
-## Indústria e logística
-
-- <abbr title="Consórcio de Alumínio do Maranhão">ALUMAR</abbr> em São Luís → transformação de bauxita; não prova lavra local;
-- minério de Carajás em ferrovia/porto maranhense → trânsito, não extração maranhense;
-- madeira plantada → silvicultura; celulose → indústria.
-
-## Pegadinhas-relâmpago
-
-1. PEVS = extração + silvicultura, mas os universos são distintos.
-2. Carvão vegetal ≠ mineral.
-3. Açaí PEVS ≠ açaí PAM.
-4. Babaçu PEVS = amêndoa.
-5. t ≠ m³.
-6. captura ≠ criação.
-7. pesca continental sem total consolidado ≠ zero.
-8. dado de aquicultura ≠ pesca extrativa.
-9. defeso ≠ proibição permanente.
-10. ocorrência ≠ reserva.
-11. título ≠ produção.
-12. CFEM ≠ produção física.
-13. município afetado ≠ produtor obrigatório.
-14. porto ≠ origem do minério.
-15. dado mensal ≠ total anual.
-
-## Método rápido
-
-Pergunte: **o recurso foi retirado, cultivado, criado, transformado ou apenas transportado?**
-
-Depois marque: **fonte + variável + unidade + período + território**.
+**Ferro extraído em Carajás (Pará) → ferrovia no Maranhão → terminal maranhense.** Trânsito e embarque não mudam a origem da lavra. **Bauxita recebida em São Luís → alumina e alumínio** indica transformação industrial, não extração local. Para qualquer afirmação, cheque **origem → etapa da cadeia → fonte → variável → unidade → período → território**. Registro estatístico de produção também não substitui licença ou fiscalização.
