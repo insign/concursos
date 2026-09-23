@@ -1,110 +1,27 @@
 # França Equinocial, São Luís e Guaxenduba
 
-## Linha-mestra
+**Duas distinções comandam o tema:** fundar um núcleo não é assegurar sua continuidade; vencer Guaxenduba não é expulsar os franceses no mesmo dia.
 
-$$
-1612\ (\text{Saint-Louis}) \rightarrow 1614\ (\text{Guaxenduba}) \rightarrow 1615\ (\text{fim francês}) \rightarrow 1616\ (\text{consolidação portuguesa})
-$$
+| Marco | Lugar e agente | Efeito que importa |
+| --- | --- | --- |
+| **1612 — 8 de setembro** | Expedição de **Daniel de La Touche (La Ravardière)** e **François de Razilly** estabelece **Saint-Louis**, na ilha de **Upaon-Açu**. | Núcleo fortificado, povoação e nome franceses; a cidade atual ainda não estava pronta. |
+| **1614 — 19 de novembro** | **Jerônimo de Albuquerque** e aliados indígenas defendem **Guaxenduba**, base no continente, na baía de São José, área de Icatu, contra franceses e aliados tupinambá. | Vitória estratégica da defesa; a posição francesa na ilha continua. |
+| **1615 — novembro** | Reforços de **Alexandre de Moura** pressionam La Ravardière; ocorre a **capitulação** (rendição da posição francesa). | Termina o domínio colonial francês organizado; segue a organização portuguesa de São Luís. |
+| **1616** | A conquista do Maranhão sustenta o avanço português ao **Grão-Pará**, com o Forte do Presépio, núcleo de Belém. | Expansão territorial, sem segunda fundação de São Luís. |
 
-## Quatro marcos
+## Como reconhecer a França Equinocial
 
-| Ano | O que lembrar |
-|---|---|
-| **1612** | franceses estabelecem **Saint-Louis** em Upaon-Açu |
-| **1614** | **19 nov.**: Batalha de Guaxenduba |
-| **1615** | capitulação e fim da França Equinocial |
-| **1616** | consolidação administrativa portuguesa |
+- **Projeto colonial, não simples escala comercial:** ocupação, fortificação, povoamento, governo, comércio e missão católica dos capuchinhos. A regente **Maria de Médici** o apoiou durante a **União Ibérica (1580–1640)**.
+- **A França não reconhecia a exclusividade da partilha de Tordesilhas** entre Portugal e Espanha. Já havia presença comercial e alianças franco-indígenas no litoral; não se tratava de território vazio.
+- **França Antártica × Equinocial:** Guanabara, a partir de **1555**, precede Maranhão, **1612**. Equinocial alude à faixa próxima ao Equador; não é a primeira tentativa colonial francesa no território brasileiro.
+- **Fundação × continuidade:** forte, povoação inicial e nome **Saint-Louis** remetem à etapa francesa; conquista, governo e urbanização posteriores, à portuguesa. Em enunciado categórico sobre “quem fundou”, identifique o sentido de *fundação* antes de julgar.
 
-## França Antártica × França Equinocial
+## Guaxenduba: mecanismo e limite da vitória
 
-| França Antártica | França Equinocial |
-|---|---|
-| Guanabara | Maranhão |
-| começou em **1555** | implantada em **1612** |
-| veio antes | não foi a primeira tentativa francesa |
+**Ilha francesa → ataque franco-tupinambá → defesa luso-indígena no continente.** A base fortificada protegeu a defesa; desembarque, maré, terreno, armas, abastecimento e alianças condicionaram o combate. Não há causa única nem cifra consensual de combatentes.
 
-## Personagens indispensáveis
+**Agência indígena:** os franceses tinham alianças sobretudo com os **Tupinambá**, e a campanha portuguesa também tinha aliados indígenas. Comunidades e lideranças negociavam interesses próprios; canoas, guias, alimentos, intérpretes e guerreiros eram decisivos nos dois lados.
 
-| Nome | Associação |
-|---|---|
-| **Daniel de La Touche / La Ravardière** | dirigente e comandante francês |
-| **François de Razilly** | dirigente da empresa francesa |
-| **Jerônimo de Albuquerque** | capitão-mor da campanha de 1614 |
-| **Diogo de Campos Moreno** | sargento-mor; *Jornada do Maranhão* |
-| **Alexandre de Moura** | reforços e desfecho de 1615 |
+**Resultado em dois tempos:** Guaxenduba preservou a base portuguesa em **1614**; negociação e reforços precederam a rendição em **1615**. **Diogo de Campos Moreno** participou da campanha e a narrou na *Jornada do Maranhão*; La Ravardière comandava o lado francês, Alexandre de Moura conduziu a pressão final.
 
-## Fundação de São Luís
-
-- Local: ilha de **Upaon-Açu**.
-- Núcleo: forte **Saint-Louis**.
-- Marco: **8 set. 1612**.
-- Franceses: núcleo, fortificação e topônimo.
-- Portugueses: conquista e organização posterior, sobretudo 1615-1616.
-
-> **Fórmula segura:** núcleo e nome franceses em 1612; conquista e institucionalização portuguesas depois.
-
-### Pegadinha da banca
-
-“Quem fundou São Luís?” pode depender do sentido de **fundação**. O Cebraspe já reconheceu divergência historiográfica em prova. Evite apagar qualquer das duas etapas.
-
-## Indígenas: não são figurantes
-
-- Base francesa: alianças sobretudo com **Tupinambá**.
-- Lado português: também houve aliados indígenas.
-- Funções: combate, canoas, guias, alimentos, interpretação e conhecimento do território.
-- Alianças eram negociadas e não necessariamente homogêneas.
-
-**Europeus sozinhos** = leitura errada.
-
-## Guaxenduba
-
-- Data: **19 nov. 1614**.
-- Posição portuguesa: **continente**, margem da baía de São José, área de Icatu.
-- Ataque: força **franco-Tupinambá**.
-- Defesa: força **luso-indígena**.
-- Resultado: **vitória estratégica portuguesa**.
-
-### Fatores do resultado
-
-**fortificação + desembarque difícil + maré + terreno + armas + logística + alianças**
-
-Não memorize uma causa única.
-
-## O que Guaxenduba NÃO fez
-
-- Não expulsou os franceses no mesmo dia.
-- Não encerrou Saint-Louis em 1614.
-- Não elimina a etapa de capitulação de 1615.
-
-**Guaxenduba vence a batalha; 1615 encerra o domínio colonial francês.**
-
-## Nossa Senhora da Vitória
-
-| História documentada | Tradição religiosa |
-|---|---|
-| batalha e vitória em 1614 | auxílio sobrenatural de Nossa Senhora |
-| explicação militar e política | memória religiosa e cultural |
-
-Não trate a tradição como demonstração causal do resultado militar.
-
-## Mapa de contrastes
-
-| Não confunda | Correto |
-|---|---|
-| Saint-Louis × Guaxenduba | ilha × continente |
-| 1612 × 1614 | fundação × batalha |
-| 1614 × 1615 | vitória militar × fim do domínio francês |
-| França Antártica × Equinocial | Guanabara × Maranhão |
-| franceses × portugueses | **ambos** com alianças indígenas |
-| milagre × fato documentado | tradição religiosa × batalha histórica |
-
-## Pegadinhas finais
-
-- França Equinocial ≠ primeira experiência colonial francesa no Brasil.
-- Daniel de La Touche = **La Ravardière**.
-- Fundação francesa ≠ cidade atual completamente pronta em 1612.
-- Organização portuguesa posterior ≠ inexistência do núcleo francês.
-- Cifras exatas de tropas variam entre fontes.
-- Guaxenduba = **1614**, não 1612 nem 1615.
-- Vitória de 1614 ≠ expulsão imediata.
-- Fim da França Equinocial = **1615**.
+**Nossa Senhora da Vitória:** a ajuda mariana integra a tradição religiosa do combate. A batalha e a vitória são fatos históricos; a tradição não substitui a explicação militar e política.
