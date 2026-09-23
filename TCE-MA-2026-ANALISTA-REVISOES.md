@@ -190,7 +190,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 |---|---|---|---|---|
 | H073 | `franca-equinocial-guaxenduba` | = | V | [`2e47bd8`](https://github.com/insign/concursos/commit/2e47bd8fbe2a7fa71784b598b1ea80bb974081eb) |
 | H074 | `invasao-expulsao-holandeses` | = | V | [`4274555`](https://github.com/insign/concursos/commit/427455538aecf242a6b3e79e7414a2806fc4d1eb) |
-| H075 | `revolta-bequimao-companhias` | = | V | — |
+| H075 | `revolta-bequimao-companhias` | = | V | [`c9c2923`](https://github.com/insign/concursos/commit/c9c2923875b5f760aa476d9d0885af0c5b48171c) |
 | H076 | `adesao-independencia-jenipapo` | = | V | — |
 | H077 | `balaiada-caracterizacao-causas` | = | V | — |
 | H078 | `adesao-republica-revolucao-1930` | = | V | — |
