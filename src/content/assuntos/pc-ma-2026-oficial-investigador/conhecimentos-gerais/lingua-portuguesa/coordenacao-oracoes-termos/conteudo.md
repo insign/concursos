@@ -35,7 +35,7 @@ Termos coordenados costumam exercer função equivalente em relação a um mesmo
 
 Não olhe apenas para as palavras vizinhas do conectivo. Em “Participaram **os peritos responsáveis pela coleta** e **os investigadores encarregados das entrevistas**”, o que se coordena são os dois grupos completos.
 
-Também pode haver coordenação sem identidade formal absoluta. Em “A equipe agiu **com cautela e rapidamente**”, uma locução preposicionada e um advérbio exercem a mesma função circunstancial. O importante é a relação estrutural e semântica, não uma aparência gráfica perfeitamente simétrica.
+Também pode haver coordenação sem identidade formal absoluta. Em “A equipe agiu **com cautela e rapidamente**”, uma expressão iniciada por preposição (*com cautela*) e um advérbio (*rapidamente*) exercem a mesma função circunstancial. O importante é a relação estrutural e semântica, não uma aparência gráfica perfeitamente simétrica.
 
 ## 3. Coordenação entre orações: mesmo nível, relações de sentido
 
@@ -66,7 +66,7 @@ A relação básica é de adição. Também podem ter valor aditivo *nem*, *não
 
 Aqui, *nem* soma uma segunda negação. Em termos de conteúdo básico, aproxima-se de *e não*: não ocorreu a primeira ação nem a segunda.
 
-Nas correlações, os dois membros são apresentados como relevantes:
+Uma **correlação** usa marcadores em par para ligar os membros, como *não só... mas também*. Nessa construção, os dois membros são apresentados como relevantes:
 
 > A medida exige **não só** revisão do formulário, **mas também** conferência dos anexos.
 
@@ -171,7 +171,7 @@ Outro exemplo:
 
 > A equipe decidiu **revisar o laudo e conferir os anexos**.
 
-Os infinitivos formam duas ações coordenadas dentro do complemento de *decidiu*. Portanto, **uma estrutura pode ser subordinada em relação ao que está fora e conter coordenação internamente**.
+As estruturas *revisar o laudo* e *conferir os anexos* têm núcleos no infinitivo e funcionam como **orações reduzidas de infinitivo** coordenadas dentro do complemento de *decidiu*. Elas não formam uma única locução verbal. Portanto, **uma estrutura pode ser subordinada em relação ao que está fora e conter coordenação internamente**.
 
 A U011 aprofunda as espécies de subordinação. Aqui, o objetivo é apenas impedir o falso dilema “ou coordenação ou subordinação no período inteiro”. A classificação depende de **quais unidades** estão sendo comparadas.
 
