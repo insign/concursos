@@ -127,7 +127,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H029 | `marco-civil-internet` | = | V | [`96dd723`](https://github.com/insign/concursos/commit/96dd723063911fffaad475caf971def6464ac567) |
 | H030 | `assinaturas-certificacao-digital` | = | V | [`8103750`](https://github.com/insign/concursos/commit/8103750e324f9ab6c779be18e0853d0853aa8974) |
 | H031 | `pen-sei-processo-eletronico` | = | V | [`905499a`](https://github.com/insign/concursos/commit/905499ac1cc964609a660512b1bfd3438e31895f) |
-| H032 | `governo-digital-dados-abertos` | = | V | — |
+| H032 | `governo-digital-dados-abertos` | = | V | [`2543211a7e`](https://github.com/insign/concursos/commit/2543211a7ee7fa6a8e58eb93ec4d4e131eafe47d) |
 | H033 | `ia-automacao-servicos-publicos` | = | V | — |
 | H034 | `dados-iot-cidades-inteligentes` | = | V | — |
 | H035 | `etica-responsabilidade-digital` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Dependência aberta para M02
 
+- H032: `conteudo.md` data a publicação de E1 em 6/7, quando o Tribunal informa 7/7; apresenta a Portaria SGD/MGI nº 11.229/2025 como vigente, embora a vigência tenha sido adiada para 30/11/2026, e trata e-SIC como canal separado de Fala.BR, integrado desde 2020. Revisar a aula em escopo próprio. q522326 exige o inciso literal de custo/risco não ensinado; reavaliar no banco sem inflar H/M.
 - H029: `conteudo.md` §10 chama 6/7 de corte legislativo, embora o edital tenha publicação informada em 7/7; também fixa como atual em 6/9 o andamento do Tema 533, já encerrada a sessão em 14/9, sem inteiro teor confirmado no portal do STF. Corrigir a aula em revisão própria; q522043 exige fundamento processual fora da aula. M02 não deve inferir tese nova nem importar decretos posteriores ao corte.
 - H028: questões q522031–q522033 exigem conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino da multa, detalhes ausentes do `conteudo.md`. Reavaliar o banco e a aula em revisão própria, sem transferir a lacuna à M02.
 - H027: o banco contém itens sobre autenticação de e-mail (SPF/DKIM/DMARC), consentimento OAuth e adware/stalkerware que o `conteudo.md` não ensina. Avaliar pertinência, realocação ou ensino em revisão própria do conteúdo/banco; a M02 deve seguir o recorte confirmado enquanto essa divergência estiver aberta.
