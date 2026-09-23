@@ -2,98 +2,71 @@
 
 ## Regra-mãe
 
-**Classifique pelo emprego no contexto, não pela forma isolada.**
+**Delimite a palavra ou expressão pedida; classifique pelo emprego.** Classe = tipo de palavra; função = papel na estrutura; valor semântico = sentido.
 
-| Trabalho no enunciado | Classe provável |
-| --- | --- |
-| modifica verbo, adjetivo, advérbio ou oração | advérbio |
-| liga um termo a outro | preposição |
-| articula termos/orações com relação lógico-gramatical | conjunção |
-| exprime reação/apelo autonomamente | interjeição |
+Advérbio **modifica** verbo/adjetivo/advérbio/oração; preposição **liga termos**, subordinando um ao outro; conjunção **articula** termos/orações; interjeição exprime **reação ou apelo autônomo**.
 
 ## Advérbio
 
-Valores: lugar, tempo, modo, intensidade, afirmação, negação e dúvida.
+Valores: lugar, tempo, modo, intensidade, afirmação, negação e dúvida. `-mente` não garante modo: `certamente` — afirmação; `provavelmente` — dúvida.
 
-- `meia hora` → numeral; `meio cansadas` → advérbio invariável;
-- `bastantes motivos` → emprego nominal; `bastante preparadas` → advérbio;
-- `resposta clara` → adjetivo; `falar claro` → advérbio;
-- `menos candidatos` e `estudaram menos` são invariáveis, mas não têm a mesma classe.
+| Emprego nominal | Emprego adverbial |
+| --- | --- |
+| `meia hora` — numeral | `meio cansadas` |
+| `bastantes motivos` — pronome indefinido | `bastante preparadas` |
+| `respostas claras` — adjetivo | `responder claro` |
+| `menos candidatas` — pronome indefinido | `estudaram menos` |
 
-<abbr title="conjunto de palavras com função de uma unidade">Locução</abbr> adverbial: `à tarde`, `de repente`, `com cuidado`.
+**Advérbio não concorda; “menos” também é invariável no emprego nominal.**
 
-`quando chegará?` / `não sei quando chegará` → advérbio interrogativo de tempo.
+Grau: `mais/menos/tão cedo` em comparação; `muito cedo` e `cedíssimo` em <abbr title="intensificação sem comparação com outro ser ou situação">superlativo absoluto</abbr>; `bem/mal` → `melhor/pior`.
+
+<abbr title="conjunto de palavras com função adverbial">Locução adverbial</abbr>: `à tarde`, `de repente`, `com cuidado`. Em `a reunião de hoje`, `de hoje` caracteriza o nome, não a ação.
+
+`Quando chegará?` / `Não sei quando chegará` → advérbio interrogativo de tempo.
+
+## Alcance e palavras denotativas
+
+`Só a equipe revisou` exclui outros revisores; `revisou só o relatório` exclui outros documentos. Na tradição: inclusão (`até`), exclusão (`só`), retificação (`isto é`), realce (`é que`). Observe a perspectiva solicitada.
 
 ## Preposição
 
-- valor gramatical: exigida por outro termo;
-- valor semântico: origem, matéria, companhia, instrumento, finalidade, direção, oposição, causa, agente etc.
+Exigida por outro termo: `precisa de apoio`. Relações: `de madeira` — matéria; `com colegas` — companhia; `com uma chave` — instrumento; `por especialistas` — agente.
 
-Essenciais: `a`, `após`, `com`, `contra`, `de`, `em`, `entre`, `para`, `por`, `sem`, `sob`, `sobre` etc.
+`segundo candidato` → **segundo** é numeral; `segundo o edital` → **segundo** é <abbr title="palavra de outra classe usada como preposição">preposição acidental</abbr>. A expressão inteira pode modificar a oração, indicando conformidade/fonte.
 
-Acidentais: `segundo`, `conforme`, `como`, `durante`, `mediante`, `salvo`, `exceto`.
+`diante de` → <abbr title="expressão que liga termos como uma preposição">locução prepositiva</abbr>; `esperou diante da porta` → **diante da porta** tem valor adverbial de lugar.
 
-`segundo candidato` → numeral; `segundo o edital` → preposição.
-
-<abbr title="conjunto de palavras que liga termos como uma preposição">Locuções prepositivas</abbr>: `por causa de`, `a fim de`, `em vez de`, `de acordo com`.
-
-`ao` = combinação; `do`, `no`, `pelo` = contrações. Regência e crase ficam nas unidades próprias.
+`ao` = combinação; `do`, `no`, `pelo` = contrações; `a + a = à` = crase.
 
 ## Conjunção
 
-### Coordenação — valores centrais
+Coordenação: adição (`e`, `nem`); contraste (`mas`, `porém`); alternância (`ou`); conclusão (`logo`, `portanto`); explicação (`porque`, `que`, `pois`).
 
-| Valor | Exemplos |
+**Contexto:** `e` pode produzir contraste; `ou` pode excluir uma opção ou admitir ambas; `não só… mas também` soma.
+
+`Apresente, pois é obrigatório` → explica a ordem.  
+`Era obrigatório; deveria, pois, ser apresentado` → conclusão. Posição **e** sentido.
+
+| Subordinação circunstancial | Formas frequentes |
 | --- | --- |
-| adição | `e`, `nem` |
-| contraste | `mas`, `porém` |
-| alternância | `ou`, `ora... ora` |
-| conclusão | `logo`, `portanto`, `pois` |
-| explicação | `porque`, `que`, `pois` |
+| causa / condição / concessão | `porque` / `se` / `embora` |
+| comparação / conformidade | `mais… do que` / `conforme` |
+| finalidade / consequência | `para que` / `tão… que` |
+| proporção / tempo | `à medida que` / `quando` |
 
-`pois` após ordem → frequentemente explicativo.  
-`pois` deslocado/após verbo → frequentemente conclusivo.
+`Não sei se haverá recurso` → **se** integrante; `se houver recurso` → condição.  
+`Informou que viria` → **que** integrante; `relatório que chegou` → relativo, retoma `relatório`.
 
-### Subordinação — reconhecimento
+`conforme o edital` → **conforme** preposição; `conforme prevê o edital` → conjunção.  
+`quando começou, saíram` → **quando** conjunção; `não sei quando começou` → advérbio interrogativo.
 
-- causa: `porque`, `como`;
-- condição: `se`, `caso`;
-- concessão: `embora`;
-- conformidade: `conforme`, `segundo`;
-- finalidade: `para que`, `a fim de que`;
-- tempo: `quando`.
+`a fim de` + infinitivo → locução prepositiva; `a fim de que` → locução conjuntiva. Verbo depois não prova a classe.
 
-`não sei se haverá recurso` → `se` integrante.  
-`se houver recurso` → `se` condicional.
-
-`informou que viria` → `que` conjunção integrante.  
-`relatório que chegou` → `que` pronome relativo.
-
-`conforme o edital` → preposição.  
-`conforme prevê o edital` → conjunção.
-
-`quando a sessão começou` → conjunção temporal.  
-`não sei quando começou` → advérbio interrogativo.
-
-## Conector ≠ conjunção automaticamente
-
-`por isso`, `assim`, `desse modo` podem ter valor conclusivo sem serem, só por isso, conjunções simples.
-
-**Classe morfológica ≠ função sintática ≠ valor semântico.**
+**Valor conclusivo não prova classe:** `por isso`, `assim` e `desse modo` podem funcionar como conectores, sem serem automaticamente conjunções.
 
 ## Interjeição
 
-`ufa!`, `ai!`, `olá!`, `psiu!`, `epa!`.
+`Ufa!`, `Ai!`, `Olá!`, `Psiu!`, `Epa!` → reação, saudação ou apelo; `Meu Deus!` → locução interjetiva.
 
-`ora lê, ora trabalha` → alternância.  
-`ora!` → interjeição.
-
-O ponto de exclamação não define a classe.
-
-## Ataque à questão
-
-1. O que a palavra modifica?
-2. Ela liga termos ou articula estruturas?
-3. Qual relação de sentido aparece?
-4. Retoma antecedente ou pergunta por circunstância?
-5. Funciona como reação autônoma?
+`ora lê, ora trabalha` → alternância; `Ora!` → interjeição. **Exclamação não define a classe.**

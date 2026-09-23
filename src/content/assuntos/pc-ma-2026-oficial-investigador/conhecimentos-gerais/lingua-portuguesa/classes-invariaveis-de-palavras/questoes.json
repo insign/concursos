@@ -4,15 +4,15 @@
   "questions": [
     {
       "id": "u008-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em qual alternativa as palavras destacadas exemplificam, respectivamente, advérbio, preposição, conjunção e interjeição?",
+      "prompt": "Em qual alternativa as palavras entre colchetes exemplificam, respectivamente, advérbio, preposição, conjunção e interjeição?",
       "options": [
-        {"id": "a", "text": "chegou cedo; relatório de perícia; revisou e publicou; ufa!"},
-        {"id": "b", "text": "relatório técnico; chegou de manhã; porque; servidor"},
-        {"id": "c", "text": "muito trabalho; segundo candidato; mas; relatório"},
-        {"id": "d", "text": "meia hora; certamente; de; candidato"},
-        {"id": "e", "text": "claro parecer; ora trabalha; conforme; cedo"}
+        {"id": "a", "text": "chegou [cedo]; relatório [de] perícia; revisou [e] publicou; [ufa!]"},
+        {"id": "b", "text": "relatório [técnico]; chegou [de] manhã; [porque]; [servidor]"},
+        {"id": "c", "text": "[muito] trabalho; [segundo] candidato; [mas]; [relatório]"},
+        {"id": "d", "text": "[meia] hora; [certamente]; [de]; [candidato]"},
+        {"id": "e", "text": "[claro] parecer; [ora] trabalha; [conforme]; [cedo]"}
       ],
       "correctOptionId": "a",
       "explanation": "“Cedo” modifica o verbo; “de” liga termos; “e” articula unidades; “ufa!” funciona como reação autônoma. A classe depende do emprego no enunciado."
@@ -94,18 +94,18 @@
     },
     {
       "id": "u008-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Qual expressão destacada funciona como locução adverbial?",
+      "prompt": "Em qual frase a expressão entre colchetes funciona como locução adverbial de tempo?",
       "options": [
-        {"id": "a", "text": "relatório de perícia"},
-        {"id": "b", "text": "trabalhou de manhã"},
-        {"id": "c", "text": "recurso contra a decisão"},
-        {"id": "d", "text": "segundo o edital"},
-        {"id": "e", "text": "capaz de revisar"}
+        {"id": "a", "text": "O relatório [de perícia] chegou."},
+        {"id": "b", "text": "A equipe trabalhou [de manhã]."},
+        {"id": "c", "text": "O recurso [contra a decisão] foi protocolado."},
+        {"id": "d", "text": "[Segundo o edital], a etapa é obrigatória."},
+        {"id": "e", "text": "A equipe é capaz [de revisar o texto]."}
       ],
       "correctOptionId": "b",
-      "explanation": "“De manhã” situa a ação no tempo e funciona como unidade de valor adverbial. As demais expressões exercem outras relações."
+      "explanation": "“De manhã” modifica a ação e indica tempo. “Segundo o edital” apresenta a referência com a qual a afirmação está de acordo, não o momento do fato; começar por preposição não impede que o conjunto modifique a oração. “De perícia” e “contra a decisão” ligam-se aos substantivos “relatório” e “recurso”; “de revisar o texto” completa o adjetivo “capaz”. A classe da palavra “segundo” não deve ser confundida com a função da expressão inteira."
     },
     {
       "id": "u008-a08",
