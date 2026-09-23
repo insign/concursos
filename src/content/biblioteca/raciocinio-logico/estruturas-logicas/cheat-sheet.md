@@ -1,161 +1,65 @@
 # Estruturas lógicas
 
-## Recorte
+**Organize pessoas, lugares, objetos ou eventos e conserve apenas configurações que satisfaçam todas as condições.** Não invente capacidade, preferência ou vínculo por “bom senso”.
 
-**Aqui:** relações finitas entre pessoas, lugares, objetos ou eventos; ordenação; associação; distribuição; agrupamento; hierarquia/parentesco; dedução de configurações possíveis, necessárias ou impossíveis.
+## O comando decide a prova
 
-**Em outros assuntos:** argumentação formal, proposições e tabelas-verdade, equivalências, primeira ordem, contagem/probabilidade, conjuntos e problemas aritméticos, geométricos e matriciais.
-
-> Não crie regra por “bom senso”. Vale o que foi dado e o que decorre logicamente.
-
-## Tradução de prova
-
-| Linguagem | Leitura |
+| Comando | O que demonstrar |
 |---|---|
-| A antes de B | `A < B`; pode haver intervalo |
-| A imediatamente antes de B | bloco `[A B]` |
-| A ao lado de B | `[A B]` ou `[B A]` |
-| A com B | mesmo grupo |
-| A sem B | grupos diferentes |
-| se A, então B | A força B |
-| A somente se B | A exige B |
-| somente A pode fazer X | se X ocorrer, será A |
-| exatamente um | 1 |
-| pelo menos um | ≥ 1 |
-| no máximo um | 0 ou 1 |
-| A ou B, mas não ambos | exatamente um dos dois |
+| **Pode ser** | Uma configuração **completa e válida** em que a afirmação ocorre. |
+| **Deve ser** | A afirmação ocorre em **todas** as configurações válidas. Um contraexemplo — solução válida em que ela é falsa — derruba a necessidade. |
+| **Não pode ser** | Nenhuma configuração válida admite a afirmação; todos os casos sob essa hipótese levam a contradição. |
+| **Solução única** | Existe uma solução e todas as demais configurações foram eliminadas. |
 
-### Não confunda
+**Uma solução prova existência, não necessidade nem unicidade.** Uma disposição parcial sem contradição imediata ainda não prova possibilidade.
 
-- antes ≠ imediatamente antes;
-- ao lado não fixa orientação;
-- `A → B` não autoriza `B → A`;
-- “A somente se B” = B é necessário para A;
-- “somente A pode” não afirma que o evento ocorrerá;
-- exclusão de uma opção ≠ atribuição imediata.
+## Traduza sem acrescentar condições
 
-## Representação
-
-| Estrutura | Ferramenta |
+| Expressão | Leitura correta |
 |---|---|
-| fila / ranking / ordem | posições numeradas |
-| pessoa × setor × dia | grade |
-| equipes / salas / grupos | caixas |
-| chefia / dependência | setas com direção |
-| poucas alternativas | casos separados |
+| A antes de B | `A < B`; pode haver intervalo. |
+| A imediatamente antes de B | Bloco `[A B]`, consecutivos nessa ordem. |
+| A ao lado de B | `[A B]` ou `[B A]`; orientação em aberto. |
+| Exatamente uma pessoa entre A e B | Posições com diferença 2, em qualquer orientação. |
+| A e B devem ficar juntos / não podem ficar juntos | Mesmo grupo / grupos diferentes. |
+| Se A, então B; A somente se B | `A → B`: A exige B. Não autoriza `B → A`. |
+| Somente Marta pode autorizar X | Se houver autorização, será de Marta; não afirma que o ato ocorrerá. |
+| Exatamente um / pelo menos um / no máximo um | Apenas 1 / 1 ou mais / 0 ou 1. |
+| A ou B, mas não ambos | Exatamente um dos dois. |
 
-## Ordem e blocos
+**Excluir não é atribuir:** “Paulo não está em X” mantém Y e Z enquanto ambos continuarem possíveis.
 
-```text
-posição:  1   2   3   4   5
-ocupante: _   _   _   _   _
-```
+## Represente e aplique as regras mais fortes
 
-- `A < B < C`: precedência transitiva;
-- `[A B]`: adjacência orientada;
-- A ao lado de B: teste `[A B]` e `[B A]`;
-- fixe extremos primeiro;
-- confira se cadeia/bloco cabe no espaço restante;
-- adjacência **não** é transitiva.
+Use **posições numeradas** para ordem, **grade** para pessoa × setor × dia, **caixas com capacidade** para grupos e **setas com sentido definido** para relações direcionais. Confira se valores podem repetir e se todos precisam ser usados.
 
-## Associação um a um
+**Ordem:** fixe posições dadas e una cadeias e blocos. `A < B < C` implica `A < C`, mas não cria vizinhança. Confira se o bloco cabe nas vagas restantes. Estar ao lado **não é transitivo**: em `[A B C]`, A não está ao lado de C.
 
-Ao confirmar `Lia = TI`:
+**Associação um a um — exemplo hipotético:** ao confirmar Lia = Compras, elimine os outros setores de Lia e Compras das outras pessoas. Se Compras corresponde à segunda, transporte também essa informação. A exclusão cruzada depende de a associação ser um a um.
 
-1. elimine outros setores de Lia;
-2. elimine <abbr title="tecnologia da informação">TI</abbr> das outras pessoas;
-3. transporte pistas compostas ligadas a TI;
-4. procure linha ou coluna com uma única possibilidade.
+## Propague até não surgir nova dedução
 
-**Valor em único lugar:** se todos os valores devem ser usados e Jurídico só cabe em Rui → `Rui = Jurídico`.
+Propagar é aplicar as consequências de cada atribuição ou exclusão. Reaplique também as condições do tipo “se” ativadas.
 
-## Distribuição e agrupamento
-
-Antes de distribuir, anote:
-
-- capacidade;
-- mínimo/máximo;
-- pares obrigatórios;
-- incompatibilidades;
-- condicionais.
-
-Regras rápidas:
-
-- caixa cheia → destino fechado;
-- mínimo ainda não atingido → reserve vagas suficientes;
-- “A com C” em duplas → núcleo `{A,C}`;
-- “se D entra, E entra” não implica o inverso;
-- se grupos forem meros rótulos idênticos, trocar seus nomes pode não gerar solução substantivamente nova.
-
-## Propagação
-
-Depois de cada descoberta:
-
-- risque incompatíveis;
-- feche capacidade atingida;
-- aplique exclusividade;
-- reaplique condicionais ativadas;
-- procure única possibilidade restante;
-- confira valores que só cabem em um lugar.
-
-## Contradição
-
-Descarte o ramo se:
-
-- elemento fica sem opção;
-- vaga exclusiva recebe dois elementos;
-- capacidade é excedida;
-- mínimo torna-se impossível;
-- quantidade exata é ultrapassada;
-- surge ciclo como `A < B < C < A`;
-- qualquer regra original é violada.
-
-## Pode × deve × não pode
-
-| Comando | Prova suficiente |
+| Situação | Consequência |
 |---|---|
-| **pode ser** | uma configuração completa válida |
-| **deve ser** | vale em todas; tente contraexemplo |
-| **não pode ser** | hipótese leva sempre a contradição |
-| **solução única** | demais configurações foram eliminadas |
+| Um elemento ficou com uma única opção | Atribuição forçada. |
+| Um valor obrigatório só cabe em um elemento | Atribua-o a esse elemento, mesmo que ele tenha outras opções. |
+| A e B só cabem nas vagas exclusivas 2 e 4 | **Reserve ambas:** nenhum terceiro pode usá-las; ainda não se sabe quem ocupa qual. |
+| Um destino atingiu a capacidade | Elimine-o das opções dos demais elementos. |
+| Falta atingir um mínimo | Reserve vagas suficientes; se faltar um auditor e restar uma vaga, ela será de auditor. |
+| A deve ficar com C em grupos de duas pessoas | `{A,C}` fecha uma dupla, **sem ordem interna**. |
 
-**Pegadinha:** uma solução encontrada prova existência, não unicidade.
+## Abra casos; descarte por contradição
 
-## Relações direcionais
+Quando a propagação parar, escolha um elemento com poucas possibilidades e separe os casos. **Cada ramo conserva todas as regras originais.**
 
-- defina o sentido da seta;
-- superioridade hierárquica pode ser transitiva;
-- contato direto não é transitivo;
-- em parentesco, organize gerações;
-- não presuma vínculo ou convenção que o enunciado não informou.
+Descarte o ramo se houver elemento sem opção, disputa por vaga exclusiva, capacidade ou quantidade exata ultrapassada, mínimo inalcançável, ciclo como `A < B < C < A` ou outra regra violada.
 
-## Verdade/mentira como restrição
+Antes de responder, confira a configuração completa contra **todas** as condições, inclusive negativas, e retome o tipo de prova pedido no comando.
 
-Se o enunciado fixa a quantidade de falas verdadeiras:
+## Relações e falas: cuidados próprios
 
-1. liste cenários;
-2. avalie as falas;
-3. conte as verdadeiras;
-4. mantenha só os cenários com a quantidade exigida.
+**Hierarquia e parentesco:** defina a direção das setas. “Acima de” pode encadear níveis; chefia ou contato **direto** não se conclui por esse encadeamento. Em parentesco, organize gerações e use somente os vínculos informados.
 
-Não transforme isso em tabelas-verdade formais neste assunto.
-
-## Método em 6 passos
-
-1. Leia o comando: **pode, deve ou não pode?**
-2. Liste elementos, categorias, vagas e capacidades.
-3. Registre primeiro fixações, blocos e quantidades.
-4. Propague cada atribuição ou exclusão.
-5. Abra poucos casos apenas se necessário.
-6. Releia **todas** as regras antes de responder.
-
-## Checklist
-
-- [ ] nenhuma regra inventada?
-- [ ] antes × imediatamente antes?
-- [ ] direção correta das condicionais?
-- [ ] capacidades e mínimos conferidos?
-- [ ] associação propagada em linha e coluna?
-- [ ] regras negativas verificadas?
-- [ ] todos os ramos mantêm as condições originais?
-- [ ] o tipo de prova corresponde ao comando?
+**Verdade e mentira:** em cada cenário, avalie **todas** as falas, conte as verdadeiras e mantenha apenas os cenários com a quantidade exigida. A plausibilidade de uma fala isolada não resolve a restrição global.
