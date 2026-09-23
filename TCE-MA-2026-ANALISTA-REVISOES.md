@@ -175,7 +175,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H062 | `regimento-recursos-revisao` | = | V | `260dc9f5ffc1915e9a3a3c4ae24dd23d73e2a595` |
 | H063 | `regimento-atos-etica-finais` | = | V | `83f679ae924ea92d5c2c164d9bcc9e5a9a9c54b1` |
 | H064 | `lei-organica-jurisdicao` | = | V | `8f93eddb369bb04f4ab20e96b4265d3cae1f0064` |
-| H065 | `lei-organica-organizacao-mpc` | = | V | — |
+| H065 | `lei-organica-organizacao-mpc` | = | V | `d2b78d0bfe8914e9d9b093a289e51a89f3f278c1` |
 | H066 | `lei-organica-contas-controle` | = | V | — |
 | H067 | `lei-organica-processos` | = | V | — |
 | H068 | `lei-organica-decisoes-recursos` | = | V | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H065: aula trata 6/7 (data do ato E1) como publicação/corte; publicação informada pelo Tribunal foi 7/7. q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, ausente da aula; revisar ensino/pertinência no escopo próprio.
 
 - H064: aula toma 6/7 como publicação E1 (Tribunal informa 7/7). Inteiro teor da ADPF 982 não abriu no portal do STF nesta consulta; revalidar na futura M05 se necessário.
 - H063: aula chama 6/7 de publicação E1 (Tribunal informa 7/7) e ensina **oito** dias no art. 312, quando Regimento compilado fixa **sete**. Art. 26 caput reformado pela Resolução 391/2023 versa pautas, mas seus §§ 1º–2º antigos permanecem no compilado; aula os afasta categoricamente, banco q6513–17 os cobra literalmente. Conciliar vigência material e pertinência em revisão própria antes de usá-los como contraprova da M05.
