@@ -1,238 +1,79 @@
 # Microsoft Word: documentos e formatação
 
-## Recorte e regra de ouro
+**Roteiro:** ambiente → objeto → alcance → efeito → formato. O edital inclui Microsoft Office sem fixar edição. Referência: Word instalado no Windows (Microsoft 365/Word 2024); versão, idioma e plataforma expressos na questão prevalecem. Word para a Web pode diferir.
 
-- Referência principal: Word desktop atual para Windows, especialmente Microsoft 365 e Word 2024.
-- Word para a Web, macOS, idioma e personalização podem mudar recursos e atalhos.
-- Resolva por **ambiente → objeto → guia → alcance → efeito real**.
+## Objeto e comando
 
-## Objeto → propriedade
-
-| Objeto | Propriedades principais |
-|---|---|
-| caractere | fonte, tamanho, negrito, cor, sobrescrito |
-| parágrafo | alinhamento, recuo, espaçamento, tabulação |
-| lista | marcador, numeração, nível, sequência |
-| seção | margens, orientação, colunas, cabeçalho, paginação, borda da página |
-| tabela | linhas, colunas, células, tamanho, bordas, alinhamento |
-| objeto gráfico | tamanho, recorte, disposição, âncora, texto alternativo |
-| campo | número de página, sumário, legenda, referência |
-| arquivo | nome, local, formato, proteção, impressão, exportação |
-
-## Comando → guia
-
-| Tarefa | Guia/contexto |
-|---|---|
-| fonte, parágrafo, estilos, localizar | Página Inicial |
-| tabelas, imagens, hiperlinks, cabeçalho, número de página | Inserir |
-| temas, marca d'água, cor e borda da página | Design |
-| margens, orientação, papel, colunas e quebras | Layout |
-| sumário, notas, legendas, referências cruzadas | Referências |
-| destinatários e campos de mala direta | Correspondências |
-| Editor, comentários, alterações, acessibilidade | Revisão |
-| modos, navegação e zoom | Exibição |
-| largura, altura, mesclar/dividir células | Layout da Tabela |
-| estilos e bordas da tabela | Design da Tabela |
-
-## Arquivos
-
-| Formato | Regra curta |
-|---|---|
-| DOCX | padrão moderno editável |
-| DOC | legado; pode acionar compatibilidade |
-| <abbr title="OpenDocument Text">ODT</abbr> | interoperável; pode perder recursos |
-| <abbr title="Rich Text Format">RTF</abbr> | formatação intermediária |
-| TXT | texto simples; perde objetos e estilos |
-| <abbr title="Portable Document Format">PDF</abbr> | layout fixo; outro arquivo |
-
-- Salvar: atualiza arquivo/local atuais.
-- Salvar como: muda nome, local ou formato e pode criar cópia.
-- Compatibilidade ≠ preservação integral.
-- PDF já gerado não acompanha mudanças posteriores no DOCX.
-
-## Edição e colagem
-
-| Comando | Efeito |
-|---|---|
-| copiar | mantém origem |
-| recortar | remove da origem e envia à Área de Transferência |
-| colar | insere no destino |
-| Manter Formatação de Origem | preserva formatação copiada |
-| Mesclar Formatação | integra ao destino e pode manter ênfases |
-| Manter Somente Texto | descarta formatação e objetos |
-| Imagem | cola representação não editável como texto |
-
-- `Ctrl + Z`: desfazer.
-- `Ctrl + Y`: refazer quando possível.
-- `F4`: repetir ação compatível.
-- Refazer ≠ repetir.
-- Substituir Tudo pode alcançar ocorrências indevidas.
-
-## Caractere e parágrafo
-
-| Caractere | Parágrafo |
-|---|---|
-| fonte, tamanho, negrito, cor | alinhamento, recuo, espaçamento |
-| sobrescrito, subscrito, tachado | tabulação, bordas, paginação |
-
-- Pincel de Formatação copia formatação, não conteúdo.
-- `Ctrl + Barra de espaços`: remove formatação manual de caractere no Word para Windows.
-- Recuo ≠ margem.
-- Primeira linha ≠ recuo deslocado.
-- Entre linhas ≠ antes/depois do parágrafo.
-- Espaçamento é melhor que vários `Enter` vazios.
-
-## Tabulações, listas, estilos e temas
-
-- Tabulação define posição de alinhamento; não é sequência de espaços.
-- Lista estruturada mantém marcador/número, nível, recuo e sequência.
-- Estilo = conjunto nomeado e reutilizável.
-- Tema = sistema geral de cores, fontes e efeitos.
-- Modelo = base reutilizável de estrutura, estilos e tema.
-- Texto grande/negrito ≠ título estrutural.
-- Estilos de título alimentam navegação, acessibilidade e sumário.
-- Grupo Estilos fica em **Página Inicial**.
-
-## Quebras, seções e bordas
-
-| Recurso | Efeito |
-|---|---|
-| `Shift + Enter` | nova linha, mesmo parágrafo |
-| `Ctrl + Enter` | nova página, mesma seção |
-| quebra de coluna | próxima coluna |
-| quebra de seção | novas configurações de layout |
-
-- Uma página isolada em paisagem costuma exigir seções antes e depois.
-- Quebra de página ≠ seção.
-- Colunas de texto ≠ tabela.
-
-| Borda | Objeto | Local |
+| Objeto | Propriedade/ação | Guia principal |
 |---|---|---|
-| texto/parágrafo | seleção ou parágrafo | Página Inicial |
-| tabela | células/tabela | Design da Tabela |
-| página | seção/documento | Design → Bordas da Página |
+| caractere | fonte, tamanho, cor, negrito, sobrescrito, efeitos | Página Inicial |
+| parágrafo | alinhamento, recuo, espaçamento, tabulação, borda, paginação | Página Inicial; Layout |
+| lista | marcador/número, nível, recuo, continuidade | Página Inicial |
+| seção | margens, orientação, papel, colunas, cabeçalho, borda da página | Layout; Design para borda |
+| tabela | células, dimensões, união de células, estilo, bordas | Inserir; Layout da Tabela/Design da Tabela |
+| imagem | disposição, tamanho, recorte, texto alternativo | Inserir; guia contextual |
+| campo (instrução atualizável) | número de página, sumário, legenda, referência cruzada | Inserir; Referências |
+| arquivo | abrir, salvar, imprimir, exportar, proteger | Arquivo (<abbr title="Tela de operações de arquivo e opções do Word">Backstage</abbr>) |
 
-- Borda da Página atua por seção.
-- Uma página intermediária com borda própria deve ficar em seção própria.
+Selecionar uma palavra e centralizar atinge o **parágrafo**; negrito atinge **caracteres**. Uma linha visual pode pertencer ao mesmo parágrafo; uma página, à mesma seção que outras. **Zoom/Exibição** mudam a tela, não o tamanho impresso. Mostrar Tudo (`¶`) revela marcas de parágrafo, espaços, tabulações e quebras sem imprimi-las. Guias contextuais aparecem ao selecionar o objeto. Referências reúne sumário e notas; Correspondências, mala direta; Revisão, Editor e alterações.
 
-## Cabeçalhos e paginação
+## Editar e formatar
 
-- Cabeçalho: região superior; rodapé: inferior.
-- Nova seção pode permanecer **Vinculada ao Anterior**.
-- Desvincular permite conteúdo independente.
-- Primeira página diferente e pares/ímpares diferentes são opções próprias.
-- Número de página é campo; número digitado manualmente não é paginação automática.
-- Formato e início podem mudar por seção.
-
-## Tabelas
-
-- Linhas + colunas + células.
-- Estrutura pode ser alterada depois da inserção.
-- Layout da Tabela: tamanho, estrutura, mesclar e dividir.
-- Design da Tabela: estilos, bordas e sombreamento.
-- `Tab`: próxima célula; na última, pode criar linha.
-- `Shift + Tab`: célula anterior.
-- `Ctrl + Tab`: tabulação dentro da célula.
-- Tabela Word ≠ planilha Excel.
-
-## Imagens e acessibilidade
-
-| Disposição | Comportamento |
+| Ao colar | Resultado |
 |---|---|
-| Em linha | objeto atua como caractere |
-| Flutuante | texto contorna conforme a disposição |
+| Manter Formatação de Origem | conserva aparência copiada |
+| Mesclar Formatação | adapta ao destino; pode conservar ênfases |
+| Manter Somente Texto | descarta aparência/objetos; tabela pode virar parágrafos; texto assume formatação do destino |
+| Imagem | representação visual, sem caracteres editáveis |
 
-- Âncora liga objeto flutuante a parágrafo.
-- Recortar ≠ redimensionar.
-- Comprimir pode reduzir resolução e tamanho do arquivo.
-- Imagem informativa: texto alternativo.
-- Imagem decorativa: marcar como decorativa.
-- Tabela acessível: cabeçalhos e estrutura simples.
-- Verificador de Acessibilidade não substitui revisão humana.
+Copiar conserva a origem; recortar remove a seleção e a envia à Área de Transferência; colar insere no destino. **Desfazer** (`Ctrl + Z`) reverte; **Refazer** restaura ação desfeita; **Repetir** reaplica ação compatível. `Ctrl + Y` pode refazer ou repetir conforme o estado; `F4` repete quando possível. Em **Substituir Tudo**, confira alcance, palavras inteiras e maiúsculas. **Autocorreção** substitui/formata ao digitar (Arquivo → Opções → Revisão de Texto → Opções de Autocorreção); **Editor** sugere ajustes de linguagem conforme o idioma de revisão, sem traduzir.
 
-## Campos e referências
+- **Caractere × parágrafo:** sombra/contorno e sobrescrito pertencem ao texto; alinhamento, recuo e espaços antes/depois, ao parágrafo. `Ctrl + Barra de espaços` limpa formatação manual de caractere sem apagar texto. O **Pincel de Formatação** copia propriedades, não conteúdo; inclua a marca final do parágrafo na seleção para copiar também sua formatação.
+- **Margem × recuo:** margem delimita área da seção; recuo desloca o parágrafo nessa área. Primeira linha desloca só seu início; recuo deslocado deixa as demais linhas mais à direita. Entrelinhas age dentro do parágrafo; antes/depois separa parágrafos sem `Enter` vazios. **Manter com o próximo** une título e texto seguinte; **Manter linhas juntas** evita dividir o próprio parágrafo; controle de órfãs/viúvas evita linhas isoladas.
+- **Tabulação × espaços:** parada esquerda/central/direita ou decimal alinha em posição definida; a de barra desenha linha vertical sem posicionar o texto. Lista numerada administra sequência; multinível, hierarquia. Digitar números à mão não assegura uma lista estruturada; ao colar, confira continuidade ou reinício.
 
-- Sumário automático depende de estilos de título.
-- Mudou só paginação: atualizar números.
-- Mudou título/hierarquia: atualizar tabela inteira.
-- Nota de rodapé: fim da página.
-- Nota de fim: fim do documento ou seção.
-- Legenda e referência cruzada usam campos.
-- `F9`: atualizar campos selecionados.
-- Número sobrescrito digitado ≠ nota vinculada.
+**Estilo** é regra nomeada de formatação reutilizável: padroniza títulos e sustenta navegação, acessibilidade e sumário. Fonte grande/negrito isolados não criam título estrutural. Para atualizar estilo a partir de texto que já o usa: aplicar atributos → Página Inicial → Estilos → Atualizar para Corresponder à Seleção. **Tema** coordena cores, fontes e efeitos gerais; **modelo** fornece base com estrutura e estilos. Pincel só transfere aparência local.
 
-## Mala direta
+## Quebras, seções e referências
 
-**Documento principal + fonte de dados + campos + destinatários + visualização + concluir e mesclar.**
-
-1. escolher cartas, etiquetas, envelopes ou mensagens;
-2. selecionar a lista;
-3. inserir campos;
-4. filtrar e visualizar;
-5. concluir após conferir.
-
-- Fonte de dados ≠ documento principal.
-- Campo de mesclagem ≠ texto fixo.
-- Visualizar resultados ≠ concluir a mesclagem.
-
-## Revisão e colaboração
-
-| Comentário | Controlar Alterações |
+| Ação | Alcance |
 |---|---|
-| observação/discussão | registra edições |
-| responder/resolver | aceitar/rejeitar |
-| não substitui texto | marca inserção, exclusão e formatação |
+| `Enter` / `Shift + Enter` | novo parágrafo / só nova linha |
+| `Ctrl + Enter` | nova página, mesma seção |
+| quebra de coluna | próxima coluna de texto, que não é tabela |
+| quebra de seção | novas configurações: Próxima Página, Contínua (mesma página), Página Par/Ímpar |
 
-- Ocultar marcações não remove revisões.
-- Desativar controle não resolve revisões existentes.
-- Imprimir Marcação afeta saída, não o arquivo.
-- Idioma de revisão não traduz.
-- Link compartilhado: mesmo arquivo.
-- Anexo: cópias independentes.
-- Histórico de versões depende do armazenamento.
+**Uma página intermediária em paisagem ou com borda própria:** seções antes e depois; confira *Aplicar a*. Quebra de página não isola orientação ou borda; excluir quebra de seção une trechos e pode aplicar a formatação da seção posterior. Borda de parágrafo: Página Inicial; de tabela: Design da Tabela; de página: Design → Bordas da Página (por seção). Marca-d'água: Design → Plano de Fundo da Página; sinaliza condição, sem proteger o arquivo.
 
-## Proteção
+**Cabeçalho/rodapé:** seção nova pode estar **Vinculada ao Anterior**; desvincule cada parte que precisa de conteúdo próprio. Primeira página e pares/ímpares são variantes independentes. Desvincular não reinicia por si a numeração: confira Formatar Números de Página. Número automático é **campo** (instrução que produz resultado), não número digitado em cada página.
 
-| Recurso | Regra |
+**Campos e sumário:** estilos Título 1, Título 2 etc. definem hierarquia. Mudou só paginação? Atualize números. Mudou título, texto ou nível? Atualize o sumário inteiro. `F9` atualiza campos selecionados. Nota de rodapé fica no fim da página; nota de fim, do documento ou seção; número sobrescrito digitado não vincula nota. Legendas e referências cruzadas a elementos do documento usam campos atualizáveis.
+
+## Tabela, imagem e acesso
+
+- **Tabela:** Layout da Tabela altera estrutura, largura/altura e une/divide células; Design da Tabela muda estilo, borda e sombreamento. É editável após inserção. `Tab` vai à célula seguinte e na última pode criar linha; `Shift + Tab` volta; `Ctrl + Tab` insere tabulação na célula. Tabela do Word não é planilha Excel.
+- **Imagem:** Em linha acompanha texto como caractere; flutuante tem disposição e **âncora**, vínculo a um parágrafo. Recortar oculta parte visível; redimensionar altera dimensões; comprimir pode reduzir resolução/tamanho do arquivo. Zoom só muda visualização.
+- **Acessibilidade:** imagem informativa pede texto alternativo com seu sentido; a puramente decorativa pode ser marcada como tal. Use títulos hierárquicos, tabelas simples com cabeçalhos, idioma correto, links descritivos e informação que não dependa só da cor. Verificador de Acessibilidade ajuda, mas requer avaliação humana.
+
+## Automatizar, revisar e proteger
+
+- **Mala direta:** documento principal (texto comum) + fonte de dados (registros variáveis) → campos de mesclagem → seleção de destinatários → visualizar → concluir e mesclar. Visualização não gera a saída final.
+- **Formulário:** Desenvolvedor → controles de texto, lista, seleção ou data → Restringir Edição para preenchimento → iniciar proteção (senha se necessário impedir a retirada). Limitar edição não criptografa para abertura; Word para a Web tem recursos distintos.
+- **Comentário** registra discussão; **Controlar Alterações** registra propostas de edição, aceitas ou rejeitadas separadamente. Ocultar marcas, desligar o controle ou desmarcar Imprimir Marcação não elimina revisões existentes. Resolver comentário também não aceita revisão.
+- **Coautoria** edita o mesmo arquivo com armazenamento, formato e permissões compatíveis (como nos serviços OneDrive/SharePoint); anexo cria cópias. Histórico de versões depende do serviço e difere das alterações controladas. **Senha para abrir** pode criptografar no desktop compatível; **Restringir Edição** limita mudanças; **Marcar como Final** só sinaliza conclusão.
+
+## Salvar, converter e imprimir
+
+| Formato | Lembrete |
 |---|---|
-| senha para abrir | criptografia no desktop compatível |
-| restringir edição | limita alterações |
-| marcar como final | sinaliza intenção; não criptografa |
+| `.docx` | documento moderno editável do Word |
+| `.doc` | binário antigo; pode ativar Modo de Compatibilidade, limitando recursos |
+| `.odt` / `.rtf` | texto OpenDocument / enriquecido; confira conversões e perdas de recursos |
+| `.txt` | texto simples, sem estilos, objetos ou campos como estruturas editáveis |
+| `.pdf` | apresentação de páginas em outro arquivo, sem atualização automática pelo original |
 
-## Impressão
+**Salvar** atualiza o arquivo já definido; no primeiro uso, escolha nome, local e formato. **Salvar como/Salvar uma Cópia** pode preservar original e mudar esses dados. **Salvamento Automático** do Microsoft 365 requer local e formato compatíveis, como OneDrive/SharePoint Online; faça a cópia antes de editar o original quando ativo. **AutoRecuperação** guarda dados para uma falha, sem substituir salvar. Abrir um formato não garante conservação integral ao converter.
 
-- `Ctrl + P`: visualização e configurações.
-- Página atual ≠ seleção ≠ intervalo.
-- Páginas 3 a 9: Impressão Personalizada, intervalo `3-9`.
-- Conferir papel, orientação, margens, escala e marcações.
-- Exportar PDF cria outro arquivo.
+`Ctrl + P`: confira página atual, seleção ou intervalo, papel, margens, orientação, escala e marcações. Com numeração simples, Impressão Personalizada `3-9` seleciona páginas 3 a 9; numeração reiniciada por seção exige conferir a visualização. Exportar para <abbr title="Portable Document Format">PDF</abbr> cria outro arquivo, que precisa ser gerado de novo após alterações.
 
-## Atalhos
-
-- Recorrentes no Word para Windows: `Ctrl + C/X/V`, `Ctrl + Z`, `Ctrl + P`, `Ctrl + Enter`, `Shift + Enter`, `F7`, `F9`.
-- Letras de abrir, salvar, selecionar tudo, negrito e sublinhado podem variar por idioma, plataforma e personalização.
-- Sem ambiente delimitado, resolva pelo comando, guia e efeito.
-
-## Pegadinhas finais
-
-- Word ≠ DOCX.
-- Backstage ≠ formatação cotidiana.
-- zoom ≠ fonte;
-- Salvar ≠ sempre Salvar como;
-- compatível ≠ idêntico;
-- copiar ≠ recortar;
-- caractere ≠ parágrafo;
-- recuo ≠ margem;
-- tabulação ≠ espaços;
-- estilo ≠ tema ≠ modelo;
-- linha ≠ parágrafo;
-- página ≠ seção;
-- borda de parágrafo ≠ borda da página;
-- coluna ≠ tabela;
-- Design da Tabela ≠ Layout da Tabela;
-- comentário ≠ alteração;
-- ocultar ≠ remover;
-- visualizar mala direta ≠ concluir;
-- anexo ≠ coautoria;
-- marcar como final ≠ criptografar;
-- atalho localizado ≠ atalho universal.
+**Atalhos recorrentes no Word para Windows:** `Ctrl + C/X/V`, `Ctrl + Z`, `Ctrl + P`, `Ctrl + Enter`, `Shift + Enter`, `F7` (Editor), `F9` (campos). Letras de abrir, salvar, selecionar tudo, localizar e negrito variam por idioma, plataforma e personalização; use o ambiente especificado na questão.
