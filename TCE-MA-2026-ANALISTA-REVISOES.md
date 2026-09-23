@@ -155,7 +155,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H047 | `controle-parlamentar` | = | V | `5f64a1db84e8b1567c2bc003e31b4da548196e05` |
 | H048 | `controle-tribunais-contas` | = | V | `6f791f04166d72c75ee25f31dd29f6cf76251d8d` |
 | H049 | `controle-administrativo` | = | V | `52abdeeab24668b02f358234a5b012369ea8ff7e` |
-| H050 | `improbidade-sujeitos-atos` | = | V | [`c2f09cc`](https://github.com/insign/concursos/commit/c2f09ccda8dc394c2eba73da0862989064f72014) |
+| H050 | `improbidade-sujeitos-atos` | = | V | [`fc19014`](https://github.com/insign/concursos/commit/fc19014071fa530c46ba9a8ec879995105c4bc89) |
 | H051 | `improbidade-sancoes-procedimento` | = | V | — |
 | H052 | `contencioso-controle-judicial` | = | V | — |
 | H053 | `controle-atividade-financeira` | = | V | — |
