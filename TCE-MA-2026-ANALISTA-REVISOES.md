@@ -201,7 +201,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H083 | `localizacao-limites-extremos` | = | V | [`d052be8`](https://github.com/insign/concursos/commit/d052be8ffe6ae0359f08fe8169e9a804033f5360) |
 | H084 | `geomorfologia-geologia-relevo` | = | V | [`df250c2`](https://github.com/insign/concursos/commit/df250c2f884ab1f8799044edbbf90959b1f43041) |
 | H085 | `areas-protecao-parques-nacionais` | = | V | [`923532d`](https://github.com/insign/concursos/commit/923532d45cdeca55e74b6b1a8f42960f4177071e) |
-| H086 | `climas-formacoes-vegetais` | = | V | — |
+| H086 | `climas-formacoes-vegetais` | = | V | [`444c847`](https://github.com/insign/concursos/commit/444c84750c4045b5c6419b33dff3f6adee30e23f) |
 | H087 | `rios-bacias-maranhenses` | = | V | — |
 | H088 | `populacao-urbanizacao-movimentos` | = | V | — |
 | H089 | `agricultura-pecuaria-maranhenses` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H084–H085: as aulas tratam 6/7/2026 (data do ato E1) como publicação e corte; notícia institucional registra publicação em 7/7. Corrigir as aulas em revisão própria.
 - H055–H072: as 18 aulas tratam 6/7, data do Edital nº 1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir nas aulas em escopo próprio.
 - H059: a aula atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269 e atribui ao Regimento o “sempre que possível” da Lei Orgânica sobre o parecer da consulta. Corrigir na aula.
 - H062–H063: a aula H062 omite Governador da vedação à revisão do art. 139, § 7º. A H063 ensina oito dias no art. 312, cujo texto compilado fixa sete; art. 26 reformado e seus parágrafos antigos exigem conciliação de vigência, inclusive no banco q6513–17. Corrigir em escopo próprio.
