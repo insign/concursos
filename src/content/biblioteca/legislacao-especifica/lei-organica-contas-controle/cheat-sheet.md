@@ -1,175 +1,76 @@
-# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: contas e controle
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: contas e instrumentos de controle
 
-## Corte
+**Corte:** E1 publicado em 7/7/2026 (ato de 6/7). Lei 8.258/2005, arts. 8º–13 e 34–58; <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982; Tema 445 do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
-**Edital: 6/7/2026.**
+## Primeiro, identifique o produto do controle
 
-Núcleo: **arts. 8º–13 e 34–58 da Lei nº 8.258/2005** + **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982** + **Tema 445/<abbr title="Supremo Tribunal Federal">STF</abbr>**.
-
-## Governo x gestão
-
-| Situação | TCE/MA | Destino/efeito |
+| Objeto | Resposta do Tribunal | Destino |
 | --- | --- | --- |
-| Governador | parecer prévio | Assembleia julga |
-| Prefeito — governo | parecer prévio | Câmara julga |
-| Prefeito — ordenador | **julga contas de gestão** | débito/sanções não eleitorais sem ratificação da Câmara |
-| Presidente da Câmara | julga por acórdão | TCE decide |
-| demais gestores | julga tomada/prestação | TCE decide |
+| Governo do Governador | **Parecer prévio** (apreciação técnica) | Assembleia julga. |
+| Governo do Prefeito | **Parecer prévio** | Câmara Municipal julga. |
+| Prefeito **ordenador de despesas** (autoriza gastos) | **Julga gestão** por acórdão (decisão colegiada) | Débito (ressarcimento) e sanção não eleitoral sem ratificação da Câmara; efeito eleitoral da <abbr title="Lei Complementar">LC</abbr> 64/1990, art. 1º, I, g, é da Câmara (<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982). |
+| Presidente da Câmara e demais responsáveis | **Julga gestão** | Sem deliberação da Câmara sobre o acórdão do Presidente. |
 
-### Prefeito — ADPF 982
+**Pessoa não define espécie:** o Prefeito presta contas globais como chefe de governo e pode prestar contas de gestão por ordenar despesas. Parecer global não absorve responsabilidade individual.
 
-**governo → parecer → Câmara**  
-**gestão/ordenador → TCE julga**  
-**débito + sanções não eleitorais → TCE, sem ratificação**  
-**efeito eleitoral da <abbr title="Lei Complementar">LC</abbr> 64/1990, art. 1º, I, `g` → Câmara**
+### Contas: quem entrega e quando?
 
-⚠️ “Toda conta de Prefeito é julgada pela Câmara” = errado.
-
-## Prazos das contas
-
-| Regra | Prazo |
-| --- | ---: |
-| parecer do Governador | **60 dias do recebimento** |
-| Prefeito entrega contas de governo | **60 dias após abertura da sessão legislativa municipal** |
-| Presidente da Câmara entrega contas | **60 dias após abertura da sessão legislativa municipal** |
-
-Parecer do Governador: **aprovação / aprovação com ressalva / desaprovação / abstenção de opinião**.
-
-## Tomada de contas especial
-
-### Gatilhos
-
-- omissão no dever de prestar contas;
-- não comprovação de recurso repassado;
-- desfalque/desvio;
-- ato ilegal, ilegítimo ou antieconômico **com dano**.
-
-### Fluxo
-
-**apurar fatos → identificar responsáveis → quantificar dano**
-
-Autoridade age **imediatamente**; omissão pode gerar responsabilidade solidária.
-
-| Dano | Destino |
+| Situação | Prazo, conteúdo ou resultado |
 | --- | --- |
-| ≥ limiar anual do TCE | envio imediato ao TCE |
-| < limiar | anexa às contas anuais |
+| Governador | Parecer **60 dias do recebimento**; balanços e relatório do controle interno. Aprovação, ressalva, desaprovação ou **abstenção de opinião** (falta pressuposto do processo válido). |
+| Prefeito | Entrega **60 dias da abertura da sessão municipal**; omissão → tomada. Parecer **60 dias do recebimento ou até o último mês do exercício** (art. 10); após trânsito, remessa à Câmara. |
+| Presidente da Câmara | Contas anuais de gestão em **60 dias da abertura da sessão municipal**; omissão → tomada. |
+| Demais responsáveis | Contas anuais **60 dias da abertura da sessão**; recursos orçamentários e **extraorçamentários** (fora do orçamento). Só Tribunal libera do dever. |
 
-⚠️ Limiar **não perdoa dano**.
+## Tomada de contas especial: apurar dano, depois encaminhar
 
-Fiscalização com dano → pode converter em tomada especial.
+**Art. 13:** omissão em prestar contas; repasse estatal/municipal não comprovado; desfalque/desvio; ato ilegal, ilegítimo ou antieconômico **com dano ao erário** (cofres públicos). Autoridade age **imediatamente**, sob responsabilidade solidária (responde junto): **fatos → responsáveis → dano**. Se omissa, Tribunal manda instaurar e fixa prazo.
 
-## Critérios
-
-**legalidade + legitimidade + economicidade**  
-Fiscalização de ofício: também **eficiência + eficácia + efetividade**.
-
-## Instrumentos — art. 44
-
-| Instrumento | Palavra-chave |
+| Dano apurado | Destino do processo |
 | --- | --- |
-| levantamento | **conhecer** |
-| auditoria | **examinar** |
-| inspeção | **esclarecer/apurar ponto específico** |
-| acompanhamento | **observar em curso** |
-| monitoramento | **verificar deliberação anterior** |
+| ≥ valor de referência fixado anualmente pelo Tribunal | Envio desde logo para julgamento. |
+| < valor de referência | Anexação às contas anuais para julgamento conjunto; **não dispensa apuração nem perdoa o dano**. |
 
-Também: **<abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> + <abbr title="Relatório de Gestão Fiscal">RGF</abbr>**.
+Fiscalização com dano pode virar tomada especial; repasses por convênio têm apuração própria.
 
-Rol = **não exaustivo** (“dentre outros”).
+## Fiscalização: escolha o instrumento pelo problema
 
-Planejamento pode considerar **materialidade, relevância, risco e oportunidade**.
+Critérios: **legalidade** (normas), **legitimidade** (finalidade), **economicidade** (custos); de ofício também **eficiência** (recursos), **eficácia** (metas) e **efetividade** (efeitos). Admite meio eletrônico.
 
-## Fiscalização solicitada
-
-Podem solicitar nas condições legais:
-
-- Presidente da Assembleia;
-- Presidente da Câmara, com aprovação da Câmara;
-- Presidente de comissão, com aprovação da comissão.
-
-Auditoria solicitada → relator leva ao **Plenário** a inclusão no plano de fiscalização.
-
-## Execução
-
-Servidor de controle externo → **credenciado** pelo Presidente ou dirigente técnico por delegação.
-
-Prerrogativas:
-
-- livre ingresso;
-- acesso a processos/dados/sistemas;
-- requisição escrita + prazo razoável.
-
-Obstrução/sonegação → **prazo improrrogável + comunicação**.
-
-Risco de dano grave → equipe representa imediatamente com elementos concretos.
-
-## Achado → resposta
-
-| Achado | Resposta |
+| Instrumento do art. 44 | Gatilho |
 | --- | --- |
-| sem transgressão | arquivar/apensar |
-| falha formal sem multa/débito | **determinar** correção + monitorar |
-| oportunidade de melhoria | **recomendar** |
-| irregularidade verificada | citar: **30 dias + até 30** |
+| Levantamento | Conhecer organização, sistemas e objetos possíveis. |
+| Auditoria | Examinar sistematicamente gestão e conformidade. |
+| Inspeção | Esclarecer lacuna, dúvida ou fato específico. |
+| Acompanhamento | Observar seletivamente a gestão **em curso**. |
+| Monitoramento | Verificar cumprimento e resultado de deliberação **anterior**. |
 
-**determinação = obrigatória**  
-**recomendação = orientativa**
+Rol **exemplificativo**; inclui <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> e <abbr title="Relatório de Gestão Fiscal">RGF</abbr>. Seleção: materialidade (valor), relevância (impacto), risco (conclusão incorreta) e oportunidade (momento). Resolução 324/2020 detalha os instrumentos.
 
-## Sustação
+**Solicitação legislativa urgente:** Presidente da Assembleia; Presidente da Câmara com aprovação da Casa; Presidente de comissão com aprovação dela. Respeita competência federativa. Auditoria → relator submete inclusão no plano ao Pleno.
 
-**1. prazo para cumprir a lei**
+**Execução:** servidor credenciado pelo Presidente ou dirigente delegado ingressa, acessa sistemas e requisita por escrito com prazo razoável. Sonegação → **prazo improrrogável**, comunicação e, se persistir, sanção. Risco grave → equipe representa imediatamente ao gestor técnico com evidências; relator pode adotar cautelar (medida provisória).
 
-Depois:
+| Achado | Providência |
+| --- | --- |
+| Sem transgressão | Arquivar ou apensar (juntar) às contas, se útil. |
+| Falha formal sem multa nem indício de débito | **Determinar** correção obrigatória; arquivar/apensar e monitorar. |
+| Oportunidade de melhoria | **Recomendar** medida orientativa. |
+| Ilegalidade, ilegitimidade, antieconomicidade ou infração | **Citar** (chamar para defesa): **30 + até 30 dias** a critério do relator. Multa não prejulga contas. |
 
-- **ato** → TCE susta + comunica Legislativo;
-- **contrato** → Legislativo susta e solicita providências ao Executivo;
-- inércia de Legislativo/Executivo → **90 dias** → TCE decide;
-- TCE susta contrato → cumprimento em **15 dias improrrogáveis**.
+### Ilegalidade persistente: ato ≠ contrato
 
-## Art. 53
+Primeiro, prazo para cumprir a lei, com indicação dos dispositivos. **Ato:** Tribunal susta (paralisa) e comunica ao Legislativo. **Contrato:** Legislativo susta e pede providências ao Executivo; inércia de um deles por **90 dias** → Tribunal decide; se sustar, responsável cumpre em **15 dias improrrogáveis**, com comunicação a ambos.
 
-Transferências; convênios; subvenções; receitas; renúncia; <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>; desestatização; declarações patrimoniais; <abbr title="Parceria público-privada">PPP</abbr>.
+**Outros objetos (art. 53):** transferências, convênios, subvenções (apoio), receitas/renúncia, responsabilidade fiscal, desestatização (transferir ao setor privado), patrimônio declarado e parcerias público-privadas. <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr>/<abbr title="Relatório de Gestão Fiscal">RGF</abbr>: publicar e enviar em **30 dias do período**, com acesso público.
 
-**RREO/RGF → até 30 dias após o período + acesso público.**
+## Registro de pessoal: dois quinquênios diferentes
 
-## Registro de pessoal
+**Admissão** (exceto cargo em comissão), **aposentadoria, reforma** (inatividade militar) e **pensão** entram; melhoria sem novo fundamento legal, não. Controle interno emite parecer.
 
-### Entra
+| Momento | Regra de cinco anos |
+| --- | --- |
+| **Registro inicial** de aposentadoria, reforma ou pensão — Tema 445 do <abbr title="Supremo Tribunal Federal">STF</abbr> | Prazo para julgar legalidade conta **da chegada do processo** à Corte de Contas. |
+| **Revisão de ato já registrado** — art. 55, § 2º | De ofício, com oitiva do <abbr title="Ministério Público de Contas">MPC</abbr>, conta **do julgamento**; comprovada má-fé, revisão a qualquer tempo. |
 
-- admissão;
-- aposentadoria;
-- reforma;
-- pensão.
-
-### Não entra
-
-- cargo em comissão;
-- melhoria sem alterar fundamento legal.
-
-## Dois quinquênios ⚠️
-
-| Regra | Objeto | Termo inicial |
-| --- | --- | --- |
-| **Tema 445/STF** | registro inicial de aposentadoria/reforma/pensão | **chegada do processo à Corte** |
-| **art. 55, §2º** | revisão de ato já registrado | **julgamento** |
-
-Art. 55, §2º: má-fé comprovada → revisão a qualquer tempo.
-
-## Ilegalidade de pessoal
-
-- admissão ilegal → regularizar + cessar pagamentos;
-- aposentadoria/reforma/pensão ilegal → cessar pagamento em **15 dias**;
-- hipóteses legais de culpa/dolo ou pagamento indevido mantido → tomada especial;
-- benefício pode ser refeito sem a irregularidade;
-- pedido inicial de benefício direto ao TCE → não conhece, salvo recurso previsto.
-
-## Prazos-relâmpago
-
-**60** → parecer Governador / entrega municipal  
-**30 + 30** → defesa em fiscalização  
-**30** → RREO/RGF após período  
-**90** → inércia na sustação de contrato  
-**15** → cumprimento da sustação contratual / cessação de benefício ilegal  
-**5 anos da chegada** → Tema 445  
-**5 anos do julgamento** → revisão do art. 55, §2º
+**Admissão ilegal:** regularizar e cessar pagamentos; culpa/dolo → tomada especial. **Benefício ilegal:** cessar em **15 dias da ciência**, sob responsabilidade solidária; pagamento mantido ou culpa/dolo → tomada especial. Cabe novo ato sem vício; pedido inicial direto ao Tribunal não é conhecido, salvo reconsideração.
