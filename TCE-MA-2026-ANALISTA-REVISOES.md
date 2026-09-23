@@ -155,7 +155,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H047 | `controle-parlamentar` | = | V | `5f64a1db84e8b1567c2bc003e31b4da548196e05` |
 | H048 | `controle-tribunais-contas` | = | V | `6f791f04166d72c75ee25f31dd29f6cf76251d8d` |
 | H049 | `controle-administrativo` | = | V | `52abdeeab24668b02f358234a5b012369ea8ff7e` |
-| H050 | `improbidade-sujeitos-atos` | = | V | — |
+| H050 | `improbidade-sujeitos-atos` | = | V | [`c2f09cc`](https://github.com/insign/concursos/commit/c2f09ccda8dc394c2eba73da0862989064f72014) |
 | H051 | `improbidade-sancoes-procedimento` | = | V | — |
 | H052 | `contencioso-controle-judicial` | = | V | — |
 | H053 | `controle-atividade-financeira` | = | V | — |
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H050: q52205001 envolve incidência sobre partido político e fundos partidários, relação não ensinada na aula; verificar ensino/banco em escopo próprio, sem importar conclusão isolada para H/M.
 - H049: q99050 e q52204901–08 cobram espécies e procedimento detalhado de recurso/revisão/delegação não ensinados integralmente na aula; reavaliar ensino e pertinência no escopo próprio. A questão adaptada q5624 da CAGEPA segue sem confronto independente do gabarito definitivo.
 - H048: a aula informa publicação de E1 em 6/7, mas o Tribunal a registra em 7/7; corrigir em revisão própria. Temas do STF citados na aula não tiveram inteiro teor aberto pelo portal nesta consulta; revisar essa limitação antes de atualizar precedentes na M04.
 - H047: a aula fixa jurisprudência em 6/7/2026, embora E1, item 13.33.1, use publicação até 30 dias antes da prova; q52204706–07 exigem prioridade da Lei nº 10.001/2000 e limite federativo/competência do objeto de CPI não desenvolvidos na aula. Reavaliar aula/banco no escopo próprio. A notícia do STF sobre MS 40.799 foi identificada, mas seu texto e o inteiro teor não abriram nesta consulta.
