@@ -124,7 +124,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H026 | `backup-armazenamento-nuvem` | = | V | `a78c7cb619b099047fe38bb04cdc37a460d8859b` |
 | H027 | `malware-protecao-ameacas` | = | V | `bab566c28b2c0ad2961731355929d3f664fc6fae` |
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | [`adb3511`](https://github.com/insign/concursos/commit/adb3511fbb577d4147944a170cb6eab9f5c54ab8) |
-| H029 | `marco-civil-internet` | = | V | — |
+| H029 | `marco-civil-internet` | = | V | [`96dd723`](https://github.com/insign/concursos/commit/96dd723063911fffaad475caf971def6464ac567) |
 | H030 | `assinaturas-certificacao-digital` | = | V | — |
 | H031 | `pen-sei-processo-eletronico` | = | V | — |
 | H032 | `governo-digital-dados-abertos` | = | V | — |
@@ -302,5 +302,6 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Dependência aberta para M02
 
+- H029: `conteudo.md` §10 chama 6/7 de corte legislativo, embora o edital tenha publicação informada em 7/7; também fixa como atual em 6/9 o andamento do Tema 533, já encerrada a sessão em 14/9, sem inteiro teor confirmado no portal do STF. Corrigir a aula em revisão própria; q522043 exige fundamento processual fora da aula. M02 não deve inferir tese nova nem importar decretos posteriores ao corte.
 - H028: questões q522031–q522033 exigem conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino da multa, detalhes ausentes do `conteudo.md`. Reavaliar o banco e a aula em revisão própria, sem transferir a lacuna à M02.
 - H027: o banco contém itens sobre autenticação de e-mail (SPF/DKIM/DMARC), consentimento OAuth e adware/stalkerware que o `conteudo.md` não ensina. Avaliar pertinência, realocação ou ensino em revisão própria do conteúdo/banco; a M02 deve seguir o recorte confirmado enquanto essa divergência estiver aberta.
