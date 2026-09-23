@@ -1,241 +1,60 @@
 # Improbidade Administrativa: Sanções, Procedimento, Bens e Prescrição
 
-## Art. 12 — matriz central
+## Separe consequência e fase
 
-| Ato | Perda de bens | Perda da função | Suspensão política | Multa | Proibição de contratar/benefícios |
+| Efeito | Finalidade | Momento decisivo |
+| --- | --- | --- |
+| Sanção | punir pessoalmente; dosar por participação e gravidade | execução após trânsito em julgado (decisão definitiva) |
+| Ressarcimento/perda | recompor dano ou retirar acréscimo ilícito | condenação e cumprimento; sem duplicar quantias pagas |
+| Indisponibilidade | conservar bens para resultado patrimonial útil | tutela provisória, com decisão fundamentada |
+| Prescrição | limitar a pretensão de aplicar sanções | relógio próprio; exceção qualificada para ressarcimento |
+
+### Sanções do artigo 12
+
+| Ato | Bens acrescidos | Função | Direitos políticos | Multa civil | Contratar/receber benefícios |
 | --- | --- | --- | --- | --- | --- |
-| **Art. 9º** | acréscimo ilícito | sim | até **14 anos** | valor do acréscimo | até **14 anos** |
-| **Art. 10** | se houver acréscimo ilícito | sim | até **12 anos** | valor do dano | até **12 anos** |
-| **Art. 11** | não prevista | não prevista | não prevista | até **24 remunerações** | até **4 anos** |
+| Artigo 9º | perda do acréscimo ilícito | perda | suspensão até **14 anos** | valor do acréscimo | proibição até **14 anos** |
+| Artigo 10 | perda **se houver** acréscimo ilícito | perda | suspensão até **12 anos** | valor do dano | proibição até **12 anos** |
+| Artigo 11 | não prevista | não prevista | não prevista | até **24 remunerações** | proibição até **4 anos** |
 
-- sanções: isoladas ou cumulativas conforme gravidade;
-- multa pode chegar ao dobro se o valor ordinário for ineficaz;
-- menor ofensa: sanção limitada à multa, sem excluir ressarcimento/perda cabíveis;
-- <abbr title="Lei de Improbidade Administrativa">LIA</abbr> + Lei Anticorrupção: `non bis in idem`.
+As sanções podem ser isoladas ou cumulativas conforme a gravidade; o ressarcimento depende de dano efetivo. O juiz individualiza a participação, dano, proveito, antecedentes e sanções já aplicadas. Multa ineficaz pode subir até o **dobro**; em ato de menor ofensa, a **sanção** limita-se à multa, sem excluir ressarcimento ou perda cabíveis. Evite dupla punição pelo mesmo fundamento (non bis in idem) ao considerar a Lei nº 12.846/2013.
 
-## <abbr title="Supremo Tribunal Federal">STF</abbr> 2026 — sanções
+O <abbr title="Supremo Tribunal Federal">STF</abbr> afastou a limitação da perda da função ao vínculo de mesma qualidade: em atos dos artigos 9º e 10, alcança **todos os vínculos públicos**, salvo preservação excepcional e fundamentada de vínculo específico. A proibição de contratar pode alcançar União, estados e municípios; não fica restrita ao ente lesado. A detração da suspensão política entre decisão colegiada e trânsito em julgado (artigo 12, § 10) foi invalidada. **Afastamento cautelar** não é perda de função: se indispensável à instrução ou à prevenção de ilícitos iminentes, ocorre sem prejuízo da remuneração por **90 dias**, prorrogável uma vez por igual período, mediante decisão motivada.
 
-### Perda da função
+**Sanção pessoal ≠ responsabilidade patrimonial:** o <abbr title="Supremo Tribunal Federal">STF</abbr> vedou solidariedade na primeira e admitiu solidariedade reparatória quando cabível. No artigo 17-C, § 2º, invalidou “e dos benefícios diretos”, com efeitos prospectivos (ex nunc); benefício pessoal direto não é requisito autônomo da responsabilidade patrimonial do terceiro, mas sua participação continua necessária.
 
-**Regra:** perde todas as funções públicas.
+## Da investigação ao acordo e à sentença
 
-**Exceção:** juiz pode preservar função específica, excepcional e fundamentadamente.
+- **Representação:** qualquer pessoa pode provocar a autoridade por escrito/termo assinado, com identificação, fato/autoria e provas conhecidas. Rejeição administrativa fundamentada não impede representação ao Ministério Público; a comissão informa este e o tribunal/conselho de contas. O investigado pode manifestar-se por escrito e juntar documentos.
+- **Ação:** Ministério Público e pessoa jurídica pública interessada têm legitimidade concorrente e independente. Foro do dano **ou** da pessoa jurídica prejudicada; primeira ação previne o juízo (concentra ações com mesmos fatos/pedido).
+- **Inicial e defesa:** individualize fatos, conduta, autoria e indícios de dolo ou justifique impossibilidade de obter suporte; contestação em **30 dias**, interrompível até **90** para tentativa consensual. Revelia não presume fatos verdadeiros; silêncio em interrogatório não é confissão; não se transfere dinamicamente ao réu o ônus probatório. O juiz pode reenquadrar **os mesmos fatos** com contraditório, sem condenar por fatos novos. Decisões interlocutórias admitem agravo de instrumento; sem remessa obrigatória.
+- **Acordo de Não Persecução Civil (<abbr title="Acordo de Não Persecução Civil">ANPC</abbr>):** resultados mínimos de **ressarcimento integral** e reversão da vantagem indevida ao ente lesado. Pode ocorrer na investigação, ação ou execução; Ministério Público e ente público interessado podem celebrar. Exige oitiva do ente lesado, homologação judicial em qualquer fase e, se ministerial anterior à ação, aprovação interna em até **60 dias**. Consulta obrigatória ao tribunal de contas foi invalidada; apoio técnico facultativo permanece. Descumprimento impede novo acordo por **5 anos**, desde que conhecido pelo Ministério Público.
 
-### Proibição de contratar
+A ação é repressiva e sancionatória; não substitui ação civil pública genérica. Decisão penal definitiva sobre **os mesmos fatos** impede sua tramitação em hipóteses qualificadas (inexistência do fato, negativa de autoria ou excludentes como legítima defesa/estado de necessidade); rejeição da denúncia e arquivamento seguem os limites fixados pelo <abbr title="Supremo Tribunal Federal">STF</abbr>. Absolvição por prova insuficiente, por si, não encerra a ação.
 
-Não se limita ao ente lesado → pode alcançar os **3 níveis da Federação**.
+### Cumprimento patrimonial
 
-### Execução
+A pessoa jurídica lesada liquida (apura o valor devido) e executa a condenação; se inerte por **6 meses** após o trânsito, o Ministério Público assume. Descontam-se serviços efetivamente prestados no cálculo do dano. Demonstrada incapacidade financeira, o juiz pode parcelar o débito da condenação em até **48 parcelas mensais corrigidas** (artigo 18). Na unificação a pedido do réu: continuidade de ilícito → maior sanção acrescida de **1/3** ou soma, a mais benéfica; novos ilícitos → soma. Suspensão política e proibição de contratar/receber incentivos têm limite unificado de **20 anos** (artigo 18-A).
 
-Sanções do art. 12 → **após trânsito em julgado**.
+## Indisponibilidade: garantia, não pena
 
-Art. 12, § 10 → detração entre decisão colegiada e trânsito **inconstitucional**.
+Após o controle constitucional de 2026, a medida pode garantir **reparação, multa civil e enriquecimento ilícito**, se houver, sem ultrapassar o montante necessário e sem multiplicá-lo por réu. Pode recair em bens de origem lícita, respeitadas as proteções de impenhorabilidade. Exige base probatória e motivação: tutela de evidência (prova qualificada mesmo sem perigo ordinário) e presunção de urgência só **excepcionalmente**, por decisão fundamentada; não há bloqueio automático.
 
-## Sanção x responsabilidade patrimonial
+**Contraditório:** ouvir o réu em **5 dias** é a regra. Oitiva posterior cabe se a prévia frustrar a medida ou circunstâncias concretas justificarem liminar (decisão provisória imediata). Bens de terceiro exigem prova da concorrência; para desconsideração da personalidade jurídica, instaure o incidente próprio. Substituição por caução idônea, fiança bancária ou seguro-garantia é possível; readeque o valor na instrução.
 
-| Plano | Regra |
+**Ordem legal de preferência:** veículos → imóveis → outros móveis/semoventes (animais) → navios/aeronaves → ações/quotas → pedras/metais preciosos → contas bancárias **na falta dos anteriores**. Preserve subsistência, empresa e serviços públicos. Protegem-se até **40 salários mínimos** nas contas/aplicações previstas e o bem de família, salvo se o próprio imóvel for vantagem ilícita do artigo 9º. O Tema 1257 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> admite aplicação processual da reforma a ações em curso e reapreciação de cautelares anteriores, já observadas as invalidações posteriores pelo <abbr title="Supremo Tribunal Federal">STF</abbr>.
+
+## Prescrição: quatro relógios
+
+| Etapa | Regra a recuperar |
 | --- | --- |
-| sanção pessoal | individualizada |
-| ressarcimento/responsabilidade patrimonial | pode ser solidária |
-| benefício direto do terceiro | **não** é requisito autônomo para responsabilidade patrimonial |
+| Prazo sancionador | **8 anos** do fato; na infração permanente, da cessação. |
+| Suspensão na investigação | instauração de inquérito civil ou processo administrativo suspende por até **180 dias corridos**; duração do inquérito civil: **365 + 365** dias com prorrogação fundamentada; ao fim, ação em **30 dias** ou arquivamento. Duração da investigação não equivale à suspensão. |
+| Interrupção | ajuizamento; publicação da sentença condenatória; publicação de decisão de tribunal de segundo grau, do <abbr title="Superior Tribunal de Justiça">STJ</abbr> ou do <abbr title="Supremo Tribunal Federal">STF</abbr> que confirme condenação ou reforme improcedência. Os marcos permanecem, inclusive para os concorrentes e ilícitos conexos do mesmo processo. |
+| Reinício e limite | o <abbr title="Supremo Tribunal Federal">STF</abbr> invalidou a redução **pela metade** após interrupção: volta a **8 anos**, inclusive no exame intercorrente (entre marcos). Limite máximo da ação: **20 anos**. |
 
-STF: expressão “e dos benefícios diretos” do art. 17-C, § 2º → inconstitucional **<abbr title="efeito prospectivo, sem retroação">ex nunc</abbr>**.
+**Transição (Tema 1199):** o novo regime prescricional não retroage; os novos marcos se aplicam desde **26/10/2021**, publicação da Lei nº 14.230/2021.
 
-## Efeitos patrimoniais
+**Ressarcimento (Tema 897):** imprescritível somente a pretensão de recompor o erário fundada em **ato doloso tipificado na <abbr title="Lei de Improbidade Administrativa">LIA</abbr>**. Sanções seguem prescritíveis; sua prescrição não extingue por si só essa pretensão patrimonial qualificada.
 
-| Instituto | Função |
-| --- | --- |
-| ressarcimento | recompor dano |
-| perda/reversão | retirar vantagem ilícita |
-| multa civil | sancionar |
-| indisponibilidade | garantir resultado patrimonial futuro |
-
-### Art. 18
-
-- ente lesado promove liquidação/cumprimento;
-- inércia por **6 meses** após trânsito → <abbr title="Ministério Público">MP</abbr> assume;
-- descontar serviços efetivamente prestados;
-- incapacidade financeira comprovada → até **48 parcelas**.
-
-### Unificação — art. 18-A
-
-- continuidade: maior sanção + 1/3 **ou** soma → aplica-se o mais benéfico;
-- novos ilícitos: soma;
-- suspensão política + proibição → máximo total de **20 anos**.
-
-## Investigação
-
-Representação por **qualquer pessoa**.
-
-Deve conter:
-
-- identificação;
-- fatos/autoria;
-- provas conhecidas.
-
-Rejeição administrativa não impede representação ao MP.
-
-Comissão informa MP + Tribunal/Conselho de Contas.
-
-## Legitimidade
-
-**MP + pessoa jurídica pública interessada** → legitimidade concorrente e disjuntiva.
-
-Podem:
-
-- propor ação;
-- pedir tutela provisória;
-- celebrar ANPC.
-
-## Rito rápido
-
-- foro: local do dano **ou** pessoa jurídica prejudicada;
-- inicial: individualização + fato/autoria/dolo + suporte mínimo;
-- contestação: **30 dias**;
-- negociação: interrupção por até **90 dias**;
-- revelia: não presume verdade;
-- silêncio no interrogatório: não confessa;
-- ônus dinâmico contra o réu: inaplicável;
-- juiz pode reenquadrar juridicamente os **mesmos fatos**;
-- interlocutórias: agravo de instrumento;
-- remessa necessária: não há.
-
-## Decisão penal
-
-Pode impedir a improbidade, nas hipóteses qualificadas do STF, quando houver decisão penal aplicável aos mesmos fatos reconhecendo:
-
-- **estado de necessidade**;
-- legítima defesa;
-- estrito cumprimento do dever legal;
-- exercício regular de direito;
-- inexistência do fato;
-- réu não concorreu para a infração.
-
-**Insuficiência de provas ≠ extinção automática.**
-
-## <abbr title="Acordo de Não Persecução Civil">ANPC</abbr>
-
-Mínimo:
-
-1. ressarcimento integral;
-2. reversão da vantagem indevida.
-
-Pode ocorrer:
-
-- investigação;
-- ação;
-- execução.
-
-Regras-chave:
-
-- homologação judicial;
-- acordo ministerial pré-processual → controle interno em até **60 dias**;
-- consulta obrigatória ao Tribunal de Contas → **inconstitucional**;
-- descumprimento → sem novo ANPC por **5 anos**.
-
-## Indisponibilidade — pós-STF 2026
-
-### O que pode garantir?
-
-**Ressarcimento + multa civil + enriquecimento ilícito, se houver.**
-
-Pode atingir bens **independentemente da origem**, respeitadas impenhorabilidades.
-
-> Pegadinha antiga: “multa civil nunca entra na indisponibilidade” → **errado após o STF**.
-
-### Cognição cautelar
-
-Excepcionalmente e com fundamentação:
-
-- **tutela de evidência**;
-- **presunção de urgência**.
-
-Não há bloqueio automático nem dispensa de motivação.
-
-### Contraditório
-
-Regra → ouvir réu em **5 dias**.
-
-Pode haver contraditório diferido se a prévia oitiva comprometer a eficácia ou houver circunstância liminar concreta.
-
-### Vários réus
-
-A soma das constrições respeita o **montante judicialmente definido para a garantia**.
-
-Não multiplicar o mesmo valor por número de réus.
-
-### Proteções
-
-- terceiro: efetiva concorrência;
-- <abbr title="pessoa jurídica">PJ</abbr> por desconsideração: incidente próprio;
-- substituição: caução, fiança ou seguro-garantia;
-- contas bancárias vêm depois das demais classes previstas;
-- proteção de até **40 salários mínimos** nas hipóteses legais;
-- bem de família protegido, salvo se o próprio imóvel for vantagem ilícita do art. 9º;
-- preservar subsistência, empresa e serviços públicos.
-
-### Tema 1257/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
-
-Normas processuais da reforma alcançam processos em curso e medidas anteriores podem ser reapreciadas.
-
-**Mas:** trechos do art. 16 depois invalidados pelo STF não continuam valendo.
-
-## Prescrição sancionadora
-
-### Regra
-
-**8 anos**:
-
-- do fato;
-- na infração permanente, da cessação.
-
-### Investigação
-
-- suspensão máxima: **180 dias**;
-- inquérito civil: **365 + 365 dias**;
-- depois: ação em **30 dias** ou arquivamento.
-
-### Interrupção
-
-1. ajuizamento;
-2. sentença condenatória;
-3. TJ/TRF confirma condenação ou reforma improcedência;
-4. STJ faz o mesmo;
-5. STF faz o mesmo.
-
-### STF 1º/7/2026
-
-- metade de **4 anos** → inconstitucional;
-- após interrupção → reinicia por **8 anos**;
-- teto máximo da ação → **20 anos**.
-
-## Direito intertemporal
-
-Tema 1199:
-
-- novo regime prescricional = **irretroativo**;
-- novos marcos contam desde **26/10/2021**.
-
-## Tema 897
-
-Imprescritível somente o ressarcimento fundado em:
-
-1. dano ao erário;
-2. **ato doloso**;
-3. **tipificação na LIA**.
-
-Sanções continuam prescritíveis.
-
-## Pegadinhas finais
-
-- art. 11 não perde função nem direitos políticos;
-- sanção individual ≠ ressarcimento necessariamente individual;
-- benefício direto próprio não é requisito patrimonial obrigatório;
-- indisponibilidade pode abranger **multa civil**;
-- bem de origem lícita pode ser atingido, respeitadas impenhorabilidades;
-- urgência presumida/tutela de evidência são excepcionais e fundamentadas;
-- absolvição por dúvida não encerra automaticamente;
-- estado de necessidade entra nas hipóteses penais qualificadas;
-- Tribunal de Contas não aprova obrigatoriamente o ANPC;
-- regra de 4 anos após interrupção está invalidada;
-- prescrição das sanções não extingue automaticamente ressarcimento do Tema 897.
+**Decisão em prova:** escolha o tipo 9/10/11, separe sanção de reparação/cautela, situe a fase e só então conte o prazo.
