@@ -1,99 +1,27 @@
 # Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: recursos e revisão
 
-## Corte do edital
+## Decida pelo defeito e pelo efeito
 
-- Regra vigente em **6 jul. 2026**.
-- Lei Orgânica prevalece sobre o Regimento em caso de incompatibilidade.
-- Recursos não se confundem com cumprimento ou execução.
+| Via | Quando e por quem | Prazo/efeito |
+| --- | --- | --- |
+| **reconsideração**, art. 136 da Lei Orgânica | reexame ordinário de decisão definitiva em prestação/tomada de contas, decisão de mérito de registro ou fiscalização, ou parecer prévio; parte ou Ministério Público junto ao Tribunal; **mesmo colegiado**, por escrito e uma vez | **15 dias improrrogáveis; suspensivo** |
+| **embargos de declaração**, art. 138 da Lei e art. 288 do Regimento | obscuridade, omissão ou contradição de acórdão/parecer; parte ou Ministério Público, por escrito, uma vez; erro material efetivo pode ser corrigido sem reabrir mérito | **5 dias improrrogáveis; interrompem prazos** |
+| **revisão**, art. 139 da Lei | decisão **definitiva** de prestação ou tomada de contas, inclusive especial; parte, sucessores ou Ministério Público; Plenário, por escrito e uma vez | **2 anos improrrogáveis; sem efeito suspensivo** |
 
-## Matriz principal
+**Reconsideração parcial:** itens autônomos não recorridos **não** sofrem suspensão; prossegue a execução em processo apartado (art. 136, parágrafo único). **Reconsideração intempestiva:** excepcionalmente conhecida se houver **fato novo superveniente até um ano após o fim dos 15 dias ordinários**; nessa hipótese, **não** tem efeito suspensivo (art. 137). Mera reiteração dos argumentos não reabre o prazo.
 
-| Instrumento | Prazo | Julgamento | Efeito |
-| --- | --- | --- | --- |
-| **reconsideração** | **15 dias** | mesmo colegiado | **suspensivo** |
-| **embargos de declaração** | **5 dias** | integração da própria decisão | **interrompem** cumprimento + reconsideração + revisão |
-| **revisão** | **2 anos** | Plenário | **sem suspensivo** |
+**Embargos interrompem** os prazos de **cumprimento** da decisão embargada, **reconsideração e revisão** (art. 288, § 3º, redação da Resolução nº 252/2016; art. 138, § 3º, da Lei). Interromper significa recomeçar integralmente o prazo alcançado; suspender seria retomar apenas o restante. Preserve o limite dos itens não recorridos no acórdão.
 
-## Reconsideração — arts. 136 e 137
+## Revisão: porta de entrada estreita
 
-- Uma única vez.
-- Por escrito.
-- Mesmo colegiado que decidiu.
-- **15 dias improrrogáveis**.
-- **Efeito suspensivo**.
-- Impugnação parcial → suspensão ligada ao capítulo impugnado.
-- Intempestivo: só excepcionalmente nas hipóteses do art. 137.
-- Exceção intempestiva → **sem efeito suspensivo**.
-
-## Embargos
-
-Função típica:
-
-**obscuridade + omissão + contradição**
-
-Prazo: **5 dias**.
-
-### Regra de ouro — Resolução 252/2016
-
-Embargos **INTERROMPEM**:
-
-1. prazo de cumprimento;
-2. reconsideração;
-3. revisão.
-
-> Não confunda **interrupção** com suspensão.
-
-A prática atual do TCE/MA também admite correção de **erro material** em embargos, sem transformar o instrumento em nova discussão ampla do mérito.
-
-## Revisão — art. 139 da Lei Orgânica
-
-- Excepcional; lógica rescisória.
-- Plenário.
-- Uma única vez.
-- **2 anos improrrogáveis**.
-- **Sem efeito suspensivo**.
-
-### Fundamentos
-
-**E · F · N**
-
-- **E**rro de cálculo;
-- **F**alsidade ou insuficiência documental;
-- documento **N**ovo superveniente com eficácia sobre a prova.
-
-## Conflito Regimento × Lei Orgânica
-
-| Texto | Prazo de revisão |
+| Fundamento legal | Teste decisivo |
 | --- | --- |
-| art. 289 do Regimento em compilações antigas | 5 anos |
-| art. 139 da Lei nº 8.258/2005 | **2 anos** |
+| erro de cálculo nas contas | defeito aritmético, não mera discordância da interpretação |
+| falsidade ou insuficiência dos documentos que fundamentaram a decisão | vício da base documental da decisão |
+| documento **novo superveniente** com eficácia sobre a prova produzida | novidade capaz de alterar a prova, não repetição da defesa |
 
-**Na prova: 2 anos.** Lei Orgânica é hierarquicamente superior e é a regra aplicada pelo próprio TCE/MA.
+**Vedação expressa:** não cabe revisão da decisão em prestação de contas anual apresentada por **prefeito municipal nem governador do Estado**, na forma dos arts. 8º e 9º (art. 139, § 7º). A definitividade para revisão ocorre quando não cabe mais reconsideração (art. 139, §§ 8º–9º); os embargos podem deslocar esse marco porque interrompem o prazo. A revisão não paralisa automaticamente pagamento/cobrança.
 
-## Trânsito administrativo
+**Conflito de textos:** o art. 289 do Regimento compilado ainda traz **cinco anos** e fundamentos mais amplos. Prevalece a **Lei Orgânica, art. 139: dois anos e três fundamentos vinculados**, superior hierarquicamente. Não misture o velho rol regimental com o prazo legal vigente.
 
-- Definitividade interna ≠ coisa julgada judicial.
-- Para o regime do art. 139, o trânsito se relaciona à inexistência de reconsideração cabível.
-- Embargos podem deslocar cronologicamente esse marco porque **interrompem** o prazo da reconsideração.
-- Certidão documenta a situação processual.
-
-## Efeitos × execução
-
-| Ato | O que acontece |
-| --- | --- |
-| embargos | interrompem prazo de cumprimento e recursos indicados |
-| reconsideração | suspende o objeto impugnado |
-| revisão | não paralisa automaticamente cumprimento/cobrança |
-
-## Pegadinhas
-
-- Reconsideração ≠ revisão.
-- 15 dias = reconsideração.
-- 5 dias = embargos.
-- 2 anos = revisão.
-- Embargos **interrompem**, não apenas suspendem.
-- Revisão **não** tem efeito suspensivo.
-- Art. 289 antigo não supera a Lei Orgânica.
-- Revisão não serve para repetir defesa.
-- Trânsito administrativo não impede Judiciário.
-- Recurso impugna; execução cumpre/cobra.
+**Trânsito administrativo:** encerra a via interna cabível; não cria coisa julgada judicial. Recurso impugna ou integra a decisão; cumprimento/execução tratam da obrigação. O corte legislativo é a publicação do edital de abertura informada pelo Tribunal em **7/7/2026**, distinta da data do ato, 6/7.

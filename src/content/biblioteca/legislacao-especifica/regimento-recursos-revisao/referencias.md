@@ -1,6 +1,6 @@
 - [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, especialmente art. 5º, XXXV, LIV, LV e LXXVIII.
-- [Lei nº 8.258/2005 — publicação legislativa](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO17-05-2005.pdf), Assembleia Legislativa do Maranhão, especialmente arts. 136 a 139.
-- [Regimento Interno completo do TCE/MA](https://www.tcema.tc.br/index.php/component/content/article/39-uncategorised/1430-regimento-interno-completo-2), Tribunal de Contas do Estado do Maranhão, especialmente arts. 282 a 290.
+- [Lei Orgânica nº 8.258/2005, texto compilado](https://publicacao.apps.tcema.tc.br/#/documentohtml/8200?compilado=true), Assembleia Legislativa do Maranhão, especialmente arts. 136 a 139.
+- [Regimento Interno compilado do TCE/MA](https://publicacao.apps.tcema.tc.br/#/documentohtml/8207?compilado=true), Tribunal de Contas do Estado do Maranhão, especialmente arts. 282 a 290.
 - [Resolução TCE/MA nº 252/2016](https://app.tcema.tc.br/diario/publicacao/pdf/7126), alteração do art. 288, § 3º, do Regimento Interno.
 - [D.O.E. TCE/MA nº 9062](https://app.tcema.tc.br/diario/publicacao/pdf/9062), 2024, aplicação do art. 139 da Lei Orgânica, fundamentos da revisão e trânsito administrativo.
 - [D.O.E. TCE/MA nº 9437](https://diario.apps.tcema.tc.br/publicacao/pdf/9437), fevereiro de 2026, aplicação do art. 139, § 7º, e tratamento recursal de prestação de contas anual de Prefeito.
