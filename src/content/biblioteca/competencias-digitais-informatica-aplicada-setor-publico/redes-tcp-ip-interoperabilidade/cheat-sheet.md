@@ -1,239 +1,101 @@
-# Redes, TCP/IP e interoperabilidade
+# Redes, <abbr title="Transmission Control Protocol e Internet Protocol">TCP/IP</abbr> e interoperabilidade
 
-## Roteiro
+## Mapa de decisão
 
-**Alcance → equipamento → camada → identificador → protocolo → serviço → diagnóstico → interoperabilidade.**
+**Alcance e acesso → enlace (trecho de comunicação direta) → endereço e rota → transporte → serviço → significado e autorização.** Comunicação local, Internet, Web e permissão são coisas diferentes: uma <abbr title="Local Area Network">LAN</abbr> pode funcionar sem Internet; uma <abbr title="Wide Area Network">WAN</abbr> pode ser privada; intranet restringe acesso e extranet permite acesso externo autorizado a parte dela.
 
-## Alcance
+| Alcance | <abbr title="Personal Area Network">PAN</abbr> | <abbr title="Local Area Network">LAN</abbr> | <abbr title="Metropolitan Area Network">MAN</abbr> | <abbr title="Wide Area Network">WAN</abbr> |
+|---|---|---|---|---|
+| Área típica | pessoal | prédio/campus | cidade | regiões/países |
 
-| Tipo | Área típica |
+## Do sinal ao destino
+
+| Função | Decide com base em | Unidade / camada <abbr title="Open Systems Interconnection">OSI</abbr> típica |
+|---|---|---|
+| hub | repete sinais, sem escolher destinatário | bits / 1 |
+| switch | aprende porta e encaminha por endereço <abbr title="Media Access Control">MAC</abbr> | quadro / 2 |
+| roteador | escolhe próximo salto pela rota e endereço <abbr title="Internet Protocol">IP</abbr> | pacote / 3 |
+| ponto de acesso | liga dispositivos <abbr title="Tecnologia de rede local sem fio">Wi-Fi</abbr> à rede local, usualmente como ponte | enlace / 2 |
+| firewall | permite ou bloqueia tráfego conforme política | depende da implementação |
+
+O mesmo aparelho pode reunir funções distintas. Topologia **estrela** liga dispositivos a um centro; **barramento**, a um cabo principal; **anel**, a um circuito; **malha**, a múltiplas interligações. A topologia física pode diferir da circulação lógica. Ethernet clássica, Fast Ethernet e Gigabit Ethernet indicam 10, 100 e 1.000 megabits por segundo nominais, sem garantir taxa útil.
+
+| Modelo <abbr title="Open Systems Interconnection">OSI</abbr> (7 camadas) | Modelo <abbr title="Transmission Control Protocol e Internet Protocol">TCP/IP</abbr> (4 camadas) | Papel |
+|---|---|---|
+| Aplicação, Apresentação, Sessão | Aplicação | serviços, representação e diálogo |
+| Transporte | Transporte | processos, portas, entrega |
+| Rede | Internet | endereço e rota |
+| Enlace, Física | Acesso à rede | quadros e sinais no trecho |
+
+Encapsulamento: **dados → segmento <abbr title="Transmission Control Protocol">TCP</abbr> ou datagrama <abbr title="User Datagram Protocol">UDP</abbr> → pacote <abbr title="Internet Protocol">IP</abbr> → quadro → bits.** Um <abbr title="Media Access Control">MAC</abbr> identifica interface no enlace; <abbr title="Internet Protocol">IP</abbr> identifica destino lógico; porta identifica serviço/processo no protocolo de transporte. Um *socket* é o ponto de comunicação formado por endereço <abbr title="Internet Protocol">IP</abbr> e porta no contexto desse transporte.
+
+## Endereçar, dividir, encaminhar
+
+<abbr title="Internet Protocol version 4">IPv4</abbr> tem **32 bits**, quatro octetos de 0 a 255. O prefixo `/p` indica os bits de rede; numa sub-rede convencional há `2^(32-p)` endereços e `2^(32-p)-2` hosts usuais, descontando rede e broadcast (endereço de envio coletivo da sub-rede). Para 1.000 hosts, dez bits de host dão 1.022 utilizáveis: **`/22`, máscara `255.255.252.0`**. Exceções: `/31` usa ambos endereços em enlace ponto a ponto; `/32` identifica um endereço.
+
+| Prefixo | Máscara | Bloco / hosts usuais |
+|---|---|---|
+| `/24` | `255.255.255.0` | 256 / 254 |
+| `/26` | `255.255.255.192` | 64 / 62 |
+| `/27` | `255.255.255.224` | 32 / 30 |
+| `/29` | `255.255.255.248` | 8 / 6 |
+
+**Cálculo de bloco:** alinhe o endereço a um múltiplo do tamanho do bloco no octeto variável; primeiro é rede, último é broadcast, intermediários são hosts. Em `192.168.10.64/26`, rede `.64`, hosts `.65`–`.126`, broadcast `.127`. O gateway (roteador usado para sair da rede) deve ser endereço alcançável de host, jamais broadcast. Classe histórica não substitui o prefixo informado.
+
+| Faixa <abbr title="Internet Protocol version 4">IPv4</abbr> | Uso |
 |---|---|
-| <abbr title="rede de área pessoal">PAN</abbr> | pessoal |
-| <abbr title="rede de área local">LAN</abbr> | sala, prédio, campus |
-| <abbr title="rede de área metropolitana">MAN</abbr> | cidade/região metropolitana |
-| <abbr title="rede de longa distância">WAN</abbr> | regiões, países, mundo |
+| `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16` | privado; **nem todo `172.x.x.x` é privado** |
+| `127.0.0.0/8` | loopback: próprio dispositivo |
+| `169.254.0.0/16` | link-local: apenas enlace; no Windows, <abbr title="Automatic Private IP Addressing">APIPA</abbr> sugere falha de configuração automática |
+| `0.0.0.0` | não especificado; rota padrão `0.0.0.0/0` é outro uso |
 
-- Internet = redes interconectadas.
-- Web = serviço sobre <abbr title="Hypertext Transfer Protocol">HTTP</abbr>/<abbr title="HTTP protegido por TLS">HTTPS</abbr>.
-- Intranet = tecnologias de Internet em ambiente restrito.
-- Extranet = acesso externo autorizado a parte da intranet.
+No mesmo prefixo, o quadro vai ao destino local; fora dele, ao <abbr title="Media Access Control">MAC</abbr> do **próximo roteador** (gateway), enquanto o pacote conserva o <abbr title="Internet Protocol">IP</abbr> remoto, ressalvada tradução. <abbr title="Address Resolution Protocol">ARP</abbr> descobre <abbr title="Internet Protocol version 4">IPv4</abbr> → <abbr title="Media Access Control">MAC</abbr> no enlace, sem consultar o servidor distante. Entre rotas compatíveis prevalece o **prefixo mais específico**; rota estática é configurada, dinâmica pode ser aprendida/atualizada por protocolo. <abbr title="Network Address Translation">NAT</abbr> traduz endereço; <abbr title="Network Address Port Translation">NAPT</abbr>/<abbr title="Port Address Translation">PAT</abbr> traduz também portas para distinguir comunicações. Nenhum deles substitui filtragem, configuração automática ou criptografia.
 
-## Equipamentos e camadas
+## Configuração, nomes e versão 6
 
-| Equipamento | Função | <abbr title="Open Systems Interconnection">OSI</abbr> |
-|---|---|---:|
-| hub | repete sinais | 1 |
-| switch | encaminha por MAC | 2 |
-| roteador | encaminha por IP | 3 |
-| ponto de acesso | liga Wi‑Fi à LAN | 2, tipicamente |
-| firewall | aplica política | depende da implementação |
-
-## OSI × TCP/IP
-
-| OSI | <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr> |
+| Pergunta | Mecanismo |
 |---|---|
-| Aplicação + Apresentação + Sessão | Aplicação |
-| Transporte | Transporte |
-| Rede | Internet |
-| Enlace + Física | Acesso à Rede |
+| Como obter endereço, máscara, gateway e servidores? | <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>; negociação inicial <abbr title="Dynamic Host Configuration Protocol for Internet Protocol version 4">DHCPv4</abbr> **<abbr title="Discover, Offer, Request, Acknowledgment">DORA</abbr>**; concessão tem prazo. Reserva associa cliente a endereço estável sob administração do servidor; exclusão retira endereços da distribuição automática. |
+| Que dados pertencem a um nome? | <abbr title="Domain Name System">DNS</abbr>: `A` → <abbr title="Internet Protocol version 4">IPv4</abbr>, `AAAA` → <abbr title="Internet Protocol version 6">IPv6</abbr>, `CNAME` → apelido do nome canônico, `MX` → correio, `NS` → servidor autoritativo, `PTR` → nome em consulta reversa. Usa <abbr title="User Datagram Protocol">UDP</abbr> ou <abbr title="Transmission Control Protocol">TCP</abbr> 53 convencionalmente. |
+| Qual vizinho recebe o quadro? | <abbr title="Address Resolution Protocol">ARP</abbr> no <abbr title="Internet Protocol version 4">IPv4</abbr>; descoberta de vizinhos no <abbr title="Internet Protocol version 6">IPv6</abbr>. |
 
-**Dados → segmento/datagrama → pacote → quadro → bits.**
+<abbr title="Internet Protocol version 6">IPv6</abbr> tem **128 bits**, oito grupos hexadecimais de 16 bits. Omita zeros **à esquerda** de cada grupo; `::` comprime uma sequência de grupos inteiramente nulos **uma única vez**. Validade de escrita difere da forma canônica: esta usa minúsculas, comprime a maior sequência (a primeira em empate) e não comprime um grupo zero isolado. `::1` é loopback; `::` é não especificado; `fe80::/10` é link-local. Não usa broadcast nem <abbr title="Address Resolution Protocol">ARP</abbr>; o <abbr title="Neighbor Discovery Protocol">NDP</abbr>, apoiado em <abbr title="Internet Control Message Protocol version 6">ICMPv6</abbr>, descobre vizinhos e roteadores. <abbr title="Stateless Address Autoconfiguration">SLAAC</abbr> usa anúncios de roteador; <abbr title="Dynamic Host Configuration Protocol for Internet Protocol version 6">DHCPv6</abbr> pode coexistir e não fornece o roteador padrão nem reproduz <abbr title="Discover, Offer, Request, Acknowledgment">DORA</abbr>.
 
-## Identificadores
+## Transporte, serviços e portas
 
-| Item | Identifica |
+| Protocolo | Lembrete de decisão |
 |---|---|
-| MAC | interface no enlace |
-| IP | interface/host na rede |
-| porta | serviço/processo |
-| domínio | nome resolvido por <abbr title="Domain Name System">DNS</abbr> |
-| socket | IP + transporte + porta |
+| <abbr title="Transmission Control Protocol">TCP</abbr> | conexão `SYN → SYN-ACK → ACK`; confirmações, sequência e retransmissão oferecem fluxo ordenado, sujeito a falha definitiva; controle de fluxo e congestionamento são diferentes |
+| <abbr title="User Datagram Protocol">UDP</abbr> | datagramas sem garantia própria de entrega, ordem ou retransmissão; aplicações podem acrescentar confiabilidade |
+| <abbr title="Internet Control Message Protocol">ICMP</abbr> | controle/diagnóstico; `ping` não testa porta <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="User Datagram Protocol">UDP</abbr> |
+| <abbr title="Hypertext Transfer Protocol">HTTP</abbr>/<abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> | pedido/resposta; <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> protege canal com <abbr title="Transport Layer Security">TLS</abbr>, não garante conteúdo honesto ou autorização correta; <abbr title="Hypertext Transfer Protocol version 3">HTTP/3</abbr> usa <abbr title="Protocolo de transporte seguro e confiável sobre datagramas">QUIC</abbr> sobre <abbr title="User Datagram Protocol">UDP</abbr> |
+| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> / <abbr title="Internet Message Access Protocol">IMAP</abbr> / <abbr title="Post Office Protocol version 3">POP3</abbr> | envio e transferência / acesso sincronizado no servidor / obtenção, com permanência de cópia conforme configuração |
+| <abbr title="File Transfer Protocol">FTP</abbr> / <abbr title="File Transfer Protocol Secure">FTPS</abbr> / <abbr title="Secure Shell File Transfer Protocol">SFTP</abbr> | controle e dados separados / <abbr title="File Transfer Protocol">FTP</abbr> protegido por <abbr title="Transport Layer Security">TLS</abbr> / protocolo distinto sobre <abbr title="Secure Shell">SSH</abbr> |
 
-## IPv4 especial
+Portas de referência: <abbr title="Domain Name System">DNS</abbr> 53; <abbr title="Dynamic Host Configuration Protocol for Internet Protocol version 4">DHCPv4</abbr> 67 servidor/68 cliente, <abbr title="User Datagram Protocol">UDP</abbr>; <abbr title="Hypertext Transfer Protocol">HTTP</abbr> 80; <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> 443; <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> 25 entre servidores e 587 para submissão; <abbr title="Internet Message Access Protocol">IMAP</abbr> 143/993 protegido; <abbr title="Post Office Protocol version 3">POP3</abbr> 110/995 protegido; <abbr title="File Transfer Protocol">FTP</abbr> 21 controle (dados no ativo clássico a partir de 20; passivo negociado); <abbr title="Secure Shell">SSH</abbr>/<abbr title="Secure Shell File Transfer Protocol">SFTP</abbr> 22. Uma porta convencional não prova serviço ativo.
 
-| Faixa | Uso |
+Em <abbr title="Hypertext Transfer Protocol">HTTP</abbr>, `GET` obtém, `HEAD` retorna metadados sem corpo, `POST` submete para processamento, `PUT` cria/substitui recurso-alvo, `DELETE` solicita remoção. Métodos **seguros** como `GET`/`HEAD` não solicitam mudança de estado como finalidade; “seguro” aqui não significa criptografado. Códigos úteis: 200 sucesso, 201 criado, 204 sem corpo, 301/302 redirecionamento, 304 cópia temporária em cache validada, 400 pedido inválido, 401 credencial exigida, 403 recusado, 404 ausente, 405 método não permitido, 500 erro interno, 502/504 resposta inválida/tempo excedido no intermediário, 503 indisponível.
+
+## Diagnóstico: indício não é conclusão
+
+| Se... | Confira... |
 |---|---|
-| `10.0.0.0/8` | privado |
-| `172.16.0.0/12` | privado |
-| `192.168.0.0/16` | privado |
-| `127.0.0.0/8` | loopback |
-| `169.254.0.0/16` | link-local/<abbr title="Automatic Private IP Addressing">APIPA</abbr> |
-| `0.0.0.0` | não especificado |
+| `169.254.x.x` sem gateway | concessão <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> / <abbr title="Automatic Private IP Addressing">APIPA</abbr> |
+| endereço funciona, nome não | <abbr title="Domain Name System">DNS</abbr> com `nslookup`; `ipconfig /flushdns` limpa apenas cache local |
+| rede local funciona, remoto não | máscara, gateway e rota com `ipconfig /all`, `netstat -r` |
+| `ping` responde, aplicação não | processo/porta e firewall com `netstat -ano`; `ping` usa <abbr title="Internet Control Message Protocol">ICMP</abbr> |
+| `tracert` mostra `*` | salto não respondeu à sondagem; não prova que parou de encaminhar |
 
-## Sub-redes
+`arp -a` mostra associações <abbr title="Internet Protocol version 4">IPv4</abbr>–<abbr title="Media Access Control">MAC</abbr>. `ipconfig /release` libera concessão <abbr title="Dynamic Host Configuration Protocol for Internet Protocol version 4">DHCPv4</abbr> e pode cortar a conexão; `/renew` solicita renovação. Silêncio em `ping` pode decorrer de bloqueio a eco.
 
-| Prefixo | Bloco | Hosts usuais |
-|---:|---:|---:|
-| `/24` | 256 | 254 |
-| `/25` | 128 | 126 |
-| `/26` | 64 | 62 |
-| `/27` | 32 | 30 |
-| `/28` | 16 | 14 |
-| `/29` | 8 | 6 |
-
-`220.42.17.0/29`:
-
-- rede `.0`;
-- hosts `.1` a `.6`;
-- broadcast `.7`.
-
-Broadcast não pode ser gateway.
-
-## NAT
-
-| Técnica | Tradução |
-|---|---|
-| <abbr title="Network Address Translation">NAT</abbr> | endereço |
-| <abbr title="tradução de endereço e porta">NAPT/PAT</abbr> | endereço + porta |
-
-NAT ≠ DHCP ≠ firewall ≠ criptografia.
-
-## IPv6
-
-- 128 bits;
-- `::1` loopback;
-- `::` não especificado;
-- `fe80::/10` link-local;
-- sem broadcast;
-- <abbr title="Neighbor Discovery Protocol">NDP</abbr> substitui/amplia funções do <abbr title="Address Resolution Protocol">ARP</abbr>;
-- <abbr title="Stateless Address Autoconfiguration">SLAAC</abbr> e <abbr title="Dynamic Host Configuration Protocol for IPv6">DHCPv6</abbr> podem coexistir.
-
-## Transporte e controle
-
-| Protocolo | Regra |
-|---|---|
-| <abbr title="Transmission Control Protocol">TCP</abbr> | conexão, ordem, confirmação, retransmissão |
-| <abbr title="User Datagram Protocol">UDP</abbr> | datagramas, sem garantias intrínsecas |
-| <abbr title="Internet Control Message Protocol">ICMP</abbr> | controle, erro e diagnóstico |
-
-- TCP: `SYN → SYN-ACK → ACK`.
-- `ping` usa ICMP, não porta TCP/UDP.
-- Sem resposta a ping ≠ serviço certamente inativo.
-
-## Serviços básicos
-
-| Protocolo | Finalidade |
-|---|---|
-| DNS | nomes e registros |
-| <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> | configuração automática |
-| ARP | IPv4 local → MAC |
-| NDP | vizinhos/roteadores no IPv6 |
-| HTTP | Web/APIs |
-| HTTPS | HTTP sobre TLS |
-| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> | envio/transferência de e-mail |
-| <abbr title="Internet Message Access Protocol">IMAP</abbr> | acesso e sincronização no servidor |
-| <abbr title="Post Office Protocol - Version 3">POP3</abbr> | obtenção de mensagens |
-| <abbr title="File Transfer Protocol">FTP</abbr> | transferência clássica |
-| <abbr title="FTP protegido por TLS">FTPS</abbr> | FTP + TLS |
-| <abbr title="SSH File Transfer Protocol">SFTP</abbr> | transferência sobre SSH |
-
-## DNS
-
-| Registro | Uso |
-|---|---|
-| A | IPv4 |
-| AAAA | IPv6 |
-| CNAME | alias |
-| MX | correio |
-| NS | servidor autoritativo |
-| PTR | reverso |
-
-## DHCPv4
-
-**DORA:** Discover → Offer → Request → Acknowledgment.
-
-Pode fornecer IP, máscara, gateway, DNS e concessão. Reserva mantém administração DHCP com configuração estável.
-
-## HTTP
-
-| Método | Função |
-|---|---|
-| GET | obter |
-| HEAD | metadados sem corpo |
-| POST | submeter/processar |
-| PUT | criar/substituir alvo |
-| DELETE | remover |
-
-| Código | Ideia |
-|---:|---|
-| 200 | sucesso |
-| 201 | criado |
-| 204 | sem conteúdo |
-| 301/302 | redirecionamento |
-| 304 | cache validado |
-| 400 | requisição inválida |
-| 401 | autenticação exigida |
-| 403 | acesso recusado |
-| 404 | não encontrado |
-| 405 | método não permitido |
-| 500 | erro interno |
-| 502 | resposta inválida a montante |
-| 503 | indisponível |
-| 504 | tempo excedido no gateway |
-
-- HTTP “seguro” ≠ criptografado.
-- HTTP/3 usa QUIC sobre UDP.
-
-## Comandos
-
-| Comando | Diagnóstico |
-|---|---|
-| `ipconfig /all` | IP, máscara, gateway, DHCP, DNS, MAC |
-| `ipconfig /release` | libera DHCPv4 |
-| `ipconfig /renew` | renova DHCPv4 |
-| `ipconfig /flushdns` | limpa cache DNS |
-| `ping` | resposta ICMP |
-| `tracert` | saltos |
-| `nslookup` | DNS |
-| `arp -a` | cache IPv4–MAC |
-| `netstat -ano` | conexões, portas e PID |
-| `netstat -r` | rotas |
-
-## Sintoma → hipótese
-
-| Sintoma | Investigar |
-|---|---|
-| `169.254.x.x` | DHCP/APIPA |
-| IP funciona, nome não | DNS |
-| LAN funciona, remoto não | gateway, máscara, rota |
-| ping funciona, aplicação não | porta, processo, firewall |
-| `tracert` com `*` | salto não respondeu; não prova queda total |
-
-## Interoperabilidade
+## Interoperabilidade pública
 
 | Dimensão | Pergunta |
 |---|---|
-| técnica | conecta e transporta? |
-| semântica | significa a mesma coisa? |
-| organizacional | processos e responsáveis estão alinhados? |
-| jurídica, complementar | finalidade, competência, sigilo e proteção estão atendidos? |
+| técnica | sistemas conectam e processam formatos/protocolos? |
+| semântica | códigos e unidades significam a mesma coisa? |
+| organizacional | processos, responsáveis e acordos se alinham? |
 
-| Termo | Papel |
-|---|---|
-| API | contrato/interface |
-| REST | estilo arquitetural |
-| HTTP | protocolo |
-| JSON/XML | representação |
-| OpenAPI | descrição de API HTTP |
+Uma <abbr title="Application Programming Interface">API</abbr> é contrato de operações; <abbr title="Representational State Transfer">REST</abbr> é estilo arquitetural de interação com recursos; <abbr title="Hypertext Transfer Protocol">HTTP</abbr> transporta pedidos; <abbr title="JavaScript Object Notation">JSON</abbr>/<abbr title="Extensible Markup Language">XML</abbr> representam dados; <abbr title="Especificação para descrever interfaces de serviços web">OpenAPI</abbr> descreve interface <abbr title="Hypertext Transfer Protocol">HTTP</abbr>. Um formato comum não iguala significados, e <abbr title="Hypertext Transfer Protocol">HTTP</abbr> com <abbr title="JavaScript Object Notation">JSON</abbr> não implica <abbr title="Representational State Transfer">REST</abbr>.
 
-- API ≠ REST ≠ HTTP ≠ JSON.
-- <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr>: padrões mínimos no contexto federal definido.
-- e-PING não obriga automaticamente todo órgão brasileiro.
-- interoperabilidade não autoriza compartilhamento irrestrito.
-
-## Pegadinhas
-
-- Internet ≠ Web.
-- switch ≠ roteador.
-- MAC ≠ IP ≠ porta.
-- DNS ≠ DHCP ≠ ARP.
-- NAT ≠ firewall.
-- IPv6 não usa ARP nem broadcast.
-- TCP confiável ≠ infalível.
-- UDP pode sustentar aplicações confiáveis.
-- ICMP não usa porta.
-- HTTPS não corrige autorização ruim.
-- SMTP envia; IMAP/POP3 acessam.
-- FTPS ≠ SFTP.
-- endereço de rede/broadcast ≠ host/gateway.
-- conexão técnica ≠ interoperabilidade completa.
+<abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr> organiza padrões no Executivo federal; sua referência de 2018 apresenta **três** dimensões acima. Integrantes do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr> observam a adoção nas aquisições/atualizações; demais Poderes e entes podem adotá-la, sem obrigação automática. Análise jurídica é indispensável, mas não é uma quarta dimensão oficial daquela versão. A Lei nº 14.129/2021 tem âmbito federativo condicionado à adoção por ato próprio para demais entes; finalidade, competência, sigilo e proteção de dados limitam o compartilhamento mesmo quando a integração técnica funciona.

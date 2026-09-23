@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4119",
@@ -2374,7 +2374,7 @@
     },
     {
       "id": "q4197",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "O Engenheiro da Computação está migrando a rede da Assembleia para IPv6. O endereço completo é:\n2001:0DB8:0000:0000:0000:0000:FE00:0001.\nAssinale a alternativa que apresenta a forma de notação simplificada válida para este endereço IPv6.",
       "options": [
@@ -2400,7 +2400,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Zeros à esquerda de cada hexteto podem ser omitidos e a sequência contínua de hextetos zero pode ser comprimida uma vez com ::. Fonte oficial: FGV; Assembleia Legislativa do Estado de Rondônia; Analista Legislativo — Tecnologia da Informação — Infraestrutura de Redes e Comunicação; prova aplicada em 08/02/2026; Turno Tarde; Tipo 1 (Branca); questão 51; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnsal27-analista-legislativo-tecnologia-da-informacao-infraestrutura-de-redes-e-comunicacao-cnsal27-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf; gabarito E; sem adaptação."
+      "explanation": "A banca indicou E no gabarito definitivo: ela usa a compressão mais curta entre as alternativas. B e C também representam sintaticamente o mesmo IPv6 e são válidas pela RFC 4291; o comando pede apenas forma simplificada válida, portanto há ambiguidade. A forma canônica integral da RFC 5952 usa ainda letras minúsculas. Fonte oficial: FGV; Assembleia Legislativa do Estado de Rondônia; Analista Legislativo — Tecnologia da Informação — Infraestrutura de Redes e Comunicação; prova aplicada em 08/02/2026; Turno Tarde; Tipo 1 (Branca); questão 51; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnsal27-analista-legislativo-tecnologia-da-informacao-infraestrutura-de-redes-e-comunicacao-cnsal27-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf; gabarito E; sem adaptação."
     },
     {
       "id": "q4198",
@@ -2434,7 +2434,7 @@
     },
     {
       "id": "q4199",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Considerando os diferentes aspectos do ePING e a tecnologia na administração pública, julgue os itens a seguir.\nI O ePING define diretrizes para a segurança da informação, estabelecendo requisitos para autenticação, criptografia e controle de acessos em sistemas governamentais.\nII O ePING estabelece que os serviços web, inclusive APIs RESTful, devem ser utilizados para garantir a interoperabilidade entre sistemas de diferentes órgãos governamentais.\nIII O ePING define padrões e especificações técnicas que devem ser seguidos para garantir a integração de dados e serviços governamentais.\nAssinale a opção correta.",
       "options": [
@@ -2460,7 +2460,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O gabarito oficial definitivo considerou corretos os três itens sobre diretrizes de segurança, serviços web/APIs e padrões técnicos de integração da ePING. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação — Agência Espacial Brasileira; Cargo 4 — Tecnologista Júnior — Especialidade: Tecnologia da Informação; prova aplicada em 13/04/2025; questão 28; prova https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/051_AEB_24_004_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/Gab_Definitivo_051_AEB_24_004_01.pdf; gabarito E; sem adaptação."
+      "explanation": "O gabarito oficial definitivo considerou corretos os três itens. A redação do item II não autoriza generalizar obrigação universal de APIs RESTful: o documento e-PING 2018 classifica padrões por graus de adoção e não prescreve REST para toda integração. O gabarito da prova não substitui a leitura contextual do padrão. Fonte oficial: Cebraspe; Ministério da Ciência, Tecnologia e Inovação — Agência Espacial Brasileira; Cargo 4 — Tecnologista Júnior — Especialidade: Tecnologia da Informação; prova aplicada em 13/04/2025; questão 28; prova https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/051_AEB_24_004_01.pdf; gabarito definitivo https://cdn.cebraspe.org.br/concursos/aeb_24/arquivos/Gab_Definitivo_051_AEB_24_004_01.pdf; gabarito E; sem adaptação."
     }
   ]
 }
