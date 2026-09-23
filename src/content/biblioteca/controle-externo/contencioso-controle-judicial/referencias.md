@@ -1,12 +1,14 @@
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — arts. 5º, XXXV, LIV e LV, e 217, §§ 1º e 2º.
-- [Lei nº 12.016/2009](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) — mandado de segurança.
-- [Lei nº 9.507/1997](https://www.planalto.gov.br/ccivil_03/leis/l9507.htm) — habeas data.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — artigo 5º, XXXV, LIV e LV; artigo 217, §§ 1º e 2º.
+- [Lei nº 12.016/2009](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) — mandado de segurança; artigos 5º, I, e 23.
+- [Lei nº 9.507/1997](https://www.planalto.gov.br/ccivil_03/leis/l9507.htm) — habeas data, artigo 8º.
 - [Lei nº 4.717/1965](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm) — ação popular.
 - [Lei nº 7.347/1985](https://www.planalto.gov.br/ccivil_03/leis/l7347orig.htm) — ação civil pública.
-- [LINDB](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) — arts. 20 a 24.
-- [Tema 350 — RE 631.240](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=350) — prévio requerimento previdenciário e interesse de agir.
-- [Tema 698 — RE 684.612](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=698) — controle judicial de políticas públicas.
-- [Tema 1420 — ARE 1.553.243](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1420) — controle judicial da heteroidentificação.
-- [Súmula Vinculante 5](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199) — defesa técnica em PAD.
-- [Súmula 665/STJ](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2023/20122023-Pagina-Sumulas-Anotadas-inclui-novo-enunciado-sobre-processo-administrativo-disciplinar-.aspx) — limites do controle jurisdicional do PAD.
-- [Súmulas 346 e 473/STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp) — autotutela, anulação e revogação.
+- [Lei de Introdução às Normas do Direito Brasileiro](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) — artigos 20 a 24.
+- [Supremo Tribunal Federal — Tema 350](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=350) — prévio requerimento previdenciário e interesse de agir.
+- [Supremo Tribunal Federal — Tema 698](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=698) — controle judicial de políticas públicas.
+- [Supremo Tribunal Federal — Tema 1420](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1420) — heteroidentificação e controle judicial.
+- [Supremo Tribunal Federal — Súmula Vinculante 5](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199) — defesa técnica no processo disciplinar.
+- [Superior Tribunal de Justiça — Súmula 665](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2023/20122023-Pagina-Sumulas-Anotadas-inclui-novo-enunciado-sobre-processo-administrativo-disciplinar-.aspx) — controle judicial do processo disciplinar.
+- [Supremo Tribunal Federal — Súmulas 346 e 473](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp) — autotutela. Páginas de temas do portal do Tribunal não abriram na conferência; identificar precedente sem alegar leitura de inteiro teor.
+- [Cebraspe — Corpo de Bombeiros de Rondônia, Oficial, prova 2022, questão 55](https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/734_CBM_RO_OFICIAL_001_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/cbm_ro_22/arquivos/GAB_DEFINITIVO_734_CBM_RO_OFICIAL_001_01.PDF) — q99252, compatibilidade de conteúdo com edital; detalhe jurisprudencial do Tema 485 ausente da aula.
+- [Cebraspe — Tribunal de Contas de Minas Gerais, conhecimentos gerais, prova 2026, questão 22](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F6CF40CFC4CE65D590EE9EC52331D1C4C35D052F368F3B2E8C8631E4DDA7330E.pdf) — q99253, controle corretivo e preventivo.
