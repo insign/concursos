@@ -180,7 +180,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H067 | `lei-organica-processos` | = | V | `8e9f507ea35b61206afc716f210a0734a0be6867` |
 | H068 | `lei-organica-decisoes-recursos` | = | V | `eb0f0f2020d6347c79c0d9c0ff4a86c40db6acee` |
 | H069 | `organizacao-controle-externo` | = | V | `4899bb2bc92c1f845ab246044bd479a027f8966a` |
-| H070 | `unidades-administrativas-cargos-funcoes` | `unidades-cargos-funcoes` | V | — |
+| H070 | `unidades-administrativas-cargos-funcoes` | `unidades-cargos-funcoes` | V | [302d4a1](https://github.com/insign/concursos/commit/302d4a1e1968625e45049b2be28682bb2cc7c4e9) |
 | H071 | `tomada-contas-especial-in-50` | `tce-in-50-2017` | V | — |
 | H072 | `emendas-parlamentares-in-82` | `tce-in-82-2025` | V | — |
 
@@ -302,7 +302,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
-- H069: aula usa 6/7 (ato E1) como publicação/corte, mas Tribunal informa 7/7. Compilação oficial da Lei 9.936/2013 ainda omite o inciso XII acrescentado em 2026; atos oficiais posteriores confirmam a Lei 12.822/2026 republicada em 9/4, mas texto original no Diário estadual não abriu em fonte primária nesta consulta. Revalidar na revisão própria da aula/M05 se necessário.
+- H070: aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal informa 7/7. Corrigir na revisão própria da aula.
+- H069: aula usa 6/7 (ato E1) como publicação/corte, mas Tribunal informa 7/7. Compilação oficial da Lei 9.936/2013 ainda omite o inciso XII de 2026; conferir a republicação oficial da Lei 12.822/2026 nas referências de H070 ao revisar a aula/M05.
 
 - H068: aula toma 6/7 como publicação/corte E1 (Tribunal informa 7/7). Páginas de inteiro teor dos Temas 1287, 642 e 899 não abriram no portal do STF; foram verificadas notícias oficiais e texto compilado da Lei, revalidar inteiro teor na futura M05 se necessário.
 
