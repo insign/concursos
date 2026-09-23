@@ -71,7 +71,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M | Caminho do grupo em A | H dependentes | Origem de M | Evidência |
 |---|---|---|---|---|
 | M01 | `G/lingua-portuguesa` | H001–H018 | V: `lingua-portuguesa` | [`eb9996a`](https://github.com/insign/concursos/commit/eb9996a16eb36c0d0bd14bbdc442735895cb562c) |
-| M02 | `G/competencias-digitais-informatica-aplicada-setor-publico` | H019–H035 | V: `competencias-digitais-informatica-aplicada-setor-publico` | — |
+| M02 | `G/competencias-digitais-informatica-aplicada-setor-publico` | H019–H035 | V: `competencias-digitais-informatica-aplicada-setor-publico` | [`dbaeec3a29`](https://github.com/insign/concursos/commit/dbaeec3a29140ab8e1480e3dcea0701f9b5d04d9) |
 | M03 | `G/raciocinio-logico` | H036–H045 | V: `raciocinio-logico` | — |
 | M04 | `G/controle-externo` | H046–H054 | V: `controle-externo` | — |
 | M05 | `G/legislacao-especifica` | H055–H072 | V: `legislacao-especifica` | — |
@@ -300,12 +300,11 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H152 | `cargos-carreiras-salarios` | `gp-cargos-carreiras-salarios` | L | — |
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
-## 9. Dependência aberta para M02
+## 9. Pendências abertas em aulas e banco
 
-- H035: `conteudo.md` chama 6/7 de publicação do edital; Tribunal informa 7/7. q5220352 cobra inciso literal sobre flexão gramatical e q522351 detalhe de imagens complexas da norma técnica, não ensinados na aula; reavaliar aula/banco em revisão própria, sem deslocar particularidades à M02.
-- H034: q52203402–q52203403 mencionam gabarito definitivo de prova FUB 2015, mas a cópia oficial do gabarito não foi localizada; confirmar fonte primária antes de usar esses itens como evidência. H034 foi confrontada com anteriores PRF 2021 e TCDF 2024 verificáveis.
-- H033: `conteudo.md` §12 afirma que o edital foi publicado em 6/7; o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria; H/M observam o corte documental confirmado.
-- H032: `conteudo.md` data a publicação de E1 em 6/7, quando o Tribunal informa 7/7; apresenta a Portaria SGD/MGI nº 11.229/2025 como vigente, embora a vigência tenha sido adiada para 30/11/2026, e trata e-SIC como canal separado de Fala.BR, integrado desde 2020. Revisar a aula em escopo próprio. q522326 exige o inciso literal de custo/risco não ensinado; reavaliar no banco sem inflar H/M.
-- H029: `conteudo.md` §10 chama 6/7 de corte legislativo, embora o edital tenha publicação informada em 7/7; também fixa como atual em 6/9 o andamento do Tema 533, já encerrada a sessão em 14/9, sem inteiro teor confirmado no portal do STF. Corrigir a aula em revisão própria; q522043 exige fundamento processual fora da aula. M02 não deve inferir tese nova nem importar decretos posteriores ao corte.
-- H028: questões q522031–q522033 exigem conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino da multa, detalhes ausentes do `conteudo.md`. Reavaliar o banco e a aula em revisão própria, sem transferir a lacuna à M02.
-- H027: o banco contém itens sobre autenticação de e-mail (SPF/DKIM/DMARC), consentimento OAuth e adware/stalkerware que o `conteudo.md` não ensina. Avaliar pertinência, realocação ou ensino em revisão própria do conteúdo/banco; a M02 deve seguir o recorte confirmado enquanto essa divergência estiver aberta.
+- H029, H032, H033 e H035: `conteudo.md` confunde a data do ato E1 (6/7) com a publicação informada pelo Tribunal (7/7), marco do corte legislativo. Corrigir as aulas em revisão própria.
+- H029: aula descreve como atual em 6/9 o andamento do Tema 533, com sessão encerrada em 14/9 e sem inteiro teor confirmado no portal do STF; q522043 requer fundamento processual fora da aula. Revalidar publicação do julgado e banco na revisão própria.
+- H032: aula trata a Portaria SGD/MGI nº 11.229/2025 como vigente apesar de adiamento a 30/11/2026 e e-SIC como canal paralelo ao Fala.BR após integração em 2020; q522326 exige inciso de custo/risco ausente. Revisar aula/banco em escopo próprio.
+- H035: q5220352 cobra inciso literal sobre flexão gramatical e q522351 detalhe de imagens complexas da norma técnica, não ensinados na aula. Reavaliar adequação e ensino em revisão própria.
+- H034: q52203402–q52203403 apontam gabarito da FUB 2015 cuja cópia oficial não foi localizada; confirmar fonte primária antes de usar como evidência.
+- H028 e H027: banco do primeiro cobra detalhes de conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino de multa ausentes da aula; banco do segundo cobra SPF/DKIM/DMARC, OAuth e adware/stalkerware também ausentes. Reavaliar pertinência, realocação ou ensino nas revisões próprias, sem inflar H/M.
