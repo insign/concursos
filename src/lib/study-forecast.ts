@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import {
+  addCalendarDays,
   diffCalendarDays,
   getLocalTodayIso,
   isValidCalendarDate,
@@ -9,17 +10,11 @@ import {
 export const forecastFrequencySchema = z.enum(['seg-sex', 'todos-os-dias', 'alternados']);
 export type ForecastFrequency = z.infer<typeof forecastFrequencySchema>;
 
-export const forecastScopeKindSchema = z.enum(['concurso', 'grupo']);
-export type ForecastScopeKind = z.infer<typeof forecastScopeKindSchema>;
-
 /** Seleção de escopo em memória (ADR-001: grupo nunca é persistido). */
-export const forecastScopeSchema = z
-  .object({
-    kind: forecastScopeKindSchema,
-    groupId: z.string().min(1).max(512).nullable(),
-  })
-  .strict();
-export type ForecastScope = z.infer<typeof forecastScopeSchema>;
+export interface ForecastScope {
+  kind: 'concurso' | 'grupo';
+  groupId: string | null;
+}
 
 /** Parâmetros persistidos por concurso (sem escopo, por ADR-001). */
 export const forecastParamsSchema = z
@@ -89,7 +84,7 @@ export type ForecastStatus =
   | 'ritmo-invalido'
   | 'horizonte-excedido';
 
-export type ForecastExamKind = 'sem-data' | 'folga' | 'no-dia' | 'atraso' | 'prova-passada';
+export type ForecastExamKind = 'sem-data' | 'folga' | 'no-dia' | 'atraso';
 
 export interface ForecastResult {
   status: ForecastStatus;
@@ -143,24 +138,9 @@ export function projectCompletionIso(
       remaining -= 1;
       if (remaining === 0) return cursor;
     }
-    cursor = addOneDay(cursor);
+    cursor = addCalendarDays(cursor, 1);
   }
   return null;
-}
-
-function addOneDay(isoDate: string): string {
-  const year = Number(isoDate.slice(0, 4));
-  const month = Number(isoDate.slice(5, 7));
-  const day = Number(isoDate.slice(8, 10));
-  const leap = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
-  const monthDays = [31, leap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month - 1]!;
-  if (day < monthDays) {
-    return `${isoDate.slice(0, 8)}${String(day + 1).padStart(2, '0')}`;
-  }
-  if (month < 12) {
-    return `${isoDate.slice(0, 5)}${String(month + 1).padStart(2, '0')}-01`;
-  }
-  return `${String(year + 1).padStart(4, '0')}-01-01`;
 }
 
 /**
@@ -218,6 +198,7 @@ export function calculateForecast(
   const studyDaysNeeded = Math.ceil(remainingUnits.length / params.subjectsPerDay);
   const completionIso = projectCompletionIso(todayIso, studyDaysNeeded, params.frequency);
   if (!completionIso) {
+    const horizonExamDays = examDate ? diffCalendarDays(examDate, todayIso) : null;
     return {
       status: 'horizonte-excedido',
       totalSubjects: units.length,
@@ -225,8 +206,8 @@ export function calculateForecast(
       studyDaysNeeded,
       completionIso: null,
       subjectsPerWeek: subjectsPerWeek(params.subjectsPerDay, params.frequency),
-      examKind: 'sem-data',
-      examDays: null,
+      examKind: examKindFor(horizonExamDays),
+      examDays: horizonExamDays,
     };
   }
   const examDays = examDate ? diffCalendarDays(examDate, completionIso) : null;

@@ -5,10 +5,6 @@ import {
   calculateForecast,
   DEFAULT_FORECAST_PARAMS,
   deduplicateUnits,
-  filterUnitsByScope,
-  subjectsPerWeek,
-  type ForecastFrequency,
-  type ForecastScope,
   type ForecastUnit,
 } from '../lib/study-forecast';
 import { studiedSubjectId } from '../lib/studied';
@@ -46,7 +42,6 @@ const groupOptions: GroupOption[] = [];
 collectGroups(contest.children, 0, groupOptions);
 const rootGroups = groupOptions.filter((group) => group.depth === 0);
 
-const initialScope: ForecastScope = { kind: 'concurso', groupId: null };
 const initialResult = calculateForecast(
   units,
   new Set<string>(),
@@ -60,7 +55,6 @@ const serializedModel = JSON.stringify({
   contestStorageId: contest.storageId,
   examDate: contest.examDate,
   units,
-  defaults: DEFAULT_FORECAST_PARAMS,
 }).replaceAll('<', '\\u003c');
 
 function formatPerWeek(value: number): string {
@@ -112,9 +106,11 @@ function formatPerWeek(value: number): string {
           ))}
         </optgroup>
         <optgroup label="Grupos">
-          {groupOptions.map((group) => (
-            <option value={group.id}>{`${'— '.repeat(group.depth)}${group.title} (${group.count})`}</option>
-          ))}
+          {groupOptions
+            .filter((group) => group.depth > 0)
+            .map((group) => (
+              <option value={group.id}>{`${'— '.repeat(group.depth)}${group.title} (${group.count})`}</option>
+            ))}
         </optgroup>
       </select>
     </div>
@@ -167,7 +163,6 @@ function formatPerWeek(value: number): string {
     contestStorageId: string;
     examDate: string | null;
     units: ForecastUnit[];
-    defaults: ForecastContestSettings;
   }
 
   function plural(count: number, one: string, many: string): string {
@@ -242,13 +237,9 @@ function formatPerWeek(value: number): string {
   async function renderInstance(
     instance: (typeof roots)[number],
     studiedIds: ReadonlySet<string>,
-    saved: ForecastContestSettings | null,
-    version: number,
-    refreshVersion: { current: number },
   ): Promise<void> {
     const { form, main, detail, exam, note, model } = instance;
-    if (version !== refreshVersion.current) return;
-    const { frequency, subjectsPerDay, subtractStudied } = saved ?? readParams(form);
+    const { frequency, subjectsPerDay, subtractStudied } = readParams(form);
     const scope = readScope(form);
     const scoped = deduplicateUnits(filterUnitsByScope(model.units, scope));
     const todayIso = getLocalTodayIso();
@@ -259,7 +250,6 @@ function formatPerWeek(value: number): string {
       model.examDate,
       todayIso,
     );
-    if (version !== refreshVersion.current) return;
     if (result.status === 'ok' && result.completionIso) {
       main.textContent = `Previsão de conclusão: ${formatExamDatePtBr(result.completionIso)}`;
       detail.textContent =
@@ -276,7 +266,10 @@ function formatPerWeek(value: number): string {
       detail.textContent = '';
       exam.textContent = '';
     } else if (result.status === 'ritmo-invalido') {
-      main.textContent = 'Informe ao menos 1 assunto por dia de estudo.';
+      main.textContent =
+        !Number.isInteger(subjectsPerDay) || subjectsPerDay < 1
+          ? 'Informe ao menos 1 assunto por dia de estudo.'
+          : 'O ritmo vai até 20 assuntos por dia de estudo.';
       detail.textContent = '';
       exam.textContent = '';
     } else {
@@ -290,14 +283,29 @@ function formatPerWeek(value: number): string {
       : 'Sem alias ativo: cálculo do zero e ritmo não salvo. Ative um alias para descontar concluídos e lembrar o ritmo.';
   }
 
-  if (roots.length > 0) {
-    const refreshVersion = { current: 0 };
-    const first = roots[0];
-    if (first) {
-      const contestStorageId = first.model.contestStorageId;
+  function signatureOf(form: HTMLFormElement): string {
+    const { frequency, subjectsPerDay, subtractStudied } = readParams(form);
+    return JSON.stringify({ frequency, subjectsPerDay, subtractStudied });
+  }
 
-    const refresh = async (applySaved: boolean) => {
-      const version = ++refreshVersion.current;
+  function applyToForm(form: HTMLFormElement, saved: ForecastContestSettings): void {
+    for (const node of form.querySelectorAll<HTMLInputElement>('input[name="frequency"]')) {
+      node.checked = node.value === saved.frequency;
+    }
+    const perDay = form.elements.namedItem('subjectsPerDay') as HTMLInputElement | null;
+    if (perDay) perDay.value = String(saved.subjectsPerDay);
+    const toggle = form.elements.namedItem('subtractStudied') as HTMLInputElement | null;
+    if (toggle) toggle.checked = saved.subtractStudied;
+  }
+
+  if (roots.length > 0) {
+    // Fila serial: atualizações nunca se invalidam (sem starvation da hidratação).
+    let refreshTail: Promise<void> = Promise.resolve();
+    // Alias para o qual o formulário foi hidratado; null = sem alias; undefined = nunca.
+    let hydratedAlias: string | null | undefined;
+    let formDirty = false;
+
+    const doRefresh = async (mode: 'hydrate' | 'recalc'): Promise<void> => {
       const profileId = getActiveAlias();
       let studied = new Set<string>();
       let saved: ForecastContestSettings | null = null;
@@ -307,76 +315,99 @@ function formatPerWeek(value: number): string {
             loadStudied(profileId).catch(() => ({ studiedSubjectIds: [] as string[] })),
             loadForecastSettings(profileId).catch(() => null),
           ]);
-          if (version !== refreshVersion.current || getActiveAlias() !== profileId) return;
+          if (getActiveAlias() !== profileId) return;
           studied = new Set(studiedDoc.studiedSubjectIds);
-          if (settings) saved = contestForecastSettings(settings, contestStorageId);
+          if (settings) saved = contestForecastSettings(settings, roots[0]?.model.contestStorageId ?? '');
         } catch {
           // best-effort; calcula do zero
         }
       }
       for (const instance of roots) {
-        if (applySaved && saved) applyToForm(instance.form, saved);
-        await renderInstance(instance, studied, applySaved ? saved : null, version, refreshVersion);
+        if (profileId !== hydratedAlias) {
+          // Troca de alias (ou primeira carga): reseta para o salvo ou o padrão.
+          if (saved) applyToForm(instance.form, saved);
+          else applyToForm(instance.form, DEFAULT_FORECAST_PARAMS);
+          hydratedAlias = profileId;
+          formDirty = false;
+        } else if (mode === 'recalc' && saved && !formDirty) {
+          // Aba retomada com formulário intocado: adota o salvo mais recente.
+          if (signatureOf(instance.form) !== JSON.stringify(saved)) applyToForm(instance.form, saved);
+        }
+        await renderInstance(instance, studied);
       }
     };
 
-    const applyToForm = (form: HTMLFormElement, saved: ForecastContestSettings) => {
-      for (const node of form.querySelectorAll<HTMLInputElement>('input[name="frequency"]')) {
-        node.checked = node.value === saved.frequency;
-      }
-      const perDay = form.elements.namedItem('subjectsPerDay') as HTMLInputElement | null;
-      if (perDay) perDay.value = String(saved.subjectsPerDay);
-      const toggle = form.elements.namedItem('subtractStudied') as HTMLInputElement | null;
-      if (toggle) toggle.checked = saved.subtractStudied;
+    const refresh = (mode: 'hydrate' | 'recalc'): void => {
+      refreshTail = refreshTail.then(() => doRefresh(mode)).catch(() => undefined);
     };
 
-    const persist = async (form: HTMLFormElement) => {
+    const persist = (instance: (typeof roots)[number]): void => {
       const profileId = getActiveAlias();
       if (!profileId) return;
-      const { frequency, subjectsPerDay, subtractStudied } = readParams(form);
+      const { frequency, subjectsPerDay, subtractStudied } = readParams(instance.form);
       if (!Number.isInteger(subjectsPerDay) || subjectsPerDay < 1 || subjectsPerDay > 20) return;
-      try {
-        await saveContestForecastSettings(profileId, contestStorageId, {
-          frequency,
-          subjectsPerDay,
-          subtractStudied,
-        });
-        await requestProfileSync(profileId);
-      } catch {
-        // best-effort; o cálculo em tela permanece válido
-      }
+      refreshTail = refreshTail
+        .then(() =>
+          saveContestForecastSettings(profileId, instance.model.contestStorageId, {
+            frequency,
+            subjectsPerDay,
+            subtractStudied,
+          }),
+        )
+        .then(() => {
+          formDirty = false;
+          return requestProfileSync(profileId);
+        })
+        .then(() => undefined)
+        .catch(() => undefined);
     };
 
     for (const instance of roots) {
       instance.form.addEventListener('input', () => {
-        void refresh(false);
-        void persist(instance.form);
+        formDirty = true;
+        refresh('recalc');
       });
       instance.form.addEventListener('change', () => {
-        void refresh(false);
-        void persist(instance.form);
+        formDirty = true;
+        refresh('recalc');
+        persist(instance);
+      });
+      instance.form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        refresh('recalc');
+        persist(instance);
       });
     }
 
-    window.addEventListener('concursos:studied-updated', () => void refresh(false));
-    window.addEventListener('concursos:profile-changed', () => void refresh(true));
+    const scheduleMidnightRefresh = (): void => {
+      const now = new Date();
+      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const delay = Math.max(0, nextMidnight.getTime() - now.getTime());
+      window.setTimeout(() => {
+        refresh('recalc');
+        scheduleMidnightRefresh();
+      }, delay);
+    };
+
+    window.addEventListener('concursos:studied-updated', () => refresh('recalc'));
+    window.addEventListener('concursos:profile-changed', () => refresh('hydrate'));
     window.addEventListener('concursos:sync-status', (event) => {
       const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
       if (
         (!detail?.profileId || detail.profileId === getActiveAlias()) &&
         (detail?.state === 'synced' || detail?.state === 'error')
       )
-        void refresh(true);
+        refresh('hydrate');
     });
     window.addEventListener('storage', (event) => {
-      if (event.key === 'concursos:active-alias') void refresh(true);
+      if (event.key === 'concursos:active-alias') refresh('hydrate');
     });
-    window.addEventListener('pageshow', () => void refresh(false));
-    window.addEventListener('focus', () => void refresh(false));
+    window.addEventListener('pageshow', () => refresh('recalc'));
+    window.addEventListener('focus', () => refresh('recalc'));
     document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') void refresh(false);
+      if (document.visibilityState === 'visible') refresh('recalc');
     });
-    void refresh(true);
-    }
+    refresh('hydrate');
+    scheduleMidnightRefresh();
   }
 </script>

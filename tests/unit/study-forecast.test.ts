@@ -137,6 +137,8 @@ describe('calculateForecast', () => {
     const bad = calculateForecast(units, new Set(), { ...params(), subjectsPerDay: 0 }, null, TODAY);
     expect(bad.status).toBe('ritmo-invalido');
     expect(bad.completionIso).toBeNull();
+    const over = calculateForecast(units, new Set(), { ...params(), subjectsPerDay: 21 }, null, TODAY);
+    expect(over.status).toBe('ritmo-invalido');
   });
 
   it('marca atraso quando a conclusão passa da prova', () => {
