@@ -120,7 +120,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H022 | `microsoft-excel-planilhas` | = | V | [`2c2f868`](https://github.com/insign/concursos/commit/2c2f8687f06f16b9bb37dc0b78986bd7b71e76ea) |
 | H023 | `microsoft-powerpoint-apresentacoes` | `powerpoint-apresentacoes` | V | `cabce0f7b167cf9b81342b62a16afa5452dbb5d6` |
 | H024 | `redes-tcp-ip-interoperabilidade` | = | V | `95e036f790a006d138f419534b13f93ca188f833` |
-| H025 | `comunicacao-colaboracao-remota` | = | V | — |
+| H025 | `comunicacao-colaboracao-remota` | = | V | `0bd6c064efce28061c34732cd061bae6c20417f3` |
 | H026 | `backup-armazenamento-nuvem` | = | V | — |
 | H027 | `malware-protecao-ameacas` | = | V | — |
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | — |
