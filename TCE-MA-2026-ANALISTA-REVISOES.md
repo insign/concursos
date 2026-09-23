@@ -158,7 +158,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H050 | `improbidade-sujeitos-atos` | = | V | [`fc19014`](https://github.com/insign/concursos/commit/fc19014071fa530c46ba9a8ec879995105c4bc89) |
 | H051 | `improbidade-sancoes-procedimento` | = | V | [`504a87d`](https://github.com/insign/concursos/commit/504a87d311e91c39431c78da8d13c4be00b89e56) |
 | H052 | `contencioso-controle-judicial` | = | V | [`5a45c3e`](https://github.com/insign/concursos/commit/5a45c3ef9f5dda03fe390ec3ab0e7029939aed7a) |
-| H053 | `controle-atividade-financeira` | = | V | — |
+| H053 | `controle-atividade-financeira` | = | V | [`4d1d704`](https://github.com/insign/concursos/commit/4d1d70493beb78e69246bea799fa8b86d462b7b1) |
 | H054 | `tcu-tces-tcema-constituicao` | = | V | — |
 
 ### M05 — Legislação Específica
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
 - H051: q52205101 exige regime de parcelamento/juros e cláusula de contratação em acordo não desenvolvido na aula; verificar pertinência e ensino em revisão própria, sem converter detalhe isolado em regra do H/M.
 - H050: q52205001 envolve incidência sobre partido político e fundos partidários, relação não ensinada na aula; verificar ensino/banco em escopo próprio, sem importar conclusão isolada para H/M.
