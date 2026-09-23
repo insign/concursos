@@ -126,7 +126,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H028 | `lgpd-conceitos-direitos-setor-publico` | `lgpd-direitos-setor-publico` | V | [`adb3511`](https://github.com/insign/concursos/commit/adb3511fbb577d4147944a170cb6eab9f5c54ab8) |
 | H029 | `marco-civil-internet` | = | V | [`96dd723`](https://github.com/insign/concursos/commit/96dd723063911fffaad475caf971def6464ac567) |
 | H030 | `assinaturas-certificacao-digital` | = | V | [`8103750`](https://github.com/insign/concursos/commit/8103750e324f9ab6c779be18e0853d0853aa8974) |
-| H031 | `pen-sei-processo-eletronico` | = | V | — |
+| H031 | `pen-sei-processo-eletronico` | = | V | [`905499a`](https://github.com/insign/concursos/commit/905499ac1cc964609a660512b1bfd3438e31895f) |
 | H032 | `governo-digital-dados-abertos` | = | V | — |
 | H033 | `ia-automacao-servicos-publicos` | = | V | — |
 | H034 | `dados-iot-cidades-inteligentes` | = | V | — |
