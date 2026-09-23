@@ -1,152 +1,36 @@
 # Agricultura e pecuária do Maranhão
 
-## Mapa do assunto
+## Identifique a medida antes de comparar
 
-**Estrutura agrária → sistemas produtivos → principais lavouras → <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> → pecuária → estoque × fluxo.**
+| Fonte e período | Pergunta que responde | Cuidado |
+|---|---|---|
+| Censo Agropecuário 2017 | quantos estabelecimentos, qual área e pessoal ocupado | fotografia da estrutura, não safra anual |
+| <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 | área, quantidade, rendimento e valor das lavouras no ano civil | ano civil ≠ ano-safra |
+| <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024 | efetivo em 31 de dezembro; leite, ovos e mel produzidos durante o ano | estoque ≠ fluxo |
+| <abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr> e <abbr title="Companhia Nacional de Abastecimento">Conab</abbr> | acompanhamento revisável e projeções de safras | não substituem resultado anual consolidado |
 
-## Fonte × pergunta
+**Estabelecimento agropecuário** é unidade de produção sob uma administração; não equivale necessariamente a imóvel ou proprietário. Em 2017, **85,14% dos estabelecimentos** eram familiares, mas ocupavam **30,88% da área** dos estabelecimentos. Trocar o denominador inverte a leitura. Agricultura familiar não significa, por definição, subsistência: pode produzir para autoconsumo e mercado. A produção empresarial de grãos e fibras, mais mecanizada no sul e leste, convive com sistemas familiares diversificados; nenhum produto pertence exclusivamente a um dos dois.
 
-| Fonte | Use para |
+## Território e lavouras
+
+<abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> é um recorte de expansão agropecuária que abrange **todo o Tocantins e partes do Maranhão, Piauí e Bahia**. O Cerrado predomina nesse recorte, mas é um **bioma**, não sinônimo dele. Soja, milho e algodão ajudam a reconhecer a fronteira agrícola maranhense; Balsas é um polo, não o estado inteiro.
+
+| Distinção | Gatilho para decidir |
 |---|---|
-| Censo Agro 2017 | estabelecimentos, área, trabalho, agricultura familiar |
-| <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 | lavouras no ano civil |
-| <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024 | efetivos em 31/12 + produtos no ano |
-| <abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr> | acompanhamento mensal/revisável |
-| <abbr title="Companhia Nacional de Abastecimento">Conab</abbr> | ano-safra |
+| Temporária × permanente | a primeira exige novo plantio após a colheita; a segunda permite colheitas sucessivas sem novo plantio após cada safra |
+| Exceções à intuição | cana-de-açúcar e mandioca são temporárias de longa duração; abacaxi é temporário; banana e coco são permanentes |
+| Cultivo × coleta | açaí ou caju **cultivados**: <abbr title="Produção Agrícola Municipal">PAM</abbr>; coleta em vegetação espontânea: <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> (Assunto 090) |
+| Ranking | explicite ano, território e variável: área plantada ou destinada à colheita, área colhida, quantidade, rendimento ou valor |
 
-**Ano civil ≠ ano-safra. Censo estrutural ≠ produção anual.**
+Na <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024, a **soja** se destaca em área e valor, o **milho** é outro grande grão; a **cana** pode ter muita tonelagem sem liderar o valor. **Arroz, mandioca e feijão** importam também para alimentação e sistemas familiares; **banana** se destaca entre permanentes em valor. Algodão herbáceo é registrado **em caroço**. Rendimento médio = quantidade produzida ÷ área colhida; área plantada maior não garante maior produção nem maior rendimento. Valor agrícola não é <abbr title="Produto Interno Bruto">PIB</abbr>, exportação ou renda líquida.
 
-## Estrutura 2017
+## Pecuária: estoque, fluxo e subconjunto
 
-| Indicador | Chave |
-|---|---:|
-| estabelecimentos | **219.765** |
-| área | **12,238 <abbr title="milhões">mi</abbr> ha** |
-| pessoal ocupado | ~693 mil |
-
-### Familiar × não familiar
-
-| Dimensão | Familiar | Não familiar |
-|---|---:|---:|
-| estabelecimentos | **85,14%** | 14,85% |
-| área | **30,88%** | 69,11% |
-
-**85,14% = número de estabelecimentos, não área.**
-
-Os percentuais mostram **assimetria número × área**; não substituem, sozinhos, uma medida completa de concentração fundiária.
-
-Familiar ≠ subsistência obrigatória.
-
-## Sistemas produtivos
-
-| Empresarial | Familiar |
+| Medida | Leitura correta |
 |---|---|
-| maior escala e mecanização | trabalho familiar predominante |
-| soja, milho, algodão | arroz, milho, mandioca, feijão, criações |
-| crédito, armazenagem, mercados amplos | diversificação, autoconsumo + mercado |
+| Bovinos, galináceos, suínos, caprinos e demais rebanhos | **efetivo** em 31 de dezembro; bovinocultura inclui corte, leite e dupla finalidade |
+| Leite, ovos de galinha e mel | **produção** obtida ao longo do ano, em litros, dúzias ou massa |
+| Abate | fluxo de outra operação estatística; não se deduz do efetivo de bovinos |
+| Galinhas / galináceos; vacas ordenhadas / bovinos; matrizes suínas / suínos | primeiro termo é subconjunto do segundo: não some novamente |
 
-Coexistem e são heterogêneos.
-
-## MATOPIBA
-
-- TO + **partes** de MA, PI e BA;
-- região de forte expansão agropecuária;
-- destaque para Cerrado, grãos e fibras;
-- **não é bioma**;
-- **não é todo o Maranhão**.
-
-## Temporária × permanente
-
-| Temporárias | Permanentes |
-|---|---|
-| soja, milho, arroz, feijão | banana, coco |
-| algodão herbáceo | açaí/caju cultivados |
-| cana, mandioca, abacaxi | colheitas por vários anos |
-
-**Cana + mandioca = temporárias de longa duração.**
-
-Cultivado ≠ extrativo: açaí/caju cultivados → PAM; coleta espontânea → <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>/Assunto 090.
-
-## Principais produtos agrícolas
-
-| Produto | Chave de prova |
-|---|---|
-| **soja** | principal em área e valor; Cerrado/MATOPIBA |
-| **milho** | segundo grande grão; várias safras consolidadas |
-| cana | grande tonelagem ≠ liderança em valor |
-| mandioca | alimentação + agricultura familiar |
-| arroz | alimentação + presença familiar |
-| algodão | agricultura empresarial; PAM mede **em caroço** |
-| feijão | cultura alimentar; várias safras |
-| banana | principal permanente em valor em 2024 |
-
-Números-âncora 2024:
-
-- soja: **4,073 mi t** / ~R$ 8,34 <abbr title="bilhões">bi</abbr>;
-- milho: **2,384 mi t** / ~R$ 2,77 bi;
-- banana: **79,2 mil t**.
-
-## Área × quantidade × rendimento × valor
-
-- área plantada ≠ área colhida;
-- rendimento = quantidade ÷ área colhida;
-- maior tonelagem ≠ maior valor;
-- maior rendimento ≠ maior produção se a área for pequena;
-- valor PAM ≠ <abbr title="Produto Interno Bruto">PIB</abbr>/exportação/renda líquida.
-
-## Pecuária
-
-Caracterização: atividade **diversificada e territorialmente ampla**, com destaque para bovinocultura de corte, leite e dupla finalidade, além de aves, suínos, caprinos, ovinos, equinos e bubalinos.
-
-| Rebanho 2024 | Efetivo |
-|---|---:|
-| galináceos | **13,522 mi** |
-| bovinos | **10,314 mi** |
-| suínos | 961,7 mil |
-| caprinos | 379,1 mil |
-| ovinos | 347,5 mil |
-
-Pastagens plantadas: ~**38%** da área dos estabelecimentos no Censo 2017 entre as categorias exibidas.
-
-## Estoque × fluxo
-
-| Medida | Natureza |
-|---|---|
-| rebanho em 31/12 | estoque |
-| leite produzido no ano | fluxo |
-| ovos produzidos no ano | fluxo |
-| mel produzido no ano | fluxo |
-| abate | fluxo de outra operação estatística |
-
-**Efetivo bovino ≠ abate.**
-
-Produtos 2024:
-
-- leite: **~415 mi L**;
-- ovos de galinha: **~40,2 mi dúzias**;
-- mel: **~3,36 mi kg**.
-
-## Subconjuntos
-
-- galinhas ⊂ galináceos;
-- matrizes suínas ⊂ suínos;
-- vacas ordenhadas ⊂ bovinos.
-
-Não some subconjunto novamente ao total.
-
-## Pegadinhas-relâmpago
-
-- MATOPIBA = bioma → **falso**.
-- MATOPIBA = Maranhão inteiro → **falso**.
-- familiar = subsistência → **falso**.
-- 85,14% = área familiar → **falso**.
-- soja domina toda a área agropecuária → **falso**.
-- cana é permanente → **falso**.
-- banana é permanente → **verdadeiro**.
-- açaí cultivado = extrativismo → **falso**.
-- cabeças = abates → **falso**.
-- ranking sem ano/variável → **suspeito**.
-
-## Método rápido
-
-Pergunte sempre: **fonte + tempo + variável + unidade + território + origem do produto**.
+A <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> também investiga **aquicultura** (criação controlada de organismos aquáticos). Pesca extrativa captura organismos no ambiente natural e pertence ao Assunto 090. Para resolver qualquer comparação, cheque **fonte, data, unidade, variável, território e origem** antes de escolher o maior número.
