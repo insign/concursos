@@ -107,7 +107,7 @@ Pode substituir fronteira menor e criar novo período:
 
 Confira letra inicial, completude e mudança de articulação.
 
-`<abbr title="et cetera, expressão latina equivalente a e outras coisas">etc.</abbr>`: o ponto da abreviatura também pode encerrar o período; a vírgula anterior varia conforme o manual editorial adotado.
+<abbr title="et cetera, expressão latina equivalente a e outras coisas">etc.</abbr>: o ponto da abreviatura também pode encerrar o período; a vírgula anterior varia conforme o manual editorial adotado.
 
 ## Incisos: vírgulas, travessões e parênteses
 
