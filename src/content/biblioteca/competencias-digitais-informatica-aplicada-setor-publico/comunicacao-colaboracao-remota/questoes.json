@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4179",
@@ -904,7 +904,7 @@
     },
     {
       "id": "q4239",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "O protocolo SMTP implementa o serviço de",
       "options": [
@@ -915,7 +915,7 @@
         { "id": "E", "text": "transferência de arquivos por SSH, utilizando a porta TCP 22." }
       ],
       "correctOptionId": "A",
-      "explanation": "SMTP é usado para submissão e transferência de mensagens; a porta TCP 25 é convencional na transferência entre servidores. Fonte: questão adaptada de FGV; Câmara Municipal do Recife; Analista de Sistemas; 2014; questão 50; prova https://conhecimento.fgv.br/sites/default/files/concursos/recife_analista_de_sistemas_ansis_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camararecife/recife_c_gabarito_definitivo.pdf; adaptação: redação modernizada sem alterar alternativas, núcleo ou gabarito."
+      "explanation": "SMTP é usado para submissão e transferência de mensagens; a porta TCP 25 é convencional na transferência entre servidores. Fonte: questão adaptada de FGV; Câmara Municipal do Recife; Analista de Sistemas; 2014; questão 50; prova https://conhecimento.fgv.br/sites/default/files/concursos/recife_analista_de_sistemas_ansis_tipo_1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/camararecife/recife_c_gabarito_definitivo.pdf; adaptação: enunciado e alternativas reescritos, com núcleo e gabarito preservados."
     },
     {
       "id": "q4240",
@@ -949,9 +949,9 @@
     },
     {
       "id": "q4242",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "No contexto dos ambientes colaborativos Google Workspace e Microsoft Teams, avalie as afirmações abaixo e assinale (V) para a verdadeira e (F) para a falsa.\n( ) No Google Workspace, o Google Meet só permite a participação em reuniões por meio de convites enviados por e-mail, sem possibilidade de criar reuniões diretamente na plataforma.\n( ) No Microsoft Teams, é possível fazer chamadas de áudio e vídeo, bem como compartilhar a tela durante as reuniões.\n( ) No Google Workspace, o Google Drive permite o armazenamento de arquivos na nuvem e a colaboração em tempo real com Documentos, Planilhas e Apresentações.\nAs afirmativas são, respectivamente,",
+      "prompt": "No contexto dos ambientes colaborativos Google Workspace e Microsoft Teams, avalie as afirmações abaixo e assinale (V) para a verdadeira e (F) para a falsa.\n( ) No Google Workspace, o Google Meet só permite a participação em reuniões por meio de convites enviados por e-mail, sem possibilidade de criar reuniões diretamente na plataforma.\n( ) No Microsoft Teams, é possível fazer chamadas de áudio e vídeo, bem como compartilhar a tela durante as reuniões.\n( ) No Google Workspace, o Google Drive permite o armazenamento de arquivos na nuvem e a colaboração em tempo real em Documentos, Planilhas e Apresentações.\nAs afirmativas são, respectivamente,",
       "options": [
         { "id": "A", "text": "V – V – F." },
         { "id": "B", "text": "V – F – F." },

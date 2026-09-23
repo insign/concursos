@@ -1,255 +1,91 @@
 # Correio eletrônico, colaboração e trabalho remoto
 
-## Roteiro
+## Mapa de escolha
 
-**Objetivo → urgência → público → canal → visibilidade → papel/permissão → registro → próxima ação.**
+**Objetivo → urgência → público → canal → visibilidade → permissão → registro → próxima ação.**
 
-## Síncrono × assíncrono
-
-| Modalidade | Exemplo | Cuidado |
-|---|---|---|
-| síncrona | reunião, chamada, chat ao vivo | registrar decisão |
-| assíncrona | e-mail, canal, documento | definir prazo |
-
-Assíncrono ≠ sem prazo. Síncrono ≠ sem registro.
-
-## E-mail: conceitos
-
-| Termo | Regra |
+| Necessidade | Canal e cautela |
 |---|---|
-| conta | identidade e credenciais |
-| endereço | `nome@dominio` |
-| caixa postal | mensagens e estados |
-| webmail | interface no navegador |
-| cliente | aplicativo de acesso |
+| comunicado formal ou externo | e-mail: enderece e revise destinatários |
+| dúvida rápida | chat: resposta curta, público limitado |
+| atualização recorrente | canal ou documento comum: contexto recuperável |
+| decisão urgente entre pessoas | chamada ou reunião: registre depois decisão, responsável e prazo |
 
-Webmail ≠ protocolo ≠ caixa postal.
+**Síncrono** exige interação simultânea; **assíncrono** permite resposta posterior, com prazo explícito. Presença online e confirmação de leitura não medem produtividade nem execução da tarefa.
 
-## Campos
+## E-mail: público, ação e estado
 
-| Campo | Uso |
+Conta identifica o usuário; endereço (`nome@dominio`) identifica o destino; caixa postal guarda mensagens e estados; *webmail* é a interface no navegador; cliente de e-mail é outro aplicativo de acesso à mesma caixa, conforme configuração. Nenhum dos dois é protocolo de envio.
+
+| Campo ou ação | Decisão |
 |---|---|
-| `Para` | quem deve agir/responder |
-| `Cc` | ciência visível |
-| `Cco` | destinatários ocultos aos demais |
-| `Assunto` | síntese |
-| `Reply-To` | destino preferencial da resposta |
+| Para | quem deve agir ou responder |
+| <abbr title="Cópia carbono">Cc</abbr> | ciência visível aos destinatários |
+| <abbr title="Cópia carbono oculta">Cco</abbr> | endereço oculto aos demais na mensagem; destinatário pode se revelar se responder |
+| <abbr title="Endereço preferencial para respostas">Reply-To</abbr> | muda para onde a resposta é dirigida, quando configurado |
+| Responder / Responder a todos | remetente ou <abbr title="Endereço preferencial para respostas">Reply-To</abbr> / também destinatários visíveis de Para e <abbr title="Cópia carbono">Cc</abbr>; revise a lista |
+| Encaminhar | cria envio a novo público; <abbr title="Cópia carbono oculta">Cco</abbr> não impede repasse do conteúdo |
 
-- `Cco` não impede encaminhamento.
-- Responder a todos usa destinatários visíveis; revise antes de enviar.
+**Rascunho** ainda está em composição; **Caixa de saída** pode conter envio pendente. **Arquivar** tira da Entrada sem excluir; **excluir** move à Lixeira ou remove conforme política. Busca localiza; regra/filtro automatiza ação; conversa (*thread*, encadeamento de mensagens) agrupa histórico, sem garantir que todas tiveram o mesmo público. Rótulos podem classificar a mesma mensagem em vários contextos.
 
-## Ações
+Confira tamanho, versão, formato e público de anexos. Um link só funciona para a identidade autorizada no arquivo; assinatura textual no rodapé não é assinatura digital criptográfica. Assunto claro, contexto, ação e prazo reduzem respostas desnecessárias.
 
-| Ação | Efeito |
+| Indício | Limite |
 |---|---|
-| Responder | responde ao remetente/Reply-To |
-| Responder a todos | inclui público visível relacionado |
-| Encaminhar | cria envio para novo público |
-| Arquivar | retira da Entrada sem excluir |
-| Excluir | envia à Lixeira/remove conforme política |
+| entrega | não demonstra leitura |
+| leitura | não demonstra compreensão ou concordância |
+| resposta | não demonstra execução |
 
-## Organização
+## Envio, caixa e conteúdo
 
-- rascunho = ainda não enviado;
-- caixa de saída = envio pendente, conforme cliente;
-- busca = localiza;
-- regra/filtro = automatiza ação;
-- conversa/thread = agrupa histórico;
-- rótulo pode classificar em mais de um contexto.
-
-## Protocolos
-
-| Protocolo | Função | Porta convencional |
-|---|---|---:|
-| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> | envio/transferência | 25 / 587 |
-| <abbr title="Internet Message Access Protocol">IMAP</abbr> | sincronização no servidor | 143 / 993 |
-| <abbr title="Post Office Protocol - Version 3">POP3</abbr> | recuperação por download | 110 / 995 |
-
-- SMTP não lê caixa.
-- POP3 não apaga sempre do servidor.
-- <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> estrutura conteúdos/anexos; não criptografa.
-
-## Evidências
-
-| Evidência | Limite |
+| Mecanismo | Função e porta convencional |
 |---|---|
-| entrega | não prova leitura |
-| leitura | não prova compreensão |
-| resposta | não prova execução |
+| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> | submissão/transferência, <abbr title="Transmission Control Protocol">TCP</abbr> 25 entre servidores e 587 para submissão; não sincroniza leitura da caixa |
+| <abbr title="Internet Message Access Protocol">IMAP</abbr> | acesso e sincronização no servidor, <abbr title="Transmission Control Protocol">TCP</abbr> 143 ou 993 com proteção implícita |
+| <abbr title="Post Office Protocol version 3">POP3</abbr> | recuperação por download, <abbr title="Transmission Control Protocol">TCP</abbr> 110 ou 995 protegido; permanência no servidor depende de configuração |
+| <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> | estrutura conteúdos e anexos em múltiplas partes; não fornece criptografia por si |
 
-## Calendário
+Porta indica convenção, não disponibilidade efetiva. Convite de calendário registra intenção (**aceitar**, **talvez**, **recusar**, propor horário conforme serviço); não abre a reunião. Um link recebido não equivale a convite formal. Recorrência cria uma série cujas ocorrências podem ter ajustes próprios.
 
-| Ação | Significado |
+## Teams: a quem o conteúdo aparece?
+
+| Espaço ou identidade | Escopo |
 |---|---|
-| aceitar | intenção de participar |
-| talvez | incerteza |
-| recusar | indisponibilidade |
-| propor horário | sugestão, se disponível |
-| recorrência | série de eventos |
+| equipe / canal | conjunto de pessoas e recursos / área temática; postagem pertence a um tópico, chat é conversa direta, em grupo ou da reunião |
+| canal padrão / privado / compartilhado | membros da equipe / subconjunto / pessoas selecionadas, inclusive externas quando habilitado; equipe “pública” não significa Internet pública |
+| acesso externo / convidado | conversar com outra organização sem entrar na equipe / ser adicionado à equipe e a recursos autorizados |
+| canal compartilhado | acesso ao canal selecionado sem abrir automaticamente toda a equipe, conforme política entre organizações |
 
-Aceitar convite ≠ entrar na reunião. Link ≠ convite formal.
+**Papéis de equipe**: proprietário, membro, convidado. **Papéis de reunião**: organizador, coorganizador, apresentador, participante. Ser proprietário de equipe não torna alguém organizador de toda reunião; capacidade depende de papel e política. Uma `@menção` pode chamar atenção, mas notificação desativada não apaga a mensagem; estado de presença não é prova de disponibilidade.
 
-## Teams: estrutura
-
-| Elemento | Uso |
+| Arquivo / artefato | Local típico |
 |---|---|
-| equipe | pessoas, conteúdo e ferramentas |
-| canal | espaço temático |
-| postagem | conversa estruturada no canal |
-| chat | conversa direta, em grupo ou de reunião |
+| arquivo de chat | <abbr title="Armazenamento de arquivos associado ao usuário Microsoft">OneDrive</abbr> do remetente, compartilhado com participantes |
+| arquivo de canal | <abbr title="Plataforma Microsoft de bibliotecas e sites para equipes">SharePoint</abbr> da equipe |
+| gravação de reunião comum | <abbr title="Armazenamento de arquivos associado ao usuário Microsoft">OneDrive</abbr> do organizador, conforme política |
+| gravação de reunião de canal | <abbr title="Plataforma Microsoft de bibliotecas e sites para equipes">SharePoint</abbr> do canal |
 
-### Tipos de canal
+O link não substitui permissão; acesso externo para chat não libera arquivos de equipe. <abbr title="Armazenamento de arquivos associado ao usuário Microsoft">OneDrive</abbr> pode compartilhar, e <abbr title="Plataforma Microsoft de bibliotecas e sites para equipes">SharePoint</abbr> não é automaticamente público.
 
-| Tipo | Público |
+## Reunião: entrada, exposição, registro
+
+O **lobby** é a sala virtual de espera: link válido pode exigir admissão; opções da reunião e políticas determinam quem entra e quem admite. O chat antes/depois varia com convite, identidade, tipo de reunião, política e momento de ingresso. Ter link não garante histórico permanente.
+
+| Gesto ou recurso | Efeito que importa |
 |---|---|
-| padrão | membros da equipe |
-| privado | subconjunto |
-| compartilhado | pessoas selecionadas |
+| levantar mão / reação | sinaliza intenção / manifestação visual; não ativa microfone nem registra voto |
+| silenciar / remover | corta áudio / retira pessoa, conforme permissão |
+| sair / encerrar | termina sua participação / termina a reunião para todos, se autorizado |
+| conceder controle | permite interação com conteúdo compartilhado; não confere papel de coorganizador |
+| apresentar tela / janela / guia | exposição ampla / aplicativo selecionado / conteúdo da guia; configure áudio compatível e evite notificações |
+| gravação / transcrição / legenda / ata | audiovisual / texto das falas / texto durante a fala / decisão com responsável e prazo |
 
-Equipe pública ≠ pública na Internet. Canal compartilhado ≠ anônimo.
+Disponibilidade e acesso à gravação, transcrição, resumo, tradução e salas dependem de licença, papel, conta e política; texto automático pede revisão. Um link de gravação exibido no chat não indica que o vídeo esteja armazenado nele.
 
-## Papéis
+## Google Meet e continuidade
 
-### Equipe
+No Meet, reunião pode ser imediata, criada como link para depois ou agendada no Google Agenda; o ingresso pode pedir admissão. No conjunto de ferramentas Google, Drive guarda arquivos e Documentos, Planilhas e Apresentações permitem colaboração em tempo real, conforme permissão. Apresentar **guia** limita o conteúdo e é boa opção para áudio da guia; **janela** limita a exposição ao aplicativo; **tela inteira** pode mostrar notificações. Áudio do sistema pode estar disponível também ao apresentar janela ou tela quando habilitado, conforme plataforma/configuração. Confirme o áudio antes de iniciar.
 
-- proprietário;
-- membro;
-- convidado.
+Microfone, câmera, chat, mão levantada, reações, controles de organizador, fundos, legendas, gravação e salas variam por edição, papel e política. Legenda durante a fala não é gravação nem transcrição persistente.
 
-### Reunião
-
-- organizador;
-- coorganizador;
-- apresentador;
-- participante.
-
-Papel de equipe ≠ papel de reunião.
-
-## Arquivos no Teams
-
-| Contexto | Local típico |
-|---|---|
-| arquivo de chat | OneDrive do remetente |
-| arquivo de canal | SharePoint da equipe |
-| gravação comum | OneDrive, conforme política |
-| gravação de canal | SharePoint do canal |
-
-Link ≠ permissão. OneDrive ≠ necessariamente privado. SharePoint ≠ público.
-
-## Controles de reunião
-
-| Controle | Efeito |
-|---|---|
-| levantar mão | sinaliza intenção de falar |
-| reação | manifestação visual |
-| silenciar | interrompe áudio |
-| remover | retira pessoa |
-| sair | encerra sua participação |
-| encerrar | termina para todos, se permitido |
-| conceder controle | permite interação com conteúdo |
-
-- mão levantada não ativa microfone;
-- reação não é voto formal;
-- conceder controle não torna coorganizador.
-
-## Compartilhamento
-
-| Opção | Exposição |
-|---|---|
-| tela inteira | maior; pode mostrar notificações |
-| janela | limitada ao aplicativo |
-| guia | conteúdo da guia e áudio compatível |
-
-## Chat da reunião
-
-Depende de:
-
-- convite ou link encaminhado;
-- pessoa interna, externa ou anônima;
-- tipo de reunião;
-- política;
-- momento de ingresso.
-
-Ter o link não garante histórico antes/depois.
-
-## Artefatos
-
-| Recurso | Resultado |
-|---|---|
-| gravação | áudio e vídeo |
-| transcrição | texto das falas |
-| legenda | texto durante a fala |
-| recap | resumo/artefatos conforme licença |
-| ata | decisão, responsável e prazo |
-
-Gravação ≠ transcrição ≠ legenda ≠ ata.
-
-## Google Meet
-
-### Criar/ingressar
-
-- imediata;
-- link para depois;
-- Google Agenda;
-- ingresso pode exigir admissão.
-
-### Apresentar
-
-| Opção | Regra |
-|---|---|
-| guia | boa para áudio de conteúdo da guia |
-| janela | limita exposição |
-| tela | pode mostrar tudo |
-
-### Controles
-
-- microfone/câmera;
-- chat;
-- levantar mão;
-- reações;
-- participantes;
-- fundos/efeitos;
-- gravação e salas conforme licença/papel.
-
-Legenda ≠ gravação. Tradução depende de edição.
-
-## Trabalho remoto
-
-Entrega clara:
-
-- resultado;
-- responsável;
-- prazo;
-- critério de aceite;
-- dependências;
-- local do arquivo;
-- impedimento;
-- próxima ação.
-
-Repasse entre turnos:
-
-1. concluído;
-2. pendente;
-3. localização;
-4. bloqueio;
-5. responsável;
-6. prazo.
-
-## Pegadinhas
-
-- `Cc` ≠ `Cco`;
-- arquivar ≠ excluir;
-- assinatura textual ≠ assinatura digital;
-- link ≠ permissão;
-- equipe ≠ canal;
-- chat ≠ postagem;
-- papel de equipe ≠ papel de reunião;
-- presença ≠ produtividade;
-- notificação ≠ mensagem;
-- OneDrive ≠ SharePoint;
-- sair ≠ encerrar;
-- silenciar ≠ remover;
-- mão levantada ≠ microfone;
-- legenda ≠ transcrição;
-- assíncrono ≠ sem prazo;
-- <abbr title="Programa de Gestão e Desempenho">PGD</abbr> federal ≠ aplicação automática ao TCE-MA.
+Para trabalho remoto, defina **resultado, responsável, prazo, critério de aceite, dependências, localização do arquivo e canal para impedimentos**. No repasse entre turnos, deixe concluído, pendente, bloqueio, próxima ação e prazo em local institucional. O <abbr title="Programa de Gestão e Desempenho">PGD</abbr> federal é regime específico e não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
