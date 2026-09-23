@@ -168,7 +168,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H055 | `regimento-instituicao-competencia` | `regimento-instituicao-tcema` | V | `fd2f9933d5442a79f62feec73d463a77bed56558` |
 | H056 | `regimento-orgaos-organizacao` | `regimento-orgaos-tcema` | V | `2b13650a3e7bb4ef85dd10781f8ca7a0b33d3cee` |
 | H057 | `regimento-sessoes-distribuicao` | `regimento-sessoes-tcema` | V | `361a29efcdab7f8a634a2458d9933f0bbae97db4` |
-| H058 | `regimento-processos-controle` | = | V | — |
+| H058 | `regimento-processos-controle` | = | V | `6a016ed0a34e3554a4e35772ad4b35cdb89ac2d7` |
 | H059 | `regimento-denuncias-consultas` | = | V | — |
 | H060 | `regimento-garantias-prazos` | = | V | — |
 | H061 | `regimento-decisoes-execucao` | = | V | — |
@@ -302,9 +302,10 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
-- H057: aula trata 6/7 (data de E1) como publicação/corte, mas o Tribunal informa 7/7; corrigir em revisão própria. A Resolução nº 424/2025 foi localizada no Diário nº 2805/2025, porém os trechos integrais retornaram erro 503 nesta consulta; confronto literal ainda pendente para a M05.
+- H058: aula considera 6/7 como publicação/corte de E1, mas o Tribunal informa 7/7; corrigir em revisão própria.
+- H057: aula trata 6/7 (data de E1) como publicação/corte, mas o Tribunal informa 7/7; corrigir em revisão própria.
 - H056: a aula registra 6/7 como publicação/corte de E1, embora a publicação informada pelo Tribunal seja 7/7; corrigir em revisão própria.
-- H055: a aula trata 6/7 (data do ato E1) como publicação e corte, enquanto o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria; a questão q6028 já foi corrigida nesta campanha.
+- H055: a aula trata 6/7 (data do ato E1) como publicação e corte, enquanto o Tribunal informa publicação em 7/7. Corrigir a aula em revisão própria.
 - H054: a aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal registra 7/7. q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente; revisar ensino/banco no escopo próprio, sem ampliar H/M por essas peculiaridades.
 - H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
