@@ -365,9 +365,11 @@ function formatPerWeek(value: number): string {
           }),
         )
         .then(() => {
-          // Só limpa o dirty se o formulário ainda reflete o que foi gravado;
-          // digitação posterior mantém o estado sujo e nunca é revertida.
-          if (signatureOf(instance.form) === snapshot) dirtyAlias = undefined;
+          // Só limpa o dirty do próprio alias do save e se o formulário ainda
+          // reflete o que foi gravado; edição de outro alias nunca é tocada.
+          if (dirtyAlias === profileId && signatureOf(instance.form) === snapshot) {
+            dirtyAlias = undefined;
+          }
           // Sync depois do save (fire-and-forget): o outbox já está pending
           // quando o sync lê, e recalcs nunca esperam o round-trip do KV.
           void requestProfileSync(profileId).catch(() => undefined);
