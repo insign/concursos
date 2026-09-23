@@ -1,150 +1,62 @@
-# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: decisões, sanções e recursos
+# Lei Orgânica do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: decisões, débitos e recursos
 
-## Corte
+**Corte:** E1 publicado em 7/7/2026 (ato de 6/7). Lei 8.258/2005, arts. 14–33, 65–75 e 129–139. Prescrição interna tem disciplina complementar em resoluções; não atribua seus prazos à Lei Orgânica.
 
-- **Lei nº 8.258/2005: arts. 14–33, 65–75 e 129–139.**
-- Regra vigente no edital: **6 jul. 2026**.
-- Resolução nº 383/2023 e alterações = **contexto de prescrição**, não objeto autônomo deste item.
+## Decisão → resultado → consequência
 
-## Decisões em contas
-
-| Espécie | Chave |
+| Espécie | Função |
 | --- | --- |
-| preliminar | antes do mérito: sobresta, cita ou saneia |
-| definitiva | regular, regular com ressalva ou irregular |
-| terminativa | tranca/arquiva sem julgamento de mérito |
+| **Preliminar** | Antes do mérito: sobresta (adia), cita (chama para defesa) ou saneia (regulariza o processo). |
+| **Definitiva** | Julga as contas **regulares, regulares com ressalva ou irregulares**. |
+| **Terminativa** | Encerra sem julgamento de mérito: trancamento de contas iliquidáveis ou arquivamento nas hipóteses legais. |
 
-| Resultado | Regra de prova |
+Julgamento até o fim do **exercício seguinte ao da apresentação**, suspenso até terminar inspeção/auditoria.
+
+| Resultado | Condição e efeito |
 | --- | --- |
-| regular | exatidão + legalidade + legitimidade + economicidade → **quitação plena** |
-| ressalva | impropriedade/falta formal **sem dano**; pode haver multa |
-| irregular | omissão, infração, dano, desfalque ou desvio |
-| iliquidável | caso fortuito/força maior alheio torna o mérito materialmente impossível |
+| **Regular** | Exatidão contábil, legalidade, legitimidade e economicidade → **quitação plena**. |
+| **Ressalva** | Impropriedade ou falta formal **sem dano**; pode haver multa; quitação após comprovado recolhimento de eventual multa, com correção da falha. |
+| **Irregular** | Omissão em prestar contas; ato ilegal/ilegítimo/antieconômico ou infração normativa; dano por gestão ilegítima/antieconômica; desfalque/desvio. Descumprimento de determinação conhecida também pode levar à irregularidade. |
+| **Iliquidável** | Caso fortuito/força maior comprovadamente alheio ao responsável impede materialmente julgar → trancamento. Novos elementos permitem desarquivar em **2 anos da publicação da decisão terminativa**. |
 
-- Desarquivamento de iliquidáveis: até **2 anos** da publicação da terminativa.
-- Mesmo gestor + mesmo exercício + mesmo fato/ato → não cabe duplicar multa ou débito em outro processo.
-- Arquivamento por economia processual **não cancela débito**.
-- Art. 23, § 2º: preserve as remissões literais do texto consolidado; não “corrija” a Lei por inferência.
+**Responsabilidade** individual ou solidária (compartilhada); terceiro que concorre para dano pode responder, **mero inadimplemento contratual não basta**. Débito por verificação exata ou estimativa confiável **sem exceder o devido**, com correção/juros. Decisão definitiva impede duplicar débito/multa **no mesmo exercício, para mesmos gestores e fato/ato**. Arquivamento econômico **não cancela débito**.
 
-## Prefeito/governador: conta anual × <abbr title="Tomada de contas especial">TCE</abbr> especial
+**Art. 23, § 2º:** remete literalmente a incisos I–III e § 3º do art. 22 e ao art. 67, I; há tensão com o art. 67, II (irregular sem débito). Não emende por inferência.
 
-**Tema 1287/<abbr title="Supremo Tribunal Federal">STF</abbr>:**
+**Tema 1287 do <abbr title="Supremo Tribunal Federal">STF</abbr>:** em tomada especial por **convênio interfederativo**, chefe do Executivo com responsabilidade pessoal pode ser condenado pelo Tribunal **sem aprovação legislativa**. Contas anuais de governo conservam parecer e julgamento legislativo.
 
-`convênio interfederativo + responsabilidade pessoal + tomada de contas especial → Tribunal de Contas pode imputar débito/multa sem aprovação posterior do Legislativo`
+## Débito, multa, título e cobrança
 
-Não confunda com **contas anuais**, em que o Tribunal emite parecer prévio nos casos constitucionais.
-
-## Débito × multa
-
-| Débito | Multa |
+| Pergunta | Regra |
 | --- | --- |
-| recompõe o erário | sanciona infração |
-| atualizado + juros | pode decorrer do dano ou do art. 67 |
+| Houve dano? | **Débito** recompõe o erário; **multa** sanciona e pode acumular. Art. 66: multa **até 100% do dano atualizado**, além do débito. |
+| Multa do art. 67? | Teto legal **R$ 100 mil**, atualizado por portaria; gradação regimental. Cabe por ressalva, irregular sem débito, infração grave, dano injustificado, obstrução/sonegação, descumprimento e ato protelatório. Revisão de ofício por inadequação **só incisos V–VIII**. Multa vencida atualiza no pagamento. |
+| O que pode ser executado? | Decisão que **imputa débito ou comina multa** constitui dívida líquida e certa e **título executivo** (base para cobrança judicial). Publicação do acórdão (decisão colegiada) intima para pagar e comprovar. |
+| Como quitar? | Parcelamento em qualquer fase; inadimplência antecipa saldo. Pagamento integral quita débito/multa **sem apagar irregularidade**, salvo recurso provido. Sem pagamento: desconto legal, cobrança judicial ou cadastro de não quitados. |
 
-- Podem coexistir.
-- Art. 66: multa de até **100% do dano atualizado**.
-- Art. 67: texto legal até **R$ 100.000,00** → atualização periódica por portaria + gradação regimental.
-- Art. 68: multa paga após vencimento → atualização monetária no pagamento.
-- Pagamento integral → quitação; **não muda sozinho** julgamento irregular.
+**Legitimado (Tema 642 do <abbr title="Supremo Tribunal Federal">STF</abbr>, após <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011):** multa por dano municipal → **Município**; multa simples financeira ou por falta de colaboração → **Estado**. Para débito, titular do crédito. **Tema 899:** cobrança de ressarcimento fundada em decisão do Tribunal **prescreve**; Tema 897 versa ação judicial por improbidade dolosa.
 
-## Execução
+## Outras sanções e cautelares
 
-`débito ou multa → dívida líquida e certa → título executivo`
-
-**Nem toda decisão do TCE é título executivo.**
-
-- Parcelamento: pode ser autorizado em qualquer fase.
-- Parcela não paga: vencimento antecipado do saldo.
-- Sem pagamento: desconto legal, cobrança judicial e cadastro de créditos não quitados.
-
-| Crédito | Quem executa |
+| Medida | Gatilho e limite |
 | --- | --- |
-| multa por dano ao erário municipal | Município prejudicado — Tema 642 |
-| multa simples financeira/de colaboração perante TCE estadual | Estado-membro — Tema 642 após <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011 |
-| débito ressarcitório | identificar o ente titular do crédito |
+| Inabilitação (art. 69) | **Maioria absoluta** reconhece infração grave → **5–8 anos** sem cargo em comissão/função de confiança estadual ou municipal. Não é inelegibilidade eleitoral. |
+| Inidoneidade (art. 70) | Fraude comprovada à licitação → até **5 anos** fora de licitações estaduais/municipais; abuso da pessoa jurídica pode alcançar sócios/administradores. |
+| Afastamento (art. 72) | Indícios de risco à auditoria/inspeção, novo dano ou ressarcimento; superior que descumpre responde solidariamente. |
+| Indisponibilidade (art. 73) | Até **1 ano**, somente bens suficientes para garantir ressarcimento. |
+| Arresto (art. 74) | Tribunal **solicita** providências à procuradoria ou dirigente competente, por meio do <abbr title="Ministério Público de Contas">MPC</abbr>; não apreende bens diretamente. |
+| Cautelar geral (art. 75) | Pleno ou relator urgente: lesão grave, risco a direito ou ineficácia do mérito; relator leva ao Pleno na **primeira sessão seguinte**. Oitiva prévia (manifestação): até **5 dias úteis**; sem oitiva prévia: manifestação em até **15 dias** após medida. Pode rever a cautelar e impor multa diária. |
 
-- **Tema 899:** ressarcimento fundado em decisão de Tribunal de Contas é prescritível.
-- Título executivo **não define sozinho** o legitimado.
+Controle interno que **sabe da irregularidade e não comunica imediatamente** responde solidariamente pelas sanções/cautelares legais.
 
-## Sanções
+## Recurso: identifique objeto, prazo e efeito
 
-- Controle interno: conheceu irregularidade/ilegalidade + não comunicou imediatamente → mesmas sanções/cautelares, por responsabilidade solidária.
-- Inabilitação: **maioria absoluta + infração grave → 5 a 8 anos** para cargo em comissão/função de confiança estadual ou municipal.
-- Inidoneidade: fraude comprovada à licitação → até **5 anos** em licitações estaduais ou municipais.
-- Abuso da personalidade: efeitos podem alcançar administradores/sócios.
-- Inabilitação **≠** inelegibilidade.
+| Via | Quando cabe | Prazo / efeito |
+| --- | --- | --- |
+| **Reconsideração** | Decisão definitiva em contas; mérito de registro ou fiscalização; parecer prévio. Mesmo colegiado, parte ou <abbr title="Ministério Público de Contas">MPC</abbr>, por escrito e uma vez. | **15 dias improrrogáveis**, suspende **só o item recorrido**. Fato novo superveniente até **1 ano após acabar o prazo original**: admite exame, **sem suspensão**. |
+| **Embargos de declaração** | Obscuridade, omissão ou contradição no acórdão ou parecer prévio. | **5 dias improrrogáveis**; **interrompe** (reinicia) prazo de cumprimento e dos demais recursos, observados itens não impugnados. Protelatórios: multa; repetição: dobro e outro recurso condicionado a pagamento. |
+| **Revisão** | Decisão definitiva de contas, após esgotada reconsideração; Plenário, parte/sucessor/<abbr title="Ministério Público de Contas">MPC</abbr>, uma vez. | **2 anos improrrogáveis** da publicação do acórdão, **sem efeito suspensivo**. Erro de cálculo; documento falso/insuficiente; documento novo superveniente eficaz. Parte/sucessor junta documentação ao recorrer. **Não cabe** para contas anuais de Prefeito ou Governador (arts. 8º–9º). |
 
-## Cautelares
+**Comuns:** interpor, mesmo sem conhecimento, gera preclusão consumativa (oportunidade gasta). Instaurar/converter tomada especial, citar, inspecionar ou auditar são decisões irrecorríveis; peça indevida pode servir de defesa. <abbr title="Ministério Público de Contas">MPC</abbr> ouvido **salvo embargos**, mesmo se recorrer. Fundamento objetivo aproveita a corresponsáveis; pessoal não. Recurso ministerial agravador exige contraditório (resposta); parte oposta tem contrarrazões no prazo do recurso.
 
-| Medida | Regra |
-| --- | --- |
-| afastamento | risco à fiscalização, de novo dano ou ao ressarcimento |
-| indisponibilidade | até **1 ano**; bens suficientes à garantia |
-| arresto | Tribunal solicita providência externa por intermédio do <abbr title="Ministério Público de Contas">MPC</abbr> |
-| cautelar geral | urgência, grave lesão ou risco de ineficácia do mérito |
-
-- Cautelar urgente do relator → Pleno na primeira sessão subsequente.
-- Oitiva prévia → até **5 dias úteis**.
-- Sem oitiva prévia → manifestação da parte em até **15 dias**.
-- Pode haver multa diária por descumprimento.
-
-## Regras recursais
-
-- Recursos: **reconsideração + embargos de declaração + revisão**.
-- Interposição, mesmo sem conhecimento → **preclusão consumativa**.
-- Irrecorríveis: conversão/instauração de <abbr title="Tomada de contas especial">TCE</abbr>, citação, inspeção e auditoria.
-- Recurso indevido: documentação pode ser aproveitada como defesa, quando possível.
-- MPC: ouvido em todos os recursos, **exceto embargos**.
-- Fundamento objetivo favorável → aproveita aos corresponsáveis; fundamento pessoal → não.
-- Recurso do MPC que agrava situação → contraditório.
-
-## Matriz dos recursos
-
-| Recurso | Prazo | Efeito | Órgão / fundamento |
-| --- | ---: | --- | --- |
-| reconsideração | **15 dias** | suspensivo no objeto recorrido | mesmo colegiado; hipóteses do art. 136 |
-| embargos | **5 dias** | **interrompem** cumprimento e demais recursos | obscuridade, omissão ou contradição |
-| revisão | **2 anos** | **sem suspensivo** | Plenário; fundamentos taxativos |
-
-### Reconsideração
-
-- Uma vez, por escrito; parte ou MPC.
-- Item não recorrido pode seguir para execução em processo apartado.
-- Fato novo superveniente: até **1 ano** após o prazo original, sem efeito suspensivo.
-
-### Embargos
-
-- Protelatórios: multa.
-- Reiteração: multa em dobro + outro recurso condicionado ao pagamento.
-
-### Revisão
-
-Fundamentos:
-
-1. erro de cálculo;
-2. falsidade ou insuficiência dos documentos-base;
-3. documento novo superveniente eficaz sobre a prova.
-
-- Parte, sucessores ou MPC.
-- Não cabe contra contas anuais de Prefeito ou Governador dos arts. 8º e 9º.
-- Parte/sucessor junta a documentação necessária na interposição.
-
-## Prescrição: alerta de escopo
-
-- Prescrição **interna** do TCE/MA → disciplina normativa própria (Resolução nº 383/2023 e alterações, inclusive nº 406/2024).
-- Execução **judicial** do título → prescritível; Tema 899 + regime do crédito.
-- Não atribua à Lei nº 8.258/2005 os detalhes de termos iniciais, interrupção, suspensão ou intercorrente definidos em resolução.
-
-## Pegadinhas
-
-- Terminativa **não** julga contas irregulares.
-- Ressalva **não** pressupõe dano.
-- Débito **não** exclui multa.
-- Quitar **não** apaga automaticamente a irregularidade.
-- Contas anuais do prefeito **não** se confundem com TCE especial por convênio — Tema 1287.
-- Art. 67: R$ 100 mil é o valor do texto legal, sujeito à atualização prevista no § 1º.
-- Arresto **não** é transferência direta de bens pelo TCE.
-- Reconsideração **não** é revisão.
-- Embargos **interrompem**, não apenas suspendem.
-- Revisão **não** tem efeito suspensivo.
-- Lista eleitoral **não** declara inelegibilidade.
+**Prescrição/eleitoral:** Resoluções 383/2023 e 406/2024 regem prescrição **interna**; Tema 899, a cobrança judicial. Relação do art. 33 à Justiça Eleitoral **não declara inelegibilidade automaticamente**.
