@@ -1,186 +1,38 @@
 # Proposições e tabelas-verdade
 
-## Recorte
+**Primeiro traduza, depois avalie.** Proposição é afirmação que, no contexto, recebe exatamente um valor lógico: verdadeiro (`V`) ou falso (`F`). Desconhecer o valor não retira sua condição de proposição. Pergunta, ordem e sentença aberta como `x + 2 = 7` (sem valor de `x`) não recebem `V` ou `F`.
 
-**Aqui:** proposições, conectivos, formalização, alcance, `2^n`, construção e leitura de tabelas-verdade.
+Uma proposição **simples** é tratada como unidade; uma **composta** combina unidades por conectivos. O número de verbos não determina quantas unidades lógicas há: identifique as afirmações independentes do enunciado.
 
-**Depois:** equivalências, De Morgan e diagramas lógicos.
+## Tabela de decisões dos conectivos
 
-## Proposição
+| Operação | Forma | Quando é verdadeira? | Linha que costuma decidir |
+|---|---|---|---|
+| Negação | `¬p` | Quando `p` é `F`. | Inverte o valor de `p`. |
+| Conjunção | `p ∧ q` | Quando ambas são `V`. | Uma componente `F` já a torna `F`. |
+| Ou inclusivo | `p ∨ q` | Quando ao menos uma é `V`, inclusive ambas. | Só `F/F` a torna `F`. |
+| Ou exclusivo | `p ⊻ q` | Quando exatamente uma é `V`. | Valores iguais a tornam `F`. |
+| Condicional | `p → q` | Em todos os casos, exceto `V/F`. | Antecedente `V` e consequente `F` a tornam `F`. |
+| Bicondicional | `p ↔ q` | Quando os valores coincidem, inclusive `F/F`. | Valores diferentes a tornam `F`. |
 
-- afirmação declarativa com valor **V** ou **F** no contexto;
-- desconhecer o valor ≠ não existir valor lógico;
-- pergunta, ordem e sentença aberta **não** são proposições.
+O “ou” simples é inclusivo; exija indicação de exclusividade (“ou um ou outro, mas não ambos”) para usar `⊻`. Na condicional material, `p` é **antecedente e suficiente** para `q`; `q` é **consequente e necessário** para `p`. Antecedente `F` ou consequente `V` garantem valor `V` da condicional, sem afirmar ocorrência ou causalidade no mundo.
 
-## Simples × composta
-
-| Tipo | Regra |
+| Frase | Direção |
 |---|---|
-| simples/atômica | tratada como unidade |
-| composta/molecular | usa um ou mais conectivos |
+| `p` **se** `q` | `q → p`: `q` basta para `p`. |
+| `p` **somente se** `q` | `p → q`: `q` é exigida para `p`. |
+| `p` **se e somente se** `q` | `p ↔ q`: as duas direções. |
 
-Não conte verbos ou palavras; siga a estrutura lógica indicada.
+## Agrupe e conte
 
-## Matriz dos conectivos
+**Alcance:** `¬(p ∧ q)` nega a expressão inteira; `(¬p) ∧ q` nega só `p`. Em `(p ∨ q) ∧ ¬r`, resolva `p ∨ q` e `¬r` antes da conjunção, que é o conectivo principal. Respeite parênteses e a convenção dada; avaliar a fórmula não exige substituí-la por outra equivalente (H039).
 
-| Operação | Forma | Regra rápida |
-|---|---:|---|
-| negação | `¬p` | inverte V/F |
-| conjunção | `p ∧ q` | V só em V/V |
-| disjunção inclusiva | `p ∨ q` | F só em F/F |
-| disjunção exclusiva | `p ⊻ q` | V quando exatamente uma é V |
-| condicional | `p → q` | F só em V/F |
-| bicondicional | `p ↔ q` | V quando os valores são iguais |
+Com `n` proposições simples **distintas**, a tabela completa tem `2^n` linhas: cada letra pode ser `V` ou `F`, e repetir a mesma letra não cria nova possibilidade. Assim, quatro letras distintas dão `16` atribuições. Enumere cada combinação uma vez, calcule as subfórmulas internas e leia a coluna final. Se o enunciado já fixa uma atribuição, avalie só essa linha; **uma condicional inteira falsa força antecedente verdadeiro e consequente falso**, inclusive quando ambos são subfórmulas.
 
-## Linhas críticas
-
-- `V ∧ V = V`; qualquer F derruba a conjunção.
-- `F ∨ F = F`; qualquer V garante a disjunção inclusiva.
-- `V → F = F`; todas as outras linhas da condicional são V.
-- `V ↔ V = V` e `F ↔ F = V`.
-- `V ⊻ F = V` e `F ⊻ V = V`.
-
-## Condicional
-
-Em `p → q`:
-
-- `p` = antecedente;
-- `q` = consequente;
-- `p` é **suficiente** para `q`;
-- `q` é **necessária** para `p`.
-
-### Tradução
-
-| Frase | Forma |
+| Coluna final, após todas as atribuições | Classe |
 |---|---|
-| se p, então q | `p → q` |
-| p implica q | `p → q` |
-| p é suficiente para q | `p → q` |
-| q é necessário para p | `p → q` |
-| p somente se q | `p → q` |
-| p se q | `q → p` |
+| Só `V` | Tautologia: sempre verdadeira. |
+| Só `F` | Contradição: sempre falsa. |
+| `V` e `F` | Contingência: depende da atribuição. |
 
-> **Somente se** aponta para a condição necessária, no lado direito da seta.
-
-## Bicondicional × exclusiva
-
-| Valores dos lados | `p ↔ q` | `p ⊻ q` |
-|---|:---:|:---:|
-| iguais | V | F |
-| diferentes | F | V |
-
-## Alcance da negação
-
-- `¬p`: nega apenas `p`.
-- `¬(p ∧ q)`: nega a composta inteira.
-- `(¬p) ∧ q`: nega somente `p` e depois conjuga com `q`.
-
-Não aplique De Morgan aqui; apenas respeite o alcance e avalie a fórmula.
-
-## Parênteses e conectivo principal
-
-- parênteses fixam o agrupamento;
-- resolva das subfórmulas internas para a externa;
-- o conectivo executado por último é o **principal**.
-
-Exemplo: em `(p ∨ q) ∧ ¬r`, o conectivo principal é `∧`.
-
-## Número de linhas
-
-`linhas = 2^n`
-
-`n` = número de proposições simples **distintas**.
-
-| n | linhas |
-|:---:|:---:|
-| 1 | 2 |
-| 2 | 4 |
-| 3 | 8 |
-| 4 | 16 |
-| 5 | 32 |
-
-Repetição de uma letra não aumenta `n`.
-
-## Enumeração para três letras
-
-| p | q | r |
-|:---:|:---:|:---:|
-| V | V | V |
-| V | V | F |
-| V | F | V |
-| V | F | F |
-| F | V | V |
-| F | V | F |
-| F | F | V |
-| F | F | F |
-
-A ordem pode variar; todas as combinações devem aparecer exatamente uma vez.
-
-## Fluxo de resolução
-
-1. Identifique as letras distintas.
-2. Calcule `2^n`.
-3. Enumere V/F.
-4. Localize o conectivo principal.
-5. Crie colunas para subfórmulas.
-6. Resolva de dentro para fora.
-7. Leia a coluna final.
-
-## Atalhos seguros
-
-- conjunção + uma F → F;
-- disjunção inclusiva + uma V → V;
-- condicional + antecedente F → V;
-- condicional + consequente V → V;
-- bicondicional → compare igualdade;
-- exclusiva → compare diferença.
-
-## Classificação pela coluna final
-
-| Coluna final | Classe |
-|---|---|
-| só V | tautologia |
-| só F | contradição |
-| V e F | contingência |
-
-Uma linha F elimina tautologia, mas **não** prova contradição.
-
-## Linguagem natural
-
-Se:
-
-- `p`: cadastro completo;
-- `q`: comprovante emitido.
-
-Então:
-
-- “q **se** p” → `p → q`;
-- “q **somente se** p” → `q → p`;
-- “não é verdade que p e q” → `¬(p ∧ q)`;
-- “não p e q” → `(¬p) ∧ q`.
-
-## Pegadinhas
-
-- valor desconhecido ≠ não proposição;
-- pergunta/ordem ≠ proposição falsa;
-- conte letras distintas, não ocorrências;
-- “ou” simples é inclusivo;
-- condicional só é F em V/F;
-- antecedente F torna a condicional V;
-- F/F torna a bicondicional V;
-- valores iguais tornam a exclusiva F;
-- `p somente se q = p → q`;
-- parênteses não são decorativos;
-- uma linha F ≠ contradição automática.
-
-## Checklist final
-
-- [ ] As frases básicas recebem V/F?
-- [ ] Quantas letras distintas há?
-- [ ] O “ou” é inclusivo ou há exclusividade expressa?
-- [ ] O alcance da negação está correto?
-- [ ] “Se” e “somente se” foram orientados corretamente?
-- [ ] O conectivo principal foi identificado?
-- [ ] Todas as `2^n` atribuições foram consideradas?
-- [ ] V/F da condicional foi tratado como F?
-- [ ] A classificação considerou a coluna final inteira?
+Uma linha `F` exclui tautologia, mas não basta para provar contradição. Em prova, confira **quantas letras distintas**, **onde aponta “somente se”**, **qual expressão é negada** e **qual é o valor da última coluna**, nessa ordem.
