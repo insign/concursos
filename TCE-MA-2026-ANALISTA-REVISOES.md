@@ -182,7 +182,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H069 | `organizacao-controle-externo` | = | V | `4899bb2bc92c1f845ab246044bd479a027f8966a` |
 | H070 | `unidades-administrativas-cargos-funcoes` | `unidades-cargos-funcoes` | V | [302d4a1](https://github.com/insign/concursos/commit/302d4a1e1968625e45049b2be28682bb2cc7c4e9) |
 | H071 | `tomada-contas-especial-in-50` | `tce-in-50-2017` | V | [525e7a2](https://github.com/insign/concursos/commit/525e7a24d8526772a911b7f92a0977c6132490ed) |
-| H072 | `emendas-parlamentares-in-82` | `tce-in-82-2025` | V | — |
+| H072 | `emendas-parlamentares-in-82` | `tce-in-82-2025` | V | [6e86e1d](https://github.com/insign/concursos/commit/6e86e1d749f9cb0225b5579aa49f3440182957c7) |
 
 ### M06 — História e Geografia do Estado do Maranhão
 
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
+- H072: a aula confunde 6/7 (data de E1) com publicação/corte em 7/7; corrigir no escopo da aula. Antes da M05, confirmar eventual ato alterador da norma nº 82/2025 se a análise depender dele; a consulta não fundamenta afirmar sua inexistência.
 - H071: aula usa 6/7 (data do ato E1) como publicação/corte, mas Tribunal informa 7/7. Textos integrais da DN 28/2017, IN 56/2018 e DN 38/2020 não abriram diretamente no portal; cotejar na M05 se necessário. Corrigir aula em escopo próprio.
 - H070: aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal informa 7/7. Corrigir na revisão própria da aula.
 - H069: aula usa 6/7 (ato E1) como publicação/corte, mas Tribunal informa 7/7. Compilação oficial da Lei 9.936/2013 ainda omite o inciso XII de 2026; conferir a republicação oficial da Lei 12.822/2026 nas referências de H070 ao revisar a aula/M05.
