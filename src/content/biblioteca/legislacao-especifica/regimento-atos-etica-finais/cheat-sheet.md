@@ -1,173 +1,30 @@
 # Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: atos normativos, ética e regras finais
 
-## Corte
+## Antes da votação: iniciativa, anuência e relatoria
 
-**Edital: 6/7/2026.** Aqui, “ética” = principalmente **Comissão regimental** e reclamação contra Conselheiro.
+**Alterar o Regimento (art. 307):** projeto de resolução aprovado pela **maioria absoluta dos Conselheiros titulares**. A proposta indica expressamente o que será modificado, acrescido ou suprimido; modificação conserva número, supressão recebe “suprimido”, matéria nova entra em dispositivo conexo até renumeração e republicação integral (art. 308). Havendo reforma no ano anterior, republica-se integralmente no começo do ano (art. 305, § 2º). A remissão do art. 307 ao **art. 311 revogado** não o restaura.
 
-**Fora do recorte:** Códigos de Ética autônomos (Res. 282/2017 e 283/2017), compliance, política de riscos e recomendação eleitoral.
+**Iniciativa (art. 309):** Presidente, Conselheiros, Conselheiros-Substitutos, membros do <abbr title="Ministério Público de Contas">MPC</abbr> e Comissões regimentais podem propor ato normativo, enunciado de Súmula ou projeto de lei de iniciativa privativa. Proponente Conselheiro/Conselheiro-Substituto relata a proposta; se a iniciativa é do Presidente, <abbr title="Ministério Público de Contas">MPC</abbr> ou Comissão, o Presidente designa relator após consultar o Plenário; havendo concorrentes, propõe votação ou sorteio. Proposta própria de Conselheiro, Substituto ou <abbr title="Ministério Público de Contas">MPC</abbr> exige envio prévio de cópias à Presidência e aos gabinetes dos membros.
 
-## Alteração do Regimento
+| Proposta | Anuência assinada **em tese** de pelo menos dois Conselheiros | Quem conta se proponente for Conselheiro ou Substituto? |
+| --- | --- | --- |
+| alterar Regimento; enunciado de Súmula; projeto de lei privativo | art. 309, §§ 6º e 8º | proponente **excluído** |
+| outro ato normativo | art. 309, § 7º | proponente **incluído**, quando Conselheiro ou Conselheiro-Substituto, conforme literalidade do § 7º |
 
-| Regra | Memorize |
-| --- | --- |
-| art. 307 | alteração do RI por **maioria absoluta dos Conselheiros titulares** |
-| art. 308 | proposta aponta o que será **modificado, acrescido ou suprimido** |
-| dispositivo modificado | conserva a numeração |
-| dispositivo retirado | recebe “**suprimido**” |
-| matéria nova | entra em dispositivo conexo até renumeração/republicação integral |
-| art. 305, § 2º | havendo reforma anterior, republicação integral no começo do ano |
+**Anuência prévia ≠ voto de aprovação.** O Presidente circula proposta e justificativa antes da apresentação em Plenário.
 
-⚠️ O art. 307 ainda remete ao art. 311, mas o **art. 311 foi revogado** em 2017.
+## Tramitação em decisões
 
-## Art. 309 — iniciativa
+1. **Emendas/sugestões (arts. 312–316):** após apresentação plenária, Conselheiros podem emendar projeto de ato normativo em até **sete dias**; no mesmo prazo, Conselheiros-Substitutos e <abbr title="Ministério Público de Contas">MPC</abbr> sugerem ao relator sobre ato, Súmula e projeto de lei. Emendas e sugestões vão diretamente ao relator; encerrado o prazo, relatório e parecer até a **segunda sessão plenária seguinte**, com possibilidade de substitutivo ou subemenda. Emenda supressiva retira; substitutiva troca substancialmente; aditiva acrescenta; modificativa altera sem mudança substancial. Art. 321 permite ao Plenário reduzir/ampliar prazo mediante proposta justificada do Presidente ou relator.
+2. **Votação (arts. 317–318):** substitutivo do relator → de Conselheiro → projeto original → subemendas do relator → emendas favoráveis → não acolhidas. Substitutivo aprovado prejudica as demais proposições, **salvo destaques** (votação separada de parte). Regra geral de aprovação: **maioria absoluta de votos dos membros do Tribunal**, com desempate pelo Presidente. Compare com a base de **Conselheiros titulares** exigida para mudar o Regimento.
+3. **Redação final (arts. 319–320):** mesma sessão ou próxima para Súmula, instrução normativa, resolução ou decisão normativa; dispensa-se votação se projeto original aprovado sem emendas ou substitutivo aprovado integralmente. Nessa fase, emendas só corrigem gramática, clareza ou objetividade.
 
-Podem propor **ato normativo / enunciado de Súmula / projeto de lei privativo**:
+## Súmula e Comissão
 
-**Presidente + Conselheiros + Conselheiros-Substitutos + <abbr title="Ministério Público de Contas">MPC</abbr> + Comissões regimentais.**
+**Súmula (arts. 322–327):** sintetiza teses, soluções e precedentes **reiterados**. Coordenação de Plenário numera e registra fundamentos legais/julgados. Inclusão, revisão, cancelamento ou restabelecimento exigem projeto específico e **maioria absoluta dos Conselheiros**. Enunciado cancelado deixa número vago; apenas modificado conserva o número. Citá-lo pelo número perante o Tribunal dispensa repetir julgados, não dispensa precedentes para formá-lo.
 
-### Relatoria
+**Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno (arts. 22, 25–27, Resolução nº 391/2023):** Corregedor + dois Conselheiros + Conselheiro-Substituto secretário-executivo + Procurador de Contas, designados pelo Pleno. Preside o Corregedor; substituem-no Conselheiros integrantes por antiguidade. Ato normativo define competências/atribuições e formação de pautas. Reunião ordinária presencial na **primeira semana do mês, terça-feira, 10h**, no Plenário; deliberação segue ao Presidente do Tribunal por ofício e resumo da ata. Comissão temporária tem **dois ou mais** Conselheiros/Substitutos e termina no prazo ou ao atingir objetivo (art. 22-B).
 
-| Iniciativa | Relator |
-| --- | --- |
-| Conselheiro | o próprio proponente |
-| Conselheiro-Substituto | o próprio proponente |
-| Presidente | designado pelo Presidente após consulta ao Plenário |
-| MPC | designado pelo Presidente após consulta ao Plenário |
-| Comissão | designado pelo Presidente após consulta ao Plenário |
+**Cuidado de literalidade:** a Resolução nº 391/2023 mudou o **caput** do art. 26 para pautas, mas o texto oficial compilado ainda exibe §§ 1º–2º sobre reclamação contra Conselheiro e manifestação da Comissão, com remissões ao regime antigo. Não trate os parágrafos como nova redação do caput nem conclua sobre sua aplicação atual sem conciliar texto e atos próprios.
 
-Mais de um interessado na relatoria → Presidente propõe **votação ou sorteio**.
-
-### Anuência — contraste decisivo
-
-| Proposta | Mínimo | Proponente Conselheiro/Substituto entra na conta? |
-| --- | ---: | --- |
-| alteração do RI | 2 Conselheiros | **não** |
-| enunciado de Súmula | 2 Conselheiros | **não** |
-| projeto de lei privativo | 2 Conselheiros | **não** |
-| outro ato normativo | 2 Conselheiros | **sim** |
-
-**Anuência ≠ voto final:** é concordância **em tese com a essência** da proposta.
-
-## Fluxo da proposição
-
-**proposta → anuência → apresentação ao Plenário → relatoria → emendas/sugestões → relatório e parecer → discussão → votação → redação final → publicação**
-
-### Emendas e sugestões
-
-- Conselheiros: emendam **propostas de atos normativos** em até **7 dias** da apresentação em Plenário.
-- Conselheiro-Substituto e MPC: podem apresentar **sugestões ao Relator**, no mesmo prazo, sobre ato normativo, Súmula e projeto de lei.
-- Emendas e sugestões → **direto ao Relator**.
-
-| Emenda | Efeito |
-| --- | --- |
-| supressiva | exclui |
-| substitutiva | sucede e altera substancialmente |
-| aditiva | acrescenta |
-| modificativa | altera sem mudança substancial |
-
-Fim do prazo → Relator apresenta relatório e parecer **até a 2ª Sessão Plenária seguinte**; pode oferecer substitutivo ou subemendas.
-
-## Ordem de votação — art. 317
-
-1. substitutivo do Relator;
-2. substitutivo de Conselheiro;
-3. projeto originário;
-4. subemendas do Relator;
-5. emendas com parecer favorável;
-6. emendas não acolhidas.
-
-**Substitutivo aprovado** → prejudica as demais proposições, **salvo destaques**.
-
-**Destaque** → votação separada de emenda, subemenda, parte do projeto ou do substitutivo.
-
-## Quórum e redação final
-
-- art. 318: proposição aprovada por **maioria absoluta de votos dos membros do Tribunal**;
-- empate → **Presidente desempata**;
-- redação final: mesma sessão ou sessão seguinte;
-- dispensa de votação da redação final:
-  - projeto originário aprovado **sem emendas**; ou
-  - substitutivo aprovado **integralmente**;
-- emenda à redação final: só **gramática, clareza ou objetividade**.
-
-⚠️ Art. 321 ainda cita arts. 311 e 312. O 311 está revogado; o prazo-base hoje expresso no art. 312 é **até 7 dias**, ajustável pelo Plenário mediante proposta justificada do Presidente ou Relator.
-
-## Súmula — arts. 322 a 327
-
-**Súmula = princípios/enunciados que resumem teses, soluções e precedentes reiterados.**
-
-| Ponto | Regra |
-| --- | --- |
-| organização | Coordenação de Plenário |
-| base | número + dispositivos legais + julgados |
-| incluir/rever/cancelar/restabelecer | maioria absoluta dos Conselheiros + projeto do art. 309 |
-| enunciado cancelado | número fica **vago**, com nota de cancelamento |
-| enunciado modificado | **mantém o número** |
-| citação perante o TCE | número do enunciado dispensa indicação dos julgados no mesmo sentido |
-
-**Citar sem precedentes ≠ nascer sem precedentes.** A Súmula pressupõe reiteração.
-
-## Comissão regimental de ética — Res. 391/2023
-
-**Nome:** Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno.
-
-### Composição
-
-**Corregedor + 2 Conselheiros + 1 Conselheiro-Substituto + 1 Procurador de Contas**
-
-- Substituto = **secretário-executivo**;
-- designação = **Pleno**;
-- presidência = **Corregedor**;
-- ausência do Corregedor → Conselheiros integrantes, por antiguidade.
-
-### Funcionamento
-
-- competências e atribuições → definidas por **ato normativo**;
-- formação da pauta → definida por **ato normativo**;
-- reunião ordinária → **1ª semana do mês, terça, 10h, presencial**;
-- local → **Plenário**;
-- aplica-se, no que couber, o funcionamento das sessões do Pleno;
-- deliberação → ofício do Presidente da Comissão + resumo da ata → Presidente do TCE.
-
-## Reclamação contra Conselheiro — art. 26, § 1º
-
-**petição fundamentada + elementos comprobatórios**
-
-→ Relator pode propor arquivamento se manifesta improcedência
-
-→ se não arquivar: ouvir reclamado em **15 dias úteis**
-
-→ com/sem resposta: Comissão decide arquivar ou instruir melhor
-
-→ decisão final com **presença de todos os integrantes**
-
-→ publica-se a conclusão.
-
-**Antes do Plenário:** projeto de lei privativo e proposta de atualização do RI dependem de **manifestação da Comissão**.
-
-## Comissões temporárias
-
-- **2 ou mais** membros;
-- entre Conselheiros e Conselheiros-Substitutos;
-- indicados no ato de criação pelo **Pleno ou Presidente**;
-- terminam no prazo fixado ou com o objetivo alcançado.
-
-## Regras finais
-
-- art. 337: regulamentação anterior **compatível** continua até novo disciplinamento; incompatível é revogada.
-- regra temporária sobre art. 141-C: vigorou só até **31/12/2024** → **exaurida** no edital de 2026.
-- art. 338: RI entrou em vigor em **21/1/2000**.
-- art. 336: prazo de 60 dias era **transitório da implantação**, não prazo atual de vista.
-
-## Pegadinhas de uma linha
-
-- **RI/Súmula/<abbr title="Projeto de lei">PL</abbr>:** 2 Conselheiros **fora** da conta do proponente Conselheiro/Substituto.
-- **Ato normativo comum:** 2 Conselheiros **podendo incluir** o proponente Conselheiro/Substituto.
-- **alterar RI:** maioria absoluta dos **Conselheiros titulares**.
-- **aprovar proposição (art. 318):** maioria absoluta dos **votos dos membros** + desempate do Presidente.
-- **anuência prévia não vincula voto final**.
-- **Substituto propõe e pode relatar a própria proposta**, mas no art. 313 apresenta **sugestão**, não emenda como Conselheiro.
-- **súmula cancelada = número vago; modificada = mesmo número**.
-- **Comissão regimental atual ≠ antiga composição do Código de Ética de 2017**.
-- **15 dias úteis = ouvir Conselheiro reclamado**.
-- **art. 311 revogado**, embora ainda apareça em remissões do texto.
+**Regras finais:** art. 337 conserva regulamentação anterior **compatível** até novo disciplinamento; regra temporária do art. 141-C terminou em **31/12/2024**. Art. 338: vigência original em **21/1/2000**; o prazo do art. 336 era transitório de implantação, não prazo atual de vista. O corte legislativo do edital de abertura é sua publicação, informada pelo Tribunal em **7/7/2026**.
