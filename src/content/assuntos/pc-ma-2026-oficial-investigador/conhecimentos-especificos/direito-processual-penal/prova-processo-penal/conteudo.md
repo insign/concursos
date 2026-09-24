@@ -99,7 +99,7 @@ Após a perícia, o material retorna à central de custódia e nela permanece, s
 
 ## 5. Quebra da cadeia: não confunda falha com nulidade automática
 
-No recorte até 13/7/2026, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> não trata qualquer irregularidade como nulidade automática.
+No precedente do <abbr title="Superior Tribunal de Justiça">STJ</abbr> publicado em 2/6/2026 e usado nesta unidade, a irregularidade na cadeia de custódia não gera nulidade automática.
 
 No Agravo Regimental no Habeas Corpus 1.085.352, do Rio Grande do Sul, publicado em 2/6/2026, a Quinta Turma afirmou que a falha deve ser examinada conforme seu efeito sobre:
 
