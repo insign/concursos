@@ -1,193 +1,62 @@
 # Estatuto da Igualdade Racial: políticas públicas e mecanismos
 
-Regra de prova: alterações legislativas em vigor até **6 de julho de 2026**.
+**Corte:** alterações legislativas em vigor até a publicação do edital em **7 de julho de 2026** (ato datado de 6 de julho). Núcleo: Lei nº 12.288/2010, com a alteração da Lei nº 14.553/2023. Decretos entram apenas quando o comando os pedir. Consulta editorial: 24 de setembro de 2026.
 
-Conferência editorial: **15 de agosto de 2026**.
+**Rota:** sistema articula (artigos 47–48); plano, órgão e colegiado coordenam (49); conselhos participam e ouvidorias protegem (50–55); políticas entram no orçamento (56–57); pesquisa e relatórios medem resultados (49 e 59).
 
-Núcleo: **Lei nº 12.288/2010**. Regulamentos servem apenas como contexto quando a questão pedir além da lei.
+## Sistema, plano e participação
 
-## Mapa legal
+**<abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> (artigo 47):** organiza e articula políticas e serviços prestados pelo poder público federal para superar desigualdades étnicas. Estados, Distrito Federal e Municípios **poderão participar mediante adesão**; o poder público federal incentivará também sociedade e iniciativa privada. A adesão não é compulsória. Os cinco objetivos do artigo 48 são: promover igualdade e combater desigualdades do racismo, inclusive por **ações afirmativas** (medidas especiais para corrigir desigualdades); formular políticas contra marginalização; **descentralizar** sua implementação por governos subnacionais; articular planos, ações e mecanismos; e garantir eficácia dos instrumentos e metas.
 
-| Tema | Artigo | Regra de uma linha |
-|---|---:|---|
-| <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> | 47–48 | organização/articulação + adesão voluntária + 5 objetivos |
-| governança | 49 | plano + órgão + fórum + colegiado + <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>/5 anos |
-| conselhos | 50 | subnacionais + permanentes + consultivos + paritários |
-| Ouvidorias | 51–52 | federal + Legislativo/Executivo + denúncias + acompanhamento |
-| educação | 16 | acompanhamento/avaliação federal conjunta |
-| moradia | 36 | <abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr> + peculiaridades + participação no <abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr> |
-| trabalho | 40 | <abbr title="Conselho Deliberativo do Fundo de Amparo ao Trabalhador">Codefat</abbr> formula/orienta recursos |
-| contratação federal | 46 | cláusulas de igualdade + fiscalização |
-| <abbr title="Plano Plurianual">PPA</abbr>/orçamento | 56 | prioridades + transparência + regra transitória + acompanhamento |
-| financiamento | 57 | recursos ordinários + fontes adicionais; sem fundo próprio |
-| medidas favoráveis | 58 | rol não excludente |
-| monitoramento | 59 | eficácia social + constante + relatórios + Internet |
+**Artigo 49:** o Executivo federal elaborará plano nacional com metas, princípios e diretrizes para implementar a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>. O órgão responsável pela política de igualdade étnica **em âmbito nacional** elabora, implementa, coordena, avalia e acompanha a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> e organiza, articula e coordena o <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>. Em cobrança literal, use a função, sem prender a resposta ao nome histórico do órgão.
 
-## Sinapir
-
-Natureza → forma de **organização e articulação** para implementar políticas/serviços e superar desigualdades étnicas.
-
-Não é:
-
-- fundo;
-- conselho;
-- órgão único;
-- ente federativo.
-
-Estados + <abbr title="Distrito Federal">DF</abbr> + Municípios → **poderão participar mediante adesão**.
-
-União → incentiva sociedade + iniciativa privada.
-
-### Cinco objetivos — art. 48
-
-1. **promover** igualdade e combater desigualdades do racismo;
-2. **formular** políticas contra marginalização e pela integração;
-3. **descentralizar** ações afirmativas;
-4. **articular** planos, ações e mecanismos;
-5. **garantir eficácia** dos meios/instrumentos/metas.
-
-## Art. 49 — cinco peças
-
-1. **plano nacional** → metas + princípios + diretrizes;
-2. **órgão responsável** → elabora/implementa/coordena/avalia/acompanha <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> + organiza/articula/coordena Sinapir;
-3. **fórum** → Executivo federal é **autorizado** a instituir;
-4. **colegiado** → diretrizes + participação da sociedade civil;
-5. **IBGE** → pesquisa a cada **5 anos** + ocupação étnico-racial no **setor público** + subsídio à PNPIR.
-
-Resposta literal sobre órgão nacional → use a **formulação funcional da lei**, não nome histórico.
-
-## Conselhos × Ouvidorias
-
-| Ponto | Conselhos — art. 50 | Ouvidorias — art. 51 |
-|---|---|---|
-| esfera | Estados/DF/Municípios | poder público federal |
-| verbo | Executivos **poderão instituir** | poder público **instituirá** |
-| natureza | permanente + consultivo | canal permanente |
-| composição | paritária | não é o foco do artigo |
-| função | promoção/participação | receber + encaminhar denúncias + acompanhar medidas |
-| Poderes | Executivos subnacionais | Legislativo + Executivo |
-
-Conselho criado → prioridade de recursos.
-
-Prioridade ≠ exclusividade ≠ transferência automática.
-
-Art. 52 → Ouvidoria + Defensoria + <abbr title="Ministério Público">MP</abbr> + Judiciário são canais cumulativos.
-
-## Mecanismos setoriais
-
-**Educação — art. 16**
-
-Programas da seção → acompanhamento e avaliação federal pelos órgãos de igualdade + educação.
-
-**Moradia — art. 36**
-
-- SNHIS considera peculiaridades sociais/econômicas/culturais da população negra;
-- Estados/DF/Municípios estimulam participação de organizações negras nos conselhos do FNHIS;
-- conselho FNHIS ≠ conselho art. 50.
-
-**Trabalho — art. 40**
-
-Codefat → formula políticas/programas/projetos de inclusão + orienta recursos.
-
-**Contratação federal — art. 46**
-
-Igualdade de oportunidades → cláusulas contratuais + fiscalização legal.
-
-## Art. 56 — PPA e orçamento
-
-Regra geral → PPA + orçamento anual da União observam:
-
-- ação afirmativa;
-- igualdade de oportunidades;
-- inclusão social da população negra.
-
-Sete grupos:
-
-1. educação/emprego/moradia;
-2. pesquisas educação/saúde/emprego;
-3. comunicação;
-4. microempresas negras;
-5. acesso/permanência na educação;
-6. projetos subnacionais + sociedade civil;
-7. cultura/memória/tradições.
-
-### Verbos e prazos
-
-- § 1º → Executivo **autorizado** a transparência anual;
-- § 2º → obrigação dos primeiros 5 anos: **janela encerrada**;
-- § 3º → Executivo **autorizado** a medidas + patamares crescentes;
-- § 4º → colegiado federal acompanha/avalia programação orçamentária.
-
-## Art. 57 — fontes
-
-Além dos recursos ordinários:
-
-- transferências voluntárias subnacionais;
-- particulares;
-- empresas/<abbr title="organizações não governamentais">ONGs</abbr> nacionais ou internacionais;
-- fundos nacionais/internacionais;
-- Estados estrangeiros por instrumentos internacionais.
-
-**Não cria fundo exclusivo.**
-
-## Art. 58
-
-Medidas do Estatuto **não excluem outras** medidas favoráveis à população negra adotadas por União, Estados, DF e Municípios.
-
-## Art. 59 — monitoramento
-
-Executivo federal:
-
-- cria instrumentos de **eficácia social**;
-- monitora **constantemente**;
-- emite relatórios **periódicos**;
-- divulga resultados, inclusive pela **Internet**.
-
-### Não confundir
-
-| Mecanismo | Objeto |
+| Peça do artigo 49 | Verbo e função |
 |---|---|
-| art. 49 § 4º | IBGE / 5 anos / ocupação no setor público / PNPIR |
-| art. 56 § 4º | colegiado / programação orçamentária |
-| art. 59 | eficácia social / monitoramento constante / relatórios |
+| Fórum intergovernamental (articulação entre governos) | Executivo federal **autorizado a instituir**; coordenação do órgão nacional; aproxima a política das ações de Estados e Municípios. |
+| Órgão colegiado (decisão com vários integrantes) | Elabora diretrizes das políticas nacional e regional, **assegurando participação da sociedade civil**. |
+| <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> | Realiza **a cada cinco anos** pesquisa da ocupação por segmentos étnicos e raciais no **setor público**, para subsidiar a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> (§ 4º, incluído em 2023). |
 
-## Regulamentação: contexto, não núcleo
+**Conselhos versus ouvidorias:**
 
-- PNPIR → política nacional;
-- <abbr title="Plano Nacional de Promoção da Igualdade Racial">Planapir</abbr> → plano;
-- Sinapir → sistema da Lei nº 12.288/2010;
-- Decreto nº 8.136/2013 → detalha funcionamento do Sinapir.
+| Conselho do artigo 50 | Ouvidoria do artigo 51 |
+|---|---|
+| Executivos estaduais, distrital e municipais **poderão instituir**. | Poder público federal **instituirá, na forma da lei**, nos Poderes Legislativo e Executivo. |
+| Caráter permanente e consultivo; igual número de representantes públicos e de organizações civis representativas da população negra (**composição paritária**, igualdade numérica). | Recebe e encaminha denúncias de preconceito e discriminação por etnia ou cor; acompanha medidas de promoção da igualdade. Não julga nem aplica pena. |
 
-Pegadinha de banca: **transversalidade** é princípio da PNPIR em seu decreto; não é formulação literal geral do Estatuto.
+O Executivo **priorizará o repasse** de recursos dos programas e atividades do Estatuto aos entes que criaram conselho. Prioridade não dá exclusividade nem transferência automática. Conselho facultativo no **Estatuto** não deve ser confundido com requisitos operacionais de adesão ao sistema previstos no Decreto nº 8.136/2013.
 
-### Portaria MIR nº 342/2026
+**Proteção (artigos 52–55):** vítimas acessam ouvidorias, Defensoria Pública, Ministério Público e Judiciário em todas as instâncias; mulheres negras em situação de violência têm assistência física, psíquica, social e jurídica. O Estado coíbe violência policial e discriminação por servidores, protege e ressocializa (reintegra socialmente) a juventude negra em conflito com a lei. Lesões ou ameaças por desigualdade étnica admitem, entre outros instrumentos, **ação civil pública** (ação de tutela coletiva).
 
-- publicada em 08/07/2026;
-- republicada em 13/07/2026;
-- portanto **pós-edital**.
+## Onde a política aparece
 
-Para a prova → priorize a Lei nº 12.288/2010 no corte de 06/07/2026.
+| Setor | Gatilho de prova |
+|---|---|
+| Educação, artigo 16 | Programas da seção: Executivo federal acompanha e avalia por seus órgãos de igualdade e educação. |
+| Moradia, artigo 36 | <abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr>: programas consideram peculiaridades sociais, econômicas e culturais da população negra. Entes subnacionais estimulam e facilitam participação das organizações negras nos conselhos ligados à aplicação do <abbr title="Fundo Nacional de Habitação de Interesse Social">FNHIS</abbr>; são distintos dos conselhos do artigo 50. |
+| Trabalho, artigos 40 e 42 | <abbr title="Conselho Deliberativo do Fundo de Amparo ao Trabalhador">Codefat</abbr> **formula** políticas, programas e projetos de inclusão e **orienta** recursos. Executivo federal **poderá** adotar critérios de provimento de cargos em comissão e funções de confiança para ampliar a presença negra conforme dados demográficos; não é dever com verbo “deverá”. |
+| Publicidade, artigo 46 | Administração federal direta, autarquias e fundações (entidades federais próprias), empresas públicas e sociedades de economia mista (estatais) **deverão** incluir cláusulas de participação de artistas negros nos contratos de filmes, programas e outras peças publicitárias. Nas especificações de contratação, iguais oportunidades abrangem diversidade étnica, de sexo e idade da equipe. Autoridade **poderá** requerer auditoria federal se necessária; a cláusula principal não se aplica à publicidade sobre especificidades de grupo étnico determinado. |
 
-Para direito vigente hoje → a portaria pode ser consultada como regulamentação atual, sem transformar suas modalidades e detalhes em núcleo do edital.
+## Orçamento, fontes e resultado
 
-## Pegadinhas-relâmpago
+**Artigo 56:** na implementação dos programas dos **planos plurianuais** (planejamento de médio prazo) e dos orçamentos anuais da União, **deverão ser observadas** políticas de ação afirmativa e outras que promovam oportunidades e inclusão da população negra. Agrupe as sete frentes: (1) oportunidades em educação, emprego e moradia; (2) pesquisas em educação, saúde e emprego; (3) comunicação de interesse da população negra; (4) microempresas de pessoas autodeclaradas negras; (5) acesso e permanência na educação fundamental, média, técnica e superior; (6) programas e projetos de entes subnacionais e sociedade civil; (7) cultura, memória e tradições africanas e brasileiras.
 
-- Sinapir ≠ fundo;
-- adesão ≠ compulsória;
-- art. 48 inclui **descentralizar**;
-- órgão nacional → fórmula funcional;
-- fórum → Executivo **autorizado** a instituir;
-- colegiado → participação civil;
-- IBGE → **5 anos + setor público**;
-- conselho art. 50 → poderá + permanente + consultivo + paritário;
-- prioridade ≠ recurso automático;
-- Ouvidoria → instituirá + Legislativo/Executivo;
-- Ouvidoria ≠ julgador;
-- conselho FNHIS ≠ conselho art. 50;
-- Codefat ≠ executor exclusivo;
-- transparência anual do art. 56 → Executivo **autorizado**;
-- regra orçamentária dos 5 primeiros anos → encerrada;
-- art. 57 ≠ fundo;
-- art. 59 ≠ pesquisa quinquenal;
-- transversalidade ≠ texto literal geral do Estatuto;
-- Portaria 342/2026 → **pós-edital**.
+| Parágrafo do artigo 56 | Alcance e tempo |
+|---|---|
+| § 1º | Executivo federal **autorizado** a adotar, em cada exercício, transparência da alocação e execução e da proporção de recursos por programas e áreas. |
+| § 2º | Órgãos federais abrangidos **discriminariam** nos orçamentos a participação nas ações afirmativas durante **cinco anos a contar do exercício subsequente à publicação**: 2011–2015, período encerrado. |
+| § 3º | Executivo **autorizado** a adotar medidas de implementação e patamares crescentes de participação nos orçamentos anuais referidos no § 2º. |
+| § 4º | Colegiado federal de igualdade racial **acompanha e avalia** a programação das ações nas propostas orçamentárias da União. |
+
+**Artigo 57:** além de recursos ordinários, podem constar dos orçamentos fiscal e da seguridade social (peças da União para gastos gerais e proteção social) transferências voluntárias de Estados, Distrito Federal e Municípios; doações de particulares, empresas, organizações não governamentais e fundos nacionais ou internacionais; doações de Estados estrangeiros por convênios, tratados e acordos internacionais. **Não se cria fundo exclusivo.**
+
+**Artigo 58:** as medidas do Estatuto não excluem outras em prol da população negra no âmbito de qualquer ente federativo.
+
+**Três relógios diferentes:**
+
+| Dispositivo | Objeto | Ritmo |
+|---|---|---|
+| Artigo 49, § 4º | <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> apura ocupação étnico-racial no setor público; subsidia a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr>. | A cada cinco anos. |
+| Artigo 56, § 4º | Colegiado acompanha a **programação orçamentária** nas propostas da União. | Ciclo das propostas. |
+| Artigo 59 | Executivo federal cria instrumentos de **eficácia social** (efeito real das medidas), monitora **constantemente** e emite e divulga **relatórios periódicos**, inclusive na Internet. | Contínuo, com relatórios periódicos; não quinquenal por força desse artigo. |
+
+**Nomes e fonte do comando:** <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> é política; <abbr title="Plano Nacional de Promoção da Igualdade Racial">Planapir</abbr> é plano aprovado por decreto; <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr> é sistema instituído pela lei. **Transversalidade** (inserir o tema nas diferentes políticas governamentais) consta como princípio da <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> no Decreto nº 4.886/2003; não atribua essa redação ao Estatuto quando o comando exigir sua literalidade.
