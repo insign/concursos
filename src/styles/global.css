@@ -453,6 +453,62 @@ a:hover {
   flex: 0 0 auto;
 }
 
+.study-forecast {
+  min-width: 0;
+  margin-bottom: 2rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.study-forecast h2 {
+  font-size: var(--step-1);
+}
+
+.study-forecast fieldset {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.study-forecast fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.study-forecast form > div {
+  margin-top: 1rem;
+}
+
+.study-forecast form > div > label {
+  font-weight: 800;
+}
+
+.study-forecast select,
+.study-forecast input[type='number'] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 2.8rem;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 0.15rem;
+  color: var(--ink);
+  background: var(--field-bg);
+  font: inherit;
+}
+
+.study-forecast select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .connection-callout {
   margin-block: 2rem;
   padding: 1rem;
