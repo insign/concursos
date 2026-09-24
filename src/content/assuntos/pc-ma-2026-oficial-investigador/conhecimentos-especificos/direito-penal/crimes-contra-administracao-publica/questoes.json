@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u090-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u090-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No peculato-furto do art. 312, § 1º,",
       "options": [
         {
           "id": "A",
-          "text": "o agente não possui o bem, mas o subtrai ou concorre para subtração valendo-se da facilidade do cargo."
+          "text": "a posse funcional prévia é indispensável."
         },
         {
           "id": "B",
-          "text": "a posse funcional prévia é indispensável."
+          "text": "o agente não possui o bem, mas o subtrai ou concorre para subtração valendo-se da facilidade do cargo."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "só pode ter dinheiro público como objeto."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O §1º caracteriza-se pela subtração sem posse prévia, facilitada pela condição funcional."
     },
     {
       "id": "u090-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Concussão e corrupção passiva distinguem-se, em regra, porque",
       "options": [
         {
           "id": "A",
-          "text": "na concussão o funcionário exige; na corrupção passiva solicita, recebe ou aceita promessa de vantagem."
+          "text": "concussão é sempre praticada por particular."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "concussão é sempre praticada por particular."
+          "text": "na concussão o funcionário exige; na corrupção passiva solicita, recebe ou aceita promessa de vantagem."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "concussão exige licitação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O verbo é decisivo: exigir no art. 316; solicitar, receber ou aceitar promessa no art. 317."
     },
     {
       "id": "u090-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Prevaricação do art. 319 exige",
       "options": [
         {
           "id": "A",
-          "text": "retardo, omissão indevida ou ato contra disposição expressa de lei para satisfazer interesse ou sentimento pessoal."
+          "text": "subtração de bem."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "subtração de bem."
+          "text": "retardo, omissão indevida ou ato contra disposição expressa de lei para satisfazer interesse ou sentimento pessoal."
         },
         {
           "id": "E",
           "text": "oferta de vantagem pelo particular."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A finalidade de satisfazer interesse ou sentimento pessoal é elemento distintivo do art. 319."
     },
     {
       "id": "u090-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para fins penais, o art. 327 considera funcionário público",
       "options": [
         {
           "id": "A",
-          "text": "quem exerce cargo, emprego ou função pública, ainda que transitoriamente ou sem remuneração, além das equiparações legais."
+          "text": "apenas agentes da União."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "apenas agentes da União."
+          "text": "quem exerce cargo, emprego ou função pública, ainda que transitoriamente ou sem remuneração, além das equiparações legais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O conceito penal é funcional e mais amplo que o vínculo estatutário efetivo."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u090-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Corrupção ativa do art. 333 tem como núcleo",
       "options": [
         {
           "id": "A",
-          "text": "oferecer ou prometer vantagem indevida a funcionário para determiná-lo a praticar, omitir ou retardar ato de ofício."
+          "text": "receber vantagem como funcionário."
         },
         {
           "id": "B",
-          "text": "receber vantagem como funcionário."
+          "text": "oferecer ou prometer vantagem indevida a funcionário para determiná-lo a praticar, omitir ou retardar ato de ofício."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "subtrair documento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A corrupção ativa olha a conduta do particular que oferece ou promete a vantagem."
     },
     {
       "id": "u090-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Descaminho e contrabando distinguem-se porque",
       "options": [
         {
           "id": "A",
-          "text": "descaminho envolve fraude ao tributo sobre mercadoria permitida; contrabando envolve mercadoria proibida."
+          "text": "descaminho exige mercadoria proibida."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "descaminho exige mercadoria proibida."
+          "text": "descaminho envolve fraude ao tributo sobre mercadoria permitida; contrabando envolve mercadoria proibida."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "nenhum admite forma de transporte agravada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O objeto lícito/ilícito e a fraude tributária separam os tipos."
     },
     {
       "id": "u090-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao princípio da insignificância, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "o Tema 157 admite parâmetro específico para descaminho, mas esse regime não se transfere à corrupção passiva, alcançada pela Súmula 599/STJ."
+          "text": "descaminho nunca admite insignificância."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "descaminho nunca admite insignificância."
+          "text": "o Tema 157 admite parâmetro específico para descaminho, mas esse regime não se transfere à corrupção passiva, alcançada pela Súmula 599/STJ."
         },
         {
           "id": "E",
           "text": "corrupção passiva sempre é insignificante se a vantagem for pequena."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O descaminho é tratado especificamente pelos Temas 157 e 1.218; a regra geral dos crimes administrativos não é substituída."
     },
     {
       "id": "u090-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei Complementar nº 225/2026 acrescentou ao art. 337-A regra segundo a qual",
       "options": [
         {
           "id": "A",
-          "text": "a extinção de punibilidade do §1º não se aplica ao devedor contumaz definitivamente declarado e inscrito no Cadin, nas condições legais."
+          "text": "a espontaneidade deixou de importar para todos os agentes."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "a espontaneidade deixou de importar para todos os agentes."
+          "text": "a extinção de punibilidade do §1º não se aplica ao devedor contumaz definitivamente declarado e inscrito no Cadin, nas condições legais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os §§5º e 6º criaram restrição específica ao devedor contumaz definido administrativamente e inscrito no Cadin."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u090-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o antigo art. 89 da Lei 8.666/1993 e o atual art. 337-E,",
       "options": [
         {
           "id": "A",
-          "text": "há continuidade para o núcleo de contratação direta ilegal, mas o STJ reconheceu abolição da antiga figura isolada de mera inobservância de formalidades não reproduzida."
+          "text": "todo o antigo art. 89 permanece literalmente vigente."
         },
         {
           "id": "B",
-          "text": "todo o antigo art. 89 permanece literalmente vigente."
+          "text": "há continuidade para o núcleo de contratação direta ilegal, mas o STJ reconheceu abolição da antiga figura isolada de mera inobservância de formalidades não reproduzida."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "não houve qualquer alteração legislativa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A jurisprudência distingue os núcleos antigos; generalizações sobre abolitio criminis levam ao erro."
     },
     {
       "id": "u090-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 337-P determina que a multa dos crimes licitatórios",
       "options": [
         {
           "id": "A",
-          "text": "não pode ser inferior a 2% do valor do contrato licitado ou celebrado por contratação direta."
+          "text": "não pode existir."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "não pode existir."
+          "text": "não pode ser inferior a 2% do valor do contrato licitado ou celebrado por contratação direta."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "substitui toda pena privativa de liberdade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 337-P remete à metodologia do Código e fixa piso de 2% do valor contratual."
     },
     {
       "id": "u090-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 338-A, vigente no corte de julho de 2026,",
       "options": [
         {
           "id": "A",
-          "text": "pune o descumprimento de decisão judicial que defere medida protetiva de urgência com reclusão de 2 a 5 anos e multa."
+          "text": "impede outras sanções cabíveis."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "impede outras sanções cabíveis."
+          "text": "pune o descumprimento de decisão judicial que defere medida protetiva de urgência com reclusão de 2 a 5 anos e multa."
         },
         {
           "id": "E",
           "text": "permite fiança pela autoridade policial em flagrante."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Lei 15.280/2025 criou o artigo e estabeleceu as regras complementares indicadas."
     },
     {
       "id": "u090-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A diferença prática entre os arts. 339, 340 e 341 é que",
       "options": [
         {
           "id": "A",
-          "text": "339 põe pessoa sabidamente inocente como alvo de procedimento; 340 comunica fato inexistente; 341 atribui falsamente a si crime inexistente ou de terceiro."
+          "text": "341 só pode ocorrer em juízo."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "341 só pode ocorrer em juízo."
+          "text": "339 põe pessoa sabidamente inocente como alvo de procedimento; 340 comunica fato inexistente; 341 atribui falsamente a si crime inexistente ou de terceiro."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A identidade do alvo e o tipo de falsidade diferenciam os três delitos."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u090-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A fraude processual do art. 347",
       "options": [
         {
           "id": "A",
-          "text": "tem pena em dobro quando destinada a produzir efeito em processo penal, ainda que este não tenha começado."
+          "text": "só existe depois de sentença."
         },
         {
           "id": "B",
-          "text": "só existe depois de sentença."
+          "text": "tem pena em dobro quando destinada a produzir efeito em processo penal, ainda que este não tenha começado."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "não alcança alteração de lugar ou pessoa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A lei expressamente dobra a pena na finalidade penal mesmo que o processo ainda não tenha iniciado."
     },
     {
       "id": "u090-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 350 do Código Penal, dentro da sequência dos crimes contra a Administração da Justiça,",
       "options": [
         {
           "id": "A",
-          "text": "está revogado."
+          "text": "tipifica descaminho."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "tipifica descaminho."
+          "text": "está revogado."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "trata de operação de crédito."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 350 foi revogado pela Lei 13.869/2019."
     },
     {
       "id": "u090-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 359-G pune",
       "options": [
         {
           "id": "A",
-          "text": "ordenar, autorizar ou executar ato que aumente despesa total com pessoal nos 180 dias anteriores ao final do mandato ou legislatura."
+          "text": "apenas falta de empenho."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "apenas falta de empenho."
+          "text": "ordenar, autorizar ou executar ato que aumente despesa total com pessoal nos 180 dias anteriores ao final do mandato ou legislatura."
         },
         {
           "id": "E",
           "text": "corrupção ativa internacional."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O recorte temporal de 180 dias e o aumento da despesa total com pessoal estruturam o art. 359-G."
     },
     {
       "id": "u090-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo decisão do STJ publicada antes do corte, peculato-desvio e corrupção passiva",
       "options": [
         {
           "id": "A",
-          "text": "podem coexistir sem bis in idem quando as condutas estão individualizadas e possuem autonomia fática."
+          "text": "dependem de descaminho."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "dependem de descaminho."
+          "text": "podem coexistir sem bis in idem quando as condutas estão individualizadas e possuem autonomia fática."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Na APn 1.076/DF, o STJ afastou bis in idem diante da individualização das condutas."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u090-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do padrão definitivo da Questão 3 da prova discursiva Cebraspe/PF — Delegado 2025, servidor atesta falsamente regularidade de obra e possibilita pagamento integral à contratada em troca de vantagem indevida. Conforme os fatos e o dolo demonstrados, a análise penal pode envolver",
       "options": [
         {
           "id": "A",
-          "text": "corrupção passiva, inclusive majorada quando cabível, e alternativamente tipos dos arts. 337-H ou 337-L; terceiro ciente da condição funcional pode responder conforme regras de concurso de pessoas."
+          "text": "somente desobediência, sem possibilidade de crime funcional."
         },
         {
           "id": "B",
-          "text": "somente desobediência, sem possibilidade de crime funcional."
+          "text": "corrupção passiva, inclusive majorada quando cabível, e alternativamente tipos dos arts. 337-H ou 337-L; terceiro ciente da condição funcional pode responder conforme regras de concurso de pessoas."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "nenhum crime se não houver prejuízo direto ao erário."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O padrão definitivo admitiu os enquadramentos alternativos conforme os elementos do caso e destacou a natureza formal da corrupção passiva e a comunicabilidade da elementar funcional ao terceiro ciente."
     }
   ]
