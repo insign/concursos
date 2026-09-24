@@ -330,15 +330,12 @@ As correções já publicadas nas aulas foram retiradas desta lista. Os pontos a
 
 - H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida; caderno e gabarito definitivo também não foram conferidos. Reavaliar pertinência e origem.
 - H062–H063: conciliar a vigência do art. 26 do Regimento reformado com os parágrafos antigos ainda exibidos na compilação, inclusive para q6513–17.
-- H061 e H065: q6359 exige CEI/DDNT e q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, sem ensino correspondente.
+- H061: q6359 exige CEI/DDNT, siglas de uma notícia institucional, sem ensino correspondente; reavaliar a pertinência da questão no banco.
 - H054: q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente.
 - H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com o edital, ausente da aula.
 - H051: q52205101 exige regime de parcelamento/juros e cláusula de contratação em acordo não desenvolvido.
 - H050: q52205001 envolve incidência sobre partido político e fundos partidários não ensinada.
 - H049: q99050 e q52204901–08 cobram espécies e procedimentos de recurso, revisão e delegação não ensinados integralmente.
 - H047: q52204706–07 exigem prioridade da Lei nº 10.001/2000 e limite federativo/competência do objeto de CPI não desenvolvidos.
-- H046: q52204604 exige contraste entre controle de legalidade e mérito ausente da aula; item e gabarito definitivos conferidos.
-- H037: q52203702 e q52203705 exigem abdução ausente da aula. H040: q5108 e q5138 exigem fórmula de existência única apenas mencionada.
-- H032: q522326 exige inciso de custo/risco ausente da aula.
 - H035: q5220352 cobra inciso literal sobre flexão gramatical e q522351, detalhe de imagens complexas da norma técnica, não ensinados.
 - H028 e H027: o primeiro banco cobra conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino de multa; o segundo cobra SPF/DKIM/DMARC, OAuth e adware/stalkerware, ausentes das respectivas aulas. Reavaliar ensino, pertinência ou realocação sem ampliar H/M por peculiaridades isoladas.
