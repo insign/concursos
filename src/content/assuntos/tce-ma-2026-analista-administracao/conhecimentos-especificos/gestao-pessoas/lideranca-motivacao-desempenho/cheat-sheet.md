@@ -32,6 +32,7 @@
 
 - Estilo relativamente estável: tarefa ou relacionamento.
 - Situação: relações líder-membros + estrutura da tarefa + poder da posição.
+- Relações boas + tarefa estruturada + poder forte = situação muito favorável; extremos tendem a favorecer orientação à tarefa, situação moderada ao relacionamento.
 - Ajustar líder e situação; não exigir mudança contínua do estilo.
 
 ### Hersey-Blanchard
@@ -45,6 +46,10 @@
 
 - Prontidão/maturidade varia conforme a tarefa.
 - **Fiedler × Hersey-Blanchard:** Fiedler trata o estilo básico como relativamente estável; Hersey-Blanchard varia direção e apoio conforme a prontidão para a tarefa.
+
+### Recursos cognitivos
+
+- Fiedler: inteligência e experiência do líder podem afetar o desempenho de modo diferente conforme estresse e condições de aplicação. A pista é **inteligência/experiência + estresse**; possuir recurso não garante usá-lo.
 
 ### Caminho-meta
 
@@ -71,7 +76,7 @@
 ## Conteúdo
 
 - Maslow: fisiológicas, segurança, sociais, estima, autorrealização; não é sequência universal rígida.
-- ERG: existência, relacionamento, crescimento; admite simultaneidade e frustração-regressão.
+- <abbr title="Existência, Relacionamento e Crescimento">ERG</abbr>: admite necessidades simultâneas e frustração-regressão.
 - Herzberg: **higiênicos** reduzem insatisfação; **motivadores** ligam-se ao conteúdo do trabalho e à satisfação/motivação.
 - McClelland: realização, afiliação e poder.
 - X/Y: pressupostos gerenciais, não tipos fixos de pessoa.
@@ -85,6 +90,7 @@
 - Equidade: compara a razão resultados/contribuições com a de um referencial; equidade ≠ igualdade absoluta.
 - Metas eficazes: específicas, desafiadoras, aceitas, viáveis e acompanhadas de feedback.
 - Autodeterminação: autonomia, competência e relacionamento.
+- Desenho do trabalho: variedade, identidade, significância, autonomia e retorno; contato com destinatários pode ampliar significado e retorno sem transferir competência jurídica.
 
 ## Reforço
 
@@ -100,14 +106,3 @@
 - Motivação alta não compensa falta de recursos, clareza ou competência.
 - Gestão de desempenho é contínua; avaliação é etapa ou instrumento.
 - Feedback: critérios conhecidos, evidência observável, oportunidade, escuta e melhoria viável.
-
-## Pegadinhas
-
-- 9,9 é ideal do Grid, não lei universal.
-- Fiedler ≠ Hersey-Blanchard.
-- Transacional não é sempre inferior.
-- Carisma não garante ética.
-- Higiene adequada não garante motivação.
-- Equidade não exige resultados idênticos para todos.
-- Meta estreita pode induzir distorção.
-- Gestão de desempenho ≠ avaliação periódica.
