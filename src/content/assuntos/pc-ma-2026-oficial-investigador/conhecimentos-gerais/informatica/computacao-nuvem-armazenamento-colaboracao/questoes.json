@@ -244,33 +244,33 @@
     },
     {
       "id": "u027-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "No contexto dos ambientes colaborativos Google Workspace e Microsoft Teams, considere: I. Google Meet só permite participar de reuniões por convites enviados por e-mail e não permite criar reuniões diretamente na plataforma. II. No Microsoft Teams, é possível fazer chamadas de áudio e vídeo e compartilhar a tela. III. No Google Workspace, o Google Drive permite armazenar arquivos na nuvem e colaborar em tempo real com Documentos, Planilhas e Apresentações. A sequência correta é",
+      "prompt": "Uma equipe quer criar uma reunião no Google Meet, compartilhar a tela em uma chamada no Microsoft Teams e editar simultaneamente um documento armazenado no Google Drive. Qual afirmação é correta?",
       "options": [
-        {"id": "A", "text": "V – V – F."},
-        {"id": "B", "text": "V – F – F."},
-        {"id": "C", "text": "F – V – V."},
-        {"id": "D", "text": "F – F – V."},
-        {"id": "E", "text": "F – F – F."}
+        {"id": "A", "text": "Uma reunião no Meet só pode ser iniciada a partir de convite enviado por e-mail."},
+        {"id": "B", "text": "O Teams permite chamada de áudio e vídeo, mas impede apresentar a tela."},
+        {"id": "C", "text": "O Meet permite criar reuniões; o Teams pode apresentar a tela; arquivos no Drive podem ter edição colaborativa conforme permissões."},
+        {"id": "D", "text": "Compartilhar a tela no Teams concede, por si só, permissão de edição em todos os arquivos da equipe."},
+        {"id": "E", "text": "A edição simultânea no Drive é impossível para documentos e planilhas."}
       ],
       "correctOptionId": "C",
-      "explanation": "I é falsa; II e III são verdadeiras. Fonte: questão adaptada de FGV; Polícia Militar do Estado de São Paulo; Soldado PM de 2ª Classe; 2024; Tipo 1; questão 55; prova oficial e gabarito definitivo oficial, gabarito C."
+      "explanation": "Adaptação breve e não literal da questão 55 da FGV/PM-SP, Soldado de 2ª Classe, Tipo 1, 2024 (gabarito definitivo C). Meet admite criação de reunião, Teams admite chamada e apresentação de tela, e o Drive oferece coedição conforme permissões; fontes oficiais em referencias.md."
     },
     {
       "id": "u027-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Em relação ao OneDrive, assinale a alternativa correta.",
+      "prompt": "No OneDrive, como o compartilhamento de um arquivo ou pasta pode alcançar usuários em dispositivos diferentes?",
       "options": [
-        {"id": "A", "text": "Arquivos e pastas compartilhados só podem ser acessados no mesmo dispositivo do proprietário."},
-        {"id": "B", "text": "Compartilhar um arquivo remove a necessidade de autenticação em qualquer configuração."},
-        {"id": "C", "text": "É possível compartilhar arquivos e pastas com outros usuários, que podem acessá-los em diferentes dispositivos conforme as permissões."},
-        {"id": "D", "text": "Compartilhar uma pasta a transforma automaticamente em backup imutável."},
-        {"id": "E", "text": "Todo compartilhamento torna o conteúdo público na Internet."}
+        {"id": "A", "text": "O compartilhamento só funciona no dispositivo do proprietário."},
+        {"id": "B", "text": "Qualquer link dispensa a verificação de identidade e permissões."},
+        {"id": "C", "text": "O serviço permite conceder acesso ao conteúdo para outras contas, que podem abri-lo em dispositivos distintos conforme a permissão."},
+        {"id": "D", "text": "Uma pasta compartilhada se torna backup imutável."},
+        {"id": "E", "text": "Todo item compartilhado se torna público na Internet."}
       ],
       "correctOptionId": "C",
-      "explanation": "O serviço permite compartilhamento e acesso em múltiplos dispositivos, sujeito a permissões. Fonte: questão adaptada de Cebraspe; FNDE; Especialista em Financiamento e Execução de Programas e Projetos Educacionais; 2023; item 42; gabarito definitivo Certo; item convertido para cinco alternativas."
+      "explanation": "Adaptação breve do item 42 da prova Cebraspe/FNDE 2023 (gabarito definitivo C). O OneDrive permite compartilhar arquivos e pastas e acessá-los por dispositivos diversos, conforme as permissões; fontes oficiais em referencias.md."
     }
   ]
 }
