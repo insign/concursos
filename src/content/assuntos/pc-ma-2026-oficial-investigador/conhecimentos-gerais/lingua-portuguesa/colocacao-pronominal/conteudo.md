@@ -15,9 +15,11 @@ Compare duas frases hipotéticas:
 - **Entregaram-me** o relatório.
 - **Não me entregaram** o relatório.
 
-O pronome **me** continua ligado ao verbo *entregar*. O que muda é a estrutura da oração: na segunda frase, a palavra negativa **não** atrai o pronome para antes do verbo. Esse é o núcleo da colocação pronominal: decidir **onde um pronome oblíquo átono pode ou deve ficar em relação ao verbo**.
+O pronome **me** continua ligado ao verbo *entregar*. O que muda é a estrutura da oração: na segunda frase, a palavra negativa **não** atrai o pronome para antes do verbo. Esse é o núcleo da colocação pronominal: decidir **onde o pronome ligado ao verbo pode ou deve ficar em relação a ele**.
 
-Os pronomes átonos mais frequentes nesse problema são **me, te, se, o, a, os, as, lhe, lhes, nos** e **vos**. Eles também exercem funções sintáticas, mas **função e posição são perguntas diferentes**. Em *Entregaram-me o relatório*, por exemplo, *me* representa o destinatário; a posição pós-verbal não cria essa função. A regência é aprofundada em **Regência verbal e nominal**.
+Em *entregaram a mim*, *mim* tem pronúncia independente e vem com preposição: é uma forma **tônica**. Em *entregaram-me*, *me* se apoia na pronúncia do verbo: é **átono**. A distinção é sonora, não depende de acento gráfico; a decisão de posição aqui estudada diz respeito às formas átonas.
+
+Os pronomes pessoais oblíquos átonos mais frequentes são **me, te, se, o, a, os, as, lhe, lhes, nos** e **vos**. Eles também exercem funções sintáticas, mas **função e posição são perguntas diferentes**. Em *Entregaram-me o relatório*, por exemplo, *me* representa o destinatário; a posição pós-verbal não cria essa função. A regência é aprofundada em **Regência verbal e nominal**.
 
 Quando o pronome átono se apoia fonologicamente no verbo, ele é chamado de <abbr title="pronome átono ligado ao verbo">clítico</abbr>. A análise de prova deve localizar o verbo e a oração antes de procurar uma regra de posição.
 
@@ -70,6 +72,8 @@ Elementos interrogativos e construções exclamativas ou optativas também podem
 - **Como se chegou** a essa conclusão?
 - **Que a sorte nos acompanhe.**
 
+Também podem favorecer próclise **indefinidos** que não identificam precisamente alguém ou alguma quantidade (*Alguém lhe comunicou*), demonstrativos neutros que retomam uma situação (*Isso me preocupa*) e pares alternativos (*Ou se aprova a proposta, ou se apresenta outra*). Não transforme um *ou* isolado em atrator obrigatório nem faça uma palavra posterior atrair o pronome retroativamente.
+
 Em questão de reescrita, não olhe apenas para a palavra imediatamente anterior ao verbo; delimite a oração e recupere a relação sintática.
 
 ## 4. Advérbio, pausa e inciso: proximidade não basta
@@ -115,7 +119,7 @@ O atrator leva o pronome para antes do futuro; a mesóclise deixa de ser a solu�
 - **Comunicar-lhe-ei** a decisão.
 - **Dir-se-ia** que o problema terminou.
 
-Nesse recorte conservador, não se usa a ênclise simples ao futuro como se fosse um pretérito: a forma esperada é *comunicar-lhe-ei*, não *comunicarei-lhe*.
+Nesse recorte conservador, não se usa a ênclise simples ao futuro como se fosse um pretérito: a forma esperada é *comunicar-lhe-ei*, não *comunicarei-lhe*. O manual da <abbr title="Fundação Alexandre de Gusmão">FUNAG</abbr> também registra próclise quando um pronome pessoal usado como sujeito, como *eu*, antecede o futuro: **Eu lhe comunicarei**. Assim, a mesóclise não é a única saída em toda frase sem negativa.
 
 Na redação contemporânea, a mesóclise pode soar marcada. Isso não a torna incorreta. Quando o objetivo é escrever com naturalidade sem enfrentar essa estrutura, uma reformulação pode ser melhor: **Vou comunicar-lhe a decisão**.
 
@@ -141,7 +145,7 @@ Esse contraste é frequente porque a mudança de afirmativo para negativo altera
 
 O infinitivo admite variação em vários contextos. Com negativa, **não o prejudicar** é uma solução inequívoca de próclise. Sem fator forte, a ênclise é muito comum: **informá-lo**, **ajudá-la**.
 
-Uma preposição antes do infinitivo, isoladamente, não deve ser tratada como regra universal que fixa uma única posição. Compare construções registradas como *para o ajudar* e *para ajudá-lo*; o contexto e a orientação da questão importam.
+Uma preposição antes do infinitivo, isoladamente, não deve ser tratada como regra universal que fixa uma única posição. Compare construções registradas como *para o ajudar* e *para ajudá-lo*; mesmo com negativa, são possíveis *para não o prejudicar* e *para não prejudicá-lo*. Essa liberdade do infinitivo não autoriza *não prejudicou-o* com verbo flexionado.
 
 ### Gerúndio
 
@@ -212,7 +216,7 @@ Depois de terminação nasal, surgem **no, na, nos, nas**:
 - fizeram + o → **fizeram-no**;
 - põem + os → **põem-nos**.
 
-Não confunda esse **nos**, variante de *os* depois de som nasal, com o pronome de primeira pessoa do plural: o referente resolve a ambiguidade.
+Não confunda esse **nos**, variante de *os* depois de som nasal, com o pronome de primeira pessoa do plural: o referente resolve a ambiguidade. Em outro encontro, **-mos + nos** perde o *s* final do verbo: *preparamos + nos* → **preparamo-nos**. Com *os* retomando algo masculino plural, a forma é **preparamo-los**.
 
 Na próclise não há hífen: **não o fizeram**. Na ênclise e na mesóclise, o hífen integra a grafia: **fizeram-no**, **far-se-á**.
 
