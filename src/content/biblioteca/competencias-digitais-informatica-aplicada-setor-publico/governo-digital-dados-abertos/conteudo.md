@@ -26,7 +26,7 @@ registrar, proteger e eventualmente publicar dados
 
 Esse fluxo organiza o assunto. **Governo digital** não é apenas colocar tecnologia onde antes havia papel; é redesenhar serviços, processos e capacidades para produzir valor público. A plataforma GOV.BR participa de partes dessa jornada, mas não substitui o órgão responsável pela política pública. Dados gerados pelo Estado, por sua vez, podem ser públicos sem que sejam automaticamente dados abertos.
 
-O edital foi publicado em **6 de julho de 2026**. Para a prova, separe duas camadas:
+O edital foi publicado em **7 de julho de 2026**. Para a prova, separe duas camadas:
 
 - **regras jurídicas:** considere o corte normativo do edital;
 - **funcionalidades operacionais do GOV.BR:** interfaces e métodos podem mudar, portanto o mais importante é compreender sua função e o grau de confiança que produzem.
@@ -146,7 +146,7 @@ A conta Ouro fornece alto grau de confiança sobre a identidade. Isso pode autor
 
 A documentação oficial organiza as contas em Bronze, Prata e Ouro. Os níveis refletem a forma de criação ou validação da conta, o grau de segurança e os serviços ou transações que podem ser realizados.
 
-A referência normativa atual para criação e gestão das contas é a Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 11.229/2025. O início de sua vigência foi prorrogado pela Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 4.921/2026.
+A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 11.229/2025 estabelece diretrizes federais para criar e gerir contas, mas **ainda não estava em vigor no corte de 7 de julho de 2026**: a Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 4.921/2026 prorrogou o início de sua vigência. Use as descrições operacionais oficiais dos níveis sem atribuir à portaria eficácia antecipada.
 
 | Nível | Característica geral |
 |---|---|
@@ -302,8 +302,8 @@ Dados abertos acrescentam outra dimensão: **reúso estruturado por pessoas e m�
 | Canal | Função |
 |---|---|
 | <abbr title="Serviço de Informação ao Cidadão">SIC</abbr> | atendimento relacionado ao acesso à informação |
-| <abbr title="Sistema Eletrônico do Serviço de Informação ao Cidadão">e-SIC</abbr> | meio eletrônico para pedidos de acesso |
-| Fala.BR | plataforma integrada que reúne acesso à informação e manifestações de ouvidoria |
+| <abbr title="Sistema Eletrônico do Serviço de Informação ao Cidadão">e-SIC</abbr> | sistema federal de pedidos de acesso integrado ao Fala.BR desde 2020 |
+| Fala.BR | plataforma federal integrada para pedidos de acesso à informação e manifestações de ouvidoria |
 
 Compartilhar a mesma plataforma tecnológica não transforma pedido de acesso, denúncia, reclamação, sugestão, elogio e solicitação de providência no mesmo instituto jurídico.
 

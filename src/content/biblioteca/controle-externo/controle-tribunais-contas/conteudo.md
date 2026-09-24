@@ -29,7 +29,7 @@ A Lei nº 8.443/1992 usa a palavra **jurisdição** para delimitar pessoas e mat
 
 ### 1.2. Recorte e corte temporal
 
-Este assunto corresponde ao item **Controle pelos tribunais de contas** do programa de Controle Externo do Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**. A composição e a organização comparada do <abbr title="Tribunal de Contas da União">TCU</abbr>, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> são aprofundadas no Assunto 054.
+Este assunto corresponde ao item **Controle pelos tribunais de contas** do programa de Controle Externo do Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **7 de julho de 2026**. A composição e a organização comparada do <abbr title="Tribunal de Contas da União">TCU</abbr>, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> são aprofundadas no Assunto 054.
 
 Para o corte do edital, consideram-se a Constituição e a jurisprudência então vigentes. A verificação posterior, até 6 de setembro de 2026, não identificou alteração que modifique as regras centrais expostas neste capítulo; decisões posteriores ao corte não são usadas para criar cobrança retroativa.
 

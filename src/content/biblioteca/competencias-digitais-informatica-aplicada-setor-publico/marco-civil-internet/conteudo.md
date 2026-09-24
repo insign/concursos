@@ -381,7 +381,7 @@ Os Decretos nº 12.975/2026 e nº 12.976/2026 foram publicados no Diario Oficial
 
 | Formulação da questão | Como raciocinar |
 |---|---|
-| regra geral de legislação cobrável pelo edital | norma em vigor até 6/7/2026, salvo objeto expressamente indicado |
+| regra geral de legislação cobrável pelo edital | norma em vigor até 7/7/2026, salvo objeto expressamente indicado |
 | jurisprudência aplicável | observar o corte específico de 30 dias antes da prova |
 | legislação atualmente vigente | considerar também as alterações que entraram em vigor depois do edital |
 

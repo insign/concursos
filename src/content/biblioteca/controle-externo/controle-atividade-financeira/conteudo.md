@@ -76,7 +76,7 @@ Assim, uma entidade privada que administre recursos públicos não fica fora do 
 
 Os <abbr title="artigos">arts.</abbr> 70 a 74 descrevem diretamente a fiscalização federal. O <abbr title="artigo">art.</abbr> 75 estende, **no que couber**, as normas dessa seção à organização, composição e fiscalização dos tribunais de contas dos Estados e do Distrito Federal e dos tribunais e conselhos de contas dos Municípios.
 
-No corte do edital, **6 de julho de 2026**, já vigora a Emenda Constitucional nº 139/2026, publicada em 6 de maio de 2026. Ela passou a declarar os tribunais de contas **instituições permanentes e essenciais ao exercício do controle externo** e vedou, no âmbito do <abbr title="artigo">art.</abbr> 75, sua extinção, criação ou instalação.
+No corte do edital, **7 de julho de 2026**, já vigora a Emenda Constitucional nº 139/2026, publicada em 6 de maio de 2026. Ela passou a declarar os tribunais de contas **instituições permanentes e essenciais ao exercício do controle externo** e vedou, no âmbito do <abbr title="artigo">art.</abbr> 75, sua extinção, criação ou instalação.
 
 Essa é a ponte necessária aqui. Organização, composição e competências específicas do <abbr title="Tribunal de Contas da União">TCU</abbr>, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> ficam para o Assunto 054.
 

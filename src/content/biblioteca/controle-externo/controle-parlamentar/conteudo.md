@@ -41,7 +41,7 @@ A Constituição distribui competências entre órgãos distintos. Antes de perg
 
 Este assunto corresponde ao item **Controle parlamentar** do programa de Controle Externo do Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de **6 de julho de 2026**. O detalhamento do controle pelos tribunais de contas, do controle administrativo, do controle jurisdicional e do controle da atividade financeira pertence aos assuntos seguintes.
 
-No corte do edital, aplicam-se a Constituição Federal então vigente, a Lei nº 1.579/1952 e a jurisprudência formada até 6 de julho de 2026. A verificação atual não identificou alteração posterior que exija modificar as regras centrais expostas aqui.
+Para a legislação, considere o texto em vigor na publicação do edital, em 7 de julho de 2026. A jurisprudência dos tribunais superiores segue outro marco: o item 13.33.1 do edital admite entendimentos publicados até 30 dias antes da prova. As regras centrais de controle parlamentar expostas aqui devem ser lidas com essa distinção temporal.
 
 ## 4. Competências de fiscalização do Congresso — <abbr title="artigo">art.</abbr> 49
 

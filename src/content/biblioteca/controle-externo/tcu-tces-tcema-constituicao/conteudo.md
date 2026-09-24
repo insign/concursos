@@ -35,7 +35,7 @@ A expressão **“no que couber”** é a chave da <abbr title="Adaptação do m
 
 ### 2.1. A mudança que já valia no edital: <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026
 
-Para esta prova, o corte normativo é **6 de julho de 2026**, data de publicação do edital. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, publicada em 6 de maio de 2026, portanto já integrava o texto constitucional aplicável.
+Para esta prova, o corte normativo é **7 de julho de 2026**, data de publicação do edital. A <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, publicada em 6 de maio de 2026, portanto já integrava o texto constitucional aplicável.
 
 A emenda passou a declarar, no artigo 75, que os tribunais de contas são **instituições permanentes e essenciais ao exercício do controle externo**. Também inseriu, nos âmbitos constitucionais alcançados pelos artigos 31 e 75, vedação à **extinção, criação ou instalação** dos órgãos de contas ali mencionados.
 

@@ -12,7 +12,7 @@ storageId: etica-responsabilidade-digital
 
 Essas quatro perguntas organizam o assunto. Ética digital examina finalidade, direitos e impactos; responsabilidade digital exige responsáveis, registros e correção; integridade da informação orienta verificação e resposta à desinformação; inclusão e acessibilidade impedem que a digitalização transforme barreiras antigas em barreiras digitais.
 
-> **Recorte do edital:** uso ético de tecnologias; combate a <abbr title="Expressão ampla para conteúdos falsos ou enganosos">fake news</abbr> e desinformação; inclusão digital e acessibilidade em serviços públicos. **Corte normativo ordinário:** 6 de julho de 2026, data de publicação do edital. **Atualização editorial:** 10 de agosto de 2026. Atualizações posteriores ao edital só devem ser tratadas como pós-edital quando materialmente relevantes.
+> **Recorte do edital:** uso ético de tecnologias; combate a <abbr title="Expressão ampla para conteúdos falsos ou enganosos">fake news</abbr> e desinformação; inclusão digital e acessibilidade em serviços públicos. **Corte normativo ordinário:** 7 de julho de 2026, data de publicação do edital. **Atualização editorial:** 10 de agosto de 2026. Atualizações posteriores ao edital só devem ser tratadas como pós-edital quando materialmente relevantes.
 
 Não é necessário repetir em profundidade <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, inteligência artificial, acessibilidade física ou engenharia de interfaces, que possuem assuntos próprios. Aqui, a ponte necessária é suficiente para compreender e resolver situações do recorte.
 

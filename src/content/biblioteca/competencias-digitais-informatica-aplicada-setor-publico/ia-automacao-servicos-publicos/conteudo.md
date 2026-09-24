@@ -290,12 +290,12 @@ Depois da implantação, monitore o **serviço real**, não só uma métrica de 
 
 ## 12. Corte normativo para o concurso
 
-O edital foi publicado em **6 de julho de 2026**. Para este assunto, separe o que integra o corte garantido do edital de acontecimentos posteriores.
+O edital foi publicado em **7 de julho de 2026**. Para este assunto, separe o que integra o corte garantido do edital de acontecimentos posteriores.
 
 - Constituição, <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, Lei nº 13.460/2017 e Lei nº 14.129/2021 já estavam vigentes e fornecem bases gerais relevantes.
 - A Portaria <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 3.485/2026 já estava vigente e instituiu uma política de governança de <abbr title="Inteligência Artificial">IA</abbr> **no âmbito institucional que ela própria delimita**. Não é lei geral nacional aplicável indistintamente a todos os órgãos e Poderes.
 - O <abbr title="Projeto de Lei">PL</abbr> nº 2.338/2023 continua sendo **projeto de lei**, em tramitação na Câmara dos Deputados. Não o trate como lei vigente.
-- A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921/2026 foi publicada após o edital e entrou em vigor em **1º de setembro de 2026**. Ela altera um modelo específico de contratação para órgãos e entidades do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; por ser posterior ao edital, não deve ser confundida com norma abrangida automaticamente pelo corte de 6/7/2026.
+- A Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.921/2026 foi publicada após o edital e entrou em vigor em **1º de setembro de 2026**. Ela altera um modelo específico de contratação para órgãos e entidades do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; por ser posterior ao edital, não deve ser confundida com norma abrangida automaticamente pelo corte de 7/7/2026.
 
 A situação acima foi revalidada em **6 de setembro de 2026**. Em prova, primeiro identifique o corte exigido; depois, se a questão trouxer norma posterior expressamente, aplique o enunciado.
 

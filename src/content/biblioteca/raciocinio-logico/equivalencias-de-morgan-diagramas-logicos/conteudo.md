@@ -461,7 +461,7 @@ Um diagrama não serve para mostrar apenas uma configuração conveniente. Ele s
 Uma conclusão é:
 
 - **necessária**: verdadeira em todos os diagramas compatíveis com as premissas;
-- **possível**: verdadeira em pelo menos um diagrama admissível, mas não em todos;
+- **possível**: verdadeira em pelo menos um diagrama admissível, inclusive quando for verdadeira em todos;
 - **incompatível**: viola alguma restrição das premissas.
 
 Para refutar que uma conclusão é necessária, basta construir **um** diagrama compatível em que ela seja falsa. Esse é o equivalente diagramático do contraexemplo usado para refutar uma equivalência lógica.
