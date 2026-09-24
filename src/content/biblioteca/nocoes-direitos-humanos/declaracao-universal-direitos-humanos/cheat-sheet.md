@@ -1,145 +1,52 @@
 # Declaração Universal dos Direitos Humanos
 
-## Identidade
+**Reconheça primeiro a natureza:** Assembleia Geral das Nações Unidas, Resolução 217 A (III), Paris, **10/12/1948**, preâmbulo e **30 artigos**. A votação foi **48 favoráveis, zero contrários e oito abstenções**, com dois Estados sem voto: ausência de voto contrário não é unanimidade. O Brasil votou a favor. A Declaração é padrão comum proclamado em resolução, **não tratado a ratificar**; os dois Pactos internacionais de 1966 são tratados. Sua forma não apaga sua relevância jurídica.
 
-**<abbr title="Organização das Nações Unidas">ONU</abbr> → Assembleia Geral → Resolução 217 A (III) → Paris → 10/12/1948 → 30 artigos**
+**Preâmbulo:** dignidade e direitos iguais/inalienáveis → liberdade, justiça e paz → proteção pelo Estado de Direito → promoção por ensino e educação. A proclamação convoca *cada indivíduo e cada órgão da sociedade*; não é um artigo adicional.
 
-- votação: **48–0–8**; dois Estados não votaram;
-- nenhum voto contrário ≠ unanimidade;
-- DUDH = **declaração/padrão comum**, não tratado;
-- Brasil **votou a favor**; não “ratificou” a DUDH;
-- <abbr title="Pacto Internacional sobre Direitos Civis e Políticos">PIDCP</abbr>/<abbr title="Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais">PIDESC</abbr> = tratados; DUDH = declaração.
+## Mapa de localização: 1 a 11 — pessoa e justiça
 
-## Preâmbulo: gatilhos
-
-**dignidade → direitos iguais/inalienáveis → liberdade/justiça/paz → Estado de Direito → ensino/educação → reconhecimento universal**
-
-Destinatários da proclamação: **cada indivíduo + cada órgão da sociedade**.
-
-## Mapa dos 30 artigos
-
-### 1–11 — igualdade, pessoa e justiça
-
-| Art. | Gatilho |
+| Artigo | Associação decisiva |
 |---:|---|
-| **1** | livres e iguais em dignidade/direitos; razão, consciência, fraternidade |
-| **2** | não discriminação + condição do território |
-| **3** | vida + liberdade + segurança |
-| **4** | escravidão + servidão + tráfico |
-| **5** | tortura + tratamento/pena cruel, desumano ou degradante |
-| **6** | pessoa perante a lei, em todos os lugares |
-| **7** | igualdade legal + discriminação + incitamento |
-| **8** | remédio efetivo em tribunal nacional competente |
-| **9** | prisão/detenção/exílio **arbitrários** |
-| **10** | audiência justa/pública + tribunal independente/imparcial |
-| **11** | presunção + defesa + legalidade + irretroatividade + pena não agravada retroativamente |
+| **1** | Nascimento livre e igual em dignidade/direitos; razão, consciência e fraternidade. |
+| **2** | Não discriminação, inclusive pela situação política, jurídica ou internacional do território. |
+| **3** | Vida, liberdade e segurança pessoal. |
+| **4** | Escravidão, servidão e tráfico proibidos. |
+| **5** | Tortura, tratamento ou pena cruel, desumana ou degradante proibidos. |
+| **6** | Reconhecimento em todos os lugares como **pessoa perante a lei**, não constituição de empresa. |
+| **7** | Igualdade perante a lei e proteção contra discriminação e seu incitamento. |
+| **8** | Recurso efetivo em **tribunal nacional competente** por violação de direitos reconhecidos na constituição ou lei. |
+| **9** | Prisão, detenção e exílio **arbitrários** proibidos; a palavra não veda toda prisão legal. |
+| **10** | Audiência justa e pública, em igualdade, perante tribunal independente e imparcial. |
+| **11** | Presunção de inocência, defesa e julgamento público; legalidade pelo direito **nacional ou internacional** no momento do ato e vedação de pena retroativamente mais grave. |
 
-**Art. 6:** personalidade jurídica ≠ empresa.
+## Mapa de localização: 12 a 21 — autonomia e participação
 
-**Art. 9:** arbitrário ≠ toda prisão legal.
-
-**Art. 11:** direito nacional **ou internacional**.
-
-### 12–21 — vida privada, circulação e liberdades
-
-| Art. | Gatilho |
+| Artigo | Associação decisiva |
 |---:|---|
-| **12** | privacidade, família, domicílio, correspondência, honra/reputação |
-| **13** | circular/residir; sair de qualquer país; voltar ao **próprio** |
-| **14** | procurar/gozar asilo; exceções crime não político + atos anti-ONU |
-| **15** | nacionalidade; privação não arbitrária? **não** → privação arbitrária vedada + mudança protegida |
-| **16** | maiores de idade; casamento/família; igualdade; consentimento livre/pleno |
-| **17** | propriedade sozinho ou em associação; não privação arbitrária |
-| **18** | pensamento/consciência/religião; **mudar** e manifestar |
-| **19** | opinião/expressão; buscar, receber e difundir **sem fronteiras** |
-| **20** | reunião/associação **pacíficas**; filiação não compulsória |
-| **21** | governo + serviço público + eleições periódicas/autênticas/universais/iguais/secretas |
+| **12** | Vida privada, família, domicílio, correspondência, honra e reputação protegidos contra interferências e ataques arbitrários. |
+| **13** | Circular e residir no Estado; sair de qualquer país e voltar ao **próprio**. Não promete entrada em qualquer outro. |
+| **14** | Procurar e gozar asilo; exceção para processo genuíno por crime não político ou atos contrários aos propósitos e princípios das Nações Unidas. Não há concessão automática. |
+| **15** | Nacionalidade; vedadas a privação **arbitrária** e a negação do direito de mudá-la. |
+| **16** | Maiores de idade: casamento e família sem as discriminações enunciadas; igualdade durante união e dissolução; consentimento **livre e pleno**. Família é núcleo protegido pela sociedade e pelo Estado. |
+| **17** | Propriedade individualmente ou em associação; vedada privação arbitrária. |
+| **18** | Pensamento, consciência e religião; mudar de religião/crença e manifestá-la individual ou coletivamente. |
+| **19** | Opinião e expressão; buscar, receber e difundir informações e ideias por quaisquer meios, **sem fronteiras**. |
+| **20** | Reunião e associação **pacíficas**; ninguém é obrigado a associar-se. |
+| **21** | Participar do governo e acessar serviço público em igualdade; eleições periódicas e autênticas por voto universal, igual e secreto ou processo equivalente livre. |
 
-**Art. 13:** sair de qualquer país ≠ entrar em qualquer país.
+## Mapa de localização: 22 a 30 — condições, deveres e limites
 
-**Art. 14:** procurar/gozar asilo ≠ concessão automática.
-
-**Art. 15:** “arbitrariamente” qualifica a **privação**; o direito de mudar também é protegido.
-
-**Art. 16:** *full age* → em prova pode aparecer como **maiores de idade**; preserve igualdade + não discriminação + consentimento.
-
-**Art. 20:** liberdade de associação inclui **não ser compelido**.
-
-### 22–27 — econômicos, sociais e culturais
-
-| Art. | Gatilho |
+| Artigo | Associação decisiva |
 |---:|---|
-| **22** | segurança social + <abbr title="direitos econômicos, sociais e culturais">DESC</abbr> + esforço nacional/coooperação + recursos do Estado |
-| **23** | trabalho + livre escolha + condições justas + desemprego + salário igual + sindicato |
-| **24** | repouso/lazer + jornada razoável + férias **remuneradas** |
-| **25** | padrão de vida + segurança social + maternidade/infância + filhos com igual proteção |
-| **26** | educação + gratuidade mínima + elementar obrigatório + superior por mérito + prioridade dos pais |
-| **27** | cultura + artes + ciência/benefícios + interesses morais/materiais do autor |
+| **22** | Segurança social e direitos econômicos, sociais e culturais indispensáveis à dignidade, segundo esforço nacional, cooperação internacional, organização e recursos de cada Estado. |
+| **23** | Trabalho escolhido livremente, condições justas, proteção contra desemprego, salário igual por trabalho igual, remuneração digna e sindicato. |
+| **24** | Repouso, lazer, jornada razoável e férias periódicas **remuneradas**. |
+| **25** | Padrão de vida adequado e segurança diante de perda de subsistência; assistência especial à maternidade/infância e igual proteção social a todos os filhos. |
+| **26** | Educação gratuita ao menos nos níveis elementar e fundamental; ensino elementar obrigatório; superior acessível por **mérito**, sem gratuidade universal. Finalidade: pleno desenvolvimento da personalidade, respeito aos direitos, tolerância e paz; pais têm prioridade na escolha da educação dos filhos. |
+| **27** | Participação cultural e científica **e** proteção dos interesses morais e materiais dos autores. |
+| **28** | Ordem social e internacional propícia à realização dos direitos. |
+| **29** | Deveres à comunidade; limite **determinado por lei** para direitos alheios, moral, ordem pública e bem-estar em sociedade democrática; exercício não contraria propósitos das Nações Unidas. |
+| **30** | Estado, grupo ou pessoa não podem usar a Declaração para destruir os direitos que ela reconhece. |
 
-**Art. 26:** ensino superior acessível pelo mérito ≠ gratuidade universal.
-
-**Art. 26.3:** prioridade dos pais ≠ poder absoluto.
-
-**Art. 27:** acesso à cultura/ciência **e** proteção do autor coexistem.
-
-### 28–30 — ordem, deveres e limites
-
-| Art. | Gatilho |
-|---:|---|
-| **28** | ordem social e internacional de realização dos direitos |
-| **29.1** | deveres para com a comunidade |
-| **29.2** | limite por **lei** + fins legítimos + sociedade democrática |
-| **29.3** | exercício não pode contrariar propósitos/princípios ONU |
-| **30** | Estado/grupo/pessoa não podem usar a DUDH para destruir direitos |
-
-## Art. 29: fórmula
-
-**lei + direitos alheios/moral/ordem pública/bem-estar + sociedade democrática**
-
-Art. 29 ≠ autorização ilimitada para restringir.
-
-## Traduções: como não cair
-
-Variação lexical pode ser legítima. Compare o **núcleo**, não uma palavra isolada.
-
-| Art. | Variações úteis |
-|---:|---|
-| 6 | pessoa perante a lei ↔ personalidade jurídica |
-| 8 | recurso efetivo ↔ remédio efetivo |
-| 10 | audiência justa/pública ↔ julgamento justo/público |
-| 14 | crime não político ↔ crime de direito comum |
-| 16 | texto autêntico: *full age*; banca pode usar “maiores de idade” |
-| 21 | serviço público ↔ funções públicas |
-| 26 | educação ↔ instrução |
-
-**Sinônimo legítimo ≠ erro.**
-
-## Qualificadores decisivos
-
-- art. 9 → **arbitrariamente**;
-- art. 12 → interferências **arbitrárias**;
-- art. 16 → consentimento **livre e pleno**;
-- art. 20 → reunião/associação **pacíficas**;
-- art. 21 → eleições **periódicas e autênticas**;
-- art. 24 → férias periódicas **remuneradas**;
-- art. 29 → limitações **determinadas por lei** e compatíveis com sociedade democrática.
-
-## Pegadinhas finais
-
-- proclamada/adotada ≠ ratificada;
-- 48–0–8 ≠ unanimidade;
-- art. 6 ≠ pessoa jurídica empresarial;
-- art. 8 → tribunal **nacional** competente;
-- art. 13 → retorno ao próprio país;
-- art. 14 → asilo não automático;
-- art. 15 → nacionalidade pode mudar;
-- art. 16 → igualdade também na dissolução;
-- art. 17 → propriedade também em associação;
-- art. 18 → religião inclui mudança;
-- art. 19 → informações além-fronteiras;
-- art. 20 → ninguém é obrigado a associar-se;
-- art. 23 → sindicato é protegido;
-- art. 24 → férias remuneradas;
-- art. 26 → elementar obrigatório; superior por mérito;
-- art. 29 → limite condicionado;
-- art. 30 → cláusula antidestruição.
+**Localize, depois qualifique.** O artigo 29 exige *lei + finalidade admitida + sociedade democrática*, sem autorização genérica para restringir. Traduções institucionais podem variar: “recurso/remédio efetivo” no artigo 8, “audiência/julgamento justo” no 10, “maiores de idade/idade plena” no 16, “serviço/funções públicas” no 21 e “educação/instrução” no 26 preservam o núcleo se não apagam condições. Leia com atenção **arbitrário**, **próprio país**, **livre e pleno**, **pacífico**, **remuneradas** e **por lei**.

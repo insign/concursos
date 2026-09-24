@@ -1,3 +1,4 @@
+- [Declaração Universal dos Direitos Humanos — edição em português](https://brasil.un.org/pt-br/download/50044/91601), Nações Unidas no Brasil, texto dos 30 artigos e apresentação institucional.
 - [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights), Nações Unidas, texto oficial em inglês, consulta em agosto de 2026.
 - [Declaração Universal dos Direitos Humanos](https://brasil.un.org/pt-br/91601-declara%C3%A7%C3%A3o-universal-dos-direitos-humanos), Nações Unidas no Brasil, tradução e apresentação institucional, consulta em agosto de 2026.
 - [Resolução 217 A (III)](https://docs.un.org/A/RES/217%28III%29), Assembleia Geral das Nações Unidas, 10 dez. 1948.
