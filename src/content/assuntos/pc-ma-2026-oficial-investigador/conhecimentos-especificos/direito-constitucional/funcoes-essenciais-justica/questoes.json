@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u120-a01",
@@ -724,7 +724,7 @@
     },
     {
       "id": "u120-p01",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 9 do concurso CESPE/UnB para o TRT da 8ª Região em 2013, assinale a afirmação compatível com o art. 133 da Constituição vigente.",
       "options": [
@@ -750,7 +750,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O art. 133 contém a regra reproduzida em sentido material pela alternativa D. Na questão original do TRT da 8ª Região, 2013, Cargo 11, questão 9, o gabarito oficial definitivo foi D; esta versão é uma adaptação não literal ao texto constitucional vigente."
+      "explanation": "O art. 133 contém a regra reproduzida em sentido material pela alternativa E. Na questão original do TRT da 8ª Região, 2013, Cargo 11, questão 9, o gabarito oficial definitivo foi D; esta versão é uma adaptação não literal ao texto constitucional vigente."
     }
   ]
 }
