@@ -30,7 +30,7 @@ Esse fluxo já antecipa as chaves da matéria: **publicidade é a regra**, o ped
 
 A Lei nº 12.527/2011, a <abbr title="Lei de Acesso à Informação">LAI</abbr>, regulamenta esse direito. Aqui o estudo vai até a resposta ao pedido; classificação, transparência ativa detalhada, recursos e responsabilidades ficam para o Assunto 141.
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 7 de julho de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
 
 ---
 

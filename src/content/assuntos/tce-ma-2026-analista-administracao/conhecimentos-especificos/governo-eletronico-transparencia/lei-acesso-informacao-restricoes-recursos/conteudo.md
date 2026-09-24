@@ -26,7 +26,7 @@ fornecer acesso       identificar o regime de proteção
 
 A Lei nº 12.527/2011, a <abbr title="Lei de Acesso à Informação">LAI</abbr>, combina regimes diferentes de proteção e, ao mesmo tempo, impõe divulgação de ofício de informações de interesse coletivo ou geral. O Assunto 140 construiu o fluxo do pedido; aqui o foco é **quando restringir, quando publicar sem pedido, como recorrer e quem responde por violações**.
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. As inclusões da Lei nº 15.141/2025 já estavam vigentes nesse corte.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 7 de julho de 2026. As inclusões da Lei nº 15.141/2025 já estavam vigentes nesse corte.
 
 ## 2. Restrição não é sinônimo de classificação
 

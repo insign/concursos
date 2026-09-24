@@ -34,7 +34,7 @@ As setas mostram um mecanismo possível, não etapas obrigatórias. Pode haver t
 
 Os procedimentos, prazos, recursos, restrições e responsabilidades da Lei nº 12.527/2011 serão desenvolvidos nos Assuntos 140 e 141. Aqui, a Lei de Acesso à Informação aparece apenas como parte do ambiente institucional da transparência.
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em **6 de julho de 2026**. A alteração da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pela Lei Complementar nº 224/2025 tratada neste capítulo já produzia efeitos desde **1º de janeiro de 2026**.
+> **Recorte temporal do edital:** considera-se a legislação vigente em **7 de julho de 2026**. A alteração da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pela Lei Complementar nº 224/2025 tratada neste capítulo já produzia efeitos desde **1º de janeiro de 2026**.
 
 ---
 
@@ -148,7 +148,7 @@ O mesmo artigo prevê incentivo à participação popular e audiências pública
 
 A Lei Complementar nº 224/2025 acrescentou ao artigo 48, § 1º, inciso IV, da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> a divulgação, no Portal de Transparência, em formato aberto e padronizado, de **dados atualizados sobre benefícios de natureza tributária, financeira e creditícia concedidos**.
 
-A alteração produz efeitos desde **1º de janeiro de 2026**. Portanto, já integrava a legislação vigente em 6 de julho de 2026.
+A alteração produz efeitos desde **1º de janeiro de 2026**. Portanto, já integrava a legislação vigente em 7 de julho de 2026.
 
 ### 6.2 Orçamento participativo influencia, mas não vincula automaticamente
 
