@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q584",
@@ -1954,7 +1954,7 @@
     },
     {
       "id": "q107006",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Um Tribunal de Contas adotou a notação BPMN para modelar seus processos e utiliza uma plataforma BPMS para automatizar fluxos críticos.\nUm dos processos automatizados refere-se à análise e concessão de prazos para defesa de jurisdicionados, e inclui os seguintes elementos:\n• uma tarefa manual em que o analista jurídico avalia o pedido do jurisdicionado.\n• um gateway exclusivo que decide entre conceder ou negar o prazo solicitado.\n• uma tarefa de serviço que consulta automaticamente o histórico processual do jurisdicionado no sistema de controle de processos.\n• um evento de mensagem intermediário que aguarda o envio de documentação complementar pelo jurisdicionado.\n• indicadores de desempenho mostrando que o tempo médio de resposta dos jurisdicionados compromete o prazo legal para emissão de parecer.\nCom base nos conceitos de modelagem BPMN e automação com BPMS, assinale a afirmativa correta.",
       "options": [
@@ -1980,7 +1980,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "BPMN e BPMS acomodam tarefas manuais e automatizadas, gateways exclusivos e eventos de mensagem; o fluxo descrito permite automação parcial e monitoramento do desempenho. Fonte: questão oficial; FGV; TCE-PE — Analista de Controle Externo — Tecnologia da Informação; 2025; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-2.pdf."
+      "explanation": "A alternativa D é o gabarito definitivo da FGV/TCE-PE 2025, Analista de Controle Externo – Tecnologia da Informação, Tipo 2, questão 49. BPMN permite representar tarefas humanas, decisões, serviço automático e espera de mensagem em um fluxo parcialmente automatizado. Ressalva técnica da especificação BPMN 2.0.2: a tarefa manual ocorre sem auxílio de aplicação ou gerenciamento pelo motor, ao contrário da tarefa de usuário, cujo ciclo de vida é gerenciado pelo sistema; a plataforma pode orquestrar e monitorar as demais etapas, mas não rastreia automaticamente a execução da tarefa manual. Caderno: https://conhecimento.fgv.br/sites/default/files/concursos/analista-de-controle-externo-tecnologia-da-informacaocns103-tipo-2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-_pe.pdf. Especificação: https://www.omg.org/spec/BPMN/2.0.2/PDF."
     }
   ]
 }

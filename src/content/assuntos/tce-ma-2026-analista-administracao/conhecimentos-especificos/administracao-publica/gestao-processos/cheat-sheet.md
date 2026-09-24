@@ -1,189 +1,65 @@
-# Gestão de processos: revisão rápida
+# Gestão de processos
 
-## Núcleo
+## Comece pela entrega ao usuário
 
-- Processo = atividades inter-relacionadas que transformam entradas em saídas.
-- Gestão de processos = disciplina contínua.
-- Visão ponta a ponta supera metas locais isoladas.
-- Processo não é departamento, projeto, procedimento nem sistema.
+**Processo:** atividades relacionadas transformam entradas em saídas para um destinatário. Recursos viabilizam; regras condicionam. **Instância:** cada caso; **modelo:** representação do fluxo. **Procedimento:** modo de executar uma atividade; **projeto:** esforço temporário para entrega única; sistema informatizado apenas apoia o processo.
 
-## Elementos
+**Ponta a ponta:** delimite demanda e entrega; meta de unidade pode piorar a espera total. Cadeia de valor reúne entregas da missão. Decomposição didática: macroprocesso → processo → subprocesso → atividade → tarefa, sem nomenclatura universal.
 
-| Elemento | Núcleo |
+| Papel do processo | Critério |
 | --- | --- |
-| entrada | objeto transformado |
-| recurso | viabiliza trabalho |
-| regra | condiciona execução |
-| saída | entrega |
-| usuário | recebe valor |
-| indicador | mede desempenho |
+| Primário ou finalístico | Entrega ligada diretamente à missão e ao destinatário externo, mesmo com etapas internas. |
+| Apoio | Provê recursos e capacidades aos demais. |
+| Gerencial | Orienta, mede e ajusta o conjunto. |
 
-## Processo × modelo × instância
+## Disciplina, papéis e ciclo
 
-- processo: lógica recorrente;
-- modelo: representação;
-- instância: execução concreta.
+<abbr title="Business Process Management, gerenciamento de processos de negócio">BPM</abbr> é a **gestão contínua** de processos, informatizados ou não. <abbr title="Business Process Model and Notation, notação para representar processos">BPMN</abbr> é **notação**; <abbr title="Business Process Management Suite, suíte tecnológica de gestão de processos">BPMS</abbr> é **suíte de software** que pode orquestrar etapas e acompanhar instâncias; fluxo de trabalho ou <abbr title="encaminhamento de tarefas conforme regras definidas">workflow</abbr> descreve o encaminhamento. Nenhum desenho aprovado implementa mudança por si.
 
-## Arquitetura
-
-Cadeia de valor → macroprocesso → processo → subprocesso → atividade → tarefa.
-
-- primário/finalístico: missão e usuário;
-- apoio: capacidades;
-- gerencial: planejamento e governança.
-
-## Funcional × processos
-
-| Funcional | Processos |
+| Etapa didática do ciclo | Pergunta decisiva |
 | --- | --- |
-| unidade | fluxo |
-| meta local | resultado ponta a ponta |
-| chefia | propriedade transversal |
-| silo | integração |
+| Planejamento e estratégia | Que resultado, escopo, prioridade e responsabilidade? |
+| Análise | Como funciona **hoje**, com dados e participantes? |
+| Desenho e modelagem | Como deveria funcionar e como representar? |
+| Implementação | Quem muda normas, sistemas, responsabilidades e rotinas? |
+| Monitoramento e controle | A entrega melhorou dentro dos limites esperados? |
+| Refinamento | O que aprender e ajustar no ciclo seguinte? |
 
-Gestão por processos não extingue a hierarquia.
+A sequência pode variar por referencial. <abbr title="as is, estado atual observado do processo">AS IS</abbr> exige validar a prática. <abbr title="to be, estado futuro proposto do processo">TO BE</abbr> exige viabilidade jurídica, recursos, transição e acompanhamento para virar resultado.
 
-## <abbr title="Business Process Management">BPM</abbr> × <abbr title="Business Process Model and Notation">BPMN</abbr> × <abbr title="Business Process Management Suite">BPMS</abbr> × workflow
+**Patrocinador:** apoio e recursos. **Dono:** desempenho completo e articulação, sem executar tudo. **Gestor:** operação. **Analista:** modelagem e investigação. **Escritório:** método e prioridades. A matriz <abbr title="Responsible, Accountable, Consulted, Informed: executa, responde, é consultado, é informado">RACI</abbr> distingue quem **executa** (<abbr title="Responsible, pessoa que executa">R</abbr>), **responde** (<abbr title="Accountable, pessoa responsável pela entrega">A</abbr>), **é consultado** (<abbr title="Consulted, pessoa que contribui">C</abbr>) e **é informado** (<abbr title="Informed, pessoa que recebe informação">I</abbr>). A matriz gerencial não transfere competência legal.
 
-- BPM: disciplina gerencial.
-- BPMN: notação.
-- BPMS: suíte de software.
-- Workflow: encaminhamento do trabalho.
+## Representar somente o detalhe útil
 
-## Ciclo <abbr title="Business Process Management Common Body of Knowledge">BPM CBOK</abbr>
+<abbr title="Supplier, Input, Process, Output, Customer: fornecedor, entrada, processo, saída, cliente">SIPOC</abbr> delimita fronteiras e participantes; **fluxograma** mostra sequência e decisões. Diagrama simples, mapa de relações e modelo mais detalhado servem a propósitos diversos, sem escala universal rígida.
 
-1. planejamento e estratégia;
-2. análise;
-3. desenho e modelagem;
-4. implementação;
-5. monitoramento e controle;
-6. refinamento.
-
-É contínuo.
-
-## AS IS × TO BE
-
-- AS IS: estado atual validado.
-- TO BE: estado futuro viável.
-- Transição: pessoas, normas, tecnologia, controles e indicadores.
-- Transformação = desenho implementado.
-
-## Representações
-
-- diagrama: visão simples;
-- mapa: relações e responsabilidades;
-- modelo: detalhe para análise/decisão;
-- <abbr title="Supplier, Input, Process, Output, Customer">SIPOC</abbr>: fornecedor, entrada, processo, saída, cliente;
-- fluxograma: sequência e decisões;
-- BPMN: notação padronizada.
-
-## BPMN essencial
-
-| Elemento | Função |
+| Elemento <abbr title="Business Process Model and Notation, notação para representar processos">BPMN</abbr> | Leitura |
 | --- | --- |
-| evento | inicia, ocorre ou encerra |
-| atividade | trabalho |
-| gateway | decisão/divisão |
-| sequência | ordem dentro do participante |
-| mensagem | comunicação entre participantes |
-| pool | participante |
-| lane | responsabilidade |
+| Evento / atividade | Acontecimento de início, meio ou fim / trabalho. |
+| <abbr title="ponto que divide ou reúne caminhos do fluxo">Gateway</abbr> | Exclusivo escolhe alternativa; paralelo abre caminhos simultâneos e pode sincronizá-los. |
+| Fluxo de sequência / mensagem | Ordem **dentro de um participante** / comunicação **entre participantes**. |
+| <abbr title="participante representado no modelo">Pool</abbr> / <abbr title="subdivisão de um participante por papel ou unidade">lane</abbr> | Participante / faixa que evidencia responsável e transferência. Sequência não cruza pools. |
+| Subprocesso | Encapsula detalhes quando o nível geral precisa permanecer legível. |
 
-Sequência não atravessa pools.
+**Tarefa de usuário:** pessoa com aplicativo, execução gerenciada pelo motor. **Tarefa manual:** sem auxílio ou gerenciamento do motor, ainda que o fluxo inclua partes automatizadas. **Tarefa de serviço:** automática. Diagrama não vira executável sozinho.
 
-## Papéis e <abbr title="Responsible, Accountable, Consulted, Informed">RACI</abbr>
+## Analise a restrição real
 
-- patrocinador: apoio e recursos;
-- dono: prestação de contas ponta a ponta;
-- gestor: coordenação operacional;
-- analista: levantamento e análise;
-- escritório: método e portfólio.
-
-R executa; A responde; C é consultado; I é informado.
-
-## Análise
-
-- gargalo: limita vazão;
-- fila: espera acumulada;
-- handoff: transferência;
-- retrabalho: repetição por erro;
-- capacidade: produção possível;
-- indicador local pode piorar o todo.
-
-## Tempos
-
-- lead time: demanda → entrega;
-- touch time: trabalho efetivo;
-- espera: sem processamento;
-- cycle time: definição varia.
-
-Siga o enunciado.
-
-## Valor
-
-1. agrega valor ao usuário;
-2. necessário à administração/conformidade;
-3. não agrega valor.
-
-Atividade interna não é automaticamente desperdício.
-
-## Melhoria
-
-- padronizar;
-- simplificar;
-- automatizar;
-- redesenhar;
-- reengenharia = mudança radical.
-
-Automatizar processo ruim acelera desperdício.
-
-## Mineração de processos
-
-- descoberta;
-- conformidade;
-- aprimoramento;
-- task mining.
-
-Logs não substituem entrevistas nem análise normativa.
-
-## Setor público
-
-- valor público;
-- legalidade;
-- transparência;
-- acessibilidade;
-- integração;
-- simplificação;
-- dados já disponíveis não devem ser pedidos sem justificativa.
-
-Lei nº 14.129/2021: Governo Digital; aplicação federativa conforme o texto legal.
-
-## Pegadinhas
-
-| Afirmação | Julgamento |
+| Sinal | Diagnóstico |
 | --- | --- |
-| BPM é software | errado |
-| BPMN é metodologia gerencial | errado |
-| dono executa tudo | errado |
-| processo primário é sempre interno | errado |
-| gestão por processos exige fim da hierarquia | errado |
-| fluxograma executável sai automaticamente do mapeamento | errado |
-| TO BE aprovado já é transformação | errado |
-| gargalo é a atividade mais cara | errado |
-| todo handoff é desperdício | errado |
-| cycle time e lead time são universais | errado |
-| automação deve preceder análise | errado |
-| atividade legal nunca pode ser simplificada | errado |
+| Gargalo | Etapa cuja capacidade limita a vazão, não necessariamente a de maior custo. Se entram 15 casos/dia e saem 10, a fila cresce em 5/dia, mantidas as condições. |
+| Transferência (<abbr title="passagem de trabalho ou informação entre pessoas, equipes ou sistemas">handoff</abbr>) | Pode gerar espera e perda de informação, mas também ser necessária à especialização ou separação de funções incompatíveis. |
+| Retrabalho | Trabalho repetido por falha, distinto de qualquer transferência. |
+| <abbr title="tempo total entre demanda e entrega, inclusive esperas">Lead time</abbr> / <abbr title="tempo de trabalho efetivo sobre o caso">touch time</abbr> | Prazo total / tempo efetivo; <abbr title="duração de ciclo cujo marco varia segundo o referencial">cycle time</abbr> exige definição dos marcos pelo enunciado. |
 
-## Roteiro de prova
+Compare tempo total, pendências, custo, qualidade e conformidade. Separe valor ao usuário, necessidade de administração ou legalidade e desperdício: simplifique exigência legal sem suprimir garantia.
 
-1. identifique a entrega;
-2. delimite início e fim;
-3. classifique processo;
-4. diferencie conceitos;
-5. localize a etapa do ciclo;
-6. reconheça AS IS/TO BE;
-7. analise papéis;
-8. localize restrição e desperdício;
-9. interprete indicadores;
-10. preserve valor público e controles proporcionais.
+**Melhoria:** investigue causa; padronize, simplifique, automatize o fluxo adequado ou redesenhe. **Reengenharia** propõe mudança radical; automatizar processo ruim acelera desperdício. Pareto prioriza categorias; Ishikawa e cinco porquês levantam hipóteses causais; simulação depende de dados. <abbr title="Plan, Do, Check, Act: planejar, executar, verificar e agir">PDCA</abbr>, Lean (desperdícios) e Seis Sigma (variação) são pontes com qualidade.
+
+**Mineração de processos:** registros de eventos ligados a casos revelam fluxo, conformidade e melhorias. **Mineração de tarefas:** passos em aplicações. Registros não explicam sozinhos causas ou validade normativa.
+
+## Limite público
+
+Valor público combina entrega, legalidade, transparência, acessibilidade e proteção de dados. A Lei nº 14.129/2021 orienta simplificação e Governo Digital; para **demais entes federados**, a aplicação de seus comandos depende da adoção por atos normativos próprios (art. 2º, III). Não presuma aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, nem elimine atendimento necessário por digitalizar o fluxo.
+
+**Em questão:** delimite entrega → diferencie processo, modelo e caso → identifique papel e etapa do ciclo → encontre espera e restrição → escolha mudança viável → confira resultado completo.
