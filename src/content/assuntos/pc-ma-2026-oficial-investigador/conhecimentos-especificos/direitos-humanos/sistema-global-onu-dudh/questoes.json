@@ -1,80 +1,155 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u144-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na arquitetura global de direitos humanos, a Carta das Nações Unidas é relevante porque",
       "options": [
-        {"id": "A", "text": "criou uma corte mundial aberta diretamente a toda pessoa."},
-        {"id": "B", "text": "incluiu a promoção e o incentivo ao respeito aos direitos humanos entre os propósitos das Nações Unidas."},
-        {"id": "C", "text": "transformou a Declaração Universal dos Direitos Humanos em tratado."},
-        {"id": "D", "text": "substituiu todos os tratados internacionais de direitos humanos."},
-        {"id": "E", "text": "limitou direitos humanos às relações econômicas entre Estados."}
+        {
+          "id": "A",
+          "text": "incluiu a promoção e o incentivo ao respeito aos direitos humanos entre os propósitos das Nações Unidas."
+        },
+        {
+          "id": "B",
+          "text": "criou uma corte mundial aberta diretamente a toda pessoa."
+        },
+        {
+          "id": "C",
+          "text": "transformou a Declaração Universal dos Direitos Humanos em tratado."
+        },
+        {
+          "id": "D",
+          "text": "substituiu todos os tratados internacionais de direitos humanos."
+        },
+        {
+          "id": "E",
+          "text": "limitou direitos humanos às relações econômicas entre Estados."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 1, item 3, da Carta inclui a cooperação internacional e a promoção e o incentivo ao respeito aos direitos humanos e às liberdades fundamentais entre os propósitos das Nações Unidas. A Carta não criou um catálogo completo equivalente à Declaração de 1948."
     },
     {
       "id": "u144-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a alternativa que identifica corretamente um órgão principal criado pela Carta das Nações Unidas.",
       "options": [
-        {"id": "A", "text": "Conselho de Direitos Humanos."},
-        {"id": "B", "text": "Alto Comissariado das Nações Unidas para os Direitos Humanos."},
-        {"id": "C", "text": "Corte Internacional de Justiça."},
-        {"id": "D", "text": "Revisão Periódica Universal."},
-        {"id": "E", "text": "Comitê de Direitos Humanos."}
+        {
+          "id": "A",
+          "text": "Conselho de Direitos Humanos."
+        },
+        {
+          "id": "B",
+          "text": "Corte Internacional de Justiça."
+        },
+        {
+          "id": "C",
+          "text": "Alto Comissariado das Nações Unidas para os Direitos Humanos."
+        },
+        {
+          "id": "D",
+          "text": "Revisão Periódica Universal."
+        },
+        {
+          "id": "E",
+          "text": "Comitê de Direitos Humanos."
+        }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A Corte Internacional de Justiça é um dos seis órgãos principais da Organização das Nações Unidas. Conselho de Direitos Humanos, Alto Comissariado e Revisão Periódica Universal pertencem a outras partes da arquitetura, e o Comitê de Direitos Humanos é órgão de tratado."
     },
     {
       "id": "u144-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o Conselho de Direitos Humanos das Nações Unidas, é correto afirmar que ele",
       "options": [
-        {"id": "A", "text": "é um comitê de especialistas independentes criado pelo Pacto Internacional de Direitos Civis e Políticos."},
-        {"id": "B", "text": "é órgão intergovernamental composto por 47 Estados-membros eleitos."},
-        {"id": "C", "text": "integra os seis órgãos principais enumerados no artigo 7 da Carta."},
-        {"id": "D", "text": "é o mesmo órgão que o Alto Comissariado das Nações Unidas para os Direitos Humanos."},
-        {"id": "E", "text": "exerce jurisdição judicial obrigatória sobre indivíduos."}
+        {
+          "id": "A",
+          "text": "é um comitê de especialistas independentes criado pelo Pacto Internacional de Direitos Civis e Políticos."
+        },
+        {
+          "id": "B",
+          "text": "integra os seis órgãos principais enumerados no artigo 7 da Carta."
+        },
+        {
+          "id": "C",
+          "text": "é órgão intergovernamental composto por 47 Estados-membros eleitos."
+        },
+        {
+          "id": "D",
+          "text": "é o mesmo órgão que o Alto Comissariado das Nações Unidas para os Direitos Humanos."
+        },
+        {
+          "id": "E",
+          "text": "exerce jurisdição judicial obrigatória sobre indivíduos."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A Assembleia Geral criou o Conselho de Direitos Humanos em 2006. A Resolução 60/251 fixou sua composição em 47 Estados-membros eleitos. Ele é intergovernamental e distinto do Alto Comissariado."
     },
     {
       "id": "u144-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Revisão Periódica Universal caracteriza-se por ser",
       "options": [
-        {"id": "A", "text": "julgamento judicial de indivíduos pela Corte Internacional de Justiça."},
-        {"id": "B", "text": "revisão entre pares, conduzida sob o Conselho de Direitos Humanos, do histórico de direitos humanos de todos os Estados-membros das Nações Unidas."},
-        {"id": "C", "text": "procedimento exclusivo para Estados que ratificaram um único tratado específico."},
-        {"id": "D", "text": "mecanismo de especialistas independentes que substitui os órgãos de tratados."},
-        {"id": "E", "text": "processo destinado apenas aos integrantes do Conselho de Direitos Humanos."}
+        {
+          "id": "A",
+          "text": "julgamento judicial de indivíduos pela Corte Internacional de Justiça."
+        },
+        {
+          "id": "B",
+          "text": "mecanismo de especialistas independentes que substitui os órgãos de tratados."
+        },
+        {
+          "id": "C",
+          "text": "procedimento exclusivo para Estados que ratificaram um único tratado específico."
+        },
+        {
+          "id": "D",
+          "text": "revisão entre pares, conduzida sob o Conselho de Direitos Humanos, do histórico de direitos humanos de todos os Estados-membros das Nações Unidas."
+        },
+        {
+          "id": "E",
+          "text": "processo destinado apenas aos integrantes do Conselho de Direitos Humanos."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Revisão Periódica Universal é um processo estatal de revisão entre pares, sob os auspícios do Conselho de Direitos Humanos, com cobertura universal dos Estados-membros. A Resolução 60/251 determina que complemente, e não duplique, o trabalho dos órgãos de tratados."
     },
     {
       "id": "u144-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No sistema das Nações Unidas, os procedimentos especiais do Conselho de Direitos Humanos são",
       "options": [
-        {"id": "A", "text": "delegações governamentais com mandato permanente de votar resoluções."},
-        {"id": "B", "text": "especialistas independentes, individualmente ou em grupos de trabalho, com mandatos temáticos ou relativos a países."},
-        {"id": "C", "text": "juízes da Corte Internacional de Justiça designados para receber petições individuais."},
-        {"id": "D", "text": "órgãos legislativos nacionais responsáveis pela ratificação de tratados."},
-        {"id": "E", "text": "comissões compostas exclusivamente por integrantes do Secretariado."}
+        {
+          "id": "A",
+          "text": "delegações governamentais com mandato permanente de votar resoluções."
+        },
+        {
+          "id": "B",
+          "text": "comissões compostas exclusivamente por integrantes do Secretariado."
+        },
+        {
+          "id": "C",
+          "text": "juízes da Corte Internacional de Justiça designados para receber petições individuais."
+        },
+        {
+          "id": "D",
+          "text": "órgãos legislativos nacionais responsáveis pela ratificação de tratados."
+        },
+        {
+          "id": "E",
+          "text": "especialistas independentes, individualmente ou em grupos de trabalho, com mandatos temáticos ou relativos a países."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Procedimentos especiais são mecanismos exercidos por especialistas independentes, como relatores especiais, peritos independentes ou grupos de trabalho, com mandatos temáticos ou por país."
     },
     {
@@ -83,223 +158,448 @@
       "origin": "authorial",
       "prompt": "Um órgão de tratado de direitos humanos distingue-se da Revisão Periódica Universal porque",
       "options": [
-        {"id": "A", "text": "seu mandato decorre de tratado específico e ele é composto por especialistas independentes."},
-        {"id": "B", "text": "é composto necessariamente pelos 47 Estados do Conselho de Direitos Humanos."},
-        {"id": "C", "text": "avalia obrigatoriamente todos os Estados-membros das Nações Unidas, ainda que não sejam partes no tratado."},
-        {"id": "D", "text": "não pode formular observações ou recomendações."},
-        {"id": "E", "text": "é um órgão principal da Carta das Nações Unidas."}
+        {
+          "id": "A",
+          "text": "seu mandato decorre de tratado específico e ele é composto por especialistas independentes."
+        },
+        {
+          "id": "B",
+          "text": "é composto necessariamente pelos 47 Estados do Conselho de Direitos Humanos."
+        },
+        {
+          "id": "C",
+          "text": "avalia obrigatoriamente todos os Estados-membros das Nações Unidas, ainda que não sejam partes no tratado."
+        },
+        {
+          "id": "D",
+          "text": "não pode formular observações ou recomendações."
+        },
+        {
+          "id": "E",
+          "text": "é um órgão principal da Carta das Nações Unidas."
+        }
       ],
       "correctOptionId": "A",
       "explanation": "Órgãos de tratados são comitês de especialistas independentes cujo mandato decorre dos instrumentos convencionais que monitoram. A Revisão Periódica Universal, ao contrário, é revisão estatal entre pares de todos os membros das Nações Unidas."
     },
     {
       "id": "u144-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Conselho de Direitos Humanos e Alto Comissariado das Nações Unidas para os Direitos Humanos",
       "options": [
-        {"id": "A", "text": "são nomes diferentes para a mesma estrutura."},
-        {"id": "B", "text": "são ambos tribunais internacionais."},
-        {"id": "C", "text": "são distintos: o primeiro é intergovernamental; o segundo integra o Secretariado e presta apoio técnico e substantivo aos mecanismos."},
-        {"id": "D", "text": "são ambos comitês de especialistas eleitos pelos Estados-partes de tratados."},
-        {"id": "E", "text": "integram conjuntamente os seis órgãos principais da Carta."}
+        {
+          "id": "A",
+          "text": "são nomes diferentes para a mesma estrutura."
+        },
+        {
+          "id": "B",
+          "text": "são distintos: o primeiro é intergovernamental; o segundo integra o Secretariado e presta apoio técnico e substantivo aos mecanismos."
+        },
+        {
+          "id": "C",
+          "text": "são ambos tribunais internacionais."
+        },
+        {
+          "id": "D",
+          "text": "são ambos comitês de especialistas eleitos pelos Estados-partes de tratados."
+        },
+        {
+          "id": "E",
+          "text": "integram conjuntamente os seis órgãos principais da Carta."
+        }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O Conselho é órgão intergovernamental composto por Estados. O Alto Comissariado integra o Secretariado e apoia, entre outras funções, os mecanismos de direitos humanos. As próprias Nações Unidas destacam que são entidades distintas."
     },
     {
       "id": "u144-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da Declaração Universal dos Direitos Humanos, assinale a alternativa correta.",
       "options": [
-        {"id": "A", "text": "Foi adotada pela Assembleia Geral em 1948 e possui natureza de declaração, não de tratado aberto a ratificação."},
-        {"id": "B", "text": "Foi celebrada como tratado em 1945 e entrou em vigor após número mínimo de ratificações."},
-        {"id": "C", "text": "Foi criada pelo Conselho de Segurança em 1966."},
-        {"id": "D", "text": "Possui apenas direitos civis e políticos."},
-        {"id": "E", "text": "É estatuto constitutivo da Corte Internacional de Justiça."}
+        {
+          "id": "A",
+          "text": "Foi criada pelo Conselho de Segurança em 1966."
+        },
+        {
+          "id": "B",
+          "text": "Foi celebrada como tratado em 1945 e entrou em vigor após número mínimo de ratificações."
+        },
+        {
+          "id": "C",
+          "text": "Foi adotada pela Assembleia Geral em 1948 e possui natureza de declaração, não de tratado aberto a ratificação."
+        },
+        {
+          "id": "D",
+          "text": "Possui apenas direitos civis e políticos."
+        },
+        {
+          "id": "E",
+          "text": "É estatuto constitutivo da Corte Internacional de Justiça."
+        }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A Assembleia Geral adotou a Declaração em 10 de dezembro de 1948, pela Resolução 217 A (III). Ela é declaração, não tratado ratificável, e contém também direitos econômicos, sociais e culturais."
     },
     {
       "id": "u144-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 9 da Declaração Universal dos Direitos Humanos",
       "options": [
-        {"id": "A", "text": "proíbe qualquer prisão, mesmo quando prevista em lei e não arbitrária."},
-        {"id": "B", "text": "proíbe prisão, detenção ou exílio arbitrários."},
-        {"id": "C", "text": "permite exílio sem qualquer controle."},
-        {"id": "D", "text": "trata exclusivamente de liberdade religiosa."},
-        {"id": "E", "text": "autoriza prisão por mera conveniência administrativa."}
+        {
+          "id": "A",
+          "text": "proíbe qualquer prisão, mesmo quando prevista em lei e não arbitrária."
+        },
+        {
+          "id": "B",
+          "text": "trata exclusivamente de liberdade religiosa."
+        },
+        {
+          "id": "C",
+          "text": "permite exílio sem qualquer controle."
+        },
+        {
+          "id": "D",
+          "text": "proíbe prisão, detenção ou exílio arbitrários."
+        },
+        {
+          "id": "E",
+          "text": "autoriza prisão por mera conveniência administrativa."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O qualificador decisivo é “arbitrários”. A Declaração não afirma que toda prisão seja proibida; veda prisão, detenção ou exílio arbitrários."
     },
     {
       "id": "u144-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 13 da Declaração Universal dos Direitos Humanos, toda pessoa tem o direito de",
       "options": [
-        {"id": "A", "text": "entrar, sem condição, em qualquer país estrangeiro."},
-        {"id": "B", "text": "escolher qualquer nacionalidade automaticamente."},
-        {"id": "C", "text": "deixar qualquer país, inclusive o próprio, e regressar ao próprio país."},
-        {"id": "D", "text": "obter asilo automaticamente em qualquer Estado."},
-        {"id": "E", "text": "ignorar as leis migratórias de todo país estrangeiro."}
+        {
+          "id": "A",
+          "text": "entrar, sem condição, em qualquer país estrangeiro."
+        },
+        {
+          "id": "B",
+          "text": "escolher qualquer nacionalidade automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "ignorar as leis migratórias de todo país estrangeiro."
+        },
+        {
+          "id": "D",
+          "text": "obter asilo automaticamente em qualquer Estado."
+        },
+        {
+          "id": "E",
+          "text": "deixar qualquer país, inclusive o próprio, e regressar ao próprio país."
+        }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O artigo 13 protege circulação e residência dentro do Estado, além do direito de sair de qualquer país, inclusive o próprio, e de regressar ao próprio país. Ele não cria direito irrestrito de entrada em qualquer Estado estrangeiro."
     },
     {
       "id": "u144-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A liberdade de opinião e expressão prevista no artigo 19 da Declaração Universal dos Direitos Humanos inclui",
       "options": [
-        {"id": "A", "text": "somente opiniões transmitidas dentro das fronteiras nacionais."},
-        {"id": "B", "text": "o direito de procurar, receber e difundir informações e ideias por quaisquer meios, sem consideração de fronteiras."},
-        {"id": "C", "text": "apenas comunicação autorizada previamente pelo Estado."},
-        {"id": "D", "text": "liberdade de expressão, mas não busca de informações."},
-        {"id": "E", "text": "direito restrito a nacionais do Estado."}
+        {
+          "id": "A",
+          "text": "o direito de procurar, receber e difundir informações e ideias por quaisquer meios, sem consideração de fronteiras."
+        },
+        {
+          "id": "B",
+          "text": "somente opiniões transmitidas dentro das fronteiras nacionais."
+        },
+        {
+          "id": "C",
+          "text": "apenas comunicação autorizada previamente pelo Estado."
+        },
+        {
+          "id": "D",
+          "text": "liberdade de expressão, mas não busca de informações."
+        },
+        {
+          "id": "E",
+          "text": "direito restrito a nacionais do Estado."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 19 protege opiniões sem interferência e a busca, recepção e difusão de informações e ideias por quaisquer meios, sem consideração de fronteiras."
     },
     {
       "id": "u144-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do artigo 20 da Declaração Universal dos Direitos Humanos,",
       "options": [
-        {"id": "A", "text": "toda associação é obrigatória."},
-        {"id": "B", "text": "somente reuniões estatais são protegidas."},
-        {"id": "C", "text": "reunião e associação pacíficas são protegidas, e ninguém pode ser compelido a pertencer a uma associação."},
-        {"id": "D", "text": "a liberdade de reunião independe de qualquer qualificador."},
-        {"id": "E", "text": "é proibida toda forma de associação privada."}
+        {
+          "id": "A",
+          "text": "toda associação é obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "reunião e associação pacíficas são protegidas, e ninguém pode ser compelido a pertencer a uma associação."
+        },
+        {
+          "id": "C",
+          "text": "somente reuniões estatais são protegidas."
+        },
+        {
+          "id": "D",
+          "text": "a liberdade de reunião independe de qualquer qualificador."
+        },
+        {
+          "id": "E",
+          "text": "é proibida toda forma de associação privada."
+        }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O dispositivo protege reunião e associação pacíficas e também uma liberdade negativa: ninguém pode ser obrigado a pertencer a uma associação."
     },
     {
       "id": "u144-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A vontade do povo, na Declaração Universal dos Direitos Humanos, deve constituir a base da autoridade do governo e expressar-se por",
       "options": [
-        {"id": "A", "text": "eleições periódicas e autênticas, sufrágio universal e igual e voto secreto ou procedimento equivalente que assegure liberdade de voto."},
-        {"id": "B", "text": "eleições sem periodicidade, desde que organizadas pelo governo."},
-        {"id": "C", "text": "voto censitário, desde que previsto em lei."},
-        {"id": "D", "text": "nomeações vitalícias sem participação popular."},
-        {"id": "E", "text": "voto público obrigatório como única forma legítima."}
+        {
+          "id": "A",
+          "text": "voto censitário, desde que previsto em lei."
+        },
+        {
+          "id": "B",
+          "text": "eleições sem periodicidade, desde que organizadas pelo governo."
+        },
+        {
+          "id": "C",
+          "text": "eleições periódicas e autênticas, sufrágio universal e igual e voto secreto ou procedimento equivalente que assegure liberdade de voto."
+        },
+        {
+          "id": "D",
+          "text": "nomeações vitalícias sem participação popular."
+        },
+        {
+          "id": "E",
+          "text": "voto público obrigatório como única forma legítima."
+        }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 21 liga a autoridade governamental à vontade popular e exige eleições periódicas e autênticas, sufrágio universal e igual e voto secreto ou processo equivalente que assegure liberdade de voto."
     },
     {
       "id": "u144-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 22 da Declaração Universal dos Direitos Humanos vincula a realização dos direitos econômicos, sociais e culturais indispensáveis à dignidade",
       "options": [
-        {"id": "A", "text": "exclusivamente à atuação do Secretariado das Nações Unidas."},
-        {"id": "B", "text": "ao esforço nacional e à cooperação internacional, levando em conta a organização e os recursos de cada Estado."},
-        {"id": "C", "text": "à concessão automática e uniforme de prestações idênticas em todos os países."},
-        {"id": "D", "text": "somente à iniciativa privada."},
-        {"id": "E", "text": "apenas à ratificação dos Pactos de 1966."}
+        {
+          "id": "A",
+          "text": "exclusivamente à atuação do Secretariado das Nações Unidas."
+        },
+        {
+          "id": "B",
+          "text": "somente à iniciativa privada."
+        },
+        {
+          "id": "C",
+          "text": "à concessão automática e uniforme de prestações idênticas em todos os países."
+        },
+        {
+          "id": "D",
+          "text": "ao esforço nacional e à cooperação internacional, levando em conta a organização e os recursos de cada Estado."
+        },
+        {
+          "id": "E",
+          "text": "apenas à ratificação dos Pactos de 1966."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 22 combina segurança social, esforço nacional e cooperação internacional e menciona a organização e os recursos de cada Estado. A Declaração é anterior aos Pactos de 1966."
     },
     {
       "id": "u144-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 29 da Declaração Universal dos Direitos Humanos, limitações ao exercício de direitos e liberdades",
       "options": [
-        {"id": "A", "text": "podem decorrer apenas da vontade da autoridade administrativa."},
-        {"id": "B", "text": "devem estar estabelecidas em lei e buscar fins delimitados, como respeito aos direitos de outras pessoas e justas exigências da moral, da ordem pública e do bem-estar geral em sociedade democrática."},
-        {"id": "C", "text": "podem destruir o próprio direito sem qualquer controle."},
-        {"id": "D", "text": "dispensam relação com sociedade democrática."},
-        {"id": "E", "text": "são proibidas em qualquer hipótese."}
+        {
+          "id": "A",
+          "text": "podem decorrer apenas da vontade da autoridade administrativa."
+        },
+        {
+          "id": "B",
+          "text": "são proibidas em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "podem destruir o próprio direito sem qualquer controle."
+        },
+        {
+          "id": "D",
+          "text": "dispensam relação com sociedade democrática."
+        },
+        {
+          "id": "E",
+          "text": "devem estar estabelecidas em lei e buscar fins delimitados, como respeito aos direitos de outras pessoas e justas exigências da moral, da ordem pública e do bem-estar geral em sociedade democrática."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 29 admite limitações, mas não uma autorização em branco. Exige previsão legal e finalidades delimitadas em sociedade democrática; o exercício também não pode contrariar propósitos e princípios das Nações Unidas."
     },
     {
       "id": "u144-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A cláusula do artigo 30 da Declaração Universal dos Direitos Humanos impede que",
       "options": [
-        {"id": "A", "text": "apenas Estados interpretem a Declaração."},
-        {"id": "B", "text": "Estado, grupo ou pessoa invoque a própria Declaração para praticar ato destinado a destruir direitos e liberdades nela reconhecidos."},
-        {"id": "C", "text": "os direitos sejam objeto de ensino."},
-        {"id": "D", "text": "a Assembleia Geral formule recomendações."},
-        {"id": "E", "text": "a Declaração seja traduzida."}
+        {
+          "id": "A",
+          "text": "Estado, grupo ou pessoa invoque a própria Declaração para praticar ato destinado a destruir direitos e liberdades nela reconhecidos."
+        },
+        {
+          "id": "B",
+          "text": "apenas Estados interpretem a Declaração."
+        },
+        {
+          "id": "C",
+          "text": "os direitos sejam objeto de ensino."
+        },
+        {
+          "id": "D",
+          "text": "a Assembleia Geral formule recomendações."
+        },
+        {
+          "id": "E",
+          "text": "a Declaração seja traduzida."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 30 é cláusula contra destruição dos direitos: nenhuma disposição pode ser interpretada como conferindo a Estado, grupo ou pessoa direito de exercer atividade ou praticar ato destinado a destruir os direitos e liberdades proclamados."
     },
     {
       "id": "q8492",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Segundo a Declaração Universal dos Direitos Humanos, a educação deve",
       "options": [
-        {"id": "A", "text": "limitar-se à formação profissional."},
-        {"id": "B", "text": "ser paga em todos os graus."},
-        {"id": "C", "text": "dispensar respeito às liberdades fundamentais."},
-        {"id": "D", "text": "promover o pleno desenvolvimento da personalidade e o respeito aos direitos, com gratuidade nos graus elementar e fundamental."},
-        {"id": "E", "text": "tornar o ensino elementar facultativo."}
+        {
+          "id": "A",
+          "text": "limitar-se à formação profissional."
+        },
+        {
+          "id": "B",
+          "text": "promover o pleno desenvolvimento da personalidade e o respeito aos direitos, com gratuidade nos graus elementar e fundamental."
+        },
+        {
+          "id": "C",
+          "text": "dispensar respeito às liberdades fundamentais."
+        },
+        {
+          "id": "D",
+          "text": "ser paga em todos os graus."
+        },
+        {
+          "id": "E",
+          "text": "tornar o ensino elementar facultativo."
+        }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "O artigo 26 combina finalidade humanista, gratuidade mínima e obrigatoriedade do ensino elementar. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça; concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; caderno 186STJ_002_01; item 101; gabarito oficial definitivo Certo. Adaptação: item certo/errado convertido em questão de cinco alternativas."
     },
     {
       "id": "q8494",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "A formulação da Declaração Universal dos Direitos Humanos sobre a família é",
       "options": [
-        {"id": "A", "text": "a família é núcleo natural e fundamental da sociedade e tem proteção da sociedade e do Estado."},
-        {"id": "B", "text": "a família não recebe proteção estatal."},
-        {"id": "C", "text": "somente casamento indissolúvel constitui família."},
-        {"id": "D", "text": "a sociedade não possui dever de proteção."},
-        {"id": "E", "text": "o consentimento dos cônjuges é dispensável."}
+        {
+          "id": "A",
+          "text": "somente casamento indissolúvel constitui família."
+        },
+        {
+          "id": "B",
+          "text": "a família não recebe proteção estatal."
+        },
+        {
+          "id": "C",
+          "text": "a família é núcleo natural e fundamental da sociedade e tem proteção da sociedade e do Estado."
+        },
+        {
+          "id": "D",
+          "text": "a sociedade não possui dever de proteção."
+        },
+        {
+          "id": "E",
+          "text": "o consentimento dos cônjuges é dispensável."
+        }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A alternativa reproduz o núcleo do artigo 16, item 3. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça; concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; caderno 186STJ_002_01; item 103; gabarito oficial definitivo Certo. Adaptação: item certo/errado convertido em questão de cinco alternativas."
     },
     {
       "id": "q8495",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Pessoa perseguida em razão de processo genuíno por crime de direito comum invoca a garantia de asilo da Declaração Universal dos Direitos Humanos. Nesse caso,",
       "options": [
-        {"id": "A", "text": "o asilo é automático."},
-        {"id": "B", "text": "o artigo 14 exclui a invocação decorrente de processo genuíno por crime de direito comum ou por atos contrários aos propósitos e princípios das Nações Unidas."},
-        {"id": "C", "text": "o Estado escolhido deve conceder asilo."},
-        {"id": "D", "text": "o crime torna-se político."},
-        {"id": "E", "text": "a Declaração impede o processo."}
+        {
+          "id": "A",
+          "text": "o asilo é automático."
+        },
+        {
+          "id": "B",
+          "text": "o crime torna-se político."
+        },
+        {
+          "id": "C",
+          "text": "o Estado escolhido deve conceder asilo."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 14 exclui a invocação decorrente de processo genuíno por crime de direito comum ou por atos contrários aos propósitos e princípios das Nações Unidas."
+        },
+        {
+          "id": "E",
+          "text": "a Declaração impede o processo."
+        }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 14 não permite invocar o asilo em caso de persecução genuína por crime de direito comum nem por atos contrários aos propósitos e princípios das Nações Unidas. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça; concurso público de 2015; caderno 186STJ_002_01; item 104; gabarito oficial definitivo Errado para a assertiva original que garantia asilo mesmo nessa hipótese. Adaptação para cinco alternativas."
     },
     {
       "id": "q8496",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Quanto à mudança de nacionalidade, a Declaração Universal dos Direitos Humanos determina que",
       "options": [
-        {"id": "A", "text": "o Estado pode proibi-la livremente."},
-        {"id": "B", "text": "somente a soberania importa."},
-        {"id": "C", "text": "ninguém será arbitrariamente privado da nacionalidade nem impedido de mudá-la."},
-        {"id": "D", "text": "toda pessoa deve possuir duas nacionalidades."},
-        {"id": "E", "text": "a nacionalidade é imutável."}
+        {
+          "id": "A",
+          "text": "o Estado pode proibi-la livremente."
+        },
+        {
+          "id": "B",
+          "text": "somente a soberania importa."
+        },
+        {
+          "id": "C",
+          "text": "a nacionalidade é imutável."
+        },
+        {
+          "id": "D",
+          "text": "toda pessoa deve possuir duas nacionalidades."
+        },
+        {
+          "id": "E",
+          "text": "ninguém será arbitrariamente privado da nacionalidade nem impedido de mudá-la."
+        }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O artigo 15 veda a privação arbitrária da nacionalidade e protege o direito de mudá-la. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça; concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; caderno 186STJ_002_01; item 105; gabarito oficial definitivo Errado para a assertiva original que admitia restrição à mudança com fundamento em soberania. Adaptação para cinco alternativas."
     }
   ]
