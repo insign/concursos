@@ -19,9 +19,9 @@
     },
     {
       "id": "u023-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No caminho Windows `C:\\\\Users\\\\Ana\\\\Documents\\\\relatorio.pdf`, qual leitura está correta?",
+      "prompt": "No caminho Windows `C:\\Users\\Ana\\Documents\\relatorio.pdf`, qual leitura está correta?",
       "options": [
         {"id": "A", "text": "`C:` é o nome do arquivo."},
         {"id": "B", "text": "`Users` é a extensão do arquivo."},
@@ -30,7 +30,7 @@
         {"id": "E", "text": "As barras invertidas indicam links simbólicos."}
       ],
       "correctOptionId": "C",
-      "explanation": "No Windows, `C:` identifica a unidade lógica; `C:\\\\` é sua raiz e `\\\\` separa componentes do caminho. Fonte: documentação Microsoft e doador auditado."
+      "explanation": "No Windows, `C:` identifica o volume; `C:\\` é sua raiz e `\\` separa componentes do caminho. Fonte: documentação Microsoft e doador auditado."
     },
     {
       "id": "u023-a03",
