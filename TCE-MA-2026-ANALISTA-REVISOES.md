@@ -282,7 +282,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H138 | `governo-eletronico` | = | L | [`c8af778`](https://github.com/insign/concursos/commit/c8af77868a08c89b479a050edb26494560abf71a) |
 | H139 | `transparencia-controle-social-accountability` | `transparencia-controle-social` | L | [`b7c61f1`](https://github.com/insign/concursos/commit/b7c61f10cdd1342b408eb0c6ce1a5682aacd3a69) |
 | H140 | `lei-acesso-informacao-fundamentos-pedidos` | `lai-fundamentos-pedidos` | L | sem alteração @ [`8a40bab`](https://github.com/insign/concursos/commit/8a40bab387f977270dca45f81551892882eae6a5) — fluxo do pedido, âmbito e prazos conferidos na lei |
-| H141 | `lei-acesso-informacao-restricoes-recursos` | `lai-restricoes-recursos` | L | — |
+| H141 | `lei-acesso-informacao-restricoes-recursos` | `lai-restricoes-recursos` | L | [`0fd0506`](https://github.com/insign/concursos/commit/0fd05068a96b6b5a3d2697a51da78a05e14fe48a) |
 
 ### M12 — Gestão de Pessoas
 
@@ -302,6 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H138–H141: as quatro aulas identificam 6/7/2026, data do ato E1, como publicação/corte legislativo; o Tribunal registra publicação em 7/7. Corrigir as aulas em escopo próprio; os H deste grupo adotam a data de publicação quando a citam.
 - H136: q52213602–03 (IPAAM) têm gabarito definitivo oficial, mas o texto da prova indicado no banco não foi validado em caderno oficial; q52213604 (CRM-DF) tem gabarito definitivo, mas o caderno oficial não abriu. Confirmar origem textual antes de reutilizar como contraprova.
 - H134: q52213404 (SEFA/PR, Analista Fazendário, questão 11) teve prova oficial conferida, mas o gabarito definitivo do cargo/caderno exato ainda não foi localizado; confirmar antes de usar como contraprova.
 - H131: os itens anteriores q52213102–03 apontam para matriz oficial da PGDF, mas texto/gabarito dos itens não foram extraídos de modo independente na consulta; confirmar antes de reutilizá-los como contraprova. A regra material foi conferida na IN nº 5/2017.
