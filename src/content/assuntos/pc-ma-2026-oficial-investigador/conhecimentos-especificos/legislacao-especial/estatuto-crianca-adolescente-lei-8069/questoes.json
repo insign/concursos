@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u126-a01",
@@ -64,13 +64,13 @@
     },
     {
       "id": "u126-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A garantia de prioridade do artigo 4º compreende, entre outros pontos,",
       "options": [
         {
           "id": "A",
-          "text": "primazia de proteção e socorro, precedência de atendimento, preferência em políticas e destinação privilegiada de recursos públicos."
+          "text": "apenas prioridade escolar."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "apenas prioridade escolar."
+          "text": "primazia de proteção e socorro, precedência de atendimento, preferência em políticas e destinação privilegiada de recursos públicos."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "exclusão da responsabilidade familiar."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A prioridade absoluta é concretizada por esses vetores expressos no Estatuto."
     },
     {
       "id": "u126-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.240/2025, a assistência afetiva parental inclui, nas condições legais,",
       "options": [
         {
           "id": "A",
-          "text": "convivência ou visitação periódica que permita acompanhar a formação psicológica, moral e social."
+          "text": "exclusivamente presença física diária."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "exclusivamente presença física diária."
+          "text": "convivência ou visitação periódica que permita acompanhar a formação psicológica, moral e social."
         },
         {
           "id": "E",
           "text": "apenas orientação profissional depois dos dezoito anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A lei passou a explicitar o dever de assistência afetiva e também qualificou o abandono afetivo como ilícito civil nas condições legais."
     },
     {
       "id": "u126-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 11-A, incluído pela Lei nº 15.413/2026, assegura",
       "options": [
         {
           "id": "A",
-          "text": "acesso de crianças e adolescentes a programas de saúde mental promovidos pelo Sistema Único de Saúde."
+          "text": "benefício previdenciário automático."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "benefício previdenciário automático."
+          "text": "acesso de crianças e adolescentes a programas de saúde mental promovidos pelo Sistema Único de Saúde."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O novo artigo 11-A disciplina prevenção e tratamento em saúde mental no Sistema Único de Saúde, inclusive atenção psicossocial e hospitalar."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "u126-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A situação de criança ou adolescente em acolhimento familiar ou institucional deve ser reavaliada, no máximo, a cada",
       "options": [
         {
           "id": "A",
-          "text": "três meses."
+          "text": "doze meses."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "doze meses."
+          "text": "três meses."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "vinte e quatro meses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O Estatuto prevê reavaliação, no máximo, a cada três meses."
     },
     {
       "id": "u126-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A permanência em acolhimento institucional não deve ultrapassar, em regra,",
       "options": [
@@ -258,29 +258,29 @@
         },
         {
           "id": "C",
-          "text": "dezoito meses."
+          "text": "três anos."
         },
         {
           "id": "D",
-          "text": "três anos."
+          "text": "dezoito meses."
         },
         {
           "id": "E",
           "text": "cinco anos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O limite ordinário é de dezoito meses, salvo comprovada necessidade que atenda ao superior interesse, fundamentada judicialmente."
     },
     {
       "id": "u126-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na colocação em família substituta, o maior de doze anos",
       "options": [
         {
           "id": "A",
-          "text": "deve consentir em audiência."
+          "text": "deve escolher sozinho a família."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "deve escolher sozinho a família."
+          "text": "deve consentir em audiência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Estatuto exige consentimento do maior de doze anos, colhido em audiência."
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "id": "u126-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 14.979/2024 tornou",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "obrigatória a consulta judicial aos cadastros estaduais, distrital e nacional de adoção, ressalvadas hipóteses legais."
+          "text": "automática toda adoção cadastrada."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "automática toda adoção cadastrada."
+          "text": "obrigatória a consulta judicial aos cadastros estaduais, distrital e nacional de adoção, ressalvadas hipóteses legais."
         },
         {
           "id": "E",
           "text": "extintos os cadastros estaduais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A alteração do artigo 50, §5º, tornou obrigatória a consulta, preservando exceções expressas."
     },
     {
       "id": "u126-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O acesso ao ensino obrigatório e gratuito é, segundo o Estatuto,",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "direito público subjetivo."
+          "text": "benefício previdenciário."
         },
         {
           "id": "C",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "benefício previdenciário."
+          "text": "direito público subjetivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O Estatuto qualifica o acesso ao ensino obrigatório e gratuito como direito público subjetivo."
     },
     {
       "id": "u126-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 59-A determina que instituições sociais que atuem com crianças/adolescentes e recebam recursos públicos atualizem certidões de antecedentes criminais dos colaboradores a cada",
       "options": [
         {
           "id": "A",
-          "text": "três meses."
+          "text": "seis meses."
         },
         {
           "id": "B",
-          "text": "seis meses."
+          "text": "três meses."
         },
         {
           "id": "C",
@@ -479,22 +479,22 @@
           "text": "quatro anos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Lei nº 14.811/2024 fixou atualização semestral para essas instituições; estabelecimentos educacionais e similares também devem manter registros atualizados."
     },
     {
       "id": "u126-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre trabalho de adolescentes, a resposta correta é",
       "options": [
         {
           "id": "A",
-          "text": "o artigo 60 do Estatuto conserva redação histórica sobre menor de quatorze anos, enquanto a Constituição vigente proíbe trabalho antes dos dezesseis, salvo aprendiz a partir dos quatorze."
+          "text": "Estatuto e Constituição dizem exatamente a mesma coisa desde 1990."
         },
         {
           "id": "B",
-          "text": "Estatuto e Constituição dizem exatamente a mesma coisa desde 1990."
+          "text": "o artigo 60 do Estatuto conserva redação histórica sobre menor de quatorze anos, enquanto a Constituição vigente proíbe trabalho antes dos dezesseis, salvo aprendiz a partir dos quatorze."
         },
         {
           "id": "C",
@@ -509,12 +509,12 @@
           "text": "a regra constitucional não se aplica ao Estatuto."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A literalidade histórica do artigo 60 não deve ser confundida com o limite constitucional vigente."
     },
     {
       "id": "u126-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em viagem nacional para fora da comarca de residência, criança ou adolescente menor de dezesseis anos, desacompanhado,",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "precisa de autorização judicial, salvo as exceções legais."
+          "text": "só precisa se tiver menos de doze."
         },
         {
           "id": "C",
-          "text": "só precisa se tiver menos de doze."
+          "text": "precisa de autorização judicial, salvo as exceções legais."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "não pode viajar em hipótese alguma."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 83 adota a idade de dezesseis anos e prevê exceções expressas."
     },
     {
       "id": "u126-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.426/2026 estabeleceu que a função de membro dos Conselhos dos Direitos da Criança e do Adolescente",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "é considerada de interesse público relevante e não será remunerada."
+          "text": "tem mandato vitalício."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "tem mandato vitalício."
+          "text": "é considerada de interesse público relevante e não será remunerada."
         },
         {
           "id": "E",
           "text": "não possui deveres funcionais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A lei alterou o artigo 89 e criou o artigo 89-A com deveres funcionais dos membros."
     },
     {
       "id": "u126-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As medidas de proteção do artigo 98 podem ser aplicadas quando direitos forem ameaçados ou violados",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "pela sociedade ou Estado, por falta/omissão/abuso dos pais ou responsável, ou em razão da própria conduta da criança/adolescente."
+          "text": "apenas se houver ato infracional."
         },
         {
           "id": "C",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "apenas se houver ato infracional."
+          "text": "pela sociedade ou Estado, por falta/omissão/abuso dos pais ou responsável, ou em razão da própria conduta da criança/adolescente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 98 prevê as três fontes de ameaça ou violação."
     },
     {
       "id": "u126-a21",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Conselho Tutelar é órgão",
       "options": [
         {
           "id": "A",
-          "text": "jurisdicional e subordinado ao juiz."
+          "text": "permanente, autônomo e não jurisdicional."
         },
         {
           "id": "B",
-          "text": "permanente, autônomo e não jurisdicional."
+          "text": "jurisdicional e subordinado ao juiz."
         },
         {
           "id": "C",
@@ -629,7 +629,7 @@
           "text": "integrante obrigatório do Ministério Público."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Essa é a natureza definida pelo artigo 131."
     },
     {
@@ -664,13 +664,13 @@
     },
     {
       "id": "u126-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A escolha unificada dos membros do Conselho Tutelar ocorre",
       "options": [
         {
           "id": "A",
-          "text": "no primeiro domingo de outubro do ano subsequente à eleição presidencial, com posse em 10 de janeiro seguinte."
+          "text": "em janeiro, com posse em outubro."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "em janeiro, com posse em outubro."
+          "text": "no primeiro domingo de outubro do ano subsequente à eleição presidencial, com posse em 10 de janeiro seguinte."
         },
         {
           "id": "D",
@@ -689,12 +689,12 @@
           "text": "a cada dois anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O Estatuto unificou data de escolha e posse nesses marcos."
     },
     {
       "id": "u126-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.268/2025 alterou o artigo 136 para substituir a expressão",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "serviço social por assistência social."
+          "text": "previdência por seguridade."
         },
         {
           "id": "C",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "previdência por seguridade."
+          "text": "serviço social por assistência social."
         },
         {
           "id": "E",
           "text": "educação por ensino."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A alteração atualizou a nomenclatura das requisições de serviços do Conselho Tutelar."
     },
     {
       "id": "u126-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ato infracional é",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "conduta descrita como crime ou contravenção penal."
+          "text": "qualquer infração administrativa."
         },
         {
           "id": "C",
@@ -746,25 +746,25 @@
         },
         {
           "id": "E",
-          "text": "qualquer infração administrativa."
+          "text": "conduta descrita como crime ou contravenção penal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "É a definição do artigo 103."
     },
     {
       "id": "u126-a26",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se uma criança pratica conduta descrita como crime ou contravenção,",
       "options": [
         {
           "id": "A",
-          "text": "aplicam-se medidas socioeducativas do artigo 112."
+          "text": "aplicam-se medidas de proteção previstas no artigo 101."
         },
         {
           "id": "B",
-          "text": "aplicam-se medidas de proteção previstas no artigo 101."
+          "text": "aplicam-se medidas socioeducativas do artigo 112."
         },
         {
           "id": "C",
@@ -779,7 +779,7 @@
           "text": "nada pode ser feito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "À criança autora de ato infracional aplicam-se medidas de proteção; medidas socioeducativas são dirigidas ao adolescente."
     },
     {
@@ -844,13 +844,13 @@
     },
     {
       "id": "u126-a29",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as medidas socioeducativas do artigo 112 estão",
       "options": [
         {
           "id": "A",
-          "text": "advertência, reparação do dano, prestação de serviços, liberdade assistida, semiliberdade e internação."
+          "text": "prisão preventiva e temporária."
         },
         {
           "id": "B",
@@ -862,25 +862,25 @@
         },
         {
           "id": "D",
-          "text": "prisão preventiva e temporária."
+          "text": "advertência, reparação do dano, prestação de serviços, liberdade assistida, semiliberdade e internação."
         },
         {
           "id": "E",
           "text": "banimento e multa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Essa é a sequência central das medidas socioeducativas, além da possibilidade de medidas protetivas cabíveis."
     },
     {
       "id": "u126-a30",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prestação de serviços à comunidade tem",
       "options": [
         {
           "id": "A",
-          "text": "prazo máximo de seis meses e jornada máxima de oito horas semanais."
+          "text": "trabalho forçado obrigatório."
         },
         {
           "id": "B",
@@ -896,21 +896,21 @@
         },
         {
           "id": "E",
-          "text": "trabalho forçado obrigatório."
+          "text": "prazo máximo de seis meses e jornada máxima de oito horas semanais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Estatuto limita duração e jornada para preservar escola e trabalho."
     },
     {
       "id": "u126-a31",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A liberdade assistida deve ser fixada por prazo mínimo de",
       "options": [
         {
           "id": "A",
-          "text": "trinta dias."
+          "text": "seis meses."
         },
         {
           "id": "B",
@@ -918,7 +918,7 @@
         },
         {
           "id": "C",
-          "text": "seis meses."
+          "text": "trinta dias."
         },
         {
           "id": "D",
@@ -929,7 +929,7 @@
           "text": "três anos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O artigo 118 prevê prazo mínimo de seis meses, com possibilidade de prorrogação, revogação ou substituição."
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "id": "u126-a33",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo entendimento do Superior Tribunal de Justiça publicado em 2026, o período de tratamento de saúde durante a execução",
       "options": [
@@ -974,11 +974,11 @@
         },
         {
           "id": "B",
-          "text": "deve ser computado no limite máximo de três anos da internação."
+          "text": "duplica o prazo da medida."
         },
         {
           "id": "C",
-          "text": "duplica o prazo da medida."
+          "text": "deve ser computado no limite máximo de três anos da internação."
         },
         {
           "id": "D",
@@ -989,18 +989,18 @@
           "text": "suspende indefinidamente a medida."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O Informativo 884 aplicou o limite máximo também ao período de tratamento."
     },
     {
       "id": "u126-a34",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A internação do artigo 122 pode ser aplicada, entre outras hipóteses, quando",
       "options": [
         {
           "id": "A",
-          "text": "o ato é cometido com grave ameaça ou violência a pessoa."
+          "text": "há simples suspeita."
         },
         {
           "id": "B",
@@ -1012,19 +1012,19 @@
         },
         {
           "id": "D",
-          "text": "há simples suspeita."
+          "text": "o ato é cometido com grave ameaça ou violência a pessoa."
         },
         {
           "id": "E",
           "text": "a família solicita, sem ato infracional."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "As hipóteses são taxativamente estruturadas: violência/grave ameaça, reiteração em outras infrações graves ou descumprimento reiterado/injustificável de medida."
     },
     {
       "id": "u126-a35",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A internação decorrente de descumprimento reiterado e injustificável de medida anteriormente imposta tem prazo máximo de",
       "options": [
@@ -1038,7 +1038,7 @@
         },
         {
           "id": "C",
-          "text": "três meses."
+          "text": "três anos."
         },
         {
           "id": "D",
@@ -1046,25 +1046,25 @@
         },
         {
           "id": "E",
-          "text": "três anos."
+          "text": "três meses."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A chamada internação-sanção tem limite máximo de três meses."
     },
     {
       "id": "u126-a36",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Súmula 492 do Superior Tribunal de Justiça estabelece que",
       "options": [
         {
           "id": "A",
-          "text": "ato infracional análogo ao tráfico de drogas obriga internação."
+          "text": "tráfico de drogas, por si só, não conduz obrigatoriamente à internação."
         },
         {
           "id": "B",
-          "text": "tráfico de drogas, por si só, não conduz obrigatoriamente à internação."
+          "text": "ato infracional análogo ao tráfico de drogas obriga internação."
         },
         {
           "id": "C",
@@ -1079,7 +1079,7 @@
           "text": "qualquer tráfico extingue a medida."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A internação depende do enquadramento nas hipóteses legais do artigo 122."
     },
     {
@@ -1114,7 +1114,7 @@
     },
     {
       "id": "u126-a38",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A remissão concedida antes de iniciado o procedimento judicial é atribuição do",
       "options": [
@@ -1124,11 +1124,11 @@
         },
         {
           "id": "B",
-          "text": "Ministério Público."
+          "text": "delegado de polícia."
         },
         {
           "id": "C",
-          "text": "delegado de polícia."
+          "text": "Ministério Público."
         },
         {
           "id": "D",
@@ -1139,12 +1139,12 @@
           "text": "prefeito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Antes do processo, o Ministério Público pode conceder remissão como forma de exclusão; depois de iniciado, a autoridade judiciária pode concedê-la."
     },
     {
       "id": "u126-a39",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A remissão pode incluir medida socioeducativa, mas não",
       "options": [
@@ -1158,23 +1158,23 @@
         },
         {
           "id": "C",
-          "text": "semiliberdade e internação."
+          "text": "medidas de proteção."
         },
         {
           "id": "D",
-          "text": "medidas de proteção."
+          "text": "semiliberdade e internação."
         },
         {
           "id": "E",
           "text": "orientação."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O Estatuto impede que a remissão inclua semiliberdade ou internação."
     },
     {
       "id": "u126-a40",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No corte de 13/7/2026, a infiltração policial na internet prevista no Estatuto",
       "options": [
@@ -1184,7 +1184,7 @@
         },
         {
           "id": "B",
-          "text": "abrangia os artigos 190-A a 190-E, com autorização judicial e prazo de até noventa dias, renovável dentro do limite total de setecentos e vinte dias."
+          "text": "era obrigatória em qualquer crime digital."
         },
         {
           "id": "C",
@@ -1196,25 +1196,25 @@
         },
         {
           "id": "E",
-          "text": "era obrigatória em qualquer crime digital."
+          "text": "abrangia os artigos 190-A a 190-E, com autorização judicial e prazo de até noventa dias, renovável dentro do limite total de setecentos e vinte dias."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 190-F só foi criado pela Lei nº 15.487/2026, posterior ao corte."
     },
     {
       "id": "u126-a41",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 243, após a Lei nº 15.234/2025, a pena aumenta de um terço até a metade se",
       "options": [
         {
           "id": "A",
-          "text": "o produto for apenas oferecido, sem consumo."
+          "text": "a criança ou o adolescente utilizar ou consumir o produto."
         },
         {
           "id": "B",
-          "text": "a criança ou o adolescente utilizar ou consumir o produto."
+          "text": "o produto for apenas oferecido, sem consumo."
         },
         {
           "id": "C",
@@ -1229,22 +1229,22 @@
           "text": "o produto for alimento."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A causa de aumento depende do efetivo uso ou consumo pela criança ou adolescente."
     },
     {
       "id": "u126-a42",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No estado jurídico de 13/7/2026, o artigo 240 previa para produção de cena de sexo explícito ou pornográfica envolvendo criança ou adolescente",
       "options": [
         {
           "id": "A",
-          "text": "reclusão de quatro a oito anos e multa."
+          "text": "reclusão de quatro a dez anos e multa."
         },
         {
           "id": "B",
-          "text": "reclusão de quatro a dez anos e multa."
+          "text": "reclusão de quatro a oito anos e multa."
         },
         {
           "id": "C",
@@ -1259,12 +1259,12 @@
           "text": "somente multa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A ampliação para quatro a dez anos veio com a Lei nº 15.487/2026, publicada em agosto e excluída do corte."
     },
     {
       "id": "u126-a43",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 241-B vigente em 13/7/2026,",
       "options": [
@@ -1274,11 +1274,11 @@
         },
         {
           "id": "B",
-          "text": "os verbos centrais eram adquirir, possuir ou armazenar; 'solicitar' e a figura de mera visualização vieram depois do corte."
+          "text": "somente vender era punido."
         },
         {
           "id": "C",
-          "text": "somente vender era punido."
+          "text": "os verbos centrais eram adquirir, possuir ou armazenar; 'solicitar' e a figura de mera visualização vieram depois do corte."
         },
         {
           "id": "D",
@@ -1289,18 +1289,18 @@
           "text": "não existiam exceções para comunicação às autoridades."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A Lei nº 15.487/2026 acrescentou posteriormente novas condutas; no corte valia a redação anterior da Lei nº 11.829/2008."
     },
     {
       "id": "u126-a44",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 244-A vigente em 13/7/2026, o caput punia a submissão de criança ou adolescente",
       "options": [
         {
           "id": "A",
-          "text": "à prostituição ou exploração sexual."
+          "text": "somente à exposição digital."
         },
         {
           "id": "B",
@@ -1312,25 +1312,25 @@
         },
         {
           "id": "D",
-          "text": "somente à exposição digital."
+          "text": "à prostituição ou exploração sexual."
         },
         {
           "id": "E",
           "text": "a qualquer trabalho doméstico."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A redação pré-agosto ainda mencionava prostituição ou exploração sexual; a Lei nº 15.487/2026 alterou o caput depois do corte."
     },
     {
       "id": "u126-a45",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A infração administrativa do artigo 258-C relaciona-se ao descumprimento da proibição de",
       "options": [
         {
           "id": "A",
-          "text": "venda de bebida alcoólica a criança ou adolescente."
+          "text": "uso de veículo policial."
         },
         {
           "id": "B",
@@ -1346,25 +1346,25 @@
         },
         {
           "id": "E",
-          "text": "uso de veículo policial."
+          "text": "venda de bebida alcoólica a criança ou adolescente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 258-C prevê multa de R$ 3.000 a R$ 10.000 e interdição até o recolhimento da multa para a violação da proibição legal."
     },
     {
       "id": "u126-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 16 da prova oral Cebraspe da Polícia Civil do Estado de Rondônia, concurso 2022, qual afirmação está correta?",
       "options": [
         {
           "id": "A",
-          "text": "O Estatuto jamais se aplica depois dos dezoito anos."
+          "text": "Em hipóteses expressas, o Estatuto pode alcançar pessoas entre dezoito e vinte e um anos, como na execução socioeducativa e em situação específica de adoção."
         },
         {
           "id": "B",
-          "text": "Em hipóteses expressas, o Estatuto pode alcançar pessoas entre dezoito e vinte e um anos, como na execução socioeducativa e em situação específica de adoção."
+          "text": "O Estatuto jamais se aplica depois dos dezoito anos."
         },
         {
           "id": "C",
@@ -1379,7 +1379,7 @@
           "text": "A adoção na Justiça da Infância nunca alcança adotando maior de dezoito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O padrão oficial reconheceu a aplicação excepcional entre dezoito e vinte e um anos, mencionando a liberação compulsória da internação aos vinte e um e a adoção quando o maior já estava sob guarda ou tutela dos adotantes."
     }
   ]
