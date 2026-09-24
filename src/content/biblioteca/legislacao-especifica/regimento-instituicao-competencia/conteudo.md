@@ -154,11 +154,11 @@ Depois de compreender os mecanismos, use a tabela apenas para recuperação:
 
 ## 6. Corte temporal da prova
 
-O Edital nº 1 do concurso foi publicado em **6 de julho de 2026** e determina que alterações legislativas com entrada em vigor até a data de publicação podem ser avaliadas mesmo que não estejam expressamente repetidas nos objetos de avaliação.
+O Edital nº 1 do concurso foi publicado em **7 de julho de 2026** e determina que alterações legislativas com entrada em vigor até a data de publicação podem ser avaliadas mesmo que não estejam expressamente repetidas nos objetos de avaliação.
 
 O Regimento Interno foi originalmente aprovado pela **Resolução Administrativa nº 1, de 21 de janeiro de 2000**, e sofreu alterações posteriores. A **Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 441/2026**, de 29 de abril de 2026, publicada em 30 de abril, afirma expressamente que altera o Regimento aprovado pela Resolução Administrativa nº 1/2000 “inclusive com as alterações posteriores”.
 
-Para a prova, portanto, **não use uma cópia histórica isolada como se fosse o texto vigente**. O corte material deste capítulo é a legislação em vigor em 6 de julho de 2026.
+Para a prova, portanto, **não use uma cópia histórica isolada como se fosse o texto vigente**. O corte material deste capítulo é a legislação em vigor em 7 de julho de 2026.
 
 ## 7. Fronteira com os assuntos seguintes
 

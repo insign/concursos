@@ -34,7 +34,7 @@ Com esse mapa, os números deixam de ser uma lista solta:
 
 ## 2. Qual texto normativo prevalece?
 
-O corte deste assunto é a publicação do edital, em **6 de julho de 2026**. Consideram-se, portanto, a Lei nº 8.258/2005 e o Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> com as alterações vigentes nessa data.
+O corte deste assunto é a publicação do edital, em **7 de julho de 2026**. Consideram-se, portanto, a Lei nº 8.258/2005 e o Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> com as alterações vigentes nessa data.
 
 Há um cuidado indispensável: a **Lei Orgânica é hierarquicamente superior ao Regimento Interno**. Se os dois textos forem incompatíveis, prevalece a lei.
 

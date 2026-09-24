@@ -20,7 +20,7 @@ A chave é separar **o julgamento das contas** de **suas consequências**.
 
 ### 1.1. Recorte e corte normativo
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, cobra a Lei Estadual nº 8.258/2005. Neste assunto, o núcleo corresponde aos **artigos 14 a 33, 65 a 75 e 129 a 139**, na redação vigente nessa data.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **7 de julho de 2026**, cobra a Lei Estadual nº 8.258/2005. Neste assunto, o núcleo corresponde aos **artigos 14 a 33, 65 a 75 e 129 a 139**, na redação vigente nessa data.
 
 Competência e jurisdição ficam no Assunto 064; contas e instrumentos de fiscalização, no 066; sujeitos, instrução, defesa e prazos gerais, no 067. Aqui entram as espécies e os efeitos das decisões, os débitos, as sanções, as cautelares, a execução e os recursos.
 

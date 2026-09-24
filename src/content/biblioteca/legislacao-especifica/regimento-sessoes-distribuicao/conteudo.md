@@ -250,7 +250,7 @@ A diferença é útil: o art. 141-H trata especificamente da **tomada de contas 
 
 ## 10. Corte normativo e fronteiras
 
-O corte normativo deste capítulo é a publicação do **Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de 6 de julho de 2026**. Considera-se o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000 com as alterações vigentes até essa data, inclusive a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 424/2025 no tema da distribuição.
+O corte normativo deste capítulo é a publicação do **Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de 6 de julho de 2026**, publicado em **7 de julho de 2026**. Considera-se o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000 com as alterações vigentes até essa data, inclusive a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 424/2025 no tema da distribuição.
 
 Ficam fora deste capítulo, para tratamento próprio: espécies e ritos completos dos processos de controle externo; denúncias, representações e consultas; garantias processuais, provas e prazos de defesa; conteúdo das decisões, sanções e execução; recursos e revisão; atos normativos, ética e regras finais.
 

@@ -204,7 +204,7 @@ Essa tabela sintetiza uma relação já construída: **“estar na estrutura do 
 
 ## 8. Corte normativo e fronteiras do capítulo
 
-O edital foi publicado em **6 de julho de 2026**. Para este material, considera-se o Regimento aprovado pela **Resolução Administrativa nº 1/2000**, com as alterações vigentes até essa data.
+O edital foi publicado em **7 de julho de 2026**. Para este material, considera-se o Regimento aprovado pela **Resolução Administrativa nº 1/2000**, com as alterações vigentes até essa data.
 
 Para este assunto, a alteração decisiva é a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº **391/2023**, que modificou o art. 9º, o art. 16 e a disciplina das comissões. A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº **441/2026**, anterior ao edital, alcançou regras de diárias, não o rol do art. 9º.
 

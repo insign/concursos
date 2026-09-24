@@ -16,7 +16,7 @@ Imagine um caso **hipotético**: a unidade técnica encontra duas ocorrências e
 
 A sequência é importante, mas não funciona sozinha. Durante a instrução, um **relator** — o membro encarregado de conduzir o processo — dirige providências; a Secretaria pratica atos necessários ao processo; a parte é cientificada para defender-se; a prova entra de forma documental; e os prazos seguem regras próprias. Depois, o <abbr title="Ministério Público de Contas">MPC</abbr> se manifesta e o feito segue ao órgão competente para decisão.
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, cobra a Lei Estadual nº 8.258/2005. Neste assunto, o recorte corresponde aos **artigos 118 a 128**, na redação consolidada vigente nessa data. Contas e instrumentos de fiscalização ficam no Assunto 066; espécies e efeitos das decisões, débitos, sanções, execução, recursos e revisão ficam no Assunto 068. Detalhes que a própria Lei remete ao Regimento Interno ou a ato normativo só entram aqui quando são necessários para compreender a regra legal.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **7 de julho de 2026**, cobra a Lei Estadual nº 8.258/2005. Neste assunto, o recorte corresponde aos **artigos 118 a 128**, na redação consolidada vigente nessa data. Contas e instrumentos de fiscalização ficam no Assunto 066; espécies e efeitos das decisões, débitos, sanções, execução, recursos e revisão ficam no Assunto 068. Detalhes que a própria Lei remete ao Regimento Interno ou a ato normativo só entram aqui quando são necessários para compreender a regra legal.
 
 ## 2. Quem participa: sujeito processual não é sinônimo de parte
 

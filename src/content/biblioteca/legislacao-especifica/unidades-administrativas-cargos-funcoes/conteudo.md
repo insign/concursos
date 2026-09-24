@@ -31,7 +31,7 @@ Quando a Tabela C apresenta **somente** um código `TC-FC`, o próprio anexo res
 
 A Lei nº 9.936/2013 fornece a estrutura jurídica da organização administrativa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Leis posteriores alteraram cargos, requisitos, valores e anexos. Já atos do próprio Tribunal detalham competências e funcionamento das unidades.
 
-No corte do edital — **6 de julho de 2026** — o estudo deve combinar as fontes sem misturar seus papéis:
+No corte do edital — **7 de julho de 2026** — o estudo deve combinar as fontes sem misturar seus papéis:
 
 | Fonte | O que resolve |
 | --- | --- |

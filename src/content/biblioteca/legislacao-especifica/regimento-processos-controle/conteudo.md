@@ -24,7 +24,7 @@ Essa sequência permite organizar quase todo o assunto em três perguntas:
 
 ## 2. Recorte e corte temporal
 
-O eixo deste capítulo é o Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, aprovado pela Resolução Administrativa nº 1/2000, com as alterações vigentes na publicação do edital, em **6 de julho de 2026**.
+O eixo deste capítulo é o Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, aprovado pela Resolução Administrativa nº 1/2000, com as alterações vigentes na publicação do edital, em **7 de julho de 2026**.
 
 Duas alterações de 2025 merecem atenção especial neste recorte:
 

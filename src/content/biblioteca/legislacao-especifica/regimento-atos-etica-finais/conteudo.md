@@ -14,7 +14,7 @@ Imagine que alguém quer mudar uma regra interna do Tribunal. A pergunta útil n
 
 Esse fluxo organiza quase todo o assunto. O Regimento também disciplina duas matérias que se conectam a ele: a formação da **Súmula da Jurisprudência** e a estrutura das comissões regimentais.
 
-O capítulo trata do Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, aprovado pela Resolução Administrativa nº 001/2000, com **corte normativo em 6 de julho de 2026**, data de publicação do edital.
+O capítulo trata do Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, aprovado pela Resolução Administrativa nº 001/2000, com **corte normativo em 7 de julho de 2026**, data de publicação do edital.
 
 Há um cuidado importante: o texto regimental foi alterado muitas vezes. Algumas remissões antigas permaneceram na compilação mesmo depois de dispositivos terem sido revogados. Em prova literal, não se deve reconstruir a norma por adivinhação: vale a redação vigente no corte, inclusive quando ela conserva uma remissão histórica imperfeita.
 
@@ -241,7 +241,7 @@ O artigo 337 preserva as disposições regulamentares anteriores **compatíveis*
 
 Isso é uma regra de transição: a entrada em vigor do Regimento não eliminou automaticamente toda regulamentação anterior.
 
-O parágrafo único acrescentado ao artigo 337 pela Resolução nº 386/2023 determinou vigência temporária, até **31 de dezembro de 2024**, para regra ligada ao artigo 141-C. No corte de 6 de julho de 2026, essa disposição já estava **exaurida**.
+O parágrafo único acrescentado ao artigo 337 pela Resolução nº 386/2023 determinou vigência temporária, até **31 de dezembro de 2024**, para regra ligada ao artigo 141-C. No corte de 7 de julho de 2026, essa disposição já estava **exaurida**.
 
 O artigo 338 estabelece que o Regimento entrou em vigor em **21 de janeiro de 2000**.
 

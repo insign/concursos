@@ -29,7 +29,7 @@ A estrutura básica pode ser lida assim:
 
 A Constituição Federal passou, com a <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026, a qualificar os Tribunais de Contas como **instituições permanentes e essenciais ao exercício do controle externo**. A mesma emenda também veda sua extinção e a criação ou instalação de novos Tribunais e Conselhos de Contas nas hipóteses constitucionais indicadas.
 
-> **Corte normativo do edital: 6 de julho de 2026.** Por isso, esta aula considera, entre outras alterações já vigentes nessa data, a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 96/2024, as Leis estaduais nº 12.437/2024 e nº 12.501/2025 e a <abbr title="Emenda Constitucional">EC</abbr> federal nº 139/2026. Alteração posterior ao corte não substitui a regra cobrada no edital.
+> **Corte normativo do edital: 7 de julho de 2026.** Por isso, esta aula considera, entre outras alterações já vigentes nessa data, a <abbr title="Emenda Constitucional">EC</abbr> estadual nº 96/2024, as Leis estaduais nº 12.437/2024 e nº 12.501/2025 e a <abbr title="Emenda Constitucional">EC</abbr> federal nº 139/2026. Alteração posterior ao corte não substitui a regra cobrada no edital.
 
 ### 1.1. Plenário e Câmaras
 

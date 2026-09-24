@@ -98,7 +98,7 @@ Aplicam-se às representações, no que couber, regras regimentais da denúncia 
 
 ## 4. O que a Resolução nº 437/2026 mudou no modo de processar
 
-A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437, de 25 de março de 2026, foi publicada em 30 de março de 2026. Ela já estava vigente quando o edital desta campanha foi publicado em 6 de julho de 2026 e, por isso, integra o corte normativo relevante.
+A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437, de 25 de março de 2026, foi publicada em 30 de março de 2026. Ela já estava vigente quando o edital desta campanha foi publicado em 7 de julho de 2026 e, por isso, integra o corte normativo relevante.
 
 A resolução cria uma sequência que ajuda a entender o processamento:
 
@@ -295,6 +295,6 @@ Essa ordem evita confundir **admissibilidade**, **prioridade** e **mérito**.
 
 ## 12. Corte normativo e fronteiras
 
-O recorte considera o Regimento Interno vigente na publicação do edital, em **6 de julho de 2026**, e a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437/2026, publicada em **30 de março de 2026**.
+O recorte considera o Regimento Interno vigente na publicação do edital, em **7 de julho de 2026**, e a Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 437/2026, publicada em **30 de março de 2026**.
 
 Garantias processuais gerais, produção de provas e contagem de prazos pertencem ao Assunto 060. Decisões, débitos, sanções e execução ficam no 061; recursos e revisão, no 062; atos normativos, ética e regras finais, no 063. Aqui foram mantidas apenas as pontes indispensáveis para entender o fluxo de denúncia, representação e consulta.

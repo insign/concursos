@@ -22,7 +22,7 @@ Este capítulo acompanha exatamente esse caminho. Recursos, embargos de declara�
 
 ### 1.1. Corte normativo
 
-O edital foi publicado em **6 de julho de 2026**. O parâmetro deste assunto é o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes nessa data, em conjunto com a Constituição, a Lei nº 8.258/2005 e a jurisprudência aplicável do <abbr title="Supremo Tribunal Federal">STF</abbr>.
+O edital foi publicado em **7 de julho de 2026**. O parâmetro deste assunto é o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes nessa data, em conjunto com a Constituição, a Lei nº 8.258/2005 e a jurisprudência aplicável do <abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 As regras deste bloco sofreram alterações anteriores, inclusive pelas Resoluções nº 97/2006 e nº 268/2017. Decisões oficiais do próprio <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em 2026 continuam aplicando os dispositivos de sanções e cobrança estudados a seguir.
 

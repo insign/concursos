@@ -28,7 +28,7 @@ Neste capítulo, **ordenador de despesas** é o gestor que pratica atos de execu
 
 ### 1.1. Recorte e corte normativo
 
-O núcleo estudado corresponde aos **artigos 8º a 13 e 34 a 58 da Lei Estadual nº 8.258/2005**, na redação vigente em **6 de julho de 2026**, data de publicação do edital.
+O núcleo estudado corresponde aos **artigos 8º a 13 e 34 a 58 da Lei Estadual nº 8.258/2005**, na redação vigente em **7 de julho de 2026**, data de publicação do edital.
 
 O recorte abrange:
 

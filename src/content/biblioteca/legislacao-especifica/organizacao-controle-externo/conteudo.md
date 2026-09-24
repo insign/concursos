@@ -18,7 +18,7 @@ Na organização interna da <abbr title="Secretaria de Fiscalização">SEFIS</ab
 
 Esse mapa resolve a distinção central do assunto: **organizar, dirigir, fiscalizar e instruir não é o mesmo que julgar**. A Secretaria e suas equipes produzem o suporte técnico necessário; elas não substituem Pleno, Câmaras, relatores ou outras autoridades nas competências decisórias que a ordem jurídica lhes atribui.
 
-O corte do edital é **6 de julho de 2026**. O núcleo estudado é a Lei Estadual nº 9.936/2013, já com as alterações vigentes nessa data, e os atos internos necessários para compreender como a estrutura legal funciona. Cargos, códigos, requisitos, gratificações, valores e anexos ficam no Assunto 070.
+O corte do edital é **7 de julho de 2026**. O núcleo estudado é a Lei Estadual nº 9.936/2013, já com as alterações vigentes nessa data, e os atos internos necessários para compreender como a estrutura legal funciona. Cargos, códigos, requisitos, gratificações, valores e anexos ficam no Assunto 070.
 
 ## 2. Lei e regulamento mostram camadas diferentes da mesma organização
 

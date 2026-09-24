@@ -31,7 +31,7 @@ Essa separação explica por que existem prazos próprios para cada etapa.
 
 ## 2. Recorte normativo e corte do edital
 
-O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, cobra a <abbr title="Instrução Normativa">IN</abbr> nº 50/2017 **e alterações**. Para o corte do edital, o núcleo do assunto é formado por:
+O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **7 de julho de 2026**, cobra a <abbr title="Instrução Normativa">IN</abbr> nº 50/2017 **e alterações**. Para o corte do edital, o núcleo do assunto é formado por:
 
 | Ato | Papel no estudo |
 |---|---|

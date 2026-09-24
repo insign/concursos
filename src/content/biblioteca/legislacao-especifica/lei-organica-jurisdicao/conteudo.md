@@ -17,7 +17,7 @@ Considere um exemplo hipotético: uma associação privada recebe recursos estad
 
 Esse raciocínio evita duas confusões comuns. O **controle externo** é a fiscalização institucional da gestão pública exercida a partir de uma posição externa ao órgão controlado. **Jurisdição não é sinônimo de Poder Judiciário**: aqui, a palavra indica a esfera própria de atuação desse controle. E **estar sob jurisdição não significa que toda atuação será julgamento de contas**: conforme o caso, o Tribunal poderá apreciar, julgar, fiscalizar, registrar, decidir consulta, expedir cautelar ou exercer outra competência prevista em lei.
 
-O núcleo deste assunto são os **artigos 1º a 7º da Lei Estadual nº 8.258/2005**, com corte normativo em **6 de julho de 2026**, data do edital. Os artigos 9º e 10 e a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 entram apenas na medida necessária para compreender a diferença entre contas de governo e contas de gestão de Prefeito. Organização do Tribunal, contas em profundidade, instrumentos de fiscalização, processo, decisões, sanções, execução e recursos ficam para os assuntos seguintes.
+O núcleo deste assunto são os **artigos 1º a 7º da Lei Estadual nº 8.258/2005**, com corte normativo em **7 de julho de 2026**, data de publicação do edital. Os artigos 9º e 10 e a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 entram apenas na medida necessária para compreender a diferença entre contas de governo e contas de gestão de Prefeito. Organização do Tribunal, contas em profundidade, instrumentos de fiscalização, processo, decisões, sanções, execução e recursos ficam para os assuntos seguintes.
 
 ## 2. Onde a Lei Orgânica se encaixa
 

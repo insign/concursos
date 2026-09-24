@@ -34,7 +34,7 @@ Esse encadeamento é mais útil do que decorar dez artigos isolados.
 
 ## 2. O que a norma alcança e qual é o corte do edital
 
-O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de **6 de julho de 2026**, cobra expressamente a <abbr title="Instrução Normativa">IN</abbr> nº 82/2025. O edital também admite a avaliação de alterações legislativas que tenham entrado em vigor até a data de sua publicação.
+O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de **6 de julho de 2026**, publicado em **7 de julho de 2026**, cobra expressamente a <abbr title="Instrução Normativa">IN</abbr> nº 82/2025. O edital também admite a avaliação de alterações legislativas que tenham entrado em vigor até a data de sua publicação.
 
 A <abbr title="Instrução Normativa">IN</abbr> nº 82 foi aprovada em **10 de dezembro de 2025**, publicada em **15 de dezembro de 2025** e entrou em vigor nessa publicação. O texto oficial possui **10 artigos, distribuídos em 6 capítulos, sem anexos**.
 

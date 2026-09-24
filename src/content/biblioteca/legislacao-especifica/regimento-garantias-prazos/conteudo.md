@@ -16,7 +16,7 @@ Esse fluxo organiza o capítulo:
 
 É nesse encadeamento que aparecem o devido processo legal, o contraditório e a ampla defesa. Eles não são fórmulas abstratas: protegem a regularidade da passagem entre um apontamento técnico e uma decisão que possa afetar o responsável ou interessado.
 
-O recorte considera o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes na publicação do edital, em **6 de julho de 2026**. A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 423/2025 já integrava esse regime e é especialmente relevante para o processo eletrônico e para os arts. 157-A e 158.
+O recorte considera o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000, com as alterações vigentes na publicação do edital, em **7 de julho de 2026**. A Resolução <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 423/2025 já integrava esse regime e é especialmente relevante para o processo eletrônico e para os arts. 157-A e 158.
 
 Decisões, sanções, execução, recursos e revisão têm assuntos próprios. Aqui, eles aparecem apenas quando forem necessários para compreender a defesa, a prova ou o prazo.
 
