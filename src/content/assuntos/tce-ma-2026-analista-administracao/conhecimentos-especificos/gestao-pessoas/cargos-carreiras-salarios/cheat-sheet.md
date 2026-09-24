@@ -37,7 +37,7 @@
 
 **governança → diagnóstico → descrições válidas → arquitetura → avaliação de cargos → mercado → faixas/política → simulação → validação → implantação/monitoramento**
 
-Plano técnico **não cria** automaticamente promoção, reajuste ou vantagem.
+**Política salarial** explicita posição diante do mercado, critérios de crescimento, componentes e limites. **Composto salarial:** fatores internos (valor do cargo, estratégia, capacidade financeira) + externos (mercado, conjuntura, legislação, negociação). Plano técnico não cria automaticamente promoção, reajuste ou vantagem.
 
 ## Avaliação de cargos
 
@@ -48,16 +48,11 @@ Plano técnico **não cria** automaticamente promoção, reajuste ou vantagem.
 | **comparação por fatores** | compara fatores compensáveis | análise fina | complexo; pode reproduzir valores históricos |
 | **pontos por fator** | fator + grau + peso + pontos | rastreável | custo, subjetividade, falsa precisão |
 
-### Pegadinhas
-
-- fator avalia **trabalho**, não pessoa;
-- ponto do cargo ≠ nota de desempenho;
-- resultado da avaliação ≠ salário automático;
-- pontos por fator parece matemático, mas pesos/graus exigem julgamento.
+**Fatores clássicos:** requisitos mentais e físicos, responsabilidades e condições de trabalho; pontos/pesos envolvem julgamento. Comitê pode uniformizar critérios, melhorar a hierarquização e aceitação; não precisa ser único para todos os grupos nem produz equilíbrio externo.
 
 ## Mercado e política salarial
 
-**Pesquisa válida = trabalhos comparáveis, não títulos iguais.**
+**Pesquisa válida = trabalhos comparáveis, não títulos iguais.** Cargos de referência devem cobrir vários pontos da estrutura, ser identificáveis no mercado e representar áreas relevantes.
 
 Considere:
 
@@ -81,7 +76,7 @@ Considere:
 
 ## Curva e faixas
 
-- **curva salarial:** relaciona valor relativo do cargo e remuneração;
+- **curva salarial:** relaciona valor relativo do cargo e remuneração; em ajuste por mínimos quadrados, a reta minimiza a soma dos quadrados dos desvios;
 - **faixa:** mínimo + ponto médio + máximo;
 - **sobreposição:** pode facilitar crescimento/mobilidade;
 - sobreposição excessiva → perde clareza entre níveis;
@@ -98,7 +93,7 @@ Compressão é **diagnóstico**, não fórmula automática de reajuste.
 | benefícios | componentes indiretos/serviços | dependem do regime |
 | não financeira | reconhecimento, autonomia, desenvolvimento, carreira | não substitui remuneração justa |
 
-**Recompensa total = remuneração + benefícios + desenvolvimento + experiência de trabalho.**
+**Recompensa total = remuneração + benefícios + desenvolvimento + experiência de trabalho.** Incentivos exigem regra compreensível, recompensa alcançável e apoio da gestão; medir só quantidade pode prejudicar qualidade.
 
 ## Estrutura tradicional × broadbanding
 
@@ -140,18 +135,3 @@ Nenhum desses conceitos cria direito automático: a regra concreta depende do re
 - **art. 39, § 1º:** natureza + responsabilidade + complexidade + requisitos + peculiaridades.
 - **<abbr title="Súmula Vinculante">SV</abbr> 37:** Judiciário não aumenta vencimentos por isonomia.
 - **Subsídio:** depende do regime constitucional/legal competente; não presumir para qualquer cargo.
-
-## Pegadinhas finais
-
-- Avaliação de cargos = avaliação de desempenho → **errado**.
-- Ranking mede distância exata → **errado**.
-- Pontos por fator elimina subjetividade → **errado**.
-- Título igual = cargo comparável no mercado → **errado**.
-- Equidade interna = pagar igual a todos → **errado**.
-- Competitividade externa = liderar mercado sempre → **errado**.
-- Faixa larga = liberdade total para pagar → **errado**.
-- Broadbanding = muitas faixas estreitas → **errado**.
-- Mobilidade lateral = promoção → **errado**.
-- Pesquisa salarial autoriza reajuste público → **errado**.
-- Avaliação do cargo autoriza aumento público → **errado**.
-- <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> adota progressão/benefício X sem fonte própria → **não afirmar**.
