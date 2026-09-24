@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u141-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Constituição Federal admite a interceptação de comunicações telefônicas, como exceção ao sigilo, quando",
       "options": [
         {
           "id": "A",
-          "text": "autorizada pela autoridade policial para qualquer finalidade administrativa."
+          "text": "houver ordem judicial, nas hipóteses e na forma legais, para investigação criminal ou instrução processual penal."
         },
         {
           "id": "B",
-          "text": "houver ordem judicial, nas hipóteses e na forma legais, para investigação criminal ou instrução processual penal."
+          "text": "autorizada pela autoridade policial para qualquer finalidade administrativa."
         },
         {
           "id": "C",
@@ -29,22 +29,22 @@
           "text": "for destinada exclusivamente a processo disciplinar."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 5º, XII, da Constituição exige ordem judicial e finalidade de investigação criminal ou instrução processual penal."
     },
     {
       "id": "u141-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 1º da Lei nº 9.296/1996, a interceptação telefônica depende de",
       "options": [
         {
           "id": "A",
-          "text": "ordem do juiz competente da ação principal e tramitação sob segredo de justiça."
+          "text": "autorização exclusiva do delegado de polícia."
         },
         {
           "id": "B",
-          "text": "autorização exclusiva do delegado de polícia."
+          "text": "ordem do juiz competente da ação principal e tramitação sob segredo de justiça."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "requerimento obrigatório da vítima."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 1º exige ordem do juiz competente da ação principal e preservação do segredo de justiça."
     },
     {
       "id": "u141-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O parágrafo único do artigo 1º da Lei nº 9.296/1996 estende o regime da lei à interceptação",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "do fluxo de comunicações em sistemas de informática e telemática."
+          "text": "de correspondência postal por decisão administrativa."
         },
         {
           "id": "C",
-          "text": "de correspondência postal por decisão administrativa."
+          "text": "do fluxo de comunicações em sistemas de informática e telemática."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "de imagens públicas captadas por câmera ostensiva."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A lei inclui expressamente a interceptação do fluxo de comunicações em sistemas de informática e telemática."
     },
     {
       "id": "u141-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A interceptação não será admitida quando",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "não houver indícios razoáveis de autoria ou participação em infração penal."
+          "text": "o investigado tiver advogado constituído."
         },
         {
           "id": "D",
-          "text": "o investigado tiver advogado constituído."
+          "text": "não houver indícios razoáveis de autoria ou participação em infração penal."
         },
         {
           "id": "E",
           "text": "a investigação estiver sob sigilo."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O artigo 2º, I, impede a medida na ausência de indícios razoáveis de autoria ou participação."
     },
     {
       "id": "u141-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O requisito de subsidiariedade da interceptação significa que",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "ela não será admitida se a prova puder ser feita por outros meios disponíveis."
+          "text": "a autoridade policial escolhe livremente a medida mais invasiva."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "a autoridade policial escolhe livremente a medida mais invasiva."
+          "text": "ela não será admitida se a prova puder ser feita por outros meios disponíveis."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 2º, II, veda a interceptação quando a prova puder ser feita por outros meios disponíveis."
     },
     {
       "id": "u141-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em regra, o artigo 2º, III, impede a interceptação quando o fato investigado constituir",
       "options": [
         {
           "id": "A",
-          "text": "crime hediondo."
+          "text": "infração penal punida, no máximo, com pena de detenção."
         },
         {
           "id": "B",
-          "text": "infração penal punida, no máximo, com pena de detenção."
+          "text": "crime hediondo."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "crime com concurso de agentes."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A literalidade do inciso III impede a medida quando a infração for punida, no máximo, com detenção."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "u141-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Pela literalidade do artigo 3º, a autoridade policial pode requerer interceptação",
       "options": [
         {
           "id": "A",
-          "text": "na investigação criminal."
+          "text": "apenas na fase recursal."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "apenas na fase recursal."
+          "text": "na investigação criminal."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "somente com anuência prévia do investigado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O inciso I do artigo 3º legitima a autoridade policial a requerer a medida na investigação criminal."
     },
     {
       "id": "u141-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Pela literalidade do artigo 3º, o Ministério Público pode requerer interceptação",
       "options": [
@@ -258,23 +258,23 @@
         },
         {
           "id": "C",
-          "text": "na investigação criminal e na instrução processual penal."
+          "text": "apenas após sentença."
         },
         {
           "id": "D",
-          "text": "apenas após sentença."
+          "text": "na investigação criminal e na instrução processual penal."
         },
         {
           "id": "E",
           "text": "somente em ação penal privada."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O inciso II prevê atuação do Ministério Público tanto na investigação quanto na instrução processual penal."
     },
     {
       "id": "u141-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre a expressão 'de ofício' constante do artigo 3º da Lei nº 9.296/1996, é correto afirmar que",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "a literalidade legal prevê determinação judicial de ofício, embora a iniciativa na fase investigatória seja objeto de controvérsia constitucional nas ADIs 3.450 e 4.112."
+          "text": "se aplica somente à captação ambiental do artigo 8º-A."
         },
         {
           "id": "C",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "se aplica somente à captação ambiental do artigo 8º-A."
+          "text": "a literalidade legal prevê determinação judicial de ofício, embora a iniciativa na fase investigatória seja objeto de controvérsia constitucional nas ADIs 3.450 e 4.112."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O texto do artigo 3º conserva 'de ofício'. A constitucionalidade da iniciativa judicial na investigação é discutida nas ADIs indicadas e não deve ser tratada como tese final inventada."
     },
     {
       "id": "u141-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O pedido de interceptação deve conter",
       "options": [
         {
           "id": "A",
-          "text": "apenas a indicação do investigado."
+          "text": "demonstração da necessidade da medida e indicação dos meios a serem empregados."
         },
         {
           "id": "B",
-          "text": "demonstração da necessidade da medida e indicação dos meios a serem empregados."
+          "text": "apenas a indicação do investigado."
         },
         {
           "id": "C",
@@ -329,12 +329,12 @@
           "text": "confissão do investigado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 4º exige demonstração da necessidade à apuração e indicação dos meios a serem empregados."
     },
     {
       "id": "u141-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O pedido verbal de interceptação",
       "options": [
@@ -344,11 +344,11 @@
         },
         {
           "id": "B",
-          "text": "é a forma normal do requerimento."
+          "text": "pode ser admitido excepcionalmente, presentes os pressupostos, devendo ser reduzido a termo."
         },
         {
           "id": "C",
-          "text": "pode ser admitido excepcionalmente, presentes os pressupostos, devendo ser reduzido a termo."
+          "text": "é a forma normal do requerimento."
         },
         {
           "id": "D",
@@ -359,12 +359,12 @@
           "text": "torna desnecessária decisão judicial escrita ou fundamentada."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O artigo 4º, § 1º, admite excepcionalmente o pedido verbal, mas condiciona a concessão à redução a termo e à presença dos pressupostos."
     },
     {
       "id": "u141-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O juiz deve decidir sobre o pedido de interceptação no prazo máximo de",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "24 horas."
+          "text": "48 horas."
         },
         {
           "id": "C",
-          "text": "48 horas."
+          "text": "24 horas."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "10 dias."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 4º, § 2º, fixa prazo máximo de 24 horas."
     },
     {
       "id": "u141-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A decisão que autoriza interceptação telefônica deve ser",
       "options": [
         {
           "id": "A",
-          "text": "fundamentada, sob pena de nulidade, e indicar a forma de execução."
+          "text": "posterior ao início da captação."
         },
         {
           "id": "B",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "posterior ao início da captação."
+          "text": "fundamentada, sob pena de nulidade, e indicar a forma de execução."
         },
         {
           "id": "E",
           "text": "sempre colegiada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 5º exige decisão fundamentada, sob pena de nulidade, e indicação da forma de execução."
     },
     {
       "id": "u141-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Cada autorização de interceptação prevista no artigo 5º não pode exceder",
       "options": [
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "15 dias."
+          "text": "60 dias."
         },
         {
           "id": "D",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "60 dias."
+          "text": "15 dias."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O artigo 5º fixa período máximo de 15 dias para cada autorização, admitindo renovação quando comprovada a indispensabilidade."
     },
     {
       "id": "u141-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema 661 do STF, as renovações sucessivas da interceptação",
       "options": [
         {
           "id": "A",
-          "text": "são sempre proibidas após o primeiro período de 15 dias."
+          "text": "são lícitas se os requisitos legais persistirem, a necessidade e a complexidade forem demonstradas concretamente e as decisões forem motivadas."
         },
         {
           "id": "B",
-          "text": "são lícitas se os requisitos legais persistirem, a necessidade e a complexidade forem demonstradas concretamente e as decisões forem motivadas."
+          "text": "são sempre proibidas após o primeiro período de 15 dias."
         },
         {
           "id": "C",
@@ -479,7 +479,7 @@
           "text": "podem se apoiar em modelo genérico sem relação com o caso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O Tema 661 admite renovações sucessivas com fundamentação concreta; motivações padronizadas ou genéricas são ilegais."
     },
     {
@@ -544,7 +544,7 @@
     },
     {
       "id": "u141-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A perícia para identificação de voz captada em interceptação",
       "options": [
@@ -558,23 +558,23 @@
         },
         {
           "id": "C",
-          "text": "é desnecessária como regra, salvo dúvida plausível que justifique a medida."
+          "text": "substitui a ordem judicial."
         },
         {
           "id": "D",
-          "text": "substitui a ordem judicial."
+          "text": "é desnecessária como regra, salvo dúvida plausível que justifique a medida."
         },
         {
           "id": "E",
           "text": "é exclusiva da defesa e nunca pode ser determinada judicialmente."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A Jurisprudência em Teses do STJ registra que a perícia de voz não é obrigatória, salvo dúvida plausível."
     },
     {
       "id": "u141-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após o cumprimento da diligência, a autoridade policial encaminhará ao juiz",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "o resultado da interceptação acompanhado de auto circunstanciado com resumo das operações."
+          "text": "somente a lista de números telefônicos."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "somente a lista de números telefônicos."
+          "text": "o resultado da interceptação acompanhado de auto circunstanciado com resumo das operações."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 6º, § 2º, exige resultado e auto circunstanciado com resumo das operações realizadas."
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "id": "u141-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No inquérito policial, a Lei nº 9.296/1996 determina que a apensação dos autos da interceptação ocorra",
       "options": [
@@ -674,11 +674,11 @@
         },
         {
           "id": "B",
-          "text": "imediatamente antes do relatório da autoridade policial."
+          "text": "somente após oferecida a denúncia."
         },
         {
           "id": "C",
-          "text": "somente após oferecida a denúncia."
+          "text": "imediatamente antes do relatório da autoridade policial."
         },
         {
           "id": "D",
@@ -689,12 +689,12 @@
           "text": "quando a concessionária autorizar."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O parágrafo único do artigo 8º prevê a apensação imediatamente antes do relatório da autoridade policial."
     },
     {
       "id": "u141-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A gravação que não interessar à prova será inutilizada",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "por decisão judicial, a requerimento do Ministério Público ou da parte interessada."
+          "text": "pela concessionária telefônica."
         },
         {
           "id": "C",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "pela concessionária telefônica."
+          "text": "por decisão judicial, a requerimento do Ministério Público ou da parte interessada."
         },
         {
           "id": "E",
           "text": "somente após trânsito em julgado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 9º exige decisão judicial; Ministério Público ou interessado podem requerer a inutilização."
     },
     {
       "id": "u141-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma interceptação realizada sem autorização judicial, quando esta é exigida, pode gerar",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "prova ilícita, sujeita à inadmissibilidade e ao desentranhamento."
+          "text": "prova válida se houver confissão posterior."
         },
         {
           "id": "C",
@@ -746,21 +746,21 @@
         },
         {
           "id": "E",
-          "text": "prova válida se houver confissão posterior."
+          "text": "prova ilícita, sujeita à inadmissibilidade e ao desentranhamento."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A Constituição e o artigo 157 do CPP vedam a prova obtida por meio ilícito; o resultado posterior não convalida a obtenção ilegal."
     },
     {
       "id": "u141-a26",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto às provas derivadas de uma interceptação ilícita, o CPP admite preservá-las quando",
       "options": [
         {
           "id": "A",
-          "text": "o crime for grave."
+          "text": "não houver nexo causal com a ilicitude ou houver fonte independente."
         },
         {
           "id": "B",
@@ -768,7 +768,7 @@
         },
         {
           "id": "C",
-          "text": "não houver nexo causal com a ilicitude ou houver fonte independente."
+          "text": "o crime for grave."
         },
         {
           "id": "D",
@@ -779,7 +779,7 @@
           "text": "a interceptação tiver durado menos de 15 dias."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O artigo 157, § 1º, afasta a contaminação quando não há nexo causal ou quando existe fonte independente."
     },
     {
@@ -814,7 +814,7 @@
     },
     {
       "id": "u141-a28",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A teoria do juízo aparente, aplicada à interceptação durante investigação, indica que",
       "options": [
@@ -824,11 +824,11 @@
         },
         {
           "id": "B",
-          "text": "a autorização por juiz aparentemente competente conforme os fatos então conhecidos não se torna automaticamente ilícita porque fatos posteriores revelaram outra competência."
+          "text": "a competência nunca pode mudar."
         },
         {
           "id": "C",
-          "text": "a competência nunca pode mudar."
+          "text": "a autorização por juiz aparentemente competente conforme os fatos então conhecidos não se torna automaticamente ilícita porque fatos posteriores revelaram outra competência."
         },
         {
           "id": "D",
@@ -839,12 +839,12 @@
           "text": "a polícia escolhe definitivamente o juízo competente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A competência investigativa é aferida com base no quadro conhecido; mudança posterior não contamina automaticamente autorização originariamente válida."
     },
     {
       "id": "u141-a29",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Tema 977 do STF, a apreensão física de aparelho celular foi distinguida do acesso aos dados porque",
       "options": [
@@ -854,7 +854,7 @@
         },
         {
           "id": "B",
-          "text": "a apreensão legal pode ocorrer sem reserva de jurisdição, mas o acesso aos dados de aparelho apreendido, como regra, exige consentimento livre ou decisão judicial fundamentada e delimitada, ressalvada a exceção específica da tese."
+          "text": "mensagens armazenadas são sempre interceptação telefônica."
         },
         {
           "id": "C",
@@ -862,19 +862,19 @@
         },
         {
           "id": "D",
-          "text": "mensagens armazenadas são sempre interceptação telefônica."
+          "text": "a apreensão legal pode ocorrer sem reserva de jurisdição, mas o acesso aos dados de aparelho apreendido, como regra, exige consentimento livre ou decisão judicial fundamentada e delimitada, ressalvada a exceção específica da tese."
         },
         {
           "id": "E",
           "text": "apreensão e perícia são juridicamente idênticas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O Tema 977 separa a apreensão do aparelho do acesso ao conteúdo e estabelece condicionantes próprias para os dados."
     },
     {
       "id": "u141-a30",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A gravação de conversa telefônica realizada por um dos próprios interlocutores",
       "options": [
@@ -888,7 +888,7 @@
         },
         {
           "id": "C",
-          "text": "não se confunde com interceptação por terceiro e, na jurisprudência criminal, pode ser lícita sem autorização quando não houver causa legal de sigilo ou reserva."
+          "text": "é tipificada automaticamente pelo artigo 10-A."
         },
         {
           "id": "D",
@@ -896,25 +896,25 @@
         },
         {
           "id": "E",
-          "text": "é tipificada automaticamente pelo artigo 10-A."
+          "text": "não se confunde com interceptação por terceiro e, na jurisprudência criminal, pode ser lícita sem autorização quando não houver causa legal de sigilo ou reserva."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A gravação por participante tem estrutura diversa da interceptação por terceiro; a jurisprudência criminal admite sua licitude nas condições indicadas."
     },
     {
       "id": "u141-a31",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A captação ambiental do artigo 8º-A exige que",
       "options": [
         {
           "id": "A",
-          "text": "a prova possa ser obtida com a mesma eficácia por meio menos invasivo."
+          "text": "a prova não possa ser feita por outros meios disponíveis e igualmente eficazes."
         },
         {
           "id": "B",
-          "text": "a prova não possa ser feita por outros meios disponíveis e igualmente eficazes."
+          "text": "a prova possa ser obtida com a mesma eficácia por meio menos invasivo."
         },
         {
           "id": "C",
@@ -929,7 +929,7 @@
           "text": "a medida seja executada sem ordem judicial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 8º-A, I, exige indisponibilidade de outros meios igualmente eficazes."
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "id": "u141-a33",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O requerimento de captação ambiental deve descrever circunstanciadamente",
       "options": [
@@ -974,11 +974,11 @@
         },
         {
           "id": "B",
-          "text": "o local e a forma de instalação do dispositivo."
+          "text": "somente o tipo penal."
         },
         {
           "id": "C",
-          "text": "somente o tipo penal."
+          "text": "o local e a forma de instalação do dispositivo."
         },
         {
           "id": "D",
@@ -989,12 +989,12 @@
           "text": "a sentença futura."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O § 1º do artigo 8º-A exige descrição do local e da forma de instalação do dispositivo."
     },
     {
       "id": "u141-a34",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A instalação do dispositivo de captação ambiental",
       "options": [
@@ -1004,7 +1004,7 @@
         },
         {
           "id": "B",
-          "text": "pode ocorrer por operação policial disfarçada ou no período noturno quando necessária, mas não afasta a proteção constitucional da casa."
+          "text": "dispensa qualquer controle sobre local privado."
         },
         {
           "id": "C",
@@ -1012,25 +1012,25 @@
         },
         {
           "id": "D",
-          "text": "dispensa qualquer controle sobre local privado."
+          "text": "pode ocorrer por operação policial disfarçada ou no período noturno quando necessária, mas não afasta a proteção constitucional da casa."
         },
         {
           "id": "E",
           "text": "só pode ocorrer em local público."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O § 2º admite operação disfarçada ou noturna, excetuando a casa nos termos do artigo 5º, XI, da Constituição."
     },
     {
       "id": "u141-a35",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A captação ambiental autorizada pelo artigo 8º-A pode durar",
       "options": [
         {
           "id": "A",
-          "text": "até 15 dias por período, renováveis por iguais períodos se comprovada a indispensabilidade e presente atividade criminal permanente, habitual ou continuada."
+          "text": "até 5 dias, sem renovação."
         },
         {
           "id": "B",
@@ -1046,25 +1046,25 @@
         },
         {
           "id": "E",
-          "text": "até 5 dias, sem renovação."
+          "text": "até 15 dias por período, renováveis por iguais períodos se comprovada a indispensabilidade e presente atividade criminal permanente, habitual ou continuada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O § 3º fixa 15 dias e permite renovações por iguais períodos sob os requisitos expressos."
     },
     {
       "id": "u141-a36",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A captação ambiental feita por um dos interlocutores, sem prévio conhecimento da polícia ou do Ministério Público,",
       "options": [
         {
           "id": "A",
-          "text": "nunca pode ser usada."
+          "text": "pode ser utilizada em matéria de defesa quando demonstrada a integridade da gravação."
         },
         {
           "id": "B",
-          "text": "pode ser utilizada em matéria de defesa quando demonstrada a integridade da gravação."
+          "text": "nunca pode ser usada."
         },
         {
           "id": "C",
@@ -1079,7 +1079,7 @@
           "text": "é válida somente se feita por servidor público."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 8º-A, § 4º, prevê uso defensivo quando demonstrada a integridade."
     },
     {
@@ -1114,13 +1114,13 @@
     },
     {
       "id": "u141-a38",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o artigo 10-A, assinale a alternativa correta.",
       "options": [
         {
           "id": "A",
-          "text": "A captação ambiental sem autorização, quando exigida, tem pena de 2 a 4 anos e multa; não há crime do caput se a captação é feita por um dos interlocutores, e a pena dobra para funcionário público nas hipóteses de quebra de sigilo previstas no § 2º."
+          "text": "A pena é apenas multa."
         },
         {
           "id": "B",
@@ -1128,7 +1128,7 @@
         },
         {
           "id": "C",
-          "text": "A pena é apenas multa."
+          "text": "A captação ambiental sem autorização, quando exigida, tem pena de 2 a 4 anos e multa; não há crime do caput se a captação é feita por um dos interlocutores, e a pena dobra para funcionário público nas hipóteses de quebra de sigilo previstas no § 2º."
         },
         {
           "id": "D",
@@ -1139,12 +1139,12 @@
           "text": "O artigo trata exclusivamente de interceptação telefônica."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O caput tipifica a captação ambiental sem autorização quando exigida; o § 1º exclui o crime se feita por um interlocutor e o § 2º dobra a pena do funcionário público nas hipóteses de violação do sigilo."
     },
     {
       "id": "u141-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 49 do Cebraspe para Escrivão da Polícia Civil do Maranhão, aplicada em 2018, o material colhido em interceptação telefônica autorizada durante inquérito policial deve",
       "options": [
@@ -1158,23 +1158,23 @@
         },
         {
           "id": "C",
-          "text": "tramitar em autos apartados e ser apensado sigilosamente ao inquérito imediatamente antes do relatório da autoridade policial."
+          "text": "ser juntado publicamente ao inquérito desde o primeiro dia."
         },
         {
           "id": "D",
-          "text": "ser juntado publicamente ao inquérito desde o primeiro dia."
+          "text": "tramitar em autos apartados e ser apensado sigilosamente ao inquérito imediatamente antes do relatório da autoridade policial."
         },
         {
           "id": "E",
           "text": "aguardar a sentença para ser documentado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O gabarito definitivo da questão original foi C. O artigo 8º estabelece autos apartados, sigilo e, no inquérito, apensação imediatamente antes do relatório policial."
     },
     {
       "id": "u141-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 4 da prova oral Cebraspe para Delegado da Polícia Federal em 2021, uma investigação envolve delito punido com detenção conectado a outro delito punido com reclusão. Presentes indícios razoáveis e a necessidade da medida, é correto afirmar que",
       "options": [
@@ -1184,7 +1184,7 @@
         },
         {
           "id": "B",
-          "text": "a jurisprudência do STJ admite que a interceptação validamente decretada alcance o delito de detenção quando ele é conexo ao delito de reclusão."
+          "text": "a conexão elimina a necessidade de decisão judicial."
         },
         {
           "id": "C",
@@ -1196,10 +1196,10 @@
         },
         {
           "id": "E",
-          "text": "a conexão elimina a necessidade de decisão judicial."
+          "text": "a jurisprudência do STJ admite que a interceptação validamente decretada alcance o delito de detenção quando ele é conexo ao delito de reclusão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O padrão oficial da prova oral registra o entendimento do STJ de que a interceptação pode alcançar crime punido com detenção quando conexo a delito punido com reclusão, mantidos os demais requisitos legais."
     }
   ]
