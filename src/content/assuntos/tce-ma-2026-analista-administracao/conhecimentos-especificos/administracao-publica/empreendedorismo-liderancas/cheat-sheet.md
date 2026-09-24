@@ -1,326 +1,59 @@
+# Empreendedorismo governamental e novas lideranças
 
-# Cheat sheet — Empreendedorismo governamental e novas lideranças
+## A decisão empreendedora no governo
 
-## 1. Núcleo do assunto
+**Problema público → hipótese de melhoria → teste autorizado → evidência → incorporação ou interrupção.** Empreender combina iniciativa, mobilização de recursos, incerteza e valor público. **Intraempreender** é agir dentro da organização, mesmo sem chefia; influência não cria competência para gastar ou afastar regra. Inovação é novidade **implementada** no contexto, não só ideia, digitalização, privatização ou garantia de melhora.
 
-**Empreendedorismo público** = iniciativa + mobilização de capacidades + implementação + risco governado + valor público.
-
-Não é:
-
-- empresa privada dentro do órgão;
-- propriedade pessoal dos recursos;
-- lucro do agente;
-- privatização automática;
-- inovação sem legalidade;
-- autonomia sem alçada.
-
-**Intraempreendedorismo** ocorre dentro de organização existente e pode começar sem cargo de chefia.
-
-## 2. Níveis de atuação
-
-| Nível | Exemplo |
+| Verifique o triângulo de valor público | Se faltar... |
 | --- | --- |
-| individual | servidor identifica barreira e articula solução |
-| equipe/organizacional | órgão redesenha processo ou serviço |
-| política/institucional | mudança de regra, incentivo ou arranjo |
-| sistêmico/ecossistêmico | vários órgãos e setores enfrentam problema complexo |
+| **Valor:** benefício social legítimo, direitos e equidade | Melhora de produtividade pode ocultar exclusão. |
+| **Ambiente autorizador:** mandato jurídico, legitimidade e apoio | Apoio político não substitui autorização legal. |
+| **Capacidade operacional:** pessoas, processos, orçamento, tecnologia e parceiros | Projeto útil e autorizado pode não ser entregue. |
 
-Iniciativa informal **não** cria competência jurídica.
+Prestação de contas e responsabilização (<abbr title="Prestação de contas e responsabilização">accountability</abbr>) acompanham a iniciativa. Colaboração privada não transfere automaticamente propriedade ou controle do serviço. O objetivo não é lucro do agente. Diferencie **coprodução** (usuários participam da produção) de simples consulta. A <abbr title="New Public Management">NPM</abbr> enfatiza autonomia gerencial com medidas e resultados; respostas pós-<abbr title="New Public Management">NPM</abbr> procuram recompor coordenação entre órgãos; a Nova Governança Pública focaliza redes e interdependência. Nenhuma extingue legalidade ou continuidade.
 
-## 3. Triângulo estratégico do valor público
+**Osborne e Gaebler — dez direções, não lei brasileira:** catalisar/orientar prestadores, empoderar a comunidade, competição adequada, missão, resultados, necessidades do cliente, buscar receitas e retorno do gasto, prevenção, descentralização e incentivos de mercado. “Cliente” não reduz cidadão a consumidor; catalisar não exige privatizar; descentralizar não dissolve responsabilidade; centralização contradiz esse modelo.
 
-| Dimensão | Pergunta |
+## Inovar sem confundir classificações
+
+| Qual a pergunta? | Resposta que a classificação organiza |
 | --- | --- |
-| valor público | produz benefício relevante, legítimo e equitativo? |
-| ambiente autorizador | há mandato, apoio, autorização e sustentação? |
-| capacidade operacional | existem pessoas, recursos, processos, tecnologia e parceiros? |
+| **O que muda?** | Serviço, processo, organização, governança, política, regulação ou comunicação. |
+| **Para quê / diante de qual incerteza?** | Aperfeiçoamento do existente, adaptação a mudança, antecipação de futuros plausíveis ou missão pública articuladora — quatro orientações do portfólio da <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>. Missão define fim, sem precisar conhecer todo meio; antecipar não é adivinhar. |
+| **Como descobrir se funciona?** | Protótipo representa e testa aspectos; prova de conceito verifica viabilidade técnica; experimento confronta hipótese; piloto opera em realidade de alcance limitado. Piloto bem-sucedido não garante efeito ou expansão. |
+| **Como ampliar?** | Para fora = mais localidades/pessoas; para cima = regras/políticas; em profundidade = cultura e relações. Adaptar ao contexto não é quarta direção; desescala pode encerrar solução ineficaz. |
 
-Falhas típicas:
+Teste responsável explicita hipótese, alçada, duração, recursos, participantes, proteção de direitos, indicadores e critérios de parar/ampliar. Hipótese refutada em teste bem governado ensina; falha de implementação pede capacidade, de desenho pede rever solução, de governança pede corrigir decisões/controles. Negligência ou fraude exige apuração; conflito de interesses requer prevenção e tratamento, sem presumir automaticamente ilícito. **Média melhor pode esconder exclusão:** verifique acesso, conclusão e efeitos por grupos, quando pertinente. Escala exige manutenção, interoperabilidade (troca e uso compatível de dados), custos, equidade e responsáveis; institucionalizar integra a prática a processos e recursos.
 
-- valor sem autorização → iniciativa insustentável;
-- autorização sem valor → ação legitimada politicamente, mas injustificada;
-- valor + autorização sem capacidade → promessa sem entrega;
-- capacidade sem direção pública → eficiência de atividade pouco útil.
+## Liderança: qual mecanismo o caso pede?
 
-## 4. Público × privado × privatização
+**Gestão** organiza e acompanha; **liderança** mobiliza pessoas; **autoridade formal** define alçadas. Cargo não garante influência, influência não autoriza ato reservado.
 
-| Tema | Privado | Público |
+| Situação | Lente de liderança | Limite |
 | --- | --- | --- |
-| finalidade | valor econômico e continuidade do negócio | valor público, direitos e interesse coletivo |
-| recursos | propriedade e contratos privados | orçamento, competência e patrimônio público |
-| risco | segundo propriedade e contratos | risco institucional com legalidade e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
-| sucesso | receita, crescimento, lucro e impacto | efetividade, legitimidade, equidade, confiança e eficiência |
+| Mobilizar sentido, mudança e desenvolvimento | **Transformacional** | Inspiração sem execução não entrega. |
+| Dar clareza a metas, acordos e desvio | **Transacional**: recompensa contingente e gestão por exceção | Recompensas e correções públicas seguem regras legais. |
+| Solução técnica conhecida × conflito de hábitos e valores | **Adaptativa**: enfrentar problema sem resposta pronta, regular tensão, manter atenção disciplinada e devolver trabalho aos envolvidos | Problema técnico pode ser difícil; restauração da ordem ou resposta pronta nem sempre resolve desafio adaptativo. |
+| Interdependência de equipes e órgãos | **Colaborativa, distribuída e de fronteiras**: propósito, diálogo, tradução entre áreas e coordenação | Rede precisa definir decisões, execução e prestação de contas; evitar captura por um participante. |
+| Desenvolver pessoas e preservar confiança/recursos | **Servidora**; <abbr title="Custódia responsável de recursos e interesses confiados">stewardship</abbr> | Servir não é permissividade, nem recursos pertencem ao líder. |
+| Explorar alternativa e depois convergir | **Ambidestra**: abertura a ideias e testes + fechamento para selecionar, priorizar e consolidar | Exploração interminável não entrega; fechamento precoce impede aprender. |
 
-Empreendedorismo governamental **não é** privatização.
+Resistência pode sinalizar sobrecarga, falta de capacidade, desconfiança ou objeção fundamentada. **Segurança psicológica** é poder discordar e admitir erro sem humilhação; junto à exigência de desempenho favorece aprendizagem, sem apagar metas ou responsabilidade. Inclusão permite que perspectivas distintas influenciem decisões, não é só diversidade numérica.
 
-## 5. Referenciais de Administração Pública
+A matriz da <abbr title="Escola Nacional de Administração Pública">Enap</abbr> traz **nove competências**: estratégia (visão de futuro, inovação e mudança, comunicação estratégica); resultados (valor para usuário, gestão de crises, gestão para resultados); pessoas (coordenação e colaboração em rede, engajamento, autoconhecimento e desenvolvimento). A Recomendação da <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> de 2019 promove liderança e capacidade do serviço público, instrumento orientador sem força de lei brasileira; não é a matriz da <abbr title="Escola Nacional de Administração Pública">Enap</abbr>.
 
-| Referencial | Ênfase |
+## Instrumentos jurídicos: três funções diferentes
+
+O Decreto nº 9.203/2017 disciplina a administração pública **federal** direta, autárquica e fundacional: governança **avalia, direciona e monitora** mediante liderança, estratégia e controle. Seus princípios: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas/responsabilidade, transparência. O artigo 17 integra riscos a planejamento, atividades, processos e projetos; controles internos proporcionais ao risco e ao custo-benefício. Não imponha o decreto ao tribunal estadual como obrigação automática.
+
+| Instrumento | Quando e por quê |
 | --- | --- |
-| burocracia profissional | legalidade, imparcialidade, continuidade e capacidade |
-| <abbr title="New Public Management">NPM</abbr> | desempenho, autonomia, contratos, competição seletiva e eficiência |
-| pós-NPM | reintegração e governo como um todo |
-| Nova Governança Pública | redes, coprodução, confiança e pluralidade |
-| valor público | benefício, legitimidade e capacidade |
+| **Ambiente regulatório experimental** (*sandbox*) da Lei Complementar nº 182/2021 | Autoriza temporariamente, sob limites definidos pelo regulador setorial, afastar **normas sob sua competência** para testar em condições especiais. Não é compra pública nem dispensa geral da lei. |
+| <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr> da Lei Complementar nº 182/2021 | **Licitação especial → contrato de teste → eventual fornecimento**. Demanda pública por solução inovadora com tecnologia; escopo pode indicar problema e resultado sem fixar solução técnica. Pessoas físicas/jurídicas, isoladas ou em consórcio; solução desenvolvida ou a desenvolver, com ou sem risco tecnológico; mais de uma proposta pode ser selecionada. Não é exclusivo de *startups*. |
+| **Diálogo competitivo** da Lei nº 14.133/2021 | Licitação para hipóteses restritas do artigo 32: objeto com condições do inciso I e necessidade de identificar meios/alternativas do inciso II; diálogo com pré-selecionados para encontrar soluções e **depois** propostas finais. Não é contrato para testar protótipo. |
 
-Eles podem coexistir. Pós-NPM não elimina metas, eficiência ou autoridade.
+No <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>, após homologação: duração **até 12 meses + uma prorrogação até 12**; limite do texto legal **R$ 1,6 milhão por contrato** (edital pode reduzir; Poder Executivo federal pode atualizar anualmente pelo índice legal, sem automatismo). Cláusulas: metas/aferição, relatórios, matriz de riscos, propriedade intelectual e participação na exploração. Havendo risco tecnológico, remunera-se o trabalho conforme cronograma e critério contratado mesmo que o resultado não seja alcançado por esse risco, **salvo incentivo variável vinculado à meta**; inviabilidade comprovada admite rescisão.
 
-## 6. Osborne e Gaebler
+Depois do teste, contrato de fornecimento com a mesma contratada **pode** ser celebrado sem nova licitação: até **24 meses + uma prorrogação até 24**; limite total, inclusive prorrogações, **cinco vezes o teto legal do <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>**, não cinco vezes o preço efetivo do teste, ressalvados reajuste e acréscimos legais. Se múltiplas soluções atingirem metas, justificar melhor relação custo-benefício/qualidade/preço. Estatais podem adotar o capítulo no que couber conforme regulamentos próprios, com limites diferenciados por seus conselhos. No artigo 32 do diálogo, o inciso I reúne inovação técnica/tecnológica, necessidade de adaptar soluções disponíveis e impossibilidade de especificar com precisão suficiente; o inciso II busca identificar solução, requisitos ou estrutura jurídica/financeira. “Complexo” sem enquadramento demonstrado não basta.
 
-1. catalisador;
-2. pertencente à comunidade;
-3. competitivo;
-4. orientado por missão;
-5. orientado a resultados;
-6. orientado ao cliente;
-7. empreendedor;
-8. preventivo;
-9. descentralizado;
-10. orientado ao mercado.
-
-Pegadinhas:
-
-- catalisador ≠ Estado ausente;
-- missão ≠ dispensa de legalidade;
-- cliente ≠ cidadão reduzido a consumidor;
-- competição ≠ solução universal;
-- descentralização ≠ responsabilidade dissolvida.
-
-## 7. Inovação pública
-
-**Ideia** não é inovação sem implementação.
-
-Digitalização não prova:
-
-- redesenho;
-- valor público;
-- inclusão;
-- eficiência;
-- efetividade.
-
-### Orientações do portfólio
-
-- aperfeiçoamento;
-- adaptativa;
-- antecipatória;
-- orientada por missão.
-
-### Objetos da inovação
-
-- serviço;
-- processo;
-- organização;
-- governança;
-- política;
-- regulação;
-- comunicação.
-
-Orientação e objeto são dimensões diferentes.
-
-## 8. Barreiras e habilitadores
-
-| Barreira | Habilitador |
-| --- | --- |
-| aversão indiscriminada ao risco | risco governado e alçadas |
-| silos | redes e interoperabilidade |
-| rotina sem aprendizagem | incentivos e reconhecimento |
-| medo de qualquer falha | distinção entre teste, negligência e ilícito |
-| dados frágeis | infraestrutura e competência analítica |
-| falta de patrocínio | ambiente autorizador |
-| descontinuidade | institucionalização |
-| dependência de fornecedor | arquitetura e gestão de risco |
-| pouca escuta | participação e pesquisa de serviço |
-| solução prematura | investigação do problema |
-
-## 9. Instrumentos de aprendizagem
-
-| Instrumento | Para quê |
-| --- | --- |
-| protótipo | representar e testar aspectos rapidamente |
-| prova de conceito | verificar viabilidade técnica |
-| experimento | testar hipótese |
-| piloto | operar em escala limitada e contexto real |
-| sandbox | teste regulatório temporário e controlado |
-| escala | ampliar com capacidade e governança |
-
-Protótipo não prova impacto. Piloto não garante escala. Sandbox não elimina a lei.
-
-## 10. Ciclo de inovação
-
-1. definir problema;
-2. reunir evidências e perspectivas;
-3. gerar alternativas;
-4. explicitar hipóteses;
-5. prototipar/experimentar;
-6. avaliar;
-7. decidir;
-8. institucionalizar/difundir;
-9. monitorar/aprender.
-
-## 11. Escala
-
-- para cima: norma, política, orçamento;
-- para fora: replicação;
-- em profundidade: cultura e comportamento;
-- adaptação: preservar mecanismo, mudar forma;
-- desescala: reduzir ou encerrar.
-
-Antes de escalar: evidência, custo, capacidade, equidade, risco, interoperabilidade, legitimidade, manutenção e monitoramento.
-
-## 12. Falhas
-
-| Situação | Resposta |
-| --- | --- |
-| hipótese falsificada em teste responsável | aprendizagem |
-| problema de implementação | corrigir execução/capacidade |
-| falha de desenho | rever problema e teoria de mudança |
-| falha de governança | rever alçadas e controles |
-| negligência | apurar responsabilidade |
-| fraude/conflito de interesses | ilícito, não inovação |
-| repetição de erro conhecido | ausência de aprendizagem |
-
-## 13. Evidências, participação e equidade
-
-Evidência informa; não automatiza a decisão.
-
-Participação:
-
-- melhora diagnóstico;
-- revela barreiras;
-- testa linguagem;
-- identifica efeitos;
-- gera legitimidade.
-
-Participação não transfere automaticamente a competência.
-
-Média melhor não comprova equidade. Desagregue dados quando pertinente.
-
-## 14. Decreto nº 9.203/2017
-
-**Governança** = avaliar + direcionar + monitorar.
-
-Mecanismos:
-
-| Mecanismo | Núcleo |
-| --- | --- |
-| liderança | integridade, competência, responsabilidade e motivação |
-| estratégia | direção, prioridades e alinhamento |
-| controle | riscos, controles internos, auditoria e accountability |
-
-Princípios incluem capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas/responsabilidade e transparência.
-
-## 15. Instrumentos jurídicos
-
-### Sandbox
-
-- autorização temporária;
-- critérios e limites;
-- regulador só afasta normas sob sua competência;
-- não é espaço sem lei.
-
-### <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>
-
-- <abbr title="Lei Complementar">LC</abbr> nº 182/2021;
-- problema público e resultado esperado podem definir o escopo;
-- solução pronta ou a desenvolver;
-- com ou sem risco tecnológico;
-- pode selecionar mais de uma solução;
-- não é exclusivo de startups;
-- contrato posterior é possível, não automático.
-
-### Diálogo competitivo
-
-- Lei nº 14.133/2021;
-- contratação complexa;
-- diálogo com licitantes selecionados;
-- depois, propostas finais.
-
-CPSI ≠ diálogo competitivo.
-
-## 16. Gestão, liderança e autoridade
-
-- gestão organiza e controla;
-- liderança mobiliza propósito, aprendizagem e mudança;
-- autoridade formal decorre de competência ou delegação;
-- cargo não garante liderança;
-- liderança informal não cria alçada;
-- liderança distribuída não dissolve responsabilidade.
-
-## 17. Modelos de liderança
-
-| Modelo | Núcleo | Pegadinha |
-| --- | --- | --- |
-| transformacional | visão, inspiração e desenvolvimento | não é carisma sem execução |
-| transacional | metas, acordos e correção | não é sempre ruim |
-| adaptativa | aprendizagem diante de desafio sem resposta pronta | não é improviso |
-| colaborativa | ação conjunta entre fronteiras | não elimina conflito |
-| distribuída | influência espalhada | não dissolve responsabilidade |
-| servidora | servir e desenvolver | não é permissividade |
-| stewardship | custódia responsável | recursos não pertencem ao líder |
-| ambidestra | abertura + fechamento | experimentar sem convergir não entrega |
-
-## 18. Liderança de fronteiras
-
-- convocar atores;
-- construir propósito;
-- traduzir linguagens;
-- negociar recursos e papéis;
-- facilitar deliberação;
-- administrar conflito;
-- compartilhar informação;
-- proteger accountability;
-- evitar captura.
-
-## 19. Segurança psicológica × accountability
-
-| Segurança | Accountability | Resultado |
-| --- | --- | --- |
-| baixa | baixa | apatia |
-| baixa | alta | ansiedade e ocultação |
-| alta | baixa | conforto sem exigência |
-| alta | alta | aprendizagem e desempenho |
-
-Segurança psicológica não é ausência de meta, avaliação ou consequência.
-
-## 20. <abbr title="Escola Nacional de Administração Pública">Enap</abbr> e <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>
-
-### Enap: nove competências em três eixos
-
-- estratégia: visão de futuro; inovação e mudança; comunicação estratégica;
-- resultados: valor para usuário; gestão de crises; gestão para resultados;
-- pessoas: redes; engajamento; autoconhecimento.
-
-### OCDE/LEGAL/0445
-
-Recomendação de soft law sobre liderança e capacidade do serviço público. Não é lei brasileira autoaplicável.
-
-## 21. Método de prova
-
-Pergunte:
-
-1. qual valor público?
-2. para quem?
-3. há legitimidade e autorização?
-4. existe capacidade?
-5. qual incerteza será reduzida?
-6. qual instrumento é adequado?
-7. quais riscos e salvaguardas?
-8. quais evidências e efeitos distributivos?
-9. quem decide, executa e responde?
-10. como institucionalizar e aprender?
-
-## 22. Julgamentos rápidos
-
-- valor sem capacidade garante resultado — **errado**;
-- apoio político basta — **errado**;
-- servidor sem cargo pode liderar informalmente — **certo**;
-- liderança informal confere competência — **errado**;
-- orientação antecipatória prevê exatamente o futuro — **errado**;
-- piloto bem-sucedido garante escala — **errado**;
-- hipótese falsificada em teste responsável é sempre fracasso — **errado**;
-- solução conhecida pode ser inovação no contexto — **certo**;
-- colaboração elimina conflito — **errado**;
-- segurança psicológica dispensa accountability — **errado**;
-- <abbr title="Nova Governança Pública">NGP</abbr> elimina mensuração — **errado**;
-- CPSI é exclusivo de startup — **errado**;
-- contrato posterior ao CPSI é automático — **errado**.
+**Corte:** lei em vigor na publicação do Edital nº 1 em **7/7/2026**; consulta posterior não altera a regra cobrada. O valor de R$ 1,6 milhão foi lido no texto legal, sem afirmar ausência de atualização por ato específico para cada contratação.
