@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após as inspeções contextuais de **U001–U005, U007, U008, U010–U060, U062–U071 e U073–U148 em PC-F02**, com U061 e U072 examinadas, mas com proveniência pendente: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; cento e vinte e sete pacotes locais e dezessete origens canônicas foram inspecionados contextualmente e as correções e inspeções de U035–U041 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após as inspeções contextuais de **U001–U005, U007, U008, U010–U060, U062–U071 e U073–U158 em PC-F02**, com U061 e U072 examinadas, mas com proveniência pendente: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; cento e trinta e sete pacotes locais e dezessete origens canônicas foram inspecionados contextualmente e as correções e inspeções de U035–U041 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos can
 
 As inspeções pontuais de PC-F02 não criam unidade ou tarefa macro adicional e não reabrem aceites. O restante não concluído de PC-F02 fica `pending` ao encerrar este ciclo; reservas ativas são controladas exclusivamente no painel da #764. PC-R04 permanece `done`, com **42/42** unidades parciais aceitas.
 
-**Próxima ação habilitada: PC-F02 — seguir para U149 — Medicina Legal; U006, U009, U061 e U072 aguardam reconciliação documental.** U006 continua pulada pela divergência de identidade já registrada. A identidade de U009 foi conferida na `main` como `pc-u009`, ordem 9, em `estrutura-morfossintatica-periodo`, mas a própria unidade apresenta **divergência de classificação**: PC-R02 herdado a inclui entre as parciais, enquanto `referencias.md` afirma que nenhum doador equivalente foi localizado e a trata como assunto novo/local. U009 deve ser pulada, sem normalização por inferência, até reconciliação autorizada. U008, U010–U060, U062–U071 e U073–U148 já foram inspecionadas; U061 e U072 tiveram C/H/R/Q examinados, porém sem certificação contextual por lacunas de proveniência. Todas permanecem C/H/Q `done` da etapa editorial. Não repetir publicações confirmadas nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
+**Próxima ação habilitada: PC-F02 — reconciliar documentalmente U006, U009, U061 e U072 antes do aceite.** U006 continua pulada pela divergência de identidade já registrada. A identidade de U009 foi conferida na `main` como `pc-u009`, ordem 9, em `estrutura-morfossintatica-periodo`, mas a própria unidade apresenta **divergência de classificação**: PC-R02 herdado a inclui entre as parciais, enquanto `referencias.md` afirma que nenhum doador equivalente foi localizado e a trata como assunto novo/local. U009 deve ser pulada, sem normalização por inferência, até reconciliação autorizada. U008, U010–U060, U062–U071 e U073–U158 já foram inspecionadas; U061 e U072 tiveram C/H/R/Q examinados, porém sem certificação contextual por lacunas de proveniência. Todas permanecem C/H/Q `done` da etapa editorial. Não repetir publicações confirmadas nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
 
 ### Pendências e divergências herdadas
 
@@ -875,9 +875,49 @@ Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conheciment
 
 Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direitos-humanos/grupos-vulneraveis-atividade-policial-direitos-humanos/`, identidade `pc-u148`, ordem 148, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E15 preservados. 26 questões com cinco alternativas, IDs únicos, gabarito e explicações; respostas corretas textuais preservadas, opções redistribuídas, revisões individuais ajustadas e conjunto 1→2 em `db262a410d86bdffbbf326b013b838da1fd3da14`.  Blobs C `f2b31c160639e015a60f6d0c9be4659dc4ee4f21`, H `541e9ddcff14fc3b1ccb6212770f5d34df9bcd19`, R `2dc942229508bcf785aff895707ceb0c50f3bfdd`, Q `3d1e80dfc1b80b8d8164d644ef7c9d1b8728175b`.
 
+#### U149 — Fundamentos da Medicina Legal — conceitos, importância e divisões — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/fundamentos-medicina-legal/`, identidade `pc-u149`, ordem 149, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 22 questões, cinco alternativas, IDs únicos, gabarito e explicações; resposta correta textual preservada, alternativas redistribuídas, revisões individuais ajustadas e conjunto 1→2 em `335a6cd58efa0e4f367e21f1a456386521236345`. Blobs C `466ad8c691dc2663ea4c469adafd88919897f3dc`, H `618a18ca7287d1bca06ba291d2058b73a97d29f9`, R `ffda98c815e608702dabc8769ec07935999874a0`, Q `c1b858b5da091afcc23917481d67300c367cf3b5`.
+
+#### U150 — Corpo de delito, perícia e peritos em Medicina Legal — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/corpo-delito-pericia-peritos-medicina-legal/`, identidade `pc-u150`, ordem 150, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 26 questões, cinco alternativas, IDs únicos, gabarito e explicações; resposta correta textual preservada, alternativas redistribuídas, revisões individuais ajustadas e conjunto 1→2 em `d75aa4b99631f7ea1272606f095dec9c18eed822`. Blobs C `133bb568efd3982448c4d22eb6b52aa29116229b`, H `d59468a73b384c14926ef9fbe9adfa626e2d5310`, R `dfe8262863e7b248d0b637c137e1b761225f890c`, Q `7037aa57698002b8406198bd554e90f9a873d41f`.
+
+#### U151 — Documentos médico-legais e identificação — identidade, reconhecimento e métodos — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/documentos-medico-legais-identificacao/`, identidade `pc-u151`, ordem 151, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 28 questões, cinco alternativas, IDs únicos, gabarito e explicações; resposta correta textual preservada, alternativas redistribuídas, revisões individuais ajustadas e conjunto 1→2 em `eb07d5e01310b78864ebfd0002723ef97e4072af`. Blobs C `42af4b557c14099b212c95276b32a402785317bf`, H `0480825f2461919f4811606f5cdca4a792250df4`, R `d5fee9f18cb1d1e53f56deb34f78ba9999352d5e`, Q `ae09395b447ea9f209ea6121dc40d4e99a5409bf`.
+
+#### U152 — Traumatologia médico-legal — lesões por ação contundente, armas brancas e projéteis — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/traumatologia-medico-legal-lesoes-armas-projeteis/`, identidade `pc-u152`, ordem 152, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 29 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `a040f7896c5f953fd1b016e5b8c09a2ca8343aa2`, H `8b064630c927aac8ad9c1078771a88e67103d9ed`, R `1a3eba1514876c74a9f8838ae53259ffd6fe60f8`, Q `a0a146a92ab9308a876e7c75749cb1e8bf8c8993`.
+
+#### U153 — Tanatologia forense — morte, fenômenos cadavéricos e cronologia médico-legal — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/tanatologia-forense-morte-fenomenos-cadavericos/`, identidade `pc-u153`, ordem 153, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 31 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `86e896e991cb5e7e53eabd22ae51ad82cc1ce90e`, H `2ca49ff5f2a8e3fd8c16f894367e04b57e599da2`, R `95ba6d1b27084dea9fa7ac223e56683a5a5fd221`, Q `d1ed520ad7318b3c844c24c0a0e0d70f83419134`.
+
+#### U154 — Exame médico-legal de locais de crime — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/exame-medico-legal-locais-crime/`, identidade `pc-u154`, ordem 154, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 26 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `995521dc432975b1ab97895c6aea20b0453c66fe`, H `981ccc8dba235345a8be40b50352cbbf310fa9b9`, R `e58cdd90ec8085737f4115d96a87fd866258b99d`, Q `06b8bd67789ab7b826d3213456ca02c3db2e5289`.
+
+#### U155 — Psiquiatria forense — imputabilidade penal e capacidade civil — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/medicina-legal/psiquiatria-forense-imputabilidade-capacidade-civil/`, identidade `pc-u155`, ordem 155, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E16 preservados. 28 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `08cc87f0631d2b040dfb6d1702c6b82478e0a5e6`, H `5bd1cd25019f299af6fdd3dfc6e96be589006fef`, R `b6aedf72ddc2557c50b1d89219c1bad714b4cb48`, Q `8070da81949d8db0728fc3b17feff203027c3bd9`.
+
+#### U156 — Fundamentos da Criminologia — conceito, métodos e objetos — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/criminologia/fundamentos-criminologia-conceito-metodos-objetos/`, identidade `pc-u156`, ordem 156, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E17 preservados. 27 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `4eede47209a8691222ba456698c8e3a1a802c282`, H `c19f9a7187c53d46c303d4bf90ce05d3119c7dc5`, R `7d2a874bbf0cfd9d6d64295db00ad6fd3ca5f1d1`, Q `63d530c1c59bbde858dd5af852f7d01547597ebb`.
+
+#### U157 — Funções da Criminologia e política criminal — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/criminologia/funcoes-criminologia-politica-criminal/`, identidade `pc-u157`, ordem 157, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E17 preservados. 26 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `ab612c02d300b0a98dd853b01e3a9e31dd24a7ae`, H `743c8a8bd6543f826125ea66f33a23d3b27fe1b2`, R `29b283af2d8950007db248cc33316a3a619cd9ab`, Q `615b12ddb99dcaefd598022948b10fb9e8ae7222`.
+
+#### U158 — Modelos teóricos da Criminologia — teorias sociológicas e prevenção da infração penal — PC-F02, 24/09/2026
+
+Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/criminologia/modelos-teoricos-criminologia-prevencao/`, identidade `pc-u158`, ordem 158, nova/local, sem vínculo canônico. C/H/R/Q inspecionados; recorte e fronteiras de PC-E17 preservados. 29 questões, cinco alternativas, IDs únicos, gabarito e explicações; distribuição já equilibrada, sem edição de Q. Blobs C `6da937183c6dbed61fb5f55aeec28ced8f02de0a`, H `d55cf52d03940fcbdc062dfd9b806508a614efbf`, R `9d80c072cde031fd0080cef060cbde04dbf95738`, Q `a82d9feec060b6b73e8bf967bf262a83e926aec8`.
+
 **Divergências preservadas:** (1) a linha herdada deste arquivo associa U006 a `estrutura-morfossintatica-periodo`, enquanto a `main` atual resolve `pc-u006`/ordem 6 para `classes-nominais-de-palavras`; U006 segue pulada. (2) A `main` resolve `estrutura-morfossintatica-periodo` como `pc-u009`, ordem 9, mas PC-R02 herdado a classifica como parcial e o `referencias.md` local a declara nova/local, sem doador equivalente localizado. A identidade atual de U009 está confirmada, mas a classificação não foi normalizada por inferência; U009 segue pulada até reconciliação autorizada.
 
-**Restante de PC-F02:** U001–U005, U007, U008, U010–U060, U062–U071 e U073–U148 somam **127 pacotes locais e 17 origens canônicas** com inspeções contextuais documentadas; permanecem **14 pacotes locais e nenhuma origem canônica**, inclusive U006, U009, U061 e U072 entre as pendências documentais. **Próximo recorte elegível: U149 — Medicina Legal.** PC-F02 permanece `pending` até concluir o escopo e reconciliar as divergências.
+**Restante de PC-F02:** U001–U005, U007, U008, U010–U060, U062–U071 e U073–U158 somam **137 pacotes locais e 17 origens canônicas** com inspeções contextuais documentadas; permanecem **quatro pacotes locais e nenhuma origem canônica**: U006, U009, U061 e U072. PC-F02 permanece `pending` até reconciliar as quatro divergências e certificar seus pacotes.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
