@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u124-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para a configuração dos crimes da Lei nº 13.869/2019, a regra geral exige que a conduta seja praticada",
       "options": [
         {
           "id": "A",
-          "text": "com qualquer culpa funcional."
+          "text": "com a finalidade específica de prejudicar alguém, beneficiar a si ou terceiro, ou por mero capricho ou satisfação pessoal."
         },
         {
           "id": "B",
-          "text": "com a finalidade específica de prejudicar alguém, beneficiar a si ou terceiro, ou por mero capricho ou satisfação pessoal."
+          "text": "com qualquer culpa funcional."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "apenas após ordem superior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 1º, § 1º, exige finalidade específica, nas modalidades expressamente enumeradas pela lei."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "id": "u124-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Pode ser sujeito ativo de crime de abuso de autoridade",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "qualquer agente público abrangido pela lei, servidor ou não, inclusive quem exerça função transitoriamente ou sem remuneração."
+          "text": "apenas membro do Poder Executivo."
         },
         {
           "id": "C",
-          "text": "apenas membro do Poder Executivo."
+          "text": "qualquer agente público abrangido pela lei, servidor ou não, inclusive quem exerça função transitoriamente ou sem remuneração."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "apenas agente da União."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 2º adota conceito amplo de agente público e não limita o sujeito ativo a servidor efetivo."
     },
     {
       "id": "u124-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os crimes previstos na Lei nº 13.869/2019 são, em regra, de ação penal",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "pública incondicionada."
+          "text": "popular."
         },
         {
           "id": "D",
-          "text": "popular."
+          "text": "pública incondicionada."
         },
         {
           "id": "E",
           "text": "civil pública."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O artigo 3º prevê ação penal pública incondicionada."
     },
     {
       "id": "u124-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a ação penal pública não for proposta no prazo legal, a Lei nº 13.869/2019 admite ação privada subsidiária, cujo prazo é de",
       "options": [
@@ -142,29 +142,29 @@
         },
         {
           "id": "D",
-          "text": "6 meses, contados do esgotamento do prazo para oferecimento da denúncia."
+          "text": "1 ano, contado do fato."
         },
         {
           "id": "E",
-          "text": "1 ano, contado do fato."
+          "text": "6 meses, contados do esgotamento do prazo para oferecimento da denúncia."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "O artigo 3º, § 2º, fixa seis meses a partir do esgotamento do prazo para oferecimento da denúncia."
     },
     {
       "id": "u124-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A perda do cargo, mandato ou função pública como efeito da condenação por abuso de autoridade",
       "options": [
         {
           "id": "A",
-          "text": "é automática na primeira condenação."
+          "text": "depende de reincidência em crime de abuso de autoridade e de declaração motivada na sentença."
         },
         {
           "id": "B",
-          "text": "depende de reincidência em crime de abuso de autoridade e de declaração motivada na sentença."
+          "text": "é automática na primeira condenação."
         },
         {
           "id": "C",
@@ -179,22 +179,22 @@
           "text": "substitui necessariamente a pena criminal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 4º, parágrafo único, condiciona perda e inabilitação à reincidência e exige decisão motivada; os efeitos não são automáticos."
     },
     {
       "id": "u124-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as penas restritivas de direitos previstas pela Lei de Abuso de Autoridade está",
       "options": [
         {
           "id": "A",
-          "text": "suspensão do exercício do cargo, função ou mandato por 1 a 6 meses, com perda dos vencimentos e vantagens."
+          "text": "cassação automática de aposentadoria."
         },
         {
           "id": "B",
-          "text": "cassação automática de aposentadoria."
+          "text": "suspensão do exercício do cargo, função ou mandato por 1 a 6 meses, com perda dos vencimentos e vantagens."
         },
         {
           "id": "C",
@@ -209,7 +209,7 @@
           "text": "apenas prestação pecuniária."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 5º prevê prestação de serviços e suspensão de 1 a 6 meses, com perda de vencimentos e vantagens."
     },
     {
@@ -244,7 +244,7 @@
     },
     {
       "id": "u124-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 9º da Lei nº 13.869/2019 pune",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "a decretação de medida privativa de liberdade em manifesta desconformidade com as hipóteses legais, observados os demais elementos do crime."
+          "text": "todo indeferimento de habeas corpus."
         },
         {
           "id": "C",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "todo indeferimento de habeas corpus."
+          "text": "a decretação de medida privativa de liberdade em manifesta desconformidade com as hipóteses legais, observados os demais elementos do crime."
         },
         {
           "id": "E",
           "text": "qualquer divergência judicial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O tipo exige manifesta desconformidade, e a finalidade específica do artigo 1º continua aplicável."
     },
     {
       "id": "u124-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A condução coercitiva prevista no artigo 10 pode configurar abuso quando for",
       "options": [
         {
           "id": "A",
-          "text": "manifestamente descabida ou decretada sem prévia intimação de comparecimento ao juízo."
+          "text": "dirigida a testemunha, independentemente das circunstâncias."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "dirigida a testemunha, independentemente das circunstâncias."
+          "text": "manifestamente descabida ou decretada sem prévia intimação de comparecimento ao juízo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Esses são os dois núcleos alternativos expressos do artigo 10."
     },
     {
       "id": "u124-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Deixar de comunicar prisão em flagrante à autoridade judiciária no prazo legal caracteriza o artigo 12 quando a omissão for",
       "options": [
         {
           "id": "A",
-          "text": "qualquer, ainda que justificada."
+          "text": "injustificada, além de presentes os demais elementos legais."
         },
         {
           "id": "B",
-          "text": "injustificada, além de presentes os demais elementos legais."
+          "text": "qualquer, ainda que justificada."
         },
         {
           "id": "C",
@@ -329,12 +329,12 @@
           "text": "posterior ao trânsito em julgado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 12 usa expressamente o advérbio 'injustificadamente'."
     },
     {
       "id": "u124-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Também incorre na pena do artigo 12 quem deixa de entregar ao preso a nota de culpa no prazo de",
       "options": [
@@ -344,11 +344,11 @@
         },
         {
           "id": "B",
-          "text": "12 horas."
+          "text": "24 horas."
         },
         {
           "id": "C",
-          "text": "24 horas."
+          "text": "12 horas."
         },
         {
           "id": "D",
@@ -359,18 +359,18 @@
           "text": "5 dias."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A lei fixa 24 horas para entrega da nota de culpa com os dados previstos no dispositivo."
     },
     {
       "id": "u124-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 13 protege o preso ou detento contra constrangimento, mediante violência, grave ameaça ou redução da resistência, para",
       "options": [
         {
           "id": "A",
-          "text": "produzir prova contra si mesmo ou contra terceiro, entre outras hipóteses legais."
+          "text": "receber atendimento médico."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "receber atendimento médico."
+          "text": "produzir prova contra si mesmo ou contra terceiro, entre outras hipóteses legais."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "identificar-se civilmente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O inciso III do artigo 13 inclui a produção de prova contra si ou terceiro."
     },
     {
       "id": "u124-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Prosseguir interrogatório de pessoa que decidiu exercer o direito ao silêncio",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "pode enquadrar-se no artigo 15, parágrafo único, nas condições legais."
+          "text": "é irrelevante à Lei de Abuso de Autoridade."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "é irrelevante à Lei de Abuso de Autoridade."
+          "text": "pode enquadrar-se no artigo 15, parágrafo único, nas condições legais."
         },
         {
           "id": "E",
           "text": "depende apenas de autorização policial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 15, parágrafo único, alcança a continuidade do interrogatório após exercício do direito ao silêncio."
     },
     {
       "id": "u124-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No crime de violência institucional do artigo 15-A, a pena-base é de",
       "options": [
         {
           "id": "A",
-          "text": "detenção de 3 meses a 1 ano e multa."
+          "text": "somente multa."
         },
         {
           "id": "B",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "somente multa."
+          "text": "detenção de 3 meses a 1 ano e multa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Essa é a pena-base introduzida pela Lei nº 14.321/2022."
     },
     {
       "id": "u124-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se o próprio agente público intimida vítima de crime violento, gerando indevida revitimização, o artigo 15-A prevê",
       "options": [
         {
           "id": "A",
-          "text": "aumento de um sexto."
+          "text": "aplicação da pena em dobro."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "aplicação da pena em dobro."
+          "text": "aumento de um sexto."
         },
         {
           "id": "D",
@@ -479,12 +479,12 @@
           "text": "apenas sanção administrativa."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O § 2º prevê pena em dobro quando o próprio agente público realiza a intimidação que gera indevida revitimização."
     },
     {
       "id": "u124-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o controle de constitucionalidade do artigo 15-A, na revalidação de setembro de 2026,",
       "options": [
@@ -494,11 +494,11 @@
         },
         {
           "id": "B",
-          "text": "já havia decisão colegiada final e vinculante pela constitucionalidade."
+          "text": "o julgamento no Supremo Tribunal Federal havia sido suspenso após votos divergentes e devolução de vista, sem decisão colegiada final registrada na página oficial consultada."
         },
         {
           "id": "C",
-          "text": "o julgamento no Supremo Tribunal Federal havia sido suspenso após votos divergentes e devolução de vista, sem decisão colegiada final registrada na página oficial consultada."
+          "text": "já havia decisão colegiada final e vinculante pela constitucionalidade."
         },
         {
           "id": "D",
@@ -509,7 +509,7 @@
           "text": "o dispositivo havia sido revogado por lei."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A ADI 7.201 teve voto pela validade e voto divergente; houve pedido e devolução de vista, sem decisão final registrada na revalidação."
     },
     {
@@ -544,13 +544,13 @@
     },
     {
       "id": "u124-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 20 tutela, entre outras situações,",
       "options": [
         {
           "id": "A",
-          "text": "a entrevista pessoal e reservada do preso com advogado, salvo justa causa e observadas as hipóteses legais."
+          "text": "o patrimônio público."
         },
         {
           "id": "B",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "o patrimônio público."
+          "text": "a entrevista pessoal e reservada do preso com advogado, salvo justa causa e observadas as hipóteses legais."
         },
         {
           "id": "E",
           "text": "apenas o direito de visita familiar."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 20 pune impedir, sem justa causa, a entrevista reservada e disciplina situações próximas antes e durante audiência."
     },
     {
       "id": "u124-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 22, § 1º, III, e o precedente da Terceira Seção do Superior Tribunal de Justiça, o mandado de busca domiciliar pode ser cumprido dentro do marco cronológico de",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "5h a 21h."
+          "text": "21h a 5h."
         },
         {
           "id": "C",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "21h a 5h."
+          "text": "5h a 21h."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo criminaliza cumprimento após 21h ou antes de 5h, e o RHC 196.496/RN consolidou o marco de 5h a 21h."
     },
     {
       "id": "u124-a21",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Não há crime do artigo 22 quando o ingresso em imóvel ocorre, nas condições do § 2º,",
       "options": [
         {
           "id": "A",
-          "text": "por mera curiosidade investigativa."
+          "text": "para prestar socorro ou diante de fundados indícios de flagrante delito ou desastre."
         },
         {
           "id": "B",
-          "text": "para prestar socorro ou diante de fundados indícios de flagrante delito ou desastre."
+          "text": "por mera curiosidade investigativa."
         },
         {
           "id": "C",
@@ -629,22 +629,22 @@
           "text": "para obter confissão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O § 2º enumera socorro, flagrante apoiado em fundados indícios e desastre."
     },
     {
       "id": "u124-a22",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 25 pune, entre outras condutas,",
       "options": [
         {
           "id": "A",
-          "text": "obter prova por meio manifestamente ilícito em investigação ou fiscalização."
+          "text": "qualquer produção de prova posteriormente desconsiderada."
         },
         {
           "id": "B",
-          "text": "qualquer produção de prova posteriormente desconsiderada."
+          "text": "obter prova por meio manifestamente ilícito em investigação ou fiscalização."
         },
         {
           "id": "C",
@@ -659,18 +659,18 @@
           "text": "toda prova produzida sem testemunhas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O tipo usa a expressão 'manifestamente ilícito' e também alcança o uso consciente da prova ilícita contra investigado ou fiscalizado."
     },
     {
       "id": "u124-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A instauração de procedimento investigatório sem qualquer indício de infração pode enquadrar-se no artigo 27, mas",
       "options": [
         {
           "id": "A",
-          "text": "a lei exclui expressamente sindicância ou investigação preliminar sumária devidamente justificada."
+          "text": "o tipo foi revogado pelas ADIs 6.234 e 6.240."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "o tipo foi revogado pelas ADIs 6.234 e 6.240."
+          "text": "a lei exclui expressamente sindicância ou investigação preliminar sumária devidamente justificada."
         },
         {
           "id": "D",
@@ -689,12 +689,12 @@
           "text": "só alcança investigação penal, nunca administrativa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O parágrafo único contém essa ressalva; as ADIs citadas foram encerradas sem julgamento de mérito."
     },
     {
       "id": "u124-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 31 não transforma toda investigação demorada em crime porque exige, entre outros elementos,",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "procrastinação injustificada ou imotivada em prejuízo do investigado ou fiscalizado."
+          "text": "prisão do investigado."
         },
         {
           "id": "C",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "prisão do investigado."
+          "text": "procrastinação injustificada ou imotivada em prejuízo do investigado ou fiscalizado."
         },
         {
           "id": "E",
           "text": "sigilo do procedimento."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O núcleo exige extensão injustificada ou imotivada com procrastinação e prejuízo, além da finalidade específica geral."
     },
     {
       "id": "u124-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O direito de acesso previsto no artigo 32",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "admite ressalva para peças de diligências em curso ou futuras cujo sigilo seja imprescindível."
+          "text": "não alcança cópias dos autos."
         },
         {
           "id": "C",
@@ -746,25 +746,25 @@
         },
         {
           "id": "E",
-          "text": "não alcança cópias dos autos."
+          "text": "admite ressalva para peças de diligências em curso ou futuras cujo sigilo seja imprescindível."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O próprio artigo 32 preserva o sigilo imprescindível de diligências em curso ou futuras."
     },
     {
       "id": "u124-a26",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O crime do artigo 36 exige",
       "options": [
         {
           "id": "A",
-          "text": "qualquer diferença entre o valor da dívida e o bloqueio."
+          "text": "bloqueio exacerbadamente excessivo, demonstração do excesso pela parte e falta de correção pelo magistrado, além dos elementos gerais da lei."
         },
         {
           "id": "B",
-          "text": "bloqueio exacerbadamente excessivo, demonstração do excesso pela parte e falta de correção pelo magistrado, além dos elementos gerais da lei."
+          "text": "qualquer diferença entre o valor da dívida e o bloqueio."
         },
         {
           "id": "C",
@@ -779,7 +779,7 @@
           "text": "dano patrimonial definitivo como único requisito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A estrutura cumulativa do artigo 36 impede criminalizar automaticamente qualquer bloqueio superior ao valor final devido."
     },
     {
@@ -814,7 +814,7 @@
     },
     {
       "id": "u124-a28",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 39 determina aplicação, no que couber,",
       "options": [
@@ -824,11 +824,11 @@
         },
         {
           "id": "B",
-          "text": "do Código de Processo Penal e da Lei nº 9.099/1995."
+          "text": "apenas da Lei de Improbidade."
         },
         {
           "id": "C",
-          "text": "apenas da Lei de Improbidade."
+          "text": "do Código de Processo Penal e da Lei nº 9.099/1995."
         },
         {
           "id": "D",
@@ -839,12 +839,12 @@
           "text": "somente do Código de Processo Civil."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Essa é a remissão processual expressa do artigo 39."
     },
     {
       "id": "u124-a29",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as alterações promovidas pelo artigo 40 da Lei nº 13.869/2019 na prisão temporária está",
       "options": [
@@ -854,7 +854,7 @@
         },
         {
           "id": "B",
-          "text": "a exigência de que o mandado indique a duração e o dia da libertação, além da soltura ao fim do prazo e da regra de contagem do dia do cumprimento."
+          "text": "a extinção do mandado judicial."
         },
         {
           "id": "C",
@@ -862,19 +862,19 @@
         },
         {
           "id": "D",
-          "text": "a extinção do mandado judicial."
+          "text": "a exigência de que o mandado indique a duração e o dia da libertação, além da soltura ao fim do prazo e da regra de contagem do dia do cumprimento."
         },
         {
           "id": "E",
           "text": "a conversão automática em preventiva."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Essas alterações foram introduzidas na Lei nº 7.960/1989 e são aprofundadas na U096."
     },
     {
       "id": "u124-a30",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 13.869/2019 criou o artigo 7º-B do Estatuto da Advocacia com pena originalmente menor. No corte de 13/7/2026, a pena vigente desse artigo, após a Lei nº 14.365/2022, é",
       "options": [
@@ -884,7 +884,7 @@
         },
         {
           "id": "B",
-          "text": "detenção de 2 a 4 anos e multa."
+          "text": "detenção de 6 meses a 2 anos."
         },
         {
           "id": "C",
@@ -896,10 +896,10 @@
         },
         {
           "id": "E",
-          "text": "detenção de 6 meses a 2 anos."
+          "text": "detenção de 2 a 4 anos e multa."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A Lei nº 14.365/2022 alterou a pena do artigo 7º-B para detenção de 2 a 4 anos e multa."
     },
     {
