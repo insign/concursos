@@ -58,7 +58,7 @@ Informações em <abbr title="Random Access Memory, memória de acesso aleatóri
 
 Captura de tela é **representação visual**, não sinônimo de aquisição técnica completa. Pode omitir metadados, conteúdo não visível e elementos necessários à reprodução do exame.
 
-O <abbr title="Superior Tribunal de Justiça">STJ</abbr> exige atenção à preservação, auditabilidade e possibilidade de exame técnico independente; diante de dúvida razoável sobre integridade e autenticidade, a tese consolidada em 2026 registra a necessidade de perícia.
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr> destaca preservação, auditabilidade e exame técnico independente na edição 281 de Jurisprudência em Teses; o Informativo 878 exige perícia diante de dúvida razoável sobre integridade e autenticidade.
 
 ## Checklist para auditoria
 
