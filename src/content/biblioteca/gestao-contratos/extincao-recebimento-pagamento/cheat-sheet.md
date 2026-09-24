@@ -1,148 +1,74 @@
 # Extinção, recebimento e pagamento
 
-## Corte temporal
+**Corte:** publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> em **7/7/2026**. A Lei nº 14.133/2021 traz regras nacionais; a Instrução Normativa nº 77/2022 da Secretaria de Gestão do Ministério da Economia dispõe sobre rotina federal, com alcance próprio para transferências voluntárias, sem criar prazo geral automático para o tribunal estadual.
 
-- **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
-- Datas posteriores de consulta de fontes não alteram o corte jurídico da prova.
-- Rotinas de pagamento da <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 77/2022 são disciplina **federal** e não se tornam automaticamente prazo ou procedimento do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+**Escolha o trilho:** há causa para **extinguir** o vínculo? Se a prestação prossegue, é preciso **receber** o que está conforme, **liquidar** (verificar direito e valor do credor) e **pagar** na fila pertinente. Extinção não é sanção; recebimento não é pagamento.
 
-## Extinção: ideias centrais
+## 1. Extinção: motivo → defesa → forma → efeitos (artigos 137 a 139)
 
-- Extinção rompe o vínculo; sanção pune infração.
-- Toda causa exige motivação formal, contraditório e ampla defesa.
-- Causa comprovada não produz extinção automática.
-- Descumprimento causado pela Administração impede o uso do ato unilateral contra o contratado.
+Os **nove motivos** exigem motivação formal nos autos, **contraditório e ampla defesa**; a ocorrência não extingue automaticamente o contrato.
 
-## Nove motivos do art. 137
+| Origem do problema | Motivo legal |
+|---|---|
+| Prestação e fiscalização | Descumprir edital, cláusula, especificação, projeto ou prazo; desatender determinação **regular** do fiscal ou superior. |
+| Contratado | Alteração da estrutura/finalidade que **restrinja capacidade de concluir**; falência, insolvência civil (incapacidade patrimonial do devedor civil), dissolução ou falecimento. Mudança societária isolada não basta. |
+| Impedimento/área | Caso fortuito ou força maior (eventos alheios que impedem a execução) **comprovados e impeditivos**; atraso/impossibilidade da licença ambiental ou mudança substancial do anteprojeto (concepção preliminar de engenharia) por ela imposta, ainda que obtida em prazo; atraso/impossibilidade de liberar área para desapropriação (retirada compulsória da propriedade), desocupação ou servidão administrativa (ônus público sobre imóvel). |
+| Interesse e reserva | Interesse público justificado pela **autoridade máxima**; descumprimento de reserva legal de cargos para pessoa com deficiência, reabilitado ou aprendiz. |
 
-1. descumprimento de edital, contrato, especificação, projeto ou prazo;
-2. desatendimento de determinação regular do fiscal ou de autoridade superior;
-3. mudança empresarial que restrinja a capacidade de concluir;
-4. falência, insolvência civil, dissolução ou falecimento;
-5. caso fortuito ou força maior impeditivos e comprovados;
-6. problema com licença ambiental ou alteração substancial do anteprojeto;
-7. atraso ou impossibilidade de liberar áreas;
-8. interesse público justificado pela autoridade máxima;
-9. descumprimento da reserva de cargos.
+**Direito do contratado à extinção por fatos administrativos:**
 
-## Direito do contratado à extinção
+| Gatilho | Marco |
+|---|---|
+| Supressão administrativa | Ultrapassa limite de alteração do artigo 125. |
+| Suspensão contínua por ordem escrita | **Mais de 3 meses**. |
+| Suspensões repetidas | **90 dias úteis** ao todo; preserva pagamento de mobilizações/desmobilizações imprevistas na forma legal. |
+| Pagamento devido atrasado | **Mais de 2 meses da emissão da nota fiscal**. |
+| Área, local, objeto ou fonte natural de material | Não liberados pela Administração no prazo contratual. |
 
-| Hipótese | Marco |
-| --- | --- |
-| supressão administrativa | além do limite do art. 125 |
-| suspensão escrita contínua | superior a 3 meses |
-| suspensões repetidas | total de 90 dias úteis |
-| atraso de pagamento | superior a 2 meses desde a nota fiscal |
-| não liberação | área, local, objeto ou fonte de material no prazo contratual |
+Para as **três hipóteses temporais**, o direito não se aplica em calamidade, grave perturbação interna ou guerra, nem se o contratado causou, participou ou contribuiu para o fato. Nas demais condições, ele **pode suspender suas obrigações até normalização**, admitida recomposição econômica. Ter direito à extinção não lhe confere poder de praticar o ato unilateral atribuído à Administração. Ao **iniciar** apuração de descumprimento, o contratante notifica os emitentes das garantias contratuais; não espera a decisão final.
 
-Para suspensão contínua, suspensões repetidas e atraso de pagamento:
+| Forma de extinção | Requisito decisivo |
+|---|---|
+| Unilateral | Ato **escrito** da Administração, vedado quando o descumprimento decorre da conduta dela própria. |
+| Consensual | Acordo, conciliação, mediação ou comitê de disputas, havendo interesse administrativo. |
+| Arbitral ou judicial | Decisão arbitral com cláusula compromissória (litígios futuros) ou compromisso arbitral (litígio existente); ou decisão judicial. |
 
-- não se aplicam calamidade, grave perturbação interna ou guerra;
-- não se aplicam se o contratado causou, participou ou contribuiu;
-- contratado pode suspender obrigações até a normalização;
-- admite-se recomposição do equilíbrio.
+Unilateral e consensual exigem **autorização escrita e fundamentada** da autoridade competente e termo no processo. Por **culpa exclusiva da Administração**, ressarcir prejuízos comprovados, devolver garantia, pagar execução até a extinção e custo da desmobilização (retirada de recursos da obra/serviço).
 
-**Atenção:** direito à extinção não equivale a declaração unilateral do contratado.
+Na extinção **unilateral**, a Administração pode assumir imediatamente o objeto, ocupar/utilizar local, instalações, equipamentos, material e pessoal necessários à continuidade, executar a garantia para prejuízos, verbas trabalhistas/fundiárias/previdenciárias cabíveis, multas ou retomada pela seguradora, e reter **créditos daquele contrato até os prejuízos e multas**. Assunção e ocupação são facultativas; **ocupação** exige autorização expressa do ministro ou secretário estadual/municipal competente. Esses efeitos não substituem o processo sancionador.
 
-## Garantias
-
-- Notificar os emitentes das garantias do art. 96 no início da apuração de descumprimento contratual.
-- Não esperar a decisão final.
-
-## Formas do art. 138
-
-| Forma | Conteúdo |
-| --- | --- |
-| unilateral | ato escrito da Administração; vedado se ela causou o descumprimento |
-| consensual | acordo, conciliação, mediação ou comitê de disputas; exige interesse público |
-| externa | decisão arbitral ou judicial |
-
-- Unilateral e consensual: autorização escrita e fundamentada + termo no processo.
-- Culpa exclusiva da Administração: ressarcir prejuízos regularmente comprovados + devolver garantia + pagar execução até a extinção + desmobilização.
-
-## Efeitos possíveis do ato unilateral
-
-1. assunção imediata do objeto;
-2. ocupação e uso de local, instalações, equipamentos, material e pessoal necessários;
-3. execução da garantia;
-4. retenção de créditos até o limite de prejuízos e multas.
-
-- Assunção e ocupação ficam a critério da Administração.
-- Ocupação exige autorização expressa da autoridade política indicada no art. 139, § 2º.
-- Garantia pode ressarcir prejuízos da não execução, cobrir verbas trabalhistas, fundiárias e previdenciárias cabíveis e multas ou viabilizar assunção pela seguradora.
-
-## Recebimento
+## 2. Receber: quem atesta qual exigência? (artigo 140)
 
 | Objeto | Provisório | Definitivo |
-| --- | --- | --- |
-| obras e serviços | fiscal/acompanhante + termo detalhado técnico | servidor ou comissão + termo detalhado contratual |
-| compras | fiscal/acompanhante + forma sumária | servidor ou comissão + termo detalhado contratual |
+|---|---|---|
+| Obras e serviços | Responsável por acompanhamento/fiscalização; **termo detalhado** após exigências **técnicas**. | Servidor ou comissão designada; **termo detalhado** de exigências **contratuais**. |
+| Compras | Responsável por acompanhamento/fiscalização, **forma sumária**; conformidade é verificada depois. | Servidor ou comissão designada; **termo detalhado** de exigências contratuais. |
 
-- Objeto desconforme: rejeição total ou parcial.
-- Prazos e métodos: contrato ou regulamento.
-- Ensaios e testes oficiais: por conta do contratado, salvo regra contrária no edital ou em ato normativo.
-- Recebimento não exclui responsabilidade civil nem ético-profissional.
-- Projeto de obra: projetista ou consultor responde objetivamente por todos os danos causados por falha de projeto.
-- Obra: responsabilidade objetiva por solidez, segurança e funcionalidade por no mínimo 5 anos desde o definitivo; edital e contrato podem ampliar a garantia.
+Objeto desconforme pode ser **rejeitado total ou parcialmente**. Prazos/métodos vêm de regulamento ou contrato; ensaios e testes exigidos por normas técnicas oficiais custam ao contratado, salvo edital ou ato normativo em contrário. Recebimento não apaga responsabilidade civil pela solidez/segurança nem dever ético-profissional de perfeita execução.
 
-## Não confunda
+**Após o definitivo:** projetista/consultor de projeto de obra responde **objetivamente** por danos da falha de projeto (sem necessidade de prova de culpa, exigidos dano e vínculo causal). Em obra, contratado responde objetivamente por solidez, segurança e funcionalidade por **mínimo de 5 anos**, com possível garantia superior no edital e contrato, corrigindo vícios, defeitos e incorreções. Recebimento definitivo não é quitação universal.
 
-- **medição:** quantifica execução;
-- **ateste:** confirma prestação para processar despesa;
-- **recebimento:** verifica e formaliza conformidade;
-- **liquidação:** apura o direito do credor;
-- **pagamento:** entrega o valor devido.
+**Sequência útil:** **medição** quantifica → **ateste** confirma prestação para a despesa → **recebimento** formaliza conformidade → **liquidação** apura direito do credor por documentos (artigo 63 da Lei nº 4.320/1964) → **pagamento** satisfaz o valor devido. Nos contínuos, fases podem repetir-se para parcelas.
 
-## Ordem cronológica
+## 3. Pagamento: fila, exceções e parcela incontroversa (artigos 141 a 146)
 
-Separar por **fonte diferenciada de recursos** e por categoria:
+Há **uma ordem cronológica por fonte diferenciada de recursos**, separada em **bens, locações, serviços e obras**. Alterá-la requer **justificativa prévia da autoridade competente e comunicação posterior** ao controle interno e ao tribunal de contas, além de enquadramento exclusivo:
 
-1. bens;
-2. locações;
-3. serviços;
-4. obras.
+| Hipótese de alteração | Condição adicional |
+|---|---|
+| Grave perturbação da ordem, emergência ou calamidade | Demonstrar a situação. |
+| Microempresa, empresa de pequeno porte, agricultor familiar, produtor rural pessoa física, microempreendedor individual ou cooperativa | **Risco de descontinuidade do objeto**. |
+| Serviço necessário a sistemas estruturantes (funções centrais da Administração) | **Risco de descontinuidade do objeto**. |
+| Direitos de contratos em falência, recuperação judicial (reorganização de empresa em crise) ou dissolução | Demonstrar a hipótese. |
+| Contrato indispensável à integridade patrimonial ou atividade finalística | **Risco de descontinuidade** de serviço público relevante ou cumprimento da missão institucional. |
 
-Alteração exige justificativa prévia + comunicação posterior ao controle interno e ao tribunal de contas.
+Não há preferência genérica para serviço “sustentável”. Desvio imotivado gera apuração de responsabilidade; órgão publica **mensalmente** fila e razões de alterações. Os artigos 141 a 146 **não fixam prazo nacional máximo geral de pagamento**.
 
-Hipóteses exclusivas:
+| Situação | Resposta |
+|---|---|
+| Controvérsia apenas sobre dimensão, qualidade ou quantidade | **Liberar a parcela incontroversa no prazo de pagamento**; a divergência não retém a parte reconhecida. |
+| Conta vinculada ou pagamento por fato gerador (evento que torna exigível a parcela) | Só mediante **previsão expressa em edital ou contrato**. |
+| Remuneração variável de obra, bens ou serviços, inclusive engenharia | Desempenho por metas, qualidade, sustentabilidade ou prazos **definidos em edital e contrato**; motivar e respeitar teto orçamentário. Racionalização pode remunerar percentual da despesa economizada, nos mesmos créditos e conforme regulamento. |
+| Antecipação de pagamento | **Proibida como regra**. Exceção se houver economia sensível ou for indispensável ao bem/serviço, com justificativa prévia e previsão expressa no edital ou instrumento de contratação direta. Garantia adicional é facultativa; se objeto não for executado no prazo, devolver adiantamento. |
 
-1. grave perturbação, emergência ou calamidade;
-2. pequenos agentes econômicos legais com risco de descontinuidade;
-3. sistemas estruturantes com risco de descontinuidade;
-4. direitos em falência, recuperação judicial ou dissolução;
-5. contrato imprescindível à integridade patrimonial ou à atividade finalística, com risco de descontinuidade de serviço público de relevância ou cumprimento da missão institucional.
-
-- Desvio imotivado: apuração de responsabilidade.
-- Publicação mensal: ordem cronológica + justificativas de eventuais alterações.
-
-## Pagamento e riscos
-
-- A Lei nº 14.133/2021, nos arts. 141 a 146, **não fixa prazo nacional máximo geral de pagamento**; prazo operacional federal não é prazo automático do TCE-MA.
-- Conta vinculada ou fato gerador: somente com previsão no edital ou contrato.
-- Controvérsia de dimensão, qualidade ou quantidade: pagar a parcela incontroversa no prazo.
-
-## Remuneração variável
-
-- Cabe em obras, bens e serviços, inclusive engenharia.
-- Critérios: metas, qualidade, sustentabilidade e prazo.
-- Em processo de racionalização, pode usar percentual do valor economizado em determinada despesa, nos mesmos créditos e conforme regulamento.
-- Exige motivação e respeito ao teto orçamentário.
-
-## Antecipação
-
-**Regra:** proibida.
-
-**Exceção:** economia sensível ou condição indispensável para obter o bem ou prestar o serviço + justificativa prévia + previsão expressa no edital ou instrumento de contratação direta.
-
-- Garantia adicional: pode ser exigida.
-- Objeto não executado no prazo: devolver o adiantamento.
-
-## Liquidação
-
-- Contabilidade comunica à administração tributária as características da despesa e valores pagos.
-- Base: art. 146 da Lei nº 14.133/2021 + art. 63 da Lei nº 4.320/1964.
-
-## Regra de competência
-
-- Lei nº 14.133/2021: regime geral nacional.
-- Rotinas <abbr title="Tribunal de Contas da União">TCU</abbr>, <abbr title="Advocacia-Geral da União">AGU</abbr> e <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr>: referência federal, não aplicação automática ao TCE-MA.
+Na liquidação, os serviços de contabilidade comunicam à administração tributária características da despesa e valores pagos (artigo 146). A comunicação não substitui a verificação documental do direito do credor.
