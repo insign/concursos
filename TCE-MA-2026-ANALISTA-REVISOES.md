@@ -281,7 +281,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 |---|---|---|---|---|
 | H138 | `governo-eletronico` | = | L | [`c8af778`](https://github.com/insign/concursos/commit/c8af77868a08c89b479a050edb26494560abf71a) |
 | H139 | `transparencia-controle-social-accountability` | `transparencia-controle-social` | L | [`b7c61f1`](https://github.com/insign/concursos/commit/b7c61f10cdd1342b408eb0c6ce1a5682aacd3a69) |
-| H140 | `lei-acesso-informacao-fundamentos-pedidos` | `lai-fundamentos-pedidos` | L | — |
+| H140 | `lei-acesso-informacao-fundamentos-pedidos` | `lai-fundamentos-pedidos` | L | sem alteração @ [`8a40bab`](https://github.com/insign/concursos/commit/8a40bab387f977270dca45f81551892882eae6a5) — fluxo do pedido, âmbito e prazos conferidos na lei |
 | H141 | `lei-acesso-informacao-restricoes-recursos` | `lai-restricoes-recursos` | L | — |
 
 ### M12 — Gestão de Pessoas
