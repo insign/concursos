@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u130-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u130-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 2º, caput, as funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado são",
       "options": [
         {
           "id": "A",
-          "text": "de natureza jurídica, essenciais e exclusivas de Estado."
+          "text": "atividades privadas delegáveis."
         },
         {
           "id": "B",
-          "text": "atividades privadas delegáveis."
+          "text": "de natureza jurídica, essenciais e exclusivas de Estado."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "exclusivas do Poder Judiciário."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Essa é a literalidade do caput do artigo 2º."
     },
     {
       "id": "u130-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a ADI 5.043, a expressão 'exclusivas de Estado' do artigo 2º não autoriza concluir que",
       "options": [
         {
           "id": "A",
-          "text": "toda investigação criminal seja privativa ou exclusiva do delegado."
+          "text": "o delegado exerça polícia judiciária."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "o delegado exerça polícia judiciária."
+          "text": "toda investigação criminal seja privativa ou exclusiva do delegado."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "a investigação policial tenha natureza estatal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O STF afastou interpretação do §1º que atribuísse exclusividade geral de investigação criminal ao delegado."
     },
     {
       "id": "u130-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do artigo 2º, §1º, a investigação conduzida pelo delegado tem por objetivo apurar",
       "options": [
         {
           "id": "A",
-          "text": "circunstâncias, materialidade e autoria das infrações penais."
+          "text": "exclusivamente a pena aplicável."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "exclusivamente a pena aplicável."
+          "text": "circunstâncias, materialidade e autoria das infrações penais."
         },
         {
           "id": "E",
           "text": "somente antecedentes do investigado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A lei enumera as três dimensões: circunstâncias, materialidade e autoria."
     },
     {
       "id": "u130-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A investigação criminal pelo delegado pode ser conduzida",
       "options": [
         {
           "id": "A",
-          "text": "por inquérito policial ou outro procedimento previsto em lei."
+          "text": "somente por ordem judicial."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "somente por ordem judicial."
+          "text": "por inquérito policial ou outro procedimento previsto em lei."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §1º admite inquérito policial ou outro procedimento desde que previsto em lei."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u130-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O poder de requisição do artigo 2º, §2º,",
       "options": [
         {
           "id": "A",
-          "text": "não afasta autorização judicial quando a Constituição ou lei submete a medida à reserva de jurisdição."
+          "text": "autoriza acesso irrestrito a qualquer conteúdo sigiloso sem juiz."
         },
         {
           "id": "B",
-          "text": "autoriza acesso irrestrito a qualquer conteúdo sigiloso sem juiz."
+          "text": "não afasta autorização judicial quando a Constituição ou lei submete a medida à reserva de jurisdição."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "transforma o delegado em autoridade judicial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A norma deve ser lida em conjunto com reservas constitucionais e procedimentos legais específicos."
     },
     {
       "id": "u130-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto a dados cadastrais básicos, a jurisprudência do STJ",
       "options": [
         {
           "id": "A",
-          "text": "já reconheceu, em hipóteses legais, requisição direta pelo delegado, sem equipará-los automaticamente a conteúdo de comunicação."
+          "text": "proíbe qualquer requisição sem sentença."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "proíbe qualquer requisição sem sentença."
+          "text": "já reconheceu, em hipóteses legais, requisição direta pelo delegado, sem equipará-los automaticamente a conteúdo de comunicação."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "atribui a requisição exclusivamente ao juiz."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Precedentes do STJ distinguem dados cadastrais básicos de informações submetidas a proteção mais intensa."
     },
     {
       "id": "u130-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na revalidação de 20/9/2026, as ADIs 5.059 e 5.073",
       "options": [
         {
           "id": "A",
-          "text": "ainda não apresentavam decisão colegiada final registrada, de modo que voto do relator não deveria ser tratado como tese vinculante."
+          "text": "haviam declarado inconstitucional o indiciamento."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "haviam declarado inconstitucional o indiciamento."
+          "text": "ainda não apresentavam decisão colegiada final registrada, de modo que voto do relator não deveria ser tratado como tese vinculante."
         },
         {
           "id": "E",
           "text": "não discutiam a Lei nº 12.830/2013."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "As páginas oficiais registravam julgamento suspenso e retirada posterior do calendário, sem conclusão colegiada final."
     },
     {
       "id": "u130-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O inquérito ou outro procedimento em curso pode ser avocado ou redistribuído",
       "options": [
         {
           "id": "A",
-          "text": "somente por superior hierárquico, mediante despacho fundamentado, nas hipóteses legais."
+          "text": "somente após o encerramento."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "somente após o encerramento."
+          "text": "somente por superior hierárquico, mediante despacho fundamentado, nas hipóteses legais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §4º exige superior hierárquico e despacho fundamentado."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u130-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Também pode justificar avocação ou redistribuição",
       "options": [
         {
           "id": "A",
-          "text": "inobservância de procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
+          "text": "qualquer erro material sem reflexo na investigação."
         },
         {
           "id": "B",
-          "text": "qualquer erro material sem reflexo na investigação."
+          "text": "inobservância de procedimentos previstos em regulamento da corporação que prejudique a eficácia da investigação."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "discordância com o enquadramento penal sem motivação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a segunda hipótese expressamente prevista pelo §4º."
     },
     {
       "id": "u130-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A remoção do delegado de polícia, segundo o §5º,",
       "options": [
         {
           "id": "A",
-          "text": "somente pode ocorrer por ato fundamentado."
+          "text": "exige necessariamente as duas hipóteses do §4º, porque o §5º as repete."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "exige necessariamente as duas hipóteses do §4º, porque o §5º as repete."
+          "text": "somente pode ocorrer por ato fundamentado."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "depende sempre de ordem judicial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O §5º exige fundamentação, mas não repete a lista de fundamentos do §4º."
     },
     {
       "id": "u130-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O indiciamento é",
       "options": [
         {
           "id": "A",
-          "text": "ato privativo do delegado de polícia."
+          "text": "decisão do ofendido."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "decisão do ofendido."
+          "text": "ato privativo do delegado de polícia."
         },
         {
           "id": "E",
           "text": "sentença administrativa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "É a regra expressa do artigo 2º, §6º."
     },
     {
       "id": "u130-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O ato de indiciamento deve",
       "options": [
         {
           "id": "A",
-          "text": "ser fundamentado e resultar de análise técnico-jurídica do fato."
+          "text": "ocorrer depois da sentença."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "ocorrer depois da sentença."
+          "text": "ser fundamentado e resultar de análise técnico-jurídica do fato."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §6º exige ato fundamentado e análise técnico-jurídica."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u130-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo STF e STJ, o magistrado",
       "options": [
         {
           "id": "A",
-          "text": "não pode requisitar ao delegado o indiciamento de determinada pessoa."
+          "text": "deve ordenar indiciamento antes de receber toda denúncia."
         },
         {
           "id": "B",
-          "text": "deve ordenar indiciamento antes de receber toda denúncia."
+          "text": "não pode requisitar ao delegado o indiciamento de determinada pessoa."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "substitui a análise técnico-jurídica do delegado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "HC 115.015/STF, HC 169.731/STF e Informativo 552/STJ afastam a imposição judicial de indiciamento."
     },
     {
       "id": "u130-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Ministério Público",
       "options": [
         {
           "id": "A",
-          "text": "pode exercer suas competências investigatórias e requisitar diligências, mas não impor ao delegado o indiciamento como conclusão vinculada."
+          "text": "deve homologar todo indiciamento."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "deve homologar todo indiciamento."
+          "text": "pode exercer suas competências investigatórias e requisitar diligências, mas não impor ao delegado o indiciamento como conclusão vinculada."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "sempre substitui o delegado na investigação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O indiciamento é privativo do delegado; isso não elimina as competências próprias do Ministério Público."
     },
     {
       "id": "u130-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao momento do indiciamento, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "pode ocorrer em diferentes momentos durante a investigação, mas não cabe indiciamento judicialmente imposto depois de encerrada a fase investigativa e recebida a denúncia."
+          "text": "só pode ocorrer em sentença."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "só pode ocorrer em sentença."
+          "text": "pode ocorrer em diferentes momentos durante a investigação, mas não cabe indiciamento judicialmente imposto depois de encerrada a fase investigativa e recebida a denúncia."
         },
         {
           "id": "E",
           "text": "deve sempre coincidir com a prisão em flagrante."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O padrão Cebraspe PC-ES e precedentes do STF reconhecem a vinculação do indiciamento à fase investigativa."
     },
     {
       "id": "u130-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ausência de indiciamento",
       "options": [
         {
           "id": "A",
-          "text": "não impede, por si só, o oferecimento de denúncia se houver justa causa por outros elementos."
+          "text": "transforma ação pública em privada."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "transforma ação pública em privada."
+          "text": "não impede, por si só, o oferecimento de denúncia se houver justa causa por outros elementos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Indiciamento não é requisito de procedibilidade da denúncia."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u130-a22",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O cargo de delegado de polícia é privativo de",
       "options": [
         {
           "id": "A",
-          "text": "bacharel em Direito."
+          "text": "bacharel em qualquer área."
         },
         {
           "id": "B",
-          "text": "bacharel em qualquer área."
+          "text": "bacharel em Direito."
         },
         {
           "id": "C",
@@ -659,18 +659,18 @@
           "text": "servidor com nível médio."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a exigência literal do artigo 3º."
     },
     {
       "id": "u130-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 3º determina ao delegado o mesmo tratamento protocolar recebido por determinadas carreiras. Isso significa",
       "options": [
         {
           "id": "A",
-          "text": "regra de tratamento protocolar, sem transferência automática de competências e garantias constitucionais de outras instituições."
+          "text": "atribuição de função jurisdicional."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "atribuição de função jurisdicional."
+          "text": "regra de tratamento protocolar, sem transferência automática de competências e garantias constitucionais de outras instituições."
         },
         {
           "id": "D",
@@ -689,18 +689,18 @@
           "text": "autorização para exercer advocacia durante a investigação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A norma fala em tratamento protocolar, não em identidade funcional entre carreiras."
     },
     {
       "id": "u130-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 12.830/2013 entrou em vigor",
       "options": [
         {
           "id": "A",
-          "text": "na data de sua publicação."
+          "text": "cento e oitenta dias depois."
         },
         {
           "id": "B",
@@ -712,25 +712,25 @@
         },
         {
           "id": "D",
-          "text": "cento e oitenta dias depois."
+          "text": "na data de sua publicação."
         },
         {
           "id": "E",
           "text": "somente após regulamentação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 4º prevê vigência na data de publicação."
     },
     {
       "id": "u130-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre a relação entre U130 e o inquérito policial geral, a formulação correta é",
       "options": [
         {
           "id": "A",
-          "text": "U130 concentra a lei especial sobre poderes e garantias do delegado; regras gerais de instauração, prazos, sigilo e arquivamento permanecem no estudo do inquérito policial."
+          "text": "indiciamento não possui relação com investigação."
         },
         {
           "id": "B",
@@ -746,10 +746,10 @@
         },
         {
           "id": "E",
-          "text": "indiciamento não possui relação com investigação."
+          "text": "U130 concentra a lei especial sobre poderes e garantias do delegado; regras gerais de instauração, prazos, sigilo e arquivamento permanecem no estudo do inquérito policial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A fronteira evita duplicação: U092 ensina o procedimento geral; U130, a disciplina especial da Lei nº 12.830/2013."
     },
     {
@@ -784,17 +784,17 @@
     },
     {
       "id": "u130-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 3 da prova discursiva Cebraspe para Delegado da Polícia Civil do Espírito Santo, aplicada em 2022, o indiciamento",
       "options": [
         {
           "id": "A",
-          "text": "é ato fundamentado, privativo do delegado, baseado em autoria, materialidade e circunstâncias, e pertence à fase investigativa."
+          "text": "é sentença criminal."
         },
         {
           "id": "B",
-          "text": "é sentença criminal."
+          "text": "é ato fundamentado, privativo do delegado, baseado em autoria, materialidade e circunstâncias, e pertence à fase investigativa."
         },
         {
           "id": "C",
@@ -809,18 +809,18 @@
           "text": "é ato exclusivo do Ministério Público."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O padrão definitivo descreve o indiciamento como ato formal, privativo e técnico-jurídico, praticado no curso da investigação."
     },
     {
       "id": "u130-p03",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 2 da prova discursiva Cebraspe para Delegado da Polícia Civil de Sergipe, aplicada em 2018, diante de pedido do Ministério Público para que determinada pessoa seja indiciada, o delegado",
       "options": [
         {
           "id": "A",
-          "text": "não está vinculado ao pedido, porque o indiciamento é ato privativo da autoridade policial."
+          "text": "deve remeter o ato ao juiz para que este indicie."
         },
         {
           "id": "B",
@@ -828,7 +828,7 @@
         },
         {
           "id": "C",
-          "text": "deve remeter o ato ao juiz para que este indicie."
+          "text": "não está vinculado ao pedido, porque o indiciamento é ato privativo da autoridade policial."
         },
         {
           "id": "D",
@@ -839,7 +839,7 @@
           "text": "deve encerrar o inquérito sem análise."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O padrão oficial registrou que o Ministério Público não pode impor o indiciamento, sem prejuízo de suas demais competências."
     }
   ]
