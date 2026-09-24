@@ -1,151 +1,80 @@
 # Estruturas e desenho das organizações formais modernas
 
-## Mapa central
+## Reconheça o desenho antes do nome
 
-**Estrutura = dividir o trabalho + agrupar atividades + distribuir autoridade + coordenar esforços.**
+**Estrutura** divide e agrupa trabalho, atribui autoridade e reúne esforços para produzir resultados. A organização **formal** define cargos, competências, hierarquia e regras; relações **informais** de confiança e influência coexistem com ela, sem substituir competências oficiais. O organograma mostra apenas parte das relações formais; mudar suas caixas não altera automaticamente processos nem comportamento.
 
-- **Formal:** deliberada, oficial, contínua; define cargos, competências, regras e autoridade.
-- **Informal:** vínculos sociais e influência espontânea; coexiste com a formal.
-- **Organograma:** retrato parcial das relações formais; não mostra toda a cultura, o poder informal nem os processos transversais.
-- **Departamentalização:** critério de agrupamento; é uma dimensão da estrutura, não a estrutura inteira.
+**Pergunta de prova:** o enunciado descreve o critério que forma unidades, a autoridade sobre as pessoas, o mecanismo que coordena o trabalho ou o resultado pelo qual alguém responde? São dimensões diferentes. Quanto maior a especialização, maior costuma ser a necessidade de integração entre áreas; caso contrário surgem <abbr title="isolamentos entre áreas que prejudicam o resultado comum">silos</abbr>.
 
-## Dimensões do desenho
+## Dimensões e autoridade
 
-| Dimensão | Chave de prova |
+| Dimensão | Gatilho e limite |
 | --- | --- |
-| Especialização | divide tarefas; aumenta perícia, mas pode gerar monotonia e silos |
-| Departamentalização | agrupa pessoas e atividades segundo um critério |
-| Cadeia de comando | linha formal de autoridade; quem responde a quem |
-| Amplitude | número de subordinados diretos por gestor |
-| Centralização | decisões relevantes concentradas |
-| Descentralização | decisões distribuídas com limites e controle |
-| Formalização | comportamento definido por regras e registros |
-| Padronização | uniformidade de processos, resultados ou qualificações |
+| Especialização | Divisão de tarefas aumenta perícia; fragmentação exige coordenação. |
+| Departamentalização | Agrupa atividades por critério; não descreve, sozinha, toda a estrutura. |
+| Cadeia de comando | Indica quem responde formalmente a quem. Unidade de comando significa um superior por subordinado; a matriz a relativiza. |
+| Amplitude de controle | Subordinados diretos por gestor: larga tende a menos níveis; estreita, a mais níveis, **mantidas as demais condições**. Complexidade, experiência, risco e sistemas mudam a amplitude adequada. |
+| Centralização | Decisões relevantes concentradas; pode coexistir com decisões operacionais distribuídas por matéria. |
+| Descentralização organizacional | Distribui poder decisório internamente, com limites e prestação de contas. Em Direito Administrativo, a atribuição a outra pessoa jurídica é descentralização jurídica; entre órgãos da mesma pessoa, fala-se em desconcentração. |
+| Formalização | Regras, procedimentos e registros disciplinam comportamentos; útil para legalidade, segurança e rastreabilidade, sem justificar ritual inútil. |
+| Padronização | Uniformiza **processos**, **resultados** ou **habilidades**; relacionada à formalização, mas não idêntica a ela. |
 
-- Amplitude **larga** → menos níveis e estrutura mais achatada, mantidas as demais condições.
-- Amplitude **estreita** → mais níveis e estrutura mais alta.
-- Centralização, descentralização e formalização são **contínuos**, não escolhas absolutas.
-- Descentralizar decisão não elimina normas, controle nem responsabilização.
-- Formalização e padronização são relacionadas, mas não idênticas.
+**Autoridade** é poder formal de decidir e alocar recursos; **responsabilidade**, dever de executar e responder. Delegar dentro de limites não apaga o acompanhamento devido pela chefia.
 
-## Autoridade e arranjos básicos
+**Linha** exerce comando hierárquico direto. <abbr title="assessoria técnica especializada">Staff</abbr> aconselha e apoia; pode ter autoridade funcional limitada por norma. <abbr title="arranjo com comando de linha e apoio técnico especializado">Linha-staff</abbr> não vira matriz por receber parecer ou padrão técnico: matriz requer **dois eixos regulares de autoridade sobre o trabalho**.
 
-| Arranjo | Marca | Pegadinha |
+## Identifique a forma pela marca que decide
+
+| Forma | Marca observável | Ganho e custo |
 | --- | --- | --- |
-| Linha | autoridade hierárquica direta | clareza pode gerar sobrecarga da chefia |
-| Staff | assessoria técnica | pode ter autoridade funcional limitada |
-| Linha-staff | comando de linha + apoio especializado | não implica dupla chefia |
-| Matriz | dois eixos regulares de autoridade | parecer técnico isolado não cria matriz |
+| Linear | Cadeia simples, comando único e autoridade concentrada. | Clareza; sobrecarga da chefia e rigidez com o crescimento. |
+| Funcional | Unidades por especialidade, como pessoas e finanças. | Escala e profundidade técnica; interfaces entre áreas exigem integração. |
+| Divisional | Unidades respondem por produto, serviço, território ou público; cada divisão pode conter suas próprias funções. | Foco no resultado; duplicação de apoio e perda de padrões comuns. |
+| Projetizada | Projeto temporário predomina na autoridade e na alocação de recursos. | Foco na entrega singular; duplicação e realocação difícil após o projeto. |
+| Matricial | Dois eixos regulares, como função e projeto, sobre as mesmas pessoas. | Compartilha especialistas e integra entregas; disputa de prioridade e negociação. |
+| Por equipes | Equipes multifuncionais organizam a execução. | Aproxima especialidades; ainda exige papéis, autoridade e responsabilidade claros. |
+| Horizontal | Responsável ou equipe acompanha o fluxo completo, da demanda à entrega. | Reduz transferências; precisa articular funções e autoridade. |
+| Em rede | Núcleo coordena unidades ou parceiros internos e externos. | Flexibilidade; dependência, qualidade e fronteiras de responsabilidade. |
+| Virtual | Capacidades distribuídas são coordenadas intensamente por tecnologia. | Alcance; segurança e coordenação. Teletrabalho isolado não prova mudança estrutural. |
+| Híbrida | Formas combinadas em partes da organização. | Ajuste ao contexto; coordenação mais complexa. Matriz é híbrida, mas a recíproca não vale. |
 
-- **Autoridade:** direito formal de decidir e alocar recursos.
-- **Responsabilidade:** dever de executar e responder pelo resultado.
-- Delegar autoridade não apaga o dever de acompanhamento de quem delega.
-- Unidade de comando: um superior por subordinado; a matriz a relativiza.
+**Matriz fraca:** prevalece gestor funcional. **Equilibrada:** autoridade compartilhada. **Forte:** prevalece gestor do projeto ou produto, permanecendo o eixo funcional. Dois critérios em **níveis sucessivos** sem dupla autoridade regular não bastam para matriz. Escritório de projetos não faz, por si, uma organização projetizada. A expressão “funcional” na supervisão clássica de Taylor também pode indicar **vários supervisores especializados**; no sentido corrente da tabela, indica **agrupamento por especialidade**. Leia a descrição do enunciado.
 
-## Tipos estruturais
+## Departamentalização: o que define a fronteira da unidade?
 
-| Tipo | Marca decisiva | Vantagem | Custo típico |
-| --- | --- | --- | --- |
-| Linear | cadeia simples e unidade de comando | clareza | rigidez e sobrecarga |
-| Funcional | agrupamento por especialidade | escala e profundidade técnica | silos |
-| Divisional | produto, serviço, território ou cliente | foco no resultado | duplicação de apoio |
-| Projetizada | projeto predomina sobre recursos e autoridade | foco na entrega singular | descontinuidade |
-| Matricial | dupla autoridade regular | integração e compartilhamento | conflito e ambiguidade |
-| Por equipes | grupos multifuncionais centrais | colaboração e rapidez | papéis e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
-| Horizontal | responsabilidade pelo fluxo ponta a ponta | foco no usuário | tensão com funções |
-| Rede | núcleo + unidades ou parceiros conectados | flexibilidade | dependência e governança |
-| Virtual | capacidades distribuídas coordenadas por tecnologia | alcance e adaptação | confiança, segurança e controle |
-| Híbrida | combinação consciente de formas | aderência ao contexto | complexidade |
-
-- Matriz é híbrida; nem toda híbrida é matriz.
-- Matriz **fraca**: predomínio funcional; **equilibrada**: poder compartilhado; **forte**: predomínio do projeto/produto.
-- Um departamento de projetos não torna toda a organização projetizada.
-- Equipes podem coexistir com hierarquia, regras e formalização.
-- Teletrabalho, sozinho, não cria estrutura virtual.
-- Virtualidade não determina, por si só, centralização ou formalização.
-
-## Configurações de Mintzberg
-
-| Configuração | Coordenação predominante | Parte-chave | Contexto típico |
-| --- | --- | --- | --- |
-| Estrutura simples | supervisão direta | ápice estratégico | pequena, jovem, centralizada |
-| Burocracia mecanizada | padronização dos processos | tecnoestrutura | rotina, regras, grande escala |
-| Burocracia profissional | padronização das habilidades | núcleo operacional | especialistas e autonomia técnica |
-| Forma divisionalizada | padronização dos resultados | linha intermediária | divisões semiautônomas e metas |
-| Adhocracia | ajustamento mútuo | assessoria de apoio | inovação, projetos, ambiente dinâmico |
-
-- Mecanismo e parte-chave são **predominantes**, não exclusivos.
-- Burocracia mecanizada = processos; burocracia profissional = habilidades.
-- Adhocracia pode usar equipes, projetos ou matriz, sem ser sinônimo deles.
-- “Burocracia” em Mintzberg não significa necessariamente órgão público ou ineficiência.
-
-## Critérios de departamentalização
-
-| Critério | Pergunta | Ganho × risco |
+| Critério | Pergunta para recuperar | Compensação |
 | --- | --- | --- |
-| Funcional | qual especialidade? | escala técnica × silos |
-| Produto/serviço | qual entrega? | foco no resultado × duplicação |
-| Geográfico | onde? | adaptação local × inconsistência regional |
-| Cliente/público | para quem? | atenção ao segmento × fragmentação |
-| Processo | qual etapa ou tecnologia? | eficiência da fase × otimização local |
-| Projeto | qual resultado temporário? | foco na entrega × disputa por recursos |
-| Conhecimento/disciplina | qual campo técnico ou científico? | competência afim × barreira interdisciplinar |
+| Função | **Qual especialidade?** | Escala técnica × dificuldade de coordenação entre funções. |
+| Produto ou serviço | **Qual entrega?** | Responsabilidade pelo resultado × apoio duplicado. |
+| Geografia | **Onde?** | Adaptação territorial × duplicação ou padrões divergentes. |
+| Cliente ou público | **Para quem?** | Resposta a necessidades distintas × fragmentação. |
+| Processo | **Qual etapa ou tecnologia do fluxo?** | Eficiência da etapa × perda da visão completa. |
+| Projeto | **Qual entrega temporária?** | Foco × disputa por recursos e descontinuidade. |
+| Conhecimento ou disciplina | **Qual campo técnico ou científico?** | Competência afim × barreiras entre campos. |
 
-Critérios podem ser combinados em níveis diferentes sem criar matriz: **sem dupla subordinação regular, não há matriz**.
+Geografia, produto e cliente podem ser classificados como modalidades divisionais; conhecimento pode aparecer como modalidade funcional. A **base concreta do agrupamento** resolve a questão, mesmo quando os autores variam o rótulo. Departamento por etapas de um processo não equivale à estrutura horizontal, responsável pela entrega completa. O método para analisar e melhorar processos pertence ao Assunto 107.
 
-## Contrastes que mais resolvem questões
+## Mintzberg: descubra o mecanismo predominante
 
-| Não confundir | Distinção decisiva |
+| Configuração | Coordenação | Parte-chave | Pista |
+| --- | --- | --- | --- |
+| Estrutura simples | Supervisão direta. | Ápice estratégico, a direção superior. | Pequena, comando concentrado. |
+| Burocracia mecanizada | Padronização **dos processos**. | Tecnoestrutura, analistas de métodos e controles. | Rotina, escala e regras. |
+| Burocracia profissional | Padronização **das habilidades**. | Núcleo operacional, quem executa o trabalho essencial. | Formação especializada e autonomia técnica. |
+| Forma divisionalizada | Padronização **dos resultados**. | Linha intermediária, gestores das divisões. | Divisões semiautônomas acompanhadas por metas. |
+| <abbr title="configuração flexível de especialistas que inovam por ajustamento mútuo">Adhocracia</abbr> | Ajustamento mútuo, comunicação direta entre participantes. | Assessoria de apoio. | Inovação, ambiente complexo e dinâmico. |
+
+Mecanismo e parte são **predominantes, não exclusivos**. “Burocracia” nessa tipologia não significa necessariamente órgão público ou ineficiência; <abbr title="configuração flexível de especialistas que inovam por ajustamento mútuo">adhocracia</abbr> pode empregar equipes, projetos ou matriz, sem ser sinônimo deles.
+
+## Escolha contingencial e recorte público
+
+| Tendência mecanicista | Tendência orgânica |
 | --- | --- |
-| Funcional contemporânea × supervisão funcional de Taylor | agrupamento por especialidade × vários supervisores especializados |
-| Linha-staff × matriz | assessoria/autoridade técnica delimitada × dois eixos regulares de autoridade |
-| Departamento de projetos × projetizada | unidade de apoio × projeto como eixo predominante |
-| Processo por etapas × estrutura horizontal | responsabilidade por fase × responsabilidade ponta a ponta |
-| Teletrabalho × estrutura virtual | localização do trabalho × desenho e fronteiras organizacionais |
-| Híbrida × matricial | combinação de formas × dupla autoridade |
-| Produto × cliente | o que é entregue × para quem é entregue |
-| Conhecimento × função | campo técnico/científico × função administrativa ou empresarial |
-| Descentralização organizacional × jurídica | distribuição interna de decisão × atribuições a outra pessoa jurídica |
-| Burocracia mecanizada × profissional | processos padronizados × habilidades padronizadas |
+| Papéis estreitos, hierarquia marcada, decisões concentradas e regras detalhadas. | Papéis ajustáveis, comunicação lateral, decisões distribuídas e ajuste entre pessoas. |
+| Combina com rotina, repetição, regulação e alto risco. | Combina com incerteza, inovação e tarefas pouco rotineiras. |
 
-## Mecanicista × orgânica
+São **tendências**, não caixas estanques. Avalie estratégia, ambiente, tecnologia, tamanho, diversidade, pessoas, cultura, regulação, risco e custos de coordenação e duplicação. Mais agilidade não elimina controle, legalidade, continuidade ou transparência. Na Administração Pública, é possível centralizar padrões e orçamento e descentralizar ajustes operacionais, com competências e responsabilidades claras.
 
-| Mecanicista | Orgânica |
-| --- | --- |
-| hierarquia mais rígida | flexibilidade e horizontalidade |
-| centralização | decisões distribuídas |
-| regras detalhadas | ajuste mútuo e comunicação lateral |
-| papéis estreitos | papéis amplos e adaptáveis |
-| estabilidade e rotina | incerteza e tarefas não rotineiras |
+O <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> trata do desenho de subunidades com competências próprias e orienta olhar para grandes conjuntos de processos relacionados, produtos e serviços. Seu Manual de Estruturas é referência técnica do **Executivo federal**; não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-São tendências de um **contínuo**. Risco, legalidade e repetibilidade podem exigir mecanismos mecanicistas; inovação e incerteza tendem a exigir organicidade. Organicidade não elimina autoridade, normas nem prestação de contas.
-
-## Contingência e Administração Pública
-
-- Não existe estrutura universalmente ótima.
-- Considere estratégia, ambiente, tecnologia, tamanho, diversidade, pessoas, cultura, regulação, risco e custos de coordenação/duplicação.
-- A Administração Pública deve compatibilizar eficiência com legalidade, continuidade, controle, transparência e atendimento ao cidadão.
-- Centralização normativa pode coexistir com descentralização operacional.
-- A natureza pública não determina automaticamente burocracia mecanizada.
-- As orientações do <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> e o Manual de Estruturas são referências técnicas do Executivo federal, não regras automaticamente aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
-
-## Roteiro-relâmpago
-
-1. Identifique o **eixo de agrupamento**.
-2. Verifique se há um ou dois eixos regulares de autoridade.
-3. Ache a marca distintiva do tipo estrutural.
-4. Em Mintzberg, identifique o mecanismo de coordenação predominante.
-5. Relacione o ganho ao custo: escala funcional × silos; foco divisional × duplicação.
-6. Examine o contexto contingencial.
-7. Resolva pela característica concreta, não pelo rótulo isolado.
-
-## Pegadinhas finais
-
-- Organograma não garante comportamento nem desempenho.
-- Mais especialização exige mais coordenação.
-- Mais descentralização não significa ausência de controle.
-- Menos níveis hierárquicos não é sempre melhor.
-- Estrutura divisional pode conter funções repetidas dentro de cada divisão.
-- Departamento por processo pode cuidar apenas de uma etapa; estrutura horizontal responde pelo fluxo completo.
-- Rede, virtual, modular e sem fronteiras têm sobreposição terminológica.
-- Desconfie de `sempre`, `necessariamente`, `elimina` e `única estrutura correta`.
+**Sequência final:** encontre o agrupamento → localize a autoridade → confira se a responsabilidade é por fase ou pela entrega completa → identifique a coordenação predominante → compare ganho e custo no contexto. Desconfie de “sempre”, “elimina” e “necessariamente”.
