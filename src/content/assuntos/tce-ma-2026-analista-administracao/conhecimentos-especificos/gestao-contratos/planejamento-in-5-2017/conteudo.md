@@ -16,7 +16,7 @@ Na sistemática da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, o e
 
 O ponto mais importante é que o documento seguinte deve nascer das decisões justificadas no anterior. O <abbr title="Documento de Formalização da Demanda">DFD</abbr> identifica a demanda; o <abbr title="Estudo Técnico Preliminar">ETP</abbr> compara soluções; o gerenciamento de riscos prepara respostas às incertezas; o <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> transforma a solução escolhida em objeto executável, mensurável e fiscalizável.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Consultas posteriores servem à conferência editorial e não ampliam esse corte.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Consultas posteriores servem à conferência editorial e não ampliam esse corte.
 
 ## 1. Primeiro contraste: o que é literal da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 e o que foi atualizado
 

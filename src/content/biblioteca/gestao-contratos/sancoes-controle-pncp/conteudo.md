@@ -14,7 +14,7 @@ Quando uma contratação apresenta um problema grave, “qual sanção aplicar?�
 
 Em um **exemplo hipotético**, durante um contrato de serviços, o controle identifica vício insanável na contratação e indícios de documento falso da empresa. “Anular e punir” não é um único ato: é preciso avaliar o interesse público na continuidade, os efeitos patrimoniais da nulidade, a possível infração, a defesa e a atuação dos órgãos de controle.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O núcleo são os artigos 147 a 194. Os assuntos anteriores aprofundam planejamento, seleção, formação, execução, extinção, recebimento e pagamento; o assunto sobre irregularidades e sanções aprofunda o registro e a notificação operacional. Aqui importa o regime normativo que fecha a Lei.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O núcleo são os artigos 147 a 194. Os assuntos anteriores aprofundam planejamento, seleção, formação, execução, extinção, recebimento e pagamento; o assunto sobre irregularidades e sanções aprofunda o registro e a notificação operacional. Aqui importa o regime normativo que fecha a Lei.
 
 Regulamentos federais não se tornam automaticamente regras internas do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O artigo 187 permite que Estados, Distrito Federal e Municípios apliquem regulamentos editados pela União; não determina incorporação automática.
 
@@ -238,7 +238,7 @@ O Comitê Gestor da Rede Nacional de Contratações Públicas reúne três repre
 
 O portal reúne, entre outros, planos de contratação anual, catálogos, editais de credenciamento e pré-qualificação, avisos de contratação direta, editais e anexos, atas de registro de preços, contratos, aditivos e notas fiscais eletrônicas quando cabíveis.
 
-Entre suas funcionalidades estão cadastro unificado, painéis e bases de preços, planejamento, sessões públicas eletrônicas, acesso ao <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e ao <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>, gestão compartilhada com a sociedade e o <abbr title="Sistema de Compras Expressas">Sicx</abbr>. O <abbr title="Sistema de Compras Expressas">Sicx</abbr> já integrava a Lei no corte de 6 de julho de 2026, por alteração da Lei nº 15.266/2025. As funcionalidades do § 3º do artigo 174 são sistemas adotados e oferecidos pelo Poder Executivo federal. O <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> utiliza dados abertos e observa a Lei de Acesso à Informação.
+Entre suas funcionalidades estão cadastro unificado, painéis e bases de preços, planejamento, sessões públicas eletrônicas, acesso ao <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e ao <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>, gestão compartilhada com a sociedade e o <abbr title="Sistema de Compras Expressas">Sicx</abbr>. O <abbr title="Sistema de Compras Expressas">Sicx</abbr> já integrava a Lei no corte de 7 de julho de 2026, por alteração da Lei nº 15.266/2025. As funcionalidades do § 3º do artigo 174 são sistemas adotados e oferecidos pelo Poder Executivo federal. O <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> utiliza dados abertos e observa a Lei de Acesso à Informação.
 
 ### 10.1 Publicação e eficácia
 

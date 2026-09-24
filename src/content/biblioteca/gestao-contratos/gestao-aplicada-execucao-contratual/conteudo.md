@@ -16,7 +16,7 @@ Considere um **exemplo hipotético**. Um serviço contínuo prevê que pelo meno
 
 Esse é o modelo mental do assunto. Indicadores, preposto, fiscal, reuniões e sistemas só são úteis quando ajudam essa cadeia a funcionar.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026, já integrava o corte. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 e os Decretos nº 11.246/2022 e nº 13.031/2026 têm âmbito federal próprio; sua presença como referência de gestão não os transforma automaticamente em regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026, já integrava o corte. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 e os Decretos nº 11.246/2022 e nº 13.031/2026 têm âmbito federal próprio; sua presença como referência de gestão não os transforma automaticamente em regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 1. O contrato precisa virar um padrão observável
 

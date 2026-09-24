@@ -16,7 +16,7 @@ Os artigos 1º a 17 respondem a essas perguntas e funcionam como a estrutura de 
 
 Licitação, portanto, não é uma cerimônia para obter o menor preço. É um processo de decisão pública que distribui competências, exige justificativas, protege a igualdade entre interessados e produz registros que permitam reconstruir por que cada decisão foi tomada.
 
-> **Corte normativo:** este capítulo considera a legislação vigente em **6 de julho de 2026**, data de publicação do edital do concurso. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional, na redação vigente nessa data; ele não organiza automaticamente o Estado do Maranhão nem o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+> **Corte normativo:** este capítulo considera a legislação vigente em **7 de julho de 2026**, data de publicação do edital do concurso. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional, na redação vigente nessa data; ele não organiza automaticamente o Estado do Maranhão nem o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 1. Por que a licitação é a regra?
 

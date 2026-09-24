@@ -16,7 +16,7 @@ Considere um **exemplo hipotético**: a Administração contratou um serviço co
 
 Esse fluxo organiza os artigos 115 a 136 da Lei nº 14.133/2021. Ele evita três confusões recorrentes: **fiscalizar não é executar; corrigir defeito não é alterar o contrato; reajustar preço não é o mesmo que recompor um desequilíbrio extraordinário**.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O Tema 1118 do <abbr title="Supremo Tribunal Federal">STF</abbr>, julgado em fevereiro de 2025 e transitado em julgado em abril de 2025, integra o recorte anterior ao edital. Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr>, da <abbr title="Advocacia-Geral da União">AGU</abbr> e do <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> são usadas como referências interpretativas federais e não como regras automaticamente vinculantes a todos os entes.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O Tema 1118 do <abbr title="Supremo Tribunal Federal">STF</abbr>, julgado em fevereiro de 2025 e transitado em julgado em abril de 2025, integra o recorte anterior ao edital. Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr>, da <abbr title="Advocacia-Geral da União">AGU</abbr> e do <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> são usadas como referências interpretativas federais e não como regras automaticamente vinculantes a todos os entes.
 
 ## 1. A execução começa pela regra mais simples: cumprir o que foi pactuado
 

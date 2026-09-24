@@ -16,7 +16,7 @@ O ciclo que organiza o assunto é:
 
 **contrato e modelo de gestão → agentes designados → início e comunicação → acompanhamento → registro → correção → escalonamento → recebimento**
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026, já estava em vigor.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026, já estava em vigor.
 
 ## 1. Finalidade, fontes e âmbito
 

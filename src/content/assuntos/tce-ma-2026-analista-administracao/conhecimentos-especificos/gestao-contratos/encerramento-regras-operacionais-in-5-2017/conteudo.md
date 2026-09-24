@@ -36,7 +36,7 @@ Antes de aplicar uma regra, separe:
 
 Contratos validamente submetidos ao regime anterior continuam regidos pelas regras de transição correspondentes. Não se pode combinar livremente as Leis nº 8.666/1993 e nº 14.133/2021.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. A página oficial da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 estava atualizada em 14 de abril de 2026. Consultas posteriores servem apenas à conferência editorial.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. A página oficial da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 estava atualizada em 14 de abril de 2026. Consultas posteriores servem apenas à conferência editorial.
 
 > **Fronteira:** medição, recebimento, glosa e pagamento ordinário estão no Assunto 134; a disciplina geral de execução, extinção e sanções da Lei nº 14.133/2021, nos Assuntos 128 a 130.
 

@@ -20,7 +20,7 @@ Se a competição for inviável ou a lei autorizar afastá-la, o fluxo muda para
 
 Esses dois caminhos explicam por que conceitos próximos não são intercambiáveis. **Modalidade** define o rito; **critério de julgamento** define o que torna uma proposta melhor; **modo de disputa** define como as ofertas se formam; **contratação direta** afasta a licitação em hipótese legal; **procedimento auxiliar** organiza ou apoia contratações, mas não é modalidade.
 
-> **Corte normativo:** este capítulo considera a legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Alterações posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra aplicável ao corte.
+> **Corte normativo:** este capítulo considera a legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Alterações posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra aplicável ao corte.
 
 O núcleo são os **artigos 28 a 88 da Lei nº 14.133/2021**. O planejamento que chega a este ponto foi estudado no assunto anterior; formalização e execução do contrato vêm depois. Aqui o foco é **como a Administração chega legitimamente ao fornecedor ou adquirente**.
 
@@ -353,7 +353,7 @@ O somatório não se aplica a manutenção de veículos, incluídas peças, até
 
 **Relações públicas, saúde e finalidade social:** contratação de órgão ou entidade da própria Administração criado para o fim específico, a preço de mercado; intervenção da União no domínio econômico; contrato de programa; transferência de tecnologia de produto estratégico ao <abbr title="Sistema Único de Saúde">SUS</abbr>; profissional técnico para comissão de avaliação; associação de pessoas com deficiência sem fins lucrativos; instituição brasileira sem fins lucrativos nas finalidades legais de ensino, pesquisa, desenvolvimento, inovação ou recuperação social da pessoa presa; cisternas; e Programa Cozinha Solidária.
 
-No **corte de 6 de julho de 2026**, o artigo 75, XVI, tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação** que atendesse às condições legais, inclusive nas parcerias de transferência de tecnologia para o <abbr title="Sistema Único de Saúde">SUS</abbr>.
+No **corte de 7 de julho de 2026**, o artigo 75, XVI, tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação** que atendesse às condições legais, inclusive nas parcerias de transferência de tecnologia para o <abbr title="Sistema Único de Saúde">SUS</abbr>.
 
 > **Pós-edital:** a Lei nº 15.471, de **20 de julho de 2026**, alterou o inciso XVI para **produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação**, nas condições legais. Essa redação não substitui a aplicável no corte.
 

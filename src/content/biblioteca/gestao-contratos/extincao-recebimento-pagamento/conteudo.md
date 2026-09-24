@@ -18,7 +18,7 @@ Há dois trilhos. No percurso normal, a prestação é verificada, recebida, <ab
 
 Em um **exemplo hipotético**, a Administração constata falha em parte de uma execução mensurável. Antes de concluir que “o contrato acabou” ou que “nada pode ser pago”, deve identificar a parcela conforme, a causa do problema, quem lhe deu origem e os atos formais exigidos.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Este capítulo concentra os arts. 137 a 146 da Lei nº 14.133/2021. Infrações, sanções, nulidade e meios de solução de controvérsias só aparecem aqui na medida necessária para distinguir institutos; seu desenvolvimento pertence ao assunto seguinte.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Este capítulo concentra os arts. 137 a 146 da Lei nº 14.133/2021. Infrações, sanções, nulidade e meios de solução de controvérsias só aparecem aqui na medida necessária para distinguir institutos; seu desenvolvimento pertence ao assunto seguinte.
 
 ## 1. Extinção: causa, processo, forma e efeitos são etapas diferentes
 

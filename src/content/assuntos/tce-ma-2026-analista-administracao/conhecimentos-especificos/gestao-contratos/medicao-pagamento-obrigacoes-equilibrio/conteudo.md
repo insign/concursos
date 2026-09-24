@@ -37,7 +37,7 @@ Antes de aplicar uma regra, identifique sua fonte:
 
 Referências da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 à Lei nº 8.666/1993 devem ser compatibilizadas com a Lei nº 14.133/2021. O recebimento, por exemplo, encontra fundamento geral atual no <abbr title="artigo">art.</abbr> 140 da nova lei, e os critérios de medição, liquidação, pagamento e reajustamento devem constar do contrato conforme o <abbr title="artigo">art.</abbr> 92.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 > **Fronteira:** o encerramento contratual, a conferência final de verbas rescisórias, as retenções próprias da extinção e as regras operacionais finais da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 pertencem ao Assunto 135. Aqui são estudados os controles durante a execução regular.
 

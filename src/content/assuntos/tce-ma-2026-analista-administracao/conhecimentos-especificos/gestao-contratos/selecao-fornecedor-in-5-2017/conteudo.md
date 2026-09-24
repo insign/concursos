@@ -14,7 +14,7 @@ Imagine, como **exemplo hipotético**, que o <abbr title="Termo de Referência">
 
 **como abrir a disputa → comparar as ofertas → testar se o preço é executável → verificar a capacidade do licitante → encerrar o certame → chegar a um contrato eficaz**.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Alterações posteriores aparecem apenas quando identificadas expressamente como pós-edital.
+> **Corte de prova:** legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Alterações posteriores aparecem apenas quando identificadas expressamente como pós-edital.
 
 ## 1. A passagem do planejamento para a seleção
 
@@ -133,11 +133,11 @@ No credenciamento, a lógica não é ordenar concorrentes para escolher necessar
 
 A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 remete, no <abbr title="artigo">art.</abbr> 35, § 2º, ao item 3 do Anexo VII-B. Hoje, o credenciamento é **procedimento auxiliar** — mecanismo que apoia as contratações sem ser modalidade — e pode sustentar <abbr title="contratação direta quando a competição é inviável">contratação por inexigibilidade</abbr> nas hipóteses legais.
 
-No corte de 6 de julho de 2026, o <abbr title="artigo">art.</abbr> 79 da Lei nº 14.133/2021 previa: contratações paralelas e não excludentes; escolha pelo beneficiário direto; mercados fluidos; e comércio eletrônico de bens e serviços comuns padronizados no <abbr title="Sistema de Compras Expressas">Sicx</abbr>.
+No corte de 7 de julho de 2026, o <abbr title="artigo">art.</abbr> 79 da Lei nº 14.133/2021 previa: contratações paralelas e não excludentes; escolha pelo beneficiário direto; mercados fluidos; e comércio eletrônico de bens e serviços comuns padronizados no <abbr title="Sistema de Compras Expressas">Sicx</abbr>.
 
 O Decreto nº 11.878/2024 regulamentava então as três primeiras hipóteses no âmbito federal. O chamamento deve permanecer aberto a novos interessados e, quando não for possível contratar simultaneamente todos os credenciados na hipótese paralela, a distribuição da demanda deve seguir critérios objetivos.
 
-> **Pós-edital:** o Decreto nº 13.106, de 24 de agosto de 2026, regulamentou o <abbr title="Sistema de Compras Expressas">Sicx</abbr> e entrou em vigor em 8 de setembro de 2026. Essa disciplina é posterior ao corte e não altera a resposta de prova baseada em 6 de julho de 2026.
+> **Pós-edital:** o Decreto nº 13.106, de 24 de agosto de 2026, regulamentou o <abbr title="Sistema de Compras Expressas">Sicx</abbr> e entrou em vigor em 8 de setembro de 2026. Essa disciplina é posterior ao corte e não altera a resposta de prova baseada em 7 de julho de 2026.
 
 ## 8. Encerramento: adjudicar e homologar ainda não é contratar
 

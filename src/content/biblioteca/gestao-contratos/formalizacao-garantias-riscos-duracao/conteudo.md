@@ -16,7 +16,7 @@ A sequência mental deste assunto é:
 
 Três distinções guiam todo o capítulo: **seleção não é formalização; assinatura não é eficácia; prazo de execução não é prazo de vigência**.
 
-> **Corte de prova:** este capítulo considera a legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Mudanças posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra correspondente ao corte.
+> **Corte de prova:** este capítulo considera a legislação vigente em **7 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025. Mudanças posteriores ao edital aparecem expressamente como **pós-edital** e não substituem a regra correspondente ao corte.
 
 O núcleo legal são os **arts. 89 a 114 da Lei nº 14.133/2021**. A execução, a fiscalização cotidiana, as alterações e o restabelecimento detalhado do equilíbrio econômico-financeiro são aprofundados no assunto seguinte. Extinção, recebimento e pagamento vêm depois. Aqui entram apenas as pontes mínimas necessárias para entender o contrato que foi formado.
 
@@ -334,7 +334,7 @@ A lei permite negociação com o contratado ou extinção sem ônus para qualque
 
 O art. 108 não cria prazo decenal para toda contratação direta. Ele se restringe às hipóteses expressamente indicadas nas alíneas **f** e **g** do art. 75, IV, e nos incisos **V, VI, XII e XVI** do mesmo artigo.
 
-No corte de **6 de julho de 2026**, o inciso XVI ainda tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação**, nas condições legais.
+No corte de **7 de julho de 2026**, o inciso XVI ainda tratava da aquisição de **insumos estratégicos para a saúde produzidos por fundação**, nas condições legais.
 
 > **Pós-edital:** a Lei nº 15.471, de 20 de julho de 2026, publicada em 21 de julho e vigente desde a publicação, alterou o art. 75, XVI, para tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação. Essa redação posterior deve ser reconhecida como atualização legislativa, mas não substitui silenciosamente a regra-base do edital.
 
