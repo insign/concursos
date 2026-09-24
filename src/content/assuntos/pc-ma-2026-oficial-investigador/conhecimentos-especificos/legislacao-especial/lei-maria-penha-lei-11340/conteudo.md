@@ -22,7 +22,7 @@ Para resolver uma questão, siga esta ordem:
 
 A U086 ensina os crimes do Código Penal que podem aparecer no contexto, como lesão corporal. Aqui o foco é a **Lei Maria da Penha integral**.
 
-O corte legislativo é **13 de julho de 2026**. Nele já estavam vigentes alterações importantes das Leis nº 14.550/2023, 14.674/2023, 14.857/2024, 14.887/2024, 14.994/2024, 15.212/2025, 15.380/2026, 15.383/2026, 15.384/2026, 15.411/2026, 15.412/2026, 15.438/2026 e 15.455/2026.
+O corte legislativo é **13 de julho de 2026**. Nele já estavam vigentes alterações importantes das Leis nº 14.550/2023, 14.674/2023, 14.857/2024, 14.887/2024, 14.994/2024, 15.212/2025, 15.380/2026, 15.383/2026, 15.384/2026, 15.411/2026, 15.412/2026, 15.438/2026 e 15.455/2026. A jurisprudência dos tribunais superiores segue o marco próprio do edital: publicação até 30 dias antes da prova.
 
 ---
 
@@ -70,6 +70,18 @@ com a ofendida, **independentemente de coabitação**.
 A Súmula 600 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> consolida essa última ideia: coabitação não é requisito.
 
 O parágrafo único do artigo 5º determina que as relações pessoais independem de orientação sexual.
+
+### Medidas protetivas fora dos três contextos — Tema 1.412 do <abbr title="Supremo Tribunal Federal">STF</abbr>
+
+O artigo 5º descreve o **âmbito doméstico e familiar previsto no texto da lei**. Para medidas protetivas de urgência, o Plenário do <abbr title="Supremo Tribunal Federal">STF</abbr> reconheceu, em 19/8/2026, que a proteção também alcança **violência contra a mulher baseada no gênero fora do âmbito doméstico, familiar ou de relação íntima de afeto**. A ata do julgamento foi publicada no Diário da Justiça Eletrônico em **21/8/2026**.
+
+A tese do Tema 1.412 também esclarece que:
+
+- o juízo competente aprecia a situação de risco; diante de risco imediato à integridade física ou psíquica, o juízo materialmente incompetente aprecia o pedido urgente e encaminha os autos ao competente, para ratificação ou reforma;
+- violência política contra a mulher tipificada no artigo 326-B do Código Eleitoral é da competência da Justiça Eleitoral;
+- delegados e agentes policiais podem conceder medidas nos limites da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 6.138 e das situações urgentes indicadas na tese.
+
+**Distinção de prova:** essa decisão amplia o alcance das **medidas protetivas**; não reescreve o artigo 5º nem estende automaticamente todo o rito ou todos os efeitos penais da lei a um fato externo. Em 24/9/2026 havia embargos de declaração registrados e não foi localizada publicação do acórdão de mérito; acompanhe seu desfecho e a data definitiva da prova conforme o item 19.33.1 do edital.
 
 ---
 
@@ -874,9 +886,9 @@ Tema 1.249/<abbr title="Superior Tribunal de Justiça">STJ</abbr>:
 
 ---
 
-## 36. Preventiva não pode ser decretada de ofício
+## 36. Preventiva de ofício: literalidade e divergência
 
-Embora a literalidade do artigo 20 ainda contenha essa expressão, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> entende que as alterações do Código de Processo Penal vedaram prisão preventiva de ofício também em violência doméstica.
+O artigo 20 ainda contém “de ofício”. A Súmula 676 do <abbr title="Superior Tribunal de Justiça">STJ</abbr> e a linha restritiva exigem provocação depois da Lei nº 13.964/2019; acórdãos da Quinta Turma publicados em junho de 2026, porém, invocaram a especialidade do artigo 20 para afirmar a possibilidade. **A questão não estava uniformizada em setembro de 2026.** Veja os casos e a distinção na Parte VII, seção 19.
 
 ---
 
@@ -920,7 +932,7 @@ Embora a literalidade do artigo 20 ainda contenha essa expressão, o <abbr title
 15. Nome da vítima fica sob sigilo, não necessariamente todo o processo.
 16. Medidas protetivas independem de boletim de ocorrência, inquérito ou ação.
 17. Medidas protetivas não recebem prazo fixo obrigatório.
-18. Literalidade do artigo 20 sobre preventiva de ofício não corresponde ao regime processual atual.
+18. Artigo 20 ainda diz “de ofício”; Súmula 676 e acórdãos da Quinta Turma de 2026 apresentam tensão jurisprudencial.
 19. Monitoração eletrônica é medida autônoma desde 2026.
 20. Medida protetiva cível é título executivo judicial.
 21. Auxílio-aluguel é de até 6 meses.
