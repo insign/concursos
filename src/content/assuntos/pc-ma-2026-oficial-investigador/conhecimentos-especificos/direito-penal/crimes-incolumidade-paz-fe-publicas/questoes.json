@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u089-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u089-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 251, a simples colocação de engenho de dinamite",
       "options": [
         {
           "id": "A",
-          "text": "pode integrar o tipo quando expõe a perigo vida, integridade física ou patrimônio de outrem."
+          "text": "é sempre atípica se não houver explosão."
         },
         {
           "id": "B",
-          "text": "é sempre atípica se não houver explosão."
+          "text": "pode integrar o tipo quando expõe a perigo vida, integridade física ou patrimônio de outrem."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "é punida apenas a título culposo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O texto legal inclui explosão, arremesso ou simples colocação do engenho, desde que a situação típica de perigo esteja presente."
     },
     {
       "id": "u089-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A diferença mais imediata entre os artigos 259 e 267 é que",
       "options": [
         {
           "id": "A",
-          "text": "o 259 trata de doença ou praga capaz de danificar floresta, plantação ou animais de utilidade econômica; o 267 trata de epidemia humana mediante germes patogênicos."
+          "text": "o 259 foi revogado."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "o 259 foi revogado."
+          "text": "o 259 trata de doença ou praga capaz de danificar floresta, plantação ou animais de utilidade econômica; o 267 trata de epidemia humana mediante germes patogênicos."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "ambos exigem morte."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Os objetos e mecanismos são distintos, embora ambos estejam no Título VIII."
     },
     {
       "id": "u089-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.397/2026, a pena do artigo 266 é",
       "options": [
         {
           "id": "A",
-          "text": "reclusão de 2 a 4 anos e multa."
+          "text": "somente multa."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "somente multa."
+          "text": "reclusão de 2 a 4 anos e multa."
         },
         {
           "id": "E",
           "text": "detenção de 15 dias a 3 meses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Lei nº 15.397/2026 elevou a pena para 2 a 4 anos de reclusão e multa."
     },
     {
       "id": "u089-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 266 prevê aplicação das penas em dobro quando o crime é cometido",
       "options": [
         {
           "id": "A",
-          "text": "por ocasião de calamidade pública ou mediante subtração, dano ou destruição de equipamento de estrutura usada em telecomunicações."
+          "text": "em qualquer interrupção inferior a uma hora."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "em qualquer interrupção inferior a uma hora."
+          "text": "por ocasião de calamidade pública ou mediante subtração, dano ou destruição de equipamento de estrutura usada em telecomunicações."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "São as duas hipóteses do § 2º na redação dada pela Lei nº 15.397/2026."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u089-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 273 inclui, entre os produtos abrangidos pelo regime legal",
       "options": [
         {
           "id": "A",
-          "text": "medicamentos, matérias-primas, insumos farmacêuticos, cosméticos, saneantes e produtos de diagnóstico."
+          "text": "somente medicamentos sujeitos a controle especial."
         },
         {
           "id": "B",
-          "text": "somente medicamentos sujeitos a controle especial."
+          "text": "medicamentos, matérias-primas, insumos farmacêuticos, cosméticos, saneantes e produtos de diagnóstico."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "apenas água potável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O § 1º-A amplia expressamente a categoria de produtos abrangidos pelo artigo 273."
     },
     {
       "id": "u089-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre os artigos 279 e 281 no texto compilado do Código Penal, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "ambos estão revogados."
+          "text": "somente o 279 está vigente."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "somente o 279 está vigente."
+          "text": "ambos estão revogados."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "foram convertidos em contravenções."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 279 foi revogado pela Lei nº 8.137/1990 e o antigo art. 281 pela legislação posterior de entorpecentes."
     },
     {
       "id": "u089-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.425/2026, o artigo 282 alcança expressamente",
       "options": [
         {
           "id": "A",
-          "text": "medicina, medicina veterinária, odontologia e farmácia exercidas sem autorização legal ou além de seus limites."
+          "text": "somente atividade remunerada."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "somente atividade remunerada."
+          "text": "medicina, medicina veterinária, odontologia e farmácia exercidas sem autorização legal ou além de seus limites."
         },
         {
           "id": "E",
           "text": "apenas curandeirismo habitual."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A lei de 2026 incluiu medicina veterinária e preservou as demais profissões já previstas; o exercício pode ser gratuito."
     },
     {
       "id": "u089-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Charlatanismo e curandeirismo distinguem-se porque",
       "options": [
         {
           "id": "A",
-          "text": "o artigo 283 pune anunciar/inculcar cura por meio secreto ou infalível, enquanto o artigo 284 descreve exercício de curandeirismo por condutas como prescrição habitual, gestos ou diagnósticos."
+          "text": "ambos exigem resultado morte."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "ambos exigem resultado morte."
+          "text": "o artigo 283 pune anunciar/inculcar cura por meio secreto ou infalível, enquanto o artigo 284 descreve exercício de curandeirismo por condutas como prescrição habitual, gestos ou diagnósticos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os núcleos são distintos e os artigos devem ser lidos separadamente."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u089-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A associação criminosa do artigo 288 exige",
       "options": [
         {
           "id": "A",
-          "text": "três ou mais pessoas, finalidade específica de cometer crimes e vínculo associativo estável e permanente."
+          "text": "duas pessoas reunidas ocasionalmente para um delito."
         },
         {
           "id": "B",
-          "text": "duas pessoas reunidas ocasionalmente para um delito."
+          "text": "três ou mais pessoas, finalidade específica de cometer crimes e vínculo associativo estável e permanente."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "somente associação armada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O número legal atual é três ou mais e a jurisprudência exige estabilidade/permanência para diferenciar a associação do mero concurso de agentes."
     },
     {
       "id": "u089-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O § 2º do artigo 288, incluído pela Lei nº 15.245/2025, pune",
       "options": [
         {
           "id": "A",
-          "text": "quem solicita ou contrata o cometimento de crime a integrante de associação criminosa, independentemente da pena do crime solicitado ou contratado."
+          "text": "apenas quem chefia organização criminosa da Lei nº 12.850/2013."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "apenas quem chefia organização criminosa da Lei nº 12.850/2013."
+          "text": "quem solicita ou contrata o cometimento de crime a integrante de associação criminosa, independentemente da pena do crime solicitado ou contratado."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "apenas o crime solicitado, nunca a contratação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Essa é a nova figura do § 2º vigente no corte."
     },
     {
       "id": "u089-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Associação criminosa do artigo 288 e organização criminosa da Lei nº 12.850/2013",
       "options": [
         {
           "id": "A",
-          "text": "são categorias distintas e não devem ter seus requisitos automaticamente misturados."
+          "text": "ambas exigem exatamente três pessoas."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "ambas exigem exatamente três pessoas."
+          "text": "são categorias distintas e não devem ter seus requisitos automaticamente misturados."
         },
         {
           "id": "E",
           "text": "ambas estão exclusivamente no Código Penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 288 é tipo do Código Penal; organização criminosa tem definição e regime na lei especial."
     },
     {
       "id": "u089-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quem recebeu moeda falsa de boa-fé como verdadeira e somente depois descobriu a falsidade, mas mesmo assim a restituiu à circulação",
       "options": [
         {
           "id": "A",
-          "text": "enquadra-se na figura específica do artigo 289, § 2º."
+          "text": "responde por associação criminosa."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "responde por associação criminosa."
+          "text": "enquadra-se na figura específica do artigo 289, § 2º."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A boa-fé inicial e a posterior ciência da falsidade são exatamente a estrutura do § 2º."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u089-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Código Penal, cartão de crédito ou débito",
       "options": [
         {
           "id": "A",
-          "text": "é equiparado a documento particular para fins do artigo 298."
+          "text": "é sempre documento público."
         },
         {
           "id": "B",
-          "text": "é sempre documento público."
+          "text": "é equiparado a documento particular para fins do artigo 298."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "só tem relevância civil."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O parágrafo único do artigo 298 faz expressamente a equiparação."
     },
     {
       "id": "u089-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na falsidade ideológica do artigo 299",
       "options": [
         {
           "id": "A",
-          "text": "o documento pode ser formalmente autêntico, mas conter omissão ou declaração falsa/diferente, com a finalidade específica prevista em lei."
+          "text": "não há finalidade específica."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "não há finalidade específica."
+          "text": "o documento pode ser formalmente autêntico, mas conter omissão ou declaração falsa/diferente, com a finalidade específica prevista em lei."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "o tipo foi revogado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 299 protege a verdade do conteúdo declaratório relevante e alcança documento público ou particular."
     },
     {
       "id": "u089-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o uso de documento falso do artigo 304, conforme entendimento do STJ publicado em 2026,",
       "options": [
         {
           "id": "A",
-          "text": "trata-se de crime formal, consumado com o uso/apresentação, sem exigir prejuízo efetivo."
+          "text": "a consumação depende de o agente obter a vantagem pretendida."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "a consumação depende de o agente obter a vantagem pretendida."
+          "text": "trata-se de crime formal, consumado com o uso/apresentação, sem exigir prejuízo efetivo."
         },
         {
           "id": "E",
           "text": "o artigo só se aplica a moeda falsa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O STJ reafirmou a natureza formal do art. 304 e afastou a exigência de resultado danoso efetivo."
     },
     {
       "id": "u089-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 305 diferencia-se dos crimes de falsificação porque seu objeto é",
       "options": [
         {
           "id": "A",
-          "text": "documento verdadeiro de que o agente não podia dispor, destruído, suprimido ou ocultado com a finalidade legal."
+          "text": "somente conteúdo sigiloso de prova."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "somente conteúdo sigiloso de prova."
+          "text": "documento verdadeiro de que o agente não podia dispor, destruído, suprimido ou ocultado com a finalidade legal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A supressão documental do art. 305 recai sobre documento verdadeiro."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u089-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 64 da prova Cebraspe/PF para Delegado de Polícia Federal, aplicada em 2025 e confirmada como CERTO no gabarito definitivo, considere selos falsos de IPI destinados a dar aparência de autenticidade a cigarros produzidos em fábrica clandestina. Segundo o entendimento cobrado,",
       "options": [
         {
           "id": "A",
-          "text": "a situação relativa aos selos configura crime contra a fé pública, sem que, nas circunstâncias narradas, exista crime tributário contra a União."
+          "text": "não há qualquer crime porque os selos ainda não foram afixados."
         },
         {
           "id": "B",
-          "text": "não há qualquer crime porque os selos ainda não foram afixados."
+          "text": "a situação relativa aos selos configura crime contra a fé pública, sem que, nas circunstâncias narradas, exista crime tributário contra a União."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "o fato é necessariamente moeda falsa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O item oficial 64 recebeu gabarito definitivo CERTO. A adaptação preserva o núcleo jurídico e evita reprodução literal da prova."
     }
   ]
