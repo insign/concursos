@@ -17,6 +17,8 @@ As relações independem de orientação sexual.
 - agressor não precisa ser homem;
 - vulnerabilidade/hipossuficiência é presumida nas relações abrangidas.
 
+**Tema 1.412/<abbr title="Supremo Tribunal Federal">STF</abbr>:** as **medidas protetivas de urgência** alcançam também violência de gênero contra mulher fora desses três contextos. Julgamento de 19/8/2026; ata publicada no Diário da Justiça Eletrônico em 21/8/2026. O artigo 5º continua descrevendo a violência doméstica e familiar; não amplie automaticamente todo o rito penal. Em 24/9/2026 havia embargos e o acórdão de mérito ainda não foi localizado.
+
 ## Formas de violência — art. 7º
 
 1. física;
