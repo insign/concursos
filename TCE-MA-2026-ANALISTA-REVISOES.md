@@ -233,7 +233,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H105 | `comunicacao-processo-organizacional` | `comunicacao-organizacional` | L | [`eeb7f7c`](https://github.com/insign/concursos/commit/eeb7f7cac29b46b04e2aaa7ad44e3e6a894fb91e) |
 | H106 | `controle-avaliacao-processo-organizacional` | `controle-avaliacao` | L | [`3f4b7cd`](https://github.com/insign/concursos/commit/3f4b7cdcd4730875740f7194a5c50dabb9955afb) |
 | H107 | `gestao-processos` | = | L | [`711b666`](https://github.com/insign/concursos/commit/711b666c521ae4c839cee24bf95f10a0ea71d942) |
-| H108 | `gestao-qualidade-excelencia-servicos-publicos` | `gestao-qualidade-excelencia` | L | — |
+| H108 | `gestao-qualidade-excelencia-servicos-publicos` | `gestao-qualidade-excelencia` | L | [`f021ae4`](https://github.com/insign/concursos/commit/f021ae4db0f6bd0015f0e0c2a666454ded42ccc9) |
 | H109 | `gestao-projetos` | = | L | — |
 | H110 | `planejamento-estrategico` | = | L | — |
 | H111 | `empreendedorismo-liderancas` | = | L | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H108: a aula ainda descreve a ISO 9001:2026 como em publicação na consulta de 8/9; a ISO registra publicação em 16/9/2026, posterior ao edital. Atualizar a indicação temporal da aula em escopo próprio, mantendo as edições anteriores no recorte de E1.
 
 - H095, H098–H102: as aulas tratam 6/7/2026, data do ato, como corte normativo; o Tribunal informa publicação do Edital nº 1 em 7/7. Corrigir as aulas em escopo próprio.
 - H100/q8741: prova anterior declarada tem texto de agregador e gabarito que identifica outro cargo; confirmar caderno e gabarito correspondente antes de utilizar o item.
