@@ -265,7 +265,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H127 | `formalizacao-garantias-riscos-duracao` | `formalizacao-riscos-duracao` | V | [`8381c92`](https://github.com/insign/concursos/commit/8381c92983b03693e50ef594070d7240ca33e360) |
 | H128 | `execucao-alteracoes-equilibrio` | = | V | [`9b3dcd8`](https://github.com/insign/concursos/commit/9b3dcd857cdcd4d25a65f5a422db2f0580e8cb19) |
 | H129 | `extincao-recebimento-pagamento` | = | V | [`80d60bd`](https://github.com/insign/concursos/commit/80d60bd9f724309062dd5cf7317ed24fd2b1d524) |
-| H130 | `sancoes-controle-pncp` | = | V | — |
+| H130 | `sancoes-controle-pncp` | = | V | [`7c04cd1`](https://github.com/insign/concursos/commit/7c04cd138dbf59a6e3d438092b240e00c965b8b3) |
 | H131 | `planejamento-in-5-2017` | = | L | — |
 | H132 | `selecao-fornecedor-in-5-2017` | `selecao-fornecedor-in5` | L | — |
 | H133 | `gestao-fiscalizacao-in-5-2017` | `gestao-fiscalizacao-in5` | L | — |
@@ -302,7 +302,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 - H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida na aula; caderno e gabarito definitivo não foram conferidos nesta revisão. Reavaliar pertinência e origem em escopo próprio, sem usá-la como contraprova do regime geral.
-- H124–H129: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
+- H124–H130: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
 - H128: página direta do Tema 1118 no portal do STF não abriu nesta consulta; revalidar a tese em fonte direta antes de usar q1699 como contraprova independente.
 - H126: inteiro teor da ADI 6.890 não abriu no portal do STF; revalidar diretamente antes de usar q1580 como contraprova independente.
 - H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
