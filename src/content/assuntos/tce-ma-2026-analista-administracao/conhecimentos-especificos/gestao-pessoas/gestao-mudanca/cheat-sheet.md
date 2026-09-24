@@ -51,7 +51,7 @@ Mudança em um elemento costuma repercutir em outros:
 
 **Pegadinhas:** urgência ≠ alarmismo; vitória inicial ≠ conclusão.
 
-## ADKAR — transição individual
+## <abbr title="Awareness, Desire, Knowledge, Ability e Reinforcement">ADKAR</abbr> — transição individual
 
 | Letra | Resultado |
 | --- | --- |
@@ -84,6 +84,7 @@ Mudança em um elemento costuma repercutir em outros:
 
 - Resistência pode conter informação útil.
 - Prontidão e resistência podem coexistir.
+- Educação/comunicação, participação, facilitação/apoio e negociação variam conforme a causa. Manipulação/cooptação e coerção constam da tipologia clássica, mas têm custos de confiança e limites legais.
 - Coerção pode gerar conformidade aparente.
 
 ## Cultura e participação
@@ -135,15 +136,5 @@ Mudança em um elemento costuma repercutir em outros:
 ## Setor público
 
 - Eficiência não sana ilegalidade.
-- Preservar competência, motivação, transparência, continuidade, acessibilidade e accountability.
+- Preservar competência, motivação, transparência, continuidade, acessibilidade e <abbr title="prestação de contas e responsabilização">accountability</abbr>.
 - Continuidade pode exigir fases, contingência, reversão segura e suporte.
-
-## Pegadinhas de uma linha
-
-- Diagnóstico do estado atual é dispensável em urgência → **errado**.
-- Gestão da mudança independe da cultura → **errado**.
-- Participação de vários setores pode reduzir reação adversa → **correto**.
-- Treinamento resolve toda resistência → **errado**.
-- Vitória curta prova benefício final → **errado**.
-- Alta prontidão garante resultado → **errado**.
-- Entrega no prazo = adoção = benefício → **errado**.
