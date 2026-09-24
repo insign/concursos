@@ -231,16 +231,18 @@ A legitimidade da consulta é, portanto, **taxativamente funcional**: não basta
 
 ### 8.2. Como formular
 
-A consulta deve:
+O art. 269, § 1º, do Regimento exige que a consulta:
 
-- indicar precisamente seu objeto;
-- ser formulada articuladamente;
-- vir, **sempre que possível**, acompanhada de parecer do órgão de assistência técnica ou jurídica da autoridade consulente;
-- observar a <abbr title="Relação entre a dúvida formulada e a esfera de atribuições da autoridade">pertinência temática</abbr> quando formulada por Prefeito ou Presidente de Câmara Municipal.
+- seja apresentada **somente pelo e-Consulta**;
+- indique precisamente o objeto e a dúvida ou controvérsia suscitada;
+- seja formulada articuladamente;
+- venha instruída com parecer do órgão de assistência técnica ou jurídica da autoridade consulente.
 
-<abbr title="Relação entre a dúvida formulada e a esfera de atribuições da autoridade">Pertinência temática</abbr> significa que a dúvida deve guardar relação com a esfera de atribuições do consulente quando o Regimento assim exige.
+As autoridades dos incisos **IV e V** do art. 269 — presidentes de comissão da Assembleia Legislativa ou de Câmara Municipal e secretários de Estado ou autoridades estaduais equivalentes — devem também demonstrar a <abbr title="Relação entre a dúvida formulada e a esfera de atribuições da autoridade">pertinência temática</abbr> da consulta às atribuições da instituição que representam. A regra específica **não se refere a Prefeito ou Presidente de Câmara Municipal**, que estão no inciso I.
 
-O ponto de literalidade é importante: o Regimento usa **“sempre que possível”** para o parecer. A página oficial do <abbr title="Sistema eletrônico do Tribunal de Contas do Estado do Maranhão para formulação de consultas">e-Consulta</abbr> orienta o consulente a consultar previamente a base de <abbr title="Teses normativas fixadas pelo Tribunal em respostas a consultas">prejulgados</abbr> e a juntar parecer técnico ou jurídico. Essa orientação ajuda a formular a consulta, mas **não transforma a pesquisa prévia em requisito regimental autônomo nem elimina a expressão “sempre que possível”**.
+**Atenção à fonte da questão:** o art. 59, § 1º, da **Lei Orgânica** diz que a consulta será instruída com parecer **“sempre que possível”**. O art. 269, § 1º, do **Regimento**, na redação de 2021, exige a instrução com parecer sem repetir essa ressalva. Não atribua a expressão da Lei ao texto do Regimento.
+
+A página oficial do e-Consulta orienta a pesquisa prévia na base de <abbr title="Teses normativas fixadas pelo Tribunal em respostas a consultas">prejulgados</abbr>. Essa orientação ajuda a formular a dúvida, mas a pesquisa prévia não aparece como requisito autônomo no art. 269.
 
 ### 8.3. Caso concreto e tese
 
