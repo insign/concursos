@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u151-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A função central de um documento médico-legal é",
       "options": [
         {
           "id": "A",
-          "text": "substituir a decisão jurídica por uma decisão médica."
+          "text": "registrar e comunicar informação médica relevante para finalidade jurídica, administrativa, policial ou judicial."
         },
         {
           "id": "B",
-          "text": "registrar e comunicar informação médica relevante para finalidade jurídica, administrativa, policial ou judicial."
+          "text": "substituir a decisão jurídica por uma decisão médica."
         },
         {
           "id": "C",
@@ -29,12 +29,12 @@
           "text": "dispensar a análise do procedimento em que será utilizado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Documento médico-legal comunica matéria médica com relevância jurídica. Ele fornece registro técnico, mas não substitui a autoridade responsável pela consequência jurídica."
     },
     {
       "id": "u151-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em relação ao atestado médico e ao laudo médico-pericial, é correto afirmar que",
       "options": [
@@ -44,11 +44,11 @@
         },
         {
           "id": "B",
-          "text": "o laudo pericial é sempre mais breve que o atestado."
+          "text": "o atestado certifica informação médica para finalidade definida, enquanto o laudo médico-pericial documenta tecnicamente uma perícia."
         },
         {
           "id": "C",
-          "text": "o atestado certifica informação médica para finalidade definida, enquanto o laudo médico-pericial documenta tecnicamente uma perícia."
+          "text": "o laudo pericial é sempre mais breve que o atestado."
         },
         {
           "id": "D",
@@ -59,18 +59,18 @@
           "text": "somente o atestado pode produzir efeitos jurídicos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O atestado é documento certificador; o laudo médico-pericial registra a atividade pericial e seu raciocínio técnico."
     },
     {
       "id": "u151-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O relatório médico circunstanciado distingue-se do laudo médico-pericial porque",
       "options": [
         {
           "id": "A",
-          "text": "tem origem tipicamente assistencial e descreve acompanhamento e evolução, sem se tornar automaticamente o produto de uma perícia."
+          "text": "não pode conter informação clínica."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "não pode conter informação clínica."
+          "text": "tem origem tipicamente assistencial e descreve acompanhamento e evolução, sem se tornar automaticamente o produto de uma perícia."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "é documento exclusivamente criminal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O relatório circunstanciado organiza dados do acompanhamento médico. Pode ser fonte para perícia, mas não é automaticamente o laudo do perito."
     },
     {
       "id": "u151-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na regulamentação profissional atual, parecer técnico é melhor descrito como",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "opinião técnica fundamentada sobre questão submetida à análise."
+          "text": "sinônimo obrigatório de atestado."
         },
         {
           "id": "C",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "sinônimo obrigatório de atestado."
+          "text": "opinião técnica fundamentada sobre questão submetida à análise."
         },
         {
           "id": "E",
           "text": "documento que decide a consequência jurídica do caso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O parecer é manifestação opinativa fundamentada. Em linguagem médico-legal clássica, costuma responder a uma consulta técnica."
     },
     {
       "id": "u151-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na Resolução CFM nº 2.381/2024, laudo médico-pericial é",
       "options": [
         {
           "id": "A",
-          "text": "documento técnico elaborado por médico perito oficial e juntado ao processo correspondente."
+          "text": "documento emitido apenas pela parte interessada."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "documento emitido apenas pela parte interessada."
+          "text": "documento técnico elaborado por médico perito oficial e juntado ao processo correspondente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A resolução atual usa expressamente a categoria laudo médico-pericial para o documento técnico produzido pelo médico perito oficial."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u151-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um prontuário médico",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "pode fornecer dados relevantes para perícia, mas não se converte automaticamente em conclusão pericial."
+          "text": "não pode conter exames anteriores."
         },
         {
           "id": "C",
-          "text": "não pode conter exames anteriores."
+          "text": "pode fornecer dados relevantes para perícia, mas não se converte automaticamente em conclusão pericial."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "equivale necessariamente a parecer técnico."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Prontuário é fonte documental assistencial. Seus dados podem ser comparados e avaliados pelo perito, mas a conclusão pericial exige análise própria."
     },
     {
       "id": "u151-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em Medicina Legal, identidade e identificação se distinguem porque",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "identidade é a condição de ser determinado indivíduo; identificação é o processo técnico de demonstrar ou verificar essa identidade."
+          "text": "identificação existe sem qualquer método."
         },
         {
           "id": "C",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "identificação existe sem qualquer método."
+          "text": "identidade é a condição de ser determinado indivíduo; identificação é o processo técnico de demonstrar ou verificar essa identidade."
         },
         {
           "id": "E",
           "text": "identidade depende de decisão judicial para existir."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Identidade responde quem o indivíduo é; identificação descreve o processo usado para estabelecer ou verificar essa identidade."
     },
     {
       "id": "u151-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Reconhecimento de uma pessoa é melhor diferenciado de identificação técnico-científica porque o reconhecimento",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "é uma atribuição por memória, familiaridade ou percepção anterior, enquanto a identificação técnica usa características comparáveis e método."
+          "text": "é sinônimo de exame odontológico."
         },
         {
           "id": "C",
@@ -296,21 +296,21 @@
         },
         {
           "id": "E",
-          "text": "é sinônimo de exame odontológico."
+          "text": "é uma atribuição por memória, familiaridade ou percepção anterior, enquanto a identificação técnica usa características comparáveis e método."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Reconhecimento é ato cognitivo/perceptivo. Identificação técnico-científica depende de método e comparação de características."
     },
     {
       "id": "u151-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre reconhecimento visual e identificação de cadáveres, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "reconhecimento visual sempre basta para identificação conclusiva."
+          "text": "métodos técnicos como impressões digitais, dados odontológicos e DNA podem ser necessários quando o reconhecimento visual é insuficiente."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "métodos técnicos como impressões digitais, dados odontológicos e DNA podem ser necessários quando o reconhecimento visual é insuficiente."
+          "text": "reconhecimento visual sempre basta para identificação conclusiva."
         },
         {
           "id": "D",
@@ -329,22 +329,22 @@
           "text": "memória de familiar tem o mesmo valor individualizador de qualquer método laboratorial."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Protocolos internacionais de identificação de vítimas alertam que reconhecimento visual frequentemente é insuficiente; métodos técnicos oferecem base comparativa mais robusta."
     },
     {
       "id": "u151-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O conjunto clássico de requisitos de um método de identificação inclui",
       "options": [
         {
           "id": "A",
-          "text": "unicidade, imutabilidade, perenidade, praticabilidade e classificabilidade."
+          "text": "popularidade, rapidez, memória, aparência e custo."
         },
         {
           "id": "B",
-          "text": "popularidade, rapidez, memória, aparência e custo."
+          "text": "unicidade, imutabilidade, perenidade, praticabilidade e classificabilidade."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "apenas perenidade e fotografia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A lista cobrada em Medicina Legal reúne unicidade, imutabilidade, perenidade, praticabilidade e classificabilidade."
     },
     {
       "id": "u151-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na papiloscopia, os princípios de variabilidade, perenidade e imutabilidade indicam, respectivamente, que",
       "options": [
         {
           "id": "A",
-          "text": "os desenhos apresentam diferenças individualizadoras, persistem e mantêm estabilidade comparativa."
+          "text": "o método depende de reconhecimento visual, testemunho e fotografia."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "o método depende de reconhecimento visual, testemunho e fotografia."
+          "text": "os desenhos apresentam diferenças individualizadoras, persistem e mantêm estabilidade comparativa."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "o método só é aplicável a pessoas vivas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Variabilidade fornece diferenças entre indivíduos; perenidade indica persistência; imutabilidade indica estabilidade dos padrões dentro dos limites do método."
     },
     {
       "id": "u151-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Dactiloscopia é o estudo comparativo das impressões",
       "options": [
@@ -408,23 +408,23 @@
         },
         {
           "id": "C",
-          "text": "dos dedos."
+          "text": "da arcada dentária."
         },
         {
           "id": "D",
-          "text": "da arcada dentária."
+          "text": "dos dedos."
         },
         {
           "id": "E",
           "text": "da íris exclusivamente."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Dactiloscopia refere-se às impressões digitais dos dedos."
     },
     {
       "id": "u151-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A correspondência correta é",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "quiroscopia — palmas das mãos; podoscopia — plantas dos pés."
+          "text": "quiroscopia — voz; podoscopia — face."
         },
         {
           "id": "C",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "quiroscopia — voz; podoscopia — face."
+          "text": "quiroscopia — palmas das mãos; podoscopia — plantas dos pés."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Quiroscopia examina impressões palmares; podoscopia, impressões das plantas dos pés."
     },
     {
       "id": "u151-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Necropapiloscopia é",
       "options": [
         {
           "id": "A",
-          "text": "reconhecimento de testemunha em audiência."
+          "text": "aplicação de técnicas papiloscópicas a cadáveres ou segmentos cadavéricos."
         },
         {
           "id": "B",
-          "text": "aplicação de técnicas papiloscópicas a cadáveres ou segmentos cadavéricos."
+          "text": "reconhecimento de testemunha em audiência."
         },
         {
           "id": "C",
@@ -479,7 +479,7 @@
           "text": "medição de estatura em fotografia."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Necropapiloscopia adapta a identificação papiloscópica ao material cadavérico, quando tecnicamente possível."
     },
     {
@@ -514,13 +514,13 @@
     },
     {
       "id": "u151-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em protocolos de identificação de vítimas de desastres, constituem grupos centrais de identificadores primários",
       "options": [
         {
           "id": "A",
-          "text": "impressões digitais, dados odontológicos e DNA."
+          "text": "tatuagem, profissão e endereço."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "tatuagem, profissão e endereço."
+          "text": "impressões digitais, dados odontológicos e DNA."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "sexo estimado, idade estimada e objetos pessoais, isoladamente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "INTERPOL destaca impressões digitais, odontologia e DNA como identificadores primários. Outros dados podem apoiar a investigação e a reconciliação."
     },
     {
       "id": "u151-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Tatuagens, cicatrizes e implantes",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "podem apoiar, orientar ou reforçar uma hipótese, mas seu poder individualizador precisa ser avaliado no conjunto."
+          "text": "constituem necessariamente impressões papilares."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "constituem necessariamente impressões papilares."
+          "text": "podem apoiar, orientar ou reforçar uma hipótese, mas seu poder individualizador precisa ser avaliado no conjunto."
         },
         {
           "id": "E",
           "text": "eliminam a necessidade de referência anterior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Sinais secundários podem ser muito úteis, mas não devem ser automaticamente equiparados a métodos primários sem analisar seu poder de individualização e o contexto."
     },
     {
       "id": "u151-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma identificação genética tecnicamente adequada exige, além de material biológico",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "referência confiável, método validado e interpretação adequada do perfil."
+          "text": "ausência de qualquer comparação."
         },
         {
           "id": "C",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "ausência de qualquer comparação."
+          "text": "referência confiável, método validado e interpretação adequada do perfil."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "DNA tem alto poder discriminatório, mas depende da qualidade da amostra, referência apropriada, comparação e interpretação."
     },
     {
       "id": "u151-a21",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na divisão de conteúdo desta campanha, as hipóteses legais de coleta genética na identificação criminal pertencem",
       "options": [
         {
           "id": "A",
-          "text": "à U151, que deve repetir integralmente a Lei nº 12.037/2009."
+          "text": "à U134; U151 trata do método de identificação e preserva essa fronteira jurídica."
         },
         {
           "id": "B",
-          "text": "à U134; U151 trata do método de identificação e preserva essa fronteira jurídica."
+          "text": "à U151, que deve repetir integralmente a Lei nº 12.037/2009."
         },
         {
           "id": "C",
@@ -629,7 +629,7 @@
           "text": "à U150 e nunca à legislação especial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A U134 é a unidade dedicada à Lei nº 12.037/2009 e ao regime jurídico da identificação criminal; U151 ensina conceitos e métodos."
     },
     {
@@ -664,13 +664,13 @@
     },
     {
       "id": "u151-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na identificação de restos humanos, a reconciliação entre dados anteriores e posteriores à morte consiste em",
       "options": [
         {
           "id": "A",
-          "text": "comparar sistematicamente registros conhecidos produzidos antes da morte com achados obtidos após a morte."
+          "text": "considerar apenas objetos pessoais."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "considerar apenas objetos pessoais."
+          "text": "comparar sistematicamente registros conhecidos produzidos antes da morte com achados obtidos após a morte."
         },
         {
           "id": "D",
@@ -689,12 +689,12 @@
           "text": "desprezar incompatibilidades."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A reconciliação confronta dados ante mortem e post mortem, procurando concordâncias, incompatibilidades e qualidade suficiente para a conclusão."
     },
     {
       "id": "u151-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A escolha do método de identificação deve considerar prioritariamente",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "material disponível, conservação, referência confiável, poder discriminatório e convergência dos resultados."
+          "text": "somente a rapidez."
         },
         {
           "id": "C",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "somente a rapidez."
+          "text": "material disponível, conservação, referência confiável, poder discriminatório e convergência dos resultados."
         },
         {
           "id": "E",
           "text": "apenas o custo do exame."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O método deve ser adequado ao material e à pergunta. Qualidade, referência e poder de individualização condicionam a força da conclusão."
     },
     {
       "id": "u151-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 25 da prova Cebraspe/PC-RO de 2022 para Médico-Legista, o documento que registra minuciosamente o trabalho do perito oficial após exame médico-legal foi tratado, na nomenclatura da prova, como",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "relatório médico-legal."
+          "text": "prontuário assistencial."
         },
         {
           "id": "C",
@@ -746,10 +746,10 @@
         },
         {
           "id": "E",
-          "text": "prontuário assistencial."
+          "text": "relatório médico-legal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A questão original teve gabarito definitivo B. A banca empregou 'relatório médico-legal' para o produto detalhado da perícia; a regulamentação profissional atual também deve ser conhecida, pois usa a expressão laudo médico-pericial."
     },
     {
@@ -784,17 +784,17 @@
     },
     {
       "id": "u151-p03",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 31 da prova Cebraspe/PC-RO de 2022 para Médico-Legista, o parecer médico-legal caracteriza-se principalmente por",
       "options": [
         {
           "id": "A",
-          "text": "opinião técnica fundamentada que responde a questão ou consulta médico-legal."
+          "text": "registro obrigatório de toda consulta clínica comum."
         },
         {
           "id": "B",
-          "text": "registro obrigatório de toda consulta clínica comum."
+          "text": "opinião técnica fundamentada que responde a questão ou consulta médico-legal."
         },
         {
           "id": "C",
@@ -809,18 +809,18 @@
           "text": "sinônimo de declaração de óbito."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A questão original teve gabarito definitivo C; a adaptação preserva o núcleo: parecer é manifestação técnica destinada a responder consulta médico-legal."
     },
     {
       "id": "u151-p04",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 32 da prova Cebraspe/PC-RO de 2022 para Médico-Legista, qual conjunto reúne requisitos clássicos de um método de identificação?",
       "options": [
         {
           "id": "A",
-          "text": "Perenidade, unicidade, praticabilidade, imutabilidade e classificabilidade."
+          "text": "Unicidade, culpabilidade, tipicidade, ilicitude e punibilidade."
         },
         {
           "id": "B",
@@ -828,7 +828,7 @@
         },
         {
           "id": "C",
-          "text": "Unicidade, culpabilidade, tipicidade, ilicitude e punibilidade."
+          "text": "Perenidade, unicidade, praticabilidade, imutabilidade e classificabilidade."
         },
         {
           "id": "D",
@@ -839,8 +839,8 @@
           "text": "Classificabilidade, aparência, endereço, profissão e idade."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A questão original teve gabarito definitivo E; nesta adaptação, a alternativa A reproduz o conjunto técnico cobrado: perenidade, unicidade, praticabilidade, imutabilidade e classificabilidade."
+      "correctOptionId": "C",
+      "explanation": "A questão original teve gabarito definitivo E; nesta adaptação, a alternativa C reproduz o conjunto técnico cobrado: perenidade, unicidade, praticabilidade, imutabilidade e classificabilidade."
     }
   ]
 }
