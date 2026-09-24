@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u149-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Medicina Legal é melhor compreendida como",
       "options": [
         {
           "id": "A",
-          "text": "ramo destinado exclusivamente à necropsia de vítimas de homicídio."
+          "text": "campo que aplica conhecimentos médicos e biológicos a problemas de interesse jurídico, auxiliando decisões técnicas e institucionais."
         },
         {
           "id": "B",
-          "text": "campo que aplica conhecimentos médicos e biológicos a problemas de interesse jurídico, auxiliando decisões técnicas e institucionais."
+          "text": "ramo destinado exclusivamente à necropsia de vítimas de homicídio."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "disciplina voltada apenas à identificação de cadáveres."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Medicina Legal funciona na interface entre conhecimentos médicos/biológicos e questões jurídicas. Seu campo não se limita a cadáveres, homicídios ou identificação."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "id": "u149-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na relação pericial, a pessoa examinada é chamada de periciado porque",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "é examinada para uma finalidade técnico-pericial, que não se confunde automaticamente com tratamento."
+          "text": "perde autonomia sobre o exame."
         },
         {
           "id": "C",
-          "text": "perde autonomia sobre o exame."
+          "text": "é examinada para uma finalidade técnico-pericial, que não se confunde automaticamente com tratamento."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "deve aceitar qualquer procedimento sem informação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Periciado é a pessoa submetida a exame com finalidade pericial. A finalidade e o papel profissional diferem da relação terapêutica."
     },
     {
       "id": "u149-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao alcance da Medicina Legal, é correto afirmar que",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "abrange também atuações cíveis, trabalhistas, administrativas e extrajudiciais, conforme a atividade pericial."
+          "text": "não possui função fora do Instituto Médico Legal."
         },
         {
           "id": "C",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "não possui função fora do Instituto Médico Legal."
+          "text": "abrange também atuações cíveis, trabalhistas, administrativas e extrajudiciais, conforme a atividade pericial."
         },
         {
           "id": "E",
           "text": "não se relaciona a pessoas vivas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A matriz oficial da especialidade contempla campos criminal, cível, trabalhista e extrajudicial, além de outras atuações periciais."
     },
     {
       "id": "u149-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em uma investigação, a função de uma conclusão médico-legal é",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "fornecer interpretação técnica fundamentada sobre dados médicos ou biológicos relevantes ao caso."
+          "text": "eliminar a necessidade de valorar as demais provas."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "eliminar a necessidade de valorar as demais provas."
+          "text": "fornecer interpretação técnica fundamentada sobre dados médicos ou biológicos relevantes ao caso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O perito oferece conhecimento técnico; a consequência jurídica é definida pela autoridade competente, considerando o conjunto aplicável."
     },
     {
       "id": "u149-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma perícia tecnicamente responsável pode concluir que os dados são insuficientes porque",
       "options": [
         {
           "id": "A",
-          "text": "todo exame médico-legal deve terminar sem conclusão."
+          "text": "a ciência aplicada deve respeitar os limites do material disponível e não produzir certeza artificial."
         },
         {
           "id": "B",
-          "text": "a ciência aplicada deve respeitar os limites do material disponível e não produzir certeza artificial."
+          "text": "todo exame médico-legal deve terminar sem conclusão."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "conclusão inconclusiva equivale a erro profissional."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Reconhecer limites faz parte da qualidade pericial. A conclusão deve refletir o que os dados realmente suportam."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u149-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Medicina Legal e Criminalística",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "podem atuar conjuntamente, mas possuem recortes técnicos distintos."
+          "text": "não podem participar do mesmo caso."
         },
         {
           "id": "C",
-          "text": "não podem participar do mesmo caso."
+          "text": "podem atuar conjuntamente, mas possuem recortes técnicos distintos."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "têm como único objeto a interpretação de normas jurídicas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A Medicina Legal foca problemas médicos/biológicos de interesse jurídico; a Criminalística possui campo mais amplo de vestígios materiais e métodos científicos."
     },
     {
       "id": "u149-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em relação à decisão jurídica, o perito médico",
       "options": [
@@ -258,23 +258,23 @@
         },
         {
           "id": "C",
-          "text": "produz conclusão técnica dentro de sua competência, enquanto a autoridade competente atribui os efeitos jurídicos."
+          "text": "substitui o Ministério Público."
         },
         {
           "id": "D",
-          "text": "substitui o Ministério Público."
+          "text": "produz conclusão técnica dentro de sua competência, enquanto a autoridade competente atribui os efeitos jurídicos."
         },
         {
           "id": "E",
           "text": "decide sozinho a imputabilidade penal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A perícia fornece base técnica, mas não substitui a função decisória da autoridade jurídica."
     },
     {
       "id": "u149-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A deontologia médica, na classificação tradicional da Medicina Legal, ocupa-se principalmente",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "dos deveres e obrigações profissionais."
+          "text": "dos projéteis de arma de fogo."
         },
         {
           "id": "C",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "dos projéteis de arma de fogo."
+          "text": "dos deveres e obrigações profissionais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Deontologia médica corresponde ao estudo dos deveres profissionais."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u149-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A antropologia forense está relacionada principalmente",
       "options": [
         {
           "id": "A",
-          "text": "à individualização e identificação humana."
+          "text": "ao estudo exclusivo de doenças mentais."
         },
         {
           "id": "B",
-          "text": "ao estudo exclusivo de doenças mentais."
+          "text": "à individualização e identificação humana."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "à administração de tratamentos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Na Medicina Legal Especial, a antropologia forense se relaciona à identidade e individualização humana."
     },
     {
       "id": "u149-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A traumatologia forense estuda",
       "options": [
         {
           "id": "A",
-          "text": "lesões e seus mecanismos de produção."
+          "text": "documentos administrativos."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "documentos administrativos."
+          "text": "lesões e seus mecanismos de produção."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "apenas transtornos mentais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Traumatologia forense é o ramo voltado ao estudo médico-legal das lesões produzidas por diferentes formas de energia."
     },
     {
       "id": "u149-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A tanatologia forense tem como núcleo",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "morte, cadáver e fenômenos relacionados."
+          "text": "ética profissional apenas."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "ética profissional apenas."
+          "text": "morte, cadáver e fenômenos relacionados."
         },
         {
           "id": "E",
           "text": "tratamento psiquiátrico assistencial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Tanatologia forense trata da morte, diagnóstico e transformações cadavéricas e temas correlatos."
     },
     {
       "id": "u149-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A psiquiatria forense, no contexto médico-legal, relaciona-se especialmente",
       "options": [
         {
           "id": "A",
-          "text": "a questões mentais com repercussão jurídica e pericial."
+          "text": "à cadeia de custódia digital."
         },
         {
           "id": "B",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "à cadeia de custódia digital."
+          "text": "a questões mentais com repercussão jurídica e pericial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A psiquiatria forense aplica conhecimentos psiquiátricos a questões jurídicas, como capacidade e imputabilidade."
     },
     {
       "id": "u149-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na divisão didática clássica entre Medicina Legal Geral e Especial, constitui tema típico da parte especial",
       "options": [
         {
           "id": "A",
-          "text": "diceologia."
+          "text": "traumatologia forense."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "traumatologia forense."
+          "text": "diceologia."
         },
         {
           "id": "D",
@@ -479,7 +479,7 @@
           "text": "deveres profissionais."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Traumatologia é ramo específico da Medicina Legal Especial; deontologia e diceologia integram a parte geral em classificações tradicionais."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u149-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A importância da Medicina Legal decorre, entre outros fatores, de que ela",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "permite traduzir achados médicos e biológicos em informação técnica útil para questões jurídicas."
+          "text": "dispensa outras fontes de prova."
         },
         {
           "id": "C",
-          "text": "dispensa outras fontes de prova."
+          "text": "permite traduzir achados médicos e biológicos em informação técnica útil para questões jurídicas."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "atua apenas após sentença."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Sua função de interface permite que fatos médicos ou biológicos sejam tecnicamente avaliados e comunicados para uso jurídico."
     },
     {
       "id": "u149-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na estrutura técnico-científica da Polícia Civil do Maranhão, a existência separada de Instituto Médico Legal, Instituto de Criminalística e Instituto de Identificação demonstra que",
       "options": [
         {
           "id": "A",
-          "text": "os campos cooperam, mas não são institucionalmente idênticos."
+          "text": "o Instituto Médico Legal não participa de perícia."
         },
         {
           "id": "B",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "o Instituto Médico Legal não participa de perícia."
+          "text": "os campos cooperam, mas não são institucionalmente idênticos."
         },
         {
           "id": "E",
           "text": "identificação nunca possui interface médico-legal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A organização institucional ajuda a visualizar especialidades técnicas distintas que podem cooperar na investigação."
     },
     {
       "id": "u149-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A U149 deve funcionar principalmente como",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "mapa conceitual da disciplina, permitindo distinguir conceito, função, importância e ramos antes dos capítulos técnicos."
+          "text": "substituto das U150 a U155."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "substituto das U150 a U155."
+          "text": "mapa conceitual da disciplina, permitindo distinguir conceito, função, importância e ramos antes dos capítulos técnicos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O recorte da U149 é introdutório: ela fornece vocabulário e organização cognitiva, deixando os objetos técnicos para as unidades seguintes."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u149-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 37 da prova Cebraspe/POLC-AL de 2023, a Medicina Legal pode ser adequadamente descrita como",
       "options": [
         {
           "id": "A",
-          "text": "disciplina que reúne conhecimentos médicos e biológicos aplicados a problemas do Direito."
+          "text": "atividade limitada à necropsia."
         },
         {
           "id": "B",
-          "text": "atividade limitada à necropsia."
+          "text": "disciplina que reúne conhecimentos médicos e biológicos aplicados a problemas do Direito."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "atividade exclusivamente terapêutica."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O item original recebeu gabarito definitivo Certo ao reconhecer o caráter interdisciplinar da Medicina Legal, formada pela aplicação de conhecimentos médicos e biológicos a questões jurídicas."
     }
   ]
