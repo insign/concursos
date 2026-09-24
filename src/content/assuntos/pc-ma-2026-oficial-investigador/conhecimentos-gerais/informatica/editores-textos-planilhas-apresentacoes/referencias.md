@@ -14,6 +14,7 @@
 - MICROSOFT. [Tarefas básicas para criar uma apresentação do PowerPoint](https://support.microsoft.com/pt-BR/PowerPoint/basic-tasks-for-creating-a-powerpoint-presentation). Slides, temas, texto, imagens, notas e apresentação.
 - MICROSOFT. [O que é um layout de slide?](https://support.microsoft.com/en-au/office/what-is-a-slide-layout-99da5716-92ee-4b6a-a0b5-beea45150f3a) e [O que é um mestre de slides no PowerPoint?](https://support.microsoft.com/en-us/powerpoint/training/what-is-a-slide-master-in-powerpoint). Organização e padrões compartilhados.
 - MICROSOFT. [Definir tempo e velocidade de uma transição](https://support.microsoft.com/en-us/PowerPoint/set-the-timing-and-speed-of-a-transition) e [aplicar vários efeitos de animação a um objeto](https://support.microsoft.com/en-US/PowerPoint/apply-multiple-animation-effects-to-one-object). Distinção entre transições e animações.
+- MICROSOFT. [Novo slide no PowerPoint com `Ctrl+M`](https://support.microsoft.com/en-us/accessibility/powerpoint/use-a-screen-reader-to-work-with-slides-in-powerpoint). Documenta o atalho no aplicativo para Windows, que também foi cobrado na prova da FGV.
 - MICROSOFT. [Formatos de arquivo compatíveis com PowerPoint](https://support.microsoft.com/en-us/powerpoint/file-formats-that-are-supported-in-powerpoint) e [formatos de arquivo compatíveis com Excel](https://support.microsoft.com/pt-br/excel/file-formats-that-are-supported-in-excel). Formatos de edição e saída.
 
 ### Proveniência Microsoft
@@ -27,6 +28,7 @@
 
 - THE DOCUMENT FOUNDATION. [Estilos no Writer](https://help.libreoffice.org/latest/pt-BR/text/swriter/01/05130000.html). Categorias de estilos de caractere, parágrafo, página, lista, tabela e quadro; estilos de página e estrutura do documento.
 - THE DOCUMENT FOUNDATION. [Endereços e referências, absolutas e relativas — Calc](https://help.libreoffice.org/latest/pt-BR/text/scalc/guide/relativ_absolut_ref.html). Células, intervalos, referências relativas/absolutas, uso de `$` e comportamento na cópia de fórmulas.
+- THE DOCUMENT FOUNDATION. [Novo slide no Impress com `Ctrl+M`](https://help.libreoffice.org/latest/pt-BR/text/simpress/01/new_slide.html). Confirma o mesmo atalho no contexto documentado.
 - THE DOCUMENT FOUNDATION. [Animar transições de slides — Impress](https://help.libreoffice.org/latest/pt-BR/text/simpress/guide/animated_slidechange.html). Transição como efeito aplicado à passagem/exibição de slides.
 - THE DOCUMENT FOUNDATION. [Utilizar o Microsoft Office e o LibreOffice](https://help.libreoffice.org/latest/pt-BR/text/shared/guide/ms_user.html). Abertura e salvamento de `DOC`/`DOCX`, `XLS`/`XLSX` e `PPT`/`PPTX` nos módulos Writer, Calc e Impress.
 - THE DOCUMENT FOUNDATION. [Sobre a conversão de documentos do Microsoft Office](https://help.libreoffice.org/latest/pt-BR/text/shared/guide/ms_import_export_limitations.html). Diferenças de leiaute e recursos em conversões de documentos complexos.
