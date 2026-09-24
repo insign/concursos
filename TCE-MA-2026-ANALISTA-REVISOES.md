@@ -216,7 +216,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
 | H095 | `teoria-geral-direitos-fundamentais` | `teoria-direitos-fundamentais` | V | [`c106204`](https://github.com/insign/concursos/commit/c106204fc585e6b93ebf0228a772149e7b4ee5b9) |
-| H096 | `declaracao-universal-direitos-humanos` | `declaracao-universal-dh` | V | — |
+| H096 | `declaracao-universal-direitos-humanos` | `declaracao-universal-dh` | V | [`23749d0`](https://github.com/insign/concursos/commit/23749d02d88706ff6f2948a8bd133903d2d22eac) |
 | H097 | `agenda-2030-onu` | = | V | — |
 | H098 | `estatuto-pessoa-deficiencia-fundamentos-direitos-garantias` | `lbi-fund-direitos-garantias` | V | — |
 | H099 | `estatuto-pessoa-deficiencia-inclusao-acessibilidade-responsabilizacao` | `lbi-inclusao-acessibilidade-resp` | V | — |
