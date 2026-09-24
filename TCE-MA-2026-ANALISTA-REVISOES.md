@@ -272,7 +272,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H134 | `medicao-pagamento-obrigacoes-equilibrio` | `medicao-pagamento-equilibrio-in5` | L | [`7500b59`](https://github.com/insign/concursos/commit/7500b59ec533e54b5b01e9ff9f71ace505e74956) |
 | H135 | `encerramento-regras-operacionais-in-5-2017` | `encerramento-regras-finais-in5` | L | [`9db0b8e`](https://github.com/insign/concursos/commit/9db0b8e9ebe1083bcbab6babd9463e2acc6aa4a8) |
 | H136 | `gestao-aplicada-execucao-contratual` | `gestao-aplicada-execucao` | V | [`b27311f`](https://github.com/insign/concursos/commit/b27311fa89c5c319332b74e01cae386b8290d9ce) |
-| H137 | `irregularidades-penalidades-sancoes` | `irregularidades-sancoes` | V | — |
+| H137 | `irregularidades-penalidades-sancoes` | `irregularidades-sancoes` | V | [`c9f8b51`](https://github.com/insign/concursos/commit/c9f8b51fb3f5db50d6e6941a7314d2de2d44d5c0) |
 
 ### M11 — Governo Eletrônico, Transparência e Controle Social
 
@@ -305,7 +305,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 - H134: q52213404 (SEFA/PR, Analista Fazendário, questão 11) teve prova oficial conferida, mas o gabarito definitivo do cargo/caderno exato ainda não foi localizado; confirmar antes de usar como contraprova.
 - H131: os itens anteriores q52213102–03 apontam para matriz oficial da PGDF, mas texto/gabarito dos itens não foram extraídos de modo independente na consulta; confirmar antes de reutilizá-los como contraprova. A regra material foi conferida na IN nº 5/2017.
 - H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida na aula; caderno e gabarito definitivo não foram conferidos nesta revisão. Reavaliar pertinência e origem em escopo próprio, sem usá-la como contraprova do regime geral.
-- H124–H135: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
+- H124–H137: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
 - H128: página direta do Tema 1118 no portal do STF não abriu nesta consulta; revalidar a tese em fonte direta antes de usar q1699 como contraprova independente.
 - H126: inteiro teor da ADI 6.890 não abriu no portal do STF; revalidar diretamente antes de usar q1580 como contraprova independente.
 - H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
