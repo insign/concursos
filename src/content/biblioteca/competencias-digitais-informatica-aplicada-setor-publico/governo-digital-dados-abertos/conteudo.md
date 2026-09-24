@@ -56,6 +56,8 @@ Seu âmbito direto é o definido no art. 2º para a administração pública fed
 
 Entre as diretrizes relevantes estão simplificação, desburocratização, plataforma única de acesso, interoperabilidade, transparência, acessibilidade, proteção de dados, atendimento multicanal e serviços orientados ao usuário.
 
+No art. 3º, XI, a simplificação inclui **eliminar formalidades e exigências cujo custo econômico ou social seja superior ao risco envolvido**. Compare o custo de exigir o documento ou a etapa com o risco que a exigência pretende evitar; a diretriz não autoriza eliminar indiscriminadamente todas as verificações nem extinguir o atendimento presencial.
+
 A ideia de **interoperabilidade** é simples: sistemas diferentes conseguem trocar e compreender informações segundo regras comuns. Isso reduz repetição de dados e permite jornadas integradas, sem significar que todas as bases se tornam uma única base.
 
 ---
