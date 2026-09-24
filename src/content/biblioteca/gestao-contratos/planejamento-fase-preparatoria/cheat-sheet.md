@@ -1,267 +1,59 @@
 # Planejamento e fase preparatória
 
-## Mapa do assunto
+## Percurso de decisão
 
-**Necessidade → <abbr title="Estudo Técnico Preliminar">ETP</abbr> → solução → objeto → riscos e preço → estratégia → edital/minuta.**
+**Necessidade pública → <abbr title="Estudo Técnico Preliminar">ETP</abbr> (alternativas e solução) → <abbr title="Termo de Referência">TR</abbr>/projeto (objeto) → riscos e preço → estratégia de seleção → edital e minuta.** A fase preparatória (artigo 18 da Lei nº 14.133/2021) é planejamento técnico, mercadológico e de gestão, compatível com as leis orçamentárias e com o <abbr title="Plano de Contratações Anual">PCA</abbr> **sempre que elaborado**. Começar por marca, fornecedor ou edital antecipa a solução.
 
-- Corte normativo: **6 jul. 2026**.
-- Núcleo: arts. **18 a 27** da Lei nº 14.133/2021.
-- Decretos e <abbr title="Instruções Normativas">INs</abbr> federais: referência para a Administração federal; sem aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+**Corte:** publicação do edital em **7 jul. 2026**; normas federais infralegais servem ao seu âmbito próprio e não se aplicam automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-## Art. 18: fase preparatória
+| Pergunta | Documento/decisão | Critério de recuperação |
+| --- | --- | --- |
+| Qual necessidade registrar? | <abbr title="Documento de Formalização da Demanda">DFD</abbr>; <abbr title="Plano de Contratações Anual">PCA</abbr>, quando aplicável | demanda antes da escolha do produto; o <abbr title="Plano de Contratações Anual">PCA</abbr> agrega contratações e orienta planejamento, sem obrigatoriedade universal pelo artigo 18 |
+| Qual solução atende melhor? | <abbr title="Estudo Técnico Preliminar">ETP</abbr> | compara alternativas, quantidades, custos, parcelamento e viabilidade; não é especificação definitiva |
+| O que contratar e como medir? | <abbr title="Termo de Referência">TR</abbr> para bens/serviços; anteprojeto, projeto básico ou executivo, conforme objeto/regime | solução convertida em objeto, requisitos, execução, gestão, medição, pagamento e orçamento |
+| Como disputar com segurança? | análise de riscos, preço estimado, modalidade, julgamento e modo de disputa | motivar a combinação e as exigências que restringem competição |
 
-- É caracterizada pelo **planejamento**.
-- Compatível com <abbr title="Plano de Contratações Anual">PCA</abbr>, **sempre que elaborado**.
-- Compatível com leis orçamentárias.
-- Abrange aspectos técnicos, mercadológicos e de gestão.
-- Problema vem antes da solução e da especificação.
+No artigo 18, a instrução abrange **11 escolhas**: (I) necessidade fundamentada no <abbr title="Estudo Técnico Preliminar">ETP</abbr>; (II) objeto por <abbr title="Termo de Referência">TR</abbr>/projeto; (III) execução, pagamento, garantias e recebimento; (IV) orçamento estimado e composições; (V–VI) edital e minuta contratual, quando necessária, como anexo; (VII–IX) regime e escala, combinação eficiente de modalidade/julgamento/disputa e motivação das condições editalícias; (X) análise de riscos; (XI) motivo do momento de revelar o orçamento.
 
-### Onze elementos
+## Estudo preliminar: cinco mínimos, treze possibilidades
 
-1. necessidade fundamentada em ETP;
-2. objeto por <abbr title="Termo de Referência">TR</abbr>, anteprojeto, projeto básico ou executivo;
-3. execução, pagamento, garantias e recebimento;
-4. orçamento estimado e composições;
-5. edital;
-6. minuta contratual, quando necessária, como anexo;
-7. regime de fornecimento/serviço/execução e escala;
-8. modalidade + julgamento + disputa + eficiência da combinação;
-9. motivação das condições editalícias;
-10. análise de riscos;
-11. motivação do momento de divulgar o orçamento.
+O <abbr title="Estudo Técnico Preliminar">ETP</abbr> evidencia **problema e melhor solução**, para avaliar viabilidade técnica e econômica. O § 1º do artigo 18 prevê: I necessidade; II previsão no <abbr title="Plano de Contratações Anual">PCA</abbr>, se houver; III requisitos; IV quantidades com memórias de cálculo, interdependências e escala; V levantamento de mercado e justificativa técnica/econômica da solução; VI valor com preços unitários e memórias; VII solução inteira, inclusive manutenção/assistência; VIII parcelamento (divisão do objeto) ou não; IX resultados; X providências prévias e capacitação; XI contratações correlatas/interdependentes; XII impactos ambientais, mitigação e logística reversa (retorno para destinação/reaproveitamento); XIII conclusão de adequação.
 
-## ETP
+**Mínimos legais: I, IV, VI, VIII, XIII** = necessidade, quantidades, valor, parcelamento e conclusão. A ausência dos demais elementos exige **justificativa** (§ 2º). Levantamento de mercado compara **soluções**; pesquisa de preços estima o **valor** da solução escolhida. Parcelar requer ponderar competição, integração técnica e economia de escala.
 
-- Evidencia o **problema** e a **melhor solução**.
-- Permite avaliar viabilidade técnica e econômica.
-- Não é especificação definitiva do objeto.
+Na <abbr title="Instrução Normativa">IN</abbr> federal nº 58/2022, a ordem dos elementos difere: mínimos **I, V, VI, VII, XIII**, com o mesmo conteúdo material; não transporte a numeração para a lei. O decreto federal nº 10.947/2022 disciplina o <abbr title="Plano de Contratações Anual">PCA</abbr> federal: racionalizar demandas, alinhar estratégia, subsidiar orçamento, evitar fracionamento e sinalizar ao mercado. A <abbr title="Instrução Normativa">IN</abbr> federal nº 81/2022 disciplina o <abbr title="Termo de Referência">TR</abbr> no seu âmbito.
 
-### Treze elementos possíveis
+**Projeto:** anteprojeto fornece concepção e subsídios; projeto básico define/dimensiona solução, custo, método e prazo; projeto executivo detalha a execução completa. Em obra e serviço comum de engenharia, o § 3º do artigo 18 permite especificar só por <abbr title="Termo de Referência">TR</abbr> ou projeto básico **se demonstrada ausência de prejuízo** à aferição dos padrões de desempenho e qualidade.
 
-1. necessidade/interesse público;
-2. previsão no PCA, se elaborado;
-3. requisitos;
-4. quantidades + memórias + interdependências + escala;
-5. levantamento de mercado + escolha técnica/econômica;
-6. valor + preços unitários + memórias;
-7. solução integral + manutenção/assistência;
-8. parcelamento ou não;
-9. resultados pretendidos;
-10. providências prévias + capacitação;
-11. contratações correlatas/interdependentes;
-12. impactos ambientais + mitigação + logística reversa;
-13. conclusão de adequação.
+## Controles que moldam a solução (artigos 19–22)
 
-### Cinco mínimos da Lei
-
-**I, IV, VI, VIII e XIII**
-
-- necessidade;
-- quantidades;
-- valor;
-- parcelamento;
-- conclusão.
-
-Ausência dos demais: **justificar**.
-
-### Numeração da IN federal nº 58/2022
-
-- Mínimos na ordem própria da IN: **I, V, VI, VII e XIII**.
-- Conteúdo material é o mesmo.
-- Não trocar numeração da Lei pela da IN.
-
-## Raciocínio do ETP
-
-| Bloco | Teste |
+| Decisão | Gatilho e limite |
 | --- | --- |
-| necessidade | descreve problema, não marca/produto |
-| quantidade | possui memória e dados |
-| mercado | compara tipos de solução |
-| parcelamento | equilibra competição, integração e escala |
-| resultados | define ganho verificável |
-| providências | prepara ambiente, licenças e agentes |
-| sustentabilidade | considera ciclo de vida e descarte |
+| Padronizar | artigo 19: centralização preferencial; catálogos/modelos; não usar catálogo ou minuta padronizada requer justificativa escrita nos autos. Outro ente **pode** adotar instrumentos federais. Modelagem da Informação da Construção (<abbr title="Modelagem da Informação da Construção">BIM</abbr>) é preferencial **quando adequada ao objeto**. |
+| Bem de consumo comum | artigo 20: qualidade não superior à necessária; vedado artigo de luxo. Cada Poder regulamenta limites; decorridos 180 dias da promulgação, compra nova de bem de consumo depende do regulamento. Qualidade funcional necessária não se confunde com luxo. |
+| Ouvir mercado | artigo 21: audiência **facultativa**, presencial ou eletrônica, com 8 dias úteis de antecedência, informação prévia inclusive <abbr title="Estudo Técnico Preliminar">ETP</abbr> e elementos do edital e participação dos interessados. Consulta **facultativa** recebe sugestões em prazo fixado pela Administração. Grande vulto, por si, não obriga audiência. |
+| Tratar riscos | artigo 18, X: análise identifica eventos e medidas. Art. 22: matriz **aloca riscos entre contratante e contratado**, refletida no edital/contrato e considerada no preço. Matriz obrigatória para obra/serviço de grande vulto e contratação integrada ou semi-integrada. Na integrada/semi-integrada, risco superveniente ligado à solução de projeto básico escolhida pelo contratado cabe a ele na matriz. |
 
-## Documentos
+Em 2026, grande vulto significa valor estimado **superior a R$ 261.968.421,04**, pelo decreto nº 12.807/2025 vigente desde 1º jan. 2026. Análise de riscos é mais ampla que matriz; a matriz não é exigida em todo certame.
 
-| Documento | Função |
+## Estimativa, sigilo e edital (artigos 23–25)
+
+Preço estimado deve ser compatível com mercado, quantidades, escala e local. A lei distingue caminhos:
+
+| Objeto | Parâmetros |
 | --- | --- |
-| <abbr title="Documento de Formalização da Demanda">DFD</abbr> | registra necessidade no planejamento aplicável |
-| PCA | consolida demandas futuras |
-| ETP | escolhe e justifica solução |
-| TR/projeto | define e detalha objeto |
+| Bens/serviços em geral (§ 1º) | combinação ou não: (I) mediana de painel/banco público de saúde no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>; (II) contratações públicas similares no ano anterior, atualizadas; (III) mídia/tabela/sítios com data e hora; (IV) **mínimo de três** fornecedores, escolha justificada, orçamentos até seis meses antes do edital; (V) base nacional de <abbr title="Nota Fiscal Eletrônica">NF-e</abbr>. Três cotações são **um parâmetro**, não regra universal. |
+| Engenharia (§ 2º) | ordem: (I) <abbr title="Sistema de Custos Referenciais de Obras">Sicro</abbr>/<abbr title="Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil">Sinapi</abbr>, acrescidos <abbr title="Benefícios e Despesas Indiretas">BDI</abbr> (custos indiretos e benefício) e encargos sociais; (II) mídia/tabelas/sítios; (III) similares; (IV) <abbr title="Nota Fiscal Eletrônica">NF-e</abbr>. Estado, Distrito Federal e município **sem recursos da União** podem usar sistema próprio. |
+| Direta (§ 4º) | se impossível estimar pelos §§ 1º–3º, futuro contratado comprova previamente preços de objetos semelhantes por notas fiscais para outros contratantes até um ano antes da contratação, ou outro meio idôneo. |
 
-### PCA federal
+Na integrada/semi-integrada, orçamento estimado pode incluir remuneração de riscos; a proposta exige ao menos o detalhamento do orçamento sintético de referência (§§ 5º–6º). A <abbr title="Instrução Normativa">IN</abbr> federal nº 65/2021 trata de bens/serviços em geral no seu âmbito, não substitui o método legal de engenharia.
 
-- Decreto nº 10.947/2022: federal direto, autárquico e fundacional.
-- Objetivos: racionalizar, alinhar estratégia, subsidiar orçamento, evitar fracionamento e sinalizar ao mercado.
-- Não torna o PCA federal automaticamente obrigatório ao TCE-MA.
+**Sigilo (artigo 24):** orçamento já foi estimado; caráter sigiloso exige justificativa, mantém públicos quantitativos e informações para propostas e permite acesso ao controle interno/externo. Motivar **quando** divulgar (artigo 18, XI). Se o julgamento é **maior desconto**, preço estimado ou máximo aceitável consta do edital.
 
-## Termo de Referência
+**Edital (artigo 25):** objeto, convocação, julgamento, habilitação, recursos, penalidades, fiscalização/gestão, entrega e pagamento; minutas uniformes quando o objeto permitir, com anexos divulgados no mesmo dia sem cadastro prévio. Mão de obra/insumos locais: demonstração no <abbr title="Estudo Técnico Preliminar">ETP</abbr> e nenhum prejuízo à competição/eficiência. Grande vulto: programa de integridade pelo vencedor em até seis meses da celebração. Licenciamento e desapropriação autorizada podem caber ao contratado; índice de reajuste, independentemente da duração, vincula-se à data do orçamento. Serviço contínuo: interregno mínimo de um ano; reajuste por índice sem dedicação exclusiva/predominância de mão de obra, **repactuação** por variação analítica de custos quando houver. Reserva de percentual de mão de obra para grupos vulneráveis depende de regulamento.
 
-- Necessário para bens e serviços.
-- Define natureza, quantidades, prazo e eventual prorrogação.
-- Vincula fundamentação ao ETP ou extrato não sigiloso.
-- Descreve solução e ciclo de vida.
-- Traz requisitos, execução, gestão, medição e pagamento.
-- Define seleção, estimativa e adequação orçamentária.
-- IN nº 81/2022: disciplina federal e transferências voluntárias.
+## Margem de preferência (artigos 26–27)
 
-### Projetos
+A margem dá vantagem comparativa de preço a bens manufaturados/serviços nacionais conformes a normas técnicas brasileiras e a bens reciclados, recicláveis ou biodegradáveis. Pode chegar a **10%**; a **20%** para desenvolvimento e inovação tecnológicos no País. Reciprocidade do <abbr title="Mercado Comum do Sul">Mercosul</abbr> exige acordo aprovado e ratificado. **Capacidade de produção/prestação nacional insuficiente** impede margem para bens e serviços nacionais, sem afastar indistintamente todas as hipóteses. Divulgar anualmente empresas favorecidas e volume de recursos por empresa. Decreto federal nº 11.890/2024 tem âmbito próprio; demais entes podem adotá-lo.
 
-- **Anteprojeto:** subsídios e concepção para projeto básico.
-- **Projeto básico:** define/dimensiona com viabilidade, custo, método e prazo.
-- **Projeto executivo:** detalha para execução completa.
-- Engenharia comum: TR ou projeto básico pode bastar se demonstrada ausência de prejuízo aos padrões.
-
-## Art. 19: estrutura e padronização
-
-- Centralização: instrumentos **preferencialmente**.
-- Catálogo eletrônico de compras, serviços e obras.
-- Acompanhamento informatizado de obras com imagem/vídeo.
-- Modelos com apoio jurídico e controle interno.
-- Modelagem digital gradual.
-- Outro ente **pode** adotar catálogo/minutas federais.
-- Não usar catálogo/modelo: justificar por escrito nos autos.
-- <abbr title="Modelagem da Informação da Construção">BIM</abbr>: preferencial **quando adequado ao objeto**.
-
-## Art. 20: comum x luxo
-
-- Item de consumo: qualidade comum, não superior à necessária.
-- Artigo de luxo: vedado.
-- Cada Poder regulamenta limites.
-- Após 180 dias da promulgação da Lei, nova compra de bem de consumo depende desse regulamento.
-- Qualidade superior funcionalmente necessária ≠ luxo.
-- Proibição de luxo ≠ obrigação de comprar pior item.
-- Decreto nº 10.818/2021: referência federal, não regra automática do TCE-MA.
-
-## Art. 21: participação
-
-### Audiência pública
-
-- Facultativa.
-- Presencial ou eletrônica.
-- Antecedência mínima: **8 dias úteis**.
-- Informações prévias, inclusive ETP e elementos do edital.
-- Manifestação de todos os interessados.
-
-### Consulta pública
-
-- Facultativa.
-- Elementos disponibilizados para sugestões.
-- Prazo fixado pela Administração.
-
-**Pegadinha:** grande vulto não torna audiência obrigatória pelo art. 21.
-
-## Riscos
-
-| Análise | Matriz |
-| --- | --- |
-| art. 18, X | art. 22 |
-| identifica e trata eventos | distribui riscos entre partes |
-| planejamento | edital + contrato |
-| não é só impacto financeiro | pode gerar taxa de risco |
-
-### Matriz obrigatória
-
-- obra ou serviço de grande vulto;
-- contratação integrada;
-- contratação semi-integrada.
-
-Grande vulto em 2026: valor estimado **superior a R$ 261.968.421,04**.
-
-### Matriz eficiente
-
-- atribui responsabilidade;
-- previne sinistro;
-- mitiga efeitos;
-- é refletida no contrato.
-
-**Integrada/semi-integrada:** risco superveniente associado à solução de projeto básico escolhida pelo contratado → responsabilidade do contratado na matriz.
-
-## Art. 23: preço estimado
-
-- Compatível com mercado.
-- Considera bases públicas, quantidade, escala e local.
-- Pesquisa não é coleta acrítica da menor cotação.
-
-### Bens e serviços em geral
-
-Parâmetros combinados ou não:
-
-1. mediana de sistemas oficiais/banco de saúde;
-2. contratação pública similar do ano anterior à pesquisa;
-3. mídia/tabela/sítio especializado com data e hora;
-4. ao menos 3 fornecedores + escolha justificada + até 6 meses;
-5. base nacional de <abbr title="Nota Fiscal Eletrônica">NF-e</abbr>.
-
-### Engenharia: ordem
-
-1. <abbr title="Sistema de Custos Referenciais de Obras">Sicro</abbr>/<abbr title="Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil">Sinapi</abbr>;
-2. mídia/tabelas/sítios;
-3. contratações similares;
-4. base de NF-e.
-
-- Incluir <abbr title="Benefícios e Despesas Indiretas">BDI</abbr> de referência e encargos sociais.
-- Estado/DF/Município sem recurso da União: pode usar sistema próprio.
-- IN nº 65/2021: bens/serviços federais; não rege engenharia.
-- Integrada/semi-integrada: orçamento da proposta deve ter **no mínimo o mesmo detalhamento** do orçamento sintético de referência.
-
-### Direta
-
-- Se parâmetros legais forem inviáveis, futuro contratado comprova preços de objetos semelhantes.
-- Notas fiscais para outros contratantes no período de até 1 ano antes da contratação pela Administração, ou outro meio idôneo.
-
-## Art. 24: orçamento sigiloso
-
-- Pode ser sigiloso **se justificado**.
-- Orçamento continua sendo elaborado antes.
-- Quantitativos e dados necessários permanecem públicos.
-- Controle interno e externo acessam.
-- Momento de divulgação deve ser motivado.
-- **Maior desconto:** estimado ou máximo no edital.
-
-## Art. 25: edital planejado
-
-- Objeto + convocação + julgamento + habilitação.
-- Recursos + penalidades da licitação.
-- Gestão/fiscalização + entrega + pagamento.
-- Minutas padronizadas quando possível.
-- Anexos divulgados na mesma data, sem cadastro.
-- Insumos/mão de obra locais: ETP + sem prejuízo à competição/eficiência.
-- Grande vulto: programa de integridade em até 6 meses do contrato.
-- Pode atribuir licenciamento e desapropriação autorizada ao contratado.
-- Índice de reajuste sempre previsto; data-base ligada ao orçamento.
-- Pode haver percentual de grupos vulneráveis conforme regulamento.
-
-## Arts. 26 e 27: preferência
-
-- Nacionais conformes a normas técnicas.
-- Reciclados, recicláveis ou biodegradáveis.
-- Margem comum: até **10%**.
-- Desenvolvimento/inovação nacional: até **20%**.
-- Mercosul: reciprocidade em acordo aprovado e ratificado.
-- Bens/serviços nacionais: capacidade nacional insuficiente → essa margem não se aplica.
-- Decreto nº 11.890/2024: federal; outros entes **podem** adotar.
-- Divulgação anual: empresas favorecidas + recursos por empresa.
-
-## Pegadinhas finais
-
-- PCA “sempre que elaborado” ≠ PCA universal obrigatório.
-- Cinco mínimos ≠ quaisquer cinco.
-- Omitir elemento não mínimo exige justificativa.
-- Levantamento de mercado ≠ três cotações.
-- ETP escolhe solução; TR especifica objeto.
-- IN federal ≠ norma estadual automática.
-- Padronização ≠ copiar modelo inadequado.
-- Luxo ≠ toda qualidade superior.
-- Audiência/consulta são facultativas.
-- Análise de risco ≠ matriz.
-- Matriz é obrigatória nas hipóteses legais.
-- Integrada/semi-integrada: risco superveniente da solução de projeto básico escolhida pelo contratado → contratado.
-- Três fornecedores são um parâmetro, não dogma universal.
-- Proposta integrada/semi-integrada não pode ter orçamento menos detalhado que a referência sintética.
-- Sigilo ≠ falta de orçamento nem bloqueio ao controle.
-- Maior desconto ≠ orçamento oculto.
-- Insuficiência da capacidade nacional não afasta indistintamente todas as margens do art. 26.
-- Preferência federal ≠ aplicação automática ao TCE-MA.
+**Recuperação final:** necessidade ≠ objeto; <abbr title="Estudo Técnico Preliminar">ETP</abbr> ≠ <abbr title="Termo de Referência">TR</abbr>; alternativas de mercado ≠ pesquisa de preços; análise ≠ matriz; sigilo ≠ orçamento ausente; regulamento federal ≠ aplicação automática ao ente estadual.
