@@ -1,4 +1,6 @@
-> As datas de consulta abaixo são posteriores ao edital e servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
+- [Edital nº 1/2026 do TCE-MA, ato de 6 jul., publicado em 7 jul. 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9530), Diário Oficial Eletrônico nº 3045; marco legislativo.
+- [FGV, CGM Cuiabá, Auditor Público Interno, Tipo 1, 2025, questão 51](https://conhecimento.fgv.br/sites/default/files/concursos/auditor-publico-interno-da-controladoria-geral-do-municipio-de-cuiabacns001-tipo-1.pdf) e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_cuiaba_auditor.pdf): comando, cinco alternativas e resposta B conferidos para reabilitação do impedimento.
+> As datas de consulta abaixo são posteriores ao edital e servem apenas à conferência editorial. O corte normativo da prova é a publicação de E1 em **7 de julho de 2026**.
 
 - BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 147 a 194 e remissões aos arts. 54 e 94. Versão vigente consultada em 16 jul. 2026.
 - BRASIL. Presidência da República. [Lei Complementar nº 198, de 28 de junho de 2023](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp198.htm). Redação definitiva do art. 193, II, consultada em 16 jul. 2026.

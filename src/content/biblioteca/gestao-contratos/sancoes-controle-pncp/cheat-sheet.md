@@ -1,193 +1,83 @@
-# Infrações, sanções, controle, PNCP e regras finais
+# Infrações, sanções, controle, <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> e regras finais
 
-## Corte temporal
+**Corte:** Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> publicado em **7/7/2026**. A Lei nº 15.266/2025 já incluía o <abbr title="Sistema de Compras Expressas">Sicx</abbr>; os valores atualizados pelo Decreto nº 12.807/2025 valem desde 1º/1/2026. Regulamento federal pode ser adotado por Estado, Distrito Federal e Município (artigo 187), sem aplicação automática ao tribunal estadual.
 
-- **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
-- Datas posteriores de consulta de fontes servem apenas à conferência editorial.
-- <abbr title="Sistema de Compras Expressas">Sicx</abbr> e o limite de **R$ 1.646.430,90** do art. 184-A já integravam o direito vigente no corte; o valor é anual, não permanente.
+**Ordem de raciocínio:** vício → saneamento/destino do contrato → perdas e danos → infração e sanção → defesa/recurso → controle e publicidade. **Nulidade** (invalidade do vínculo), **sanção** (resposta à infração) e **reparação** (dano) podem coexistir.
 
-## Nulidade: sequência correta
+## 1. Vício e litígio patrimonial (artigos 147 a 154)
 
-1. identificar a irregularidade;
-2. verificar saneamento;
-3. se insanável, avaliar interesse público da suspensão ou nulidade;
-4. motivar pelas consequências concretas;
-5. apurar responsabilidades e penalidades, qualquer que seja a solução.
+Se houver irregularidade na licitação ou execução, **tentar sanar**. Se insanável, suspender ou anular **somente se o interesse público justificar**, avaliando consequências: atraso do benefício, risco social/ambiental, segurança, custo de preservar o já executado, desmobilização, estágio físico-financeiro, empregos e nova contratação. Se paralisação/anulação não atender ao interesse público, continuar e resolver a irregularidade por perdas e danos, **sem poupar responsáveis**.
 
-**Se anular/paralisar não atender ao interesse público:** continuar o contrato + perdas e danos, sem afastar responsabilidade.
+| Questão após decisão de nulidade | Regra |
+|---|---|
+| Efeitos | Em princípio **retroativos**; desconstituem efeitos anteriores e impedem os futuros. Se retorno fático impossível, perdas e danos. Para continuidade, eficácia da declaração pode ser adiada até **6 meses**, prorrogável **uma vez**, tempo para nova contratação; não convalida o vício. |
+| Contratado sem culpa pelo vício | Indenização do que executou até declaração/eficácia da nulidade e prejuízos comprovados; quem causou a nulidade responde. |
+| Pressuposto de contratar | Objeto caracterizado e crédito das parcelas que vencerão no exercício; ausência gera nulidade do ato e responsabilização. |
 
-## Efeitos da nulidade
+**Direitos patrimoniais disponíveis** (pretensões econômicas negociáveis), como recomposição e indenização, admitem conciliação, mediação (terceiro facilita acordo), comitê de disputas (colegiado técnico) ou arbitragem (terceiro decide). Arbitragem pública é **de direito** e observa **publicidade**; contrato pode ser aditado para adotar o meio. Árbitros e comitês são escolhidos por critérios isonômicos, técnicos e transparentes.
 
-- Regra: retroatividade, impedimento de efeitos futuros e desconstituição dos anteriores.
-- Retorno fático impossível: perdas e danos.
-- Continuidade administrativa: eficácia futura por até **6 meses**, prorrogável **1 vez**.
-- Indenização do contratado: executado + prejuízos comprovados, somente se ele não causou o vício.
-- Contratação exige objeto adequadamente caracterizado + créditos das parcelas vincendas do exercício.
+## 2. Fato, sanção, alcance: artigos 155 e 156
 
-## Meios alternativos
+| Grupo de infrações | Conduta típica | Resposta possível |
+|---|---|---|
+| **I** | Inexecução parcial simples. | **Advertência** só aqui, quando não couber sanção mais grave. |
+| **II–III** | Inexecução parcial com **grave dano** a Administração/serviço/interesse coletivo; inexecução total. | **Impedimento**, salvo gravidade para inidoneidade. |
+| **IV–VII** | Não entregar documentação, não manter proposta sem fato novo justificado, não contratar/documentar quando convocado na validade, retardar sem justificativa. | **Impedimento**, salvo gravidade para inidoneidade. |
+| **VIII–XII** | Falsidade em licitação/execução, fraude, conduta inidônea, ilícito que frustra objetivos da licitação, ato lesivo da Lei nº 12.846/2013. | **Inidoneidade**. |
 
-| Meio | Chave |
-| --- | --- |
-| conciliação | terceiro pode sugerir acordo |
-| mediação | terceiro restabelece diálogo; não decide |
-| comitê de disputas | colegiado técnico consultivo, decisório ou híbrido |
-| arbitragem | decisão vinculante |
+| Sanção | Faixa e alcance |
+|---|---|
+| **Multa** | Qualquer infração: **0,5% a 30%** do valor do contrato licitado/celebrado diretamente, cálculo no edital ou contrato. Pode cumular com advertência, impedimento ou inidoneidade. |
+| **Impedimento** | Até **3 anos**, apenas Administração direta e indireta do **ente que sancionou**. |
+| **Inidoneidade** | **3 a 6 anos**, Administração direta e indireta de **todos os entes**; análise jurídica prévia e autoridade competente na forma do artigo 156, § 6º. |
 
-- Apenas direitos patrimoniais disponíveis.
-- Arbitragem pública: sempre **de direito** + **publicidade**.
-- Contrato pode ser aditado para incluir o meio.
-- Escolha: critérios isonômicos, técnicos e transparentes.
+**Dosimetria** (escolha motivada da intensidade): natureza/gravidade, peculiaridades, agravantes/atenuantes, dano e integridade. Não há escada obrigatória de sanções; nenhuma afasta reparação integral. Multa/indenização superiores ao crédito devido podem consumir esse crédito e atingir garantia ou cobrança judicial. Para inidoneidade, no Executivo decide ministro ou secretário competente, ou autoridade máxima de autarquia/fundação; nos demais Poderes e instituições, autoridade de nível equivalente segundo regulamento.
 
-## Doze infrações do art. 155
+### Relógios do processo e da reabilitação
 
-1. inexecução parcial;
-2. inexecução parcial com grave dano;
-3. inexecução total;
-4. falta de documento do certame;
-5. não manter proposta sem fato superveniente justificado;
-6. não contratar ou não entregar documento quando convocado;
-7. retardamento injustificado;
-8. declaração ou documentação falsa;
-9. fraude na licitação ou execução;
-10. inidoneidade ou fraude de qualquer natureza;
-11. ilícito para frustrar objetivos da licitação;
-12. ato lesivo da Lei Anticorrupção.
+| Passo | Marco |
+|---|---|
+| Defesa da **multa** | **15 dias úteis** da intimação. |
+| **Impedimento/inidoneidade** | Processo por comissão de **2 ou mais servidores estáveis**; sem quadro estatutário, 2 ou mais empregados permanentes, preferencialmente com 3 anos no órgão. Defesa escrita e provas: **15 dias úteis** da intimação; nova prova deferida/indispensável: **15 dias úteis** para alegações finais. Indeferimento de prova exige motivação. |
+| Prescrição punitiva | **5 anos da ciência da infração** pela Administração; processo instaurado **interrompe**, acordo de leniência (colaboração legal) ou decisão judicial que impede conclusão **suspende**. |
+| Publicidade de sanções | Informar e atualizar <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> em **15 dias úteis da aplicação**. |
+| Reabilitação perante quem sancionou | Cumular reparação integral, pagamento da multa, **1 ano** desde impedimento ou **3 anos** desde inidoneidade, condições do ato e análise jurídica conclusiva. Infrações **VIII e XII** exigem também implantação/aperfeiçoamento de programa de integridade; fim do prazo sozinho não reabilita. |
 
-## Quatro sanções
+Ato também lesivo da Lei Anticorrupção: apuração **conjunta**, mesmos autos, rito/autoridade dessa lei. **Desconsideração da personalidade** por abuso para ocultar ilícito ou confusão patrimonial (mistura de patrimônios) pode estender efeitos a administradores/sócios gestores, sucessora e empresa coligada/controlada do mesmo ramo, com contraditório, defesa e análise jurídica. Atraso injustificado gera multa de mora contratual; pode virar compensatória e coexistir com extinção e outras sanções cabíveis.
 
-| Sanção | Hipótese | Alcance/prazo |
-| --- | --- | --- |
-| advertência | só inciso I, sem maior gravidade | censura formal |
-| multa | qualquer inciso | **0,5% a 30%** |
-| impedimento | incisos II a VII | ente sancionador; até **3 anos** |
-| inidoneidade | VIII a XII; II a VII graves | todos os entes; **3 a 6 anos** |
+## 3. Impugnação, recurso e reconsideração (artigos 164 a 168)
 
-- Advertência, impedimento e inidoneidade podem cumular com multa.
-- Sanção nunca exclui reparação integral.
-- Dosimetria: natureza/gravidade + caso concreto + agravantes/atenuantes + danos + integridade.
-- Inidoneidade: análise jurídica prévia + autoridade legalmente competente.
+| Qual ato? | Prazo e caminho |
+|---|---|
+| Edital | **Qualquer pessoa** impugna/pede esclarecimento até **3 dias úteis antes** da abertura; resposta em até 3 dias úteis, no máximo no último útil anterior. |
+| Atos licitatórios do artigo 165 (inclusive julgamento, habilitação, anulação e extinção unilateral) | **Recurso em 3 dias úteis**; na habilitação/julgamento, intenção **imediata**, sob preclusão (perda da faculdade), em fase recursal única. Autoridade pode reconsiderar em 3 dias úteis; superior decide em até 10 do recebimento. **Contrarrazões** (resposta da outra parte) têm prazo igual ao recurso. |
+| Advertência, multa, impedimento | **Recurso em 15 dias úteis**; autoridade reconsidera em 5, superior decide em até 20 dias úteis do recebimento. |
+| Inidoneidade | **Só reconsideração** em 15 dias úteis, decidida em até 20 do recebimento. |
 
-## Processo sancionador
+Recurso e reconsideração de sanções têm **efeito suspensivo até decisão final**; a suspensão não equivale a provimento.
 
-### Multa
+## 4. Controle: três linhas, cautelar e prevenção (artigos 169 a 173)
 
-- Defesa: **15 dias úteis** da intimação.
-- Edital/contrato fixa cálculo dentro da faixa legal.
+| Linha | Quem atua |
+|---|---|
+| **1ª** | Agentes de licitação, servidores/empregados e autoridades da governança. |
+| **2ª** | Assessoramento jurídico e controle interno do próprio órgão/entidade. |
+| **3ª** | Controle interno **central** e tribunal de contas. |
 
-### Impedimento e inidoneidade
+Controle social atravessa o modelo, **não é quarta linha**. Alta administração implementa gestão de riscos/controle preventivo. Impropriedade formal: sanear, prevenir repetição e capacitar. **Dano:** também apurar individualmente, segregar funções e enviar ao Ministério Público quando cabível. Controle acessa documentos classificados e preserva sigilo; fiscaliza por oportunidade, materialidade (impacto), relevância e risco, considerando razões do gestor e resultados. Qualquer licitante, contratado ou pessoa pode representar ao controle.
 
-- Comissão: 2 ou mais servidores estáveis.
-- Sem estatutários: 2 ou mais empregados permanentes, preferencialmente com 3 anos de órgão.
-- Defesa e especificação de provas: **15 dias úteis**.
-- Prova nova/indispensável: alegações finais em **15 dias úteis**.
-- Indeferimento de prova: motivado.
+Se o tribunal suspende licitação **cautelarmente** (medida provisória), indica as causas. O órgão intimado dispõe de **10 dias úteis**, prorrogáveis, para informações/providências; o tribunal decide o mérito em **25 dias úteis do recebimento das informações**, prorrogáveis uma vez por igual período, indicando saneamento ou anulação. Escolas de contas capacitam agentes; artigo 172 vetado.
 
-### Prescrição
+## 5. <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> e transições (artigos 174 a 194)
 
-- **5 anos** desde a ciência da infração pela Administração.
-- Interrupção: instauração do processo.
-- Suspensão: leniência ou decisão judicial impeditiva.
+No <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>, **divulgar atos é obrigatório**; **realizar a contratação por ele é facultativo**. Publicam-se planos anuais, catálogos, editais/avisos, atas, contratos/aditivos e notas fiscais cabíveis. Cadastro, preços, sessões, acesso ao <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>, gestão social e <abbr title="Sistema de Compras Expressas">Sicx</abbr> são funções legais; dados abertos e acesso à informação. Sistema público/privado pode ser usado se integrado ao portal. Divulgação de contrato/aditivo condiciona eficácia: **20 dias úteis da assinatura** se licitação, **10** se contratação direta; urgente eficaz desde assinatura, mas publicação no prazo sob pena de nulidade.
 
-## Regras correlatas
+| Regra final | Recorte decisivo |
+|---|---|
+| Município até **20 mil** habitantes | Prazo de **6 anos desde publicação da lei (1º/4/2021), até 1º/4/2027**, só para agentes, forma eletrônica e divulgação em sítio. Enquanto não adotar <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>, publicar em diário oficial e disponibilizar documentos físicos cobrando no máximo reprodução. Não adia toda a lei; regra temporária de jornal até 2023 não extinguiu extrato permanente do edital. |
+| Crimes e outras leis | Artigo 178 deslocou tipos licitatórios para Código Penal **337-E a 337-O** e multa em **337-P**; penalidade administrativa não é condenação criminal. Prioridade processual civil para normas gerais; concessões/parcerias público-privadas admitem concorrência ou diálogo competitivo; tipos penais também alcançam estatais. |
+| Compras e valores | Centrais de compras; municípios até 10 mil preferem consórcio. Executivo federal atualiza valores **todo 1º de janeiro** pelo <abbr title="Índice Nacional de Preços ao Consumidor Amplo Especial">IPCA-E</abbr> ou substituto e divulga no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. Regime simplificado do artigo 184-A para convênios/contratos de repasse **com a União**: até **R$ 1.646.430,90 em 2026**, valor anual. |
+| Prazos legais | Exclui dia inicial e inclui vencimento; dias corridos contínuos, meses/anos de data a data, dias úteis com expediente administrativo; vencimento sem expediente ou sistema indisponível passa ao útil seguinte. |
+| Regimes e transição | Aplicação subsidiária às leis especiais de concessões, parcerias e publicidade; Estados, Distrito Federal e Municípios **podem** usar regulamento federal. Contrato assinado antes de 1º/4/2021 continua sob lei anterior. Opção expressa sem mistura entre regimes terminou **30/12/2023**; contratos validamente escolhidos no regime antigo continuam nele, sem abrir licitação nova por lei revogada. |
 
-- Lei Anticorrupção: apuração conjunta, mesmos autos, rito e autoridade próprios.
-- Desconsideração: abuso para facilitar/encobrir/dissimular ilícito ou confusão patrimonial.
-- Alcançáveis: administradores/sócios gestores + sucessora + empresa do mesmo ramo coligada/controlada.
-- Sempre: contraditório + ampla defesa + análise jurídica.
-- <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>: atualizar em até **15 dias úteis da aplicação**.
-- Atraso injustificado: multa de mora; pode virar compensatória + extinção + outras sanções.
-
-## Reabilitação cumulativa
-
-1. reparar integralmente o dano;
-2. pagar a multa;
-3. esperar 1 ano no impedimento ou 3 anos na inidoneidade;
-4. cumprir condições do ato punitivo;
-5. obter análise jurídica conclusiva.
-
-Infrações VIII e XII: também implantar ou aperfeiçoar programa de integridade.
-
-## Impugnação e recurso
-
-- Impugnação/esclarecimento: qualquer pessoa, até **3 dias úteis antes** da abertura.
-- Resposta: até 3 dias úteis, limitada ao último dia útil anterior.
-- Recurso dos atos do art. 165: **3 dias úteis**.
-- Julgamento/habilitação: intenção imediata, sob preclusão; fase única.
-- Autoridade recorrida: reconsidera em 3 dias úteis; superior decide em até 10.
-
-| Sanção | Via | Prazo | Decisão |
-| --- | --- | --- | --- |
-| advertência, multa, impedimento | recurso | 15 dias úteis | reconsidera em 5; superior em até 20 |
-| inidoneidade | só reconsideração | 15 dias úteis | até 20 |
-
-Recurso e reconsideração têm efeito suspensivo até decisão final.
-
-## Três linhas de defesa
-
-1. agentes, servidores, empregados e autoridades da governança;
-2. jurídico e controle interno do órgão;
-3. controle interno central e tribunal de contas.
-
-- Controle social não é quarta linha.
-- Alta administração implementa gestão de riscos e controle preventivo.
-- Controle acessa documentos classificados e preserva o sigilo.
-- Impropriedade formal: sanear + mitigar recorrência.
-- Irregularidade com dano: também apurar individualmente + segregar funções + remeter ao <abbr title="Ministério Público">MP</abbr> quando cabível.
-- Fiscalização: oportunidade, materialidade, relevância e risco.
-
-## Cautelar do tribunal de contas
-
-- Mérito: **25 dias úteis do recebimento das informações**, prorrogáveis 1 vez por igual período.
-- Órgão intimado: **10 dias úteis**, prorrogáveis, para cumprir, informar e apurar.
-- Mérito define saneamento ou anulação.
-- Art. 172: vetado.
-- Escolas de contas: capacitação dos agentes.
-
-## <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>
-
-- Divulgação dos atos exigidos: centralizada e **obrigatória**.
-- Realização de contratações pelo portal: **facultativa**.
-- Conteúdo: <abbr title="Plano de Contratações Anual">PCA</abbr>, catálogos, editais, diretas, atas, contratos, aditivos e notas fiscais cabíveis.
-- Funções: cadastro, preços, planejamento, sessões, CEIS/CNEP, gestão social e Sicx.
-- Dados abertos + Lei de Acesso à Informação.
-- Regra: contrato/aditivo eficaz após divulgação em **20 dias úteis** da licitação ou **10 dias úteis** da contratação direta.
-- Urgência: eficácia desde a assinatura, mas publicação nos mesmos prazos, sob pena de nulidade.
-- Sistema público ou privado: permitido com integração ao PNCP.
-
-### Municípios até 20 mil habitantes
-
-- Prazo específico de 6 anos: até **1º abr. 2027**.
-- Abrange agentes, forma eletrônica e sítio oficial; não adia toda a Lei.
-- Sem PNCP: diário oficial + documentos físicos, com cobrança apenas do custo de reprodução.
-- Fim da regra municipal temporária do art. 175, § 2º, não afasta a publicidade permanente do art. 54, § 1º.
-
-## Crimes e alterações
-
-- Art. 178: crimes licitatórios nos arts. **337-E a 337-O** do Código Penal; multa no art. **337-P**.
-- Para Gestão de Contratos, retenha a localização normativa e a independência das esferas; não é necessário memorizar aqui a tipologia penal detalhada.
-- Sanção administrativa **não** gera condenação penal automática.
-- <abbr title="Código de Processo Civil">CPC</abbr>: prioridade para processos sobre normas gerais de contratação.
-- Concessões e <abbr title="Parceria Público-Privada">PPP</abbr>: concorrência ou diálogo competitivo.
-
-## Regras finais
-
-- Centrais de compras; até 10 mil habitantes: consórcio preferencial.
-- Valores: atualização todo 1º de janeiro pelo <abbr title="Índice Nacional de Preços ao Consumidor Amplo Especial">IPCA-E</abbr> e divulgação no PNCP.
-- Prazos: exclui começo, inclui vencimento; dias úteis dependem de expediente.
-- Art. 184-A em 2026: até **R$ 1.646.430,90**; valor não é permanente.
-- Crimes também alcançam a Lei das Estatais.
-- Aplicação subsidiária: concessões, PPP e publicidade da Lei nº 12.232/2010.
-- Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios **podem** aplicar regulamentos da União.
-- Contrato antigo permanece no regime antigo durante toda sua vigência.
-- Transição sem mistura de regimes encerrou em **30 dez. 2023**.
-- Lei nº 14.133/2021 em vigor desde **1º abr. 2021**.
-
-## Não confunda
-
-- nulidade x sanção x reparação;
-- impedimento do ente x inidoneidade nacional;
-- prazo da sanção x requisitos da reabilitação;
-- controle social x linhas de defesa;
-- divulgação obrigatória x contratação facultativa pelo PNCP;
-- regulamento federal disponível x aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>;
-- contrato antigo preservado x nova contratação pela lei revogada.
+Convênios e instrumentos semelhantes seguem a lei **no que couber e sem norma específica**, na forma do regulamento federal; remissões legais aos regimes gerais antigos observam a regra de transição. Imóvel da União segue sua legislação especial, com aplicação subsidiária desta lei. A Lei nº 14.133/2021 vigora desde **1º/4/2021**; revogação geral dos regimes antigos em **30/12/2023**, sem migração dos contratos preservados.
