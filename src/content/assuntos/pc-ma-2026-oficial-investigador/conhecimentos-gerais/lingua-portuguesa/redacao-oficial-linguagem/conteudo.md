@@ -62,7 +62,7 @@ Compare os exemplos hipotéticos:
 - **impreciso:** “O material deverá ser entregue em breve.”
 - **preciso:** “O material deverá ser entregue até 18 de setembro.”
 
-A segunda versão não é melhor por ser mais longa ou mais formal; é melhor porque elimina uma faixa de interpretação criada por “em breve”.
+Se a data de 18 de setembro já constar da informação disponível, a segunda versão elimina a imprecisão de “em breve”. A data não pode ser inventada a partir dessa expressão.
 
 ### Técnica não é inimiga da clareza
 
@@ -96,9 +96,9 @@ Se uma ressalva, condição, data, exceção ou fundamento é necessária para q
 Compare:
 
 - **prolixo:** “Cumpre-nos informar, para os devidos fins, que, após a realização da análise dos autos, foi possível constatar a existência de duas pendências ainda não solucionadas.”
-- **conciso:** “A análise dos autos identificou duas pendências.”
+- **conciso:** “A análise dos autos identificou duas pendências ainda não solucionadas.”
 
-Os exemplos são hipotéticos. A segunda redação preserva a informação central e elimina uma moldura verbal que nada acrescenta.
+Os exemplos são hipotéticos. A segunda redação preserva também o estado das pendências — ainda não solucionadas — e elimina apenas a moldura verbal que nada acrescenta.
 
 Um bom teste é perguntar: **se eu apagar este trecho, perco algum fato, condição, relação lógica ou grau de certeza relevante?** Se a resposta for sim, o corte não é concisão; é perda de conteúdo.
 
