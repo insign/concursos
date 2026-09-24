@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u082-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u082-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O conceito material de crime destaca",
       "options": [
         {
           "id": "A",
-          "text": "a proteção de bens jurídicos e a relevância da lesão ou do perigo."
+          "text": "apenas a espécie de pena prevista."
         },
         {
           "id": "B",
-          "text": "apenas a espécie de pena prevista."
+          "text": "a proteção de bens jurídicos e a relevância da lesão ou do perigo."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "a inexistência de qualquer limite à criminalização."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A perspectiva material pergunta qual bem jurídico é protegido e qual lesão ou perigo justifica a intervenção penal."
     },
     {
       "id": "u082-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No mapa analítico tripartido, o crime é examinado como",
       "options": [
         {
           "id": "A",
-          "text": "fato típico, ilicitude e culpabilidade."
+          "text": "tipicidade, prescrição e competência."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "tipicidade, prescrição e competência."
+          "text": "fato típico, ilicitude e culpabilidade."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "culpabilidade, recurso e execução."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A formulação tripartida organiza o delito em fato típico, ilicitude e culpabilidade."
     },
     {
       "id": "u082-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito das construções analíticas do crime, é correto afirmar que",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "há formulações bipartidas, tripartidas e quadripartidas, devendo o candidato identificar a construção adotada no enunciado."
+          "text": "a punibilidade sempre integra obrigatoriamente o conceito legal de crime."
         },
         {
           "id": "C",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "a punibilidade sempre integra obrigatoriamente o conceito legal de crime."
+          "text": "há formulações bipartidas, tripartidas e quadripartidas, devendo o candidato identificar a construção adotada no enunciado."
         },
         {
           "id": "E",
           "text": "a lei brasileira definiu expressamente no Código Penal um conceito analítico único."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A decomposição analítica é construída pela dogmática e comporta divergências. A prova pode trabalhar com concepções diferentes."
     },
     {
       "id": "u082-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No sistema causalista clássico, dolo e culpa eram situados predominantemente",
       "options": [
         {
           "id": "A",
-          "text": "na culpabilidade."
+          "text": "no sujeito passivo."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "no sujeito passivo."
+          "text": "na culpabilidade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "No causalismo clássico, os elementos subjetivos eram examinados no âmbito da culpabilidade."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u082-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No finalismo, a principal mudança na posição de dolo e culpa é que eles",
       "options": [
         {
           "id": "A",
-          "text": "migram da culpabilidade para o fato típico."
+          "text": "deixam de existir."
         },
         {
           "id": "B",
-          "text": "deixam de existir."
+          "text": "migram da culpabilidade para o fato típico."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "passam a integrar exclusivamente a ilicitude."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A teoria finalista entende a ação como orientada a fins e desloca dolo e culpa para o fato típico."
     },
     {
       "id": "u082-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual contraste entre funcionalismos está correto?",
       "options": [
         {
           "id": "A",
-          "text": "Roxin enfatiza proteção de bens jurídicos e política criminal; Jakobs enfatiza estabilização das expectativas normativas."
+          "text": "Jakobs é o principal representante do causalismo clássico."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "Jakobs é o principal representante do causalismo clássico."
+          "text": "Roxin enfatiza proteção de bens jurídicos e política criminal; Jakobs enfatiza estabilização das expectativas normativas."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "ambos colocam dolo e culpa obrigatoriamente na culpabilidade causalista."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O funcionalismo não é unitário. O moderado de Roxin e o sistêmico de Jakobs partem de funções distintas."
     },
     {
       "id": "u082-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No direito brasileiro, infração penal é gênero que abrange",
       "options": [
         {
           "id": "A",
-          "text": "crime e contravenção penal."
+          "text": "apenas contravenção."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "apenas contravenção."
+          "text": "crime e contravenção penal."
         },
         {
           "id": "E",
           "text": "crime, delito e contravenção como três espécies legais distintas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Lei de Introdução ao Código Penal trabalha com crime e contravenção como espécies do gênero infração penal."
     },
     {
       "id": "u082-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Decreto-Lei nº 3.914/1941, caracteriza crime a infração penal para a qual a lei prevê",
       "options": [
         {
           "id": "A",
-          "text": "reclusão ou detenção, isoladamente ou com multa."
+          "text": "prisão civil."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "prisão civil."
+          "text": "reclusão ou detenção, isoladamente ou com multa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 1º da Lei de Introdução distingue crime por reclusão/detenção e contravenção por prisão simples/multa."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u082-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em leitura estrutural de uma infração, o bem jurídico corresponde",
       "options": [
         {
           "id": "A",
-          "text": "ao interesse ou valor protegido pela norma penal."
+          "text": "sempre ao objeto físico apreendido."
         },
         {
           "id": "B",
-          "text": "sempre ao objeto físico apreendido."
+          "text": "ao interesse ou valor protegido pela norma penal."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "ao número do processo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Bem jurídico é o interesse protegido; objeto material é a pessoa ou coisa sobre a qual recai diretamente a ação, quando existente."
     },
     {
       "id": "u082-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Crime comum e crime próprio diferenciam-se porque",
       "options": [
         {
           "id": "A",
-          "text": "o crime próprio exige qualidade ou condição especial do sujeito ativo."
+          "text": "o crime próprio exige apenas qualidade especial da vítima."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "o crime próprio exige apenas qualidade especial da vítima."
+          "text": "o crime próprio exige qualidade ou condição especial do sujeito ativo."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "o crime próprio é necessariamente contravenção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "No crime próprio, o tipo exige qualidade especial do agente; no crime comum, em regra, qualquer pessoa pode realizar a conduta."
     },
     {
       "id": "u082-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da pessoa jurídica como sujeito ativo de crime, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "o ordenamento admite responsabilidade penal da pessoa jurídica por crimes ambientais nas hipóteses constitucionais e legais."
+          "text": "a pessoa jurídica só pode receber prisão simples."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "a pessoa jurídica só pode receber prisão simples."
+          "text": "o ordenamento admite responsabilidade penal da pessoa jurídica por crimes ambientais nas hipóteses constitucionais e legais."
         },
         {
           "id": "E",
           "text": "a responsabilidade penal ambiental exige sempre condenação simultânea de pessoa física."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Constituição e a Lei nº 9.605/1998 admitem responsabilização penal da pessoa jurídica em matéria ambiental. STF e STJ afastaram a exigência de dupla imputação necessária."
     },
     {
       "id": "u082-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sujeito passivo material ou eventual é",
       "options": [
         {
           "id": "A",
-          "text": "o titular concreto do bem jurídico atingido ou colocado em perigo."
+          "text": "a pena prevista em abstrato."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "a pena prevista em abstrato."
+          "text": "o titular concreto do bem jurídico atingido ou colocado em perigo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O sujeito passivo material é o titular concreto do interesse protegido que sofre a lesão ou perigo."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u082-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão dupla subjetividade passiva indica",
       "options": [
         {
           "id": "A",
-          "text": "a presença de dois sujeitos passivos materiais na mesma infração."
+          "text": "a existência de dois autores."
         },
         {
           "id": "B",
-          "text": "a existência de dois autores."
+          "text": "a presença de dois sujeitos passivos materiais na mesma infração."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "dois bens jurídicos sem vítima."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Dupla subjetividade passiva significa que o delito possui dois sujeitos passivos materiais."
     },
     {
       "id": "u082-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Crime bipróprio é aquele em que",
       "options": [
         {
           "id": "A",
-          "text": "a lei exige qualidade especial tanto do sujeito ativo quanto do sujeito passivo."
+          "text": "há dois autores sem vítima."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "há dois autores sem vítima."
+          "text": "a lei exige qualidade especial tanto do sujeito ativo quanto do sujeito passivo."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "há obrigatoriamente duas penas distintas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "No crime bipróprio há qualificação específica nos dois polos da relação: ativo e passivo."
     },
     {
       "id": "u082-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 3 da prova discursiva Cebraspe/PF para Delegado, aplicada em 2021, qual afirmação descreve corretamente o finalismo?",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "Dolo e culpa passam ao fato típico, enquanto a culpabilidade assume conteúdo normativo de reprovação."
+          "text": "A ação é mero movimento causal sem finalidade."
         },
         {
           "id": "C",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "A ação é mero movimento causal sem finalidade."
+          "text": "Dolo e culpa passam ao fato típico, enquanto a culpabilidade assume conteúdo normativo de reprovação."
         },
         {
           "id": "E",
           "text": "Tipicidade e ilicitude tornam-se sinônimos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O padrão definitivo da PF/2021 adota a leitura finalista: dolo e culpa integram a tipicidade, enquanto a culpabilidade permanece como juízo de reprovação com elementos próprios."
     },
     {
       "id": "u082-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da prova oral Cebraspe/DPU de 2018 sobre funcionalismo penal, qual contraste está correto?",
       "options": [
         {
           "id": "A",
-          "text": "Roxin associa o sistema à proteção de bens jurídicos e a finalidades político-criminais; Jakobs enfatiza a estabilização das expectativas normativas."
+          "text": "As duas correntes são indistinguíveis."
         },
         {
           "id": "B",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "As duas correntes são indistinguíveis."
+          "text": "Roxin associa o sistema à proteção de bens jurídicos e a finalidades político-criminais; Jakobs enfatiza a estabilização das expectativas normativas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O padrão Cebraspe/DPU diferencia funcionalismo moderado de Roxin, orientado a bens jurídicos e política criminal, e funcionalismo radical/sistêmico de Jakobs, orientado à vigência da norma."
     },
     {
       "id": "u082-p03",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 49 da prova oral Cebraspe/PC-RO de 2022, assinale a associação correta.",
       "options": [
         {
           "id": "A",
-          "text": "crime vago — ausência completa de sujeito passivo."
+          "text": "crime bipróprio — qualidades especiais exigidas nos sujeitos ativo e passivo."
         },
         {
           "id": "B",
-          "text": "crime bipróprio — qualidades especiais exigidas nos sujeitos ativo e passivo."
+          "text": "crime vago — ausência completa de sujeito passivo."
         },
         {
           "id": "C",
@@ -629,7 +629,7 @@
           "text": "crime bipróprio — qualquer pessoa pode ser autor e vítima."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O padrão oficial da PC/RO define crime bipróprio pela exigência de qualidade especial nos dois polos; também explica crime vago e dupla subjetividade passiva."
     }
   ]
