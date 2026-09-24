@@ -1,183 +1,67 @@
 # Execução, fiscalização, alterações e equilíbrio
 
-## Corte temporal
+**Corte:** publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> em **7/7/2026**. O Tema 1118 do <abbr title="Supremo Tribunal Federal">STF</abbr> foi julgado em 2025, antes do edital; orientações do <abbr title="Tribunal de Contas da União">TCU</abbr> e da <abbr title="Advocacia-Geral da União">AGU</abbr> são federais e não vinculam automaticamente o tribunal estadual.
 
-- **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
-- **Tema 1118/<abbr title="Supremo Tribunal Federal">STF</abbr>:** julgamento em 13/2/2025 e trânsito em julgado em 29/4/2025; integra o recorte anterior ao edital.
-- Orientações de <abbr title="Tribunal de Contas da União">TCU</abbr>, <abbr title="Advocacia-Geral da União">AGU</abbr> e <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> devem ser identificadas como referências federais, não como normas automaticamente aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+**Pergunta de partida:** há descumprimento do objeto original, mudança legítima da obrigação ou variação do preço? Fiscalizar/corrigir defeito, alterar cláusula e registrar efeito econômico já pactuado exigem respostas diferentes.
 
-## Execução fiel
+## 1. Executar e fiscalizar (artigos 115 a 120)
 
-- As duas partes devem cumprir o contrato e respondem pela inexecução total ou parcial.
-- A Administração não pode retardar imotivadamente obra, serviço ou parcela, inclusive por mudança de autoridade.
-- Impedimento, ordem de paralisação ou suspensão do contrato: prorrogação automática do cronograma pelo período correspondente, registrada por apostila.
-- Obra paralisada por mais de 1 mês: aviso em sítio oficial e placa visível, com motivo, responsável e previsão de reinício.
-- **Obras e serviços de engenharia**, se o licenciamento for responsabilidade da Administração: manifestação ou licença prévia antes do edital.
+| Gatilho | Quem faz o quê |
+|---|---|
+| Prestação contratada | **Ambas as partes** executam fielmente e respondem pela inexecução total ou parcial. Administração não retarda imotivadamente obra/serviço, nem por troca de autoridade. |
+| Impedimento, paralisação ou suspensão | Cronograma prorroga-se **automaticamente pelo tempo correspondente**, com registro por **apostila** (anotação sem alteração de cláusulas). Perda econômica adicional exige demonstração própria. Em **obra** paralisada por mais de um mês, aviso no sítio oficial e placa visível com motivo, responsável e data prevista de reinício. |
+| Licenciamento de obra/engenharia a cargo da Administração | Manifestação ou licença prévia, conforme o caso, **antes de divulgar o edital**. |
+| Fiscalização | **Um ou mais fiscais** designados pela Administração acompanham, registram ocorrências, determinam regularização de faltas/defeitos e informam prontamente o superior sobre o que excede sua competência. Assessoria jurídica e controle interno os auxiliam. |
+| Apoio externo | Terceiro pode subsidiar o fiscal, responde objetivamente pela precisão das informações e guarda sigilo; não exerce atribuição exclusiva de fiscal nem o exonera de responsabilidade nos limites das informações recebidas. |
+| Lado do contratado | **Preposto** (representante aceito pela Administração) permanece no local da obra ou serviço. Corrigir, reparar, remover, reconstruir ou substituir, **às expensas do contratado**, objeto viciado pela execução/material. Danos diretos à Administração ou a terceiros continuam sob responsabilidade do contratado, mesmo com fiscalização. |
 
-## Reserva de cargos
+A reserva legal de vagas para pessoa com deficiência, reabilitado da Previdência Social e aprendiz vale **durante toda a execução**; quando solicitado, o contratado comprova e identifica os ocupantes. Fiscal não se torna executor; preposto não assume atribuições do fiscal.
 
-- Deve ser mantida durante toda a execução.
-- Abrange pessoa com deficiência, reabilitado da Previdência, aprendiz e outras reservas legais.
-- O contratado comprova quando solicitado e identifica os ocupantes das vagas.
+### Encargos e terceirização: separe regime, prova e consequência
 
-## Fiscalização
+**Regra:** contratado responde pelos encargos trabalhistas, previdenciários, fiscais e comerciais; inadimplência não transfere automaticamente a dívida à Administração. **Somente em serviço contínuo com dedicação exclusiva de mão de obra**, se comprovada falha de fiscalização das obrigações, a Administração responde **solidariamente** pelos encargos previdenciários (cobrança dos corresponsáveis) e **subsidiariamente** pelos trabalhistas (responsabilidade sucessiva).
 
-- Um ou mais fiscais especialmente designados representam a Administração.
-- Fiscal: acompanha, registra ocorrências, determina correções e informa o que excede sua competência.
-- Assessoria jurídica e controle interno auxiliam e previnem riscos.
-- Terceiro pode assistir o fiscal, mas não decide nem exerce atribuição exclusiva.
-- Terceiro responde objetivamente pela precisão das informações e deve guardar confidencialidade.
-- Fiscalização não exclui nem reduz responsabilidade do contratado.
+O **Tema 1118/<abbr title="Supremo Tribunal Federal">STF</abbr>** afasta responsabilidade trabalhista subsidiária baseada apenas na inversão do **ônus da prova** (encargo de demonstrar o fato): cabe ao autor demonstrar negligência administrativa ou **nexo causal** (ligação entre conduta e dano). Inércia após notificação formal idônea do inadimplemento é exemplo de negligência; há dever de segurança, higiene e salubridade no local de trabalho público/convencionado. Na terceirização, exigir capital social **integralizado** (efetivamente realizado) compatível com os empregados e medidas preventivas do artigo 121, § 3º. Não há responsabilidade automática nem imunidade geral.
 
-## Responsabilidades do contratado
+**Prevenção com previsão no edital/contrato:** garantia para verbas rescisórias, pagamento condicionado à quitação trabalhista, **conta vinculada** (depósito separado, absolutamente impenhorável), pagamento direto das verbas inadimplidas com dedução e parcelas de férias, décimo terceiro, ausências e rescisão pagas ao contratado somente no fato gerador. Recolhimento previdenciário observa o artigo 31 da Lei nº 8.212/1991.
 
-- Manter preposto aceito pela Administração no local da obra ou serviço.
-- Corrigir, remover, reconstruir ou substituir, às próprias expensas, objeto viciado ou defeituoso.
-- Responder por danos à Administração e a terceiros decorrentes da execução.
+## 2. Subcontratar e decidir (artigos 122 e 123)
 
-## Encargos
+**Subcontratação** alcança somente **parte** da obra, serviço ou fornecimento, até o limite autorizado caso a caso, sem liberar o contratado principal. Exigir, avaliar e juntar capacidade técnica do subcontratado; edital/regulamento pode vedar ou condicionar. Edital deve prever vedação para vínculos e parentesco até terceiro grau do subcontratado ou seus dirigentes com dirigente/servidor envolvido, nas hipóteses legais.
 
-**Regra:** somente o contratado responde por encargos trabalhistas, previdenciários, fiscais e comerciais.
+Solicitação/reclamação de execução pede **decisão explícita**, salvo requerimento manifestamente impertinente, meramente protelatório ou sem interesse para a boa execução. Sem prazo específico, decidir em **um mês após concluída a instrução**, prorrogável motivadamente por igual período; o marco não é necessariamente o protocolo.
 
-**Dedicação exclusiva de mão de obra:**
+## 3. Alterar: enquadramento, limite e documento (artigos 124 a 133)
 
-- previdenciários: responsabilidade solidária da Administração;
-- trabalhistas: responsabilidade subsidiária, se comprovada falha de fiscalização.
+| Caminho | Hipótese |
+|---|---|
+| **Unilateral**, justificada | Mudança qualitativa de projeto/especificações para adequação técnica; ou acréscimo/supressão quantitativa que altere o valor. |
+| **Por acordo**, justificado | Substituir garantia; mudar regime de execução ou modo de fornecimento tecnicamente inaplicável; mudar pagamento por fato superveniente, preservando valor inicial atualizado e sem antecipação indevida; recompor desequilíbrio por força maior, caso fortuito, **fato do príncipe** (ato estatal geral com repercussão extraordinária) ou fato imprevisível/previsível de consequência incalculável que inviabilize o pactuado, conforme a matriz. |
 
-### Tema 1118/STF
+Cláusulas econômico-financeiras e monetárias exigem prévia concordância do contratado. Se alteração unilateral mudar seus encargos, **restabelecer o equilíbrio no mesmo termo aditivo** (instrumento que modifica o contrato). Falha de projeto em engenharia exige apuração do responsável técnico e ressarcimento; atraso em desapropriação, desocupação, servidão ou licenciamento alheio ao contratado pode exigir recomposição.
 
-| Ponto | Regra curta |
-| --- | --- |
-| mera inversão do ônus | **não basta** para responsabilizar subsidiariamente a Administração |
-| prova | parte autora deve demonstrar negligência efetiva ou nexo causal |
-| inércia | notificação formal idônea + ausência de providência = comportamento negligente |
-| ambiente | Administração garante segurança, higiene e salubridade quando o trabalho ocorre em suas dependências ou local convencionado |
-| prevenção | em terceirização, exigir capital social compatível e adotar medidas do art. 121, § 3º |
+| Alteração unilateral | Acréscimo | Supressão |
+|---|---:|---:|
+| Obra, serviço ou compra | **25%** | **25%** |
+| Reforma de edifício ou equipamento | **50%** | **25%** |
 
-**Medidas possíveis:** garantia para verbas rescisórias, pagamento condicionado à quitação, conta vinculada, pagamento direto com dedução e pagamento pelo fato gerador.
+Base: **valor inicial atualizado**, conjuntos de acréscimos e supressões apurados separadamente, **sem compensação**, segundo orientação do <abbr title="Tribunal de Contas da União">TCU</abbr>. Supressão **por acordo** pode superar 25%, interpretação adotada pelo tribunal federal; não é poder unilateral. Mesmo abaixo do percentual, proíbe-se **transfigurar o objeto** (substituir sua identidade material).
 
-- Conta vinculada: valores absolutamente impenhoráveis.
-- Contribuições previdenciárias: recolhimento conforme o art. 31 da Lei nº 8.212/1991.
+**Proteção do preço em engenharia:** item novo sem preço unitário usa a relação proposta/orçamento-base aplicada ao referencial ou mercado na data do aditivo; mudança de planilha não pode reduzir em favor do contratado o desconto global frente ao preço de referência (**jogo de planilha** = eliminar desconto por troca de itens). Materiais já adquiridos e colocados no local de parte suprimida são pagos pelo custo comprovado e reajustado; demais danos exigem prova.
 
-## Subcontratação
+**Antes de executar o alterado, formalizar aditivo.** Necessidade justificada permite antecipar efeitos, formalizando em até **um mês**. Na contratação **integrada** (contratado elabora projetos básico e executivo) ou **semi-integrada** (elabora executivo), valores em regra não mudam; exceções: caso fortuito/força maior, alteração técnica pedida pela Administração sem erro/omissão do contratado e dentro dos limites, hipótese própria da semi-integrada, ou evento superveniente alocado à Administração na matriz.
 
-- Somente partes do objeto e até o limite autorizado pela Administração.
-- A capacidade técnica do subcontratado deve ser comprovada, avaliada e juntada ao processo.
-- Edital ou regulamento pode vedar, restringir ou condicionar.
-- Vínculos e parentesco até terceiro grau com dirigentes ou agentes envolvidos impedem a subcontratação, conforme vedação expressa no edital.
+## 4. Qual mecanismo preserva a equação econômica? (artigos 131, 134 a 136)
 
-## Dever de decidir
+| Variação | Decisão e evidência | Registro usual |
+|---|---|---|
+| Ordinária captada por índice | **Reajuste**: aplicar índice contratual, respeitada data-base/anualidade. | Apostila se já previsto. |
+| Custos de serviço contínuo com dedicação exclusiva ou predominância de mão de obra | **Repactuação**: pedido e demonstração analítica das parcelas, com planilha ou instrumento coletivo/sentença normativa. | Apostila se já prevista. |
+| Fato extraordinário que rompe encargos/contraprestação | **Revisão**: evento, impacto e nexo comprovados; verificar risco alocado. Sem anualidade mínima. | Termo aditivo. |
+| Atraso de pagamento | Atualização, compensação ou penalização financeira prevista. | Apostila. |
 
-- Administração decide expressamente solicitações e reclamações da execução.
-- Exceções: pedido impertinente, protelatório ou sem interesse para a boa execução.
-- Após a instrução: 1 mês, prorrogável motivadamente por igual período.
-- Repactuação: prazo de resposta deve constar do contrato.
+**Revisão extraordinária** pode decorrer de força maior, caso fortuito, fato do príncipe ou evento imprevisível/previsível de consequências incalculáveis que inviabilize o pactuado. Oscilação ordinária de insumo/câmbio, isoladamente, não basta; risco assumido na matriz não é devolvido por simples pedido. Tributo, encargo legal ou disposição legal superveniente **após a proposta**, com repercussão comprovada, altera preço **para mais ou para menos**. Pedido de restabelecimento **durante a vigência e antes de eventual prorrogação pelo artigo 107** pode ser reconhecido após a extinção, por termo indenizatório.
 
-## Alterações
+**Repactuação:** custos de mercado referem-se à apresentação da proposta; mão de obra, ao acordo, convenção ou dissídio da categoria vinculada à proposta. Respeitar **um ano** para cada parcela; repactuações posteriores da mesma parcela contam da última correspondente, podendo haver momentos distintos para categorias e insumos. Instrumento coletivo não vincula a Administração a matéria não trabalhista, participação nos lucros, direitos não previstos em lei, preços obrigatórios de insumos ou cláusulas exclusivas de contratos públicos. Resposta contratual preferencial em **um mês após documentos**. A orientação federal de <abbr title="Tribunal de Contas da União">TCU</abbr>/<abbr title="Advocacia-Geral da União">AGU</abbr> exige pleito antes de prorrogação sem ressalva, sob **preclusão lógica** (ato anterior incompatível com pedido tardio); não é prazo literal do artigo 135.
 
-### Unilaterais
-
-| Tipo | Hipótese |
-| --- | --- |
-| Qualitativa | melhor adequação técnica de projeto ou especificações |
-| Quantitativa | acréscimo ou diminuição da quantidade e do valor |
-
-- Cláusulas econômico-financeiras e monetárias não mudam unilateralmente sem concordância.
-- Alteração unilateral dos encargos: equilíbrio restabelecido no mesmo termo aditivo.
-
-### Por acordo
-
-1. substituição da garantia;
-2. mudança do regime de execução ou modo de fornecimento tecnicamente inaplicável;
-3. mudança da forma de pagamento por fato superveniente, sem antecipação indevida;
-4. recomposição por força maior, caso fortuito, fato do príncipe ou álea extraordinária, respeitada a matriz de riscos.
-
-## Limites unilaterais
-
-| Situação | Acréscimo | Supressão |
-| --- | ---: | ---: |
-| Obras, serviços e compras | até 25% | até 25% |
-| Reforma de edifício/equipamento | até 50% | até 25% |
-
-- Base: valor inicial atualizado do contrato.
-- Nunca transfigurar o objeto.
-- TCU: apuração isolada de acréscimos e supressões, sem compensação.
-- Respeitar percentual não autoriza substituir o objeto por outro.
-
-## Preços e supressões
-
-- Item novo: relação proposta/orçamento-base aplicada aos referenciais ou mercado na data do aditamento.
-- Engenharia: aditivo não pode reduzir o desconto global em favor do contratado.
-- Materiais já adquiridos e postos no local antes da supressão: pagamento do custo comprovado, reajustado, mais outros danos comprovados.
-
-## Termo aditivo
-
-- Regra: formalizar antes de executar a prestação alterada.
-- Efeito antecipado por necessidade justificada: formalizar em até 1 mês.
-
-## Integrada e semi-integrada
-
-- Regra: vedada alteração dos valores.
-- Exceções: caso fortuito/força maior; pedido técnico da Administração; hipótese própria da semi-integrada; risco superveniente alocado à Administração.
-- Integrada: erro ou omissão do contratado não justifica aumento por alteração técnica.
-
-## Equilíbrio econômico-financeiro
-
-| Instrumento | Causa | Forma |
-| --- | --- | --- |
-| Reajuste | inflação ordinária por índice | apostila |
-| Repactuação | custos analíticos de mão de obra | apostila se prevista |
-| Revisão | álea extraordinária | termo aditivo |
-| Atualização | atraso de pagamento | apostila |
-
-### Revisão
-
-- Exige evento extraordinário, impacto, nexo causal e desequilíbrio comprovado.
-- Deve respeitar a matriz de riscos.
-- Não tem periodicidade mínima.
-- Inflação normal ou câmbio previsível, isoladamente, não bastam.
-- Pedido durante a vigência e antes de eventual prorrogação **nos termos do art. 107** pode ser reconhecido mesmo após a extinção.
-- Tributo ou encargo legal superveniente com impacto comprovado: revisão para mais ou para menos.
-
-### Repactuação
-
-- Apenas serviço contínuo com dedicação exclusiva ou predominância de mão de obra.
-- Exige demonstração analítica: planilha ou novo instrumento coletivo.
-- Mercado: 1 ano da proposta.
-- Mão de obra: 1 ano do acordo, convenção ou dissídio vinculado à proposta.
-- Repactuação seguinte: 1 ano da última repactuação da mesma parcela.
-- Pode ser parcelada; anualidade vale separadamente para cada parcela.
-- Instrumento coletivo deve corresponder à categoria profissional envolvida.
-- Não vincula cláusulas sobre obrigações e direitos aplicáveis somente a contratos com a Administração.
-- **Orientação federal, não texto literal do art. 135:** pedir antes de prorrogar sem ressalva ou extinguir o contrato, sob pena de preclusão lógica.
-
-## Apostila ou aditivo?
-
-**Apostila:**
-
-- reajuste ou repactuação já previsto;
-- atualização, compensação ou penalização financeira;
-- mudança de razão ou denominação social;
-- empenho de dotação;
-- prorrogação automática de cronograma do art. 115, § 5º.
-
-**Termo aditivo:**
-
-- alteração qualitativa ou quantitativa;
-- substituição de garantia;
-- mudança de regime ou modo de fornecimento;
-- mudança da forma de pagamento;
-- revisão extraordinária.
-
-## Pegadinhas finais
-
-- Fiscalizar não é assumir a execução.
-- Encargo trabalhista não se transfere automaticamente.
-- Tema 1118: ausência de prova de fiscalização pela Administração, isoladamente, não basta para responsabilidade subsidiária.
-- Subcontratação parcial não rompe a responsabilidade do contratado principal.
-- 50% em reforma vale apenas para acréscimo.
-- Percentuais incidem sobre o valor inicial atualizado.
-- Alteração dentro do percentual ainda pode ser ilícita se transfigurar o objeto.
-- Reajuste não é revisão; repactuação não é índice automático.
-- Matriz de riscos pode impedir a transferência do evento à Administração.
-- Apostila não altera cláusulas; registra efeitos sem alteração contratual.
+**Apostila** registra efeitos que **não caracterizam alteração contratual**: reajuste/repactuação já previsto, efeitos financeiros de pagamento, mudança da razão/denominação social, empenho da dotação e a prorrogação automática do cronograma. **Aditivo** modifica obrigação, garantia, regime, pagamento ou recompõe evento extraordinário. Primeiro classifique o fato; só então escolha o instrumento.
