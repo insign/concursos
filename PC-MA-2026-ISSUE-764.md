@@ -43,13 +43,13 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após a conclusão de **PC-F02**: U001–U158 permanecem C/H/Q `done`; os **141 pacotes físicos locais e 17 origens canônicas** foram inspecionados contextualmente. U006 teve a identidade reconciliada com a publicação efetiva da `main`; U009 e U061 foram reconciliadas como **novas/locais**; U072 permaneceu **parcial/local** com doador canônico comprovado por confronto dos snapshots de criação. PC-F01 e PC-F02 estão `done`; PC-F03–PC-F05 permanecem `pending`. PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após a conclusão de **PC-F02**: U001–U158 permanecem C/H/Q `done`; os **141 pacotes físicos locais e 17 origens canônicas** foram inspecionados contextualmente. U006 teve a identidade reconciliada com a publicação efetiva da `main`; U009 e U061 foram reconciliadas como **novas/locais**; U072 permaneceu **parcial/local** com doador canônico comprovado por confronto dos snapshots de criação. PC-F01–PC-F03 estão `done`; PC-F04–PC-F05 permanecem `pending`. PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Unidades reais previstas | 158 | 0 | 0 | 158 |
 | Entregáveis de unidade C/H/Q | 474 | 0 | 0 | 474 |
-| Tarefas macro individualizadas | 62 | 3 | 0 | 59 |
+| Tarefas macro individualizadas | 62 | 2 | 0 | 60 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos can
 
 As inspeções de PC-F02 não criam unidade ou tarefa macro adicional e não reabrem aceites editoriais. A reconciliação final altera apenas a classificação verificável de duas unidades: U009 e U061 passam de parcial herdada sem doador comprovado para **nova/local**; U072 permanece parcial com doador comprovado. PC-R04 permanece `done`, agora com **40/40** unidades atualmente classificadas como parciais; a mudança documental não reabre os pacotes já aceitos.
 
-**Próxima ação habilitada: PC-F03 — reconsultar publicações oficiais e fontes materiais, distinguir alterações posteriores do corte aplicável e resolver ou explicitar divergências temporais/documentais remanescentes.** PC-F02 foi concluída após reconciliação de U006, U009, U061 e U072. U001–U158 permanecem C/H/Q `done`; nenhuma identidade, rota, ordem ou composição de banco foi alterada neste fechamento.
+**Próxima ação habilitada: PC-F04 — confirmar na `main` os commits e arquivos publicados e consolidar origens, consumidores, cobertura e duplicações.** PC-F03 foi concluída como reconsulta datada de 24/09/2026: seis arquivos editoriais de U091, U093 e U129 receberam correções de corte e jurisprudência; U001–U158 permanecem C/H/Q `done`, sem alterar identidades, rotas, ordens ou bancos. A janela jurisprudencial futura exige verificação antes do encerramento em PC-F05.
 
 ### Pendências e divergências herdadas
 
@@ -71,7 +71,7 @@ As inspeções de PC-F02 não criam unidade ou tarefa macro adicional e não rea
 | U081–U087 | Checklists e evidências de aceite `done`, mas linhas da matriz de planejamento ainda `pending` | Os dois registros são explicitados na matriz abaixo; nenhuma normalização silenciosa nesta migração |
 | U006 — identidade reconciliada | O registro herdado associava U006 ao item 5 e ao slug `estrutura-morfossintatica-periodo`; a publicação original de `classes-nominais-de-palavras` (`6cdef6f8b6abf98d5e9849df120747efb5b090b9`) já nasceu com `storageId: pc-u006`, ordem 6, enquanto `estrutura-morfossintatica-periodo` foi criada depois como `pc-u009`, ordem 9 | A linha herdada estava defasada. U006 fica consolidada como `classes-nominais-de-palavras`, nova/local, sem alteração de rota ou identidade publicada |
 | U009 — classificação reconciliada | A `main` resolve `estrutura-morfossintatica-periodo` como `pc-u009`, ordem 9. O pacote foi criado em quatro commits próprios iniciados por `f9636793effb406fdddff7592209f6225b7f9618`; `referencias.md` registra produção nova, e Q usa IDs locais próprios | Reconciliada como **nova/local**. A classificação parcial herdada não tinha doador materializado e foi substituída pela proveniência verificável do pacote |
-| Corte jurisprudencial | PC-P01 distingue corte legislativo e regra de 30 dias antes das provas; registros recentes usaram também 13/7/2026 para limitar jurisprudência | Preservar ambos como registros; revalidar a aplicabilidade temporal no ciclo pertinente e em PC-F03, sem converter o corte legislativo em regra jurisprudencial por inferência |
+| Corte jurisprudencial | PC-P01 distingue corte legislativo e regra de 30 dias antes das provas; U091/U093 continham linguagem que equiparava os marcos | PC-F03 corrigiu U091/U093 e registrou o Tema 1.412/STF em U129. Corte legislativo: 13/7/2026; jurisprudência: publicação até 30 dias antes da prova. A janela ainda futura será reconsultada em PC-F05 antes de qualquer fechamento |
 
 As lacunas não bloqueiam automaticamente disciplinas independentes ou a U094, cujo recorte está materializado. Não afirmar que a matriz individual integral ou a transcrição literal completa do edital foi restaurada por este arquivo. O registro de aceites recebidos não equivale a nova certificação de cobertura material.
 
@@ -173,9 +173,9 @@ PC-E09-C inclui orientação de redação; PC-E09-H recupera repertório/estrutu
 
 - [x] PC-F01 — `done` — Matriz conferida em 21/09/2026 contra o Edital nº 1, itens 7, 8, 9, 19.32–19.33.1 e 20.2.2–20.2.3; sem lacuna programática identificada, sem dupla contagem de unidade e sem redistribuição de pesos; auditoria detalhada abaixo.
 - [x] PC-F02 — `done` — Inspecionar manualmente schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.
-- [ ] PC-F03 — `pending` — Reconsultar publicações oficiais e fontes materiais, distinguindo alterações posteriores do corte e resolvendo/explicitando literalidades defeituosas.
+- [x] PC-F03 — `done` — Reconsulta datada de 24/09/2026 às publicações oficiais, fontes materiais e divergências de corte/literalidade; correções e evidências abaixo. A janela jurisprudencial posterior à consulta permanece condicionante de PC-F05.
 - [ ] PC-F04 — `pending` — Confirmar na `main` commits e arquivos resolvidos; consolidar origens, consumidores, cobertura e duplicações por unidade.
-- [ ] PC-F05 — `pending` — Recalcular macros, unidades reais, canônicas/locais e visões; fechar #764 somente com cobertura integral, tudo `done` e nenhuma reserva ativa.
+- [ ] PC-F05 — `pending` — Recalcular macros, unidades reais, canônicas/locais e visões; reconsultar publicações oficiais e jurisprudência na janela final do item 19.33.1 conforme a data definitiva da prova (6/11/2026 se 6/12/2026 for mantida); fechar #764 somente com cobertura integral, tudo `done`, nenhuma reserva ativa e essa verificação temporal possível e confirmada.
 
 ### PC-F01 — conferência final da matriz contra o edital
 
@@ -918,6 +918,25 @@ Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conheciment
 **Reconciliação final de PC-F02:** U006 foi consolidada na identidade publicada `pc-u006`/ordem 6/`classes-nominais-de-palavras`; a antiga associação com `estrutura-morfossintatica-periodo` era uma linha herdada defasada, pois esse segundo pacote foi criado depois como U009/`pc-u009`/ordem 9. U009 foi reconciliada como nova/local pela proveniência própria do pacote. U061 também passou a nova/local após confronto do snapshot de criação com o candidato TCE sem reutilização material identificada. U072 permaneceu parcial/local porque o confronto dos snapshots comprovou trechos reaproveitados do canônico `historia-geografia-estado-maranhao/geomorfologia-geologia-relevo`. A documentação de U061/U072 foi publicada em `457edefb8d1ce70bd47a621367760e4adf499881`.
 
 **Fechamento de PC-F02:** as 158 unidades estão cobertas por **141 pacotes locais e 17 origens canônicas** com inspeção contextual documentada. U006, U009, U061 e U072 completam os quatro pacotes locais que faltavam. PC-F02 fica `done`; nenhuma origem canônica foi editada neste fechamento.
+
+### PC-F03 — reconsulta oficial e cortes, 24/09/2026
+
+**Reserva:** `PC-F03-20260924-FONTES-01`. Base editorial conferida na `main` em `6369985cb4a4e904c846c8097dc6395144263293`; os seis commits de correção abaixo foram relidos por SHA e conteúdo após a publicação. Trata-se de uma **reconsulta datada** dos pontos materiais de maior risco já sinalizados, das literalidades do edital e do julgamento novo identificado; não é alegação de consulta individual nova a todas as 158 unidades nem certificação de publicações futuras.
+
+| Fonte oficial reconsultada | Achado e aplicação |
+|---|---|
+| [Cebraspe — página do concurso](https://www.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR) e [Edital nº 1, PDF de 13/07/2026](https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf) | Na listagem pública consultada em 24/09 constavam Edital nº 1 (13/07) e comunicado de pagamento (05/08); **não constava retificação do programa nessa listagem**. Itens 19.32–19.33.1: alterações legislativas vigentes até a publicação do edital; norma ainda não vigente se expressa nos objetos; jurisprudência dos tribunais superiores publicada até 30 dias antes das provas. Prova inicialmente 06/12/2026, sujeita a alteração; marco jurisprudencial condicional **06/11/2026**. |
+| [Leis nº 9.455/1997](https://www.planalto.gov.br/ccivil_03/leis/l9455.htm), [8.069/1990](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm), [14.423/2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14423.htm) e [12.830/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12830.htm) | Edital preservado literalmente com os anos defeituosos **9.455/1965** e **8.069/1970**; material U125/U126 usa as leis de 1997/1990 e explicita o erro. `Estatuto do Idoso` é nome literal do edital, enquanto a denominação normativa é `Estatuto da Pessoa Idosa` (U136). Lei 12.830 aparece duas vezes, itens 8 e 13, coberta uma vez por U130. Referências já adequadas, sem commit editorial vazio: U125 `d1a54ef20e59ec7dda0b4bb88b6fa638d9f2ce9a`, U126 `f2e9aa814b2814ea9d50783311bacd02ea890f2d`, U136 `bfb6b8b533c7250bf827979cbe93633b406e4d74`, U130 `8c67c0196b7841bbd22d7fb7253ebaae0b628d23`. |
+| [Lei 15.358/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm), [Lei 15.450/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15450.htm) e [Lei 15.487/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15487.htm) | A 15.358 integra o corte nos diplomas afetados. A 15.450 foi publicada antes, mas o § 6º acrescido ao art. 14 do ECA ainda não vigia em 13/07 por vacatio de 180 dias; U126 a exclui. A 15.487 é de agosto, posterior ao corte; U126/U132/U139 preservam a redação anterior. Referências rechecadas na `main`: U132 `2ec4cbe89474032a5b6a7208ab8ae237160e4ae8`, U139 `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e`. |
+| [STF — Tema 1.412, ARE 1.537.713](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=7171450&numeroProcesso=1537713&numeroTema=1412) e [notícia oficial](https://noticias.stf.jus.br/postsnoticias/lei-maria-da-penha-medidas-protetivas-se-aplicam-fora-do-contexto-domestico-decide-stf/) | Julgado em 19/08; **ata de julgamento publicada no DJe em 21/08**; embargos opostos em 27/08. Medidas protetivas de urgência alcançam violência de gênero contra mulher fora dos três contextos do art. 5º, com as qualificações de competência e urgência constantes da tese. Na consulta de 24/09 não foi localizada publicação do acórdão de mérito; a ata formalmente publicada fundamenta o registro, sujeito ao resultado dos embargos e à janela final. |
+
+| Unidade e ajuste confirmado | Commit(s) | Blob(s) finais |
+|---|---|---|
+| U091 — referências: separação do corte legislativo/jurisprudencial e Tema 1.185/STF ainda sem mérito na consulta | `7e238d4cc5466c4f202955cf8db2117670bea38c` | R `368ca289647cc01ecb339d6fe0fd6ad0f4086983` |
+| U093 — conteúdo e referências: precedente sobre cadeia de custódia identificado por publicação própria; fim da equivalência 13/07 = corte jurisprudencial; Tema 1.380/STF sem mérito na consulta | `241daa659121227a580950e30c183e0074c7e1f4`, `bb69714530e4bd28b18590e94c678d8b2e86ebb7` | C `6a9fe615a6974f42a8857bcc791b11548e5876be`; R `e48827e9cf9de8db690d1bada25ecf05a5ad1c71` |
+| U129 — conteúdo, revisão e referências: Tema 1.412; distinção entre art. 5º e medida urgente; contradição interna sobre preventiva de ofício sanada, preservando Súmula 676 e acórdãos da Quinta Turma. Questão `u129-a25` já registrava a divergência e não foi alterada | `b9e896f36b3f0b36b7e18808a2f3f902efffcc19`, `f2746823d8ecca1fd3a7e22b668ee8510ffefb05`, `df35f014da8bb306693620c49b73af74408df7b2` | C `87a0baf27a6fa56de691adbcae07ddb34f051fe8`; H `07bee8789c0436b9049e7e9c84da824d57e128b3`; R `1cd94bec52e27d7106a0f6c04fc9409323c58b71` |
+
+**Limite temporal e transferência:** em 24/09 o marco de 06/11 ainda é futuro, e a prova pode ser remarcada. As notas históricas de referências que atribuíram a PC-F03 a “janela final” devem ser lidas à luz deste registro: PC-F03 completou a reconsulta possível hoje; **PC-F05 fica condicionado à nova consulta oficial após a janela efetiva**, inclusive acórdão/embargos do Tema 1.412, decisões pendentes e eventual retificação. PC-F04 pode prosseguir com a confirmação dos arquivos e origens. Nenhuma nova unidade, visão, identidade ou questão foi criada; C/H/Q permanecem `done`.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
