@@ -211,6 +211,8 @@ O ingresso exige:
 - pelo menos três anos de atividade jurídica;
 - observância da ordem de classificação.
 
+O art. 109 da Lei Orgânica faz uma **remissão específica** aos arts. 96, VIII, e 99: também aos membros do <abbr title="Ministério Público de Contas">MPC</abbr> se aplica o impedimento de atuar em processo de interesse pessoal ou nas demais situações pessoais descritas no art. 96, VIII, assim como o prazo de **30 dias para posse e exercício**, contado da publicação da nomeação, prorrogável por até **mais 60 dias** mediante solicitação escrita. Isso não estende automaticamente aos Procuradores todas as regras de escolha dos Conselheiros.
+
 ### 5.2. Procurador-Geral: lista, nomeação e substituição
 
 Os Procuradores de Contas formam uma **lista tríplice entre integrantes da carreira**. O Governador escolhe e nomeia o Procurador-Geral no prazo de **15 dias**.
