@@ -503,12 +503,6 @@ a:hover {
   font: inherit;
 }
 
-.study-forecast select {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .connection-callout {
   margin-block: 2rem;
   padding: 1rem;

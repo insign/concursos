@@ -86,8 +86,11 @@ describe('contestSchema examDate', () => {
     expect(contestSchema.parse({ ...base, examDate: null })).toBeTruthy();
   });
 
-  it('rejeita data inexistente e campos extras', () => {
+  it('rejeita data inexistente, chave ausente e campos extras', () => {
     expect(() => contestSchema.parse({ ...base, examDate: '2026-02-30' })).toThrow();
+    const { examDate: _omitted, ...withoutExamDate } = { ...base, examDate: '2026-10-15' };
+    void _omitted;
+    expect(() => contestSchema.parse(withoutExamDate)).toThrow();
     expect(() => contestSchema.parse({ ...base, examDate: null, extra: true })).toThrow();
   });
 });
