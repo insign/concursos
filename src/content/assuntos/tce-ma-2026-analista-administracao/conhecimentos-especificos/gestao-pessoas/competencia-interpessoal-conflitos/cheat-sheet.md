@@ -23,6 +23,8 @@
 - Percepção de incompatibilidade, divergência ou interferência.
 - Não é automaticamente violência, insubordinação ou falha.
 - Fontes: recursos, metas, papéis, interdependência, informação, valores e poder.
+- **Visões:** tradicional = indesejável; relações humanas = natural; interacionista = alguma divergência pode ser funcional, sem tornar todo conflito benéfico.
+- Interdependência conjunta → sequencial → recíproca: trocas nos dois sentidos exigem mais coordenação e elevam o potencial de atrito, não a certeza de conflito.
 
 ### Níveis
 
@@ -72,7 +74,7 @@
 ## Estratégias
 
 - Estruturais: papéis, alçadas, recursos, metas e interdependências.
-- Processuais: pauta, fatos, critérios, prazos, registro e revisão.
+- Processuais: pauta, fatos, critérios, prazos, registro e revisão. Pesquisa de feedback coleta percepções e devolve resultados ao grupo para diagnóstico, não é avaliação individual.
 - Relacionais: escuta, assertividade, feedback, respeito e facilitação.
 - Relação não substitui correção estrutural ou providência disciplinar.
 
@@ -96,7 +98,7 @@
 - Confirmação: procura apoio à crença inicial.
 - Percepção seletiva: nota parte dos sinais.
 - Estereótipo: infere pela pertença a grupo.
-- Autoconveniência: sucesso → fatores internos; fracasso → fatores externos.
+- Etnocentrismo: tomar valores da própria cultura como régua para outra; diferença não prova incompetência ou má-fé.
 
 ## Setor público
 
