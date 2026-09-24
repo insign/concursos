@@ -25,10 +25,13 @@ Análise de cargos → base para **seleção, desempenho, capacitação, organiz
 - Essencial ≠ desejável.
 - Requisito de entrada ≠ requisito desenvolvível.
 - Requisito sem ligação com tarefa/condição = alerta de inflação.
+- **Especificação mental (taxonomia clássica):** instrução, conhecimento/especialização, experiência, complexidade das tarefas e iniciativa; distinguir de exigências físicas, responsabilidades e condições de trabalho.
 
 ## Fluxo básico
 
-**Planejar → escolher fontes/métodos → coletar → sintetizar → validar → atualizar.**
+**Definir finalidade → planejar fontes/amostra → escolher método → colher dados → sintetizar → validar → documentar/atualizar.**
+
+**Colheita/coleta** obtém informações sobre tarefas e requisitos para decisões posteriores; não é a decisão final sobre pessoas ou cargos.
 
 Fonte única é risco:
 
@@ -86,22 +89,9 @@ Fonte única é risco:
 - **<abbr title="Occupational Information Network">O*NET</abbr>:** referência ocupacional; não substitui análise local.
 - **<abbr title="Knowledge, skills, abilities and other characteristics">KSAO</abbr>:** conhecimentos, habilidades, capacidades e outras características.
 
-## Vantagens da análise
+## Fronteira com desenho do trabalho
 
-- clareza de responsabilidades;
-- critérios menos arbitrários;
-- base comum para subsistemas de pessoas;
-- identificação de lacunas e duplicidades;
-- atualização do trabalho diante de mudanças.
-
-## Limitações
-
-- fotografia de um momento;
-- depende da qualidade das fontes;
-- pode sofrer inflação e omissão;
-- custa tempo e recursos;
-- envelhece com tecnologia/processos;
-- consenso não elimina viés.
+Em Hackman e Oldham, **significado da tarefa** é o impacto substancial do trabalho na vida ou no trabalho de outras pessoas; difere de **identidade** (parte completa identificável), frequência e criticidade. A análise descreve o trabalho; o desenho examina como características da tarefa afetam a experiência.
 
 ## Atualização e vieses
 
@@ -115,15 +105,3 @@ Erros:
 - copiar trabalho prescrito sem conferir prática;
 - usar uma única fonte;
 - microdetalhar procedimento transitório.
-
-## Pegadinhas
-
-- “Análise = descrição” → **errado**.
-- “Descrição = requisitos da pessoa” → **errado**; isso é principalmente especificação.
-- “Observação é melhor para todo cargo” → **errado**.
-- “Questionário estruturado = maior profundidade” → **errado**; sua força é escala/comparação.
-- “Incidente crítico cobre toda a rotina” → **errado**.
-- “Documento oficial basta” → **errado**.
-- “Consenso prova validade” → **errado**.
-- “Tarefa rara é irrelevante” → **errado**.
-- “Método único sempre basta” → **errado**.
