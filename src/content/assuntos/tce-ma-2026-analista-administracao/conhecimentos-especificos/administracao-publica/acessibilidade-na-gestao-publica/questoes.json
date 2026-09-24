@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q934",
@@ -679,9 +679,9 @@
     },
     {
       "id": "q979",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Para o edital publicado em 6 de julho de 2026, a Lei nº 15.459/2026, publicada no DOU em 8 de julho e não mencionada expressamente no programa, deve ser",
+      "prompt": "Para o Edital nº 1, datado de 6 de julho e publicado em 7 de julho de 2026, a Lei nº 15.459/2026, publicada no DOU em 8 de julho e não mencionada expressamente no programa, deve ser",
       "options": [
         {"id": "a", "text": "incluída no núcleo do edital porque a lei é datada de 7 de julho"},
         {"id": "b", "text": "ignorada inclusive quando se apresentar o direito vigente hoje"},
@@ -690,7 +690,7 @@
         {"id": "e", "text": "aplicada retroativamente à data de assinatura do edital"}
       ],
       "correctOptionId": "d",
-      "explanation": "A Lei nº 15.459/2026 foi publicada e entrou em vigor em 8 de julho de 2026, depois do edital de 6 de julho, e não foi indicada no programa. Ela pode ser apresentada como direito vigente hoje, mas separada do núcleo legislativo do corte. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Lei nº 15.459/2026, datada de 7 de julho, foi publicada e entrou em vigor em 8 de julho de 2026, após a publicação do Edital nº 1 em 7 de julho, sem indicação expressa no programa. Ela pode ser apresentada como direito vigente hoje, mas separada do núcleo legislativo do corte. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q980",
