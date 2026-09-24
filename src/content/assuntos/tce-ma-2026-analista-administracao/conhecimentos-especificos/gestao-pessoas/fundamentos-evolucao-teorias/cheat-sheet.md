@@ -1,62 +1,35 @@
 # Gestão de pessoas: fundamentos, evolução e teorias
 
-## Evolução
+## Comece pela função
 
-| Estágio | Foco |
+**Gestão de pessoas** articula capacidades e condições de trabalho à missão pública, com legalidade, impessoalidade, mérito e continuidade. Alta administração define prioridades; unidade de <abbr title="Recursos Humanos">RH</abbr> apoia políticas e processos; gestores conduzem equipes. A função é compartilhada, não se resume ao órgão especializado.
+
+| Ênfase | Pergunta predominante |
 | --- | --- |
-| <abbr title="Departamento Pessoal">DP</abbr> | registro, folha, frequência e conformidade |
-| <abbr title="Administração de Recursos Humanos">ARH</abbr> | recrutamento, treinamento, cargos e avaliação |
-| gestão estratégica | pessoas e competências alinhadas à estratégia |
+| <abbr title="Departamento Pessoal">DP</abbr> | vínculos, registros, folha, frequência e conformidade |
+| <abbr title="Administração de Recursos Humanos">ARH</abbr> | seleção, treinamento, cargos, avaliação e relações de trabalho |
+| gestão estratégica | capacidades, coerência das práticas, missão e resultados |
 
-- Estágios coexistem; gestão estratégica não elimina rotinas.
-- No setor público: valor público, legalidade, impessoalidade, mérito e continuidade.
-- <abbr title="Gestão de Pessoas">GP</abbr> é responsabilidade compartilhada entre alta administração, unidade especializada, gestores e pessoas.
+**Os estágios coexistem.** Coerência **vertical** liga missão → trabalho → capacidades → práticas; coerência **horizontal** compatibiliza seleção, alocação, desenvolvimento e avaliação. Um curso não elimina atraso causado por processo, acesso, liderança, metas ou orçamento.
 
-## Visão sistêmica
+## Escola = pergunta diagnóstica
 
-- Estratégia define capacidades críticas.
-- Estrutura e processos definem trabalho e quantitativos.
-- Tecnologia muda tarefas e competências.
-- Orçamento limita escolhas.
-- Cultura e comunicação afetam cooperação e aprendizagem.
-- Ambiente traz legislação, mercado e demandas sociais.
-- Capacitação isolada falha sem condições para aplicar aprendizado.
-
-## Escolas
-
-| Escola | Autor/foco | Pegadinha |
+| Abordagem | Foco e autor | Distinção de prova |
 | --- | --- | --- |
-| científica | Taylor; tarefas e método | também inclui seleção e treinamento científicos |
-| clássica | Fayol; estrutura e <abbr title="Prever, Organizar, Comandar, Coordenar e Controlar">POCCC</abbr> | Taylor ≠ Fayol; <abbr title="Planejar, Organizar, Dirigir e Controlar">PODC</abbr> é síntese posterior |
-| neoclássica | Drucker; objetivos e resultados | <abbr title="Administração por Objetivos">APO</abbr> não é mera imposição de metas |
-| burocrática | Weber; racional-legal | tipo ideal ≠ disfunções de Merton |
-| relações humanas | Mayo/Hawthorne; grupos | observação não explica sozinha produtividade |
-| comportamental | Simon e outros; decisão | racionalidade limitada e solução satisfatória |
-| estruturalista | Etzioni; formal + informal + conflito | homem organizacional; não presume harmonia |
-| sistêmica | interdependência e ambiente | feedback e equifinalidade |
-| contingencial | ajuste ao contexto | não há receita universal |
+| Científica | Taylor: tarefa e método; seleção, treinamento, cooperação e divisão de responsabilidades | estudo de tempos, movimentos e fadiga; tarefa não explica a organização inteira |
+| Clássica | Fayol: estrutura geral; **prever, organizar, comandar, coordenar, controlar** | “planejar, organizar, dirigir, controlar” é síntese posterior, não enumeração literal |
+| Burocrática | Weber: autoridade racional-legal, mérito, regras, hierarquia e registros | tipo ideal ≠ disfunções de Merton, como rigidez e desvio da finalidade |
+| Neoclássica | Drucker: objetivos, acompanhamento, resultados e correção | administração por objetivos ≠ metas impostas sem coerência e acompanhamento |
+| Relações Humanas | Mayo/Hawthorne: grupos, normas e liderança informal | observação isolada não explica necessariamente produtividade |
+| Comportamental | Simon: decisão sob racionalidade limitada; Barnard: cooperação e aceitação da autoridade | solução **satisfatória** ≠ ótimo calculado com conhecimento completo |
+| Estruturalista | Etzioni: estrutura formal e informal, papéis, poder e conflito | homem organizacional atua em múltiplas organizações; não presume harmonia |
+| Sistêmica | interdependência, ambiente e retorno de informação | saídas de um subsistema afetam os demais; caminhos distintos podem chegar ao mesmo resultado |
+| Contingencial | adequação da estrutura e das práticas à tarefa, tecnologia e ambiente | diagnóstico e ajuste ≠ improvisação ou solução universal |
 
-## Autores
+## Trocas que decidem o item
 
-- Taylor: estudo científico da tarefa, seleção, treinamento, cooperação e divisão de responsabilidades.
-- Fayol: prever, organizar, comandar, coordenar e controlar.
-- Drucker: Administração por Objetivos, acompanhamento e resultados.
-- Weber: tipo ideal burocrático; cargos, regras, hierarquia, impessoalidade, mérito, carreira e documentação.
-- Merton: disfunções burocráticas; rigidez, apego aos meios e deslocamento de objetivos.
-- Mayo: organização informal e fatores sociais.
-- Barnard: cooperação, comunicação e aceitação da autoridade.
-- Simon: racionalidade limitada e decisão satisfatória.
-- Maslow: necessidades.
-- Herzberg: higiene evita insatisfação; motivadores ligam-se ao conteúdo.
-- McGregor: X/Y são pressupostos gerenciais, não tipos naturais.
-- Etzioni: estruturalismo e homem organizacional.
-
-## Frases de prova
-
-- Científica = tarefa; Clássica = estrutura; Burocracia = racionalidade legal.
-- Weber = tipo ideal; Merton = disfunções burocráticas.
-- Etzioni = estruturalismo; homem organizacional = múltiplos papéis organizacionais.
-- Relações Humanas = grupo informal; Comportamental = decisão e comportamento.
-- Sistemas = integração; Contingência = adequação.
-- Contingência não é improvisação.
-- Burocracia weberiana não é sinônimo de corrupção, ineficiência ou formalismo patológico.
+- **Taylor × Fayol:** tarefa e método × administração do conjunto. **Weber × Merton:** tipo ideal burocrático × disfunção do apego às regras.
+- **Relações Humanas × Estruturalismo:** grupo informal × combinação de formal, informal, poder e conflito. **Sistemas × Contingência:** interdependência × ajuste conforme condições.
+- Na abordagem sistêmica, **expansionismo** insere o fenômeno no sistema maior; **pensamento sintético** explica a parte no todo; **teleologia** examina finalidades e resultados com retorno de informação. Não confunda com reducionismo, análise isolada ou mecanicismo linear.
+- Maslow (necessidades), Herzberg (higiene e motivadores) e McGregor (pressupostos gerenciais X/Y) são pistas da abordagem comportamental. X/Y não são tipos naturais de empregado; motivação é aprofundada em H145.
+- Diante de nova plataforma e atrasos, identifique **qual problema** existe: método, coordenação, regra, grupo, decisão, conflito, interdependência ou contexto. Capacitar sem mudar condições incompatíveis pode não alterar a entrega.
