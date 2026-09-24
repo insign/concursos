@@ -220,7 +220,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H097 | `agenda-2030-onu` | = | V | [`5ca5dec`](https://github.com/insign/concursos/commit/5ca5dec761600e4903c7c4b90963a3fe650a654e) |
 | H098 | `estatuto-pessoa-deficiencia-fundamentos-direitos-garantias` | `lbi-fund-direitos-garantias` | V | [`d620bd0`](https://github.com/insign/concursos/commit/d620bd04248009f7e20ca684e6b2f1eb6f67b139) |
 | H099 | `estatuto-pessoa-deficiencia-inclusao-acessibilidade-responsabilizacao` | `lbi-inclusao-acessibilidade-resp` | V | [`bdb59f8`](https://github.com/insign/concursos/commit/bdb59f8be048c303abc0cead3f4b5a99fb41426c) |
-| H100 | `acessibilidade-prioridade-atendimento` | `l100-acessibilidade-prioridade` | V | — |
+| H100 | `acessibilidade-prioridade-atendimento` | `l100-acessibilidade-prioridade` | V | [`98a9ad3`](https://github.com/insign/concursos/commit/98a9ad328f17b5aa3282c9231f5aca63121e630f) |
 | H101 | `estatuto-igualdade-racial-fundamentos-direitos` | `eir-fund-direitos-igualdade` | V | — |
 | H102 | `estatuto-igualdade-racial-politicas-publicas` | `eir-politicas-mecanismos` | V | — |
 
@@ -302,7 +302,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 ## 9. Pendências abertas em aulas e banco
 
-- H095 e H098–H099: as aulas tratam 6/7/2026, data do ato, como corte normativo; o Tribunal informa publicação do Edital nº 1 em 7/7. Corrigir as aulas em escopo próprio.
+- H095 e H098–H100: as aulas tratam 6/7/2026, data do ato, como corte normativo; o Tribunal informa publicação do Edital nº 1 em 7/7. Corrigir as aulas em escopo próprio.
+- H100/q8741: prova anterior declarada tem texto de agregador e gabarito que identifica outro cargo; confirmar caderno e gabarito correspondente antes de utilizar o item.
 
 - H093: a aula trata 6/7 como publicação do E1, embora o Tribunal registre 7/7, e incorpora notícia de 27/8 e mudança empresarial de 1/9 após o corte de 4/8; corrigir a aula em escopo próprio.
 
