@@ -138,9 +138,9 @@ Compare dois cenários hipotéticos:
 
 O ponto de prova é reconhecer que a revisão tem **porta de entrada estreita**: prazo longo não significa cabimento amplo.
 
-### 5.3. Prestação de contas anual de Prefeito: exclusão expressa
+### 5.3. Prestação de contas anuais de Prefeito e Governador: exclusão expressa
 
-O art. 139, § 7º, estabelece que **não cabe recurso de revisão contra decisão proferida em prestação de contas anual apresentada por Prefeito Municipal**.
+O art. 139, § 7º, estabelece que **não cabe recurso de revisão contra decisão em prestação de contas anual apresentada por Prefeito Municipal ou pelo Governador do Estado**.
 
 A exclusão precisa ser guardada junto com o próprio conceito de revisão, porque impede aplicar mecanicamente o prazo de dois anos a qualquer processo de contas. Decisão oficial do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> em 2026 aplicou expressamente essa vedação.
 
@@ -183,7 +183,7 @@ Ao receber uma questão, siga esta sequência:
 2. **Qual é o instrumento?** Reconsideração, embargos ou revisão?
 3. **Qual é o prazo?** 15 dias, 5 dias ou 2 anos?
 4. **Qual é o efeito?** Suspensivo, interruptivo de prazos ou sem efeito suspensivo?
-5. **Há uma exceção de cabimento?** Fato novo do art. 137? Fundamento vinculado da revisão? Prestação de contas anual de Prefeito?
+5. **Há uma exceção de cabimento?** Fato novo do art. 137? Fundamento vinculado da revisão? Prestação de contas anual de Prefeito ou Governador?
 6. **O enunciado está usando redação antiga do Regimento?** Para a revisão, o art. 139 da Lei Orgânica prevalece: **2 anos** e hipóteses legais vigentes.
 
 Se essas seis perguntas estiverem claras, as pegadinhas mais comuns deixam de depender de memorização isolada: elas passam a ser consequência do mecanismo.
