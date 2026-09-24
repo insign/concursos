@@ -256,9 +256,9 @@ Se o texto-base diz:
 
 uma orientação pode dizer:
 
-> “Apresente documento de identificação na portaria para acessar o prédio.”
+> “Identifique-se na portaria para acessar o prédio.”
 
-A condição foi convertida em instrução sem mudar sua força.
+A condição foi convertida em instrução sem pressupor que a identificação precise ocorrer por documento; o texto-base não especifica o meio.
 
 Se o original apenas **recomenda** uma conduta, a versão injuntiva não pode transformá-la em obrigação.
 
@@ -301,9 +301,9 @@ A formalidade não exige passiva, palavras longas ou tratamento cerimonioso em t
 
 pode ser natural em conversa informal. Em um exercício que peça adaptação para registro formal escrito, uma possibilidade é:
 
-> “Empreste-me o relatório, por favor.”
+> “Poderia emprestar-me o relatório, por favor?”
 
-A prova pode explorar simultaneamente <abbr title="modo de uso da língua adequado à situação comunicativa">registro</abbr> e convenções da norma-padrão. Identifique qual critério o comando está cobrando.
+A nova frase continua sendo um pedido. A prova pode explorar simultaneamente <abbr title="modo de uso da língua adequado à situação comunicativa">registro</abbr> e convenções da norma-padrão. Identifique qual critério o comando está cobrando.
 
 ## 12. Método de prova em cinco passos
 
