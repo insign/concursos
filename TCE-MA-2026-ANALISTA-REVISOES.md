@@ -238,7 +238,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H110 | `planejamento-estrategico` | = | L | [`c2c665c`](https://github.com/insign/concursos/commit/c2c665c079be2505e859b15eb461c28f87573cc3) |
 | H111 | `empreendedorismo-liderancas` | = | L | [`e7f4069`](https://github.com/insign/concursos/commit/e7f4069f8b80b685473804a61e80f40c56600e7a) |
 | H112 | `gestao-resultados-publica-privada-paradigma-cliente` | `gestao-resultados-cliente` | L | [`f5c1ff5`](https://github.com/insign/concursos/commit/f5c1ff52cf1aa4101895ec4e1ce3b88bc7a99d51) |
-| H113 | `sustentabilidade-publica` | = | L | — |
+| H113 | `sustentabilidade-publica` | = | L | [`395b5b7`](https://github.com/insign/concursos/commit/395b5b732c499634309bb97ce60a9e99402b096f) |
 | H114 | `acessibilidade-na-gestao-publica` | `acessibilidade-gestao-publica` | L | — |
 
 ### M09 — Administração de Recursos Materiais e Patrimoniais
