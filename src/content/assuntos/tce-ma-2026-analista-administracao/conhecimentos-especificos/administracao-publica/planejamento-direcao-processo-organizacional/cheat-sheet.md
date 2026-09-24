@@ -1,160 +1,75 @@
 # Planejamento e direção no processo organizacional
 
-## PODC
+## Primeiro identifique a função
 
-| Função | Núcleo |
+| Função no ciclo <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr> | O que resolve |
 | --- | --- |
-| Planejamento | definir objetivos e cursos de ação |
-| Organização | distribuir trabalho, recursos e autoridade |
-| Direção | orientar e mobilizar pessoas para executar |
-| Controle | comparar realizado e referências e promover ajustes |
+| Planejamento | Escolhe objetivos e curso de ação antes de comprometer recursos. |
+| Organização | Distribui trabalho, recursos e autoridade. |
+| Direção | Orienta, coordena e mobiliza pessoas na execução. |
+| Controle | Compara o realizado com referências e alimenta correções. |
 
-- Funções interdependentes, contínuas e realimentadas.
-- Planejamento tem precedência **lógica**, não cronologia rígida.
-- Fayol: prever, organizar, comandar, coordenar e controlar.
+Há **precedência lógica** do planejamento, sem sequência cronológica rígida: execução e controle podem exigir revisão do plano. Em Fayol, as funções são prever, organizar, comandar, coordenar e controlar; as duas classificações agrupam atividades de formas distintas. Plano escrito é **produto** de um processo de escolha, não prova de sua qualidade.
 
-## Planejamento
+## Planejar: da evidência à decisão
 
-- Processo decisório; plano é produto ou registro.
-- Reduz incerteza, mas não elimina risco.
-- É prospectivo, sistêmico, contínuo, flexível e abrangente.
-- Diagnóstico = situação atual; objetivo = estado pretendido.
+**Diagnóstico** (situação e problema) → **objetivo** (resultado pretendido) → **meta** (resultado verificável, com medida ou prazo) → **premissas** (condições assumidas), restrições e recursos → alternativas → comparação de custos, benefícios e riscos → escolha → responsáveis, recursos e prazos → acompanhamento e revisão.
 
-### Conceitos próximos
+- **Previsão** estima acontecimentos com informações e hipóteses; **projeção** prolonga tendências sob hipóteses; **predição** enuncia futuro esperado. Podem informar o plano, mas não decidem o que fazer.
+- Planejamento reduz incerteza; não elimina risco. Se uma premissa muda, revise a escolha e sua viabilidade, sem supor que todo objetivo perdeu sentido.
+- **Eficiência:** relação entre recursos usados e produtos; **eficácia:** cumprimento de objetivo ou meta; **efetividade:** efeito relevante para destinatários ou realidade. Cumprir uma meta de entrega não garante efeito público.
 
-| Conceito | Lembrete |
+| Princípio | Decisão que ele orienta |
 | --- | --- |
-| Planejamento | decide e constrói o futuro desejado |
-| Previsão | estima eventos por informações e probabilidades |
-| Projeção | prolonga tendência ou estrutura observada |
-| Predição | indica futuro esperado sem pressupor controle |
-| Plano | registra escolhas |
-| Premissa | condição assumida como base |
+| Contribuição aos objetivos | Alinhar escolhas locais ao propósito da organização. |
+| Precedência | Definir objetivo e referência antes de organizar meios e avaliar desvios, em sentido lógico. |
+| Maior penetração e abrangência | Considerar reflexos das escolhas em pessoas, tecnologia, estrutura e processos. |
+| Maior eficiência, eficácia e efetividade | Examinar recursos, metas e efeitos, sem tratar essas dimensões como sinônimas. |
+| Participativo | Aproveitar informação e compromisso de quem executa; a consulta simbólica não basta. |
+| Coordenado | Articular **áreas e aspectos interdependentes**. |
+| Integrado | Compatibilizar **níveis institucional, tático e operacional**. |
+| Permanente | Rever escolhas conforme mudam condições e resultados. |
 
-## Princípios
+Os quatro primeiros são princípios **gerais**; os quatro últimos, **específicos**, na classificação da aula. Coordenado responde à interdependência **horizontal**; integrado, ao alinhamento **entre níveis**.
 
-### Gerais
-
-1. contribuição aos objetivos;
-2. precedência;
-3. maior penetração e abrangência;
-4. maior eficiência, eficácia e efetividade.
-
-### Específicos
-
-| Princípio | Palavra-chave |
+| Postura de planejamento | Marca que permite distinguir |
 | --- | --- |
-| Participativo | processo e comprometimento |
-| Coordenado | interdependência entre áreas e aspectos |
-| Integrado | alinhamento entre níveis |
-| Permanente | revisão contínua |
+| Satisfação | Busca resultado suficientemente aceitável, sem exigir máximo. |
+| Otimização | Compara alternativas para buscar o melhor resultado segundo critérios definidos; depende das hipóteses e dados. |
+| Adaptação | Aprende com novas informações e ajusta o caminho; não é ausência de objetivos. |
 
-- Participativo não é consulta simbólica.
-- Coordenado ≠ integrado.
-- Permanente não significa plano imutável.
+## Alcance e instrumentos
 
-## Filosofias
-
-| Filosofia | Núcleo |
-| --- | --- |
-| Satisfação | resultado suficientemente aceitável |
-| Otimização | melhor resultado segundo critérios |
-| Adaptação | aprendizagem, inovação e ajuste |
-
-- Satisfação não busca necessariamente o máximo.
-- Otimização usa comparação e pode empregar modelos quantitativos.
-- Adaptação não é improvisação sem direção.
-
-## Eficiência, eficácia e efetividade
-
-| Critério | Pergunta |
-| --- | --- |
-| Eficiência | boa relação entre recursos e produtos? |
-| Eficácia | objetivos e metas alcançados? |
-| Efetividade | efeitos relevantes na realidade? |
-
-## Níveis
-
-| Nível | Alcance | Traço |
+| Nível | Alcance | Decisão característica |
 | --- | --- | --- |
-| Estratégico/institucional | organização | amplo e global |
-| Tático/intermediário | área ou unidade | desdobramento setorial |
-| Operacional | atividades e equipes | específico e detalhado |
+| Estratégico ou institucional | Toda a organização. | Prioridades e resultados globais. |
+| Tático ou intermediário | Área ou unidade. | Desdobra a direção institucional na área. |
+| Operacional | Equipes e atividades. | Detalha tarefas, responsáveis, padrões e prazos. |
 
-- Horizontes são tendências, não números universais.
-- <abbr title="Plano Plurianual">PPA</abbr> de quatro anos não define todo plano estratégico.
-- Alinhamento vertical + coordenação horizontal.
+Horizontes são **tendências**, sem número universal de anos. O ciclo de quatro anos do <abbr title="Plano Plurianual">PPA</abbr> federal não fixa duração obrigatória de todo plano estratégico. Formulação estratégica aprofundada pertence ao Assunto 110.
 
-## Instrumentos
-
-| Instrumento | Núcleo |
+| Instrumento | Escolha expressa |
 | --- | --- |
-| Objetivo | resultado pretendido |
-| Meta | objetivo especificado e verificável |
-| Política | diretriz para decisões |
-| Procedimento | sequência padronizada |
-| Regra | determinação específica |
-| Programa | ações ou projetos articulados |
-| Projeto | esforço delimitado |
-| Orçamento | recursos e limites |
-| Cronograma | atividades e prazos |
+| Política / procedimento / regra | Diretriz de decisão / sequência padronizada / determinação específica. |
+| Programa / projeto | Ações articuladas / esforço delimitado para entrega própria. |
+| Orçamento / cronograma | Recursos e limites / atividades e prazos. |
 
-- Permanentes: políticas, procedimentos e regras.
-- Temporários: programas, projetos, orçamentos e cronogramas vinculados a iniciativa.
+Políticas, procedimentos e regras costumam ser **planos permanentes**; programa, projeto, orçamento e cronograma ligados a iniciativa delimitada, **planos de uso único**. A classificação depende do uso concreto, e projeto é aprofundado no Assunto 109.
 
-## Roteiro
+## Dirigir: transformar escolhas em ação
 
-1. diagnosticar;
-2. definir objetivos e critérios;
-3. identificar premissas, restrições e recursos;
-4. formular alternativas;
-5. comparar riscos, custos e benefícios;
-6. escolher;
-7. detalhar responsáveis, recursos e prazos;
-8. executar, acompanhar e revisar.
+**Direção** comunica prioridades, orienta, motiva, lidera, coordena e delega. Ocorre na direção superior, na gerência intermediária e na supervisão de equipes. **Autoridade** decorre de posição e competência formal; **liderança** é capacidade de influenciar, que o cargo não garante. Influência informal não amplia competência jurídica. Motivação varia segundo pessoa e contexto; direção não se reduz a ordens.
 
-## Direção
+**Coordenação** recompõe atividades interdependentes por vias verticais e horizontais. Na síntese <abbr title="Planejamento, Organização, Direção e Controle">PODC</abbr>, costuma integrar direção; no Decreto-Lei nº 200/1967, é princípio **autônomo** da Administração Federal. Comunicação como processo próprio pertence ao Assunto 105.
 
-- Mobiliza pessoas para executar objetivos e planos.
-- Envolve orientação, liderança, motivação, coordenação, delegação e implementação.
-- Não se reduz a ordens.
-- Ocorre nos níveis institucional, intermediário e operacional.
-
-## Pessoas e autoridade
-
-- Autoridade = competência formal.
-- Liderança = capacidade de influenciar.
-- Cargo não garante liderança.
-- Influência informal não amplia competência legal.
-- Motivação varia entre pessoas e situações.
-
-## Coordenação, delegação e descentralização
-
-- Coordenação integra esforços e interdependências.
-- Delegação gerencial atribui tarefa, decisão ou autoridade com limites.
-- Delegação de competência transfere o exercício de atribuição jurídica.
-- Descentralização distribui execução ou competências de modo mais amplo.
-- Delegar não é abandonar nem microgerenciar.
-
-## Setor público
-
-- Decreto-Lei nº 200/1967: planejamento, coordenação, descentralização, delegação de competência e controle.
-- Coordenação deve ser permanente.
-- Delegação aproxima decisões de fatos, pessoas e problemas.
-- PPA: diretrizes, objetivos e metas regionalizados para despesas de capital e programas continuados.
-- Autoridade pública permanece vinculada à legalidade e à finalidade.
-
-## Pegadinhas
-
-| Afirmação | Julgamento |
+| Termo | Limite decisivo |
 | --- | --- |
-| Planejamento elimina incerteza | Errado |
-| Precedência impõe cronologia rígida | Errado |
-| Plano escrito comprova planejamento eficaz | Errado |
-| Participativo = setor central elabora sozinho | Errado |
-| Coordenado enfatiza interdependência | Certo |
-| Integrado relaciona níveis | Certo |
-| Permanente = plano imutável | Errado |
-| Satisfação busca necessariamente o máximo | Errado |
-| Predição, projeção e previsão são sinônimos de planejamento | Errado |
-| Delegação equivale a abandono | Errado |
+| Delegação gerencial | Atribui tarefa, decisão ou autoridade com resultado, recursos, limites e acompanhamento; não significa abandono nem controle de cada detalhe. |
+| Delegação jurídica de competência | Transfere **exercício** da competência nos limites do ato, sem renúncia definitiva. |
+| Descentralização gerencial | Distribui decisões e execução mais amplamente; pode usar delegação, sem ser sinônimo dela. |
+
+**Recorte federal:** o Decreto-Lei nº 200/1967 enumera planejamento, coordenação, descentralização, delegação de competência e controle como princípios fundamentais da Administração Federal; no art. 11, a delegação aproxima decisões de fatos, pessoas e problemas. A Lei nº 9.784/1999, para a Administração Federal, admite delegar **parte** da competência se não houver impedimento legal, inclusive fora da relação hierárquica. **Não se delegam** atos normativos, decisões de recursos administrativos nem competências exclusivas. O ato e sua revogação devem ser publicados; nele constam matérias e poderes, limites, duração, objetivos e recurso cabível; o delegante pode revogar a qualquer tempo. Esse regime federal não é automaticamente o regime do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
+
+Pela Constituição, o <abbr title="Plano Plurianual">PPA</abbr> federal estabelece regionalmente diretrizes, objetivos e metas para despesas de capital e decorrentes e programas de duração continuada. É instrumento jurídico de planejamento; não substitui o ciclo administrativo.
+
+**Em questão situacional:** definição de meta e alternativas → planejamento; distribuição dos meios → organização; orientação das pessoas → direção; aferição e correção → controle. Evite decidir só pela existência de documento, previsão ou ordem.
