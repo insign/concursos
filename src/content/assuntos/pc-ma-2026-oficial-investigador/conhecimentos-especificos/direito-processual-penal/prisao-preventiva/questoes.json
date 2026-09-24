@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u095-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do art. 311 do Código de Processo Penal, a prisão preventiva",
       "options": [
         {
           "id": "A",
-          "text": "pode ser decretada de ofício pelo juiz durante a investigação, mesmo sem provocação."
+          "text": "pode ser decretada pelo juiz a requerimento do Ministério Público, do querelante ou do assistente, ou por representação da autoridade policial."
         },
         {
           "id": "B",
-          "text": "pode ser decretada pelo juiz a requerimento do Ministério Público, do querelante ou do assistente, ou por representação da autoridade policial."
+          "text": "pode ser decretada de ofício pelo juiz durante a investigação, mesmo sem provocação."
         },
         {
           "id": "C",
@@ -29,22 +29,22 @@
           "text": "depende sempre de prisão em flagrante anterior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 311 exige provocação: requerimento do Ministério Público, querelante ou assistente, ou representação da autoridade policial. A preventiva não depende de flagrante anterior."
     },
     {
       "id": "u095-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Constitui a base probatória mínima exigida pelo art. 312 para a prisão preventiva",
       "options": [
         {
           "id": "A",
-          "text": "prova da existência do crime e indício suficiente de autoria."
+          "text": "sentença condenatória definitiva."
         },
         {
           "id": "B",
-          "text": "sentença condenatória definitiva."
+          "text": "prova da existência do crime e indício suficiente de autoria."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "prova plena de culpabilidade equivalente à exigida para condenação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 312 exige prova da existência do crime e indício suficiente de autoria, além do perigo gerado pelo estado de liberdade do imputado."
     },
     {
       "id": "u095-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Além da base probatória, a prisão preventiva pressupõe perigo gerado pelo estado de liberdade do imputado relacionado a finalidade cautelar prevista em lei. É uma dessas finalidades",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "garantir a ordem pública."
+          "text": "aumentar a pena em caso de futura condenação."
         },
         {
           "id": "C",
-          "text": "aumentar a pena em caso de futura condenação."
+          "text": "garantir a ordem pública."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "obter confissão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O art. 312 prevê garantia da ordem pública ou econômica, conveniência da instrução criminal e aplicação da lei penal. A preventiva não é pena antecipada."
     },
     {
       "id": "u095-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre fatos novos ou contemporâneos na prisão preventiva, assinale a alternativa correta.",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "A decisão deve demonstrar concretamente perigo e fatos novos ou contemporâneos que justifiquem a medida; a atualidade se relaciona à persistência do risco cautelar."
+          "text": "Fato recente dispensa a demonstração de perigo."
         },
         {
           "id": "D",
-          "text": "Fato recente dispensa a demonstração de perigo."
+          "text": "A decisão deve demonstrar concretamente perigo e fatos novos ou contemporâneos que justifiquem a medida; a atualidade se relaciona à persistência do risco cautelar."
         },
         {
           "id": "E",
           "text": "A exigência de contemporaneidade foi revogada."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O art. 312, §2º, exige perigo e fatos novos ou contemporâneos. O STJ registra que a contemporaneidade se refere à persistência atual dos riscos, não apenas à proximidade temporal do crime."
     },
     {
       "id": "u095-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei 15.272/2025 incluiu entre os critérios legais de aferição da periculosidade para risco à ordem pública",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "o modus operandi, a participação em organização criminosa, dados sobre drogas/armas/munições apreendidas e fundado risco de reiteração."
+          "text": "a opinião pública, independentemente de fatos do caso."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "a opinião pública, independentemente de fatos do caso."
+          "text": "o modus operandi, a participação em organização criminosa, dados sobre drogas/armas/munições apreendidas e fundado risco de reiteração."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Esses são os quatro grupos de critérios adicionados ao art. 312, §3º, pela Lei 15.272/2025."
     },
     {
       "id": "u095-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "De acordo com o art. 312, §4º,",
       "options": [
         {
           "id": "A",
-          "text": "a gravidade abstrata do delito, por si só, basta para a preventiva."
+          "text": "é incabível a preventiva fundada apenas em alegações de gravidade abstrata, devendo os riscos ser concretamente demonstrados."
         },
         {
           "id": "B",
-          "text": "é incabível a preventiva fundada apenas em alegações de gravidade abstrata, devendo os riscos ser concretamente demonstrados."
+          "text": "a gravidade abstrata do delito, por si só, basta para a preventiva."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "a fundamentação concreta é dispensada quando houver clamor social."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Lei 15.272/2025 acrescentou vedação expressa ao uso da gravidade abstrata como fundamento suficiente, exigindo demonstração concreta dos riscos."
     },
     {
@@ -244,13 +244,13 @@
     },
     {
       "id": "u095-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No corte legislativo de 13 de julho de 2026, o inciso V do art. 313",
       "options": [
         {
           "id": "A",
-          "text": "já integrava o Código de Processo Penal por força da Lei 15.358/2026."
+          "text": "tratava exclusivamente de crimes culposos de trânsito."
         },
         {
           "id": "B",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "tratava exclusivamente de crimes culposos de trânsito."
+          "text": "já integrava o Código de Processo Penal por força da Lei 15.358/2026."
         },
         {
           "id": "E",
           "text": "era idêntico ao inciso III."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Lei 15.358, de março de 2026, incluiu o inciso V, portanto antes do corte legislativo da campanha."
     },
     {
       "id": "u095-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O atual inciso VI do art. 313, relativo a determinados crimes sexuais contra criança ou adolescente,",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "foi incluído pela Lei 15.487, de 6/8/2026, e por isso é alteração posterior ao corte legislativo desta campanha."
+          "text": "é apenas norma regulamentar sem força legal."
         },
         {
           "id": "C",
@@ -296,21 +296,21 @@
         },
         {
           "id": "E",
-          "text": "é apenas norma regulamentar sem força legal."
+          "text": "foi incluído pela Lei 15.487, de 6/8/2026, e por isso é alteração posterior ao corte legislativo desta campanha."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A Lei 15.487 é de agosto de 2026, posterior ao corte de 13/7/2026; por isso o inciso VI não é tratado como regra legislativa do edital nesta unidade."
     },
     {
       "id": "u095-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do art. 313, §2º, a prisão preventiva",
       "options": [
         {
           "id": "A",
-          "text": "pode ser usada para antecipar o cumprimento de pena em crime grave."
+          "text": "não pode ter finalidade de antecipação de pena nem ser consequência imediata da investigação ou da apresentação/recebimento da denúncia."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "não pode ter finalidade de antecipação de pena nem ser consequência imediata da investigação ou da apresentação/recebimento da denúncia."
+          "text": "pode ser usada para antecipar o cumprimento de pena em crime grave."
         },
         {
           "id": "D",
@@ -329,22 +329,22 @@
           "text": "é pena provisória aplicada antes da sentença."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O §2º do art. 313 proíbe expressamente essas formas de automatismo e antecipação de pena."
     },
     {
       "id": "u095-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se houver dúvida sobre a identidade civil da pessoa ou falta de elementos suficientes para esclarecê-la, o art. 313, §1º,",
       "options": [
         {
           "id": "A",
-          "text": "admite a preventiva e determina liberdade imediata após a identificação, salvo outra hipótese que justifique a manutenção."
+          "text": "proíbe qualquer medida cautelar."
         },
         {
           "id": "B",
-          "text": "proíbe qualquer medida cautelar."
+          "text": "admite a preventiva e determina liberdade imediata após a identificação, salvo outra hipótese que justifique a manutenção."
         },
         {
           "id": "C",
@@ -359,12 +359,12 @@
           "text": "exige condenação transitada em julgado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a regra específica do §1º: esclarecida a identidade, a pessoa deve ser liberada, salvo se houver outro fundamento legal para manter a medida."
     },
     {
       "id": "u095-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Conforme o art. 314, a preventiva não será decretada quando o juiz verificar pelas provas dos autos que o agente praticou o fato",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "nas condições previstas nos incisos I, II ou III do art. 23 do Código Penal."
+          "text": "em concurso de pessoas."
         },
         {
           "id": "C",
-          "text": "em concurso de pessoas."
+          "text": "nas condições previstas nos incisos I, II ou III do art. 23 do Código Penal."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "sem antecedentes criminais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O art. 314 remete às condições dos incisos I a III do art. 23 do Código Penal, que tratam de causas de exclusão da ilicitude."
     },
     {
       "id": "u095-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o art. 315, não se considera adequadamente fundamentada a decisão que",
       "options": [
@@ -408,29 +408,29 @@
         },
         {
           "id": "C",
-          "text": "apenas reproduza a norma sem explicar sua relação com o caso."
+          "text": "demonstre por que outras cautelares são insuficientes."
         },
         {
           "id": "D",
-          "text": "demonstre por que outras cautelares são insuficientes."
+          "text": "apenas reproduza a norma sem explicar sua relação com o caso."
         },
         {
           "id": "E",
           "text": "individualize fatos novos ou contemporâneos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O art. 315, §2º, I, rejeita decisão que apenas indique, reproduza ou parafraseie norma sem explicar sua relação com a causa."
     },
     {
       "id": "u095-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ainda sobre fundamentação, o art. 315 considera defeituosa a decisão que",
       "options": [
         {
           "id": "A",
-          "text": "usa conceito jurídico indeterminado sem explicar concretamente sua incidência ou invoca razões que serviriam para qualquer caso."
+          "text": "indica fatos contemporâneos e individualizados."
         },
         {
           "id": "B",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "indica fatos contemporâneos e individualizados."
+          "text": "usa conceito jurídico indeterminado sem explicar concretamente sua incidência ou invoca razões que serviriam para qualquer caso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os incisos II e III do art. 315, §2º, vedam conceitos vagos sem concretização e motivos genéricos."
     },
     {
       "id": "u095-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito das medidas cautelares diversas da prisão, o art. 282, §6º, determina que",
       "options": [
         {
           "id": "A",
-          "text": "a preventiva deve ser escolhida antes de qualquer alternativa."
+          "text": "a preventiva só será determinada quando não couber substituição por outra cautelar, e essa insuficiência deve ser fundamentada individualmente."
         },
         {
           "id": "B",
-          "text": "a preventiva só será determinada quando não couber substituição por outra cautelar, e essa insuficiência deve ser fundamentada individualmente."
+          "text": "a preventiva deve ser escolhida antes de qualquer alternativa."
         },
         {
           "id": "C",
@@ -479,22 +479,22 @@
           "text": "a existência de outro meio cautelar é irrelevante."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O §6º consagra a necessidade de justificar concretamente por que as medidas do art. 319 não bastam antes de recorrer à preventiva."
     },
     {
       "id": "u095-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se os motivos que sustentavam a prisão preventiva deixarem de existir, o art. 316 permite que",
       "options": [
         {
           "id": "A",
-          "text": "o juiz a revogue, inclusive de ofício."
+          "text": "a prisão permaneça obrigatoriamente até a sentença."
         },
         {
           "id": "B",
-          "text": "a prisão permaneça obrigatoriamente até a sentença."
+          "text": "o juiz a revogue, inclusive de ofício."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "a defesa perca o direito de requerer revogação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 316 autoriza revogação de ofício ou a pedido das partes quando faltar motivo para a prisão subsistir."
     },
     {
       "id": "u095-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto à revisão periódica da prisão preventiva,",
       "options": [
         {
           "id": "A",
-          "text": "o órgão emissor deve revisar a necessidade da manutenção a cada 90 dias, mediante decisão fundamentada e de ofício."
+          "text": "a lei estabelece duração máxima automática de 90 dias para toda preventiva."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "a lei estabelece duração máxima automática de 90 dias para toda preventiva."
+          "text": "o órgão emissor deve revisar a necessidade da manutenção a cada 90 dias, mediante decisão fundamentada e de ofício."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "o dever de revisão termina no primeiro dia após a decretação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É a regra do art. 316, parágrafo único: revisão da necessidade a cada 90 dias, por decisão fundamentada e de ofício."
     },
     {
       "id": "u095-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo entendimento do Supremo Tribunal Federal sobre o art. 316, parágrafo único,",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "o decurso do prazo não produz soltura automática; deve haver reavaliação judicial da legalidade e atualidade dos fundamentos."
+          "text": "a prisão se torna pena definitiva no 91º dia."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "a prisão se torna pena definitiva no 91º dia."
+          "text": "o decurso do prazo não produz soltura automática; deve haver reavaliação judicial da legalidade e atualidade dos fundamentos."
         },
         {
           "id": "E",
           "text": "somente o Ministério Público pode provocar a revisão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Nas ADIs 6581 e 6582, o STF afastou a revogação automática pelo mero transcurso do prazo, preservando o dever de reavaliação."
     },
     {
       "id": "u095-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 114 da prova Cebraspe para Técnico Ministerial do MPCE, aplicada em 13/4/2025, assinale a alternativa correta sobre a audiência de custódia.",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "A conversão do flagrante em preventiva exige a provocação legalmente prevista; a audiência de custódia não cria poder de decretação de ofício."
+          "text": "A ausência de audiência de custódia autoriza sempre a preventiva de ofício."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "A ausência de audiência de custódia autoriza sempre a preventiva de ofício."
+          "text": "A conversão do flagrante em preventiva exige a provocação legalmente prevista; a audiência de custódia não cria poder de decretação de ofício."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O item original foi julgado Errado no gabarito definitivo. Após a Lei 13.964/2019, a preventiva não pode ser decretada de ofício; é necessária a provocação do art. 311. A formulação foi adaptada para múltipla escolha sem reprodução literal."
     }
   ]
