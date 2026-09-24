@@ -228,7 +228,7 @@ Cadastrar um imóvel locado ajuda a gerir ocupação e contrato, mas não o conv
 
 O edital pode conservar a sigla <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr> e cobrar funcionalidades históricas do <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr>. Por isso, distinga o tempo verbal: “registrava”, “permanece operacional” e “passou a receber os fluxos” descrevem momentos diferentes.
 
-## 8. Sistemas no corte de 6 de julho de 2026
+## 8. Sistemas no corte de 7 de julho de 2026
 
 A <abbr title="Secretaria do Patrimônio da União">SPU</abbr> informou que, em **9 de março de 2026**, o <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> e o <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> foram desativados para operação e mantidos apenas para consulta. Em **2 de abril de 2026**, os processos e fluxos antes executados no <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial">SPIUnet</abbr> passaram a ocorrer exclusivamente no <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>.
 
@@ -295,7 +295,7 @@ Seus percentuais, prazos e método de depreciação são regras federais especí
 
 ### 9.7 Publicação não é aplicação: o corte de 2026
 
-No corte de **6 de julho de 2026**, já haviam sido publicadas a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 37 — Ativo Imobilizado**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 38 — Mensuração**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 35 — Arrendamentos** e a revisão da **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 06 — Propriedade para Investimento**. As novas normas e revisões, porém, indicam aplicação às entidades do setor público a partir de **1º de janeiro de 2027**, salvo norma nacional que estabeleça prazo específico. Publicação no Diário Oficial da União, entrada formal em vigor e aplicação a determinado exercício não são sinônimos.
+No corte de **7 de julho de 2026**, já haviam sido publicadas a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 37 — Ativo Imobilizado**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 38 — Mensuração**, a **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 35 — Arrendamentos** e a revisão da **<abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público">NBC TSP</abbr> 06 — Propriedade para Investimento**. As novas normas e revisões, porém, indicam aplicação às entidades do setor público a partir de **1º de janeiro de 2027**, salvo norma nacional que estabeleça prazo específico. Publicação no Diário Oficial da União, entrada formal em vigor e aplicação a determinado exercício não são sinônimos.
 
 Para um fato de 2026, consulte o Manual de Contabilidade Aplicada ao Setor Público, 11ª edição, e as normas aplicáveis àquele exercício; use as normas publicadas em 2026 para compreender a transição, sem retroagir seus efeitos. Arrendamento é o contrato que transfere o direito de controlar o uso de um ativo por certo período em troca de contraprestação.
 

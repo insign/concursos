@@ -14,7 +14,7 @@ Essas perguntas organizam o assunto. A **análise do valor** procura melhorar a 
 
 > **Modelo mental:** necessidade → função → alternativas → custo e desempenho no ciclo → decisão sobre uso ou destino → requisitos jurídicos → entrega comprovada → baixa e conciliação.
 
-O corte-base do edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> é **6 de julho de 2026**. As fontes centrais deste capítulo foram revalidadas em **8 de setembro de 2026** para detectar mudanças posteriores. Essa verificação de vigência não amplia automaticamente o programa: atos posteriores ao corte só interessam para distinguir a regra exigível no corte de eventual alteração superveniente. Nas fontes centrais revalidadas, não foi identificada mudança posterior que altere o mecanismo aqui ensinado.
+O corte-base do edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> é **7 de julho de 2026**. As fontes centrais deste capítulo foram revalidadas em **8 de setembro de 2026** para detectar mudanças posteriores. Essa verificação de vigência não amplia automaticamente o programa: atos posteriores ao corte só interessam para distinguir a regra exigível no corte de eventual alteração superveniente. Nas fontes centrais revalidadas, não foi identificada mudança posterior que altere o mecanismo aqui ensinado.
 
 ## 1. Análise do valor começa pela função, não pelo preço
 

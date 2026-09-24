@@ -12,7 +12,7 @@ Comprar cedo demais imobiliza recursos e aumenta risco de perda; comprar tarde d
 
 > **Modelo mental:** demanda observada → previsão → política de reposição → níveis de estoque → pedido e ressuprimento → acompanhamento → avaliação do saldo.
 
-O Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **6 de julho de 2026**, delimita este assunto a planejamento, processos e políticas de administração de estoques; determinação de níveis; tempo de ressuprimento e estoque de segurança; e métodos de avaliação de estoques.
+O Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **7 de julho de 2026**, delimita este assunto a planejamento, processos e políticas de administração de estoques; determinação de níveis; tempo de ressuprimento e estoque de segurança; e métodos de avaliação de estoques.
 
 A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 é referência operacional do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Ela ajuda a compreender fórmulas e decisões de reposição, mas não se aplica automaticamente ao Estado do Maranhão nem ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Na avaliação contábil, a Lei nº 4.320/1964 e a 11ª edição do <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> são referências centrais no corte da prova. A <abbr title="Norma Brasileira de Contabilidade Técnica do Setor Público 04, revisão 1">NBC TSP 04 (R1)</abbr> já havia sido publicada, mas sua própria cláusula de vigência determina aplicação aos exercícios iniciados a partir de **1º de janeiro de 2027**, salvo prazo nacional específico.
 

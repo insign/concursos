@@ -12,7 +12,7 @@ O sistema informa 40 unidades de um material. A contagem confirma 40, mas 12 est
 
 > **Modelo mental:** identificar → endereçar → armazenar → preservar → movimentar e registrar → aplicar a rotação → inspecionar → tratar desvios.
 
-O Edital nº 1/2026 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **6 de julho de 2026**, inclui neste assunto: funções, princípios e objetivos do almoxarifado; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização do espaço; e segurança.
+O Edital nº 1/2026 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, publicado em **7 de julho de 2026**, inclui neste assunto: funções, princípios e objetivos do almoxarifado; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização do espaço; e segurança.
 
 A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 é uma referência operacional do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Ela não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, mas fornece conceitos clássicos cobrados em administração de materiais. As <abbr title="Normas Regulamentadoras">NR</abbr> têm campos de aplicação próprios; quando utilizadas aqui, servem para compreender os requisitos de segurança pertinentes. A redação da <abbr title="Norma Regulamentadora">NR</abbr> 1 que entrou em vigor em **26 de maio de 2026** já integra o corte do edital.
 

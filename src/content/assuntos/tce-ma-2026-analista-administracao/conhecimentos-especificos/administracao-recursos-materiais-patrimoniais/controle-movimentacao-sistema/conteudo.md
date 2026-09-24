@@ -14,7 +14,7 @@ Esse é o núcleo do controle patrimonial: ligar cada bem à sua identidade, ori
 
 > **Modelo mental:** fato real → documento que o prova → autorização competente → atualização do cadastro → aceite do destino → reflexo contábil, quando houver → conciliação.
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> adota **6 de julho de 2026** como data de corte. A Constituição e a Lei nº 4.320/1964 oferecem fundamentos gerais. A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, o Decreto nº 12.785/2025 e o Sistema Integrado de Gestão Patrimonial são referências **federais**: ajudam a compreender mecanismos de controle, mas não se aplicam automaticamente ao Estado do Maranhão nem ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> adota **7 de julho de 2026** como data de corte. A Constituição e a Lei nº 4.320/1964 oferecem fundamentos gerais. A Instrução Normativa <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, o Decreto nº 12.785/2025 e o Sistema Integrado de Gestão Patrimonial são referências **federais**: ajudam a compreender mecanismos de controle, mas não se aplicam automaticamente ao Estado do Maranhão nem ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 1. O que precisa permanecer ligado
 

@@ -14,7 +14,7 @@ Um notebook não aparece na sala indicada pelo cadastro. Há um termo antigo ass
 
 O raciocínio começa pelo bem — existência, titularidade, uso, localização e valor — e avança para a conduta: dever violado, dano, nexo causal e dolo ou culpa quando exigidos. A Lei Estadual nº 6.107/1994 fornece a base funcional maranhense. A Lei nº 8.112/1990 e a Instrução Normativa <abbr title="Secretaria de Administração Pública">SEDAP</abbr> nº 205/1988 servem como referências federais comparativas; não se presume sua aplicação direta ao Tribunal de Contas do Estado do Maranhão.
 
-O corte normativo do edital é **6 de julho de 2026**.
+O corte normativo do edital é **7 de julho de 2026**.
 
 ## 1. O que é patrimônio mobiliário
 
