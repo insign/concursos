@@ -43,7 +43,7 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após as inspeções contextuais de **U001–U005, U007, U008, U010–U037 em PC-F02**, com U037 e as origens canônicas U029, U035, U036 e U037 concluídas em 24/09/2026: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; esses trinta e um pacotes locais e quatro origens canônicas foram inspecionados contextualmente e as correções e inspeções de U035–U037 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após as inspeções contextuais de **U001–U005, U007, U008, U010–U038 em PC-F02**, com U038 e as origens canônicas U029 e U035–U038 concluídas em 24/09/2026: U001–U158 permanecem C/H/Q `done`. PC-F01 continua concluída; esses trinta e um pacotes locais e cinco origens canônicas foram inspecionados contextualmente e as correções e inspeções de U035–U038 estão documentadas na seção 4, mas **não constituem aceite editorial global de PC-F02**. O restante de PC-F02 e PC-F03–PC-F05 permanece `pending`; PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos can
 
 As inspeções pontuais de PC-F02 não criam unidade ou tarefa macro adicional e não reabrem aceites. O restante não concluído de PC-F02 fica `pending` ao encerrar este ciclo; reservas ativas são controladas exclusivamente no painel da #764. PC-R04 permanece `done`, com **42/42** unidades parciais aceitas.
 
-**Próxima ação habilitada: PC-F02 — seguir para U038 — equivalências, leis de De Morgan e diagramas lógicos, resolvendo origem canônica e consumidores.** U006 continua pulada pela divergência de identidade já registrada. A identidade de U009 foi conferida na `main` como `pc-u009`, ordem 9, em `estrutura-morfossintatica-periodo`, mas a própria unidade apresenta **divergência de classificação**: PC-R02 herdado a inclui entre as parciais, enquanto `referencias.md` afirma que nenhum doador equivalente foi localizado e a trata como assunto novo/local. U009 deve ser pulada, sem normalização por inferência, até reconciliação autorizada. U008 e U010–U037 já foram inspecionadas e permanecem C/H/Q `done`. Não repetir publicações confirmadas nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
+**Próxima ação habilitada: PC-F02 — seguir para U039 — lógica de primeira ordem, resolvendo origem canônica e consumidores.** U006 continua pulada pela divergência de identidade já registrada. A identidade de U009 foi conferida na `main` como `pc-u009`, ordem 9, em `estrutura-morfossintatica-periodo`, mas a própria unidade apresenta **divergência de classificação**: PC-R02 herdado a inclui entre as parciais, enquanto `referencias.md` afirma que nenhum doador equivalente foi localizado e a trata como assunto novo/local. U009 deve ser pulada, sem normalização por inferência, até reconciliação autorizada. U008 e U010–U038 já foram inspecionadas e permanecem C/H/Q `done`. Não repetir publicações confirmadas nem converter contagens, presença de arquivos ou buscas sem resultado em prova de conformidade pedagógica integral. PC-F01 está `done` com auditoria registrada abaixo.
 
 ### Pendências e divergências herdadas
 
@@ -404,9 +404,15 @@ Origem `src/content/biblioteca/raciocinio-logico/proposicoes-tabelas-verdade/`, 
 
 Q preservado: 47 questões, 29 autorais + 18 anteriores, conjunto revisão 5. As provas e os gabaritos definitivos oficiais FGV/Cebraspe individualizados nas explicações foram abertos e confrontados com as chaves e a lógica das adaptações: Nova Iguaçu, Banestes, DNIT, MP-SP, Canaã dos Carajás, TJ-MT, Sefaz-AM, PF 2025, PM-SC, PC-PB, TCDF, ALE-GO, Sefaz-RJ e TJ-RS; nenhuma das questões usadas consta como anulada no respectivo gabarito. IDs, respostas, enunciados, opções e revisões preservados; H e três vínculos também preservados. Commits C `a0387efb3ae917699824c4d20fdf92ca81d62d3f`, R `b3f3554fa1e7a5bccd9c2f571748691e9c3a6c6a`; blobs finais C `06e67a3a996c75cfae063cda5eb8bf2f1ff89af4`, H `69313d3ada540522d5ae3bf5616dda46d8139010`, R `0817e2f3ba52ad7766e40570795c8fd558c18f39`, Q `623081eb16724c21adfcee043103d743af4ae327`.
 
+#### U038 — origem canônica integral, inspeção contextual PC-F02 — 24/09/2026
+
+Origem `src/content/biblioteca/raciocinio-logico/equivalencias-de-morgan-diagramas-logicos/`, `storageId: equivalencias-de-morgan`, ordem canônica 39. Vínculos explícitos: PC-MA Oficial Investigador ordem 38, blob `3ea7ecab391aa89521504d85732564424acd7a8b`; TCE-MA Técnico Administrativo e Analista Administração ordem 39, ambos blob `94b6e2f7b6eecc5eda42b3fa4bc5308095bf50b8`. Programa PC-MA itens 3.3, “3,4” (grafia original das leis de De Morgan) e 3.5; programa TCE compatível. Fronteira com U037 conectivos/tabelas e U039 lógica de primeira ordem. C ensina equivalência por tabela e contraexemplo, condicional/contrapositiva, negações e regras algébricas, depois separa classes e inferência por diagramas; H recupera os dois procedimentos. O SVG `images/formas-categoricas.svg` foi lido (blob `950347bb0a4288ae4c670723f07c6f663f18f5ed`) e marca corretamente vazio e existência nas quatro formas. R recebeu o edital PC-MA com numeração literal; preservadas a referência acadêmica e a fonte oficial anterior.
+
+Q preservado: 39 questões, 29 autorais + 10 anteriores, revisão de conjunto 6. As dez questões FGV/Cebraspe foram lidas com as respectivas explicações e os nove pares de caderno/gabarito definitivo oficiais indicados (TJ-RS, PC-RO, AL-MT, ANCINE, Nova Iguaçu, Paulínia, MP-SC, TJ-SC, MP-GO); chaves 38 B, 17 B/18 A, 20 C, 52 C, 6 A, 12 E, 21 D, 21 D, 35 D conferidas sem anuladas usadas. IDs, enunciados, alternativas, explicações e revisões preservados; C/H/SVG e três vínculos preservados. Commits R `e9951cbc6840d041b4ebcda9f8eb68bc56c8261b` e precisão editalícia `695ec5384c2f3ffea65cb9166c921075dbb3b908`; blobs finais C `cf3e4c68a291c577b34b3dabef9f0ad891bc9ce7`, H `fb704a2ceb5cc92a3d696e9b6d99cf7dce5b318f`, R `d159f866c05a4748e2e61acfd0f98b5ebacde28e`, Q `ab746caab3544ef160a48367843d785eb558f72c`.
+
 **Divergências preservadas:** (1) a linha herdada deste arquivo associa U006 a `estrutura-morfossintatica-periodo`, enquanto a `main` atual resolve `pc-u006`/ordem 6 para `classes-nominais-de-palavras`; U006 segue pulada. (2) A `main` resolve `estrutura-morfossintatica-periodo` como `pc-u009`, ordem 9, mas PC-R02 herdado a classifica como parcial e o `referencias.md` local a declara nova/local, sem doador equivalente localizado. A identidade atual de U009 está confirmada, mas a classificação não foi normalizada por inferência; U009 segue pulada até reconciliação autorizada.
 
-**Restante de PC-F02:** U001–U005, U007, U008, U010–U037 somam **trinta e um pacotes locais e quatro origens canônicas** (U029 e U035–U037) com inspeções contextuais documentadas; permanecem **110 pacotes locais e 13 origens canônicas** sem essa certificação final registrada. A triagem não permite aceite por lote de referências, Markdown, microglossário, atribuições, gabaritos ou suficiência das explicações. **Próximo recorte elegível: U038 — equivalências, leis de De Morgan e diagramas lógicos, origem canônica.** Preservar as intervenções publicadas e só encerrar PC-F02 após inspecionar seu escopo completo. A reserva de U037 pode ser encerrada após a sincronização do painel; o e-mail é opcional.
+**Restante de PC-F02:** U001–U005, U007, U008, U010–U038 somam **trinta e um pacotes locais e cinco origens canônicas** (U029 e U035–U038) com inspeções contextuais documentadas; permanecem **110 pacotes locais e 12 origens canônicas** sem essa certificação final registrada. A triagem não permite aceite por lote de referências, Markdown, microglossário, atribuições, gabaritos ou suficiência das explicações. **Próximo recorte elegível: U039 — lógica de primeira ordem, origem canônica.** Preservar as intervenções publicadas e só encerrar PC-F02 após inspecionar seu escopo completo. A reserva de U038 pode ser encerrada após a sincronização do painel; o e-mail é opcional.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
@@ -804,7 +810,7 @@ Rota preservada: `/concursos/pc-ma-2026-oficial-investigador/inteligencia-artifi
 
 Rota preservada: `/concursos/pc-ma-2026-oficial-investigador/criptomoedas-nocoes-gerais/`.
 
-### Raciocínio Lógico — inspeções contextuais U035–U037
+### Raciocínio Lógico — inspeções contextuais U035–U038
 
 | Edital | Unidade / origem real | Visões, ordem e fronteira | C/H/R/Q e evidência |
 |---|---|---|---|
@@ -813,7 +819,9 @@ Rota preservada: `/concursos/pc-ma-2026-oficial-investigador/criptomoedas-nocoes
 
 | PC-MA Raciocínio Lógico 3/3.1; TCE-MA item 3 | U037 — **Proposições simples e compostas e tabelas-verdade**; canônico `src/content/biblioteca/raciocinio-logico/proposicoes-tabelas-verdade/`, `storageId: proposicoes-tabelas-verdade` | PC-MA Oficial Investigador ordem 37; TCE-MA Analista Administração e Técnico Administrativo ordem 38; três vínculos explícitos, blobs seção 4; formalização e tabelas entre argumentação U036 e equivalências U038 | C com exemplo hipotético e R com edital PC-MA; H/Q preservados; Q 29 autorais + 18 anteriores com provas/gabaritos oficiais, revisão 5; blobs seção 8 e commits seção 4; C/H/Q `done` |
 
-Rotas PC-MA preservadas: `/concursos/pc-ma-2026-oficial-investigador/estruturas-logicas/` e `/concursos/pc-ma-2026-oficial-investigador/logica-argumentacao-inferencias/` e `/concursos/pc-ma-2026-oficial-investigador/proposicoes-tabelas-verdade/`.
+| PC-MA Raciocínio Lógico 3.3/“3,4”/3.5; TCE-MA lógica sentencial e diagramas | U038 — **Equivalências, leis de De Morgan e diagramas lógicos**; canônico `src/content/biblioteca/raciocinio-logico/equivalencias-de-morgan-diagramas-logicos/`, `storageId: equivalencias-de-morgan` | PC-MA ordem 38; TCE-MA Analista Administração e Técnico Administrativo ordem 39; três vínculos, blobs seção 4; transformações e classes, entre U037 e primeira ordem U039 | C/H/SVG/Q preservados; R cita ambos os editais e fonte acadêmica; Q 29 autorais + 10 anteriores, pares oficiais conferidos, revisão 6; blobs seção 8 e commits seção 4; C/H/Q `done` |
+
+Rotas PC-MA preservadas: `/concursos/pc-ma-2026-oficial-investigador/estruturas-logicas/` e `/concursos/pc-ma-2026-oficial-investigador/logica-argumentacao-inferencias/` e `/concursos/pc-ma-2026-oficial-investigador/proposicoes-tabelas-verdade/` e `/concursos/pc-ma-2026-oficial-investigador/equivalencias-de-morgan-diagramas-logicos/`.
 
 ### Contabilidade
 
@@ -1240,7 +1248,7 @@ Para as três unidades, preservar a diferença entre Criminologia empírica/inte
 
 Esta seção substitui relatos repetidos de reserva, publicação e totais. As linhas anteriores a U123 preservam evidências transferidas da campanha; a partir de U123, os aceites são registrados após publicação e releitura direta na `main`. Os commits identificam as versões publicadas e permitem auditar o conjunto completo de fontes e decisões editoriais; não dependem de comentários ou de versões anteriores da issue.
 
-Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quatro blobs estão na ordem **C (`conteudo.md`) / H (`cheat-sheet.md`) / R (`referencias.md`) / Q (`questoes.json`)**. Os pacotes locais abaixo foram registrados sem `vinculo.json` ou resoluções separadas; U029 e U035–U037 são as exceções explicitamente canônicas, cada uma com três vínculos verificados. Não generalizar a unidades não individualizadas.
+Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quatro blobs estão na ordem **C (`conteudo.md`) / H (`cheat-sheet.md`) / R (`referencias.md`) / Q (`questoes.json`)**. Os pacotes locais abaixo foram registrados sem `vinculo.json` ou resoluções separadas; U029 e U035–U038 são as exceções explicitamente canônicas, cada uma com três vínculos verificados. Não generalizar a unidades não individualizadas.
 
 ### Commits, quantidades e origem das questões
 
@@ -1281,6 +1289,7 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 | U035 (canônica) | `c7c64cc768ca8527f78db30d26beba6c30555fa5` — inspeção contextual PC-F02; C/H/Q e três vínculos preservados, R complementado | 41 + 15 | 15 questões FGV de concursos distintos; cadernos e gabaritos definitivos individualizados no Q e verificados em 24/9/2026; uma questão com quatro alternativas; conjunto revisão 4 |
 | U036 (canônica) | `ab113a6d5b8d88fea8cf5f9ef1465460668e61b3` + `7246e84ceffaa6c683f48867321481e9069c9b82` + `ced861a0610305b3e53df846cafba7b0c04d68e2` — inspeção contextual PC-F02; C/H/R ajustados, Q e três vínculos preservados | 35 + 18 | 18 questões anteriores FGV/Cebraspe, cadernos/gabaritos oficiais individualizados no Q e reconferidos em 24/9/2026; conjunto revisão 4 |
 | U037 (canônica) | `a0387efb3ae917699824c4d20fdf92ca81d62d3f` + `b3f3554fa1e7a5bccd9c2f571748691e9c3a6c6a` — inspeção contextual PC-F02; C/R ajustados, H/Q e três vínculos preservados | 29 + 18 | 18 questões FGV/Cebraspe com cadernos/gabaritos oficiais individualizados e conferidos em 24/9/2026; conjunto revisão 5 |
+| U038 (canônica) | `e9951cbc6840d041b4ebcda9f8eb68bc56c8261b` + `695ec5384c2f3ffea65cb9166c921075dbb3b908` — inspeção contextual PC-F02; R complementado, C/H/Q/SVG e três vínculos preservados | 29 + 10 | 10 questões FGV/Cebraspe em nove pares de cadernos/gabaritos oficiais, reconferidos em 24/9/2026; conjunto revisão 6 |
 | U043 | `ba15dd92f41993e8e381be78b658daa0073e3473` | 17 + 3 | Cebraspe PCDF administrativa 2024, itens 51, 54, 55 |
 | U044 | `5d2969c847af948898586414a0446d4f55b6c234` | 17 + 3 | Cebraspe FUB 2025, Técnico em Contabilidade, 65 E, 66 C, 67 C |
 | U045 | `6d7cdcf00cc060b3a68332d597ee36b8d4005142` | 17 + 3 | Cebraspe FUB 2018, Técnico em Contabilidade, 63 C, 65 E, 66 E |
@@ -1415,6 +1424,7 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U035 (canônica, PC-F02) | `26936c938bd9c072000ae1a3dfc3853a494d0789` | `30e5f708b7d3883031bd5a3ca2b13e93c2bd2b3b` | `3b1d9e14caca7bc0680ad5f1125118d77fba4f5f` | `ecb43e275bf4c8b0180ad5b3cd1ff9688c4892ca` |
 | U036 (canônica, PC-F02) | `dbe19523ed290af3cbbec47989cc20268e7c4a39` | `e1a72af42ce75af2821cede4bb5cd2f961e7cc1e` | `e824b30a21d2e23318357832ec8f6685b1ae8acb` | `8aed207cfbf0547532259dd285380b41ccdfe6cf` |
 | U037 (canônica, PC-F02) | `06e67a3a996c75cfae063cda5eb8bf2f1ff89af4` | `69313d3ada540522d5ae3bf5616dda46d8139010` | `0817e2f3ba52ad7766e40570795c8fd558c18f39` | `623081eb16724c21adfcee043103d743af4ae327` |
+| U038 (canônica, PC-F02) | `cf3e4c68a291c577b34b3dabef9f0ad891bc9ce7` | `fb704a2ceb5cc92a3d696e9b6d99cf7dce5b318f` | `d159f866c05a4748e2e61acfd0f98b5ebacde28e` | `ab746caab3544ef160a48367843d785eb558f72c` |
 | U043 | `47791ef28e3464002565905b644f5adf772b0771` | `cfa6e30682a0b6273e8e33099c7ab96516299554` | `9f7a37c0bf596982b6915da37bde4b74be038996` | `e8981279d783301746e4e0152cac13601262579a` |
 | U044 | `907c68f29372e293afda1c40b3c46c3977e093dc` | `5e1e1e727843f58e300e001d5aa5fbf8d24a7dec` | `23ef64d373954cd94ef7f7acebfd253151c3d2e2` | `028bb9c037d3339d48845e67767457abfa07eb8c` |
 | U045 | `9816839758b38e92a330b8a0756fad60a8dcc2a0` | `d5018927a9897d0f25c8eab32ac89ddb098e3c77` | `6f364489801378de50e8b6691ffc23db49ac17e7` | `2af5cc02d7d6326c140ad32f14e98228c86bda62` |
