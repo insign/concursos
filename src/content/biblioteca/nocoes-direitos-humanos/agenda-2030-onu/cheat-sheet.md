@@ -1,168 +1,49 @@
 # Agenda 2030 da <abbr title="Organização das Nações Unidas">ONU</abbr>
 
-## Núcleo numérico
+**Identidade:** Resolução A/RES/70/1, adotada em **25/9/2015** pelos 193 Estados-membros; objetivos e metas iniciados em **1º/1/2016**, com horizonte geral em 2030. É plano de ação universal, **não tratado ratificado**. Sua arquitetura é **17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> + 169 metas** (inclusive as identificadas por letras). Os oito Objetivos de Desenvolvimento do Milênio (2000–2015) são antecedente; a Agenda busca completar seus resultados e ampliar o alcance. A <abbr title="Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012">Rio+20</abbr> impulsionou a construção; a Agenda de Ação de Adis Abeba (2015) integra seus meios de implementação.
 
-**2015 / 2016 / 17 / 169 / 5 Ps / 3 dimensões**
+## Da ambição à medida
 
-- adoção: **25/09/2015**;
-- início dos <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e metas: **01/01/2016**;
-- **17 ODS**;
-- **169 metas**;
-- **5 Ps**;
-- dimensões **econômica + social + ambiental**.
+| Camada | Função | Exemplo |
+|---|---|---|
+| Objetivo | Direção ampla | **16:** paz, justiça e instituições eficazes. |
+| Meta | Resultado ou meio específico | **16.5:** reduzir substancialmente corrupção e suborno; **16.a:** fortalecer instituições nacionais para prevenir violência e combater terrorismo/crime. |
+| Indicador | Medida de acompanhamento | Estatística que permite observar o progresso de uma meta. |
 
-Agenda = Resolução **A/RES/70/1** + plano de ação universal.
+Metas **numéricas** geralmente descrevem resultados/ações; metas **por letras**, meios de implementação: ambas pertencem às **169**. A Resolução A/RES/71/313 adotou em **2017** o marco global de indicadores, complementável por medidas nacionais e regionais e sujeito a refinamentos. Não confunda número mutável de indicadores com a estrutura 17/169; nem suponha que todas as metas vencem em 2030 (há prazos de 2020 e 2025).
 
-Agenda ≠ tratado ratificável.
+## Cinco <abbr title="Pessoas, Planeta, Prosperidade, Paz e Parceria">Ps</abbr> e três dimensões
 
-193 Estados-membros adotaram ≠ 193 ratificações.
-
-## Linha do tempo
-
-| Marco | Chave |
+| Eixo do preâmbulo | Recuperação |
 |---|---|
-| 2000–2015 | 8 Objetivos de Desenvolvimento do Milênio |
-| 2012 | Rio+20 impulsiona processo dos ODS |
-| jul. 2015 | Agenda de Ação de Adis Abeba |
-| 25/09/2015 | adoção da Agenda 2030 |
-| 01/01/2016 | início dos ODS e metas |
-| 2017 | marco global de indicadores, A/RES/71/313 |
-| 2030 | horizonte geral |
+| Pessoas | Erradicar pobreza e fome; dignidade e igualdade. |
+| Planeta | Proteger recursos e clima; produção e consumo sustentáveis. |
+| Prosperidade | Vida plena e progresso em harmonia com a natureza. |
+| Paz | Sociedades justas e inclusivas; paz e desenvolvimento dependem um do outro. |
+| Parceria | Mobilizar meios e atores para implementar a Agenda. |
 
-**ODS = continuidade da agenda inacabada dos ODM + ampliação do escopo.**
+São **cinco eixos**, não cinco objetivos extras nem cinco dimensões. As **três dimensões** equilibradas são *econômica, social e ambiental*. A Agenda é **universal** (todos os países), **integrada e indivisível** (efeitos entre objetivos), mas as metas globais aspiracionais consideram realidades, capacidades, prioridades e políticas nacionais. “Não deixar ninguém para trás” pede identificar desigualdades ocultas por médias e procurar alcançar primeiro quem ficou mais para trás.
 
-## Cinco Ps
+## Localização dos 17 objetivos
 
-| P | Chave |
-|---|---|
-| Pessoas | pobreza + fome + dignidade + igualdade |
-| Planeta | proteção + recursos + consumo/produção + clima |
-| Prosperidade | vida plena + progresso em harmonia com natureza |
-| Paz | sociedades pacíficas, justas e inclusivas |
-| Parceria | meios + cooperação global |
+| Número | Assunto | Número | Assunto |
+|---:|---|---:|---|
+| **1** | pobreza | **10** | desigualdade dentro e entre países |
+| **2** | fome, nutrição e agricultura | **11** | cidades e assentamentos |
+| **3** | saúde e bem-estar | **12** | produção e consumo |
+| **4** | educação e aprendizagem | **13** | ação climática |
+| **5** | igualdade de gênero | **14** | oceanos e recursos marinhos |
+| **6** | água e saneamento | **15** | ecossistemas terrestres, florestas e biodiversidade |
+| **7** | energia acessível e sustentável | **16** | paz, justiça, Estado de Direito (poder sujeito às normas e garantias) e instituições |
+| **8** | crescimento, emprego e trabalho decente | **17** | meios de implementação e parceria global |
+| **9** | infraestrutura, industrialização e inovação | | |
 
-**5 Ps ≠ 5 ODS adicionais.**
+**Detalhe que muda a decisão:** 9.5 pesquisa, capacidade tecnológica e inovação industrial; 9.b inovação doméstica de países em desenvolvimento e políticas de diversificação/agregação de valor. Em 12, **12.1 é o plano decenal** de produção e consumo sustentáveis; **12.6** incentiva especialmente empresas grandes e transnacionais a adotar práticas sustentáveis e incluir informações de sustentabilidade em relatórios. Em 16, **16.2** protege crianças contra abuso, exploração, tráfico, violência e tortura; **16.3** une Estado de Direito e acesso à justiça; **16.5** corrupção e suborno; **16.b** leis e políticas não discriminatórias. Acesso à justiça situa-se em 16, não em 10.
 
-## Princípios
+A iniciativa brasileira de um **objetivo 18 de igualdade étnico-racial** é nacional e não altera os **17 objetivos da resolução da <abbr title="Organização das Nações Unidas">ONU</abbr>**.
 
-- universal → todos os países;
-- contextualizada → realidades, capacidades e prioridades nacionais;
-- integrada e indivisível;
-- econômica + social + ambiental;
-- direitos humanos + dignidade + não discriminação;
-- igualdade de gênero;
-- **não deixar ninguém para trás**;
-- alcançar primeiro quem ficou mais para trás.
+## Implementar e acompanhar
 
-**Universal ≠ aplicação idêntica.**
+**Meios de implementação:** finanças, tecnologia, capacitação, comércio, coerência de políticas, parcerias e dados. Estão em metas de diversos objetivos e reunidos no **17**. Cada país tem responsabilidade primária por seu desenvolvimento; governos, parlamentos, autoridades locais, setor privado, sociedade civil, ciência e sistema das Nações Unidas participam da parceria.
 
-## Arquitetura
-
-| Elemento | Função |
-|---|---|
-| objetivo | direção ampla |
-| meta | resultado ou meio específico |
-| indicador | medida de progresso |
-
-- `16.3` → meta substantiva;
-- `16.a` → meio de implementação;
-- metas por letras também integram as **169**;
-- nem toda meta tem prazo em 2030;
-- marco global de indicadores é posterior à A/RES/70/1.
-
-**Não memorize uma contagem circunstancial de indicadores como estrutura da Agenda.**
-
-## ODS 1–9
-
-| ODS | Chave |
-|---:|---|
-| 1 | pobreza |
-| 2 | fome + nutrição + agricultura |
-| 3 | saúde e bem-estar |
-| 4 | educação |
-| 5 | igualdade de gênero |
-| 6 | água e saneamento |
-| 7 | energia |
-| 8 | crescimento + emprego + trabalho decente |
-| 9 | infraestrutura + industrialização + inovação |
-
-## ODS 10–17
-
-| ODS | Chave |
-|---:|---|
-| 10 | desigualdade dentro e entre países |
-| 11 | cidades e assentamentos |
-| 12 | produção e consumo |
-| 13 | mudança climática |
-| 14 | oceanos e mares |
-| 15 | ecossistemas terrestres + florestas + biodiversidade |
-| 16 | paz + justiça + Estado de Direito + instituições |
-| 17 | meios de implementação + parceria global |
-
-**Estado de Direito/acesso à justiça = ODS 16, não ODS 10.**
-
-Agenda da ONU = **17 ODS**. “ODS 18” brasileiro ≠ alteração da A/RES/70/1.
-
-## Implementação
-
-Meios aparecem:
-
-- em metas de vários ODS;
-- sistematizados no **ODS 17**.
-
-Incluem finanças, tecnologia, capacitação, comércio, coerência, parcerias e dados.
-
-**Adis Abeba:** parte integrante da Agenda 2030.
-
-Parceria global: governos + parlamentos + ONU + autoridades locais + setor privado + sociedade civil + ciência.
-
-Cada país continua principal responsável por seu desenvolvimento.
-
-## Acompanhamento
-
-Níveis:
-
-1. nacional;
-2. regional;
-3. global.
-
-Princípios: voluntário + liderado pelo país + participativo + transparente + baseado em evidências.
-
-### <abbr title="Fórum Político de Alto Nível sobre Desenvolvimento Sustentável">HLPF</abbr>
-
-- plataforma central da ONU;
-- origem institucional ligada à Rio+20;
-- anual sob **<abbr title="Conselho Econômico e Social das Nações Unidas">ECOSOC</abbr>**;
-- quadrienal sob **Assembleia Geral**;
-- recebe VNRs.
-
-### VNR
-
-- Revisão Nacional Voluntária;
-- liderada pelo país;
-- apresentada no HLPF;
-- não é auditoria coercitiva nem sanção.
-
-## Pegadinhas
-
-- adotada em **2015**; início em **2016**;
-- adoção ≠ ratificação;
-- **17 ODS ≠ 18**;
-- **169 metas incluem letras**;
-- integrado/indivisível ≠ cardápio;
-- 3 dimensões ≠ somente ambiente;
-- ODS 17 ≠ único com meios de implementação;
-- HLPF antecede a Agenda 2030;
-- VNR voluntária ≠ fiscalização judicial;
-- objetivo ≠ meta ≠ indicador;
-- nem todo prazo = 2030;
-- indicador global pode ser refinado → não confundir contagem temporária com **17/169**.
-
-## Checklist de questão
-
-1. É universal, mas considera o contexto nacional?
-2. Preserva integração e indivisibilidade?
-3. Associa o tema ao ODS correto?
-4. Distingue objetivo, meta e indicador?
-5. Respeita liderança nacional e parceria global?
-6. Evita absolutos como “somente”, “idêntico”, “obrigatório” e “todos até 2030”?
+**Revisão:** níveis nacional → regional → global; processos voluntários, liderados pelos países, participativos, transparentes e baseados em evidências. O Fórum Político de Alto Nível das Nações Unidas é a plataforma central, originada do processo da <abbr title="Conferência das Nações Unidas sobre Desenvolvimento Sustentável de 2012">Rio+20</abbr>: reúne-se anualmente sob o Conselho Econômico e Social e a cada quatro anos sob a Assembleia Geral. As **Revisões Nacionais Voluntárias** são apresentadas nesse fórum para expor avanços e desafios, sem caráter de sentença ou sanção.
