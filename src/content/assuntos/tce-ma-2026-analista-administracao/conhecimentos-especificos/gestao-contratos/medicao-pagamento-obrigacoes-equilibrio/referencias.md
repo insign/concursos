@@ -1,4 +1,4 @@
-> Datas de consulta posteriores a **6/7/2026** são apenas referências editoriais; o corte jurídico permanece o da publicação do edital.
+> Datas de consulta posteriores a **7/7/2026** são apenas referências editoriais; o corte jurídico permanece o da publicação do edital.
 
 - [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) — Presidência da República; especialmente arts. 6º, 92, 121, 123, 124, 130, 131, 134 a 136 e 140 a 145.
 - [Decreto nº 9.507, de 21 de setembro de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9507.htm) — Presidência da República; art. 8º, especialmente inciso V, sobre fato gerador ou conta vinculada nos serviços continuados com dedicação exclusiva.
@@ -13,3 +13,6 @@
 - [Instrução Normativa RFB nº 2.110, de 17 de outubro de 2022](https://normas.receita.fazenda.gov.br/sijut2consulta/consulta.action?termoBusca=IN+2110&tipoConsulta=formulario&tipoData=2) — retenção previdenciária em cessão de mão de obra e empreitada.
 - [Repactuação](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-3-repactuacao/) — TCU, Licitações e Contratos: Orientações e Jurisprudência.
 - [Reajuste em sentido estrito](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-2-reajuste-em-sentido-estrito/) — TCU, Licitações e Contratos: Orientações e Jurisprudência; registra a regra geral e as hipóteses excepcionais de preclusão/renúncia.
+
+- CEBRASPE. CAGEPA, Administrador (2024), [prova, questões 41 e 43](https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/992_CAGEPA_001_01.PDF) e [gabarito oficial definitivo D/A](https://cdn.cebraspe.org.br/concursos/cagepa_24/arquivos/GAB_DEFINITIVO_992_CAGEPA_001_01.PDF); CNJ, Técnico Judiciário (2024), [prova, item 37](https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/979_CNJ_CB4_01.PDF) e [gabarito definitivo E](https://cdn.cebraspe.org.br/concursos/cnj_24/arquivos/GAB_DEFINITIVO_979_CNJ_CB4_01.PDF). Conferidos em 24 set. 2026.
+- CEBRASPE. SEFA/PR, Analista Fazendário (2026), [prova, questão 11](https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/2F58995126C3CE0CD3ED52F1A50A1158B2AD11CC1A73B73D20B9B3308C4F549C.pdf). Prova aberta em 24 set. 2026; gabarito definitivo do cargo exato ainda não confirmado, não usado como contraprova independente.

@@ -1,222 +1,52 @@
-# Medição, pagamento, obrigações trabalhistas e equilíbrio
+# Medição, pagamento, obrigações trabalhistas e equilíbrio na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-## Corte e âmbito normativo
+> **Corte:** edital publicado em 7/7/2026. Lei nº 14.133/2021: normas gerais; <abbr title="Instrução Normativa">IN</abbr> nº 5/2017: serviços federais, aplicada à Lei nova **no que couber** pela <abbr title="Instrução Normativa">IN</abbr> nº 98/2022. Decretos e instruções federais posteriores têm âmbito próprio; não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Encerramento e verbas rescisórias finais pertencem ao H135.
 
-- **Corte de prova:** legislação vigente em **6/7/2026**.
-- Lei nº 14.133/2021: norma geral aplicável aos entes abrangidos.
-- <abbr title="Instrução Normativa">IN</abbr> nº 5/2017: disciplina federal de serviços, aplicável sob a nova lei **no que couber**.
-- Decreto nº 9.507/2018: regra federal específica para serviços continuados com dedicação exclusiva.
-- IN e decretos federais não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
-- Referência revogada/incompatível da IN cede ao fundamento vigente.
+## 1. Antes de pagar, prove o resultado
 
-## Fluxo financeiro
+**Execução → medição documentada → correção ou redimensionamento → recebimento provisório → definitivo → liquidação (conferência do direito ao crédito) → pagamento.** A nota fiscal não comprova sozinha a execução. O contrato deve prever critérios e periodicidade da medição, preços, reajustamento e prazos de liquidação/pagamento (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 92). Não replique automaticamente prazos históricos do Anexo XI vinculados à Lei nº 8.666/1993.
 
-Execução → medição/evidências → correção ou redimensionamento → recebimento provisório → recebimento definitivo → liquidação → pagamento.
-
-- Nota fiscal ≠ prova suficiente da execução.
-- Contrato deve prever medição, liquidação, pagamento e reajustamento.
-- Divergência parcial ≠ retenção da parcela incontroversa.
-
-## <abbr title="Instrumento de Medição de Resultado">IMR</abbr>
-
-| Elemento | Função |
+| Instituto | Pergunta que responde |
 | --- | --- |
-| indicador | o que medir |
-| meta | resultado esperado |
-| método | como produzir evidência |
-| periodicidade | quando apurar |
-| tolerância | limite do desvio aceitável |
-| fator redutor | repercussão no valor devido |
+| Medição | Quanto e com que qualidade foi realmente prestado, segundo padrão anterior ao fato? Considere quantidade, resultado, continuidade, prazo, recursos e evidências conforme o contrato. |
+| <abbr title="Instrumento de Medição de Resultado">IMR</abbr> | Qual indicador, meta, coleta, frequência, tolerância e fórmula de pagamento foram pactuados? Anexo V-B (modelo) e VIII-A (uso técnico). Avaliação diária, semanal ou mensal conforme objeto; **consolidação mensal** para o recebimento provisório, com relatório ao gestor. Fiscal apresenta avaliação ao preposto; contratado não a faz por ele. Justificativa de menor conformidade exige evento excepcional, imprevisível e exclusivamente alheio ao prestador. |
+| Glosa/redimensionamento | Qual parte ausente ou desconforme reduz o valor devido? Conecte cláusula → fato e período → prova → fórmula → memória de cálculo. Anexo XI: comunique à empresa o valor exato dimensionado para a fatura. Não é automaticamente multa nem retenção tributária; sanção exige infração, competência e processo próprios. |
+| Parcela incontroversa | Havendo disputa sobre dimensão, qualidade ou quantidade, libere no prazo a parte **já reconhecida**, sem encerrar a apuração do restante (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 143). |
 
-- IMR: Anexo V-B + aplicação no Anexo VIII-A.
-- Critério: prévio + objetivo + mensurável + ligado ao objeto.
-- Avaliação pode ser diária, semanal ou mensal.
-- Para recebimento provisório: consolidação mensal.
-- Contratada pode justificar desempenho inferior; aceitação exige excepcionalidade imprevisível e alheia ao seu controle.
-- Contratada não avalia o próprio desempenho.
-- IMR não impede outros mecanismos de avaliação.
+Na Lei nº 14.133/2021, recebimento **provisório** de obras/serviços cabe ao responsável pelo acompanhamento/fiscalização, por termo detalhado sobre exigências técnicas; **definitivo** a servidor ou comissão designada, por termo detalhado sobre exigências contratuais (<abbr title="artigo">art.</abbr> 140). A <abbr title="Instrução Normativa">IN</abbr> nº 5 detalha relatório dos fiscais, exame do gestor, indicação escrita de irregularidade impeditiva de liquidação e formalização do definitivo. No Decreto federal nº 13.031/2026, provisório por fiscal técnico/administrativo/setorial; definitivo por gestor/gestor setorial/comissão. Rejeição total ou parcial e responsabilidade posterior continuam possíveis; receber não é pagar.
 
-## Glosa × sanção × tributo
+Após o definitivo, o gestor instrui com documento fiscal e prova da prestação. A ordem cronológica de exigibilidade separa **fonte de recursos e categoria** (bens, locações, serviços, obras); alteração só nas hipóteses legais, com justificativa prévia e comunicações posteriores ao controle interno e tribunal de contas (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 141). Pagamento antecipado, em regra vedado, pede economia sensível ou indispensabilidade, justificativa e previsão expressa; pode exigir garantia adicional e devolução se não houver entrega (<abbr title="artigo">art.</abbr> 145). A atualização monetária contratual entre adimplemento e pagamento é questão distinta.
 
-| Instituto | Função |
+## 2. Fiscalização trabalhista e dois mecanismos de proteção
+
+O contratado responde primariamente pelos encargos trabalhistas, previdenciários, fiscais e comerciais. Em serviço contínuo com dedicação exclusiva, a Administração responde **solidariamente pelos encargos previdenciários e subsidiariamente pelos trabalhistas se comprovada falha na fiscalização** (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 121). Isso exige evidência de fiscalização, sem tornar o órgão empregador.
+
+| Controle do Anexo VIII-B | O que procurar |
 | --- | --- |
-| glosa/redimensionamento | pagar somente a prestação efetivamente reconhecida |
-| sanção | reagir à infração, com processo próprio |
-| retenção tributária | cumprir obrigação legal perante o Fisco |
-| indenização | recompor prejuízo comprovado |
+| Inicial | Empregados, funções, horários, vínculos, exames, salários/benefícios, adicionais e planilha de custos. |
+| Mensal | Salários, documentação de obrigações trabalhistas/previdenciárias e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> do mês anterior; relatório ao gestor. |
+| Diário e amostral | Presença, função e jornada; amostragem que alcance todos os empregados ao longo de um ano, com repetição por risco. |
+| Procedimental | Férias, licenças, estabilidade e recolhimentos. Indício previdenciário vai à Receita Federal; indício de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> ao órgão trabalhista competente. |
 
-- Redimensionamento e sanção podem coexistir, sem duplicidade indevida.
-- Glosa: cláusula + evidência + período + fórmula + memória de cálculo.
-- Glosa parcial: documento fiscal pelo valor exatamente dimensionado.
-- Art. 143: parcela incontroversa deve ser paga no prazo.
+Certidão irregular e serviço não prestado são fatos diferentes. Retenção previdenciária de **11%** não incide universalmente sobre toda fatura: confirme cessão de mão de obra/empreitada, serviço alcançado, base, deduções e dispensas na disciplina tributária (Lei nº 8.212/1991 e <abbr title="Instrução Normativa da Receita Federal do Brasil">IN RFB</abbr> nº 2.110/2022). Retenção tributária não é glosa nem provisão trabalhista.
 
-## Recebimento
-
-| Etapa | Regra geral da Lei nº 14.133/2021 |
+| Fonte | Conta vinculada × pagamento pelo fato gerador |
 | --- | --- |
-| provisório | acompanhamento/fiscalização + termo detalhado + exigências técnicas |
-| definitivo | servidor/comissão designada + termo detalhado + exigências contratuais |
+| Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 121, § 3º | Admite mecanismos de proteção, entre outras medidas como garantia para rescisórias, condicionar pagamento à quitação de obrigação vencida e pagamento direto deduzido do crédito. Valores da conta são absolutamente impenhoráveis. |
+| Decreto nº 9.507/2018, <abbr title="artigo">art.</abbr> 8º, V, e <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, <abbr title="artigo">art.</abbr> 18 | No serviço federal continuado com dedicação exclusiva abrangido, **uma das duas** integra edital/contrato; a escolha requer custo-benefício. Não some automaticamente ambas sobre a mesma parcela. |
 
-Na IN nº 5/2017:
+**Conta-Depósito Vinculada:** provisiona mensalmente, em conta do prestador bloqueada para movimentação, décimo terceiro, férias/terço, encargos rescisórios e incidências do modelo; liberação autorizada após ocorrência, cálculos e prova. Não é garantia geral de qualquer dano. **Pagamento pelo Fato Gerador:** a parcela de férias, décimo terceiro, ausências legais e rescisórias não é paga antes; torna-se devida quando o fato ocorre e é demonstrado. Ambas exigem fiscalização continuada.
 
-- fiscais produzem relatório circunstanciado;
-- gestor consolida a documentação e formaliza o recebimento definitivo.
+Atualizações federais no corte: Decreto nº 12.174/2024 (garantias/custos mínimos), <abbr title="Instrução Normativa">IN</abbr> nº 81/2024 (compensação de jornada), <abbr title="Instrução Normativa">IN</abbr> nº 176/2024 (custos mínimos e enquadramento coletivo), Decreto nº 12.926/2026 e <abbr title="Instrução Normativa">IN</abbr> nº 147/2026 (reembolso-creche comprovado), Decreto nº 13.031/2026 (sistema e recebimentos). O Contratos.gov.br é obrigatório para os órgãos federais abrangidos conforme funcionalidades disponíveis, com dispensa de cumprimento do decreto pelos três Comandos militares; ausência de funcionalidade exige processo eletrônico oficial e inserção posterior. Permissão de uso a outro ente não impõe o sistema ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-No modelo federal atualizado em 2026:
+## 3. Mudou o custo? Escolha a técnica correta
 
-- provisório: fiscal técnico, administrativo ou setorial;
-- definitivo: gestor, gestor setorial ou comissão.
-
-Recebimento ≠ pagamento e não elimina responsabilidades posteriores.
-
-## Pagamento
-
-- Anexo XI: gestor instrui pagamento após recebimento definitivo.
-- Documento fiscal + provas da prestação.
-- Prazo de liquidação e pagamento: conforme contrato no regime da Lei nº 14.133/2021.
-- Não transportar automaticamente prazos históricos vinculados à Lei nº 8.666/1993.
-- Ordem cronológica: por fonte de recursos e categoria contratual.
-- Alteração da ordem: hipótese legal + justificativa + comunicações exigidas.
-- Pagamento antecipado: regra é vedação; exceção exige vantagem/necessidade, justificativa e previsão expressa.
-
-## Fiscalização trabalhista
-
-- Encargos trabalhistas, previdenciários, fiscais e comerciais: responsabilidade primária do contratado.
-- Dedicação exclusiva + falha comprovada de fiscalização:
-  - responsabilidade **solidária previdenciária**;
-  - responsabilidade **subsidiária trabalhista**.
-- Administração não se transforma em empregadora.
-- Comunicação ordinária com trabalhadores passa pelo preposto.
-
-### Anexo VIII-B
-
-- **Inicial:** empregados, funções, horários, vínculos, salários, benefícios, exames e riscos pertinentes.
-- **Mensal:** salários e obrigações trabalhistas, previdenciárias e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> do mês anterior.
-- **Diária:** alocação, função e jornada, conforme método de controle.
-- **Procedimental:** data-base, férias, licenças e estabilidades.
-- **Amostragem:** efeito surpresa e cobertura do conjunto ao longo do tempo.
-- Indício previdenciário → Receita Federal.
-- Indício de FGTS → órgão trabalhista competente.
-
-## Regularidade e retenção previdenciária
-
-- Regularidade cadastral ≠ medição da execução.
-- Certidão irregular ≠ serviço não prestado.
-- Retenção previdenciária de 11% não incide automaticamente sobre toda fatura.
-- Verificar hipótese tributária vigente, serviço, base, deduções e dispensas.
-- Retenção previdenciária ≠ glosa ≠ conta vinculada ≠ fato gerador.
-
-## Conta vinculada × fato gerador
-
-### Camadas normativas
-
-| Fonte | Regra |
-| --- | --- |
-| Lei nº 14.133/2021 | admite esses mecanismos entre as medidas de proteção trabalhista |
-| Decreto nº 9.507/2018, art. 8º, V | no regime federal abrangido de serviço continuado com dedicação exclusiva, exige **fato gerador OU conta vinculada** |
-| IN nº 5/2017, art. 18 + Anexo VII-B | ato convocatório deve prever **uma das duas regras**; escolha justificada por custo-benefício |
-
-> **Federal abrangido:** uma das duas deve integrar a modelagem. Não são cumuladas automaticamente sobre a mesma parcela.
-
-### Conta vinculada
-
-- Provisiona mensalmente em conta do prestador, bloqueada para movimentação.
-- Abrange, conforme modelo, 13º, férias + 1/3, encargos rescisórios e incidências.
-- Liberação após ocorrência e comprovação da obrigação.
-- Valores: absolutamente impenhoráveis.
-- Não é multa, tributo ou receita pública.
-
-### Fato gerador
-
-- Parcela não é paga antes.
-- Torna-se devida quando a obrigação ocorre e é comprovada.
-- Não substitui fiscalização trabalhista.
-
-## Atualizações federais 2024–2026
-
-- Decreto nº 12.174/2024: garantias trabalhistas e custos mínimos.
-- IN nº 81/2024: compensação de jornada e reflexos na fiscalização/medição.
-- IN nº 176/2024: custos mínimos de mão de obra e instrumento coletivo.
-- Decreto nº 12.926/2026 + IN nº 147/2026: reembolso-creche comprovado.
-- Decreto nº 13.031/2026: Contratos.gov.br e fluxo federal de gestão.
-
-### Contratos.gov.br
-
-- Obrigatório no âmbito federal definido pelo Decreto, consideradas as funcionalidades disponíveis.
-- Comandos da Marinha, Exército e Aeronáutica: cumprimento do Decreto dispensado.
-- Funcionalidade indisponível: processo eletrônico oficial → inserção posterior quando disponível.
-- Outros Poderes/entes podem receber permissão de uso: **permissão ≠ obrigação automática para o TCE-MA**.
-
-## Equilíbrio econômico-financeiro
-
-| Instituto | Gatilho | Prova/técnica |
+| Técnica | Gatilho e prova | Marco/forma |
 | --- | --- | --- |
-| reajuste estrito | inflação ordinária | índice contratual específico/setorial |
-| repactuação | variação dos custos de serviço contínuo com mão de obra dedicada/predominante | planilha analítica + norma coletiva, quando cabível |
-| revisão/restabelecimento | evento extraordinário | evento + nexo + impacto + matriz de riscos |
+| **Reajuste em sentido estrito** | Variação ordinária por índice contratual específico/setorial, em serviço contínuo **sem** dedicação exclusiva nem predominância de mão de obra. | Índice e data-base vinculada ao orçamento; intervalo mínimo de **um ano**. Registro por apostila quando não altera o contrato. |
+| **Repactuação** | Serviço contínuo **com** dedicação exclusiva ou predominância; solicitação e planilha analítica demonstram variação, com instrumento coletivo para mão de obra quando cabível. | Mínimo **um ano**: custos de mercado contam da proposta; mão de obra, do acordo/convenção/dissídio de referência. Parcelas/categorias podem ter anualidades distintas. Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 92, § 6º: resposta **preferencialmente em um mês** da documentação; o antigo prazo de 60 dias da <abbr title="Instrução Normativa">IN</abbr> não se transplanta. Efeitos só nos itens e diferenças comprovados. |
+| **Restabelecimento/revisão** | Força maior, caso fortuito, fato do príncipe (ato estatal geral), fato imprevisível ou previsível de consequências incalculáveis, que inviabilize a execução pactuada; prove superveniência, nexo, impacto quantificado e risco não alocado ao requerente. | Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 124, II, d. Pedido durante vigência e antes de prorrogação; extinção posterior não impede pretensão tempestiva. Alteração unilateral de encargos: restabeleça no mesmo aditivo; tributo/encargo legal superveniente: repercussão comprovada. Erro ordinário da proposta não basta. |
 
-### Reajuste estrito
+Cláusula coletiva sobre participação em lucros, matéria não trabalhista, encargos sem lei, preço de insumos ou direito criado apenas para contrato público não vincula automaticamente a Administração. **Preclusão da repactuação:** se o direito já era exigível e não houve pedido ou ressalva até prorrogação/encerramento, perde-se a pretensão conforme a <abbr title="Instrução Normativa">IN</abbr> nº 5; fato gerador inexistente ainda não preclui. **Reajuste por índice:** prorrogação não o preclui em regra; edital/contrato podem prever requerimento e consequência expressa para silêncio. A orientação oficial registra falta de jurisprudência consolidada para essa preclusão na Lei nº 14.133/2021. Leia as condições do caso.
 
-- Serviço contínuo sem dedicação exclusiva ou predominância de mão de obra.
-- Índice e data-base no contrato.
-- Interregno mínimo: **1 ano**.
-- Pode ser registrado por apostila.
-
-### Repactuação
-
-- Serviço contínuo com dedicação exclusiva ou predominância de mão de obra.
-- Custos de mercado: data da proposta.
-- Mão de obra: acordo/convenção/dissídio de referência.
-- Interregno mínimo: **1 ano**.
-- Pode ser parcelada por custos/categorias com anualidades distintas.
-- Exige solicitação e demonstração analítica.
-- Só repercute nos itens e diferenças comprovados.
-- Prazo de resposta sob a Lei nº 14.133/2021: preferencialmente **1 mês** após documentação pertinente.
-
-### <abbr title="Convenção Coletiva de Trabalho">CCT</abbr> não vinculante
-
-Administração não assume automaticamente cláusula coletiva sobre:
-
-- matéria não trabalhista;
-- participação nos lucros/resultados;
-- encargo social/previdenciário sem lei;
-- preço de insumo;
-- direito criado somente para contrato administrativo.
-
-## Preclusão
-
-### Repactuação
-
-- Direito já exigível + prorrogação/encerramento sem pedido ou ressalva → preclusão segundo a IN nº 5/2017.
-- Fato gerador ainda inexistente → não havia pretensão constituída a precluir.
-
-### Reajuste por índice
-
-- **Regra geral:** não transportar automaticamente a preclusão da repactuação; reajuste pode ser processado de ofício.
-- **Exceção:** verificar edital/contrato. Pode haver renúncia ou preclusão se houver disciplina expressa condicionando o reajuste a requerimento e atribuindo efeito à prorrogação sem pedido/ressalva.
-- <abbr title="Tribunal de Contas da União">TCU</abbr>: não há jurisprudência consolidada sobre essa preclusão sob a Lei nº 14.133/2021.
-
-> Pegadinha: **preclusão da repactuação ≠ preclusão automática do reajuste**.
-
-## Revisão/restabelecimento
-
-- Art. 124, II, `d`: força maior, caso fortuito, fato do príncipe ou fato imprevisível/previsível de consequências incalculáveis.
-- Evento extraordinário + superveniência + nexo + impacto + risco não alocado ao requerente.
-- Alteração unilateral de encargos: reequilibrar no mesmo aditivo.
-- Tributo/encargo legal superveniente: repercussão precisa ser comprovada.
-- Pedido: durante a vigência e antes da prorrogação.
-- Erro ordinário de proposta ≠ desequilíbrio.
-
-## Pegadinhas finais
-
-- Nota fiscal ≠ prova suficiente.
-- IMR ≠ multa.
-- Glosa ≠ retenção tributária.
-- Conta vinculada ≠ fato gerador.
-- No regime federal específico, não se pode simplesmente omitir ambos: o ato convocatório prevê uma das duas regras.
-- Certidão irregular ≠ serviço não prestado.
-- Repactuação ≠ reajuste por índice.
-- Revisão ≠ correção de erro da proposta.
-- Prorrogação sem pedido/ressalva pode precluir repactuação já exigível.
-- Reajuste não sofre automaticamente a mesma preclusão; leia edital e contrato.
-- Norma federal ≠ regulamento automático do TCE-MA.
+**Decisão final:** prestação parcial pede medição e pagamento incontroverso; inadimplemento pode pedir controle e sanção; custo ordinário segue índice/planilha; choque extraordinário pede prova e alocação de riscos. Um desses efeitos não substitui automaticamente outro.
