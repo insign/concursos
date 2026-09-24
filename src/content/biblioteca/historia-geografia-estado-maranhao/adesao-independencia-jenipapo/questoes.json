@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7239",
@@ -1384,9 +1384,9 @@
     },
     {
       "id": "q7285",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "A perda ou dispersão de bagagem e suprimentos portugueses após Jenipapo é relevante porque",
+      "prompt": "O consumo e a dificuldade de reposição dos suprimentos de Fidié após Jenipapo são relevantes porque",
       "options": [
         {
           "id": "A",
