@@ -236,7 +236,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H108 | `gestao-qualidade-excelencia-servicos-publicos` | `gestao-qualidade-excelencia` | L | [`f021ae4`](https://github.com/insign/concursos/commit/f021ae4db0f6bd0015f0e0c2a666454ded42ccc9) |
 | H109 | `gestao-projetos` | = | L | [`72e9d5c`](https://github.com/insign/concursos/commit/72e9d5c483f72d8d7ff10da10c097fdfcf77ca9e) |
 | H110 | `planejamento-estrategico` | = | L | [`c2c665c`](https://github.com/insign/concursos/commit/c2c665c079be2505e859b15eb461c28f87573cc3) |
-| H111 | `empreendedorismo-liderancas` | = | L | — |
+| H111 | `empreendedorismo-liderancas` | = | L | [`e7f4069`](https://github.com/insign/concursos/commit/e7f4069f8b80b685473804a61e80f40c56600e7a) |
 | H112 | `gestao-resultados-publica-privada-paradigma-cliente` | `gestao-resultados-cliente` | L | — |
 | H113 | `sustentabilidade-publica` | = | L | — |
 | H114 | `acessibilidade-na-gestao-publica` | `acessibilidade-gestao-publica` | L | — |
@@ -301,6 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H111: a aula trata 6/7/2026, data do ato E1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir a aula em escopo próprio.
 
 - H108: a aula ainda descreve a ISO 9001:2026 como em publicação na consulta de 8/9; a ISO registra publicação em 16/9/2026, posterior ao edital. Atualizar a indicação temporal da aula em escopo próprio, mantendo as edições anteriores no recorte de E1.
 
