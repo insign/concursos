@@ -1,318 +1,50 @@
-# <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>: inclusão, acessibilidade e responsabilização
+# Lei Brasileira de Inclusão: inclusão, acessibilidade e responsabilização
 
-## Recorte
+**Corte:** alterações em vigor até a publicação do edital em **7/7/2026**. Aqui estão os mecanismos operacionais da Lei nº 13.146/2015; fundamentos, capacidade e direitos gerais estão no assunto 098, e o regime próprio das Leis nº 10.048/2000 e nº 10.098/2000 no 100.
 
-- mecanismos operacionais da LBI;
-- regra de prova: alterações legislativas em vigor até **06/07/2026**;
-- conferência editorial: **15/08/2026**;
-- fundamentos/direitos/capacidade → Assunto 098;
-- Leis nº 10.048/2000 e nº 10.098/2000 → Assunto 100.
+**Escolha do instrumento:** desenho universal desde o projeto é a regra; comprovada sua inviabilidade, **adaptação razoável** (ajuste individual necessário sem ônus desproporcional). Tecnologia assistiva pode ser produto, método, prática ou serviço que amplia autonomia, mobilidade e participação. Acessibilidade condiciona projeto/obra, fabricação e serviço de transporte coletivo, outorga ou renovação de serviço, financiamento com recursos públicos e aval da União (garantia de empréstimo), quando relacionados ao tema.
 
-## Cordão de girassóis
+## Onde a participação precisa funcionar
 
-- símbolo nacional de deficiência oculta;
-- uso **opcional**;
-- ausência não prejudica direito;
-- não dispensa documento, se solicitado;
-- símbolo ≠ prova absoluta.
+| Contexto | Comando e exceção |
+|---|---|
+| **Identificação** | Cordão de girassóis identifica deficiência oculta; uso **opcional**. Ausência não retira direitos; uso não dispensa documento comprobatório quando solicitado. |
+| **Trabalho** | Colocação competitiva em igualdade, com acessibilidade, tecnologia e ajuste. Trabalho com apoio **pode** viabilizá-la: prioridade à maior dificuldade de inserção, suporte individual, perfil e interesse da pessoa, apoio ao empregador, avaliações periódicas, articulação intersetorial e participação possível da sociedade civil. Entidade que realiza seleção **pública ou privada** deve cumprir acessibilidade. |
+| **Eventos e cinema** | Assentos/espaços distribuídos em **todos os setores**, com boa visão, junto a corredores, sem segregação/obstrução; acomodar ao menos um acompanhante e preservar proximidade familiar. Sem procura comprovada, uso excepcional por outras pessoas conforme regulamento. Fuga acessível; recursos de acessibilidade em **todas** as sessões de cinema, sem ingresso mais caro. |
+| **Hospedagem** | Novos estabelecimentos: desenho universal. Nos **existentes**, dormitórios acessíveis **≥10%, mínimo um**, em rota acessível. Dispensa desse percentual só se risco estrutural causar impossibilidade técnica, provada em **laudo renovado a cada cinco anos**; demais deveres continuam. |
+| **Transporte coletivo** | Acessibilidade abrange veículo, estação, terminal, ponto, sistema viário **e serviço**; informação acessível de **todos** os pontos do itinerário e segurança/prioridade no embarque **e** desembarque. Símbolo internacional de acesso no veículo requer certificação do gestor público. Fretamento/turismo cumprem deveres na renovação da frota. |
 
-## Inclusão no trabalho
+| Número | Aplicação precisa |
+|---:|---|
+| **2%, mínimo uma** | Vagas de estacionamento para veículo que transporte pessoa com deficiência **com mobilidade comprometida**; credencial de órgão de trânsito vinculada à pessoa, visível e válida nacionalmente. Uso irregular segue a lei de trânsito. |
+| **10%** | Frota de táxis acessíveis, sem tarifa ou adicional diferente. |
+| **Um em vinte** | Veículos adaptados em locadoras: câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de **freio e embreagem** (enumeração literal). |
+| **10%, mínimo um** | Computadores com recursos para deficiência visual em telecentros comunitários com recursos federais e estabelecimentos de acesso pago à internet; instalações e equipamentos também acessíveis. |
 
-Colocação competitiva = **modo de inclusão** + igualdade + acessibilidade + tecnologia assistiva + adaptação razoável.
+## Do projeto à comunicação
 
-Trabalho com apoio:
+**Edificações:** construção, reforma, ampliação e mudança de uso de locais abertos ao público, de uso público ou privados de uso coletivo devem ser acessíveis; prédios coletivos **existentes** também. Responsável técnico declara conformidade e aprovação/licenças/certificados exigem atestado de acessibilidade, inclusive para instalações temporárias. Alvará de funcionamento, renovação e carta de habite-se (certificado de conclusão da obra) dependem da certificação. Multifamiliar privada: percentual **conforme regulamento**, sem adicional pela unidade internamente acessível. Em obra na via, circulação acessível **durante e após**; planos, cronograma, reserva de recursos e fiscalização completam o ciclo.
 
-1. prioridade à maior dificuldade de inserção;
-2. suporte individualizado + <abbr title="tecnologia assistiva">TA</abbr> + agente facilitador;
-3. perfil vocacional + interesse;
-4. aconselhamento ao empregador + superação de barreiras;
-5. avaliações periódicas;
-6. articulação intersetorial;
-7. participação possível da sociedade civil.
+| Canal | Dever ou gatilho |
+|---|---|
+| **Documentos e consumo** | Contas, boletos, recibos, extratos e tributos em formato acessível **mediante solicitação**; igualmente bulas e prospectos do fornecedor. Comércio virtual e anúncios devem oferecer recursos compatíveis **às expensas do fornecedor**. |
+| **Espaços culturais e públicos** | Poder público **incentivará** técnicas de comunicação aumentativa e alternativa em museus, exposições e galerias (artigo 42, § 3º); **instalará** placas em praças, parques e demais espaços públicos coletivos (artigo 62-A). Placas: pranchas de **baixa tecnologia** com pictogramas (símbolos gráficos de mensagens), contexto local e resistência ao tempo; **artigo 4º da Lei nº 15.249/2025** ressalva a disponibilidade financeira e orçamentária do ente. |
+| **Sites e mídia** | Sites de órgãos de governo e empresas com sede/representação no Brasil acessíveis, com símbolo em destaque; serviços de radiodifusão: legenda oculta (texto opcional de áudio), janela de língua de sinais e audiodescrição (narração do conteúdo visual). Prestadoras de telecomunicações asseguram pleno acesso conforme regulamento. |
+| **Livros e eventos** | Compra pública de livros impede editora sem produção em formato acessível; arquivo digital compatível com leitor de tela, voz, ampliação, contraste e Braille. Promotor de evento científico-cultural oferece ao menos recursos previstos para radiodifusão; se promovido/financiado pelo poder público, acessibilidade e tecnologia assistiva. Campanhas sociais, preventivas e educativas também acessíveis. |
 
-Entidade de seleção: processo **público ou privado** deve observar LBI + normas de acessibilidade.
+**Tecnologia assistiva (artigos 74–75):** plano de medidas de crédito, importação, pesquisa/produção, tributação e incorporação a produtos distribuídos pelo sistema público; **renovação a cada quatro anos**, **avaliação dos procedimentos no mínimo a cada dois**. Pesquisa apoiada por órgão público contempla o tema; ciência e governo eletrônico acessível integram o fomento.
 
-## Eventos
+**Cadastro-Inclusão (artigo 92):** registro público eletrônico **georreferenciado** (dados ligados a localização) sobre pessoa e barreiras, administrado pelo Executivo federal; integração de bases com confidencialidade/privacidade. Dados apenas para políticas e identificação de barreiras **ou** estudos/pesquisas, com disseminação acessível. Não equivale ao cadastro social de benefícios nem à credencial de vaga. **Controle interno e externo** verifica cumprimento da lei e normas de acessibilidade em inspeções/auditorias (artigo 93).
 
-Assentos/espaços:
+**Auxílio-inclusão (artigo 94):** pessoa com deficiência moderada/grave, nos termos da lei, que recebe benefício assistencial de prestação continuada e passa a atividade remunerada com filiação previdenciária obrigatória ao regime geral **ou** recebeu esse benefício nos **cinco anos anteriores** e exerce tal atividade. Não é o próprio benefício assistencial. **Comparecimento (artigo 95):** deslocamento com ônus desproporcional/indevido não pode ser exigido; interesse público → agente na residência; interesse da pessoa → atendimento domiciliar ou procurador; perícia e rede de saúde/assistência podem atender em domicílio nos termos legais.
 
-- diversos locais/setores;
-- boa visibilidade + próximos a corredor;
-- sem segregação/obstrução;
-- ao menos 1 acompanhante + proximidade familiar;
-- sem procura comprovada → ocupação excepcional por outras pessoas.
+## Crimes: identifique verbo, condição e pena
 
-Regras:
+| Artigo | Núcleo | Pena básica |
+|---:|---|---|
+| **88** | Praticar, induzir ou incitar discriminação | **Reclusão 1–3 anos + multa.** Vítima sob cuidado/responsabilidade: +⅓; comunicação/publicação: **reclusão 2–5 + multa**. Material pode ser apreendido/interditado por decisão judicial ainda antes do inquérito, ouvido Ministério Público ou a pedido; destruição só após trânsito em julgado. |
+| **89** | Apropriar-se ou desviar bens/rendimentos | **Reclusão 1–4 + multa**; +⅓ se tutor/curador e outros responsáveis enumerados, ou em razão de ofício/profissão. |
+| **90** | Abandonar em hospital/abrigo congênere; também deixar de prover necessidades básicas quando obrigado por lei/mandado | **Reclusão 2–5 + multa**; lesão corporal grave: **3–7**; morte: **8–14**, sempre multa. Redação da Lei nº 15.163/2025, vigente no corte. |
+| **91** | Reter/utilizar cartão, meio eletrônico ou documento de recebimento/operação financeira **para obter vantagem indevida** | **Detenção 6 meses–2 anos + multa**; +⅓ para tutor/curador. Distinto da apropriação do artigo 89. |
 
-- fuga/emergência acessíveis;
-- cinema: recursos em **todas** as sessões;
-- ingresso sem preço superior.
-
-<abbr title="comunicação aumentativa e alternativa">CAA</abbr> cultural, art. 42, § 3º: poder público **incentivará** museus, exposições, monumentos, exibições e galerias a empregar comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
-
-## Hospedagem
-
-Novos: desenho universal + todos os meios de acessibilidade.
-
-Existentes:
-
-- **10%** dos dormitórios;
-- mínimo **1**;
-- em rota acessível.
-
-Exceção Lei nº 14.978/2024:
-
-- já existente;
-- impossibilidade técnica por risco estrutural;
-- laudo estrutural;
-- renovação a cada **5 anos**.
-
-## Transporte
-
-Serviço coletivo = veículo + terminal + estação + parada + sistema viário + prestação.
-
-Símbolo em veículo coletivo → certificação do gestor público.
-
-| Regra | Número |
-|---|---:|
-| estacionamento | **2%**, mínimo 1 |
-| táxi acessível | **10%** da frota |
-| locadora | **1/20** |
-
-Vaga:
-
-- comprometimento de mobilidade;
-- credencial do órgão de trânsito;
-- vinculada à pessoa;
-- validade nacional;
-- uso indevido → <abbr title="Código de Trânsito Brasileiro">CTB</abbr>.
-
-Coletivo:
-
-- acessibilidade de veículos/instalações;
-- informação de todos os pontos do itinerário;
-- prioridade + segurança no embarque/desembarque;
-- fretamento/turismo cumprem na renovação.
-
-Táxi: sem tarifa ou adicional diferente.
-
-Locadora, mínimo:
-
-- câmbio automático;
-- direção hidráulica;
-- vidros elétricos;
-- comandos manuais de freio **e embreagem**.
-
-## Acessibilidade geral
-
-Art. 53: vida independente + cidadania + participação.
-
-Condiciona projeto/obra/transporte, outorga/renovação, financiamento público e aval da União.
-
-Desenho universal = regra geral.
-
-Se comprovadamente impossível → adaptação razoável.
-
-Deve entrar desde a concepção em currículo, pesquisa e política pública.
-
-## Obras e edificações
-
-Construção/reforma/ampliação/mudança de uso → acessível.
-
-- responsabilidade profissional declarada;
-- aprovação/licença/certificado exigem atestado;
-- símbolo após certificação;
-- prédio coletivo existente também deve cumprir.
-
-Multifamiliar:
-
-- percentual mínimo conforme regulamento;
-- sem adicional por unidade internamente acessível.
-
-Vias em obra: circulação e acessibilidade durante + depois.
-
-Planos/códigos/impacto/fiscalização/incêndio seguem acessibilidade.
-
-Alvará + habite-se + renovações dependem de certificação.
-
-Ações: prioridade + cronograma + recursos + planejamento contínuo/articulado.
-
-Mediante solicitação: contas, boletos, recibos, extratos e tributos acessíveis.
-
-## CAA em espaços públicos
-
-Lei nº 15.249/2025, art. 62-A:
-
-- verbo legal: o poder público **instalará**;
-- beneficiária: pessoa com necessidade complexa de comunicação;
-- praças/parques/espaços públicos coletivos;
-- placas com pranchas de **baixa tecnologia**;
-- pictogramas;
-- adaptadas ao contexto;
-- material resistente ao clima/uso;
-- disponibilidade financeira/orçamentária: ressalva do **art. 4º da Lei nº 15.249/2025**, não do texto do art. 62-A.
-
-## Internet e comunicação
-
-Sites acessíveis:
-
-- órgãos de governo;
-- empresas com sede/representação no Brasil;
-- melhores práticas internacionais;
-- símbolo em destaque.
-
-Telecentros com recurso federal + lan houses:
-
-- instalações/equipamentos acessíveis;
-- **10%** computadores para deficiência visual;
-- mínimo **1**.
-
-Financiamento público do art. 54, III exige site acessível.
-
-Telecomunicação: pleno acesso conforme regulamento.
-
-Radiodifusão:
-
-- legenda oculta;
-- janela de <abbr title="Língua Brasileira de Sinais">Libras</abbr>;
-- audiodescrição.
-
-## Livros, consumo e eventos
-
-Livros acessíveis:
-
-- incentivo à produção/difusão/comercialização;
-- edital público impede editora sem produção acessível;
-- digital: leitor de tela/voz/ampliação/contraste/Braille;
-- artigos científicos, inclusive Libras.
-
-Fornecedor:
-
-- informação correta/clara/acessível;
-- anúncio e comércio virtual com recursos às suas expensas;
-- material acessível mediante solicitação.
-
-Evento científico-cultural:
-
-- instituição promotora → ao menos recursos de radiodifusão;
-- promovido/financiado pelo poder público → acessibilidade + TA.
-
-Pesquisa apoiada por agência/órgão público → deve contemplar tecnologia assistiva.
-
-Capacitação: Libras + guia-intérprete + Braille + audiodescrição + estenotipia + legendagem.
-
-Lei nº 14.863/2024: campanhas sociais/preventivas/educativas = acessíveis.
-
-## Tecnologia assistiva
-
-Direito de acesso: produtos + recursos + estratégias + práticas + processos + métodos + serviços.
-
-Objetivo: autonomia + mobilidade + qualidade de vida.
-
-Plano:
-
-- renovação: **4 anos**;
-- procedimentos avaliados, no mínimo, a cada **2 anos**;
-- crédito;
-- importação;
-- pesquisa/produção nacional;
-- tributação;
-- inclusão no <abbr title="Sistema Único de Saúde">SUS</abbr>/outros órgãos.
-
-Ciência/tecnologia: pesquisa + inovação + capacitação + TA/tecnologia social + governo eletrônico acessível.
-
-## Cadastro-Inclusão
-
-Registro público eletrônico georreferenciado:
-
-- identifica/caracteriza socioeconomicamente;
-- identifica barreiras;
-- integra políticas/censos/pesquisas;
-- Executivo federal administra;
-- salvaguarda confidencialidade/privacidade/liberdades.
-
-Uso somente:
-
-1. política pública + identificação de barreiras;
-2. estudos/pesquisas.
-
-Disseminação em formato acessível.
-
-Cadastro-Inclusão ≠ CadÚnico/<abbr title="Benefício de Prestação Continuada">BPC</abbr>/estacionamento.
-
-## Controle, auxílio e comparecimento
-
-Art. 93: controle interno/externo verifica legislação + acessibilidade em inspeção/auditoria.
-
-Art. 94, auxílio-inclusão:
-
-- deficiência moderada/grave;
-- BPC atual + atividade como segurado obrigatório <abbr title="Regime Geral de Previdência Social">RGPS</abbr>; ou
-- BPC nos últimos **5 anos** + mesma atividade.
-
-Art. 95:
-
-- sem comparecimento se deslocamento impõe ônus desproporcional/indevido;
-- interesse público → agente vai à residência;
-- interesse da pessoa → atendimento domiciliar ou procurador;
-- perícia/saúde/SUS/<abbr title="Sistema Único de Assistência Social">Suas</abbr> podem atender em domicílio.
-
-## Crimes
-
-| Art. | Conduta | Pena básica |
-|---|---|---|
-| 88 | discriminar/induzir/incitar | reclusão 1–3 + multa |
-| 89 | apropriar/desviar | reclusão 1–4 + multa |
-| 90 | abandonar/não prover | reclusão 2–5 + multa |
-| 91 | reter/usar cartão/documento | detenção 6m–2a + multa |
-
-Art. 88:
-
-- cuidado/responsabilidade → +1/3;
-- comunicação/publicação → reclusão 2–5 + multa;
-- apreensão/interdição antes do inquérito, ouvido <abbr title="Ministério Público">MP</abbr> ou a pedido;
-- descumprimento da ordem → desobediência;
-- destruição após trânsito em julgado.
-
-Art. 89, +1/3:
-
-- tutor/curador/síndico/liquidatário/inventariante/testamenteiro/depositário judicial;
-- ofício/profissão.
-
-Art. 90 após Lei nº 15.163/2025:
-
-- grave → 3–7 + multa;
-- morte → 8–14 + multa;
-- mesmas penas para não prover necessidade básica por lei/mandado.
-
-Art. 91: cartão/meio/documento destinado a recebimento ou operação financeira + vantagem para si/outrem; +1/3 para tutor ou curador.
-
-## Números-relâmpago
-
-- estacionamento: **2% / mínimo 1**;
-- táxi: **10%**;
-- locadora: **1/20**;
-- hospedagem: **10% / mínimo 1 / laudo 5 anos**;
-- telecentro/lan house: **10% / mínimo 1**;
-- plano TA: **4 anos / avaliação 2**;
-- auxílio: BPC nos últimos **5 anos**;
-- discriminação: **1–3**;
-- discriminação em mídia: **2–5**;
-- apropriação: **1–4**;
-- abandono: **2–5 / 3–7 / 8–14**;
-- retenção: **6m–2a**.
-
-## Pegadinhas
-
-- cordão opcional e documento possível;
-- trabalho com apoio continua competitivo;
-- seleção privada também cumpre;
-- cinema = todas as sessões;
-- CAA cultural = **incentivar**; art. 62-A = **instalar** placas;
-- prédio antigo também cumpre;
-- CAA = baixa tecnologia + contexto;
-- site privado abrangido;
-- Cadastro-Inclusão ≠ CadÚnico;
-- art. 93 = auditoria, não conselho profissional;
-- pena antiga do art. 90 está desatualizada;
-- apropriação ≠ retenção de cartão.
+*Reclusão* e *detenção* são espécies distintas de pena privativa de liberdade. A forma por publicação no artigo 88 tem faixa própria, e descumprir ordem de retirada pode configurar desobediência.
