@@ -84,6 +84,17 @@ Significa: **existe ao menos um objeto $x$ do domínio para o qual $P(x)$**.
 
 O existencial não significa “exatamente um” nem “algum, mas não todos”. Ele admite um ou vários objetos.
 
+### 3.3. “Exatamente um” combina existência e unicidade
+
+Para dizer que **um único objeto** tem a propriedade $P$, não basta $\exists x\,P(x)$. É preciso afirmar que existe um $x$ com $P$ e que qualquer $y$ com $P$ é idêntico a ele:
+
+$$
+\exists x\bigl(P(x)\land\forall y(P(y)\to y=x)\bigr).
+$$
+
+A primeira parte fornece **ao menos um** testemunho; a segunda impede **mais de um**. Se dois objetos distintos satisfizerem $P$, a fórmula será falsa. A igualdade $y=x$ expressa identidade de objeto, mesmo que nomes diferentes possam designá-lo.
+
+
 ## 4. Escopo, variáveis livres e sentenças
 
 O **escopo** de um quantificador é a subfórmula sobre a qual ele atua.
