@@ -48,6 +48,9 @@ A chave de prova é descobrir **qual critério está sendo usado**.
 
 Não existe uma taxonomia doutrinária única e universal. Por isso, em questão objetiva, vale mais identificar o **critério explicitado pelo enunciado** do que decorar listas sem contexto.
 
+**Quanto ao aspecto controlado**, outra classificação doutrinária contrapõe **controle de legalidade** (conformidade do ato com o ordenamento) a **controle de mérito** (juízo de conveniência e oportunidade dentro do espaço de escolha permitido ao administrador). Examinar a legalidade de uma decisão discricionária não significa substituir esse juízo de mérito. Já “correção”, na tabela acima, descreve uma **função** da atuação de controle, não o segundo aspecto dessa classificação. Assim, a dupla “legalidade ou correção” não corresponde ao contraste pedido quando o enunciado classifica o controle por aspecto.
+
+
 ## 3. Controle interno e externo: olhe a relação institucional
 
 ### 3.1. Sentido orgânico
