@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u049-a01",
@@ -514,9 +514,9 @@
     },
     {
       "id": "u049-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Em adaptação não literal de questão oficial para a Polícia Civil da Paraíba (2021/2022), qual modelo de balancete permite visualizar o movimento do período e, além dele, os respectivos saldos devedores ou credores em estrutura mais completa?",
+      "prompt": "Em adaptação não literal da questão 76 da Polícia Civil da Paraíba (2021/2022), qual modelo de balancete explicita, em pares devedor e credor, os saldos anteriores, os movimentos brutos do período, o saldo líquido desses movimentos e os saldos finais?",
       "options": [
         {
           "id": "A",
@@ -540,7 +540,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A adaptação se baseia na questão 76 do caderno oficial do Cargo 3 — Agente de Investigação, cujo gabarito definitivo indicou a alternativa A para o modelo de oito colunas."
+      "explanation": "O modelo de oito colunas apresenta esses quatro pares. O de seis colunas traz saldos anteriores, movimentos brutos e saldos finais, sem par próprio para o saldo líquido do movimento. A questão 76 do caderno oficial do Cargo 3 — Agente de Investigação teve alternativa A no gabarito definitivo."
     },
     {
       "id": "u049-p02",
