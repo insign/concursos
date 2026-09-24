@@ -20,6 +20,7 @@
 | Dedução | Necessidade: com as premissas verdadeiras, a conclusão não pode ser falsa. | Busque **contraexemplo**: um cenário possível com todas as premissas verdadeiras e a conclusão falsa. Um só refuta a validade. |
 | Indução | Apoio provável a uma generalização ou previsão, sem garantia. | Examine tamanho, seleção e representatividade da base; compare seu universo e período com o alcance da conclusão. |
 | Analogia | Transferir ao caso alvo uma expectativa apoiada em semelhanças com um caso conhecido. | Confira se as semelhanças afetam o resultado e se alguma diferença relevante rompe a transferência. |
+| Abdução | Hipótese para explicar um fato observado, sem necessidade dedutiva. | Compare explicações alternativas e evite transformar hipótese em certeza. |
 
 **Possível** significa compatível com o que se sabe; **provável** requer apoio relevante; **necessário** não admite falha se as premissas forem verdadeiras. Uma amostra limitada pode apoiar uma previsão cautelosa, mas não “sempre”, “todos” ou “necessariamente”. Numa analogia, uma diferença decisiva pode pesar mais que muitas semelhanças superficiais.
 
@@ -50,4 +51,4 @@ Se a regra fornecida for `A → B` (“se A, então B”), **A basta para B**, m
 2. Veja se a pretensão é necessidade, probabilidade ou transferência por analogia.
 3. Aplique o teste correspondente e pergunte se a razão é **relevante** para a propriedade afirmada e **suficiente** para a extensão e a certeza da conclusão.
 
-Popularidade, sozinha, não demonstra legalidade; duas reclamações não sustentam “todos rejeitam”. **A maioria** de um grupo não garante que um integrante específico tenha a propriedade. A sucessão de fatos também não estabelece, por si, causa e efeito.
+Popularidade ou esforço, sozinhos, não provam uma tese; duas reclamações não sustentam “todos rejeitam”. Nomeie a falácia pelo salto: generalização de base escassa, falsa causa por mera sucessão temporal ou apelo a uma consequência sem evidência pertinente. **A maioria** de um grupo não garante que um integrante específico tenha a propriedade. A sucessão de fatos também não estabelece, por si, causa e efeito.
