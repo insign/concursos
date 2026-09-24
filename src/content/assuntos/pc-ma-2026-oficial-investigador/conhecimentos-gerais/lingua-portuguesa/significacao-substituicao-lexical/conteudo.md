@@ -30,7 +30,7 @@ Duas distinções ajudam:
 - **denotação**: sentido mais diretamente descritivo ou convencional;
 - **conotação**: valores associados, expressivos ou figurados que o contexto acrescenta.
 
-Em prova, essa oposição não autoriza tratar “sentido literal” como sinônimo de “único sentido correto”. Uma palavra pode ter vários usos convencionais e nenhum deles ser figurado.
+Em prova, essa oposição não autoriza tratar “sentido literal” como sinônimo de “único sentido correto”. Uma palavra pode ter vários usos convencionais e nenhum deles ser figurado. Em um exemplo hipotético, *ponte sobre o rio* descreve uma construção; *ponte entre setores* usa a ligação física para representar aproximação. O contexto, e não a palavra isolada, sustenta a leitura figurada.
 
 A <abbr title="existência de sentidos relacionados para uma mesma forma lexical">polissemia</abbr> ocorre quando uma forma lexical desenvolve sentidos relacionados. A <abbr title="coincidência de forma entre palavras de sentidos independentes">homonímia</abbr> descreve formas iguais com sentidos lexicalmente independentes. A fronteira teórica entre os dois fenômenos nem sempre é simples; para resolver uma questão de substituição, o mais importante é identificar **qual leitura o contexto sustenta**.
 
@@ -40,7 +40,7 @@ Já a <abbr title="semelhança formal entre palavras diferentes, com sentidos di
 
 Duas palavras são tratadas como sinônimas quando podem realizar sentidos suficientemente próximos em determinado uso. Isso não significa que sejam intercambiáveis em qualquer frase.
 
-Considere a frase hipotética **A pesquisadora é uma grande referência na área**. Nesse contexto, *grande* pode aproximar-se de *importante*, *renomada* ou *destacada*, conforme a construção. Em **uma sala grande**, porém, *grande* se refere a dimensão física. O substituto adequado em um contexto pode ser inadequado em outro.
+Considere a frase hipotética **A pesquisadora é uma grande referência na área**. Nesse contexto, *grande* pode aproximar-se de *importante*, *renomada* ou *destacada*, conforme a construção. Em **uma sala grande**, porém, *grande* se refere a dimensão física. O substituto adequado em um contexto pode ser inadequado em outro. Até sem trocar a palavra, a posição pode mudar a acepção: *um grande homem* tende a indicar destaque; *um homem grande*, dimensão física.
 
 Por isso, o teste de sinonímia em prova deve ser feito **dentro da frase**:
 
@@ -62,7 +62,7 @@ Exemplo hipotético:
 
 Trocar *automóvel* por *veículo* amplia o conjunto possível: a frase fica menos específica. Trocar *veículo* por *automóvel* restringe o conjunto. Portanto, hiperônimo e hipônimo não são sinônimos perfeitos: podem funcionar como mecanismos de retomada textual, mas a substituição pode alterar a precisão da afirmação.
 
-Termos que pertencem ao mesmo domínio, como *ofício*, *relatório* e *certidão*, podem integrar um mesmo **campo semântico** sem serem equivalentes. Compartilhar tema não basta para autorizar substituição.
+Termos que pertencem ao mesmo domínio, como *ofício*, *relatório* e *certidão*, podem integrar um mesmo **campo semântico** sem serem equivalentes. Compartilhar tema não basta para autorizar substituição. Também não confunda **tipo de** com **parte de**: uma página é parte de um relatório, não um tipo de relatório. Enviar uma página não garante que o relatório inteiro foi enviado.
 
 ## 5. O referente também precisa permanecer estável
 
@@ -135,7 +135,7 @@ Compare:
 - **alguns** documentos foram conferidos;
 - **nenhum** documento foi conferido.
 
-Trocar um quantificador por outro muda a extensão da afirmação. O mesmo ocorre com expressões como *apenas*, *até*, *já*, *ainda* e com a negação.
+Essas palavras indicam quantidades ou abrangência: são **quantificadores**. Trocar um por outro muda a extensão da afirmação. **Nem todos** os documentos foram conferidos significa que ao menos um ficou de fora; **nenhum** significa que zero foram conferidos. Em *até 30*, 30 é um teto inclusivo; *mais de 30* exclui 30. Expressões como *apenas*, *já* e *ainda* e a negação também mudam o que se afirma.
 
 <abbr title="trecho do enunciado sobre o qual uma palavra ou operador exerce efeito">Escopo</abbr> é o domínio sobre o qual um elemento atua. Em estruturas com negação ou restrição, mudar a posição de uma expressão pode mudar seu escopo e, portanto, o sentido.
 
@@ -158,7 +158,7 @@ Verifique pelo menos:
 - referente de pronomes e expressões nominais;
 - combinação lexical natural no contexto.
 
-A última propriedade é chamada de <abbr title="tendência de certas palavras ocorrerem juntas em combinações convencionais">colocação lexical</abbr>: palavras semanticamente próximas nem sempre formam as mesmas combinações usuais.
+A última propriedade é chamada de <abbr title="tendência de certas palavras ocorrerem juntas em combinações convencionais">colocação lexical</abbr>: palavras semanticamente próximas nem sempre formam as mesmas combinações usuais. Também leia expressões inteiras: *levar em conta os riscos* equivale a *considerar os riscos*, mas trocar apenas *levar* por *transportar* destrói essa leitura. Se a troca atingir um conector, palavra que liga trechos, confira a relação: *porque choveu* apresenta causa; *se chover*, condição, sem afirmar que choveu.
 
 Essa checagem é **mínima** nesta unidade. Regência e concordância são aprofundadas nos assuntos próprios. A transformação sistemática de voz, nominalização, ordem de orações e estrutura de períodos pertence a **Reorganização de orações e períodos (U018)**; adequação a gênero e formalidade pertence a **Reescrita por gênero e formalidade (U019)**.
 
@@ -166,7 +166,7 @@ Essa checagem é **mínima** nesta unidade. Regência e concordância são aprof
 
 Em texto técnico, administrativo ou jurídico, dois termos próximos podem nomear conceitos diferentes. A troca estilística, nesse caso, pode produzir erro.
 
-Exemplo delimitado pela Lei nº 9.784/1999, art. 53: a Administração **anula** atos ilegais e pode **revogar** atos por motivo de conveniência ou oportunidade. Nesse contexto jurídico, *anular* e *revogar* não são variantes livres.
+Exemplo restrito ao processo administrativo federal, conforme a Lei nº 9.784/1999, <abbr title="artigo">art.</abbr> 53: a Administração **anula** atos ilegais e pode **revogar** atos por motivo de conveniência ou oportunidade. Nesse contexto jurídico, *anular* e *revogar* não são variantes livres. O exemplo ensina a distinção lexical, sem presumir a aplicação dessa lei federal ao Maranhão.
 
 A lição é geral: antes de trocar um termo técnico, descubra se ele funciona apenas como palavra comum ou como **rótulo de um conceito específico** naquele domínio.
 
