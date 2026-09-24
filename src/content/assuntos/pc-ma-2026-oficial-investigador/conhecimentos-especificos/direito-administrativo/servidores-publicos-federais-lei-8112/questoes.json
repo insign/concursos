@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u100-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u100-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É forma atual de provimento de cargo público prevista no art. 8º",
       "options": [
         {
           "id": "A",
-          "text": "recondução."
+          "text": "ascensão."
         },
         {
           "id": "B",
-          "text": "ascensão."
+          "text": "recondução."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "delegação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Recondução permanece no art. 8º; transferência e ascensão foram revogadas."
     },
     {
       "id": "u100-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A posse em cargo público ocorrerá, como regra, no prazo de",
       "options": [
         {
           "id": "A",
-          "text": "30 dias da publicação do ato de provimento."
+          "text": "5 dias da nomeação."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "5 dias da nomeação."
+          "text": "30 dias da publicação do ato de provimento."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "90 dias da inscrição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 13, §1º, fixa 30 dias."
     },
     {
       "id": "u100-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a posse, o prazo geral para o servidor entrar em exercício é de",
       "options": [
         {
           "id": "A",
-          "text": "15 dias."
+          "text": "60 dias."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "60 dias."
+          "text": "15 dias."
         },
         {
           "id": "E",
           "text": "90 dias."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 15, §1º, estabelece 15 dias."
     },
     {
       "id": "u100-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao estágio probatório federal no corte da campanha, assinale a alternativa correta.",
       "options": [
         {
           "id": "A",
-          "text": "Aplica-se período de 36 meses, embora o art. 20 ainda conserve a expressão histórica de 24 meses no texto compilado."
+          "text": "O estágio probatório só existe para cargo em comissão."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "O estágio probatório só existe para cargo em comissão."
+          "text": "Aplica-se período de 36 meses, embora o art. 20 ainda conserve a expressão histórica de 24 meses no texto compilado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A Constituição e o Decreto 12.374/2025, alterado em 2026, estruturam o estágio em 36 meses; o texto legal conserva remissão histórica."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u100-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A reintegração ocorre quando",
       "options": [
         {
           "id": "A",
-          "text": "é invalidada a demissão do servidor estável, com ressarcimento das vantagens."
+          "text": "o aposentado retorna voluntariamente em qualquer hipótese."
         },
         {
           "id": "B",
-          "text": "o aposentado retorna voluntariamente em qualquer hipótese."
+          "text": "é invalidada a demissão do servidor estável, com ressarcimento das vantagens."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "o servidor é reprovado no primeiro concurso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a definição do art. 28."
     },
     {
       "id": "u100-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A recondução do servidor estável pode decorrer de",
       "options": [
         {
           "id": "A",
-          "text": "inabilitação em estágio probatório de outro cargo ou reintegração do anterior ocupante."
+          "text": "aposentadoria compulsória."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "aposentadoria compulsória."
+          "text": "inabilitação em estágio probatório de outro cargo ou reintegração do anterior ocupante."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "remoção a pedido."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "São as duas hipóteses do art. 29."
     },
     {
       "id": "u100-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação correta sobre remoção e redistribuição é",
       "options": [
         {
           "id": "A",
-          "text": "remoção desloca o servidor; redistribuição desloca o cargo efetivo."
+          "text": "remoção extingue o cargo."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "remoção extingue o cargo."
+          "text": "remoção desloca o servidor; redistribuição desloca o cargo efetivo."
         },
         {
           "id": "E",
           "text": "ambas dependem sempre de pedido do servidor."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "É a distinção dos arts. 36 e 37."
     },
     {
       "id": "u100-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É hipótese de vacância do cargo público",
       "options": [
         {
           "id": "A",
-          "text": "posse em outro cargo inacumulável."
+          "text": "diária."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "diária."
+          "text": "posse em outro cargo inacumulável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 33 inclui posse em outro cargo inacumulável entre as hipóteses de vacância."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u100-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do art. 97, o servidor pode ausentar-se sem prejuízo por",
       "options": [
         {
           "id": "A",
-          "text": "8 dias consecutivos em razão de casamento."
+          "text": "30 dias por casamento."
         },
         {
           "id": "B",
-          "text": "30 dias por casamento."
+          "text": "8 dias consecutivos em razão de casamento."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "15 dias por qualquer falecimento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 97 concede 8 dias consecutivos por casamento; as demais alternativas alteram prazos ou hipóteses."
     },
     {
       "id": "u100-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ação disciplinar prescreve, quanto à penalidade de suspensão, em",
       "options": [
         {
           "id": "A",
-          "text": "2 anos."
+          "text": "5 anos."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "5 anos."
+          "text": "2 anos."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "30 dias."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Art. 142: 2 anos para suspensão."
     },
     {
       "id": "u100-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Configura abandono de cargo",
       "options": [
         {
           "id": "A",
-          "text": "ausência intencional do servidor por mais de 30 dias consecutivos."
+          "text": "gozo de férias."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "gozo de férias."
+          "text": "ausência intencional do servidor por mais de 30 dias consecutivos."
         },
         {
           "id": "E",
           "text": "licença médica regularmente concedida."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Essa é a definição do art. 138; a intencionalidade é elemento expresso."
     },
     {
       "id": "u100-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Inassiduidade habitual corresponde a falta ao serviço sem causa justificada por",
       "options": [
         {
           "id": "A",
-          "text": "60 dias interpolados durante 12 meses."
+          "text": "180 dias interpolados em cinco anos."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "180 dias interpolados em cinco anos."
+          "text": "60 dias interpolados durante 12 meses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "É a definição do art. 139."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u100-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O prazo legal para conclusão do processo administrativo disciplinar é",
       "options": [
         {
           "id": "A",
-          "text": "60 dias, prorrogáveis por igual período quando necessário."
+          "text": "30 dias improrrogáveis."
         },
         {
           "id": "B",
-          "text": "30 dias improrrogáveis."
+          "text": "60 dias, prorrogáveis por igual período quando necessário."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "5 anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 152 fixa 60 dias e admite prorrogação por igual prazo."
     },
     {
       "id": "u100-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na revisão de processo disciplinar",
       "options": [
         {
           "id": "A",
-          "text": "não pode resultar agravamento da penalidade."
+          "text": "só pode ocorrer em até 30 dias."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "só pode ocorrer em até 30 dias."
+          "text": "não pode resultar agravamento da penalidade."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "o ônus da prova é sempre da Administração."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 182 proíbe agravamento; fatos novos/circunstâncias relevantes são necessários e o ônus cabe ao requerente."
     },
     {
       "id": "u100-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 23 do Cespe/Cebraspe TRE/TO 2017, um servidor foi advertido por infração do art. 117 punível com advertência e, três meses depois, praticou nova infração também sujeita originalmente a advertência. A consequência disciplinar compatível com a Lei 8.112 é",
       "options": [
         {
           "id": "A",
-          "text": "suspensão de até 90 dias, em razão da reincidência."
+          "text": "suspensão obrigatória de 180 dias."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "suspensão obrigatória de 180 dias."
+          "text": "suspensão de até 90 dias, em razão da reincidência."
         },
         {
           "id": "E",
           "text": "nenhuma penalidade por haver transcorrido três meses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O gabarito definitivo da questão original foi A. O art. 130 prevê suspensão em caso de reincidência em falta punida com advertência, limitada a 90 dias."
     },
     {
       "id": "u100-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 14 do Cebraspe STM 2025, um servidor, regularmente intimado em PAD, apresentou autodefesa sem advogado constituído. À luz da Súmula Vinculante 5 do STF,",
       "options": [
         {
           "id": "A",
-          "text": "a ausência de defesa técnica por advogado não causa, por si só, nulidade do processo administrativo disciplinar."
+          "text": "a defesa escrita do servidor é proibida."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "a defesa escrita do servidor é proibida."
+          "text": "a ausência de defesa técnica por advogado não causa, por si só, nulidade do processo administrativo disciplinar."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O item original foi julgado Certo no gabarito definitivo. A Súmula Vinculante 5 afasta nulidade automática por falta de defesa técnica, sem eliminar contraditório e ampla defesa."
     }
   ]
