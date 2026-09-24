@@ -1,346 +1,59 @@
-# <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>: fundamentos, direitos e garantias
+# Estatuto da Pessoa com Deficiência: fundamentos, direitos e garantias
 
-## Base
+**Base e recorte:** a Lei nº 13.146/2015 (Lei Brasileira de Inclusão) promove direitos e liberdades em igualdade para inclusão social e cidadania. Tem por base a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, aprovados pelo rito do artigo 5º, § 3º, da Constituição (Decreto Legislativo nº 186/2008) e promulgados pelo Decreto nº 6.949/2009: **equivalência a emenda constitucional**. Para o edital, considerar alterações em vigor até sua publicação em **7/7/2026**; consulta posterior à lei consolidada não muda esse corte.
 
-- Lei nº **13.146/2015**;
-- Convenção + Protocolo Facultativo;
-- Decreto Legislativo nº 186/2008;
-- rito do art. 5º, § 3º, <abbr title="Constituição Federal">CF</abbr>;
-- Decreto nº 6.949/2009;
-- Convenção = equivalente a emenda constitucional.
+## Reconhecer a pessoa e a barreira
 
-Finalidade: assegurar + promover direitos em igualdade → inclusão social + cidadania.
+**Conceito (artigo 2º):** impedimento de **longo prazo**, físico, mental, intelectual ou sensorial **+ interação com uma ou mais barreiras** → *pode obstruir* participação plena e efetiva em igualdade. Longo prazo não exige permanência; diagnóstico isolado não basta; deficiência não gera incapacidade civil automática.
 
-## Conceito
+**Avaliação, quando necessária:** *biopsicossocial*, por equipe **multiprofissional e interdisciplinar** (profissões distintas articuladas). Considera quatro fatores: (1) funções e estruturas do corpo; (2) fatores socioambientais, psicológicos e pessoais; (3) limitação de atividades; (4) restrição de participação. Telemedicina/análise documental, segundo regulamento, alcançam o **exame médico-pericial componente**, não substituem toda a avaliação.
 
-**impedimento de longo prazo** físico/mental/intelectual/sensorial
-
-**+ interação com barreira**
-
-**→ pode obstruir participação plena e efetiva em igualdade**
-
-Diagnóstico ≠ deficiência automática.
-
-Deficiência ≠ incapacidade civil.
-
-## Avaliação
-
-Quando necessária:
-
-- biopsicossocial;
-- equipe multiprofissional **e** interdisciplinar;
-- funções/estruturas do corpo;
-- fatores socioambientais, psicológicos e pessoais;
-- limitação de atividades;
-- restrição de participação.
-
-Telemedicina/análise documental = somente componente médico-pericial, conforme regulamento.
-
-## Definições
-
-| Termo | Chave |
+| Situação | Instrumento que responde |
 |---|---|
-| acessibilidade | alcance/uso + segurança + autonomia |
-| desenho universal | uso por todos sem adaptação/projeto específico |
-| tecnologia assistiva | funcionalidade + atividade + participação + autonomia |
-| comunicação | <abbr title="Língua Brasileira de Sinais">Libras</abbr>/Braille/tátil/ampliada/simples/auditiva/digital/aumentativa |
-| adaptação razoável | necessária/adequada + caso concreto + sem ônus desproporcional |
-| barreira | entrave/obstáculo/atitude/comportamento |
-| elemento de urbanização | componente da obra urbana |
-| mobiliário urbano | objeto em via/espaço cuja modificação/traslado não altera substancialmente urbanização/edificação |
-| mobilidade reduzida | permanente ou temporária; inclui idoso, gestante, lactante, colo, obeso |
-| atendente pessoal | familiar ou não; pago ou não; cuidados básicos; sem técnica regulamentada |
-| apoio escolar | alimentação/higiene/locomoção/atividade necessária; todos os níveis e redes |
-| acompanhante | pode ou não ser atendente |
-| residência inclusiva | jovem/adulto com deficiência dependente, sem autossustentação e vínculos frágeis/rompidos |
+| Uso autônomo e seguro de espaços, transportes, informação e serviços, urbanos ou rurais | **Acessibilidade:** condição de alcance e uso. |
+| Planejamento para todas as pessoas desde o projeto | **Desenho universal:** dispensa adaptação/projeto específico. |
+| Necessidade individual não atendida pela solução geral | **Adaptação razoável:** ajuste necessário e adequado, sem ônus desproporcional e indevido. |
+| Suporte à funcionalidade, atividade e participação | **Tecnologia assistiva:** produto, método ou serviço que amplia autonomia e inclusão. |
 
-Barreiras: urbanística + arquitetônica + transporte + comunicação/informação + atitudinal + tecnológica.
+**Barreiras** podem ser urbanísticas (vias/espaços), arquitetônicas (edifícios), de transporte, de comunicação/informação, **atitudinais** (comportamento que prejudica participação) ou tecnológicas. **Mobilidade reduzida** pode ser temporária e inclui, entre outras pessoas, idosa, gestante, lactante, com criança de colo e obesa; não equivale necessariamente a deficiência. **Atendente pessoal** auxilia cuidados básicos, mesmo familiar ou não remunerado; **profissional de apoio escolar** atua em alimentação, higiene, locomoção e atividades escolares necessárias; nenhum dos dois executa técnica própria de profissão regulamentada. **Acompanhante** pode ou não ser atendente. **Residência inclusiva** acolhe jovem/adulto com deficiência dependente e vínculos familiares fragilizados ou rompidos; difere da moradia com apoio para vida independente.
 
-Necessidades complexas de comunicação = dificuldade significativa + estratégia alternativa/aumentativa; não é nova deficiência autônoma.
+**Discriminação (artigo 4º):** distinção/restrição/exclusão **por ação ou omissão**, com **propósito ou efeito** de prejudicar, impedir ou anular direitos; inclui recusa de adaptação razoável ou tecnologia assistiva. A pessoa não é obrigada a usufruir benefício de ação afirmativa. **Comunicação** abrange língua de sinais, Braille, formatos táteis/ampliados, linguagem simples e modos aumentativos/alternativos. Necessidades complexas de comunicação são dificuldade significativa de compreender ou expressar mensagens convencionais, com necessidade de estratégias alternativas ou aumentativas; não criam categoria autônoma de deficiência.
 
-## Discriminação
+## Autonomia, proteção e prioridade
 
-- ação **ou omissão**;
-- propósito **ou efeito**;
-- prejudicar/impedir/anular direito;
-- inclui recusa de adaptação razoável ou tecnologia assistiva.
+**Capacidade plena (artigo 6º):** deficiência não impede casamento/união estável, sexualidade/reprodução, decisão sobre filhos, conservação da fertilidade (**esterilização compulsória vedada**), família, guarda, tutela, curatela ou adoção em igualdade. A incapacidade absoluta do Código Civil restringe-se a menores de 16 anos; a relativa pode decorrer de impossibilidade transitória ou permanente de *exprimir vontade*, sem presumir essa impossibilidade pela deficiência.
 
-Ação afirmativa: beneficiário não é obrigado a usufruir.
-
-## Proteção
-
-Protege contra negligência, discriminação, exploração, violência, tortura, crueldade, opressão e tratamento desumano/degradante.
-
-Especialmente vulneráveis: criança + adolescente + mulher + idoso com deficiência.
-
-Todos devem comunicar ameaça/violação.
-
-Violência em serviço de saúde:
-
-- suspeita **ou** confirmação;
-- serviço público **ou** privado;
-- polícia + <abbr title="Ministério Público">MP</abbr> + Conselho de Direitos;
-- vítima adulta também é protegida.
-
-Art. 8º: Estado + sociedade + família asseguram **com prioridade** vida, saúde, família, educação, trabalho, previdência, reabilitação, transporte, acessibilidade, cultura, informação, dignidade, liberdade e demais direitos.
-
-## Capacidade
-
-A deficiência não afeta plena capacidade para:
-
-- casamento/união estável;
-- direitos sexuais/reprodutivos;
-- número de filhos;
-- fertilidade;
-- família/convivência;
-- guarda/tutela/curatela/adoção como adotante ou adotando.
-
-Esterilização compulsória = vedada.
-
-## Prioridade
-
-Inclui socorro, atendimento público, recursos, pontos/estações/terminais acessíveis + segurança no embarque/desembarque, comunicação, restituição de <abbr title="Imposto de Renda">IR</abbr> e tramitação.
-
-Extensão ao acompanhante/atendente, exceto:
-
-1. restituição de IR;
-2. tramitação processual.
-
-Emergência: prioridade segue protocolo médico.
-
-## Vida e consentimento
-
-- dignidade por toda a vida;
-- proteção em risco/emergência/calamidade;
-- sem intervenção, tratamento ou institucionalização forçados;
-- consentimento prévio, livre e esclarecido;
-- sob curatela: participação no maior grau possível;
-- pesquisa com tutelado/curatelado = excepcional;
-- sem consentimento: risco de morte ou emergência + superior interesse + salvaguardas.
-
-## Habilitação e reabilitação
-
-Objetivo: potencialidades/talentos/aptidões → autonomia + participação.
-
-- avaliação multidisciplinar de necessidades, habilidades e potencialidades;
-- diagnóstico/intervenção precoces;
-- medidas compensatórias;
-- atuação permanente/intersetorial;
-- rede articulada, acessível e em diferentes complexidades;
-- próximo ao domicílio, inclusive rural;
-- recursos individualizados;
-- capacitação profissional.
-
-## Saúde
-
-- <abbr title="Sistema Único de Saúde">SUS</abbr> integral, universal e igualitário;
-- participação nas políticas;
-- dignidade e autonomia;
-- diagnóstico e intervenção precoces;
-- atendimento domiciliar/ambulatorial/hospitalar;
-- vacinação e atendimento psicológico;
-- especificidade + identidade de gênero + orientação sexual;
-- saúde sexual/reprodutiva + fertilização assistida;
-- informação adequada;
-- capacitação permanente das equipes SUS + orientação a atendentes;
-- órteses/próteses/medicamentos/insumos conforme normas.
-
-Prevenção: gravidez/parto/puerpério + práticas alimentares saudáveis/vigilância/cuidado nutricional + imunização/triagem neonatal + alto risco + aprimoramento neonatal para prevenir dano cerebral/sequela, inclusive telessaúde.
-
-Fora do domicílio: esgotamento local → diagnóstico/tratamento + transporte/acomodação da pessoa e acompanhante.
-
-Serviços e informações públicos/privados: tecnologia assistiva + formas acessíveis de comunicação.
-
-Planos: mesmos produtos/serviços; sem preço diferente por deficiência.
-
-Internação/observação:
-
-- acompanhante ou atendente em tempo integral;
-- impossibilidade: justificativa escrita + providência substitutiva.
-
-Lei nº 15.280/2025: atendimento psicológico para a pessoa, familiares e atendentes, especialmente após crime contra dignidade sexual.
-
-## Educação
-
-- sistema inclusivo em todos os níveis/modalidades;
-- aprendizagem por toda a vida;
-- acesso + permanência + participação + aprendizagem;
-- educação de qualidade + proteção contra violência/negligência/discriminação;
-- <abbr title="atendimento educacional especializado">AEE</abbr> e projeto pedagógico inclusivo;
-- estudo de caso + plano AEE + organização/usabilidade de recursos;
-- oferta bilíngue: Libras como primeira língua e português escrito como segunda;
-- medidas individuais/coletivas;
-- família e estudante participam;
-- apoio ao desenvolvimento linguístico/cultural/vocacional/profissional conforme talentos/interesses;
-- pesquisa de métodos/materiais/tecnologias;
-- práticas pedagógicas inclusivas na formação docente + formação continuada para AEE;
-- ensino de Libras/Braille/tecnologia assistiva;
-- professores + intérpretes + guias-intérpretes + apoio escolar;
-- acessibilidade em edificações, ambientes e atividades de todas as etapas/níveis;
-- ensino superior/profissional e currículo inclusivo;
-- jogos/esporte/lazer em igualdade;
-- articulação intersetorial;
-- <abbr title="comunicação aumentativa e alternativa">CAA</abbr> de baixa tecnologia para estudante com necessidade complexa.
-
-Intérprete: educação básica → ensino médio + proficiência; graduação/pós → nível superior, prioritariamente habilitação em Tradução/Interpretação de Libras.
-
-Art. 29: **VETADO**.
-
-Escola privada: deve incluir e não pode cobrar adicional.
-
-**Literalidade pós-Lei nº 15.249/2025:** art. 28, XIX = CAA de baixa tecnologia; o § 1º não inclui o inciso XIX no rol expresso aplicado às instituições privadas.
-
-Seleção:
-
-- recursos indicados no formulário;
-- provas acessíveis;
-- tecnologia solicitada/escolhida;
-- tempo adicional comprovadamente necessário;
-- singularidade linguística;
-- edital e retificações em Libras.
-
-## Moradia
-
-Com família/cônjuge/companheiro, desacompanhada, vida independente ou residência inclusiva.
-
-Programa público/subsidiado:
-
-- prioridade;
-- mínimo **3%**;
-- prioridade uma só vez;
-- sem interessado: unidade vai às demais pessoas.
-
-## Trabalho
-
-- livre escolha e aceitação;
-- ambiente inclusivo;
-- igualdade de oportunidades;
-- remuneração igual por trabalho de igual valor;
-- sem discriminação em todas as fases;
-- proibida exigência de aptidão plena;
-- treinamento/carreira/promoção em igualdade;
-- habilitação respeita escolha + vocação + interesse.
-
-## Assistência e previdência
-
-Assistência: renda + acolhida + autonomia + convivência + acesso a direitos.
-
-<abbr title="Benefício de Prestação Continuada">BPC</abbr>:
-
-- 1 salário mínimo;
-- sem meios próprios nem familiares de subsistência;
-- requisitos da <abbr title="Lei Orgânica da Assistência Social">LOAS</abbr>;
-- não é automático.
-
-Aposentadoria da pessoa com deficiência segurada do <abbr title="Regime Geral de Previdência Social">RGPS</abbr>: <abbr title="Lei Complementar">LC</abbr> nº 142/2013.
-
-## Cultura e mobilidade
-
-Cultura/esporte/turismo/lazer em igualdade.
-
-Obra em formato acessível não pode ser recusada nem por propriedade intelectual.
-
-Transporte/mobilidade: identificar + eliminar obstáculos/barreiras.
-
-Detalhes técnicos → Assunto 099.
-
-## Política
-
-- votar e ser votado;
-- sem seção eleitoral exclusiva;
-- instalações/materiais acessíveis;
-- candidatura/função pública;
-- propaganda/debate acessível;
-- auxílio no voto: necessário + a pedido + pessoa escolhida;
-- participação em organizações.
-
-## Justiça
-
-Acesso igual + adaptações + tecnologia assistiva.
-
-Papéis protegidos: parte, testemunha, partícipe, advogado, defensor, magistrado e MP.
-
-Capacitação: Judiciário + MP + Defensoria + segurança pública + sistema penitenciário.
-
-Defensoria e MP: medidas necessárias para garantir os direitos.
-
-Restrição de liberdade: mesmos direitos/garantias dos demais apenados + acessibilidade.
-
-Sanção penal: direitos da pessoa preservados.
-
-Art. 82 = **VETADO**.
-
-Notário/registro:
-
-- não nega;
-- não cria obstáculo;
-- não impõe condição diferenciada;
-- reconhece capacidade plena.
-
-## Curatela
-
-**extraordinária + proporcional + menor tempo possível**
-
-- sentença individualizada;
-- contas anuais;
-- somente patrimônio e negócio;
-- não alcança corpo, sexualidade, casamento, privacidade, educação, saúde, trabalho e voto;
-- não pode ser exigida para documento oficial;
-- urgência/relevância: curador provisório, ouvido MP.
-
-Código Civil:
-
-- absoluto = somente menor de 16;
-- deficiência não gera incapacidade automática;
-- relativo: quem não exprime vontade por causa transitória/permanente;
-- vontade/preferências devem ser consideradas;
-- curatela pode ser compartilhada.
-
-Outras alterações civis:
-
-- testemunho em igualdade + todos os recursos assistivos;
-- casamento não é invalidado pela deficiência;
-- pessoa com deficiência mental/intelectual em idade núbil expressa vontade diretamente ou por responsável/curador.
-
-## Tomada de decisão apoiada
-
-- pedido da própria pessoa;
-- pelo menos **2 apoiadores idôneos** escolhidos;
-- termo: limites + compromisso + prazo + vontade/interesses;
-- juiz + equipe multidisciplinar + MP + oitiva pessoal;
-- decisão nos limites = válida contra terceiros sem restrição;
-- terceiro pode pedir contra-assinatura;
-- risco/prejuízo + divergência → juiz, ouvido MP;
-- pessoa encerra a qualquer tempo;
-- apoiador só sai com manifestação judicial;
-- negligência/pressão → denúncia e possível destituição.
-
-<abbr title="tomada de decisão apoiada">TDA</abbr> ≠ curatela e não pode ser imposta de ofício.
-
-## Atualizações no recorte
-
-| Lei | Chave |
+| Gatilho | Regra e limite |
 |---|---|
-| 14.510/2022 | prevenir dano cerebral/sequela neurológica neonatal, inclusive telessaúde |
-| 14.724/2023 | componente médico-pericial remoto/documental |
-| 15.249/2025 | necessidades complexas de comunicação |
-| 15.280/2025 | apoio psicológico após vitimização sexual |
+| Ameaça ou violação de direitos | Todos devem comunicar à autoridade competente; juízes/tribunais remetem peças ao Ministério Público. Criança, adolescente, mulher e pessoa idosa com deficiência recebem atenção à especial vulnerabilidade. |
+| Suspeita **ou** confirmação de violência no serviço de saúde, público **ou** privado (artigo 26) | Notificação compulsória à autoridade policial, ao Ministério Público **e** aos Conselhos dos Direitos da Pessoa com Deficiência, inclusive quando a vítima é adulta; violência inclui ação/omissão causadora de dano ou sofrimento físico/psicológico. |
+| Prioridade da pessoa com deficiência (artigo 9º) | Socorro, atendimento ao público, recursos e informação acessíveis, pontos/terminais e embarque seguros, restituição de imposto de renda e tramitação processual/administrativa. Estende-se a acompanhante/atendente **exceto** restituição e tramitação. Em emergência, vale o protocolo médico. |
+| Tratamento, procedimento, internação e pesquisa | Exigem consentimento prévio, livre e esclarecido; sob curatela, participação no maior grau possível. Sem consentimento prévio, só risco de morte ou emergência em saúde, respeitados superior interesse e salvaguardas. Pesquisa com tutelado/curatelado é excepcional: indícios de benefício direto à própria saúde ou à de outras pessoas com deficiência **e** inexistência de alternativa comparável com participantes sem tutela/curatela. |
 
-**Art. 121:** direitos/prazos/obrigações da LBI não excluem outras normas protetivas; em conflito → prevalece a **norma mais benéfica** à pessoa com deficiência.
+Estado, sociedade e família asseguram **com prioridade** o rol aberto de direitos do artigo 8º (vida, saúde, família, educação, trabalho, acessibilidade, cultura, participação e outros). A pessoa não pode ser submetida à força a intervenção, tratamento ou institucionalização. O artigo 121 preserva outras proteções legais e internacionais aplicáveis: **prevalece a norma mais benéfica**.
 
-## Fórmulas de prova
+## Direitos por situação
 
-**conceito:** longo prazo + barreira + participação
+| Área | Recuperação decisiva |
+|---|---|
+| **Habilitação/reabilitação** | Desenvolver potencialidades para autonomia/participação, com avaliação **multidisciplinar de necessidades** (distinta da avaliação biopsicossocial do conceito), intervenção precoce, rede intersetorial, recursos individualizados e atendimento próximo ao domicílio inclusive rural. |
+| **Saúde** | Atenção integral, universal e igualitária pelo sistema público de saúde; participação da pessoa na política, prevenção, diagnóstico/intervenção precoces, atendimento domiciliar e hospitalar, vacinação, órteses/próteses/insumos segundo normas. Lei nº 14.510/2022 inclui prevenção neonatal de dano cerebral/sequelas, inclusive telessaúde; Lei nº 15.280/2025 destaca apoio psicológico à pessoa, familiares e atendentes após crime contra a dignidade sexual. Lei nº 15.249/2025 inclui sistemas de comunicação aumentativa e alternativa de **baixa tecnologia** nos serviços públicos de saúde para necessidades complexas, com formação permanente das equipes. |
+| **Saúde privada e fora do domicílio** | Planos oferecem ao menos os produtos/serviços dos demais, sem preço diferenciado por deficiência; serviços públicos e privados removem barreiras. Esgotados meios locais, atendimento com transporte/acomodação da pessoa e acompanhante. Internação/observação: acompanhante/atendente em tempo integral; impossibilidade exige **justificativa escrita** e medida substitutiva da instituição. |
+| **Educação** | Inclusiva em todos os níveis/modalidades e ao longo da vida: acesso, permanência, participação, aprendizagem, adaptações, atendimento educacional especializado, projeto pedagógico e apoio escolar. Ensino bilíngue: Língua Brasileira de Sinais primeira língua, português escrito segunda. Lei nº 15.249/2025 inclui comunicação aumentativa e alternativa **de baixa tecnologia** para estudante com necessidade complexa (artigo 28, XIX); esse inciso **não** consta do rol expresso do § 1º aplicável à escola privada. Os deveres inclusivos privados nele previstos **não admitem cobrança adicional**. Intérprete de língua de sinais: na educação básica, ao menos ensino médio e proficiência; em graduação/pós-graduação, nível superior, prioritariamente com habilitação em tradução/interpretação. |
+| **Seleção educacional** | Formulário de recursos; provas e editais acessíveis; tecnologia previamente solicitada/escolhida; tempo extra conforme demanda prévia **e necessidade comprovada**, além de respeito à singularidade linguística. |
+| **Moradia** | Escolha entre família, companhia, moradia independente ou residência inclusiva. Programa público/subsidiado: prioridade **uma vez** e reserva **mínima de 3%** das unidades; sem interessados, unidades vão a outras pessoas. |
+| **Trabalho** | Livre escolha/aceitação, ambiente acessível público **e privado**, igualdade de oportunidades e de remuneração por trabalho de igual valor; vedadas discriminação em todas as fases e exigência de “aptidão plena”. Formação e progressão em igualdade. |
+| **Assistência/previdência** | Benefício assistencial de um salário mínimo exige ausência de meios próprios/familiares e requisitos da Lei Orgânica da Assistência Social; não é aposentadoria automática. Segurado do regime geral pode aposentar-se segundo a Lei Complementar nº 142/2013. |
+| **Cultura, transporte, política e justiça** | Acesso igual a cultura/esporte/lazer; obra acessível não pode ser recusada por propriedade intelectual; mobilidade pela remoção de barreiras. Votar/ser votado sem seção exclusiva; auxílio no voto, se necessário, **a pedido** e por pessoa escolhida. Justiça com adaptações e tecnologia para parte, testemunha, advogado e demais participantes; cartórios reconhecem capacidade plena sem negar ou diferenciar serviço. |
 
-**avaliação:** bio + psico + social / multiprofissional + interdisciplinar / 4 fatores
+**Fronteira:** percentuais de estacionamento, táxis, hotéis e crimes específicos estão no assunto 099; fila geral, sinalização e infraestrutura das Leis nº 10.048/2000 e nº 10.098/2000, no 100.
 
-**prioridade:** acompanhante, menos IR + processo
+## Decidir com suporte: curatela × apoio
 
-**curatela:** E-P-M-P
+| | Curatela (artigos 84–85) | Tomada de decisão apoiada (Código Civil, artigo 1.783-A) |
+|---|---|---|
+| Natureza | Protetiva **extraordinária**, proporcional, pelo **menor tempo**; razões e limites individualizados na sentença, contas anuais. | **Facultativa**, requerida pela **própria pessoa**; ela escolhe **pelo menos dois** apoiadores idôneos e de confiança. |
+| Alcance | **Só** direitos patrimoniais e negociais. Não alcança corpo, sexualidade, casamento, privacidade, educação, saúde, trabalho ou voto; não se exige para documento oficial. Curador provisório em urgência/relevância: juiz, ouvido Ministério Público. | Termo fixa limites, compromissos, prazo e respeito à vontade/interesses; juiz ouve requerente e apoiadores, assistido por equipe multidisciplinar e após ouvir Ministério Público. Decisão dentro dos limites vale perante terceiros sem restrição. |
+| Controles | Respeitar potencialidades, vontades e preferências da pessoa; pode ser compartilhada. | Terceiro pode pedir contra-assinatura. Risco/prejuízo relevante com divergência: juiz decide, ouvido Ministério Público. **Qualquer pessoa** pode denunciar negligência/pressão de apoiador ao Ministério Público ou juiz; a pessoa apoiada pode encerrar o acordo a qualquer momento, mas saída do apoiador depende de manifestação judicial. |
 
-- extraordinária;
-- proporcional;
-- menor tempo;
-- patrimonial/negocial.
-
-**TDA:** pedido próprio + 2 apoiadores + termo + juiz/equipe/MP.
+**Artigos 29 e 82 vetados.** Direitos e deveres de origem posterior ao corte legislativo não são projetados neste recorte.
