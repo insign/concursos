@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u097-a01",
@@ -64,7 +64,7 @@
     },
     {
       "id": "u097-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do art. 283, §1º, as cautelares do Título IX",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "não se aplicam à infração à qual não seja cominada, isolada, cumulativa ou alternativamente, pena privativa de liberdade."
+          "text": "só se aplicam a crimes hediondos."
         },
         {
           "id": "C",
-          "text": "só se aplicam a crimes hediondos."
+          "text": "não se aplicam à infração à qual não seja cominada, isolada, cumulativa ou alternativamente, pena privativa de liberdade."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "exigem pena máxima superior a quatro anos em todos os casos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Essa é a barreira objetiva prevista no art. 283, §1º."
     },
     {
       "id": "u097-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A decretação inicial de medida cautelar no regime do art. 282, §2º,",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "depende de requerimento das partes ou, na investigação, de representação policial ou requerimento do Ministério Público."
+          "text": "só pode ocorrer depois da sentença."
         },
         {
           "id": "C",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "só pode ocorrer depois da sentença."
+          "text": "depende de requerimento das partes ou, na investigação, de representação policial ou requerimento do Ministério Público."
         },
         {
           "id": "E",
           "text": "é competência exclusiva da autoridade policial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Lei 13.964/2019 retirou a decretação inicial de ofício do §2º."
     },
     {
       "id": "u097-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Recebido pedido de medida cautelar, a regra do art. 282, §3º, é",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "intimação da parte contrária para manifestação em cinco dias, salvo urgência ou perigo de ineficácia fundamentados."
+          "text": "prisão preventiva automática durante o prazo de manifestação."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "prisão preventiva automática durante o prazo de manifestação."
+          "text": "intimação da parte contrária para manifestação em cinco dias, salvo urgência ou perigo de ineficácia fundamentados."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O contraditório prévio é a regra; urgência ou perigo de ineficácia permitem exceção, que deve ser concretamente fundamentada."
     },
     {
       "id": "u097-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Diante do descumprimento de uma cautelar imposta, o CPP prevê",
       "options": [
         {
           "id": "A",
-          "text": "prisão preventiva automática."
+          "text": "substituição, cumulação e, em último caso, preventiva, observados os requisitos legais."
         },
         {
           "id": "B",
-          "text": "substituição, cumulação e, em último caso, preventiva, observados os requisitos legais."
+          "text": "prisão preventiva automática."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "condenação por desobediência em qualquer hipótese."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 282, §4º, organiza resposta graduada; a preventiva é a última medida e depende de seus próprios requisitos."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u097-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prisão preventiva, em relação às cautelares do art. 319,",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "é subsidiária e exige fundamentação individualizada da insuficiência das medidas menos gravosas."
+          "text": "é equivalente ao comparecimento periódico."
         },
         {
           "id": "C",
-          "text": "é equivalente ao comparecimento periódico."
+          "text": "é subsidiária e exige fundamentação individualizada da insuficiência das medidas menos gravosas."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "é obrigatória quando houver denúncia."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O art. 282, §6º, exige justificar por que as medidas alternativas não são suficientes."
     },
     {
       "id": "u097-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual alternativa contém apenas medidas expressamente previstas no art. 319?",
       "options": [
         {
           "id": "A",
-          "text": "Comparecimento periódico, proibição de contato e monitoração eletrônica."
+          "text": "Apreensão de bens, prisão civil e monitoração eletrônica."
         },
         {
           "id": "B",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "Apreensão de bens, prisão civil e monitoração eletrônica."
+          "text": "Comparecimento periódico, proibição de contato e monitoração eletrônica."
         },
         {
           "id": "E",
           "text": "Condenação, fiança e prisão temporária."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Os três institutos da alternativa A constam do rol do art. 319; prisão temporária e preventiva têm regimes próprios."
     },
     {
       "id": "u097-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A proibição de acesso ou frequência a determinados lugares é adequada quando",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "circunstâncias relacionadas ao fato recomendarem o afastamento para evitar risco de novas infrações."
+          "text": "a defesa concordar, independentemente de necessidade."
         },
         {
           "id": "C",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "a defesa concordar, independentemente de necessidade."
+          "text": "circunstâncias relacionadas ao fato recomendarem o afastamento para evitar risco de novas infrações."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "É a finalidade específica do art. 319, II."
     },
     {
@@ -364,13 +364,13 @@
     },
     {
       "id": "u097-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A suspensão do exercício de função pública ou atividade econômica/financeira pode ser aplicada quando",
       "options": [
         {
           "id": "A",
-          "text": "houver justo receio de que a função ou atividade seja utilizada para a prática de infrações penais."
+          "text": "a administração pública já tiver aplicado sanção disciplinar definitiva."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "a administração pública já tiver aplicado sanção disciplinar definitiva."
+          "text": "houver justo receio de que a função ou atividade seja utilizada para a prática de infrações penais."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "a imprensa pedir afastamento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 319, VI, liga a suspensão ao risco concreto de instrumentalização da função ou atividade para novas infrações."
     },
     {
       "id": "u097-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A internação provisória do art. 319, VII, exige",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "crime com violência ou grave ameaça, conclusão pericial de inimputabilidade ou semi-imputabilidade e risco de reiteração."
+          "text": "prisão em flagrante anterior."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "prisão em flagrante anterior."
+          "text": "crime com violência ou grave ameaça, conclusão pericial de inimputabilidade ou semi-imputabilidade e risco de reiteração."
         },
         {
           "id": "E",
           "text": "condenação definitiva."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Os três elementos são exigidos pelo texto do inciso VII."
     },
     {
       "id": "u097-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A fiança prevista no art. 319, VIII, pode servir para",
       "options": [
         {
           "id": "A",
-          "text": "assegurar comparecimento, evitar obstrução do processo ou responder a resistência injustificada a ordem judicial."
+          "text": "dispensar toda obrigação processual."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "dispensar toda obrigação processual."
+          "text": "assegurar comparecimento, evitar obstrução do processo ou responder a resistência injustificada a ordem judicial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Essas são as finalidades cautelares indicadas no inciso VIII."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u097-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ausentes requisitos para prisão preventiva, o art. 321 determina que o juiz",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "conceda liberdade provisória, podendo impor cautelares do art. 319 conforme os critérios do art. 282."
+          "text": "aplique obrigatoriamente monitoração eletrônica."
         },
         {
           "id": "C",
-          "text": "aplique obrigatoriamente monitoração eletrônica."
+          "text": "conceda liberdade provisória, podendo impor cautelares do art. 319 conforme os critérios do art. 282."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "arquive o processo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Liberdade provisória pode existir com ou sem cautelares, conforme necessidade e adequação."
     },
     {
       "id": "u097-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No corte jurisprudencial usado nesta unidade, sobre o juiz decretar preventiva quando o Ministério Público pediu apenas cautelares diversas,",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "Quinta e Sexta Turmas do STJ adotaram posições diferentes em julgados publicados em maio de 2026."
+          "text": "ambas as Turmas proibiram cautelares diversas."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "ambas as Turmas proibiram cautelares diversas."
+          "text": "Quinta e Sexta Turmas do STJ adotaram posições diferentes em julgados publicados em maio de 2026."
         },
         {
           "id": "E",
           "text": "ambas as Turmas consideraram preventiva obrigatória."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Quinta Turma considerou ilegal a medida mais grave sem pedido específico; a Sexta Turma admitiu a preventiva diante de provocação ministerial e fundamentação. A divergência deve ser preservada."
     },
     {
       "id": "u097-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 32 da prova Cebraspe para Delegado da Polícia Civil do Espírito Santo, aplicação de 11/9/2022, assinale a providência correta quando a autoridade policial concede fiança, mas o depósito imediato não pode ser realizado.",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "O valor pode ser entregue ao escrivão ou pessoa designada, com registro, para posterior destino legal dentro do prazo previsto no CPP."
+          "text": "A autoridade policial deve converter a fiança em prisão preventiva."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "A autoridade policial deve converter a fiança em prisão preventiva."
+          "text": "O valor pode ser entregue ao escrivão ou pessoa designada, com registro, para posterior destino legal dentro do prazo previsto no CPP."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A questão original teve alternativa D como gabarito definitivo e cobrou a disciplina do depósito da fiança na delegacia. A formulação foi adaptada sem reprodução literal."
     }
   ]
