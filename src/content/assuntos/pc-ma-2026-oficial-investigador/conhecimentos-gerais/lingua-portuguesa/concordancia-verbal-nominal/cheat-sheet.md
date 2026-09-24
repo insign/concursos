@@ -40,7 +40,11 @@ Sujeito composto posposto pode admitir plural ou atração pelo núcleo mais pr�
 
 `quem`:
 
-> Fui eu **quem revisou**.
+> Fui eu **quem revisou/revisei**.
+
+Com antecedente pessoal expresso, 3ª pessoa do singular ou concordância com o antecedente; sem antecedente, **quem revisou?** fica no singular.
+
+`um dos que` → plural preferencial: *uma das servidoras que participaram*.
 
 Oração inteira como sujeito:
 
@@ -60,6 +64,7 @@ Padrões seguros:
 
 - `1% da amostra foi`;
 - `30% dos laudos foram`;
+- percentual + especificador pode admitir variação; se vier determinado (`esses 30%`), o número controla;
 - `um terço foi`;
 - `dois terços foram`;
 - `mais de um candidato faltou`.
