@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u131-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u131-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 12.683/2012, pode figurar como antecedente da lavagem",
       "options": [
         {
           "id": "A",
-          "text": "qualquer infração penal, inclusive contravenção."
+          "text": "somente tráfico de drogas."
         },
         {
           "id": "B",
-          "text": "somente tráfico de drogas."
+          "text": "qualquer infração penal, inclusive contravenção."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "apenas delito com pena de reclusão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A reforma eliminou o antigo rol taxativo e passou a utilizar a expressão ampla 'infração penal'."
     },
     {
       "id": "u131-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para processar o crime de lavagem, é necessário",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "indícios suficientes da existência da infração penal antecedente, sem necessidade de condenação prévia."
+          "text": "identificação obrigatória do autor do antecedente."
         },
         {
           "id": "C",
-          "text": "identificação obrigatória do autor do antecedente."
+          "text": "indícios suficientes da existência da infração penal antecedente, sem necessidade de condenação prévia."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "que o antecedente seja federal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 2º, §1º, exige indícios suficientes e admite lavagem mesmo com autor antecedente desconhecido, isento de pena ou com punibilidade extinta."
     },
     {
       "id": "u131-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se o fato apontado como antecedente é juridicamente atípico e inexiste outra infração penal de origem,",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "falta pressuposto para a lavagem, pois o patrimônio deve provir de infração penal."
+          "text": "aplica-se apenas multa administrativa."
         },
         {
           "id": "C",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "aplica-se apenas multa administrativa."
+          "text": "falta pressuposto para a lavagem, pois o patrimônio deve provir de infração penal."
         },
         {
           "id": "E",
           "text": "a competência passa automaticamente à Justiça Federal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A autonomia da lavagem não elimina a necessidade lógica e legal de existir uma infração penal antecedente."
     },
     {
       "id": "u131-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A mudança posterior da capitulação jurídica do crime antecedente",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "não elimina por si só a lavagem se continua existindo infração penal antecedente capaz de gerar o produto ilícito."
+          "text": "só é relevante se o antecedente for tráfico."
         },
         {
           "id": "C",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "só é relevante se o antecedente for tráfico."
+          "text": "não elimina por si só a lavagem se continua existindo infração penal antecedente capaz de gerar o produto ilícito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O STJ reafirmou em 2026 a autonomia da lavagem diante de alteração superveniente da capitulação do antecedente."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u131-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 1º, §1º, também alcança",
       "options": [
         {
           "id": "A",
-          "text": "importação ou exportação de bens com valores não correspondentes aos verdadeiros."
+          "text": "somente transferência bancária internacional acima de limite regulamentar."
         },
         {
           "id": "B",
-          "text": "somente transferência bancária internacional acima de limite regulamentar."
+          "text": "importação ou exportação de bens com valores não correspondentes aos verdadeiros."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "qualquer compra de imóvel com recursos lícitos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O inciso III do §1º trata de importação ou exportação com valores falsos."
     },
     {
       "id": "u131-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao artigo 1º, §2º, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "a utilização de bens ilícitos em atividade econômica ou financeira pode integrar a lavagem, sem criação de responsabilidade penal objetiva."
+          "text": "somente bancos podem ser autores."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "somente bancos podem ser autores."
+          "text": "a utilização de bens ilícitos em atividade econômica ou financeira pode integrar a lavagem, sem criação de responsabilidade penal objetiva."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "a origem ilícita é irrelevante."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O tipo continua doloso; a lei não permite responsabilização objetiva pelo simples contato com patrimônio ilícito."
     },
     {
       "id": "u131-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A participação em grupo, associação ou escritório é punida pelo artigo 1º, §2º, II, quando o agente",
       "options": [
         {
           "id": "A",
-          "text": "sabe que a atividade principal ou secundária da estrutura é dirigida à prática de lavagem."
+          "text": "participa de grupo lícito sem qualquer relação com lavagem."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "participa de grupo lícito sem qualquer relação com lavagem."
+          "text": "sabe que a atividade principal ou secundária da estrutura é dirigida à prática de lavagem."
         },
         {
           "id": "E",
           "text": "somente recebe salário."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A própria redação exige conhecimento da finalidade de lavagem da estrutura."
     },
     {
       "id": "u131-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A tentativa de lavagem de dinheiro",
       "options": [
         {
           "id": "A",
-          "text": "é punível nos termos do Código Penal."
+          "text": "foi revogada em 2012."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "foi revogada em 2012."
+          "text": "é punível nos termos do Código Penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 1º, §3º, remete expressamente à disciplina da tentativa do Código Penal."
     },
     {
@@ -364,13 +364,13 @@
     },
     {
       "id": "u131-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A pena da lavagem aumenta de um terço a dois terços quando",
       "options": [
         {
           "id": "A",
-          "text": "o crime é cometido de forma reiterada, por organização criminosa ou com uso de ativo virtual."
+          "text": "há apenas uma operação bancária lícita."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "há apenas uma operação bancária lícita."
+          "text": "o crime é cometido de forma reiterada, por organização criminosa ou com uso de ativo virtual."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "a quantia é inferior a salário mínimo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "São as hipóteses atuais do artigo 1º, §4º."
     },
     {
       "id": "u131-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A colaboração espontânea pode resultar em",
       "options": [
         {
           "id": "A",
-          "text": "redução de um terço a dois terços, regime aberto ou semiaberto e, conforme o caso, não aplicação ou substituição da pena."
+          "text": "somente redução de multa."
         },
         {
           "id": "B",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "somente redução de multa."
+          "text": "redução de um terço a dois terços, regime aberto ou semiaberto e, conforme o caso, não aplicação ou substituição da pena."
         },
         {
           "id": "E",
           "text": "benefício apenas antes da denúncia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 1º, §5º, prevê essas consequências se a colaboração produzir algum dos resultados legais."
     },
     {
       "id": "u131-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para o benefício do artigo 1º, §5º, a lei",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "admite benefícios quando a colaboração conduz a um ou mais resultados previstos, sem exigir todos cumulativamente."
+          "text": "exclui partícipes."
         },
         {
           "id": "C",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "exclui partícipes."
+          "text": "admite benefícios quando a colaboração conduz a um ou mais resultados previstos, sem exigir todos cumulativamente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O texto usa resultados alternativos ligados à apuração, identificação de envolvidos ou localização do patrimônio."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u131-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O processo por lavagem",
       "options": [
         {
           "id": "A",
-          "text": "independe do processo e julgamento da infração penal antecedente."
+          "text": "só pode começar depois da condenação antecedente."
         },
         {
           "id": "B",
-          "text": "só pode começar depois da condenação antecedente."
+          "text": "independe do processo e julgamento da infração penal antecedente."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "depende de autorização do Coaf."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 2º, II, afirma a independência processual e deixa ao juiz decidir sobre unidade de processo e julgamento."
     },
     {
       "id": "u131-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Justiça Federal é competente para lavagem, entre outras hipóteses, quando",
       "options": [
         {
           "id": "A",
-          "text": "a infração penal antecedente for de competência federal."
+          "text": "a quantia ultrapassar R$ 20 milhões."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "a quantia ultrapassar R$ 20 milhões."
+          "text": "a infração penal antecedente for de competência federal."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "existir apenas comunicação do Coaf."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 2º, III, b, prevê competência federal quando o antecedente também é federal."
     },
     {
       "id": "u131-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No processo por lavagem, o acusado citado por edital que não comparece nem constitui advogado",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "é processado até julgamento, com nomeação de defensor dativo, pois a lei afasta o artigo 366."
+          "text": "tem a punibilidade extinta."
         },
         {
           "id": "C",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "tem a punibilidade extinta."
+          "text": "é processado até julgamento, com nomeação de defensor dativo, pois a lei afasta o artigo 366."
         },
         {
           "id": "E",
           "text": "só pode ser processado após localização pessoal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 2º, §2º, contém regra especial que afasta o artigo 366 do Código de Processo Penal."
     },
     {
       "id": "u131-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As medidas assecuratórias do artigo 4º podem alcançar",
       "options": [
         {
           "id": "A",
-          "text": "bens do investigado, acusado ou interpostas pessoas que sejam instrumento, produto ou proveito da lavagem ou do antecedente."
+          "text": "qualquer bem lícito sem relação com as finalidades legais."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "qualquer bem lícito sem relação com as finalidades legais."
+          "text": "bens do investigado, acusado ou interpostas pessoas que sejam instrumento, produto ou proveito da lavagem ou do antecedente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 4º permite constrição patrimonial ampla, mas vinculada ao ilícito e às finalidades previstas."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u131-a22",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os recursos contra decisões no procedimento de alienação antecipada",
       "options": [
         {
           "id": "A",
-          "text": "têm apenas efeito devolutivo."
+          "text": "sempre suspendem a alienação."
         },
         {
           "id": "B",
-          "text": "sempre suspendem a alienação."
+          "text": "têm apenas efeito devolutivo."
         },
         {
           "id": "C",
@@ -659,18 +659,18 @@
           "text": "dependem de autorização do Coaf."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 4º-A, §9º, prevê efeito apenas devolutivo."
     },
     {
       "id": "u131-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.358/2026 alterou a Lei nº 9.613/1998 para",
       "options": [
         {
           "id": "A",
-          "text": "diferenciar incorporação e destinação patrimonial conforme a competência federal, estadual ou distrital."
+          "text": "reduzir a pena do artigo 1º."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "reduzir a pena do artigo 1º."
+          "text": "diferenciar incorporação e destinação patrimonial conforme a competência federal, estadual ou distrital."
         },
         {
           "id": "D",
@@ -689,12 +689,12 @@
           "text": "abolir medidas assecuratórias."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A reforma atingiu os artigos 4º-A e 7º, ajustando contas, incorporação e perda aos entes competentes."
     },
     {
       "id": "u131-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após trânsito em julgado de condenação, a lei prevê perda de certos bens não reclamados no prazo de",
       "options": [
@@ -708,23 +708,23 @@
         },
         {
           "id": "C",
-          "text": "90 dias."
+          "text": "180 dias."
         },
         {
           "id": "D",
-          "text": "180 dias."
+          "text": "90 dias."
         },
         {
           "id": "E",
           "text": "1 ano."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O artigo 4º-A, §10, III, usa prazo de 90 dias, resguardados lesado e terceiro de boa-fé."
     },
     {
       "id": "u131-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre os efeitos da condenação está a interdição de cargo ou função pública e de certas funções de administração por",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "dobro do tempo da pena privativa aplicada."
+          "text": "metade da pena."
         },
         {
           "id": "C",
@@ -746,10 +746,10 @@
         },
         {
           "id": "E",
-          "text": "metade da pena."
+          "text": "dobro do tempo da pena privativa aplicada."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 7º, II, prevê interdição pelo dobro do tempo da pena privativa de liberdade aplicada."
     },
     {
@@ -814,13 +814,13 @@
     },
     {
       "id": "u131-a28",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre os deveres do artigo 10 está",
       "options": [
         {
           "id": "A",
-          "text": "identificar clientes e manter cadastro atualizado."
+          "text": "destruir registros após um ano."
         },
         {
           "id": "B",
@@ -828,7 +828,7 @@
         },
         {
           "id": "C",
-          "text": "destruir registros após um ano."
+          "text": "identificar clientes e manter cadastro atualizado."
         },
         {
           "id": "D",
@@ -839,12 +839,12 @@
           "text": "recusar toda operação em espécie."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A identificação de clientes é dever central do sistema preventivo."
     },
     {
       "id": "u131-a29",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os cadastros e registros previstos no artigo 10 devem ser conservados, em regra, por no mínimo",
       "options": [
@@ -858,29 +858,29 @@
         },
         {
           "id": "C",
-          "text": "5 anos."
+          "text": "10 anos obrigatoriamente em todos os casos."
         },
         {
           "id": "D",
-          "text": "10 anos obrigatoriamente em todos os casos."
+          "text": "5 anos."
         },
         {
           "id": "E",
           "text": "20 anos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O §2º fixa mínimo de cinco anos, que pode ser ampliado pela autoridade competente."
     },
     {
       "id": "u131-a30",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A pessoa obrigada deve comunicar ao Coaf as propostas ou operações previstas na lei no prazo de",
       "options": [
         {
           "id": "A",
-          "text": "24 horas."
+          "text": "30 dias."
         },
         {
           "id": "B",
@@ -896,25 +896,25 @@
         },
         {
           "id": "E",
-          "text": "30 dias."
+          "text": "24 horas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 11, II, estabelece prazo de vinte e quatro horas."
     },
     {
       "id": "u131-a31",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ao comunicar operação ao Coaf, a pessoa obrigada",
       "options": [
         {
           "id": "A",
-          "text": "deve informar imediatamente o cliente."
+          "text": "deve abster-se de dar ciência do ato a qualquer pessoa, inclusive àquela a que a informação se refere."
         },
         {
           "id": "B",
-          "text": "deve abster-se de dar ciência do ato a qualquer pessoa, inclusive àquela a que a informação se refere."
+          "text": "deve informar imediatamente o cliente."
         },
         {
           "id": "C",
@@ -929,22 +929,22 @@
           "text": "deve pedir autorização ao cliente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A lei proíbe o chamado aviso ao cliente sobre a comunicação."
     },
     {
       "id": "u131-a32",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 14.478/2022,",
       "options": [
         {
           "id": "A",
-          "text": "prestadores de serviços de ativos virtuais passaram a integrar o artigo 9º e ativos virtuais aparecem nos deveres de registro."
+          "text": "ativos virtuais foram excluídos da lei."
         },
         {
           "id": "B",
-          "text": "ativos virtuais foram excluídos da lei."
+          "text": "prestadores de serviços de ativos virtuais passaram a integrar o artigo 9º e ativos virtuais aparecem nos deveres de registro."
         },
         {
           "id": "C",
@@ -959,7 +959,7 @@
           "text": "o artigo 12-A foi revogado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A reforma inseriu ativos virtuais em múltiplos pontos do regime preventivo."
     },
     {
@@ -994,7 +994,7 @@
     },
     {
       "id": "u131-a34",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A inabilitação administrativa prevista no artigo 12 pode durar até",
       "options": [
@@ -1008,29 +1008,29 @@
         },
         {
           "id": "C",
-          "text": "10 anos."
+          "text": "20 anos."
         },
         {
           "id": "D",
-          "text": "20 anos."
+          "text": "10 anos."
         },
         {
           "id": "E",
           "text": "prazo indeterminado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A lei fixa até dez anos para exercício de cargo de administrador das pessoas jurídicas sujeitas ao mecanismo de controle."
     },
     {
       "id": "u131-a35",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Coaf, após a Lei nº 13.974/2020,",
       "options": [
         {
           "id": "A",
-          "text": "possui autonomia técnica e operacional e vincula-se administrativamente ao Banco Central do Brasil."
+          "text": "não atua como unidade de inteligência financeira."
         },
         {
           "id": "B",
@@ -1046,10 +1046,10 @@
         },
         {
           "id": "E",
-          "text": "não atua como unidade de inteligência financeira."
+          "text": "possui autonomia técnica e operacional e vincula-se administrativamente ao Banco Central do Brasil."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A Lei nº 13.974/2020 reestruturou o Coaf nesses termos."
     },
     {
@@ -1084,17 +1084,17 @@
     },
     {
       "id": "u131-a37",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 17-B permite à autoridade policial e ao Ministério Público, sem autorização judicial, acesso a",
       "options": [
         {
           "id": "A",
-          "text": "qualificação pessoal, filiação e endereço do investigado mantidos pelas entidades indicadas."
+          "text": "extratos bancários completos."
         },
         {
           "id": "B",
-          "text": "extratos bancários completos."
+          "text": "qualificação pessoal, filiação e endereço do investigado mantidos pelas entidades indicadas."
         },
         {
           "id": "C",
@@ -1109,12 +1109,12 @@
           "text": "declarações fiscais integrais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O dispositivo trata de dados cadastrais básicos, não de conteúdo protegido por regimes mais intensos de sigilo."
     },
     {
       "id": "u131-a38",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 17-D, que prevê afastamento automático de servidor público indiciado por lavagem,",
       "options": [
@@ -1124,11 +1124,11 @@
         },
         {
           "id": "B",
-          "text": "foi declarado inconstitucional pelo STF na ADI 4.911."
+          "text": "foi transformado em contravenção."
         },
         {
           "id": "C",
-          "text": "foi transformado em contravenção."
+          "text": "foi declarado inconstitucional pelo STF na ADI 4.911."
         },
         {
           "id": "D",
@@ -1139,12 +1139,12 @@
           "text": "depende apenas de ato policial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O STF declarou o dispositivo inconstitucional por violação, entre outros fundamentos, à presunção de inocência e à igualdade."
     },
     {
       "id": "u131-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 38 da prova objetiva Cebraspe da Procuradoria-Geral do Estado do Ceará, concurso 2021, é correto afirmar que a colaboração espontânea na Lei nº 9.613/1998",
       "options": [
@@ -1158,18 +1158,18 @@
         },
         {
           "id": "C",
-          "text": "pode reduzir a pena de um a dois terços, permitir regime aberto ou semiaberto e, nas condições legais, não aplicação ou substituição por restritiva de direitos."
+          "text": "exige sempre identificação de todos os autores e localização integral de todos os bens cumulativamente."
         },
         {
           "id": "D",
-          "text": "exige sempre identificação de todos os autores e localização integral de todos os bens cumulativamente."
+          "text": "pode reduzir a pena de um a dois terços, permitir regime aberto ou semiaberto e, nas condições legais, não aplicação ou substituição por restritiva de direitos."
         },
         {
           "id": "E",
           "text": "só é possível antes do início da investigação."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O gabarito oficial definitivo da questão original foi C. A adaptação preserva o núcleo atual do artigo 1º, §5º, sem reproduzir literalmente a prova."
     }
   ]
