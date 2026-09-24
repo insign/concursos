@@ -1,297 +1,70 @@
-# Cheat sheet — Sustentabilidade pública
+# Sustentabilidade pública
 
-## 1. Regra-mãe
+## Primeiro, decida o que deve durar
 
-Sustentabilidade pública = valor público duradouro com integração de:
+Sustentabilidade pública preserva valor público para presentes e futuras gerações. Pergunte **qual necessidade atende, quem recebe o benefício, quem paga e o que fica para depois**: ambiente, custo no tempo, direitos/equidade e capacidade institucional. Os artigos 170, VI, e 225 da Constituição protegem o ambiente; legalidade, impessoalidade e eficiência continuam a reger a decisão (artigo 37).
 
-- ambiente;
-- economia;
-- sociedade;
-- governança;
-- legalidade;
-- evidência;
-- equidade;
-- capacidade institucional.
-
-**Não é:** campanha isolada, preço mínimo automático, produto “verde” por rótulo, compensação sem redução ou publicidade sem prova.
-
-## 2. Quatro dimensões
-
-| Dimensão | Pergunta |
+| Sinal no enunciado | Teste que evita a conclusão apressada |
 | --- | --- |
-| ambiental | recursos, emissões, resíduos, biodiversidade e clima |
-| econômica | custo, vida útil, manutenção, produtividade e continuidade |
-| social | direitos, inclusão, trabalho, saúde e distribuição dos efeitos |
-| institucional | estratégia, dados, riscos, integridade, capacidade e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
+| Bem novo “verde” | Inventarie os bens úteis; compare manter, reparar e substituir, inclusive produção, uso e descarte. |
+| Menor gasto hoje | Verifique vida útil, operação, manutenção, continuidade, dano e distribuição dos custos. |
+| Serviço digital ou terceirizado | Inclua energia, equipamentos, fornecedores e acesso do público; deslocar impacto não é eliminá-lo. |
+| Indicador por unidade melhora | Compare o **total** e o volume da atividade; ganho unitário pode ser anulado por mais uso (**efeito rebote**). |
+| Meta ou selo divulgado | Exija linha de base, método, fronteira (operações e período incluídos), verificação e resultados, também os desfavoráveis. |
 
-## 3. Pensamento sistêmico
+**Ciclo de gestão:** diagnosticar necessidade e *materialidade* (impactos relevantes à missão) → comparar alternativas/riscos → atribuir recursos e responsáveis → definir linha de base e meta com prazo → executar → monitorar → avaliar efeitos → prestar contas e corrigir. Indicador absoluto mede total; indicador de intensidade mede total por unidade (área ou atendimento). Redução percentual = (base − atual) ÷ base × 100, para base positiva e mesma fronteira. Medir capacitações é execução, não prova de redução de emissões. Registre fórmula, fonte, período, exclusões e mudanças de método.
 
-Sempre compare:
+## Qual instrumento se aplica ao órgão?
 
-1. impacto direto e indireto;
-2. valor absoluto e intensidade;
-3. sede e cadeia de fornecedores;
-4. presente e ciclo de vida;
-5. ganho médio e distribuição por grupos;
-6. redução real e simples transferência.
+| Referência | Natureza e destinatário | Ponto de prova |
+| --- | --- | --- |
+| Agenda 2030: 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr>, 169 metas | Referencial internacional, sem substituir lei nacional | Meta 12.7 trata de compras públicas sustentáveis; alinhamento simbólico não comprova resultado. |
+| <abbr title="Agenda Ambiental na Administração Pública">A3P</abbr> | Programa do Ministério do Meio Ambiente e Mudança do Clima, adesão **voluntária** por instituições dos três Poderes e esferas | Seis eixos: uso racional de recursos/bens; resíduos; qualidade de vida; sensibilização/capacitação; compras; construções sustentáveis. Adesão ou não adesão não afasta obrigações legais. |
+| <abbr title="Plano de Logística Sustentável">PLS</abbr> | Plano com diagnóstico, ações, responsabilidades, indicadores, metas e avaliação; conteúdo e nome variam por ato | Decreto nº 7.746/2012: Plano de **Gestão** para federais indicados, inclusive estatais dependentes. |
+| Portaria <abbr title="Secretaria de Gestão e Inovação">SEGES</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.376/2023 | Modelo do Plano **Diretor** para administração federal direta, autárquica e fundacional | Aprovação competente e publicação em até **15 dias** após elaboração/revisão; relatório de resultados anual. |
+| Resolução <abbr title="Conselho Nacional de Justiça">CNJ</abbr> nº 400/2021 | Política e plano do **Poder Judiciário**; plano instituído por ato do presidente do órgão, com planos de ações | Texto compilado inclui descarbonização; tribunal de contas não integra esse Poder. |
+| Política de sustentabilidade do <abbr title="Tribunal de Contas da União">TCU</abbr> | Referência institucional do tribunal federal | Não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Verifique ato próprio, competência, destinatário e vigência. |
 
-**Efeito rebote:** eficiência por unidade melhora, mas o uso cresce e reduz ou elimina o ganho total.
+<abbr title="Agenda Ambiental na Administração Pública">A3P</abbr> é programa; <abbr title="Plano de Logística Sustentável">PLS</abbr> é plano. O tribunal de contas atua na **gestão interna, governança e controle externo**; referência técnica não cria obrigação.
 
-## 4. Agenda 2030
+## Contrate pela necessidade e pelo ciclo de vida
 
-- 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e 169 metas;
-- ODS 12.7: compras públicas sustentáveis;
-- alinhamento a ODS ≠ resultado comprovado;
-- Agenda 2030 ≠ lei que substitui normas nacionais.
+A Lei nº 14.133/2021 inclui desenvolvimento nacional sustentável como **princípio** e **objetivo** da licitação. A proposta apta a gerar o resultado mais vantajoso considera todo o ciclo de vida do objeto; o estudo técnico preliminar descreve possíveis impactos ambientais e medidas para reduzi-los, inclusive baixo consumo de energia/recursos e logística reversa, **quando aplicável**.
 
-## 5. Governança e ciclo
+1. Compare necessidade, manutenção, reparo, uso compartilhado e substituição. **Preço** é desembolso inicial; **custo total de propriedade** agrega aquisição, operação, manutenção, falhas e descarte na fronteira definida; **custeio do ciclo de vida** calcula fluxos monetários no período; **avaliação ambiental do ciclo de vida** examina entradas, saídas e impactos ambientais. Custo ≠ impacto.
+2. Especifique requisito ligado ao objeto, fundamentado, proporcional, objetivo, competitivo e verificável. Certificação pode provar atributo pertinente, sem exigir selo exclusivo quando couber prova equivalente. Compras compartilhadas podem dar escala; o planejamento deve preservar as necessidades de cada participante.
+3. Leve a obrigação ao contrato e fiscalize entrega, uso, retorno/destinação e evidência. Selo, promessa de compensação ou cláusula genérica não provam vantajosidade.
 
-`diagnóstico → materialidade → prioridade → plano → linha de base → meta → execução → indicador → avaliação → transparência → revisão`
+A <abbr title="Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável">ENCP</abbr> (Decreto nº 12.771/2025, publicado em 8/12/2025) organiza os eixos **econômico, social, ambiental e de gestão**. Adequação de planos e execução federal dirigem-se à administração federal direta, autárquica e fundacional; estados, municípios, Distrito Federal e estatais **podem aderir** conforme ato ministerial. A Taxonomia Sustentável Brasileira (Decreto nº 12.705/2025) **classifica** atividades, ativos e projetos por contribuição substancial, ausência de dano relevante aos demais objetivos e salvaguardas mínimas. Não é selo nem requisito automático de licitação.
 
-Plano sem responsável, prazo, orçamento e monitoramento = risco de formalismo.
+## Evite resíduo antes de discutir destino
 
-## 6. Indicadores
+Na Lei nº 12.305/2010, Política Nacional de Resíduos Sólidos (<abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>), a prioridade é **não geração → redução → reutilização → reciclagem → tratamento → disposição final ambientalmente adequada dos rejeitos**. A circularidade (desenhar, compartilhar, manter, reparar, reutilizar, remanufaturar e reciclar para preservar valor) é mais ampla que reciclar.
 
-| Tipo | Exemplo |
+| Distinção | Regra decisiva |
 | --- | --- |
-| absoluto | kWh total |
-| intensidade | kWh/m² ou por atendimento |
-| processo | contratos fiscalizados |
-| resultado | redução efetiva |
-| impacto | mudança ambiental ou social atribuível |
-| qualitativo | maturidade fundamentada |
+| Resíduo × rejeito | Rejeito só resta após esgotar tratamento/recuperação tecnológica e economicamente viáveis. |
+| Destinação × disposição | Destinação abrange reúso, reciclagem, recuperação e outras soluções admitidas; disposição ordena **rejeitos** em aterro. |
+| Reutilização × reciclagem | Reutilizar aproveita sem transformação física, química ou biológica; reciclar transforma. |
+| Coleta seletiva × logística reversa | A primeira separa e coleta por composição; a segunda devolve resíduos ao **setor empresarial** para reaproveitar ou destinar. |
+| Responsabilidade compartilhada | Fabricantes, importadores, distribuidores, comerciantes, consumidores e titulares do serviço de limpeza têm atribuições **individualizadas e encadeadas**, não idênticas. |
 
-**Cuidado:** intensidade melhor pode coexistir com total maior.
+Pelo Decreto nº 10.936/2022, o **Programa Coleta Seletiva Cidadã** exige da administração federal direta e indireta separar reutilizáveis/recicláveis e destiná-los prioritariamente a associações/cooperativas habilitadas, após seleção e termo de compromisso. Não confunda esse arranjo com retorno empresarial da logística reversa nem estenda o programa federal automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Massa, recibos e destinatário demonstram destino; lixeiras, só meios.
 
-## 7. <abbr title="Agenda Ambiental na Administração Pública">A3P</abbr>
+## Clima e dimensão social: procure transferência de risco
 
-- programa do <abbr title="Ministério do Meio Ambiente e Mudança do Clima">MMA</abbr>;
-- adesão voluntária;
-- três Poderes e três esferas;
-- seis eixos:
-  1. recursos naturais e bens públicos;
-  2. resíduos;
-  3. qualidade de vida;
-  4. sensibilização e capacitação;
-  5. compras sustentáveis;
-  6. construções sustentáveis.
-
-A3P ≠ PLS. Voluntariedade da A3P ≠ voluntariedade das leis.
-
-## 8. <abbr title="Plano de Logística Sustentável">PLS</abbr> e âmbitos
-
-| Referência | Âmbito principal |
+| Pergunta | Mecanismo |
 | --- | --- |
-| Decreto nº 7.746/2012 | sujeitos federais indicados no ato |
-| Portaria <abbr title="Secretaria de Gestão e Inovação">SEGES</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.376/2023 | Administração federal direta, autárquica e fundacional |
-| Resolução <abbr title="Conselho Nacional de Justiça">CNJ</abbr> nº 400/2021 | Poder Judiciário |
-| política/programa do <abbr title="Tribunal de Contas da União">TCU</abbr> | Tribunal de Contas da União |
-| ato próprio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> | âmbito definido pela norma estadual/institucional |
+| Como agir sobre a causa? | **Mitigação** evita ou reduz emissões; inventário delimita organização, período, fontes diretas, energia adquirida, cadeia relevante, fatores de emissão e incertezas. Terceirização pode apenas deslocar emissões. |
+| Como lidar com os efeitos? | **Adaptação** reduz exposição/vulnerabilidade: perigo climático → pessoas/ativos expostos → suscetibilidade ao dano → resposta → risco residual (o que resta). **Resiliência** é manter ou recuperar funções. |
+| Quem é afetado? | **Transição justa** considera trabalho, território, grupos vulneráveis e acesso. Ganho ambiental com perda de canal acessível pode ampliar exclusão. |
 
-**Pergunta de prova:** quem é o destinatário jurídico?
+Para emissões, medir → prevenir/reduzir → substituir fontes → tratar residual com integridade. Compensação não substitui redução. Neutralidade exige fronteira, inventário e prova. A Resolução do <abbr title="Conselho Nacional de Justiça">CNJ</abbr> sobre Justiça Carbono Zero tem destinatário próprio; não transfira a meta de 2030 a todo órgão.
 
-## 9. Tribunal de Contas
+## Controle: o que sustenta a alegação?
 
-Três planos:
+*Greenwashing* é alegar benefício sustentável maior que a evidência demonstra. Sinais: “verde” sem definição, meta sem base, atividade vendida como impacto, seleção de dados favoráveis, compensação sem prova ou mudança metodológica escondida. Publique método, resultados negativos, limites e correções.
 
-- gestão interna sustentável;
-- governança institucional;
-- controle externo de políticas, contratos, metas e alegações.
+Em auditoria: **critério** (norma/contrato/meta) → **condição** (fato comprovado) → **causa** (por que divergiu) → **efeito** (consequência/risco) → **evidência** (dados e documentos suficientes e apropriados). A recomendação enfrenta a causa, proporcional ao risco, com respeito à competência do gestor.
 
-Referência técnica não é vinculação automática.
-
-## 10. Contratação sustentável
-
-Critério deve ser:
-
-- ligado ao objeto;
-- tecnicamente fundamentado;
-- proporcional;
-- objetivo;
-- verificável;
-- competitivo;
-- fiscalizável;
-- associado a consequência contratual.
-
-Selo específico sem equivalência e sem justificativa = risco de restrição indevida.
-
-## 11. Ciclo de vida
-
-| Conceito | Foco |
-| --- | --- |
-| preço | desembolso inicial |
-| custo total de propriedade | aquisição + uso + manutenção + indisponibilidade + descarte |
-| custeio do ciclo de vida | fluxos monetários no período |
-| avaliação do ciclo de vida | inventário e impactos ambientais |
-| impacto social | trabalho, direitos e efeitos distributivos |
-| vantajosidade | resultado global juridicamente motivado |
-
-Menor custo ≠ menor impacto. Menor impacto ≠ contratação automaticamente vantajosa.
-
-## 12. <abbr title="Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável">ENCP</abbr>
-
-Quatro eixos:
-
-- econômico;
-- social;
-- ambiental;
-- gestão.
-
-“Nacional” ≠ aplicação obrigatória idêntica a todos os entes.
-
-## 13. Taxonomia Sustentável Brasileira
-
-É sistema de classificação de atividades, ativos e projetos.
-
-Não é:
-
-- selo de fornecedor;
-- certificação universal;
-- autorização automática para restringir competição;
-- substituição da Lei nº 14.133/2021;
-- requisito obrigatório em toda compra.
-
-## 14. Consumo e patrimônio
-
-Prioridade prática:
-
-`evitar demanda → usar melhor → manter → reparar → compartilhar → reutilizar → substituir com estudo → destinar`
-
-Digitalização, teletrabalho e terceirização também possuem impactos indiretos.
-
-## 15. <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>
-
-Ordem:
-
-`não geração → redução → reutilização → reciclagem → tratamento → disposição de rejeitos`
-
-| Distinção | Regra |
-| --- | --- |
-| resíduo × rejeito | rejeito não tem recuperação viável |
-| destinação × disposição | disposição é para rejeito |
-| reutilização × reciclagem | reciclagem transforma |
-| coleta seletiva × logística reversa | reversa devolve ao setor empresarial |
-| responsabilidade compartilhada | atribuições individualizadas e encadeadas |
-
-## 16. Coleta Seletiva Cidadã
-
-No âmbito federal:
-
-- separação de recicláveis;
-- seleção de associação/cooperativa habilitada;
-- destinação prioritária;
-- termo de compromisso;
-- rastreabilidade e comprovação.
-
-Lixeira colorida ≠ resultado comprovado.
-
-## 17. Economia circular
-
-Mais ampla que reciclagem:
-
-`desenho → compartilhamento → manutenção → reparo → reúso → remanufatura → reciclagem`
-
-Circularidade não elimina segurança, qualidade, custo ou rastreabilidade.
-
-## 18. Clima
-
-| Conceito | Sentido |
-| --- | --- |
-| mitigação | reduzir emissões |
-| adaptação | reduzir exposição ou vulnerabilidade |
-| resiliência | manter/recuperar funções |
-| inventário | quantificar por fronteira e método |
-| compensação | tratar emissão residual com integridade |
-
-Sequência prudente: `medir → prevenir → reduzir → substituir → tratar residual`.
-
-## 19. Inventário de emissões
-
-Definir:
-
-- limite organizacional;
-- limite operacional;
-- período;
-- emissões diretas;
-- energia adquirida;
-- cadeia de valor relevante;
-- fatores de emissão;
-- incerteza;
-- dupla contagem.
-
-Terceirizar emissão ≠ eliminá-la.
-
-## 20. Adaptação climática
-
-`perigo → exposição → vulnerabilidade → risco → resposta → risco residual`
-
-Adaptar = integrar clima a ativos, pessoas, continuidade, orçamento e planejamento.
-
-## 21. Transição justa
-
-Pergunte:
-
-- quem ganha?
-- quem paga?
-- quem perde trabalho ou acesso?
-- quais grupos enfrentam barreiras?
-- há alternativa, capacitação e mitigação?
-
-Equidade ≠ tratamento idêntico.
-
-## 22. Greenwashing
-
-Sinais:
-
-- termo vago;
-- meta sem linha de base;
-- ação pequena apresentada como impacto;
-- indicador de atividade chamado de resultado;
-- selo sem verificação;
-- compensação sem redução;
-- metodologia alterada sem explicação;
-- omissão de resultados negativos.
-
-## 23. Auditoria
-
-Achado:
-
-`critério → condição → causa → efeito → evidência`
-
-Recomendação deve atacar a causa e ser proporcional ao risco.
-
-## 24. Pegadinhas
-
-| Afirmação | Julgamento |
-| --- | --- |
-| sustentabilidade = apenas ambiente | errado |
-| economia imediata = sustentabilidade econômica | errado |
-| preço mais baixo = vantajosidade | errado |
-| ODS = prova de resultado | errado |
-| A3P = obrigatória | errado |
-| A3P = PLS | errado |
-| CNJ vincula todo tribunal | errado |
-| programa do TCU vincula TCE/MA | errado |
-| <abbr title="Taxonomia Sustentável Brasileira">TSB</abbr> = selo | errado |
-| custo e impacto do ciclo de vida = sinônimos | errado |
-| coleta seletiva = logística reversa | errado |
-| reciclagem vem antes da redução | errado |
-| terceirização elimina impacto | errado |
-| compensação substitui redução | errado |
-| intensidade menor prova redução total | errado |
-| segurança e acessibilidade integram sustentabilidade | certo |
-| resultado negativo deve ser ocultado | errado |
-| alegação pública pode ser greenwashing | certo |
-
-## 25. Roteiro de prova
-
-1. identifique a norma e seu destinatário;
-2. defina necessidade e impacto material;
-3. compare alternativas e ciclo de vida;
-4. verifique linha de base, indicador e meta;
-5. examine equidade e riscos;
-6. confira evidência e fiscalização;
-7. diferencie atividade, resultado e impacto;
-8. procure transferência de impacto;
-9. teste greenwashing;
-10. conclua com motivação e proporcionalidade.
+**Gatilho final:** identifique destinatário da norma; compare alternativas no ciclo de vida; separe atividade de resultado, absoluto de intensidade, custo de impacto e redução de transferência; exija evidência de execução e de efeito.
