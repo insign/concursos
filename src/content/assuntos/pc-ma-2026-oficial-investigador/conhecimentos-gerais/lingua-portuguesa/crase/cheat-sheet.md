@@ -42,6 +42,7 @@
 - **àquele** = preposição **a** + início de *aquele*.
 - norma **a que** me referi.
 - norma **à qual** me referi.
+- **A qual unidade?**: *qual* interrogativo; preposição **a**, sem artigo → sem crase.
 - pessoa **a quem** entreguei.
 - autora **a cujo texto** aludi.
 - situação semelhante **à que** ocorreu = **àquela que**.
@@ -66,6 +67,7 @@
 - terminou **há duas horas** = passado.
 - começará daqui **a duas horas** = intervalo futuro.
 - começará **às duas horas** = horário.
+- **a uma hora qualquer** = artigo indefinido; não é hora marcada.
 - **das 8 às 10** / **de 8 a 10**.
 - desde/após/para **as 8**; entre **as 8 e as 10**.
 
