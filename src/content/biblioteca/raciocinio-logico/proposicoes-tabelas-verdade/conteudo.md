@@ -199,8 +199,8 @@ Em p → q, se p basta para garantir q, então:
 
 Compare duas frases:
 
-- “Rui será nomeado **se** for aprovado.” A aprovação basta para a nomeação: a → n.
-- “Rui será nomeado **somente se** for aprovado.” A aprovação é exigida para a nomeação: n → a.
+- Em uma regra hipotética, “o sinal acende **se** o botão é pressionado.” Pressionar o botão basta para acender o sinal: b → s.
+- Na mesma regra, “o sinal acende **somente se** o botão é pressionado.” Pressionar o botão é necessário para o sinal acender: s → b.
 
 A palavra **se** apresenta a condição suficiente. A expressão **somente se** apresenta a condição necessária — o lado para o qual a seta aponta.
 
