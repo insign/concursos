@@ -271,7 +271,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H133 | `gestao-fiscalizacao-in-5-2017` | `gestao-fiscalizacao-in5` | L | [`2bb6cef`](https://github.com/insign/concursos/commit/2bb6cef7267a0ee54503eb6c0a1ba306f1d7e562) |
 | H134 | `medicao-pagamento-obrigacoes-equilibrio` | `medicao-pagamento-equilibrio-in5` | L | [`7500b59`](https://github.com/insign/concursos/commit/7500b59ec533e54b5b01e9ff9f71ace505e74956) |
 | H135 | `encerramento-regras-operacionais-in-5-2017` | `encerramento-regras-finais-in5` | L | [`9db0b8e`](https://github.com/insign/concursos/commit/9db0b8e9ebe1083bcbab6babd9463e2acc6aa4a8) |
-| H136 | `gestao-aplicada-execucao-contratual` | `gestao-aplicada-execucao` | V | — |
+| H136 | `gestao-aplicada-execucao-contratual` | `gestao-aplicada-execucao` | V | [`b27311f`](https://github.com/insign/concursos/commit/b27311fa89c5c319332b74e01cae386b8290d9ce) |
 | H137 | `irregularidades-penalidades-sancoes` | `irregularidades-sancoes` | V | — |
 
 ### M11 — Governo Eletrônico, Transparência e Controle Social
@@ -301,6 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H136: q52213602–03 (IPAAM) têm gabarito definitivo oficial, mas o texto da prova indicado no banco não foi validado em caderno oficial; q52213604 (CRM-DF) tem gabarito definitivo, mas o caderno oficial não abriu. Confirmar origem textual antes de reutilizar como contraprova.
 - H134: q52213404 (SEFA/PR, Analista Fazendário, questão 11) teve prova oficial conferida, mas o gabarito definitivo do cargo/caderno exato ainda não foi localizado; confirmar antes de usar como contraprova.
 - H131: os itens anteriores q52213102–03 apontam para matriz oficial da PGDF, mas texto/gabarito dos itens não foram extraídos de modo independente na consulta; confirmar antes de reutilizá-los como contraprova. A regra material foi conferida na IN nº 5/2017.
 - H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida na aula; caderno e gabarito definitivo não foram conferidos nesta revisão. Reavaliar pertinência e origem em escopo próprio, sem usá-la como contraprova do regime geral.
