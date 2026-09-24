@@ -1,4 +1,4 @@
-> As datas de consulta posteriores ao edital servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
+> As datas de consulta posteriores ao edital servem apenas à conferência editorial. O corte normativo da prova é a publicação do Edital nº 1 em **7 de julho de 2026**.
 
 - BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021 — Lei de Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 117, 118, 123 e 140; acompanhamento, preposto, registros, apoio de terceiros, decisões e recebimento.
 - BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017 — texto atualizado](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Arts. 39 a 48 e Anexo VIII; gestão, fiscalização, designação, preposto, registros e controles.
