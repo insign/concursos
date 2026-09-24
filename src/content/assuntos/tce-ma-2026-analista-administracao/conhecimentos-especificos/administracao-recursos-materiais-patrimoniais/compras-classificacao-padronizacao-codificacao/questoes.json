@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q1284",
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "q20002",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "As compras envolvem a aquisição de matérias-primas, suprimentos e componentes para o conjunto da organização.\nEntre as atividades associadas a elas, incluem-se:\nI. Selecionar e qualificar fornecedores\nII. Prever mudanças de preços\nIII. Negociar contratos\nIV. Programar o transporte das matérias-primas\nV. Estabelecer os termos das vendas\nVI. Avaliar o valor recebido\nVII. Avaliar desempenho de fornecedores\n\nAs atividades associadas a compras estão contempladas somente em:",
       "options": [
@@ -1560,7 +1560,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "A alternativa C reúne as atividades atribuídas à função compras e exclui apenas a programação do transporte das matérias-primas, atividade associada à logística de transporte."
+      "explanation": "No caderno tipo 1 da FGV/DPE-RS 2023, o gabarito definitivo da questão 52 é C: I, II, III, V, VI e VII. 'Termos das vendas' (V) referem-se às condições comerciais negociadas na aquisição; programar o transporte das matérias-primas (IV) foi tratado como atividade da logística de transporte, não da função compras nessa delimitação. A distinção de funções depende do contexto organizacional."
     },
     {
       "id": "q20003",
