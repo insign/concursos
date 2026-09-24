@@ -18,7 +18,7 @@ Os dois parecem semelhantes, mas só o primeiro obriga a conclusão. No segundo,
 
 Esse contraste resume o problema central deste assunto: **avaliar a passagem das razões para a conclusão**. Em prova, isso exige reconhecer a estrutura do argumento, descobrir o tipo de apoio pretendido e perguntar se esse apoio é suficiente para a força da conclusão.
 
-No edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> 2026, o recorte inclui lógica de argumentação, analogias, inferências, deduções e conclusões. Proposições, tabelas-verdade, equivalências e outros instrumentos formais aparecem em assuntos seguintes; aqui, eles entram apenas na medida necessária para compreender argumentos em linguagem natural.
+Os editais da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> incluem lógica de argumentação, analogias, inferências, deduções e conclusões. Proposições, tabelas-verdade, equivalências e outros instrumentos formais aparecem em assuntos seguintes; aqui, eles entram apenas na medida necessária para compreender argumentos em linguagem natural.
 
 ## 2. A estrutura mínima de um argumento
 
@@ -198,6 +198,12 @@ A analogia fica mais forte quando as semelhanças têm relação direta com o re
 
 Imagine que a unidade B possua uma restrição que impede a mudança responsável pelo resultado obtido em A. Uma única diferença desse tipo pode pesar mais que várias semelhanças superficiais.
 
+### 8.4. Abdução: uma hipótese para explicar o observado
+
+Na **abdução**, parte-se de um fato observado e se propõe uma hipótese que poderia explicá-lo. Exemplo hipotético: um livro não está na estante; alguém pode tê-lo retirado, mas ele também pode ter sido mudado de lugar pelo próprio dono. A hipótese inicial merece exame, não é uma dedução obrigatória.
+
+Na linguagem de prova, compare o movimento: **indução** projeta ou generaliza a partir de casos; **abdução** sugere uma explicação para um fato; **dedução válida** obriga a conclusão se as premissas forem verdadeiras. A distinção entre indução e abdução pode variar em classificações filosóficas amplas; aqui interessa identificar a função concreta da inferência no enunciado.
+
 ## 9. Necessário, provável e possível
 
 A conclusão deve ser tão forte quanto o apoio recebido.
@@ -280,6 +286,17 @@ As reclamações são relevantes para satisfação, mas a base é insuficiente p
 
 “Pode ocorrer” exige menos apoio que “provavelmente ocorrerá”; “provavelmente” exige menos que “necessariamente”. Ao resolver a questão, compare a força da conclusão com a força efetiva das premissas.
 
+### 11.4. Dê nome ao defeito só depois de localizar a passagem
+
+Uma **falácia argumentativa** é um modo de sustentar a conclusão com apoio inadequado. Pergunte qual salto o argumento deu:
+
+- **generalização apressada:** poucos casos ou uma amostra inadequada viram regra para todo o grupo;
+- **falsa causa:** a sequência “ocorreu depois” é tratada, sozinha, como prova de causa;
+- **apelo à popularidade ou ao esforço:** muita gente acreditar em algo ou uma equipe ter trabalhado muito não demonstra, por si, que a tese ou o produto está correto;
+- **apelo à consequência:** a conclusão é defendida por efeitos desejáveis ou indesejáveis de aceitá-la, sem demonstrar que ela é verdadeira.
+
+Mencionar consequência não torna todo argumento falacioso: consequências verificáveis podem ser razões pertinentes para **escolher uma ação**. Identifique a conclusão, avalie a relação e só então aplique o nome pedido pela banca.
+
 ## 12. Um método único para resolver a questão
 
 Em vez de decorar listas separadas para cada tipo de argumento, percorra esta sequência:
@@ -288,7 +305,7 @@ Em vez de decorar listas separadas para cada tipo de argumento, percorra esta se
 2. **Separe as premissas.** Quais razões foram apresentadas?
 3. **Reconstrua a passagem.** Há pressuposto ou conclusão intermediária?
 4. **Identifique a pretensão.** A conclusão é necessária, provável, possível ou sustentada por analogia?
-5. **Escolha o teste.** Dedução pede contraexemplo; indução pede exame da base; analogia pede diferenças relevantes; condicional pede atenção à direção da regra.
+5. **Escolha o teste.** Dedução pede contraexemplo; indução pede exame da base; abdução pede confronto entre explicações; analogia pede diferenças relevantes; condicional pede atenção à direção da regra.
 6. **Compare apoio e conclusão.** A razão é relevante? É suficiente? A linguagem exagera o que as premissas permitem?
 
 ## 13. Armadilhas que valem reconhecer de imediato
