@@ -32,6 +32,7 @@
 - **Validade:** mede o desempenho relevante para a finalidade.
 - **Confiabilidade:** consistência.
 - **Confiabilidade ≠ validade.**
+- **Resultados** avaliam entregas; **comportamentos** avaliam ações observáveis; **competências** avaliam capacidades que sustentam a contribuição. A banca já chamou de indicador por competências os talentos dotados de competências essenciais ao sucesso organizacional. Escolha dimensão e evidência conforme o problema (ex.: cortesia no atendimento pede comportamento observável).
 
 ## Ciclo
 
@@ -58,6 +59,8 @@
 | **<abbr title="Administração por Objetivos">APO</abbr>/<abbr title="Management by Objectives">MBO</abbr>** | alcance de objetivos pactuados | alinhamento, participação, clareza | curto-prazismo, meta fácil, foco no mensurável |
 | **360°** | múltiplas fontes | amplia perspectivas | custo, divergência, confidencialidade e vieses |
 
+**<abbr title="Avaliação Participativa por Objetivos">APPO</abbr>:** objetivos para período definidos em negociação entre gestor e colaborador, com consenso, aceitação e comprometimento; a participação distingue a revisão da imposição unilateral.
+
 ## Distinções que derrubam questão
 
 ### Escolha forçada × distribuição forçada
@@ -65,10 +68,10 @@
 - **Escolha forçada:** frases.
 - **Distribuição forçada:** pessoas em faixas.
 
-### Escala gráfica × BARS
+### Escala gráfica × <abbr title="Behaviorally Anchored Rating Scales">BARS</abbr>
 
 - Escala gráfica: graus podem ser genéricos.
-- BARS: graus ancorados em **exemplos comportamentais**.
+- <abbr title="Behaviorally Anchored Rating Scales">BARS</abbr>: graus ancorados em **exemplos comportamentais**.
 
 ### Ranking × padrão
 
@@ -93,6 +96,7 @@
 - **90°:** usualmente chefia.
 - **180°:** frequentemente chefia + autoavaliação; nomenclatura varia.
 - **360°:** múltiplas fontes pertinentes.
+- **Avaliação interativa:** gestor orienta e dá retorno; colaborador examina seu próprio desempenho no diálogo. Não se reduz à autoavaliação isolada.
 - Mais fontes **não** corrigem critério ruim.
 
 ## Vieses
@@ -128,18 +132,3 @@
 **Situação/período → comportamento/resultado → impacto no padrão → próximos passos.**
 
 Resultado insuficiente: diferencie **competência, clareza, recurso, processo, carga, coordenação e conduta**.
-
-## Pegadinhas
-
-- “Gestão = avaliação anual” → **errado**.
-- “Avaliação serve só para punição” → **errado**.
-- “Confiabilidade prova validade” → **errado**.
-- “Escolha forçada = distribuição forçada” → **errado**.
-- “BARS elimina vieses” → **errado**.
-- “Incidentes críticos cobrem toda a rotina” → **errado**.
-- “Ranking prova insuficiência” → **errado**.
-- “Distribuição forçada é sempre justa” → **errado**.
-- “360° elimina vieses” → **errado**.
-- “Mais avaliadores corrigem escala ruim” → **errado**.
-- “Calibragem impõe curva” → **errado**.
-- “APO só tem vantagens” → **errado**; pode gerar curto-prazismo e foco no mensurável.
