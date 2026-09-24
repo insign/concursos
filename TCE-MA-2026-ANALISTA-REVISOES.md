@@ -297,7 +297,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H148 | `recrutamento-selecao-processo-decisorio` | `gp-recrutamento-selecao` | L | [bfd1648](https://github.com/insign/concursos/commit/bfd16480120c4bf5d3825a2d28b489f0f37278b3) |
 | H149 | `analise-descricao-cargos` | `gp-analise-descricao-cargos` | L | [b197989](https://github.com/insign/concursos/commit/b197989f4a40024cc576d923d0847954cb07c840) |
 | H150 | `avaliacao-desempenho` | `gp-avaliacao-desempenho` | L | [681b04e](https://github.com/insign/concursos/commit/681b04ead3487d383129dd82c9063f65cccffa95) |
-| H151 | `desenvolvimento-capacitacao` | `gp-desenvolvimento-capacitacao` | L | — |
+| H151 | `desenvolvimento-capacitacao` | `gp-desenvolvimento-capacitacao` | L | [ed8b8fe](https://github.com/insign/concursos/commit/ed8b8fe0dc346b45fb4a968b28519d440ecdb5e3) |
 | H152 | `cargos-carreiras-salarios` | `gp-cargos-carreiras-salarios` | L | — |
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
