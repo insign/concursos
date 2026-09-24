@@ -259,7 +259,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
-| H124 | `fundamentos-agentes-processo-lei-14133` | `fundamentos-lei-14133` | V | — |
+| H124 | `fundamentos-agentes-processo-lei-14133` | `fundamentos-lei-14133` | V | [`94333ef`](https://github.com/insign/concursos/commit/94333ef03410b82531a4e4373ad1ad5da9bb249a) |
 | H125 | `planejamento-fase-preparatoria` | = | V | — |
 | H126 | `modalidades-julgamento-selecao-contratacao-direta` | `modalidades-selecao-direta` | V | — |
 | H127 | `formalizacao-garantias-riscos-duracao` | `formalizacao-riscos-duracao` | V | — |
@@ -301,6 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H124: `conteudo.md` chama 6/7/2026, data do ato, de publicação/corte do Edital nº 1; o Diário Oficial nº 3045 publicou-o em 7/7/2026. Corrigir a aula em escopo próprio; H e referências usam 7/7.
 - H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
 
 - H122: aula registra 6/7/2026 como publicação do edital, que o Tribunal informa ter ocorrido em 7/7; corrigir em escopo próprio. Cadernos oficiais da VUNESP Poá/2015 e Quadrix CREFITO-4/2021 não abriram na consulta; só o gabarito definitivo Quadrix foi conferido. Verificar texto e alternativas desses itens e do q1374 adaptado antes de usá-los como contraprova.
