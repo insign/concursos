@@ -3,7 +3,7 @@
 ## Programa e corte
 
 - <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital nº 1 – <abbr title="Polícia Civil do Maranhão">PCMA</abbr> – Investigador, de 13 de julho de 2026**. Item 20.2.3, Direito Processual Penal: item 1 — princípios gerais, conceito, finalidade e características; item 1.2 — sistemas de processo penal. https://cdn.cebraspe.org.br/concursos/PC_MA_26_INVESTIGADOR/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf. Corte normativo: 13 jul. 2026.
-- Fontes reconsultadas em **19 set. 2026**. A unidade preserva o estado normativo/jurisprudencial pertinente ao corte e não incorpora como regra de prova decisão posterior ao edital.
+- Fontes reconsultadas em **19 set. 2026**; conferência de corte em **24 set. 2026**. A legislação segue o marco de 13 jul. 2026. A jurisprudência de tribunais superiores segue o item 19.33.1: publicação até 30 dias antes da prova, inicialmente prevista para 6 dez. 2026 (marco de 6 nov. 2026, se a data for mantida). As decisões efetivamente usadas nesta unidade já eram anteriores ao edital; isso não cria um corte jurisprudencial em julho.
 
 ## Constituição e Código de Processo Penal
 
@@ -15,7 +15,7 @@
 
 - <abbr title="Supremo Tribunal Federal">STF</abbr>. **<abbr title="Ações Diretas de Inconstitucionalidade">ADIs</abbr> 6.298, 6.299, 6.300 e 6.305**, julgamento concluído em 24 ago. 2023. Interpretação conforme do <abbr title="artigo">art.</abbr> 3º-A: estrutura acusatória preservada e possibilidade de diligências suplementares pontuais, nos limites legalmente autorizados, para dúvida relevante ao mérito. https://portal.stf.jus.br/processos/listarProcessos.asp?classe=<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr>&numeroProcesso=6300.
 - <abbr title="Supremo Tribunal Federal">STF</abbr>. **Tema 907 — <abbr title="Recurso Extraordinário">RE</abbr> 971.959**. A criminalização da fuga do local de acidente de trânsito não viola, por si só, a garantia de não autoincriminação; preservado o direito ao silêncio. https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4985877&numeroProcesso=971959&numeroTema=907.
-- O Tema 1.185/<abbr title="Supremo Tribunal Federal">STF</abbr>, sobre advertência do direito ao silêncio na abordagem policial, ainda não tinha julgamento de mérito final no corte de **13/7/2026**; por isso, eventual andamento posterior não foi usado para criar regra nesta aula.
+- O Tema 1.185/<abbr title="Supremo Tribunal Federal">STF</abbr>, sobre advertência do direito ao silêncio na abordagem policial, continuava **sem julgamento de mérito** na consulta oficial de 24/9/2026. Por isso, a unidade não lhe atribui tese final; eventual decisão posterior deve ser examinada pela regra de publicação do item 19.33.1.
 
 ## Questões anteriores adaptadas
 
