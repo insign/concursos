@@ -54,16 +54,16 @@
 ## Ajuste e papéis
 
 - <abbr title="ajuste pessoa-organização">P-O fit</abbr>: valores, necessidades-recursos e capacidades-demandas compatíveis.
-- Fit ≠ homogeneidade.
+- Ajuste ≠ homogeneidade.
 - Conflito de papel = demandas incompatíveis.
 - Ambiguidade = falta de clareza.
 - Sobrecarga = demandas maiores que tempo e recursos.
 
-## QVT
+## <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>
 
 - Multidimensional: condições, organização, conteúdo, relações e sentido.
 - Inclui saúde, segurança, ergonomia, justiça, inclusão e equilíbrio trabalho-vida.
-- QVT ≠ benefício, evento ou ginástica laboral.
+- <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> ≠ benefício, evento ou ginástica laboral.
 - Ação individual não substitui intervenção nas causas organizacionais.
 
 ## Walton — 8 critérios
@@ -72,8 +72,8 @@
 2. Condições seguras e saudáveis.
 3. Uso e desenvolvimento de capacidades.
 4. Crescimento e segurança.
-5. Integração social.
-6. Constitucionalismo.
+5. Integração social: relações e ausência de discriminação.
+6. Constitucionalismo: direitos, privacidade, equidade e respeito.
 7. Trabalho e espaço total de vida.
 8. Relevância social.
 
@@ -86,7 +86,7 @@
 | feedback | conhecimento dos resultados |
 
 - Cinco dimensões centrais: variedade, identidade, significância, autonomia e feedback.
-- Walton = QVT ampla; Hackman–Oldham = desenho do trabalho.
+- Walton = <abbr title="Qualidade de Vida no Trabalho">QVT</abbr> ampla; Hackman–Oldham = desenho do trabalho.
 
 ## Ergonomia e riscos psicossociais
 
@@ -94,7 +94,7 @@
 - Riscos psicossociais podem vir de sobrecarga, ambiguidade, assédio, discriminação, isolamento, baixo apoio e autonomia insuficiente.
 - Prevenção deve atuar no trabalho, não apenas cobrar resiliência individual.
 
-## Programa de QVT
+## Programa de <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>
 
 Roteiro didático, não sequência normativa universal:
 
@@ -108,16 +108,3 @@ Roteiro didático, não sequência normativa universal:
 - Responsabilidade compartilhada; não exclusiva do <abbr title="Recursos Humanos">RH</abbr>.
 - Combine percepções, saúde, processos e contexto.
 - Absenteísmo menor não prova melhora: pode haver subnotificação ou presenteísmo.
-
-## Pegadinhas
-
-- CO ≠ fenômeno apenas individual.
-- Contrato psicológico ≠ contrato jurídico.
-- Identificação ≠ comprometimento.
-- Apoio da chefia ≠ suporte organizacional percebido.
-- Fit ≠ uniformidade.
-- Variedade + identidade + significância → significado experimentado.
-- Autonomia → responsabilidade pelos resultados.
-- Feedback → conhecimento dos resultados.
-- QVT ≠ ação paliativa isolada.
-- Indicador ≠ causa comprovada.
