@@ -250,7 +250,7 @@ $$
 
 A lógica é corrigir contagens repetidas: somam-se os grupos, subtraem-se as sobreposições de pares e devolve-se a região tripla, que foi retirada em excesso.
 
-Operações com conjuntos são desenvolvidas no assunto 042; aqui, a fórmula entra como ferramenta de contagem e de probabilidade.
+Operações com conjuntos são desenvolvidas no assunto próprio de conjuntos; aqui, a fórmula entra como ferramenta de contagem e de probabilidade.
 
 ### 6.3. Princípio da casa dos pombos
 
