@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u098-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u098-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na apresentação doutrinária mais usual dos elementos do Estado, incluem-se",
       "options": [
         {
           "id": "A",
-          "text": "povo, território e poder soberano."
+          "text": "partidos políticos, empresas e moeda."
         },
         {
           "id": "B",
-          "text": "partidos políticos, empresas e moeda."
+          "text": "povo, território e poder soberano."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "território e orçamento, sem coletividade humana."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A síntese doutrinária tradicional trabalha com povo, território e poder soberano; alguns autores nomeiam o terceiro elemento como governo soberano."
     },
     {
       "id": "u098-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre soberania e autonomia na Federação brasileira, assinale a alternativa correta.",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "A República Federativa do Brasil é soberana; os entes federativos são autônomos nos termos da Constituição."
+          "text": "Somente os Municípios são soberanos."
         },
         {
           "id": "C",
-          "text": "Somente os Municípios são soberanos."
+          "text": "A República Federativa do Brasil é soberana; os entes federativos são autônomos nos termos da Constituição."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "Estados não possuem autonomia constitucional."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A soberania pertence ao Estado brasileiro; os entes federativos exercem autonomia constitucional."
     },
     {
       "id": "u098-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do artigo 2º da Constituição, são Poderes da União",
       "options": [
         {
           "id": "A",
-          "text": "Legislativo, Executivo e Judiciário, independentes e harmônicos entre si."
+          "text": "Executivo e Judiciário apenas."
         },
         {
           "id": "B",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "Executivo e Judiciário apenas."
+          "text": "Legislativo, Executivo e Judiciário, independentes e harmônicos entre si."
         },
         {
           "id": "E",
           "text": "Legislativo, Executivo e Ministério Público."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "É a literalidade do artigo 2º da Constituição."
     },
     {
       "id": "u098-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando um tribunal realiza licitação para contratar serviço, ele",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "exerce função administrativa de forma atípica, permanecendo órgão do Poder Judiciário."
+          "text": "atua como ente federativo autônomo."
         },
         {
           "id": "C",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "atua como ente federativo autônomo."
+          "text": "exerce função administrativa de forma atípica, permanecendo órgão do Poder Judiciário."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Os Poderes podem exercer funções atípicas; licitação e gestão administrativa são função administrativa mesmo quando praticadas pelo Judiciário."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u098-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão Administração pública em sentido subjetivo, formal ou orgânico responde à pergunta",
       "options": [
         {
           "id": "A",
-          "text": "quem exerce a função administrativa?"
+          "text": "qual é a pena do agente público?"
         },
         {
           "id": "B",
-          "text": "qual é a pena do agente público?"
+          "text": "quem exerce a função administrativa?"
         },
         {
           "id": "C",
@@ -209,12 +209,12 @@
           "text": "qual é a função legislativa típica?"
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O sentido subjetivo olha para os sujeitos: órgãos, entidades e agentes que desempenham função administrativa."
     },
     {
       "id": "u098-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Administração pública em sentido objetivo, material ou funcional significa",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "a própria atividade administrativa."
+          "text": "apenas os órgãos do Poder Executivo."
         },
         {
           "id": "C",
-          "text": "apenas os órgãos do Poder Executivo."
+          "text": "a própria atividade administrativa."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "a atividade jurisdicional definitiva."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O sentido objetivo considera a função ou atividade administrativa, e não os sujeitos que a exercem."
     },
     {
       "id": "u098-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em sentido estrito, Administração pública",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "exclui a função política de direção e concentra-se no aparato e na atividade administrativa."
+          "text": "compreende apenas empresas públicas."
         },
         {
           "id": "C",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "compreende apenas empresas públicas."
+          "text": "exclui a função política de direção e concentra-se no aparato e na atividade administrativa."
         },
         {
           "id": "E",
           "text": "corresponde exclusivamente ao Poder Judiciário."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Na distinção doutrinária, o sentido estrito separa a função administrativa da função política de Governo."
     },
     {
       "id": "u098-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 18 da Constituição, a organização político-administrativa da República Federativa do Brasil compreende",
       "options": [
         {
           "id": "A",
-          "text": "União, Estados, Distrito Federal e Municípios, todos autônomos nos termos constitucionais."
+          "text": "União, Territórios e autarquias, todos soberanos."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "União, Territórios e autarquias, todos soberanos."
+          "text": "União, Estados, Distrito Federal e Municípios, todos autônomos nos termos constitucionais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "É a moldura do artigo 18; autonomia federativa não se confunde com soberania."
     },
     {
       "id": "u098-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A natureza instrumental da Administração pública significa que",
       "options": [
         {
           "id": "A",
-          "text": "seus agentes podem perseguir interesses próprios quando eficientes."
+          "text": "ela exerce competências para concretizar finalidades públicas definidas pelo ordenamento."
         },
         {
           "id": "B",
-          "text": "ela exerce competências para concretizar finalidades públicas definidas pelo ordenamento."
+          "text": "seus agentes podem perseguir interesses próprios quando eficientes."
         },
         {
           "id": "C",
@@ -329,22 +329,22 @@
           "text": "seus atos não estão sujeitos a controle."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Administração é instrumento de realização de finalidades públicas e atua dentro das competências e limites jurídicos."
     },
     {
       "id": "u098-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 37, caput, da Constituição enuncia expressamente os princípios da",
       "options": [
         {
           "id": "A",
-          "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência."
+          "text": "legalidade, pessoalidade, sigilo, conveniência e supremacia."
         },
         {
           "id": "B",
-          "text": "legalidade, pessoalidade, sigilo, conveniência e supremacia."
+          "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência."
         },
         {
           "id": "C",
@@ -359,12 +359,12 @@
           "text": "motivação, contraditório, supremacia, autotutela e eficiência apenas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "São os cinco princípios expressos do caput do artigo 37."
     },
     {
       "id": "u098-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para a Administração pública, o princípio da legalidade indica que",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "o exercício de competências públicas depende de fundamento no ordenamento e deve respeitar seus limites."
+          "text": "a eficiência autoriza ignorar competências legais."
         },
         {
           "id": "C",
-          "text": "a eficiência autoriza ignorar competências legais."
+          "text": "o exercício de competências públicas depende de fundamento no ordenamento e deve respeitar seus limites."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "a Administração atua fora do Direito quando invoca interesse público."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A legalidade administrativa vincula o exercício de poder às competências e limites jurídicos."
     },
     {
       "id": "u098-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A impessoalidade administrativa é compatível com",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "tratamento orientado à finalidade pública e vedação de favorecimentos pessoais sem base jurídica."
+          "text": "identificação de obras públicas com slogans pessoais obrigatórios."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "identificação de obras públicas com slogans pessoais obrigatórios."
+          "text": "tratamento orientado à finalidade pública e vedação de favorecimentos pessoais sem base jurídica."
         },
         {
           "id": "E",
           "text": "decisão baseada exclusivamente em amizade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Impessoalidade envolve finalidade pública, igualdade e vedação à apropriação pessoal da atuação estatal."
     },
     {
       "id": "u098-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre publicidade, assinale a alternativa correta.",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "A transparência é regra, mas o ordenamento admite sigilos legítimos e proteção de dados e intimidade."
+          "text": "Publicidade autoriza promoção pessoal do agente."
         },
         {
           "id": "C",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "Publicidade autoriza promoção pessoal do agente."
+          "text": "A transparência é regra, mas o ordenamento admite sigilos legítimos e proteção de dados e intimidade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Publicidade não equivale à exposição irrestrita; sigilos constitucional e legalmente protegidos permanecem válidos."
     },
     {
       "id": "u098-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O princípio da eficiência",
       "options": [
         {
           "id": "A",
-          "text": "autoriza descumprir a lei quando houver economia de tempo."
+          "text": "exige qualidade e boa utilização de recursos, sem afastar os demais princípios jurídicos."
         },
         {
           "id": "B",
-          "text": "exige qualidade e boa utilização de recursos, sem afastar os demais princípios jurídicos."
+          "text": "autoriza descumprir a lei quando houver economia de tempo."
         },
         {
           "id": "C",
@@ -479,22 +479,22 @@
           "text": "é incompatível com controle administrativo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Eficiência orienta resultados e qualidade, mas precisa conviver com legalidade, impessoalidade, moralidade e publicidade."
     },
     {
       "id": "u098-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No processo administrativo federal, o artigo 2º da Lei 9.784/1999 menciona, entre outros, os princípios da",
       "options": [
         {
           "id": "A",
-          "text": "finalidade, motivação, razoabilidade, proporcionalidade, segurança jurídica e interesse público."
+          "text": "soberania estadual e supremacia municipal."
         },
         {
           "id": "B",
-          "text": "soberania estadual e supremacia municipal."
+          "text": "finalidade, motivação, razoabilidade, proporcionalidade, segurança jurídica e interesse público."
         },
         {
           "id": "C",
@@ -509,12 +509,12 @@
           "text": "liberdade contratual plena da Administração."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 2º traz esses princípios, além de legalidade, moralidade, ampla defesa, contraditório e eficiência."
     },
     {
       "id": "u098-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação de que a Administração deve atender ao interesse público significa que",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "as competências devem ser usadas para finalidades públicas dentro da Constituição e da lei."
+          "text": "direitos fundamentais deixam de valer."
         },
         {
           "id": "C",
-          "text": "direitos fundamentais deixam de valer."
+          "text": "as competências devem ser usadas para finalidades públicas dentro da Constituição e da lei."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "o controle judicial fica excluído."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Finalidade pública não é autorização genérica; a atuação permanece submetida ao ordenamento e aos direitos."
     },
     {
       "id": "u098-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a alternativa correta sobre Governo e Poder Executivo.",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "Governo designa direção política e, em sentido amplo, não se reduz conceitualmente ao Poder Executivo."
+          "text": "O Poder Executivo nunca exerce função administrativa."
         },
         {
           "id": "C",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "O Poder Executivo nunca exerce função administrativa."
+          "text": "Governo designa direção política e, em sentido amplo, não se reduz conceitualmente ao Poder Executivo."
         },
         {
           "id": "E",
           "text": "Governo é elemento exclusivamente territorial do Estado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A noção de Governo é ligada à direção política superior; reduzi-la sempre ao Executivo apaga a estrutura constitucional de direção estatal."
     },
     {
       "id": "u098-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 1 da prova discursiva Cebraspe para Defensor Público do Pará, concurso 2021, qual alternativa distingue corretamente os sentidos objetivo e subjetivo da Administração pública?",
       "options": [
         {
           "id": "A",
-          "text": "Objetivo refere-se à atividade administrativa; subjetivo refere-se aos órgãos, entes e pessoas que exercem essa função."
+          "text": "Objetivo refere-se ao território; subjetivo, à soberania."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "Objetivo refere-se ao território; subjetivo, à soberania."
+          "text": "Objetivo refere-se à atividade administrativa; subjetivo refere-se aos órgãos, entes e pessoas que exercem essa função."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O padrão definitivo da DPE-PA 2021 separou o sentido objetivo, ligado às atividades administrativas, do sentido subjetivo, ligado aos órgãos, entes e pessoas que exercem a função. A formulação foi convertida para múltipla escolha sem reprodução literal."
     }
   ]
