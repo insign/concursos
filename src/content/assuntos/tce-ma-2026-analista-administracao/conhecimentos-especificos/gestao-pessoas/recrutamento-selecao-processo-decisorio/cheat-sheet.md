@@ -31,7 +31,7 @@
 | teste de capacidade | evidência sobre capacidade específica | não resume toda a competência |
 | prova prática / amostra | proximidade com o trabalho | custo e logística |
 | dinâmica de grupo | observa interação | pode premiar extroversão sem rubrica |
-| assessment center | múltiplos exercícios e avaliadores | custo e complexidade altos |
+| <abbr title="sistema de avaliação com múltiplos exercícios e avaliadores">assessment center</abbr> | múltiplos exercícios e avaliadores | custo e complexidade altos |
 | referências | confirma fatos | vieses; serve como complemento |
 
 ## Qualidade da técnica
@@ -59,12 +59,16 @@
 
 - Conhecimento = saber técnico/normativo.
 - Capacidade/aptidão = capacidade específica pertinente.
-- Teste psicológico: uso profissional e finalidade tecnicamente admitida; resultado isolado ≠ diagnóstico global da pessoa.
+- Teste psicológico: preditor pertinente para um critério futuro, não certeza ou diagnóstico global; observar uso profissional e finalidade tecnicamente admitida.
 - Prova prática/amostra = executar tarefa representativa.
-- **Dinâmica isolada ≠ assessment center.**
-- Assessment center = múltiplos exercícios + competências + avaliadores.
+- **Dinâmica isolada ≠ <abbr title="sistema de avaliação com múltiplos exercícios e avaliadores">assessment center</abbr>.**
+- <abbr title="sistema de avaliação com múltiplos exercícios e avaliadores">Assessment center</abbr> = múltiplos exercícios + competências + avaliadores.
 
 ## Processo decisório
+
+**Colocação**: um candidato/uma vaga, sem rejeição no modelo clássico; **seleção**: vários/uma; **classificação**: vários/várias, com possibilidade de adequar cada candidato a outra vaga. São modelos de comparação, não regras de provimento.
+
+**Etapas**: inicial = requisitos básicos; substantiva = técnicas para identificar os mais qualificados; contingente = verificação final de condição específica pertinente e juridicamente cabível.
 
 | Modelo | Regra |
 | --- | --- |
@@ -73,12 +77,13 @@
 | **conjuntivo** | atender todos os mínimos |
 | **julgamento estruturado** | interpretar evidências com rubricas e registro |
 
-### Contrastes
+- No modelo **compensatório**, conta o resultado conjunto; em **múltiplos obstáculos**, quem não supera o corte da etapa não avança; no **conjuntivo**, falhar em um mínimo impede aprovação.
+- Requisito indispensável não deve ser artificialmente compensado.
 
-- Compensatório → usa resultado conjunto.
-- Múltiplos obstáculos → **não há compensação por etapa futura**.
-- Conjuntivo → falhou em mínimo = não atende.
-- Requisito indispensável **não deve ser artificialmente compensado**.
+## Índices de decisão
+
+- **Razão de seleção** = selecionados ÷ avaliados. Razão menor indica maior seletividade numérica, sem garantir qualidade.
+- **Taxa-base** = proporção que teria sucesso no critério antes do ganho do novo instrumento. Sua utilidade depende também de validade, razão de seleção, custos e consequências: um par de índices isolado não resolve a decisão.
 
 ## Regras de decisão
 
@@ -110,16 +115,3 @@
 - desempenho e permanência posteriores.
 
 **Muitos inscritos ≠ bom recrutamento.**
-
-## Pegadinhas de uma linha
-
-- recrutamento escolhe → **errado**;
-- interno é sempre mais barato → **errado**;
-- externo garante inovação → **errado**;
-- misto é técnica de seleção → **errado**;
-- confiabilidade garante validade → **errado**;
-- entrevista estruturada elimina vieses → **errado**;
-- dinâmica = assessment center → **errado**;
-- múltiplos obstáculos permitem compensação → **errado**;
-- todo requisito pode ser compensado → **errado**;
-- pesos iguais são neutros automaticamente → **errado**.
