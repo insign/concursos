@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u147-a01",
@@ -64,13 +64,13 @@
     },
     {
       "id": "u147-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na Convenção Americana sobre Direitos Humanos, os artigos 1º e 2º estruturam como fundamento do controle de convencionalidade",
       "options": [
         {
           "id": "A",
-          "text": "o dever de respeitar e garantir os direitos e de adotar medidas internas quando necessárias à sua efetivação."
+          "text": "a superioridade automática de toda resolução internacional sobre a Constituição."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "a superioridade automática de toda resolução internacional sobre a Constituição."
+          "text": "o dever de respeitar e garantir os direitos e de adotar medidas internas quando necessárias à sua efetivação."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "o dever de submeter toda controvérsia diretamente à Corte Interamericana."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Os artigos 1º.1 e 2º da Convenção combinam respeito e garantia com dever de adequação do direito interno."
     },
     {
       "id": "u147-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo os artigos 26 e 27 da Convenção de Viena sobre o Direito dos Tratados,",
       "options": [
         {
           "id": "A",
-          "text": "o tratado em vigor deve ser cumprido de boa-fé e o direito interno não pode ser invocado, em regra, para justificar seu inadimplemento."
+          "text": "somente decisões judiciais, e não leis, podem gerar inadimplemento."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "somente decisões judiciais, e não leis, podem gerar inadimplemento."
+          "text": "o tratado em vigor deve ser cumprido de boa-fé e o direito interno não pode ser invocado, em regra, para justificar seu inadimplemento."
         },
         {
           "id": "E",
           "text": "tratados de direitos humanos não estão sujeitos à boa-fé."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 26 consagra pacta sunt servanda; o artigo 27 impede o uso do direito interno como justificativa ordinária para inadimplemento, sem prejuízo do artigo 46."
     },
     {
       "id": "u147-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No caso Almonacid Arellano versus Chile, a Corte Interamericana associou o controle de convencionalidade",
       "options": [
         {
           "id": "A",
-          "text": "ao confronto entre normas internas e a Convenção Americana, considerando também a interpretação dada pela própria Corte."
+          "text": "exclusivamente à revisão de sentenças da própria Corte."
         },
         {
           "id": "B",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "exclusivamente à revisão de sentenças da própria Corte."
+          "text": "ao confronto entre normas internas e a Convenção Americana, considerando também a interpretação dada pela própria Corte."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Almonacid é o marco de referência da formulação segundo a qual o Judiciário nacional deve confrontar norma interna e Convenção, levando em conta a interpretação da Corte."
     },
     {
       "id": "u147-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O exercício de ofício do controle de convencionalidade significa que",
       "options": [
         {
           "id": "A",
-          "text": "a autoridade pode atuar sem qualquer competência legal ou constitucional."
+          "text": "a incompatibilidade convencional pode ser examinada pela autoridade competente sem depender de provocação técnica específica, dentro das regras processuais aplicáveis."
         },
         {
           "id": "B",
-          "text": "a incompatibilidade convencional pode ser examinada pela autoridade competente sem depender de provocação técnica específica, dentro das regras processuais aplicáveis."
+          "text": "a autoridade pode atuar sem qualquer competência legal ou constitucional."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "a Corte Interamericana deve iniciar todo processo nacional."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A jurisprudência interamericana combina atuação de ofício com respeito às competências e às regulações processuais correspondentes."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u147-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O objeto do controle de convencionalidade pode compreender",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "atos comissivos e omissivos, inclusive leis, decisões, práticas e ausência de providência devida."
+          "text": "somente tratados internacionais."
         },
         {
           "id": "C",
-          "text": "somente tratados internacionais."
+          "text": "atos comissivos e omissivos, inclusive leis, decisões, práticas e ausência de providência devida."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "exclusivamente sentenças da Corte Interamericana."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O padrão Cebraspe DPE/AC 2024 define o instituto como exame de atos internos comissivos ou omissivos diante das normas internacionais."
     },
     {
       "id": "u147-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Antes de utilizar um tratado como parâmetro de convencionalidade, a autoridade deve verificar, entre outros pontos,",
       "options": [
         {
           "id": "A",
-          "text": "se o Brasil está vinculado ao instrumento e qual sua aplicabilidade material e temporal."
+          "text": "se o tratado foi publicado depois do fato, pois isso sempre amplia sua retroatividade."
         },
         {
           "id": "B",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "se o tratado foi publicado depois do fato, pois isso sempre amplia sua retroatividade."
+          "text": "se o Brasil está vinculado ao instrumento e qual sua aplicabilidade material e temporal."
         },
         {
           "id": "E",
           "text": "somente se existe tradução não oficial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Vínculo do Estado, vigência, âmbito temporal e dispositivo material são pressupostos para usar corretamente um instrumento como parâmetro."
     },
     {
       "id": "u147-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação empregada pelo padrão Cebraspe DPE/AC 2024, o controle de convencionalidade de matriz nacional",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "é realizado internamente por juízes, tribunais ou autoridades públicas, conforme suas competências."
+          "text": "é incompatível com o controle de constitucionalidade."
         },
         {
           "id": "C",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "é incompatível com o controle de constitucionalidade."
+          "text": "é realizado internamente por juízes, tribunais ou autoridades públicas, conforme suas competências."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O padrão também usa os rótulos preliminar ou provisório para a matriz nacional, distinguindo-a da matriz internacional ou autêntica."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "u147-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a jurisprudência do Supremo Tribunal Federal, tratado de direitos humanos incorporado sem o rito do artigo 5º, § 3º, possui status",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "supralegal: abaixo da Constituição e acima da legislação infraconstitucional."
+          "text": "idêntico ao de decreto municipal."
         },
         {
           "id": "C",
-          "text": "idêntico ao de decreto municipal."
+          "text": "supralegal: abaixo da Constituição e acima da legislação infraconstitucional."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "sem qualquer efeito interno."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O Recurso Extraordinário 466.343 consolidou a posição supralegal dos tratados de direitos humanos incorporados sem o rito qualificado."
     },
     {
       "id": "u147-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um tratado de direitos humanos aprovado pelo procedimento do artigo 5º, § 3º, da Constituição",
       "options": [
         {
           "id": "A",
-          "text": "é equivalente a emenda constitucional."
+          "text": "não integra o direito brasileiro."
         },
         {
           "id": "B",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "não integra o direito brasileiro."
+          "text": "é equivalente a emenda constitucional."
         },
         {
           "id": "E",
           "text": "dispensa aprovação em ambas as Casas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O rito exige aprovação em cada Casa, em dois turnos, por três quintos dos membros, produzindo equivalência a emenda constitucional."
     },
     {
       "id": "u147-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No exemplo do depositário infiel, o reconhecimento de supralegalidade da Convenção Americana implicou",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "afastamento da legislação infraconstitucional incompatível, sem colocar o tratado acima da Constituição."
+          "text": "inexistência de qualquer controle interno."
         },
         {
           "id": "C",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "inexistência de qualquer controle interno."
+          "text": "afastamento da legislação infraconstitucional incompatível, sem colocar o tratado acima da Constituição."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O Supremo Tribunal Federal manteve a Constituição como parâmetro superior interno e impediu que a legislação infraconstitucional sustentasse a prisão do depositário infiel."
     },
     {
       "id": "u147-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No plano nacional brasileiro, tratado de direitos humanos supralegal",
       "options": [
         {
           "id": "A",
-          "text": "fica acima de norma constitucional originária."
+          "text": "fica abaixo da Constituição e não pode ser usado para inverter essa hierarquia interna."
         },
         {
           "id": "B",
-          "text": "fica abaixo da Constituição e não pode ser usado para inverter essa hierarquia interna."
+          "text": "fica acima de norma constitucional originária."
         },
         {
           "id": "C",
@@ -479,7 +479,7 @@
           "text": "só produz efeitos após decisão da Corte Interamericana em cada caso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Supralegalidade significa posição intermediária: acima da lei e abaixo da Constituição."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u147-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A teoria do duplo estatuto dos tratados de direitos humanos responde principalmente",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "qual posição hierárquica interna o tratado possui conforme o rito de aprovação."
+          "text": "qual direito individual é absoluto."
         },
         {
           "id": "C",
-          "text": "qual direito individual é absoluto."
+          "text": "qual posição hierárquica interna o tratado possui conforme o rito de aprovação."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "qual autoridade policial conduz investigação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Duplo estatuto distingue tratados equivalentes a emenda, quando aprovados pelo § 3º, e supralegais, quando incorporados pelo rito comum."
     },
     {
       "id": "u147-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ideia de duplo controle ou duplo crivo destaca",
       "options": [
         {
           "id": "A",
-          "text": "a possibilidade de examinar compatibilidade constitucional e convencional sem transformar os dois controles em um só."
+          "text": "a superioridade automática de qualquer tratado sobre a Constituição."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "a superioridade automática de qualquer tratado sobre a Constituição."
+          "text": "a possibilidade de examinar compatibilidade constitucional e convencional sem transformar os dois controles em um só."
         },
         {
           "id": "E",
           "text": "a impossibilidade de juízes nacionais aplicarem tratados."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Duplo controle trata de parâmetros de compatibilidade; não é a mesma coisa que o duplo estatuto hierárquico."
     },
     {
       "id": "u147-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na Constituição de 1988, a dignidade da pessoa humana é",
       "options": [
         {
           "id": "A",
-          "text": "fundamento da República Federativa do Brasil."
+          "text": "competência privativa do Congresso."
         },
         {
           "id": "B",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "competência privativa do Congresso."
+          "text": "fundamento da República Federativa do Brasil."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A dignidade da pessoa humana está no artigo 1º, inciso III, como fundamento da República."
     },
     {
       "id": "u147-a21",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prevalência dos direitos humanos é, na Constituição de 1988,",
       "options": [
         {
           "id": "A",
-          "text": "fundamento do artigo 1º."
+          "text": "princípio que rege as relações internacionais do Brasil, no artigo 4º."
         },
         {
           "id": "B",
-          "text": "princípio que rege as relações internacionais do Brasil, no artigo 4º."
+          "text": "fundamento do artigo 1º."
         },
         {
           "id": "C",
@@ -629,7 +629,7 @@
           "text": "competência do Tribunal Penal Internacional."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 4º, inciso II, localiza a prevalência dos direitos humanos entre os princípios das relações internacionais."
     },
     {
@@ -664,13 +664,13 @@
     },
     {
       "id": "u147-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito do artigo 5º, § 4º, da Constituição, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "submete o Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha manifestado adesão."
+          "text": "transforma a Corte Interamericana em tribunal penal."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "transforma a Corte Interamericana em tribunal penal."
+          "text": "submete o Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha manifestado adesão."
         },
         {
           "id": "D",
@@ -689,18 +689,18 @@
           "text": "define a supralegalidade dos tratados."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O § 4º refere-se ao Tribunal Penal Internacional, não à Corte Interamericana."
     },
     {
       "id": "u147-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 60, § 4º, inciso IV, da Constituição",
       "options": [
         {
           "id": "A",
-          "text": "impede deliberação sobre proposta de emenda tendente a abolir direitos e garantias individuais."
+          "text": "elimina o poder de reforma constitucional."
         },
         {
           "id": "B",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "elimina o poder de reforma constitucional."
+          "text": "impede deliberação sobre proposta de emenda tendente a abolir direitos e garantias individuais."
         },
         {
           "id": "E",
           "text": "permite emenda tendente a abolir direitos individuais por maioria qualificada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A cláusula pétrea protege direitos e garantias individuais contra emenda tendente a aboli-los, sem impedir toda alteração normativa relacionada ao tema."
     },
     {
       "id": "u147-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do Ponto 1 da prova oral de Direitos Humanos do Cebraspe para a Defensoria Pública do Estado do Acre, em 2024, o controle de convencionalidade de matriz nacional é corretamente descrito como",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "exame de compatibilidade de atos internos com normas internacionais, realizado por juízes, tribunais ou autoridades públicas internas dentro de suas competências."
+          "text": "procedimento que só existe depois de condenação internacional."
         },
         {
           "id": "C",
@@ -746,25 +746,25 @@
         },
         {
           "id": "E",
-          "text": "procedimento que só existe depois de condenação internacional."
+          "text": "exame de compatibilidade de atos internos com normas internacionais, realizado por juízes, tribunais ou autoridades públicas internas dentro de suas competências."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O padrão oficial define a matriz nacional — também chamada preliminar ou provisória — como aquela realizada por juízes, tribunais ou autoridades públicas internas, distinguindo-a da matriz internacional."
     },
     {
       "id": "u147-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 86 da prova Cebraspe/TRF da 6ª Região para Agente da Polícia Judicial, aplicada em 19/1/2025, assinale a alternativa compatível com o gabarito definitivo.",
       "options": [
         {
           "id": "A",
-          "text": "No controle nacional, tratado supralegal pode invalidar norma do poder constituinte originário porque está acima da Constituição."
+          "text": "No controle nacional brasileiro, tratado supralegal permanece abaixo da Constituição; no plano internacional, a posição constitucional de norma interna não funciona automaticamente como justificativa para inadimplemento do tratado."
         },
         {
           "id": "B",
-          "text": "No controle nacional brasileiro, tratado supralegal permanece abaixo da Constituição; no plano internacional, a posição constitucional de norma interna não funciona automaticamente como justificativa para inadimplemento do tratado."
+          "text": "No controle nacional, tratado supralegal pode invalidar norma do poder constituinte originário porque está acima da Constituição."
         },
         {
           "id": "C",
@@ -779,7 +779,7 @@
           "text": "O controle nacional e o internacional adotam necessariamente a mesma hierarquia normativa interna."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O item oficial 86, que afirmava a possibilidade de submeter no controle nacional norma originária da Constituição ao crivo de tratado de direitos humanos em contraste com o plano internacional, recebeu gabarito definitivo Errado. A adaptação explicita a distinção entre supralegalidade interna e obrigação internacional."
     }
   ]
