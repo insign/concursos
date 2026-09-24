@@ -301,7 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
-- H119: `conteudo.md` chama 6/7/2026 de publicação/corte E1; publicação foi em 7/7. q52211901 sobre just in time não teve caderno/gabarito oficial localizados e cobra conceito não desenvolvido na aula; não usá-la como contraprovante sem conferência e revisão da pertinência. No banco autoral, q1259–61 (métodos Croston/SBA/TSB) e q1319–23 (modelo combinado de segurança) exigem fundamentos não ensinados na aula; avaliar ensino/pertinência em escopo próprio, sem inflar H09.
+- H119: `conteudo.md` chama 6/7/2026 de publicação/corte E1; publicação foi em 7/7. q52211901 sobre just in time não teve caderno/gabarito oficial localizados e cobra conceito não desenvolvido na aula; não usá-la como contraprovante sem conferência e revisão da pertinência. No banco autoral, q1259–61 (métodos Croston/SBA/TSB) e q1319–23 (modelo combinado de segurança) exigem fundamentos não ensinados na aula; avaliar ensino/pertinência em escopo próprio, sem inflar o H119.
 
 - H118: `conteudo.md` trata 6/7/2026 como data de publicação/corte E1; corrigir para 7/7 em escopo próprio. q anteriores `u118_cijun2023_q36/41/46/48/50`: gabaritos do cargo conferidos na imprensa oficial de Jundiaí, mas o caderno oficial com comando e alternativas não foi obtido; não usar como contraprovante sem conferência integral. As questões de 2023 que citam o Decreto nº 9.373/2018 exigem ressalva temporal frente ao Decreto nº 12.785/2025.
 
