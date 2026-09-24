@@ -15,11 +15,11 @@ function sources(): CatalogSources {
     contests: [
       {
         id: 'concurso-b',
-        data: { schemaVersion: 1, title: 'Concurso B', description: 'B', order: 2, storageId: 'b' },
+        data: { schemaVersion: 1, title: 'Concurso B', description: 'B', order: 2, storageId: 'b', examDate: null },
       },
       {
         id: 'concurso-a',
-        data: { schemaVersion: 1, title: 'Concurso A', description: 'A', order: 1, storageId: 'a' },
+        data: { schemaVersion: 1, title: 'Concurso A', description: 'A', order: 1, storageId: 'a', examDate: null },
       },
     ],
     groups: [
@@ -455,11 +455,11 @@ function linkedSources(): CatalogSources {
     contests: [
       {
         id: 'concurso-a',
-        data: { schemaVersion: 1, title: 'A', description: 'A', order: 1, storageId: 'a' },
+        data: { schemaVersion: 1, title: 'A', description: 'A', order: 1, storageId: 'a', examDate: null },
       },
       {
         id: 'concurso-b',
-        data: { schemaVersion: 1, title: 'B', description: 'B', order: 2, storageId: 'b' },
+        data: { schemaVersion: 1, title: 'B', description: 'B', order: 2, storageId: 'b', examDate: null },
       },
     ],
     groups: [

@@ -82,7 +82,6 @@ async function loadCatalog(): Promise<Catalog> {
     bibliotecaReferenceEntries,
     bibliotecaMegaReviewEntries,
     vinculoEntries,
-    provaEntries,
   ] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
@@ -100,23 +99,7 @@ async function loadCatalog(): Promise<Catalog> {
     getCollection('bibliotecaReferencias'),
     getCollection('bibliotecaMegaRevisoes'),
     getCollection('vinculos'),
-    getCollection('provas'),
   ]);
-
-  const examDateByStorageId = new Map<string, string | null>();
-  for (const entry of provaEntries) {
-    const storageId = entry.data.storageId as string;
-    if (examDateByStorageId.has(storageId)) {
-      throw new Error(`Informação de prova duplicada para o concurso "${storageId}"`);
-    }
-    examDateByStorageId.set(storageId, (entry.data.examDate as string | null) ?? null);
-  }
-  const knownStorageIds = new Set(contestEntries.map((entry) => entry.data.storageId as string));
-  for (const storageId of examDateByStorageId.keys()) {
-    if (!knownStorageIds.has(storageId)) {
-      throw new Error(`Informação de prova sem concurso correspondente: "${storageId}"`);
-    }
-  }
 
   for (const entry of referenceEntries) {
     if (!(entry.body ?? '').trim()) {
@@ -266,7 +249,7 @@ async function loadCatalog(): Promise<Catalog> {
         subjects,
         children: contest.children.map(hydrateGroup),
         offlineInventory: createContestOfflineInventory(contest),
-        examDate: examDateByStorageId.get(contest.storageId) ?? null,
+        examDate: contest.examDate ?? null,
       };
     }),
   };

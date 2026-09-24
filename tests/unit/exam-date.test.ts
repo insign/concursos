@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { contestInfoSchema } from '../../src/lib/content-schema';
+import { contestSchema } from '../../src/lib/content-schema';
 import {
   calendarDateToEpochDays,
   daysUntilExam,
@@ -72,27 +72,22 @@ describe('getLocalTodayIso e formatExamDatePtBr', () => {
   });
 });
 
-describe('contestInfoSchema', () => {
+describe('contestSchema examDate', () => {
+  const base = {
+    schemaVersion: 1 as const,
+    title: 'Concurso',
+    description: 'Descrição',
+    order: 0,
+    storageId: 'exemplo',
+  };
+
   it('aceita data válida e ausência de data', () => {
-    expect(
-      contestInfoSchema.parse({ schemaVersion: 1, storageId: 'exemplo', examDate: '2026-10-15' }),
-    ).toBeTruthy();
-    expect(
-      contestInfoSchema.parse({ schemaVersion: 1, storageId: 'exemplo', examDate: null }),
-    ).toBeTruthy();
+    expect(contestSchema.parse({ ...base, examDate: '2026-10-15' })).toBeTruthy();
+    expect(contestSchema.parse({ ...base, examDate: null })).toBeTruthy();
   });
 
   it('rejeita data inexistente e campos extras', () => {
-    expect(() =>
-      contestInfoSchema.parse({ schemaVersion: 1, storageId: 'exemplo', examDate: '2026-02-30' }),
-    ).toThrow();
-    expect(() =>
-      contestInfoSchema.parse({
-        schemaVersion: 1,
-        storageId: 'exemplo',
-        examDate: null,
-        extra: true,
-      }),
-    ).toThrow();
+    expect(() => contestSchema.parse({ ...base, examDate: '2026-02-30' })).toThrow();
+    expect(() => contestSchema.parse({ ...base, examDate: null, extra: true })).toThrow();
   });
 });

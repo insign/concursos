@@ -39,6 +39,7 @@ describe('content schemas', () => {
         description: 'Descrição',
         order: 0,
         storageId: 'tse',
+        examDate: null,
       }),
     ).toBeTruthy();
     expect(groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: 0 })).toEqual({
