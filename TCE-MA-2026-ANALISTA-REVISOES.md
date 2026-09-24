@@ -302,63 +302,43 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | [a327330](https://github.com/insign/concursos/commit/a327330afb617954981be5c004dcde643b921612) |
 
 ## 9. Pendências abertas em aulas e banco
-- H138–H141: as quatro aulas identificam 6/7/2026, data do ato E1, como publicação/corte legislativo; o Tribunal registra publicação em 7/7. Corrigir as aulas em escopo próprio; os H deste grupo adotam a data de publicação quando a citam.
-- H136: q52213602–03 (IPAAM) têm gabarito definitivo oficial, mas o texto da prova indicado no banco não foi validado em caderno oficial; q52213604 (CRM-DF) tem gabarito definitivo, mas o caderno oficial não abriu. Confirmar origem textual antes de reutilizar como contraprova.
-- H134: q52213404 (SEFA/PR, Analista Fazendário, questão 11) teve prova oficial conferida, mas o gabarito definitivo do cargo/caderno exato ainda não foi localizado; confirmar antes de usar como contraprova.
-- H131: os itens anteriores q52213102–03 apontam para matriz oficial da PGDF, mas texto/gabarito dos itens não foram extraídos de modo independente na consulta; confirmar antes de reutilizá-los como contraprova. A regra material foi conferida na IN nº 5/2017.
-- H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida na aula; caderno e gabarito definitivo não foram conferidos nesta revisão. Reavaliar pertinência e origem em escopo próprio, sem usá-la como contraprova do regime geral.
-- H124–H137: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
-- H128: página direta do Tema 1118 no portal do STF não abriu nesta consulta; revalidar a tese em fonte direta antes de usar q1699 como contraprova independente.
-- H126: inteiro teor da ADI 6.890 não abriu no portal do STF; revalidar diretamente antes de usar q1580 como contraprova independente.
-- H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
 
-- H122: aula registra 6/7/2026 como publicação do edital, que o Tribunal informa ter ocorrido em 7/7; corrigir em escopo próprio. Cadernos oficiais da VUNESP Poá/2015 e Quadrix CREFITO-4/2021 não abriram na consulta; só o gabarito definitivo Quadrix foi conferido. Verificar texto e alternativas desses itens e do q1374 adaptado antes de usá-los como contraprova.
+As correções já publicadas nas aulas foram retiradas desta lista. Os pontos abaixo ainda exigem conferência de fontes, gabaritos ou escopo pedagógico.
 
-- H121: a aula chama 6/7/2026 de publicação do Edital nº 1, ocorrido em 7/7; corrigir na aula em escopo próprio. O caderno tipo 1 da SEMSA/SEMAD Manaus 2022 não abriu na fonte FGV (502), embora o gabarito retificado esteja acessível; não usar q20003 como contraprova textual até conferir a prova oficial.
+### Fontes primárias e gabaritos
 
-- H120: `conteudo.md` identifica 6/7/2026 como publicação E1; publicação ocorreu em 7/7. Ajustar a aula em escopo próprio; H e referências desta campanha usam o corte correto.
+- H136: q52213602–03 (IPAAM) têm gabarito definitivo, mas o texto da prova não foi validado em caderno oficial; q52213604 (CRM-DF) tem gabarito definitivo, mas o caderno oficial não abriu. Conferir a origem textual antes de reutilizar como contraprova.
+- H134: q52213404 (SEFA/PR, Analista Fazendário, questão 11) teve prova oficial conferida, mas falta o gabarito definitivo do cargo/caderno exato.
+- H131: q52213102–03 apontam para a matriz oficial da PGDF, mas texto e gabarito dos itens não foram extraídos de modo independente. A regra material foi conferida na IN nº 5/2017.
+- H128 e H126: revalidar diretamente no STF o Tema 1118 (q1699) e o inteiro teor da ADI 6.890 (q1580) antes de usar esses itens como contraprova independente.
+- H123: q1584–86 não tiveram cadernos e gabaritos definitivos oficiais conferidos; q1586 não deve transformar laudo de irrecuperabilidade em requisito universal de toda baixa.
+- H122: cadernos oficiais da VUNESP Poá/2015 e Quadrix CREFITO-4/2021 não abriram; só o gabarito definitivo Quadrix foi conferido. Verificar texto e alternativas desses itens e da q1374 adaptada.
+- H121: o caderno tipo 1 da SEMSA/SEMAD Manaus 2022 não abriu na FGV (502), embora o gabarito retificado esteja acessível; conferir a prova antes de usar q20003 como contraprova textual.
+- H119: q52211901 (just in time) carece de caderno/gabarito oficial e cobra conceito não desenvolvido na aula. No banco autoral, q1259–61 (Croston/SBA/TSB) e q1319–23 (segurança combinada) exigem fundamentos não ensinados; reavaliar pertinência e ensino.
+- H118: q anteriores `u118_cijun2023_q36/41/46/48/50` têm gabaritos do cargo conferidos na imprensa oficial de Jundiaí, mas não o caderno com comando e alternativas. Ressalvar a data das questões de 2023 que citam o Decreto nº 9.373/2018 diante do Decreto nº 12.785/2025.
+- H117: q1234–37 declaram prova/gabarito FGV de 2018, mas os PDFs oficiais retornaram 502. Conferir caderno, alternativas e gabarito definitivo; tratar “alienação” em q1236 e “residual” em q1237 como formulações da banca, não regras gerais.
+- H100: q8741 usa texto de agregador e gabarito identificado para outro cargo; localizar caderno e gabarito correspondente.
+- H069–H071: a compilação oficial da Lei nº 9.936/2013 omite o inciso XII de 2026, apesar da republicação da Lei nº 12.822/2026 referida em H070. Conferir íntegra da Decisão Normativa nº 28/2017, da IN nº 56/2018 e da Decisão Normativa nº 38/2020 se necessária a conclusão adicional.
+- H064, H066 e H068: os inteiros teores da Arguição 982, da Resolução nº 324/2020 e dos Temas 1287, 642 e 899 não abriram; as aulas se apoiaram em notícias oficiais e normas correlatas. Revalidar o texto primário quando a conclusão depender dele.
+- H049: q5624 adaptada da CAGEPA segue sem confronto independente com o gabarito definitivo.
+- H048: inteiros teores dos Temas do STF citados na aula não abriram diretamente; revalidar os precedentes.
+- H047: notícia do STF sobre o MS 40.799 foi identificada, mas seu texto e o inteiro teor não abriram.
+- H034: q52203402–03 apontam gabarito da FUB 2015 cuja cópia oficial não foi localizada.
+- H029: revalidar a publicação do julgamento do Tema 533 no STF; a aula registra andamento de 6/9, antes da sessão encerrada em 14/9. q522043 exige fundamento processual externo à aula.
 
-- H119: `conteudo.md` chama 6/7/2026 de publicação/corte E1; publicação foi em 7/7. q52211901 sobre just in time não teve caderno/gabarito oficial localizados e cobra conceito não desenvolvido na aula; não usá-la como contraprovante sem conferência e revisão da pertinência. No banco autoral, q1259–61 (métodos Croston/SBA/TSB) e q1319–23 (modelo combinado de segurança) exigem fundamentos não ensinados na aula; avaliar ensino/pertinência em escopo próprio, sem inflar o H119.
+### Cobertura das aulas e pertinência dos itens
 
-- H118: `conteudo.md` trata 6/7/2026 como data de publicação/corte E1; corrigir para 7/7 em escopo próprio. q anteriores `u118_cijun2023_q36/41/46/48/50`: gabaritos do cargo conferidos na imprensa oficial de Jundiaí, mas o caderno oficial com comando e alternativas não foi obtido; não usar como contraprovante sem conferência integral. As questões de 2023 que citam o Decreto nº 9.373/2018 exigem ressalva temporal frente ao Decreto nº 12.785/2025.
-
-- H117: `conteudo.md` chama 6/7/2026 de corte de publicação; corrigir para 7/7 em escopo próprio. q1234–q1237 declaram prova/gabarito FGV de 2018, mas os PDFs oficiais retornaram 502; confirmar caderno, alternativas e gabarito definitivo antes de utilizá-las. q1236 usa “alienação” como necessidade universal e q1237 chama valor contábil remanescente de “residual”: tratar como formulação da banca, não regra geral, até a conferência.
-
-- H116: a aula ainda chama 6/7/2026 (data do ato E1) de corte de publicação; o edital foi publicado em 7/7. Corrigir a aula em escopo próprio; o H e as questões revisadas preservam o corte correto.
-
-- H114: `conteudo.md`, seção 16, confunde a data do ato E1 (6/7/2026) com a publicação (7/7/2026), marco do corte legislativo. Corrigir a aula em escopo próprio.
-- H111: a aula trata 6/7/2026, data do ato E1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir a aula em escopo próprio.
-
-- H108: a aula ainda descreve a ISO 9001:2026 como em publicação na consulta de 8/9; a ISO registra publicação em 16/9/2026, posterior ao edital. Atualizar a indicação temporal da aula em escopo próprio, mantendo as edições anteriores no recorte de E1.
-
-- H095, H098–H102: as aulas tratam 6/7/2026, data do ato, como corte normativo; o Tribunal informa publicação do Edital nº 1 em 7/7. Corrigir as aulas em escopo próprio.
-- H100/q8741: prova anterior declarada tem texto de agregador e gabarito que identifica outro cargo; confirmar caderno e gabarito correspondente antes de utilizar o item.
-
-- H093: a aula trata 6/7 como publicação do E1, embora o Tribunal registre 7/7, e incorpora notícia de 27/8 e mudança empresarial de 1/9 após o corte de 4/8; corrigir a aula em escopo próprio.
-
-- H088: a aula usa a estimativa de 2026 como mais recente no corte de 4/8, mas o arquivo oficial do IBGE foi disponibilizado apenas em 25/8 e a publicação é posterior; corrigir a aula em escopo próprio.
-- H084–H085: as aulas tratam 6/7/2026 (data do ato E1) como publicação e corte; notícia institucional registra publicação em 7/7. Corrigir as aulas em revisão própria.
-- H055–H072: as 18 aulas tratam 6/7, data do Edital nº 1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir nas aulas em escopo próprio.
-- H059: a aula atribui pertinência temática a prefeito/presidente de Câmara em vez dos incisos IV–V do art. 269 e atribui ao Regimento o “sempre que possível” da Lei Orgânica sobre o parecer da consulta. Corrigir na aula.
-- H062–H063: a aula H062 omite Governador da vedação à revisão do art. 139, § 7º. A H063 ensina oito dias no art. 312, cujo texto compilado fixa sete; art. 26 reformado e seus parágrafos antigos exigem conciliação de vigência, inclusive no banco q6513–17. Corrigir em escopo próprio.
-- H061 e H065: q6359 exige CEI/DDNT e q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, sem ensino correspondente nas aulas. Reavaliar pertinência/ensino em escopo próprio.
-- H069–H071: a compilação oficial da Lei nº 9.936/2013 omite o inciso XII de 2026, apesar da republicação da Lei nº 12.822/2026 referida em H070. A íntegra da Decisão Normativa nº 28/2017, da Instrução Normativa nº 56/2018 e da Decisão Normativa nº 38/2020 não abriu diretamente; cotejar em revisão própria se a aula exigir conclusão adicional.
-- H064, H066 e H068: os inteiros teores da Arguição 982, da Resolução nº 324/2020 e dos Temas 1287, 642 e 899 não abriram na consulta anterior; as aulas usaram notícias oficiais e textos normativos correlatos. Revalidar texto primário em revisão própria se a conclusão depender dele.
-
-- H054: a aula usa 6/7 (data do ato E1) como publicação/corte, mas o Tribunal registra 7/7. q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente; revisar ensino/banco no escopo próprio, sem ampliar H/M por essas peculiaridades.
-- H053: a aula trata 6/7, data do ato E1, como corte legislativo; publicação registrada pelo Tribunal foi 7/7. Corrigir a aula em revisão própria.
-- H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com edital, ausente da aula; avaliar ensino ou pertinência do item em revisão própria, sem incorporar precedente isolado ao H/M.
-- H051: q52205101 exige regime de parcelamento/juros e cláusula de contratação em acordo não desenvolvido na aula; verificar pertinência e ensino em revisão própria, sem converter detalhe isolado em regra do H/M.
-- H050: q52205001 envolve incidência sobre partido político e fundos partidários, relação não ensinada na aula; verificar ensino/banco em escopo próprio, sem importar conclusão isolada para H/M.
-- H049: q99050 e q52204901–08 cobram espécies e procedimento detalhado de recurso/revisão/delegação não ensinados integralmente na aula; reavaliar ensino e pertinência no escopo próprio. A questão adaptada q5624 da CAGEPA segue sem confronto independente do gabarito definitivo.
-- H048: a aula informa publicação de E1 em 6/7, mas o Tribunal a registra em 7/7; corrigir em revisão própria. Temas do STF citados na aula não tiveram inteiro teor aberto pelo portal nesta consulta; revalidar os precedentes em revisão própria da aula.
-- H047: a aula fixa jurisprudência em 6/7/2026, embora E1, item 13.33.1, use publicação até 30 dias antes da prova; q52204706–07 exigem prioridade da Lei nº 10.001/2000 e limite federativo/competência do objeto de CPI não desenvolvidos na aula. Reavaliar aula/banco no escopo próprio. A notícia do STF sobre MS 40.799 foi identificada, mas seu texto e o inteiro teor não abriram nesta consulta.
-- H046: q52204604 exige contraste controle de legalidade × mérito ausente da aula; item e gabarito definitivos conferidos. Reavaliar aula/banco no escopo próprio, sem ampliar H por esse item.
-- H037: q52203702 e q52203705 exigem distinguir abdução, ausente da aula; H040: q5108 e q5138 exigem fórmula de existência única, que a aula só menciona sem ensinar. Reavaliar aula/banco em escopo próprio, sem ampliar H/M por esses itens.
-- H039: `conteudo.md`, seção 14, restringe “possível” a verdadeiro em algum diagrama “mas não em todos”, confundindo possibilidade com contingência. Corrigir a aula em revisão própria; considerar possível o que vale em ao menos uma configuração admissível.
-- H029, H032, H033 e H035: `conteudo.md` confunde a data do ato E1 (6/7) com a publicação informada pelo Tribunal (7/7), marco do corte legislativo. Corrigir as aulas em revisão própria.
-- H029: aula descreve como atual em 6/9 o andamento do Tema 533, com sessão encerrada em 14/9 e sem inteiro teor confirmado no portal do STF; q522043 requer fundamento processual fora da aula. Revalidar publicação do julgado e banco na revisão própria.
-- H032: aula trata a Portaria SGD/MGI nº 11.229/2025 como vigente apesar de adiamento a 30/11/2026 e e-SIC como canal paralelo ao Fala.BR após integração em 2020; q522326 exige inciso de custo/risco ausente. Revisar aula/banco em escopo próprio.
-- H035: q5220352 cobra inciso literal sobre flexão gramatical e q522351 detalhe de imagens complexas da norma técnica, não ensinados na aula. Reavaliar adequação e ensino em revisão própria.
-- H034: q52203402–q52203403 apontam gabarito da FUB 2015 cuja cópia oficial não foi localizada; confirmar fonte primária antes de usar como evidência.
-- H028 e H027: banco do primeiro cobra detalhes de conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino de multa ausentes da aula; banco do segundo cobra SPF/DKIM/DMARC, OAuth e adware/stalkerware também ausentes. Reavaliar pertinência, realocação ou ensino nas revisões próprias, sem inflar H/M.
+- H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida; caderno e gabarito definitivo também não foram conferidos. Reavaliar pertinência e origem.
+- H062–H063: conciliar a vigência do art. 26 do Regimento reformado com os parágrafos antigos ainda exibidos na compilação, inclusive para q6513–17.
+- H061 e H065: q6359 exige CEI/DDNT e q6627 cobra remissão literal do art. 109 aos arts. 96, VIII, e 99, sem ensino correspondente.
+- H054: q99255–59 cobram regimes especiais de contas anuais de gestão do prefeito, convênio, falta de candidatos técnicos e autonomia/princípios do Ministério Público de Contas não ensinados integralmente.
+- H052: q99252 cobra tese específica do Tema 485 sobre compatibilidade da prova com o edital, ausente da aula.
+- H051: q52205101 exige regime de parcelamento/juros e cláusula de contratação em acordo não desenvolvido.
+- H050: q52205001 envolve incidência sobre partido político e fundos partidários não ensinada.
+- H049: q99050 e q52204901–08 cobram espécies e procedimentos de recurso, revisão e delegação não ensinados integralmente.
+- H047: q52204706–07 exigem prioridade da Lei nº 10.001/2000 e limite federativo/competência do objeto de CPI não desenvolvidos.
+- H046: q52204604 exige contraste entre controle de legalidade e mérito ausente da aula; item e gabarito definitivos conferidos.
+- H037: q52203702 e q52203705 exigem abdução ausente da aula. H040: q5108 e q5138 exigem fórmula de existência única apenas mencionada.
+- H032: q522326 exige inciso de custo/risco ausente da aula.
+- H035: q5220352 cobra inciso literal sobre flexão gramatical e q522351, detalhe de imagens complexas da norma técnica, não ensinados.
+- H028 e H027: o primeiro banco cobra conciliação por vazamento individual, conteúdo mínimo literal do RIPD e destino de multa; o segundo cobra SPF/DKIM/DMARC, OAuth e adware/stalkerware, ausentes das respectivas aulas. Reavaliar ensino, pertinência ou realocação sem ampliar H/M por peculiaridades isoladas.
