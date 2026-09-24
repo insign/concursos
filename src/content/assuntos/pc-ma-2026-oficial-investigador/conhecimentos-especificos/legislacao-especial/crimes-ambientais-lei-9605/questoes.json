@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u128-a01",
@@ -64,7 +64,7 @@
     },
     {
       "id": "u128-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A responsabilização penal de diretor ou administrador por crime ambiental",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "exige individualização de sua conduta ou omissão penalmente relevante e culpabilidade."
+          "text": "é objetiva."
         },
         {
           "id": "C",
-          "text": "é objetiva."
+          "text": "exige individualização de sua conduta ou omissão penalmente relevante e culpabilidade."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "é dispensada se a empresa for processada."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A lei e a jurisprudência não admitem responsabilidade penal individual apenas pela posição hierárquica."
     },
     {
       "id": "u128-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A desconsideração da pessoa jurídica prevista no artigo 4º é cabível quando sua personalidade",
       "options": [
         {
           "id": "A",
-          "text": "constitui obstáculo ao ressarcimento dos prejuízos causados ao meio ambiente."
+          "text": "foi criada há menos de um ano."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "foi criada há menos de um ano."
+          "text": "constitui obstáculo ao ressarcimento dos prejuízos causados ao meio ambiente."
         },
         {
           "id": "E",
           "text": "não possui fins lucrativos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 4º liga a desconsideração à superação de obstáculo ao ressarcimento ambiental."
     },
     {
       "id": "u128-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As penas restritivas de direitos podem substituir a pena privativa de liberdade, entre outros requisitos, quando",
       "options": [
         {
           "id": "A",
-          "text": "o crime for culposo ou a pena privativa aplicada for inferior a quatro anos."
+          "text": "a vítima for pessoa física."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "a vítima for pessoa física."
+          "text": "o crime for culposo ou a pena privativa aplicada for inferior a quatro anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "É a regra do artigo 7º, combinada com a suficiência da substituição conforme as circunstâncias."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u128-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prestação pecuniária prevista na Lei nº 9.605/1998 é fixada entre",
       "options": [
         {
           "id": "A",
-          "text": "um e trezentos e sessenta salários mínimos."
+          "text": "um e dez salários mínimos."
         },
         {
           "id": "B",
-          "text": "um e dez salários mínimos."
+          "text": "um e trezentos e sessenta salários mínimos."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "cem e mil salários mínimos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 12 fixa o intervalo de 1 a 360 salários mínimos."
     },
     {
       "id": "u128-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A multa penal pode ser aumentada até três vezes se",
       "options": [
         {
           "id": "A",
-          "text": "o valor máximo se revelar ineficaz diante da vantagem econômica auferida."
+          "text": "a pessoa for primária."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "a pessoa for primária."
+          "text": "o valor máximo se revelar ineficaz diante da vantagem econômica auferida."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "a vítima for o poder público."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 18 autoriza elevação até o triplo quando o máximo é ineficaz em razão da vantagem econômica."
     },
     {
       "id": "u128-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as penas aplicáveis à pessoa jurídica estão",
       "options": [
         {
           "id": "A",
-          "text": "multa, restritivas de direitos e prestação de serviços à comunidade."
+          "text": "prisão domiciliar de diretores."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "prisão domiciliar de diretores."
+          "text": "multa, restritivas de direitos e prestação de serviços à comunidade."
         },
         {
           "id": "E",
           "text": "interdição permanente obrigatória."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 21 enumera essas três categorias."
     },
     {
       "id": "u128-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A proibição imposta à pessoa jurídica de contratar com o poder público e dele obter subsídios, subvenções ou doações",
       "options": [
         {
           "id": "A",
-          "text": "não pode exceder dez anos."
+          "text": "não está prevista na lei."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "não está prevista na lei."
+          "text": "não pode exceder dez anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 22, §3º, limita essa restrição a dez anos."
     },
     {
       "id": "u128-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a ADPF 640 do Supremo Tribunal Federal, a disciplina sobre animais apreendidos",
       "options": [
         {
           "id": "A",
-          "text": "pode ser interpretada para permitir abate imediato em qualquer caso de maus-tratos."
+          "text": "não pode receber interpretação que autorize abate imediato de animais apreendidos em situação de maus-tratos apenas com base nos dispositivos questionados."
         },
         {
           "id": "B",
-          "text": "não pode receber interpretação que autorize abate imediato de animais apreendidos em situação de maus-tratos apenas com base nos dispositivos questionados."
+          "text": "pode ser interpretada para permitir abate imediato em qualquer caso de maus-tratos."
         },
         {
           "id": "C",
@@ -329,22 +329,22 @@
           "text": "não alcança animais domésticos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O STF afastou interpretação que invertesse a proteção constitucional e permitisse o sacrifício imediato nessas situações."
     },
     {
       "id": "u128-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os crimes previstos na Lei nº 9.605/1998 são, em regra, de ação penal",
       "options": [
         {
           "id": "A",
-          "text": "pública incondicionada."
+          "text": "privada exclusiva."
         },
         {
           "id": "B",
-          "text": "privada exclusiva."
+          "text": "pública incondicionada."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "civil pública."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 26 estabelece ação penal pública incondicionada."
     },
     {
       "id": "u128-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos crimes ambientais de menor potencial ofensivo, a transação penal depende, em regra,",
       "options": [
         {
           "id": "A",
-          "text": "da prévia composição do dano ambiental, salvo comprovada impossibilidade."
+          "text": "da renúncia ao direito de defesa."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "da renúncia ao direito de defesa."
+          "text": "da prévia composição do dano ambiental, salvo comprovada impossibilidade."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "de condenação anterior."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 27 condiciona a proposta à composição prévia, ressalvada impossibilidade comprovada."
     },
     {
       "id": "u128-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 29, o juiz pode deixar de aplicar a pena, conforme as circunstâncias, na hipótese de",
       "options": [
         {
           "id": "A",
-          "text": "guarda doméstica de espécie silvestre não considerada ameaçada de extinção."
+          "text": "comércio de espécie ameaçada."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "comércio de espécie ameaçada."
+          "text": "guarda doméstica de espécie silvestre não considerada ameaçada de extinção."
         },
         {
           "id": "E",
           "text": "uso de método de destruição em massa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O §2º do artigo 29 prevê essa possibilidade específica."
     },
     {
       "id": "u128-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 29 da Lei de Crimes Ambientais",
       "options": [
         {
           "id": "A",
-          "text": "não se aplica aos atos de pesca."
+          "text": "não alcança ovos ou larvas."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "não alcança ovos ou larvas."
+          "text": "não se aplica aos atos de pesca."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §6º exclui os atos de pesca, tratados em dispositivos próprios."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u128-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se o crime do artigo 29 decorre do exercício de caça profissional,",
       "options": [
         {
           "id": "A",
-          "text": "a pena pode ser aumentada até o triplo."
+          "text": "a pena aumenta apenas de metade."
         },
         {
           "id": "B",
-          "text": "a pena aumenta apenas de metade."
+          "text": "a pena pode ser aumentada até o triplo."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "aplica-se o artigo 34."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O §5º prevê aumento até o triplo na caça profissional."
     },
     {
       "id": "u128-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando maus-tratos do artigo 32 são praticados contra cão ou gato, a pena é",
       "options": [
         {
           "id": "A",
-          "text": "reclusão de dois a cinco anos, multa e proibição da guarda."
+          "text": "reclusão de um a três anos."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "reclusão de um a três anos."
+          "text": "reclusão de dois a cinco anos, multa e proibição da guarda."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "reclusão de oito a dezesseis anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O §1º-A estabelece faixa e consequência próprias para cães e gatos."
     },
     {
       "id": "u128-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.150/2025 passou a alcançar expressamente, no artigo 32,",
       "options": [
         {
           "id": "A",
-          "text": "tatuagem e colocação de piercing em cães e gatos com fins estéticos."
+          "text": "identificação obrigatória por microchip."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "identificação obrigatória por microchip."
+          "text": "tatuagem e colocação de piercing em cães e gatos com fins estéticos."
         },
         {
           "id": "E",
           "text": "tratamento terapêutico prescrito."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O §1º-B foi criado para tatuagens e piercings estéticos em cães e gatos."
     },
     {
       "id": "u128-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.355/2026 acrescentou ao artigo 32 hipótese relativa a",
       "options": [
         {
           "id": "A",
-          "text": "desastre ambiental que prejudique vida, integridade física ou bem-estar de animais silvestres ou domésticos."
+          "text": "poluição sonora exclusivamente."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "poluição sonora exclusivamente."
+          "text": "desastre ambiental que prejudique vida, integridade física ou bem-estar de animais silvestres ou domésticos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §1º-C incorporou essa hipótese antes do corte do edital."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u128-a22",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 48, segundo a jurisprudência do Superior Tribunal de Justiça,",
       "options": [
         {
           "id": "A",
-          "text": "pode configurar crime permanente enquanto persiste o impedimento à regeneração natural."
+          "text": "é sempre crime instantâneo."
         },
         {
           "id": "B",
-          "text": "é sempre crime instantâneo."
+          "text": "pode configurar crime permanente enquanto persiste o impedimento à regeneração natural."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "só existe em área urbana."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O STJ reconhece permanência quando a situação ilícita continua impedindo ou dificultando a regeneração."
     },
     {
@@ -694,13 +694,13 @@
     },
     {
       "id": "u128-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Tema Repetitivo 1.377, o Superior Tribunal de Justiça decidiu que a primeira parte do artigo 54",
       "options": [
         {
           "id": "A",
-          "text": "é crime formal, bastando potencialidade de dano à saúde humana, sem exigência de dano efetivo ou perícia técnica obrigatória."
+          "text": "foi revogada."
         },
         {
           "id": "B",
@@ -712,25 +712,25 @@
         },
         {
           "id": "D",
-          "text": "foi revogada."
+          "text": "é crime formal, bastando potencialidade de dano à saúde humana, sem exigência de dano efetivo ou perícia técnica obrigatória."
         },
         {
           "id": "E",
           "text": "é contravenção penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A tese repetitiva admite qualquer meio idôneo para provar a potencialidade de dano."
     },
     {
       "id": "u128-a25",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A forma qualificada do artigo 54, §2º, prevê pena de",
       "options": [
         {
           "id": "A",
-          "text": "reclusão de um a cinco anos."
+          "text": "reclusão de oito a dezesseis anos."
         },
         {
           "id": "B",
@@ -746,10 +746,10 @@
         },
         {
           "id": "E",
-          "text": "reclusão de oito a dezesseis anos."
+          "text": "reclusão de um a cinco anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O §2º fixa reclusão de 1 a 5 anos nas hipóteses qualificadas."
     },
     {
@@ -784,17 +784,17 @@
     },
     {
       "id": "u128-a27",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.190/2025, o artigo 60 passou a prever pena de",
       "options": [
         {
           "id": "A",
-          "text": "detenção de seis meses a dois anos, ou multa, ou ambas."
+          "text": "detenção de um a seis meses apenas."
         },
         {
           "id": "B",
-          "text": "detenção de um a seis meses apenas."
+          "text": "detenção de seis meses a dois anos, ou multa, ou ambas."
         },
         {
           "id": "C",
@@ -809,18 +809,18 @@
           "text": "reclusão de um a cinco anos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A Lei Geral do Licenciamento Ambiental ampliou a pena antes do corte."
     },
     {
       "id": "u128-a28",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a atividade do artigo 60 estiver sujeita a estudo prévio de impacto ambiental, a Lei nº 15.190/2025 prevê",
       "options": [
         {
           "id": "A",
-          "text": "aumento de pena até o dobro."
+          "text": "extinção automática da punibilidade."
         },
         {
           "id": "B",
@@ -828,7 +828,7 @@
         },
         {
           "id": "C",
-          "text": "extinção automática da punibilidade."
+          "text": "aumento de pena até o dobro."
         },
         {
           "id": "D",
@@ -839,18 +839,18 @@
           "text": "nenhuma consequência penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O parágrafo único acrescentado ao artigo 60 prevê aumento até o dobro."
     },
     {
       "id": "u128-a29",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No artigo 67, após a Lei nº 15.190/2025, o funcionário público responde quando",
       "options": [
         {
           "id": "A",
-          "text": "concede dolosamente licença, autorização ou permissão que sabe estar em desacordo com normas ambientais."
+          "text": "atua sem qualquer conhecimento do desacordo."
         },
         {
           "id": "B",
@@ -862,25 +862,25 @@
         },
         {
           "id": "D",
-          "text": "atua sem qualquer conhecimento do desacordo."
+          "text": "concede dolosamente licença, autorização ou permissão que sabe estar em desacordo com normas ambientais."
         },
         {
           "id": "E",
           "text": "apenas atrasa o procedimento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A alteração passou a exigir dolo e conhecimento do desacordo; a antiga forma culposa foi revogada."
     },
     {
       "id": "u128-a30",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 69-A pune, entre outras condutas,",
       "options": [
         {
           "id": "A",
-          "text": "elaborar ou apresentar estudo, laudo ou relatório ambiental falso ou enganoso, inclusive por omissão."
+          "text": "qualquer erro material culposo sem previsão legal."
         },
         {
           "id": "B",
@@ -896,10 +896,10 @@
         },
         {
           "id": "E",
-          "text": "qualquer erro material culposo sem previsão legal."
+          "text": "elaborar ou apresentar estudo, laudo ou relatório ambiental falso ou enganoso, inclusive por omissão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 69-A tipifica falsidade ou enganosidade em documentos ambientais e também possui forma culposa própria."
     },
     {
@@ -934,17 +934,17 @@
     },
     {
       "id": "u128-a32",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No processo administrativo ambiental, os prazos máximos do artigo 71 para defesa, julgamento, recurso e pagamento da multa são, respectivamente,",
       "options": [
         {
           "id": "A",
-          "text": "20, 30, 20 e 5 dias."
+          "text": "30, 30, 30 e 10 dias."
         },
         {
           "id": "B",
-          "text": "30, 30, 30 e 10 dias."
+          "text": "20, 30, 20 e 5 dias."
         },
         {
           "id": "C",
@@ -959,18 +959,18 @@
           "text": "20, 60, 20 e 30 dias."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A sequência legal é 20–30–20–5."
     },
     {
       "id": "u128-a33",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as sanções administrativas ambientais do artigo 72 está",
       "options": [
         {
           "id": "A",
-          "text": "multa diária."
+          "text": "prisão preventiva."
         },
         {
           "id": "B",
@@ -978,7 +978,7 @@
         },
         {
           "id": "C",
-          "text": "prisão preventiva."
+          "text": "multa diária."
         },
         {
           "id": "D",
@@ -989,18 +989,18 @@
           "text": "banimento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A multa diária integra o rol administrativo, ao lado de advertência, multa simples, apreensão, embargo e outras."
     },
     {
       "id": "u128-a34",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A proibição administrativa de contratar com a Administração Pública, como restritiva de direitos do artigo 72, pode durar até",
       "options": [
         {
           "id": "A",
-          "text": "três anos."
+          "text": "vinte anos."
         },
         {
           "id": "B",
@@ -1012,25 +1012,25 @@
         },
         {
           "id": "D",
-          "text": "vinte anos."
+          "text": "três anos."
         },
         {
           "id": "E",
           "text": "prazo indeterminado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O limite administrativo é de três anos; não confundir com os dez anos possíveis para pessoa jurídica na esfera penal."
     },
     {
       "id": "u128-a35",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A multa administrativa ambiental prevista no artigo 75 varia, em valores legais, entre",
       "options": [
         {
           "id": "A",
-          "text": "R$ 50 e R$ 50 milhões."
+          "text": "R$ 100 mil e R$ 300 mil."
         },
         {
           "id": "B",
@@ -1046,10 +1046,10 @@
         },
         {
           "id": "E",
-          "text": "R$ 100 mil e R$ 300 mil."
+          "text": "R$ 50 e R$ 50 milhões."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Esses são os limites legais da multa administrativa; outros intervalos da lei se referem a sanções distintas."
     },
     {
@@ -1114,13 +1114,13 @@
     },
     {
       "id": "u128-a38",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As sanções penais e administrativas por dano ambiental",
       "options": [
         {
           "id": "A",
-          "text": "podem coexistir com a obrigação de reparar o dano."
+          "text": "só alcançam pessoas físicas."
         },
         {
           "id": "B",
@@ -1128,7 +1128,7 @@
         },
         {
           "id": "C",
-          "text": "só alcançam pessoas físicas."
+          "text": "podem coexistir com a obrigação de reparar o dano."
         },
         {
           "id": "D",
@@ -1139,12 +1139,12 @@
           "text": "são mutuamente excludentes."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Constituição e Lei nº 9.605/1998 preservam a independência da obrigação reparatória."
     },
     {
       "id": "u128-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 49 da prova objetiva Cebraspe da Procuradoria-Geral do Estado do Rio Grande do Norte, concurso 2023, assinale a alternativa correta sobre o artigo 29 da Lei nº 9.605/1998.",
       "options": [
@@ -1158,18 +1158,18 @@
         },
         {
           "id": "C",
-          "text": "O artigo 29 não se aplica aos atos de pesca, e o juiz pode deixar de aplicar a pena na guarda doméstica de espécie silvestre não ameaçada, conforme as circunstâncias."
+          "text": "A caça profissional não produz aumento de pena."
         },
         {
           "id": "D",
-          "text": "A caça profissional não produz aumento de pena."
+          "text": "O artigo 29 não se aplica aos atos de pesca, e o juiz pode deixar de aplicar a pena na guarda doméstica de espécie silvestre não ameaçada, conforme as circunstâncias."
         },
         {
           "id": "E",
           "text": "Toda guarda doméstica de fauna silvestre exige aplicação obrigatória da pena."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A questão original tinha como corretos os itens II e IV: o artigo 29 não se aplica à pesca e admite, nas condições legais, não aplicação da pena na guarda doméstica de espécie silvestre não ameaçada. A adaptação não reproduz literalmente a prova."
     }
   ]
