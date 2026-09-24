@@ -239,7 +239,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H111 | `empreendedorismo-liderancas` | = | L | [`e7f4069`](https://github.com/insign/concursos/commit/e7f4069f8b80b685473804a61e80f40c56600e7a) |
 | H112 | `gestao-resultados-publica-privada-paradigma-cliente` | `gestao-resultados-cliente` | L | [`f5c1ff5`](https://github.com/insign/concursos/commit/f5c1ff52cf1aa4101895ec4e1ce3b88bc7a99d51) |
 | H113 | `sustentabilidade-publica` | = | L | [`395b5b7`](https://github.com/insign/concursos/commit/395b5b732c499634309bb97ce60a9e99402b096f) |
-| H114 | `acessibilidade-na-gestao-publica` | `acessibilidade-gestao-publica` | L | — |
+| H114 | `acessibilidade-na-gestao-publica` | `acessibilidade-gestao-publica` | L | [`eccaa12`](https://github.com/insign/concursos/commit/eccaa12d7fe5da6392e1358ca250360eda56f113) |
 
 ### M09 — Administração de Recursos Materiais e Patrimoniais
 
@@ -301,6 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H114: `conteudo.md`, seção 16, confunde a data do ato E1 (6/7/2026) com a publicação (7/7/2026), marco do corte legislativo. Corrigir a aula em escopo próprio.
 - H111: a aula trata 6/7/2026, data do ato E1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir a aula em escopo próprio.
 
 - H108: a aula ainda descreve a ISO 9001:2026 como em publicação na consulta de 8/9; a ISO registra publicação em 16/9/2026, posterior ao edital. Atualizar a indicação temporal da aula em escopo próprio, mantendo as edições anteriores no recorte de E1.
