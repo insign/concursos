@@ -13,3 +13,7 @@
 - FUNDAÇÃO GETULIO VARGAS. [Concurso Público para a Secretaria do Tesouro Nacional — 2024](https://conhecimento.fgv.br/concursos/stn). Página oficial com provas e gabaritos.
 - FUNDAÇÃO GETULIO VARGAS. [Secretaria do Tesouro Nacional 2024 — Área Contábil, Tipo 1, manhã](https://conhecimento.fgv.br/sites/default/files/concursos/area-contabilcns103-tipo-1.pdf). Questões 7 e 28, usadas apenas como base para adaptações não literais.
 - FUNDAÇÃO GETULIO VARGAS. [Secretaria do Tesouro Nacional 2024 — gabarito oficial definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/stn2024_gabaritos_manha-e-tarde_sdjsldds.pdf). Para a Área Contábil, Tipo 1, manhã: questão 7 = B e questão 28 = A.
+
+## Proveniência do reaproveitamento parcial — pendência documental
+
+A matriz herdada PC-R02 classifica U061 como **parcial**, porém o pacote publicado e o registro recebido não identificam uma origem física ou canônica, os trechos aproveitados nem os blobs do doador. O capítulo `tce-ma-2026-tecnico-administrativa/conhecimentos-especificos/execucao-orcamentaria-financeira/mcasp-11-edicao/` contém fundamentos coincidentes de estágios da despesa (C `f80bf7a553df93824b148eed803ab11b339619ce`), mas essa compatibilidade temática, por si só, não comprova o reaproveitamento histórico nem autoriza atribuí-lo como doador. A unidade local conserva o conteúdo e as fontes primárias acima; a classificação/proveniência será reconciliada no arquivo-mestre antes do encerramento da PC-F02.
