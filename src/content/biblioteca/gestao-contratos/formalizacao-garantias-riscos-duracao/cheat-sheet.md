@@ -1,216 +1,89 @@
 # Formalização, garantias, riscos e duração
 
-## Corte temporal
+**Corte:** publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> em **7/7/2026**. Valores de 2026 desde 1º/1/2026. A Lei nº 15.471/2026, publicada em 21/7, é posterior ao corte; orientação federal não se aplica automaticamente ao tribunal estadual.
 
-- **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
-- **Pós-edital:** Lei nº 15.471/2026 alterou o art. 75, XVI, em 21/7/2026; não substituir a redação-base do corte.
-- Orientação federal não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+**Roteiro:** vencedor → convocação → instrumento e cláusulas → publicidade/eficácia → garantia e riscos → duração. Seleção, assinatura e eficácia são momentos distintos.
 
-## Mapa do recorte
+## 1. Do vencedor ao ajuste (artigos 89 a 93)
 
-| Arts. | Tema |
+| Situação | Decisão e condição |
 |---|---|
-| 89-95 | formação, cláusulas, publicidade e instrumento |
-| 96-102 | garantias e seguro-garantia |
-| 103 | alocação de riscos |
-| 104 | prerrogativas administrativas |
-| 105-114 | duração dos contratos |
+| Vencedor convocado | Assina, aceita ou retira o instrumento no prazo e condições do edital; pode pedir **uma** prorrogação por igual período, ainda no prazo original, com justificativa aceita. Sem convocação até o fim da validade da proposta, os licitantes ficam liberados. |
+| Recusa do vencedor | Chamar remanescentes **na ordem**, primeiro nas condições do vencedor; se nenhum aceitar, negociar preço melhor, mesmo superior ao dele, observado o estimado atualizado; frustrada a negociação, contratar nas condições ofertadas pelos remanescentes, ainda na ordem e dentro do estimado atualizado. |
+| Recusa injustificada do adjudicatário (vencedor a quem o objeto foi atribuído) | Descumprimento total: sanções e perda imediata da **garantia de proposta**. Essa consequência não alcança o remanescente chamado para negociar. |
+| Contrato anterior extinto | Convocar classificados para concluir o remanescente da obra, serviço ou fornecimento, com os critérios acima. Saldo de despesa empenhada a liquidar ou de **restos a pagar não processados** (despesa empenhada ainda não liquidada) pode aproveitar à nova contratada; se a convocação fracassar, pode compor disponibilidade para nova licitação vantajosa do mesmo objeto. |
 
-## Regime e conteúdo
+**Regime:** cláusulas e preceitos de direito público prevalecem; teoria geral dos contratos e direito privado aplicam-se supletivamente, quando compatíveis. O documento identifica partes, representantes, finalidade, autorização, processo e sujeição à lei. Na licitação, vincula-se ao **edital + proposta vencedora**; na contratação direta, ao **ato autorizador + proposta**.
 
-- Cláusulas + direito público; direito privado apenas supletivamente.
-- Identificar partes, representantes, finalidade, autorização, processo e sujeição à Lei.
-- Licitação: contrato conforme edital e proposta vencedora.
-- Contratação direta: contrato conforme ato autorizador e proposta.
+**Forma e controle:** contrato e **aditivo** (instrumento de modificação) são escritos, integram o processo, divulgados e disponíveis em sítio oficial. Forma eletrônica depende do regulamento; sigilo só quando imprescindível à segurança da sociedade e do Estado. Direitos reais sobre imóvel exigem escritura pública e divulgação de seu teor. Antes de formalizar **ou prorrogar**, verificar regularidade fiscal, consultar <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr> e <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>, obter certidões negativas de inidoneidade, impedimento e débitos trabalhistas e juntá-las ao processo.
 
-## Convocação
+### Cláusulas necessárias: leia pelas perguntas da execução
 
-- Vencedor assina, aceita ou retira o instrumento no prazo do edital.
-- Prorrogação: uma vez, por igual período, a pedido tempestivo, justificado e aceito.
-- Proposta vencida sem convocação: licitantes liberados.
-- Recusa: chamar remanescentes na ordem e nas condições do vencedor.
-- Se ninguém aceitar: negociar preço melhor, ainda que acima do adjudicatário; depois, contratar oferta do remanescente, dentro do estimado atualizado.
-- Recusa injustificada do adjudicatário: descumprimento total, sanções e perda imediata da garantia de proposta.
-- A perda não alcança remanescente chamado apenas para negociar.
-- Remanescente de contrato rescindido: mesmos critérios.
-- Saldo empenhado/restos a pagar não processados pode seguir para nova contratada; frustrada a convocação, pode financiar nova licitação vantajosa com o mesmo objeto.
-
-## Forma e controles
-
-- Contrato e aditivo: escritos, no processo, divulgados e disponíveis em sítio oficial.
-- Sigilo: somente se imprescindível à segurança da sociedade e do Estado.
-- Forma eletrônica: admitida conforme regulamento.
-- Direito real sobre imóvel: escritura pública + divulgação.
-- Antes de formar ou prorrogar: regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões de inidoneidade, impedimento e débitos trabalhistas.
-
-## Cláusulas necessárias — matriz de memória
-
-| Bloco | Lembretes do art. 92 |
+| Pergunta | Conteúdo que não pode desaparecer (artigo 92) |
 |---|---|
-| objeto e fonte | objeto; edital/proposta ou ato direto/proposta; legislação |
-| execução | regime/fornecimento; prazos; recebimento; gestão; extinção |
-| preço | preço; pagamento; reajuste/data-base; medição; respostas a repactuação/reequilíbrio |
-| orçamento e risco | crédito; matriz quando cabível; garantias |
-| pós-entrega | garantia mínima; manutenção; assistência; importação/câmbio |
-| deveres | direitos/responsabilidades; penalidades; habilitação; reservas legais de cargos |
+| O quê e com qual base? | Objeto e características; vinculação ao edital e à proposta, ou ao ato direto e à proposta; legislação aplicável. |
+| Como e quando? | Regime de execução/fornecimento, prazos de etapas, conclusão, entrega, observação e recebimento; modelo de gestão e hipóteses de extinção. |
+| Quanto, quando e com qual crédito? | Preço, pagamento, atualização monetária, índice/data-base/periodicidade de reajustamento, medição, prazos de **liquidação** (verificação do direito do credor) e pagamento, crédito orçamentário. |
+| Como reage a custos e riscos? | **Matriz de riscos** (distribuição contratual de eventos), quando cabível; garantias; prazo de resposta à repactuação e ao pedido de restabelecimento do equilíbrio econômico-financeiro. |
+| O que permanece devido? | Garantia mínima do objeto, manutenção/assistência técnica, importação e câmbio quando cabíveis; direitos, responsabilidades, multas e sanções; manutenção da habilitação/qualificação e reserva legal de vagas para pessoa com deficiência, reabilitado e aprendiz. |
 
-## Cláusulas especiais
+O **foro** é o da sede da Administração, inclusive com parte domiciliada fora do país; ressalvas: financiamento internacional nas condições legais, equipamento fabricado e entregue no exterior por empresa estrangeira com autorização do chefe do Executivo e aquisição por unidade administrativa sediada no exterior. Conforme o objeto, prever prazo anterior à ordem de serviço para liberar áreas e sanar pendências.
 
-- Foro: sede da Administração, ressalvadas três hipóteses internacionais.
-- Índice de reajuste sempre, com data-base no orçamento estimado.
-- Pode haver vários índices específicos/setoriais.
-- Contínuo sem predominância de mão de obra: reajuste por índice.
-- Contínuo com dedicação exclusiva/predominância: repactuação analítica.
-- Interregno mínimo: um ano.
-- Engenharia: medição mensal, se compatível.
-- Resposta à repactuação: preferencialmente um mês após documentação.
-- Adimplemento inclui evento contratual que autorize documento de cobrança.
+| Mecanismo de preço | Gatilho e limite |
+|---|---|
+| **Reajustamento** | Variação ordinária por índice, obrigatório como cláusula independentemente da duração; data-base do orçamento estimado e possíveis índices específicos/setoriais. No serviço contínuo sem dedicação exclusiva ou predominância de mão de obra, usar índice. |
+| **Repactuação** | Demonstração analítica da variação de custos do serviço contínuo com dedicação exclusiva ou predominância de mão de obra; intervalo mínimo de **um ano**. Resposta preferencial em um mês após entrega da documentação. |
+| **Restabelecimento do equilíbrio** | Recompõe a relação econômica inicial diante de causa juridicamente relevante, conforme lei e matriz; o contrato prevê prazo de resposta. A execução detalhada fica no assunto seguinte. |
 
-## Direitos patrimoniais
+Medição de engenharia é mensal se compatível com o regime. **Adimplemento**, aqui, é o evento contratual (entrega, serviço, obra ou parcela) que autoriza a emissão do documento de cobrança. Em projetos, serviços técnicos e software com documentação, a regra é cessão de **direitos patrimoniais** para uso e alteração pela Administração; em pesquisa, desenvolvimento e inovação pode ser dispensada. Para obra tecnológica imaterial, a cessão alcança dados e elementos técnicos; alteração posterior do projeto requer comunicação ao autor e registro. Autoria intelectual não desaparece.
 
-- Projeto, serviço técnico, software e documentação: cessão patrimonial à Administração.
-- Obra tecnológica imaterial: inclui dados e elementos da tecnologia.
-- <abbr title="Pesquisa e Desenvolvimento">P&D</abbr> científico, tecnológico ou inovação: cessão pode ser dispensada.
-- Alteração posterior pela Administração: comunicar autor e registrar.
+## 2. Documento, publicidade e eficácia (artigos 94 e 95)
 
-## <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> e eficácia
+**Termo de contrato é a regra.** Pode ser substituído por instrumento **escrito** hábil na dispensa por valor ou na compra de entrega **imediata e integral** sem obrigação futura, qualquer que seja o valor. Imediata = até **30 dias da ordem**; assistência técnica futura afasta a segunda hipótese. Cláusulas do artigo 92 aplicam-se no que couber. Contrato verbal é nulo, exceto pequenas compras ou serviços de pronto pagamento até **R$ 13.098,41 em 2026**.
 
-| Origem | Prazo após assinatura |
+| Origem | Divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> após assinatura |
 |---|---:|
-| licitação | 20 dias úteis |
-| contratação direta | 10 dias úteis |
+| Licitação | **20 dias úteis** |
+| Contratação direta | **10 dias úteis** |
 
-- Divulgação no PNCP = condição de eficácia de contrato e aditivo.
-- Urgência: eficácia desde assinatura, mas publicação continua obrigatória; omissão gera nulidade.
-- Obra: preços/quantidades contratados em 25 dias úteis; executados em 45 dias úteis após conclusão.
-- Artista por inexigibilidade: discriminar cachê, transporte, hospedagem, infraestrutura, logística e demais despesas.
+A divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> condiciona a **eficácia** do contrato e aditivo. Na urgência, a eficácia começa na assinatura; a publicação ainda é exigida no prazo, sob pena de nulidade. Em obras, divulgar em sítio oficial preços e quantitativos **contratados em 25 dias úteis da assinatura** e **executados em 45 dias úteis da conclusão**. Na inexigibilidade de artista, discriminar cachê, banda/músicos, transporte, hospedagem, infraestrutura, logística e outras despesas específicas.
 
-## Instrumento e contrato verbal
+## 3. Garantia: exigência, modalidade, base (artigos 96 a 102)
 
-- Termo de contrato é regra.
-- Substituição por instrumento escrito hábil:
-  - dispensa por valor;
-  - compra com entrega imediata e integral, sem obrigação futura, qualquer valor.
-- Entrega imediata: até 30 dias da ordem.
-- Assistência técnica ou obrigação futura impede a segunda hipótese.
-- Art. 92 aplica-se no que couber.
-- Contrato verbal: nulo.
-- Exceção em 2026: pequena compra ou serviço de pronto pagamento até **R$ 13.098,41**.
+**Autoridade decide exigir** garantia de obra, serviço ou fornecimento, com previsão no edital; **contratado escolhe** em regra entre caução em dinheiro ou títulos públicos escriturais, seguro-garantia, fiança de instituição financeira autorizada pelo Banco Central e título de capitalização de pagamento único com resgate total. Na engenharia com cláusula de retomada, o edital pode exigir seguro-garantia. Se o contratado escolher seguro, o edital dá **ao menos um mês da homologação, antes da assinatura**, para prestá-lo. Suspensão por ordem ou inadimplemento administrativo desobriga renovação/endosso até reinício ou adimplemento.
 
-## Garantias
-
-- Exigência: decisão da autoridade + previsão no edital.
-- Escolha da modalidade: em regra, do contratado.
-- Modalidades:
-  - caução em dinheiro ou títulos escriturais;
-  - seguro-garantia;
-  - fiança de instituição autorizada pelo <abbr title="Banco Central do Brasil">Bacen</abbr>;
-  - título de capitalização de pagamento único e resgate total.
-- Seguro escolhido: mínimo de um mês entre homologação e assinatura para prestar garantia.
-- Suspensão por ordem/inadimplemento administrativo: sem renovar ou endossar até reinício/adimplemento.
-
-## Seguro-garantia
-
-- Cobre obrigação, multas, prejuízos e indenizações.
-- Apólice igual ou superior ao contrato e acompanhada de endosso.
-- Falta de pagamento do prêmio não extingue a cobertura.
-- Contínuo: pode trocar apólice em renovação/aniversário, sem lacuna e com mesma cobertura.
-
-| Garantia | Limite/base |
+| Hipótese | Teto e base |
 |---|---|
-| ordinária | até 5% do valor inicial |
-| complexidade e riscos justificados | até 10% do valor inicial |
-| contínuo acima de um ano/prorrogação | sobre valor anual |
-| engenharia de grande vulto + retomada | até 30% do valor inicial |
+| Garantia ordinária | Até **5% do valor inicial** do contrato. |
+| Complexidade técnica e riscos justificados | Até **10% do valor inicial**. |
+| Serviço/fornecimento contínuo acima de um ano e prorrogações | Aplicar percentuais sobre o **valor anual**. |
+| Obra ou engenharia de **grande vulto** com seguro e retomada | Até **30% do valor inicial**; grande vulto em 2026 é valor estimado **superior a R$ 261.968.421,04**. |
 
-- Grande vulto em 2026: superior a **R$ 261.968.421,04**.
-- Garantia de proposta: outro instituto, até 1% do estimado.
-- Liberação: fiel execução ou extinção por culpa exclusiva da Administração.
-- Dinheiro: devolução atualizada.
-- Bens entregues ao contratado-depositário: somar o valor à garantia.
+**Garantia de proposta** é outra fase: até 1% do valor estimado. A garantia contratual se libera após fiel execução ou extinção por culpa exclusiva da Administração; dinheiro é devolvido com atualização. Bens públicos entregues ao contratado depositário somam-se ao valor garantido.
 
-## Retomada
+No **seguro-garantia**, a **apólice** (documento de cobertura) vigora por prazo igual ou maior que o contrato, e o **endosso** ajusta a cobertura à mudança de vigência; falta de pagamento do **prêmio** (preço do seguro) não a extingue. Cobre obrigações, multas, prejuízos e indenizações. Em contínuos, troca de apólice no aniversário ou renovação preserva condições e coberturas, sem intervalo descoberto. Na **retomada** de obra/engenharia, seguradora como **interveniente anuente** (signatária que concorda com o ajuste) pode acompanhar, auditar e subcontratar a conclusão. Se assumir e concluir, não paga a importância segurada; se não assumir, paga-a integralmente. O teto de 30% é reservado à engenharia de grande vulto.
 
-- Obra/engenharia: edital pode exigir seguro e conclusão pela seguradora.
-- Seguradora = interveniente anuente do contrato e aditivos.
-- Pode acessar, acompanhar, auditar, pedir informações e subcontratar conclusão.
-- Se concluir: não paga importância segurada.
-- Se não assumir: paga integralmente a apólice.
-- 30% só para engenharia de grande vulto.
+## 4. Risco contratual e prerrogativas (artigos 22, 103 e 104)
 
-## Matriz de riscos
+**Mapa de riscos** acompanha incertezas do processo; **matriz de alocação de riscos** é cláusula que atribui eventos supervenientes ao poder público, contratado ou ambos e caracteriza o equilíbrio econômico inicial. Considerar natureza do risco, beneficiário e capacidade de gestão; quantificar reflexos no estimado, alocando preferencialmente ao contratado riscos seguráveis. O contrato espelha hipóteses de recomposição, **resolução** (término por sinistro excessivamente oneroso ou impeditivo) e seguros obrigatórios com custo no preço.
 
-- Cláusula que lista eventos supervenientes e reparte ônus público, privado ou compartilhado.
-- Define o equilíbrio inicial; não é o mapa de riscos do processo.
-- Considerar natureza, beneficiário e capacidade de gestão.
-- Risco segurável: preferencialmente do contratado.
-- Quantificar reflexos no valor estimado.
-- Contrato reflete a matriz: hipóteses de recomposição, possibilidade de resolução por sinistro impeditivo ou excessivamente oneroso e seguros obrigatórios com custo no preço.
-- Obrigatória em grande vulto e contratação integrada/semi-integrada.
-- Projeto básico escolhido pelo contratado integrado/semi: risco superveniente dele.
-- Risco assumido concretizado: sem reequilíbrio, em regra.
-- Exceções:
-  - alteração unilateral administrativa;
-  - mudança legal de tributo diretamente pago pelo contratado.
+Matriz **obrigatória** em grande vulto e nos regimes de contratação integrada (contratado elabora projetos básico e executivo) e semi-integrada (elabora o executivo). Nesses regimes, risco superveniente da escolha da solução de projeto básico pelo contratado cabe a ele. Risco validamente assumido impede recomposição por sua ocorrência, **salvo** alteração unilateral legal e mudança legislativa de tributo diretamente pago pelo contratado em razão do contrato.
 
-## Prerrogativas
+A Administração pode alterar e extinguir unilateralmente nos casos legais, fiscalizar, sancionar motivadamente e ocupar provisoriamente bens/pessoal vinculados ao objeto diante de risco a serviço essencial ou para apurar falta contratual. Cláusulas econômico-financeiras e monetárias exigem concordância do contratado; alteração unilateral lícita impõe revisão econômica para manter equilíbrio.
 
-- alteração unilateral por interesse público;
-- extinção unilateral nos casos legais;
-- fiscalização;
-- sanção motivada;
-- ocupação provisória para serviço essencial ou apuração de falta.
-- Cláusula econômico-financeira não muda sem concordância.
-- Alteração unilateral exige revisão econômica para preservar equilíbrio.
+## 5. Qual é o regime de duração? (artigos 105 a 114)
 
-## Duração
+Prazo consta do edital; verificar crédito na contratação **e a cada exercício**, e previsão no <abbr title="Plano Plurianual">PPA</abbr> quando superar um exercício. Restos a pagar plurianuais não são cancelados antes do encerramento do contrato nas condições legais. **Execução** mede o tempo da prestação; **vigência**, o tempo do vínculo.
 
-- Prazo vem do edital.
-- Créditos: na contratação e em cada exercício.
-- <abbr title="Plano Plurianual">PPA</abbr>: quando ultrapassar um exercício.
-- Restos a pagar de plurianual: sem cancelamento automático antes do fim.
+| Classificação | Regra de prazo e condição decisiva |
+|---|---|
+| Serviço/fornecimento **contínuo** (necessidade permanente/prolongada) | Até **5 anos iniciais** com vantagem plurianual atestada; crédito e vantagem verificados no começo e em cada exercício. Prorrogações sucessivas até **10 anos totais**, se previstas no edital, vantajosas e formalizadas antes do fim; cabe negociar. |
+| Falta de crédito ou de vantagem no contínuo | Administração pode optar pela extinção. **Sem ônus**, na próxima data de aniversário e sob a proteção temporal de dois meses do artigo 106, § 1º. A Orientação Normativa nº 98/2025 da <abbr title="Advocacia-Geral da União">AGU</abbr> interpreta, **na esfera federal**, dois meses como prazo mínimo de ciência; antes do aniversário admite extinção com ônus. |
+| Dispensas especiais | Até **10 anos** apenas nas alíneas f/g do artigo 75, IV, e incisos V, VI, XII e XVI, conforme artigo 108. No corte de 7/7, inciso XVI referia-se a insumos estratégicos para saúde produzidos por fundação nas condições legais; Lei nº 15.471/2026 alterou a redação **após** o edital. |
+| Serviço público monopolizado | Prazo **indeterminado** quando a Administração é usuária, com crédito comprovado a cada exercício. |
+| Receita ou eficiência | Até **10 anos sem investimento** ou **35 anos com benfeitorias permanentes custeadas exclusivamente pelo contratado e revertidas ao patrimônio público**. |
+| **Escopo** (resultado específico) | Objeto não concluído prorroga a vigência automaticamente; atraso culposo gera **mora** (atraso imputável), sanções e possibilidade de extinção. |
+| Fornecimento + serviço associado | Prazo da entrega inicial + operação/manutenção, esta inicialmente até **5 anos do recebimento**, prorrogável pelo artigo 107. |
+| Sistema estruturante de tecnologia da informação | Operação continuada por até **15 anos**. |
 
-| Hipótese | Limite |
-|---|---:|
-| contínuo inicial | 5 anos |
-| contínuo com prorrogações | 10 anos |
-| dispensas especiais do art. 108 | 10 anos |
-| serviço público monopolizado | indeterminado + crédito anual |
-| receita/eficiência sem investimento | 10 anos |
-| receita/eficiência com investimento reversível | 35 anos |
-| sistema estruturante de <abbr title="Tecnologia da Informação">TI</abbr> | 15 anos |
-
-## Contínuo x escopo
-
-- Contínuo: necessidade permanente/prolongada.
-- Até cinco anos iniciais: demonstrar vantagem plurianual.
-- Início e cada exercício: crédito + vantagem.
-- **Lei, art. 106:** falta de crédito/desvantagem permite optar pela extinção; sem ônus, aplica-se a próxima data de aniversário e a regra temporal de dois meses do § 1º.
-- **<abbr title="Orientação Normativa da Advocacia-Geral da União">ON AGU</abbr> nº 98/2025 — esfera federal:** interpreta os dois meses como prazo mínimo para ciência; antes do aniversário admite extinção com ônus.
-- Prorrogação até dez anos: previsão + vantagem + termo antes do fim.
-- Prorrogação de contínuo não é automática nem direito do contratado.
-- Escopo: entrega específica; objeto incompleto prorroga vigência automaticamente.
-- Culpa do contratado no escopo: mora e sanções; Administração pode extinguir.
-- Prazo de execução não é prazo de vigência.
-
-## Outros regimes
-
-- Prazo de lei especial é preservado.
-- Art. 108: até 10 anos apenas nas dispensas especificamente enumeradas.
-- **Corte de 6/7/2026:** art. 75, XVI, ainda tratava de insumos estratégicos para a saúde produzidos por fundação nas condições legais.
-- **Pós-edital (21/7/2026):** Lei nº 15.471/2026 passou a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação.
-- Fornecimento + serviço associado: entrega inicial + operação/manutenção de até cinco anos, prorrogável pelo art. 107.
-- Prazo indeterminado não vale para qualquer serviço contínuo: exige monopólio.
-- Contrato de 35 anos exige benfeitoria permanente paga só pelo contratado e revertida ao patrimônio público.
-
-## Pegadinhas finais
-
-- formação não é eficácia;
-- instrumento equivalente não é contrato verbal;
-- garantia exigida pela Administração, modalidade escolhida pelo contratado;
-- 5%, 10% e 30% têm hipóteses distintas;
-- matriz distribui riscos, não elimina todo reequilíbrio;
-- cinco anos é vigência inicial; dez é teto do contínuo;
-- escopo incompleto prorroga, mas atraso culposo continua sancionável;
-- orientação federal não se aplica automaticamente ao TCE-MA;
-- norma pós-edital não substitui silenciosamente a regra vigente em 6/7/2026.
+Lei especial pode fixar prazo próprio. As regras do contínuo também alcançam aluguel de equipamentos e uso de programas de informática. Não transforme **10 anos** em regra de toda contratação direta, **35** em prazo de qualquer eficiência, ou prazo indeterminado em sinônimo de serviço contínuo.
