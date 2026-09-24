@@ -235,7 +235,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H107 | `gestao-processos` | = | L | [`711b666`](https://github.com/insign/concursos/commit/711b666c521ae4c839cee24bf95f10a0ea71d942) |
 | H108 | `gestao-qualidade-excelencia-servicos-publicos` | `gestao-qualidade-excelencia` | L | [`f021ae4`](https://github.com/insign/concursos/commit/f021ae4db0f6bd0015f0e0c2a666454ded42ccc9) |
 | H109 | `gestao-projetos` | = | L | [`72e9d5c`](https://github.com/insign/concursos/commit/72e9d5c483f72d8d7ff10da10c097fdfcf77ca9e) |
-| H110 | `planejamento-estrategico` | = | L | — |
+| H110 | `planejamento-estrategico` | = | L | [`c2c665c`](https://github.com/insign/concursos/commit/c2c665c079be2505e859b15eb461c28f87573cc3) |
 | H111 | `empreendedorismo-liderancas` | = | L | — |
 | H112 | `gestao-resultados-publica-privada-paradigma-cliente` | `gestao-resultados-cliente` | L | — |
 | H113 | `sustentabilidade-publica` | = | L | — |
