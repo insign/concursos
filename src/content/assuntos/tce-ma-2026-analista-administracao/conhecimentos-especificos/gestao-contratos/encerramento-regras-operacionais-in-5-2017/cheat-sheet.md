@@ -1,201 +1,50 @@
-# Encerramento e regras finais da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
+# Encerramento e regras operacionais finais na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-## Corte e regime
+> **Corte:** edital publicado em 7/7/2026. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 rege serviços da administração federal direta, autarquias e fundações e se aplica aos contratos federais da Lei nº 14.133/2021 **no que couber** (<abbr title="Instrução Normativa">IN</abbr> nº 98/2022). Sua cobrança no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> não a transforma em regulamento interno do Tribunal. Contrato validamente regido por lei anterior segue sua transição, sem combinação livre de regimes.
 
-- **Corte de prova:** legislação vigente em **6/7/2026**.
-- Lei nº 14.133/2021: norma geral aplicável aos entes abrangidos.
-- IN nº 5/2017: disciplina federal de contratação de serviços.
-- IN nº 98/2022: aplica a IN nº 5/2017 no regime novo somente **no que couber**.
-- IN federal não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
-- Contrato antigo preserva o regime legal escolhido durante sua vigência.
-- Remissão incompatível à Lei nº 8.666/1993 cede à Lei nº 14.133/2021 no contrato novo.
+**Fim da vigência é data; encerramento é processo.** Recebimento definitivo, extinção do vínculo, acerto financeiro, transição e relatório final cumprem funções diferentes; pendência não autoriza executar informalmente após o término. Medição/pagamento ordinários estão no H134, disciplina geral da Lei nº 14.133/2021 nos H128–H130 e rito sancionador no H137.
 
-## Fechamento operacional
+## 1. Fechamento trabalhista com dedicação exclusiva
 
-Encerramento pode exigir:
+| Gatilho | Providência e limite |
+| --- | --- |
+| Extinção do contrato (<abbr title="Instrução Normativa">IN</abbr> nº 5, <abbr title="artigo">art.</abbr> 64) | Fiscal administrativo confere **quitação das verbas rescisórias OU documentos de realocação** em outra atividade de serviço, **sem interrupção do contrato de trabalho**. Promessa genérica não prova realocação; contratada permanece empregadora. |
+| Último mês (Anexo VIII-B) | Para dispensados, termos de rescisão com homologação quando exigida, guias previdenciárias e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>, extratos de depósitos individuais e exames demissionais. Prazo de entrega contratual; análise documental pela Administração em **30 dias do recebimento**, prorrogáveis motivadamente por outros **30**. |
+| Prova ainda ausente (<abbr title="Instrução Normativa">IN</abbr> nº 5, <abbr title="artigo">art.</abbr> 65) | Na sistemática federal, retenha garantia com cobertura trabalhista/previdenciária e valor de fatura **proporcional ao inadimplemento** até regularização. Não bloqueie toda a fatura por pendência parcial. Aplicação sob a lei nova passa pelo “no que couber”, edital/contrato e norma competente; não é autorização nacional automática. |
+| Após 15 dias sem quitação | Na hipótese da retenção de fatura do <abbr title="artigo">art.</abbr> 65, a contratante **pode** pagar diretamente aos empregados que executaram o objeto. Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 121, § 3º, IV: previsão editalícia/contratual e dedução do crédito do contratado. Faculdade, não substituição ordinária da folha. |
 
-1. medição e recebimento finais;
-2. conferência trabalhista;
-3. acerto de créditos, glosas, multas e danos;
-4. liberação ou execução de garantias;
-5. devolução de bens e revogação de acessos;
-6. transferência de conhecimento;
-7. relatório final.
+O contratado responde primariamente pelos encargos. Em serviços contínuos com dedicação exclusiva, comprovada falha da fiscalização, a Administração pode responder **solidariamente pelo previdenciário e subsidiariamente pelo trabalhista** (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 121). A exigência de documentos não dá poder de mando sobre os empregados.
 
-- Recebimento ≠ extinção.
-- Extinção ≠ quitação automática de todas as pendências.
-- Relatório final ≠ termo de recebimento.
+**Escolha o instrumento pela causa:** glosa reduz prestação ausente/desconforme; retenção trabalhista resguarda obrigação não comprovada; retenção tributária recolhe tributo; sanção pune infração em processo próprio; indenização ressarce dano; conta vinculada e fato gerador protegem parcelas trabalhistas ao longo do contrato. Não dobre cobrança pelo mesmo efeito nem converta retenção cautelar em multa.
 
-## Dedicação exclusiva: art. 64
+## 2. Garantia, sanção, transição e memória
 
-Fiscal administrativo verifica:
+| Trilha | Gatilho de decisão |
+| --- | --- |
+| Garantia e crédito (<abbr title="Instrução Normativa">IN</abbr> nº 5, <abbr title="artigo">art.</abbr> 66) | Multa **devida** pode ser coberta pela garantia; crédito contratual pode resguardar prejuízo a ressarcir. Diferença acima da garantia pode ser descontada de pagamentos ou cobrada judicialmente. Na extinção unilateral, Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 139, admite execução da garantia para dano, certas verbas trabalhistas/previdenciárias, multas e atuação da seguradora; retenção de créditos **até o limite dos danos e multas**. Notifique o emitente da garantia ao começar processo de apuração (<abbr title="artigo">art.</abbr> 137, § 4º). Apure, quantifique e respeite defesa antes de constituir débito. |
+| Infração (<abbr title="Instrução Normativa">IN</abbr> nº 5, <abbr title="artigo">art.</abbr> 68) | Registro de ocorrência, inclusive atraso da garantia → procedimento administrativo específico → tipificação, defesa, prova e decisão. Sob a Lei nº 14.133/2021: advertência, multa, impedimento de licitar/contratar, declaração de inidoneidade. A antiga suspensão temporária da Lei nº 8.666/1993 não é quinta sanção da lei nova. |
+| Transição (<abbr title="artigo">art.</abbr> 69) | Fiscal promove adequação de recursos para continuidade, transferência de conhecimento de execução/manutenção, devolução de equipamentos, espaços e crachás e outras providências pertinentes. Planeje antes do último dia, inclusive acessos; não exige contratação dos mesmos empregados pela sucessora. |
+| Relatório final (<abbr title="artigo">art.</abbr> 70) | Fiscais registram ocorrências após concluir a prestação, para futuras contratações; destaque resultados, falhas, correções e pendências. Não substitui recebimento, prova trabalhista ou processo sancionador. |
 
-- pagamento das verbas rescisórias; **ou**
-- realocação em outra atividade de serviços, sem interrupção do contrato de trabalho.
+## 3. Anexos IX e X: literalidade antiga e contrato novo
 
-- Realocação precisa ser documentada.
-- Administração não escolhe empregados da sucessora.
-- Contratado permanece empregador e responsável primário.
+| Decisão | Contraste que evita erro |
+| --- | --- |
+| Vigência contínua | O Anexo IX histórico traz início em regra por 12 meses, prorrogações até **60 + 12 excepcionais**. Na Lei nº 14.133/2021, serviço/fornecimento contínuo admite até **cinco anos iniciais**, prorrogações sucessivas até **dez anos** (<abbr title="artigos">arts.</abbr> 106–107); prazo/prorrogação não se tornam doze meses obrigatórios. Serviço público em monopólio pode ter prazo indeterminado com crédito anual (<abbr title="artigo">art.</abbr> 109). |
+| Contrato por escopo | Se não concluído no período, a vigência **prorroga-se automaticamente** (<abbr title="artigo">art.</abbr> 111); culpa do contratado pode gerar mora, sanção e opção de extinção. Essa regra não autoriza execução informal de serviço contínuo após contrato expirado. |
+| Prorrogar contínuo | Previsão editalícia, autoridade atesta vantagem de preço/condições, créditos, execução regular, interesse e formalização **durante** a vigência. Verifique regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões legais (<abbr title="artigo">art.</abbr> 91, § 4º). Aditivo tardio não reaviva contrato expirado. |
+| Vantajosidade | Compare preço, desempenho, continuidade e custos de nova contratação. No modelo federal do Anexo IX, pesquisa de mercado pode ser dispensada se mão de obra seguir instrumento coletivo/lei e insumos índice oficial representativo; sem referência adequada, pesquise a parcela correspondente. Negocie exclusão de custos não renováveis já amortizados. Repactuação exigível deve ser solicitada ou ressalvada antes de prorrogar. |
+| Alterar (Anexo X × Lei nova) | Alteração unilateral de projeto/especificação ou quantidade: até **25% do valor inicial atualizado**; reforma de edifício/equipamento: até **50% apenas para acréscimo**. Não transfigure objeto. Alteração consensual depende de hipótese legal. Mudança unilateral de encargos exige recomposição no mesmo aditivo. Formalize aditivo **antes de executar**, salvo antecipação justificada com formalização em até **um mês** (<abbr title="artigos">arts.</abbr> 124–132). <abbr title="registro de situação que não altera obrigação contratual">Apostila</abbr> registra, por exemplo, reajuste/repactuação previstos, sem substituir aditivo para alteração material (<abbr title="artigo">art.</abbr> 136). |
 
-### Documentos finais do Anexo VIII-B
+O Anexo X continua útil para instruir o que muda, por que, fundamento, custos/limites e manifestação da contratada; controle jurídico dos aditivos segue o <abbr title="artigo">art.</abbr> 53, §§ 4º–5º, inclusive hipóteses de dispensa previamente definidas pela autoridade jurídica máxima.
 
-- termos rescisórios, homologados quando exigível;
-- guias previdenciárias e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> das rescisões;
-- extratos dos depósitos individuais do FGTS;
-- exames demissionais.
+## 4. Feche a literalidade dos artigos finais
 
-- Prazo de entrega: definido no contrato.
-- Análise literal da IN: 30 dias, prorrogáveis justificadamente por mais 30.
+| <abbr title="Instrução Normativa">IN</abbr> nº 5 | Regra |
+| --- | --- |
+| <abbr title="artigo">art.</abbr> 71 | <abbr title="Secretaria de Gestão">SEGES</abbr> desenvolve modelos, processos e procedimentos de contratações de serviços. |
+| <abbr title="artigo">art.</abbr> 72 | Central de Compras pode afastar ponto **da própria <abbr title="Instrução Normativa">IN</abbr>** em projeto-piloto justificado, respeitando lei e princípios. |
+| <abbr title="artigo">art.</abbr> 73 | <abbr title="Secretaria de Gestão">SEGES</abbr> dirime omissões e pode complementar a norma. |
+| <abbr title="artigos">arts.</abbr> 74–75 | Revogação da <abbr title="Instrução Normativa">IN</abbr> nº 2/2008 e entrada em vigor 120 dias após publicação. A <abbr title="Instrução Normativa">IN</abbr> nº 7/2018 manteve contratos de processos anteriores sob a <abbr title="Instrução Normativa">IN</abbr> nº 2/2008 **inclusive nas renovações/prorrogações**. É transição entre instruções, distinta da transição entre leis de licitação. |
 
-## Retenções: art. 65
-
-**Literalidade federal da IN**, aplicável sob a Lei nº 14.133/2021 apenas **no que couber**:
-
-| Objeto | Medida |
-|---|---|
-| Garantia | Manter a garantia com cobertura trabalhista/previdenciária. |
-| Fatura | Reter valor **proporcional ao inadimplemento**. |
-
-- **Art. 65 literal ≠ retenção nacional automática em qualquer contrato.**
-- Contrato novo: compatibilizar com Lei nº 14.133/2021, edital, contrato e regulamento competente.
-- Art. 121, § 3º: medidas trabalhistas dependem de disposição em edital ou contrato.
-- Não reter automaticamente toda a última fatura.
-- Após 15 dias sem quitação, na hipótese da IN: contratante **pode** pagar empregados diretamente.
-- Pagamento direto é deduzido do crédito da contratada.
-- É medida excepcional, não gestão ordinária da folha.
-
-## Não confundir
-
-| Medida | Finalidade |
-|---|---|
-| Glosa | Excluir prestação não executada ou desconforme. |
-| Retenção trabalhista | Resguardar obrigação trabalhista não comprovada. |
-| Retenção tributária | Cumprir dever fiscal. |
-| Multa | Sancionar em processo próprio. |
-| Retenção por dano | Preservar ressarcimento apurado. |
-| Conta vinculada | Provisionar parcelas trabalhistas. |
-
-## Garantia e créditos: art. 66
-
-- Multa devida: reter e executar garantia conforme o regime aplicável.
-- Dano: reter créditos até o limite do prejuízo.
-- Multa superior à garantia: descontar do pagamento ou cobrar judicialmente a diferença.
-- Lei nº 14.133/2021, art. 139: garantia pode cobrir dano, verbas trabalhistas cabíveis, multas e continuidade pela seguradora.
-- Retenção de créditos: limite dos danos e multas.
-- Notificar emitente da garantia ao iniciar apuração: art. 137, § 4º.
-- Nenhuma retenção substitui defesa, motivação e prova.
-
-## Sanções: art. 68
-
-Ocorrência → procedimento específico → enquadramento → defesa/provas → dosimetria → decisão competente.
-
-- Glosa ≠ multa.
-- Dano ≠ sanção.
-- Infração ≠ extinção automática.
-- Sanções atuais: advertência, multa, impedimento e inidoneidade.
-- Antiga suspensão temporária ≠ categoria geral do regime novo.
-
-## Transição: art. 69
-
-- adequar recursos materiais e humanos para continuidade;
-- transferir conhecimento sobre execução e manutenção;
-- devolver equipamentos, espaço, crachás e outros recursos;
-- adotar demais providências aplicáveis.
-
-Checklist prático:
-
-- manuais, bases, configurações e inventários;
-- chaves, cartões, equipamentos e documentos;
-- revogação de acessos físicos e lógicos;
-- dados, sigilo e propriedade intelectual;
-- pendências, responsáveis, datas e evidências.
-
-- Transição não prorroga contrato informalmente.
-- Não autoriza prestação gratuita pós-vigência.
-- Não obriga sucessora a contratar os mesmos empregados.
-
-## Relatório final: art. 70
-
-- elaborado pelos fiscais após conclusão da prestação;
-- registra ocorrências da execução;
-- serve de fonte para futuras contratações;
-- reúne resultados, falhas, correções, riscos, controles, pendências e recomendações;
-- não substitui processos e documentos específicos.
-
-## Anexo IX: tradução para o regime atual
-
-| Tema | Regime histórico | Lei nº 14.133/2021 |
-|---|---|---|
-| Contínuo | 12 meses; 60 + 12 excepcionais | Inicial até 5 anos; total até 10 anos |
-| Prorrogação | Em regra anual | Sucessiva, não necessariamente igual |
-| Escopo | Excepcional e justificada | Automática se não concluído |
-| Monopólio | Lista de serviços | Serviço público em monopólio + crédito anual |
-
-- Teto de 60 + 12 não rege contrato novo.
-- Prazo inicial de 12 meses não é obrigatório no regime novo.
-- Prorrogação não é direito subjetivo.
-- Exige previsão editalícia, vantagem, créditos, interesse e formalização antes do fim.
-- Contrato expirado não pode ser prorrogado retroativamente.
-- Art. 91, § 4º: regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões no processo.
-
-### Vantajosidade — sistemática federal do Anexo IX
-
-- preço e condições;
-- desempenho;
-- riscos e custos de nova contratação;
-- continuidade;
-- custos não renováveis.
-
-- Pesquisa pode ser dispensada, no modelo federal pertinente, se mão de obra segue instrumento coletivo/lei e insumos seguem índice adequado.
-- Sem instrumento coletivo ou índice representativo: pesquisar.
-- Essa técnica da IN **não vira automaticamente regra nacional para qualquer ente**.
-- Sem fato gerador: eliminar custos não renováveis amortizados.
-- Repactuação exigível: pedir ou ressalvar antes da prorrogação.
-
-## Anexo X: tradução para o regime atual
-
-- Base atual: arts. 124 a 136.
-- Unilateral: projeto/especificação ou quantidade.
-- Consensual: garantia, regime/modo, forma de pagamento ou equilíbrio.
-- Limite unilateral geral: 25% do valor inicial atualizado.
-- Reforma: 50% apenas para acréscimo.
-- Vedada transfiguração do objeto.
-- Mudança de encargos por ato unilateral: equilíbrio no mesmo aditivo.
-- Regra: aditivo antes da execução.
-- Antecipação justificada: formalizar em até um mês.
-- Apostila: somente registro que não caracteriza alteração, art. 136.
-
-### Processo da alteração
-
-1. Objeto, especificações e execução.
-2. Alteração detalhada.
-3. Necessidade, justificativa e base legal.
-4. Custos, limites e equilíbrio.
-5. Ciência escrita ou concordância da contratada.
-
-## Arts. 71 a 75
-
-- Art. 71: <abbr title="Secretaria de Gestão">SEGES</abbr> pode desenvolver modelos e procedimentos.
-- Art. 72: Central de Compras pode afastar ponto da IN em projeto-piloto justificado, sem afastar lei e princípios.
-- Art. 73: SEGES resolve omissões e pode complementar a IN.
-- Art. 74: revogação da IN nº 2/2008.
-- Art. 75: vigência 120 dias após publicação.
-- IN nº 7/2018: contratos de processos anteriores continuam sob a IN nº 2/2008, inclusive prorrogações.
-- Essa transição não é a transição geral entre as duas leis de licitações.
-
-## Pegadinhas
-
-- quitação **ou** realocação;
-- realocação sem interrupção do vínculo;
-- **art. 65 literal da IN ≠ retenção nacional automática**;
-- na IN, fatura retida proporcionalmente;
-- pagamento direto após 15 dias: facultativo, não automático;
-- sanção em procedimento próprio;
-- transição antes e durante o encerramento;
-- relatório final alimenta planejamento;
-- 60 + 12 é regra histórica;
-- escopo é prorrogado automaticamente no regime atual;
-- pesquisa de preços do Anexo IX é técnica federal, não regra nacional automática;
-- alteração não transfigura objeto;
-- projeto-piloto não afasta lei;
-- IN federal não é regulamento automático do TCE-MA.
+**Sequência útil:** decidir prorrogação ou extinção → preservar continuidade → receber o serviço → provar quitação ou realocação → separar os débitos e medidas cabíveis → documentar o aprendizado.
