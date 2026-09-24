@@ -91,6 +91,8 @@ Logo:
 
 > **integridade protege contra alteração indevida; não transforma automaticamente informação errada em informação verdadeira.**
 
+No item 120 da PCDF (2024), o Cebraspe empregou **“veracidade da informação durante todo o ciclo de vida”** ao justificar integridade. Para resolver a questão da banca, reconheça esse uso; ao analisar um caso concreto, distinga preservação contra alteração indevida de acerto factual do dado desde a origem. O item oficial não demonstra que um erro de digitação seja corrigido por um controle de integridade.
+
 ### 3.2 Controles que ajudam a preservar ou verificar integridade
 
 Exemplos:
