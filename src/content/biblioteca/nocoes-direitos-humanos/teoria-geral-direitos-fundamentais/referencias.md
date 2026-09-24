@@ -1,6 +1,7 @@
-> Fontes primárias e doutrinárias conferidas em 7 de setembro de 2026. A consulta editorial posterior ao edital não altera o recorte: normas vigentes até 6 de julho de 2026; jurisprudência considerada pelo material até 4 de agosto de 2026.
+> Consulta editorial em setembro de 2026. Corte normativo: alterações com entrada em vigor até a publicação do Edital nº 1 em 7 de julho de 2026; jurisprudência segundo o item 13.33.1 do edital (publicação até 30 dias antes da prova). A data do ato, 6 de julho, não é a data de publicação.
 
 - [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe e Tribunal de Contas do Estado do Maranhão.
+- [Notícia institucional sobre a publicação do edital em 7 de julho de 2026](https://www.tcema.tc.br/index.php/noticias-concurso-tcema), Tribunal de Contas do Estado do Maranhão.
 - [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, especialmente arts. 1º, III; 4º, II; 5º, §§ 1º a 4º; e 60, § 4º, IV.
 - [Art. 5º na Constituição e o Supremo](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirBase=CF&abrirArtigo=5), Supremo Tribunal Federal.
 - [Declaração e Programa de Ação de Viena](https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action), Conferência Mundial de Direitos Humanos/ONU, 25 jun. 1993.
