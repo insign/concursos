@@ -293,7 +293,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H144 | `relacoes-individuo-organizacao-qvt` | `gp-relacoes-qvt` | L | [`5fce402`](https://github.com/insign/concursos/commit/5fce402ccf1527f1dc6ce3e3ed8b85a02d2eb63a) |
 | H145 | `lideranca-motivacao-desempenho` | `gp-lideranca-motivacao` | L | [`0c635fe`](https://github.com/insign/concursos/commit/0c635fe8107f539863ce7d82965ab1b512f852f1) |
 | H146 | `competencia-interpessoal-conflitos` | `gp-interpessoal-conflitos` | L | [`4007689`](https://github.com/insign/concursos/commit/400768994d19889e77297d1520fdb5422b2b1766) |
-| H147 | `gestao-mudanca` | `gp-gestao-mudanca` | L | — |
+| H147 | `gestao-mudanca` | `gp-gestao-mudanca` | L | [`a378c0f`](https://github.com/insign/concursos/commit/a378c0f60f886bb6925b322bc6fdb53a3715daaf) |
 | H148 | `recrutamento-selecao-processo-decisorio` | `gp-recrutamento-selecao` | L | — |
 | H149 | `analise-descricao-cargos` | `gp-analise-descricao-cargos` | L | — |
 | H150 | `avaliacao-desempenho` | `gp-avaliacao-desempenho` | L | — |
