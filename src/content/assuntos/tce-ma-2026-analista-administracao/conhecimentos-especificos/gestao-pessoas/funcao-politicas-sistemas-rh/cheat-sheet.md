@@ -1,129 +1,42 @@
-# Órgão de <abbr title="Recursos Humanos">RH</abbr>: função, políticas e <abbr title="Sistema de Informações Gerenciais">SIG</abbr>
+# Órgão de <abbr title="Recursos Humanos">RH</abbr>: políticas e informações gerenciais
 
-## Papéis
+## Quem faz o quê?
 
-| Papel | Núcleo |
+| Papel | Decisão e apoio |
 | --- | --- |
-| operacional | cadastro, folha, atos, atendimento e controles |
-| consultivo/<abbr title="assessoria e suporte especializado">staff</abbr> | orientação, métodos e apoio técnico aos gestores |
-| estratégico | força de trabalho, prioridades, capacidades e indicadores |
+| alta administração | define prioridades e decide dentro de sua competência |
+| gestor de linha | distribui trabalho, orienta e acompanha a equipe |
+| órgão de <abbr title="Recursos Humanos">RH</abbr> | mantém atos e cadastros, políticas, processos, orientação especializada e informação |
 
-- Estratégico não elimina operacional.
-- Gestor de linha conduz a equipe; RH apoia, orienta e mantém infraestrutura especializada.
-- Staff pode exercer autoridade funcional prevista em norma, mas não substitui automaticamente a hierarquia de linha.
+A unidade especializada atua como <abbr title="Assessoria e suporte especializado às áreas que gerem equipes">staff</abbr>; pode ter competência funcional prevista em norma, mas não assume automaticamente a chefia das demais áreas. Sua atuação **operacional** sustenta registros, folha e regularidade; a **consultiva** orienta gestores; a **estratégica** relaciona capacidades, riscos e força de trabalho à missão. Cadastro errado compromete análise estratégica.
 
-## Objetivos do RH
+## Classifique pela finalidade
 
-- Prover quantidade e perfis necessários.
-- Alinhar pessoas à missão institucional.
-- Assegurar regularidade de atos, registros e pagamentos.
-- Apoiar gestores e decisões.
-- Desenvolver e preservar capacidades.
-- Produzir informação confiável.
-- Monitorar e aperfeiçoar políticas e processos.
-
-## Grupos de processos
-
-| Grupo | Núcleo |
+| Processo didático | Pergunta |
 | --- | --- |
-| agregar/prover | força de trabalho, ingresso, seleção e movimentação |
-| aplicar | cargos, lotação, alocação e desempenho |
-| recompensar | remuneração, benefícios, carreiras e reconhecimento legítimo |
-| desenvolver | aprendizagem, capacitação, conhecimento e sucessão |
-| manter | saúde, segurança, relações, inclusão e qualidade de vida |
-| monitorar | cadastro, SIG, indicadores, controles e avaliação |
+| agregar/prover | de quantas pessoas e capacidades precisamos; como ingressam ou são movimentadas? |
+| aplicar | onde e como trabalham; como acompanhar cargos e desempenho? |
+| recompensar | quais contrapartidas e formas legítimas de reconhecimento? |
+| desenvolver | que lacunas de aprendizagem e conhecimento corrigir? |
+| manter | como cuidar de saúde, segurança, relações e qualidade de vida? |
+| monitorar | quais registros, indicadores e controles permitem decidir e corrigir? |
 
-- Taxonomia didática: nomes variam e não criam competência jurídica.
-- Os grupos são interdependentes; classifique pela finalidade predominante.
+Os processos se alimentam; uma vaga pode envolver cadastro, alocação, ingresso e desenvolvimento. A classificação **não cria competências jurídicas**. Política de pessoas é o conjunto de **princípios, objetivos, critérios, responsabilidades e instrumentos** que orienta decisões recorrentes; formulário, sistema e ação isolada são meios. Seu ciclo gerencial pode ser **diagnosticar → formular → aprovar → implementar → monitorar → avaliar e revisar**. Monitoramento acompanha execução; avaliação julga resultados; publicação de ato não comprova execução.
 
-## Política de RH
+**Coerência vertical:** missão → prioridades → objetivos de pessoas → práticas. **Coerência horizontal:** seleção, alocação, desenvolvimento e avaliação compatíveis. Coerência não exige uniformidade absoluta.
 
-**Política ≠ formulário ≠ sistema ≠ ação isolada.**
+## Do cadastro à decisão
 
-Política = princípios + objetivos + critérios + responsabilidades + instrumentos para orientar decisões recorrentes.
+Um <abbr title="Sistema de Informações Gerenciais">SIG</abbr> reúne pessoas, processos, dados, tecnologia e controles: **entrada → validação e processamento → integração e armazenamento → informação → retorno**. Dado é registro elementar; informação é dado tratado com contexto e finalidade. O <abbr title="Sistema de Informações Gerenciais">SIG</abbr> não se reduz a software ou banco de dados.
 
-### Ciclo didático
-
-1. diagnóstico;
-2. formulação;
-3. aprovação/institucionalização;
-4. implementação;
-5. monitoramento;
-6. avaliação/revisão.
-
-- O ciclo não é sequência universal rígida.
-- Monitoramento acompanha execução; avaliação examina mérito e resultados.
-- Publicar ato não garante implementação.
-
-## Coerência
-
-- **Vertical:** missão → estratégia → objetivos de <abbr title="Gestão de Pessoas">GP</abbr> → planos → atividades.
-- **Horizontal:** políticas e processos de pessoas compatíveis entre si.
-- Coerência não significa uniformidade absoluta.
-
-## Dado × informação
-
-| Conceito | Ideia |
+| Nível de uso | Exemplo |
 | --- | --- |
-| dado | registro elementar de um fato |
-| informação | dado tratado e contextualizado para uma necessidade |
+| operacional | vínculo, frequência e lotação |
+| gerencial | quadro por unidade, vagas, custos e movimentações |
+| estratégico | projeções, riscos e necessidades futuras |
 
-**Acumular dados ≠ produzir informação útil.**
+**Qualidade antes do painel:** exatidão (fato correto), completude (campos necessários), atualidade (momento útil), consistência (sem contradição), unicidade (sem duplicação), validade (regra de registro) e rastreabilidade (origem e alterações). Integrar exige identificadores e conceitos comuns, periodicidade, validação e responsáveis; trocar planilhas não basta.
 
-## Fluxo do SIG
+Um indicador precisa de **definição, fórmula, fonte, população, período e limitações**. Meça execução sem confundi-la com resultado; uma melhora posterior não prova, sozinha, causalidade. Painel visual facilita comparação, mas não corrige base ruim. Dados funcionais pedem acesso por perfil, segregação de tarefas, histórico, atualização, cópias de segurança e proteção; integração não autoriza acesso indiscriminado.
 
-**entrada → processamento → armazenamento/integração → saída → feedback**
-
-- SIG = pessoas + processos + dados + tecnologia + controles.
-- SIG não é apenas software nem banco de dados.
-
-## Níveis do SIG
-
-| Nível | Uso |
-| --- | --- |
-| operacional | registrar transações rotineiras |
-| gerencial/tático | acompanhar unidades e apoiar decisões recorrentes |
-| estratégico | cenários, tendências, riscos e projeções |
-
-**Regra:** decisão estratégica depende de base operacional confiável.
-
-## Integração e qualidade
-
-- Integração exige identificação comum, periodicidade, validação, tratamento de erros e responsáveis.
-- Integração não é mera troca de planilhas nem acesso indiscriminado.
-
-| Dimensão | Ideia |
-| --- | --- |
-| exatidão | representa corretamente o fato |
-| completude | contém o necessário |
-| atualidade | está no tempo adequado |
-| consistência | não se contradiz |
-| unicidade | não duplica indevidamente |
-| validade | obedece às regras definidas |
-| rastreabilidade | origem e transformação verificáveis |
-
-## Indicadores e dashboards
-
-- Indicador: conceito + fórmula + fonte + período + população + periodicidade.
-- Atividade/processo ≠ resultado.
-- Dashboard organiza visualização; não corrige dado ruim nem prova causalidade.
-- Comparações exigem contexto de missão, porte e composição.
-
-## Controles do SIG
-
-- acesso por perfil;
-- segregação de responsabilidades;
-- validação e atualização de registros;
-- histórico e rastreabilidade;
-- continuidade e cópias de segurança;
-- proteção contra acesso ou alteração indevidos.
-
-## Pegadinhas
-
-- RH estratégico não abandona rotinas administrativas.
-- Staff não significa ausência absoluta de autoridade funcional.
-- Política não é o instrumento usado para executá-la.
-- Dado não é sinônimo de informação.
-- SIG não é sinônimo de software.
-- Informação gerencial apoia; não substitui automaticamente a decisão.
-- Integração não autoriza acesso indiscriminado.
+**Caso rápido:** duas unidades pedem reforço com quadro nominal semelhante. Verifique vagas, afastamentos, tarefas e entregas; aplique critérios da política; produza informação comparável. A autoridade competente decide, e o órgão especializado registra e acompanha o efeito.
