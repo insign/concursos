@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u120-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As funções essenciais à Justiça previstas nos arts. 127 a 135 da Constituição",
       "options": [
         {
           "id": "A",
-          "text": "integram todas o Poder Judiciário."
+          "text": "possuem missões constitucionais distintas e não integram automaticamente o Poder Judiciário."
         },
         {
           "id": "B",
@@ -18,7 +18,7 @@
         },
         {
           "id": "C",
-          "text": "possuem missões constitucionais distintas e não integram automaticamente o Poder Judiciário."
+          "text": "integram todas o Poder Judiciário."
         },
         {
           "id": "D",
@@ -29,7 +29,7 @@
           "text": "exercem necessariamente jurisdição."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O Capítulo IV reúne funções essenciais à Justiça, mas não as transforma em Poder Judiciário nem em órgãos jurisdicionais."
     },
     {
@@ -64,13 +64,13 @@
     },
     {
       "id": "u120-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "São princípios institucionais do Ministério Público",
       "options": [
         {
           "id": "A",
-          "text": "unidade, indivisibilidade e independência funcional."
+          "text": "hierarquia, disciplina e indivisibilidade."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "hierarquia, disciplina e indivisibilidade."
+          "text": "unidade, indivisibilidade e independência funcional."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "unidade, soberania e jurisdição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 127, § 1º, enuncia unidade, indivisibilidade e independência funcional."
     },
     {
       "id": "u120-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Ministério Público, segundo a Constituição,",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "possui autonomia funcional e administrativa e elabora proposta orçamentária dentro dos limites constitucionais."
+          "text": "depende do Judiciário para criar seus serviços auxiliares."
         },
         {
           "id": "C",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "depende do Judiciário para criar seus serviços auxiliares."
+          "text": "possui autonomia funcional e administrativa e elabora proposta orçamentária dentro dos limites constitucionais."
         },
         {
           "id": "E",
           "text": "não participa da elaboração de sua proposta orçamentária."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O art. 127 assegura autonomia e disciplina a elaboração da proposta orçamentária dentro dos limites aplicáveis."
     },
     {
       "id": "u120-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Integra o Ministério Público da União",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "o Ministério Público do Distrito Federal e Territórios."
+          "text": "o Conselho Nacional de Justiça."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "o Conselho Nacional de Justiça."
+          "text": "o Ministério Público do Distrito Federal e Territórios."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O art. 128 inclui o Ministério Público do Distrito Federal e Territórios entre os ramos do Ministério Público da União."
     },
     {
       "id": "u120-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Procurador-Geral da República é nomeado",
       "options": [
         {
           "id": "A",
-          "text": "pelo Senado, entre quaisquer cidadãos maiores de 30 anos."
+          "text": "pelo Presidente da República, dentre integrantes da carreira maiores de 35 anos, após aprovação da maioria absoluta do Senado."
         },
         {
           "id": "B",
-          "text": "pelo Presidente da República, dentre integrantes da carreira maiores de 35 anos, após aprovação da maioria absoluta do Senado."
+          "text": "pelo Senado, entre quaisquer cidadãos maiores de 30 anos."
         },
         {
           "id": "C",
@@ -179,22 +179,22 @@
           "text": "pelo Conselho Nacional do Ministério Público."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "É o procedimento do art. 128, § 1º."
     },
     {
       "id": "u120-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para os chefes dos Ministérios Públicos estaduais, a Constituição prevê",
       "options": [
         {
           "id": "A",
-          "text": "lista tríplice, mandato de dois anos e uma recondução."
+          "text": "aprovação obrigatória do Senado Federal."
         },
         {
           "id": "B",
-          "text": "aprovação obrigatória do Senado Federal."
+          "text": "lista tríplice, mandato de dois anos e uma recondução."
         },
         {
           "id": "C",
@@ -209,12 +209,12 @@
           "text": "mandato de quatro anos sem recondução."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 128, § 3º, prevê lista tríplice, escolha pelo chefe do Executivo, mandato de dois anos e uma recondução."
     },
     {
       "id": "u120-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É garantia constitucional dos membros do Ministério Público",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "vitaliciedade após dois anos de exercício."
+          "text": "irremovibilidade absoluta."
         },
         {
           "id": "C",
-          "text": "irremovibilidade absoluta."
+          "text": "vitaliciedade após dois anos de exercício."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "livre exercício da advocacia."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O art. 128, § 5º, assegura vitaliciedade após dois anos, além de inamovibilidade e irredutibilidade de subsídio."
     },
     {
       "id": "u120-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A inamovibilidade de membro do Ministério Público admite exceção",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "por interesse público, mediante decisão do colegiado competente por maioria absoluta e ampla defesa."
+          "text": "apenas por sentença penal."
         },
         {
           "id": "C",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "apenas por sentença penal."
+          "text": "por interesse público, mediante decisão do colegiado competente por maioria absoluta e ampla defesa."
         },
         {
           "id": "E",
           "text": "por ato do Poder Executivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Constituição admite remoção por interesse público com maioria absoluta do colegiado competente e ampla defesa."
     },
     {
       "id": "u120-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O ingresso na carreira do Ministério Público exige",
       "options": [
         {
           "id": "A",
-          "text": "concurso de provas e títulos, participação da Ordem dos Advogados do Brasil e pelo menos três anos de atividade jurídica."
+          "text": "livre nomeação pelo Procurador-Geral."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "livre nomeação pelo Procurador-Geral."
+          "text": "concurso de provas e títulos, participação da Ordem dos Advogados do Brasil e pelo menos três anos de atividade jurídica."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 129, § 3º, prevê concurso de provas e títulos, participação da Ordem e três anos de atividade jurídica."
     },
     {
       "id": "u120-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Compete privativamente ao Ministério Público",
       "options": [
         {
           "id": "A",
-          "text": "representar judicialmente a União."
+          "text": "promover a ação penal pública, na forma da lei."
         },
         {
           "id": "B",
-          "text": "promover a ação penal pública, na forma da lei."
+          "text": "representar judicialmente a União."
         },
         {
           "id": "C",
@@ -329,22 +329,22 @@
           "text": "executar dívida ativa tributária."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 129, I, reserva ao Ministério Público a promoção da ação penal pública."
     },
     {
       "id": "u120-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as funções institucionais do Ministério Público está",
       "options": [
         {
           "id": "A",
-          "text": "exercer controle externo da atividade policial, na forma da lei complementar."
+          "text": "dirigir administrativamente as polícias civis."
         },
         {
           "id": "B",
-          "text": "dirigir administrativamente as polícias civis."
+          "text": "exercer controle externo da atividade policial, na forma da lei complementar."
         },
         {
           "id": "C",
@@ -359,12 +359,12 @@
           "text": "nomear autoridades policiais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 129, VII, prevê controle externo da atividade policial; não se trata de direção administrativa da polícia."
     },
     {
       "id": "u120-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 130 determina que aos membros do Ministério Público junto aos Tribunais de Contas se aplicam disposições pertinentes a",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "direitos, vedações e forma de investidura."
+          "text": "chefia obrigatória pelo Procurador-Geral da República."
         },
         {
           "id": "C",
-          "text": "chefia obrigatória pelo Procurador-Geral da República."
+          "text": "direitos, vedações e forma de investidura."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "jurisdição própria."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Essa é a extensão literal prevista no art. 130."
     },
     {
       "id": "u120-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Conselho Nacional do Ministério Público é composto por",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "14 membros."
+          "text": "27 membros."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "27 membros."
+          "text": "14 membros."
         },
         {
           "id": "E",
           "text": "33 membros."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O art. 130-A fixa 14 membros."
     },
     {
       "id": "u120-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Conselho Nacional do Ministério Público pode",
       "options": [
         {
           "id": "A",
-          "text": "rever processo disciplinar julgado há menos de um ano."
+          "text": "representar judicialmente a União."
         },
         {
           "id": "B",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "representar judicialmente a União."
+          "text": "rever processo disciplinar julgado há menos de um ano."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 130-A permite rever processos disciplinares julgados há menos de um ano, dentro de seu campo administrativo e disciplinar."
     },
     {
       "id": "u120-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Advocacia-Geral da União",
       "options": [
         {
           "id": "A",
-          "text": "promove privativamente a ação penal pública."
+          "text": "representa a União judicial e extrajudicialmente e exerce consultoria e assessoramento jurídico do Poder Executivo."
         },
         {
           "id": "B",
-          "text": "representa a União judicial e extrajudicialmente e exerce consultoria e assessoramento jurídico do Poder Executivo."
+          "text": "promove privativamente a ação penal pública."
         },
         {
           "id": "C",
@@ -479,12 +479,12 @@
           "text": "representa judicialmente todos os Estados."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "É o núcleo funcional do art. 131."
     },
     {
       "id": "u120-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 131 exige do Advogado-Geral da União",
       "options": [
@@ -494,11 +494,11 @@
         },
         {
           "id": "B",
-          "text": "lista tríplice e mandato de dois anos."
+          "text": "mais de 35 anos, notável saber jurídico e reputação ilibada, com livre nomeação presidencial."
         },
         {
           "id": "C",
-          "text": "mais de 35 anos, notável saber jurídico e reputação ilibada, com livre nomeação presidencial."
+          "text": "lista tríplice e mandato de dois anos."
         },
         {
           "id": "D",
@@ -509,12 +509,12 @@
           "text": "eleição pelos membros da instituição."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O Advogado-Geral é livremente nomeado pelo Presidente entre cidadãos maiores de 35 anos, de notável saber jurídico e reputação ilibada."
     },
     {
       "id": "u120-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na execução da dívida ativa de natureza tributária da União, a representação cabe",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "à Procuradoria-Geral da Fazenda Nacional, observado o disposto em lei."
+          "text": "à Defensoria Pública da União."
         },
         {
           "id": "C",
-          "text": "à Defensoria Pública da União."
+          "text": "à Procuradoria-Geral da Fazenda Nacional, observado o disposto em lei."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "ao Senado Federal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "É a regra expressa do art. 131, § 3º."
     },
     {
       "id": "u120-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os Procuradores dos Estados e do Distrito Federal",
       "options": [
         {
           "id": "A",
-          "text": "exercem representação judicial e consultoria jurídica das respectivas unidades federadas."
+          "text": "possuem vitaliciedade após dois anos."
         },
         {
           "id": "B",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "possuem vitaliciedade após dois anos."
+          "text": "exercem representação judicial e consultoria jurídica das respectivas unidades federadas."
         },
         {
           "id": "E",
           "text": "não contam com participação da Ordem dos Advogados do Brasil no concurso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 132 atribui representação judicial e consultoria jurídica e prevê carreira por concurso com participação da Ordem em todas as fases."
     },
     {
       "id": "u120-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A estabilidade dos Procuradores dos Estados e do Distrito Federal é adquirida, segundo o art. 132,",
       "options": [
@@ -588,7 +588,7 @@
         },
         {
           "id": "C",
-          "text": "após três anos de efetivo exercício, mediante avaliação de desempenho e relatório circunstanciado da corregedoria."
+          "text": "somente após promoção."
         },
         {
           "id": "D",
@@ -596,21 +596,21 @@
         },
         {
           "id": "E",
-          "text": "somente após promoção."
+          "text": "após três anos de efetivo exercício, mediante avaliação de desempenho e relatório circunstanciado da corregedoria."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O parágrafo único do art. 132 prevê três anos e avaliação nos termos ali indicados."
     },
     {
       "id": "u120-a21",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 133 estabelece que o advogado",
       "options": [
         {
           "id": "A",
-          "text": "integra o Poder Judiciário."
+          "text": "é indispensável à administração da justiça e inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei."
         },
         {
           "id": "B",
@@ -618,7 +618,7 @@
         },
         {
           "id": "C",
-          "text": "é indispensável à administração da justiça e inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei."
+          "text": "integra o Poder Judiciário."
         },
         {
           "id": "D",
@@ -629,7 +629,7 @@
           "text": "representa obrigatoriamente a União."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Essa é a regra constitucional da seção dedicada à Advocacia."
     },
     {
@@ -694,7 +694,7 @@
     },
     {
       "id": "u120-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Constituição assegura expressamente aos integrantes da carreira da Defensoria Pública",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "inamovibilidade, além de vedar advocacia fora das atribuições institucionais."
+          "text": "aprovação pelo Senado."
         },
         {
           "id": "C",
@@ -712,19 +712,19 @@
         },
         {
           "id": "D",
-          "text": "aprovação pelo Senado."
+          "text": "inamovibilidade, além de vedar advocacia fora das atribuições institucionais."
         },
         {
           "id": "E",
           "text": "livre exercício de advocacia privada."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O art. 134, § 1º, assegura inamovibilidade e veda advocacia fora das atribuições institucionais."
     },
     {
       "id": "u120-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 9 do concurso CESPE/UnB para o TRT da 8ª Região em 2013, assinale a afirmação compatível com o art. 133 da Constituição vigente.",
       "options": [
@@ -742,14 +742,14 @@
         },
         {
           "id": "D",
-          "text": "O advogado é indispensável à administração da justiça e é inviolável por atos e manifestações no exercício da profissão, nos limites da lei."
+          "text": "A advocacia é órgão do Poder Judiciário."
         },
         {
           "id": "E",
-          "text": "A advocacia é órgão do Poder Judiciário."
+          "text": "O advogado é indispensável à administração da justiça e é inviolável por atos e manifestações no exercício da profissão, nos limites da lei."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "O art. 133 contém a regra reproduzida em sentido material pela alternativa D. Na questão original do TRT da 8ª Região, 2013, Cargo 11, questão 9, o gabarito oficial definitivo foi D; esta versão é uma adaptação não literal ao texto constitucional vigente."
     }
   ]
