@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u103-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 4.878/1965, conforme seu artigo 1º, disciplina peculiaridades do regime jurídico de",
       "options": [
         {
           "id": "A",
-          "text": "todos os servidores públicos civis dos estados e municípios."
+          "text": "funcionários públicos civis da União e do Distrito Federal ocupantes de cargos de atividade policial."
         },
         {
           "id": "B",
-          "text": "funcionários públicos civis da União e do Distrito Federal ocupantes de cargos de atividade policial."
+          "text": "todos os servidores públicos civis dos estados e municípios."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "todos os agentes de segurança pública do país, sem distinção."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 1º delimita o regime peculiar aos funcionários públicos civis da União e do Distrito Federal ocupantes de cargos de atividade policial. A inclusão da lei no edital da PC-MA não a transforma em estatuto estadual maranhense."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "id": "u103-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual requisito consta do artigo 9º da Lei nº 4.878/1965 para matrícula na Academia Nacional de Polícia?",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "Ter sido previamente habilitado em concurso público de provas ou de provas e títulos."
+          "text": "Possuir dez anos de serviço público."
         },
         {
           "id": "C",
-          "text": "Possuir dez anos de serviço público."
+          "text": "Ter sido previamente habilitado em concurso público de provas ou de provas e títulos."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "Ser bacharel em direito em qualquer carreira policial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Entre os requisitos do art. 9º está a habilitação prévia em concurso público de provas ou de provas e títulos, além de nacionalidade, idade mínima, direitos políticos, saúde, idoneidade e aptidão psicológica."
     },
     {
       "id": "u103-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para os fins expressamente indicados no artigo 12 da Lei nº 4.878/1965, a frequência ao curso de formação profissional para primeira investidura é considerada",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "efetivo exercício para fins de aposentadoria."
+          "text": "estágio probatório concluído."
         },
         {
           "id": "D",
-          "text": "estágio probatório concluído."
+          "text": "efetivo exercício para fins de aposentadoria."
         },
         {
           "id": "E",
           "text": "tempo de serviço exclusivamente militar."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O art. 12 considera a frequência ao curso de formação para primeira investidura como efetivo exercício para fins de aposentadoria. O dispositivo não cria equivalência automática para todo e qualquer efeito funcional."
     },
     {
       "id": "u103-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito do estágio probatório, qual leitura preserva corretamente a literalidade da Lei nº 4.878/1965 e a necessidade de atualização normativa?",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "O artigo 13 ainda registra dois anos, mas a aplicação atual de uma carreira concreta deve considerar a legislação superveniente pertinente."
+          "text": "A lei sempre previu três anos e nunca foi diferente."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "A lei sempre previu três anos e nunca foi diferente."
+          "text": "O artigo 13 ainda registra dois anos, mas a aplicação atual de uma carreira concreta deve considerar a legislação superveniente pertinente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O texto compilado ainda mostra dois anos no art. 13. Isso deve ser distinguido da aplicação atual, que depende do conjunto normativo superveniente da carreira. O edital da PF de 2025, por exemplo, combina Lei 8.112/1990 e Lei 4.878/1965."
     },
     {
       "id": "u103-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Lei nº 4.878/1965, as promoções serão realizadas, se houver vaga e funcionários em condições de concorrer, em",
       "options": [
         {
           "id": "A",
-          "text": "1º de janeiro e 7 de setembro."
+          "text": "21 de abril e 28 de outubro."
         },
         {
           "id": "B",
-          "text": "21 de abril e 28 de outubro."
+          "text": "1º de janeiro e 7 de setembro."
         },
         {
           "id": "C",
@@ -179,22 +179,22 @@
           "text": "28 de outubro e 15 de novembro."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 15 prevê as datas de 21 de abril e 28 de outubro, condicionadas à existência de vaga e de servidores aptos à promoção."
     },
     {
       "id": "u103-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O funcionário policial que se revelar inapto para o exercício da função policial, sem causa que justifique demissão ou aposentadoria, é tratado pela Lei nº 4.878/1965 por meio de",
       "options": [
         {
           "id": "A",
-          "text": "readaptação para cargo mais compatível com sua capacidade."
+          "text": "demissão automática."
         },
         {
           "id": "B",
-          "text": "demissão automática."
+          "text": "readaptação para cargo mais compatível com sua capacidade."
         },
         {
           "id": "C",
@@ -209,7 +209,7 @@
           "text": "suspensão preventiva obrigatória."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 20 prevê readaptação quando há inaptidão para a função policial sem fundamento para demissão ou aposentadoria."
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "id": "u103-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual atividade aparece como exceção expressa à vedação de outra atividade no artigo 23, § 3º, da Lei nº 4.878/1965?",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "Magistério na Academia Nacional de Polícia."
+          "text": "Advocacia privada para qualquer categoria policial."
         },
         {
           "id": "C",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "Advocacia privada para qualquer categoria policial."
+          "text": "Magistério na Academia Nacional de Polícia."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A lei ressalva o magistério na Academia Nacional de Polícia e, para médicos legistas, a prática profissional em estabelecimento hospitalar."
     },
     {
       "id": "u103-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 33 da Lei nº 4.878/1965, hospitalização e tratamento correm por conta do Estado quando o policial",
       "options": [
         {
           "id": "A",
-          "text": "estiver em qualquer licença particular."
+          "text": "sofrer acidente em serviço ou doença profissional."
         },
         {
           "id": "B",
-          "text": "sofrer acidente em serviço ou doença profissional."
+          "text": "estiver em qualquer licença particular."
         },
         {
           "id": "C",
@@ -329,7 +329,7 @@
           "text": "estiver aposentado, em qualquer hipótese e sem condições."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O art. 33 contém a regra específica para acidente em serviço e doença profissional. As demais hipóteses de assistência têm disciplina própria nos artigos seguintes."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "u103-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual faixa da Lei nº 4.878/1965 foi expressamente revogada pela Lei nº 15.047/2024?",
       "options": [
@@ -378,23 +378,23 @@
         },
         {
           "id": "C",
-          "text": "Arts. 22 a 30."
+          "text": "Arts. 41 a 60."
         },
         {
           "id": "D",
-          "text": "Arts. 41 a 60."
+          "text": "Arts. 22 a 30."
         },
         {
           "id": "E",
           "text": "Arts. 61 a 74."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "O art. 129 da Lei 15.047/2024 revogou expressamente os arts. 41 a 60 da Lei 4.878/1965, retirando o antigo bloco disciplinar."
     },
     {
       "id": "u103-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.047/2024, qual afirmação é correta sobre o regime disciplinar?",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "A Lei 15.047/2024 passou a disciplinar infrações, sanções e processo administrativo disciplinar da Polícia Federal e da Polícia Civil do Distrito Federal, revogando o bloco antigo indicado."
+          "text": "A Lei 15.047/2024 trata apenas de aposentadoria."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "A Lei 15.047/2024 trata apenas de aposentadoria."
+          "text": "A Lei 15.047/2024 passou a disciplinar infrações, sanções e processo administrativo disciplinar da Polícia Federal e da Polícia Civil do Distrito Federal, revogando o bloco antigo indicado."
         },
         {
           "id": "E",
           "text": "A revogação só entrará em vigor depois de 2030."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Lei 15.047/2024 criou o regime disciplinar atual para as instituições abrangidas e revogou expressamente os arts. 41 a 60 do estatuto de 1965."
     },
     {
       "id": "u103-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 62 da Lei nº 4.878/1965 estabelece, em síntese, que a legislação do funcionalismo civil da União",
       "options": [
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "aplica-se no que não colidir com as disposições da própria Lei nº 4.878/1965."
+          "text": "foi substituída pela legislação estadual do Maranhão."
         },
         {
           "id": "D",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "foi substituída pela legislação estadual do Maranhão."
+          "text": "aplica-se no que não colidir com as disposições da própria Lei nº 4.878/1965."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O art. 62 prevê aplicação subsidiária da legislação relativa ao funcionalismo civil da União quando não houver colisão com o regime peculiar."
     },
     {
       "id": "u103-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 67 da Lei nº 4.878/1965, o funcionário policial pode ser removido",
       "options": [
         {
           "id": "A",
-          "text": "apenas a pedido."
+          "text": "de ofício, a pedido ou por conveniência da disciplina."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "de ofício, a pedido ou por conveniência da disciplina."
+          "text": "apenas a pedido."
         },
         {
           "id": "D",
@@ -479,7 +479,7 @@
           "text": "somente depois de cinco anos em toda hipótese."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O art. 67 enumera as três modalidades. Para a remoção de ofício, o § 2º traz regra de dois anos mínimos na localidade, salvo imperiosa necessidade do serviço devidamente justificada."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u103-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em uma questão sobre a Lei nº 4.878/1965, a banca apresenta uma transgressão e uma penalidade previstas originalmente nos arts. 41 a 60. Considerando o corte de 13/7/2026, a primeira providência do candidato deve ser",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "verificar que o bloco foi revogado pela Lei 15.047/2024 e não tratá-lo como disciplina vigente."
+          "text": "substituir pela Lei 8.429/1992."
         },
         {
           "id": "C",
-          "text": "substituir pela Lei 8.429/1992."
+          "text": "verificar que o bloco foi revogado pela Lei 15.047/2024 e não tratá-lo como disciplina vigente."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "ignorar a data de corte do edital."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A vigência vem antes da memorização. Os arts. 41 a 60 foram expressamente revogados em 2024; questões antigas sobre esse bloco podem servir como registro histórico, não como regra disciplinar vigente em 2026."
     },
     {
       "id": "u103-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal de item Cebraspe da Polícia Civil do Distrito Federal, edital 2024, qual afirmação reflete corretamente o artigo 31 da Lei nº 4.878/1965?",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "O policial hospitalizado por enfermidade, acidente ou ferimento tem assistência médica contínua, enquanto a assistência familiar é prevista por serviços assistenciais em formulação distinta."
+          "text": "Somente o policial aposentado pode receber assistência."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "Somente o policial aposentado pode receber assistência."
+          "text": "O policial hospitalizado por enfermidade, acidente ou ferimento tem assistência médica contínua, enquanto a assistência familiar é prevista por serviços assistenciais em formulação distinta."
         },
         {
           "id": "E",
           "text": "A assistência contínua depende de o policial estar fora do hospital."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O item oficial distingue a assistência contínua ao policial hospitalizado da assistência médica ao policial ou à família por laboratórios, policlínicas, atendimento odontológico, pronto-socorro e outros serviços. A redação foi adaptada sem reprodução literal."
     },
     {
       "id": "u103-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal de item Cebraspe para Escrivão da Polícia Civil do Distrito Federal, aplicação 2021, a prisão especial do artigo 40 da Lei nº 4.878/1965 é assegurada ao policial, nos termos do dispositivo,",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "durante a ação penal e até o trânsito em julgado; após a condenação definitiva, a lei prevê cumprimento em estabelecimento penal com separação específica."
+          "text": "sem qualquer relação com o momento processual."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "sem qualquer relação com o momento processual."
+          "text": "durante a ação penal e até o trânsito em julgado; após a condenação definitiva, a lei prevê cumprimento em estabelecimento penal com separação específica."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O padrão oficial considerou incorreta a ideia de que a prisão especial acompanha o cumprimento definitivo da pena. O art. 40 limita a prisão especial ao curso da ação penal até o trânsito em julgado e prevê tratamento próprio posterior. A redação foi adaptada."
     }
   ]
