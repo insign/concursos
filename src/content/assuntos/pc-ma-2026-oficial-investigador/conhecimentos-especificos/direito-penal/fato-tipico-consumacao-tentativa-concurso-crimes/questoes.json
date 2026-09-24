@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u083-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u083-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Pela regra do artigo 13 do Código Penal, considera-se causa",
       "options": [
         {
           "id": "A",
-          "text": "a ação ou omissão sem a qual o resultado não teria ocorrido."
+          "text": "qualquer fato cronologicamente anterior ao crime."
         },
         {
           "id": "B",
-          "text": "qualquer fato cronologicamente anterior ao crime."
+          "text": "a ação ou omissão sem a qual o resultado não teria ocorrido."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "qualquer circunstância moralmente reprovável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O caput do artigo 13 adota a fórmula causal segundo a qual causa é a ação ou omissão sem a qual o resultado não teria ocorrido."
     },
     {
       "id": "u083-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma causa superveniente relativamente independente, que por si só produz o resultado,",
       "options": [
         {
           "id": "A",
-          "text": "exclui a imputação desse resultado ao agente anterior, sem apagar os fatos anteriores por ele praticados."
+          "text": "apaga todos os atos anteriores."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "apaga todos os atos anteriores."
+          "text": "exclui a imputação desse resultado ao agente anterior, sem apagar os fatos anteriores por ele praticados."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "gera responsabilidade objetiva do primeiro agente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É a regra do artigo 13, § 1º: o resultado produzido autonomamente pela causa superveniente não é imputado ao agente anterior, mas os atos anteriores permanecem atribuíveis."
     },
     {
       "id": "u083-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para atribuir resultado por omissão nos termos do artigo 13, § 2º, é necessário que o omitente",
       "options": [
         {
           "id": "A",
-          "text": "devesse e pudesse agir para evitar o resultado."
+          "text": "estivesse fisicamente próximo, ainda sem dever jurídico."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "estivesse fisicamente próximo, ainda sem dever jurídico."
+          "text": "devesse e pudesse agir para evitar o resultado."
         },
         {
           "id": "E",
           "text": "tivesse conhecimento posterior do resultado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A omissão é penalmente relevante para imputação do resultado quando o agente devia e podia agir para evitá-lo, nas hipóteses legais de posição de garantidor."
     },
     {
       "id": "u083-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual comparação entre crime material, formal e de mera conduta está correta?",
       "options": [
         {
           "id": "A",
-          "text": "material exige resultado naturalístico para consumação; formal descreve resultado mas não depende dele; mera conduta não exige resultado naturalístico separado."
+          "text": "a classificação depende apenas da pena aplicada."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "a classificação depende apenas da pena aplicada."
+          "text": "material exige resultado naturalístico para consumação; formal descreve resultado mas não depende dele; mera conduta não exige resultado naturalístico separado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A classificação observa a relação entre a descrição típica e o resultado naturalístico."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u083-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O erro sobre elemento constitutivo do tipo legal de crime",
       "options": [
         {
           "id": "A",
-          "text": "exclui o dolo, admitindo punição culposa se houver previsão legal e requisitos para isso."
+          "text": "sempre exclui qualquer responsabilidade."
         },
         {
           "id": "B",
-          "text": "sempre exclui qualquer responsabilidade."
+          "text": "exclui o dolo, admitindo punição culposa se houver previsão legal e requisitos para isso."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "agrava obrigatoriamente a pena."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 20 exclui o dolo pelo erro sobre elemento do tipo, preservando eventual responsabilidade culposa quando legalmente prevista."
     },
     {
       "id": "u083-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O crime está consumado quando",
       "options": [
         {
           "id": "A",
-          "text": "se reúnem todos os elementos de sua definição legal."
+          "text": "há qualquer ato preparatório."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "há qualquer ato preparatório."
+          "text": "se reúnem todos os elementos de sua definição legal."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "a pena é definitivamente executada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É a definição do artigo 14, I, do Código Penal."
     },
     {
       "id": "u083-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para configurar tentativa segundo o artigo 14, II, é necessário",
       "options": [
         {
           "id": "A",
-          "text": "início de execução e não consumação por circunstância alheia à vontade do agente."
+          "text": "consumação integral do delito."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "consumação integral do delito."
+          "text": "início de execução e não consumação por circunstância alheia à vontade do agente."
         },
         {
           "id": "E",
           "text": "apenas preparação remota."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A tentativa exige início de execução e interrupção da consumação por circunstância alheia à vontade do agente."
     },
     {
       "id": "u083-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na tentativa, salvo disposição em contrário, a pena do crime consumado é",
       "options": [
         {
           "id": "A",
-          "text": "reduzida de um a dois terços."
+          "text": "integralmente afastada."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "integralmente afastada."
+          "text": "reduzida de um a dois terços."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O parágrafo único do artigo 14 prevê redução de um a dois terços. A jurisprudência relaciona a fração ao avanço do iter criminis."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u083-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No arrependimento eficaz, o agente",
       "options": [
         {
           "id": "A",
-          "text": "atua eficazmente para impedir o resultado após realizar atos executórios."
+          "text": "repara dano depois da consumação, necessariamente após a denúncia."
         },
         {
           "id": "B",
-          "text": "repara dano depois da consumação, necessariamente após a denúncia."
+          "text": "atua eficazmente para impedir o resultado após realizar atos executórios."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "comete dois crimes com uma conduta."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 15 também contempla o agente que impede eficazmente a produção do resultado, respondendo pelos atos anteriores."
     },
     {
       "id": "u083-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O arrependimento posterior do artigo 16 exige, entre outros requisitos,",
       "options": [
         {
           "id": "A",
-          "text": "crime sem violência ou grave ameaça à pessoa e reparação integral ou restituição voluntária até o recebimento da denúncia ou queixa."
+          "text": "reparação necessariamente depois do recebimento da denúncia."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "reparação necessariamente depois do recebimento da denúncia."
+          "text": "crime sem violência ou grave ameaça à pessoa e reparação integral ou restituição voluntária até o recebimento da denúncia ou queixa."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "crime cometido com violência grave."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 16 prevê causa de diminuição para crime já consumado, observados os requisitos legais. O STJ reafirmou em 2026 a necessidade de reparação integral efetiva dentro do marco temporal."
     },
     {
       "id": "u083-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Há crime impossível quando a consumação é inviável por",
       "options": [
         {
           "id": "A",
-          "text": "ineficácia absoluta do meio ou impropriedade absoluta do objeto."
+          "text": "arrependimento posterior."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "arrependimento posterior."
+          "text": "ineficácia absoluta do meio ou impropriedade absoluta do objeto."
         },
         {
           "id": "E",
           "text": "concurso material."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 17 exige impossibilidade absoluta. Dificuldade relativa não basta."
     },
     {
       "id": "u083-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No concurso material, o agente pratica",
       "options": [
         {
           "id": "A",
-          "text": "mais de uma ação ou omissão e dois ou mais crimes, com aplicação cumulativa das penas."
+          "text": "apenas contravenções."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "apenas contravenções."
+          "text": "mais de uma ação ou omissão e dois ou mais crimes, com aplicação cumulativa das penas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "É a estrutura do artigo 69: pluralidade de condutas e crimes, com cumulação das penas."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u083-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual situação caracteriza, pela regra geral do artigo 70, concurso formal impróprio?",
       "options": [
         {
           "id": "A",
-          "text": "uma ação dolosa produz vários crimes com desígnios autônomos."
+          "text": "várias ações produzem crimes da mesma espécie em continuidade."
         },
         {
           "id": "B",
-          "text": "várias ações produzem crimes da mesma espécie em continuidade."
+          "text": "uma ação dolosa produz vários crimes com desígnios autônomos."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "uma omissão sem dever jurídico produz resultado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Na presença de desígnios autônomos, o artigo 70 manda cumular as penas como no concurso material, ressalvada regra especial aplicável."
     },
     {
       "id": "u083-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para reconhecimento de crime continuado, qual conjunto é compatível com o artigo 71 e a jurisprudência do STJ?",
       "options": [
         {
           "id": "A",
-          "text": "pluralidade de condutas, crimes da mesma espécie, condições objetivas semelhantes e unidade de desígnios."
+          "text": "crimes apenas do mesmo gênero, ainda que de espécies distintas e sem conexão."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "crimes apenas do mesmo gênero, ainda que de espécies distintas e sem conexão."
+          "text": "pluralidade de condutas, crimes da mesma espécie, condições objetivas semelhantes e unidade de desígnios."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "apenas identidade de vítima."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A continuidade exige crimes da mesma espécie, condições de tempo/lugar/modo ou semelhantes e vínculo subjetivo reconhecido pela jurisprudência."
     },
     {
       "id": "u083-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 98 da prova Cebraspe/Câmara dos Deputados para Policial Legislativo Federal, aplicada em 2026, assinale a opção correta sobre causalidade.",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "Causa relativamente independente superveniente que, por si só, produz o resultado exclui a imputação desse resultado ao agente anterior, sem apagar os fatos anteriores."
+          "text": "O artigo 13 não admite ruptura de imputação causal."
         },
         {
           "id": "C",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "O artigo 13 não admite ruptura de imputação causal."
+          "text": "Causa relativamente independente superveniente que, por si só, produz o resultado exclui a imputação desse resultado ao agente anterior, sem apagar os fatos anteriores."
         },
         {
           "id": "E",
           "text": "Somente causa absolutamente independente pode influenciar a imputação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O item oficial 98 foi julgado Certo. A adaptação preserva o núcleo do artigo 13, § 1º."
     },
     {
       "id": "u083-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do padrão preliminar da questão 5 da prova discursiva Cebraspe/PC-MA para Delegado, de 2025, qual situação caracteriza desistência voluntária?",
       "options": [
         {
           "id": "A",
-          "text": "O agente inicia a execução, pode prosseguir, mas voluntariamente abandona os atos executórios e impede a consumação."
+          "text": "O agente pratica vários crimes da mesma espécie."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "O agente pratica vários crimes da mesma espécie."
+          "text": "O agente inicia a execução, pode prosseguir, mas voluntariamente abandona os atos executórios e impede a consumação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O padrão Cebraspe/PC-MA destaca voluntariedade e eficácia: o agente pode prosseguir, mas decide não continuar e evita a consumação, respondendo pelos atos já praticados."
     },
     {
