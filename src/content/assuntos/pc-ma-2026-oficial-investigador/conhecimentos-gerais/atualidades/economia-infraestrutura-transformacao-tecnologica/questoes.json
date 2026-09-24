@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u079-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um aumento do PIB permite concluir diretamente que",
       "options": [
         {
           "id": "A",
-          "text": "todas as famílias tiveram a mesma melhora de renda."
+          "text": "a produção agregada aumentou segundo a medida utilizada, sem informar sozinha como os ganhos foram distribuídos."
         },
         {
           "id": "B",
-          "text": "a produção agregada aumentou segundo a medida utilizada, sem informar sozinha como os ganhos foram distribuídos."
+          "text": "todas as famílias tiveram a mesma melhora de renda."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "todos os setores cresceram na mesma proporção."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O PIB mede atividade agregada. Distribuição de renda, preços, trabalho e diferenças setoriais precisam de indicadores próprios."
     },
     {
@@ -64,13 +64,13 @@
     },
     {
       "id": "u079-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Por que a taxa de desocupação não deve ser tratada como simples contagem de pessoas sem emprego?",
       "options": [
         {
           "id": "A",
-          "text": "Porque seu denominador é a força de trabalho e sua definição depende de procura e disponibilidade para trabalhar."
+          "text": "Porque mede apenas trabalhadores formais."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "Porque mede apenas trabalhadores formais."
+          "text": "Porque seu denominador é a força de trabalho e sua definição depende de procura e disponibilidade para trabalhar."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "Porque ignora completamente a condição de ocupação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A taxa relaciona desocupados à força de trabalho. Mudanças na ocupação e na participação podem alterar a taxa, por isso é necessário interpretar os fluxos em conjunto."
     },
     {
       "id": "u079-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para descrever uma conjuntura econômica de forma menos incompleta, é mais adequado combinar",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "atividade, preços, mercado de trabalho e renda, conforme o problema analisado."
+          "text": "somente o valor nominal de um salário."
         },
         {
           "id": "C",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "somente o valor nominal de um salário."
+          "text": "atividade, preços, mercado de trabalho e renda, conforme o problema analisado."
         },
         {
           "id": "E",
           "text": "uma manchete sobre crescimento com qualquer indicador social."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Indicadores respondem perguntas diferentes. Combinar atividade, inflação, trabalho e renda reduz o risco de transformar uma medida agregada em retrato completo da economia."
     },
     {
       "id": "u079-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em um corredor logístico, qual situação melhor exemplifica um gargalo sistêmico?",
       "options": [
         {
           "id": "A",
-          "text": "A ferrovia aumenta capacidade, mas o acesso ao terminal continua gerando longas filas e atrasos."
+          "text": "A conexão entre modos torna o prazo mais previsível."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "A conexão entre modos torna o prazo mais previsível."
+          "text": "A ferrovia aumenta capacidade, mas o acesso ao terminal continua gerando longas filas e atrasos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O desempenho depende da cadeia completa. Um acesso ou terminal saturado pode limitar o ganho produzido por outro trecho do corredor."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u079-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Por que manutenção de infraestrutura não deve ser confundida com ausência de investimento?",
       "options": [
         {
           "id": "A",
-          "text": "Porque conservar e recuperar ativos pode preservar capacidade e evitar perda física e funcional do sistema."
+          "text": "Porque manutenção sempre cria um modo de transporte novo."
         },
         {
           "id": "B",
-          "text": "Porque manutenção sempre cria um modo de transporte novo."
+          "text": "Porque conservar e recuperar ativos pode preservar capacidade e evitar perda física e funcional do sistema."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "Porque operação e manutenção são exatamente a mesma coisa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Infraestrutura é um estoque de ativos que se deteriora. Manutenção pode preservar serviço e capacidade mesmo sem ampliar a rede."
     },
     {
       "id": "u079-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual sequência melhor representa uma cadeia de infraestrutura digital?",
       "options": [
         {
           "id": "A",
-          "text": "conectividade → capacidade computacional → dados → aplicação → usuário."
+          "text": "marketing → algoritmo → nenhuma infraestrutura."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "marketing → algoritmo → nenhuma infraestrutura."
+          "text": "conectividade → capacidade computacional → dados → aplicação → usuário."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "usuário → cobertura, sem qualquer sistema intermediário."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Aplicações digitais dependem de camadas físicas e lógicas: conexão, processamento, dados e sistemas até chegar ao usuário."
     },
     {
       "id": "u079-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A internet estar presente em 95% dos domicílios do país em 2025 não permite concluir que",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "todos os moradores usavam a internet com a mesma qualidade, habilidade e custo."
+          "text": "existiam diferenças entre disponibilidade e uso."
         },
         {
           "id": "C",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "existiam diferenças entre disponibilidade e uso."
+          "text": "todos os moradores usavam a internet com a mesma qualidade, habilidade e custo."
         },
         {
           "id": "E",
           "text": "habilidade e preço podiam ser barreiras."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Presença no domicílio não mede qualidade, habilidade, custo ou uso individual. A pesquisa registra inclusive motivos diferentes para a não utilização."
     },
     {
       "id": "u079-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em telecomunicações, 66,1 milhões de acessos 5G e uma obrigação de cobertura municipal são",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "informações diferentes: uma conta acessos; a outra estabelece alcance mínimo e prazo regulatório."
+          "text": "provas de que todo território nacional possui o mesmo nível de sinal."
         },
         {
           "id": "C",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "provas de que todo território nacional possui o mesmo nível de sinal."
+          "text": "informações diferentes: uma conta acessos; a outra estabelece alcance mínimo e prazo regulatório."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Acessos, cobertura e compromissos regulatórios têm unidades e significados distintos. Compará-los exige preservar a definição de cada medida."
     },
     {
       "id": "u079-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual afirmação descreve corretamente a relação entre inteligência artificial e infraestrutura?",
       "options": [
         {
           "id": "A",
-          "text": "Modelos de IA tornam processamento, armazenamento e conectividade desnecessários."
+          "text": "Aplicações de IA em escala podem aumentar a importância de processamento, dados, integração e segurança."
         },
         {
           "id": "B",
-          "text": "Aplicações de IA em escala podem aumentar a importância de processamento, dados, integração e segurança."
+          "text": "Modelos de IA tornam processamento, armazenamento e conectividade desnecessários."
         },
         {
           "id": "C",
@@ -329,7 +329,7 @@
           "text": "Disponibilidade do serviço não importa em aplicações críticas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "IA depende de infraestrutura e dados. Escala, integração, segurança e continuidade podem ser fatores decisivos para a viabilidade de aplicações."
     },
     {
@@ -364,13 +364,13 @@
     },
     {
       "id": "u079-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Matriz energética e matriz elétrica diferem porque",
       "options": [
         {
           "id": "A",
-          "text": "a primeira abrange o conjunto dos usos de energia na economia; a segunda se refere às fontes usadas para produzir eletricidade."
+          "text": "a segunda inclui combustíveis de transporte sem relação com eletricidade."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "a segunda inclui combustíveis de transporte sem relação com eletricidade."
+          "text": "a primeira abrange o conjunto dos usos de energia na economia; a segunda se refere às fontes usadas para produzir eletricidade."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "a matriz elétrica mede apenas consumo residencial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A matriz energética é mais ampla. A matriz elétrica é um recorte da produção de eletricidade, razão pela qual suas participações por fonte podem ser bem diferentes."
     },
     {
       "id": "u079-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A entrada em operação de 1 gigawatt de nova capacidade de geração significa necessariamente que",
       "options": [
         {
           "id": "A",
-          "text": "1 gigawatt de potência foi adicionado, mas a energia efetivamente produzida dependerá da operação e das condições do sistema."
+          "text": "todas as usinas produzirão continuamente na potência máxima."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "todas as usinas produzirão continuamente na potência máxima."
+          "text": "1 gigawatt de potência foi adicionado, mas a energia efetivamente produzida dependerá da operação e das condições do sistema."
         },
         {
           "id": "E",
           "text": "o consumo cairá na mesma proporção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Potência instalada é capacidade. Energia gerada é produção ao longo do tempo e depende de disponibilidade, recurso, operação, demanda e rede."
     },
     {
       "id": "u079-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual fluxo representa melhor o sistema elétrico em nível introdutório?",
       "options": [
         {
           "id": "A",
-          "text": "geração → transmissão → distribuição → consumo."
+          "text": "produção industrial → PIB → geração."
         },
         {
           "id": "B",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "produção industrial → PIB → geração."
+          "text": "geração → transmissão → distribuição → consumo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A geração produz eletricidade; a transmissão movimenta grandes blocos pela rede; a distribuição entrega aos consumidores finais."
     },
     {
       "id": "u079-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ao avaliar um grande projeto de infraestrutura, qual indicador está mais próximo de resultado do que de simples atividade?",
       "options": [
         {
           "id": "A",
-          "text": "número de reuniões realizadas."
+          "text": "redução observada do tempo médio de transporte no corredor-alvo, com método e período definidos."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "redução observada do tempo médio de transporte no corredor-alvo, com método e período definidos."
+          "text": "número de reuniões realizadas."
         },
         {
           "id": "D",
@@ -479,22 +479,22 @@
           "text": "quantidade de apresentações institucionais."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Reuniões e documentos medem atividade. Se a finalidade é melhorar o corredor, tempo, custo, confiabilidade ou capacidade podem se aproximar mais do resultado pretendido."
     },
     {
       "id": "u079-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma política amplia fibra óptica em determinada região. Qual interpretação é mais completa?",
       "options": [
         {
           "id": "A",
-          "text": "Quilômetros instalados medem expansão física, mas o efeito sobre usuários exige observar cobertura, contratação, qualidade e uso."
+          "text": "A instalação física prova automaticamente aumento de renda."
         },
         {
           "id": "B",
-          "text": "A instalação física prova automaticamente aumento de renda."
+          "text": "Quilômetros instalados medem expansão física, mas o efeito sobre usuários exige observar cobertura, contratação, qualidade e uso."
         },
         {
           "id": "C",
@@ -509,42 +509,42 @@
           "text": "Qualidade de serviço deixa de ser relevante depois da obra."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Indicadores de infraestrutura e de resultado pertencem a níveis diferentes. A rede instalada é condição possível para acesso, não prova de todos os efeitos finais."
     },
     {
       "id": "u079-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Qual comparação preserva corretamente as fronteiras da unidade?",
+      "prompt": "Uma redação sobre transformação digital e infraestrutura deve integrar temas vizinhos sem perder o foco. Qual abordagem é mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "U079 aprofunda economia, transportes, tecnologia e energia; impactos ambientais e compromissos internacionais são apenas pontes para o recorte próprio de U080."
+          "text": "Assumir que toda expansão de rede resulta diretamente em acesso com qualidade para todos."
         },
         {
           "id": "B",
-          "text": "U079 substitui integralmente os conteúdos de segurança pública da U078."
+          "text": "Substituir a análise de infraestrutura por uma lista isolada de comandos de informática."
         },
         {
           "id": "C",
-          "text": "U079 deve transformar tecnologia em revisão da disciplina de Informática."
+          "text": "Relacionar conectividade, capacidade computacional, energia e logística, analisando seus efeitos ambientais com dados próprios."
         },
         {
           "id": "D",
-          "text": "U079 elimina a necessidade de tratar sustentabilidade em U080."
+          "text": "Tratar compromissos internacionais como execução automática dos projetos nacionais."
         },
         {
           "id": "E",
-          "text": "U079 é exclusivamente um capítulo de macroeconomia."
+          "text": "Reduzir o tema à variação de um único indicador macroeconômico."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A matriz editorial atribui a U079 economia, transportes, tecnologia e energia. U078 e U080 conservam seus núcleos próprios, com pontes curtas quando necessárias."
+      "correctOptionId": "C",
+      "explanation": "A análise integrada conecta infraestrutura digital, eletricidade e logística, mas cada efeito precisa de medida e fonte adequadas. Investimento, acesso, uso e impacto ambiental são resultados diferentes."
     },
     {
       "id": "u079-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um novo corredor reduz atrasos, empresas adotam rastreamento digital e terminais ampliam capacidade. Para avaliar o conjunto, é mais adequado",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "observar capacidade, tempo, custo, confiabilidade e uso dos serviços, distinguindo execução de resultado."
+          "text": "ignorar gargalos de transferência entre modos."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "ignorar gargalos de transferência entre modos."
+          "text": "observar capacidade, tempo, custo, confiabilidade e uso dos serviços, distinguindo execução de resultado."
         },
         {
           "id": "E",
           "text": "tratar qualquer obra concluída como prova de produtividade maior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Projetos integrados precisam de indicadores coerentes com seus objetivos. Valor investido e obras concluídas informam execução, mas não substituem medidas de desempenho e uso."
     },
     {
       "id": "u079-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal de uma prova discursiva do Cebraspe/TCE-MS de 2025 sobre IA no setor público, qual alternativa combina um benefício potencial e uma limitação real da infraestrutura tecnológica?",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "Benefício: ampliar escala de processamento; limitação: sistemas legados, custos e integração insuficiente podem restringir a solução."
+          "text": "Benefício: substituir toda decisão humana; limitação: inexistência de necessidade de conectividade."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "Benefício: substituir toda decisão humana; limitação: inexistência de necessidade de conectividade."
+          "text": "Benefício: ampliar escala de processamento; limitação: sistemas legados, custos e integração insuficiente podem restringir a solução."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Adaptação não literal do padrão definitivo da Prova Discursiva P3, questão 1, Cebraspe/TCE-MS, Auditor de Controle Externo — Tecnologia da Informação, aplicada em 26/10/2025. O padrão cita escalabilidade e integração como benefícios possíveis e sistemas legados, baixa interoperabilidade, custos e vulnerabilidades como limitações."
     }
   ]
