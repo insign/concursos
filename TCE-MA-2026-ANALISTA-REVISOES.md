@@ -299,7 +299,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H150 | `avaliacao-desempenho` | `gp-avaliacao-desempenho` | L | [681b04e](https://github.com/insign/concursos/commit/681b04ead3487d383129dd82c9063f65cccffa95) |
 | H151 | `desenvolvimento-capacitacao` | `gp-desenvolvimento-capacitacao` | L | [ed8b8fe](https://github.com/insign/concursos/commit/ed8b8fe0dc346b45fb4a968b28519d440ecdb5e3) |
 | H152 | `cargos-carreiras-salarios` | `gp-cargos-carreiras-salarios` | L | [c5f44aa](https://github.com/insign/concursos/commit/c5f44aad6950ce0c89b89c2eca0ae6b2e3f2d2df) |
-| H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
+| H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | [a327330](https://github.com/insign/concursos/commit/a327330afb617954981be5c004dcde643b921612) |
 
 ## 9. Pendências abertas em aulas e banco
 - H138–H141: as quatro aulas identificam 6/7/2026, data do ato E1, como publicação/corte legislativo; o Tribunal registra publicação em 7/7. Corrigir as aulas em escopo próprio; os H deste grupo adotam a data de publicação quando a citam.
