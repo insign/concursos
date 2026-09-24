@@ -11,16 +11,17 @@ O alvo é um `cheat-sheet.md` (H) por ciclo e, ao terminar os assuntos do grupo 
 
 ## 2. Fontes comuns, recorte e cortes
 
-Base documental consultada em 22–23/09/2026; datas dos atos não são automaticamente datas de publicação:
+Base documental consultada em 22–24/09/2026; datas dos atos não são automaticamente datas de publicação:
 
 - **E1 — abertura:** [Edital nº 1, de 6/7/2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Cargo 1, especialidade Administração; conhecimentos gerais aplicáveis em 14.2.3 e específicos do cargo em 14.2.4; cortes em 13.32–13.34.
 - **E2 — retificação:** [Edital nº 2, de 29/7/2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/F58DF49F2A1491FC79CAB3CFE1E2E32FEDDD87C38FA40B3ED90C1F1AF8DEF047.pdf). Altera regras documentais e cabeçalhos de aplicação de disciplinas. [Versão de E1 consolidada após E2](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/FB3B3652560CBE6DEDD864B83A61FE5A9D2A7C935588EAB7E944F0EABD87ECFC.pdf); não tratá-la como consolidação de atos posteriores.
 - **E3 — retificação:** [Edital nº 3, de 10/8/2026, na banca](https://cdn.cebraspe.org.br/concursos/tce_ma_26/arquivos/7A97EFDD5D02CE0C8BA5743DF75EA25AB2C00C35A5616E9D999111BE95629CB0.pdf), [publicado no Diário Oficial Eletrônico nº 3073/2026, de 17/8/2026, páginas 76–77](https://diario.apps.tcema.tc.br/publicacao/pdf/9558). Trata de reenvio documental, alteração de inscrição e exceções de aplicação de Direito Administrativo/Constitucional. O Cargo 1 continua excluído dessas duas disciplinas gerais; não acrescentar grupos por importar programa de outro cargo.
+- **E4 — retificação de 17/9/2026:** [versão oficial consolidada do Edital nº 1 até E4](https://cdn.cebraspe.org.br/concursos/tce_ma_26/arquivos/71AEBEE5B5D4995433879FDD3A0E67CC7E5691BE2DFD07FE63D9AE46F164B09F.pdf). Acrescenta Atualidades somente à discursiva do Cargo 16; o bloco de Gestão de Contratos do Cargo 1 permanece. A data do ato não redefine o corte do item 13.32.
 - **Publicação e acompanhamento:** a [notícia institucional de 8/7/2026](https://www.tcema.tc.br/index.php/noticias-concurso-tcema) informa publicação de E1 em **7/7/2026**, distinta da data do ato, 6/7. [Página oficial da banca](https://www.cebraspe.org.br/concursos/tce_ma_26) para atos posteriores.
 
 **Legislação:** 13.32 considera alterações com entrada em vigor até a publicação de E1; a data informada pelo Tribunal é 7/7/2026. O item 13.33 admite legislação não vigente quando expressamente incluída nos objetos de avaliação. **Jurisprudência:** 13.33.1 usa publicação de entendimentos dos tribunais superiores até 30 dias antes da realização das provas; revalidar o calendário, sem transformar esse limite em corte legislativo. Retificações e consultas não reiniciam os cortes por si. Mudança de regra depende de outro edital (13.34).
 
-A consulta ao índice dinâmico da banca não forneceu lista integral extraível: E1/E2/E3 são os atos efetivamente identificados, não uma garantia de inexistência de ato posterior. Havendo novo ato ou divergência material de publicação, conferir seu efeito e substituir este registro comum. Não reescrever material alheio nesta preparação nem bloquear assunto independente por mera limitação de acesso.
+A consulta ao índice dinâmico da banca não forneceu lista integral extraível: E1/E2/E3 e a consolidação até E4 são as fontes identificadas, não uma garantia de inexistência de ato posterior. Havendo novo ato ou divergência material de publicação, conferir seu efeito e substituir este registro comum. Não reescrever material alheio nesta preparação nem bloquear assunto independente por mera limitação de acesso.
 
 ## 3. Execução e aceite
 
@@ -79,7 +80,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M07 | `G/nocoes-direitos-humanos` | H095–H102 | V: `nocoes-direitos-humanos` | [`3672f80`](https://github.com/insign/concursos/commit/3672f80f9e2653128a858ae09aafa67ee748be58) |
 | M08 | `E/administracao-publica` | H103–H114 | L | [8824cab](https://github.com/insign/concursos/commit/8824cabfbf91a74a043d729e30030cdd527bc6db) |
 | M09 | `E/administracao-recursos-materiais-patrimoniais` | H115–H123 | L | [`69f01d7`](https://github.com/insign/concursos/commit/69f01d7d656b9ab679cd6210074254dc7cf9f12c) |
-| M10 | `E/gestao-contratos` | H124–H137 | L | — |
+| M10 | `E/gestao-contratos` | H124–H137 | L | [`eb3f667`](https://github.com/insign/concursos/commit/eb3f6674396012b93a72664535b9cdf172217731) |
 | M11 | `E/governo-eletronico-transparencia` | H138–H141 | L | — |
 | M12 | `E/gestao-pessoas` | H142–H153 | L | — |
 
