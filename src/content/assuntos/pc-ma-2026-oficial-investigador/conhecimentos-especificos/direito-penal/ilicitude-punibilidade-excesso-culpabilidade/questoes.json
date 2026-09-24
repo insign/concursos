@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u084-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual afirmação descreve corretamente a relação entre fato típico e ilicitude?",
       "options": [
         {
           "id": "A",
-          "text": "Todo fato típico é necessariamente ilícito, sem possibilidade de justificação."
+          "text": "O fato pode ser típico e, ainda assim, ter sua ilicitude excluída por causa de justificação."
         },
         {
           "id": "B",
-          "text": "O fato pode ser típico e, ainda assim, ter sua ilicitude excluída por causa de justificação."
+          "text": "Todo fato típico é necessariamente ilícito, sem possibilidade de justificação."
         },
         {
           "id": "C",
@@ -29,22 +29,22 @@
           "text": "Prescrição exclui a tipicidade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "As causas do artigo 23 justificam fatos que permanecem típicos, mas deixam de ser ilícitos."
     },
     {
       "id": "u084-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual conjunto contém apenas causas gerais de exclusão da ilicitude previstas no artigo 23 do Código Penal?",
       "options": [
         {
           "id": "A",
-          "text": "estado de necessidade, legítima defesa, estrito cumprimento de dever legal e exercício regular de direito."
+          "text": "prescrição, legítima defesa, decadência e perdão judicial."
         },
         {
           "id": "B",
-          "text": "prescrição, legítima defesa, decadência e perdão judicial."
+          "text": "estado de necessidade, legítima defesa, estrito cumprimento de dever legal e exercício regular de direito."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "prescrição, decadência, perempção e retratação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 23 lista essas quatro justificantes gerais."
     },
     {
       "id": "u084-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para o estado de necessidade do artigo 24, exige-se, entre outros requisitos,",
       "options": [
         {
           "id": "A",
-          "text": "perigo atual que não podia ser evitado de outro modo e sacrifício do direito ameaçado que não era razoável exigir."
+          "text": "vingança contra agressão passada."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "vingança contra agressão passada."
+          "text": "perigo atual que não podia ser evitado de outro modo e sacrifício do direito ameaçado que não era razoável exigir."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "perigo criado voluntariamente pelo próprio agente como requisito positivo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 24 exige perigo atual, não provocado voluntariamente, inevitável de outro modo, e ponderação que não torne razoável exigir o sacrifício do direito ameaçado."
     },
     {
       "id": "u084-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quem tinha dever legal de enfrentar o perigo",
       "options": [
         {
           "id": "A",
-          "text": "não pode alegar estado de necessidade com base no artigo 24, § 1º."
+          "text": "passa a ter direito irrestrito de sacrificar qualquer bem."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "passa a ter direito irrestrito de sacrificar qualquer bem."
+          "text": "não pode alegar estado de necessidade com base no artigo 24, § 1º."
         },
         {
           "id": "E",
           "text": "deve responder objetivamente por qualquer resultado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O § 1º do artigo 24 contém essa limitação expressa."
     },
     {
       "id": "u084-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A legítima defesa exige",
       "options": [
         {
           "id": "A",
-          "text": "agressão injusta atual ou iminente e uso moderado dos meios necessários para defender direito próprio ou alheio."
+          "text": "sempre defesa exclusiva de direito próprio."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "sempre defesa exclusiva de direito próprio."
+          "text": "agressão injusta atual ou iminente e uso moderado dos meios necessários para defender direito próprio ou alheio."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Essa é a estrutura do artigo 25."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u084-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Estrito cumprimento de dever legal e exercício regular de direito distinguem-se porque",
       "options": [
         {
           "id": "A",
-          "text": "no primeiro há dever jurídico de agir; no segundo, faculdade ou autorização jurídica exercida dentro de seus limites."
+          "text": "ambos autorizam excesso ilimitado."
         },
         {
           "id": "B",
-          "text": "ambos autorizam excesso ilimitado."
+          "text": "no primeiro há dever jurídico de agir; no segundo, faculdade ou autorização jurídica exercida dentro de seus limites."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "o dever legal independe de qualquer fonte jurídica."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Ambos excluem a ilicitude quando presentes seus requisitos, mas um parte de dever e o outro de exercício de direito reconhecido."
     },
     {
       "id": "u084-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O parágrafo único do artigo 23 estabelece que o agente",
       "options": [
         {
           "id": "A",
-          "text": "responde pelo excesso doloso ou culposo praticado no contexto das excludentes."
+          "text": "responde objetivamente por qualquer excesso."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "responde objetivamente por qualquer excesso."
+          "text": "responde pelo excesso doloso ou culposo praticado no contexto das excludentes."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "tem o excesso sempre absorvido pela justificante."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A justificante protege somente a atuação dentro de seus limites; o excesso doloso ou culposo é punível."
     },
     {
       "id": "u084-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No excesso culposo em legítima defesa,",
       "options": [
         {
           "id": "A",
-          "text": "pode haver responsabilização culposa se o tipo correspondente admitir modalidade culposa."
+          "text": "não é necessário imprudência, negligência ou imperícia."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "não é necessário imprudência, negligência ou imperícia."
+          "text": "pode haver responsabilização culposa se o tipo correspondente admitir modalidade culposa."
         },
         {
           "id": "E",
           "text": "a culpabilidade é extinta por prescrição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O excesso culposo decorre de violação culposa dos limites da justificante e pressupõe previsão de modalidade culposa."
     },
     {
       "id": "u084-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando o agente erra sobre uma situação de fato que, se existisse, tornaria sua ação legítima, o Código Penal disciplina",
       "options": [
         {
           "id": "A",
-          "text": "erro sobre pressupostos fáticos de descriminante, tratado no artigo 20, § 1º."
+          "text": "concurso formal."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "concurso formal."
+          "text": "erro sobre pressupostos fáticos de descriminante, tratado no artigo 20, § 1º."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 20, § 1º, trata da descriminante putativa baseada em erro sobre os pressupostos fáticos da justificante."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u084-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na concepção normativa utilizada como mapa nesta unidade, são elementos da culpabilidade",
       "options": [
         {
           "id": "A",
-          "text": "imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
+          "text": "tipicidade, prescrição e competência."
         },
         {
           "id": "B",
-          "text": "tipicidade, prescrição e competência."
+          "text": "imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "ilicitude, punibilidade e reincidência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Esses são os três elementos normativos usados para organizar a culpabilidade; imputabilidade será aprofundada em U085."
     },
     {
       "id": "u084-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao erro de proibição do artigo 21, assinale a opção correta.",
       "options": [
         {
           "id": "A",
-          "text": "Se inevitável, isenta de pena; se evitável, pode reduzir a pena de um sexto a um terço."
+          "text": "Se evitável, exclui automaticamente o dolo."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "Se evitável, exclui automaticamente o dolo."
+          "text": "Se inevitável, isenta de pena; se evitável, pode reduzir a pena de um sexto a um terço."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "Não produz qualquer efeito penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 21 diferencia erro inevitável e evitável exatamente nesses termos."
     },
     {
       "id": "u084-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A coação moral irresistível",
       "options": [
         {
           "id": "A",
-          "text": "exclui a culpabilidade por inexigibilidade de conduta diversa."
+          "text": "é causa de legítima defesa."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "é causa de legítima defesa."
+          "text": "exclui a culpabilidade por inexigibilidade de conduta diversa."
         },
         {
           "id": "E",
           "text": "transforma o fato em contravenção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Na coação moral irresistível há comportamento físico, mas a ameaça torna inexigível conduta diversa."
     },
     {
       "id": "u084-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na coação física absoluta, a consequência principal para o coagido é",
       "options": [
         {
           "id": "A",
-          "text": "ausência de conduta voluntária e, por isso, afastamento do fato típico em relação a ele."
+          "text": "concurso formal."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "concurso formal."
+          "text": "ausência de conduta voluntária e, por isso, afastamento do fato típico em relação a ele."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A força física absoluta elimina o comportamento voluntário; a análise é anterior à culpabilidade."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u084-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre a inexigibilidade de conduta diversa como causa supralegal de exclusão da culpabilidade, a jurisprudência do STJ indica que",
       "options": [
         {
           "id": "A",
-          "text": "deve ficar demonstrado que agir contra o Direito era, concretamente, a única alternativa possível."
+          "text": "qualquer dificuldade econômica a caracteriza automaticamente."
         },
         {
           "id": "B",
-          "text": "qualquer dificuldade econômica a caracteriza automaticamente."
+          "text": "deve ficar demonstrado que agir contra o Direito era, concretamente, a única alternativa possível."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "ela dispensa exame das circunstâncias do caso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O STJ adota critério rigoroso para a inexigibilidade, exigindo ausência concreta de alternativa conforme ao Direito."
     },
     {
       "id": "u084-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual afirmação descreve corretamente a extinção da punibilidade?",
       "options": [
         {
           "id": "A",
-          "text": "Atua sobre a possibilidade jurídica de punir e não transforma, por si só, o fato em lícito ou atípico."
+          "text": "Prescrição é excludente de ilicitude."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "Prescrição é excludente de ilicitude."
+          "text": "Atua sobre a possibilidade jurídica de punir e não transforma, por si só, o fato em lícito ou atípico."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "O artigo 107 não contém causas extintivas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Punibilidade é camada distinta; causas do artigo 107 não devem ser confundidas com excludentes do fato típico, da ilicitude ou da culpabilidade."
     },
     {
       "id": "u084-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 2 da prova discursiva Cebraspe/PC-CE para Delegado, aplicada em 2025, qual alternativa distingue corretamente erro de proibição indireto e erro de tipo permissivo?",
       "options": [
         {
           "id": "A",
-          "text": "No primeiro, o agente erra sobre a permissão jurídica; no segundo, erra sobre fatos que, se existissem, preencheriam uma justificante."
+          "text": "Erro de proibição indireto sempre exclui o fato típico."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "Erro de proibição indireto sempre exclui o fato típico."
+          "text": "No primeiro, o agente erra sobre a permissão jurídica; no segundo, erra sobre fatos que, se existissem, preencheriam uma justificante."
         },
         {
           "id": "E",
           "text": "Nenhum dos dois produz efeito jurídico."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O padrão definitivo Cebraspe/PC-CE diferencia o erro sobre autorização normativa do erro sobre os pressupostos fáticos da causa de justificação."
     },
     {
       "id": "u084-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 95 do caderno Cebraspe/IBAMA 2022, a coação física absoluta",
       "options": [
         {
           "id": "A",
-          "text": "elimina a conduta voluntária do coagido e afasta o correspondente fato típico em relação a ele."
+          "text": "mantém integralmente a responsabilidade do coagido."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "mantém integralmente a responsabilidade do coagido."
+          "text": "elimina a conduta voluntária do coagido e afasta o correspondente fato típico em relação a ele."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O item oficial 95 foi julgado Certo. A coação física absoluta elimina a voluntariedade da conduta."
     },
     {
