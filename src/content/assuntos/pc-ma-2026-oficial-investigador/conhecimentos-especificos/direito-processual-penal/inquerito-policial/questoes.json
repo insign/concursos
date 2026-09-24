@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u092-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u092-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A dispensabilidade do inquérito significa que",
       "options": [
         {
           "id": "A",
-          "text": "a denúncia ou queixa pode ser apresentada sem inquérito quando houver suporte informativo suficiente por outras fontes."
+          "text": "a polícia pode arquivá-lo quando quiser."
         },
         {
           "id": "B",
-          "text": "a polícia pode arquivá-lo quando quiser."
+          "text": "a denúncia ou queixa pode ser apresentada sem inquérito quando houver suporte informativo suficiente por outras fontes."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "o Ministério Público está proibido de usar seus elementos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Os arts. 12 e 46, §1º, do CPP mostram que o inquérito não é condição obrigatória quando já houver peças suficientes."
     },
     {
       "id": "u092-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O caráter inquisitivo do inquérito policial",
       "options": [
         {
           "id": "A",
-          "text": "não elimina direitos do investigado, como silêncio, não autoincriminação e acesso defensivo aos elementos já documentados."
+          "text": "faz do inquérito um processo condenatório."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "faz do inquérito um processo condenatório."
+          "text": "não elimina direitos do investigado, como silêncio, não autoincriminação e acesso defensivo aos elementos já documentados."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "torna todo elemento secreto para a defesa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A ausência de contraditório pleno não equivale a ausência de garantias constitucionais."
     },
     {
       "id": "u092-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Súmula Vinculante 14 do STF, o defensor",
       "options": [
         {
           "id": "A",
-          "text": "tem acesso amplo aos elementos já documentados que interessem à defesa, sem direito antecipado a diligências ainda em execução."
+          "text": "só pode acessar os autos após a denúncia."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "só pode acessar os autos após a denúncia."
+          "text": "tem acesso amplo aos elementos já documentados que interessem à defesa, sem direito antecipado a diligências ainda em execução."
         },
         {
           "id": "E",
           "text": "pode exigir divulgação pública de todo dado sigiloso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A súmula protege o acesso ao que já foi formalmente incorporado, preservando diligências em curso cuja revelação comprometeria a investigação."
     },
     {
       "id": "u092-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos crimes de ação penal pública incondicionada, o inquérito",
       "options": [
         {
           "id": "A",
-          "text": "pode ser instaurado de ofício pela autoridade policial."
+          "text": "somente pode existir após denúncia."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "somente pode existir após denúncia."
+          "text": "pode ser instaurado de ofício pela autoridade policial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 5º do CPP prevê instauração de ofício nos crimes de ação pública."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u092-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos crimes de ação privada, a autoridade policial procede ao inquérito",
       "options": [
         {
           "id": "A",
-          "text": "a requerimento de quem tenha qualidade para intentar a ação privada."
+          "text": "obrigatoriamente de ofício."
         },
         {
           "id": "B",
-          "text": "obrigatoriamente de ofício."
+          "text": "a requerimento de quem tenha qualidade para intentar a ação privada."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "sem necessidade de manifestação do legitimado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a regra literal do art. 5º, §5º, do CPP."
     },
     {
       "id": "u092-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O ofendido ou o indiciado, ao requerer uma diligência no inquérito,",
       "options": [
         {
           "id": "A",
-          "text": "não possui garantia de realização automática; a autoridade decide sobre sua pertinência, sem prejuízo das diligências obrigatórias."
+          "text": "só pode requerer depois da denúncia."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "só pode requerer depois da denúncia."
+          "text": "não possui garantia de realização automática; a autoridade decide sobre sua pertinência, sem prejuízo das diligências obrigatórias."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "faz o inquérito perder natureza administrativa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 14 admite o requerimento, mas deixa sua realização a juízo da autoridade."
     },
     {
       "id": "u092-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A reprodução simulada do art. 7º do CPP",
       "options": [
         {
           "id": "A",
-          "text": "pode ser realizada pela autoridade policial se não contrariar a moralidade ou a ordem pública, sem exigência geral de autorização judicial prévia."
+          "text": "só pode ocorrer depois da sentença."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "só pode ocorrer depois da sentença."
+          "text": "pode ser realizada pela autoridade policial se não contrariar a moralidade ou a ordem pública, sem exigência geral de autorização judicial prévia."
         },
         {
           "id": "E",
           "text": "substitui automaticamente a perícia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 7º exige compatibilidade com moralidade e ordem pública, mas não cria requisito geral de autorização judicial."
     },
     {
       "id": "u092-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o prazo-base do art. 10 do CPP, o inquérito deve terminar",
       "options": [
         {
           "id": "A",
-          "text": "em 10 dias se o investigado estiver preso e em 30 dias se estiver solto."
+          "text": "sem qualquer prazo legal."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "sem qualquer prazo legal."
+          "text": "em 10 dias se o investigado estiver preso e em 30 dias se estiver solto."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "São os prazos-base do CPP; legislação especial pode prever disciplina diversa."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u092-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O indiciamento, segundo a Lei nº 12.830/2013,",
       "options": [
         {
           "id": "A",
-          "text": "é ato privativo do delegado, deve ser fundamentado e indicar autoria, materialidade e circunstâncias."
+          "text": "é ato exclusivo do juiz."
         },
         {
           "id": "B",
-          "text": "é ato exclusivo do juiz."
+          "text": "é ato privativo do delegado, deve ser fundamentado e indicar autoria, materialidade e circunstâncias."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "somente pode ocorrer depois da denúncia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A lei trata o indiciamento como ato técnico-jurídico fundamentado e privativo da autoridade policial."
     },
     {
       "id": "u092-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "De acordo com STF e STJ, o juiz",
       "options": [
         {
           "id": "A",
-          "text": "não pode requisitar ao delegado que indicie determinada pessoa, pois o indiciamento é ato próprio da autoridade policial."
+          "text": "pode substituir livremente a conclusão do delegado."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "pode substituir livremente a conclusão do delegado."
+          "text": "não pode requisitar ao delegado que indicie determinada pessoa, pois o indiciamento é ato próprio da autoridade policial."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "pode indiciar diretamente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A imposição judicial de indiciamento invade a valoração própria da fase investigativa."
     },
     {
       "id": "u092-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Tema 184, o STF reconheceu que o Ministério Público",
       "options": [
         {
           "id": "A",
-          "text": "pode realizar investigação criminal própria, respeitando prazo razoável, garantias, reserva de jurisdição, documentação e controle judicial."
+          "text": "substitui obrigatoriamente toda polícia judiciária."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "substitui obrigatoriamente toda polícia judiciária."
+          "text": "pode realizar investigação criminal própria, respeitando prazo razoável, garantias, reserva de jurisdição, documentação e controle judicial."
         },
         {
           "id": "E",
           "text": "só pode investigar depois da denúncia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A competência investigatória foi reconhecida com limites expressos pelo STF."
     },
     {
       "id": "u092-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Súmula 234 do STJ, a participação de membro do Ministério Público na investigação",
       "options": [
         {
           "id": "A",
-          "text": "não acarreta, por si só, impedimento ou suspeição para o oferecimento da denúncia."
+          "text": "elimina o controle judicial."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "elimina o controle judicial."
+          "text": "não acarreta, por si só, impedimento ou suspeição para o oferecimento da denúncia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A súmula afasta impedimento ou suspeição automática pelo simples fato de participação investigatória."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u092-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A autoridade policial, ao concluir que não há base suficiente para acusação,",
       "options": [
         {
           "id": "A",
-          "text": "não pode mandar arquivar o inquérito, pois o art. 17 do CPP veda o arquivamento pela polícia."
+          "text": "deve arquivar definitivamente por despacho próprio."
         },
         {
           "id": "B",
-          "text": "deve arquivar definitivamente por despacho próprio."
+          "text": "não pode mandar arquivar o inquérito, pois o art. 17 do CPP veda o arquivamento pela polícia."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "transforma o procedimento em ação privada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O delegado relata a investigação; o arquivamento não é ato de disponibilidade da autoridade policial."
     },
     {
       "id": "u092-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após arquivamento por falta de base para denúncia, o art. 18 do CPP e a Súmula 524 do STF permitem concluir que",
       "options": [
         {
           "id": "A",
-          "text": "notícia de novas provas pode autorizar retomada das pesquisas, e o ajuizamento posterior da ação exige novas provas produzidas."
+          "text": "a mesma prova antiga basta sempre para nova denúncia."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "a mesma prova antiga basta sempre para nova denúncia."
+          "text": "notícia de novas provas pode autorizar retomada das pesquisas, e o ajuizamento posterior da ação exige novas provas produzidas."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "o arquivamento equivale sempre a sentença absolutória."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O STF distingue o requisito para retomar a investigação do requisito para iniciar ação penal após o arquivamento."
     },
     {
       "id": "u092-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 14-A do CPP é especialmente relevante para carreiras policiais porque",
       "options": [
         {
           "id": "A",
-          "text": "prevê disciplina de constituição ou indicação de defensor quando agentes de segurança são investigados por fatos relacionados ao uso de força letal no exercício profissional."
+          "text": "elimina o direito ao silêncio."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "elimina o direito ao silêncio."
+          "text": "prevê disciplina de constituição ou indicação de defensor quando agentes de segurança são investigados por fatos relacionados ao uso de força letal no exercício profissional."
         },
         {
           "id": "E",
           "text": "transforma todo fato em crime militar."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O dispositivo cria regras próprias de ciência e defesa, com prazos legais, para a hipótese descrita."
     },
     {
       "id": "u092-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 17 da matriz oficial Cebraspe PC/PE 2023, nos crimes em que a ação pública depende de representação,",
       "options": [
         {
           "id": "A",
-          "text": "o inquérito não pode ser iniciado sem representação."
+          "text": "o inquérito deve ser sempre iniciado de ofício."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "o inquérito deve ser sempre iniciado de ofício."
+          "text": "o inquérito não pode ser iniciado sem representação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A alternativa correta original foi E, baseada no art. 5º, §4º, do CPP. A adaptação remapeia as alternativas sem reprodução literal."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u092-p03",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 22 da prova Cebraspe PM/RO 2022, considere investigado preso preventivamente durante inquérito comum estadual. Pelo prazo-base do art. 10 do CPP, a conclusão deve ocorrer",
       "options": [
         {
           "id": "A",
-          "text": "em 10 dias contados da efetivação da prisão, sem prejuízo da prorrogação específica legalmente cabível."
+          "text": "em 30 dias contados da prisão."
         },
         {
           "id": "B",
-          "text": "em 30 dias contados da prisão."
+          "text": "em 10 dias contados da efetivação da prisão, sem prejuízo da prorrogação específica legalmente cabível."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "sem prazo legal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A questão original teve gabarito definitivo B: 10 dias a partir da efetivação da prisão preventiva. A ressalva preserva a disciplina atual do art. 3º-B, §2º."
     }
   ]
