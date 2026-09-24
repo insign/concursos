@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u107-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos termos do artigo 37, § 6º, da Constituição, respondem objetivamente pelos danos que seus agentes, nessa qualidade, causarem a terceiros",
       "options": [
         {
           "id": "A",
-          "text": "somente a União e os estados."
+          "text": "as pessoas jurídicas de direito público e as pessoas jurídicas de direito privado prestadoras de serviços públicos."
         },
         {
           "id": "B",
-          "text": "as pessoas jurídicas de direito público e as pessoas jurídicas de direito privado prestadoras de serviços públicos."
+          "text": "somente a União e os estados."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "qualquer pessoa jurídica privada, independentemente da atividade exercida."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 37, § 6º, abrange pessoas jurídicas de direito público e pessoas jurídicas de direito privado prestadoras de serviços públicos, pelos danos que seus agentes, nessa qualidade, causem a terceiros."
     },
     {
@@ -64,13 +64,13 @@
     },
     {
       "id": "u107-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na responsabilidade objetiva estatal por ato comissivo, a vítima precisa demonstrar, em essência,",
       "options": [
         {
           "id": "A",
-          "text": "conduta imputável, dano e nexo causal."
+          "text": "culpa grave do agente e reincidência."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "culpa grave do agente e reincidência."
+          "text": "conduta imputável, dano e nexo causal."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "prévia condenação penal do agente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A responsabilidade objetiva dispensa a prova de culpa na relação vítima–pessoa jurídica, mas não dispensa conduta imputável, dano nem nexo causal."
     },
     {
       "id": "u107-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A teoria do risco administrativo distingue-se do risco integral porque",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "preserva a análise do nexo causal e admite causas que possam excluir ou reduzir a responsabilidade."
+          "text": "só se aplica a omissões estatais."
         },
         {
           "id": "D",
-          "text": "só se aplica a omissões estatais."
+          "text": "preserva a análise do nexo causal e admite causas que possam excluir ou reduzir a responsabilidade."
         },
         {
           "id": "E",
           "text": "impede qualquer excludente causal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O risco administrativo é objetivo, mas mantém dano e nexo como pressupostos e admite análise de causas que rompam ou reduzam a imputação causal."
     },
     {
       "id": "u107-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema 130 do Supremo Tribunal Federal, a responsabilidade objetiva de pessoa jurídica de direito privado prestadora de serviço público",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "alcança danos causados a usuários e também a terceiros não usuários, desde que presentes os pressupostos da responsabilidade."
+          "text": "só existe em concessões federais."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "só existe em concessões federais."
+          "text": "alcança danos causados a usuários e também a terceiros não usuários, desde que presentes os pressupostos da responsabilidade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O Tema 130 reconhece responsabilidade objetiva da prestadora privada de serviço público perante usuários e não usuários. O nexo causal continua indispensável."
     },
     {
       "id": "u107-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito de atuação estatal lícita, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "jamais pode gerar dever de indenizar."
+          "text": "pode gerar responsabilidade em hipóteses juridicamente qualificadas, especialmente diante de dano real, especial e anormal."
         },
         {
           "id": "B",
-          "text": "pode gerar responsabilidade em hipóteses juridicamente qualificadas, especialmente diante de dano real, especial e anormal."
+          "text": "jamais pode gerar dever de indenizar."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "dispensa a demonstração de dano."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A ilicitude do ato não é requisito universal da responsabilidade estatal. Em situações qualificadas, ato lícito pode gerar dano indenizável, desde que presentes os requisitos do regime aplicável."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u107-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Tema 592 do Supremo Tribunal Federal, relativo à morte de detento, enfatiza",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "o dever específico de proteção do preso e a responsabilidade estatal quando sua inobservância se relaciona causalmente à morte."
+          "text": "a responsabilidade exclusiva da família do preso."
         },
         {
           "id": "C",
-          "text": "a responsabilidade exclusiva da família do preso."
+          "text": "o dever específico de proteção do preso e a responsabilidade estatal quando sua inobservância se relaciona causalmente à morte."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "que o agente penitenciário deve ser sempre demandado diretamente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A tese parte do dever específico de proteção assegurado constitucionalmente à pessoa sob custódia e da conexão entre sua inobservância e o resultado danoso."
     },
     {
       "id": "u107-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Conforme o Tema 362 do Supremo Tribunal Federal, a fuga de pessoa do sistema prisional",
       "options": [
@@ -258,29 +258,29 @@
         },
         {
           "id": "C",
-          "text": "não basta, por si só, para responsabilizar o Estado por crime posterior quando não houver nexo causal direto entre a fuga e a conduta criminosa."
+          "text": "impede qualquer responsabilização estatal em hipótese futura."
         },
         {
           "id": "D",
-          "text": "impede qualquer responsabilização estatal em hipótese futura."
+          "text": "não basta, por si só, para responsabilizar o Estado por crime posterior quando não houver nexo causal direto entre a fuga e a conduta criminosa."
         },
         {
           "id": "E",
           "text": "transforma a responsabilidade em risco integral."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O Tema 362 exige nexo causal direto entre a fuga e o crime posterior. Uma falha estatal pretérita não gera responsabilidade ilimitada por todos os atos futuros do foragido."
     },
     {
       "id": "u107-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em situação excepcional de atividade estatal de risco anormal, a jurisprudência do Superior Tribunal de Justiça admite",
       "options": [
         {
           "id": "A",
-          "text": "responsabilidade objetiva com fundamento jurídico específico, ainda que a conduta seja omissiva, preservados dano e nexo."
+          "text": "indenização sem dano."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "indenização sem dano."
+          "text": "responsabilidade objetiva com fundamento jurídico específico, ainda que a conduta seja omissiva, preservados dano e nexo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Informativo 674 ilustra hipótese excepcional fundada no risco anormal da atividade, mostrando que o regime depende do fundamento jurídico específico e não apenas do rótulo ação/omissão."
     },
     {
       "id": "u107-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a vítima for a causa exclusiva do próprio dano, sem contribuição causal juridicamente relevante do Estado,",
       "options": [
         {
           "id": "A",
-          "text": "a indenização deve ser apenas reduzida pela metade."
+          "text": "o nexo com a atuação estatal pode ser rompido, excluindo a responsabilidade."
         },
         {
           "id": "B",
-          "text": "o nexo com a atuação estatal pode ser rompido, excluindo a responsabilidade."
+          "text": "a indenização deve ser apenas reduzida pela metade."
         },
         {
           "id": "C",
@@ -329,7 +329,7 @@
           "text": "o agente público responde pessoalmente em qualquer caso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A causa exclusiva da vítima pode romper o nexo causal. Diferentemente, a culpa concorrente preserva contribuição estatal e pode apenas reduzir a indenização."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "u107-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema 940 do Supremo Tribunal Federal, a ação indenizatória por dano causado por agente público no exercício da função deve ser ajuizada",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "contra o Estado ou a pessoa jurídica privada prestadora do serviço público, conforme o caso, sendo o agente parte ilegítima na ação direta da vítima."
+          "text": "sempre contra agente e Estado em litisconsórcio necessário."
         },
         {
           "id": "C",
-          "text": "sempre contra agente e Estado em litisconsórcio necessário."
+          "text": "contra o Estado ou a pessoa jurídica privada prestadora do serviço público, conforme o caso, sendo o agente parte ilegítima na ação direta da vítima."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "apenas contra a chefia imediata do agente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O Tema 940 direciona a ação da vítima à pessoa jurídica e preserva a possibilidade de regresso contra o agente nos casos de dolo ou culpa."
     },
     {
       "id": "u107-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O direito de regresso da pessoa jurídica contra o agente causador do dano, conforme o artigo 37, § 6º,",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "depende da demonstração de dolo ou culpa do agente."
+          "text": "é exercido pela vítima diretamente."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "é exercido pela vítima diretamente."
+          "text": "depende da demonstração de dolo ou culpa do agente."
         },
         {
           "id": "E",
           "text": "é incompatível com responsabilidade objetiva estatal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A responsabilidade da pessoa jurídica perante a vítima pode ser objetiva, mas o regresso contra o agente é subjetivo e exige dolo ou culpa."
     },
     {
       "id": "u107-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Tema 777, o Supremo Tribunal Federal reconheceu, em relação a danos causados por tabeliães e oficiais de registro no exercício de suas funções,",
       "options": [
         {
           "id": "A",
-          "text": "responsabilidade objetiva do Estado, preservado o regresso nos termos da tese."
+          "text": "risco integral do agente delegatário."
         },
         {
           "id": "B",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "risco integral do agente delegatário."
+          "text": "responsabilidade objetiva do Estado, preservado o regresso nos termos da tese."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Tema 777 reconhece a responsabilidade objetiva do Estado pelos danos praticados por tabeliães e registradores no exercício da função, com regresso cabível contra o responsável conforme os requisitos fixados."
     },
     {
       "id": "u107-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema 950 do Supremo Tribunal Federal, opiniões, palavras e votos parlamentares abrangidos pela imunidade material",
       "options": [
         {
           "id": "A",
-          "text": "sempre geram responsabilidade objetiva do Estado."
+          "text": "atuam como excludente da responsabilidade civil objetiva do Estado no campo protegido pela imunidade."
         },
         {
           "id": "B",
-          "text": "atuam como excludente da responsabilidade civil objetiva do Estado no campo protegido pela imunidade."
+          "text": "sempre geram responsabilidade objetiva do Estado."
         },
         {
           "id": "C",
@@ -479,7 +479,7 @@
           "text": "só produzem efeitos em matéria penal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O Tema 950 trata a imunidade parlamentar material como excludente da responsabilidade objetiva estatal pelas manifestações protegidas; fora da imunidade, o regime é distinto."
     },
     {
@@ -514,13 +514,13 @@
     },
     {
       "id": "u107-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Código Civil, a indenização civil, como regra,",
       "options": [
         {
           "id": "A",
-          "text": "mede-se pela extensão do dano."
+          "text": "depende de sanção disciplinar anterior."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "depende de sanção disciplinar anterior."
+          "text": "mede-se pela extensão do dano."
         },
         {
           "id": "D",
@@ -539,7 +539,7 @@
           "text": "é invariável mesmo quando a vítima concorre culposamente para o evento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O artigo 944 estabelece que a indenização mede-se pela extensão do dano. A concorrência culposa da vítima pode repercutir na fixação conforme o artigo 945."
     },
     {
@@ -574,7 +574,7 @@
     },
     {
       "id": "u107-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 46 da prova Cebraspe para Delegado de Polícia Civil do Rio de Janeiro, aplicada em 13/3/2022, um agente público em serviço causa dano a terceiro com veículo oficial. À luz do artigo 37, § 6º, e do Tema 940 do Supremo Tribunal Federal,",
       "options": [
@@ -592,14 +592,14 @@
         },
         {
           "id": "D",
-          "text": "a ação da vítima deve ser dirigida contra a pessoa jurídica responsável, preservado o direito de regresso contra o agente se houver dolo ou culpa."
+          "text": "o agente responde objetivamente em regresso."
         },
         {
           "id": "E",
-          "text": "o agente responde objetivamente em regresso."
+          "text": "a ação da vítima deve ser dirigida contra a pessoa jurídica responsável, preservado o direito de regresso contra o agente se houver dolo ou culpa."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "A prova oficial cobrou a separação entre responsabilidade objetiva da pessoa jurídica e responsabilidade pessoal do agente. O Tema 940 direciona a ação indenizatória da vítima à pessoa jurídica e preserva o regresso contra o agente quando houver dolo ou culpa. A redação foi adaptada sem reprodução literal."
     }
   ]
