@@ -75,6 +75,13 @@
 23. **Supremo Tribunal Federal. Ação Direta de Inconstitucionalidade 4.424.** Plenário: ação penal por lesão corporal praticada contra mulher no ambiente doméstico é pública incondicionada, independentemente da extensão da lesão.  
     https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4424
 
+### Tema 1.412/<abbr title="Supremo Tribunal Federal">STF</abbr> — proteção fora do contexto doméstico
+
+- **Supremo Tribunal Federal. ARE 1.537.713, Tema 1.412.** Mérito julgado em 19/8/2026; ata de julgamento publicada no <abbr title="Diário da Justiça Eletrônico">DJe</abbr> em **21/8/2026**. Medidas protetivas para toda forma de violência de gênero contra a mulher, inclusive fora das relações do artigo 5º; teses sobre juízo competente, risco imediato, violência política e atuação policial nos limites da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 6.138. Embargos de declaração opostos em 27/8/2026. Em 24/9/2026, não foi localizada publicação do acórdão de mérito; a ata publicada é a evidência formal disponível nesta consulta.  
+  https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=7171450&numeroProcesso=1537713&numeroTema=1412
+- **Supremo Tribunal Federal, notícia oficial de 19/8/2026.** Síntese das teses do julgamento.  
+  https://noticias.stf.jus.br/postsnoticias/lei-maria-da-penha-medidas-protetivas-se-aplicam-fora-do-contexto-domestico-decide-stf/
+
 ### Prisão preventiva de ofício: divergência que deve ser explicitada
 
 24. **Superior Tribunal de Justiça. Súmula 676, Terceira Seção, 2024.** Em razão da Lei nº 13.964/2019, não é mais possível ao juiz decretar ou converter prisão preventiva de ofício. O repositório oficial da súmula referencia expressamente o artigo 20 da Lei Maria da Penha, e precedentes originários afirmam que a vedação repercute na violência doméstica.  
@@ -89,11 +96,11 @@
 27. **Superior Tribunal de Justiça. Agravo regimental em habeas corpus, registro 202600860077, Quinta Turma, publicado em 23 jun. 2026.** Também afirmou a possibilidade de prisão preventiva de ofício em violência doméstica com base na especialidade do artigo 20, embora o caso registrasse provocação acusatória anterior.  
     https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=23%2F06%2F2026&num_registro=202600860077
 
-**Tratamento editorial:** para literalidade da Lei nº 11.340/2006, o artigo 20 ainda contém “de ofício”. Para jurisprudência, registrar a Súmula 676 e a orientação restritiva da Sexta Turma, sem ocultar os acórdãos divergentes da Quinta Turma publicados em junho de 2026. PC-F03 deverá revalidar esse ponto na janela final do edital.
+**Tratamento editorial (24/9/2026):** para literalidade da Lei nº 11.340/2006, o artigo 20 ainda contém “de ofício”. Para jurisprudência, registrar a Súmula 676 e a orientação restritiva da Sexta Turma, sem ocultar os acórdãos divergentes da Quinta Turma publicados em junho de 2026. A consulta atual não estabelece uniformização posterior; a janela ainda em curso exige nova verificação antes do encerramento da campanha.
 
 ### Corte jurisprudencial
 
-O edital admite jurisprudência de tribunais superiores publicada até 30 dias antes da prova, inicialmente prevista para 6 dez. 2026. As fontes acima foram revalidadas em 20 set. 2026; PC-F03 permanece responsável pela revalidação final.
+O edital admite jurisprudência de tribunais superiores publicada até 30 dias antes da prova, inicialmente prevista para 6 dez. 2026 (**6 nov. 2026**, se a data for mantida). Esta reconsulta foi realizada em **24 set. 2026**: o Tema 1.412 teve ata publicada em 21 ago. 2026, mas os embargos e a publicação do acórdão de mérito devem ser acompanhados. A janela futura não pode ser certificada antecipadamente; reconsultar antes do encerramento da campanha.
 
 ## Questões anteriores verificadas
 
