@@ -289,7 +289,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
 | H142 | `fundamentos-evolucao-teorias` | `gp-fundamentos-teorias` | L | [`c6c26ba`](https://github.com/insign/concursos/commit/c6c26baa107c35d2159f0ea78ebf5fc669aa9c4b) |
-| H143 | `funcao-politicas-sistemas-rh` | `gp-funcao-politicas-sig` | L | — |
+| H143 | `funcao-politicas-sistemas-rh` | `gp-funcao-politicas-sig` | L | [`77193c2`](https://github.com/insign/concursos/commit/77193c202c70cff02ff80872236c11b610b73261) |
 | H144 | `relacoes-individuo-organizacao-qvt` | `gp-relacoes-qvt` | L | — |
 | H145 | `lideranca-motivacao-desempenho` | `gp-lideranca-motivacao` | L | — |
 | H146 | `competencia-interpessoal-conflitos` | `gp-interpessoal-conflitos` | L | — |
