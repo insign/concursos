@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u093-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u093-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se os vestígios de uma infração desaparecerem e o exame de corpo de delito não puder mais ser realizado,",
       "options": [
         {
           "id": "A",
-          "text": "a prova testemunhal pode suprir a falta do exame."
+          "text": "a ação penal deve ser automaticamente extinta."
         },
         {
           "id": "B",
-          "text": "a ação penal deve ser automaticamente extinta."
+          "text": "a prova testemunhal pode suprir a falta do exame."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "o juiz deve presumir a materialidade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 167 permite que a prova testemunhal supra a falta quando os vestígios desapareceram e o exame se tornou impossível."
     },
     {
       "id": "u093-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o início da cadeia de custódia, assinale a alternativa correta.",
       "options": [
         {
           "id": "A",
-          "text": "Ela pode começar com a preservação do local de crime ou com procedimento policial ou pericial em que seja detectado vestígio."
+          "text": "Ela começa apenas quando o vestígio chega ao laboratório."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "Ela começa apenas quando o vestígio chega ao laboratório."
+          "text": "Ela pode começar com a preservação do local de crime ou com procedimento policial ou pericial em que seja detectado vestígio."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "Ela é aplicável apenas depois do oferecimento da denúncia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 158-A, §1º, situa o início na preservação do local ou na detecção do vestígio em procedimentos policiais ou periciais."
     },
     {
       "id": "u093-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual sequência contém, na ordem legal, as três primeiras etapas da cadeia de custódia?",
       "options": [
         {
           "id": "A",
-          "text": "Reconhecimento, isolamento e fixação."
+          "text": "Isolamento, armazenamento e coleta."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "Isolamento, armazenamento e coleta."
+          "text": "Reconhecimento, isolamento e fixação."
         },
         {
           "id": "E",
           "text": "Recebimento, coleta e reconhecimento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 158-B inicia a sequência por reconhecimento, isolamento e fixação, seguindo depois para coleta e as demais etapas."
     },
     {
       "id": "u093-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto à coleta de vestígios na cadeia de custódia, o Código de Processo Penal determina que ela seja realizada",
       "options": [
         {
           "id": "A",
-          "text": "preferencialmente por perito oficial."
+          "text": "necessariamente por duas testemunhas."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "necessariamente por duas testemunhas."
+          "text": "preferencialmente por perito oficial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 158-C usa a expressão 'preferencialmente por perito oficial'; trocar preferencialmente por exclusivamente altera a regra legal."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u093-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O prazo legal para elaboração do laudo pericial é, como regra, de",
       "options": [
         {
           "id": "A",
-          "text": "10 dias, com possibilidade de prorrogação em casos excepcionais a requerimento dos peritos."
+          "text": "5 dias, improrrogáveis."
         },
         {
           "id": "B",
-          "text": "5 dias, improrrogáveis."
+          "text": "10 dias, com possibilidade de prorrogação em casos excepcionais a requerimento dos peritos."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "prazo livre, escolhido pelo perito."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 160, parágrafo único, prevê prazo máximo de 10 dias, prorrogável excepcionalmente a requerimento dos peritos."
     },
     {
       "id": "u093-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao valor do laudo pericial para o juiz,",
       "options": [
         {
           "id": "A",
-          "text": "o juiz pode aceitá-lo ou rejeitá-lo, no todo ou em parte, mediante valoração fundamentada do conjunto probatório."
+          "text": "o laudo vincula o juiz apenas quando produzido por perito oficial."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "o laudo vincula o juiz apenas quando produzido por perito oficial."
+          "text": "o juiz pode aceitá-lo ou rejeitá-lo, no todo ou em parte, mediante valoração fundamentada do conjunto probatório."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "divergência entre peritos torna a perícia automaticamente inexistente."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 182 estabelece que o juiz não fica adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo no todo ou em parte."
     },
     {
       "id": "u093-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Antes do interrogatório judicial, o acusado deve ser informado de que",
       "options": [
         {
           "id": "A",
-          "text": "pode permanecer calado e não responder às perguntas, sem que o silêncio importe confissão ou seja interpretado em prejuízo da defesa."
+          "text": "pode silenciar apenas sobre fatos que não constem da acusação."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "pode silenciar apenas sobre fatos que não constem da acusação."
+          "text": "pode permanecer calado e não responder às perguntas, sem que o silêncio importe confissão ou seja interpretado em prejuízo da defesa."
         },
         {
           "id": "E",
           "text": "o direito ao silêncio só existe se o acusado estiver preso."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 186 e seu parágrafo único asseguram o direito de permanecer calado, afastam confissão pelo silêncio e vedam interpretação prejudicial à defesa."
     },
     {
       "id": "u093-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A confissão no processo penal é",
       "options": [
         {
           "id": "A",
-          "text": "divisível e retratável, devendo ser confrontada com as demais provas."
+          "text": "válida apenas se ocorrer em juízo."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "válida apenas se ocorrer em juízo."
+          "text": "divisível e retratável, devendo ser confrontada com as demais provas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os arts. 197 e 200 exigem confronto com o conjunto probatório e qualificam a confissão como divisível e retratável."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u093-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a presença do réu puder causar humilhação, temor ou sério constrangimento capaz de prejudicar a verdade do depoimento da testemunha ou do ofendido, o Código prioriza",
       "options": [
         {
           "id": "A",
-          "text": "a inquirição por videoconferência; somente se isso for impossível admite-se a retirada do réu, mantida a presença do defensor."
+          "text": "a dispensa automática do depoimento."
         },
         {
           "id": "B",
-          "text": "a dispensa automática do depoimento."
+          "text": "a inquirição por videoconferência; somente se isso for impossível admite-se a retirada do réu, mantida a presença do defensor."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "o encerramento da instrução sem ouvir a pessoa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "É a sequência do art. 217: videoconferência primeiro e retirada do réu apenas se aquela forma for impossível, com defensor presente."
     },
     {
       "id": "u093-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema Repetitivo 1.258 do STJ, o reconhecimento de pessoa desconhecida baseado na memória visual",
       "options": [
         {
           "id": "A",
-          "text": "deve observar as regras do art. 226 na investigação e em juízo, sob pena de invalidade do reconhecimento como prova de autoria."
+          "text": "é válido sempre que a vítima demonstrar segurança subjetiva."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "é válido sempre que a vítima demonstrar segurança subjetiva."
+          "text": "deve observar as regras do art. 226 na investigação e em juízo, sob pena de invalidade do reconhecimento como prova de autoria."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "só exige formalidade se ocorrer em juízo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O Tema 1.258 fixou observância obrigatória do art. 226 tanto na fase inquisitorial quanto em juízo e rejeitou a simples convalidação de reconhecimento viciado."
     },
     {
       "id": "u093-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ainda segundo o Tema 1.258 do STJ, o rito formal do art. 226 é desnecessário quando",
       "options": [
         {
           "id": "A",
-          "text": "o depoente apenas identifica pessoa que já conhecia antes, em vez de apontar desconhecido pela memória visual do crime."
+          "text": "a vítima afirma ter certeza absoluta."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "a vítima afirma ter certeza absoluta."
+          "text": "o depoente apenas identifica pessoa que já conhecia antes, em vez de apontar desconhecido pela memória visual do crime."
         },
         {
           "id": "E",
           "text": "a investigação ainda não foi judicializada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A sexta tese do Tema 1.258 distingue reconhecimento de desconhecido e mera identificação de pessoa previamente conhecida."
     },
     {
       "id": "u093-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A acareação é cabível quando",
       "options": [
         {
           "id": "A",
-          "text": "pessoas abrangidas pelas combinações legais divergem em declarações sobre fatos ou circunstâncias relevantes."
+          "text": "o acusado exerce o direito ao silêncio."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "o acusado exerce o direito ao silêncio."
+          "text": "pessoas abrangidas pelas combinações legais divergem em declarações sobre fatos ou circunstâncias relevantes."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 229 vincula a acareação à divergência sobre fato ou circunstância relevante entre as pessoas que a lei permite confrontar."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u093-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "À luz do Tema 280 do STF, a entrada forçada em domicílio sem mandado judicial é lícita",
       "options": [
         {
           "id": "A",
-          "text": "quando houver fundadas razões, justificadas posteriormente, indicando situação de flagrante delito no interior."
+          "text": "sempre que o policial considerar a diligência útil."
         },
         {
           "id": "B",
-          "text": "sempre que o policial considerar a diligência útil."
+          "text": "quando houver fundadas razões, justificadas posteriormente, indicando situação de flagrante delito no interior."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "com base apenas em autorização de qualquer vizinho."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O Tema 280 exige fundadas razões de flagrante, justificadas a posteriori; o êxito posterior da busca não cria retroativamente a causa legítima do ingresso."
     },
     {
       "id": "u093-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A busca pessoal sem mandado, nos termos do art. 244 e da jurisprudência do STJ,",
       "options": [
         {
           "id": "A",
-          "text": "exige hipótese legal e fundada suspeita apoiada em elementos objetivos anteriores à revista."
+          "text": "torna-se lícita sempre que algo ilícito seja encontrado depois."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "torna-se lícita sempre que algo ilícito seja encontrado depois."
+          "text": "exige hipótese legal e fundada suspeita apoiada em elementos objetivos anteriores à revista."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "somente pode ocorrer dentro de residência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 244 exige fundada suspeita nas hipóteses legais, e o STJ afasta buscas exploratórias ou justificativas construídas apenas a partir do resultado posterior."
     },
     {
       "id": "u093-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre documentos no processo penal, assinale a alternativa correta.",
       "options": [
         {
           "id": "A",
-          "text": "Salvo os casos expressos em lei, as partes podem apresentar documentos em qualquer fase do processo."
+          "text": "Carta particular obtida por meio criminoso é sempre admissível."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "Carta particular obtida por meio criminoso é sempre admissível."
+          "text": "Salvo os casos expressos em lei, as partes podem apresentar documentos em qualquer fase do processo."
         },
         {
           "id": "E",
           "text": "A autenticidade contestada de documento particular nunca pode ser periciada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 231 permite, em regra, apresentação em qualquer fase. Os demais itens contrariam os arts. 233, 235 e 236."
     },
     {
       "id": "u093-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre alegada quebra da cadeia de custódia, conforme precedente do STJ publicado em 2/6/2026,",
       "options": [
         {
           "id": "A",
-          "text": "a irregularidade não gera nulidade automática; é necessário examinar se houve comprometimento efetivo da mesmidade e da confiabilidade, preservando a possibilidade de auditoria."
+          "text": "cadeia de custódia só interessa a vestígios digitais."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "cadeia de custódia só interessa a vestígios digitais."
+          "text": "a irregularidade não gera nulidade automática; é necessário examinar se houve comprometimento efetivo da mesmidade e da confiabilidade, preservando a possibilidade de auditoria."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "No AgRg no HC 1.085.352/RS, o STJ exigiu exame contextual de mesmidade, confiabilidade e auditabilidade e afastou presunção automática de confiabilidade ou nulidade."
     },
     {
@@ -634,17 +634,17 @@
     },
     {
       "id": "u093-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 7 da prova discursiva Cebraspe para Delegado da Polícia Civil do Maranhão, aplicação de 22/6/2025, qual providência integra o procedimento do art. 226 do Código de Processo Penal?",
       "options": [
         {
           "id": "A",
-          "text": "Antes do apontamento, convidar o reconhecedor a descrever a pessoa e, se possível, colocar o suspeito ao lado de pessoas semelhantes, documentando o ato de forma pormenorizada."
+          "text": "Mostrar primeiro uma única fotografia e só depois pedir uma descrição."
         },
         {
           "id": "B",
-          "text": "Mostrar primeiro uma única fotografia e só depois pedir uma descrição."
+          "text": "Antes do apontamento, convidar o reconhecedor a descrever a pessoa e, se possível, colocar o suspeito ao lado de pessoas semelhantes, documentando o ato de forma pormenorizada."
         },
         {
           "id": "C",
@@ -659,7 +659,7 @@
           "text": "Substituir o procedimento por confissão do suspeito."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O padrão oficial cobrou descrição prévia, alinhamento com pessoas semelhantes quando possível, cautelas contra intimidação e auto pormenorizado. A questão foi adaptada sem reprodução literal."
     }
   ]
