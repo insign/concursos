@@ -253,7 +253,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H120 | `almoxarifado-armazenamento` | = | L | [57f546d](https://github.com/insign/concursos/commit/57f546dd72577155cab534d7bd9240a634ecc04e) |
 | H121 | `compras-classificacao-padronizacao-codificacao` | `compras-classificacao-materiais` | L | [212fd63](https://github.com/insign/concursos/commit/212fd63d87f52c373a524b0a59e79f6653979519) |
 | H122 | `arquivamento-recebimento-distribuicao-inventario` | `materiais-recebimento-inventario` | L | [9197e97](https://github.com/insign/concursos/commit/9197e972e58088adc2bf7e6163a06be32ce83c9b) |
-| H123 | `analise-valor-alienacao` | = | L | — |
+| H123 | `analise-valor-alienacao` | = | L | [2685197](https://github.com/insign/concursos/commit/268519732c3b9c9e7067e99233def563ccd3e1d3) |
 
 ### M10 — Gestão de Contratos
 
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
+
 - H122: aula registra 6/7/2026 como publicação do edital, que o Tribunal informa ter ocorrido em 7/7; corrigir em escopo próprio. Cadernos oficiais da VUNESP Poá/2015 e Quadrix CREFITO-4/2021 não abriram na consulta; só o gabarito definitivo Quadrix foi conferido. Verificar texto e alternativas desses itens e do q1374 adaptado antes de usá-los como contraprova.
 
 - H121: a aula chama 6/7/2026 de publicação do Edital nº 1, ocorrido em 7/7; corrigir na aula em escopo próprio. O caderno tipo 1 da SEMSA/SEMAD Manaus 2022 não abriu na fonte FGV (502), embora o gabarito retificado esteja acessível; não usar q20003 como contraprova textual até conferir a prova oficial.
