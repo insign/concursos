@@ -6,7 +6,8 @@
 - **Treinamento:** foco mais imediato no trabalho atual.
 - **Desenvolvimento:** preparação mais ampla e prospectiva.
 - **Educação:** conceito mais abrangente.
-- **TD&E:** treinamento, desenvolvimento e educação.
+- **<abbr title="Treinamento, Desenvolvimento e Educação">TD&E</abbr>:** treinamento, desenvolvimento e educação.
+- **Classificação de prova:** treinamento prepara para cargo no curto prazo; desenvolvimento de pessoas amplia repertório no médio prazo; desenvolvimento organizacional trata mudança sistêmica no longo prazo. Prazos não são lei universal.
 
 ## Fluxo de prova
 
@@ -28,7 +29,7 @@ $$
 | **meso / trabalho** | tarefas, processos, padrões | o que o trabalho exige? |
 | **micro / individual** | repertório e desempenho | quem precisa desenvolver o quê? |
 
-## Fontes do LNT
+## Fontes do <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr>
 
 - estratégia, riscos e indicadores;
 - análise do trabalho;
@@ -39,7 +40,7 @@ $$
 - avaliação de desempenho;
 - incidentes críticos.
 
-**Triangulação:** confrontar fontes/métodos. Não transforma dado ruim em dado válido.
+**Triangulação:** confrontar fontes/métodos. Não transforma dado ruim em dado válido. Entrevista e avaliação de desempenho são **meios** de levantamento; absenteísmo ou erro são **sinais** a investigar.
 
 ## Causa educacional × não educacional
 
@@ -84,7 +85,7 @@ Programação não é calendário. Deve alinhar:
 
 **Presencial, síncrono, assíncrono e híbrido = modalidades**, não métodos garantidores de qualidade.
 
-## ADDIE
+## <abbr title="Analyze, Design, Develop, Implement and Evaluate">ADDIE</abbr>
 
 1. **Analysis** — necessidade, público, trabalho, contexto.
 2. **Design** — objetivos, sequência, métodos, avaliação.
@@ -94,6 +95,8 @@ Programação não é calendário. Deve alinhar:
 
 - pode ser iterativo;
 - não é modelo exclusivo de impacto.
+
+**Desenvolvimento pela experiência:** rotação, assessoria e comissões/projetos ampliam exposição; mentoria orienta a carreira; treinamento externo trabalha lacuna específica. Escolha conforme necessidade.
 
 ## Execução
 
@@ -128,7 +131,7 @@ Favorecem:
 | **formativa** | durante | corrigir o processo |
 | **somativa** | ao final | sintetizar resultados e julgar |
 
-**Diagnóstico da turma ≠ LNT completo.** LNT também examina organização, trabalho e causas.
+**Diagnóstico da turma ≠ <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr> completo.** <abbr title="Levantamento de Necessidades de Treinamento">LNT</abbr> também examina organização, trabalho e causas.
 
 ## Kirkpatrick
 
@@ -137,32 +140,18 @@ Favorecem:
 3. **Comportamento** — aplicação no trabalho.
 4. **Resultados** — efeitos organizacionais.
 
-### Cadeia de pegadinhas
+### Cadeia de inferências
 
 **gostou ≠ aprendeu ≠ aplicou ≠ gerou resultado atribuível ao curso**
 
 Mudanças concorrentes devem ser consideradas ao interpretar resultados.
 
-## Distinções rápidas
+## Resultado por nível (classificação de prova)
 
-- lista de cursos desejados ≠ LNT;
-- nota baixa ≠ causa educacional comprovada;
-- objetivo ≠ conteúdo;
-- método ≠ modalidade;
-- execução ≠ aprendizagem;
-- aprendizagem ≠ transferência;
-- reação ≠ aprendizagem;
-- resultado posterior ≠ causalidade comprovada.
+| Nível | Exemplo de indicador |
+| --- | --- |
+| **recursos humanos** | menos absenteísmo; melhor qualidade de vida no trabalho |
+| **cargos** | maior produtividade; menos acidentes |
+| **organizacional** | maior satisfação com a organização |
 
-## Pegadinhas
-
-- Toda lacuna exige treinamento → **errado**.
-- Macro/meso/micro = organização/trabalho/indivíduo → **correto**.
-- Programação é apenas cronograma → **errado**.
-- Modalidade vem antes do objetivo → **errado**.
-- ADDIE = Kirkpatrick → **errado**.
-- Frequência prova aprendizagem → **errado**.
-- Avaliação formativa ocorre durante a ação → **correto**.
-- Reação favorável prova transferência → **errado**.
-- Kirkpatrick comportamento = aplicação no trabalho → **correto**.
-- Curso anterior à melhora prova que causou a melhora → **errado**.
+Essa classificação não equivale aos quatro níveis de Kirkpatrick. Melhora posterior, por si só, não prova que o curso a causou.
