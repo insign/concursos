@@ -46,6 +46,7 @@
 
 - lembrar/esquecer algo;
 - lembrar-se/esquecer-se **de** algo;
+- chamar alguém = convocar; chamar alguém **de** algo / chamar **a** alguém algo = atribuir nome ou qualidade, conforme o padrão descrito;
 - custar **a** alguém + infinitivo: *custou-me aceitar*.
 
 ## Regência nominal
@@ -79,6 +80,7 @@ Relativo: reconstrua a frase e leve a preposição.
 
 - onde = lugar com **em**: *cidade onde moro*.
 - aonde = **a + onde**: *cidade aonde vou*, se *vou a*.
+- destino no padrão conservador: **ir a/para**, **chegar a**, **voltar a/para**; origem: **voltar de**.
 - percurso/origem: *por onde*, *de onde*.
 
 ## Fronteiras
