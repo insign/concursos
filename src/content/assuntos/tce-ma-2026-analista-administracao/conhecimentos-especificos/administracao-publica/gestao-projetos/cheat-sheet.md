@@ -1,515 +1,113 @@
 # Gestão de projetos
 
-## Mapa central
+## Escolha primeiro a unidade e o efeito
 
-**Projeto = esforço temporário + entrega singular + mudança governada + geração de valor.**
-
-| Objeto | Núcleo |
+| Pergunta | Recuperação |
 | --- | --- |
-| Projeto | temporário; cria entrega singular |
-| Operação | contínua ou recorrente; sustenta capacidade |
-| Programa | componentes relacionados coordenados para benefícios conjuntos |
-| Portfólio | componentes priorizados para objetivos estratégicos |
-| Produto | veículo de valor com ciclo potencialmente maior que o projeto |
+| Há começo e fim e uma entrega singular? | **Projeto**; temporário não significa breve, nem singular exige novidade absoluta. |
+| O trabalho sustenta continuamente a entrega? | **Operação**. O produto pode sobreviver ao projeto. |
+| Componentes relacionados produzem benefícios coordenados? | **Programa**; não é projeto grande. |
+| Componentes são escolhidos pelos objetivos estratégicos? | **Portfólio**; não exige relação técnica entre eles e pode incluir operações. |
 
-- Temporário = tem início e fim; não significa curto.
-- Singular = combinação específica; não exige ineditismo absoluto.
-- Programa ≠ projeto grande.
-- Portfólio não exige relação técnica entre todos os componentes.
-- Projeto cria ou transforma capacidade; operação a sustenta.
+**Entrega → resultado do uso → benefício mensurável → valor público.** Portal implantado não prova adoção nem redução do tempo de atendimento; prazo, custo e escopo não bastam para inferir valor. O caso de negócio (*business case*: justificativa da escolha entre alternativas, custos, riscos e benefícios) apoia a decisão; o termo de abertura <abbr title="Termo de Abertura do Projeto">TAP</abbr> autoriza o projeto e designa autoridade ao gerente; o plano de benefícios define indicador, responsável e momento de mensuração, inclusive após o encerramento.
 
-## Valor
-
-| Nível | Pergunta | Exemplo |
-| --- | --- | --- |
-| Entrega/output | o que foi produzido? | sistema implantado |
-| Resultado/outcome | que mudança ocorreu pelo uso? | processo passou a ser digital |
-| Benefício | qual ganho mensurável? | redução de prazo/custo |
-| Valor público | qual necessidade legítima foi atendida? | acesso amplo e eficiente |
-
-- Entrega ≠ resultado ≠ benefício ≠ valor.
-- Sucesso ≠ somente prazo + custo + escopo.
-- Benefícios podem surgir após o encerramento.
-
-## Governança e papéis
-
-- Governança = direção + alçadas + supervisão + prestação de contas.
-- Gestão = condução do trabalho dentro do direcionamento.
-- Decreto nº 9.203/2017: **liderança + estratégia + controle**.
-- Governança pública: **avaliar + direcionar + monitorar**.
-- Riscos devem integrar atividades, processos e projetos.
-
-| Papel | Responsabilidade predominante |
+| Decisão | Quem/qual referência |
 | --- | --- |
-| Patrocinador | justificativa, apoio, recursos e decisão estratégica |
-| Gerente | integração e condução do projeto |
-| Equipe | produção das entregas |
-| Cliente/demandante | necessidade, requisitos e aceite conforme alçada |
-| Usuário | uso, impacto e feedback |
-| Governança | prioridade, continuidade, exceções e supervisão |
+| Direção, prioridades, alçadas e supervisão | Governança; patrocinador apoia recursos e decisões acima da alçada do gerente. |
+| Integração e execução | Gerente e equipe, dentro das alçadas. Cliente/representante autorizado pode aceitar; usuário utiliza. |
+| Medir desvio sem apagá-lo | Linha de base: versão aprovada de escopo, cronograma ou custo; mudança pede controle formal. |
+| Estruturar apoio | <abbr title="Escritório de Gerenciamento de Projetos">EGP</abbr>/<abbr title="Project Management Office">PMO</abbr> de suporte aconselha (baixo controle); de controle exige conformidade (moderado); diretivo gerencia diretamente (alto). |
 
-- Patrocinador ≠ gerente.
-- <abbr title="Project Management Office">PMO</abbr> pode apoiar, controlar, padronizar ou direcionar.
-- PMO não torna a organização automaticamente projetizada.
+O Decreto nº 9.203/2017 descreve **liderança, estratégia e controle** e o ciclo **avaliar, direcionar e monitorar** na administração pública **federal** abrangida; não estenda automaticamente suas obrigações ao tribunal estadual.
 
-## Instrumentos
+## Abordagem, ciclo e edição
 
-| Instrumento | Função |
+**Fases** organizam entregas do início à conclusão; **grupos de processos** organizam atividades gerenciais e podem repetir-se em várias fases. Preditiva detalha cedo requisitos estáveis; iterativa refina; incremental soma parcelas utilizáveis; adaptativa aprende e replaneja frequentemente; híbrida combina deliberadamente abordagens. *Tailoring* (adaptação consciente ao contexto) preserva controles e exigências legais.
+
+| Fonte identificada no enunciado | Estrutura a recuperar |
 | --- | --- |
-| Business case | justificar investimento e alternativa |
-| Termo de abertura | autorizar projeto e gerente |
-| Plano de benefícios | benefício, indicador, responsável e prazo |
-| Plano de gerenciamento | integrar execução, controle e encerramento |
-| Linha de base | referência aprovada para medir e mudar |
+| <abbr title="Project Management Body of Knowledge">PMBOK</abbr> 6ª edição (2017) | **49 processos, cinco grupos, dez áreas:** integração, escopo, cronograma, custos, qualidade, recursos, comunicações, riscos, aquisições e partes interessadas. |
+| <abbr title="Project Management Body of Knowledge">PMBOK</abbr> 7ª edição (2021) | **12 princípios, oito domínios:** partes interessadas, equipe, abordagem/ciclo de vida, planejamento, trabalho, entrega, medição e incerteza. Ênfase em valor e adaptação; processos não foram proibidos. |
+| <abbr title="Project Management Body of Knowledge">PMBOK</abbr> 8ª edição (novembro de 2025) | **Seis princípios, sete domínios, cinco áreas de foco.** Princípios: visão holística, valor, qualidade, liderança responsável, sustentabilidade, autonomia com responsabilidade; domínios: governança, escopo, cronograma, finanças, partes interessadas, recursos e riscos; focos: iniciação, planejamento, execução, monitoramento/controle e encerramento. |
+| *Process Groups: A Practice Guide* (2022) | **49 processos, cinco grupos** na orientação preditiva, documento separado. |
 
-- Business case ≠ termo de abertura.
-- Termo de abertura ≠ plano detalhado.
-- Plano de benefícios acompanha valor além da entrega.
-- Versão de trabalho ≠ linha de base aprovada.
+A <abbr title="International Organization for Standardization">ISO</abbr> 21502:2020 oferece **diretrizes** de projetos para organizações e abordagens diversas, sem prescrever método único nem detalhar programas e portfólios. Não atribua à 8ª edição as dez áreas da 6ª, nem transforme foco/grupo em fase. A edição técnica depende da fonte da questão; a 8ª já fora publicada antes do edital de julho de 2026.
 
-## Ciclo e abordagens
+## Escopo, prazo e custo: perguntas decisivas
 
-| Abordagem | Chave |
+| Se a questão pede... | Critério |
 | --- | --- |
-| Preditiva | requisitos conhecidos, plano detalhado e baseline |
-| Iterativa | refinamento por ciclos |
-| Incremental | entrega em partes utilizáveis |
-| Adaptativa | feedback frequente e alta incerteza |
-| Híbrida | combinação deliberada conforme o contexto |
+| Funções da entrega × trabalho necessário | Escopo do **produto** × escopo do **projeto**. |
+| Decomposição de entregas | <abbr title="Estrutura Analítica do Projeto">EAP</abbr> ou <abbr title="Work Breakdown Structure">WBS</abbr>: regra dos **100%** sem omissão/duplicação; nível inferior = pacote de trabalho. Declaração aprovada + estrutura + dicionário constituem a linha de base tradicional do escopo. Não é cronograma, organograma nem lista de atividades. |
+| Aceitação × inspeção | Validar escopo = aceite formal; controlar qualidade = conformidade técnica. Planejar qualidade estabelece requisitos; gerenciar melhora o processo; controlar verifica resultados. Grau de sofisticação não define qualidade. |
+| Alteração | Registrar → analisar impacto integrado → decidir pela autoridade → atualizar referências se aprovada → comunicar/implementar. Solicitação não é aprovação; configuração controla versões e características. |
+| Sequência | Marco = duração zero. Término–início <abbr title="Término–início">TI</abbr>: sucessora inicia após término; término–término <abbr title="Término–término">TT</abbr>: termina após término; início–início <abbr title="Início–início">II</abbr>: inicia após início; início–término <abbr title="Início–término">IT</abbr>: termina após início, ressalvadas antecipação (*lead*) e espera (*lag*). |
+| Estimação | Análoga usa similar; paramétrica usa relação quantitativa; *bottom-up* estima partes detalhadas e agrega. |
 
-- Iterativo refina; incremental adiciona.
-- Fases podem ser sequenciais, sobrepostas ou repetidas.
-- Híbrido ≠ improvisação.
-- Tailoring = adaptação consciente e proporcional.
-- Tailoring ≠ eliminar governança, método ou exigência legal.
-
-## <abbr title="Project Management Body of Knowledge">PMBOK</abbr> — não misture as edições
-
-| Referência | Fórmula de memória | Estrutura |
-| --- | --- | --- |
-| PMBOK 6 | **49–5–10** | 49 processos; 5 grupos; 10 áreas |
-| PMBOK 7 | **12–8** | 12 princípios; 8 domínios |
-| PMBOK 8 | **6–7–5** | 6 princípios; 7 domínios; 5 áreas de foco |
-| Process Groups Guide | **49–5 preditivo** | 49 processos em 5 grupos; guia separado de 2022 |
-
-### PMBOK 8 — vigente no edital
-
-Seis princípios:
-
-1. visão holística;
-2. foco em valor;
-3. qualidade incorporada;
-4. liderança responsável;
-5. sustentabilidade integrada;
-6. equipes empoderadas.
-
-Sete domínios:
-
-1. governança;
-2. escopo;
-3. cronograma;
-4. finanças;
-5. partes interessadas;
-6. recursos;
-7. riscos.
-
-Cinco áreas de foco:
-
-1. iniciação;
-2. planejamento;
-3. execução;
-4. monitoramento e controle;
-5. encerramento.
-
-- Área de foco ≠ fase obrigatória.
-- Processos reaparecem de modo não prescritivo.
-- Não atribuir contagem rígida universal sem identificar a fonte.
-
-### PMBOK 7 — referência histórica importante
-
-Doze princípios, em palavras-chave:
-
-1. diligência/stewardship;
-2. equipe colaborativa;
-3. engajamento;
-4. valor;
-5. pensamento sistêmico;
-6. liderança;
-7. tailoring;
-8. qualidade;
-9. complexidade;
-10. respostas a riscos;
-11. adaptabilidade e resiliência;
-12. mudança para o estado futuro.
-
-Oito domínios:
-
-1. partes interessadas;
-2. equipe;
-3. abordagem de desenvolvimento e ciclo de vida;
-4. planejamento;
-5. trabalho do projeto;
-6. entrega;
-7. medição;
-8. incerteza.
-
-- Princípio = orientação de comportamento/decisão.
-- Domínio = atividades interdependentes relevantes ao desempenho.
-- Domínio ≠ fase ≠ grupo de processos ≠ área de conhecimento.
-- A 7ª não aboliu processos: reorganizou a exposição em princípios, domínios, tailoring e modelos/métodos/artefatos.
-
-### PMBOK 6 e modelo processual
-
-Cinco grupos:
-
-1. iniciação;
-2. planejamento;
-3. execução;
-4. monitoramento e controle;
-5. encerramento.
-
-Dez áreas:
-
-1. integração;
-2. escopo;
-3. cronograma;
-4. custos;
-5. qualidade;
-6. recursos;
-7. comunicações;
-8. riscos;
-9. aquisições;
-10. partes interessadas.
-
-- Grupo de processos ≠ fase.
-- Não transportar automaticamente 49–5–10 para a 8ª edição.
-
-## <abbr title="International Organization for Standardization">ISO</abbr> 21502:2020
-
-- Orientação de alto nível para gestão de projetos.
-- Aplicável a organizações públicas, privadas e beneficentes.
-- Qualquer porte, duração, complexidade e abordagem.
-- Abrange preditiva, incremental, iterativa, adaptativa, híbrida e ágil.
-- Não orienta especificamente gestão de programas ou portfólios.
-
-## Integração e mudanças
-
-Fluxo:
-
-1. registrar;
-2. analisar impactos e alternativas;
-3. submeter à autoridade;
-4. aprovar/rejeitar/adiar;
-5. atualizar planos e baselines;
-6. comunicar e rastrear;
-7. verificar implementação.
-
-- Solicitação ≠ aprovação.
-- Avaliar escopo, prazo, custo, qualidade, risco, recursos, contrato e benefício.
-- Controle de configuração = versões/características.
-- Controle integrado = decisão e coordenação da mudança.
-
-## Escopo
-
-- Escopo do produto = características e funções.
-- Escopo do projeto = trabalho para produzir a entrega.
-- Requisito deve ser rastreável e verificável.
-- Validar escopo = aceite formal.
-- Controlar qualidade = conformidade técnica.
-
-### <abbr title="Estrutura Analítica do Projeto">EAP</abbr>/<abbr title="Work Breakdown Structure">WBS</abbr>
-
-- Decomposição hierárquica orientada a entregas.
-- Menor nível = pacote de trabalho.
-- Regra dos 100% = todo o escopo, sem omissão/duplicação.
-- Linha de base histórica = declaração + EAP + dicionário.
-- EAP ≠ cronograma.
-- EAP ≠ organograma.
-- EAP ≠ lista de atividades.
-- Atividades derivam dos pacotes.
-
-## Cronograma
-
-- Marco = evento significativo de duração zero.
-- Linha de base = cronograma aprovado.
-
-Dependências:
-
-- TI: sucessora inicia após predecessora terminar.
-- TT: sucessora termina após predecessora terminar.
-- II: sucessora inicia após predecessora iniciar.
-- IT: sucessora termina após predecessora iniciar.
-- Lead = antecipação.
-- Lag = espera.
-
-Estimativas:
-
-- análoga: referência semelhante, rápida e menos precisa;
-- paramétrica: relação quantidade/produtividade;
-- bottom-up: estima componentes e agrega;
-- três pontos: otimista, provável e pessimista.
-
-### <abbr title="Program Evaluation and Review Technique">PERT</abbr>
+<abbr title="Program Evaluation and Review Technique">PERT</abbr>, na aproximação de três pontos, usa otimista $O$, mais provável $M$ e pessimista $P$:
 
 $$
-TE = \frac{O+4M+P}{6}
+TE=\frac{O+4M+P}{6},\qquad \sigma=\frac{P-O}{6},\qquad \sigma^2=\left(\frac{P-O}{6}\right)^2
 $$
 
-$$
-\sigma = \frac{P-O}{6}
-\qquad
-Var = \left(\frac{P-O}{6}\right)^2
-$$
+<abbr title="Tempo Esperado">TE</abbr> e $\sigma$ usam unidade de tempo; variância usa unidade ao quadrado. Média triangular é $(O+M+P)/3$. **Caminho crítico**: sequência mais longa na rede, que determina a menor duração calculada; folga total usualmente zero, pode haver mais de um e pode mudar. Folga total preserva o término do projeto; folga livre preserva o início mais cedo da sucessora. Nivelamento adequa datas à disponibilidade e pode alongar o prazo; *crashing* adiciona recursos com maior custo; *fast tracking* sobrepõe atividades com maior risco de retrabalho. Acelerar caminho não crítico pode não alterar o fim.
 
-- Triangular: $(O+M+P)/3$.
-- Triangular ≠ PERT ponderado.
+A reserva de **contingência** cobre riscos identificados e entra na linha de base de custos; a **gerencial** atende imprevisto no escopo e fica fora da linha de base, embora no orçamento total. No gerenciamento do valor agregado, a comparação usa uma mesma data:
 
-### Caminho crítico
-
-- Caminho mais longo na rede.
-- Determina a menor duração calculada.
-- Folga total usual = zero.
-- Pode haver múltiplos caminhos críticos.
-- Pode mudar ao longo do projeto.
-- Crítico ≠ mais caro/complexo/arriscado.
-
-- Folga total: atraso sem atrasar o projeto.
-- Folga livre: atraso sem afetar início mais cedo da sucessora.
-
-### Recursos e compressão
-
-- Nivelamento: adequa datas à disponibilidade; pode alongar projeto.
-- Crashing: mais recursos; tende a elevar custo/risco.
-- Fast tracking: sobreposição; tende a elevar retrabalho/risco.
-- Comprimir caminho não crítico pode não reduzir prazo final.
-
-## Custos e reservas
-
-- Estimar → orçar → controlar.
-- Linha de base de custos = referência autorizada no tempo.
-- Contingência: riscos identificados; integra baseline.
-- Reserva gerencial: imprevistos dentro do escopo; fora da baseline.
-- BAC = orçamento na conclusão da baseline.
-
-## Valor agregado
-
-| Sigla | Conceito |
+| Símbolo em fórmula | O que mede |
 | --- | --- |
-| PV/VP | orçamento do trabalho programado |
-| EV/VA | orçamento do trabalho realizado |
-| AC/CR | custo real do trabalho realizado |
+| <abbr title="Planned Value">PV</abbr> ou <abbr title="Valor Planejado">VP</abbr> | Orçamento do trabalho planejado. |
+| <abbr title="Earned Value">EV</abbr> ou <abbr title="Valor Agregado">VA</abbr> | Orçamento do trabalho **concluído**, não gasto nem benefício. |
+| <abbr title="Actual Cost">AC</abbr> ou <abbr title="Custo Real">CR</abbr> | Custo efetivamente incorrido. |
 
 $$
-CV=EV-AC
-\qquad
-SV=EV-PV
+CV=EV-AC,\qquad SV=EV-PV,\qquad CPI=\frac{EV}{AC},\qquad SPI=\frac{EV}{PV}
 $$
 
-$$
-CPI=\frac{EV}{AC}
-\qquad
-SPI=\frac{EV}{PV}
-$$
-
-- $CV>0$ ou $CPI>1$: custo favorável.
-- $CV<0$ ou $CPI<1$: custo desfavorável.
-- $SV>0$ ou $SPI>1$: prazo favorável.
-- $SV<0$ ou $SPI<1$: prazo desfavorável.
-- SV é valor, não dias.
-- SV tende a zero no fim.
+<abbr title="Cost Variance">CV</abbr> e <abbr title="Schedule Variance">SV</abbr> positivos, ou <abbr title="Cost Performance Index">CPI</abbr> e <abbr title="Schedule Performance Index">SPI</abbr> acima de 1, favorecem custo e prazo, respectivamente (denominadores não nulos). <abbr title="Schedule Variance">SV</abbr> é **dinheiro**, não dias; ao finalizar todo o escopo, pode zerar apesar de atraso. A previsão final depende da hipótese:
 
 $$
-EAC=\frac{BAC}{CPI}
+EAC=\frac{BAC}{CPI}\quad\text{se a eficiência observada continuar};\qquad
+EAC=AC+(BAC-EV)\quad\text{se o desvio passado não se repetir}
 $$
 
-Uso: desempenho de custo continuará.
+<abbr title="Estimate at Completion">EAC</abbr> é estimativa no término; <abbr title="Budget at Completion">BAC</abbr> é orçamento da linha de base no término; $ETC=EAC-AC$ estima custo restante e $VAC=BAC-EAC$ compara orçamento e custo final projetado. <abbr title="Estimate to Complete">ETC</abbr> e <abbr title="Variance at Completion">VAC</abbr> têm unidade monetária. As duas projeções de <abbr title="Estimate at Completion">EAC</abbr> não são intercambiáveis.
 
-$$
-EAC=AC+(BAC-EV)
-$$
+## Riscos, pessoas e contratação
 
-Uso: variação passada atípica.
+**Risco** é evento/condição incerta (ameaça ou oportunidade); evento ocorrido vira problema atual. Identificar → analisar probabilidade/impacto → priorizar → responder → monitorar. Evitar/mitigar/transferir/aceitar ameaças; explorar/melhorar/compartilhar/aceitar oportunidades. Escalonar se fora da alçada. **Residual** resta após resposta; **secundário** nasce da resposta; **gatilho** sinaliza acionamento. Transferência não elimina a incerteza.
 
-$$
-ETC=EAC-AC
-\qquad
-VAC=BAC-EAC
-$$
+Partes interessadas podem afetar ou ser afetadas; o **registro** conserva informações sobre interesses e influência. Comunicar informação não equivale a engajar para participação. Na matriz <abbr title="Responsible, Accountable, Consulted, Informed">RACI</abbr>, <abbr title="Responsible">R</abbr> executa, <abbr title="Accountable">A</abbr> responde pelo resultado/aprovação, <abbr title="Consulted">C</abbr> é consultado e <abbr title="Informed">I</abbr> é informado; em geral, um único responsável final por atividade.
 
-## Qualidade
+Contratação gerencial por preço fixo tende a transferir mais risco de custo ao fornecedor; custos reembolsáveis, ao comprador; tempo e materiais combina elementos. Essas categorias não substituem a Lei nº 14.133/2021:
 
-- Qualidade = atendimento dos requisitos.
-- Planejar = padrões, métricas e método.
-- Gerenciar = prevenção, prática e melhoria.
-- Controlar = medir e verificar conformidade.
-- Grau ≠ qualidade.
-- Produto de grau baixo pode ter alta qualidade.
-- Prevenção ≠ inspeção final.
-- Validar escopo ≠ controlar qualidade.
-
-## Recursos e equipe
-
-RACI:
-
-- R: Responsible — executa.
-- A: Accountable — responde pela entrega/decisão.
-- C: Consulted — contribui antes.
-- I: Informed — recebe informação.
-
-- Papéis claros não eliminam colaboração.
-- Conflito técnico pode melhorar decisão.
-- Equipe eficaz: competência, coordenação, confiança e segurança psicológica.
-
-## Stakeholders e comunicação
-
-- Stakeholder pode afetar, ser afetado ou perceber-se afetado.
-- Identificação é contínua.
-- Analisar poder, interesse, impacto, legitimidade e atitude.
-- Comunicação: informação, destinatário, canal, frequência, responsável e feedback.
-- Gerenciar comunicações ≠ engajar stakeholders.
-- Mais mensagens ≠ melhor comunicação.
-
-## Riscos
-
-- Risco = evento/condição incerta, positiva ou negativa.
-- Issue/problema = já ocorreu.
-
-Fluxo:
-
-1. planejar;
-2. identificar;
-3. analisar;
-4. priorizar/quantificar;
-5. planejar resposta;
-6. implementar;
-7. monitorar.
-
-| Ameaça | Oportunidade |
+| Documento legal | Função, sem trocar por instrumento gerencial |
 | --- | --- |
-| evitar | explorar |
-| mitigar | melhorar |
-| transferir | compartilhar |
-| aceitar | aceitar |
+| <abbr title="Estudo Técnico Preliminar">ETP</abbr> | Necessidade pública e melhor solução; fundamenta elaboração posterior se viável. Não é automaticamente *business case*. |
+| <abbr title="Termo de Referência">TR</abbr> | Objeto e condições de aquisição de bens/serviços, execução, gestão, medição, pagamento e valor. Não é o <abbr title="Termo de Abertura do Projeto">TAP</abbr>. |
+| Projeto básico | Dimensão técnica da obra ou serviço, suficiente para custos, métodos e prazos. |
+| Matriz de riscos | Alocação contratual de riscos e responsabilidades, não todo o registro gerencial de riscos. |
 
-- Escalar: fora da alçada/escopo.
-- Transferir ≠ eliminar.
-- Aceitar pode ser ativo ou passivo.
-- Residual: permanece após resposta.
-- Secundário: surge da resposta.
-- Gatilho: sinal de ocorrência.
-- Controle deve ser proporcional ao risco e ao custo-benefício.
+A alta administração responde pela governança da contratação e seu alinhamento; métodos de projeto não ampliam competência legal do gerente.
 
-## Aquisições
+## Scrum 2020: objetivo, inspeção e adaptação
 
-- Fazer ou comprar.
-- Especificar, selecionar, contratar, administrar e encerrar.
-- Preço fixo: maior risco de custo para fornecedor.
-- Custos reembolsáveis: maior risco de custo para comprador.
-- Tempo e material: posição intermediária; exige limites.
+**Empirismo** usa observação para adaptar; pilares: transparência, inspeção, adaptação. Valores: comprometimento, foco, abertura, respeito, coragem. A equipe é multifuncional e autogerenciável, normalmente com dez pessoas ou menos.
 
-### Lei nº 14.133/2021
-
-- Lei de contratações ≠ framework de projetos.
-- <abbr title="Estudo Técnico Preliminar">ETP</abbr>: necessidade, interesse público e melhor solução.
-- Termo de referência: objeto, solução, requisitos, execução, gestão, medição, pagamento e orçamento.
-- Projeto básico: define/dimensiona obra ou serviço.
-- Matriz contratual: aloca riscos e caracteriza equilíbrio inicial.
-- ETP ≠ business case.
-- Termo de referência ≠ termo de abertura.
-- Matriz contratual ≠ registro completo de riscos.
-- Alta administração: governança, alinhamento, riscos e controles.
-
-## Scrum 2020
-
-- Framework leve para problemas complexos.
-- Empirismo + pensamento Lean.
-- Pilares: transparência, inspeção e adaptação.
-- Valores: compromisso, foco, abertura, respeito e coragem.
-- Time coeso, multifuncional e autogerenciável.
-- Normalmente dez pessoas ou menos.
-
-### Responsabilidades
-
-| Papel | Núcleo |
+| Responsabilidade | Núcleo |
 | --- | --- |
-| Product Owner | maximiza valor e gerencia Product Backlog |
-| Scrum Master | estabelece Scrum e promove efetividade |
-| Developers | criam incremento utilizável e pronto |
+| Product Owner (pessoa, não comitê) | Maximiza valor, gere Product Backlog; pode delegar tarefas sem transferir responsabilidade. |
+| Scrum Master | Promove efetividade e remoção de impedimentos; não distribui tarefas como chefe. |
+| Developers | Planejam e criam incremento utilizável conforme qualidade requerida. |
 
-- Product Owner = uma pessoa.
-- Scrum Master ≠ chefe/distribuidor de tarefas.
-- Developers decidem como fazer.
-
-### Eventos
-
-| Evento | Propósito | Timebox mensal |
-| --- | --- | --- |
-| Sprint | contêiner | um mês ou menos |
-| Planning | por quê, o quê e como | até 8h |
-| Daily | progresso à meta e adaptação | 15min |
-| Review | resultado e próximos passos | até 4h |
-| Retrospective | qualidade e efetividade | até 3h |
-
-- Daily é dos Developers; não é status ao gerente.
-- Review é sessão de trabalho; não só demonstração.
-- Somente Product Owner cancela Sprint com meta obsoleta.
-
-### Artefatos
-
-| Artefato | Compromisso |
+| Artefato → compromisso | Como decidir |
 | --- | --- |
-| Product Backlog | Meta do Produto |
-| Sprint Backlog | Meta da Sprint |
-| Incremento | Definição de Pronto |
+| Product Backlog → Meta do Produto | Lista emergente e ordenada, única fonte de trabalho da equipe; refinamento é contínuo, não evento formal. |
+| Sprint Backlog → Meta da Sprint | Meta + itens selecionados + plano para entregá-los. |
+| Incremento → Definição de Pronto | Entrega utilizável conforme medidas de qualidade; pode ser liberada antes da Review. |
 
-- Product Backlog = única fonte de trabalho do time.
-- Incremento precisa ser utilizável.
-- Refinamento = atividade contínua, não evento formal.
-- User story, ponto, velocidade, burndown e Kanban não são obrigatórios.
-- Scrum não afasta legalidade, orçamento, governança ou contratação.
+Sprint dura **até um mês**. Planning (até **oito horas** em Sprint mensal) decide por quê, o quê e como; Daily Scrum (**15 minutos**, para Developers) inspeciona progresso à meta; Review (até **quatro horas**) inspeciona resultado com interessados e adapta o produto; Retrospective (até **três horas**) melhora modo de trabalho. Sprints menores costumam ter eventos menores. Durante a Sprint não se reduz a qualidade nem se põe a meta em risco; escopo pode ser renegociado com Product Owner. **Só ele cancela a Sprint se a meta ficar obsoleta.** História de usuário, pontos, velocidade, *burndown* e Kanban podem apoiar, mas não são prescritos pelo Guia.
 
-## Monitoramento
+## Fechamento
 
-- Dados = observações brutas.
-- Informações = dados analisados e contextualizados.
-- Relatórios = apresentação para decisão.
-- Corretiva: realinha desempenho futuro.
-- Preventiva: reduz chance de desvio futuro.
-- Reparo: corrige defeito.
-- Percentual de tarefas ≠ percentual de valor.
-
-## Encerramento
-
-1. aceite formal;
-2. transição para operação;
-3. encerramento contratual;
-4. liberação de recursos;
-5. relatório e pendências;
-6. arquivo e configuração;
-7. lições aprendidas;
-8. responsáveis por benefícios.
-
-- Lições aprendidas: durante todo o projeto + consolidação final.
-- Cancelamento também exige encerramento formal.
-- Encerrar projeto ≠ encerrar acompanhamento de benefícios.
-
-## Pegadinhas finais
-
-- Temporário não é curto.
-- Entrega não é benefício.
-- Fase não é grupo, domínio nem área de foco.
-- **6ª = 49–5–10; 7ª = 12–8; 8ª = 6–7–5.**
-- Guia de 49 processos de 2022 é preditivo e separado.
-- EAP não é cronograma.
-- Marco tem duração zero.
-- Caminho crítico não é o mais caro.
-- PERT usa peso 4 na estimativa mais provável.
-- Crashing e fast tracking têm riscos diferentes.
-- Contingência entra na baseline; gerencial não.
-- EV é orçamento do trabalho realizado, não custo real.
-- SV não mede dias.
-- Risco é incerto; issue já ocorreu.
-- Mudança solicitada não está aprovada.
-- Scrum é framework, não metodologia completa.
-- Refinamento não é evento Scrum formal.
-- Entrega no prazo não garante valor público.
+Dados de desempenho (observações) → informações analisadas → relatórios para decisão; ação corretiva realinha o futuro, preventiva reduz chance de desvio, reparo corrige defeito. Encerrar, mesmo se cancelado: aceite cabível, transição à operação, obrigações contratuais, recursos, arquivo e lições aprendidas. A operação pode acompanhar benefícios posteriores; lições devem ser colhidas durante e consolidadas ao final.
