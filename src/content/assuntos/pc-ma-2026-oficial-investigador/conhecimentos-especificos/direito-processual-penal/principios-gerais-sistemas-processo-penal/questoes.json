@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u091-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u091-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A instrumentalidade do processo penal significa que",
       "options": [
         {
           "id": "A",
-          "text": "o processo funciona como meio juridicamente regulado para o exercício da jurisdição penal."
+          "text": "o processo é mera formalidade dispensável."
         },
         {
           "id": "B",
-          "text": "o processo é mera formalidade dispensável."
+          "text": "o processo funciona como meio juridicamente regulado para o exercício da jurisdição penal."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "o direito processual não possui autonomia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Instrumentalidade não significa irrelevância: o procedimento é o meio juridicamente previsto para decidir a imputação."
     },
     {
       "id": "u091-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O princípio do juiz natural combina",
       "options": [
         {
           "id": "A",
-          "text": "competência previamente estabelecida e vedação de juízo ou tribunal de exceção."
+          "text": "sigilo obrigatório de todo julgamento."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "sigilo obrigatório de todo julgamento."
+          "text": "competência previamente estabelecida e vedação de juízo ou tribunal de exceção."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "presunção de culpa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A Constituição reúne a vedação de tribunal de exceção e a exigência de autoridade competente nos incisos XXXVII e LIII do art. 5º."
     },
     {
       "id": "u091-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Contraditório, em sentido processual, exige",
       "options": [
         {
           "id": "A",
-          "text": "ciência dos atos relevantes e possibilidade efetiva de participação e reação."
+          "text": "confissão do acusado."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "confissão do acusado."
+          "text": "ciência dos atos relevantes e possibilidade efetiva de participação e reação."
         },
         {
           "id": "E",
           "text": "substituição da defesa pelo juiz."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O contraditório não se reduz à notícia do ato; envolve possibilidade juridicamente adequada de influenciar a construção da decisão."
     },
     {
       "id": "u091-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ampla defesa",
       "options": [
         {
           "id": "A",
-          "text": "permite utilização dos meios defensivos juridicamente admitidos e não se confunde apenas com o direito pessoal ao silêncio."
+          "text": "é sinônimo de publicidade."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "é sinônimo de publicidade."
+          "text": "permite utilização dos meios defensivos juridicamente admitidos e não se confunde apenas com o direito pessoal ao silêncio."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A defesa abrange dimensão técnica e participação pessoal do acusado; o silêncio é uma garantia específica, não a totalidade da ampla defesa."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u091-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O princípio nemo tenetur se detegere está ligado",
       "options": [
         {
           "id": "A",
-          "text": "à proteção contra autoincriminação forçada e ao direito ao silêncio."
+          "text": "à livre escolha do juiz."
         },
         {
           "id": "B",
-          "text": "à livre escolha do juiz."
+          "text": "à proteção contra autoincriminação forçada e ao direito ao silêncio."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "à criação de tribunal de exceção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A expressão resume a proteção contra compelir alguém a produzir prova incriminadora contra si, relacionada ao art. 5º, LXIII."
     },
     {
       "id": "u091-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Tema 907 do STF, a garantia de não autoincriminação",
       "options": [
         {
           "id": "A",
-          "text": "não constitui imunidade geral contra todo dever legal, embora preserve o direito ao silêncio."
+          "text": "foi considerada inconstitucional."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "foi considerada inconstitucional."
+          "text": "não constitui imunidade geral contra todo dever legal, embora preserve o direito ao silêncio."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "obriga a confissão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "No Tema 907, o STF considerou constitucional o art. 305 do CTB e afastou a leitura de que a não autoincriminação funcione como licença geral para descumprir deveres."
     },
     {
       "id": "u091-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto à publicidade processual, a Constituição",
       "options": [
         {
           "id": "A",
-          "text": "adota-a como regra, admitindo restrições quando a intimidade ou o interesse social justificarem."
+          "text": "torna facultativa a fundamentação."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "torna facultativa a fundamentação."
+          "text": "adota-a como regra, admitindo restrições quando a intimidade ou o interesse social justificarem."
         },
         {
           "id": "E",
           "text": "permite segredo por mera conveniência do julgador."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 5º, LX, admite restrições justificadas; o art. 93, IX, preserva publicidade e fundamentação das decisões."
     },
     {
       "id": "u091-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A exigência constitucional de fundamentação significa que",
       "options": [
         {
           "id": "A",
-          "text": "a decisão judicial deve expor as razões jurídicas e fáticas que a sustentam."
+          "text": "fundamentação e publicidade são exatamente o mesmo conceito."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "fundamentação e publicidade são exatamente o mesmo conceito."
+          "text": "a decisão judicial deve expor as razões jurídicas e fáticas que a sustentam."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 93, IX, exige decisões fundamentadas; publicidade trata de acesso/visibilidade, enquanto fundamentação trata das razões decisórias."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u091-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No sistema inquisitivo clássico, é característica típica",
       "options": [
         {
           "id": "A",
-          "text": "a concentração de funções e o enfraquecimento da separação entre acusar e julgar."
+          "text": "a separação rígida entre acusação e julgamento."
         },
         {
           "id": "B",
-          "text": "a separação rígida entre acusação e julgamento."
+          "text": "a concentração de funções e o enfraquecimento da separação entre acusar e julgar."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "publicidade absoluta."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A concentração funcional é traço clássico do modelo inquisitivo, juntamente com maior iniciativa oficial e redução das garantias de participação."
     },
     {
       "id": "u091-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No sistema acusatório, constitui elemento central",
       "options": [
         {
           "id": "A",
-          "text": "a separação entre acusar e julgar, com juiz imparcial e defesa efetiva."
+          "text": "a inexistência de contraditório."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "a inexistência de contraditório."
+          "text": "a separação entre acusar e julgar, com juiz imparcial e defesa efetiva."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "o sigilo como regra absoluta."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Separação funcional, imparcialidade, contraditório e defesa integram a lógica acusatória."
     },
     {
       "id": "u091-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação doutrinária tradicional, o sistema misto",
       "options": [
         {
           "id": "A",
-          "text": "combina uma fase preliminar de feição inquisitiva com fase de julgamento predominantemente acusatória."
+          "text": "concentra sempre todas as funções no juiz em todas as fases."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "concentra sempre todas as funções no juiz em todas as fases."
+          "text": "combina uma fase preliminar de feição inquisitiva com fase de julgamento predominantemente acusatória."
         },
         {
           "id": "E",
           "text": "não admite defesa em nenhum momento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Essa é a descrição tradicional do modelo misto; no Brasil atual, a estrutura legal do processo deve ser lida a partir do art. 3º-A."
     },
     {
       "id": "u091-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 3º-A do Código de Processo Penal determina que",
       "options": [
         {
           "id": "A",
-          "text": "o processo penal terá estrutura acusatória, vedando iniciativa judicial na investigação e substituição da atuação probatória da acusação."
+          "text": "o inquérito substitui o processo."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "o inquérito substitui o processo."
+          "text": "o processo penal terá estrutura acusatória, vedando iniciativa judicial na investigação e substituição da atuação probatória da acusação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Essa é a literalidade estrutural trazida pela Lei nº 13.964/2019."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u091-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A existência de características inquisitivas na investigação preliminar",
       "options": [
         {
           "id": "A",
-          "text": "não torna, por si só, o processo judicial brasileiro inquisitivo."
+          "text": "revoga o art. 3º-A."
         },
         {
           "id": "B",
-          "text": "revoga o art. 3º-A."
+          "text": "não torna, por si só, o processo judicial brasileiro inquisitivo."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "impede aplicação da Constituição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Investigação e processo não são sinônimos; a estrutura legal do processo judicial é acusatória."
     },
     {
       "id": "u091-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A inadmissibilidade de prova obtida por meio ilícito",
       "options": [
         {
           "id": "A",
-          "text": "é garantia constitucional e será aprofundada no estudo específico da prova."
+          "text": "só vale depois do trânsito em julgado."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "só vale depois do trânsito em julgado."
+          "text": "é garantia constitucional e será aprofundada no estudo específico da prova."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "é característica exclusiva do sistema inquisitivo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 5º, LVI, prevê a inadmissibilidade; a disciplina probatória detalhada pertence à U093."
     },
     {
       "id": "u091-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 31 da prova Cebraspe PC/CE — Delegado 2025, o princípio que reúne a exigência de autoridade previamente competente e a proibição de tribunais de exceção é",
       "options": [
         {
           "id": "A",
-          "text": "juiz natural."
+          "text": "publicidade."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "publicidade."
+          "text": "juiz natural."
         },
         {
           "id": "E",
           "text": "duração razoável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A questão original teve gabarito definitivo C, correspondente a 'princípio do juiz natural'. A adaptação remapeia as alternativas sem copiar o texto."
     },
     {
       "id": "u091-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 48 da matriz Cebraspe PC/PE — Delegado 2023/2024, assinale a característica compatível com o sistema inquisitivo clássico.",
       "options": [
         {
           "id": "A",
-          "text": "Concentração das funções de acusar e julgar e redução do contraditório."
+          "text": "Iniciativa probatória exclusivamente das partes."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "Iniciativa probatória exclusivamente das partes."
+          "text": "Concentração das funções de acusar e julgar e redução do contraditório."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Na questão original, apenas os itens sobre concentração de poder no julgador e centralidade histórica da confissão estavam corretos; gabarito definitivo A."
     },
     {
