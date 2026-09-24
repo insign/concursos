@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5079",
@@ -946,7 +946,7 @@
     },
     {
       "id": "q52204003",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "A central de segurança de um condomínio comercial recebe Selo Verde se o zelador tiver, para toda porta no condomínio, pelo menos uma chave que a tranque; caso contrário, a central de segurança recebe Selo Vermelho. Se a central de segurança de um condomínio comercial recebeu Selo Vermelho, então, necessariamente, nesse condomínio,",
       "options": [
@@ -957,7 +957,7 @@
         {"id": "E", "text": "todas as chaves do zelador trancam todas as portas."}
       ],
       "correctOptionId": "D",
-      "explanation": "O Selo Vermelho nega a condição “para toda porta, existe pelo menos uma chave que a tranque”. A negação de ∀porta∃chave R troca os quantificadores e nega a relação: existe uma porta que nenhuma chave tranca, alternativa D. Fonte: caderno FCC do concurso SANASA Campinas — Analista de Tecnologia da Informação — Análise e Desenvolvimento; 2019; questão 29, preservado em repositório reconhecido: https://arquivos.qconcursos.com/prova/arquivo_prova/65153/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento-prova.pdf. Gabarito D corroborado pelo espelho da prova: https://www.qconcursos.com/questoes-de-concursos/provas/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento/questoes?page=2."
+      "explanation": "O Selo Vermelho nega a condição “para toda porta, existe pelo menos uma chave que a tranque”. A negação de ∀porta∃chave R troca os quantificadores e nega a relação: existe uma porta que nenhuma chave tranca, alternativa D. Fonte: caderno FCC do concurso SANASA Campinas — Analista de Tecnologia da Informação — Análise e Desenvolvimento; 2019; questão 29, em cópia hospedada por terceiro: https://arquivos.qconcursos.com/prova/arquivo_prova/65153/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento-prova.pdf. Gabarito da própria FCC, tipo 001, questão 29 D, em cópia hospedada no mesmo acervo: https://arquivos.qconcursos.com/prova/arquivo_gabarito/65153/fcc-2019-sanasa-campinas-analista-de-tecnologia-da-informacao-analise-e-desenvolvimento-gabarito.pdf. Registro do certame no portal da SANASA: https://www.sanasa.com.br/quem-somos/concurso-publico-2019/."
     },
     {
       "id": "q52204004",
