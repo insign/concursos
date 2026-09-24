@@ -268,7 +268,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H130 | `sancoes-controle-pncp` | = | V | [`7c04cd1`](https://github.com/insign/concursos/commit/7c04cd138dbf59a6e3d438092b240e00c965b8b3) |
 | H131 | `planejamento-in-5-2017` | = | L | [`16d610a`](https://github.com/insign/concursos/commit/16d610a47aa50ea0683c7f4a8102c288386c7c87) |
 | H132 | `selecao-fornecedor-in-5-2017` | `selecao-fornecedor-in5` | L | [`9a9851f`](https://github.com/insign/concursos/commit/9a9851f659d48b48b30dbca71044786f15e09f9e) |
-| H133 | `gestao-fiscalizacao-in-5-2017` | `gestao-fiscalizacao-in5` | L | — |
+| H133 | `gestao-fiscalizacao-in-5-2017` | `gestao-fiscalizacao-in5` | L | [`2bb6cef`](https://github.com/insign/concursos/commit/2bb6cef7267a0ee54503eb6c0a1ba306f1d7e562) |
 | H134 | `medicao-pagamento-obrigacoes-equilibrio` | `medicao-pagamento-equilibrio-in5` | L | — |
 | H135 | `encerramento-regras-operacionais-in-5-2017` | `encerramento-regras-finais-in5` | L | — |
 | H136 | `gestao-aplicada-execucao-contratual` | `gestao-aplicada-execucao` | V | — |
@@ -303,7 +303,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 ## 9. Pendências abertas em aulas e banco
 - H131: os itens anteriores q52213102–03 apontam para matriz oficial da PGDF, mas texto/gabarito dos itens não foram extraídos de modo independente na consulta; confirmar antes de reutilizá-los como contraprova. A regra material foi conferida na IN nº 5/2017.
 - H129: q52212902 cobra atribuição do fiscal administrativo em rotina federal não desenvolvida na aula; caderno e gabarito definitivo não foram conferidos nesta revisão. Reavaliar pertinência e origem em escopo próprio, sem usá-la como contraprova do regime geral.
-- H124–H132: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
+- H124–H133: as aulas chamam 6/7/2026, data do ato E1, de publicação/corte; o Diário Oficial nº 3045 publicou-o em 7/7. Corrigir as aulas em escopo próprio; H e referências desta campanha adotam o corte de 7/7.
 - H128: página direta do Tema 1118 no portal do STF não abriu nesta consulta; revalidar a tese em fonte direta antes de usar q1699 como contraprova independente.
 - H126: inteiro teor da ADI 6.890 não abriu no portal do STF; revalidar diretamente antes de usar q1580 como contraprova independente.
 - H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
