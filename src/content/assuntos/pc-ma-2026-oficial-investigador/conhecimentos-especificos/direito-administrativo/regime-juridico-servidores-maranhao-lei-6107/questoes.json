@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u109-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Lei Estadual 6.107/1994, servidor público é",
       "options": [
         {
           "id": "A",
-          "text": "qualquer pessoa que preste serviço ao Estado, ainda que sem investidura."
+          "text": "a pessoa legalmente investida em cargo público."
         },
         {
           "id": "B",
-          "text": "a pessoa legalmente investida em cargo público."
+          "text": "qualquer pessoa que preste serviço ao Estado, ainda que sem investidura."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "qualquer contratado temporário, independentemente da lei específica."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A definição estatutária vincula a condição de servidor à investidura legal em cargo público."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "id": "u109-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A investidura no cargo público ocorre com",
       "options": [
@@ -78,23 +78,23 @@
         },
         {
           "id": "C",
-          "text": "a nomeação."
+          "text": "a posse."
         },
         {
           "id": "D",
-          "text": "a posse."
+          "text": "a nomeação."
         },
         {
           "id": "E",
           "text": "o primeiro pagamento."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "A Lei Estadual 6.107/1994 estabelece que a investidura ocorre com a posse."
     },
     {
       "id": "u109-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as formas atuais de provimento preservadas na Lei Estadual 6.107/1994 está",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "reintegração."
+          "text": "ascensão funcional."
         },
         {
           "id": "D",
-          "text": "ascensão funcional."
+          "text": "reintegração."
         },
         {
           "id": "E",
           "text": "contratação celetista."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução permanecem como formas de provimento. Acesso e transferência foram revogados como formas estatutárias."
     },
     {
       "id": "u109-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da estabilidade, assinale a opção correta.",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "A Constituição vigente exige três anos de efetivo exercício e avaliação especial de desempenho, prevalecendo sobre a literalidade estadual antiga."
+          "text": "A Constituição vigente fixa estabilidade após vinte e quatro meses."
         },
         {
           "id": "C",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "A Constituição vigente fixa estabilidade após vinte e quatro meses."
+          "text": "A Constituição vigente exige três anos de efetivo exercício e avaliação especial de desempenho, prevalecendo sobre a literalidade estadual antiga."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A lei estadual ainda conserva redação antiga de dois anos, mas a Constituição vigente estabelece três anos de efetivo exercício e avaliação especial de desempenho."
     },
     {
       "id": "u109-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre disponibilidade de servidor estável em razão da extinção do cargo ou declaração de desnecessidade,",
       "options": [
         {
           "id": "A",
-          "text": "prevalece a antiga literalidade estadual de remuneração integral."
+          "text": "a Constituição vigente determina remuneração proporcional ao tempo de serviço até adequado aproveitamento."
         },
         {
           "id": "B",
-          "text": "a Constituição vigente determina remuneração proporcional ao tempo de serviço até adequado aproveitamento."
+          "text": "prevalece a antiga literalidade estadual de remuneração integral."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "o servidor é obrigatoriamente aposentado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Constituição Federal atual prevalece sobre a redação estadual antiga e prevê disponibilidade com remuneração proporcional ao tempo de serviço até aproveitamento."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u109-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A redistribuição, na redação atual do artigo 45, corresponde",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "ao deslocamento do servidor e do respectivo cargo para outro órgão ou entidade do mesmo Poder, no interesse da Administração."
+          "text": "a uma penalidade disciplinar."
         },
         {
           "id": "C",
-          "text": "a uma penalidade disciplinar."
+          "text": "ao deslocamento do servidor e do respectivo cargo para outro órgão ou entidade do mesmo Poder, no interesse da Administração."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "à exoneração seguida de nova nomeação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A Lei Estadual 11.766/2022 atualizou a redistribuição como deslocamento do servidor juntamente com o cargo, dentro do mesmo Poder e em interesse administrativo."
     },
     {
       "id": "u109-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se servidor recebe diárias para viagem oficial que não chega a realizar, a restituição deve ocorrer, segundo o estatuto, em",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "cinco dias."
+          "text": "trinta dias."
         },
         {
           "id": "C",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "trinta dias."
+          "text": "cinco dias."
         },
         {
           "id": "E",
           "text": "sessenta dias."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Lei 6.107 estabelece restituição das diárias em cinco dias quando a viagem não ocorre."
     },
     {
       "id": "u109-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito das licenças, é correto afirmar que",
       "options": [
@@ -288,7 +288,7 @@
         },
         {
           "id": "C",
-          "text": "nova licença da mesma espécie concedida em até sessenta dias após a anterior, sem retorno ao serviço, pode ser considerada prorrogação."
+          "text": "licença-paternidade não admite extensão."
         },
         {
           "id": "D",
@@ -296,21 +296,21 @@
         },
         {
           "id": "E",
-          "text": "licença-paternidade não admite extensão."
+          "text": "nova licença da mesma espécie concedida em até sessenta dias após a anterior, sem retorno ao serviço, pode ser considerada prorrogação."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O estatuto contém licença para interesses particulares e excepciona algumas modalidades do limite geral de 24 meses. A regra dos sessenta dias caracteriza continuidade da licença nas condições legais."
     },
     {
       "id": "u109-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após as alterações legislativas estaduais, a licença por adoção ou guarda para fins de adoção é de",
       "options": [
         {
           "id": "A",
-          "text": "trinta dias, independentemente da idade."
+          "text": "cento e oitenta dias, nas condições legais atuais."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "cento e oitenta dias, nas condições legais atuais."
+          "text": "trinta dias, independentemente da idade."
         },
         {
           "id": "D",
@@ -329,7 +329,7 @@
           "text": "um ano."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "A Lei Estadual 10.464/2016 consolidou licença de 180 dias para adoção ou guarda para adoção, sem a antiga redução por idade da criança."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "u109-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É dever do servidor estadual",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "zelar pela economia do material e conservação do patrimônio público."
+          "text": "utilizar recursos públicos em atividade particular quando não houver dano."
         },
         {
           "id": "C",
-          "text": "utilizar recursos públicos em atividade particular quando não houver dano."
+          "text": "zelar pela economia do material e conservação do patrimônio público."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "recusar atendimento ao público por conveniência."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 209 inclui zelo pelo material e patrimônio. A ordem manifestamente ilegal não deve ser cumprida, e irregularidades precisam ser comunicadas à autoridade competente."
     },
     {
       "id": "u109-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na acumulação ilegal de cargos, a boa-fé do servidor",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "pode permitir a opção por um dos vínculos, sem a consequência punitiva própria da má-fé, conforme o regime estadual."
+          "text": "impede a Administração de exigir opção."
         },
         {
           "id": "C",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "impede a Administração de exigir opção."
+          "text": "pode permitir a opção por um dos vínculos, sem a consequência punitiva própria da má-fé, conforme o regime estadual."
         },
         {
           "id": "E",
           "text": "obriga demissão dos dois cargos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O estatuto diferencia a situação de boa-fé da acumulação mantida com má-fé, que pode acarretar sanções e restituições."
     },
     {
       "id": "u109-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ação disciplinar prescreve, em regra, em",
       "options": [
         {
           "id": "A",
-          "text": "180 dias para advertência/repreensão, dois anos para suspensão e cinco anos para demissão/cassação/destituição."
+          "text": "prazo imprescritível."
         },
         {
           "id": "B",
@@ -446,25 +446,25 @@
         },
         {
           "id": "E",
-          "text": "prazo imprescritível."
+          "text": "180 dias para advertência/repreensão, dois anos para suspensão e cinco anos para demissão/cassação/destituição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Esses são os três prazos centrais do estatuto, ressalvada a aplicação do prazo penal quando a infração também constituir crime nas condições legais."
     },
     {
       "id": "u109-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A sindicância prevista no estatuto estadual pode resultar em",
       "options": [
         {
           "id": "A",
-          "text": "demissão aplicada diretamente pelo sindicante."
+          "text": "arquivamento, advertência, repreensão, suspensão de até trinta dias ou instauração de processo administrativo disciplinar."
         },
         {
           "id": "B",
-          "text": "arquivamento, advertência, repreensão, suspensão de até trinta dias ou instauração de processo administrativo disciplinar."
+          "text": "demissão aplicada diretamente pelo sindicante."
         },
         {
           "id": "C",
@@ -479,7 +479,7 @@
           "text": "somente arquivamento ou ação judicial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A sindicância possui poder sancionador limitado e deve encaminhar infrações mais graves para processo administrativo disciplinar."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u109-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei Estadual 12.286/2024 restabeleceu o artigo 88 da Lei 6.107/1994. Essa regra",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "trata de aumento de produtividade específico do Grupo Ocupacional Tributação, Arrecadação e Fiscalização."
+          "text": "instituiu vantagem policial para Oficial Investigador."
         },
         {
           "id": "C",
-          "text": "instituiu vantagem policial para Oficial Investigador."
+          "text": "trata de aumento de produtividade específico do Grupo Ocupacional Tributação, Arrecadação e Fiscalização."
         },
         {
           "id": "D",
@@ -539,7 +539,7 @@
           "text": "eliminou a licença para interesses particulares."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 88 restabelecido em 2024 é específico do grupo tributário e não deve ser generalizado para outras carreiras."
     },
     {
