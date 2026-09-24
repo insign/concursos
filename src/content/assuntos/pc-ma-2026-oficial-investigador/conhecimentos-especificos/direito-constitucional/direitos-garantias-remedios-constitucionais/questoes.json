@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u114-a01",
@@ -94,7 +94,7 @@
     },
     {
       "id": "u114-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre reunião e associação, assinale a alternativa correta.",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "A suspensão de atividade de associação exige decisão judicial; a dissolução compulsória exige, além disso, trânsito em julgado."
+          "text": "É permitida associação de caráter paramilitar."
         },
         {
           "id": "D",
-          "text": "É permitida associação de caráter paramilitar."
+          "text": "A suspensão de atividade de associação exige decisão judicial; a dissolução compulsória exige, além disso, trânsito em julgado."
         },
         {
           "id": "E",
           "text": "A Constituição pode obrigar qualquer pessoa a permanecer associada."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Reunião exige prévio aviso, não autorização. Suspensão depende de decisão judicial; dissolução compulsória exige decisão judicial transitada em julgado."
     },
     {
       "id": "u114-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na requisição administrativa decorrente de iminente perigo público, a Constituição prevê",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "indenização ulterior, se houver dano."
+          "text": "indenização prévia, ainda que não haja dano."
         },
         {
           "id": "C",
@@ -146,21 +146,21 @@
         },
         {
           "id": "E",
-          "text": "indenização prévia, ainda que não haja dano."
+          "text": "indenização ulterior, se houver dano."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O art. 5º, XXV, permite o uso da propriedade particular e assegura indenização ulterior se houver dano."
     },
     {
       "id": "u114-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O contraditório e a ampla defesa, com os meios e recursos a ela inerentes, são assegurados",
       "options": [
         {
           "id": "A",
-          "text": "somente no processo penal."
+          "text": "a litigantes em processo judicial ou administrativo e aos acusados em geral."
         },
         {
           "id": "B",
@@ -168,7 +168,7 @@
         },
         {
           "id": "C",
-          "text": "a litigantes em processo judicial ou administrativo e aos acusados em geral."
+          "text": "somente no processo penal."
         },
         {
           "id": "D",
@@ -179,7 +179,7 @@
           "text": "somente a servidores públicos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O art. 5º, LV, alcança processo judicial e administrativo, litigantes e acusados em geral."
     },
     {
@@ -244,13 +244,13 @@
     },
     {
       "id": "u114-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual associação entre problema e remédio constitucional está correta?",
       "options": [
         {
           "id": "A",
-          "text": "ameaça à liberdade de locomoção — habeas corpus."
+          "text": "ato lesivo ao patrimônio público — habeas data."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "ato lesivo ao patrimônio público — habeas data."
+          "text": "ameaça à liberdade de locomoção — habeas corpus."
         },
         {
           "id": "E",
           "text": "direito líquido e certo residual — habeas corpus."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Habeas corpus tutela a liberdade de locomoção contra violência ou coação, atual ou ameaçada, decorrente de ilegalidade ou abuso de poder."
     },
     {
       "id": "u114-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No mandado de segurança coletivo, a associação deve estar",
       "options": [
         {
           "id": "A",
-          "text": "legalmente constituída e em funcionamento há pelo menos um ano."
+          "text": "necessariamente formada por servidores públicos."
         },
         {
           "id": "B",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "necessariamente formada por servidores públicos."
+          "text": "legalmente constituída e em funcionamento há pelo menos um ano."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 5º, LXX, exige, para a associação, constituição legal e funcionamento há pelo menos um ano, na defesa dos interesses de seus membros ou associados."
     },
     {
       "id": "u114-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O mandado de injunção é cabível quando",
       "options": [
         {
           "id": "A",
-          "text": "há ameaça concreta à liberdade de locomoção."
+          "text": "a falta de norma regulamentadora torna inviável o exercício de direito ou liberdade constitucional ou de prerrogativa ligada à nacionalidade, soberania ou cidadania."
         },
         {
           "id": "B",
-          "text": "a falta de norma regulamentadora torna inviável o exercício de direito ou liberdade constitucional ou de prerrogativa ligada à nacionalidade, soberania ou cidadania."
+          "text": "há ameaça concreta à liberdade de locomoção."
         },
         {
           "id": "C",
@@ -329,7 +329,7 @@
           "text": "há direito líquido e certo plenamente exercitável."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O mandado de injunção combate omissão normativa que inviabiliza o exercício das posições constitucionais indicadas no art. 5º, LXXI."
     },
     {
@@ -364,13 +364,13 @@
     },
     {
       "id": "u114-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre os direitos sociais expressamente previstos no artigo 6º está",
       "options": [
         {
           "id": "A",
-          "text": "transporte."
+          "text": "extradição."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "extradição."
+          "text": "transporte."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "sigilo da fonte."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 6º inclui, entre outros, educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança e previdência social."
     },
     {
       "id": "u114-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto às idades mínimas de trabalho, a Constituição proíbe",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "qualquer trabalho a menores de 16 anos, salvo aprendiz a partir dos 14, e trabalho noturno, perigoso ou insalubre a menores de 18."
+          "text": "trabalho diurno a menores de 21 anos."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "trabalho diurno a menores de 21 anos."
+          "text": "qualquer trabalho a menores de 16 anos, salvo aprendiz a partir dos 14, e trabalho noturno, perigoso ou insalubre a menores de 18."
         },
         {
           "id": "E",
           "text": "somente trabalho perigoso a menores de 16 anos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O art. 7º, XXXIII, combina os limites de 16, 14 para aprendiz e 18 para trabalho noturno, perigoso ou insalubre."
     },
     {
       "id": "u114-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Súmula Vinculante 40 do Supremo Tribunal Federal, a contribuição confederativa do artigo 8º, IV,",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "é exigível apenas dos filiados ao sindicato respectivo."
+          "text": "é devida somente por servidores públicos."
         },
         {
           "id": "C",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "é devida somente por servidores públicos."
+          "text": "é exigível apenas dos filiados ao sindicato respectivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A Súmula Vinculante 40 restringe a exigibilidade da contribuição confederativa aos filiados ao sindicato respectivo."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u114-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "São inalistáveis, nos termos da Constituição,",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "estrangeiros e conscritos durante o serviço militar obrigatório."
+          "text": "brasileiros naturalizados."
         },
         {
           "id": "C",
-          "text": "brasileiros naturalizados."
+          "text": "estrangeiros e conscritos durante o serviço militar obrigatório."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "todos os militares."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O art. 14, § 2º, torna inalistáveis estrangeiros e conscritos durante o serviço militar obrigatório."
     },
     {
       "id": "u114-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A lei que alterar o processo eleitoral",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "entra em vigor na publicação, mas não se aplica à eleição que ocorra até um ano da data de sua vigência."
+          "text": "aplica-se imediatamente a qualquer eleição."
         },
         {
           "id": "C",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "aplica-se imediatamente a qualquer eleição."
+          "text": "entra em vigor na publicação, mas não se aplica à eleição que ocorra até um ano da data de sua vigência."
         },
         {
           "id": "E",
           "text": "depende de lei complementar para vigorar."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O art. 16 separa vigência imediata da regra de não aplicação ao pleito que ocorra dentro de um ano."
     },
     {
       "id": "u114-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto aos partidos políticos, a Constituição",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "permite coligações nas eleições majoritárias e as proíbe nas proporcionais."
+          "text": "autoriza organização paramilitar."
         },
         {
           "id": "C",
@@ -596,25 +596,25 @@
         },
         {
           "id": "E",
-          "text": "autoriza organização paramilitar."
+          "text": "permite coligações nas eleições majoritárias e as proíbe nas proporcionais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O art. 17 assegura autonomia partidária, admite coligações majoritárias e veda coligações proporcionais, além de preservar os demais limites constitucionais."
     },
     {
       "id": "u114-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 32 da prova Cebraspe DPE/AC — Defensor Público 2024, assinale a hipótese constitucional correta de perda da nacionalidade brasileira.",
       "options": [
         {
           "id": "A",
-          "text": "Aquisição voluntária de qualquer segunda nacionalidade."
+          "text": "Pedido expresso de perda perante autoridade brasileira competente, ressalvada situação que gere apatridia."
         },
         {
           "id": "B",
-          "text": "Pedido expresso de perda perante autoridade brasileira competente, ressalvada situação que gere apatridia."
+          "text": "Aquisição voluntária de qualquer segunda nacionalidade."
         },
         {
           "id": "C",
@@ -629,7 +629,7 @@
           "text": "Exercício de profissão no exterior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A questão original teve gabarito definitivo D. Após a EC 131/2023, o pedido expresso perante autoridade competente é hipótese constitucional, ressalvada a apatridia; a adaptação remapeia a resposta para B."
     },
     {
