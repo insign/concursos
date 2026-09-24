@@ -291,7 +291,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H142 | `fundamentos-evolucao-teorias` | `gp-fundamentos-teorias` | L | [`c6c26ba`](https://github.com/insign/concursos/commit/c6c26baa107c35d2159f0ea78ebf5fc669aa9c4b) |
 | H143 | `funcao-politicas-sistemas-rh` | `gp-funcao-politicas-sig` | L | [`77193c2`](https://github.com/insign/concursos/commit/77193c202c70cff02ff80872236c11b610b73261) |
 | H144 | `relacoes-individuo-organizacao-qvt` | `gp-relacoes-qvt` | L | [`5fce402`](https://github.com/insign/concursos/commit/5fce402ccf1527f1dc6ce3e3ed8b85a02d2eb63a) |
-| H145 | `lideranca-motivacao-desempenho` | `gp-lideranca-motivacao` | L | — |
+| H145 | `lideranca-motivacao-desempenho` | `gp-lideranca-motivacao` | L | [`0c635fe`](https://github.com/insign/concursos/commit/0c635fe8107f539863ce7d82965ab1b512f852f1) |
 | H146 | `competencia-interpessoal-conflitos` | `gp-interpessoal-conflitos` | L | — |
 | H147 | `gestao-mudanca` | `gp-gestao-mudanca` | L | — |
 | H148 | `recrutamento-selecao-processo-decisorio` | `gp-recrutamento-selecao` | L | — |
