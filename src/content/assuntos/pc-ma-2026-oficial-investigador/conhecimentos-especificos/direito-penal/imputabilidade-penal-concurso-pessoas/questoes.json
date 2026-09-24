@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u085-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u085-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A semi-imputabilidade do artigo 26, parágrafo único, caracteriza-se por",
       "options": [
         {
           "id": "A",
-          "text": "capacidade reduzida, e não totalmente abolida, com possibilidade de redução da pena de um a dois terços."
+          "text": "incapacidade total e obrigatória absolvição imprópria."
         },
         {
           "id": "B",
-          "text": "incapacidade total e obrigatória absolvição imprópria."
+          "text": "capacidade reduzida, e não totalmente abolida, com possibilidade de redução da pena de um a dois terços."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "simples emoção intensa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O parágrafo único alcança quem não era inteiramente capaz de entender a ilicitude ou de autodeterminar-se, prevendo redução de um a dois terços."
     },
     {
       "id": "u085-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a jurisprudência do STJ, a escolha da fração de redução pela semi-imputabilidade deve considerar",
       "options": [
         {
           "id": "A",
-          "text": "o grau de comprometimento da capacidade, com fundamentação apoiada nos elementos técnicos do caso."
+          "text": "sempre o mínimo de um terço."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "sempre o mínimo de um terço."
+          "text": "o grau de comprometimento da capacidade, com fundamentação apoiada nos elementos técnicos do caso."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "exclusivamente a idade da vítima."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O REsp 2.136.027/MG reafirma que a fração deve guardar relação com o grau de perturbação da capacidade, à luz da prova pericial."
     },
     {
       "id": "u085-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na hipótese do artigo 26, parágrafo único, se o condenado necessitar de especial tratamento curativo, o artigo 98 permite",
       "options": [
         {
           "id": "A",
-          "text": "substituição da pena privativa de liberdade por internação ou tratamento ambulatorial, conforme a disciplina legal."
+          "text": "aplicação automática de pena de multa."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "aplicação automática de pena de multa."
+          "text": "substituição da pena privativa de liberdade por internação ou tratamento ambulatorial, conforme a disciplina legal."
         },
         {
           "id": "E",
           "text": "reconhecimento retroativo de menoridade penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 98 prevê a substituição para tratamento especial nas condições legais; não converte automaticamente o semi-imputável em inimputável."
     },
     {
       "id": "u085-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um agente tinha dezessete anos e onze meses na data da ação e completou dezoito anos antes do resultado. Para fins de imputabilidade penal,",
       "options": [
         {
           "id": "A",
-          "text": "é inimputável, pois se considera a idade no momento da ação ou omissão."
+          "text": "a idade é irrelevante."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "a idade é irrelevante."
+          "text": "é inimputável, pois se considera a idade no momento da ação ou omissão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O artigo 27 e o artigo 228 da Constituição fixam a inimputabilidade abaixo de dezoito anos; o tempo do crime segue o momento da ação ou omissão."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u085-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A embriaguez voluntária ou culposa por álcool ou substância de efeitos análogos",
       "options": [
         {
           "id": "A",
-          "text": "não exclui a imputabilidade penal."
+          "text": "isenta sempre de pena."
         },
         {
           "id": "B",
-          "text": "isenta sempre de pena."
+          "text": "não exclui a imputabilidade penal."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "prova automaticamente dolo eventual."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 28, II, preserva a imputabilidade na embriaguez voluntária ou culposa; isso não dispensa a prova do elemento subjetivo do tipo."
     },
     {
       "id": "u085-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Embriaguez completa decorrente de caso fortuito ou força maior isenta de pena quando",
       "options": [
         {
           "id": "A",
-          "text": "torna o agente inteiramente incapaz de entender a ilicitude ou de determinar-se conforme esse entendimento."
+          "text": "o agente manteve plena capacidade."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "o agente manteve plena capacidade."
+          "text": "torna o agente inteiramente incapaz de entender a ilicitude ou de determinar-se conforme esse entendimento."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "o crime foi cometido em concurso de pessoas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É a hipótese do artigo 28, § 1º: origem fortuita/força maior, embriaguez completa e incapacidade total."
     },
     {
       "id": "u085-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se embriaguez decorrente de caso fortuito ou força maior reduz, sem abolir totalmente, a capacidade do agente,",
       "options": [
         {
           "id": "A",
-          "text": "a pena pode ser reduzida de um a dois terços."
+          "text": "não existe qualquer efeito jurídico."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "não existe qualquer efeito jurídico."
+          "text": "a pena pode ser reduzida de um a dois terços."
         },
         {
           "id": "E",
           "text": "o fato se torna contravenção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 28, § 2º, prevê redução de um a dois terços na embriaguez acidental com capacidade apenas parcialmente reduzida."
     },
     {
       "id": "u085-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A regra-base do artigo 29 do Código Penal significa que",
       "options": [
         {
           "id": "A",
-          "text": "quem concorre para o crime responde, em princípio, por ele, na medida de sua culpabilidade."
+          "text": "a participação nunca é punível."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "a participação nunca é punível."
+          "text": "quem concorre para o crime responde, em princípio, por ele, na medida de sua culpabilidade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Código adota base monista, mas individualiza a responsabilidade conforme culpabilidade e regras dos parágrafos."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u085-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da teoria do domínio do fato, assinale a opção correta.",
       "options": [
         {
           "id": "A",
-          "text": "Pode auxiliar a distinguir autor e partícipe, mas não permite presumir responsabilidade apenas pelo cargo ou posição de comando."
+          "text": "Basta ser sócio ou gestor para ser considerado autor de qualquer crime empresarial."
         },
         {
           "id": "B",
-          "text": "Basta ser sócio ou gestor para ser considerado autor de qualquer crime empresarial."
+          "text": "Pode auxiliar a distinguir autor e partícipe, mas não permite presumir responsabilidade apenas pelo cargo ou posição de comando."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "Elimina a distinção entre autoria e participação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O Informativo 681/STJ afirma que domínio do fato é critério de delimitação de papéis e não fundamento autônomo de responsabilidade sem nexo e contribuição."
     },
     {
       "id": "u085-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na participação moral, induzir e instigar distinguem-se porque",
       "options": [
         {
           "id": "A",
-          "text": "induzir cria a decisão criminosa; instigar reforça decisão já existente."
+          "text": "induzir exige execução direta do núcleo do tipo."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "induzir exige execução direta do núcleo do tipo."
+          "text": "induzir cria a decisão criminosa; instigar reforça decisão já existente."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "ambos são formas de autoria mediata."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Induzimento faz nascer a decisão; instigação reforça uma resolução criminosa preexistente."
     },
     {
       "id": "u085-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para incidência da causa de diminuição por participação de menor importância,",
       "options": [
         {
           "id": "A",
-          "text": "a contribuição deve ser genuinamente secundária ou de reduzida relevância para o fato, não bastando ser menos intensa que a de outro concorrente."
+          "text": "basta chegar por último ao local."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "basta chegar por último ao local."
+          "text": "a contribuição deve ser genuinamente secundária ou de reduzida relevância para o fato, não bastando ser menos intensa que a de outro concorrente."
         },
         {
           "id": "E",
           "text": "é preciso inexistir liame subjetivo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 29, § 1º, exige participação de menor importância em sentido material, e não mera comparação de intensidade entre condutas."
     },
     {
       "id": "u085-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na cooperação dolosamente distinta, se um concorrente quis participar apenas de crime menos grave e outro realiza crime mais grave,",
       "options": [
         {
           "id": "A",
-          "text": "aplica-se ao primeiro a pena do crime menos grave, aumentada até metade se o resultado mais grave era previsível."
+          "text": "aplica-se obrigatoriamente a pena do crime mais grave pela metade."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "aplica-se obrigatoriamente a pena do crime mais grave pela metade."
+          "text": "aplica-se ao primeiro a pena do crime menos grave, aumentada até metade se o resultado mais grave era previsível."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "É a regra do artigo 29, § 2º, que individualiza o desvio subjetivo entre os concorrentes."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u085-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 31, ajuste, determinação, instigação e auxílio, salvo disposição expressa em contrário,",
       "options": [
         {
           "id": "A",
-          "text": "não são puníveis se o crime não chega ao menos a ser tentado."
+          "text": "são sempre puníveis desde a cogitação."
         },
         {
           "id": "B",
-          "text": "são sempre puníveis desde a cogitação."
+          "text": "não são puníveis se o crime não chega ao menos a ser tentado."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "extinguem a punibilidade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 31 estabelece acessoriedade mínima: em regra, o fato principal precisa chegar pelo menos à tentativa."
     },
     {
       "id": "u085-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sem liame subjetivo entre duas pessoas que atuam paralelamente sobre o mesmo bem jurídico,",
       "options": [
         {
           "id": "A",
-          "text": "pode haver autoria colateral, devendo a responsabilidade ser examinada a partir da contribuição individual de cada agente."
+          "text": "há sempre participação de menor importância."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "há sempre participação de menor importância."
+          "text": "pode haver autoria colateral, devendo a responsabilidade ser examinada a partir da contribuição individual de cada agente."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "há obrigatoriamente crime continuado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A coautoria exige vínculo subjetivo; sem ele, atuações independentes não se transformam automaticamente em concurso de pessoas."
     },
     {
       "id": "u085-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre concurso de pessoas em crime culposo, qual formulação é mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "A coautoria pode existir quando agentes vinculados violam conjuntamente o dever de cuidado; a participação culposa é tema doutrinariamente controvertido."
+          "text": "A coautoria culposa dispensa contribuição causal."
         },
         {
           "id": "B",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "A coautoria culposa dispensa contribuição causal."
+          "text": "A coautoria pode existir quando agentes vinculados violam conjuntamente o dever de cuidado; a participação culposa é tema doutrinariamente controvertido."
         },
         {
           "id": "E",
           "text": "Crime culposo transforma automaticamente todos os presentes em coautores."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A jurisprudência admite coautoria culposa quando presentes os requisitos do concurso; a participação em crime culposo é questão doutrinariamente discutida."
     },
     {
       "id": "u085-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 35 do concurso Cebraspe/TCE-MS para Conselheiro Substituto, aplicado em 2025, assinale a opção correta sobre cooperação dolosamente distinta.",
       "options": [
@@ -588,7 +588,7 @@
         },
         {
           "id": "C",
-          "text": "Quem quis participar de crime menos grave recebe a pena deste, com aumento de até metade se previsível o resultado mais grave."
+          "text": "O instituto exclui qualquer responsabilidade penal."
         },
         {
           "id": "D",
@@ -596,21 +596,21 @@
         },
         {
           "id": "E",
-          "text": "O instituto exclui qualquer responsabilidade penal."
+          "text": "Quem quis participar de crime menos grave recebe a pena deste, com aumento de até metade se previsível o resultado mais grave."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A questão oficial 35 teve gabarito definitivo C. A adaptação preserva a regra do artigo 29, § 2º."
     },
     {
       "id": "u085-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 78 do concurso CESPE/Polícia Civil da Paraíba para Delegado, aplicado em 2009, um laudo identifica distúrbio mental, mas não estabelece nexo entre esse distúrbio e incapacidade no momento do comportamento delituoso. Nesse cenário,",
       "options": [
         {
           "id": "A",
-          "text": "o diagnóstico, sozinho, torna o agente inimputável."
+          "text": "não se reconhece inimputabilidade apenas pelo diagnóstico, devendo a responsabilidade ser examinada à luz da capacidade ligada ao fato."
         },
         {
           "id": "B",
@@ -626,10 +626,10 @@
         },
         {
           "id": "E",
-          "text": "não se reconhece inimputabilidade apenas pelo diagnóstico, devendo a responsabilidade ser examinada à luz da capacidade ligada ao fato."
+          "text": "o diagnóstico, sozinho, torna o agente inimputável."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "A",
       "explanation": "A questão oficial 78 teve gabarito definitivo E. O critério do artigo 26 exige incapacidade relacionada ao momento da ação ou omissão; diagnóstico isolado não basta."
     }
   ]
