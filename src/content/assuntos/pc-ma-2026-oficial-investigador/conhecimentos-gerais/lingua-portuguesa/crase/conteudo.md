@@ -102,7 +102,7 @@ Com pronome relativo, reconstrua a frase simples:
 - entregou o ofício **à servidora** → a servidora **a quem** entregou o ofício;
 - fez referência **ao texto da autora** → a autora **a cujo texto** fez referência.
 
-O relativo simples **que** e **quem** não trazem artigo; **a qual** traz. *Cujo* também não aceita artigo imediatamente antes nem depois: não escreva *à cujo texto* nem *a cujo o texto*.
+O relativo simples **que** e **quem** não trazem artigo; **a qual** traz quando é pronome relativo composto com artigo. Isso não vale para toda sequência *a qual*. Em **A qual unidade o relatório se refere?**, *qual* é interrogativo: há apenas a preposição exigida por *referir-se*, sem artigo, portanto **a qual** fica sem acento. *Cujo* também não aceita artigo imediatamente antes nem depois: não escreva *à cujo texto* nem *a cujo o texto*.
 
 ### Quando “à que” pode estar correto
 
@@ -163,7 +163,7 @@ Compare:
 | **a** | intervalo futuro | começará daqui **a duas horas** |
 | **à/às** | hora determinada | começará **às duas horas** |
 
-Escreva **à uma hora, à zero hora, à meia-noite, às oito horas**; compare **ao meio-dia**. Já **a uma hora de viagem** mede intervalo, não horário.
+Escreva **à uma hora, à zero hora, à meia-noite, às oito horas**; compare **ao meio-dia**. Já **a uma hora de viagem** mede intervalo, não horário. E em **a uma hora qualquer**, *uma* funciona como artigo indefinido de um horário não determinado, não como a indicação da hora exata *uma hora*; por isso não se aplica automaticamente a forma **à uma hora**.
 
 Quando outra preposição já aparece, não acrescente **a**: **desde as oito**, **após as oito**, **para as oito**, **entre as oito e as dez**.
 
