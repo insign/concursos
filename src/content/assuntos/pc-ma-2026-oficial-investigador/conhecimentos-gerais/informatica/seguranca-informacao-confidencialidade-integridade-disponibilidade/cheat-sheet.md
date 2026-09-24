@@ -11,7 +11,7 @@
 ## Pegadinhas
 
 - **Disponibilidade ≠ 24 × 7 obrigatório.** É acesso oportuno e confiável conforme a necessidade/requisito.
-- **Integridade ≠ verdade factual.** Um dado digitado errado pode permanecer intacto.
+- **Integridade ≠ garantia de acerto factual.** Um dado digitado errado pode permanecer intacto. O Cebraspe/PCDF 2024, item 120, usou “veracidade” para integridade; reconhecer o uso da banca sem concluir que a propriedade corrige erros de origem.
 - **Autenticação ≠ autorização.** Autenticar identifica; autorizar define o que pode ser feito.
 - **Usuário autenticado ≠ acesso irrestrito.**
 - **Controle ≠ propriedade.** Cifragem, backup, redundância e controle de acesso são mecanismos.
