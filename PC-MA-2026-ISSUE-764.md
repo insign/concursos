@@ -43,13 +43,13 @@ Não acumular novamente seções de totais a cada transição, reservas encerrad
 
 ## 2. Estado corrente consolidado
 
-Estado após a conclusão de **PC-F02**: U001–U158 permanecem C/H/Q `done`; os **141 pacotes físicos locais e 17 origens canônicas** foram inspecionados contextualmente. U006 teve a identidade reconciliada com a publicação efetiva da `main`; U009 e U061 foram reconciliadas como **novas/locais**; U072 permaneceu **parcial/local** com doador canônico comprovado por confronto dos snapshots de criação. PC-F01–PC-F03 estão `done`; PC-F04–PC-F05 permanecem `pending`. PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
+Estado após a conclusão de **PC-F04**: U001–U158 permanecem C/H/Q `done`; os **141 pacotes físicos locais e 17 origens canônicas** foram inspecionados contextualmente. U006 teve a identidade reconciliada com a publicação efetiva da `main`; U009 e U061 foram reconciliadas como **novas/locais**; U072 permaneceu **parcial/local** com doador canônico comprovado por confronto dos snapshots de criação. PC-F01–PC-F04 estão `done`; apenas PC-F05 permanece `pending`. PC-P02–PC-P05 continuam sem linhas próprias recuperáveis e não têm estado inferido.
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Unidades reais previstas | 158 | 0 | 0 | 158 |
 | Entregáveis de unidade C/H/Q | 474 | 0 | 0 | 474 |
-| Tarefas macro individualizadas | 62 | 2 | 0 | 60 |
+| Tarefas macro individualizadas | 62 | 1 | 0 | 61 |
 
 O planejamento original previa **66 macros**: 5 de implantação/fontes, 5 de reaproveitamento, 51 editoriais e 5 de fechamento. O corpo recebido individualiza apenas **62**: PC-P01, PC-R01–PC-R05, PC-E01–PC-E17 em C/H/Q e PC-F01–PC-F05. **PC-P02–PC-P05 não possuem linhas individuais recuperáveis nesse corpo; seus quatro estados não foram inferidos.**
 
@@ -59,7 +59,7 @@ Visões consumidoras registradas: **158 = 141 físicas locais + 17 vínculos can
 
 As inspeções de PC-F02 não criam unidade ou tarefa macro adicional e não reabrem aceites editoriais. A reconciliação final altera apenas a classificação verificável de duas unidades: U009 e U061 passam de parcial herdada sem doador comprovado para **nova/local**; U072 permanece parcial com doador comprovado. PC-R04 permanece `done`, agora com **40/40** unidades atualmente classificadas como parciais; a mudança documental não reabre os pacotes já aceitos.
 
-**Próxima ação habilitada: PC-F04 — confirmar na `main` os commits e arquivos publicados e consolidar origens, consumidores, cobertura e duplicações.** PC-F03 foi concluída como reconsulta datada de 24/09/2026: seis arquivos editoriais de U091, U093 e U129 receberam correções de corte e jurisprudência; U001–U158 permanecem C/H/Q `done`, sem alterar identidades, rotas, ordens ou bancos. A janela jurisprudencial futura exige verificação antes do encerramento em PC-F05.
+**Próxima ação habilitada: PC-F05, após a janela efetiva de jurisprudência prevista no item 19.33.1 do edital e conforme a data definitiva da prova.** PC-F03 foi concluída como reconsulta datada de 24/09/2026: seis arquivos editoriais de U091, U093 e U129 receberam correções de corte e jurisprudência; U001–U158 permanecem C/H/Q `done`, sem alterar identidades, rotas, ordens ou bancos. A janela jurisprudencial futura exige verificação antes do encerramento em PC-F05.
 
 ### Pendências e divergências herdadas
 
@@ -174,7 +174,7 @@ PC-E09-C inclui orientação de redação; PC-E09-H recupera repertório/estrutu
 - [x] PC-F01 — `done` — Matriz conferida em 21/09/2026 contra o Edital nº 1, itens 7, 8, 9, 19.32–19.33.1 e 20.2.2–20.2.3; sem lacuna programática identificada, sem dupla contagem de unidade e sem redistribuição de pesos; auditoria detalhada abaixo.
 - [x] PC-F02 — `done` — Inspecionar manualmente schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.
 - [x] PC-F03 — `done` — Reconsulta datada de 24/09/2026 às publicações oficiais, fontes materiais e divergências de corte/literalidade; correções e evidências abaixo. A janela jurisprudencial posterior à consulta permanece condicionante de PC-F05.
-- [ ] PC-F04 — `pending` — Confirmar na `main` commits e arquivos resolvidos; consolidar origens, consumidores, cobertura e duplicações por unidade.
+- [x] PC-F04 — `done` — Commits, arquivos resolvidos, origens, consumidores, cobertura e duplicações por unidade confirmados na `main`; índice e blobs correntes abaixo.
 - [ ] PC-F05 — `pending` — Recalcular macros, unidades reais, canônicas/locais e visões; reconsultar publicações oficiais e jurisprudência na janela final do item 19.33.1 conforme a data definitiva da prova (6/11/2026 se 6/12/2026 for mantida); fechar #764 somente com cobertura integral, tudo `done`, nenhuma reserva ativa e essa verificação temporal possível e confirmada.
 
 ### PC-F01 — conferência final da matriz contra o edital
@@ -236,7 +236,7 @@ A conferência cobriu a tabela de provas do item 7, os critérios objetivos/disc
 | Consumidores canônicos | Os 17 canônicos possuem vínculos explícitos da PC-MA e dos dois cargos do TCE-MA | São 17 visões da PC-MA, não 51 unidades desta campanha; nenhum pacote da SEAP/Perícia foi presumido consumidor |
 | Questões | 158 conjuntos, **3.369 questões locais + 965 canônicas = 4.334**; estrutura, campos, IDs, revisões positivas, alternativas e referência do gabarito examinados | Não equivale a auditoria semântica de 4.334 gabaritos, distratores, atribuições e explicações |
 | Formatos de questões | 22 questões em oito conjuntos têm número de alternativas diferente de cinco; o schema aceita ao menos duas | Não converter automaticamente questões anteriores nem confundir formato didático com a prova oficial |
-| Resoluções e blobs | Não há `resolucoes/*.md` nas 158 origens inspecionadas; 100 linhas de quatro blobs já individualizadas no arquivo foram confrontadas com a árvore-base sem divergência | Ausência de resolução não prova que todas as explicações dispensam aprofundamento |
+| Resoluções e blobs | Não há `resolucoes/*.md` nas 158 origens inspecionadas; a tabela histórica de blobs exigiu reconciliação em PC-F04: 65 células legadas divergiam já na árvore de fecho de PC-F02 | Ausência de resolução não prova que todas as explicações dispensam aprofundamento; conferir os 158 registros correntes da seção 8 |
 
 Os oito conjuntos com alternativas em quantidade diferente de cinco são U035, U036, U037, U038, U039, U041, U062 e U101. Suas contagens e formatos não foram modificados. Buscas por marcação defeituosa e leitura estrutural de arquivos não demonstram que toda sigla está marcada nem que toda microdescrição está correta; a formulação anterior de conformidade geral fica expressamente limitada por este registro.
 
@@ -937,6 +937,179 @@ Pacote físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conheciment
 | U129 — conteúdo, revisão e referências: Tema 1.412; distinção entre art. 5º e medida urgente; contradição interna sobre preventiva de ofício sanada, preservando Súmula 676 e acórdãos da Quinta Turma. Questão `u129-a25` já registrava a divergência e não foi alterada | `b9e896f36b3f0b36b7e18808a2f3f902efffcc19`, `f2746823d8ecca1fd3a7e22b668ee8510ffefb05`, `df35f014da8bb306693620c49b73af74408df7b2` | C `87a0baf27a6fa56de691adbcae07ddb34f051fe8`; H `07bee8789c0436b9049e7e9c84da824d57e128b3`; R `1cd94bec52e27d7106a0f6c04fc9409323c58b71` |
 
 **Limite temporal e transferência:** em 24/09 o marco de 06/11 ainda é futuro, e a prova pode ser remarcada. As notas históricas de referências que atribuíram a PC-F03 a “janela final” devem ser lidas à luz deste registro: PC-F03 completou a reconsulta possível hoje; **PC-F05 fica condicionado à nova consulta oficial após a janela efetiva**, inclusive acórdão/embargos do Tema 1.412, decisões pendentes e eventual retificação. PC-F04 pode prosseguir com a confirmação dos arquivos e origens. Nenhuma nova unidade, visão, identidade ou questão foi criada; C/H/Q permanecem `done`.
+
+### PC-F04 — confirmação de publicação, origens e consumidores, 24/09/2026
+
+**Resultado: PC-F04 `done`.** Reserva `PC-F04-20260924-ORIGENS-01`; snapshot imutável da `main` [`0102ffeb5d7eb097471caca93642fe0bf9d67ca3`](https://github.com/insign/concursos/commit/0102ffeb5d7eb097471caca93642fe0bf9d67ca3), árvore Git recursiva não truncada (2.679 entradas). A comparação de `6369985cb4a4e904c846c8097dc6395144263293` (fecho PC-F02) a esse snapshot encontrou **sete commits e sete arquivos alterados**: seis artefatos de U091/U093/U129 e este arquivo-mestre, conforme os commits `7e238d4`, `241daa6`, `bb69714`, `b9e896f`, `f274682`, `df35f01`, `0102ffe`. Cada commit foi aberto e seu arquivo confrontado com a árvore e os seis blobs finais da seção PC-F03. Não houve alteração de Q, rotas ou vínculos nesse intervalo.
+
+A árvore PC-MA contém **600 arquivos**: 141 diretórios de assunto com C/H/R/Q físicos (564 arquivos), 17 diretórios só com `vinculo.json` e 19 `grupo.json`. Os 141 frontmatters C foram relidos por caminho/SHA: `storageId: pc-uNNN` e `order` coincidem; os 17 vínculos foram relidos por caminho/SHA e resolvem 17 canônicos distintos na biblioteca, todos com C/H/R/Q. Em conjunto, as ordens consumidoras são **1–158, sem lacunas nem colisões**, com 158 slugs de visão distintos. Os 234 vínculos TCE-MA existentes nos dois cargos foram lidos: cada um dos 17 canônicos PC-MA tem exatamente dois consumidores TCE explícitos, Analista Administração e Técnico Administrativo. Não se atribuiu a outros concursos um consumo sem vínculo.
+
+**Cobertura e duplicações:** as 158 visões resolvem quatro artefatos cada (C/H/R/Q); a tabela de blobs correntes da seção 8 foi reconstruída diretamente da árvore e inclui os 20 IDs ausentes na tabela anterior. As 65 células legadas já divergentes da árvore no fecho de PC-F02 (uma R e 64 Q) e as seis células modificadas em PC-F03 foram substituídas pelo estado atual. Isso corrige a evidência documental, sem alterar questões ou conteúdos agora. Os 158 blobs Q permanecem idênticos aos de PC-F02, portanto a contagem então inspecionada de **4.334 questões** (3.369 locais + 965 canônicas) permanece válida para este snapshot; não houve nova auditoria semântica dos enunciados. Nenhum dos 564 arquivos locais tem SHA igual ao de outro arquivo na árvore do repositório; isso demonstra ausência de cópia **idêntica por bytes** nesses pacotes, sem concluir ausência de sobreposição temática. O compartilhamento dos 17 canônicos via vínculos é intencional e representa uma origem física para três visões, não três unidades PC-MA. U038 usa ainda um SVG suplementar em sua origem canônica, além dos quatro artefatos; o vínculo PC-MA não cria cópia local dessa imagem.
+
+No índice abaixo, `G/` = `conhecimentos-gerais/` e `E/` = `conhecimentos-especificos/`, sempre sob `src/content/assuntos/pc-ma-2026-oficial-investigador/`. `biblioteca/` = `src/content/biblioteca/`. Classes `I/P/N` = integral/parcial/nova; `PC` = PC-MA, `A` = TCE-MA Analista Administração, `T` = TCE-MA Técnico Administrativo. A coluna de consumidores designa quem resolve **esta origem física**; doadores históricos das unidades parciais ficam na seção 6 e não se tornam consumidores dos pacotes locais. `0` = nenhuma duplicação byte a byte de arquivos locais na árvore; `V` = compartilhamento canônico explícito. O SHA é o da árvore do diretório da visão em `0102ffeb5d7eb097471caca93642fe0bf9d67ca3`, que identifica seus quatro arquivos locais ou seu único vínculo. Para os canônicos, os quatro blobs resolvidos estão na seção 8.
+
+| Unidade | Classe | Visão PC-MA | Origem física | Consumidores | C/H/R/Q | Duplicação | SHA da visão |
+|---|---|---|---|---|---|---|---|
+| U001 | P | `G/lingua-portuguesa/leitura-interpretacao-tipos-generos` | própria | PC | 4/4 | 0 | `72edca3b87d9cbeaea3045a7b115bf4d48c5c6dd` |
+| U002 | P | `G/lingua-portuguesa/tipos-generos-textuais` | própria | PC | 4/4 | 0 | `c332c738f6a37355fc7b20a8c4c28cfac544e8ad` |
+| U003 | P | `G/lingua-portuguesa/ortografia-oficial` | própria | PC | 4/4 | 0 | `a4961c781401091b93bb72445d599629a88bac0d` |
+| U004 | P | `G/lingua-portuguesa/coesao-textual` | própria | PC | 4/4 | 0 | `ed24c2f36db88ac79ccaaea00fb9c7fb611f69b3` |
+| U005 | P | `G/lingua-portuguesa/emprego-tempos-modos-verbais` | própria | PC | 4/4 | 0 | `d2cd6615a2bcac95adc2fa8a759b6ceb1d277250` |
+| U006 | N | `G/lingua-portuguesa/classes-nominais-de-palavras` | própria | PC | 4/4 | 0 | `d080629cf24c24395c2e0d774faff16240d50a72` |
+| U007 | P | `G/lingua-portuguesa/verbo-como-classe-de-palavras` | própria | PC | 4/4 | 0 | `d601a0780d11f956892373577657b8414091d8c6` |
+| U008 | P | `G/lingua-portuguesa/classes-invariaveis-de-palavras` | própria | PC | 4/4 | 0 | `a36f7d3f043bf4c178896269e22f46cbab83f47b` |
+| U009 | N | `G/lingua-portuguesa/estrutura-morfossintatica-periodo` | própria | PC | 4/4 | 0 | `e2073bde3d33579f457f127a1641fdc1f5cf2de8` |
+| U010 | P | `G/lingua-portuguesa/coordenacao-oracoes-termos` | própria | PC | 4/4 | 0 | `b36a16b0e4452d8ae1d2e32db53c715b2bffa3de` |
+| U011 | P | `G/lingua-portuguesa/subordinacao-oracoes-termos` | própria | PC | 4/4 | 0 | `8e8cc31d8de7d640d3a869dea9c2ce4c6cdf14ee` |
+| U012 | P | `G/lingua-portuguesa/pontuacao` | própria | PC | 4/4 | 0 | `98fe05feff9267cad281d93fd23f9d8adee64775` |
+| U013 | P | `G/lingua-portuguesa/concordancia-verbal-nominal` | própria | PC | 4/4 | 0 | `fa59124fab6d6e5bcf8041c129deb12827ccffa2` |
+| U014 | P | `G/lingua-portuguesa/regencia-verbal-nominal` | própria | PC | 4/4 | 0 | `dc3ba065cf31a9cda738fa4cfd713c6b8ab37da3` |
+| U015 | P | `G/lingua-portuguesa/crase` | própria | PC | 4/4 | 0 | `cbcb8dd71918002c97c2692934ee4b054ab3babf` |
+| U016 | P | `G/lingua-portuguesa/colocacao-pronominal` | própria | PC | 4/4 | 0 | `cf08c7ce24aca80b2d8b202a01ad53a2372e1849` |
+| U017 | P | `G/lingua-portuguesa/significacao-substituicao-lexical` | própria | PC | 4/4 | 0 | `ff8a8b326393256c8fa795819f81d4e74e3ca233` |
+| U018 | P | `G/lingua-portuguesa/reorganizacao-oracoes-periodos` | própria | PC | 4/4 | 0 | `40f85e93bcc85140d9563cdfe3e7b5ffe477aed9` |
+| U019 | P | `G/lingua-portuguesa/reescrita-generos-formalidade` | própria | PC | 4/4 | 0 | `feaff3f69270a1f22e5664d9f25b352c03e340a4` |
+| U020 | N | `G/lingua-portuguesa/redacao-oficial-linguagem` | própria | PC | 4/4 | 0 | `699b31c9dc5fab218f5f0726e5098e8ef0618196` |
+| U021 | N | `G/lingua-portuguesa/expedientes-oficiais-formatos` | própria | PC | 4/4 | 0 | `6de811bbc0645a5f446e69d1baefd09fe2fcfe69` |
+| U022 | N | `G/informatica/internet-intranet-navegacao-redes-sociais` | própria | PC | 4/4 | 0 | `5692b9a2146359c4a4fb7837851708e733bc0bba` |
+| U023 | P | `G/informatica/sistemas-operacionais-windows-linux` | própria | PC | 4/4 | 0 | `6072acdb2b682e3cea4e06285dce4ec7018a3f2b` |
+| U024 | P | `G/informatica/editores-textos-planilhas-apresentacoes` | própria | PC | 4/4 | 0 | `947e9130032bfcc850128316b1214fb739b9e95e` |
+| U025 | N | `G/informatica/correio-eletronico-smtp-imap` | própria | PC | 4/4 | 0 | `bb99dab8f36dd1845f28e5379f177cf01ab197fa` |
+| U026 | P | `G/informatica/redes-computadores-ipv4-ipv6-wifi` | própria | PC | 4/4 | 0 | `d7db65e46336a914c67d37a6a1e4f70e9dcb50c7` |
+| U027 | P | `G/informatica/computacao-nuvem-armazenamento-colaboracao` | própria | PC | 4/4 | 0 | `a665ecaef4116eea411980cad4353b8151352b2b` |
+| U028 | N | `G/informatica/seguranca-informacao-confidencialidade-integridade-disponibilidade` | própria | PC | 4/4 | 0 | `4e22cf88d4d3220e881239c037ed50c686b71332` |
+| U029 | I | `G/informatica/malware-protecao-ameacas` | `biblioteca/competencias-digitais-informatica-aplicada-setor-publico/malware-protecao-ameacas` | PC+A+T | 4/4 | V | `daaa41d591098b3543ada1ea360aff224fe3812d` |
+| U030 | P | `G/informatica/criptografia-certificacao-digital` | própria | PC | 4/4 | 0 | `268a29090368922e7d8a5481c3a2570a4653fca2` |
+| U031 | N | `G/informatica/evidencia-digital-cadeia-custodia` | própria | PC | 4/4 | 0 | `3e3cf918806022213ea67cb01709c0040805e3d3` |
+| U032 | P | `G/informatica/lgpd-nocoes-gerais` | própria | PC | 4/4 | 0 | `22dcc88f8f4fed9ea585a9e06a56b6d33972bccd` |
+| U033 | P | `G/informatica/inteligencia-artificial-aprendizado-maquina` | própria | PC | 4/4 | 0 | `7e21d3bd422e403ba7c072ede1dc1159597f62ce` |
+| U034 | N | `G/informatica/criptomoedas-nocoes-gerais` | própria | PC | 4/4 | 0 | `aea73d925990c2a1b9791e54ab09e4d2dca262a5` |
+| U035 | I | `G/raciocinio-logico/estruturas-logicas` | `biblioteca/raciocinio-logico/estruturas-logicas` | PC+A+T | 4/4 | V | `859acc522792593e3a91e934976157d22a15e893` |
+| U036 | I | `G/raciocinio-logico/logica-argumentacao-inferencias` | `biblioteca/raciocinio-logico/logica-argumentacao-inferencias` | PC+A+T | 4/4 | V | `fd38d3926d4534faab9308828c0778e0f0aef982` |
+| U037 | I | `G/raciocinio-logico/proposicoes-tabelas-verdade` | `biblioteca/raciocinio-logico/proposicoes-tabelas-verdade` | PC+A+T | 4/4 | V | `e38382b247b52e04557f890a547a367849b70175` |
+| U038 | I | `G/raciocinio-logico/equivalencias-de-morgan-diagramas-logicos` | `biblioteca/raciocinio-logico/equivalencias-de-morgan-diagramas-logicos` | PC+A+T | 4/4 | V | `1b196b70817a279c2c0dd8352bd34f77cf43ab20` |
+| U039 | I | `G/raciocinio-logico/logica-primeira-ordem` | `biblioteca/raciocinio-logico/logica-primeira-ordem` | PC+A+T | 4/4 | V | `69ef0de0bd1232d7b74386993148bf498d7cf824` |
+| U040 | I | `G/raciocinio-logico/principios-contagem-probabilidade` | `biblioteca/raciocinio-logico/principios-contagem-probabilidade` | PC+A+T | 4/4 | V | `4171d191d3b68ed2b5fee084110e6a7b8bd0e2c5` |
+| U041 | I | `G/raciocinio-logico/operacoes-conjuntos` | `biblioteca/raciocinio-logico/operacoes-conjuntos` | PC+A+T | 4/4 | V | `4d5ab1889381cd6a819d7a0c3a569b1a1c268ea1` |
+| U042 | P | `G/raciocinio-logico/problemas-aritmeticos-geometricos-matriciais` | própria | PC | 4/4 | 0 | `2f14cc8b9163efd0d4e460009aa8155d2b8a363c` |
+| U043 | N | `G/contabilidade/fundamentos-contabilidade-patrimonio` | própria | PC | 4/4 | 0 | `cca2dc39af44f6c2e20d71790fde75f6aa53f20a` |
+| U044 | N | `G/contabilidade/atos-fatos-administrativos` | própria | PC | 4/4 | 0 | `9bea7a017b7143041b9cc0c88ca8adf7510757fa` |
+| U045 | N | `G/contabilidade/contas-debitos-creditos-saldos` | própria | PC | 4/4 | 0 | `90085bb250e49d6542fd2f3c761af868383ba6f9` |
+| U046 | N | `G/contabilidade/plano-contas-elenco-funcao-funcionamento` | própria | PC | 4/4 | 0 | `83702ce929f5dbb91405b65807bac23e16fe30a3` |
+| U047 | N | `G/contabilidade/escrituracao-lancamentos-livros-regimes` | própria | PC | 4/4 | 0 | `86e9bb53876df04bd5e3187115a03fb7e35f6893` |
+| U048 | N | `G/contabilidade/contabilizacao-operacoes-diversas` | própria | PC | 4/4 | 0 | `19e87f83e180395b5ec1d62d6d21a6fec0d8ce23` |
+| U049 | N | `G/contabilidade/balancete-demonstracoes-normas-contabeis` | própria | PC | 4/4 | 0 | `333209941f75bcb5819c38f8e20a7b4ac01892d7` |
+| U050 | N | `G/estatistica/estatistica-descritiva-analise-exploratoria` | própria | PC | 4/4 | 0 | `9636527249631ab355587012451b643d91efe573` |
+| U051 | N | `G/estatistica/probabilidade-axiomas-condicional-independencia` | própria | PC | 4/4 | 0 | `413dfe36680f0d54e2cdd4071ef8b053d5a84c0f` |
+| U052 | N | `G/estatistica/variaveis-aleatorias-distribuicoes-momentos-transformacoes` | própria | PC | 4/4 | 0 | `fa817723ca41704c0674db670bc843ed65cd0309` |
+| U053 | N | `G/estatistica/leis-grandes-numeros-limite-amostras-distribuicoes-amostrais` | própria | PC | 4/4 | 0 | `90c2d815035ff0453980679d12e8a3871c63386b` |
+| U054 | N | `G/estatistica/inferencia-estatistica-estimacao-testes` | própria | PC | 4/4 | 0 | `8ab311d2d70c7a2b65aaf219f2fca46ad4a5bf40` |
+| U055 | N | `G/estatistica/regressao-linear-amostragem` | própria | PC | 4/4 | 0 | `a958329f8881af6c2a38f132acb11d475a81a71e` |
+| U056 | P | `G/administracao/administracao-gerencial-comportamento` | própria | PC | 4/4 | 0 | `183181e38a3fc4392e6b29dcd97a3ef699bfe3ac` |
+| U057 | P | `G/administracao/principios-sistemas-administracao-federal` | própria | PC | 4/4 | 0 | `33882c1e12c9f89bbdd9239d4cf1c393cda769c9` |
+| U058 | P | `G/administracao/orcamento-principios-diretrizes` | própria | PC | 4/4 | 0 | `b25808f0e786602203eeb5a0b4e7dadc18b63f9d` |
+| U059 | P | `G/administracao/sidor-siafi` | própria | PC | 4/4 | 0 | `e618bb9774248d612f89ae3e8b5a71ca38b54c0c` |
+| U060 | P | `G/administracao/receita-publica` | própria | PC | 4/4 | 0 | `37aaa553da7627ba3b38bc843128b40214eb719d` |
+| U061 | N | `G/administracao/despesa-suprimento-restos-dea-conta-unica` | própria | PC | 4/4 | 0 | `ee695c251eed0fed6ec8d8ce6c3c29c011a15028` |
+| U062 | P | `G/historia-maranhao/franca-equinocial-fundacao-guaxenduba-capitaes-mores` | própria | PC | 4/4 | 0 | `6e3c8eafc05beec07ff6cbbefe9bd2018b7c6555` |
+| U063 | I | `G/historia-maranhao/invasao-expulsao-holandeses` | `biblioteca/historia-geografia-estado-maranhao/invasao-expulsao-holandeses` | PC+A+T | 4/4 | V | `4f6716070b4a239ff1cbf3b6617fdf1d133629b7` |
+| U064 | I | `G/historia-maranhao/revolta-bequimao-companhias` | `biblioteca/historia-geografia-estado-maranhao/revolta-bequimao-companhias` | PC+A+T | 4/4 | V | `04653a5168d7c8c1a30d90037cccd98ab3f72a01` |
+| U065 | I | `G/historia-maranhao/adesao-independencia-jenipapo` | `biblioteca/historia-geografia-estado-maranhao/adesao-independencia-jenipapo` | PC+A+T | 4/4 | V | `127b0885e7e22f621447017b8a9fbd2a0767e404` |
+| U066 | I | `G/historia-maranhao/balaiada-caracterizacao-causas` | `biblioteca/historia-geografia-estado-maranhao/balaiada-caracterizacao-causas` | PC+A+T | 4/4 | V | `6a62bb53fb0341814f21654d75375b951d68760b` |
+| U067 | I | `G/historia-maranhao/adesao-republica-revolucao-1930` | `biblioteca/historia-geografia-estado-maranhao/adesao-republica-revolucao-1930` | PC+A+T | 4/4 | V | `1ff8f0134a1c170fa52b3915eeece4ae1a579211` |
+| U068 | P | `G/historia-maranhao/fatos-maranhao-segunda-metade-sec-xx` | própria | PC | 4/4 | 0 | `3cb7fe177ba4d4e8277a86ace2f95e43b897021d` |
+| U069 | I | `G/geografia-maranhao/localizacao-limites-extremos` | `biblioteca/historia-geografia-estado-maranhao/localizacao-limites-extremos` | PC+A+T | 4/4 | V | `61296d58badde22270643eb30d4ccfda8011513a` |
+| U070 | I | `G/geografia-maranhao/areas-protecao-parques-nacionais` | `biblioteca/historia-geografia-estado-maranhao/areas-protecao-parques-nacionais` | PC+A+T | 4/4 | V | `6ab303f567be79b71d70cd5778cd2f89bd434162` |
+| U071 | I | `G/geografia-maranhao/climas-formacoes-vegetais` | `biblioteca/historia-geografia-estado-maranhao/climas-formacoes-vegetais` | PC+A+T | 4/4 | V | `59154a6f5f4940a93e1c7053cf1a33566f951054` |
+| U072 | P | `G/geografia-maranhao/geomorfologia-relevo` | própria | PC | 4/4 | 0 | `1c1a9d6508a7fe0230af39b1fe15124be835d50f` |
+| U073 | I | `G/geografia-maranhao/rios-bacias-maranhenses` | `biblioteca/historia-geografia-estado-maranhao/rios-bacias-maranhenses` | PC+A+T | 4/4 | V | `0325eb1ae0700983154f1008fd1c7e6fd5a045fa` |
+| U074 | P | `G/geografia-maranhao/populacao-movimentos` | própria | PC | 4/4 | 0 | `5f115e6d8aabee862d9be60c0b7bd72776825ec8` |
+| U075 | P | `G/geografia-maranhao/agricultura-pecuaria-extrativismo` | própria | PC | 4/4 | 0 | `f451b696d4729ed0746f14bc4ca81f64f759ea89` |
+| U076 | P | `G/geografia-maranhao/industria-comercio-telecom-transportes` | própria | PC | 4/4 | 0 | `3b60b3fb01af849b9afef3de5168a7b2b41d2f44` |
+| U077 | P | `G/geografia-maranhao/malha-portos-aeroportos-cultura` | própria | PC | 4/4 | 0 | `7d375617559b3c3014cd4e20b267ab5e857b6d28` |
+| U078 | N | `G/atualidades/seguranca-publica-politica-sociedade` | própria | PC | 4/4 | 0 | `8680722fb48963b171fbe135bc2f1ccb94395d92` |
+| U079 | N | `G/atualidades/economia-infraestrutura-transformacao-tecnologica` | própria | PC | 4/4 | 0 | `a129aae25f4090a0de157c6ab2aaafe2a22d7f6f` |
+| U080 | N | `G/atualidades/relacoes-internacionais-sustentabilidade-meio-ambiente` | própria | PC | 4/4 | 0 | `5f112c0e917ecd51f16df2fc7d769c2ccb0593c6` |
+| U081 | N | `E/direito-penal/aplicacao-lei-penal` | própria | PC | 4/4 | 0 | `86601ddf5e3f5362464b76b6b9b1a41b442792aa` |
+| U082 | N | `E/direito-penal/teoria-geral-crime-infracao-penal` | própria | PC | 4/4 | 0 | `5cb3533e0c30812a4a8eb4fb01161cc1373742e5` |
+| U083 | N | `E/direito-penal/fato-tipico-consumacao-tentativa-concurso-crimes` | própria | PC | 4/4 | 0 | `9242adfa070a2ac3b46b25e60b62a708f1b4cb47` |
+| U084 | N | `E/direito-penal/ilicitude-punibilidade-excesso-culpabilidade` | própria | PC | 4/4 | 0 | `f3d2e29f1559b30b33aa1126aa7a31860fb070b6` |
+| U085 | N | `E/direito-penal/imputabilidade-penal-concurso-pessoas` | própria | PC | 4/4 | 0 | `53dcdcddc1d33999aab63b2e64ab31befcad3ab6` |
+| U086 | N | `E/direito-penal/crimes-contra-pessoa` | própria | PC | 4/4 | 0 | `2afac0049c24084be844d978856ff06a7a6f4a69` |
+| U087 | N | `E/direito-penal/crimes-contra-patrimonio` | própria | PC | 4/4 | 0 | `227969058f8999b52583705438e6635ed85da52f` |
+| U088 | N | `E/direito-penal/crimes-contra-dignidade-sexual` | própria | PC | 4/4 | 0 | `d19eda4bab6a2a8f808ad250c29e724d9d03643a` |
+| U089 | N | `E/direito-penal/crimes-incolumidade-paz-fe-publicas` | própria | PC | 4/4 | 0 | `05b8b9b4167af39e5f6cfb19368b25adf231e6f7` |
+| U090 | N | `E/direito-penal/crimes-contra-administracao-publica` | própria | PC | 4/4 | 0 | `7786056c399163677d34b8b79941ebc34211452e` |
+| U091 | N | `E/direito-processual-penal/principios-gerais-sistemas-processo-penal` | própria | PC | 4/4 | 0 | `93f36b6abd90c30780db69fa823cd183ea736942` |
+| U092 | N | `E/direito-processual-penal/inquerito-policial` | própria | PC | 4/4 | 0 | `0e57c03c47073012ac1eda53e6643d2875b410a4` |
+| U093 | N | `E/direito-processual-penal/prova-processo-penal` | própria | PC | 4/4 | 0 | `135ce946f5b1d6d59b05b84724bb236ee568d22e` |
+| U094 | N | `E/direito-processual-penal/prisao-flagrante` | própria | PC | 4/4 | 0 | `66f5bdb13bd936631786af36a2b7fc91680704ba` |
+| U095 | N | `E/direito-processual-penal/prisao-preventiva` | própria | PC | 4/4 | 0 | `7887390e8a93f9de3a9a289870fb101413f95a96` |
+| U096 | N | `E/direito-processual-penal/prisao-temporaria` | própria | PC | 4/4 | 0 | `312b523a4da830e72f6f76456c31116ac8fb9613` |
+| U097 | N | `E/direito-processual-penal/outras-medidas-cautelares` | própria | PC | 4/4 | 0 | `2b3f05dbd56e74e5af1ae9d1349b371eef6fc591` |
+| U098 | N | `E/direito-administrativo/estado-governo-administracao-publica` | própria | PC | 4/4 | 0 | `709e3a50ba3d39ec9d59214eb9c4dc334659271a` |
+| U099 | N | `E/direito-administrativo/organizacao-administrativa-uniao` | própria | PC | 4/4 | 0 | `e992030c6158eca88afa5f368d24e1cdf046395c` |
+| U100 | N | `E/direito-administrativo/servidores-publicos-federais-lei-8112` | própria | PC | 4/4 | 0 | `3a79cbcfd094be3998e3c84feed2c12ca8212358` |
+| U101 | P | `E/direito-administrativo/licitacoes-modalidades-dispensa-inexigibilidade` | própria | PC | 4/4 | 0 | `ecd6296a4f021d4999cf9225b5856114dca2bfaa` |
+| U102 | N | `E/direito-administrativo/atos-administrativos` | própria | PC | 4/4 | 0 | `775bdcad82689900d89e3433e4f73565d909745e` |
+| U103 | N | `E/direito-administrativo/regime-policiais-civis-uniao-df-lei-4878` | própria | PC | 4/4 | 0 | `2407b80814cb102c74cbad218937b5a939101010` |
+| U104 | N | `E/direito-administrativo/improbidade-administrativa-lei-8429` | própria | PC | 4/4 | 0 | `120514c6b867249dd221c4120cb62d4e6fe5da7f` |
+| U105 | N | `E/direito-administrativo/poderes-administrativos` | própria | PC | 4/4 | 0 | `dc5fd1d53da4b72f199d06e3b9d9058c405d174f` |
+| U106 | N | `E/direito-administrativo/controle-administracao-publica` | própria | PC | 4/4 | 0 | `d23b5dd8d8f5538e9c46382c221fb348f7cf9e7f` |
+| U107 | N | `E/direito-administrativo/responsabilidade-civil-estado` | própria | PC | 4/4 | 0 | `198a8ad7c1cbb658a6505cee0dec1bac6cc271c0` |
+| U108 | N | `E/direito-administrativo/estatuto-policia-civil-maranhao-lei-8508` | própria | PC | 4/4 | 0 | `6291bca08bb3e37bee96323337bfbcfb41eee5bd` |
+| U109 | N | `E/direito-administrativo/regime-juridico-servidores-maranhao-lei-6107` | própria | PC | 4/4 | 0 | `e52c666aed483bb74a1f7e23f299ae491cca15dd` |
+| U110 | N | `E/direito-administrativo/organizacao-policia-civil-maranhao-lei-10238` | própria | PC | 4/4 | 0 | `17b9cef4540db1dc6f2fc106b9113948b02a4d10` |
+| U111 | N | `E/direito-administrativo/lei-organica-nacional-policias-civis-lei-14735` | própria | PC | 4/4 | 0 | `1dae5ac0ae1724a8d9091aa07bf4fb9cf63e01c9` |
+| U112 | N | `E/direito-constitucional/estado-e-constituicao` | própria | PC | 4/4 | 0 | `13e0127e5fc4e9428b6c9e7e6974f43d8f6107c5` |
+| U113 | N | `E/direito-constitucional/cf88-preambulo-principios-fundamentais` | própria | PC | 4/4 | 0 | `50b280d9e0643ba1e9a602dba3a0e15c0d6eaf19` |
+| U114 | N | `E/direito-constitucional/direitos-garantias-remedios-constitucionais` | própria | PC | 4/4 | 0 | `df897d6c8a672557c410d461c37a4619baebdb8b` |
+| U115 | N | `E/direito-constitucional/organizacao-politico-administrativa-estado` | própria | PC | 4/4 | 0 | `eb3f5ea4f19b220817ac5185ab60d61cfcee9835` |
+| U116 | N | `E/direito-constitucional/administracao-publica-servidores-publicos` | própria | PC | 4/4 | 0 | `8dea616ce713be5065d283bd26912b5a051c6975` |
+| U117 | N | `E/direito-constitucional/poder-executivo-presidente-republica` | própria | PC | 4/4 | 0 | `783e46a94c6a0a201d86f30e13f7f9c48558b0d0` |
+| U118 | N | `E/direito-constitucional/poder-legislativo` | própria | PC | 4/4 | 0 | `44a84dd695ae4137b31327855aa86f69f3115f15` |
+| U119 | N | `E/direito-constitucional/poder-judiciario` | própria | PC | 4/4 | 0 | `c007b7451b58d860917c18923dae02c72df6a030` |
+| U120 | N | `E/direito-constitucional/funcoes-essenciais-justica` | própria | PC | 4/4 | 0 | `0157edea87431704996be4f6e611b8defeb10c5c` |
+| U121 | N | `E/direito-constitucional/defesa-estado-seguranca-publica` | própria | PC | 4/4 | 0 | `fe6f3ae7b8a7c3ba6ba8920270c392e95ff0b371` |
+| U122 | N | `E/direito-constitucional/ordem-social-seguridade-meio-ambiente-familia` | própria | PC | 4/4 | 0 | `25dde2638c16db3abeccbfdaae8827022e6cd5b9` |
+| U123 | N | `E/legislacao-especial/lei-drogas-lei-11343` | própria | PC | 4/4 | 0 | `3d1b380e08e6b523acc3e1eae5d1ec6d4f863cff` |
+| U124 | N | `E/legislacao-especial/abuso-autoridade-lei-13869` | própria | PC | 4/4 | 0 | `0d628f9a31be1db54e061d669e86f1c103bed5a9` |
+| U125 | N | `E/legislacao-especial/crimes-tortura-lei-9455` | própria | PC | 4/4 | 0 | `768596872918612e635d3d4edd7678c5817efc09` |
+| U126 | N | `E/legislacao-especial/estatuto-crianca-adolescente-lei-8069` | própria | PC | 4/4 | 0 | `9369a2c95f23ba21232bcc8914d38cb11d370d4f` |
+| U127 | N | `E/legislacao-especial/estatuto-desarmamento-lei-10826` | própria | PC | 4/4 | 0 | `c1cce69aac4de97e6b387b162d0d6dd93e261ff2` |
+| U128 | N | `E/legislacao-especial/crimes-ambientais-lei-9605` | própria | PC | 4/4 | 0 | `3efeb261abcc4b40780622a202e9928e14b4882e` |
+| U129 | N | `E/legislacao-especial/lei-maria-penha-lei-11340` | própria | PC | 4/4 | 0 | `caebc4e3490825aec550a41661686e8e899064f1` |
+| U130 | N | `E/legislacao-especial/investigacao-criminal-delegado-lei-12830` | própria | PC | 4/4 | 0 | `9ab37e0675bb4879332d02d16730571c114100c0` |
+| U131 | N | `E/legislacao-especial/lavagem-dinheiro-lei-9613` | própria | PC | 4/4 | 0 | `50417c162358158e760fd820dbe4adfbd59d4a22` |
+| U132 | N | `E/legislacao-especial/crimes-hediondos-lei-8072` | própria | PC | 4/4 | 0 | `f92144325f4e3da08ea0e03ed7e3b90921e54db8` |
+| U133 | N | `E/legislacao-especial/crimes-preconceito-raca-cor-lei-7716` | própria | PC | 4/4 | 0 | `e01904fb7bbba5875bdadc54680d2edf94e00387` |
+| U134 | N | `E/legislacao-especial/identificacao-criminal-lei-12037` | própria | PC | 4/4 | 0 | `0fabdeb371fcfe0734a104c3cc0a420d6c3160d3` |
+| U135 | N | `E/legislacao-especial/juizados-especiais-criminais-lei-9099` | própria | PC | 4/4 | 0 | `5d6354510a5e34dea3c5a8a7c14e674c97c534a6` |
+| U136 | N | `E/legislacao-especial/estatuto-pessoa-idosa-lei-10741` | própria | PC | 4/4 | 0 | `7a7100d604a6b8f96dffd791d7ba27bdc65560bd` |
+| U137 | N | `E/legislacao-especial/crimes-transito-lei-9503` | própria | PC | 4/4 | 0 | `39c6803158d5103a2ecabfd23ef6fbc9936fa0e8` |
+| U138 | N | `E/legislacao-especial/crimes-eleitorais-codigo-eleitoral-lei-4737` | própria | PC | 4/4 | 0 | `83ebf2a532f7b25981c80650d14bfd1bc8e0618e` |
+| U139 | N | `E/legislacao-especial/organizacao-criminosa-lei-12850` | própria | PC | 4/4 | 0 | `100a724846782af75dbf840de198e673838411d6` |
+| U140 | N | `E/legislacao-especial/marco-combate-crime-organizado-lei-15358` | própria | PC | 4/4 | 0 | `6dccd54faad44ddc345b04dac1177faa54328c79` |
+| U141 | N | `E/legislacao-especial/interceptacao-telefonica-lei-9296` | própria | PC | 4/4 | 0 | `23c99fccacb9a6299eee1ab62321b87b5b7c5f0b` |
+| U142 | P | `E/direitos-humanos/teoria-geral-direitos-humanos` | própria | PC | 4/4 | 0 | `c6e6f746c7998fc218180aa69ba8ed86dcbe8949` |
+| U143 | N | `E/direitos-humanos/direito-internacional-direitos-humanos-brasil` | própria | PC | 4/4 | 0 | `2fea0dd4cf2ce07ceaea92361c5d95ffc7c2f195` |
+| U144 | P | `E/direitos-humanos/sistema-global-onu-dudh` | própria | PC | 4/4 | 0 | `0f521546f7a5fef87a6421689f79ce81ba6dd0ed` |
+| U145 | N | `E/direitos-humanos/pactos-internacionais-direitos-humanos-1966` | própria | PC | 4/4 | 0 | `8a16106b116b957f939c8d8f6db3cf83ff2eafa6` |
+| U146 | N | `E/direitos-humanos/sistema-interamericano-direitos-humanos` | própria | PC | 4/4 | 0 | `af4c1812b92c378035dcd8b161c9952205dfa03d` |
+| U147 | N | `E/direitos-humanos/controle-convencionalidade-direitos-humanos-constituicao` | própria | PC | 4/4 | 0 | `3192896efddf7d618743b649b58d95643f3c9841` |
+| U148 | N | `E/direitos-humanos/grupos-vulneraveis-atividade-policial-direitos-humanos` | própria | PC | 4/4 | 0 | `0c01ce23d13f3b6655d9ad7110b2f9af1e02aca6` |
+| U149 | N | `E/medicina-legal/fundamentos-medicina-legal` | própria | PC | 4/4 | 0 | `bc446ac70d53efb9bacca660b066a401aaa1aedb` |
+| U150 | N | `E/medicina-legal/corpo-delito-pericia-peritos-medicina-legal` | própria | PC | 4/4 | 0 | `d6270886d1f36f52e68b1f92362700fbb300c889` |
+| U151 | N | `E/medicina-legal/documentos-medico-legais-identificacao` | própria | PC | 4/4 | 0 | `e363ce6325ee01511ec35720fe7e41e5ed341059` |
+| U152 | N | `E/medicina-legal/traumatologia-medico-legal-lesoes-armas-projeteis` | própria | PC | 4/4 | 0 | `56db5c148a22c5d898032c8247afd9cb859daf42` |
+| U153 | N | `E/medicina-legal/tanatologia-forense-morte-fenomenos-cadavericos` | própria | PC | 4/4 | 0 | `d0af407df44b492796eba971c0a48d053d3e3a0d` |
+| U154 | N | `E/medicina-legal/exame-medico-legal-locais-crime` | própria | PC | 4/4 | 0 | `8e220a909305408f2319a653f2dc9af675416421` |
+| U155 | N | `E/medicina-legal/psiquiatria-forense-imputabilidade-capacidade-civil` | própria | PC | 4/4 | 0 | `34079a427ea1bd34b6b79579982e75658e688688` |
+| U156 | N | `E/criminologia/fundamentos-criminologia-conceito-metodos-objetos` | própria | PC | 4/4 | 0 | `4fd0739406ca0e83ae621c9a576abcae2ce30502` |
+| U157 | N | `E/criminologia/funcoes-criminologia-politica-criminal` | própria | PC | 4/4 | 0 | `b5e35da66fb86c3536b7f3a48c2f80bce0fe8212` |
+| U158 | N | `E/criminologia/modelos-teoricos-criminologia-prevencao` | própria | PC | 4/4 | 0 | `296b217ba3c75d223f97025fd53603ef477764c6` |
+
+**Fronteiras programáticas já resolvidas:** U006 é `classes-nominais-de-palavras` e U009 é `estrutura-morfossintatica-periodo`; U061 é nova/local, enquanto U072 é parcial/local com doador demonstrado; U075 funde dois doadores em um pacote local; a Lei nº 12.830/2013 dos itens 8 e 13 da Legislação Especial tem uma única U130. Os dois itens numerados “4” de Processo Penal cobrem assuntos distintos em U094/U095. Essas fronteiras e os recortes das demais unidades permanecem nas seções 4–7. Esta confirmação de identidade, presença e blobs não substitui a reconsulta temporal de jurisprudência e eventuais retificações de PC-F05.
 
 ## 5. Reaproveitamento e indexação das 158 unidades
 
@@ -1931,7 +2104,9 @@ Para cada unidade, o destino completo é resolvido pelas seções 5–7. Os quat
 
 C/E nas referências acima significam Certo/Errado no gabarito original; letras A/B/C de múltipla escolha pertencem às provas originais, não obrigatoriamente à alternativa remapeada. O registro recebido atribuía `questionSetRevision: 1` aos conjuntos então individualizados. U001, agora documentada individualmente, mantém `questionSetRevision: 6`, com `q005` em revisão 2, `q109` em revisão 3, `q110`–`q112` em revisão 2 e as demais em revisão 1. Preservar IDs/origin e observar as revisões efetivas de cada artefato quando houver alteração lógica.
 
-### Blobs dos quatro artefatos
+### Blobs correntes dos quatro artefatos — snapshot PC-F04
+
+Blobs C (`conteudo.md`), H (`cheat-sheet.md`), R (`referencias.md`) e Q (`questoes.json`) resolvidos no commit `0102ffeb5d7eb097471caca93642fe0bf9d67ca3`. Para I, os blobs são da origem canônica; para P/N, do pacote físico PC-MA. Esta tabela substitui as 138 linhas históricas, que omitiam 20 unidades e retinham 65 células anteriores a PC-F02 e seis anteriores a PC-F03. Os commits de criação/edição permanecem registrados acima e nas seções 4–7.
 
 | Unidade | C | H | R | Q |
 |---|---|---|---|---|
@@ -1940,47 +2115,50 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U003 | `fe4ec6b3081a6b3677ca1c91363dddd854e71936` | `5f9b05382810230e611f550baace15a35950bc79` | `417bf039f6af4c84b0ccd4679ff61bd18b1cfdc9` | `f08deaca845b2fecba04dd2b1918fa2b2e340ac0` |
 | U004 | `7f48115ac58ccf16e1f193e259879a31aef276bb` | `e58c3b07b17695b58426b9403d51984abf723637` | `b9757850e7ab2cd209280d4ffa014a848e95f42f` | `a462883a72d23e5d76e72ae8182ad49cdc6cc07b` |
 | U005 | `f8e79ff2945fec047cd0f06c645bbd7d2a3a8974` | `a86d1677fd7742c5a0cd5976cd5d2cb316dd40a9` | `e6758c3eb6efa24598c64ff3b980120a24e5d033` | `d4bad8ab1ca8895a4f385f6381257a1d0f441d8d` |
+| U006 | `d0daac2d6715739c04534a01c59f29af77121d2e` | `17f8109d5a190699b488e90d7cf5320ffc9c1d6c` | `bd350e05f2879a48510f517d4739e97267af26c1` | `ad4727c18485998e02b42a5d8e526e524fd5491d` |
+| U007 | `4561f7be83f078928f960c76b2a314325e91b9db` | `0d3d3a495f0c173db82aa868fb2a2df65510cb5a` | `1e7ba8a505a8953bf5e44f59df1c6c8dc8f217f9` | `d51caca6fe5a2a118e9a34ef9957f3baf91ef46b` |
 | U008 | `490b6c8cc8a6ef4718518bdd1d1195978ec33f89` | `681c5bab1929cd7f751a8e96683f7d0052fa291a` | `a113a216fef0449dc981c58ea07287a88ca7f2a2` | `4bb1e6df97cf46999f415f64de9d0e761ecd548d` |
+| U009 | `e38f53550901acf21ff98c1d1d65508d597600b5` | `dbe77eb39b8f07de2423c265eba7a3c937b189df` | `85227c1606703b4f7767126536932a8fc7d7382d` | `8e218aae38ed09742d9408d006e792c149360db4` |
 | U010 | `2495eedf9a02b97f34e5501d7a804317f3abb840` | `083ec123af6eb6ed50febb5ba1dea5e1b016e9c7` | `7559102b1da8ea3b51418b707598cbafa0bf354f` | `e7dd3567b433c2002742436e232c5741ee0a7277` |
 | U011 | `df7ba479215f6b3c2c086f91ad84da9226dffc69` | `3a233f67adda3fcff866d9ceabc227cb1b4aa480` | `f2d84722453cd0b2f37e059b936385ed420ebcfa` | `9212605ec3c9a433258a917003d28e35f69c21e4` |
 | U012 | `7ae01dc410f7c160391fc2d679d60c3060644785` | `4b3555a9e777a3daefa721b67d56eb37c90840af` | `26e626a3d3c9090c49b54e5db18dd0706a5589bb` | `8c624ae8b28355ba2a338f99c34eba4a17adfff6` |
 | U013 | `2755e9d8af94197d3921b91a785a0f47244b7db2` | `c16b9d072320d5ee7518712072dd272a3ed504ee` | `3e3fbd60a500f413c84ead24ccebf72a977a3190` | `647ad7fdd4cfa4ee1e87afe9b70bccd000fb15ca` |
 | U014 | `8ee905b4052ed82dec6bfd8a5019b14bd44c750b` | `a54d2e847d7e11c41bd6be9e96408b664d1007e5` | `139992e94a5473f06985bafc4bb5891335fbb758` | `7643eae3206061f836700a3b4fd94e429f77c557` |
 | U015 | `14b5a823fffb352700485ca0c2d240871ec76a6b` | `674439ecfc0799cfd6c46a602e653781bf24f212` | `81899a40c6977266fba7e5d355e13d7d6e1b5d20` | `7db470871ff99e02e341a6e7669a17f9ef8db699` |
-| U016 (PC-F02) | `931f2108b0737543816b92b5a4adca4e55a1919d` | `35c0158b29ee53bd581471dbff399ff7255405f1` | `5a169eaa9c1ff6ddf8eb1f64eb79e0ab55216b5a` | `099ed06c2040b30da076e382edde2e431577ddfb` |
-| U017 (PC-F02) | `cd99a3f4deea450040bf00d84cc64d0180a21969` | `c3c37a2ba3875dc04146f76c796a0ad2571c2fd5` | `09b7e2f539b5dfe0f40e418257aa7895fa66de33` | `ba524c28e0949c0f9bf0d2978ffba2ffce960dca` |
-| U018 (PC-F02) | `350331463f0b2aeba7201162abe7e721cef0e498` | `b958d73877c1dee214136340fdccfbca2ecd66d1` | `fe2604615de2fe934bd3ace934344bc29355c2c6` | `e54e5bfb97e79bb090f1cb151485cbe894f06af7` |
-| U019 (PC-F02) | `e9b6354ab413886e69c88f82cd82c1e2afc72f6c` | `ee6f0dd3390f00710faaef9d92f8471013e6bf6d` | `ab679a0850e686375f822ff8f1f78f99fdd98b80` | `ee12c77cc01463dcf8be6d403bd4bbb7a3491040` |
-| U020 (PC-F02) | `c86c397ec9076151434e73c3bf4fd0f08dc937ee` | `828eb6aee56a5a0957a77b6354b612a30752bb1b` | `ba11bba35b8af4e8df4f85b2b58958d50eac740e` | `d2776288d62dadcf7912f0d4f89d1fbade9bb095` |
-| U021 (PC-F02) | `097e1f26691d217df865da7c66ebd8e5af4c85eb` | `d40300370d36237fab442b414b6e7e382ab9644e` | `86be09a763d00ce8c8c9091b8ed8c92622f8ea7f` | `ff57aa50869c8c6122d8d86d71c3d4f222c3f76c` |
+| U016 | `931f2108b0737543816b92b5a4adca4e55a1919d` | `35c0158b29ee53bd581471dbff399ff7255405f1` | `5a169eaa9c1ff6ddf8eb1f64eb79e0ab55216b5a` | `099ed06c2040b30da076e382edde2e431577ddfb` |
+| U017 | `cd99a3f4deea450040bf00d84cc64d0180a21969` | `c3c37a2ba3875dc04146f76c796a0ad2571c2fd5` | `09b7e2f539b5dfe0f40e418257aa7895fa66de33` | `ba524c28e0949c0f9bf0d2978ffba2ffce960dca` |
+| U018 | `350331463f0b2aeba7201162abe7e721cef0e498` | `b958d73877c1dee214136340fdccfbca2ecd66d1` | `fe2604615de2fe934bd3ace934344bc29355c2c6` | `e54e5bfb97e79bb090f1cb151485cbe894f06af7` |
+| U019 | `e9b6354ab413886e69c88f82cd82c1e2afc72f6c` | `ee6f0dd3390f00710faaef9d92f8471013e6bf6d` | `ab679a0850e686375f822ff8f1f78f99fdd98b80` | `ee12c77cc01463dcf8be6d403bd4bbb7a3491040` |
+| U020 | `c86c397ec9076151434e73c3bf4fd0f08dc937ee` | `828eb6aee56a5a0957a77b6354b612a30752bb1b` | `ba11bba35b8af4e8df4f85b2b58958d50eac740e` | `d2776288d62dadcf7912f0d4f89d1fbade9bb095` |
+| U021 | `097e1f26691d217df865da7c66ebd8e5af4c85eb` | `d40300370d36237fab442b414b6e7e382ab9644e` | `86be09a763d00ce8c8c9091b8ed8c92622f8ea7f` | `ff57aa50869c8c6122d8d86d71c3d4f222c3f76c` |
 | U022 | `318358e2fd8ff603c4b81c123ab33991cca1edab` | `4fe0f52cdf32f6c9f5e45de8343327c9dbd265b1` | `4af751fbb8922a85d0672425201072f378857872` | `2a0263eddfcfed3da7598c9e8827827bfa653303` |
-| U023 (PC-F02) | `9e7dad2b980554289dae5b5e2e81424904f91694` | `900982e7b3782c46a965c4664b4b73840d7d8417` | `bfe65cf9ddfe1dc54df91d9308410ebf3513cd60` | `dd11f9fff00675c1ba3ad20600634ed9e0a29f8c` |
-| U024 (PC-F02) | `3cd76191b1df156d5b7357a2ab3916eef4fcfea9` | `ac9768f8ff950fdf245a1a43c17997098d3f2fdf` | `b14681c1e6c3279aec4cc8ec22808651ae3b44e6` | `9d3337efafe5f7c8a317183712b2cb11402feb9d` |
-| U025 (PC-F02) | `d347cc042833ace0ad886288ea96d665004e6ce7` | `d931fc35d95d69e1fa83ab6453a437e3b2db8a14` | `7f6d96a1afcab7f35a1c7b9a0b2ea41801629581` | `9d3933c449952e738131cbac4082418ada612ccd` |
+| U023 | `9e7dad2b980554289dae5b5e2e81424904f91694` | `900982e7b3782c46a965c4664b4b73840d7d8417` | `bfe65cf9ddfe1dc54df91d9308410ebf3513cd60` | `dd11f9fff00675c1ba3ad20600634ed9e0a29f8c` |
+| U024 | `3cd76191b1df156d5b7357a2ab3916eef4fcfea9` | `ac9768f8ff950fdf245a1a43c17997098d3f2fdf` | `b14681c1e6c3279aec4cc8ec22808651ae3b44e6` | `9d3337efafe5f7c8a317183712b2cb11402feb9d` |
+| U025 | `d347cc042833ace0ad886288ea96d665004e6ce7` | `d931fc35d95d69e1fa83ab6453a437e3b2db8a14` | `7f6d96a1afcab7f35a1c7b9a0b2ea41801629581` | `9d3933c449952e738131cbac4082418ada612ccd` |
 | U026 | `4eadb1ca2eef7636e943b3e23b87f97f2256fec7` | `2fab30d6c9a637c10bd3241351911496690da8db` | `857c47e1128fd19235c8598ee333c25d189c076a` | `11775933e7a5d56dce7f935bab692f925b9c2069` |
-| U027 (PC-F02) | `94897999db2194b2757c8634235d000311981908` | `4e9be7e5aa2bdaee13e19cdf186ce22b5240aa30` | `ebfca8105b38fa4c4cf42c311e4476876536c03e` | `e37354f7717b6a2055426dcebaae8a2e161ead47` |
-| U028 (PC-F02) | `b1cf71dcdfb08e9a27417e4588821aaf8102940b` | `2a9ecd08b6d0736d978e0c7a97ec9762f3615b99` | `dd68df5295500ceac8c8bc5c17f48287e5d16b48` | `70f88fbfe54d1b30db20c4d33ce78031853f85e7` |
-| U029 (canônico PC-F02) | `14bfa6912f1a4d35ef136555902634791187037b` | `e7e6d31e526559b2f11443c052e5016a0b90606f` | `fa5599875c1453cd20b702b31be03330b62e4899` | `1f3dc381eb18f5672e16165f93e8c660ab2236bc` |
-| U030 (PC-F02) | `a0e71a88cd6c38bdfe3a64ce2aa202e8eb99f388` | `c89e273f99face75dc71ecc867ff381607969ed3` | `0f7f583bb4abc506565dd6a4e038f17443c73006` | `653513c4008be39685787694c01c08b899152a7a` |
-| U031 (PC-F02) | `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` | `1015a659338b76e3d1511a63178c9dbf5bb3a438` | `bcdf06e9d159df22702967f672e595704a50ff44` | `67141495127b236546ff3ba7b26838861fdea0fb` |
-| U032 (PC-F02) | `84c19fdeffaf3480797851ed062c2a884edb6030` | `d355aec8cfd38d7106dd9fb0171de8dffe0eac98` | `8abdd7f6547c75adae6169a5ed55f1dc52d5633f` | `bdfaff544dd370f442b2f43dcae0f8410770ec55` |
-| U033 (PC-F02) | `83b1bcf764b9e714cc63fb0a0e2315723008be8a` | `c34013b76f7ec59befc554837c3797710c67ec44` | `b00a5a26968a4e4e3b6f3f7f82e68eed156455b7` | `bea21746de630e8599a1dbcde8d7f81461253a15` |
-| U034 (PC-F02) | `a9557be4fc2ac89f63db020671ec72a39e983abd` | `5c86dff693fdbe018bee8b01b2d154c557b235a1` | `21f99ce18cd115a0f9211d99b191b3323ed813a5` | `4f85948cd920269ebe93b982b4e3e69c60528276` |
-| U035 (canônica, PC-F02) | `26936c938bd9c072000ae1a3dfc3853a494d0789` | `30e5f708b7d3883031bd5a3ca2b13e93c2bd2b3b` | `3b1d9e14caca7bc0680ad5f1125118d77fba4f5f` | `ecb43e275bf4c8b0180ad5b3cd1ff9688c4892ca` |
-| U036 (canônica, PC-F02) | `dbe19523ed290af3cbbec47989cc20268e7c4a39` | `e1a72af42ce75af2821cede4bb5cd2f961e7cc1e` | `e824b30a21d2e23318357832ec8f6685b1ae8acb` | `8aed207cfbf0547532259dd285380b41ccdfe6cf` |
-| U037 (canônica, PC-F02) | `06e67a3a996c75cfae063cda5eb8bf2f1ff89af4` | `69313d3ada540522d5ae3bf5616dda46d8139010` | `0817e2f3ba52ad7766e40570795c8fd558c18f39` | `623081eb16724c21adfcee043103d743af4ae327` |
-| U038 (canônica, PC-F02) | `cf3e4c68a291c577b34b3dabef9f0ad891bc9ce7` | `fb704a2ceb5cc92a3d696e9b6d99cf7dce5b318f` | `d159f866c05a4748e2e61acfd0f98b5ebacde28e` | `ab746caab3544ef160a48367843d785eb558f72c` |
-| U039 (canônica, PC-F02) | `0ad99787855f1a914488ba3dd0260cf30d283149` | `aa876b849ed5be64b761b1b79db53ad36947beaa` | `76b3457097376a082a6798fea49d96d29683e69c` | `2df9c319097ef77d3bcd28087d797fb3fbcd775e` |
-| U040 (canônica, PC-F02) | `ea020bbce82099dfe09d387e8fb90aa2985c01ce` | `bd16bb669ab25a54fe87dda62bb7a94143736f75` | `5093978ee408a440bcd95299383b1a6d7dba0499` | `8f15485be01ed7dc51cdf6caa53e22397b01b71d` |
-| U041 (canônica, PC-F02) | `0f070a1544382ed2f4a2e05f42d9ea6f9daaace0` | `f271f242463d6799605d87d1e4ed2f5712713ce0` | `1ba5cdc98ed8c3471c32fcab05c0461ea82e79c3` | `9d2e9b6e9854fbe8c17e41a246d198159059fd46` |
-| U042 (local, PC-F02) | `33ec7152984ced57e034070f246baa93529478c0` | `69c60bc48bf963d03573146c47e3c5ba4dee4d7b` | `eeab912c23ccc1e2c2cb507a19ec813ce7b603f7` | `72c7d68aa07acfdeb51a5ae374c942b75d5b806c` |
-| U043 (local, PC-F02) | `47791ef28e3464002565905b644f5adf772b0771` | `cfa6e30682a0b6273e8e33099c7ab96516299554` | `9f7a37c0bf596982b6915da37bde4b74be038996` | `e8981279d783301746e4e0152cac13601262579a` |
-| U044 (local, PC-F02) | `907c68f29372e293afda1c40b3c46c3977e093dc` | `5e1e1e727843f58e300e001d5aa5fbf8d24a7dec` | `23ef64d373954cd94ef7f7acebfd253151c3d2e2` | `028bb9c037d3339d48845e67767457abfa07eb8c` |
-| U045 (local, PC-F02) | `9816839758b38e92a330b8a0756fad60a8dcc2a0` | `d5018927a9897d0f25c8eab32ac89ddb098e3c77` | `6f364489801378de50e8b6691ffc23db49ac17e7` | `2af5cc02d7d6326c140ad32f14e98228c86bda62` |
-| U046 (local, PC-F02) | `a2d929d59ef814d6c242f06cb8305f3de963bb3d` | `c6735ed14eb2d9b2ec8674fb59cebfc57f29b131` | `044fcb717a9a791cb5c959126a63e32ab7331edd` | `c40fabf2cb0df9ae9817103ca9473f867d4917f8` |
-| U047 (local, PC-F02) | `350e50e46128f9b9e1a365e26be1dac47bdc86c4` | `f3c447fa1002ca1f8f7e851b36f83823a00ed407` | `5e4c6e4b7a0c26715b5ada40e83b9337a0c03453` | `2e392ccdd4d33af73b9620859765d942c1a1c56c` |
-| U048 (local, PC-F02) | `6d6fc47e20a9400fa3d0e081eb396fe52319502d` | `287ba1a95d6df794d21429ad03a7932c62d8e367` | `faad533864238837f15864e9a755c747dc43fc34` | `aae5c8bf1904bbba602134751d52d4452cd12c40` |
-| U049 (local, PC-F02) | `0f0d2b6e3b390177b2c7860f30b74cd7ea7f3751` | `e5e3e6482a9c9755e28fb922b7fe39d092be94e2` | `b292c2d9523325d121f660e4e0832320362650b4` | `fd7812a4379f4cd64defa47c45769e8fd1f66d85` |
+| U027 | `94897999db2194b2757c8634235d000311981908` | `4e9be7e5aa2bdaee13e19cdf186ce22b5240aa30` | `ebfca8105b38fa4c4cf42c311e4476876536c03e` | `e37354f7717b6a2055426dcebaae8a2e161ead47` |
+| U028 | `b1cf71dcdfb08e9a27417e4588821aaf8102940b` | `2a9ecd08b6d0736d978e0c7a97ec9762f3615b99` | `dd68df5295500ceac8c8bc5c17f48287e5d16b48` | `70f88fbfe54d1b30db20c4d33ce78031853f85e7` |
+| U029 | `14bfa6912f1a4d35ef136555902634791187037b` | `e7e6d31e526559b2f11443c052e5016a0b90606f` | `fa5599875c1453cd20b702b31be03330b62e4899` | `1f3dc381eb18f5672e16165f93e8c660ab2236bc` |
+| U030 | `a0e71a88cd6c38bdfe3a64ce2aa202e8eb99f388` | `c89e273f99face75dc71ecc867ff381607969ed3` | `0f7f583bb4abc506565dd6a4e038f17443c73006` | `653513c4008be39685787694c01c08b899152a7a` |
+| U031 | `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` | `1015a659338b76e3d1511a63178c9dbf5bb3a438` | `bcdf06e9d159df22702967f672e595704a50ff44` | `67141495127b236546ff3ba7b26838861fdea0fb` |
+| U032 | `84c19fdeffaf3480797851ed062c2a884edb6030` | `d355aec8cfd38d7106dd9fb0171de8dffe0eac98` | `8abdd7f6547c75adae6169a5ed55f1dc52d5633f` | `bdfaff544dd370f442b2f43dcae0f8410770ec55` |
+| U033 | `83b1bcf764b9e714cc63fb0a0e2315723008be8a` | `c34013b76f7ec59befc554837c3797710c67ec44` | `b00a5a26968a4e4e3b6f3f7f82e68eed156455b7` | `bea21746de630e8599a1dbcde8d7f81461253a15` |
+| U034 | `a9557be4fc2ac89f63db020671ec72a39e983abd` | `5c86dff693fdbe018bee8b01b2d154c557b235a1` | `21f99ce18cd115a0f9211d99b191b3323ed813a5` | `4f85948cd920269ebe93b982b4e3e69c60528276` |
+| U035 | `26936c938bd9c072000ae1a3dfc3853a494d0789` | `30e5f708b7d3883031bd5a3ca2b13e93c2bd2b3b` | `3b1d9e14caca7bc0680ad5f1125118d77fba4f5f` | `ecb43e275bf4c8b0180ad5b3cd1ff9688c4892ca` |
+| U036 | `dbe19523ed290af3cbbec47989cc20268e7c4a39` | `e1a72af42ce75af2821cede4bb5cd2f961e7cc1e` | `e824b30a21d2e23318357832ec8f6685b1ae8acb` | `8aed207cfbf0547532259dd285380b41ccdfe6cf` |
+| U037 | `06e67a3a996c75cfae063cda5eb8bf2f1ff89af4` | `69313d3ada540522d5ae3bf5616dda46d8139010` | `0817e2f3ba52ad7766e40570795c8fd558c18f39` | `623081eb16724c21adfcee043103d743af4ae327` |
+| U038 | `cf3e4c68a291c577b34b3dabef9f0ad891bc9ce7` | `fb704a2ceb5cc92a3d696e9b6d99cf7dce5b318f` | `d159f866c05a4748e2e61acfd0f98b5ebacde28e` | `ab746caab3544ef160a48367843d785eb558f72c` |
+| U039 | `0ad99787855f1a914488ba3dd0260cf30d283149` | `aa876b849ed5be64b761b1b79db53ad36947beaa` | `76b3457097376a082a6798fea49d96d29683e69c` | `2df9c319097ef77d3bcd28087d797fb3fbcd775e` |
+| U040 | `ea020bbce82099dfe09d387e8fb90aa2985c01ce` | `bd16bb669ab25a54fe87dda62bb7a94143736f75` | `5093978ee408a440bcd95299383b1a6d7dba0499` | `8f15485be01ed7dc51cdf6caa53e22397b01b71d` |
+| U041 | `0f070a1544382ed2f4a2e05f42d9ea6f9daaace0` | `f271f242463d6799605d87d1e4ed2f5712713ce0` | `1ba5cdc98ed8c3471c32fcab05c0461ea82e79c3` | `9d2e9b6e9854fbe8c17e41a246d198159059fd46` |
+| U042 | `33ec7152984ced57e034070f246baa93529478c0` | `69c60bc48bf963d03573146c47e3c5ba4dee4d7b` | `eeab912c23ccc1e2c2cb507a19ec813ce7b603f7` | `72c7d68aa07acfdeb51a5ae374c942b75d5b806c` |
+| U043 | `47791ef28e3464002565905b644f5adf772b0771` | `cfa6e30682a0b6273e8e33099c7ab96516299554` | `9f7a37c0bf596982b6915da37bde4b74be038996` | `e8981279d783301746e4e0152cac13601262579a` |
+| U044 | `907c68f29372e293afda1c40b3c46c3977e093dc` | `5e1e1e727843f58e300e001d5aa5fbf8d24a7dec` | `23ef64d373954cd94ef7f7acebfd253151c3d2e2` | `028bb9c037d3339d48845e67767457abfa07eb8c` |
+| U045 | `9816839758b38e92a330b8a0756fad60a8dcc2a0` | `d5018927a9897d0f25c8eab32ac89ddb098e3c77` | `6f364489801378de50e8b6691ffc23db49ac17e7` | `2af5cc02d7d6326c140ad32f14e98228c86bda62` |
+| U046 | `a2d929d59ef814d6c242f06cb8305f3de963bb3d` | `c6735ed14eb2d9b2ec8674fb59cebfc57f29b131` | `044fcb717a9a791cb5c959126a63e32ab7331edd` | `c40fabf2cb0df9ae9817103ca9473f867d4917f8` |
+| U047 | `350e50e46128f9b9e1a365e26be1dac47bdc86c4` | `f3c447fa1002ca1f8f7e851b36f83823a00ed407` | `5e4c6e4b7a0c26715b5ada40e83b9337a0c03453` | `2e392ccdd4d33af73b9620859765d942c1a1c56c` |
+| U048 | `6d6fc47e20a9400fa3d0e081eb396fe52319502d` | `287ba1a95d6df794d21429ad03a7932c62d8e367` | `faad533864238837f15864e9a755c747dc43fc34` | `aae5c8bf1904bbba602134751d52d4452cd12c40` |
+| U049 | `0f0d2b6e3b390177b2c7860f30b74cd7ea7f3751` | `e5e3e6482a9c9755e28fb922b7fe39d092be94e2` | `b292c2d9523325d121f660e4e0832320362650b4` | `fd7812a4379f4cd64defa47c45769e8fd1f66d85` |
 | U050 | `6cdb174122b8efe658344abc4443cf1f8e5db935` | `a62745d4ca88493bd09280cac2f766fd27a6c66c` | `87c63c44005ce6c2bf36e20fd7eb39478079df37` | `6bbee51ba5ad7c6259a91b8ea3994e35955bc435` |
 | U051 | `9c7f00cc20c5bae840978ef61f341c0565476632` | `1062bb30d9f7e6bc03bb3563ead407377727c7c9` | `91e39a88e10ed075431d7f41049cbf6aaec4c0cd` | `b2797de7c0191d98188343c5e4a571200f698a6a` |
 | U052 | `3c808464c78d24614cf4cf9c594bfec0861fbc9d` | `059ac68659178d52d4726bc7ce03a283bd346ca7` | `55f7951a9e788fd333464af9ffc9a6a4c772cf36` | `f4a4c96b2ba808f9d48b28ba3d0a435bc2672d0e` |
@@ -1988,84 +2166,101 @@ C/E nas referências acima significam Certo/Errado no gabarito original; letras 
 | U054 | `9d647cb9d3a82ce7a17fa41f4c304fad19457caf` | `7f3a747454a76199e1239a34a6a831a3e1acc960` | `990753d840a04a427b01e2aed0ff9696b75ddd6d` | `3a668d24a1f0d2802c7cfef56a97f9a790f10f74` |
 | U055 | `d71e06ff4229ec6f9b6527ad1401cc0a23cfb44b` | `419a9e0417efd1d8656ece04cfc4d9ed1d3cbab1` | `758acb453c09e4d1db1c150cb940acca6112eb0a` | `0de83d36453d9e9c160c3b406bed821fc9f1108a` |
 | U056 | `ab35871301b95f1dd63f6f748c0923db3b210eda` | `15e9202445f0d64c7d38d0b92f9fd6ae7a0d0150` | `af073c6eb6b45cd7479ea6595bd089b6a688e824` | `b337eda6f3d1ae76d9d6dc4b87688347717db2f5` |
-| U057 | `d1c846c69e1423d0b21f83369612037ef1a1ac2a` | `964deafe01841fad9bad4f0109f10568e3abed81` | `2a66d0cc5d0c872782cd7ccb1d145b3e5c75fbc4` | `8c7d27741eabe99ad5e136bc343564268112c4cd` |
+| U057 | `d1c846c69e1423d0b21f83369612037ef1a1ac2a` | `964deafe01841fad9bad4f0109f10568e3abed81` | `ddeaaa627314bb3e4f93e68d957773992623343c` | `8c7d27741eabe99ad5e136bc343564268112c4cd` |
 | U058 | `4f33221bd5e4f45c3b15d4bae49bcc76bd9fe3da` | `cbc22818c4f3c192f6a750258773c461f5eeefcc` | `d335440b9a48944e3781ccdaba6d6cc8728bc579` | `5e89a83f317d3964200c8debe40bcd24d0367d40` |
 | U059 | `078f25ce540cb21f6da5f6325581b84119edc648` | `c3aa01c55622a13e39f66be29ba6c8c39f32a747` | `64179f2a2d2f8b58710eab4720cc6b3b54151f88` | `a7c90d608887a9c21a0b53ee95de4412654ff16c` |
 | U060 | `ee7af2ac6f524c1ca6c2f4ea5d585ae0aaadbae3` | `6acd3b193d73ae3adb240ef65496580cec1bd260` | `9ed437c95729b81041c49334e1bb4563e56da008` | `551a70ca8819dd842556c6561dac957880195cd7` |
 | U061 | `7c5cc4202ec5ffedcd92e82ee614b4a124008fd9` | `a4333f3e8e28aacc2f05a63e596dadc925bdff75` | `adcae451a0ff848cf97f21de8c020177d22222d4` | `32d3ee9f0d5d459124d4b646620a0c7cf1705976` |
+| U062 | `ad1781c0d83af0180016babcc098b0f082170782` | `7ea3abc3cd547a9c6429717782077b0a46292ad8` | `ec59aa86489739724511f393789e30fd7aacb1df` | `18ea9bb89ac2cc21d3fe06b36199bc98b3530c46` |
+| U063 | `fb17d4d344bb598cc2c0009f6898dc58bb11d6d6` | `832f0439a727409f90ebd70bc2359f1b4668ee6b` | `381b0857b42b678c0efed4c9190fb0e057b3cc1f` | `7edea32718be2c39e3113b7c17664ea33adb1982` |
+| U064 | `a66133334f9d15dfb0272e4ed1e86f41e807b85b` | `284cf049d401173690f9d5fae74361d9b902841d` | `e59651c0fba6ca473f8fb647f08726149790c8b8` | `0a80829bf7537bbd3f56e1e3adc54b0407a02a9c` |
+| U065 | `ad6e40515fec812be2e5962c7f6af43ab276cfb7` | `a7ef9f68c5ec23c154042ec882e267d21cec525d` | `026cd1f060f9414746924b7aac7a3b748973bf69` | `87628e4436a6e7c27ce5f90d37433b67b5f67203` |
+| U066 | `f3d912bb99f0d940739dce00bba27b510fbf2c2f` | `f305dec7eab601a45f631d7157003cce5c944212` | `5569fd2a6608e3713e8476d60f7ef08ffbced812` | `d0b24c8848afbc3bd5525f52255dccfb9663a8df` |
+| U067 | `0175393a8a6940e0bfd26b0888126af5c317ec74` | `e8c4b4438b92e0729a58a79341111818575d06b2` | `fc6f792a81ac4c7cedfba790a49cf577cfdc12a7` | `efe73ab1ea63f834bbc051b223304d5558729e99` |
+| U068 | `c45845b80fa5865ce8f7abee3f13118614b6b520` | `2afb55e4c7d5344fd0ec9f35698b248b5d0ece35` | `da588b75ef20b9c23db9d601afef7638bf8b2761` | `213aebbfa0d9ea31df7f949cdac068c7f62b2a5b` |
+| U069 | `77c0b489ee4a8e6dc827e1e3359ab11f41fc6d25` | `35a986dd9cb9cda6fadd50199526429eacb0a4ae` | `444cd6c0cf0cf1cf6e52224bd7547a8fee332ab3` | `61737af1d23ce4c173b59995159adfbc7d4590b1` |
+| U070 | `0998e8b1f2d5920c317dbd78b8aff274df1f6fed` | `cc30f3a33d946de70697562f8456b0e521059722` | `794a534e5039ac3769841656f00eb3cef7f33a6e` | `41f200c0d006edcca7ac3ffe5d1ec9ed660ca308` |
+| U071 | `d44db7faaea8fb5b582318b05e1b0eceead49ef8` | `0abefbe694f7699dee692f31c558f281c2ca656a` | `4366c1322efcf38c0a067472b834648e982307be` | `9ef0837e94e6d7d8ed52207deb33aa753981f831` |
+| U072 | `43168b3c8bf2b6e349c81f7f537ef670de54a088` | `c56de778aa4e6b95ea7729beb919ff32bb562a3d` | `9bf76778a70f803e7cf6f40903fdd747267f3e7f` | `91970dcf971ac2972ad838835455e1a228235d56` |
+| U073 | `ccdca43b0139e78b22996031357ecbfadd5463d7` | `f14996841971825560251e27e4ed4284035ca583` | `759f2c34b138a87149229bc2e1b7305e28fbc072` | `5b7da9ef3ed7fe5bc4f191be6a859bc0655853a4` |
+| U074 | `f5e606cdda8599b912cf2386ffc2ca676a351d23` | `d2dd14cc1cbb03c6594e332f0ad1451c5cd071e9` | `1fba7959306db796b27dc0c3ac3a2ff0abc48a06` | `c1f81ebd61be5d27cbee89659decba567cd18e5a` |
 | U075 | `667b534e1ec5720636cd1488b9887fdd3c0e500b` | `3b53e51436e1aaaeef5f301a82f5192d42755361` | `416537459ddce6eb2c8e89689141798ca0a71549` | `61ac2de7af522616a833e940f1243ec8a9e8023d` |
-| U078 | `21d5d08da2f16b00f342671e43e84608eb0c53ac` | `75e3bae6cd90db0ae3caa6d0c0b1e4f7e93e44b8` | `498ff346e8023081bcecc0e1cc74e0dd756e94e2` | `72f245b56989a621735969f37da1eae320753506` |
-| U079 | `39780b372cce0a05ea1a14c351df184f02a75458` | `10658951392e269e07f4e1f5d0d5b2f2459927e2` | `c8d54f3e9d8e1ff6f94fa04030fc61083dbd4c40` | `4d862650a504ba96640b08bc4174b5f52aff791d` |
-| U080 | `b15badc440ca953ce467c3e857046bf63d357b4b` | `ccce97317bd8c4a96f636a3c63a910f15ba756b2` | `3ee58eb313d113f82746158f5bb9dfe86afd5d6c` | `847c81fcf32ae945519ce8da568cb30a796976cf` |
-| U081 | `dbd0d41689f40d6f891be7c0b2a720f86c1150c0` | `a3469e86d8b2a4257e7611ab9c78e2a7ab509bbc` | `97fe054a436e35ca2af70d636871ad4f62341280` | `34355dee82e197ed52355dc167f755053f5bcecd` |
-| U082 | `ba59ebe3e09787b687841970ba1f15beaa6d9d9e` | `53cf3525a8f44efc6d2fa62141821d366162b20d` | `dd1aa3ebd80a1a3e61005cb1adbc9af840e14750` | `e76e8143eba2c3e8afb92481f6f7df3407dfcd48` |
-| U083 | `4f18aec9ad175c7d073f86c513fd48febf1b171f` | `922fa897074726b4fe19547ee7cc489302ee569a` | `4177b217ddf2f164e3c467a8e01b6f9b856f083d` | `d173dd36ff8645efc7c2da04aac177bb8ca74644` |
-| U084 | `8f6a29295bb62ccfe0e234c08ba8d35e7012b4f7` | `44b94d147e1efb757cd160f88929899611c643ee` | `d1b58ae837dbd1f936b1b7cd3e5ee97373fafd41` | `4e0bb3bb730ee5679ab47bee7163766514168bfa` |
-| U085 | `3ddca37ced16bec08dc177bc95cbd571c35e43ec` | `4761039c14768ebc288b60224b1b12d8eac92527` | `5fb41452e69caac46783a84847431ffee075a61c` | `60bf8e681634939c5d27bd5989f82826bd21841c` |
-| U086 | `4066794885c6b2f7b54dfce896ef565a3365e490` | `4b3dcd05de4c4315756f0c3de8ddfa09733d894d` | `4cc30a6f91d5d9927d51c7a431ec4c7f6a2b8774` | `e914b3116c0d6740d6ab7f5e7d75872f9cbe3945` |
-| U087 | `dd5e9a8b9ca49271d012a25f2608fe854cee742b` | `af414018f8141c383538f05e0b80e72a3d19ac3e` | `aa325d4ff96792596a9c3a322b76bf1c82ccd033` | `471652d3267299fbf0148480846c0d18f4b7aa82` |
-| U088 | `269cdf169c358796432ce6702ace7904d28148aa` | `609566dabd4acc213a513c787171724e9b7fd0ee` | `2b7912880e653a665cc6fb942dcc5a97db9b9b84` | `19d9a3f612de5ff0eb89b4c5841eddf7e775e2b6` |
-| U089 | `155c617e2f197ea743db26749f2f2411adfe1ea1` | `b3d595881ab0b36134a0672ce7da552289d2e627` | `e7df4d41e45a877ac519cb763a606bf5ad4b1d10` | `4172c2ab715f5cf8dfc08b985e4ffe91a7b393ea` |
-| U090 | `84e893ca9d62b9f94ca3165582c16db7d93b8637` | `b96c6ca159198ac6579f5ae3ad415b9a03ad8670` | `79cd719da7d6d02058394c8552fab9023431b0d5` | `8fd9559c9242c20cda2ba5ad4906788e0921d6cb` |
-| U091 | `35f8c6c782f2f9f4bfefbd338ac54990b0757678` | `7e93798c97be0c5d3dcd6c815e2d48dec0eb1655` | `9c5f2d8504c50755ca81881c153695977049ece4` | `5cfed6eca8bbc2f7f9175870ee90c4f08f81bc66` |
-| U092 | `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8` | `2a6f90b4dbccde7993709de27808df7e924c7bcf` | `48808df01fb4f3c9c2478165e0a989f764d94f8f` | `d6c802eef975e8ccdf23c62be7f2d0a57de198fa` |
-| U093 | `514a163e1778a22bd15e846339cede3cdef7d4ec` | `183e5583c18c7094a042ad3765f7ae0288a32cff` | `2d633a49fdca6464aaae08e6a1d067d96b2c92c9` | `12a33d33ab5ee62b866c7f9d4a774f26534fe87e` |
-| U094 | `b947c309b5b5b2a3b5b7cf057ea8259d2cda040a` | `db418ce459684418de4ec3e0732d74f679cfb811` | `b59a006b45110defa32c77056b51caaad1402c7c` | `ba00fc909e9740d96cf7b3b30b3926e1ea7d22e0` |
-| U095 | `c10cded5430f4b52a5d262abcc8cd293c8a9939b` | `48a74b559f154a1f3b6502f952eb6bb4242a76cf` | `7396164763cb6a1bc4e311b1211f37b5890de675` | `90735c2fdacd49170588ea8996ff80b4b2e7ccdc` |
-| U096 | `0c327148769f1fe20616e91a8dd030bb2d9a902a` | `df7f14bc957d8fa0d6483bd6cfc53258949305db` | `ed54aca7ea3d0cb86c404a11b2d384977b15c7d8` | `d4c0a39b2cc18182990fe1e65cc8092906bb7997` |
-| U097 | `cafb301bd4879b455ea50922f344362678edc5a9` | `36cd2f24c01c91bbe0a19c1b60f34b7b77255a25` | `d2d64f346ed8c770a3057d34ebc5a27bbc1ce59c` | `6762da7d94ee931488c1c5a37645f6bdaa02a092` |
-| U098 | `563269a10a754b2561d5e996a0d5b51c53435ade` | `4a2999a123db1b89afb11759d9cd9042a7306d60` | `e5fa6b2d85d98a18d9cdd2cf6f1b5565e8f2b844` | `2a8e891d2349593cc043839ec4700c13981b5ed0` |
-| U099 | `e4b663696a645d5d684a6fd46d3e52891c361c10` | `75fb1ac5bff646b98efacc55638fe58568905039` | `7b306d88657c40d25f895e25846bd269abe27e10` | `cd480ee2abe5f96fbe8fed9b389bc6a79d62090c` |
-| U100 | `7416931cd231da2d0d0c3c32966950652235a763` | `8bee0ff17d860999cb9b5bf229c3076a22eb52af` | `c41d6aa5957e09edc3fd6a9c8b098302b8c5f5c5` | `4e3114d7cf58258a47470eff4936b88d607536f4` |
-| U102 | `33df4abd213d21c1007cf0811bf9522a43c670d0` | `56075069caecfa02c82445ccb4e49f0bc329b746` | `24cc2b0145fc6c69d1be907ddf89c3a148e1086e` | `16d4620df135693ba3202b88760b1147d5e1b865` |
-| U103 | `6f57c8c69216505ad99d21fa7d26b8cc8023fee7` | `ce0adf77b6d0a4f35e9680d3e42dadea696b4907` | `b26470f53e6352b9872cb69f034d50d7d29faf2b` | `35efece7f26d58ff482077ca5b6cdc364895d826` |
-| U104 | `bd3311e39bde2f4600869bc27d493d384716ae1a` | `ef055dcf31500e9985266712c14f67d161386e4a` | `5b97d0a6d15712cca8f048ad59b936800c24a5ac` | `83b5b2391f2694dcf00952814682ff366c1b2c6b` |
-| U105 | `b28f4dbce4b2da5d13743855be8e89df0850a070` | `9d64f30a119c76915fae88032ac4a8cf8e712803` | `28917777bfa86e65f8290f6d9c45e1291eec7c15` | `c6af4a423a763015ab00767e5828e89c497f501f` |
-| U106 | `bbfaca2c3d1b8a81cf7df5f770ec8805f67ea204` | `b75811d15560f88d4c948ddb5b72ea03ecd4fc72` | `eadc50d319a3e14ecfe55ae738ffccae1b8797c8` | `d5e54642f42c0865484f92da8ae4cc00dffb4bc1` |
-| U107 | `62b2d9d2bad2ab8f4cfce27abb941b14b7360f90` | `8369cc1819e4d3569cd13ded987f85bcef021b67` | `f49282e6231901515e6831e747e93b045f83419a` | `a96882894f85eac0a42355affe88ecb180d50648` |
-| U108 | `6ba372f271d05dc29b23c486b6e5e6500b436f0c` | `989d419aef1fcf1f6c6b17c30d0a251e3abf0354` | `877ad22879de884fc68742ae5466f7ed7ffe655b` | `b6c3bdd24a1f0151459a1cae8ab7925489fabf84` |
-| U109 | `5d1c9776571a26eb5a249c8fa72bd96fa86dc848` | `b68cc066c9003c2f42382b20cbbf5a456e923be2` | `7ea04378e6f64a7912598f987535a09d652b9a01` | `fe196f0c8ce1321df61985428d83254ad2fc4484` |
-| U110 | `964c165875d61266f3f7df2b0d43e961ee7f0bc2` | `c888aae3ef02991d110cbd3bc5bedd0ce6f8d401` | `497b6c948ff5960308625a9352b89103fab48311` | `d0214a0d4330fd0c8f59b9c6bd7d1ba3c202a75e` |
-| U111 | `fa434516ea2a7c3d3a629a55583bcb11a825c7a7` | `b6133549540651c89d2c10d2f21f2ed209584e7d` | `7d615dd04a3fa77d40e4a21399c3f320370c29c3` | `c87ceaabbf52cfd9a0325c53b893c5757a5215ba` |
-| U112 | `948995603d7d3192c000ce588c44a6ca9a4824d8` | `86418f376cd64cba3d41f5f2f9c77057e5cf57f4` | `c05b3e7eae39f8439b160d65a951245c02190d0c` | `3f7c801b4a402d7386d333e13db1684f66b8d2eb` |
-| U113 | `adf00fef2be25c59c6335db4f6dde1fc104fd3cc` | `f831d7b31ae014a4fb2e07a58b7e00c07c660206` | `12dff69a43787ad075ee1d50a1defea5e5733697` | `24ab8853ef6d008d3a482cf7908133eca5af0d86` |
-| U114 | `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1` | `ba7600b05535c578d1850538268e8b4c7451c06d` | `008f2bdcf4a8c1e86b470486eeb0fa196606c2da` | `3f0423c7bbd53c0a0ada6634830629c7c773a777` |
-| U115 | `70b313e361bb279b55c4f5a66e4ec2aa409036ec` | `408a921f8a76360b54d3022145eadecf2dbac202` | `fdf4b2e488bf4de6b197552ad667227e3f53c624` | `c64f5c530429437c6be7bf99e56c66f897c29cdd` |
-| U116 | `4b949b1e049d3d7f225e543ffef21069e17c2f5d` | `6340dcf6fecf7f5804378962d599dd90c7d4e25a` | `861ffd689d41d3a7e410391b329d155a7159eef5` | `f6fd6e108a3d81a088e2f95ada2490d69e477163` |
-| U117 | `64a63105fc0b23a0727c3830f60d5c0629f1f00d` | `5c026e2131083682888e8d9d641f660fd8017430` | `643e7288ce17c3820a6f64f9fc472c1a21d2051f` | `4651d84405d3538c2f3b01cbf7121225baf8aec0` |
-| U118 | `397289a603b56705664660fd5a508a9adf60dd12` | `040464040aefa6b21156176db044c03eefa3cc05` | `1fad5a4795da333d2b137cac848ba295d72495e7` | `589c3db9d0bb76d4f64441d48304dd9b04df1f8a` |
+| U076 | `6f72a478bc1f97c49dbdfb6424c6d9456bb2b263` | `42d7119a6f38f2e6f6028dd6aad3c174f8c0909b` | `2fe9bad124107a61a2bd75ca268947eec193f9b1` | `5abd32cc829cf9c4ce0abc711d24f5132738fc48` |
+| U077 | `e576dda4a5adf37023daf9ba54c1d374d8480b98` | `cd24cb16a312159daf48c9e8d5f5f8164cc90a71` | `b51f429b8b68d2c8b2054d44adce7dee02bd356b` | `2c5ae24c63ba0803218c730b942aab6fa5a42d4e` |
+| U078 | `21d5d08da2f16b00f342671e43e84608eb0c53ac` | `75e3bae6cd90db0ae3caa6d0c0b1e4f7e93e44b8` | `498ff346e8023081bcecc0e1cc74e0dd756e94e2` | `773b9f0740f98a630a29eca535de57e9de949c30` |
+| U079 | `39780b372cce0a05ea1a14c351df184f02a75458` | `10658951392e269e07f4e1f5d0d5b2f2459927e2` | `c8d54f3e9d8e1ff6f94fa04030fc61083dbd4c40` | `3a1c74362aef33bf8f4211f722bbaf7ac944bf48` |
+| U080 | `b15badc440ca953ce467c3e857046bf63d357b4b` | `ccce97317bd8c4a96f636a3c63a910f15ba756b2` | `3ee58eb313d113f82746158f5bb9dfe86afd5d6c` | `3bdaac6666f62b1af4a23371bff30d921e79cbf3` |
+| U081 | `dbd0d41689f40d6f891be7c0b2a720f86c1150c0` | `a3469e86d8b2a4257e7611ab9c78e2a7ab509bbc` | `97fe054a436e35ca2af70d636871ad4f62341280` | `60e373f93728c25b826819ab5b65f29fe6b2feef` |
+| U082 | `ba59ebe3e09787b687841970ba1f15beaa6d9d9e` | `53cf3525a8f44efc6d2fa62141821d366162b20d` | `dd1aa3ebd80a1a3e61005cb1adbc9af840e14750` | `0f202f112d0ac4705fa119c3a4948cf1e9c02d33` |
+| U083 | `4f18aec9ad175c7d073f86c513fd48febf1b171f` | `922fa897074726b4fe19547ee7cc489302ee569a` | `4177b217ddf2f164e3c467a8e01b6f9b856f083d` | `5d8a741416cbd9dfb779102b3c2b6fdade5f4c46` |
+| U084 | `8f6a29295bb62ccfe0e234c08ba8d35e7012b4f7` | `44b94d147e1efb757cd160f88929899611c643ee` | `d1b58ae837dbd1f936b1b7cd3e5ee97373fafd41` | `858ae066cdbad35d5239c2ba6639abeab688995c` |
+| U085 | `3ddca37ced16bec08dc177bc95cbd571c35e43ec` | `4761039c14768ebc288b60224b1b12d8eac92527` | `5fb41452e69caac46783a84847431ffee075a61c` | `3f69de69635c441602bf2706ed5077cabf452987` |
+| U086 | `4066794885c6b2f7b54dfce896ef565a3365e490` | `4b3dcd05de4c4315756f0c3de8ddfa09733d894d` | `4cc30a6f91d5d9927d51c7a431ec4c7f6a2b8774` | `75292ade6ee53f3b766046bbbce51e54de6db383` |
+| U087 | `dd5e9a8b9ca49271d012a25f2608fe854cee742b` | `af414018f8141c383538f05e0b80e72a3d19ac3e` | `aa325d4ff96792596a9c3a322b76bf1c82ccd033` | `b4059d03e0bf14ff10fb407f79bce779a6d21363` |
+| U088 | `269cdf169c358796432ce6702ace7904d28148aa` | `609566dabd4acc213a513c787171724e9b7fd0ee` | `2b7912880e653a665cc6fb942dcc5a97db9b9b84` | `1af9fa05b877a7ab9293437ec96648df908e00cd` |
+| U089 | `155c617e2f197ea743db26749f2f2411adfe1ea1` | `b3d595881ab0b36134a0672ce7da552289d2e627` | `e7df4d41e45a877ac519cb763a606bf5ad4b1d10` | `b8eb48298c8861cc6f106ddda577cbc557306ac8` |
+| U090 | `84e893ca9d62b9f94ca3165582c16db7d93b8637` | `b96c6ca159198ac6579f5ae3ad415b9a03ad8670` | `79cd719da7d6d02058394c8552fab9023431b0d5` | `e682c140181c293c9aa5cc81dec1890344f5e8f0` |
+| U091 | `35f8c6c782f2f9f4bfefbd338ac54990b0757678` | `7e93798c97be0c5d3dcd6c815e2d48dec0eb1655` | `368ca289647cc01ecb339d6fe0fd6ad0f4086983` | `0deed466ad88a3d893986869915be6a72f0342a8` |
+| U092 | `7afe860d0f6dd474774dc8c5cade2eb8cdb642c8` | `2a6f90b4dbccde7993709de27808df7e924c7bcf` | `48808df01fb4f3c9c2478165e0a989f764d94f8f` | `413e87ed7bf348a094c16533d133b5eef8906518` |
+| U093 | `6a9fe615a6974f42a8857bcc791b11548e5876be` | `183e5583c18c7094a042ad3765f7ae0288a32cff` | `e48827e9cf9de8db690d1bada25ecf05a5ad1c71` | `34c4ae50213d9d4debea80f8eca40a7437bbd1ae` |
+| U094 | `b947c309b5b5b2a3b5b7cf057ea8259d2cda040a` | `db418ce459684418de4ec3e0732d74f679cfb811` | `b59a006b45110defa32c77056b51caaad1402c7c` | `952f2efe3f272e2689a5ba202078a37d7aaeaf7f` |
+| U095 | `c10cded5430f4b52a5d262abcc8cd293c8a9939b` | `48a74b559f154a1f3b6502f952eb6bb4242a76cf` | `7396164763cb6a1bc4e311b1211f37b5890de675` | `b8eeec9daa52340664367287c6178cf62fa9a18e` |
+| U096 | `0c327148769f1fe20616e91a8dd030bb2d9a902a` | `df7f14bc957d8fa0d6483bd6cfc53258949305db` | `ed54aca7ea3d0cb86c404a11b2d384977b15c7d8` | `87a316055bbd9fa33d6d2e92568634fe5d735b5a` |
+| U097 | `cafb301bd4879b455ea50922f344362678edc5a9` | `36cd2f24c01c91bbe0a19c1b60f34b7b77255a25` | `d2d64f346ed8c770a3057d34ebc5a27bbc1ce59c` | `fcaa2e1403a576a7c8d58a9b34dc298863105b2e` |
+| U098 | `563269a10a754b2561d5e996a0d5b51c53435ade` | `4a2999a123db1b89afb11759d9cd9042a7306d60` | `e5fa6b2d85d98a18d9cdd2cf6f1b5565e8f2b844` | `93b7208c783dd96db3a04168a158d2a1e7acab81` |
+| U099 | `e4b663696a645d5d684a6fd46d3e52891c361c10` | `75fb1ac5bff646b98efacc55638fe58568905039` | `7b306d88657c40d25f895e25846bd269abe27e10` | `204a8f883cbc8c79bf3f7cab91ef7ecea8177331` |
+| U100 | `7416931cd231da2d0d0c3c32966950652235a763` | `8bee0ff17d860999cb9b5bf229c3076a22eb52af` | `c41d6aa5957e09edc3fd6a9c8b098302b8c5f5c5` | `1bcf4bc87323ea9ca6998d07e5c3d009e3bfeb2a` |
+| U101 | `837374eb88b0919369d8bcda66be71def6958c0f` | `cb2afe7cdd060531319c3ee846be248c05d2329c` | `d7316bd75f4745ff8cc6fb80c7a230a5b0a4d079` | `fbea66d7513b5d28e40f505a039afa0d494cf402` |
+| U102 | `33df4abd213d21c1007cf0811bf9522a43c670d0` | `56075069caecfa02c82445ccb4e49f0bc329b746` | `24cc2b0145fc6c69d1be907ddf89c3a148e1086e` | `06bf13f0a6b0948aea54cbf4aeed5e64d3790439` |
+| U103 | `6f57c8c69216505ad99d21fa7d26b8cc8023fee7` | `ce0adf77b6d0a4f35e9680d3e42dadea696b4907` | `b26470f53e6352b9872cb69f034d50d7d29faf2b` | `b43804cc0de63d3fb9b5b3e0ffa87368e76ab11d` |
+| U104 | `bd3311e39bde2f4600869bc27d493d384716ae1a` | `ef055dcf31500e9985266712c14f67d161386e4a` | `5b97d0a6d15712cca8f048ad59b936800c24a5ac` | `ecabb581622faff015033249b965613b6dca31cd` |
+| U105 | `b28f4dbce4b2da5d13743855be8e89df0850a070` | `9d64f30a119c76915fae88032ac4a8cf8e712803` | `28917777bfa86e65f8290f6d9c45e1291eec7c15` | `b7ee1dd8b6c1eb622dc79f9bc159635cfc3b7cce` |
+| U106 | `bbfaca2c3d1b8a81cf7df5f770ec8805f67ea204` | `b75811d15560f88d4c948ddb5b72ea03ecd4fc72` | `eadc50d319a3e14ecfe55ae738ffccae1b8797c8` | `447d5c921c73abb8636e02b3c205d40cf10a8369` |
+| U107 | `62b2d9d2bad2ab8f4cfce27abb941b14b7360f90` | `8369cc1819e4d3569cd13ded987f85bcef021b67` | `f49282e6231901515e6831e747e93b045f83419a` | `ad6af617a15d7435d2c3bf56eb7f46ffb4e1240b` |
+| U108 | `6ba372f271d05dc29b23c486b6e5e6500b436f0c` | `989d419aef1fcf1f6c6b17c30d0a251e3abf0354` | `877ad22879de884fc68742ae5466f7ed7ffe655b` | `92ae3db2a6211dacab444ae1b9dddd9d196bc55f` |
+| U109 | `5d1c9776571a26eb5a249c8fa72bd96fa86dc848` | `b68cc066c9003c2f42382b20cbbf5a456e923be2` | `7ea04378e6f64a7912598f987535a09d652b9a01` | `fbf2917bd0a61b5a0e6f9996134663c19c545897` |
+| U110 | `964c165875d61266f3f7df2b0d43e961ee7f0bc2` | `c888aae3ef02991d110cbd3bc5bedd0ce6f8d401` | `497b6c948ff5960308625a9352b89103fab48311` | `6aefa85d00e38b98ba910321bd16c38a2a67b4b8` |
+| U111 | `fa434516ea2a7c3d3a629a55583bcb11a825c7a7` | `b6133549540651c89d2c10d2f21f2ed209584e7d` | `7d615dd04a3fa77d40e4a21399c3f320370c29c3` | `d8b8fa79cfe6f3cbf9d4a7f328fce70663e3beb9` |
+| U112 | `948995603d7d3192c000ce588c44a6ca9a4824d8` | `86418f376cd64cba3d41f5f2f9c77057e5cf57f4` | `c05b3e7eae39f8439b160d65a951245c02190d0c` | `1d4c1e6e35707e82dc5ff1b34223a37a4c92ebdc` |
+| U113 | `adf00fef2be25c59c6335db4f6dde1fc104fd3cc` | `f831d7b31ae014a4fb2e07a58b7e00c07c660206` | `12dff69a43787ad075ee1d50a1defea5e5733697` | `3c250bd97c476295f2f9717ad54ff57e9bf0908f` |
+| U114 | `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1` | `ba7600b05535c578d1850538268e8b4c7451c06d` | `008f2bdcf4a8c1e86b470486eeb0fa196606c2da` | `c3c72ac7f4356e6a892b16d9e705ba5e281d5111` |
+| U115 | `70b313e361bb279b55c4f5a66e4ec2aa409036ec` | `408a921f8a76360b54d3022145eadecf2dbac202` | `fdf4b2e488bf4de6b197552ad667227e3f53c624` | `84e8693f7fd787fe7e41f17595795b132a2f2e02` |
+| U116 | `4b949b1e049d3d7f225e543ffef21069e17c2f5d` | `6340dcf6fecf7f5804378962d599dd90c7d4e25a` | `861ffd689d41d3a7e410391b329d155a7159eef5` | `622174384be2e2ac5120d5ae7b210bcb610885d7` |
+| U117 | `64a63105fc0b23a0727c3830f60d5c0629f1f00d` | `5c026e2131083682888e8d9d641f660fd8017430` | `643e7288ce17c3820a6f64f9fc472c1a21d2051f` | `179b05101c3394a2aa2458cf1f623fa8c934c104` |
+| U118 | `397289a603b56705664660fd5a508a9adf60dd12` | `040464040aefa6b21156176db044c03eefa3cc05` | `1fad5a4795da333d2b137cac848ba295d72495e7` | `23aa4ce87422daa5adf48a5162be4e9ab55446f8` |
 | U119 | `574ea42a9f759fdf8973d96218c7bc80656f60d0` | `8c552ee8e607b52efab4f60ded4ce93ef6bb843a` | `9462c47e3ca0a819880b1d77c13146ba46656e3e` | `82884da01c91e33091c600fada7924606e6ff7be` |
-| U120 | `9e18a57b6002ec1c83a64e76c036c0b5b3de269b` | `3ad993c85f534f8dfa939b820bbb3dc3c7261d4b` | `b1eb9f095341b6a68a50b37c08ae99a648e26001` | `3c6160f3a892a916cd3098e22c585144acfb7bd7` |
-| U121 | `4695e1c104a6a83315627085cd3ddae31a5435bf` | `dd33e3da676c663c258cc1707a02c53766510fbe` | `7e37028f0d0cf28ef6b9195688308281a8be7598` | `f3eff3d142c146b096be0e3009d4b255aa63e36c` |
-| U122 | `75a17df6ef8e7869147f51d989e18f8a2be09f52` | `7a74dceb2f9ac14476c0270c2c6604b755ef881b` | `9c5d9190f73334c5dd9a43257d1d51a2bd65fe12` | `f368b5e0225b311c8ad6e227e5cec2defd9bd991` |
-| U123 | `3948fac71ce38a2e7e215493ff285fa3fd2c0f4a` | `815988ac9e92910b9da1ae5c29eba9c76078c642` | `9f75fe89f129b0c8a0cbd61cd79b71c5b0a43b3d` | `4db67ee276cfed96c088b86d9f8b908ee9f8044e` |
-| U124 | `536034442f3a382498abb7079574ac48e2e9fccf` | `3c25e1b61ca2ea2d32a22bc595330594a221be2d` | `0c4bff568bc675d70ab04248b8f8db99cf925eb1` | `e47bd5b29a32f72e7c84423945f15924df6bcf46` |
-| U125 | `e4c91fbf6a78a35b631345a862c5a41233ca7b84` | `9fbbaee78447abaddfd3784286989e7e24c2cb86` | `d1a54ef20e59ec7dda0b4bb88b6fa638d9f2ce9a` | `ac00b9b20e7d2a76704a59cfe5959f644a94ddab` |
-| U126 | `764107eb9fe23ed1311620f320c0501934338f8e` | `f3f507ab20703852a0806bdc111308126d7d4189` | `f2e9aa814b2814ea9d50783311bacd02ea890f2d` | `d7f92bb637be70cf8bab2f4a54d2b3d5447201a6` |
-| U127 | `58733d32469c50062dba35638e14f0ae7b67e039` | `54d049ff475d83c6ab5966befcc8687f4ca72e57` | `6c29d3b839eec925370a5e98bced071d447edd2f` | `55611f74ab40df30b1e11bfaa2e07aab20fb2bcd` |
-| U128 | `e7120b0ee22fc2140c7cd47758d7f08370322dc5` | `04a48d7fdea3fb5c7a6a720063176dda80dc55df` | `7078d689f16045da4982bda9a630e01fa6b1dfb2` | `ab44e2d771ca35ecf2bd493a595a8117c8ea549d` |
-| U129 | `2b3d303fcbe987f22a8755d4f64f5d69e9b34ff3` | `ba514e2b9b08706f95ac3e525b7ae395e2d69d54` | `4687825cfeda016574f174e61a0f975706b9c1c9` | `62b10575c957fe2ec687df57e7acaf2f2569b04b` |
-| U130 | `cf0ac868ad0cb159beb12c4922f20b6773813aad` | `b2016ce011121331c49411c6469febd9e3aaf055` | `8c67c0196b7841bbd22d7fb7253ebaae0b628d23` | `62bcb85b8dc1cbd2182c1b723455bc2caacb636e` |
-| U131 | `bb1d18003fd4cc2b8f00c692a7b44bdbd8795f14` | `befbcacbad496086b268779281e4a2897769a244` | `7ad0effe394a137b1cba77349aa462e5c49af052` | `4022ffb022c65aeb610ba2d83a08b9e028c15b2f` |
-| U132 | `808a03ed90479c9c5cc87a79be8760ce5f524442` | `004683b37e88e48df8bc334cef04de9a35c627dd` | `2ec4cbe89474032a5b6a7208ab8ae237160e4ae8` | `cf7d2c251e5a1140fe80832bae52ade796b39018` |
-| U133 | `7a77f5e9cf314272185555db430de47f524fe5b4` | `9ca34049a8c3dc8ec5e03dd18b0449512aa02d5a` | `06bfcd39be1a4adb47c4b4c8fd7b57c427e427c3` | `6f1d4fe75135b8a5d7ba9005418b6f46a65e2a44` |
+| U120 | `9e18a57b6002ec1c83a64e76c036c0b5b3de269b` | `3ad993c85f534f8dfa939b820bbb3dc3c7261d4b` | `b1eb9f095341b6a68a50b37c08ae99a648e26001` | `951a29f22848eb5c1193e1716449422e23c1c928` |
+| U121 | `4695e1c104a6a83315627085cd3ddae31a5435bf` | `dd33e3da676c663c258cc1707a02c53766510fbe` | `7e37028f0d0cf28ef6b9195688308281a8be7598` | `8f11c0ba04e3b82941a881ef25b94c1a94c394fc` |
+| U122 | `75a17df6ef8e7869147f51d989e18f8a2be09f52` | `7a74dceb2f9ac14476c0270c2c6604b755ef881b` | `9c5d9190f73334c5dd9a43257d1d51a2bd65fe12` | `d0eeaf067f497b869c9dca819ecab9c785eb02e8` |
+| U123 | `3948fac71ce38a2e7e215493ff285fa3fd2c0f4a` | `815988ac9e92910b9da1ae5c29eba9c76078c642` | `9f75fe89f129b0c8a0cbd61cd79b71c5b0a43b3d` | `de3c207d52da84a24a3719d6d8923daab5634b8f` |
+| U124 | `536034442f3a382498abb7079574ac48e2e9fccf` | `3c25e1b61ca2ea2d32a22bc595330594a221be2d` | `0c4bff568bc675d70ab04248b8f8db99cf925eb1` | `d75f6867f51730d0b104cb81991622c61ac269c3` |
+| U125 | `e4c91fbf6a78a35b631345a862c5a41233ca7b84` | `9fbbaee78447abaddfd3784286989e7e24c2cb86` | `d1a54ef20e59ec7dda0b4bb88b6fa638d9f2ce9a` | `4ae87da58af08225b55a94f56d6bd977710dd645` |
+| U126 | `764107eb9fe23ed1311620f320c0501934338f8e` | `f3f507ab20703852a0806bdc111308126d7d4189` | `f2e9aa814b2814ea9d50783311bacd02ea890f2d` | `5c8da5005d272857253f8d381eacdbfaa6ba289e` |
+| U127 | `58733d32469c50062dba35638e14f0ae7b67e039` | `54d049ff475d83c6ab5966befcc8687f4ca72e57` | `6c29d3b839eec925370a5e98bced071d447edd2f` | `09f26f37dc1e608a668bd87b10975897f44dfeee` |
+| U128 | `e7120b0ee22fc2140c7cd47758d7f08370322dc5` | `04a48d7fdea3fb5c7a6a720063176dda80dc55df` | `7078d689f16045da4982bda9a630e01fa6b1dfb2` | `804caaca51bac40e89f1b64892a1f2115c824ff8` |
+| U129 | `87a0baf27a6fa56de691adbcae07ddb34f051fe8` | `07bee8789c0436b9049e7e9c84da824d57e128b3` | `1cd94bec52e27d7106a0f6c04fc9409323c58b71` | `3024976856a8eedbb5bc51513a2615114a961cdc` |
+| U130 | `cf0ac868ad0cb159beb12c4922f20b6773813aad` | `b2016ce011121331c49411c6469febd9e3aaf055` | `8c67c0196b7841bbd22d7fb7253ebaae0b628d23` | `65b2856b9826dc9dbac2180eb6154bf1974fbee1` |
+| U131 | `bb1d18003fd4cc2b8f00c692a7b44bdbd8795f14` | `befbcacbad496086b268779281e4a2897769a244` | `7ad0effe394a137b1cba77349aa462e5c49af052` | `2b364aad4d54fac9a76a659fc17e8ba1d43e7a39` |
+| U132 | `808a03ed90479c9c5cc87a79be8760ce5f524442` | `004683b37e88e48df8bc334cef04de9a35c627dd` | `2ec4cbe89474032a5b6a7208ab8ae237160e4ae8` | `07cce68f731beee5fd1c6b0f1d840c9e9735ca0c` |
+| U133 | `7a77f5e9cf314272185555db430de47f524fe5b4` | `9ca34049a8c3dc8ec5e03dd18b0449512aa02d5a` | `06bfcd39be1a4adb47c4b4c8fd7b57c427e427c3` | `45c6d37b527d2d2044f4124101ac1e653f42f98d` |
 | U134 | `7ce73aa206eb1f3672c7f1804b0488391cfafb0d` | `7e233923e8794819917e1cc4517311cb0ed71ff6` | `4fcf235faeaeb5e99938298224b4bf95f57b9267` | `8fe3e60d425621050c281d1240d65933d1dc4249` |
 | U135 | `06eb4d39a0b434dc6c4a044bb527066d0cbbd9a9` | `4937bb509056a0654798008c1d217d262a0c72a8` | `804e27d1b9af1e9625c646f6fc7e0f47d044e9f4` | `4279ac9eaa26d61efc25ec79a1b209860f012a08` |
 | U136 | `65d1cdd00ff84cc73a70893c0a5ce493beddb78f` | `92492171f8907e675db8d8965c74122ff9deba89` | `bfb6b8b533c7250bf827979cbe93633b406e4d74` | `92c1711a4225d7f032d0720d385a3bc98e6d0a93` |
 | U137 | `62c100222f3862182f2b5cad119f591598f7874f` | `4fd25d10ac922a3c16028659e120cbfbf0c26eac` | `8d27cce8fc6f83ddf915744c5d81bf24df772ae2` | `5906acfbff3ffca525a31f833891254fcc5e9208` |
 | U138 | `e32008929e304291993994075c0d43043a8f9253` | `d5f7567dafb92a138a650373119db95552030d7e` | `e1d21b32275288bda3c7b7cd6648b72a43e32816` | `faf62d5f4f16f54fc44c5c2f6fa29b6215c28cf3` |
 | U139 | `8579bed20b7a1095189b19ee1906ba89de4bce6a` | `ecffb8ca25256b85bb2ad0ef11b8aa571dbd482e` | `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e` | `6db4d2f061870894b6aecfb5fe31ae6b379876a2` |
-| U140 | `fee3c34f654c78e4ae297f3b45aba86c78f6707e` | `edcef283410a47219f0e2accd1c33acf7dcc8080` | `87bf3b961c725940bf8ab164a8c57d3449c00933` | `1854575e70621bde7eaec7d0124626f00fa4fedf` |
-| U141 | `d1177739c3d547bfd2280df3b74315d4812e4ea7` | `3d5da38701831594758d3162d6f69abe6e34a101` | `482324052ee4e96e52a8f35a1a18aae4fbaac80b` | `dfda2b6fdc1fd1cb388d34a11c7e90e760397188` |
+| U140 | `fee3c34f654c78e4ae297f3b45aba86c78f6707e` | `edcef283410a47219f0e2accd1c33acf7dcc8080` | `87bf3b961c725940bf8ab164a8c57d3449c00933` | `c6a1f0185d02e073e10eb65d9a4ba36c5a9f7e92` |
+| U141 | `d1177739c3d547bfd2280df3b74315d4812e4ea7` | `3d5da38701831594758d3162d6f69abe6e34a101` | `482324052ee4e96e52a8f35a1a18aae4fbaac80b` | `c1ec709828c2bed9aec94664d1f53cc722ecbaf8` |
 | U142 | `0d8f5960f4e2cc3b1d73d922c6eaa5f92fdba366` | `8d1e6cb5d767fed153fc3c087b8bf9f4e2fd4b71` | `56be3927280a0f76da8c6ca5334dc7ddce6507d9` | `45693b52bc4d7cf7f603c3b9b50d154266e43e72` |
-| U143 | `6b338488ea8ee3d5ce917b0ee80419141004fcae` | `0150bb55ef818c1581b51f42bfe1b5d4681aa4f4` | `97029862f812d77655c8ee0d0f000e0d0814c132` | `e9f1bb2153ba87d1e339abd43b07099f24c17a08` |
-| U145 | `d4d5be050aedd5c4f191584b4dcc47ec474efe6a` | `cae98cb47de610ea52a06276ab119aba45ade343` | `903319bcec7502460d89230b5607fac756a0638f` | `15ec18c8f5a5e9d58bd3a07cc1c0d4f9692ad17a` |
-| U146 | `cc742daededdd5e0982c4dbfd02c86984fbed4a7` | `780870c402502b42fafab28a7357abac0b690fbc` | `8e7a1065f7b30803ddecd60c55e50cb3777c97a3` | `0ae65edad98fe20eead711e11213a9e9767914aa` |
-| U147 | `4cfcfc711700858206a64a3ecf608270e1346611` | `656f829d4e8f406fdab76487c4affcedf67841d4` | `6db2b39f331614903a84be2cf6bf7e8b1e7e94ef` | `a939e70fc033964e78c887f048ea3ea993b9addf` |
-| U148 | `f2b31c160639e015a60f6d0c9be4659dc4ee4f21` | `541e9ddcff14fc3b1ccb6212770f5d34df9bcd19` | `2dc942229508bcf785aff895707ceb0c50f3bfdd` | `9e82493b38b15586e16eb13e7fa735f3b49647e5` |
-| U149 | `466ad8c691dc2663ea4c469adafd88919897f3dc` | `618a18ca7287d1bca06ba291d2058b73a97d29f9` | `ffda98c815e608702dabc8769ec07935999874a0` | `b0d340ed1cfd1e67445380a0fa3fecb347fe93a0` |
-| U150 | `133bb568efd3982448c4d22eb6b52aa29116229b` | `d59468a73b384c14926ef9fbe9adfa626e2d5310` | `dfe8262863e7b248d0b637c137e1b761225f890c` | `aa6b18b1f86a454e0648f820ff23642101c512ee` |
-| U151 | `42af4b557c14099b212c95276b32a402785317bf` | `0480825f2461919f4811606f5cdca4a792250df4` | `d5fee9f18cb1d1e53f56deb34f78ba9999352d5e` | `f847a79d6aa92d523eeb8cb4580c172796fa18d2` |
+| U143 | `6b338488ea8ee3d5ce917b0ee80419141004fcae` | `0150bb55ef818c1581b51f42bfe1b5d4681aa4f4` | `97029862f812d77655c8ee0d0f000e0d0814c132` | `a2361090c49f8d31ba3c2be58953fecf0c79d3e9` |
+| U144 | `2f98183d0de073ccddd9c416aa9a3801696fae0d` | `5cbfbbcf9a754c042b0ad561834decb2188eb8f4` | `30eddf01fa8feefe45058a410bf6a6b0d792115b` | `247281db4c7ab5dc4f527acfddcea993ca13d9ff` |
+| U145 | `d4d5be050aedd5c4f191584b4dcc47ec474efe6a` | `cae98cb47de610ea52a06276ab119aba45ade343` | `903319bcec7502460d89230b5607fac756a0638f` | `a28ceaf871c0c5f59c7863994637db20f0826ed4` |
+| U146 | `cc742daededdd5e0982c4dbfd02c86984fbed4a7` | `780870c402502b42fafab28a7357abac0b690fbc` | `8e7a1065f7b30803ddecd60c55e50cb3777c97a3` | `15cac9532c752b54730cb010cc9441a75757fe08` |
+| U147 | `4cfcfc711700858206a64a3ecf608270e1346611` | `656f829d4e8f406fdab76487c4affcedf67841d4` | `6db2b39f331614903a84be2cf6bf7e8b1e7e94ef` | `f2a440a34a8ad18bead79292f5262ac4cca0c3ac` |
+| U148 | `f2b31c160639e015a60f6d0c9be4659dc4ee4f21` | `541e9ddcff14fc3b1ccb6212770f5d34df9bcd19` | `2dc942229508bcf785aff895707ceb0c50f3bfdd` | `3d1e80dfc1b80b8d8164d644ef7c9d1b8728175b` |
+| U149 | `466ad8c691dc2663ea4c469adafd88919897f3dc` | `618a18ca7287d1bca06ba291d2058b73a97d29f9` | `ffda98c815e608702dabc8769ec07935999874a0` | `c1b858b5da091afcc23917481d67300c367cf3b5` |
+| U150 | `133bb568efd3982448c4d22eb6b52aa29116229b` | `d59468a73b384c14926ef9fbe9adfa626e2d5310` | `dfe8262863e7b248d0b637c137e1b761225f890c` | `7037aa57698002b8406198bd554e90f9a873d41f` |
+| U151 | `42af4b557c14099b212c95276b32a402785317bf` | `0480825f2461919f4811606f5cdca4a792250df4` | `d5fee9f18cb1d1e53f56deb34f78ba9999352d5e` | `ae09395b447ea9f209ea6121dc40d4e99a5409bf` |
 | U152 | `a040f7896c5f953fd1b016e5b8c09a2ca8343aa2` | `8b064630c927aac8ad9c1078771a88e67103d9ed` | `1a3eba1514876c74a9f8838ae53259ffd6fe60f8` | `a0a146a92ab9308a876e7c75749cb1e8bf8c8993` |
 | U153 | `86e896e991cb5e7e53eabd22ae51ad82cc1ce90e` | `2ca49ff5f2a8e3fd8c16f894367e04b57e599da2` | `95ba6d1b27084dea9fa7ac223e56683a5a5fd221` | `d1ed520ad7318b3c844c24c0a0e0d70f83419134` |
 | U154 | `995521dc432975b1ab97895c6aea20b0453c66fe` | `981ccc8dba235345a8be40b50352cbbf310fa9b9` | `e58cdd90ec8085737f4115d96a87fd866258b99d` | `06b8bd67789ab7b826d3213456ca02c3db2e5289` |
