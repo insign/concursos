@@ -1,366 +1,79 @@
-# Cheat sheet — Patrimônio imobiliário, SPIU, gestão e conservação
+# Cheat sheet — Patrimônio imobiliário, <abbr title="sistema de patrimônio imobiliário da União referido historicamente no edital">SPIU</abbr>, gestão e conservação
 
-## 1. Regra-mãe
+## 1. Comece pela pergunta certa
 
-Um imóvel público deve ser controlado em cinco camadas:
+| Camada | Verificação | Evidência |
+| --- | --- | --- |
+| Física | existe, qual área, condição e componentes? | vistoria, planta, laudo |
+| Jurídica | quem é titular, qual destinação e quais ônus? | título, matrícula, instrumento de uso |
+| Cadastral | quem ocupa, sob qual fundamento e responsabilidade? | cadastro e histórico de utilizações |
+| Contábil | há controle e potencial de serviços? Qual valor e consumo? | escrituração, mensuração e conciliação |
+| Funcional | atende ao serviço com segurança, acessibilidade e custo adequado? | inspeção, manutenção e decisão de carteira |
 
-| Camada | Pergunta |
+**Matrícula** individualiza o imóvel no Registro de Imóveis; **cadastro** gere dados e ocupação; **registro contábil** exprime ativo e valor. Nenhum substitui os demais. Inventário compara realidade física, títulos, cadastro, contratos e contabilidade; relatório do sistema sozinho não é inventário (Lei nº 4.320/1964, arts. 95–96).
+
+## 2. Natureza e destinação não são ocupação
+
+| Bem público | Gatilho | Consequência |
+| --- | --- | --- |
+| Uso comum do povo | fruição coletiva | inalienável enquanto qualificado assim |
+| Uso especial | serviço ou estabelecimento público | inalienável enquanto mantida essa qualificação |
+| Dominical | sem destinação a uso comum ou especial | alienável apenas nos termos da lei; continua público e não é usucapível |
+
+**Afetação** vincula o bem ao uso comum/especial; **desafetação** retira essa destinação conforme competência e forma jurídica cabíveis. Prédio vazio, abandonado ou transferido informalmente **não** se torna dominical só pelo fato. Investigue ato, título e uso antes de cogitar alienação.
+
+## 3. Modelo federal pedido como “<abbr title="sistema de patrimônio imobiliário da União referido historicamente no edital">SPIU</abbr>”
+
+O edital menciona <abbr title="sistema de patrimônio imobiliário da União referido historicamente no edital">SPIU</abbr>: estude o referencial **da União**, sem presumir que o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> ou o Maranhão adotem seus sistemas. A <abbr title="Secretaria do Patrimônio da União">SPU</abbr> é o órgão, não a plataforma.
+
+| Nome | Recupere |
 | --- | --- |
-| física | o que existe, onde e em que condição? |
-| jurídica | de quem é e quais direitos ou ônus existem? |
-| cadastral | quem usa, para quê e sob qual responsabilidade? |
-| contábil | deve ser reconhecido, por qual valor e com qual depreciação? |
-| funcional | entrega serviço público com segurança, acessibilidade e economicidade? |
+| <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> imóvel | identificador cadastral federal; não equivale à matrícula nem prova domínio |
+| <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> utilização | uso/parcela ligado ao cadastro do imóvel; admite usos de unidades distintas; não existe isolado |
+| <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial da União">SPIUnet</abbr> | cadastro federal legado de imóveis de uso especial e suas utilizações; podia incluir imóveis locados de terceiros |
+| <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr> | plataforma federal que recebe os fluxos migrados, com implantação progressiva |
+| <abbr title="Sistema Integrado de Administração Patrimonial">SIAPA</abbr> / <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> | respectivamente, base histórica dominial/receitas e requerimentos antigos |
+| <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> | escrituração federal; integração exige verificar regime da utilização e conciliar dados |
 
-**Nenhuma camada substitui as demais.**
+**Linha do tempo no corte do edital:** em **9 mar. 2026**, <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial da União">SPIUnet</abbr> e <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> ficaram apenas para consulta; desde **2 abr. 2026**, os fluxos antes realizados no <abbr title="Sistema de Gerenciamento dos Imóveis de Uso Especial da União">SPIUnet</abbr> ocorrem no <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr>, e requerimentos do <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> seguem pelo portal próprio. Se o enunciado disser “permitia”, julgue a funcionalidade histórica; se disser “hoje”, aplique a migração. Cadastro de imóvel alugado de terceiro **não transmite propriedade** nem implica contabilizá-lo como imóvel próprio; direito de uso e obrigações contratuais pedem análise separada.
 
-## 2. Classificação jurídica
+## 4. Reconcilie eventos, não apenas saldos
 
-- uso comum do povo: fruição coletiva;
-- uso especial: serviço ou estabelecimento público;
-- dominical: sem afetação a uso comum ou especial;
-- bem dominical continua público;
-- bem público não é usucapível;
-- imóvel vazio não se torna automaticamente dominical;
-- desocupação fática não equivale a desafetação.
-
-## 3. Afetação
-
-- afetação: vincula a uso comum ou especial;
-- desafetação: retira a destinação conforme competência e forma jurídica;
-- abandono, vacância ou mudança informal de uso não substituem ato jurídico;
-- inalienabilidade acompanha a qualificação enquanto ela subsistir.
-
-## 4. Governança e responsabilidades
-
-- alta administração: política, risco, prioridade e recursos;
-- patrimônio: cadastro, destinação, ocupação e histórico;
-- área técnica: caracterização, inspeção e intervenção;
-- jurídico: títulos, ônus e instrumentos;
-- contabilidade: reconhecimento, mensuração e conciliação;
-- usuário: zelar e comunicar alterações;
-- fiscal: medir, testar, aceitar e documentar;
-- controle: avaliar governança, dados, conformidade e resultado.
-
-## 5. Registro, cadastro e contabilidade
-
-| Instrumento | Não confundir com |
+| Ocorrência | Diligência que muda a decisão |
 | --- | --- |
-| matrícula | cadastro gerencial |
-| cadastro patrimonial | prova autônoma de domínio |
-| registro contábil | matrícula ou posse |
-| inventário | impressão de relatório |
-| <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> | matrícula cartorial |
-| <abbr title="Modelagem da Informação da Construção">BIM</abbr>/<abbr title="Geographic Information System">GIS</abbr> | registro jurídico ou contábil |
+| Área medida ≠ matrícula ≠ cadastro | levantamento técnico e cadeia documental; regularizar no registro competente e atualizar as bases afetadas, sem escolher área arbitrária |
+| Obra, demolição ou alteração de componente | verificar projeto, averbação, cadastro, condição, valor e eventual baixa contábil |
+| Várias matrículas ou unidades ocupantes | preservar títulos e identificar cada utilização, parcela e responsabilidade; avaliar unificação quando cabível |
+| Ocupação sem instrumento, imóvel ocioso ou título duvidoso | apurar fundamento de uso e risco; regularizar ou decidir destinação |
 
-## 6. Qualidade dos dados
+Na migração cadastral, mantenha mapa de identificadores, unicidade, validade, exatidão, completude, tempestividade e trilha de alterações. Totais iguais podem esconder duplicações e omissões; faça verificação documental de exceções, aceite e conciliação posterior. <abbr title="Modelagem da Informação da Construção">BIM</abbr> e <abbr title="sistema de informação geográfica">GIS</abbr> ajudam a localizar e manter, mas não substituem título, vistoria nem contabilidade.
 
-- completude;
-- exatidão;
-- consistência;
-- tempestividade;
-- unicidade;
-- validade;
-- rastreabilidade.
+## 5. Valor patrimonial: finalidade e efeito da intervenção
 
-Migração segura exige:
+**Corte temporal:** edital publicado em **7 jul. 2026**. As <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 37 (imobilizado), 35 (arrendamentos), 38 (mensuração) e 06 (<abbr title="revisão 1">R1</abbr>, propriedade para investimento) já tinham sido publicadas, mas sua aplicação aos exercícios começa, em regra, **1º jan. 2027**; a <abbr title="Norma Brasileira de Contabilidade Aplicada ao Setor Público">NBC TSP</abbr> 37 revoga a 07 **a partir dessa data**, ressalvados prazos específicos nacionais. Para 2026, use o regime então aplicável e o <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr> 11; não antecipe o novo texto. A Portaria Conjunta <abbr title="Secretaria do Tesouro Nacional">STN</abbr>/<abbr title="Secretaria do Patrimônio da União">SPU</abbr> nº 10/2023 disciplina imóveis **federais** no seu âmbito.
 
-1. mapa entre identificadores;
-2. controle das alterações;
-3. totais de controle;
-4. relatório de exceções;
-5. amostragem documental;
-6. aceite das unidades;
-7. conciliação posterior.
-
-## 7. RIP e utilizações
-
-- RIP: identificador cadastral da <abbr title="Secretaria do Patrimônio da União">SPU</abbr>;
-- RIP não prova domínio;
-- cadastro/RIP imóvel identifica o imóvel;
-- RIP utilização identifica uso, ocupação ou parcela;
-- utilização depende do cadastro do imóvel;
-- imóvel compartilhado pode ter utilizações por unidade gestora;
-- locação de terceiro pode exigir cadastro sem virar propriedade pública;
-- alterar a utilização não corrige automaticamente o imóvel-base.
-
-## 8. Sistemas federais
-
-| Nome | Núcleo |
+| Decisão | Gatilho de prova |
 | --- | --- |
-| SPU | órgão gestor federal |
-| <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr> | expressão histórica de editais |
-| <abbr title="sistema federal legado de imóveis de uso especial">SPIUnet</abbr> | sistema legado de imóveis de uso especial |
-| <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr> | plataforma integrada em implantação |
-| <abbr title="Sistema Integrado de Administração Patrimonial">SIAPA</abbr> | sistema histórico de imóveis dominiais e receitas |
-| <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> | sistema financeiro e contábil federal |
-| <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> | requerimentos, hoje substituídos por fluxo no Portal da SPU |
+| Reconhecer | controle por evento passado, potencial de serviços/benefícios e mensuração confiável; título e cadastro isolados não bastam |
+| Classificar | uso administrativo/serviço, aluguel/valorização ou uso de imóvel de terceiro exigem exame conforme finalidade e norma temporalmente aplicável |
+| Mensurar | custo inicial usual; aquisição gratuita/simbólica pede base apropriada; valor venal, mercado, justo e contábil líquido não são sinônimos |
+| Depreciar | separe terreno e edificação; terreno normalmente não deprecia, edificação começa ao ficar disponível para uso; componentes podem ter vidas distintas |
+| Gasto posterior | restaurar desempenho original tende a despesa; ampliar potencial/vida útil pode ser ativo, atendidos critérios; substituição relevante exige examinar **baixa da parte antiga** |
+| Perda e baixa | desocupação ou dano podem indicar redução do potencial de serviços, não baixa automática; concilie decisão técnica e registros |
 
-Datas:
+“Reforma” ou despesa de capital no orçamento **não decide** sozinho o tratamento patrimonial. Reavaliação requer política consistente por classe e base técnica confiável.
 
-- 9 mar. 2026: SPIUnet e SISREI apenas para consulta;
-- 2 abr. 2026: fluxos do SPIUnet passaram ao SPUnet.
+## 6. Carteira e conservação: risco antes de custo
 
-## 9. Prova histórica × situação atual
+Antes de comprar ou alugar: compare necessidade, imóveis próprios aptos, compartilhamento, localização, acessibilidade, continuidade e custo total (adaptação, operação, manutenção, energia, segurança e desmobilização). Vacância pede proteção, inspeção, atualização e decisão; imóvel próprio vazio **não prova** que o aluguel seja ineficiente sem comparar aptidão e custos.
 
-- “o SPIUnet permitia...” pode cobrar funcionalidade histórica;
-- “o SPIUnet recebe novos fluxos hoje” está errado;
-- número de módulos do SPUnet depende da data da fonte;
-- SPUnet ainda incorporava bases e funcionalidades em 2026;
-- sistema federal não é automaticamente sistema do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
-
-## 10. Inventário e conciliação
-
-Inventário deve verificar:
-
-- existência;
-- localização e limites;
-- ocupação e responsável;
-- condição;
-- documentos e restrições;
-- área e componentes;
-- valor e conta;
-- ociosidade, invasão ou uso incompatível.
-
-Conciliação compara:
-
-- físico;
-- cartório;
-- cadastro;
-- contrato;
-- contabilidade;
-- unidade responsável.
-
-Toda divergência precisa de responsável, prazo, evidência e atualização das bases afetadas.
-
-## 11. Normas contábeis em 2026
-
-- <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 37: ativo imobilizado;
-- NBC TSP 38: bases de mensuração;
-- NBC TSP 35: arrendamentos;
-- NBC TSP 06 (R1): propriedade para investimento;
-- <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>: referência geral do setor público;
-- Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr>/SPU nº 10/2023: regra federal específica.
-
-**NBC TSP 07 não é mais a principal referência atual do ativo imobilizado.**
-
-## 12. Classificação pela finalidade
-
-- serviço público: examinar ativo imobilizado;
-- aluguel ou valorização: examinar propriedade para investimento;
-- arrendamento: examinar direito de uso;
-- terceiro cadastrado: cadastro não gera ativo próprio;
-- venda: examinar classificação aplicável;
-- benfeitoria em terceiro: analisar controle, potencial, prazo e substância.
-
-## 13. Mensuração
-
-Não confundir:
-
-- custo;
-- valor justo;
-- valor de mercado;
-- valor venal;
-- valor contábil bruto;
-- valor contábil líquido.
-
-Terreno e edificação:
-
-- são separáveis;
-- terreno, em regra, não deprecia;
-- edificação e componentes depreciáveis têm vida útil;
-- depreciação começa quando disponível para uso.
-
-## 14. Manutenção × capitalização
-
-- preservar desempenho original: tende a despesa;
-- aumentar potencial, capacidade ou vida útil: pode capitalizar;
-- substituir componente: examinar baixa do antigo e reconhecimento do novo;
-- classificação orçamentária não decide sozinha o efeito patrimonial;
-- “reforma” é rótulo físico, não resposta contábil.
-
-## 15. Diligência dominial e técnica
-
-| Problema | Ação inicial |
+| Estratégia | Momento/propósito |
 | --- | --- |
-| área divergente | levantamento e cadeia documental |
-| edificação não averbada | documentação e averbação cabível |
-| demolição não atualizada | vistoria e atualização |
-| matrículas múltiplas | avaliar integração/unificação |
-| usos distintos | individualizar utilização e responsabilidade |
-| ônus ausente | cadastrar e avaliar efeito |
-| ocupação sem título | regularizar instrumento |
-| planta desatualizada | atualizar projeto e inventário |
+| Preventiva | ação programada antes de falhar, por tempo/uso/recomendação |
+| Preditiva | medição e tendência da condição para decidir a intervenção |
+| Detectiva | revelar falha oculta em proteção ou reserva |
+| Corretiva planejada / emergencial | falha conhecida programável / proteção imediata de vida, patrimônio ou continuidade |
 
-## 16. Carteira imobiliária
+**Criticidade = probabilidade e consequência** para segurança, serviço, ambiente, acessibilidade e conformidade: falha barata de proteção pode superar reparo estético caro. Plano útil liga inventário técnico, inspeção, tarefas, periodicidade, responsáveis, orçamento e histórico. A ordem de serviço liga defeito, prioridade, execução, materiais, teste, aceite e evidências; laudo sem providência não reduz risco. Quando exigidos, mantenha <abbr title="Plano de Manutenção, Operação e Controle">PMOC</abbr>, licenças, certificados e responsabilidade técnica em dia **e** verifique condição real. Terceirização exige fiscalizar, testar, aceitar, controlar peças e registrar garantias.
 
-Antes de adquirir ou locar, verificar:
-
-- necessidade;
-- imóveis próprios disponíveis;
-- compartilhamento;
-- localização;
-- acessibilidade;
-- custo total;
-- riscos;
-- capacidade de manter.
-
-Preço ou aluguel é apenas parcela do custo de ocupação.
-
-## 17. Vacância e ocupação
-
-Sinais de alerta:
-
-- imóvel vazio sem proteção;
-- locação com bem próprio apto ocioso;
-- ocupação sem instrumento;
-- uso incompatível com afetação;
-- cessão sem atualização;
-- custo alto sem serviço proporcional.
-
-Vacância não prova desperdício: comparar adequação, localização, prazo, custo de adaptação e continuidade.
-
-## 18. Estratégias de manutenção
-
-- preventiva: antes da falha;
-- corretiva planejada: defeito conhecido com programação;
-- corretiva emergencial: resposta imediata;
-- preditiva: medição e tendência;
-- detectiva: descobre falhas ocultas.
-
-Preventiva não elimina corretiva.
-
-## 19. Plano de manutenção
-
-Deve conter:
-
-- inventário técnico;
-- manuais, projetos e garantias;
-- inspeção e diagnóstico;
-- criticidade;
-- tarefas e periodicidades;
-- exigências legais;
-- ordens de serviço;
-- aceite;
-- orçamento de ciclo de vida;
-- histórico e indicadores.
-
-## 20. Criticidade
-
-Priorizar por probabilidade e consequência sobre:
-
-- vida e segurança;
-- continuidade;
-- integridade;
-- ambiente;
-- acessibilidade;
-- conformidade;
-- custo e prazo de recuperação.
-
-Defeito barato pode ser mais crítico que dano estético caro.
-
-## 21. Conformidade predial
-
-Controlar, quando aplicável:
-
-- incêndio;
-- elétrica;
-- elevadores;
-- climatização/<abbr title="Plano de Manutenção, Operação e Controle">PMOC</abbr>;
-- acessibilidade;
-- segurança do trabalho;
-- licenças e certificados;
-- responsabilidade técnica;
-- garantias;
-- documentação como construída.
-
-Documento vencido, inspeção ausente e equipamento inoperante são ocorrências distintas.
-
-## 22. Ordem de serviço
-
-Deve rastrear:
-
-- solicitação;
-- local/componente;
-- diagnóstico;
-- prioridade;
-- responsável;
-- materiais e horas;
-- custo;
-- execução;
-- teste;
-- aceite;
-- evidências.
-
-Fechar sem testar mascara reincidência.
-
-## 23. Contratação e fiscalização
-
-- terceirização não transfere a responsabilidade institucional;
-- disponibilidade de equipe não comprova resultado;
-- medir por evidência;
-- controlar peças substituídas;
-- autorizar extraordinários;
-- testar e aceitar;
-- atualizar histórico, projetos e garantias;
-- analisar reincidência.
-
-## 24. Ferramentas digitais
-
-BIM, GIS, sensores e gêmeos digitais apoiam:
-
-- inventário;
-- mapas;
-- condição;
-- manutenção;
-- ocupação;
-- consumo.
-
-Não substituem matrícula, título, cadastro oficial, contabilidade, vistoria ou ato decisório.
-
-## 25. Indicadores
-
-- completude conciliada;
-- inspeção no prazo;
-- preventiva no prazo;
-- emergencial/corretiva;
-- backlog por criticidade;
-- tempo de solução;
-- reincidência;
-- custo por área;
-- ocupação;
-- consumo;
-- ociosidade;
-- locação × carteira própria.
-
-Indicador sinaliza; não prova causa.
-
-## 26. Achado de auditoria
-
-- critério;
-- condição;
-- causa;
-- efeito/risco;
-- evidência;
-- encaminhamento.
-
-A recomendação deve atacar a causa e ser monitorável.
-
-## 27. Pegadinhas finais
-
-1. RIP não é matrícula.
-2. cadastro não prova domínio.
-3. contabilidade não substitui registro.
-4. SPIUnet pode ser cobrado historicamente.
-5. SPIUnet não recebe novos fluxos em julho de 2026.
-6. SPUnet não estava totalmente consolidado.
-7. imóvel locado pode ser cadastrado sem virar ativo próprio.
-8. imóvel vazio não se desafeta sozinho.
-9. terreno e edificação são separáveis.
-10. manutenção não é sinônimo de capitalização.
-11. obra não é automaticamente melhoria.
-12. laudo sem ação não controla risco.
-13. BIM não é título.
-14. alto custo por área não prova ineficiência.
-15. sistema novo não corrige dado ruim sozinho.
-16. componente substituído pode exigir baixa.
+Indicadores de vacância, inspeção atrasada, manutenção emergencial, reincidência, custo por área e pendências críticas **sinalizam**, sem provar causa. No achado de auditoria: **critério** é o dever, **condição** o fato encontrado, **causa** sua explicação, **efeito** o risco/dano; providência deve atacar a causa com responsável e verificação.

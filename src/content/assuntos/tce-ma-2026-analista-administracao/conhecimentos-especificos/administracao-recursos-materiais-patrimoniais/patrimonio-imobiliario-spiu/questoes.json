@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q1034",
@@ -2824,13 +2824,13 @@
     },
     {
       "id": "q1128",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A principal norma brasileira atual sobre ativo imobilizado no setor público, publicada em março de 2026, é a",
+      "prompt": "A norma publicada em março de 2026 que substituirá a NBC TSP 07 para os exercícios iniciados a partir de 1º de janeiro de 2027, ressalvados prazos nacionais específicos, é a",
       "options": [
         {
           "id": "a",
-          "text": "NBC TSP 07, sem qualquer substituição"
+          "text": "NBC TSP 07, sem norma sucessora"
         },
         {
           "id": "b",
@@ -2850,7 +2850,7 @@
         }
       ],
       "correctOptionId": "e",
-      "explanation": "A NBC TSP 37 passou a ser a referência atual para ativo imobilizado. Fonte: questão autoral atualizada com base no quadro oficial do CFC."
+      "explanation": "A NBC TSP 37 foi publicada em 17/03/2026, mas a própria cláusula de vigência prevê aplicação e revogação da NBC TSP 07 a partir de 01/01/2027, ressalvados prazos nacionais específicos. No corte do edital de julho de 2026, não se deve antecipar esse regime. Fonte: CFC, NBC TSP 37, cláusula de vigência."
     },
     {
       "id": "q1129",
@@ -2884,9 +2884,9 @@
     },
     {
       "id": "q1130",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Um imóvel mantido predominantemente para aluguel ou valorização deve levar a entidade a examinar",
+      "prompt": "Considerada sua finalidade, um imóvel mantido predominantemente para aluguel ou valorização deve levar a entidade a examinar",
       "options": [
         {
           "id": "a",
@@ -2910,13 +2910,13 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A finalidade de uso influencia a classificação contábil. Fonte: questão inspirada em cobranças de contabilidade pública sobre propriedades para investimento."
+      "explanation": "A finalidade de uso influencia a classificação como propriedade para investimento; a revisão NBC TSP 06 (R1), publicada em 2026, tem aplicação futura aos exercícios iniciados em 2027, ressalvados prazos nacionais específicos. No regime anterior, verificar a norma então aplicável. Fonte: CFC, NBC TSP 06 (R1)."
     },
     {
       "id": "q1131",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Um prédio utilizado mediante arrendamento",
+      "prompt": "Em um exercício iniciado a partir de 2027, salvo prazo nacional específico, um prédio utilizado mediante arrendamento",
       "options": [
         {
           "id": "a",
@@ -2940,7 +2940,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "Direito de uso e propriedade são dimensões diferentes. Fonte: questão autoral atualizada sobre arrendamentos."
+      "explanation": "A NBC TSP 35 prevê exame do direito de uso, separado da titularidade jurídica; sua aplicação às entidades públicas começa em 01/01/2027, ressalvado prazo nacional específico. Para o regime de 2026, verificar a norma então aplicável. Fonte: CFC, NBC TSP 35, cláusula de vigência."
     },
     {
       "id": "q1132",
