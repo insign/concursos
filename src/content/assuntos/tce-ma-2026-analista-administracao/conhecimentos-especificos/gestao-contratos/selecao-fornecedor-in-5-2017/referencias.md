@@ -1,4 +1,4 @@
-> As datas de consulta posteriores ao edital servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
+> As datas de consulta posteriores ao edital servem apenas à conferência editorial. O corte normativo da prova é a publicação do Edital nº 1 em **7 de julho de 2026**.
 
 - BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021 — Lei de Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Texto consolidado aplicável no corte.
 - BRASIL. Presidência da República. [Lei Complementar nº 123, de 14 de dezembro de 2006 — Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm). Regularização fiscal e trabalhista e preferência em situações de empate.

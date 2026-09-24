@@ -1,161 +1,42 @@
-# Seleção do fornecedor na IN nº 5/2017
+# Interface com a seleção do fornecedor na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
-## Corte e regra de leitura
+> **Corte:** edital publicado em 7/7/2026. A <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 rege diretamente a administração federal direta, autarquias e fundações; no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> é conteúdo cobrado, sem incidência interna automática. Sob a Lei nº 14.133/2021, a <abbr title="Instrução Normativa">IN</abbr> nº 98/2022 a aplica **no que couber**. Remissões à Lei nº 8.666/1993 e a decretos antigos não substituem a disciplina atual.
 
-- **Corte de prova:** legislação vigente em **6/7/2026**.
-- <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 sob a Lei nº 14.133/2021: aplicar **no que couber**.
-- Norma federal não vira automaticamente regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
-- Remissão antiga ≠ fundamento atual.
+## 1. Identifique a fronteira da fase
 
-## Arts. 33 a 38
+O <abbr title="artigo">art.</abbr> 33 da <abbr title="Instrução Normativa">IN</abbr> nº 5 inicia a seleção com o envio do <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> ao setor de licitações e a encerra com a **publicação do resultado do julgamento após adjudicação e homologação**. Adjudicação atribui o objeto; homologação aprova o procedimento. Nenhuma delas equivale à assinatura do contrato.
 
-| Artigo | Núcleo | Atualização necessária |
-| --- | --- | --- |
-| 33 | <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> no setor de licitações → publicação do resultado | rito/encerramento pelos arts. 17 e 71 |
-| 34 | instrumentos adaptados ao objeto | substituir leis e decretos revogados |
-| 35 | modelos <abbr title="Advocacia-Geral da União">AGU</abbr> + Anexo VII + Cadernos | desvio de modelo aplicável exige justificativa |
-| 36 | checklist + controle jurídico | art. 53 + ato jurídico competente |
-| 37 | adjudicação e homologação | art. 71 |
-| 38 | formalização e publicação | arts. 91, 94 e 95 |
-
-## Fluxo útil
-
-Planejamento → edital/anexos → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação → convocação/contrato → <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
-
-- Inversão da habilitação: **ato motivado + benefícios explicitados + previsão no edital**.
-- Adjudicação/homologação ≠ assinatura.
-
-## Forma eletrônica — IN nº 73/2022
-
-- Para menor preço/maior desconto no âmbito da IN: **forma eletrônica obrigatória**.
-- Presencial: somente excepcionalmente, com:
-  1. justificativa prévia da autoridade;
-  2. **inviabilidade técnica ou desvantagem** da forma eletrônica comprovada;
-  3. ata + gravação em áudio e vídeo.
-
-> Não memorize “eletrônica preferencial”. A regra normativa é **obrigatória**.
-
-## Edital e anexos
-
-- Traduz TR, riscos e minuta em regras vinculantes.
-- Edital + TR + minuta + anexos: divulgação simultânea e acesso sem cadastro.
-- Modelo aplicável: usar ou justificar alteração/não utilização.
-- Checklist: integra os autos; não substitui análise jurídica.
-
-### Vistoria
-
-- Conhecimento local: só se imprescindível.
-- Licitante escolhe **vistoria ou declaração formal do responsável técnico**.
-- Quem visita recebe data/horário distinto.
-
-## Anexos VII que mais importam
-
-| Anexo | Função |
+| Ponte | Decisão que importa |
 | --- | --- |
-| VII-A | edital, proposta, julgamento e habilitação |
-| VII-B | controles, vedações e credenciamento |
-| VII-C | modelo de proposta |
-| VII-D | planilha de custos |
-| VII-E | declaração de contratos firmados |
-| VII-F | minuta contratual |
-| VII-G | formalização e publicidade |
+| Edital (<abbr title="artigos">arts.</abbr> 34–35) | Converta objeto, execução, medição, riscos e critérios do <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> em regras públicas iguais para todos. Use modelos da <abbr title="Advocacia-Geral da União">AGU</abbr>, Anexo VII e Cadernos de Logística no que couber; justifique alterações ou não uso. Divulgue edital e anexos na mesma data no sítio oficial, sem cadastro, além do inteiro teor no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. |
+| Antes da análise jurídica (<abbr title="artigo">art.</abbr> 36) | Lista de conformidade adaptada e juntada aos autos; ela não substitui o controle prévio de legalidade do <abbr title="artigo">art.</abbr> 53 da Lei nº 14.133/2021. A dispensa de análise jurídica depende das hipóteses definidas pela autoridade jurídica máxima, não da simples menção a parecer referencial antigo. |
+| Rito da Lei nº 14.133/2021 | Edital → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação. Habilitação antes de propostas/julgamento exige motivação, benefícios explicitados e previsão expressa no edital. Depois vêm convocação, contrato e divulgação. |
 
-## Proposta e planilha
+Pregão seleciona serviços comuns, definidos por padrões objetivos usuais. No âmbito federal da <abbr title="Instrução Normativa">IN</abbr> nº 73/2022, licitações de menor preço/maior desconto são **eletrônicas obrigatoriamente**; sessão presencial é excepcional, com prévia justificativa, demonstração de inviabilidade técnica ou desvantagem e registro em ata e gravação em áudio e vídeo. Técnica e preço pode atribuir até **70%** à proposta técnica. Critérios e modalidades em detalhe estão no assunto H126.
 
-- Cobrir integralmente custos obrigatórios.
-- Dedicação exclusiva/predominância: enquadramento sindical informado é responsabilidade do licitante.
+Vistoria só se a avaliação local for imprescindível: assegure visita em horários distintos e **alternativa de declaração formal do responsável técnico**. Se execução e apoio à fiscalização forem objetos separados, impeça o mesmo prestador de exercer funções incompatíveis no mesmo objeto, sem excluir concorrentes prematuramente.
 
-### Erro sanável
+## 2. Separe preço, capacidade e saneamento
 
-- não aumenta preço;
-- preço já cobre custos;
-- não muda substancialmente a proposta;
-- preserva isonomia.
-
-### Insanável
-
-- custo obrigatório descoberto;
-- correção exige elevar preço;
-- diligência criaria proposta nova.
-
-## Exequibilidade
-
-| Percentual | Leitura correta |
+| Momento | Teste de decisão |
 | --- | --- |
-| 30% da média | regra histórica do Anexo VII-A |
-| abaixo de 50% do estimado | **indício** federal atual para bens/serviços em geral; diligenciar |
-| 75% / 85% do orçamento | obras e serviços de engenharia |
+| Proposta | Preço global e planilha de custos devem sustentar salários, encargos, benefícios, insumos e demais obrigações; a declaração legal cobre integralmente custos trabalhistas vigentes na entrega, inclusive normas coletivas e termos de ajustamento de conduta aplicáveis. A contratada responde pelo enquadramento sindical informado. Modelo do Anexo VII-C para proposta; VII-D para planilha, adaptável ao serviço. A Administração não impõe margem privada uniforme. |
+| Saneamento da planilha | Erro formal ou aritmético pode ser corrigido **sem elevar o preço** nem alterar a substância se a oferta já cobre os custos. Falta material de custo obrigatório que só seria suprida com aumento não é erro sanável. |
+| Exequibilidade | Preço muito baixo pede diligência sobre custos, produtividade e condições comerciais. Na <abbr title="Instrução Normativa">IN</abbr> nº 73/2022, **abaixo de 50% do orçamento** em bens e serviços em geral é **indício**, não exclusão automática; conclusão requer demonstrar custo acima da oferta e ausência de custo de oportunidade justificável. O antigo **30% da média** do Anexo VII-A é parâmetro histórico. Os **75%** de inexequibilidade e **85%** de garantia adicional dizem respeito a obras e serviços de engenharia, sem aplicação automática ao serviço administrativo. Item isolado de planilha não condena por si só a proposta global. |
+| Habilitação | Examine capacidade jurídica, técnica, fiscal/social/trabalhista e econômico-financeira do **licitante**, não o preço da oferta. Em regra, documentos só do vencedor e regularidade fiscal após julgamento, ressalvada inversão válida. Diligência pode esclarecer fato preexistente, atualizar documento vencido após a entrega de propostas e sanar falha sem alterar a substância; não criar capacidade adquirida depois. |
 
-Indício → diligência → decisão motivada.
+Na qualificação técnica, atestados restringem-se a parcelas de maior relevância ou valor significativo (valor individual **≥4%** do estimado); quantitativos mínimos de até **50%** da parcela; sem limitação de locais específicos ou janela temporal arbitrária. Para serviço contínuo, experiência similar por períodos sucessivos ou não pode ter prazo mínimo exigido de **até três anos**: teto, não piso automático. A antiga exigência de 100% dos postos do Anexo VII-A cede aos limites legais atuais.
 
-## Habilitação: contrastes com o Anexo VII
+Na qualificação econômica, índices objetivos exigem previsão e justificativa; são vedados faturamento anterior mínimo e índices de lucratividade/rentabilidade. Demonstrações contábeis dos **dois últimos exercícios** (só último, se empresa tiver menos de dois anos); capital ou patrimônio líquido mínimo de até **10%** do estimado nas hipóteses legais. Relação de compromissos assumidos exclui parcelas já executadas; modelo histórico do Anexo VII-E deve se ajustar ao <abbr title="artigo">art.</abbr> 69 da Lei nº 14.133/2021.
 
-- Parcela relevante/significativa: valor individual ≥ **4%** do estimado.
-- Quantidade mínima: até **50%** da parcela relevante.
-- Sem limitação geográfica específica ou janela temporal arbitrária do atestado.
-- Serviço contínuo: experiência similar por períodos sucessivos ou não; prazo mínimo exigido de até **3 anos**.
-- 3 anos = teto, não piso automático.
-- 100% dos postos = incompatível com teto atual de 50%.
-- Capital/patrimônio líquido mínimo: até **10%** do estimado.
-- Faturamento mínimo e índices de rentabilidade/lucratividade: vedados.
-- Diligência pode esclarecer fato preexistente; não criar condição posterior.
+<abbr title="Microempresa ou empresa de pequeno porte">ME/EPP</abbr> apresenta documentos fiscais e trabalhistas mesmo com restrição; vencedora tem **cinco dias úteis**, prorrogáveis por igual período a critério da Administração, para regularizar. Empate ficto alcança até **5% no pregão** e **10% nos demais** procedimentos, nos termos da Lei Complementar nº 123/2006. Benefício não dispensa requisito técnico essencial nem torna preço inexequível aceitável.
 
-## <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr>
+## 3. Credenciamento e saída do certame
 
-- Documentação fiscal/trabalhista é apresentada mesmo com restrição.
-- Vencedora: **5 dias úteis**, prorrogáveis por igual período, para regularização.
-- Empate ficto: **5% no pregão**, **10% nos demais**.
-- Benefício não cura inexequibilidade nem dispensa capacidade técnica essencial.
+**Credenciamento é procedimento auxiliar, não modalidade.** Admite interessados aptos sob condições públicas para contratação conforme demanda: paralela e não excludente (todos podem ser contratados), seleção pelo beneficiário, mercado fluido (preço/condições variáveis) e, no texto legal alterado pela Lei nº 15.266/2025, comércio eletrônico de bens e serviços comuns padronizados pelo <abbr title="Sistema de Compras Expressas">Sicx</abbr>. Chamamento aberto a novos interessados; se não houver contratação simultânea de todos no paralelo, distribuição objetiva. Cadastro não assegura demanda. O Decreto nº 11.878/2024 regulava as três primeiras hipóteses federais no corte; o decreto do <abbr title="Sistema de Compras Expressas">Sicx</abbr> de agosto de 2026 é posterior e não integra o regime cobrado.
 
-## Credenciamento
+Após recursos, a autoridade superior pode **sanear** irregularidade corrigível, **revogar** por fato superveniente comprovado e conveniência, **anular** por ilegalidade insanável, ou **adjudicar e homologar** (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 71); revogação e anulação asseguram manifestação prévia dos interessados. Antes de formalizar/prorrogar, verifique regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões legais. O contrato é escrito, com substituição por instrumento hábil só nas hipóteses do <abbr title="artigo">art.</abbr> 95, preservadas cláusulas necessárias no que couber.
 
-É procedimento auxiliar, não modalidade.
+**Eficácia:** divulgação do contrato no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> em **20 dias úteis** da assinatura se licitação, **10 dias úteis** se contratação direta. Urgência produz efeitos desde a assinatura, com publicação no prazo, sob pena de nulidade. A antiga publicidade resumida do Anexo VII-G não substitui o <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
-| Hipótese atual | Chave |
-| --- | --- |
-| paralela e não excludente | contratações simultâneas viáveis/vantajosas |
-| escolha de terceiro | beneficiário escolhe |
-| mercado fluido | preço/condições oscilam |
-| comércio eletrônico | <abbr title="Sistema de Compras Expressas">Sicx</abbr> |
-
-- Cadastro permanente.
-- Sem garantia de demanda.
-- Se nem todos forem contratados de imediato: distribuição objetiva.
-
-## Encerramento e contrato
-
-Art. 71:
-
-- saneamento → irregularidade corrigível;
-- revogação → fato superveniente + conveniência/oportunidade;
-- anulação → ilegalidade insanável;
-- adjudicação/homologação → certame regular.
-
-Antes de formalizar/prorrogar:
-
-- regularidade fiscal;
-- <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>;
-- certidões pertinentes;
-- manutenção da habilitação;
-- garantia/condições precedentes, se exigidas.
-
-## PNCP
-
-- Licitação: **20 dias úteis** da assinatura.
-- Contratação direta: **10 dias úteis**.
-- Urgência: eficácia desde assinatura + publicação no prazo.
-- Imprensa oficial não substitui PNCP.
-
-## Pegadinhas finais
-
-- “No que couber” ≠ vigência integral.
-- Forma eletrônica obrigatória ≠ mera preferência.
-- Credenciamento ≠ modalidade.
-- Cadastro ≠ direito ao contrato.
-- Erro de planilha ≠ inexequibilidade automática.
-- 30% da média = parâmetro histórico.
-- Abaixo de 50% = indício, não exclusão automática.
-- 3 anos = teto da experiência mínima exigível.
-- 100% dos postos = incompatível com teto atual de 50%.
-- Vistoria obrigatória sem declaração alternativa = restritiva.
-- Adjudicação/homologação ≠ contrato assinado.
+**Anexo VII em uma linha:** A, edital/julgamento/habilitação; B, regras específicas/credenciamento; C, proposta; D, planilha; E, compromissos; F, minuta contratual; G, formalização/publicidade histórica. Confirme sempre a compatibilidade com a Lei nº 14.133/2021.
