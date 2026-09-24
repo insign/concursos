@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u115-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na organização político-administrativa brasileira, são entes federativos autônomos",
       "options": [
         {
           "id": "A",
-          "text": "União, estados, Distrito Federal, municípios e territórios."
+          "text": "União, estados, Distrito Federal e municípios."
         },
         {
           "id": "B",
-          "text": "União, estados, Distrito Federal e municípios."
+          "text": "União, estados, Distrito Federal, municípios e territórios."
         },
         {
           "id": "C",
@@ -29,12 +29,12 @@
           "text": "somente União e estados."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O artigo 18 enumera União, estados, Distrito Federal e municípios como entes autônomos. Territórios integram a União e não são entes federativos."
     },
     {
       "id": "u115-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A soberania pertence",
       "options": [
@@ -44,11 +44,11 @@
         },
         {
           "id": "B",
-          "text": "a cada estado-membro."
+          "text": "à República Federativa do Brasil."
         },
         {
           "id": "C",
-          "text": "à República Federativa do Brasil."
+          "text": "a cada estado-membro."
         },
         {
           "id": "D",
@@ -59,12 +59,12 @@
           "text": "ao Distrito Federal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A República Federativa do Brasil é o Estado soberano. Os entes federativos internos possuem autonomia, não soberania própria."
     },
     {
       "id": "u115-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Constituição, Brasília",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "é a Capital Federal."
+          "text": "é um território federal."
         },
         {
           "id": "C",
-          "text": "é um território federal."
+          "text": "é a Capital Federal."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "integra diretamente a União como ente federativo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 18, § 1º, estabelece que Brasília é a Capital Federal."
     },
     {
       "id": "u115-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A incorporação, subdivisão ou desmembramento de estados depende, entre outros requisitos constitucionais, de",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "plebiscito da população diretamente interessada e lei complementar do Congresso Nacional."
+          "text": "lei complementar estadual apenas."
         },
         {
           "id": "C",
@@ -112,19 +112,19 @@
         },
         {
           "id": "D",
-          "text": "lei complementar estadual apenas."
+          "text": "plebiscito da população diretamente interessada e lei complementar do Congresso Nacional."
         },
         {
           "id": "E",
           "text": "consulta apenas ao Senado Federal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 18, § 3º, exige aprovação da população diretamente interessada, mediante plebiscito, e do Congresso Nacional, por lei complementar."
     },
     {
       "id": "u115-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A criação, incorporação, fusão ou desmembramento de municípios exige",
       "options": [
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "lei estadual, período definido por lei complementar federal, estudos de viabilidade e plebiscito das populações envolvidas."
+          "text": "lei complementar municipal."
         },
         {
           "id": "D",
@@ -146,25 +146,25 @@
         },
         {
           "id": "E",
-          "text": "lei complementar municipal."
+          "text": "lei estadual, período definido por lei complementar federal, estudos de viabilidade e plebiscito das populações envolvidas."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Essa é a estrutura do artigo 18, § 4º, da Constituição."
     },
     {
       "id": "u115-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei Complementar 230/2026",
       "options": [
         {
           "id": "A",
-          "text": "autorizou a criação de novos municípios por simples lei estadual."
+          "text": "regulou especificamente o desmembramento de parte de um município para incorporação a outro limítrofe."
         },
         {
           "id": "B",
-          "text": "regulou especificamente o desmembramento de parte de um município para incorporação a outro limítrofe."
+          "text": "autorizou a criação de novos municípios por simples lei estadual."
         },
         {
           "id": "C",
@@ -179,12 +179,12 @@
           "text": "revogou o artigo 18, § 4º, da Constituição."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Lei Complementar 230/2026 disciplina essa modalidade específica e veda que o procedimento gere novo município."
     },
     {
       "id": "u115-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No procedimento da Lei Complementar 230/2026, o plebiscito",
       "options": [
@@ -194,11 +194,11 @@
         },
         {
           "id": "B",
-          "text": "é realizado apenas no município que perderá território."
+          "text": "é único e aferido conjuntamente nos dois municípios envolvidos."
         },
         {
           "id": "C",
-          "text": "é único e aferido conjuntamente nos dois municípios envolvidos."
+          "text": "é realizado apenas no município que perderá território."
         },
         {
           "id": "D",
@@ -209,12 +209,12 @@
           "text": "é realizado pelo Congresso Nacional."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A vontade popular é aferida conjuntamente nos dois municípios, em plebiscito único."
     },
     {
       "id": "u115-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É vedado à União, aos estados, ao Distrito Federal e aos municípios",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "recusar fé aos documentos públicos."
+          "text": "colaborar com cultos em interesse público, na forma da lei."
         },
         {
           "id": "C",
-          "text": "colaborar com cultos em interesse público, na forma da lei."
+          "text": "recusar fé aos documentos públicos."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "celebrar convênios administrativos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 19, II, veda recusar fé aos documentos públicos."
     },
     {
       "id": "u115-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A competência material comum do artigo 23 pertence",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "à União, aos estados, ao Distrito Federal e aos municípios."
+          "text": "somente aos municípios."
         },
         {
           "id": "C",
@@ -262,19 +262,19 @@
         },
         {
           "id": "D",
-          "text": "somente aos municípios."
+          "text": "à União, aos estados, ao Distrito Federal e aos municípios."
         },
         {
           "id": "E",
           "text": "somente à União."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Todos os quatro entes federativos participam da competência material comum do artigo 23."
     },
     {
       "id": "u115-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A competência legislativa concorrente do artigo 24 envolve",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "União, estados e Distrito Federal."
+          "text": "todos os entes e territórios federais."
         },
         {
           "id": "C",
@@ -296,25 +296,25 @@
         },
         {
           "id": "E",
-          "text": "todos os entes e territórios federais."
+          "text": "União, estados e Distrito Federal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Municípios não integram o rol do artigo 24; sua competência suplementar decorre do artigo 30, II."
     },
     {
       "id": "u115-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Lei complementar pode autorizar os estados a legislar sobre matérias do artigo 22",
       "options": [
         {
           "id": "A",
-          "text": "integralmente, sem limitação."
+          "text": "somente sobre questões específicas."
         },
         {
           "id": "B",
-          "text": "somente sobre questões específicas."
+          "text": "integralmente, sem limitação."
         },
         {
           "id": "C",
@@ -329,7 +329,7 @@
           "text": "somente após autorização judicial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O parágrafo único do artigo 22 admite autorização por lei complementar sobre questões específicas."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "u115-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A competência residual ou remanescente pertence",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "aos estados."
+          "text": "aos municípios."
         },
         {
           "id": "C",
-          "text": "aos municípios."
+          "text": "aos estados."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "aos territórios federais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 25, § 1º, reserva aos estados as competências que não lhes sejam vedadas pela Constituição."
     },
     {
       "id": "u115-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O município rege-se por",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "Lei Orgânica votada em dois turnos, com interstício mínimo de dez dias e aprovação por dois terços da Câmara."
+          "text": "lei complementar federal."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "lei complementar federal."
+          "text": "Lei Orgânica votada em dois turnos, com interstício mínimo de dez dias e aprovação por dois terços da Câmara."
         },
         {
           "id": "E",
           "text": "Constituição estadual exclusivamente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 29 define a Lei Orgânica municipal e seus requisitos formais."
     },
     {
       "id": "u115-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Emenda Constitucional 139/2026 alterou o artigo 31 para",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "incluir vedação à extinção, criação ou instalação dos órgãos de contas referidos no § 1º."
+          "text": "reduzir para maioria simples a rejeição do parecer prévio do prefeito."
         },
         {
           "id": "C",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "reduzir para maioria simples a rejeição do parecer prévio do prefeito."
+          "text": "incluir vedação à extinção, criação ou instalação dos órgãos de contas referidos no § 1º."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Essa vedação foi acrescentada ao § 1º do artigo 31 pela Emenda Constitucional 139/2026."
     },
     {
       "id": "u115-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O parecer prévio sobre as contas anuais do prefeito somente deixa de prevalecer por decisão de",
       "options": [
         {
           "id": "A",
-          "text": "maioria simples da Câmara."
+          "text": "dois terços dos membros da Câmara Municipal."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "dois terços dos membros da Câmara Municipal."
+          "text": "maioria simples da Câmara."
         },
         {
           "id": "D",
@@ -479,7 +479,7 @@
           "text": "unanimidade da Câmara."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O artigo 31, § 2º, exige decisão de dois terços dos membros da Câmara Municipal."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "u115-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Território Federal",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "integra a União e pode ser dividido em municípios."
+          "text": "não pode possuir municípios."
         },
         {
           "id": "C",
-          "text": "não pode possuir municípios."
+          "text": "integra a União e pode ser dividido em municípios."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "possui soberania própria."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Territórios integram a União e o artigo 33 permite sua divisão em municípios."
     },
     {
       "id": "u115-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos Territórios Federais com mais de cem mil habitantes, a Constituição prevê",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "estrutura judiciária de primeira e segunda instância, membros do Ministério Público e defensores públicos federais, além de disciplina legal da Câmara Territorial."
+          "text": "autonomia federativa plena."
         },
         {
           "id": "C",
@@ -562,14 +562,14 @@
         },
         {
           "id": "D",
-          "text": "autonomia federativa plena."
+          "text": "estrutura judiciária de primeira e segunda instância, membros do Ministério Público e defensores públicos federais, além de disciplina legal da Câmara Territorial."
         },
         {
           "id": "E",
           "text": "vedação à criação de municípios."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Essa é a estrutura reforçada prevista no artigo 33, § 3º."
     },
     {
