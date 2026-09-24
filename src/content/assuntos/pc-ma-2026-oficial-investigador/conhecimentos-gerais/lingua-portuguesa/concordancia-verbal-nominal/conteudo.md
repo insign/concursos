@@ -85,7 +85,17 @@ Com o relativo *que* exercendo a função de sujeito, o verbo acompanha o antece
 
 > Fui eu **quem revisou** o relatório.
 
-Com *quem*, a terceira pessoa do singular é a solução mais segura e recorrente em prova. Antes de aplicar uma regra mecânica, identifique qual pronome exerce a função de sujeito.
+Com *quem*, a terceira pessoa do singular é a construção regular:
+
+> Fui eu **quem revisou** o relatório.
+
+Quando há antecedente pessoal expresso, também se admite concordância com esse antecedente: *Fui eu quem revisei*. Já sem antecedente expresso, como em *Quem revisou os autos?*, o verbo fica na terceira pessoa do singular. Portanto, antes de aplicar uma regra mecânica, identifique se *quem* retoma um antecedente ou funciona sozinho.
+
+Outra armadilha frequente aparece em **um dos que**:
+
+> Ela foi uma das servidoras **que participaram** da conferência.
+
+Na redação formal, o plural é a solução preferencial porque a relativa caracteriza o conjunto *das servidoras*. Há registro de singular mais raro em gramáticas descritivas; em prova normativa, o plural é a escolha mais segura quando a questão não fornece contexto especial.
 
 ### 4.2 Quando uma oração inteira é sujeito
 
@@ -123,6 +133,8 @@ Não confunda essa variação delimitada com licença geral para concordar com q
 > Dois terços do material **foram** analisados.
 
 O numeral e a forma da expressão quantitativa são decisivos. Determinantes e o termo especificador também podem influenciar construções admitidas; por isso a leitura deve considerar o sintagma completo, não apenas o símbolo `%`.
+
+No padrão editorial do Senado, quando a porcentagem vem antes do verbo e há termo especificador, prefere-se a concordância com esse termo, embora a concordância com o numeral também possa ser admitida: *1% das próteses pode/podem sofrer ruptura*. Se o percentual estiver determinado por artigo, pronome ou adjetivo — *esses 30%* —, a concordância acompanha o número. Trate essa orientação como convenção editorial documentada, não como fórmula universal para qualquer fonte.
 
 ### 5.3 `mais de um`
 
