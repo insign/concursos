@@ -1,246 +1,67 @@
 # Conceitos de material e patrimônio e ciclo básico
 
-## Regra-mãe
+## Primeiro, descubra qual pergunta a banca fez
 
-- A gestão começa na **necessidade**, não na compra.
-- Recurso certo + quantidade + qualidade + prazo + local + custo total.
-- Menor preço nominal não garante economicidade.
-- Físico, administrativo, orçamentário e contábil devem convergir.
-- A palavra **material** depende da fonte usada na questão.
+Uma compra pode ser **material permanente na despesa**, **bem móvel no direito civil**, **item sob carga na gestão patrimonial** e <abbr title="ativo corpóreo mantido para uso por mais de um período">ativo imobilizado</abbr> na contabilidade. Essas respostas coexistem. Antes de classificar, identifique a fonte e a finalidade.
 
-## Fonte × significado
-
-| Fonte/plano | Uso predominante |
-| --- | --- |
-| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 | material como gênero amplo, inclusive permanentes |
-| literatura administrativa | pode separar recursos materiais e patrimoniais |
-| Lei nº 4.320/1964 | consumo × permanente para classificar a despesa |
-| controle patrimonial | incorporação, tombamento, carga, movimentação, inventário e baixa |
-| contabilidade | estoque, imobilizado, intangível, direito de uso etc. |
-| Código Civil | móvel, imóvel, fungível, consumível, divisível e universalidades |
-
-> Uma classificação não elimina as outras.
-
-## Cinco perguntas independentes
-
-| Pergunta | Plano |
-| --- | --- |
-| é móvel, fungível ou consumível? | civil |
-| a despesa é consumo ou permanente? | orçamentário |
-| exige tombamento, relação-carga ou lote? | administrativo |
-| está em estoque ou distribuído? | logístico |
-| é estoque, imobilizado, intangível ou outro ativo? | contábil |
-
-## Conceitos
-
-| Termo | Núcleo |
-| --- | --- |
-| material | categoria administrativa de itens usados na atividade |
-| bem | objeto material ou imaterial com utilidade e valor |
-| propriedade | direito real sobre o bem |
-| ativo | recurso controlado com benefício ou potencial de serviços |
-| passivo | obrigação presente decorrente de evento passado |
-| patrimônio líquido | ativos menos passivos |
-| custódia | guarda sem necessariamente haver propriedade |
-
-$$
-PL = Ativos - Passivos
-$$
-
-- Patrimônio não é apenas bens.
-- Patrimônio não é patrimônio líquido.
-- Ativo não exige forma física.
-- Propriedade, controle e custódia são distintos.
-
-## Classificações civis
-
-| Classe | Núcleo |
-| --- | --- |
-| móvel | removível sem alteração da substância/destinação |
-| imóvel | solo e incorporações |
-| fungível | substituível por mesma espécie, qualidade e quantidade |
-| consumível | uso destrói a substância; inclui destinado à alienação |
-| divisível | fracionável sem prejuízo relevante |
-| singular | considerado individualmente |
-| universalidade de fato | bens singulares com destinação unitária |
-| universalidade de direito | relações jurídicas com valor econômico |
-
-## Consumo, permanente e controle
-
-- Lei nº 4.320/1964, art. 15, § 2º: permanente = duração superior a dois anos **para classificar a despesa**.
-- Plaqueta não cria natureza permanente.
-- Tombamento é técnica de identificação.
-- Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002: revogada.
-- Bem consumível civil não equivale automaticamente a material de consumo.
-- Consumo no almoxarifado pode ser estoque contábil.
-
-| Critério operacional | Pergunta |
-| --- | --- |
-| durabilidade | perde condições normais em até dois anos? |
-| fragilidade | quebra/deforma com perda de identidade ou uso? |
-| perecibilidade | deteriora-se física ou quimicamente? |
-| incorporabilidade | integra outro bem sem retirada viável? |
-| transformabilidade | foi adquirido para transformação? |
-
-## Controle proporcional
-
-| Situação | Controle |
-| --- | --- |
-| bem relevante e individualizável | número patrimonial e carga individual |
-| conjunto homogêneo | controle por conjunto, quando autorizado |
-| durável de pequeno valor/baixo risco | relação-carga ou controle simplificado |
-| consumo | estoque, lote, quantidade ou valor |
-| bem de terceiro | registro de custódia |
-| intangível | registro próprio, sem plaqueta física |
-
-- Controle simplificado não é ausência de controle.
-- Avalie valor, criticidade, mobilidade, atratividade, quantidade e custo de controle.
-
-## Estoques, imobilizado e intangível
-
-- <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (R1): estoques.
-- NBC TSP 08 (R1): ativo intangível.
-- NBC TSP 37: ativo imobilizado.
-- NBC TSP 38: mensuração.
-- Publicação da norma não deve ser confundida com a data de aplicação prevista nela.
-- Software pode ser intangível.
-- Serviço em nuvem não gera automaticamente ativo.
-- Material permanente orçamentário não é sinônimo automático de imobilizado individual.
-
-## Patrimônio empresarial e público
-
-- Empresas: ativos + passivos + PL.
-- Setor público: ativos podem gerar **potencial de serviços**, sem lucro.
-- Nem todo bem de empresa estatal é automaticamente bem público do Código Civil.
-- Analise natureza da entidade, titularidade, afetação e regime.
-
-### Lei nº 4.320/1964
-
-| Artigo | Núcleo |
-| --- | --- |
-| 83 | evidencia quem administra ou guarda bens |
-| 85 | conhecimento da composição patrimonial |
-| 89 | fatos orçamentários, financeiros e patrimoniais |
-| 94 | registro analítico + responsáveis |
-| 95 | registros sintéticos |
-| 96 | inventário analítico + escrituração sintética |
-
-## Bens públicos
-
-| Classe | Exemplo | Regra |
+| Plano | Pergunta decisiva | Cuidado |
 | --- | --- | --- |
-| uso comum | rua/praça | inalienável enquanto qualificado |
-| uso especial | escola/repartição | inalienável enquanto qualificado |
-| dominical | terreno sem afetação específica | alienável com requisitos legais |
+| Administrativo | Que item deve ser suprido, identificado, guardado ou distribuído? | Na <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988, material é gênero amplo, inclusive equipamentos, peças e veículos; na literatura, “material” às vezes designa apenas consumo. |
+| Civil | Qual a natureza do bem e quem é titular? | Móvel, fungível e consumível não equivalem a consumo orçamentário. |
+| Orçamentário | A despesa é de consumo ou permanente? | Lei nº 4.320/1964, <abbr title="artigo">art.</abbr> 15, § 2º: para classificar a despesa, permanente tem duração **superior a dois anos**. |
+| Patrimonial | Qual registro, localização e responsável cabem? | <abbr title="identificação individual por número patrimonial">Tombamento</abbr> individual, controle por conjunto, <abbr title="controle simplificado com lista e responsáveis">relação-carga</abbr> ou lote dependem de norma, valor, risco e custo de controle. |
+| Contábil | Há recurso controlado e qual categoria o representa? | Estoque, imobilizado, intangível e direito de uso têm requisitos próprios; a plaqueta não determina reconhecimento. |
 
-- Dominical continua público.
-- Bem público não se usucape.
-- Uso comum pode ser gratuito ou remunerado.
-- Uso especial não é uso privado do servidor.
+**Material ≠ necessariamente consumo; propriedade ≠ controle ≠ custódia.** Um notebook cedido por terceiro exige registro de guarda, sem se tornar propriedade do órgão. Conhecimento, patente e marca são recursos incorpóreos, mas sua existência não basta para reconhecer ativo intangível.
 
-## Integração organizacional
+## Conceitos que mudam a classificação
 
-Planejamento → orçamento → compras/contratos → requisitante → almoxarifado → patrimônio → contabilidade → auditoria.
+**Bem** é objeto material ou imaterial com utilidade e valor. **Patrimônio** pode nomear, em administração, o conjunto de objetos administrados para os fins da entidade; em sentido econômico-jurídico amplo, abrange bens, direitos e obrigações. **Patrimônio líquido** é somente o residual:
 
-- A área de materiais não atua isoladamente.
-- Compra, recebimento, pagamento e registro precisam conversar.
-- Segregue solicitar, autorizar, receber, registrar, guardar e conferir.
+$$
+\text{Patrimônio líquido} = \text{Ativos} - \text{Passivos}
+$$
 
-## Formas de ingresso
+**Ativo** requer recurso controlado por evento passado e capacidade de gerar benefício ou potencial de serviços públicos, ainda que sem lucro. **Passivo** é obrigação presente decorrente de evento passado. Crédito a receber pode ser ativo sem ser bem físico; dívida com fornecedor pode ser passivo. Imobilizado é corpóreo mantido para uso por mais de um período, quando satisfeitos os critérios contábeis; intangível é identificável, não monetário e sem forma física, também condicionado a reconhecimento. Uma licença controlada pode ser intangível; acesso mensal a sistema em nuvem pode ser serviço, sem intangível automático.
 
-- compra;
-- cessão;
-- doação;
-- permuta;
-- transferência;
-- produção interna.
-
-Na produção interna, o custo pode incluir materiais, mão de obra direta e outros custos diretamente atribuíveis.
-
-## Etapas que a banca troca
-
-| Etapa | Sentido |
+| No Código Civil | Reconheça pelo critério |
 | --- | --- |
-| recebimento | entrega e transferência da guarda; não aceita |
-| aceitação | declaração de conformidade |
-| incorporação | inclusão formal no sistema patrimonial |
-| tombamento | identificação individual |
-| carga | responsabilidade pela guarda e uso |
-| descarga | transferência da responsabilidade na IN nº 205/1988 |
-| inventário | confronto físico, documental e sistêmico |
-| baixa | retirada formal do registro por fato regular |
+| imóvel × móvel | solo e incorporação × remoção sem alterar substância ou destinação |
+| fungível × consumível | substituição por mesma espécie, qualidade e quantidade × destruição imediata pelo uso ou destinação à alienação |
+| divisível | fracionamento sem alterar substância, valor consideravelmente ou uso |
+| singular × universalidade de fato × de direito | bem considerado individualmente × bens singulares da mesma pessoa com destinação unitária × conjunto de relações jurídicas de valor econômico |
 
-## Desconformidades
+Para o orçamento, além da duração legal, manuais operacionais observam **fragilidade** (quebra/deformação), **perecibilidade** (deterioração), **incorporabilidade** (integração a outro bem sem retirada viável) e **transformabilidade** (aquisição para transformação). Use esses critérios na referência aplicável; a Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002 está **revogada** desde 2021. Bem consumível civil, material de consumo orçamentário e estoque contábil são categorias distintas. Resma de papel guardada no almoxarifado é consumo na despesa e pode continuar em estoque até sair.
 
-| Ocorrência | Ação |
+As <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (<abbr title="Revisão 1">R1</abbr>), 08 (<abbr title="Revisão 1">R1</abbr>) e 37 tratam, respectivamente, de estoques, intangíveis e imobilizado. Publicadas em 2026, preveem aplicação a partir de **2027**: publicação antes do edital não significa aplicação ao exercício de 2026. Para este último, leia a disciplina então aplicável com o <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>, 11ª edição. A classificação administrativa não troca sozinha a norma contábil.
+
+## Bens públicos e registros
+
+Pelo Código Civil, bem público pertence a **pessoa jurídica de direito público interno**. Patrimônio de empresa estatal não se enquadra automaticamente nos <abbr title="artigos">arts.</abbr> 98–103: verifique titularidade, natureza da entidade, destinação e regime próprio.
+
+| Bem público | Destinação | Alienação |
+| --- | --- | --- |
+| Uso comum do povo | fruição coletiva, como rua ou praça | inalienável enquanto assim qualificado |
+| Uso especial | serviço ou estabelecimento, como repartição | inalienável enquanto assim qualificado |
+| Dominical | sem afetação específica ao uso comum ou especial | alienável, observadas as exigências legais |
+
+Dominical permanece público; **nenhum bem público admite usucapião**. Uso comum pode ser gratuito ou remunerado conforme a lei da entidade competente. <abbr title="Destinação jurídica a uso comum ou especial">Afetação</abbr> muda a categoria de uso, não dispensa o regime legal de alienação.
+
+Na Lei nº 4.320/1964: <abbr title="artigos">arts.</abbr> **83/85/89** pedem evidenciação de quem guarda/administra, conhecimento da composição patrimonial e registro dos fatos; <abbr title="artigo">art.</abbr> **94**, registro analítico dos permanentes com responsáveis; **95**, registros sintéticos de móveis e imóveis; **96**, levantamento geral apoiado no inventário analítico das unidades e na escrituração sintética. Não substitua contagem física por relatório do sistema.
+
+## Siga o recurso, não apenas a compra
+
+**Necessidade → verificar disponibilidade interna → especificar e planejar → adquirir → receber → conferir e aceitar → registrar/guardar → distribuir ou incorporar e atribuir carga → usar/conservar → inventariar e conciliar → destinar/baixar.** Compra é uma forma de ingresso; a <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 também lista cessão, doação, permuta, transferência e produção interna (documentada por guia de produção). O custo desta pode incluir materiais, mão de obra direta e gastos necessários à condição de uso, sem absorver desperdício anormal.
+
+| Momento | Distinção decisiva |
 | --- | --- |
-| falta quantitativa | registrar e regularizar |
-| item diferente | não aceitar como conforme |
-| defeito | documentar e substituir/corrigir |
-| exame técnico | especialista ou comissão |
-| entrega parcial admitida | registrar a parcela |
-| rejeição | preservar evidência e devolver formalmente |
+| Recebimento × aceitação | Receber transfere guarda, **não** prova conformidade. Aceitar requer conferência e, se preciso, exame qualitativo. Falta, defeito ou item diverso exigem registro e regularização; entrega parcial depende do instrumento. Na <abbr title="Instrução Normativa">IN</abbr> nº 205/1988, a entrada é registrada no almoxarifado mesmo se a entrega física ocorrer noutro local. |
+| Armazenar × fornecer | Guarde com localização, preservação e segurança; <abbr title="Primeiro a Entrar, Primeiro a Sair">PEPS</abbr> físico retira primeiro o mais antigo, sem impor sozinho mensuração contábil. **Pressão** usa tabela/período predefinidos; **requisição** atende a pedido interno. |
+| Incorporar × tombar × carregar | Incorporação inclui formalmente no sistema; tombamento dá identificação individual; **carga** atribui responsabilidade pela guarda e uso. Na <abbr title="Instrução Normativa">IN</abbr> nº 205/1988, **descarga** transfere essa responsabilidade: não é sinônimo de baixa. |
+| Inventariar × baixar | Inventário confronta existência, estado, localização, responsável e registros; baixa retira formalmente bem do cadastro com suporte regular. Desaparecimento não produz baixa automática. |
 
-## Fornecimento interno
+Controle deve ser proporcional: valor, criticidade, mobilidade, atratividade, risco e custo de controlar orientam tombamento ou registro simplificado **quando autorizado**. Relação-carga não significa ausência de responsabilidade. Segregue solicitação, autorização, recebimento, registro, guarda e conferência quando possível; atualize documento, responsável e sistema em cada movimentação. No <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal, a <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 é referência operacional; sua centralização de compras e outras rotinas não se impõem automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
-- **pressão:** tabela e periodicidade predefinidas, sem pedido posterior.
-- **requisição:** entrega mediante pedido interno.
-- Conceitos da IN nº 205/1988 pertencem ao <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal.
+Inventários anual, inicial, por transferência, extinção/transformação, eventual, rotativo e por amostragem respondem a eventos ou métodos distintos; amostragem depende de autorização e planejamento. Divergência entre físico, cadastro, carga e contabilidade pede documento, investigação, conciliação e correção formal. **Ruptura** (falta), **acurácia** (proximidade físico-registro), prazo de atendimento, bens localizados e ociosidade sinalizam problemas, mas não demonstram a causa isoladamente.
 
-## Inventários
-
-| Tipo | Finalidade |
-| --- | --- |
-| anual | encerramento do exercício |
-| inicial | início da unidade |
-| transferência | mudança de responsável |
-| extinção/transformação | alteração institucional |
-| eventual | necessidade específica |
-| rotativo | contagem programada contínua |
-| amostragem | exame de amostras de grande acervo |
-
-Relatório de sistema sem verificação física não é inventário físico.
-
-## Ciclo básico
-
-1. necessidade;
-2. disponibilidade interna;
-3. planejamento e especificação;
-4. aquisição;
-5. recebimento;
-6. conferência e aceitação;
-7. registro e armazenagem;
-8. requisição e distribuição;
-9. incorporação, tombamento e carga;
-10. uso, movimentação e manutenção;
-11. inventário e conciliação;
-12. saneamento, destinação e baixa.
-
-O ciclo retroalimenta o planejamento.
-
-## Indicadores
-
-- ruptura: falta quando necessário;
-- acurácia: físico próximo do registro;
-- tempo de atendimento: requisição até entrega;
-- bens localizados: qualidade patrimonial;
-- ociosidade/obsolescência: possível falha de planejamento;
-- indicador sinaliza, mas não prova causa sozinho.
-
-## Pegadinhas
-
-- Material não é sempre sinônimo de consumo.
-- Recurso patrimonial não é apenas imóvel.
-- Bem móvel civil não é automaticamente consumo.
-- Plaqueta não define a classificação.
-- Permanente não exige sempre plaqueta individual.
-- Item em estoque pode ser ativo.
-- Software não é material permanente como regra geral.
-- Bem de terceiro deve ser controlado.
-- Receber não é aceitar.
-- Distribuir não é baixar.
-- Carga não é peso físico.
-- Descarga não é necessariamente desfazimento.
-- Relatório sem contagem não prova inventário.
-- Área de materiais não atua isoladamente.
-- IN nº 205/1988 não vincula automaticamente um <abbr title="Tribunal de Contas do Estado">TCE</abbr> estadual.
+**Gatilho de prova:** fonte e plano → titularidade/controle → etapa do ciclo → documento/competência → confronto físico, administrativo e contábil. Se qualquer seta falhar, a afirmação “comprou, logo está aceito, tombado e disponível” é precipitada.
