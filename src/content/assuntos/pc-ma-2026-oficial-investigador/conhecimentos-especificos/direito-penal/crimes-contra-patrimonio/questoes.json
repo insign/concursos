@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u087-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u087-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.397/2026, o furto durante repouso noturno",
       "options": [
         {
           "id": "A",
-          "text": "tem aumento de metade."
+          "text": "tem aumento fixo de um terço."
         },
         {
           "id": "B",
-          "text": "tem aumento fixo de um terço."
+          "text": "tem aumento de metade."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "é contravenção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 155, § 1º, passou a prever aumento de metade."
     },
     {
       "id": "u087-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Furto privilegiado pressupõe",
       "options": [
         {
           "id": "A",
-          "text": "primariedade e pequeno valor da coisa."
+          "text": "grave ameaça e pequeno valor."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "grave ameaça e pequeno valor."
+          "text": "primariedade e pequeno valor da coisa."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "crime praticado à noite."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "São os requisitos do art. 155, § 2º."
     },
     {
       "id": "u087-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A diferença central entre furto mediante fraude e estelionato é que",
       "options": [
         {
           "id": "A",
-          "text": "no furto o agente subtrai aproveitando a fraude; no estelionato a vítima, enganada, realiza a disposição patrimonial."
+          "text": "estelionato exige subtração clandestina."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "estelionato exige subtração clandestina."
+          "text": "no furto o agente subtrai aproveitando a fraude; no estelionato a vítima, enganada, realiza a disposição patrimonial."
         },
         {
           "id": "E",
           "text": "não existe diferença."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O papel da vítima no deslocamento patrimonial é o critério prático decisivo."
     },
     {
       "id": "u087-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo entendimento do STJ de 2026, romper obstáculo com inequívoco início da agressão ao patrimônio, sem chegar a tocar nos bens,",
       "options": [
         {
           "id": "A",
-          "text": "pode configurar tentativa de furto qualificado."
+          "text": "é crime impossível."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "é crime impossível."
+          "text": "pode configurar tentativa de furto qualificado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O STJ adotou leitura objetivo-formal temperada e reconheceu tentativa no caso de rompimento do obstáculo."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u087-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O latrocínio é",
       "options": [
         {
           "id": "A",
-          "text": "roubo qualificado pelo resultado morte, classificado no Título dos crimes contra o patrimônio."
+          "text": "homicídio simples."
         },
         {
           "id": "B",
-          "text": "homicídio simples."
+          "text": "roubo qualificado pelo resultado morte, classificado no Título dos crimes contra o patrimônio."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "contravenção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Apesar da morte, o latrocínio está no art. 157 e é crime patrimonial."
     },
     {
       "id": "u087-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Tema 1.192/STJ, uma única conduta de roubo sem desígnios autônomos contra patrimônios distintos de diferentes vítimas configura",
       "options": [
         {
           "id": "A",
-          "text": "concurso formal de crimes."
+          "text": "crime continuado obrigatório."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "crime continuado obrigatório."
+          "text": "concurso formal de crimes."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "fato atípico."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Patrimônios distintos configuram crimes distintos, com concurso formal quando há uma só conduta e ausência de desígnios autônomos."
     },
     {
       "id": "u087-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Roubo e extorsão distinguem-se porque, na extorsão,",
       "options": [
         {
           "id": "A",
-          "text": "o comportamento da vítima constrangida é relevante para obtenção da vantagem econômica."
+          "text": "não existe vantagem patrimonial."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "não existe vantagem patrimonial."
+          "text": "o comportamento da vítima constrangida é relevante para obtenção da vantagem econômica."
         },
         {
           "id": "E",
           "text": "o agente necessariamente subtrai diretamente a coisa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Na extorsão, a vítima é constrangida a fazer, tolerar ou deixar de fazer algo."
     },
     {
       "id": "u087-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A extorsão mediante sequestro do art. 159 exige",
       "options": [
         {
           "id": "A",
-          "text": "sequestro com finalidade de obter vantagem como condição ou preço do resgate."
+          "text": "produto de crime antecedente."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "produto de crime antecedente."
+          "text": "sequestro com finalidade de obter vantagem como condição ou preço do resgate."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A finalidade de resgate distingue o art. 159."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u087-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No estelionato, é necessário",
       "options": [
         {
           "id": "A",
-          "text": "vantagem ilícita, prejuízo alheio e erro da vítima provocado ou mantido por fraude."
+          "text": "subtração clandestina sem participação da vítima."
         },
         {
           "id": "B",
-          "text": "subtração clandestina sem participação da vítima."
+          "text": "vantagem ilícita, prejuízo alheio e erro da vítima provocado ou mantido por fraude."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "posse prévia lícita sem fraude."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O erro da vítima e a disposição patrimonial são centrais ao art. 171."
     },
     {
       "id": "u087-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 15.397/2026 incluiu no art. 171",
       "options": [
         {
           "id": "A",
-          "text": "cessão de conta bancária para trânsito de recursos destinados a atividade criminosa ou dela provenientes."
+          "text": "tráfico de pessoas."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "tráfico de pessoas."
+          "text": "cessão de conta bancária para trânsito de recursos destinados a atividade criminosa ou dela provenientes."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "crime de rixa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É o inciso VII do § 2º, denominado cessão de conta laranja."
     },
     {
       "id": "u087-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao antigo art. 171, § 5º, no corte de julho de 2026,",
       "options": [
         {
           "id": "A",
-          "text": "foi revogado pela Lei nº 15.397/2026."
+          "text": "foi deslocado para o art. 155."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "foi deslocado para o art. 155."
+          "text": "foi revogado pela Lei nº 15.397/2026."
         },
         {
           "id": "E",
           "text": "virou causa de aumento."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A Lei nº 15.397 revogou expressamente o § 5º."
     },
     {
       "id": "u087-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na receptação dolosa do art. 180, o agente",
       "options": [
         {
           "id": "A",
-          "text": "sabe que a coisa é produto de crime."
+          "text": "necessariamente atua em comércio."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "necessariamente atua em comércio."
+          "text": "sabe que a coisa é produto de crime."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O caput exige ciência da origem criminosa e contempla vários verbos."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u087-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após a Lei nº 15.397/2026, o art. 180-A alcança",
       "options": [
         {
           "id": "A",
-          "text": "semovente domesticável de produção e também animal doméstico, nas condições legais."
+          "text": "somente gado bovino."
         },
         {
           "id": "B",
-          "text": "somente gado bovino."
+          "text": "semovente domesticável de produção e também animal doméstico, nas condições legais."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "somente animal pertencente ao Estado."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A redação de 2026 ampliou expressamente o tipo para animal doméstico."
     },
     {
       "id": "u087-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As escusas dos arts. 181 e 182 não se aplicam",
       "options": [
         {
           "id": "A",
-          "text": "a roubo ou extorsão, ao estranho participante e a crime contra pessoa com 60 anos ou mais."
+          "text": "a crime sem violência contra descendente, sempre."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "a crime sem violência contra descendente, sempre."
+          "text": "a roubo ou extorsão, ao estranho participante e a crime contra pessoa com 60 anos ou mais."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "somente quando houver reincidência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "São exceções do art. 183."
     },
     {
       "id": "u087-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O art. 183-A prevê",
       "options": [
         {
           "id": "A",
-          "text": "aumento de 1/3 até o dobro para crimes do Título II cometidos contra instituições financeiras e certos prestadores de segurança privada."
+          "text": "redução obrigatória de pena."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "redução obrigatória de pena."
+          "text": "aumento de 1/3 até o dobro para crimes do Título II cometidos contra instituições financeiras e certos prestadores de segurança privada."
         },
         {
           "id": "E",
           "text": "ação privada exclusiva."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O dispositivo foi incluído pela Lei nº 14.967/2024."
     },
     {
       "id": "u087-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Fraude à execução do art. 179",
       "options": [
         {
           "id": "A",
-          "text": "possui ação penal mediante queixa."
+          "text": "não integra o Título II."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "não integra o Título II."
+          "text": "possui ação penal mediante queixa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O parágrafo único do art. 179 prevê queixa."
     },
     {
