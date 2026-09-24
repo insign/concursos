@@ -19,6 +19,7 @@ Próclise não leva hífen. Ênclise leva um hífen; mesóclise, dois.
 - negativa: **não me avisou**, **nunca se discutiu**, **ninguém lhe disse**;
 - relativo/subordinação: **que me enviaram**, **quando se soube**, **embora se conheça**;
 - interrogativa/optativa: **quem lhe contou?**, **que a sorte nos acompanhe**;
+- indefinido, demonstrativo neutro ou par alternativo: **alguém lhe disse**, **isso me preocupa**, **ou se aprova, ou se rejeita**;
 - advérbio sem pausa: **hoje se divulgará**.
 
 **<abbr title="trecho da estrutura sobre o qual o fator atua">Escopo</abbr> importa:** um fator de outra oração não governa automaticamente o pronome analisado. Inciso e vírgula não apagam mecanicamente negativa, relativo ou subordinativa.
@@ -33,7 +34,7 @@ Próclise não leva hífen. Ênclise leva um hífen; mesóclise, dois.
 ## Futuro
 
 - com atrator: **nunca lhe comunicarei**;
-- sem atrator: **comunicar-lhe-ei**, **dir-se-ia**;
+- sem atrator: **comunicar-lhe-ei**, **dir-se-ia**; com sujeito *eu* anteposto, o manual da <abbr title="Fundação Alexandre de Gusmão">FUNAG</abbr> admite **eu lhe comunicarei**;
 - evite ênclise simples ao futuro na orientação tradicional: não *comunicarei-lhe*.
 
 ## Imperativo
@@ -43,7 +44,7 @@ Próclise não leva hífen. Ênclise leva um hífen; mesóclise, dois.
 
 ## <abbr title="infinitivo, gerúndio ou particípio">Formas nominais</abbr>
 
-- infinitivo: **informá-lo**; com negativa, solução segura: **não o informar**;
+- infinitivo: **informá-lo**; com negativa, **não o informar** e, em contextos admitidos, **para não informá-lo**;
 - gerúndio: **examinando-o**; negativa: **não o examinando**;
 - **em + gerúndio**: **em se tratando**;
 - particípio: nunca deixe <abbr title="pronome átono ligado ao verbo">clítico</abbr> depois dele em locução: **tinha-lhe comunicado**, não *tinha comunicado-lhe*.
@@ -58,6 +59,7 @@ Uso brasileiro entre os verbos (*deve se manifestar*) não deve ser confundido c
 
 - depois de **r/s/z** → **lo/la/los/las**: *fazê-lo*, *pô-la*, *fi-lo*;
 - depois de nasal → **no/na/nos/nas**: *fizeram-no*, *põem-nos*;
+- **-mos + nos** → *preparamo-nos*; com *os* objeto: *preparamo-los*;
 - próclise: **não o fizeram**; ênclise: **fizeram-no**.
 
 ## Checklist
