@@ -21,9 +21,9 @@ As duas leis respondem a perguntas diferentes:
 
 ### 1.1 Corte do edital e atualização posterior
 
-O Edital nº 1, de **6 de julho de 2026**, permite avaliar alterações legislativas que tenham entrado em vigor até sua publicação, mesmo fora da lista expressa de objetos. Para jurisprudência dos tribunais superiores, admite decisões publicadas até **30 dias antes da prova**. São cortes distintos.
+O Edital nº 1, de **6 de julho de 2026**, publicado em **7 de julho de 2026**, permite avaliar alterações legislativas que tenham entrado em vigor até sua publicação, mesmo fora da lista expressa de objetos. Para jurisprudência dos tribunais superiores, admite decisões publicadas até **30 dias antes da prova**. São cortes distintos.
 
-Assim, entram as alterações legislativas vigentes em **6 de julho de 2026**, inclusive a Lei nº 15.249/2025. Conferência editorial: **7 de setembro de 2026**.
+Assim, entram as alterações legislativas vigentes em **7 de julho de 2026**, inclusive a Lei nº 15.249/2025. Conferência editorial: **7 de setembro de 2026**.
 
 **Depois do corte**, a Lei nº 15.492, de 2 de setembro de 2026, passou a considerar a pessoa com síndrome de Tourette pessoa com deficiência quando os sintomas comprometerem significativamente funcionalidade e participação social conforme <abbr title="avaliação que considera impedimentos e sua interação com fatores pessoais, ambientais e sociais">avaliação biopsicossocial</abbr>. A lei também permite o cordão de girassóis para identificar a prioridade nessa situação nos estabelecimentos referidos na Lei nº 10.048/2000. É direito vigente, mas **não integra o corte legislativo deste edital** nem alterou o rol textual do artigo 1º.
 
@@ -331,4 +331,4 @@ Padrões técnicos digitais como <abbr title="Web Content Accessibility Guidelin
 3. **Há uma condição escondida?** Atendimento em curso não é interrompido; emergência de saúde depende da gravidade; semáforo tem regra condicionada e regra obrigatória.
 4. **O número pertence a qual regra?** Doador **120 dias**; brinquedo **5% de cada**; banheiro químico **10%, mínimo 1**; estacionamento **2%, mínimo 1**; veículo em uso **180 dias da regulamentação**; regulamentação da Lei nº 10.048 **60 dias**.
 5. **A questão mistura literalidade com vigência?** A remissão às sanções do artigo 44 da Lei nº 4.595/1964 continua escrita na Lei nº 10.048/2000, mas o artigo remetido foi revogado em 2017.
-6. **A regra é do corte do edital ou veio depois?** Alterações legislativas vigentes até **6 de julho de 2026** entram no corte; a Lei nº 15.492/2026, de setembro, é atualização posterior e deve permanecer separada.
+6. **A regra é do corte do edital ou veio depois?** Alterações legislativas vigentes até **7 de julho de 2026** entram no corte; a Lei nº 15.492/2026, de setembro, é atualização posterior e deve permanecer separada.

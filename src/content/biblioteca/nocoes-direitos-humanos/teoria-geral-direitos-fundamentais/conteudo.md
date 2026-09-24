@@ -12,7 +12,7 @@ A liberdade de expressão pode ser protegida por uma Constituição e também po
 
 O mapa do assunto é: **direito → plano de reconhecimento → titular → vinculado → limite**.
 
-O recorte normativo acompanha o Edital nº 1, de **6 de julho de 2026**; a jurisprudência do material vai até **4 de agosto de 2026**. A Declaração Universal dos Direitos Humanos fica para o assunto seguinte.
+O recorte normativo acompanha o Edital nº 1, de **6 de julho de 2026**, publicado em **7 de julho de 2026**; a jurisprudência do material vai até **4 de agosto de 2026**. A Declaração Universal dos Direitos Humanos fica para o assunto seguinte.
 
 ## 1. Direitos humanos, direitos fundamentais e garantias
 

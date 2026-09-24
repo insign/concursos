@@ -119,7 +119,7 @@ Essas designações não substituem a categoria do <abbr title="Sistema Nacional
 
 ## 8. Corte do edital e método de resolução
 
-Para o concurso, a referência é a situação vigente em **6 de julho de 2026**. Fontes administrativas posteriores servem para detectar mudanças; eventual alteração posterior deve ser separada da regra cobrada no corte. Isso importa sobretudo em **limites/áreas** — que podem divergir por revisão cartográfica — e em **nomes históricos**, como o da Nascente do Rio das Balsas.
+Para cada concurso, a referência é a situação vigente na data de publicação do respectivo edital. Fontes administrativas posteriores servem para detectar mudanças; eventual alteração posterior deve ser separada da regra cobrada no corte. Isso importa sobretudo em **limites/áreas** — que podem divergir por revisão cartográfica — e em **nomes históricos**, como o da Nascente do Rio das Balsas.
 
 Ao resolver uma questão:
 

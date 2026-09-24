@@ -120,14 +120,14 @@ A **<abbr title="International Organization for Standardization">ISO</abbr>** ap
 
 **Fundamentos não são requisitos de certificação.** Essa distinção organiza a família de normas:
 
-| Documento | Papel e situação no recorte de 6 de julho de 2026 |
+| Documento | Papel e situação no recorte de 7 de julho de 2026 |
 | --- | --- |
 | <abbr title="International Organization for Standardization">ISO</abbr> 9000:2026 | Fundamentos e vocabulário; publicada em maio de 2026 |
 | <abbr title="International Organization for Standardization">ISO</abbr> 9001:2015, com Emenda 1:2024 | Requisitos publicados do sistema de gestão da qualidade |
 
 A emenda de 2024 trata da consideração da mudança climática no contexto da organização e nas necessidades pertinentes das <abbr title="Pessoas ou organizações que afetam ou são afetadas pela atuação da organização">partes interessadas</abbr>. Isso não transforma a norma de qualidade em certificação ambiental.
 
-**Atualização posterior ao corte:** a revisão da <abbr title="International Organization for Standardization">ISO</abbr> 9001 entrou na etapa “em publicação” em 10 de julho de 2026. Na consulta de 8 de setembro de 2026, a página oficial ainda a classifica em desenvolvimento, com publicação prevista para setembro. Previsão e aprovação não equivalem a publicação efetiva.
+**Atualização posterior ao corte:** a <abbr title="International Organization for Standardization">ISO</abbr> 9001:2026 foi publicada em **16 de setembro de 2026**, conforme a cronologia oficial. No recorte de publicação do edital, em 7 de julho, a edição de 2015 com a Emenda 1:2024 era a edição publicada; a edição de 2026 permanece uma atualização posterior. A consulta de 8 de setembro ainda registrava a etapa anterior à publicação.
 
 A certificação do sistema segundo a <abbr title="International Organization for Standardization">ISO</abbr> 9001 não garante ausência de falhas nem superioridade absoluta de todos os produtos e serviços. Também não substitui exigências legais.
 

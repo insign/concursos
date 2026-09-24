@@ -298,7 +298,7 @@ A comparação evita o erro mais comum: imaginar que toda necessidade de ajuda p
 
 ## 8. Vigência, corte do edital e integração normativa
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> cobra o “Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações)”. O item 13.32 do edital fixa a regra de corte: **alterações legislativas com entrada em vigor até a data de publicação do edital, 6 de julho de 2026, podem ser avaliadas**, ainda que não apareçam expressamente no objeto de avaliação.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> cobra o “Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações)”. O item 13.32 do edital fixa a regra de corte: **alterações legislativas com entrada em vigor até a data de publicação do edital, 7 de julho de 2026, podem ser avaliadas**, ainda que não apareçam expressamente no objeto de avaliação.
 
 Portanto, uma conferência editorial posterior serve para detectar mudanças e conflitos, mas **não amplia o corte da prova**. Para este assunto, entram, entre outras já incorporadas ao texto legal até o corte:
 

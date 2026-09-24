@@ -23,7 +23,7 @@ Uma rota acessível prevista desde o projeto expressa desenho universal; um ajus
 
 > **Mapa mental:** barreira → solução geral desde o projeto → ajuste ou suporte quando necessário → participação em igualdade → controle e responsabilização.
 
-**Corte de prova:** o Edital nº 1 do Tribunal de Contas do Estado do Maranhão, publicado em **6 de julho de 2026**, permite cobrar alterações legislativas que tenham entrado em vigor até essa data, ainda que não estejam expressamente nos objetos de avaliação. As mudanças de 2023 a 2025 ensinadas abaixo já estavam vigentes no corte; conferência editorial posterior não amplia esse marco.
+**Corte de prova:** o Edital nº 1 do Tribunal de Contas do Estado do Maranhão, publicado em **7 de julho de 2026**, permite cobrar alterações legislativas que tenham entrado em vigor até essa data, ainda que não estejam expressamente nos objetos de avaliação. As mudanças de 2023 a 2025 ensinadas abaixo já estavam vigentes no corte; conferência editorial posterior não amplia esse marco.
 
 O Assunto 098 desenvolve fundamentos, capacidade e direitos materiais; o Assunto 100 estuda sistematicamente as Leis nº 10.048/2000 e nº 10.098/2000. Aqui interessa como a própria <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr> transforma inclusão e acessibilidade em deveres operacionais.
 

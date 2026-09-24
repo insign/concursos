@@ -323,11 +323,11 @@ A resposta completa combina atendimento presente e correção estrutural.
 
 ## 16. Corte temporal e vigência
 
-O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Para este assunto, separe três situações:
+O Edital nº 1 — <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **7 de julho de 2026**. Para este assunto, separe três situações:
 
 | Situação | Tratamento no estudo |
 | --- | --- |
-| norma vigente em 6 de julho de 2026 | integra o núcleo ordinariamente cobrável |
+| norma vigente em 7 de julho de 2026 | integra o núcleo ordinariamente cobrável |
 | norma futura expressamente citada no edital | pode ser cobrada nos limites da indicação |
 | alteração posterior não indicada | deve ser marcada como **pós-edital** ou **direito vigente hoje** |
 

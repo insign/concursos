@@ -16,7 +16,7 @@ Reconhecer um direito não basta para fazê-lo chegar à vida concreta. É preci
 
 ### 1.1 Corte da prova
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **6 de julho de 2026**, inclui expressamente a **Lei nº 12.288/2010 (Estatuto da Igualdade Racial)**. O corte deste material é a legislação em vigor nessa data.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, publicado em **7 de julho de 2026**, inclui expressamente a **Lei nº 12.288/2010 (Estatuto da Igualdade Racial)**. O corte deste material é a legislação em vigor nessa data.
 
 A Lei nº 14.553/2023 já integrava o corte. Ela alterou os artigos 39 e 49: no artigo 39, acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho; no artigo 49, incluiu a pesquisa a cada cinco anos do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, estudada adiante.
 

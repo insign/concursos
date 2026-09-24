@@ -26,7 +26,7 @@ Esse encadeamento explica a igualdade material: tratar de modo diferente situaç
 
 Este assunto ensina os **fundamentos, a igualdade material e o conteúdo dos direitos** previstos no Estatuto. A organização institucional desses direitos — sistema nacional, órgãos, conselhos, planejamento, financiamento e monitoramento — é aprofundada no Assunto 102. A remissão limita o aprofundamento; os direitos necessários para compreender este capítulo são explicados aqui.
 
-Para a prova, podem ser cobradas alterações legislativas que entraram em vigor até a publicação do edital, em **6 de julho de 2026**. A conferência editorial posterior não amplia esse corte. A última alteração consolidada relevante até então foi a **Lei nº 14.553/2023**, que acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho e alterou o artigo 49; o mecanismo do artigo 49 pertence ao Assunto 102.
+Para a prova, podem ser cobradas alterações legislativas que entraram em vigor até a publicação do edital, em **7 de julho de 2026**. A conferência editorial posterior não amplia esse corte. A última alteração consolidada relevante até então foi a **Lei nº 14.553/2023**, que acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho e alterou o artigo 49; o mecanismo do artigo 49 pertence ao Assunto 102.
 
 ## 2. Finalidades: o que a lei pretende produzir
 

@@ -212,7 +212,7 @@ Diversidade oferece perspectivas diferentes; **inclusão** cria condições para
 
 A inovação administrativa precisa de direção, capacidade e limites. **Governança** avalia necessidades e desempenho, direciona prioridades e monitora a gestão; a gestão planeja e executa as ações. Controle proporcional procura proteger objetivos e direitos sem exigir o mesmo tratamento para riscos muito diferentes.
 
-**Recorte normativo:** o edital de abertura deste concurso, publicado em 6 de julho de 2026, admite alterações legislativas com vigência até sua publicação. A consulta posterior às fontes não muda esse corte. Os referenciais administrativos abaixo também têm âmbitos próprios: uma norma infralegal federal não se torna automaticamente obrigatória para o tribunal estadual.
+**Recorte normativo:** o edital de abertura deste concurso, publicado em 7 de julho de 2026, admite alterações legislativas com vigência até sua publicação. A consulta posterior às fontes não muda esse corte. Os referenciais administrativos abaixo também têm âmbitos próprios: uma norma infralegal federal não se torna automaticamente obrigatória para o tribunal estadual.
 
 ### 8.1 O Decreto nº 9.203/2017
 

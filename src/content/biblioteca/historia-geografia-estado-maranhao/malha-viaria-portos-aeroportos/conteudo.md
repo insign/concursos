@@ -162,15 +162,9 @@ Os dois principais aeroportos do estado podem aparecer com códigos de sistemas 
 
 Não misture as famílias. **SLZ/IMP** são códigos <abbr title="International Air Transport Association">IATA</abbr>; **SBSL/SBIZ**, códigos <abbr title="International Civil Aviation Organization">ICAO</abbr>; **MA0001/MA0002**, identificadores cadastrais da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>.
 
-### 5.2 Mudança de controle em 2026: data da questão importa
+### 5.2 Movimento de aeronave não é passageiro
 
-Os certificados operacionais consultados da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> identificam a **Concessionária do Bloco Central <abbr title="Sociedade Anônima">S.A.</abbr>** como operadora certificada dos aeroportos de São Luís e Imperatriz.
-
-Há, porém, uma alteração empresarial posterior ao edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Em **1º de setembro de 2026**, a Motiva concluiu a venda de sua plataforma aeroportuária à <abbr title="Grupo Aeroportuario del Sureste">ASUR</abbr>. A própria Motiva informou que, a partir dessa data, os ativos da plataforma passaram a ser operados e geridos pela <abbr title="Grupo Aeroportuario del Sureste">ASUR</abbr>, com transição de sites e identidade visual.
-
-Assim, uma questão precisa fixar **qual camada e qual data** está cobrando: concessionária certificada, controladora da plataforma, marca visual ou operador histórico. A <abbr title="Empresa Brasileira de Infraestrutura Aeroportuária">Infraero</abbr> descreve uma fase anterior da operação; “Motiva Aeroportos” descreve a marca do período anterior à conclusão da venda, não a situação empresarial completa após 1º de setembro de 2026.
-
-### 5.3 Movimento de aeronave não é passageiro
+Os certificados operacionais da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> citados nas referências identificam a **Concessionária do Bloco Central <abbr title="Sociedade Anônima">S.A.</abbr>** como operadora certificada de São Luís e Imperatriz no recorte estudado. Uma questão sobre controlador empresarial exige data e fonte específicas; alterações posteriores ao corte factual não definem a resposta para 4 de agosto de 2026.
 
 Nos dados de movimentação aeroportuária da <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>, derivados do <abbr title="Relatório de Informações de Movimentação Aeroportuária">RIMA</abbr>, um registro de movimento distingue **pouso** e **decolagem**. Passageiros, carga e correio aparecem em campos próprios.
 
@@ -201,6 +195,4 @@ Depois de compreender a rede, vale condensar as diferenças que mais geram troca
 
 ## 7. Corte documental
 
-O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Os dados estruturais e conjunturais deste capítulo foram conferidos em fontes primárias até **7 de setembro de 2026**.
-
-Quando um fato posterior ao edital altera operador, controle empresarial, movimentação ou outro dado conjuntural, o texto informa a data da mudança. Em prova, respeite sempre o **recorte temporal do enunciado**: uma informação correta em julho pode deixar de descrever a situação de setembro sem que a geografia física da infraestrutura tenha mudado.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>, de 6 de julho de 2026, foi publicado em **7 de julho de 2026**. O recorte factual deste capítulo é **4 de agosto de 2026**. Consultas posteriores a fontes primárias ajudam a conferir os dados, mas fatos conjunturais posteriores não fundamentam a resposta nesse recorte. Em prova, observe sempre a data expressa no enunciado.

@@ -28,7 +28,7 @@ O <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> pro
 - **Estimativa populacional:** atualiza o total para uma data específica entre censos; não é uma nova enumeração domiciliar.
 - **Projeção populacional:** modela a evolução demográfica a partir de nascimentos, óbitos e migração. A revisão de 2024 do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> produz projeções para Brasil e unidades da Federação e serve, entre outros usos, de base às estimativas municipais.
 
-O **corte documental desta revisão é 7 de setembro de 2026**. Isso importa porque, depois do corte anterior da unidade, foi publicada a estimativa com referência em **1º de julho de 2026**. Para o restante do capítulo:
+O **corte factual deste capítulo é 4 de agosto de 2026**. A estimativa com referência em **1º de julho de 2026** foi divulgada depois desse marco: pode servir para comparação temporal, mas não como dado já disponível no corte. Para o restante do capítulo:
 
 - população, densidade e situação urbana/rural usam o Censo 2022;
 - estimativas anuais são identificadas pelo respectivo ano;
@@ -53,8 +53,8 @@ Para o Maranhão, mantenha a data ao lado de cada número:
 |---|---:|---|
 | população no Censo 2010 | 6.574.789 | enumeração censitária |
 | população no Censo 2022 | **6.776.699** | valor corrente do Censo 2022 |
-| estimativa em 1º/7/2025 | **7.018.211** | estimativa anual, não censo |
-| estimativa em 1º/7/2026 | **7.024.557** | estimativa anual mais recente no corte |
+| estimativa em 1º/7/2025 | **7.018.211** | estimativa anual disponível no corte factual |
+| estimativa em 1º/7/2026 | **7.024.557** | divulgação posterior ao corte factual de 4/8/2026 |
 | área territorial | 329.651,463 <abbr title="quilômetros quadrados">km²</abbr> | área usada para contextualizar a densidade estadual |
 | densidade no Censo 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** | população censitária dividida pela área |
 

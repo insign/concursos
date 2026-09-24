@@ -72,7 +72,7 @@ A relação é de **favorecimento**, não de equivalência automática.
 
 ### Planalto
 
-Há uma atualização importante de classificação. No **Sistema Brasileiro de Classificação de Relevo**, em construção pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, pelo Serviço Geológico do Brasil e por instituições parceiras, **planaltos são relevos elevados em relação às superfícies adjacentes em pelo menos uma de suas bordas**, com altitudes, inclinações, substratos e graus de dissecação variados. Até o corte do edital, em **6 de julho de 2026**, o relatório do 4º Workshop, divulgado em **29 de junho de 2026**, registrava que o sistema continuava em desenvolvimento.
+Há uma atualização importante de classificação. No **Sistema Brasileiro de Classificação de Relevo**, em construção pelo <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, pelo Serviço Geológico do Brasil e por instituições parceiras, **planaltos são relevos elevados em relação às superfícies adjacentes em pelo menos uma de suas bordas**, com altitudes, inclinações, substratos e graus de dissecação variados. Até o corte do edital, em **7 de julho de 2026**, o relatório do 4º Workshop, divulgado em **29 de junho de 2026**, registrava que o sistema continuava em desenvolvimento.
 
 Materiais escolares tradicionais também associam planaltos ao predomínio da <abbr title="rebaixamento do relevo por intemperismo e erosão">denudação</abbr> sobre a sedimentação. Essa ideia ajuda a compreender sua evolução, mas **não deve ser usada como definição universal isolada**.
 
