@@ -1,295 +1,56 @@
-# Acessibilidade e prioridade de atendimento
+# Prioridade de atendimento e acessibilidade: duas leis, duas decisões
 
-## Mapa
+**Corte legislativo:** publicação do edital em **7/7/2026**. A Lei nº **10.048/2000** ordena o atendimento; a Lei nº **10.098/2000** remove barreiras para uso seguro e autônomo. A Lei Brasileira de Inclusão complementa ambas; seu regime próprio está nos assuntos 098–099.
 
-- Lei nº **10.048/2000** → prioridade;
-- Lei nº **10.098/2000** → acessibilidade;
-- regra de prova: alterações legislativas em vigor até **06/07/2026**;
-- conferência editorial: **15/08/2026**.
+## Lei nº 10.048/2000 — quem, quando e onde
 
-## Prioridade: rol atual
-
-1. pessoa com deficiência;
-2. pessoa com <abbr title="transtorno do espectro autista">TEA</abbr>;
-3. pessoa idosa **60+**;
-4. gestante;
-5. lactante;
-6. pessoa com criança de colo;
-7. pessoa obesa;
-8. pessoa com mobilidade reduzida;
-9. doador de sangue.
-
-Acompanhante/atendente: **junto + acessoriamente** ao titular; sem prioridade autônoma.
-
-Doador:
-
-- depois de todos os demais prioritários;
-- antes das pessoas sem prioridade;
-- comprovante de doação;
-- validade **120 dias**.
-
-## Operação da fila
-
-- pode haver posto/caixa/guichê/linha/atendente específico;
-- sem estrutura: conclui atendimento em curso → prioritário → demais;
-- não interrompe atendimento iniciado.
-
-## Serviços obrigados
-
-- repartição pública;
-- concessionária de serviço público;
-- toda instituição financeira.
-
-Repartição/concessionária: serviço individualizado + tratamento diferenciado + atendimento imediato.
-
-Emergência de saúde no Decreto nº 5.296/2004: gravidade médica prevalece.
-
-## Assentos reservados
-
-Inclui:
-
-- <abbr title="pessoa com deficiência">PcD</abbr>;
-- TEA;
-- pessoa idosa;
-- gestante;
-- lactante;
-- criança de colo;
-- mobilidade reduzida.
-
-Não inclui no art. 3º:
-
-- pessoa obesa;
-- doador de sangue.
-
-## Construção e veículos
-
-Art. 4º: autoridade edita normas para licenciamento de logradouros, sanitários e edifícios públicos acessíveis à PcD.
-
-Art. 5º:
-
-- veículo produzido após 12 meses → acesso facilitado;
-- § 1º **VETADO**;
-- veículo em uso → adaptação em 180 dias da regulamentação.
-
-## Sanções da prioridade
-
-| Responsável | Sanção/remissão |
+| Pergunta | Resposta que decide |
 |---|---|
-| servidor/chefia | legislação específica |
-| concessionária | R$ 500–2.500 **por veículo** dos arts. 3º/5º |
-| instituição financeira | art. 6º, III, ainda remete ao art. 44, I–III, da Lei nº 4.595/1964 |
+| Quem tem prioridade (artigo 1º)? | Pessoa com deficiência; pessoa com transtorno do espectro autista; idoso **a partir de 60 anos**; gestante; lactante; pessoa com criança de colo; pessoa obesa; pessoa com mobilidade reduzida; **doador de sangue**. São nove grupos. |
+| Acompanhante/atendente? | É atendido **junto e acessoriamente** ao titular, sem prioridade autônoma para assunto próprio. |
+| Doador de sangue? | **Depois de todos os outros prioritários**, antes dos não prioritários; comprovante de doação válido por **120 dias**. |
+| Fila sem posto próprio? | Concluir atendimento **já em curso** → atender prioritário → demais. A lei permite guichê/caixa/atendente específico; não interrompe serviço iniciado. Em emergência de saúde, o protocolo médico considera a gravidade. |
+| Quem presta? | Repartições e concessionárias asseguram serviço individualizado, tratamento diferenciado e atendimento imediato; **todas** as instituições financeiras asseguram a prioridade. |
 
-**Instituição financeira:** a remissão continua no texto da Lei nº 10.048, mas o **art. 44 da Lei nº 4.595/1964 foi revogado pela Lei nº 13.506/2017**. Literalidade ≠ tratar incisos revogados como sanções vigentes.
+**Assentos identificados no transporte coletivo (artigo 3º):** pessoa com deficiência, com transtorno do espectro autista, idosa, gestante, lactante, com criança de colo ou com mobilidade reduzida. **Obeso e doador de sangue** constam do rol geral, **não** desse rol de assentos.
 
-Reincidência → **dobro**.
+**Veículos e licenciamento:** normas da autoridade facilitam acesso a logradouros, sanitários e edifícios de uso público. O artigo 5º fixou marcos históricos: veículos novos produzidos após **12 meses da publicação da lei** deveriam facilitar acesso; para veículos então em uso, **180 dias contados da regulamentação** para adaptação. O § 1º foi vetado. Hoje, leia também as normas técnicas de transporte da Lei nº 10.098/2000.
 
-Regulamentação: 60 dias. Vigência: publicação.
-
-## Lei nº 10.098: objeto
-
-Supressão de barreiras em:
-
-- vias/espaços públicos;
-- mobiliário urbano;
-- construção/reforma;
-- transporte;
-- comunicação.
-
-## Definições-chave
-
-| Termo | Essência |
+| Infração (artigo 6º) | Consequência |
 |---|---|
-| acessibilidade | alcance/uso + segurança + autonomia + aberto ao público/uso público/privado coletivo + urbano/rural |
-| barreira | entrave/obstáculo/atitude/comportamento |
-| PcD | impedimento longo prazo + barreira + participação |
-| mobilidade reduzida | permanente/temporária; idoso/gestante/lactante/colo/obeso |
-| acompanhante | pode ou não ser atendente |
-| elemento urbanização | componente da obra urbana |
-| mobiliário | objeto adicionado sem alteração substancial |
-| tecnologia assistiva | funcionalidade + atividade + participação + autonomia |
-| comunicação | <abbr title="Língua Brasileira de Sinais">Libras</abbr>/Braille/tátil/simples/digital/aumentativa |
-| desenho universal | uso por todos sem adaptação/projeto específico |
-| <abbr title="necessidades complexas de comunicação">NCC</abbr> | dificuldade significativa + estratégia alternativa/aumentativa |
+| Servidor/chefia de repartição | Penalidades da legislação específica. |
+| Concessionária de serviço público | **R$ 500–2.500 por veículo** sem as condições dos artigos 3º e 5º. |
+| Instituição financeira | O texto **ainda remete** ao artigo 44, I–III, da Lei nº 4.595/1964, **revogado** pela Lei nº 13.506/2017: não tratar suas sanções revogadas como vigentes nem transpor a multa veicular. |
 
-Classes nesta lei:
+**Reincidência:** penalidades do artigo 6º elevadas ao **dobro**. A lei entrou em vigor na publicação e concedeu **60 dias** para regulamentação; esse prazo é diferente dos 180 dias para veículos antigos.
 
-1. urbanística → vias/espaços públicos ou privados abertos ao público/uso coletivo;
-2. arquitetônica → edifícios públicos e privados;
-3. transporte → sistemas e meios;
-4. comunicação/informação → expressão ou recepção de mensagens/informações.
+## Lei nº 10.098/2000 — qual barreira e qual ambiente
 
-Barreira não é somente física.
+**Definição:** acessibilidade é alcance e uso **com segurança e autonomia** de espaços, transportes, comunicação, sistemas e serviços abertos ao público, de uso público ou privados de uso coletivo, nas zonas urbana **e rural**. Barreira inclui entrave, obstáculo, **atitude ou comportamento**, mesmo sem degrau. Desenho universal é conceber para todas as pessoas sem adaptação específica; tecnologia assistiva é recurso, método ou serviço que amplia funcionalidade e participação. Elemento de urbanização é componente da obra urbana (pavimento/rede de água); mobiliário urbano é objeto adicionado sem modificar substancialmente a estrutura (banco/semáforo).
 
-## Urbanização
+| Classe **enumerada nesta lei** | Identificação |
+|---|---|
+| Urbanística | Vias e espaços públicos ou privados abertos ao público/de uso coletivo. |
+| Arquitetônica | Edifícios públicos ou privados. |
+| Transporte | Sistemas e meios de transporte. |
+| Comunicação e informação | Impede/dificulta expressão ou recebimento de mensagens/informações. |
 
-Vias/parques/espaços → acessíveis para todas as pessoas.
+A lei define pessoa com deficiência por impedimento duradouro **em interação com barreiras**; mobilidade reduzida pode ser temporária e inclui idoso, gestante, lactante, pessoa com criança de colo e obeso. Necessidade complexa de comunicação é dificuldade significativa para compreender/expressar mensagens convencionais que requer estratégia alternativa/aumentativa. A **enumeração de quatro classes** não lista à parte as barreiras atitudinais e tecnológicas que constam da Lei Brasileira de Inclusão; o conceito amplo de barreira aqui já inclui atitudes.
 
-Passeio público:
+## Via, equipamento e edifício: localize o número
 
-- obrigatório + parte da via;
-- normalmente segregado/nível diferente;
-- somente pedestre;
-- mobiliário/vegetação quando possível.
+| Local | Mínimo ou condição |
+|---|---|
+| Vias e parques | Planejar para **todas as pessoas**; adaptar existentes em ordem de maior eficiência. Passeio é parte obrigatória da via para **pedestres**, com mobiliário/vegetação quando possível. Elementos de urbanização comunitários seguem normas da <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>. |
+| Brinquedos/equipamentos de lazer dos locais do artigo 4º | Adaptar e identificar **ao menos 5% de cada brinquedo e equipamento**, tanto quanto tecnicamente possível, inclusive para deficiência visual. |
+| Banheiro público em praça/parque/jardim | **Um sanitário e um lavatório** acessíveis ao menos. Evento público **ou privado** com banheiro químico: **10% do total, mínimo um** se o cálculo der fração inferior a um. |
+| Estacionamento em via/espaço público | Vagas próximas ao acesso e sinalizadas para veículo que transporte pessoa com deficiência **com dificuldade de locomoção**: **2%, mínimo uma**. |
+| Semáforo de pedestres | Pela intensidade do fluxo **e** periculosidade: sinal suave, intermitente e sem estridência **ou alternativa** para guiar pessoa com deficiência visual. Em via de grande circulação **ou** acesso a serviço de reabilitação, sinal sonoro suave **obrigatório**. Não depende de pedido. Mobiliário que crie risco em rota comum requer alerta tátil no piso. |
+| Edifício público/privado de uso coletivo, construído/ampliado/reformado | Quatro mínimos: **vaga próxima e sinalizada + entrada sem barreira + percurso horizontal e vertical acessível + banheiro acessível**. Local de aula/espetáculo inclui espaços para cadeira de rodas, lugares para deficiência visual/auditiva e acompanhante. Centro comercial fornece carros e cadeiras de rodas, motorizados ou não. |
+| Edifício privado | Se elevador obrigatório: trajetos entre unidades, áreas comuns, exterior, via/anexos/vizinhos e cabine/porta acessíveis. Construção com mais de um pavimento além do acesso **sem elevador obrigatório** deve facilitar instalação futura de elevador adaptado, salvo habitação unifamiliar; áreas comuns seguem acessíveis. Habitação reservada na política habitacional: percentual **regulamentar conforme demanda local**, não um número fixado nesse artigo. |
 
-Existentes → adaptação por prioridade e maior eficiência.
+**Transporte coletivo:** veículos seguem requisitos de acessibilidade de normas técnicas específicas; não tratar falta de nova regulamentação como dispensa automática. **Comunicação (artigo 17):** poder público elimina barreiras à pessoa com deficiência sensorial e com necessidades complexas; sistemas aumentativos/alternativos em espaços públicos e abertos ao público usam pranchas de **baixa tecnologia**, pictogramas (símbolos de mensagens) e conteúdo conforme o contexto. O artigo 4º da Lei nº 15.249/2025 condiciona a implantação de suas medidas à disponibilidade financeira e orçamentária; a ressalva **não está no artigo 17**. Formação de intérpretes de Braille, língua de sinais e guias-intérpretes; radiodifusão com medidas para língua de sinais ou subtitulação conforme regulamento.
 
-Brinquedos/lazer:
+**Kit bancário acessível (artigo 21-A):** solicitado por pessoa com deficiência visual, **sem custo**: etiqueta Braille com tipo e **seis últimos dígitos**, primeiro dígito identificador do tipo, fita adesiva e porta-cartão com número completo, tipo, bandeira, emissor, validade, código de segurança e titular em Braille.
 
-- **5% de cada** brinquedo/equipamento;
-- adaptado + identificado;
-- tanto quanto tecnicamente possível;
-- PcD inclusive visual + mobilidade reduzida.
-
-Urbanização comunitária → <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>: itinerário/passagem/entrada-saída/escada/rampa.
-
-## Sanitários e vagas
-
-Banheiro público em parque/praça/jardim/espaço livre:
-
-- mínimo 1 sanitário acessível;
-- mínimo 1 lavatório acessível.
-
-Banheiro químico em evento:
-
-- evento público **ou privado**;
-- **10%**;
-- mínimo 1 se fração menor que 1.
-
-Estacionamento em via/espaço público:
-
-- PcD com dificuldade de locomoção;
-- próximo ao acesso + sinalizado;
-- **2%**;
-- mínimo 1.
-
-## Mobiliário e semáforos
-
-Elemento vertical → não dificulta circulação + máxima comodidade.
-
-Semáforo:
-
-- fluxo/periculosidade → som suave/intermitente/sem estridência ou alternativa;
-- grande circulação/acesso à reabilitação → som suave obrigatório;
-- finalidade → guiar/orientar travessia da pessoa com deficiência visual;
-- não depende de solicitação.
-
-Mobiliário utilizável por PcD/mobilidade reduzida.
-
-Risco em circulação comum → alerta tátil no piso.
-
-## Edifício público/coletivo
-
-Construção/ampliação/reforma → acessível.
-
-Mínimos:
-
-1. vaga próxima/sinalizada;
-2. 1 acesso sem barreira;
-3. 1 itinerário horizontal + vertical;
-4. 1 banheiro acessível.
-
-Espetáculo/conferência/aula:
-
-- cadeira de rodas;
-- lugares para deficiência auditiva/visual;
-- acompanhante;
-- acesso/circulação/comunicação ABNT.
-
-Centro comercial → carro/cadeira de rodas, motorizado ou não.
-
-## Edifício privado
-
-Com elevador obrigatório:
-
-- percurso unidades ↔ exterior/comum;
-- percurso prédio ↔ via/anexos/vizinhos;
-- cabine + porta acessíveis.
-
-Edifício a ser construído, com mais de 1 pavimento além do acesso e sem elevador obrigatório:
-
-- especificações técnicas/projeto facilitam futura instalação adaptada;
-- exceção: habitação unifamiliar;
-- uso comum continua acessível.
-
-Política habitacional federal → regulamenta percentual mínimo conforme demanda local.
-
-## Transporte
-
-Veículo coletivo → normas técnicas específicas.
-
-Decreto: veículo + terminal + estação + ponto + acesso + via + operação.
-
-## Comunicação e <abbr title="comunicação aumentativa e alternativa">CAA</abbr>
-
-Poder público elimina barreiras para deficiência sensorial + NCC.
-
-Protege informação/comunicação/trabalho/educação/transporte/cultura/esporte/lazer.
-
-Lei nº 15.249/2025:
-
-- espaços públicos e abertos ao público;
-- CAA;
-- pranchas de baixa tecnologia;
-- pictogramas;
-- conteúdo conforme contexto;
-- disponibilidade financeira/orçamentária = **art. 4º da Lei nº 15.249/2025**, não texto do art. 17 da Lei nº 10.098.
-
-Formação: Braille + língua de sinais + guia-intérprete.
-
-Radiodifusão: plano para língua de sinais ou subtitulação.
-
-## Ajudas técnicas
-
-Supressão de barreiras urbanísticas/arquitetônicas/transporte/comunicação.
-
-Fomento:
-
-- tratamento/prevenção;
-- desenvolvimento de ajudas;
-- especialização em acessibilidade.
-
-Kit para cartão, solicitado e sem custo:
-
-- etiqueta Braille: tipo + 6 finais;
-- primeiro dígito identifica tipo;
-- fita adesiva;
-- porta-cartão: número completo/tipo/bandeira/emissor/validade/código/nome.
-
-## Fomento e finais
-
-- Programa Nacional de Acessibilidade + dotação específica;
-- Administração federal direta/indireta → dotação anual para edifícios **de uso público** próprios/administrados/usados;
-- campanhas informativas/educativas;
-- bem cultural/histórico também abrangido, respeitadas normas próprias;
-- organização representativa pode acompanhar cumprimento;
-- Lei nº 10.098 não tem tabela geral própria de multas.
-- Lei nº 10.098 vigora desde a publicação.
-
-## Números-relâmpago
-
-- idoso: **60**;
-- doador: **120 dias**;
-- brinquedo: **5% de cada**;
-- químico: **10% / mínimo 1**;
-- estacionamento: **2% / mínimo 1**;
-- veículo antigo: **180 dias da regulamentação**;
-- regulamento Lei nº 10.048: **60 dias**;
-- concessionária: **R$ 500–2.500 por veículo**;
-- reincidência: **dobro**;
-- kit: **6 últimos dígitos** na etiqueta.
-
-## Pegadinhas
-
-- rol geral ≠ rol de assentos;
-- doador é último entre prioritários;
-- acompanhante não é prioritário autônomo;
-- fila em curso não é interrompida;
-- instituição financeira: remissão ao art. 44 permanece, mas o dispositivo referido foi **revogado em 2017**;
-- 5% de cada brinquedo, não do total;
-- semáforo não depende sempre de pedido;
-- barreira pode ser atitude/comportamento;
-- prédio coletivo exige acesso + itinerário + banheiro + vaga;
-- CAA da Lei nº 10.098 ≠ regras exclusivas da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>;
-- kit é solicitado + gratuito;
-- tombamento não dispensa;
-- sem multa geral própria na Lei nº 10.098.
+**Fecho:** ajudas técnicas removem barreiras; pesquisa e formação de profissionais recebem fomento. Programa Nacional de Acessibilidade, dotação **anual** federal para edifícios **de uso público**, campanhas e acompanhamento por organizações representativas sustentam a aplicação. Bens culturais/históricos também se sujeitam às regras, observada proteção específica. A Lei nº 10.098/2000 vigora desde a publicação e **não contém tabela geral própria de multas**.

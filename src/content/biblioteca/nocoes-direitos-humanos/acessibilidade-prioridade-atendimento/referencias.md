@@ -1,3 +1,4 @@
+- **Publicação do edital em 7/7/2026** — [notícia institucional do TCE/MA](https://www.tcema.tc.br/index.php/noticias-concurso-tcema), distinta da data do ato em 6/7/2026.
 - **Edital nº 1 — TCE/MA, de 6 de julho de 2026** — Cebraspe e Tribunal de Contas do Estado do Maranhão, [edital oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), acesso em 4 ago. 2026.
 - **Lei nº 10.048, de 8 de novembro de 2000** — Presidência da República, prioridade de atendimento, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10048.htm), acesso em 15 ago. 2026.
 - **Lei nº 10.098, de 19 de dezembro de 2000** — Presidência da República, normas gerais de acessibilidade, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm), acesso em 15 ago. 2026.
