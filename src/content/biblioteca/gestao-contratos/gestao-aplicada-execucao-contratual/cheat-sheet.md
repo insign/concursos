@@ -1,346 +1,51 @@
 # Gestão aplicada da execução contratual
 
-## Fontes e âmbito
-
-| Fonte | Papel | Âmbito |
-|---|---|---|
-| Lei nº 14.133/2021 | Base geral | Administração abrangida pela lei |
-| <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 | Modelo operacional de serviços | Federal, no que couber |
-| IN nº 98/2022 | Uso da IN nº 5 sob a nova lei | Federal |
-| Decreto nº 11.246/2022 | Gestor, fiscais, assistência e recebimento | Federal |
-| Decreto nº 13.031/2026 | Contratos.gov.br e modelo atualizado | Federal |
-| Norma interna | Competência, fluxo e sistema | <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> ou ente |
-| Contrato | Obrigação, indicador, evidência e efeito | Caso concreto |
-
-- Norma federal operacional não vincula automaticamente o TCE-MA.
-- Corte desta revisão: **19 de julho de 2026**.
-
-## Cadeia de controle
-
-| Elemento | Pergunta |
-|---|---|
-| Obrigação | O que deve ser entregue? |
-| Indicador | Como medir parte relevante? |
-| Evidência | O que prova o fato? |
-| Consequência | Qual tratamento foi previsto? |
-
-## Medida, meta e compromisso
-
-| Conceito | Função |
-|---|---|
-| <abbr title="Service Level Indicator">SLI</abbr> | Resultado observado |
-| <abbr title="Service Level Objective">SLO</abbr> | Meta pretendida |
-| <abbr title="Service Level Agreement">SLA</abbr> | Compromisso contratual |
-| <abbr title="Instrumento de Medição de Resultado">IMR</abbr> | Estrutura federal de aferição |
-| Aceitação | Condição para receber |
-| Consequência | Efeito do resultado |
-
-- SLI e SLO são termos técnicos frequentes.
-- Indicador não cria obrigação.
-- IMR não é sanção.
-
-## Ficha do indicador
-
-- finalidade;
-- fórmula;
-- unidade;
-- população;
-- exclusões;
-- início e fim do relógio;
-- horário útil ou corrido;
-- calendário e fuso;
-- severidade;
-- reabertura e duplicidade;
-- arredondamento;
-- período;
-- fonte primária;
-- versão e vigência;
-- dado ausente;
-- evento contestado;
-- evidência;
-- responsáveis;
-- consequência.
-
-## Fórmulas
-
-```text
-disponibilidade =
-(tempo previsto − indisponibilidade computável)
-÷ tempo previsto × 100
-```
-
-```text
-prazo =
-demandas computáveis concluídas no prazo
-÷ demandas concluídas computáveis × 100
-```
-
-```text
-conformidade =
-entregas aceitas sem correção
-÷ entregas avaliadas × 100
-```
-
-## Integridade do dado
-
-- identificador único;
-- relógio sincronizado;
-- trilha de criação e alteração;
-- segregação entre registrar e validar;
-- fonte primária independente;
-- relatório de mudanças;
-- conciliação entre sistemas;
-- memória reproduzível;
-- retenção definida.
-
-## Manipulação de métricas
-
-| Conduta | Risco |
-|---|---|
-| fechar e reabrir | encurtar prazo |
-| rebaixar severidade | ampliar prazo |
-| excluir evento | melhorar resultado |
-| iniciar registro tarde | encurtar duração |
-| escolher amostra | superestimar qualidade |
-| chamar falha de manutenção | retirar indisponibilidade |
-| editar sem log | impedir auditoria |
-
-## Estatística
-
-- média pode esconder cauda;
-- mediana resiste a extremo;
-- percentil mostra limite de parte da distribuição;
-- máximo revela pior caso;
-- proporção no prazo responde cumprimento;
-- segmentar por severidade evita mistura indevida.
-
-## Piso crítico
-
-- requisito eliminatório;
-- piso mínimo;
-- teto do escore global;
-- indicador crítico independente;
-- não compensação;
-- consequência própria.
-
-## Evidências
-
-| Evidência | Uso |
-|---|---|
-| registro primário | evento na origem |
-| log íntegro | autoria e horário |
-| teste reproduzível | comportamento |
-| documento assinado | declaração e autoria |
-| foto ou vídeo | condição visual |
-| relatório derivado | síntese dependente da origem |
-| entrevista | contexto com corroboração |
-| captura de tela | apoio limitado |
-
-## Amostragem
-
-| Método | Uso |
-|---|---|
-| aleatória | reduzir viés |
-| estratificada | representar grupos |
-| sistemática | intervalos definidos |
-| por risco | focar criticidade |
-| censitária | população pequena ou crítica |
-| reexecução | repetir cálculo ou teste |
-
-Registrar população, período, unidade, método, tamanho, exclusões, seleção, resultado e limitações.
-
-## Papéis
-
-| Atividade | Fiscal | Gestor | Preposto | Autoridade |
-|---|---|---|---|---|
-| coletar evidência | executa | acompanha | fornece | — |
-| validar medição | executa | consolida | manifesta-se | — |
-| exigir correção | executa | acompanha | mobiliza | — |
-| alterar contrato | instrui | propõe | representa | decide |
-| sancionar | registra | instrui | defende-se | decide |
-| decidir pleito | instrui | encaminha | formula | decide |
-
-## Fiscal
-
-Pode:
-
-- observar;
-- testar;
-- medir;
-- registrar;
-- exigir correção prevista;
-- verificar correção;
-- escalar matéria;
-- atestar conforme atribuição.
-
-Não pode:
-
-- criar obrigação;
-- alterar preço ou objeto;
-- dirigir empregados;
-- assumir a execução;
-- sancionar sem competência;
-- atestar sem prova;
-- reter matéria fora da alçada.
-
-## Assistência por terceiros
-
-- terceiro pode subsidiar;
-- laudo deve ser avaliado;
-- terceiro responde pelo que fornece;
-- responsabilidade do fiscal permanece;
-- decisão é do agente competente.
-
-## Preposto
-
-- representa a contratada;
-- recebe comunicações;
-- mobiliza a empresa;
-- apresenta justificativa e evidência;
-- acompanha a medição;
-- organiza correção;
-- não substitui o fiscal;
-- não substitui responsável técnico.
-
-A recusa ou substituição deve ser motivada.
-
-## Ordens e não ingerência
-
-Regra: solicitações aos empregados passam pelo preposto.
-
-Exceção: tarefa específica previamente prevista pode admitir notificação operacional direta.
-
-Nunca autoriza:
-
-- ordem pessoal estranha ao objeto;
-- gestão de jornada ou folga;
-- escolha informal de empregado;
-- criação de obrigação;
-- subordinação trabalhista.
-
-## Eventos
-
-| Evento | Pergunta |
-|---|---|
-| incidente | houve degradação? |
-| não conformidade | requisito foi descumprido? |
-| solicitação | atividade prevista foi pedida? |
-| mudança | ambiente será alterado? |
-| pleito | parte pede reconhecimento? |
-| risco materializado | previsão ocorreu? |
-| problema | qual causa recorrente? |
-
-## Incidente
-
-```text
-detectar
-→ classificar
-→ preservar
-→ comunicar
-→ conter
-→ restaurar
-→ resolver
-→ validar
-→ analisar causa
-→ corrigir
-→ prevenir
-→ encerrar
-```
-
-- resposta ≠ contenção;
-- restauração ≠ resolução definitiva;
-- resolução ≠ validação;
-- correção ≠ apagamento da ocorrência.
-
-## Governança
-
-| Rito | Finalidade |
-|---|---|
-| reunião inicial | ativar papéis e canais |
-| operacional | acompanhar pendências |
-| mensal | fechar medição |
-| incidente crítico | impacto e causa |
-| riscos | atualizar controles |
-| mudança | avaliar efeitos |
-| transição | transferir histórico |
-| encerramento | concluir pendências |
-
-Toda ata útil contém ação, responsável, prazo, estado e evidência.
-
-## Tratamento do desvio
-
-1. preservar evidência;
-2. ligar fato ao critério;
-3. avaliar urgência e competência;
-4. comunicar o preposto;
-5. exigir correção prevista;
-6. analisar manifestação;
-7. testar eficácia;
-8. atualizar medição e risco;
-9. escalar o excedente.
-
-Trilhas distintas:
-
-- corrigir;
-- medir;
-- decidir valor devido;
-- apurar responsabilidade.
-
-## Decisões e requerimentos
-
-- decisão deve ser explícita;
-- requerimento manifestamente impertinente pode receber tratamento próprio;
-- fonte pedida define termo inicial;
-- fiscal instrui, autoridade decide quando necessário;
-- silêncio não substitui decisão.
-
-## Transição
-
-Transferir:
-
-- pendências;
-- incidentes;
-- pleitos;
-- medições;
-- acessos;
-- ativos;
-- documentos;
-- dados;
-- conhecimento;
-- prazos;
-- riscos.
-
-Revogar credenciais antigas. Treinamento exige conteúdo, público, prova e aceite.
-
-## Pegadinhas
-
-| Afirmação | Julgamento |
-|---|---|
-| média adequada prova atendimento uniforme | errado |
-| percentil revela cauda | certo |
-| contratada escolhe sozinha a amostra | errado |
-| sistema eletrônico garante verdade | errado |
-| severidade pode ser manipulada | certo |
-| falha crítica pode ter piso não compensável | certo |
-| restauração sempre é resolução | errado |
-| terceiro transfere responsabilidade do fiscal | errado |
-| preposto assume responsabilidade da Administração | errado |
-| ordem direta é sempre permitida | errado |
-| reunião inicial muda fórmula | errado |
-| foto prova disponibilidade mensal | errado |
-| correção apaga ocorrência | errado |
-| troca de fiscal reinicia histórico | errado |
-| Contratos.gov.br é obrigatório ao TCE-MA | errado |
-
-## Sequência de prova
-
-1. identifique obrigação;
-2. identifique fonte e âmbito;
-3. defina evento e população;
-4. valide relógio e evidência;
-5. calcule resultado;
-6. ouça a contratada;
-7. trate correção;
-8. separe pagamento e sanção;
-9. escale competência;
-10. preserve histórico.
+> **Corte:** edital publicado em 7/7/2026. A Lei nº 14.133/2021 fornece a base geral; a <abbr title="Instrução Normativa">IN</abbr> nº 5/2017, aplicada **no que couber** pela <abbr title="Instrução Normativa">IN</abbr> nº 98/2022, e os Decretos nº 11.246/2022 e 13.031/2026 têm âmbito federal próprio. Presença no programa do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> não os converte em regulamento interno do Tribunal. Indicadores e compromissos valem segundo contrato e norma aplicável.
+
+## 1. Transforme a obrigação em medida verificável
+
+**Obrigação pactuada → critério anterior ao fato → dado confiável → comparação com meta → registro → consequência prevista.** Fiscalização aplica o contrato; não cria meta ou exclusão depois de ver os números.
+
+| Camada | Pergunta |
+| --- | --- |
+| <abbr title="Indicador de Nível de Serviço">SLI</abbr> | **O que foi medido?** Ex.: proporção de demandas computáveis no prazo. |
+| <abbr title="Objetivo de Nível de Serviço">SLO</abbr> | **Que meta foi estabelecida?** Ex.: pelo menos 95%. |
+| <abbr title="Acordo de Nível de Serviço">SLA</abbr> | **Qual compromisso de nível de serviço e consequência foram pactuados?** |
+| <abbr title="Instrumento de Medição de Resultado">IMR</abbr> | No modelo federal da <abbr title="Instrução Normativa">IN</abbr> nº 5, que níveis de qualidade objetivamente observáveis e adequações do pagamento estão previstos? Pode coexistir com outros meios de avaliação; não é sinônimo obrigatório de <abbr title="Acordo de Nível de Serviço">SLA</abbr> nem sanção. |
+
+As três primeiras siglas são linguagem de gestão, não categorias legais obrigatórias. Uma ficha útil fixa **população e unidade; inclusões/exclusões; relógio e período; fonte primária; fórmula; meta/tolerância; versão; evidência; consequência e responsável**. Inclusão de evento e regra de exclusão devem ser anteriores ao cálculo.
+
+Para prazo: demandas computáveis concluídas no prazo ÷ total de demandas computáveis × 100. Para disponibilidade: (tempo computável − indisponibilidade computável) ÷ tempo computável × 100. Excluir manutenção, atraso de terceiro, reabertura ou período fora do expediente só quando o instrumento o autorizar. Não mude o denominador para melhorar o resultado.
+
+**Média** pode esconder poucas falhas críticas. <abbr title="percentil 95">P95</abbr> de tempo de resposta indica, conforme o método de cálculo definido, o valor até o qual ficam 95% das observações; não informa o pior evento. Segmente por unidade e severidade quando pertinente. Piso crítico ou indicador não compensável só vale quando previsto, sem invenção pelo fiscal depois do desempenho.
+
+## 2. Faça o relatório voltar à evidência
+
+| Pergunta de auditoria | Prova necessária |
+| --- | --- |
+| Qual foi o universo? | Registro primário com eventos, identificação, marco temporal e estado; reconciliação do relatório derivado com numerador/denominador. |
+| O que foi excluído? | Evento e motivo contratual identificados; trilha de criação/alteração, autoria e versão. Fechar e reabrir chamados, alterar severidade e iniciar relógio tarde exigem verificação, sem presumir fraude. |
+| A conclusão é reproduzível? | Regra, base, período, cálculo e memória; foto isolada ou declaração genérica raramente prova disponibilidade mensal. Integridade digital precisa de controles, não decorre do simples uso de sistema. |
+| Usou amostra? | População, unidade, seleção, tamanho, período, grupos ausentes e limite de inferência. Amostra dirigida por risco encontra problemas, mas não representa automaticamente toda a população; contratada não escolhe sozinha os eventos examinados. |
+
+Em caso de divergência, preserve base e versões, refaça a apuração, registre a diferença e comunique ao preposto. A avaliação pertence à fiscalização mesmo quando o prestador fornece dados; ciência do preposto não é concordância. Uma falha crítica não espera reunião mensal só porque a governança prevê calendário.
+
+## 3. Separe papéis e efeitos de um incidente
+
+O fiscal acompanha, anota em registro próprio, determina regularização de faltas/defeitos dentro de sua competência e informa tempestivamente aos superiores o que a excede (Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 117). Um ou mais fiscais podem ser designados. Jurídico e controle interno ajudam a dirimir dúvidas e prevenir riscos; terceiro contratado pode subsidiar, sem assumir competência exclusiva nem exonerar o fiscal.
+
+**Preposto** representa a contratada, é aceito pela Administração e, no modelo da <abbr title="Instrução Normativa">IN</abbr> nº 5, designado formalmente antes de iniciar; recusa precisa de motivo. A Administração cobra resultado e o preposto mobiliza a empresa. Comunicação direta a empregado só quando o objeto previa notificação para tarefa específica; nunca direção habitual de jornada, folga ou escolha nominal de trabalhadores.
+
+| Evento | Trilha adequada |
+| --- | --- |
+| Solicitação normal | Acionar serviço previsto; não é infração por si. |
+| Incidente | Conter impacto → restaurar → solucionar causa → validar e prevenir se cabível. Restauração temporária não é resolução final. |
+| Não conformidade | Comparar obrigação e prova → registrar fato, data, responsável e prazo → exigir correção → verificar eficácia. Correção não apaga ocorrência. |
+| Resultado abaixo da meta | Aplicar medição/redimensionamento **previsto**, depois de conferir dados e manifestação. Glosa não é automaticamente multa. |
+| Possível infração ou pleito | Instruir e remeter à autoridade competente; sanção exige rito próprio, alteração contratual exige forma própria. Pedidos relativos à execução recebem decisão explícita, salvo os manifestamente impertinentes/protelatórios/sem interesse; salvo prazo específico, Lei nº 14.133/2021, <abbr title="artigo">art.</abbr> 123: um mês da **conclusão da instrução**, prorrogável motivadamente por igual período. |
+
+Reunião inicial apresenta obrigações, indicadores e canais; reuniões operacionais acompanham pendências; atas úteis registram ação, responsável, prazo e evidência. Elas não alteram informalmente a fórmula contratual. Troca de fiscal ou preposto exige transferir medições, incidentes, pleitos, riscos, documentos, acessos e histórico; não reinicia prazo. Na transição final, devolva ativos e conhecimento e revogue credenciais sem finalidade.
+
+No modelo federal de 2026, o Decreto nº 13.031 requer modelo interno com agentes/substitutos, comunicação via representantes/preposto, métodos de avaliação para recebimento, prazos para pleitos econômicos e procedimentos de sanção, glosa e extinção. Contratos.gov.br organiza o registro e exige integridade dos dados; não substitui papéis nem critério. Seu uso não se torna automático para o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
+
+**Caso decisivo:** 100 demandas computáveis, 92 no prazo, meta de 95%. A empresa exclui cinco atrasos sem previsão e apresenta 92/95 ≈ 97%. Reponha as cinco no denominador: **92/100 = 92%**. Registre base e cálculo, ouça a empresa, exija correção cabível e aplique apenas a consequência prevista; encaminhe sanção ou alteração para decisão competente.
