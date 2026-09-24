@@ -18,7 +18,8 @@ Uma troca é válida quando a nova forma cabe **naquele contexto** e preserva, n
 - <abbr title="termo de sentido mais amplo que inclui outros mais específicos">Hiperônimo</abbr> → mais amplo: **veículo**.
 - <abbr title="termo de sentido mais específico incluído em outro mais amplo">Hipônimo</abbr> → mais específico: **automóvel**.
 - automóvel → veículo é generalização; veículo → automóvel é restrição.
-- mesmo campo semântico ≠ mesmo significado.
+- mesmo campo semântico ≠ mesmo significado; **página** é parte de **relatório**, não uma espécie dele;
+- *grande homem* (destaque) ≠ *homem grande* (dimensão).
 
 ## Referência
 
@@ -39,7 +40,8 @@ A troca também deve preservar **quem/o que** a expressão designa.
 ## Compromisso e quantidade
 
 - **pode** ≠ **vai/certamente**;
-- **todos** ≠ **alguns** ≠ **nenhum**;
+- **todos** ≠ **alguns** ≠ **nenhum**; **nem todos** ≠ **nenhum**;
+- **até 30** inclui 30 como teto; **mais de 30** o exclui;
 - *alguns* não significa lexicalmente “alguns e não todos” em toda situação;
 - <abbr title="trecho do enunciado sobre o qual uma palavra ou operador exerce efeito">escopo</abbr> muda com a posição: **Apenas Ana revisou** ≠ **Ana revisou apenas o relatório**.
 
@@ -49,7 +51,7 @@ Cheque:
 
 **acepção → referente → inferências → modalidade/quantidade → escopo → flexão/regência/concordância → frase inteira**.
 
-Termo técnico pode exigir precisão: no art. 53 da Lei nº 9.784/1999, **anular** e **revogar** não são variantes livres.
+Leia expressões inteiras (*levar em conta* → *considerar*) e preserve relações (*porque choveu* indica causa; *se chover*, condição). Termo técnico pode exigir precisão: no processo administrativo federal, <abbr title="artigo">art.</abbr> 53 da Lei nº 9.784/1999, **anular** e **revogar** não são variantes livres.
 
 ## Fronteiras
 
