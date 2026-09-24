@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u094-a01",
@@ -34,17 +34,17 @@
     },
     {
       "id": "u094-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Constitui hipótese de flagrante próprio ou real, segundo os incisos I e II do art. 302, a situação em que o agente",
       "options": [
         {
           "id": "A",
-          "text": "está cometendo a infração ou acaba de cometê-la."
+          "text": "é encontrado dias depois sem qualquer elemento relacionado ao fato."
         },
         {
           "id": "B",
-          "text": "é encontrado dias depois sem qualquer elemento relacionado ao fato."
+          "text": "está cometendo a infração ou acaba de cometê-la."
         },
         {
           "id": "C",
@@ -59,18 +59,18 @@
           "text": "é intimado para depor sobre infração já encerrada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Os incisos I e II do art. 302 correspondem ao flagrante próprio: execução em curso ou infração que acabou de ser cometida."
     },
     {
       "id": "u094-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No flagrante do art. 302, III, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "a perseguição deve iniciar logo após o fato e ocorrer em circunstâncias que façam presumir ser o perseguido o autor, sem que a lei fixe teto geral de 24 horas."
+          "text": "a perseguição somente pode ser feita pela autoridade policial."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "a perseguição somente pode ser feita pela autoridade policial."
+          "text": "a perseguição deve iniciar logo após o fato e ocorrer em circunstâncias que façam presumir ser o perseguido o autor, sem que a lei fixe teto geral de 24 horas."
         },
         {
           "id": "D",
@@ -89,18 +89,18 @@
           "text": "a hipótese exige que o agente seja encontrado com objetos do crime, mas dispensa perseguição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O inciso III exige perseguição logo após, por autoridade, ofendido ou qualquer pessoa, em situação que faça presumir autoria. O CPP não cria prazo fixo de 24 horas para a perseguição."
     },
     {
       "id": "u094-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma pessoa é encontrada logo depois da infração com instrumentos e objetos que, pelas circunstâncias, fazem presumir ser ela a autora. A hipótese corresponde ao",
       "options": [
         {
           "id": "A",
-          "text": "art. 302, IV, usualmente chamado de flagrante presumido ou ficto."
+          "text": "flagrante preparado, necessariamente inválido."
         },
         {
           "id": "B",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "flagrante preparado, necessariamente inválido."
+          "text": "art. 302, IV, usualmente chamado de flagrante presumido ou ficto."
         },
         {
           "id": "E",
           "text": "cumprimento de mandado de prisão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O inciso IV usa a fórmula 'encontrado, logo depois' com instrumentos, armas, objetos ou papéis que façam presumir autoria. É o flagrante presumido."
     },
     {
       "id": "u094-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nas infrações permanentes, o art. 303 estabelece que",
       "options": [
         {
           "id": "A",
-          "text": "o agente é considerado em flagrante enquanto não cessar a permanência."
+          "text": "o flagrante depende sempre de mandado judicial."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "o flagrante depende sempre de mandado judicial."
+          "text": "o agente é considerado em flagrante enquanto não cessar a permanência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A consumação do crime permanente se prolonga no tempo; por isso, o art. 303 mantém a situação flagrancial enquanto não cessar a permanência."
     },
     {
@@ -184,17 +184,17 @@
     },
     {
       "id": "u094-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Apresentado o preso à autoridade competente, qual é a sequência básica prevista no caput do art. 304?",
       "options": [
         {
           "id": "A",
-          "text": "Oitiva do condutor, depois das testemunhas e, em seguida, interrogatório do acusado, com lavratura final do auto."
+          "text": "Interrogatório do acusado, sentença e oitiva do condutor."
         },
         {
           "id": "B",
-          "text": "Interrogatório do acusado, sentença e oitiva do condutor."
+          "text": "Oitiva do condutor, depois das testemunhas e, em seguida, interrogatório do acusado, com lavratura final do auto."
         },
         {
           "id": "C",
@@ -209,18 +209,18 @@
           "text": "Oitiva do juiz, do Ministério Público e depois do condutor."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O art. 304 organiza o APF começando pelo condutor, seguindo para testemunhas e interrogatório do acusado, com assinaturas e lavratura final do auto."
     },
     {
       "id": "u094-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se não houver testemunhas presenciais da própria infração,",
       "options": [
         {
           "id": "A",
-          "text": "isso não impede o auto; com o condutor, devem assiná-lo pelo menos duas pessoas que tenham testemunhado a apresentação do preso à autoridade."
+          "text": "o auto só pode ser lavrado se houver confissão."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "o auto só pode ser lavrado se houver confissão."
+          "text": "isso não impede o auto; com o condutor, devem assiná-lo pelo menos duas pessoas que tenham testemunhado a apresentação do preso à autoridade."
         },
         {
           "id": "D",
@@ -239,18 +239,18 @@
           "text": "a autoridade deve substituir o auto por mandado judicial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "É a regra do art. 304, §2º: a falta de testemunhas da infração não impede o APF; exige-se, com o condutor, a assinatura de ao menos duas testemunhas da apresentação."
     },
     {
       "id": "u094-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando o acusado se recusa a assinar o auto de prisão em flagrante,",
       "options": [
         {
           "id": "A",
-          "text": "o auto pode ser assinado por duas testemunhas que tenham ouvido sua leitura na presença do acusado."
+          "text": "a recusa equivale a confissão."
         },
         {
           "id": "B",
@@ -262,25 +262,25 @@
         },
         {
           "id": "D",
-          "text": "a recusa equivale a confissão."
+          "text": "o auto pode ser assinado por duas testemunhas que tenham ouvido sua leitura na presença do acusado."
         },
         {
           "id": "E",
           "text": "a autoridade pode dispensar qualquer assinatura."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 304, §3º, prevê duas testemunhas que tenham ouvido a leitura na presença do acusado quando ele se recusa, não sabe ou não pode assinar."
     },
     {
       "id": "u094-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O auto de prisão em flagrante deve registrar, quanto aos filhos da pessoa presa,",
       "options": [
         {
           "id": "A",
-          "text": "existência, idades, eventual deficiência e nome e contato de eventual responsável pelos cuidados indicado pela pessoa presa."
+          "text": "nenhuma informação, pois o tema é estranho ao auto."
         },
         {
           "id": "B",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "nenhuma informação, pois o tema é estranho ao auto."
+          "text": "existência, idades, eventual deficiência e nome e contato de eventual responsável pelos cuidados indicado pela pessoa presa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O art. 304, §4º, exige essas informações de forma expressa."
     },
     {
@@ -334,17 +334,17 @@
     },
     {
       "id": "u094-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o art. 306, a prisão e o local onde a pessoa se encontra devem ser comunicados imediatamente",
       "options": [
         {
           "id": "A",
-          "text": "ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada."
+          "text": "somente ao juiz, dispensadas as demais comunicações."
         },
         {
           "id": "B",
-          "text": "somente ao juiz, dispensadas as demais comunicações."
+          "text": "ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "somente após 48 horas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O caput do art. 306 exige comunicação imediata ao juiz, ao Ministério Público e à família ou pessoa indicada."
     },
     {
       "id": "u094-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em até 24 horas após a prisão, o Código de Processo Penal exige, entre outros atos,",
       "options": [
         {
           "id": "A",
-          "text": "envio do auto ao juiz e entrega da nota de culpa ao preso; se não houver advogado informado, envia-se cópia integral à Defensoria Pública."
+          "text": "encerramento obrigatório de todo o inquérito."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "encerramento obrigatório de todo o inquérito."
+          "text": "envio do auto ao juiz e entrega da nota de culpa ao preso; se não houver advogado informado, envia-se cópia integral à Defensoria Pública."
         },
         {
           "id": "D",
@@ -389,18 +389,18 @@
           "text": "julgamento do mérito da ação penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "São providências dos §§1º e 2º do art. 306. A comunicação do caput é imediata; o encaminhamento documental e a nota de culpa têm prazo de até 24 horas."
     },
     {
       "id": "u094-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A nota de culpa entregue ao preso deve conter",
       "options": [
         {
           "id": "A",
-          "text": "o motivo da prisão, o nome do condutor e os nomes das testemunhas."
+          "text": "somente o nome do juiz da futura ação."
         },
         {
           "id": "B",
@@ -412,25 +412,25 @@
         },
         {
           "id": "D",
-          "text": "somente o nome do juiz da futura ação."
+          "text": "o motivo da prisão, o nome do condutor e os nomes das testemunhas."
         },
         {
           "id": "E",
           "text": "a íntegra de todos os laudos que ainda serão produzidos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O art. 306, §2º, especifica motivo da prisão, nome do condutor e nomes das testemunhas."
     },
     {
       "id": "u094-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No regime do art. 310 vigente em 13 de julho de 2026, a audiência de custódia relativa ao flagrante",
       "options": [
         {
           "id": "A",
-          "text": "deve ocorrer em até 24 horas após a prisão, por videoconferência em tempo real, com acusado, defesa e Ministério Público."
+          "text": "dispensa a participação da defesa."
         },
         {
           "id": "B",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "dispensa a participação da defesa."
+          "text": "deve ocorrer em até 24 horas após a prisão, por videoconferência em tempo real, com acusado, defesa e Ministério Público."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A Lei 15.358/2026 deu ao caput do art. 310 a redação que prevê audiência em até 24 horas e videoconferência em tempo real, com acusado, defesa e Ministério Público."
     },
     {
@@ -484,17 +484,17 @@
     },
     {
       "id": "u094-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre a não realização da audiência de custódia e o art. 310, §4º, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "o STF atribuiu interpretação conforme para exigir avaliação judicial sobre prorrogação excepcional do prazo ou realização por videoconferência, afastando leitura mecânica de soltura automática."
+          "text": "o dispositivo nunca foi submetido a controle constitucional."
         },
         {
           "id": "B",
-          "text": "o dispositivo nunca foi submetido a controle constitucional."
+          "text": "o STF atribuiu interpretação conforme para exigir avaliação judicial sobre prorrogação excepcional do prazo ou realização por videoconferência, afastando leitura mecânica de soltura automática."
         },
         {
           "id": "C",
@@ -509,18 +509,18 @@
           "text": "o prazo só interessa à autoridade policial e não ao juiz."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "No julgamento conjunto das ADIs 6298, 6299, 6300 e 6305, o STF conferiu interpretação conforme ao §4º. A Lei 15.358/2026 depois tornou a videoconferência a regra do caput."
     },
     {
       "id": "u094-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Nos casos abrangidos pelo art. 310-A, a coleta de material biológico para perfil genético",
       "options": [
         {
           "id": "A",
-          "text": "é requerida ao juiz pelo Ministério Público ou pela autoridade policial, preferencialmente na audiência de custódia ou em até 10 dias, com agente treinado e cadeia de custódia."
+          "text": "pode ocorrer em qualquer prazo, sem documentação."
         },
         {
           "id": "B",
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "pode ocorrer em qualquer prazo, sem documentação."
+          "text": "é requerida ao juiz pelo Ministério Público ou pela autoridade policial, preferencialmente na audiência de custódia ou em até 10 dias, com agente treinado e cadeia de custódia."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "só existe depois do trânsito em julgado da condenação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O art. 310-A, incluído pela Lei 15.272/2025, prevê requerimento ao juiz, preferência pela própria audiência ou prazo de 10 dias, agente público treinado e observância da cadeia de custódia."
     },
     {
       "id": "u094-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 7 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, qual afirmação melhor distingue o flagrante impróprio do presumido?",
       "options": [
         {
           "id": "A",
-          "text": "No impróprio há perseguição iniciada logo após; no presumido o agente é encontrado logo depois com elementos que façam presumir autoria."
+          "text": "O presumido só existe em crime permanente."
         },
         {
           "id": "B",
@@ -562,25 +562,25 @@
         },
         {
           "id": "D",
-          "text": "O presumido só existe em crime permanente."
+          "text": "No impróprio há perseguição iniciada logo após; no presumido o agente é encontrado logo depois com elementos que façam presumir autoria."
         },
         {
           "id": "E",
           "text": "O impróprio exige que a polícia tenha provocado o crime."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O padrão oficial diferencia as espécies com base nas hipóteses do art. 302: perseguição logo após no inciso III e encontro logo depois com elementos incriminadores no inciso IV. A formulação foi convertida para múltipla escolha sem reprodução literal."
     },
     {
       "id": "u094-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do padrão definitivo da peça profissional Cebraspe para Delegado de Polícia Federal, aplicação de 27/7/2025, qual providência integra corretamente a formalização do flagrante?",
       "options": [
         {
           "id": "A",
-          "text": "Entregar nota de culpa ao preso no prazo legal, com motivo da prisão e identificação do condutor e das testemunhas, além de realizar as comunicações previstas no Código de Processo Penal."
+          "text": "Omitir a informação sobre filhos porque ela é juridicamente irrelevante ao auto."
         },
         {
           "id": "B",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "Omitir a informação sobre filhos porque ela é juridicamente irrelevante ao auto."
+          "text": "Entregar nota de culpa ao preso no prazo legal, com motivo da prisão e identificação do condutor e das testemunhas, além de realizar as comunicações previstas no Código de Processo Penal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O padrão oficial exigiu, entre as providências do APF, nota de culpa, garantias do preso, comunicações e registro sobre filhos. A alternativa foi adaptada sem reproduzir a peça profissional."
     }
   ]
