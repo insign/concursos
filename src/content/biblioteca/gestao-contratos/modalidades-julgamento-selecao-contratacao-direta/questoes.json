@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q1534",
@@ -169,18 +169,18 @@
     },
     {
       "id": "q1545",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No julgamento por técnica e preço, é correto afirmar que:",
       "options": [
-        {"id": "a", "text": "a proposta técnica pode valer até 70% e a pontuação por títulos até 10% da pontuação técnica total."},
+        {"id": "a", "text": "a proposta técnica pode valer até 70% da nota final, segundo critérios objetivos do edital."},
         {"id": "b", "text": "a proposta técnica deve valer exatamente 50% em todo certame."},
-        {"id": "c", "text": "a pontuação por títulos pode corresponder à totalidade da nota técnica."},
+        {"id": "c", "text": "a proposta técnica sempre vale 100% e o preço nunca compõe a nota."},
         {"id": "d", "text": "o modo aberto é obrigatório."},
         {"id": "e", "text": "o desempenho contratual pretérito jamais pode ser avaliado."}
       ],
       "correctOptionId": "a",
-      "explanation": "A técnica tem valoração máxima de 70%, e títulos podem representar no máximo 10% da pontuação técnica. O modo aberto é vedado nesse critério, e o desempenho pretérito deve ser considerado conforme o registro cadastral e a regulamentação. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "A técnica tem valoração máxima de 70% da nota final (art. 36, § 2º). O modo aberto é vedado nesse critério; o desempenho pretérito integra a pontuação técnica conforme os arts. 36, § 3º, e 37, III. A Lei nº 14.133/2021 não estabelece o teto de 10% para títulos antes afirmado neste item. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q1546",
@@ -679,18 +679,18 @@
     },
     {
       "id": "q1579",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na dispensa por emergência ou calamidade, a Lei permite contratar parcelas de obras e serviços:",
       "options": [
-        {"id": "a", "text": "concluíveis em até um ano contado da ocorrência, sem prorrogação baseada nessa hipótese."},
+        {"id": "a", "text": "necessários ao atendimento urgente e concluíveis em até um ano contado da ocorrência."},
         {"id": "b", "text": "de qualquer duração, se o contrato for assinado em um ano."},
         {"id": "c", "text": "concluíveis em até cinco anos."},
         {"id": "d", "text": "com prorrogações sucessivas enquanto houver conveniência."},
         {"id": "e", "text": "sem necessidade de preço compatível com o mercado."}
       ],
       "correctOptionId": "a",
-      "explanation": "O prazo de um ano conta da ocorrência da emergência ou calamidade e limita as parcelas concluíveis. O contrato não pode ser prorrogado com base no inciso VIII; preços de mercado e providências para a licitação substitutiva continuam exigidos. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "O prazo de um ano conta da ocorrência da emergência ou calamidade e limita as parcelas concluíveis. A literalidade do inciso VIII veda a prorrogação/recontratação; a ADI 6.890/DF delimita essa vedação para a mesma emergência além do ano. Preços de mercado e providências para a licitação substitutiva continuam exigidos. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q1580",

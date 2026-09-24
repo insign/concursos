@@ -1,226 +1,88 @@
 # Modalidades, julgamento, seleção e contratação direta
 
-## Mapa mental
+## Primeiro escolha o caminho
 
-| Pergunta | Resposta jurídica |
-|---|---|
-| Qual rito? | modalidade |
-| Como escolher a melhor proposta? | critério de julgamento |
-| Como apresentar ofertas? | modo de disputa |
-| A competição é inviável ou dispensável? | contratação direta |
-| Qual mecanismo apoia futuras contratações? | procedimento auxiliar |
+| Decisão | Pergunta | Regra |
+| --- | --- | --- |
+| Modalidade | Qual rito cabe ao **objeto**? | pregão, concorrência, concurso, leilão ou diálogo competitivo; valor não define modalidade. Não criar/combinar modalidades. |
+| Julgamento | O que faz uma proposta vencer? | seis critérios legais; não confundir com o rito. |
+| Disputa | Como se formam as ofertas? | aberta (lances públicos sucessivos), fechada (sigilo até a abertura) ou combinação permitida. |
+| Contratação direta | Há competição inviável ou dispensa **prevista em lei**? | inexigibilidade ou dispensa, ambas com processo motivado. |
+| Procedimento auxiliar | Como organizar futuras seleções? | credenciamento, pré-qualificação, manifestação de interesse, registro de preços ou cadastro; não são modalidades. |
 
-- Corte normativo: **6 jul. 2026**.
+**Corte:** publicação do Edital nº 1 em **7 jul. 2026**. Decreto federal e <abbr title="Instrução Normativa">IN</abbr> federal não incidem automaticamente no <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>; separe a lei nacional do regulamento de outro ente.
 
-## Modalidades
+## Modalidade e critério: acoplamentos
 
-- **Pregão:** bens e serviços comuns; menor preço ou maior desconto.
-- **Concorrência:** bens/serviços especiais e obras/serviços de engenharia; admite cinco critérios, exceto maior lance.
-- **Concurso:** trabalho técnico, científico ou artístico; melhor técnica ou conteúdo artístico; prêmio/remuneração.
-- **Leilão:** alienação de imóveis ou móveis inservíveis/legalmente apreendidos; maior lance; sem habilitação.
-- **Diálogo competitivo:** solução complexa/inovadora ou indefinível previamente; diálogo + competição.
-- Procedimentos auxiliares não são modalidades.
-- É proibido criar ou combinar modalidades.
-- Modalidade decorre da natureza do objeto, não do valor.
+| Modalidade | Objeto/gatilho | Julgamento relevante |
+| --- | --- | --- |
+| Pregão | bens e serviços **comuns** (padrões definíveis objetivamente por especificações usuais), inclusive engenharia comum; não serviços intelectuais predominantemente técnicos nem obras | menor preço ou maior desconto |
+| Concorrência | bens/serviços especiais e obras/serviços de engenharia | menor preço, maior desconto, melhor técnica/conteúdo artístico, técnica e preço ou maior retorno econômico; não maior lance |
+| Concurso | trabalho técnico, científico ou artístico | melhor técnica ou conteúdo artístico; prêmio/remuneração definidos no edital |
+| Leilão | alienação de imóveis ou móveis inservíveis/legalmente apreendidos | maior lance; sem habilitação nem cadastro prévio |
+| Diálogo competitivo | objeto cuja solução precisa ser construída com o mercado nas condições do artigo 32: inovação/adaptação/especificação imprecisa e definição de meios/alternativas | fase de diálogo seguida de competição por critérios objetivos |
 
-## Diálogo competitivo
+**Diálogo:** edital apresenta necessidade; **25 dias úteis** mínimos para manifestar interesse; admite todos que cumpram critérios objetivos. Não divulgar solução/informação sigilosa de um participante sem consentimento; reuniões em ata e áudio/vídeo. Depois da solução fundamentada, novo edital e **60 dias úteis** mínimos para propostas dos pré-selecionados. Comissão com pelo menos três servidores efetivos ou empregados permanentes.
 
-- Manifestação de interesse: mínimo de **25 dias úteis**.
-- Proposta final: mínimo de **60 dias úteis**.
-- Todos os que cumpram requisitos objetivos são admitidos.
-- Solução/informação confidencial só é revelada com consentimento.
-- Reuniões em ata e gravação de áudio e vídeo.
-- Comissão: ao menos três servidores efetivos/empregados permanentes.
+**Seis critérios (artigo 33):** menor preço; maior desconto sobre **preço global do edital** (alcança aditivos); melhor técnica/conteúdo artístico (só proposta técnica, prêmio/remuneração); técnica e preço (ponderação, técnica até **70%**); maior lance **no leilão**; maior retorno econômico **só no contrato de eficiência**, dado pela economia estimada menos proposta de preço. Para serviços intelectuais das alíneas **a, d, h** do artigo 6º, XVIII, acima de **R$ 392.952,63** em 2026, ressalvada inexigibilidade: melhor técnica ou técnica e preço, nesta com **70%** para técnica.
 
-## Critérios de julgamento
+**Modos (artigo 56):** fechado **isolado** é proibido para menor preço/maior desconto; aberto é proibido para técnica e preço. Se a melhor oferta superar a segunda por pelo menos **5%**, o edital pode permitir reinício da disputa aberta para ordenar as demais colocações. Não confundir lance com critério.
 
-1. menor preço;
-2. maior desconto;
-3. melhor técnica ou conteúdo artístico;
-4. técnica e preço;
-5. maior lance, no leilão;
-6. maior retorno econômico.
+## Da publicação à habilitação
 
-- **Maior desconto:** referência no preço global; estende-se aos aditivos.
-- **Melhor técnica:** só proposta técnica/artística; edital fixa prêmio/remuneração.
-- **Técnica e preço:** proposta técnica vale no máximo 70%; títulos, no máximo 10% da técnica.
-- Serviços intelectuais das alíneas `a`, `d` e `h` do art. 6º, XVIII, acima de **R$ 392.952,63**: melhor técnica ou técnica e preço; nesta, técnica = 70%.
-- **Maior retorno econômico:** exclusivo de contrato de eficiência.
-- Retorno econômico = economia estimada - proposta de preço.
+**Objeto altera exigências:** em compras, parcelar quando viável técnica e economicamente, sem romper sistema integrado nem perder escala; marca só excepcionalmente e justificada. Na engenharia, integrada parte de anteprojeto (contratado faz projetos básico e executivo), semi-integrada parte de projeto básico (contratado faz executivo); obra exige projeto executivo, ressalva do artigo 18, § 3º. Em terceirização, fiscalizar sem indicar empregados ou criar subordinação/pessoalidade. Licitação internacional é processada no País, admite estrangeiros e eventual cotação em moeda estrangeira; se esta for permitida ao estrangeiro, brasileiro também poderá cotar assim, com pagamento em moeda nacional.
 
-## Modos de disputa
+**Publicidade:** exame jurídico antes do edital, com dispensas nas hipóteses definidas pela autoridade jurídica competente; inteiro teor e anexos no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>, extrato no diário oficial e jornal diário de grande circulação. Após homologação, disponibilizar no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> documentos preparatórios não incorporados ao edital.
 
-- **Aberto:** lances públicos e sucessivos.
-- **Fechado:** propostas sigilosas até abertura.
-- Fechado isolado é vedado no menor preço/maior desconto.
-- Aberto é vedado na técnica e preço.
-- Reinício do aberto para ordenar demais colocações pode ocorrer se diferença entre 1º e 2º for pelo menos 5%.
+| Edital: prazo mínimo de propostas/lances (artigo 55) | Dias úteis |
+| --- | ---: |
+| bens: menor preço/desconto; demais critérios | 8; 15 |
+| serviços comuns e obras/serviços comuns de engenharia: menor preço/desconto | 10 |
+| serviços especiais e obras/serviços especiais de engenharia: menor preço/desconto | 25 |
+| contratação integrada; semi-integrada ou outras obras/serviços | 60; 35 |
+| maior lance; técnica e preço ou melhor técnica | 15; 35 |
 
-## Propostas
+Alteração que **afeta a formulação de propostas** exige nova divulgação e mesmos prazos. Redução fundamentada até metade: licitações do Ministério da Saúde no <abbr title="Sistema Único de Saúde">SUS</abbr>, não regra geral estadual.
 
-- Garantia de proposta: facultativa no edital; até **1%** do estimado.
-- Devolução: até dez dias úteis da assinatura ou declaração de fracasso.
-- Recusa em contratar/não entrega de documentos: execução integral da garantia.
-- Engenharia abaixo de **75%** do orçamento: literalidade do art. 59, § 4º.
-- <abbr title="Tribunal de Contas da União">TCU</abbr>, Acórdão 803/2024: 75% gera presunção relativa → oportunizar demonstração da exequibilidade por diligência.
-- Vencedora abaixo de **85%** do orçamento: garantia adicional.
-- Cálculo adotado pelo TCU: **85% do orçamento − proposta**.
-- Ex.: orçamento R$ 1.000.000; proposta R$ 800.000 → garantia adicional **R$ 50.000**.
+**Proposta:** garantia de proposta é facultativa no edital, como pré-habilitação, até **1%** do estimado; devolvida em até dez dias úteis da assinatura ou declaração de fracasso; recusa em assinar/não apresentar documentos executa o valor integral. Desclassifique defeito insanável, desconformidade técnica, preço inexequível/acima do orçamento ou exequibilidade não demonstrada após exigência; diligência pode aferir exequibilidade.
 
-## Compras — art. 44-A do <abbr title="Sistema Único de Saúde">SUS</abbr>
+**Engenharia (artigo 59):** lei qualifica como inexequível proposta **inferior a 75%** do orçamento; o <abbr title="Tribunal de Contas da União">TCU</abbr> a trata como presunção relativa, com oportunidade de demonstrar exequibilidade. Vencedor **inferior a 85%** presta garantia adicional além das demais; cálculo exemplificado pelo <abbr title="Tribunal de Contas da União">TCU</abbr>: **85% do orçamento − proposta** (R$ 1 milhão e proposta de R$ 800 mil → R$ 50 mil). Os dois limiares têm funções distintas.
 
-- Vigente desde **16 mar. 2026**.
-- Equipamento diagnóstico/terapêutico do SUS acima do art. 75, II: considerar adequado aproveitamento durante toda a vida útil.
-- Edital: demonstrar capacidade instalada para operação **ou** plano de atendimento aos requisitos necessários.
-- §§ 2º a 5º: **vetados**.
-- Não atribua à lei listas de pessoal, manutenção, insumos, infraestrutura ou descarte dos dispositivos vetados.
+**Desempate (artigo 60):** disputa final → desempenho contratual prévio → equidade entre homens e mulheres → integridade; depois preferência sucessiva para empresa local nos termos legais, brasileira, investidora em <abbr title="Pesquisa e Desenvolvimento">P&D</abbr> no País e praticante de mitigação climática, preservado o regime de <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr>.
 
-## Desempate
+Após julgamento, é possível negociar com o primeiro; se permanecer acima do máximo, com os seguintes na ordem, publicando o resultado e juntando-o aos autos.
 
-1. disputa final;
-2. desempenho contratual prévio;
-3. ações de equidade entre homens e mulheres;
-4. programa de integridade.
+**Habilitação:** jurídica, técnica, fiscal/social/trabalhista e econômico-financeira. Regra: exigir documentos apenas do vencedor; regularidade fiscal após julgamento, só do mais bem classificado. Diligência complementa informação sobre fato já existente ou atualiza documento vencido **após a apresentação da proposta**, sem criar requisito novo. Atestados técnicos: parcela de relevância/valor significativo individual ≥ **4%** do estimado; quantidade exigível até **50%** dessas parcelas, sem limitações temporais/locais nos atestados. Serviço contínuo pode exigir experiência similar por até **3 anos**, sucessivos ou não. Capital/patrimônio líquido mínimo até **10%**; não exigir rentabilidade/lucratividade ou faturamento anterior mínimo.
 
-Preferência sucessiva: empresa local nos termos do art. 60; brasileira; investidora em <abbr title="Pesquisa e Desenvolvimento">P&D</abbr> no País; praticante de mitigação climática. Preserve o regime de <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr>.
+**Fecho:** autoridade superior pode sanear, revogar por fato superveniente comprovado, anular ilegalidade insanável ou adjudicar e homologar. Anulação/revogação asseguram manifestação prévia.
 
-## Prazos mínimos do edital
+## Contratação direta: fundamento não dispensa instrução
 
-| Hipótese | Prazo |
-|---|---:|
-| bens, menor preço/maior desconto | 8 dias úteis |
-| bens, demais | 15 dias úteis |
-| serviços comuns e engenharia comum, menor preço/desconto | 10 dias úteis |
-| serviços especiais e engenharia especial, menor preço/desconto | 25 dias úteis |
-| contratação integrada | 60 dias úteis |
-| semi-integrada e demais serviços/obras | 35 dias úteis |
-| maior lance | 15 dias úteis |
-| técnica e preço ou melhor técnica | 35 dias úteis |
+| Caminho | Teste | Hipóteses que ancoram a decisão |
+| --- | --- | --- |
+| Inexigibilidade (artigo 74) | competição **inviável**; rol exemplificativo | fornecedor exclusivo provado (sem preferência por marca); artista consagrado por crítica/opinião, direto ou empresário exclusivo permanente; serviço técnico intelectual com notória especialização (exceto publicidade/divulgação), sem substituir/subcontratar os profissionais determinantes; credenciamento; imóvel cujas instalações/localização tornam necessária a escolha, com avaliação, inexistência de imóvel público apto e vantagem. |
+| Dispensa (artigo 75) | competição em tese possível; **hipóteses legais taxativas** | valor, emergência, licitação anterior deserta/frustrada nas condições de um ano, objetos e situações específicos. Não converter peculiaridade em permissão geral. |
 
-- Redução até a metade: somente licitações do Ministério da Saúde no SUS, por decisão fundamentada.
-- Mudança que afete propostas: nova divulgação e mesmos prazos.
+**Processo do artigo 72:** formalização da demanda e artefatos de planejamento **se cabíveis**; estimativa (artigo 23); parecer jurídico/técnico quando cabível; recursos orçamentários; habilitação mínima; razão da escolha; justificativa do preço; autorização da autoridade competente. Publicar ato autorizativo ou extrato em sítio oficial. Contratação direta indevida com dolo, fraude ou erro grosseiro: agente e contratado respondem solidariamente pelo dano.
 
-## Habilitação
+**Dispensa por valor em 2026 (decreto nº 12.807/2025):** engenharia/manutenção de veículos, **inferior a R$ 130.984,20**; demais serviços/compras, **inferior a R$ 65.492,11**. Conferir **simultaneamente** total gasto pela unidade gestora no exercício e despesa com objetos da mesma natureza/ramo; não fracionar. Valores dobrados para consórcio público e agência executiva; manutenção de veículo até **R$ 10.478,74**, incluídas peças, escapa ao somatório legal. Aviso por três dias úteis e cartão de pagamento são **preferenciais** na lei, com publicidade do extrato do cartão.
 
-- Jurídica; técnica; fiscal, social e trabalhista; econômico-financeira.
-- Regra: documentos só do vencedor; fiscal após julgamento e só do mais bem classificado.
-- Diligência não cria condição nova: complementa fato já existente ou atualiza documento vencido depois da proposta.
-- Parcela técnica relevante: valor individual igual ou superior a 4% do estimado.
-- Quantitativo técnico mínimo: até 50% da parcela relevante.
-- Art. 67, § 2º: vedadas limitações temporais e locais relativas aos atestados.
-- **Serviço contínuo (§ 5º):** pode exigir experiência similar por período mínimo de até **3 anos**, sucessivos ou não.
-- Capital/patrimônio líquido mínimo: até 10% do estimado.
-- Vedados índice de rentabilidade/lucratividade e faturamento anterior mínimo.
+**Emergência (artigo 75, VIII):** urgência com risco a serviço/pessoas/bens; só bens necessários e parcelas concluíveis em até **um ano contado da ocorrência**. A literalidade veda prorrogar ou recontratar pelo mesmo inciso; a <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 6.890 do <abbr title="Supremo Tribunal Federal">STF</abbr> delimita a vedação à **mesma emergência além do ano** e admite completar esse prazo mediante prorrogação ou recontratação sob os requisitos legais. Providenciar licitação substitutiva, preço de mercado e apurar responsabilidade de quem causou a situação. A empresa pode concorrer na licitação ou ser contratada por fundamento distinto. O inciso IV, i, exige estada **eventual e curta** de militares; e o IV, f, alta complexidade tecnológica **e** defesa nacional cumulativamente, sem limiar de valor próprio.
 
-## Encerramento
+**Recorte temporal do inciso XVI:** no edital, insumos estratégicos para saúde **produzidos por fundação nas condições legais**; a Lei nº 15.471, publicada em **21 jul. 2026**, mudou a redação para produtos estratégicos fornecidos por produtores públicos via fundação **depois do corte**.
 
-Autoridade superior pode sanear, revogar por fato superveniente, anular por ilegalidade insanável ou adjudicar e homologar. Anulação e revogação asseguram manifestação prévia.
+## Alienação e apoio à seleção
 
-## Contratação direta
+**Alienação (artigo 76):** interesse público motivado e avaliação. Imóvel: regra de autorização legislativa e leilão; imóvel recebido por decisão judicial/dação dispensa **autorização legislativa**, preserva avaliação e leilão. Móvel: regra de leilão. Ocupante que atenda ao edital tem preferência na venda de imóvel.
 
-| Inexigibilidade | Dispensa |
-|---|---|
-| competição inviável | competição possível, mas lei autoriza não licitar |
-| rol exemplificativo | rol taxativo |
-| art. 74 | art. 75 |
+| Procedimento auxiliar (artigo 78) | Gatilho que evita confusão |
+| --- | --- |
+| Credenciamento | chamamento permanentemente aberto: contratação paralela/não excludente, escolha por terceiro, mercado fluido ou comércio eletrônico no <abbr title="Sistema de Compras Expressas">Sicx</abbr>; distribuição objetiva quando não se pode contratar todos simultaneamente. Pode fundamentar inexigibilidade. |
+| Pré-qualificação | verifica previamente licitantes ou bens; inscrições abertas, validade até um ano e limitada à dos documentos; futuro certame pode restringir-se aos pré-qualificados. |
+| <abbr title="Procedimento de Manifestação de Interesse">PMI</abbr> | estudos privados: sem preferência, obrigação de licitar ou ressarcimento automático; eventual remuneração pelo vencedor, nunca pelo poder público. |
+| <abbr title="Sistema de Registro de Preços">SRP</abbr> | ata = compromisso do fornecedor, **sem obrigação de contratar** para Administração; um ano prorrogável por outro com preço vantajoso. Engenharia exige projeto padronizado sem complexidade e necessidade permanente/frequente. <abbr title="Intenção de Registro de Preços">IRP</abbr> por oito dias úteis mínimos, dispensável com único contratante; adesão exige vantagem, preço compatível e anuência, limitada a 50% por aderente e dobro global. **Órgão federal não adere a ata estadual/distrital/municipal**. |
+| Registro cadastral | cadastro unificado no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>, público, aberto e com chamamento anual; não exigir cadastro para ler edital/anexos; participação enquanto inscrição é decidida, contrato após certificado. |
 
-### Processo do art. 72
+**Compra de equipamento diagnóstico/terapêutico para o <abbr title="Sistema Único de Saúde">SUS</abbr> acima do artigo 75, II (artigo 44-A):** desde **16 mar. 2026**, considerar uso adequado durante a vida útil; edital exige capacidade instalada **ou** plano para operação. Parágrafos 2º a 5º foram vetados: não transformar obrigações vetadas em exigências legais.
 
-- demanda e artefatos de planejamento cabíveis;
-- estimativa;
-- parecer jurídico/técnico cabível;
-- orçamento disponível;
-- habilitação mínima;
-- razão da escolha;
-- justificativa de preço;
-- autorização.
-
-Contratação direta indevida com dolo, fraude ou erro grosseiro: agente e contratado respondem solidariamente pelo dano.
-
-### Inexigibilidade
-
-- fornecedor exclusivo;
-- artista consagrado, direto ou por empresário exclusivo permanente e contínuo;
-- serviço técnico intelectual com notória especialização, exceto publicidade/divulgação;
-- credenciamento;
-- imóvel singular por instalações/localização.
-
-Exclusividade deve ser provada; é vedada preferência por marca. Profissional que justificou a notória especialização não pode ser substituído/subcontratado.
-
-### Dispensa por valor em 2026
-
-| Objeto | Valor inferior a |
-|---|---:|
-| engenharia e manutenção de veículos | R$ 130.984,20 |
-| demais compras e serviços | R$ 65.492,11 |
-
-- Observar simultaneamente: gasto da unidade gestora no exercício + despesa com objetos de mesma natureza (mesmo ramo).
-- Não aferir cada contratação isoladamente para contornar os limites.
-- Limites dobrados: consórcio público e agência executiva.
-- Aviso por três dias úteis e cartão: **preferenciais**, não obrigatórios pela Lei.
-- Manutenção de veículo até R$ 10.478,74: exceção ao somatório do § 1º.
-
-### Emergência
-
-- Só bens necessários e parcelas concluíveis em até um ano da ocorrência.
-- Vedada prorrogação do contrato emergencial.
-- Mesma emergência não sustenta recontratações além do ano.
-- A empresa pode disputar licitação substitutiva ou ser contratada por outro fundamento.
-
-### Art. 75, XVI — corte temporal
-
-- **No edital (6/7/2026):** insumos estratégicos para a saúde produzidos por fundação nas condições legais.
-- **Pós-edital — Lei nº 15.471/2026:** redação posterior passou a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação.
-
-## Alienações
-
-- Interesse público + avaliação.
-- Imóvel: em regra, autorização legislativa + leilão.
-- Imóvel judicial/dação recebido: sem autorização legislativa, mas avaliação + leilão.
-- Móvel: em regra, leilão.
-- Ocupante que cumpra o edital tem preferência na venda do imóvel.
-
-## Procedimentos auxiliares
-
-### Credenciamento
-
-- Paralelo/não excludente; escolha por terceiro; mercado fluido; comércio eletrônico no <abbr title="Sistema de Compras Expressas">Sicx</abbr>.
-- Chamamento aberto permanentemente.
-- Distribuição objetiva se não for possível contratar todos simultaneamente.
-
-### Pré-qualificação
-
-- Seleciona previamente licitantes ou bens.
-- Inscrição permanentemente aberta.
-- Validade: até um ano e nunca além da validade dos documentos.
-- Futuro certame pode ficar restrito aos pré-qualificados.
-
-### <abbr title="Procedimento de Manifestação de Interesse">PMI</abbr>
-
-- Estudo privado não gera preferência nem obriga a licitar.
-- Não gera ressarcimento por si só.
-- Remuneração só pelo vencedor da futura licitação; nunca pelo poder público.
-
-### <abbr title="Sistema de Registro de Preços">SRP</abbr>
-
-- Ata não obriga a Administração a contratar.
-- Vigência: um ano, prorrogável por igual período com preço vantajoso.
-- Engenharia: projeto padronizado sem complexidade + necessidade permanente/frequente.
-- <abbr title="Intenção de Registro de Preços">IRP</abbr>: mínimo de oito dias úteis; dispensável se houver único contratante.
-- Adesão individual: 50%; total das adesões: dobro.
-- Órgão federal não adere a ata estadual/distrital/municipal.
-
-### Registro cadastral
-
-- Cadastro unificado no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> para licitantes e contratados.
-- Público, permanentemente aberto e com chamamento anual.
-- Cadastro complementar não pode ser exigido para acessar edital/anexos.
-- Participação enquanto cadastro é decidido; contrato só após certificado.
-
-## Atualizações e aplicação federativa
-
-- Decreto nº 12.807/2025: valores vigentes desde 1º jan. 2026.
-- Art. 44-A: vigente desde 16 mar. 2026, com §§ 2º a 5º vetados.
-- Lei nº 15.266/2025: Sicx e cadastro de licitantes e contratados.
-- Lei nº 15.471/2026: **pós-edital**, não substitui o art. 75, XVI aplicável no corte.
-- Decretos e <abbr title="Instruções Normativas">IN</abbr> federais não se aplicam automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, salvo adoção/incidência válida.
+**Retome o percurso:** objeto → modalidade → critério → disputa → proposta/habilitação; se direto, motivo legal → instrução/preço/publicidade; se auxiliar, identifique a função, sem chamá-lo modalidade.
