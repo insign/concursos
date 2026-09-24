@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u145-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A principal diferença formal entre a Declaração Universal dos Direitos Humanos e os Pactos Internacionais de 1966, no recorte desta unidade, é que",
       "options": [
         {
           "id": "A",
-          "text": "a Declaração é tratado e os Pactos são resoluções sem força convencional."
+          "text": "a Declaração é uma declaração adotada pela Assembleia Geral, enquanto os Pactos são tratados internacionais."
         },
         {
           "id": "B",
-          "text": "a Declaração é uma declaração adotada pela Assembleia Geral, enquanto os Pactos são tratados internacionais."
+          "text": "a Declaração é tratado e os Pactos são resoluções sem força convencional."
         },
         {
           "id": "C",
@@ -29,22 +29,22 @@
           "text": "os Pactos não admitem adesão de Estados."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A Declaração Universal é uma declaração; os dois Pactos de 1966 são tratados internacionais e estabelecem obrigações convencionais para Estados-partes."
     },
     {
       "id": "u145-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 1º do Pacto Internacional sobre Direitos Civis e Políticos e do Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais reconhece",
       "options": [
         {
           "id": "A",
-          "text": "o direito dos povos à autodeterminação."
+          "text": "o direito individual irrestrito de escolher qualquer nacionalidade."
         },
         {
           "id": "B",
-          "text": "o direito individual irrestrito de escolher qualquer nacionalidade."
+          "text": "o direito dos povos à autodeterminação."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "a proibição de qualquer cooperação econômica internacional."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Os dois Pactos começam pelo direito dos povos à autodeterminação, incluindo livre determinação do estatuto político e do desenvolvimento econômico, social e cultural."
     },
     {
       "id": "u145-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Pacto Internacional sobre Direitos Civis e Políticos, a obrigação-base do artigo 2º é",
       "options": [
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "respeitar e garantir os direitos reconhecidos, sem discriminação, adotando medidas de efetivação e assegurando recurso efetivo."
+          "text": "submeter todo conflito à Corte Internacional de Justiça."
         },
         {
           "id": "C",
-          "text": "submeter todo conflito à Corte Internacional de Justiça."
+          "text": "respeitar e garantir os direitos reconhecidos, sem discriminação, adotando medidas de efetivação e assegurando recurso efetivo."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "proteger exclusivamente direitos políticos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 2º combina respeito e garantia dos direitos, medidas necessárias de implementação e recurso efetivo em caso de violação."
     },
     {
       "id": "u145-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais, o artigo 2º, § 1º, exige dos Estados-partes",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "adoção de medidas, inclusive por cooperação internacional, até o máximo dos recursos disponíveis, visando progressivamente ao pleno exercício dos direitos."
+          "text": "substituição de políticas públicas por decisões do Conselho de Segurança."
         },
         {
           "id": "D",
-          "text": "substituição de políticas públicas por decisões do Conselho de Segurança."
+          "text": "adoção de medidas, inclusive por cooperação internacional, até o máximo dos recursos disponíveis, visando progressivamente ao pleno exercício dos direitos."
         },
         {
           "id": "E",
           "text": "aplicação apenas quando houver lei nacional posterior."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A fórmula do Pacto combina adoção de medidas, cooperação, máximo dos recursos disponíveis e realização progressiva."
     },
     {
       "id": "u145-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A realização progressiva prevista no Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais",
       "options": [
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "reconhece que a plena implementação pode demandar tempo e recursos, sem dispensar a adoção de medidas."
+          "text": "vale apenas para Estados desenvolvidos."
         },
         {
           "id": "D",
@@ -146,21 +146,21 @@
         },
         {
           "id": "E",
-          "text": "vale apenas para Estados desenvolvidos."
+          "text": "reconhece que a plena implementação pode demandar tempo e recursos, sem dispensar a adoção de medidas."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Progressividade não é inércia: o próprio texto exige adoção de medidas e uso do máximo dos recursos disponíveis."
     },
     {
       "id": "u145-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto à não discriminação nos dois Pactos, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "somente o Pacto de direitos civis e políticos a prevê."
+          "text": "ambos contêm obrigações de não discriminação e igualdade entre homens e mulheres no gozo dos direitos respectivos."
         },
         {
           "id": "B",
@@ -168,7 +168,7 @@
         },
         {
           "id": "C",
-          "text": "ambos contêm obrigações de não discriminação e igualdade entre homens e mulheres no gozo dos direitos respectivos."
+          "text": "somente o Pacto de direitos civis e políticos a prevê."
         },
         {
           "id": "D",
@@ -179,7 +179,7 @@
           "text": "nenhum dos Pactos aborda igualdade entre homens e mulheres."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Os dois instrumentos contêm cláusulas de não discriminação e artigo 3º sobre igualdade entre homens e mulheres no gozo dos direitos."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "u145-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Pacto Internacional sobre Direitos Civis e Políticos proíbe expressamente",
       "options": [
@@ -224,11 +224,11 @@
         },
         {
           "id": "B",
-          "text": "tortura e penas ou tratamentos cruéis, desumanos ou degradantes, bem como experimentação médica ou científica sem livre consentimento."
+          "text": "toda forma de trabalho imposta por decisão judicial."
         },
         {
           "id": "C",
-          "text": "toda forma de trabalho imposta por decisão judicial."
+          "text": "tortura e penas ou tratamentos cruéis, desumanos ou degradantes, bem como experimentação médica ou científica sem livre consentimento."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "qualquer restrição à liberdade religiosa."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 7º proíbe tortura e tratamentos cruéis, desumanos ou degradantes e veda experiências médicas ou científicas sem livre consentimento."
     },
     {
       "id": "u145-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o Pacto Internacional sobre Direitos Civis e Políticos, a prisão preventiva de pessoas que aguardam julgamento",
       "options": [
@@ -258,29 +258,29 @@
         },
         {
           "id": "C",
-          "text": "não deve constituir a regra geral, embora a liberdade possa ser condicionada a garantias de comparecimento."
+          "text": "dispensa controle judicial."
         },
         {
           "id": "D",
-          "text": "dispensa controle judicial."
+          "text": "não deve constituir a regra geral, embora a liberdade possa ser condicionada a garantias de comparecimento."
         },
         {
           "id": "E",
           "text": "pode ser decretada apenas por autoridade administrativa."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O artigo 9º afirma que a prisão preventiva não deve constituir a regra geral e admite garantias para assegurar comparecimento."
     },
     {
       "id": "u145-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 11 do Pacto Internacional sobre Direitos Civis e Políticos determina que",
       "options": [
         {
           "id": "A",
-          "text": "ninguém pode ser preso apenas por não poder cumprir obrigação contratual."
+          "text": "a regra vale somente para estrangeiros."
         },
         {
           "id": "B",
@@ -296,21 +296,21 @@
         },
         {
           "id": "E",
-          "text": "a regra vale somente para estrangeiros."
+          "text": "ninguém pode ser preso apenas por não poder cumprir obrigação contratual."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O Pacto veda prisão fundada apenas na incapacidade de cumprir obrigação contratual."
     },
     {
       "id": "u145-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre as garantias processuais do Pacto Internacional sobre Direitos Civis e Políticos encontra-se",
       "options": [
         {
           "id": "A",
-          "text": "a impossibilidade de qualquer revisão de condenação."
+          "text": "o direito de recorrer da sentença condenatória e da pena a uma instância superior, conforme a lei."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "o direito de recorrer da sentença condenatória e da pena a uma instância superior, conforme a lei."
+          "text": "a impossibilidade de qualquer revisão de condenação."
         },
         {
           "id": "D",
@@ -329,7 +329,7 @@
           "text": "a dispensa de intérprete para acusado estrangeiro."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O artigo 14 prevê, entre outras garantias, revisão da condenação e da pena por instância superior, além de presunção de inocência e garantias de defesa."
     },
     {
@@ -394,13 +394,13 @@
     },
     {
       "id": "u145-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O direito de reunião previsto no Pacto Internacional sobre Direitos Civis e Políticos",
       "options": [
         {
           "id": "A",
-          "text": "é protegido apenas quando a reunião é pacífica e pode sofrer restrições previstas em lei e necessárias aos fins admitidos pelo Pacto."
+          "text": "depende de autorização do Comitê de Direitos Humanos."
         },
         {
           "id": "B",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "depende de autorização do Comitê de Direitos Humanos."
+          "text": "é protegido apenas quando a reunião é pacífica e pode sofrer restrições previstas em lei e necessárias aos fins admitidos pelo Pacto."
         },
         {
           "id": "E",
           "text": "existe apenas para nacionais."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 21 reconhece reunião pacífica e admite restrições legais necessárias em sociedade democrática para os fins enumerados."
     },
     {
       "id": "u145-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em situação excepcional que ameace a existência da nação, o Pacto Internacional sobre Direitos Civis e Políticos",
       "options": [
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "admite derrogação de certas obrigações na estrita medida exigida pela situação, respeitando condições e um núcleo não derrogável."
+          "text": "dispensa proclamação oficial."
         },
         {
           "id": "D",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "dispensa proclamação oficial."
+          "text": "admite derrogação de certas obrigações na estrita medida exigida pela situação, respeitando condições e um núcleo não derrogável."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O artigo 4º permite derrogação limitada e condicionada, mantendo um conjunto de artigos fora da suspensão."
     },
     {
       "id": "u145-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual dos direitos abaixo integra o núcleo que o artigo 4º, § 2º, do Pacto Internacional sobre Direitos Civis e Políticos não permite suspender pela cláusula de emergência?",
       "options": [
         {
           "id": "A",
-          "text": "direito de reunião pacífica."
+          "text": "liberdade de pensamento, consciência e religião."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "liberdade de pensamento, consciência e religião."
+          "text": "direito de reunião pacífica."
         },
         {
           "id": "D",
@@ -479,22 +479,22 @@
           "text": "direito de circulação."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O artigo 18 está no conjunto expressamente protegido contra derrogação, ao lado dos artigos 6, 7, 8(1)(2), 11, 15 e 16."
     },
     {
       "id": "u145-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais reconhece, entre outros,",
       "options": [
         {
           "id": "A",
-          "text": "direitos ao trabalho, à segurança social, a nível de vida adequado, à saúde, à educação e à participação na vida cultural."
+          "text": "somente direitos trabalhistas."
         },
         {
           "id": "B",
-          "text": "somente direitos trabalhistas."
+          "text": "direitos ao trabalho, à segurança social, a nível de vida adequado, à saúde, à educação e à participação na vida cultural."
         },
         {
           "id": "C",
@@ -509,12 +509,12 @@
           "text": "direitos civis e políticos como seu único conteúdo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Os artigos 6º a 15 abrangem trabalho, condições laborais, segurança social, família, nível de vida, saúde, educação, cultura e ciência."
     },
     {
       "id": "u145-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais, o direito à saúde é formulado como direito",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "ao mais elevado nível possível de saúde física e mental."
+          "text": "exclusivamente a atendimento hospitalar gratuito."
         },
         {
           "id": "C",
-          "text": "exclusivamente a atendimento hospitalar gratuito."
+          "text": "ao mais elevado nível possível de saúde física e mental."
         },
         {
           "id": "D",
@@ -539,18 +539,18 @@
           "text": "restrito a trabalhadores."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 12 reconhece o direito de toda pessoa ao mais elevado nível possível de saúde física e mental."
     },
     {
       "id": "u145-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da educação no Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais, assinale a alternativa correta.",
       "options": [
         {
           "id": "A",
-          "text": "O ensino primário deve ser obrigatório e gratuito para todos."
+          "text": "O Pacto dispensa qualquer política para quem não recebeu educação primária."
         },
         {
           "id": "B",
@@ -562,19 +562,19 @@
         },
         {
           "id": "D",
-          "text": "O Pacto dispensa qualquer política para quem não recebeu educação primária."
+          "text": "O ensino primário deve ser obrigatório e gratuito para todos."
         },
         {
           "id": "E",
           "text": "O acesso ao ensino superior independe de capacidade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O artigo 13 prevê ensino primário obrigatório e gratuito; para os níveis secundário e superior, o texto inclui progressiva introdução da gratuidade e outras condições."
     },
     {
       "id": "u145-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O artigo 15 do Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais protege",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "participação na vida cultural, benefícios do progresso científico e proteção de interesses morais e materiais de autores, além de liberdade de pesquisa e criação."
+          "text": "exclusivamente produção artística estatal."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "exclusivamente produção artística estatal."
+          "text": "participação na vida cultural, benefícios do progresso científico e proteção de interesses morais e materiais de autores, além de liberdade de pesquisa e criação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 15 articula cultura, ciência, interesses dos autores e liberdade indispensável à pesquisa científica e atividade criadora."
     },
     {
@@ -694,7 +694,7 @@
     },
     {
       "id": "u145-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito de mecanismos facultativos de comunicação individual nos sistemas dos Pactos, assinale a alternativa correta.",
       "options": [
@@ -708,23 +708,23 @@
         },
         {
           "id": "C",
-          "text": "A participação no Pacto não equivale automaticamente à aceitação de todo mecanismo facultativo de comunicação individual."
+          "text": "Somente a Declaração Universal cria comunicações individuais."
         },
         {
           "id": "D",
-          "text": "Somente a Declaração Universal cria comunicações individuais."
+          "text": "A participação no Pacto não equivale automaticamente à aceitação de todo mecanismo facultativo de comunicação individual."
         },
         {
           "id": "E",
           "text": "Os dois Pactos proíbem protocolos facultativos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "A aceitação de mecanismos de comunicação individual depende do instrumento facultativo e das condições de participação correspondentes; não decorre automaticamente da condição de Estado-parte no Pacto."
     },
     {
       "id": "u145-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 96 do Cebraspe para Procurador do Estado do Pará, aplicada em 1º/10/2023, qual obrigação é expressamente característica do Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais?",
       "options": [
@@ -734,7 +734,7 @@
         },
         {
           "id": "B",
-          "text": "Assegurar progressivamente o pleno exercício dos direitos por meios apropriados, inclusive com uso do máximo dos recursos disponíveis."
+          "text": "Transformar automaticamente os direitos sociais em emenda constitucional."
         },
         {
           "id": "C",
@@ -746,25 +746,25 @@
         },
         {
           "id": "E",
-          "text": "Transformar automaticamente os direitos sociais em emenda constitucional."
+          "text": "Assegurar progressivamente o pleno exercício dos direitos por meios apropriados, inclusive com uso do máximo dos recursos disponíveis."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A questão oficial apontou como correta a realização progressiva prevista expressamente no Pacto de direitos econômicos, sociais e culturais; o gabarito definitivo da questão 96 foi B. Adaptação não literal para o recorte da U145."
     },
     {
       "id": "u145-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 13 do Cespe/UnB para Defensor Público de Rondônia, aplicada em 25/8/2012, o Pacto Internacional sobre Direitos Civis e Políticos",
       "options": [
         {
           "id": "A",
-          "text": "proíbe toda restrição ao direito de reunião."
+          "text": "admite restrições ao direito de reunião pacífica quando previstas em lei e necessárias aos fins autorizados pelo próprio Pacto."
         },
         {
           "id": "B",
-          "text": "admite restrições ao direito de reunião pacífica quando previstas em lei e necessárias aos fins autorizados pelo próprio Pacto."
+          "text": "proíbe toda restrição ao direito de reunião."
         },
         {
           "id": "C",
@@ -779,7 +779,7 @@
           "text": "protege apenas reuniões organizadas pelo Estado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A questão oficial considerou correta a afirmação de que o Pacto admite restrições ao direito de reunião; o gabarito definitivo da questão 13 foi E. A formulação foi adaptada sem reprodução literal das alternativas originais."
     }
   ]
