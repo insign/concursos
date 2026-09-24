@@ -4,10 +4,10 @@
 
 - **Corte de prova:** 6/7/2026.
 - Núcleo 1: **competência → mapeamento → <abbr title="lacuna de competência">gap</abbr> → tratamento → integração**.
-- Núcleo 2: **tendência → oportunidade → risco/guardrail → valor público**.
+- Núcleo 2: **tendência → oportunidade → risco/controle → valor público**.
 - Norma federal específica só entra como referência; não presumir aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-## CHA × competência
+## <abbr title="Conhecimentos, habilidades e atitudes">CHA</abbr> × competência
 
 | Elemento | Ideia-chave |
 | --- | --- |
@@ -18,7 +18,7 @@
 | entrega | contribuição observável |
 | complexidade | autonomia + incerteza + impacto + risco + articulação |
 
-**CHA é recurso; competência exige mobilização + contexto + entrega.**
+**<abbr title="Conhecimentos, habilidades e atitudes">CHA</abbr> reúne recursos; competência exige mobilização + contexto + entrega.**
 
 - diploma ≠ competência;
 - certificado ≠ proficiência;
@@ -32,7 +32,7 @@
 - **desempenho:** expressão observada no período;
 - **resultado:** efeito produzido.
 
-Baixo desempenho pode decorrer de **gap ou barreira sistêmica**.
+Baixo desempenho pode decorrer de **lacuna ou barreira sistêmica**.
 
 ## Níveis
 
@@ -42,27 +42,27 @@ Baixo desempenho pode decorrer de **gap ou barreira sistêmica**.
 - **essencial:** capacidade estratégica que sustenta missão/valor;
 - **horizonte:** atual, emergente, futura.
 
-**Competência organizacional ≠ soma de CHAs.**
+**Competência organizacional ≠ soma de recursos individuais.**
 
 ## Mapeamento
 
 ### Fluxo
 
-**estratégia/processos/riscos → requerido → existente → gap → prioridade → tratamento → aplicação/resultado → revisão**
+**estratégia/processos/riscos → requerido → existente → lacuna → prioridade → tratamento → aplicação/resultado → revisão**
 
 ### Requerido × existente
 
 $$
-\text{gap} = \text{competência requerida} - \text{competência existente}
+\text{lacuna} = \text{competência requerida} - \text{competência existente}
 $$
 
-O gap pode ser individual, de equipe, organizacional ou apenas aparente quando a causa real é processo, sistema, recurso ou governança.
+A lacuna pode ser individual, de equipe, organizacional ou apenas aparente quando a causa real é processo, sistema, recurso ou governança.
 
 ### Evidências
 
 - documentos;
 - entrevistas;
-- oficinas/grupos focais;
+- oficinas/grupos focais (pares com experiência semelhante podem facilitar discussão; comparar outros grupos evita perspectiva estreita);
 - questionários;
 - observação;
 - incidentes críticos;
@@ -81,7 +81,7 @@ Boa competência:
 
 Escala de proficiência precisa de **âncoras de entrega**, não só “básico/intermediário/avançado”.
 
-## Priorizar e tratar gaps
+## Priorizar e tratar lacunas
 
 Priorize por:
 
@@ -96,16 +96,16 @@ Priorize por:
 | processo ruim | redesenho |
 | sistema/recurso ruim | intervenção tecnológica/estrutural |
 
-**Treinamento não é resposta universal.**
+**Treinamento não é resposta universal.** Captação individual pode envolver recrutamento/seleção; captação organizacional pode incluir parcerias e alianças, sem dispensar as competências legais nem a capacidade interna crítica.
 
 ## Integração dos subsistemas
 
 | Subsistema | Uso das competências |
 | --- | --- |
-| força de trabalho | perfis e gaps futuros |
+| força de trabalho | perfis e lacunas futuras |
 | seleção | critérios/evidências de entrega |
 | desempenho | expectativas + feedback + evidências |
-| desenvolvimento | gaps e trilhas |
+| desenvolvimento | lacunas e trilhas |
 | carreira/mobilidade | caminhos e expectativas, sem direito automático |
 | sucessão | continuidade de capacidades críticas |
 | conhecimento | retenção e transferência de saber |
@@ -118,12 +118,12 @@ Priorize por:
 - equipes/especialistas: trabalho real;
 - tecnologia, integridade, controle e proteção de dados: riscos específicos.
 
-**Gestão por competências ≠ sistema exclusivo do RH.**
+**Gestão por competências ≠ sistema exclusivo da área de pessoas.**
 
 ### Indicadores úteis
 
 - perfis críticos cobertos;
-- gaps prioritários tratados;
+- lacunas prioritárias tratadas;
 - tempo até proficiência;
 - aplicação no trabalho;
 - qualidade/prazo das entregas;
@@ -135,12 +135,14 @@ Priorize por:
 
 ## Tendências: matriz de prova
 
-| Tendência | Ganho possível | Risco/guardrail |
+| Tendência | Ganho possível | Risco/controle |
 | --- | --- | --- |
 | <abbr title="Inteligência artificial">IA</abbr>/automação | escala, produtividade, apoio à decisão | opacidade, viés, vigilância; revisão humana real |
 | <abbr title="análise de dados aplicada à gestão de pessoas">people analytics</abbr> | decisões por evidências | correlação ≠ causalidade; qualidade/proteção de dados |
 | sistemas integrados | visão consolidada, menos retrabalho | dado ruim em escala, acesso excessivo, baixa interoperabilidade |
 | autosserviço | agilidade e autonomia operacional | acessibilidade, segurança e suporte |
+| serviços compartilhados | processos comuns com escala; até folha quando cabível | competência, controles, qualidade de atendimento |
+| <abbr title="parceiro da área de pessoas junto às lideranças">business partner</abbr> | traduz estratégia em decisões de pessoas | atuação consultiva sem dispensar especialistas e serviços |
 | trabalho flexível | autonomia e acesso a talentos | isolamento, viés de proximidade, disponibilidade permanente |
 | aprendizagem contínua | adaptação e proficiência | certificado como fim em si |
 | <abbr title="atualização ou aprofundamento de capacidades atuais">upskilling</abbr> | atualizar/aprofundar capacidades atuais | desenvolver sem necessidade real |
@@ -149,75 +151,13 @@ Priorize por:
 | <abbr title="Diversidade, equidade, inclusão e acessibilidade">DEIA</abbr>/acessibilidade | participação e equidade | tokenismo, barreiras, dados usados de modo discriminatório |
 | gestão do conhecimento | continuidade institucional | repositório sem uso |
 | agilidade/redes | aprendizagem e cooperação | responsabilidades difusas, segurança insuficiente |
-| força de trabalho | antecipar gaps críticos | tratar planejamento como mera contagem de vagas |
+| força de trabalho | antecipar lacunas críticas | tratar planejamento como mera contagem de vagas |
 | atração/retenção | preservar capacidade | explicar tudo por remuneração ou geração |
 
-## IA e analytics
+## Filtros de adoção
 
-- **human-in-the-loop** = pessoa com informação, competência e autoridade para revisar;
-- automação não transfere responsabilidade à máquina;
-- dashboard ≠ people analytics;
-- comece pela pergunta de gestão;
-- correlação ≠ causalidade;
-- dados pessoais: finalidade, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização.
-
-## Trabalho flexível
-
-- entregas claras;
-- coordenação e comunicação;
-- acesso equivalente à informação;
-- avaliação pertinente;
-- evitar viés de proximidade;
-- evitar disponibilidade permanente;
-- evitar vigilância invasiva.
-
-**Flexibilidade ≠ ausência de acompanhamento.**
-
-## Aprendizagem contínua
-
-- **upskilling:** atualizar/aprofundar no campo atual;
-- **reskilling:** preparar para novas atividades;
-- trilha = curso + prática + projeto + mentoria + pares + feedback.
-
-## Bem-estar e riscos psicossociais
-
-Olhe primeiro para:
-
-**carga + autonomia + prioridades + assédio + apoio + justiça + desenho do trabalho**.
-
-Sessão individual de relaxamento não corrige, sozinha, problema estrutural de trabalho.
-
-## DEIA
-
-- diversidade = diferenças;
-- equidade = enfrentar barreiras;
-- inclusão = participação/voz;
-- acessibilidade = remover barreiras.
-
-**Representação numérica ≠ inclusão completa.**
-
-## Conhecimento, inovação e força de trabalho
-
-- sucessão + mentoria + comunidades + documentação útil → reduzem perda de saber;
-- repositório ≠ aprendizagem organizacional;
-- agilidade pública ≠ abandonar legalidade/auditabilidade;
-- força de trabalho = quantidade + perfil + distribuição + competências + cenários + sucessão;
-- retenção = remuneração + liderança + desenvolvimento + reconhecimento + mobilidade + condições + inclusão;
-- evite estereótipos geracionais.
-
-## Pegadinhas
-
-- CHA sozinho prova competência → **errado**.
-- Gap é culpa da pessoa → **errado**.
-- Autoavaliação basta → **errado**.
-- Todo gap pede curso → **errado**.
-- Competência organizacional é soma individual → **errado**.
-- Tecnologia define metodologia → **errado**.
-- Dashboard é analytics → **errado**.
-- Correlação prova causa → **errado**.
-- Human-in-the-loop é chancela formal → **errado**.
-- Trabalho remoto dispensa coordenação → **errado**.
-- Representação numérica basta para inclusão → **errado**.
-- Repositório cheio prova aprendizagem → **errado**.
-- Tendência popular deve ser adotada → **errado**.
-- Competência cria progressão/remuneração → **errado**, depende do regime aplicável.
+- **<abbr title="Inteligência artificial">IA</abbr>:** revisão humana requer informação, competência e poder real de decisão; automatizar não transfere responsabilidade à máquina.
+- **Dados:** um painel não produz, sozinho, análise de pessoas; definir pergunta, verificar qualidade, separar correlação de causalidade e limitar uso de dados pessoais à finalidade.
+- **Trabalho flexível:** acompanhar entregas e coordenação; prevenir viés de proximidade e vigilância excessiva.
+- **Bem-estar:** examinar carga, autonomia, prioridades, assédio, apoio e condições de trabalho antes de reduzir risco estrutural a solução individual.
+- **Inovação pública:** escolher por finalidade, evidência, risco e regime aplicável. Popularidade da tendência não cria progressão, remuneração nem autorização para tratar dados.
