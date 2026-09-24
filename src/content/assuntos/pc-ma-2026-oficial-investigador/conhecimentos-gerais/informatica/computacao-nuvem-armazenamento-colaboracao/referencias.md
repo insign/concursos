@@ -9,11 +9,12 @@
 ## Computação em nuvem e armazenamento
 
 - NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY. [The NIST Definition of Cloud Computing — SP 800-145](https://csrc.nist.gov/pubs/sp/800/145/final). Características essenciais e modelos <abbr title="Software as a Service">SaaS</abbr>, <abbr title="Platform as a Service">PaaS</abbr> e <abbr title="Infrastructure as a Service">IaaS</abbr>.
-- MICROSOFT. [Economizar espaço com Arquivos Sob Demanda](https://support.microsoft.com/pt-br/office/economizar-espa%C3%A7o-em-disco-com-os-arquivos-do-onedrive-sob-demanda-62e8d748-7877-420f-b600-24b56562aa70). Estados somente online, disponível localmente e sempre manter neste dispositivo.
+- MICROSOFT. [Economizar espaço com Arquivos Sob Demanda](https://support.microsoft.com/pt-br/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows). Estados somente online, disponível localmente e sempre manter neste dispositivo.
 - MICROSOFT. [Compartilhar arquivos no Microsoft Teams](https://support.microsoft.com/pt-br/office/compartilhar-arquivos-no-microsoft-teams-0c4d34ee-5dd8-46d5-ab35-0d227b5e6eb5). Compartilhamento, OneDrive, arquivos de equipe e permissões.
 - GOOGLE. [Alternar entre streaming e espelhamento no Drive para computador](https://support.google.com/drive/answer/13401938?hl=pt-BR). Disponibilidade local e sincronização.
 - GOOGLE. [Compartilhar arquivos no Google Drive](https://support.google.com/drive/answer/2494822?hl=pt-BR). Papéis e permissões.
 - GOOGLE. [Drives compartilhados](https://support.google.com/a/users/answer/9310249?hl=pt-BR). Continuidade e propriedade organizacional do conteúdo.
+- GOOGLE. [O que você pode fazer com drives compartilhados](https://support.google.com/a/users/answer/9310351?hl=pt-BR). A propriedade do arquivo no drive compartilhado é da equipe, não de uma conta pessoal.
 - MICROSOFT. [Visão geral de equipes e canais](https://support.microsoft.com/pt-br/office/vis%C3%A3o-geral-de-equipes-e-canais-c3d63c10-77d5-4204-a566-53ddcf723b46). Estrutura básica de colaboração no Teams.
 - GOOGLE. [Controles de uma videochamada do Google Meet](https://support.google.com/meet/answer/10058482?hl=pt-BR). Reuniões, apresentação e controles de colaboração.
 
