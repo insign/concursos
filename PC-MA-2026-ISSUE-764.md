@@ -140,7 +140,7 @@ O corte legislativo adotado é **13/7/2026**. Não aplicá-lo automaticamente a 
 - [x] PC-R01 — `done` — Inventário integral do acervo candidato, consumidores e artefatos concluído conforme evidência registrada na campanha; detalhamento antigo parcialmente ausente no corpo recebido.
 - [x] PC-R02 — `done` — Classificação das 158 unidades: 17 integrais, 42 parciais e 99 novas, conforme seção 5.
 - [x] PC-R03 — `done` — 17/17 unidades integrais implantadas por vínculo canônico conforme aceite recebido; revalidar origens antes de editar.
-- [x] PC-R04 — `done` — **42/42** unidades parciais aceitas; U075 reconciliada explicitamente em 21/09/2026 com os dois canônicos doadores e corte PC-MA documentados.
+- [x] PC-R04 — `done` — **40/40** unidades atualmente classificadas como parciais aceitas; o conjunto herdado tinha 42, e U009/U061 foram reclassificadas como novas/locais na reconciliação final de PC-F02. U075 permanece reconciliada explicitamente com os dois canônicos doadores e corte PC-MA documentados.
 - [x] PC-R05 — `done` — Lacunas, unidades novas e dependências consolidadas conforme aceite recebido, sem inventar o detalhamento antigo ausente.
 
 ### Produção por bloco
@@ -1370,7 +1370,7 @@ O canônico `src/content/biblioteca/raciocinio-logico/principios-contagem-probab
 
 ### Administração — parciais com origem resolvida
 
-Grupo `conhecimentos-gerais/administracao/`. U057 e U058 foram aceitos sem edição adicional em 17/09/2026; não houve commit editorial vazio. A inspeção contextual de 24/09/2026 abrange U056–U061, com U061 ainda pendente de proveniência.
+Grupo `conhecimentos-gerais/administracao/`. U057 e U058 foram aceitos sem edição adicional em 17/09/2026; não houve commit editorial vazio. A inspeção contextual de 24/09/2026 abrange U056–U061; U061 teve a proveniência reconciliada como nova/local no fechamento de PC-F02.
 
 | Edital | Unidade / destino | Origem e aproveitamento | Lacunas completadas / fronteira | Estado |
 |---|---|---|---|---|
@@ -1379,7 +1379,7 @@ Grupo `conhecimentos-gerais/administracao/`. U057 e U058 foram aceitos sem ediç
 | 2.1–2.3 | U058 — `orcamento-principios-diretrizes`; pc-u058 / 58 | Doador físico TCE Técnico: `conhecimentos-especificos/execucao-orcamentaria-financeira/mcasp-11-edicao/`; fundamentos compatíveis de orçamento/princípios | PPA/LDO/LOA, exclusividade, não vinculação, regra de ouro, AMF/ARF completados localmente; SIDOR/SIAFI em U059, receita em U060, despesa/execução em U061 | C/H/Q done; parcial |
 | 2.4 | U059 — `sidor-siafi`; pc-u059 / 59 | Doador TCE Técnico de SIAFI/CPR, apenas núcleo conceitual/estrutural | SIDOR histórico e SIOP atual acrescentados; rotinas CPR excluídas | C/H/Q done; parcial; PC-F02 inspecionada |
 | 2.5 | U060 — `receita-publica`; pc-u060 / 60 | Doador TCE Técnico MCASP, estágios e diferença orçamentário/patrimonial | Categorias, fonte/destinação e dívida ativa acrescentadas por fontes primárias | C/H/Q done; parcial; PC-F02 inspecionada |
-| 2.6–2.10 | U061 — `despesa-suprimento-restos-dea-conta-unica`; pc-u061 / 61 | Classificação parcial herdada; doador não materializado | Conteúdo local e fontes primárias examinados; afinidade com TCE MCASP não comprova origem | C/H/Q done; proveniência PC-F02 pendente |
+| 2.6–2.10 | U061 — `despesa-suprimento-restos-dea-conta-unica`; pc-u061 / 61 | **nova/local** após reconciliação; publicação própria `2a783c86f6235dfe764004b86115fb457bdf0a5d` | Conteúdo local e fontes primárias examinados; confronto com TCE MCASP no snapshot de criação não demonstrou reaproveitamento material | C/H/Q done; PC-F02 concluída |
 
 Origens físicas completas e blobs recebidos, na ordem C / H / referências / Q:
 
@@ -2069,7 +2069,7 @@ Blobs finais: C `667b534e1ec5720636cd1488b9887fdd3c0e500b`; H `3b53e51436e1aaaee
 
 O programa literal foi reconferido no PDF oficial: item 9 cobre agricultura maranhense, principais produtos e pecuária; item 10, extrativismo vegetal, animal e mineral. Fontes centrais foram revalidadas em 21/09/2026.
 
-**Efeito:** U001–U158 passam a C/H/Q `done`; PC-R04 passa a `done` (42/42 parciais); PC-E08-C/H/Q passam a `done`. Próxima ação habilitada: PC-F01.
+**Efeito naquela consolidação:** U001–U158 passaram a C/H/Q `done`; PC-R04 foi então registrado `done` com 42 unidades classificadas como parciais; PC-E08-C/H/Q passaram a `done`. **Estado posterior:** PC-F02 reconciliou U009 e U061 como novas/locais, reduzindo o conjunto parcial corrente para 40 sem reabrir os aceites. A próxima ação naquele momento era PC-F01.
 
 ### Registros operacionais superados
 
