@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u105-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os poderes administrativos são corretamente compreendidos como",
       "options": [
         {
           "id": "A",
-          "text": "faculdades pessoais das autoridades para escolher livremente fins privados."
+          "text": "competências jurídicas destinadas à realização de finalidades públicas, sujeitas ao ordenamento."
         },
         {
           "id": "B",
-          "text": "competências jurídicas destinadas à realização de finalidades públicas, sujeitas ao ordenamento."
+          "text": "faculdades pessoais das autoridades para escolher livremente fins privados."
         },
         {
           "id": "C",
@@ -29,7 +29,7 @@
           "text": "prerrogativas sempre renunciáveis."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Poder administrativo é competência funcional vinculada a finalidade pública e a limites jurídicos; não é privilégio pessoal."
     },
     {
@@ -64,13 +64,13 @@
     },
     {
       "id": "u105-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É manifestação típica do poder hierárquico",
       "options": [
         {
           "id": "A",
-          "text": "distribuir tarefas e fiscalizar subordinados."
+          "text": "aplicar sanção sanitária a estabelecimento privado."
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "aplicar sanção sanitária a estabelecimento privado."
+          "text": "distribuir tarefas e fiscalizar subordinados."
         },
         {
           "id": "D",
@@ -89,12 +89,12 @@
           "text": "julgar definitivamente conflito judicial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O poder hierárquico organiza e dirige estruturas subordinadas, incluindo distribuição de tarefas, ordens legítimas e fiscalização."
     },
     {
       "id": "u105-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A vinculação de uma autarquia à Administração direta",
       "options": [
@@ -108,23 +108,23 @@
         },
         {
           "id": "C",
-          "text": "corresponde a controle finalístico nos limites legais, sem hierarquia geral."
+          "text": "transforma a autarquia em órgão interno."
         },
         {
           "id": "D",
-          "text": "transforma a autarquia em órgão interno."
+          "text": "corresponde a controle finalístico nos limites legais, sem hierarquia geral."
         },
         {
           "id": "E",
           "text": "autoriza substituição livre de todas as decisões da entidade."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Entidade descentralizada possui personalidade própria. Vinculação ou supervisão finalística não equivale a subordinação hierárquica geral."
     },
     {
       "id": "u105-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No regime federal da Lei nº 9.784/1999, a delegação de competência",
       "options": [
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "pode alcançar órgão ou titular sem subordinação hierárquica, se presentes os requisitos legais."
+          "text": "é irrevogável."
         },
         {
           "id": "D",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "é irrevogável."
+          "text": "pode alcançar órgão ou titular sem subordinação hierárquica, se presentes os requisitos legais."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O artigo 12 admite delegação mesmo sem subordinação. O exercício é deslocado, não a titularidade, e há matérias legalmente indelegáveis."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "u105-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O poder disciplinar é exercido quando a Administração",
       "options": [
         {
           "id": "A",
-          "text": "apura infração funcional e aplica sanção administrativa a sujeito submetido ao regime disciplinar pertinente."
+          "text": "edita regulamento executivo."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "edita regulamento executivo."
+          "text": "apura infração funcional e aplica sanção administrativa a sujeito submetido ao regime disciplinar pertinente."
         },
         {
           "id": "D",
@@ -239,12 +239,12 @@
           "text": "investiga delito penal como polícia judiciária."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O núcleo do poder disciplinar é a apuração e eventual sanção de infrações ligadas a sujeição jurídica especial."
     },
     {
       "id": "u105-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O exercício válido do poder disciplinar",
       "options": [
@@ -258,23 +258,23 @@
         },
         {
           "id": "C",
-          "text": "depende de competência, fundamento jurídico e garantias processuais cabíveis, inclusive contraditório e ampla defesa."
+          "text": "exige condenação penal anterior."
         },
         {
           "id": "D",
-          "text": "exige condenação penal anterior."
+          "text": "depende de competência, fundamento jurídico e garantias processuais cabíveis, inclusive contraditório e ampla defesa."
         },
         {
           "id": "E",
           "text": "autoriza criação de infração por ordem verbal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Poder disciplinar não é arbitrariedade. A Constituição assegura devido processo, contraditório e ampla defesa nos processos administrativos com acusação."
     },
     {
       "id": "u105-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O regulamento executivo previsto no artigo 84, inciso IV, da Constituição",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "serve à fiel execução da lei e não pode criar regime incompatível com ela."
+          "text": "não possui fundamento constitucional."
         },
         {
           "id": "C",
@@ -296,21 +296,21 @@
         },
         {
           "id": "E",
-          "text": "não possui fundamento constitucional."
+          "text": "serve à fiel execução da lei e não pode criar regime incompatível com ela."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O regulamento executivo é ato normativo secundário destinado à fiel execução da lei."
     },
     {
       "id": "u105-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Com fundamento no artigo 84, inciso VI, da Constituição, decreto autônomo pode",
       "options": [
         {
           "id": "A",
-          "text": "criar órgão público se não houver aumento de despesa."
+          "text": "dispor sobre organização e funcionamento da Administração federal sem aumento de despesa e sem criar ou extinguir órgãos, além de extinguir funções ou cargos vagos."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "dispor sobre organização e funcionamento da Administração federal sem aumento de despesa e sem criar ou extinguir órgãos, além de extinguir funções ou cargos vagos."
+          "text": "criar órgão público se não houver aumento de despesa."
         },
         {
           "id": "D",
@@ -329,22 +329,22 @@
           "text": "criar crimes administrativos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Esses são os limites constitucionais expressos das alíneas do inciso VI."
     },
     {
       "id": "u105-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Código Tributário Nacional define poder de polícia como atividade administrativa que",
       "options": [
         {
           "id": "A",
-          "text": "limita ou disciplina direito, interesse ou liberdade em razão de interesses públicos juridicamente protegidos."
+          "text": "investiga exclusivamente infrações penais."
         },
         {
           "id": "B",
-          "text": "investiga exclusivamente infrações penais."
+          "text": "limita ou disciplina direito, interesse ou liberdade em razão de interesses públicos juridicamente protegidos."
         },
         {
           "id": "C",
@@ -359,18 +359,18 @@
           "text": "somente exerce jurisdição."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O artigo 78 fornece definição legal clássica do poder de polícia como condicionamento administrativo de direitos, interesses e liberdades."
     },
     {
       "id": "u105-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o parágrafo único do artigo 78 do Código Tributário Nacional, o exercício regular do poder de polícia pressupõe",
       "options": [
         {
           "id": "A",
-          "text": "órgão competente, limites da lei, processo legal e, quando houver discricionariedade, ausência de abuso ou desvio."
+          "text": "finalidade privada da autoridade."
         },
         {
           "id": "B",
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "finalidade privada da autoridade."
+          "text": "órgão competente, limites da lei, processo legal e, quando houver discricionariedade, ausência de abuso ou desvio."
         },
         {
           "id": "D",
@@ -389,12 +389,12 @@
           "text": "dispensa de processo quando houver sanção."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O Código Tributário Nacional reúne expressamente competência, legalidade, processo e ausência de abuso/desvio na atividade discricionária."
     },
     {
       "id": "u105-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito de polícia administrativa e polícia judiciária, é correto afirmar que",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "a polícia administrativa atua sobre atividades, bens e direitos e pode também reprimir infrações administrativas; a judiciária se liga à investigação de ilícitos penais."
+          "text": "a polícia judiciária é manifestação do poder hierárquico."
         },
         {
           "id": "C",
@@ -412,19 +412,19 @@
         },
         {
           "id": "D",
-          "text": "a polícia judiciária é manifestação do poder hierárquico."
+          "text": "a polícia administrativa atua sobre atividades, bens e direitos e pode também reprimir infrações administrativas; a judiciária se liga à investigação de ilícitos penais."
         },
         {
           "id": "E",
           "text": "ambas se distinguem apenas pelo órgão que atua."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O critério funcional é o objeto da atuação. Sanção administrativa posterior à infração continua sendo polícia administrativa."
     },
     {
       "id": "u105-a15",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Autoexecutoriedade, no poder de polícia, significa que",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "a Administração pode, em hipóteses juridicamente admitidas, executar materialmente a medida sem ordem judicial prévia."
+          "text": "a autoridade pode dispensar competência."
         },
         {
           "id": "C",
@@ -446,21 +446,21 @@
         },
         {
           "id": "E",
-          "text": "a autoridade pode dispensar competência."
+          "text": "a Administração pode, em hipóteses juridicamente admitidas, executar materialmente a medida sem ordem judicial prévia."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Autoexecutoriedade não é universal. Ela depende de suporte jurídico e não equivale à cobrança patrimonial forçada de toda multa."
     },
     {
       "id": "u105-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No chamado ciclo de polícia, fiscalização corresponde",
       "options": [
         {
           "id": "A",
-          "text": "ao comando normativo que estabelece o condicionamento."
+          "text": "à verificação do cumprimento das regras e condicionamentos."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "à verificação do cumprimento das regras e condicionamentos."
+          "text": "ao comando normativo que estabelece o condicionamento."
         },
         {
           "id": "D",
@@ -479,12 +479,12 @@
           "text": "à investigação penal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O ciclo didático é composto por ordem, consentimento, fiscalização e sanção; nem todo caso percorre necessariamente as quatro fases."
     },
     {
       "id": "u105-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "De acordo com o Tema 532 do Supremo Tribunal Federal, a delegação do poder de polícia a pessoa jurídica de direito privado da Administração indireta",
       "options": [
@@ -494,11 +494,11 @@
         },
         {
           "id": "B",
-          "text": "pode ocorrer por simples contrato a qualquer empresa privada."
+          "text": "é constitucional quando feita por lei e a entidade tem capital majoritariamente público, presta exclusivamente serviço público de atuação própria do Estado e atua em regime não concorrencial."
         },
         {
           "id": "C",
-          "text": "é constitucional quando feita por lei e a entidade tem capital majoritariamente público, presta exclusivamente serviço público de atuação própria do Estado e atua em regime não concorrencial."
+          "text": "pode ocorrer por simples contrato a qualquer empresa privada."
         },
         {
           "id": "D",
@@ -509,12 +509,12 @@
           "text": "somente alcança atividades materiais, nunca sanção."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A tese do Tema 532 reúne requisitos cumulativos e admite inclusive atividade sancionatória no contexto decidido pelo Supremo."
     },
     {
       "id": "u105-a18",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Autoridade possui competência para remover servidor por necessidade do serviço, mas usa a remoção exclusivamente para persegui-lo por desavença pessoal. A situação caracteriza, em princípio,",
       "options": [
@@ -524,11 +524,11 @@
         },
         {
           "id": "B",
-          "text": "desvio de poder ou de finalidade."
+          "text": "delegação regular."
         },
         {
           "id": "C",
-          "text": "delegação regular."
+          "text": "desvio de poder ou de finalidade."
         },
         {
           "id": "D",
@@ -539,12 +539,12 @@
           "text": "poder de polícia regular."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A competência formal existe, mas foi utilizada para fim diverso do juridicamente previsto, caracterizando desvio de finalidade."
     },
     {
       "id": "u105-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 17 da prova Cebraspe para Agente Fazendário Estadual da Secretaria de Estado da Fazenda do Paraná, aplicação 25/1/2026, qual poder administrativo permite ao Estado condicionar o exercício de direitos e atividades em benefício do interesse público, nos limites legais?",
       "options": [
@@ -558,23 +558,23 @@
         },
         {
           "id": "C",
-          "text": "poder de polícia."
+          "text": "poder regulamentar."
         },
         {
           "id": "D",
-          "text": "poder regulamentar."
+          "text": "poder de polícia."
         },
         {
           "id": "E",
           "text": "poder jurisdicional."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O gabarito oficial definitivo da questão original é C. O poder de polícia condiciona direitos, interesses, liberdades e atividades em razão de interesses públicos. A redação foi adaptada sem reprodução literal."
     },
     {
       "id": "u105-p02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal do item 79 da prova Cebraspe do Tribunal de Contas do Estado do Rio Grande do Sul para Auditor de Controle Externo, aplicação 19/10/2025, no regime federal da Lei nº 9.784/1999 a avocação de competência",
       "options": [
@@ -588,7 +588,7 @@
         },
         {
           "id": "C",
-          "text": "é excepcional, temporária, exige motivos relevantes devidamente justificados e recai sobre competência de órgão hierarquicamente inferior."
+          "text": "transfere permanentemente a titularidade da competência."
         },
         {
           "id": "D",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "transfere permanentemente a titularidade da competência."
+          "text": "é excepcional, temporária, exige motivos relevantes devidamente justificados e recai sobre competência de órgão hierarquicamente inferior."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O item original teve gabarito definitivo Certo ao tratar a avocação como medida excepcional. A adaptação concentra a regra expressa do artigo 15 da Lei 9.784/1999, sem reproduzir literalmente o enunciado original."
     }
   ]
