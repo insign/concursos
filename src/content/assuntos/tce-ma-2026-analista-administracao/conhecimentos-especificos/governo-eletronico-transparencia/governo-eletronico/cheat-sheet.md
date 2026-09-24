@@ -1,361 +1,60 @@
-# Governo eletrônico
+# Governo eletrônico: como reconhecer a transformação do serviço
 
-## Conceitos centrais
+## Comece pela entrega
 
-| Termo | Núcleo |
-| --- | --- |
-| governo eletrônico | <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr> nas relações e atividades estatais |
-| governo digital | tecnologia, dados, plataformas e valor público |
-| transformação digital | redesenho contínuo de serviços, processos e governança |
-| digitalização | conversão para formato digital |
-
-- Digitalizar burocracia não é necessariamente transformar.
-- Competência digital individual não é capacidade institucional.
-- Portal não prova integração, inclusão ou resultado.
-
-## Evolução didática
-
-```text
-informatização interna
-→ presença
-→ interação
-→ transação
-→ integração
-→ transformação e proatividade
-```
-
-- Serviços do mesmo órgão podem estar em níveis diferentes.
-- Evolução não é necessariamente linear.
-
-## Relações
-
-| Sigla | Relação |
-| --- | --- |
-| <abbr title="Government to Citizen">G2C</abbr> | governo ↔ cidadão |
-| <abbr title="Government to Business">G2B</abbr> | governo ↔ empresa |
-| <abbr title="Government to Government">G2G</abbr> | governo ↔ governo |
-| <abbr title="Government to Employee">G2E</abbr> | governo ↔ agente público |
-
-- Classificam participantes, não maturidade.
-
-## Layne e Lee
-
-1. catalogação;
-2. transação;
-3. integração vertical;
-4. integração horizontal.
-
-- Vertical: níveis ou esferas relacionados.
-- Horizontal: funções, áreas ou órgãos.
-- Não confundir integração horizontal com identidade visual comum.
-
-## Referenciais internacionais
-
-### <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>
-
-- digital por concepção;
-- setor público orientado por dados;
-- governo como plataforma;
-- aberto por padrão;
-- orientado pelo usuário;
-- proatividade.
-
-### <abbr title="E-Government Development Index">EGDI</abbr>/<abbr title="Organização das Nações Unidas">ONU</abbr>
-
-| Componente | Núcleo |
-| --- | --- |
-| <abbr title="Online Service Index">OSI</abbr> | serviços on-line |
-| <abbr title="Telecommunication Infrastructure Index">TII</abbr> | telecomunicações |
-| <abbr title="Human Capital Index">HCI</abbr> | capital humano |
-
-- Compara países.
-- Não certifica órgão ou serviço isolado.
-
-## Fontes e âmbito
-
-| Fonte | Papel | Âmbito |
+| Situação | O que houve | O que ainda precisa ser demonstrado |
 | --- | --- | --- |
-| Lei nº 14.129/2021 | princípios, regras e instrumentos | aplicação conforme art. 2º e adoção pelos entes |
-| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> 2024–2027 | articulação nacional | União, estados, <abbr title="Distrito Federal">DF</abbr> e municípios |
-| <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> 2024–2027 | transformação federal | administração federal direta, autárquica e fundacional |
-| <abbr title="Infraestrutura Nacional de Dados">IND</abbr> | dados e interoperabilidade | âmbito federal |
-| <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr> | padrões mínimos de interoperabilidade | <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; facultativa fora do âmbito definido |
-| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> | acessibilidade digital | referência técnica federal |
-| norma interna | competências e fluxos | ente ou órgão |
+| Formulário de papel virou arquivo digital | **digitalização** | simplificação, conclusão do pedido e integração |
+| Tarefas internas usam sistemas | **informatização** | melhora da jornada do usuário |
+| <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr> organizam relações do Estado | **governo eletrônico** | resultado e inclusão |
+| Dados, canais, processos e responsabilidades são redesenhados | **governo digital / transformação** | valor público efetivo, direitos e continuidade |
 
-- Instrumento federal infralegal não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
-- Corte: **19 de julho de 2026**.
+Portal, aplicativo ou <abbr title="sistema de conversa automatizada">chatbot</abbr> são meios; conte a jornada concluída com qualidade, não apenas serviços colocados on-line.
 
-## Lei nº 14.129/2021
+## Classifique a pergunta certa
 
-- simplificação e desburocratização;
-- plataforma única sem exclusividade absoluta;
-- linguagem clara;
-- transparência e participação;
-- integração segura;
-- exigência de dados uma única vez;
-- não pedir prova já comprovada;
-- interoperabilidade e dados abertos;
-- boa-fé;
-- proteção de dados;
-- acessibilidade;
-- padrões preferencialmente abertos.
+- **Participantes:** <abbr title="Government to Citizen: governo e cidadão">G2C</abbr>, <abbr title="Government to Business: governo e empresas">G2B</abbr>, <abbr title="Government to Government: órgãos públicos">G2G</abbr> e <abbr title="Government to Employee: governo e agentes públicos">G2E</abbr>. Nenhuma dessas siglas indica maturidade.
+- **Capacidade do serviço:** informação → interação → transação → integração → redesenho. É um esquema didático; órgãos e serviços não avançam necessariamente em linha reta.
+- **Layne e Lee:** catalogação → transação → integração **vertical** entre níveis de governo → integração **horizontal** entre funções ou órgãos. Integração não atesta acessibilidade nem legalidade.
+- **<abbr title="E-Government Development Index: índice de desenvolvimento de governo eletrônico">EGDI</abbr>/<abbr title="Organização das Nações Unidas">ONU</abbr>:** combina serviços on-line (<abbr title="Online Service Index">OSI</abbr>), infraestrutura de telecomunicações (<abbr title="Telecommunication Infrastructure Index">TII</abbr>) e capital humano (<abbr title="Human Capital Index">HCI</abbr>); compara **países**, não certifica um serviço do tribunal.
+- **<abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>:** digital desde o desenho, setor orientado por dados, plataforma, abertura responsável, usuário e proatividade são dimensões complementares.
 
-## *Once only*
+## A lei no desenho do serviço
 
-```text
-necessidade
-→ registro de referência
-→ competência e base jurídica
-→ qualidade e atualidade
-→ acesso seguro
-→ reutilização
-→ correção e contestação
-```
+A Lei nº 14.129/2021 (artigo 2º) alcança os órgãos federais enumerados; administrações de outros entes precisam **adotar seus comandos por ato normativo próprio**. No estudo do Cargo 1, o corte legislativo é a **publicação do edital em 7/7/2026**; a data do ato é 6/7/2026. Regulamento federal não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-- Não autoriza acesso irrestrito.
-- Dado existente pode estar errado.
-- Reutilização não elimina finalidade nem segurança.
-
-## Governo como plataforma
-
-| Capacidade comum | Exemplo |
+| Etapa | Regra ou distinção recuperável |
 | --- | --- |
-| identidade | autenticação e credenciais |
-| representação | procuração e pessoa jurídica |
-| notificações | acompanhamento |
-| pagamentos | arrecadação |
-| assinatura | autoria e integridade |
-| interoperabilidade | <abbr title="Application Programming Interfaces">APIs</abbr> e padrões |
-| design | componentes acessíveis |
-| dados | catálogos e registros |
-| observabilidade | logs e métricas |
+| Antes do pedido | Linguagem clara, simplificação, Carta de Serviços e requisitos conhecidos. |
+| Acesso | Canal digital oficial não elimina atendimento presencial quando necessário; <abbr title="uso do serviço sem mediação humana">autosserviço</abbr> não exclui assistência. |
+| Pedido | Plataforma: **solicitar e acompanhar** + painel de desempenho (artigo 20). Serviços devem permitir etapas, notificações e pagamento quando cabível (artigo 21). |
+| Dados | Exigir dados uma vez e aproveitar informação válida, com competência, finalidade, qualidade, segurança e correção possível; <abbr title="pedir dado uma única vez quando reutilização legítima for possível">once only</abbr> não é acesso irrestrito. |
+| Resultado | Painel mínimo por serviço: solicitações anuais em andamento e concluídas, **tempo médio**, **satisfação** (artigo 22). Complemente com conclusão, abandono e barreiras. |
 
-- Plataforma não significa sistema único monolítico.
-- Reutilizar componente não transfere responsabilidade pelo serviço.
+Os componentes essenciais do artigo 18 são **Base Nacional de Serviços Públicos, Cartas de Serviços ao Usuário e Plataformas de Governo Digital**. Ponto único de acesso não exige um sistema monolítico nem um canal presencial proibido.
 
-## Serviços digitais
+## Conectar exige mais que uma interface
 
-### Componentes essenciais
-
-1. Base Nacional de Serviços Públicos;
-2. Cartas de Serviços ao Usuário;
-3. Plataformas de Governo Digital.
-
-### Jornada
-
-- descobrir requisitos;
-- solicitar;
-- protocolar;
-- agendar;
-- acompanhar;
-- receber notificações;
-- pagar, quando aplicável;
-- obter decisão;
-- recorrer ou contestar;
-- avaliar.
-
-### Painel mínimo
-
-- solicitações em andamento e concluídas;
-- tempo médio;
-- satisfação.
-
-- Satisfação não prova legalidade, efetividade ou equidade.
-
-## Canais
-
-| Estratégia | Sentido |
+| Dimensão da interoperabilidade | Pergunta de prova |
 | --- | --- |
-| canal oficial | ponto institucional de acesso |
-| multicanal | vários canais, possivelmente isolados |
-| omnicanal | canais coordenados e jornada contínua |
-| assistido | apoio para usar o meio digital |
-| autosserviço | uso sem mediação humana |
+| Técnica | Formatos, protocolos e <abbr title="Interface de Programação de Aplicações">API</abbr> permitem troca? |
+| Semântica | Os campos significam a mesma coisa? |
+| Organizacional | Processos, responsáveis e acordos se coordenam? |
+| Jurídica | Há competência, finalidade legítima, sigilo e proteção de dados respeitados? |
 
-- Canal oficial não significa exclusivo.
-- Omnicanalidade não elimina atendimento presencial necessário.
-- Assistência não autoriza conhecer senha ou fator secreto.
+Uma <abbr title="Interface de Programação de Aplicações">API</abbr> funcionando comprova conexão técnica, não as outras três dimensões. Reutilizar registro de referência exige fonte responsável, dado atualizado e possibilidade de corrigir erro. Identificação declara quem é; autenticação comprova; autorização define permissões; representação permite agir por outra pessoa; assinatura vincula autoria e integridade. Autenticação forte não cria elegibilidade nem corrige autorização excessiva.
 
-## Proatividade
-
-- depende de evento legítimo;
-- exige dado confiável;
-- deve ser transparente;
-- permite correção e contestação;
-- não equivale a decisão automática desfavorável.
-
-## Inclusão e acessibilidade
-
-Barreiras:
-
-- conexão;
-- custo;
-- dispositivo;
-- habilidade;
-- linguagem;
-- deficiência;
-- idade;
-- território;
-- suporte.
-
-Ciclo:
-
-```text
-governança
-→ requisitos
-→ design
-→ desenvolvimento
-→ testes
-→ publicação
-→ atendimento
-→ monitoramento
-→ correção
-```
-
-- Validador automático não substitui teste humano.
-- Página acessível não garante jornada acessível.
-
-## Identidade e confiança
-
-| Etapa | Pergunta |
+| Instrumento | Papel e âmbito |
 | --- | --- |
-| identificação | quem declara ser? |
-| registro | como a identidade foi vinculada? |
-| autenticação | como é comprovada agora? |
-| autorização | o que pode fazer? |
-| representação | em nome de quem atua? |
-| assinatura | autoria e integridade? |
-| auditoria | como o uso é registrado? |
+| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> 2024–2027 | articulação nacional das estratégias |
+| <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> 2024–2027 e <abbr title="Infraestrutura Nacional de Dados">IND</abbr> | estratégia e dados da administração federal abrangida |
+| <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr> | padrões para o <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; adoção fora do âmbito obrigatório é facultativa |
+| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> | referência técnica para acessibilidade digital |
 
-- Autenticação deve ser proporcional ao risco.
-- Autenticação forte não corrige autorização excessiva.
-- Prever recuperação, revogação, fraude e representação.
+Formato gratuito não é necessariamente **aberto**: importa especificação documentada e uso implementável sem restrição jurídica. A <abbr title="Infraestrutura Nacional de Dados">IND</abbr> organiza governança e intercâmbio; não pressupõe uma base única com todos os dados.
 
-## Interoperabilidade
+## Verifique a continuidade e o resultado
 
-| Dimensão | Núcleo |
-| --- | --- |
-| técnica | protocolos, formatos e interfaces |
-| semântica | significado comum |
-| organizacional | processos, papéis e acordos |
-| jurídica | competência, finalidade, sigilo e proteção |
+**Multicanal** oferece vários meios; **omnicanal** permite seguir o mesmo protocolo entre eles. Atendimento assistido preserva autonomia e segredo da senha. Proatividade requer evento legítimo, dado confiável, transparência e contestação. Acessibilidade atravessa autenticação, formulário, anexos, pagamento e recurso; validador automático isolado não garante jornada acessível.
 
-- API resolve parte técnica.
-- Base central única não é requisito.
-- Integração ≠ interoperabilidade ≠ compartilhamento ≠ centralização.
-
-## Infraestrutura Nacional de Dados
-
-| Elemento | Função |
-| --- | --- |
-| catálogo | localizar conjuntos e responsáveis |
-| metadado | explicar origem e qualidade |
-| registro de referência | fonte autorizada |
-| vocabulário | significado comum |
-| intercâmbio | acesso controlado |
-| governança | responsabilidade e uso |
-| auditoria | registrar consultas |
-
-- IND tem âmbito federal.
-- Interoperabilidade amplifica erros se a qualidade for baixa.
-
-## Formatos e e-PING
-
-- formato aberto: documentado, implementável e sem restrição jurídica;
-- gratuito não é sinônimo de aberto;
-- e-PING: premissas, políticas e especificações mínimas;
-- adoção fora do âmbito obrigatório é facultativa;
-- legado proprietário pode exigir transição controlada.
-
-## Governança
-
-- direciona;
-- monitora;
-- avalia;
-- prioriza;
-- controla riscos;
-- presta contas.
-
-Gestão:
-
-- planeja;
-- desenvolve;
-- opera;
-- mantém;
-- corrige.
-
-Instrumentos:
-
-- estratégia;
-- plano de transformação;
-- arquitetura;
-- governança de dados;
-- continuidade;
-- riscos;
-- indicadores.
-
-## Indicadores
-
-| Dimensão | Exemplo |
-| --- | --- |
-| adoção | usuários digitais ÷ elegíveis |
-| conclusão | jornadas concluídas ÷ iniciadas |
-| abandono | jornadas interrompidas ÷ iniciadas |
-| tempo | mediana e percentis |
-| retrabalho | devoluções e repetições |
-| disponibilidade | tempo disponível ÷ previsto |
-| acessibilidade | barreiras confirmadas |
-| inclusão | resultado por grupo ou território |
-| custo | custo por transação |
-| resultado | problema público resolvido |
-
-- Contar serviços digitalizados é insuficiente.
-- Maior adoção não prova equidade.
-
-## <abbr title="Inteligência Artificial">IA</abbr> e automação
-
-- finalidade e base jurídica;
-- qualidade dos dados;
-- documentação e versões;
-- testes;
-- supervisão proporcional;
-- monitoramento de erro e viés;
-- explicação adequada;
-- contestação;
-- continuidade.
-
-- Chatbot é canal, não prova transformação.
-- Automação não torna procedimento ilegal em legal.
-
-## Gestão documental
-
-- classificação;
-- temporalidade;
-- autenticidade;
-- integridade;
-- preservação;
-- acesso;
-- eliminação autorizada;
-- proteção de dados.
-
-- Excluir arquivo não equivale a eliminação documental regular.
-
-## Pegadinhas
-
-- “G2G é estágio de maturidade” → errado.
-- “Portal prova transformação” → errado.
-- “Plataforma é sistema único” → errado.
-- “API garante semântica comum” → errado.
-- “Dado existente está sempre correto” → errado.
-- “*Once only* autoriza acesso irrestrito” → errado.
-- “Canal oficial é canal exclusivo” → errado.
-- “Omnicanal elimina presencial” → errado.
-- “Chatbot prova serviço transformado” → errado.
-- “Autenticação máxima serve para todo serviço” → errado.
-- “Centralização é requisito de interoperabilidade” → errado.
-- “e-PING vincula qualquer TCE” → errado.
-- “Validador automático prova acessibilidade” → errado.
-- “EGDI mede órgão isolado” → errado.
-- “Maior adoção prova equidade” → errado.
-- “Meio digital elimina preservação documental” → errado.
+**Governança** define direção, prioridades, riscos e avaliação; **gestão** executa e corrige. Taxa de adoção pode subir enquanto um grupo fica excluído. Compare solicitações iniciadas e concluídas, tempo, abandono, satisfação, acessibilidade e resultado público. Quantidade de páginas, sistemas ou serviços digitalizados mede atividade, não valor entregue.
