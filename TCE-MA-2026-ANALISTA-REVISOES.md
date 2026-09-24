@@ -246,7 +246,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
 | H115 | `conceitos-material-patrimonio` | = | L | [384f2ed](https://github.com/insign/concursos/commit/384f2edd403afdde9b83ccec3283c728a86da0e4) |
-| H116 | `patrimonio-imobiliario-spiu` | = | L | — |
+| H116 | `patrimonio-imobiliario-spiu` | = | L | [d6b76cc](https://github.com/insign/concursos/commit/d6b76cce35f7088344f0a5c09163ccf94a9e270a) |
 | H117 | `patrimonio-mobiliario-responsabilidade` | `patrimonio-mobiliario-resp` | L | — |
 | H118 | `controle-movimentacao-sistema` | = | L | — |
 | H119 | `previsao-controle-estoque` | = | L | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H116: a aula ainda chama 6/7/2026 (data do ato E1) de corte de publicação; o edital foi publicado em 7/7. Corrigir a aula em escopo próprio; o H e as questões revisadas preservam o corte correto.
+
 - H114: `conteudo.md`, seção 16, confunde a data do ato E1 (6/7/2026) com a publicação (7/7/2026), marco do corte legislativo. Corrigir a aula em escopo próprio.
 - H111: a aula trata 6/7/2026, data do ato E1, como publicação e corte legislativo; o Tribunal informa publicação em 7/7. Corrigir a aula em escopo próprio.
 
