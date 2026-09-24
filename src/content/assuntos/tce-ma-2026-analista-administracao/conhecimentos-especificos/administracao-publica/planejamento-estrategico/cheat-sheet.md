@@ -1,283 +1,73 @@
-# Planejamento estratégico: revisão rápida
+# Planejamento estratégico
 
-## Conceitos
+## Da escolha ao resultado
 
-| Conceito | Núcleo |
+**Estratégia** escolhe direção e prioridades; **planejamento** formula essas escolhas à luz do ambiente e do mandato; **plano** documenta; **gestão estratégica** implementa, monitora, avalia e revisa. Publicar o Plano Estratégico Institucional (<abbr title="Plano Estratégico Institucional">PEI</abbr>) não executa a estratégia nem elimina incerteza.
+
+| Antes de escolher uma ação | Depois da escolha |
 | --- | --- |
-| estratégia | escolhas coerentes |
-| planejamento estratégico | processo sistêmico |
-| plano/<abbr title="Plano Estratégico Institucional">PEI</abbr> | produto documental |
-| gestão estratégica | implementar, monitorar, avaliar e revisar |
+| **Missão:** razão de ser presente e mandato; **visão:** futuro desejado; **valores:** princípios de conduta; **propósito:** impacto mobilizador. | Direção estratégica da organização → tradução tática pelas áreas → trabalho operacional; alinhamento vertical conecta níveis, horizontal coordena áreas. Não há prazo universal para cada nível. |
+| **Diagnóstico:** fatores internos e externos, capacidades, restrições e partes interessadas. | Objetivo (mudança) → indicador (medida) → linha de base (situação inicial) → meta (valor e prazo) → iniciativa (ação). |
+| **Critério:** legalidade, valor público, custo, risco, capacidade e alternativas. | Patrocínio, responsáveis, orçamento, processos, comunicação, acompanhamento e correção. Entregar iniciativa não prova alcançar o resultado. |
 
-Plano publicado ≠ estratégia implementada.
+A **cadeia de valor** liga recursos e processos às entregas e resultados; não reproduz o organograma. Valor público considera benefício legítimo à sociedade, além de contagem de produtos ou economia isolada. Um **fator crítico de sucesso** (<abbr title="Fator Crítico de Sucesso">FCS</abbr>) é condição essencial para alcançar objetivos, não indicador, meta, iniciativa nem necessariamente um problema.
 
-## Formação da estratégia
+**Insumos → atividades → produtos → resultados → impactos:** eficiência relaciona recursos e produtos; eficácia verifica metas; efetividade examina mudanças relevantes na realidade. Maior quantidade de relatórios não comprova melhora dos efeitos. Ficha do indicador precisa de universo, fórmula, fonte, periodicidade e responsáveis; mudar a fórmula sem cuidado cria falsa melhora.
 
-| Tipo | Ideia |
+## Diagnosticar e formular
+
+| Ferramenta | Critério que resolve a questão |
 | --- | --- |
-| pretendida | intenção inicial |
-| deliberada | intenção efetivamente realizada |
-| não realizada | intenção abandonada |
-| emergente | padrão surgido durante a ação |
-| realizada | deliberada + emergente |
+| <abbr title="Strengths, Weaknesses, Opportunities and Threats">SWOT</abbr> ou <abbr title="Forças, Oportunidades, Fraquezas e Ameaças">FOFA</abbr> | Força/fraqueza = **interno** favorável/desfavorável; oportunidade/ameaça = **externo** favorável/desfavorável. Maior influência interna não é controle absoluto; classifique relativamente à organização analisada. Diagnóstico sozinho não decide ação. |
+| <abbr title="Threats, Opportunities, Weaknesses and Strengths">TOWS</abbr> | Cruza diagnóstico em alternativas: <abbr title="Strengths and Opportunities">SO</abbr> usa força em oportunidade; <abbr title="Weaknesses and Opportunities">WO</abbr> reduz fraqueza para aproveitar oportunidade; <abbr title="Strengths and Threats">ST</abbr> enfrenta ameaça com força; <abbr title="Weaknesses and Threats">WT</abbr> reduz vulnerabilidade ante ameaça. |
+| <abbr title="Political, Economic, Social, Technological, Environmental and Legal">PESTEL</abbr> | Político, econômico, social, tecnológico, ambiental e legal = contexto **externo** amplo; não substitui diagnóstico interno. |
+| Cenários | Futuros **plausíveis**, com premissas e sinais; testam robustez da opção, não predizem com certeza nem equivalem a metas. |
+| Matriz <abbr title="Gravidade, Urgência e Tendência">GUT</abbr> | Prioriza problemas por dano, necessidade de agir logo e evolução provável sem intervenção; não decide estratégia nem implementa solução. |
+| Plano de ação <abbr title="What, Why, Where, When, Who, How and How much">5W2H</abbr> | Detalha o que, por quê, onde, quando, quem, como e quanto custa **depois** de decidir; não é diagnóstico. |
 
-Emergente ≠ improvisação sem direção.
+Na variante frequente de <abbr title="Specific, Measurable, Achievable, Relevant and Time-bound">SMART</abbr>, meta específica, mensurável, alcançável, relevante e com prazo. **Identifique a fonte:** o artigo original de Doran (1981) usa <abbr title="Specific, Measurable, Assignable, Realistic and Time-related">SMART</abbr> com *assignable* (responsável atribuído) e *realistic* (resultado viável). Uma etiqueta não demonstra viabilidade por si.
 
-## Cinco Ps
+## Conectar, medir e rever
 
-- plano: curso intencional;
-- pretexto/manobra: movimento específico;
-- padrão: consistência observada;
-- posição: lugar no ambiente;
-- perspectiva: modo compartilhado de perceber.
-
-## Níveis
-
-| Nível | Escopo |
+| Método | O que recupera |
 | --- | --- |
-| estratégico | organização e ambiente |
-| tático | área ou unidade |
-| operacional | tarefas, processos e entregas |
+| <abbr title="Balanced Scorecard">BSC</abbr> | Traduz a estratégia em objetivos, indicadores, metas e iniciativas conectados por **hipóteses causais** no mapa estratégico. Quatro perspectivas clássicas: financeira, clientes, processos internos, aprendizado e crescimento. No setor público, missão e sociedade podem estar no topo; orçamento sustenta, sem exigir lucro como fim. Mapa não é organograma nem cronograma. |
+| <abbr title="Objectives and Key Results">OKR</abbr> | Objetivo qualitativo + resultados-chave mensuráveis de progresso; uma tarefa concluída não prova o efeito almejado. Ciclo trimestral é frequente, não obrigatório. Pode coexistir com <abbr title="Balanced Scorecard">BSC</abbr>. |
+| Indicador antecedente × consequente | O primeiro sinaliza capacidade/ação que **pode** influenciar o futuro; o segundo mede efeito alcançado. Relação no mapa é hipótese a testar. |
+| Governança × gestão | Governança **avalia, direciona, monitora**; gestão **planeja, executa, controla**. Risco é efeito da incerteza sobre objetivos, inclusive oportunidade. Aceitar risco = decisão consciente de não alterar probabilidade/consequência, com acompanhamento; não é desconhecê-lo. |
+| Monitorar × avaliar × revisar | Monitoramento segue execução e métricas; avaliação investiga relevância, causas, eficiência, eficácia e efetividade; revisão altera fundamentadamente direção, metas ou meios. Desvio pode ser execução, indicador, premissa ou hipótese causal. |
 
-Precedência e amplitude não criam prazos universais.
+Um portfólio deve priorizar iniciativas diante de obrigações legais, dependências, riscos, custos e capacidade. Estrutura rígida, falta de recursos ou comunicação podem impedir estratégia bem formulada. Apetite a risco (exposição que se aceita assumir) não autoriza violar a lei.
 
-## Identidade
+## Reconhecer a formação da estratégia
 
-- missão: razão de ser atual;
-- visão: futuro desejado;
-- valores: princípios;
-- propósito: impacto ou razão maior;
-- cadeia de valor: como processos geram entregas;
-- valor público: resultado útil e legítimo ao interesse público.
+**Pretendida** = intenção; **deliberada** = parte pretendida efetivamente executada; **não realizada** = parte abandonada; **emergente** = padrão surgido no fazer; **realizada** = deliberada + emergente. Emergência não significa improvisação sem controle. Nos **cinco <abbr title="Plan, Ploy, Pattern, Position and Perspective">Ps</abbr> de Mintzberg** (*plan, ploy, pattern, position, perspective*): plano é intenção, pretexto/manobra influencia outro ator, padrão é comportamento recorrente, posição é lugar no ambiente, perspectiva é forma compartilhada de perceber.
 
-## Alinhamento
-
-- vertical: missão → objetivos → unidades → processos/projetos → atividades;
-- horizontal: coordenação entre áreas;
-- desdobrar ≠ copiar o mesmo objetivo.
-
-## Ciclo
-
-1. identidade e mandato;
-2. diagnóstico;
-3. formulação;
-4. indicadores, metas e iniciativas;
-5. desdobramento;
-6. implementação;
-7. monitoramento;
-8. avaliação;
-9. revisão.
-
-Formulação e implementação são interdependentes.
-
-## SWOT e TOWS
-
-| Fator | Ambiente |
+| Escola (Mintzberg, Ahlstrand e Lampel) | Mecanismo predominante |
 | --- | --- |
-| força | interno favorável |
-| fraqueza | interno desfavorável |
-| oportunidade | externo favorável |
-| ameaça | externo desfavorável |
+| **Prescritivas:** design/concepção; planejamento; posicionamento | Respectivamente, ajuste interno–externo deliberado; formalização de etapas; análise de posições competitivas. |
+| **Descritivas:** empreendedora; cognitiva; aprendizagem | Respectivamente, visão do líder; percepções; padrão emergente da experiência. |
+| **Descritivas:** poder; cultural; ambiental | Respectivamente, negociação/conflito; crenças coletivas; pressões do ambiente. |
+| **Integradora:** configuração | Estados organizacionais relativamente estáveis e transformações entre eles. |
 
-| Cruzamento | Resposta |
+## Ferramentas empresariais: qual pergunta cada uma responde?
+
+| Modelo | Leitura correta |
 | --- | --- |
-| SO | força aproveita oportunidade |
-| WO | reduz fraqueza para aproveitar oportunidade |
-| ST | força enfrenta ameaça |
-| WT | reduz vulnerabilidade |
+| **Porter, cinco forças** | Atratividade da estrutura do setor: rivalidade, ameaça de entrantes, substitutos, poder dos compradores e dos fornecedores. Substituto atende à mesma necessidade por outro caminho; não é só concorrente semelhante. |
+| **Porter, estratégia genérica** | Liderança em custos em mercado amplo; diferenciação em atributo valorizado; enfoque em segmento restrito por custo ou diferenciação. Nicho não implica diferenciação. |
+| **Ansoff, produto × mercado** | Atual/atual = penetração; atual/novo = desenvolvimento de mercado; novo/atual = desenvolvimento de produto; novo/novo = diversificação. |
+| <abbr title="Boston Consulting Group">BCG</abbr>, crescimento × participação **relativa** | Alto/alta = estrela (cresce e demanda recursos); alto/baixa = interrogação (decidir investir); baixo/alta = vaca leiteira (tende a gerar excedente); baixo/baixa = abacaxi/cão (reavaliar). Quadrantes não decidem sozinhos. |
 
-SWOT organiza; não prioriza nem executa.
+São modelos empresariais; baixa atratividade econômica não autoriza extinguir serviço público essencial.
 
-## PESTEL e cenários
+## Plano institucional e orçamento: âmbito importa
 
-PESTEL: político, econômico, social, tecnológico, ambiental e legal.
-
-Cenários:
-
-- futuros plausíveis;
-- não são previsão exata;
-- testam robustez;
-- usam premissas, sinais e respostas.
-
-## <abbr title="Fator Crítico de Sucesso">FCS</abbr>, objetivo, indicador, meta e iniciativa
-
-- objetivo: mudança desejada;
-- FCS: condição essencial ao sucesso;
-- indicador: medida;
-- linha de base: valor inicial;
-- meta: valor + prazo;
-- iniciativa: ação estruturada.
-
-## SMART
-
-- específico;
-- mensurável;
-- alcançável/atingível;
-- relevante/realista;
-- temporal.
-
-## Cadeia de resultados
-
-insumo → atividade → produto → resultado → impacto
-
-- eficiência: recursos/produtos;
-- eficácia: metas/resultados;
-- efetividade: efeitos na realidade.
-
-## Escolas
-
-### Prescritivas
-
-- design: concepção e ajuste;
-- planejamento: processo formal;
-- posicionamento: análise e posições genéricas.
-
-### Descritivas
-
-- empreendedora: visão;
-- cognitiva: processo mental;
-- aprendizagem: emergência;
-- poder: negociação;
-- cultural: crenças compartilhadas;
-- ambiental: adaptação.
-
-### Integrativa
-
-- configuração: estados e transformação.
-
-## Porter
-
-Cinco forças:
-
-1. rivalidade;
-2. entrantes;
-3. substitutos;
-4. compradores;
-5. fornecedores.
-
-Estratégias:
-
-- custos;
-- diferenciação;
-- enfoque.
-
-Enfoque ≠ diferenciação automática.
-
-## Ansoff
-
-| Produtos | Mercados | Estratégia |
-| --- | --- | --- |
-| atuais | atuais | penetração |
-| atuais | novos | desenvolvimento de mercado |
-| novos | atuais | desenvolvimento de produto |
-| novos | novos | diversificação |
-
-## <abbr title="Boston Consulting Group">BCG</abbr>
-
-| Crescimento | Participação | Quadrante |
-| --- | --- | --- |
-| alto | alta | estrela |
-| alto | baixa | interrogação |
-| baixo | alta | vaca leiteira |
-| baixo | baixa | abacaxi/cão |
-
-## <abbr title="Balanced Scorecard">BSC</abbr>
-
-Perspectivas clássicas:
-
-- financeira;
-- clientes;
-- processos internos;
-- aprendizado e crescimento.
-
-No setor público, sociedade/usuários pode ocupar o topo.
-
-Mapa estratégico:
-
-- representa objetivos;
-- mostra relações de causa e efeito;
-- não é organograma, cronograma ou lista de projetos.
-
-Indicadores:
-
-- tendência/antecedente: capacidade ou ação;
-- resultado/consequente: efeito alcançado.
-
-## <abbr title="Objectives and Key Results">OKR</abbr>
-
-- objetivo: direção qualitativa;
-- resultado-chave: evidência mensurável;
-- tarefa não é necessariamente resultado-chave;
-- não exige ciclo trimestral universal;
-- pode coexistir com BSC e PEI.
-
-## Implementação
-
-Exige:
-
-- patrocínio;
-- portfólio;
-- recursos;
-- responsáveis;
-- comunicação;
-- mudança;
-- riscos;
-- monitoramento.
-
-Plano sem capacidade e orçamento = intenção.
-
-## Governança e riscos
-
-- governança: avalia, direciona e monitora;
-- gestão: planeja, executa e controla;
-- risco: efeito da incerteza sobre objetivos;
-- risco pode ser ameaça ou oportunidade.
-
-## Monitoramento × avaliação × revisão
-
-- monitoramento: acompanhamento frequente;
-- avaliação: análise profunda;
-- revisão: alteração fundamentada.
-
-Desvio pode indicar execução ruim, meta ruim, indicador ruim ou premissa alterada.
-
-## PEI × <abbr title="Plano Plurianual">PPA</abbr> × <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> × <abbr title="Lei Orçamentária Anual">LOA</abbr>
-
-| Instrumento | Núcleo |
+| Instrumento | Função |
 | --- | --- |
-| PEI | estratégia institucional |
-| PPA | objetivos e metas governamentais de médio prazo |
-| LDO | prioridades e orientação orçamentária |
-| LOA | receita e despesa anual |
+| <abbr title="Plano Estratégico Institucional">PEI</abbr> | Direção da instituição; não é lei orçamentária nem autoriza despesa por si. |
+| <abbr title="Plano Plurianual">PPA</abbr> | Diretrizes, objetivos e metas, na forma constitucional, para despesas de capital, decorrentes e programas continuados. |
+| <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> | Metas e prioridades, diretrizes fiscais e orientação da elaboração orçamentária. |
+| <abbr title="Lei Orçamentária Anual">LOA</abbr> | Estima receitas e fixa despesas para o ano. |
 
-PEI não substitui os instrumentos orçamentários.
-
-## Pegadinhas
-
-| Afirmação | Julgamento |
-| --- | --- |
-| planejamento elimina incerteza | errado |
-| missão descreve o futuro | errado |
-| visão é a razão de ser atual | errado |
-| oportunidade é fator interno | errado |
-| SWOT define responsável e prazo | errado |
-| estratégia emergente deve ser suprimida | errado |
-| FCS é sempre um problema | errado |
-| meta é iniciativa | errado |
-| BSC é apenas financeiro | errado |
-| mapa é organograma | errado |
-| enfoque é sempre diferenciação | errado |
-| PEI substitui PPA e LOA | errado |
-
-## Roteiro de prova
-
-1. processo, plano ou gestão?
-2. qual nível?
-3. missão, visão, valor ou meta?
-4. fator interno ou externo?
-5. qual escola ou modelo?
-6. objetivo, FCS, indicador, meta ou iniciativa?
-7. qual perspectiva do BSC?
-8. há causa e efeito plausível?
-9. existem recursos, riscos e governança?
-10. há absoluto indevido?
+A <abbr title="Instrução Normativa">IN</abbr> nº 24/2020 da Secretaria de Gestão do Ministério da Economia exige, **na administração pública federal direta, autárquica e fundacional**: cadeia de valor; identidade (missão, visão, valores e mapa); objetivos/metas; indicadores com fórmula, periodicidade, linha de base e metas; projetos com principais entregas, prazos e unidade responsável. Podem constar do próprio plano ou de desdobramento. Revisão **ao menos anual** desde 2021, atualização se necessária; comitê interno aprova e monitora **ao menos trimestralmente**; divulgar plano e atualizações no sítio. O artigo 4º remete ao <abbr title="Plano Plurianual">PPA</abbr> **2020–2023**, referência histórica da norma: o <abbr title="Plano Plurianual">PPA</abbr> federal vigente no corte é **2024–2027** (Lei nº 14.802/2024). O Decreto nº 9.203/2017 também tem âmbito federal definido. Essas obrigações infralegais **não se estendem automaticamente ao Tribunal de Contas do Maranhão**.
