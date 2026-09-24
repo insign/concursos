@@ -251,7 +251,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H118 | `controle-movimentacao-sistema` | = | L | [5ffce63](https://github.com/insign/concursos/commit/5ffce63da517303af2db323f74fed42ce8bc0085) |
 | H119 | `previsao-controle-estoque` | = | L | [c64df30](https://github.com/insign/concursos/commit/c64df302f759206ca92e842b28e074e674e6c5e3) |
 | H120 | `almoxarifado-armazenamento` | = | L | [57f546d](https://github.com/insign/concursos/commit/57f546dd72577155cab534d7bd9240a634ecc04e) |
-| H121 | `compras-classificacao-padronizacao-codificacao` | `compras-classificacao-materiais` | L | — |
+| H121 | `compras-classificacao-padronizacao-codificacao` | `compras-classificacao-materiais` | L | [212fd63](https://github.com/insign/concursos/commit/212fd63d87f52c373a524b0a59e79f6653979519) |
 | H122 | `arquivamento-recebimento-distribuicao-inventario` | `materiais-recebimento-inventario` | L | — |
 | H123 | `analise-valor-alienacao` | = | L | — |
 
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H121: a aula chama 6/7/2026 de publicação do Edital nº 1, ocorrido em 7/7; corrigir na aula em escopo próprio. O caderno tipo 1 da SEMSA/SEMAD Manaus 2022 não abriu na fonte FGV (502), embora o gabarito retificado esteja acessível; não usar q20003 como contraprova textual até conferir a prova oficial.
+
 - H120: `conteudo.md` identifica 6/7/2026 como publicação E1; publicação ocorreu em 7/7. Ajustar a aula em escopo próprio; H e referências desta campanha usam o corte correto.
 
 - H119: `conteudo.md` chama 6/7/2026 de publicação/corte E1; publicação foi em 7/7. q52211901 sobre just in time não teve caderno/gabarito oficial localizados e cobra conceito não desenvolvido na aula; não usá-la como contraprovante sem conferência e revisão da pertinência. No banco autoral, q1259–61 (métodos Croston/SBA/TSB) e q1319–23 (modelo combinado de segurança) exigem fundamentos não ensinados na aula; avaliar ensino/pertinência em escopo próprio, sem inflar o H119.
