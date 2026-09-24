@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u042-a01",
@@ -349,8 +349,8 @@
     },
     {
       "id": "q99007",
-      "revision": 2,
-      "origin": "previous_exam",
+      "revision": 3,
+      "origin": "authorial",
       "prompt": "Uma matriz quadrada M de ordem 2 possui m11=2, m12=3, m21=4 e m22=5. O valor de m12+m21 é",
       "options": [
         {"id": "A", "text": "5"},
@@ -360,7 +360,7 @@
         {"id": "E", "text": "9"}
       ],
       "correctOptionId": "C",
-      "explanation": "m12 é o elemento da linha 1, coluna 2, igual a 3; m21 é o da linha 2, coluna 1, igual a 4. A soma é 7. Adaptação não literal de questão da Fundação Getulio Vargas, Assembleia Legislativa do Estado do Rio de Janeiro — Agente de Polícia Legislativa, 2026, questão 70; caderno e gabarito definitivo listados em referencias.md."
+      "explanation": "m12 é o elemento da linha 1, coluna 2, igual a 3; m21 é o da linha 2, coluna 1, igual a 4. A soma é 7."
     }
   ]
 }
