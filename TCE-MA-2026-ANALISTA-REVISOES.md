@@ -82,7 +82,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M09 | `E/administracao-recursos-materiais-patrimoniais` | H115–H123 | L | [`69f01d7`](https://github.com/insign/concursos/commit/69f01d7d656b9ab679cd6210074254dc7cf9f12c) |
 | M10 | `E/gestao-contratos` | H124–H137 | L | [`eb3f667`](https://github.com/insign/concursos/commit/eb3f6674396012b93a72664535b9cdf172217731) |
 | M11 | `E/governo-eletronico-transparencia` | H138–H141 | L | [`89b7031`](https://github.com/insign/concursos/commit/89b70313bea04035cf02bf571958488c5e264826) |
-| M12 | `E/gestao-pessoas` | H142–H153 | L | — |
+| M12 | `E/gestao-pessoas` | H142–H153 | L | [3b6bc67](https://github.com/insign/concursos/commit/3b6bc67ef17bdebc9cfb36639ea97edc60df3f69) |
 
 M06 é física embora seus assuntos sejam vinculados; M10 é física e contém assuntos locais e vinculados. Não converter por conveniência. Em M11, o slug publicado da revisão é `governo-eletronico-transparencia-controle-social`, diferente do segmento da pasta. Preserve os slugs efetivos de todas as revisões.
 
