@@ -188,7 +188,7 @@ Uma captura de tela registra uma representação visual de determinado estado. E
 
 Por isso, “há uma captura de tela” e “há uma aquisição tecnicamente auditável” são afirmações diferentes.
 
-O <abbr title="Superior Tribunal de Justiça">STJ</abbr>, em precedentes consolidados na edição 281 de Jurisprudência em Teses, destacou que a integridade e a **auditabilidade** — possibilidade de conferência técnica do procedimento — da prova digital dependem da preservação da cadeia de custódia e da possibilidade de exame técnico independente. Quando existe dúvida razoável sobre integridade e autenticidade, a tese registra que o exame pericial **é necessário** para assegurar a confiabilidade do material e o exercício do contraditório.
+O <abbr title="Superior Tribunal de Justiça">STJ</abbr> destacou, na edição 281 de Jurisprudência em Teses, que a integridade e a **auditabilidade** — possibilidade de conferência técnica do procedimento — da prova digital exigem preservação da cadeia de custódia e possibilidade de exame técnico independente; o uso de <abbr title="Resumo criptográfico de uma sequência de dados">hash</abbr> pode integrar essas salvaguardas. No Informativo 878, a Corte esclareceu que, **diante de dúvida razoável** sobre integridade e autenticidade, o exame pericial é necessário para conferir a confiabilidade do material e permitir o contraditório.
 
 Isso **não** significa que toda captura de tela seja automaticamente inválida. A conclusão jurídica depende do caso, do método de obtenção, da possibilidade de verificação e dos demais elementos disponíveis. A pegadinha é transformar cautela metodológica em regra absoluta.
 
