@@ -7,8 +7,8 @@ Fontes revalidadas para o item 20.2.2, Língua Portuguesa, itens 7.2 e 7.4 do ed
 1. **Presidência da República / Gov.br — Consultar o Manual de Redação da Presidência da República.** Serviço oficial, última modificação registrada em 15/12/2025. A página define o Manual como ferramenta teórico-referencial para comunicações oficiais e atos normativos e mantém a consulta oficial como serviço público.  
    https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica
 
-2. **Presidência da República — Manual de Redação da Presidência da República, 3ª edição, 2018.** Cópia institucional disponibilizada pelo Instituto Chico Mendes de Conservação da Biodiversidade. Foram revalidados, no Capítulo II, os itens 5 a 6.4.5: padrão ofício; partes do documento; formatação; variações; Exposição de Motivos; Mensagem; correio eletrônico.  
-   https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+2. **Presidência da República — Manual de Redação da Presidência da República, 3ª edição, 2018.** PDF no portal da Presidência da República. Foram revalidados, no Capítulo II, os itens 5 a 6.4.5: padrão ofício; partes do documento; formatação; variações; Exposição de Motivos; Mensagem; correio eletrônico.  
+   https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf
 
 3. **Presidência da República — Portaria nº 1.369, de 27 de dezembro de 2018.** Aprova a 3ª edição do <abbr title="Manual de Redação da Presidência da República">MRPR</abbr> e autoriza sua distribuição e reprodução sem fins lucrativos mediante citação da fonte.  
    https://www.planalto.gov.br/ccivil_03/portaria/prt1369-18.htm
