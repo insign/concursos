@@ -85,6 +85,8 @@ A mudança exige ajustar pronome e preposição juntos. *Esqueci do prazo* é fr
 
 Em **custar a alguém + infinitivo**, o fato difícil funciona como sujeito: *custou-me aceitar a decisão*. A pessoa não deve ser transformada automaticamente em sujeito.
 
+**Chamar** também muda de construção conforme o sentido. Em *chamou o servidor*, significa convocar. Quando atribui nome ou qualidade, admitem-se construções como *chamou o servidor de imprudente* e *chamou ao servidor imprudente* em descrições tradicionais. Em prova, identifique primeiro se há convocação ou atribuição de qualidade; não trate todas as formas como equivalentes sem considerar o padrão pedido.
+
 Alguns verbos admitem mais de uma regência sem mudança necessária de sentido. São documentadas, conforme a acepção, construções como **atender o usuário/ao usuário**, **usufruir os benefícios/dos benefícios**, **presidir a sessão/à sessão** e **deparar com/deparar-se com**. A existência de uma variante não licencia qualquer preposição.
 
 ## 5. Regência nominal
@@ -136,7 +138,7 @@ A preposição vem antes do relativo porque continua ligada ao regente que apare
 
 ### Onde e aonde
 
-**Onde** corresponde, nos usos de lugar aqui relevantes, a *em que*: *a cidade onde moro*. **Aonde** incorpora a preposição **a**: *a cidade aonde vou*, se a construção é *ir a*. Movimento, sozinho, não decide: *o caminho por onde passei*; *a cidade de onde voltei*; *para onde fui*.
+**Onde** corresponde, nos usos de lugar aqui relevantes, a *em que*: *a cidade onde moro*. **Aonde** incorpora a preposição **a**: *a cidade aonde vou*, se a construção é *ir a*. No padrão conservador de prova, use **ir a/para**, **chegar a**, **voltar a/para** para destino e **voltar de** para origem. Movimento, sozinho, não decide: *o caminho por onde passei*; *a cidade de onde voltei*; *para onde fui*.
 
 ## 7. Consequências: passiva, crase e reescrita
 
