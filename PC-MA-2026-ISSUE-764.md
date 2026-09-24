@@ -1111,6 +1111,21 @@ No índice abaixo, `G/` = `conhecimentos-gerais/` e `E/` = `conhecimentos-especi
 
 **Fronteiras programáticas já resolvidas:** U006 é `classes-nominais-de-palavras` e U009 é `estrutura-morfossintatica-periodo`; U061 é nova/local, enquanto U072 é parcial/local com doador demonstrado; U075 funde dois doadores em um pacote local; a Lei nº 12.830/2013 dos itens 8 e 13 da Legislação Especial tem uma única U130. Os dois itens numerados “4” de Processo Penal cobrem assuntos distintos em U094/U095. Essas fronteiras e os recortes das demais unidades permanecem nas seções 4–7. Esta confirmação de identidade, presença e blobs não substitui a reconsulta temporal de jurisprudência e eventuais retificações de PC-F05.
 
+### PC-F05 — conferência antecipada em 24/09/2026 (ainda `pending`)
+
+Reserva `PC-F05-20260924-PREFINAL-01`, encerrada após esta publicação. Base `809d042cedc76e2c7f3016bda1a349d96e6bc1a2`, blob deste mestre `5d692b93816a0a4c212c6b0ad98f260e8a0b17fa`; árvore recursiva da `main` com 2.679 entradas, não truncada. Esta é uma conferência **datada**, sem antecipar o aceite temporal da macro.
+
+| Checagem na `main` | Resultado de 24/09 |
+|---|---|
+| Cobertura editorial e visões | 158/158 unidades reais e 474/474 entregáveis C/H/Q `done`; 158 visões, ordens 1–158 sem lacunas. |
+| Origem resolvida | 141 pacotes físicos locais e 17 vínculos explícitos para canônicos na biblioteca; 600 arquivos PC-MA, entre eles 564 C/H/R/Q físicos, 17 `vinculo.json` e 19 `grupo.json`. Classificação registrada: 17 integrais, 40 parciais e 101 novas. |
+| Integridade do índice | Os 158 caminhos de visão da seção 8 e os 632 blobs C/H/R/Q resolvidos foram comparados com a árvore corrente: **zero divergências**. Esta comparação de caminhos e hashes não é uma nova revisão pedagógica de cada texto. |
+| Macros individualizadas | 62 = PC-P01 (1) + PC-R01–R05 (5) + PC-E01–E17 em C/H/Q (51) + PC-F01–F05 (5); 61 `done`, só PC-F05 `pending`. As quatro macros PC-P02–P05 previstas originalmente seguem sem linhas individuais recuperáveis, sem estado inventado. |
+
+[Na listagem pública do Cebraspe consultada em 24/09](https://www.cebraspe.org.br/concursos/pc_ma_26_investigador), “Editais, comunicados e informações” mostrava o [Edital nº 1 de 13/07/2026](https://cdn.cebraspe.org.br/concursos/pc_ma_26_investigador/arquivos/9EE70E72CE79EB274C5319BEEB5B9B7D8519FF48DA21986A0830B5DB02C4F8B0.pdf) e o comunicado sobre pagamento de taxa de 05/08/2026; não havia retificação do programa **nessa listagem, nesse dia**. O link de consulta individual de isenção de 10/09 consta em “Acesso a links” e não muda o programa. A reconsulta oficial de fontes e cortes da PC-F03, também em 24/09, permanece a evidência editorial corrente. A consulta indexada dos andamentos dos [Temas 1.412](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=7171450&numeroProcesso=1537713&numeroTema=1412), [1.185](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5595837&numeroProcesso=1177984&numeroTema=1185) e [1.380](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=6782988&numeroProcesso=1467470&numeroTema=1380) nesta conferência não forneceu fundamento para uma alteração editorial adicional; resultados de busca indexados não certificam a ausência de decisões novas ou futuras.
+
+O Anexo I do edital prevê as provas em **06/12/2026** e o item 19.33.1 admite jurisprudência publicada até **30 dias antes**: marco condicional **06/11/2026**, ainda futuro em 24/09. A conclusão da PC-F05 exige reconsultar a data definitiva e as publicações oficiais na janela aplicável, verificar a jurisprudência de tribunais superiores até o marco efetivo, reconciliar eventual impacto no material e refazer o aceite de cobertura e reservas. **PC-F05 fica `pending` e a #764 aberta**; nenhum novo C/H/R/Q ou vínculo foi alterado por esta conferência.
+
 ## 5. Reaproveitamento e indexação das 158 unidades
 
 Classificação PC-R02 preservada, sem nova auditoria de compatibilidade por esta migração:
