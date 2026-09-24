@@ -215,7 +215,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 
 | H | Segmento da pasta consumidora | storageId | Origem | Evidência |
 |---|---|---|---|---|
-| H095 | `teoria-geral-direitos-fundamentais` | `teoria-direitos-fundamentais` | V | — |
+| H095 | `teoria-geral-direitos-fundamentais` | `teoria-direitos-fundamentais` | V | [`c106204`](https://github.com/insign/concursos/commit/c106204fc585e6b93ebf0228a772149e7b4ee5b9) |
 | H096 | `declaracao-universal-direitos-humanos` | `declaracao-universal-dh` | V | — |
 | H097 | `agenda-2030-onu` | = | V | — |
 | H098 | `estatuto-pessoa-deficiencia-fundamentos-direitos-garantias` | `lbi-fund-direitos-garantias` | V | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+
+- H095: a aula trata 6/7/2026, data do ato, como corte normativo; o Tribunal informa publicação do Edital nº 1 em 7/7. Corrigir a aula em escopo próprio.
 
 - H093: a aula trata 6/7 como publicação do E1, embora o Tribunal registre 7/7, e incorpora notícia de 27/8 e mudança empresarial de 1/9 após o corte de 4/8; corrigir a aula em escopo próprio.
 
