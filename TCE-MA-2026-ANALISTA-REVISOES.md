@@ -78,7 +78,7 @@ Base estrutural do índice: `b66b49c5554b00064c9265719604f01ebb5b5699`. A compar
 | M06 | `G/historia-geografia-estado-maranhao` | H073–H094 | L | [`7cb9f65`](https://github.com/insign/concursos/commit/7cb9f65926262303f7b6b4cfe72b7afa430e6eef) |
 | M07 | `G/nocoes-direitos-humanos` | H095–H102 | V: `nocoes-direitos-humanos` | [`3672f80`](https://github.com/insign/concursos/commit/3672f80f9e2653128a858ae09aafa67ee748be58) |
 | M08 | `E/administracao-publica` | H103–H114 | L | [8824cab](https://github.com/insign/concursos/commit/8824cabfbf91a74a043d729e30030cdd527bc6db) |
-| M09 | `E/administracao-recursos-materiais-patrimoniais` | H115–H123 | L | — |
+| M09 | `E/administracao-recursos-materiais-patrimoniais` | H115–H123 | L | [`69f01d7`](https://github.com/insign/concursos/commit/69f01d7d656b9ab679cd6210074254dc7cf9f12c) |
 | M10 | `E/gestao-contratos` | H124–H137 | L | — |
 | M11 | `E/governo-eletronico-transparencia` | H138–H141 | L | — |
 | M12 | `E/gestao-pessoas` | H142–H153 | L | — |
