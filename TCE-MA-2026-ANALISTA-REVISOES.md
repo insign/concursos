@@ -261,7 +261,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 |---|---|---|---|---|
 | H124 | `fundamentos-agentes-processo-lei-14133` | `fundamentos-lei-14133` | V | [`94333ef`](https://github.com/insign/concursos/commit/94333ef03410b82531a4e4373ad1ad5da9bb249a) |
 | H125 | `planejamento-fase-preparatoria` | = | V | [`600f648`](https://github.com/insign/concursos/commit/600f648d895f0bb69a467a1b11a6070c39d06430) |
-| H126 | `modalidades-julgamento-selecao-contratacao-direta` | `modalidades-selecao-direta` | V | — |
+| H126 | `modalidades-julgamento-selecao-contratacao-direta` | `modalidades-selecao-direta` | V | [`44fba59`](https://github.com/insign/concursos/commit/44fba59083f63aaeb903a67b9dbf423b4a7ed1bd) |
 | H127 | `formalizacao-garantias-riscos-duracao` | `formalizacao-riscos-duracao` | V | — |
 | H128 | `execucao-alteracoes-equilibrio` | = | V | — |
 | H129 | `extincao-recebimento-pagamento` | = | V | — |
@@ -301,6 +301,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H126: aula chama 6/7/2026, data do ato, de publicação/corte; o Diário Oficial nº 3045 publicou E1 em 7/7. Corrigir a aula em escopo próprio. O inteiro teor da ADI 6.890 não abriu no portal do STF nesta consulta; revalidar a tese diretamente antes de usar q1580 como contraprovante independente.
 - H125: `conteudo.md` chama 6/7/2026, data do ato, de publicação/corte do Edital nº 1; o Diário Oficial nº 3045 publicou-o em 7/7/2026. Corrigir a aula em escopo próprio; H e referências usam 7/7.
 - H124: `conteudo.md` chama 6/7/2026, data do ato, de publicação/corte do Edital nº 1; o Diário Oficial nº 3045 publicou-o em 7/7/2026. Corrigir a aula em escopo próprio; H e referências usam 7/7.
 - H123: aula identifica 6/7/2026 (data do E1) como publicação/corte, mas a publicação informada pelo Tribunal foi 7/7; corrigir em escopo próprio. q1584–q1586 não tiveram cadernos e gabaritos definitivos oficiais conferidos nesta execução; não usá-las como contraprova até confirmar texto, alternativas e resultado. A formulação de q1586 sobre laudo de irrecuperabilidade não deve virar requisito universal para toda baixa.
