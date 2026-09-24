@@ -249,7 +249,7 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H116 | `patrimonio-imobiliario-spiu` | = | L | [d6b76cc](https://github.com/insign/concursos/commit/d6b76cce35f7088344f0a5c09163ccf94a9e270a) |
 | H117 | `patrimonio-mobiliario-responsabilidade` | `patrimonio-mobiliario-resp` | L | [2737a0a](https://github.com/insign/concursos/commit/2737a0a0340496e8faff097a7a36e0a5bece8302) |
 | H118 | `controle-movimentacao-sistema` | = | L | [5ffce63](https://github.com/insign/concursos/commit/5ffce63da517303af2db323f74fed42ce8bc0085) |
-| H119 | `previsao-controle-estoque` | = | L | — |
+| H119 | `previsao-controle-estoque` | = | L | [c64df30](https://github.com/insign/concursos/commit/c64df302f759206ca92e842b28e074e674e6c5e3) |
 | H120 | `almoxarifado-armazenamento` | = | L | — |
 | H121 | `compras-classificacao-padronizacao-codificacao` | `compras-classificacao-materiais` | L | — |
 | H122 | `arquivamento-recebimento-distribuicao-inventario` | `materiais-recebimento-inventario` | L | — |
@@ -301,6 +301,8 @@ M06 é física embora seus assuntos sejam vinculados; M10 é física e contém a
 | H153 | `competencias-tendencias-setor-publico` | `gp-competencias-tendencias` | L | — |
 
 ## 9. Pendências abertas em aulas e banco
+- H119: `conteudo.md` chama 6/7/2026 de publicação/corte E1; publicação foi em 7/7. q52211901 sobre just in time não teve caderno/gabarito oficial localizados e cobra conceito não desenvolvido na aula; não usá-la como contraprovante sem conferência e revisão da pertinência. No banco autoral, q1259–61 (métodos Croston/SBA/TSB) e q1319–23 (modelo combinado de segurança) exigem fundamentos não ensinados na aula; avaliar ensino/pertinência em escopo próprio, sem inflar H09.
+
 - H118: `conteudo.md` trata 6/7/2026 como data de publicação/corte E1; corrigir para 7/7 em escopo próprio. q anteriores `u118_cijun2023_q36/41/46/48/50`: gabaritos do cargo conferidos na imprensa oficial de Jundiaí, mas o caderno oficial com comando e alternativas não foi obtido; não usar como contraprovante sem conferência integral. As questões de 2023 que citam o Decreto nº 9.373/2018 exigem ressalva temporal frente ao Decreto nº 12.785/2025.
 
 - H117: `conteudo.md` chama 6/7/2026 de corte de publicação; corrigir para 7/7 em escopo próprio. q1234–q1237 declaram prova/gabarito FGV de 2018, mas os PDFs oficiais retornaram 502; confirmar caderno, alternativas e gabarito definitivo antes de utilizá-las. q1236 usa “alienação” como necessidade universal e q1237 chama valor contábil remanescente de “residual”: tratar como formulação da banca, não regra geral, até a conferência.
