@@ -22,19 +22,21 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Macros de implantação/fontes | 5 | 4 | 0 | 1 |
+| Macros de implantação/fontes | 5 | 3 | 0 | 2 |
 | Macros de reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 50 | 0 | 1 |
+| Total de macros individualizadas | 51 | 49 | 0 | 2 |
 
 Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. Quantidades de assuntos reais, canônicos, locais, visões e entregáveis C/H/Q por assunto ainda não foram inventariadas; **não são zero por ausência de inventário**, nem podem ser copiadas de outra meta.
 
-A listagem completa de `src/content/concursos/` lida na base da preparação continha o concurso de exemplo, PC-MA e os dois cargos TCE, sem catálogo SEAP. Não se infere daí que inexistam candidatos ao reaproveitamento no restante do acervo. Título, slug, `storageId`, ordem e destinos da nova visão serão definidos em SEAP-P02 conforme os contratos então vigentes.
+A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
 **SEAP-P01 concluída em 25/09/2026:** o programa integral do Inspetor no Edital nº 1, as regras objetiva/discursiva, os cortes e as inconsistências permanecem materializados na seção 3; a publicação do Edital nº 1 foi localizada na edição nº 130 do Diário Oficial do Maranhão, de 21/07/2026, e o Edital nº 2 – SEAP/MA – Inspetor e Monitor, publicado em 24/09/2026, foi incorporado quanto aos efeitos de cronograma identificados. A retificação não alterou o programa do Inspetor nem o formato das provas nos elementos localizados.
 
-**Próxima ação habilitada: SEAP-P02 — definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.** Em seguida, respeitar as dependências efetivas de P03 e das unidades desdobradas. P04/P05 continuam vinculadas ao primeiro assunto completo; não publicar estrutura vazia.
+**SEAP-P02 concluída em 25/09/2026:** título, slug, `storageId`, ordem e caminhos foram definidos e verificados contra o catálogo, os schemas, o resolvedor de caminhos e o catálogo efetivo, sem colisões. Nenhum catálogo ou grupo foi criado nesta etapa.
+
+**Próxima ação habilitada: SEAP-P03 — montar a matriz edital → unidades reais → arquivos, desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.** P04/P05 continuam vinculadas ao primeiro assunto completo; não publicar estrutura vazia.
 
 Reservas ativas são mantidas exclusivamente no painel da #765. A pendência de acesso externo não é bloqueio estrutural do repositório nem autoriza manter reserva de execução indefinidamente; ao sincronizar esta entrega parcial, encerrar somente a reserva própria. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
@@ -43,6 +45,26 @@ Reservas ativas são mantidas exclusivamente no painel da #765. A pendência de 
 Implantar no site somente o **Cargo 1 — Inspetor de Polícia Penal**, reaproveitar assuntos iguais ou parcialmente iguais e completar `conteudo.md`, `cheat-sheet.md`, `questoes.json`, `referencias.md` e, quando necessárias, `resolucoes/*.md`.
 
 Cobrir o programa integral do cargo, não apenas os acréscimos do roteiro incremental `Rota_de_estudos_concursos_MA_regras_da_prova-1.pdf`. **Monitor de Ressocialização fica fora desta meta.** Os cargos do TCE não serão recriados; a #755 e seus registros não serão reabertos ou alterados por esta campanha. #764 e #766 são fontes de coordenação e acervo publicado, não filas a executar em nome da #765.
+
+### Identidade e caminhos definidos em SEAP-P02
+
+SEAP-P02 fixa somente a identidade planejada e os caminhos que P04/P05 e as unidades desdobradas deverão usar. Não cria catálogo, grupos, assunto vazio ou identidade persistida antes do primeiro pacote completo.
+
+| Campo | Definição |
+|---|---|
+| Título do concurso | `SEAP/MA 2026 - Inspetor de Polícia Penal` |
+| Slug / ID do concurso | `seap-ma-2026-inspetor-policia-penal` |
+| `storageId` do concurso | `seapma-2026-inspetor` |
+| `order` | `5` |
+| Futuro catálogo | `src/content/concursos/seap-ma-2026-inspetor-policia-penal.json` |
+| Raiz consumidora | `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/` |
+| Rota pública do concurso | `/concursos/seap-ma-2026-inspetor-policia-penal/` |
+| IDs de grupos | `seap-ma-2026-inspetor-policia-penal/<grupo>[/<grupo>...]` |
+| IDs de assuntos locais/vínculos | `seap-ma-2026-inspetor-policia-penal/<grupo>[/<grupo>...]/<assunto>` |
+
+**Justificativa e verificação:** `contestIdFromEntry` deriva o slug do nome do JSON e exige um único segmento de rota em minúsculas com hífens; o `contestSchema` exige `storageId` no mesmo formato com até 20 caracteres e `order` inteiro não negativo. `seapma-2026-inspetor` tem exatamente 20 caracteres. O catálogo atual usa ordens 1–4 e `buildCatalogIndex` ordena concursos por `order`, depois título e ID; a ordem 5 é a próxima disponível. Busca na `main` não encontrou o slug nem o `storageId` propostos, e o catálogo valida unicidade de ID e de `storageId` de concurso.
+
+A data de prova atualmente consolidada em P01 continua **13/12/2026** e deverá alimentar `examDate` em P04 se não houver ato posterior; isso é metadado do catálogo futuro, não nova identidade criada em P02. Descrição e hierarquia de grupos serão materializadas nas tarefas próprias. Nenhuma pasta ou arquivo SEAP foi criado aqui para evitar concurso ou grupo vazio.
 
 ### 3.1 Fontes, consulta e limite de consolidação
 
@@ -444,7 +466,7 @@ Em SEAP-F02, identifique individualmente o que foi inspecionado e o que falta; a
 ### 7.1 Fontes e criação do concurso
 
 - [x] SEAP-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral com numeração, separar objetiva/discursiva e registrar inconsistências documentais sem correção silenciosa.
-- [ ] SEAP-P02 — `pending` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
+- [x] SEAP-P02 — `done` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [ ] SEAP-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] SEAP-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e dados oficiais do cargo correto.
 - [ ] SEAP-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens do edital.
@@ -551,6 +573,15 @@ Base confirmada: `main` `61e13695b588615dc694726505c43929932992a8`, mestre `845f
 **Fechamento de P01:** a consulta de 25/09 localizou a publicação do Edital nº 1 na edição nº 130 do Diário Oficial do Maranhão, em 21/07/2026, e o Edital nº 2 – SEAP/MA – Inspetor e Monitor, de 24/09/2026. A retificação identificada altera datas do cronograma: pagamento até 29/09/2026, relação provisória PcD em 14/10/2026 e relação final PcD/consulta final do atendimento especializado em 30/10/2026. Não foi localizada alteração do programa do Inspetor, da estrutura objetiva/discursiva ou da data de prova nos elementos indexados. O acesso direto à listagem Cebraspe permaneceu limitado por JavaScript; essa limitação é registrada, mas não impede a consolidação documental porque o ato e a publicação foram identificados por fontes verificáveis e o conteúdo-base continua sustentado pelo PDF oficial do Cebraspe.
 
 SEAP-P01 passa a `done`. Isso não congela o concurso: SEAP-F03 continua responsável por reconsultar publicações posteriores e fontes materiais antes do fechamento, inclusive eventual alteração entre 25/09 e a prova. A evidência do commit desta conclusão será indicada no painel somente após gravação e releitura na `main`; este arquivo não antecipa seu próprio SHA.
+
+
+### SEAP-P02 — identidade e caminhos concluídos em 25/09/2026
+
+Base pré-escrita confirmada: `main` `e35a06f0f2bad3cd73a1dc32884a31f6378e70f8`, mestre `7b45c93d9b513fdf806927cb2a4a4c39a6d91c89`; reserva `SEAP-P02-20260925-IDENTIDADE-01` confirmada por releitura da #765. Contratos relidos: `AGENTS.md`, `content-schema.ts`, `content.config.ts`, `content-paths.ts`, `catalog-core.ts`, `catalog.ts` e ADRs pertinentes. Catálogos atuais relidos integralmente: exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador.
+
+**Decisão:** título `SEAP/MA 2026 - Inspetor de Polícia Penal`; slug `seap-ma-2026-inspetor-policia-penal`; `storageId` `seapma-2026-inspetor`; ordem `5`; futuro catálogo e raiz consumidora conforme a tabela da seção 3. A decisão preserva as identidades existentes e não conflita com a #766, que ainda não possui identidade publicada. O programa do Monitor continua excluído.
+
+**Escopo material:** somente este arquivo-mestre e o painel da #765. Não foram criados catálogo, `grupo.json`, pastas vazias, vínculos, C/H/Q, gerados ou arquivos das #764/#766/#755. A definição de caminhos não conta unidade real nem visão antes de P03/P04/P05. SEAP-P02 passa a `done`; a evidência do commit desta conclusão será sincronizada no painel somente depois de publicação e releitura na `main`.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
