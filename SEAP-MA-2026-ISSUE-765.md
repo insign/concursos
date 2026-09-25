@@ -22,11 +22,11 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Macros de implantação/fontes | 5 | 3 | 0 | 2 |
+| Macros de implantação/fontes | 5 | 2 | 0 | 3 |
 | Macros de reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 49 | 0 | 2 |
+| Total de macros individualizadas | 51 | 48 | 0 | 3 |
 | Unidades editoriais planejadas | 110 | 110 | 0 | 0 |
 | Entregáveis unitários C/H/Q | 330 | 330 | 0 | 0 |
 
@@ -38,9 +38,11 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **SEAP-P02 concluída em 25/09/2026:** título, slug, `storageId`, ordem e caminhos foram definidos e verificados contra o catálogo, os schemas, o resolvedor de caminhos e o catálogo efetivo, sem colisões. Nenhum catálogo ou grupo foi criado nesta etapa.
 
-**Próxima ação habilitada: SEAP-P03 — montar a matriz edital → unidades reais → arquivos, desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.** P04/P05 continuam vinculadas ao primeiro assunto completo; não publicar estrutura vazia.
+**SEAP-P03 concluída em 25/09/2026:** 110 unidades editoriais planejadas, 330 C/H/Q `pending`, ordens 1–110, destinos e dependências estão materializados na matriz; todas as ocorrências do programa consolidado foram mapeadas sem dupla contagem das repetições documentadas.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01 e P02 estão `done`, sem antecipar aceites de P03–P05 ou C/H/Q. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: SEAP-R01 — inventariar o acervo existente e resolver origens/vínculos dos 110 assuntos planejados.** R01 deve ler C/H/Q/referências/resoluções candidatos e registrar origem/SHA/consumidores; R02 fará a classificação integral/parcial/nova. P04/P05 seguem condicionadas ao primeiro assunto completo, portanto não são executadas isoladamente agora.
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 estão `done`; P04/P05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -660,7 +662,7 @@ Em SEAP-F02, identifique individualmente o que foi inspecionado e o que falta; a
 
 - [x] SEAP-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral com numeração, separar objetiva/discursiva e registrar inconsistências documentais sem correção silenciosa.
 - [x] SEAP-P02 — `done` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
-- [ ] SEAP-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
+- [x] SEAP-P03 — `done` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] SEAP-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e dados oficiais do cargo correto.
 - [ ] SEAP-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens do edital.
 
@@ -785,7 +787,9 @@ Base pré-escrita confirmada: `main` `41505f5bd3ce970ccf4f32c5e0caa037a5f06b24`,
 
 **Resultado planejado:** 110 unidades `SEAP-U001`–`SEAP-U110`, ordens 1–110, slugs finais distintos, `storageId` `seap-u001`–`seap-u110`, destinos sob a raiz definida em P02 e 330 C/H/Q `pending`. A matriz cobre todas as ocorrências programáticas do Inspetor, preserva a repetição literal da Lei de Tortura sem criar duas unidades e reconcilia duas aparições interblocos sem duplicação: prisão temporária → U082; improbidade → U056.
 
-**Limite deliberado:** P03 não atribui origem nem classificação. Menções a PC/biblioteca são candidatos de busca, não doadores confirmados. R01 precisa ler e resolver origem/SHA/consumidores; R02 decide integral/parcial/nova e pode registrar lacunas. Nenhum catálogo, grupo, vínculo ou pacote C/H/Q foi publicado nesta etapa; P04/P05 continuam condicionadas ao primeiro assunto completo. A evidência do commit desta matriz será registrada após publicação e releitura na `main`.
+**Limite deliberado:** P03 não atribui origem nem classificação. Menções a PC/biblioteca são candidatos de busca, não doadores confirmados. R01 precisa ler e resolver origem/SHA/consumidores; R02 decide integral/parcial/nova e pode registrar lacunas. Nenhum catálogo, grupo, vínculo ou pacote C/H/Q foi publicado nesta etapa; P04/P05 continuam condicionadas ao primeiro assunto completo.
+
+**Evidência confirmada:** matriz publicada e relida na `main` no commit `7f29e0ff428321e1cb7f220adce5d88752b20e8d`, blob `8a01134e311b2d7a78c22d8b23ea952318249f59`; comparação com `41505f5bd3ce970ccf4f32c5e0caa037a5f06b24`: somente o mestre alterado, 206 linhas acrescentadas e 2 retiradas. Foram reconferidos os registros de SEAP-U110, os totais e as remissões da Legislação Extravagante para U082 e U056 antes deste aceite.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
