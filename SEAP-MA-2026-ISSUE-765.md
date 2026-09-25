@@ -22,15 +22,15 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Macros de implantação/fontes | 5 | 2 | 0 | 3 |
+| Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 3 | 0 | 2 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades editoriais planejadas | 110 | 110 | 0 | 0 |
-| Entregáveis unitários C/H/Q | 330 | 330 | 0 | 0 |
+| Total de macros individualizadas | 51 | 44 | 0 | 7 |
+| Unidades editoriais planejadas | 110 | 109 | 0 | 1 |
+| Entregáveis unitários C/H/Q | 330 | 327 | 0 | 3 |
 
-Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**, todos ainda `pending`. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**. Não copiar totais ou aceites de outra meta.
+Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**. Após a primeira implantação, **SEAP-U001 está `done` com C/H/Q `done`**; restam 109 unidades e 327 entregáveis unitários `pending`. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**. Visões SEAP verificáveis: **1 local e 0 canônicas**. Não copiar totais ou aceites de outra meta.
 
 A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
@@ -44,9 +44,13 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **SEAP-R02 concluída em 25/09/2026:** as 110 unidades foram classificadas em **72 integrais, 19 parciais e 19 novas**; a matriz registra a origem escolhida ou sua ausência e a justificativa de recorte/lacuna/fronteira. Todos os 330 C/H/Q permanecem `pending`.
 
-**Próxima ação habilitada: iniciar SEAP-R03 pela SEAP-U001, integral e sem dependência editorial pendente.** No mesmo ciclo do primeiro assunto realmente publicado, executar P04/P05 para criar catálogo e hierarquia consumidora junto ao pacote completo, evitando estrutura vazia. R03 permanece `pending` até todos os 72 integrais estarem implantados.
+**SEAP-P04 e SEAP-P05 concluídas em 25/09/2026 junto da primeira unidade real:** catálogo do concurso e a hierarquia consumidora mínima `conhecimentos-gerais/lingua-portuguesa` foram publicados no mesmo commit de SEAP-U001. Novos `grupo.json` só serão criados quando o primeiro assunto de cada ramo for realmente publicado; essa extensão não reabre P05 e evita grupos vazios.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 e R01–R02 estão `done`; P04/P05, R03–R05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**SEAP-U001 concluída em 25/09/2026:** cópia local integral controlada da origem física PC-MA, com identidade `seap-u001`, ordem 1 e referências reconciliadas para o edital SEAP. Conteúdo pedagógico, cheat sheet e banco de 36 questões foram preservados; apenas a identidade do conteúdo e a proveniência/recorte das referências mudaram.
+
+**Próxima ação habilitada: SEAP-U002 em R03**, integral e dependente apenas de U001, agora `done`. R03 permanece `pending` com **1/72 integrais implantadas**; P04/P05 permanecem `done`.
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P05 e R01–R02 estão `done`; R03–R05 permanecem `pending`. Entre as unidades, U001 tem C/H/Q `done` e as demais 109 unidades/327 C/H/Q permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -64,7 +68,7 @@ SEAP-P02 fixa somente a identidade planejada e os caminhos que P04/P05 e as unid
 | Slug / ID do concurso | `seap-ma-2026-inspetor-policia-penal` |
 | `storageId` do concurso | `seapma-2026-inspetor` |
 | `order` | `5` |
-| Futuro catálogo | `src/content/concursos/seap-ma-2026-inspetor-policia-penal.json` |
+| Catálogo publicado | `src/content/concursos/seap-ma-2026-inspetor-policia-penal.json` |
 | Raiz consumidora | `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/` |
 | Rota pública do concurso | `/concursos/seap-ma-2026-inspetor-policia-penal/` |
 | IDs de grupos | `seap-ma-2026-inspetor-policia-penal/<grupo>[/<grupo>...]` |
@@ -421,7 +425,7 @@ P03 não atribui origem por semelhança. Em cada linha, “origem não resolvida
 
 | Item/subitem | ID / título / recorte | Origem / SHA | Slug / destino / identidade / ordem | Classe R02 | Aproveitamento, lacunas e fronteiras | Consumidor, corte e dependências | C/H/Q / evidência |
 |---|---|---|---|---|---|---|---|
-| 22.2.3 Português 1 | **SEAP-U001 — Leitura, compreensão e interpretação de textos** | `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/` (C `07473a916ab5e2b299d62cce98feb6fac45f36ac`; H `c75427b21479f88af6b57cbda04ff34f70b25fef`; Q `dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6`; R `a95361908d3993c0fb7a834dfc5b8d06d70aa95c`) | `leitura-interpretacao-tipos-generos`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/`; `seap-u001`; ordem 1 | integral | Integral: o pacote PC-MA recorta os mesmos itens de Língua Portuguesa; cópia local controlada preserva a seleção pedagógica sem importar o concurso. | SEAP Inspetor; prova 13/12/2026; deps: nenhuma específica | C `pending`; H `pending`; Q `pending`; evidência: planejamento P03 |
+| 22.2.3 Português 1 | **SEAP-U001 — Leitura, compreensão e interpretação de textos** | doador físico PC-MA `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/` (C `07473a916ab5e2b299d62cce98feb6fac45f36ac`; H `c75427b21479f88af6b57cbda04ff34f70b25fef`; Q `dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6`; R `a95361908d3993c0fb7a834dfc5b8d06d70aa95c`); cópia local SEAP publicada em `961cc6374894c835592510a5c7c19f251c29565d` | `leitura-interpretacao-tipos-generos`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/`; `seap-u001`; ordem 1 | integral | Integral: o pacote PC-MA recorta os mesmos itens de Língua Portuguesa; cópia local controlada preserva a seleção pedagógica sem importar o concurso. | SEAP Inspetor; prova 13/12/2026; deps: nenhuma específica; consumidor publicado local SEAP, origem PC-MA preservada | C `done` (`95a8e86a5c9777e59664c45b26d3ed1aa97d667a`); H `done` (`c75427b21479f88af6b57cbda04ff34f70b25fef`); Q `done` (`dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6`); R `dd6910adc64763cfcf3f987607d1917516970be6`; evidência `961cc6374894c835592510a5c7c19f251c29565d` |
 | 22.2.3 Português 2 | **SEAP-U002 — Tipos e gêneros textuais** | `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/tipos-generos-textuais/` (C `330dc4a33540ce03c8de090094def8793cd83b98`; H `75706c5da69996bb479ea57555a8041d0da8ffc0`; Q `575a35441989f0df1ef6fb692eff8e91d8bfbdb8`; R `75fa2b1b1ad633f0948f1bb305374909e2f2ccfc`) | `tipos-generos-textuais`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/tipos-generos-textuais/`; `seap-u002`; ordem 2 | integral | Integral: o pacote PC-MA recorta os mesmos itens de Língua Portuguesa; cópia local controlada preserva a seleção pedagógica sem importar o concurso. | SEAP Inspetor; prova 13/12/2026; deps: SEAP-U001 | C `pending`; H `pending`; Q `pending`; evidência: planejamento P03 |
 | 22.2.3 Português 3 | **SEAP-U003 — Domínio da ortografia oficial** | `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/ortografia-oficial/` (C `fe4ec6b3081a6b3677ca1c91363dddd854e71936`; H `5f9b05382810230e611f550baace15a35950bc79`; Q `f08deaca845b2fecba04dd2b1918fa2b2e340ac0`; R `417bf039f6af4c84b0ccd4679ff61bd18b1cfdc9`) | `ortografia-oficial`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/ortografia-oficial/`; `seap-u003`; ordem 3 | integral | Integral: o pacote PC-MA recorta os mesmos itens de Língua Portuguesa; cópia local controlada preserva a seleção pedagógica sem importar o concurso. | SEAP Inspetor; prova 13/12/2026; deps: nenhuma específica | C `pending`; H `pending`; Q `pending`; evidência: planejamento P03 |
 | 22.2.3 Português 4–4.1 | **SEAP-U004 — Coesão textual: mecanismos e sequenciação** | `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/coesao-textual/` (C `7f48115ac58ccf16e1f193e259879a31aef276bb`; H `e58c3b07b17695b58426b9403d51984abf723637`; Q `a462883a72d23e5d76e72ae8182ad49cdc6cc07b`; R `b9757850e7ab2cd209280d4ffa014a848e95f42f`) | `coesao-textual`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/coesao-textual/`; `seap-u004`; ordem 4 | integral | Integral: o pacote PC-MA recorta os mesmos itens de Língua Portuguesa; cópia local controlada preserva a seleção pedagógica sem importar o concurso. | SEAP Inspetor; prova 13/12/2026; deps: SEAP-U001 | C `pending`; H `pending`; Q `pending`; evidência: planejamento P03 |
@@ -825,8 +829,8 @@ Em SEAP-F02, identifique individualmente o que foi inspecionado e o que falta; a
 - [x] SEAP-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral com numeração, separar objetiva/discursiva e registrar inconsistências documentais sem correção silenciosa.
 - [x] SEAP-P02 — `done` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [x] SEAP-P03 — `done` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
-- [ ] SEAP-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e dados oficiais do cargo correto.
-- [ ] SEAP-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens do edital.
+- [x] SEAP-P04 — `done` — Criar o catálogo em `src/content/concursos/` com metadados válidos e dados oficiais do cargo correto.
+- [x] SEAP-P05 — `done` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens do edital.
 
 Publicar P04/P05 junto ao primeiro pacote completo de assuntos compatíveis. Não publicar concurso/grupos vazios, arquivos inválidos, `TODO`, placeholders ou material fictício para antecipar a estrutura.
 
@@ -835,6 +839,8 @@ Publicar P04/P05 junto ao primeiro pacote completo de assuntos compatíveis. Nã
 - [x] SEAP-R01 — `done` — Inventariar o acervo existente e resolver vínculos; ler conteúdo, cheat sheet, questões, resoluções e referências candidatos ao reaproveitamento.
 - [x] SEAP-R02 — `done` — Classificar cada unidade como integral, parcial ou nova, com evidência das diferenças de conteúdo, corte e consumidores.
 - [ ] SEAP-R03 — `pending` — Implantar reaproveitamentos integrais por vínculo canônico válido ou cópia local controlada, preservando proveniência e identidades.
+
+Progresso verificável de R03: **1/72 integrais implantadas** — U001 por cópia local controlada. A macro só ficará `done` após todas as 72 unidades integrais estarem implantadas e aceitas.
 - [ ] SEAP-R04 — `pending` — Preparar as cópias parciais nos novos destinos locais, documentando trechos aproveitados, cortes e complementos; publicar após completar o pacote editorial correspondente.
 - [ ] SEAP-R05 — `pending` — Consolidar lacunas, unidades novas e dependências entre metas; registrar tarefas desdobradas ainda não executadas em `pending`.
 
@@ -974,6 +980,21 @@ Base pré-escrita confirmada: `main` `4c940527b104154efbce097148402d048e31e708`,
 **Sem implantação ainda:** R02 não cria `vinculo.json`, não copia arquivos, não cria catálogo/grupos e não altera nenhum C/H/Q doador. R03 é a etapa de implantação dos 72 integrais; R04 prepara os 19 parciais; R05 consolida as 19 novas e dependências. P04/P05 continuam acopladas ao primeiro assunto realmente publicado, para evitar estrutura vazia.
 
 **Evidência confirmada:** classificação publicada na `main` em `6f2889f8a9377373298864d6556416a36ea847a4`, blob `d59de155f55542ff6a59ae29d3e39df2ee20ca04`, com 110 linhas primárias classificadas; as duas remissões interblocos U082/U056 foram reconciliadas em `c1f05ffd3543f273fe5a83071aceca63a8cd56db`, blob `e0de95acce02de7930883960ad30bbb58b9ac53e`. Releitura posterior confirmou 72 integrais, 19 parciais, 19 novas, nenhuma ocorrência restante de `não classificada — R02` e 116 caminhos candidatos únicos no inventário corrigido.
+
+
+### SEAP-U001 + SEAP-P04/P05 — primeira publicação real em 25/09/2026
+
+Reserva confirmada: `SEAP-R03-U001-P04-P05-20260925-01`, base `main` `61b8d564601efd9c67d9a00951cc0933266378bf`, mestre `61276430733754fe7d4492cef8f9967f0675350a`. #764 estava sem reserva e #766 sem reserva/material concorrente.
+
+**Origem e consumidor:** doador físico `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/`, preservado sem edição. C/H/Q/R de origem: `07473a916ab5e2b299d62cce98feb6fac45f36ac` / `c75427b21479f88af6b57cbda04ff34f70b25fef` / `dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6` / `a95361908d3993c0fb7a834dfc5b8d06d70aa95c`. Destino local SEAP: `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/leitura-interpretacao-tipos-generos/`.
+
+**Publicação material:** commit `961cc6374894c835592510a5c7c19f251c29565d`, relido na `main`. Foram criados exatamente sete arquivos: catálogo, dois `grupo.json` e C/H/Q/R de U001. Blobs: catálogo `fe3c232b40e532bafdbed150343edde1618cf20f`; grupos `26735cddf3a35c70bbf79d65d47266bf6ad02e60` e `db93b4a762991f4a96276e71324fabcf16f4a248`; C `95a8e86a5c9777e59664c45b26d3ed1aa97d667a`; H `c75427b21479f88af6b57cbda04ff34f70b25fef`; Q `dcb939bc7f75fcbc483cc5590eabd1bd69d3d5a6`; R `dd6910adc64763cfcf3f987607d1917516970be6`.
+
+**Inspeção:** catálogo = ordem 5, `storageId: seapma-2026-inspetor`, `examDate: 2026-12-13`; grupos = Conhecimentos gerais ordem 1 e Língua Portuguesa ordem 1. `conteudo.md` preserva o texto pedagógico e muda somente a identidade de `pc-u001` para `seap-u001`. `cheat-sheet.md` e `questoes.json` são byte a byte os mesmos da origem. Q mantém `questionSetRevision: 6`, 36 IDs únicos, `origin` válido e todos os gabaritos apontando para opções existentes. `referencias.md` troca o recorte do concurso pela fonte oficial SEAP e explicita a cópia local integral e os quatro SHAs doadores. Não há `resolucoes/*.md` no pacote.
+
+**Ganho/corte/microglossário:** não houve crescimento do conteúdo didático, do H ou de Q; não houve alteração de microglossário. A intervenção foi estrutural e de proveniência: identidade correta para o novo consumidor e referência ao item 22.2.3, Português 1, preservando a seleção pedagógica já adequada. O corte legislativo não altera o conteúdo linguístico desta unidade; o edital SEAP e sua publicação em 21/07/2026 permanecem registrados para rastreabilidade.
+
+**Aceite:** U001 passa a C/H/Q `done`. P04 e P05 passam a `done`. R03 permanece `pending` em 1/72. Próxima unidade habilitada: U002, integral, cuja única dependência editorial U001 está concluída.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
