@@ -14,7 +14,7 @@ O planejamento foi transferido do corpo da #765, cuja versão anterior à reserv
 
 Comentários, histórico de edições, `ROADMAP.md` e memória de conversas não definem estado. O histórico Git pode comprovar publicação/proveniência, mas não substituir a fila autoritativa atual. Não reconstruir decisões ou aceites perdidos por suposição.
 
-Este documento é guia e registro administrativo, não uma aula, uma nova unidade C/H/Q ou prova de implantação. Sua criação não consolida o edital, não certifica material doador e não executa SEAP-P01. O programa literal e a matriz individual ainda devem ser publicados nas tarefas próprias, sem tabelas fictícias ou IDs inventados.
+Este documento é guia e registro administrativo, não uma aula, uma nova unidade C/H/Q ou prova de implantação. Sua criação não consolida o edital, não certifica material doador e não executa SEAP-P01. A transcrição posteriormente consultada em SEAP-P01 está na seção 3, com limites de verificação explícitos; a matriz individual ainda deve ser publicada na tarefa própria, sem tabelas fictícias ou IDs inventados.
 
 ## 2. Estado corrente, totais e próxima ação
 
@@ -30,36 +30,290 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 
 Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. Quantidades de assuntos reais, canônicos, locais, visões e entregáveis C/H/Q por assunto ainda não foram inventariadas; **não são zero por ausência de inventário**, nem podem ser copiadas de outra meta.
 
-A listagem completa de `src/content/concursos/` lida na base acima continha o concurso de exemplo, PC-MA e os dois cargos TCE, sem catálogo SEAP. Não se infere daí que inexistam candidatos ao reaproveitamento no restante do acervo. Título, slug, `storageId`, ordem e destinos da nova visão serão definidos em SEAP-P02 conforme os contratos então vigentes.
+A listagem completa de `src/content/concursos/` lida na base da preparação continha o concurso de exemplo, PC-MA e os dois cargos TCE, sem catálogo SEAP. Não se infere daí que inexistam candidatos ao reaproveitamento no restante do acervo. Título, slug, `storageId`, ordem e destinos da nova visão serão definidos em SEAP-P02 conforme os contratos então vigentes.
 
-**Próxima ação habilitada: SEAP-P01 — consolidar edital/retificações e publicar o programa integral numerado do Inspetor, estrutura objetiva/discursiva e cortes aplicáveis.** Em seguida, respeitar as dependências efetivas de SEAP-P02/P03 e das unidades desdobradas. Não iniciar produção com disciplina tratada como capítulo único.
+**SEAP-P01 tem entrega documental parcial em 25/09/2026:** programa integral do Inspetor no PDF de abertura consultado, regras objetiva/discursiva, critérios de corte e inconsistências foram materializados na seção 3. **Permanece `pending`**, pois a listagem oficial de publicações não foi recuperada e a data de publicação oficial do edital não foi confirmada. Não há certificação de inexistência de retificações nem de edital consolidado vigente.
 
-Reservas ativas são mantidas exclusivamente no painel da #765. A preparação deste guia não altera os estados das 51 macros. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: concluir a parte restante de SEAP-P01 — recuperar a listagem oficial de publicações, ler eventuais retificações e confirmar a data de publicação que fixa o corte legislativo; reconciliar seus efeitos com a transcrição e as regras já registradas.** Não refazer a transcrição sem mudança na fonte. Em seguida, respeitar as dependências efetivas de SEAP-P02/P03 e das unidades desdobradas. Não iniciar produção com disciplina tratada como capítulo único.
 
-## 3. Escopo e fontes recebidos
+Reservas ativas são mantidas exclusivamente no painel da #765. A pendência de acesso externo não é bloqueio estrutural do repositório nem autoriza manter reserva de execução indefinidamente; ao sincronizar esta entrega parcial, encerrar somente a reserva própria. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+
+## 3. Escopo, fontes e programa consultado
 
 Implantar no site somente o **Cargo 1 — Inspetor de Polícia Penal**, reaproveitar assuntos iguais ou parcialmente iguais e completar `conteudo.md`, `cheat-sheet.md`, `questoes.json`, `referencias.md` e, quando necessárias, `resolucoes/*.md`.
 
 Cobrir o programa integral do cargo, não apenas os acréscimos do roteiro incremental `Rota_de_estudos_concursos_MA_regras_da_prova-1.pdf`. **Monitor de Ressocialização fica fora desta meta.** Os cargos do TCE não serão recriados; a #755 e seus registros não serão reabertos ou alterados por esta campanha. #764 e #766 são fontes de coordenação e acervo publicado, não filas a executar em nome da #765.
 
-### Fontes oficiais registradas na issue de origem
+### 3.1 Fontes, consulta e limite de consolidação
 
-- [Página oficial do concurso](https://www.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR).
-- [Edital de abertura — documento oficial anteriormente consultado](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf).
-- Consulta inicial registrada em 10/09/2026, com base de implementação `6f9c945821bf14568c51801f26c82295df43de46`. É evidência histórica recebida, não nova consulta externa ou congelamento do repositório.
-
-A migração documental de 25/09/2026 não declara nova leitura integral desse edital ou inexistência de retificações posteriores. SEAP-P01 deve recuperar os documentos oficiais completos e distinguir fato, publicação, consulta, vigência e corte. Não importar datas, pesos, formato de prova ou janela jurisprudencial da PC-MA, do TCE ou da Perícia.
-
-### Particularidades SEAP a preservar e conferir
-
-| Registro recebido | Tratamento obrigatório |
+| Fonte | Identificação e evidência de consulta em 25/09/2026 |
 |---|---|
-| Conhecimentos gerais no item 22.2.3; específicos do Cargo 1 identificados no documento como **20.2.4** | Preservar a numeração literal e registrar a inconsistência, sem corrigir silenciosamente ou inventar uma numeração substituta |
-| Cortes nos itens 21.32 a 21.33.1 | Conferir o texto e a data aplicáveis em SEAP-P01; separar corte legislativo e jurisprudencial e alterações posteriores |
-| Lei de tortura repetida na legislação extravagante | Mapear todas as ocorrências sem duplicar artificialmente a unidade real |
-| Atualidades somente para a prova discursiva | Manter repertório, problemas, evidências e argumentação no recorte aprovado; questões objetivas desse bloco são fixação, não peso da objetiva |
-| Direito Constitucional e Constituição do Maranhão | Cobrir o recorte efetivamente exigido para o Inspetor, sem transportar exclusões ou limites de outro cargo |
-| Processo Penal, Direitos Humanos e Legislação Extravagante | Conferir diferenças em relação à PC-MA, instrumentos penitenciários, execução penal, políticas penitenciárias e legislação estadual enumerados; não importar o programa mais restrito do Monitor |
+| [Página oficial do concurso](https://www.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR) | O acesso disponível retornou a exigência de JavaScript, sem a listagem de publicações. Não foi possível inventariar os atos posteriores por essa página; busca sem resultado não prova ausência de retificações |
+| [Edital nº 1 — SEAP/MA — Inspetor e Monitor, de 21 de julho de 2026](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf) | Documento oficial de 84 páginas acessível. Conferidos identificação, recorte do cargo, itens 7 a 9 pertinentes às provas, 21.32 a 21.34, objetos de avaliação do Inspetor e Anexo I. Programa completo do Cargo 1 extraído e comparado às páginas correspondentes |
+| Consulta inicial recebida | Registro de 10/09/2026, base de implementação `6f9c945821bf14568c51801f26c82295df43de46`; preservado como evidência histórica, não como prova de atualização em 25/09 |
+
+A consulta atual compreendeu o texto dos trechos pertinentes e a conferência visual das tabelas de provas/classificação, dos cortes, do programa e do cronograma nas páginas 23, 26, 68 a 71 e 73 do PDF. **Não se declara leitura manual integral das 84 páginas**, nem auditoria das etapas médicas, físicas ou administrativas excluídas da campanha. A paginação abaixo é a posição da página no PDF, iniciada em 1.
+
+A data **21/07/2026** está no título do ato. **A data de sua publicação oficial ainda não foi comprovada nesta consulta** e não será silenciosamente equiparada à data do ato para fixar o corte legislativo. Tampouco foi obtido inventário verificável dos comunicados/retificações posteriores. Até completar essa verificação, as regras e datas abaixo descrevem o documento de abertura acessado, não uma consolidação definitiva da situação corrente do concurso.
+
+### 3.2 Provas objetiva e discursiva do Inspetor
+
+Fontes: edital consultado, [itens 7 e 8, páginas 23 a 27](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=23), e [item 9, páginas 27 a 29](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=27).
+
+| Prova | Recorte do Cargo 1 | Quantidade / pontuação |
+|---|---|---|
+| P1 — objetiva | Conhecimentos gerais | 30 questões / 30 pontos |
+| P2 — objetiva | Conhecimentos específicos | 50 questões / 50 pontos |
+| P3 — discursiva | Texto dissertativo sobre Atualidades | Até 30 linhas / 10 pontos |
+
+As três provas têm caráter eliminatório e classificatório. As objetivas somam **80 questões e 80 pontos**, não 100 questões. Cada questão tem cinco opções, A a E, e uma única correta. A resposta correta vale 1 ponto; resposta incorreta, sem marcação ou com mais de uma marcação vale zero, sem desconto negativo por erro (itens 8.2 e 8.11.2).
+
+A nota final nas provas objetivas é a soma de P1 e P2. Nota inferior a **40 pontos** elimina o candidato ao Inspetor; esse é o limite do item 8.11.5, não o do Monitor. Atingir 40 pontos não assegura aprovação: também é necessário ficar no quantitativo de classificação dos itens 8.11.8 e 8.11.8.1, respeitados os empates na última posição. O quadro próprio do Inspetor é:
+
+| Sexo indicado no edital | Ampla concorrência | Pessoas com deficiência | Candidatos negros |
+|---|---:|---:|---:|
+| Masculino | 680 | 100 | 196 |
+| Feminino | 168 | 28 | 48 |
+
+Se os aprovados das listas reservadas forem inferiores aos quantitativos previstos, o item 8.11.8.1 admite os candidatos da ampla concorrência mais bem classificados até o limite total por cargo/sexo, respeitados os empates. A discursiva é corrigida apenas para os aprovados nas objetivas segundo esses critérios; quem não tiver a discursiva corrigida é eliminado (itens 9.7.1 e 9.7.2). Esses quantitativos são limites de classificação para essa fase, não número de vagas ou distribuição de questões por disciplina.
+
+A discursiva avalia conhecimento do tema, expressão escrita e registro formal padrão, com coerência e coesão. O item 9.7.5 define:
+
+$$
+\mathrm{NPD}=\mathrm{NC}-\frac{2\times\mathrm{NE}}{\mathrm{TL}}
+$$
+
+`NPD` é a nota da prova discursiva; `NC` é a nota de conteúdo, apresentação, estrutura textual e desenvolvimento do tema, limitada a 10 pontos; `NE` é o número de erros de grafia, morfossintaxe e propriedade vocabular; `TL` é o número de linhas efetivamente escritas. Fragmentos fora do local apropriado ou além do limite de linhas são desconsiderados. Resultado negativo recebe zero; fuga ao tema ou ausência de texto também recebe zero. A aprovação exige **NPD ≥ 5 pontos** (item 9.7.6).
+
+Somente o texto definitivo é avaliado, não o rascunho. Marca identificadora no espaço do texto definitivo provoca anulação; o documento não é substituído por erro de preenchimento. O item 9.3 exige manuscrito legível com caneta preta de material transparente, ressalvados os atendimentos especializados expressamente deferidos nos itens 9.3 e 9.3.1. A não devolução do texto definitivo também anula a discursiva. Esses requisitos orientam a preparação de escrita, sem ampliar a campanha para procedimentos de inscrição ou atendimento.
+
+O item 7.2 prevê **cinco horas, no turno da manhã**, para as provas objetivas e discursiva. O [Anexo I, página 73](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=73), indica **13/12/2026 como data provável**. Essa data ainda precisa ser confrontada com publicações posteriores; não foi confirmada como data definitiva em 25/09.
+
+### 3.3 Cortes de legislação e jurisprudência
+
+Fonte: [itens 21.32 a 21.34, página 68 do edital consultado](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=68).
+
+| Regra | Consequência para o material |
+|---|---|
+| Item 21.32 — alterações de legislação com entrada em vigor até a data de publicação do edital podem ser avaliadas, ainda que não mencionadas nos objetos | Separar publicação do edital, vigência da norma e data de consulta. A data numérica do corte legislativo permanece a confirmar pela publicação oficial; 21/07/2026 é, por ora, a data identificada no título do ato |
+| Item 21.33 — legislação sem vigência pode ser avaliada quando explicitamente citada nos objetos | A menção literal deve ser mantida na matriz; não excluir diploma automaticamente por revogação. A situação e a forma de cobrança precisam ser explicadas na pesquisa material de cada unidade |
+| Item 21.33.1 — jurisprudência dos tribunais superiores pode ser considerada quando publicada até 30 dias antes da prova | Controlar a data de publicação da jurisprudência, não somente o julgamento. O marco não é o mesmo do corte legislativo |
+| Item 21.34 — alterações nas regras do edital dependem de outro edital | Ler e identificar os atos posteriores antes de certificar consolidação ou substituir programa, formato, cortes ou data da prova |
+
+**Cálculo condicionado:** se a prova permanecer em **13/12/2026**, o marco de 30 dias anteriores corresponde a **13/11/2026**. É uma data derivada do cronograma consultado, não confirmação de cronograma definitivo ou de janela já encerrada. Não importar os marcos da PC-MA nem encerrar antecipadamente a verificação jurisprudencial futura. Este registro não cria lembrete, automação ou atividade de fundo.
+
+### 3.4 Inconsistências e fronteiras confirmadas no documento
+
+| Ocorrência | Registro e tratamento para a matriz |
+|---|---|
+| Gerais em `22.2.3`, específicos em `20.2.4` | A divergência numérica está no documento consultado. A transcrição preserva ambos; não substituir silenciosamente `20.2.4` por `22.2.4` |
+| Lei nº 9.455/1997 nos itens 1 e 7 de Legislação Extravagante | Preservar as duas ocorrências literais e mapear sua cobertura para a mesma norma, sem contar artificialmente dois assuntos apenas pela repetição |
+| Lei nº 8.429/1992 em Direito Administrativo, item 7, e Legislação Extravagante, item 12 | Registrar as duas exigências. A matriz posterior decidirá a unidade real e suas fronteiras; repetição programática não comprova vínculo ou doação histórica |
+| Prisão temporária em Direito Processual Penal, item 5, e Lei nº 7.960/1989 em Legislação Extravagante, item 10 | Coordenar a cobertura e os aprofundamentos, sem eliminar qualquer ocorrência do programa |
+| Constituição do Maranhão | O recorte expresso é segurança pública, **arts. 112 a 121**, em Direito Constitucional, item 10 |
+| Processo Penal, Direitos Humanos e Legislação Extravagante | Preservar recursos, procedimentos e nulidades; instrumentos penitenciários; execução penal; políticas penitenciárias; normas estaduais e todos os atos enumerados para o Inspetor |
+| Legislação Extravagante, itens 13 e 15 | O item 13 contém lei e decreto; o item 15 contém cinco resoluções. Número de itens não equivale a número de diplomas nem a número de assuntos reais |
+| Atualidades | Está expressamente restrita à discursiva. O bloco de fixação não receberá peso fictício na objetiva |
+
+A transcrição seguinte preserva a terminologia e a numeração do documento, inclusive repetições e expressões que podem exigir apuração editorial posterior. Apenas espaços, quebras de página/linha e hifenização tipográfica foram normalizados para leitura. Não foram corrigidas silenciosamente expressões como “Revolta de Bequimão”, “Causas da não adesão: batalha do Jenipapo” ou “idoso e índio”; essa preservação documental não substitui a verificação factual/normativa do futuro material. Não há certificação, nesta etapa, de vigência individual de todos os diplomas enumerados.
+
+### 3.5 Programa integral do Inspetor no edital consultado
+
+Fonte: [objetos de avaliação, páginas 68 a 71](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=68). As diretrizes do item 22 preveem avaliação de habilidades além da memorização e admitem que uma questão abranja mais de um objeto; o desdobramento editorial não deve reduzir o programa a listas de definições. A transcrição termina no fim do Cargo 1, antes do programa do Monitor. Os números abaixo são os itens literais de cada disciplina, não novos IDs de unidades.
+
+#### 22.2.3 CONHECIMENTOS GERAIS PARA TODOS OS CARGOS
+
+##### LÍNGUA PORTUGUESA
+
+- 1 Compreensão e interpretação de textos de gêneros variados.
+- 2 Reconhecimento de tipos e gêneros textuais.
+- 3 Domínio da ortografia oficial.
+- 4 Domínio dos mecanismos de coesão textual.
+- 4.1 Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.
+- 4.2 Emprego de tempos e modos verbais.
+- 5 Domínio da estrutura morfossintática do período.
+- 5.1 Emprego das classes de palavras.
+- 5.2 Relações de coordenação entre orações e entre termos da oração.
+- 5.3 Relações de subordinação entre orações e entre termos da oração.
+- 5.4 Emprego dos sinais de pontuação.
+- 5.5 Concordância verbal e nominal.
+- 5.6 Regência verbal e nominal.
+- 5.7 Emprego do sinal indicativo de crase.
+- 5.8 Colocação dos pronomes átonos.
+- 6 Reescrita de frases e parágrafos do texto.
+- 6.1 Significação das palavras.
+- 6.2 Substituição de palavras ou de trechos de texto.
+- 6.3 Reorganização da estrutura de orações e de períodos do texto.
+- 6.4 Reescrita de textos de diferentes gêneros e níveis de formalidade.
+
+##### RACIOCÍNIO LÓGICO
+
+- 1 Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios; dedução de novas informações das relações fornecidas e avaliação das condições usadas para estabelecer a estrutura daquelas relações.
+- 2 Compreensão e análise da lógica de uma situação, utilizando as funções intelectuais: raciocínio verbal, raciocínio matemático, raciocínio sequencial, orientação espacial e temporal, formação de conceitos, discriminação de elementos.
+- 3 Operações com conjuntos.
+- 4 Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.
+
+##### NOÇÕES DE HISTÓRIA DO MARANHÃO
+
+- 1 França equinocial: expedição de Daniel de La Touche.
+- 2 Fundação de São Luís.
+- 3 Batalha de Guaxenduba.
+- 4 Capitães-mores do Maranhão.
+- 5 Invasão holandesa.
+- 6 Expulsão dos holandeses.
+- 7 Estado do Maranhão e Grão-Pará: Revolta de Bequimão (causas e objetivos da revolta); Companhia de Comércio do Maranhão e Grão-Pará.
+- 8 Período do Império: adesão do Maranhão.
+- 9 Independência do Brasil.
+- 10 Causas da não adesão: batalha do Jenipapo.
+- 11 Balaiada: caracterização e causas do movimento.
+- 12 Período Republicano: adesão do Maranhão à República.
+- 13 A Revolução de 1930 no Maranhão.
+- 14 Principais fatos políticos, econômicos e sociais ocorridos no Maranhão na segunda metade do século XX.
+
+##### NOÇÕES DE GEOGRAFIA DO MARANHÃO
+
+- 1 Localização do estado do Maranhão: superfície; limites; linhas de fronteira; pontos extremos; áreas de proteção ambiental (APA).
+- 2 Parques nacionais.
+- 3 Climas do Maranhão: pluviosidade e temperatura.
+- 4 Geomorfologia.
+- 4.1 Classificação do relevo maranhense: planaltos, planícies e baixadas.
+- 5 Características dos rios maranhenses: bacias dos rios limítrofes (Parnaíba, Gurupi e Tocantins-Araguaia).
+- 6 Bacias dos rios genuinamente maranhenses.
+- 7 Principais formações vegetais: floresta, cerrado e cocais.
+- 8 Geografia da população: população absoluta; densidade demográfica; povoamento; movimentos populacionais.
+- 9 Agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária.
+- 10 Extrativismo: vegetal, animal e mineral.
+- 11 Parque industrial: indústrias de base e indústrias de transformação.
+- 12 Setor terciário: comércio, telecomunicações, transportes.
+- 13 Malha viária.
+- 14 Portos e aeroportos.
+- 15 Cultura maranhense.
+
+##### NOÇÕES DE INFORMÁTICA
+
+- 1 Sistema operacional e software.
+- 2 Internet: navegação na Internet; conceitos de URL, links, sites, busca e impressão de páginas.
+- 3 Editor de texto – Word (Microsoft Office): formatação de fonte e parágrafo; bordas e sombreamento; marcadores, numeração e tabulação; cabeçalho, rodapé e número de página; manipulação de imagens e formas; configuração de página; tabelas.
+- 4 Planilha eletrônica – Excel (Microsoft Office): formatação da planilha e de células; cálculos utilizando as quatro operações básicas; formatação de dados por meio da formatação condicional; representação de dados por meio de gráficos.
+- 5 Programas antivírus e firewall.
+- 6 Teclas de atalho.
+- 7 Configuração de impressoras.
+
+##### ATUALIDADES (SOMENTE PARA A PROVA DISCURSIVA)
+
+- 1 Tópicos relevantes e atuais de diversas áreas, tais como segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, desenvolvimento sustentável e ecologia.
+
+#### 20.2.4 CONHECIMENTOS ESPECÍFICOS
+
+##### CARGO 1: INSPETOR DE POLÍCIA PENAL
+
+**DIREITO ADMINISTRATIVO**
+
+- 1 Administração pública: princípios expressos e implícitos (art. 37 da Constituição Federal de 1988).
+- 2 Poderes da administração: hierárquico, disciplinar, regulamentar e de polícia.
+- 3 Atos administrativos: conceito, requisitos, atributos, classificação e invalidação.
+- 4 Servidores públicos: regime jurídico, direitos, deveres, proibições e responsabilidades.
+- 5 Processo administrativo: princípios e regras gerais (Lei nº 9.784/1999 e suas alterações).
+- 6 Responsabilidade civil do Estado.
+- 7 Lei de Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações).
+
+**DIREITO CONSTITUCIONAL**
+
+- 1 Estado e Constituição.
+- 1.1 Constituição: conceito, conteúdo, objeto e classificação.
+- 2 Constituição da República Federativa do Brasil de 1988.
+- 2.1 Preâmbulo e princípios fundamentais.
+- 2.2 Dignidade da pessoa humana e direitos humanos.
+- 2.3 Dimensões dos direitos humanos no Brasil.
+- 3 Direitos e garantias fundamentais.
+- 3.1 Direitos e deveres individuais e coletivos, direitos sociais, direitos de nacionalidade, direitos políticos, partidos políticos.
+- 4 Remédios constitucionais: habeas data, habeas corpus, mandado de segurança, ação popular e mandado de injunção.
+- 5 Organização político-administrativa do Estado.
+- 5.1 Estado federal brasileiro, União, estados, Distrito Federal, municípios e territórios.
+- 6 Administração pública.
+- 6.1 Disposições gerais, servidores públicos.
+- 7 Funções essenciais à justiça: advocacia, Ministério Público, advocacia pública e Defensoria Pública.
+- 8 Defesa do Estado e das instituições democráticas.
+- 8.1 Segurança pública.
+- 8.2 Organização da segurança pública.
+- 9 Ordem social.
+- 9.1 Base e objetivos da ordem social.
+- 9.2 Seguridade social.
+- 9.3 Meio ambiente.
+- 9.4 Família, criança, adolescente, idoso e índio.
+- 10 Constituição do Estado do Maranhão: segurança pública (arts. 112 a 121).
+
+**DIREITO PENAL**
+
+- 1 Aplicação da lei penal.
+- 1.1 Princípios da legalidade e da anterioridade.
+- 1.2 Lei penal no tempo e no espaço.
+- 1.3 Tempo e lugar do crime.
+- 1.4 Lei penal excepcional, especial e temporária.
+- 1.5 Territorialidade e extraterritorialidade da lei penal.
+- 1.6 Contagem de prazo.
+- 1.7 Interpretação da lei penal.
+- 1.8 Analogia.
+- 1.9 Irretroatividade da lei penal.
+- 2 Teoria geral do crime.
+- 2.1 Conceitos e evolução histórico-doutrinária.
+- 2.2 Infração penal: elementos, espécies, sujeito ativo e sujeito passivo.
+- 3 Fato típico e seus elementos.
+- 3.1 Crime consumado e tentado.
+- 3.2 Concurso de crimes.
+- 3.3 Ilicitude e causas de exclusão.
+- 3.4 Punibilidade.
+- 3.5 Excesso punível.
+- 3.6 Culpabilidade (elementos e causas de exclusão).
+- 4 Imputabilidade penal.
+- 5 Concurso de pessoas.
+- 6 Crimes contra a pessoa.
+- 7 Crimes contra o patrimônio.
+- 8 Crimes contra a dignidade sexual.
+- 9 Crimes contra a incolumidade pública.
+- 10 Crimes contra a paz pública.
+- 11 Crimes contra a fé pública.
+- 12 Crimes contra a administração pública.
+
+**DIREITO PROCESSUAL PENAL**
+
+- 1 Princípios do processo penal.
+- 2 Inquérito policial: conceito, finalidade e características.
+- 3 Ação penal: espécies e condições.
+- 4 Jurisdição e competência.
+- 5 Prisões (prisão em flagrante, preventiva e temporária); liberdade provisória.
+- 6 Provas: espécies e admissibilidade.
+- 7 Recursos: espécies e prazos.
+- 8 Procedimentos e nulidades processuais.
+
+**DIREITOS HUMANOS**
+
+- 1 Direitos humanos e direitos fundamentais na Constituição Federal de 1988 (arts. 5º ao 15).
+- 2 Decreto nº 7.037/2009 e suas alterações (Programa Nacional de Direitos Humanos).
+- 3 Declaração Universal dos Direitos Humanos — Resolução 217-A (III) da Assembleia Geral das Nações Unidas, 1948.
+- 4 Regras Mínimas das Nações Unidas para o Tratamento de Reclusos (Regras de Nelson Mandela).
+- 5 Convenção Americana de Direitos Humanos (Pacto de San José da Costa Rica).
+- 6 Regras das Nações Unidas para o Tratamento de Mulheres Presas e Medidas Não Privativas de Liberdade Para Mulheres Infratoras (Regras de Bangkok).
+
+**LEGISLAÇÃO EXTRAVAGANTE**
+
+- 1 Lei nº 9.455/1997 e suas alterações (antitortura).
+- 2 Lei nº 10.826/2003 e suas alterações (Estatuto do Desarmamento).
+- 3 Lei nº 12.846/2013 e suas alterações (anticorrupção).
+- 4 Lei nº 12.850/2013 e suas alterações (organizações criminosas).
+- 5 Lei nº 13.964/2019 (Pacote Anticrime).
+- 6 Lei nº 7.210/1984 e suas alterações (Lei de Execução Penal).
+- 7 Lei nº 9.455/1997 e suas alterações (crimes de tortura).
+- 8 Lei nº 13.869/2019 e suas alterações (abuso de autoridade).
+- 9 Lei nº 8.072/1990 e suas alterações (crimes hediondos).
+- 10 Lei nº 7.960/1989 e suas alterações (prisão temporária).
+- 11 Lei nº 11.343/2006 e suas alterações (repressão ao tráfico ilícito de drogas).
+- 12 Lei nº 8.429/1992 e suas alterações (Lei de Improbidade Administrativa).
+- 13 Lei nº 13.675/2018 e suas alterações (disciplina a organização e o funcionamento dos órgãos responsáveis pela segurança pública; cria a Política Nacional de Segurança Pública e Defesa Social; institui o Sistema Único de Segurança Pública) e Decreto de Regulamentação nº 9.489/2018 e suas alterações.
+- 14 Portaria Interministerial MS/MJ nº 1/2014 (Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional).
+- 15 Resoluções do Conselho Nacional de Política Criminal e Penitenciária: Resolução nº 3/2009 (diretrizes de educação); Resolução nº 1/2014 (atenção em saúde mental); Resolução nº 4/2014 (assistência à saúde); Resolução 4/2017 (padrões mínimos para a assistência material do Estado à pessoa privada de liberdade); Resolução nº 31/2022 (medidas de monitoração eletrônica decorrentes de ordens judiciais).
+- 16 Portaria Interministerial MJ/SPM nº 210/2014 (Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional).
+- 17 Lei estadual nº 11.342/2020 e suas alterações (institui a Polícia Penal do Maranhão).
 
 Ficam fora da execução desta meta outros cargos, novas funcionalidades, infraestrutura, alteração de schemas, migrações gerais, mega revisões, gerados e etapas médicas, físicas ou administrativas do concurso, salvo novo pedido explícito pertinente.
 
@@ -283,7 +537,17 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 
 ## 8. Evidência, manutenção e encerramento
 
-A entrega desta preparação é o próprio arquivo-mestre com o planejamento preservado e o guia obrigatório. A evidência de publicação é seu commit efetivo na `main`, indicado no painel após releitura; não se antecipa um SHA inexistente. Nenhum pacote editorial, catálogo, grupo, vínculo, schema, gerado, arquivo da #764/#766 ou registro da #755 foi alterado por esta preparação.
+A preparação inicial foi publicada no commit `61e13695b588615dc694726505c43929932992a8`, com blob `845f7a8359b9757e8edf21e77ea49fa6d250af52`: arquivo-mestre, planejamento preservado e guia obrigatório. Nenhum pacote editorial, catálogo, grupo, vínculo, schema, gerado, arquivo da #764/#766 ou registro da #755 foi alterado por essa preparação.
+
+### SEAP-P01 — entrega documental parcial de 25/09/2026
+
+Base confirmada: `main` `61e13695b588615dc694726505c43929932992a8`, mestre `845f7a8359b9757e8edf21e77ea49fa6d250af52`, `AGENTS.md` `1735e5035e3824be202be5c014f18d6445e235bb`. Coordenação consultada: #764 encerrada e sem reserva; #766 sem reserva ativa indicada. Escopo desta publicação: somente este mestre e o painel da #765; origem documental Cebraspe, consumidor exclusivo Cargo 1 — Inspetor. Nenhuma origem editorial local/canônica ou entrega C/H/Q foi alterada ou aceita.
+
+**Entregue:** transcrição do programa completo do Inspetor presente no PDF de abertura acessado; objetiva/discursiva e critérios de classificação; fórmula da discursiva; cronograma provável; distinção de cortes; registro das inconsistências, repetições e fronteiras; fontes com páginas. O ganho é retirar a dependência de um programa ainda não materializado e evitar importação das regras da PC-MA ou do Monitor. O crescimento é documental, pela transcrição solicitada; não é ampliação de aulas, cheat sheets ou bancos. Não foram acrescentadas marcações de microglossário à transcrição literal.
+
+**Não concluído:** inventário verificável de publicações oficiais posteriores e confirmação da data de publicação do edital. O acesso à página oficial não forneceu a listagem; não se presume ausência de retificação. Por isso, SEAP-P01 permanece `pending`, sem criar macro nova, sem declarar cobertura editorial aceita e sem certificar consolidação definitiva. A pendência restante está delimitada na seção 2 e não exige refazer os trechos já registrados salvo alteração material das fontes.
+
+A evidência do commit desta entrega deve ser indicada no painel apenas depois da gravação e da releitura efetivas na `main`; este arquivo não antecipa seu próprio SHA. A reserva operacional própria é encerrada no painel ao sincronizar a entrega parcial, preservadas quaisquer reservas alheias.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
