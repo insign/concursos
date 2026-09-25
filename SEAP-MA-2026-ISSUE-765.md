@@ -23,14 +23,14 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Macros de implantação/fontes | 5 | 2 | 0 | 3 |
-| Macros de reaproveitamento | 5 | 5 | 0 | 0 |
+| Macros de reaproveitamento | 5 | 4 | 0 | 1 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 48 | 0 | 3 |
+| Total de macros individualizadas | 51 | 47 | 0 | 4 |
 | Unidades editoriais planejadas | 110 | 110 | 0 | 0 |
 | Entregáveis unitários C/H/Q | 330 | 330 | 0 | 0 |
 
-Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 agora identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**, todos ainda `pending`. Origem física/canônica, quantidade final de visões locais/canônicas e classificação de reaproveitamento permanecem a resolver em R01/R02; não reportar esses valores como zero nem copiar totais de outra meta.
+Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**, todos ainda `pending`. R01 inventariou o acervo candidato: 92 unidades têm ao menos um pacote material e 18 não têm pacote-doador direto; a **origem escolhida para a futura visão SEAP** e a classificação integral/parcial/nova permanecem a decidir em R02. Não copiar totais ou aceites de outra meta.
 
 A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
@@ -40,9 +40,11 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **SEAP-P03 concluída em 25/09/2026:** 110 unidades editoriais planejadas, 330 C/H/Q `pending`, ordens 1–110, destinos e dependências estão materializados na matriz; todas as ocorrências do programa consolidado foram mapeadas sem dupla contagem das repetições documentadas.
 
-**Próxima ação habilitada: SEAP-R01 — inventariar o acervo existente e resolver origens/vínculos dos 110 assuntos planejados.** R01 deve ler C/H/Q/referências/resoluções candidatos e registrar origem/SHA/consumidores; R02 fará a classificação integral/parcial/nova. P04/P05 seguem condicionadas ao primeiro assunto completo, portanto não são executadas isoladamente agora.
+**SEAP-R01 concluída em 25/09/2026:** 114 pacotes candidatos completos foram inventariados para 92 das 110 unidades; 18 ficaram explicitamente sem pacote-doador direto. Foram registrados caminhos, fingerprints C/H/Q/R, raízes canônicas, vínculos e consumidores, sem aceitar compatibilidade por semelhança.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 estão `done`; P04/P05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: SEAP-R02 — classificar as 110 unidades como integral, parcial ou nova, comparando recorte, profundidade, corte, fontes, C/H/Q, fronteiras e consumidores.** R02 deve escolher e registrar a origem aplicável ou a ausência dela; P04/P05 continuam condicionadas ao primeiro assunto completo.
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 e R01 estão `done`; P04/P05, R02–R05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -804,7 +806,7 @@ Publicar P04/P05 junto ao primeiro pacote completo de assuntos compatíveis. Nã
 
 ### 7.2 Inventário e reaproveitamento
 
-- [ ] SEAP-R01 — `pending` — Inventariar o acervo existente e resolver vínculos; ler conteúdo, cheat sheet, questões, resoluções e referências candidatos ao reaproveitamento.
+- [x] SEAP-R01 — `done` — Inventariar o acervo existente e resolver vínculos; ler conteúdo, cheat sheet, questões, resoluções e referências candidatos ao reaproveitamento.
 - [ ] SEAP-R02 — `pending` — Classificar cada unidade como integral, parcial ou nova, com evidência das diferenças de conteúdo, corte e consumidores.
 - [ ] SEAP-R03 — `pending` — Implantar reaproveitamentos integrais por vínculo canônico válido ou cópia local controlada, preservando proveniência e identidades.
 - [ ] SEAP-R04 — `pending` — Preparar as cópias parciais nos novos destinos locais, documentando trechos aproveitados, cortes e complementos; publicar após completar o pacote editorial correspondente.
@@ -932,7 +934,9 @@ Base pré-escrita: `main` `cb227a068654412637b78e56bb546763452e8d62`, mestre `a1
 
 **Inventário:** 92/110 unidades com pelo menos um pacote candidato; 18 sem pacote-doador direto; 114 pacotes candidatos completos, 456 artefatos-base, nenhum arquivo de resolução nesses pacotes, 36 raízes canônicas e 84 visões consumidoras. Os vínculos relevantes foram lidos e confirmados por conteúdo, não inferidos por slug. Os candidatos com trilha PC permaneceram imutáveis após `de6662a`; os demais foram lidos diretamente nesta R01. Nenhum candidato foi aceito ou classificado por esse fato.
 
-**Sem alteração editorial:** R01 só publica inventário/evidência neste mestre. Não cria vínculo SEAP, não copia pacote, não cria catálogo/grupo e não altera C/H/Q. R02 permanece responsável pela classificação e pelas lacunas. A evidência do commit desta materialização será registrada após a releitura na `main`.
+**Sem alteração editorial:** R01 só publica inventário/evidência neste mestre. Não cria vínculo SEAP, não copia pacote, não cria catálogo/grupo e não altera C/H/Q. R02 permanece responsável pela classificação e pelas lacunas.
+
+**Evidência confirmada:** inventário publicado e relido na `main` no commit `e95aad5b1b49e168a0155703c4c6e402ad0cf0b5`, blob `82a8719f09fad18831c25d7a0eaa99e1403f0e98`; comparação com `cb227a068654412637b78e56bb546763452e8d62`: somente `SEAP-MA-2026-ISSUE-765.md` alterado, 143 linhas acrescentadas e nenhuma retirada. Recontagem: 92 unidades com candidato, 18 sem pacote direto, 114 pacotes, 456 artefatos-base, 36 raízes canônicas, 84 visões consumidoras e 49 blobs de vínculo distintos conferidos.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
