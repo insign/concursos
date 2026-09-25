@@ -38,7 +38,7 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **Próxima ação habilitada: SEAP-P03 — montar a matriz edital → unidades reais → arquivos, desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.** P04/P05 continuam vinculadas ao primeiro assunto completo; não publicar estrutura vazia.
 
-Reservas ativas são mantidas exclusivamente no painel da #765. A pendência de acesso externo não é bloqueio estrutural do repositório nem autoriza manter reserva de execução indefinidamente; ao sincronizar esta entrega parcial, encerrar somente a reserva própria. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01 e P02 estão `done`, sem antecipar aceites de P03–P05 ou C/H/Q. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -572,7 +572,7 @@ Base confirmada: `main` `61e13695b588615dc694726505c43929932992a8`, mestre `845f
 
 **Fechamento de P01:** a consulta de 25/09 localizou a publicação do Edital nº 1 na edição nº 130 do Diário Oficial do Maranhão, em 21/07/2026, e o Edital nº 2 – SEAP/MA – Inspetor e Monitor, de 24/09/2026. A retificação identificada altera datas do cronograma: pagamento até 29/09/2026, relação provisória PcD em 14/10/2026 e relação final PcD/consulta final do atendimento especializado em 30/10/2026. Não foi localizada alteração do programa do Inspetor, da estrutura objetiva/discursiva ou da data de prova nos elementos indexados. O acesso direto à listagem Cebraspe permaneceu limitado por JavaScript; essa limitação é registrada, mas não impede a consolidação documental porque o ato e a publicação foram identificados por fontes verificáveis e o conteúdo-base continua sustentado pelo PDF oficial do Cebraspe.
 
-SEAP-P01 passa a `done`. Isso não congela o concurso: SEAP-F03 continua responsável por reconsultar publicações posteriores e fontes materiais antes do fechamento, inclusive eventual alteração entre 25/09 e a prova. A evidência do commit desta conclusão será indicada no painel somente após gravação e releitura na `main`; este arquivo não antecipa seu próprio SHA.
+SEAP-P01 permanece `done`. Publicação confirmada na `main`: commit `e35a06f0f2bad3cd73a1dc32884a31f6378e70f8`, blob do mestre `7b45c93d9b513fdf806927cb2a4a4c39a6d91c89`, relidos antes da execução de P02. Isso não congela o concurso: SEAP-F03 continua responsável por reconsultar publicações posteriores e fontes materiais antes do fechamento, inclusive eventual alteração entre 25/09 e a prova.
 
 
 ### SEAP-P02 — identidade e caminhos concluídos em 25/09/2026
@@ -581,7 +581,7 @@ Base pré-escrita confirmada: `main` `e35a06f0f2bad3cd73a1dc32884a31f6378e70f8`,
 
 **Decisão:** título `SEAP/MA 2026 - Inspetor de Polícia Penal`; slug `seap-ma-2026-inspetor-policia-penal`; `storageId` `seapma-2026-inspetor`; ordem `5`; futuro catálogo e raiz consumidora conforme a tabela da seção 3. A decisão preserva as identidades existentes e não conflita com a #766, que ainda não possui identidade publicada. O programa do Monitor continua excluído.
 
-**Escopo material:** somente este arquivo-mestre e o painel da #765. Não foram criados catálogo, `grupo.json`, pastas vazias, vínculos, C/H/Q, gerados ou arquivos das #764/#766/#755. A definição de caminhos não conta unidade real nem visão antes de P03/P04/P05. SEAP-P02 passa a `done`; a evidência do commit desta conclusão será sincronizada no painel somente depois de publicação e releitura na `main`.
+**Escopo material:** somente este arquivo-mestre e o painel da #765. Não foram criados catálogo, `grupo.json`, pastas vazias, vínculos, C/H/Q, gerados ou arquivos das #764/#766/#755. A definição de caminhos não conta unidade real nem visão antes de P03/P04/P05. SEAP-P02 passa a `done`. Publicação material confirmada na `main`: commit `4d2fc407159e00ddd46dfb5c909ce23b4d9e8f7a`, blob `b8bd355db99cb45c5490ef9f894d7873935ed78b`; comparação com `e35a06f0f2bad3cd73a1dc32884a31f6378e70f8`: somente o mestre alterado, 36 linhas acrescentadas e 5 retiradas.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
