@@ -22,19 +22,19 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Macros de implantação/fontes | 5 | 5 | 0 | 0 |
+| Macros de implantação/fontes | 5 | 4 | 0 | 1 |
 | Macros de reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 51 | 0 | 0 |
+| Total de macros individualizadas | 51 | 50 | 0 | 1 |
 
 Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. Quantidades de assuntos reais, canônicos, locais, visões e entregáveis C/H/Q por assunto ainda não foram inventariadas; **não são zero por ausência de inventário**, nem podem ser copiadas de outra meta.
 
 A listagem completa de `src/content/concursos/` lida na base da preparação continha o concurso de exemplo, PC-MA e os dois cargos TCE, sem catálogo SEAP. Não se infere daí que inexistam candidatos ao reaproveitamento no restante do acervo. Título, slug, `storageId`, ordem e destinos da nova visão serão definidos em SEAP-P02 conforme os contratos então vigentes.
 
-**SEAP-P01 tem entrega documental parcial em 25/09/2026:** programa integral do Inspetor no PDF de abertura consultado, regras objetiva/discursiva, critérios de corte e inconsistências foram materializados na seção 3. **Permanece `pending`**, pois a listagem oficial de publicações não foi recuperada e a data de publicação oficial do edital não foi confirmada. Não há certificação de inexistência de retificações nem de edital consolidado vigente.
+**SEAP-P01 concluída em 25/09/2026:** o programa integral do Inspetor no Edital nº 1, as regras objetiva/discursiva, os cortes e as inconsistências permanecem materializados na seção 3; a publicação do Edital nº 1 foi localizada na edição nº 130 do Diário Oficial do Maranhão, de 21/07/2026, e o Edital nº 2 – SEAP/MA – Inspetor e Monitor, publicado em 24/09/2026, foi incorporado quanto aos efeitos de cronograma identificados. A retificação não alterou o programa do Inspetor nem o formato das provas nos elementos localizados.
 
-**Próxima ação habilitada: concluir a parte restante de SEAP-P01 — recuperar a listagem oficial de publicações, ler eventuais retificações e confirmar a data de publicação que fixa o corte legislativo; reconciliar seus efeitos com a transcrição e as regras já registradas.** Não refazer a transcrição sem mudança na fonte. Em seguida, respeitar as dependências efetivas de SEAP-P02/P03 e das unidades desdobradas. Não iniciar produção com disciplina tratada como capítulo único.
+**Próxima ação habilitada: SEAP-P02 — definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.** Em seguida, respeitar as dependências efetivas de P03 e das unidades desdobradas. P04/P05 continuam vinculadas ao primeiro assunto completo; não publicar estrutura vazia.
 
 Reservas ativas são mantidas exclusivamente no painel da #765. A pendência de acesso externo não é bloqueio estrutural do repositório nem autoriza manter reserva de execução indefinidamente; ao sincronizar esta entrega parcial, encerrar somente a reserva própria. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
@@ -48,13 +48,16 @@ Cobrir o programa integral do cargo, não apenas os acréscimos do roteiro incre
 
 | Fonte | Identificação e evidência de consulta em 25/09/2026 |
 |---|---|
-| [Página oficial do concurso](https://www.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR) | O acesso disponível retornou a exigência de JavaScript, sem a listagem de publicações. Não foi possível inventariar os atos posteriores por essa página; busca sem resultado não prova ausência de retificações |
-| [Edital nº 1 — SEAP/MA — Inspetor e Monitor, de 21 de julho de 2026](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf) | Documento oficial de 84 páginas acessível. Conferidos identificação, recorte do cargo, itens 7 a 9 pertinentes às provas, 21.32 a 21.34, objetos de avaliação do Inspetor e Anexo I. Programa completo do Cargo 1 extraído e comparado às páginas correspondentes |
-| Consulta inicial recebida | Registro de 10/09/2026, base de implementação `6f9c945821bf14568c51801f26c82295df43de46`; preservado como evidência histórica, não como prova de atualização em 25/09 |
+| [Página oficial do concurso](https://www.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR) | O acesso direto disponível continuou exigindo JavaScript e não expôs a listagem; por isso a verificação de publicações foi complementada por busca indexada e pela reprodução do Diário Oficial |
+| [Edital nº 1 — SEAP/MA — Inspetor e Monitor, de 21 de julho de 2026](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf) | Documento oficial de 84 páginas acessível. Conferidos identificação, recorte do cargo, itens 7 a 9, 21.32 a 21.34, objetos de avaliação do Inspetor e Anexo I. Programa completo do Cargo 1 extraído e comparado às páginas correspondentes |
+| [Notícia institucional do Cebraspe, publicada em 30/07/2026](https://www.cebraspe.org.br/seap-ma-divulga-concurso-publico-para-inspetor-de-policia-penal-e-monitor-de-ressocializacao/) | Confirma o concurso, inscrições, requisitos e a aplicação das provas objetiva e discursiva em 13/12/2026 |
+| [Reprodução indexada do Diário Oficial do Maranhão — Edital nº 1](https://muralpublico.com.br/ma/atos/94-27/edital-1-seap-ma-inspetor-e-monitor-de) | Identifica a publicação do Edital nº 1 na edição nº 130 (Executivo), em 21/07/2026. Usada para fixar documentalmente a data de publicação exigida pelo item 21.32; não substitui o PDF oficial do Cebraspe para o conteúdo do edital |
+| [Edição indexada do Diário Oficial do Maranhão de 24/09/2026](https://muralpublico.com.br/ma/edicoes/2026-09-24) | Identifica o Edital nº 2 – SEAP/MA – Inspetor e Monitor e a retificação de datas do cronograma. Foram localizados: pagamento até 29/09/2026; relação provisória PcD em 14/10/2026; relação final PcD e consulta final do atendimento especializado em 30/10/2026. Não foi localizada alteração do programa do Inspetor ou da data de prova nos elementos indexados |
+| Consulta inicial recebida | Registro de 10/09/2026, base de implementação `6f9c945821bf14568c51801f26c82295df43de46`; preservado como evidência histórica |
 
 A consulta atual compreendeu o texto dos trechos pertinentes e a conferência visual das tabelas de provas/classificação, dos cortes, do programa e do cronograma nas páginas 23, 26, 68 a 71 e 73 do PDF. **Não se declara leitura manual integral das 84 páginas**, nem auditoria das etapas médicas, físicas ou administrativas excluídas da campanha. A paginação abaixo é a posição da página no PDF, iniciada em 1.
 
-A data **21/07/2026** está no título do ato. **A data de sua publicação oficial ainda não foi comprovada nesta consulta** e não será silenciosamente equiparada à data do ato para fixar o corte legislativo. Tampouco foi obtido inventário verificável dos comunicados/retificações posteriores. Até completar essa verificação, as regras e datas abaixo descrevem o documento de abertura acessado, não uma consolidação definitiva da situação corrente do concurso.
+A publicação do Edital nº 1 foi localizada na **edição nº 130 (Executivo) do Diário Oficial do Maranhão, em 21/07/2026**, por reprodução indexada do diário. Esse é o marco documental adotado para o item 21.32. Em 24/09/2026 foi localizado o **Edital nº 2 – SEAP/MA – Inspetor e Monitor**, com alteração de datas do cronograma. A fonte indexada não substitui o documento primário quando este estiver acessível, mas fornece identificação verificável de edição/data e do ato; nenhuma alteração programática foi atribuída além do que foi efetivamente localizado.
 
 ### 3.2 Provas objetiva e discursiva do Inspetor
 
@@ -87,7 +90,7 @@ $$
 
 Somente o texto definitivo é avaliado, não o rascunho. Marca identificadora no espaço do texto definitivo provoca anulação; o documento não é substituído por erro de preenchimento. O item 9.3 exige manuscrito legível com caneta preta de material transparente, ressalvados os atendimentos especializados expressamente deferidos nos itens 9.3 e 9.3.1. A não devolução do texto definitivo também anula a discursiva. Esses requisitos orientam a preparação de escrita, sem ampliar a campanha para procedimentos de inscrição ou atendimento.
 
-O item 7.2 prevê **cinco horas, no turno da manhã**, para as provas objetivas e discursiva. O [Anexo I, página 73](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=73), indica **13/12/2026 como data provável**. Essa data ainda precisa ser confrontada com publicações posteriores; não foi confirmada como data definitiva em 25/09.
+O item 7.2 prevê **cinco horas, no turno da manhã**, para as provas objetivas e discursiva. O [Anexo I, página 73](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf#page=73), indica **13/12/2026** como data provável; a notícia institucional do Cebraspe publicada em 30/07/2026 também informa essa data para as provas. O Edital nº 2 identificado em 24/09 alterou datas do cronograma administrativo, sem mudança da data de prova nos elementos localizados. SEAP-F03 deverá reconsultar atos posteriores antes do fechamento.
 
 ### 3.3 Cortes de legislação e jurisprudência
 
@@ -95,7 +98,7 @@ Fonte: [itens 21.32 a 21.34, página 68 do edital consultado](https://cdn.cebras
 
 | Regra | Consequência para o material |
 |---|---|
-| Item 21.32 — alterações de legislação com entrada em vigor até a data de publicação do edital podem ser avaliadas, ainda que não mencionadas nos objetos | Separar publicação do edital, vigência da norma e data de consulta. A data numérica do corte legislativo permanece a confirmar pela publicação oficial; 21/07/2026 é, por ora, a data identificada no título do ato |
+| Item 21.32 — alterações de legislação com entrada em vigor até a data de publicação do edital podem ser avaliadas, ainda que não mencionadas nos objetos | Corte legislativo documental: **21/07/2026**, data de publicação do Edital nº 1 localizada na edição nº 130 do Diário Oficial do Maranhão. Separar publicação, vigência da norma e data de consulta |
 | Item 21.33 — legislação sem vigência pode ser avaliada quando explicitamente citada nos objetos | A menção literal deve ser mantida na matriz; não excluir diploma automaticamente por revogação. A situação e a forma de cobrança precisam ser explicadas na pesquisa material de cada unidade |
 | Item 21.33.1 — jurisprudência dos tribunais superiores pode ser considerada quando publicada até 30 dias antes da prova | Controlar a data de publicação da jurisprudência, não somente o julgamento. O marco não é o mesmo do corte legislativo |
 | Item 21.34 — alterações nas regras do edital dependem de outro edital | Ler e identificar os atos posteriores antes de certificar consolidação ou substituir programa, formato, cortes ou data da prova |
@@ -440,7 +443,7 @@ Em SEAP-F02, identifique individualmente o que foi inspecionado e o que falta; a
 
 ### 7.1 Fontes e criação do concurso
 
-- [ ] SEAP-P01 — `pending` — Consolidar edital e retificações oficiais; transcrever o programa integral com numeração, separar objetiva/discursiva e registrar inconsistências documentais sem correção silenciosa.
+- [x] SEAP-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral com numeração, separar objetiva/discursiva e registrar inconsistências documentais sem correção silenciosa.
 - [ ] SEAP-P02 — `pending` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [ ] SEAP-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] SEAP-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e dados oficiais do cargo correto.
@@ -539,15 +542,15 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 
 A preparação inicial foi publicada no commit `61e13695b588615dc694726505c43929932992a8`, com blob `845f7a8359b9757e8edf21e77ea49fa6d250af52`: arquivo-mestre, planejamento preservado e guia obrigatório. Nenhum pacote editorial, catálogo, grupo, vínculo, schema, gerado, arquivo da #764/#766 ou registro da #755 foi alterado por essa preparação.
 
-### SEAP-P01 — entrega documental parcial de 25/09/2026
+### SEAP-P01 — consolidação concluída em 25/09/2026
 
 Base confirmada: `main` `61e13695b588615dc694726505c43929932992a8`, mestre `845f7a8359b9757e8edf21e77ea49fa6d250af52`, `AGENTS.md` `1735e5035e3824be202be5c014f18d6445e235bb`. Coordenação consultada: #764 encerrada e sem reserva; #766 sem reserva ativa indicada. Escopo desta publicação: somente este mestre e o painel da #765; origem documental Cebraspe, consumidor exclusivo Cargo 1 — Inspetor. Nenhuma origem editorial local/canônica ou entrega C/H/Q foi alterada ou aceita.
 
 **Entregue:** transcrição do programa completo do Inspetor presente no PDF de abertura acessado; objetiva/discursiva e critérios de classificação; fórmula da discursiva; cronograma provável; distinção de cortes; registro das inconsistências, repetições e fronteiras; fontes com páginas. O ganho é retirar a dependência de um programa ainda não materializado e evitar importação das regras da PC-MA ou do Monitor. O crescimento é documental, pela transcrição solicitada; não é ampliação de aulas, cheat sheets ou bancos. Não foram acrescentadas marcações de microglossário à transcrição literal.
 
-**Não concluído:** inventário verificável de publicações oficiais posteriores e confirmação da data de publicação do edital. O acesso à página oficial não forneceu a listagem; não se presume ausência de retificação. Por isso, SEAP-P01 permanece `pending`, sem criar macro nova, sem declarar cobertura editorial aceita e sem certificar consolidação definitiva. A pendência restante está delimitada na seção 2 e não exige refazer os trechos já registrados salvo alteração material das fontes.
+**Fechamento de P01:** a consulta de 25/09 localizou a publicação do Edital nº 1 na edição nº 130 do Diário Oficial do Maranhão, em 21/07/2026, e o Edital nº 2 – SEAP/MA – Inspetor e Monitor, de 24/09/2026. A retificação identificada altera datas do cronograma: pagamento até 29/09/2026, relação provisória PcD em 14/10/2026 e relação final PcD/consulta final do atendimento especializado em 30/10/2026. Não foi localizada alteração do programa do Inspetor, da estrutura objetiva/discursiva ou da data de prova nos elementos indexados. O acesso direto à listagem Cebraspe permaneceu limitado por JavaScript; essa limitação é registrada, mas não impede a consolidação documental porque o ato e a publicação foram identificados por fontes verificáveis e o conteúdo-base continua sustentado pelo PDF oficial do Cebraspe.
 
-A evidência do commit desta entrega deve ser indicada no painel apenas depois da gravação e da releitura efetivas na `main`; este arquivo não antecipa seu próprio SHA. A reserva operacional própria é encerrada no painel ao sincronizar a entrega parcial, preservadas quaisquer reservas alheias.
+SEAP-P01 passa a `done`. Isso não congela o concurso: SEAP-F03 continua responsável por reconsultar publicações posteriores e fontes materiais antes do fechamento, inclusive eventual alteração entre 25/09 e a prova. A evidência do commit desta conclusão será indicada no painel somente após gravação e releitura na `main`; este arquivo não antecipa seu próprio SHA.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
