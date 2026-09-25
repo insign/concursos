@@ -23,14 +23,14 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Macros de implantação/fontes | 5 | 2 | 0 | 3 |
-| Macros de reaproveitamento | 5 | 4 | 0 | 1 |
+| Macros de reaproveitamento | 5 | 3 | 0 | 2 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 47 | 0 | 4 |
+| Total de macros individualizadas | 51 | 46 | 0 | 5 |
 | Unidades editoriais planejadas | 110 | 110 | 0 | 0 |
 | Entregáveis unitários C/H/Q | 330 | 330 | 0 | 0 |
 
-Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**, todos ainda `pending`. R01 inventariou o acervo candidato: 92 unidades têm ao menos um pacote material e 18 não têm pacote-doador direto; a **origem escolhida para a futura visão SEAP** e a classificação integral/parcial/nova permanecem a decidir em R02. Não copiar totais ou aceites de outra meta.
+Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**, todos ainda `pending`. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**. Não copiar totais ou aceites de outra meta.
 
 A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
@@ -42,9 +42,11 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **SEAP-R01 concluída em 25/09/2026:** 116 pacotes candidatos completos foram inventariados para 92 das 110 unidades; 18 ficaram explicitamente sem pacote-doador direto. Foram registrados caminhos, fingerprints C/H/Q/R, raízes canônicas, vínculos e consumidores, sem aceitar compatibilidade por semelhança.
 
-**Próxima ação habilitada: SEAP-R02 — classificar as 110 unidades como integral, parcial ou nova, comparando recorte, profundidade, corte, fontes, C/H/Q, fronteiras e consumidores.** R02 deve escolher e registrar a origem aplicável ou a ausência dela; P04/P05 continuam condicionadas ao primeiro assunto completo.
+**SEAP-R02 concluída em 25/09/2026:** as 110 unidades foram classificadas em **72 integrais, 19 parciais e 19 novas**; a matriz registra a origem escolhida ou sua ausência e a justificativa de recorte/lacuna/fronteira. Todos os 330 C/H/Q permanecem `pending`.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 e R01 estão `done`; P04/P05, R02–R05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: iniciar SEAP-R03 pela SEAP-U001, integral e sem dependência editorial pendente.** No mesmo ciclo do primeiro assunto realmente publicado, executar P04/P05 para criar catálogo e hierarquia consumidora junto ao pacote completo, evitando estrutura vazia. R03 permanece `pending` até todos os 72 integrais estarem implantados.
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P03 e R01–R02 estão `done`; P04/P05, R03–R05 e todos os 330 C/H/Q unitários permanecem `pending`. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -831,7 +833,7 @@ Publicar P04/P05 junto ao primeiro pacote completo de assuntos compatíveis. Nã
 ### 7.2 Inventário e reaproveitamento
 
 - [x] SEAP-R01 — `done` — Inventariar o acervo existente e resolver vínculos; ler conteúdo, cheat sheet, questões, resoluções e referências candidatos ao reaproveitamento.
-- [ ] SEAP-R02 — `pending` — Classificar cada unidade como integral, parcial ou nova, com evidência das diferenças de conteúdo, corte e consumidores.
+- [x] SEAP-R02 — `done` — Classificar cada unidade como integral, parcial ou nova, com evidência das diferenças de conteúdo, corte e consumidores.
 - [ ] SEAP-R03 — `pending` — Implantar reaproveitamentos integrais por vínculo canônico válido ou cópia local controlada, preservando proveniência e identidades.
 - [ ] SEAP-R04 — `pending` — Preparar as cópias parciais nos novos destinos locais, documentando trechos aproveitados, cortes e complementos; publicar após completar o pacote editorial correspondente.
 - [ ] SEAP-R05 — `pending` — Consolidar lacunas, unidades novas e dependências entre metas; registrar tarefas desdobradas ainda não executadas em `pending`.
@@ -969,7 +971,9 @@ Base pré-escrita confirmada: `main` `4c940527b104154efbce097148402d048e31e708`,
 
 **Resultado:** 110 unidades classificadas — **72 integrais, 19 parciais e 19 novas**. Cada linha da matriz agora registra a origem escolhida com fingerprints C/H/Q/R ou a ausência de origem, além da lacuna/fronteira que justifica a classe. Os cinco candidatos compostos omitidos em R01 foram reconciliados antes da decisão, elevando o inventário correto para 116 pacotes/464 artefatos-base.
 
-**Sem implantação ainda:** R02 não cria `vinculo.json`, não copia arquivos, não cria catálogo/grupos e não altera nenhum C/H/Q doador. R03 é a etapa de implantação dos 72 integrais; R04 prepara os 19 parciais; R05 consolida as 19 novas e dependências. P04/P05 continuam acopladas ao primeiro assunto realmente publicado, para evitar estrutura vazia. A evidência do commit desta classificação será registrada após releitura na `main`.
+**Sem implantação ainda:** R02 não cria `vinculo.json`, não copia arquivos, não cria catálogo/grupos e não altera nenhum C/H/Q doador. R03 é a etapa de implantação dos 72 integrais; R04 prepara os 19 parciais; R05 consolida as 19 novas e dependências. P04/P05 continuam acopladas ao primeiro assunto realmente publicado, para evitar estrutura vazia.
+
+**Evidência confirmada:** classificação publicada na `main` em `6f2889f8a9377373298864d6556416a36ea847a4`, blob `d59de155f55542ff6a59ae29d3e39df2ee20ca04`, com 110 linhas primárias classificadas; as duas remissões interblocos U082/U056 foram reconciliadas em `c1f05ffd3543f273fe5a83071aceca63a8cd56db`, blob `e0de95acce02de7930883960ad30bbb58b9ac53e`. Releitura posterior confirmou 72 integrais, 19 parciais, 19 novas, nenhuma ocorrência restante de `não classificada — R02` e 116 caminhos candidatos únicos no inventário corrigido.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
