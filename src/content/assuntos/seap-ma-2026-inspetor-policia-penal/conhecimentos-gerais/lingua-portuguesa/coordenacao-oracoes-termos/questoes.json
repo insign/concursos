@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "u010-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare: I. “A equipe revisou o laudo e a planilha.” II. “A equipe revisou o laudo e publicou a nota.” A análise correta é",
+      "options": [
+        {"id": "a", "text": "em I e II, “e” liga apenas orações."},
+        {"id": "b", "text": "em I, há coordenação entre objetos diretos; em II, entre orações."},
+        {"id": "c", "text": "em I, há subordinação; em II, coordenação entre objetos."},
+        {"id": "d", "text": "em I, “a planilha” é sujeito; em II, “publicou” é substantivo."},
+        {"id": "e", "text": "a presença de “e” impede distinguir termos de orações."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em I, “o laudo” e “a planilha” completam o mesmo verbo como objetos diretos. Em II, “revisou” e “publicou” organizam duas orações coordenadas."
+    },
+    {
+      "id": "u010-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe tinha revisado os autos e publicado a nota”, a sequência “tinha revisado”",
+      "options": [
+        {"id": "a", "text": "cria necessariamente duas orações."},
+        {"id": "b", "text": "é locução verbal e, por si só, não multiplica o número de orações."},
+        {"id": "c", "text": "é sujeito composto."},
+        {"id": "d", "text": "é oração coordenada explicativa."},
+        {"id": "e", "text": "não contém verbo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Auxiliar e forma principal podem funcionar juntos como um núcleo verbal. Contar cada forma verbal como oração separada produz segmentação incorreta."
+    },
+    {
+      "id": "u010-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “O relatório é claro e objetivo”, os termos “claro” e “objetivo”",
+      "options": [
+        {"id": "a", "text": "são predicativos do sujeito coordenados entre si."},
+        {"id": "b", "text": "formam duas orações coordenadas."},
+        {"id": "c", "text": "são objetos diretos do verbo “é”."},
+        {"id": "d", "text": "exercem funções sintáticas incompatíveis."},
+        {"id": "e", "text": "são sujeitos simples sucessivos."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os dois adjetivos atribuem características ao sujeito “o relatório” por meio do verbo de ligação e exercem a mesma função de predicativo."
+    },
+    {
+      "id": "u010-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Participaram os peritos responsáveis pela coleta e os investigadores encarregados das entrevistas”, a coordenação liga",
+      "options": [
+        {"id": "a", "text": "somente as palavras “coleta” e “investigadores”."},
+        {"id": "b", "text": "dois grupos nominais completos que formam o sujeito."},
+        {"id": "c", "text": "uma oração principal e uma subordinada adverbial."},
+        {"id": "d", "text": "dois objetos diretos."},
+        {"id": "e", "text": "dois vocativos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O conectivo liga os grupos completos “os peritos responsáveis pela coleta” e “os investigadores encarregados das entrevistas”. Analisar só as palavras vizinhas ao “e” perde a estrutura."
+    },
+    {
+      "id": "u010-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Recebeu os autos, conferiu os anexos e iniciou a análise”, segundo a nomenclatura tradicional, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "todas as três orações são sindéticas aditivas."},
+        {"id": "b", "text": "as duas primeiras são assindéticas e a terceira é sindética aditiva."},
+        {"id": "c", "text": "a primeira é subordinada e as demais são absolutas."},
+        {"id": "d", "text": "há apenas uma oração, porque só existe um “e”."},
+        {"id": "e", "text": "as duas primeiras são explicativas e a última, conclusiva."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "As duas primeiras orações não são introduzidas por conjunção coordenativa; a terceira vem introduzida por “e”. Um único conectivo não se projeta retroativamente sobre toda a série."
+    },
+    {
+      "id": "u010-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual frase exemplifica polissíndeto?",
+      "options": [
+        {"id": "a", "text": "Recebeu, conferiu, arquivou."},
+        {"id": "b", "text": "E recebeu, e conferiu, e arquivou."},
+        {"id": "c", "text": "Recebeu porque conferiu."},
+        {"id": "d", "text": "Embora recebesse, não conferiu."},
+        {"id": "e", "text": "Quando recebeu, arquivou."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Polissíndeto é a repetição deliberada do conectivo em uma série. A alternativa A exemplifica assíndeto, com omissão dos conectivos."
+    },
+    {
+      "id": "u010-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Não revisou o laudo nem publicou a nota”, “nem” estabelece relação de",
+      "options": [
+        {"id": "a", "text": "adição de uma segunda negação."},
+        {"id": "b", "text": "conclusão."},
+        {"id": "c", "text": "alternância exclusiva."},
+        {"id": "d", "text": "causa."},
+        {"id": "e", "text": "concessão."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Nem” acrescenta outro conteúdo negativo e, no núcleo semântico, aproxima-se de “e não”."
+    },
+    {
+      "id": "u010-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Prometeu rapidez e demorou semanas”, a conjunção “e”",
+      "options": [
+        {"id": "a", "text": "deixa de pertencer à classe tradicional das aditivas e vira pronome."},
+        {"id": "b", "text": "mantém forma aditiva, mas produz no contexto efeito de contraste."},
+        {"id": "c", "text": "marca obrigatoriamente causa."},
+        {"id": "d", "text": "introduz oração subordinada substantiva."},
+        {"id": "e", "text": "não estabelece relação de sentido entre as orações."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A classificação formal do conectivo e seu efeito semântico contextual não são perguntas idênticas. Aqui, a demora quebra a expectativa criada pela promessa de rapidez."
+    },
+    {
+      "id": "u010-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A medida exige não só revisão do formulário, mas também conferência dos anexos”, a correlação",
+      "options": [
+        {"id": "a", "text": "nega a revisão do formulário."},
+        {"id": "b", "text": "apresenta as duas providências como alternativas excludentes."},
+        {"id": "c", "text": "soma as duas providências e destaca a relevância de ambas."},
+        {"id": "d", "text": "introduz conclusão no segundo membro."},
+        {"id": "e", "text": "transforma o segundo membro em causa do primeiro."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Não só... mas também” não nega o primeiro membro; nega que apenas ele baste e acrescenta o segundo."
+    },
+    {
+      "id": "u010-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Não houve atraso, mas sim erro de cadastro”, o segundo membro",
+      "options": [
+        {"id": "a", "text": "acrescenta uma causa sem rejeitar a hipótese anterior."},
+        {"id": "b", "text": "corrige a hipótese apresentada no primeiro membro."},
+        {"id": "c", "text": "exprime alternância inclusiva."},
+        {"id": "d", "text": "indica tempo posterior."},
+        {"id": "e", "text": "funciona como sujeito da primeira oração."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A construção “não... mas sim” retifica a primeira hipótese: rejeita atraso e apresenta erro de cadastro como a caracterização correta."
+    },
+    {
+      "id": "u010-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Apresente identidade ou passaporte; qualquer um basta e ambos são aceitos”, a alternativa construída por “ou” é",
+      "options": [
+        {"id": "a", "text": "exclusiva, pois proíbe apresentar os dois documentos."},
+        {"id": "b", "text": "inclusiva, pois um basta sem proibir a apresentação dos dois."},
+        {"id": "c", "text": "conclusiva."},
+        {"id": "d", "text": "explicativa."},
+        {"id": "e", "text": "adversativa."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O próprio contexto declara que um dos documentos satisfaz a exigência e que ambos podem ser apresentados; portanto, a leitura é inclusiva."
+    },
+    {
+      "id": "u010-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A perícia, ou exame técnico, foi concluída”, o “ou”",
+      "options": [
+        {"id": "a", "text": "oferece necessariamente escolha entre duas perícias."},
+        {"id": "b", "text": "reformula o termo anterior, apresentando outra designação."},
+        {"id": "c", "text": "introduz conclusão."},
+        {"id": "d", "text": "marca causa."},
+        {"id": "e", "text": "coordena dois sujeitos distintos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O segundo segmento renomeia ou esclarece o primeiro; “ou” não tem, nesse emprego, valor de escolha."
+    },
+    {
+      "id": "u010-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Todos os anexos foram conferidos; portanto, a etapa pode ser encerrada”, a relação é de",
+      "options": [
+        {"id": "a", "text": "alternância."},
+        {"id": "b", "text": "adição neutra."},
+        {"id": "c", "text": "conclusão apoiada na informação anterior."},
+        {"id": "d", "text": "explicação da ordem anterior."},
+        {"id": "e", "text": "comparação."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Portanto” apresenta o encerramento como conclusão fundada na conferência dos anexos."
+    },
+    {
+      "id": "u010-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Não encerre a conferência, pois falta uma assinatura”, a oração introduzida por “pois”",
+      "options": [
+        {"id": "a", "text": "justifica a orientação anterior."},
+        {"id": "b", "text": "conclui a partir da orientação anterior."},
+        {"id": "c", "text": "apresenta alternativa exclusiva."},
+        {"id": "d", "text": "é objeto direto de “encerre”."},
+        {"id": "e", "text": "indica comparação."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A falta de assinatura serve de justificativa para a orientação de não encerrar a conferência, caracterizando valor explicativo."
+    },
+    {
+      "id": "u010-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare: I. “Não encerre, pois falta assinatura.” II. “A assinatura chegou; pode, pois, encerrar.” A análise correta de “pois” é",
+      "options": [
+        {"id": "a", "text": "conclusivo em I e explicativo em II."},
+        {"id": "b", "text": "explicativo nos dois casos."},
+        {"id": "c", "text": "explicativo em I e conclusivo em II."},
+        {"id": "d", "text": "alternativo em I e adversativo em II."},
+        {"id": "e", "text": "causal nos dois casos, independentemente da posição."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em I, “pois” introduz justificativa; em II, deslocado para o interior da oração, equivale a “portanto” e marca conclusão."
+    },
+    {
+      "id": "u010-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação melhor distingue “mas” de “contudo” nas construções “O laudo é curto, mas está completo” e “O laudo é curto; está, contudo, completo”?",
+      "options": [
+        {"id": "a", "text": "Ambos ocupam obrigatoriamente a mesma posição."},
+        {"id": "b", "text": "“Mas” tende a iniciar o segundo membro; “contudo” admite maior mobilidade."},
+        {"id": "c", "text": "“Contudo” nunca pode marcar contraste."},
+        {"id": "d", "text": "“Mas” é sempre conclusivo."},
+        {"id": "e", "text": "A diferença é exclusivamente ortográfica."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os dois podem marcar contraste, mas o comportamento sintático não é idêntico. A mobilidade de “contudo” ajuda a explicar diferenças entre análises tradicionais e descritivas."
+    },
+    {
+      "id": "u010-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “Espero que a equipe revise o laudo e que publique a nota”, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "a presença de subordinação impede qualquer coordenação no período."},
+        {"id": "b", "text": "as duas orações introduzidas por “que” podem coordenar-se entre si dentro de um bloco dependente de “espero”."},
+        {"id": "c", "text": "“e” coordena apenas os substantivos “laudo” e “nota”."},
+        {"id": "d", "text": "há apenas uma oração em todo o período."},
+        {"id": "e", "text": "a segunda oração é necessariamente principal."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Relações sintáticas são locais: um bloco pode depender de uma oração externa e, internamente, conter membros coordenados entre si."
+    },
+    {
+      "id": "u010-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A frase “Técnicos e auditores experientes participaram” pode ser ambígua porque",
+      "options": [
+        {"id": "a", "text": "não contém verbo."},
+        {"id": "b", "text": "“experientes” pode alcançar apenas “auditores” ou os dois grupos coordenados."},
+        {"id": "c", "text": "todo sujeito composto é indeterminado."},
+        {"id": "d", "text": "“e” só pode ligar orações."},
+        {"id": "e", "text": "a frase possui duas conjunções adversativas."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A ambiguidade é de escopo: não fica necessariamente claro se o modificador se aplica a apenas um membro ou ao conjunto."
+    },
+    {
+      "id": "u010-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual versão apresenta paralelismo sintático mais transparente?",
+      "options": [
+        {"id": "a", "text": "O plano prevê integrar as bases, a revisão dos formulários e que os dados sejam auditados."},
+        {"id": "b", "text": "O plano prevê a integração das bases, a revisão dos formulários e a auditoria dos dados."},
+        {"id": "c", "text": "O plano prevê integrar as bases, formulários e que auditem."},
+        {"id": "d", "text": "O plano prevê bases, revisar e auditoria."},
+        {"id": "e", "text": "O plano, prevê integrar bases e formulários auditoria."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alternativa B coordena três grupos nominais construídos de modo paralelo, tornando visível a equivalência entre os membros."
+    },
+    {
+      "id": "u010-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre pontuação e coordenação.",
+      "options": [
+        {"id": "a", "text": "Toda conjunção “e” deve ser precedida de vírgula."},
+        {"id": "b", "text": "Sujeitos diferentes tornam a vírgula antes de “e” obrigatória em qualquer contexto."},
+        {"id": "c", "text": "Orações assindéticas podem ser delimitadas por vírgula, e a pontuação deve ser justificada pela estrutura, não apenas por uma pausa imaginada."},
+        {"id": "d", "text": "A vírgula nunca pode aparecer antes de “mas”."},
+        {"id": "e", "text": "Ponto e vírgula não pode separar membros coordenados."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A pontuação acompanha a estrutura e a relação entre os membros. Regras absolutas baseadas apenas na presença de “e”, em sujeitos diferentes ou em pausa são inseguras."
+    },
+    {
+      "id": "q3350",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para a Assembleia Legislativa do Maranhão, 2023. Assinale a frase em que “e” produz valor adversativo no contexto.",
+      "options": [
+        {"id": "A", "text": "A equipe recebeu o laudo e o protocolo."},
+        {"id": "B", "text": "A equipe abriu o arquivo e imprimiu a folha."},
+        {"id": "C", "text": "O perito mediu e fotografou o objeto."},
+        {"id": "D", "text": "O setor registrou a ocorrência e arquivou a cópia."},
+        {"id": "E", "text": "Prometeu entregar o parecer hoje e ainda nem começou a análise."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "Em E, a segunda informação contraria a expectativa criada pela promessa de entrega. A questão original 2, Tipo 2, cobrava o valor adversativo de “e” e teve gabarito definitivo E; caderno e gabarito constam em referencias.md."
+    },
+    {
+      "id": "q3355",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para o Tribunal de Contas do Estado da Bahia, 2013. Em “O plano prevê treinamento, assim como revisão dos formulários, bem como atualização dos sistemas”, as expressões “assim como” e “bem como” têm, nesse contexto, valor",
+      "options": [
+        {"id": "A", "text": "causal e conclusivo, respectivamente."},
+        {"id": "B", "text": "adversativo nos dois casos."},
+        {"id": "C", "text": "comparativo apenas no primeiro caso e causal no segundo."},
+        {"id": "D", "text": "aditivo nos dois casos."},
+        {"id": "E", "text": "explicativo nos dois casos."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "As duas expressões acrescentam elementos da mesma série. A questão original 3, Tipo 3, testava esses conectores e teve gabarito definitivo D; fontes primárias constam em referencias.md."
+    },
+    {
+      "id": "q3356",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para a Companhia de Pesquisa de Recursos Minerais, 2025. Em “O problema decorre não só da falta de integração, mas também da ausência de revisão”, a correlação destacada",
+      "options": [
+        {"id": "A", "text": "nega que a falta de integração contribua para o problema."},
+        {"id": "B", "text": "apresenta duas causas como alternativas mutuamente excludentes."},
+        {"id": "C", "text": "introduz uma conclusão no segundo membro."},
+        {"id": "D", "text": "adiciona a segunda causa à primeira e destaca ambas."},
+        {"id": "E", "text": "transforma o segundo membro em explicação da primeira causa."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Não só... mas também” soma os dois membros e reforça a relevância de ambos. A questão original 47, Tipo 1, teve gabarito definitivo D; fontes primárias constam em referencias.md."
+    },
+    {
+      "id": "q3358",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal de questão da Fundação Getulio Vargas para o Tribunal de Contas do Estado de Goiás, 2024. Assinale a alternativa em que o segundo segmento é apresentado como conclusão do primeiro.",
+      "options": [
+        {"id": "A", "text": "O setor abriu cedo, e os servidores chegaram às oito. / adição."},
+        {"id": "B", "text": "O relatório foi refeito porque havia erros. / causa."},
+        {"id": "C", "text": "Ou o documento é entregue hoje, ou seguirá amanhã. / alternância."},
+        {"id": "D", "text": "Confira os anexos, pois há divergências. / explicação."},
+        {"id": "E", "text": "Todos os requisitos foram atendidos; portanto, o processo pode avançar. / conclusão."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Portanto” apresenta o avanço como conclusão apoiada no atendimento dos requisitos. A questão original 13, Tipo 2, cobrava relação lógico-semântica e teve gabarito definitivo E; fontes primárias constam em referencias.md."
+    }
+  ]
+}
