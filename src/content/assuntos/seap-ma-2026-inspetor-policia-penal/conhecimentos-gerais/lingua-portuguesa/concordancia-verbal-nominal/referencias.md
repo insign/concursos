@@ -1,0 +1,44 @@
+# Referências — Concordância verbal e nominal
+
+## Recorte e proveniência
+
+Fontes materiais reconsultadas em **26 de setembro de 2026**. Esta unidade cobre o item **5.5 — Concordância verbal e nominal** de Língua Portuguesa do Cargo 1 — Inspetor de Polícia Penal.
+
+- SECRETARIA DE ESTADO DE ADMINISTRAÇÃO PENITENCIÁRIA DO MARANHÃO; CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. **Edital nº 1 — <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Inspetor e Monitor, de 21 de julho de 2026**. Item 22.2.3, Língua Portuguesa, item 5.5, página 68 do arquivo: “Concordância verbal e nominal”. [Documento oficial](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf). A consulta pública dirigida de 26/09/2026 não localizou ato posterior alterando este programa; a reconsulta global de atos permanece em `SEAP-F03`.
+- A consolidação `SEAP-P01` já incorpora o Edital nº 2, de 24/09/2026, nos efeitos de cronograma identificados, sem alteração programática registrada para este recorte.
+
+## Gramática e orientação institucional
+
+- SENADO FEDERAL. **Manual de Comunicação — Concordância verbal**. Regra geral de concordância com o sujeito; partitivas; `um dos que`; relativos `que` e `quem`; pronomes de tratamento; verbos impessoais; sujeito composto e construções com `se`. [Manual institucional](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal), reconsultado em 26/09/2026.
+- SENADO FEDERAL. **Manual de Comunicação — Infinitivo flexionado**. Sujeitos diferentes, mesmo sujeito, locuções verbais e construções preposicionadas. [Manual institucional](https://www12.senado.leg.br/manualdecomunicacao/estilos/infinitivo-flexionado), reconsultado em 26/09/2026.
+- SENADO FEDERAL. **Manual de Comunicação — Porcentagem**. Concordância com percentual, termo especificador e percentual determinado. [Manual institucional](https://www12.senado.leg.br/manualdecomunicacao/estilos/porcentagem), reconsultado em 26/09/2026. As preferências do manual são apresentadas no conteúdo como orientação editorial, não como regra universal para toda fonte.
+- LEXIKON / AULETE. **Gramática Básica da Língua Portuguesa**. [Concordância verbal](https://www.aulete.com.br/gram/cap11-14-concordancia_verbal), [concordância nominal](https://www.aulete.com.br/gram/cap08-07-concordancia_nominal) e [formas nominais do verbo](https://www.aulete.com.br/gram/cap11-13-sintaxe_dos_modos_e_dos_tempos). Fontes do pacote doador para sujeitos simples/compostos, concordância nominal, infinitivo e particípio.
+- CARLA MARQUES. Ciberdúvidas da Língua Portuguesa. [Concordância do verbo (4)](https://ciberduvidas.iscte-iul.pt/artigos/rubricas/idioma/concordancia-do-verbo-4/5034), 8 nov. 2022. Variação delimitada em partitivas e coletivos especificados.
+- CARLOS ROCHA. Ciberdúvidas da Língua Portuguesa. [A concordância verbal com expressões partitivas](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-concordancia-verbal-com-expressoes-partitivas-metade-de-um-terco-de-etc/34263), 17 abr. 2017.
+- PAULO ROBERTO RIBEIRO. Universidade Federal de Lavras. [Concordância nominal — é proibido, é preciso](https://www.ufla.br/dcom/2016/04/18/dicas-de-portugues-concordancia-nominal-e-proibido-e-preciso/), 18 abr. 2016.
+
+## Questões anteriores revalidadas em 26/09/2026
+
+As três questões locais com `origin: previous_exam` são **adaptações não literais**. O conteúdo local preserva o fenômeno cobrado, mas não reproduz integralmente os itens originais.
+
+| Questão local | Prova original | Fenômeno e conferência |
+| --- | --- | --- |
+| `q3539` | Fundação Getulio Vargas — Empresa Brasileira de Serviços Hospitalares, Técnico em Radiologia/Radioterapia, Tipo 1, 2025, questão 7 | `meio` adverbial invariável; original **C**, local **C** |
+| `q3540` | Fundação Getulio Vargas — Secretaria de Estado da Educação, do Esporte e do Lazer do Rio Grande do Norte, Professor de Língua Portuguesa, Tipo 1, questão 8 | `quem` sem antecedente expresso e verbo no singular; original **B**, local **B** |
+| `q3543` | Fundação Getulio Vargas — Câmara dos Deputados, Analista Legislativo — Técnico em Material e Patrimônio, Tipo 1, 2023, questão 2 | `haver` impessoal, `existir` com sujeito e sujeito oracional de `custar`; original **A**, local **A** |
+
+Fontes primárias:
+
+- Empresa Brasileira de Serviços Hospitalares: [caderno oficial — Técnico em Radiologia/Radioterapia, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/grupo-20-tecnico-em-radiologia-radiotepariae3cnmgp20-tipo-1.pdf), questão 7, e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/ebserrhassistencial2024_gabarito_definitivo.pdf), Tipo 1, questão 7 = **C**. A questão e o quadro definitivo foram reconferidos textual e visualmente.
+- Secretaria de Estado da Educação, do Esporte e do Lazer do Rio Grande do Norte: [caderno oficial — Professor de Língua Portuguesa, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf), questão 8, e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf), Tipo 1, questão 8 = **B**. A questão e o quadro definitivo foram reconferidos textual e visualmente.
+- Câmara dos Deputados: [caderno oficial — Analista Legislativo, Técnico em Material e Patrimônio, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-legislativo-tecnico-em-material-e-patrimoniocns102-tipo-1-manha.pdf), questão 2, e [gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-1-manha.pdf), Tipo 1, questão 2 = **A**. A questão e o quadro definitivo foram reconferidos visualmente.
+
+## Proveniência, adequação integral e fronteiras
+
+- **Unidade e destino:** `SEAP-U013`, identidade `seap-u013`, ordem 13, destino `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/lingua-portuguesa/concordancia-verbal-nominal/`.
+- **Origem imediata:** pacote físico/local da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr> em `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/lingua-portuguesa/concordancia-verbal-nominal/`, sem `vinculo.json`. Blobs auditados antes da cópia: C `2755e9d8af94197d3921b91a785a0f47244b7db2`, H `c16b9d072320d5ee7518712072dd272a3ed504ee`, Q `647ad7fdd4cfa4ee1e87afe9b70bccd000fb15ca`, R `3e3fbd60a500f413c84ead24ccebf72a977a3190`.
+- **Histórico comparativo:** o pacote físico foi preparado por reaproveitamento parcial do canônico `src/content/biblioteca/lingua-portuguesa/concordancia-verbal-nominal/`. Na `main` atual, o canônico está nos blobs C `9a522e0f4de63fdb5aa4842b0fc8795a7674f99a`, H `453fb4eb9df3a6717a4f4b6adb3b2b0dfa6b9848`, Q `25c832848d44c7f90d9e0ea7b38db04bcf1fa32f` e R `d9f96b27da0a6d9cfa8d5ccb152e19f2e5924a4b`, consumido por vínculos explícitos de TCE-MA Analista Administração e TCE-MA Técnico Administrativo, ambos ordem 12. Biblioteca e consumidores permanecem somente leitura.
+- **Classificação `SEAP-R02`:** **integral/local** em relação ao pacote físico PC-MA. O item 5.5 da Secretaria coincide com o recorte local, e a dependência `U009` está concluída. Não se cria `vinculo.json` para a visão SEAP porque o pacote físico recortado — não o canônico mais amplo — é a origem integral escolhida.
+- **Revisão pedagógica:** `conteudo.md` foi lido integralmente. A abertura ensina a localizar o controlador antes da terminação; depois progride por núcleo do sujeito, sujeitos compostos, relativos e sujeito oracional, quantidades, impessoais, `se`, infinitivo, concordância nominal e formas recorrentes, fechando com reescrita. As nuances admitidas são apresentadas como variação delimitada, não como concordância livre. A fronteira com regência permanece explícita e U014 não é antecipada em profundidade. Não foi identificado ganho proporcional em expandir ou reorganizar C/H.
+- **Adaptação material:** C muda somente `storageId: pc-u013` → `storageId: seap-u013`; H permanece byte a byte idêntico. Q mantém **24 questões** — 21 autorais e três adaptações verificadas —, sem mudança de enunciado, alternativas, gabaritos ou `origin`. Apenas as explicações das três adaptações recebem microglossário institucional: `q3539` revisão 2→3, `q3540` 3→4, `q3543` 2→3; `questionSetRevision` 6→7. Não há `resolucoes/*.md` separadas necessárias.
+- **Corte e consumidores:** a matéria é gramatical e não contém regra legislativa ou jurisprudencial cuja vigência altere as categorias ensinadas. A origem física PC-MA permanece intacta; a nova visão local atende exclusivamente ao Cargo 1 da Secretaria. Nenhuma campanha alheia, origem canônica, schema, catálogo ou grupo é alterado.
