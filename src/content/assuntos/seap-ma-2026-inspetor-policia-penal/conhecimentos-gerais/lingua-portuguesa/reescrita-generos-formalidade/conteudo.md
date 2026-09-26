@@ -22,7 +22,7 @@ Uma reescrita adequada poderia dizer, se esses dados estiverem disponíveis no t
 
 O núcleo do item 6.4 é este: **mudar o gênero ou o grau de formalidade exige adaptar a forma de dizer sem inventar, apagar ou fortalecer indevidamente a informação**.
 
-Esta unidade não repete a transformação estrutural de U018 nem a substituição semântica de U017. Também não antecipa os formatos específicos de correspondência oficial de U020/U021. O foco aqui é a **adequação do texto inteiro à nova situação comunicativa**.
+Esta unidade não repete a transformação estrutural de `U018` nem a substituição semântica de `U017`. Na matriz SEAP, o recorte de Língua Portuguesa termina no item 6.4; por isso, as unidades posteriores de redação e correspondência oficial existentes no doador PC-MA **não são importadas nem viram dependências desta campanha**. O foco aqui é a **adequação do texto inteiro à nova situação comunicativa**.
 
 ## 1. Três julgamentos diferentes
 
@@ -350,10 +350,10 @@ Se falhar em qualquer portão, a reescrita não está pronta.
 7. **Mudar de suporte permite cortar qualquer detalhe.** Falso: detalhe essencial à interpretação deve sobreviver.
 8. **Aviso, relatório e notícia têm o mesmo foco.** Falso: a finalidade muda a hierarquia das informações.
 
-## 14. Fronteiras com as próximas unidades
+## 14. Fronteira do recorte SEAP
 
-Esta unidade ensina a lógica geral da adaptação de gênero e formalidade. Os itens 7, 7.1 e 7.3 do edital — redação oficial e adequação da linguagem segundo o Manual de Redação da Presidência da República — serão aprofundados em U020. As finalidades e os formatos específicos dos expedientes oficiais, itens 7.2 e 7.4, ficam em U021.
+Esta unidade encerra, nesta matriz, o recorte de Língua Portuguesa no item 6.4. O pacote doador PC-MA possuía unidades posteriores de redação e correspondência oficial; elas pertencem ao programa do concurso doador e **não são transferidas para a SEAP por semelhança de sequência ou numeração**.
 
-Por isso, uma regra específica de correspondência oficial não deve ser tratada aqui como regra universal para qualquer texto formal.
+O Manual de Redação da Presidência da República permanece aqui apenas como referência de clareza, precisão, concisão, coesão e adequação da linguagem. Regras institucionais específicas de correspondência oficial não devem ser tratadas como regra universal para qualquer texto formal nem como conteúdo implícito deste recorte.
 
 > **Síntese:** primeiro preserve o que o texto diz; depois adapte como ele precisa dizer na nova situação.
