@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q5199",
@@ -310,93 +310,93 @@
     },
     {
       "id": "q2026082843",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Considere os conjuntos A, B e C tais que:\nA = {conjunto dos múltiplos inteiros e positivos de 3};\nB = {conjunto dos múltiplos inteiros e positivos de 8};\nC = {conjunto dos múltiplos inteiros e positivos de 12}.\nÉ correto afirmar que A ∩ C − B corresponde ao conjunto",
       "options": [{"id":"A","text":"dos múltiplos inteiros e positivos de 12."},{"id":"B","text":"dos múltiplos inteiros e positivos de 24."},{"id":"C","text":"dos números inteiros e positivos que, divididos por 24, deixam resto 12."},{"id":"D","text":"dos números inteiros e positivos que, divididos por 24, deixam resto 6."},{"id":"E","text":"vazio."}],
       "correctOptionId": "C",
-      "explanation": "Como todo múltiplo de 12 é múltiplo de 3, A ∩ C = C. Retirando de C os múltiplos de 8, sobram os múltiplos ímpares de 12, isto é, números da forma 24k+12. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso — Analista Judiciário — Tecnologia da Informação, Tipo 1 (Branca); 2024; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-judiciario-analista-de-ti-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
+      "explanation": "Como todo múltiplo de 12 é múltiplo de 3, A ∩ C = C. Retirando de C os múltiplos de 8, sobram os múltiplos ímpares de 12, isto é, números da forma 24k+12. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal de Justiça do Estado de Mato Grosso — Analista Judiciário — Tecnologia da Informação, Tipo 1 (Branca); 2024; questão 22; https://conhecimento.fgv.br/sites/default/files/concursos/cns102-analista-judiciario-analista-de-ti-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
     },
     {
       "id": "q2026082844",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Sejam A e B dois conjuntos finitos não vazios tais que A ∪ B tem 8 elementos e A ∩ B tem 3 elementos. O conjunto A − B tem, no mínimo,",
       "options": [{"id":"A","text":"4 elementos."},{"id":"B","text":"3 elementos."},{"id":"C","text":"2 elementos."},{"id":"D","text":"1 elemento."},{"id":"E","text":"0 elemento."}],
       "correctOptionId": "E",
-      "explanation": "O mínimo é 0: é possível ter A ⊆ B, com |A|=3 e |B|=8, de modo que |A∩B|=3, |A∪B|=8 e A−B=∅. Fonte: questão oficial; FGV; Prefeitura de Caraguatatuba — Técnico em Prótese Dentária, Tipo 1 (Branca); 2024; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/cnm222e3-tecnico-em-protese-dentariacnm222e3-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
+      "explanation": "O mínimo é 0: é possível ter A ⊆ B, com |A|=3 e |B|=8, de modo que |A∩B|=3, |A∪B|=8 e A−B=∅. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura de Caraguatatuba — Técnico em Prótese Dentária, Tipo 1 (Branca); 2024; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/cnm222e3-tecnico-em-protese-dentariacnm222e3-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caraguatatuba2024e0302_gabarito_definitivo_20240226.pdf."
     },
     {
       "id": "q202608294201",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Dados dois conjuntos A e B não vazios, considere A − B = {x | x ∈ A e x ∉ B}.\nSabe-se que A possui, no mínimo, 7 elementos e que B possui, no máximo, 4 elementos.\nO menor número de elementos que A − B pode ter é",
       "options": [{"id":"A","text":"3."},{"id":"B","text":"4."},{"id":"C","text":"7."},{"id":"D","text":"10."},{"id":"E","text":"11."}],
       "correctOptionId": "A",
-      "explanation": "Para minimizar A − B, maximiza-se a quantidade de elementos de A que também estão em B. Com |A| = 7 e |B| = 4, é possível ter B ⊆ A, restando 3 elementos em A − B. Fonte: questão oficial; FGV; Serviço Geológico do Brasil (CPRM) — Analista em Geociências — Letras, Tipo 1; 2025; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-letras-cns02e23-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+      "explanation": "Para minimizar A − B, maximiza-se a quantidade de elementos de A que também estão em B. Com |A| = 7 e |B| = 4, é possível ter B ⊆ A, restando 3 elementos em A − B. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Serviço Geológico do Brasil (<abbr title=\"Companhia de Pesquisa de Recursos Minerais\">CPRM</abbr>) — Analista em Geociências — Letras, Tipo 1; 2025; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-letras-cns02e23-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
     },
     {
       "id": "q202608294202",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Considere dois conjuntos A e B cujos elementos são números naturais tais que:\nA ∪ B tem apenas 9 elementos;\nA ∩ B tem apenas 4 elementos;\nA – B tem apenas 3 elementos.\nÉ correto concluir que B – A",
       "options": [{"id":"A","text":"é um conjunto vazio."},{"id":"B","text":"é um conjunto unitário."},{"id":"C","text":"tem 2 elementos, apenas."},{"id":"D","text":"tem 3 elementos, apenas."},{"id":"E","text":"tem 4 elementos, apenas."}],
       "correctOptionId": "C",
-      "explanation": "A união é formada pelas três regiões disjuntas A − B, A ∩ B e B − A. Assim, |B − A| = 9 − 3 − 4 = 2. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado de Mato Grosso — Técnico Judiciário — Nível Médio, Tipo 1; 2024; questão 29; https://conhecimento.fgv.br/sites/default/files/concursos/cnm100-tecnico-judiciario-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
+      "explanation": "A união é formada pelas três regiões disjuntas A − B, A ∩ B e B − A. Assim, |B − A| = 9 − 3 − 4 = 2. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal de Justiça do Estado de Mato Grosso — Técnico Judiciário — Nível Médio, Tipo 1; 2024; questão 29; https://conhecimento.fgv.br/sites/default/files/concursos/cnm100-tecnico-judiciario-t01.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjmt_servidor_gabarito_definitivo.pdf."
     },
     {
       "id": "q202608294203",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Dois conjuntos A e B têm a mesma quantidade de elementos.\nSe A ∪ B tem 11 elementos e A ∩ B tem 3 elementos, então A tem",
       "options": [{"id":"A","text":"4 elementos."},{"id":"B","text":"5 elementos."},{"id":"C","text":"6 elementos."},{"id":"D","text":"7 elementos."},{"id":"E","text":"8 elementos."}],
       "correctOptionId": "D",
-      "explanation": "Se |A| = |B| = x, então 11 = x + x − 3, logo 2x = 14 e x = 7. Fonte: questão oficial; FGV; Prefeitura Municipal de Nova Iguaçu — Auditor Fiscal do Tesouro Municipal, Tipo 3; 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-do-tesouro-municipalcns01-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef.pdf."
+      "explanation": "Se |A| = |B| = x, então 11 = x + x − 3, logo 2x = 14 e x = 7. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura Municipal de Nova Iguaçu — Auditor Fiscal do Tesouro Municipal, Tipo 3; 2024; questão 15; https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-do-tesouro-municipalcns01-tipo-3.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_semef.pdf."
     },
     {
       "id": "q202608294204",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Dados três conjuntos A, B e C, sabe-se que\nn(A ∩ B) = 5, n(A ∩ C) = 4, n(C ∩ B) = 7 e n[B ∩ (A ∪ C)] = 9.\nO valor de n(A ∩ B ∩ C) é",
       "options": [{"id":"A","text":"3."},{"id":"B","text":"4."},{"id":"C","text":"5."},{"id":"D","text":"6."},{"id":"E","text":"7."}],
       "correctOptionId": "A",
-      "explanation": "Como B ∩ (A ∪ C) = (A ∩ B) ∪ (B ∩ C), temos 9 = 5 + 7 − n(A ∩ B ∩ C), daí n(A ∩ B ∩ C) = 3. Fonte: questão oficial; FGV; Prefeitura Municipal de Macaé — Professor C — Matemática, Tipo 2; 2024; questão 62; https://conhecimento.fgv.br/sites/default/files/concursos/professor-c-matematicacns102-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ed.-1-macaeadm2024_gabarito_definitivo_compilado.pdf."
+      "explanation": "Como B ∩ (A ∪ C) = (A ∩ B) ∪ (B ∩ C), temos 9 = 5 + 7 − n(A ∩ B ∩ C), daí n(A ∩ B ∩ C) = 3. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura Municipal de Macaé — Professor C — Matemática, Tipo 2; 2024; questão 62; https://conhecimento.fgv.br/sites/default/files/concursos/professor-c-matematicacns102-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ed.-1-macaeadm2024_gabarito_definitivo_compilado.pdf."
     },
     {
       "id": "q202608294205",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Seja A o conjunto de todos os números inteiros e positivos que são divisíveis por 4. Seja B o conjunto de todos os números inteiros e positivos que são divisíveis por 6.\nA interseção de A e B corresponde ao conjunto de todos os números inteiros e positivos que são",
       "options": [{"id":"A","text":"divisíveis por 2."},{"id":"B","text":"divisíveis por 3."},{"id":"C","text":"divisíveis por 4."},{"id":"D","text":"divisíveis por 6."},{"id":"E","text":"divisíveis por 12."}],
       "correctOptionId": "E",
-      "explanation": "Pertencer simultaneamente a A e a B exige divisibilidade por 4 e por 6; o mínimo múltiplo comum é 12. Fonte: questão oficial; FGV; Prefeitura Municipal de Canaã dos Carajás — Agente de Serviços de Monitoria Social, Tipo 1; 2025; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-monitoria-socialcnf204-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
+      "explanation": "Pertencer simultaneamente a A e a B exige divisibilidade por 4 e por 6; o mínimo múltiplo comum é 12. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura Municipal de Canaã dos Carajás — Agente de Serviços de Monitoria Social, Tipo 1; 2025; questão 25; https://conhecimento.fgv.br/sites/default/files/concursos/agente-de-servicos-de-monitoria-socialcnf204-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/prefcanaa202401_gabarito_definitivo-compilado-23.03_0.pdf."
     },
     {
       "id": "q202608294206",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Dados três conjuntos A, B e C não vazios, considere A̅, B̅ e C̅ os conjuntos formados, respectivamente, pelos elementos que não estão em A, pelos elementos que não estão em B e pelos elementos que não estão em C.\nO subconjunto de A ∪ B ∪ C formado pelos elementos que pertencem simultaneamente aos conjuntos A e B mas não pertencem ao conjunto C pode ser representado por",
       "options": [{"id":"A","text":"(A ∪ B) ∩ C̅"},{"id":"B","text":"(A ∩ B) ∪ C̅"},{"id":"C","text":"(A ∩ C̅) ∩ (B ∩ C̅)"},{"id":"D","text":"(A ∩ C̅) ∪ (B ∩ C̅)"},{"id":"E","text":"(A ∪ C̅) ∩ (B ∪ C̅)"}],
       "correctOptionId": "C",
-      "explanation": "Pertencer simultaneamente a A e B e não pertencer a C descreve A ∩ B ∩ C̅. A alternativa C, (A ∩ C̅) ∩ (B ∩ C̅), é exatamente essa região. Fonte: questão oficial; FGV; Câmara Municipal de São Paulo — Técnico Legislativo — sem especialidade, Tipo 4; 2024; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-tecnico-legislativo-sem-especialidadecnm101-tipo-4.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
+      "explanation": "Pertencer simultaneamente a A e B e não pertencer a C descreve A ∩ B ∩ C̅. A alternativa C, (A ∩ C̅) ∩ (B ∩ C̅), é exatamente essa região. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de São Paulo — Técnico Legislativo — sem especialidade, Tipo 4; 2024; questão 45; https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-tecnico-legislativo-sem-especialidadecnm101-tipo-4.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camarasp2024_definitivo_20240206.pdf."
     },
     {
       "id": "q202608294207",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Considere os conjuntos:\nA = {0, 2, 3, 5, 6, 7} e B = {0, 1, 4, 5, 7, 8}.\nSejam X e Y a união e a interseção, respectivamente, dos conjuntos A e B.\nÉ correto afirmar que:",
       "options": [{"id":"A","text":"X tem 9 elementos a mais do que Y;"},{"id":"B","text":"Y tem 9 elementos a mais do que X;"},{"id":"C","text":"X tem 6 elementos a mais do que Y;"},{"id":"D","text":"Y tem 6 elementos a mais do que X;"},{"id":"E","text":"X e Y têm a mesma quantidade de elementos."}],
       "correctOptionId": "C",
-      "explanation": "A união X tem 9 elementos e a interseção Y = {0, 5, 7} tem 3; portanto X tem 6 elementos a mais. Fonte: questão oficial; FGV; Tribunal de Justiça do Estado do Amapá — Técnico Judiciário — Especialidade Técnico em Informática, Tipo 1; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf."
+      "explanation": "A união X tem 9 elementos e a interseção Y = {0, 5, 7} tem 3; portanto X tem 6 elementos a mais. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal de Justiça do Estado do Amapá — Técnico Judiciário — Especialidade Técnico em Informática, Tipo 1; 2024; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf."
     },
     {
       "id": "q202608294208",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em determinada data, 450 processos concluídos foram enviados para o arquivo geral. Verificou-se que 300 desses processos eram ou exclusivamente relacionados à área de saúde ou exclusivamente relacionados à área de infraestrutura, 210 não eram relacionados à área de infraestrutura e 160 eram relacionados à área de saúde.\nEm relação à situação hipotética precedente e às operações com conjuntos, julgue o item a seguir.\nO número de processos que não estão relacionados nem à área de saúde e nem à área de infraestrutura é inferior a 90.",
       "options": [{"id":"C","text":"Certo"},{"id":"E","text":"Errado"}],
       "correctOptionId": "E",
-      "explanation": "O item é errado. Seja x o número de processos relacionados às duas áreas. Como os exclusivos somam 300, (160 − x) + (240 − x) = 300, pois 450 − 210 = 240 são relacionados à infraestrutura. Logo x = 50, a união tem 350 e 100 processos não se relacionam a nenhuma das duas áreas. Fonte: questão oficial; Cebraspe; Tribunal de Contas do Distrito Federal — Analista Administrativo de Controle Externo — Área de Gestão — Especialidade Serviços Técnicos e Administrativos; 2023; item 35; https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/895_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_CB1_01.PDF. Formato original Certo/Errado preservado, sem quinta alternativa."
+      "explanation": "O item é errado. Seja x o número de processos relacionados às duas áreas. Como os exclusivos somam 300, (160 − x) + (240 − x) = 300, pois 450 − 210 = 240 são relacionados à infraestrutura. Logo x = 50, a união tem 350 e 100 processos não se relacionam a nenhuma das duas áreas. Fonte: questão oficial; <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Tribunal de Contas do Distrito Federal — Analista Administrativo de Controle Externo — Área de Gestão — Especialidade Serviços Técnicos e Administrativos; 2023; item 35; https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/895_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF. Gabarito oficial definitivo: https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_CB1_01.PDF. Formato original Certo/Errado preservado, sem quinta alternativa."
     }
   ]
 }
