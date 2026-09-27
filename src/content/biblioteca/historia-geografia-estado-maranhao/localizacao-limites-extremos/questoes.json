@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7659",
@@ -154,9 +154,9 @@
     },
     {
       "id": "q7664",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A área territorial oficial do Maranhão na edição IBGE 2025 é",
+      "prompt": "A área territorial oficial do Maranhão na edição <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr> 2025 é",
       "options": [
         {
           "id": "A",
@@ -184,7 +184,7 @@
     },
     {
       "id": "q7665",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O valor atual da área maranhense foi calculado com base",
       "options": [
@@ -210,7 +210,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O IBGE reprocessa as áreas sobre a malha territorial anual; a edição atual usa a Malha Municipal Digital 2025. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr> reprocessa as áreas sobre a malha territorial anual; a edição atual usa a Malha Municipal Digital 2025. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7666",
@@ -334,9 +334,9 @@
     },
     {
       "id": "q7670",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Uma pequena mudança anual na área calculada pelo IBGE",
+      "prompt": "Uma pequena mudança anual na área calculada pelo <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>",
       "options": [
         {
           "id": "A",
@@ -514,9 +514,9 @@
     },
     {
       "id": "q7676",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No uso técnico, as linhas MA-PA, MA-PI e MA-TO são",
+      "prompt": "No uso técnico, as linhas <abbr title=\"Maranhão–Pará\">MA-PA</abbr>, <abbr title=\"Maranhão–Piauí\">MA-PI</abbr> e <abbr title=\"Maranhão–Tocantins\">MA-TO</abbr> são",
       "options": [
         {
           "id": "A",
@@ -814,7 +814,7 @@
     },
     {
       "id": "q7686",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual grandeza não deve ser confundida com a superfície territorial do Maranhão?",
       "options": [
@@ -824,7 +824,7 @@
         },
         {
           "id": "B",
-          "text": "A área oficial publicada pelo IBGE."
+          "text": "A área oficial publicada pelo <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>."
         },
         {
           "id": "C",
@@ -1234,9 +1234,9 @@
     },
     {
       "id": "q7700",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "As coordenadas dos pontos extremos do IBGE representam",
+      "prompt": "As coordenadas dos pontos extremos do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr> representam",
       "options": [
         {
           "id": "A",
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "q7708",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "No contexto deste assunto, a Amazônia Legal é uma pegadinha de localização porque",
       "options": [
@@ -1492,7 +1492,7 @@
         },
         {
           "id": "D",
-          "text": "define a área oficial do Maranhão em lugar do IBGE."
+          "text": "define a área oficial do Maranhão em lugar do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>."
         },
         {
           "id": "E",
@@ -1504,7 +1504,7 @@
     },
     {
       "id": "q7709",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Amazônia Legal é",
       "options": [
@@ -1530,11 +1530,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A Amazônia Legal delimita a atuação de políticas e da SUDAM; não coincide necessariamente com região, bioma ou bacia. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Amazônia Legal delimita a atuação de políticas e da <abbr title=\"Superintendência do Desenvolvimento da Amazônia\">SUDAM</abbr>; não coincide necessariamente com região, bioma ou bacia. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7710",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O meridiano 44° O, relacionado ao recorte da Amazônia Legal no Maranhão, não deve ser confundido com",
       "options": [
@@ -1560,7 +1560,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O meridiano serve ao recorte jurídico-administrativo da Amazônia Legal; as divisas do Maranhão são com PA, PI e TO, além da costa atlântica. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O meridiano serve ao recorte jurídico-administrativo da Amazônia Legal; as divisas do Maranhão são com <abbr title=\"Pará\">PA</abbr>, <abbr title=\"Piauí\">PI</abbr> e <abbr title=\"Tocantins\">TO</abbr>, além da costa atlântica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7711",
@@ -1774,7 +1774,7 @@
     },
     {
       "id": "q7718",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A síntese territorial correta do Maranhão é",
       "options": [
@@ -1792,7 +1792,7 @@
         },
         {
           "id": "D",
-          "text": "Nordeste, cerca de 329,65 mil km², Atlântico ao norte e divisas com PA, PI e TO."
+          "text": "Nordeste, cerca de 329,65 mil km², Atlântico ao norte e divisas com <abbr title=\"Pará\">PA</abbr>, <abbr title=\"Piauí\">PI</abbr> e <abbr title=\"Tocantins\">TO</abbr>."
         },
         {
           "id": "E",
