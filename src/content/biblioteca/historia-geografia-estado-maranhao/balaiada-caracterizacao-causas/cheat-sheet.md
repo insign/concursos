@@ -7,7 +7,7 @@
 | Plano da explicação | Mecanismo que liga causa e revolta |
 |---|---|
 | **Estrutura social** | Concentração da terra, escravidão e dependência de trabalhadores livres pobres; fazendas exportadoras conviviam com criação e abastecimento camponês. |
-| **Conjuntura** | Dificuldades do algodão agravaram tensões sem extinguir algodão e arroz; disputa provincial entre liberais **bem-te-vis** e conservadores governistas **cabanos**. No Piauí, terra, pecuária, recrutamento e poder do Barão da Parnaíba deram base própria ao conflito. |
+| **Conjuntura** | Dificuldades do algodão agravaram tensões sem extinguir algodão e arroz; disputa provincial entre liberais **bem-te-vis** e conservadores governistas **cabanos**. No Piauí, grande propriedade pecuarista, expropriação de posseiros por <abbr title="Cobranças sobre a produção associadas à expropriação dos posseiros">dízimos</abbr>, recrutamento e poder autoritário/clientelista do Barão da Parnaíba deram base própria ao conflito. |
 | **Autoridade local** | A **Lei dos Prefeitos** permitia nomeações pelo presidente provincial com atribuições policiais e administrativas; perseguições e recrutamento compulsório atingiam sobretudo homens livres pobres. |
 | **Estopim** | Prisões na comitiva do vaqueiro Raimundo Gomes → libertação de presos e obtenção de armas na Manga → adesões regionais. O episódio explica o começo, não todas as causas. |
 

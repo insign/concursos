@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q7299",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Sobre a atuação de Luís Alves de Lima e Silva na Balaiada, assinale a opção correta.",
       "options": [
@@ -30,11 +30,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Nomeado e enviado em dezembro de 1839, Luís Alves chegou a São Luís e tomou posse das funções civis e militares em fevereiro de 1840. Raimundo Gomes iniciou o episódio da Manga; Negro Cosme liderou forças quilombolas; e o Barão da Parnaíba governava o Piauí. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 31/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta na alternativa-chave."
+      "explanation": "Nomeado e enviado em dezembro de 1839, Luís Alves chegou a São Luís e tomou posse das funções civis e militares em fevereiro de 1840. Raimundo Gomes iniciou o episódio da Manga; Negro Cosme liderou forças quilombolas; e o Barão da Parnaíba governava o Piauí. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> Soldado/2017/item 31/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta na alternativa-chave."
     },
     {
       "id": "q7300",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "A respeito da economia maranhense no período da Balaiada, assinale a opção correta.",
       "options": [
@@ -60,13 +60,13 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A crise algodoeira agravou tensões, mas não extinguiu algodão e arroz nem tornou a economia exclusivamente açucareira. O Maranhão reunia plantation, economia camponesa, pecuária e produção para abastecimento. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 32/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi preservada como distrator diante de uma síntese correta."
+      "explanation": "A crise algodoeira agravou tensões, mas não extinguiu algodão e arroz nem tornou a economia exclusivamente açucareira. O Maranhão reunia plantation, economia camponesa, pecuária e produção para abastecimento. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> Soldado/2017/item 32/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi preservada como distrator diante de uma síntese correta."
     },
     {
       "id": "q7301",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Segundo interpretação historiográfica cobrada pelo Cebraspe, a formação do campesinato maranhense no contexto regencial reuniu quais matrizes?",
+      "prompt": "Segundo interpretação historiográfica cobrada pelo <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, a formação do campesinato maranhense no contexto regencial reuniu quais matrizes?",
       "options": [
         {
           "id": "A",
@@ -90,13 +90,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A formulação destaca matrizes indígenas, afrodescendentes livres ou aquilombadas e migrantes, especialmente cearenses e piauienses. Ela ajuda a explicar a heterogeneidade do campesinato, não uma origem social única. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 33/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
+      "explanation": "A formulação destaca matrizes indígenas, afrodescendentes livres ou aquilombadas e migrantes, especialmente cearenses e piauienses. Ela ajuda a explicar a heterogeneidade do campesinato, não uma origem social única. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> Soldado/2017/item 33/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
     },
     {
       "id": "q7302",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Qual caracterização geral da Balaiada é compatível com a historiografia e com o gabarito oficial da PM/MA 2017?",
+      "prompt": "Qual caracterização geral da Balaiada é compatível com a historiografia e com o gabarito oficial da <abbr title=\"Polícia Militar do Maranhão\">PM/MA</abbr> 2017?",
       "options": [
         {
           "id": "A",
@@ -120,7 +120,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A Balaiada alcançou ampla dimensão rural, social e militar no Maranhão e no Piauí. Sua base incluiu livres pobres, pequenos produtores, indígenas, libertos, escravizados e quilombolas, sem homogeneidade. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 34/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
+      "explanation": "A Balaiada alcançou ampla dimensão rural, social e militar no Maranhão e no Piauí. Sua base incluiu livres pobres, pequenos produtores, indígenas, libertos, escravizados e quilombolas, sem homogeneidade. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> Soldado/2017/item 34/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
     },
     {
       "id": "q7303",
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "q7352",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Por que é inadequado atribuir a todos os balaios a defesa de um único projeto constitucional?",
       "options": [
@@ -1620,7 +1620,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Atribuir marca ideológica única apaga projetos e posições sociais divergentes. O Cebraspe anulou o item 30 da PM/MA 2017 justamente porque sua redação permitia confundir defesa da Constituição vigente com defesa de uma Constituição mais igualitária. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Atribuir marca ideológica única apaga projetos e posições sociais divergentes. O <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> anulou o item 30 da <abbr title=\"Polícia Militar do Maranhão\">PM/MA</abbr> 2017 justamente porque sua redação permitia confundir defesa da Constituição vigente com defesa de uma Constituição mais igualitária. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7353",

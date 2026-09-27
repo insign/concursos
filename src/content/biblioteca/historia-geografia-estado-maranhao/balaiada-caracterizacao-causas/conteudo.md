@@ -24,7 +24,7 @@ No Maranhão Oriental conviviam grandes propriedades escravistas voltadas à exp
 
 As dificuldades da economia algodoeira agravaram esse quadro, mas não explicam a revolta sozinhas. Algodão e arroz não desapareceram, a economia não se tornou exclusivamente açucareira e proprietários, trabalhadores e pequenos produtores não sofreram os mesmos efeitos daquele momento econômico.
 
-O Piauí também não foi simples extensão passiva de uma revolta maranhense. Ali, conflitos envolvendo grande propriedade pecuarista, ocupação da terra, dependência diante de fazendeiros, recrutamento e a longa autoridade de **Manuel de Sousa Martins, o Barão da Parnaíba**, deram base própria à mobilização.
+O Piauí também não foi simples extensão passiva de uma revolta maranhense. Ali, a grande propriedade pecuarista, a disputa pela ocupação da terra, a dependência diante de fazendeiros e o recrutamento deram base própria à mobilização. Na interpretação de Claudete Dias, a expropriação de posseiros podia ocorrer por meio de <abbr title="Cobranças sobre a produção associadas à perda de autonomia dos posseiros">dízimos</abbr>. Somava-se a isso a longa autoridade de **Manuel de Sousa Martins, o Barão da Parnaíba**, descrita pela autora como autoritária e clientelista.
 
 ## Quem disputava o poder: bem-te-vis, cabanos e Lei dos Prefeitos
 
