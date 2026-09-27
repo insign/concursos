@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7179",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "A Revolta de Bequimão resultou de uma combinação de tensões que incluía",
       "options": [
@@ -30,11 +30,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Adaptação do núcleo da questão 23 do PAES 2020/UEMA, prova objetiva aplicada em 20/10/2019, cujo gabarito definitivo foi B. O item relacionava a Revolta de Beckman aos abusos da companhia de comércio e à disputa com os jesuítas. Prova oficial: https://www.paes.uema.br/wp-content/uploads/2019/10/PROVA-PAES-2020.pdf ; gabarito definitivo: https://www.paes.uema.br/wp-content/uploads/2019/10/GAB_DEFINITIVO-PAES-2020-1%C2%AA-ETAPA.pdf."
+      "explanation": "Adaptação do núcleo da questão 23 do <abbr title=\"Processo Seletivo de Acesso à Educação Superior\">PAES</abbr> 2020/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr>, prova objetiva aplicada em 20/10/2019, cujo gabarito definitivo foi B. O item relacionava a Revolta de Beckman aos abusos da companhia de comércio e à disputa com os jesuítas. Prova oficial: https://www.paes.uema.br/wp-content/uploads/2019/10/PROVA-PAES-2020.pdf ; gabarito definitivo: https://www.paes.uema.br/wp-content/uploads/2019/10/GAB_DEFINITIVO-PAES-2020-1%C2%AA-ETAPA.pdf."
     },
     {
       "id": "q7180",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Quanto ao caráter político e social da Revolta de Bequimão, é correto afirmar que",
       "options": [
@@ -60,11 +60,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Adaptação do núcleo da questão 15 do processo seletivo EAD UEMA 2025, Edital nº 108/2024-GR/UEMA, prova aplicada em 16/02/2025, cujo gabarito definitivo foi D. A caracterização correta combina direção elitista, crítica a abusos e fidelidade régia. Prova oficial: https://www.uema.br/wp-content/uploads/2025/02/PROVA-UEMANET-2025-edital-108_2024_GR-UEMA.pdf ; gabarito definitivo: https://www.uema.br/wp-content/uploads/2025/02/GAB_DEFINITIVO-UEMANET-2025-EDITAL-108_2024-GR_UEMA-24_02_25.pdf."
+      "explanation": "Adaptação do núcleo da questão 15 do processo seletivo <abbr title=\"Educação a Distância\">EAD</abbr> <abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr> 2025, Edital nº 108/2024-GR/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr>, prova aplicada em 16/02/2025, cujo gabarito definitivo foi D. A caracterização correta combina direção elitista, crítica a abusos e fidelidade régia. Prova oficial: https://www.uema.br/wp-content/uploads/2025/02/PROVA-UEMANET-2025-edital-108_2024_GR-UEMA.pdf ; gabarito definitivo: https://www.uema.br/wp-content/uploads/2025/02/GAB_DEFINITIVO-UEMANET-2025-EDITAL-108_2024-GR_UEMA-24_02_25.pdf."
     },
     {
       "id": "q7181",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Entre os fatores econômicos situados na raiz da Revolta de Bequimão estava",
       "options": [
@@ -90,7 +90,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Adaptação da questão 63 do concurso Cebraspe para a Prefeitura de São Luís/MA, Professor PNS-A – História, aplicada em 05/02/2017. O gabarito definitivo do item original foi A. Prova oficial: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_008_01.pdf ; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_008_01.pdf."
+      "explanation": "Adaptação da questão 63 do concurso do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> para a Prefeitura de São Luís/MA, Professor de História, aplicada em 05/02/2017. O gabarito definitivo do item original foi A. Prova oficial: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_008_01.pdf ; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_008_01.pdf."
     },
     {
       "id": "q7182",
@@ -1744,7 +1744,7 @@
     },
     {
       "id": "q7237",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A matriz que melhor resume o assunto é",
       "options": [
@@ -1754,7 +1754,7 @@
         },
         {
           "id": "B",
-          "text": "1680: companhia pombalina; 1682: independência; 1684: WIC; 1685: França Equinocial."
+          "text": "1680: companhia pombalina; 1682: independência; 1684: <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>; 1685: França Equinocial."
         },
         {
           "id": "C",
