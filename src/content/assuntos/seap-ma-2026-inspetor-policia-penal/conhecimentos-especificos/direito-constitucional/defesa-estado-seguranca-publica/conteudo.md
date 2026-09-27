@@ -18,7 +18,7 @@ O Título V da Constituição reúne três blocos que não podem ser confundidos
 
 A pergunta de prova costuma trocar um bloco pelo outro. Estado de defesa não é operação ordinária de segurança pública; estado de sítio não é simples prorrogação automática do estado de defesa; Forças Armadas não substituem permanentemente os órgãos do artigo 144.
 
-> **Corte legislativo:** 21 de julho de 2026, data do Edital número 1 da Polícia Civil do Maranhão para Oficial Investigador. Nesse corte já vigoravam, entre outras, as Emendas Constitucionais números 18/1998, 77/2014, 82/2014 e 104/2019. A Emenda Constitucional número 139/2026 alterou os artigos 31 e 75 e não modificou os artigos 136 a 144.
+> **Corte legislativo:** 21 de julho de 2026, data do Edital nº 1 da SEAP/MA para Inspetor de Polícia Penal. Nesse corte já vigoravam, entre outras, as Emendas Constitucionais números 18/1998, 77/2014, 82/2014 e 104/2019. A Emenda Constitucional número 139/2026 alterou os artigos 31 e 75 e não modificou os artigos 136 a 144.
 
 ---
 
