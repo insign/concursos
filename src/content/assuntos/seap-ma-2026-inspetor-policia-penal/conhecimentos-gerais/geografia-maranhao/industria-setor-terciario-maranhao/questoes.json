@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u076-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estudo do item “parque industrial” do Maranhão, qual interpretação é mais segura?",
+      "options": [
+        {"id": "A", "text": "Parque industrial é sempre um distrito cercado no qual todas as fábricas do estado estão instaladas."},
+        {"id": "B", "text": "Parque industrial pode designar, em sentido amplo, o conjunto de atividades e estabelecimentos industriais de um território."},
+        {"id": "C", "text": "Parque industrial é sinônimo de porto organizado."},
+        {"id": "D", "text": "Parque industrial inclui somente empresas que vendem diretamente ao consumidor final."},
+        {"id": "E", "text": "Parque industrial exclui unidades localizadas fora da capital."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "O termo pode ser usado em sentido amplo para o conjunto industrial de um território. Não se deve reduzi-lo automaticamente a um distrito industrial, a um porto ou à capital."
+    },
+    {
+      "id": "u076-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre “indústria de base” e “indústria de transformação”, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "São categorias necessariamente excludentes."},
+        {"id": "B", "text": "Indústria de base é uma seção própria e exclusiva da <abbr title=\"Classificação Nacional de Atividades Econômicas\">CNAE</abbr>."},
+        {"id": "C", "text": "Uma mesma unidade pode ser indústria de transformação e, funcionalmente, indústria de base."},
+        {"id": "D", "text": "Toda indústria de transformação produz exclusivamente bens de consumo final."},
+        {"id": "E", "text": "Indústria de base é sinônimo de indústria extrativa."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Transformação” classifica a atividade de modificar materiais para gerar produtos; “base” é um rótulo funcional/didático ligado ao fornecimento de insumos para outras cadeias. Os dois enquadramentos podem coexistir."
+    },
+    {
+      "id": "u076-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na <abbr title=\"Classificação Nacional de Atividades Econômicas\">CNAE</abbr>, a distinção entre indústrias extrativas e indústrias de transformação indica que",
+      "options": [
+        {"id": "A", "text": "qualquer beneficiamento transforma automaticamente a atividade em indústria de transformação."},
+        {"id": "B", "text": "extração e transformação pertencem à mesma seção e não podem ser separadas."},
+        {"id": "C", "text": "a classificação depende apenas do destino comercial do produto."},
+        {"id": "D", "text": "há seções distintas para atividades extrativas e de transformação, e certas operações de beneficiamento podem permanecer ligadas à extração conforme o processo."},
+        {"id": "E", "text": "somente a indústria de transformação pode produzir insumos para outras atividades."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "A classificação separa atividades extrativas e de transformação, mas as notas explicativas impedem a regra simplista “houve beneficiamento = transformação”. É preciso observar o processo e o enquadramento efetivo."
+    },
+    {
+      "id": "u076-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma operação faz apenas tratamento preliminar estreitamente ligado à extração de um recurso, sem alterar suas características básicas. À luz do mecanismo ensinado, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "a palavra “beneficiamento” basta para classificá-la como indústria de transformação."},
+        {"id": "B", "text": "ela pode permanecer classificada junto à atividade extrativa, conforme o processo e as notas classificatórias."},
+        {"id": "C", "text": "ela passa obrigatoriamente ao setor terciário."},
+        {"id": "D", "text": "ela é necessariamente comércio atacadista."},
+        {"id": "E", "text": "ela deixa de integrar qualquer atividade industrial."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Beneficiamento não é critério automático. Algumas operações permanecem associadas à extração quando são estreitamente ligadas a ela e não alteram as características básicas do produto."
+    },
+    {
+      "id": "u076-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o complexo <abbr title=\"Consórcio de Alumínio do Maranhão\">Alumar</abbr>, em São Luís, assinale a sequência produtiva correta.",
+      "options": [
+        {"id": "A", "text": "minério de ferro → ferro-gusa → aço inoxidável"},
+        {"id": "B", "text": "eucalipto → cavacos → celulose"},
+        {"id": "C", "text": "bauxita → alumina → alumínio"},
+        {"id": "D", "text": "soja → farelo → biodiesel, exclusivamente"},
+        {"id": "E", "text": "calcário → clínquer → cimento, exclusivamente"}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A âncora de São Luís é a cadeia do alumínio: refino da bauxita em alumina e redução para obtenção de alumínio. A prova pode tentar confundi-la com siderurgia."
+    },
+    {
+      "id": "u076-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A unidade industrial da Suzano em Imperatriz é uma referência útil para reconhecer no Maranhão a cadeia",
+      "options": [
+        {"id": "A", "text": "do eucalipto à celulose."},
+        {"id": "B", "text": "da bauxita ao alumínio."},
+        {"id": "C", "text": "do minério de ferro ao aço inoxidável."},
+        {"id": "D", "text": "da extração de sal-gema à soda cáustica."},
+        {"id": "E", "text": "da pesca extrativa ao pescado congelado, exclusivamente."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Imperatriz é uma âncora industrial de celulose ligada à base florestal plantada de eucalipto. O objetivo da associação é reconhecer cadeia e localização, não decorar capacidade produtiva."
+    },
+    {
+      "id": "u076-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Açailândia é uma referência estadual para qual atividade industrial?",
+      "options": [
+        {"id": "A", "text": "refino de alumina."},
+        {"id": "B", "text": "produção de celulose."},
+        {"id": "C", "text": "siderurgia e aciaria."},
+        {"id": "D", "text": "telecomunicações móveis."},
+        {"id": "E", "text": "comércio varejista aeroportuário."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Documento oficial de 2025 identifica a <abbr title=\"Aço Verde do Brasil\">AVB</abbr> e a categoria de siderurgia e aciaria em Açailândia. Isso ajuda a separar essa âncora da cadeia de alumínio de São Luís e da celulose de Imperatriz."
+    },
+    {
+      "id": "u076-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reúne fatores que podem influenciar a localização industrial?",
+      "options": [
+        {"id": "A", "text": "Somente latitude e longitude."},
+        {"id": "B", "text": "Matérias-primas, energia, água, logística, mão de obra, serviços, mercado e disponibilidade de área."},
+        {"id": "C", "text": "Somente população absoluta."},
+        {"id": "D", "text": "Somente proximidade de um aeroporto."},
+        {"id": "E", "text": "Exclusivamente o tamanho da loja que venderá o produto."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Localização industrial é decisão multifatorial. A importância relativa de insumos, energia, logística, mercado, trabalho e serviços varia de acordo com a atividade."
+    },
+    {
+      "id": "u076-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma planta tem capacidade instalada para produzir determinado volume anual, mas opera abaixo desse limite. Logo,",
+      "options": [
+        {"id": "A", "text": "capacidade instalada e produção realizada são necessariamente iguais."},
+        {"id": "B", "text": "capacidade instalada mede vendas no varejo."},
+        {"id": "C", "text": "capacidade instalada mede potencial técnico, enquanto produção realizada mede o efetivamente produzido no período."},
+        {"id": "D", "text": "produção realizada mede apenas o que foi exportado."},
+        {"id": "E", "text": "capacidade instalada corresponde à carga que passou por um porto."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Capacidade é potencial; produção é realização em um período. Misturar essas variáveis pode transformar um número verdadeiro em uma conclusão falsa."
+    },
+    {
+      "id": "u076-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Minério extraído em outro estado cruza o Maranhão e é embarcado por infraestrutura localizada no território maranhense. Esse fato, isoladamente, permite concluir que",
+      "options": [
+        {"id": "A", "text": "o minério foi extraído no Maranhão."},
+        {"id": "B", "text": "o Maranhão participou da circulação logística da carga, mas o fluxo não prova origem produtiva local."},
+        {"id": "C", "text": "o terminal de embarque é uma indústria extrativa."},
+        {"id": "D", "text": "a carga passou a ser produção maranhense ao entrar no estado."},
+        {"id": "E", "text": "o valor exportado mede automaticamente a produção industrial do município de embarque."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Passagem, armazenagem, transbordo ou embarque descrevem circulação. Para afirmar origem produtiva, é preciso identificar onde ocorreu a extração ou a transformação."
+    },
+    {
+      "id": "u076-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte do setor terciário do edital, a associação correta entre atividade e fluxo principal é",
+      "options": [
+        {"id": "A", "text": "comércio — transformação material; telecomunicações — extração; transportes — revenda."},
+        {"id": "B", "text": "comércio — transação econômica; telecomunicações — informação; transportes — pessoas e mercadorias."},
+        {"id": "C", "text": "comércio — somente exportação; telecomunicações — somente telefonia fixa; transportes — somente rodovias."},
+        {"id": "D", "text": "comércio — produção industrial; telecomunicações — armazenagem; transportes — fabricação."},
+        {"id": "E", "text": "comércio — mineração; telecomunicações — siderurgia; transportes — agricultura."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distinção funcional é útil para prova: comércio organiza transações e revenda, telecomunicações fazem circular informação e transportes deslocam pessoas e cargas."
+    },
+    {
+      "id": "u076-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para diferenciar comércio atacadista de varejista, o critério mais seguro é observar",
+      "options": [
+        {"id": "A", "text": "o tamanho físico da loja."},
+        {"id": "B", "text": "a quantidade de caixas do estabelecimento."},
+        {"id": "C", "text": "quem compra e a finalidade predominante da compra."},
+        {"id": "D", "text": "se a empresa está na capital."},
+        {"id": "E", "text": "se o produto foi produzido no Maranhão."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atacado e varejo se distinguem principalmente pelo tipo de comprador e pela finalidade predominante: revendedores/usuários profissionais versus público em geral para uso pessoal ou doméstico."
+    },
+    {
+      "id": "u076-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a <abbr title=\"Agência Nacional de Telecomunicações\">Anatel</abbr>, mapas de cobertura móvel devem ser interpretados como",
+      "options": [
+        {"id": "A", "text": "medição perfeita da qualidade percebida por cada usuário."},
+        {"id": "B", "text": "demonstrações teóricas de presença de sinal baseadas em predição, sujeitas a condições físicas e de localização."},
+        {"id": "C", "text": "contagem de pessoas que usam efetivamente o serviço."},
+        {"id": "D", "text": "cadastro de estabelecimentos comerciais atacadistas."},
+        {"id": "E", "text": "prova de que qualquer ponto coberto terá a mesma velocidade."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cobertura é estimada segundo modelos e critérios. Relevo, construções e posição do usuário podem alterar a experiência real; por isso cobertura não equivale a uso nem a qualidade uniforme."
+    },
+    {
+      "id": "u076-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um exemplo hipotético, um relatório contabiliza 1,2 milhão de acessos de determinado serviço de telecomunicações. Sem informação adicional, é incorreto afirmar que",
+      "options": [
+        {"id": "A", "text": "o dado mede acessos segundo uma metodologia."},
+        {"id": "B", "text": "uma mesma pessoa pode, em princípio, estar associada a mais de um acesso."},
+        {"id": "C", "text": "o número de acessos é necessariamente igual ao número de usuários únicos."},
+        {"id": "D", "text": "acesso e cobertura são variáveis diferentes."},
+        {"id": "E", "text": "o número de acessos não mede sozinho a qualidade percebida."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Acesso não é sinônimo automático de pessoa. Um usuário pode possuir mais de um vínculo/conexão, e a métrica não informa sozinha cobertura ou qualidade."
+    },
+    {
+      "id": "u076-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção que distingue corretamente transporte e infraestrutura de transporte.",
+      "options": [
+        {"id": "A", "text": "Transporte é o deslocamento de pessoas ou cargas; rodovias, ferrovias e terminais são infraestruturas que viabilizam esse serviço."},
+        {"id": "B", "text": "Rodovia e transporte rodoviário são exatamente o mesmo conceito."},
+        {"id": "C", "text": "Terminal portuário é, por definição, indústria de transformação."},
+        {"id": "D", "text": "Ferrovia é uma modalidade de comércio atacadista."},
+        {"id": "E", "text": "Infraestrutura de transporte produz necessariamente as mercadorias que movimenta."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "O serviço é o deslocamento; a infraestrutura fornece o suporte físico. A distinção evita tratar uma via, terminal ou porto como se fosse a atividade produtiva que gerou a carga."
+    },
+    {
+      "id": "u076-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre tendências dos modos de transporte, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "O modo rodoviário nunca é usado em longas distâncias."},
+        {"id": "B", "text": "O ferroviário é incompatível com grandes volumes."},
+        {"id": "C", "text": "O aquaviário só serve para passageiros."},
+        {"id": "D", "text": "O aéreo tende a favorecer rapidez e cargas ou passageiros sensíveis ao tempo, enquanto outros modos podem ter vantagens diferentes conforme volume, distância e infraestrutura."},
+        {"id": "E", "text": "Existe um modo universalmente melhor para qualquer carga, distância e urgência."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os modos têm tendências, não regras absolutas. A escolha depende de volume, distância, valor, urgência, infraestrutura e integração com os demais modos."
+    },
+    {
+      "id": "u076-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma carga chega por ferrovia a um terminal e segue em navio. O uso articulado dos dois modos e a transferência física da carga correspondem, respectivamente, a",
+      "options": [
+        {"id": "A", "text": "varejo e atacado."},
+        {"id": "B", "text": "cobertura e acesso."},
+        {"id": "C", "text": "intermodalidade e transbordo."},
+        {"id": "D", "text": "extração e beneficiamento."},
+        {"id": "E", "text": "capacidade instalada e produção."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Intermodalidade é a articulação de modos na mesma cadeia; transbordo é a transferência física entre veículos ou modos. Nenhum dos dois conceitos determina a origem produtiva da carga."
+    },
+    {
+      "id": "u076-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um exemplo hipotético, uma fábrica transforma matéria-prima em insumo; uma distribuidora compra o insumo para revendê-lo; o pedido circula por rede digital; a carga segue por caminhão a um terminal. A classificação correta é",
+      "options": [
+        {"id": "A", "text": "fábrica = varejo; distribuidora = indústria extrativa; rede digital = transporte; caminhão = telecomunicação."},
+        {"id": "B", "text": "fábrica = indústria de transformação; distribuidora = comércio; rede digital = telecomunicações; caminhão = transporte."},
+        {"id": "C", "text": "fábrica = transporte; distribuidora = telecomunicações; rede digital = indústria; caminhão = comércio."},
+        {"id": "D", "text": "todas as etapas pertencem necessariamente à indústria de transformação."},
+        {"id": "E", "text": "todas as etapas pertencem necessariamente ao setor terciário."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cadeia reúne funções diferentes. A transformação material pertence à indústria; a revenda ao comércio; a comunicação às telecomunicações; e o deslocamento físico ao transporte."
+    },
+    {
+      "id": "q8198",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "A partir da distinção cobrada pelo <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> sobre a <abbr title=\"Consórcio de Alumínio do Maranhão\">Alumar</abbr>, assinale a caracterização correta do complexo de São Luís.",
+      "options": [
+        {"id": "A", "text": "É mina de ferro e produtora de aço inoxidável."},
+        {"id": "B", "text": "É siderúrgica especializada exclusivamente em ferro-gusa."},
+        {"id": "C", "text": "É fábrica de celulose abastecida pela Estrada de Ferro Carajás."},
+        {"id": "D", "text": "Refina bauxita em alumina e produz alumínio, não ferro-gusa ou aço inoxidável."},
+        {"id": "E", "text": "É terminal portuário sem etapa industrial."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Questão adaptada de <abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Polícia Militar do Maranhão, cargo de Soldado do Quadro de Praça Policial, aplicação em 17/12/2017, caderno/matriz 359_PMMA_CG2_01, item 51. O item original afirmou que a <abbr title=\"Consórcio de Alumínio do Maranhão\">Alumar</abbr> seria siderúrgica produtora de ferro-gusa e aços inoxidáveis; o gabarito oficial definitivo foi E (Errado). A adaptação converte a assertiva C/E em cinco alternativas e preserva o núcleo cobrado: a <abbr title=\"Consórcio de Alumínio do Maranhão\">Alumar</abbr> produz alumina e alumínio, não ferro-gusa ou aço inoxidável."
+    },
+    {
+      "id": "q8258",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "A partir da relação entre aglomerações econômicas e circulação cobrada pelo <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, assinale a alternativa correta.",
+      "options": [
+        {"id": "A", "text": "Redes logísticas tornam desnecessário identificar a origem das mercadorias."},
+        {"id": "B", "text": "A infraestrutura de transporte produz os bens que movimenta."},
+        {"id": "C", "text": "Todo fluxo de carga pelo Maranhão corresponde à produção estadual."},
+        {"id": "D", "text": "Redes de transporte e logística integram insumos, pessoas e mercadorias e podem dar agilidade às cadeias produtivas."},
+        {"id": "E", "text": "Aglomerações modernas dispensam comunicação e transporte."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação do item 35 do caderno 359_PMMA_CG2_01, prova de Soldado da <abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr>, <abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, aplicada em 17/12/2017. O núcleo original relaciona aglomerações industriais modernas ao desenvolvimento de redes de transporte e logística que agilizam a circulação de insumos, pessoas e mercadorias; o gabarito definitivo do item foi Certo. A assertiva C/E foi convertida para cinco alternativas, preservando o núcleo cobrado."
+    }
+  ]
+}
