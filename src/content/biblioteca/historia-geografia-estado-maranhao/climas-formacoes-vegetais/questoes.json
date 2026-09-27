@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7839",
@@ -34,9 +34,9 @@
     },
     {
       "id": "q7840",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "As Normais Climatológicas INMET 1991-2020 são",
+      "prompt": "As Normais Climatológicas <abbr title=\"Instituto Nacional de Meteorologia\">INMET</abbr> 1991-2020 são",
       "options": [
         {
           "id": "A",
@@ -60,13 +60,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A edição cobre três décadas e segue regras da OMM para qualidade, completude e cálculo das variáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A edição cobre três décadas e segue regras da <abbr title=\"Organização Meteorológica Mundial\">OMM</abbr> para qualidade, completude e cálculo das variáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7841",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Se uma estação não possui normal válida para um dos doze meses, a metodologia do INMET determina que",
+      "prompt": "Se uma estação não possui normal válida para um dos doze meses, a metodologia do <abbr title=\"Instituto Nacional de Meteorologia\">INMET</abbr> determina que",
       "options": [
         {
           "id": "A",
@@ -304,9 +304,9 @@
     },
     {
       "id": "q7849",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No norte maranhense, a influência da ZCIT costuma ser maior",
+      "prompt": "No norte maranhense, a influência da <abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr> costuma ser maior",
       "options": [
         {
           "id": "A",
@@ -330,17 +330,17 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "No fim do verão e início do outono, a ZCIT alcança posição mais austral e reforça as chuvas no norte do Nordeste. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "No fim do verão e início do outono, a <abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr> alcança posição mais austral e reforça as chuvas no norte do Nordeste. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7850",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A explicação correta da chuva maranhense é que",
       "options": [
         {
           "id": "A",
-          "text": "a ZCIT explica integralmente a chuva de todos os setores do estado em todos os meses."
+          "text": "a <abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr> explica integralmente a chuva de todos os setores do estado em todos os meses."
         },
         {
           "id": "B",
@@ -348,7 +348,7 @@
         },
         {
           "id": "C",
-          "text": "ZCIT, instabilidade, brisas, perturbações dos alísios e convecção podem atuar em conjunto."
+          "text": "<abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr>, instabilidade, brisas, perturbações dos alísios e convecção podem atuar em conjunto."
         },
         {
           "id": "D",
@@ -360,7 +360,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A ZCIT é central no norte, mas outros mecanismos atmosféricos, costeiros e locais também produzem ou organizam precipitação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A <abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr> é central no norte, mas outros mecanismos atmosféricos, costeiros e locais também produzem ou organizam precipitação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7851",
@@ -574,7 +574,7 @@
     },
     {
       "id": "q7858",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A precipitação anual normal 1991-2020 em São Luís é",
       "options": [
@@ -600,7 +600,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A planilha oficial de precipitação do INMET registra 2.117,1 mm anuais na estação 82280. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A planilha oficial de precipitação do <abbr title=\"Instituto Nacional de Meteorologia\">INMET</abbr> registra 2.117,1 mm anuais na estação 82280. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7859",
@@ -694,7 +694,7 @@
     },
     {
       "id": "q7862",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na Normal 1991-2020 de São Luís, o mês mais chuvoso entre os valores apresentados é",
       "options": [
@@ -720,7 +720,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Março alcança 452,8 mm e integra o máximo chuvoso associado à atuação austral da ZCIT. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Março alcança 452,8 mm e integra o máximo chuvoso associado à atuação austral da <abbr title=\"Zona de Convergência Intertropical\">ZCIT</abbr>. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7863",
@@ -754,7 +754,7 @@
     },
     {
       "id": "q7864",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As normais anuais de temperatura máxima e mínima de São Luís são, respectivamente,",
       "options": [
@@ -780,7 +780,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A planilha INMET registra máxima normal anual de 31,5 °C e mínima de 24,1 °C para São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A planilha <abbr title=\"Instituto Nacional de Meteorologia\">INMET</abbr> registra máxima normal anual de 31,5 °C e mínima de 24,1 °C para São Luís. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7865",
@@ -844,7 +844,7 @@
     },
     {
       "id": "q7867",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ausência do valor de julho nas séries térmicas de Balsas implica que",
       "options": [
@@ -854,7 +854,7 @@
         },
         {
           "id": "B",
-          "text": "o INMET não calcula as normais anuais de média, máxima e mínima para essa planilha."
+          "text": "o <abbr title=\"Instituto Nacional de Meteorologia\">INMET</abbr> não calcula as normais anuais de média, máxima e mínima para essa planilha."
         },
         {
           "id": "C",
@@ -964,9 +964,9 @@
     },
     {
       "id": "q7871",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O Mapa de Clima do Brasil do IBGE, atualizado em 2002, classifica o território combinando",
+      "prompt": "O Mapa de Clima do Brasil do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, atualizado em 2002, classifica o território combinando",
       "options": [
         {
           "id": "A",
@@ -994,9 +994,9 @@
     },
     {
       "id": "q7872",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No mapa do IBGE, o Maranhão expressa principalmente transição entre",
+      "prompt": "No mapa do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, o Maranhão expressa principalmente transição entre",
       "options": [
         {
           "id": "A",
@@ -1024,9 +1024,9 @@
     },
     {
       "id": "q7873",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No sistema do IBGE, a expressão “semiúmido com quatro a cinco meses secos” é",
+      "prompt": "No sistema do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, a expressão “semiúmido com quatro a cinco meses secos” é",
       "options": [
         {
           "id": "A",
@@ -1264,9 +1264,9 @@
     },
     {
       "id": "q7881",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No recorte oficial de biomas do IBGE, o Maranhão inclui áreas de",
+      "prompt": "No recorte oficial de biomas do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, o Maranhão inclui áreas de",
       "options": [
         {
           "id": "A",
@@ -1354,13 +1354,13 @@
     },
     {
       "id": "q7884",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Mata dos Cocais deve ser classificada, neste recorte, como",
       "options": [
         {
           "id": "A",
-          "text": "o sétimo bioma continental oficial do IBGE."
+          "text": "o sétimo bioma continental oficial do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>."
         },
         {
           "id": "B",
@@ -1474,9 +1474,9 @@
     },
     {
       "id": "q7888",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Segundo o mapa IBGE de vegetação, a Floresta Ombrófila Aberta",
+      "prompt": "Segundo o mapa <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr> de vegetação, a Floresta Ombrófila Aberta",
       "options": [
         {
           "id": "A",
@@ -1594,9 +1594,9 @@
     },
     {
       "id": "q7892",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Na classificação fitogeográfica do IBGE, Cerradão corresponde à",
+      "prompt": "Na classificação fitogeográfica do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, Cerradão corresponde à",
       "options": [
         {
           "id": "A",
@@ -1654,7 +1654,7 @@
     },
     {
       "id": "q7894",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Os babaçuais contemporâneos do Maranhão",
       "options": [
@@ -1672,7 +1672,7 @@
         },
         {
           "id": "D",
-          "text": "constituem, por si sós, um bioma continental oficial autônomo do IBGE."
+          "text": "constituem, por si sós, um bioma continental oficial autônomo do <abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>."
         },
         {
           "id": "E",
@@ -1714,7 +1714,7 @@
     },
     {
       "id": "q7896",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Em adaptação de questão da Prefeitura de São Luís (2017), qual síntese descreve corretamente a distribuição das principais formações vegetais maranhenses?",
       "options": [
@@ -1740,11 +1740,11 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A alternativa preserva o núcleo da opção C da questão original, cujo gabarito definitivo foi C, e torna mais precisa a distribuição das palmeiras sem negar as transições. Fonte oficial: Cebraspe, Prefeitura de São Luís/MA, Cargo 7 — Professor Nível Superior/PNS-A, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 38. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: retirada da dependência da figura, precisão espacial e reordenação das alternativas, mantendo cinco opções e o núcleo geográfico cobrado."
+      "explanation": "A alternativa preserva o núcleo da opção C da questão original, cujo gabarito definitivo foi C, e torna mais precisa a distribuição das palmeiras sem negar as transições. Fonte oficial: <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Prefeitura de São Luís/<abbr title=\"Maranhão\">MA</abbr>, Cargo 7 — Professor Nível Superior/<abbr title=\"Professor Nível Superior – identificação do cargo na prova\">PNS-A</abbr>, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 38. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: retirada da dependência da figura, precisão espacial e reordenação das alternativas, mantendo cinco opções e o núcleo geográfico cobrado."
     },
     {
       "id": "q7897",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Em adaptação da questão cartográfica da prova de Professor de Geografia de São Luís (2017), qual formação se destaca no eixo central de transição entre as formações amazônicas do noroeste e o Cerrado do sul maranhense?",
       "options": [
@@ -1770,11 +1770,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A alternativa B preserva a associação correta da região 4 à Mata dos Cocais na questão original, cujo gabarito definitivo foi B, sem transformar a simplificação cartográfica em homogeneidade ecológica. Fonte oficial: Cebraspe, Prefeitura de São Luís/MA, Cargo 7 — Professor Nível Superior/PNS-A, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 39. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: substituição da figura e de sua numeração por descrição espacial autossuficiente, qualificação dos cocais e preservação de cinco alternativas."
+      "explanation": "A alternativa B preserva a associação correta da região 4 à Mata dos Cocais na questão original, cujo gabarito definitivo foi B, sem transformar a simplificação cartográfica em homogeneidade ecológica. Fonte oficial: <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Prefeitura de São Luís/<abbr title=\"Maranhão\">MA</abbr>, Cargo 7 — Professor Nível Superior/<abbr title=\"Professor Nível Superior – identificação do cargo na prova\">PNS-A</abbr>, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 39. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: substituição da figura e de sua numeração por descrição espacial autossuficiente, qualificação dos cocais e preservação de cinco alternativas."
     },
     {
       "id": "q7898",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A síntese mais adequada sobre clima e vegetação do Maranhão é",
       "options": [
@@ -1796,7 +1796,7 @@
         },
         {
           "id": "E",
-          "text": "IBGE, Köppen, bioma e uso da terra são classificações idênticas."
+          "text": "<abbr title=\"Instituto Brasileiro de Geografia e Estatística\">IBGE</abbr>, Köppen, bioma e uso da terra são classificações idênticas."
         }
       ],
       "correctOptionId": "D",
