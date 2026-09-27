@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q7239",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Quase um ano após o Grito do Ipiranga (1822), a Província do Maranhão ainda se mantinha leal a Portugal e se recusava a aderir ao movimento de independência de D. Pedro I. A respeito do processo de adesão do Maranhão à independência do Brasil, assinale a afirmativa correta.",
       "options": [
@@ -30,11 +30,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Questão 59 da prova Tipo 4 — Azul do concurso FGV/SEGEP-MA para Soldado Combatente da Polícia Militar do Maranhão, aplicada em 02/12/2012; gabarito definitivo: C. Prova oficial: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf ; gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
+      "explanation": "Questão 59 da prova Tipo 4 — Azul do concurso da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>/<abbr title=\"Secretaria de Estado da Gestão e Previdência do Maranhão\">SEGEP-MA</abbr> para Soldado Combatente da Polícia Militar do Maranhão, aplicada em 02/12/2012; gabarito definitivo: C. Prova oficial: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf ; gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
     },
     {
       "id": "q7240",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Considere o item: A adesão da Província do Maranhão à independência do Brasil resultou da derrota militar de parte da elite maranhense que defendeu, por meio das armas, a manutenção dos laços com Portugal, a despeito das estreitas relações existentes entre o Maranhão e a Corte no Rio de Janeiro. As tropas portuguesas, mesmo tendo vencido a Batalha do Jenipapo, foram derrotadas por Thomas Cochrane em São Luís. A respeito desse item, assinale a opção correta.",
       "options": [
@@ -60,7 +60,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Adaptação do item 26 do Cebraspe/PM-MA 2017, caderno 359, prova aplicada em 17/12/2017; gabarito definitivo original: E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf ; gabarito: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG1_01.pdf."
+      "explanation": "Adaptação do item 26 do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> 2017, caderno 359, prova aplicada em 17/12/2017; gabarito definitivo original: E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf ; gabarito: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG1_01.pdf."
     },
     {
       "id": "q7241",
@@ -814,7 +814,7 @@
     },
     {
       "id": "q7266",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A relação correta entre 27 e 28 de julho de 1823 é:",
       "options": [
@@ -840,7 +840,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A documentação do APEM distingue a exigência de Cochrane em 27 de julho do ato formal realizado no dia 28."
+      "explanation": "A documentação do <abbr title=\"Arquivo Público do Estado do Maranhão\">APEM</abbr> distingue a exigência de Cochrane em 27 de julho do ato formal realizado no dia 28."
     },
     {
       "id": "q7267",
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "qU076R01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Leia o trecho a seguir.\nEm 31 de março de 1823, o Juiz de Fora de Parnaíba, João Cândido de Deus e Silva, escreve da Vila da Granja ao Ilustríssimo Ministro e Secretário de Estado dos Negócios do Império, referindo-se ao ofício anterior no qual informara sobre a ocupação da Vila de Parnaíba. Nessa comunicação, relatava que o Governo Português ali permaneceu até o dia 1º de março, quando abandonou a vila para marchar em direção à cidade de Oeiras, que, em 24 de janeiro, na ausência do referido governador, proclamara, de forma gloriosa, sua adesão ao sistema brasileiro, hasteando o pavilhão da independência.\nAdaptado de: Informes do acontecido na edição de 21 de julho de 1823 no Jornal Diário do Governo.\nCom base na leitura do trecho, assinale a opção que apresenta corretamente os fatores que motivaram o início da Batalha de Jenipapo.",
       "options": [
@@ -1830,13 +1830,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A alternativa C identifica o encadeamento apresentado no documento: a adesão de vilas piauienses ao sistema brasileiro colocou as populações locais em resistência às forças portuguesas, processo que culminou no confronto do Jenipapo. As demais alternativas atribuem causas ou alinhamentos incompatíveis com o contexto descrito. Fonte: questão oficial; FGV; PC-PI — Perito Médico Legista (Geral), Tipo 2; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/perito-medico-legista-geral-cns210-tipo-2.pdf."
+      "explanation": "A alternativa C identifica o encadeamento apresentado no documento: a adesão de vilas piauienses ao sistema brasileiro colocou as populações locais em resistência às forças portuguesas, processo que culminou no confronto do Jenipapo. As demais alternativas atribuem causas ou alinhamentos incompatíveis com o contexto descrito. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; <abbr title=\"Polícia Civil do Piauí\">PC-PI</abbr> — Perito Médico Legista (Geral), Tipo 2; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/perito-medico-legista-geral-cns210-tipo-2.pdf."
     },
     {
       "id": "qU076R02",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "“O enfrentamento do Jenipapo ocorreu no dia 13 de março de 1823; é relativamente farta a crônica documentada pela escrita de autovencedores, para quem, preso e deportado o governador Fidié, a província estaria pacificada, voltando os combates do povo aos campos de lavrar e criar — porque política é coisa de branco”.\nFonte: SANTOS NETO, Antonio Fonseca dos. Jenipapo: riacho irrigado com os sonhos da esperança. Piauí: CCOM, 2010, p. 54\nEm 2022, intelectuais e estudantes brasileiros voltaram sua atenção para uma reflexão a respeito dos 200 anos da independência política do Brasil, oportunidade em que opiniões, posturas e decisões a respeito dessa experiência histórica nacional e local, assim como sugere o texto acima, foram expostas, permitindo compreender que:",
+      "prompt": "“O enfrentamento do Jenipapo ocorreu no dia 13 de março de 1823; é relativamente farta a crônica documentada pela escrita de autovencedores, para quem, preso e deportado o governador Fidié, a província estaria pacificada, voltando os combates do povo aos campos de lavrar e criar — porque política é coisa de branco”.\nFonte: SANTOS NETO, Antonio Fonseca dos. Jenipapo: riacho irrigado com os sonhos da esperança. Piauí: <abbr title=\"Coordenadoria de Comunicação Social do Piauí\">CCOM</abbr>, 2010, p. 54\nEm 2022, intelectuais e estudantes brasileiros voltaram sua atenção para uma reflexão a respeito dos 200 anos da independência política do Brasil, oportunidade em que opiniões, posturas e decisões a respeito dessa experiência histórica nacional e local, assim como sugere o texto acima, foram expostas, permitindo compreender que:",
       "options": [
         {
           "id": "A",
@@ -1860,7 +1860,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A alternativa D expressa a interpretação historiográfica proposta: sem projetar um nacionalismo brasileiro já consolidado sobre os combatentes populares, a historiografia recente lê sua participação também como contestação a relações de exploração e violência que ultrapassavam a ruptura formal entre Brasil e Portugal. As demais alternativas apagam a participação popular, supõem coesão inexistente ou invertem o problema dos relatos dos “autovencedores”. Fonte: questão oficial; NUCEPE/UESPI; SEDUC-PI — Professor de História; 2025; questão 31; https://nucepe.uespi.br/consultas/downloads/2025_seduc_edital_40/PROVAS/8.%20Prova%20-%20Professor%20de%20HIST%C3%93RIA.pdf."
+      "explanation": "A alternativa D expressa a interpretação historiográfica proposta: sem projetar um nacionalismo brasileiro já consolidado sobre os combatentes populares, a historiografia recente lê sua participação também como contestação a relações de exploração e violência que ultrapassavam a ruptura formal entre Brasil e Portugal. As demais alternativas apagam a participação popular, supõem coesão inexistente ou invertem o problema dos relatos dos “autovencedores”. Fonte: questão oficial; <abbr title=\"Núcleo de Concursos e Promoção de Eventos\">NUCEPE</abbr>/<abbr title=\"Universidade Estadual do Piauí\">UESPI</abbr>; <abbr title=\"Secretaria de Estado da Educação do Piauí\">SEDUC-PI</abbr> — Professor de História; 2025; questão 31; https://nucepe.uespi.br/consultas/downloads/2025_seduc_edital_40/PROVAS/8.%20Prova%20-%20Professor%20de%20HIST%C3%93RIA.pdf."
     }
   ]
 }
