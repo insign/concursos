@@ -1,3 +1,8 @@
+## Consumo SEAP-MA 2026
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital nº 1 — <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Inspetor e Monitor, de 21 de julho de 2026**. Direitos Humanos, item 3 — Declaração Universal dos Direitos Humanos. https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf. Corte: 21 jul. 2026.
+- A visão SEAP reutiliza integralmente esta origem canônica; C/H permanecem comuns aos consumidores TCE-MA e SEAP. As fontes primárias das Nações Unidas foram reconsultadas em 27 set. 2026; a Declaração foi proclamada em 10 dez. 1948 pela Resolução 217 A (III).
+
 - [Declaração Universal dos Direitos Humanos — edição em português](https://brasil.un.org/pt-br/download/50044/91601), Nações Unidas no Brasil, texto dos 30 artigos e apresentação institucional.
 - [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights), Nações Unidas, texto oficial em inglês, consulta em agosto de 2026.
 - [Declaração Universal dos Direitos Humanos](https://brasil.un.org/pt-br/91601-declara%C3%A7%C3%A3o-universal-dos-direitos-humanos), Nações Unidas no Brasil, tradução e apresentação institucional, consulta em agosto de 2026.

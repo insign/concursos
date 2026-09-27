@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q8439",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A elaboração da DUDH relaciona-se diretamente",
+      "prompt": "A elaboração da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> relaciona-se diretamente",
       "options": [
         {
           "id": "A",
-          "text": "à reação internacional às atrocidades da Segunda Guerra e à concretização dos compromissos da Carta da ONU."
+          "text": "à reação internacional às atrocidades da Segunda Guerra e à concretização dos compromissos da Carta da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "B",
-          "text": "à substituição da Carta da ONU."
+          "text": "à substituição da Carta da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "C",
@@ -30,13 +30,13 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A experiência da guerra impulsionou um catálogo comum de direitos no âmbito da ONU. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A experiência da guerra impulsionou um catálogo comum de direitos no âmbito da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8440",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A DUDH foi adotada",
+      "prompt": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> foi adotada",
       "options": [
         {
           "id": "A",
@@ -64,9 +64,9 @@
     },
     {
       "id": "q8441",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O resultado oficial da votação da DUDH foi",
+      "prompt": "O resultado oficial da votação da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> foi",
       "options": [
         {
           "id": "A",
@@ -94,9 +94,9 @@
     },
     {
       "id": "q8442",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quanto à natureza jurídica, a DUDH é",
+      "prompt": "Quanto à natureza jurídica, a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> é",
       "options": [
         {
           "id": "A",
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "emenda à Carta da ONU."
+          "text": "emenda à Carta da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "C",
@@ -120,13 +120,13 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A DUDH integra uma resolução e não possui a forma de pacto ou convenção. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> integra uma resolução e não possui a forma de pacto ou convenção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8443",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A formulação correta sobre o Brasil e a DUDH é",
+      "prompt": "A formulação correta sobre o Brasil e a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> é",
       "options": [
         {
           "id": "A",
@@ -150,13 +150,13 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Fala-se em adoção e voto, não em ratificação da DUDH. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Fala-se em adoção e voto, não em ratificação da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8444",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A autoria da DUDH deve ser atribuída",
+      "prompt": "A autoria da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> deve ser atribuída",
       "options": [
         {
           "id": "A",
@@ -184,9 +184,9 @@
     },
     {
       "id": "q8445",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O preâmbulo da DUDH associa a proteção dos direitos",
+      "prompt": "O preâmbulo da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> associa a proteção dos direitos",
       "options": [
         {
           "id": "A",
@@ -244,7 +244,7 @@
     },
     {
       "id": "q8447",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A lista de motivos de discriminação do artigo 2",
       "options": [
@@ -270,7 +270,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A DUDH também rejeita distinção ligada à condição política, jurídica ou internacional do território. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> também rejeita distinção ligada à condição política, jurídica ou internacional do território. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8448",
@@ -304,9 +304,9 @@
     },
     {
       "id": "q8449",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O artigo 4 da DUDH",
+      "prompt": "O artigo 4 da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>",
       "options": [
         {
           "id": "A",
@@ -424,7 +424,7 @@
     },
     {
       "id": "q8453",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O remédio efetivo do artigo 8 é exercido",
       "options": [
@@ -442,7 +442,7 @@
         },
         {
           "id": "D",
-          "text": "exclusivamente após esgotar a ONU."
+          "text": "exclusivamente após esgotar a <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "E",
@@ -514,9 +514,9 @@
     },
     {
       "id": "q8456",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A presunção de inocência na DUDH permanece",
+      "prompt": "A presunção de inocência na <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> permanece",
       "options": [
         {
           "id": "A",
@@ -544,7 +544,7 @@
     },
     {
       "id": "q8457",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A legalidade penal do artigo 11 considera",
       "options": [
@@ -570,7 +570,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A DUDH veda incriminação retroativa e pena posterior mais grave. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> veda incriminação retroativa e pena posterior mais grave. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8458",
@@ -634,7 +634,7 @@
     },
     {
       "id": "q8460",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o asilo no artigo 14, é correto afirmar que",
       "options": [
@@ -644,7 +644,7 @@
         },
         {
           "id": "B",
-          "text": "há direito de procurar e gozar asilo, com exceções para crime comum e atos contrários aos propósitos da ONU."
+          "text": "há direito de procurar e gozar asilo, com exceções para crime comum e atos contrários aos propósitos da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "C",
@@ -660,7 +660,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A DUDH não cria dever automático de concessão pelo país escolhido. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> não cria dever automático de concessão pelo país escolhido. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8461",
@@ -724,9 +724,9 @@
     },
     {
       "id": "q8463",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O direito de propriedade na DUDH",
+      "prompt": "O direito de propriedade na <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>",
       "options": [
         {
           "id": "A",
@@ -934,9 +934,9 @@
     },
     {
       "id": "q8470",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A regra remuneratória expressa na DUDH é",
+      "prompt": "A regra remuneratória expressa na <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> é",
       "options": [
         {
           "id": "A",
@@ -1054,7 +1054,7 @@
     },
     {
       "id": "q8474",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o artigo 26, a educação deve ser gratuita",
       "options": [
@@ -1080,13 +1080,13 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O ensino superior deve ser igualmente acessível pelo mérito, não necessariamente gratuito pela literalidade da DUDH. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O ensino superior deve ser igualmente acessível pelo mérito, não necessariamente gratuito pela literalidade da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8475",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quanto à educação dos filhos, a DUDH assegura aos pais",
+      "prompt": "Quanto à educação dos filhos, a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> assegura aos pais",
       "options": [
         {
           "id": "A",
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "q8481",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A cláusula do artigo 30 impede",
       "options": [
@@ -1278,7 +1278,7 @@
         },
         {
           "id": "C",
-          "text": "Estado, grupo ou pessoa de invocar a DUDH para destruir direitos nela reconhecidos."
+          "text": "Estado, grupo ou pessoa de invocar a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> para destruir direitos nela reconhecidos."
         },
         {
           "id": "D",
@@ -1294,9 +1294,9 @@
     },
     {
       "id": "q8482",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Ao comparar versões em português da DUDH com o texto oficial da ONU, é correto afirmar que",
+      "prompt": "Ao comparar versões em português da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> com o texto oficial da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>, é correto afirmar que",
       "options": [
         {
           "id": "A",
@@ -1312,7 +1312,7 @@
         },
         {
           "id": "D",
-          "text": "expressões como pessoa perante a lei e personalidade jurídica designam, na DUDH, uma sociedade empresária."
+          "text": "expressões como pessoa perante a lei e personalidade jurídica designam, na <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, uma sociedade empresária."
         },
         {
           "id": "E",
@@ -1320,13 +1320,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Variações lexicais podem ser legítimas. Em prova, deve-se examinar o sentido do dispositivo e preservar qualificadores e limites, usando o texto oficial indicado e, quando necessário, o texto autêntico da ONU como referência semântica. Fonte: ONU e referências do conteúdo."
+      "explanation": "Variações lexicais podem ser legítimas. Em prova, deve-se examinar o sentido do dispositivo e preservar qualificadores e limites, usando o texto oficial indicado e, quando necessário, o texto autêntico da <abbr title=\"Organização das Nações Unidas\">ONU</abbr> como referência semântica. Fonte: <abbr title=\"Organização das Nações Unidas\">ONU</abbr> e referências do conteúdo."
     },
     {
       "id": "q8483",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A diferença entre DUDH e Pactos de 1966 é que",
+      "prompt": "A diferença entre <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> e Pactos de 1966 é que",
       "options": [
         {
           "id": "A",
@@ -1334,7 +1334,7 @@
         },
         {
           "id": "B",
-          "text": "a DUDH é tratado ratificável."
+          "text": "a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> é tratado ratificável."
         },
         {
           "id": "C",
@@ -1342,11 +1342,11 @@
         },
         {
           "id": "D",
-          "text": "a DUDH foi adotada depois dos Pactos."
+          "text": "a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> foi adotada depois dos Pactos."
         },
         {
           "id": "E",
-          "text": "a DUDH é declaração, enquanto os Pactos são tratados."
+          "text": "a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> é declaração, enquanto os Pactos são tratados."
         }
       ],
       "correctOptionId": "E",
@@ -1354,13 +1354,13 @@
     },
     {
       "id": "q8484",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O artigo 29.3 da DUDH estabelece que",
+      "prompt": "O artigo 29.3 da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> estabelece que",
       "options": [
         {
           "id": "A",
-          "text": "os direitos e liberdades podem ser exercidos contra os propósitos da ONU se houver lei nacional."
+          "text": "os direitos e liberdades podem ser exercidos contra os propósitos da <abbr title=\"Organização das Nações Unidas\">ONU</abbr> se houver lei nacional."
         },
         {
           "id": "B",
@@ -1368,7 +1368,7 @@
         },
         {
           "id": "C",
-          "text": "somente os direitos políticos estão sujeitos aos propósitos da ONU."
+          "text": "somente os direitos políticos estão sujeitos aos propósitos da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "D",
@@ -1380,7 +1380,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Além das condições do art. 29.2, o § 3º contém regra própria: o exercício dos direitos e liberdades não pode contrariar os propósitos e princípios da ONU. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Além das condições do art. 29.2, o § 3º contém regra própria: o exercício dos direitos e liberdades não pode contrariar os propósitos e princípios da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8485",
@@ -1414,13 +1414,13 @@
     },
     {
       "id": "q8486",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Segundo o artigo 22 da DUDH, a realização dos direitos econômicos, sociais e culturais indispensáveis à dignidade ocorre",
+      "prompt": "Segundo o artigo 22 da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, a realização dos direitos econômicos, sociais e culturais indispensáveis à dignidade ocorre",
       "options": [
         {
           "id": "A",
-          "text": "exclusivamente por atuação da ONU, sem participação estatal."
+          "text": "exclusivamente por atuação da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>, sem participação estatal."
         },
         {
           "id": "B",
@@ -1444,9 +1444,9 @@
     },
     {
       "id": "q8487",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Além do padrão de vida adequado, o artigo 25 da DUDH assegura proteção diante de",
+      "prompt": "Além do padrão de vida adequado, o artigo 25 da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> assegura proteção diante de",
       "options": [
         {
           "id": "A",
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "q8490",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A vedação de privação arbitrária da propriedade",
       "options": [
@@ -1560,13 +1560,13 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O artigo 17 não usa a DUDH para eliminar qualquer disciplina jurídica da propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O artigo 17 não usa a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> para eliminar qualquer disciplina jurídica da propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q8491",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Assinale a alternativa que reúne apenas qualificadores ou condições expressamente relevantes na DUDH.",
+      "prompt": "Assinale a alternativa que reúne apenas qualificadores ou condições expressamente relevantes na <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>.",
       "options": [
         {
           "id": "A",
@@ -1590,13 +1590,13 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A alternativa A preserva três qualificadores literais de alta incidência em prova: arbitrariedade no art. 9, pacificidade no art. 20 e remuneração das férias no art. 24. Fonte: DUDH e referências do conteúdo."
+      "explanation": "A alternativa A preserva três qualificadores literais de alta incidência em prova: arbitrariedade no art. 9, pacificidade no art. 20 e remuneração das férias no art. 24. Fonte: <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> e referências do conteúdo."
     },
     {
       "id": "q8492",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Segundo a DUDH, a educação deve",
+      "prompt": "Segundo a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, a educação deve",
       "options": [
         {
           "id": "A",
@@ -1620,13 +1620,13 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O artigo 26 combina finalidade humanista, gratuidade mínima e obrigatoriedade do ensino elementar. Fonte oficial: Cespe/Cebraspe; Superior Tribunal de Justiça (STJ); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 101; núcleo: educação dirigida ao pleno desenvolvimento da personalidade humana e ao respeito aos direitos e liberdades fundamentais, com ensino gratuito nos graus elementar e fundamental; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: item certo/errado convertido em questão de cinco alternativas."
+      "explanation": "O artigo 26 combina finalidade humanista, gratuidade mínima e obrigatoriedade do ensino elementar. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça (<abbr title=\"Superior Tribunal de Justiça\">STJ</abbr>); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 101; núcleo: educação dirigida ao pleno desenvolvimento da personalidade humana e ao respeito aos direitos e liberdades fundamentais, com ensino gratuito nos graus elementar e fundamental; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: item certo/errado convertido em questão de cinco alternativas."
     },
     {
       "id": "q8493",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Tribunal criado após o fato, sem independência ou imparcialidade, aplica retroativamente novo crime e nega defesa ao acusado. À luz da DUDH, esse julgamento é",
+      "prompt": "Tribunal criado após o fato, sem independência ou imparcialidade, aplica retroativamente novo crime e nega defesa ao acusado. À luz da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, esse julgamento é",
       "options": [
         {
           "id": "A",
@@ -1654,9 +1654,9 @@
     },
     {
       "id": "q8494",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "A formulação da DUDH sobre a família é",
+      "prompt": "A formulação da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> sobre a família é",
       "options": [
         {
           "id": "A",
@@ -1680,13 +1680,13 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A alternativa reproduz o núcleo do artigo 16.3. Fonte oficial: Cespe/Cebraspe; Superior Tribunal de Justiça (STJ); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 103; núcleo: família como núcleo natural e fundamental da sociedade, com direito à proteção da sociedade e do Estado; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: item certo/errado convertido em questão de cinco alternativas."
+      "explanation": "A alternativa reproduz o núcleo do artigo 16.3. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça (<abbr title=\"Superior Tribunal de Justiça\">STJ</abbr>); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 103; núcleo: família como núcleo natural e fundamental da sociedade, com direito à proteção da sociedade e do Estado; gabarito oficial definitivo C (Certo). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: item certo/errado convertido em questão de cinco alternativas."
     },
     {
       "id": "q8495",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Pessoa perseguida em razão de processo genuíno por crime comum invoca a garantia de asilo da DUDH. Nesse caso,",
+      "prompt": "Pessoa perseguida em razão de processo genuíno por crime comum invoca a garantia de asilo da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>. Nesse caso,",
       "options": [
         {
           "id": "A",
@@ -1706,17 +1706,17 @@
         },
         {
           "id": "E",
-          "text": "a DUDH impede o processo."
+          "text": "a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> impede o processo."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A perseguição protegida não se confunde com persecução genuína por crime comum. Fonte oficial: Cespe/Cebraspe; Superior Tribunal de Justiça (STJ); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 104; núcleo: assertiva dizia ser garantido asilo mesmo quando a perseguição fosse motivada por crime de direito comum; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: assertiva errada convertida em situação de cinco alternativas, preservando o ponto cobrado."
+      "explanation": "A perseguição protegida não se confunde com persecução genuína por crime comum. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça (<abbr title=\"Superior Tribunal de Justiça\">STJ</abbr>); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 104; núcleo: assertiva dizia ser garantido asilo mesmo quando a perseguição fosse motivada por crime de direito comum; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: assertiva errada convertida em situação de cinco alternativas, preservando o ponto cobrado."
     },
     {
       "id": "q8496",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Quanto à mudança de nacionalidade, a DUDH determina que",
+      "prompt": "Quanto à mudança de nacionalidade, a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> determina que",
       "options": [
         {
           "id": "A",
@@ -1740,13 +1740,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O artigo 15 veda a privação arbitrária da nacionalidade e protege o direito de mudá-la. Fonte oficial: Cespe/Cebraspe; Superior Tribunal de Justiça (STJ); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 105; núcleo: assertiva admitia vedações legais à mudança de nacionalidade para preservar a soberania; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: assertiva errada convertida em questão de cinco alternativas."
+      "explanation": "O artigo 15 veda a privação arbitrária da nacionalidade e protege o direito de mudá-la. Fonte oficial: <abbr title=\"Centro de Seleção e de Promoção de Eventos\">Cespe</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Superior Tribunal de Justiça (<abbr title=\"Superior Tribunal de Justiça\">STJ</abbr>); concurso público de 2015; Analista Judiciário — Área Administrativa — Especialidade Segurança; prova aplicada em 27/09/2015; caderno 186STJ_002_01; item 105; núcleo: assertiva admitia vedações legais à mudança de nacionalidade para preservar a soberania; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/STJ_15/arquivos/186STJ_002_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/stj_15/arquivos/gab_definitivo_186stj_002_01.pdf. Adaptação: assertiva errada convertida em questão de cinco alternativas."
     },
     {
       "id": "q8497",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "De acordo com a DUDH, homens e mulheres maiores de idade",
+      "prompt": "De acordo com a <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, homens e mulheres maiores de idade",
       "options": [
         {
           "id": "A",
@@ -1770,13 +1770,13 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A alternativa D preserva o núcleo da opção oficial correta sobre o artigo 16. Fonte oficial: Cebraspe; Procuradoria-Geral do Estado do Pará (PGE/PA); Procurador do Estado; concurso de 2022; prova aplicada em 21/08/2022; caderno 715_PGE_PA_001_01; questão 97; núcleo da alternativa D: homens e mulheres maiores de idade podem contrair matrimônio e fundar família sem restrição de raça, nacionalidade ou religião e gozam de iguais direitos no casamento, durante sua duração e na dissolução; gabarito oficial definitivo D. Prova: https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/715_pge_pa_001_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/gab_definitivo_715_pge_pa_001_01.pdf. Adaptação: núcleo da alternativa oficial correta preservado e distratores reformulados para o formato do projeto."
+      "explanation": "A alternativa D preserva o núcleo da opção oficial correta sobre o artigo 16. Fonte oficial: <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Procuradoria-Geral do Estado do Pará (<abbr title=\"Procuradoria-Geral do Estado do Pará\">PGE/PA</abbr>); Procurador do Estado; concurso de 2022; prova aplicada em 21/08/2022; caderno 715_PGE_PA_001_01; questão 97; núcleo da alternativa D: homens e mulheres maiores de idade podem contrair matrimônio e fundar família sem restrição de raça, nacionalidade ou religião e gozam de iguais direitos no casamento, durante sua duração e na dissolução; gabarito oficial definitivo D. Prova: https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/715_pge_pa_001_01.pdf. Gabarito: https://cdn.cebraspe.org.br/concursos/pge_pa_22_procurador/arquivos/gab_definitivo_715_pge_pa_001_01.pdf. Adaptação: núcleo da alternativa oficial correta preservado e distratores reformulados para o formato do projeto."
     },
     {
       "id": "q8498",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Segundo o artigo 19 da DUDH, a liberdade de expressão",
+      "prompt": "Segundo o artigo 19 da <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr>, a liberdade de expressão",
       "options": [
         {
           "id": "A",
@@ -1800,11 +1800,11 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O artigo 19 protege opinião e circulação de informações e ideias por quaisquer meios, sem consideração de fronteiras. Fonte oficial: Cebraspe; Tribunal Regional Federal da 6ª Região (TRF6); 1º concurso público, Edital nº 1 — TRF da 6ª Região, de 10/10/2024; conhecimentos gerais de Técnico Judiciário para os cargos 27 e 28; prova aplicada em 19/01/2025; caderno 034_TRF6_CG6_01; item 31; núcleo: a assertiva negava que a liberdade de expressão protegesse contra inquietação por opiniões e negava o direito de procurar, receber e difundir informações e ideias sem consideração de fronteiras; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF. Adaptação: assertiva errada convertida em questão de cinco alternativas, preservando o artigo cobrado."
+      "explanation": "O artigo 19 protege opinião e circulação de informações e ideias por quaisquer meios, sem consideração de fronteiras. Fonte oficial: <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Tribunal Regional Federal da 6ª Região (<abbr title=\"Tribunal Regional Federal da 6ª Região\">TRF6</abbr>); 1º concurso público, Edital nº 1 — <abbr title=\"Tribunal Regional Federal\">TRF</abbr> da 6ª Região, de 10/10/2024; conhecimentos gerais de Técnico Judiciário para os cargos 27 e 28; prova aplicada em 19/01/2025; caderno 034_<abbr title=\"Tribunal Regional Federal da 6ª Região\">TRF6</abbr>_CG6_01; item 31; núcleo: a assertiva negava que a liberdade de expressão protegesse contra inquietação por opiniões e negava o direito de procurar, receber e difundir informações e ideias sem consideração de fronteiras; gabarito oficial definitivo E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF. Gabarito: https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF. Adaptação: assertiva errada convertida em questão de cinco alternativas, preservando o artigo cobrado."
     },
     {
       "id": "q52209601",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "A Declaração Universal de Direitos Humanos de 1948 inova a concepção de direitos humanos porque universaliza os direitos",
       "options": [
@@ -1830,11 +1830,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A DUDH consolida em um mesmo catálogo direitos civis, políticos, econômicos, sociais e culturais sem estabelecer supremacia entre esses grupos. Fonte: Fundação Carlos Chagas (FCC); Defensoria Pública do Estado do Pará (DPE/PA); Defensor Público; 2009; questão 81. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675&page=2; a alternativa de paridade hierárquica aparece como B na ordenação da base e como A no caderno original."
+      "explanation": "A <abbr title=\"Declaração Universal dos Direitos Humanos\">DUDH</abbr> consolida em um mesmo catálogo direitos civis, políticos, econômicos, sociais e culturais sem estabelecer supremacia entre esses grupos. Fonte: Fundação Carlos Chagas (<abbr title=\"Fundação Carlos Chagas\">FCC</abbr>); Defensoria Pública do Estado do Pará (<abbr title=\"Defensoria Pública do Estado do Pará\">DPE/PA</abbr>); Defensor Público; 2009; questão 81. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675&page=2; a alternativa de paridade hierárquica aparece como B na ordenação da base e como A no caderno original."
     },
     {
       "id": "q52209602",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "A Declaração Universal de Direitos Humanos",
       "options": [
@@ -1852,15 +1852,15 @@
         },
         {
           "id": "D",
-          "text": "não apresenta qualquer força jurídica vinculante, consagrando a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da ONU."
+          "text": "não apresenta qualquer força jurídica vinculante, consagrando a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         },
         {
           "id": "E",
-          "text": "apresenta força jurídica vinculante, por constituir uma interpretação autorizada das modernas Declarações de direito, conforme sustenta parte considerável da doutrina, consagrando ainda a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da ONU."
+          "text": "apresenta força jurídica vinculante, por constituir uma interpretação autorizada das modernas Declarações de direito, conforme sustenta parte considerável da doutrina, consagrando ainda a ideia de que, para ser titular de direitos, basta ser nacional de um Estado membro da <abbr title=\"Organização das Nações Unidas\">ONU</abbr>."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A alternativa correta combina os fundamentos de força vinculante indicados no próprio item — interpretação autorizada do artigo 55 da Carta da ONU e direito costumeiro internacional, segundo parte considerável da doutrina — com a titularidade dos direitos fundada na condição de pessoa. Fonte: Fundação Carlos Chagas (FCC); Defensoria Pública do Estado do Pará (DPE/PA); Defensor Público; 2009; questão 82. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675; a alternativa correta aparece como D na ordenação da base e como C no caderno original. Confirmação independente do gabarito C na ordenação original: https://vlex.com.br/vid/sistema-global-protecao-dos-596673898."
+      "explanation": "A alternativa correta combina os fundamentos de força vinculante indicados no próprio item — interpretação autorizada do artigo 55 da Carta da <abbr title=\"Organização das Nações Unidas\">ONU</abbr> e direito costumeiro internacional, segundo parte considerável da doutrina — com a titularidade dos direitos fundada na condição de pessoa. Fonte: Fundação Carlos Chagas (<abbr title=\"Fundação Carlos Chagas\">FCC</abbr>); Defensoria Pública do Estado do Pará (<abbr title=\"Defensoria Pública do Estado do Pará\">DPE/PA</abbr>); Defensor Público; 2009; questão 82. Prova: https://jcconcursos.com.br/media/uploads/provas/provas/2009/2099.pdf. Gabarito verificado em base secundária que reproduz o gabarito oficial: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=214&institute_ids%5B%5D=6675; a alternativa correta aparece como D na ordenação da base e como C no caderno original. Confirmação independente do gabarito C na ordenação original: https://vlex.com.br/vid/sistema-global-protecao-dos-596673898."
     }
   ]
 }
