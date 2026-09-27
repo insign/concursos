@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q4839",
@@ -139,18 +139,18 @@
     },
     {
       "id": "q4854",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Em uma associação um a um entre pessoas e setores, a confirmação de que Lia está em TI permite",
+      "prompt": "Em uma associação um a um entre pessoas e setores, a confirmação de que Lia está em <abbr title=\"Tecnologia da Informação\">TI</abbr> permite",
       "options": [
-        {"id": "A", "text": "manter TI como possibilidade para todas as outras pessoas."},
+        {"id": "A", "text": "manter <abbr title=\"Tecnologia da Informação\">TI</abbr> como possibilidade para todas as outras pessoas."},
         {"id": "B", "text": "atribuir a Lia todos os demais setores."},
         {"id": "C", "text": "ignorar as exclusões anteriores de Lia."},
-        {"id": "D", "text": "eliminar os outros setores para Lia e TI para as demais pessoas."},
+        {"id": "D", "text": "eliminar os outros setores para Lia e <abbr title=\"Tecnologia da Informação\">TI</abbr> para as demais pessoas."},
         {"id": "E", "text": "concluir que Lia também ocupa todos os dias associados às demais pessoas."}
       ],
       "correctOptionId": "D",
-      "explanation": "Em relação um a um, uma confirmação fecha a linha da pessoa e a coluna do valor: Lia fica com TI, e TI deixa de ser opção para os demais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Em relação um a um, uma confirmação fecha a linha da pessoa e a coluna do valor: Lia fica com <abbr title=\"Tecnologia da Informação\">TI</abbr>, e <abbr title=\"Tecnologia da Informação\">TI</abbr> deixa de ser opção para os demais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q4855",
@@ -334,33 +334,33 @@
     },
     {
       "id": "q4869",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Lia, Nuno e Olga têm setores e dias distintos. Lia não está em Compras nem na segunda; Nuno está em TI na quarta; e Compras corresponde à segunda. Qual associação é correta?",
+      "prompt": "Lia, Nuno e Olga têm setores e dias distintos. Lia não está em Compras nem na segunda; Nuno está em <abbr title=\"Tecnologia da Informação\">TI</abbr> na quarta; e Compras corresponde à segunda. Qual associação é correta?",
       "options": [
         {"id": "A", "text": "Lia — Compras — segunda."},
         {"id": "B", "text": "Nuno — Pessoal — quarta."},
         {"id": "C", "text": "Olga — Compras — segunda."},
-        {"id": "D", "text": "Olga — TI — terça."},
-        {"id": "E", "text": "Lia — TI — terça."}
+        {"id": "D", "text": "Olga — <abbr title=\"Tecnologia da Informação\">TI</abbr> — terça."},
+        {"id": "E", "text": "Lia — <abbr title=\"Tecnologia da Informação\">TI</abbr> — terça."}
       ],
       "correctOptionId": "C",
-      "explanation": "Nuno ocupa TI e quarta. Compras corresponde à segunda e não pode ser de Lia; portanto pertence a Olga. Lia fica com Pessoal e terça. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Nuno ocupa <abbr title=\"Tecnologia da Informação\">TI</abbr> e quarta. Compras corresponde à segunda e não pode ser de Lia; portanto pertence a Olga. Lia fica com Pessoal e terça. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q4870",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Em um problema de associação, a pista “a pessoa de TI trabalha na quarta-feira”",
+      "prompt": "Em um problema de associação, a pista “a pessoa de <abbr title=\"Tecnologia da Informação\">TI</abbr> trabalha na quarta-feira”",
       "options": [
         {"id": "A", "text": "liga as categorias setor e dia, ainda que não identifique imediatamente a pessoa."},
         {"id": "B", "text": "pode ser ignorada até que a pessoa seja informada pelo nome."},
         {"id": "C", "text": "afirma que todas as pessoas trabalham na quarta-feira."},
-        {"id": "D", "text": "elimina TI da quarta-feira."},
-        {"id": "E", "text": "obriga a pessoa de TI a ser a primeira pessoa citada no enunciado."}
+        {"id": "D", "text": "elimina <abbr title=\"Tecnologia da Informação\">TI</abbr> da quarta-feira."},
+        {"id": "E", "text": "obriga a pessoa de <abbr title=\"Tecnologia da Informação\">TI</abbr> a ser a primeira pessoa citada no enunciado."}
       ],
       "correctOptionId": "A",
-      "explanation": "Pistas compostas ligam categorias. Quando TI ou quarta for associado a uma pessoa, a outra característica acompanha essa associação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Pistas compostas ligam categorias. Quando <abbr title=\"Tecnologia da Informação\">TI</abbr> ou quarta for associado a uma pessoa, a outra característica acompanha essa associação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q4871",
@@ -619,7 +619,7 @@
     },
     {
       "id": "q52203601",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Cinco pessoas formam uma fila. Essa fila será modificada com a seguinte sequência de trocas de posição: o 2º com o 4º, o 1º com o 3º, o 2º com o 5º e o 1º com o 4º.\n\nA pessoa que estava no 3º lugar na fila inicial estará, na fila final, no",
       "options": [
@@ -630,11 +630,11 @@
         {"id": "E", "text": "5º lugar."}
       ],
       "correctOptionId": "D",
-      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
     },
     {
       "id": "q52203602",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Cinco amigos, A, B, C, D e E, marcaram um encontro em data e hora determinados, mas todos chegaram em horários diferentes.\n\nSabe-se que\n• A chegou depois de B.\n• C chegou antes de A.\n• Quando D chegou, C já estava, mas B não.\n• Quando E chegou somente 2 amigos já haviam chegado.\n\nÉ correto concluir que",
       "options": [
@@ -645,11 +645,11 @@
         {"id": "E", "text": "B foi o 4º a chegar."}
       ],
       "correctOptionId": "E",
-      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
     },
     {
       "id": "q52203603",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "As amigas Ana, Bia e Carol, têm idades diferentes. Uma delas é médica, outra é enfermeira e a outra é professora. Cada uma delas tem um animal de estimação diferente: gato, cachorro e peixe de aquário.\n\nSabe-se que:\n• A mais nova é a professora.\n• Ana adora seu cachorro.\n• A enfermeira é a dona do gato.\n• Carol não é a médica.\n• Bia é a mais velha.\n• A médica não é a mais velha.\n\nÉ correto concluir que",
       "options": [
@@ -660,11 +660,11 @@
         {"id": "E", "text": "Bia é a dona do gato."}
       ],
       "correctOptionId": "E",
-      "explanation": "Bia é a mais velha e, portanto, não pode ser a professora nem a médica; como Carol também não é médica, Ana é a médica e Bia é a enfermeira, dona do gato. Fonte: questão oficial; FGV; Secretaria da Fazenda do Estado da Bahia — Agente de Tributos Estaduais, Administração Tributária, Tipo 2; 2022; questão 70; https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_tributos_estaduais_administracao_tributariacns003_tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/saebba2022_gabarito_definitivo_0.pdf."
+      "explanation": "Bia é a mais velha e, portanto, não pode ser a professora nem a médica; como Carol também não é médica, Ana é a médica e Bia é a enfermeira, dona do gato. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Secretaria da Fazenda do Estado da Bahia — Agente de Tributos Estaduais, Administração Tributária, Tipo 2; 2022; questão 70; https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_tributos_estaduais_administracao_tributariacns003_tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/saebba2022_gabarito_definitivo_0.pdf."
     },
     {
       "id": "q52203604",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "A academia Boa Forma oferece aulas de balé, natação, pilates, ioga e musculação. Três das modalidades permitem o pagamento por aula, as outras modalidades exigem pagamento mensal. Além disso, três dessas modalidades são realizadas no período da manhã, enquanto duas são realizadas no período da tarde.\n\nO balé e a ioga permitem a mesma forma de pagamento, mas o pilates e a musculação têm formas de pagamento distintos. Além disso, a natação e a musculação têm aulas no mesmo período, ao passo que o balé e o pilates são feitos em períodos diferentes. Há um dia com pagamento mensal e com aula à tarde.\n\nNesse dia, a modalidade praticada é a de",
       "options": [
@@ -675,11 +675,11 @@
         {"id": "E", "text": "musculação."}
       ],
       "correctOptionId": "C",
-      "explanation": "A combinação das restrições de forma de pagamento e período força o pilates como modalidade de pagamento mensal realizada à tarde. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo, Médico, Ortopedia e Traumatologia, Tipo 1 (manhã); 2023; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/cns209-analista-legislativo-medico-area-ortopedia-e-traumatologiacns209-tipo-1-manha.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf."
+      "explanation": "A combinação das restrições de forma de pagamento e período força o pilates como modalidade de pagamento mensal realizada à tarde. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara dos Deputados — Analista Legislativo, Médico, Ortopedia e Traumatologia, Tipo 1 (manhã); 2023; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/cns209-analista-legislativo-medico-area-ortopedia-e-traumatologiacns209-tipo-1-manha.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf."
     },
     {
       "id": "q52203605",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Betinho, Carlinhos, Luisinho, Paulinho, Toninho vão atuar na peça de faroeste de fim de ano da escola. Os papéis disponíveis são: bandido, delegado, fazendeiro, índio e mocinho.\n\nO professor de teatro ouviu a opinião deles sobre a distribuição dos papéis que eles irão representar.\n\nLuisinho —Eu acho que eu ou o Toninho seremos o bandido. E acho também que o Carlinhos será o mocinho e o Betinho será o índio.\nCarlinhos —Eu acho que eu vou ser o bandido e o Paulinho vai ser o delegado.\nToninho —Eu acho que eu fico com o mocinho, e o Carlinhos com o índio.\nBetinho —Eu acho que eu serei o bandido, o Luisinho será o delegado, o Paulinho será o fazendeiro, o Toninho fica com o índio e o Carlinhos com o mocinho.\nPaulinho —Eu acho que o Betinho ou o Toninho serão o fazendeiro.\n\nO professor disse então que todos eles estavam completamente enganados. Nesse caso, o papel de Toninho será o de",
       "options": [
@@ -690,11 +690,11 @@
         {"id": "E", "text": "mocinho."}
       ],
       "correctOptionId": "B",
-      "explanation": "Eliminadas as atribuições previstas nas falas, todas declaradas completamente erradas, e preservada a distribuição um a um dos cinco papéis, Toninho fica com o papel de delegado. Fonte: questão oficial; FGV; Câmara dos Deputados — Analista Legislativo, Médico, Ortopedia e Traumatologia, Tipo 1 (manhã); 2023; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/cns209-analista-legislativo-medico-area-ortopedia-e-traumatologiacns209-tipo-1-manha.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf."
+      "explanation": "Eliminadas as atribuições previstas nas falas, todas declaradas completamente erradas, e preservada a distribuição um a um dos cinco papéis, Toninho fica com o papel de delegado. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara dos Deputados — Analista Legislativo, Médico, Ortopedia e Traumatologia, Tipo 1 (manhã); 2023; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/cns209-analista-legislativo-medico-area-ortopedia-e-traumatologiacns209-tipo-1-manha.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-2-manha.pdf."
     },
     {
       "id": "q52203606",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Há 5 pessoas sentadas em volta de uma mesa circular, e as iniciais de seus nomes são A, B, C, D e E Dessas pessoas, 2 são médicos e 3 são professores.\n\nSabe-se que:\n• Os dois médicos não são vizinhos.\n• C tem um médico à esquerda e um professor à direita.\n• A tem vizinhos da mesma profissão.\n• B tem médico à direita.\n• C e D não são vizinhos.\n\nA partir de A, a sequência das pessoas no sentido anti-horário é:",
       "options": [
@@ -705,11 +705,11 @@
         {"id": "E", "text": "A B C D E"}
       ],
       "correctOptionId": "B",
-      "explanation": "Aplicando simultaneamente as restrições de profissão, vizinhança e orientação, a ordem anti-horária a partir de A fica A, E, C, B, D. Fonte: questão oficial; FGV; Secretaria de Estado da Fazenda do Amazonas — Assistente Administrativo da Fazenda Estadual, Tipo 4 (Azul); 2022; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/assistente_administrativo_da_fazenda_estadualcnm001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sefazam2022_gabarito_definitivo.pdf."
+      "explanation": "Aplicando simultaneamente as restrições de profissão, vizinhança e orientação, a ordem anti-horária a partir de A fica A, E, C, B, D. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Secretaria de Estado da Fazenda do Amazonas — Assistente Administrativo da Fazenda Estadual, Tipo 4 (Azul); 2022; questão 18; https://conhecimento.fgv.br/sites/default/files/concursos/assistente_administrativo_da_fazenda_estadualcnm001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sefazam2022_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203607",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Três amigas, Zélia, Vanessa e Yolanda, têm idades diferentes; uma delas é médica, outra é enfermeira e a outra é professora.\n\nSabe-se que:\n• Zélia é a professora;\n• A mais nova é a enfermeira;\n• A médica não é a mais velha;\n• Vanessa não é a mais nova.\n\nÉ correto, então, concluir que",
       "options": [
@@ -720,11 +720,11 @@
         {"id": "E", "text": "Zélia é a médica."}
       ],
       "correctOptionId": "D",
-      "explanation": "Zélia é professora; entre Vanessa e Yolanda ficam médica e enfermeira. Como a enfermeira é a mais nova e Vanessa não é a mais nova, Yolanda é a enfermeira. Fonte: questão oficial; FGV; Prefeitura de Manaus — AS-Assistente em Administração (30 H/S); concurso 2021, prova aplicada em 2022; questão 34, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracao_30_hnm301_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
+      "explanation": "Zélia é professora; entre Vanessa e Yolanda ficam médica e enfermeira. Como a enfermeira é a mais nova e Vanessa não é a mais nova, Yolanda é a enfermeira. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura de Manaus — AS-Assistente em Administração (30 <abbr title=\"horas semanais\">H/S</abbr>); concurso 2021, prova aplicada em 2022; questão 34, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracao_30_hnm301_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203608",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "As irmãs Maria, Ana e Rita possuem idades diferentes e, quando receberam a visita de uma tia distante, se apresentaram fazendo as seguintes declarações:\n\nMaria disse: – eu sou a mais jovem.\nAna disse: – eu não sou a do meio.\nRita disse: – eu não sou a mais jovem.\n\nDessas declarações, somente uma é verdadeira.\n\nÉ correto afirmar que:",
       "options": [
@@ -735,11 +735,11 @@
         {"id": "E", "text": "Maria não é a do meio."}
       ],
       "correctOptionId": "B",
-      "explanation": "Para haver exatamente uma declaração verdadeira, Rita é a mais jovem e a única fala verdadeira é a de Ana; logo, Ana é a mais velha. Fonte: questão oficial; FGV; Prefeitura de Manaus — AS-Assistente em Administração (40 H/S); concurso 2021, prova aplicada em 2022; questão 35, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracaonm201_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
+      "explanation": "Para haver exatamente uma declaração verdadeira, Rita é a mais jovem e a única fala verdadeira é a de Ana; logo, Ana é a mais velha. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura de Manaus — AS-Assistente em Administração (40 <abbr title=\"horas semanais\">H/S</abbr>); concurso 2021, prova aplicada em 2022; questão 35, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracaonm201_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203609",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Alberto, Bernardo e Cláudio têm idades diferentes e vestem camisetas de cores diferentes. Um está com camiseta branca, outro com camiseta verde e um terceiro com camiseta azul.\n\nSabe-se que:\n• quem veste camiseta branca é o mais velho;\n• Alberto não está com camiseta branca;\n• Bernardo é mais jovem que Alberto e não está com camiseta azul.\n\nÉ correto concluir que:",
       "options": [
@@ -750,11 +750,11 @@
         {"id": "E", "text": "Cláudio é o mais jovem dos três."}
       ],
       "correctOptionId": "B",
-      "explanation": "Cláudio deve usar a camiseta branca e ser o mais velho; Bernardo não pode usar branca nem azul, então usa a verde. Fonte: questão oficial; FGV; Comissão de Valores Mobiliários — Analista CVM, Perfil 4 Mercado de Capitais, Tipo 1; 2024; questão 40; https://conhecimento.fgv.br/sites/default/files/concursos/manha-analista-cvm-perfil-4-mercado-de-capitaisperfil-4-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/cvm2024_gabarito_definitivo_manha_asdas5c.pdf."
+      "explanation": "Cláudio deve usar a camiseta branca e ser o mais velho; Bernardo não pode usar branca nem azul, então usa a verde. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Comissão de Valores Mobiliários — Analista <abbr title=\"Comissão de Valores Mobiliários\">CVM</abbr>, Perfil 4 Mercado de Capitais, Tipo 1; 2024; questão 40; https://conhecimento.fgv.br/sites/default/files/concursos/manha-analista-cvm-perfil-4-mercado-de-capitaisperfil-4-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/cvm2024_gabarito_definitivo_manha_asdas5c.pdf."
     },
     {
       "id": "q52203610",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Miguel, Artur e Heitor possuem idades diferentes e nasceram em cidades diferentes; um nasceu em Patos, outro em Cabedelo e outro em Santa Rita.\n\nAs três afirmações seguintes sobre eles são verdadeiras:\n• Miguel é mais velho que o cabedelense.\n• Artur nasceu em Patos.\n• Heitor não é o mais novo.\n\nÉ correto concluir que",
       "options": [
@@ -765,11 +765,11 @@
         {"id": "E", "text": "Artur é mais velho que o patense."}
       ],
       "correctOptionId": "C",
-      "explanation": "As restrições de cidade e idade eliminam as demais combinações e forçam o natural de Santa Rita a ser o mais velho. Fonte: questão oficial; FGV; Tribunal Regional do Trabalho da 13ª Região — Analista Judiciário, Oficial de Justiça Avaliador Federal, Tipo 1; 2022; questão 14; https://conhecimento.fgv.br/sites/default/files/concursos/cns103_-_analista_judiciario_oficial_de_justica_avaliadorcns103_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trtpb2022_gabarito_definitivo_-_atualizado_2023-01-12.pdf."
+      "explanation": "As restrições de cidade e idade eliminam as demais combinações e forçam o natural de Santa Rita a ser o mais velho. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 13ª Região — Analista Judiciário, Oficial de Justiça Avaliador Federal, Tipo 1; 2022; questão 14; https://conhecimento.fgv.br/sites/default/files/concursos/cns103_-_analista_judiciario_oficial_de_justica_avaliadorcns103_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trtpb2022_gabarito_definitivo_-_atualizado_2023-01-12.pdf."
     },
     {
       "id": "q52203611",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Berenice tem quatro netos: Arthur, Benjamim, João e Samuel, todos com idades diferentes.\n\nSabe-se que:\n• A idade de Benjamim está entre a de Samuel e a de João.\n• Arthur é mais novo que João.\n• Samuel é o neto mais novo.\n\nAssim, pode-se afirmar que",
       "options": [
@@ -779,11 +779,11 @@
         {"id": "D", "text": "Arthur é mais velho que Benjamim."}
       ],
       "correctOptionId": "A",
-      "explanation": "Samuel é o mais novo e Benjamim está entre Samuel e João, logo João é mais velho que Benjamim; como Arthur também é mais novo que João, João é o mais velho. As quatro alternativas originais foram preservadas; o schema admite duas ou mais opções. Fonte: questão oficial; FGV; Secretaria de Estado de Saúde de Mato Grosso — Técnico em Enfermagem, Tipo 1; 2024; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-em-enfermagemcnm101-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ses-mt-v2.pdf."
+      "explanation": "Samuel é o mais novo e Benjamim está entre Samuel e João, logo João é mais velho que Benjamim; como Arthur também é mais novo que João, João é o mais velho. As quatro alternativas originais foram preservadas; o schema admite duas ou mais opções. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Secretaria de Estado de Saúde de Mato Grosso — Técnico em Enfermagem, Tipo 1; 2024; questão 13; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-em-enfermagemcnm101-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ses-mt-v2.pdf."
     },
     {
       "id": "q52203612",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Cinco pessoas, representadas por A, B, C, D e E, sentam-se em volta de uma mesa circular.\n\nSabe-se que:\n• B não é vizinho de A.\n• D é o vizinho à esquerda de C.\n• B e C não são vizinhos.\n\nAssim, é correto concluir que",
       "options": [
@@ -794,11 +794,11 @@
         {"id": "E", "text": "os vizinhos de D são A e C."}
       ],
       "correctOptionId": "A",
-      "explanation": "Fixando D imediatamente à esquerda de C e aplicando as duas proibições de vizinhança, A fica entre C e E. Fonte: questão oficial; FGV; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+      "explanation": "Fixando D imediatamente à esquerda de C e aplicando as duas proibições de vizinhança, A fica entre C e E. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
     },
     {
       "id": "q52203613",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Cinco pessoas, chamadas Ali, Ben, Clô, Dil e Ela, estão em uma fila. São dadas as seguintes informações:\n• Ben tem como vizinhos Ela e Dil.\n• Ali não é o primeiro e Dil não é o último.\n• Clô está separada de Dil por duas pessoas.\n• Existe uma única pessoa entre Ben e Ali.\n\nAssim, é correto afirmar que",
       "options": [
@@ -809,11 +809,11 @@
         {"id": "E", "text": "Clô está atrás de Ela."}
       ],
       "correctOptionId": "C",
-      "explanation": "As condições forçam a fila Clô, Ela, Ben, Dil, Ali; portanto Dil fica entre Ben e Ali. Fonte: questão oficial; FGV; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+      "explanation": "As condições forçam a fila Clô, Ela, Ben, Dil, Ali; portanto Dil fica entre Ben e Ali. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
     },
     {
       "id": "q52203614",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em uma prateleira do armário da cozinha há três latas, uma ao lado da outra. Uma lata é azul, outra é verde e outra é vermelha e contêm coisas diferentes: uma contém café, outra contém açúcar e outra contém farinha.\n\nSabe-se que\n• a lata vermelha está à direita da lata que contém farinha;\n• a lata que contém açúcar não é verde e não está ao lado da lata verde;\n• café e açúcar estão em latas vizinhas.\n\nAssim, é correto concluir que",
       "options": [
@@ -824,11 +824,11 @@
         {"id": "E", "text": "a farinha está na lata azul."}
       ],
       "correctOptionId": "B",
-      "explanation": "As restrições de posição, cor e conteúdo deixam o açúcar necessariamente na lata azul. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+      "explanation": "As restrições de posição, cor e conteúdo deixam o açúcar necessariamente na lata azul. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203615",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Beatriz, Dalva, Fernanda, Laura e Sônia possuem idades diferentes.\n\nSão verdadeiras as seguintes afirmações:\n• Beatriz é mais nova que Dalva e mais velha que Laura.\n• Dalva é mais nova que Sônia e mais velha que Fernanda.\n• Fernanda é mais nova que Beatriz, mas não é a mais nova de todas elas.\n\nFazendo com essas pessoas uma fila em ordem crescente de idade, é correto concluir que",
       "options": [
@@ -839,7 +839,7 @@
         {"id": "E", "text": "Dalva é a quinta."}
       ],
       "correctOptionId": "D",
-      "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+      "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
     }
   ]
 }
