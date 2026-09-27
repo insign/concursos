@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7899",
@@ -154,9 +154,9 @@
     },
     {
       "id": "q7908",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Na regionalização do NuGeo/UEMA, a fórmula 3 + 7 + 2 corresponde a",
+      "prompt": "Na regionalização do <abbr title=\"Núcleo Geoambiental\">NuGeo</abbr>/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr>, a fórmula 3 + 7 + 2 corresponde a",
       "options": [
         {
           "id": "A",
@@ -184,9 +184,9 @@
     },
     {
       "id": "q7909",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A expressão do NuGeo/UEMA “12 bacias hidrográficas” exige cautela porque",
+      "prompt": "A expressão do <abbr title=\"Núcleo Geoambiental\">NuGeo</abbr>/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr> “12 bacias hidrográficas” exige cautela porque",
       "options": [
         {
           "id": "A",
@@ -364,7 +364,7 @@
     },
     {
       "id": "q7916",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O rio Parnaíba interessa ao edital principalmente como",
       "options": [
@@ -390,7 +390,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O Parnaíba forma extensa parte da divisa MA–PI e termina em delta atlântico."
+      "explanation": "O Parnaíba forma extensa parte da divisa <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Piauí\">PI</abbr> e termina em delta atlântico."
     },
     {
       "id": "q7917",
@@ -454,17 +454,17 @@
     },
     {
       "id": "q7920",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A distinção correta no sudoeste maranhense é",
       "options": [
         {
           "id": "A",
-          "text": "Tocantins-Araguaia é um único rio que acompanha toda a fronteira MA–TO."
+          "text": "Tocantins-Araguaia é um único rio que acompanha toda a fronteira <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Tocantins\">TO</abbr>."
         },
         {
           "id": "B",
-          "text": "Tocantins-Araguaia é a região hidrográfica nacional; no recorte estadual do NuGeo/UEMA aparece a bacia do Tocantins."
+          "text": "Tocantins-Araguaia é a região hidrográfica nacional; no recorte estadual do <abbr title=\"Núcleo Geoambiental\">NuGeo</abbr>/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr> aparece a bacia do Tocantins."
         },
         {
           "id": "C",
@@ -484,7 +484,7 @@
     },
     {
       "id": "q7921",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O limite entre Maranhão e Tocantins acompanha",
       "options": [
@@ -510,7 +510,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O Manuel Alves Grande participa de grande parte do limite MA–TO, complementado por trecho do Tocantins."
+      "explanation": "O Manuel Alves Grande participa de grande parte do limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Tocantins\">TO</abbr>, complementado por trecho do Tocantins."
     },
     {
       "id": "q7922",
@@ -604,9 +604,9 @@
     },
     {
       "id": "q7928",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Na regionalização estadual agregada do NuGeo/UEMA, a maior bacia estadual é",
+      "prompt": "Na regionalização estadual agregada do <abbr title=\"Núcleo Geoambiental\">NuGeo</abbr>/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr>, a maior bacia estadual é",
       "options": [
         {
           "id": "A",
@@ -634,7 +634,7 @@
     },
     {
       "id": "q7929",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A sequência correta do Mearim é",
       "options": [
@@ -656,7 +656,7 @@
         },
         {
           "id": "E",
-          "text": "Serra do Gurupi → direção norte → limite MA–PA."
+          "text": "Serra do Gurupi → direção norte → limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Pará\">PA</abbr>."
         }
       ],
       "correctOptionId": "A",
@@ -754,7 +754,7 @@
     },
     {
       "id": "q7937",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O rio Munim",
       "options": [
@@ -764,7 +764,7 @@
         },
         {
           "id": "B",
-          "text": "nasce na Serra do Gurupi e forma o limite MA–PA."
+          "text": "nasce na Serra do Gurupi e forma o limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Pará\">PA</abbr>."
         },
         {
           "id": "C",
@@ -784,7 +784,7 @@
     },
     {
       "id": "q7939",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A bacia do Turiaçu está corretamente associada a",
       "options": [
@@ -806,7 +806,7 @@
         },
         {
           "id": "E",
-          "text": "nascente na Serra do Gurupi e limite MA–PA."
+          "text": "nascente na Serra do Gurupi e limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Pará\">PA</abbr>."
         }
       ],
       "correctOptionId": "A",
@@ -844,7 +844,7 @@
     },
     {
       "id": "q7943",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O rio Preguiças",
       "options": [
@@ -854,7 +854,7 @@
         },
         {
           "id": "B",
-          "text": "nasce na Serra do Gurupi e forma a fronteira MA–PA."
+          "text": "nasce na Serra do Gurupi e forma a fronteira <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Pará\">PA</abbr>."
         },
         {
           "id": "C",
@@ -866,7 +866,7 @@
         },
         {
           "id": "E",
-          "text": "forma grande parte do limite MA–PI."
+          "text": "forma grande parte do limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Piauí\">PI</abbr>."
         }
       ],
       "correctOptionId": "A",
@@ -874,7 +874,7 @@
     },
     {
       "id": "q7945",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Sobre a bacia do Periá, é correto afirmar que",
       "options": [
@@ -884,7 +884,7 @@
         },
         {
           "id": "B",
-          "text": "é a menor das sete na regionalização do NuGeo/UEMA e inclui cursos como Periá, Mapari e Anajatuba."
+          "text": "é a menor das sete na regionalização do <abbr title=\"Núcleo Geoambiental\">NuGeo</abbr>/<abbr title=\"Universidade Estadual do Maranhão\">UEMA</abbr> e inclui cursos como Periá, Mapari e Anajatuba."
         },
         {
           "id": "C",
@@ -964,21 +964,21 @@
     },
     {
       "id": "q7955",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual matriz está integralmente correta?",
       "options": [
         {
           "id": "A",
-          "text": "Parnaíba — delta atlântico; Gurupi — limite MA–PA; Mearim — baía de São Marcos; Itapecuru — baía do Arraial."
+          "text": "Parnaíba — delta atlântico; Gurupi — limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Pará\">PA</abbr>; Mearim — baía de São Marcos; Itapecuru — baía do Arraial."
         },
         {
           "id": "B",
-          "text": "Parnaíba — baía de São Marcos; Gurupi — limite MA–PI; Mearim — baía de São José; Itapecuru — Barreirinhas."
+          "text": "Parnaíba — baía de São Marcos; Gurupi — limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Piauí\">PI</abbr>; Mearim — baía de São José; Itapecuru — Barreirinhas."
         },
         {
           "id": "C",
-          "text": "Parnaíba — limite MA–TO; Gurupi — delta; Mearim — baía de Turiaçu; Itapecuru — Cândido Mendes."
+          "text": "Parnaíba — limite <abbr title=\"Maranhão\">MA</abbr>–<abbr title=\"Tocantins\">TO</abbr>; Gurupi — delta; Mearim — baía de Turiaçu; Itapecuru — Cândido Mendes."
         },
         {
           "id": "D",
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "q20000",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Sobre a hidrografia do Maranhão é incorreto afirmar:",
       "options": [
@@ -1050,11 +1050,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A alternativa B é a incorreta segundo o gabarito da banca: a hidrografia maranhense é predominantemente formada por rios perenes, e não intermitentes. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/MA, Professor — Geografia, 2016, questão 25, gabarito B. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
+      "explanation": "A alternativa B é a incorreta segundo o gabarito da banca: a hidrografia maranhense é predominantemente formada por rios perenes, e não intermitentes. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/<abbr title=\"Maranhão\">MA</abbr>, Professor — Geografia, 2016, questão 25, gabarito B. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
     },
     {
       "id": "q20001",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "“O Rio Itapecuru é o maior rio genuinamente maranhense, banha várias cidades do estado e recebe águas de muitos afluentes”.\n\nSão afluentes do Rio Itapecuru, Exceto:",
       "options": [
@@ -1080,11 +1080,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O gabarito da banca é C: o Munim constitui curso e bacia distintos e não é afluente do Itapecuru. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/MA, Professor — Geografia, 2016, questão 35, gabarito C. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
+      "explanation": "O gabarito da banca é C: o Munim constitui curso e bacia distintos e não é afluente do Itapecuru. Fonte: Instituto Coelho Neto, Prefeitura de Santo Amaro do Maranhão/<abbr title=\"Maranhão\">MA</abbr>, Professor — Geografia, 2016, questão 35, gabarito C. Prova arquivada: https://eticaconcursos.com.br/provas/arquivos/prova/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-prova.pdf. Gabarito arquivado: https://eticaconcursos.com.br/provas/arquivos/gabarito/instituto-coelho-neto-2016-prefeitura-de-santo-amaro-do-maranhao-ma-professor-ensino-fundamental-geografia-gabarito.pdf."
     },
     {
       "id": "q20002",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Atualmente, as bacias hidrográficas vêm sendo adotadas como unidades de planejamento ambiental. As bacias limítrofes, compostas por rios que atravessam limites político-administrativos, representam um desafio para a gestão integrada dos recursos hídricos.\n\nSobre as bacias limítrofes maranhenses, assinale a afirmativa correta.",
       "options": [
@@ -1110,7 +1110,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A alternativa A corresponde ao gabarito definitivo da FGV: entre as bacias limítrofes, a do Parnaíba possui a maior área no Maranhão. Fonte oficial: FGV, Concurso Público 2012 — Polícia Militar do Maranhão, Soldado Combatente, prova Tipo 3 — Amarela, questão 45, gabarito A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_03.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
+      "explanation": "A alternativa A corresponde ao gabarito definitivo da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>: entre as bacias limítrofes, a do Parnaíba possui a maior área no Maranhão. Fonte oficial: <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Concurso Público 2012 — Polícia Militar do Maranhão, Soldado Combatente, prova Tipo 3 — Amarela, questão 45, gabarito A. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_03.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
     }
   ]
 }
