@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u078-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação penal pública incondicionada é proposta, em regra, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "o ofendido, por queixa."
+        },
+        {
+          "id": "B",
+          "text": "o Ministério Público, por denúncia."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade policial, por portaria."
+        },
+        {
+          "id": "D",
+          "text": "o juiz, de ofício."
+        },
+        {
+          "id": "E",
+          "text": "a Defensoria Pública, por representação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição e o CPP atribuem ao Ministério Público a titularidade da ação penal pública, iniciada por denúncia."
+    },
+    {
+      "id": "seap-u078-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a lei exige representação do ofendido para ação penal pública, a representação",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui a denúncia."
+        },
+        {
+          "id": "B",
+          "text": "só pode ser escrita e judicial."
+        },
+        {
+          "id": "C",
+          "text": "é retratável mesmo depois da sentença."
+        },
+        {
+          "id": "D",
+          "text": "torna-se irretratável depois de oferecida a denúncia."
+        },
+        {
+          "id": "E",
+          "text": "transforma a ação em privada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 25 do CPP fixa o oferecimento da denúncia como marco de irretratabilidade."
+    },
+    {
+      "id": "seap-u078-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação penal privada, a peça inicial é denominada",
+      "options": [
+        {
+          "id": "A",
+          "text": "representação."
+        },
+        {
+          "id": "B",
+          "text": "requisição."
+        },
+        {
+          "id": "C",
+          "text": "queixa."
+        },
+        {
+          "id": "D",
+          "text": "denúncia."
+        },
+        {
+          "id": "E",
+          "text": "indiciamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ação privada é exercida por queixa do ofendido ou de quem tenha qualidade para representá-lo."
+    },
+    {
+      "id": "seap-u078-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação privada subsidiária da pública é admitida quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ação pública não é intentada no prazo legal."
+        },
+        {
+          "id": "B",
+          "text": "a vítima discorda do pedido do Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "o delegado encerra o inquérito sem indiciamento."
+        },
+        {
+          "id": "D",
+          "text": "o juiz rejeita a denúncia."
+        },
+        {
+          "id": "E",
+          "text": "o crime é sempre de ação privada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Constituição e CPP admitem a subsidiária quando o titular público permanece inerte além do prazo legal."
+    },
+    {
+      "id": "seap-u078-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação privada subsidiária da pública, o Ministério Público",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica excluído do processo."
+        },
+        {
+          "id": "B",
+          "text": "só pode observar os atos, sem intervir."
+        },
+        {
+          "id": "C",
+          "text": "não pode recorrer."
+        },
+        {
+          "id": "D",
+          "text": "não pode substituir a queixa."
+        },
+        {
+          "id": "E",
+          "text": "mantém poderes legais, inclusive aditar, oferecer denúncia substitutiva e retomar a ação em caso de negligência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 29 preserva ampla atuação do Ministério Público na ação subsidiária."
+    },
+    {
+      "id": "seap-u078-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pelo prazo-base do art. 46 do CPP, o Ministério Público oferece denúncia em",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias com preso e 30 com solto."
+        },
+        {
+          "id": "B",
+          "text": "5 dias com preso e 15 com solto ou afiançado."
+        },
+        {
+          "id": "C",
+          "text": "15 dias em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "5 dias em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "24 horas com preso e 5 dias com solto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 46 estabelece 5 dias se o investigado estiver preso e 15 dias se solto ou afiançado."
+    },
+    {
+      "id": "seap-u078-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como regra geral, o prazo decadencial para exercer direito de queixa ou representação é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias."
+        },
+        {
+          "id": "B",
+          "text": "3 meses."
+        },
+        {
+          "id": "C",
+          "text": "6 meses."
+        },
+        {
+          "id": "D",
+          "text": "1 ano."
+        },
+        {
+          "id": "E",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 38 prevê seis meses, salvo disposição em contrário."
+    },
+    {
+      "id": "seap-u078-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte legislativo de 21/7/2026, nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, o prazo decadencial de queixa ou representação é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias."
+        },
+        {
+          "id": "B",
+          "text": "3 meses."
+        },
+        {
+          "id": "C",
+          "text": "6 meses."
+        },
+        {
+          "id": "D",
+          "text": "12 meses."
+        },
+        {
+          "id": "E",
+          "text": "2 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 15.438/2026, vigente antes do edital, acrescentou ao art. 38 do CPP a regra especial de 12 meses."
+    },
+    {
+      "id": "seap-u078-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação privada subsidiária, o prazo decadencial para a queixa começa, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "quando se esgota o prazo para oferecimento da denúncia."
+        },
+        {
+          "id": "B",
+          "text": "no dia do fato."
+        },
+        {
+          "id": "C",
+          "text": "na data da prisão."
+        },
+        {
+          "id": "D",
+          "text": "no recebimento do inquérito pelo juiz."
+        },
+        {
+          "id": "E",
+          "text": "no arquivamento administrativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 38 usa, para a hipótese do art. 29, o esgotamento do prazo para a denúncia como termo inicial."
+    },
+    {
+      "id": "seap-u078-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A denúncia ou queixa pode ser rejeitada por falta de justa causa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "justa causa é sinônimo de condenação anterior."
+        },
+        {
+          "id": "B",
+          "text": "toda acusação exige confissão."
+        },
+        {
+          "id": "C",
+          "text": "somente prova pericial autoriza processo."
+        },
+        {
+          "id": "D",
+          "text": "justa causa é dispensável na ação privada."
+        },
+        {
+          "id": "E",
+          "text": "o processo penal não deve prosseguir sem suporte informativo mínimo para a imputação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 395, III, prevê rejeição por falta de justa causa; não se exige prova definitiva de culpa, mas suporte mínimo para a acusação."
+    },
+    {
+      "id": "seap-u078-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à indivisibilidade da ação privada, o CPP estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a vítima pode escolher livremente apenas um coautor e excluir os demais."
+        },
+        {
+          "id": "B",
+          "text": "a queixa contra qualquer dos autores obriga ao processo de todos, e o Ministério Público vela pela indivisibilidade."
+        },
+        {
+          "id": "C",
+          "text": "a regra só vale para ação pública."
+        },
+        {
+          "id": "D",
+          "text": "a indivisibilidade impede perdão."
+        },
+        {
+          "id": "E",
+          "text": "o Ministério Público se torna autor principal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a regra do art. 48 do CPP."
+    },
+    {
+      "id": "seap-u078-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A renúncia ao direito de queixa distingue-se do perdão porque a renúncia",
+      "options": [
+        {
+          "id": "A",
+          "text": "depende sempre de aceitação do querelado."
+        },
+        {
+          "id": "B",
+          "text": "só existe depois da sentença."
+        },
+        {
+          "id": "C",
+          "text": "ocorre antes do exercício da ação privada, enquanto o perdão atua depois de iniciada."
+        },
+        {
+          "id": "D",
+          "text": "é instituto da ação pública."
+        },
+        {
+          "id": "E",
+          "text": "não pode produzir efeitos sobre coautores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A renúncia antecede o exercício do direito de queixa; o perdão é posterior e depende de aceitação."
+    },
+    {
+      "id": "seap-u078-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Concedido perdão expresso nos autos, o querelado é intimado para dizer se aceita em",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "2 dias."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "3 dias."
+        },
+        {
+          "id": "E",
+          "text": "10 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 58 prevê três dias e determina que o silêncio importe aceitação."
+    },
+    {
+      "id": "seap-u078-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É hipótese legal de perempção da ação exclusivamente privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "o querelante deixar de promover o andamento por 30 dias seguidos."
+        },
+        {
+          "id": "B",
+          "text": "o Ministério Público pedir absolvição."
+        },
+        {
+          "id": "C",
+          "text": "o réu permanecer em silêncio."
+        },
+        {
+          "id": "D",
+          "text": "a polícia não indiciar."
+        },
+        {
+          "id": "E",
+          "text": "o juiz determinar diligência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 60 prevê perempção se, iniciada a ação, o querelante deixar de promover seu andamento por 30 dias seguidos."
+    },
+    {
+      "id": "seap-u078-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Falecendo o querelante durante ação privada, uma das pessoas legitimadas deve comparecer para prosseguir, nas condições do art. 60, em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "60 dias."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 60, II, prevê 60 dias para comparecimento de legitimado, ressalvada a regra legal aplicável."
+    },
+    {
+      "id": "seap-u078-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação privada personalíssima",
+      "options": [
+        {
+          "id": "A",
+          "text": "é a regra para todo crime de ação privada."
+        },
+        {
+          "id": "B",
+          "text": "é excepcional e somente pode ser proposta pela pessoa indicada pela própria lei."
+        },
+        {
+          "id": "C",
+          "text": "sempre transmite-se aos sucessores."
+        },
+        {
+          "id": "D",
+          "text": "é proposta pelo Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "dispensa queixa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É categoria excepcional. O art. 236, parágrafo único, do Código Penal é exemplo clássico de queixa reservada ao contraente enganado."
+    },
+    {
+      "id": "seap-u078-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 42 do CPP, o Ministério Público",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode desistir livremente da ação pública."
+        },
+        {
+          "id": "B",
+          "text": "pode transformar qualquer ação pública em privada."
+        },
+        {
+          "id": "C",
+          "text": "não pode desistir da ação penal pública."
+        },
+        {
+          "id": "D",
+          "text": "só pode atuar após representação em qualquer crime."
+        },
+        {
+          "id": "E",
+          "text": "não pode pedir absolvição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei proíbe a desistência da ação pública; isso não impede atuação objetiva do Ministério Público segundo a prova."
+    },
+    {
+      "id": "seap-u078-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa melhor diferencia representação e queixa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Representação pode ser condição para o Ministério Público oferecer denúncia; queixa é a peça inicial da ação privada."
+        },
+        {
+          "id": "B",
+          "text": "São sempre a mesma peça."
+        },
+        {
+          "id": "C",
+          "text": "Queixa inicia ação pública e representação inicia ação privada."
+        },
+        {
+          "id": "D",
+          "text": "Representação só existe depois da denúncia."
+        },
+        {
+          "id": "E",
+          "text": "Queixa é ato da autoridade policial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A representação condiciona determinadas ações públicas; a queixa exerce a ação penal privada."
+    }
+  ]
+}
