@@ -46,11 +46,11 @@
 
 ## Provas anteriores usadas de modo não literal
 
-13. **Fundação Getulio Vargas. Assembleia Legislativa do Estado do Amazonas — Procurador, Tipo 2, turno manhã, prova aplicada em 14/12/2025, questão 29; gabarito definitivo C.** A questão combina prisão além do tempo, tabeliães/registradores e responsabilidade por atividade legislativa. A U107 usa adaptação não literal em `u107-p01`.  
+13. **Fundação Getulio Vargas. Assembleia Legislativa do Estado do Amazonas — Procurador, Tipo 2, turno manhã, prova aplicada em 14/12/2025, questão 29; gabarito definitivo C.** A questão combina prisão além do tempo, tabeliães/registradores e responsabilidade por atividade legislativa. A SEAP-U055 usa adaptação não literal em `u107-p01`.  
     Prova: https://conhecimento.fgv.br/sites/default/files/concursos/procurador-cns100-tipo-2.pdf  
     Gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-am.pdf
 
-14. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Polícia Civil do Rio de Janeiro — Delegado de Polícia, prova objetiva, aplicação 13/3/2022, questão 46; gabarito oficial D.** A questão cobra o Tema 940 e o direito de regresso. A U107 usa adaptação não literal em `u107-p02`.  
+14. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Polícia Civil do Rio de Janeiro — Delegado de Polícia, prova objetiva, aplicação 13/3/2022, questão 46; gabarito oficial D.** A questão cobra o Tema 940 e o direito de regresso. A SEAP-U055 usa adaptação não literal em `u107-p02`.  
     Prova: https://cdn.cebraspe.org.br/concursos/pc_rj_21_delegado/arquivos/662_PCRJ_001_01.PDF  
     Gabarito: https://cdn.cebraspe.org.br/concursos/pc_rj_21_delegado/arquivos/PC_RJ_21_GABARITOS_OFICIAIS_PRELIMINARES_PUBLICAO.PDF
 
