@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u079-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Jurisdição e competência distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "jurisdição é a função estatal de julgar e competência é a parcela dessa função atribuída a determinado órgão."
+        },
+        {
+          "id": "B",
+          "text": "competência é sempre mais ampla que jurisdição."
+        },
+        {
+          "id": "C",
+          "text": "jurisdição é regra territorial e competência é apenas constitucional."
+        },
+        {
+          "id": "D",
+          "text": "são expressões juridicamente idênticas em qualquer contexto."
+        },
+        {
+          "id": "E",
+          "text": "competência só existe nos tribunais superiores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Competência delimita o exercício da jurisdição segundo critérios constitucionais e legais."
+    },
+    {
+      "id": "seap-u079-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 69 do CPP, é critério de determinação da competência",
+      "options": [
+        {
+          "id": "A",
+          "text": "a preferência da vítima em qualquer ação."
+        },
+        {
+          "id": "B",
+          "text": "a profissão do acusado em qualquer caso."
+        },
+        {
+          "id": "C",
+          "text": "o lugar da infração."
+        },
+        {
+          "id": "D",
+          "text": "a gravidade abstrata como único critério."
+        },
+        {
+          "id": "E",
+          "text": "a conveniência policial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 69 enumera o lugar da infração, entre outros critérios."
+    },
+    {
+      "id": "seap-u079-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como regra territorial, a competência para crime consumado é definida pelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "domicílio do réu."
+        },
+        {
+          "id": "B",
+          "text": "lugar da consumação."
+        },
+        {
+          "id": "C",
+          "text": "local da prisão."
+        },
+        {
+          "id": "D",
+          "text": "domicílio da vítima em qualquer crime."
+        },
+        {
+          "id": "E",
+          "text": "primeiro ato investigativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 70 adota, em regra, o lugar em que se consumar a infração."
+    },
+    {
+      "id": "seap-u079-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No caso de tentativa, a regra do art. 70 aponta para",
+      "options": [
+        {
+          "id": "A",
+          "text": "o local do resultado pretendido."
+        },
+        {
+          "id": "B",
+          "text": "o domicílio da vítima."
+        },
+        {
+          "id": "C",
+          "text": "o local do primeiro ato preparatório."
+        },
+        {
+          "id": "D",
+          "text": "o lugar do último ato de execução."
+        },
+        {
+          "id": "E",
+          "text": "o foro escolhido pelo Ministério Público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na tentativa, vale o lugar em que foi praticado o último ato de execução."
+    },
+    {
+      "id": "seap-u079-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em infração permanente praticada em território de duas ou mais jurisdições, a competência firma-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "pela escolha do réu."
+        },
+        {
+          "id": "B",
+          "text": "pela pena mais grave."
+        },
+        {
+          "id": "C",
+          "text": "sempre pelo domicílio da vítima."
+        },
+        {
+          "id": "D",
+          "text": "pela distribuição aleatória posterior."
+        },
+        {
+          "id": "E",
+          "text": "pela prevenção."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 71 usa a prevenção para infração permanente ou continuada que alcance mais de uma jurisdição."
+    },
+    {
+      "id": "seap-u079-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Não sendo conhecido o lugar da infração, a competência regula-se, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelo domicílio ou residência do réu."
+        },
+        {
+          "id": "B",
+          "text": "pelo domicílio da vítima."
+        },
+        {
+          "id": "C",
+          "text": "pela sede do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "pelo local da prisão futura."
+        },
+        {
+          "id": "E",
+          "text": "pelo tribunal de maior graduação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a regra do art. 72 do CPP."
+    },
+    {
+      "id": "seap-u079-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação exclusivamente privada, mesmo conhecido o lugar da infração, o querelante",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve sempre usar o foro da consumação."
+        },
+        {
+          "id": "B",
+          "text": "só pode ajuizar no tribunal."
+        },
+        {
+          "id": "C",
+          "text": "pode preferir o foro do domicílio ou residência do réu."
+        },
+        {
+          "id": "D",
+          "text": "pode escolher qualquer comarca do país."
+        },
+        {
+          "id": "E",
+          "text": "deve usar o domicílio da vítima."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 73 autoriza essa opção ao querelante na ação exclusivamente privada."
+    },
+    {
+      "id": "seap-u079-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prevenção caracteriza-se quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer juiz escolhe assumir o caso."
+        },
+        {
+          "id": "B",
+          "text": "entre juízos igualmente competentes, um antecede os demais em ato processual ou medida relativa ao processo."
+        },
+        {
+          "id": "C",
+          "text": "a vítima apresenta primeiro a representação."
+        },
+        {
+          "id": "D",
+          "text": "o crime tem pena elevada."
+        },
+        {
+          "id": "E",
+          "text": "há necessariamente conexão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 83 usa a antecedência de ato entre juízos já competentes."
+    },
+    {
+      "id": "seap-u079-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conexão probatória ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "há apenas dois réus no mesmo processo."
+        },
+        {
+          "id": "B",
+          "text": "os crimes têm a mesma pena."
+        },
+        {
+          "id": "C",
+          "text": "os acusados moram juntos."
+        },
+        {
+          "id": "D",
+          "text": "a prova de uma infração ou de circunstância elementar influencia a prova de outra."
+        },
+        {
+          "id": "E",
+          "text": "há crime continuado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "É a hipótese do art. 76, III."
+    },
+    {
+      "id": "seap-u079-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Há continência, segundo hipótese expressa do CPP, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas ou mais pessoas são acusadas pela mesma infração."
+        },
+        {
+          "id": "B",
+          "text": "duas infrações ocorrem na mesma cidade sem relação."
+        },
+        {
+          "id": "C",
+          "text": "um juiz pratica ato antes do outro."
+        },
+        {
+          "id": "D",
+          "text": "a vítima muda de residência."
+        },
+        {
+          "id": "E",
+          "text": "o crime é tentado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 77 prevê continência quando duas ou mais pessoas são acusadas pela mesma infração."
+    },
+    {
+      "id": "seap-u079-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No concurso entre jurisdições da mesma categoria e com penas de igual gravidade, o art. 78 usa, antes da prevenção,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a idade dos acusados."
+        },
+        {
+          "id": "B",
+          "text": "o domicílio da vítima."
+        },
+        {
+          "id": "C",
+          "text": "a data do inquérito."
+        },
+        {
+          "id": "D",
+          "text": "o número de testemunhas."
+        },
+        {
+          "id": "E",
+          "text": "o lugar em que houver ocorrido o maior número de infrações."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Se as penas forem igualmente graves, prevalece o lugar com maior número de infrações; nos demais casos, prevenção."
+    },
+    {
+      "id": "seap-u079-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No concurso entre jurisdição comum e especial, o CPP determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "prevalece sempre a estadual."
+        },
+        {
+          "id": "B",
+          "text": "prevalece sempre a federal."
+        },
+        {
+          "id": "C",
+          "text": "prevalece a jurisdição especial."
+        },
+        {
+          "id": "D",
+          "text": "há livre escolha do autor."
+        },
+        {
+          "id": "E",
+          "text": "prevalece a que receber primeiro o inquérito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 78, IV, estabelece a prevalência da jurisdição especial."
+    },
+    {
+      "id": "seap-u079-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre conexão e reunião de processos, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conexão exige reunião absoluta em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "há exceções legais e o juiz pode separar processos em hipóteses do art. 80."
+        },
+        {
+          "id": "C",
+          "text": "a reunião é proibida no processo penal."
+        },
+        {
+          "id": "D",
+          "text": "a conexão elimina toda regra de competência."
+        },
+        {
+          "id": "E",
+          "text": "só existe conexão entre crimes idênticos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os arts. 79 e 80 preveem separações obrigatórias e facultativas em situações específicas."
+    },
+    {
+      "id": "seap-u079-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois da Lei nº 15.358/2026, no concurso entre júri e outro órgão da jurisdição comum",
+      "options": [
+        {
+          "id": "A",
+          "text": "o júri nunca prevalece."
+        },
+        {
+          "id": "B",
+          "text": "o outro órgão sempre prevalece."
+        },
+        {
+          "id": "C",
+          "text": "a prevenção resolve todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "o júri prevalece em regra, mas há exceção legal específica para homicídios ligados às organizações/grupos definidos pela lei."
+        },
+        {
+          "id": "E",
+          "text": "a competência é sempre federal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei alterou o art. 78, I, mantendo a regra do júri e criando exceção expressa vigente antes do corte SEAP."
+    },
+    {
+      "id": "seap-u079-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A competência criminal da Justiça Federal",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre das hipóteses previstas na Constituição, especialmente no art. 109."
+        },
+        {
+          "id": "B",
+          "text": "alcança todo crime praticado por servidor público."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de pedido da União."
+        },
+        {
+          "id": "D",
+          "text": "é sempre definida pelo lugar da prisão."
+        },
+        {
+          "id": "E",
+          "text": "absorve toda competência estadual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição enumera as hipóteses de competência federal; a justiça estadual comum exerce competência residual."
+    },
+    {
+      "id": "seap-u079-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distribuição anterior à denúncia pode influir na competência porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a denúncia deixa de ser necessária."
+        },
+        {
+          "id": "B",
+          "text": "qualquer distribuição cria jurisdição especial."
+        },
+        {
+          "id": "C",
+          "text": "distribuição para fiança, preventiva ou diligência anterior pode prevenir a futura ação."
+        },
+        {
+          "id": "D",
+          "text": "a polícia escolhe o juiz definitivo."
+        },
+        {
+          "id": "E",
+          "text": "a distribuição substitui conexão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 75 prevê efeito preventivo de determinadas distribuições anteriores à acusação."
+    },
+    {
+      "id": "seap-u079-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em conexão finalística ou consequencial, uma infração",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre tentada."
+        },
+        {
+          "id": "B",
+          "text": "tem necessariamente os mesmos agentes da outra."
+        },
+        {
+          "id": "C",
+          "text": "precisa ocorrer no mesmo local."
+        },
+        {
+          "id": "D",
+          "text": "só se conecta após sentença."
+        },
+        {
+          "id": "E",
+          "text": "é praticada para facilitar, ocultar ou obter impunidade ou vantagem em relação a outra."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 76, II, reúne infrações ligadas por finalidade ou consequência."
+    },
+    {
+      "id": "seap-u079-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prerrogativa de função deve ser compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "benefício pessoal livremente renunciável em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "regra objetiva de competência derivada da Constituição ou da ordem jurídica aplicável ao exercício de certas funções."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de imunidade penal."
+        },
+        {
+          "id": "D",
+          "text": "regra criada pela polícia."
+        },
+        {
+          "id": "E",
+          "text": "forma de escolher qualquer tribunal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A prerrogativa de função é regra de competência, não privilégio pessoal sem base normativa."
+    }
+  ]
+}
