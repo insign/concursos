@@ -37,11 +37,11 @@
 
 ## Provas anteriores usadas de modo não literal
 
-10. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Secretaria de Estado da Fazenda do Paraná — Agente Fazendário Estadual, conhecimentos gerais, aplicação 25/1/2026, questão 17; gabarito oficial definitivo C.** A questão identifica o poder pelo qual o Estado limita direitos individuais em benefício do interesse público. A U105 usa adaptação não literal em `u105-p01`.  
+10. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Secretaria de Estado da Fazenda do Paraná — Agente Fazendário Estadual, conhecimentos gerais, aplicação 25/1/2026, questão 17; gabarito oficial definitivo C.** A questão identifica o poder pelo qual o Estado limita direitos individuais em benefício do interesse público. A SEAP-U051 usa adaptação não literal em `u105-p01`.  
     Caderno: https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf  
     Gabarito: https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/312CB25D08249F85421C7734C8F65CA2E8B7BFAE8522168D6F7A9977A3F202C6.pdf
 
-11. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Tribunal de Contas do Estado do Rio Grande do Sul — Auditor de Controle Externo, conhecimentos gerais, aplicação 19/10/2025, item 79; gabarito oficial definitivo Certo.** O item trabalha a excepcionalidade da avocação no poder hierárquico. A U105 usa adaptação não literal em `u105-p02`, centrada na regra federal dos artigos 11 a 15 da Lei 9.784/1999.  
+11. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Tribunal de Contas do Estado do Rio Grande do Sul — Auditor de Controle Externo, conhecimentos gerais, aplicação 19/10/2025, item 79; gabarito oficial definitivo Certo.** O item trabalha a excepcionalidade da avocação no poder hierárquico. A SEAP-U051 usa adaptação não literal em `u105-p02`, centrada na regra federal dos artigos 11 a 15 da Lei 9.784/1999.  
     Caderno: https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/A07A9AB36794D46172971974AB0E10DD59F725E5E98C1B038920626F1434115E.pdf  
     Gabarito: https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/ED939BAF5B74F70525E21D4DA001CD500810EF5A5D2FC68B75B1935797F5D7D7.pdf
 
