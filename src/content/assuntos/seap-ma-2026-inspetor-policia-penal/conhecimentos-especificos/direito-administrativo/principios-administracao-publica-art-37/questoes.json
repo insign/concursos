@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u116-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os princípios expressos no caput do art. 37 da Constituição são",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalidade, impessoalidade, moralidade, publicidade e eficiência."
+        },
+        {
+          "id": "B",
+          "text": "legalidade, motivação, proporcionalidade, segurança jurídica e eficiência."
+        },
+        {
+          "id": "C",
+          "text": "impessoalidade, razoabilidade, autotutela, publicidade e supremacia."
+        },
+        {
+          "id": "D",
+          "text": "moralidade, indisponibilidade, hierarquia, publicidade e eficiência."
+        },
+        {
+          "id": "E",
+          "text": "legalidade, continuidade, especialidade, eficiência e motivação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput do art. 37 enumera legalidade, impessoalidade, moralidade, publicidade e eficiência."
+    },
+    {
+      "id": "u116-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A publicidade de atos, programas, obras, serviços e campanhas dos órgãos públicos deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter caráter educativo, informativo ou de orientação social e não caracterizar promoção pessoal."
+        },
+        {
+          "id": "B",
+          "text": "sempre conter nome e imagem da autoridade responsável."
+        },
+        {
+          "id": "C",
+          "text": "ser exclusivamente promocional."
+        },
+        {
+          "id": "D",
+          "text": "dispensar finalidade pública se houver interesse eleitoral."
+        },
+        {
+          "id": "E",
+          "text": "ser sigilosa por regra."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 37, §1º, exige caráter educativo, informativo ou de orientação social e veda promoção pessoal."
+    },
+    {
+      "id": "seap-u050-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma autoridade cria, por decisão própria, sanção não prevista no ordenamento aplicável porque a considera útil. O princípio mais diretamente violado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalidade."
+        },
+        {
+          "id": "B",
+          "text": "publicidade."
+        },
+        {
+          "id": "C",
+          "text": "eficiência."
+        },
+        {
+          "id": "D",
+          "text": "continuidade."
+        },
+        {
+          "id": "E",
+          "text": "especialidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Administração não pode criar competência ou sanção apenas por considerá-la conveniente; sua atuação precisa de fundamento jurídico."
+    },
+    {
+      "id": "seap-u050-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma campanha oficial destaca o nome e a imagem do gestor de forma a caracterizar promoção pessoal. O caso atinge diretamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas eficiência."
+        },
+        {
+          "id": "B",
+          "text": "impessoalidade e a disciplina constitucional da publicidade institucional."
+        },
+        {
+          "id": "C",
+          "text": "somente continuidade."
+        },
+        {
+          "id": "D",
+          "text": "apenas especialidade."
+        },
+        {
+          "id": "E",
+          "text": "livre iniciativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 37, § 1º, veda promoção pessoal em publicidade institucional e concretiza a impessoalidade."
+    },
+    {
+      "id": "seap-u050-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre moralidade administrativa, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é recomendação ética sem efeito jurídico."
+        },
+        {
+          "id": "B",
+          "text": "só se aplica quando uma lei usa a palavra moralidade."
+        },
+        {
+          "id": "C",
+          "text": "é princípio constitucional expresso e parâmetro jurídico de controle da atuação administrativa."
+        },
+        {
+          "id": "D",
+          "text": "autoriza afastar a legalidade quando a intenção do agente for boa."
+        },
+        {
+          "id": "E",
+          "text": "vale apenas para agentes eleitos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Moralidade integra expressamente o caput do artigo 37 e tem natureza jurídica; boa intenção não substitui legalidade."
+    },
+    {
+      "id": "seap-u050-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio da publicidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige divulgação irrestrita de qualquer dado em poder do Estado."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível com qualquer sigilo legal."
+        },
+        {
+          "id": "C",
+          "text": "autoriza propaganda pessoal se o ato divulgado for verdadeiro."
+        },
+        {
+          "id": "D",
+          "text": "favorece transparência e controle, sem eliminar sigilos constitucional ou legalmente legítimos."
+        },
+        {
+          "id": "E",
+          "text": "se aplica apenas ao Poder Executivo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Publicidade é regra de transparência e controle, mas convive com hipóteses juridicamente legítimas de sigilo e não autoriza promoção pessoal."
+    },
+    {
+      "id": "seap-u050-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Eficiência administrativa permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignorar procedimento legal para obter resultado mais rápido."
+        },
+        {
+          "id": "B",
+          "text": "buscar organização e resultados adequados dentro dos limites jurídicos."
+        },
+        {
+          "id": "C",
+          "text": "substituir legalidade por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "dispensar motivação sempre que houver economia."
+        },
+        {
+          "id": "E",
+          "text": "afastar direitos individuais por decisão gerencial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Eficiência opera em conjunto com os demais princípios e não cria autorização para desrespeitar a legalidade."
+    },
+    {
+      "id": "seap-u050-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Emenda Constitucional nº 19/1998 é relevante para este assunto porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "retirou a publicidade do artigo 37."
+        },
+        {
+          "id": "B",
+          "text": "incluiu expressamente a eficiência no caput do artigo 37."
+        },
+        {
+          "id": "C",
+          "text": "aboliu a moralidade administrativa."
+        },
+        {
+          "id": "D",
+          "text": "criou a Súmula Vinculante nº 13."
+        },
+        {
+          "id": "E",
+          "text": "limitou o artigo 37 à União."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Emenda Constitucional nº 19/1998 incluiu expressamente o princípio da eficiência no caput do artigo 37."
+    },
+    {
+      "id": "seap-u050-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a questão pede os princípios expressos no caput do artigo 37, a alternativa que inclui motivação no lugar de publicidade está",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque motivação substituiu publicidade."
+        },
+        {
+          "id": "B",
+          "text": "correta apenas para Estados."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque motivação não integra a enumeração literal do caput."
+        },
+        {
+          "id": "D",
+          "text": "correta desde 2025."
+        },
+        {
+          "id": "E",
+          "text": "incorreta porque eficiência também não está no caput."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Motivação é relevante no Direito Administrativo, mas a lista literal do caput é legalidade, impessoalidade, moralidade, publicidade e eficiência."
+    },
+    {
+      "id": "seap-u050-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula Vinculante nº 13 do Supremo Tribunal Federal é especialmente útil neste capítulo porque trata de",
+      "options": [
+        {
+          "id": "A",
+          "text": "nepotismo e proteção constitucional contra escolhas pessoais incompatíveis com os princípios do artigo 37."
+        },
+        {
+          "id": "B",
+          "text": "responsabilidade objetiva por acidente de trânsito."
+        },
+        {
+          "id": "C",
+          "text": "prazo de concurso público."
+        },
+        {
+          "id": "D",
+          "text": "prescrição de improbidade."
+        },
+        {
+          "id": "E",
+          "text": "porte de arma de fogo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vedação ao nepotismo é aplicação relevante dos princípios do artigo 37, especialmente impessoalidade, moralidade e eficiência."
+    },
+    {
+      "id": "seap-u050-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma alternativa afirma que a Administração pode escolher livremente qualquer medida não proibida em lei. A afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque a legalidade administrativa é idêntica à autonomia privada."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, porque a atuação administrativa exige competência e fundamento jurídico."
+        },
+        {
+          "id": "C",
+          "text": "correta se houver eficiência."
+        },
+        {
+          "id": "D",
+          "text": "correta se o agente não obtiver vantagem pessoal."
+        },
+        {
+          "id": "E",
+          "text": "correta apenas na administração indireta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A legalidade administrativa subordina a atuação ao ordenamento; ausência de proibição não equivale, por si só, a competência pública."
+    },
+    {
+      "id": "seap-u050-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os princípios do artigo 37",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicam-se apenas à Administração direta do Poder Executivo."
+        },
+        {
+          "id": "B",
+          "text": "alcançam a Administração direta e indireta de qualquer dos Poderes e entes federativos."
+        },
+        {
+          "id": "C",
+          "text": "não alcançam Municípios."
+        },
+        {
+          "id": "D",
+          "text": "não alcançam o Poder Judiciário em atividade administrativa."
+        },
+        {
+          "id": "E",
+          "text": "valem apenas para servidores efetivos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do artigo 37 alcança a Administração direta e indireta de qualquer dos Poderes da União, Estados, Distrito Federal e Municípios."
+    }
+  ]
+}
