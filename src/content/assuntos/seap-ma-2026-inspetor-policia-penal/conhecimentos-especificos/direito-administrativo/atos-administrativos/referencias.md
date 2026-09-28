@@ -39,11 +39,11 @@ As referências jurisprudenciais acima são anteriores ao corte legislativo e n�
 
 ## Provas anteriores usadas de modo não literal
 
-11. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. Polícia Civil do Maranhão — Investigador de Polícia, concurso 2017/2018, caderno 373, questão 22; gabarito definitivo C.** A questão original pergunta pelos elementos fundamentais do ato administrativo. A U102 usa adaptação não literal em `u102-p01`, preservando a ideia jurídica sem reproduzir o enunciado integral.  
+11. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. Polícia Civil do Maranhão — Investigador de Polícia, concurso 2017/2018, caderno 373, questão 22; gabarito definitivo C.** A questão original pergunta pelos elementos fundamentais do ato administrativo. A SEAP-U052 usa adaptação não literal em `u102-p01`, preservando a ideia jurídica sem reproduzir o enunciado integral.  
     Caderno: https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/373_SSPMA_APC_002_01.PDF  
     Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/GAB_DEFINITIVO_373_SSPMA_APC_002_01.PDF
 
-12. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. Polícia Civil de Rondônia — Delegado de Polícia, concurso 2022, prova oral de Direito Administrativo/Constitucional, questão 9, padrão de resposta.** O padrão diferencia cassação, revogação e anulação. A U102 usa adaptação não literal em `u102-p02`.  
+12. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. Polícia Civil de Rondônia — Delegado de Polícia, concurso 2022, prova oral de Direito Administrativo/Constitucional, questão 9, padrão de resposta.** O padrão diferencia cassação, revogação e anulação. A SEAP-U052 usa adaptação não literal em `u102-p02`.  
     https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/P_818_PC_RO_ORAL_DADM_DCONST_COMPADRAO.PDF
 
 ## Proveniência, identidade e fronteiras
