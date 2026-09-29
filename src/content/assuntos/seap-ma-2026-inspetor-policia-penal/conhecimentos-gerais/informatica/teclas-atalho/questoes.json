@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q3883",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Após pressionar `Win + D`, todas as janelas deixaram de aparecer, mas continuaram acessíveis pela barra de tarefas. O atalho",
+      "options": [
+        {
+          "id": "A",
+          "text": "encerrou todos os aplicativos."
+        },
+        {
+          "id": "B",
+          "text": "alternou a exibição da área de trabalho sem fechar as janelas."
+        },
+        {
+          "id": "C",
+          "text": "moveu as janelas para outra conta."
+        },
+        {
+          "id": "D",
+          "text": "finalizou os processos em segundo plano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Win + D` mostra ou oculta a área de trabalho; as janelas permanecem abertas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3886",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Windows 11, o servidor deseja abrir controles rápidos de rede e volume, sem acessar a Central de Notificações. O atalho adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "`Win + A`."
+        },
+        {
+          "id": "B",
+          "text": "`Win + N`."
+        },
+        {
+          "id": "C",
+          "text": "`Win + E`."
+        },
+        {
+          "id": "D",
+          "text": "`Alt + Enter`."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`Win + A` abre Configurações Rápidas; `Win + N` abre notificações e calendário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3889",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atalho Alt + Tab é usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar uma pasta."
+        },
+        {
+          "id": "B",
+          "text": "fechar o aplicativo anterior."
+        },
+        {
+          "id": "C",
+          "text": "alternar o foco entre janelas abertas."
+        },
+        {
+          "id": "D",
+          "text": "abrir as propriedades do arquivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Alt + Tab alterna entre janelas abertas sem encerrá-las. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3890",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao fechar uma área de trabalho virtual com Win + Ctrl + F4, o Windows normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "formata a unidade do usuário."
+        },
+        {
+          "id": "B",
+          "text": "encerra a sessão e todos os aplicativos."
+        },
+        {
+          "id": "C",
+          "text": "exclui os arquivos abertos naquela área."
+        },
+        {
+          "id": "D",
+          "text": "transfere as janelas para outra área de trabalho disponível."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Áreas virtuais organizam janelas dentro da mesma sessão; fechá-las não implica encerrar as janelas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3899",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Explorador, Alt + Enter",
+      "options": [
+        {
+          "id": "A",
+          "text": "abre as propriedades do item selecionado."
+        },
+        {
+          "id": "B",
+          "text": "move o item para a pasta superior."
+        },
+        {
+          "id": "C",
+          "text": "cria uma cópia na mesma pasta."
+        },
+        {
+          "id": "D",
+          "text": "altera o aplicativo padrão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Alt + Enter apresenta propriedades como tipo, localização, tamanho e metadados disponíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3902",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atalho do Explorador para criar nova pasta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl + E."
+        },
+        {
+          "id": "B",
+          "text": "Alt + Enter."
+        },
+        {
+          "id": "C",
+          "text": "Win + N."
+        },
+        {
+          "id": "D",
+          "text": "Ctrl + Shift + N."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ctrl + Shift + N cria uma nova pasta no local atual do Explorador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3917",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Explorador, Ctrl + E ou Ctrl + F",
+      "options": [
+        {
+          "id": "A",
+          "text": "fecha a janela."
+        },
+        {
+          "id": "B",
+          "text": "esvazia a Lixeira."
+        },
+        {
+          "id": "C",
+          "text": "leva o foco para a caixa de pesquisa."
+        },
+        {
+          "id": "D",
+          "text": "cria pasta compactada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os atalhos selecionam a pesquisa no escopo atual do Explorador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3926",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No comportamento padrão, Alt + F4",
+      "options": [
+        {
+          "id": "A",
+          "text": "abre o Explorador."
+        },
+        {
+          "id": "B",
+          "text": "bloqueia o computador."
+        },
+        {
+          "id": "C",
+          "text": "cria nova pasta."
+        },
+        {
+          "id": "D",
+          "text": "fecha a janela ativa; sem janelas abertas, pode apresentar a interface de desligamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Alt + F4 atua sobre a janela ativa e possui o comportamento adicional documentado quando não há janelas abertas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3927",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ctrl + Shift + Esc",
+      "options": [
+        {
+          "id": "A",
+          "text": "abre o Gerenciador de Tarefas."
+        },
+        {
+          "id": "B",
+          "text": "cria um atalho de arquivo."
+        },
+        {
+          "id": "C",
+          "text": "mostra extensões ocultas."
+        },
+        {
+          "id": "D",
+          "text": "abre a Lixeira."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O atalho abre o Gerenciador de Tarefas, que pode ser usado para diagnosticar ou finalizar processo sem resposta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3928",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pressionar Win + L",
+      "options": [
+        {
+          "id": "A",
+          "text": "encerra a sessão e fecha todos os aplicativos."
+        },
+        {
+          "id": "B",
+          "text": "bloqueia o computador, mantendo a sessão e os aplicativos."
+        },
+        {
+          "id": "C",
+          "text": "abre a Lixeira."
+        },
+        {
+          "id": "D",
+          "text": "desinstala o programa ativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Bloquear protege o acesso à sessão sem equivaler a sair da conta ou encerrar programas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3934",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atalho Win + I",
+      "options": [
+        {
+          "id": "A",
+          "text": "abre o menu de contexto clássico."
+        },
+        {
+          "id": "B",
+          "text": "fecha todas as janelas."
+        },
+        {
+          "id": "C",
+          "text": "inicia a Lixeira."
+        },
+        {
+          "id": "D",
+          "text": "abre o aplicativo Configurações."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Win + I é o atalho padrão para abrir as Configurações do Windows. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4419",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Por meio do Explorador de Arquivos do Windows 10, João pretendia arrastar uma pasta X, com todos os seus arquivos, para dentro da pasta Y. Porém, logo após a movimentação, João percebeu que tinha feito o movimento errado com o mouse, e arrastado a pasta X para dentro de outra pasta. Felizmente, João lembrou-se de um atalho de teclado e desfez a operação imediatamente.\n\nO atalho usado por João foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl+S"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl+Shift+D"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl+U"
+        },
+        {
+          "id": "D",
+          "text": "Ctrl+Y"
+        },
+        {
+          "id": "E",
+          "text": "Ctrl+Z"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "No contexto apresentado, `Ctrl+Z` desfaz a operação de movimentação realizada por engano no Explorador de Arquivos. Questão original da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Ministério Público do Estado de Goiás, Assistente de Informática, 2022, questão 34. Gabarito definitivo: E. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/assistente_de_informaticampgo-nm002_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3951",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma questão pergunta qual letra de atalho abre, salva ou seleciona tudo no Word, mas não informa idioma, plataforma nem personalização. A conduta mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que todo Word usa o mapa da interface inglesa."
+        },
+        {
+          "id": "B",
+          "text": "reconhecer a ambiguidade e priorizar o comando, a guia e o efeito, pois atalhos localizados podem variar."
+        },
+        {
+          "id": "C",
+          "text": "presumir que todo Word usa o mesmo mapa pt-BR."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a plataforma porque navegadores nunca interceptam atalhos."
+        },
+        {
+          "id": "E",
+          "text": "considerar que atalhos não podem ser personalizados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Atalhos por letras podem mudar com idioma, plataforma, layout e personalização. Sem delimitação, uma associação universal pode ser tecnicamente insegura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3969",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word, `Shift + Enter` insere",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma quebra de página na mesma seção."
+        },
+        {
+          "id": "B",
+          "text": "uma quebra de linha dentro do mesmo parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "uma quebra de seção em próxima página."
+        },
+        {
+          "id": "D",
+          "text": "um novo documento."
+        },
+        {
+          "id": "E",
+          "text": "um campo de número de página."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Shift + Enter` muda de linha sem criar nova marca de parágrafo. Quebra de página usa `Ctrl + Enter`, e quebra de seção é outro comando. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3986",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word para Windows, `F9` é usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "fechar o aplicativo."
+        },
+        {
+          "id": "B",
+          "text": "abrir o Editor de ortografia."
+        },
+        {
+          "id": "C",
+          "text": "inserir uma quebra de página."
+        },
+        {
+          "id": "D",
+          "text": "ativar o modo de leitura."
+        },
+        {
+          "id": "E",
+          "text": "atualizar os campos selecionados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Sumários, números, legendas e referências podem depender de campos atualizáveis com `F9`. `F7` abre o Editor, e os demais efeitos não correspondem à tecla. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4010",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Um servidor público da ALE-RO está redigindo um relatório extenso no Microsoft Word 365 (BR), no Windows 10 (BR). Para otimizar seu trabalho e evitar o uso excessivo do mouse, ele utiliza combinações de teclas para executar comandos comuns com mais agilidade.\nA seguir, relacione os atalhos de teclado às ações que o servidor deseja realizar.\n1. Ctrl + B\n2. Ctrl + T\n3. Ctrl + Z\n4. Ctrl + L\n( ) Salvar o documento em que está trabalhando.\n( ) Selecionar todo o texto do documento atual.\n( ) Desfazer a última ação realizada.\n( ) Pesquisar por uma palavra específica dentro do documento.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 – 2 – 3 – 4."
+        },
+        {
+          "id": "B",
+          "text": "2 – 1 – 3 – 4."
+        },
+        {
+          "id": "C",
+          "text": "4 – 3 – 2 – 1."
+        },
+        {
+          "id": "D",
+          "text": "1 – 3 – 4 – 2."
+        },
+        {
+          "id": "E",
+          "text": "3 – 4 – 1 – 2."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No ambiente explicitamente delimitado pela prova, Ctrl + B salva, Ctrl + T seleciona todo o texto, Ctrl + Z desfaz e Ctrl + L pesquisa, produzindo a sequência 1–2–3–4. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado de Rondônia (<abbr title=\"Assembleia Legislativa do Estado de Rondônia\">ALE-RO</abbr>); Assistente Legislativo — Sem Especialidade, Tipo 1 Branca, turno manhã; 2026; questão 21; prova: https://conhecimento.fgv.br/sites/default/files/concursos/cnmas01-assistente-legislativo-sem-especialidade-cnmas01-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/ale_ro-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "seap-u045-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Excel para Windows, qual atalho abre a caixa de diálogo Formatar Células no contexto documentado pela Microsoft?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl + 1"
+        },
+        {
+          "id": "B",
+          "text": "Win + E"
+        },
+        {
+          "id": "C",
+          "text": "Alt + F4"
+        },
+        {
+          "id": "D",
+          "text": "Ctrl + Shift + Esc"
+        },
+        {
+          "id": "E",
+          "text": "Win + L"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ctrl + 1 abre Formatar Células no Excel para Windows. O contexto do aplicativo é indispensável, pois a mesma combinação pode ter outra função em outro programa."
+    },
+    {
+      "id": "seap-u045-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante a edição de uma fórmula no Excel, uma referência de célula está selecionada. Qual tecla de função percorre combinações de referência relativa, mista e absoluta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "F1"
+        },
+        {
+          "id": "B",
+          "text": "F2"
+        },
+        {
+          "id": "C",
+          "text": "F4"
+        },
+        {
+          "id": "D",
+          "text": "F7"
+        },
+        {
+          "id": "E",
+          "text": "F9"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No Excel, F4 percorre as combinações de referência quando uma referência está selecionada na fórmula. Fora desse contexto, F4 pode ter outro efeito."
+    }
+  ]
+}
