@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u040-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual camada administra memória, processador e dispositivos para os programas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistema operacional."
+        },
+        {
+          "id": "B",
+          "text": "arquivo de usuário."
+        },
+        {
+          "id": "C",
+          "text": "documento de texto."
+        },
+        {
+          "id": "D",
+          "text": "atalho."
+        },
+        {
+          "id": "E",
+          "text": "página web."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sistema operacional coordena recursos e oferece serviços aos programas."
+    },
+    {
+      "id": "seap-u040-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um editor de texto é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "firmware."
+        },
+        {
+          "id": "B",
+          "text": "software de aplicação."
+        },
+        {
+          "id": "C",
+          "text": "hardware."
+        },
+        {
+          "id": "D",
+          "text": "sistema de arquivos."
+        },
+        {
+          "id": "E",
+          "text": "driver obrigatório do processador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aplicativos executam tarefas voltadas ao usuário."
+    },
+    {
+      "id": "seap-u040-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Firmware é melhor descrito como",
+      "options": [
+        {
+          "id": "A",
+          "text": "peça mecânica."
+        },
+        {
+          "id": "B",
+          "text": "interface gráfica."
+        },
+        {
+          "id": "C",
+          "text": "software armazenado no próprio hardware para funções básicas do dispositivo."
+        },
+        {
+          "id": "D",
+          "text": "arquivo temporário comum."
+        },
+        {
+          "id": "E",
+          "text": "aplicativo de escritório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Firmware continua sendo software, embora associado ao hardware."
+    },
+    {
+      "id": "seap-u040-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma instância de um programa em execução é chamada de",
+      "options": [
+        {
+          "id": "A",
+          "text": "pasta."
+        },
+        {
+          "id": "B",
+          "text": "atalho."
+        },
+        {
+          "id": "C",
+          "text": "firmware."
+        },
+        {
+          "id": "D",
+          "text": "processo."
+        },
+        {
+          "id": "E",
+          "text": "extensão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Processo é uma execução ativa de um programa."
+    },
+    {
+      "id": "seap-u040-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fechar uma janela de aplicativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre apaga seus arquivos."
+        },
+        {
+          "id": "B",
+          "text": "desinstala automaticamente o programa."
+        },
+        {
+          "id": "C",
+          "text": "converte o aplicativo em firmware."
+        },
+        {
+          "id": "D",
+          "text": "remove o sistema operacional."
+        },
+        {
+          "id": "E",
+          "text": "não significa, por si só, desinstalar o programa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Encerrar uma execução e remover uma instalação são operações diferentes."
+    },
+    {
+      "id": "seap-u040-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Alterar o aplicativo padrão associado a um tipo de arquivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "muda o programa usado por padrão para abrir o tipo, sem converter automaticamente o conteúdo."
+        },
+        {
+          "id": "B",
+          "text": "sempre converte o arquivo."
+        },
+        {
+          "id": "C",
+          "text": "apaga a extensão."
+        },
+        {
+          "id": "D",
+          "text": "desinstala o programa anterior."
+        },
+        {
+          "id": "E",
+          "text": "altera o hardware."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Associação define o aplicativo preferencial, não o formato interno."
+    },
+    {
+      "id": "seap-u040-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um driver tem como função típica",
+      "options": [
+        {
+          "id": "A",
+          "text": "guardar documentos pessoais."
+        },
+        {
+          "id": "B",
+          "text": "permitir que o sistema operacional controle e utilize um dispositivo."
+        },
+        {
+          "id": "C",
+          "text": "substituir a memória física."
+        },
+        {
+          "id": "D",
+          "text": "converter todo arquivo aberto."
+        },
+        {
+          "id": "E",
+          "text": "ser o sistema operacional completo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Drivers fazem a ponte entre sistema e hardware específico."
+    },
+    {
+      "id": "seap-u040-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre atualização de software, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sempre exige formatação completa."
+        },
+        {
+          "id": "B",
+          "text": "Sempre remove todos os dados."
+        },
+        {
+          "id": "C",
+          "text": "Pode corrigir ou substituir componentes sem implicar reinstalação completa por definição."
+        },
+        {
+          "id": "D",
+          "text": "Só existe para firmware."
+        },
+        {
+          "id": "E",
+          "text": "É sinônimo de desinstalação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atualização e reinstalação completa são conceitos diferentes."
+    },
+    {
+      "id": "seap-u040-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A interface gráfica de um sistema operacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "é todo o sistema operacional."
+        },
+        {
+          "id": "B",
+          "text": "substitui os serviços internos."
+        },
+        {
+          "id": "C",
+          "text": "é hardware."
+        },
+        {
+          "id": "D",
+          "text": "é um meio de interação, não a totalidade do sistema."
+        },
+        {
+          "id": "E",
+          "text": "não pode coexistir com linha de comando."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A interface é uma camada de interação."
+    },
+    {
+      "id": "seap-u040-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Instalar um aplicativo normalmente significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar apenas um atalho."
+        },
+        {
+          "id": "B",
+          "text": "renomear sua extensão."
+        },
+        {
+          "id": "C",
+          "text": "movê-lo para a Lixeira."
+        },
+        {
+          "id": "D",
+          "text": "executá-lo sem gravar nada em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "disponibilizar componentes e configurações necessários ao uso, conforme o mecanismo do sistema."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Instalação prepara o software para uso, não somente cria uma referência."
+    },
+    {
+      "id": "u023-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente sistema operacional e gerenciador de arquivos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O gerenciador de arquivos é o sistema operacional inteiro."
+        },
+        {
+          "id": "B",
+          "text": "O sistema operacional coordena recursos; o gerenciador de arquivos é um aplicativo usado para navegar e operar sobre arquivos e diretórios."
+        },
+        {
+          "id": "C",
+          "text": "Todo arquivo é um sistema operacional independente."
+        },
+        {
+          "id": "D",
+          "text": "O sistema operacional serve apenas para desenhar ícones na área de trabalho."
+        },
+        {
+          "id": "E",
+          "text": "O gerenciador de arquivos substitui memória, processador e dispositivos físicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema operacional oferece serviços e gerencia recursos; Explorador de Arquivos ou GNOME Files são aplicativos/interface para manipular itens. Fonte: referências da unidade."
+    },
+    {
+      "id": "u023-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual operação gráfica produz uma cópia independente no destino e preserva o original?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recortar e colar."
+        },
+        {
+          "id": "B",
+          "text": "Copiar e colar."
+        },
+        {
+          "id": "C",
+          "text": "Criar link simbólico."
+        },
+        {
+          "id": "D",
+          "text": "Criar atalho."
+        },
+        {
+          "id": "E",
+          "text": "Renomear."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Copiar e colar mantém a origem e cria outro item no destino; recortar e colar move. Fonte: Microsoft/Ubuntu nas referências da unidade."
+    },
+    {
+      "id": "u023-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre um atalho do Windows, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É sempre uma cópia integral do alvo."
+        },
+        {
+          "id": "B",
+          "text": "Excluir o atalho necessariamente desinstala o programa apontado."
+        },
+        {
+          "id": "C",
+          "text": "É uma referência ao alvo; apagar apenas a referência não apaga, por si só, o alvo."
+        },
+        {
+          "id": "D",
+          "text": "Não pode apontar para arquivos."
+        },
+        {
+          "id": "E",
+          "text": "É idêntico a um diretório Linux."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atalho e alvo são objetos distintos. Alterar ou remover o alvo pode quebrar a referência, mas remover só o atalho não apaga o destino. Fonte: conteúdo doador auditado."
+    },
+    {
+      "id": "u023-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da área de transferência em operações de arquivos, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copiar já cria imediatamente o arquivo em qualquer pasta de destino."
+        },
+        {
+          "id": "B",
+          "text": "Ela funciona como etapa intermediária; a operação no destino se concretiza com a colagem."
+        },
+        {
+          "id": "C",
+          "text": "Recortar sempre destrói o arquivo antes de qualquer colagem."
+        },
+        {
+          "id": "D",
+          "text": "Ela existe apenas no Linux."
+        },
+        {
+          "id": "E",
+          "text": "Ela transforma atalhos em cópias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Copiar/recortar prepara dados ou referências para a operação; a colagem realiza a ação no destino. Fonte: documentação Microsoft/Ubuntu."
+    },
+    {
+      "id": "u023-p01",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> de 2025 testou a alteração manual da extensão de um arquivo no Windows 11. Em uma adaptação do mesmo mecanismo, qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Renomear `foto.jpg` para `foto.png` converte automaticamente os dados para PNG."
+        },
+        {
+          "id": "B",
+          "text": "A troca da extensão recompõe automaticamente metadados e estrutura interna."
+        },
+        {
+          "id": "C",
+          "text": "Mudar apenas o nome/extensão não converte o conteúdo; a conversão exige que um programa grave o formato de destino."
+        },
+        {
+          "id": "D",
+          "text": "Toda troca de extensão apaga o arquivo."
+        },
+        {
+          "id": "E",
+          "text": "A extensão é irrelevante para associações de aplicativos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item original 31 foi julgado ERRADO no gabarito definitivo: renomear a extensão não converte a estrutura interna. Adaptação da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> 2025, caderno 088_FUB_CB2_01, item 31; gabarito definitivo E."
+    },
+    {
+      "id": "u023-p02",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> de 2025 afirmava que mover um arquivo entre pastas do mesmo disco o duplicaria. Em uma adaptação, qual resultado caracteriza a movimentação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O arquivo permanece obrigatoriamente nos dois locais."
+        },
+        {
+          "id": "B",
+          "text": "O item deixa a localização anterior e passa para o novo local, sem que a operação de mover seja definida como duplicação."
+        },
+        {
+          "id": "C",
+          "text": "O conteúdo é convertido em atalho."
+        },
+        {
+          "id": "D",
+          "text": "O arquivo é compactado automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "O arquivo passa para a área de transferência de forma permanente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original 24 foi julgado ERRADO: mover não é duplicar e manter nos dois locais. Adaptação da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> 2025, caderno 088_FUB_CB4_01, item 24; gabarito definitivo E."
+    },
+    {
+      "id": "u023-p03",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma questão da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> de 2025 tratou do arrasto de um arquivo para a área de trabalho do Windows. Qual conclusão deve ser evitada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A operação precisa ser analisada conforme origem, destino e comportamento do gerenciador."
+        },
+        {
+          "id": "B",
+          "text": "Arrastar para a área de trabalho cria automaticamente e em qualquer caso apenas um atalho, sem mover nem copiar o item."
+        },
+        {
+          "id": "C",
+          "text": "A área de trabalho pode conter referências e arquivos."
+        },
+        {
+          "id": "D",
+          "text": "O efeito do arrasto não deve ser inferido apenas pelo fato de o destino ser visível na área de trabalho."
+        },
+        {
+          "id": "E",
+          "text": "Uma referência e uma cópia são objetos diferentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item original 23 foi julgado ERRADO: não se pode afirmar que o arrasto para a área de trabalho gere automaticamente apenas um atalho. Adaptação da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> 2025, caderno 088_FUB_CB4_01, item 23; gabarito definitivo E."
+    }
+  ]
+}
