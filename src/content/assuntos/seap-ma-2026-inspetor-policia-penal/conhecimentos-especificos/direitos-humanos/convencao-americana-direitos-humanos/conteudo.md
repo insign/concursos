@@ -8,7 +8,7 @@ storageId: "seap-u091"
 
 # Convenção Americana: direitos essenciais + mecanismos regionais de proteção
 
-A **Convenção Americana sobre Direitos Humanos — CADH**, também chamada Pacto de San José da Costa Rica, foi adotada em 1969 e promulgada no Brasil pelo Decreto nº 678/1992.
+A **Convenção Americana sobre Direitos Humanos — <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr>**, também chamada Pacto de San José da Costa Rica, foi adotada em 1969 e promulgada no Brasil pelo Decreto nº 678/1992.
 
 O preâmbulo apresenta a proteção internacional como **coadjuvante ou complementar** da proteção interna.
 
@@ -156,9 +156,9 @@ O artigo 25 exige recurso **simples, rápido ou efetivo** perante juiz ou tribun
 
 ## 7. Artigo 26: desenvolvimento progressivo
 
-A CADH não se limita a direitos civis e políticos.
+A <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> não se limita a direitos civis e políticos.
 
-O artigo 26 compromete os Estados com medidas para alcançar progressivamente direitos derivados das normas econômicas, sociais, educacionais, científicas e culturais da Carta da OEA, nos termos do tratado.
+O artigo 26 compromete os Estados com medidas para alcançar progressivamente direitos derivados das normas econômicas, sociais, educacionais, científicas e culturais da Carta da <abbr title="Organização dos Estados Americanos">OEA</abbr>, nos termos do tratado.
 
 ## 8. Artigo 27: emergência não suspende tudo
 
@@ -201,7 +201,7 @@ O artigo 33 identifica:
 O artigo 44 permite petições à **Comissão** por:
 - pessoa;
 - grupo de pessoas;
-- entidade não governamental reconhecida em Estado membro da OEA.
+- entidade não governamental reconhecida em Estado membro da <abbr title="Organização dos Estados Americanos">OEA</abbr>.
 
 A vítima não submete diretamente um caso contencioso à Corte.
 
@@ -247,4 +247,4 @@ Ser parte da Convenção desde 1992 não significa que a competência contencios
 - prisão por dívida tem ressalva para obrigação alimentar;
 - artigo 13 ≠ censura prévia geral;
 - artigo 25 ≠ apenas “recurso rápido”: a fórmula convencional é simples, rápido **ou** efetivo;
-- CADH no Brasil desde 1992 ≠ reconhecimento obrigatório da Corte desde 1992.
+- <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> no Brasil desde 1992 ≠ reconhecimento obrigatório da Corte desde 1992.
