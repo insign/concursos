@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u108-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 31/2022 regulamenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "implementação, acompanhamento, fiscalização e encerramento de medidas de monitoração eletrônica decorrentes de ordens judiciais."
+        },
+        {
+          "id": "B",
+          "text": "educação prisional."
+        },
+        {
+          "id": "C",
+          "text": "assistência material."
+        },
+        {
+          "id": "D",
+          "text": "saúde mental."
+        },
+        {
+          "id": "E",
+          "text": "regime disciplinar diferenciado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o objeto do art. 1º."
+    },
+    {
+      "id": "seap-u108-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os serviços de monitoração devem se estruturar como",
+      "options": [
+        {
+          "id": "A",
+          "text": "órgãos judiciais."
+        },
+        {
+          "id": "B",
+          "text": "Centrais de Monitoração Eletrônica."
+        },
+        {
+          "id": "C",
+          "text": "empresas privadas autônomas."
+        },
+        {
+          "id": "D",
+          "text": "conselhos comunitários."
+        },
+        {
+          "id": "E",
+          "text": "unidades hospitalares."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º prevê Centrais no âmbito do Poder Executivo."
+    },
+    {
+      "id": "seap-u108-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As atividades-fim de acompanhamento e fiscalização são",
+      "options": [
+        {
+          "id": "A",
+          "text": "livremente terceirizáveis."
+        },
+        {
+          "id": "B",
+          "text": "exclusivas de empresas de tecnologia."
+        },
+        {
+          "id": "C",
+          "text": "exclusivas de servidores públicos do sistema penitenciário."
+        },
+        {
+          "id": "D",
+          "text": "atribuição do Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "atribuição das vítimas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "É a regra expressa do art. 2º, § 5º."
+    },
+    {
+      "id": "seap-u108-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Monitoração eletrônica é definida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "vigilância visual presencial."
+        },
+        {
+          "id": "B",
+          "text": "pena autônoma."
+        },
+        {
+          "id": "C",
+          "text": "controle apenas telefônico."
+        },
+        {
+          "id": "D",
+          "text": "vigilância telemática posicional com indicação de localização em tempo real."
+        },
+        {
+          "id": "E",
+          "text": "medida administrativa sem ordem judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essa é a definição do art. 4º."
+    },
+    {
+      "id": "seap-u108-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as finalidades da monitoração está",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente prisão definitiva."
+        },
+        {
+          "id": "B",
+          "text": "apenas controle disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente localizar foragidos."
+        },
+        {
+          "id": "D",
+          "text": "somente substituir pena de multa."
+        },
+        {
+          "id": "E",
+          "text": "dar efetividade a medida protetiva de urgência, cautelar diversa da prisão e outras decisões judiciais previstas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 5º tem finalidades múltiplas."
+    },
+    {
+      "id": "seap-u108-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Central deve comunicar ao juízo fato que possa levar à revogação ou modificação da medida em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "48 horas."
+        },
+        {
+          "id": "B",
+          "text": "24 horas."
+        },
+        {
+          "id": "C",
+          "text": "72 horas."
+        },
+        {
+          "id": "D",
+          "text": "5 dias."
+        },
+        {
+          "id": "E",
+          "text": "10 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 6º fixa até 48 horas."
+    },
+    {
+      "id": "seap-u108-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A monitoração começa após",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a instalação física."
+        },
+        {
+          "id": "B",
+          "text": "ordem judicial, instalação/configuração e cadastro das condições no sistema."
+        },
+        {
+          "id": "C",
+          "text": "comunicação verbal do policial."
+        },
+        {
+          "id": "D",
+          "text": "decisão da empresa fornecedora."
+        },
+        {
+          "id": "E",
+          "text": "cadastro sem ordem judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 7º exige o conjunto de passos."
+    },
+    {
+      "id": "seap-u108-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O intervalo entre coleta e envio de localização não pode ser superior a",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 segundos."
+        },
+        {
+          "id": "B",
+          "text": "10 segundos."
+        },
+        {
+          "id": "C",
+          "text": "30 segundos."
+        },
+        {
+          "id": "D",
+          "text": "5 minutos."
+        },
+        {
+          "id": "E",
+          "text": "30 minutos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 2º do art. 7º fixa 30 segundos."
+    },
+    {
+      "id": "seap-u108-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A capacidade mínima de bateria do dispositivo individual deve ser de",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 horas."
+        },
+        {
+          "id": "B",
+          "text": "12 horas."
+        },
+        {
+          "id": "C",
+          "text": "18 horas."
+        },
+        {
+          "id": "D",
+          "text": "24 horas."
+        },
+        {
+          "id": "E",
+          "text": "48 horas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 3º do art. 7º fixa capacidade mínima de 24 horas."
+    },
+    {
+      "id": "seap-u108-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Alterações nas condições monitoradas passam a vigorar",
+      "options": [
+        {
+          "id": "A",
+          "text": "automaticamente quando inseridas no sistema."
+        },
+        {
+          "id": "B",
+          "text": "sem ciência da pessoa."
+        },
+        {
+          "id": "C",
+          "text": "após aviso por terceiro."
+        },
+        {
+          "id": "D",
+          "text": "apenas no mês seguinte."
+        },
+        {
+          "id": "E",
+          "text": "depois de comunicação pessoal à pessoa monitorada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "É a regra do parágrafo único do art. 8º."
+    },
+    {
+      "id": "seap-u108-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em violência doméstica, a vítima pode receber <abbr title=\"Unidade Portátil de Rastreamento\">UPR</abbr>",
+      "options": [
+        {
+          "id": "A",
+          "text": "desde que manifeste anuência."
+        },
+        {
+          "id": "B",
+          "text": "obrigatoriamente em todo caso."
+        },
+        {
+          "id": "C",
+          "text": "somente com pagamento."
+        },
+        {
+          "id": "D",
+          "text": "apenas após condenação definitiva."
+        },
+        {
+          "id": "E",
+          "text": "sem qualquer informação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A anuência é requisito expresso do art. 9º."
+    },
+    {
+      "id": "seap-u108-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ausência de cobertura telefônica, sinal de <abbr title=\"Sistema de Posicionamento Global\">GPS</abbr> ou energia elétrica",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser ignorada."
+        },
+        {
+          "id": "B",
+          "text": "pode constituir impedimento técnico a ser comunicado ao juízo em até 48 horas."
+        },
+        {
+          "id": "C",
+          "text": "revoga automaticamente a ordem."
+        },
+        {
+          "id": "D",
+          "text": "autoriza retirada unilateral do dispositivo."
+        },
+        {
+          "id": "E",
+          "text": "é sempre culpa da pessoa monitorada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 10 exige comunicação técnica ao juízo."
+    },
+    {
+      "id": "seap-u108-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma falha no equipamento deve ser informada pela pessoa monitorada à Central em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 minutos."
+        },
+        {
+          "id": "B",
+          "text": "30 minutos."
+        },
+        {
+          "id": "C",
+          "text": "1 hora."
+        },
+        {
+          "id": "D",
+          "text": "12 horas."
+        },
+        {
+          "id": "E",
+          "text": "24 horas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 11 prevê comunicação em até uma hora."
+    },
+    {
+      "id": "seap-u108-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A flexibilização de condições pela Central pode ocorrer",
+      "options": [
+        {
+          "id": "A",
+          "text": "livremente, sem decisão judicial."
+        },
+        {
+          "id": "B",
+          "text": "por prazo ilimitado."
+        },
+        {
+          "id": "C",
+          "text": "somente para trabalho."
+        },
+        {
+          "id": "D",
+          "text": "quando houver autorização judicial prévia e comprovação da hipótese, por até 90 dias renováveis."
+        },
+        {
+          "id": "E",
+          "text": "apenas em saúde."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 12 limita a atuação da Central à autorização judicial e comprovação."
+    },
+    {
+      "id": "seap-u108-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui possível ocorrência de descumprimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas rompimento físico."
+        },
+        {
+          "id": "B",
+          "text": "somente ausência em audiência."
+        },
+        {
+          "id": "C",
+          "text": "somente atraso no trabalho."
+        },
+        {
+          "id": "D",
+          "text": "apenas troca de residência."
+        },
+        {
+          "id": "E",
+          "text": "violação de área, horário, perda de sinal, descarga completa, violação ou dano do dispositivo, conforme o caso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 13 lista várias ocorrências."
+    },
+    {
+      "id": "seap-u108-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após incidente, a convocação para solução técnica pode ocorrer em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas, admitido ajuste que não ultrapasse 48 horas."
+        },
+        {
+          "id": "B",
+          "text": "7 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o fluxo do art. 14."
+    },
+    {
+      "id": "seap-u108-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na monitoração de caráter cautelar substitutivo e temporário, a Central envia relatório ao juízo",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensalmente."
+        },
+        {
+          "id": "B",
+          "text": "a cada 90 dias."
+        },
+        {
+          "id": "C",
+          "text": "anualmente."
+        },
+        {
+          "id": "D",
+          "text": "somente ao fim."
+        },
+        {
+          "id": "E",
+          "text": "a cada 24 horas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 15 fixa relatório a cada 90 dias."
+    },
+    {
+      "id": "seap-u108-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sistema de monitoração deve ser estruturado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "publicar toda localização."
+        },
+        {
+          "id": "B",
+          "text": "permitir consulta pública."
+        },
+        {
+          "id": "C",
+          "text": "preservar sigilo dos dados e informações da pessoa monitorada."
+        },
+        {
+          "id": "D",
+          "text": "compartilhar dados sem limite."
+        },
+        {
+          "id": "E",
+          "text": "dispensar proteção informacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 16 exige sigilo."
+    },
+    {
+      "id": "seap-u108-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 31/2022 revogou expressamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Resolução nº 4/2017."
+        },
+        {
+          "id": "B",
+          "text": "a Resolução nº 3/2009."
+        },
+        {
+          "id": "C",
+          "text": "a Resolução nº 1/2014."
+        },
+        {
+          "id": "D",
+          "text": "a Resolução nº 5/2017."
+        },
+        {
+          "id": "E",
+          "text": "a Lei de Execução Penal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 19 revoga a Resolução nº 5/2017."
+    },
+    {
+      "id": "seap-u108-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor distinção entre Central e juízo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Central decide a pena."
+        },
+        {
+          "id": "B",
+          "text": "a Central revoga qualquer medida."
+        },
+        {
+          "id": "C",
+          "text": "o juízo apenas fornece equipamento."
+        },
+        {
+          "id": "D",
+          "text": "ambos exercem a mesma função."
+        },
+        {
+          "id": "E",
+          "text": "a Central administra, acompanha e informa; a autoridade judicial decide as condições e consequências jurídicas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A resolução preserva a competência judicial."
+    }
+  ]
+}
