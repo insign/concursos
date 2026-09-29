@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u098-a01",
@@ -64,17 +64,17 @@
     },
     {
       "id": "seap-u098-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O trabalho do preso",
       "options": [
         {
           "id": "A",
-          "text": "é regido integralmente pela CLT."
+          "text": "é regido integralmente pela <abbr title=\"Consolidação das Leis do Trabalho\">CLT</abbr>."
         },
         {
           "id": "B",
-          "text": "não está sujeito ao regime da CLT."
+          "text": "não está sujeito ao regime da <abbr title=\"Consolidação das Leis do Trabalho\">CLT</abbr>."
         },
         {
           "id": "C",
@@ -90,7 +90,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O artigo 28, § 2º, exclui o regime da CLT."
+      "explanation": "O artigo 28, § 2º, exclui o regime da <abbr title=\"Consolidação das Leis do Trabalho\">CLT</abbr>."
     },
     {
       "id": "seap-u098-a04",
@@ -154,7 +154,7 @@
     },
     {
       "id": "seap-u098-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "São órgãos da execução penal, entre outros,",
       "options": [
@@ -164,7 +164,7 @@
         },
         {
           "id": "B",
-          "text": "CNPCP, Juízo, Ministério Público, Conselho Penitenciário, Departamentos, Patronato, Conselho da Comunidade e Defensoria."
+          "text": "<abbr title=\"Conselho Nacional de Política Criminal e Penitenciária\">CNPCP</abbr>, Juízo, Ministério Público, Conselho Penitenciário, Departamentos, Patronato, Conselho da Comunidade e Defensoria."
         },
         {
           "id": "C",
@@ -184,9 +184,9 @@
     },
     {
       "id": "seap-u098-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O RDD",
+      "prompt": "O <abbr title=\"Regime Disciplinar Diferenciado\">RDD</abbr>",
       "options": [
         {
           "id": "A",
@@ -210,13 +210,13 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O RDD integra o sistema disciplinar."
+      "explanation": "O <abbr title=\"Regime Disciplinar Diferenciado\">RDD</abbr> integra o sistema disciplinar."
     },
     {
       "id": "seap-u098-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O prazo máximo ordinário do RDD no artigo 52 é de",
+      "prompt": "O prazo máximo ordinário do <abbr title=\"Regime Disciplinar Diferenciado\">RDD</abbr> no artigo 52 é de",
       "options": [
         {
           "id": "A",
@@ -244,9 +244,9 @@
     },
     {
       "id": "seap-u098-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Após as alterações de 2026, pode solicitar ao juiz inclusão no RDD desde o recolhimento, presentes os pressupostos,",
+      "prompt": "Após as alterações de 2026, pode solicitar ao juiz inclusão no <abbr title=\"Regime Disciplinar Diferenciado\">RDD</abbr> desde o recolhimento, presentes os pressupostos,",
       "options": [
         {
           "id": "A",
@@ -664,7 +664,7 @@
     },
     {
       "id": "seap-u098-a23",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O preso provisório, quanto ao trabalho,",
       "options": [
@@ -686,7 +686,7 @@
         },
         {
           "id": "E",
-          "text": "segue CLT."
+          "text": "segue <abbr title=\"Consolidação das Leis do Trabalho\">CLT</abbr>."
         }
       ],
       "correctOptionId": "B",
@@ -694,7 +694,7 @@
     },
     {
       "id": "seap-u098-a24",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A cela escura e as sanções coletivas",
       "options": [
@@ -712,7 +712,7 @@
         },
         {
           "id": "D",
-          "text": "são próprias do RDD."
+          "text": "são próprias do <abbr title=\"Regime Disciplinar Diferenciado\">RDD</abbr>."
         },
         {
           "id": "E",
