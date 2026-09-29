@@ -61,7 +61,7 @@ Comando individual/coletivo:
 
 → pena agravada, mesmo sem ato executivo pessoal.
 
-### § 4º — corte SEAP-MA
+### § 4º — corte <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP-MA</abbr>
 
 Aumento **1/6–2/3**:
 
