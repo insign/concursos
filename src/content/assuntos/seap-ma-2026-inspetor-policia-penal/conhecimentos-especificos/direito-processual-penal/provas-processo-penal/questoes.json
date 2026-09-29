@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "u093-a01",
@@ -274,7 +274,7 @@
     },
     {
       "id": "u093-a10",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A confissão no processo penal é",
       "options": [
@@ -300,7 +300,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Os arts. 197 e 200 exigem confronto com o conjunto probatório e qualificam a confissão como divisível e retratável."
+      "explanation": "Os <abbr title=\"artigos\">arts.</abbr> 197 e 200 exigem confronto com o conjunto probatório e qualificam a confissão como divisível e retratável."
     },
     {
       "id": "u093-a11",
@@ -544,7 +544,7 @@
     },
     {
       "id": "u093-a19",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sobre documentos no processo penal, assinale a alternativa correta.",
       "options": [
@@ -570,7 +570,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O <abbr title=\"artigo\">art.</abbr> 231 permite, em regra, apresentação em qualquer fase. Os demais itens contrariam os arts. 233, 235 e 236."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 231 permite, em regra, apresentação em qualquer fase. Os demais itens contrariam os <abbr title=\"artigos\">arts.</abbr> 233, 235 e 236."
     },
     {
       "id": "u093-a20",
