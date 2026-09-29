@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u090-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Regras de Nelson Mandela constituem",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratado multilateral ratificado pelo Brasil."
+        },
+        {
+          "id": "B",
+          "text": "regras mínimas adotadas pela Assembleia Geral da ONU como padrão internacional de tratamento de reclusos."
+        },
+        {
+          "id": "C",
+          "text": "lei federal brasileira."
+        },
+        {
+          "id": "D",
+          "text": "decreto estadual."
+        },
+        {
+          "id": "E",
+          "text": "sentença da Corte Interamericana."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As regras foram adotadas pela Assembleia Geral como Regras Mínimas; não devem ser tratadas como tratado."
+    },
+    {
+      "id": "seap-u090-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Regra 1 estabelece como núcleo",
+      "options": [
+        {
+          "id": "A",
+          "text": "supremacia da disciplina sobre dignidade."
+        },
+        {
+          "id": "B",
+          "text": "dignidade e proibição de tortura e tratamentos cruéis, desumanos ou degradantes."
+        },
+        {
+          "id": "C",
+          "text": "isolamento obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "trabalho forçado."
+        },
+        {
+          "id": "E",
+          "text": "restrição familiar permanente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Dignidade e proibição de maus-tratos são princípios centrais."
+    },
+    {
+      "id": "seap-u090-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Atender necessidades específicas de pessoas vulneráveis, segundo as Regras de Nelson Mandela,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre discriminação."
+        },
+        {
+          "id": "B",
+          "text": "pode ser necessário e não constitui discriminação indevida."
+        },
+        {
+          "id": "C",
+          "text": "é proibido."
+        },
+        {
+          "id": "D",
+          "text": "depende de condenação."
+        },
+        {
+          "id": "E",
+          "text": "só vale para estrangeiros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Igualdade material admite medidas para necessidades específicas."
+    },
+    {
+      "id": "seap-u090-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A assistência de saúde no cárcere deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter padrão necessariamente inferior ao da comunidade."
+        },
+        {
+          "id": "B",
+          "text": "assegurar padrão equivalente ao disponível na comunidade e acesso gratuito necessário."
+        },
+        {
+          "id": "C",
+          "text": "ser paga pela família."
+        },
+        {
+          "id": "D",
+          "text": "ser condicionada à disciplina."
+        },
+        {
+          "id": "E",
+          "text": "excluir saúde mental."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Regra 24 trabalha com equivalência e responsabilidade estatal."
+    },
+    {
+      "id": "seap-u090-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Isolamento, para as Regras de Nelson Mandela, é confinamento por",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 horas sem visitas."
+        },
+        {
+          "id": "B",
+          "text": "22 horas ou mais por dia sem contato humano significativo."
+        },
+        {
+          "id": "C",
+          "text": "24 horas com contato social."
+        },
+        {
+          "id": "D",
+          "text": "15 dias contínuos, apenas."
+        },
+        {
+          "id": "E",
+          "text": "qualquer permanência noturna em cela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a definição da Regra 44."
+    },
+    {
+      "id": "seap-u090-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Isolamento prolongado é o que excede",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias consecutivos."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "60 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Regra 44 define prolongado como período superior a quinze dias consecutivos."
+    },
+    {
+      "id": "seap-u090-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O isolamento deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "rotineiro."
+        },
+        {
+          "id": "B",
+          "text": "primeira resposta disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "excepcional, último recurso, por menor tempo possível e sujeito a revisão."
+        },
+        {
+          "id": "D",
+          "text": "indefinido para faltas graves."
+        },
+        {
+          "id": "E",
+          "text": "automático por sentença."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Regra 45 impõe excepcionalidade e salvaguardas."
+    },
+    {
+      "id": "seap-u090-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Como sanção disciplinar, as regras",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitem reduzir água."
+        },
+        {
+          "id": "B",
+          "text": "permitem contenção."
+        },
+        {
+          "id": "C",
+          "text": "proíbem castigo corporal e redução de alimento ou água."
+        },
+        {
+          "id": "D",
+          "text": "exigem isolamento de 30 dias."
+        },
+        {
+          "id": "E",
+          "text": "autorizam cela escura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essas formas de punição estão entre as proibidas."
+    },
+    {
+      "id": "seap-u090-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O contato familiar",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser proibido como punição."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser eliminado como sanção disciplinar; restrições devem ser limitadas e necessárias à segurança e ordem."
+        },
+        {
+          "id": "C",
+          "text": "é vedado a condenados."
+        },
+        {
+          "id": "D",
+          "text": "só existe por carta."
+        },
+        {
+          "id": "E",
+          "text": "é exclusivo de presos provisórios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A proibição de contato familiar não pode ser usada como sanção."
+    },
+    {
+      "id": "seap-u090-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Instrumentos de contenção",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem ser usados como castigo."
+        },
+        {
+          "id": "B",
+          "text": "nunca podem ser usados como sanção disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "devem ser permanentes em presos condenados."
+        },
+        {
+          "id": "D",
+          "text": "substituem avaliação de risco."
+        },
+        {
+          "id": "E",
+          "text": "dispensam proporcionalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A contenção tem limites funcionais e não serve como punição."
+    },
+    {
+      "id": "seap-u090-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Revistas pessoais devem observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "humilhação como elemento preventivo."
+        },
+        {
+          "id": "B",
+          "text": "dignidade, privacidade, necessidade e proporcionalidade."
+        },
+        {
+          "id": "C",
+          "text": "sigilo apenas do servidor."
+        },
+        {
+          "id": "D",
+          "text": "invasividade máxima por padrão."
+        },
+        {
+          "id": "E",
+          "text": "ausência de treinamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A segurança deve ser alcançada com salvaguardas e menor invasividade suficiente."
+    },
+    {
+      "id": "seap-u090-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reclamações de pessoas presas",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem gerar retaliação."
+        },
+        {
+          "id": "B",
+          "text": "devem ter mecanismos seguros e, quando necessário, confidenciais."
+        },
+        {
+          "id": "C",
+          "text": "só podem ser feitas por advogado."
+        },
+        {
+          "id": "D",
+          "text": "não alcançam alegação de tortura."
+        },
+        {
+          "id": "E",
+          "text": "são proibidas contra servidores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As regras protegem pedidos e reclamações contra retaliação."
+    },
+    {
+      "id": "seap-u090-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Regra 58 trata de",
+      "options": [
+        {
+          "id": "A",
+          "text": "alimentação."
+        },
+        {
+          "id": "B",
+          "text": "contato com família e amigos."
+        },
+        {
+          "id": "C",
+          "text": "isolamento."
+        },
+        {
+          "id": "D",
+          "text": "classificação prisional."
+        },
+        {
+          "id": "E",
+          "text": "seleção de servidores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Regra 58 disciplina contato com o mundo exterior."
+    },
+    {
+      "id": "seap-u090-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os mecanismos de inspeção previstos estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente inspeções internas."
+        },
+        {
+          "id": "B",
+          "text": "inspeções internas e externas independentes."
+        },
+        {
+          "id": "C",
+          "text": "apenas inspeções judiciais anuais."
+        },
+        {
+          "id": "D",
+          "text": "somente auditoria financeira."
+        },
+        {
+          "id": "E",
+          "text": "visitas apenas anunciadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As Regras 83 a 85 trabalham com mecanismos internos e externos."
+    },
+    {
+      "id": "seap-u090-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Inspetores externos devem poder",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrevistar apenas na presença da direção."
+        },
+        {
+          "id": "B",
+          "text": "realizar entrevistas privadas e visitas inclusive sem aviso prévio."
+        },
+        {
+          "id": "C",
+          "text": "acessar somente relatórios públicos."
+        },
+        {
+          "id": "D",
+          "text": "inspecionar apenas unidades indicadas pela administração."
+        },
+        {
+          "id": "E",
+          "text": "evitar recomendações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A independência da inspeção exige acesso e entrevistas privadas."
+    },
+    {
+      "id": "seap-u090-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra sobre exercício ao ar livre prevê, para quem não trabalha ao ar livre e se o clima permitir,",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 minutos semanais."
+        },
+        {
+          "id": "B",
+          "text": "ao menos uma hora diária."
+        },
+        {
+          "id": "C",
+          "text": "duas horas mensais."
+        },
+        {
+          "id": "D",
+          "text": "nenhum mínimo."
+        },
+        {
+          "id": "E",
+          "text": "exercício apenas após condenação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Regra 23 prevê ao menos uma hora diária."
+    },
+    {
+      "id": "seap-u090-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os registros médicos devem ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "públicos para qualquer servidor."
+        },
+        {
+          "id": "B",
+          "text": "precisos, atualizados e confidenciais."
+        },
+        {
+          "id": "C",
+          "text": "destruídos após cada consulta."
+        },
+        {
+          "id": "D",
+          "text": "usados para punição."
+        },
+        {
+          "id": "E",
+          "text": "negados ao serviço de saúde."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Confidencialidade e qualidade do registro são salvaguardas de saúde."
+    },
+    {
+      "id": "seap-u090-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos servidores penitenciários, as Regras de Nelson Mandela enfatizam",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência de treinamento."
+        },
+        {
+          "id": "B",
+          "text": "seleção, integridade, humanidade e formação profissional."
+        },
+        {
+          "id": "C",
+          "text": "uso de força sem limites."
+        },
+        {
+          "id": "D",
+          "text": "vínculo temporário como regra."
+        },
+        {
+          "id": "E",
+          "text": "inexistência de capacitação continuada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Qualidade e treinamento do pessoal são parte do padrão de administração prisional."
+    }
+  ]
+}
