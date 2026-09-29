@@ -2,7 +2,7 @@
 
 ## Programa e classificação
 
-- **SEAP/MA; Cebraspe. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 7: recursos, espécies e prazos.
+- **Secretaria de Estado de Administração Penitenciária do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 7: recursos, espécies e prazos.
 - Unidade **nova/local**. A busca na `main` não localizou pacote C/H/Q/R equivalente de recursos processuais penais; referências incidentais não foram tratadas como doador.
 
 ## Fonte normativa primária
@@ -11,7 +11,7 @@
    https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm
 
 2. **Brasil. Lei nº 15.358/2026.** Alteração anterior ao corte que incluiu o § 4º do artigo 584 do <abbr title="Código de Processo Penal">CPP</abbr>, relativo a pedido de efeito suspensivo ou ativo na hipótese do artigo 581, V.  
-   https://www.planalto.gov.br/
+   https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm
 
 ## Corte e pesquisa de questões
 
