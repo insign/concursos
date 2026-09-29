@@ -1,4 +1,4 @@
-# CADH — revisão rápida
+# <abbr title="Convenção Americana sobre Direitos Humanos">CADH</abbr> — revisão rápida
 
 ## Deveres
 
@@ -21,7 +21,7 @@
 - dívida → sem prisão, salvo obrigação alimentar;
 - expressão → sem censura prévia geral;
 - estrangeiro → expulsão **coletiva** proibida;
-- art. 25 → recurso simples, rápido **ou efetivo**.
+- <abbr title="artigo">art.</abbr> 25 → recurso simples, rápido **ou efetivo**.
 
 ## Art. 27
 
@@ -32,7 +32,7 @@ Direitos políticos → **não suspensíveis**.
 
 ## Comissão e Corte
 
-Pessoa/grupo/ONG → **Comissão**.  
+Pessoa/grupo/<abbr title="organização não governamental">ONG</abbr> → **Comissão**.  
 Caso à Corte → somente **Estado-parte ou Comissão**.
 
 Admissibilidade:
