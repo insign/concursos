@@ -333,14 +333,14 @@ Das decisões do juiz da execução cabe **agravo**, sem efeito suspensivo, conf
 | Tema | Número |
 | --- | ---: |
 | trabalho remunerado | mínimo **3/4 do salário mínimo** |
-| jornada | **6–8 h/dia** |
+| jornada | **6–8 horas/dia** |
 | trabalho externo no fechado | mínimo **1/6** da pena |
 | isolamento preventivo disciplinar | até **10 dias** |
 | isolamento/restrição ordinária | até **30 dias**, salvo <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> |
 | <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> | até **2 anos** |
-| banho de sol no <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> | **2 h/dia** |
+| banho de sol no <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> | **2 horas/dia** |
 | remição — trabalho | **3 dias = 1 dia** |
-| remição — estudo | **12 h em ≥3 dias = 1 dia** |
+| remição — estudo | **12 horas em ≥3 dias = 1 dia** |
 | falta grave e remição | perda de até **1/3** |
 | progressão hediondo primário | **70%** no corte |
 | reincidente hediondo | **80%** |
