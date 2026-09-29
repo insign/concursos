@@ -1,4 +1,4 @@
-# LEP — revisão rápida
+# <abbr title="Lei de Execução Penal">LEP</abbr> — revisão rápida
 
 ## Finalidade
 
@@ -12,7 +12,7 @@ material · saúde · jurídica · educacional · social · religiosa
 
 - não segue <abbr title="Consolidação das Leis do Trabalho">CLT</abbr>;
 - remuneração ≥ **3/4 salário mínimo**;
-- jornada **6–8 h**;
+- jornada **6–8 horas**;
 - provisório: não obrigatório, só interno;
 - externo no fechado: mínimo **1/6** + requisitos.
 
@@ -24,8 +24,8 @@ Vedadas: cela escura + sanção coletiva.
 <abbr title="Regime Disciplinar Diferenciado">RDD</abbr>:
 - até **2 anos**;
 - cela individual;
-- banho de sol **2 h/dia**;
-- hipóteses especiais do art. 52;
+- banho de sol **2 horas/dia**;
+- hipóteses especiais do <abbr title="artigo">art.</abbr> 52;
 - 2026: regras novas de solicitação/violência doméstica.
 
 ## Órgãos
@@ -56,7 +56,7 @@ Visita à família foi revogada.
 ## Remição
 
 - trabalho: **3 dias → 1 dia**;
-- estudo: **12 h / ≥3 dias → 1 dia**;
+- estudo: **12 horas / ≥3 dias → 1 dia**;
 - conclusão escolar → + **1/3** do estudo;
 - falta grave → juiz pode retirar até **1/3**;
 - domiciliar também pode remir.
