@@ -60,7 +60,7 @@ Custódia deve liberar **imediatamente**, sem nova ordem, salvo:
 - preso temporário separado dos demais detentos;
 - plantão 24 horas do Judiciário e do <abbr title="Ministério Público">MP</abbr>;
 - juiz pode determinar apresentação, informações e exame de corpo de delito;
-- art. 4º alterava antiga Lei 4.898/1965, hoje revogada.
+- <abbr title="artigo">art.</abbr> 4º alterava antiga Lei 4.898/1965, hoje revogada.
 
 ## Temporária x preventiva
 
