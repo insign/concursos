@@ -181,8 +181,8 @@ Portanto, não invente prazo no <abbr title="Código de Processo Penal">CPP</abb
 | apelação | **5 dias** | 8 dias + 8 dias |
 | apelação em contravenção | **5 dias** | 3 dias + 3 dias |
 | embargos infringentes/nulidade | **10 dias** | divergência desfavorável ao réu |
-| declaração de sentença | **2 dias** | art. 382 |
-| embargos de declaração de acórdão | **2 dias** | art. 619 |
+| declaração de sentença | **2 dias** | artigo 382 |
+| embargos de declaração de acórdão | **2 dias** | artigo 619 |
 | carta testemunhável | **48 horas** | contra obstáculo ao recurso |
 
 ## 12. Roteiro de prova
