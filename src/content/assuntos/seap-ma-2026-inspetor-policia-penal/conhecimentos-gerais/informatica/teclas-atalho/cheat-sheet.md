@@ -18,7 +18,7 @@
 `Ctrl + E/F` ou `F3` → pesquisar  
 `Ctrl + Z` → desfazer operação compatível
 
-## Word pt-BR — no ambiente indicado
+## Word <abbr title="Português do Brasil">pt-BR</abbr> — no ambiente indicado
 
 `Ctrl + B` → salvar  
 `Ctrl + T` → selecionar tudo  
