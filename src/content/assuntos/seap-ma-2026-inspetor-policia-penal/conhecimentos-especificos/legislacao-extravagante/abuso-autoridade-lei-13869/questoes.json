@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "u124-a01",
@@ -484,7 +484,7 @@
     },
     {
       "id": "u124-a17",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Sobre o controle de constitucionalidade do artigo 15-A, na revalidação de setembro de 2026,",
       "options": [
@@ -510,7 +510,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A ADI 7.201 teve voto pela validade e voto divergente; houve pedido e devolução de vista, sem decisão final registrada na revalidação."
+      "explanation": "A <abbr title=\"Ação Direta de Inconstitucionalidade\">ADI</abbr> 7.201 teve voto pela validade e voto divergente; houve pedido e devolução de vista, sem decisão final registrada na revalidação."
     },
     {
       "id": "u124-a18",
