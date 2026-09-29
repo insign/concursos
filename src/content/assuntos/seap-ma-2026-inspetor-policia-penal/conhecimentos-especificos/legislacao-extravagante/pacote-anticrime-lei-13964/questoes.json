@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u097-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 13.964/2019 deve ser compreendida principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "um novo Código Penal."
+        },
+        {
+          "id": "B",
+          "text": "uma lei de reforma de vários diplomas penais e processuais."
+        },
+        {
+          "id": "C",
+          "text": "uma emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "uma lei exclusiva de execução penal."
+        },
+        {
+          "id": "E",
+          "text": "um tratado internacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º diz que a lei aperfeiçoa a legislação penal e processual penal e seus artigos alteram diversos diplomas."
+    },
+    {
+      "id": "seap-u097-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Pacote Anticrime elevou o limite de cumprimento das penas privativas de liberdade para",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 anos."
+        },
+        {
+          "id": "B",
+          "text": "30 anos."
+        },
+        {
+          "id": "C",
+          "text": "35 anos."
+        },
+        {
+          "id": "D",
+          "text": "40 anos."
+        },
+        {
+          "id": "E",
+          "text": "50 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 75 do Código Penal passou a prever quarenta anos."
+    },
+    {
+      "id": "seap-u097-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A perda alargada do artigo 91-A do Código Penal pode incidir, observados os demais requisitos, em condenação por infração com pena máxima",
+      "options": [
+        {
+          "id": "A",
+          "text": "igual ou superior a 2 anos."
+        },
+        {
+          "id": "B",
+          "text": "superior a 4 anos."
+        },
+        {
+          "id": "C",
+          "text": "superior a 6 anos."
+        },
+        {
+          "id": "D",
+          "text": "superior a 8 anos."
+        },
+        {
+          "id": "E",
+          "text": "somente perpétua."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 91-A usa pena máxima superior a seis anos."
+    },
+    {
+      "id": "seap-u097-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º-A do Código de Processo Penal, incluído pelo Pacote Anticrime, afirma estrutura",
+      "options": [
+        {
+          "id": "A",
+          "text": "inquisitorial."
+        },
+        {
+          "id": "B",
+          "text": "acusatória."
+        },
+        {
+          "id": "C",
+          "text": "administrativa."
+        },
+        {
+          "id": "D",
+          "text": "civil."
+        },
+        {
+          "id": "E",
+          "text": "militar obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dispositivo explicita a estrutura acusatória."
+    },
+    {
+      "id": "seap-u097-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o juiz das garantias, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi definitivamente eliminado do ordenamento."
+        },
+        {
+          "id": "B",
+          "text": "teve origem na Lei 13.964/2019 e foi considerado constitucional e obrigatório pelo STF, com ajustes interpretativos."
+        },
+        {
+          "id": "C",
+          "text": "atua apenas após sentença."
+        },
+        {
+          "id": "D",
+          "text": "substitui o Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "é facultativo a critério de cada juiz."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF julgou o modelo constitucional e de implementação obrigatória, com interpretações conformes."
+    },
+    {
+      "id": "seap-u097-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acordo de não persecução penal do artigo 28-A exige, entre outros requisitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime com pena máxima inferior a quatro anos."
+        },
+        {
+          "id": "B",
+          "text": "pena mínima inferior a quatro anos e infração sem violência ou grave ameaça."
+        },
+        {
+          "id": "C",
+          "text": "condenação transitada em julgado."
+        },
+        {
+          "id": "D",
+          "text": "ausência de confissão em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "crime hediondo obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra-base usa pena mínima inferior a quatro anos, além dos demais requisitos."
+    },
+    {
+      "id": "seap-u097-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cumprido integralmente o acordo de não persecução penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "há condenação automática."
+        },
+        {
+          "id": "B",
+          "text": "o juízo competente decreta extinção da punibilidade."
+        },
+        {
+          "id": "C",
+          "text": "o processo segue para júri."
+        },
+        {
+          "id": "D",
+          "text": "a pena é reduzida pela metade."
+        },
+        {
+          "id": "E",
+          "text": "surge reincidência automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a consequência do artigo 28-A, § 13."
+    },
+    {
+      "id": "seap-u097-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cadeia de custódia inserida no CPP pela Lei 13.964/2019",
+      "options": [
+        {
+          "id": "A",
+          "text": "se limita a evidência digital."
+        },
+        {
+          "id": "B",
+          "text": "documenta a história cronológica do vestígio do reconhecimento ao descarte."
+        },
+        {
+          "id": "C",
+          "text": "dispensa acondicionamento."
+        },
+        {
+          "id": "D",
+          "text": "começa apenas no laboratório."
+        },
+        {
+          "id": "E",
+          "text": "substitui toda perícia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 158-A a 158-F estruturam o percurso do vestígio."
+    },
+    {
+      "id": "seap-u097-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A captação ambiental regulada pela Lei 9.296/1996 após o Pacote Anticrime tem prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias, renovável por iguais períodos se presentes os requisitos."
+        },
+        {
+          "id": "D",
+          "text": "30 dias improrrogáveis."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 8º-A prevê quinze dias com possibilidade de renovação."
+    },
+    {
+      "id": "seap-u097-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na lavagem de dinheiro, o Pacote Anticrime passou a admitir expressamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente interceptação postal."
+        },
+        {
+          "id": "B",
+          "text": "ação controlada e infiltração de agentes."
+        },
+        {
+          "id": "C",
+          "text": "prisão civil."
+        },
+        {
+          "id": "D",
+          "text": "júri obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "delação anônima como prova plena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Foi incluído o § 6º no artigo 1º da Lei 9.613/1998."
+    },
+    {
+      "id": "seap-u097-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Estatuto do Desarmamento, uma inovação do pacote foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "extinguir os crimes de armas."
+        },
+        {
+          "id": "B",
+          "text": "criar o Banco Nacional de Perfis Balísticos."
+        },
+        {
+          "id": "C",
+          "text": "abolir controle de munição."
+        },
+        {
+          "id": "D",
+          "text": "reduzir todas as penas."
+        },
+        {
+          "id": "E",
+          "text": "eliminar agente disfarçado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 34-A criou o banco nacional de perfis balísticos."
+    },
+    {
+      "id": "seap-u097-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Lei de Drogas, a entrega de droga a agente policial disfarçado pode enquadrar-se na hipótese incluída pelo pacote quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o policial cria sozinho a intenção criminosa."
+        },
+        {
+          "id": "B",
+          "text": "existem elementos probatórios razoáveis de conduta criminal preexistente."
+        },
+        {
+          "id": "C",
+          "text": "não existe droga."
+        },
+        {
+          "id": "D",
+          "text": "a pessoa é absolvida."
+        },
+        {
+          "id": "E",
+          "text": "há apenas suspeita abstrata."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei exige elementos razoáveis de conduta preexistente."
+    },
+    {
+      "id": "seap-u097-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Pacote Anticrime ampliou o rol de crimes hediondos e",
+      "options": [
+        {
+          "id": "A",
+          "text": "manteve a progressão exclusivamente na Lei 8.072."
+        },
+        {
+          "id": "B",
+          "text": "revogou o § 2º do artigo 2º da Lei 8.072, deixando a progressão na Lei de Execução Penal."
+        },
+        {
+          "id": "C",
+          "text": "aboliu crimes hediondos."
+        },
+        {
+          "id": "D",
+          "text": "retirou roubo do rol em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "proibiu toda progressão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei revogou o antigo § 2º da Lei de Crimes Hediondos."
+    },
+    {
+      "id": "seap-u097-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A disciplina atual de progressão de regime deve ser conferida",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente na redação histórica de 2019."
+        },
+        {
+          "id": "B",
+          "text": "na Lei de Execução Penal vigente no corte, considerando alterações posteriores."
+        },
+        {
+          "id": "C",
+          "text": "em decreto municipal."
+        },
+        {
+          "id": "D",
+          "text": "na Lei de Improbidade."
+        },
+        {
+          "id": "E",
+          "text": "na Constituição exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Pacote foi ponto de reforma, mas a regra atual deve ser lida na LEP vigente."
+    },
+    {
+      "id": "seap-u097-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 12.850/2013 recebeu do Pacote Anticrime",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminação da colaboração premiada."
+        },
+        {
+          "id": "B",
+          "text": "disciplina detalhada da colaboração e infiltração virtual."
+        },
+        {
+          "id": "C",
+          "text": "revogação da ação controlada."
+        },
+        {
+          "id": "D",
+          "text": "proibição de corroboração."
+        },
+        {
+          "id": "E",
+          "text": "fim do sigilo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 13.964 detalhou colaboração premiada e criou infiltração virtual."
+    },
+    {
+      "id": "seap-u097-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na proteção ao informante, a Lei 13.608/2018 passou a prever",
+      "options": [
+        {
+          "id": "A",
+          "text": "retaliação como dever funcional."
+        },
+        {
+          "id": "B",
+          "text": "proteção contra retaliação e preservação da identidade nas condições legais."
+        },
+        {
+          "id": "C",
+          "text": "divulgação obrigatória da identidade."
+        },
+        {
+          "id": "D",
+          "text": "proibição de recompensa."
+        },
+        {
+          "id": "E",
+          "text": "prisão preventiva automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O pacote criou salvaguardas ao informante."
+    },
+    {
+      "id": "seap-u097-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A permanência em estabelecimento penal federal de segurança máxima, após a reforma da Lei 11.671/2008, é de até",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses sem renovação."
+        },
+        {
+          "id": "B",
+          "text": "1 ano."
+        },
+        {
+          "id": "C",
+          "text": "2 anos."
+        },
+        {
+          "id": "D",
+          "text": "3 anos, renovável por iguais períodos."
+        },
+        {
+          "id": "E",
+          "text": "10 anos fixos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A reforma previu até três anos, renováveis por iguais períodos."
+    },
+    {
+      "id": "seap-u097-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Varas Criminais Colegiadas inseridas na Lei 12.694/2012 podem ter competência, entre outros casos, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas contravenções."
+        },
+        {
+          "id": "B",
+          "text": "organizações criminosas armadas e milícias, além das conexas nas hipóteses legais."
+        },
+        {
+          "id": "C",
+          "text": "somente crimes eleitorais."
+        },
+        {
+          "id": "D",
+          "text": "ações civis de família."
+        },
+        {
+          "id": "E",
+          "text": "qualquer processo escolhido sem critério."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º-A delimita crimes de organizações armadas, milícia e conexos."
+    },
+    {
+      "id": "seap-u097-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 13.964/2019 entrou em vigor",
+      "options": [
+        {
+          "id": "A",
+          "text": "na própria data da sanção sem vacatio."
+        },
+        {
+          "id": "B",
+          "text": "após 30 dias da publicação oficial."
+        },
+        {
+          "id": "C",
+          "text": "após um ano."
+        },
+        {
+          "id": "D",
+          "text": "em 2022."
+        },
+        {
+          "id": "E",
+          "text": "somente após decisão do STF."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 20 fixa vacatio de trinta dias."
+    },
+    {
+      "id": "seap-u097-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao resolver questão de 2026 sobre instituto alterado pelo Pacote Anticrime, o método mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar sempre a redação original de 2019."
+        },
+        {
+          "id": "B",
+          "text": "identificar o diploma afetado e verificar a redação vigente no corte."
+        },
+        {
+          "id": "C",
+          "text": "ignorar alterações posteriores."
+        },
+        {
+          "id": "D",
+          "text": "presumir que toda mudança foi revogada."
+        },
+        {
+          "id": "E",
+          "text": "usar apenas notícias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 13.964 é lei de reforma; vários dispositivos sofreram evolução posterior."
+    }
+  ]
+}
