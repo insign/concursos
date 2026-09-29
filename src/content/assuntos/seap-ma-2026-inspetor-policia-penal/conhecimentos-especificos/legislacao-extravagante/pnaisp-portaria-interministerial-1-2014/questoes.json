@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u103-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Portaria Interministerial nº 1, de 2 de janeiro de 2014,",
+      "options": [
+        {
+          "id": "A",
+          "text": "institui a <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr> no âmbito do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "cria um sistema de saúde prisional independente do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "disciplina exclusivamente a escolta hospitalar."
+        },
+        {
+          "id": "D",
+          "text": "trata apenas de saúde mental."
+        },
+        {
+          "id": "E",
+          "text": "revoga a Lei de Execução Penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma institui a política no âmbito do sistema público de saúde; não cria rede paralela."
+    },
+    {
+      "id": "seap-u103-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o art. 2º da Portaria, pessoa privada de liberdade no sistema prisional é, entre outros requisitos, pessoa",
+      "options": [
+        {
+          "id": "A",
+          "text": "com idade superior a 18 anos sob custódia estatal, provisória ou sentenciada, para pena privativa de liberdade ou medida de segurança."
+        },
+        {
+          "id": "B",
+          "text": "de qualquer idade que tenha processo criminal em curso."
+        },
+        {
+          "id": "C",
+          "text": "somente condenada definitivamente em regime fechado."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente submetida a prisão provisória."
+        },
+        {
+          "id": "E",
+          "text": "apenas maior de 21 anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade do art. 2º usa idade superior a 18 anos e abrange custódia provisória ou sentenciada, inclusive medida de segurança."
+    },
+    {
+      "id": "seap-u103-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É princípio da <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr>",
+      "options": [
+        {
+          "id": "A",
+          "text": "equidade, reconhecendo diferenças e singularidades dos sujeitos de direitos."
+        },
+        {
+          "id": "B",
+          "text": "restrição do cuidado à urgência."
+        },
+        {
+          "id": "C",
+          "text": "subordinação clínica automática à disciplina prisional."
+        },
+        {
+          "id": "D",
+          "text": "eliminação do controle social."
+        },
+        {
+          "id": "E",
+          "text": "exclusão da vigilância em saúde."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Equidade integra o rol do art. 3º, ao lado de direitos humanos, integralidade, ambiência humanizada, corresponsabilidade interfederativa e participação."
+    },
+    {
+      "id": "seap-u103-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Portaria, integralidade da atenção à saúde compreende",
+      "options": [
+        {
+          "id": "A",
+          "text": "promoção, proteção, prevenção, assistência, recuperação e vigilância em diferentes níveis de atenção."
+        },
+        {
+          "id": "B",
+          "text": "apenas prevenção e vacinação."
+        },
+        {
+          "id": "C",
+          "text": "somente assistência médica especializada."
+        },
+        {
+          "id": "D",
+          "text": "apenas atendimento de urgência."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente saúde mental."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 3º descreve integralidade com esse conjunto amplo de ações."
+    },
+    {
+      "id": "seap-u103-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as diretrizes da <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr>, a ênfase em atividades preventivas",
+      "options": [
+        {
+          "id": "A",
+          "text": "não exclui os serviços assistenciais."
+        },
+        {
+          "id": "B",
+          "text": "substitui os serviços assistenciais."
+        },
+        {
+          "id": "C",
+          "text": "impede atendimento especializado."
+        },
+        {
+          "id": "D",
+          "text": "vale apenas para trabalhadores do sistema penal."
+        },
+        {
+          "id": "E",
+          "text": "elimina ações de recuperação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º prevê ênfase preventiva sem prejuízo dos serviços assistenciais."
+    },
+    {
+      "id": "seap-u103-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O objetivo geral da <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr> é",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantir acesso das pessoas privadas de liberdade ao cuidado integral no <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "transferir toda a saúde prisional ao sistema de justiça."
+        },
+        {
+          "id": "C",
+          "text": "criar plano privado de saúde obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "limitar a atenção à população condenada."
+        },
+        {
+          "id": "E",
+          "text": "centralizar todo atendimento em hospitais penitenciários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º formula o objetivo geral como acesso ao cuidado integral no sistema público de saúde."
+    },
+    {
+      "id": "seap-u103-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 6º, a política busca garantir",
+      "options": [
+        {
+          "id": "A",
+          "text": "autonomia dos profissionais de saúde para a realização do cuidado integral."
+        },
+        {
+          "id": "B",
+          "text": "autonomia apenas aos agentes de segurança."
+        },
+        {
+          "id": "C",
+          "text": "supressão da participação social."
+        },
+        {
+          "id": "D",
+          "text": "separação entre saúde e justiça."
+        },
+        {
+          "id": "E",
+          "text": "substituição da rede territorial por unidades prisionais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A autonomia dos profissionais de saúde é um dos objetivos específicos."
+    },
+    {
+      "id": "seap-u103-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São beneficiárias da política, nos termos do art. 7º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas sob custódia do Estado inseridas no sistema prisional ou em cumprimento de medida de segurança."
+        },
+        {
+          "id": "B",
+          "text": "somente pessoas em regime fechado."
+        },
+        {
+          "id": "C",
+          "text": "somente pessoas condenadas definitivamente."
+        },
+        {
+          "id": "D",
+          "text": "todos os familiares das pessoas presas."
+        },
+        {
+          "id": "E",
+          "text": "apenas servidores penitenciários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 7º define os beneficiários nesses dois grupos centrais."
+    },
+    {
+      "id": "seap-u103-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As pessoas custodiadas nos regimes semiaberto e aberto serão",
+      "options": [
+        {
+          "id": "A",
+          "text": "preferencialmente assistidas nos serviços da rede de atenção à saúde."
+        },
+        {
+          "id": "B",
+          "text": "obrigatoriamente atendidas apenas dentro da unidade prisional."
+        },
+        {
+          "id": "C",
+          "text": "excluídas da política."
+        },
+        {
+          "id": "D",
+          "text": "assistidas somente por serviço privado."
+        },
+        {
+          "id": "E",
+          "text": "atendidas apenas após autorização judicial individual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A preferência pela rede para semiaberto e aberto está no § 1º do art. 7º."
+    },
+    {
+      "id": "seap-u103-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Trabalhadores dos serviços penais e familiares das pessoas privadas de liberdade",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem ser envolvidos em ações de promoção da saúde e prevenção de agravos."
+        },
+        {
+          "id": "B",
+          "text": "são excluídos de qualquer ação da política."
+        },
+        {
+          "id": "C",
+          "text": "tornam-se automaticamente beneficiários em medida de segurança."
+        },
+        {
+          "id": "D",
+          "text": "substituem as equipes de saúde."
+        },
+        {
+          "id": "E",
+          "text": "só podem participar mediante ordem judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 8º prevê esse envolvimento em promoção e prevenção."
+    },
+    {
+      "id": "seap-u103-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção básica à população privada de liberdade pode ser ofertada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pela atenção básica territorial ou por equipes de saúde no sistema prisional, conforme pactuação."
+        },
+        {
+          "id": "B",
+          "text": "somente por hospital penitenciário."
+        },
+        {
+          "id": "C",
+          "text": "apenas por serviço estadual de justiça."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente por equipe federal."
+        },
+        {
+          "id": "E",
+          "text": "somente fora do estabelecimento prisional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 9º admite as duas formas de oferta da atenção básica conforme a pactuação."
+    },
+    {
+      "id": "seap-u103-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os serviços de saúde nas unidades prisionais devem ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "estruturados como pontos de atenção da rede e cadastrados no <abbr title=\"Sistema de Cadastro Nacional de Estabelecimentos de Saúde\">SCNES</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "organizados fora da rede pública."
+        },
+        {
+          "id": "C",
+          "text": "dispensados de cadastro nacional."
+        },
+        {
+          "id": "D",
+          "text": "vinculados exclusivamente ao Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "limitados a primeiros socorros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra expressa do art. 10."
+    },
+    {
+      "id": "seap-u103-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A adesão do Estado ou do Distrito Federal à política envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "Termo de Adesão, Plano de Ação e encaminhamento da documentação ao Ministério da Saúde."
+        },
+        {
+          "id": "B",
+          "text": "apenas decisão unilateral do sistema penitenciário."
+        },
+        {
+          "id": "C",
+          "text": "somente cadastro de equipes."
+        },
+        {
+          "id": "D",
+          "text": "autorização judicial prévia."
+        },
+        {
+          "id": "E",
+          "text": "adesão municipal automática."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 13 reúne os três requisitos do procedimento de adesão estadual/distrital."
+    },
+    {
+      "id": "seap-u103-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A adesão municipal à <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr> é",
+      "options": [
+        {
+          "id": "A",
+          "text": "facultativa e sujeita aos requisitos do art. 14."
+        },
+        {
+          "id": "B",
+          "text": "obrigatória em todo Município."
+        },
+        {
+          "id": "C",
+          "text": "vedada quando houver população prisional."
+        },
+        {
+          "id": "D",
+          "text": "automática com a adesão estadual."
+        },
+        {
+          "id": "E",
+          "text": "independente de Plano de Ação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 14 torna a adesão municipal facultativa, mas estabelece requisitos para sua realização."
+    },
+    {
+      "id": "seap-u103-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as responsabilidades da área federal da saúde está",
+      "options": [
+        {
+          "id": "A",
+          "text": "planejar, apoiar tecnicamente, financiar e monitorar a implementação da política."
+        },
+        {
+          "id": "B",
+          "text": "realizar a escolta de toda pessoa custodiada."
+        },
+        {
+          "id": "C",
+          "text": "administrar diretamente todos os estabelecimentos penais estaduais."
+        },
+        {
+          "id": "D",
+          "text": "exercer a função jurisdicional de execução penal."
+        },
+        {
+          "id": "E",
+          "text": "substituir os Conselhos de Saúde."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 15 atribui ao setor saúde planejamento, financiamento, monitoramento, apoio técnico e integração da política."
+    },
+    {
+      "id": "seap-u103-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No desenho do art. 16, cabe à justiça ou administração penitenciária estadual",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantir transporte sanitário e escolta para acesso oportuno a serviços internos e externos, conforme a gravidade."
+        },
+        {
+          "id": "B",
+          "text": "definir sozinha o diagnóstico clínico."
+        },
+        {
+          "id": "C",
+          "text": "impedir auditorias externas."
+        },
+        {
+          "id": "D",
+          "text": "dispensar adaptação para pessoas com deficiência."
+        },
+        {
+          "id": "E",
+          "text": "substituir a Secretaria de Saúde na vigilância epidemiológica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A portaria expressamente atribui transporte sanitário e escolta à estrutura de justiça/administração penitenciária estadual."
+    },
+    {
+      "id": "seap-u103-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando Distrito Federal ou Município aderem à política, sua Secretaria de Saúde deve, entre outras tarefas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "cadastrar as pessoas privadas de liberdade e assegurar sua identificação no Cartão Nacional de Saúde."
+        },
+        {
+          "id": "B",
+          "text": "cancelar o cadastro sanitário anterior."
+        },
+        {
+          "id": "C",
+          "text": "registrar somente pessoas condenadas."
+        },
+        {
+          "id": "D",
+          "text": "transferir o monitoramento ao sistema prisional."
+        },
+        {
+          "id": "E",
+          "text": "dispensar vigilância sanitária e epidemiológica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 17 inclui cadastro da população privada de liberdade e identificação no Cartão Nacional de Saúde."
+    },
+    {
+      "id": "seap-u103-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O monitoramento e a avaliação da política, serviços, equipes e ações de saúde são realizados",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelos Ministérios da Saúde e da Justiça por meio de dados, informações e documentos nos sistemas de informação da atenção à saúde."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente pelos Municípios."
+        },
+        {
+          "id": "C",
+          "text": "somente pelo Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "apenas por auditoria privada."
+        },
+        {
+          "id": "E",
+          "text": "sem uso de sistemas de informação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do art. 18."
+    },
+    {
+      "id": "seap-u103-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Grupo Condutor estadual ou distrital inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "saúde, justiça, administração prisional, <abbr title=\"Conselho de Secretários Municipais de Saúde\">COSEMS</abbr> e apoio institucional do Ministério da Saúde."
+        },
+        {
+          "id": "B",
+          "text": "somente administração penitenciária."
+        },
+        {
+          "id": "C",
+          "text": "apenas Ministério Público e Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "somente equipes médicas."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente representantes federais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 19 estabelece composição intersetorial e interfederativa do Grupo Condutor."
+    },
+    {
+      "id": "seap-u103-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o trabalho da pessoa custodiada em programas de educação e promoção da saúde, a Portaria prevê que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a decisão é da pessoa sob custódia, com anuência e supervisão do serviço de saúde."
+        },
+        {
+          "id": "B",
+          "text": "é compulsório sempre que houver vaga."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de decisão da direção prisional."
+        },
+        {
+          "id": "D",
+          "text": "é proibido em qualquer hipótese."
+        },
+        {
+          "id": "E",
+          "text": "dispensa supervisão do serviço de saúde."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 1º do art. 20 condiciona essa atuação à decisão da pessoa custodiada, com anuência e supervisão do serviço."
+    },
+    {
+      "id": "seap-u103-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à remição relacionada ao trabalho em programas de saúde, a Portaria determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "será proposta ao Juízo da Execução Penal a concessão do benefício."
+        },
+        {
+          "id": "B",
+          "text": "a remição surge automaticamente com um dia de atividade."
+        },
+        {
+          "id": "C",
+          "text": "o Ministério da Saúde concede a remição."
+        },
+        {
+          "id": "D",
+          "text": "a direção prisional extingue a pena."
+        },
+        {
+          "id": "E",
+          "text": "não existe qualquer previsão sobre remição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º do art. 20 prevê proposta ao Juízo da Execução Penal, e não concessão automática pela portaria."
+    },
+    {
+      "id": "seap-u103-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo até 31 de dezembro de 2016 previsto na Portaria dizia respeito",
+      "options": [
+        {
+          "id": "A",
+          "text": "à adequação das ações e serviços dos entes federativos para implementação da política."
+        },
+        {
+          "id": "B",
+          "text": "à validade temporária da própria política."
+        },
+        {
+          "id": "C",
+          "text": "ao encerramento do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "D",
+          "text": "à duração máxima de medida de segurança."
+        },
+        {
+          "id": "E",
+          "text": "ao prazo de adesão municipal obrigatória."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 21 fixou prazo histórico de adequação dos entes, não data de expiração da política."
+    }
+  ]
+}
