@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u046-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um computador Windows, qual componente permite ao sistema operacional controlar os recursos específicos de uma impressora?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fila de impressão."
+        },
+        {
+          "id": "B",
+          "text": "O driver da impressora."
+        },
+        {
+          "id": "C",
+          "text": "A impressora padrão."
+        },
+        {
+          "id": "D",
+          "text": "O histórico do navegador."
+        },
+        {
+          "id": "E",
+          "text": "A Lixeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O driver faz a interface de software entre o sistema operacional e o dispositivo."
+    },
+    {
+      "id": "seap-u046-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Definir uma impressora como padrão significa, principalmente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "torná-la fisicamente ligada em qualquer circunstância."
+        },
+        {
+          "id": "B",
+          "text": "instalar automaticamente papel e tinta."
+        },
+        {
+          "id": "C",
+          "text": "escolhê-la por padrão quando o aplicativo não indica outra impressora."
+        },
+        {
+          "id": "D",
+          "text": "eliminar todas as outras impressoras instaladas."
+        },
+        {
+          "id": "E",
+          "text": "reiniciar o serviço de impressão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A impressora padrão é uma preferência de seleção; não garante disponibilidade física ou de rede."
+    },
+    {
+      "id": "seap-u046-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fila de impressão contém, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "drivers disponíveis no Windows Update."
+        },
+        {
+          "id": "B",
+          "text": "trabalhos enviados e ainda não concluídos."
+        },
+        {
+          "id": "C",
+          "text": "somente impressoras removidas."
+        },
+        {
+          "id": "D",
+          "text": "senhas dos usuários."
+        },
+        {
+          "id": "E",
+          "text": "arquivos apagados pelo sistema."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fila organiza os trabalhos que aguardam ou estão em processamento."
+    },
+    {
+      "id": "seap-u046-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cancelar um trabalho na fila de impressão",
+      "options": [
+        {
+          "id": "A",
+          "text": "remove obrigatoriamente o driver."
+        },
+        {
+          "id": "B",
+          "text": "desinstala a impressora."
+        },
+        {
+          "id": "C",
+          "text": "interrompe aquele trabalho, sem necessariamente remover a impressora instalada."
+        },
+        {
+          "id": "D",
+          "text": "desliga o computador."
+        },
+        {
+          "id": "E",
+          "text": "define outra impressora como padrão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trabalho e dispositivo configurado são objetos diferentes."
+    },
+    {
+      "id": "seap-u046-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Spooler de Impressão do Windows é responsável por",
+      "options": [
+        {
+          "id": "A",
+          "text": "gerenciar os trabalhos de impressão e a fila."
+        },
+        {
+          "id": "B",
+          "text": "editar imagens antes da impressão."
+        },
+        {
+          "id": "C",
+          "text": "substituir o driver de vídeo."
+        },
+        {
+          "id": "D",
+          "text": "gerenciar favoritos do navegador."
+        },
+        {
+          "id": "E",
+          "text": "formatar o disco rígido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O spooler é o serviço que coordena os trabalhos de impressão no Windows."
+    },
+    {
+      "id": "seap-u046-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se vários trabalhos ficam presos na fila e o serviço de impressão falhou, uma ação coerente de diagnóstico é",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir todas as impressoras da rede sem verificar a fila."
+        },
+        {
+          "id": "B",
+          "text": "limpar trabalhos travados e reiniciar o Spooler de Impressão."
+        },
+        {
+          "id": "C",
+          "text": "alterar o papel físico para qualquer tamanho."
+        },
+        {
+          "id": "D",
+          "text": "formatar o computador imediatamente."
+        },
+        {
+          "id": "E",
+          "text": "trocar a impressora padrão sem outra verificação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Microsoft orienta limpar a fila e reiniciar o spooler quando os sintomas indicam falha desse serviço."
+    },
+    {
+      "id": "seap-u046-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a documentação da Microsoft, o caminho recomendado para obter ou atualizar drivers de impressora no Windows é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "Windows Update."
+        },
+        {
+          "id": "B",
+          "text": "Lixeira."
+        },
+        {
+          "id": "C",
+          "text": "Bloco de Notas."
+        },
+        {
+          "id": "D",
+          "text": "Área de Transferência."
+        },
+        {
+          "id": "E",
+          "text": "Painel de Navegação do Word."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Microsoft recomenda Windows Update como método preferencial para drivers de impressora, com alternativas quando ele não encontra um driver adequado."
+    },
+    {
+      "id": "seap-u046-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma impressora aparece instalada, mas determinado recurso esperado não está disponível. Entre as hipóteses técnicas plausíveis está",
+      "options": [
+        {
+          "id": "A",
+          "text": "driver inadequado ou incompatível com o modelo/versão."
+        },
+        {
+          "id": "B",
+          "text": "o fato de a impressora ser padrão."
+        },
+        {
+          "id": "C",
+          "text": "existência da fila de impressão."
+        },
+        {
+          "id": "D",
+          "text": "uso da área de trabalho do Windows."
+        },
+        {
+          "id": "E",
+          "text": "abertura do Explorador de Arquivos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Recursos expostos ao sistema dependem das capacidades do dispositivo e do driver."
+    },
+    {
+      "id": "seap-u046-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa separa corretamente driver e spooler?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O driver controla o dispositivo; o spooler gerencia trabalhos de impressão."
+        },
+        {
+          "id": "B",
+          "text": "O spooler substitui o hardware; o driver gerencia favoritos."
+        },
+        {
+          "id": "C",
+          "text": "Ambos são nomes da impressora padrão."
+        },
+        {
+          "id": "D",
+          "text": "O driver só organiza a fila; o spooler só define orientação do papel."
+        },
+        {
+          "id": "E",
+          "text": "Nenhum deles participa do processo de impressão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Driver e spooler atuam em camadas distintas: controle do equipamento e gestão dos trabalhos."
+    },
+    {
+      "id": "seap-u046-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma impressora padrão está offline. É correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "por ser padrão, ela imprimirá normalmente."
+        },
+        {
+          "id": "B",
+          "text": "a condição de padrão não garante conectividade ou disponibilidade."
+        },
+        {
+          "id": "C",
+          "text": "o driver foi necessariamente apagado."
+        },
+        {
+          "id": "D",
+          "text": "a fila precisa estar vazia por definição."
+        },
+        {
+          "id": "E",
+          "text": "todas as demais impressoras foram removidas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Padrão é preferência de seleção, não estado de conectividade."
+    },
+    {
+      "id": "seap-u046-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao adicionar uma impressora diretamente conectada ao Windows, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela nunca pode ser detectada automaticamente."
+        },
+        {
+          "id": "B",
+          "text": "o Windows pode instalá-la automaticamente e buscar driver compatível."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatório configurar uma fila em outro computador."
+        },
+        {
+          "id": "D",
+          "text": "a instalação sempre exige um navegador específico."
+        },
+        {
+          "id": "E",
+          "text": "a impressora passa a ser padrão em todos os computadores da rede."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A documentação da Microsoft informa que dispositivos diretamente conectados costumam ser instalados automaticamente, com opção de adição manual se necessário."
+    },
+    {
+      "id": "seap-u046-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual item é uma preferência típica de impressão, quando suportada pelo equipamento e driver?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Orientação retrato ou paisagem."
+        },
+        {
+          "id": "B",
+          "text": "Endereço da página inicial do navegador."
+        },
+        {
+          "id": "C",
+          "text": "Senha da conta Microsoft."
+        },
+        {
+          "id": "D",
+          "text": "Nome da pasta Downloads."
+        },
+        {
+          "id": "E",
+          "text": "Tamanho da memória RAM."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Orientação, papel, cor e frente e verso são exemplos de opções de impressão, conforme capacidades e driver."
+    },
+    {
+      "id": "seap-u046-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma impressora não é encontrada automaticamente. O procedimento coerente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "concluir que nenhum driver pode existir."
+        },
+        {
+          "id": "B",
+          "text": "usar o fluxo de adição manual e verificar conexão/driver."
+        },
+        {
+          "id": "C",
+          "text": "apagar arquivos pessoais."
+        },
+        {
+          "id": "D",
+          "text": "cancelar todos os atalhos do Windows."
+        },
+        {
+          "id": "E",
+          "text": "alterar uma fórmula do Excel."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Windows oferece adição manual quando a detecção automática não encontra o dispositivo."
+    },
+    {
+      "id": "seap-u046-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre remover uma impressora no Windows é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remove o dispositivo configurado da lista de impressoras; não é sinônimo de cancelar um único trabalho."
+        },
+        {
+          "id": "B",
+          "text": "Apaga obrigatoriamente todos os documentos do usuário."
+        },
+        {
+          "id": "C",
+          "text": "Desinstala todos os drivers de todos os dispositivos."
+        },
+        {
+          "id": "D",
+          "text": "Cancela somente o trabalho atual e mantém a impressora configurada."
+        },
+        {
+          "id": "E",
+          "text": "Transforma a impressora em padrão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Remoção do dispositivo configurado e cancelamento de trabalho são operações diferentes."
+    },
+    {
+      "id": "seap-u046-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento foi enviado à impressora errada. Qual camada deve ser verificada primeiro?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seleção da impressora e configuração de padrão."
+        },
+        {
+          "id": "B",
+          "text": "Capacidade da bateria do teclado."
+        },
+        {
+          "id": "C",
+          "text": "Histórico do navegador."
+        },
+        {
+          "id": "D",
+          "text": "Formatação da unidade de armazenamento."
+        },
+        {
+          "id": "E",
+          "text": "Resolução do monitor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Se a saída foi para o dispositivo errado, a seleção/padrão é a primeira hipótese lógica."
+    },
+    {
+      "id": "seap-u046-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reiniciar o Spooler de Impressão",
+      "options": [
+        {
+          "id": "A",
+          "text": "garante corrigir qualquer falha física da impressora."
+        },
+        {
+          "id": "B",
+          "text": "pode resolver falhas temporárias da gestão da fila, mas não substitui diagnóstico de conexão ou driver."
+        },
+        {
+          "id": "C",
+          "text": "atualiza obrigatoriamente o firmware de todos os dispositivos."
+        },
+        {
+          "id": "D",
+          "text": "remove definitivamente a impressora."
+        },
+        {
+          "id": "E",
+          "text": "transforma qualquer impressora em dispositivo de rede."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O spooler gerencia trabalhos; reiniciá-lo não resolve, por si, todas as outras camadas."
+    },
+    {
+      "id": "seap-u046-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma impressora usa conexão de rede. Antes de atribuir o problema ao driver, é útil verificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "se o dispositivo e a conexão de rede estão disponíveis."
+        },
+        {
+          "id": "B",
+          "text": "se o Word está em negrito."
+        },
+        {
+          "id": "C",
+          "text": "se a Lixeira está vazia."
+        },
+        {
+          "id": "D",
+          "text": "se o Excel contém gráficos."
+        },
+        {
+          "id": "E",
+          "text": "se o papel de parede foi alterado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Diagnóstico deve verificar disponibilidade e conexão antes de concluir que o driver é a causa."
+    },
+    {
+      "id": "seap-u046-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência de diagnóstico é mais coerente para uma impressora que não imprime?",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispositivo/conexão → impressora selecionada → fila/spooler → driver/configuração."
+        },
+        {
+          "id": "B",
+          "text": "formatação do disco → navegador → papel de parede → fila."
+        },
+        {
+          "id": "C",
+          "text": "driver → excluir todos os arquivos → trocar conta → desligar rede."
+        },
+        {
+          "id": "D",
+          "text": "impressora padrão → concluir defeito físico → encerrar diagnóstico."
+        },
+        {
+          "id": "E",
+          "text": "fila → trocar monitor → remover teclado → instalar navegador."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência percorre as camadas relevantes do processo, do dispositivo e conexão até a gestão de trabalhos e o driver."
+    }
+  ]
+}
