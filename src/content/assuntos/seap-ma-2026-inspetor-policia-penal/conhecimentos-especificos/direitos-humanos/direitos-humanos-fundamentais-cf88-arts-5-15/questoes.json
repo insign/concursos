@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u087-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção didática entre direitos humanos e direitos fundamentais é melhor expressa pela afirmação de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "direitos humanos só existem em tratados e direitos fundamentais só existem em leis ordinárias."
+        },
+        {
+          "id": "B",
+          "text": "direitos humanos têm perspectiva ampla, inclusive internacional, enquanto direitos fundamentais são reconhecidos e protegidos pela ordem constitucional interna."
+        },
+        {
+          "id": "C",
+          "text": "direitos fundamentais não podem ser direitos humanos."
+        },
+        {
+          "id": "D",
+          "text": "direitos humanos são sempre absolutos."
+        },
+        {
+          "id": "E",
+          "text": "direitos fundamentais se limitam a direitos políticos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distinção é de plano de positivação e proteção; o mesmo direito pode ser humano e fundamental."
+    },
+    {
+      "id": "seap-u087-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem consentimento do morador, uma determinação judicial autoriza ingresso em casa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a qualquer hora."
+        },
+        {
+          "id": "B",
+          "text": "somente durante o dia."
+        },
+        {
+          "id": "C",
+          "text": "somente à noite."
+        },
+        {
+          "id": "D",
+          "text": "apenas com autorização policial."
+        },
+        {
+          "id": "E",
+          "text": "nunca."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, XI, permite entrada por determinação judicial durante o dia; flagrante, desastre e socorro têm disciplina distinta."
+    },
+    {
+      "id": "seap-u087-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A reunião pacífica e sem armas em local aberto ao público",
+      "options": [
+        {
+          "id": "A",
+          "text": "depende de autorização prévia."
+        },
+        {
+          "id": "B",
+          "text": "independe de autorização, mas exige prévio aviso e não pode frustrar reunião anterior no mesmo local."
+        },
+        {
+          "id": "C",
+          "text": "dispensa aviso em qualquer situação."
+        },
+        {
+          "id": "D",
+          "text": "só pode ocorrer com ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "permite armas se forem legais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição exige prévio aviso, não autorização."
+    },
+    {
+      "id": "seap-u087-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A dissolução compulsória de associação exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "ato administrativo."
+        },
+        {
+          "id": "B",
+          "text": "decisão judicial transitada em julgado."
+        },
+        {
+          "id": "C",
+          "text": "decreto do Executivo."
+        },
+        {
+          "id": "D",
+          "text": "assembleia sindical."
+        },
+        {
+          "id": "E",
+          "text": "decisão policial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dissolução compulsória exige trânsito em julgado; a suspensão de atividades exige decisão judicial, mas não essa definitividade."
+    },
+    {
+      "id": "seap-u087-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratado de direitos humanos aprovado, em cada Casa do Congresso, em dois turnos, por três quintos dos membros",
+      "options": [
+        {
+          "id": "A",
+          "text": "equivale a emenda constitucional."
+        },
+        {
+          "id": "B",
+          "text": "vale sempre como lei ordinária."
+        },
+        {
+          "id": "C",
+          "text": "fica abaixo de decreto."
+        },
+        {
+          "id": "D",
+          "text": "dispensa promulgação."
+        },
+        {
+          "id": "E",
+          "text": "revoga automaticamente a Constituição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É o rito qualificado do artigo 5º, § 3º."
+    },
+    {
+      "id": "seap-u087-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a jurisprudência do Supremo Tribunal Federal, tratado de direitos humanos incorporado sem o rito do artigo 5º, § 3º, possui status",
+      "options": [
+        {
+          "id": "A",
+          "text": "supraconstitucional."
+        },
+        {
+          "id": "B",
+          "text": "constitucional automático."
+        },
+        {
+          "id": "C",
+          "text": "supralegal."
+        },
+        {
+          "id": "D",
+          "text": "meramente regulamentar."
+        },
+        {
+          "id": "E",
+          "text": "sem eficácia interna."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição firmada pelo Supremo Tribunal Federal reconhece supralegalidade: abaixo da Constituição e acima da lei."
+    },
+    {
+      "id": "seap-u087-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A jornada normal constitucional dos trabalhadores é, em regra, de até",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 horas diárias e 36 semanais."
+        },
+        {
+          "id": "B",
+          "text": "8 horas diárias e 44 semanais."
+        },
+        {
+          "id": "C",
+          "text": "8 horas diárias e 48 semanais."
+        },
+        {
+          "id": "D",
+          "text": "10 horas diárias e 50 semanais."
+        },
+        {
+          "id": "E",
+          "text": "44 horas diárias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 7º fixa oito horas diárias e quarenta e quatro semanais, ressalvadas compensação e redução por negociação coletiva."
+    },
+    {
+      "id": "seap-u087-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao trabalho do menor, a Constituição proíbe",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer trabalho antes dos 18 anos."
+        },
+        {
+          "id": "B",
+          "text": "qualquer trabalho antes dos 16 anos, salvo aprendiz a partir dos 14, e trabalho noturno, perigoso ou insalubre a menores de 18."
+        },
+        {
+          "id": "C",
+          "text": "aprendizagem antes dos 16 em qualquer hipótese."
+        },
+        {
+          "id": "D",
+          "text": "trabalho noturno apenas a menores de 16."
+        },
+        {
+          "id": "E",
+          "text": "todo trabalho a maiores de 14."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a combinação do artigo 7º, XXXIII."
+    },
+    {
+      "id": "seap-u087-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em empresa com mais de duzentos empregados, o artigo 11 assegura",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois sindicatos internos obrigatórios."
+        },
+        {
+          "id": "B",
+          "text": "eleição de um representante dos empregados para entendimento direto com empregadores."
+        },
+        {
+          "id": "C",
+          "text": "estabilidade a todos os empregados."
+        },
+        {
+          "id": "D",
+          "text": "greve automática."
+        },
+        {
+          "id": "E",
+          "text": "participação acionária obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 11 prevê um representante com finalidade exclusiva de promover entendimento direto."
+    },
+    {
+      "id": "seap-u087-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É brasileiro nato o nascido no exterior de pai brasileiro ou mãe brasileira que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pode adquirir nacionalidade por naturalização."
+        },
+        {
+          "id": "B",
+          "text": "seja registrado em repartição brasileira competente ou venha residir no Brasil e, após a maioridade, opte pela nacionalidade brasileira."
+        },
+        {
+          "id": "C",
+          "text": "precisa residir quinze anos no Brasil em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "precisa ser filho de dois brasileiros."
+        },
+        {
+          "id": "E",
+          "text": "não pode ter outra nacionalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a hipótese do artigo 12, I, c."
+    },
+    {
+      "id": "seap-u087-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A naturalização constitucional de pessoa originária de país de língua portuguesa exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "cinco anos de residência."
+        },
+        {
+          "id": "B",
+          "text": "um ano ininterrupto de residência e idoneidade moral."
+        },
+        {
+          "id": "C",
+          "text": "quinze anos e condenação penal."
+        },
+        {
+          "id": "D",
+          "text": "casamento com brasileiro."
+        },
+        {
+          "id": "E",
+          "text": "serviço público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 12, II, a, reduz os requisitos para originários de países de língua portuguesa."
+    },
+    {
+      "id": "seap-u087-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A naturalização extraordinária do artigo 12 exige, entre outros requisitos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais de quinze anos ininterruptos de residência no Brasil, ausência de condenação penal e requerimento."
+        },
+        {
+          "id": "B",
+          "text": "exatamente dez anos de residência."
+        },
+        {
+          "id": "C",
+          "text": "um ano de residência para qualquer nacionalidade."
+        },
+        {
+          "id": "D",
+          "text": "nascimento no Brasil."
+        },
+        {
+          "id": "E",
+          "text": "cargo público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade constitucional usa mais de quinze anos ininterruptos, sem condenação penal, desde que requerida."
+    },
+    {
+      "id": "seap-u087-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Emenda Constitucional nº 131/2023, a aquisição de outra nacionalidade pelo brasileiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera sempre perda automática."
+        },
+        {
+          "id": "B",
+          "text": "não é, por si só, causa constitucional automática de perda da nacionalidade brasileira."
+        },
+        {
+          "id": "C",
+          "text": "gera perda se houver residência no exterior."
+        },
+        {
+          "id": "D",
+          "text": "depende de autorização do Supremo Tribunal Federal."
+        },
+        {
+          "id": "E",
+          "text": "gera suspensão de direitos políticos por cinco anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Emenda Constitucional nº 131/2023 suprimiu a perda por mera aquisição de outra nacionalidade."
+    },
+    {
+      "id": "seap-u087-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O voto é facultativo para",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os maiores de 18 anos."
+        },
+        {
+          "id": "B",
+          "text": "analfabetos, maiores de 70 anos e maiores de 16 e menores de 18 anos."
+        },
+        {
+          "id": "C",
+          "text": "estrangeiros residentes."
+        },
+        {
+          "id": "D",
+          "text": "conscritos durante o serviço militar obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "todos os naturalizados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a literalidade do artigo 14, § 1º, II."
+    },
+    {
+      "id": "seap-u087-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A idade mínima de elegibilidade para Senador é",
+      "options": [
+        {
+          "id": "A",
+          "text": "18 anos."
+        },
+        {
+          "id": "B",
+          "text": "21 anos."
+        },
+        {
+          "id": "C",
+          "text": "30 anos."
+        },
+        {
+          "id": "D",
+          "text": "35 anos."
+        },
+        {
+          "id": "E",
+          "text": "40 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Presidente, Vice-Presidente e Senador exigem trinta e cinco anos."
+    },
+    {
+      "id": "seap-u087-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A idade mínima para Governador de Estado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "18 anos."
+        },
+        {
+          "id": "B",
+          "text": "21 anos."
+        },
+        {
+          "id": "C",
+          "text": "25 anos."
+        },
+        {
+          "id": "D",
+          "text": "30 anos."
+        },
+        {
+          "id": "E",
+          "text": "35 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Governador e Vice-Governador exigem trinta anos."
+    },
+    {
+      "id": "seap-u087-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para concorrer a outro cargo, o chefe do Poder Executivo deve, segundo a Constituição,",
+      "options": [
+        {
+          "id": "A",
+          "text": "renunciar ao mandato até seis meses antes do pleito."
+        },
+        {
+          "id": "B",
+          "text": "afastar-se apenas no dia da votação."
+        },
+        {
+          "id": "C",
+          "text": "renunciar um ano antes."
+        },
+        {
+          "id": "D",
+          "text": "pedir autorização legislativa."
+        },
+        {
+          "id": "E",
+          "text": "não precisa se afastar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 14, § 6º, fixa renúncia até seis meses antes para concorrer a outros cargos."
+    },
+    {
+      "id": "seap-u087-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O mandato eletivo pode ser impugnado perante a Justiça Eleitoral, nos termos do artigo 14, § 10, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias da eleição."
+        },
+        {
+          "id": "B",
+          "text": "10 dias da posse."
+        },
+        {
+          "id": "C",
+          "text": "15 dias da diplomação."
+        },
+        {
+          "id": "D",
+          "text": "30 dias do registro."
+        },
+        {
+          "id": "E",
+          "text": "um ano da eleição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ação de impugnação de mandato eletivo deve ser proposta em quinze dias da diplomação."
+    },
+    {
+      "id": "seap-u087-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 15 da Constituição",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza cassação ampla de direitos políticos."
+        },
+        {
+          "id": "B",
+          "text": "veda cassação e admite perda ou suspensão apenas nas hipóteses constitucionais."
+        },
+        {
+          "id": "C",
+          "text": "veda qualquer perda ou suspensão."
+        },
+        {
+          "id": "D",
+          "text": "permite suspensão por ato policial."
+        },
+        {
+          "id": "E",
+          "text": "trata apenas de nacionalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cassação é vedada; perda e suspensão dependem das hipóteses taxativamente previstas no artigo 15."
+    },
+    {
+      "id": "seap-u087-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A condenação criminal transitada em julgado",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca afeta direitos políticos."
+        },
+        {
+          "id": "B",
+          "text": "é hipótese constitucional de suspensão/perda nos termos do artigo 15 enquanto durarem seus efeitos."
+        },
+        {
+          "id": "C",
+          "text": "gera cassação definitiva automática."
+        },
+        {
+          "id": "D",
+          "text": "só afeta estrangeiro."
+        },
+        {
+          "id": "E",
+          "text": "depende de lei municipal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 15, III, prevê condenação criminal transitada em julgado enquanto durarem seus efeitos."
+    },
+    {
+      "id": "seap-u087-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição considera direito social expressamente previsto no artigo 6º",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas propriedade."
+        },
+        {
+          "id": "B",
+          "text": "transporte."
+        },
+        {
+          "id": "C",
+          "text": "extradição."
+        },
+        {
+          "id": "D",
+          "text": "naturalização."
+        },
+        {
+          "id": "E",
+          "text": "sigilo da fonte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Transporte integra o rol de direitos sociais do artigo 6º."
+    },
+    {
+      "id": "seap-u087-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 7º, a remuneração do serviço extraordinário deve ser superior à do normal em, no mínimo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "10%."
+        },
+        {
+          "id": "B",
+          "text": "20%."
+        },
+        {
+          "id": "C",
+          "text": "30%."
+        },
+        {
+          "id": "D",
+          "text": "50%."
+        },
+        {
+          "id": "E",
+          "text": "100%."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição assegura adicional mínimo de cinquenta por cento."
+    },
+    {
+      "id": "u142-p01",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em questão adaptada de prova do <abbr title=\"Tribunal Regional Federal da 6ª Região\">TRF6</abbr> aplicada pelo <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> em 19/1/2025, a liberdade de expressão deve ser classificada predominantemente como direito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeira dimensão, ligada à liberdade."
+        },
+        {
+          "id": "B",
+          "text": "segunda dimensão, ligada à igualdade material."
+        },
+        {
+          "id": "C",
+          "text": "terceira dimensão, ligada à solidariedade."
+        },
+        {
+          "id": "D",
+          "text": "quarta dimensão de conteúdo consensual."
+        },
+        {
+          "id": "E",
+          "text": "quinta dimensão necessariamente ligada à paz."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo da questão oficial afirmava que a liberdade de expressão é direito de primeira geração ou dimensão; o gabarito definitivo foi Certo. A formulação foi adaptada para cinco alternativas, preservando o conteúdo cobrado."
+    }
+  ]
+}
