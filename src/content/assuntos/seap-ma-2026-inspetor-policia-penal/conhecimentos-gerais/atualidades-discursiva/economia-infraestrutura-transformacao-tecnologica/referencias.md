@@ -33,7 +33,7 @@
 
 ## Questão anterior adaptada
 
-- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **<abbr title="Tribunal de Contas do Estado de Mato Grosso do Sul">TCE-MS</abbr> — Auditor de Controle Externo, Tecnologia da Informação, Prova Discursiva P3, questão 1, aplicação em 26 out. 2025 — padrão de resposta definitivo**. Base da adaptação não literal `u079-p01`: benefícios e limitações da <abbr title="inteligência artificial">IA</abbr> ligados à infraestrutura tecnológica e à integração de sistemas. https://cdn.cebraspe.org.br/concursos/tce_ms_25/arquivos/85BB87796D9C7FCA1584170AD8C343C2B1E7CFD30878E48CAE78F134390EE207.pdf.
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **<abbr title="Tribunal de Contas do Estado de Mato Grosso do Sul">TCE-MS</abbr> — Auditor de Controle Externo, Tecnologia da Informação, Prova Discursiva <abbr title="Prova Discursiva P3">P3</abbr>, questão 1, aplicação em 26 out. 2025 — padrão de resposta definitivo**. Base da adaptação não literal `u079-p01`: benefícios e limitações da <abbr title="inteligência artificial">IA</abbr> ligados à infraestrutura tecnológica e à integração de sistemas. https://cdn.cebraspe.org.br/concursos/tce_ms_25/arquivos/85BB87796D9C7FCA1584170AD8C343C2B1E7CFD30878E48CAE78F134390EE207.pdf.
 
 ## Proveniência e fronteiras
 
