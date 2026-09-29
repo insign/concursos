@@ -148,7 +148,7 @@ O **caminho** localiza o item na hierarquia.
 
 Dois arquivos podem ter o mesmo nome se estiverem em caminhos diferentes.
 
-A unidade doadora aprofunda Windows e Linux; nesta unidade SEAP, o ponto é apenas entender que o sistema operacional fornece serviços de organização e acesso ao armazenamento.
+A unidade doadora aprofunda Windows e Linux; nesta unidade <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP</abbr>, o ponto é apenas entender que o sistema operacional fornece serviços de organização e acesso ao armazenamento.
 
 ## 8. Copiar, mover e criar referência
 
