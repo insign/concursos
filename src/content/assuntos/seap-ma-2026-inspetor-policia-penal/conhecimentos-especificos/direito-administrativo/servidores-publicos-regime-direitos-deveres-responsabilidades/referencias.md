@@ -16,8 +16,8 @@
 4. **Brasil. Lei nº 8.112, de 11 de dezembro de 1990 — texto compilado.** Fonte federal comparativa, especialmente arts. 116–117 e disciplina de responsabilidades/<abbr title="Processo administrativo disciplinar">PAD</abbr>. Não é tratada como estatuto nacional. Reconsultada em 29/09/2026.  
    https://www.planalto.gov.br/ccivil_03/leis/l8112compilado.htm
 
-5. **Maranhão. Lei nº 11.342, de 29 de setembro de 2020.** Institui a Polícia Penal do Estado do Maranhão e disciplina a carreira do Inspetor de Polícia Penal. Usada para registrar a existência de norma especial da carreira, sem antecipar a unidade própria SEAP-U110.  
-   https://seap.ma.gov.br/uploads/seap/docs/Manual-de-Rotina-das-UPs-ATUALIZADO-DEZ.pdf
+5. **Secretaria de Estado de Administração Penitenciária do Maranhão. Lei nº 11.342, de 29 de setembro de 2020.** A página oficial de legislação da <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> identifica a lei que institui a Polícia Penal e reorganiza a carreira; o texto disponibilizado oficialmente pela Secretaria confirma as disposições iniciais da carreira do Inspetor. Usada aqui apenas para registrar a existência de norma especial, sem antecipar SEAP-U110.  
+   https://seap.ma.gov.br/programas-ou-campanhas/leis
 
 6. **Supremo Tribunal Federal. Súmula Vinculante nº 5.** Falta de defesa técnica por advogado no processo administrativo disciplinar não ofende, por si só, a Constituição.  
    https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199
