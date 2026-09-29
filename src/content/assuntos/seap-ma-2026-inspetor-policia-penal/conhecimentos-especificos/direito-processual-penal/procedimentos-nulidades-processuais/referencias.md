@@ -2,7 +2,7 @@
 
 ## Programa e classificação
 
-- **SEAP/MA; Cebraspe. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 8: procedimentos e nulidades processuais.
+- **Secretaria de Estado de Administração Penitenciária do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 8: procedimentos e nulidades processuais.
 - Unidade **nova/local**. A busca no acervo não localizou pacote C/H/Q/R equivalente; o material foi produzido para o recorte SEAP.
 
 ## Fontes normativas primárias
