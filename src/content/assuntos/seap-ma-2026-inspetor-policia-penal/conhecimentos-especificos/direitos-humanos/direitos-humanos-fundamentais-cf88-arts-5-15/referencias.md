@@ -1,9 +1,9 @@
-# Referências — Direitos humanos e direitos fundamentais na CF/1988 — arts. 5º a 15
+# Referências — Direitos humanos e direitos fundamentais na Constituição de 1988 — artigos 5º a 15
 
 ## Programa e proveniência
 
-- **SEAP/MA; Cebraspe. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Direitos Humanos, item 1: direitos humanos e direitos fundamentais na Constituição Federal de 1988, artigos 5º a 15.
-- Classificação **parcial/local**. A unidade sintetiza três pacotes físicos da PC-MA:
+- **Secretaria de Estado de Administração Penitenciária do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Direitos Humanos, item 1: direitos humanos e direitos fundamentais na Constituição Federal de 1988, artigos 5º a 15.
+- Classificação **parcial/local**. A unidade sintetiza três pacotes físicos da <abbr title="Polícia Civil do Maranhão">PC-MA</abbr>:
   - direitos/garantias constitucionais: C `da4cbe643726d9a0cb9d2d9887ade6a8f31b8ab1`, H `ba7600b05535c578d1850538268e8b4c7451c06d`, Q `c3c72ac7f4356e6a892b16d9e705ba5e281d5111`, R `008f2bdcf4a8c1e86b470486eeb0fa196606c2da`;
   - teoria geral de direitos humanos: C `0d8f5960f4e2cc3b1d73d922c6eaa5f92fdba366`, H `8d1e6cb5d767fed153fc3c087b8bf9f4e2fd4b71`, Q `45693b52bc4d7cf7f603c3b9b50d154266e43e72`, R `56be3927280a0f76da8c6ca5334dc7ddce6507d9`;
   - controle de convencionalidade/Constituição: C `4cfcfc711700858206a64a3ecf608270e1346611`, H `656f829d4e8f406fdab76487c4affcedf67841d4`, Q `f2a440a34a8ad18bead79292f5262ac4cca0c3ac`, R `6db2b39f331614903a84be2cf6bf7e8b1e7e94ef`.
