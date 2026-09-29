@@ -6,9 +6,9 @@ order: 88
 storageId: "seap-u088"
 ---
 
-# PNDH-3: um programa estruturado em eixos, diretrizes, objetivos e ações
+# <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr>: um programa estruturado em eixos, diretrizes, objetivos e ações
 
-O Decreto nº 7.037/2009 aprovou o **Programa Nacional de Direitos Humanos — PNDH-3**. Para prova, o maior risco é tentar memorizar centenas de ações programáticas sem primeiro enxergar a arquitetura.
+O Decreto nº 7.037/2009 aprovou o **Programa Nacional de Direitos Humanos — <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr>**. Para prova, o maior risco é tentar memorizar centenas de ações programáticas sem primeiro enxergar a arquitetura.
 
 A hierarquia é:
 
@@ -110,7 +110,7 @@ O eixo não trata memória como curiosidade histórica. Ela aparece vinculada a 
 
 ## 7. Artigos 1º a 3º: núcleo administrativo do decreto
 
-**Artigo 1º:** aprova o PNDH-3 conforme diretrizes, objetivos estratégicos e ações do Anexo.
+**Artigo 1º:** aprova o <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr> conforme diretrizes, objetivos estratégicos e ações do Anexo.
 
 **Artigo 2º:** enumera os seis eixos e as 25 diretrizes.
 
@@ -120,12 +120,12 @@ Não invente um plano anual ou quadrienal.
 
 ## 8. O antigo Comitê não permanece vigente
 
-O texto original instituiu Comitê de Acompanhamento e Monitoramento do PNDH-3 nos artigos 4º e disposições associadas.
+O texto original instituiu Comitê de Acompanhamento e Monitoramento do <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr> nos artigos 4º e disposições associadas.
 
 Essas disposições foram **revogadas pelo Decreto nº 10.087/2019**.
 
 Em questão de vigência:
-- estrutura programática do PNDH-3 continua no decreto;
+- estrutura programática do <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr> continua no decreto;
 - não trate o antigo Comitê revogado como órgão atualmente instituído por esses dispositivos.
 
 ## 9. Adesão de outros entes e Poderes
@@ -138,7 +138,7 @@ O artigo 5º estabelece que:
 - órgãos do Judiciário;
 - Ministério Público
 
-**serão convidados a aderir** ao PNDH-3.
+**serão convidados a aderir** ao <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr>.
 
 A redação é convite à adesão, não comando de subordinação automática ao Poder Executivo federal.
 
@@ -183,7 +183,7 @@ Priorize:
 
 ## 12. Pegadinhas finais
 
-- PNDH-3 ≠ terceira diretriz: é a terceira edição/programa, com 25 diretrizes.
+- <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr> ≠ terceira diretriz: é a terceira edição/programa, com 25 diretrizes.
 - São **6 eixos**, não 5.
 - São **25 diretrizes**.
 - Planos de ação são **bianuais**.
