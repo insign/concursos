@@ -285,7 +285,7 @@ Identificação pessoal deve ser preservada na divulgação, e uso indevido de i
 | Plano Nacional | **10 anos** |
 | planos estaduais/distrital/municipais | até **2 anos** da publicação nacional |
 | avaliação do plano | **anual** |
-| mandato de conselheiros do art. 21, § 3º | **2 anos** + uma recondução/reeleição |
+| mandato de conselheiros do <abbr title="artigo">art.</abbr> 21, § 3º | **2 anos** + uma recondução/reeleição |
 | comissão temporária de avaliação | mínimo **3 membros** |
 
 ## 17. Pegadinhas finais
