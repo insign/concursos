@@ -134,12 +134,12 @@ Não conclua que todo delito é automaticamente de menor potencial ofensivo.
 
 ## Disposições finais
 
-- art. 40 → alterou prisão temporária: mandado traz prazo/dia de soltura; soltura ao término; dia do cumprimento entra na contagem;
-- art. 41 → alterou crime de interceptação/escuta: reclusão **2 a 4 anos + multa**;
-- art. 42 → acrescentou art. 227-A ao Estatuto da Criança e do Adolescente;
-- art. 43 → criou art. 7º-B do Estatuto da Advocacia.
+- <abbr title="artigo">art.</abbr> 40 → alterou prisão temporária: mandado traz prazo/dia de soltura; soltura ao término; dia do cumprimento entra na contagem;
+- <abbr title="artigo">art.</abbr> 41 → alterou crime de interceptação/escuta: reclusão **2 a 4 anos + multa**;
+- <abbr title="artigo">art.</abbr> 42 → acrescentou <abbr title="artigo">art.</abbr> 227-A ao Estatuto da Criança e do Adolescente;
+- <abbr title="artigo">art.</abbr> 43 → criou <abbr title="artigo">art.</abbr> 7º-B do Estatuto da Advocacia.
 
-### Atualização do art. 7º-B
+### Atualização do <abbr title="artigo">art.</abbr> 7º-B
 
 Lei 13.869/2019 originalmente: 3 meses–1 ano.
 
@@ -150,8 +150,8 @@ Lei 14.365/2022, vigente no corte: **2–4 anos + multa**.
 A Lei 13.869 revogou:
 
 - Lei 4.898/1965;
-- Código Penal, art. 150, § 2º;
-- Código Penal, art. 350.
+- Código Penal, <abbr title="artigo">art.</abbr> 150, § 2º;
+- Código Penal, <abbr title="artigo">art.</abbr> 350.
 
 Vigência: **120 dias** depois da publicação.
 
@@ -174,10 +174,10 @@ Não confunda com dispositivos inicialmente vetados e depois promulgados, como 9
 - finalidade específica vale para toda a lei;
 - ação penal ≠ condicionada;
 - perda do cargo ≠ automática;
-- art. 12 diz “injustificadamente”;
+- <abbr title="artigo">art.</abbr> 12 diz “injustificadamente”;
 - busca = 5 horas–21 horas;
 - acesso aos autos ≠ revelar diligência futura sigilosa;
-- investigação longa ≠ automaticamente art. 31;
-- bloqueio excessivo ≠ automaticamente art. 36;
-- art. 15-A ainda não tinha decisão final do <abbr title="Supremo Tribunal Federal">STF</abbr> na revalidação de 29/9/2026;
-- pena atual do art. 7º-B do Estatuto da Advocacia = 2–4 anos.
+- investigação longa ≠ automaticamente <abbr title="artigo">art.</abbr> 31;
+- bloqueio excessivo ≠ automaticamente <abbr title="artigo">art.</abbr> 36;
+- <abbr title="artigo">art.</abbr> 15-A ainda não tinha decisão final do <abbr title="Supremo Tribunal Federal">STF</abbr> na revalidação de 29/9/2026;
+- pena atual do <abbr title="artigo">art.</abbr> 7º-B do Estatuto da Advocacia = 2–4 anos.
