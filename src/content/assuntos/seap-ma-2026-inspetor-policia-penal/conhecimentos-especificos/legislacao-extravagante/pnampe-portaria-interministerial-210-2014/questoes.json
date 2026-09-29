@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u109-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Portaria Interministerial nº 210/2014 institui",
+      "options": [
+        {
+          "id": "A",
+          "text": "a <abbr title=\"Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional\">PNAMPE</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "a política nacional de monitoração eletrônica."
+        },
+        {
+          "id": "C",
+          "text": "o sistema único de segurança pública."
+        },
+        {
+          "id": "D",
+          "text": "a política nacional de educação penitenciária."
+        },
+        {
+          "id": "E",
+          "text": "o regime disciplinar diferenciado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A portaria institui a política voltada às mulheres privadas de liberdade e egressas."
+    },
+    {
+      "id": "seap-u109-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O público da <abbr title=\"Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional\">PNAMPE</abbr> inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente mulheres condenadas definitivamente."
+        },
+        {
+          "id": "B",
+          "text": "mulheres privadas de liberdade e egressas, nacionais e estrangeiras."
+        },
+        {
+          "id": "C",
+          "text": "apenas gestantes."
+        },
+        {
+          "id": "D",
+          "text": "somente servidoras do sistema prisional."
+        },
+        {
+          "id": "E",
+          "text": "apenas mulheres em regime aberto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A política abrange mulheres privadas de liberdade e egressas."
+    },
+    {
+      "id": "seap-u109-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as diretrizes da política está",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir a participação social."
+        },
+        {
+          "id": "B",
+          "text": "concentrar unidades femininas apenas nas capitais."
+        },
+        {
+          "id": "C",
+          "text": "prevenir todas as formas de violência contra mulheres privadas de liberdade."
+        },
+        {
+          "id": "D",
+          "text": "eliminar políticas estaduais."
+        },
+        {
+          "id": "E",
+          "text": "restringir dados penitenciários."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prevenção de violência é diretriz expressa."
+    },
+    {
+      "id": "seap-u109-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A humanização das condições de cumprimento da pena, na portaria, envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas reformas prediais."
+        },
+        {
+          "id": "B",
+          "text": "somente lazer."
+        },
+        {
+          "id": "C",
+          "text": "apenas assistência jurídica."
+        },
+        {
+          "id": "D",
+          "text": "saúde, educação, trabalho, segurança, maternidade, infância e outros direitos."
+        },
+        {
+          "id": "E",
+          "text": "somente atividade laboral."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A humanização é tratada como garantia material de múltiplos direitos."
+    },
+    {
+      "id": "seap-u109-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A perspectiva de gênero nos dados penitenciários serve para",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensar registros de saúde."
+        },
+        {
+          "id": "B",
+          "text": "eliminar dados sobre filhos."
+        },
+        {
+          "id": "C",
+          "text": "reduzir informações sobre gestação."
+        },
+        {
+          "id": "D",
+          "text": "registrar apenas o número total de presos."
+        },
+        {
+          "id": "E",
+          "text": "qualificar a compreensão da população feminina e orientar políticas específicas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A política exige dados capazes de revelar necessidades específicas das mulheres."
+    },
+    {
+      "id": "seap-u109-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na portaria, regionalização significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "distribuição de unidades pelo interior para fortalecer vínculos familiares e comunitários."
+        },
+        {
+          "id": "B",
+          "text": "centralização de todas as unidades na capital."
+        },
+        {
+          "id": "C",
+          "text": "divisão de uma unidade em alas."
+        },
+        {
+          "id": "D",
+          "text": "transferência automática de presas."
+        },
+        {
+          "id": "E",
+          "text": "regionalização do Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O próprio parágrafo único do art. 2º define regionalização dessa forma."
+    },
+    {
+      "id": "seap-u109-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às presas provisórias, a política fomenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "prioridade apenas para trabalho."
+        },
+        {
+          "id": "B",
+          "text": "identificação e monitoramento, com prioridade ao atendimento jurídico e à tramitação processual."
+        },
+        {
+          "id": "C",
+          "text": "transferência obrigatória para unidade federal."
+        },
+        {
+          "id": "D",
+          "text": "suspensão de atendimento jurídico."
+        },
+        {
+          "id": "E",
+          "text": "exclusão dos bancos de dados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A situação processual provisória recebe atenção específica."
+    },
+    {
+      "id": "seap-u109-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ações voltadas às egressas podem incluir",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente entrega de vestuário."
+        },
+        {
+          "id": "B",
+          "text": "apenas emissão de antecedentes."
+        },
+        {
+          "id": "C",
+          "text": "documentação, políticas sociais, trabalho, renda e cursos profissionalizantes."
+        },
+        {
+          "id": "D",
+          "text": "somente atendimento policial."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma articulação pós-cárcere."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A política estende a atenção à saída e reintegração social."
+    },
+    {
+      "id": "seap-u109-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É objetivo da <abbr title=\"Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional\">PNAMPE</abbr>",
+      "options": [
+        {
+          "id": "A",
+          "text": "abolir políticas estaduais."
+        },
+        {
+          "id": "B",
+          "text": "substituir a Lei de Execução Penal."
+        },
+        {
+          "id": "C",
+          "text": "centralizar toda execução na União."
+        },
+        {
+          "id": "D",
+          "text": "fomentar políticas estaduais de atenção às mulheres privadas de liberdade e egressas."
+        },
+        {
+          "id": "E",
+          "text": "eliminar pesquisas sobre encarceramento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A política nacional induz também políticas estaduais."
+    },
+    {
+      "id": "seap-u109-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O aprimoramento do sistema prisional feminino deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente aumento de vagas."
+        },
+        {
+          "id": "B",
+          "text": "apenas segurança interna."
+        },
+        {
+          "id": "C",
+          "text": "somente arquitetura."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente capacitação."
+        },
+        {
+          "id": "E",
+          "text": "arquitetura, rotinas, diversidades e capacitação de servidores, entre outros pontos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A humanização é multifatorial."
+    },
+    {
+      "id": "seap-u109-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as metas da política está",
+      "options": [
+        {
+          "id": "A",
+          "text": "aperfeiçoar bancos de dados com informações específicas sobre mulheres no sistema prisional."
+        },
+        {
+          "id": "B",
+          "text": "abolir informação sobre maternidade."
+        },
+        {
+          "id": "C",
+          "text": "eliminar dados de saúde."
+        },
+        {
+          "id": "D",
+          "text": "restringir dados a condenadas."
+        },
+        {
+          "id": "E",
+          "text": "impedir estudos sobre egressas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º detalha extensa base de informações com perspectiva de gênero."
+    },
+    {
+      "id": "seap-u109-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As unidades prisionais devem providenciar documentação civil básica para",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas mulheres brasileiras."
+        },
+        {
+          "id": "B",
+          "text": "viabilizar acesso de mulheres, inclusive estrangeiras, à educação e ao trabalho."
+        },
+        {
+          "id": "C",
+          "text": "somente gestantes."
+        },
+        {
+          "id": "D",
+          "text": "apenas egressas."
+        },
+        {
+          "id": "E",
+          "text": "uso exclusivo da administração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 6º vincula documentação a direitos concretos."
+    },
+    {
+      "id": "seap-u109-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As comissões intersetoriais previstas pela política destinam-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "executar penas."
+        },
+        {
+          "id": "C",
+          "text": "tratar especificamente de assuntos relacionados às mulheres privadas de liberdade e egressas."
+        },
+        {
+          "id": "D",
+          "text": "atuar somente em saúde."
+        },
+        {
+          "id": "E",
+          "text": "eliminar a atuação estadual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 7º prevê articulação para criação dessas comissões."
+    },
+    {
+      "id": "seap-u109-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O apoio técnico e financeiro federal previsto na portaria enfatiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente alimentação."
+        },
+        {
+          "id": "B",
+          "text": "apenas segurança armada."
+        },
+        {
+          "id": "C",
+          "text": "somente assistência jurídica."
+        },
+        {
+          "id": "D",
+          "text": "educação, trabalho, saúde, aparelhamento e engenharia."
+        },
+        {
+          "id": "E",
+          "text": "apenas construção de unidades."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 9º distribui o apoio por essas áreas."
+    },
+    {
+      "id": "seap-u109-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Comitê Gestor da <abbr title=\"Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional\">PNAMPE</abbr> é instituído para",
+      "options": [
+        {
+          "id": "A",
+          "text": "julgar processos criminais."
+        },
+        {
+          "id": "B",
+          "text": "administrar diretamente presídios estaduais."
+        },
+        {
+          "id": "C",
+          "text": "conceder benefícios penais."
+        },
+        {
+          "id": "D",
+          "text": "substituir secretarias estaduais."
+        },
+        {
+          "id": "E",
+          "text": "monitorar e avaliar o cumprimento da política."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Essa é a função expressa do Comitê Gestor."
+    },
+    {
+      "id": "seap-u109-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A participação no Comitê Gestor é",
+      "options": [
+        {
+          "id": "A",
+          "text": "serviço público relevante e não remunerado."
+        },
+        {
+          "id": "B",
+          "text": "atividade privada remunerada."
+        },
+        {
+          "id": "C",
+          "text": "cargo efetivo."
+        },
+        {
+          "id": "D",
+          "text": "função judicial."
+        },
+        {
+          "id": "E",
+          "text": "atividade sem relevância pública."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A portaria qualifica a participação como relevante e não remunerada."
+    },
+    {
+      "id": "seap-u109-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As reuniões ordinárias do Comitê Gestor são",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensais."
+        },
+        {
+          "id": "B",
+          "text": "trimestrais."
+        },
+        {
+          "id": "C",
+          "text": "semestrais."
+        },
+        {
+          "id": "D",
+          "text": "anuais."
+        },
+        {
+          "id": "E",
+          "text": "bianuais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 12 fixa reuniões trimestrais."
+    },
+    {
+      "id": "seap-u109-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O plano de trabalho inicial do Comitê deve ser apresentado em",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias."
+        },
+        {
+          "id": "B",
+          "text": "60 dias."
+        },
+        {
+          "id": "C",
+          "text": "90 dias."
+        },
+        {
+          "id": "D",
+          "text": "180 dias."
+        },
+        {
+          "id": "E",
+          "text": "1 ano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A portaria fixa noventa dias contados da publicação."
+    },
+    {
+      "id": "seap-u109-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os relatórios de avaliação do cumprimento da política são",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensais."
+        },
+        {
+          "id": "B",
+          "text": "trimestrais."
+        },
+        {
+          "id": "C",
+          "text": "semestrais."
+        },
+        {
+          "id": "D",
+          "text": "anuais."
+        },
+        {
+          "id": "E",
+          "text": "quinquenais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 12 prevê relatórios anuais."
+    },
+    {
+      "id": "seap-u109-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor síntese da <abbr title=\"Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade e Egressas do Sistema Prisional\">PNAMPE</abbr> é",
+      "options": [
+        {
+          "id": "A",
+          "text": "política voltada somente à construção de presídios femininos."
+        },
+        {
+          "id": "B",
+          "text": "norma exclusivamente de saúde materna."
+        },
+        {
+          "id": "C",
+          "text": "programa apenas de assistência a egressas."
+        },
+        {
+          "id": "D",
+          "text": "política de segurança sem dimensão social."
+        },
+        {
+          "id": "E",
+          "text": "política intersetorial de direitos, gênero, humanização e reintegração ao longo do encarceramento e da saída."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A portaria articula direitos, gestão, dados, infraestrutura, serviços e reintegração."
+    }
+  ]
+}
