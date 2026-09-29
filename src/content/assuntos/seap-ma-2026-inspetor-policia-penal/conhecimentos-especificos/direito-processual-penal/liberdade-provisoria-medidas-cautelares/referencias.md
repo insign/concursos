@@ -2,7 +2,7 @@
 
 ## Programa e proveniência
 
-- **SEAP/MA; Cebraspe. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 5: liberdade provisória e medidas cautelares diversas da prisão.
+- **Secretaria de Estado de Administração Penitenciária do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 5: liberdade provisória e medidas cautelares diversas da prisão.
 - **Proveniência parcial.** O núcleo de cautelares foi reaproveitado de `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-processual-penal/outras-medidas-cautelares/`: C `cafb301bd4879b455ea50922f344362678edc5a9`, H `36cd2f24c01c91bbe0a19c1b60f34b7b77255a25`, Q `fcaa2e1403a576a7c8d58a9b34dc298863105b2e`, R `d2d64f346ed8c770a3057d34ebc5a27bbc1ce59c`. A lacuna de liberdade provisória e fiança foi completada localmente para SEAP-U083.
 
 ## Fontes normativas primárias
