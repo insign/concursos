@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u040-a01",
@@ -424,13 +424,13 @@
     },
     {
       "id": "u023-p01",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Uma questão da <abbr title=\"Fundação Universidade de Brasília\">FUB</abbr>/<abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> de 2025 testou a alteração manual da extensão de um arquivo no Windows 11. Em uma adaptação do mesmo mecanismo, qual afirmação é correta?",
       "options": [
         {
           "id": "A",
-          "text": "Renomear `foto.jpg` para `foto.png` converte automaticamente os dados para PNG."
+          "text": "Renomear `foto.jpg` para `foto.png` converte automaticamente os dados para <abbr title=\"Portable Network Graphics, formato de imagem\">PNG</abbr>."
         },
         {
           "id": "B",
