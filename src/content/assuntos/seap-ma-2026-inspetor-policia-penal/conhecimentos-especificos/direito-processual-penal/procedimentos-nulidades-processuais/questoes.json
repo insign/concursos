@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u086-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Crime cuja pena privativa de liberdade máxima cominada é exatamente de quatro anos segue, no procedimento comum, o rito",
+      "options": [
+        {
+          "id": "A",
+          "text": "sumaríssimo."
+        },
+        {
+          "id": "B",
+          "text": "sumário."
+        },
+        {
+          "id": "C",
+          "text": "ordinário."
+        },
+        {
+          "id": "D",
+          "text": "especial obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "do júri em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 394 considera ordinário o crime com pena máxima igual ou superior a quatro anos."
+    },
+    {
+      "id": "seap-u086-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O procedimento comum sumário é aplicado, em regra, quando a pena privativa de liberdade máxima é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inferior a quatro anos."
+        },
+        {
+          "id": "B",
+          "text": "igual ou superior a quatro anos."
+        },
+        {
+          "id": "C",
+          "text": "superior a oito anos."
+        },
+        {
+          "id": "D",
+          "text": "exatamente quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "irrelevante para a escolha do rito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 394 usa pena máxima inferior a quatro anos para o rito sumário."
+    },
+    {
+      "id": "seap-u086-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos procedimentos ordinário e sumário, a resposta à acusação tem prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "8 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias."
+        },
+        {
+          "id": "D",
+          "text": "15 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 396 fixa dez dias."
+    },
+    {
+      "id": "seap-u086-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento ordinário, a audiência de instrução e julgamento deve ser realizada, segundo o artigo 400, em prazo máximo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 dias."
+        },
+        {
+          "id": "B",
+          "text": "30 dias."
+        },
+        {
+          "id": "C",
+          "text": "45 dias."
+        },
+        {
+          "id": "D",
+          "text": "60 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 400 prevê até sessenta dias."
+    },
+    {
+      "id": "seap-u086-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento ordinário, podem ser arroladas na instrução, em regra, até",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 testemunhas por lado."
+        },
+        {
+          "id": "B",
+          "text": "5 testemunhas por lado."
+        },
+        {
+          "id": "C",
+          "text": "8 testemunhas por lado."
+        },
+        {
+          "id": "D",
+          "text": "10 testemunhas por lado."
+        },
+        {
+          "id": "E",
+          "text": "12 testemunhas por lado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 401 prevê até oito testemunhas pela acusação e oito pela defesa."
+    },
+    {
+      "id": "seap-u086-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento sumário, a audiência deve ocorrer em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dias."
+        },
+        {
+          "id": "B",
+          "text": "20 dias."
+        },
+        {
+          "id": "C",
+          "text": "30 dias."
+        },
+        {
+          "id": "D",
+          "text": "60 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 531 prevê até trinta dias."
+    },
+    {
+      "id": "seap-u086-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No procedimento sumário, o número máximo de testemunhas de instrução, em regra, é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 por lado."
+        },
+        {
+          "id": "B",
+          "text": "5 por lado."
+        },
+        {
+          "id": "C",
+          "text": "8 por lado."
+        },
+        {
+          "id": "D",
+          "text": "10 por lado."
+        },
+        {
+          "id": "E",
+          "text": "12 por lado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 532 prevê cinco pela acusação e cinco pela defesa."
+    },
+    {
+      "id": "seap-u086-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a sequência do artigo 400, o interrogatório do acusado ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "antes de toda prova oral."
+        },
+        {
+          "id": "B",
+          "text": "após a produção probatória indicada no caput."
+        },
+        {
+          "id": "C",
+          "text": "somente depois da sentença."
+        },
+        {
+          "id": "D",
+          "text": "antes das testemunhas da acusação."
+        },
+        {
+          "id": "E",
+          "text": "apenas se a acusação requerer."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na sequência legal, o interrogatório vem depois dos demais atos probatórios indicados no artigo 400."
+    },
+    {
+      "id": "seap-u086-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 395 autoriza rejeitar denúncia ou queixa quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "houver sempre controvérsia probatória."
+        },
+        {
+          "id": "B",
+          "text": "faltar justa causa para o exercício da ação penal."
+        },
+        {
+          "id": "C",
+          "text": "o réu negar o fato."
+        },
+        {
+          "id": "D",
+          "text": "a pena máxima for inferior a quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "houver pedido de absolvição pela defesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Falta de justa causa é uma das hipóteses expressas de rejeição."
+    },
+    {
+      "id": "seap-u086-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra central do artigo 563 determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer defeito formal anula o processo."
+        },
+        {
+          "id": "B",
+          "text": "nenhum ato será declarado nulo sem prejuízo para acusação ou defesa."
+        },
+        {
+          "id": "C",
+          "text": "somente a acusação precisa provar prejuízo."
+        },
+        {
+          "id": "D",
+          "text": "nulidade absoluta sempre dispensa prejuízo."
+        },
+        {
+          "id": "E",
+          "text": "o juiz deve anular todo ato irregular de ofício."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema adota a regra de que não há nulidade sem prejuízo."
+    },
+    {
+      "id": "seap-u086-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "À luz da jurisprudência do STJ revalidada em 2026, a alegação de nulidade absoluta",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa sempre demonstração de prejuízo."
+        },
+        {
+          "id": "B",
+          "text": "também exige demonstração de prejuízo efetivo no caso."
+        },
+        {
+          "id": "C",
+          "text": "gera absolvição automática."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser feita pela acusação."
+        },
+        {
+          "id": "E",
+          "text": "é irrelevante em processo penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STJ reiterou a exigência de prejuízo efetivo inclusive em alegações de nulidade absoluta."
+    },
+    {
+      "id": "seap-u086-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 565 impede a parte de arguir nulidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "que tenha causado ou para a qual tenha concorrido."
+        },
+        {
+          "id": "B",
+          "text": "relacionada a ato judicial."
+        },
+        {
+          "id": "C",
+          "text": "ocorrida antes da sentença."
+        },
+        {
+          "id": "D",
+          "text": "que cause prejuízo concreto."
+        },
+        {
+          "id": "E",
+          "text": "prevista no artigo 564."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A parte não pode explorar vício a que deu causa ou para o qual concorreu."
+    },
+    {
+      "id": "seap-u086-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Declarada a incompetência do juízo, o artigo 567 estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo o processo é inexistente."
+        },
+        {
+          "id": "B",
+          "text": "somente os atos decisórios são anulados, com remessa ao juiz competente."
+        },
+        {
+          "id": "C",
+          "text": "nenhum ato pode ser aproveitado."
+        },
+        {
+          "id": "D",
+          "text": "a acusação é automaticamente rejeitada."
+        },
+        {
+          "id": "E",
+          "text": "a pena deve ser reduzida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literalidade do artigo 567 limita o efeito aos atos decisórios."
+    },
+    {
+      "id": "seap-u086-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A falta ou nulidade de citação, intimação ou notificação pode ser sanada, nos termos do artigo 570, quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o interessado comparece antes de o ato consumar-se, observada a proteção contra prejuízo."
+        },
+        {
+          "id": "B",
+          "text": "o Ministério Público desiste da ação."
+        },
+        {
+          "id": "C",
+          "text": "há condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "a defesa permanece ausente."
+        },
+        {
+          "id": "E",
+          "text": "o juiz ignora o defeito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O comparecimento pode sanar o vício, cabendo suspensão/adiamento se a irregularidade puder prejudicar direito da parte."
+    },
+    {
+      "id": "seap-u086-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 572 admite saneamento de determinadas nulidades quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca são arguídas, independentemente do caso."
+        },
+        {
+          "id": "B",
+          "text": "não são arguidas em tempo oportuno, o ato alcança sua finalidade por outra forma ou a parte aceita seus efeitos, conforme as hipóteses legais."
+        },
+        {
+          "id": "C",
+          "text": "há apenas decisão de primeiro grau."
+        },
+        {
+          "id": "D",
+          "text": "a defesa sempre concorda expressamente."
+        },
+        {
+          "id": "E",
+          "text": "o juiz não fundamenta a sentença."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 572 prevê essas hipóteses de saneamento para nulidades nele referidas."
+    },
+    {
+      "id": "seap-u086-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 573, declarada a nulidade de um ato,",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os atos do processo são anulados automaticamente."
+        },
+        {
+          "id": "B",
+          "text": "renova-se ou retifica-se o ato e a nulidade alcança os atos que dele dependam diretamente ou sejam consequência."
+        },
+        {
+          "id": "C",
+          "text": "somente a sentença é atingida."
+        },
+        {
+          "id": "D",
+          "text": "nenhum ato posterior pode ser alcançado."
+        },
+        {
+          "id": "E",
+          "text": "a ação penal é extinta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A propagação depende de vínculo direto de dependência ou consequência, delimitado na decisão."
+    },
+    {
+      "id": "seap-u086-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O procedimento sumaríssimo",
+      "options": [
+        {
+          "id": "A",
+          "text": "é idêntico ao sumário."
+        },
+        {
+          "id": "B",
+          "text": "é destinado às infrações de menor potencial ofensivo, na forma da lei própria."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se a todo crime com pena máxima inferior a oito anos."
+        },
+        {
+          "id": "D",
+          "text": "substitui o procedimento do júri."
+        },
+        {
+          "id": "E",
+          "text": "é definido apenas pelo número de testemunhas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 394 remete o sumaríssimo às infrações de menor potencial ofensivo na forma da lei."
+    },
+    {
+      "id": "seap-u086-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A primeira fase do procedimento do Tribunal do Júri deve ser concluída, segundo o artigo 412, em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias."
+        },
+        {
+          "id": "B",
+          "text": "45 dias."
+        },
+        {
+          "id": "C",
+          "text": "60 dias."
+        },
+        {
+          "id": "D",
+          "text": "90 dias."
+        },
+        {
+          "id": "E",
+          "text": "120 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 412 fixa prazo máximo de noventa dias."
+    }
+  ]
+}
