@@ -1,11 +1,11 @@
-# Direitos humanos e fundamentais — arts. 5º a 15
+# Direitos humanos e fundamentais — artigos 5º a 15
 
 ## Mapa
 
-- **art. 5º** → liberdades + garantias + processo justo;
-- **arts. 6º–11** → direitos sociais e coletivos do trabalho;
-- **arts. 12–13** → nacionalidade;
-- **arts. 14–15** → direitos políticos.
+- **artigo 5º** → liberdades + garantias + processo justo;
+- **artigos 6º–11** → direitos sociais e coletivos do trabalho;
+- **artigos 12–13** → nacionalidade;
+- **artigos 14–15** → direitos políticos.
 
 ## Art. 5º — gatilhos
 
@@ -33,8 +33,8 @@ Tratados de direitos humanos:
 
 ## Arts. 6º–11 — números
 
-- jornada: **8 h/dia + 44 h/semana**;
-- turnos ininterruptos: **6 h**;
+- jornada: **8 horas/dia + 44 horas/semana**;
+- turnos ininterruptos: **6 horas**;
 - extra: mínimo **+50%**;
 - férias: **+1/3**;
 - gestante: **120 dias**;
