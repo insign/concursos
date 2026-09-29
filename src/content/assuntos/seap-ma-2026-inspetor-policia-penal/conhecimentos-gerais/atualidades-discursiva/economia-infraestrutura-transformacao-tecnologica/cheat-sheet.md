@@ -9,7 +9,7 @@
 
 ## Economia
 
-Painel do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, consulta em 18/9/2026:
+Painel do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, reconsulta em 29/9/2026:
 
 - <abbr title="Produto Interno Bruto">PIB</abbr>, quatro trimestres até 2º trimestre de 2026: **+1,9%**;
 - <abbr title="Índice Nacional de Preços ao Consumidor Amplo">IPCA</abbr>, agosto de 2026: **−0,32% no mês**;
