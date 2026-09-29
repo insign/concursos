@@ -254,7 +254,7 @@ Fronteira:
 
 Juiz decide pedido:
 
-→ **24 h**.
+→ **24 horas**.
 
 Agente:
 
