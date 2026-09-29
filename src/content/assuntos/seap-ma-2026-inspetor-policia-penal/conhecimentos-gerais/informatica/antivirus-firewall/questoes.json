@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4325",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Detecção por assinatura é mais eficaz quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o antivírus está desativado."
+        },
+        {
+          "id": "B",
+          "text": "não existe qualquer arquivo ou comportamento."
+        },
+        {
+          "id": "C",
+          "text": "a amostra nunca foi vista e não possui padrão conhecido."
+        },
+        {
+          "id": "D",
+          "text": "o padrão da ameaça já é conhecido e a base está atualizada."
+        },
+        {
+          "id": "E",
+          "text": "a ameaça usa somente engenharia social sem código."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Assinaturas comparam padrões conhecidos e podem falhar diante de variantes novas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4326",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Heurística e análise comportamental ajudam a detectar",
+      "options": [
+        {
+          "id": "A",
+          "text": "estruturas ou ações suspeitas mesmo sem correspondência exata de assinatura."
+        },
+        {
+          "id": "B",
+          "text": "apenas mensagens já assinadas por DKIM."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente vírus de boot conhecidos."
+        },
+        {
+          "id": "D",
+          "text": "somente falhas físicas de disco."
+        },
+        {
+          "id": "E",
+          "text": "nenhum comportamento em execução."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essas técnicas ampliam detecção, mas podem gerar falsos positivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4327",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Reputação e aprendizado de máquina no antimalware",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantem detecção perfeita."
+        },
+        {
+          "id": "B",
+          "text": "combinam sinais como origem, prevalência e características, sem eliminar erros de classificação."
+        },
+        {
+          "id": "C",
+          "text": "substituem atualização de software."
+        },
+        {
+          "id": "D",
+          "text": "tornam quarentena desnecessária."
+        },
+        {
+          "id": "E",
+          "text": "são equivalentes a firewall stateless."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Modelos e reputação são controles adicionais, não garantia absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4328",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quarentena é usada para",
+      "options": [
+        {
+          "id": "A",
+          "text": "executar a amostra livremente na rede."
+        },
+        {
+          "id": "B",
+          "text": "apagar definitivamente todo arquivo detectado."
+        },
+        {
+          "id": "C",
+          "text": "transformar o item em backup."
+        },
+        {
+          "id": "D",
+          "text": "publicar o arquivo na Internet."
+        },
+        {
+          "id": "E",
+          "text": "isolar um objeto suspeito e impedir seu uso normal enquanto ele é analisado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Quarentena não é sinônimo de exclusão nem de sandbox. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4329",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Falso positivo e falso negativo são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ameaça detectada e item legítimo liberado."
+        },
+        {
+          "id": "B",
+          "text": "mensagem assinada e mensagem cifrada."
+        },
+        {
+          "id": "C",
+          "text": "item legítimo marcado como ameaça e ameaça não detectada."
+        },
+        {
+          "id": "D",
+          "text": "duas formas de backup."
+        },
+        {
+          "id": "E",
+          "text": "dois tipos de firewall."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os erros têm impactos opostos sobre disponibilidade e segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4330",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sandbox e quarentena diferenciam-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas são políticas DMARC."
+        },
+        {
+          "id": "B",
+          "text": "quarentena concede acesso administrativo."
+        },
+        {
+          "id": "C",
+          "text": "sandbox é sempre uma máquina física."
+        },
+        {
+          "id": "D",
+          "text": "sandbox executa sob restrições para observar comportamento; quarentena apenas isola o objeto."
+        },
+        {
+          "id": "E",
+          "text": "quarentena executa e sandbox apaga."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A finalidade da sandbox é análise controlada; a da quarentena é impedir uso normal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4331",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma limitação da sandbox é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela garante ausência de fuga."
+        },
+        {
+          "id": "B",
+          "text": "todo comportamento aparece imediatamente."
+        },
+        {
+          "id": "C",
+          "text": "qualquer máquina virtual comum é laboratório seguro."
+        },
+        {
+          "id": "D",
+          "text": "o malware pode adiar ações, exigir interação ou detectar o ambiente de análise."
+        },
+        {
+          "id": "E",
+          "text": "ela substitui a resposta a incidentes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sandbox reduz risco e auxilia análise, mas não garante observação completa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4332",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Firewall de rede e firewall de host distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos são obrigatoriamente o mesmo dispositivo."
+        },
+        {
+          "id": "B",
+          "text": "firewall de host atua somente em e-mail."
+        },
+        {
+          "id": "C",
+          "text": "firewall de host não controla tráfego."
+        },
+        {
+          "id": "D",
+          "text": "firewall de rede remove malware do disco."
+        },
+        {
+          "id": "E",
+          "text": "o primeiro protege segmentos ou fronteiras; o segundo protege o próprio equipamento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A diferença principal é o alcance de aplicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4333",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um filtro stateless decide principalmente com base em",
+      "options": [
+        {
+          "id": "A",
+          "text": "estado completo de todas as sessões."
+        },
+        {
+          "id": "B",
+          "text": "senha do usuário."
+        },
+        {
+          "id": "C",
+          "text": "campos de cada pacote, como endereços, protocolo e portas, sem acompanhar integralmente a conexão."
+        },
+        {
+          "id": "D",
+          "text": "conteúdo semântico de todo aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "histórico de versões do arquivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Stateless avalia cada pacote segundo regras, sem manter o contexto amplo de conexão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4334",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Inspeção stateful permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "remover rootkit do disco."
+        },
+        {
+          "id": "B",
+          "text": "acompanhar o estado das conexões e permitir tráfego de retorno coerente com o fluxo."
+        },
+        {
+          "id": "C",
+          "text": "substituir antimalware."
+        },
+        {
+          "id": "D",
+          "text": "ler obrigatoriamente todo conteúdo cifrado."
+        },
+        {
+          "id": "E",
+          "text": "liberar qualquer conexão iniciada da Internet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Estado da conexão reduz regras de retorno, mas não equivale a inspeção completa da aplicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4335",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Proxy ou firewall de aplicação pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "intermediar e analisar protocolos de aplicação de forma mais específica."
+        },
+        {
+          "id": "B",
+          "text": "atuar apenas na camada física."
+        },
+        {
+          "id": "C",
+          "text": "funcionar somente como keylogger."
+        },
+        {
+          "id": "D",
+          "text": "dispensar política e atualização."
+        },
+        {
+          "id": "E",
+          "text": "garantir legitimidade de todo HTTPS."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A análise de aplicação oferece contexto adicional, mas não elimina outros controles. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4336",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma limitação essencial do firewall é que ele",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode bloquear nenhuma conexão."
+        },
+        {
+          "id": "B",
+          "text": "impede todo phishing automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "substitui backup e MFA."
+        },
+        {
+          "id": "D",
+          "text": "controla tráfego, mas não corrige vulnerabilidade nem remove malware já instalado."
+        },
+        {
+          "id": "E",
+          "text": "garante que a porta 443 contenha tráfego benigno."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Firewall é uma camada de defesa, não solução universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4367",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Um servidor local oferece um serviço em determinada porta. A equipe quer manter registro das tentativas de conexão recebidas pelo próprio computador conforme as regras de seu firewall pessoal. Qual função é pertinente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "certificar a autenticidade de todas as páginas visitadas"
+        },
+        {
+          "id": "B",
+          "text": "remover arquivos maliciosos do armazenamento"
+        },
+        {
+          "id": "C",
+          "text": "reconstruir integralmente a atividade interna dos aplicativos"
+        },
+        {
+          "id": "D",
+          "text": "registrar tentativas de acesso aos serviços habilitados no equipamento"
+        },
+        {
+          "id": "E",
+          "text": "bloquear todos os cookies do navegador"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O firewall pessoal pode registrar conexões tentadas para serviços habilitados; não remove malware. Adaptação temática em nova redação de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> <abbr title=\"Ministério Público do Estado de Goiás\">MP-GO</abbr> 2022 q36 D. Prova oficial: https://conhecimento.fgv.br/sites/default/files/concursos/assistente_programadormpgo-nm003_tipo_1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/mpgo2022serv_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "seap-u044-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que manter o antivírus ou antimalware atualizado continua relevante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque toda atualização elimina a necessidade de outras camadas de segurança."
+        },
+        {
+          "id": "B",
+          "text": "Porque assinaturas, mecanismos de detecção e componentes do produto podem receber informações e correções novas."
+        },
+        {
+          "id": "C",
+          "text": "Porque atualização converte o antivírus em firewall de rede."
+        },
+        {
+          "id": "D",
+          "text": "Porque arquivos em quarentena são publicados na Internet após a atualização."
+        },
+        {
+          "id": "E",
+          "text": "Porque um produto atualizado garante detecção de 100% das ameaças."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Atualizações podem ampliar padrões conhecidos e corrigir o próprio mecanismo de proteção, mas não tornam a detecção perfeita nem substituem outras camadas."
+    },
+    {
+      "id": "seap-u044-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa diferencia corretamente antivírus e firewall?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antivírus examina arquivos e comportamentos; firewall aplica regras ao tráfego de rede."
+        },
+        {
+          "id": "B",
+          "text": "Firewall remove obrigatoriamente qualquer malware armazenado no disco."
+        },
+        {
+          "id": "C",
+          "text": "Antivírus controla somente portas de rede e nunca examina arquivos."
+        },
+        {
+          "id": "D",
+          "text": "Os dois recursos são sinônimos e sempre executam as mesmas funções."
+        },
+        {
+          "id": "E",
+          "text": "Firewall só funciona depois que o malware foi excluído."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Antimalware e firewall atuam em superfícies diferentes e se complementam. O firewall controla comunicações conforme regras; o antimalware procura código ou comportamento suspeito."
+    },
+    {
+      "id": "seap-u044-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma regra de firewall bloqueia conexões de entrada não solicitadas para determinado serviço. Isso significa que o firewall",
+      "options": [
+        {
+          "id": "A",
+          "text": "apagou todos os programas que usam rede."
+        },
+        {
+          "id": "B",
+          "text": "passou a garantir que todo tráfego permitido é legítimo."
+        },
+        {
+          "id": "C",
+          "text": "aplicou uma política de controle de tráfego, sem necessariamente remover arquivos maliciosos do equipamento."
+        },
+        {
+          "id": "D",
+          "text": "corrigiu todas as vulnerabilidades do sistema."
+        },
+        {
+          "id": "E",
+          "text": "substituiu a necessidade de atualização do sistema."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Bloquear ou permitir conexões é função de controle de tráfego. Isso não equivale a limpar o armazenamento nem corrigir falhas de software."
+    },
+    {
+      "id": "seap-u044-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após detectar um arquivo suspeito, o antivírus o move para quarentena. A interpretação correta é que o arquivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi isolado do uso normal para reduzir o risco e permitir decisão posterior."
+        },
+        {
+          "id": "B",
+          "text": "foi necessariamente apagado de forma definitiva."
+        },
+        {
+          "id": "C",
+          "text": "foi comprovado como malicioso sem possibilidade de falso positivo."
+        },
+        {
+          "id": "D",
+          "text": "foi convertido em regra de firewall."
+        },
+        {
+          "id": "E",
+          "text": "passou a ser executado em todos os computadores da rede."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quarentena é isolamento. Ela não implica exclusão definitiva nem prova absoluta de que o item era malicioso."
+    },
+    {
+      "id": "seap-u044-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em defesa em camadas, qual conjunto apresenta controles com funções complementares?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antimalware, firewall, atualização de software e cópia de segurança."
+        },
+        {
+          "id": "B",
+          "text": "Somente firewall, pois ele substitui todos os demais controles."
+        },
+        {
+          "id": "C",
+          "text": "Somente antivírus, pois ele impede qualquer falha de software."
+        },
+        {
+          "id": "D",
+          "text": "Somente cópia de segurança, pois ela bloqueia conexões maliciosas."
+        },
+        {
+          "id": "E",
+          "text": "Apenas quarentena, pois ela evita qualquer incidente futuro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Controles diferentes tratam riscos diferentes. Nenhum deles, isoladamente, garante proteção completa."
+    }
+  ]
+}
