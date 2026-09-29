@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u054-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.784/1999 estabelece normas básicas de processo administrativo diretamente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Administração federal direta e indireta e, em função administrativa, órgãos federais dos Poderes Legislativo e Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "todos os estados e municípios, substituindo qualquer lei local."
+        },
+        {
+          "id": "C",
+          "text": "somente autarquias federais."
+        },
+        {
+          "id": "D",
+          "text": "somente o Poder Executivo estadual."
+        },
+        {
+          "id": "E",
+          "text": "qualquer empresa privada que contrate com o Estado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 1º define âmbito federal e estende os preceitos a órgãos federais dos demais Poderes quando exercem função administrativa."
+    },
+    {
+      "id": "u054-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os critérios do art. 2º, é correto afirmar que a Administração deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicar retroativamente nova interpretação sempre que a considerar melhor."
+        },
+        {
+          "id": "B",
+          "text": "interpretar a norma administrativa de modo a melhor atender ao fim público, vedada aplicação retroativa de nova interpretação."
+        },
+        {
+          "id": "C",
+          "text": "renunciar livremente a competências por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "dispensar formalidades essenciais aos direitos dos administrados."
+        },
+        {
+          "id": "E",
+          "text": "cobrar despesas processuais em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei combina finalidade pública, segurança jurídica e vedação à aplicação retroativa de nova interpretação administrativa."
+    },
+    {
+      "id": "u054-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à assistência por advogado no processo administrativo regido pela Lei nº 9.784/1999,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "é sempre proibida."
+        },
+        {
+          "id": "C",
+          "text": "é facultativa, salvo quando a lei tornar obrigatória a representação."
+        },
+        {
+          "id": "D",
+          "text": "só é permitida em recurso."
+        },
+        {
+          "id": "E",
+          "text": "substitui a participação do interessado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 3º assegura assistência facultativa por advogado, ressalvada imposição legal de representação."
+    },
+    {
+      "id": "u054-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O processo administrativo federal pode iniciar-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente por recurso."
+        },
+        {
+          "id": "B",
+          "text": "apenas por determinação judicial."
+        },
+        {
+          "id": "C",
+          "text": "de ofício ou a pedido de interessado."
+        },
+        {
+          "id": "D",
+          "text": "somente por denúncia anônima."
+        },
+        {
+          "id": "E",
+          "text": "apenas por requerimento escrito de advogado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 5º admite início de ofício ou a pedido de interessado."
+    },
+    {
+      "id": "u054-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos interessados, a Lei nº 9.784/1999 reconhece legitimidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a quem iniciou pessoalmente o processo."
+        },
+        {
+          "id": "B",
+          "text": "também a organizações/associações representativas em interesses coletivos e a cidadãos ou associações quanto a interesses difusos."
+        },
+        {
+          "id": "C",
+          "text": "somente a servidores públicos."
+        },
+        {
+          "id": "D",
+          "text": "apenas a pessoas físicas maiores de 21 anos."
+        },
+        {
+          "id": "E",
+          "text": "somente a quem demonstra interesse patrimonial direto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 9º contempla titulares individuais, afetados indiretos, organizações representativas e pessoas/associações no campo difuso."
+    },
+    {
+      "id": "u054-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Não pode ser objeto de delegação de competência, nos termos da Lei nº 9.784/1999,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prática de ato instrutório simples."
+        },
+        {
+          "id": "B",
+          "text": "uma competência técnica não exclusiva, quando a lei permite."
+        },
+        {
+          "id": "C",
+          "text": "a decisão de recurso administrativo."
+        },
+        {
+          "id": "D",
+          "text": "atividade delegável a órgão não subordinado."
+        },
+        {
+          "id": "E",
+          "text": "competência parcial quando a conveniência legalmente prevista estiver presente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 13 veda delegar atos normativos, decisão de recursos e matérias de competência exclusiva."
+    },
+    {
+      "id": "u054-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A avocação de competência prevista na Lei nº 9.784/1999 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "regra geral e definitiva."
+        },
+        {
+          "id": "B",
+          "text": "excepcional, temporária, devidamente justificada e relativa a órgão hierarquicamente inferior."
+        },
+        {
+          "id": "C",
+          "text": "possível entre quaisquer órgãos sem relação hierárquica."
+        },
+        {
+          "id": "D",
+          "text": "obrigatória sempre que houver recurso."
+        },
+        {
+          "id": "E",
+          "text": "forma de renúncia definitiva da competência do órgão inferior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 15 exige excepcionalidade, temporariedade, motivo relevante e relação hierárquica."
+    },
+    {
+      "id": "u054-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção que melhor distingue impedimento de suspeição.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Impedimento e suspeição são expressões idênticas."
+        },
+        {
+          "id": "B",
+          "text": "Interesse direto na matéria pode gerar impedimento; amizade íntima ou inimizade notória pode fundamentar suspeição."
+        },
+        {
+          "id": "C",
+          "text": "Somente o interessado pode reconhecer impedimento."
+        },
+        {
+          "id": "D",
+          "text": "Suspeição nunca admite recurso."
+        },
+        {
+          "id": "E",
+          "text": "Impedimento não precisa ser comunicado pelo agente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os arts. 18 a 21 separam causas objetivas de impedimento e hipóteses de suspeição; o agente impedido deve comunicar o fato."
+    },
+    {
+      "id": "u054-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Inexistindo prazo específico, os atos do órgão, autoridade e administrados participantes do processo devem ser praticados, em regra, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 dias improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "5 dias, admitida dilatação até o dobro mediante justificação comprovada."
+        },
+        {
+          "id": "C",
+          "text": "10 dias úteis sem exceção."
+        },
+        {
+          "id": "D",
+          "text": "15 dias corridos."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 24 fixa cinco dias e admite dilatação até o dobro mediante comprovada justificação."
+    },
+    {
+      "id": "u054-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O desatendimento de uma intimação administrativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "faz presumir verdadeiros todos os fatos contra o intimado."
+        },
+        {
+          "id": "B",
+          "text": "equivale sempre a renúncia ao direito."
+        },
+        {
+          "id": "C",
+          "text": "não implica reconhecimento da verdade nem renúncia a direito, mantendo-se ampla defesa no prosseguimento."
+        },
+        {
+          "id": "D",
+          "text": "encerra obrigatoriamente o processo."
+        },
+        {
+          "id": "E",
+          "text": "gera automaticamente sanção penal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 27 afasta essas presunções e preserva ampla defesa."
+    },
+    {
+      "id": "u054-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na instrução do processo administrativo federal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "provas ilícitas são admitidas se relevantes."
+        },
+        {
+          "id": "B",
+          "text": "documentos já existentes na Administração devem sempre ser novamente produzidos pelo interessado."
+        },
+        {
+          "id": "C",
+          "text": "o interessado pode propor provas, e documentos que já estejam em órgãos administrativos devem ser obtidos de ofício nas condições legais."
+        },
+        {
+          "id": "D",
+          "text": "a Administração pode recusar qualquer prova sem motivação."
+        },
+        {
+          "id": "E",
+          "text": "o órgão instrutor não possui dever de impulsão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 29, 30, 37 e 38 combinam impulso oficial, participação probatória, vedação à prova ilícita e obtenção de documentos já públicos internamente."
+    },
+    {
+      "id": "u054-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Concluída a instrução, a Administração tem, em regra, prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias improrrogáveis para decidir."
+        },
+        {
+          "id": "B",
+          "text": "10 dias úteis para decidir."
+        },
+        {
+          "id": "C",
+          "text": "30 dias para decidir, prorrogáveis por igual período mediante motivação expressa."
+        },
+        {
+          "id": "D",
+          "text": "60 dias, sem necessidade de motivação para prorrogar."
+        },
+        {
+          "id": "E",
+          "text": "um ano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 49 fixa até 30 dias e admite uma prorrogação por igual período expressamente motivada."
+    },
+    {
+      "id": "u054-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A decisão coordenada da Lei nº 9.784/1999",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatória em todo processo com dois setores."
+        },
+        {
+          "id": "B",
+          "text": "pode ser usada em processo sancionador."
+        },
+        {
+          "id": "C",
+          "text": "pode reunir três ou mais setores, órgãos ou entidades nas condições legais, mas não se aplica a licitação, poder sancionador ou autoridades de Poderes distintos."
+        },
+        {
+          "id": "D",
+          "text": "elimina a responsabilidade originária dos participantes."
+        },
+        {
+          "id": "E",
+          "text": "dispensa ata e fundamentação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 49-A e seguintes permitem coordenação em situações delimitadas e preservam competência e responsabilidade de cada participante."
+    },
+    {
+      "id": "u054-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A motivação exigida pelo art. 50 deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "secreta e genérica."
+        },
+        {
+          "id": "B",
+          "text": "explícita, clara e congruente, indicando fatos e fundamentos jurídicos nas hipóteses legais."
+        },
+        {
+          "id": "C",
+          "text": "facultativa em decisão de recurso."
+        },
+        {
+          "id": "D",
+          "text": "dispensada quando o ato afeta direitos."
+        },
+        {
+          "id": "E",
+          "text": "substituída pela mera citação do número do processo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei exige motivação em várias hipóteses sensíveis e qualifica sua forma como explícita, clara e congruente."
+    },
+    {
+      "id": "u054-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a relação correta entre anulação, revogação e convalidação.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anulação corrige conveniência; revogação corrige ilegalidade; convalidação destrói ato válido."
+        },
+        {
+          "id": "B",
+          "text": "Anulação enfrenta ilegalidade; revogação retira ato válido por mérito; convalidação pode sanar defeito corrigível sem lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "C",
+          "text": "Todos os institutos possuem a mesma causa."
+        },
+        {
+          "id": "D",
+          "text": "Convalidação é obrigatória em qualquer vício."
+        },
+        {
+          "id": "E",
+          "text": "Revogação pode ignorar direitos adquiridos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os arts. 53 a 55 distinguem legalidade, mérito e defeito sanável; o art. 54 ainda limita a anulação de atos favoráveis pela decadência quinquenal, salvo má-fé."
+    },
+    {
+      "id": "q52204904",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em um determinado processo administrativo, sujeito ao regime jurídico estabelecido na Lei nº 9.784/1999, João é sancionado, após a observância do contraditório e da ampla defesa, como consectários do devido processo legal. Nada obstante, um ano e onze meses após à prolação da decisão, surgem circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.\n\nNesse cenário, considerando as disposições da Lei nº 9.784/99, é correto afirmar que o processo administrativo poderá ser revisto",
+      "options": [
+        {
+          "id": "A",
+          "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado ou de ofício, sendo certo que da revisão do processo poderá resultar agravamento da sanção."
+        },
+        {
+          "id": "B",
+          "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado, sendo certo que da revisão do processo não poderá resultar agravamento da sanção."
+        },
+        {
+          "id": "C",
+          "text": "observado o prazo decadencial de dois anos, contados do trânsito em julgado da última decisão proferida no processo, a pedido do interessado, sendo certo que da revisão do processo poderá resultar agravamento da sanção."
+        },
+        {
+          "id": "D",
+          "text": "a qualquer tempo, a pedido do interessado ou de ofício, sendo certo que da revisão do processo não poderá resultar agravamento da sanção."
+        },
+        {
+          "id": "E",
+          "text": "a qualquer tempo, a pedido do interessado, sendo certo que da revisão do processo poderá resultar agravamento da sanção."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito oficial definitivo: D. Segundo o art. 65 da Lei nº 9.784/1999, processos administrativos sancionadores podem ser revistos a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes, sem agravamento da sanção. Fonte: <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara dos Deputados; Consultor Legislativo — Área VIII; 2023; questão 53, Tipo 1, tarde; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/area-viii-t1-tarde.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tardecamara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-tarde.pdf."
+    },
+    {
+      "id": "q52204905",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em caso de recurso administrativo interposto perante autoridade incompetente, a legislação prevê que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o recurso seja remetido à autoridade competente."
+        },
+        {
+          "id": "B",
+          "text": "a autoridade competente seja indicada ao recorrente, sendo-lhe devolvido o prazo para recurso."
+        },
+        {
+          "id": "C",
+          "text": "o seguimento do recurso seja negado."
+        },
+        {
+          "id": "D",
+          "text": "o recurso seja conhecido, embora deva ser desprovido."
+        },
+        {
+          "id": "E",
+          "text": "o processo administrativo correspondente seja arquivado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito oficial definitivo: B. A Lei nº 9.784/1999 determina que, quando o recurso é interposto perante autoridade incompetente, seja indicada ao recorrente a autoridade competente e devolvido o prazo para recurso. Fonte: <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>; Tribunal Regional Eleitoral da Bahia; Analista Judiciário — Área Judiciária; 2017; questão 26; caderno: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Tribunal Regional Eleitoral\">TRE</abbr>_BA_17/arquivos/329_TREBA_001_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Tribunal Regional Eleitoral\">TRE</abbr>_BA_17/arquivos/Gab_Definitivo_329_TREBA_001_01.pdf."
+    },
+    {
+      "id": "q52204906",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Diante do acúmulo de serviço em razão da grande demanda em sua competência originária e com o objetivo de conferir maior eficiência e celeridade em questões administrativas, o Delegado-Geral de Polícia Civil do Estado Alfa praticou ato administrativo delegando sua competência para a Secretaria Executiva de Polícia decidir recursos administrativos hierárquicos.\nO mencionado ato de delegação é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "inválido, porque os atos previstos como de competência do Delegado-Geral não podem ser delegados, em respeito ao poder hierárquico;"
+        },
+        {
+          "id": "B",
+          "text": "inválido, porque a legislação proíbe expressamente a delegação de decisão de recursos administrativos;"
+        },
+        {
+          "id": "C",
+          "text": "lícito, porque a competência administrativa é imprescritível, improrrogável e irrenunciável;"
+        },
+        {
+          "id": "D",
+          "text": "lícito, porque a competência é delegável, exceto nos casos de competência exclusiva definida em lei;"
+        },
+        {
+          "id": "E",
+          "text": "lícito, porque a competência é delegável, exceto para a edição de atos normativos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gabarito oficial definitivo: B. A decisão de recursos administrativos está entre as competências que não podem ser objeto de delegação. Fonte: <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Polícia Civil do Rio Grande do Norte; Delegado de Polícia Civil Substituto; 2021; questão 61, Tipo 1; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pcrn-delegado-de-policia-civil-substituto-deleg-01-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/pcrn_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52204907",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "O administrado que se sentir lesado em decorrência de decisão administrativa poderá interpor recursos hierárquicos até chegar à autoridade máxima da organização, sendo esse direito, na esfera federal, limitado a três instâncias administrativas.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. Na esfera federal, a Lei nº 9.784/1999 limita a tramitação do recurso administrativo a três instâncias administrativas, salvo disposição legal diversa. Fonte: <abbr title=\"Centro de Seleção e de Promoção de Eventos da Universidade de Brasília\">CESPE/UnB</abbr>; Agência Nacional de Transportes Terrestres (<abbr title=\"Agência Nacional de Transportes Terrestres\">ANTT</abbr>); Técnico em Regulação de Serviços de Transportes Terrestres; 2013; item 90; caderno: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Agência Nacional de Transportes Terrestres\">ANTT</abbr>_13/arquivos/ANTT13_017_34.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Agência Nacional de Transportes Terrestres\">ANTT</abbr>_13/arquivos/Gab_definitivo_ANTT13_017_34.PDF."
+    },
+    {
+      "id": "q52204908",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cidadãos ou associações têm legitimidade para interpor recurso administrativo para defender interesses difusos.",
+      "options": [
+        {
+          "id": "C",
+          "text": "Certo"
+        },
+        {
+          "id": "E",
+          "text": "Errado"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gabarito oficial definitivo: Certo. A Lei nº 9.784/1999 inclui cidadãos ou associações entre os legitimados para interpor recurso administrativo quanto a direitos ou interesses difusos. Fonte: <abbr title=\"Centro de Seleção e de Promoção de Eventos da Universidade de Brasília\">CESPE/UnB</abbr>; Tribunal de Contas da União; Técnico Federal de Controle Externo — Área Apoio Técnico e Administrativo — Especialidade Técnica Administrativa; 2012; item 54; caderno: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Tribunal de Contas da União\">TCU</abbr>_12_TEFC/arquivos/TCU12_001_01.pdf; gabarito definitivo: https://cdn.cebraspe.org.br/concursos/<abbr title=\"Tribunal de Contas da União\">TCU</abbr>_12_TEFC/arquivos/Gab_definitivo_TCU12_001_01.PDF."
+    }
+  ]
+}
