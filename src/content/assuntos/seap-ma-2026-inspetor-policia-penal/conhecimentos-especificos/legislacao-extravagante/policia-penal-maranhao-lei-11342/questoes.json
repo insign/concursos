@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u110-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei estadual nº 11.342/2020 instituiu a Polícia Penal do Maranhão como",
+      "options": [
+        {
+          "id": "A",
+          "text": "órgão do Sistema de Segurança Pública."
+        },
+        {
+          "id": "B",
+          "text": "autarquia independente."
+        },
+        {
+          "id": "C",
+          "text": "órgão do Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "empresa pública."
+        },
+        {
+          "id": "E",
+          "text": "força federal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei coloca a Polícia Penal no Sistema de Segurança Pública estadual."
+    },
+    {
+      "id": "seap-u110-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Polícia Penal do Maranhão integra a estrutura da",
+      "options": [
+        {
+          "id": "A",
+          "text": "Secretaria de Segurança Pública federal."
+        },
+        {
+          "id": "B",
+          "text": "<abbr title=\"Secretaria de Estado de Administração Penitenciária do Maranhão\">SEAP/MA</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "Defensoria Pública."
+        },
+        {
+          "id": "D",
+          "text": "Assembleia Legislativa."
+        },
+        {
+          "id": "E",
+          "text": "Polícia Civil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º vincula a Polícia Penal à estrutura da Secretaria de Administração Penitenciária."
+    },
+    {
+      "id": "seap-u110-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atribuição nuclear indicada pela Lei nº 11.342/2020 para a Polícia Penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "investigar qualquer crime estadual."
+        },
+        {
+          "id": "B",
+          "text": "policiar rodovias."
+        },
+        {
+          "id": "C",
+          "text": "realizar a segurança dos estabelecimentos penais estaduais."
+        },
+        {
+          "id": "D",
+          "text": "exercer jurisdição penal."
+        },
+        {
+          "id": "E",
+          "text": "fiscalizar tributos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essa é a atribuição expressa do art. 2º."
+    },
+    {
+      "id": "seap-u110-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a lei, as funções do Inspetor de Polícia Penal são",
+      "options": [
+        {
+          "id": "A",
+          "text": "meramente auxiliares."
+        },
+        {
+          "id": "B",
+          "text": "temporárias."
+        },
+        {
+          "id": "C",
+          "text": "privadas."
+        },
+        {
+          "id": "D",
+          "text": "essenciais, próprias e típicas de Estado."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente administrativas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 4º qualifica as funções dessa maneira."
+    },
+    {
+      "id": "seap-u110-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A natureza das funções do Inspetor é definida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "comercial."
+        },
+        {
+          "id": "B",
+          "text": "militar federal."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente braçal."
+        },
+        {
+          "id": "D",
+          "text": "judicial."
+        },
+        {
+          "id": "E",
+          "text": "técnico-científica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei atribui natureza técnico-científica às funções."
+    },
+    {
+      "id": "seap-u110-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integrar a estrutura da <abbr title=\"Secretaria de Estado de Administração Penitenciária do Maranhão\">SEAP/MA</abbr> significa que a Polícia Penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "continua sendo órgão de segurança pública dentro dessa estrutura administrativa."
+        },
+        {
+          "id": "B",
+          "text": "deixa de ser órgão de segurança pública."
+        },
+        {
+          "id": "C",
+          "text": "passa a integrar o Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "perde competências legais."
+        },
+        {
+          "id": "E",
+          "text": "torna-se órgão municipal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Vínculo administrativo e natureza de segurança pública coexistem."
+    },
+    {
+      "id": "seap-u110-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O poder de polícia previsto para o Inspetor deve ser entendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "poder ilimitado."
+        },
+        {
+          "id": "B",
+          "text": "prerrogativa exercida nos limites da competência penitenciária e da lei."
+        },
+        {
+          "id": "C",
+          "text": "competência para julgar crimes."
+        },
+        {
+          "id": "D",
+          "text": "autorização para ignorar direitos fundamentais."
+        },
+        {
+          "id": "E",
+          "text": "poder para alterar sentenças."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Prerrogativas funcionais não afastam os limites jurídicos."
+    },
+    {
+      "id": "seap-u110-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O porte de arma previsto entre prerrogativas do Inspetor",
+      "options": [
+        {
+          "id": "A",
+          "text": "independe de qualquer legislação."
+        },
+        {
+          "id": "B",
+          "text": "é proibido pela própria lei."
+        },
+        {
+          "id": "C",
+          "text": "deve observar a legislação aplicável."
+        },
+        {
+          "id": "D",
+          "text": "autoriza uso irrestrito."
+        },
+        {
+          "id": "E",
+          "text": "substitui treinamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prerrogativa existe sob as regras legais próprias."
+    },
+    {
+      "id": "seap-u110-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as prerrogativas funcionais previstas na lei está",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa de responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "competência judicial."
+        },
+        {
+          "id": "C",
+          "text": "imunidade penal."
+        },
+        {
+          "id": "D",
+          "text": "assistência jurídica estatal em acusação relacionada ao exercício regular do cargo."
+        },
+        {
+          "id": "E",
+          "text": "livre escolha de lotação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei prevê assistência jurídica estatal nessas condições."
+    },
+    {
+      "id": "seap-u110-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A descrição do cargo no edital de 2026 inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente guarda de portões."
+        },
+        {
+          "id": "B",
+          "text": "apenas transporte de presos."
+        },
+        {
+          "id": "C",
+          "text": "apenas rotina administrativa."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente revista pessoal."
+        },
+        {
+          "id": "E",
+          "text": "execução penal, inteligência, monitoração eletrônica, disciplina, segurança, vigilância e custódia, entre outras atividades."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O edital concretiza o perfil amplo do cargo no regime vigente."
+    },
+    {
+      "id": "seap-u110-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o cargo de Inspetor no edital de 2026 é exigida",
+      "options": [
+        {
+          "id": "A",
+          "text": "<abbr title=\"Carteira Nacional de Habilitação\">CNH</abbr> categoria B, além dos demais requisitos do edital."
+        },
+        {
+          "id": "B",
+          "text": "<abbr title=\"Carteira Nacional de Habilitação\">CNH</abbr> categoria E obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "apenas ensino médio."
+        },
+        {
+          "id": "D",
+          "text": "licença para pilotar aeronave."
+        },
+        {
+          "id": "E",
+          "text": "formação exclusivamente jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O edital exige CNH categoria B para o Cargo 1."
+    },
+    {
+      "id": "seap-u110-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O concurso de 2026 subordina os nomeados",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente à redação original de 2020."
+        },
+        {
+          "id": "B",
+          "text": "à Lei nº 11.342/2020 e suas alterações e à Lei nº 12.890/2026, entre outras normas indicadas."
+        },
+        {
+          "id": "C",
+          "text": "apenas ao edital."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente à Constituição Federal."
+        },
+        {
+          "id": "E",
+          "text": "somente a decreto de 2023."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O edital expressamente referencia a lei-base, suas alterações e a lei de 2026."
+    },
+    {
+      "id": "seap-u110-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Diante da reestruturação de 2026, a forma correta de estudar tabelas de carreira da Lei nº 11.342 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "assumir que nada mudou desde 2020."
+        },
+        {
+          "id": "B",
+          "text": "ignorar a lei de 2020."
+        },
+        {
+          "id": "C",
+          "text": "distinguir o núcleo permanente da lei das estruturas alteradas antes do corte."
+        },
+        {
+          "id": "D",
+          "text": "usar apenas material anterior a 2021."
+        },
+        {
+          "id": "E",
+          "text": "substituir a lei pelo edital."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A redação histórica não deve ser congelada quando houve alteração pré-corte."
+    },
+    {
+      "id": "seap-u110-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No concurso de 2026, o <abbr title=\"Teste de Aptidão Física\">TAF</abbr> do Inspetor tem caráter",
+      "options": [
+        {
+          "id": "A",
+          "text": "classificatório apenas."
+        },
+        {
+          "id": "B",
+          "text": "facultativo."
+        },
+        {
+          "id": "C",
+          "text": "consultivo."
+        },
+        {
+          "id": "D",
+          "text": "eliminatório."
+        },
+        {
+          "id": "E",
+          "text": "meramente documental."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regulamentação do concurso define o TAF como eliminatório."
+    },
+    {
+      "id": "seap-u110-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os critérios do <abbr title=\"Teste de Aptidão Física\">TAF</abbr> devem ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "subjetivos."
+        },
+        {
+          "id": "B",
+          "text": "variáveis entre candidatos sem justificativa."
+        },
+        {
+          "id": "C",
+          "text": "definidos apenas depois da prova."
+        },
+        {
+          "id": "D",
+          "text": "independentes das atribuições do cargo."
+        },
+        {
+          "id": "E",
+          "text": "técnicos, objetivos, padronizados e compatíveis com o cargo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A regulamentação exige critérios técnicos e padronizados."
+    },
+    {
+      "id": "seap-u110-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto estadual nº 42.425/2026 prevê, no regime regulamentado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dia de folga compensatória para cada 21 plantões."
+        },
+        {
+          "id": "B",
+          "text": "1 dia para cada 5 plantões."
+        },
+        {
+          "id": "C",
+          "text": "2 dias para cada 10 plantões."
+        },
+        {
+          "id": "D",
+          "text": "folga automática semanal."
+        },
+        {
+          "id": "E",
+          "text": "folga sem relação com atividade extraordinária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a proporção prevista no decreto."
+    },
+    {
+      "id": "seap-u110-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O gozo da folga compensatória",
+      "options": [
+        {
+          "id": "A",
+          "text": "é escolhido livremente pelo servidor."
+        },
+        {
+          "id": "B",
+          "text": "depende do interesse da Administração e da continuidade/segurança do serviço."
+        },
+        {
+          "id": "C",
+          "text": "é sempre convertido em dinheiro."
+        },
+        {
+          "id": "D",
+          "text": "dispensa cumprimento da jornada mensal."
+        },
+        {
+          "id": "E",
+          "text": "ocorre obrigatoriamente no mês seguinte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fruição está sujeita à conveniência administrativa e ao serviço."
+    },
+    {
+      "id": "seap-u110-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conversão da folga compensatória em pecúnia",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibida em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "ocorre automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "pode ocorrer por necessidade do serviço público, conforme a regulamentação."
+        },
+        {
+          "id": "D",
+          "text": "depende de sentença judicial."
+        },
+        {
+          "id": "E",
+          "text": "é um direito sem condições."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O decreto admite conversão quando a necessidade do serviço assim exigir."
+    },
+    {
+      "id": "seap-u110-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para Inspetor de Polícia Penal, o Decreto nº 42.425/2026 fixou indenização por dia de folga adquirido e não gozado de",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 145,79."
+        },
+        {
+          "id": "B",
+          "text": "R$ 291,57."
+        },
+        {
+          "id": "C",
+          "text": "R$ 316,21."
+        },
+        {
+          "id": "D",
+          "text": "R$ 691,10."
+        },
+        {
+          "id": "E",
+          "text": "R$ 1.382,20."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Esse é o valor específico do Inspetor no decreto pré-corte."
+    },
+    {
+      "id": "seap-u110-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor síntese do perfil funcional do Inspetor é",
+      "options": [
+        {
+          "id": "A",
+          "text": "atividade privada de segurança."
+        },
+        {
+          "id": "B",
+          "text": "função apenas administrativa."
+        },
+        {
+          "id": "C",
+          "text": "atividade limitada à vigilância física."
+        },
+        {
+          "id": "D",
+          "text": "cargo sem relação com execução penal."
+        },
+        {
+          "id": "E",
+          "text": "função estatal de segurança e execução penal com custódia, inteligência, monitoração e reintegração no desenho atual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A carreira combina segurança institucional com o conjunto da execução penal."
+    }
+  ]
+}
