@@ -2,7 +2,7 @@
 
 ## Programa e fonte principal
 
-- **SEAP/MA — Edital nº 1, de 21 de julho de 2026.** Legislação Extravagante, item 6: Lei nº 7.210/1984.
+- **<abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Edital nº 1, de 21 de julho de 2026.** Legislação Extravagante, item 6: Lei nº 7.210/1984.
 - **Brasil. Lei nº 7.210, de 11 de julho de 1984 — texto compilado.** Fonte central da unidade.  
   https://www.planalto.gov.br/ccivil_03/leis/l7210.htm
 
@@ -18,14 +18,14 @@
    https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm
 5. **Lei nº 15.402/2026.** Nova redação do artigo 112 e remição em regime domiciliar.  
    https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15402.htm
-6. **Lei nº 15.407/2026.** Procedimento e solicitação de inclusão no RDD.  
+6. **Lei nº 15.407/2026.** Procedimento e solicitação de inclusão no <abbr title="Regime Disciplinar Diferenciado">RDD</abbr>.  
    https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15407.htm
-7. **Lei nº 15.410/2026.** Violência doméstica: falta grave, RDD e transferência.  
+7. **Lei nº 15.410/2026.** Violência doméstica: falta grave, <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> e transferência.  
    https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15410.htm
 
 ## Recorte
 
-- Unidade nova/local; referências incidentais existentes no acervo não equivalem a cobertura sistemática da LEP.
+- Unidade nova/local; referências incidentais existentes no acervo não equivalem a cobertura sistemática da <abbr title="Lei de Execução Penal">LEP</abbr>.
 - Corte legislativo: **21/7/2026**.
 - A tabela de progressão usa o texto compilado vigente no corte, não os percentuais históricos de 2019.
-- Banco integralmente autoral: a busca no acervo não localizou questão anterior diretamente reaproveitável e verificável de LEP sem duplicar itens de crimes hediondos.
+- Banco integralmente autoral: a busca no acervo não localizou questão anterior diretamente reaproveitável e verificável de <abbr title="Lei de Execução Penal">LEP</abbr> sem duplicar itens de crimes hediondos.
