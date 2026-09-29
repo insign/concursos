@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u102-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 13.675/2018",
+      "options": [
+        {
+          "id": "A",
+          "text": "cria apenas um plano."
+        },
+        {
+          "id": "B",
+          "text": "cria a <abbr title=\"Política Nacional de Segurança Pública e Defesa Social\">PNSPDS</abbr> e institui o <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "revoga o art. 144 da Constituição."
+        },
+        {
+          "id": "D",
+          "text": "cria apenas uma polícia federal."
+        },
+        {
+          "id": "E",
+          "text": "trata exclusivamente de prisões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei cria a política nacional e institui o sistema único."
+    },
+    {
+      "id": "seap-u102-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A finalidade básica do <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr> envolve atuação",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolada de cada ente."
+        },
+        {
+          "id": "B",
+          "text": "conjunta, coordenada, sistêmica e integrada."
+        },
+        {
+          "id": "C",
+          "text": "exclusiva da União."
+        },
+        {
+          "id": "D",
+          "text": "apenas municipal."
+        },
+        {
+          "id": "E",
+          "text": "sem participação social."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º usa atuação conjunta, coordenada, sistêmica e integrada."
+    },
+    {
+      "id": "seap-u102-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A segurança pública é definida pela lei como",
+      "options": [
+        {
+          "id": "A",
+          "text": "dever somente municipal."
+        },
+        {
+          "id": "B",
+          "text": "dever do Estado e responsabilidade de todos."
+        },
+        {
+          "id": "C",
+          "text": "atividade privada."
+        },
+        {
+          "id": "D",
+          "text": "atribuição exclusiva da polícia civil."
+        },
+        {
+          "id": "E",
+          "text": "faculdade da União."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a fórmula do artigo 2º."
+    },
+    {
+      "id": "seap-u102-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os princípios da <abbr title=\"Política Nacional de Segurança Pública e Defesa Social\">PNSPDS</abbr> está",
+      "options": [
+        {
+          "id": "A",
+          "text": "uso ilimitado da força."
+        },
+        {
+          "id": "B",
+          "text": "uso comedido e proporcional da força."
+        },
+        {
+          "id": "C",
+          "text": "sigilo de toda informação."
+        },
+        {
+          "id": "D",
+          "text": "ausência de controle social."
+        },
+        {
+          "id": "E",
+          "text": "eliminação de direitos fundamentais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O uso comedido e proporcional é princípio expresso."
+    },
+    {
+      "id": "seap-u102-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sistema penitenciário integra o <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr> como",
+      "options": [
+        {
+          "id": "A",
+          "text": "integrante operacional."
+        },
+        {
+          "id": "B",
+          "text": "integrante estratégico apenas."
+        },
+        {
+          "id": "C",
+          "text": "órgão externo."
+        },
+        {
+          "id": "D",
+          "text": "entidade privada."
+        },
+        {
+          "id": "E",
+          "text": "mecanismo temporário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 9º, § 2º, inclui órgãos do sistema penitenciário entre os integrantes operacionais."
+    },
+    {
+      "id": "seap-u102-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São integrantes estratégicos do <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr>",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente polícias."
+        },
+        {
+          "id": "B",
+          "text": "entes federados por seus Executivos e Conselhos de Segurança Pública e Defesa Social."
+        },
+        {
+          "id": "C",
+          "text": "apenas União e Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "somente Ministério Público."
+        },
+        {
+          "id": "E",
+          "text": "apenas guardas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a divisão do artigo 9º, § 1º."
+    },
+    {
+      "id": "seap-u102-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A integração no <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr>",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza um órgão a exercer toda competência de outro."
+        },
+        {
+          "id": "B",
+          "text": "ocorre nos limites das competências de cada integrante."
+        },
+        {
+          "id": "C",
+          "text": "extingue a autonomia federativa."
+        },
+        {
+          "id": "D",
+          "text": "proíbe operações combinadas."
+        },
+        {
+          "id": "E",
+          "text": "impede compartilhamento de informação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cooperação deve respeitar competências legais."
+    },
+    {
+      "id": "seap-u102-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Plano Nacional de Segurança Pública e Defesa Social tem duração de",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 anos."
+        },
+        {
+          "id": "B",
+          "text": "4 anos."
+        },
+        {
+          "id": "C",
+          "text": "5 anos."
+        },
+        {
+          "id": "D",
+          "text": "10 anos."
+        },
+        {
+          "id": "E",
+          "text": "20 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 22, § 2º, fixa dez anos."
+    },
+    {
+      "id": "seap-u102-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Estados, Distrito Federal e Municípios devem elaborar planos correspondentes, com base no nacional, em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses."
+        },
+        {
+          "id": "B",
+          "text": "1 ano."
+        },
+        {
+          "id": "C",
+          "text": "2 anos."
+        },
+        {
+          "id": "D",
+          "text": "5 anos."
+        },
+        {
+          "id": "E",
+          "text": "10 anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 22, § 5º, fixa dois anos."
+    },
+    {
+      "id": "seap-u102-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A implementação do Plano Nacional é objeto de avaliação",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensal."
+        },
+        {
+          "id": "B",
+          "text": "semestral."
+        },
+        {
+          "id": "C",
+          "text": "anual."
+        },
+        {
+          "id": "D",
+          "text": "quinquenal."
+        },
+        {
+          "id": "E",
+          "text": "apenas ao final."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 23 prevê avaliações anuais."
+    },
+    {
+      "id": "seap-u102-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O <abbr title=\"Sistema Nacional de Acompanhamento e Avaliação das Políticas de Segurança Pública e Defesa Social\">Sinaped</abbr> tem função central de",
+      "options": [
+        {
+          "id": "A",
+          "text": "armar agentes."
+        },
+        {
+          "id": "B",
+          "text": "acompanhar e avaliar políticas de segurança pública e defesa social."
+        },
+        {
+          "id": "C",
+          "text": "julgar crimes."
+        },
+        {
+          "id": "D",
+          "text": "substituir tribunais."
+        },
+        {
+          "id": "E",
+          "text": "gerir presídios diretamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sistema organiza acompanhamento e avaliação."
+    },
+    {
+      "id": "seap-u102-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O <abbr title=\"Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas\">Sinesp</abbr> inclui dados relacionados a",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente ocorrências policiais."
+        },
+        {
+          "id": "B",
+          "text": "segurança pública, sistema prisional, armas, genética/digitais e drogas, entre outros previstos."
+        },
+        {
+          "id": "C",
+          "text": "apenas impostos."
+        },
+        {
+          "id": "D",
+          "text": "somente saúde."
+        },
+        {
+          "id": "E",
+          "text": "apenas veículos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A finalidade legal inclui múltiplas bases, inclusive prisionais."
+    },
+    {
+      "id": "seap-u102-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 13.034/2026",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogou o <abbr title=\"Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas\">Sinesp</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "incluiu o <abbr title=\"Banco Nacional de Celulares com Restrição\">BNCR</abbr> no rol de dados do <abbr title=\"Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas\">Sinesp</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "criou a <abbr title=\"Política Nacional de Segurança Pública e Defesa Social\">PNSPDS</abbr>."
+        },
+        {
+          "id": "D",
+          "text": "extinguiu o <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr>."
+        },
+        {
+          "id": "E",
+          "text": "foi posterior ao corte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O decreto de 23/6/2026 instituiu o Banco Nacional de Celulares com Restrição e o integrou ao <abbr title=\"Sistema Nacional de Informações de Segurança Pública, Prisionais, de Rastreabilidade de Armas e Munições, de Material Genético, de Digitais e de Drogas\">Sinesp</abbr>."
+    },
+    {
+      "id": "seap-u102-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 12.998/2026 alterou",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pena do homicídio."
+        },
+        {
+          "id": "B",
+          "text": "a composição do Conselho Gestor do sistema nacional de informações."
+        },
+        {
+          "id": "C",
+          "text": "a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "o prazo do Plano Nacional."
+        },
+        {
+          "id": "E",
+          "text": "a Lei de Execução Penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O decreto de 8/6/2026 atualizou a composição do Conselho Gestor."
+    },
+    {
+      "id": "seap-u102-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ouvidorias previstas na Lei 13.675/2018 devem ter",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinação operacional às corregedorias."
+        },
+        {
+          "id": "B",
+          "text": "autonomia e independência."
+        },
+        {
+          "id": "C",
+          "text": "comando policial obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "competência judicial."
+        },
+        {
+          "id": "E",
+          "text": "sigilo absoluto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 34 exige ouvidorias autônomas e independentes."
+    },
+    {
+      "id": "seap-u102-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No processo de avaliação das políticas, os procedimentos, dados e resultados devem ter",
+      "options": [
+        {
+          "id": "A",
+          "text": "caráter secreto."
+        },
+        {
+          "id": "B",
+          "text": "caráter público, conforme a metodologia legal."
+        },
+        {
+          "id": "C",
+          "text": "acesso apenas militar."
+        },
+        {
+          "id": "D",
+          "text": "destruição imediata."
+        },
+        {
+          "id": "E",
+          "text": "publicidade apenas após dez anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 31 inclui caráter público."
+    },
+    {
+      "id": "seap-u102-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Plano Nacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sinônimo da <abbr title=\"Política Nacional de Segurança Pública e Defesa Social\">PNSPDS</abbr>."
+        },
+        {
+          "id": "B",
+          "text": "materializa estratégias, metas, indicadores e ações orientadas pelos objetivos da política."
+        },
+        {
+          "id": "C",
+          "text": "substitui o <abbr title=\"Sistema Único de Segurança Pública\">Susp</abbr>."
+        },
+        {
+          "id": "D",
+          "text": "é órgão policial."
+        },
+        {
+          "id": "E",
+          "text": "é conselho consultivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Política, sistema e plano exercem funções diferentes."
+    },
+    {
+      "id": "seap-u102-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 13.675 reconhece que políticas públicas de segurança",
+      "options": [
+        {
+          "id": "A",
+          "text": "se restringem aos órgãos policiais."
+        },
+        {
+          "id": "B",
+          "text": "devem considerar contexto social amplo, incluindo outras áreas do serviço público."
+        },
+        {
+          "id": "C",
+          "text": "não envolvem educação."
+        },
+        {
+          "id": "D",
+          "text": "não envolvem saúde."
+        },
+        {
+          "id": "E",
+          "text": "são apenas repressivas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 22, § 1º, reconhece a abordagem social ampla."
+    },
+    {
+      "id": "seap-u102-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O uso indevido de informações do sistema nacional pode gerar responsabilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas moral."
+        },
+        {
+          "id": "B",
+          "text": "administrativa, civil e criminal."
+        },
+        {
+          "id": "C",
+          "text": "somente civil."
+        },
+        {
+          "id": "D",
+          "text": "somente penal."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Decreto 9.489 prevê as três esferas."
+    },
+    {
+      "id": "seap-u102-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 9.489/2018",
+      "options": [
+        {
+          "id": "A",
+          "text": "cria a Constituição."
+        },
+        {
+          "id": "B",
+          "text": "regulamenta, no âmbito da União, a execução da <abbr title=\"Política Nacional de Segurança Pública e Defesa Social\">PNSPDS</abbr> instituída pela Lei 13.675/2018."
+        },
+        {
+          "id": "C",
+          "text": "revoga a Lei 13.675."
+        },
+        {
+          "id": "D",
+          "text": "é lei estadual."
+        },
+        {
+          "id": "E",
+          "text": "trata exclusivamente do <abbr title=\"Banco Nacional de Celulares com Restrição\">BNCR</abbr>."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a função regulamentar expressa no artigo 1º."
+    }
+  ]
+}
