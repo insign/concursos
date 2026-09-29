@@ -62,8 +62,8 @@ Naturalizado:
 ## Direitos políticos
 
 Voto:
-- obrigatório: **>18**;
-- facultativo: analfabeto, **>70**, **16–17**.
+- obrigatório para os maiores de **18 anos**;
+- facultativo: analfabetos, maiores de **70 anos** e pessoas de **16–17 anos**.
 
 Elegibilidade:
 - **35** → Presidente/Vice/Senador;
