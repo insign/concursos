@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "u096-a01",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Após a interpretação fixada pelo <abbr title=\"Supremo Tribunal Federal\">STF</abbr> nas <abbr title=\"Ações Diretas de Inconstitucionalidade\">ADIs</abbr> 3.360 e 4.109, a prisão temporária",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "pode ser decretada quando presente isoladamente qualquer um dos incisos do art. 1º da Lei 7.960/1989."
+          "text": "pode ser decretada quando presente isoladamente qualquer um dos incisos do <abbr title=\"artigo\">art.</abbr> 1º da Lei 7.960/1989."
         },
         {
           "id": "C",
@@ -30,7 +30,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O <abbr title=\"Supremo Tribunal Federal\">STF</abbr> deu interpretação conforme ao art. 1º e fixou cinco requisitos cumulativos para a decretação da temporária."
+      "explanation": "O <abbr title=\"Supremo Tribunal Federal\">STF</abbr> deu interpretação conforme ao <abbr title=\"artigo\">art.</abbr> 1º e fixou cinco requisitos cumulativos para a decretação da temporária."
     },
     {
       "id": "u096-a02",
@@ -64,9 +64,9 @@
     },
     {
       "id": "u096-a03",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Quanto ao rol de crimes do art. 1º, III, da Lei 7.960/1989, o <abbr title=\"Supremo Tribunal Federal\">STF</abbr> estabeleceu que",
+      "prompt": "Quanto ao rol de crimes do <abbr title=\"artigo\">art.</abbr> 1º, III, da Lei 7.960/1989, o <abbr title=\"Supremo Tribunal Federal\">STF</abbr> estabeleceu que",
       "options": [
         {
           "id": "A",
@@ -184,7 +184,7 @@
     },
     {
       "id": "u096-a07",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prisão temporária é decretada pelo juiz",
       "options": [
@@ -210,11 +210,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O art. 2º da Lei 7.960/1989 prevê representação policial ou requerimento do Ministério Público; quem decreta é o juiz."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º da Lei 7.960/1989 prevê representação policial ou requerimento do Ministério Público; quem decreta é o juiz."
     },
     {
       "id": "u096-a08",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Se a autoridade policial representar pela prisão temporária, antes de decidir o juiz",
       "options": [
@@ -240,11 +240,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "É a regra expressa do art. 2º, §1º, da Lei 7.960/1989."
+      "explanation": "É a regra expressa do <abbr title=\"artigo\">art.</abbr> 2º, §1º, da Lei 7.960/1989."
     },
     {
       "id": "u096-a09",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O despacho que decreta a prisão temporária deve ser fundamentado e prolatado",
       "options": [
@@ -270,11 +270,11 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O art. 2º, §2º, fixa 24 horas para a decisão judicial a partir do recebimento do pedido."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º, §2º, fixa 24 horas para a decisão judicial a partir do recebimento do pedido."
     },
     {
       "id": "u096-a10",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Na regra geral da Lei 7.960/1989, a prisão temporária tem prazo",
       "options": [
@@ -300,13 +300,13 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O caput do art. 2º estabelece 5 dias e uma prorrogação por igual período condicionada a extrema e comprovada necessidade."
+      "explanation": "O caput do <abbr title=\"artigo\">art.</abbr> 2º estabelece 5 dias e uma prorrogação por igual período condicionada a extrema e comprovada necessidade."
     },
     {
       "id": "u096-a11",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Nos crimes abrangidos pelo art. 2º da Lei 8.072/1990, o prazo da prisão temporária é",
+      "prompt": "Nos crimes abrangidos pelo <abbr title=\"artigo\">art.</abbr> 2º da Lei 8.072/1990, o prazo da prisão temporária é",
       "options": [
         {
           "id": "A",
@@ -330,11 +330,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O art. 2º, §4º, da Lei 8.072/1990 prevê 30 dias, prorrogáveis por mais 30 em extrema e comprovada necessidade."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º, §4º, da Lei 8.072/1990 prevê 30 dias, prorrogáveis por mais 30 em extrema e comprovada necessidade."
     },
     {
       "id": "u096-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o mandado de prisão temporária, assinale a alternativa correta.",
       "options": [
@@ -360,7 +360,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Os §§4º e 5º do art. 2º exigem mandado judicial; são duas vias, uma entregue ao indiciado como nota de culpa."
+      "explanation": "Os §§4º e 5º do <abbr title=\"artigo\">art.</abbr> 2º exigem mandado judicial; são duas vias, uma entregue ao indiciado como nota de culpa."
     },
     {
       "id": "u096-a13",
@@ -394,7 +394,7 @@
     },
     {
       "id": "u096-a14",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Decorrido o prazo indicado no mandado de prisão temporária, a autoridade de custódia deve",
       "options": [
@@ -420,11 +420,11 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O art. 2º, §7º, impõe liberdade imediata independentemente de nova ordem, salvo as duas comunicações expressamente previstas."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º, §7º, impõe liberdade imediata independentemente de nova ordem, salvo as duas comunicações expressamente previstas."
     },
     {
       "id": "u096-a15",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "No cômputo do prazo da prisão temporária,",
       "options": [
@@ -450,11 +450,11 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O art. 2º, §8º, incluído pela Lei 13.869/2019, manda incluir o dia do cumprimento."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º, §8º, incluído pela Lei 13.869/2019, manda incluir o dia do cumprimento."
     },
     {
       "id": "u096-a16",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei 7.960/1989 determina que os presos temporários",
       "options": [
@@ -480,11 +480,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O art. 3º exige separação dos presos temporários em relação aos demais detentos."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 3º exige separação dos presos temporários em relação aos demais detentos."
     },
     {
       "id": "u096-a17",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Depois de decretada a prisão temporária, o juiz pode, inclusive de ofício,",
       "options": [
@@ -506,17 +506,17 @@
         },
         {
           "id": "E",
-          "text": "incluir crime novo no rol do art. 1º, III."
+          "text": "incluir crime novo no rol do <abbr title=\"artigo\">art.</abbr> 1º, III."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O art. 2º, §3º, permite essas providências de controle, o que não significa poder decretar a temporária de ofício."
+      "explanation": "O <abbr title=\"artigo\">art.</abbr> 2º, §3º, permite essas providências de controle, o que não significa poder decretar a temporária de ofício."
     },
     {
       "id": "u096-a18",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O art. 5º da Lei 7.960/1989 prevê, para apreciação de pedidos de prisão temporária,",
+      "prompt": "O <abbr title=\"artigo\">art.</abbr> 5º da Lei 7.960/1989 prevê, para apreciação de pedidos de prisão temporária,",
       "options": [
         {
           "id": "A",
@@ -540,13 +540,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Essa é a literalidade do art. 5º."
+      "explanation": "Essa é a literalidade do <abbr title=\"artigo\">art.</abbr> 5º."
     },
     {
       "id": "u096-p01",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
-      "prompt": "Em adaptação não literal da questão 3 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, qual afirmação distingue corretamente prisão temporária e preventiva?",
+      "prompt": "Em adaptação não literal da questão 3 da prova oral <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> da Polícia Civil de Rondônia, concurso 2022, qual afirmação distingue corretamente prisão temporária e preventiva?",
       "options": [
         {
           "id": "A",
@@ -574,9 +574,9 @@
     },
     {
       "id": "u096-p02",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Em adaptação não literal da questão 21 da prova oral Cebraspe da Polícia Civil de Rondônia, concurso 2022, qual é o prazo da prisão temporária no regime da Lei 8.072/1990 para os crimes abrangidos pelo art. 2º?",
+      "prompt": "Em adaptação não literal da questão 21 da prova oral <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> da Polícia Civil de Rondônia, concurso 2022, qual é o prazo da prisão temporária no regime da Lei 8.072/1990 para os crimes abrangidos pelo <abbr title=\"artigo\">art.</abbr> 2º?",
       "options": [
         {
           "id": "A",
@@ -600,7 +600,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O padrão oficial cobrou o prazo especial de 30 dias, prorrogável por mais 30, previsto no art. 2º, §4º, da Lei 8.072/1990. A formulação foi adaptada sem reprodução literal."
+      "explanation": "O padrão oficial cobrou o prazo especial de 30 dias, prorrogável por mais 30, previsto no <abbr title=\"artigo\">art.</abbr> 2º, §4º, da Lei 8.072/1990. A formulação foi adaptada sem reprodução literal."
     }
   ]
 }
