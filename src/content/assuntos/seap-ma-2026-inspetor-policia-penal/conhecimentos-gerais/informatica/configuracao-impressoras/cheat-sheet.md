@@ -6,7 +6,7 @@ impressora → dispositivo
 driver → permite ao Windows controlá-la  
 padrão → preferência de seleção  
 fila → trabalhos aguardando  
-spooler → serviço que gerencia trabalhos/fila
+<abbr title="Serviço do Windows que gerencia trabalhos de impressão">spooler</abbr> → serviço que gerencia trabalhos/fila
 
 ## Não confunda
 
