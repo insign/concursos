@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u098-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A execução penal tem por objetivos",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas punir."
+        },
+        {
+          "id": "B",
+          "text": "efetivar a decisão criminal e proporcionar condições para integração social."
+        },
+        {
+          "id": "C",
+          "text": "substituir a sentença."
+        },
+        {
+          "id": "D",
+          "text": "apenas administrar presídios."
+        },
+        {
+          "id": "E",
+          "text": "eliminar direitos não mencionados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a dupla finalidade do artigo 1º."
+    },
+    {
+      "id": "seap-u098-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei de Execução Penal aplica-se ao preso provisório",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca."
+        },
+        {
+          "id": "B",
+          "text": "nos pontos cabíveis, conforme a lei."
+        },
+        {
+          "id": "C",
+          "text": "somente após condenação."
+        },
+        {
+          "id": "D",
+          "text": "apenas em prisão militar."
+        },
+        {
+          "id": "E",
+          "text": "somente para trabalho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º e outros dispositivos estendem regras ao preso provisório."
+    },
+    {
+      "id": "seap-u098-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O trabalho do preso",
+      "options": [
+        {
+          "id": "A",
+          "text": "é regido integralmente pela CLT."
+        },
+        {
+          "id": "B",
+          "text": "não está sujeito ao regime da CLT."
+        },
+        {
+          "id": "C",
+          "text": "é sempre gratuito."
+        },
+        {
+          "id": "D",
+          "text": "é proibido no fechado."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatório ao provisório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 28, § 2º, exclui o regime da CLT."
+    },
+    {
+      "id": "seap-u098-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A remuneração do trabalho do preso não pode ser inferior a",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/2 salário mínimo."
+        },
+        {
+          "id": "B",
+          "text": "2/3."
+        },
+        {
+          "id": "C",
+          "text": "3/4."
+        },
+        {
+          "id": "D",
+          "text": "1 salário mínimo."
+        },
+        {
+          "id": "E",
+          "text": "valor livre."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 29 fixa três quartos do salário mínimo."
+    },
+    {
+      "id": "seap-u098-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A jornada normal de trabalho prisional é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "4–6 horas."
+        },
+        {
+          "id": "B",
+          "text": "6–8 horas."
+        },
+        {
+          "id": "C",
+          "text": "8–12 horas."
+        },
+        {
+          "id": "D",
+          "text": "2–4 horas."
+        },
+        {
+          "id": "E",
+          "text": "sempre 8 horas exatas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 33 fixa mínimo de seis e máximo de oito horas."
+    },
+    {
+      "id": "seap-u098-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São órgãos da execução penal, entre outros,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas juiz e direção prisional."
+        },
+        {
+          "id": "B",
+          "text": "CNPCP, Juízo, Ministério Público, Conselho Penitenciário, Departamentos, Patronato, Conselho da Comunidade e Defensoria."
+        },
+        {
+          "id": "C",
+          "text": "somente polícia e juiz."
+        },
+        {
+          "id": "D",
+          "text": "apenas tribunais."
+        },
+        {
+          "id": "E",
+          "text": "Congresso e Presidência exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 61 enumera oito órgãos."
+    },
+    {
+      "id": "seap-u098-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O RDD",
+      "options": [
+        {
+          "id": "A",
+          "text": "é um quarto regime de cumprimento de pena."
+        },
+        {
+          "id": "B",
+          "text": "é sanção disciplinar especial e não se confunde com regime fechado/semiaberto/aberto."
+        },
+        {
+          "id": "C",
+          "text": "substitui a sentença."
+        },
+        {
+          "id": "D",
+          "text": "é benefício."
+        },
+        {
+          "id": "E",
+          "text": "só alcança condenados definitivos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O RDD integra o sistema disciplinar."
+    },
+    {
+      "id": "seap-u098-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo máximo ordinário do RDD no artigo 52 é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias."
+        },
+        {
+          "id": "B",
+          "text": "90 dias."
+        },
+        {
+          "id": "C",
+          "text": "1 ano."
+        },
+        {
+          "id": "D",
+          "text": "2 anos."
+        },
+        {
+          "id": "E",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A redação vigente admite duração máxima de até dois anos, sem prejuízo das hipóteses de repetição legal."
+    },
+    {
+      "id": "seap-u098-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após as alterações de 2026, pode solicitar ao juiz inclusão no RDD desde o recolhimento, presentes os pressupostos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a defesa."
+        },
+        {
+          "id": "B",
+          "text": "diretor, outra autoridade administrativa ou órgão do Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "somente o governador."
+        },
+        {
+          "id": "D",
+          "text": "qualquer visitante."
+        },
+        {
+          "id": "E",
+          "text": "apenas o Conselho da Comunidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 15.407/2026 incluiu a hipótese no § 10 do artigo 52."
+    },
+    {
+      "id": "seap-u098-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra geral de progressão do artigo 112, no corte de 21/7/2026, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "16% sempre."
+        },
+        {
+          "id": "B",
+          "text": "1/6 no regime anterior + mérito, observadas exceções."
+        },
+        {
+          "id": "C",
+          "text": "40% sempre."
+        },
+        {
+          "id": "D",
+          "text": "metade da pena."
+        },
+        {
+          "id": "E",
+          "text": "somente exame criminológico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei 15.402/2026 restituiu a regra geral de 1/6 com exceções."
+    },
+    {
+      "id": "seap-u098-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para condenado primário por crime hediondo ou equiparado, a fração vigente no corte é",
+      "options": [
+        {
+          "id": "A",
+          "text": "40%."
+        },
+        {
+          "id": "B",
+          "text": "50%."
+        },
+        {
+          "id": "C",
+          "text": "60%."
+        },
+        {
+          "id": "D",
+          "text": "70%."
+        },
+        {
+          "id": "E",
+          "text": "80%."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei 15.358/2026 elevou o inciso V para 70%."
+    },
+    {
+      "id": "seap-u098-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para reincidente em crime hediondo ou equiparado, o artigo 112 prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "50%."
+        },
+        {
+          "id": "B",
+          "text": "60%."
+        },
+        {
+          "id": "C",
+          "text": "70%."
+        },
+        {
+          "id": "D",
+          "text": "80%."
+        },
+        {
+          "id": "E",
+          "text": "85% em qualquer caso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O inciso VII passou a 80%."
+    },
+    {
+      "id": "seap-u098-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para reincidente em crime hediondo ou equiparado com resultado morte, a progressão exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "60%."
+        },
+        {
+          "id": "B",
+          "text": "70%."
+        },
+        {
+          "id": "C",
+          "text": "75%."
+        },
+        {
+          "id": "D",
+          "text": "80%."
+        },
+        {
+          "id": "E",
+          "text": "85%."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O inciso VIII vigente prevê 85%."
+    },
+    {
+      "id": "seap-u098-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Além da fração, a progressão exige atualmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas declaração do preso."
+        },
+        {
+          "id": "B",
+          "text": "boa conduta, exame criminológico e decisão judicial motivada, nos termos legais."
+        },
+        {
+          "id": "C",
+          "text": "autorização do diretor apenas."
+        },
+        {
+          "id": "D",
+          "text": "pagamento integral de multa sempre."
+        },
+        {
+          "id": "E",
+          "text": "ausência de defesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º menciona boa conduta e resultados do exame criminológico; a decisão é motivada."
+    },
+    {
+      "id": "seap-u098-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 14.843/2024, a saída temporária do semiaberto permanece prevista para",
+      "options": [
+        {
+          "id": "A",
+          "text": "visita familiar em feriados."
+        },
+        {
+          "id": "B",
+          "text": "qualquer atividade de retorno social."
+        },
+        {
+          "id": "C",
+          "text": "frequência a curso profissionalizante ou ensino médio/superior, nas condições legais."
+        },
+        {
+          "id": "D",
+          "text": "turismo."
+        },
+        {
+          "id": "E",
+          "text": "trabalho externo sem limite."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As hipóteses de visita à família e atividade genérica de retorno foram revogadas."
+    },
+    {
+      "id": "seap-u098-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A permissão de saída diferencia-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre sem escolta."
+        },
+        {
+          "id": "B",
+          "text": "pode alcançar fechado, semiaberto e provisório, com escolta, nos casos legais."
+        },
+        {
+          "id": "C",
+          "text": "só vale para ensino."
+        },
+        {
+          "id": "D",
+          "text": "é concedida pelo tribunal do júri."
+        },
+        {
+          "id": "E",
+          "text": "não existe."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Artigos 120–121: morte/doença grave de familiar ou tratamento médico, mediante escolta."
+    },
+    {
+      "id": "seap-u098-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na remição por trabalho, a proporção é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dia por 2 trabalhados."
+        },
+        {
+          "id": "B",
+          "text": "1 dia por 3 trabalhados."
+        },
+        {
+          "id": "C",
+          "text": "1 dia por 5 trabalhados."
+        },
+        {
+          "id": "D",
+          "text": "2 dias por 1 trabalhado."
+        },
+        {
+          "id": "E",
+          "text": "1 dia por 12 horas de trabalho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 126 prevê um dia por três dias de trabalho."
+    },
+    {
+      "id": "seap-u098-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na remição por estudo, a regra é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dia por 6 horas."
+        },
+        {
+          "id": "B",
+          "text": "1 dia por 12 horas de estudo divididas em pelo menos 3 dias."
+        },
+        {
+          "id": "C",
+          "text": "1 dia por 24 horas contínuas."
+        },
+        {
+          "id": "D",
+          "text": "somente curso superior."
+        },
+        {
+          "id": "E",
+          "text": "sem certificação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a fórmula do artigo 126, § 1º, I."
+    },
+    {
+      "id": "seap-u098-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conclusão de nível de ensino durante a execução pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir a remição."
+        },
+        {
+          "id": "B",
+          "text": "acrescer um terço ao tempo remido por estudo, se preenchidos os requisitos."
+        },
+        {
+          "id": "C",
+          "text": "eliminar a pena."
+        },
+        {
+          "id": "D",
+          "text": "gerar dois terços automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "não produzir efeito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 5º prevê acréscimo de um terço."
+    },
+    {
+      "id": "seap-u098-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em caso de falta grave, o juiz",
+      "options": [
+        {
+          "id": "A",
+          "text": "perde obrigatoriamente toda a remição."
+        },
+        {
+          "id": "B",
+          "text": "pode revogar até um terço do tempo remido."
+        },
+        {
+          "id": "C",
+          "text": "não pode afetar remição."
+        },
+        {
+          "id": "D",
+          "text": "deve dobrar a pena."
+        },
+        {
+          "id": "E",
+          "text": "revoga sempre metade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 127 permite revogação de até um terço."
+    },
+    {
+      "id": "seap-u098-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.402/2026 esclareceu que o regime domiciliar",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede remição."
+        },
+        {
+          "id": "B",
+          "text": "não impede remição."
+        },
+        {
+          "id": "C",
+          "text": "impede estudo."
+        },
+        {
+          "id": "D",
+          "text": "exige trabalho externo."
+        },
+        {
+          "id": "E",
+          "text": "revoga pena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O novo § 9º do artigo 126 admite remição em regime domiciliar."
+    },
+    {
+      "id": "seap-u098-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Da decisão proferida pelo juiz da execução cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "apelação com efeito suspensivo."
+        },
+        {
+          "id": "B",
+          "text": "agravo sem efeito suspensivo."
+        },
+        {
+          "id": "C",
+          "text": "recurso em sentido estrito sempre."
+        },
+        {
+          "id": "D",
+          "text": "habeas data."
+        },
+        {
+          "id": "E",
+          "text": "nenhum recurso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 197 prevê agravo sem efeito suspensivo."
+    },
+    {
+      "id": "seap-u098-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O preso provisório, quanto ao trabalho,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigado e pode trabalhar externamente."
+        },
+        {
+          "id": "B",
+          "text": "não é obrigado e só pode executar trabalho no interior do estabelecimento."
+        },
+        {
+          "id": "C",
+          "text": "não pode trabalhar em hipótese alguma."
+        },
+        {
+          "id": "D",
+          "text": "recebe sempre salário integral."
+        },
+        {
+          "id": "E",
+          "text": "segue CLT."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a regra do artigo 31, parágrafo único."
+    },
+    {
+      "id": "seap-u098-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cela escura e as sanções coletivas",
+      "options": [
+        {
+          "id": "A",
+          "text": "são admitidas em falta grave."
+        },
+        {
+          "id": "B",
+          "text": "são vedadas pela Lei de Execução Penal."
+        },
+        {
+          "id": "C",
+          "text": "dependem do diretor."
+        },
+        {
+          "id": "D",
+          "text": "são próprias do RDD."
+        },
+        {
+          "id": "E",
+          "text": "são recompensas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 45 veda cela escura e sanção coletiva."
+    },
+    {
+      "id": "seap-u098-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aproximação da residência ou local de trabalho da vítima sob medida protetiva, nas condições da Lei nº 15.410/2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode configurar falta grave."
+        },
+        {
+          "id": "B",
+          "text": "é irrelevante à execução."
+        },
+        {
+          "id": "C",
+          "text": "gera soltura."
+        },
+        {
+          "id": "D",
+          "text": "é apenas ilícito civil."
+        },
+        {
+          "id": "E",
+          "text": "só importa no fechado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso IX do artigo 50 foi incluído antes do corte."
+    }
+  ]
+}
