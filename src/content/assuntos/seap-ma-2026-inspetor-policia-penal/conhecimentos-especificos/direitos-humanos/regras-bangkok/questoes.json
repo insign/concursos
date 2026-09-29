@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u092-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Regra 1 de Bangkok estabelece que medidas para atender necessidades específicas das mulheres",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sempre discriminatórias."
+        },
+        {
+          "id": "B",
+          "text": "não devem ser consideradas discriminatórias quando necessárias à igualdade substancial."
+        },
+        {
+          "id": "C",
+          "text": "só podem existir por ordem judicial."
+        },
+        {
+          "id": "D",
+          "text": "são proibidas em prisão provisória."
+        },
+        {
+          "id": "E",
+          "text": "valem apenas para estrangeiras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O princípio inicial reconhece necessidades específicas sem caracterizá-las como discriminação indevida."
+    },
+    {
+      "id": "seap-u092-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No ingresso de mulher presa com filhos, as regras exigem atenção a",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas dados processuais."
+        },
+        {
+          "id": "B",
+          "text": "responsabilidades de cuidado e providências para os filhos."
+        },
+        {
+          "id": "C",
+          "text": "somente estado civil."
+        },
+        {
+          "id": "D",
+          "text": "apenas condenação."
+        },
+        {
+          "id": "E",
+          "text": "patrimônio familiar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ingresso deve considerar crianças e responsabilidades de cuidado."
+    },
+    {
+      "id": "seap-u092-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre higiene, as Regras de Bangkok",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratam absorventes como prêmio disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "exigem atendimento a necessidades específicas e fornecimento gratuito de itens de higiene menstrual."
+        },
+        {
+          "id": "C",
+          "text": "proíbem água em celas."
+        },
+        {
+          "id": "D",
+          "text": "deixam a higiene à família."
+        },
+        {
+          "id": "E",
+          "text": "não contêm regra específica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Higiene menstrual e água suficiente integram as necessidades específicas."
+    },
+    {
+      "id": "seap-u092-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A triagem de saúde de mulheres presas deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas doenças contagiosas."
+        },
+        {
+          "id": "B",
+          "text": "saúde física, reprodutiva e mental, dependência, risco de suicídio e histórico de violência, quando pertinentes."
+        },
+        {
+          "id": "C",
+          "text": "somente gravidez."
+        },
+        {
+          "id": "D",
+          "text": "apenas exames obrigatórios invasivos."
+        },
+        {
+          "id": "E",
+          "text": "apenas histórico criminal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A triagem é ampla e sensível às necessidades específicas."
+    },
+    {
+      "id": "seap-u092-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Revistas pessoais em mulheres presas devem ser realizadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "por qualquer visitante."
+        },
+        {
+          "id": "B",
+          "text": "por servidoras devidamente treinadas, com respeito à dignidade."
+        },
+        {
+          "id": "C",
+          "text": "sempre de forma invasiva."
+        },
+        {
+          "id": "D",
+          "text": "como punição."
+        },
+        {
+          "id": "E",
+          "text": "sem necessidade de treinamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra protege dignidade e requer pessoal feminino treinado."
+    },
+    {
+      "id": "seap-u092-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando possível, revistas íntimas invasivas devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser ampliadas."
+        },
+        {
+          "id": "B",
+          "text": "ser substituídas por métodos alternativos de detecção."
+        },
+        {
+          "id": "C",
+          "text": "ser feitas diante de outras presas."
+        },
+        {
+          "id": "D",
+          "text": "ser usadas como sanção."
+        },
+        {
+          "id": "E",
+          "text": "dispensar privacidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As regras estimulam métodos menos invasivos."
+    },
+    {
+      "id": "seap-u092-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O isolamento disciplinar é vedado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as mulheres em qualquer situação."
+        },
+        {
+          "id": "B",
+          "text": "mulheres grávidas, mulheres com bebês e mães em amamentação."
+        },
+        {
+          "id": "C",
+          "text": "somente servidoras."
+        },
+        {
+          "id": "D",
+          "text": "apenas estrangeiras."
+        },
+        {
+          "id": "E",
+          "text": "apenas condenadas definitivas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Regra 22 estabelece proteção específica."
+    },
+    {
+      "id": "seap-u092-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sanção disciplinar que proíba contato familiar, especialmente com filhos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é recomendada."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível com as Regras de Bangkok."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatória em falta grave."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas do diretor."
+        },
+        {
+          "id": "E",
+          "text": "substitui outras medidas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Regra 23 impede essa forma de sanção."
+    },
+    {
+      "id": "seap-u092-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Instrumentos de contenção durante trabalho de parto, parto e imediatamente após",
+      "options": [
+        {
+          "id": "A",
+          "text": "são obrigatórios."
+        },
+        {
+          "id": "B",
+          "text": "podem ser usados como rotina."
+        },
+        {
+          "id": "C",
+          "text": "nunca devem ser usados."
+        },
+        {
+          "id": "D",
+          "text": "dependem da pena."
+        },
+        {
+          "id": "E",
+          "text": "são exigidos em hospitais externos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Regra 24 contém vedação expressa."
+    },
+    {
+      "id": "seap-u092-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Visitas envolvendo filhos devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser evitadas."
+        },
+        {
+          "id": "B",
+          "text": "buscar ambiente propício a experiência positiva e contato adequado."
+        },
+        {
+          "id": "C",
+          "text": "ocorrer apenas por vidro."
+        },
+        {
+          "id": "D",
+          "text": "ser proibidas a lactantes."
+        },
+        {
+          "id": "E",
+          "text": "depender de sanção disciplinar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As regras favorecem contato familiar com atenção às crianças."
+    },
+    {
+      "id": "seap-u092-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A formação de servidores que trabalham com mulheres presas deve incluir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas defesa pessoal."
+        },
+        {
+          "id": "B",
+          "text": "necessidades específicas de gênero e proteção adequada."
+        },
+        {
+          "id": "C",
+          "text": "somente regras tributárias."
+        },
+        {
+          "id": "D",
+          "text": "proibição de saúde mental."
+        },
+        {
+          "id": "E",
+          "text": "ausência de capacitação continuada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Capacitação específica é parte da implementação das regras."
+    },
+    {
+      "id": "seap-u092-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mulheres grávidas ou lactantes devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "receber alimentação e cuidados adequados."
+        },
+        {
+          "id": "B",
+          "text": "ser excluídas de saúde preventiva."
+        },
+        {
+          "id": "C",
+          "text": "ter dieta reduzida como disciplina."
+        },
+        {
+          "id": "D",
+          "text": "ser obrigadas a interromper amamentação sem razão médica."
+        },
+        {
+          "id": "E",
+          "text": "ser mantidas em isolamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Há proteção específica de saúde e nutrição."
+    },
+    {
+      "id": "seap-u092-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma criança que permanece com a mãe na prisão",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser tratada como presa."
+        },
+        {
+          "id": "B",
+          "text": "não deve ser tratada como presa e seu melhor interesse orienta a decisão."
+        },
+        {
+          "id": "C",
+          "text": "perde acesso a saúde."
+        },
+        {
+          "id": "D",
+          "text": "deve ser automaticamente separada ao nascer."
+        },
+        {
+          "id": "E",
+          "text": "fica sujeita a sanções da mãe."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A criança não é custodiada penalmente e seu melhor interesse é central."
+    },
+    {
+      "id": "seap-u092-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A decisão de separar criança e mãe presa deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser automática por idade única em todos os países."
+        },
+        {
+          "id": "B",
+          "text": "ser individualizada e baseada no melhor interesse da criança."
+        },
+        {
+          "id": "C",
+          "text": "ignorar vínculos familiares."
+        },
+        {
+          "id": "D",
+          "text": "ser punição à mãe."
+        },
+        {
+          "id": "E",
+          "text": "dispensar planejamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As regras exigem avaliação individual e sensível."
+    },
+    {
+      "id": "seap-u092-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Regras de Bangkok, quanto a medidas não privativas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as proíbem para mulheres."
+        },
+        {
+          "id": "B",
+          "text": "incentivam alternativas adequadas às necessidades e responsabilidades de cuidado."
+        },
+        {
+          "id": "C",
+          "text": "limitam-se ao cárcere."
+        },
+        {
+          "id": "D",
+          "text": "exigem prisão em todos os crimes."
+        },
+        {
+          "id": "E",
+          "text": "não tratam do tema."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O instrumento também disciplina respostas não privativas."
+    },
+    {
+      "id": "seap-u092-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para gestantes e mulheres com filhos dependentes, a Regra 64 orienta",
+      "options": [
+        {
+          "id": "A",
+          "text": "prisão obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "preferência por medidas não privativas quando possível e apropriado."
+        },
+        {
+          "id": "C",
+          "text": "absolvição automática."
+        },
+        {
+          "id": "D",
+          "text": "perda do poder familiar."
+        },
+        {
+          "id": "E",
+          "text": "isolamento cautelar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra favorece alternativas, sem excluir prisão em situações graves adequadamente avaliadas."
+    },
+    {
+      "id": "seap-u092-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Regras de Bangkok",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituem integralmente as Regras de Nelson Mandela."
+        },
+        {
+          "id": "B",
+          "text": "complementam padrões gerais, trazendo foco nas necessidades de mulheres."
+        },
+        {
+          "id": "C",
+          "text": "são código penal internacional."
+        },
+        {
+          "id": "D",
+          "text": "tratam apenas de servidores."
+        },
+        {
+          "id": "E",
+          "text": "são tratado de extradição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "São regras específicas que complementam padrões gerais."
+    },
+    {
+      "id": "seap-u092-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime de atividades, gravidez e maternidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem excluir mulheres de educação e trabalho."
+        },
+        {
+          "id": "B",
+          "text": "devem ser consideradas sem retirar oportunidades de educação, trabalho e reintegração."
+        },
+        {
+          "id": "C",
+          "text": "eliminam a necessidade de programas."
+        },
+        {
+          "id": "D",
+          "text": "impõem ociosidade."
+        },
+        {
+          "id": "E",
+          "text": "suspendem direitos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O regime deve adaptar-se às necessidades sem produzir exclusão."
+    }
+  ]
+}
