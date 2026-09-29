@@ -21,12 +21,12 @@
 
 ## Jurisprudência e controle de constitucionalidade
 
-5. **Supremo Tribunal Federal. ADI 7.201.** Discute o artigo 15-A. Na reconsulta oficial de 29/9/2026, não foi localizada decisão colegiada final de mérito; preserva-se a divergência aberta, sem antecipar tese.  
+5. **Supremo Tribunal Federal. <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 7.201.** Discute o artigo 15-A. Na reconsulta oficial de 29/9/2026, não foi localizada decisão colegiada final de mérito; preserva-se a divergência aberta, sem antecipar tese.  
    https://portal.stf.jus.br/processos/detalhe.asp?incidente=6442534
 
 6. **Supremo Tribunal Federal. ADIs 6.234 e 6.240.** Questionamentos a artigos 27, 29 e 31 encerrados sem julgamento de mérito dos tipos.  
-   https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=6234  
-   https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=6240
+   https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr>&numProcesso=6234  
+   https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr>&numProcesso=6240
 
 7. **Superior Tribunal de Justiça. RHC 196.496/RN.** Terceira Seção: marco cronológico de 5 a 21 horas para cumprimento de mandado de busca domiciliar no artigo 22, § 1º, III.  
    https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?livre=%28RHC+INPATH%28CLAS%29+AND+196496+INPATH%28NUM%29%29
