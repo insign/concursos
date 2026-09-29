@@ -2,7 +2,7 @@
 
 ## Programa e proveniência
 
-- **SEAP/MA — Edital nº 1, de 21 de julho de 2026.** Legislação Extravagante, item 4: Lei nº 12.850/2013.
+- **<abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Edital nº 1, de 21 de julho de 2026.** Legislação Extravagante, item 4: Lei nº 12.850/2013.
 - Cópia integral/local controlada de `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/legislacao-especial/organizacao-criminosa-lei-12850/`: C `8579bed20b7a1095189b19ee1906ba89de4bce6a`, H `ecffb8ca25256b85bb2ad0ef11b8aa571dbd482e`, Q `6db4d2f061870894b6aecfb5fe31ae6b379876a2`, R `c09f9e704af0b0ed4d36a183caa3e8d69d4fb19e`.
 
 ## Fontes normativas primárias
