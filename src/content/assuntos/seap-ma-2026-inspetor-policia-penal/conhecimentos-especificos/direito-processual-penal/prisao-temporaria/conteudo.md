@@ -347,7 +347,7 @@ A Lei 13.869/2019 também atualizou a própria disciplina procedimental da tempo
 | fase | investigativa | investigação ou processo |
 | prazo predeterminado | sim | não |
 | regra geral de prazo | 5 + 5 dias | sem prazo fixo automático |
-| crimes | rol taxativo do artigo 1º, III | admissibilidade do art. 313 do <abbr title="Código de Processo Penal">CPP</abbr> |
+| crimes | rol taxativo do artigo 1º, III | admissibilidade do <abbr title="artigo">art.</abbr> 313 do <abbr title="Código de Processo Penal">CPP</abbr> |
 | iniciativa | polícia ou <abbr title="Ministério Público">MP</abbr> | polícia, <abbr title="Ministério Público">MP</abbr>, querelante ou assistente |
 | fim do prazo | soltura imediata, salvo prorrogação ou preventiva comunicada | depende da persistência dos fundamentos, com revisão periódica |
 
