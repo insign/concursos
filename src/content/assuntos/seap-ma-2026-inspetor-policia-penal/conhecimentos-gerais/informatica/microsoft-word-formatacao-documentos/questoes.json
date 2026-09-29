@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q3959",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual opção contém somente exemplos de formatação de caractere?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Margens, orientação, papel e colunas."
+        },
+        {
+          "id": "B",
+          "text": "Família da fonte, tamanho, negrito, cor e sobrescrito."
+        },
+        {
+          "id": "C",
+          "text": "Recuo esquerdo, espaçamento antes e quebra de página."
+        },
+        {
+          "id": "D",
+          "text": "Cabeçalho, rodapé, número de página e seção."
+        },
+        {
+          "id": "E",
+          "text": "Linhas, colunas, células e repetição de cabeçalho de tabela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fonte, tamanho, efeitos e cor atuam sobre caracteres. As demais alternativas tratam de parágrafo, seção, página ou tabela. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3962",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Word, o alinhamento justificado",
+      "options": [
+        {
+          "id": "A",
+          "text": "centraliza todas as linhas no meio da página."
+        },
+        {
+          "id": "B",
+          "text": "ajusta o espaçamento para alinhar as linhas às margens esquerda e direita, com particularidades na última linha."
+        },
+        {
+          "id": "C",
+          "text": "altera automaticamente as margens da seção."
+        },
+        {
+          "id": "D",
+          "text": "cria uma coluna de texto em cada margem."
+        },
+        {
+          "id": "E",
+          "text": "converte o parágrafo em tabela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Justificar distribui as linhas entre as margens; centralizar é outro alinhamento. A operação não muda margens, não cria colunas e não converte o conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3963",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O recuo deslocado, também chamado pendente, caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "alterar a margem física de todas as páginas."
+        },
+        {
+          "id": "B",
+          "text": "centralizar apenas a primeira linha do parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "inserir uma quebra de seção antes do parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "mudar automaticamente a orientação para paisagem."
+        },
+        {
+          "id": "E",
+          "text": "posicionar a primeira linha mais à esquerda que as linhas seguintes do mesmo parágrafo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recuo pendente é propriedade de parágrafo: as linhas após a primeira ficam recuadas em relação a ela. Não altera margem, seção ou orientação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3964",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para criar distância vertical consistente entre parágrafos, a prática estruturada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserir várias sequências de espaços."
+        },
+        {
+          "id": "B",
+          "text": "configurar o espaçamento antes ou depois do parágrafo."
+        },
+        {
+          "id": "C",
+          "text": "pressionar Enter repetidamente para criar parágrafos vazios."
+        },
+        {
+          "id": "D",
+          "text": "aumentar o zoom."
+        },
+        {
+          "id": "E",
+          "text": "usar uma quebra de seção para cada intervalo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Espaçamento antes/depois mantém a distância como propriedade do parágrafo. Parágrafos vazios e espaços são soluções frágeis, e zoom ou seção não têm essa finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3965",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma parada de tabulação no Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "corresponde sempre a cinco espaços fixos."
+        },
+        {
+          "id": "B",
+          "text": "altera a margem física do papel."
+        },
+        {
+          "id": "C",
+          "text": "define uma posição de alinhamento, que pode ser esquerda, central, direita, decimal ou barra."
+        },
+        {
+          "id": "D",
+          "text": "só pode ser usada em planilhas."
+        },
+        {
+          "id": "E",
+          "text": "cria automaticamente uma nova seção."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tabulação é uma posição configurável de alinhamento, não uma quantidade fixa de espaços. Ela atua em texto e parágrafos, não altera margem nem cria seção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3966",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre listas estruturadas no Word, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digitar números manualmente cria sempre uma lista multinível."
+        },
+        {
+          "id": "B",
+          "text": "Listas não admitem mudança de nível ou recuo."
+        },
+        {
+          "id": "C",
+          "text": "Uma lista nunca pode continuar a numeração de outra."
+        },
+        {
+          "id": "D",
+          "text": "Listas estruturadas são exclusivas do Excel."
+        },
+        {
+          "id": "E",
+          "text": "Podem usar marcadores, numeração ou vários níveis, mantendo sequência, recuos e hierarquia."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recurso de lista administra marcador ou número, nível e recuo. Numeração digitada manualmente não garante estrutura, e a sequência pode ser continuada ou reiniciada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3970",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para permitir orientação, margens ou cabeçalhos diferentes em partes do mesmo documento, o recurso estrutural adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumentar o zoom."
+        },
+        {
+          "id": "B",
+          "text": "inserir uma sequência de espaços."
+        },
+        {
+          "id": "C",
+          "text": "a quebra de seção, com as configurações aplicadas à seção correta."
+        },
+        {
+          "id": "D",
+          "text": "usar apenas quebra de linha."
+        },
+        {
+          "id": "E",
+          "text": "aplicar negrito ao primeiro parágrafo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Seções delimitam conjuntos independentes de configurações de página. Zoom, espaços, quebra de linha e negrito não criam essa independência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3971",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para deixar somente uma página intermediária em paisagem e manter as demais em retrato, a solução usual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserir apenas uma quebra de página antes dela."
+        },
+        {
+          "id": "B",
+          "text": "diminuir o zoom nessa página."
+        },
+        {
+          "id": "C",
+          "text": "aumentar a largura da fonte."
+        },
+        {
+          "id": "D",
+          "text": "isolar a página com quebras de seção antes e depois e aplicar paisagem à seção intermediária."
+        },
+        {
+          "id": "E",
+          "text": "inserir várias linhas vazias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A orientação é propriedade de seção. Uma página intermediária precisa ser delimitada para que a mudança não alcance as páginas vizinhas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3973",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma nova seção herdou o mesmo cabeçalho da seção anterior por estar Vinculada ao Anterior. Para torná-lo independente, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir o cabeçalho da seção anterior."
+        },
+        {
+          "id": "B",
+          "text": "converter o documento em TXT."
+        },
+        {
+          "id": "C",
+          "text": "alterar apenas o zoom."
+        },
+        {
+          "id": "D",
+          "text": "desativar o vínculo na nova seção e então editar seu cabeçalho."
+        },
+        {
+          "id": "E",
+          "text": "resolver todos os comentários."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vincular ao Anterior faz a nova seção reutilizar o cabeçalho ou rodapé anterior. Desativar o vínculo permite conteúdo próprio sem exigir exclusão da seção precedente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3974",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A numeração automática de páginas no Word é normalmente inserida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "texto digitado manualmente em cada página."
+        },
+        {
+          "id": "B",
+          "text": "comentário oculto."
+        },
+        {
+          "id": "C",
+          "text": "um campo que pode ter formato e início diferentes por seção."
+        },
+        {
+          "id": "D",
+          "text": "nome do arquivo repetido."
+        },
+        {
+          "id": "E",
+          "text": "objeto de planilha vinculado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O campo de página produz e atualiza a numeração. Digitação manual não cria paginação automática e comentários ou planilhas não têm essa função. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3977",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Mesclar células em uma tabela do Word significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformar a tabela em uma planilha do Excel."
+        },
+        {
+          "id": "B",
+          "text": "duplicar automaticamente todas as linhas."
+        },
+        {
+          "id": "C",
+          "text": "apagar as bordas de todas as páginas."
+        },
+        {
+          "id": "D",
+          "text": "converter cada célula em uma caixa de texto independente."
+        },
+        {
+          "id": "E",
+          "text": "combinar duas ou mais células selecionadas em uma única célula."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Mesclar modifica a estrutura da tabela ao unir células selecionadas; não converte o objeto nem afeta páginas alheias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3978",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma imagem configurada Em linha com o texto",
+      "options": [
+        {
+          "id": "A",
+          "text": "fica obrigatoriamente atrás do texto."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser selecionada ou redimensionada."
+        },
+        {
+          "id": "C",
+          "text": "torna-se texto simples editável."
+        },
+        {
+          "id": "D",
+          "text": "comporta-se como um caractere dentro do parágrafo para posicionamento e fluxo."
+        },
+        {
+          "id": "E",
+          "text": "é convertida automaticamente em marca d’água."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em linha integra o objeto ao fluxo do parágrafo. Disposições flutuantes usam contorno e âncora; a imagem continua sendo um objeto selecionável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3979",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A âncora de um objeto flutuante no Word",
+      "options": [
+        {
+          "id": "A",
+          "text": "criptografa o objeto."
+        },
+        {
+          "id": "B",
+          "text": "associa o objeto a um parágrafo e pode influenciar sua posição quando o texto muda."
+        },
+        {
+          "id": "C",
+          "text": "converte a imagem em nota de rodapé."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer redimensionamento."
+        },
+        {
+          "id": "E",
+          "text": "transforma o objeto em campo de mala direta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A âncora estabelece vínculo estrutural entre objeto flutuante e parágrafo. Não é mecanismo de segurança, nota, dimensionamento ou mesclagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3980",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No tratamento de uma imagem, Recortar e Redimensionar distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos apagam obrigatoriamente o arquivo de origem."
+        },
+        {
+          "id": "B",
+          "text": "recortar muda o idioma e redimensionar muda o zoom."
+        },
+        {
+          "id": "C",
+          "text": "redimensionar remove partes e recortar altera somente a largura da página."
+        },
+        {
+          "id": "D",
+          "text": "recortar altera a área visível, enquanto redimensionar muda as dimensões exibidas."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença entre as operações."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Recorte oculta partes da imagem; redimensionamento altera largura e altura. Compressão é ainda outra operação, ligada a resolução e tamanho do arquivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3999",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um servidor deseja colocar uma moldura ao redor de toda a página no Microsoft Word. Em qual caminho ele encontra o recurso específico para isso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inserir → Formas."
+        },
+        {
+          "id": "B",
+          "text": "Layout → Margens."
+        },
+        {
+          "id": "C",
+          "text": "Inserir → Tabela."
+        },
+        {
+          "id": "D",
+          "text": "Design da Tabela → Bordas."
+        },
+        {
+          "id": "E",
+          "text": "Design → Bordas da Página."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Bordas da Página é o comando próprio para aplicar moldura ao documento ou à seção; bordas de tabela e formas atingem outros objetos. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 45; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: enunciado condensado, com preservação do núcleo técnico e da ordem das alternativas."
+    },
+    {
+      "id": "q4000",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um usuário quer reproduzir em outro trecho a mesma fonte, o mesmo tamanho e o mesmo alinhamento já aplicados a um texto. Qual recurso deve usar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pincel de Formatação."
+        },
+        {
+          "id": "B",
+          "text": "Cor de Realce."
+        },
+        {
+          "id": "C",
+          "text": "Mesclar Formatação na colagem."
+        },
+        {
+          "id": "D",
+          "text": "Hifenização automática."
+        },
+        {
+          "id": "E",
+          "text": "Efeitos de Texto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Pincel de Formatação copia propriedades de formatação da origem e as aplica ao destino; ele não copia necessariamente o conteúdo. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 52; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: cenário e alternativas reescritos sem alterar o recurso cobrado."
+    },
+    {
+      "id": "q4003",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Após inserir uma tabela no Word, o usuário precisa definir largura e altura específicas para suas células. Qual guia contextual reúne esses ajustes estruturais?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Referências da Tabela."
+        },
+        {
+          "id": "B",
+          "text": "Design da Tabela."
+        },
+        {
+          "id": "C",
+          "text": "Layout da Tabela."
+        },
+        {
+          "id": "D",
+          "text": "Ajuda da Tabela."
+        },
+        {
+          "id": "E",
+          "text": "Exibir Tabela."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Layout da Tabela concentra tamanho, distribuição, inserção, exclusão, mesclagem e outros ajustes estruturais; Design da Tabela trata principalmente da aparência. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 54; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: terminologia normalizada para a interface atual, com preservação do núcleo e do gabarito do Tipo 1."
+    },
+    {
+      "id": "q4004",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre tabelas no Word 2019, avalie: I. admitem estilos de borda, preenchimento e fontes; II. sua estrutura não pode ser alterada depois da inserção; III. só podem ser inseridas no início do documento. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A proposição I é verdadeira: tabelas admitem formatação visual. As proposições II e III são falsas, pois a estrutura pode ser alterada e a tabela pode ser inserida ou movida em diferentes partes do documento. Fonte: questão adaptada de FGV; Assembleia Legislativa do Estado do Tocantins; Técnico Legislativo — Assistência Administrativa; 2024; questão 22; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-legislativo-assistencia-administrativacnm201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/aleto-2024-gabarito-definitivo-cargos-policial-e-tecnico-legislativo_retif.pdf; adaptação: redação condensada, preservando as proposições e o gabarito do Tipo 1."
+    },
+    {
+      "id": "q4008",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As opções a seguir apresentam características de formatação de parágrafo controladas pelas opções disponíveis na caixa de diálogo Parágrafo no MS Word 365 (BR), à exceção de uma. Assinale-a.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recuo especial de primeira linha."
+        },
+        {
+          "id": "B",
+          "text": "Alinhamento do texto (esquerda, centro, direita, justificado)."
+        },
+        {
+          "id": "C",
+          "text": "Espaçamento antes e depois do parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "Aplicar efeitos de texto como Sombra ou Contorno."
+        },
+        {
+          "id": "E",
+          "text": "Espaçamento entre linhas do parágrafo (ex.: simples, 1.5)."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Efeitos como Sombra ou Contorno pertencem à formatação de texto/fonte, enquanto recuo, alinhamento e espaçamentos são características de parágrafo. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Goiás (ALEGO); Analista Legislativo — Analista Administrativo, Tipo 1 Branca, turno tarde; 2026; questão 17; prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf."
+    },
+    {
+      "id": "seap-u042-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao formatar um parágrafo no Word, qual alternativa distingue corretamente borda e sombreamento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A borda preenche o fundo; o sombreamento altera a margem da página."
+        },
+        {
+          "id": "B",
+          "text": "A borda e o sombreamento são nomes diferentes para exatamente o mesmo efeito."
+        },
+        {
+          "id": "C",
+          "text": "A borda cria linhas de contorno ou em lados do alvo; o sombreamento preenche seu fundo."
+        },
+        {
+          "id": "D",
+          "text": "O sombreamento só pode ser aplicado a imagens, e a borda só a tabelas."
+        },
+        {
+          "id": "E",
+          "text": "Ambos alteram exclusivamente o tamanho da fonte."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Bordas desenham linhas no contorno ou em lados do alvo; sombreamento aplica preenchimento de fundo. O alcance deve ser conferido porque texto, parágrafo, tabela e página possuem comandos próprios. Questão autoral baseada na documentação da Microsoft citada em referencias.md."
+    },
+    {
+      "id": "seap-u042-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas formas estão selecionadas no Word e o usuário deseja movê-las e redimensioná-las mantendo suas posições relativas. O recurso adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "agrupar os objetos."
+        },
+        {
+          "id": "B",
+          "text": "mesclar células."
+        },
+        {
+          "id": "C",
+          "text": "aplicar recuo de primeira linha."
+        },
+        {
+          "id": "D",
+          "text": "criar uma quebra de seção."
+        },
+        {
+          "id": "E",
+          "text": "converter as formas em cabeçalho."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O agrupamento permite tratar objetos compatíveis como um conjunto para mover, girar ou redimensionar, preservando a relação entre eles. Questão autoral baseada na documentação da Microsoft citada em referencias.md."
+    },
+    {
+      "id": "seap-u042-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um usuário altera a orientação de retrato para paisagem e aumenta as margens de uma seção. Essas alterações pertencem principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "à formatação de fonte."
+        },
+        {
+          "id": "B",
+          "text": "à configuração de página/seção."
+        },
+        {
+          "id": "C",
+          "text": "ao sombreamento de parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "à numeração de listas."
+        },
+        {
+          "id": "E",
+          "text": "à estrutura interna de uma tabela."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Orientação e margens são propriedades de layout da página/seção. Recuos pertencem ao parágrafo e não substituem margens. Questão autoral baseada na documentação da Microsoft citada em referencias.md."
+    },
+    {
+      "id": "seap-u042-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma forma está sobre uma imagem e encobre parte dela. Sem excluir nenhum objeto, o usuário quer colocar a forma atrás da imagem. Deve usar um comando de",
+      "options": [
+        {
+          "id": "A",
+          "text": "ordenação de objetos, como Enviar para Trás."
+        },
+        {
+          "id": "B",
+          "text": "espaçamento entre linhas."
+        },
+        {
+          "id": "C",
+          "text": "mesclagem de células."
+        },
+        {
+          "id": "D",
+          "text": "numeração de páginas."
+        },
+        {
+          "id": "E",
+          "text": "recuo pendente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Comandos de ordenação controlam a sobreposição de objetos, permitindo trazê-los para frente ou enviá-los para trás sem alterar o conteúdo dos demais. Questão autoral baseada na documentação da Microsoft citada em referencias.md."
+    }
+  ]
+}
