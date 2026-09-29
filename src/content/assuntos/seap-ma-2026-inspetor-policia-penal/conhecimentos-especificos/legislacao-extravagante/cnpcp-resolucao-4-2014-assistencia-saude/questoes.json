@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u106-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 4/2014 aprova",
+      "options": [
+        {
+          "id": "A",
+          "text": "diretrizes básicas para atenção integral à saúde das pessoas privadas de liberdade no sistema prisional."
+        },
+        {
+          "id": "B",
+          "text": "diretrizes de educação."
+        },
+        {
+          "id": "C",
+          "text": "normas de monitoração eletrônica."
+        },
+        {
+          "id": "D",
+          "text": "regras de assistência material."
+        },
+        {
+          "id": "E",
+          "text": "regulamento disciplinar nacional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o objeto da resolução."
+    },
+    {
+      "id": "seap-u106-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção à saúde prisional deve seguir",
+      "options": [
+        {
+          "id": "A",
+          "text": "um sistema sanitário separado."
+        },
+        {
+          "id": "B",
+          "text": "princípios e diretrizes do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>, considerados o contexto e o perfil da população prisional."
+        },
+        {
+          "id": "C",
+          "text": "somente regras da administração penitenciária."
+        },
+        {
+          "id": "D",
+          "text": "apenas decisões judiciais individuais."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente normas estaduais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução integra saúde prisional ao sistema público de saúde."
+    },
+    {
+      "id": "seap-u106-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cabe à administração penitenciária, em relação às equipes de saúde,",
+      "options": [
+        {
+          "id": "A",
+          "text": "impedir contato direto com pessoas presas."
+        },
+        {
+          "id": "B",
+          "text": "substituir decisões clínicas."
+        },
+        {
+          "id": "C",
+          "text": "oferecer condições de infraestrutura, acesso e segurança para o cuidado."
+        },
+        {
+          "id": "D",
+          "text": "administrar todos os sistemas sanitários."
+        },
+        {
+          "id": "E",
+          "text": "dispensar normas sanitárias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A administração deve viabilizar o trabalho das equipes."
+    },
+    {
+      "id": "seap-u106-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A educação permanente é prevista para",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente agentes de segurança."
+        },
+        {
+          "id": "B",
+          "text": "apenas diretores."
+        },
+        {
+          "id": "C",
+          "text": "somente gestores municipais."
+        },
+        {
+          "id": "D",
+          "text": "equipes de saúde que atuam no sistema prisional."
+        },
+        {
+          "id": "E",
+          "text": "apenas pessoas presas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A formação permanente prepara as equipes para as especificidades do contexto prisional."
+    },
+    {
+      "id": "seap-u106-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A identificação sanitária da pessoa custodiada",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser cancelada no ingresso."
+        },
+        {
+          "id": "B",
+          "text": "é dispensável."
+        },
+        {
+          "id": "C",
+          "text": "só existe em regime aberto."
+        },
+        {
+          "id": "D",
+          "text": "depende de sentença definitiva."
+        },
+        {
+          "id": "E",
+          "text": "deve ser assegurada no sistema de saúde quando ainda inexistente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A custódia não elimina o registro sanitário."
+    },
+    {
+      "id": "seap-u106-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na avaliação de saúde no ingresso, deve-se considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "história clínica, exame físico, tratamentos, doenças notificáveis, violência e vacinação."
+        },
+        {
+          "id": "B",
+          "text": "apenas peso e altura."
+        },
+        {
+          "id": "C",
+          "text": "somente antecedentes criminais."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente saúde mental."
+        },
+        {
+          "id": "E",
+          "text": "apenas doenças transmissíveis."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A avaliação inicial é ampla e orienta continuidade do cuidado."
+    },
+    {
+      "id": "seap-u106-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prontuário de saúde da pessoa privada de liberdade deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "público e irrestrito."
+        },
+        {
+          "id": "B",
+          "text": "sistemático, preservando confidencialidade e continuidade do cuidado."
+        },
+        {
+          "id": "C",
+          "text": "substituído por ficha disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "dispensado em transferências."
+        },
+        {
+          "id": "E",
+          "text": "mantido apenas em papel local."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução preserva registro clínico e confidencialidade."
+    },
+    {
+      "id": "seap-u106-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a necessidade exige média ou alta complexidade,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o cuidado é negado."
+        },
+        {
+          "id": "B",
+          "text": "a unidade prisional deve resolver tudo internamente."
+        },
+        {
+          "id": "C",
+          "text": "a pessoa deve ser encaminhada à rede de atenção à saúde."
+        },
+        {
+          "id": "D",
+          "text": "o juiz substitui o serviço de saúde."
+        },
+        {
+          "id": "E",
+          "text": "o atendimento é exclusivamente privado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O cuidado especializado integra a rede territorial."
+    },
+    {
+      "id": "seap-u106-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção à saúde da mulher inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente saúde bucal."
+        },
+        {
+          "id": "B",
+          "text": "apenas vacinação."
+        },
+        {
+          "id": "C",
+          "text": "somente urgências obstétricas."
+        },
+        {
+          "id": "D",
+          "text": "avaliação clínica/ginecológica e ações reprodutivas e materno-infantis."
+        },
+        {
+          "id": "E",
+          "text": "apenas saúde mental."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resolução prevê atenção específica à saúde da mulher."
+    },
+    {
+      "id": "seap-u106-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à vigilância sanitária e epidemiológica, a melhor leitura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a prisão tem responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "somente o Município responde."
+        },
+        {
+          "id": "C",
+          "text": "não há vigilância no cárcere."
+        },
+        {
+          "id": "D",
+          "text": "a direção substitui o gestor sanitário."
+        },
+        {
+          "id": "E",
+          "text": "há cooperação entre administração prisional e gestão do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>, conforme competências."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As funções são articuladas, não confundidas."
+    },
+    {
+      "id": "seap-u106-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A saúde bucal",
+      "options": [
+        {
+          "id": "A",
+          "text": "integra a atenção integral à saúde prisional."
+        },
+        {
+          "id": "B",
+          "text": "é excluída da resolução."
+        },
+        {
+          "id": "C",
+          "text": "só existe em regime aberto."
+        },
+        {
+          "id": "D",
+          "text": "depende de autorização judicial."
+        },
+        {
+          "id": "E",
+          "text": "é considerada atividade estética."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A atenção integral inclui saúde bucal."
+    },
+    {
+      "id": "seap-u106-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção em saúde mental deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas diagnóstico psiquiátrico formal."
+        },
+        {
+          "id": "B",
+          "text": "sofrimento do confinamento, álcool/drogas e transtornos mentais, articulando rede psicossocial quando necessário."
+        },
+        {
+          "id": "C",
+          "text": "somente pessoas internadas em hospital de custódia."
+        },
+        {
+          "id": "D",
+          "text": "apenas uso de medicamentos."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente risco disciplinar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução adota abordagem ampla de saúde mental."
+    },
+    {
+      "id": "seap-u106-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A assistência farmacêutica deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser administrada exclusivamente pela direção prisional."
+        },
+        {
+          "id": "B",
+          "text": "ignorar políticas do sistema público."
+        },
+        {
+          "id": "C",
+          "text": "integrar-se à gestão do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>, usando a <abbr title=\"Relação Nacional de Medicamentos Essenciais\">RENAME</abbr> como referência."
+        },
+        {
+          "id": "D",
+          "text": "limitar-se a analgésicos."
+        },
+        {
+          "id": "E",
+          "text": "depender de sentença judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Medicamentos seguem a lógica da assistência farmacêutica do sistema público."
+    },
+    {
+      "id": "seap-u106-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A <abbr title=\"Relação Nacional de Medicamentos Essenciais\">RENAME</abbr>, no contexto da resolução,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é uma lista disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "substitui toda avaliação clínica."
+        },
+        {
+          "id": "C",
+          "text": "é um catálogo prisional privado."
+        },
+        {
+          "id": "D",
+          "text": "serve como referência para a assistência farmacêutica."
+        },
+        {
+          "id": "E",
+          "text": "proíbe medicamentos fora de qualquer circunstância."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lista nacional funciona como referência dentro da política farmacêutica."
+    },
+    {
+      "id": "seap-u106-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ações de prevenção e promoção podem alcançar trabalhadores do sistema prisional",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca."
+        },
+        {
+          "id": "B",
+          "text": "somente se presos."
+        },
+        {
+          "id": "C",
+          "text": "apenas após aposentadoria."
+        },
+        {
+          "id": "D",
+          "text": "somente por decisão judicial."
+        },
+        {
+          "id": "E",
+          "text": "sim, em articulação com a rede de saúde do trabalhador."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A resolução também considera a saúde de trabalhadores."
+    },
+    {
+      "id": "seap-u106-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor síntese da norma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "organizar cuidado prisional dentro da rede do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>, com avaliação, registro e continuidade."
+        },
+        {
+          "id": "B",
+          "text": "criar sistema hospitalar penitenciário autônomo."
+        },
+        {
+          "id": "C",
+          "text": "substituir a <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr>."
+        },
+        {
+          "id": "D",
+          "text": "limitar atenção a doenças transmissíveis."
+        },
+        {
+          "id": "E",
+          "text": "entregar a saúde ao Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma operacionaliza princípios de atenção integral em rede."
+    }
+  ]
+}
