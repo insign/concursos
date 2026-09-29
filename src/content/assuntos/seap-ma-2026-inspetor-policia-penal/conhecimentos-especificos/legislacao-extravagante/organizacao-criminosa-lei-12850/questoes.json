@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "u139-a01",
@@ -1324,9 +1324,9 @@
     },
     {
       "id": "u139-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Em adaptação não literal da questão 55 do Cebraspe para Delegado da Polícia Civil de Rondônia, concurso 2022, assinale a afirmação correta sobre colaboração premiada.",
+      "prompt": "Em adaptação não literal da questão 55 do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> para Delegado da Polícia Civil de Rondônia, concurso 2022, assinale a afirmação correta sobre colaboração premiada.",
       "options": [
         {
           "id": "A",
@@ -1354,9 +1354,9 @@
     },
     {
       "id": "u139-p02",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Em adaptação não literal da questão 4 da prova oral Cebraspe para Delegado de Polícia Federal, aplicada em 2019, à luz da Lei nº 12.850/2013 e da <abbr title=\"Ação Direta de Inconstitucionalidade\">ADI</abbr> 5.508 do <abbr title=\"Supremo Tribunal Federal\">STF</abbr>,",
+      "prompt": "Em adaptação não literal da questão 4 da prova oral <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> para Delegado de Polícia Federal, aplicada em 2019, à luz da Lei nº 12.850/2013 e da <abbr title=\"Ação Direta de Inconstitucionalidade\">ADI</abbr> 5.508 do <abbr title=\"Supremo Tribunal Federal\">STF</abbr>,",
       "options": [
         {
           "id": "A",
