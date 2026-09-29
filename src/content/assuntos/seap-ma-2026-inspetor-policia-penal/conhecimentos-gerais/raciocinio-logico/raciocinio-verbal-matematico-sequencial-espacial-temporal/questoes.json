@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u021-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma analogia, o critério mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "preservar a relação entre os elementos do primeiro par."
+        },
+        {
+          "id": "B",
+          "text": "escolher qualquer palavra do mesmo tema."
+        },
+        {
+          "id": "C",
+          "text": "priorizar a palavra mais longa."
+        },
+        {
+          "id": "D",
+          "text": "buscar apenas semelhança sonora."
+        },
+        {
+          "id": "E",
+          "text": "ignorar a função dos termos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Analogia cobra correspondência de relação, não mera associação temática."
+    },
+    {
+      "id": "seap-u021-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No par 'termômetro : temperatura', a relação principal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "objeto : material."
+        },
+        {
+          "id": "B",
+          "text": "instrumento : grandeza medida."
+        },
+        {
+          "id": "C",
+          "text": "parte : todo."
+        },
+        {
+          "id": "D",
+          "text": "causa : efeito inevitável."
+        },
+        {
+          "id": "E",
+          "text": "classe : exemplo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O termômetro é instrumento usado para medir temperatura."
+    },
+    {
+      "id": "seap-u021-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao formar um conceito a partir de exemplos positivos e negativos, deve-se priorizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cor mais frequente."
+        },
+        {
+          "id": "B",
+          "text": "o tamanho médio."
+        },
+        {
+          "id": "C",
+          "text": "a propriedade que aparece nos positivos e discrimina os negativos."
+        },
+        {
+          "id": "D",
+          "text": "a posição na página."
+        },
+        {
+          "id": "E",
+          "text": "qualquer atributo visual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O atributo definidor deve explicar a classificação."
+    },
+    {
+      "id": "seap-u021-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se A possui o dobro da quantidade de B, a tradução correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "B = 2A."
+        },
+        {
+          "id": "B",
+          "text": "A + B = 2."
+        },
+        {
+          "id": "C",
+          "text": "A = B + 2."
+        },
+        {
+          "id": "D",
+          "text": "A = 2B."
+        },
+        {
+          "id": "E",
+          "text": "A = B/2 e B = 2A simultaneamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "'Dobro de' indica multiplicação por 2."
+    },
+    {
+      "id": "seap-u021-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quatro caixas iguais comportam 80 itens. Mantida a mesma capacidade, sete caixas comportam",
+      "options": [
+        {
+          "id": "A",
+          "text": "100."
+        },
+        {
+          "id": "B",
+          "text": "120."
+        },
+        {
+          "id": "C",
+          "text": "125."
+        },
+        {
+          "id": "D",
+          "text": "135."
+        },
+        {
+          "id": "E",
+          "text": "140."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Cada caixa comporta 20 itens; sete comportam 140."
+    },
+    {
+      "id": "seap-u021-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência 3, 6, 12, 24, o próximo termo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "48."
+        },
+        {
+          "id": "B",
+          "text": "30."
+        },
+        {
+          "id": "C",
+          "text": "36."
+        },
+        {
+          "id": "D",
+          "text": "42."
+        },
+        {
+          "id": "E",
+          "text": "60."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cada termo é o anterior multiplicado por 2."
+    },
+    {
+      "id": "seap-u021-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência 2, 5, 4, 7, 6, 9, o próximo termo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "10."
+        },
+        {
+          "id": "B",
+          "text": "8."
+        },
+        {
+          "id": "C",
+          "text": "11."
+        },
+        {
+          "id": "D",
+          "text": "12."
+        },
+        {
+          "id": "E",
+          "text": "7."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As posições ímpares formam 2,4,6,8; as pares, 5,7,9."
+    },
+    {
+      "id": "seap-u021-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma figura tem 2 blocos na etapa 1, 5 na etapa 2 e 8 na etapa 3. Mantido o incremento, a etapa 4 terá",
+      "options": [
+        {
+          "id": "A",
+          "text": "9."
+        },
+        {
+          "id": "B",
+          "text": "10."
+        },
+        {
+          "id": "C",
+          "text": "11."
+        },
+        {
+          "id": "D",
+          "text": "12."
+        },
+        {
+          "id": "E",
+          "text": "13."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O crescimento é constante em +3."
+    },
+    {
+      "id": "seap-u021-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "B está à direita de A e C está acima de B. Em relação a A, C está",
+      "options": [
+        {
+          "id": "A",
+          "text": "à esquerda."
+        },
+        {
+          "id": "B",
+          "text": "abaixo."
+        },
+        {
+          "id": "C",
+          "text": "no mesmo ponto."
+        },
+        {
+          "id": "D",
+          "text": "acima e à direita."
+        },
+        {
+          "id": "E",
+          "text": "apenas à direita, na mesma altura."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Representar as posições mostra C no quadrante superior direito em relação a A."
+    },
+    {
+      "id": "seap-u021-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma seta aponta para nordeste. Após rotação de 90° no sentido horário, apontará para",
+      "options": [
+        {
+          "id": "A",
+          "text": "norte."
+        },
+        {
+          "id": "B",
+          "text": "noroeste."
+        },
+        {
+          "id": "C",
+          "text": "oeste."
+        },
+        {
+          "id": "D",
+          "text": "sudoeste."
+        },
+        {
+          "id": "E",
+          "text": "sudeste."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A rotação horária de nordeste leva a sudeste."
+    },
+    {
+      "id": "seap-u021-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença essencial entre rotação e reflexão é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a reflexão espelha a orientação; a rotação gira a figura."
+        },
+        {
+          "id": "B",
+          "text": "ambas sempre produzem a mesma orientação."
+        },
+        {
+          "id": "C",
+          "text": "rotação sempre muda o tamanho."
+        },
+        {
+          "id": "D",
+          "text": "reflexão sempre move para cima."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma preserva a forma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Rotação e espelhamento são transformações distintas."
+    },
+    {
+      "id": "seap-u021-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma questão de papel dobrado e perfurado, a estratégia mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "abrir tudo mentalmente de uma vez."
+        },
+        {
+          "id": "B",
+          "text": "registrar as dobras e desfazê-las em ordem inversa, replicando o furo por simetria."
+        },
+        {
+          "id": "C",
+          "text": "ignorar a ordem das dobras."
+        },
+        {
+          "id": "D",
+          "text": "contar apenas o número de folhas."
+        },
+        {
+          "id": "E",
+          "text": "tratar toda dobra como rotação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Desfazer as dobras em ordem inversa controla as simetrias."
+    },
+    {
+      "id": "seap-u021-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois dias depois de terça-feira é",
+      "options": [
+        {
+          "id": "A",
+          "text": "quarta-feira."
+        },
+        {
+          "id": "B",
+          "text": "sexta-feira."
+        },
+        {
+          "id": "C",
+          "text": "quinta-feira."
+        },
+        {
+          "id": "D",
+          "text": "domingo."
+        },
+        {
+          "id": "E",
+          "text": "segunda-feira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "São duas transições: terça→quarta→quinta."
+    },
+    {
+      "id": "seap-u021-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cem dias após uma segunda-feira será",
+      "options": [
+        {
+          "id": "A",
+          "text": "terça-feira."
+        },
+        {
+          "id": "B",
+          "text": "sexta-feira."
+        },
+        {
+          "id": "C",
+          "text": "domingo."
+        },
+        {
+          "id": "D",
+          "text": "quarta-feira."
+        },
+        {
+          "id": "E",
+          "text": "sábado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "100 deixa resto 2 na divisão por 7: segunda +2 = quarta."
+    },
+    {
+      "id": "seap-u021-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um evento começa às 21h40 e dura 2h35. Ele termina às",
+      "options": [
+        {
+          "id": "A",
+          "text": "23h15."
+        },
+        {
+          "id": "B",
+          "text": "23h40."
+        },
+        {
+          "id": "C",
+          "text": "00h05."
+        },
+        {
+          "id": "D",
+          "text": "00h10."
+        },
+        {
+          "id": "E",
+          "text": "00h15 do dia seguinte."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "21h40 + 2h35 = 00h15 do dia seguinte."
+    },
+    {
+      "id": "seap-u021-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'X ocorre imediatamente antes de Y' significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não há outro evento entre X e Y."
+        },
+        {
+          "id": "B",
+          "text": "X apenas ocorre em algum momento anterior."
+        },
+        {
+          "id": "C",
+          "text": "Y pode ocorrer antes de X."
+        },
+        {
+          "id": "D",
+          "text": "X e Y são simultâneos."
+        },
+        {
+          "id": "E",
+          "text": "a ordem é indeterminada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Imediatamente' elimina posições intermediárias."
+    },
+    {
+      "id": "seap-u021-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao procurar a regra de uma sequência, uma hipótese deve ser rejeitada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "é simples."
+        },
+        {
+          "id": "B",
+          "text": "falha em algum dos termos relevantes apresentados."
+        },
+        {
+          "id": "C",
+          "text": "usa diferenças."
+        },
+        {
+          "id": "D",
+          "text": "é testada nas transições."
+        },
+        {
+          "id": "E",
+          "text": "explica todos os dados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma regra válida precisa explicar o conjunto relevante de dados."
+    },
+    {
+      "id": "seap-u021-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em problemas temporais com ciclos fixos longos, uma técnica eficiente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "somar todos os ciclos um a um."
+        },
+        {
+          "id": "B",
+          "text": "ignorar o período do ciclo."
+        },
+        {
+          "id": "C",
+          "text": "usar o resto da divisão pelo tamanho do ciclo."
+        },
+        {
+          "id": "D",
+          "text": "sempre converter em meses."
+        },
+        {
+          "id": "E",
+          "text": "arredondar o número de passos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O resto informa o deslocamento efetivo dentro do ciclo."
+    },
+    {
+      "id": "seap-u021-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se uma questão de classificação apresenta três frutas e um vegetal, o melhor critério inicial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "comprimento da palavra."
+        },
+        {
+          "id": "B",
+          "text": "cor dos objetos."
+        },
+        {
+          "id": "C",
+          "text": "ordem alfabética."
+        },
+        {
+          "id": "D",
+          "text": "categoria a que pertencem."
+        },
+        {
+          "id": "E",
+          "text": "número de letras pares."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O critério de classe explica diretamente a diferença."
+    },
+    {
+      "id": "seap-u021-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor estratégia geral para problemas espaciais e temporais é",
+      "options": [
+        {
+          "id": "A",
+          "text": "evitar qualquer representação."
+        },
+        {
+          "id": "B",
+          "text": "decorar respostas típicas."
+        },
+        {
+          "id": "C",
+          "text": "usar apenas cálculo algébrico."
+        },
+        {
+          "id": "D",
+          "text": "assumir relações não declaradas."
+        },
+        {
+          "id": "E",
+          "text": "externalizar as relações em desenho, tabela ou linha do tempo quando isso reduzir a carga mental."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Representar relações diminui erros e evita inferências implícitas."
+    }
+  ]
+}
