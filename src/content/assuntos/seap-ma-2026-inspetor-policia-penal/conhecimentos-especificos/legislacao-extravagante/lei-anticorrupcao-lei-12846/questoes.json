@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u095-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A responsabilidade da pessoa jurídica na Lei 12.846/2013 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "subjetiva em qualquer esfera."
+        },
+        {
+          "id": "B",
+          "text": "objetiva nas esferas administrativa e civil pelos atos praticados em seu interesse ou benefício."
+        },
+        {
+          "id": "C",
+          "text": "apenas penal."
+        },
+        {
+          "id": "D",
+          "text": "dependente de condenação do administrador."
+        },
+        {
+          "id": "E",
+          "text": "restrita a empresas públicas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º estabelece responsabilidade objetiva administrativa e civil."
+    },
+    {
+      "id": "seap-u095-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A responsabilidade objetiva da pessoa jurídica",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna objetiva a responsabilidade de todos os dirigentes."
+        },
+        {
+          "id": "B",
+          "text": "não exclui a responsabilidade individual de pessoas naturais, apurada conforme culpabilidade."
+        },
+        {
+          "id": "C",
+          "text": "elimina a responsabilidade individual."
+        },
+        {
+          "id": "D",
+          "text": "só existe se houver dano material."
+        },
+        {
+          "id": "E",
+          "text": "depende de confissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º separa a responsabilidade da pessoa jurídica da individual."
+    },
+    {
+      "id": "seap-u095-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui ato lesivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pagar vantagem após contrato."
+        },
+        {
+          "id": "B",
+          "text": "prometer, oferecer ou dar vantagem indevida a agente público ou terceiro relacionado."
+        },
+        {
+          "id": "C",
+          "text": "apenas obter lucro lícito."
+        },
+        {
+          "id": "D",
+          "text": "recusar contrato privado."
+        },
+        {
+          "id": "E",
+          "text": "qualquer erro contábil sem relação com administração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º alcança promessa, oferta ou concessão de vantagem indevida."
+    },
+    {
+      "id": "seap-u095-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dificultar investigação ou fiscalização de órgão público",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é alcançado pela lei."
+        },
+        {
+          "id": "B",
+          "text": "é ato lesivo previsto no artigo 5º."
+        },
+        {
+          "id": "C",
+          "text": "é apenas infração trabalhista."
+        },
+        {
+          "id": "D",
+          "text": "só importa se houver licitação."
+        },
+        {
+          "id": "E",
+          "text": "é causa automática de dissolução."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, V, inclui essa conduta."
+    },
+    {
+      "id": "seap-u095-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A multa administrativa baseada em faturamento varia de",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,01% a 1%."
+        },
+        {
+          "id": "B",
+          "text": "0,1% a 20%."
+        },
+        {
+          "id": "C",
+          "text": "1% a 50%."
+        },
+        {
+          "id": "D",
+          "text": "10% a 100%."
+        },
+        {
+          "id": "E",
+          "text": "valor fixo de R$ 6 mil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º fixa de 0,1% a 20% do faturamento bruto, excluídos tributos."
+    },
+    {
+      "id": "seap-u095-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se não for possível utilizar o faturamento bruto como critério, a multa será de",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 1 mil a R$ 1 milhão."
+        },
+        {
+          "id": "B",
+          "text": "R$ 6 mil a R$ 60 milhões."
+        },
+        {
+          "id": "C",
+          "text": "R$ 10 mil a R$ 10 milhões."
+        },
+        {
+          "id": "D",
+          "text": "R$ 100 mil a R$ 100 milhões."
+        },
+        {
+          "id": "E",
+          "text": "valor livre."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a faixa do artigo 6º, § 4º."
+    },
+    {
+      "id": "seap-u095-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A publicação extraordinária da decisão condenatória",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui a multa."
+        },
+        {
+          "id": "B",
+          "text": "é sanção administrativa que pode cumular com multa."
+        },
+        {
+          "id": "C",
+          "text": "é pena criminal."
+        },
+        {
+          "id": "D",
+          "text": "elimina o dano."
+        },
+        {
+          "id": "E",
+          "text": "só existe no Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º prevê multa e publicação extraordinária."
+    },
+    {
+      "id": "seap-u095-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O programa de integridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "gera imunidade."
+        },
+        {
+          "id": "B",
+          "text": "é fator considerado na aplicação de sanções e deve ser efetivo."
+        },
+        {
+          "id": "C",
+          "text": "dispensa cooperação."
+        },
+        {
+          "id": "D",
+          "text": "substitui o PAR."
+        },
+        {
+          "id": "E",
+          "text": "só se aplica a empresas públicas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Integridade é fator de dosimetria e deve ser estruturada segundo riscos."
+    },
+    {
+      "id": "seap-u095-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A comissão do PAR é composta por",
+      "options": [
+        {
+          "id": "A",
+          "text": "um servidor qualquer."
+        },
+        {
+          "id": "B",
+          "text": "2 ou mais servidores estáveis."
+        },
+        {
+          "id": "C",
+          "text": "três juízes."
+        },
+        {
+          "id": "D",
+          "text": "apenas terceirizados."
+        },
+        {
+          "id": "E",
+          "text": "somente membros do MP."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 10 exige dois ou mais servidores estáveis."
+    },
+    {
+      "id": "seap-u095-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo legal para a comissão concluir o PAR é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias, improrrogável."
+        },
+        {
+          "id": "B",
+          "text": "60 dias."
+        },
+        {
+          "id": "C",
+          "text": "90 dias."
+        },
+        {
+          "id": "D",
+          "text": "180 dias, prorrogável por ato fundamentado."
+        },
+        {
+          "id": "E",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 10 prevê 180 dias e admite prorrogação fundamentada."
+    },
+    {
+      "id": "seap-u095-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pessoa jurídica tem prazo de defesa no PAR de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "60 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 11 fixa trinta dias da intimação."
+    },
+    {
+      "id": "seap-u095-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à competência de instauração e julgamento do PAR, a lei",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe delegação."
+        },
+        {
+          "id": "B",
+          "text": "permite delegação, mas veda subdelegação."
+        },
+        {
+          "id": "C",
+          "text": "permite subdelegação livre."
+        },
+        {
+          "id": "D",
+          "text": "atribui sempre à CGU."
+        },
+        {
+          "id": "E",
+          "text": "atribui à polícia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A competência pode ser delegada, vedada a subdelegação."
+    },
+    {
+      "id": "seap-u095-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acordo de leniência",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina obrigação de reparar dano."
+        },
+        {
+          "id": "B",
+          "text": "pode reduzir multa em até dois terços, mas não afasta reparação integral."
+        },
+        {
+          "id": "C",
+          "text": "gera absolvição penal automática."
+        },
+        {
+          "id": "D",
+          "text": "pode ser celebrado sem cooperação."
+        },
+        {
+          "id": "E",
+          "text": "não afeta publicação extraordinária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei preserva reparação e concede benefícios específicos."
+    },
+    {
+      "id": "seap-u095-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O descumprimento do acordo de leniência impede novo acordo por",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 meses."
+        },
+        {
+          "id": "B",
+          "text": "1 ano."
+        },
+        {
+          "id": "C",
+          "text": "2 anos."
+        },
+        {
+          "id": "D",
+          "text": "3 anos."
+        },
+        {
+          "id": "E",
+          "text": "5 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 16 prevê impedimento por três anos."
+    },
+    {
+      "id": "seap-u095-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prescrição das infrações da Lei 12.846/2013 é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 ano."
+        },
+        {
+          "id": "B",
+          "text": "2 anos."
+        },
+        {
+          "id": "C",
+          "text": "3 anos."
+        },
+        {
+          "id": "D",
+          "text": "5 anos."
+        },
+        {
+          "id": "E",
+          "text": "10 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 25 estabelece cinco anos."
+    },
+    {
+      "id": "seap-u095-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as sanções judiciais está",
+      "options": [
+        {
+          "id": "A",
+          "text": "prisão do diretor como efeito automático."
+        },
+        {
+          "id": "B",
+          "text": "proibição de receber incentivos públicos por 1 a 5 anos."
+        },
+        {
+          "id": "C",
+          "text": "multa tributária obrigatória."
+        },
+        {
+          "id": "D",
+          "text": "cassação de direitos políticos da empresa."
+        },
+        {
+          "id": "E",
+          "text": "banimento nacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 19, IV, prevê a proibição por um a cinco anos."
+    },
+    {
+      "id": "seap-u095-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O CNEP reúne, nos termos da lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pessoas físicas."
+        },
+        {
+          "id": "B",
+          "text": "informações sobre empresas punidas e acordos de leniência nas hipóteses legais."
+        },
+        {
+          "id": "C",
+          "text": "apenas condenações penais."
+        },
+        {
+          "id": "D",
+          "text": "somente licitações em andamento."
+        },
+        {
+          "id": "E",
+          "text": "dados médicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Cadastro Nacional de Empresas Punidas tem função de publicidade das sanções e acordos."
+    },
+    {
+      "id": "seap-u095-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei 12.846/2013 aplica-se a ato lesivo de pessoa jurídica brasileira contra administração estrangeira",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente se ocorrido no Brasil."
+        },
+        {
+          "id": "B",
+          "text": "ainda que cometido no exterior."
+        },
+        {
+          "id": "C",
+          "text": "apenas se houver tratado bilateral."
+        },
+        {
+          "id": "D",
+          "text": "somente por empresa pública."
+        },
+        {
+          "id": "E",
+          "text": "nunca."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 28 prevê aplicação extraterritorial nessa hipótese."
+    },
+    {
+      "id": "seap-u095-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Decreto 11.129/2022, programa de integridade tem como objetivos",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas aumentar lucro."
+        },
+        {
+          "id": "B",
+          "text": "prevenir, detectar e sanar ilícitos e fomentar cultura de integridade."
+        },
+        {
+          "id": "C",
+          "text": "substituir controles internos."
+        },
+        {
+          "id": "D",
+          "text": "evitar canais de denúncia."
+        },
+        {
+          "id": "E",
+          "text": "eliminar gestão de riscos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 56 define esses objetivos."
+    },
+    {
+      "id": "seap-u095-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de questão do Concurso Público nº 01/2018 para Controlador Interno da Câmara Municipal de Quinta do Sol/PR, a instauração e o julgamento do processo administrativo de responsabilização cabem, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao pregoeiro."
+        },
+        {
+          "id": "B",
+          "text": "à comissão de licitação."
+        },
+        {
+          "id": "C",
+          "text": "à autoridade máxima de cada órgão ou entidade dos Poderes Executivo, Legislativo e Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "ao Tribunal de Contas exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "à autoridade policial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A questão oficial cobrava a competência do artigo 8º; a alternativa correta corresponde à autoridade máxima do órgão ou entidade."
+    }
+  ]
+}
