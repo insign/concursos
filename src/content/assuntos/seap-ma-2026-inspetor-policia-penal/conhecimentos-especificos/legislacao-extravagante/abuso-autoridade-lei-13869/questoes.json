@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "u124-a01",
@@ -574,37 +574,37 @@
     },
     {
       "id": "u124-a20",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Segundo o artigo 22, § 1º, III, e o precedente da Terceira Seção do Superior Tribunal de Justiça, o mandado de busca domiciliar pode ser cumprido dentro do marco cronológico de",
       "options": [
         {
           "id": "A",
-          "text": "0h a 24h."
+          "text": "0 horas a 24 horas."
         },
         {
           "id": "B",
-          "text": "21h a 5h."
+          "text": "21 horas a 5 horas."
         },
         {
           "id": "C",
-          "text": "6h a 18h apenas se houver sol."
+          "text": "6 horas a 18 horas apenas se houver sol."
         },
         {
           "id": "D",
-          "text": "8h a 17h."
+          "text": "8 horas a 17 horas."
         },
         {
           "id": "E",
-          "text": "5h a 21h."
+          "text": "5 horas a 21 horas."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O artigo criminaliza cumprimento após 21h ou antes de 5h, e o RHC 196.496/RN consolidou o marco de 5h a 21h."
+      "explanation": "O artigo criminaliza cumprimento após 21 horas ou antes de 5 horas, e o RHC 196.496/RN consolidou o marco de 5 horas a 21 horas."
     },
     {
       "id": "u124-a21",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Não há crime do artigo 22 quando o ingresso em imóvel ocorre, nas condições do § 2º,",
       "options": [
@@ -618,7 +618,7 @@
         },
         {
           "id": "C",
-          "text": "para cumprir mandado às 3h."
+          "text": "para cumprir mandado às 3 horas."
         },
         {
           "id": "D",
