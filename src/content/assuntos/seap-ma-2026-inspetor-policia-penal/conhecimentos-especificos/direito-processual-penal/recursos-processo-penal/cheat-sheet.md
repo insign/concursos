@@ -23,7 +23,7 @@
 | contravenção — razões | **3 + 3 dias** |
 | infringentes/nulidade | **10 dias** |
 | declaração | **2 dias** |
-| carta testemunhável | **48 h** |
+| carta testemunhável | **48 horas** |
 
 ## <abbr title="Recurso em Sentido Estrito">RESE</abbr>
 
@@ -47,7 +47,7 @@ Só defesa apelou → tribunal não pode piorar a pena: <abbr title="Piora da si
 
 ## Carta testemunhável
 
-Recurso negado ou seguimento travado → **48 h**.
+Recurso negado ou seguimento travado → **48 horas**.
 
 ## Não confunda
 
