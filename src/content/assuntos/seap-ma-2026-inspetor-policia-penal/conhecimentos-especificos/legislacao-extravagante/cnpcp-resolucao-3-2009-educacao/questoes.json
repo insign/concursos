@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u104-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 3/2009 estabelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diretrizes Nacionais para a Oferta de Educação nos estabelecimentos penais."
+        },
+        {
+          "id": "B",
+          "text": "regras exclusivamente de trabalho prisional."
+        },
+        {
+          "id": "C",
+          "text": "normas apenas sobre ensino superior."
+        },
+        {
+          "id": "D",
+          "text": "diretrizes de monitoração eletrônica."
+        },
+        {
+          "id": "E",
+          "text": "parâmetros de assistência material."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A resolução trata da oferta de educação nos estabelecimentos penais."
+    },
+    {
+      "id": "seap-u104-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ações educacionais no contexto prisional devem estar calcadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente nas rotinas de segurança."
+        },
+        {
+          "id": "B",
+          "text": "na legislação educacional vigente e na Lei de Execução Penal."
+        },
+        {
+          "id": "C",
+          "text": "apenas em regulamento interno de cada prisão."
+        },
+        {
+          "id": "D",
+          "text": "somente em decisões judiciais individuais."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente em normas municipais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º combina legislação educacional e Lei de Execução Penal."
+    },
+    {
+      "id": "seap-u104-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta um dos três eixos da resolução?",
+      "options": [
+        {
+          "id": "A",
+          "text": "assistência farmacêutica."
+        },
+        {
+          "id": "B",
+          "text": "monitoração telemática."
+        },
+        {
+          "id": "C",
+          "text": "formação e valorização dos profissionais envolvidos na oferta de educação."
+        },
+        {
+          "id": "D",
+          "text": "disciplina sancionatória."
+        },
+        {
+          "id": "E",
+          "text": "classificação penitenciária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A formação e valorização dos profissionais é um dos três eixos do art. 3º."
+    },
+    {
+      "id": "seap-u104-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A oferta de educação deve resultar de articulação que envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a direção do presídio."
+        },
+        {
+          "id": "B",
+          "text": "apenas o Ministério da Educação."
+        },
+        {
+          "id": "C",
+          "text": "somente Municípios e universidades."
+        },
+        {
+          "id": "D",
+          "text": "órgãos de educação e justiça, gestores penitenciários, Municípios e sociedade civil."
+        },
+        {
+          "id": "E",
+          "text": "apenas organizações voluntárias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A norma constrói uma gestão articulada, não isolada."
+    },
+    {
+      "id": "seap-u104-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto às bibliotecas, a resolução determina que a educação prisional",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se relacione a políticas de leitura."
+        },
+        {
+          "id": "B",
+          "text": "use apenas material digital."
+        },
+        {
+          "id": "C",
+          "text": "restrinja bibliotecas a servidores."
+        },
+        {
+          "id": "D",
+          "text": "dependa de autorização judicial para leitura."
+        },
+        {
+          "id": "E",
+          "text": "seja associada ao fomento à leitura e à implementação ou recuperação de bibliotecas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 3º vincula a oferta ao fomento à leitura e às bibliotecas."
+    },
+    {
+      "id": "seap-u104-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As parcerias previstas no art. 4º podem envolver",
+      "options": [
+        {
+          "id": "A",
+          "text": "outras áreas de governo, universidades e organizações da sociedade civil."
+        },
+        {
+          "id": "B",
+          "text": "somente empresas privadas."
+        },
+        {
+          "id": "C",
+          "text": "apenas o Poder Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente patronatos."
+        },
+        {
+          "id": "E",
+          "text": "somente conselhos penitenciários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º abre a gestão a essas parcerias."
+    },
+    {
+      "id": "seap-u104-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os deveres das autoridades responsáveis pelos estabelecimentos penais está",
+      "options": [
+        {
+          "id": "A",
+          "text": "suspender atividades educacionais quando houver trabalho."
+        },
+        {
+          "id": "B",
+          "text": "propiciar espaços físicos adequados às atividades educacionais."
+        },
+        {
+          "id": "C",
+          "text": "impedir laboratórios."
+        },
+        {
+          "id": "D",
+          "text": "proibir integração da escola à rotina."
+        },
+        {
+          "id": "E",
+          "text": "limitar informação sobre cursos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 5º exige espaço adequado e integração à rotina."
+    },
+    {
+      "id": "seap-u104-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre os egressos, a resolução prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "encerramento automático da trajetória escolar."
+        },
+        {
+          "id": "B",
+          "text": "proibição de articulação externa."
+        },
+        {
+          "id": "C",
+          "text": "estratégias para continuidade de estudos após a saída."
+        },
+        {
+          "id": "D",
+          "text": "somente emissão de certificado prisional."
+        },
+        {
+          "id": "E",
+          "text": "apenas formação profissional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 7º exige estratégias de continuidade para egressos."
+    },
+    {
+      "id": "seap-u104-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O trabalho prisional, na relação com a educação, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre prevalecer sobre o estudo."
+        },
+        {
+          "id": "B",
+          "text": "ser proibido para estudantes."
+        },
+        {
+          "id": "C",
+          "text": "ocorrer apenas aos fins de semana."
+        },
+        {
+          "id": "D",
+          "text": "ser ofertado em horário e condições compatíveis com as atividades educacionais."
+        },
+        {
+          "id": "E",
+          "text": "ser substituído por educação não formal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 8º determina compatibilização entre trabalho e educação."
+    },
+    {
+      "id": "seap-u104-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os programas de formação integrada e continuada alcançam",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas professores."
+        },
+        {
+          "id": "B",
+          "text": "somente diretores."
+        },
+        {
+          "id": "C",
+          "text": "apenas agentes penitenciários."
+        },
+        {
+          "id": "D",
+          "text": "somente técnicos."
+        },
+        {
+          "id": "E",
+          "text": "educadores, gestores, técnicos e agentes penitenciários."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 9º enumera esses grupos."
+    },
+    {
+      "id": "seap-u104-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos educadores, a resolução recomenda que",
+      "options": [
+        {
+          "id": "A",
+          "text": "pertençam preferencialmente aos quadros da Secretaria de Educação."
+        },
+        {
+          "id": "B",
+          "text": "sejam obrigatoriamente terceirizados."
+        },
+        {
+          "id": "C",
+          "text": "sejam exclusivamente policiais penais."
+        },
+        {
+          "id": "D",
+          "text": "não passem por seleção pública."
+        },
+        {
+          "id": "E",
+          "text": "atuem sem vantagens específicas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma usa a ideia de preferência, não exclusividade."
+    },
+    {
+      "id": "seap-u104-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoa presa ou internada pode atuar como monitor educacional quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "for escolhida sem qualquer requisito."
+        },
+        {
+          "id": "B",
+          "text": "tiver perfil e formação adequados, com formação continuada e trabalho remunerado."
+        },
+        {
+          "id": "C",
+          "text": "estiver apenas em regime aberto."
+        },
+        {
+          "id": "D",
+          "text": "não receber remuneração."
+        },
+        {
+          "id": "E",
+          "text": "houver ordem judicial individual obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É a disciplina do art. 9º, § 2º."
+    },
+    {
+      "id": "seap-u104-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O planejamento das ações educacionais pode contemplar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente ensino formal."
+        },
+        {
+          "id": "B",
+          "text": "apenas formação profissional."
+        },
+        {
+          "id": "C",
+          "text": "educação formal, não formal, formação profissional e educação a distância."
+        },
+        {
+          "id": "D",
+          "text": "somente educação a distância."
+        },
+        {
+          "id": "E",
+          "text": "apenas alfabetização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 10 admite esse conjunto de modalidades."
+    },
+    {
+      "id": "seap-u104-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O calendário comum recomendado pela resolução refere-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "a todas as atividades laborais."
+        },
+        {
+          "id": "B",
+          "text": "somente a visitas familiares."
+        },
+        {
+          "id": "C",
+          "text": "apenas à educação não formal."
+        },
+        {
+          "id": "D",
+          "text": "às ações de educação formal nos estabelecimentos penais onde houver oferta."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente ao ensino superior."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O parágrafo único do art. 10 trata da educação formal."
+    },
+    {
+      "id": "seap-u104-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Anexo I da resolução",
+      "options": [
+        {
+          "id": "A",
+          "text": "trata apenas de arquitetura penal."
+        },
+        {
+          "id": "B",
+          "text": "revoga os artigos da própria resolução."
+        },
+        {
+          "id": "C",
+          "text": "é estranho à educação prisional."
+        },
+        {
+          "id": "D",
+          "text": "elimina os três eixos."
+        },
+        {
+          "id": "E",
+          "text": "incorpora proposições do Seminário Nacional pela Educação nas Prisões."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 11 incorpora esse capítulo como Anexo I."
+    },
+    {
+      "id": "seap-u104-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A oferta deve considerar especificidades relacionadas, entre outras, a",
+      "options": [
+        {
+          "id": "A",
+          "text": "inclusão, acessibilidade, gênero, etnia, credo e idade."
+        },
+        {
+          "id": "B",
+          "text": "somente idade."
+        },
+        {
+          "id": "C",
+          "text": "apenas regime disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente nacionalidade."
+        },
+        {
+          "id": "E",
+          "text": "apenas condição econômica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 3º exige atendimento às diferenças relevantes."
+    },
+    {
+      "id": "seap-u104-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A direção do estabelecimento deve, quanto a materiais de interesse educacional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "impedir a circulação entre órgãos."
+        },
+        {
+          "id": "B",
+          "text": "permitir que sejam disponibilizados e socializados."
+        },
+        {
+          "id": "C",
+          "text": "autorizar somente materiais produzidos internamente."
+        },
+        {
+          "id": "D",
+          "text": "exigir publicação em Diário Oficial."
+        },
+        {
+          "id": "E",
+          "text": "limitar o acesso aos gestores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 6º busca circulação de documentos e materiais úteis."
+    },
+    {
+      "id": "seap-u104-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor leitura da relação entre segurança prisional e educação é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a segurança elimina a obrigação educacional."
+        },
+        {
+          "id": "B",
+          "text": "a educação ignora a rotina prisional."
+        },
+        {
+          "id": "C",
+          "text": "as práticas educativas devem ser integradas às rotinas da unidade."
+        },
+        {
+          "id": "D",
+          "text": "a educação só ocorre fora da prisão."
+        },
+        {
+          "id": "E",
+          "text": "qualquer conflito de agenda extingue a oferta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A resolução exige integração das práticas educativas à rotina institucional."
+    }
+  ]
+}
