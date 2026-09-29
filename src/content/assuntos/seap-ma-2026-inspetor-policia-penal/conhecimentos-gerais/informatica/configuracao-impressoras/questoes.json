@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u046-a01",
@@ -334,7 +334,7 @@
     },
     {
       "id": "seap-u046-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual item é uma preferência típica de impressão, quando suportada pelo equipamento e driver?",
       "options": [
@@ -356,7 +356,7 @@
         },
         {
           "id": "E",
-          "text": "Tamanho da memória RAM."
+          "text": "Tamanho da memória <abbr title=\"Random Access Memory, memória de acesso aleatório\">RAM</abbr>."
         }
       ],
       "correctOptionId": "A",
