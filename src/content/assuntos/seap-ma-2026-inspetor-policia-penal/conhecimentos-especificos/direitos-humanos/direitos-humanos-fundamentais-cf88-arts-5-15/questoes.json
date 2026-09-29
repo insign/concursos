@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u087-a01",
@@ -574,7 +574,7 @@
     },
     {
       "id": "seap-u087-a20",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A condenação criminal transitada em julgado",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "é hipótese constitucional de suspensão/perda nos termos do artigo 15 enquanto durarem seus efeitos."
+          "text": "é hipótese constitucional de suspensão dos direitos políticos enquanto durarem os efeitos da condenação."
         },
         {
           "id": "C",
@@ -600,7 +600,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O artigo 15, III, prevê condenação criminal transitada em julgado enquanto durarem seus efeitos."
+      "explanation": "O artigo 15, III, prevê suspensão dos direitos políticos em razão da condenação criminal transitada em julgado enquanto durarem seus efeitos."
     },
     {
       "id": "seap-u087-a21",
