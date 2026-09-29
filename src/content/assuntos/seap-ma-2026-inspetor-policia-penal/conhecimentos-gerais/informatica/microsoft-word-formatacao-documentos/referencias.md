@@ -36,7 +36,7 @@ Fontes reconsultadas em **29 de setembro de 2026**. O material usa como referên
 
 ## Questões anteriores preservadas
 
-As cinco questões anteriores selecionadas do doador mantêm os IDs, revisões, `origin`, alternativas, gabaritos e explicações já auditados no canônico:
+As cinco questões anteriores selecionadas do doador mantêm os IDs, `origin`, enunciados, alternativas e gabaritos já auditados no canônico; somente as explicações receberam microglossário institucional, com revisão 1→2:
 
 - `q3999` — Fundação Getulio Vargas, Tribunal de Justiça do Estado do Amapá, 2024: borda de página;
 - `q4000` — Fundação Getulio Vargas, Tribunal de Justiça do Estado do Amapá, 2024: Pincel de Formatação;
@@ -50,7 +50,7 @@ Os endereços diretos dos cadernos e gabaritos oficiais permanecem nas explicaç
 
 - Unidade: **SEAP-U042**, identidade `seap-u042`, ordem 42, destino local `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-gerais/informatica/microsoft-word-formatacao-documentos/`.
 - Classificação R02: **parcial/local**. Não há `vinculo.json` no destino.
-- Origem canônica auditada, somente leitura: `src/content/biblioteca/competencias-digitais-informatica-aplicada-setor-publico/microsoft-word-documentos/`; blobs C `f80b2953873a0c4dd51f1d1d6e8df986b7f79427`, H `8f9307116291ac235bbd0960729e19eed17a2df8`, Q `5d34ae5eecd4f4c8ec9f385dbba011982320abca`, R `25a7ec2bcd53595de743b484d084a36a4d90a473`. Os consumidores vinculados TCE-MA Analista e TCE-MA Técnico não foram alterados.
+- Origem canônica auditada, somente leitura: `src/content/biblioteca/competencias-digitais-informatica-aplicada-setor-publico/microsoft-word-documentos/`; blobs C `f80b2953873a0c4dd51f1d1d6e8df986b7f79427`, H `8f9307116291ac235bbd0960729e19eed17a2df8`, Q `5d34ae5eecd4f4c8ec9f385dbba011982320abca`, R `25a7ec2bcd53595de743b484d084a36a4d90a473`. Os consumidores vinculados <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> Analista e <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> Técnico não foram alterados.
 - **Aproveitamento:** fonte/parágrafo, bordas/sombreamento, listas/tabulações, seções e configuração de página, cabeçalho/rodapé/paginação, imagens/formas e tabelas.
 - **Cortes deliberados:** edição geral, Área de Transferência, localizar/substituir, autocorreção, estilos/temas/modelos, sumário/notas/referências, mala direta/formulários, revisão/colaboração/proteção, formatos/salvamento/exportação e acessibilidade. Teclas de atalho sistemáticas ficam para SEAP-U045.
-- Q contém **23 questões**: 18 autorais (14 selecionadas do canônico + 4 autorais locais) e 5 anteriores verificadas. As 19 questões copiadas preservam IDs/revisões/`origin`; as quatro novas são `seap-u042-a01`–`a04`. Nenhuma resolução separada é necessária.
+- Q contém **23 questões**: 18 autorais (14 selecionadas do canônico + 4 autorais locais) e 5 anteriores verificadas. As 19 questões copiadas preservam IDs e `origin`; as 14 autorais copiadas mantêm suas revisões e as cinco anteriores passaram de revisão 1→2 apenas pelo microglossário das explicações. `questionSetRevision` passou 1→2. As quatro novas são `seap-u042-a01`–`a04`. Nenhuma resolução separada é necessária.
