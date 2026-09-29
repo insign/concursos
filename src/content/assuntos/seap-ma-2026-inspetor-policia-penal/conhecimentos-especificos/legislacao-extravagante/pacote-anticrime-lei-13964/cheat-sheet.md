@@ -11,7 +11,7 @@ Pergunte: **qual diploma mudou? a regra ainda é atual?**
 | --- | --- |
 | Código Penal | legítima defesa; multa; 40 anos; livramento; perda alargada |
 | <abbr title="Código de Processo Penal">CPP</abbr> | sistema acusatório; juiz das garantias; arquivamento; <abbr title="Acordo de Não Persecução Penal">ANPP</abbr>; cadeia; cautelares |
-| Lei de Execução Penal | perfil genético; RDD; progressão |
+| Lei de Execução Penal | perfil genético; <abbr title="Regime Disciplinar Diferenciado">RDD</abbr>; progressão |
 | Hediondos | ampliação do rol + progressão sai da lei |
 | Lei 9.296 | captação ambiental |
 | Lavagem | ação controlada + infiltração |
