@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u090-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As Regras de Nelson Mandela constituem",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "regras mínimas adotadas pela Assembleia Geral da ONU como padrão internacional de tratamento de reclusos."
+          "text": "regras mínimas adotadas pela Assembleia Geral da <abbr title=\"Organização das Nações Unidas\">ONU</abbr> como padrão internacional de tratamento de reclusos."
         },
         {
           "id": "C",
