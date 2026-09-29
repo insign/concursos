@@ -1379,6 +1379,20 @@ Reserva `seap-765-u081-20260928-batch7`. Classificação **integral/local**; ori
 
 **Auditoria:** frontmatter ordem 81/`seap-u081`; C/H/Q/R relidos na `main`; 20 IDs únicos e todos os `correctOptionId` válidos; sem resíduos PC-MA de identidade/corte/remissões. U081 passa a C/H/Q `done`; R03 = **68/72**. Totais: 72 unidades done, 38 pending; 216 C/H/Q done, 114 pending; 60 visões locais + 12 canônicas.
 
+### SEAP-U081 — publicada em 28/09/2026
+
+Reserva `seap-765-u081-20260928-batch7`. Classificação **integral/local**; origem PC-MA preservada nos blobs C `c10cded5430f4b52a5d262abcc8cd293c8a9939b`, H `48a74b559f154a1f3b6502f952eb6bb4242a76cf`, Q `b8eeec9daa52340664367287c6178cf62fa9a18e` e R `7396164763cb6a1bc4e311b1211f37b5890de675`.
+
+**Revisão:** preservado o fluxo provocação → pressupostos do art. 312 → perigo concreto → admissibilidade do art. 313 → fundamentação → subsidiariedade → revisão/revogação. Identidade, corte e remissões foram reconciliados para SEAP-U076/U080/U082/U083. O inciso V do art. 313, incluído pela Lei nº 15.358/2026, já estava vigente no corte. O inciso VI, incluído pela Lei nº 15.487/2026 em **6/8/2026**, permanece expressamente identificado como alteração pós-corte e não foi convertido em regra cobrável da campanha.
+
+**Questões:** 20 itens, IDs, opções, `origin` e gabaritos preservados; 3 receberam somente microglossário institucional/técnico; `questionSetRevision` 2→3. H recebeu apenas ajuste de corte/remissões.
+
+**Publicação:** `3db2ac915e023abb360c461892c35a0bdcd344c3`. Blobs: C `128150189ac7a500ce8e6d6dabe942128170f629`, H `aa65fcaac4a7f14de78e4ad3ce22d15d96ba935d`, Q `d63ca1e684bcd313989ffc7dad0e55e1b87f5bd9`, R `b2c566817f21f9ddcbf713673c2d909b6d69e2e6`.
+
+**Auditoria:** frontmatter ordem 81/`seap-u081`; C/H/Q/R relidos; 20 IDs únicos e todos os `correctOptionId` válidos; sem resíduos PC-MA de identidade/corte/remissões. U081 passa a C/H/Q `done`; R03 = **68/72**. Totais: 72 unidades done, 38 pending; 216 C/H/Q done, 114 pending; 60 visões locais + 12 canônicas.
+
+**Fechamento do lote de sete:** U061, U076, U077, U078, U079, U080 e U081 estão todas com C/H/Q `done`. No lote: quatro integrais (U061/U077/U080/U081), duas parciais (U076/U079) e uma nova (U078). R03 avançou 64→68/72, R04 1→3/19 e R05 0→1/19. Próxima unidade habilitada pela ordem: U082 — Prisão temporária — Lei 7.960/1989.
+
 ### SEAP-U080 — publicada em 28/09/2026
 
 Reserva `seap-765-u080-20260928-batch7`. Classificação **integral/local**; origem PC-MA preservada nos blobs C `b947c309b5b5b2a3b5b7cf057ea8259d2cda040a`, H `db418ce459684418de4ec3e0732d74f679cfb811`, Q `952f2efe3f272e2689a5ba202078a37d7aaeaf7f` e R `b59a006b45110defa32c77056b51caaad1402c7c`.
