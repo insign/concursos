@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u095-a01",
@@ -214,7 +214,7 @@
     },
     {
       "id": "seap-u095-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O programa de integridade",
       "options": [
@@ -232,7 +232,7 @@
         },
         {
           "id": "D",
-          "text": "substitui o PAR."
+          "text": "substitui o <abbr title=\"Processo Administrativo de Responsabilização\">PAR</abbr>."
         },
         {
           "id": "E",
@@ -244,9 +244,9 @@
     },
     {
       "id": "seap-u095-a09",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A comissão do PAR é composta por",
+      "prompt": "A comissão do <abbr title=\"Processo Administrativo de Responsabilização\">PAR</abbr> é composta por",
       "options": [
         {
           "id": "A",
@@ -266,7 +266,7 @@
         },
         {
           "id": "E",
-          "text": "somente membros do MP."
+          "text": "somente membros do <abbr title=\"Ministério Público\">MP</abbr>."
         }
       ],
       "correctOptionId": "B",
@@ -274,9 +274,9 @@
     },
     {
       "id": "seap-u095-a10",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O prazo legal para a comissão concluir o PAR é de",
+      "prompt": "O prazo legal para a comissão concluir o <abbr title=\"Processo Administrativo de Responsabilização\">PAR</abbr> é de",
       "options": [
         {
           "id": "A",
@@ -304,9 +304,9 @@
     },
     {
       "id": "seap-u095-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A pessoa jurídica tem prazo de defesa no PAR de",
+      "prompt": "A pessoa jurídica tem prazo de defesa no <abbr title=\"Processo Administrativo de Responsabilização\">PAR</abbr> de",
       "options": [
         {
           "id": "A",
@@ -334,9 +334,9 @@
     },
     {
       "id": "seap-u095-a12",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quanto à competência de instauração e julgamento do PAR, a lei",
+      "prompt": "Quanto à competência de instauração e julgamento do <abbr title=\"Processo Administrativo de Responsabilização\">PAR</abbr>, a lei",
       "options": [
         {
           "id": "A",
@@ -352,7 +352,7 @@
         },
         {
           "id": "D",
-          "text": "atribui sempre à CGU."
+          "text": "atribui sempre à <abbr title=\"Controladoria-Geral da União\">CGU</abbr>."
         },
         {
           "id": "E",
@@ -484,9 +484,9 @@
     },
     {
       "id": "seap-u095-a17",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O CNEP reúne, nos termos da lei,",
+      "prompt": "O <abbr title=\"Cadastro Nacional de Empresas Punidas\">CNEP</abbr> reúne, nos termos da lei,",
       "options": [
         {
           "id": "A",
