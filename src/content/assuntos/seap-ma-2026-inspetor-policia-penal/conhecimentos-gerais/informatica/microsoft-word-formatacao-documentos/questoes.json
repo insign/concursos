@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q3959",
@@ -424,7 +424,7 @@
     },
     {
       "id": "q3999",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Um servidor deseja colocar uma moldura ao redor de toda a página no Microsoft Word. Em qual caminho ele encontra o recurso específico para isso?",
       "options": [
@@ -450,11 +450,11 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Bordas da Página é o comando próprio para aplicar moldura ao documento ou à seção; bordas de tabela e formas atingem outros objetos. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 45; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: enunciado condensado, com preservação do núcleo técnico e da ordem das alternativas."
+      "explanation": "Bordas da Página é o comando próprio para aplicar moldura ao documento ou à seção; bordas de tabela e formas atingem outros objetos. Fonte: questão adaptada de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 45; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: enunciado condensado, com preservação do núcleo técnico e da ordem das alternativas."
     },
     {
       "id": "q4000",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Um usuário quer reproduzir em outro trecho a mesma fonte, o mesmo tamanho e o mesmo alinhamento já aplicados a um texto. Qual recurso deve usar?",
       "options": [
@@ -480,11 +480,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O Pincel de Formatação copia propriedades de formatação da origem e as aplica ao destino; ele não copia necessariamente o conteúdo. Fonte: questão adaptada de FGV; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 52; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: cenário e alternativas reescritos sem alterar o recurso cobrado."
+      "explanation": "O Pincel de Formatação copia propriedades de formatação da origem e as aplica ao destino; ele não copia necessariamente o conteúdo. Fonte: questão adaptada de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal de Justiça do Estado do Amapá; Técnico Judiciário — Especialidade Técnico em Informática; 2024; questão 52; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-judiciario-area-apoio-especializado-tecnico-de-informaticatec-jud-ti-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tjap2024_gabarito_definitivo.pdf; adaptação: cenário e alternativas reescritos sem alterar o recurso cobrado."
     },
     {
       "id": "q4003",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Após inserir uma tabela no Word, o usuário precisa definir largura e altura específicas para suas células. Qual guia contextual reúne esses ajustes estruturais?",
       "options": [
@@ -510,11 +510,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Layout da Tabela concentra tamanho, distribuição, inserção, exclusão, mesclagem e outros ajustes estruturais; Design da Tabela trata principalmente da aparência. Fonte: questão adaptada de FGV; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 54; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: terminologia normalizada para a interface atual, com preservação do núcleo e do gabarito do Tipo 1."
+      "explanation": "Layout da Tabela concentra tamanho, distribuição, inserção, exclusão, mesclagem e outros ajustes estruturais; Design da Tabela trata principalmente da aparência. Fonte: questão adaptada de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Ministério Público do Estado do Rio de Janeiro; Técnico do Ministério Público — Área Administrativa; 2025; questão 54; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf; adaptação: terminologia normalizada para a interface atual, com preservação do núcleo e do gabarito do Tipo 1."
     },
     {
       "id": "q4004",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Sobre tabelas no Word 2019, avalie: I. admitem estilos de borda, preenchimento e fontes; II. sua estrutura não pode ser alterada depois da inserção; III. só podem ser inseridas no início do documento. Está correto o que se afirma em",
       "options": [
@@ -540,11 +540,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A proposição I é verdadeira: tabelas admitem formatação visual. As proposições II e III são falsas, pois a estrutura pode ser alterada e a tabela pode ser inserida ou movida em diferentes partes do documento. Fonte: questão adaptada de FGV; Assembleia Legislativa do Estado do Tocantins; Técnico Legislativo — Assistência Administrativa; 2024; questão 22; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-legislativo-assistencia-administrativacnm201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/aleto-2024-gabarito-definitivo-cargos-policial-e-tecnico-legislativo_retif.pdf; adaptação: redação condensada, preservando as proposições e o gabarito do Tipo 1."
+      "explanation": "A proposição I é verdadeira: tabelas admitem formatação visual. As proposições II e III são falsas, pois a estrutura pode ser alterada e a tabela pode ser inserida ou movida em diferentes partes do documento. Fonte: questão adaptada de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Tocantins; Técnico Legislativo — Assistência Administrativa; 2024; questão 22; prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-legislativo-assistencia-administrativacnm201-tipo-1.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/aleto-2024-gabarito-definitivo-cargos-policial-e-tecnico-legislativo_retif.pdf; adaptação: redação condensada, preservando as proposições e o gabarito do Tipo 1."
     },
     {
       "id": "q4008",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "As opções a seguir apresentam características de formatação de parágrafo controladas pelas opções disponíveis na caixa de diálogo Parágrafo no MS Word 365 (BR), à exceção de uma. Assinale-a.",
       "options": [
@@ -570,7 +570,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Efeitos como Sombra ou Contorno pertencem à formatação de texto/fonte, enquanto recuo, alinhamento e espaçamentos são características de parágrafo. Fonte: questão oficial; FGV; Assembleia Legislativa do Estado de Goiás (ALEGO); Analista Legislativo — Analista Administrativo, Tipo 1 Branca, turno tarde; 2026; questão 17; prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf."
+      "explanation": "Efeitos como Sombra ou Contorno pertencem à formatação de texto/fonte, enquanto recuo, alinhamento e espaçamentos são características de parágrafo. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado de Goiás (<abbr title=\"Assembleia Legislativa do Estado de Goiás\">ALEGO</abbr>); Analista Legislativo — Analista Administrativo, Tipo 1 Branca, turno tarde; 2026; questão 17; prova: https://conhecimento.fgv.br/sites/default/files/concursos/analista-legislativo-analista-administrativo-cns201-tipo-1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-ale-go.pdf."
     },
     {
       "id": "seap-u042-a01",
