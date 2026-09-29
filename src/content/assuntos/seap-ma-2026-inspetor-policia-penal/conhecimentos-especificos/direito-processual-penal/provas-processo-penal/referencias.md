@@ -2,7 +2,7 @@
 
 ## Programa e proveniência
 
-- **SEAP/MA; Cebraspe. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 6: provas, espécies e admissibilidade.
+- **Secretaria de Estado de Administração Penitenciária do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal, item 20.2.4, Processo Penal, item 6: provas, espécies e admissibilidade.
 - **Proveniência integral.** Cópia local controlada de `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-processual-penal/prova-processo-penal/`: C `6a9fe615a6974f42a8857bcc791b11548e5876be`, H `183e5583c18c7094a042ad3765f7ae0288a32cff`, Q `34c4ae50213d9d4debea80f8eca40a7437bbd1ae`, R `e48827e9cf9de8db690d1bada25ecf05a5ad1c71`. Destino SEAP: `seap-u084`, ordem 84.
 
 ## Fontes normativas primárias
