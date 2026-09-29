@@ -32,13 +32,13 @@ A liberdade pode vir:
 8. fiança;
 9. monitoração eletrônica.
 
-Artigo 320: proibição de sair do País → entrega do passaporte em **24 h**.
+Artigo 320: proibição de sair do País → entrega do passaporte em **24 horas**.
 
 ## Fiança
 
 **Quem concede**
 - polícia: pena máxima **≤ 4 anos**;
-- demais casos afiançáveis: juiz, em **48 h**.
+- demais casos afiançáveis: juiz, em **48 horas**.
 
 **Valor**
 - pena máxima ≤ 4 anos: **1–100 salários mínimos**;
