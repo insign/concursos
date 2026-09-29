@@ -31,7 +31,7 @@ O programa da <abbr title="Secretaria de Estado de Administração Penitenciári
 
 O <abbr title="Produto Interno Bruto">PIB</abbr> mede o valor dos bens e serviços finais produzidos em determinado território e período, segundo a metodologia das contas nacionais.
 
-No painel do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> consultado em 18 de setembro de 2026, a taxa acumulada do <abbr title="Produto Interno Bruto">PIB</abbr> nos quatro trimestres encerrados no segundo trimestre de 2026 era de **1,9%**.
+No painel do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> reconsultado em 29 de setembro de 2026, a taxa acumulada do <abbr title="Produto Interno Bruto">PIB</abbr> nos quatro trimestres encerrados no segundo trimestre de 2026 era de **1,9%**.
 
 Esse número é útil para discutir ritmo de atividade, mas não é um medidor completo de bem-estar.
 
