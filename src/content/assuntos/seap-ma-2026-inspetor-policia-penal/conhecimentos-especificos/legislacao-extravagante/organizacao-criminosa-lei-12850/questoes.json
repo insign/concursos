@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u139-a01",
@@ -304,9 +304,9 @@
     },
     {
       "id": "u139-a11",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A Lei nº 15.487/2026, para a objetiva da SEAP-MA com corte em 21/07/2026,",
+      "prompt": "A Lei nº 15.487/2026, para a objetiva da <abbr title=\"Secretaria de Estado de Administração Penitenciária do Maranhão\">SEAP-MA</abbr> com corte em 21/07/2026,",
       "options": [
         {
           "id": "A",
