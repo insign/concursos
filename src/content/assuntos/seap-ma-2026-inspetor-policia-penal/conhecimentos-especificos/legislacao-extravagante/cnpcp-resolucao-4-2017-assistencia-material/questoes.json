@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u107-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 4/2017 disciplina principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "parâmetros mínimos de assistência material à pessoa privada de liberdade."
+        },
+        {
+          "id": "B",
+          "text": "saúde mental."
+        },
+        {
+          "id": "C",
+          "text": "educação prisional."
+        },
+        {
+          "id": "D",
+          "text": "monitoração eletrônica."
+        },
+        {
+          "id": "E",
+          "text": "audiência de custódia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o recorte da resolução."
+    },
+    {
+      "id": "seap-u107-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na assistência material, a resolução exige considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o regime penal."
+        },
+        {
+          "id": "B",
+          "text": "especificidades como gênero, saúde e condições concretas."
+        },
+        {
+          "id": "C",
+          "text": "apenas a idade."
+        },
+        {
+          "id": "D",
+          "text": "somente a sentença."
+        },
+        {
+          "id": "E",
+          "text": "apenas a unidade federativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A assistência deve ser adequada às necessidades reais."
+    },
+    {
+      "id": "seap-u107-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roupas pessoais e de cama devem, como regra geral, ser substituídas para higienização em período máximo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias."
+        },
+        {
+          "id": "B",
+          "text": "10 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "30 dias."
+        },
+        {
+          "id": "E",
+          "text": "60 dias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 2º fixa máximo de quinze dias."
+    },
+    {
+      "id": "seap-u107-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cobertores e peças sazonais",
+      "options": [
+        {
+          "id": "A",
+          "text": "seguem troca diária obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "não podem ser substituídos."
+        },
+        {
+          "id": "C",
+          "text": "são excluídos da assistência."
+        },
+        {
+          "id": "D",
+          "text": "podem ser substituídos conforme a necessidade."
+        },
+        {
+          "id": "E",
+          "text": "devem ser descartados a cada 15 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regra considera a natureza e a necessidade dessas peças."
+    },
+    {
+      "id": "seap-u107-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma patologia que exija maior frequência de troca",
+      "options": [
+        {
+          "id": "A",
+          "text": "não altera o fornecimento."
+        },
+        {
+          "id": "B",
+          "text": "retira o direito ao kit."
+        },
+        {
+          "id": "C",
+          "text": "depende de condenação definitiva."
+        },
+        {
+          "id": "D",
+          "text": "só produz efeito após decisão judicial."
+        },
+        {
+          "id": "E",
+          "text": "pode justificar tratamento material diferenciado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 3º permite adaptação por condição de saúde."
+    },
+    {
+      "id": "seap-u107-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mulheres, gestantes, lactantes, bebês e crianças",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem receber assistência compatível com suas necessidades específicas."
+        },
+        {
+          "id": "B",
+          "text": "recebem exatamente o mesmo kit em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "são excluídos do anexo."
+        },
+        {
+          "id": "D",
+          "text": "dependem apenas de doações."
+        },
+        {
+          "id": "E",
+          "text": "não recebem itens de higiene específicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A resolução prevê adequações materiais específicas."
+    },
+    {
+      "id": "seap-u107-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos calçados, a substituição ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cada 15 dias obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "conforme estado de conservação e necessidade."
+        },
+        {
+          "id": "C",
+          "text": "somente na saída."
+        },
+        {
+          "id": "D",
+          "text": "apenas uma vez por ano."
+        },
+        {
+          "id": "E",
+          "text": "nunca durante a custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Calçados não seguem o prazo geral de higienização de roupas."
+    },
+    {
+      "id": "seap-u107-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Colchão, lençóis, toalha e cobertor devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser entregues uma única vez."
+        },
+        {
+          "id": "B",
+          "text": "ser mantidos independentemente do estado."
+        },
+        {
+          "id": "C",
+          "text": "permanecer em condições de higiene e conservação, com substituição quando necessária."
+        },
+        {
+          "id": "D",
+          "text": "ser fornecidos apenas por familiares."
+        },
+        {
+          "id": "E",
+          "text": "ser eliminados do rol de assistência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O dever estatal continua durante a custódia."
+    },
+    {
+      "id": "seap-u107-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A quantidade e as características dos materiais devem considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente clima."
+        },
+        {
+          "id": "B",
+          "text": "apenas gênero."
+        },
+        {
+          "id": "C",
+          "text": "somente patologia."
+        },
+        {
+          "id": "D",
+          "text": "clima, gênero, patologias e situações como gestação/lactação, entre outras."
+        },
+        {
+          "id": "E",
+          "text": "apenas o tempo de pena."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 9º exige adequação a múltiplas condições."
+    },
+    {
+      "id": "seap-u107-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os materiais fornecidos devem observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas custo mínimo."
+        },
+        {
+          "id": "B",
+          "text": "somente preferência da administração."
+        },
+        {
+          "id": "C",
+          "text": "nenhum critério de segurança."
+        },
+        {
+          "id": "D",
+          "text": "apenas estética."
+        },
+        {
+          "id": "E",
+          "text": "segurança das pessoas custodiadas e dos profissionais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A segurança orienta a escolha técnica, sem eliminar o dever assistencial."
+    },
+    {
+      "id": "seap-u107-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre conservação e reposição, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Estado repõe por desgaste/periodicidade/necessidade e a pessoa custodiada deve conservar seus objetos."
+        },
+        {
+          "id": "B",
+          "text": "qualquer dano extingue toda reposição."
+        },
+        {
+          "id": "C",
+          "text": "não existe dever de conservação."
+        },
+        {
+          "id": "D",
+          "text": "o Estado só fornece uma vez."
+        },
+        {
+          "id": "E",
+          "text": "a reposição depende sempre de doação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 11 combina deveres estatais e individuais."
+    },
+    {
+      "id": "seap-u107-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A assistência do Conselho da Comunidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui integralmente o Estado."
+        },
+        {
+          "id": "B",
+          "text": "pode complementar a assistência, sem eximir o Estado."
+        },
+        {
+          "id": "C",
+          "text": "é proibida."
+        },
+        {
+          "id": "D",
+          "text": "só existe para egressos."
+        },
+        {
+          "id": "E",
+          "text": "depende de contrato privado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 12 preserva a obrigação estatal."
+    },
+    {
+      "id": "seap-u107-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o anexo, o sabonete tem periodicidade mínima indicada",
+      "options": [
+        {
+          "id": "A",
+          "text": "mensal."
+        },
+        {
+          "id": "B",
+          "text": "quinzenal."
+        },
+        {
+          "id": "C",
+          "text": "semanal."
+        },
+        {
+          "id": "D",
+          "text": "bimestral."
+        },
+        {
+          "id": "E",
+          "text": "semestral."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O anexo indica sabonete semanal."
+    },
+    {
+      "id": "seap-u107-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O papel higiênico tem periodicidade mínima indicada de",
+      "options": [
+        {
+          "id": "A",
+          "text": "diária."
+        },
+        {
+          "id": "B",
+          "text": "semanal."
+        },
+        {
+          "id": "C",
+          "text": "mensal."
+        },
+        {
+          "id": "D",
+          "text": "quinzenal."
+        },
+        {
+          "id": "E",
+          "text": "semestral."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O anexo indica fornecimento quinzenal."
+    },
+    {
+      "id": "seap-u107-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O anexo indica, para absorventes femininos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 unidade mensal."
+        },
+        {
+          "id": "B",
+          "text": "5 unidades mensais."
+        },
+        {
+          "id": "C",
+          "text": "10 unidades mensais."
+        },
+        {
+          "id": "D",
+          "text": "quantidade sem mínimo."
+        },
+        {
+          "id": "E",
+          "text": "mínimo de 15 unidades por mês."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Esse é o parâmetro indicado no anexo."
+    },
+    {
+      "id": "seap-u107-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor síntese da resolução é",
+      "options": [
+        {
+          "id": "A",
+          "text": "estabelecer um piso material adaptável às necessidades concretas durante toda a custódia."
+        },
+        {
+          "id": "B",
+          "text": "padronizar um kit rígido e imutável."
+        },
+        {
+          "id": "C",
+          "text": "transferir assistência a familiares."
+        },
+        {
+          "id": "D",
+          "text": "limitar material à entrada."
+        },
+        {
+          "id": "E",
+          "text": "substituir a Lei de Execução Penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma combina mínimos, periodicidades e adaptações."
+    },
+    {
+      "id": "seap-u107-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de 15 dias",
+      "options": [
+        {
+          "id": "A",
+          "text": "vale para todos os itens do anexo."
+        },
+        {
+          "id": "B",
+          "text": "refere-se à regra geral de substituição de roupas pessoais e de cama para higienização."
+        },
+        {
+          "id": "C",
+          "text": "é o prazo de validade da resolução."
+        },
+        {
+          "id": "D",
+          "text": "é o prazo para substituir colchão obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "é prazo para libertação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A norma não cria um prazo universal para toda assistência."
+    },
+    {
+      "id": "seap-u107-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A colaboração comunitária e a obrigação estatal",
+      "options": [
+        {
+          "id": "A",
+          "text": "são incompatíveis."
+        },
+        {
+          "id": "B",
+          "text": "significam que o Estado deixa de fornecer."
+        },
+        {
+          "id": "C",
+          "text": "podem coexistir, permanecendo o dever estatal."
+        },
+        {
+          "id": "D",
+          "text": "dependem de exclusividade do Conselho."
+        },
+        {
+          "id": "E",
+          "text": "só valem fora da prisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A colaboração é complementar."
+    }
+  ]
+}
