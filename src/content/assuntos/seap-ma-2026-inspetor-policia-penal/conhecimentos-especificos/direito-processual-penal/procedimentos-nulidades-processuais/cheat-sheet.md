@@ -18,13 +18,13 @@ Júri: procedimento especial.
 - audiência: até **60 dias**;
 - até **8 testemunhas** por lado;
 - interrogatório ao final;
-- alegações: **20 + 10 min**;
+- alegações: **20 + 10 minutos**;
 - memoriais, se cabíveis: **5 dias** por parte.
 
 ### Sumário
 - audiência: até **30 dias**;
 - até **5 testemunhas** por lado;
-- alegações: **20 + 10 min**.
+- alegações: **20 + 10 minutos**.
 
 ### Júri
 Primeira fase: até **90 dias**.
