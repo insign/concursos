@@ -1,4 +1,4 @@
-# PNDH-3 — revisão rápida
+# <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr> — revisão rápida
 
 ## Estrutura
 
@@ -24,11 +24,11 @@ Planos de Ação de Direitos Humanos: **bianuais**.
 
 ## Decreto
 
-- art. 1º → aprova o PNDH-3;
-- art. 2º → eixos/diretrizes;
-- art. 3º → planos **bianuais**;
+- <abbr title="artigo">art.</abbr> 1º → aprova o <abbr title="Programa Nacional de Direitos Humanos">PNDH-3</abbr>;
+- <abbr title="artigo">art.</abbr> 2º → eixos/diretrizes;
+- <abbr title="artigo">art.</abbr> 3º → planos **bianuais**;
 - antigo Comitê → dispositivos revogados pelo Decreto 10.087/2019;
-- art. 5º → outros entes/Poderes/MP são **convidados a aderir**.
+- <abbr title="artigo">art.</abbr> 5º → outros entes/Poderes/<abbr title="Ministério Público">MP</abbr> são **convidados a aderir**.
 
 ## Pegadinhas
 
