@@ -224,7 +224,7 @@ O artigo 15-A foi questionado no <abbr title="Supremo Tribunal Federal">STF</abb
 
 Na revalidação feita em 20 de setembro de 2026, o andamento oficial consultado ainda não mostrava decisão colegiada final. Para a prova, **não trate voto individual como tese vinculante**: o artigo 15-A permanece no texto legal, e eventual desfecho posterior deve ser rechecado no fechamento da campanha.
 
-A prova oral do Cebraspe para atividade notarial de Santa Catarina, em 2022, já cobrou exatamente o conceito e o objetivo desse crime.
+A prova oral do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> para atividade notarial de Santa Catarina, em 2022, já cobrou exatamente o conceito e o objetivo desse crime.
 
 ---
 
