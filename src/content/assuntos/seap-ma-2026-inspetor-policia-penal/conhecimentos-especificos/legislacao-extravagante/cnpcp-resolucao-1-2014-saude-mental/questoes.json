@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u105-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 1/2014 trata principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "do serviço de avaliação e acompanhamento das medidas terapêuticas aplicáveis à pessoa com transtorno mental em conflito com a lei."
+        },
+        {
+          "id": "B",
+          "text": "de assistência material."
+        },
+        {
+          "id": "C",
+          "text": "de educação prisional."
+        },
+        {
+          "id": "D",
+          "text": "de monitoração eletrônica."
+        },
+        {
+          "id": "E",
+          "text": "de alimentação penitenciária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esse é o objeto específico da resolução."
+    },
+    {
+      "id": "seap-u105-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O serviço é composto pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "direção da unidade prisional."
+        },
+        {
+          "id": "B",
+          "text": "<abbr title=\"Equipe de Avaliação e Acompanhamento das Medidas Terapêuticas Aplicáveis à Pessoa com Transtorno Mental em Conflito com a Lei\">EAP</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "defensoria pública."
+        },
+        {
+          "id": "D",
+          "text": "equipe de escolta."
+        },
+        {
+          "id": "E",
+          "text": "ouvidoria penitenciária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 1º, § 1º, atribui o serviço à equipe de avaliação e acompanhamento."
+    },
+    {
+      "id": "seap-u105-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A <abbr title=\"Equipe de Avaliação e Acompanhamento das Medidas Terapêuticas Aplicáveis à Pessoa com Transtorno Mental em Conflito com a Lei\">EAP</abbr> apoia ações e serviços de atenção na",
+      "options": [
+        {
+          "id": "A",
+          "text": "rede educacional."
+        },
+        {
+          "id": "B",
+          "text": "administração tributária."
+        },
+        {
+          "id": "C",
+          "text": "<abbr title=\"Rede de Atenção à Saúde\">RAS</abbr>."
+        },
+        {
+          "id": "D",
+          "text": "polícia judiciária."
+        },
+        {
+          "id": "E",
+          "text": "justiça eleitoral."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A rede de saúde é o espaço assistencial indicado pela resolução."
+    },
+    {
+      "id": "seap-u105-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A equipe também pode contribuir para articulação entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas Poder Judiciário e polícia."
+        },
+        {
+          "id": "B",
+          "text": "somente saúde e educação."
+        },
+        {
+          "id": "C",
+          "text": "apenas sistema penitenciário federal."
+        },
+        {
+          "id": "D",
+          "text": "<abbr title=\"Sistema Único de Assistência Social\">SUAS</abbr> e Sistema de Justiça Criminal."
+        },
+        {
+          "id": "E",
+          "text": "somente Municípios."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O texto prevê contribuição para essa atuação articulada."
+    },
+    {
+      "id": "seap-u105-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Grupo Condutor Estadual da <abbr title=\"Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional\">PNAISP</abbr> deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "julgar a medida de segurança."
+        },
+        {
+          "id": "B",
+          "text": "substituir a equipe clínica."
+        },
+        {
+          "id": "C",
+          "text": "administrar hospitais privados."
+        },
+        {
+          "id": "D",
+          "text": "realizar perícia judicial obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "elaborar estratégia estadual de atenção e contribuir para sua implementação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "É a função do art. 1º, § 2º."
+    },
+    {
+      "id": "seap-u105-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acompanhamento previsto deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "psicossocial, integral, resolutivo e contínuo."
+        },
+        {
+          "id": "B",
+          "text": "somente emergencial."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente custodial."
+        },
+        {
+          "id": "D",
+          "text": "apenas pericial."
+        },
+        {
+          "id": "E",
+          "text": "temporário e sem rede."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a qualificação expressa do art. 2º."
+    },
+    {
+      "id": "seap-u105-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as condições que a justiça criminal deve garantir está",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibição de deslocamento para saúde."
+        },
+        {
+          "id": "B",
+          "text": "transporte sanitário e escolta para atendimento."
+        },
+        {
+          "id": "C",
+          "text": "supressão do prontuário."
+        },
+        {
+          "id": "D",
+          "text": "isolamento do serviço."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de informação clínica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução expressamente prevê transporte e escolta."
+    },
+    {
+      "id": "seap-u105-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A justiça criminal deve garantir acesso",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente ao fórum."
+        },
+        {
+          "id": "B",
+          "text": "apenas aos autos judiciais."
+        },
+        {
+          "id": "C",
+          "text": "às unidades prisionais e estabelecimentos de custódia e tratamento psiquiátrico."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente à residência familiar."
+        },
+        {
+          "id": "E",
+          "text": "somente aos hospitais privados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 2º inclui acesso a esses estabelecimentos."
+    },
+    {
+      "id": "seap-u105-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O cuidado adequado deve observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "protocolo uniforme para todas as pessoas."
+        },
+        {
+          "id": "B",
+          "text": "apenas decisão administrativa."
+        },
+        {
+          "id": "C",
+          "text": "somente diagnóstico psiquiátrico."
+        },
+        {
+          "id": "D",
+          "text": "<abbr title=\"Projetos Terapêuticos Singulares\">PTS</abbr> especificamente elaborados."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente regime prisional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A individualização ocorre por projeto terapêutico singular."
+    },
+    {
+      "id": "seap-u105-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O <abbr title=\"Projeto Terapêutico Singular\">PTS</abbr> serve para",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir a decisão judicial."
+        },
+        {
+          "id": "B",
+          "text": "definir pena criminal."
+        },
+        {
+          "id": "C",
+          "text": "organizar apenas escolta."
+        },
+        {
+          "id": "D",
+          "text": "dispensar acompanhamento."
+        },
+        {
+          "id": "E",
+          "text": "alicerçar a medida de segurança e o processo terapêutico."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Essa é a função indicada no art. 2º, IV."
+    },
+    {
+      "id": "seap-u105-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 1/2014 referencia a Lei nº 10.216/2001 para",
+      "options": [
+        {
+          "id": "A",
+          "text": "redirecionar o modelo de atenção em saúde mental."
+        },
+        {
+          "id": "B",
+          "text": "criar monitoração eletrônica."
+        },
+        {
+          "id": "C",
+          "text": "disciplinar educação a distância."
+        },
+        {
+          "id": "D",
+          "text": "definir vestuário."
+        },
+        {
+          "id": "E",
+          "text": "regular alimentação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 10.216/2001 é base do modelo assistencial em saúde mental."
+    },
+    {
+      "id": "seap-u105-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A <abbr title=\"Rede de Atenção Psicossocial\">RAPS</abbr> aparece no conjunto de atos a observar como",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistema penitenciário paralelo."
+        },
+        {
+          "id": "B",
+          "text": "rede de atenção psicossocial no <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "C",
+          "text": "órgão judicial."
+        },
+        {
+          "id": "D",
+          "text": "serviço de escolta."
+        },
+        {
+          "id": "E",
+          "text": "cadastro criminal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resolução remete à rede de atenção psicossocial."
+    },
+    {
+      "id": "seap-u105-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor distinção entre <abbr title=\"Equipe de Avaliação e Acompanhamento das Medidas Terapêuticas Aplicáveis à Pessoa com Transtorno Mental em Conflito com a Lei\">EAP</abbr> e Grupo Condutor é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos exercem função judicial."
+        },
+        {
+          "id": "B",
+          "text": "ambos são a mesma estrutura."
+        },
+        {
+          "id": "C",
+          "text": "a equipe acompanha/articula; o Grupo Condutor estrutura estratégia estadual."
+        },
+        {
+          "id": "D",
+          "text": "o Grupo Condutor presta atendimento clínico individual."
+        },
+        {
+          "id": "E",
+          "text": "a equipe substitui a Secretaria de Saúde."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As funções são complementares, mas distintas."
+    },
+    {
+      "id": "seap-u105-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A política antimanicomial, na lógica da resolução,",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina qualquer decisão judicial."
+        },
+        {
+          "id": "B",
+          "text": "autoriza custódia sem cuidado."
+        },
+        {
+          "id": "C",
+          "text": "impede atendimento em rede."
+        },
+        {
+          "id": "D",
+          "text": "orienta cuidado em rede sem apagar a competência judicial sobre a medida."
+        },
+        {
+          "id": "E",
+          "text": "transfere a pena à assistência social."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resolução articula justiça e cuidado em rede."
+    },
+    {
+      "id": "seap-u105-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acesso às informações da pessoa acompanhada",
+      "options": [
+        {
+          "id": "A",
+          "text": "é irrelevante para o serviço."
+        },
+        {
+          "id": "B",
+          "text": "é proibido em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "é exclusivo da administração prisional."
+        },
+        {
+          "id": "D",
+          "text": "substitui o atendimento clínico."
+        },
+        {
+          "id": "E",
+          "text": "é uma das condições que devem ser garantidas para o acompanhamento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 2º inclui acesso às informações necessárias."
+    },
+    {
+      "id": "seap-u105-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação à unidade anterior sobre saúde prisional, esta resolução",
+      "options": [
+        {
+          "id": "A",
+          "text": "especializa o cuidado para pessoas com transtorno mental em conflito com a lei e medidas terapêuticas."
+        },
+        {
+          "id": "B",
+          "text": "revoga toda a política de saúde prisional."
+        },
+        {
+          "id": "C",
+          "text": "trata apenas de educação."
+        },
+        {
+          "id": "D",
+          "text": "elimina a rede do <abbr title=\"Sistema Único de Saúde\">SUS</abbr>."
+        },
+        {
+          "id": "E",
+          "text": "substitui a Lei de Execução Penal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O recorte desta resolução é especializado em saúde mental e medida terapêutica."
+    }
+  ]
+}
