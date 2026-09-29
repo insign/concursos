@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u102-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 13.675/2018",
       "options": [
@@ -18,7 +18,7 @@
         },
         {
           "id": "C",
-          "text": "revoga o art. 144 da Constituição."
+          "text": "revoga o <abbr title=\"artigo\">art.</abbr> 144 da Constituição."
         },
         {
           "id": "D",
