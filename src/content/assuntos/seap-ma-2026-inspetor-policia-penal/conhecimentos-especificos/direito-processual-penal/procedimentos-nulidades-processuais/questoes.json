@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u086-a01",
@@ -304,9 +304,9 @@
     },
     {
       "id": "seap-u086-a11",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "À luz da jurisprudência do STJ revalidada em 2026, a alegação de nulidade absoluta",
+      "prompt": "À luz da jurisprudência do <abbr title=\"Superior Tribunal de Justiça\">STJ</abbr> revalidada em 2026, a alegação de nulidade absoluta",
       "options": [
         {
           "id": "A",
@@ -330,7 +330,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O STJ reiterou a exigência de prejuízo efetivo inclusive em alegações de nulidade absoluta."
+      "explanation": "O <abbr title=\"Superior Tribunal de Justiça\">STJ</abbr> reiterou a exigência de prejuízo efetivo inclusive em alegações de nulidade absoluta."
     },
     {
       "id": "seap-u086-a12",
