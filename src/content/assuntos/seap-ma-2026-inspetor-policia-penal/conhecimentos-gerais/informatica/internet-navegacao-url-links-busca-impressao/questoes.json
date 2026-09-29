@@ -34,7 +34,7 @@
     },
     {
       "id": "u022-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual alternativa relaciona corretamente navegador e mecanismo de busca?",
       "options": [
@@ -48,7 +48,7 @@
         },
         {
           "id": "C",
-          "text": "O mecanismo de busca substitui o navegador ao interpretar páginas HTML."
+          "text": "O mecanismo de busca substitui o navegador ao interpretar páginas <abbr title=\"HyperText Markup Language, linguagem de marcação de hipertexto\">HTML</abbr>."
         },
         {
           "id": "D",
@@ -156,7 +156,7 @@
       "id": "u022-a07",
       "revision": 2,
       "origin": "authorial",
-      "prompt": "A presença de <abbr title=\"Hypertext Transfer Protocol Secure, <abbr title=\"Hypertext Transfer Protocol, protocolo de transferência de hipertexto\">HTTP</abbr> protegido por criptografia\">HTTPS</abbr> em uma <abbr title=\"Uniform Resource Locator, localizador uniforme de recursos\">URL</abbr> permite concluir corretamente que:",
+      "prompt": "A presença de <abbr title=\"Hypertext Transfer Protocol Secure, HTTP protegido por criptografia\">HTTPS</abbr> em uma <abbr title=\"Uniform Resource Locator, localizador uniforme de recursos\">URL</abbr> permite concluir corretamente que:",
       "options": [
         {
           "id": "A",
@@ -180,7 +180,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "<abbr title=\"Hypertext Transfer Protocol Secure, <abbr title=\"Hypertext Transfer Protocol, protocolo de transferência de hipertexto\">HTTP</abbr> protegido por criptografia\">HTTPS</abbr> protege o canal de comunicação e autentica a autoridade do servidor conforme a validação do certificado. Isso não certifica a veracidade ou a boa-fé do conteúdo publicado."
+      "explanation": "<abbr title=\"Hypertext Transfer Protocol Secure, HTTP protegido por criptografia\">HTTPS</abbr> protege o canal de comunicação e autentica a autoridade do servidor conforme a validação do certificado. Isso não certifica a veracidade ou a boa-fé do conteúdo publicado."
     },
     {
       "id": "u022-a08",
@@ -382,7 +382,7 @@
         },
         {
           "id": "D",
-          "text": "substitui a criptografia <abbr title=\"Hypertext Transfer Protocol Secure, <abbr title=\"Hypertext Transfer Protocol, protocolo de transferência de hipertexto\">HTTP</abbr> protegido por criptografia\">HTTPS</abbr>."
+          "text": "substitui a criptografia <abbr title=\"Hypertext Transfer Protocol Secure, HTTP protegido por criptografia\">HTTPS</abbr>."
         },
         {
           "id": "E",
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "Ctrl+P é um atalho comum de impressão em navegadores de desktop no Windows, e a saída pode incluir impressora física ou <abbr title=\"Portable Document Format, formato portátil de documento\">PDF</abbr> conforme o ambiente."
+          "text": "<abbr title=\"tecla Control\">Ctrl</abbr>+P é um atalho comum de impressão em navegadores de desktop no Windows, e a saída pode incluir impressora física ou <abbr title=\"Portable Document Format, formato portátil de documento\">PDF</abbr> conforme o ambiente."
         },
         {
           "id": "C",
@@ -420,7 +420,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A impressão trabalha com a representação preparada para saída. Em navegadores de desktop, Ctrl+P é um atalho comum no Windows; opções como <abbr title=\"Portable Document Format, formato portátil de documento\">PDF</abbr> dependem do ambiente."
+      "explanation": "A impressão trabalha com a representação preparada para saída. Em navegadores de desktop, <abbr title=\"tecla Control\">Ctrl</abbr>+P é um atalho comum no Windows; opções como <abbr title=\"Portable Document Format, formato portátil de documento\">PDF</abbr> dependem do ambiente."
     },
     {
       "id": "u022-p02",
@@ -450,7 +450,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Adaptação não literal do item 106 da <abbr title=\"Telecomunicações Brasileiras S.A.\">Telebras</abbr>/<abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr> 2015, cujo gabarito definitivo foi Certo. O item original cobrava o navegador como ferramenta que interpreta documentos web e os apresenta conforme suas características."
+      "explanation": "Adaptação não literal do item 106 da Telebras/<abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr> 2015, cujo gabarito definitivo foi Certo. O item original cobrava o navegador como ferramenta que interpreta documentos web e os apresenta conforme suas características."
     },
     {
       "id": "u022-p03",
@@ -480,7 +480,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Adaptação não literal do item 108 da <abbr title=\"Telecomunicações Brasileiras S.A.\">Telebras</abbr>/<abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr> 2015, cujo gabarito definitivo foi Errado. A assertiva original exagerava ao tratar os resultados como todo o conteúdo publicado na Internet e negar filtragem temporal."
+      "explanation": "Adaptação não literal do item 108 da Telebras/<abbr title=\"Centro de Seleção e de Promoção de Eventos\">CESPE</abbr> 2015, cujo gabarito definitivo foi Errado. A assertiva original exagerava ao tratar os resultados como todo o conteúdo publicado na Internet e negar filtragem temporal."
     }
   ]
 }
