@@ -2,7 +2,7 @@
 
 ## Programa e corte
 
-1. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal; Direito Processual Penal, item 5: prisões — flagrante, preventiva e temporária; liberdade provisória. Esta unidade recorta a prisão preventiva.  
+1. **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> — Inspetor e Monitor, de 21 de julho de 2026.** Cargo 1 — Inspetor de Polícia Penal; Direito Processual Penal, item 5: prisões — prisão em flagrante, preventiva e temporária; liberdade provisória. Esta unidade recorta a prisão preventiva.  
    https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf
 
 ## Fontes normativas primárias
@@ -44,6 +44,6 @@
 - Unidade **SEAP-U081**, identidade `seap-u081`, ordem 81; classificação SEAP-R02: **integral/local**.
 - Origem física PC-MA preservada: `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-processual-penal/prisao-preventiva/`; blobs C `c10cded5430f4b52a5d262abcc8cd293c8a9939b`, H `48a74b559f154a1f3b6502f952eb6bb4242a76cf`, Q `b8eeec9daa52340664367287c6178cf62fa9a18e`, R `7396164763cb6a1bc4e311b1211f37b5890de675`.
 - Destino: `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-processual-penal/prisao-preventiva/`.
-- Recorte principal: arts. 311 a 316 do <abbr title="Código de Processo Penal">CPP</abbr>; art. 282, § 6º, usado apenas como ponte para subsidiariedade. SEAP-U080 cobre flagrante/audiência; SEAP-U082 prisão temporária; SEAP-U083 liberdade provisória e cautelares diversas.
-- C preserva a arquitetura pedagógica do doador e reconcilia identidade, corte e remissões. H muda apenas o marco do corte. Q mantém 20 itens, IDs, opções, `origin` e gabaritos; 3 itens receberam apenas microglossário.
-- Corte legislativo: **21/7/2026**. O inciso V do art. 313, incluído pela Lei 15.358/2026, integra o corte. O inciso VI, incluído pela Lei 15.487/2026 em 6/8/2026, permanece **posterior** ao corte e não é ensinado como regra cobrável. Entre 13/7 e 21/7/2026 não foi identificada alteração material dos arts. 311–316. Consulta/revalidação: **28/9/2026**; janela jurisprudencial final até 13/11/2026 em SEAP-F03.
+- Recorte principal: arts. 311 a 316 do <abbr title="Código de Processo Penal">CPP</abbr>; art. 282, § 6º, somente como ponte para subsidiariedade. SEAP-U080 trata do flagrante/audiência; SEAP-U082 da temporária; SEAP-U083 de liberdade provisória e cautelares diversas.
+- C preserva a arquitetura pedagógica do doador e reconcilia identidade, corte e remissões. H recebeu apenas o ajuste de corte/remissões. Q mantém 20 itens, IDs, opções, `origin` e gabaritos; 3 itens receberam somente microglossário.
+- Corte legislativo: **21/7/2026**. O inciso V do art. 313, incluído pela Lei 15.358/2026, integra o corte. O inciso VI, incluído pela Lei 15.487/2026 em 6/8/2026, é posterior ao edital e permanece documentado apenas como alteração pós-corte, não como regra cobrável desta campanha. Consulta/revalidação: **28/9/2026**. Janela jurisprudencial final até 13/11/2026 permanece em SEAP-F03.
