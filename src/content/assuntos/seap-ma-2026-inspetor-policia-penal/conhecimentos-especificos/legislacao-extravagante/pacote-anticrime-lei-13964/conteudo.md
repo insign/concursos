@@ -255,7 +255,7 @@ Faça sempre:
 
 # Pegadinhas finais
 
-- Pacote Anticrime ≠ diploma autônomo que substitui CP/CPP/LEP.
+- Pacote Anticrime ≠ diploma autônomo que substitui CP/<abbr title="Código de Processo Penal">CPP</abbr>/<abbr title="Lei de Execução Penal">LEP</abbr>.
 - Juiz das garantias ≠ tema resolvido apenas pela literalidade de 2019.
 - <abbr title="Acordo de Não Persecução Penal">ANPP</abbr> exige pena **mínima** inferior a 4 anos.
 - Cadeia de custódia ≠ só prova digital.
