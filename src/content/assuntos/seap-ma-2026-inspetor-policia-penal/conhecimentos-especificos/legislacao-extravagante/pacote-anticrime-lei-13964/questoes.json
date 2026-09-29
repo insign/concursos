@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "seap-u097-a01",
@@ -124,7 +124,7 @@
     },
     {
       "id": "seap-u097-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre o juiz das garantias, é correto afirmar que",
       "options": [
@@ -134,7 +134,7 @@
         },
         {
           "id": "B",
-          "text": "teve origem na Lei 13.964/2019 e foi considerado constitucional e obrigatório pelo STF, com ajustes interpretativos."
+          "text": "teve origem na Lei 13.964/2019 e foi considerado constitucional e obrigatório pelo <abbr title=\"Supremo Tribunal Federal\">STF</abbr>, com ajustes interpretativos."
         },
         {
           "id": "C",
@@ -150,7 +150,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O STF julgou o modelo constitucional e de implementação obrigatória, com interpretações conformes."
+      "explanation": "O <abbr title=\"Supremo Tribunal Federal\">STF</abbr> julgou o modelo constitucional e de implementação obrigatória, com interpretações conformes."
     },
     {
       "id": "seap-u097-a06",
@@ -214,9 +214,9 @@
     },
     {
       "id": "seap-u097-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A cadeia de custódia inserida no CPP pela Lei 13.964/2019",
+      "prompt": "A cadeia de custódia inserida no <abbr title=\"Código de Processo Penal\">CPP</abbr> pela Lei 13.964/2019",
       "options": [
         {
           "id": "A",
@@ -394,7 +394,7 @@
     },
     {
       "id": "seap-u097-a14",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A disciplina atual de progressão de regime deve ser conferida",
       "options": [
@@ -420,7 +420,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O Pacote foi ponto de reforma, mas a regra atual deve ser lida na LEP vigente."
+      "explanation": "O Pacote foi ponto de reforma, mas a regra atual deve ser lida na <abbr title=\"Lei de Execução Penal\">LEP</abbr> vigente."
     },
     {
       "id": "seap-u097-a15",
@@ -544,7 +544,7 @@
     },
     {
       "id": "seap-u097-a19",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei 13.964/2019 entrou em vigor",
       "options": [
@@ -566,7 +566,7 @@
         },
         {
           "id": "E",
-          "text": "somente após decisão do STF."
+          "text": "somente após decisão do <abbr title=\"Supremo Tribunal Federal\">STF</abbr>."
         }
       ],
       "correctOptionId": "B",
