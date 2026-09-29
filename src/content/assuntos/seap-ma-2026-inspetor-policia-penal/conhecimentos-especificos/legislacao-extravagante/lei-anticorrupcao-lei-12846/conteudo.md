@@ -134,7 +134,7 @@ Na sanção administrativa, considere fatores como:
 
 Programa de integridade não é “imunidade”: é fator relevante de avaliação.
 
-## 9. PAR — Processo Administrativo de Responsabilização
+## 9. <abbr title="Processo Administrativo de Responsabilização">PAR</abbr> — Processo Administrativo de Responsabilização
 
 A instauração e o julgamento cabem, em regra, à autoridade máxima do órgão ou entidade, de ofício ou por provocação, com contraditório e ampla defesa.
 
@@ -229,7 +229,7 @@ O artigo 19 admite, entre outras sanções judiciais:
 
 As sanções podem ser isoladas ou cumulativas.
 
-## 14. CNEP, CEIS e publicidade
+## 14. <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr> e publicidade
 
 A lei trabalha com cadastros públicos.
 
@@ -263,8 +263,8 @@ A mesma situação pode envolver regimes distintos, mas isso não autoriza dupli
 | multa por faturamento | **0,1%–20%** |
 | multa sem faturamento utilizável | **R$ 6 mil–R$ 60 milhões** |
 | edital da publicação extraordinária | mínimo **30 dias** |
-| comissão do PAR | **2+ servidores estáveis** |
-| conclusão do PAR | **180 dias**, prorrogável |
+| comissão do <abbr title="Processo Administrativo de Responsabilização">PAR</abbr> | **2+ servidores estáveis** |
+| conclusão do <abbr title="Processo Administrativo de Responsabilização">PAR</abbr> | **180 dias**, prorrogável |
 | defesa | **30 dias** |
 | redução da multa por leniência | até **2/3** |
 | novo acordo após descumprimento | impedimento por **3 anos** |
@@ -277,7 +277,7 @@ A mesma situação pode envolver regimes distintos, mas isso não autoriza dupli
 - dirigente: culpabilidade individual;
 - leniência ≠ perdão do dano;
 - integridade ≠ imunidade;
-- PAR: 2+ estáveis, 180 dias, defesa 30 dias;
+- <abbr title="Processo Administrativo de Responsabilização">PAR</abbr>: 2+ estáveis, 180 dias, defesa 30 dias;
 - multa administrativa ≠ sanções judiciais;
 - <abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr> ≠ <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr>;
 - a lei também alcança administração pública estrangeira;
