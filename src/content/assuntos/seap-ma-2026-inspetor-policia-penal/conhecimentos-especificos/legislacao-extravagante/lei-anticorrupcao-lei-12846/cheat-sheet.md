@@ -21,7 +21,7 @@ Pessoa natural → responsabilidade conforme culpabilidade.
 - publicação extraordinária;
 - reparação integral continua devida.
 
-## PAR
+## <abbr title="Processo Administrativo de Responsabilização">PAR</abbr>
 
 - autoridade máxima;
 - delegação possível, **subdelegação vedada**;
@@ -39,7 +39,7 @@ Pessoa natural → responsabilidade conforme culpabilidade.
 
 Efeitos:
 - sem publicação extraordinária;
-- sem art. 19, IV;
+- sem <abbr title="artigo">art.</abbr> 19, IV;
 - multa ↓ até **2/3**;
 - dano continua integral;
 - descumpriu → **3 anos** sem novo acordo.
