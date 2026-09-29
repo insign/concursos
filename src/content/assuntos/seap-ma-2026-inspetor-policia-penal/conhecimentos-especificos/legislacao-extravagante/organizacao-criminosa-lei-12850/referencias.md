@@ -18,10 +18,10 @@
 
 ## Jurisprudência primária
 
-4. **Supremo Tribunal Federal. ADI 5.508.** Legitimidade do delegado para celebrar colaboração premiada na fase de inquérito.  
+4. **Supremo Tribunal Federal. <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.508.** Legitimidade do delegado para celebrar colaboração premiada na fase de inquérito.  
    https://portal.stf.jus.br/processos/detalhe.asp?incidente=4780336
 
-5. **Supremo Tribunal Federal. ADI 5.567.** Controle dos §§ 1º, 6º e 7º do artigo 2º e interpretação conforme sobre o direito ao silêncio na colaboração.  
+5. **Supremo Tribunal Federal. <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.567.** Controle dos §§ 1º, 6º e 7º do artigo 2º e interpretação conforme sobre o direito ao silêncio na colaboração.  
    https://portal.stf.jus.br/processos/detalhe.asp?incidente=4980701
 
 6. **Supremo Tribunal Federal. Tema 1.441 — RE 1.490.568.** Na consulta de 29/9/2026, havia repercussão geral reconhecida e movimentação mais recente em 22/9/2026, sem tese final de mérito publicada.  
