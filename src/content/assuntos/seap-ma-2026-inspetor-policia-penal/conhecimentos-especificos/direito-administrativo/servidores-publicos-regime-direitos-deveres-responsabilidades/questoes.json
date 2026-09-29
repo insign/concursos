@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u053-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Regime jurídico do servidor público é, em sentido funcional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o conjunto de normas que disciplina o vínculo, incluindo ingresso, direitos, deveres, proibições, responsabilidades e formas de apuração."
+        },
+        {
+          "id": "B",
+          "text": "um sinônimo obrigatório de Lei nº 8.112/1990 para todos os entes."
+        },
+        {
+          "id": "C",
+          "text": "apenas o conjunto de regras previdenciárias."
+        },
+        {
+          "id": "D",
+          "text": "somente a disciplina de concursos públicos."
+        },
+        {
+          "id": "E",
+          "text": "um contrato privado entre o agente e a chefia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O regime jurídico organiza o vínculo funcional. A fonte concreta varia conforme ente, vínculo e carreira."
+    },
+    {
+      "id": "u053-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a Lei nº 8.112/1990, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rege automaticamente todos os servidores estaduais e municipais."
+        },
+        {
+          "id": "B",
+          "text": "É estatuto federal e não deve ser tratada como regime nacional de todos os servidores."
+        },
+        {
+          "id": "C",
+          "text": "Substitui qualquer lei estadual de carreira."
+        },
+        {
+          "id": "D",
+          "text": "Aplica-se apenas a empregados de empresas públicas."
+        },
+        {
+          "id": "E",
+          "text": "Elimina a incidência da Constituição sobre servidores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 8.112/1990 disciplina o regime federal indicado em seu âmbito; não é estatuto nacional de todos os agentes públicos."
+    },
+    {
+      "id": "u053-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A estabilidade constitucional do servidor nomeado para cargo efetivo pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o decurso de dois anos após a posse."
+        },
+        {
+          "id": "B",
+          "text": "cargo efetivo, concurso público, três anos de efetivo exercício e avaliação especial de desempenho."
+        },
+        {
+          "id": "C",
+          "text": "cargo em comissão e avaliação anual."
+        },
+        {
+          "id": "D",
+          "text": "qualquer vínculo com a Administração por três anos."
+        },
+        {
+          "id": "E",
+          "text": "somente aprovação em concurso, independentemente de exercício."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 41 da Constituição combina cargo efetivo, concurso, três anos de efetivo exercício e avaliação especial."
+    },
+    {
+      "id": "u053-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação exemplifica melhor um dever funcional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar veículo público em atividade particular."
+        },
+        {
+          "id": "B",
+          "text": "Receber vantagem de interessado em razão do cargo."
+        },
+        {
+          "id": "C",
+          "text": "Zelar pela conservação do patrimônio público."
+        },
+        {
+          "id": "D",
+          "text": "Manter acumulação proibida de cargos."
+        },
+        {
+          "id": "E",
+          "text": "Retirar documento sem autorização quando o regime proíbe a conduta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dever impõe conduta positiva. Zelo e conservação do patrimônio aparecem como deveres nos regimes comparados."
+    },
+    {
+      "id": "u053-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual situação exemplifica melhor uma proibição funcional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tratar o público com urbanidade."
+        },
+        {
+          "id": "B",
+          "text": "Observar as normas aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "Comunicar irregularidade pelos canais competentes."
+        },
+        {
+          "id": "D",
+          "text": "Valer-se do cargo para obter vantagem pessoal indevida."
+        },
+        {
+          "id": "E",
+          "text": "Conservar o patrimônio público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Proibição veda comportamento. Usar a função para vantagem privada indevida é núcleo disciplinar recorrente."
+    },
+    {
+      "id": "u053-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao dever de obediência hierárquica, a formulação mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda ordem superior deve ser cumprida, ainda que manifestamente ilegal."
+        },
+        {
+          "id": "B",
+          "text": "a hierarquia elimina a responsabilidade individual do servidor."
+        },
+        {
+          "id": "C",
+          "text": "a discordância pessoal autoriza descumprir qualquer ordem."
+        },
+        {
+          "id": "D",
+          "text": "o dever de obediência funcional encontra limite na ilegalidade manifesta da ordem."
+        },
+        {
+          "id": "E",
+          "text": "somente ordens escritas podem ser legítimas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Hierarquia não autoriza cumprir ordem manifestamente ilegal; ao mesmo tempo, mera discordância pessoal não desfaz o dever funcional."
+    },
+    {
+      "id": "u053-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se uma questão apresenta prazo de licença sem identificar o estatuto aplicável, o procedimento mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir sempre a Lei nº 8.112/1990."
+        },
+        {
+          "id": "B",
+          "text": "presumir sempre a Lei nº 6.107/1994."
+        },
+        {
+          "id": "C",
+          "text": "identificar primeiro o regime ou a lei indicada, pois prazos e requisitos podem variar."
+        },
+        {
+          "id": "D",
+          "text": "usar o prazo mais longo entre todos os estatutos."
+        },
+        {
+          "id": "E",
+          "text": "considerar que toda licença possui o mesmo prazo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Prazos, requisitos e efeitos de direitos funcionais dependem da fonte normativa aplicável."
+    },
+    {
+      "id": "u053-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre acumulação remunerada de vínculos públicos, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estatuto local pode criar livremente novas exceções à Constituição."
+        },
+        {
+          "id": "B",
+          "text": "a regra é a vedação, com exceções constitucionais e exigência de compatibilidade de horários."
+        },
+        {
+          "id": "C",
+          "text": "qualquer cargo em comissão pode ser acumulado com cargo efetivo."
+        },
+        {
+          "id": "D",
+          "text": "a compatibilidade de horários é irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "a regra constitucional só alcança a União."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As exceções vêm da Constituição e exigem, entre outros requisitos, compatibilidade de horários."
+    },
+    {
+      "id": "u053-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mesma conduta funcional pode gerar responsabilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente administrativa."
+        },
+        {
+          "id": "B",
+          "text": "somente penal, se houver crime."
+        },
+        {
+          "id": "C",
+          "text": "administrativa, civil e penal, conforme os pressupostos de cada esfera."
+        },
+        {
+          "id": "D",
+          "text": "civil ou penal, nunca administrativa."
+        },
+        {
+          "id": "E",
+          "text": "apenas civil quando houver prejuízo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As esferas possuem fundamentos próprios e podem coexistir quando os respectivos pressupostos estiverem presentes."
+    },
+    {
+      "id": "u053-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A independência entre as esferas administrativa, civil e penal significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "jamais existe comunicação entre decisões de uma esfera e outra."
+        },
+        {
+          "id": "B",
+          "text": "cada esfera possui fundamento próprio, embora o ordenamento possa prever repercussões entre elas."
+        },
+        {
+          "id": "C",
+          "text": "a decisão administrativa sempre vincula o juízo penal."
+        },
+        {
+          "id": "D",
+          "text": "a absolvição penal sempre apaga qualquer efeito funcional, qualquer que seja o fundamento."
+        },
+        {
+          "id": "E",
+          "text": "a responsabilidade civil depende sempre de condenação penal prévia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Independência não significa isolamento absoluto; a lei pode prever efeitos de uma decisão sobre outra esfera."
+    },
+    {
+      "id": "u053-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a absolvição penal reconhece a inexistência do fato ou a negativa de autoria, a conclusão adequada é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "esse fundamento pode repercutir na responsabilidade administrativa conforme o regime aplicável."
+        },
+        {
+          "id": "B",
+          "text": "a Administração deve ignorar necessariamente a decisão judicial."
+        },
+        {
+          "id": "C",
+          "text": "a condenação administrativa torna-se automaticamente penal."
+        },
+        {
+          "id": "D",
+          "text": "não existe qualquer efeito possível entre as esferas."
+        },
+        {
+          "id": "E",
+          "text": "a decisão só interessa à esfera civil privada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os estatutos comparados reconhecem repercussão quando o juízo penal afasta o próprio fato ou a autoria."
+    },
+    {
+      "id": "u053-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O exercício do poder disciplinar pela Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza aplicação imediata de sanção sem defesa."
+        },
+        {
+          "id": "B",
+          "text": "afasta a necessidade de motivação."
+        },
+        {
+          "id": "C",
+          "text": "deve respeitar competência, procedimento, contraditório e ampla defesa."
+        },
+        {
+          "id": "D",
+          "text": "transforma toda irregularidade em crime."
+        },
+        {
+          "id": "E",
+          "text": "dispensa apuração quando a chefia conhece o servidor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Poder disciplinar é poder jurídico, não liberdade punitiva; a apuração sancionadora exige garantias procedimentais."
+    },
+    {
+      "id": "u053-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito de <abbr title=\"Processo administrativo disciplinar\">PAD</abbr>, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os prazos e fases são necessariamente idênticos em todos os estatutos."
+        },
+        {
+          "id": "B",
+          "text": "o nome do procedimento autoriza copiar a Lei nº 8.112/1990 para qualquer ente."
+        },
+        {
+          "id": "C",
+          "text": "o regime aplicável deve ser identificado antes de usar prazos, composição de comissão ou penalidades."
+        },
+        {
+          "id": "D",
+          "text": "a Constituição fixa todos os seus prazos em dias."
+        },
+        {
+          "id": "E",
+          "text": "a ampla defesa é facultativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O mesmo rótulo procedimental pode receber disciplina distinta em estatutos diferentes."
+    },
+    {
+      "id": "u053-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Súmula Vinculante nº 5 do <abbr title=\"Supremo Tribunal Federal\">STF</abbr> significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o servidor não tem direito de defesa em processo disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "a presença de advogado é proibida."
+        },
+        {
+          "id": "C",
+          "text": "a falta de defesa técnica por advogado não gera, por si só, nulidade do <abbr title=\"Processo administrativo disciplinar\">PAD</abbr>, sem eliminar contraditório e ampla defesa."
+        },
+        {
+          "id": "D",
+          "text": "todo processo disciplinar sem advogado deve ser convertido em processo judicial."
+        },
+        {
+          "id": "E",
+          "text": "a Administração pode ocultar a acusação do servidor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A súmula afasta nulidade automática pela falta de advogado, mas não elimina o direito de defesa."
+    },
+    {
+      "id": "u053-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Maranhão, a relação entre o regime geral estadual e uma lei especial da carreira deve ser analisada de modo que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lei geral sempre revogue a especial."
+        },
+        {
+          "id": "B",
+          "text": "a lei especial válida seja aplicada no campo específico que disciplina, sem transportar regras incompatíveis de outro regime."
+        },
+        {
+          "id": "C",
+          "text": "a Lei nº 8.112/1990 prevaleça automaticamente sobre ambas."
+        },
+        {
+          "id": "D",
+          "text": "as regras de carreira sejam ignoradas."
+        },
+        {
+          "id": "E",
+          "text": "toda diferença seja resolvida pelo prazo mais favorável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A identificação do campo da norma especial vem antes da aplicação subsidiária ou geral."
+    },
+    {
+      "id": "u053-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei estadual nº 6.107/1994 é relevante para o estudo porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "constitui o regime geral dos servidores civis do Maranhão, sem transformar toda a sua literalidade em objeto expresso do item do edital."
+        },
+        {
+          "id": "B",
+          "text": "é a Constituição do Estado."
+        },
+        {
+          "id": "C",
+          "text": "é lei federal aplicável a todos os entes."
+        },
+        {
+          "id": "D",
+          "text": "substitui a Lei nº 11.342/2020 em qualquer matéria da Polícia Penal."
+        },
+        {
+          "id": "E",
+          "text": "regula exclusivamente empregados de empresas públicas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O diploma estadual fornece contexto normativo real, mas a matriz da SEAP exige não importar automaticamente seus prazos e listas para um item que não o nomeia."
+    },
+    {
+      "id": "u053-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes de resolver questão sobre direito, dever ou penalidade de servidor, o candidato deve primeiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "procurar o maior prazo mencionado nas alternativas."
+        },
+        {
+          "id": "B",
+          "text": "identificar vínculo, fonte normativa e eventual regra especial."
+        },
+        {
+          "id": "C",
+          "text": "aplicar sempre a lei federal."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a Constituição se houver estatuto."
+        },
+        {
+          "id": "E",
+          "text": "presumir que todo servidor é ocupante de cargo efetivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Identificar a fonte evita misturar Constituição, estatuto geral, lei de carreira e regime de outro ente."
+    },
+    {
+      "id": "u100-p02",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal do item 14 do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr> para o <abbr title=\"Superior Tribunal Militar\">STM</abbr> em 2025, um servidor, regularmente intimado em <abbr title=\"Processo administrativo disciplinar\">PAD</abbr>, apresentou autodefesa sem advogado constituído. À luz da Súmula Vinculante nº 5 do <abbr title=\"Supremo Tribunal Federal\">STF</abbr>,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a defesa escrita do servidor é proibida."
+        },
+        {
+          "id": "B",
+          "text": "todo <abbr title=\"Processo administrativo disciplinar\">PAD</abbr> é nulo se não houver advogado, ainda que haja ampla defesa."
+        },
+        {
+          "id": "C",
+          "text": "o processo deve ser convertido em processo judicial."
+        },
+        {
+          "id": "D",
+          "text": "a Administração deve absolver automaticamente o servidor."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de defesa técnica por advogado não causa, por si só, nulidade do processo administrativo disciplinar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O item original foi julgado Certo no gabarito definitivo. A Súmula Vinculante nº 5 afasta nulidade automática por falta de defesa técnica, sem eliminar contraditório e ampla defesa."
+    }
+  ]
+}
