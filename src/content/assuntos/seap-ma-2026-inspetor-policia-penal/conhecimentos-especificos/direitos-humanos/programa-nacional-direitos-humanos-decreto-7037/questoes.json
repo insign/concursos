@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "seap-u088-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O PNDH-3 é estruturado, no Decreto nº 7.037/2009, em",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 eixos e 25 diretrizes."
+        },
+        {
+          "id": "B",
+          "text": "25 eixos e 6 diretrizes."
+        },
+        {
+          "id": "C",
+          "text": "5 eixos e 20 diretrizes."
+        },
+        {
+          "id": "D",
+          "text": "6 eixos e 6 diretrizes."
+        },
+        {
+          "id": "E",
+          "text": "25 eixos e 25 diretrizes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 2º organiza seis eixos orientadores e vinte e cinco diretrizes."
+    },
+    {
+      "id": "seap-u088-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os Planos de Ação de Direitos Humanos previstos no artigo 3º são",
+      "options": [
+        {
+          "id": "A",
+          "text": "anuais."
+        },
+        {
+          "id": "B",
+          "text": "bianuais."
+        },
+        {
+          "id": "C",
+          "text": "trienais."
+        },
+        {
+          "id": "D",
+          "text": "quadrienais."
+        },
+        {
+          "id": "E",
+          "text": "decenais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Metas, prazos e recursos devem ser definidos e aprovados em planos bianuais."
+    },
+    {
+      "id": "seap-u088-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 16 do PNDH-3 pertence ao eixo",
+      "options": [
+        {
+          "id": "A",
+          "text": "I."
+        },
+        {
+          "id": "B",
+          "text": "II."
+        },
+        {
+          "id": "C",
+          "text": "III."
+        },
+        {
+          "id": "D",
+          "text": "IV."
+        },
+        {
+          "id": "E",
+          "text": "VI."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Diretriz 16 integra o Eixo IV — Segurança Pública, Acesso à Justiça e Combate à Violência."
+    },
+    {
+      "id": "seap-u088-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 16 trata principalmente de",
+      "options": [
+        {
+          "id": "A",
+          "text": "memória histórica."
+        },
+        {
+          "id": "B",
+          "text": "modernização da política de execução penal e melhoria do sistema penitenciário."
+        },
+        {
+          "id": "C",
+          "text": "educação superior."
+        },
+        {
+          "id": "D",
+          "text": "direito ambiental."
+        },
+        {
+          "id": "E",
+          "text": "comunicação democrática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a formulação central da Diretriz 16."
+    },
+    {
+      "id": "seap-u088-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Eixo VI do PNDH-3 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desenvolvimento e Direitos Humanos."
+        },
+        {
+          "id": "B",
+          "text": "Educação e Cultura."
+        },
+        {
+          "id": "C",
+          "text": "Direito à Memória e à Verdade."
+        },
+        {
+          "id": "D",
+          "text": "Interação democrática."
+        },
+        {
+          "id": "E",
+          "text": "Universalização de direitos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sexto eixo é Direito à Memória e à Verdade."
+    },
+    {
+      "id": "seap-u088-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 21 refere-se à",
+      "options": [
+        {
+          "id": "A",
+          "text": "execução penal."
+        },
+        {
+          "id": "B",
+          "text": "educação em direitos humanos no serviço público."
+        },
+        {
+          "id": "C",
+          "text": "memória histórica."
+        },
+        {
+          "id": "D",
+          "text": "proteção ambiental."
+        },
+        {
+          "id": "E",
+          "text": "participação sindical."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Diretriz 21 promove educação em direitos humanos no serviço público."
+    },
+    {
+      "id": "seap-u088-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 14 enfatiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "combate à violência institucional, tortura e letalidade policial e carcerária."
+        },
+        {
+          "id": "B",
+          "text": "desenvolvimento tecnológico."
+        },
+        {
+          "id": "C",
+          "text": "direitos autorais."
+        },
+        {
+          "id": "D",
+          "text": "política externa comercial."
+        },
+        {
+          "id": "E",
+          "text": "controle tributário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Diretriz 14 está no Eixo IV e trata do combate à violência institucional."
+    },
+    {
+      "id": "seap-u088-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O antigo Comitê de Acompanhamento e Monitoramento previsto originalmente no Decreto 7.037/2009",
+      "options": [
+        {
+          "id": "A",
+          "text": "continua integralmente instituído pelos mesmos dispositivos."
+        },
+        {
+          "id": "B",
+          "text": "teve suas disposições instituidoras revogadas pelo Decreto 10.087/2019."
+        },
+        {
+          "id": "C",
+          "text": "foi elevado a ministério."
+        },
+        {
+          "id": "D",
+          "text": "passou a integrar o Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "foi criado em 2026."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O texto consolidado registra a revogação dessas disposições em 2019."
+    },
+    {
+      "id": "seap-u088-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 5º do Decreto 7.037/2009 prevê que Estados, DF, Municípios e órgãos de outros Poderes",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficam automaticamente subordinados ao Executivo federal."
+        },
+        {
+          "id": "B",
+          "text": "serão convidados a aderir ao PNDH-3."
+        },
+        {
+          "id": "C",
+          "text": "são excluídos do programa."
+        },
+        {
+          "id": "D",
+          "text": "dependem de decisão judicial para aderir."
+        },
+        {
+          "id": "E",
+          "text": "só podem aderir após emenda constitucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A redação é de convite à adesão."
+    },
+    {
+      "id": "seap-u088-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Eixo III está associado a",
+      "options": [
+        {
+          "id": "A",
+          "text": "universalizar direitos em contexto de desigualdades."
+        },
+        {
+          "id": "B",
+          "text": "memória e verdade."
+        },
+        {
+          "id": "C",
+          "text": "política tributária."
+        },
+        {
+          "id": "D",
+          "text": "defesa nacional."
+        },
+        {
+          "id": "E",
+          "text": "regulação econômica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Eixo III reúne as diretrizes 7 a 10."
+    },
+    {
+      "id": "seap-u088-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Eixo V abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "segurança e justiça."
+        },
+        {
+          "id": "B",
+          "text": "educação e cultura em direitos humanos."
+        },
+        {
+          "id": "C",
+          "text": "desenvolvimento econômico apenas."
+        },
+        {
+          "id": "D",
+          "text": "execução penal exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "relações exteriores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O quinto eixo é Educação e Cultura em Direitos Humanos."
+    },
+    {
+      "id": "seap-u088-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 23 reconhece",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prisão como regra."
+        },
+        {
+          "id": "B",
+          "text": "memória e verdade como direito humano da cidadania e dever do Estado."
+        },
+        {
+          "id": "C",
+          "text": "a censura como política pública."
+        },
+        {
+          "id": "D",
+          "text": "o sigilo absoluto dos arquivos públicos."
+        },
+        {
+          "id": "E",
+          "text": "o desenvolvimento econômico como único direito coletivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa é a formulação da Diretriz 23."
+    },
+    {
+      "id": "seap-u088-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na hierarquia interna do PNDH-3, a sequência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ação → eixo → diretriz → objetivo."
+        },
+        {
+          "id": "B",
+          "text": "eixo → diretriz → objetivo estratégico → ação programática."
+        },
+        {
+          "id": "C",
+          "text": "diretriz → eixo → ação → objetivo."
+        },
+        {
+          "id": "D",
+          "text": "objetivo → eixo → ação → diretriz."
+        },
+        {
+          "id": "E",
+          "text": "eixo → ação → diretriz → objetivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A estrutura parte do eixo, passa por diretrizes e objetivos estratégicos e chega às ações programáticas."
+    },
+    {
+      "id": "seap-u088-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A modernização da política de execução penal, segundo o PNDH-3,",
+      "options": [
+        {
+          "id": "A",
+          "text": "prioriza exclusivamente expansão de vagas prisionais."
+        },
+        {
+          "id": "B",
+          "text": "inclui prioridade a penas e medidas alternativas e melhoria do sistema penitenciário."
+        },
+        {
+          "id": "C",
+          "text": "elimina a reintegração social."
+        },
+        {
+          "id": "D",
+          "text": "proíbe educação prisional."
+        },
+        {
+          "id": "E",
+          "text": "retira direitos dos egressos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Diretriz 16 combina alternativas à privação e melhoria penitenciária."
+    },
+    {
+      "id": "seap-u088-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 7.177/2010 é relevante para o estudo do PNDH-3 porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogou todo o programa."
+        },
+        {
+          "id": "B",
+          "text": "alterou e revogou ações programáticas específicas do Anexo."
+        },
+        {
+          "id": "C",
+          "text": "criou a Constituição."
+        },
+        {
+          "id": "D",
+          "text": "substituiu o Decreto 7.037 por lei."
+        },
+        {
+          "id": "E",
+          "text": "extinguiu os seis eixos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O texto consolidado incorpora alterações pontuais de 2010."
+    },
+    {
+      "id": "seap-u088-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Diretriz 3 integra o eixo",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interação democrática entre Estado e sociedade civil."
+        },
+        {
+          "id": "B",
+          "text": "Direito à Memória e à Verdade."
+        },
+        {
+          "id": "C",
+          "text": "Educação e Cultura."
+        },
+        {
+          "id": "D",
+          "text": "Segurança Pública."
+        },
+        {
+          "id": "E",
+          "text": "Universalização em desigualdades."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As diretrizes 1 a 3 pertencem ao Eixo I."
+    },
+    {
+      "id": "seap-u088-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As Diretrizes 18 a 22 pertencem ao eixo",
+      "options": [
+        {
+          "id": "A",
+          "text": "I."
+        },
+        {
+          "id": "B",
+          "text": "II."
+        },
+        {
+          "id": "C",
+          "text": "III."
+        },
+        {
+          "id": "D",
+          "text": "IV."
+        },
+        {
+          "id": "E",
+          "text": "V."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Eixo V reúne as diretrizes 18 a 22."
+    },
+    {
+      "id": "seap-u088-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para uma questão sobre a redação vigente de ação programática do PNDH-3, o material mais seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o texto original de 2009 sem alterações."
+        },
+        {
+          "id": "B",
+          "text": "o texto consolidado do Decreto 7.037/2009."
+        },
+        {
+          "id": "C",
+          "text": "um resumo sem fonte."
+        },
+        {
+          "id": "D",
+          "text": "uma versão anterior ao Decreto 7.177/2010."
+        },
+        {
+          "id": "E",
+          "text": "uma notícia jornalística."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Como houve alterações e revogações pontuais, deve-se usar o texto consolidado."
+    }
+  ]
+}
