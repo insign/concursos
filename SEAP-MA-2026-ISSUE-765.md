@@ -25,14 +25,14 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
-| Macros de reaproveitamento | 5 | 1 | 0 | 4 |
-| Macros editoriais C/H/Q | 36 | 12 | 0 | 24 |
+| Macros de reaproveitamento | 5 | 0 | 0 | 5 |
+| Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
 | Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 18 | 0 | 33 |
-| Unidades editoriais planejadas | 110 | 1 | 0 | 109 |
-| Entregáveis unitários C/H/Q | 330 | 3 | 0 | 327 |
+| Total de macros individualizadas | 51 | 5 | 0 | 46 |
+| Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
+| Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
-Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**. **SEAP-U001–U064 e SEAP-U066–U110 estão `done` com C/H/Q `done`**; resta somente **SEAP-U065**, com **3 entregáveis unitários C/H/Q `pending`**. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**. Visões SEAP verificáveis: **97 locais e 12 canônicas**. Não copiar totais ou aceites de outra meta.
+Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**. **SEAP-U001–U110 estão `done` com C/H/Q `done`**. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**; R03/R04/R05 encerram respectivamente em **72/72, 19/19 e 19/19**. Visões SEAP verificáveis: **98 locais e 12 canônicas**. Não copiar totais ou aceites de outra meta.
 
 A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
@@ -146,9 +146,11 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **Lote SEAP-U049/U053/U054 concluído em 29/09/2026:** três parciais/locais publicados com C/H/Q/R completos. U049 encerra SEAP-E06 — Atualidades; U053 e U054 completam as duas lacunas de SEAP-E07 — Direito Administrativo. R04 avança para 18/19 parciais.
 
-**Próxima ação habilitada: SEAP-U065 em R04 — Constituição do Estado do Maranhão, arts. 112 a 121 — segurança pública.** É a única unidade editorial restante e a última parcial ainda pendente.
+**SEAP-U065 concluída em 29/09/2026:** última parcial/local publicada com o recorte exclusivo dos arts. 112–121 da Constituição do Maranhão. U065 encerra R04 em 19/19 parciais e completa SEAP-E08 — Direito Constitucional. Com a recontagem agregadora das unidades já aceitas, E01, E03 e E04 também passam a C/H/Q `done`; todos os 12 blocos editoriais ficam concluídos.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P05, R01–R03 e R05 estão `done`; R04 permanece `pending` em 18/19. Entre as unidades, U001–U064 e U066–U110 têm C/H/Q `done`; resta somente **U065 / 3 C/H/Q** `pending`. SEAP-E02, SEAP-E05–E07 e SEAP-E09–E12 C/H/Q estão `done`; SEAP-E08 permanece `pending` por U065, e E01/E03/E04 conservam seu estado macro anterior até o fechamento próprio. Nenhuma reserva operacional deve permanecer após a sincronização deste lote. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: SEAP-F01 — conferir a matriz contra todo o edital consolidado.** A implantação editorial terminou em 110/110 unidades e 330/330 C/H/Q; o fechamento começa pela cobertura programática, sem ainda fechar a #765.
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P05, R01–R05 e SEAP-E01–E12 C/H/Q estão `done`. Todas as **110 unidades / 330 C/H/Q** estão concluídas, com **98 visões locais + 12 canônicas**. Restam somente **SEAP-F01–F05**, cinco macros de fechamento `pending`. Nenhuma reserva operacional deve permanecer após a sincronização desta unidade. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -622,7 +624,7 @@ P03 não atribui origem por semelhança. Em cada linha, “origem não resolvida
 | 20.2.4 Constitucional 7 | **SEAP-U062 — Funções essenciais à Justiça** | doador físico PC-MA `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-constitucional/funcoes-essenciais-justica/` (C `9e18a57b6002ec1c83a64e76c036c0b5b3de269b`; H `3ad993c85f534f8dfa939b820bbb3dc3c7261d4b`; Q `951a29f22848eb5c1193e1716449422e23c1c928`; R `b1eb9f095341b6a68a50b37c08ae99a648e26001`); cópia local SEAP publicada em `39ea2c744cff0e1eeea0a5782dbc053b6eea4e9c` | `funcoes-essenciais-justica`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-constitucional/funcoes-essenciais-justica/`; `seap-u062`; ordem 62 | integral | Integral/local: arts. 127–135 e as quatro funções essenciais coincidem; C muda identidade/ordem/corte, H é preservado e Q recebe só microglossário na adaptação anterior. | SEAP Inspetor; corte 21/07/2026; EC 139/2026 não altera arts. 127–135; deps: nenhuma específica; origem PC-MA preservada | C `done` (`7e51e1813f9cc872d070c2fbe1e151d89b64c97c`); H `done` (`3ad993c85f534f8dfa939b820bbb3dc3c7261d4b`); Q `done` (`9d788279d28832611912885c50c5d7ad7be37151`); R `eeb9cfd3d55b728a4329a34d6d416d917e28d89b`; evidência `39ea2c744cff0e1eeea0a5782dbc053b6eea4e9c` |
 | 20.2.4 Constitucional 8–8.2 | **SEAP-U063 — Defesa do Estado, instituições democráticas e segurança pública** | doador físico PC-MA `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-constitucional/defesa-estado-seguranca-publica/` (C `4695e1c104a6a83315627085cd3ddae31a5435bf`; H `dd33e3da676c663c258cc1707a02c53766510fbe`; Q `8f11c0ba04e3b82941a881ef25b94c1a94c394fc`; R `7e37028f0d0cf28ef6b9195688308281a8be7598`); cópia local SEAP em `73ef7569038bbe6e6fbadd152651033daf0001e8`, com correção nominal final em `9f3342b74db4787baf4774640ff76054debf62ea` | `defesa-estado-seguranca-publica`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-constitucional/defesa-estado-seguranca-publica/`; `seap-u063`; ordem 63 | integral | Integral/local: Título V e art. 144 coincidem; C remove a remissão interna U111 da PC-MA e reconcilia corte/identidade, H é preservado, Q recebe apenas microglossário institucional. | SEAP Inspetor; corte 21/07/2026; ADI 6.457, Tema 656 e ADPF 1.214 reconsultados; deps: nenhuma específica; origem PC-MA preservada | C `done` (`df547f87e17af83c2345982f176c2e7ecbfa894d`); H `done` (`dd33e3da676c663c258cc1707a02c53766510fbe`); Q `done` (`251113b8be96652880fbf87c1e188d1420b9046d`); R `76ad43eadebcb92bc84b895739a60d288384e428`; evidência final `9f3342b74db4787baf4774640ff76054debf62ea` |
 | 20.2.4 Constitucional 9–9.4 | **SEAP-U064 — Ordem social: seguridade, meio ambiente, família e grupos protegidos** | doador físico PC-MA `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-especificos/direito-constitucional/ordem-social-seguridade-meio-ambiente-familia/` (C `75a17df6ef8e7869147f51d989e18f8a2be09f52`; H `7a74dceb2f9ac14476c0270c2c6604b755ef881b`; Q `d0eeaf067f497b869c9dca819ecab9c785eb02e8`; R `9c5d9190f73334c5dd9a43257d1d51a2bd65fe12`); cópia local SEAP publicada em `b3c80ec958c581ef08650ea6bb2afea6d34b68af` | `ordem-social-seguridade-meio-ambiente-familia`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-constitucional/ordem-social-seguridade-meio-ambiente-familia/`; `seap-u064`; ordem 64 | integral | Integral/local: arts. 193–204 e 225–232 coincidem; C muda identidade/ordem/corte, H é preservado e Q recebe só microglossário em uma questão. | SEAP Inspetor; corte 21/07/2026; reconsulta constitucional sem alteração material; deps: U059 `done`; origem PC-MA preservada | C `done` (`08abbfc7467cb5e3f87bdb05668e2de8b8a77996`); H `done` (`7a74dceb2f9ac14476c0270c2c6604b755ef881b`); Q `done` (`b431e4dd03f10fa38efa8ac190e3ba2f8bce360a`); R `23ad341850a766d51b34de42f609e7af87961a2e`; evidência `b3c80ec958c581ef08650ea6bb2afea6d34b68af` |
-| 20.2.4 Constitucional 10 | **SEAP-U065 — Constituição do Maranhão: segurança pública, arts. 112 a 121** | `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-gerais/direito-constitucional/constituicao-estado-maranhao/` (C `d5c4d454b78ad32b05245353a54d06b77b28d854`; H `41ebe495e116dcdd350075cd30af52ad59c4b331`; Q `d6e8095473d91960a47fadacac77297faa44c94c`; R `a9d5421a54b732ad9d8d948b3770d3dfd865916b`) | `constituicao-maranhao-seguranca-publica-arts-112-121`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-constitucional/constituicao-maranhao-seguranca-publica-arts-112-121/`; `seap-u065`; ordem 65 | parcial | Parcial: o pacote TCE cobre a Constituição estadual inteira; extrair e revalidar somente os arts. 112–121 para a SEAP. | SEAP Inspetor; corte legislativo 21/07/2026; jurisprudência 13/11/2026 se prova permanecer 13/12/2026; deps: SEAP-U063 | C `pending`; H `pending`; Q `pending`; evidência: planejamento P03 |
+| 20.2.4 Constitucional 10 | **SEAP-U065 — Constituição do Maranhão: segurança pública, arts. 112 a 121** | doador físico TCE-T `src/content/assuntos/tce-ma-2026-tecnico-administrativa/conhecimentos-gerais/direito-constitucional/constituicao-estado-maranhao/` preservado (C `d5c4d454b78ad32b05245353a54d06b77b28d854`; H `41ebe495e116dcdd350075cd30af52ad59c4b331`; Q `d6e8095473d91960a47fadacac77297faa44c94c`; R `a9d5421a54b732ad9d8d948b3770d3dfd865916b`) | `constituicao-maranhao-seguranca-publica-arts-112-121`; `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/conhecimentos-especificos/direito-constitucional/constituicao-maranhao-seguranca-publica-arts-112-121/`; `seap-u065`; ordem 65 | parcial | Parcial/local: extrai exclusivamente os arts. 112–121; amplia a seção curta do doador para coordenação 113/113-A, competências 114–116-A, guardas 117, carreira/reavaliação 118 e regras 119–121, sem carregar o restante da Constituição estadual. | SEAP Inspetor; corte 21/07/2026; texto ALEMA reconsultado 29/09/2026; dep U063 satisfeita; F03 revalida atos posteriores | C `done` (blob `8605c77fd4568ee962215a7d1ca4700e9adfeff6`; commit `2664a9225946ce8180b5ae661f7a6cc298aa3354`); H `done` (blob `8a960e1d15b9aa2b0b9738ddecf82bdce2ab2b34`; commit `3f9f78c1d138d2cc1cd14717ad1d410005d92bbb`); Q `done` — 18 questões, 17 autorais + 1 anterior, setRev 2 (blob `ca37ff1b67160cca03633131f96ce3ee1576aaf6`; commit final `3411acc71c8204f25e6e941aa67c391e146e3ac0`); R `done` (blob `dde12a458b0cb714e2f874a0d418ddb5dadafae4`; commit final `b75bec29b1a8116b17990207703b63f769b87d9f`); sem `vinculo.json`/resolução separada |
 
 #### SEAP-E09 — Direito Penal — 10 unidades próprias
 
@@ -939,7 +941,7 @@ Publicar P04/P05 junto ao primeiro pacote completo de assuntos compatíveis. Nã
 - [x] SEAP-R03 — `done` — 72/72 reaproveitamentos integrais implantados por vínculo canônico válido ou cópia local controlada, com proveniência e identidades preservadas.
 
 Progresso verificável de R03: **72/72 integrais implantadas e aceitas**; a macro está `done`. A evidência individual permanece na matriz e nos registros de publicação.
-- [ ] SEAP-R04 — `pending` — Preparar as cópias parciais nos novos destinos locais, documentando trechos aproveitados, cortes e complementos; publicar após completar o pacote editorial correspondente. Progresso verificável: **18/19 parciais concluídas**.
+- [x] SEAP-R04 — `done` — As 19/19 cópias parciais foram preparadas/publicadas com diferenças, cortes e complementos documentados; U065 completou a macro.
 - [x] SEAP-R05 — `done` — 19/19 unidades novas produzidas e aceitas; U046 completou a última lacuna material em configuração de impressoras.
 
 ### 7.3 Produção editorial por bloco
@@ -951,9 +953,9 @@ P03 desdobrou os blocos em unidades estáveis: E01 U001–U019; E02 U020–U023;
 #### Conhecimentos gerais — item 22.2.3
 
 ##### SEAP-E01 — Língua Portuguesa
-- [ ] SEAP-E01-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
-- [ ] SEAP-E01-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] SEAP-E01-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] SEAP-E01-C — `done` — Todas as unidades do bloco possuem conteúdo/referências C `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E01-H — `done` — Todas as unidades do bloco possuem cheat sheet H `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E01-Q — `done` — Todas as unidades do bloco possuem questões/resoluções pertinentes Q `done`; estado agregado reconciliado após 110/110 unidades.
 
 ##### SEAP-E02 — Raciocínio Lógico
 - [x] SEAP-E02-C — `done` — Pesquisar, revisar e salvar conteúdo e referências.
@@ -961,14 +963,14 @@ P03 desdobrou os blocos em unidades estáveis: E01 U001–U019; E02 U020–U023;
 - [x] SEAP-E02-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### SEAP-E03 — Noções de História do Maranhão
-- [ ] SEAP-E03-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
-- [ ] SEAP-E03-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] SEAP-E03-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] SEAP-E03-C — `done` — Todas as unidades do bloco possuem conteúdo/referências C `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E03-H — `done` — Todas as unidades do bloco possuem cheat sheet H `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E03-Q — `done` — Todas as unidades do bloco possuem questões/resoluções pertinentes Q `done`; estado agregado reconciliado após 110/110 unidades.
 
 ##### SEAP-E04 — Noções de Geografia do Maranhão
-- [ ] SEAP-E04-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
-- [ ] SEAP-E04-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] SEAP-E04-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] SEAP-E04-C — `done` — Todas as unidades do bloco possuem conteúdo/referências C `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E04-H — `done` — Todas as unidades do bloco possuem cheat sheet H `done`; estado agregado reconciliado após 110/110 unidades.
+- [x] SEAP-E04-Q — `done` — Todas as unidades do bloco possuem questões/resoluções pertinentes Q `done`; estado agregado reconciliado após 110/110 unidades.
 
 ##### SEAP-E05 — Noções de Informática
 - [x] SEAP-E05-C — `done` — Pesquisar, revisar e salvar conteúdo e referências.
@@ -988,9 +990,9 @@ P03 desdobrou os blocos em unidades estáveis: E01 U001–U019; E02 U020–U023;
 - [x] SEAP-E07-Q — `done` — Questões e resoluções pertinentes completas em U050–U056.
 
 ##### SEAP-E08 — Direito Constitucional
-- [ ] SEAP-E08-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências, incluindo o recorte da Constituição do Maranhão exigido no edital.
-- [ ] SEAP-E08-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] SEAP-E08-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] SEAP-E08-C — `done` — Conteúdo e referências completos em U057–U065, incluindo Constituição do Maranhão arts. 112–121.
+- [x] SEAP-E08-H — `done` — Cheat sheets completos em U057–U065.
+- [x] SEAP-E08-Q — `done` — Questões e resoluções pertinentes completas em U057–U065.
 
 ##### SEAP-E09 — Direito Penal
 - [x] SEAP-E09-C — `done` — Pesquisar, revisar e salvar conteúdo e referências.
@@ -1924,6 +1926,20 @@ Reserva `seap-batch-u049-u053-u054-20260929t1358-03`, base inicial `e7d252633768
 **Auditoria transversal:** os três bancos somam **58 questões — 51 autorais + 7 anteriores**; IDs são únicos por unidade, opções não se repetem dentro do item e todo `correctOptionId` aponta para alternativa existente. C/H/Q/R foram relidos na `main`; `abbr` está balanceado e sem `title` vazio. As fontes centrais de U049, Constituição/estatutos/Súmula Vinculante nº 5 em U053 e Lei 9.784/Tema 138/Súmula Vinculante nº 21 em U054 foram reconsultadas em 29/09/2026, preservando corte de 21/07/2026 quando aplicável. Não foram necessárias resoluções separadas. Nenhum schema, gerado ou conteúdo da #755/#764/#766 foi alterado; não foram executados testes, builds, CI ou checks.
 
 **Aceite:** U049, U053 e U054 passam a C/H/Q `done`; R04 avança **15→18/19 parciais**. U049 completa SEAP-E06 e U053/U054 completam SEAP-E07, portanto as seis macros C/H/Q desses blocos passam a `done`. Totais: **109 unidades done / 1 pending; 327 C/H/Q done / 3 pending; 97 visões locais + 12 canônicas; 33 macros done / 18 pending**. Próxima ação: **U065 — Constituição do Estado do Maranhão, arts. 112 a 121 — segurança pública**.
+
+### SEAP-U065 — Constituição do Maranhão: segurança pública, arts. 112 a 121 — publicada em 29/09/2026
+
+Reserva `seap-u065-20260929t2200-03`, base inicial `6afc02bd290aefe17792b5e62d54ae495d910148`. Classificação **parcial/local**. A origem física TCE-T permaneceu somente leitura nos blobs C `d5c4d454b78ad32b05245353a54d06b77b28d854`, H `41ebe495e116dcdd350075cd30af52ad59c4b331`, Q `d6e8095473d91960a47fadacac77297faa44c94c` e R `a9d5421a54b732ad9d8d948b3770d3dfd865916b`.
+
+**Recorte e revisão pedagógica:** o doador de Constituição estadual inteira tem C **4.271 palavras visíveis** e H **985**; o destino ficou em C **1.464** e H **186**, por extração deliberada dos arts. 112–121. A aula organiza sistema → coordenação → competências → regras complementares e desenvolve individualmente os arts. 113-A, 116-A e 117–121, que no doador apareciam apenas em síntese. A fronteira preserva U063 para o art. 144 da Constituição Federal e U110 para a Lei estadual nº 11.342/2020/carreira do Inspetor.
+
+**Fontes e corte:** a Constituição oficial da Assembleia Legislativa foi reconsultada textual e visualmente em 29/09/2026, confirmando Polícia Militar, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal no art. 112; a coordenação penitenciária própria dos arts. 113-A/116-A; a redação de guardas do art. 117; ingresso/reavaliação do art. 118; e as regras dos arts. 119–121. A reconsulta dirigida não localizou modificação posterior material desses dispositivos no corte de 21/07/2026; SEAP-F03 mantém a verificação temporal final.
+
+**Q:** **18 questões — 17 autorais + 1 anterior**. `q132042` e `q132043` foram selecionadas do doador; `q132043` permaneceu revisão 1 e `q132042` passou 1→2 apenas pela retirada da sigla não microglossada na explicação. Quinze autorais locais completam os dispositivos ausentes no banco amplo. `u065-p01` adapta não literalmente a questão 40 da prova FGV/SEGEP-MA — Agente Penitenciário, 2013, verificada em fonte oficial/arquivo da prova; gabarito original E; revisão 1→2 apenas por microglossário. `questionSetRevision` final 2. Todos os identificadores são únicos, as alternativas são únicas dentro de cada item e cada `correctOptionId` aponta para opção existente.
+
+**Publicação confirmada:** C blob `8605c77fd4568ee962215a7d1ca4700e9adfeff6`, commit `2664a9225946ce8180b5ae661f7a6cc298aa3354`; H blob `8a960e1d15b9aa2b0b9738ddecf82bdce2ab2b34`, commit `3f9f78c1d138d2cc1cd14717ad1d410005d92bbb`; Q blob `ca37ff1b67160cca03633131f96ce3ee1576aaf6`, commit final `3411acc71c8204f25e6e941aa67c391e146e3ac0`; R blob `dde12a458b0cb714e2f874a0d418ddb5dadafae4`, commit final `b75bec29b1a8116b17990207703b63f769b87d9f`. C/H/Q/R foram relidos na `main`; `abbr` está balanceado, sem `title` vazio; não há `vinculo.json` nem resolução separada. Não foram executados testes, builds, CI ou checks.
+
+**Aceite:** U065 passa a C/H/Q `done`; R04 avança **18→19/19** e passa a `done`; SEAP-E08-C/H/Q passam a `done`. Como U001–U110 já estão todos `done`, a recontagem agregadora também encerra E01/E03/E04, cujas unidades já estavam aceitas. Totais: **110 unidades done / 0 pending; 330 C/H/Q done / 0 pending; 98 visões locais + 12 canônicas; 46 macros done / 5 pending**. Restam apenas SEAP-F01–F05. Próxima ação: **SEAP-F01 — conferir a matriz contra o edital consolidado**.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
