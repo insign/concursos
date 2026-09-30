@@ -23,6 +23,14 @@
 7. **Lei nº 15.410/2026.** Violência doméstica: falta grave, <abbr title="Regime Disciplinar Diferenciado">RDD</abbr> e transferência.  
    https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15410.htm
 
+## Jurisprudência reconsultada em 30/09/2026
+
+8. **<abbr title="Superior Tribunal de Justiça">STJ</abbr> — Tema Repetitivo 1.374.** Terceira Seção, divulgação em 31 ago. 2026. O artigo 112, § 3º, V, da <abbr title="Lei de Execução Penal">LEP</abbr> deve ser interpretado restritivamente: “organização criminosa” corresponde à condenação nos termos da Lei nº 12.850/2013 e não abrange associação criminosa do art. 288 do Código Penal nem associação para o tráfico do art. 35 da Lei nº 11.343/2006.  
+   https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/31082026-Terceira-Secao-define-interpretacao-restritiva-do-conceito-de-organizacao-criminosa-na-execucao-penal.aspx
+
+9. **<abbr title="Superior Tribunal de Justiça">STJ</abbr> — Quinta Turma, decisão divulgada em 29 set. 2026.** Interpretação do art. 152, parágrafo único, da <abbr title="Lei de Execução Penal">LEP</abbr> em contexto de violência de gênero: participação em grupo reflexivo como condição do sursis quando adequada à prevenção da reiteração; o número do processo não é divulgado por segredo judicial.  
+   https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/29092026-violencia-domestica-stj-reconhece-poder-dever-de-determinar-participacao-em-grupo-reflexivo-como-condicao-do.aspx
+
 ## Recorte
 
 - Unidade nova/local; referências incidentais existentes no acervo não equivalem a cobertura sistemática da <abbr title="Lei de Execução Penal">LEP</abbr>.
