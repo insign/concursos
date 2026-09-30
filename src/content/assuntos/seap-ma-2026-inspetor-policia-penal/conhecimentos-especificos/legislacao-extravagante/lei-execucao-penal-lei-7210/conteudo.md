@@ -261,6 +261,17 @@ Além da fração:
 
 > **Não use a antiga tabela 16/20/25/30/40/50/60/70 como regra de 2026.**
 
+### Tema 1.374 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>: “organização criminosa” em sentido estrito
+
+Em precedente repetitivo divulgado em **31/08/2026**, a Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixou interpretação restritiva do artigo 112, § 3º, V, da <abbr title="Lei de Execução Penal">LEP</abbr>.
+
+Para essa regra especial de progressão, **organização criminosa** significa condenação nos termos da **Lei nº 12.850/2013**. Não se pode ampliar a expressão para abranger, por analogia contra o condenado:
+
+- associação criminosa do artigo 288 do Código Penal;
+- associação para o tráfico do artigo 35 da Lei nº 11.343/2006.
+
+A razão é a combinação de legalidade, taxatividade e proibição de interpretação extensiva desfavorável.
+
 ## 12. Crime sexual e benefício mais favorável
 
 Desde a Lei nº 15.280/2025, o condenado por crimes contra a dignidade sexual só ingressa em regime mais benéfico ou recebe benefício que autorize saída se o exame criminológico apontar, nos termos legais, ausência de indícios de reiteração da mesma natureza.
@@ -324,11 +335,19 @@ A Lei nº 14.843/2024 ampliou o uso em regimes e progressão.
 
 O monitorado tem deveres de cuidado com o equipamento e atendimento às orientações.
 
-## 17. Agravo em execução
+## 17. Sursis e grupo reflexivo — artigo 152
+
+Em decisão divulgada em **29/09/2026**, a Quinta Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> interpretou o artigo 152, parágrafo único, da <abbr title="Lei de Execução Penal">LEP</abbr> no contexto de violência de gênero.
+
+Quando a medida for adequada à prevenção da reiteração, o juiz que concede **suspensão condicional da pena (sursis)** deve condicionar o benefício à participação do condenado em grupo reflexivo de reeducação. O colegiado tratou a expressão legal “poderá” como **poder-dever** nesse contexto protetivo.
+
+A falta de detalhamento exaustivo do prazo na decisão não impede, por si só, a condição: aspectos de execução podem ser definidos na audiência admonitória ou na própria fase executória.
+
+## 18. Agravo em execução
 
 Das decisões do juiz da execução cabe **agravo**, sem efeito suspensivo, conforme artigo 197.
 
-## 18. Mapa final de números
+## 19. Mapa final de números
 
 | Tema | Número |
 | --- | ---: |
@@ -346,7 +365,7 @@ Das decisões do juiz da execução cabe **agravo**, sem efeito suspensivo, conf
 | reincidente hediondo | **80%** |
 | reincidente hediondo com morte | **85%** |
 
-## 19. Pegadinhas finais
+## 20. Pegadinhas finais
 
 - execução = cumprimento + integração social;
 - preso provisório também recebe proteção da lei nos pontos cabíveis;
