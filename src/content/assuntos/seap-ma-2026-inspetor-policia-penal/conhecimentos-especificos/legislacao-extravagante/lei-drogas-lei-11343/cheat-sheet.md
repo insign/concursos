@@ -88,6 +88,8 @@ Não depende de venda. Lembre os núcleos por grupos:
 | 38 | prescrever/ministrar culposamente | 6 meses–2 anos |
 | 39 | conduzir embarcação/aeronave após droga com perigo | 6 meses–3 anos; tratamento mais grave no transporte coletivo |
 
+**Art. 33 × art. 37 — <abbr title="Superior Tribunal de Justiça">STJ</abbr> (04/08/2026):** “olheiro” integrado e indispensável à venda → tráfico (coautoria/participação); colaboração externa, eventual e periférica → art. 37.
+
 ## Artigos 40, 40-A e 41
 
 ### Artigo 40 — aumento de 1/6 a 2/3
