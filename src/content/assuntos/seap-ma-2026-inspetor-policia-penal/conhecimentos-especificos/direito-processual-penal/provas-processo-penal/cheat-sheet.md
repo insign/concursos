@@ -53,6 +53,12 @@ Testemunha:
 
 **Contradita:** impugnação sobre circunstância que afete imparcialidade, credibilidade ou capacidade da testemunha.
 
+## Pronúncia — Tema 1.260/<abbr title="Superior Tribunal de Justiça">STJ</abbr>
+
+- inquérito sozinho → **não basta** para pronúncia, salvo provas cautelares/não repetíveis/antecipadas do art. 155;
+- testemunho indireto → **admissível**, mas **insuficiente sozinho**;
+- intimidação/criminalidade organizada + controle judicial estrito → testemunho indireto qualificado pode ganhar relevância.
+
 ## Reconhecimento
 
 Artigo 226:
