@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u065-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 112 da Constituição do Estado do Maranhão, o sistema estadual de segurança pública compreende",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polícia Militar, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal."
+        },
+        {
+          "id": "B",
+          "text": "Polícia Militar, Ministério Público, Polícia Civil e Polícia Federal."
+        },
+        {
+          "id": "C",
+          "text": "Polícia Civil, Polícia Federal, Guarda Nacional e Polícia Penal."
+        },
+        {
+          "id": "D",
+          "text": "Polícia Militar, Tribunal de Justiça, Polícia Penal e Defensoria Pública."
+        },
+        {
+          "id": "E",
+          "text": "Polícia Civil, Guardas Municipais, Ministério Público e Corpo de Bombeiros Militar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 112 enumera expressamente Polícia Militar, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal."
+    },
+    {
+      "id": "u065-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sistema de segurança pública previsto no art. 112 subordina-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao Presidente da Assembleia Legislativa."
+        },
+        {
+          "id": "B",
+          "text": "ao Governador do Estado."
+        },
+        {
+          "id": "C",
+          "text": "ao Presidente do Tribunal de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "ao Procurador-Geral de Justiça."
+        },
+        {
+          "id": "E",
+          "text": "ao órgão central da Administração Penitenciária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 112 estabelece a subordinação do sistema ao Governador do Estado."
+    },
+    {
+      "id": "u065-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Constituição estadual distingue a coordenação da Polícia Penal porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela é coordenada diretamente pela Assembleia Legislativa."
+        },
+        {
+          "id": "B",
+          "text": "ela não integra o sistema de segurança pública."
+        },
+        {
+          "id": "C",
+          "text": "sua organização e coordenação cabem ao órgão central da Administração Penitenciária."
+        },
+        {
+          "id": "D",
+          "text": "ela é coordenada pela Polícia Civil."
+        },
+        {
+          "id": "E",
+          "text": "ela é subordinada ao Corpo de Bombeiros Militar."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 113-A atribui ao órgão central da Administração Penitenciária a organização e coordenação da Polícia Penal."
+    },
+    {
+      "id": "u065-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as atribuições constitucionais estaduais da Polícia Militar está",
+      "options": [
+        {
+          "id": "A",
+          "text": "exercer, com exclusividade, a polícia judiciária estadual."
+        },
+        {
+          "id": "B",
+          "text": "promover a segurança dos estabelecimentos penais."
+        },
+        {
+          "id": "C",
+          "text": "realizar policiamento ostensivo e atuar na preservação e restauração da ordem pública."
+        },
+        {
+          "id": "D",
+          "text": "dirigir a Administração Penitenciária."
+        },
+        {
+          "id": "E",
+          "text": "julgar infrações penais militares."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 114 vincula a Polícia Militar ao policiamento ostensivo e à prevenção, preservação e restauração da ordem pública, além de outras atribuições expressas."
+    },
+    {
+      "id": "u065-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "À Polícia Civil do Maranhão incumbe",
+      "options": [
+        {
+          "id": "A",
+          "text": "policiamento ostensivo e segurança dos estabelecimentos penais."
+        },
+        {
+          "id": "B",
+          "text": "polícia judiciária e apuração de infrações penais, exceto as militares."
+        },
+        {
+          "id": "C",
+          "text": "prevenção e combate a incêndio."
+        },
+        {
+          "id": "D",
+          "text": "coordenação do sistema penitenciário."
+        },
+        {
+          "id": "E",
+          "text": "defesa civil estadual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 115 atribui à Polícia Civil funções de polícia judiciária e apuração de infrações penais, exceto as militares."
+    },
+    {
+      "id": "u065-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Constituição estadual, o Corpo de Bombeiros Militar",
+      "options": [
+        {
+          "id": "A",
+          "text": "é órgão central do sistema de defesa civil do Estado e atua também na prevenção e combate a incêndio."
+        },
+        {
+          "id": "B",
+          "text": "exerce polícia judiciária."
+        },
+        {
+          "id": "C",
+          "text": "coordena a Polícia Penal."
+        },
+        {
+          "id": "D",
+          "text": "é subordinado à Polícia Civil."
+        },
+        {
+          "id": "E",
+          "text": "não possui atribuição de defesa civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 116 define o Corpo de Bombeiros Militar como órgão central do sistema de defesa civil e lhe atribui política de defesa civil e prevenção/combate a incêndio."
+    },
+    {
+      "id": "u065-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O núcleo constitucional da missão da Polícia Penal no art. 116-A é",
+      "options": [
+        {
+          "id": "A",
+          "text": "policiamento ostensivo urbano."
+        },
+        {
+          "id": "B",
+          "text": "apuração de infrações penais comuns."
+        },
+        {
+          "id": "C",
+          "text": "promoção da segurança dos estabelecimentos penais."
+        },
+        {
+          "id": "D",
+          "text": "defesa civil e combate a incêndio."
+        },
+        {
+          "id": "E",
+          "text": "controle externo da atividade policial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 116-A vincula a Polícia Penal ao órgão gestor do sistema penitenciário e lhe atribui a segurança dos estabelecimentos penais."
+    },
+    {
+      "id": "u065-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As demais atribuições da Polícia Penal necessárias à eficiência de sua missão institucional",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ser definidas pelo Poder Executivo em lei específica."
+        },
+        {
+          "id": "B",
+          "text": "são definidas exclusivamente por resolução municipal."
+        },
+        {
+          "id": "C",
+          "text": "dependem de ato do Tribunal de Justiça."
+        },
+        {
+          "id": "D",
+          "text": "não podem ser previstas em lei."
+        },
+        {
+          "id": "E",
+          "text": "são automaticamente iguais às da Polícia Civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 116-A remete ao Poder Executivo a definição, em lei específica, das demais atribuições da Polícia Penal."
+    },
+    {
+      "id": "u065-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A integração de uma Guarda Municipal às atividades de segurança pública desenvolvidas pelo Estado, segundo o art. 117, exige, entre outros elementos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformação da guarda em Polícia Civil municipal."
+        },
+        {
+          "id": "B",
+          "text": "convênio com o Estado e ações de interesse municipal restritas aos limites territoriais do Município."
+        },
+        {
+          "id": "C",
+          "text": "subordinação permanente ao Governador, sem convênio."
+        },
+        {
+          "id": "D",
+          "text": "atuação fora do território municipal como regra."
+        },
+        {
+          "id": "E",
+          "text": "delegação de polícia judiciária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 117 condiciona a integração a convênio, interesse estadual, interesse municipal e limites territoriais do Município."
+    },
+    {
+      "id": "u065-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 118 estabelece que o exercício da função policial é privativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "de qualquer servidor público estável."
+        },
+        {
+          "id": "B",
+          "text": "do policial de carreira recrutado exclusivamente por concurso público de provas e submetido a curso de formação policial."
+        },
+        {
+          "id": "C",
+          "text": "de ocupante de cargo em comissão."
+        },
+        {
+          "id": "D",
+          "text": "de agente temporário escolhido pela chefia."
+        },
+        {
+          "id": "E",
+          "text": "de militar das Forças Armadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 118 exige policial de carreira, concurso público de provas e curso de formação policial."
+    },
+    {
+      "id": "u065-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos integrantes dos serviços policiais, a Constituição maranhense prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "vitaliciedade automática após o curso de formação."
+        },
+        {
+          "id": "B",
+          "text": "reavaliação periódica das condições para o exercício do cargo, na forma da lei."
+        },
+        {
+          "id": "C",
+          "text": "dispensa definitiva de avaliação funcional."
+        },
+        {
+          "id": "D",
+          "text": "reavaliação apenas por ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "mandato funcional de quatro anos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 118 prevê reavaliação periódica, na forma da lei."
+    },
+    {
+      "id": "u065-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ressarcimento ao erário previsto no art. 119 relaciona-se a estabelecimentos que",
+      "options": [
+        {
+          "id": "A",
+          "text": "recebam qualquer atendimento policial ordinário."
+        },
+        {
+          "id": "B",
+          "text": "sejam públicos, independentemente de risco."
+        },
+        {
+          "id": "C",
+          "text": "se beneficiem de segurança/vigilância especializadas e imponham riscos extraordinários com sobrecarga policial além da normalidade."
+        },
+        {
+          "id": "D",
+          "text": "possuam apenas vigilância privada."
+        },
+        {
+          "id": "E",
+          "text": "solicitem policiamento em evento comum."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 119 exige risco extraordinário e sobrecarga da atividade policial, com ressarcimento proporcional ao que exceder a normalidade dos serviços."
+    },
+    {
+      "id": "u065-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O art. 120 admite órgão especializado para colaborar com organismos federais, recebendo assistência técnica, operacional e financeira, com a finalidade de",
+      "options": [
+        {
+          "id": "A",
+          "text": "regular concursos públicos."
+        },
+        {
+          "id": "B",
+          "text": "prevenir e reprimir tráfico, posse e facilitação do uso de entorpecentes e tóxicos."
+        },
+        {
+          "id": "C",
+          "text": "julgar crimes contra a Administração."
+        },
+        {
+          "id": "D",
+          "text": "fiscalizar orçamento municipal."
+        },
+        {
+          "id": "E",
+          "text": "executar defesa civil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 120 prevê cooperação especializada com organismos federais nesse campo."
+    },
+    {
+      "id": "u065-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cooperação das Universidades prevista no art. 121 pode ocorrer, por convênios, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir integralmente as academias policiais."
+        },
+        {
+          "id": "B",
+          "text": "exercer poder de polícia."
+        },
+        {
+          "id": "C",
+          "text": "pesquisa e investigação científica aplicadas, especialização e aprimoramento de policiais."
+        },
+        {
+          "id": "D",
+          "text": "julgar processos disciplinares."
+        },
+        {
+          "id": "E",
+          "text": "nomear policiais de carreira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 121 prevê cooperação universitária para produção de conhecimento, especialização e aprimoramento policial."
+    },
+    {
+      "id": "u065-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a associação correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polícia Militar → polícia judiciária; Polícia Civil → defesa civil."
+        },
+        {
+          "id": "B",
+          "text": "Polícia Penal → segurança dos estabelecimentos penais; Corpo de Bombeiros Militar → defesa civil."
+        },
+        {
+          "id": "C",
+          "text": "Polícia Civil → policiamento ostensivo; Polícia Militar → apuração penal não militar."
+        },
+        {
+          "id": "D",
+          "text": "Guarda Municipal → polícia judiciária estadual; Polícia Penal → trânsito rodoviário."
+        },
+        {
+          "id": "E",
+          "text": "Corpo de Bombeiros Militar → coordenação penitenciária; Polícia Civil → combate a incêndio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recorte constitucional separa claramente as missões: Polícia Penal nos estabelecimentos penais e Bombeiros na defesa civil/prevenção e combate a incêndio."
+    },
+    {
+      "id": "q132042",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Integra expressamente o sistema de segurança pública estadual",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Guarda Portuária estadual."
+        },
+        {
+          "id": "B",
+          "text": "a Polícia Penal."
+        },
+        {
+          "id": "C",
+          "text": "o Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "o Tribunal de Contas."
+        },
+        {
+          "id": "E",
+          "text": "a Procuradoria-Geral do Estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 112 enumera PM, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal. Fonte: questão autoral baseada na Constituição do Estado do Maranhão e nas referências do conteúdo."
+    },
+    {
+      "id": "q132043",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Polícia Civil do Maranhão é dirigida por",
+      "options": [
+        {
+          "id": "A",
+          "text": "oficial superior da Polícia Militar."
+        },
+        {
+          "id": "B",
+          "text": "Delegado de Polícia de carreira."
+        },
+        {
+          "id": "C",
+          "text": "membro do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "Secretário escolhido entre magistrados."
+        },
+        {
+          "id": "E",
+          "text": "Conselheiro do TCE."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 115 atribui a direção da Polícia Civil a Delegado de Polícia de carreira. Fonte: questão autoral baseada na Constituição do Estado do Maranhão e nas referências do conteúdo."
+    },
+    {
+      "id": "u065-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 40 da prova da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> para Agente Penitenciário do Maranhão em 2013, considere três afirmações sobre a Constituição estadual: I — a Polícia Militar exerce policiamento ostensivo e atua na preservação da ordem pública; II — a Polícia Civil, dirigida por Delegado de carreira, exerce polícia judiciária e apura infrações penais, exceto militares; III — o Corpo de Bombeiros Militar atua na defesa civil. À luz do texto constitucional vigente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente I está correta."
+        },
+        {
+          "id": "B",
+          "text": "somente II está correta."
+        },
+        {
+          "id": "C",
+          "text": "somente III está correta."
+        },
+        {
+          "id": "D",
+          "text": "somente II e III estão corretas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III estão corretas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Adaptação não literal da questão 40 da prova <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>/SEGEP-MA — Agente Penitenciário, 2013, cujo gabarito definitivo foi E. As três proposições permanecem compatíveis com os arts. 114 a 116; o texto atual ainda incorporou posteriormente a Polícia Penal e outras atualizações do capítulo."
+    }
+  ]
+}
