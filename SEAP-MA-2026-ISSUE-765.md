@@ -27,8 +27,8 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 0 | 0 | 5 |
 | Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
-| Macros de fechamento | 5 | 4 | 0 | 1 |
-| Total de macros individualizadas | 51 | 4 | 0 | 47 |
+| Macros de fechamento | 5 | 3 | 0 | 2 |
+| Total de macros individualizadas | 51 | 3 | 0 | 48 |
 | Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
 | Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
@@ -1022,7 +1022,7 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 ### 7.4 Fechamento e aceite
 
 - [x] SEAP-F01 — `done` — Matriz conferida contra os 152 itens/subitens literais do Cargo 1: cobertura integral, sem lacuna ou item extra; duplicações/desdobramentos documentados e nenhum conteúdo exclusivo do Monitor incorporado como item programático.
-- [ ] SEAP-F02 — `pending` — Inspecionar manualmente schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores, sem executar testes/builds/checks.
+- [x] SEAP-F02 — `done` — Inspeção individual dos 110 pacotes/visões concluída: C/H/Q/R, schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, 12 vínculos canônicos e consumidores conferidos; uma lacuna documental em U096 foi corrigida sem alterar C/H/Q.
 - [ ] SEAP-F03 — `pending` — Reconsultar publicações oficiais e fontes materiais, distinguir alterações posteriores do corte aplicável e resolver ou explicitar divergências documentais.
 - [ ] SEAP-F04 — `pending` — Confirmar na `main` os commits e todos os arquivos resolvidos, consolidando evidência por unidade e validade para os consumidores compartilhados.
 - [ ] SEAP-F05 — `pending` — Recalcular tarefas, unidades reais, canônicas, locais e visões; fechar a meta somente com cobertura integral, todas as tarefas `done` e nenhuma reserva ativa.
@@ -1957,7 +1957,39 @@ Reserva `seap-f01-20260929t2209-03`, base `c3d2c1a5c23231f8b8dc6b65e98dc4bb485e4
 
 **Resultado:** nenhuma lacuna, duplicação indevida ou unidade extra foi identificada; não houve necessidade de alterar material didático, schemas, grupos, catálogo ou vínculos. A evidência de F01 é documental, portanto a única publicação necessária é este estado no mestre e a sincronização do painel. Não foram executados testes, builds, CI ou checks.
 
-**Aceite:** SEAP-F01 passa a `done`. Totais: **47 macros done / 4 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. Próxima ação: **SEAP-F02 — inspeção manual estrutural/editorial dos pacotes publicados**.
+**Aceite:** SEAP-F01 passa a `done`. Totais naquele ponto: **47 macros done / 4 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A etapa seguinte foi SEAP-F02.
+
+
+### SEAP-F02 — inspeção estrutural/editorial final — concluída em 30/09/2026
+
+Reserva serial vigente: `seap-f02-f04-20260930t0014-03`. Base da reserva: `22e3565e0a2dcdae289031efac6d94cadc636af6`. Antes da inspeção, a `main` havia avançado somente por uma mudança alheia em preferências de impressão e respectivos testes, sem tocar conteúdo, schemas editoriais, catálogo ou arquivos SEAP; a auditoria foi executada sobre a versão corrente e a reserva permaneceu sem sobreposição material.
+
+**Inspeção individual das 110 unidades/visões:** os C/H/Q/R atuais foram resolvidos e conferidos por unidade, incluindo frontmatter de C, identidade/ordem, Markdown, microglossário renderizado fora de código, estrutura de Q, IDs/revisões/`origin`, alternativas, `correctOptionId`, referências e fronteiras. O registro compacto abaixo explicita todas as unidades inspecionadas; alertas de triagem só foram aceitos após releitura do trecho afetado.
+
+| Bloco | Unidades inspecionadas | Resultado F02 |
+|---|---|---|
+| E01 — Língua Portuguesa | U001, U002, U003, U004, U005, U006, U007, U008, U009, U010, U011, U012, U013, U014, U015, U016, U017, U018, U019 | aderentes; sem intervenção |
+| E02 — Raciocínio Lógico | U020, U021, U022, U023 | aderentes; U020/U022 canônicas resolvidas |
+| E03 — História do Maranhão | U024, U025, U026, U027, U028, U029, U030 | aderentes; U025–U029 canônicas quando aplicável |
+| E04 — Geografia do Maranhão | U031, U032, U033, U034, U035, U036, U037, U038, U039 | aderentes; U031/U032/U033/U035 canônicas |
+| E05 — Informática | U040, U041, U042, U043, U044, U045, U046 | aderentes; sem intervenção |
+| E06 — Atualidades discursiva | U047, U048, U049 | aderentes ao uso discursivo; sem intervenção |
+| E07 — Direito Administrativo | U050, U051, U052, U053, U054, U055, U056 | aderentes; sem intervenção |
+| E08 — Direito Constitucional | U057, U058, U059, U060, U061, U062, U063, U064, U065 | aderentes; sem intervenção |
+| E09 — Direito Penal | U066, U067, U068, U069, U070, U071, U072, U073, U074, U075 | aderentes; sem intervenção |
+| E10 — Direito Processual Penal | U076, U077, U078, U079, U080, U081, U082, U083, U084, U085, U086 | aderentes; U082 continua unidade real compartilhada com Legislação Extravagante 10 |
+| E11 — Direitos Humanos | U087, U088, U089, U090, U091, U092 | aderentes; U089 canônica resolvida |
+| E12 — Legislação Extravagante | U093, U094, U095, U096, U097, U098, U099, U100, U101, U102, U103, U104, U105, U106, U107, U108, U109, U110 | aderentes após correção documental de U096; U056/U082 permanecem remissões a unidades reais já inspecionadas |
+
+**Questões e resoluções:** os 110 `questoes.json` foram lidos/estruturalmente conferidos contra o contrato vigente: `schemaVersion: 1`, `questionSetRevision` positivo, IDs de questão sem colisão por conjunto, revisões positivas, `origin` restrito a `authorial|previous_exam`, opções identificadas e gabarito apontando para opção existente. As adaptações anteriores sinalizadas durante a varredura foram reconciliadas com suas fontes em `referencias.md`; não foi encontrada resolução separada na árvore SEAP nem nas 12 origens canônicas efetivamente consumidas, portanto não há `questionRevision` derivado a reconciliar nesta campanha.
+
+**Vínculos, consumidores e estrutura:** as 12 visões canônicas foram relidas explicitamente: U020, U022, U025, U026, U027, U028, U029, U031, U032, U033, U035 e U089. Todos os `vinculo.json` têm `schemaVersion: 1`, `order` igual à visão SEAP, slug consumidor igual ao slug canônico e caminho existente. Os onze canônicos de Raciocínio Lógico/História/Geografia têm quatro consumidores explícitos (PC-MA, TCE-MA Analista, TCE-MA Técnico e SEAP); a DUDH de U089 tem três (TCE-MA Analista, TCE-MA Técnico e SEAP). A auditoria permaneceu somente leitura nesses compartilhados. O catálogo SEAP (`schemaVersion: 1`, ordem 5, `storageId: seapma-2026-inspetor`, prova 13/12/2026) e os 14 `grupo.json` materiais foram relidos com ordens 1–6 coerentes nos dois ramos.
+
+**Defeito encontrado e correção:** U096 — Organizações criminosas — preservava duas questões `previous_exam` rastreáveis no doador, mas a cópia SEAP de `referencias.md` não havia carregado os links primários de prova/gabarito/padrão. A mesma referência também usava a página inicial do Planalto para a Lei nº 15.245/2025 em vez da URL específica do diploma. Somente `referencias.md` foi corrigido: fontes oficiais das duas adaptações acrescentadas e URL normativa tornada específica. C/H/Q, IDs, revisões, alternativas, gabaritos e origem PC-MA permaneceram intactos. Publicação confirmada na `main`: commit `47ee2025fb29b91201faa2c7fd26c8b955a76fd0`, blob final R `e641c9579eaf5eb25202ea11a11aea8025624dc7`.
+
+**Resultado F02:** nenhuma outra falha estrutural/editorial verificável permaneceu. A inspeção não reabre os 330 C/H/Q já aceitos e não congela legislação/jurisprudência ou atualidades: a reconsulta temporal/material continua pertencendo a F03. Não foram executados testes, builds, CI ou checks.
+
+**Aceite:** SEAP-F02 passa a `done`. Totais: **48 macros done / 3 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A reserva serial permanece ativa para **SEAP-F03 → SEAP-F04**. Próxima ação: **SEAP-F03 — reconsultar publicações oficiais, fontes materiais e atos posteriores ao corte, distinguindo o que é pós-corte**.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
