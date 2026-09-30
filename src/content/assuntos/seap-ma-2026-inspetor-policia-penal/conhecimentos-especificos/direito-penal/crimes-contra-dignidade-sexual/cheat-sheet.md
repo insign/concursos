@@ -26,6 +26,8 @@ Não exige conjunção carnal. Grave ameaça pode existir mesmo com arma simulad
 
 **215-A:** ato libidinoso sem anuência, para satisfação sexual → 1–5 anos **se não houver crime mais grave**.
 
+**Jurisprudência de 17/08/2026:** a Quinta Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> admite importunação sexual por **envio não consentido de conteúdo pornográfico pela internet**, mesmo sem contato físico; preserve a subsidiariedade do artigo 215-A.
+
 ## Artigo 216-A — assédio sexual
 
 Constrangimento para vantagem/favorecimento sexual, usando superioridade hierárquica ou ascendência funcional.
