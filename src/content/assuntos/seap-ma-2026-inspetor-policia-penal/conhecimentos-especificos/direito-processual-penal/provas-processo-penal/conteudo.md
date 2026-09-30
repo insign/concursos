@@ -290,6 +290,16 @@ Somente se isso for impossível pode haver retirada do réu, sempre com presenç
 
 ---
 
+## 18-A. Tema 1.260 do <abbr title="Superior Tribunal de Justiça">STJ</abbr>: inquérito e testemunho indireto na pronúncia
+
+Em precedente repetitivo divulgado em **16/09/2026**, a Terceira Seção do <abbr title="Superior Tribunal de Justiça">STJ</abbr> fixou três teses úteis para a admissibilidade e suficiência da prova na decisão de **pronúncia** — decisão que encaminha o acusado de crime doloso contra a vida ao Tribunal do Júri:
+
+1. a pronúncia **não pode se basear exclusivamente** em elementos informativos do inquérito, ressalvadas as provas cautelares, não repetíveis e antecipadas mencionadas no artigo 155 do <abbr title="Código de Processo Penal">CPP</abbr>;
+2. o **testemunho indireto** — depoimento de quem relata o que ouviu de outra pessoa — é prova lícita e admissível, mas **não basta sozinho** para atingir o grau probatório exigido para a pronúncia;
+3. em contextos objetivamente demonstrados de intimidação, criminalidade organizada, silenciamento ou dificuldade substancial de produção da prova direta, o testemunho indireto qualificado pode ganhar maior peso, desde que submetido a controle judicial estrito e compatível com contraditório e ampla defesa.
+
+A distinção central é entre **admissibilidade** e **suficiência**: uma prova pode ser admitida e, ainda assim, não ser suficiente isoladamente para determinado juízo decisório.
+
 # Parte V — Reconhecimento e acareação
 
 ## 19. Reconhecimento de pessoas: sequência do artigo 226
