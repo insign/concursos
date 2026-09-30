@@ -33,6 +33,9 @@
 8. **Supremo Tribunal Federal. Tema 1.380 — ARE 1.467.470.** Reconhecimento de pessoas em desconformidade com o artigo 226. Na reconsulta de 29/9/2026, havia repercussão geral reconhecida, mas o mérito ainda não estava julgado; o andamento registrava conclusão ao relator em 18/9/2026.  
    https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1380
 
+9. **Superior Tribunal de Justiça. Tema Repetitivo 1.260.** Terceira Seção, teses divulgadas em 16/9/2026 sobre prova de inquérito e testemunho indireto na pronúncia: impossibilidade de pronúncia fundada exclusivamente em elementos informativos do inquérito, ressalvas do artigo 155, admissibilidade do testemunho indireto e insuficiência isolada, com maior relevância possível em contextos objetivamente demonstrados de intimidação ou dificuldade substancial de prova direta.  
+   https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16092026-Terceira-Secao-fixa-teses-repetitivas-sobre-uso-de-provas-do-inquerito-e-validade-do-testemunho-indireto-na.aspx
+
 ## Questões anteriores verificadas
 
 9. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Federal, Delegado, prova oral 2025, Direito Processual Penal, questão 4.** Adaptação não literal sobre fiabilidade e mesmidade na cadeia de custódia.  
@@ -44,6 +47,6 @@
 ## Corte e fronteiras
 
 - Corte legislativo: **21/7/2026**. Não foi localizada alteração material do recorte entre 13 e 21/7/2026.
-- A janela jurisprudencial da campanha continua sujeita ao fechamento em SEAP-F03; a reconsulta de 29/9 preservou o Tema 1.258 e registrou o estado ainda não julgado do Tema 1.380.
+- Reconsulta jurisprudencial F03 em 30/9/2026: Tema 1.258 preservado, Tema 1.260 incorporado e Tema 1.380 mantido como ainda não julgado no mérito.
 - Cautelares e prisões ficam em U080–U083; recursos em U085; procedimentos e nulidades em U086.
 - Técnicas específicas de informática forense não são absorvidas por esta unidade; a cadeia de custódia digital aparece somente no nível processual necessário.
