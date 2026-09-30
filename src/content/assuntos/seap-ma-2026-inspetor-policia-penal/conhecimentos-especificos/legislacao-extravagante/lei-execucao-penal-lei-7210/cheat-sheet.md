@@ -46,6 +46,12 @@ Regra geral: **1/6 + mérito**, salvo exceções.
 
 Também: boa conduta + exame criminológico + decisão motivada.
 
+**Tema 1.374/<abbr title="Superior Tribunal de Justiça">STJ</abbr>:** no art. 112, § 3º, V, “organização criminosa” = condenação pela Lei 12.850/2013; não inclui art. 288 do Código Penal nem art. 35 da Lei de Drogas.
+
+## Sursis
+
+Art. 152 + violência de gênero: <abbr title="Superior Tribunal de Justiça">STJ</abbr> (29/09/2026) → grupo reflexivo pode funcionar como **condição obrigatória** quando adequado à prevenção da reiteração.
+
 ## Saídas
 
 **Permissão:** escolta; morte/doença grave familiar ou tratamento médico.
