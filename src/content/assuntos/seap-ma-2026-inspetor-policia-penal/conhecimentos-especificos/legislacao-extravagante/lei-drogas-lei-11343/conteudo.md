@@ -244,6 +244,16 @@ Financiar ou custear a prática dos crimes do artigo 33, <abbr title="Parte inic
 
 Colaborar, como informante, com grupo, organização ou associação destinados à prática dos crimes previstos nos artigos 33, <abbr title="Parte inicial do artigo, antes de parágrafos e incisos">caput</abbr> e § 1º, e 34 tem pena de **2 a 6 anos**, além de multa.
 
+### Jurisprudência atual: “olheiro” integrado à venda responde pelo artigo 33
+
+Em decisão divulgada em **04/08/2026**, a Quinta Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> distinguiu o **informante periférico** do agente que participa diretamente da execução do tráfico.
+
+Se o “olheiro” ou vigilante atua de forma **integrada e indispensável à comercialização**, permanecendo no local e garantindo a segurança da operação, sua conduta pode configurar **coautoria ou participação no tráfico do artigo 33**, e não o delito subsidiário do artigo 37.
+
+O artigo 37 permanece para colaboração **externa, eventual e periférica**, sem participação direta nos núcleos executórios do tráfico.
+
+> Em prova: o nome dado à função (“olheiro”, “vigilante”, “informante”) não decide o tipo. Pergunte **como a pessoa participou concretamente da venda**.
+
 ### 7.5 Prescrição ou administração culposa — artigo 38
 
 Prescrever ou ministrar, **culposamente**, drogas sem necessidade do paciente, em doses excessivas ou em desacordo com determinação legal ou regulamentar constitui crime. A condenação é comunicada ao conselho profissional competente.
