@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u065-a01",
@@ -454,7 +454,7 @@
     },
     {
       "id": "q132042",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Integra expressamente o sistema de segurança pública estadual",
       "options": [
@@ -480,7 +480,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O art. 112 enumera PM, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal. Fonte: questão autoral baseada na Constituição do Estado do Maranhão e nas referências do conteúdo."
+      "explanation": "O art. 112 enumera Polícia Militar, Polícia Civil, Corpo de Bombeiros Militar e Polícia Penal. Fonte: questão autoral baseada na Constituição do Estado do Maranhão e nas referências do conteúdo."
     },
     {
       "id": "q132043",
@@ -514,7 +514,7 @@
     },
     {
       "id": "u065-p01",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Em adaptação não literal da questão 40 da prova da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> para Agente Penitenciário do Maranhão em 2013, considere três afirmações sobre a Constituição estadual: I — a Polícia Militar exerce policiamento ostensivo e atua na preservação da ordem pública; II — a Polícia Civil, dirigida por Delegado de carreira, exerce polícia judiciária e apura infrações penais, exceto militares; III — o Corpo de Bombeiros Militar atua na defesa civil. À luz do texto constitucional vigente,",
       "options": [
@@ -540,7 +540,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Adaptação não literal da questão 40 da prova <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>/SEGEP-MA — Agente Penitenciário, 2013, cujo gabarito definitivo foi E. As três proposições permanecem compatíveis com os arts. 114 a 116; o texto atual ainda incorporou posteriormente a Polícia Penal e outras atualizações do capítulo."
+      "explanation": "Adaptação não literal da questão 40 da prova <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>/<abbr title=\"Secretaria de Estado da Gestão e Previdência do Maranhão\">SEGEP-MA</abbr> — Agente Penitenciário, 2013, cujo gabarito definitivo foi E. As três proposições permanecem compatíveis com os arts. 114 a 116; o texto atual ainda incorporou posteriormente a Polícia Penal e outras atualizações do capítulo."
     }
   ]
 }
