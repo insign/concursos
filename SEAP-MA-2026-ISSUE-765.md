@@ -27,8 +27,8 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 0 | 0 | 5 |
 | Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
-| Macros de fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 5 | 0 | 46 |
+| Macros de fechamento | 5 | 4 | 0 | 1 |
+| Total de macros individualizadas | 51 | 4 | 0 | 47 |
 | Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
 | Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
@@ -148,9 +148,11 @@ A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálo
 
 **SEAP-U065 concluída em 29/09/2026:** última parcial/local publicada com o recorte exclusivo dos arts. 112–121 da Constituição do Maranhão. U065 encerra R04 em 19/19 parciais e completa SEAP-E08 — Direito Constitucional. Com a recontagem agregadora das unidades já aceitas, E01, E03 e E04 também passam a C/H/Q `done`; todos os 12 blocos editoriais ficam concluídos.
 
-**Próxima ação habilitada: SEAP-F01 — conferir a matriz contra todo o edital consolidado.** A implantação editorial terminou em 110/110 unidades e 330/330 C/H/Q; o fechamento começa pela cobertura programática, sem ainda fechar a #765.
+**SEAP-F01 concluída em 29/09/2026:** a matriz foi confrontada contra os 152 itens/subitens literais do programa consolidado do Cargo 1. Todos estão cobertos; a matriz possui 112 aparições para 110 unidades reais, com repetição apenas de U082 (prisão temporária) e U056 (improbidade) para atender ocorrências interblocos sem duplicar C/H/Q. Os demais desdobramentos múltiplos correspondem a recortes internos autorizados de um mesmo item.
 
-Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P05, R01–R05 e SEAP-E01–E12 C/H/Q estão `done`. Todas as **110 unidades / 330 C/H/Q** estão concluídas, com **98 visões locais + 12 canônicas**. Restam somente **SEAP-F01–F05**, cinco macros de fechamento `pending`. Nenhuma reserva operacional deve permanecer após a sincronização desta unidade. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
+**Próxima ação habilitada: SEAP-F02 — inspeção manual estrutural/editorial dos 110 pacotes, incluindo schemas, frontmatter, Markdown, microglossário, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores.**
+
+Reservas ativas são mantidas exclusivamente no painel da #765; este arquivo conserva o último estado consolidado. P01–P05, R01–R05, SEAP-E01–E12 C/H/Q e **SEAP-F01** estão `done`. Todas as **110 unidades / 330 C/H/Q** estão concluídas, com **98 visões locais + 12 canônicas**. Restam somente **SEAP-F02–F05**, quatro macros de fechamento `pending`. Nenhuma reserva operacional deve permanecer após a sincronização de F01. Não importar progresso da PC-MA, TCE ou Perícia, mesmo quando compartilharem assuntos.
 
 ## 3. Escopo, fontes e programa consultado
 
@@ -1019,7 +1021,7 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 
 ### 7.4 Fechamento e aceite
 
-- [ ] SEAP-F01 — `pending` — Conferir a matriz contra todos os itens/subitens do edital consolidado, eliminando lacunas, duplicações indevidas e material exclusivo do Monitor ou de outro cargo.
+- [x] SEAP-F01 — `done` — Matriz conferida contra os 152 itens/subitens literais do Cargo 1: cobertura integral, sem lacuna ou item extra; duplicações/desdobramentos documentados e nenhum conteúdo exclusivo do Monitor incorporado como item programático.
 - [ ] SEAP-F02 — `pending` — Inspecionar manualmente schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, vínculos e consumidores, sem executar testes/builds/checks.
 - [ ] SEAP-F03 — `pending` — Reconsultar publicações oficiais e fontes materiais, distinguir alterações posteriores do corte aplicável e resolver ou explicitar divergências documentais.
 - [ ] SEAP-F04 — `pending` — Confirmar na `main` os commits e todos os arquivos resolvidos, consolidando evidência por unidade e validade para os consumidores compartilhados.
@@ -1940,6 +1942,22 @@ Reserva `seap-u065-20260929t2200-03`, base inicial `6afc02bd290aefe17792b5e62d54
 **Publicação confirmada:** C blob `8605c77fd4568ee962215a7d1ca4700e9adfeff6`, commit `2664a9225946ce8180b5ae661f7a6cc298aa3354`; H blob `8a960e1d15b9aa2b0b9738ddecf82bdce2ab2b34`, commit `3f9f78c1d138d2cc1cd14717ad1d410005d92bbb`; Q blob `ca37ff1b67160cca03633131f96ce3ee1576aaf6`, commit final `3411acc71c8204f25e6e941aa67c391e146e3ac0`; R blob `dde12a458b0cb714e2f874a0d418ddb5dadafae4`, commit final `b75bec29b1a8116b17990207703b63f769b87d9f`. C/H/Q/R foram relidos na `main`; `abbr` está balanceado, sem `title` vazio; não há `vinculo.json` nem resolução separada. Não foram executados testes, builds, CI ou checks.
 
 **Aceite:** U065 passa a C/H/Q `done`; R04 avança **18→19/19** e passa a `done`; SEAP-E08-C/H/Q passam a `done`. Como U001–U110 já estão todos `done`, a recontagem agregadora também encerra E01/E03/E04, cujas unidades já estavam aceitas. Totais: **110 unidades done / 0 pending; 330 C/H/Q done / 0 pending; 98 visões locais + 12 canônicas; 46 macros done / 5 pending**. Restam apenas SEAP-F01–F05. Próxima ação: **SEAP-F01 — conferir a matriz contra o edital consolidado**.
+
+### SEAP-F01 — auditoria de cobertura programática — concluída em 29/09/2026
+
+Reserva `seap-f01-20260929t2209-03`, base `c3d2c1a5c23231f8b8dc6b65e98dc4bb485e4678`. A conferência usou exclusivamente o programa consolidado do **Cargo 1 — Inspetor de Polícia Penal** na seção 3.5 e a matriz P03/R02 da `main`; não importou recortes, aceites ou programa de outro cargo.
+
+**Cobertura:** a transcrição consolidada contém **152 itens/subitens literais**: Português 20; Raciocínio Lógico 4; História do Maranhão 14; Geografia do Maranhão 16; Informática 7; Atualidades 1; Direito Administrativo 7; Direito Constitucional 23; Direito Penal 29; Direito Processual Penal 8; Direitos Humanos 6; Legislação Extravagante 17. A expansão das faixas/itens da matriz cobre **152/152**, sem item ausente e sem item numérico estranho ao programa.
+
+**Unidades e aparições:** a matriz contém **112 aparições para 110 unidades reais**. Os únicos IDs repetidos como unidades reais são `SEAP-U082`, que atende Processo Penal 5 e Legislação Extravagante 10 — Lei 7.960/1989, e `SEAP-U056`, que atende Direito Administrativo 7 e Legislação Extravagante 12 — Lei 8.429/1992. Essa reutilização foi confirmada nos próprios `referencias.md` publicados e não duplica C/H/Q. A repetição literal da Lei nº 9.455/1997 nos itens 1 e 7 de Legislação Extravagante é absorvida uma única vez por U093.
+
+**Desdobramentos autorizados sem lacuna:** Português 5.1 → U006–U008 (classes nominais, verbo, invariáveis); Geografia 1 → U031/U032 (localização/limites/extremos e APA, com parques no mesmo segundo recorte); Atualidades 1 → U047–U049 (três eixos, somente discursiva); Processo Penal 5 → U080–U083 (flagrante, preventiva, temporária, liberdade provisória/cautelares); Legislação Extravagante 15 → U104–U108 (cinco resoluções <abbr title="Conselho Nacional de Política Criminal e Penitenciária">CNPCP</abbr>). São subdivisões de cobertura, não duplicações editoriais indevidas.
+
+**Monitor e outros cargos:** a transcrição do programa termina no fim do Cargo 1, antes do programa do Monitor. A matriz inteira usa somente rótulos 22.2.3 comuns e 20.2.4 do Inspetor, sem item programático extra. Busca dirigida na árvore SEAP encontrou “Monitor” apenas no título/caminho oficial do edital conjunto e, em U104, no sentido comum de pessoa presa atuando como monitor educacional; não foi localizado conteúdo programático exclusivo do cargo Monitor de Ressocialização. Ocorrências de “Cargo 2” encontradas em fontes/questões pertencem à identificação histórica de provas de outros concursos, não ao escopo programático SEAP.
+
+**Resultado:** nenhuma lacuna, duplicação indevida ou unidade extra foi identificada; não houve necessidade de alterar material didático, schemas, grupos, catálogo ou vínculos. A evidência de F01 é documental, portanto a única publicação necessária é este estado no mestre e a sincronização do painel. Não foram executados testes, builds, CI ou checks.
+
+**Aceite:** SEAP-F01 passa a `done`. Totais: **47 macros done / 4 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. Próxima ação: **SEAP-F02 — inspeção manual estrutural/editorial dos pacotes publicados**.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
