@@ -11,7 +11,7 @@
    https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm
 
 2. **Brasil. Lei nº 15.245/2025.** Alterações do artigo 2º, § 1º, e inclusão dos artigos 21-A e 21-B, já vigentes no corte.  
-   https://www.planalto.gov.br/
+   https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15245.htm
 
 3. **Brasil. Lei nº 13.964/2019.** Alterações sobre colaboração premiada, lideranças armadas, benefícios prisionais e infiltração virtual.  
    https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm
@@ -26,6 +26,17 @@
 
 6. **Supremo Tribunal Federal. Tema 1.441 — RE 1.490.568.** Na consulta de 29/9/2026, havia repercussão geral reconhecida e movimentação mais recente em 22/9/2026, sem tese final de mérito publicada.  
    https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1441
+
+## Questões anteriores verificadas
+
+7. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil de Rondônia, Delegado de Polícia, concurso 2022, questão 55.** Gabarito definitivo **C**: o magistrado não participa das negociações para formalização do acordo de colaboração premiada. A questão `u139-p01` é adaptação não literal.  
+   Prova: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_002_01.PDF  
+   Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/GAB_DEFINITIVO_732_PCRO_002_01.PDF
+
+8. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Federal, Delegado de Polícia Federal, prova oral de 2019, Direito Processual Penal, questão 4.** O padrão oficial aborda a legitimidade do delegado para conduzir/entabular colaboração premiada no inquérito à luz da Lei nº 12.850/2013 e da <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 5.508. A questão `u139-p02` é adaptação não literal, atualizada para o regime posterior à Lei nº 13.964/2019.  
+   Padrão oficial: https://cdn.cebraspe.org.br/concursos/pf_18/arquivos/SUB_JUDICE_P_MALOTE01_DGPPF_ORAL.PDF
+
+Não foi estabelecida quota de questões anteriores; os dois itens preservados têm rastreabilidade oficial suficiente e cobrem núcleos distintos da colaboração premiada.
 
 ## Corte e fronteiras
 
