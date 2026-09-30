@@ -29,8 +29,8 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 0 | 0 | 5 |
 | Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
-| Macros de fechamento | 5 | 2 | 0 | 3 |
-| Total de macros individualizadas | 51 | 2 | 0 | 49 |
+| Macros de fechamento | 5 | 1 | 0 | 4 |
+| Total de macros individualizadas | 51 | 1 | 0 | 50 |
 | Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
 | Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
@@ -1026,7 +1026,7 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 - [x] SEAP-F01 — `done` — Matriz conferida contra os 152 itens/subitens literais do Cargo 1: cobertura integral, sem lacuna ou item extra; duplicações/desdobramentos documentados e nenhum conteúdo exclusivo do Monitor incorporado como item programático.
 - [x] SEAP-F02 — `done` — Inspeção individual dos 110 pacotes/visões concluída: C/H/Q/R, schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, 12 vínculos canônicos e consumidores conferidos; uma lacuna documental em U096 foi corrigida sem alterar C/H/Q.
 - [x] SEAP-F03 — `done` — Reconsulta temporal/material concluída em 30/09/2026 pelo snapshot oficial disponível; alterações pós-corte foram segregadas e jurisprudência nova materialmente pertinente foi incorporada em U073/U084/U098/U101, sem alteração de Q.
-- [ ] SEAP-F04 — `pending` — Confirmar na `main` os commits e todos os arquivos resolvidos, consolidando evidência por unidade e validade para os consumidores compartilhados.
+- [x] SEAP-F04 — `done` — Estado final pré-F05 confirmado na `main`: 98 pacotes locais completos, 12 visões canônicas resolvidas, 47 vínculos consumidores válidos, evidências U001–U110 reconciliadas e nenhuma corrida ou sobreposição material detectada.
 - [ ] SEAP-F05 — `pending` — Recalcular tarefas, unidades reais, canônicas, locais e visões; fechar a meta somente com cobertura integral, todas as tarefas `done` e nenhuma reserva ativa.
 
 ## 8. Evidência, manutenção e encerramento
@@ -2017,6 +2017,39 @@ Reserva serial `seap-f02-f04-20260930t0014-03`. A `main` foi relida antes das es
 **Publicações materiais confirmadas:** U073 commits C/H/R `12058e62ae4c2e6a7aaf3439608338474e0c4078` / `88ebb114c289ee960b83f59e7e5b9ef9dddaa9de` / `477791cb7ec4c3f3fa05c5eba3882b4f6ac73a89`; U084 `ac07ee02069c17791b2c1030e7655ec06ef23185` / `409999803a9fb8b6cbe425a8910c5f673b743775` / R final `f53800707ef2427816c3afec96e53d89f66ece28`; U098 `57989b288a06b2ffca059c4b910535b8768ef89a` / `e99ce47fe21db5dd2a47fde8c093604e92d269e5` / `3d07749e418c48b2aab8f4b00f0325e85fe3aff3`; U101 `a23d0c68588694ee9fbc1aaeade685ab60ad6c5c` / `39394d5bd517455ea2b02cb5a495200f6433e0e3` / `03eec3448b85b46d60087230c2bd52e2aeb4cd45`.
 
 **Aceite:** SEAP-F03 passa a `done`. Totais: **49 macros done / 2 pending / 0 analyzing; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A reserva serial permanece ativa somente para **SEAP-F04**. Próxima ação: **SEAP-F04 — confirmar na `main` commits, arquivos/evidências e validade para consumidores compartilhados**.
+
+
+### SEAP-F04 — confirmação final de arquivos, commits e consumidores — concluída em 30/09/2026
+
+Reserva serial encerrada nesta etapa: `seap-f02-f04-20260930t0014-03`. Imediatamente antes da escrita, a `main` permanecia exatamente em `b8a4d085ab6621e729fbf9dce8b4a62d4ec5c9e9`, mestre `bc0dc71584ac0e0c8e46efdfa0943b7247855ec7`, sem commit concorrente após o aceite de F03.
+
+**Árvore SEAP resolvida na `main`:** a árvore Git recursiva do commit `b8a4d085ab6621e729fbf9dce8b4a62d4ec5c9e9` foi usada como manifestação física do estado publicado. Sob `src/content/assuntos/seap-ma-2026-inspetor-policia-penal/` existem **418 blobs editoriais/estruturais** relevantes à campanha: **98 `conteudo.md` + 98 `cheat-sheet.md` + 98 `questoes.json` + 98 `referencias.md` + 14 `grupo.json` + 12 `vinculo.json`**. Os 98 diretórios físicos têm exatamente C/H/Q/R completos; nenhum está incompleto. Os 12 diretórios vinculados não misturam conteúdo físico com `vinculo.json`.
+
+**Reconciliação por unidade:** as **110 unidades reais U001–U110** permanecem materializadas como **98 locais + 12 visões canônicas**. As canônicas são U020, U022, U025, U026, U027, U028, U029, U031, U032, U033, U035 e U089; todas as demais 98 são locais. As linhas individuais da matriz continuam sendo a evidência por unidade. Não houve renomeação, remoção ou criação de unidade depois de F02/F03.
+
+**Continuidade da evidência entre F02 e F03:** a comparação entre o aceite de F02 `f34fd06da129cb6ab88c1e746e9e688395be6d63` e o aceite de F03 `b8a4d085ab6621e729fbf9dce8b4a62d4ec5c9e9` mostra somente o mestre e **12 arquivos didáticos**, exatamente C/H/R de U073, U084, U098 e U101. Nenhum `questoes.json`, vínculo, grupo, catálogo, schema ou outra unidade foi alterado nesse intervalo. Assim, os 106 assuntos não tocados por F03 permanecem nos arquivos já inspecionados/aceitos em F02; os quatro assuntos alterados têm seus blobs finais registrados nas respectivas linhas da matriz e foram relidos após publicação em F03.
+
+**Canônicos e arquivos resolvidos:** os 12 alvos em `src/content/biblioteca/` foram resolvidos novamente pela chave explícita `canonical`; cada origem possui `conteudo.md`, `cheat-sheet.md`, `questoes.json` e `referencias.md` atuais. Blobs C/H/Q/R no fechamento:
+- U020 `raciocinio-logico/estruturas-logicas`: `26936c938bd9c072000ae1a3dfc3853a494d0789` / `30e5f708b7d3883031bd5a3ca2b13e93c2bd2b3b` / `cd5ac836261b2830affe43a588f34fddaebb6aea` / `680149b624dd1df5b96dd813fd105e44c6a76754`;
+- U022 `raciocinio-logico/operacoes-conjuntos`: `0f070a1544382ed2f4a2e05f42d9ea6f9daaace0` / `f271f242463d6799605d87d1e4ed2f5712713ce0` / `d4c6e59fa315206e471bf1260e6d7523554b9e9f` / `da80ade5465048151e42c0d6edbf2beda1139362`;
+- U025 `historia-geografia-estado-maranhao/invasao-expulsao-holandeses`: `fb17d4d344bb598cc2c0009f6898dc58bb11d6d6` / `832f0439a727409f90ebd70bc2359f1b4668ee6b` / `c2a8e7fb35554218b081253f3c799130c8e9bee8` / `e9368c5c72d65d5c9d0c42a0407227b4b5680e70`;
+- U026 `historia-geografia-estado-maranhao/revolta-bequimao-companhias`: `a66133334f9d15dfb0272e4ed1e86f41e807b85b` / `284cf049d401173690f9d5fae74361d9b902841d` / `80c4f819730cd74929569126bb2ce8e0b225bb54` / `618228f1693bff7a32be010cf85cebc500326ef7`;
+- U027 `historia-geografia-estado-maranhao/adesao-independencia-jenipapo`: `ad6e40515fec812be2e5962c7f6af43ab276cfb7` / `a7ef9f68c5ec23c154042ec882e267d21cec525d` / `36951be277606431f41ecdd64b91f3584d16e82a` / `d068616d12185e95535994389c2ca47ef56d8949`;
+- U028 `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas`: `55e3dbf774a202bad719b16e0c6cd3a279bc2efb` / `03acfdaa735ec11f105a79ff06d26e09902a6dca` / `0f8148610287a98393cd0789af0fb29dda0842c5` / `cb0b2fde84932c41fd0b605793008a9e77854e0d`;
+- U029 `historia-geografia-estado-maranhao/adesao-republica-revolucao-1930`: `0175393a8a6940e0bfd26b0888126af5c317ec74` / `e8c4b4438b92e0729a58a79341111818575d06b2` / `c7380191d573d47803f783cace9e229f45ce738a` / `fb0b5a4d98df538f2727549c1913157fe6dfff65`;
+- U031 `historia-geografia-estado-maranhao/localizacao-limites-extremos`: `77c0b489ee4a8e6dc827e1e3359ab11f41fc6d25` / `35a986dd9cb9cda6fadd50199526429eacb0a4ae` / `593412d722340f97d461d559afffa232cc1dd745` / `3fde608899443c94ba8316496fc0f54d91e30709`;
+- U032 `historia-geografia-estado-maranhao/areas-protecao-parques-nacionais`: `f6e7295798ae8dd14a1b22c8e5a0b644d69b2c82` / `0825bd22c608efe9930fdcc2d1cdc7a544863c62` / `0fabe88b4527436a5d5e0e80c1db7fff3f2754d9` / `603e81e52b608b16af1cbe437c9c53d0112a2553`;
+- U033 `historia-geografia-estado-maranhao/climas-formacoes-vegetais`: `d44db7faaea8fb5b582318b05e1b0eceead49ef8` / `0abefbe694f7699dee692f31c558f281c2ca656a` / `b14f7f9aa1b430e9a6fbc2f710d293dc35bae640` / `7b8ff300c7cc0f54e30789291f93dbed97e5953f`;
+- U035 `historia-geografia-estado-maranhao/rios-bacias-maranhenses`: `ccdca43b0139e78b22996031357ecbfadd5463d7` / `f14996841971825560251e27e4ed4284035ca583` / `acc8cb17e27692b75081bde9814b1138bb76c4a9` / `a5131ea82387929c52002ea7a1518afa4e44ad00`;
+- U089 `nocoes-direitos-humanos/declaracao-universal-direitos-humanos`: `d936d44426eb7734ffe6c1a0e0d028335c3b5e3b` / `d2646bbc7b2b52ce96ddb14c6b07720e8ab325d2` / `7f8f4ede14736f4c75c7f192bd32b70f25113221` / `acd5e896fe0c99fd6f0343b0d6e617a42ec65c1c`.
+
+**Consumidores compartilhados:** foram relidos **47 `vinculo.json` consumidores** das 12 origens, não apenas os 12 vínculos SEAP. Todos têm `schemaVersion: 1`, chave `canonical` exatamente igual ao alvo resolvido e ordem própria válida. U020/U022 e os nove canônicos de História/Geografia têm quatro consumidores explícitos: PC-MA, TCE-MA Analista, TCE-MA Técnico e SEAP. U089/DUDH tem três: TCE-MA Analista, TCE-MA Técnico e SEAP. Nenhum consumidor compartilhado foi editado em F04.
+
+**Estrutura não editorial:** catálogo e 14 `grupo.json` permanecem no estado conferido em F02. A comparação F02→F03 não contém esses arquivos e a árvore corrente conserva exatamente os 14 grupos; portanto não houve deriva estrutural entre os aceites. Não há resolução separada nova a reconciliar.
+
+**Resultado:** todos os arquivos resolvidos e as evidências publicadas da campanha estão confirmados na `main`; não foi encontrada divergência de origem, visão, consumidor ou artefato que exija intervenção editorial. F04 não altera C/H/Q/R, canônicos, consumidores, catálogo ou grupos; sua publicação é somente o aceite administrativo deste mestre e a sincronização da #765. Não foram executados testes, builds, CI ou checks.
+
+**Aceite:** SEAP-F04 passa a `done`. Totais: **50 macros done / 1 pending / 0 analyzing; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A reserva `seap-f02-f04-20260930t0014-03` fica **encerrada**. Próxima ação: **SEAP-F05 — recontagem final e fechamento da meta**, agora sem reserva ativa.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
