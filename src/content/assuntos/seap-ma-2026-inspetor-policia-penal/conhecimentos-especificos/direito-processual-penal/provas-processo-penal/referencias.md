@@ -38,10 +38,10 @@
 
 ## Questões anteriores verificadas
 
-9. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Federal, Delegado, prova oral 2025, Direito Processual Penal, questão 4.** Adaptação não literal sobre fiabilidade e mesmidade na cadeia de custódia.  
+10. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Federal, Delegado, prova oral 2025, Direito Processual Penal, questão 4.** Adaptação não literal sobre fiabilidade e mesmidade na cadeia de custódia.  
    https://cdn.cebraspe.org.br/concursos/pf_25/arquivos/25884E2722C53188F09613E726AA9C1D798AC0810765EE9928BBC06C1D72276C.pdf
 
-10. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil do Maranhão, Delegado, prova discursiva, questão 7, aplicação 22/6/2025.** Adaptação não literal sobre reconhecimento de pessoas.  
+11. **<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> — Polícia Civil do Maranhão, Delegado, prova discursiva, questão 7, aplicação 22/6/2025.** Adaptação não literal sobre reconhecimento de pessoas.  
    https://cdn.cebraspe.org.br/concursos/PC_MA_17_DELEGADO/arquivos/PADR%C3%83O%20PRELIMINAR%20DE%20RESPOSTA%20_%20PROVA%20DISCURSIVA.pdf
 
 ## Corte e fronteiras
