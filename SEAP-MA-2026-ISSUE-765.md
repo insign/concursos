@@ -29,12 +29,12 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 0 | 0 | 5 |
 | Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
-| Macros de fechamento | 5 | 1 | 0 | 4 |
-| Total de macros individualizadas | 51 | 1 | 0 | 50 |
+| Macros de fechamento | 5 | 0 | 0 | 5 |
+| Total de macros individualizadas | 51 | 0 | 0 | 51 |
 | Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
 | Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
-Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**. **SEAP-U001–U110 estão `done` com C/H/Q `done`**. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**; R03/R04/R05 encerram respectivamente em **72/72, 19/19 e 19/19**. Visões SEAP verificáveis: **98 locais e 12 canônicas**. Não copiar totais ou aceites de outra meta.
+Os 12 blocos editoriais agregam as 36 macros C/H/Q e não são tarefas adicionais. P03 identifica **110 unidades editoriais planejadas e 330 entregáveis unitários C/H/Q**. **SEAP-U001–U110 estão `done` com C/H/Q `done`**. R01 inventariou 116 pacotes candidatos para 92 unidades; R02 fixou **72 integrais, 19 parciais e 19 novas**; R03/R04/R05 encerram respectivamente em **72/72, 19/19 e 19/19**. Visões SEAP verificáveis: **98 locais e 12 canônicas**. **Fechamento F05: 51/51 macros `done`, 0 `pending`, 0 `analyzing`; campanha encerrada em 30/09/2026 no snapshot publicado da `main`.** Não copiar totais ou aceites de outra meta.
 
 A listagem de `src/content/concursos/` relida em SEAP-P02 contém quatro catálogos, com ordens 1 a 4: concurso de exemplo, TCE/MA Analista, TCE/MA Técnico e PC-MA Oficial Investigador. SEAP-P02 reservou a próxima ordem disponível, **5**, sem alterar qualquer catálogo existente. O slug e o `storageId` definidos abaixo não aparecem na `main` e respeitam os contratos vigentes.
 
@@ -1027,7 +1027,7 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 - [x] SEAP-F02 — `done` — Inspeção individual dos 110 pacotes/visões concluída: C/H/Q/R, schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, 12 vínculos canônicos e consumidores conferidos; uma lacuna documental em U096 foi corrigida sem alterar C/H/Q.
 - [x] SEAP-F03 — `done` — Reconsulta temporal/material concluída em 30/09/2026 pelo snapshot oficial disponível; alterações pós-corte foram segregadas e jurisprudência nova materialmente pertinente foi incorporada em U073/U084/U098/U101, sem alteração de Q.
 - [x] SEAP-F04 — `done` — Estado final pré-F05 confirmado na `main`: 98 pacotes locais completos, 12 visões canônicas resolvidas, 47 vínculos consumidores válidos, evidências U001–U110 reconciliadas e nenhuma corrida ou sobreposição material detectada.
-- [ ] SEAP-F05 — `pending` — Recalcular tarefas, unidades reais, canônicas, locais e visões; fechar a meta somente com cobertura integral, todas as tarefas `done` e nenhuma reserva ativa.
+- [x] SEAP-F05 — `done` — Recontagem final confirmada: 51/51 macros done, 110 unidades reais resolvidas (98 locais + 12 canônicas), 110 visões SEAP, 330/330 C/H/Q, 152/152 itens/subitens literais cobertos, nenhuma reserva ativa e nenhum analyzing.
 
 ## 8. Evidência, manutenção e encerramento
 
@@ -2050,6 +2050,32 @@ Reserva serial encerrada nesta etapa: `seap-f02-f04-20260930t0014-03`. Imediatam
 **Resultado:** todos os arquivos resolvidos e as evidências publicadas da campanha estão confirmados na `main`; não foi encontrada divergência de origem, visão, consumidor ou artefato que exija intervenção editorial. F04 não altera C/H/Q/R, canônicos, consumidores, catálogo ou grupos; sua publicação é somente o aceite administrativo deste mestre e a sincronização da #765. Não foram executados testes, builds, CI ou checks.
 
 **Aceite:** SEAP-F04 passa a `done`. Totais: **50 macros done / 1 pending / 0 analyzing; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A reserva `seap-f02-f04-20260930t0014-03` fica **encerrada**. Próxima ação: **SEAP-F05 — recontagem final e fechamento da meta**, agora sem reserva ativa.
+
+
+### SEAP-F05 — recontagem final e encerramento — concluída em 30/09/2026
+
+Base final pré-escrita: `main` `8289e8f5edac01a69765fb38680de00ad50e5025`, mestre `d98338c8f40c03523c717fd6616aafb4b6ef4935`; comparação com `main`: idêntica. A #765 estava aberta, sem reserva ativa, sem `analyzing` e com F05 como única macro `pending`.
+
+**Recontagem de macros:** o checklist autoritativo contém exatamente **51 macros individualizadas**, sem somar os 12 blocos E01–E12 como pais adicionais: P01–P05 = 5; R01–R05 = 5; E01–E12 × C/H/Q = 36; F01–F05 = 5. Antes desta escrita havia 50 `done` + F05 `pending`; com o aceite de F05, o estado final é **51/51 `done`, 0 `pending`, 0 `analyzing`**.
+
+**Unidades reais, origens e visões:** a árvore Git recursiva não truncada da base final contém, sob a raiz SEAP, **98 `conteudo.md`, 98 `cheat-sheet.md`, 98 `questoes.json`, 98 `referencias.md`, 14 `grupo.json` e 12 `vinculo.json`**. Isso materializa:
+- **98 unidades reais locais**, cada uma com C/H/Q/R completos;
+- **12 unidades reais canônicas** consumidas por vínculo explícito e resolvidas em `src/content/biblioteca/`, também com C/H/Q/R completos;
+- **110 unidades reais resolvidas para a campanha** = 98 locais + 12 canônicas;
+- **110 visões SEAP** = 98 físicas locais + 12 visões vinculadas;
+- **330 entregáveis C/H/Q** = 110 × 3, todos `done`.
+
+Os **47 vínculos consumidores** externos/compartilhados conferidos em F04 descrevem reutilização das 12 origens canônicas e **não** são somados como novas unidades SEAP.
+
+**Cobertura e duplicações:** F01 conferiu **152/152 itens/subitens literais** do Cargo 1 contra a matriz. A matriz tem **112 aparições programáticas para 110 unidades reais** porque U056 atende simultaneamente Direito Administrativo 7 e Legislação Extravagante 12, e U082 atende Processo Penal 5 e Legislação Extravagante 10. A Lei nº 9.455/1997 aparece literalmente duas vezes em Legislação Extravagante e é coberta uma única vez por U093. Essas reutilizações permanecem explícitas e não inflam totais. Nenhum conteúdo programático exclusivo do Monitor de Ressocialização foi incorporado.
+
+**Rotas e identidades:** o catálogo final permanece em `src/content/concursos/seap-ma-2026-inspetor-policia-penal.json`, blob `fe3c232b40e532bafdbed150343edde1618cf20f`, com `schemaVersion: 1`, ordem 5, `storageId: seapma-2026-inspetor` e prova em 13/12/2026. As rotas/IDs editoriais continuam derivadas do slug estável `seap-ma-2026-inspetor-policia-penal` e dos slugs finais das 110 visões conforme o contrato de `content-paths.ts`; não houve renomeação de identidade no fechamento. As 12 visões canônicas preservam o slug canônico exigido pelo resolvedor.
+
+**Qualidade e atualidade:** F02 inspecionou individualmente U001–U110 e corrigiu a única lacuna documental então encontrada em U096. F03 reconsultou o snapshot oficial disponível em 30/09/2026 e incorporou jurisprudência materialmente pertinente em U073/U084/U098/U101, sem alterar Q; as alterações legislativas posteriores a 21/07/2026 permaneceram segregadas. F04 confirmou arquivos, blobs, origens, canônicos e consumidores na `main`. Não resta defeito próprio conhecido que impeça o encerramento.
+
+**Condições de encerramento:** programa integral coberto; 110/110 unidades resolvidas; 330/330 C/H/Q `done`; qualidade inspecionada; fontes/cortes reconsultados no snapshot final; 0 `analyzing`; 0 reservas ativas; evidência confirmada na `main`. Não foram executados testes, builds, CI ou checks, conforme regra da campanha.
+
+**Aceite final:** SEAP-F05 passa a `done`; a campanha #765 satisfaz as condições de encerramento e pode ser fechada como concluída. Totais finais: **51/51 macros `done`; 110 unidades reais resolvidas = 98 locais + 12 canônicas; 110 visões SEAP; 330/330 C/H/Q `done`; 152/152 itens/subitens literais cobertos; 14 grupos; 0 `pending`; 0 `analyzing`; 0 reservas ativas**. Manutenções futuras por novo edital, nova jurisprudência ou correção factual serão novas intervenções sobre o material publicado e não mantêm esta execução artificialmente aberta.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
