@@ -520,6 +520,14 @@ Em prova, evite os extremos “a palavra da vítima nunca basta” e “a palavr
 
 ---
 
+## 32. Internet: contato físico não é requisito para importunação sexual
+
+Em decisão divulgada em **17/08/2026**, a Quinta Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> reafirmou que o artigo 215-A pode alcançar o **envio de conteúdo pornográfico sem consentimento por meio da internet**, mesmo sem contato físico entre agente e vítima, desde que a conduta não configure crime mais grave.
+
+A chave continua sendo a do próprio tipo: **praticar ato libidinoso sem anuência para satisfazer a própria lascívia ou a de terceiro**. O meio digital não exclui, por si só, a importunação sexual.
+
+> Em prova: **sem consentimento + ato libidinoso por meio digital ≠ atipicidade automática**. Antes de marcar o artigo 215-A, verifique sempre a subsidiariedade: se houver violência, grave ameaça, vulnerabilidade ou outro elemento de tipo mais grave, prevalece o enquadramento correspondente.
+
 # Quadro de distinção rápida
 
 | Situação central | Tipo de referência | Chave de leitura |
