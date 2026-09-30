@@ -27,8 +27,8 @@ Recontagem das linhas preservadas: cinco tarefas de implantação/fontes, cinco 
 | Macros de implantação/fontes | 5 | 0 | 0 | 5 |
 | Macros de reaproveitamento | 5 | 0 | 0 | 5 |
 | Macros editoriais C/H/Q | 36 | 0 | 0 | 36 |
-| Macros de fechamento | 5 | 3 | 0 | 2 |
-| Total de macros individualizadas | 51 | 3 | 0 | 48 |
+| Macros de fechamento | 5 | 2 | 1 | 2 |
+| Total de macros individualizadas | 51 | 2 | 1 | 48 |
 | Unidades editoriais planejadas | 110 | 0 | 0 | 110 |
 | Entregáveis unitários C/H/Q | 330 | 0 | 0 | 330 |
 
@@ -1023,7 +1023,7 @@ Desdobrar todas as leis, portarias e resoluções enumeradas para o Inspetor, in
 
 - [x] SEAP-F01 — `done` — Matriz conferida contra os 152 itens/subitens literais do Cargo 1: cobertura integral, sem lacuna ou item extra; duplicações/desdobramentos documentados e nenhum conteúdo exclusivo do Monitor incorporado como item programático.
 - [x] SEAP-F02 — `done` — Inspeção individual dos 110 pacotes/visões concluída: C/H/Q/R, schemas, frontmatter, Markdown, `abbr`, links, referências, questões, revisões, resoluções, identidades, rotas, 12 vínculos canônicos e consumidores conferidos; uma lacuna documental em U096 foi corrigida sem alterar C/H/Q.
-- [ ] SEAP-F03 — `pending` — Reconsultar publicações oficiais e fontes materiais, distinguir alterações posteriores do corte aplicável e resolver ou explicitar divergências documentais.
+- [ ] SEAP-F03 — `analyzing` — Snapshot temporal/material reconsultado em 30/09/2026; conclusão bloqueada pela janela jurisprudencial ainda aberta até 13/11/2026 se a prova permanecer em 13/12/2026. Retomar no marco final ou antes se novo edital alterar a data da prova.
 - [ ] SEAP-F04 — `pending` — Confirmar na `main` os commits e todos os arquivos resolvidos, consolidando evidência por unidade e validade para os consumidores compartilhados.
 - [ ] SEAP-F05 — `pending` — Recalcular tarefas, unidades reais, canônicas, locais e visões; fechar a meta somente com cobertura integral, todas as tarefas `done` e nenhuma reserva ativa.
 
@@ -1990,6 +1990,34 @@ Reserva serial vigente: `seap-f02-f04-20260930t0014-03`. Base da reserva: `22e35
 **Resultado F02:** nenhuma outra falha estrutural/editorial verificável permaneceu. A inspeção não reabre os 330 C/H/Q já aceitos e não congela legislação/jurisprudência ou atualidades: a reconsulta temporal/material continua pertencendo a F03. Não foram executados testes, builds, CI ou checks.
 
 **Aceite:** SEAP-F02 passa a `done`. Totais: **48 macros done / 3 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. A reserva serial permanece ativa para **SEAP-F03 → SEAP-F04**. Próxima ação: **SEAP-F03 — reconsultar publicações oficiais, fontes materiais e atos posteriores ao corte, distinguindo o que é pós-corte**.
+
+
+### SEAP-F03 — reconsulta temporal/material — analyzing em 30/09/2026
+
+Reserva serial vigente: `seap-f02-f04-20260930t0014-03`. A `main` foi reconferida imediatamente antes desta escrita e permanecia em `f34fd06da129cb6ab88c1e746e9e688395be6d63`, sem corrida sobre arquivos da campanha após o aceite de F02.
+
+**Cronograma e janela jurisprudencial:** a página institucional do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>, atualizada em 25/09/2026, continua informando provas objetiva e discursiva em **13/12/2026**: https://www.cebraspe.org.br/seap-ma-divulga-concurso-publico-para-inspetor-de-policia-penal-e-monitor-de-ressocializacao/. Mantida essa data, o item 21.33.1 do Edital nº 1 deixa a jurisprudência dos tribunais superiores aberta até **13/11/2026**. Como hoje é 30/09/2026, esse corte futuro ainda não pode ser certificado. A regra já consolidada na seção 3.3 de não encerrar antecipadamente a verificação jurisprudencial permanece vinculante.
+
+**Legislação federal pós-corte:** o índice oficial de Leis Ordinárias de 2026 do Planalto foi reconsultado em 30/09/2026 (https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/_leis2026.htm). Entre os atos posteriores ao corte legislativo de **21/07/2026** com incidência direta nos recortes da campanha, foram localizadas:
+- **Lei nº 15.474/2026**, de 23/07, que altera a Lei nº 10.826/2003; já permanece corretamente registrada em U094 como alteração pós-corte, sem importação para a objetiva;
+- **Lei nº 15.487/2026**, de 06/08, que altera Código Penal, Código de Processo Penal, Estatuto da Criança e do Adolescente, Lei nº 8.072/1990 e Lei nº 12.850/2013; já está isolada como pós-corte em U073/U081/U096/U100 e fronteiras correlatas;
+- **Lei nº 15.517/2026**, de 22/09, que alterou o Código Penal para furto/roubo de combustíveis; U072 já a registra expressamente como alteração pós-corte.
+
+A reconsulta, portanto, não autoriza substituir o estado legislativo de 21/07/2026 por essas redações posteriores. Nenhuma dessas três exige reabrir C/H/Q já aceitos; o tratamento publicado de corte versus pós-corte está coerente no snapshot de 30/09.
+
+**Normas penitenciárias enumeradas no edital:** fontes institucionais permanecem disponíveis e coerentes com o recorte publicado. A Biblioteca Digital do Ministério da Justiça registra a Portaria Interministerial nº 1/2014 (<abbr title="Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional">PNAISP</abbr>) com situação “não consta revogação expressa” (https://bibliotecadigital.mj.gov.br/handle/1/13101). A <abbr title="Secretaria Nacional de Políticas Penais">SENAPPEN</abbr>/<abbr title="Conselho Nacional de Política Criminal e Penitenciária">CNPCP</abbr> mantém nas páginas oficiais a Resolução nº 3/2009 e a Resolução nº 31/2022; o repositório ministerial também registra sem revogação expressa a Resolução nº 4/2017. A política e as resoluções nomeadas continuam, assim, com fonte institucional verificável no snapshot atual; a passagem final de F03 ainda deverá repetir a conferência antes do aceite.
+
+**Norma estadual:** a página oficial da <abbr title="Secretaria de Estado de Administração Penitenciária do Maranhão">SEAP/MA</abbr> continua disponibilizando a Lei nº 11.342/2020 no conjunto normativo institucional (https://seap.ma.gov.br/programas-ou-campanhas/leis). U110 já distingue a redação histórica de 2020 das reorganizações pré-corte de 2026, inclusive a Lei estadual nº 12.890/2026; nenhuma regressão para a redação original foi feita.
+
+**Jurisprudência em movimento — evidência concreta do bloqueio:** em **29/09/2026**, a Quinta Turma do <abbr title="Superior Tribunal de Justiça">STJ</abbr> divulgou decisão interpretando o art. 152, parágrafo único, da <abbr title="Lei de Execução Penal">LEP</abbr> para reconhecer, em contexto de violência de gênero e quando a medida for adequada à prevenção da reiteração, o poder-dever de condicionar o sursis à participação em grupo reflexivo. O número do processo não é divulgado por segredo judicial. Fonte institucional: https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/29092026-violencia-domestica-stj-reconhece-poder-dever-de-determinar-participacao-em-grupo-reflexivo-como-condicao-do.aspx. Esse precedente foi publicado **depois** da produção de U098 e **antes** do marco provisório de 13/11, demonstrando que a janela continua produzindo material potencialmente cobrável. Ele fica registrado para reconciliação no passe final de F03; não foi importado isoladamente para C/H/Q antes do encerramento da janela.
+
+No <abbr title="Supremo Tribunal Federal">STF</abbr>, o Tema 1.441 (RE 1.490.568), relevante à colaboração premiada de advogado investigado, continua sem tese final de mérito: a página oficial registra repercussão geral reconhecida e movimentações de 22/09/2026, com processo concluso ao relator. Fonte: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=6907234&numeroProcesso=1490568&numeroTema=1441. U096 permanece correto ao não inventar tese final.
+
+**Bloqueio temporal próprio:** F03 não pode passar a `done` em 30/09/2026 sem contradizer o corte jurisprudencial do edital e a decisão explícita da seção 3.3 de não certificar a janela antes de seu encerramento. O bloqueio é temporal, verificável e restrito a F03/F04; não rebaixa U001–U110 nem os 330 C/H/Q já `done`.
+
+**Intervenção necessária para destravar:** retomar F03 **em ou após 13/11/2026**, se a prova continuar em 13/12/2026. Antes do passe final, reconsultar o Cebraspe/atos do certame para confirmar a data; se houver novo edital com mudança de prova, recalcular o marco de 30 dias. Em seguida, reconsultar STF/STJ e as fontes normativas materiais, decidir a incorporação de jurisprudência publicada dentro da janela — inclusive o precedente de 29/09 sobre o art. 152 da LEP —, publicar qualquer ajuste necessário e só então concluir F03. F04 permanece serialmente bloqueada por F03.
+
+**Estado após o snapshot:** SEAP-F03 passa de `pending` para **`analyzing`**. Totais: **48 macros done / 1 analyzing / 2 pending; 110/110 unidades done; 330/330 C/H/Q done; 98 visões locais + 12 canônicas**. Não foram executados testes, builds, CI ou checks.
 
 A cada ciclo, substitua o registro da unidade/tarefa própria pela evidência corrente, conservando decisões e evidências únicas. Não acumule resumos idênticos, reservas encerradas ou novas cópias de totais. Documente limites reais de leitura e de acesso sem transformar identificação de fonte em aceite do material.
 
