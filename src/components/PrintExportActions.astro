@@ -107,7 +107,8 @@ const config = JSON.stringify({
 </div>
 
 <script>
-  import { PRINT_SECTIONS, SECTION_LABELS, scopeLabel } from '../lib/print-export';
+  import { PRINT_SECTIONS, SECTION_LABELS, activeToSection, scopeLabel } from '../lib/print-export';
+  import { loadPrintPreferences, savePrintPreferences } from '../lib/print-preferences';
   import {
     QUESTION_ORIGIN_LABELS,
     emptyMessageForOrigin,
@@ -318,11 +319,25 @@ const config = JSON.stringify({
       return PRINT_SECTIONS.filter((section) => checked.has(section));
     };
 
+    const persistSelection = () => {
+      savePrintPreferences({
+        schemaVersion: 1,
+        sections: selectedSections(),
+        includeGabarito: gabarito?.checked ?? true,
+      });
+    };
+
     const openDialog = (trigger: HTMLElement) => {
       opener = trigger;
       if (title) title.textContent = 'Imprimir';
       confirm.textContent = 'Imprimir';
       setStatus('');
+      const preferences = loadPrintPreferences();
+      const sections = preferences?.sections ?? [activeToSection(config.active)];
+      sectionBoxes.forEach((box) => {
+        box.checked = sections.some((section) => section === box.value);
+      });
+      if (gabarito) gabarito.checked = preferences?.includeGabarito ?? true;
       syncGabaritoRow();
       if (!dialog.open) dialog.showModal();
       const first = sectionBoxes[0];
@@ -412,12 +427,12 @@ const config = JSON.stringify({
     });
 
     root.querySelector('[data-print-only-current]')?.addEventListener('click', () => {
-      const current =
-        config.active === 'content' ? 'conteudo' : config.active === 'cheat-sheet' ? 'cheat-sheet' : 'questoes';
+      const current = activeToSection(config.active);
       sectionBoxes.forEach((box) => {
         box.checked = box.value === current;
       });
       syncGabaritoRow();
+      persistSelection();
     });
 
     root.querySelector('[data-print-all]')?.addEventListener('click', () => {
@@ -425,11 +440,16 @@ const config = JSON.stringify({
         box.checked = true;
       });
       syncGabaritoRow();
+      persistSelection();
     });
 
     sectionBoxes.forEach((box) => {
-      box.addEventListener('change', syncGabaritoRow);
+      box.addEventListener('change', () => {
+        syncGabaritoRow();
+        persistSelection();
+      });
     });
+    gabarito?.addEventListener('change', persistSelection);
 
     cancel.addEventListener('click', closeDialog);
     dialog.addEventListener('click', (event) => {
