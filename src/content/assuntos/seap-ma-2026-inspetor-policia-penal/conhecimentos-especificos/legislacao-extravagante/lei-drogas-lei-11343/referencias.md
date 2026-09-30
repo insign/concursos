@@ -40,9 +40,12 @@ Na consulta de 28 set. 2026, a anotação do texto compilado da Lei nº 11.343/2
 10. **Superior Tribunal de Justiça. Súmula 347.** O conhecimento de recurso de apelação do réu independe de sua prisão.  
     https://www.stj.jus.br/docs_internet/SumulasSTJ.pdf
 
+11. **Superior Tribunal de Justiça — Quinta Turma, decisão divulgada em 4 ago. 2026, AREsp 3.136.623.** Agente que atua como “olheiro” ou vigilante de forma integrada e indispensável à comercialização de drogas responde por coautoria ou participação no tráfico do artigo 33; o artigo 37 é subsidiário e alcança colaboração externa, eventual e periférica.  
+    https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04082026-Para-Quinta-Turma--%E2%80%9Colheiro%E2%80%9D-que-atua-durante-venda-de-drogas-responde-por-trafico--nao-por-colaboracao.aspx
+
 ### Corte jurisprudencial
 
-O edital admite jurisprudência de tribunais superiores publicada até **30 dias antes das provas**. A prova estava inicialmente prevista para 13 dez. 2026. A consulta desta unidade foi realizada em **28 set. 2026**, antes do fechamento dessa janela; por isso, esta referência registra apenas precedentes e enunciados já publicados e exige revalidação final em SEAP-F03, sem converter 21 jul. 2026 em corte jurisprudencial.
+O edital admite jurisprudência de tribunais superiores publicada até **30 dias antes das provas**. A prova estava inicialmente prevista para 13 dez. 2026. A reconsulta F03 em **30 set. 2026** incorporou os precedentes materialmente pertinentes já publicados até essa data, sem converter 21 jul. 2026 em corte jurisprudencial.
 
 ## Questões anteriores
 
@@ -56,4 +59,4 @@ Nenhuma questão anterior foi incorporada ao conjunto SEAP-U101. Foram priorizad
 - Revisão: estrutura por política pública → uso pessoal → crimes → majorantes → procedimento foi preservada; corte atualizado para 21/07/2026; pontes PC foram removidas ou reconciliadas com SEAP-U100 e com as unidades processuais pertinentes.
 - A Lei nº 15.281/2025 e a Lei nº 15.358/2026 permanecem anteriores ao corte. A listagem oficial das leis entre 14 e 21/07/2026 não registra nova alteração da Lei nº 11.343/2006.
 - Q mantém 37 itens, IDs, `origin`, alternativas e gabaritos; apenas microglossário institucional foi aplicado, com revisões contratuais.
-- Reconsulta normativa/jurisprudencial: 28/09/2026. Janela final até 13/11/2026 permanece em SEAP-F03.
+- Reconsulta normativa/jurisprudencial F03: 30/09/2026; material publicado até a data da consulta foi reconciliado nesta unidade.
