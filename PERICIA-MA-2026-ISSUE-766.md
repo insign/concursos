@@ -22,17 +22,17 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Implantação e fontes | 5 | 4 | 1 | 0 |
+| Implantação e fontes | 5 | 4 | 0 | 1 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 50 | 1 | 0 |
+| Total de macros individualizadas | 51 | 50 | 0 | 1 |
 
 Os 12 blocos editoriais são agregadores das 36 macros C/H/Q: 11 blocos de conhecimentos e um bloco auxiliar de preparação discursiva. Não são mais 12 tarefas e o bloco auxiliar não é uma nova disciplina do edital.
 
 Unidades reais, origens canônicas, pacotes locais, visões e entregáveis unitários ainda dependem do inventário e do desdobramento em PER-P03/PER-R01. Não há total unitário aceito nem cobertura percentual certificada. Não converter quantidade de macros em quantidade de assuntos, nem importar os totais de outras metas.
 
-**PER-P01 analyzing, em publicação e confirmação.** Consolidação corrente na seção 3: programa integral, regras, cortes e inconsistências. Próxima preparação após o aceite: PER-P02. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada. Reservas operacionais vigentes devem ser lidas na #766.
+**PER-P01 done. Próxima ação: PER-P02.** A consolidação da seção 3 está publicada e confirmada na main, com evidência na seção 8.3. Definir título, slug, identidade, ordem e caminhos conforme os contratos correntes. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada. Reservas operacionais vigentes devem ser lidas na #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -354,7 +354,7 @@ Fonte: S05, página 61.
 
 Os 132 números contam referências literais, inclusive pais e filhos, e **não** 132 unidades reais. Há temas repetidos e itens com múltiplos recortes. As 80 questões e os 132 itens são dimensões diferentes. A discursiva é regida pelo item 9 e apoiada em PER-E12; não aumenta a quantidade de disciplinas objetivas ou de itens em 21.2.2/21.2.3.
 
-**PER-P02 habilitada após confirmação de PER-P01:** definir título, slug, identidade, ordem e caminhos segundo os contratos correntes, sem materializar catálogo/grupos vazios. **PER-P03:** converter esta cobertura integral em matriz por assunto, conciliando repetições e fronteiras, com origens/cortes/consumidores comprovados e estados C/H/Q inicialmente pending. O significado de “eclética” permanece uma incerteza localizada, sem bloquear a definição da identidade ou os assuntos independentes. Não foram reconstruídos aceites ou importados totais de outras campanhas.
+**PER-P02 habilitada pelo aceite confirmado de PER-P01:** definir título, slug, identidade, ordem e caminhos segundo os contratos correntes, sem materializar catálogo/grupos vazios. **PER-P03:** converter esta cobertura integral em matriz por assunto, conciliando repetições e fronteiras, com origens/cortes/consumidores comprovados e estados C/H/Q inicialmente pending. O significado de “eclética” permanece uma incerteza localizada, sem bloquear a definição da identidade ou os assuntos independentes. Não foram reconstruídos aceites ou importados totais de outras campanhas.
 
 ## 4. Contratos, seleção e concorrência
 
@@ -465,7 +465,7 @@ As tarefas abaixo mantêm IDs, títulos, descrições e caixas do planejamento r
 
 ### 7.1 Fontes e criação do concurso
 
-- [ ] PER-P01 — `analyzing` — Consolidar edital e retificações oficiais; transcrever o programa integral do Cargo 1 com numeração, separar objetiva/discursiva e registrar inconsistências sem correção silenciosa.
+- [x] PER-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral do Cargo 1 com numeração, separar objetiva/discursiva e registrar inconsistências sem correção silenciosa.
 - [ ] PER-P02 — `pending` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [ ] PER-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] PER-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e identificação inequívoca do Cargo 1 e da especialidade.
@@ -586,11 +586,11 @@ Observação externa, sem intervenção: a #764 está fechada no GitHub, mas seu
 
 ### 8.3 Evidência corrente de PER-P01 — 01/10/2026
 
-**Estado: analyzing, aguardando confirmação da publicação na main.** Entrega exclusiva de preparação; nenhum conteúdo, cheat sheet ou conjunto de questões recebeu aceite. Origem: S01–S05 e consolidação anterior, com fontes normativas primárias identificadas na seção 3. Destino: este mestre; consumidor: Cargo 1 — Generalista da #766. Não houve edição de conteúdo canônico/local, catálogo, grupo, vínculo, infraestrutura ou outra campanha.
+**Estado: done.** Consolidação publicada no commit [`c7d9a1a`](https://github.com/insign/concursos/commit/c7d9a1a45cb356075bf0ac281f53a6d82a91d983), SHA completo `c7d9a1a45cb356075bf0ac281f53a6d82a91d983`; blob `703665879f7eb090ff6917cadcc7a07a41235a95`. Commit e conteúdo integral relidos na main antes deste aceite. Entrega exclusiva de preparação; nenhum conteúdo, cheat sheet ou conjunto de questões recebeu aceite. Origem: S01–S05 e consolidação anterior, com fontes normativas primárias identificadas na seção 3. Destino: este mestre; consumidor: Cargo 1 — Generalista da #766. Não houve edição de conteúdo canônico/local, catálogo, grupo, vínculo, infraestrutura ou outra campanha.
 
 Base de publicação: main `ee3d6e0f382e3bffce63ea69dea07e918ada2057`; blob anterior deste mestre `5a997574717e046373ac1ea0d790e3e7528b4be8`. AGENTS.md integralmente relido no blob `1735e5035e3824be202be5c014f18d6445e235bb`. Conferidos contratos atuais: schemas `7d8dbc8e3bab4bc5c9b2758b07ce271b7ade636d`; coleções `48394b960e1b0dbd18857a1139092f1755f64cac`; resolvedor `40af91c4af877ba368416376757e52ea61792493`; caminhos `ca1acfe24337c01925ddfba39559323a59a27eb2`; ADRs `6d94fe8802ac79e254e623823884c27b39d1d98d`. A árvore recursiva recebida não estava truncada: 3.228 entradas; os cinco catálogos vigentes foram lidos, com exemplos de grupo e vínculo. Não existe catálogo da Perícia nessa base, e esta etapa não o cria. No resolvedor, confirmado vínculo explícito, origem canônica existente, slug final igual, ordem do consumidor e ausência de mistura com pacote físico.
 
-#764/#765 foram consultadas somente para concorrência/proveniência: sem reservas ativas nos painéis. A divergência externa entre estado fechado da #764 e seu PC-F05 pending continua registrada, sem normalização ou bloqueio desta tarefa documental. Nenhum aceite de outra campanha foi usado como evidência de qualidade desta campanha.
+Os painéis #764/#765 foram consultados somente para concorrência/proveniência: sem reservas ativas nos painéis. A divergência externa entre estado fechado da #764 e seu PC-F05 pending continua registrada, sem normalização ou bloqueio desta tarefa documental. Nenhum aceite de outra campanha foi usado como evidência de qualidade desta campanha.
 
 **Leitura e ganho documental:** transcrito e conferido todo o recorte 21.2.2/21.2.3 do Cargo 1, com 132 itens/subitens; lidos os três atos complementares inteiros e as regras de prova/cortes/cronograma aplicáveis; inspecionadas as imagens das páginas 59–61. Substituída a orientação inicial não revalidada pela consolidação até o Edital nº 3; diferenciados data do ato e disponibilização, concurso 2026 e prova provável em 2027, corte legislativo e jurisprudencial, diploma vigente e expressamente citado sem vigência. Repetições da Lei nº 7.116/1983 e fronteiras programáticas ficaram explícitas para a matriz. A dúvida “eclética” não recebeu solução presumida. O crescimento é documental: programa integral, regras e evidências; não corresponde a expansão de aula ou revisão ampliada. Transcrições preservadas; microglossário aplicado às siglas da explicação da fórmula, fora dos símbolos matemáticos. Nenhum tempo poupado foi estimado.
 
@@ -606,7 +606,7 @@ Identificadores dos documentos consultados, calculados sobre os bytes recebidos,
 | Consolidado inicial até Edital nº 2 | `13a1fc6a6035ddb340da920e8ec0a8525ea36b6fb7d5eae77368117ca2366d6e` |
 | Listagem pública consultada | `78d6efb3f76f6af4dfb5f65ec8ced7109c28d5a9532ef5c821c2b161828d4cf0` |
 
-A inspeção manual abrange redação, numeração, referências, fórmulas, marcação e limites de escopo do documento. Testes, builds, CI e checks não foram executados. PER-P02 permanece pending; não há alegação de inventário ou revisão integral dos doadores. Unidades reais e C/H/Q unitários ainda serão individualizados. Esta evidência será atualizada com o commit efetivo após releitura na main, sem presumir identificador futuro.
+A inspeção manual abrange redação, numeração, referências, fórmulas, marcação e limites de escopo do documento. Testes, builds, CI e checks não foram executados. PER-P02 permanece pending; não há alegação de inventário ou revisão integral dos doadores. Unidades reais e C/H/Q unitários ainda serão individualizados. A publicação documental e seu conteúdo foram confirmados antes do aceite; a consolidação de estado é registrada em commit separado e será reconfirmada no painel.
 
 ### 8.4 Condições finais
 
