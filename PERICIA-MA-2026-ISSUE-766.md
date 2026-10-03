@@ -22,17 +22,17 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Implantação e fontes | 5 | 2 | 1 | 2 |
+| Implantação e fontes | 5 | 2 | 0 | 3 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 48 | 1 | 2 |
+| Total de macros individualizadas | 51 | 48 | 0 | 3 |
 
 Os 12 blocos editoriais são agregadores das 36 macros C/H/Q: 11 blocos de conhecimentos e um bloco auxiliar de preparação discursiva. Não são mais 12 tarefas e o bloco auxiliar não é uma nova disciplina do edital.
 
 PER-P03 individualiza 99 unidades planejadas (98 objetivas e uma auxiliar), 99 visões previstas e 297 entregáveis C/H/Q inicialmente pending, conforme 5.1–5.5/7.5. São recortes para produção; zero unidades/visões publicadas e zero C/H/Q aceitos na Perícia. As 132 referências literais estão mapeadas; a cobertura editorial aceita é 0/132. Origens candidatas: 73 (48 canônicas e 25 locais), sem classificação integral/parcial/nova certificada. Não somar doadores, associações e pais às unidades distintas.
 
-**PER-P01/P02 done; PER-P03 analyzing.** A matriz e o backlog desta preparação aguardam publicação/releitura antes do aceite, com reserva própria na #766. Próxima execução após aceite: PER-R01/R02 por unidade, começando PER-U001; ler integralmente candidatos, resolver origem/consumidores, comparar recorte/corte e aplicar a revisão pedagógica antes de copiar/vincular ou aceitar. PER-P04/P05 continuam pending até o primeiro pacote completo. Não há bloqueio estrutural próprio; a dúvida “eclética” está localizada em PER-U028, sem bloquear as demais unidades.
+**PER-P01/P02/P03 done. Próxima ação: PER-R01/R02 por unidade, começando PER-U001.** Matriz 5.1–5.5 e backlog 7.5 publicados e confirmados na main, com evidência em 8.5. Ler integralmente candidatos, resolver origem/consumidores, comparar recorte/corte e aplicar a revisão pedagógica antes de copiar/vincular ou aceitar; o inventário/classificação macro só termina quando todas as unidades tiverem evidência própria. PER-P04/P05 continuam pending até o primeiro pacote completo. Não há bloqueio estrutural próprio; a dúvida “eclética” está localizada em PER-U028, sem bloquear as demais unidades. Reservas operacionais vigentes devem ser lidas na #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -999,7 +999,7 @@ As tarefas abaixo mantêm IDs, títulos, descrições e caixas do planejamento r
 
 - [x] PER-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral do Cargo 1 com numeração, separar objetiva/discursiva e registrar inconsistências sem correção silenciosa.
 - [x] PER-P02 — `done` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
-- [ ] PER-P03 — `analyzing` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
+- [x] PER-P03 — `done` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] PER-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e identificação inequívoca do Cargo 1 e da especialidade.
 - [ ] PER-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens oficiais, sem confundir a preparação discursiva auxiliar com disciplina da objetiva.
 
@@ -1762,7 +1762,7 @@ Conferidos manualmente campos estritos, formato e limite de identidade, ordem li
 
 ### 8.5 Evidência corrente de PER-P03 — 03/10/2026
 
-**Estado: analyzing.** Matriz 5.1–5.5 e 297 tarefas unitárias de 7.5 preparadas para publicação e releitura antes do aceite. Origem programática: S05 e consolidação PER-P01; identidade consumidora: PER-P02. Destino exclusivo: este mestre; consumidor: Cargo 1 — Generalista da #766. Nenhum C/H/Q unitário recebeu aceite.
+**Estado: done.** Matriz 5.1–5.5 e 297 tarefas unitárias de 7.5 publicadas no commit [`2f467c5`](https://github.com/insign/concursos/commit/2f467c5e1d3a3702c82599f2a89a74881e84580f), SHA completo `2f467c5e1d3a3702c82599f2a89a74881e84580f`; blob `0a7170449ce2ddb06536e0f79eec04793c91cb58`. Commit e conteúdo integral do mestre relidos na main antes deste aceite. A publicação modificou somente este arquivo; esta consolidação atualiza estado, evidência e agregados, com confirmação posterior no painel. Origem programática: S05 e consolidação PER-P01; identidade consumidora: PER-P02. Destino exclusivo: este mestre; consumidor: Cargo 1 — Generalista da #766. Nenhum C/H/Q unitário recebeu aceite.
 
 Base main `ef3edd2e92aac5353eab8f408639bd3ff15c410a`; blob anterior do mestre `299bfac6ee6db42a093fb66bdab5339a52e73871`. Reserva própria confirmada na #766, token `per-p03-20261003-0664aacf3713`. AGENTS.md integralmente relido no blob `1735e5035e3824be202be5c014f18d6445e235bb`. Árvores/contratos/catálogos consultados na main: árvore recursiva não truncada, 3.228 entradas; cinco catálogos, sem catálogo ou raiz consumidora da Perícia.
 
