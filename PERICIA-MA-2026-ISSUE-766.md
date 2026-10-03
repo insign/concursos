@@ -22,17 +22,17 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Implantação e fontes | 5 | 3 | 1 | 1 |
+| Implantação e fontes | 5 | 3 | 0 | 2 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 49 | 1 | 1 |
+| Total de macros individualizadas | 51 | 49 | 0 | 2 |
 
 Os 12 blocos editoriais são agregadores das 36 macros C/H/Q: 11 blocos de conhecimentos e um bloco auxiliar de preparação discursiva. Não são mais 12 tarefas e o bloco auxiliar não é uma nova disciplina do edital.
 
 Unidades reais, origens canônicas, pacotes locais, visões e entregáveis unitários ainda dependem do inventário e do desdobramento em PER-P03/PER-R01. Não há total unitário aceito nem cobertura percentual certificada. Não converter quantidade de macros em quantidade de assuntos, nem importar os totais de outras metas.
 
-**PER-P01 done; PER-P02 analyzing.** A definição de identidade e caminhos está registrada na seção 3.6, com reserva própria na #766, e aguarda publicação/releitura antes do aceite. A consolidação de PER-P01 permanece confirmada, conforme 8.3. Próxima etapa após esse aceite: PER-P03, matriz por assunto e desdobramento C/H/Q. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada.
+**PER-P01/P02 done. Próxima ação: PER-P03.** A identidade e os caminhos da seção 3.6 foram publicados e confirmados na main, com evidência em 8.4; o programa consolidado de PER-P01 permanece confirmado em 8.3. Montar a matriz edital → assuntos reais → origens/destinos, individualizar C/H/Q inicialmente pending e calcular a cobertura sem somar pais/filhos ou ocorrências repetidas. PER-P04/P05 continuam pending até o primeiro pacote completo. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada. Reservas operacionais vigentes devem ser lidas na #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -547,7 +547,7 @@ As tarefas abaixo mantêm IDs, títulos, descrições e caixas do planejamento r
 ### 7.1 Fontes e criação do concurso
 
 - [x] PER-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral do Cargo 1 com numeração, separar objetiva/discursiva e registrar inconsistências sem correção silenciosa.
-- [ ] PER-P02 — `analyzing` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
+- [x] PER-P02 — `done` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [ ] PER-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] PER-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e identificação inequívoca do Cargo 1 e da especialidade.
 - [ ] PER-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens oficiais, sem confundir a preparação discursiva auxiliar com disciplina da objetiva.
@@ -691,7 +691,7 @@ A inspeção manual abrange redação, numeração, referências, fórmulas, mar
 
 ### 8.4 Evidência corrente de PER-P02 — 03/10/2026
 
-**Estado: analyzing.** Definição documental na seção 3.6, aguardando publicação e releitura na main antes do aceite. Origem: consolidação PER-P01 e contratos atuais. Destino exclusivo: este mestre; consumidor: Cargo 1 — Generalista da #766. C/H/Q unitários não iniciados; nenhum doador ou pacote recebeu aceite pedagógico.
+**Estado: done.** Definição da seção 3.6 publicada no commit [`85762e3`](https://github.com/insign/concursos/commit/85762e314d686b71e7aacb40c1dd7e9a0305d08b), SHA completo `85762e314d686b71e7aacb40c1dd7e9a0305d08b`; blob `3304ad49ed64a48dcdfd970de82edc1099430724`. Commit e conteúdo integral do mestre relidos na main antes deste aceite. A publicação alterou somente este arquivo; esta consolidação atualiza estado, evidência e agregados, com confirmação posterior no painel. Origem: consolidação PER-P01 e contratos atuais. Destino exclusivo: este mestre; consumidor: Cargo 1 — Generalista da #766. C/H/Q unitários não iniciados; nenhum doador ou pacote recebeu aceite pedagógico.
 
 Base: main `a2eb93db7e331445b112f0643356c311e8deaaf8`; blob anterior do mestre `89b42beb4fee9ef02b18161b8ae6266f8df00292`. Reserva própria confirmada no painel, token `per-p02-20261003-0664aacf3713`. AGENTS.md integralmente relido no blob `1735e5035e3824be202be5c014f18d6445e235bb`.
 
