@@ -1,0 +1,1626 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "q086",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um relatório afirma que o alfabeto português tem 26 letras e que o ç é uma letra adicional. Qual correção é necessária?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manter a informação das 26 letras, mas esclarecer que ç é o c com cedilha, não uma letra autônoma."
+        },
+        {
+          "id": "b",
+          "text": "Reduzir o alfabeto a 23 letras, porque k, w e y só aparecem em estrangeirismos."
+        },
+        {
+          "id": "c",
+          "text": "Aumentar o alfabeto para 27 letras, incluindo ç depois de c."
+        },
+        {
+          "id": "d",
+          "text": "Excluir apenas w e manter k e y."
+        },
+        {
+          "id": "e",
+          "text": "Substituir a informação por 25 letras, contando ç e excluindo k e w."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O alfabeto tem 26 letras e inclui k, w e y. O ç é uma forma diacrítica do c e não se soma ao inventário de letras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q087",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta a respeito da cedilha.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O ç é uma letra autônoma e pode iniciar palavras portuguesas."
+        },
+        {
+          "id": "b",
+          "text": "O ç representa o c cedilhado, aparece antes de a, o ou u em formas como “caça”, “aço” e “açúcar” e não inicia palavra portuguesa."
+        },
+        {
+          "id": "c",
+          "text": "A cedilha só se emprega antes de e e i."
+        },
+        {
+          "id": "d",
+          "text": "O Acordo Ortográfico aboliu a cedilha e a substituiu por ss."
+        },
+        {
+          "id": "e",
+          "text": "Toda ocorrência intervocálica de ç pode ser trocada por ss sem alterar a palavra."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A cedilha modifica o c, não cria uma 27ª letra. Em português, ocorre em contextos como “caça”, “aço” e “açúcar”, mas não no início de palavra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q088",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na revisão do período “O servidor tanbém informou que o canpo reservado estava emfim disponível”, qual versão corrige apenas a representação da nasalidade?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O servidor tanbém informou que o campo reservado estava emfim disponível."
+        },
+        {
+          "id": "b",
+          "text": "O servidor também informou que o canpo reservado estava enfim disponível."
+        },
+        {
+          "id": "c",
+          "text": "O servidor também informou que o campo reservado estava enfim disponível."
+        },
+        {
+          "id": "d",
+          "text": "O servidor também informou que o campo reservado estava em fim disponível."
+        },
+        {
+          "id": "e",
+          "text": "O servidor tambêm informou que o campo reservado estava enfim disponível."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Antes de p e b, usa-se normalmente m: “campo”, “também”. Diante de f, usa-se n: “enfim”. “Em fim” é outra estrutura, com sentido diferente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q089",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Complete o período com palavras que expressem, respectivamente, veículo, matéria compacta, urgência e serviço postal: “O ___ levou a ___ com ___ ao ___.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "caro, massa, presa, correio"
+        },
+        {
+          "id": "b",
+          "text": "carro, maça, pressa, correio"
+        },
+        {
+          "id": "c",
+          "text": "carro, massa, presa, coreio"
+        },
+        {
+          "id": "d",
+          "text": "carro, massa, pressa, correio"
+        },
+        {
+          "id": "e",
+          "text": "caro, maça, preça, correio"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os sentidos exigem “carro”, “massa”, “pressa” e “correio”. Entre vogais, rr preserva o som forte de r, e ss representa o som surdo de s. “Caro”, “maça” e “presa” existem, mas não correspondem aos sentidos pedidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q090",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta apenas formas corretas quanto à manutenção ou supressão do h?",
+      "options": [
+        {
+          "id": "a",
+          "text": "aver, hoje, homem, des-humano, reabilitar"
+        },
+        {
+          "id": "b",
+          "text": "haver, oje, homem, desumano, re-habilitar"
+        },
+        {
+          "id": "c",
+          "text": "haver, hoje, omem, deshumano, reabilitar"
+        },
+        {
+          "id": "d",
+          "text": "aver, oje, homem, desumano, re-habilitar"
+        },
+        {
+          "id": "e",
+          "text": "haver, hoje, homem, desumano, reabilitar"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O h inicial permanece em “haver”, “hoje” e “homem”. Nas formações consagradas “desumano” e “reabilitar”, o h foi suprimido com a aglutinação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q091",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a opção em que todas as formas estão registradas com x ou ch corretamente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "enxofre, mexer, xícara, chave, flecha"
+        },
+        {
+          "id": "b",
+          "text": "enchofre, mexer, xícara, chave, flexa"
+        },
+        {
+          "id": "c",
+          "text": "enxofre, mecher, xícara, chave, flecha"
+        },
+        {
+          "id": "d",
+          "text": "enxofre, mexer, chícara, xave, flecha"
+        },
+        {
+          "id": "e",
+          "text": "enchofre, mecher, chícara, chave, flexa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As formas registradas são “enxofre”, “mexer”, “xícara”, “chave” e “flecha”. A oposição x/ch é frequentemente lexical e deve ser confirmada no VOLP quando não houver segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q092",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a série integralmente correta quanto ao emprego de g e j.",
+      "options": [
+        {
+          "id": "a",
+          "text": "jengiva, geringonça, geito, jiboia, logista"
+        },
+        {
+          "id": "b",
+          "text": "gengiva, geringonça, jeito, jiboia, lojista"
+        },
+        {
+          "id": "c",
+          "text": "gengiva, geringonça, geito, jibóia, lojista"
+        },
+        {
+          "id": "d",
+          "text": "gengiva, jeringonça, jeito, giboia, lojista"
+        },
+        {
+          "id": "e",
+          "text": "jengiva, geringonça, jeito, jibóia, logista"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Escrevem-se “gengiva”, “geringonça”, “jeito”, “jiboia” e “lojista”. “Jiboia” também exemplifica a perda do acento de oi aberto em paroxítona. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q093",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em qual alternativa todas as palavras estão grafadas corretamente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "analizar, autorizar, beleza, improvisar, pesquiza"
+        },
+        {
+          "id": "b",
+          "text": "analisar, autorisar, belesa, improvisar, pesquisa"
+        },
+        {
+          "id": "c",
+          "text": "analisar, autorizar, beleza, improvisar, pesquisa"
+        },
+        {
+          "id": "d",
+          "text": "analisar, autorizar, belesa, improvisar, pesquiza"
+        },
+        {
+          "id": "e",
+          "text": "analizar, autorisar, beleza, improvisar, pesquisa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "As grafias vigentes são “analisar”, “autorizar”, “beleza”, “improvisar” e “pesquisa”. Famílias e sufixos ajudam, mas não há uma regra única para toda escolha entre s e z. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q094",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao revisar uma palavra composta cuja grafia não se deduz com segurança de uma regra produtiva, qual procedimento é adequado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aplicar por analogia a grafia da palavra foneticamente mais parecida."
+        },
+        {
+          "id": "b",
+          "text": "Usar sempre a forma sem hífen, por ser a tendência do Acordo."
+        },
+        {
+          "id": "c",
+          "text": "Consultar exclusivamente listas anteriores a 2009."
+        },
+        {
+          "id": "d",
+          "text": "Verificar o registro no VOLP vigente e distinguir regra, variante e lexicalização."
+        },
+        {
+          "id": "e",
+          "text": "Aceitar qualquer grafia encontrada em textos publicados na internet."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O VOLP é a referência lexical para a variedade brasileira. Analogia e frequência informal não substituem o registro normativo, especialmente em compostos e variantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q095",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual conjunto contém apenas monossílabos tônicos corretamente acentuados?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pá, mês, nos, céu, doi"
+        },
+        {
+          "id": "b",
+          "text": "pa, mês, nós, ceu, dói"
+        },
+        {
+          "id": "c",
+          "text": "pá, mes, nós, céu, doi"
+        },
+        {
+          "id": "d",
+          "text": "pâ, mês, nóz, cêu, dói"
+        },
+        {
+          "id": "e",
+          "text": "pá, mês, nós, céu, dói"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Monossílabos tônicos terminados em a, e e o, com ou sem s, são acentuados; ditongos abertos éi, éu e ói também: “pá”, “mês”, “nós”, “céu”, “dói”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q096",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a série em que todas as oxítonas estão corretamente acentuadas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "cajá, café, cipó, também, parabéns, herói"
+        },
+        {
+          "id": "b",
+          "text": "cajá, café, cipó, tambem, parabens, heroi"
+        },
+        {
+          "id": "c",
+          "text": "cája, café, cipô, também, parabéns, herói"
+        },
+        {
+          "id": "d",
+          "text": "cajá, cafe, cipó, tambêm, parabéns, herói"
+        },
+        {
+          "id": "e",
+          "text": "caja, café, cipó, também, parabens, héroi"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Oxítonas terminadas em a, e, o, em e ens recebem acento; ditongos abertos em oxítonas também: “herói”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q097",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta apenas paroxítonas corretamente acentuadas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "facil, hífen, caráter, torax, lápis, órgãos"
+        },
+        {
+          "id": "b",
+          "text": "fácil, hífen, caráter, tórax, lápis, órgãos"
+        },
+        {
+          "id": "c",
+          "text": "fácil, hifén, caráter, tórax, lapís, órgãos"
+        },
+        {
+          "id": "d",
+          "text": "fácil, hífen, carater, tórax, lápis, orgãos"
+        },
+        {
+          "id": "e",
+          "text": "facíl, hífen, caráter, toráx, lápis, órgãos"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "As terminações l, n, r, x, is e ão(s) justificam os acentos de “fácil”, “hífen”, “caráter”, “tórax”, “lápis” e “órgãos”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q098",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A respeito de palavras como “história”, “série”, “lírio” e “mágoa”, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "São oxítonas porque a última sequência vocálica sempre forma hiato."
+        },
+        {
+          "id": "b",
+          "text": "São proparoxítonas reais em qualquer divisão silábica possível."
+        },
+        {
+          "id": "c",
+          "text": "No português brasileiro, costumam ser analisadas como paroxítonas terminadas em ditongo; o Acordo também as denomina proparoxítonas aparentes."
+        },
+        {
+          "id": "d",
+          "text": "Não recebem acento quando tratadas como paroxítonas."
+        },
+        {
+          "id": "e",
+          "text": "A denominação proparoxítona aparente só se aplica a palavras terminadas em consoante."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Acordo chama de proparoxítonas aparentes formas com sequências vocálicas pós-tônicas normalmente tratadas como ditongos crescentes. A análise brasileira corrente as classifica como paroxítonas terminadas em ditongo; a grafia permanece acentuada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q099",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a série que aplica corretamente a regra dos hiatos com i e u tônicos.",
+      "options": [
+        {
+          "id": "a",
+          "text": "pais, saída, baú, raízes, juizes"
+        },
+        {
+          "id": "b",
+          "text": "país, saida, baú, raizes, juízes"
+        },
+        {
+          "id": "c",
+          "text": "páis, saída, báu, raízes, juízes"
+        },
+        {
+          "id": "d",
+          "text": "país, saída, baú, raízes, juízes"
+        },
+        {
+          "id": "e",
+          "text": "país, saída, baú, raízês, juízes"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "I e u tônicos, antecedidos de vogal e sozinhos na sílaba ou seguidos de s, recebem acento em “país”, “saída”, “baú”, “raízes” e “juízes”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q100",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em qual opção todas as palavras permanecem sem acento pelas restrições da regra dos hiatos?",
+      "options": [
+        {
+          "id": "a",
+          "text": "raínha, moinho, juiz, ruim, feiura"
+        },
+        {
+          "id": "b",
+          "text": "rainha, moínho, juíz, ruim, feiúra"
+        },
+        {
+          "id": "c",
+          "text": "rainha, moinho, juiz, ruím, feiúra"
+        },
+        {
+          "id": "d",
+          "text": "raínha, moínho, juíz, ruím, feiura"
+        },
+        {
+          "id": "e",
+          "text": "rainha, moinho, juiz, ruim, feiura"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Não se acentua i antes de nh em “rainha” e “moinho”; “juiz” e “ruim” formam sílaba com consoante diferente de s; “feiura” é paroxítona com u tônico depois de ditongo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q101",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa contrasta corretamente os ditongos abertos após o Acordo Ortográfico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Ideia” e “heroico” perderam o acento por serem paroxítonas; “herói” e “papéis” mantêm-no por serem oxítonas."
+        },
+        {
+          "id": "b",
+          "text": "“Idéia” e “heróico” permanecem corretas no Brasil por tradição."
+        },
+        {
+          "id": "c",
+          "text": "Nenhum ditongo aberto recebe acento na ortografia vigente."
+        },
+        {
+          "id": "d",
+          "text": "Todo ditongo aberto recebe acento, independentemente da posição tônica."
+        },
+        {
+          "id": "e",
+          "text": "“Ideía” e “héroi” são as formas que distinguem paroxítona e oxítona."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ei e oi abertos perderam o acento em paroxítonas, como “ideia” e “heroico”, mas continuam acentuados em oxítonas, como “herói” e “papéis”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q102",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a série que contém apenas formas vigentes após a retirada dos acentos de oo e eem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "vôo, enjôo, crêem, dêem, lêem, vêem"
+        },
+        {
+          "id": "b",
+          "text": "voo, enjoo, creem, deem, leem, veem"
+        },
+        {
+          "id": "c",
+          "text": "voo, enjôo, creem, deem, lêem, veem"
+        },
+        {
+          "id": "d",
+          "text": "voô, enjoo, crêem, deem, leem, vêem"
+        },
+        {
+          "id": "e",
+          "text": "vôo, enjoo, creêm, dêem, leem, veem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "As sequências oo e eem deixaram de receber os antigos acentos: “voo”, “enjoo”, “creem”, “deem”, “leem” e “veem”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q103",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Complete corretamente: “Ontem o relator ___ ___ o documento na pauta, mas hoje não ___ fazê-lo.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "pode, por, pôde"
+        },
+        {
+          "id": "b",
+          "text": "pôde, por, pode"
+        },
+        {
+          "id": "c",
+          "text": "pôde, pôr, pode"
+        },
+        {
+          "id": "d",
+          "text": "pode, pôr, pôde"
+        },
+        {
+          "id": "e",
+          "text": "pôde, pór, pode"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Pôde” marca o pretérito de poder; “pôr” é o verbo, distinto da preposição “por”; “pode” é forma do presente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q104",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Complete corretamente: “O diretor ___ a competência; os diretores ___ a competência. O técnico ___ cedo; os técnicos ___ cedo.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "têm, tem, vêm, vem"
+        },
+        {
+          "id": "b",
+          "text": "tem, tem, vem, vêm"
+        },
+        {
+          "id": "c",
+          "text": "tém, têm, vém, vêm"
+        },
+        {
+          "id": "d",
+          "text": "tem, têm, vem, vêm"
+        },
+        {
+          "id": "e",
+          "text": "têm, têm, vem, vem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "No singular, escrevem-se “tem” e “vem”; no plural, “têm” e “vêm”. O circunflexo distingue o número verbal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q105",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a correlação correta entre singular e plural dos compostos de ter e vir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ele mantem / eles mantém; ele intervem / eles intervém"
+        },
+        {
+          "id": "b",
+          "text": "ele mantêm / eles mantém; ele intervêm / eles intervém"
+        },
+        {
+          "id": "c",
+          "text": "ele mantém / eles mantém; ele intervem / eles intervêm"
+        },
+        {
+          "id": "d",
+          "text": "ele mantêm / eles mantem; ele intervém / eles interveem"
+        },
+        {
+          "id": "e",
+          "text": "ele mantém / eles mantêm; ele intervém / eles intervêm"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "No singular, “mantém” e “intervém” recebem agudo; no plural, “mantêm” e “intervêm” recebem circunflexo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q106",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre as formas “forma”/“fôrma” e “demos”/“dêmos”, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O Acordo admite os acentos facultativamente para desambiguação; as formas sem acento também podem ser corretas."
+        },
+        {
+          "id": "b",
+          "text": "Os circunflexos são obrigatórios em todo contexto."
+        },
+        {
+          "id": "c",
+          "text": "Os circunflexos foram proibidos sem exceção."
+        },
+        {
+          "id": "d",
+          "text": "“Fôrma” só pode ser verbo, e “dêmos” só pode ser pretérito."
+        },
+        {
+          "id": "e",
+          "text": "A escolha depende exclusivamente da posição da palavra na frase."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O Acordo admite “fôrma” e “dêmos” facultativamente em contextos de distinção. Faculdade normativa não equivale a obrigação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q107",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a afirmação correta sobre o trema.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permanece obrigatório em “lingüiça”, “freqüente” e “conseqüência”."
+        },
+        {
+          "id": "b",
+          "text": "Foi suprimido em palavras portuguesas e aportuguesadas, mas pode permanecer em nomes próprios estrangeiros e em derivados que conservem essa grafia."
+        },
+        {
+          "id": "c",
+          "text": "Sua retirada tornou mudo todo u escrito antes de e ou i."
+        },
+        {
+          "id": "d",
+          "text": "Foi substituído por acento agudo sempre que o u é pronunciado."
+        },
+        {
+          "id": "e",
+          "text": "É facultativo em qualquer palavra, conforme a preferência do autor."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Escrevem-se “linguiça”, “frequente” e “consequência”, sem trema. Nomes como “Müller” e derivados como “mülleriano” podem conservar o sinal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q108",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual série aplica corretamente a regra geral de prefixo terminado na mesma vogal que inicia o segundo elemento?",
+      "options": [
+        {
+          "id": "a",
+          "text": "antiinflamatório, microondas, contraataque"
+        },
+        {
+          "id": "b",
+          "text": "anti-inflamatório, microondas, contraataque"
+        },
+        {
+          "id": "c",
+          "text": "anti-inflamatório, micro-ondas, contra-ataque"
+        },
+        {
+          "id": "d",
+          "text": "anti inflamatório, micro ondas, contra ataque"
+        },
+        {
+          "id": "e",
+          "text": "antiinflamatório, micro-ondas, contraataque"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na regra geral, o encontro da mesma vogal conserva o hífen: anti-i, micro-o e contra-a. Elementos como co- e re- têm comportamento próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q109",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa em que as formações com prefixo terminado em vogal e segundo elemento iniciado por vogal diferente estão corretas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "auto-escola, auto-avaliação, infra-estrutura, semi-aberto"
+        },
+        {
+          "id": "b",
+          "text": "auto escola, autoavaliação, infra-estrutura, semiaberto"
+        },
+        {
+          "id": "c",
+          "text": "autoescola, auto-avaliação, infraestrutura, semi-aberto"
+        },
+        {
+          "id": "d",
+          "text": "autoescola, autoavaliação, infraestrutura, semiaberto"
+        },
+        {
+          "id": "e",
+          "text": "auto-escola, autoavaliação, infra estrutura, semiaberto"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Com vogais diferentes, ocorre aglutinação na regra geral: “autoescola”, “autoavaliação”, “infraestrutura” e “semiaberto”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q110",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa aplica corretamente a regra diante de r e s após prefixo terminado em vogal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anti-racista, anti-social, mini-saia, ultra-som"
+        },
+        {
+          "id": "b",
+          "text": "antiracista, antisocial, minisaia, ultrasom"
+        },
+        {
+          "id": "c",
+          "text": "antiirracista, antiissocial, miniissaia, ultrassom"
+        },
+        {
+          "id": "d",
+          "text": "antirracista, anti-social, minissaia, ultra-som"
+        },
+        {
+          "id": "e",
+          "text": "antirracista, antissocial, minissaia, ultrassom"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Retira-se o hífen e duplica-se r ou s: “antirracista”, “antissocial”, “minissaia”, “ultrassom”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q111",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em qual opção todas as formações prefixais diante de h estão corretas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anti-higiênico, super-homem, pré-história"
+        },
+        {
+          "id": "b",
+          "text": "antihigiênico, superhomem, préhistória"
+        },
+        {
+          "id": "c",
+          "text": "anti higiênico, super-homem, pre-história"
+        },
+        {
+          "id": "d",
+          "text": "anti-higiênico, superhomem, pré história"
+        },
+        {
+          "id": "e",
+          "text": "antihigiênico, super-homem, préhistória"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A regra geral conserva o hífen diante de h: “anti-higiênico”, “super-homem”, “pré-história”. Lexicalizações como “desumano” constituem outro caso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q112",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a série corretamente hifenizada com elementos de comportamento próprio.",
+      "options": [
+        {
+          "id": "a",
+          "text": "expresidente, vicepresidente, recémnascido, pósgraduação"
+        },
+        {
+          "id": "b",
+          "text": "ex-presidente, vice-presidente, recém-nascido, pós-graduação"
+        },
+        {
+          "id": "c",
+          "text": "ex presidente, vice-presidente, recem-nascido, pós-graduação"
+        },
+        {
+          "id": "d",
+          "text": "ex-presidente, vicepresidente, recém nascido, pós graduação"
+        },
+        {
+          "id": "e",
+          "text": "ex-presidente, vice presidente, recémnascido, pósgraduação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ex- no sentido de estado anterior, vice-, recém- e pós- tônico ligam-se por hífen nesses usos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q113",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa aplica corretamente os comportamentos próprios de co-, re- e pre- átono?",
+      "options": [
+        {
+          "id": "a",
+          "text": "co-obrigação, co-operação, co-ordenar; re-eleição; pre-existente"
+        },
+        {
+          "id": "b",
+          "text": "coobrigação, co-operação, coordenar; re-eleição; pré-existente"
+        },
+        {
+          "id": "c",
+          "text": "coobrigação, cooperação, coordenar; reeleição, reescrever; preexistente"
+        },
+        {
+          "id": "d",
+          "text": "co-obrigação, cooperação, co-ordenar; reeleição; pre-existente"
+        },
+        {
+          "id": "e",
+          "text": "co obrigação, co operação, coordenar; re eleição; pré existente"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Co-, re- e pre- átono apresentam aglutinação nos exemplos: “coobrigação”, “cooperação”, “coordenar”, “reeleição”, “reescrever”, “preexistente”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q114",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em um relatório, foram empregados os trechos “o benfeito alcançou a comunidade”, “um parecer bem-feito” e “o parecer foi bem feito pela equipe”. Assinale a análise correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "As três expressões devem ser escritas sem hífen, pois “bem” nunca integra compostos."
+        },
+        {
+          "id": "b",
+          "text": "“Benfeito” é adjetivo e pode substituir “bem-feito” em qualquer contexto."
+        },
+        {
+          "id": "c",
+          "text": "“Benfeito” é substantivo; “bem-feito” é adjetivo composto; “bem feito” é sequência sintática com advérbio e particípio."
+        },
+        {
+          "id": "d",
+          "text": "Somente “bem feito” pode funcionar como substantivo, e as outras duas formas são antigas."
+        },
+        {
+          "id": "e",
+          "text": "As três grafias são variantes livres e independem da classe gramatical."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "As três grafias têm funções distintas. “Benfeito” é substantivo, equivalente a benefício ou benfeitoria; “bem-feito” é adjetivo; “bem feito” mantém o advérbio separado do particípio. Fonte: questão autoral baseada no VOLP e na distinção registrada pela UFLA em https://www.ufla.br/dcom/2014/03/11/dicas-de-portugues-bem-feito-bem-feito-e-benfeito-atualizado/."
+    },
+    {
+      "id": "q115",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual conjunto contém apenas compostos hifenizados corretamente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "arcoíris, guarda-chuva, segunda feira, altomar, bem-te-vi"
+        },
+        {
+          "id": "b",
+          "text": "arco-íris, guardachuva, segunda-feira, alto mar, bemtevi"
+        },
+        {
+          "id": "c",
+          "text": "arco íris, guarda-chuva, segunda-feira, altomar, bem-te-vi"
+        },
+        {
+          "id": "d",
+          "text": "arco-íris, guarda chuva, segunda feira, alto-mar, bem te vi"
+        },
+        {
+          "id": "e",
+          "text": "arco-íris, guarda-chuva, segunda-feira, alto-mar, bem-te-vi"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os cinco compostos conservam hífen por regra ou registro lexical. “Bem-te-vi” também é nome de espécie zoológica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q116",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a opção que distingue corretamente a regra geral das locuções e as exceções consagradas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escrevem-se “fim de semana”, “cor de vinho” e “à vontade”, mas “cor-de-rosa”, “pé-de-meia” e “à queima-roupa”."
+        },
+        {
+          "id": "b",
+          "text": "Toda locução deve ser hifenizada: “fim-de-semana”, “cor-de-vinho”, “à-vontade”."
+        },
+        {
+          "id": "c",
+          "text": "Nenhuma locução admite hífen: “cor de rosa”, “pé de meia”, “à queima roupa”."
+        },
+        {
+          "id": "d",
+          "text": "Só locuções adverbiais recebem hífen: “à-vontade” e “à-queima-roupa”."
+        },
+        {
+          "id": "e",
+          "text": "A presença de preposição sempre elimina o hífen, inclusive em “cor de rosa” e “pé de meia”."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Locuções normalmente não recebem hífen, mas o Acordo enumera exceções consagradas, entre elas “cor-de-rosa”, “pé-de-meia” e “à queima-roupa”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q117",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta corretamente o contraste entre forma aglutinada e compostos ainda hifenizados?",
+      "options": [
+        {
+          "id": "a",
+          "text": "para-quedas, para-quedista, parabrisa, parachoque, paralama"
+        },
+        {
+          "id": "b",
+          "text": "paraquedas, paraquedista, para-brisa, para-choque, para-lama"
+        },
+        {
+          "id": "c",
+          "text": "paraquedas, para-quedista, para brisa, para-choque, parálama"
+        },
+        {
+          "id": "d",
+          "text": "para quedas, paraquedista, parabrisa, para choque, para-lama"
+        },
+        {
+          "id": "e",
+          "text": "para-quedas, paraquedista, para-brisa, parachoque, para lama"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Paraquedas” e “paraquedista” perderam a percepção de composição; “para-brisa”, “para-choque” e “para-lama” conservam hífen por registro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q118",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A respeito de compostos que designam espécies botânicas ou zoológicas, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nunca recebem hífen, porque são locuções nominais."
+        },
+        {
+          "id": "b",
+          "text": "Recebem hífen apenas quando não há preposição entre os elementos."
+        },
+        {
+          "id": "c",
+          "text": "Conservam hífen mesmo quando os elementos estão ligados por preposição, como em “erva-doce”, “cobra-d'água” e “bem-te-vi”."
+        },
+        {
+          "id": "d",
+          "text": "Devem ser escritos sempre em uma única palavra."
+        },
+        {
+          "id": "e",
+          "text": "Usam apóstrofo no lugar do hífen em todos os casos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Base XV prevê hífen nos compostos que designam espécies botânicas e zoológicas, com ou sem elemento de ligação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q119",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual série apresenta corretamente o hífen em formas verbais com pronomes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "entregou lhe, fazêlo, dar se á, dirlheia"
+        },
+        {
+          "id": "b",
+          "text": "entregou-lhe, fazer-lo, dar-se á, dir-lhe ia"
+        },
+        {
+          "id": "c",
+          "text": "entregoulhe, fazê-lo, dar se-á, dir-lhe-ia"
+        },
+        {
+          "id": "d",
+          "text": "entregou-lhe, fazê-lo, dar-se-á, dir-lhe-ia"
+        },
+        {
+          "id": "e",
+          "text": "entregou lhe, fazê-lo, dar-se-á, dir lhe-ia"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A ênclise e a mesóclise empregam hífen. Em “fazê-lo”, a forma verbal perde o r e recebe acento como oxítona terminada em e. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q120",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual frase segue a regra geral de minúsculas para dia, mês, idioma e cargo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Na Segunda-feira de Julho, o Diretor apresentará o relatório em Português."
+        },
+        {
+          "id": "b",
+          "text": "Na segunda-Feira de julho, o diretor apresentará o relatório em português."
+        },
+        {
+          "id": "c",
+          "text": "Na segunda feira de Julho, o Diretor apresentará o relatório em português."
+        },
+        {
+          "id": "d",
+          "text": "Na Segunda-Feira de julho, o diretor apresentará o relatório em Português."
+        },
+        {
+          "id": "e",
+          "text": "Na segunda-feira de julho, o diretor apresentará o relatório em português."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Dias da semana, meses, idiomas e cargos em emprego comum recebem minúscula. “Segunda-feira” conserva o hífen. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q121",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a frase correta quanto a ponto cardeal, estado e região geográfica.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O município fica ao norte do Maranhão, na região Nordeste."
+        },
+        {
+          "id": "b",
+          "text": "O município fica ao Norte do Maranhão, na região nordeste."
+        },
+        {
+          "id": "c",
+          "text": "O município fica ao norte do maranhão, na região nordeste."
+        },
+        {
+          "id": "d",
+          "text": "O Município fica ao Norte do Maranhão, na Região nordeste."
+        },
+        {
+          "id": "e",
+          "text": "O município fica ao norte do Maranhão, na região nordeste."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ponto cardeal em sentido comum fica em minúscula: “ao norte”. “Maranhão” e “Nordeste”, como nomes próprios, recebem maiúscula. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q122",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A respeito da grafia de nomes de disciplinas ou áreas do saber, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A maiúscula é sempre obrigatória em nomes de disciplinas."
+        },
+        {
+          "id": "b",
+          "text": "O Acordo admite inicial minúscula ou maiúscula, como “português”/“Português”, desde que se mantenha coerência editorial."
+        },
+        {
+          "id": "c",
+          "text": "A minúscula é sempre obrigatória, inclusive em títulos oficiais."
+        },
+        {
+          "id": "d",
+          "text": "A disciplina deve ser escrita em caixa-alta para se distinguir do idioma."
+        },
+        {
+          "id": "e",
+          "text": "A escolha depende de a palavra possuir ou não acento gráfico."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nomes de disciplinas e áreas do saber admitem opção de inicial minúscula ou maiúscula. Um manual pode fixar preferência, mas não transforma a variante em regra universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q123",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em relação a cargos como “presidente”, “ministro” e “diretor”, assinale a afirmação correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Todos os cargos devem começar por maiúscula."
+        },
+        {
+          "id": "b",
+          "text": "Todos os cargos devem começar por minúscula, sem qualquer faculdade."
+        },
+        {
+          "id": "c",
+          "text": "A minúscula é o uso comum; o Acordo admite maiúscula em certos empregos reverenciais ou hierárquicos, e o padrão editorial deve ser coerente."
+        },
+        {
+          "id": "d",
+          "text": "A inicial depende do gênero da pessoa ocupante."
+        },
+        {
+          "id": "e",
+          "text": "Cargos só podem ser grafados em caixa-alta em documentos públicos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cargos em emprego comum recebem minúscula, mas existe faculdade em determinados usos reverenciais ou hierárquicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q124",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em qual frase o apóstrofo está empregado em uso admitido pela norma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O plural de ONG é ONG's."
+        },
+        {
+          "id": "b",
+          "text": "O relatório d'ele foi juntado aos autos."
+        },
+        {
+          "id": "c",
+          "text": "Ele chegou n'uma segunda-feira."
+        },
+        {
+          "id": "d",
+          "text": "A leitura d'Os Lusíadas considerou o título como unidade."
+        },
+        {
+          "id": "e",
+          "text": "As PM's encaminharam o documento."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O apóstrofo pode preservar a integridade de título iniciado por artigo, como “d'Os Lusíadas”. Não forma plural de sigla nem substitui as contrações comuns “dele” e “numa”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q125",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a frase correta quanto a contrações comuns e ao sujeito do infinitivo.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apesar do servidor ter chegado cedo, o parecer d'ele não constava d'este processo."
+        },
+        {
+          "id": "b",
+          "text": "Apesar de o servidor ter chegado cedo, o parecer d'ele não constava deste processo."
+        },
+        {
+          "id": "c",
+          "text": "Apesar do servidor ter chegado cedo, o parecer dele não constava d'este processo."
+        },
+        {
+          "id": "d",
+          "text": "Apesar de-o servidor ter chegado cedo, o parecer de'le não constava deste processo."
+        },
+        {
+          "id": "e",
+          "text": "Apesar de o servidor ter chegado cedo, o parecer dele não constava deste processo."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Quando “o servidor” é sujeito de “ter chegado”, a sequência “de o” pode permanecer separada. As contrações comuns “dele” e “deste” não levam apóstrofo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q126",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em qual período a abreviatura final está pontuada de acordo com a norma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A relação inclui nomes, cargos, datas etc.."
+        },
+        {
+          "id": "b",
+          "text": "A relação inclui nomes, cargos, datas etc."
+        },
+        {
+          "id": "c",
+          "text": "A relação inclui nomes, cargos, datas etc"
+        },
+        {
+          "id": "d",
+          "text": "A relação inclui nomes, cargos, datas e.t.c."
+        },
+        {
+          "id": "e",
+          "text": "A relação inclui nomes, cargos, datas etc..."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O ponto que integra a abreviatura “etc.” também encerra o período; não se acrescenta um segundo ponto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q127",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a forma adequada para o plural da sigla PM em texto corrente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PM's"
+        },
+        {
+          "id": "b",
+          "text": "PMs"
+        },
+        {
+          "id": "c",
+          "text": "P.M.s"
+        },
+        {
+          "id": "d",
+          "text": "PMS."
+        },
+        {
+          "id": "e",
+          "text": "PM-es"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "No uso brasileiro contemporâneo, siglas normalmente não levam pontos; o plural pode ser indicado por s minúsculo, sem apóstrofo: “PMs”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q128",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual opção apresenta corretamente símbolos técnicos de massa, distância e potência?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 kgs., 10 kms. e 20 kWs."
+        },
+        {
+          "id": "b",
+          "text": "5 kg., 10 km. e 20 kW."
+        },
+        {
+          "id": "c",
+          "text": "5 kg, 10 km e 20 kW"
+        },
+        {
+          "id": "d",
+          "text": "5 kgs, 10 kms e 20 kws"
+        },
+        {
+          "id": "e",
+          "text": "5 KG's, 10 KM's e 20 KW's"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Símbolos como kg, km e kW não recebem ponto abreviativo nem flexão de plural; a capitalização deve respeitar a convenção técnica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q129",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao grafar nomes reduzidos de instituições, qual critério é mais seguro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Converter toda forma com mais de três letras em inicial maiúscula e demais minúsculas."
+        },
+        {
+          "id": "b",
+          "text": "Inserir pontos entre todas as letras."
+        },
+        {
+          "id": "c",
+          "text": "Acrescentar apóstrofo antes de qualquer s de plural."
+        },
+        {
+          "id": "d",
+          "text": "Preservar a forma institucional registrada, como CNPq, UnB e Petrobras."
+        },
+        {
+          "id": "e",
+          "text": "Escrever toda instituição exclusivamente em caixa-alta."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A forma institucional é a referência mais segura e pode combinar maiúsculas e minúsculas. Uma convenção editorial genérica não deve deformar nomes oficiais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q130",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre variantes admitidas pelo Acordo Ortográfico, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O Acordo eliminou toda diferença entre variedades nacionais."
+        },
+        {
+          "id": "b",
+          "text": "Toda grafia encontrada em um país lusófono é automaticamente preferencial no Brasil."
+        },
+        {
+          "id": "c",
+          "text": "A existência de variante torna aceitável qualquer forma semelhante."
+        },
+        {
+          "id": "d",
+          "text": "Variantes ortográficas só podem ocorrer em nomes próprios."
+        },
+        {
+          "id": "e",
+          "text": "Pares como “acadêmico”/“académico” e “aspecto”/“aspeto” podem refletir pronúncias cultas diferentes admitidas."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O Acordo preserva variantes ligadas a pronúncias cultas. Isso não libera qualquer grafia nem torna todas igualmente correntes no Brasil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q131",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma prova brasileira, como avaliar uma variante prevista no texto internacional do Acordo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Confirmar se ela é admitida e consultar o VOLP para distinguir possibilidade normativa de registro ou preferência brasileira."
+        },
+        {
+          "id": "b",
+          "text": "Marcá-la sempre como errada quando for menos frequente no Brasil."
+        },
+        {
+          "id": "c",
+          "text": "Aceitar qualquer forma foneticamente próxima sem consulta."
+        },
+        {
+          "id": "d",
+          "text": "Substituí-la obrigatoriamente por uma forma brasileira inventada por analogia."
+        },
+        {
+          "id": "e",
+          "text": "Ignorar a redação do enunciado e aplicar apenas preferência pessoal."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A análise deve confirmar a admissibilidade e considerar o registro brasileiro no VOLP. Frequência, possibilidade e preferência não são conceitos equivalentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q132",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a frase correta quanto a acentos diferenciais abolidos pelo Acordo Ortográfico.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O servidor pára o veículo junto ao pólo administrativo."
+        },
+        {
+          "id": "b",
+          "text": "O servidor para o veículo junto ao polo administrativo."
+        },
+        {
+          "id": "c",
+          "text": "O servidor pára o veículo junto ao polo administrativo."
+        },
+        {
+          "id": "d",
+          "text": "O servidor para o veículo junto ao pôlo administrativo."
+        },
+        {
+          "id": "e",
+          "text": "O servidor pará o veículo junto ao pólo administrativo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os antigos acentos diferenciais de “pára” e “pólo” foram abolidos. Escrevem-se “para” e “polo”; o contexto distingue os sentidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q133",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na revisão do período “A auto-avaliação do setor ocorrerá no dia-a-dia, e os diretores vêem a medida como anti-inflamatória contra falhas”, qual versão corrige apenas a ortografia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A auto-avaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como antinflamatória contra falhas."
+        },
+        {
+          "id": "b",
+          "text": "A autoavaliação do setor ocorrerá no dia-a-dia, e os diretores vêem a medida como anti-inflamatória contra falhas."
+        },
+        {
+          "id": "c",
+          "text": "A autoavaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como anti-inflamatória contra falhas."
+        },
+        {
+          "id": "d",
+          "text": "A auto avaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como antinflamatória contra falhas."
+        },
+        {
+          "id": "e",
+          "text": "A autoavaliação do setor ocorrerá no dia-a-dia, e os diretores veem a medida como anti inflamatória contra falhas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Escrevem-se “autoavaliação”, “dia a dia”, “veem” (sem circunflexo) e “anti-inflamatória” (mesma vogal). Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q142",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que apresenta apenas formas admitidas para verbos com u tônico.",
+      "options": [
+        {
+          "id": "a",
+          "text": "argúo, argúi, argúem; averiguo; enxagúo"
+        },
+        {
+          "id": "b",
+          "text": "arguo, argui, arguem; averiguo/averíguo; enxaguo/enxáguo"
+        },
+        {
+          "id": "c",
+          "text": "arguo, argúi, arguem; averíguo; enxagüo"
+        },
+        {
+          "id": "d",
+          "text": "argüo, argüi, argüem; averigúo; enxáguo"
+        },
+        {
+          "id": "e",
+          "text": "arguo, argui, argúem; averigüo; enxagúo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Arguir” prescinde de acento no u nas formas rizotônicas. Para verbos com “averiguar” e “enxaguar”, o Acordo admite dois paradigmas conforme a pronúncia: “averiguo”/“averíguo” e “enxaguo”/“enxáguo”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q143",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um parecer contém: “A auto-avaliação ocorrerá no dia-a-dia; os analistas argúem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kgs.” Qual revisão está integralmente de acordo com a ortografia vigente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A auto-avaliação ocorrerá no dia a dia; os analistas arguem que a decisão foi anunciada à-queima-roupa e que o equipamento pesa 5 kg."
+        },
+        {
+          "id": "b",
+          "text": "A autoavaliação ocorrerá no dia-a-dia; os analistas argúem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kg."
+        },
+        {
+          "id": "c",
+          "text": "A auto avaliação ocorrerá no dia a dia; os analistas arguem que a decisão foi anunciada à queima-roupa e que o equipamento pesa 5 kgs."
+        },
+        {
+          "id": "d",
+          "text": "A autoavaliação ocorrerá no dia a dia; os analistas argüem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kg."
+        },
+        {
+          "id": "e",
+          "text": "A autoavaliação ocorrerá no dia a dia; os analistas arguem que a decisão foi anunciada à queima-roupa e que o equipamento pesa 5 kg."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Escrevem-se “autoavaliação”, “dia a dia”, “arguem”, “à queima-roupa” e “5 kg”. A questão reúne regra prefixal, locução comum, forma de “arguir”, exceção hifenizada e símbolo técnico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q156",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A ortografia e a acentuação são aspectos cruciais para garantir a clareza e a precisão na comunicação escrita.\nAssinale o grupo de palavras em que todas estão grafadas corretamente, de acordo com as regras de ortografia e acentuação.",
+      "options": [
+        {
+          "id": "a",
+          "text": "microondas – autoescola – antiaéreo"
+        },
+        {
+          "id": "b",
+          "text": "micro-ondas – auto-escola – anti-aéreo"
+        },
+        {
+          "id": "c",
+          "text": "microondas – autoescola- antiaereo"
+        },
+        {
+          "id": "d",
+          "text": "microondas – auto-escola – anti-aereo"
+        },
+        {
+          "id": "e",
+          "text": "micro-ondas – autoescola – antiaéreo"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gabarito oficial definitivo: E. A grafia normativa é “micro-ondas”, “autoescola” e “antiaéreo”. Fonte: FGV; Serviço Geológico do Brasil (CPRM); Pesquisador em Geociências – Geologia – Levantamento Geológico e de Recursos Minerais; 2025; questão 4; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pesquisador-em-geociencias-geologia-levantamento-geologico-e-de-recursos-minerais-cns01e02-tipo-2.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "q157",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Assinale a opção em que as palavras estejam acentuadas adequadamente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os países tem vantagens comerciais com os últimos acordos."
+        },
+        {
+          "id": "b",
+          "text": "A platéia aplaudiu de pé o grande espetáculo."
+        },
+        {
+          "id": "c",
+          "text": "Os homens gostam de jogar pólo."
+        },
+        {
+          "id": "d",
+          "text": "Alcaloides são compostos orgânicos com propriedades farmacológicas."
+        },
+        {
+          "id": "e",
+          "text": "O professor é o verdadeiro heroi nacional."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gabarito oficial definitivo: D. “Alcaloides” é grafada sem acento; nas demais opções há formas incompatíveis com a ortografia e a acentuação vigentes, como “tem” no plural verbal, “platéia”, “pólo” e “heroi”. Fonte: FGV; Serviço Geológico do Brasil (CPRM); Pesquisador em Geociências – Geologia – Levantamento Geológico e de Recursos Minerais; 2025; questão 6; caderno: https://conhecimento.fgv.br/sites/default/files/concursos/pesquisador-em-geociencias-geologia-levantamento-geologico-e-de-recursos-minerais-cns01e02-tipo-2.pdf; gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "per-u002-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa emprega corretamente as quatro grafias relacionadas à ideia de motivo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porquê o prazo mudou? Não sei porque. O por que foi divulgado por quê houve recurso."
+        },
+        {
+          "id": "b",
+          "text": "Porque o prazo mudou? Não sei por que. O porquê foi divulgado por quê houve recurso."
+        },
+        {
+          "id": "c",
+          "text": "Por que o prazo mudou? Não sei por quê. O porquê foi divulgado porque houve recurso."
+        },
+        {
+          "id": "d",
+          "text": "Por quê o prazo mudou? Não sei porquê. O porque foi divulgado por que houve recurso."
+        },
+        {
+          "id": "e",
+          "text": "Por que o prazo mudou? Não sei porquê. O por quê foi divulgado porque houve recurso."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na pergunta direta, por que; na razão interrogada antes da pausa, por quê; como substantivo com artigo, porquê; na oração causal, porque. Todas as demais alternativas apresentam ao menos uma grafia incompatível com a função e a posição."
+    },
+    {
+      "id": "per-u002-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere: “Anseio por que a equipe venha” e “A equipe veio porque precisava revisar o relatório”. Qual análise justifica as grafias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As duas formas deveriam ser juntas, pois não há interrogação."
+        },
+        {
+          "id": "b",
+          "text": "Na primeira, por é a preposição pedida pelo verbo e que introduz a oração; na segunda, porque introduz a causa."
+        },
+        {
+          "id": "c",
+          "text": "Na primeira, porquê é substantivo; na segunda, por quê ocorre antes de pausa."
+        },
+        {
+          "id": "d",
+          "text": "As duas formas deveriam ser separadas, pois introduzem orações com verbos."
+        },
+        {
+          "id": "e",
+          "text": "Na primeira, que é pronome relativo com antecedente expresso equipe; na segunda, porque é substantivo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Anseiar por exige a preposição por; que introduz o conteúdo desse anseio, sem pergunta nem antecedente nominal de um relativo. Na segunda frase, a necessidade de revisar é apresentada como causa da vinda. A ausência de interrogação não determina sozinha a grafia."
+    }
+  ]
+}
