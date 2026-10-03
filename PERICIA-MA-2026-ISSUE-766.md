@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades distintas | 99 | 93 | 2 | 4 |
-| Entregáveis unitários C/H/Q | 297 | 279 | 6 | 12 |
+| Unidades distintas | 99 | 93 | 1 | 5 |
+| Entregáveis unitários C/H/Q | 297 | 279 | 3 | 15 |
 
-Os 12 blocos editoriais agregam 36 macros C/H/Q, sem criar tarefas adicionais. PER-P03 mantém 98 unidades objetivas e uma auxiliar, 99 visões previstas e 132 referências literais mapeadas. Estado confirmado: **4 unidades/visões locais publicadas; 12 C/H/Q aceitos; 6/132 referências literais aceitas**. U001–U003 estão documentadas em 5.6/8.6; U004, em 5.7/8.7. Classificação parcial local limitada aos recortes executados, sem aceite macro antecipado.
+Os 12 blocos editoriais agregam 36 macros C/H/Q, sem criar tarefas adicionais. PER-P03 mantém 98 unidades objetivas e uma auxiliar, 99 visões previstas e 132 referências literais mapeadas. Estado confirmado: **5 unidades/visões locais publicadas; 15 C/H/Q aceitos; 6/132 referências literais aceitas**. U001–U003 estão documentadas em 5.6/8.6; U004–U005, em 5.7/8.7. Classificação parcial local limitada aos recortes executados, sem aceite macro antecipado.
 
-**PER-P01–P05 done. Próxima ação: PER-U005**, conforme matriz 5.2 e backlog 7.5. Concluir o restante do lote U004–U006 reservado na #766. R01–R05 e macros E/F continuam pending. E01 tem 4/19 unidades aceitas. A dúvida “eclética” continua localizada em U028; não bloqueia os demais recortes. Catálogo e os dois grupos Generalista já publicados em PER-P04/P05, sem alteração neste ciclo; novos ramos surgirão com seus pacotes completos. Reservas operacionais devem ser lidas na #766.
+**PER-P01–P05 done. Próxima ação: PER-U006**, conforme matriz 5.2 e backlog 7.5. Concluir o restante do lote U004–U006 reservado na #766. R01–R05 e macros E/F continuam pending. E01 tem 5/19 unidades aceitas. A dúvida “eclética” continua localizada em U028; não bloqueia os demais recortes. Catálogo e os dois grupos Generalista já publicados em PER-P04/P05, sem alteração neste ciclo; novos ramos surgirão com seus pacotes completos. Reservas operacionais devem ser lidas na #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -482,7 +482,7 @@ PER-P04/P05 são materializadas com o primeiro assunto completo. Novos ramos só
 
 A matriz associa as **132/132 referências literais** do programa a recortes, sem contar pais/filhos como unidades. Essa cobertura de planejamento é 100%; a cobertura editorial aceita era **0/132 na publicação de PER-P03**; a execução corrente está em 2/5.6/5.7. Raciocínio 6 permanece semanticamente não esclarecido: ter destino administrativo não resolve “eclética”.
 
-**Proveniência e classificação.** S05, identificado em 3.1/8.3, é a origem programática de todas as linhas; a tabela 5.3 identifica 73 origens editoriais candidatas, com caminho, blob e identidade reais, para 77 unidades. Em 22 unidades não se selecionou candidato nesta triagem; isso não certifica ausência de material reaproveitável. **Estado inicial: PER-R02 pending em todas as linhas.** Classificações posteriores e seu alcance estão em 5.6/5.7; não generalizar os 4 resultados unitários aos recortes ainda não executados. Metadados, trecho inicial e presença dos companheiros não certificam compatibilidade integral ou qualidade. PER-R01 deverá ler C/H/Q, referências/resoluções e vizinhos integralmente, resolver consumidores e cortes; somente então PER-R02 classificará e registrará lacunas com evidência própria. Nenhum aceite alheio foi importado.
+**Proveniência e classificação.** S05, identificado em 3.1/8.3, é a origem programática de todas as linhas; a tabela 5.3 identifica 73 origens editoriais candidatas, com caminho, blob e identidade reais, para 77 unidades. Em 22 unidades não se selecionou candidato nesta triagem; isso não certifica ausência de material reaproveitável. **Estado inicial: PER-R02 pending em todas as linhas.** Classificações posteriores e seu alcance estão em 5.6/5.7; não generalizar os 5 resultados unitários aos recortes ainda não executados. Metadados, trecho inicial e presença dos companheiros não certificam compatibilidade integral ou qualidade. PER-R01 deverá ler C/H/Q, referências/resoluções e vizinhos integralmente, resolver consumidores e cortes; somente então PER-R02 classificará e registrará lacunas com evidência própria. Nenhum aceite alheio foi importado.
 
 **Destino/identidade planejados.** Todas as linhas têm caminho consumidor definido sob `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/`, slug final único, ordem global e identidade local de reserva `per-uNNN`. O quadro registra o plano local para produção nova ou cópia controlada; PER-R02 decidirá por unidade o modo local ou vinculado após a leitura integral. Se a leitura integral comprovar reaproveitamento canônico compatível, registrar em PER-R02, antes da primeira publicação da unidade, o modo vinculado e a identidade herdada exata da origem 5.3. O slug deve ser igual ao canônico e os companheiros ficam exclusivamente na origem. Se o candidato tiver slug distinto do plano local, registrar a alteração do destino ainda não publicado, sua justificativa e nova conferência de unicidade; manter o ID administrativo da unidade. Caso o recorte exija combinar/reduzir/completar candidatos, manter pacote local com proveniência. Valores de reserva não são identidades persistidas já publicadas; nenhuma identidade existente é renomeada.
 
@@ -506,7 +506,7 @@ Grupo consumidor: `conhecimentos-gerais/lingua-portuguesa/`, relativo à raiz de
 | PER-U002 — Ortografia oficial | E01: 3 | O003 | `ortografia-oficial` / `per-u002` / 20 | Acentuação com pré-requisitos e porquês; parcial local; aceite e proveniência em 5.6. |
 | PER-U003 — Coesão textual | E01: 4, 4.1 | O004 | `coesao-textual` / `per-u003` / 30 | Relações coesivas com pontes gramaticais curtas; parcial local; aceite e proveniência em 5.6. |
 | PER-U004 — Tempos e modos verbais | E01: 4.2 | O005 | `emprego-tempos-modos-verbais` / `per-u004` / 40 | Valor discursivo; flexão como ponte curta, sem repetir U006. Parcial local; C/H/Q aceitos em 5.7. |
-| PER-U005 — Classes nominais de palavras | E01: 5, 5.1 | O006 | `classes-nominais-de-palavras` / `per-u005` / 50 | Substantivo, adjetivo, artigo, numeral e pronomes; 5/5.1 repartidos com U006/U007. |
+| PER-U005 — Classes nominais de palavras | E01: 5, 5.1 | O006 | `classes-nominais-de-palavras` / `per-u005` / 50 | Substantivo, adjetivo, artigo, numeral e pronomes; 5/5.1 repartidos com U006/U007. Parcial local; C/H/Q aceitos em 5.7. |
 | PER-U006 — Verbo como classe de palavras | E01: 5, 5.1 | O007 | `verbo-como-classe-de-palavras` / `per-u006` / 60 | Função/flexão/locução verbal; contraste com valores de tempo/modo em U004. |
 | PER-U007 — Classes invariáveis de palavras | E01: 5, 5.1 | O008 | `classes-invariaveis-de-palavras` / `per-u007` / 70 | Advérbio, preposição, conjunção e interjeição. |
 | PER-U008 — Estrutura morfossintática do período | E01: 5 | O073 | `estrutura-morfossintatica-periodo` / `per-u008` / 80 | Base autônoma: termos da oração, funções e estrutura do período; classes, coordenação/subordinação e regras têm recortes próprios. Pontes: PER-U005, PER-U006, PER-U007. |
@@ -914,16 +914,16 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
 | Referências literais da objetiva | 132/132 | 6/132 |
-| Unidades distintas da objetiva | 98 | 4 |
+| Unidades distintas da objetiva | 98 | 5 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 4 |
-| Entregáveis unitários C/H/Q | 297: 279 pending + 6 analyzing + 12 done | 12 done |
-| Visões consumidoras previstas | 99 | 4 |
+| Total de unidades distintas | 99 | 5 |
+| Entregáveis unitários C/H/Q | 297: 279 pending + 3 analyzing + 15 done | 15 done |
+| Visões consumidoras previstas | 99 | 5 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 | 4 classificadas como parcial local em PER-R02 |
+| Unidades com candidato identificado | 77 | 5 classificadas como parcial local em PER-R02 |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | 0 classificadas como novas |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 4 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 5 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1016,6 +1016,8 @@ Novo consumidor: Cargo 1 Generalista da Perícia, concurso `pericia-ma-2026-agen
 
 **Critério Q:** itens selecionados têm cinco opções e uma resposta única conforme o contexto efetivamente pedido. IDs/origin preservados; mudança de enunciado/opção aumenta revision; mudança de seleção aumenta questionSetRevision. Explicação isolada não muda a identidade. Dois novos autorais têm IDs próprios e revisão 1. Não foram necessários arquivos de resolução: explicações inline apresentam o raciocínio e a confusão relevante. Não se converteu item C/E nem se inventou banca/ano.
 
+**Complemento de fontes nesta revisão:** Aulete, nos pontos de pronomes pessoais, tratamento/oblíquos, possessivos e indefinidos; Priberam, nos verbetes haver/reaver; Efaz/PR, somente a dica 888 (15/03/2018), sobre a alternância do infinitivo com causativos/perceptivos e a restrição com pronome átono. Não se declara leitura integral da coletânea Efaz. q235/q236 herdavam uma atribuição incorreta a Silva e Souza: a página indicada identifica Vieira/Avelar. As explicações locais passaram a citar a classificação efetivamente consultada no Aulete, sem atribuir a esses autores uma leitura integral do artigo.
+
 #### PER-U004 — `emprego-tempos-modos-verbais` — C/H/Q done
 
 - **Recorte/destino:** E01 4.2; `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/emprego-tempos-modos-verbais/`. Origem O005, parcial local; `storageId: per-u004`, ordem 40. Rota `/concursos/pericia-ma-2026-agente-criminal-generalista/emprego-tempos-modos-verbais/`, com visões de H/Q pelo resolvedor.
@@ -1031,7 +1033,22 @@ Novo consumidor: Cargo 1 Generalista da Perícia, concurso `pericia-ma-2026-agen
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/emprego-tempos-modos-verbais/questoes.json` | `20d3d267f7aaba3d37f53e8d303b03963d682e0b` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/emprego-tempos-modos-verbais/referencias.md` | `19fceda948a243cec3d97d2ec77bbe35fe237c9b` |
 
-**Conciliação corrente:** 4 unidades/visões locais e 12 C/H/Q done; 6/132 referências literais aceitas. U004 acrescenta E01 4.2 às cinco referências aceitas no ciclo anterior. O aceite de U005/U006 não encerra E01 5/5.1: classes invariáveis e demais estruturas mapeadas seguem pendentes. E01 continua pending, 4/19 unidades aceitas. U005/U006 seguem analyzing na reserva até seus próprios pacotes e aceites. R01/R02/R04 têm resultados unitários, sem done macro. Nenhum novo canônico/vínculo ou consumidor existente foi alterado.
+#### PER-U005 — `classes-nominais-de-palavras` — C/H/Q done
+
+- **Recorte/destino:** E01 5 e 5.1, cobertura parcial dos pais; `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/classes-nominais-de-palavras/`. Origem O006, parcial local; `storageId: per-u005`, ordem 50. Rota `/concursos/pericia-ma-2026-agente-criminal-generalista/classes-nominais-de-palavras/`, com visões de H/Q pelo resolvedor.
+- **C/H, lacuna e intervenção:** Aula preservada: nomear/determinar/caracterizar/quantificar/referir, classe versus função, flexões e usos contextuais. H retira mapas repetidos de o/a e enumerações, reunindo critérios; mantém gênero versus sexo, substantivação, grau, possessivo e demonstrativo/relativo sem transformar tendências em regras absolutas. H reduzido; novo item testa condição ensinada em C e ausente como foco no banco autoral.
+- **Q, revisão e proveniência:** q267 corrige a explicação: minhas revela possuidor na primeira pessoa singular; gênero/número do possuído é outra informação. q268 torna Pedro possuidor explícito no contexto antes de pedir desambiguação, revisão 1→2. 49 autorais reaproveitados + per-u005-q001 autoral de flexão de adjetivos compostos + q293/q294 anteriores (DPE/RO 2025, tipo 1, questões 51/65, chaves B/B). q235/q236 corrigem somente a atribuição bibliográfica na explicação, preservando revisão 2. Total 52; conjunto revisão 5. IDs selecionados: q234, q235, q236, q237, q238, q239, q240, q241, q242, q243, q244, q245, q246, q247, q248, q249, q250, q251, q252, q253, q254, q255, q256, q257, q258, q259, q260, q261, q262, q263, q264, q265, q266, q267, q268, q269, q270, q271, q272, q273, q274, q275, q276, q277, q278, q279, q281, q282, q283, q293, q294, per-u005-q001.
+- **Microglossário/tamanho:** C conserva todas as marcações do doador e o corpo integral; muda somente frontmatter. C bruto 23323→23304 caracteres; sem tags 22618→22599. H bruto 8601→7421; sem tags 8324→7421. H usa expansão por extenso e definições curtas na recuperação; cortes retiram repetição sem sacrificar condições. Medidas incluem frontmatter quando existente; texto visível exclui tags/atributos, sem estimativa de tempo poupado.
+- **Publicação confirmada:** [`9f695ab`](https://github.com/insign/concursos/commit/9f695abe62df85781ec3373f976f21fedac41d6b), quatro arquivos relidos integralmente na main e iguais ao pacote revisado; commit limitado a esses arquivos. Metadados, identidades, opções/chaves, revisões e Markdown confrontados por leitura/comparação. Referências locais registram fontes, itens anteriores e limites; fontes TCE/provas não selecionadas foram retiradas.
+
+| Arquivo confirmado | Blob na main |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/classes-nominais-de-palavras/cheat-sheet.md` | `c784d431bb6ad282f7c675fe433e85a8f3eb4a34` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/classes-nominais-de-palavras/conteudo.md` | `df52929e84d3e9d692c49adeec32dd282ca20ae0` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/classes-nominais-de-palavras/questoes.json` | `945eca54e09a2b3cee2793211c393c6eebc24284` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/classes-nominais-de-palavras/referencias.md` | `442a00ed31eb4306eaf78a8df0d3dba4cb7251e9` |
+
+**Conciliação corrente:** 5 unidades/visões locais e 15 C/H/Q done; 6/132 referências literais aceitas. U004 acrescenta E01 4.2 às cinco referências aceitas no ciclo anterior. O aceite de U005/U006 não encerra E01 5/5.1: classes invariáveis e demais estruturas mapeadas seguem pendentes. E01 continua pending, 5/19 unidades aceitas. U006 segue analyzing na reserva até seu pacote e aceite. R01/R02/R04 têm resultados unitários, sem done macro. Nenhum novo canônico/vínculo ou consumidor existente foi alterado.
 
 
 ## 6. Guia obrigatório de qualidade pedagógica
@@ -1231,9 +1248,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U005 — Classes nominais de palavras
 
-- [ ] PER-U005-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U005-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U005-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U005-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U005-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U005-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U006 — Verbo como classe de palavras
 
@@ -1909,8 +1926,9 @@ Base do lote: main `51ae302ebedc4d0f40d78f04f35494cde4b2dc8a`, mestre `9711be797
 | Pacote | Commit de artefatos confirmado | Arquivos |
 |---|---|---|
 | PER-U004 | [`faa38ce`](https://github.com/insign/concursos/commit/faa38ce2beb7a10f5d4952dd234a49d5e70d65e7) | 4: C/H/Q/R, atomicamente |
+| PER-U005 | [`9f695ab`](https://github.com/insign/concursos/commit/9f695abe62df85781ec3373f976f21fedac41d6b) | 4: C/H/Q/R, atomicamente |
 
-Fluxo por unidade: publicar → reler os quatro arquivos/commit na main → aceitar no mestre com SHA corrente → reler mestre → sincronizar painel. Aceites deste lote: 1; 3 C/H/Q. Demais reservas aguardam seus próprios aceites, sem antecipar publicação. Programa literal, guia, IDs/títulos/descrições, aceites U001–U003 e PER-P01–P05 preservados; apenas estados U004–U006, totais, notas de matriz e evidências próprias atualizados. Nenhum teste, build, check ou CI foi executado. Ganho pedagógico, fontes, cortes/limites e blobs em 5.7; contagem/hashes não substituem a leitura semântica realizada.
+Fluxo por unidade: publicar → reler os quatro arquivos/commit na main → aceitar no mestre com SHA corrente → reler mestre → sincronizar painel. Aceites deste lote: 2; 6 C/H/Q. Demais reservas aguardam seus próprios aceites, sem antecipar publicação. Programa literal, guia, IDs/títulos/descrições, aceites U001–U003 e PER-P01–P05 preservados; apenas estados U004–U006, totais, notas de matriz e evidências próprias atualizados. Nenhum teste, build, check ou CI foi executado. Ganho pedagógico, fontes, cortes/limites e blobs em 5.7; contagem/hashes não substituem a leitura semântica realizada.
 
 
 ### 8.8 Condições finais
