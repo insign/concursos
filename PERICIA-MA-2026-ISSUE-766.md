@@ -22,17 +22,17 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 
 | Dimensão | Total | pending | analyzing | done |
 |---|---:|---:|---:|---:|
-| Implantação e fontes | 5 | 4 | 0 | 1 |
+| Implantação e fontes | 5 | 3 | 1 | 1 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 50 | 0 | 1 |
+| Total de macros individualizadas | 51 | 49 | 1 | 1 |
 
 Os 12 blocos editoriais são agregadores das 36 macros C/H/Q: 11 blocos de conhecimentos e um bloco auxiliar de preparação discursiva. Não são mais 12 tarefas e o bloco auxiliar não é uma nova disciplina do edital.
 
 Unidades reais, origens canônicas, pacotes locais, visões e entregáveis unitários ainda dependem do inventário e do desdobramento em PER-P03/PER-R01. Não há total unitário aceito nem cobertura percentual certificada. Não converter quantidade de macros em quantidade de assuntos, nem importar os totais de outras metas.
 
-**PER-P01 done. Próxima ação: PER-P02.** A consolidação da seção 3 está publicada e confirmada na main, com evidência na seção 8.3. Definir título, slug, identidade, ordem e caminhos conforme os contratos correntes. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada. Reservas operacionais vigentes devem ser lidas na #766.
+**PER-P01 done; PER-P02 analyzing.** A definição de identidade e caminhos está registrada na seção 3.6, com reserva própria na #766, e aguarda publicação/releitura antes do aceite. A consolidação de PER-P01 permanece confirmada, conforme 8.3. Próxima etapa após esse aceite: PER-P03, matriz por assunto e desdobramento C/H/Q. Não há bloqueio estrutural próprio; “eclética” é incerteza localizada.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -356,6 +356,87 @@ Os 132 números contam referências literais, inclusive pais e filhos, e **não*
 
 **PER-P02 habilitada pelo aceite confirmado de PER-P01:** definir título, slug, identidade, ordem e caminhos segundo os contratos correntes, sem materializar catálogo/grupos vazios. **PER-P03:** converter esta cobertura integral em matriz por assunto, conciliando repetições e fronteiras, com origens/cortes/consumidores comprovados e estados C/H/Q inicialmente pending. O significado de “eclética” permanece uma incerteza localizada, sem bloquear a definição da identidade ou os assuntos independentes. Não foram reconstruídos aceites ou importados totais de outras campanhas.
 
+### 3.6 Identidade, ordem e caminhos definidos — PER-P02
+
+**Decisão de planejamento, 03/10/2026.** Aplicável somente ao Cargo 1 — Agente de Perícia Criminal — Especialidade: Generalista. A edição permanece 2026; a data provável da prova em 2027 não altera o ano do título, do slug ou da identidade. Estes valores orientam PER-P03/P04/P05 e serão preservados após a primeira implantação.
+
+| Campo | Valor definido |
+|---|---|
+| Título | Perícia Oficial/MA 2026 - Agente de Perícia Criminal - Generalista |
+| Slug do concurso | `pericia-ma-2026-agente-criminal-generalista` |
+| Identidade persistida do concurso, `storageId` | `perma-2026-crim-gen` — 19 caracteres, limite vigente de 20 |
+| Ordem do concurso | `6`, após os cinco catálogos existentes |
+| Data provável da prova, `examDate` | `2027-01-10`, conforme S05; reconsultar antes de materializar PER-P04 |
+| Catálogo | `src/content/concursos/pericia-ma-2026-agente-criminal-generalista.json` |
+| Raiz consumidora | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/` |
+| Rota do concurso | `/concursos/pericia-ma-2026-agente-criminal-generalista/` |
+| Mestre e painel | `PERICIA-MA-2026-ISSUE-766.md` e #766 |
+
+Metadados definidos para PER-P04, compatíveis por leitura com o contrato estrito de campos corrente:
+
+```json
+{
+  "schemaVersion": 1,
+  "title": "Perícia Oficial/MA 2026 - Agente de Perícia Criminal - Generalista",
+  "description": "Preparação para o Cargo 1 — Agente de Perícia Criminal — Especialidade: Generalista da Perícia Oficial de Natureza Criminal do Maranhão, conforme o Edital nº 1, de 17 de julho de 2026.",
+  "order": 6,
+  "storageId": "perma-2026-crim-gen",
+  "examDate": "2027-01-10"
+}
+```
+
+O slug deriva exclusivamente do nome do arquivo do catálogo; não é um campo adicional do catálogo. Não acrescentar cargo, especialidade, grupos ou identidade de assunto como campos não previstos no schema. O título e a descrição identificam inequivocamente o Cargo 1; a abreviação interna `perma-2026-crim-gen` distingue o recorte criminal/generalista. A data é provável, não confirmação de realização.
+
+**Ausência de colisão na base consultada.** Árvore recursiva completa, 3.228 entradas, sem truncamento; cinco arquivos de catálogo lidos integralmente:
+
+| Slug existente | `storageId` preservado | Ordem |
+|---|---|---:|
+| `concurso-exemplo` | `exemplo` | 1 |
+| `tce-ma-2026-analista-administracao` | `tcema-2026-adm` | 2 |
+| `tce-ma-2026-tecnico-administrativa` | `tcema-2026-tec-adm` | 3 |
+| `pc-ma-2026-oficial-investigador` | `pcma-2026-invest` | 4 |
+| `seap-ma-2026-inspetor-policia-penal` | `seapma-2026-inspetor` | 5 |
+
+Nenhum desses slugs, identificadores ou ordens coincide com a definição acima. Não há catálogo no caminho definido nem pacote físico/vínculo sob a raiz consumidora definida nessa main. A ordem 6 acrescenta o novo concurso sem renumerar os atuais. Revalidar o conjunto antes de PER-P04; se outro concurso ocupar essa ordem, reconciliar somente a ordem ainda não publicada da Perícia, preservando todas as identidades existentes.
+
+**Hierarquia consumidora planejada.** Caminhos relativos à raiz consumidora acima; a ordem de cada disciplina vale entre irmãs. As disciplinas preservam a sequência literal de 21.2.2/21.2.3:
+
+| Título do grupo | Ordem entre irmãos | Diretório relativo | Programa / bloco |
+|---|---:|---|---|
+| Conhecimentos gerais | 1 | `conhecimentos-gerais/` | 21.2.2, Grupo I |
+| Língua Portuguesa | 1 | `conhecimentos-gerais/lingua-portuguesa/` | PER-E01 |
+| Raciocínio Lógico e Científico | 2 | `conhecimentos-gerais/raciocinio-logico-cientifico/` | PER-E02 |
+| Informática | 3 | `conhecimentos-gerais/informatica/` | PER-E03 |
+| Noções de Direito | 4 | `conhecimentos-gerais/nocoes-direito/` | PER-E04 |
+| Direito Aplicado | 5 | `conhecimentos-gerais/direito-aplicado/` | PER-E05 |
+| História do Maranhão | 6 | `conhecimentos-gerais/historia-maranhao/` | PER-E06 |
+| Geografia do Maranhão | 7 | `conhecimentos-gerais/geografia-maranhao/` | PER-E07 |
+| Conhecimentos específicos | 2 | `conhecimentos-especificos/` | 21.2.3, Grupo II, Cargo 1 |
+| Noções de Criminalística | 1 | `conhecimentos-especificos/nocoes-criminalistica/` | PER-E08 |
+| Noções de Medicina Legal | 2 | `conhecimentos-especificos/nocoes-medicina-legal/` | PER-E09 |
+| Arquivologia | 3 | `conhecimentos-especificos/arquivologia/` | PER-E10 |
+| Legislação Especial | 4 | `conhecimentos-especificos/legislacao-especial/` | PER-E11 |
+| Preparação discursiva | 3 | `preparacao-discursiva/` | PER-E12; auxiliar do item 9 |
+
+Cada diretório de grupo materializado terá seu próprio `grupo.json` com `schemaVersion: 1`, `title` e `order`; sem `storageId` e sem rota pública de grupo. São 13 grupos previstos para a objetiva (dois pais e 11 disciplinas), ainda não publicados; o ramo discursivo é auxiliar e só será criado se PER-P03 definir uma unidade editorial completa compatível. Não contar esse ramo como 12ª disciplina objetiva nem como assunto por si só. Catálogo e descritores só serão implantados junto ao primeiro pacote completo; materializar apenas os ancestrais dos assuntos efetivamente publicados, nunca todos os ramos vazios.
+
+**Endereçamento dos assuntos.** PER-P03 ainda individualizará os assuntos, seus slugs finais, identidades e ordens; esta preparação não inventa destinos unitários, doadores ou contagem de unidades. Os formatos definidos são:
+
+| Modo / artefato | Caminho ou rota |
+|---|---|
+| Pacote local | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/<grupo>[/<grupo>...]/<slug-final>/` |
+| Origem canônica já comprovada | `src/content/biblioteca/<grupo>[/<grupo>...]/<slug-final>/` |
+| Visão consumidora canônica | Somente `vinculo.json` no diretório consumidor do assunto, com `schemaVersion: 1`, `canonical` e `order` |
+| Conteúdo / recuperação / questões | `conteudo.md`, `cheat-sheet.md`, `questoes.json`, com `referencias.md` na origem efetiva |
+| Resolução opcional | `resolucoes/<questionId>.md` na origem efetiva; revisão compatível com a questão e referências pertinentes |
+| Rota pública do assunto | `/concursos/pericia-ma-2026-agente-criminal-generalista/<slug-final>/` |
+| Rotas de recuperação e questões | A rota do assunto acrescida de `cheat-sheet/` ou `questoes/` |
+| Rota opcional de resoluções | `/resolucoes/perma-2026-crim-gen/<subjectStorageId>/` |
+
+O slug final é único em todo o concurso e não pode ser `mega-revisao`, segmento reservado pelo contrato corrente. Diretórios de disciplinas não desambiguam a rota. No vínculo, ele deve coincidir com o slug da origem canônica; a identidade `subjectStorageId` é herdada dessa origem, com ordem da visão consumidora. Não duplicar a mesma origem em dois ramos do concurso: conciliá-la numa única visão e mapear todas as ocorrências na matriz. Pacote local usa identidade própria estável, até 32 caracteres, única dentro do concurso; copiar não autoriza mover ou renomear o doador. Não misturar vínculo e companheiros físicos na visão.
+
+A ordem dos grupos não define a navegação plana dos assuntos: o resolvedor ordena `contest.subjects` pelo `order` de cada assunto. PER-P03 deve atribuir ordens coerentes nessa projeção, além da ordem entre disciplinas, sem importar automaticamente a ordem de um doador. Preparação discursiva reutiliza as bases do Grupo I e mantém propostas abertas no material didático; não duplicar conjuntos de questões nem criar questão aberta em `questoes.json`. Mega revisões permanecem excluídas.
+
 ## 4. Contratos, seleção e concorrência
 
 Releia AGENTS.md integralmente e confira os contratos na main antes de cada ciclo. As regras abaixo complementam, não substituem, o arquivo de agentes.
@@ -466,7 +547,7 @@ As tarefas abaixo mantêm IDs, títulos, descrições e caixas do planejamento r
 ### 7.1 Fontes e criação do concurso
 
 - [x] PER-P01 — `done` — Consolidar edital e retificações oficiais; transcrever o programa integral do Cargo 1 com numeração, separar objetiva/discursiva e registrar inconsistências sem correção silenciosa.
-- [ ] PER-P02 — `pending` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
+- [ ] PER-P02 — `analyzing` — Definir título, slug, `storageId`, ordem e caminhos do novo concurso conforme os contratos vigentes, sem colisões nem alteração de identidades existentes.
 - [ ] PER-P03 — `pending` — Montar a matriz edital → unidades reais → arquivos; desdobrar os blocos em tarefas C/H/Q por assunto e calcular a cobertura real.
 - [ ] PER-P04 — `pending` — Criar o catálogo em `src/content/concursos/` com metadados válidos e identificação inequívoca do Cargo 1 e da especialidade.
 - [ ] PER-P05 — `pending` — Criar a hierarquia consumidora e seus `grupo.json`, respeitando os blocos e as ordens oficiais, sem confundir a preparação discursiva auxiliar com disciplina da objetiva.
@@ -608,7 +689,29 @@ Identificadores dos documentos consultados, calculados sobre os bytes recebidos,
 
 A inspeção manual abrange redação, numeração, referências, fórmulas, marcação e limites de escopo do documento. Testes, builds, CI e checks não foram executados. PER-P02 permanece pending; não há alegação de inventário ou revisão integral dos doadores. Unidades reais e C/H/Q unitários ainda serão individualizados. A publicação documental e seu conteúdo foram confirmados antes do aceite; a consolidação de estado é registrada em commit separado e será reconfirmada no painel.
 
-### 8.4 Condições finais
+### 8.4 Evidência corrente de PER-P02 — 03/10/2026
+
+**Estado: analyzing.** Definição documental na seção 3.6, aguardando publicação e releitura na main antes do aceite. Origem: consolidação PER-P01 e contratos atuais. Destino exclusivo: este mestre; consumidor: Cargo 1 — Generalista da #766. C/H/Q unitários não iniciados; nenhum doador ou pacote recebeu aceite pedagógico.
+
+Base: main `a2eb93db7e331445b112f0643356c311e8deaaf8`; blob anterior do mestre `89b42beb4fee9ef02b18161b8ae6266f8df00292`. Reserva própria confirmada no painel, token `per-p02-20261003-0664aacf3713`. AGENTS.md integralmente relido no blob `1735e5035e3824be202be5c014f18d6445e235bb`.
+
+| Contrato consultado na main | Blob |
+|---|---|
+| `src/lib/content-schema.ts` | `7d8dbc8e3bab4bc5c9b2758b07ce271b7ade636d` |
+| `src/content.config.ts` | `48394b960e1b0dbd18857a1139092f1755f64cac` |
+| `src/lib/catalog-core.ts` | `40af91c4af877ba368416376757e52ea61792493` |
+| `src/lib/content-paths.ts` | `ca1acfe24337c01925ddfba39559323a59a27eb2` |
+| `ADR.md` | `6d94fe8802ac79e254e623823884c27b39d1d98d` |
+
+Censo dos cinco catálogos da seção 3.6, na ordem ali apresentada: blobs `d853811771b794375fc2b56e4a442b01730a139c`, `117d4e02006397dd73aed642707627a78a812f25`, `959e0fef003bc2dcdea215edb22bd52936414158`, `2055baa597ff730164fdfce1c05b088d25c096fb` e `fe3c232b40e532bafdbed150343edde1618cf20f`. A árvore não truncada tem 3.228 entradas; o catálogo e a raiz consumidora propostos não existem nessa base. Exemplos reais lidos: descritor de Conhecimentos gerais da PC, blob `26735cddf3a35c70bbf79d65d47266bf6ad02e60`; vínculo consumidor de estruturas lógicas, blob `b8ac6c7ca9a9b0fad16938f89b6052337182200a`. Os exemplos demonstram campos/caminhos, sem certificar reaproveitamento ou qualidade de seus pacotes.
+
+Conferidos manualmente campos estritos, formato e limite de identidade, ordem livre, slug obtido do arquivo, descritores ancestrais, ausência de identidade/rota de grupo, unicidade do slug final e da identidade de assunto no concurso, vínculo explícito e herança da identidade canônica, ordem consumidora e projeção plana, companheiros e resolução derivada. As regras pertinentes de ADR-001/004/007 foram confrontadas com o resolvedor atual; nenhuma mudança de infraestrutura é necessária. #764/#765 foram relidas, sem reservas ativas apresentadas; o estado externo já registrado da #764 foi preservado, sem importar seus aceites.
+
+**Fonte oficial e limite temporal.** Reconsulta de 03/10/2026 à listagem pública indicada em 3.1: continuam 10 entradas, cinco pares, com os mesmos documentos e cargo. Os bytes da resposta têm `SHA-256 78d6efb3f76f6af4dfb5f65ec8ced7109c28d5a9532ef5c821c2b161828d4cf0`, igual ao snapshot PER-P01. O consolidado S05 foi recebido novamente, 931.564 bytes, `SHA-256 99f6a6dd86dd9121976454633a5f752a6af0778d3b4f77f8e234020a2b0d9654`, também igual. Não se alegou nova leitura integral dos programas nem de doadores: a identidade usa o Cargo 1 e a data provável já consolidados, sem alteração dos cortes legislativo/jurisprudencial. “Eclética” permanece incerteza localizada.
+
+**Ganho e limites.** Definidos título/descrição inequívocos, slug, identidade de 19 caracteres, ordem 6, caminhos de catálogo/consumo/rotas e hierarquia objetiva; separado o ramo discursivo auxiliar. Explicitadas a navegação plana e a conciliação de uma origem usada em mais de um item, evitando depender do caminho do grupo para desambiguar assuntos. Crescimento somente documental de planejamento/evidência; não houve expansão de aula, corte de programa, alteração de microglossário didático ou estimativa de tempo poupado. Não criado catálogo, grupo, vínculo, conteúdo, cheat sheet, questões ou resolução. PER-P04/P05 seguem pending até o primeiro assunto completo. Nenhuma unidade real foi contada como feita. Testes, builds, CI e checks não executados.
+
+### 8.5 Condições finais
 
 Fechar #766 somente com edital consolidado integralmente coberto, qualidade inspecionada individualmente, todos os entregáveis e macros done, nenhum analyzing ou reserva ativa e evidência confirmada na main. Consolidar aqui rotas, cobertura, origens, consumidores, repetições e totais finais; resumir o resultado no painel. Atualizações futuras seguem D766-04, sem certificar fatos ainda inexistentes.
 
