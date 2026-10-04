@@ -1,0 +1,1176 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 7,
+  "questions": [
+    {
+      "id": "q3639",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Ao substituir uma palavra por outra de sentido próximo, qual procedimento permite avaliar tanto correção quanto preservação dos sentidos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conferir a classe gramatical e dispensar a leitura do parágrafo."
+        },
+        {
+          "id": "B",
+          "text": "Escolher a primeira acepção registrada no dicionário."
+        },
+        {
+          "id": "C",
+          "text": "Identificar a acepção contextual, reler a frase com a troca e comparar referência, inferências e construção."
+        },
+        {
+          "id": "D",
+          "text": "Conferir apenas se ambas pertencem ao mesmo tema."
+        },
+        {
+          "id": "E",
+          "text": "Aceitar a troca se a frase resultante estiver gramaticalmente correta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O contexto seleciona o sentido pertinente. A frase nova precisa ser gramatical e conservar os efeitos exigidos: uma construção correta pode mudar certeza, quantidade ou referência. Classe, tema e dicionário isolados não resolvem essa comparação."
+    },
+    {
+      "id": "q3640",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Em “A medida pode reduzir o tempo de espera”, trocar “pode reduzir” por “reduzirá”",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém o grau de certeza, pois ambas mencionam redução."
+        },
+        {
+          "id": "B",
+          "text": "transforma a possibilidade em previsão afirmada."
+        },
+        {
+          "id": "C",
+          "text": "converte uma obrigação em capacidade."
+        },
+        {
+          "id": "D",
+          "text": "apresenta uma redução já realizada."
+        },
+        {
+          "id": "E",
+          "text": "mantém uma condição explícita de fracasso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A possibilidade admite que a redução não ocorra; a previsão afirmada apresenta a ocorrência futura. Falar do mesmo resultado não conserva o compromisso do enunciado."
+    },
+    {
+      "id": "q3641",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Sem contexto adicional, trocar “automóvel” por “veículo” em “Joana comprou um automóvel” produz uma formulação",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais geral, decorrente da original, mas que não permite recuperar sozinha a espécie comprada."
+        },
+        {
+          "id": "B",
+          "text": "mais específica, porque veículo designa somente automóvel."
+        },
+        {
+          "id": "C",
+          "text": "equivalente em ambos os sentidos, porque os termos têm a mesma extensão."
+        },
+        {
+          "id": "D",
+          "text": "contrária à original, pois automóvel e veículo se excluem."
+        },
+        {
+          "id": "E",
+          "text": "que acrescenta a informação de que a compra foi de uma motocicleta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Todo automóvel é veículo. O caminho inverso falha: um veículo pode ser uma motocicleta. A versão geral perde informação isoladamente; a retomada em um texto já identificado é outro caso."
+    },
+    {
+      "id": "q3642",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Na distinção tradicional entre polissemia e homonímia, qual análise é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cabeça do corpo e cabeça da equipe são homônimos porque uma leitura é figurada."
+        },
+        {
+          "id": "B",
+          "text": "Manga da camisa e manga fruta são sinônimos porque a forma escrita coincide."
+        },
+        {
+          "id": "C",
+          "text": "Toda palavra com duas definições é necessariamente homônima."
+        },
+        {
+          "id": "D",
+          "text": "Cabeça do corpo/equipe exemplifica sentidos relacionados; manga da camisa/fruta é exemplo tradicional de sentidos independentes."
+        },
+        {
+          "id": "E",
+          "text": "Uma mudança de sentido sempre cria uma palavra nova, independentemente da relação entre os sentidos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na polissemia, os sentidos se relacionam; na homonímia, palavras de sentidos independentes coincidem formalmente. Há fronteiras discutidas entre as classificações: o número de definições não é critério suficiente."
+    },
+    {
+      "id": "q3643",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Leia: “A perita ouviu a delegada. Em seguida, ela apresentou o relatório.” Sem outro contexto, substituir “ela” por “a perita”",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserva obrigatoriamente a referência, porque o pronome retoma sempre o primeiro nome."
+        },
+        {
+          "id": "B",
+          "text": "preserva obrigatoriamente a referência, porque os dois nomes são femininos."
+        },
+        {
+          "id": "C",
+          "text": "corrige um erro de concordância do original."
+        },
+        {
+          "id": "D",
+          "text": "mantém todas as interpretações disponíveis no original."
+        },
+        {
+          "id": "E",
+          "text": "escolhe uma das referências possíveis e pode acrescentar uma identificação que o original não determinava."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Perita e delegada são antecedentes possíveis de “ela”. Nomear a perita elimina a outra leitura, mas clareza maior não prova preservação integral da informação. A concordância feminina não decide quem apresentou o relatório."
+    },
+    {
+      "id": "q3646",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Compare “A chefia descobriu que o arquivo estava incompleto” e “A chefia suspeitou que o arquivo estava incompleto”. No uso comum, a troca",
+      "options": [
+        {
+          "id": "A",
+          "text": "altera a apresentação da incompletude: fato encontrado na primeira, conteúdo de suspeita na segunda."
+        },
+        {
+          "id": "B",
+          "text": "afirma na segunda que o arquivo estava completo."
+        },
+        {
+          "id": "C",
+          "text": "preserva o mesmo compromisso com a incompletude."
+        },
+        {
+          "id": "D",
+          "text": "muda somente o momento em que o arquivo foi consultado."
+        },
+        {
+          "id": "E",
+          "text": "torna obrigatório que a chefia tenha corrigido o arquivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Descobriu que” normalmente toma o complemento como verdadeiro; “suspeitou que” não garante sua verdade. Nenhuma frase afirma correção do arquivo. Suspender a certeza da incompletude tampouco afirma a completude."
+    },
+    {
+      "id": "q3647",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Na leitura lógica inclusiva de “Alguns servidores compareceram”, a conclusão “nem todos compareceram”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatória, porque alguns exclui todos em qualquer contexto."
+        },
+        {
+          "id": "B",
+          "text": "permite concluir que nenhum compareceu."
+        },
+        {
+          "id": "C",
+          "text": "é incompatível com a existência de comparecimento."
+        },
+        {
+          "id": "D",
+          "text": "pode ser uma sugestão contextual, cancelável em “alguns, talvez todos”."
+        },
+        {
+          "id": "E",
+          "text": "é garantida pelo tempo passado do verbo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A leitura inclusiva de alguns admite a totalidade. O contexto costuma sugerir não todos, mas “alguns, talvez todos” cancela essa sugestão sem contradição. Para excluir todos expressamente, seria necessário “alguns, mas não todos”."
+    },
+    {
+      "id": "q3649",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Considere um conjunto fixo com ao menos dois documentos. Em qual par a segunda frase é quantitativamente mais exigente que a primeira, pois implica a primeira e não é implicada por ela?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todos foram conferidos → ao menos um foi conferido."
+        },
+        {
+          "id": "B",
+          "text": "Nenhum foi conferido → ao menos um foi conferido."
+        },
+        {
+          "id": "C",
+          "text": "Ao menos um foi conferido → algum foi conferido."
+        },
+        {
+          "id": "D",
+          "text": "Exatamente três foram conferidos → ao menos três foram conferidos."
+        },
+        {
+          "id": "E",
+          "text": "Alguns foram conferidos → todos foram conferidos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Todos exige conferência de cada documento e garante alguns conferidos. Alguns não garante todos, na leitura inclusiva. Nenhum/ao menos um são incompatíveis, não graus de uma afirmação; exatamente três/ao menos três passa para uma condição menos exigente."
+    },
+    {
+      "id": "q3650",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Compare “Só Ana revisou o relatório” e “Ana revisou só o relatório”. A diferença central é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira nega a revisão e a segunda a afirma."
+        },
+        {
+          "id": "B",
+          "text": "a primeira restringe quem revisou; a segunda restringe o que Ana revisou."
+        },
+        {
+          "id": "C",
+          "text": "a segunda exclui que outra pessoa tenha revisado o relatório."
+        },
+        {
+          "id": "D",
+          "text": "a primeira afirma que Ana não revisou qualquer outro documento."
+        },
+        {
+          "id": "E",
+          "text": "a mudança de posição mantém necessariamente as mesmas exclusões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Só modifica elementos diferentes: pessoa na primeira, objeto na segunda. Na segunda, outras pessoas ainda podem ter revisado o relatório; na primeira, Ana ainda pode ter revisado outros documentos."
+    },
+    {
+      "id": "q3653",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Compare “A perita informou à delegada a decisão de sua equipe” e “O relatório foi publicado recentemente”. Sem contexto que resolva as interpretações, a diferença é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira pode deixar duas referências para sua; a segunda tem um limite temporal impreciso."
+        },
+        {
+          "id": "B",
+          "text": "a primeira tem apenas um limite gradual; a segunda identifica duas pessoas possíveis."
+        },
+        {
+          "id": "C",
+          "text": "ambas são necessariamente erros de concordância."
+        },
+        {
+          "id": "D",
+          "text": "recentemente exige publicação há exatamente dois dias."
+        },
+        {
+          "id": "E",
+          "text": "sua determina obrigatoriamente a equipe da delegada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dúvida entre equipes é ambiguidade referencial; recentemente expressa vagueza temporal. Não há erro obrigatório de gramática. Fixar a equipe ou o número de dias exige informação contextual."
+    },
+    {
+      "id": "q3654",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "No trecho “Segundo a testemunha, o equipamento falhou”, qual reescrita preserva a atribuição da informação, sem elevar por si só seu grau de confirmação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A perícia confirmou que o equipamento falhou."
+        },
+        {
+          "id": "B",
+          "text": "Está comprovado que o equipamento falhou."
+        },
+        {
+          "id": "C",
+          "text": "A testemunha afirmou que o equipamento falhou."
+        },
+        {
+          "id": "D",
+          "text": "O equipamento certamente falhou."
+        },
+        {
+          "id": "E",
+          "text": "O relatório demonstrou que o equipamento falhou."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A versão com afirmou mantém a testemunha como fonte da declaração. Confirmou, comprovado, certamente e demonstrou apresentam confirmação ou compromisso maior, e algumas versões ainda mudam a fonte."
+    },
+    {
+      "id": "q3655",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Relatório, exame e vestígio podem ocorrer em um mesmo contexto pericial. Isso permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer um pode substituir os demais sem mudar a informação."
+        },
+        {
+          "id": "B",
+          "text": "compartilham um domínio temático, mas não designam necessariamente a mesma coisa."
+        },
+        {
+          "id": "C",
+          "text": "relatório é uma espécie de vestígio em qualquer uso."
+        },
+        {
+          "id": "D",
+          "text": "exame e relatório são palavras de sentido oposto."
+        },
+        {
+          "id": "E",
+          "text": "a referência de cada palavra independe do contexto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Um relatório pode registrar o resultado de um exame e um exame pode analisar um vestígio. Essas relações pertencem a um campo de significados, mas não tornam os nomes sinônimos ou intercambiáveis."
+    },
+    {
+      "id": "q3658",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Propõe-se trocar “Todos os documentos foram conferidos” por “Alguns documentos foram conferidos”. Que cenário mostra que as formulações não são equivalentes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os dez documentos foram conferidos."
+        },
+        {
+          "id": "B",
+          "text": "Dois dos dez documentos foram conferidos."
+        },
+        {
+          "id": "C",
+          "text": "Nenhum dos dez documentos foi conferido."
+        },
+        {
+          "id": "D",
+          "text": "Os dez documentos foram conferidos antes do prazo."
+        },
+        {
+          "id": "E",
+          "text": "Os dez documentos foram conferidos por duas equipes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com dois conferidos, alguns é verdadeiro e todos é falso. Esse cenário basta para separar as frases. Nos cenários com dez conferidos, ambas são verdadeiras; com zero, ambas são falsas."
+    },
+    {
+      "id": "q3661",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na substituição de “assistiu ao evento” por uma construção com “viu”, em padrão formal, qual forma é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "viu ao evento"
+        },
+        {
+          "id": "B",
+          "text": "viu no evento"
+        },
+        {
+          "id": "C",
+          "text": "viu o evento"
+        },
+        {
+          "id": "D",
+          "text": "viu pelo evento"
+        },
+        {
+          "id": "E",
+          "text": "viu para o evento"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nesse uso, assistir pede complemento com a; ver recebe o evento diretamente. A regência do novo verbo precisa ser respeitada, sem transportar automaticamente a preposição antiga."
+    },
+    {
+      "id": "q3669",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para um grupo fixo e não vazio de relatórios, “Nem todos foram entregues” permite concluir necessariamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao menos um não foi entregue."
+        },
+        {
+          "id": "B",
+          "text": "ao menos um foi entregue."
+        },
+        {
+          "id": "C",
+          "text": "exatamente um não foi entregue."
+        },
+        {
+          "id": "D",
+          "text": "nenhum foi entregue."
+        },
+        {
+          "id": "E",
+          "text": "a maioria foi entregue."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Nem todos nega a entrega da totalidade. Pode ser verdadeiro com zero entregues, um entregue ou quase todos entregues. Só exige que exista ao menos um não entregue."
+    },
+    {
+      "id": "q3671",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em “O relatório já foi enviado”, retirar “já” mantém a afirmação de envio, mas pode apagar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a identificação do documento como relatório."
+        },
+        {
+          "id": "B",
+          "text": "a informação de quem enviou, expressa pelo advérbio."
+        },
+        {
+          "id": "C",
+          "text": "o destaque de ocorrência até o ponto temporal relevante."
+        },
+        {
+          "id": "D",
+          "text": "uma obrigação de envio futuro."
+        },
+        {
+          "id": "E",
+          "text": "uma negação de que o envio ocorreu."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Já destaca que a ocorrência se realizou até um ponto relevante. Antecipação de expectativa pode surgir no contexto, mas não deve ser exigida em toda ocorrência. Sem já, a frase ainda afirma o envio e não passa a identificar seu responsável."
+    },
+    {
+      "id": "q3676",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No uso comum de “O servidor voltou a assinar os documentos”, qual informação é apresentada como anterior?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele nunca tinha assinado."
+        },
+        {
+          "id": "B",
+          "text": "Ele havia interrompido a assinatura por exatamente um ano."
+        },
+        {
+          "id": "C",
+          "text": "Ele havia assinado antes."
+        },
+        {
+          "id": "D",
+          "text": "Ele tinha recusado todos os documentos."
+        },
+        {
+          "id": "E",
+          "text": "Ele havia assinado somente uma vez."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Voltou a apresenta uma ocorrência anterior e uma repetição ou retomada atual. Não informa sozinho a duração de um intervalo nem o número exato de ocorrências anteriores. A informação de assinatura anterior normalmente permanece em não voltou a assinar."
+    },
+    {
+      "id": "q3682",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Trocar “falecer” por “bater as botas” em uma comunicação formal",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina o sentido de morte e conserva somente uma ação física."
+        },
+        {
+          "id": "B",
+          "text": "conserva necessariamente o tom formal."
+        },
+        {
+          "id": "C",
+          "text": "torna a frase mais precisa quanto à causa da morte."
+        },
+        {
+          "id": "D",
+          "text": "pode manter o acontecimento básico e alterar o tom e a adequação à situação."
+        },
+        {
+          "id": "E",
+          "text": "elimina toda avaliação ou efeito expressivo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As expressões podem designar morte, mas bater as botas é coloquial. A proximidade do acontecimento designado não garante o mesmo registro ou efeito. A troca não acrescenta a causa da morte."
+    },
+    {
+      "id": "q3701",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “certa providência poderá ser necessária”, a mudança para “providência certa” pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter obrigatoriamente a leitura de alguma providência."
+        },
+        {
+          "id": "B",
+          "text": "converter possibilidade em certeza de realização."
+        },
+        {
+          "id": "C",
+          "text": "favorecer a leitura de providência correta ou segura, em lugar de alguma providência."
+        },
+        {
+          "id": "D",
+          "text": "fixar a data de adoção da providência."
+        },
+        {
+          "id": "E",
+          "text": "negar a necessidade da providência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição de certa favorece acepções diferentes. Antes do nome pode indicar alguma; depois pode qualificar como correta ou segura. O contexto decide a leitura, e poderá continua marcando possibilidade."
+    },
+    {
+      "id": "q3715",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “A comissão retificou o dado”, substituir “retificou” por “ratificou”",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém a correção descrita no original."
+        },
+        {
+          "id": "B",
+          "text": "passa de correção para confirmação."
+        },
+        {
+          "id": "C",
+          "text": "afirma que o dado foi retirado do documento."
+        },
+        {
+          "id": "D",
+          "text": "conserva o evento por semelhança de forma."
+        },
+        {
+          "id": "E",
+          "text": "passa de confirmação para correção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Retificar é corrigir; ratificar é confirmar. São palavras semelhantes na forma, mas a substituição muda o evento descrito. Semelhança de escrita ou som não garante sinonímia."
+    },
+    {
+      "id": "q3719",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "De “A equipe tentou concluir o relatório”, pode-se concluir necessariamente que o relatório ficou pronto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Não; a tentativa admite que a conclusão não tenha ocorrido."
+        },
+        {
+          "id": "B",
+          "text": "Sim; o passado do verbo tentar garante êxito."
+        },
+        {
+          "id": "C",
+          "text": "Sim; mencionar concluir afirma sua realização."
+        },
+        {
+          "id": "D",
+          "text": "Não; a frase garante que houve fracasso."
+        },
+        {
+          "id": "E",
+          "text": "Sim; tentou e conseguiu são equivalentes neste uso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tentar não garante nem sucesso nem fracasso. Uma tentativa pode terminar dos dois modos. O tempo passado situa a tentativa, sem transformar seu objetivo em resultado."
+    },
+    {
+      "id": "q3720",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se “A equipe conseguiu concluir o relatório” é verdadeira, qual análise é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A conclusão pode ser cancelada mantendo-se a frase verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "A construção garante conclusão; isso não permanece garantido em não conseguiu concluir."
+        },
+        {
+          "id": "C",
+          "text": "A construção afirma apenas uma tentativa."
+        },
+        {
+          "id": "D",
+          "text": "A conclusão é apenas sugestão do contexto."
+        },
+        {
+          "id": "E",
+          "text": "A frase garante que o prazo foi respeitado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conseguiu concluir inclui o resultado: houve conclusão. Negar conseguiu já não garante esse resultado, por isso ele não deve ser tratado como pressuposição de conclusão. A frase não informa prazo."
+    },
+    {
+      "id": "q3725",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “A diretora lamentou que o prazo tivesse terminado”, o término do prazo é normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma ordem para encerrar o prazo depois da fala."
+        },
+        {
+          "id": "B",
+          "text": "um conteúdo tomado como fato pela construção."
+        },
+        {
+          "id": "C",
+          "text": "uma hipótese cuja verdade é apenas suspeitada."
+        },
+        {
+          "id": "D",
+          "text": "uma informação negada pela diretora."
+        },
+        {
+          "id": "E",
+          "text": "uma possibilidade futura apresentada por tivesse."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lamentar que, nesse uso, toma como verdadeiro o conteúdo do complemento. O subjuntivo não transforma automaticamente o término em hipótese: a avaliação de lamento incide sobre o fato apresentado."
+    },
+    {
+      "id": "q3735",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual substituição conserva o limite quantitativo de “ao menos trinta documentos”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "mais de trinta documentos"
+        },
+        {
+          "id": "B",
+          "text": "no mínimo trinta documentos"
+        },
+        {
+          "id": "C",
+          "text": "exatamente trinta documentos"
+        },
+        {
+          "id": "D",
+          "text": "no máximo trinta documentos"
+        },
+        {
+          "id": "E",
+          "text": "cerca de trinta documentos"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ao menos e no mínimo incluem trinta e todos os valores superiores. Mais de exclui trinta; exatamente fixa trinta; no máximo admite valores inferiores; cerca de exprime aproximação."
+    },
+    {
+      "id": "q3736",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na leitura quantitativa de “a resposta chegará em até trinta dias”, trocar “até trinta” por “exatamente trinta”",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém possíveis respostas em vinte dias."
+        },
+        {
+          "id": "B",
+          "text": "amplia o limite para mais de trinta dias."
+        },
+        {
+          "id": "C",
+          "text": "fixa trinta e exclui os prazos inferiores antes admitidos."
+        },
+        {
+          "id": "D",
+          "text": "passa a indicar prazo mínimo de trinta dias."
+        },
+        {
+          "id": "E",
+          "text": "torna o prazo uma aproximação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Até estabelece um teto inclusivo; exatamente fixa um valor. Uma resposta em vinte dias respeita o teto, mas não o prazo exato de trinta. Coincidência do resultado real não prova equivalência das formulações."
+    },
+    {
+      "id": "q3749",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “A solução é simples, só que exige investimento”, trocar “só que” por “mas”",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode conservar o contraste básico, sem garantir identidade de todas as nuances de tom."
+        },
+        {
+          "id": "B",
+          "text": "transforma o investimento na causa afirmada da simplicidade."
+        },
+        {
+          "id": "C",
+          "text": "transforma o investimento em condição não realizada."
+        },
+        {
+          "id": "D",
+          "text": "apaga a afirmação de que a solução exige investimento."
+        },
+        {
+          "id": "E",
+          "text": "conserva obrigatoriamente todo efeito de registro e foco."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os dois conectores podem marcar contraste nessa frase. Isso permite uma equivalência contextual da relação básica, sem tornar as formas idênticas em qualquer texto ou situação de comunicação."
+    },
+    {
+      "id": "q3752",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Compare “Embora houvesse falhas, o sistema funcionou” e “Se houvesse falhas, o sistema funcionaria”. A segunda versão",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserva a afirmação de funcionamento ocorrido."
+        },
+        {
+          "id": "B",
+          "text": "apresenta as falhas como causa do funcionamento ocorrido."
+        },
+        {
+          "id": "C",
+          "text": "afirma a inexistência de falhas."
+        },
+        {
+          "id": "D",
+          "text": "passa de obstáculo admitido e resultado ocorrido para uma condição e um resultado hipotéticos."
+        },
+        {
+          "id": "E",
+          "text": "muda apenas a pontuação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Embora admite as falhas e apresenta o funcionamento apesar delas; se formula uma condição, e funcionaria não afirma o funcionamento ocorrido. A troca altera a relação e o compromisso com os acontecimentos."
+    },
+    {
+      "id": "q3764",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “O gestor levou em conta os riscos”, qual reescrita conserva o sentido da expressão inteira?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O gestor considerou os riscos."
+        },
+        {
+          "id": "B",
+          "text": "O gestor transportou os riscos."
+        },
+        {
+          "id": "C",
+          "text": "O gestor enumerou todos os riscos."
+        },
+        {
+          "id": "D",
+          "text": "O gestor prestou contas dos riscos."
+        },
+        {
+          "id": "E",
+          "text": "O gestor descartou os riscos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Levar em conta significa considerar. Enumerar, prestar contas ou descartar descrevem operações diferentes; transportar toma isoladamente um sentido de levou e destrói a expressão."
+    },
+    {
+      "id": "q3765",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No contexto “Havia grande volume de trabalho, mas a equipe deu conta da demanda”, a expressão destacada significa que a equipe",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas calculou o volume da demanda."
+        },
+        {
+          "id": "B",
+          "text": "conseguiu atender a demanda."
+        },
+        {
+          "id": "C",
+          "text": "apenas informou que havia demanda."
+        },
+        {
+          "id": "D",
+          "text": "se limitou a prestar contas do trabalho."
+        },
+        {
+          "id": "E",
+          "text": "não conseguiu realizar o atendimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Deu conta da demanda, nesse contexto, apresenta capacidade realizada de atendimento. Não equivale automaticamente a prestar contas, contar numericamente ou apenas informar."
+    },
+    {
+      "id": "q3772",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “Pode haver fraude. Essa hipótese será investigada”, substituir “essa hipótese” por “esse fato”",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém o mesmo compromisso com a ocorrência de fraude."
+        },
+        {
+          "id": "B",
+          "text": "afirma que a fraude é impossível."
+        },
+        {
+          "id": "C",
+          "text": "reduz a certeza expressa pelo texto."
+        },
+        {
+          "id": "D",
+          "text": "classifica como estabelecido o que era apresentado como possibilidade."
+        },
+        {
+          "id": "E",
+          "text": "remove a referência ao conteúdo anterior."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As duas expressões retomam o trecho, mas o nome escolhido também o classifica. Hipótese conserva a possibilidade; fato eleva seu estatuto de certeza. Manter a ligação textual não basta para manter o sentido."
+    },
+    {
+      "id": "q3789",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “Cerca de trinta unidades responderam”, trocar “cerca de trinta” por “exatamente trinta”",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixa um valor que a aproximação original não garantia."
+        },
+        {
+          "id": "B",
+          "text": "mantém necessariamente todas as quantidades admitidas."
+        },
+        {
+          "id": "C",
+          "text": "passa a admitir qualquer quantidade superior a trinta."
+        },
+        {
+          "id": "D",
+          "text": "mantém a mesma imprecisão."
+        },
+        {
+          "id": "E",
+          "text": "fixa uma margem de dois para mais ou para menos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cerca de expressa aproximação sem definir sozinho uma margem numérica fixa. Exatamente elimina a aproximação e admite somente trinta. A troca não é mera variação de estilo."
+    },
+    {
+      "id": "q3792",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em “A medida beneficia principalmente pequenas empresas”, trocar “principalmente” por “inclusive”",
+      "options": [
+        {
+          "id": "A",
+          "text": "conserva a prioridade atribuída às pequenas empresas."
+        },
+        {
+          "id": "B",
+          "text": "passa a excluir todos os demais beneficiários."
+        },
+        {
+          "id": "C",
+          "text": "afirma que nenhuma pequena empresa é beneficiada."
+        },
+        {
+          "id": "D",
+          "text": "muda destaque de prioridade ou concentração para inclusão."
+        },
+        {
+          "id": "E",
+          "text": "fixa o número de empresas beneficiadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Principalmente destaca as pequenas empresas no conjunto de beneficiários; inclusive as inclui, podendo sugerir outros grupos. Nenhuma das formas fixa uma quantidade ou exige exclusividade."
+    },
+    {
+      "id": "per-u016-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Leia: “Um automóvel bloqueou a saída. O veículo foi removido.” Na segunda frase, veículo",
+      "options": [
+        {
+          "id": "A",
+          "text": "introduz necessariamente um objeto diferente."
+        },
+        {
+          "id": "B",
+          "text": "pode retomar o automóvel identificado, preservando sua referência pelo contexto."
+        },
+        {
+          "id": "C",
+          "text": "prova que o objeto removido era uma motocicleta."
+        },
+        {
+          "id": "D",
+          "text": "deixa de ter sentido mais geral que automóvel."
+        },
+        {
+          "id": "E",
+          "text": "afirma que todos os veículos foram removidos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Veículo é mais geral, mas o artigo definido e a continuidade textual permitem retomar o automóvel já mencionado. Generalização lexical e perda de identificação não são a mesma coisa: o contexto pode conservar a informação específica."
+    },
+    {
+      "id": "per-u016-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem informação adicional, de “A servidora enviou uma página do relatório” pode-se concluir que ela enviou o relatório completo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sim; página é uma espécie de relatório."
+        },
+        {
+          "id": "B",
+          "text": "Sim; a referência ao todo garante envio de todas as partes."
+        },
+        {
+          "id": "C",
+          "text": "Não; envio de uma parte não garante envio do todo."
+        },
+        {
+          "id": "D",
+          "text": "Não; a frase garante que nenhuma outra página foi enviada."
+        },
+        {
+          "id": "E",
+          "text": "Sim; página e relatório são sinônimos neste uso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Página é parte do relatório, não espécie dele. O envio dessa página não garante envio do todo, mas também não afirma que outras páginas deixaram de ser enviadas. A conclusão deve respeitar o que foi efetivamente informado."
+    },
+    {
+      "id": "per-u016-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual reescrita conserva sentido e correção de “Há pelo menos três documentos pendentes”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Existem no mínimo três documentos pendentes."
+        },
+        {
+          "id": "B",
+          "text": "Existe exatamente três documentos pendentes."
+        },
+        {
+          "id": "C",
+          "text": "Existem mais de três documentos pendentes."
+        },
+        {
+          "id": "D",
+          "text": "Existem no máximo três documentos pendentes."
+        },
+        {
+          "id": "E",
+          "text": "Haviam no mínimo três documentos pendentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Existem concorda com documentos e no mínimo conserva o limite inclusivo. Mais de exclui três; no máximo muda o limite. Existe com documentos falha na concordância; haviam muda tempo e pluraliza inadequadamente haver existencial."
+    },
+    {
+      "id": "per-u016-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em qual frase ponte tem uso figurado por semelhança, indicando aproximação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ponte sobre o rio foi interditada."
+        },
+        {
+          "id": "B",
+          "text": "A ponte tem vinte metros de extensão."
+        },
+        {
+          "id": "C",
+          "text": "O diálogo criou uma ponte entre os setores."
+        },
+        {
+          "id": "D",
+          "text": "A equipe inspecionou os pilares da ponte."
+        },
+        {
+          "id": "E",
+          "text": "A ponte foi construída em concreto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em C, ponte representa ligação entre grupos, por analogia com a ligação física. Nas demais frases, designa construção concreta. Uso figurado não exige ambiguidade: o contexto permite interpretar a aproximação."
+    },
+    {
+      "id": "q3800",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior, em qual frase o verbo “ter” conserva claramente o sentido de possuir?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório teve duas versões antes da publicação."
+        },
+        {
+          "id": "B",
+          "text": "A equipe teve dificuldades durante a diligência."
+        },
+        {
+          "id": "C",
+          "text": "O servidor tem um imóvel rural."
+        },
+        {
+          "id": "D",
+          "text": "A reunião teve momentos de tensão."
+        },
+        {
+          "id": "E",
+          "text": "O processo teve andamento rápido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em C, “ter” expressa posse. Nas demais, o verbo realiza outras acepções contextuais. Adaptação curta e não literal de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> — Prefeitura de Canaã dos Carajás/<abbr title=\"Pará\">PA</abbr>, Agente de Serviços de Culinária, Tipo 1, 2025, questão 8, gabarito definitivo C."
+    },
+    {
+      "id": "q3801",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior, na frase “A grande pesquisadora foi homenageada”, qual substituição preserva melhor a acepção de “grande” no contexto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "renomada"
+        },
+        {
+          "id": "B",
+          "text": "alta"
+        },
+        {
+          "id": "C",
+          "text": "volumosa"
+        },
+        {
+          "id": "D",
+          "text": "extensa"
+        },
+        {
+          "id": "E",
+          "text": "larga"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No contexto, “grande” qualifica destaque ou renome, não dimensão física. Adaptação curta e não literal de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> — Prefeitura de Canaã dos Carajás/<abbr title=\"Pará\">PA</abbr>, Agente de Serviços de Culinária, Tipo 1, 2025, questão 9, gabarito definitivo A."
+    },
+    {
+      "id": "q3810",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão anterior, qual palavra pode substituir “de outro” em “não se deve agir em nome de outro” sem mudar o núcleo de sentido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "próprio"
+        },
+        {
+          "id": "B",
+          "text": "íntimo"
+        },
+        {
+          "id": "C",
+          "text": "alheio"
+        },
+        {
+          "id": "D",
+          "text": "mútuo"
+        },
+        {
+          "id": "E",
+          "text": "idêntico"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Alheio” pode significar “de outro” nesse contexto. Adaptação curta e não literal de <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> — Polícia Civil do Rio de Janeiro, Investigador Policial de 3ª Classe, Tipo 1, 2022, questão 23, gabarito definitivo C."
+    }
+  ]
+}
