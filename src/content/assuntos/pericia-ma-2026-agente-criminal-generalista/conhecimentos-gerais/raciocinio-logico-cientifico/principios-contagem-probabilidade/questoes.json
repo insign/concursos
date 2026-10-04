@@ -1,0 +1,1026 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "q5139",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma equipe de 3 pessoas será escolhida entre 8, sem funções distintas. O número de equipes possíveis é",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 equipes."
+        },
+        {
+          "id": "B",
+          "text": "56 equipes."
+        },
+        {
+          "id": "C",
+          "text": "112 equipes."
+        },
+        {
+          "id": "D",
+          "text": "168 equipes."
+        },
+        {
+          "id": "E",
+          "text": "336 equipes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Trocar a ordem dos três escolhidos não cria outra equipe. As 8·7·6 escolhas ordenadas representam cada equipe 3!=6 vezes; 336/6=56. Contar 336 trata a escolha como cargos distintos; dividir por apenas 2 ainda mantém repetições. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5142",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma senha tem duas letras distintas seguidas de três algarismos, e os algarismos podem repetir. Considerando 26 letras e 10 algarismos, o total é",
+      "options": [
+        {
+          "id": "A",
+          "text": "26^2·10·9·8."
+        },
+        {
+          "id": "B",
+          "text": "C(26,2)·10^3."
+        },
+        {
+          "id": "C",
+          "text": "26·25·10^3."
+        },
+        {
+          "id": "D",
+          "text": "26!/(24!3!)."
+        },
+        {
+          "id": "E",
+          "text": "26·25·10·9·8."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As letras ocupam posições distintas e não podem repetir: 26·25. Cada algarismo tem 10 opções, pois pode repetir: 10^3. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5145",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O número de anagramas distintos da palavra ARARA é",
+      "options": [
+        {
+          "id": "A",
+          "text": "120."
+        },
+        {
+          "id": "B",
+          "text": "20."
+        },
+        {
+          "id": "C",
+          "text": "12."
+        },
+        {
+          "id": "D",
+          "text": "10."
+        },
+        {
+          "id": "E",
+          "text": "60."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São 5 letras, com 3 A e 2 R indistinguíveis: 5!/(3!2!)=10. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5146",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sete pessoas distintas sentam-se em círculo, sem assentos marcados. Rotações representam a mesma disposição, mas reflexões representam disposições diferentes. Quantas disposições existem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5.040 disposições."
+        },
+        {
+          "id": "B",
+          "text": "720 disposições."
+        },
+        {
+          "id": "C",
+          "text": "360 disposições."
+        },
+        {
+          "id": "D",
+          "text": "49 disposições."
+        },
+        {
+          "id": "E",
+          "text": "120 disposições."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fixe uma pessoa como referência e ordene as seis demais: 6!=720. Contar 7! distingue rotações que o comando identifica; dividir ainda por 2 apagaria reflexões que ele manda conservar. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5147",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O número de maneiras de atribuir primeiro e segundo lugares a participantes distintos entre 10 concorrentes é",
+      "options": [
+        {
+          "id": "A",
+          "text": "C(10,2)=45."
+        },
+        {
+          "id": "B",
+          "text": "10!."
+        },
+        {
+          "id": "C",
+          "text": "A(10,2)=90."
+        },
+        {
+          "id": "D",
+          "text": "2^10."
+        },
+        {
+          "id": "E",
+          "text": "10^2=100."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As posições são diferentes, então a ordem importa: A(10,2)=10·9=90. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5149",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Escolhem-se 4 bolas de sorvete entre 6 sabores, permitindo repetição e ignorando a ordem. O total de escolhas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "C(6,4)=15."
+        },
+        {
+          "id": "B",
+          "text": "C(9,4)=126."
+        },
+        {
+          "id": "C",
+          "text": "6^4=1.296."
+        },
+        {
+          "id": "D",
+          "text": "A(6,4)=360."
+        },
+        {
+          "id": "E",
+          "text": "C(10,4)=210."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "É combinação com repetição: C(6+4−1,4)=C(9,4)=126. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5151",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O número de sequências de quatro lançamentos de um dado que contêm pelo menos um resultado 6 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "5^4."
+        },
+        {
+          "id": "B",
+          "text": "4·6^3."
+        },
+        {
+          "id": "C",
+          "text": "6^4−1."
+        },
+        {
+          "id": "D",
+          "text": "6^4−5^4=671."
+        },
+        {
+          "id": "E",
+          "text": "6^4−4^4=1.040."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conta-se o total, 6^4, e retira-se o complemento sem nenhum 6, que tem 5^4 sequências: 671. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5152",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quantas sequências binárias de comprimento 8 possuem exatamente três algarismos 1?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24."
+        },
+        {
+          "id": "B",
+          "text": "C(8,3)=56."
+        },
+        {
+          "id": "C",
+          "text": "2^8=256."
+        },
+        {
+          "id": "D",
+          "text": "8·7·6=336."
+        },
+        {
+          "id": "E",
+          "text": "C(8,2)=28."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Basta escolher as três posições dos algarismos 1: C(8,3)=56. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5153",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Cinco pessoas distintas formam uma fila. Se Ana e Bruno devem ficar juntos, o número de filas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "5!."
+        },
+        {
+          "id": "B",
+          "text": "3!·2!."
+        },
+        {
+          "id": "C",
+          "text": "4!·2!=48."
+        },
+        {
+          "id": "D",
+          "text": "4!."
+        },
+        {
+          "id": "E",
+          "text": "5!−4!=96."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O par forma um bloco. Há 4! ordens das quatro unidades e 2! ordens internas do par: 48. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5154",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Seis pessoas distintas formam uma fila. Para que Ana e Bruno não fiquem adjacentes, o número de filas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "4!·5·4=480."
+        },
+        {
+          "id": "B",
+          "text": "6!−2!=718."
+        },
+        {
+          "id": "C",
+          "text": "5!=120."
+        },
+        {
+          "id": "D",
+          "text": "6!−5!=600."
+        },
+        {
+          "id": "E",
+          "text": "4!·C(5,2)=240."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ordene as outras quatro pessoas em 4! formas e coloque Ana e Bruno em duas lacunas distintas: 5·4. Total 480. Equivalentemente, 6!−2·5!=480. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5156",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em um grupo, 30 pessoas dominam planilhas, 25 dominam bancos de dados e 20 dominam redes. Há 10 que dominam planilhas e bancos de dados, 8 que dominam planilhas e redes e 5 que dominam bancos de dados e redes. As contagens dos pares incluem as 3 pessoas que dominam as três ferramentas. Quantas dominam ao menos uma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "75."
+        },
+        {
+          "id": "B",
+          "text": "52."
+        },
+        {
+          "id": "C",
+          "text": "49."
+        },
+        {
+          "id": "D",
+          "text": "55."
+        },
+        {
+          "id": "E",
+          "text": "58."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Some os três grupos, subtraia as três interseções de pares e devolva a interseção tripla: 30+25+20−10−8−5+3=55. A região tripla entrou três vezes e saiu três vezes; precisa ser reposta uma vez. O valor 52 esquece essa reposição; 49 subtrai a tripla outra vez e 58 a repõe em dobro. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5158",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Distribuindo 31 processos entre 6 equipes, qual é o MAIOR número de processos que se pode garantir que alguma equipe receberá pelo menos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 processos."
+        },
+        {
+          "id": "B",
+          "text": "31 processos."
+        },
+        {
+          "id": "C",
+          "text": "6 processos."
+        },
+        {
+          "id": "D",
+          "text": "7 processos."
+        },
+        {
+          "id": "E",
+          "text": "8 processos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se todas as equipes recebessem no máximo 5, só caberiam 30 processos. Alguma deve receber ao menos 6. A distribuição 6,5,5,5,5,5 é possível e mostra que não se garante 7. O valor 5 também é garantido, mas o comando exige o maior limite garantido. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5165",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se P(A)=0,6, P(B)=0,5 e P(A∩B)=0,3, então P(A∪B) é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1,1."
+        },
+        {
+          "id": "B",
+          "text": "0,8."
+        },
+        {
+          "id": "C",
+          "text": "0,3."
+        },
+        {
+          "id": "D",
+          "text": "0,2."
+        },
+        {
+          "id": "E",
+          "text": "0,5."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "P(A∪B)=0,6+0,5−0,3=0,8. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5167",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em três lançamentos independentes de moeda honesta, a probabilidade de ocorrer ao menos uma cara é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/8."
+        },
+        {
+          "id": "B",
+          "text": "3/8."
+        },
+        {
+          "id": "C",
+          "text": "1/2."
+        },
+        {
+          "id": "D",
+          "text": "7/8."
+        },
+        {
+          "id": "E",
+          "text": "5/8."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O complemento é três coroas, com probabilidade (1/2)^3=1/8. Logo, 1−1/8=7/8. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5168",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em três lançamentos independentes de moeda honesta, a probabilidade de ocorrerem exatamente duas caras é",
+      "options": [
+        {
+          "id": "A",
+          "text": "3/8."
+        },
+        {
+          "id": "B",
+          "text": "1/8."
+        },
+        {
+          "id": "C",
+          "text": "1/2."
+        },
+        {
+          "id": "D",
+          "text": "7/8."
+        },
+        {
+          "id": "E",
+          "text": "5/8."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Escolha duas das três posições para cara: há três sequências favoráveis. Cada uma tem probabilidade (1/2)^3=1/8 pela independência, logo 3/8. O valor 7/8 corresponde a pelo menos uma cara; 1/8 conta só uma ordem específica. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5169",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Dois dados honestos de seis faces, distinguíveis, são lançados de forma independente. A probabilidade de a soma ser 7 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/12."
+        },
+        {
+          "id": "B",
+          "text": "7/36."
+        },
+        {
+          "id": "C",
+          "text": "1/6."
+        },
+        {
+          "id": "D",
+          "text": "1/11."
+        },
+        {
+          "id": "E",
+          "text": "1/7."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há 36 pares ordenados equiprováveis e seis somam 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). A probabilidade é 6/36=1/6. Dividir por 11 trataria as somas como equiprováveis; contar somente três pares apagaria a ordem dos dados. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5170",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Dois dados honestos de seis faces são lançados de forma independente. A probabilidade de o produto dos resultados ser par é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/4."
+        },
+        {
+          "id": "B",
+          "text": "3/4."
+        },
+        {
+          "id": "C",
+          "text": "1/2."
+        },
+        {
+          "id": "D",
+          "text": "5/6."
+        },
+        {
+          "id": "E",
+          "text": "2/3."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O produto só é ímpar quando os dois resultados são ímpares. Cada dado tem três faces ímpares entre seis; pela independência, essa chance é (1/2)^2=1/4. O complemento tem probabilidade 3/4. Exigir dois resultados pares contaria apenas parte do evento desejado. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5171",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se P(A∩B)=0,2 e P(B)=0,5, então P(A|B) é",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1."
+        },
+        {
+          "id": "B",
+          "text": "0,4."
+        },
+        {
+          "id": "C",
+          "text": "0,7."
+        },
+        {
+          "id": "D",
+          "text": "2,5."
+        },
+        {
+          "id": "E",
+          "text": "0,3."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sabendo que B ocorreu, o universo de referência é B. A fração desse universo também pertencente a A é 0,2/0,5=0,4. Multiplicar daria 0,1 e responderia a outro cálculo; somar não realiza o condicionamento. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5173",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se A e B são independentes, P(A)=0,4 e P(B)=0,5, então P(A∩B) é",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,9."
+        },
+        {
+          "id": "B",
+          "text": "0,4."
+        },
+        {
+          "id": "C",
+          "text": "0,5."
+        },
+        {
+          "id": "D",
+          "text": "0,2."
+        },
+        {
+          "id": "E",
+          "text": "0,1."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Para eventos independentes, P(A∩B)=P(A)P(B)=0,4·0,5=0,2. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5174",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se A e B são mutuamente exclusivos e ambos têm probabilidade positiva, então eles são",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependentes."
+        },
+        {
+          "id": "B",
+          "text": "independentes."
+        },
+        {
+          "id": "C",
+          "text": "complementares necessariamente."
+        },
+        {
+          "id": "D",
+          "text": "equiprováveis necessariamente."
+        },
+        {
+          "id": "E",
+          "text": "idênticos necessariamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quando A ocorre, B deixa de poder ocorrer. Algebricamente, a interseção tem probabilidade zero, enquanto P(A)P(B)>0: a condição de independência falha. Não se exige que A e B esgotem o espaço ou tenham probabilidades iguais. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5175",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma urna contém 3 bolas vermelhas e 2 azuis. Retiram-se duas bolas sem reposição, cada bola restante com igual chance de ser escolhida em cada etapa. A probabilidade de retirar duas vermelhas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "9/25."
+        },
+        {
+          "id": "B",
+          "text": "6/25."
+        },
+        {
+          "id": "C",
+          "text": "3/10."
+        },
+        {
+          "id": "D",
+          "text": "1/5."
+        },
+        {
+          "id": "E",
+          "text": "2/5."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A primeira vermelha tem chance 3/5. Após retirá-la, há duas vermelhas entre quatro bolas; a chance condicional da segunda é 2/4. O produto dá 3/10. Usar 9/25 conservaria indevidamente a composição inicial na segunda etapa. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5176",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma urna contém 3 bolas vermelhas e 2 azuis. São feitos dois sorteios independentes, com reposição e mistura da urna, cada bola com igual chance em cada sorteio. A probabilidade de retirar duas vermelhas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "3/10."
+        },
+        {
+          "id": "B",
+          "text": "6/15."
+        },
+        {
+          "id": "C",
+          "text": "3/5."
+        },
+        {
+          "id": "D",
+          "text": "9/25."
+        },
+        {
+          "id": "E",
+          "text": "6/25."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A reposição restaura três vermelhas entre cinco bolas, e o comando garante sorteios independentes. Logo, (3/5)·(3/5)=9/25. O valor 3/10 corresponde à retirada sem reposição; 3/5 é a chance de uma única vermelha. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5178",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se A e B são independentes, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A e Bᶜ também são independentes."
+        },
+        {
+          "id": "B",
+          "text": "A e B são necessariamente mutuamente exclusivos."
+        },
+        {
+          "id": "C",
+          "text": "P(A)=P(B)."
+        },
+        {
+          "id": "D",
+          "text": "P(A∪B)=P(A)+P(B)."
+        },
+        {
+          "id": "E",
+          "text": "Aᶜ e B são necessariamente mutuamente exclusivos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "P(A∩Bᶜ)=P(A)−P(A∩B)=P(A)−P(A)P(B)=P(A)P(Bᶜ). Assim, complementar B preserva a independência. Isso não impõe igualdade das probabilidades nem ausência de interseção; somar diretamente a união exige excluir a sobreposição, condição diferente. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5179",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma peça é escolhida uniformemente de um lote em que 60% das peças vêm de M1 e 40% de M2. As taxas de defeito são 2% e 5%, respectivamente. A probabilidade de a peça ser defeituosa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,070."
+        },
+        {
+          "id": "B",
+          "text": "0,035."
+        },
+        {
+          "id": "C",
+          "text": "0,020."
+        },
+        {
+          "id": "D",
+          "text": "0,032."
+        },
+        {
+          "id": "E",
+          "text": "0,028."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Some os dois caminhos de defeito: 0,60·0,02+0,40·0,05=0,032. A média simples 0,035 ignora que as origens têm pesos diferentes; 0,07 soma taxas relativas a grupos diferentes; 0,02 considera apenas uma origem. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5180",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma peça é escolhida uniformemente de um lote em que 60% vêm de M1 e 40% de M2, com taxas de defeito de 2% e 5%. Sabendo que a peça é defeituosa, a probabilidade de ela ter vindo de M2 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "2/5."
+        },
+        {
+          "id": "B",
+          "text": "5/8."
+        },
+        {
+          "id": "C",
+          "text": "1/2."
+        },
+        {
+          "id": "D",
+          "text": "4/5."
+        },
+        {
+          "id": "E",
+          "text": "3/5."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caminho M2 e defeito pesa 0,40·0,05=0,020. Todos os defeitos pesam 0,60·0,02+0,40·0,05=0,032. Condicionando ao defeito, a fração de M2 é 0,020/0,032=5/8. Usar 2/5 conservaria a origem antes da nova informação; não é a chance depois de observar o defeito. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5182",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere dois eventos A e B com probabilidades positivas. Sobre P(A|B) e P(B|A), é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Podem ser diferentes, e Bayes relaciona as duas direções usando taxas-base."
+        },
+        {
+          "id": "B",
+          "text": "são sempre iguais por simetria da interseção."
+        },
+        {
+          "id": "C",
+          "text": "somam sempre 1."
+        },
+        {
+          "id": "D",
+          "text": "só existem quando A e B são independentes."
+        },
+        {
+          "id": "E",
+          "text": "são necessariamente complementares."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As duas probabilidades dividem a mesma interseção por denominadores diferentes: P(B) e P(A). Portanto, não se pode trocá-las automaticamente, e elas não precisam somar 1. Bayes liga as direções preservando o peso inicial de cada evento; independência não é requisito para definir as condicionais. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5192",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma roleta produz apenas os resultados 1 e 2, com probabilidades 0,2 e 0,8, respectivamente. Qual análise da chance de obter 2 é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "É 1/2, pois há um resultado favorável entre dois resultados possíveis."
+        },
+        {
+          "id": "B",
+          "text": "É 0,8; a razão entre quantidades não se aplica porque os resultados têm pesos diferentes."
+        },
+        {
+          "id": "C",
+          "text": "É 0,2, pois se usa a menor probabilidade como referência."
+        },
+        {
+          "id": "D",
+          "text": "É 1, pois o resultado 2 é o mais provável."
+        },
+        {
+          "id": "E",
+          "text": "É 0,6, obtida pela diferença entre os pesos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os resultados não são equiprováveis: o comando atribui peso 0,8 ao resultado 2. A contagem 1/2 ignora esses pesos. Maior probabilidade não significa certeza, e subtrair probabilidades responderia a uma diferença, não ao evento pedido. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5196",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quantos números de quatro algarismos distintos existem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10·9·8·7=5.040."
+        },
+        {
+          "id": "B",
+          "text": "9^4=6.561."
+        },
+        {
+          "id": "C",
+          "text": "9·9·8·7=4.536."
+        },
+        {
+          "id": "D",
+          "text": "A(9,4)=3.024."
+        },
+        {
+          "id": "E",
+          "text": "10^4=10.000."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O primeiro algarismo tem 9 opções, pois zero é proibido; depois há 9, 8 e 7 opções: 4.536. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
+    },
+    {
+      "id": "q5185",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Escolhe-se uniformemente um quadrado de um tabuleiro com 144 quadrados. Destes, 40 são amarelos e 20 verdes; cada quadrado tem uma única cor. A chance de escolher amarelo ou verde é",
+      "options": [
+        {
+          "id": "A",
+          "text": "3/8."
+        },
+        {
+          "id": "B",
+          "text": "5/12."
+        },
+        {
+          "id": "C",
+          "text": "5/9."
+        },
+        {
+          "id": "D",
+          "text": "19/24."
+        },
+        {
+          "id": "E",
+          "text": "1/2."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As duas cores não se sobrepõem: há 40+20=60 favoráveis entre 144 igualmente prováveis. Logo, 60/144=5/12. Multiplicar as frações contaria simultaneidade, que é impossível para um único quadrado. Adaptação não literal do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Banco do Nordeste do Brasil, Cargo 1 — Especialista Técnico 1/Analista de Sistema, Conhecimentos Básicos, prova de 02/12/2018, item 35. Original certo/errado: gabarito definitivo E; aqui pergunta-se o valor ou a contagem, com alternativas próprias. Caderno: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/MATRIZ_424_BNBCB1__PAG_4.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/GAB_DEFINITIVO_424_BNB_CB1_00_MATRIZ.PDF."
+    },
+    {
+      "id": "q5186",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Para organizar dez animais distintos em fila, já se determinou que o camelo ocupará a posição 1 e o elefante, a posição 6. Quantas filas respeitam as determinações?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10!."
+        },
+        {
+          "id": "B",
+          "text": "2·8!."
+        },
+        {
+          "id": "C",
+          "text": "8!."
+        },
+        {
+          "id": "D",
+          "text": "6!·4!."
+        },
+        {
+          "id": "E",
+          "text": "9!."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Restam oito animais distintos e oito posições livres, organizados em 8! maneiras. Não se multiplica por 2, pois não se pode trocar os dois ocupantes já determinados; 10! e 9! liberariam posições fixadas. Adaptação não literal do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Banco do Nordeste do Brasil, Cargo 1 — Especialista Técnico 1/Analista de Sistema, Conhecimentos Básicos, prova de 02/12/2018, item 36. Original certo/errado: gabarito definitivo C; aqui pergunta-se o valor ou a contagem, com alternativas próprias. Caderno: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/MATRIZ_424_BNBCB1__PAG_4.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/GAB_DEFINITIVO_424_BNB_CB1_00_MATRIZ.PDF."
+    },
+    {
+      "id": "q5188",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Ao organizar dez animais distintos em fila, exige-se que leão, camelo e elefante sejam consecutivos, nessa ordem. Quantas filas atendem à exigência?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3!·8!."
+        },
+        {
+          "id": "B",
+          "text": "7·7!."
+        },
+        {
+          "id": "C",
+          "text": "9!."
+        },
+        {
+          "id": "D",
+          "text": "8!."
+        },
+        {
+          "id": "E",
+          "text": "3·8!."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O trio forma um bloco de ordem interna única. Com os sete outros animais, há oito unidades a ordenar, logo 8!. O fator 3! seria adequado se a ordem interna fosse livre; 7·7! não permite todas as oito posições possíveis do bloco. Adaptação não literal do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>, Banco do Nordeste do Brasil, Cargo 1 — Especialista Técnico 1/Analista de Sistema, Conhecimentos Básicos, prova de 02/12/2018, item 38. Original certo/errado: gabarito definitivo E; aqui pergunta-se o valor ou a contagem, com alternativas próprias. Caderno: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/MATRIZ_424_BNBCB1__PAG_4.PDF. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/GAB_DEFINITIVO_424_BNB_CB1_00_MATRIZ.PDF."
+    },
+    {
+      "id": "q52204102",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma urna oferece os números de 1 a 8, cada um em uma bola com igual chance de escolha. Fazem-se dois sorteios independentes, com reposição. Aproximadamente, qual é a chance de a soma superar 13?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,03"
+        },
+        {
+          "id": "B",
+          "text": "0,06"
+        },
+        {
+          "id": "C",
+          "text": "0,09"
+        },
+        {
+          "id": "D",
+          "text": "0,12"
+        },
+        {
+          "id": "E",
+          "text": "0,15"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os 8·8=64 pares ordenados são equiprováveis. Somam mais de 13: (6,8),(7,7),(8,6),(7,8),(8,7),(8,8), seis pares. A chance é 6/64=0,09375, aproximadamente 0,09. O par (7,7) é permitido pela reposição; (6,7) e (7,6) somam 13 e não pertencem ao evento. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Tribunal de Justiça do Estado de Roraima — Analista Judiciário — Estatística, Tipo 1, prova de 17/11/2024, questão 39; gabarito definitivo C. Enunciado reformulado e explicação própria. A divergência de data no cabeçalho do definitivo é documentada nas referências. Caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns111t01-analista-judiciario-estatistica.pdf. Gabarito definitivo, versão 3: https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf."
+    },
+    {
+      "id": "q52204103",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Eventos A e B têm probabilidades 0,6 e 0,8. Julgue:\n\nI. A independência entre eles é impossível.\nII. A união pode alcançar probabilidade 1.\nIII. A maior probabilidade possível da interseção é 0,6.\n\nQuais afirmações estão corretas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A interseção pode variar de 0,4 a 0,6. Independência corresponderia a 0,6·0,8=0,48, valor admissível: I é falsa. Com interseção 0,4, a união vale 0,6+0,8−0,4=1; II é verdadeira. A interseção não pode ultrapassar o menor evento e pode atingir 0,6; III é verdadeira. Não é necessário supor exclusão mútua ou probabilidades iguais. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Tribunal de Justiça do Estado de Roraima — Analista Judiciário — Estatística, Tipo 1, prova de 17/11/2024, questão 41; gabarito definitivo D. Enunciado reformulado e explicação própria. A divergência de data no cabeçalho do definitivo é documentada nas referências. Caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cns111t01-analista-judiciario-estatistica.pdf. Gabarito definitivo, versão 3: https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf."
+    },
+    {
+      "id": "per-u024-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma tarefa pode começar por X ou Y. Se começar por X, há 2 finalizações possíveis; se começar por Y, há 4. O início integra o resultado, e não há outros caminhos. Quantos resultados completos existem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4."
+        },
+        {
+          "id": "B",
+          "text": "6."
+        },
+        {
+          "id": "C",
+          "text": "8."
+        },
+        {
+          "id": "D",
+          "text": "10."
+        },
+        {
+          "id": "E",
+          "text": "12."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os dois inícios definem casos disjuntos. São 2 resultados de X e 4 de Y, total 6. Multiplicar 2 inícios por 4 finalizações pressuporia quatro opções em ambos, o que o enunciado nega. Questão autoral do acervo Insign/Concursos; situação hipotética."
+    }
+  ]
+}
