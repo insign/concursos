@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 7,
+  "questions": [
+    {
+      "id": "q3759",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um registro interno será transformado em aviso aos usuários. Qual decisão deve orientar primeiro a adaptação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Escolher os sinônimos mais formais e depois verificar se a finalidade foi atendida."
+        },
+        {
+          "id": "B",
+          "text": "Identificar destinatários, finalidade e informações necessárias ao aviso antes de reorganizar a linguagem."
+        },
+        {
+          "id": "C",
+          "text": "Conservar a ordem do registro para garantir que nenhuma informação se perca."
+        },
+        {
+          "id": "D",
+          "text": "Reduzir a extensão e só depois verificar quais requisitos deixaram de aparecer."
+        },
+        {
+          "id": "E",
+          "text": "Definir um título institucional, pois ele estabelece a finalidade do texto restante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A finalidade e os destinatários orientam seleção, ordem e explicitação. Sinônimos, extensão e título são decisões posteriores; preservar a ordem não garante adequação, e encurtar antes de avaliar o conteúdo pode eliminar condições essenciais. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3761",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma anotação técnica é reconstruída como instrução para usuários, com outra finalidade e outra organização. Essa operação caracteriza retextualização porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "corrige o mesmo texto, mantendo sua finalidade original."
+        },
+        {
+          "id": "B",
+          "text": "produz novo texto a partir da base para outra situação comunicativa."
+        },
+        {
+          "id": "C",
+          "text": "resume o texto original sem mudar sua finalidade."
+        },
+        {
+          "id": "D",
+          "text": "conserva o gênero e altera apenas o suporte material."
+        },
+        {
+          "id": "E",
+          "text": "substitui termos técnicos por sinônimos de maior formalidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No caso proposto, a nova finalidade e a organização dirigida aos usuários caracterizam a retextualização. A descrição de resumo que mantém o propósito não corresponde à transformação pedida, e a operação não se limita à troca de palavras ou à mudança de suporte. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3762",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um bilhete entre amigos diz “A gente chega cedo”, e um comunicado administrativo diz “Nós chegará cedo”. Qual análise separa registro e correção?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O bilhete tem erro de concordância por empregar “a gente”; o comunicado tem registro formal e, por isso, é correto."
+        },
+        {
+          "id": "B",
+          "text": "As duas frases apresentam erro de concordância, embora apenas a primeira seja informal."
+        },
+        {
+          "id": "C",
+          "text": "A primeira tem marca coloquial com concordância regular; a segunda contém erro de concordância, apesar da troca de expressão."
+        },
+        {
+          "id": "D",
+          "text": "As duas frases são igualmente formais porque ambas identificam quem chegará."
+        },
+        {
+          "id": "E",
+          "text": "A escolha de “nós” neutraliza o contraste de registro entre as frases, ainda que o verbo permaneça no singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“A gente” combina com verbo no singular; “nós” exige plural. A expressão coloquial pode ser adequada ao bilhete. A troca de expressão não neutraliza a diferença de situação nem corrige a concordância da nova frase. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3763",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A base confirmada informa: “A unidade atenderá das 9 às 12 horas”. Para um aviso público que preserve essa informação, qual formulação reúne clareza e registro formal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atendimento da unidade dar-se-á em intervalo temporal matutino."
+        },
+        {
+          "id": "B",
+          "text": "A unidade atenderá durante a manhã, em horário regular."
+        },
+        {
+          "id": "C",
+          "text": "Informa-se a disponibilização integral do atendimento no período matinal."
+        },
+        {
+          "id": "D",
+          "text": "A unidade atenderá das 9 às 12 horas."
+        },
+        {
+          "id": "E",
+          "text": "O atendimento será realizado pela unidade até o fim da manhã."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A formulação direta conserva início e fim sem solenidade desnecessária. As outras versões omitem os limites ou ampliam o alcance; vocabulário mais cerimonioso não compensa essa perda. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3764",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A base informa: “Segundo a equipe, o acesso pode ser interrompido por até duas horas, exceto para quem já iniciou uma sessão”. Se o aviso deve preservar integralmente a informação, qual inventário é suficiente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interrupção, equipe e duração de duas horas."
+        },
+        {
+          "id": "B",
+          "text": "Fonte, possibilidade de interrupção, limite máximo de duração e exceção relativa às sessões iniciadas."
+        },
+        {
+          "id": "C",
+          "text": "Interrupção confirmada, público geral e horário de retorno."
+        },
+        {
+          "id": "D",
+          "text": "Equipe, indisponibilidade total e duração aproximada."
+        },
+        {
+          "id": "E",
+          "text": "Possibilidade de interrupção e recomendação para encerrar as sessões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fonte, o grau de certeza, o teto de duração e a exceção delimitam a base. Duas horas não são duração fixa; interrupção total, retorno e recomendação não foram informados. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3765",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma mensagem diz “O portal pode ficar indisponível”. Para um aviso formal que mantenha o sentido de possibilidade, qual versão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O portal ficará indisponível."
+        },
+        {
+          "id": "B",
+          "text": "O portal provavelmente ficará indisponível."
+        },
+        {
+          "id": "C",
+          "text": "Há possibilidade de indisponibilidade do portal."
+        },
+        {
+          "id": "D",
+          "text": "O portal deverá ficar indisponível."
+        },
+        {
+          "id": "E",
+          "text": "O portal permanecerá indisponível."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A versão C conserva a possibilidade sem graduá-la como provável ou apresentá-la categoricamente. “Deverá” pode indicar expectativa provável ou obrigação, conforme o contexto; não assegura equivalência à possibilidade da base. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3766",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A base diz “Segundo a equipe, o reparo deve terminar hoje”, com valor de previsão provável. Qual versão mantém fonte e grau de certeza?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O reparo terminará hoje, como garantiu a equipe."
+        },
+        {
+          "id": "B",
+          "text": "A equipe determinou que o reparo termine hoje."
+        },
+        {
+          "id": "C",
+          "text": "Segundo a equipe, é provável que o reparo termine hoje."
+        },
+        {
+          "id": "D",
+          "text": "Segundo a equipe, o reparo pode terminar hoje, mas não há indicação de probabilidade."
+        },
+        {
+          "id": "E",
+          "text": "O reparo deve terminar hoje, conforme comprovado pela equipe."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C conserva atribuição e probabilidade. Garantia, determinação e comprovação introduzem compromissos diferentes. D enfraquece a previsão provável para possibilidade sem gradação. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3767",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma mensagem será arquivada para leitura posterior. Ela diz “O atendimento volta amanhã”, mas a data de envio não foi fornecida. Qual adaptação preserva a fidelidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trocar “amanhã” pela data do dia seguinte ao da leitura."
+        },
+        {
+          "id": "B",
+          "text": "Registrar a dependência temporal da mensagem sem inventar uma data absoluta para o retorno."
+        },
+        {
+          "id": "C",
+          "text": "Trocar “amanhã” por “na próxima segunda-feira”, por ser mais preciso."
+        },
+        {
+          "id": "D",
+          "text": "Trocar “amanhã” por “em breve”, pois ambos informam exatamente o mesmo prazo."
+        },
+        {
+          "id": "E",
+          "text": "Eliminar a referência temporal, pois expressões relativas não podem ocorrer na escrita."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sem o dia de produção, não se calcula a data de “amanhã”. A versão pode atribuir a indicação à mensagem original ou exigir sua ancoragem, mas não escolher uma data. “Em breve” perde a delimitação; escrita não proíbe referência temporal relativa. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3768",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um procedimento usa um termo técnico indispensável à distinção entre duas operações. Ao adaptá-lo para público que desconhece o termo, é adequado",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituí-lo por “procedimento”, ainda que as duas operações passem a ter o mesmo nome."
+        },
+        {
+          "id": "B",
+          "text": "mantê-lo sem explicação, porque sua precisão basta para o leitor."
+        },
+        {
+          "id": "C",
+          "text": "retirar a distinção para reduzir a extensão do texto."
+        },
+        {
+          "id": "D",
+          "text": "manter ou substituir o termo com equivalência precisa, explicando a distinção de modo acessível."
+        },
+        {
+          "id": "E",
+          "text": "empregar outro termo técnico mais curto, sem explicar seu significado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A adaptação precisa permitir compreensão sem apagar a distinção necessária. A explicação pode acompanhar o termo ou uma expressão equivalente; nome vago, ausência de explicação e outro jargão não resolvem a dificuldade. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3769",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um registro interno contém uma longa sequência de testes e informa uma previsão de falha no acesso. O resumo ao público deve orientar os usuários. Qual decisão atende à finalidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conservar todos os testes e deixar o efeito no acesso para o último parágrafo."
+        },
+        {
+          "id": "B",
+          "text": "Destacar o efeito previsto, os usuários atingidos e as orientações fornecidas, selecionando detalhes internos conforme o comando."
+        },
+        {
+          "id": "C",
+          "text": "Informar somente que houve testes, evitando mencionar a falha prevista."
+        },
+        {
+          "id": "D",
+          "text": "Apresentar a previsão como falha já constatada para tornar o aviso direto."
+        },
+        {
+          "id": "E",
+          "text": "Acrescentar um horário de retorno usual, mesmo ausente do registro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O aviso deve tornar localizável o que afeta o usuário. A autorização de resumo admite seleção, mas não apagamento do efeito, mudança de previsão para ocorrência nem preenchimento de lacunas com dados usuais. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3770",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A base recomenda guardar uma cópia antes da atualização. O novo texto deve orientar diretamente o usuário sem criar obrigação. Qual versão atende ao comando?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guarde obrigatoriamente uma cópia antes da atualização."
+        },
+        {
+          "id": "B",
+          "text": "Faça uma cópia para que a atualização seja autorizada."
+        },
+        {
+          "id": "C",
+          "text": "É recomendável que você guarde uma cópia antes da atualização."
+        },
+        {
+          "id": "D",
+          "text": "Guarde uma cópia depois da atualização, se necessário."
+        },
+        {
+          "id": "E",
+          "text": "A atualização depende de uma cópia previamente guardada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C dirige a recomendação ao usuário e mantém a anterioridade. A, B e E aumentam a força para obrigação ou condição; D muda o momento. A passagem à orientação não exige apagar o caráter de conselho. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3771",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A base diz “O diretor classificou a medida como insuficiente”. Qual versão informativa preserva a avaliação atribuída?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida é insuficiente, segundo todos os participantes."
+        },
+        {
+          "id": "B",
+          "text": "O diretor comprovou a insuficiência da medida."
+        },
+        {
+          "id": "C",
+          "text": "O diretor avaliou a medida como insuficiente."
+        },
+        {
+          "id": "D",
+          "text": "A insuficiência da medida levou o diretor a se manifestar."
+        },
+        {
+          "id": "E",
+          "text": "Embora o diretor discorde, a medida é insuficiente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C mantém a avaliação e sua fonte. As demais criam consenso, comprovação, causa ou posição não informada. Relatar que alguém avaliou não prova que a avaliação seja um fato independente. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3772",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Dois servidores amigos conversam sobre o jantar fora do expediente. Depois, um deles envia comunicação administrativa ao órgão. Qual afirmação é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O cargo impõe o mesmo grau de cerimônia às duas situações."
+        },
+        {
+          "id": "B",
+          "text": "A relação, o propósito e as convenções podem justificar registros diferentes nas duas situações."
+        },
+        {
+          "id": "C",
+          "text": "A comunicação administrativa pode usar o mesmo tom da conversa porque os participantes se conhecem."
+        },
+        {
+          "id": "D",
+          "text": "O uso da escrita torna formal qualquer mensagem, inclusive um bilhete privado."
+        },
+        {
+          "id": "E",
+          "text": "O canal digital dispensa formalidade na comunicação administrativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O papel desempenhado em cada interação é decisivo. A amizade na conversa privada não define o registro do ato administrativo; modalidade escrita e canal digital tampouco determinam sozinhos a formalidade. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3775",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um relatório registra testes, resultados e recomendações. Seu título é trocado para “Aviso aos usuários”, mas o texto continua voltado aos técnicos e não informa como o público será afetado. A transformação é insuficiente porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ação comunicativa exige reorganizar conteúdo e explicitação conforme o destinatário, além do título."
+        },
+        {
+          "id": "B",
+          "text": "um aviso ao público só pode conter uma única informação."
+        },
+        {
+          "id": "C",
+          "text": "um relatório não pode servir de base para outro gênero."
+        },
+        {
+          "id": "D",
+          "text": "o aviso precisa necessariamente mudar o passado para o futuro em todos os verbos."
+        },
+        {
+          "id": "E",
+          "text": "a fidelidade obriga conservar todos os detalhes técnicos, em qualquer tarefa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O título não realiza, sozinho, a finalidade. Um aviso pode partir do relatório, selecionar detalhes se autorizado e manter tempos pertinentes, mas deve tornar acessível o impacto ou a orientação relevante ao público. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3776",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um aviso passará do mural para uma tela pequena de aplicativo. Qual decisão se justifica pela mudança de suporte?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Omitir a condição de acesso para que o texto caiba em uma linha."
+        },
+        {
+          "id": "B",
+          "text": "Deixar apenas “acesse o serviço”, ainda que a base contenha um prazo essencial."
+        },
+        {
+          "id": "C",
+          "text": "Dividir os blocos e antecipar a ação, mantendo prazo e condição necessários."
+        },
+        {
+          "id": "D",
+          "text": "Tornar aproximado um prazo exato para economizar caracteres."
+        },
+        {
+          "id": "E",
+          "text": "Retirar o nome do serviço quando o aplicativo oferece vários serviços."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A apresentação pode ser reorganizada para facilitar leitura. Os outros cortes prejudicam o uso correto: condição, prazo e identificação continuam necessários, ainda que ocupem espaço. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3777",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A conversa informa “A reunião deu ruim, mas ninguém saiu antes do fim”. Qual formalização conserva as duas informações?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reunião foi cancelada e todos permaneceram no local."
+        },
+        {
+          "id": "B",
+          "text": "A reunião apresentou problemas, mas todos os participantes permaneceram até o fim."
+        },
+        {
+          "id": "C",
+          "text": "A reunião foi improdutiva porque ninguém saiu antes do fim."
+        },
+        {
+          "id": "D",
+          "text": "A reunião apresentou problemas e alguns participantes se retiraram."
+        },
+        {
+          "id": "E",
+          "text": "A reunião terminou sem problemas e sem saídas antecipadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A formulação B substitui a expressão coloquial sem mudar permanência nem contraste. Cancelamento, improdutividade como efeito de uma causa e saídas antecipadas não estão na base; E elimina o problema. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3787",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A mensagem “Você consegue enviar o relatório até as 17 horas, se for possível?” deve virar pedido profissional sem aumentar a exigência. Qual versão atende?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Determino que o relatório seja enviado até as 17 horas."
+        },
+        {
+          "id": "B",
+          "text": "Solicito, se possível, o envio do relatório até as 17 horas."
+        },
+        {
+          "id": "C",
+          "text": "Solicito o envio impreterível do relatório até as 17 horas."
+        },
+        {
+          "id": "D",
+          "text": "Autoriza-se o envio do relatório somente depois das 17 horas."
+        },
+        {
+          "id": "E",
+          "text": "Confirmo que o relatório estará disponível às 17 horas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ressalva de possibilidade permanece e o texto continua sendo pedido. A e C impõem cumprimento; D altera ação e horário; E confirma resultado. Cortesia formal não autoriza intensificar a exigência. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3788",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma mensagem enviada em 20 de julho de 2026 prevê interrupção “amanhã, das 14 às 16 horas”. Ela será publicada em página permanente, sem alterar a previsão. Qual versão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A interrupção ocorrerá amanhã, em horário de expediente."
+        },
+        {
+          "id": "B",
+          "text": "A interrupção foi concluída em 21 de julho de 2026."
+        },
+        {
+          "id": "C",
+          "text": "Há previsão de interrupção em 21 de julho de 2026, das 14 às 16 horas."
+        },
+        {
+          "id": "D",
+          "text": "Há previsão de interrupção no dia seguinte à leitura desta página."
+        },
+        {
+          "id": "E",
+          "text": "Há previsão de interrupção durante toda a tarde de 21 de julho de 2026."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A data de produção permite ancorar “amanhã” em 21 de julho. C mantém previsão e intervalo. A perde o intervalo; B afirma conclusão; D muda a referência; E amplia a duração. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3789",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma nota informa: “A autenticação ficará indisponível durante a atualização, sem impacto sobre sessões já iniciadas”. Iniciar uma nova sessão exige autenticação. Para usuários, autenticação é a verificação da identidade; sessão é a interação mantida depois do ingresso. Qual aviso conserva efeito e exceção?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todos os usuários perderão o acesso durante a atualização."
+        },
+        {
+          "id": "B",
+          "text": "Não será possível iniciar nova sessão durante a atualização; as já abertas não serão afetadas."
+        },
+        {
+          "id": "C",
+          "text": "Não haverá qualquer interrupção durante a atualização."
+        },
+        {
+          "id": "D",
+          "text": "As sessões abertas serão encerradas para permitir novos acessos."
+        },
+        {
+          "id": "E",
+          "text": "Não será possível iniciar nova sessão nem manter as já abertas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B explica o efeito sobre novos acessos e mantém o tratamento distinto das sessões em andamento. As outras versões ampliam, eliminam ou invertem os dois grupos atingidos pela informação. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3790",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A mensagem “Parece que a bomba parou de novo; João chamou a manutenção” será registrada antes da verificação. Qual versão preserva o estado da informação e os participantes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "João confirmou uma nova falha da bomba e concluiu a manutenção."
+        },
+        {
+          "id": "B",
+          "text": "A manutenção constatou a falha e comunicou João."
+        },
+        {
+          "id": "C",
+          "text": "Foi relatada possível nova paralisação da bomba; João acionou a manutenção."
+        },
+        {
+          "id": "D",
+          "text": "A bomba certamente parou de novo; a manutenção foi acionada por pessoa não identificada."
+        },
+        {
+          "id": "E",
+          "text": "João acionou a manutenção porque se comprovou defeito definitivo na bomba."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C conserva o caráter não confirmado da paralisação e identifica João como quem chamou a manutenção. A, B e E inventam verificação, agente ou resultado; D aumenta a certeza e apaga o responsável expresso. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3803",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O trecho “O gerente informou ao servidor que seu cadastro estava bloqueado” será reescrito sem acrescentar informação. O contexto não identifica o dono do cadastro. Qual análise é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trocar “seu” por “do servidor” é sempre fiel, por ser o nome mais próximo."
+        },
+        {
+          "id": "B",
+          "text": "Trocar “seu” por “do gerente” é sempre fiel, pois o gerente é o sujeito."
+        },
+        {
+          "id": "C",
+          "text": "Atribuir o cadastro a um dos dois resolve a ambiguidade, mas acrescenta uma escolha que o contexto não autorizou."
+        },
+        {
+          "id": "D",
+          "text": "Usar “nosso cadastro” elimina a ambiguidade sem mudar participantes."
+        },
+        {
+          "id": "E",
+          "text": "Retirar a informação de bloqueio preserva integralmente o trecho."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Clareza obtida por adivinhação não garante fidelidade. “Seu” admite mais de um referente nesse contexto; a reescrita deve manter a indeterminação ou receber informação que permita esclarecê-la. “Nosso” inclui outro participante e o corte perde o bloqueio. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3810",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 5 de setembro, a diretora declarou: “Enviarei hoje”. O relato ocorre em 6 de setembro e deve conservar pessoa e referência temporal, sem afirmar a realização do envio. Qual versão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A diretora declarou que enviaria em 5 de setembro."
+        },
+        {
+          "id": "B",
+          "text": "A diretora declarou que enviou em 6 de setembro."
+        },
+        {
+          "id": "C",
+          "text": "A diretora declarou que enviaremos em 5 de setembro."
+        },
+        {
+          "id": "D",
+          "text": "A diretora declarou que enviará no dia do relato."
+        },
+        {
+          "id": "E",
+          "text": "A diretora declarou que já havia enviado em 5 de setembro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Enviaria” situa o envio como futuro em relação à declaração; 5 de setembro ancora o “hoje” original. As demais versões afirmam realização, alteram quem envia ou deslocam a data. Relatar a promessa não comprova que ela foi cumprida. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3812",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um aviso diz “Para acessar o serviço, apresente documento de identificação até 30 de agosto”. Ao torná-lo mais conciso, qual versão preserva integralmente ação, requisito e prazo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acesse o serviço em agosto com identificação."
+        },
+        {
+          "id": "B",
+          "text": "Apresente documento de identificação para acessar o serviço."
+        },
+        {
+          "id": "C",
+          "text": "Até 30 de agosto, apresente documento de identificação para acessar o serviço."
+        },
+        {
+          "id": "D",
+          "text": "Até 30 de agosto, apresente-se para acessar o serviço."
+        },
+        {
+          "id": "E",
+          "text": "O acesso ao serviço exige identificação durante o mês de agosto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C reorganiza a informação sem eliminar documento e limite. A e E substituem o dia-limite pelo mês; B elimina o prazo; D não exige o documento. Concisão não autoriza apagar condições substanciais. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3813",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A base de um relato formal diz “A equipe técnica identificou a falha”. Qual afirmação sobre a versão “A falha foi identificada” é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preserva integralmente a informação porque a passiva é sempre equivalente à ativa."
+        },
+        {
+          "id": "B",
+          "text": "Aumenta a certeza, pois a voz ativa expressa apenas possibilidade."
+        },
+        {
+          "id": "C",
+          "text": "Omitiu o responsável expresso; sua aceitação depende de a tarefa permitir dispensar essa informação."
+        },
+        {
+          "id": "D",
+          "text": "Transformou a identificação em recomendação."
+        },
+        {
+          "id": "E",
+          "text": "Atende obrigatoriamente melhor à formalidade por eliminar o agente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A passiva sem agente mantém a identificação realizada, mas deixa de nomear a equipe. A tarefa e o contexto decidem se a omissão é admissível. A voz não altera automaticamente certeza e a formalidade não exige esconder responsáveis. Questão autoral; situações hipotéticas."
+    },
+    {
+      "id": "q3839",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Qual formulação é compatível com o registro formal escrito, sem marcas coloquiais, e com a correção gramatical tradicional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Caso nós recebesse os documentos, concluiríamos a análise."
+        },
+        {
+          "id": "B",
+          "text": "Para mim redigir o relatório, será necessário consultar os dados."
+        },
+        {
+          "id": "C",
+          "text": "A gente conferiu as informações antes do envio."
+        },
+        {
+          "id": "D",
+          "text": "Nós concluiríamos a tarefa se receberíamos os documentos."
+        },
+        {
+          "id": "E",
+          "text": "Os relatórios que lhes encaminhamos contêm os dados solicitados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "E respeita concordância e construção pronominal. A requer “recebêssemos”; B requer “eu” como sujeito de “redigir”; C é marca coloquial, embora tenha concordância regular; D requer “recebêssemos” na condição. Os critérios do comando reúnem registro e correção, sem tratar todo uso informal como erro. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Secretaria Municipal de Educação de São Paulo — Professor de Educação Infantil e Ensino Fundamental I, Tipo 1, prova de 15/01/2023, questão 4; gabarito definitivo original E. Reformulados enunciado, contexto e alternativas. Caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cnm001_-_professor_de_educacao_infantil_e_ensino_fundamental_i_cnm001_tipo_1_-_15.01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/smesp2022_gabarito_definitivo-edital-2.pdf."
+    },
+    {
+      "id": "q3840",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Dois amigos que atuam na diplomacia se encontram em um bar antes do expediente. Qual escolha de cumprimento se ajusta melhor à relação privada descrita?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bom dia! Tudo bem com você?"
+        },
+        {
+          "id": "B",
+          "text": "Apresento a Vossa Excelência meus cumprimentos institucionais."
+        },
+        {
+          "id": "C",
+          "text": "Solicito a Vossa Senhoria informar como se encontra."
+        },
+        {
+          "id": "D",
+          "text": "Cumprimento-o formalmente em nome da instituição."
+        },
+        {
+          "id": "E",
+          "text": "Saúdo respeitosamente a autoridade aqui representada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A combina cordialidade com a proximidade entre amigos. As demais importam papéis e cerimônia institucionais para a interação privada. O cargo não estabelece sozinho o registro da conversa. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Secretaria Municipal de Educação de São Paulo — Professor de Educação Infantil e Ensino Fundamental I, Tipo 1, prova de 15/01/2023, questão 5; gabarito definitivo original A. Reformulados enunciado, contexto e alternativas. Caderno: https://conhecimento.fgv.br/sites/default/files/concursos/cnm001_-_professor_de_educacao_infantil_e_ensino_fundamental_i_cnm001_tipo_1_-_15.01.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/smesp2022_gabarito_definitivo-edital-2.pdf."
+    },
+    {
+      "id": "per-u018-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A base declara “A associação considera a medida excelente e afirma que ela poderá reduzir filas”. A tarefa pede relato informativo com preservação integral dos sentidos. Qual versão atende?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida reduzirá filas, segundo especialistas."
+        },
+        {
+          "id": "B",
+          "text": "A associação afirmou que a medida poderá reduzir filas."
+        },
+        {
+          "id": "C",
+          "text": "A associação avaliou a medida como excelente e afirmou que ela poderá reduzir filas."
+        },
+        {
+          "id": "D",
+          "text": "A associação comprovou que a medida excelente já reduziu filas."
+        },
+        {
+          "id": "E",
+          "text": "A medida poderá reduzir filas e é excelente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C conserva avaliação e seu grau, fonte e possibilidade. B seria seleção possível em outra tarefa, mas aqui apaga avaliação exigida pela preservação integral. A e D inventam fonte, comprovação ou resultado; E faz o redator assumir a avaliação. Questão autoral; situação hipotética."
+    },
+    {
+      "id": "per-u018-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma anotação relata que houve interrupção pela manhã e acrescenta “não sabemos a causa”. O resumo ao público traz “A manutenção causou a interrupção”. Qual diagnóstico é correto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O resumo fez somente uma escolha de vocabulário mais formal."
+        },
+        {
+          "id": "B",
+          "text": "A nova versão tornou explícita uma causa já garantida pela anotação."
+        },
+        {
+          "id": "C",
+          "text": "O novo gênero autoriza completar a causa com a explicação mais provável."
+        },
+        {
+          "id": "D",
+          "text": "A versão substituiu desconhecimento declarado por uma causa não informada."
+        },
+        {
+          "id": "E",
+          "text": "A redução da extensão preserva o conteúdo porque manteve a palavra “interrupção”."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A fonte declara desconhecimento da causa. Atribuí-la à manutenção acrescenta uma relação causal e contradiz o estado da informação disponível. Finalidade e concisão não permitem preencher essa lacuna com plausibilidade. Questão autoral; situação hipotética."
+    }
+  ]
+}
