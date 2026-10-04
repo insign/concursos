@@ -540,7 +540,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O verbo 'revisou' é recuperado na segunda oração, cuja pessoa é Bruno e cujo objeto é o relatório. A atribui os dois objetos a Ana e transforma Bruno em possuidor; C repete o objeto de Ana; D reúne os sujeitos e apaga o relatório; E troca os objetos. A <abbr title=\"omissão de um termo já expresso e recuperável\">zeugma</abbr> não autoriza mudar essas funções."
+      "explanation": "O verbo 'revisou' é recuperado na segunda oração, cuja pessoa é Bruno e cujo objeto é o relatório. A atribui os dois objetos a Ana e transforma Bruno em possuidor; C repete o objeto de Ana; D reúne os sujeitos e apaga o relatório; E troca os objetos. A zeugma não autoriza mudar essas funções."
     },
     {
       "id": "q3728",
@@ -660,7 +660,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "'Vinha analisando' apresenta a ação em continuidade; 'analisou' a apresenta globalmente. O nome 'análise' sozinho não conserva essa diferença de <abbr title=\"maneira de apresentar o desenvolvimento da ação\">aspecto verbal</abbr>. Isso não significa que todo pretérito perfeito garanta a conclusão material de qualquer ação."
+      "explanation": "'Vinha analisando' apresenta a ação em continuidade; 'analisou' a apresenta globalmente. O nome 'análise' sozinho não conserva essa diferença de aspecto verbal. Isso não significa que todo pretérito perfeito garanta a conclusão material de qualquer ação."
     },
     {
       "id": "q3746",
@@ -750,7 +750,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A <abbr title=\"relação pela qual um verbo ou nome exige seus complementos\">regência</abbr> determina a ligação com os complementos. “Analisou a proposta” tem objeto direto; “referiu-se à proposta” exige a preposição “a”, combinada com o artigo “a”. A nova construção deve ser avaliada por inteiro."
+      "explanation": "A regência determina a ligação com os complementos. “Analisou a proposta” tem objeto direto; “referiu-se à proposta” exige a preposição “a”, combinada com o artigo “a”. A nova construção deve ser avaliada por inteiro."
     },
     {
       "id": "q3753",
@@ -870,7 +870,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A oração com infinitivo é desenvolvida por 'que' + subjuntivo, preservando sujeito e valor da construção. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, <abbr title=\"Tribunal de Contas do Estado de Goiás\">TCE-GO</abbr>, Analista de Controle Externo — Controle Externo, Tipo 1, 2024, questão 2; gabarito definitivo B. Fontes oficiais em referencias.md."
+      "explanation": "A oração com infinitivo é desenvolvida por 'que' + subjuntivo, preservando sujeito e valor da construção. Adaptação não literal da Fundação Getulio Vargas, Tribunal de Contas do Estado de Goiás, Analista de Controle Externo — Controle Externo, Tipo 1, 2024, questão 2; gabarito definitivo B. Fontes oficiais em referencias.md."
     },
     {
       "id": "q3763",
@@ -900,7 +900,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A segunda construção coordena dois infinitivos dependentes de 'deseja' — 'realizar' e 'receber' — e restabelece a correspondência entre as ações. A transforma a oração em expressão nominal; B acrescenta concessão; C troca o nome por pronome, e não por um <abbr title=\"termo de sentido mais amplo, como animal em relação a cão\">hiperônimo</abbr>; E retoma uma ação por 'fazê-lo', sem substituí-la por sinônimo lexical. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Receita Federal do Brasil, Auditor-Fiscal, Tipo 4, 2023, questão 9; gabarito definitivo D. Fontes oficiais em referencias.md."
+      "explanation": "A segunda construção coordena dois infinitivos dependentes de 'deseja' — 'realizar' e 'receber' — e restabelece a correspondência entre as ações. A transforma a oração em expressão nominal; B acrescenta concessão; C troca o nome por pronome, e não por um hiperônimo; E retoma uma ação por 'fazê-lo', sem substituí-la por sinônimo lexical. Adaptação não literal da Fundação Getulio Vargas, Receita Federal do Brasil, Auditor-Fiscal, Tipo 4, 2023, questão 9; gabarito definitivo D. Fontes oficiais em referencias.md."
     },
     {
       "id": "per-u017-q001",
