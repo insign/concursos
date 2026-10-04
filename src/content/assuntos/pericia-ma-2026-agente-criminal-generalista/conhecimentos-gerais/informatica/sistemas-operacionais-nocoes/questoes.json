@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u023-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente sistema operacional e gerenciador de arquivos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O gerenciador de arquivos distribui diretamente tempo de processamento entre todas as tarefas do computador."
+        },
+        {
+          "id": "B",
+          "text": "O sistema operacional coordena recursos; o gerenciador de arquivos é um aplicativo usado para navegar e operar sobre arquivos e diretórios."
+        },
+        {
+          "id": "C",
+          "text": "O sistema operacional é apenas o sistema de arquivos responsável por organizar os dados no armazenamento."
+        },
+        {
+          "id": "D",
+          "text": "O gerenciador de arquivos é o núcleo do sistema, pois sua janela mostra os dispositivos disponíveis."
+        },
+        {
+          "id": "E",
+          "text": "O sistema operacional se limita aos serviços de armazenamento, enquanto cada aplicativo administra sozinho a memória física."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B distingue a administração geral dos recursos da ferramenta de navegação. O sistema de arquivos organiza o armazenamento, mas não esgota as funções do sistema operacional. Mostrar dispositivos em uma janela também não transforma o aplicativo em núcleo. Apoio: glossário de sistema operacional do National Institute of Standards and Technology e File Explorer in Windows, Microsoft."
+    },
+    {
+      "id": "u023-a02",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No caminho Windows `C:\\Users\\Ana\\Documents\\relatorio.pdf`, qual leitura está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "`C:` garante a existência de um disco físico separado para esse caminho."
+        },
+        {
+          "id": "B",
+          "text": "`Users` identifica a raiz do volume e `C:` uma pasta do perfil."
+        },
+        {
+          "id": "C",
+          "text": "`C:` identifica uma unidade e as barras invertidas separam níveis da hierarquia."
+        },
+        {
+          "id": "D",
+          "text": "`relatorio.pdf` identifica a pasta corrente, da qual o caminho depende para ser absoluto."
+        },
+        {
+          "id": "E",
+          "text": "A barra invertida inicial de cada componente identifica um volume diferente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C identifica corretamente a letra do volume e o separador. Um volume é uma unidade lógica e não equivale necessariamente a um disco físico separado. No exemplo, `C:\\` é a raiz; as pastas seguintes e o nome do arquivo completam o caminho. Apoio: Naming Files, Paths, and Namespaces e Overview of Disk Management, Microsoft."
+    },
+    {
+      "id": "u023-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No caminho Linux `/home/ana/documentos/relatorio.pdf`, a barra inicial `/` representa",
+      "options": [
+        {
+          "id": "A",
+          "text": "o diretório pessoal do usuário que está autenticado."
+        },
+        {
+          "id": "B",
+          "text": "a raiz da hierarquia de arquivos."
+        },
+        {
+          "id": "C",
+          "text": "o diretório corrente do interpretador de comandos."
+        },
+        {
+          "id": "D",
+          "text": "o diretório imediatamente superior a `home` apenas quando a pasta corrente é `home`."
+        },
+        {
+          "id": "E",
+          "text": "o ponto em que se encontra necessariamente um dispositivo removível."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B: a barra inicial situa o caminho a partir da raiz; as demais barras separam seus componentes. A raiz não se confunde com diretório pessoal ou diretório corrente. O caminho apresentado é absoluto. Apoio: The Linux command line for beginners, Ubuntu, e path_resolution(7), Linux man-pages."
+    },
+    {
+      "id": "u023-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No gerenciador Arquivos do projeto GNOME (projeto de ambiente gráfico), renomear `config` para `.config` tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "retirar a permissão de leitura de todos os usuários."
+        },
+        {
+          "id": "B",
+          "text": "excluir o nome da hierarquia de arquivos."
+        },
+        {
+          "id": "C",
+          "text": "torná-lo oculto na visualização comum, sem removê-lo da pasta."
+        },
+        {
+          "id": "D",
+          "text": "restringir a leitura ao proprietário, preservando a permissão de escrita do grupo."
+        },
+        {
+          "id": "E",
+          "text": "alterar apenas o aplicativo associado ao tipo de arquivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C: o ponto inicial muda a apresentação na visualização comum do gerenciador Arquivos. O nome permanece no diretório; isso não muda, por si só, suas permissões nem criptografa os dados. Apoio: Hide a file, projeto GNOME (projeto de ambiente gráfico)."
+    },
+    {
+      "id": "u023-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual operação gráfica produz uma cópia independente no destino e preserva o original?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recortar e colar."
+        },
+        {
+          "id": "B",
+          "text": "Copiar e colar."
+        },
+        {
+          "id": "C",
+          "text": "Recortar sem colar."
+        },
+        {
+          "id": "D",
+          "text": "Criar atalho."
+        },
+        {
+          "id": "E",
+          "text": "Renomear."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B: copiar e colar conserva o arquivo de origem e cria outro no destino após a conclusão bem-sucedida. Recortar e colar move; recortar sem colar apenas prepara a movimentação. Criar um atalho não produz uma cópia independente do conteúdo; renomear muda o nome. Apoio: Copy or move files and folders, projeto GNOME (projeto de ambiente gráfico), e File Explorer in Windows, Microsoft."
+    },
+    {
+      "id": "u023-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No Explorador de Arquivos do Windows, ao recortar um arquivo e ainda não colá-lo em outro local, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a retirada da origem já foi concluída, embora o destino ainda não tenha recebido o item."
+        },
+        {
+          "id": "B",
+          "text": "a movimentação foi preparada, mas ainda depende da colagem para se concluir."
+        },
+        {
+          "id": "C",
+          "text": "uma cópia independente já existe na pasta que será escolhida como destino."
+        },
+        {
+          "id": "D",
+          "text": "o arquivo da origem foi substituído por um atalho até que se escolha o destino."
+        },
+        {
+          "id": "E",
+          "text": "o conteúdo fica permanentemente guardado na área de transferência, independentemente do arquivo de origem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B: recortar prepara a transferência; a movimentação para a pasta de destino depende da colagem bem-sucedida. Não significa excluir imediatamente o original, criar uma cópia antecipada ou transformar a origem em atalho. Apoio: File Explorer in Windows e Keyboard shortcuts in Windows, Microsoft."
+    },
+    {
+      "id": "u023-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre um atalho do Windows, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É sempre uma cópia integral do alvo."
+        },
+        {
+          "id": "B",
+          "text": "Excluir o atalho necessariamente desinstala o programa apontado."
+        },
+        {
+          "id": "C",
+          "text": "É uma referência ao alvo; apagar apenas a referência não apaga, por si só, o alvo."
+        },
+        {
+          "id": "D",
+          "text": "Só pode apontar para executáveis, nunca para documentos ou pastas."
+        },
+        {
+          "id": "E",
+          "text": "A alteração do nome do atalho modifica necessariamente o nome do arquivo de destino."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C: o arquivo de atalho guarda informações para acessar outro objeto. A documentação Microsoft distingue a referência de seu destino e informa que apagar o arquivo de referência não afeta o objeto correspondente. Não se confunde com cópia ou desinstalação. Apoio: Shell Links, Microsoft."
+    },
+    {
+      "id": "seap-u040-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma instância de um programa em execução é chamada de",
+      "options": [
+        {
+          "id": "A",
+          "text": "programa instalado."
+        },
+        {
+          "id": "B",
+          "text": "arquivo executável."
+        },
+        {
+          "id": "C",
+          "text": "janela."
+        },
+        {
+          "id": "D",
+          "text": "processo."
+        },
+        {
+          "id": "E",
+          "text": "sessão de usuário."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "D: processo é uma instância em execução, com recursos administrados pelo sistema. O programa e seu executável podem permanecer armazenados sem execução; janela é um meio de interação, e a sessão pode conter vários processos. Apoio: About Processes and Threads, Microsoft."
+    },
+    {
+      "id": "seap-u040-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Fechar uma janela de aplicativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre encerra todos os processos que pertencem ao aplicativo."
+        },
+        {
+          "id": "B",
+          "text": "desinstala automaticamente o programa."
+        },
+        {
+          "id": "C",
+          "text": "garante a gravação de todas as alterações ainda não salvas."
+        },
+        {
+          "id": "D",
+          "text": "apaga o documento aberto junto com a janela."
+        },
+        {
+          "id": "E",
+          "text": "não significa, por si só, desinstalar o programa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "E: fechar a janela afeta aquela interação ou execução, conforme o aplicativo. A instalação permanece; processos em segundo plano podem continuar, e dados não salvos podem se perder. Fechar, salvar e desinstalar são operações distintas. Apoio: distinção entre instalação e execução ensinada na aula e definição de processo em About Processes and Threads, Microsoft."
+    },
+    {
+      "id": "seap-u040-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Alterar o aplicativo padrão associado a um tipo de arquivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "muda o programa usado por padrão para abrir o tipo, sem converter automaticamente o conteúdo."
+        },
+        {
+          "id": "B",
+          "text": "reescreve os arquivos desse tipo no formato interno do novo aplicativo."
+        },
+        {
+          "id": "C",
+          "text": "mantém obrigatoriamente o aplicativo anterior como padrão até reinstalar o sistema."
+        },
+        {
+          "id": "D",
+          "text": "remove a instalação do aplicativo anteriormente associado."
+        },
+        {
+          "id": "E",
+          "text": "aplica a nova escolha a todos os tipos de arquivo, mesmo aos não selecionados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A: a associação orienta a escolha do programa de abertura; não converte os dados, não desinstala o anterior e não implica alterar todos os tipos de arquivo. Apoio: Common file name extensions in Windows, Microsoft."
+    },
+    {
+      "id": "seap-u040-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um driver tem como função típica",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o sistema operacional nas tarefas de escalonamento de todos os aplicativos."
+        },
+        {
+          "id": "B",
+          "text": "permitir que o sistema operacional controle e utilize um dispositivo."
+        },
+        {
+          "id": "C",
+          "text": "constituir uma peça física que recebe os comandos do processador."
+        },
+        {
+          "id": "D",
+          "text": "ser necessariamente o software incorporado à memória do próprio equipamento."
+        },
+        {
+          "id": "E",
+          "text": "realizar a tarefa de edição de documentos em lugar do aplicativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B: o driver de dispositivo participa da comunicação entre o sistema e o equipamento. É software, não componente físico; não se define como firmware nem como editor de documentos. A descrição é funcional: vários drivers podem participar de uma operação, sem que todos se comuniquem diretamente com o hardware. Apoio: What is a driver?, Microsoft."
+    },
+    {
+      "id": "seap-u040-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A interface gráfica de um sistema operacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "é todo o sistema operacional."
+        },
+        {
+          "id": "B",
+          "text": "substitui o núcleo na administração direta dos recursos físicos."
+        },
+        {
+          "id": "C",
+          "text": "é o conjunto de processos que possuem alguma janela visível."
+        },
+        {
+          "id": "D",
+          "text": "é um meio de interação, não a totalidade do sistema."
+        },
+        {
+          "id": "E",
+          "text": "impede o uso de um interpretador de comandos na mesma sessão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "D: a interface gráfica fornece elementos de interação; serviços, núcleo e processos sem janela continuam existindo. Ela pode coexistir com um terminal e um interpretador de comandos. Apoio: glossário de sistema operacional do National Institute of Standards and Technology e The Linux command line for beginners, Ubuntu."
+    },
+    {
+      "id": "u023-p01",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item de Fundação Universidade de Brasília, prova organizada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, aplicado em 2025, considere a renomeação de um arquivo no Windows 11. Qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Renomear `foto.jpg` para `foto.png` converte automaticamente os dados para o novo formato de imagem."
+        },
+        {
+          "id": "B",
+          "text": "A troca da extensão recompõe automaticamente metadados e estrutura interna."
+        },
+        {
+          "id": "C",
+          "text": "Mudar apenas o nome/extensão não converte o conteúdo; a conversão exige que um programa grave o formato de destino."
+        },
+        {
+          "id": "D",
+          "text": "A troca da extensão muda a localização física do arquivo para a pasta do novo aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "A extensão determina o formato interno mesmo que os dados não sejam regravados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "C: mudar o sufixo do nome não reescreve os dados em outro formato. O item original 31 do caderno 088_FUB_CB2_01 foi julgado errado no gabarito definitivo; a adaptação mantém esse mecanismo e reescreve enunciado e opções. Aplicação: 29/06/2025. Apoio técnico: Common file name extensions in Windows, Microsoft."
+    },
+    {
+      "id": "u023-p02",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item de Fundação Universidade de Brasília, prova organizada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, aplicado em 2025, qual resultado caracteriza mover um arquivo de uma pasta para outra no mesmo disco, com operação concluída?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O arquivo permanece obrigatoriamente nos dois locais."
+        },
+        {
+          "id": "B",
+          "text": "O item deixa a localização anterior e passa para o novo local, sem que a operação de mover seja definida como duplicação."
+        },
+        {
+          "id": "C",
+          "text": "Uma referência é criada no destino, mantendo o arquivo na origem."
+        },
+        {
+          "id": "D",
+          "text": "O nome muda, mas o caminho do item necessariamente permanece igual."
+        },
+        {
+          "id": "E",
+          "text": "O conteúdo é regravado em outro formato, mantendo a localização original."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B: movimentação muda o local do item; cópia mantém o original e cria outro. O item 24 do caderno 088_FUB_CB4_01 afirmava duplicação e permanência nas duas pastas e foi julgado errado. A adaptação preserva a distinção, com opções reescritas. Aplicação: 29/06/2025."
+    },
+    {
+      "id": "u023-p03",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item de Fundação Universidade de Brasília, prova organizada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, aplicado em 2025, a análise do arrasto de um arquivo para a área de trabalho do Windows deve evitar qual conclusão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A operação deve ser analisada conforme origem, destino e comportamento do gerenciador."
+        },
+        {
+          "id": "B",
+          "text": "Arrastar para a área de trabalho cria automaticamente e em qualquer caso apenas um atalho, sem mover nem copiar o item."
+        },
+        {
+          "id": "C",
+          "text": "A área de trabalho pode conter referências e arquivos."
+        },
+        {
+          "id": "D",
+          "text": "O efeito não pode ser inferido apenas pelo fato de o destino aparecer na área de trabalho."
+        },
+        {
+          "id": "E",
+          "text": "Uma referência e uma cópia são objetos diferentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "B contém a conclusão indevida: o destino visível não basta para garantir a criação de atalho. O item original 23 do caderno 088_FUB_CB4_01 foi julgado errado no gabarito definitivo. A adaptação conserva essa negativa e apresenta as condições gerais corretas nas demais opções. Aplicação: 29/06/2025."
+    },
+    {
+      "id": "q4425",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal da questão 33 da Fundação Getulio Vargas, Polícia Militar do Amazonas, Aluno Oficial, prova de 2022, tipo 3: no Windows 10, qual ferramenta permite inserir comandos textuais diretamente para realizar operações, em vez de percorrer menus gráficos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agendador de Tarefas."
+        },
+        {
+          "id": "B",
+          "text": "Explorador de Arquivos."
+        },
+        {
+          "id": "C",
+          "text": "Gerenciador de Tarefas."
+        },
+        {
+          "id": "D",
+          "text": "Gerenciador do Computador."
+        },
+        {
+          "id": "E",
+          "text": "Prompt de Comando."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "E: o Prompt de Comando é um interpretador de instruções textuais. Agendar atividades, navegar por arquivos e examinar processos são finalidades distintas. O caderno oficial, questão 33, e o gabarito definitivo retificado confirmam E; enunciado abreviado, opções preservadas. Aplicação: 06/02/2022. Apoio: cmd, Microsoft."
+    },
+    {
+      "id": "per-u029-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um editor e um programa de áudio mantêm atividades em andamento em um computador com apenas um núcleo de processamento. Isso é compatível com multitarefa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada aplicativo precisa ocupar um núcleo exclusivo do processador."
+        },
+        {
+          "id": "B",
+          "text": "o sistema precisa finalizar um programa antes de iniciar qualquer atividade do outro."
+        },
+        {
+          "id": "C",
+          "text": "o sistema alterna o uso do tempo de processamento entre atividades."
+        },
+        {
+          "id": "D",
+          "text": "os dois programas necessariamente executam instruções no mesmo instante nesse único núcleo."
+        },
+        {
+          "id": "E",
+          "text": "a multitarefa exige que todas as tarefas recebam exatamente o mesmo tempo de processamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Multitarefa permite distribuir tempo e alternar atividades; não exige execução simultânea de duas instruções de tarefas distintas no mesmo núcleo. Paralelismo entre tarefas pode ocorrer quando há mais de um recurso de processamento disponível. Apoio: Multitasking e About Processes and Threads, Microsoft."
+    },
+    {
+      "id": "per-u029-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ana editou um relatório em um aplicativo sem salvamento automático ou recuperação e perdeu a alimentação elétrica antes de salvar. Qual interpretação é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alterações mantidas apenas na memória volátil podem ser perdidas; o arquivo salvo anteriormente não é automaticamente atualizado."
+        },
+        {
+          "id": "B",
+          "text": "Minimizar a janela teria gravado obrigatoriamente as alterações no armazenamento."
+        },
+        {
+          "id": "C",
+          "text": "A presença de memória virtual garantia que o relatório fosse salvo em seu formato de documento."
+        },
+        {
+          "id": "D",
+          "text": "Entrar novamente na conta reconstituiria necessariamente todo o texto da memória anterior."
+        },
+        {
+          "id": "E",
+          "text": "O arquivo salvo seria necessariamente excluído junto com o processo do editor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O trabalho corrente na memória não equivale ao documento salvo. A memória principal é volátil, enquanto salvar registra alterações no armazenamento. Paginação, minimizar e nova autenticação não fornecem a garantia de salvamento descrita. O caso exclui recursos particulares de recuperação. Apoio: Concepts overview, documentação do núcleo Linux, e distinções ensinadas na aula."
+    },
+    {
+      "id": "per-u029-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual descrição de memória virtual é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "É exclusivamente o arquivo usado para paginação, sem relação com endereços dos processos."
+        },
+        {
+          "id": "B",
+          "text": "É memória física instalada automaticamente quando o espaço no disco aumenta."
+        },
+        {
+          "id": "C",
+          "text": "É o serviço que grava cada documento aberto em seu formato definitivo."
+        },
+        {
+          "id": "D",
+          "text": "Apresenta espaços de endereços aos processos e relaciona esses endereços à memória física, apoiando proteção e compartilhamento controlado."
+        },
+        {
+          "id": "E",
+          "text": "Permite a qualquer processo alterar diretamente todos os dados de qualquer outro."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Memória virtual é um mecanismo de endereçamento e gerenciamento, não apenas um arquivo de paginação. Pode apoiar transferências entre memória e armazenamento; também permite isolamento e compartilhamento controlado. Não adiciona memória física nem equivale a salvar documentos. Apoio: Virtual address spaces, Microsoft, e Concepts overview, documentação do núcleo Linux."
+    },
+    {
+      "id": "per-u029-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao aumentar muito a carga de programas, um computador passa a transferir frequentemente páginas entre a memória e o armazenamento. Qual conclusão é sustentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O armazenamento passou a executar as instruções dos programas em lugar do processador."
+        },
+        {
+          "id": "B",
+          "text": "Essas transferências podem reduzir o desempenho e não equivalem a instalar memória física adicional."
+        },
+        {
+          "id": "C",
+          "text": "Todos os documentos editados foram automaticamente salvos pelo mecanismo de troca."
+        },
+        {
+          "id": "D",
+          "text": "O sistema deixou obrigatoriamente de permitir mais de um processo."
+        },
+        {
+          "id": "E",
+          "text": "A memória principal deixou de ser volátil porque parte dos dados foi transferida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O armazenamento pode apoiar paginação/troca, mas as transferências têm custo e podem tornar o trabalho mais lento. O mecanismo não cria memória física, não salva automaticamente documentos e não define ausência de multitarefa. Apoio: Virtual address spaces, Microsoft, e Concepts overview, documentação do núcleo Linux."
+    },
+    {
+      "id": "per-u029-q005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No modelo básico Linux, um arquivo regular tem permissões `rw-r-----`. Um usuário comum pertence ao grupo do arquivo, não é seu proprietário e não dispõe de privilégios ou regras adicionais. Considerando apenas os bits do arquivo, ele pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "ler, gravar e executar."
+        },
+        {
+          "id": "B",
+          "text": "ler e gravar, pois recebe também os bits do proprietário."
+        },
+        {
+          "id": "C",
+          "text": "executar, mas não ler."
+        },
+        {
+          "id": "D",
+          "text": "gravar, mas não ler."
+        },
+        {
+          "id": "E",
+          "text": "ler, mas não gravar nem executar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As três classes são proprietário, grupo e outros. Para o usuário descrito, aplica-se o trio do grupo, `r--`: leitura apenas. Não se somam os bits de todas as classes. O enunciado delimita o modelo e não garante a travessia dos diretórios do caminho. Apoio: Files list columns preferences, Ubuntu, e path_resolution(7), Linux man-pages."
+    },
+    {
+      "id": "per-u029-q006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um usuário consegue listar os nomes de uma pasta Linux, mas não consegue abrir determinado arquivo ali localizado. A interpretação correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Listar os nomes não garante acesso ao conteúdo; importam a travessia do caminho e as permissões aplicáveis ao próprio arquivo."
+        },
+        {
+          "id": "B",
+          "text": "A lista de nomes prova que o usuário recebeu permissão de leitura sobre todos os arquivos."
+        },
+        {
+          "id": "C",
+          "text": "Ter leitura no diretório garante escrita em cada arquivo nele contido."
+        },
+        {
+          "id": "D",
+          "text": "A autenticação válida elimina a necessidade de examinar permissões dos arquivos."
+        },
+        {
+          "id": "E",
+          "text": "A ausência de escrita na pasta explica, por si só, qualquer negativa de leitura do arquivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Diretório e arquivo têm regras próprias. Listar nomes não equivale a atravessar a hierarquia nem a obter leitura do arquivo. Uma conta autenticada continua sujeita à autorização para cada operação. Apoio: Set file permissions, projeto GNOME (projeto de ambiente gráfico), e path_resolution(7), Linux man-pages."
+    },
+    {
+      "id": "per-u029-q007",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Linux, a pasta corrente é `/home/ana`. Sem alterações na hierarquia, o caminho relativo `documentos/relatorio.txt` aponta para",
+      "options": [
+        {
+          "id": "A",
+          "text": "`/documentos/relatorio.txt`."
+        },
+        {
+          "id": "B",
+          "text": "`/home/documentos/relatorio.txt`."
+        },
+        {
+          "id": "C",
+          "text": "`/home/ana/documentos/relatorio.txt`."
+        },
+        {
+          "id": "D",
+          "text": "`/home/ana/relatorio.txt`."
+        },
+        {
+          "id": "E",
+          "text": "`/home/ana/documentos/documentos/relatorio.txt`."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O caminho relativo começa no diretório corrente; acrescentar os componentes dados a `/home/ana` produz o caminho da opção C. Já um caminho iniciado por `/` parte da raiz pertinente. Apoio: The Linux command line for beginners, Ubuntu, seção Relative and absolute paths."
+    },
+    {
+      "id": "per-u029-q008",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois computadores usam distribuições Linux com ambientes gráficos diferentes. Qual conclusão é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uma distribuição consiste exclusivamente na janela do gerenciador de arquivos."
+        },
+        {
+          "id": "B",
+          "text": "As duas distribuições devem oferecer os mesmos menus porque usam Linux."
+        },
+        {
+          "id": "C",
+          "text": "Uma delas deixa de usar Linux quando permite comandos textuais."
+        },
+        {
+          "id": "D",
+          "text": "O uso do mesmo tipo de núcleo é compatível com diferenças nos demais componentes e na interface."
+        },
+        {
+          "id": "E",
+          "text": "A distribuição com interface gráfica executa todas as funções do núcleo no gerenciador de arquivos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Uma distribuição reúne o núcleo Linux e outros componentes. Interfaces e ferramentas podem variar; interface gráfica e comandos textuais podem coexistir. O ambiente visível não é o núcleo nem a distribuição inteira. Apoio: Glossary, Ubuntu project documentation, verbetes Linux e Distribution."
+    },
+    {
+      "id": "per-u029-q009",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um usuário entra corretamente em sua conta e consegue ler um relatório, mas a tentativa de gravar mudanças no mesmo arquivo é negada por suas permissões. Isso ilustra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autenticação falhou, pois uma conta válida permitiria qualquer operação."
+        },
+        {
+          "id": "B",
+          "text": "autenticação verifica a identidade, enquanto autorização pode permitir leitura e negar escrita."
+        },
+        {
+          "id": "C",
+          "text": "leitura e escrita são a mesma permissão quando o arquivo já está aberto."
+        },
+        {
+          "id": "D",
+          "text": "abrir o arquivo muda automaticamente sua propriedade para a conta atual."
+        },
+        {
+          "id": "E",
+          "text": "usar um terminal garantiria permissão de escrita sobre esse arquivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reconhecer a identidade não concede todas as operações. As permissões podem autorizar leitura e negar escrita; a forma gráfica ou textual de solicitar a operação não elimina esse controle. Apoio: File security and access rights, Microsoft, e Set file permissions, projeto GNOME (projeto de ambiente gráfico)."
+    }
+  ]
+}
