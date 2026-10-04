@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u093-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Antes do interrogatório judicial, o acusado deve ser informado de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode silenciar apenas sobre fatos que não constem da acusação."
+        },
+        {
+          "id": "B",
+          "text": "o silêncio equivale a confissão parcial."
+        },
+        {
+          "id": "C",
+          "text": "é obrigado a responder às perguntas do Ministério Público."
+        },
+        {
+          "id": "D",
+          "text": "pode permanecer calado e não responder às perguntas, sem que o silêncio importe confissão ou seja interpretado em prejuízo da defesa."
+        },
+        {
+          "id": "E",
+          "text": "o direito ao silêncio só existe se o acusado estiver preso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 186 e seu parágrafo único asseguram o direito de permanecer calado, afastam confissão pelo silêncio e vedam interpretação prejudicial à defesa."
+    },
+    {
+      "id": "u093-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A confissão no processo penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "válida apenas se ocorrer em juízo."
+        },
+        {
+          "id": "B",
+          "text": "indivisível e irretratável."
+        },
+        {
+          "id": "C",
+          "text": "suficiente, por si só, para substituir exame de corpo de delito."
+        },
+        {
+          "id": "D",
+          "text": "sempre dotada de valor superior ao laudo pericial."
+        },
+        {
+          "id": "E",
+          "text": "divisível e retratável, devendo ser confrontada com as demais provas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os artigos 197 e 200 exigem confronto com o conjunto probatório e qualificam a confissão como divisível e retratável."
+    },
+    {
+      "id": "u093-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime do artigo 212 do Código de Processo Penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as partes formulam perguntas diretamente à testemunha, e o juiz pode complementar a inquirição sobre pontos não esclarecidos."
+        },
+        {
+          "id": "B",
+          "text": "todas as perguntas devem ser feitas exclusivamente pelo juiz."
+        },
+        {
+          "id": "C",
+          "text": "perguntas indutivas são sempre admitidas."
+        },
+        {
+          "id": "D",
+          "text": "o juiz é proibido de esclarecer qualquer ponto depois das partes."
+        },
+        {
+          "id": "E",
+          "text": "a testemunha deve entregar depoimento escrito previamente preparado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 212 adota perguntas diretas pelas partes, com controle judicial das perguntas inadequadas e complementação do juiz sobre pontos não esclarecidos."
+    },
+    {
+      "id": "u093-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o artigo 239 do Código de Processo Penal, indício é",
+      "options": [
+        {
+          "id": "A",
+          "text": "circunstância conhecida e provada que, relacionada ao fato, permite por indução concluir a existência de outra circunstância."
+        },
+        {
+          "id": "B",
+          "text": "mera suspeita subjetiva sem fato-base provado."
+        },
+        {
+          "id": "C",
+          "text": "qualquer denúncia anônima, independentemente de confirmação."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo obrigatório de prova ilícita."
+        },
+        {
+          "id": "E",
+          "text": "somente prova pericial direta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição legal parte de uma circunstância conhecida e provada e usa sua relação com o fato para permitir inferência sobre outra circunstância."
+    },
+    {
+      "id": "u093-a19",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre documentos no processo penal, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carta particular obtida por meio criminoso é sempre admissível."
+        },
+        {
+          "id": "B",
+          "text": "Documentos só podem ser apresentados junto com a denúncia."
+        },
+        {
+          "id": "C",
+          "text": "Documento em língua estrangeira não pode ser juntado antes de tradução."
+        },
+        {
+          "id": "D",
+          "text": "Salvo os casos expressos em lei, as partes podem apresentar documentos em qualquer fase do processo."
+        },
+        {
+          "id": "E",
+          "text": "A autenticidade contestada de documento particular nunca pode ser periciada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 231 permite, em regra, apresentação em qualquer fase. As demais alternativas contrariam regras do próprio Código de Processo Penal."
+    },
+    {
+      "id": "per-u045-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma questão de prova, o objeto da prova deve ser entendido principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "o conjunto de fatos e circunstâncias relevantes cuja demonstração interessa à decisão do processo."
+        },
+        {
+          "id": "B",
+          "text": "a lista de artigos que o candidato precisa memorizar."
+        },
+        {
+          "id": "C",
+          "text": "o nome dado exclusivamente ao laudo pericial."
+        },
+        {
+          "id": "D",
+          "text": "qualquer opinião apresentada por uma das partes."
+        },
+        {
+          "id": "E",
+          "text": "somente a identidade do acusado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A atividade probatória busca demonstrar proposições fáticas relevantes para a decisão, como ocorrência, autoria, circunstâncias e outros fatos juridicamente relevantes."
+    },
+    {
+      "id": "per-u045-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 155 do Código de Processo Penal, a decisão judicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser fundamentada exclusivamente em qualquer relato colhido no inquérito."
+        },
+        {
+          "id": "B",
+          "text": "deve desprezar todo elemento produzido na investigação."
+        },
+        {
+          "id": "C",
+          "text": "forma-se pela livre apreciação da prova produzida em contraditório judicial e não pode apoiar-se exclusivamente em elementos informativos da investigação, ressalvadas as hipóteses legais."
+        },
+        {
+          "id": "D",
+          "text": "somente pode considerar prova documental."
+        },
+        {
+          "id": "E",
+          "text": "depende necessariamente de confissão do acusado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 155 privilegia a prova submetida ao contraditório e veda fundamento exclusivo em elementos informativos investigativos, ressalvando provas cautelares, não repetíveis e antecipadas."
+    },
+    {
+      "id": "per-u045-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto corresponde às ressalvas expressas do artigo 155 do Código de Processo Penal à vedação de fundamentação exclusiva em elementos informativos da investigação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provas cautelares, não repetíveis e antecipadas."
+        },
+        {
+          "id": "B",
+          "text": "Confissão, testemunho e documento."
+        },
+        {
+          "id": "C",
+          "text": "Provas diretas, indiretas e indiciárias."
+        },
+        {
+          "id": "D",
+          "text": "Documentos públicos, particulares e eletrônicos."
+        },
+        {
+          "id": "E",
+          "text": "Somente prova pericial e reconhecimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O próprio artigo 155 ressalva provas cautelares, não repetíveis e antecipadas."
+    },
+    {
+      "id": "per-u045-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra inicial do artigo 156 do Código de Processo Penal estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o juiz deve produzir toda prova necessária à acusação."
+        },
+        {
+          "id": "B",
+          "text": "a prova da alegação incumbe a quem a fizer."
+        },
+        {
+          "id": "C",
+          "text": "somente a defesa possui ônus probatório."
+        },
+        {
+          "id": "D",
+          "text": "qualquer alegação deve ser presumida verdadeira até prova judicial."
+        },
+        {
+          "id": "E",
+          "text": "a polícia possui exclusividade sobre a produção de prova."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literalidade inicial do artigo 156 atribui a prova da alegação a quem a fizer; a regra convive com garantias constitucionais e com as faculdades judiciais previstas no próprio artigo."
+    },
+    {
+      "id": "per-u045-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes do início da ação penal, o artigo 156 admite que o juiz determine de ofício produção antecipada de prova quando ela seja",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas conveniente para reduzir trabalho futuro."
+        },
+        {
+          "id": "B",
+          "text": "urgente e relevante, observadas necessidade, adequação e proporcionalidade."
+        },
+        {
+          "id": "C",
+          "text": "solicitada verbalmente por qualquer terceiro, sem fundamentação."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente documental."
+        },
+        {
+          "id": "E",
+          "text": "irrelevante, desde que de produção rápida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso I do artigo 156 exige urgência e relevância e condiciona a medida à necessidade, adequação e proporcionalidade."
+    },
+    {
+      "id": "per-u045-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Prova obtida mediante violação de norma constitucional ou legal é, para o artigo 157 do Código de Processo Penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre válida se confirmar a acusação."
+        },
+        {
+          "id": "B",
+          "text": "ilícita e inadmissível, devendo ser desentranhada do processo."
+        },
+        {
+          "id": "C",
+          "text": "mera irregularidade sem consequência processual."
+        },
+        {
+          "id": "D",
+          "text": "automaticamente convertida em prova testemunhal."
+        },
+        {
+          "id": "E",
+          "text": "válida sempre que produzida antes da denúncia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 157 define como ilícita a prova obtida com violação a normas constitucionais ou legais e determina sua inadmissibilidade e desentranhamento."
+    },
+    {
+      "id": "per-u045-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma prova posterior decorreu de uma prova ilícita. Segundo o artigo 157, § 1º, ela poderá escapar da inadmissibilidade por derivação quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a acusação afirmar que agiu de boa-fé, por si só."
+        },
+        {
+          "id": "B",
+          "text": "for tecnicamente mais precisa que a prova inicial."
+        },
+        {
+          "id": "C",
+          "text": "não houver nexo causal demonstrado entre elas ou existir fonte independente para a prova posterior."
+        },
+        {
+          "id": "D",
+          "text": "o processo ainda estiver na fase de investigação."
+        },
+        {
+          "id": "E",
+          "text": "a defesa não tiver produzido prova contrária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 1º prevê duas exceções: ausência de nexo causal evidenciado e possibilidade de obtenção por fonte independente."
+    },
+    {
+      "id": "per-u045-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 157, § 2º, fonte independente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer fonte mantida em sigilo da defesa."
+        },
+        {
+          "id": "B",
+          "text": "a repetição da mesma obtenção ilícita por outro agente."
+        },
+        {
+          "id": "C",
+          "text": "um caminho autônomo que, seguindo os trâmites típicos e de praxe, seria capaz de conduzir ao fato objeto da prova."
+        },
+        {
+          "id": "D",
+          "text": "apenas uma perícia determinada pelo juiz."
+        },
+        {
+          "id": "E",
+          "text": "qualquer notícia anônima, ainda que incapaz de conduzir ao fato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A definição legal exige autonomia causal e capacidade própria de conduzir ao fato pelos trâmites normais da investigação ou instrução."
+    },
+    {
+      "id": "per-u045-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação entre categoria e exemplo está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confessional — conclusão técnica de especialista."
+        },
+        {
+          "id": "B",
+          "text": "Testemunhal — relato de pessoa sobre fatos que percebeu ou conheceu nas condições admitidas em lei."
+        },
+        {
+          "id": "C",
+          "text": "Documental — somente confissão escrita do acusado."
+        },
+        {
+          "id": "D",
+          "text": "Pericial — qualquer opinião de pessoa sem conhecimento técnico."
+        },
+        {
+          "id": "E",
+          "text": "Testemunhal — exclusivamente informação registrada em contrato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Testemunho é prova pessoal decorrente de relato; perícia envolve exame técnico, documento registra informação em suporte e confissão corresponde à admissão do acusado."
+    },
+    {
+      "id": "per-u045-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção entre prova direta e indireta depende principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "do número de pessoas que produziram o elemento."
+        },
+        {
+          "id": "B",
+          "text": "da relação lógica entre o elemento e o fato principal que se pretende demonstrar."
+        },
+        {
+          "id": "C",
+          "text": "de a prova ter sido produzida na polícia ou em juízo."
+        },
+        {
+          "id": "D",
+          "text": "do suporte ser físico ou digital."
+        },
+        {
+          "id": "E",
+          "text": "de a prova favorecer acusação ou defesa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na classificação didática cobrada pelo edital, a prova direta alcança imediatamente o fato principal; a indireta exige inferência a partir de fato-base demonstrado."
+    },
+    {
+      "id": "per-u045-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre prova indireta, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É necessariamente ilícita."
+        },
+        {
+          "id": "B",
+          "text": "É sempre menos valiosa que qualquer prova direta."
+        },
+        {
+          "id": "C",
+          "text": "Pode resultar de circunstância conhecida e provada que, por inferência racional, permita concluir outra circunstância relevante."
+        },
+        {
+          "id": "D",
+          "text": "Só existe quando duas testemunhas divergem."
+        },
+        {
+          "id": "E",
+          "text": "É sinônimo de exame de corpo de delito indireto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Prova indireta opera por inferência a partir de fato-base provado. Sua força não é definida por uma hierarquia abstrata e a classificação não se confunde com exame de corpo de delito indireto."
+    },
+    {
+      "id": "per-u045-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'prova direta e indireta' usada como classificação geral",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem exatamente o mesmo significado técnico de exame de corpo de delito direto e indireto do artigo 158."
+        },
+        {
+          "id": "B",
+          "text": "classifica a relação entre o elemento probatório e o fato a demonstrar e não deve ser confundida com a modalidade específica do exame de corpo de delito."
+        },
+        {
+          "id": "C",
+          "text": "só pode ser usada para prova documental."
+        },
+        {
+          "id": "D",
+          "text": "só se aplica a confissões."
+        },
+        {
+          "id": "E",
+          "text": "foi abolida pelo artigo 157."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O edital cobra uma classificação geral da prova. Já o artigo 158 usa direto/indireto em contexto específico de corpo de delito, tratado na unidade seguinte."
+    }
+  ]
+}
