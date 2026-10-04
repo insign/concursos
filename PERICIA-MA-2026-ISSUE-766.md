@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 27 | 0 | 9 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 37 | 0 | 14 |
-| Unidades distintas | 99 | 53 | 2 | 44 |
-| Entregáveis unitários C/H/Q | 297 | 159 | 6 | 132 |
+| Unidades distintas | 99 | 53 | 1 | 45 |
+| Entregáveis unitários C/H/Q | 297 | 159 | 3 | 135 |
 
-Estado confirmado: **44 unidades/visões publicadas (44 locais, 0 por vínculo); 132 C/H/Q aceitos; 58/132 referências literais aceitas; 1538 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **45 unidades/visões publicadas (45 locais, 0 por vínculo); 135 C/H/Q aceitos; 63/132 referências literais aceitas; 1563 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04 C/H/Q done. Próxima ação: concluir PER-U046 — Corpo de delito, perícias, requisição e prazos**, conforme 5.2/7.5. PER-U045 foi publicada e aceita; PER-U046–PER-U047 C/H/Q permanecem analyzing sob o token `per-u045-u047-lote-20261004-8ad79c7a`, em execução serial; U048 permanece pending. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 1/3; E06 0/10; E07 0/13; E08 1/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; por isso o fechamento de U044 aceita E04:2 e E04:2.7. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U046–PER-U047 sob `per-u045-u047-lote-20261004-8ad79c7a`.
+**PER-P01–P05 e PER-E04 C/H/Q done. Próxima ação: concluir PER-U047 — Cadeia de custódia: conceitos, etapas e fases**, conforme 5.2/7.5. PER-U045 e PER-U046 foram publicadas e aceitas; somente PER-U047 C/H/Q permanece analyzing sob o token `per-u045-u047-lote-20261004-8ad79c7a`; U048 permanece pending. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 2/3; E06 0/10; E07 0/13; E08 2/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; E08 5/5.1/5.2/5.3/6 foram fechadas por U046, enquanto E05 1/1.1/1.1.2 aguardam U047. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U047 sob `per-u045-u047-lote-20261004-8ad79c7a`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -584,7 +584,7 @@ Grupo consumidor: `conhecimentos-gerais/direito-aplicado/`, relativo à raiz def
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
 | PER-U045 — Prova: conceito, objeto, formas e disposições gerais | E05: 1, 1.1, 1.1.1; E08: 4, 4.1, 4.2, 4.3 | O041 | `prova-conceitos-disposicoes-gerais` / `per-u045` / 450 | Um pacote para ambos os blocos; confessional/testemunhal/documental/pericial e direta/indireta. Parcial local; C/H/Q aceitos em 5.11. |
-| PER-U046 — Corpo de delito, perícias, requisição e prazos | E05: 1, 1.1, 1.1.2; E08: 5, 5.1, 5.2, 5.3, 6 | O041, O042 | `corpo-delito-pericias-requisicao-prazos` / `per-u046` / 460 | Corpo de delito, requisitar/realizar e principais perícias enumeradas; recorte normativo sem medicina de outros cargos. Pontes: PER-U045. |
+| PER-U046 — Corpo de delito, perícias, requisição e prazos | E05: 1, 1.1, 1.1.2; E08: 5, 5.1, 5.2, 5.3, 6 | O041, O042 | `corpo-delito-pericias-requisicao-prazos` / `per-u046` / 460 | Corpo de delito, requisitar/realizar e principais perícias enumeradas; recorte normativo sem medicina de outros cargos. Pontes: PER-U045. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U047 — Cadeia de custódia: conceitos, etapas e fases | E05: 1, 1.1, 1.1.2; E08: 3 | O041, O043 | `cadeia-custodia-conceitos-etapas` / `per-u047` / 470 | Doador digital é parcial candidato: não limitar cadeia à evidência digital. Pontes: PER-U045, PER-U046. |
 
 #### 5.2.6 História do Maranhão
@@ -1830,7 +1830,7 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | U047 | Somente levantamento,42Q/210 opções e dispositivos dirigidos, checkpoint com limites | Sem autoria/classificação final/aceite; completar pesquisa antes de decisão |
 | U048 | Reserva liberada antes da autoria; origem canônica/vínculos apenas indicados na reserva histórica | Não iniciada, nenhum aceite |
 
-**Checkpoint histórico superado para U044. Ponto corrente: U046–U047 permanecem reservadas pelo token `per-u045-u047-lote-20261004-8ad79c7a`**, com U046 como única publicação habilitada neste instante; U045 foi publicada e aceita. U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
+**Checkpoint histórico superado para U044. Ponto corrente: somente U047 permanece reservada pelo token `per-u045-u047-lote-20261004-8ad79c7a`**, como única publicação habilitada; U045 e U046 foram publicadas e aceitas. U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
 
 
 
@@ -1869,6 +1869,23 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/prova-conceitos-disposicoes-gerais/cheat-sheet.md` | `423574815dc1fb3ec053c14540e7d8ae377d121e` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/prova-conceitos-disposicoes-gerais/questoes.json` | `0ff8fb7bd9c2e52470b2c184dc4acb4545c1ded1` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/prova-conceitos-disposicoes-gerais/referencias.md` | `7dc280e0cb1adf65bd0be186d84fc575e31a4f3e` |
+
+#### PER-U046 — Corpo de delito, perícias, requisição e prazos: parcial local — C/H/Q done
+
+- **Decisão, origem e destino:** executada sob `per-u045-u047-lote-20261004-8ad79c7a` após o fechamento serial de U045. Classificação **parcial/local**; O041 e O042 permaneceram somente leitura. Destino físico `conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/`, identidade `per-u046`, ordem 460, consumidor Generalista; grupo Direito Aplicado já materializado por U045. Sem vínculo, resolução separada, alteração de catálogo ou importação de disciplina de Medicina Legal.
+- **C/H, problema e ganho:** as duas origens misturavam procedimento probatório amplo e Medicina Legal especializada. O recorte final constrói **vestígio → necessidade → determinação/requisição → perito → exame → laudo → esclarecimento → valoração** e ensina a diferença entre vestígio, corpo de delito e exame antes das literalidades. Abrange obrigatoriedade do artigo 158, exame direto/indireto, desaparecimento de vestígios, prioridade, peritos, autonomia, requisição, quesitos/assistente, laudo e prazos; sintetiza as perícias dos artigos 162–175 e preserva divergência, complemento e valoração dos artigos 180–184. Atos médicos, traumatologia, sexologia e normas profissionais específicas de O042 foram excluídos; cadeia de custódia ficou como ponte para U047.
+- **Fontes e corte:** revalidados em fonte primária o edital consolidado, Código de Processo Penal, artigos 6º, 13, 158–184, Constituição, artigo 129, VIII, e Lei nº 12.030/2009. Pontos literais conferidos: um perito oficial ou dois idôneos qualificados na falta, possibilidade de múltiplos oficiais em perícia complexa, laudo em no máximo 10 dias com prorrogação excepcional a requerimento dos peritos, antecedência mínima de 10 dias para esclarecimentos, exame a qualquer dia/hora, autópsia em regra após 6 horas e exame complementar do artigo 168, § 2º, após 30 dias. Corte **17/07/2026**, consulta **04/10/2026**; nenhum marco futuro certificado.
+- **Banco e linhagem:** 25 questões/125 opções, `questionSetRevision: 1`. Onze itens preservados: de O041, `u093-a01` r1, `u093-a02` r2, `u093-a06` r1, `u093-a07` r2 e `u093-a08` r2; de O042, `u150-a01` r2, `u150-a02` r2, `u150-a09` r2, `u150-a14` r2, `u150-a23` r2 e `u150-p02` r2/`previous_exam`. Quatorze novas `per-u046-a01`–`per-u046-a14` estão em revisão 1. A questão anterior preservada é adaptação não literal verificável da PC-ES/Delegado 2022. A releitura remota confirmou IDs/opções/chaves e texto puro; nenhuma resolução separada foi necessária.
+- **Microglossário, densidade e inspeção individual PER-F02:** todas as ocorrências renderizadas de <abbr title="Código de Processo Penal">CPP</abbr> em C/H estão marcadas; termos técnicos como autópsia e exumação recebem ajuda contextual onde úteis, sem esconder a regra no `title`. A tabela de perícias comprime reconhecimento dos artigos sem importar aprofundamento médico. C/H/Q/R foram relidos integralmente na `main`, com fronteiras, fontes, frontmatter e proveniência conferidos. PER-F02 macro permanece pending. Nenhum teste, build, check ou CI foi executado.
+
+**Publicação confirmada:** [`65f614d5`](https://github.com/insign/concursos/commit/65f614d5fd8f540c6051ed67f7a0895df27c82ac), parent `5e545e3526a7cb318645eab5795d944ee21d09ca`; somente os quatro artefatos da unidade.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/conteudo.md` | `d27027977bfd1c9f3d02c2b1249c7846f1ecdc97` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/cheat-sheet.md` | `7f0e4487e8e162dd6195a1833ca23abe865f887d` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/questoes.json` | `3822834be44f949998b77d1f345781f1c92e5cbb` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/referencias.md` | `2aa13225b90be7df5761cbc7231656f7d7b0e674` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2313,9 +2330,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U046 — Corpo de delito, perícias, requisição e prazos
 
-- [ ] PER-U046-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U046-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U046-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U046-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U046-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U046-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U047 — Cadeia de custódia: conceitos, etapas e fases
 
@@ -2863,3 +2880,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U044:** artefatos `eb48d4bc405e89ba1dc6ad728d329afe74b6ef50` confirmados; aceitos neste registro 17 itens, C/H/Q e proveniência 5.11. Totais resultantes: 43/99 unidades, 129/297 C/H/Q, 53/132 referências, 1521 questões. Macros 14 done/37 pending/0 analyzing. PER-E04 C/H/Q fica done (8/8). Próxima ação PER-U045 — Prova: conceito, objeto, formas e disposições gerais; campanha aberta, sem reserva ativa.
 
 - **PER-U045:** artefatos `a8d3c69426f2dab6dad26d91ef97ae1ba35d53e8` confirmados; aceitos neste registro 17 itens, C/H/Q e proveniência 5.11. Totais resultantes: 44/99 unidades, 132/297 C/H/Q, 58/132 referências, 1538 questões. Macros 14 done/37 pending/0 analyzing. Distribuição aceita E05 1/3 e E08 1/11; referências-pai E05 1/1.1 continuam abertas até U046/U047. Próxima ação PER-U046 — Corpo de delito, perícias, requisição e prazos; U046/U047 permanecem analyzing sob a reserva do lote.
+
+- **PER-U046:** artefatos `65f614d5fd8f540c6051ed67f7a0895df27c82ac` confirmados; aceitos neste registro 25 itens, C/H/Q e proveniência 5.11. Totais resultantes: 45/99 unidades, 135/297 C/H/Q, 63/132 referências, 1563 questões. Macros 14 done/37 pending/0 analyzing. Distribuição aceita E05 2/3 e E08 2/11; E08 5/5.1/5.2/5.3/6 aceitos, enquanto E05 1/1.1/1.1.2 aguardam o consumidor compartilhado U047. Próxima ação PER-U047 — Cadeia de custódia: conceitos, etapas e fases; somente U047 permanece analyzing.
