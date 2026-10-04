@@ -1,0 +1,1206 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u020-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Manual de Redação da Presidência da República, redação oficial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o conjunto de fórmulas de tratamento usado exclusivamente entre autoridades."
+        },
+        {
+          "id": "B",
+          "text": "a maneira pela qual o Poder Público redige comunicações oficiais e atos normativos."
+        },
+        {
+          "id": "C",
+          "text": "um padrão linguístico autônomo, distinto da língua portuguesa comum."
+        },
+        {
+          "id": "D",
+          "text": "a técnica de redigir apenas leis e decretos."
+        },
+        {
+          "id": "E",
+          "text": "a linguagem cerimonial empregada somente em documentos impressos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Manual define redação oficial pela atuação do Poder Público na redação de comunicações oficiais e atos normativos. Não a reduz a fórmulas de tratamento nem cria uma língua administrativa própria. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., cap. I."
+    },
+    {
+      "id": "u020-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reproduz atributos da redação oficial apresentados pelo Manual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clareza e precisão; objetividade; concisão; coesão e coerência; impessoalidade; formalidade e padronização; uso da norma padrão."
+        },
+        {
+          "id": "B",
+          "text": "Criatividade; pessoalidade; espontaneidade; concisão; linguagem figurada; informalidade."
+        },
+        {
+          "id": "C",
+          "text": "Uniformidade lexical absoluta; voz passiva; erudição; impessoalidade; tecnicismo; concisão."
+        },
+        {
+          "id": "D",
+          "text": "Clareza; subjetividade; brevidade; oralidade; uniformidade; coloquialidade."
+        },
+        {
+          "id": "E",
+          "text": "Precisão; emotividade; persuasão; concisão; personalização; padronização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa A reúne os atributos listados na 3ª edição do Manual. As demais introduzem características que não pertencem à enumeração ou contradizem a finalidade da redação oficial. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3."
+    },
+    {
+      "id": "u020-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um texto oficial, a expressão “o documento deverá ser enviado em breve” é substituída por “o documento deverá ser enviado até 18 de setembro”. Se a data for a informação correta, a principal melhora obtida é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "impessoalidade, porque se eliminou o sujeito."
+        },
+        {
+          "id": "B",
+          "text": "padronização, porque toda data deve ser expressa numericamente."
+        },
+        {
+          "id": "C",
+          "text": "precisão, porque se reduziu a margem de interpretação temporal."
+        },
+        {
+          "id": "D",
+          "text": "concisão, porque a segunda frase tem menos palavras."
+        },
+        {
+          "id": "E",
+          "text": "formalidade, porque datas são sempre mais formais que advérbios."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A data determinada elimina a vagueza de “em breve”, aumentando a precisão. O efeito não depende de eliminar sujeito, de reduzir palavras nem de uma suposta regra geral de formalidade. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.1."
+    },
+    {
+      "id": "u020-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma revisão elimina uma ressalva necessária apenas para encurtar o documento. À luz do Manual, essa alteração",
+      "options": [
+        {
+          "id": "A",
+          "text": "realiza a concisão, pois todo texto menor é preferível."
+        },
+        {
+          "id": "B",
+          "text": "realiza a objetividade, pois ressalvas são sempre secundárias."
+        },
+        {
+          "id": "C",
+          "text": "compromete a concisão corretamente entendida, porque corta informação substancial."
+        },
+        {
+          "id": "D",
+          "text": "melhora a padronização, ainda que mude o conteúdo."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatória sempre que o documento ultrapassar uma página."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Concisão elimina palavras inúteis, redundâncias e passagens que nada acrescentam; não autoriza economia de pensamento nem supressão de informação substancial. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.3."
+    },
+    {
+      "id": "u020-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No período “O relatório foi enviado à unidade. Ele será analisado amanhã”, o pronome “Ele” contribui para a coesão porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina a necessidade de coerência global."
+        },
+        {
+          "id": "B",
+          "text": "retoma um referente já introduzido no texto."
+        },
+        {
+          "id": "C",
+          "text": "transforma automaticamente a segunda oração em conclusão."
+        },
+        {
+          "id": "D",
+          "text": "torna a linguagem mais formal por substituir um substantivo."
+        },
+        {
+          "id": "E",
+          "text": "impede qualquer ambiguidade em qualquer contexto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Ele” retoma o relatório; “unidade” é feminino e não compete como antecedente desse pronome. A retomada referencial liga as frases, mas, por si só, não garante coerência global. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.4."
+    },
+    {
+      "id": "u020-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um texto usa conectores corretamente, mas afirma em um parágrafo que o prazo termina na segunda-feira e, sem explicar mudança alguma, no seguinte que termina no domingo. O principal problema é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "coerência, pela incompatibilidade entre as informações."
+        },
+        {
+          "id": "B",
+          "text": "impessoalidade, porque aparecem datas."
+        },
+        {
+          "id": "C",
+          "text": "formalidade, porque há dois parágrafos."
+        },
+        {
+          "id": "D",
+          "text": "padronização, porque o prazo deveria estar em tabela."
+        },
+        {
+          "id": "E",
+          "text": "concisão, porque há repetição do tema."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A coerência depende da compatibilidade global das informações e das relações lógicas. Conectores corretos não resolvem uma contradição de conteúdo. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.4."
+    },
+    {
+      "id": "u020-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A impessoalidade da redação oficial está corretamente compreendida em",
+      "options": [
+        {
+          "id": "A",
+          "text": "o redator deve apagar todo agente humano e empregar voz passiva em todas as frases."
+        },
+        {
+          "id": "B",
+          "text": "a comunicação deve privilegiar a impressão pessoal da autoridade que assina o documento."
+        },
+        {
+          "id": "C",
+          "text": "a comunicação é produzida em nome do serviço público e trata o assunto sob a perspectiva do interesse geral."
+        },
+        {
+          "id": "D",
+          "text": "o destinatário nunca pode ser uma pessoa física."
+        },
+        {
+          "id": "E",
+          "text": "o documento deve evitar qualquer verbo na primeira pessoa, ainda que a construção seja prevista e adequada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A impessoalidade decorre do caráter público do emissor, do destinatário e do assunto. Não se reduz a uma proibição mecânica de pessoa verbal nem à obrigação de voz passiva. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.5."
+    },
+    {
+      "id": "u020-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em situação hipotética, qual trecho mais claramente viola a impessoalidade quando a avaliação pessoal não é objeto da comunicação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O setor concluiu a análise em 12 de setembro."
+        },
+        {
+          "id": "B",
+          "text": "Solicita-se o envio dos anexos até sexta-feira."
+        },
+        {
+          "id": "C",
+          "text": "Considero brilhante a decisão e fico pessoalmente muito satisfeito com o resultado."
+        },
+        {
+          "id": "D",
+          "text": "A equipe registrou duas pendências no processo."
+        },
+        {
+          "id": "E",
+          "text": "O pedido será examinado após a juntada do comprovante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C desloca o foco para impressões individuais do redator, sem função institucional demonstrada. As demais formulações comunicam fatos ou providências. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.5."
+    },
+    {
+      "id": "u020-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A padronização das comunicações oficiais significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os expedientes devem ter a mesma finalidade."
+        },
+        {
+          "id": "B",
+          "text": "o conteúdo deve repetir exatamente as mesmas palavras em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "a Administração busca uniformidade de apresentação e convenções, sem apagar as diferenças entre os gêneros e suas finalidades."
+        },
+        {
+          "id": "D",
+          "text": "todo documento deve ter a mesma extensão."
+        },
+        {
+          "id": "E",
+          "text": "somente documentos impressos precisam observar regras de forma."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Padronização reduz variações arbitrárias na forma e apresentação. Ela não torna iguais as finalidades dos expedientes nem se restringe ao papel. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.6."
+    },
+    {
+      "id": "u020-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo as orientações do Manual, o jargão burocrático",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser evitado quando limita a compreensão."
+        },
+        {
+          "id": "B",
+          "text": "é necessário para garantir impessoalidade."
+        },
+        {
+          "id": "C",
+          "text": "substitui o uso da norma padrão."
+        },
+        {
+          "id": "D",
+          "text": "é recomendado para demonstrar domínio técnico, ainda que o destinatário não o compreenda."
+        },
+        {
+          "id": "E",
+          "text": "é equivalente à nomenclatura técnica indispensável."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Manual rejeita a linguagem burocrática como requisito e observa que o jargão deve ser evitado por ter compreensão limitada. Termo técnico necessário não é sinônimo de burocratês. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.6."
+    },
+    {
+      "id": "u020-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando um documento trata de assunto técnico e a nomenclatura especializada é indispensável, a solução mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar o termo técnico mesmo que se perca precisão."
+        },
+        {
+          "id": "B",
+          "text": "manter a nomenclatura necessária e explicá-la quando o destinatário puder não conhecê-la."
+        },
+        {
+          "id": "C",
+          "text": "substituir cada ocorrência por um sinônimo diferente para tornar o texto elegante."
+        },
+        {
+          "id": "D",
+          "text": "usar o maior número possível de siglas internas."
+        },
+        {
+          "id": "E",
+          "text": "transformar toda explicação em nota de rodapé."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Clareza e precisão convivem com linguagem técnica quando o assunto a exige. O Manual recomenda explicar termos, siglas e conceitos indispensáveis que possam ser desconhecidos pelo destinatário. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.1."
+    },
+    {
+      "id": "u020-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A repetição controlada de um mesmo termo técnico pode ser preferível à troca por sinônimos porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a redação oficial proíbe qualquer sinonímia."
+        },
+        {
+          "id": "B",
+          "text": "a precisão pode ser prejudicada quando a variação lexical cria diferença ou ambiguidade de sentido."
+        },
+        {
+          "id": "C",
+          "text": "todo termo técnico deve aparecer pelo menos três vezes."
+        },
+        {
+          "id": "D",
+          "text": "sinônimos são sempre informais."
+        },
+        {
+          "id": "E",
+          "text": "a repetição torna automaticamente o texto mais conciso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na precisão, o Manual recomenda evitar sinonímia com propósito meramente estilístico quando ela puder comprometer a identidade da ideia. Isso não é proibição geral de sinônimos. Fonte: questão autoral baseada no Manual de Redação da Presidência da República, 3ª ed., item 3.1."
+    },
+    {
+      "id": "u020-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em uma questão sobre linguagem oficial, um candidato afirma que as comunicações públicas devem seguir um “padrão oficial de linguagem” próprio, derivado da norma padrão e exclusivo dos documentos oficiais. Segundo o Manual, essa afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque a redação oficial constitui uma variedade linguística autônoma."
+        },
+        {
+          "id": "B",
+          "text": "correta, mas apenas nas comunicações entre autoridades."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque o Manual dispensa a norma padrão."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, porque se usa a norma padrão sem que exista propriamente um padrão oficial de linguagem autônomo."
+        },
+        {
+          "id": "E",
+          "text": "incorreta, porque documentos oficiais devem usar linguagem coloquial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Manual distingue o uso da norma padrão da ideia de um padrão oficial autônomo e rejeita o burocratês como requisito. Adaptação não literal de item do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Polícia Federal, 2025, conhecimentos básicos para Perito Criminal Federal, item 12; o gabarito oficial definitivo marcou ERRADO. Fontes primárias identificadas em referencias.md."
+    },
+    {
+      "id": "u020-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma comunicação é redigida em nome do serviço público, evita impressões individuais do redator e trata o assunto sob a perspectiva do interesse geral. O atributo da redação oficial principalmente descrito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "concisão."
+        },
+        {
+          "id": "B",
+          "text": "coesão."
+        },
+        {
+          "id": "C",
+          "text": "formalidade."
+        },
+        {
+          "id": "D",
+          "text": "precisão."
+        },
+        {
+          "id": "E",
+          "text": "impessoalidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O núcleo descrito é a impessoalidade: abstração da pessoalidade dos atos e prevalência do interesse público. Adaptação não literal da Fundação Getulio Vargas, Assembleia Legislativa do Estado de Rondônia, Analista Legislativo — Comunicação Social — Relações Públicas, Tipo 1, 2026, questão 69; gabarito definitivo E. Fontes primárias identificadas em referencias.md."
+    },
+    {
+      "id": "u020-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Conforme a 3ª edição do Manual, assinale a opção correta a respeito de formalidade e padronização.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Como não existe padrão oficial de linguagem autônomo, o uso da norma padrão é apenas facultativo."
+        },
+        {
+          "id": "B",
+          "text": "A formalidade se relaciona às regras de forma e à civilidade, e a padronização busca reduzir variações arbitrárias nas comunicações."
+        },
+        {
+          "id": "C",
+          "text": "Padronização é sinônimo de empregar palavras raras e períodos extensos."
+        },
+        {
+          "id": "D",
+          "text": "O padrão culto exige linguagem rebuscada."
+        },
+        {
+          "id": "E",
+          "text": "O jargão burocrático é recomendado para garantir uniformidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Formalidade e padronização não autorizam rebuscamento nem jargão; a norma padrão continua exigida. Adaptação não literal de questão do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Polícia Civil de Pernambuco, Edital 2023, matriz com justificativas, questão 32; a alternativa correta indicada pela banca é B. Fonte primária identificada em referencias.md."
+    },
+    {
+      "id": "u021-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a 3ª edição do Manual de Redação da Presidência da República, qual afirmação descreve corretamente a relação entre aviso, ofício e memorando?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuam sendo três gêneros obrigatoriamente distintos, com diagramações próprias."
+        },
+        {
+          "id": "B",
+          "text": "A distinção foi abolida e o termo ofício passou a ser usado nas três antigas hipóteses, sob diagramação unificada."
+        },
+        {
+          "id": "C",
+          "text": "Somente o aviso foi incorporado ao ofício; o memorando continua obrigatório na comunicação interna."
+        },
+        {
+          "id": "D",
+          "text": "O ofício foi abolido e substituído pelo memorando em todas as comunicações administrativas."
+        },
+        {
+          "id": "E",
+          "text": "A escolha entre os três passou a depender exclusivamente do número de páginas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A 3ª edição aboliu a distinção anterior entre aviso, ofício e memorando e adotou o termo ofício para as três hipóteses, com nomenclatura e diagramação unificadas. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5."
+    },
+    {
+      "id": "u021-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão envia o mesmo ofício para vários órgãos receptores. No vocabulário do Manual, a variação adequada do expediente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ofício conjunto."
+        },
+        {
+          "id": "B",
+          "text": "ofício circular."
+        },
+        {
+          "id": "C",
+          "text": "exposição de motivos interministerial."
+        },
+        {
+          "id": "D",
+          "text": "mensagem circular."
+        },
+        {
+          "id": "E",
+          "text": "memorando conjunto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Circular indica o mesmo expediente enviado por um órgão a mais de um órgão receptor. Conjunto indica pluralidade de órgãos remetentes. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 6.1."
+    },
+    {
+      "id": "u021-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta somente partes do padrão ofício previstas no Manual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cabeçalho, identificação do expediente, local e data, endereçamento, assunto, texto, fecho, identificação do signatário e numeração das páginas."
+        },
+        {
+          "id": "B",
+          "text": "Ementa, preâmbulo, considerandos, dispositivo, cláusula de vigência e assinatura."
+        },
+        {
+          "id": "C",
+          "text": "Cabeçalho, resumo, palavras-chave, introdução, conclusão e referências."
+        },
+        {
+          "id": "D",
+          "text": "Timbre, ementa, exposição de motivos, mensagem, conclusão e anexos."
+        },
+        {
+          "id": "E",
+          "text": "Endereçamento, sumário, relatório, voto, ementa e dispositivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Manual enumera nove partes: cabeçalho, identificação, local/data, endereçamento, assunto, texto, fecho, identificação do signatário e numeração. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.1."
+    },
+    {
+      "id": "u021-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um ofício que não esteja sendo usado apenas para encaminhar documentos, a estrutura textual básica indicada pelo Manual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "vocativo, ementa e dispositivo."
+        },
+        {
+          "id": "B",
+          "text": "introdução, desenvolvimento e conclusão."
+        },
+        {
+          "id": "C",
+          "text": "relatório, fundamentação e decisão."
+        },
+        {
+          "id": "D",
+          "text": "assunto, anexo e assinatura."
+        },
+        {
+          "id": "E",
+          "text": "preâmbulo, considerandos e conclusão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Para comunicação que não é mero encaminhamento, o texto se organiza em introdução, desenvolvimento e conclusão. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.1.6."
+    },
+    {
+      "id": "u021-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um ofício serve apenas para encaminhar um documento solicitado anteriormente e o remetente não tem comentário adicional a fazer. Segundo o Manual,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatório criar um desenvolvimento com ao menos dois parágrafos."
+        },
+        {
+          "id": "B",
+          "text": "a introdução deve ignorar o expediente anterior para evitar repetição."
+        },
+        {
+          "id": "C",
+          "text": "a introdução referencia o pedido e identifica o documento encaminhado, podendo não haver parágrafo de desenvolvimento."
+        },
+        {
+          "id": "D",
+          "text": "o campo Assunto deve ser suprimido porque todo encaminhamento é autoexplicativo."
+        },
+        {
+          "id": "E",
+          "text": "o documento deve ser convertido em Exposição de Motivos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No encaminhamento, a introdução referencia a solicitação ou informa o motivo do envio; só há desenvolvimento se houver comentário a acrescentar. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.1.6."
+    },
+    {
+      "id": "u021-a08",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "De acordo com a regra de fechos apresentada na 3ª edição do Manual, usa-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respeitosamente para superior e Atenciosamente para mesma hierarquia, inferior ou demais casos."
+        },
+        {
+          "id": "B",
+          "text": "Atenciosamente para superior e Respeitosamente para inferior."
+        },
+        {
+          "id": "C",
+          "text": "Cordialmente em qualquer hierarquia."
+        },
+        {
+          "id": "D",
+          "text": "Saudações para superior e Atenciosamente para inferior."
+        },
+        {
+          "id": "E",
+          "text": "Respeitosamente apenas em correios eletrônicos e Atenciosamente apenas em documentos impressos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Manual reserva Respeitosamente às autoridades de hierarquia superior, inclusive o Presidente, e Atenciosamente à mesma hierarquia, inferior ou demais casos, ressalvadas comunicações a autoridades estrangeiras. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.1.7."
+    },
+    {
+      "id": "u021-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à numeração das páginas no padrão ofício, o Manual determina que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "comece obrigatoriamente na primeira página."
+        },
+        {
+          "id": "B",
+          "text": "seja obrigatória apenas a partir da segunda página."
+        },
+        {
+          "id": "C",
+          "text": "apareça somente em documentos com mais de cinco páginas."
+        },
+        {
+          "id": "D",
+          "text": "seja colocada no cabeçalho à esquerda."
+        },
+        {
+          "id": "E",
+          "text": "seja dispensada quando houver assinatura digital."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A numeração é obrigatória a partir da segunda página e é centralizada no rodapé. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.1.9."
+    },
+    {
+      "id": "u021-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reproduz medidas de formatação do padrão ofício indicadas pelo Manual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Papel A4; margem esquerda mínima de 3 centímetros; direita de 1,5 centímetros; superior e inferior de 2 centímetros."
+        },
+        {
+          "id": "B",
+          "text": "Papel A4; margem esquerda de 1,5 centímetros; direita de 3 centímetros; superior e inferior de 2 centímetros."
+        },
+        {
+          "id": "C",
+          "text": "Papel A4; margem esquerda mínima de 3 centímetros; direita de 1,5 centímetros; superior e inferior de 2,5 centímetros."
+        },
+        {
+          "id": "D",
+          "text": "Papel A4; margens esquerda e direita de 3 centímetros; superior e inferior de 2 centímetros."
+        },
+        {
+          "id": "E",
+          "text": "Papel A4; margem esquerda mínima de 3 centímetros; direita de 1,5 centímetros; superior de 5 centímetros e inferior de 2 centímetros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Manual de Redação da Presidência da República indica o formato de papel A4, margem esquerda mínima de 3 centímetros, direita de 1,5 centímetros e margens superior/inferior de 2 centímetros. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 5.2."
+    },
+    {
+      "id": "u021-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Exposição de Motivos, segundo o Manual, é expediente usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "comunicação rotineira entre duas unidades do mesmo setor, exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "um Ministro propor medida, submeter projeto de ato normativo ou informar assunto ao Presidente ou Vice-Presidente."
+        },
+        {
+          "id": "C",
+          "text": "qualquer cidadão apresentar requerimento a um ministério."
+        },
+        {
+          "id": "D",
+          "text": "o Presidente comunicar veto diretamente a um particular."
+        },
+        {
+          "id": "E",
+          "text": "substituir toda mensagem entre Chefes de Poderes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Manual define a Exposição de Motivos por essas três finalidades e a liga à comunicação ministerial dirigida à Presidência. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 6.2.1."
+    },
+    {
+      "id": "u021-a12",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao observar o modelo de Exposição de Motivos reproduzido na terceira edição do Manual de Redação da Presidência da República, o leitor verifica que ele",
+      "options": [
+        {
+          "id": "A",
+          "text": "apresenta campo Assunto com síntese do conteúdo antes do corpo do texto."
+        },
+        {
+          "id": "B",
+          "text": "não apresenta campo Assunto."
+        },
+        {
+          "id": "C",
+          "text": "não pode conter conclusão."
+        },
+        {
+          "id": "D",
+          "text": "não admite assinatura de mais de um ministro."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatoriamente destinado ao Congresso Nacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modelo apresentado no item 6.2.2 não traz campo Assunto. A resposta descreve aquele modelo; não estabelece uma dispensa geral para outros gêneros. A Exposição de Motivos tem conclusão e pode ser interministerial, assinada pelos ministros envolvidos. Fonte: Manual, terceira edição, item 6.2.2 e seu exemplo."
+    },
+    {
+      "id": "u021-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Mensagem, no Manual, é caracterizada principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "instrumento de comunicação oficial entre Chefes dos Poderes Públicos."
+        },
+        {
+          "id": "B",
+          "text": "modelo de comunicação eletrônica interna entre servidores."
+        },
+        {
+          "id": "C",
+          "text": "substituto do ofício para comunicações dentro do mesmo órgão."
+        },
+        {
+          "id": "D",
+          "text": "documento por meio do qual um particular se dirige à Presidência."
+        },
+        {
+          "id": "E",
+          "text": "expediente exclusivo de Ministros para propor ato normativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Mensagem é instrumento de comunicação entre Chefes de Poderes; o Manual destaca os envios do Chefe do Executivo ao Legislativo. Fonte: Manual de Redação da Presidência da República, 3ª ed., item 6.3.1."
+    },
+    {
+      "id": "u021-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o correio eletrônico oficial, assinale a opção correta segundo o Manual.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Por ser eletrônico, nunca pode ser documento oficial."
+        },
+        {
+          "id": "B",
+          "text": "A flexibilidade elimina qualquer orientação de estrutura ou apresentação."
+        },
+        {
+          "id": "C",
+          "text": "Como gênero, pode ser documento oficial; não há diagramação rígida, mas há orientações de assunto, saudação, fecho, assinatura e apresentação."
+        },
+        {
+          "id": "D",
+          "text": "O corpo deve repetir local e data porque o sistema não registra essas informações."
+        },
+        {
+          "id": "E",
+          "text": "O fecho obrigatório é sempre Respeitosamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O correio eletrônico pode ser documento oficial. A flexibilidade afasta uma padronização rígida da mensagem, mas não as orientações estruturais e profissionais. Fonte: Manual de Redação da Presidência da República, 3ª ed., itens 6.4.1 e 6.4.3."
+    },
+    {
+      "id": "u021-a15",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma questão cita literalmente o modelo de tratamento da edição de 2018 do Manual, enquanto outra pergunta pela disciplina normativa federal posterior aplicável às comunicações com agentes públicos federais. A conduta de estudo mais correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratar as duas fontes como idênticas, porque norma posterior nunca altera formas de tratamento."
+        },
+        {
+          "id": "B",
+          "text": "ignorar o Manual, pois sua 3ª edição deixou de existir em 2019."
+        },
+        {
+          "id": "C",
+          "text": "distinguir as fontes: responder ao que o Manual de 2018 efetivamente diz e, quando a pergunta for normativa e posterior, considerar o Decreto 9.758/2019 dentro de seu âmbito."
+        },
+        {
+          "id": "D",
+          "text": "aplicar o Decreto 9.758/2019 a qualquer comunicação pública de qualquer ente e Poder, sem exceção."
+        },
+        {
+          "id": "E",
+          "text": "usar livremente qualquer fórmula de tratamento porque o tema é apenas estilístico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A 3ª edição foi aprovada em 2018; o Decreto 9.758/2019 posteriormente disciplinou tratamento e endereçamento no seu âmbito federal e prevê exceções. O edital referencia o Manual, portanto as fontes não devem ser fundidas silenciosamente."
+    },
+    {
+      "id": "u021-p01",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Segundo o Manual de Redação da Presidência da República, o correio eletrônico oficial dispensa uma diagramação rígida da mensagem, mas mantém orientações de apresentação, como fonte e tamanho. Essa afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, porque o correio eletrônico não pode ser documento oficial."
+        },
+        {
+          "id": "C",
+          "text": "incorreta, porque o Manual exige modelo visual idêntico ao ofício."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, porque o Manual proíbe fonte Calibri ou Carlito."
+        },
+        {
+          "id": "E",
+          "text": "correta somente para mensagens privadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A matriz oficial registra como correta a ideia de que não há padronização rígida da mensagem de correio eletrônico, mas existem orientações de estrutura e apresentação, inclusive fonte. Adaptação não literal de questão elaborada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Polícia Civil de Pernambuco, Edital 2023, questão 30, alternativa E na fonte."
+    },
+    {
+      "id": "u021-p02",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "No padrão ofício, avalie: I) o cabeçalho aparece apenas na primeira página; II) quando não se trata de mero encaminhamento, a estrutura básica do texto é introdução, desenvolvimento e conclusão; III) dados do órgão podem ser informados no rodapé. Assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas I é correta."
+        },
+        {
+          "id": "B",
+          "text": "apenas II é correta."
+        },
+        {
+          "id": "C",
+          "text": "apenas I e III são corretas."
+        },
+        {
+          "id": "D",
+          "text": "apenas II e III são corretas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III são corretas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A matriz oficial considera verdadeiras as três assertivas. Adaptação não literal de questão elaborada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Polícia Civil de Pernambuco, Edital 2023, questão 31, alternativa E na fonte."
+    },
+    {
+      "id": "u021-p03",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Qual elemento do padrão ofício fornece uma ideia geral e sucinta do conteúdo do documento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "cabeçalho."
+        },
+        {
+          "id": "B",
+          "text": "identificação do expediente."
+        },
+        {
+          "id": "C",
+          "text": "assunto."
+        },
+        {
+          "id": "D",
+          "text": "fecho."
+        },
+        {
+          "id": "E",
+          "text": "endereçamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O elemento é o assunto. Adaptação não literal de questão elaborada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Companhia de Saneamento Ambiental do Distrito Federal, Edital 2024, questão 70, alternativa C na fonte."
+    },
+    {
+      "id": "per-u019-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um setor pretende solicitar o envio de um relatório até sexta-feira, apenas se a análise já estiver concluída. Qual redação torna o pedido direto e preserva todas essas informações?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Envie imediatamente o relatório, mesmo que a análise esteja em andamento."
+        },
+        {
+          "id": "B",
+          "text": "Solicito o envio do relatório em breve, caso a análise já esteja concluída."
+        },
+        {
+          "id": "C",
+          "text": "Solicito o envio do relatório até sexta-feira, caso a análise já esteja concluída."
+        },
+        {
+          "id": "D",
+          "text": "Solicito o envio do relatório até sexta-feira, independentemente da conclusão da análise."
+        },
+        {
+          "id": "E",
+          "text": "Tenho a honra de informar que a análise será obrigatoriamente concluída até sexta-feira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A opção C põe o pedido em primeiro plano e conserva objeto, prazo e condição. B torna o prazo impreciso; A e D retiram a condição; E troca o pedido de envio por uma informação sobre a conclusão da análise. Objetividade e concisão não autorizam alterar fatos ou condições. Questão autoral: Manual, itens 3.1, 3.2 e 3.3."
+    },
+    {
+      "id": "per-u019-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma frase dirigida a uma mulher e redigida com Vossa Excelência conforme as orientações gramaticais do Manual de 2018, qual construção está correta, considerando que o adjetivo se refere à interlocutora?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vossa Excelência encaminhareis vosso relatório quando estiverdes pronta."
+        },
+        {
+          "id": "B",
+          "text": "Vossa Excelência encaminhará seu relatório quando estiver pronta."
+        },
+        {
+          "id": "C",
+          "text": "Vossa Excelência encaminhará vosso relatório quando estiver pronta."
+        },
+        {
+          "id": "D",
+          "text": "Vossa Excelência encaminhareis seu relatório quando estiverdes pronta."
+        },
+        {
+          "id": "E",
+          "text": "Vossa Excelência encaminhará seu relatório quando estiver pronto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O pronome de tratamento exige verbo e possessivo de terceira pessoa: encaminhará, seu e estiver. O adjetivo que se refere à interlocutora deve concordar com ela: pronta. A resposta é sobre concordância na formulação de 2018; não define o âmbito de uso atual dessa forma de tratamento. Questão autoral: Manual, item 4.1.1."
+    },
+    {
+      "id": "per-u019-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato lê as orientações originais do Manual de 2018 e prepara comunicação dirigida a uma diretora que não é Chefe de Poder. Qual distinção entre campos está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O vocativo deve apresentar o endereço postal completo da diretora."
+        },
+        {
+          "id": "B",
+          "text": "O fecho deve ser Senhora Diretora, porque chama o destinatário no início do texto."
+        },
+        {
+          "id": "C",
+          "text": "O cabeçalho deve substituir o nome e o cargo do destinatário."
+        },
+        {
+          "id": "D",
+          "text": "O vocativo pode ser Senhora Diretora, seguido de vírgula; o endereçamento identifica destinatária e endereço."
+        },
+        {
+          "id": "E",
+          "text": "A palavra Excelentíssima deve iniciar obrigatoriamente o vocativo de toda diretora."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vocativo é o chamamento inicial, seguido de vírgula. Para autoridade que não é Chefe de Poder, o Manual de 2018 usa Senhor/Senhora seguido do cargo. Endereçamento é o bloco de identificação da pessoa e de seu endereço; fecho encerra a comunicação. A opção E estende indevidamente a regra dos Chefes de Poder. Questão autoral: Manual, itens 4.4 e 5.1.4."
+    },
+    {
+      "id": "per-u019-q004",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um ofício tem vocativo, três parágrafos de texto e fecho. Segundo as orientações do padrão ofício no Manual, qual numeração deve ser adotada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numerar os três parágrafos do texto desde o primeiro, sem numerar vocativo e fecho."
+        },
+        {
+          "id": "B",
+          "text": "Numerar somente o segundo e o terceiro parágrafos do texto."
+        },
+        {
+          "id": "C",
+          "text": "Numerar vocativo, três parágrafos e fecho em uma sequência de cinco números."
+        },
+        {
+          "id": "D",
+          "text": "Dispensar toda numeração porque o texto tem menos de quatro parágrafos."
+        },
+        {
+          "id": "E",
+          "text": "Numerar os parágrafos apenas quando o documento alcançar a segunda página."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Com três ou mais parágrafos, o Manual determina numeração desde o primeiro. Vocativo e fecho ficam fora dessa sequência. A numeração dos parágrafos não se confunde com a das páginas, obrigatória a partir da segunda. Questão autoral: Manual, itens 5.1.6, 5.1.7 e 5.1.9."
+    },
+    {
+      "id": "per-u019-q005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o campo local e data de um ofício expedido em São Luís no primeiro dia de setembro de 2026, qual forma atende às orientações do Manual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "São Luís/MA, 01 de Setembro de 2026."
+        },
+        {
+          "id": "B",
+          "text": "São Luís, 1 de Setembro de 26."
+        },
+        {
+          "id": "C",
+          "text": "São Luís - MA, 1º de setembro de 2026"
+        },
+        {
+          "id": "D",
+          "text": "São Luís, 01 de setembro de 2026."
+        },
+        {
+          "id": "E",
+          "text": "São Luís, 1º de setembro de 2026."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O campo usa cidade sem sigla da unidade federativa, seguida de vírgula; o primeiro dia é ordinal, o mês começa com minúscula, o ano tem quatro dígitos e há ponto-final. A ausência da unidade federativa é regra desse campo, não proibição de indicá-la no endereço postal. Questão autoral: Manual, item 5.1.3."
+    },
+    {
+      "id": "per-u019-q006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois órgãos remetentes expedem o mesmo ofício a três órgãos receptores. A variação do expediente prevista no Manual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ofício conjunto, porque somente o número de remetentes deve ser considerado."
+        },
+        {
+          "id": "B",
+          "text": "ofício circular, porque a pluralidade de receptores dispensa observar os remetentes."
+        },
+        {
+          "id": "C",
+          "text": "ofício conjunto circular, pela pluralidade de órgãos remetentes e receptores."
+        },
+        {
+          "id": "D",
+          "text": "Mensagem, porque há mais de um órgão em cada lado."
+        },
+        {
+          "id": "E",
+          "text": "Exposição de Motivos interministerial, independentemente da finalidade e dos órgãos envolvidos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Conjunto circular reúne as duas pluralidades: mais de um órgão remetente e mais de um receptor. Conjunto isoladamente descreve vários remetentes e um receptor; circular isoladamente, um remetente e vários receptores. A multiplicidade não converte por si só o ofício em Mensagem ou Exposição de Motivos. Questão autoral: Manual, item 6.1."
+    },
+    {
+      "id": "per-u019-q007",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um servidor envia por correio eletrônico uma minuta ainda em discussão para que o destinatário possa propor alterações. Qual providência atende às orientações do Manual sobre anexos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enviar a minuta exclusivamente como imagem para impedir qualquer edição."
+        },
+        {
+          "id": "B",
+          "text": "Usar formato editável e informar no corpo da mensagem o conteúdo mínimo do anexo."
+        },
+        {
+          "id": "C",
+          "text": "Omitir toda indicação do anexo no corpo porque o nome do arquivo sempre basta."
+        },
+        {
+          "id": "D",
+          "text": "Reencaminhar todos os anexos anteriores em cada resposta, mesmo sem necessidade."
+        },
+        {
+          "id": "E",
+          "text": "Converter a minuta em formato apenas de leitura, reservando a edição para o documento já aprovado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Documento ainda em discussão deve ser enviado em formato que possa ser editado. A mensagem deve informar minimamente o conteúdo do anexo; convém avaliar sua necessidade, tamanho e segurança e evitar reencaminhamento desnecessário. A forma de envio deve servir à tarefa de revisão. Questão autoral: Manual, item 6.4.4."
+    },
+    {
+      "id": "per-u019-q008",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao aplicar o Decreto 9.758/2019, um órgão federal se comunica com agente de outro ente federativo. A outra parte exige tratamento especial com fundamento em norma aplicável. Conforme o decreto, essa comunicação",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanece obrigatoriamente submetida a senhor, pois o decreto não tem exceções."
+        },
+        {
+          "id": "B",
+          "text": "deve usar tratamento livremente escolhido pelo remetente, mesmo sem base normativa."
+        },
+        {
+          "id": "C",
+          "text": "fica excluída somente se o destinatário for estrangeiro."
+        },
+        {
+          "id": "D",
+          "text": "está na exceção prevista para contato com outro ente quando a outra parte exige tratamento especial fundado em norma aplicável."
+        },
+        {
+          "id": "E",
+          "text": "demonstra que todo contato com outro ente está excluído, mesmo sem exigência normativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 1º, parágrafo 3º, inciso II, prevê a exceção sob essa condição: a outra parte deve exigir tratamento especial com base em norma aplicável ao destinatário. A mera diferença de ente ou Poder não basta para uma exclusão genérica. O decreto tem âmbito federal e não cria automaticamente uma regra interna para todos os entes. Questão autoral baseada no Decreto 9.758/2019, artigos 1º e 2º."
+    },
+    {
+      "id": "per-u019-q009",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "À luz da Lei 14.063/2020, qual afirmação sobre assinaturas eletrônicas em interações com entes públicos está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A lei distingue assinaturas simples, avançadas e qualificadas, e a autoridade competente define o nível mínimo em seu âmbito, respeitadas as exigências legais."
+        },
+        {
+          "id": "B",
+          "text": "Toda assinatura eletrônica válida é necessariamente qualificada."
+        },
+        {
+          "id": "C",
+          "text": "A assinatura simples é juridicamente inexistente em qualquer interação com ente público."
+        },
+        {
+          "id": "D",
+          "text": "A assinatura avançada dispensa qualquer meio de comprovar autoria ou integridade."
+        },
+        {
+          "id": "E",
+          "text": "O nível mínimo pode ser escolhido livremente pelo usuário, sem considerar o ato da autoridade competente ou exigência legal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os artigos 4º e 5º distinguem os três níveis e atribuem ao ato da autoridade competente a definição do nível mínimo, com observância das exigências legais. A qualificada utiliza certificado da Infraestrutura de Chaves Públicas Brasileira; isso não torna simples e avançada inválidas por definição. A regra normativa não se confunde com orientações sobre linguagem ou apresentação do correio eletrônico no Manual de 2018. Questão autoral baseada na Lei 14.063/2020, artigos 2º, 4º e 5º."
+    }
+  ]
+}
