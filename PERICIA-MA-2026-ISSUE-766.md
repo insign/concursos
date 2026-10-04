@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 30 | 0 | 6 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 40 | 0 | 11 |
-| Unidades distintas | 99 | 54 | 5 | 40 |
-| Entregáveis unitários C/H/Q | 297 | 162 | 15 | 120 |
+| Unidades distintas | 99 | 54 | 4 | 41 |
+| Entregáveis unitários C/H/Q | 297 | 162 | 12 | 123 |
 
-Estado confirmado: **40 unidades/visões publicadas (40 locais, 0 por vínculo); 120 C/H/Q aceitos; 49/132 referências literais aceitas; 1462 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **41 unidades/visões publicadas (41 locais, 0 por vínculo); 123 C/H/Q aceitos; 50/132 referências literais aceitas; 1481 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U042 — Direitos e vantagens dos agentes públicos**, conforme 5.2/7.5. Em 04/10/2026, o usuário solicitou concluir o lote U041–U046 e parar por hoje; não iniciar outras unidades. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 5/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U042 — Direitos e vantagens dos agentes públicos**, conforme 5.2/7.5. Em 04/10/2026, o usuário solicitou concluir o lote U041–U046 e parar por hoje; não iniciar outras unidades. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 6/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -574,7 +574,7 @@ Grupo consumidor: `conhecimentos-gerais/nocoes-direito/`, relativo à raiz defin
 | PER-U040 — Poderes, deveres e prerrogativas dos agentes | E04: 2, 2.2 | O038 | `agentes-poderes-deveres-prerrogativas` / `per-u040` / 400 | Recorte do agente; poder administrativo é ponte, não disciplina nova. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U041 — Regime jurídico: ingresso, vacância e movimentação | E04: 2, 2.4 | O039, O040 | `regime-juridico-provimento-movimentacao` / `per-u041` / 410 | Regime não nomeado pelo edital: delimitar bases conceituais e diferenciar exemplos federal/estadual; não escolher estatuto aplicável por suposição. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U042 — Direitos e vantagens dos agentes públicos | E04: 2, 2.5 | O039 | `agentes-direitos-vantagens` / `per-u042` / 420 | Mesmo limite de aplicabilidade de U041. |
-| PER-U043 — Regime disciplinar | E04: 2, 2.6 | O039 | `agentes-regime-disciplinar` / `per-u043` / 430 | Separar processo disciplinar de improbidade (U097/U098). |
+| PER-U043 — Regime disciplinar | E04: 2, 2.6 | O039 | `agentes-regime-disciplinar` / `per-u043` / 430 | Separar processo disciplinar de improbidade (U097/U098). Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U044 — Responsabilidades civil, criminal e administrativa | E04: 2, 2.7 | O038 | `agentes-responsabilidades` / `per-u044` / 440 | Autonomia/relacionamento de instâncias; não confundir com responsabilidade civil do Estado. |
 
 #### 5.2.5 Direito Aplicado
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 49/132 |
-| Unidades distintas da objetiva | 98 | 40 |
+| Referências literais da objetiva | 132/132 | 50/132 |
+| Unidades distintas da objetiva | 98 | 41 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 40 |
-| Entregáveis unitários C/H/Q | 297: 162 pending + 15 analyzing + 120 done | 120 done |
-| Visões consumidoras previstas | 99 | 40 |
+| Total de unidades distintas | 99 | 41 |
+| Entregáveis unitários C/H/Q | 297: 162 pending + 12 analyzing + 123 done | 123 done |
+| Visões consumidoras previstas | 99 | 41 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 38 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 39 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 40 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 41 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1770,6 +1770,24 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/regime-juridico-provimento-movimentacao/questoes.json` | `dc39cbadac4d625bf6cf5975f19f354328f97ceb` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/regime-juridico-provimento-movimentacao/referencias.md` | `decb761e686c798b1fcff55e182df15371006fa9` |
 
+#### PER-U043 — Regime disciplinar: parcial local
+
+- **Decisão e origem:** classificação anterior à autoria persistida em 04/10/2026 às 07:27:35Z, reserva07:16:26Z, base fcdf4727e995b34561c1bc46265ddfb1ab2046ea/mestre136ffb77bf1831a566bcee4f4893a7d3de9dca2d. O039 PC100 C7416931cd231da2d0d0c3c32966950652235a763, O040 PC109 C5d1c9776571a26eb5a249c8fa72bd96fa86dc848 e SEAP53 Cca1e3ab0be6b0ea4f4fdf358479c231c61415953, C/H/Q/R completos e58Q/290opções pelo autor. Árvore3413 completa: quatro companheiros e nenhum vínculo/resolução nos três prefixos, consumidores físicos independentes, sem canônico equivalente selecionado por busca dirigida ou ausência absoluta presumida. C U039/U040 inteiros e C U042 em versão de fronteira, não bancos alheios certificados. Destino per-u043/430/E04:2/2.6.
+- **Intervenção pedagógica:** cenário explicitamente hipotético apresenta notícia/fato/regra/apuração/decisão antes das penas. Infração exige enquadramento; suspeita não é culpa. Sindicância investigativa não pune, acusatória exige defesa; nem toda apuração exige sindicância prévia. Comissão instrui/relata, autoridade julga motivadamente; revelia não é confissão e demanda defensor dativo federal. Advogado não obrigatório por si só não elimina defesa. Cautelar remunerada60+60 distinta de suspensão90; conclusão ordinária60+60 desde publicação distinta de julgamento20 do recebimento. Prescrição depende autoridade competente, primeira instauração válida e punitiva e recomeça inteira após140 dias, sem eternizar pretensão. Revisão com fatos novos não agrava, distinta do julgamento inicial. Comparação estadual pontual repreensão/advertência/suspensão sem criar rol nacional; ingresso, vantagens, previdência, responsabilidade/improbidade fora do recorte.
+- **Primárias/cortes:** autor e independente u020 reconsultaram Constituição5LIV/LV, Lei8.112 âmbito/deveres/proibições/penalidades/apuração/revisão nos segmentos116–117/127–132/138–139/142–169/174–182, Lei6.107221–225/234/237–238 em compêndio oficial TJMA, Manual da Controladoria-Geral da União novembro2025 itens6.2.1/6.2.1.4, SúmulaVinculante5 no índice oficial e enunciados592/635/650 do SuperiorTribunaldeJustiça. Raiz reabriu8112, leu127–132/142/145–149/156/161–169/174–182 em janelas determinantes, três enunciados íntegros no PDF oficial e221–225/237–238 do TJMA recuperado; não declara acórdãos/manuais/estatuto estadual integralmente atualizados. Compêndio2024 e403/STC502 limitados; sem certificado de ausência de alteração. Estatuto não nomeado no programa, exemplos federais/estaduais expressos e corte17/07/2026; janela11/12/2026 futura não certificada.
+- **Banco e linhagem:** 19 itens/95 opções,17autorais+2anteriores,11herdadas e8novas. PC u100-a13/a14/a15/a17/a18/p01/p02 r2→3, u100-a16 r1→2; SEAPu053-a12/a13 r1→2; estadualu109-a16 r2→3. IDs/origin/opçãoIDs/chaves preservados, comando/opções alterados uma vez sobre origem; peru043-q01–q08 novasr1, conjunto2→3. Homônimo u100-p02 SEAP não duplicado; fonte eleita PCr2. Raiz/independente leram cada comando,95opções,chaves e explicações, sem resposta concorrente observada. Distratores aplicam regime/marco/continuidade/competência/defesa/revisão; Q texto puro, sem HTML/Markdown/TeX/ajuda. Anteriores reconfrontadas com cadernos e definitivos oficiais pelo autor/independente: TRE Tocantins2017 cargo2 Q23 originalA, aplicação03/12/2017, adaptaçãoD; SuperiorTribunalMilitar2025 CGcargo1 item14 originalCerto, aplicação01/06/2025, adaptaçãoE. Letra original/local não confundida, nenhuma quota ou resolução separada necessária.
+- **Densidade/deltas:** C final13192 caracteres visíveis/1955palavras, H2625/381, Q17917/2670 eR3890/543. C/H/R −26,81% frenteO039, pacote+12,92% por distratores contextualizados, explicações e8lacunas, não por meta/HTML; escopos diversos explicitamente estreitados. Ajuda separada: C26abbr/1928caracteres title, H18/1123, Q/RzeroHTML. Artigo/artigos por extenso foraURLs e cenário hipotético relidos por raiz/independente; Q permaneceu byte a byte igual, revisões intactas. C ensina fundamentos, H recupera381palavras, referências usadas e limites identificados.
+- **Inspeção individual PER-F02:** raiz leu integralmente C/H/R/evidence e19Q/95opções/chaves/explicações, independente u020 integral incluindo11linhagens e primárias, deltas editoriais relidos. Metadados/Markdown/microdescrições/âmbito/corte/proveniência/coerência inspecionados manualmente, sem alegar render do aplicativo ou qualidade por contagem. Grupo7881cb916d15145abd9849156755fc5562050b93 revalidado, quatro arquivos/blobs/escopo/parent/head exatos confirmados. F02 macro distinto e pending; sem testes/build/check/CI, doador/catálogo/infra/mega revisão ou futuro certificado. Somente loteU041–46 autorizado para terminar hoje, depois pausa.
+
+**Publicação confirmada:** [`c05f9d5`](https://github.com/insign/concursos/commit/c05f9d599eadbe2952ffca3e767e6198d2c90fc0), parent `b135c4068ca8d77ebfacfeba868fd5de005a0132`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-regime-disciplinar/conteudo.md` | `c9903f18a85c101b1f3874f9ab3bbb7ce878e53a` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-regime-disciplinar/cheat-sheet.md` | `595cf7a148ec2168f5ab7422971d9c6f474f3496` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-regime-disciplinar/questoes.json` | `8b1f128ca295b10aeb609b1131d964835129f6e7` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-regime-disciplinar/referencias.md` | `ab7121f5a471653db1da70389d729469ad62be0a` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2195,9 +2213,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U043 — Regime disciplinar
 
-- [ ] PER-U043-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U043-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U043-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U043-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U043-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U043-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U044 — Responsabilidades civil, criminal e administrativa
 
@@ -2755,3 +2773,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U038:** artefatos `0f50d0f37a25585428bd6f7f9178943818decbdc` confirmados; aceitos neste registro 18 itens, C/H/Q e proveniência 5.11. Totais resultantes: 39/99 unidades, 117/297 C/H/Q, 48/132 referências, 1426 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U041 — Regime jurídico: ingresso, vacância e movimentação; campanha aberta.
 
 - **PER-U041:** artefatos `7af65c933e17888b58066d36b3216f3f22f2bc9f` confirmados; aceitos neste registro 36 itens, C/H/Q e proveniência 5.11. Totais resultantes: 40/99 unidades, 120/297 C/H/Q, 49/132 referências, 1462 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U042 — Direitos e vantagens dos agentes públicos; campanha aberta.
+
+- **PER-U043:** artefatos `c05f9d599eadbe2952ffca3e767e6198d2c90fc0` confirmados; aceitos neste registro 19 itens, C/H/Q e proveniência 5.11. Totais resultantes: 41/99 unidades, 123/297 C/H/Q, 50/132 referências, 1481 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U042 — Direitos e vantagens dos agentes públicos; campanha aberta.
