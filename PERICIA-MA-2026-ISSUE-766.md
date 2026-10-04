@@ -1444,6 +1444,9 @@ Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo 
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/metodo-cientifico-hipoteses-teorias/questoes.json` | `f806581f9253031ee675e4de4133fa4b82389025` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/metodo-cientifico-hipoteses-teorias/referencias.md` | `dace78f7e6e17deac86ed0660877c5fdf232fe54` |
 
+
+**Correção editorial subsequente U025:** R em `58c705601a30d4b19087b9fbbc08d293a7a1840a`, blob `df83adedbd733ff829a8b0c95825f12f383b1ac1`, relido integralmente na main e igual à correção revista: rótulo de link usa “número” por extenso, sem HTML no controle. C/H/Q e estados/totais/revisões intactos. Inspeção individual F02 registra a intervenção; tabela acima preserva os blobs do commit original30c993b.
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2385,3 +2388,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U021:** artefatos `1eb36a2344a76f442be425fb92a449439e3b712a` confirmados; aceitos neste registro 27 itens, C/H/Q e proveniência 5.11. Totais resultantes: 22/99 unidades, 66/297 C/H/Q, 27/132 referências, 1057 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U023 — Argumentação e inferências lógicas; campanha aberta.
 
 - **PER-U025:** artefatos `30c993b407974c7797150edc1215b81405d01046` confirmados; aceitos neste registro 18 itens, C/H/Q e proveniência 5.11. Totais resultantes: 23/99 unidades, 69/297 C/H/Q, 29/132 referências, 1075 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U023 — Argumentação e inferências lógicas; campanha aberta.
+
+- **PER-U025, ajuste de R:** commit `58c705601a30d4b19087b9fbbc08d293a7a1840a`, blob `df83adedbd733ff829a8b0c95825f12f383b1ac1` confirmado após leitura integral; rótulo de link por extenso. Sem alteração de C/H/Q ou totais.
