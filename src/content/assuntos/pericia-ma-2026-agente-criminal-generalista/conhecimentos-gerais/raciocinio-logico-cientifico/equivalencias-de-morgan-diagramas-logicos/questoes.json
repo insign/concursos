@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 7,
+  "questions": [
+    {
+      "id": "q5019",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Duas fórmulas P e Q são logicamente equivalentes quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "recebem o mesmo valor lógico em todas as atribuições possíveis de suas proposições simples."
+        },
+        {
+          "id": "B",
+          "text": "têm o mesmo número de linhas verdadeiras, mesmo que elas ocupem posições diferentes na tabela."
+        },
+        {
+          "id": "C",
+          "text": "são verdadeiras em pelo menos uma mesma atribuição."
+        },
+        {
+          "id": "D",
+          "text": "P → Q é verdadeira em todas as atribuições, mesmo que Q → P não seja."
+        },
+        {
+          "id": "E",
+          "text": "contêm exatamente as mesmas proposições simples, independentemente dos conectivos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Equivalência exige coincidência em todas as atribuições. Ter o mesmo número de linhas verdadeiras não basta se as posições diferirem. Uma coincidência pontual também não basta: p ∧ q e p ∨ q são ambas verdadeiras quando p e q são verdadeiras, mas diferem quando apenas uma delas é verdadeira. Nesse exemplo, (p ∧ q) → (p ∨ q) é sempre verdadeira, mas a implicação inversa não é; a implicação em um único sentido não comprova equivalência. Usar as mesmas letras não preserva o resultado se os conectivos mudarem. Questão autoral."
+    },
+    {
+      "id": "q5020",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma forma de testar se P e Q são equivalentes é verificar se",
+      "options": [
+        {
+          "id": "A",
+          "text": "P ∧ Q é uma contradição."
+        },
+        {
+          "id": "B",
+          "text": "P ↔ Q é uma tautologia."
+        },
+        {
+          "id": "C",
+          "text": "P ∨ Q é verdadeira em pelo menos uma linha."
+        },
+        {
+          "id": "D",
+          "text": "P → Q é falsa em alguma linha."
+        },
+        {
+          "id": "E",
+          "text": "P e Q contêm a mesma quantidade de proposições simples."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "P ↔ Q é verdadeira exatamente quando P e Q têm valores iguais. Se isso ocorre em todas as linhas, a bicondicional é uma tautologia e as fórmulas são equivalentes. P e Q não precisam ser individualmente sempre verdadeiras: podem ser ambas falsas na mesma linha. Questão autoral."
+    },
+    {
+      "id": "q5027",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A forma equivalente a p ∧ (q ∨ r), pela distributividade, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p ∧ q) ∨ (p ∧ r)."
+        },
+        {
+          "id": "B",
+          "text": "(p ∨ q) ∧ r."
+        },
+        {
+          "id": "C",
+          "text": "p ∨ (q ∧ r)."
+        },
+        {
+          "id": "D",
+          "text": "(p ∧ q) ∧ (p ∧ r)."
+        },
+        {
+          "id": "E",
+          "text": "(p ∨ q) ∨ (p ∨ r)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Distribua p para cada parcela de q ∨ r: (p ∧ q) ∨ (p ∧ r). Para a fórmula inicial ser verdadeira, p deve ser verdadeira e ao menos uma de q ou r também; as duas parcelas da resposta expressam exatamente essas possibilidades. Exigir as duas parcelas simultaneamente, como em D, passaria a exigir q e r verdadeiras. Questão autoral."
+    },
+    {
+      "id": "q5031",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A eliminação correta da seta em p → q produz",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "B",
+          "text": "p ∨ ¬q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∧ q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ q."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "p → q e ¬p ∨ q são falsas somente quando p é verdadeira e q é falsa. Nas outras três combinações, ambas são verdadeiras. Já p ∧ ¬q, alternativa D, afirma o caso falso da condicional e é sua negação, não sua equivalente. Questão autoral."
+    },
+    {
+      "id": "q5033",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A fórmula q → p, obtida de p → q pela troca entre antecedente e consequente, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a contrapositiva e sempre equivale à original."
+        },
+        {
+          "id": "B",
+          "text": "a negação da condicional."
+        },
+        {
+          "id": "C",
+          "text": "a conversa e não equivale, em geral, à original."
+        },
+        {
+          "id": "D",
+          "text": "uma dupla negação da original."
+        },
+        {
+          "id": "E",
+          "text": "a inversa e sempre equivale à original."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trocar os termos sem negá-los forma a conversa q → p. Com p verdadeira e q falsa, a original é falsa e a conversa é verdadeira, o que refuta a equivalência geral. A contrapositiva seria ¬q → ¬p; a negação da original, p ∧ ¬q. Questão autoral."
+    },
+    {
+      "id": "q5034",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A negação de p → q é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p → ¬q."
+        },
+        {
+          "id": "B",
+          "text": "q → p."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "¬p ∧ q."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A condicional p → q é falsa somente com antecedente verdadeiro e consequente falso. Sua negação é verdadeira exatamente nesse caso: p ∧ ¬q. A forma ¬p ∨ q conserva o valor da condicional; a inversa ¬p → ¬q não corresponde à negação. Questão autoral."
+    },
+    {
+      "id": "q5035",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A bicondicional p ↔ q é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p → q) ∧ (q → p)."
+        },
+        {
+          "id": "B",
+          "text": "(p → q) ∨ (q → p)."
+        },
+        {
+          "id": "C",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "E",
+          "text": "(p → q) ∧ (p → ¬q)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A bicondicional exige as duas direções condicionais ao mesmo tempo, unidas por conjunção. Trocar essa conjunção por disjunção, como em B, torna a expressão sempre verdadeira: se uma das direções for falsa, a outra será verdadeira. Isso perderia a exigência de valores iguais. Questão autoral."
+    },
+    {
+      "id": "q5039",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A expressão (p ∧ q) ∨ (p ∧ ¬q) simplifica-se para",
+      "options": [
+        {
+          "id": "A",
+          "text": "p."
+        },
+        {
+          "id": "B",
+          "text": "q."
+        },
+        {
+          "id": "C",
+          "text": "¬p."
+        },
+        {
+          "id": "D",
+          "text": "p ↔ q."
+        },
+        {
+          "id": "E",
+          "text": "p → q."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pela distributividade, (p ∧ q) ∨ (p ∧ ¬q) equivale a p ∧ (q ∨ ¬q). Como q ∨ ¬q é sempre verdadeira, a conjunção tem exatamente o valor de p. Não se está cancelando q por aparência: cada passagem usa uma equivalência. Questão autoral."
+    },
+    {
+      "id": "q5044",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual atribuição, entre as apresentadas, refuta a equivalência entre p → q e q → p?",
+      "options": [
+        {
+          "id": "A",
+          "text": "p=V e q=V."
+        },
+        {
+          "id": "B",
+          "text": "p=V e q=F."
+        },
+        {
+          "id": "C",
+          "text": "p=F e q=F."
+        },
+        {
+          "id": "D",
+          "text": "Nenhuma, pois as fórmulas são equivalentes."
+        },
+        {
+          "id": "E",
+          "text": "p=V, sem informação sobre q."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com p=V e q=F, p → q é F e q → p é V. Essa divergência basta para refutar a equivalência. A combinação p=F e q=V também seria um contraexemplo, mas não aparece como alternativa autônoma. Conhecer somente p, sem q, não determina se as fórmulas divergem. Questão autoral."
+    },
+    {
+      "id": "q5049",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo uma das leis de De Morgan, ¬(p ∧ q) é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∧ ¬q."
+        },
+        {
+          "id": "B",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ ¬q."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma conjunção é falsa se ao menos uma de suas parcelas for falsa. Sua negação equivale, portanto, à disjunção inclusiva das negações: ¬p ∨ ¬q. A alternativa A exige ambas falsas e elimina os casos em que apenas uma falha. Questão autoral."
+    },
+    {
+      "id": "q5050",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A negação correta de p ∨ q é",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∨ q."
+        },
+        {
+          "id": "B",
+          "text": "p ∧ ¬q."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ ¬q."
+        },
+        {
+          "id": "D",
+          "text": "¬p ∧ ¬q."
+        },
+        {
+          "id": "E",
+          "text": "p ∧ q."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O ou é inclusivo: p ∨ q é falsa somente quando p e q são ambas falsas. Por isso, a negação é ¬p ∧ ¬q. Em C, ¬p ∨ ¬q seria verdadeira até quando apenas uma das partes originais fosse falsa, embora a disjunção original ainda fosse verdadeira. Questão autoral."
+    },
+    {
+      "id": "q5051",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A frase “Não é verdade que Ana protocolou o pedido e Bruno emitiu o recibo” equivale a afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana não protocolou o pedido ou Bruno não emitiu o recibo, admitindo inclusive que ambos tenham falhado."
+        },
+        {
+          "id": "B",
+          "text": "Ana não protocolou o pedido e Bruno necessariamente emitiu o recibo."
+        },
+        {
+          "id": "C",
+          "text": "Ana protocolou o pedido ou Bruno emitiu o recibo."
+        },
+        {
+          "id": "D",
+          "text": "exatamente uma das duas ações ocorreu."
+        },
+        {
+          "id": "E",
+          "text": "Ana protocolou o pedido se e somente se Bruno emitiu o recibo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conjunção original falha quando Ana não protocola, Bruno não emite, ou ambos deixam de realizar as ações. Sua negação é a disjunção inclusiva das negações. Exigir exatamente uma ação, como em D, excluiria indevidamente o caso em que nenhuma ocorre. Questão autoral."
+    },
+    {
+      "id": "q2026082803",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Considere a sentença:\n“Se Márcia é gaúcha, então é torcedora do Grêmio ou torcedora do Internacional”.\nAssinale a opção que indica uma sentença logicamente equivalente a essa.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se Márcia não é gaúcha, então não é torcedora do Grêmio nem do Internacional."
+        },
+        {
+          "id": "B",
+          "text": "Se Márcia não é torcedora do Grêmio, então não é gaúcha ou é torcedora do Internacional."
+        },
+        {
+          "id": "C",
+          "text": "Se Márcia não é torcedora do Grêmio, então não é gaúcha nem é torcedora do Internacional."
+        },
+        {
+          "id": "D",
+          "text": "Se Márcia não é torcedora do Internacional, então não é gaúcha nem é torcedora do Grêmio."
+        },
+        {
+          "id": "E",
+          "text": "Se Márcia não é torcedora do Grêmio ou não é torcedora do Internacional, então não é gaúcha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se p representa “Márcia é gaúcha”, g representa “Márcia é torcedora do Grêmio” e i representa “Márcia é torcedora do Internacional”, a original p → (g ∨ i) equivale a ¬p ∨ g ∨ i. B tem forma ¬g → (¬p ∨ i), que equivale a g ∨ ¬p ∨ i: a mesma disjunção em outra ordem. A é a inversa da original; C e D acrescentam exigências não fornecidas; E troca a conjunção que apareceria na contrapositiva por disjunção. Fonte: Fundação Getulio Vargas; Tribunal de Justiça do Estado do Rio Grande do Sul — Técnico do Poder Judiciário — Área Administrativo-Judiciária; 2025; Tipo 1 (Branca); questão 38. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-1.pdf. Gabarito definitivo, 38=B: https://conhecimento.fgv.br/sites/default/files/concursos/tjrs-edital-gabarito-definitivo.pdf."
+    },
+    {
+      "id": "q52203901",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Texto CG4A2-I\n\nP: Se não houver uma virada nos números, nem uma situação de empate técnico, não há concessão possível.\n\nConsiderando o texto CG4A2-I, assinale a opção que apresenta uma forma correta de negar a proposição P.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se houver uma virada nos números ou uma situação de empate técnico, há concessão possível."
+        },
+        {
+          "id": "B",
+          "text": "Não há uma virada nos números, nem uma situação de empate técnico, mas há concessão possível."
+        },
+        {
+          "id": "C",
+          "text": "Se houver uma virada nos números e uma situação de empate técnico, há concessão possível."
+        },
+        {
+          "id": "D",
+          "text": "Se não houver concessão possível, não há uma virada nos números, nem uma situação de empate técnico."
+        },
+        {
+          "id": "E",
+          "text": "Há uma virada nos números ou uma situação de empate técnico, mas não há concessão possível."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se v representa “há virada”, e representa “há empate técnico” e c representa “há concessão possível”, P tem forma (¬v ∧ ¬e) → ¬c. Sua negação mantém o antecedente inteiro e nega o consequente: (¬v ∧ ¬e) ∧ c, a alternativa B. As alternativas com outra condicional não afirmam exatamente o caso que torna P falsa. Fonte: Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos; Polícia Civil de Rondônia — Cargo 6, Técnico em Necropsia; aplicação em 25/9/2022; caderno 732_PCRO_CG4_01; questão 17. Prova: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_CG4_01.PDF. Gabarito definitivo, 17=B: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/GAB_DEFINITIVO_732_PCRO_CG4_01.PDF."
+    },
+    {
+      "id": "q52203902",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Texto CG4A2-I\n\nP: Se não houver uma virada nos números, nem uma situação de empate técnico, não há concessão possível.\n\nDe acordo com o texto CG4A2-I, assinale a opção que apresenta uma proposição logicamente equivalente à proposição P.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se há concessão possível, houve uma virada nos números ou uma situação de empate técnico."
+        },
+        {
+          "id": "B",
+          "text": "Se houver uma virada nos números ou uma situação de empate técnico, há concessão possível."
+        },
+        {
+          "id": "C",
+          "text": "Dado que não há concessão possível, não houve uma virada nos números, nem uma situação de empate técnico."
+        },
+        {
+          "id": "D",
+          "text": "Não há uma virada nos números, nem uma situação de empate técnico, ou não há concessão possível."
+        },
+        {
+          "id": "E",
+          "text": "Não há uma virada nos números, nem uma situação de empate técnico, mas há concessão possível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Representando virada por v, empate por e e concessão por c, a original é (¬v ∧ ¬e) → ¬c. Sua contrapositiva é c → ¬(¬v ∧ ¬e), que, por De Morgan e dupla negação, equivale a c → (v ∨ e), alternativa A. E é a negação da original; não uma forma equivalente. Fonte: Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos; Polícia Civil de Rondônia — Cargo 6, Técnico em Necropsia; aplicação em 25/9/2022; caderno 732_PCRO_CG4_01; questão 18. Prova: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/732_PCRO_CG4_01.PDF. Gabarito definitivo, 18=A: https://cdn.cebraspe.org.br/concursos/pc_ro_22/arquivos/GAB_DEFINITIVO_732_PCRO_CG4_01.PDF."
+    },
+    {
+      "id": "q52203903",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Considere a sentença\n“Se como doces, então engordo ou tenho azia.”\nA negação lógica dessa sentença é",
+      "options": [
+        {
+          "id": "A",
+          "text": "se não como doces, então não engordo nem tenho azia."
+        },
+        {
+          "id": "B",
+          "text": "se como doces, então não engordo nem tenho azia."
+        },
+        {
+          "id": "C",
+          "text": "como doces e não engordo nem tenho azia."
+        },
+        {
+          "id": "D",
+          "text": "não como doces e engordo ou tenho azia."
+        },
+        {
+          "id": "E",
+          "text": "se não como doces, então engordo ou tenho azia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se p significa “como doces”, q significa “engordo” e r significa “tenho azia”, a sentença é p → (q ∨ r). Negá-la produz p ∧ ¬(q ∨ r); por De Morgan, p ∧ ¬q ∧ ¬r. A alternativa C afirma esse caso. B mantém uma condicional e, portanto, não afirma que como doces; D nega o antecedente e afirma parte do consequente. Fonte: Fundação Getulio Vargas; Assembleia Legislativa do Estado de Mato Grosso — Técnico(a) Legislativo de Nível Superior; aplicação em 8/12/2013; Tipo 2; questão 20. Prova: https://conhecimento.fgv.br/sites/default/files/concursos/al-mt_2013_tecnico_a_legislativo_nivel_superior_prova_tipo_02.pdf. Gabarito definitivo, 20=C: https://conhecimento.fgv.br/sites/default/files/concursos/almt13_superior_medio_gabarito_definitivo_2014_02_27.pdf."
+    },
+    {
+      "id": "per-u022-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma expressão equivalente a ¬(p ∨ (q ∧ r)) é",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬p ∧ ¬q ∧ ¬r."
+        },
+        {
+          "id": "B",
+          "text": "¬p ∧ (¬q ∨ ¬r)."
+        },
+        {
+          "id": "C",
+          "text": "¬p ∨ (¬q ∧ ¬r)."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ (¬q ∨ ¬r)."
+        },
+        {
+          "id": "E",
+          "text": "(¬p ∧ ¬q) ∨ ¬r."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Negue primeiro o grupo externo: ¬p ∧ ¬(q ∧ r). Negando depois a conjunção interna, obtenha ¬p ∧ (¬q ∨ ¬r). A exige falsidade de q e r simultaneamente; E altera o agrupamento e pode ser verdadeira quando p é verdadeira, por exemplo com r falsa. Questão autoral."
+    },
+    {
+      "id": "per-u022-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A negação de “Se p ou q, então r”, considerando o ou inclusivo, é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p ∨ q) ∧ ¬r."
+        },
+        {
+          "id": "B",
+          "text": "(¬p ∧ ¬q) ∧ r."
+        },
+        {
+          "id": "C",
+          "text": "(p ∨ q) → ¬r."
+        },
+        {
+          "id": "D",
+          "text": "(¬p ∨ ¬q) ∧ ¬r."
+        },
+        {
+          "id": "E",
+          "text": "p ∧ q ∧ ¬r."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A violação da condicional exige o antecedente (p ∨ q) verdadeiro e o consequente r falso. Mantém-se o antecedente inteiro. E exige indevidamente p e q verdadeiras; basta uma delas. C mantém uma condicional, que seria verdadeira até com p e q ambas falsas. Questão autoral."
+    },
+    {
+      "id": "per-u022-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual fórmula é equivalente à negação de p ↔ q?",
+      "options": [
+        {
+          "id": "A",
+          "text": "(p ∧ q) ∨ (¬p ∧ ¬q)."
+        },
+        {
+          "id": "B",
+          "text": "¬p ↔ ¬q."
+        },
+        {
+          "id": "C",
+          "text": "(p ∧ ¬q) ∨ (¬p ∧ q)."
+        },
+        {
+          "id": "D",
+          "text": "(p → q) ∧ (q → p)."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ q."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Negar a bicondicional exige valores diferentes: p verdadeira e q falsa, ou p falsa e q verdadeira. A, B e D mantêm a condição de valores iguais. E aceita também ambas verdadeiras, combinação em que a negação da bicondicional é falsa. Questão autoral."
+    },
+    {
+      "id": "per-u022-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão [p ∧ (p ∨ q)] ∨ (r ∧ ¬r) é equivalente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "p ∧ q."
+        },
+        {
+          "id": "B",
+          "text": "r."
+        },
+        {
+          "id": "C",
+          "text": "p ∨ r."
+        },
+        {
+          "id": "D",
+          "text": "p."
+        },
+        {
+          "id": "E",
+          "text": "¬p."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Por absorção, p ∧ (p ∨ q) equivale a p. A parcela r ∧ ¬r é sempre falsa; fazer a disjunção de p com algo sempre falso mantém p. q e r não decidem a coluna final da expressão. Questão autoral."
+    },
+    {
+      "id": "per-u022-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual atribuição refuta a equivalência entre P = p ∨ (q ∧ r) e Q = (p ∨ q) ∧ r? Use V para verdadeiro e F para falso.",
+      "options": [
+        {
+          "id": "A",
+          "text": "p=F, q=V, r=V."
+        },
+        {
+          "id": "B",
+          "text": "p=V, q=V, r=V."
+        },
+        {
+          "id": "C",
+          "text": "p=F, q=F, r=V."
+        },
+        {
+          "id": "D",
+          "text": "p=F, q=F, r=F."
+        },
+        {
+          "id": "E",
+          "text": "p=V, q=F, r=F."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na alternativa E, P é verdadeira porque p é verdadeira; Q é falsa porque r é falsa. Nas demais alternativas, P e Q coincidem. A associatividade não permite reagrupar livremente conectivos diferentes. Questão autoral."
+    },
+    {
+      "id": "per-u022-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao comparar p ↔ q com ¬p ↔ ¬q, um candidato afirma que a segunda fórmula é a negação da primeira. Essa afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, pois toda ocorrência de p e q foi negada."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, pois as duas fórmulas são equivalentes: negar ambos os lados mantém a igualdade ou a diferença dos valores."
+        },
+        {
+          "id": "C",
+          "text": "correta somente quando p e q são verdadeiras."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, pois a segunda fórmula é sempre falsa."
+        },
+        {
+          "id": "E",
+          "text": "correta, pois ¬p ↔ ¬q equivale a (p ∧ ¬q) ∨ (¬p ∧ q)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A bicondicional testa se os valores são iguais. Quando ambos são invertidos, continuam iguais ou continuam diferentes. Assim, as duas fórmulas coincidem em todas as linhas; a negação da primeira exigiria valores diferentes, em vez de iguais. A expressão de E exige justamente valores diferentes e, por isso, não equivale a ¬p ↔ ¬q. Questão autoral."
+    }
+  ]
+}
