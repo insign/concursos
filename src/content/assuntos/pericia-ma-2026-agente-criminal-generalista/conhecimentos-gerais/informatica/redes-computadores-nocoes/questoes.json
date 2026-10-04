@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u026-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma rede que interliga computadores dentro de um prédio administrativo é classificada, em regra, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "LAN."
+        },
+        {
+          "id": "B",
+          "text": "MAN."
+        },
+        {
+          "id": "C",
+          "text": "WAN."
+        },
+        {
+          "id": "D",
+          "text": "Topologia em estrela, independentemente da forma das conexões."
+        },
+        {
+          "id": "E",
+          "text": "Internet pública, apenas por envolver vários computadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "LAN (Local Area Network — rede de área local) descreve alcance local, como prédio ou campus. MAN (Metropolitan Area Network — rede de área metropolitana) e WAN (Wide Area Network — rede de longa distância) indicam escalas geográficas maiores. Estrela descreve a forma das conexões, e uma rede local pode funcionar sem Internet. Questão autoral herdada, revisada para este recorte."
+    },
+    {
+      "id": "u026-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual equipamento tem como função central encaminhar pacotes entre redes IP diferentes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comutador que atua apenas no enlace local."
+        },
+        {
+          "id": "B",
+          "text": "Roteador."
+        },
+        {
+          "id": "C",
+          "text": "Ponto de acesso na função de conectar clientes sem fio."
+        },
+        {
+          "id": "D",
+          "text": "Servidor DNS na função de consultar nomes."
+        },
+        {
+          "id": "E",
+          "text": "Servidor DHCP na função de distribuir configuração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A função de roteamento encaminha pacotes entre redes segundo rotas IP (Internet Protocol — protocolo da Internet). Conectar no enlace, consultar nomes e distribuir configuração são responsabilidades diferentes. Um aparelho pode reunir funções, mas o enunciado pede a de roteador. Questão autoral herdada, revisada."
+    },
+    {
+      "id": "u026-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao exercer a função de ponto de acesso sem fio, um equipamento tem como papel típico",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolher rotas entre redes IP diferentes."
+        },
+        {
+          "id": "B",
+          "text": "conectar clientes Wi-Fi à rede local."
+        },
+        {
+          "id": "C",
+          "text": "obter endereços de serviços a partir de seus nomes."
+        },
+        {
+          "id": "D",
+          "text": "distribuir automaticamente a configuração IP aos computadores."
+        },
+        {
+          "id": "E",
+          "text": "garantir ordenação e retransmissão dos dados de toda aplicação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ponto de acesso oferece conectividade sem fio e integra os clientes à rede local. As demais opções descrevem roteamento, consulta de nomes, configuração dinâmica ou transporte confiável. Reunir recursos no mesmo aparelho não torna essas funções equivalentes. Questão autoral herdada, revisada."
+    },
+    {
+      "id": "u026-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A comparação correta entre os tamanhos dos endereços IPv4 e IPv6 é, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 e 32 bits."
+        },
+        {
+          "id": "B",
+          "text": "32 e 128 bits."
+        },
+        {
+          "id": "C",
+          "text": "64 e 128 bits."
+        },
+        {
+          "id": "D",
+          "text": "128 e 32 bits."
+        },
+        {
+          "id": "E",
+          "text": "48 e 128 bits."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "IPv4 (Internet Protocol version 4 — protocolo da Internet versão 4) usa 32 bits; IPv6 (Internet Protocol version 6 — protocolo da Internet versão 6), 128. A mudança de escrita textual não altera o tamanho do endereço. Questão autoral herdada, revisada para comparar as duas versões sem duplicar itens."
+    },
+    {
+      "id": "u026-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na representação decimal pontuada de IPv4, cada octeto pode assumir valores de",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 a 127."
+        },
+        {
+          "id": "B",
+          "text": "0 a 255."
+        },
+        {
+          "id": "C",
+          "text": "1 a 256."
+        },
+        {
+          "id": "D",
+          "text": "0 a 1024."
+        },
+        {
+          "id": "E",
+          "text": "1 a 65535."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Um octeto tem 8 bits, portanto representa 256 valores, de 0 a 255."
+    },
+    {
+      "id": "u026-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na notação de prefixo de rede IPv4, o sufixo /24 indica",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 computadores obrigatórios."
+        },
+        {
+          "id": "B",
+          "text": "24 bits iniciais pertencentes ao prefixo da rede."
+        },
+        {
+          "id": "C",
+          "text": "24 bytes de endereço."
+        },
+        {
+          "id": "D",
+          "text": "24 bits finais pertencentes ao prefixo da rede."
+        },
+        {
+          "id": "E",
+          "text": "um endereço IPv4 inteiro formado por apenas 24 bits."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O número após a barra mede os bits iniciais do prefixo. Não conta computadores nem bytes e não reduz o tamanho total de 32 bits do endereço IPv4 (Internet Protocol version 4 — protocolo da Internet versão 4). No exemplo /24, os 24 bits de rede são iniciais, não finais. Questão autoral herdada, revisada."
+    },
+    {
+      "id": "u026-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual endereço pertence a uma das faixas IPv4 privadas da RFC 1918?",
+      "options": [
+        {
+          "id": "A",
+          "text": "8.8.8.8"
+        },
+        {
+          "id": "B",
+          "text": "192.168.20.10"
+        },
+        {
+          "id": "C",
+          "text": "203.0.113.10"
+        },
+        {
+          "id": "D",
+          "text": "1.1.1.1"
+        },
+        {
+          "id": "E",
+          "text": "224.0.0.1"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "192.168.0.0/16 é uma das três faixas de uso privado em IPv4 (Internet Protocol version 4 — protocolo da Internet versão 4). Os demais endereços listados não pertencem a 10.0.0.0/8, 172.16.0.0/12 ou 192.168.0.0/16. Ser privado não significa ser inválido ou ter conteúdo criptografado."
+    },
+    {
+      "id": "u026-a15",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma rede Wi-Fi, SSID é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a senha obrigatória da rede."
+        },
+        {
+          "id": "B",
+          "text": "o nome lógico que identifica o conjunto/rede sem fio."
+        },
+        {
+          "id": "C",
+          "text": "um endereço IPv6 de 128 bits."
+        },
+        {
+          "id": "D",
+          "text": "o protocolo de roteamento."
+        },
+        {
+          "id": "E",
+          "text": "o endereço MAC da interface do aparelho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "SSID (Service Set Identifier — identificador da rede sem fio) identifica logicamente a rede sem fio. Senha, endereço IP (Internet Protocol — protocolo da Internet), endereço de enlace e protocolo de encaminhamento cumprem outros papéis. Identificar a rede não garante autorização para todo serviço. Questão autoral herdada, revisada."
+    },
+    {
+      "id": "u026-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma rede hipotética com topologia em estrela, sem caminho alternativo entre as estações, a indisponibilidade do comutador central pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "afetar vários ou todos os nós ligados a ele."
+        },
+        {
+          "id": "B",
+          "text": "interromper apenas o acesso externo, preservando todas as trocas locais que dependem dele."
+        },
+        {
+          "id": "C",
+          "text": "ter o mesmo efeito limitado da falha de um único cabo de estação."
+        },
+        {
+          "id": "D",
+          "text": "fazer as estações estabelecerem automaticamente conexões diretas entre si."
+        },
+        {
+          "id": "E",
+          "text": "ser corrigida apenas mudando a configuração do servidor de nomes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As comunicações dependentes do centro podem ser interrompidas. Sem alternativa, o desenho não oferece automaticamente outro caminho. Falha de um cabo de estação tem alcance distinto; configuração de nomes não recupera o encaminhamento do equipamento indisponível. Questão autoral herdada; cenário hipotético, revisado."
+    },
+    {
+      "id": "per-u030-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma situação hipotética permite imprimir na rede local, mas não acessar um sistema em outra rede. A conclusão sustentada apenas por esse indício é",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda a rede está funcionando, pois a impressão respondeu."
+        },
+        {
+          "id": "B",
+          "text": "alguma comunicação local funciona; caminho externo, consulta de nomes e serviço ainda precisam ser examinados."
+        },
+        {
+          "id": "C",
+          "text": "o servidor DNS está necessariamente desligado."
+        },
+        {
+          "id": "D",
+          "text": "a interface física do computador está necessariamente danificada."
+        },
+        {
+          "id": "E",
+          "text": "trocar IPv4 por IPv6 resolverá automaticamente a falha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A impressão mostra funcionamento de uma comunicação local, sem certificar outras etapas. O indício não determina, sozinho, a causa do problema externo. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Numa rede hipotética, um computador envia um pacote a um destino remoto por um roteador local, sem tradução de endereços. No primeiro enlace, a distinção correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "quadro e pacote devem identificar sempre o roteador como destino final do serviço."
+        },
+        {
+          "id": "B",
+          "text": "o quadro precisa conhecer o endereço MAC do servidor distante em qualquer outra rede."
+        },
+        {
+          "id": "C",
+          "text": "o pacote deixa de precisar do endereço remoto quando há um roteador local."
+        },
+        {
+          "id": "D",
+          "text": "o quadro identifica o próximo participante local; o pacote mantém a indicação do destino remoto."
+        },
+        {
+          "id": "E",
+          "text": "o nome da rede sem fio substitui os dois endereços."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O enlace leva os dados ao próximo participante; o encaminhamento do pacote usa o destino da comunicação. Não se exige que um quadro local seja endereçado à interface de um servidor em outro enlace. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um computador hipotético obtém automaticamente endereço IPv4, máscara e endereços de roteadores e servidores de nomes. A função de fornecer essa configuração corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNS."
+        },
+        {
+          "id": "B",
+          "text": "TCP."
+        },
+        {
+          "id": "C",
+          "text": "DHCP."
+        },
+        {
+          "id": "D",
+          "text": "SSID."
+        },
+        {
+          "id": "E",
+          "text": "UDP."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "DHCP (Dynamic Host Configuration Protocol — protocolo de configuração dinâmica de hosts) fornece configuração no cenário IPv4 (Internet Protocol version 4 — protocolo da Internet versão 4). DNS (Domain Name System — sistema de nomes de domínio) consulta informações associadas a nomes; TCP (Transmission Control Protocol — protocolo de controle de transmissão) e UDP (User Datagram Protocol — protocolo de datagramas do usuário) têm funções de transporte, e SSID (Service Set Identifier — identificador da rede sem fio) identifica uma rede sem fio. O fornecimento de configuração não garante que todo serviço remoto esteja disponível. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma consulta hipotética obtém o endereço associado ao nome de um sistema. Isso permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o nome foi resolvido, mas o funcionamento do serviço e do caminho ainda não foi demonstrado."
+        },
+        {
+          "id": "B",
+          "text": "o computador do usuário recebeu necessariamente seu próprio endereço por essa consulta."
+        },
+        {
+          "id": "C",
+          "text": "a aplicação já concluiu sua operação com sucesso."
+        },
+        {
+          "id": "D",
+          "text": "toda comunicação posterior terá conteúdo protegido contra leitura indevida."
+        },
+        {
+          "id": "E",
+          "text": "nenhum roteador será necessário, mesmo que o sistema esteja em outra rede."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "DNS (Domain Name System — sistema de nomes de domínio) pode fornecer o endereço associado ao nome. A resposta não atribui automaticamente a configuração do cliente, nem executa a operação do serviço ou certifica transporte e proteção. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um computador hipotético conhece um destino fora de sua sub-rede e não possui rota mais específica para ele. Qual é o papel do gateway padrão configurado corretamente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consultar nomes para descobrir o endereço do servidor remoto."
+        },
+        {
+          "id": "B",
+          "text": "Entregar o quadro local diretamente à interface do servidor em qualquer rede distante."
+        },
+        {
+          "id": "C",
+          "text": "Ser usado obrigatoriamente também em toda entrega direta na mesma sub-rede."
+        },
+        {
+          "id": "D",
+          "text": "Certificar que existe um caminho completo e que o serviço remoto está disponível."
+        },
+        {
+          "id": "E",
+          "text": "Servir como próximo roteador para encaminhar os dados ao destino."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gateway padrão é o próximo roteador quando não há rota mais específica. Consultar nomes é outra função; a entrega direta na sub-rede não o exige. O quadro local alcança o próximo participante, e conhecer a saída não prova que todo o caminho ou o serviço remoto funcione. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação adequada sobre o serviço oferecido pelo TCP é",
+      "options": [
+        {
+          "id": "A",
+          "text": "garante criptografia do conteúdo de toda aplicação."
+        },
+        {
+          "id": "B",
+          "text": "oferece fluxo confiável e ordenado, usando mecanismos de recuperação de perdas, sem garantir sucesso diante de qualquer falha persistente."
+        },
+        {
+          "id": "C",
+          "text": "dispensa IP e endereços de rede por estabelecer conexão lógica."
+        },
+        {
+          "id": "D",
+          "text": "distribui a máscara e o endereço inicial de cada computador."
+        },
+        {
+          "id": "E",
+          "text": "transforma o caminho em um cabo físico exclusivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A confiabilidade do TCP (Transmission Control Protocol — protocolo de controle de transmissão) diz respeito ao fluxo e à recuperação de perdas. Conexão lógica não elimina endereçamento nem cria cabo exclusivo; garantia de entrega não é garantia de confidencialidade, e uma falha persistente pode impedir a conclusão. Questão autoral."
+    },
+    {
+      "id": "per-u030-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação respeita o alcance das garantias do UDP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nenhuma aplicação que o usa pode implementar confirmação ou recuperação."
+        },
+        {
+          "id": "B",
+          "text": "Todo datagrama enviado será necessariamente perdido."
+        },
+        {
+          "id": "C",
+          "text": "UDP é sempre mais rápido que TCP, independentemente do contexto."
+        },
+        {
+          "id": "D",
+          "text": "UDP não oferece por si garantias de entrega e ordem; outros mecanismos podem acrescentá-las."
+        },
+        {
+          "id": "E",
+          "text": "UDP configura os endereços dos participantes antes de enviar dados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ausência de garantias próprias não impede mecanismos em outros níveis nem significa perda obrigatória. Desempenho depende das condições e da aplicação. Configuração de endereços é outra função. Questão autoral."
+    },
+    {
+      "id": "per-u030-q08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um computador hipotético, vários serviços utilizam o mesmo endereço IP. O elemento de transporte usado para distinguir serviços ou processos na comunicação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o nome lógico da rede sem fio."
+        },
+        {
+          "id": "B",
+          "text": "a máscara que identifica o prefixo da rede."
+        },
+        {
+          "id": "C",
+          "text": "o número de porta."
+        },
+        {
+          "id": "D",
+          "text": "o endereço MAC do próximo participante local."
+        },
+        {
+          "id": "E",
+          "text": "o nome consultado no DNS."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Portas distinguem serviços ou processos no contexto do transporte. A máscara reconhece o prefixo, o endereço MAC (Media Access Control — controle de acesso ao meio) serve ao enlace e os nomes identificam redes ou recursos. Esses elementos não substituem o número de porta. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Num cenário hipotético, o mesmo computador solicita impressão e oferece arquivos a outras máquinas. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ele pode exercer papéis de cliente e servidor em comunicações diferentes."
+        },
+        {
+          "id": "B",
+          "text": "ele deve ser classificado exclusivamente como cliente em todas as comunicações."
+        },
+        {
+          "id": "C",
+          "text": "servidor significa obrigatoriamente um modelo físico especial de computador."
+        },
+        {
+          "id": "D",
+          "text": "ele precisa obrigatoriamente de dois endereços IP, um para cada papel."
+        },
+        {
+          "id": "E",
+          "text": "ele só pode oferecer arquivos no papel de servidor se tiver acesso à Internet."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cliente solicita e servidor oferece um serviço. Os papéis pertencem à comunicação e podem coexistir numa máquina, sem exigir um modelo físico especial ou um endereço distinto por papel. Oferecer arquivos na rede local não exige Internet. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u030-q10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um aparelho hipotético reúne ponto de acesso sem fio, comutador e roteador. A conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "as três funções passam a ser sinônimas porque estão no mesmo gabinete."
+        },
+        {
+          "id": "B",
+          "text": "a conexão sem fio assegura automaticamente acesso a todo serviço externo."
+        },
+        {
+          "id": "C",
+          "text": "todo quadro local precisa usar a função de roteamento, mesmo quando o destino está no mesmo enlace."
+        },
+        {
+          "id": "D",
+          "text": "o nome da rede sem fio determina sozinho quais redes IP o roteador pode alcançar."
+        },
+        {
+          "id": "E",
+          "text": "as funções permanecem distintas, e o funcionamento de uma não certifica todas as outras."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Conectar clientes sem fio, encaminhar no enlace e rotear entre redes são responsabilidades diferentes. Integração física não torna suas condições e efeitos idênticos. Questão autoral; cenário hipotético."
+    }
+  ]
+}
