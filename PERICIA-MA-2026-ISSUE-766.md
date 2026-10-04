@@ -1573,6 +1573,10 @@ Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo 
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/redes-computadores-nocoes/questoes.json` | `546b7b935e8f7f04279d7b1d285898a27da21317` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/redes-computadores-nocoes/referencias.md` | `18654377bd9b9cfe36cce63aa93d076e6b630c32` |
 
+#### Manutenção PER-U017 — formato de questões
+
+Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813a2bb9`: prompt/opções/explanation são inseridos com textContent (linhas138/346/388), portanto HTML seria exibido literalmente. Raiz examinou individualmente os deltas em `q3727`, `q3741`, `q3750`, `q3759`, `q3763`, retirou tags e preservou o significado; nomes institucionais/horas foram escritos por extenso. Demais alterações somente explanation: revisões preservadas; IDs/origin/chaves e composição/conjunto intactos. C/H/R intactos, nenhum doador/infra editado. Inspeção individual F02 subsequente, sem certificar macro ou novas unidades; aceites/totais permanecem30unidades/90C/H/Q/36literais/1231questões. Pacote integral remoto comparado ao texto revisto após correção, escopo exclusivoQ/parent/head confirmados. Q publicado em[`9fb8a74`](https://github.com/insign/concursos/commit/9fb8a74f510f0af66bf4194bba18c1ff3b271ae3), blob`878e85ed6814389480b36ad00b4a78f7e3600b71`, path`src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/questoes.json`; tabelas dos aceites originais permanecem históricas. Sem testes/build/check/CI.
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2530,3 +2534,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U031:** artefatos `6e45c5d055f256a929f6672acefeaef86caf4dd3` confirmados; aceitos neste registro 21 itens, C/H/Q e proveniência 5.11. Totais resultantes: 29/99 unidades, 87/297 C/H/Q, 35/132 referências, 1212 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U030 — Noções de redes de computadores; campanha aberta.
 
 - **PER-U030:** artefatos `8c4926507894997a300358343fc757cedcc626f3` confirmados; aceitos neste registro 19 itens, C/H/Q e proveniência 5.11. Totais resultantes: 30/99 unidades, 90/297 C/H/Q, 36/132 referências, 1231 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U032 — Correio eletrônico; campanha aberta.
+
+- **Manutenção PER-U017:** Q `9fb8a74f510f0af66bf4194bba18c1ff3b271ae3`/`878e85ed6814389480b36ad00b4a78f7e3600b71` corrigido para texto puro e confirmado integralmente; sem mudança de totais/aceites, registro individualF02 em5.11.
