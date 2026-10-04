@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u025-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma servidora usa o mesmo serviço de correio ora pelo navegador, ora por um aplicativo instalado. Assinale a distinção correta entre interface e protocolo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O uso do navegador dispensa o transporte da mensagem entre os serviços de correio."
+        },
+        {
+          "id": "B",
+          "text": "Webmail é uma interface no navegador; os protocolos de correio têm funções próprias no envio e no acesso."
+        },
+        {
+          "id": "C",
+          "text": "A mensagem enviada pelo aplicativo só pode ser aberta por quem usa esse mesmo aplicativo."
+        },
+        {
+          "id": "D",
+          "text": "Webmail e cliente instalado identificam duas caixas necessariamente pertencentes a contas diferentes."
+        },
+        {
+          "id": "E",
+          "text": "Webmail conserva a caixa apenas no navegador, enquanto o cliente instalado a conserva apenas no servidor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A interface permite usar a conta; o transporte e o acesso são funções dos sistemas de correio. A mesma conta pode ser usada por interfaces diferentes, conforme o suporte e a configuração do serviço. Navegador e aplicativo instalado não determinam, por si sós, contas ou destinatários diferentes."
+    },
+    {
+      "id": "u025-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um cliente prepara uma mensagem, envia-a pelo serviço de correio e depois consulta a caixa no servidor por IMAP. Qual sequência distingue corretamente as funções?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preparação na interface → acesso por IMAP para transferir ao destino → SMTP para sincronizar a caixa."
+        },
+        {
+          "id": "B",
+          "text": "Preparação na interface → envio e transferência por SMTP → acesso à caixa por IMAP."
+        },
+        {
+          "id": "C",
+          "text": "Acesso à caixa por SMTP → preparação no servidor do destinatário → transferência por IMAP."
+        },
+        {
+          "id": "D",
+          "text": "Preparação na interface → sincronização por IMAP, que também substitui o transporte entre servidores."
+        },
+        {
+          "id": "E",
+          "text": "Preparação na interface → download por POP3, que envia a mensagem ao destinatário → acesso por SMTP."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O protocolo simples de transferência de correio (SMTP) atua no envio e na transferência; o protocolo de acesso a mensagens da Internet (IMAP) permite acessar e manipular a caixa no servidor. A composição ocorre na interface, antes dessas funções. A consulta a uma caixa não substitui o transporte da mensagem ao serviço de destino."
+    },
+    {
+      "id": "u025-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ana envia uma mensagem a Bruno em Para e a Diana em Cco. Qual efeito esse campo produz na cópia entregue a Bruno?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bruno recebe o texto, mas precisa da autorização de Diana para abrir qualquer anexo."
+        },
+        {
+          "id": "B",
+          "text": "Bruno não vê o endereço de Diana na lista de destinatários dessa cópia; isso não impede encaminhar o conteúdo."
+        },
+        {
+          "id": "C",
+          "text": "Bruno vê o endereço de Diana, mas não consegue incluí-la manualmente em uma resposta."
+        },
+        {
+          "id": "D",
+          "text": "Diana recebe apenas o assunto, enquanto Bruno recebe o corpo e os anexos."
+        },
+        {
+          "id": "E",
+          "text": "Bruno não vê o endereço de Diana e, por esse motivo, o conteúdo fica cifrado para qualquer novo destinatário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O campo de cópia oculta (Cco) esconde o endereço de Diana dos destinatários visíveis, como Bruno; Diana continua recebendo a mensagem. O campo não controla encaminhamentos nem cifra o conteúdo. Ocultar a lista de endereços não restringe automaticamente o uso da mensagem por quem a recebeu."
+    },
+    {
+      "id": "u025-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ana enviou a Bruno em Para, a Carla em Cc e a Diana em Cco. A cópia recebida por Bruno não mostra Diana. Sem Reply-To nem edição da lista, Bruno escolhe “Responder a todos”. Em um cliente que inclui o remetente e os outros destinatários visíveis, a resposta é preparada para",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana e Carla."
+        },
+        {
+          "id": "B",
+          "text": "Ana e Diana."
+        },
+        {
+          "id": "C",
+          "text": "Carla e Diana, excluindo Ana."
+        },
+        {
+          "id": "D",
+          "text": "Ana, Carla e Diana."
+        },
+        {
+          "id": "E",
+          "text": "Ana apenas, pois Carla estava em cópia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O comando inclui Ana, remetente, e Carla, destinatária em cópia visível (Cc). Diana não entra automaticamente porque seu endereço oculto não consta da lista recebida por Bruno. O campo de cópia carbono (Cc) não exclui Carla das respostas coletivas; o destino efetivo deve ser conferido antes do envio."
+    },
+    {
+      "id": "u025-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um relatório foi enviado como anexo incorporado a uma mensagem. Depois, a remetente alterou o arquivo em seu computador. Em outra mensagem, enviou apenas um link para um documento compartilhado. Assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A alteração local atualiza automaticamente o anexo da primeira mensagem, assim como pode atualizar o documento acessado por link."
+        },
+        {
+          "id": "B",
+          "text": "O anexo conserva a cópia enviada; o link permite acessar o recurso externo disponível, conforme as permissões."
+        },
+        {
+          "id": "C",
+          "text": "O anexo depende da permissão atual do Google Drive, mesmo que tenha sido incorporado diretamente à mensagem."
+        },
+        {
+          "id": "D",
+          "text": "Receber um link concede automaticamente permissão para editar o documento indicado."
+        },
+        {
+          "id": "E",
+          "text": "O link é convertido em uma cópia incorporada sempre que o destinatário abre o e-mail."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O arquivo incorporado integra a mensagem enviada; editar depois o arquivo de origem não atualiza esse anexo. O link aponta para outro recurso, que precisa estar disponível e autorizado ao destinatário. A entrega do e-mail com o link não concede automaticamente permissão de acesso ou edição."
+    },
+    {
+      "id": "u025-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma mensagem organiza texto e arquivo em partes descritas por MIME. Sobre esse recurso, é correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a descrição do tipo de conteúdo comprova que o arquivo veio de uma pessoa identificada."
+        },
+        {
+          "id": "B",
+          "text": "as várias partes da mensagem permanecem cifradas apenas porque o recurso foi utilizado."
+        },
+        {
+          "id": "C",
+          "text": "a representação do conteúdo não comprova, por si só, autenticidade nem confidencialidade."
+        },
+        {
+          "id": "D",
+          "text": "a organização em partes transfere as mensagens entre servidores, substituindo SMTP."
+        },
+        {
+          "id": "E",
+          "text": "a indicação de tipo de conteúdo elimina a necessidade de um programa capaz de abrir o arquivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As extensões de correio para múltiplos tipos de conteúdo (MIME) permitem representar tipos de conteúdo e várias partes em uma mensagem. Essa função de formato não comprova a origem do arquivo nem cifra seu conteúdo por si só. Também não substitui o transporte de correio ou o programa que interpreta o arquivo."
+    },
+    {
+      "id": "u025-a13",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa pretende enviar vários arquivos por e-mail. Sobre limites de anexos, a providência adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "verificar apenas o tamanho de cada arquivo, pois serviços não limitam o total da mensagem."
+        },
+        {
+          "id": "B",
+          "text": "verificar apenas o serviço do remetente, pois o destinatário precisa aceitar tudo o que ele envia."
+        },
+        {
+          "id": "C",
+          "text": "verificar os limites aplicáveis à conta, à mensagem ou ao conjunto de anexos e considerar restrições do destino."
+        },
+        {
+          "id": "D",
+          "text": "considerar o tamanho indicado por qualquer provedor como limite geral de todo correio eletrônico."
+        },
+        {
+          "id": "E",
+          "text": "mover os endereços de Para para Cco, pois isso reduz o tamanho dos arquivos anexados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os critérios e limites variam por serviço, conta e política. Podem incidir sobre anexos individuais, conjunto de arquivos ou mensagem completa; o destino também pode restringir recebimento. Um valor de um produto não define um limite universal, e mudar destinatários para cópia oculta não reduz o conteúdo dos arquivos."
+    },
+    {
+      "id": "u025-a14",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma mensagem permanece em Rascunhos; outra está na Caixa de saída porque o cliente aguarda conexão para transmiti-la. A distinção correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira ainda está em preparação; a segunda está preparada para envio, mas pendente."
+        },
+        {
+          "id": "B",
+          "text": "a primeira aguarda conexão para envio automático; a segunda permanece em edição até que o usuário escolha enviar."
+        },
+        {
+          "id": "C",
+          "text": "a primeira ainda pode ser editada; a segunda já comprova entrega final porque saiu da etapa de rascunho."
+        },
+        {
+          "id": "D",
+          "text": "a primeira conserva uma cópia de envio concluído; a segunda ainda não foi preparada para transmissão."
+        },
+        {
+          "id": "E",
+          "text": "a primeira indica recebimento sem resposta; a segunda aguarda confirmação de leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Rascunhos guardam mensagens em preparação; a Caixa de saída normalmente reúne envios pendentes. O caso descreve essas condições expressamente. Estar guardada no cliente não comprova transmissão, entrega ou leitura, e uma pendência de conexão não é necessariamente uma falha definitiva."
+    },
+    {
+      "id": "u025-a15",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma mensagem aparece em Enviados, mas o destinatário afirma não tê-la encontrado. O que esse registro permite concluir?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O serviço de destino recebeu a mensagem, pois a pasta registra sempre a conclusão da entrega final."
+        },
+        {
+          "id": "B",
+          "text": "A interface registrou a mensagem como enviada; isso não comprova entrega final nem leitura pelo destinatário."
+        },
+        {
+          "id": "C",
+          "text": "O destinatário recebeu os anexos, embora o registro não comprove que abriu o corpo."
+        },
+        {
+          "id": "D",
+          "text": "O destinatário apagou a mensagem, pois esse é o único motivo para ela não aparecer na entrada."
+        },
+        {
+          "id": "E",
+          "text": "O destinatário marcou a mensagem como não lida, porque esse estado é comunicado automaticamente ao remetente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Enviados conserva a cópia registrada como enviada pela interface. Isso não comprova entrega final, leitura ou compreensão. Podem ocorrer atrasos ou falhas posteriores; o relato do destinatário também não permite deduzir, sozinho, que ele apagou a mensagem."
+    },
+    {
+      "id": "u025-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre IMAP e POP3, considerando clientes e serviços compatíveis, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Baixar por POP3 remove obrigatoriamente a mensagem do servidor em qualquer configuração."
+        },
+        {
+          "id": "B",
+          "text": "IMAP permite manipular e sincronizar a caixa no servidor; POP3 é orientado a recuperar mensagens por download."
+        },
+        {
+          "id": "C",
+          "text": "IMAP dispensa conexão para que toda alteração local apareça imediatamente em outros dispositivos."
+        },
+        {
+          "id": "D",
+          "text": "Conservar cópias no servidor em POP3 garante sincronização de pastas e marcas de leitura igual à de IMAP."
+        },
+        {
+          "id": "E",
+          "text": "Usar IMAP impede o cliente de manter qualquer cópia local de uma mensagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O protocolo de acesso a mensagens da Internet (IMAP) permite manipular a caixa no servidor e sincronizar alterações compatíveis; pode coexistir com cópias locais. O protocolo de recuperação de correio, versão 3 (POP3), é orientado à recuperação por download. A permanência no servidor depende das condições, e manter cópias remotas não transforma esse protocolo em sincronização de pastas e marcas."
+    },
+    {
+      "id": "u025-p03",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Analise as afirmações: I. Os destinatários em Cc ficam invisíveis aos destinatários de Para. II. Os endereços inseridos em Cco não são apresentados aos destinatários de Para e de Cc. III. Antes de enviar anexos, é adequado verificar o tamanho dos arquivos e os limites do serviço. Está correto o que se afirma em",
+      "options": [
+        {
+          "id": "A",
+          "text": "I, apenas."
+        },
+        {
+          "id": "B",
+          "text": "II, apenas."
+        },
+        {
+          "id": "C",
+          "text": "III, apenas."
+        },
+        {
+          "id": "D",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II e III."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adaptação não literal da questão 54 da Fundação Getulio Vargas, Polícia Militar do Estado de São Paulo, Soldado de 2ª Classe, Tipo 1, aplicada em 21/07/2024. I é falsa: a cópia carbono (Cc) integra a lista visível. II e III são verdadeiras nesta adaptação. No original, II afirmava que todos viam os destinatários ocultos, por isso o gabarito oficial foi C, apenas III; a afirmação II foi alterada e o gabarito local é D. Caderno e gabarito definitivo estão identificados nas referências."
+    },
+    {
+      "id": "peru032-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No endereço hipotético ana@exemplo.org, qual leitura corresponde à estrutura apresentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ana é uma senha; exemplo.org é o programa que abre a caixa."
+        },
+        {
+          "id": "B",
+          "text": "ana é o domínio; exemplo.org é a parte local do endereço."
+        },
+        {
+          "id": "C",
+          "text": "O endereço identifica obrigatoriamente uma página de navegação da Web."
+        },
+        {
+          "id": "D",
+          "text": "ana é a parte local, interpretada pelo serviço do domínio; exemplo.org é o domínio."
+        },
+        {
+          "id": "E",
+          "text": "ana identifica um computador que deve permanecer ligado para que a caixa receba mensagens."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O endereço simples reúne parte local e domínio, separados por @. O significado da parte local é definido pelo serviço do domínio. A caixa não é identificada por uma senha no endereço, nem o endereço exige que o computador pessoal do usuário permaneça conectado."
+    },
+    {
+      "id": "peru032-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mensagem apresenta De: ana@exemplo.org e Reply-To: atendimento@exemplo.org. Sem editar a lista, o cliente usa o endereço indicado para respostas. Ao escolher “Responder”, o destino preparado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ana@exemplo.org, pois Reply-To só afeta anexos."
+        },
+        {
+          "id": "B",
+          "text": "atendimento@exemplo.org."
+        },
+        {
+          "id": "C",
+          "text": "todos os destinatários em Para, independentemente da opção escolhida."
+        },
+        {
+          "id": "D",
+          "text": "o próprio endereço de quem responde, pois se trata de uma nova mensagem."
+        },
+        {
+          "id": "E",
+          "text": "os dois endereços obrigatoriamente, mesmo sem “Responder a todos”."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reply-To indica o endereço sugerido para as respostas. O enunciado estabelece que o cliente o utiliza, então a resposta é preparada para atendimento@exemplo.org. O campo não inclui necessariamente os dois endereços nem transforma “Responder” em uma resposta coletiva."
+    },
+    {
+      "id": "peru032-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Diana recebeu uma mensagem em Cco. Seu endereço não aparecia nas cópias entregues aos destinatários visíveis. Ela responde a todos e a nova mensagem mostra seu endereço como remetente. Qual conclusão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A participação de Diana continua necessariamente oculta porque a mensagem anterior usou Cco."
+        },
+        {
+          "id": "B",
+          "text": "Os destinatários visíveis já tinham visto Diana na lista original, mesmo que sua cópia não a mostrasse."
+        },
+        {
+          "id": "C",
+          "text": "A resposta só pode ser entregue ao remetente original, qualquer que seja a lista preparada."
+        },
+        {
+          "id": "D",
+          "text": "A participação de Diana pode ser revelada por sua própria resposta; a ocultação da lista anterior não impede isso."
+        },
+        {
+          "id": "E",
+          "text": "O programa transforma automaticamente todos os destinatários visíveis em cópias ocultas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O campo de cópia oculta (Cco) esconde a presença de Diana na lista entregue aos destinatários visíveis da mensagem original. Se ela envia outra mensagem mostrando seu endereço como remetente, pode revelar sua participação. A ocultação anterior não é um controle de anonimato permanente nem impõe os destinatários da nova resposta."
+    },
+    {
+      "id": "peru032-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Gmail, uma pessoa deseja retirar da Caixa de entrada uma mensagem recebida e continuar podendo encontrá-la em “Todos os e-mails”. A ação pertinente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir definitivamente a mensagem."
+        },
+        {
+          "id": "B",
+          "text": "marcar a mensagem como não lida."
+        },
+        {
+          "id": "C",
+          "text": "arquivar a mensagem."
+        },
+        {
+          "id": "D",
+          "text": "mover a mensagem para Enviados."
+        },
+        {
+          "id": "E",
+          "text": "encaminhar a mensagem ao remetente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No Gmail, arquivar retira a mensagem da entrada e a conserva em “Todos os e-mails”. Marcar como não lida muda seu estado, sem executar esse arquivamento; Enviados se refere a cópias de envio, e excluir definitivamente não atende ao objetivo de conservação."
+    },
+    {
+      "id": "peru032-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma servidora quer primeiro localizar mensagens já recebidas de um remetente e, depois, configurar uma ação automática de organização para mensagens que atendam a esse critério. Qual combinação corresponde às duas tarefas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pesquisar pelo remetente e marcar os resultados como lidos, o que também classifica automaticamente as próximas mensagens."
+        },
+        {
+          "id": "B",
+          "text": "Criar uma pasta com o nome do remetente, sem definir critério e ação, para que o serviço passe a mover suas mensagens."
+        },
+        {
+          "id": "C",
+          "text": "Aplicar uma classificação manual às mensagens encontradas, que por si só estabelece uma regra para as futuras."
+        },
+        {
+          "id": "D",
+          "text": "Pesquisar pelo remetente e criar uma regra ou filtro com critério e ação."
+        },
+        {
+          "id": "E",
+          "text": "Pesquisar pelo remetente e salvar apenas o texto da pesquisa, sem configurar a ação desejada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pesquisa localiza mensagens por critérios. Uma regra ou filtro associa esses critérios a uma ação, como classificar ou arquivar. Pesquisar não cria automaticamente essa regra; as demais operações não fazem a combinação de localização e organização automática descrita."
+    }
+  ]
+}
