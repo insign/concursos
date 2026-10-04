@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "u053-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um programa exige direitos e vantagens dos agentes públicos, mas não nomeia estatuto. Para analisar um prazo de licença, qual é o procedimento adequado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplicar a Lei nº 8.112/1990, porque seus prazos são obrigatórios para os servidores de todos os entes."
+        },
+        {
+          "id": "B",
+          "text": "Aplicar a Lei nº 6.107/1994 a todo agente público que trabalhe fisicamente no Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "Identificar o vínculo e a norma aplicável antes de transportar o prazo de um estatuto."
+        },
+        {
+          "id": "D",
+          "text": "Aplicar o prazo da lei federal e os efeitos remuneratórios da lei estadual, independentemente do vínculo."
+        },
+        {
+          "id": "E",
+          "text": "Escolher o estatuto que concede o prazo mais favorável, ainda que não seja aplicável ao agente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O vínculo e a fonte normativa delimitam os direitos. A Lei nº 8.112/1990 tem âmbito federal; a Lei nº 6.107/1994 é um estatuto maranhense. Local de trabalho, presença de uma lei em material didático e maior vantagem não substituem a identificação do regime. O programa que não nomeia estatuto não autoriza mesclar regras de regimes diferentes."
+    },
+    {
+      "id": "per-u042-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao comparar literalmente as definições de remuneração do art. 41 da Lei nº 8.112/1990 e do art. 48 da Lei nº 6.107/1994, assinale a afirmação correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A lei federal inclui vantagens permanentes ou temporárias, enquanto a estadual inclui apenas permanentes."
+        },
+        {
+          "id": "B",
+          "text": "A lei federal inclui vantagens permanentes; a estadual inclui vantagens permanentes ou temporárias."
+        },
+        {
+          "id": "C",
+          "text": "As duas definições incluem exclusivamente o vencimento básico, sem vantagens."
+        },
+        {
+          "id": "D",
+          "text": "As duas definições incluem apenas as indenizações por despesas de serviço."
+        },
+        {
+          "id": "E",
+          "text": "A inclusão de uma vantagem temporária na definição estadual autoriza sua incorporação automática."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 41 federal define remuneração como vencimento efetivo mais vantagens pecuniárias permanentes legais. O art. 48 maranhense inclui permanentes ou temporárias. A composição da remuneração enquanto a parcela é devida não se confunde com sua incorporação: esta depende de base jurídica compatível com a Constituição, que veda a incorporação de vantagens temporárias nas condições do art. 39, § 9º."
+    },
+    {
+      "id": "per-u042-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma servidora explica que seu vencimento é diferente do total bruto de parcelas e do valor líquido recebido. Qual distinção é juridicamente adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vencimento é o valor líquido depois dos descontos; remuneração é exclusivamente a indenização recebida."
+        },
+        {
+          "id": "B",
+          "text": "Vencimento corresponde à soma de todas as parcelas da folha, inclusive diárias."
+        },
+        {
+          "id": "C",
+          "text": "Vencimento é o valor do teto constitucional, independentemente da lei do cargo."
+        },
+        {
+          "id": "D",
+          "text": "Vencimento é a retribuição básica legal do cargo; a composição da remuneração deve ser identificada na norma aplicável."
+        },
+        {
+          "id": "E",
+          "text": "Vencimento é uma vantagem temporária que se converte em subsídio após o pagamento reiterado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vencimento é a retribuição básica do cargo, fixada em lei. Remuneração pode compor vencimento e vantagens segundo a definição da norma indicada. O valor líquido resulta dos descontos e não define esses conceitos; o teto é um limite e não o vencimento de todo cargo."
+    },
+    {
+      "id": "per-u042-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito do subsídio previsto no art. 39 da Constituição, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É parcela única, obrigatória para as categorias enumeradas no § 4º e possível para servidores organizados em carreira nos termos do § 8º."
+        },
+        {
+          "id": "B",
+          "text": "É necessariamente recebido por todos os agentes públicos, independentemente do vínculo."
+        },
+        {
+          "id": "C",
+          "text": "É a soma automática do vencimento com todas as gratificações que existam em qualquer estatuto."
+        },
+        {
+          "id": "D",
+          "text": "Seu caráter de parcela única autoriza acrescentar livremente gratificações remuneratórias por decisão do chefe."
+        },
+        {
+          "id": "E",
+          "text": "Seu caráter de parcela única dispensa examinar a natureza e a base legal de qualquer outra prestação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição determina o subsídio em parcela única para membros de Poder, detentores de mandato eletivo, Ministros de Estado e Secretários estaduais e municipais. Também permite esse modelo para servidores organizados em carreira. A parcela única limita acréscimos remuneratórios; prestações de natureza distinta precisam ser examinadas por seu fundamento. Não se presume que todo agente ou toda carreira receba subsídio."
+    },
+    {
+      "id": "per-u042-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos exemplos das Leis nº 8.112/1990 e nº 6.107/1994, qual associação distingue adequadamente duas indenizações?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diária: instalação por mudança permanente de domicílio; ajuda de custo: qualquer deslocamento temporário."
+        },
+        {
+          "id": "B",
+          "text": "Diária: deslocamento temporário a serviço; ajuda de custo: qualquer mudança de residência por escolha pessoal."
+        },
+        {
+          "id": "C",
+          "text": "Diária: deslocamento temporário a serviço e incorporação após pagamento reiterado; ajuda de custo: instalação permanente."
+        },
+        {
+          "id": "D",
+          "text": "Diária: qualquer viagem pessoal; ajuda de custo: mudança de residência sem relação com o serviço."
+        },
+        {
+          "id": "E",
+          "text": "Diária: deslocamento temporário a serviço; ajuda de custo: instalação em mudança permanente de sede, com mudança de domicílio, no interesse do serviço."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A diária compensa despesas nas condições do deslocamento temporário a serviço. A ajuda de custo relaciona-se à instalação na mudança permanente de sede, com mudança de domicílio, no interesse do serviço. Deslocamento pessoal, assiduidade e trabalho noturno têm causas diferentes e não produzem automaticamente essas indenizações."
+    },
+    {
+      "id": "u109-a09",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 65 da Lei maranhense nº 6.107/1994, um servidor recebeu diárias para deslocamento a serviço, mas não se afastou da sede. Em que prazo deve restituí-las?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Em um dia."
+        },
+        {
+          "id": "B",
+          "text": "Em trinta dias."
+        },
+        {
+          "id": "C",
+          "text": "Em dez dias."
+        },
+        {
+          "id": "D",
+          "text": "Em cinco dias."
+        },
+        {
+          "id": "E",
+          "text": "Em quinze dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 65 da Lei nº 6.107/1994 exige restituição integral em cinco dias quando o servidor recebe diárias e não se afasta da sede por qualquer motivo. A diária compensa o deslocamento nas condições legais; a viagem não realizada não gera direito de conservar o adiantamento."
+    },
+    {
+      "id": "per-u042-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma servidora, já sob a regra atual do art. 39, § 9º, da Constituição, passou a exercer função de confiança e recebeu a vantagem ligada a esse exercício. Encerrada a função, ela pede que essa vantagem seja incorporada à remuneração do cargo efetivo apenas porque foi paga por vários anos. Qual conclusão decorre da regra constitucional indicada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O pagamento por vários anos transforma automaticamente qualquer vantagem em vencimento."
+        },
+        {
+          "id": "B",
+          "text": "A incorporação é obrigatória quando o valor da parcela não ultrapassa o teto."
+        },
+        {
+          "id": "C",
+          "text": "A incorporação é vedada pela regra indicada; a repetição do pagamento não elimina sua vinculação à função de confiança."
+        },
+        {
+          "id": "D",
+          "text": "A autoridade pode autorizar a incorporação por regulamento, dispensando a Constituição."
+        },
+        {
+          "id": "E",
+          "text": "A incorporação depende apenas de a vantagem aparecer no demonstrativo como gratificação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 39, § 9º, veda incorporar vantagens temporárias ou vinculadas a função de confiança ou cargo em comissão à remuneração do cargo efetivo. O caso delimita a incidência da regra atual, sem pedir solução para situações históricas. Duração do pagamento, valor inferior ao teto e nome da rubrica não afastam essa vedação."
+    },
+    {
+      "id": "per-u042-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime da Lei nº 8.112/1990, foi eliminada a condição de risco que justificava o adicional de periculosidade de um servidor. Sem outra causa legal para o pagamento, o que dispõe o art. 68, § 2º?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O adicional permanece enquanto o servidor continuar com o mesmo título de cargo, ainda que a exposição termine."
+        },
+        {
+          "id": "B",
+          "text": "O direito ao adicional cessa com a eliminação da condição ou do risco que causou sua concessão."
+        },
+        {
+          "id": "C",
+          "text": "O adicional permanece porque todo pagamento é protegido como parcela incondicionada."
+        },
+        {
+          "id": "D",
+          "text": "O adicional deve ser mantido porque o encerramento do risco equivale sempre a redução proibida de vencimento."
+        },
+        {
+          "id": "E",
+          "text": "O adicional só cessa se o servidor concordar formalmente com a retirada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 68, § 2º, vincula a duração do direito à permanência das condições ou dos riscos que justificaram o adicional de insalubridade ou periculosidade. A irredutibilidade não converte uma parcela condicionada em prestação eterna quando sua causa legal termina."
+    },
+    {
+      "id": "per-u042-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um dirigente pretende elevar vencimentos de servidores apenas por ato administrativo, alegando que se trata de revisão geral anual. À luz do art. 37, X, da Constituição, qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A revisão geral anual autoriza qualquer índice definido pelo dirigente, sem lei."
+        },
+        {
+          "id": "B",
+          "text": "A lei é exigida apenas para o primeiro vencimento, mas não para alterações posteriores."
+        },
+        {
+          "id": "C",
+          "text": "O ato é suficiente se o aumento ficar abaixo do teto constitucional."
+        },
+        {
+          "id": "D",
+          "text": "A fixação ou alteração exige lei específica, observada a iniciativa privativa; a revisão anual não fornece índice livre para aplicação administrativa."
+        },
+        {
+          "id": "E",
+          "text": "A comparação com a remuneração de outra carreira substitui a lei específica."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 37, X, exige lei específica para fixar ou alterar remuneração e subsídio, com a iniciativa privativa pertinente, e assegura revisão geral anual na mesma data e sem distinção de índices. Essa previsão não autoriza o dirigente a escolher e aplicar aumento sem a lei exigida. O teto limita pagamentos, mas não dispensa o fundamento para alterá-los."
+    },
+    {
+      "id": "per-u042-q08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a relação entre indenizações e teto, considere o texto permanente do art. 37, § 11, e a transição do art. 3º da Emenda Constitucional nº 135/2024. Qual leitura preserva ambas as regras?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A regra permanente exige lei ordinária nacional nas condições constitucionais; enquanto essa lei não for editada, a emenda prevê exclusão das parcelas de caráter indenizatório previstas na legislação."
+        },
+        {
+          "id": "B",
+          "text": "A nova redação eliminou a transição e exige lei nacional mesmo durante a hipótese transitória descrita na emenda."
+        },
+        {
+          "id": "C",
+          "text": "Qualquer pagamento chamado indenização é excluído, ainda que não tenha caráter indenizatório nem previsão na legislação."
+        },
+        {
+          "id": "D",
+          "text": "A transição exclui todas as gratificações e adicionais remuneratórios, independentemente de sua natureza."
+        },
+        {
+          "id": "E",
+          "text": "O teto é o valor mínimo que deve ser pago a todo servidor, inclusive durante a transição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Emenda Constitucional nº 135/2024 alterou a regra permanente e incluiu, em seu art. 3º, uma transição expressa enquanto não editada a lei nacional. A questão é condicional e não afirma a inexistência de lei superveniente por resultado de busca. A natureza indenizatória e a previsão normativa continuam relevantes; o nome da rubrica não transforma remuneração em indenização."
+    },
+    {
+      "id": "per-u042-q09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor sustenta que o art. 39, § 3º, da Constituição estende aos ocupantes de cargo público todos os direitos do art. 7º, inclusive o adicional de insalubridade apenas por essa remissão. Assinale a análise correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A remissão estende todos os incisos do art. 7º, sem necessidade de ler a lista."
+        },
+        {
+          "id": "B",
+          "text": "A ausência de um direito na remissão impede que qualquer estatuto o preveja."
+        },
+        {
+          "id": "C",
+          "text": "A remissão abrange apenas direitos políticos, sem direitos relacionados ao trabalho."
+        },
+        {
+          "id": "D",
+          "text": "A remissão dispensa identificar se a pessoa ocupa cargo público."
+        },
+        {
+          "id": "E",
+          "text": "A remissão seleciona incisos; o adicional citado não entra por essa remissão, mas pode ter fundamento no regime aplicável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 39, § 3º, enumera os incisos aplicáveis aos ocupantes de cargo público. Não remete integralmente ao art. 7º e não inclui ali o inciso XXIII, relativo ao adicional de atividades insalubres, perigosas ou penosas. Isso não exclui previsão estatutária própria, como o art. 68 da Lei nº 8.112/1990."
+    },
+    {
+      "id": "per-u042-q10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para um ocupante de cargo público abrangido pelo art. 39, § 3º, a hora normal considerada em um exemplo é de R$ 20. Sem regra mais favorável, qual remuneração da hora extraordinária atende exatamente ao mínimo constitucional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 25."
+        },
+        {
+          "id": "B",
+          "text": "R$ 26,67."
+        },
+        {
+          "id": "C",
+          "text": "R$ 30."
+        },
+        {
+          "id": "D",
+          "text": "R$ 40."
+        },
+        {
+          "id": "E",
+          "text": "R$ 10."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O serviço extraordinário deve ter remuneração superior em, no mínimo, 50% à normal. Metade de R$ 20 é R$ 10; somada à hora normal, resulta em R$ 30. R$ 40 supera o mínimo, mas não corresponde exatamente a ele. Um terço e 25% se relacionam a outras regras e não substituem esse mínimo."
+    },
+    {
+      "id": "per-u042-q11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um exemplo de férias de um ocupante de cargo público, o valor normal de referência do período é R$ 3.000. Considerando apenas o adicional no mínimo constitucional, qual é o valor normal acrescido desse adicional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 1.000."
+        },
+        {
+          "id": "B",
+          "text": "R$ 4.000."
+        },
+        {
+          "id": "C",
+          "text": "R$ 3.300."
+        },
+        {
+          "id": "D",
+          "text": "R$ 4.500."
+        },
+        {
+          "id": "E",
+          "text": "R$ 6.000."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição assegura férias remuneradas com pelo menos um terço a mais. Um terço de R$ 3.000 é R$ 1.000; o total considerado é R$ 4.000. R$ 1.000 é apenas o adicional, não o valor acrescido dele. O exemplo isola esse cálculo e não define outras parcelas ou descontos de uma folha real."
+    },
+    {
+      "id": "u100-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 75 da Lei nº 8.112/1990, qual combinação descreve o serviço noturno e sua remuneração?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entre 22 horas e 5 horas, acréscimo de 25% no valor-hora e hora computada como 52 minutos e 30 segundos."
+        },
+        {
+          "id": "B",
+          "text": "Entre 22 horas e 5 horas, acréscimo de 50% no valor-hora e hora computada como 60 minutos."
+        },
+        {
+          "id": "C",
+          "text": "Entre 20 horas e 6 horas, acréscimo de 25% no valor-hora e hora computada como 52 minutos e 30 segundos."
+        },
+        {
+          "id": "D",
+          "text": "Entre 22 horas e 5 horas, acréscimo de 25% no valor-hora e hora computada como 60 minutos."
+        },
+        {
+          "id": "E",
+          "text": "Entre 23 horas e 5 horas, acréscimo de um terço no valor-hora e hora computada como 52 minutos e 30 segundos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 75 federal fixa o intervalo de 22 horas a 5 horas, o acréscimo de 25% e a contagem de cada hora como 52 minutos e 30 segundos. A Constituição assegura remuneração noturna superior à diurna, mas não fornece ali esses números estatutários. Os 50% se relacionam ao serviço extraordinário e um terço ao adicional constitucional de férias."
+    },
+    {
+      "id": "per-u042-q12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma servidora sujeita à Lei nº 8.112/1990 pretende descontar das férias algumas faltas anteriores e escolher seu descanso sem observar as regras de concessão. Qual afirmação descreve o regime geral do art. 77?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As férias existem exclusivamente para compensar faltas e não têm período de aquisição."
+        },
+        {
+          "id": "B",
+          "text": "O primeiro período é adquirido após seis meses, e faltas podem ser debitadas dele."
+        },
+        {
+          "id": "C",
+          "text": "O primeiro período independe de tempo de exercício, porque o direito constitucional impede requisitos estatutários de aquisição."
+        },
+        {
+          "id": "D",
+          "text": "A regra é de 30 dias, o primeiro período exige 12 meses de exercício e é vedado levar faltas à conta de férias."
+        },
+        {
+          "id": "E",
+          "text": "Todo período deve ser fracionado obrigatoriamente em três etapas escolhidas unilateralmente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 77 prevê, como regra, 30 dias de férias e exige 12 meses de exercício para o primeiro período. Proíbe levar faltas à conta de férias. O parcelamento em até três etapas depende de requerimento e interesse da Administração; não é fracionamento obrigatório ou decisão unilateral. Descanso periódico não se confunde com licença por uma causa específica."
+    },
+    {
+      "id": "u100-a12",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 97 da Lei nº 8.112/1990, qual hipótese e prazo de ausência sem prejuízo correspondem à regra legal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dois dias consecutivos por casamento."
+        },
+        {
+          "id": "B",
+          "text": "Oito dias consecutivos por casamento."
+        },
+        {
+          "id": "C",
+          "text": "Oito dias para doação de sangue."
+        },
+        {
+          "id": "D",
+          "text": "Três dias para doação de sangue."
+        },
+        {
+          "id": "E",
+          "text": "Cinco dias consecutivos por casamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 97 federal concede oito dias consecutivos em razão de casamento e um dia para doação de sangue. Trata-se de concessão legal pontual, não de escolha livre de prazo ou de licença para todo compromisso pessoal. As demais alternativas trocam os prazos das hipóteses indicadas."
+    },
+    {
+      "id": "per-u042-q13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um ocupante de cargo efetivo federal, fora do estágio probatório, pede licença para interesses particulares com base no art. 91 da Lei nº 8.112/1990. Qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O pedido torna a concessão obrigatória e assegura remuneração integral."
+        },
+        {
+          "id": "B",
+          "text": "A licença é remunerada por até três meses para capacitação, independentemente de sua finalidade."
+        },
+        {
+          "id": "C",
+          "text": "O art. 91 admite concessão a critério da Administração, por até três anos consecutivos, sem remuneração."
+        },
+        {
+          "id": "D",
+          "text": "A existência de uma prorrogação em estatuto estadual autoriza sua aplicação automática ao caso federal."
+        },
+        {
+          "id": "E",
+          "text": "O servidor pode deixar de trabalhar antes de obter a concessão apenas porque formulou o pedido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 91 disciplina licença para interesses particulares, a critério da Administração, para ocupante de cargo efetivo que não esteja em estágio probatório, por até três anos consecutivos e sem remuneração. Não se confunde com licença para capacitação. O pedido não basta para autorizar ausência, e regras de outro estatuto não são transportadas automaticamente."
+    },
+    {
+      "id": "per-u042-q14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exemplo federal da licença por doença em pessoa da família, qual condição se relaciona à necessidade da presença do servidor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A assistência direta deve ser indispensável e incompatível com o exercício do cargo ou com compensação de horário, nos termos legais."
+        },
+        {
+          "id": "B",
+          "text": "Basta qualquer parentesco, mesmo que a assistência direta seja dispensável."
+        },
+        {
+          "id": "C",
+          "text": "A mera preferência por acompanhar a pessoa dispensa a comprovação prevista em lei."
+        },
+        {
+          "id": "D",
+          "text": "Toda doença familiar autoriza ausência remunerada por tempo indeterminado."
+        },
+        {
+          "id": "E",
+          "text": "O servidor deve converter compulsoriamente suas férias em licença antes de qualquer avaliação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 83 da Lei nº 8.112/1990 condiciona a licença à comprovação legal e à indispensabilidade da assistência direta, que não pode ser prestada simultaneamente com o exercício do cargo ou mediante compensação de horário. A norma também diferencia períodos com e sem remuneração. Parentesco ou preferência pessoal não afastam os requisitos."
+    },
+    {
+      "id": "per-u042-q15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa compara a licença para capacitação federal com a licença-prêmio por assiduidade maranhense. Qual conclusão preserva a diferença entre seus mecanismos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A semelhança de duração torna ambas intercambiáveis em qualquer regime."
+        },
+        {
+          "id": "B",
+          "text": "O quinquênio permite exigir a licença federal para capacitação sem examinar o interesse da Administração."
+        },
+        {
+          "id": "C",
+          "text": "A finalidade de capacitação federal e a assiduidade estadual autorizam acumular automaticamente seus períodos no mesmo vínculo."
+        },
+        {
+          "id": "D",
+          "text": "A existência de cinco anos em ambas torna dispensável a leitura dos demais requisitos."
+        },
+        {
+          "id": "E",
+          "text": "A licença federal tem finalidade de capacitação e interesse da Administração; a estadual se relaciona à assiduidade e às condições próprias do estatuto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 8.112/1990, art. 87, prevê licença para capacitação, após cada quinquênio, período de cinco anos, de efetivo exercício, no interesse da Administração, com períodos não acumuláveis. O art. 145 da Lei nº 6.107/1994 trata de prêmio por assiduidade após quinquênio ininterrupto e demais condições estaduais. Duração semelhante não iguala finalidade, requisitos ou regime."
+    },
+    {
+      "id": "u109-p01",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 28 do caderno 373_SSPMA_APC_002_01, Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Investigador de Polícia do Maranhão, aplicada em 28 de janeiro de 2018, considere a Lei nº 6.107/1994. I. O estatuto não admite licença para interesses particulares. II. A licença da mesma espécie concedida dentro de sessenta dias do término da anterior é considerada prorrogação, desde que o servidor não retorne às atividades. III. A licença para acompanhar cônjuge ou companheiro está entre as exceções ao limite geral de vinte e quatro meses para licença da mesma espécie. Assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas a assertiva I está correta."
+        },
+        {
+          "id": "B",
+          "text": "Apenas a assertiva II está correta."
+        },
+        {
+          "id": "C",
+          "text": "Apenas as assertivas I e III estão corretas."
+        },
+        {
+          "id": "D",
+          "text": "Apenas as assertivas II e III estão corretas."
+        },
+        {
+          "id": "E",
+          "text": "Todas as assertivas estão corretas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A assertiva I é falsa: a licença para interesses particulares está prevista no art. 151. A II reproduz a condição de prorrogação do art. 122, incluindo a ausência de retorno às atividades. A III corresponde à exceção do art. 118, § 2º, para o acompanhamento de cônjuge ou companheiro; o art. 142, § 2º, prevê licença por prazo indeterminado e sem vencimento e vantagens na hipótese ali tratada. O caderno e o gabarito definitivo oficiais do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, referentes ao Cargo 2, tipo 373_SSPMA_APC_002_01, confirmam a resposta D da questão 28. A adaptação preserva as duas assertivas corretas."
+    },
+    {
+      "id": "per-u042-q16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma ausência legal foi remunerada. Sem informação sobre o dispositivo que disciplina a contagem do período, qual conclusão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo período remunerado conta automaticamente para qualquer efeito funcional."
+        },
+        {
+          "id": "B",
+          "text": "O pagamento, a contagem como efetivo exercício e os efeitos previdenciários devem ser examinados separadamente na norma aplicável."
+        },
+        {
+          "id": "C",
+          "text": "Toda licença, remunerada ou não, extingue o vínculo e produz vacância."
+        },
+        {
+          "id": "D",
+          "text": "Nenhuma ausência remunerada pode contar para tempo de serviço."
+        },
+        {
+          "id": "E",
+          "text": "A natureza remunerada permite aplicar os efeitos temporais do estatuto mais favorável de outro ente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A concessão e a remuneração da ausência não resolvem sozinhas sua contagem para todos os efeitos. O regime pode distinguir efetivo exercício, tempo de serviço e efeitos previdenciários. Também não há vacância automática apenas porque ocorre licença. A norma aplicável deve atribuir os efeitos do período; não se escolhem os de outro ente por conveniência."
+    },
+    {
+      "id": "per-u042-q17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor apresenta petição a um Poder Público para defender um direito e afirma que a dispensa de taxa obriga o deferimento. À luz do art. 5º, XXXIV, da Constituição, qual distinção é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A petição é gratuita apenas se o pedido já tiver sido deferido."
+        },
+        {
+          "id": "B",
+          "text": "O direito de petição permite criar vantagem sem previsão legal."
+        },
+        {
+          "id": "C",
+          "text": "A gratuidade dispensa comprovar qualquer fato relevante para o pedido."
+        },
+        {
+          "id": "D",
+          "text": "A petição é assegurada independentemente de taxas, mas a gratuidade do acesso não garante a procedência da pretensão."
+        },
+        {
+          "id": "E",
+          "text": "O direito de petição é exclusivo de quem ocupa cargo efetivo estável."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição assegura a todos, independentemente de taxas, a petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder. Isso protege o acesso ao pedido. O deferimento depende da análise dos fatos e do direito, não da gratuidade. A garantia não se restringe a servidores estáveis."
+    },
+    {
+      "id": "per-u042-q18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No direito de petição disciplinado pela Lei nº 8.112/1990, qual distinção entre reconsideração e recurso é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reconsideração pede reexame à autoridade que decidiu; o recurso é dirigido à autoridade superior, conforme as regras legais."
+        },
+        {
+          "id": "B",
+          "text": "A reconsideração é sempre dirigida à autoridade superior; o recurso, sempre a quem decidiu originalmente."
+        },
+        {
+          "id": "C",
+          "text": "A coincidência de um prazo de trinta dias torna idênticos interposição e decisão."
+        },
+        {
+          "id": "D",
+          "text": "A reconsideração cria automaticamente efeito suspensivo e dispensa decisão."
+        },
+        {
+          "id": "E",
+          "text": "O recurso autoriza conceder a vantagem sem verificar os requisitos legais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 106 e 107 distinguem a reconsideração pela autoridade que expediu o ato ou decidiu e o recurso à autoridade superior. O art. 108 fixa trinta dias para interpor reconsideração ou recurso, a partir da publicação ou ciência. O art. 106 também fixa prazo de decisão, mas se trata de outro ato e de outra contagem. O efeito suspensivo do recurso não é automático, conforme o art. 109."
+    }
+  ]
+}
