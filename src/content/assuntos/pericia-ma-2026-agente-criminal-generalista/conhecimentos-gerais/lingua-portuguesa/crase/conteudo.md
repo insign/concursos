@@ -236,4 +236,4 @@ A decisão deve voltar ao mecanismo: identifique a ligação, examine o artigo o
 
 ### Recorte e fontes
 
-O recorte corresponde ao item 5.7 de Língua Portuguesa do Cargo 1 — Agente de Perícia Criminal — Especialidade Generalista, Perícia Oficial/MA 2026. O programa é o consolidado até o Edital nº 3, de 1º de outubro de 2026. Fontes pertinentes conferidas em **04/10/2026 (UTC)**; essa é a data da consulta. Preferências institucionais foram diferenciadas de regras gerais; fontes e alcance das consultas estão em **Referências**.
+O recorte corresponde ao item 5.7 de Língua Portuguesa do Cargo 1 — Agente de Perícia Criminal — Especialidade Generalista, Perícia Oficial/MA 2026. O programa é o consolidado até o Edital nº 3, de 1º de outubro de 2026. Fontes pertinentes conferidas em **04/10/2026 (<abbr title="Tempo Universal Coordenado">UTC</abbr>)**; essa é a data da consulta. Preferências institucionais foram diferenciadas de regras gerais; fontes e alcance das consultas estão em **Referências**.

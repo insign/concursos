@@ -2,9 +2,9 @@
 
 ## Programa e recorte
 
-PERÍCIA OFICIAL DO MARANHÃO; CEBRASPE. **Edital nº 1, de 17 de julho de 2026, consolidado até o Edital nº 3, de 1º de outubro de 2026**. Cargo 1 — Agente de Perícia Criminal — Especialidade Generalista; seção 21.2.2, Língua Portuguesa, item **5.5**. [Consolidado oficial](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf); [listagem oficial](https://apis.cebraspe.org.br/cebraspe/eventos/PERICIA_OFICIAL_MA_26). O programa mantém a edição 2026, com prova prevista em 2027.
+PERÍCIA OFICIAL DO MARANHÃO; <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>. **Edital nº 1, de 17 de julho de 2026, consolidado até o Edital nº 3, de 1º de outubro de 2026**. Cargo 1 — Agente de Perícia Criminal — Especialidade Generalista; seção 21.2.2, Língua Portuguesa, item **5.5**. [Consolidado oficial](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf); [listagem oficial](https://apis.cebraspe.org.br/cebraspe/eventos/PERICIA_OFICIAL_MA_26). O programa mantém a edição 2026, com prova prevista em 2027.
 
-Consulta das fontes pertinentes e nova conferência da listagem em **04/10/2026 (UTC)**. A listagem recebida mantém dez entradas/cinco pares, sem nova alteração do programa consultado. Releitura dos itens de Português no consolidado; não nova leitura das 89 páginas nem certificação de eventos futuros.
+Consulta das fontes pertinentes e nova conferência da listagem em **04/10/2026 (<abbr title="Tempo Universal Coordenado">UTC</abbr>)**. A listagem recebida mantém dez entradas/cinco pares, sem nova alteração do programa consultado. Releitura dos itens de Português no consolidado; não nova leitura das 89 páginas nem certificação de eventos futuros.
 
 ## Fundamentação consultada
 
@@ -37,7 +37,7 @@ Foram confrontados os enunciados e as cinco alternativas desses itens com os cad
 
 ## Proveniência, seleção e intervenção local
 
-Pacote **PER-U012**, derivado do canônico **O012**, `src/content/biblioteca/lingua-portuguesa/concordancia-verbal-nominal/`. Reaproveitamento **parcial local**: quatro arquivos físicos no destino exclusivo Perícia/MA Generalista; doador e seus dois vínculos TCE, Analista/Administração e Técnico/Administrativa, preservados. C/H/Q/R e todos os itens do banco original foram revistos antes da seleção; não há resoluções separadas na origem consultada.
+Pacote **PER-U012**, derivado do canônico **O012**, `src/content/biblioteca/lingua-portuguesa/concordancia-verbal-nominal/`. Reaproveitamento **parcial local**: quatro arquivos físicos no destino exclusivo Perícia/MA Generalista; doador e seus dois vínculos <abbr title="Tribunal de Contas do Estado do Maranhão">TCE</abbr>, Analista/Administração e Técnico/Administrativa, preservados. C/H/Q/R e todos os itens do banco original foram revistos antes da seleção; não há resoluções separadas na origem consultada.
 
 Corpo da aula preservado; somente metadados e recorte final são localizados. Resumo evita apagar mecanicamente termos preposicionados, limita ou exclusivo, explicita antecedente de quem, milhão com especificador e percepção com pronome átono. O novo autoral aplica vi-os sair. q3491 pede concordância com total; q3513 especifica o padrão do Senado para haja vista. Não se apresenta preferência institucional como proibição universal.
 
