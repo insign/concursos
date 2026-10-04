@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades distintas | 99 | 84 | 5 | 10 |
-| Entregáveis unitários C/H/Q | 297 | 252 | 15 | 30 |
+| Unidades distintas | 99 | 84 | 4 | 11 |
+| Entregáveis unitários C/H/Q | 297 | 252 | 12 | 33 |
 
-Estado confirmado: **10 unidades/visões locais publicadas; 30 C/H/Q aceitos; 9/132 referências literais aceitas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. Os 12 blocos agregam 36 macros C/H/Q; macros/doadores/associações não se somam às unidades. U001–U003 estão documentadas em 5.6/8.6; U004–U006, em 5.7/8.7; U007–U009, em 5.8/8.8; U010–U010, em 5.9/8.9. Resultados anteriores permanecem históricos, sem importar aceite de campanhas alheias.
+Estado confirmado: **11 unidades/visões locais publicadas; 33 C/H/Q aceitos; 10/132 referências literais aceitas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. Os 12 blocos agregam 36 macros C/H/Q; macros/doadores/associações não se somam às unidades. U001–U003 estão documentadas em 5.6/8.6; U004–U006, em 5.7/8.7; U007–U009, em 5.8/8.8; U010–U011, em 5.9/8.9. Resultados anteriores permanecem históricos, sem importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U011 — Pontuação**, conforme 5.2/7.5. Publicar e aceitar o restante do lote U010–U015 reservado e revisto, por unidade. E01 tem 10/19 unidades aceitas e continua pending; R01–R05 e macros E/F também pending. U007 encerra E01 5.1 com U005/U006; U009 encerra E01 5.2. O pai E01 5 permanece parcial até o aceite de U015; U005–U015 são seus onze contribuintes. A dúvida “eclética” fica localizada em U028. Catálogo e ancestrais Generalista já aceitos em PER-P04/P05; sem mudança neste ciclo. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U012 — Concordância verbal e nominal**, conforme 5.2/7.5. Publicar e aceitar o restante do lote U010–U015 reservado e revisto, por unidade. E01 tem 11/19 unidades aceitas e continua pending; R01–R05 e macros E/F também pending. U007 encerra E01 5.1 com U005/U006; U009 encerra E01 5.2. O pai E01 5 permanece parcial até o aceite de U015; U005–U015 são seus onze contribuintes. A dúvida “eclética” fica localizada em U028. Catálogo e ancestrais Generalista já aceitos em PER-P04/P05; sem mudança neste ciclo. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -512,7 +512,7 @@ Grupo consumidor: `conhecimentos-gerais/lingua-portuguesa/`, relativo à raiz de
 | PER-U008 — Estrutura morfossintática do período | E01: 5 | O073 | `estrutura-morfossintatica-periodo` / `per-u008` / 80 | Base autônoma: termos da oração, funções e estrutura do período; classes, coordenação/subordinação e regras têm recortes próprios. Pontes: PER-U005, PER-U006, PER-U007. Parcial local; C/H/Q aceitos em 5.8. |
 | PER-U009 — Coordenação de orações e termos | E01: 5, 5.2 | O009 | `coordenacao-oracoes-termos` / `per-u009` / 90 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.8. |
 | PER-U010 — Subordinação de orações e termos | E01: 5, 5.3 | O010 | `subordinacao-oracoes-termos` / `per-u010` / 100 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.9. |
-| PER-U011 — Pontuação | E01: 5, 5.4 | O011 | `pontuacao` / `per-u011` / 110 | Função sintática e sentido. Pontes: PER-U009, PER-U010. |
+| PER-U011 — Pontuação | E01: 5, 5.4 | O011 | `pontuacao` / `per-u011` / 110 | Função sintática e sentido. Pontes: PER-U009, PER-U010. Parcial local; C/H/Q aceitos em 5.9. |
 | PER-U012 — Concordância verbal e nominal | E01: 5, 5.5 | O012 | `concordancia-verbal-nominal` / `per-u012` / 120 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U013 — Regência verbal e nominal | E01: 5, 5.6 | O013 | `regencia-verbal-nominal` / `per-u013` / 130 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U014 — Crase | E01: 5, 5.7 | O014 | `crase` / `per-u014` / 140 | Fusão, condições e exceções; ponte com regência. Pontes: PER-U013. |
@@ -913,17 +913,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 9/132 |
-| Unidades distintas da objetiva | 98 | 10 |
+| Referências literais da objetiva | 132/132 | 10/132 |
+| Unidades distintas da objetiva | 98 | 11 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 10 |
-| Entregáveis unitários C/H/Q | 297: 252 pending + 15 analyzing + 30 done | 30 done |
-| Visões consumidoras previstas | 99 | 10 |
+| Total de unidades distintas | 99 | 11 |
+| Entregáveis unitários C/H/Q | 297: 252 pending + 12 analyzing + 33 done | 33 done |
+| Visões consumidoras previstas | 99 | 11 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 | 10 classificadas como parcial local em PER-R02 |
+| Unidades com candidato identificado | 77 | 11 classificadas como parcial local em PER-R02 |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | 0 classificadas como novas |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 10 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 11 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1170,7 +1170,22 @@ Aulete: capítulos 16.03/16.04, 11.14/08.07, 11.15 e 13.04; sete verbetes de reg
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/subordinacao-oracoes-termos/questoes.json` | `2feb1823296d3a70f3193bc9585f18c09d444aae` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/subordinacao-oracoes-termos/referencias.md` | `b4e97a8f46dbe5c0d120ad924c27a30b30fca390` |
 
-**Conciliação deste aceite:** 10 unidades/visões locais; 30 C/H/Q done; 9/132 referências literais aceitas; E01 10/19, macro pending. Questões acumuladas: **530**; deste lote aceitas: 61. E01 5 permanece parcial; aguarda todos os onze contribuintes U005–U015. Reservas restantes: PER-U011, PER-U012, PER-U013, PER-U014, PER-U015, ainda analyzing. Aceites 5.6/5.7/5.8 e 8.6/8.7/8.8 permanecem históricos. Estado corrente em 2/5.5/7.5/5.9. R01/R02/R04 têm resultados unitários, sem done macro; nenhuma campanha externa/doação/visão existente modificada.
+#### PER-U011 — Pontuação — C/H/Q done
+
+- **Recorte/destino:** E01 5/5.4; `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/pontuacao/`; storageId `per-u011`, ordem 110. Rota `/concursos/pericia-ma-2026-agente-criminal-generalista/pontuacao/`, H/Q projetados pelo resolvedor. Canônico O011, parcial local; consumidores existentes preservados.
+- **Problema, intervenção e ganho:** Aula preservada no corpo. Resumo reduz métodos e alertas repetidos, preserva os sinais e distingue regras de convenções. Distratores genéricos dos 43 autorais selecionados foram substituídos por erros do fenômeno concreto. A questão q3385 não foi selecionada porque a topicalização permite outra leitura válida. Questões anteriores não selecionadas não recebem certificação primária neste pacote.
+- **Q e proveniência:** 147→46 itens; 43 autorais/3 anteriores, conjunto revisão 5. Herdados selecionados preservam ID/origin; 43 aumentam revision por alteração de enunciado/opções. Novos IDs: nenhum. Anteriores: fontes/tipo/numeração/chave explicitados nas referências locais, texto/chave mantidos e explicações ampliadas. IDs selecionados: q3340, q3341, q3342, q3343, q3344, q3345, q3346, q3347, q3348, q3349, q3350, q3351, q3352, q3353, q3355, q3356, q3357, q3358, q3359, q3360, q3361, q3362, q3364, q3365, q3366, q3367, q3368, q3369, q3370, q3371, q3372, q3373, q3374, q3375, q3376, q3377, q3378, q3379, q3380, q3381, q3386, q3391, q3396, q3476, q3477, q3484. Revisados: q3340, q3341, q3342, q3343, q3344, q3345, q3346, q3347, q3348, q3349, q3350, q3351, q3352, q3353, q3355, q3356, q3357, q3358, q3359, q3360, q3361, q3362, q3364, q3365, q3366, q3367, q3368, q3369, q3370, q3371, q3372, q3373, q3374, q3375, q3376, q3377, q3378, q3379, q3380, q3381, q3386, q3391, q3396.
+- **Microglossário e densidade:** fundamentos e marcações consultáveis de C preservados. H mantém recuperação dos conceitos, expande termos onde necessário e elimina listas/métodos duplicados. C bruto 24887→24887; sem tags 23770→23770 caracteres. H bruto 7455→6403; sem tags 7184→6200. Crescimento pontual, quando há, repõe condição ou mecanismo ensinado em C; não introduz fundamento oculto nem promessa de tempo poupado. Medidas brutas incluem frontmatter; sem tags exclui atributos/marcação. R declara recorte Perícia, consultas efetivas e proveniência, substituindo o programa doador.
+- **Publicação confirmada:** [`dc8516b`](https://github.com/insign/concursos/commit/dc8516b677ef2fad0ab24830ad1e0c0826a94701), somente quatro arquivos C/H/Q/R desta unidade, atomicamente. Conteúdo integral relido na main e igual ao pacote revisto. Metadados/Markdown/identidades/rotas, referências, resposta única/revisões e coerência C/H/Q inspecionados por leitura/comparação; sem testes/build/check/CI.
+
+| Arquivo relido na main | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/pontuacao/conteudo.md` | `fea2a942b2cde93f9321864883b0f3bda5ee83fb` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/pontuacao/cheat-sheet.md` | `44218b2a4f9ba82cc6fc80a2e13f1d21fd77769f` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/pontuacao/questoes.json` | `bebb9be01bceb3e4e04870001f5d5b16202a11a5` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/pontuacao/referencias.md` | `091648c9bf2c2baf105934bdd13b67e9ccb051b5` |
+
+**Conciliação deste aceite:** 11 unidades/visões locais; 33 C/H/Q done; 10/132 referências literais aceitas; E01 11/19, macro pending. Questões acumuladas: **576**; deste lote aceitas: 107. E01 5 permanece parcial; aguarda todos os onze contribuintes U005–U015. Reservas restantes: PER-U012, PER-U013, PER-U014, PER-U015, ainda analyzing. Aceites 5.6/5.7/5.8 e 8.6/8.7/8.8 permanecem históricos. Estado corrente em 2/5.5/7.5/5.9. R01/R02/R04 têm resultados unitários, sem done macro; nenhuma campanha externa/doação/visão existente modificada.
 
 
 ## 6. Guia obrigatório de qualidade pedagógica
@@ -1406,9 +1421,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U011 — Pontuação
 
-- [ ] PER-U011-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U011-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U011-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U011-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U011-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U011-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U012 — Concordância verbal e nominal
 
@@ -2074,8 +2089,9 @@ Base: main `25ebe3007c930167fe8f238b7f82f7d58b7a00ae`, mestre `476a984ef0f17fa18
 | Unidade | Commit de artefatos confirmado | Arquivos |
 |---|---|---|
 | PER-U010 | [`007802a`](https://github.com/insign/concursos/commit/007802aa511e8cf40a61fb8d1d4778ee49a30ab6) | 4, C/H/Q/R atomicamente |
+| PER-U011 | [`dc8516b`](https://github.com/insign/concursos/commit/dc8516b677ef2fad0ab24830ad1e0c0826a94701) | 4, C/H/Q/R atomicamente |
 
-Fluxo por unidade: publicar → reler os quatro arquivos/commit na main → aceitar no mestre com blob corrente → reler mestre → sincronizar painel e liberar somente a unidade aceita. 1 pacotes deste lote confirmados; 3 C/H/Q deste lote aceitos. Restantes aguardam sua publicação/aceite próprio. Programa literal, guia, IDs/títulos/descrições de macro e aceites anteriores preservados. Atualizações restritas a estados U010–U015, notas próprias da matriz, agregados e evidências deste ciclo. Sem testes, build, check ou CI.
+Fluxo por unidade: publicar → reler os quatro arquivos/commit na main → aceitar no mestre com blob corrente → reler mestre → sincronizar painel e liberar somente a unidade aceita. 2 pacotes deste lote confirmados; 6 C/H/Q deste lote aceitos. Restantes aguardam sua publicação/aceite próprio. Programa literal, guia, IDs/títulos/descrições de macro e aceites anteriores preservados. Atualizações restritas a estados U010–U015, notas próprias da matriz, agregados e evidências deste ciclo. Sem testes, build, check ou CI.
 
 
 ### 8.10 Condições finais
