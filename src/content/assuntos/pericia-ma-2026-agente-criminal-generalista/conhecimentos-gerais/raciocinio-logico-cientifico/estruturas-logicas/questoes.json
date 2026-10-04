@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "q4842",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O enunciado afirma que quatro tarefas serão distribuídas entre dois dias, mas não informa limite por dia. Nesse caso, o candidato deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir exatamente duas tarefas por dia."
+        },
+        {
+          "id": "B",
+          "text": "presumir uma tarefa por dia e descartar as restantes."
+        },
+        {
+          "id": "C",
+          "text": "usar a distribuição mais equilibrada, por ser mais razoável."
+        },
+        {
+          "id": "D",
+          "text": "não criar limite de capacidade que não decorra das condições dadas."
+        },
+        {
+          "id": "E",
+          "text": "presumir que cada dia recebe ao menos uma tarefa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O cenário deve ser tratado com as regras efetivamente fornecidas. Capacidade, equilíbrio ou ocupação mínima só podem ser impostos se estiverem expressos ou forem consequência necessária de outra condição. Questão autoral."
+    },
+    {
+      "id": "q4843",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A condição “A está antes de B” permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ocupa a primeira posição."
+        },
+        {
+          "id": "B",
+          "text": "a posição de A é anterior à de B, podendo haver elementos entre ambos."
+        },
+        {
+          "id": "C",
+          "text": "A está imediatamente antes de B."
+        },
+        {
+          "id": "D",
+          "text": "A e B formam um bloco inseparável."
+        },
+        {
+          "id": "E",
+          "text": "B ocupa obrigatoriamente a última posição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Precedência define ordem relativa, não adjacência nem extremos. A presença de intervalo só seria proibida por “imediatamente” ou regra equivalente. Questão autoral."
+    },
+    {
+      "id": "q4844",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se A está ao lado de B em uma fila, sem outra indicação, devem ser consideradas",
+      "options": [
+        {
+          "id": "A",
+          "text": "as orientações [A B] e [B A]."
+        },
+        {
+          "id": "B",
+          "text": "apenas a orientação [A B]."
+        },
+        {
+          "id": "C",
+          "text": "somente posições não consecutivas."
+        },
+        {
+          "id": "D",
+          "text": "todas as posições, inclusive as não adjacentes."
+        },
+        {
+          "id": "E",
+          "text": "apenas as posições centrais da fila."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Ao lado” exige posições consecutivas, mas não fornece direção. As duas orientações permanecem possíveis até que outra regra elimine uma delas. Questão autoral."
+    },
+    {
+      "id": "q4847",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A regra “Lia participa somente se Nuno participar” significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a participação de Nuno força a de Lia."
+        },
+        {
+          "id": "B",
+          "text": "Lia e Nuno sempre participam juntos em ambas as direções."
+        },
+        {
+          "id": "C",
+          "text": "Lia pode participar sem Nuno."
+        },
+        {
+          "id": "D",
+          "text": "se Lia participa, Nuno necessariamente participa."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de Lia obriga a ausência de Nuno."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Nuno é condição necessária para Lia. A regra vai de Lia para Nuno; a presença de Nuno, isoladamente, não força Lia, e a ausência de Lia nada determina sobre Nuno. Questão autoral."
+    },
+    {
+      "id": "q4854",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em uma associação um a um entre pessoas e setores, a confirmação de que Lia está em <abbr title=\"Tecnologia da Informação\">TI</abbr> permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter <abbr title=\"Tecnologia da Informação\">TI</abbr> como possibilidade para todas as outras pessoas."
+        },
+        {
+          "id": "B",
+          "text": "atribuir a Lia todos os demais setores."
+        },
+        {
+          "id": "C",
+          "text": "ignorar as exclusões anteriores de Lia."
+        },
+        {
+          "id": "D",
+          "text": "eliminar os outros setores para Lia e <abbr title=\"Tecnologia da Informação\">TI</abbr> para as demais pessoas."
+        },
+        {
+          "id": "E",
+          "text": "concluir que Lia também ocupa todos os dias associados às demais pessoas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em relação um a um, uma confirmação fecha a linha da pessoa e a coluna do valor: Lia fica com <abbr title=\"Tecnologia da Informação\">TI</abbr>, e <abbr title=\"Tecnologia da Informação\">TI</abbr> deixa de ser opção para os demais. Questão autoral."
+    },
+    {
+      "id": "q4855",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma fila de cinco posições, o bloco orientado [D E], sem outras restrições, pode começar em quantas posições?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        },
+        {
+          "id": "E",
+          "text": "2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O bloco ocupa duas posições consecutivas e pode começar em 1, 2, 3 ou 4. Se começasse em 5, E ficaria fora da fila. Questão autoral."
+    },
+    {
+      "id": "q4856",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se A vem antes de B e B vem antes de C, então",
+      "options": [
+        {
+          "id": "A",
+          "text": "A vem antes de C."
+        },
+        {
+          "id": "B",
+          "text": "A está imediatamente antes de C."
+        },
+        {
+          "id": "C",
+          "text": "C vem antes de A."
+        },
+        {
+          "id": "D",
+          "text": "A e C são adjacentes."
+        },
+        {
+          "id": "E",
+          "text": "B ocupa necessariamente a posição central."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A precedência é transitiva: A < B < C implica A < C. Nada nas regras exige adjacência ou posição central. Questão autoral."
+    },
+    {
+      "id": "q4860",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para provar que uma alternativa “não pode ser verdadeira”, o procedimento adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "mostrar que a alternativa é falsa em uma configuração válida."
+        },
+        {
+          "id": "B",
+          "text": "assumi-la e demonstrar que todos os casos compatíveis com essa hipótese violam alguma condição."
+        },
+        {
+          "id": "C",
+          "text": "mostrar que a alternativa cabe numa disposição parcial que ainda não viola regra."
+        },
+        {
+          "id": "D",
+          "text": "demonstrar apenas que há mais de uma solução para o problema."
+        },
+        {
+          "id": "E",
+          "text": "mostrar que uma hipótese adicional, não exigida pelo enunciado, torna a alternativa contraditória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Impossibilidade significa ausência de qualquer solução válida que realize a alternativa. Um cenário em que ela é falsa só afasta a necessidade; uma disposição parcial não prova possibilidade. Ter várias soluções não demonstra impossibilidade, e uma hipótese extra não pode substituir as condições originais. Questão autoral."
+    },
+    {
+      "id": "q4861",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Depois de encontrar uma configuração válida, o candidato pode afirmar que a solução é única somente se",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela foi a primeira configuração testada."
+        },
+        {
+          "id": "B",
+          "text": "mostrar que toda troca isolada de dois elementos viola alguma regra, sem examinar outras reorganizações."
+        },
+        {
+          "id": "C",
+          "text": "provar que os valores foram forçados ou que todas as demais configurações são inválidas."
+        },
+        {
+          "id": "D",
+          "text": "mostrar que uma segunda disposição parcial não pode ser completada, sem examinar as demais."
+        },
+        {
+          "id": "E",
+          "text": "a configuração usar todos os elementos uma única vez."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Existência e unicidade são diferentes. É preciso excluir todas as outras configurações válidas. Conferir as regras na primeira solução, usar todos os elementos, rejeitar uma segunda disposição ou examinar apenas trocas isoladas não cobre necessariamente todas as reorganizações possíveis. Questão autoral."
+    },
+    {
+      "id": "q4865",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma associação um a um, na qual cada setor deve ser usado exatamente uma vez, o setor Jurídico ainda aparece como possibilidade apenas para Rui, embora Rui também tenha outras opções. Conclui-se que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jurídico deve ser atribuído a Rui."
+        },
+        {
+          "id": "B",
+          "text": "Jurídico ficará sem responsável."
+        },
+        {
+          "id": "C",
+          "text": "Rui deve ser eliminado de Jurídico."
+        },
+        {
+          "id": "D",
+          "text": "não há qualquer dedução possível."
+        },
+        {
+          "id": "E",
+          "text": "Rui deve ocupar simultaneamente Jurídico e uma de suas outras opções."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como todos os setores devem ser usados e Jurídico só cabe em Rui, esse valor é forçado para Rui. Questão autoral."
+    },
+    {
+      "id": "q4866",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A e B só podem ocupar as posições 2 e 4 de uma fila com posições exclusivas. Mesmo sem saber quem ocupa cada uma, pode-se concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A está necessariamente em 2."
+        },
+        {
+          "id": "B",
+          "text": "B está necessariamente em 4."
+        },
+        {
+          "id": "C",
+          "text": "A e B ocupam a mesma posição."
+        },
+        {
+          "id": "D",
+          "text": "nenhum outro elemento pode ocupar 2 ou 4."
+        },
+        {
+          "id": "E",
+          "text": "as posições 2 e 4 devem permanecer vazias até que A e B sejam distinguidos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O par está confinado ao conjunto {2,4}. As posições ficam reservadas a A e B, embora a ordem interna ainda não esteja determinada. Questão autoral."
+    },
+    {
+      "id": "q4867",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "As condições A antes de B, B antes de C e C antes de A produzem",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma cadeia válida com três elementos."
+        },
+        {
+          "id": "B",
+          "text": "duas soluções simétricas."
+        },
+        {
+          "id": "C",
+          "text": "um ciclo contraditório de precedência."
+        },
+        {
+          "id": "D",
+          "text": "um bloco de adjacência."
+        },
+        {
+          "id": "E",
+          "text": "uma solução em que A e C ocupam a mesma posição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma ordem estrita não pode retornar ao elemento inicial. A cadeia A < B < C < A é impossível. Questão autoral."
+    },
+    {
+      "id": "q4868",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando a propagação direta para e é necessário abrir casos, uma escolha eficiente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "começar pelo elemento com o maior número de possibilidades."
+        },
+        {
+          "id": "B",
+          "text": "escolher um elemento com poucas possibilidades e registrar separadamente cada ramo."
+        },
+        {
+          "id": "C",
+          "text": "testar valores aleatórios sem anotar hipóteses."
+        },
+        {
+          "id": "D",
+          "text": "abandonar as condições negativas."
+        },
+        {
+          "id": "E",
+          "text": "resolver cada ramo usando apenas a condição que o originou."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Poucos ramos reduzem trabalho, e cada caso precisa conservar todas as regras originais para que o descarte por contradição seja válido. Questão autoral."
+    },
+    {
+      "id": "q4869",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Lia, Nuno e Olga trabalham em setores distintos — Compras, Pessoal e Tecnologia da Informação — e em dias distintos — segunda, terça e quarta. Lia não está em Compras nem na segunda; Nuno está em Tecnologia da Informação na quarta; e Compras corresponde à segunda. Qual associação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lia — Compras — segunda."
+        },
+        {
+          "id": "B",
+          "text": "Nuno — Pessoal — quarta."
+        },
+        {
+          "id": "C",
+          "text": "Olga — Compras — segunda."
+        },
+        {
+          "id": "D",
+          "text": "Olga — Tecnologia da Informação — terça."
+        },
+        {
+          "id": "E",
+          "text": "Lia — Tecnologia da Informação — terça."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nuno ocupa Tecnologia da Informação e quarta. Compras corresponde à segunda e não pode ser de Lia; portanto pertence a Olga. Restam Pessoal e terça para Lia. A, B, D e E contrariam essas associações ou uma pista expressa. Questão autoral."
+    },
+    {
+      "id": "q4871",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "P, Q e R ocupam os dias 1, 2 e 3, um por dia. P ocorre antes de R, e Q não ocorre no dia 2. Quais ordens satisfazem as regras?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas P, Q, R."
+        },
+        {
+          "id": "B",
+          "text": "Q, P, R e P, R, Q."
+        },
+        {
+          "id": "C",
+          "text": "Q, R, P e R, P, Q."
+        },
+        {
+          "id": "D",
+          "text": "Apenas R, Q, P."
+        },
+        {
+          "id": "E",
+          "text": "P, Q, R e Q, R, P."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se Q está no dia 1, resta Q, P, R. Se Q está no dia 3, P e R ocupam os dias 1 e 2: P, R, Q. Q no dia 2 é proibido. Questão autoral."
+    },
+    {
+      "id": "q4873",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma comissão terá quatro membros e deve incluir pelo menos dois auditores. Três vagas já estão definidas, com um auditor e dois não auditores. A última vaga",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser preenchida por auditor."
+        },
+        {
+          "id": "B",
+          "text": "deve ser preenchida por não auditor."
+        },
+        {
+          "id": "C",
+          "text": "pode ficar vazia."
+        },
+        {
+          "id": "D",
+          "text": "não afeta o mínimo exigido."
+        },
+        {
+          "id": "E",
+          "text": "pode ser preenchida por qualquer pessoa sem alterar a validade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Com apenas um auditor entre três membros e uma vaga restante, o mínimo de dois só permanece alcançável se a última pessoa for auditora. Questão autoral."
+    },
+    {
+      "id": "q4875",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Num agrupamento, a regra “se D entra no grupo, E entra também” permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "E só pode entrar se D entrar."
+        },
+        {
+          "id": "B",
+          "text": "D e E são equivalentes em qualquer situação."
+        },
+        {
+          "id": "C",
+          "text": "a entrada de E força a de D."
+        },
+        {
+          "id": "D",
+          "text": "a entrada de D força a de E, mas E pode entrar sem D se não houver outra proibição."
+        },
+        {
+          "id": "E",
+          "text": "D e E devem ficar fora do grupo se um terceiro elemento entrar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A condição tem direção D → E. Seu inverso não foi dado; por isso, E pode aparecer sem D se outras regras permitirem. Questão autoral."
+    },
+    {
+      "id": "q4876",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Duas equipes têm a mesma capacidade e nenhuma característica própria; importam apenas os pares formados. Nesse caso, trocar os nomes “Equipe 1” e “Equipe 2”",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre viola uma condição."
+        },
+        {
+          "id": "B",
+          "text": "não cria agrupamento substantivamente novo, se os membros das duplas permanecem os mesmos."
+        },
+        {
+          "id": "C",
+          "text": "transforma cada dupla em uma fila."
+        },
+        {
+          "id": "D",
+          "text": "obriga a troca dos membros dentro de cada dupla."
+        },
+        {
+          "id": "E",
+          "text": "cria um agrupamento novo apenas porque os mesmos pares passaram a ter rótulos diferentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Quando os grupos são apenas rótulos intercambiáveis, renomeá-los não altera os pares formados. Se os grupos tiverem propriedades próprias, como manhã e tarde, a troca pode alterar a solução. Questão autoral."
+    },
+    {
+      "id": "q4887",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A trabalha diretamente com B, e B trabalha diretamente com C. Sem outra regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "A necessariamente trabalha diretamente com C."
+        },
+        {
+          "id": "B",
+          "text": "não se pode concluir que A trabalha diretamente com C."
+        },
+        {
+          "id": "C",
+          "text": "A e C são a mesma pessoa."
+        },
+        {
+          "id": "D",
+          "text": "B deixa de trabalhar com A."
+        },
+        {
+          "id": "E",
+          "text": "A necessariamente trabalha em setor diferente do de C."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ligação direta de A com B e de B com C permite um cenário em que A e C não têm contato direto. Por isso, a terceira ligação não é obrigatória. Também não há informação sobre igualdade das pessoas ou setores. Questão autoral."
+    },
+    {
+      "id": "q4889",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Exatamente uma entre Ana, Beto e Caio retirou um documento. Ana diz “Beto retirou”; Beto diz “Caio retirou”; Caio diz “Eu não retirei”. Se exatamente duas falas são verdadeiras, quem retirou?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana."
+        },
+        {
+          "id": "B",
+          "text": "Beto."
+        },
+        {
+          "id": "C",
+          "text": "Caio."
+        },
+        {
+          "id": "D",
+          "text": "Não é possível decidir."
+        },
+        {
+          "id": "E",
+          "text": "Ana e Beto juntos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se Beto retirou, as falas de Ana e Caio são verdadeiras e a de Beto é falsa. Nos cenários Ana ou Caio, apenas uma fala é verdadeira. A premissa também exclui dois responsáveis. Questão autoral."
+    },
+    {
+      "id": "q4896",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em uma fila, A, B e C são pessoas distintas, uma por posição. A está ao lado de B e B está ao lado de C. Disso resulta necessariamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A está ao lado de C."
+        },
+        {
+          "id": "B",
+          "text": "A e C ocupam a mesma posição."
+        },
+        {
+          "id": "C",
+          "text": "A vem antes de C."
+        },
+        {
+          "id": "D",
+          "text": "A e C não são adjacentes, pois B está entre ambos."
+        },
+        {
+          "id": "E",
+          "text": "C vem antes de A."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "B tem A e C como vizinhos, formando A-B-C ou C-B-A. Em ambas as orientações, B separa A e C. Não há posição compartilhada nem orientação que obrigue A antes de C ou C antes de A. Questão autoral."
+    },
+    {
+      "id": "q4898",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Cinco tarefas A, B, C, D e E ocuparão os dias 1, 2 e 3, com capacidades 2, 2 e 1. A e B devem ficar no mesmo dia; C e D não podem ficar juntas; E ocupa sozinha o dia 3. O sistema é",
+      "options": [
+        {
+          "id": "A",
+          "text": "consistente, com A e B no dia 3."
+        },
+        {
+          "id": "B",
+          "text": "consistente, com C e D juntas no dia 1."
+        },
+        {
+          "id": "C",
+          "text": "inconsistente, pois A e B fecham um dos dois primeiros dias e C e D seriam forçadas a compartilhar o outro."
+        },
+        {
+          "id": "D",
+          "text": "consistente, com quatro soluções."
+        },
+        {
+          "id": "E",
+          "text": "consistente, pois a capacidade total é igual ao número de tarefas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "E fecha o dia 3. A e B ocupam integralmente o dia 1 ou 2; as duas vagas do outro dia restam para C e D, contrariando a incompatibilidade. A capacidade total comporta cinco tarefas, mas as demais condições impedem qualquer distribuição. Separar A e B também violaria uma regra. Questão autoral."
+    },
+    {
+      "id": "q52203601",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas formam uma fila. Essa fila será modificada com a seguinte sequência de trocas de posição: o 2º com o 4º, o 1º com o 3º, o 2º com o 5º e o 1º com o 4º.\n\nA pessoa que estava no 3º lugar na fila inicial estará, na fila final, no",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º lugar."
+        },
+        {
+          "id": "B",
+          "text": "2º lugar."
+        },
+        {
+          "id": "C",
+          "text": "3º lugar."
+        },
+        {
+          "id": "D",
+          "text": "4º lugar."
+        },
+        {
+          "id": "E",
+          "text": "5º lugar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+    },
+    {
+      "id": "q52203602",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cinco amigos, A, B, C, D e E, marcaram um encontro em data e hora determinados, mas todos chegaram em horários diferentes.\n\nSabe-se que\n• A chegou depois de B.\n• C chegou antes de A.\n• Quando D chegou, C já estava, mas B não.\n• Quando E chegou somente 2 amigos já haviam chegado.\n\nÉ correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "A não foi o último a chegar."
+        },
+        {
+          "id": "B",
+          "text": "E chegou antes de D."
+        },
+        {
+          "id": "C",
+          "text": "C foi o 2º a chegar."
+        },
+        {
+          "id": "D",
+          "text": "D chegou depois de B."
+        },
+        {
+          "id": "E",
+          "text": "B foi o 4º a chegar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+    },
+    {
+      "id": "q52203603",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "As amigas Ana, Bia e Carol, têm idades diferentes. Uma delas é médica, outra é enfermeira e a outra é professora. Cada uma delas tem um animal de estimação diferente: gato, cachorro e peixe de aquário.\n\nSabe-se que:\n• A mais nova é a professora.\n• Ana adora seu cachorro.\n• A enfermeira é a dona do gato.\n• Carol não é a médica.\n• Bia é a mais velha.\n• A médica não é a mais velha.\n\nÉ correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana é a enfermeira."
+        },
+        {
+          "id": "B",
+          "text": "Bia é a dona do peixe."
+        },
+        {
+          "id": "C",
+          "text": "Carol é a mais velha."
+        },
+        {
+          "id": "D",
+          "text": "Ana é a mais nova."
+        },
+        {
+          "id": "E",
+          "text": "Bia é a dona do gato."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Bia é a mais velha e, portanto, não pode ser a professora nem a médica; como Carol também não é médica, Ana é a médica e Bia é a enfermeira, dona do gato. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Secretaria da Fazenda do Estado da Bahia — Agente de Tributos Estaduais, Administração Tributária, Tipo 2; 2022; questão 70; https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_tributos_estaduais_administracao_tributariacns003_tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/saebba2022_gabarito_definitivo_0.pdf."
+    },
+    {
+      "id": "q52203608",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "As irmãs Maria, Ana e Rita possuem idades diferentes e, quando receberam a visita de uma tia distante, se apresentaram fazendo as seguintes declarações:\n\nMaria disse: – eu sou a mais jovem.\nAna disse: – eu não sou a do meio.\nRita disse: – eu não sou a mais jovem.\n\nDessas declarações, somente uma é verdadeira.\n\nÉ correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maria é a mais jovem."
+        },
+        {
+          "id": "B",
+          "text": "Ana é a mais velha."
+        },
+        {
+          "id": "C",
+          "text": "Rita é a do meio."
+        },
+        {
+          "id": "D",
+          "text": "Rita é a mais velha."
+        },
+        {
+          "id": "E",
+          "text": "Maria não é a do meio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se Rita não fosse a mais jovem, sua fala seria verdadeira. Maria teria de mentir, logo também não seria a mais jovem; Ana seria então a mais jovem e sua fala também seria verdadeira, contrariando a regra. Portanto Rita é a mais jovem; Maria mente, e a única verdade é a fala de Ana. Ana não é a do meio nem a mais jovem, logo é a mais velha. Maria é a do meio, o que também elimina a opção E. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura de Manaus — Assistente em Administração (40 <abbr title=\"horas semanais\">H/S</abbr>); concurso 2021, prova aplicada em 2022; questão 35, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracaonm201_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203612",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas, representadas por A, B, C, D e E, sentam-se em volta de uma mesa circular.\n\nSabe-se que:\n• B não é vizinho de A.\n• D é o vizinho à esquerda de C.\n• B e C não são vizinhos.\n\nAssim, é correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os vizinhos de A são C e E."
+        },
+        {
+          "id": "B",
+          "text": "os vizinhos de E são B e D."
+        },
+        {
+          "id": "C",
+          "text": "os vizinhos de B são C e D."
+        },
+        {
+          "id": "D",
+          "text": "os vizinhos de C são A e B."
+        },
+        {
+          "id": "E",
+          "text": "os vizinhos de D são A e C."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como B não é vizinho de A nem de C, seus dois vizinhos são D e E. D já tem B como vizinho e deve ter C como outro. Fechando o círculo, C liga-se a A, e A liga-se a E: o ciclo de vizinhanças é B-D-C-A-E-B, admitindo orientação compatível com a esquerda indicada. Assim, A tem vizinhos C e E; as demais opções contrariam esse ciclo. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+    },
+    {
+      "id": "q52203613",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Cinco pessoas, chamadas Ali, Ben, Clô, Dil e Ela, estão em uma fila. São dadas as seguintes informações:\n• Ben tem como vizinhos Ela e Dil.\n• Ali não é o primeiro e Dil não é o último.\n• Clô está separada de Dil por duas pessoas.\n• Existe uma única pessoa entre Ben e Ali.\n\nAssim, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ben é o segundo da fila."
+        },
+        {
+          "id": "B",
+          "text": "Ela está entre Ben e Dil."
+        },
+        {
+          "id": "C",
+          "text": "Dil está entre Ali e Ben."
+        },
+        {
+          "id": "D",
+          "text": "Ali é o quarto da fila."
+        },
+        {
+          "id": "E",
+          "text": "Clô está atrás de Ela."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ben deve estar no meio de um bloco Ela-Ben-Dil ou Dil-Ben-Ela. Ben na posição 2 deixaria Ali na 4 e Dil na 1 ou 3: o primeiro caso exigiria Clô na posição 4, já ocupada, e o segundo não permitiria duas pessoas entre Dil e Clô. Ben na posição 4 exigiria Ali na 2 e Dil na 3 ou 5; a posição 3 impede a distância exigida e a 5 é proibida. Resta Ben na 3: Ali não pode ser 1, logo é 5; Dil não pode ser 2, pois Clô precisaria ser 5. A fila fica Clô, Ela, Ben, Dil, Ali. Só C vale. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+    },
+    {
+      "id": "q52203614",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em uma prateleira do armário da cozinha há três latas, uma ao lado da outra. Uma lata é azul, outra é verde e outra é vermelha e contêm coisas diferentes: uma contém café, outra contém açúcar e outra contém farinha.\n\nSabe-se que\n• a lata vermelha está à direita da lata que contém farinha;\n• a lata que contém açúcar não é verde e não está ao lado da lata verde;\n• café e açúcar estão em latas vizinhas.\n\nAssim, é correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lata verde está à direita da lata vermelha."
+        },
+        {
+          "id": "B",
+          "text": "a lata azul contém açúcar."
+        },
+        {
+          "id": "C",
+          "text": "a lata que contém café é verde."
+        },
+        {
+          "id": "D",
+          "text": "a lata vermelha está à esquerda da lata que contém farinha."
+        },
+        {
+          "id": "E",
+          "text": "a farinha está na lata azul."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Açúcar e verde não são vizinhos nem estão na mesma lata, então ocupam os extremos. Se açúcar fosse à esquerda e verde à direita, café seria central e farinha estaria à direita; não sobraria posição à direita da farinha para a lata vermelha. Logo açúcar está à direita, verde à esquerda, café no centro e farinha à esquerda. A vermelha só pode ser central: a lata da direita, com açúcar, é azul. Portanto B vale; café é vermelho e farinha é verde, eliminando as demais opções. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q52203615",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Beatriz, Dalva, Fernanda, Laura e Sônia possuem idades diferentes.\n\nSão verdadeiras as seguintes afirmações:\n• Beatriz é mais nova que Dalva e mais velha que Laura.\n• Dalva é mais nova que Sônia e mais velha que Fernanda.\n• Fernanda é mais nova que Beatriz, mas não é a mais nova de todas elas.\n\nFazendo com essas pessoas uma fila em ordem crescente de idade, é correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fernanda é a terceira."
+        },
+        {
+          "id": "B",
+          "text": "Laura é a segunda."
+        },
+        {
+          "id": "C",
+          "text": "Sônia é a quarta."
+        },
+        {
+          "id": "D",
+          "text": "Beatriz é a terceira."
+        },
+        {
+          "id": "E",
+          "text": "Dalva é a quinta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "per-u020-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quatro tarefas distintas K, L, M e N serão realizadas nos dias 1, 2, 3 e 4, uma por dia. K ocorre antes de L e N ocorre no dia 4. Qual situação pode ocorrer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L no dia 1."
+        },
+        {
+          "id": "B",
+          "text": "K no dia 3."
+        },
+        {
+          "id": "C",
+          "text": "M no dia 4."
+        },
+        {
+          "id": "D",
+          "text": "L no dia 2."
+        },
+        {
+          "id": "E",
+          "text": "N no dia 3."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "K, L, M, N é uma configuração completa válida, com L no dia 2. L não pode estar no dia 1 porque K vem antes; K no dia 3 deixaria L sem dia, pois N ocupa o 4; M no 4 e N no 3 violam a fixação de N. Questão autoral."
+    },
+    {
+      "id": "per-u020-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "U, V, W e X ocupam quatro posições distintas, da primeira à quarta. U vem antes de V e X ocupa a quarta. Qual afirmação deve ser verdadeira?",
+      "options": [
+        {
+          "id": "A",
+          "text": "U ocupa a primeira posição."
+        },
+        {
+          "id": "B",
+          "text": "V ocupa a terceira posição."
+        },
+        {
+          "id": "C",
+          "text": "W ocupa a segunda posição."
+        },
+        {
+          "id": "D",
+          "text": "U está imediatamente antes de V."
+        },
+        {
+          "id": "E",
+          "text": "U ocupa a primeira ou a segunda posição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "U não pode ocupar a quarta, fixada em X, nem a terceira: V precisaria estar depois, sem vaga. Logo U está em 1 ou 2. As ordens U-V-W-X, U-W-V-X e W-U-V-X são válidas e fornecem contraexemplos a A, B, C e D. A afirmação necessária não torna única a ordem completa. Questão autoral."
+    },
+    {
+      "id": "per-u020-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ana, Bruno, Carla e Diego estão sentados em quatro posições de uma mesa circular. Partindo de Ana no sentido horário, a sequência é Ana, Bruno, Carla, Diego. Qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana tem apenas Bruno como vizinho."
+        },
+        {
+          "id": "B",
+          "text": "Ana e Diego são vizinhos."
+        },
+        {
+          "id": "C",
+          "text": "Ana e Carla são vizinhas."
+        },
+        {
+          "id": "D",
+          "text": "Bruno e Diego são vizinhos."
+        },
+        {
+          "id": "E",
+          "text": "Diego não tem vizinho após ele no sentido horário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O círculo fecha: Ana-Bruno-Carla-Diego-Ana. Ana tem Bruno e Diego como vizinhos; Carla fica oposta a Ana, e Diego oposto a Bruno. A sequência não acaba em Diego: o próximo é Ana. Questão autoral."
+    }
+  ]
+}
