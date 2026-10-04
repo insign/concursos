@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q114001",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa exerce, por convocação válida, função pública durante alguns dias e não recebe salário por essa atuação. Qual conclusão decorre do conceito amplo de agente público?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ela pode ser agente público, pois transitoriedade e ausência de salário não excluem o exercício juridicamente reconhecido de função pública."
+        },
+        {
+          "id": "B",
+          "text": "Ela só será agente público se a convocação também lhe conferir um cargo efetivo."
+        },
+        {
+          "id": "C",
+          "text": "Ela será agente público apenas se houver contrato de emprego, mesmo sem salário."
+        },
+        {
+          "id": "D",
+          "text": "Ela só será agente público se a atividade puder ser atribuída a ocupante de cargo em comissão."
+        },
+        {
+          "id": "E",
+          "text": "Ela deverá ser classificada como agente político, pois não mantém vínculo profissional permanente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A identifica os elementos relevantes: pessoa física, função pública e vínculo reconhecido. Permanência, salário, cargo efetivo e contrato de emprego não são requisitos universais do gênero. Atuação eventual também não basta para classificar alguém como agente político. Questão autoral do Projeto Insign; Lei nº 8.429/1992, art. 2º, como conceito legal amplo para os efeitos dessa lei."
+    },
+    {
+      "id": "q114003",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma análise utiliza o conceito de agente público do artigo 2º da Lei nº 8.429/1992 para reconhecer diferentes formas de atuação nas entidades abrangidas pela lei. Qual limite deve ser respeitado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A definição deve ser aplicada apenas a titulares de cargos efetivos, porque o regime de improbidade é estatutário."
+        },
+        {
+          "id": "B",
+          "text": "A inclusão na definição faz o agente político passar ao mesmo regime funcional do servidor estatutário."
+        },
+        {
+          "id": "C",
+          "text": "O conceito vale para os efeitos dessa lei e não uniformiza os regimes funcionais nem elimina as distinções entre cargo, emprego e função."
+        },
+        {
+          "id": "D",
+          "text": "A menção a atuação sem remuneração limita a definição aos particulares em colaboração."
+        },
+        {
+          "id": "E",
+          "text": "O conceito dispensa identificar a entidade em que a função é exercida, pois abrange qualquer atividade privada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei de Improbidade Administrativa adota conceito amplo para os seus efeitos, alcançando diferentes formas de atuação e investidura nas entidades abrangidas. Essa amplitude não institui estatuto único nem alcança indistintamente qualquer atividade privada. Questão autoral do Projeto Insign; Lei nº 8.429/1992, art. 2º."
+    },
+    {
+      "id": "q114004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação didática adotada no material, constitui exemplo seguro de agente político",
+      "options": [
+        {
+          "id": "A",
+          "text": "empregado de empresa pública aprovado em concurso."
+        },
+        {
+          "id": "B",
+          "text": "servidor técnico ocupante de cargo efetivo."
+        },
+        {
+          "id": "C",
+          "text": "jurado convocado para sessão do Tribunal do Júri."
+        },
+        {
+          "id": "D",
+          "text": "governador de Estado no exercício do mandato."
+        },
+        {
+          "id": "E",
+          "text": "contratado temporário para necessidade excepcional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Chefes do Poder Executivo são exemplos tradicionais de agentes políticos, ligados à direção política do Estado. Empregados, servidores estatutários, temporários e particulares em colaboração têm vínculos distintos na classificação didática utilizada. Questão autoral do Projeto Insign; Manual de Processo Administrativo Disciplinar da Controladoria-Geral da União, maio de 2017, seção 4.2.3."
+    },
+    {
+      "id": "q114007",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma empresa pública admite, após concurso, pessoa para emprego sob vínculo regido pela Consolidação das Leis do Trabalho. A classificação correta dessa posição é",
+      "options": [
+        {
+          "id": "A",
+          "text": "cargo efetivo, pois a aprovação em concurso transforma o vínculo trabalhista em estatutário."
+        },
+        {
+          "id": "B",
+          "text": "emprego público, pois o concurso não altera a natureza trabalhista do vínculo informado."
+        },
+        {
+          "id": "C",
+          "text": "função de confiança, pois o concurso demonstra a confiança da Administração no empregado."
+        },
+        {
+          "id": "D",
+          "text": "cargo em comissão, pois a empresa pública é pessoa jurídica de direito privado."
+        },
+        {
+          "id": "E",
+          "text": "função temporária, pois o vínculo trabalhista não pode sustentar emprego permanente na Administração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Concurso e natureza do vínculo são critérios diferentes. O emprego informado é trabalhista; o concurso cumpre a exigência constitucional de ingresso sem convertê-lo em cargo estatutário. Questão autoral do Projeto Insign; Constituição, art. 37, II; Manual de Processo Administrativo Disciplinar da Controladoria-Geral da União, maio de 2017, seção 4.2.3, item sobre empregados de estatais."
+    },
+    {
+      "id": "q114009",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao comparar um integrante da Polícia Militar com um servidor civil estatutário, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos mantêm o mesmo vínculo trabalhista, embora exerçam atividades diferentes."
+        },
+        {
+          "id": "B",
+          "text": "a classificação do militar depende apenas de ocupar cargo de chefia."
+        },
+        {
+          "id": "C",
+          "text": "o integrante da Polícia Militar passa a ser agente político por participar da segurança pública."
+        },
+        {
+          "id": "D",
+          "text": "ambos integram o gênero agente público, mas o militar possui regime constitucional e legal próprio."
+        },
+        {
+          "id": "E",
+          "text": "a distinção de regimes exclui o militar do conceito de agente público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição identifica os membros das Polícias Militares e dos Corpos de Bombeiros Militares como militares e disciplina seu regime próprio. A categoria integra os agentes públicos, sem equiparação automática ao servidor civil ou ao empregado. Questão autoral do Projeto Insign; Constituição, art. 42."
+    },
+    {
+      "id": "q114012",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para os efeitos da Lei nº 8.112/1990, a definição de cargo público identifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pessoa física que exerce as atribuições, independentemente da posição em que tenha sido investida."
+        },
+        {
+          "id": "B",
+          "text": "o conjunto de atribuições e responsabilidades previsto na estrutura organizacional e cometido a um servidor."
+        },
+        {
+          "id": "C",
+          "text": "o contrato trabalhista celebrado entre a entidade federal e seu empregado."
+        },
+        {
+          "id": "D",
+          "text": "qualquer atividade prestada à União, inclusive a execução privada de um fornecimento."
+        },
+        {
+          "id": "E",
+          "text": "apenas a função de chefia atribuída a quem já ocupa posição permanente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 3º define cargo pelo conjunto de atribuições e responsabilidades na estrutura organizacional. Já o art. 2º define servidor pela pessoa legalmente investida no cargo. A posição não se confunde com seu ocupante nem com emprego trabalhista. Questão autoral do Projeto Insign; Lei nº 8.112/1990, arts. 2º e 3º, no âmbito federal."
+    },
+    {
+      "id": "q114016",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual formulação corresponde à regra e à exceção expressa do artigo 37, II, da Constituição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cargo e emprego públicos exigem, em regra, aprovação prévia em concurso; ressalva-se a nomeação para cargo em comissão declarado em lei de livre nomeação e exoneração."
+        },
+        {
+          "id": "B",
+          "text": "O concurso é regra apenas para cargo estatutário; o emprego trabalhista dispensa essa exigência por ter regime privado."
+        },
+        {
+          "id": "C",
+          "text": "Todo cargo de chefia dispensa concurso, ainda que a lei o tenha instituído como cargo efetivo."
+        },
+        {
+          "id": "D",
+          "text": "A experiência profissional substitui o concurso quando a autoridade declarar confiança no candidato."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer função exercida por prazo determinado autoriza a investidura em cargo efetivo sem concurso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição alcança cargo e emprego na regra do concurso e ressalva a nomeação para cargo em comissão legalmente declarado de livre nomeação e exoneração. Chefia, experiência ou prazo, isoladamente, não convertem cargo efetivo em comissionado. Questão autoral do Projeto Insign; Constituição, art. 37, II e V."
+    },
+    {
+      "id": "q114018",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma empresa privada fornece material a um órgão público, e um empregado apenas realiza a entrega contratada, sem atribuição de função pública. Que conclusão é adequada sobre o vínculo desse trabalhador?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele ocupa emprego público, porque o pagamento do fornecimento provém do orçamento estatal."
+        },
+        {
+          "id": "B",
+          "text": "Ele ocupa cargo público durante a entrega, porque atua dentro de um órgão público."
+        },
+        {
+          "id": "C",
+          "text": "O fornecimento, por si, não o transforma em agente público ou em integrante do quadro estatal."
+        },
+        {
+          "id": "D",
+          "text": "Ele recebe delegação de serviço público pelo simples fato de executar uma obrigação contratual privada."
+        },
+        {
+          "id": "E",
+          "text": "Ele exerce função de confiança enquanto estiver sujeito à fiscalização do contrato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O caso informa execução privada de fornecimento e ausência de atribuição de função pública. Origem dos recursos, local da entrega e fiscalização do contrato não criam cargo, emprego ou função de confiança. Isso não é uma conclusão sobre toda possível relação de particulares com o Estado: delegação ou atribuição de função pública exige examinar outro vínculo. Questão autoral do Projeto Insign; distinções conceituais do capítulo e Constituição, arts. 37 e 236."
+    },
+    {
+      "id": "q114021",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto ao preenchimento de cargos em comissão, o artigo 37, V, da Constituição estabelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "reserva a servidores de carreira nos casos, condições e percentuais mínimos previstos em lei."
+        },
+        {
+          "id": "B",
+          "text": "exclusividade para servidores ocupantes de cargo efetivo, com a mesma regra das funções de confiança."
+        },
+        {
+          "id": "C",
+          "text": "percentual mínimo único de servidores de carreira, fixado diretamente pela Constituição para todos os entes."
+        },
+        {
+          "id": "D",
+          "text": "liberdade para cada autoridade definir a reserva, sem disciplina legal, em cada nomeação."
+        },
+        {
+          "id": "E",
+          "text": "dispensa da reserva legal quando as atribuições do cargo sejam de assessoramento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A reserva para cargos em comissão depende da disciplina legal de casos, condições e percentuais mínimos. A Constituição não fixa um percentual único nem reproduz para esses cargos a exclusividade de servidores efetivos exigida para funções de confiança. Questão autoral do Projeto Insign; Constituição, art. 37, V."
+    },
+    {
+      "id": "q114023",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma lei cria cargo em comissão chamado “assessor”, cujas atribuições consistem apenas em digitar dados e arquivar documentos rotineiramente. Segundo o Tema 1.010 do Supremo Tribunal Federal, essa criação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é válida porque a denominação assessor determina a natureza das atribuições."
+        },
+        {
+          "id": "B",
+          "text": "é válida se a pessoa nomeada tiver formação técnica suficiente para as tarefas."
+        },
+        {
+          "id": "C",
+          "text": "é incompatível com a finalidade constitucional da comissão, pois o caso descreve tarefas meramente operacionais."
+        },
+        {
+          "id": "D",
+          "text": "é válida se o ocupante puder ser exonerado livremente, pois esse requisito substitui o exame da atividade."
+        },
+        {
+          "id": "E",
+          "text": "é válida se houver relação pessoal de confiança, ainda que não exista direção, chefia ou assessoramento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A finalidade deve decorrer das atribuições efetivas, não apenas do nome do cargo. Rotinas meramente operacionais não justificam comissão; conhecimento técnico, livre exoneração ou confiança não substituem o requisito de direção, chefia ou assessoramento. Questão autoral do Projeto Insign; Constituição, art. 37, V; Supremo Tribunal Federal, Tema 1.010."
+    },
+    {
+      "id": "q114025",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na análise constitucional da quantidade de cargos em comissão criados por um ente federativo, o Tema 1.010 do Supremo Tribunal Federal exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "que sejam sempre numericamente iguais aos cargos efetivos existentes."
+        },
+        {
+          "id": "B",
+          "text": "que seja observado um percentual máximo único estabelecido pela tese para qualquer ente."
+        },
+        {
+          "id": "C",
+          "text": "que a confiança da autoridade seja o único critério, independentemente da necessidade atendida."
+        },
+        {
+          "id": "D",
+          "text": "que seja considerado apenas o orçamento disponível, pois o número de servidores efetivos é irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "proporcionalidade com a necessidade a ser suprida e com o número de servidores ocupantes de cargos efetivos no ente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A tese exige relação de proporcionalidade com dois elementos: necessidade atendida e número de servidores efetivos do ente. Não fixa igualdade numérica ou percentual universal; confiança e recursos financeiros não dispensam essa análise. Questão autoral do Projeto Insign; Supremo Tribunal Federal, Tema 1.010."
+    },
+    {
+      "id": "q114026",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma lei cria cargos em comissão apenas por denominação e deixa a definição integral de suas atribuições para decreto posterior. Conforme o Tema 1.010 do Supremo Tribunal Federal, qual correção é necessária?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Descrever clara e objetivamente as atribuições na própria lei que institui os cargos."
+        },
+        {
+          "id": "B",
+          "text": "Transferir a descrição das atribuições para cada ato individual de nomeação."
+        },
+        {
+          "id": "C",
+          "text": "Descrever as atribuições em regulamento interno reservado à chefia."
+        },
+        {
+          "id": "D",
+          "text": "Fixar as atribuições em contrato individual com cada ocupante."
+        },
+        {
+          "id": "E",
+          "text": "Declarar no decreto que os cargos são de confiança, dispensando descrição na lei."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A exigência recai sobre a própria lei criadora e permite avaliar a correspondência das atribuições com direção, chefia e assessoramento. A descrição integral por ato posterior não satisfaz essa condição. Questão autoral do Projeto Insign; Supremo Tribunal Federal, Tema 1.010."
+    },
+    {
+      "id": "q114027",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual conjunto reúne os requisitos de validade da contratação temporária sistematizados no Tema 612 do Supremo Tribunal Federal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Previsão legal, prazo predeterminado e atividade permanente ordinária, bastando que haja vagas no quadro."
+        },
+        {
+          "id": "B",
+          "text": "Casos excepcionais legais, prazo predeterminado, necessidade temporária, interesse público excepcional e contratação indispensável."
+        },
+        {
+          "id": "C",
+          "text": "Autorização da chefia, prazo predeterminado e conhecimento técnico, independentemente de previsão legal."
+        },
+        {
+          "id": "D",
+          "text": "Previsão legal e interesse público, dispensada a temporariedade da necessidade quando o contrato tiver prazo."
+        },
+        {
+          "id": "E",
+          "text": "Necessidade temporária e confiança pessoal da autoridade, com dispensa da análise de indispensabilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os cinco requisitos são cumulativos. Prazo no contrato, vagas, conhecimento técnico ou confiança não substituem previsão legal, excepcionalidade, temporariedade e indispensabilidade. A tese veda a contratação para serviços ordinários permanentes sujeitos às contingências normais da Administração. Questão autoral do Projeto Insign; Constituição, art. 37, IX; Supremo Tribunal Federal, Tema 612."
+    },
+    {
+      "id": "q114028",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa exerce assessoramento em cargo em comissão; outra atua sob contratação temporária do artigo 37, IX, da Constituição. O fato de ambas não serem titulares de cargo efetivo permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantêm o mesmo vínculo, diferindo apenas no prazo de atuação."
+        },
+        {
+          "id": "B",
+          "text": "ocupam empregos públicos, pois a falta de cargo efetivo implica vínculo trabalhista."
+        },
+        {
+          "id": "C",
+          "text": "possuem fundamentos distintos: comissão se liga a direção, chefia ou assessoramento; temporário, à necessidade temporária de excepcional interesse público."
+        },
+        {
+          "id": "D",
+          "text": "podem ter seus vínculos trocados por ato da chefia, sem examinar a finalidade de cada figura."
+        },
+        {
+          "id": "E",
+          "text": "dependem da mesma finalidade constitucional, sendo suficiente a confiança da autoridade em ambas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ausência de cargo efetivo não uniformiza os vínculos. O cargo em comissão é cargo próprio e tem as finalidades do art. 37, V. A contratação temporária decorre do art. 37, IX, e atende necessidade temporária excepcional, sob requisitos específicos. Questão autoral do Projeto Insign; Constituição, art. 37, II, V e IX."
+    },
+    {
+      "id": "q114029",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual comparação entre cargo efetivo e cargo em comissão está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas o cargo efetivo é cargo público; comissão é sempre uma função sem cargo."
+        },
+        {
+          "id": "B",
+          "text": "Ambos são empregos públicos, pois contêm atribuições desempenhadas profissionalmente."
+        },
+        {
+          "id": "C",
+          "text": "O concurso torna o cargo efetivo um vínculo trabalhista; a livre nomeação torna a comissão estatutária."
+        },
+        {
+          "id": "D",
+          "text": "Ambos são cargos públicos, mas diferem quanto ao provimento e aos limites da finalidade do cargo em comissão."
+        },
+        {
+          "id": "E",
+          "text": "A livre nomeação permite que o cargo em comissão substitua qualquer cargo efetivo, inclusive para rotina operacional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ambos são cargos públicos. O efetivo tem concurso como porta ordinária; o comissionado é de livre nomeação e exoneração, observadas as finalidades de direção, chefia e assessoramento e os demais limites constitucionais. Questão autoral do Projeto Insign; Constituição, art. 37, II e V."
+    },
+    {
+      "id": "q114034",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do art. 236 da Constituição e da classificação doutrinária utilizada, o delegatário de serviço notarial ou de registro",
+      "options": [
+        {
+          "id": "A",
+          "text": "é servidor estatutário do Estado."
+        },
+        {
+          "id": "B",
+          "text": "é empregado público de cartório estatal."
+        },
+        {
+          "id": "C",
+          "text": "ocupa cargo em comissão de delegação."
+        },
+        {
+          "id": "D",
+          "text": "é particular em colaboração com o Poder Público, exercendo atividade pública por delegação."
+        },
+        {
+          "id": "E",
+          "text": "é agente político por delegação constitucional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 236 prevê serviços notariais e de registro exercidos em caráter privado por delegação do Poder Público. Na classificação adotada, o delegatário é particular em colaboração; não se torna, pela delegação, servidor estatutário ou empregado estatal. Questão autoral do Projeto Insign; Constituição, art. 236."
+    },
+    {
+      "id": "q114036",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É exemplo de exercício de função pública por particular em colaboração, sem ocupação necessária de cargo ou emprego público,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a atuação de mesário eleitoral convocado."
+        },
+        {
+          "id": "B",
+          "text": "a investidura de técnico em cargo efetivo."
+        },
+        {
+          "id": "C",
+          "text": "a contratação de empregado permanente de empresa pública."
+        },
+        {
+          "id": "D",
+          "text": "a nomeação para cargo em comissão."
+        },
+        {
+          "id": "E",
+          "text": "a posse de servidor estatutário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O mesário exerce função pública específica sem precisar integrar o quadro como servidor ou empregado. O Código Eleitoral prevê a constituição da mesa receptora e a nomeação de seus membros. Os demais exemplos indicam cargo ou emprego. Questão autoral do Projeto Insign; Lei nº 4.737/1965, art. 120, e classificação didática do capítulo."
+    },
+    {
+      "id": "q114043",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma questão inclui magistrados e membros do Ministério Público entre os agentes políticos e informa expressamente que adota essa corrente doutrinária. A atitude adequada ao analisar a classificação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "rejeitá-la porque agente político é categoria constitucional restrita a quem foi eleito."
+        },
+        {
+          "id": "B",
+          "text": "reclassificar essas pessoas como empregados públicos em razão da ausência de mandato eletivo."
+        },
+        {
+          "id": "C",
+          "text": "considerar o referencial expresso, pois há divergência doutrinária sobre o alcance da categoria."
+        },
+        {
+          "id": "D",
+          "text": "exigir que a classificação venha acompanhada de demonstração de vínculo temporário."
+        },
+        {
+          "id": "E",
+          "text": "concluir que a divergência impede considerá-los agentes públicos em qualquer sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ausência de uniformidade doutrinária não elimina o gênero agente público. Quando o enunciado explicita a corrente, essa é a referência de classificação; não se deve impor outra como lista constitucional fechada. Questão autoral do Projeto Insign; Manual de Processo Administrativo Disciplinar da Controladoria-Geral da União, maio de 2017, seção 4.2.3, item sobre agentes políticos e vitalícios."
+    },
+    {
+      "id": "q114046",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um servidor exerce as atribuições de seu cargo; um empregado, as de seu emprego; um particular convocado exerce função pública específica sem assumir cargo ou emprego permanente. Qual relação essas situações demonstram?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cargo e emprego envolvem funções, mas uma função pública pode existir sem posição permanente correspondente."
+        },
+        {
+          "id": "B",
+          "text": "Função pública é apenas outro nome para cargo efetivo, inclusive na atuação do particular."
+        },
+        {
+          "id": "C",
+          "text": "A diferença entre cargo e emprego é eliminada quando ambos possuem atribuições."
+        },
+        {
+          "id": "D",
+          "text": "Somente o servidor estatutário exerce função pública; as demais atividades são necessariamente privadas."
+        },
+        {
+          "id": "E",
+          "text": "O particular passa a ocupar cargo em comissão enquanto durar sua convocação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Função identifica atribuições; cargo e emprego identificam posições jurídicas com atribuições. A função pública do particular não cria, por si, posição permanente, assim como a existência de atribuições não iguala cargo e emprego. Questão autoral do Projeto Insign; distinções conceituais do capítulo, Constituição, art. 37, e Lei nº 8.112/1990, art. 3º, como referência federal."
+    },
+    {
+      "id": "q114050",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um edital estadual exige conceitos de cargo, emprego e função, mas não nomeia estatuto funcional. Qual uso da Lei nº 8.112/1990 é juridicamente adequado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplicá-la integralmente aos servidores estaduais, pois toda lei federal sobre pessoal tem alcance nacional."
+        },
+        {
+          "id": "B",
+          "text": "Aplicá-la como regime obrigatório apenas aos empregados das empresas públicas estaduais."
+        },
+        {
+          "id": "C",
+          "text": "Usá-la para substituir as disposições constitucionais sobre acesso a cargos e empregos."
+        },
+        {
+          "id": "D",
+          "text": "Tratar seus conceitos como prova de que servidores estaduais e federais têm os mesmos direitos e deveres."
+        },
+        {
+          "id": "E",
+          "text": "Utilizá-la como referência conceitual delimitada ao âmbito federal, sem presumir sua aplicação ao vínculo estadual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 1º delimita o regime aos servidores civis da União, autarquias e fundações públicas federais. Referência conceitual não equivale a transposição do estatuto; o regime estadual depende de base própria. Questão autoral do Projeto Insign; Lei nº 8.112/1990, arts. 1º a 3º."
+    },
+    {
+      "id": "per-u039-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Cebraspe — Tribunal de Contas do Estado da Paraíba, Agente de Documentação, aplicação de 2018, questão 12 do caderno 366_TCE_PB_001_01 (adaptada). Qual combinação de ocupante e finalidade corresponde à função de confiança prevista na Constituição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente servidor titular de cargo efetivo; atribuições de dirigir, chefiar ou assessorar."
+        },
+        {
+          "id": "B",
+          "text": "Pessoa aposentada que volte a atuar; qualquer tarefa diferente da que exercia antes."
+        },
+        {
+          "id": "C",
+          "text": "Pessoa sem cargo efetivo; tarefas internas de apoio, observados limites legais."
+        },
+        {
+          "id": "D",
+          "text": "Qualquer cidadão; tarefas que não envolvam direção ou assessoramento jurídico."
+        },
+        {
+          "id": "E",
+          "text": "Pessoa com ou sem vínculo anterior; atividades finalísticas ou de apoio em geral."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve resposta A no gabarito definitivo do caderno indicado. A adaptação mantém os dois requisitos do art. 37, V: a função de confiança cabe exclusivamente a servidor ocupante de cargo efetivo e serve apenas a direção, chefia ou assessoramento. As demais combinações afastam a exclusividade do ocupante ou ampliam indevidamente a finalidade."
+    }
+  ]
+}

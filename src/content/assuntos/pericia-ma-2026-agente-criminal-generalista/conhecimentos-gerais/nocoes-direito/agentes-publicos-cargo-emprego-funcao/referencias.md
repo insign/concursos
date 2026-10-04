@@ -1,0 +1,22 @@
+# Referências
+
+## Bases normativas
+
+- Brasil. [Constituição da República Federativa do Brasil de 1988 — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm). Artigo 37, I, II, V e IX; artigo 41, apenas para distinguir efetividade de estabilidade; artigos 42 e 142, regimes militares; artigo 173, § 1º, II, vínculo trabalhista das empresas estatais ali abrangidas; artigo 236, delegação notarial e registral.
+- Brasil. [Lei nº 8.429, de 2 de junho de 1992 — Lei de Improbidade Administrativa](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm). Artigo 2º, conceito de agente público para os efeitos da lei, na redação da Lei nº 14.230/2021. Não substitui os regimes funcionais.
+- Brasil. [Lei nº 8.112, de 11 de dezembro de 1990 — regime dos servidores públicos civis federais](https://www.planalto.gov.br/ccivil_03/leis/l8112compilado.htm). Artigos 1º a 3º, âmbito federal, servidor e cargo público; artigos 8º, I, e 34–35, vocabulário mínimo de nomeação e exoneração. Referência conceitual, sem pressupor aplicação ao cargo estadual.
+- Brasil. [Lei nº 4.737, de 15 de julho de 1965 — Código Eleitoral](https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm). Artigo 120, constituição da mesa receptora e nomeação de mesários. Suporte ao exemplo de colaboração cívica.
+- Brasil. [Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal](https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm). Artigo 436, na redação da Lei nº 11.689/2008, participação dos cidadãos no serviço do júri. Suporte ao exemplo de colaboração cívica.
+
+## Jurisprudência e classificação
+
+- <abbr title="Supremo Tribunal Federal">STF</abbr>. [Tema 1.010 — critérios constitucionais para criação de cargos em comissão](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5171382&numeroProcesso=1041210&numeroTema=1010). Recurso Extraordinário 1.041.210. Tese também publicada na [notícia institucional de 1º de outubro de 2018](https://noticias.stf.jus.br/postsnoticias/stf-reafirma-jurisprudencia-sobre-criterios-para-criacao-de-cargos-em-comissao/): finalidade, confiança, proporcionalidade e atribuições descritas na própria lei.
+- <abbr title="Supremo Tribunal Federal">STF</abbr>. [Tema 612 — constitucionalidade de lei municipal sobre contratação temporária](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4144344&numeroProcesso=658026&numeroTema=612). Recurso Extraordinário 658.026, julgamento de 9 de abril de 2014. Tese: previsão legal dos casos excepcionais, prazo predeterminado, necessidade temporária, interesse excepcional e indispensabilidade; limite aos serviços ordinários permanentes.
+- <abbr title="Controladoria-Geral da União">CGU</abbr>. [Manual de Processo Administrativo Disciplinar, versão maio de 2017](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/atividade-disciplinar/arquivos/manual-pad-maio-2017.pdf). Seção 4.2.3, páginas impressas 34–36: agentes políticos e divergência sobre magistrados e membros do Ministério Público, militares, particulares em colaboração e empregados de empresas estatais. Utilizado apenas para essas distinções conceituais, sem transpor suas regras disciplinares ou o regime federal ao cargo estadual.
+
+## Questão anterior e autoria
+
+- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Tribunal de Contas do Estado da Paraíba, Agente de Documentação, aplicação em **13 de janeiro de 2018**, concurso identificado como TCE_PB_17. [Caderno 366_TCE_PB_001_01](https://cdn.cebraspe.org.br/concursos/TCE_PB_17/arquivos/366_TCE_PB_001_01.PDF), questão 12, e [gabarito oficial definitivo correspondente](https://cdn.cebraspe.org.br/concursos/TCE_PB_17/arquivos/GAB_Definitivo_366_TCE_PB_001_01.PDF), resposta A. A questão anterior do banco foi adaptada em linguagem e alternativas, preservando a exigência constitucional e a resposta.
+- As demais questões são autorais do Projeto Insign, selecionadas e revisadas a partir do banco de agentes públicos, cargo, emprego e função do material de Técnico Administrativo do Tribunal de Contas do Estado do Maranhão. A atribuição autoral não é atribuição a banca.
+
+Legislação considerada no corte de **17 de julho de 2026**; consulta das fontes em **4 de outubro de 2026**. As passagens utilizadas têm redações anteriores ao corte. A data de consulta não substitui o corte legal nem certifica o marco jurisprudencial futuro previsto no edital.
