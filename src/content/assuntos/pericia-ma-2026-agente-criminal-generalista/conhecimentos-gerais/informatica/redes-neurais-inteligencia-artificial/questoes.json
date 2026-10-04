@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "q4659",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Uma rotina copia arquivos segundo uma condição fixa. Outro sistema usa fatos e relações explicitamente representados para inferir respostas, sem ter sido treinado com exemplos. A análise correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A primeira rotina é automatizada; o segundo sistema pode usar inteligência artificial baseada em conhecimento, sem depender de aprendizado de máquina."
+        },
+        {
+          "id": "B",
+          "text": "Os dois sistemas necessariamente usam aprendizado de máquina, pois recebem entradas e produzem saídas."
+        },
+        {
+          "id": "C",
+          "text": "O segundo sistema deixa de pertencer à inteligência artificial por empregar conhecimento explicitamente representado."
+        },
+        {
+          "id": "D",
+          "text": "A primeira rotina precisa de uma rede neural para executar a condição escrita pelo programador."
+        },
+        {
+          "id": "E",
+          "text": "A ausência de treinamento prova que ambos são sistemas generativos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Automação não exige aprendizagem. Inteligência artificial também inclui abordagens simbólicas ou baseadas em conhecimento; treino com dados não é requisito de toda inteligência artificial. Autoral do acervo Insign/Concursos, herdada e reformulada para esta unidade."
+    },
+    {
+      "id": "q4663",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Dois modelos recebem o mesmo documento: um devolve apenas uma classe entre as previstas, e o outro redige uma síntese. A característica que distingue mais diretamente a segunda tarefa é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O ajuste de parâmetros a cada consulta, indispensável para produzir uma síntese."
+        },
+        {
+          "id": "B",
+          "text": "O agrupamento de documentos sem rótulos, comprovado pela presença de texto na entrada."
+        },
+        {
+          "id": "C",
+          "text": "A ausência de aprendizado de máquina, pois o resultado não é um número."
+        },
+        {
+          "id": "D",
+          "text": "A garantia de que o documento foi reproduzido sem omissões ou acréscimos."
+        },
+        {
+          "id": "E",
+          "text": "A geração de conteúdo, cuja correção ainda precisa ser conferida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gerar uma síntese é produzir conteúdo; atribuir uma classe é uma tarefa classificadora. Geração não exige ajuste de pesos a cada pedido e não assegura fidelidade factual. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "q4669",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Em um grande modelo de linguagem, a relação entre token e palavra é corretamente descrita por:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um token pode representar uma palavra, um fragmento de palavra ou um caractere, conforme a forma de representação adotada."
+        },
+        {
+          "id": "B",
+          "text": "Cada token corresponde obrigatoriamente a uma palavra completa delimitada por espaços."
+        },
+        {
+          "id": "C",
+          "text": "Tokens representam somente letras; sinais de pontuação são sempre descartados antes do processamento."
+        },
+        {
+          "id": "D",
+          "text": "A quantidade de tokens é sempre igual à de caracteres de qualquer texto."
+        },
+        {
+          "id": "E",
+          "text": "Um token é o vocabulário completo do modelo, e não uma unidade em que um texto é dividido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tokenização divide texto em unidades processadas pelo modelo; não há equivalência geral de um token para uma palavra. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "q4670",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Uma versão fixa de um modelo recebe um documento novo e produz uma saída, conservando seus parâmetros. Essa operação é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treinamento dos pesos a partir do documento recebido."
+        },
+        {
+          "id": "B",
+          "text": "Inferência com o modelo já ajustado."
+        },
+        {
+          "id": "C",
+          "text": "Seleção de hiperparâmetros a partir da resposta correta do documento."
+        },
+        {
+          "id": "D",
+          "text": "Rotulagem prévia dos dados que originalmente ajustaram os pesos."
+        },
+        {
+          "id": "E",
+          "text": "Retropropagação da perda para atualizar os parâmetros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Inferência usa a versão do modelo para calcular uma saída. O cenário exclui atualização de parâmetros, portanto não descreve treinamento ou retropropagação para ajuste. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "q4672",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Ao resumir um documento, um modelo afirma que houve uma decisão em certa data e oferece uma citação. A conferência mostra que nem a decisão nem a citação existem no material utilizado. O problema descrito é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Subajuste demonstrado pela comparação entre desempenho de treino e teste."
+        },
+        {
+          "id": "B",
+          "text": "Agrupamento sem rótulos, decorrente da ausência da decisão na fonte."
+        },
+        {
+          "id": "C",
+          "text": "Ajuste fino, porque a resposta mudou o conteúdo do documento."
+        },
+        {
+          "id": "D",
+          "text": "Alucinação ou confabulação, pois conteúdo sem sustentação foi apresentado de modo plausível."
+        },
+        {
+          "id": "E",
+          "text": "Vazamento comprovado entre treino e teste, apenas porque apareceu uma data."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A saída atribuiu à fonte conteúdo que ela não sustenta. Isso caracteriza alucinação; o cenário não fornece dados para diagnosticar subajuste ou contaminação de conjuntos. A citação gerada também precisa ser verificada. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "q4720",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Uma equipe classifica documentos recém-chegados usando exemplos já classificados para ajustar um modelo, sem escrever uma regra individual para cada futuro documento. Qual abordagem realiza esse ajuste a partir de dados?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virtualização do servidor, que cria por si só a relação entre atributos e classes."
+        },
+        {
+          "id": "B",
+          "text": "Execução de uma tabela fixa de encaminhamento, sem alteração de modelo a partir de exemplos."
+        },
+        {
+          "id": "C",
+          "text": "Aumento da capacidade de armazenamento, que substitui o procedimento de aprendizagem."
+        },
+        {
+          "id": "D",
+          "text": "Aprendizado de máquina, com o modelo ajustado pelos exemplos."
+        },
+        {
+          "id": "E",
+          "text": "Aplicação de regras simbólicas escritas uma a uma, sem aprendizagem a partir dos exemplos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ajustar um modelo a partir de exemplos para utilizar em entradas novas é aprendizado de máquina. Adaptação temática não literal da Fundação Getulio Vargas, Assembleia Legislativa do Estado do Rio de Janeiro, Especialista Legislativo Nível III — Administração Geral, Tipo 1, questão 22, prova de 08/02/2026; gabarito definitivo D. O original tratava de previsão de demanda de um centro de dados, e as alternativas locais foram reformuladas. Caderno e definitivo estão em Referências."
+    },
+    {
+      "id": "q522048",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Um modelo de linguagem recebe milhares de pares de entrada e resposta durante uma fase de desenvolvimento. Seus parâmetros são ajustados com base nesses exemplos; meses depois, usuários enviam solicitações a uma versão já ajustada. Como se chama a primeira fase?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consulta de usuário à versão publicada."
+        },
+        {
+          "id": "B",
+          "text": "Inferência com parâmetros já ajustados."
+        },
+        {
+          "id": "C",
+          "text": "Busca de um documento externo em tempo de resposta."
+        },
+        {
+          "id": "D",
+          "text": "Publicação da interface depois do desenvolvimento."
+        },
+        {
+          "id": "E",
+          "text": "Treinamento, quando os parâmetros são ajustados a partir dos dados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Treinamento modifica parâmetros com os exemplos; a utilização posterior da versão ajustada é inferência. Adaptação temática não literal da Fundação Getulio Vargas, Concurso Público Nacional Unificado, segunda edição, Bloco 3 — Ciências, Dados e Tecnologia, Tipo 1, questão 71 (2025); definitivo retificado em 21/11/2025: E. O original relacionava ajuste e captura de padrões à fase de treinamento, sem limitar a supervisão humana exclusivamente a essa fase. Enunciado e alternativas locais reformulados na origem; caderno e definitivo em Referências."
+    },
+    {
+      "id": "q522053",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Relatórios textuais receberam previamente as etiquetas «urgente» e «rotina». Após aprender com esse acervo, um sistema passa a sugerir uma dessas classes para relatórios novos. Qual técnica descreve o núcleo da tarefa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agrupamento não supervisionado, pois as categorias foram fornecidas previamente."
+        },
+        {
+          "id": "B",
+          "text": "Regressão, pois qualquer categoria representada internamente por um número é uma medida numérica."
+        },
+        {
+          "id": "C",
+          "text": "Aprendizado supervisionado aplicado à classificação de texto."
+        },
+        {
+          "id": "D",
+          "text": "Aprendizado por reforço, demonstrado apenas pela existência de duas classes de resposta."
+        },
+        {
+          "id": "E",
+          "text": "Encaminhamento por regra fixa sem ajuste do modelo com os exemplos rotulados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A resposta conhecida orienta o treino e a saída é uma categoria: classificação supervisionada. Codificar categorias como números não muda a finalidade. Adaptação temática não literal de Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, Tribunal de Contas do Estado de Minas Gerais, Analista de Controle Externo — Ciência da Computação, questão 36, prova de 25/01/2026; definitivo C. O original combinava aprendizado de máquina e processamento de linguagem natural no atendimento ao público. Cenário e alternativas locais próprios; fontes em Referências."
+    },
+    {
+      "id": "u033-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um modelo aprende com atributos de tarefas concluídas e os respectivos tempos de conclusão. Seu objetivo é estimar quantos minutos uma tarefa nova levará. A tarefa supervisionada é de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agrupamento de tarefas sem utilizar o tempo conhecido."
+        },
+        {
+          "id": "B",
+          "text": "Regressão de um valor numérico."
+        },
+        {
+          "id": "C",
+          "text": "Classificação entre duas categorias predefinidas."
+        },
+        {
+          "id": "D",
+          "text": "Geração de uma síntese textual dos atributos."
+        },
+        {
+          "id": "E",
+          "text": "Reforço por ações e recompensas acumuladas no ambiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resposta desejada é uma medida numérica de duração, e os tempos conhecidos orientam o treino. Não se pede classe, grupo ou texto. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma equipe deseja reunir documentos semelhantes, sem fornecer categorias ou rótulos da resposta ao modelo. A descrição mais adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classificação supervisionada com classes previamente definidas."
+        },
+        {
+          "id": "B",
+          "text": "Regressão supervisionada do rótulo de cada documento."
+        },
+        {
+          "id": "C",
+          "text": "Agrupamento em aprendizado não supervisionado."
+        },
+        {
+          "id": "D",
+          "text": "Reforço com recompensa por cada ação de um agente no ambiente."
+        },
+        {
+          "id": "E",
+          "text": "Ajuste supervisionado em que a resposta correta de cada documento é fornecida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Agrupamento busca estrutura sem os rótulos da resposta desejada. Os grupos encontrados não recebem automaticamente o significado de categorias previamente escolhidas. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um ambiente simulado, um agente escolhe ações, recebe recompensas e ajusta sua estratégia para melhorar o resultado acumulado. O sinal que orienta essa aprendizagem é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A classe correta fornecida para cada ação possível, requisito de todo aprendizado por reforço."
+        },
+        {
+          "id": "B",
+          "text": "O retorno de recompensa associado à interação do agente com o ambiente."
+        },
+        {
+          "id": "C",
+          "text": "A semelhança entre registros sem considerar ações ou consequências."
+        },
+        {
+          "id": "D",
+          "text": "A escolha de uma categoria fixa que substitui qualquer experiência no ambiente."
+        },
+        {
+          "id": "E",
+          "text": "O acerto isolado de uma previsão, sem relação com a sequência de ações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aprendizado por reforço utiliza interação e recompensa; a política orienta escolhas em busca de retorno acumulado. Não exige rótulo correto para toda ação. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para prever se um documento exigirá correção, uma base contém a quantidade de páginas na chegada e a resposta «exigiu correção» obtida depois da análise. No treino supervisionado, a associação correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A quantidade de páginas é o alvo; a resposta posterior é um atributo sempre disponível na chegada."
+        },
+        {
+          "id": "B",
+          "text": "A quantidade de páginas pode ser atributo; a resposta conhecida pode ser o alvo do treino, sem ser entrada disponível para prever o documento novo."
+        },
+        {
+          "id": "C",
+          "text": "A resposta posterior é um hiperparâmetro, pois orienta a aprendizagem."
+        },
+        {
+          "id": "D",
+          "text": "A quantidade de páginas é um peso que deve ser aprendido pelo modelo."
+        },
+        {
+          "id": "E",
+          "text": "A presença de uma resposta conhecida transforma o problema em agrupamento não supervisionado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Atributos são entradas disponíveis para a previsão; o alvo conhecido orienta o treino. Confundir a resposta futura com entrada disponível cria vazamento. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A equipe ajusta pesos no treino, compara configurações pela validação e escolhe uma versão. Para estimar seu desempenho final, a conduta mais adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Continuar alterando as configurações para elevar o resultado no mesmo teste final usado repetidamente."
+        },
+        {
+          "id": "B",
+          "text": "Usar somente o desempenho no treino, pois os pesos já foram ajustados."
+        },
+        {
+          "id": "C",
+          "text": "Avaliar a versão escolhida em dados de teste reservados, sem utilizá-los repetidamente para orientar ajustes."
+        },
+        {
+          "id": "D",
+          "text": "Transferir cópias de documentos de treino para o teste, para tornar os resultados comparáveis."
+        },
+        {
+          "id": "E",
+          "text": "Usar a validação para atualizar todos os pesos e dispensar qualquer avaliação da versão escolhida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O teste reservado estima o desempenho após as escolhas de desenvolvimento. Reutilizá-lo para orientar mudanças ou incluir cópias do treino compromete essa avaliação. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um modelo se adapta a detalhes particulares do treino: alcança desempenho muito alto nesses exemplos, mas piora em novos exemplos representativos da mesma tarefa. Esse padrão indica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sobreajuste, com perda de generalização."
+        },
+        {
+          "id": "B",
+          "text": "Subajuste, caracterizado pelo desempenho insuficiente inclusive no treino."
+        },
+        {
+          "id": "C",
+          "text": "Generalização elevada, porque o resultado de treino prevalece sobre a avaliação nova."
+        },
+        {
+          "id": "D",
+          "text": "Reforço, pois a diferença entre resultados funciona necessariamente como recompensa."
+        },
+        {
+          "id": "E",
+          "text": "Mudança de classificação para regressão, demonstrada pela queda de desempenho."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado descreve adaptação excessiva a peculiaridades do treino, sem sustentação fora dele: sobreajuste. O bom resultado interno não comprova generalização. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a08",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um modelo inadequado à tarefa não consegue representar seu padrão relevante e tem desempenho insuficiente tanto no treino quanto em exemplos novos. O diagnóstico descrito é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sobreajuste com memorização muito eficaz do treino."
+        },
+        {
+          "id": "B",
+          "text": "Subajuste, com captura insuficiente do padrão."
+        },
+        {
+          "id": "C",
+          "text": "Vazamento, demonstrado apenas pelo desempenho baixo nos dois conjuntos."
+        },
+        {
+          "id": "D",
+          "text": "Generalização satisfatória, pois os desempenhos são semelhantes."
+        },
+        {
+          "id": "E",
+          "text": "Validação independente, que necessariamente reduz os dois desempenhos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Subajuste descreve a captura insuficiente do padrão, inclusive no treino. Desempenhos igualmente baixos não bastam para considerar o modelo adequado. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um sistema deve prever, na chegada do documento, se será necessária correção. A avaliação utiliza como entrada um campo preenchido apenas depois da correção realizada. O efeito mais diretamente associado a essa prática é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vazamento de dados, com avaliação potencialmente mais favorável que o desempenho na situação real."
+        },
+        {
+          "id": "B",
+          "text": "Subajuste necessário, pois qualquer atributo adicional reduz a capacidade do modelo."
+        },
+        {
+          "id": "C",
+          "text": "Independência maior entre treino e teste, pois o campo é posterior à chegada."
+        },
+        {
+          "id": "D",
+          "text": "Transformação em aprendizado não supervisionado, pela presença do campo posterior."
+        },
+        {
+          "id": "E",
+          "text": "Eliminação dos falsos negativos no uso real, pois o resultado posterior já será conhecido na chegada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O atributo usa informação futura indisponível no momento da previsão. Isso contamina a avaliação; não demonstra que o modelo funcionará igualmente bem quando receber apenas as entradas disponíveis. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A classe positiva significa «documento que exige correção». Um documento realmente exige correção, mas o modelo o marca como negativo. Esse resultado é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Falso negativo."
+        },
+        {
+          "id": "B",
+          "text": "Falso positivo."
+        },
+        {
+          "id": "C",
+          "text": "Verdadeiro positivo."
+        },
+        {
+          "id": "D",
+          "text": "Verdadeiro negativo."
+        },
+        {
+          "id": "E",
+          "text": "Um acerto contado na acurácia, porque a saída foi negativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A condição positiva existia, mas não foi detectada: falso negativo. O sinal da classe é definido pela tarefa, e uma previsão negativa não é necessariamente um acerto. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um lote com 1.000 documentos, 10 pertencem à classe positiva. Um modelo marca todos como negativos e acerta os outros 990. A conclusão correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A acurácia de 99% demonstra detecção de 99% dos positivos."
+        },
+        {
+          "id": "B",
+          "text": "A sensibilidade é 99%, pois seu denominador inclui os 1.000 documentos."
+        },
+        {
+          "id": "C",
+          "text": "A acurácia é 99%, mas a sensibilidade é zero e a razão usual da precisão tem denominador zero."
+        },
+        {
+          "id": "D",
+          "text": "A precisão é 99%, porque a maioria dos documentos recebeu a classe correta."
+        },
+        {
+          "id": "E",
+          "text": "A ausência de previsões positivas prova que o lote não continha positivos reais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Acurácia: 990/1.000. Sensibilidade: zero positivos detectados entre dez reais, portanto zero. Precisão divide positivos corretos por previstos positivos; como não houve previsão positiva, o denominador é zero. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "u033-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a relação entre campos e características da inteligência artificial, é correto afirmar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo modelo de aprendizado de máquina precisa ser uma rede neural profunda."
+        },
+        {
+          "id": "B",
+          "text": "Aprendizado profundo emprega redes com várias camadas de transformação e integra o aprendizado de máquina, que é uma abordagem de inteligência artificial."
+        },
+        {
+          "id": "C",
+          "text": "Toda rede neural é generativa, independentemente da saída que produz."
+        },
+        {
+          "id": "D",
+          "text": "Aprendizado supervisionado e rede neural são categorias necessariamente incompatíveis."
+        },
+        {
+          "id": "E",
+          "text": "Inteligência artificial só inclui modelos ajustados por treinamento com dados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aprendizado profundo está dentro do aprendizado de máquina. Rede neural descreve a família do modelo; supervisão, o sinal de aprendizagem; geração, a finalidade da saída. Essas dimensões não são mutuamente exclusivas. Autoral do acervo Insign/Concursos, herdada e reformulada."
+    },
+    {
+      "id": "per-u033-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade combina duas entradas pela expressão z = 3x₁ − 2x₂ + 1. Para x₁ = 0 e x₂ = 2, sua ativação devolve zero se z for negativo e conserva z nos demais casos. A combinação e a saída são, respectivamente:",
+      "options": [
+        {
+          "id": "A",
+          "text": "−3 e −3."
+        },
+        {
+          "id": "B",
+          "text": "3 e 3."
+        },
+        {
+          "id": "C",
+          "text": "−3 e 0."
+        },
+        {
+          "id": "D",
+          "text": "−4 e 0."
+        },
+        {
+          "id": "E",
+          "text": "0 e 0."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A combinação é 3·0 − 2·2 + 1 = −3; como é negativa, a ativação devolve zero. O deslocamento de 1 precisa entrar na soma. A saída não é interpretada aqui como probabilidade. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe pretende ampliar as relações representáveis por uma rede. Acrescenta várias camadas, mas todas executam somente combinações lineares com deslocamentos, sem ativação não linear. Nesse caso:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A transformação composta permanece equivalente a uma transformação dessa mesma família."
+        },
+        {
+          "id": "B",
+          "text": "A quantidade de camadas garante representação de qualquer relação não linear."
+        },
+        {
+          "id": "C",
+          "text": "Cada deslocamento substitui a necessidade de ativação não linear."
+        },
+        {
+          "id": "D",
+          "text": "Pesos diferentes nas camadas tornam a transformação composta necessariamente não linear."
+        },
+        {
+          "id": "E",
+          "text": "A saída passa necessariamente a ser uma probabilidade entre zero e um."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A composição permanece equivalente a uma única combinação linear com deslocamento. A não linearidade das ativações é decisiva para ultrapassar essa limitação; profundidade e pesos diferentes, isoladamente, não bastam. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma rede com camada de entrada, duas camadas ocultas e uma camada de saída, as camadas ocultas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas repassam os valores de entrada sem transformação, pois só a saída possui pesos."
+        },
+        {
+          "id": "B",
+          "text": "Produzem obrigatoriamente a categoria final em cada unidade, substituindo a camada de saída."
+        },
+        {
+          "id": "C",
+          "text": "Ajustam rótulos durante o treino, mantendo os pesos de todas as conexões fixos."
+        },
+        {
+          "id": "D",
+          "text": "Fornecem a resposta correta de documentos novos, sem depender dos parâmetros aprendidos."
+        },
+        {
+          "id": "E",
+          "text": "Transformam valores recebidos e produzem representações intermediárias utilizadas no processamento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Camadas ocultas transformam valores em representações intermediárias; não se limitam a repassar entradas nem precisam produzir a categoria final em cada unidade. O nome não significa acesso à resposta correta de casos novos. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No treino de uma rede, a equipe escolhe uma taxa de aprendizagem e o procedimento atualiza os pesos com os exemplos. A distinção correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A taxa é um rótulo, e os pesos são atributos do documento."
+        },
+        {
+          "id": "B",
+          "text": "Os pesos são hiperparâmetros, porque mudam durante o treino; a taxa é parâmetro aprendido em cada exemplo."
+        },
+        {
+          "id": "C",
+          "text": "A taxa e os pesos são alvos supervisionados da mesma natureza."
+        },
+        {
+          "id": "D",
+          "text": "A taxa orienta o ajuste como hiperparâmetro; os pesos atualizados são parâmetros do modelo."
+        },
+        {
+          "id": "E",
+          "text": "A escolha automática da taxa impediria classificá-la como hiperparâmetro."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A taxa controla os passos de atualização, enquanto os pesos são os valores ajustados do modelo. O fato de uma escolha ser automática não apaga a distinção entre hiperparâmetro e parâmetro. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de calcular a saída e a perda de uma rede, um procedimento calcula os gradientes em relação aos parâmetros e outro usa essas informações para atualizá-los. As funções correspondem a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Otimização dos parâmetros e retropropagação, respectivamente."
+        },
+        {
+          "id": "B",
+          "text": "Retropropagação e otimização dos parâmetros, respectivamente."
+        },
+        {
+          "id": "C",
+          "text": "Cálculo das ativações de entrada e conservação dos pesos para inferência, respectivamente."
+        },
+        {
+          "id": "D",
+          "text": "Criação de novas camadas e remoção dos alvos, respectivamente."
+        },
+        {
+          "id": "E",
+          "text": "Agrupamento dos exemplos e definição automática do significado dos grupos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Retropropagação calcula gradientes; o otimizador usa essa informação para atualizar parâmetros. O cálculo de gradientes não é, por si só, criação de arquitetura, rotulagem ou avaliação final. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um modelo de linguagem de versão fixa recebe exemplos de formato dentro de uma solicitação e gera a resposta nesse formato. O cenário não inclui atualização de parâmetros. A conclusão adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os exemplos ajustaram necessariamente todos os pesos por retropropagação."
+        },
+        {
+          "id": "B",
+          "text": "A solicitação realizou ajuste fino, mesmo sem modificação dos parâmetros."
+        },
+        {
+          "id": "C",
+          "text": "Os exemplos forneceram contexto à inferência com o modelo existente; isso não equivale ao treino adicional dos pesos."
+        },
+        {
+          "id": "D",
+          "text": "O sistema passou necessariamente a ser um agrupador não supervisionado."
+        },
+        {
+          "id": "E",
+          "text": "A ausência de ajuste de pesos impede que os exemplos influenciem a saída."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O contexto pode orientar a saída sem alterar parâmetros. Ajuste fino é treinamento adicional; não deve ser inferido da mera presença de exemplos na solicitação. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    },
+    {
+      "id": "per-u033-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma rede neural tem bom desempenho médio em documentos do equipamento usado no treino. Ainda não foi avaliada com imagens de outro equipamento nem separadamente por tipo de documento. A conclusão sustentada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "O desempenho precisa ser verificado nas novas condições e por recortes pertinentes antes de generalizar a média observada."
+        },
+        {
+          "id": "B",
+          "text": "A média comprova a mesma taxa de acerto para cada tipo de documento."
+        },
+        {
+          "id": "C",
+          "text": "A presença de camadas ocultas comprova que o modelo eliminou diferenças entre os equipamentos."
+        },
+        {
+          "id": "D",
+          "text": "A rede demonstrou a causa física das diferenças, pois aprendeu relações entre entradas e saídas."
+        },
+        {
+          "id": "E",
+          "text": "Uma nova avaliação é dispensável, já que o modelo é neural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O resultado médio não comprova desempenho em cada subgrupo ou em dados com características distintas. Uma relação aprendida também não demonstra causalidade. A avaliação deve acompanhar o contexto de uso. Questão autoral produzida para o acervo Insign/Concursos nesta unidade."
+    }
+  ]
+}
