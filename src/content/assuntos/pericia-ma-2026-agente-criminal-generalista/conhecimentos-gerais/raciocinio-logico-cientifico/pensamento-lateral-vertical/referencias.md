@@ -1,0 +1,14 @@
+## Programa e recorte
+
+- <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Perícia Oficial de Natureza Criminal do Maranhão, Edital <abbr title="número">nº</abbr> 1**, de 17/07/2026, consolidado até a retificação de 29/09/2026: [documento oficial](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf), página 60, Raciocínio Lógico e Científico, **7 — Pensamento lateral e vertical**. Trecho consultado em cópia local conferida em 04/10/2026. O tópico “Fundamentos de eclética” permanece fora desta unidade.
+
+## Fontes conceituais consultadas
+
+- **De Bono, Edward.** *Information Processing and New Ideas — Lateral and Vertical Thinking*. The Journal of Creative Behavior, volume 3, número 3, páginas 159–171, verão de 1969. [Página da editora](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2162-6057.1969.tb00124.x). Consulta em 04/10/2026 aos **metadados e ao resumo**: autoria e contraste entre desenvolvimento sequencial de um caminho e procura de outro. O artigo integral não estava acessível; não se declara leitura das páginas ou dos livros citados em sua bibliografia.
+- **De Bono Group.** [*Reading on Lateral Thinking*](https://www.debonogroup.com/services/core-programs/lateral-thinking/lateral-reading/). Texto público consultado em 04/10/2026, especialmente notas expressamente atribuídas a Edward de Bono sobre mudança de conceitos/percepções, criatividade deliberada e uso de ferramentas. O rodapé identifica copyright de 1999, The McQuaig Group. As afirmações de benefícios não são tratadas como demonstração experimental independente.
+- **De Bono Group.** [*Lateral Thinking*](https://www.debonogroup.com/services/core-programs/lateral-thinking/). Página sem data editorial declarada, consultada em 04/10/2026: seções Focus, Challenge, Alternatives, Random Entry, Provocation e complementaridade com análise. Sustenta a identificação das operações; os cenários da aula e do banco são autorais, não reproduções dos exercícios do curso.
+- **Organização de Bono.** [*Thinking as a skill*](https://www.debono.com/), apresentação institucional e seção Lateral Thinking; [*How it works*](https://www.lateralthinking.com/how-it-works), apresentação pública do site administrado pela organização. Consultadas em 04/10/2026 para autoria, abordagem estruturada e geração de alternativas. Nenhum curso, cadastro ou conteúdo pago foi acessado.
+
+## Questões e alcance
+
+Banco integralmente **autoral**, elaborado para este recorte. Não se atribuem questões a banca ou prova anterior sem caderno e chave oficiais verificados. Exemplos e consequências são hipotéticos; a unidade não certifica eficácia geral das técnicas nem estabelece tipos científicos de pessoas.

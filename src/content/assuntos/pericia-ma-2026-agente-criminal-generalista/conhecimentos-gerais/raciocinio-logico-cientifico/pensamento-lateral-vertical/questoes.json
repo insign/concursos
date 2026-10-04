@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "qperu02701",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma planilha apresenta quatro locais possíveis para uma atividade. A responsável aplica, em sequência, os critérios já fixados de capacidade, horário e custo, elimina os locais que não os atendem e compara os restantes. Na distinção proposta por Edward de Bono, qual característica predomina nessa operação?",
+      "options": [
+        { "id": "A", "text": "Pensamento lateral, porque a presença de quatro opções caracteriza geração de alternativas." },
+        { "id": "B", "text": "Pensamento vertical, porque a comparação desenvolve uma análise encadeada segundo critérios definidos." },
+        { "id": "C", "text": "Pensamento lateral, porque descartar opções modifica necessariamente a perspectiva do problema." },
+        { "id": "D", "text": "Pensamento vertical, porque o uso da planilha dispensa conferir os dados empregados." },
+        { "id": "E", "text": "Alternância entre os dois modos, porque cada critério aplicado representa uma nova formulação do problema." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A operação descrita avalia opções fornecidas mediante passos e critérios fixos; sua ênfase é vertical. Ter quatro opções não prova que houve geração lateral. Eliminar uma alternativa por falta de capacidade mantém os critérios, e aplicar critérios sucessivos não muda necessariamente a perspectiva. A planilha tampouco garante a qualidade de seus dados."
+    },
+    {
+      "id": "qperu02702",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um cenário hipotético, uma equipe inicialmente pergunta como imprimir mais depressa as instruções de uma atividade. Uma integrante propõe investigar quais instruções precisam estar disponíveis em cada etapa e se todas precisam ser entregues no mesmo formato. Qual interpretação melhor caracteriza a mudança proposta?",
+      "options": [
+        { "id": "A", "text": "Ela mantém o problema restrito à velocidade da impressão e apenas detalha sua solução." },
+        { "id": "B", "text": "Ela conclui que a impressão é inviável a partir dos dados de custo já apresentados." },
+        { "id": "C", "text": "Ela confere se o cálculo do tempo de impressão decorre corretamente dos valores informados." },
+        { "id": "D", "text": "Ela reformula o foco, abrindo alternativas para disponibilizar as instruções." },
+        { "id": "E", "text": "Ela já demonstra que distribuir instruções em etapas será mais eficiente." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pergunta passa da velocidade de uma solução assumida, imprimir tudo, para as formas de disponibilizar instruções. Essa mudança de foco favorece alternativas e caracteriza uma operação lateral. Não há cálculo conferido, conclusão de inviabilidade nem resultado de eficiência demonstrado; as alternativas ainda precisam ser avaliadas."
+    },
+    {
+      "id": "qperu02703",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma oficina fictícia costuma guardar materiais por ordem de chegada. O exercício admite mudar essa organização, mas exige que cada material continue identificado e disponível. Ao questionar a ordem de chegada, qual proposta respeita a diferença entre pressuposto e restrição do problema?",
+      "options": [
+        { "id": "A", "text": "Explorar a organização por tipo de atividade e depois verificar identificação e disponibilidade." },
+        { "id": "B", "text": "Preservar a ordem de chegada como requisito, pois a existência do costume impede reformulá-lo." },
+        { "id": "C", "text": "Suprimir a identificação durante a implantação, usando a mudança de ordem como justificativa." },
+        { "id": "D", "text": "Adotar a organização por atividade antes da avaliação, pois ela questiona o costume vigente." },
+        { "id": "E", "text": "Limitar a análise à velocidade de guardar pela ordem de chegada, tratando essa ordem como objetivo final." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ordem de chegada é um costume que o exercício permite questionar; identificação e disponibilidade são condições expressas. A alternativa A explora outro caminho e mantém essas condições para avaliação. As demais transformam a convenção em exigência, eliminam uma condição ou adotam a novidade antes de verificá-la."
+    },
+    {
+      "id": "qperu02704",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante um exercício, um grupo escolhe ao acaso a palavra “escada” e, a partir dela, imagina organizar um material de estudo por etapas. Na proposta de entrada aleatória, qual é a função da palavra escolhida?",
+      "options": [
+        { "id": "A", "text": "Fornecer um dado observado que comprova a vantagem de organizar o material por etapas." },
+        { "id": "B", "text": "Determinar o critério obrigatório pelo qual todas as propostas posteriores serão julgadas." },
+        { "id": "C", "text": "Estimular uma conexão que pode gerar uma alternativa a ser desenvolvida e avaliada." },
+        { "id": "D", "text": "Representar a primeira conclusão de uma dedução fundada no problema original." },
+        { "id": "E", "text": "Substituir a definição do objetivo, tornando dispensável esclarecer o problema de estudo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A palavra serve como estímulo para estabelecer uma conexão inicialmente não exigida pelo problema. A associação produz uma possibilidade, não uma comprovação de vantagem ou um critério obrigatório. O grupo continua precisando esclarecer o objetivo e avaliar a proposta. Não se descreveu uma dedução a partir dos dados originais."
+    },
+    {
+      "id": "qperu02705",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma discussão hipotética sobre avisos de um evento, alguém propõe a frase “o mural deve ir até os participantes”. O grupo a usa para imaginar pontos móveis de aviso, sem afirmar que o mural existente se desloca. Qual leitura é mais adequada?",
+      "options": [
+        { "id": "A", "text": "A frase constitui uma conclusão factual sobre o comportamento do mural existente." },
+        { "id": "B", "text": "A utilidade da ideia depende de provar que a frase inicial descreve literalmente a realidade." },
+        { "id": "C", "text": "A frase demonstra que pontos móveis atendem melhor aos participantes que o mural fixo." },
+        { "id": "D", "text": "O grupo abandona a análise ao aceitar uma frase incomum como ponto de partida." },
+        { "id": "E", "text": "A frase funciona como provocação para desenvolver uma alternativa, cuja adequação ainda deve ser examinada." }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O enunciado descreve uma ideia exploratória e um desenvolvimento possível: levar avisos a outros pontos. Trata-se de provocação, não de afirmação factual sobre um mural que se move. A alternativa pode ser analisada sem tornar verdadeira a frase literal; sua eficiência e adequação não foram demonstradas."
+    },
+    {
+      "id": "qperu02706",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para estimar a produção de uma oficina fictícia, uma pessoa multiplica corretamente três horas por uma taxa informada de 45 unidades por hora e obtém 135 unidades. Depois descobre que a taxa informada estava errada. O que esse caso permite concluir?",
+      "options": [
+        { "id": "A", "text": "O cálculo correto confirma a taxa usada, embora ela tenha sido posteriormente contestada." },
+        { "id": "B", "text": "Um encadeamento correto pode produzir uma estimativa inadequada quando utiliza um dado errado." },
+        { "id": "C", "text": "A descoberta transforma retroativamente a multiplicação em uma operação de pensamento lateral." },
+        { "id": "D", "text": "A taxa pode ser mantida porque revisar uma premissa interromperia o pensamento vertical." },
+        { "id": "E", "text": "A geração de outra estimativa, por si só, torna desnecessária a conferência da taxa." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A multiplicação está correta sob a taxa informada, mas o dado errado compromete a estimativa sobre a oficina. É necessário revisar a premissa e refazer a análise. O pensamento vertical admite correção de etapas e não verifica automaticamente a correspondência dos dados com a realidade. Descobrir o erro não transforma a operação anterior em geração lateral."
+    },
+    {
+      "id": "qperu02707",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe de uma atividade fictícia gera novas formas de distribuir materiais. Ao comparar tempo, espaço e conservação, percebe que duas propostas não atendem às condições do exercício. Qual encaminhamento corresponde à complementaridade entre os modos lateral e vertical?",
+      "options": [
+        { "id": "A", "text": "Usar a análise para desenvolver ou rejeitar propostas e, se necessário, voltar à exploração de alternativas." },
+        { "id": "B", "text": "Manter as duas propostas inadequadas, pois avaliá-las descaracterizaria sua origem lateral." },
+        { "id": "C", "text": "Escolher a proposta mais incomum, usando a novidade como critério suficiente de adequação." },
+        { "id": "D", "text": "Voltar à organização anterior, pois a avaliação das novas propostas demonstra que explorar alternativas foi inútil." },
+        { "id": "E", "text": "Encerrar a exploração ao começar a comparação, pois a sequência dos modos impede retornar ao problema." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gerar alternativas e avaliá-las são operações que podem se complementar. A análise pode mostrar limitações e orientar uma nova exploração, sem uma ordem irreversível. Rejeitar duas propostas não demonstra que toda exploração foi inútil; preservá-las por serem novas ou escolher apenas pela novidade dispensa indevidamente as condições do problema."
+    },
+    {
+      "id": "qperu02708",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma reunião, a mesma pessoa reformula uma pergunta para explorar alternativas e, em seguida, compara as propostas mediante critérios definidos. Na distinção de Edward de Bono, o que se pode afirmar?",
+      "options": [
+        { "id": "A", "text": "A segunda operação anula a classificação lateral da primeira, pois uma pessoa deve pertencer a um único modo." },
+        { "id": "B", "text": "A primeira operação revela um tipo lateral permanente, e a comparação é apenas uma expressão desse tipo." },
+        { "id": "C", "text": "As operações podem ter ênfases diferentes, sem fundamentar uma classificação fixa da pessoa." },
+        { "id": "D", "text": "A comparação continua necessariamente lateral porque analisa propostas que surgiram de uma reformulação." },
+        { "id": "E", "text": "As duas operações são verticais porque ocorreram uma depois da outra na reunião." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reformulação pode ter ênfase lateral e a comparação encadeada pode ter ênfase vertical. Os nomes caracterizam operações, não identidades científicas fixas. A origem de uma proposta não determina como será avaliada, e a simples sucessão cronológica de atividades não basta para caracterizar o encadeamento analítico vertical."
+    },
+    {
+      "id": "qperu02709",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um relato de treinamento afirma que um grupo usou perguntas para gerar alternativas e depois escolheu uma delas. O relato não apresenta medidas de resultados nem comparação com outro procedimento. Qual conclusão é sustentada por essas informações?",
+      "options": [
+        { "id": "A", "text": "A escolha de uma alternativa demonstra que o treinamento melhorou a qualidade da decisão." },
+        { "id": "B", "text": "A geração de alternativas demonstra que o método foi mais eficiente que a análise anterior." },
+        { "id": "C", "text": "A falta de comparação demonstra que as perguntas não contribuíram para o trabalho do grupo." },
+        { "id": "D", "text": "O relato descreve operações realizadas, mas não estabelece um ganho comparativo de eficácia." },
+        { "id": "E", "text": "A sequência de geração e escolha permite concluir que a alternativa escolhida era viável." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O relato permite identificar geração de alternativas e seleção, mas não apresenta evidência do ganho comparativo alegado nas opções A e B. Tampouco a ausência de comparação prova ausência de contribuição, como em C. Escolher uma alternativa não demonstra sua viabilidade. A distinção conceitual entre operações não substitui a avaliação de resultados."
+    },
+    {
+      "id": "qperu02710",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante a exploração de soluções para um exercício, uma equipe evita descartar de imediato as sugestões incomuns. Concluída essa exploração, qual conduta é coerente com o alcance do pensamento lateral?",
+      "options": [
+        { "id": "A", "text": "Manter as sugestões sem critérios de seleção para preservar a abertura inicial." },
+        { "id": "B", "text": "Examinar as sugestões à luz do objetivo, dos dados e das condições do exercício antes de adotá-las." },
+        { "id": "C", "text": "Adotar primeiro uma sugestão incomum e tratar sua novidade como resultado da avaliação." },
+        { "id": "D", "text": "Rejeitar as sugestões geradas sem voltar às condições, pois ainda não foram demonstradas durante a exploração." },
+        { "id": "E", "text": "Avaliar somente as sugestões semelhantes à solução anterior, tomando a familiaridade como requisito de validade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Evitar a rejeição prematura abre espaço para explorar ideias; não retira a necessidade de avaliá-las antes da adoção. Novidade e familiaridade não bastam como critérios de validade. Uma sugestão ainda não demonstrada pode ser desenvolvida e examinada, em vez de ser aceita ou rejeitada automaticamente."
+    }
+  ]
+}
