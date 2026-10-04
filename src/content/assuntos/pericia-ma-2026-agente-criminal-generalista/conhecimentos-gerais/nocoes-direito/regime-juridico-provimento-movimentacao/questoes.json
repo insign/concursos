@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "u053-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O regime jurídico de um servidor estatutário corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao conjunto de normas que organiza o vínculo funcional, do ingresso à saída, incluindo direitos, deveres e responsabilidades."
+        },
+        {
+          "id": "B",
+          "text": "ao conjunto de regras do concurso, que deixa de disciplinar o vínculo após a posse."
+        },
+        {
+          "id": "C",
+          "text": "à disciplina previdenciária, que substitui as regras de exercício do cargo."
+        },
+        {
+          "id": "D",
+          "text": "às condições de trabalho negociadas individualmente com a chefia, com preferência sobre o estatuto."
+        },
+        {
+          "id": "E",
+          "text": "à Lei 8.112/1990, aplicada obrigatoriamente a qualquer servidor estadual ou municipal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O regime organiza o vínculo funcional por normas, incluindo ingresso, exercício, direitos, deveres, responsabilidades e saída. Não se limita ao concurso ou à previdência, nem se confunde com acordo individual. A Lei 8.112/1990 tem o âmbito civil federal definido em seu artigo 1º; não é estatuto nacional obrigatório."
+    },
+    {
+      "id": "u109-a03",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Nos exemplos da Lei 8.112/1990 e da Lei maranhense 6.107/1994, a investidura no cargo público ocorre com",
+      "options": [
+        {
+          "id": "A",
+          "text": "a aprovação no concurso."
+        },
+        {
+          "id": "B",
+          "text": "a homologação do resultado."
+        },
+        {
+          "id": "C",
+          "text": "a posse."
+        },
+        {
+          "id": "D",
+          "text": "a nomeação."
+        },
+        {
+          "id": "E",
+          "text": "o início do exercício."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ambos os estatutos vinculam a investidura à posse. A nomeação é o ato de provimento; o exercício é o desempenho efetivo das atribuições. Aprovação e homologação pertencem à seleção e não substituem a posse."
+    },
+    {
+      "id": "u100-a03",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei 8.112/1990, sem impedimento legal que altere a contagem, o prazo para posse é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias da publicação do ato de provimento."
+        },
+        {
+          "id": "B",
+          "text": "30 dias da homologação do concurso."
+        },
+        {
+          "id": "C",
+          "text": "30 dias da publicação do ato de provimento."
+        },
+        {
+          "id": "D",
+          "text": "15 dias da data em que o candidato foi aprovado."
+        },
+        {
+          "id": "E",
+          "text": "30 dias contados do primeiro dia de exercício."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 13, parágrafo 1º, estabelece 30 dias contados da publicação do ato de provimento. O prazo de 15 dias após a posse corresponde ao início do exercício, não à posse. Homologação e aprovação não são os marcos dessa contagem."
+    },
+    {
+      "id": "u100-a04",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma pessoa tomou posse em cargo federal regido pela Lei 8.112/1990. Sem situação legal que altere a contagem, deve iniciar o exercício em",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias contados da publicação da nomeação."
+        },
+        {
+          "id": "B",
+          "text": "30 dias contados da posse."
+        },
+        {
+          "id": "C",
+          "text": "30 dias contados da publicação da nomeação."
+        },
+        {
+          "id": "D",
+          "text": "15 dias contados da posse."
+        },
+        {
+          "id": "E",
+          "text": "15 dias contados da homologação do concurso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 15, parágrafo 1º, prevê 15 dias contados da posse para o servidor empossado iniciar o exercício. A publicação do ato de provimento é marco da posse, não desse prazo de exercício. Os 30 dias após posse pertencem ao exemplo maranhense, não à regra federal perguntada."
+    },
+    {
+      "id": "u053-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A aquisição da estabilidade prevista no artigo 41 da Constituição exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "cargo efetivo e dois anos contados da posse, com avaliação especial."
+        },
+        {
+          "id": "B",
+          "text": "nomeação efetiva por concurso, três anos de efetivo exercício e avaliação especial de desempenho por comissão."
+        },
+        {
+          "id": "C",
+          "text": "nomeação efetiva por concurso e três anos de efetivo exercício, dispensada a avaliação especial."
+        },
+        {
+          "id": "D",
+          "text": "cargo efetivo, três anos contados da publicação da nomeação e avaliação especial."
+        },
+        {
+          "id": "E",
+          "text": "cargo em comissão, três anos de exercício e avaliação especial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 41 combina nomeação para cargo de provimento efetivo em virtude de concurso público, três anos de efetivo exercício e avaliação especial de desempenho por comissão. A contagem não começa na posse ou na nomeação, e cargo em comissão não satisfaz a condição constitucional."
+    },
+    {
+      "id": "u100-a07",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na Lei 8.112/1990, o retorno de servidor estável após invalidação de sua demissão, com ressarcimento das vantagens, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reversão."
+        },
+        {
+          "id": "B",
+          "text": "reintegração."
+        },
+        {
+          "id": "C",
+          "text": "readaptação."
+        },
+        {
+          "id": "D",
+          "text": "recondução."
+        },
+        {
+          "id": "E",
+          "text": "aproveitamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 28 denomina esse retorno reintegração. Reversão parte da aposentadoria; aproveitamento, da disponibilidade; readaptação, de limitação de capacidade; recondução, do retorno ao cargo anterior nas hipóteses legais. A demissão invalidada é o fato decisivo."
+    },
+    {
+      "id": "u100-a08",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei 8.112/1990, a recondução do servidor estável ao cargo anteriormente ocupado pode decorrer de",
+      "options": [
+        {
+          "id": "A",
+          "text": "cessação dos motivos que determinaram sua aposentadoria por incapacidade."
+        },
+        {
+          "id": "B",
+          "text": "extinção do cargo, que o colocou em disponibilidade."
+        },
+        {
+          "id": "C",
+          "text": "inabilitação no estágio probatório de outro cargo ou reintegração do anterior ocupante."
+        },
+        {
+          "id": "D",
+          "text": "limitação física ou mental que exija atribuições compatíveis."
+        },
+        {
+          "id": "E",
+          "text": "invalidação de sua própria demissão, com ressarcimento das vantagens."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 29 prevê essas duas hipóteses de recondução. As demais situações apontam, respectivamente, para reversão, disponibilidade seguida de eventual aproveitamento, readaptação e reintegração. A estabilidade anterior não dispensa o estágio probatório do novo cargo."
+    },
+    {
+      "id": "u109-a06",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um servidor estável teve seu cargo extinto. Conforme o artigo 41, parágrafo 3º, da Constituição, até seu adequado aproveitamento, ele ficará",
+      "options": [
+        {
+          "id": "A",
+          "text": "em disponibilidade, com remuneração proporcional ao tempo de serviço."
+        },
+        {
+          "id": "B",
+          "text": "em disponibilidade, com remuneração integral independentemente do tempo de serviço."
+        },
+        {
+          "id": "C",
+          "text": "aposentado, com remuneração proporcional ao tempo de serviço."
+        },
+        {
+          "id": "D",
+          "text": "exonerado, com direito a retornar por novo concurso."
+        },
+        {
+          "id": "E",
+          "text": "removido, mantendo necessariamente a titularidade do cargo extinto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição prevê disponibilidade com remuneração proporcional ao tempo de serviço até o adequado aproveitamento. Não determina aposentadoria ou exoneração automática. Uma redação estatutária antiga de remuneração integral não substitui a regra constitucional vigente."
+    },
+    {
+      "id": "u100-a10",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual evento está previsto como hipótese de vacância no artigo 33 da Lei 8.112/1990?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remoção para outra sede no mesmo quadro."
+        },
+        {
+          "id": "B",
+          "text": "Cessão para exercício de função em outro órgão."
+        },
+        {
+          "id": "C",
+          "text": "Redistribuição de cargo efetivo ocupado."
+        },
+        {
+          "id": "D",
+          "text": "Substituição temporária em função de chefia."
+        },
+        {
+          "id": "E",
+          "text": "Posse em outro cargo inacumulável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 33 inclui a posse em outro cargo inacumulável. Remoção, cessão, redistribuição e substituição são alterações distintas e não integram, por seus próprios mecanismos, essa lista de vacância. Desocupar o cargo anterior não significa necessariamente abandonar o serviço público."
+    },
+    {
+      "id": "u109-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei maranhense 11.894/2023 acrescentou ao artigo 39 da Lei 6.107/1994 a vacância por",
+      "options": [
+        {
+          "id": "A",
+          "text": "remoção do servidor com o respectivo cargo."
+        },
+        {
+          "id": "B",
+          "text": "posse em outro cargo inacumulável."
+        },
+        {
+          "id": "C",
+          "text": "redistribuição para outro órgão do mesmo Poder."
+        },
+        {
+          "id": "D",
+          "text": "cessão para exercício em outro órgão."
+        },
+        {
+          "id": "E",
+          "text": "substituição temporária do titular de cargo em comissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º da Lei 11.894/2023 acrescenta o inciso XI, posse em outro cargo inacumulável. A alteração deve ser lida separadamente do arquivo oficial consultado do estatuto, que não a incorporou. As outras alternativas descrevem mecanismos diferentes de movimentação ou exercício."
+    },
+    {
+      "id": "u100-a09",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na Lei 8.112/1990, a distinção correta entre remoção e redistribuição é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remoção desloca cargo vago; redistribuição desloca somente o servidor."
+        },
+        {
+          "id": "B",
+          "text": "Remoção exige mudança de sede; redistribuição exige cargo ocupado."
+        },
+        {
+          "id": "C",
+          "text": "Remoção e redistribuição deslocam o cargo para outro Poder."
+        },
+        {
+          "id": "D",
+          "text": "Remoção desloca o servidor no mesmo quadro; redistribuição desloca cargo efetivo, ocupado ou vago, para outro órgão ou entidade do mesmo Poder."
+        },
+        {
+          "id": "E",
+          "text": "Remoção e redistribuição são formas de ingresso em carreira diversa sem concurso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os artigos 36 e 37 definem objetos diferentes: servidor na remoção, cargo efetivo na redistribuição. Remoção pode ocorrer sem mudança de sede; redistribuição pode alcançar cargo vago e é delimitada ao mesmo Poder. A descrição é federal: não elimina a redação própria da remoção maranhense."
+    },
+    {
+      "id": "per-u041-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um edital fixou validade de um ano para o concurso. Pela regra constitucional, a prorrogação admitida é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma vez, por um ano."
+        },
+        {
+          "id": "B",
+          "text": "uma vez, por dois anos."
+        },
+        {
+          "id": "C",
+          "text": "duas vezes, por um ano cada."
+        },
+        {
+          "id": "D",
+          "text": "uma vez, até completar quatro anos de validade total."
+        },
+        {
+          "id": "E",
+          "text": "renovável por um ano enquanto houver candidatos aprovados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 37, inciso III, permite validade de até dois anos e uma prorrogação por igual período. Como o prazo inicial foi de um ano, a única prorrogação pode ser de um ano. O máximo constitucional não converte o prazo inicial menor em dois anos."
+    },
+    {
+      "id": "per-u041-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma candidata foi aprovada dentro do número de vagas anunciado no edital. Qual conclusão corresponde ao Tema 161 do Supremo Tribunal Federal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A homologação substitui o ato de nomeação."
+        },
+        {
+          "id": "B",
+          "text": "A candidata adquire estabilidade na homologação."
+        },
+        {
+          "id": "C",
+          "text": "A candidata possui direito à nomeação, sem que isso confunda homologação, nomeação, posse e exercício."
+        },
+        {
+          "id": "D",
+          "text": "O direito depende exclusivamente do surgimento de novas vagas."
+        },
+        {
+          "id": "E",
+          "text": "A aprovação dentro das vagas produz apenas a mesma expectativa de qualquer cadastro de reserva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A tese do Tema 161 reconhece o direito à nomeação dentro do número de vagas previsto no edital. Esse direito não transforma homologação em nomeação, não dispensa posse e exercício e não antecipa estabilidade."
+    },
+    {
+      "id": "per-u041-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato ficou fora das vagas anunciadas. Durante a validade do concurso surgiram vagas, mas não foi demonstrada preterição arbitrária e imotivada. Segundo o Tema 784 do Supremo Tribunal Federal, o surgimento dessas vagas",
+      "options": [
+        {
+          "id": "A",
+          "text": "demonstra necessariamente preterição, dispensando prova de comportamento da Administração."
+        },
+        {
+          "id": "B",
+          "text": "gera direito automático, desde que o concurso ainda esteja válido."
+        },
+        {
+          "id": "C",
+          "text": "dispensa verificar a ordem de classificação porque as vagas são supervenientes."
+        },
+        {
+          "id": "D",
+          "text": "permite desconsiderar o direito de candidatos classificados dentro das vagas originais."
+        },
+        {
+          "id": "E",
+          "text": "não gera, por si só, direito automático à nomeação do candidato fora das vagas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O Tema 784 afasta o direito automático pelo mero surgimento de vagas ou abertura de novo concurso. Para a hipótese de candidato fora das vagas tratada na tese, a preterição arbitrária e imotivada deve ser demonstrada. A ordem de classificação permanece relevante."
+    },
+    {
+      "id": "per-u041-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem concurso destinado ao novo cargo, pretende-se investir um servidor em cargo de outra carreira, com atribuições e requisitos diferentes, apenas chamando o ato de promoção. À luz da Súmula Vinculante 43,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o nome promoção basta para tornar o ingresso válido."
+        },
+        {
+          "id": "B",
+          "text": "o ato é incompatível com a exigência de concurso para o cargo que não integra a carreira de origem."
+        },
+        {
+          "id": "C",
+          "text": "a estabilidade autoriza o ingresso em qualquer carreira."
+        },
+        {
+          "id": "D",
+          "text": "a anuência do servidor substitui o concurso."
+        },
+        {
+          "id": "E",
+          "text": "a mudança é válida se ocorrer no mesmo ente federativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula Vinculante 43 veda provimento que permita ingresso, sem concurso destinado ao cargo, em cargo que não integra a carreira em que o servidor foi investido. Promoção na própria carreira é diferente. O caso não descreve uma reorganização de carreiras compatíveis, mas ingresso em outra carreira."
+    },
+    {
+      "id": "per-u041-q005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um nomeado para cargo regido pela Lei 8.112/1990 deixou transcorrer o prazo legal sem tomar posse. A consequência prevista no artigo 13 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "exonerar do cargo por falta de exercício, como se a posse já tivesse ocorrido."
+        },
+        {
+          "id": "B",
+          "text": "aplicar demissão disciplinar por não entrar em exercício."
+        },
+        {
+          "id": "C",
+          "text": "considerar iniciada a investidura apenas pela publicação do ato de provimento."
+        },
+        {
+          "id": "D",
+          "text": "tornar sem efeito o ato de provimento."
+        },
+        {
+          "id": "E",
+          "text": "prorrogar automaticamente a posse por mais 30 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 13, parágrafo 6º, determina tornar sem efeito o ato de provimento se a posse não ocorrer no prazo legal. É diferente do servidor que tomou posse e não iniciou o exercício no prazo, hipótese de exoneração do artigo 15."
+    },
+    {
+      "id": "per-u041-q006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na situação ordinária regida pela Lei maranhense 6.107/1994, o interessado precisa de prazo adicional para tomar posse. O artigo 17 permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "prorrogar o prazo inicial de 30 dias por mais 30 dias, a requerimento do interessado."
+        },
+        {
+          "id": "B",
+          "text": "prorrogar automaticamente o prazo inicial de 15 dias por mais 15 dias."
+        },
+        {
+          "id": "C",
+          "text": "prorrogar o prazo inicial de 30 dias por mais 15 dias, sem requerimento."
+        },
+        {
+          "id": "D",
+          "text": "prorrogar automaticamente o prazo inicial de 30 dias por mais 30 dias."
+        },
+        {
+          "id": "E",
+          "text": "prorrogar o prazo inicial de 15 dias por mais 30 dias, a requerimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 17 estabelece 30 dias da publicação do ato de nomeação e admite mais 30 dias a requerimento. A hipótese ordinária não elimina regras específicas de impedimento previstas no próprio artigo. A prorrogação estadual não é regra geral da Lei 8.112/1990."
+    },
+    {
+      "id": "per-u041-q007",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem impedimento legal que altere a contagem, uma pessoa empossada em cargo regido pela Lei maranhense 6.107/1994 deve iniciar o exercício no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias da publicação da nomeação."
+        },
+        {
+          "id": "B",
+          "text": "15 dias da posse."
+        },
+        {
+          "id": "C",
+          "text": "30 dias da posse."
+        },
+        {
+          "id": "D",
+          "text": "30 dias da homologação do concurso."
+        },
+        {
+          "id": "E",
+          "text": "15 dias da homologação do concurso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 20 do estatuto maranhense estabelece 30 dias da posse. O prazo federal ordinário de 15 dias não deve ser importado para essa pergunta. Homologação e publicação da nomeação são marcos diferentes da posse."
+    },
+    {
+      "id": "per-u041-q008",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto 12.374/2025 fixa estágio probatório de 36 meses para o âmbito nele definido. Sua aplicação direta alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os servidores estatutários de Estados e Municípios."
+        },
+        {
+          "id": "B",
+          "text": "qualquer agente público, independentemente do vínculo."
+        },
+        {
+          "id": "C",
+          "text": "somente cargos em comissão do Poder Executivo federal."
+        },
+        {
+          "id": "D",
+          "text": "todos os órgãos dos três Poderes federais, independentemente de integrarem o sistema indicado no decreto."
+        },
+        {
+          "id": "E",
+          "text": "os órgãos e entidades integrantes do Sistema de Pessoal Civil da Administração Federal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 1º delimita o âmbito aos órgãos e entidades integrantes do Sistema de Pessoal Civil da Administração Federal. O artigo 2º prevê 36 meses desde o início do efetivo exercício. O decreto não regulamenta automaticamente servidores estaduais ou municipais."
+    },
+    {
+      "id": "per-u041-q009",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A avaliação especial de desempenho do artigo 41, parágrafo 4º, da Constituição tem a função de",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o concurso para ingresso no cargo efetivo."
+        },
+        {
+          "id": "B",
+          "text": "integrar as condições para aquisição da estabilidade, mediante comissão instituída para essa finalidade."
+        },
+        {
+          "id": "C",
+          "text": "avaliar exclusivamente servidores já estáveis para aplicar o artigo 169."
+        },
+        {
+          "id": "D",
+          "text": "reduzir para dois anos o requisito de efetivo exercício."
+        },
+        {
+          "id": "E",
+          "text": "converter cargo em comissão em cargo efetivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A avaliação especial é condição obrigatória para adquirir estabilidade e deve ser realizada por comissão instituída para essa finalidade. Não se confunde com avaliação periódica de desempenho do servidor já estável, hipótese de perda do cargo do artigo 41, parágrafo 1º, inciso III."
+    },
+    {
+      "id": "per-u041-q010",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 37, parágrafo 13, da Constituição, a readaptação de titular de cargo efetivo por limitação física ou mental pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "aposentadoria anterior e cargo vago."
+        },
+        {
+          "id": "B",
+          "text": "estabilidade adquirida e dispensa da escolaridade do destino."
+        },
+        {
+          "id": "C",
+          "text": "invalidação de demissão e ressarcimento de vantagens."
+        },
+        {
+          "id": "D",
+          "text": "atribuições compatíveis, habilitação e escolaridade exigidas para o destino, mantida a remuneração do cargo de origem."
+        },
+        {
+          "id": "E",
+          "text": "remoção para outra sede, sem análise das atribuições."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O dispositivo exige compatibilidade com a limitação e habilitação e escolaridade do cargo de destino, mantendo a remuneração da origem. Não exige estabilidade já adquirida nem aposentadoria ou demissão anterior. A readaptação permanece enquanto durar a condição que a justifica."
+    },
+    {
+      "id": "per-u041-q011",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal regido pela Lei 8.112/1990 precisa ser readaptado, mas não existe cargo vago adequado. Segundo o artigo 24,",
+      "options": [
+        {
+          "id": "A",
+          "text": "exercerá as atribuições como excedente até ocorrer vaga."
+        },
+        {
+          "id": "B",
+          "text": "deverá ser demitido por falta de vaga."
+        },
+        {
+          "id": "C",
+          "text": "será necessariamente aposentado, embora tenha capacidade para atribuições compatíveis."
+        },
+        {
+          "id": "D",
+          "text": "será automaticamente reintegrado em cargo diverso."
+        },
+        {
+          "id": "E",
+          "text": "terá de prestar novo concurso para qualquer exercício compatível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 24, parágrafo 2º, prevê exercício das atribuições como excedente até surgir vaga. A limitação deve ser verificada e as atribuições compatíveis. Esse efeito é do exemplo federal; não foi apresentado como regra uniforme de todos os estatutos."
+    },
+    {
+      "id": "per-u041-q012",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Lei 8.112/1990, a junta médica oficial declarou insubsistentes os motivos da aposentadoria por incapacidade de um servidor. A forma de provimento correspondente ao seu retorno é",
+      "options": [
+        {
+          "id": "A",
+          "text": "readaptação."
+        },
+        {
+          "id": "B",
+          "text": "recondução."
+        },
+        {
+          "id": "C",
+          "text": "reversão."
+        },
+        {
+          "id": "D",
+          "text": "reintegração."
+        },
+        {
+          "id": "E",
+          "text": "aproveitamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ponto de partida é a aposentadoria, e o artigo 25 prevê reversão quando cessam seus motivos de incapacidade, conforme declaração da junta médica oficial. Readaptação lida com atribuições compatíveis; reintegração, com demissão invalidada; recondução, com retorno ao cargo anterior; aproveitamento, com disponibilidade."
+    },
+    {
+      "id": "per-u041-q013",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No retorno por interesse da Administração previsto na Lei 8.112/1990, um aposentado voluntário pediu reversão, era estável em atividade e aposentou-se há dois anos, mas não há cargo vago. Considerando apenas os fatos narrados,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pedido torna desnecessária a vaga."
+        },
+        {
+          "id": "B",
+          "text": "a estabilidade anterior permite dispensar todos os demais requisitos."
+        },
+        {
+          "id": "C",
+          "text": "a aposentadoria há menos de cinco anos substitui a exigência de vaga."
+        },
+        {
+          "id": "D",
+          "text": "o retorno deve ser chamado de reintegração."
+        },
+        {
+          "id": "E",
+          "text": "falta requisito legal da reversão por interesse administrativo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 25 exige cumulativamente solicitação, aposentadoria voluntária, estabilidade quando em atividade, aposentadoria nos cinco anos anteriores e cargo vago. Os requisitos presentes não compensam a falta de vaga. O caso não é a hipótese de cessação dos motivos da aposentadoria por incapacidade."
+    },
+    {
+      "id": "per-u041-q014",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal está em disponibilidade e retorna à atividade em cargo de atribuições e vencimentos compatíveis, nos termos da Lei 8.112/1990. Esse retorno é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reintegração."
+        },
+        {
+          "id": "B",
+          "text": "aproveitamento."
+        },
+        {
+          "id": "C",
+          "text": "reversão."
+        },
+        {
+          "id": "D",
+          "text": "promoção."
+        },
+        {
+          "id": "E",
+          "text": "recondução."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 30 denomina aproveitamento o retorno à atividade do servidor em disponibilidade, observada a compatibilidade legal. Não há aposentadoria ou demissão invalidada no caso, nem retorno ao cargo anterior por uma das causas de recondução."
+    },
+    {
+      "id": "per-u041-q015",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A demissão de uma servidora estável foi invalidada por sentença judicial. Seu cargo está ocupado por outra pessoa também estável. Conforme o artigo 41, parágrafo 2º, da Constituição,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ocupação do cargo impede a reintegração."
+        },
+        {
+          "id": "B",
+          "text": "a atual ocupante deve ser automaticamente exonerada, sem outra solução."
+        },
+        {
+          "id": "C",
+          "text": "a reintegrada precisa ser aprovada em novo concurso para retornar."
+        },
+        {
+          "id": "D",
+          "text": "a reintegrada retorna; a atual ocupante estável pode ser reconduzida à origem, sem indenização, aproveitada em outro cargo ou posta em disponibilidade."
+        },
+        {
+          "id": "E",
+          "text": "a atual ocupante tem direito a indenização se for reconduzida à origem."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Constituição assegura a reintegração da pessoa cuja demissão foi invalidada judicialmente. Para o atual ocupante, se estável, prevê recondução à origem sem indenização, aproveitamento ou disponibilidade. Ocupação não impede o retorno e não transforma a situação do atual ocupante em infração disciplinar."
+    },
+    {
+      "id": "per-u041-q016",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal não foi aprovado no estágio probatório e não era estável em cargo anterior. Nos termos da Lei 8.112/1990, o desligamento funcional previsto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "exoneração, que não se confunde com demissão disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "demissão, necessariamente aplicada como sanção pela avaliação desfavorável."
+        },
+        {
+          "id": "C",
+          "text": "recondução, mesmo sem cargo anterior em que fosse estável."
+        },
+        {
+          "id": "D",
+          "text": "aproveitamento, pois a reprovação equivale à disponibilidade."
+        },
+        {
+          "id": "E",
+          "text": "redistribuição obrigatória para cargo ajustado ao resultado da avaliação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 20, parágrafo 2º, prevê exoneração do não aprovado ou recondução se já era estável, observadas as condições legais. O caso exclui estabilidade anterior. Reprovação funcional não é, por si só, punição disciplinar, e exoneração não é sinônimo de demissão."
+    },
+    {
+      "id": "per-u041-q017",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Lei 8.112/1990, promoção e readaptação constam tanto das formas de provimento quanto das hipóteses de vacância. Isso significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma das listas está necessariamente revogada por contradição."
+        },
+        {
+          "id": "B",
+          "text": "esses atos só podem ser aplicados a cargos em comissão."
+        },
+        {
+          "id": "C",
+          "text": "o mesmo evento pode preencher um cargo e deixar outro desocupado, conforme seu mecanismo legal."
+        },
+        {
+          "id": "D",
+          "text": "os institutos se tornam equivalentes à exoneração disciplinar."
+        },
+        {
+          "id": "E",
+          "text": "a vacância depende sempre de saída definitiva do serviço público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os artigos 8º e 33 observam efeitos diferentes de um evento: provimento do cargo e vacância daquele deixado. Não há exigência de saída definitiva do serviço público, nem equivalência com exoneração ou demissão."
+    },
+    {
+      "id": "per-u041-q018",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal pede remoção por conveniência pessoal. O caso não se enquadra nas hipóteses legais de pedido independente do interesse administrativo. Na Lei 8.112/1990,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer requerimento obriga a Administração a remover."
+        },
+        {
+          "id": "B",
+          "text": "a remoção só pode ocorrer de ofício."
+        },
+        {
+          "id": "C",
+          "text": "o pedido provoca vacância do cargo."
+        },
+        {
+          "id": "D",
+          "text": "a remoção exige que o cargo seja redistribuído para outro órgão."
+        },
+        {
+          "id": "E",
+          "text": "o pedido pode ser apreciado a critério da Administração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 36 distingue remoção a pedido a critério da Administração e remoção a pedido independentemente do interesse administrativo nas hipóteses delimitadas. Conveniência pessoal, fora dessas hipóteses, não basta para transformar a modalidade discricionária em direito automático."
+    },
+    {
+      "id": "per-u041-q019",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na redação do artigo 44 da Lei maranhense 6.107/1994 consultada, a remoção desloca",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o servidor, mantendo o cargo fora do deslocamento."
+        },
+        {
+          "id": "B",
+          "text": "o servidor com o respectivo cargo, no âmbito do mesmo órgão e Poder, com ou sem mudança de sede."
+        },
+        {
+          "id": "C",
+          "text": "cargo ocupado ou vago, independentemente de deslocar um servidor."
+        },
+        {
+          "id": "D",
+          "text": "o servidor e seu cargo para qualquer órgão, bastando identidade de Poder."
+        },
+        {
+          "id": "E",
+          "text": "o servidor com o cargo, no mesmo órgão, apenas quando houver mudança de sede."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 44 inclui servidor e respectivo cargo, no mesmo órgão e Poder, com ou sem mudança de sede. Os dois limites devem ser preservados. A fórmula federal de servidor no mesmo quadro não substitui essa redação estadual."
+    },
+    {
+      "id": "per-u041-q020",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Administração pretende deslocar um cargo federal efetivo vago para outro órgão do mesmo Poder, observados os requisitos do artigo 37 da Lei 8.112/1990. A ausência de ocupante",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede a redistribuição e exige nomeação prévia."
+        },
+        {
+          "id": "B",
+          "text": "transforma o ato em remoção."
+        },
+        {
+          "id": "C",
+          "text": "faz o deslocamento corresponder à recondução."
+        },
+        {
+          "id": "D",
+          "text": "não impede a redistribuição, que pode alcançar cargo ocupado ou vago."
+        },
+        {
+          "id": "E",
+          "text": "dispensa os requisitos de escolaridade e compatibilidade de atribuições."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 37 admite cargo efetivo ocupado ou vago. A ausência de servidor não impede redistribuição nem dispensa os demais requisitos legais, incluindo compatibilidades do cargo e interesse administrativo. Remoção tem outro objeto no exemplo federal."
+    },
+    {
+      "id": "per-u041-q021",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal foi cedido para exercer função de confiança em outro órgão, nos termos do artigo 93 da Lei 8.112/1990. Apenas esse fato permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "houve alteração do exercício, sem implicar automaticamente redistribuição ou vacância do cargo efetivo."
+        },
+        {
+          "id": "B",
+          "text": "o cargo efetivo foi necessariamente redistribuído."
+        },
+        {
+          "id": "C",
+          "text": "o cargo de origem ficou vago pela cessão."
+        },
+        {
+          "id": "D",
+          "text": "o servidor foi reconduzido ao cargo anterior."
+        },
+        {
+          "id": "E",
+          "text": "o servidor ingressou em nova carreira efetiva sem concurso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A cessão autoriza exercício no destino nas hipóteses legais. Não significa, por si só, deslocamento do cargo efetivo no quadro, vacância ou ingresso em outra carreira. É necessário distinguir o local de exercício da titularidade e da posição do cargo."
+    },
+    {
+      "id": "per-u041-q022",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um substituto previamente designado assumiu temporariamente uma chefia durante impedimento legal do titular, na hipótese do artigo 38 da Lei 8.112/1990. A substituição",
+      "options": [
+        {
+          "id": "A",
+          "text": "equivale à nomeação definitiva para o cargo efetivo do titular."
+        },
+        {
+          "id": "B",
+          "text": "provoca necessariamente a vacância do cargo efetivo do substituto."
+        },
+        {
+          "id": "C",
+          "text": "assegura o exercício da chefia na situação legal, sem entregar titularidade definitiva de cargo efetivo de outra pessoa."
+        },
+        {
+          "id": "D",
+          "text": "constitui promoção para outra carreira."
+        },
+        {
+          "id": "E",
+          "text": "converte o cargo do substituto em cargo de natureza especial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A substituição mantém o exercício da direção ou chefia nas hipóteses legais. O artigo 38 prevê a assunção sem prejuízo do cargo ocupado pelo substituto, nas condições ali definidas. Exercício temporário da chefia não é investidura definitiva no cargo efetivo de outra pessoa."
+    },
+    {
+      "id": "per-u041-q023",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao estudar a permanência de servidor estável, é correto considerar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a estabilidade elimina qualquer hipótese de perda do cargo."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 41 permite perda por avaliação periódica sem ampla defesa."
+        },
+        {
+          "id": "C",
+          "text": "a extinção do cargo impõe sempre demissão disciplinar."
+        },
+        {
+          "id": "D",
+          "text": "o artigo 169 autoriza exoneração livre pela chefia, sem condições."
+        },
+        {
+          "id": "E",
+          "text": "além das hipóteses do artigo 41, há a hipótese condicionada de redução de despesas com pessoal do artigo 169, parágrafo 4º."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A estabilidade é protegida, mas não absoluta. O artigo 41 prevê suas hipóteses e garantias; o artigo 169, parágrafo 4º, contém outra hipótese, dependente das medidas anteriores e das condições constitucionais. Não é autorização para exoneração livre nem exclusão da ampla defesa nas hipóteses em que ela é exigida."
+    },
+    {
+      "id": "per-u041-p001",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Adaptação não literal da questão 15 do concurso do Ministério Público do Estado de Rondônia, 2023. Uma inspeção médica identificou limitação que exige atribuições compatíveis com a capacidade física ou mental do servidor. Qual instituto corresponde a esse ajuste funcional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reintegração."
+        },
+        {
+          "id": "B",
+          "text": "Promoção."
+        },
+        {
+          "id": "C",
+          "text": "Aproveitamento."
+        },
+        {
+          "id": "D",
+          "text": "Readaptação."
+        },
+        {
+          "id": "E",
+          "text": "Recondução."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão original do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos, aplicada em 6 de agosto de 2023, conhecimentos gerais para todos os cargos exceto o cargo 7, recebeu D no gabarito definitivo. A adaptação conserva o mecanismo de readaptação, com atribuições compatíveis com a limitação verificada, e os cinco institutos. Não transporta o estatuto de Rondônia para o Maranhão. Na base constitucional estudada, o artigo 37, parágrafo 13, exige também habilitação e escolaridade do destino e mantém a remuneração da origem."
+    },
+    {
+      "id": "per-u041-q024",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No alcance explicado pelo Supremo Tribunal Federal para a Ação Direta de Inconstitucionalidade 2.135, a retirada da obrigatoriedade constitucional de regime jurídico único",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui o concurso por contratação direta nos novos empregos públicos."
+        },
+        {
+          "id": "B",
+          "text": "converte automaticamente os vínculos estatutários atuais em vínculos trabalhistas."
+        },
+        {
+          "id": "C",
+          "text": "impõe a Lei 8.112/1990 como estatuto nacional para todos os entes."
+        },
+        {
+          "id": "D",
+          "text": "permite leis para futuras admissões em regimes diferentes, preservando os vínculos atuais e a exigência de concurso."
+        },
+        {
+          "id": "E",
+          "text": "obriga todos os entes a abandonar o regime estatutário nas futuras admissões."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A informação oficial à sociedade sobre o julgamento de 6 de novembro de 2024 explica a possibilidade de leis para futuras admissões em regimes estatutário e trabalhista. A decisão não impõe mudança automática dos vínculos atuais nem dispensa concurso. Retirar obrigatoriedade constitucional de unicidade não significa abolir o regime estatutário ou nacionalizar a Lei 8.112/1990."
+    }
+  ]
+}
