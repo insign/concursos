@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u093-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando uma infração penal deixa vestígios, o Código de Processo Penal estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o exame de corpo de delito, direto ou indireto, é indispensável e não pode ser suprido pela confissão do acusado."
+        },
+        {
+          "id": "B",
+          "text": "a confissão judicial torna a perícia sempre dispensável."
+        },
+        {
+          "id": "C",
+          "text": "o exame é facultativo se houver duas testemunhas presenciais."
+        },
+        {
+          "id": "D",
+          "text": "somente o Ministério Público pode requisitar o exame."
+        },
+        {
+          "id": "E",
+          "text": "o exame só pode ser realizado durante o processo judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 158 exige exame de corpo de delito quando a infração deixa vestígios e afirma expressamente que a confissão não o substitui."
+    },
+    {
+      "id": "u093-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se os vestígios de uma infração desaparecerem e o exame de corpo de delito não puder mais ser realizado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ação penal deve ser automaticamente extinta."
+        },
+        {
+          "id": "B",
+          "text": "a prova testemunhal pode suprir a falta do exame."
+        },
+        {
+          "id": "C",
+          "text": "a confissão passa a ter valor absoluto."
+        },
+        {
+          "id": "D",
+          "text": "nenhuma outra prova pode ser considerada."
+        },
+        {
+          "id": "E",
+          "text": "o juiz deve presumir a materialidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 167 permite que a prova testemunhal supra a falta quando os vestígios desapareceram e o exame se tornou impossível."
+    },
+    {
+      "id": "u093-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na falta de perito oficial, o exame de corpo de delito ou outra perícia será realizado por",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas pessoas idôneas, diplomadas em curso superior, preferencialmente na área específica e com habilitação técnica relacionada ao exame."
+        },
+        {
+          "id": "B",
+          "text": "uma pessoa idônea, independentemente de formação."
+        },
+        {
+          "id": "C",
+          "text": "três policiais escolhidos pela autoridade."
+        },
+        {
+          "id": "D",
+          "text": "um assistente técnico indicado pela acusação."
+        },
+        {
+          "id": "E",
+          "text": "duas testemunhas do fato, mesmo sem habilitação técnica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É a regra do artigo 159, § 1º. O perito oficial é um; na sua falta, atuam duas pessoas idôneas com as qualificações legais."
+    },
+    {
+      "id": "u093-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O prazo legal para elaboração do laudo pericial é, como regra, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias, improrrogáveis."
+        },
+        {
+          "id": "B",
+          "text": "10 dias, com possibilidade de prorrogação em casos excepcionais a requerimento dos peritos."
+        },
+        {
+          "id": "C",
+          "text": "15 dias, sempre prorrogáveis de ofício."
+        },
+        {
+          "id": "D",
+          "text": "30 dias, sem exceção."
+        },
+        {
+          "id": "E",
+          "text": "prazo livre, escolhido pelo perito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 160, parágrafo único, prevê prazo máximo de 10 dias, prorrogável excepcionalmente a requerimento dos peritos."
+    },
+    {
+      "id": "u093-a08",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto ao valor do laudo pericial para o juiz,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o laudo vincula o juiz apenas quando produzido por perito oficial."
+        },
+        {
+          "id": "B",
+          "text": "o juiz fica sempre vinculado à conclusão do perito."
+        },
+        {
+          "id": "C",
+          "text": "o juiz pode aceitá-lo ou rejeitá-lo, no todo ou em parte, mediante valoração fundamentada do conjunto probatório."
+        },
+        {
+          "id": "D",
+          "text": "o laudo não pode ser esclarecido ou complementado."
+        },
+        {
+          "id": "E",
+          "text": "divergência entre peritos torna a perícia automaticamente inexistente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 182 estabelece que o juiz não fica adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo no todo ou em parte."
+    },
+    {
+      "id": "u150-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em Medicina Legal, corpo de delito deve ser compreendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "realidade material ou conjunto de elementos materiais relacionados à infração e suscetíveis de demonstração técnica."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo obrigatório de cadáver."
+        },
+        {
+          "id": "C",
+          "text": "nome dado exclusivamente ao laudo do médico-legista."
+        },
+        {
+          "id": "D",
+          "text": "declaração da vítima sobre o fato."
+        },
+        {
+          "id": "E",
+          "text": "confissão do investigado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Corpo de delito não significa necessariamente corpo humano. A expressão se refere à materialidade deixada pela infração e sujeita a exame."
+    },
+    {
+      "id": "u150-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação correta entre corpo de delito e exame de corpo de delito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos são sinônimos perfeitos."
+        },
+        {
+          "id": "B",
+          "text": "o primeiro é a realidade material e o segundo é a operação técnico-pericial realizada sobre ela."
+        },
+        {
+          "id": "C",
+          "text": "o exame é o vestígio bruto e o corpo de delito é a sentença."
+        },
+        {
+          "id": "D",
+          "text": "o corpo de delito é sempre uma pessoa viva."
+        },
+        {
+          "id": "E",
+          "text": "o exame é uma declaração testemunhal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O corpo de delito é o objeto material da demonstração; o exame é a atividade técnica que o analisa."
+    },
+    {
+      "id": "u150-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quesito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sinônimo de cadeia de custódia."
+        },
+        {
+          "id": "B",
+          "text": "sentença elaborada pelo perito."
+        },
+        {
+          "id": "C",
+          "text": "nome do vestígio antes da coleta."
+        },
+        {
+          "id": "D",
+          "text": "pergunta técnica formal dirigida ao perito sobre a matéria examinada."
+        },
+        {
+          "id": "E",
+          "text": "decisão de culpabilidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quesito delimita uma pergunta técnica a ser respondida pelo perito dentro de sua competência."
+    },
+    {
+      "id": "u150-a14",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 12.030/2009 assegura ao perito oficial de natureza criminal",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinação científica ao investigado."
+        },
+        {
+          "id": "B",
+          "text": "autonomia para decidir a sentença."
+        },
+        {
+          "id": "C",
+          "text": "dispensa de formação específica."
+        },
+        {
+          "id": "D",
+          "text": "autonomia técnica, científica e funcional."
+        },
+        {
+          "id": "E",
+          "text": "prerrogativa de alterar a lei processual."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei assegura autonomia técnica, científica e funcional e exige concurso público e formação acadêmica específica."
+    },
+    {
+      "id": "u150-a23",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando peritos divergem tecnicamente, o Código de Processo Penal prevê que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a divergência seja ocultada para preservar a autoridade da perícia."
+        },
+        {
+          "id": "B",
+          "text": "a perícia seja automaticamente nula."
+        },
+        {
+          "id": "C",
+          "text": "as posições sejam registradas, podendo haver laudos separados, terceiro perito e, em certas condições, novo exame."
+        },
+        {
+          "id": "D",
+          "text": "prevaleça sempre o perito mais antigo."
+        },
+        {
+          "id": "E",
+          "text": "o assistente técnico passe a decidir."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 180 preserva a divergência de forma transparente e prevê mecanismos para sua apreciação."
+    },
+    {
+      "id": "u150-p02",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 64 da prova Cebraspe para Delegado da Polícia Civil do Espírito Santo, aplicada em 11/9/2022, assinale a afirmação correta sobre necessidade de perícia.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ressalvada a disciplina própria do exame de corpo de delito, a perícia pode ser indeferida quando a prova do fato não depender de conhecimento técnico especial ou ela for desnecessária ao esclarecimento."
+        },
+        {
+          "id": "B",
+          "text": "A confissão torna desnecessário o exame de corpo de delito quando há vestígios."
+        },
+        {
+          "id": "C",
+          "text": "O juiz fica vinculado a qualquer laudo produzido."
+        },
+        {
+          "id": "D",
+          "text": "A perícia é obrigatória sempre que uma parte a requerer."
+        },
+        {
+          "id": "E",
+          "text": "Todo fato processual exige prova pericial, mesmo sem questão técnica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A questão original teve gabarito definitivo E. A regra deve ser lida com a ressalva do exame de corpo de delito, que possui disciplina própria nos crimes que deixam vestígios."
+    },
+    {
+      "id": "per-u046-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Logo que toma conhecimento de infração penal, a autoridade policial, conforme o artigo 6º, VII, do Código de Processo Penal, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar sentença antes de qualquer exame."
+        },
+        {
+          "id": "B",
+          "text": "determinar, se for o caso, exame de corpo de delito e quaisquer outras perícias."
+        },
+        {
+          "id": "C",
+          "text": "delegar ao investigado a escolha da perícia."
+        },
+        {
+          "id": "D",
+          "text": "realizar pessoalmente toda perícia técnica."
+        },
+        {
+          "id": "E",
+          "text": "dispensar o exame quando houver confissão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 6º, VII, atribui à autoridade policial determinar, quando cabível, que se proceda ao exame de corpo de delito e a outras perícias; executar tecnicamente o exame é função pericial."
+    },
+    {
+      "id": "per-u046-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na hipótese de perícia por perito oficial prevista no artigo 159, o artigo 178 estabelece que o exame será",
+      "options": [
+        {
+          "id": "A",
+          "text": "requisitado pela autoridade ao diretor da repartição, juntando-se o laudo assinado pelos peritos."
+        },
+        {
+          "id": "B",
+          "text": "solicitado apenas pela defesa diretamente ao perito."
+        },
+        {
+          "id": "C",
+          "text": "realizado sem qualquer requisição formal."
+        },
+        {
+          "id": "D",
+          "text": "requisitado obrigatoriamente pelo próprio perito ao juiz."
+        },
+        {
+          "id": "E",
+          "text": "substituído por declaração da autoridade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 178 separa a requisição institucional da execução técnica: a autoridade requisita ao diretor da repartição e o laudo assinado é juntado ao processo."
+    },
+    {
+      "id": "per-u046-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre diligências requisitadas pelo juiz ou pelo Ministério Público durante a investigação, o artigo 13, II, do Código de Processo Penal determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autoridade policial as realize."
+        },
+        {
+          "id": "B",
+          "text": "o perito substitua a autoridade policial em todas as providências."
+        },
+        {
+          "id": "C",
+          "text": "sejam ignoradas até o oferecimento da denúncia."
+        },
+        {
+          "id": "D",
+          "text": "somente a defesa possa cumpri-las."
+        },
+        {
+          "id": "E",
+          "text": "toda diligência se converta em perícia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 13, II, atribui à autoridade policial realizar diligências requisitadas pelo juiz ou pelo Ministério Público. Isso não significa que toda diligência seja uma perícia."
+    },
+    {
+      "id": "per-u046-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prioridade legal do exame de corpo de delito prevista no artigo 158 alcança, entre outras hipóteses, crime que envolva",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer dano patrimonial de pequeno valor, exclusivamente."
+        },
+        {
+          "id": "B",
+          "text": "violência doméstica e familiar contra mulher ou violência contra criança, adolescente, idoso ou pessoa com deficiência."
+        },
+        {
+          "id": "C",
+          "text": "somente crimes praticados por servidor público."
+        },
+        {
+          "id": "D",
+          "text": "apenas crimes sem vestígios."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente delitos de trânsito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do artigo 158 estabelece prioridade nessas hipóteses de violência especialmente protegidas."
+    },
+    {
+      "id": "per-u046-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Tratando-se de perícia complexa que abranja mais de uma área de conhecimento especializado, o Código de Processo Penal",
+      "options": [
+        {
+          "id": "A",
+          "text": "proíbe a atuação conjunta de especialistas."
+        },
+        {
+          "id": "B",
+          "text": "exige sempre exatamente dois peritos não oficiais."
+        },
+        {
+          "id": "C",
+          "text": "permite designar mais de um perito oficial e a parte indicar mais de um assistente técnico."
+        },
+        {
+          "id": "D",
+          "text": "transforma o assistente técnico em juiz."
+        },
+        {
+          "id": "E",
+          "text": "dispensa laudo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 159, § 7º, admite mais de um perito oficial em perícia complexa multidisciplinar e mais de um assistente técnico pela parte."
+    },
+    {
+      "id": "per-u046-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O assistente técnico indicado pela parte, segundo o artigo 159, § 4º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui o perito oficial desde o início do exame."
+        },
+        {
+          "id": "B",
+          "text": "atua após admissão pelo juiz e depois da conclusão dos exames e elaboração do laudo pelos peritos oficiais."
+        },
+        {
+          "id": "C",
+          "text": "decide quais fatos estão juridicamente provados."
+        },
+        {
+          "id": "D",
+          "text": "é obrigatoriamente servidor do órgão pericial."
+        },
+        {
+          "id": "E",
+          "text": "não pode apresentar parecer."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei situa a atuação do assistente técnico após sua admissão judicial e após o exame e o laudo oficial; sua função é técnica e vinculada à parte."
+    },
+    {
+      "id": "per-u046-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para requerer a oitiva dos peritos durante o processo judicial para esclarecimentos, o Código exige que mandado de intimação e quesitos ou questões sejam encaminhados com antecedência mínima de",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 horas."
+        },
+        {
+          "id": "B",
+          "text": "3 dias."
+        },
+        {
+          "id": "C",
+          "text": "5 dias."
+        },
+        {
+          "id": "D",
+          "text": "10 dias."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 159, § 5º, I, fixa antecedência mínima de 10 dias para o encaminhamento do mandado e das questões destinadas aos peritos."
+    },
+    {
+      "id": "per-u046-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O exame de corpo de delito, segundo o artigo 161 do Código de Processo Penal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode ocorrer em dia útil e horário forense."
+        },
+        {
+          "id": "B",
+          "text": "pode ser feito em qualquer dia e a qualquer hora."
+        },
+        {
+          "id": "C",
+          "text": "depende de autorização judicial em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "somente pode ocorrer após a denúncia."
+        },
+        {
+          "id": "E",
+          "text": "é proibido no período noturno."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 161 afirma expressamente que o exame pode ser feito em qualquer dia e a qualquer hora."
+    },
+    {
+      "id": "per-u046-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à autópsia, a regra do artigo 162 é realizá-la",
+      "options": [
+        {
+          "id": "A",
+          "text": "imediatamente após o óbito, sem exceção."
+        },
+        {
+          "id": "B",
+          "text": "pelo menos seis horas após o óbito, salvo antecipação justificada pela evidência dos sinais de morte e declarada no auto."
+        },
+        {
+          "id": "C",
+          "text": "após 24 horas, obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "somente após autorização do acusado."
+        },
+        {
+          "id": "E",
+          "text": "exatamente 12 horas após o óbito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra é seis horas; os peritos podem antecipar quando a evidência dos sinais de morte permitir, devendo declarar essa circunstância no auto."
+    },
+    {
+      "id": "per-u046-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas perícias de laboratório, o artigo 170 determina que os peritos",
+      "options": [
+        {
+          "id": "A",
+          "text": "consumam todo o material obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "guardem material suficiente para eventual nova perícia."
+        },
+        {
+          "id": "C",
+          "text": "proíbam qualquer ilustração no laudo."
+        },
+        {
+          "id": "D",
+          "text": "entreguem o material ao assistente técnico em caráter definitivo."
+        },
+        {
+          "id": "E",
+          "text": "dispensem registro do exame."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 170 exige reserva de material suficiente para eventual nova perícia e admite ilustrações quando convenientes."
+    },
+    {
+      "id": "per-u046-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em crime cometido com rompimento de obstáculo à subtração da coisa, o artigo 171 orienta os peritos a",
+      "options": [
+        {
+          "id": "A",
+          "text": "limitar-se a calcular o valor da coisa."
+        },
+        {
+          "id": "B",
+          "text": "descrever os vestígios e indicar instrumentos, meios e época presumida da prática do fato."
+        },
+        {
+          "id": "C",
+          "text": "produzir reconhecimento pessoal do suspeito."
+        },
+        {
+          "id": "D",
+          "text": "decidir a pena aplicável."
+        },
+        {
+          "id": "E",
+          "text": "realizar apenas exame de escrita."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 171 dirige o exame aos vestígios de destruição ou rompimento e, quando cabível, escalada, incluindo instrumentos, meios e época presumida."
+    },
+    {
+      "id": "per-u046-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exame de incêndio previsto no artigo 173, os peritos devem investigar, entre outros pontos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a identidade civil do proprietário."
+        },
+        {
+          "id": "B",
+          "text": "causa e local de início, perigo para vida ou patrimônio, extensão do dano e seu valor."
+        },
+        {
+          "id": "C",
+          "text": "somente se houve confissão."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a cor da fumaça."
+        },
+        {
+          "id": "E",
+          "text": "a sentença que deverá ser proferida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 173 enumera causa, lugar de início, perigo, extensão do dano, valor e demais circunstâncias relevantes à elucidação."
+    },
+    {
+      "id": "per-u046-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A autoridade e as partes podem formular quesitos para a perícia, segundo o artigo 176,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente depois da sentença."
+        },
+        {
+          "id": "B",
+          "text": "até o ato da diligência."
+        },
+        {
+          "id": "C",
+          "text": "apenas depois do laudo definitivo."
+        },
+        {
+          "id": "D",
+          "text": "somente na fase policial."
+        },
+        {
+          "id": "E",
+          "text": "nunca, pois quesitos são exclusivos do perito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 176 permite à autoridade e às partes formular quesitos até o ato da diligência."
+    },
+    {
+      "id": "per-u046-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em lesões corporais, se o primeiro exame for incompleto e o exame complementar tiver por finalidade precisar a hipótese temporal prevista no artigo 129, § 1º, I, do Código Penal, ele deverá ser feito",
+      "options": [
+        {
+          "id": "A",
+          "text": "logo que decorra o prazo de 30 dias contado da data do crime."
+        },
+        {
+          "id": "B",
+          "text": "necessariamente no mesmo dia do primeiro exame."
+        },
+        {
+          "id": "C",
+          "text": "após 10 dias contados do laudo."
+        },
+        {
+          "id": "D",
+          "text": "somente após sentença."
+        },
+        {
+          "id": "E",
+          "text": "após seis horas do fato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 168, § 2º, fixa esse marco específico de 30 dias contado da data do crime; não é o prazo geral do laudo."
+    }
+  ]
+}
