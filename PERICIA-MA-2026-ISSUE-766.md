@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 27 | 0 | 9 |
+| Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 37 | 0 | 14 |
-| Unidades distintas | 99 | 53 | 1 | 45 |
-| Entregáveis unitários C/H/Q | 297 | 159 | 3 | 135 |
+| Total de macros individualizadas | 51 | 34 | 0 | 17 |
+| Unidades distintas | 99 | 53 | 0 | 46 |
+| Entregáveis unitários C/H/Q | 297 | 159 | 0 | 138 |
 
-Estado confirmado: **45 unidades/visões publicadas (45 locais, 0 por vínculo); 135 C/H/Q aceitos; 63/132 referências literais aceitas; 1563 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **46 unidades/visões publicadas (46 locais, 0 por vínculo); 138 C/H/Q aceitos; 67/132 referências literais aceitas; 1587 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04 C/H/Q done. Próxima ação: concluir PER-U047 — Cadeia de custódia: conceitos, etapas e fases**, conforme 5.2/7.5. PER-U045 e PER-U046 foram publicadas e aceitas; somente PER-U047 C/H/Q permanece analyzing sob o token `per-u045-u047-lote-20261004-8ad79c7a`; U048 permanece pending. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 2/3; E06 0/10; E07 0/13; E08 2/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; E08 5/5.1/5.2/5.3/6 foram fechadas por U046, enquanto E05 1/1.1/1.1.2 aguardam U047. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U047 sob `per-u045-u047-lote-20261004-8ad79c7a`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba**, conforme 5.2/7.5. PER-U045–PER-U047 foram publicadas e aceitas; U048 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 0/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -585,7 +585,7 @@ Grupo consumidor: `conhecimentos-gerais/direito-aplicado/`, relativo à raiz def
 |---|---|---|---|---|
 | PER-U045 — Prova: conceito, objeto, formas e disposições gerais | E05: 1, 1.1, 1.1.1; E08: 4, 4.1, 4.2, 4.3 | O041 | `prova-conceitos-disposicoes-gerais` / `per-u045` / 450 | Um pacote para ambos os blocos; confessional/testemunhal/documental/pericial e direta/indireta. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U046 — Corpo de delito, perícias, requisição e prazos | E05: 1, 1.1, 1.1.2; E08: 5, 5.1, 5.2, 5.3, 6 | O041, O042 | `corpo-delito-pericias-requisicao-prazos` / `per-u046` / 460 | Corpo de delito, requisitar/realizar e principais perícias enumeradas; recorte normativo sem medicina de outros cargos. Pontes: PER-U045. Parcial local; C/H/Q aceitos em 5.11. |
-| PER-U047 — Cadeia de custódia: conceitos, etapas e fases | E05: 1, 1.1, 1.1.2; E08: 3 | O041, O043 | `cadeia-custodia-conceitos-etapas` / `per-u047` / 470 | Doador digital é parcial candidato: não limitar cadeia à evidência digital. Pontes: PER-U045, PER-U046. |
+| PER-U047 — Cadeia de custódia: conceitos, etapas e fases | E05: 1, 1.1, 1.1.2; E08: 3 | O041, O043 | `cadeia-custodia-conceitos-etapas` / `per-u047` / 470 | Doador digital é parcial candidato: não limitar cadeia à evidência digital. Pontes: PER-U045, PER-U046. Parcial local; C/H/Q aceitos em 5.11. |
 
 #### 5.2.6 História do Maranhão
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 53/132 |
-| Unidades distintas da objetiva | 98 | 43 |
+| Referências literais da objetiva | 132/132 | 67/132 |
+| Unidades distintas da objetiva | 98 | 46 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 43 |
-| Entregáveis unitários C/H/Q | 297: 168 pending + 0 analyzing + 129 done | 129 done |
-| Visões consumidoras previstas | 99 | 43 |
+| Total de unidades distintas | 99 | 46 |
+| Entregáveis unitários C/H/Q | 297: 159 pending + 0 analyzing + 138 done | 138 done |
+| Visões consumidoras previstas | 99 | 46 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 41 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 44 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 43 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 46 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1806,15 +1806,11 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-direitos-vantagens/questoes.json` | `fb1ef94d68e0b0824c2edbcc0d519e812723a8db` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-direitos-vantagens/referencias.md` | `3d589795b062440564270dbf3a395a901e9436b7` |
 
-#### Reserva ativa em 04/10/2026 — lote PER-U045–PER-U047
+#### Decisão de execução serial em 04/10/2026 — lote PER-U045–PER-U047 concluído
 
-Token exclusivo `per-u045-u047-lote-20261004-8ad79c7a`, decorrente do pedido explícito “Faça mais 3 itens em seguida”. Base confirmada antes da reserva: main `8ad79c7a4328276cf701eacd8ffa3503d951d0be`, mestre `c68cc138eccf59e66a05467c07ccd30811b77cff`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. #755 está encerrada; #764 e #765 não têm reservas conflitantes. Um único executor cobre as três unidades porque O041 é origem compartilhada; as publicações e aceites permanecem obrigatoriamente serializados.
+O pedido explícito “Faça mais 3 itens em seguida” foi executado serialmente sob o token `per-u045-u047-lote-20261004-8ad79c7a`, partindo da main `8ad79c7a4328276cf701eacd8ffa3503d951d0be`, mestre `c68cc138eccf59e66a05467c07ccd30811b77cff` e AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. #755 estava encerrada e #764/#765 sem reservas conflitantes. U045, U046 e U047 foram publicadas, relidas, aceitas e sincronizadas nessa ordem; nenhum aceite foi importado do checkpoint histórico.
 
-- **PER-U045:** E05 1/1.1/1.1.1 + E08 4/4.1/4.2/4.3; O041 somente leitura; destino `conhecimentos-gerais/direito-aplicado/prova-conceitos-disposicoes-gerais/`, `per-u045`, ordem 450. Arquivos próprios C/H/Q/R; `conhecimentos-gerais/direito-aplicado/grupo.json` será materializado junto desta primeira unidade completa.
-- **PER-U046:** E05 1/1.1/1.1.2 + E08 5/5.1/5.2/5.3/6; O041 e O042 somente leitura; destino `conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/`, `per-u046`, ordem 460; quatro arquivos próprios.
-- **PER-U047:** E05 1/1.1/1.1.2 + E08 3; O041 e O043 somente leitura; destino `conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/`, `per-u047`, ordem 470; quatro arquivos próprios. O doador digital continua parcial e não limita cadeia de custódia a evidência digital.
-- **Blobs de origem na reserva:** O041 C/H/Q/R `6a9fe615a6974f42a8857bcc791b11548e5876be` / `183e5583c18c7094a042ad3765f7ae0288a32cff` / `34c4ae50213d9d4debea80f8eca40a7437bbd1ae` / `e48827e9cf9de8db690d1bada25ecf05a5ad1c71`; O042 `133bb568efd3982448c4d22eb6b52aa29116229b` / `d59468a73b384c14926ef9fbe9adfa626e2d5310` / `7037aa57698002b8406198bd554e90f9a873d41f` / `dfe8262863e7b248d0b637c137e1b761225f890c`; O043 `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` / `1015a659338b76e3d1511a63178c9dbf5bb3a438` / `67141495127b236546ff3ba7b26838861fdea0fb` / `bcdf06e9d159df22702967f672e595704a50ff44`.
-- O checkpoint histórico preserva finais antigos de U045/U046 e levantamento de U047, mas não é fonte de aceite. Como o ZIP não está na árvore da main, qualquer conteúdo recuperado precisa ser reconferido contra as origens, as fontes primárias e o estado remoto antes de publicação.
+Blobs de origem mantidos somente leitura na decisão: O041 C/H/Q/R `6a9fe615a6974f42a8857bcc791b11548e5876be` / `183e5583c18c7094a042ad3765f7ae0288a32cff` / `34c4ae50213d9d4debea80f8eca40a7437bbd1ae` / `e48827e9cf9de8db690d1bada25ecf05a5ad1c71`; O042 `133bb568efd3982448c4d22eb6b52aa29116229b` / `d59468a73b384c14926ef9fbe9adfa626e2d5310` / `7037aa57698002b8406198bd554e90f9a873d41f` / `dfe8262863e7b248d0b637c137e1b761225f890c`; O043 `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` / `1015a659338b76e3d1511a63178c9dbf5bb3a438` / `67141495127b236546ff3ba7b26838861fdea0fb` / `bcdf06e9d159df22702967f672e595704a50ff44`. As evidências finais específicas de cada unidade substituem o estado operacional dessa execução. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -1830,7 +1826,7 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | U047 | Somente levantamento,42Q/210 opções e dispositivos dirigidos, checkpoint com limites | Sem autoria/classificação final/aceite; completar pesquisa antes de decisão |
 | U048 | Reserva liberada antes da autoria; origem canônica/vínculos apenas indicados na reserva histórica | Não iniciada, nenhum aceite |
 
-**Checkpoint histórico superado para U044. Ponto corrente: somente U047 permanece reservada pelo token `per-u045-u047-lote-20261004-8ad79c7a`**, como única publicação habilitada; U045 e U046 foram publicadas e aceitas. U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
+**Checkpoint histórico superado para U044–U047. Ponto corrente: U048 pending e sem reserva ativa.** U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
 
 
 
@@ -1886,6 +1882,23 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/cheat-sheet.md` | `7f0e4487e8e162dd6195a1833ca23abe865f887d` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/questoes.json` | `3822834be44f949998b77d1f345781f1c92e5cbb` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/referencias.md` | `2aa13225b90be7df5761cbc7231656f7d7b0e674` |
+
+#### PER-U047 — Cadeia de custódia: conceitos, etapas e fases: parcial local — C/H/Q done
+
+- **Decisão, origem e destino:** última unidade do lote serial `per-u045-u047-lote-20261004-8ad79c7a`. Classificação **parcial/local**; O041 e O043 permaneceram somente leitura. Destino físico `conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/`, identidade `per-u047`, ordem 470, consumidor Generalista. Sem vínculo, resolução separada, alteração de grupo/catálogo ou importação do recorte digital inteiro.
+- **C/H, problema e ganho:** O041 ensina cadeia dentro de um pacote processual amplo e O043 a trata sob evidência digital. A intervenção reconstruiu o mecanismo geral de qualquer vestígio: **reconhecimento → isolamento → fixação → coleta → acondicionamento → transporte → recebimento → processamento → armazenamento → descarte**. O edital usa “etapas e fases”; a lei enumera literalmente dez etapas, então as quatro fases de C/H são declaradas apenas como agrupamento pedagógico, sem inventar categorias legais. A aula separa transporte de recebimento, fixação de coleta e processamento de armazenamento; cobre lacres, central, acesso/movimentação e retorno pós-perícia. Digital aparece somente como exemplo limitado de integridade/mesmidade, sem importar aquisição, memória volátil, metadados ou computação forense.
+- **Fontes e corte:** revalidados o edital consolidado e o Código de Processo Penal, artigos 158-A a 158-F. A jurisprudência do Superior Tribunal de Justiça foi limitada a duas pontes verificáveis: HC 653.515, sobre ausência de nulidade obrigatória por automatismo, e Jurisprudência em Teses 281, publicada em 03/06/2026, sobre integridade/auditabilidade/mesmidade da prova digital. Corte **17/07/2026**, consulta **04/10/2026**; nenhum precedente posterior ao corte foi incorporado e a janela jurisprudencial final futura não foi certificada.
+- **Banco e linhagem:** 24 questões/120 opções, `questionSetRevision: 1`. De O041, `u093-a03`, `u093-a04` e `u093-a05` preservados em revisão 2. De O043, `u031-a13`, `u031-a16` e `u031-a17` tiveram HTML retirado para texto puro e revisão 1→2; `u031-p01` e `u031-p02`, adaptações não literais verificáveis da Polícia Científica de Alagoas/2023, tiveram explicações convertidas para texto puro e revisão 2→3. Dezesseis novas `per-u047-a01`–`per-u047-a16` em revisão 1. IDs/`origin` preservados; releitura remota confirmou IDs únicos, cinco opções, chave existente e resposta única sustentada.
+- **Microglossário, densidade e inspeção individual PER-F02:** todas as ocorrências renderizadas de <abbr title="Código de Processo Penal">CPP</abbr> e <abbr title="Superior Tribunal de Justiça">STJ</abbr> em C/H estão marcadas; croqui e contraperícia recebem microdescrições onde aparecem antes de aprofundamento. Mesmidade, integridade e auditabilidade são ensinadas no corpo e não escondidas em `title`. C/H/Q/R foram relidos integralmente na `main`; o commit contém somente os quatro artefatos da unidade. PER-F02 macro continua pending. Nenhum teste, build, check ou CI foi executado.
+
+**Publicação confirmada:** [`b34917a6`](https://github.com/insign/concursos/commit/b34917a65bbd7099c175303d5feb65546e1fef38), parent `21a803d6dd3034223dd295a3b9be384a6143bad7`.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/conteudo.md` | `0a2f96c5649e197ba06ae8e79fd309c55a77828b` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/cheat-sheet.md` | `d61a9e3fc7ebec58f8541a4a61f07504e3ed817e` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/questoes.json` | `37dc3ab4d12b2a89d0f4a8fe10148def2c7071bb` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/referencias.md` | `8fdb9b3f2dd299aa979a44dbcca8fe5a48b7362f` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2003,9 +2016,9 @@ Respeitar o recorte de direito administrativo e agentes públicos deste bloco, s
 - [x] PER-E04-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E05 — Direito Aplicado
-- [ ] PER-E05-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências do recorte processual probatório previsto no edital.
-- [ ] PER-E05-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] PER-E05-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] PER-E05-C — `done` — Pesquisar, revisar e salvar conteúdo e referências do recorte processual probatório previsto no edital.
+- [x] PER-E05-H — `done` — Produzir e salvar cheat sheets.
+- [x] PER-E05-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E06 — História do Maranhão
 - [ ] PER-E06-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
@@ -2336,9 +2349,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U047 — Cadeia de custódia: conceitos, etapas e fases
 
-- [ ] PER-U047-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U047-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U047-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U047-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U047-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U047-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba
 
@@ -2882,3 +2895,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U045:** artefatos `a8d3c69426f2dab6dad26d91ef97ae1ba35d53e8` confirmados; aceitos neste registro 17 itens, C/H/Q e proveniência 5.11. Totais resultantes: 44/99 unidades, 132/297 C/H/Q, 58/132 referências, 1538 questões. Macros 14 done/37 pending/0 analyzing. Distribuição aceita E05 1/3 e E08 1/11; referências-pai E05 1/1.1 continuam abertas até U046/U047. Próxima ação PER-U046 — Corpo de delito, perícias, requisição e prazos; U046/U047 permanecem analyzing sob a reserva do lote.
 
 - **PER-U046:** artefatos `65f614d5fd8f540c6051ed67f7a0895df27c82ac` confirmados; aceitos neste registro 25 itens, C/H/Q e proveniência 5.11. Totais resultantes: 45/99 unidades, 135/297 C/H/Q, 63/132 referências, 1563 questões. Macros 14 done/37 pending/0 analyzing. Distribuição aceita E05 2/3 e E08 2/11; E08 5/5.1/5.2/5.3/6 aceitos, enquanto E05 1/1.1/1.1.2 aguardam o consumidor compartilhado U047. Próxima ação PER-U047 — Cadeia de custódia: conceitos, etapas e fases; somente U047 permanece analyzing.
+
+- **PER-U047:** artefatos `b34917a65bbd7099c175303d5feb65546e1fef38` confirmados; aceitos neste registro 24 itens, C/H/Q e proveniência 5.11. Totais resultantes: 46/99 unidades, 138/297 C/H/Q, 67/132 referências, 1587 questões. Macros 17 done/34 pending/0 analyzing. PER-E05 C/H/Q fica done (3/3); E08 passa a 3/11. E08:3 e E05:1/E05:1.1/E05:1.1.2 aceitos pelo índice inverso. Lote U045–U047 encerrado sem reserva ativa. Próxima ação PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba; campanha aberta.
