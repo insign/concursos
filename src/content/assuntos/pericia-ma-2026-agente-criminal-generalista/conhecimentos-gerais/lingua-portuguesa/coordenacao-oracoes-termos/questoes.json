@@ -1,0 +1,1716 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "q3219",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'A equipe revisou o relatório', o período é",
+      "options": [
+        {
+          "id": "A",
+          "text": "simples, formado por uma oração absoluta."
+        },
+        {
+          "id": "B",
+          "text": "composto por coordenação."
+        },
+        {
+          "id": "C",
+          "text": "composto por subordinação."
+        },
+        {
+          "id": "D",
+          "text": "simples, mas formado por duas orações."
+        },
+        {
+          "id": "E",
+          "text": "nominal, pois relatório dispensa o núcleo verbal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Há um núcleo verbal e uma única oração, chamada absoluta quando constitui todo o período. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3220",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'A equipe revisou o relatório e a planilha', há",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma oração principal e uma subordinada."
+        },
+        {
+          "id": "B",
+          "text": "uma oração com dois objetos diretos coordenados."
+        },
+        {
+          "id": "C",
+          "text": "duas orações coordenadas sindéticas."
+        },
+        {
+          "id": "D",
+          "text": "duas orações coordenadas assindéticas."
+        },
+        {
+          "id": "E",
+          "text": "dois sujeitos coordenados de revisou."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Existe apenas o verbo 'revisou'; relatório e planilha exercem a mesma função de objeto direto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3221",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'A equipe revisou o relatório e corrigiu a planilha', identificam-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "um verbo composto e uma oração."
+        },
+        {
+          "id": "B",
+          "text": "dois objetos de um único verbo."
+        },
+        {
+          "id": "C",
+          "text": "duas orações coordenadas, ligadas por 'e'."
+        },
+        {
+          "id": "D",
+          "text": "uma oração adjetiva reduzida."
+        },
+        {
+          "id": "E",
+          "text": "uma oração verbal seguida de um aposto nominal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Revisou e corrigiu organizam duas orações coordenadas. A primeira não tem conjunção introdutora, sendo assindética; a segunda é sindética aditiva, introduzida por e. As orações coordenam-se entre si, mas não são ambas sindéticas. Fonte: questão autoral baseada nas referências desta unidade."
+    },
+    {
+      "id": "q3223",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'O auditor e a analista chegaram', a coordenação ocorre entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas orações com sujeitos elípticos."
+        },
+        {
+          "id": "B",
+          "text": "dois predicados nominais."
+        },
+        {
+          "id": "C",
+          "text": "uma oração principal e uma reduzida."
+        },
+        {
+          "id": "D",
+          "text": "dois objetos diretos do verbo chegaram."
+        },
+        {
+          "id": "E",
+          "text": "dois núcleos que formam sujeito composto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Auditor e analista são núcleos nominais coordenados do mesmo sujeito composto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3224",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual frase coordena dois adjuntos adverbiais?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agiu com cuidado e com rapidez."
+        },
+        {
+          "id": "B",
+          "text": "O parecer claro e conciso foi aprovado."
+        },
+        {
+          "id": "C",
+          "text": "O auditor e a gestora chegaram."
+        },
+        {
+          "id": "D",
+          "text": "Revisou o processo e o contrato."
+        },
+        {
+          "id": "E",
+          "text": "O relatório parece claro e conciso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os sintagmas 'com cuidado' e 'com rapidez' modificam o verbo e exercem a mesma função adverbial. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3228",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A oração coordenada sindética distingue-se da assindética pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependência sintática do verbo anterior."
+        },
+        {
+          "id": "B",
+          "text": "obrigatoriedade de sujeito diferente."
+        },
+        {
+          "id": "C",
+          "text": "ausência de relação semântica."
+        },
+        {
+          "id": "D",
+          "text": "presença obrigatória de verbo na voz passiva."
+        },
+        {
+          "id": "E",
+          "text": "presença de conjunção coordenativa introduzindo a oração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na classificação tradicional adotada, a sindética vem introduzida por conjunção coordenativa; a assindética não. Relação semântica, sujeito diferente e voz verbal não decidem esse contraste. Nem toda expressão de ligação recebe a classe de conjunção. Fonte: questão autoral baseada nas referências desta unidade."
+    },
+    {
+      "id": "q3236",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'O texto é breve, mas suficiente', o conectivo coordena",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas orações com verbos expressos."
+        },
+        {
+          "id": "B",
+          "text": "uma oração principal e uma concessiva."
+        },
+        {
+          "id": "C",
+          "text": "dois predicativos/adjetivos em relação adversativa."
+        },
+        {
+          "id": "D",
+          "text": "dois complementos verbais."
+        },
+        {
+          "id": "E",
+          "text": "dois núcleos do sujeito composto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Breve' e 'suficiente' relacionam-se ao mesmo sujeito; não há segundo verbo expresso. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3239",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual característica diferencia 'porém' de 'mas' em muitos contextos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Porém' admite maior mobilidade dentro do segmento."
+        },
+        {
+          "id": "B",
+          "text": "'Porém' só pode ligar termos, não orações."
+        },
+        {
+          "id": "C",
+          "text": "'Mas' é sempre conclusivo quando inicia oração."
+        },
+        {
+          "id": "D",
+          "text": "'Mas' exige sujeito igual nas duas orações."
+        },
+        {
+          "id": "E",
+          "text": "Porém dispensa isolamento quando aparece intercalado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Porém, contudo, todavia e entretanto podem ocorrer intercalados; 'mas' é menos móvel. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3242",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao substituir 'Chovia, mas saí' por 'Embora chovesse, saí', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não ocorre mudança sintática ou discursiva."
+        },
+        {
+          "id": "B",
+          "text": "a adversativa passa a conclusiva."
+        },
+        {
+          "id": "C",
+          "text": "a concessiva passa a causal."
+        },
+        {
+          "id": "D",
+          "text": "preserva-se parte do contraste, mas mudam arquitetura e foco."
+        },
+        {
+          "id": "E",
+          "text": "a oração iniciada por embora se torna objeto direto de saí."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Coordenação adversativa e subordinação concessiva podem aproximar sentidos, sem serem estruturalmente equivalentes. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3247",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'Podem participar servidores ou empregados públicos', o 'ou' pode ter leitura",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente retificadora."
+        },
+        {
+          "id": "B",
+          "text": "conclusiva, derivada de requisito anterior."
+        },
+        {
+          "id": "C",
+          "text": "adversativa, por contraste entre vínculos."
+        },
+        {
+          "id": "D",
+          "text": "inclusiva, admitindo participantes de ambos os grupos."
+        },
+        {
+          "id": "E",
+          "text": "temporal, situando a participação após o vínculo público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Nada no contexto obriga escolher apenas um grupo; a alternativa pode ser inclusiva. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3252",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O emprego de um conector conclusivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna verdadeira qualquer inferência que introduza."
+        },
+        {
+          "id": "B",
+          "text": "converte o primeiro segmento em subordinada causal."
+        },
+        {
+          "id": "C",
+          "text": "exige que os fatos sejam cronologicamente sucessivos."
+        },
+        {
+          "id": "D",
+          "text": "apresenta uma conclusão, mas não garante sua validade lógica."
+        },
+        {
+          "id": "E",
+          "text": "exige que a conclusão esteja antes de seu fundamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conector sinaliza a orientação argumentativa do enunciador; a inferência ainda pode ser falha. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3254",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual frase apresenta 'pois' conclusivo em posição final?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faltou requisito; o pedido será indeferido, pois."
+        },
+        {
+          "id": "B",
+          "text": "Não saia, pois está chovendo."
+        },
+        {
+          "id": "C",
+          "text": "Pois está chovendo, leve o guarda-chuva."
+        },
+        {
+          "id": "D",
+          "text": "O pedido será indeferido, pois falta uma assinatura."
+        },
+        {
+          "id": "E",
+          "text": "Não encerre, pois ainda falta uma assinatura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O 'pois' final, precedido de vírgula, retoma o fundamento anterior e marca conclusão. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3258",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sem analisar o contexto de uma ocorrência de porque, qual afirmação sobre a classificação da oração é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre causal subordinada."
+        },
+        {
+          "id": "B",
+          "text": "sempre explicativa coordenada."
+        },
+        {
+          "id": "C",
+          "text": "sempre conclusiva."
+        },
+        {
+          "id": "D",
+          "text": "sempre adjetiva explicativa."
+        },
+        {
+          "id": "E",
+          "text": "É necessário examinar a estrutura e distinguir causa do fato de justificativa da fala."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Porque' é polissêmico; classificação exige estrutura, alcance e contexto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3261",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na frase 'A comissão terminou o exame e publicou o resultado', a forma usual de pontuação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "vírgula obrigatória antes de 'e'."
+        },
+        {
+          "id": "B",
+          "text": "ponto e vírgula obrigatório antes de 'e'."
+        },
+        {
+          "id": "C",
+          "text": "sem vírgula antes de 'e', na coordenação simples."
+        },
+        {
+          "id": "D",
+          "text": "vírgula depois de 'e'."
+        },
+        {
+          "id": "E",
+          "text": "vírgula obrigatória entre comissão e terminou para delimitar o sujeito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com mesmo sujeito e segmentos simples, normalmente não se separa por vírgula a coordenada introduzida por 'e'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3267",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A pontuação de 'não só... mas também' deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "vírgula obrigatória depois de 'mas'."
+        },
+        {
+          "id": "B",
+          "text": "proibição de qualquer vírgula antes de 'mas'."
+        },
+        {
+          "id": "C",
+          "text": "subordinação causal do segundo membro."
+        },
+        {
+          "id": "D",
+          "text": "a correlação aditiva e a extensão dos membros, não uma regra adversativa automática."
+        },
+        {
+          "id": "E",
+          "text": "a negação obrigatória dos dois fatos apresentados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão inteira é correlativa aditiva; a pontuação acompanha sua estrutura concreta. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3268",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual frase apresenta três ações pretendidas por meio de três infinitivos coordenados com construções equivalentes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pretende revisar o texto, a entrega do relatório e protocolar o recurso."
+        },
+        {
+          "id": "B",
+          "text": "Pretende a revisão do texto, entregar o relatório e o protocolo."
+        },
+        {
+          "id": "C",
+          "text": "Pretende que revise o texto, a entrega e protocolar."
+        },
+        {
+          "id": "D",
+          "text": "Pretende revisando o texto, entregar o relatório e protocolo do recurso."
+        },
+        {
+          "id": "E",
+          "text": "Pretende revisar o texto, entregar o relatório e protocolar o recurso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os três infinitivos coordenados apresentam estrutura equivalente e objetos correspondentes. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3271",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A elipse é adequada quando o elemento omitido",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode ser identificado no contexto."
+        },
+        {
+          "id": "B",
+          "text": "é sempre um verbo já expresso."
+        },
+        {
+          "id": "C",
+          "text": "é recuperável sem comprometer a estrutura e o sentido."
+        },
+        {
+          "id": "D",
+          "text": "rompe necessariamente o paralelismo."
+        },
+        {
+          "id": "E",
+          "text": "exige que todas as orações tenham o sujeito escrito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Elipse é omissão contextual; zeugma é o caso em que o termo já apareceu. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3272",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em 'Esses processos, precisamos revisá-los hoje', a análise que evita classificar automaticamente a antecipação como anacoluto é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Esses processos' pode ser analisado como objeto direto pleonástico, antecipado e retomado por '-los'."
+        },
+        {
+          "id": "B",
+          "text": "'Esses processos' é necessariamente sujeito de 'precisamos'."
+        },
+        {
+          "id": "C",
+          "text": "A vírgula indica zeugma do verbo 'revisar'."
+        },
+        {
+          "id": "D",
+          "text": "O pronome '-los' não mantém relação sintática com o termo antecipado."
+        },
+        {
+          "id": "E",
+          "text": "Toda antecipação de complemento seguida de pronome é erro de pontuação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O termo antecipado e o pronome '-los' exprimem o mesmo complemento de 'revisar', permitindo a análise tradicional de objeto direto pleonástico. A retomada impede tratar a construção automaticamente como ruptura sintática. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3281",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Espero que a equipe revise o ato e que publique a retificação', as duas orações introduzidas por 'que':",
+      "options": [
+        {
+          "id": "A",
+          "text": "são independentes de toda oração anterior"
+        },
+        {
+          "id": "B",
+          "text": "formam uma relação exclusivamente adversativa"
+        },
+        {
+          "id": "C",
+          "text": "são coordenadas entre si e, como bloco, completam o verbo 'espero'"
+        },
+        {
+          "id": "D",
+          "text": "exercem funções sintáticas diferentes"
+        },
+        {
+          "id": "E",
+          "text": "são duas orações absolutas"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A coordenação é interna ao bloco subordinado: ambas exercem a função de complemento de 'espero'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3282",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na frase 'O gestor decidiu revisar o ato e publicar a retificação', 'revisar o ato' e 'publicar a retificação' são:",
+      "options": [
+        {
+          "id": "A",
+          "text": "termos nominais sem valor oracional"
+        },
+        {
+          "id": "B",
+          "text": "orações absolutas separadas por assíndeto"
+        },
+        {
+          "id": "C",
+          "text": "orações subordinadas causais"
+        },
+        {
+          "id": "D",
+          "text": "orações reduzidas de infinitivo coordenadas, dependentes externamente de 'decidiu'"
+        },
+        {
+          "id": "E",
+          "text": "uma oração principal e uma conclusiva"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cada infinitivo possui valor verbal e as duas reduzidas coordenam-se dentro do complemento de 'decidiu'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3287",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para decidir se dois segmentos estão coordenados, o teste mais confiável é verificar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "se têm o mesmo número de palavras"
+        },
+        {
+          "id": "B",
+          "text": "se aparecem entre vírgulas"
+        },
+        {
+          "id": "C",
+          "text": "se começam com a mesma letra"
+        },
+        {
+          "id": "D",
+          "text": "se exercem função equivalente em relação ao mesmo regente ou à mesma estrutura"
+        },
+        {
+          "id": "E",
+          "text": "se contêm necessariamente a conjunção 'e'"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Coordenação é relação de mesmo nível sintático; tamanho e aparência não bastam. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3289",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Recebeu o processo e iniciou a análise', o valor contextual predominante de 'e' é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sequência temporal associada à adição"
+        },
+        {
+          "id": "B",
+          "text": "concessão subordinativa"
+        },
+        {
+          "id": "C",
+          "text": "explicação de uma ordem"
+        },
+        {
+          "id": "D",
+          "text": "alternância exclusiva"
+        },
+        {
+          "id": "E",
+          "text": "conclusão marcada por conector deslocado"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O segundo evento sucede o primeiro, embora a estrutura continue coordenativa aditiva. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3291",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na frase 'Prometeu rapidez e demorou meses', o 'e' produz:",
+      "options": [
+        {
+          "id": "A",
+          "text": "alternância exclusiva"
+        },
+        {
+          "id": "B",
+          "text": "conclusão formal marcada por posição"
+        },
+        {
+          "id": "C",
+          "text": "contraste contextual ou quebra de expectativa"
+        },
+        {
+          "id": "D",
+          "text": "explicação de uma ordem"
+        },
+        {
+          "id": "E",
+          "text": "subordinação concessiva expressa"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conjunção é aditiva na forma, mas o contexto constrói oposição. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3292",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Não analisou a minuta nem consultou a área técnica', 'nem':",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirma o segundo processo"
+        },
+        {
+          "id": "B",
+          "text": "introduz conclusão"
+        },
+        {
+          "id": "C",
+          "text": "equivale a 'mas também' aditivo afirmativo"
+        },
+        {
+          "id": "D",
+          "text": "acrescenta o segundo processo ao escopo da negação"
+        },
+        {
+          "id": "E",
+          "text": "transforma a segunda oração em causal"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A negação alcança os dois predicados coordenados. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3296",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para completar “tanto a revisão dos atos quanto ___” com dois grupos nominais construídos segundo o mesmo padrão, a opção adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "publicar os resultados"
+        },
+        {
+          "id": "B",
+          "text": "que os resultados sejam publicados"
+        },
+        {
+          "id": "C",
+          "text": "a publicação dos resultados"
+        },
+        {
+          "id": "D",
+          "text": "os resultados serão publicados"
+        },
+        {
+          "id": "E",
+          "text": "porque os resultados foram publicados"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A correlação liga sintagmas nominais de forma paralela. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3297",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na estrutura 'não foi atraso, mas sim erro de cadastro', 'mas sim' introduz:",
+      "options": [
+        {
+          "id": "A",
+          "text": "adição de dois fatos simultâneos"
+        },
+        {
+          "id": "B",
+          "text": "conclusão lógica"
+        },
+        {
+          "id": "C",
+          "text": "explicação causal"
+        },
+        {
+          "id": "D",
+          "text": "retificação ou substituição da primeira hipótese"
+        },
+        {
+          "id": "E",
+          "text": "alternância inclusiva"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A construção corrige a denominação anterior e apresenta a alternativa considerada adequada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3301",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'O relatório, contudo, contém ressalvas', as vírgulas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam sujeito de predicado"
+        },
+        {
+          "id": "B",
+          "text": "marcam uma oração adjetiva restritiva"
+        },
+        {
+          "id": "C",
+          "text": "isolam um conector adversativo intercalado"
+        },
+        {
+          "id": "D",
+          "text": "indicam vocativo"
+        },
+        {
+          "id": "E",
+          "text": "são facultativas porque todo conector dispensa isolamento"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A mobilidade do conector explica seu isolamento. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3307",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O emprego de 'Porém' no início de um novo período pode:",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinar sintaticamente um parágrafo ao outro"
+        },
+        {
+          "id": "B",
+          "text": "eliminar a necessidade de relação semântica"
+        },
+        {
+          "id": "C",
+          "text": "funcionar apenas como preposição"
+        },
+        {
+          "id": "D",
+          "text": "retomar o argumento anterior e introduzir contraste transfrástico"
+        },
+        {
+          "id": "E",
+          "text": "marcar sempre uma conclusão"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conectores móveis podem articular períodos e parágrafos, não apenas orações dentro do mesmo período. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3308",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência 'O prazo era suficiente e, no entanto, a equipe não concluiu o trabalho', a expressão 'no entanto':",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna o segundo membro causal"
+        },
+        {
+          "id": "B",
+          "text": "exige a retirada de 'e' por agramaticalidade"
+        },
+        {
+          "id": "C",
+          "text": "introduz oração adjetiva"
+        },
+        {
+          "id": "D",
+          "text": "equivale a 'portanto'"
+        },
+        {
+          "id": "E",
+          "text": "explicita contraste sem impedir que 'e' realize a ligação coordenativa"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A combinação é possível e reforça a orientação adversativa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3310",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Ou protocola hoje, ou perde o prazo', a correlação sugere:",
+      "options": [
+        {
+          "id": "A",
+          "text": "adição cumulativa"
+        },
+        {
+          "id": "B",
+          "text": "alternativa exclusiva associada a consequências incompatíveis"
+        },
+        {
+          "id": "C",
+          "text": "explicação"
+        },
+        {
+          "id": "D",
+          "text": "concessão"
+        },
+        {
+          "id": "E",
+          "text": "conclusão deslocada"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O contexto apresenta caminhos mutuamente excludentes. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3311",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na expressão 'a impessoalidade, ou ausência de favorecimento', 'ou' introduz:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ameaça condicional"
+        },
+        {
+          "id": "B",
+          "text": "conclusão"
+        },
+        {
+          "id": "C",
+          "text": "reformulação ou equivalência explicativa"
+        },
+        {
+          "id": "D",
+          "text": "adversidade"
+        },
+        {
+          "id": "E",
+          "text": "causa do termo anterior"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O segundo segmento reformula o primeiro. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3312",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Ou muito me engano, ou o dado está incorreto', a correlação apresenta:",
+      "options": [
+        {
+          "id": "A",
+          "text": "enumeração puramente aditiva"
+        },
+        {
+          "id": "B",
+          "text": "oração causal subordinada"
+        },
+        {
+          "id": "C",
+          "text": "conclusão obrigatória"
+        },
+        {
+          "id": "D",
+          "text": "alternativa hipotética"
+        },
+        {
+          "id": "E",
+          "text": "aposto especificativo"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O primeiro membro formula uma ressalva à afirmação do segundo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3313",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para completar “ora revisa os dados, ora ___”, mantendo os dois núcleos verbais no presente e na terceira pessoa do singular, a continuação adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a consulta da equipe técnica"
+        },
+        {
+          "id": "B",
+          "text": "porque a equipe foi consultada"
+        },
+        {
+          "id": "C",
+          "text": "consultando a equipe técnica"
+        },
+        {
+          "id": "D",
+          "text": "que a equipe seja consultada"
+        },
+        {
+          "id": "E",
+          "text": "consulta a equipe técnica"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Consulta mantém o padrão solicitado de revisa. Outras formas podem participar de construções gramaticais distintas, mas não mantêm aqui os dois núcleos no presente e na terceira pessoa do singular. Fonte: questão autoral baseada nas referências desta unidade."
+    },
+    {
+      "id": "q3314",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na correlação 'quer por meio eletrônico, quer presencialmente', a relação predominante é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "alternância entre modalidades"
+        },
+        {
+          "id": "B",
+          "text": "oposição"
+        },
+        {
+          "id": "C",
+          "text": "causa"
+        },
+        {
+          "id": "D",
+          "text": "conclusão"
+        },
+        {
+          "id": "E",
+          "text": "explicação"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Quer... quer' apresenta possibilidades alternativas. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3315",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'seja o pedido simples, seja complexo, será analisado', a correlação indica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "causa exclusiva"
+        },
+        {
+          "id": "B",
+          "text": "alternância sem excluir a incidência da conclusão sobre ambos os casos"
+        },
+        {
+          "id": "C",
+          "text": "adição temporal"
+        },
+        {
+          "id": "D",
+          "text": "conclusão introduzida por 'seja'"
+        },
+        {
+          "id": "E",
+          "text": "apenas uma hipótese verdadeira"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A estrutura cobre as duas possibilidades e mantém a consequência comum. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3316",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A frase 'Não revisou o relatório ou a planilha' pode ser ambígua porque:",
+      "options": [
+        {
+          "id": "A",
+          "text": "'ou' nunca admite negação"
+        },
+        {
+          "id": "B",
+          "text": "o verbo é impessoal"
+        },
+        {
+          "id": "C",
+          "text": "o escopo de 'não' e a leitura inclusiva/exclusiva de 'ou' não estão explicitados"
+        },
+        {
+          "id": "D",
+          "text": "há obrigatoriamente duas orações"
+        },
+        {
+          "id": "E",
+          "text": "a conjunção transforma o objeto em sujeito"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reescrita deve esclarecer se nenhum item foi revisado ou se apenas um deixou de ser. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3320",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Não encerre o processo, pois falta uma assinatura', o segundo membro:",
+      "options": [
+        {
+          "id": "A",
+          "text": "apresenta conclusão"
+        },
+        {
+          "id": "B",
+          "text": "justifica a ordem e tem leitura explicativa"
+        },
+        {
+          "id": "C",
+          "text": "é adversativo"
+        },
+        {
+          "id": "D",
+          "text": "é alternativa exclusiva"
+        },
+        {
+          "id": "E",
+          "text": "funciona como objeto direto"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A falta da assinatura fundamenta o ato de fala 'não encerre'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3321",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'O processo atrasou porque faltava uma assinatura', a oração introduzida por 'porque':",
+      "options": [
+        {
+          "id": "A",
+          "text": "explica uma ordem"
+        },
+        {
+          "id": "B",
+          "text": "conclui a partir do primeiro membro"
+        },
+        {
+          "id": "C",
+          "text": "exprime causa do acontecimento descrito"
+        },
+        {
+          "id": "D",
+          "text": "coordena termos nominais"
+        },
+        {
+          "id": "E",
+          "text": "marca concessão"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A falta de assinatura é apresentada como circunstância causal do atraso. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3325",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O melhor teste para distinguir explicativa de causal é perguntar se o segundo segmento:",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem mais palavras que o primeiro"
+        },
+        {
+          "id": "B",
+          "text": "causa o fato ou justifica a afirmação, ordem ou avaliação do enunciador"
+        },
+        {
+          "id": "C",
+          "text": "começa por conjunção"
+        },
+        {
+          "id": "D",
+          "text": "contém verbo no presente"
+        },
+        {
+          "id": "E",
+          "text": "está sempre separado por vírgula"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A classificação depende da integração sintática e da função discursiva. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3326",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Descumpriu o prazo e sofreu a sanção', o segundo membro expressa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "conclusão marcada por 'portanto'"
+        },
+        {
+          "id": "B",
+          "text": "causa do descumprimento"
+        },
+        {
+          "id": "C",
+          "text": "consequência inferível em estrutura formalmente aditiva"
+        },
+        {
+          "id": "D",
+          "text": "concessão"
+        },
+        {
+          "id": "E",
+          "text": "alternância"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A relação consecutiva decorre do contexto; a conjunção continua sendo 'e'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3331",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'sempre se usa vírgula antes de e quando os sujeitos são diferentes' é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta sem exceção"
+        },
+        {
+          "id": "B",
+          "text": "correta apenas em frases curtas"
+        },
+        {
+          "id": "C",
+          "text": "incorreta; a decisão também considera clareza, extensão e efeito discursivo"
+        },
+        {
+          "id": "D",
+          "text": "incorreta porque a vírgula é sempre proibida"
+        },
+        {
+          "id": "E",
+          "text": "correta apenas com sujeitos ocultos"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A norma não estabelece obrigatoriedade automática baseada apenas nos sujeitos. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3332",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'E explica, e exemplifica, e revisa', a repetição do conector constitui:",
+      "options": [
+        {
+          "id": "A",
+          "text": "assíndeto"
+        },
+        {
+          "id": "B",
+          "text": "subordinação causal"
+        },
+        {
+          "id": "C",
+          "text": "zeugma"
+        },
+        {
+          "id": "D",
+          "text": "polissíndeto, com efeito de ênfase e ritmo"
+        },
+        {
+          "id": "E",
+          "text": "anacoluto"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conector é repetido deliberadamente antes de cada membro. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3333",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'Conferiu, corrigiu, publicou', a relação entre as orações é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinativa causal"
+        },
+        {
+          "id": "B",
+          "text": "coordenativa conclusiva com conector expresso"
+        },
+        {
+          "id": "C",
+          "text": "adjetiva explicativa"
+        },
+        {
+          "id": "D",
+          "text": "uma única locução verbal"
+        },
+        {
+          "id": "E",
+          "text": "coordenativa assindética"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Há três núcleos verbais sem conjunção expressa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3334",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Trocar a vírgula entre orações assindéticas por ponto e vírgula pode:",
+      "options": [
+        {
+          "id": "A",
+          "text": "aumentar a autonomia e hierarquizar melhor segmentos extensos"
+        },
+        {
+          "id": "B",
+          "text": "eliminar a coordenação"
+        },
+        {
+          "id": "C",
+          "text": "criar automaticamente causa"
+        },
+        {
+          "id": "D",
+          "text": "ser sempre agramatical"
+        },
+        {
+          "id": "E",
+          "text": "transformar verbos em substantivos"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ponto e vírgula mantém ligação no período, com separação mais forte. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3339",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual frase apresenta dois complementos de interesse construídos igualmente por em + artigo + substantivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equipe mostrou interesse na revisão do ato e na publicação do resultado"
+        },
+        {
+          "id": "B",
+          "text": "A equipe mostrou interesse em revisar o ato e pela publicação do resultado"
+        },
+        {
+          "id": "C",
+          "text": "A equipe mostrou interesse na revisão do ato e publicar o resultado"
+        },
+        {
+          "id": "D",
+          "text": "A equipe mostrou interesse que o ato fosse revisto e na publicação"
+        },
+        {
+          "id": "E",
+          "text": "A equipe mostrou interesse em revisão e que publicassem o resultado"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na revisão e na publicação realizam o mesmo padrão: em + a + substantivo. A escolha desse padrão favorece clareza; não significa que toda coordenação de formas diferentes seja sintaticamente impossível. Fonte: questão autoral baseada nas referências desta unidade."
+    },
+    {
+      "id": "q3341",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual reescrita preserva melhor o paralelismo de voz?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O ato foi revisado, a equipe publicou e arquivamento"
+        },
+        {
+          "id": "B",
+          "text": "A equipe revisou, foi publicado e arquivou"
+        },
+        {
+          "id": "C",
+          "text": "O ato foi revisado, publicado e arquivado pela equipe"
+        },
+        {
+          "id": "D",
+          "text": "O ato foi revisão, publicado e a equipe arquivou"
+        },
+        {
+          "id": "E",
+          "text": "Revisando o ato, foi publicado e o arquivo"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os três particípios coordenados mantêm a voz passiva e o mesmo sujeito paciente. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3342",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma lista pretende enumerar qualidades exigidas de um relatório: “clareza, concisão e amanhã”. Qual é o problema principal do terceiro membro nesse contexto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência de conjunção causal"
+        },
+        {
+          "id": "B",
+          "text": "falta de vírgula depois de 'e'"
+        },
+        {
+          "id": "C",
+          "text": "sujeito composto"
+        },
+        {
+          "id": "D",
+          "text": "incompatibilidade semântica entre os membros"
+        },
+        {
+          "id": "E",
+          "text": "uso de oração reduzida"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Amanhã indica tempo e não nomeia uma qualidade, contrariando o critério anunciado para a lista. O problema depende desse contexto; nem toda enumeração exige membros semanticamente iguais. Fonte: questão autoral baseada nas referências desta unidade."
+    },
+    {
+      "id": "q3343",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'A analista revisou o relatório; o auditor, a planilha', a vírgula depois de 'auditor' marca:",
+      "options": [
+        {
+          "id": "A",
+          "text": "vocativo"
+        },
+        {
+          "id": "B",
+          "text": "oração adjetiva"
+        },
+        {
+          "id": "C",
+          "text": "conector conclusivo"
+        },
+        {
+          "id": "D",
+          "text": "separação indevida entre sujeito e predicado"
+        },
+        {
+          "id": "E",
+          "text": "zeugma do verbo 'revisou'"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O verbo já expresso no primeiro membro é omitido no segundo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3344",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em 'Esses processos, a equipe precisa de mais tempo', o segmento inicial exemplifica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "objeto direto pleonástico retomado por pronome."
+        },
+        {
+          "id": "B",
+          "text": "zeugma do verbo 'precisar'."
+        },
+        {
+          "id": "C",
+          "text": "anacoluto, pois o termo inicial fica sem função sintática na construção que segue."
+        },
+        {
+          "id": "D",
+          "text": "oração coordenada assindética."
+        },
+        {
+          "id": "E",
+          "text": "sujeito composto de 'precisa'."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Diferentemente da construção com retomada pronominal, aqui 'esses processos' fica solto em relação à oração 'a equipe precisa de mais tempo', caracterizando a ruptura tradicionalmente chamada anacoluto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "q3350",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em todas as frases abaixo aparece a conjunção `e` sublinhada.\nAssinale a frase em que ela é empregada com valor adversativo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vida: um espaço de tempo cuja primeira metade é arruinada por nossos pais `e` a segunda metade, por nossos filhos."
+        },
+        {
+          "id": "B",
+          "text": "Uma casa é feita de tijolo `e` pedra. Um lar é feito apenas de amor."
+        },
+        {
+          "id": "C",
+          "text": "Esculpir: eu escolho um bloco de mármore `e` retiro tudo o que não preciso."
+        },
+        {
+          "id": "D",
+          "text": "Arte é fazer alguma coisa do nada `e` vendê-la."
+        },
+        {
+          "id": "E",
+          "text": "Nada tenho a dizer `e` estou dizendo-o. Tal é a poesia."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Gabarito definitivo: E. Em “Nada tenho a dizer e estou dizendo-o”, o segundo segmento contrasta com o primeiro, conferindo valor adversativo ao conectivo. Fonte: questão oficial; FGV; Assembleia Legislativa do Maranhão — Assistente Legislativo Administrativo — Criador e Desenvolvedor de Web e Plataformas Digitais, Tipo 2 (Verde); 2023; questão 2; https://conhecimento.fgv.br/sites/default/files/concursos/cnm201-assistente-legislativo-administrativo-criador-e-desenvolvedor-de-web-e-plataformas-digitaiscnm201-tipo-2.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf. As crases apenas normalizam o sublinhado da conjunção no original."
+    },
+    {
+      "id": "q3354",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“As cidades são os centros da atividade econômica da Europa, assim como da inovação e do emprego. Mas também elas se debatem com uma série de problemas, nomeadamente, a tendência para a suburbanização, a concentração da pobreza e do desemprego em zonas urbanas e os problemas resultantes de um crescente congestionamento”.\nA conjunção mas, que une os dois períodos desse segmento do texto, opõe duas ideias, que são",
+      "options": [
+        {
+          "id": "A",
+          "text": "centro de atividade econômica X problemas."
+        },
+        {
+          "id": "B",
+          "text": "pobreza X desemprego."
+        },
+        {
+          "id": "C",
+          "text": "atividade econômica X suburbanização."
+        },
+        {
+          "id": "D",
+          "text": "concentração da pobreza X congestionamento."
+        },
+        {
+          "id": "E",
+          "text": "cidades X congestionamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gabarito definitivo: A. O conector contrapõe o papel das cidades como centros de atividade econômica ao conjunto de problemas urbanos apresentado no período seguinte. Fonte: questão oficial; FGV; Tribunal de Contas do Estado da Bahia — Agente Público, Tipo 3 (Amarela); 2013; questão 1; https://conhecimento.fgv.br/sites/default/files/concursos/tce_2013_ns_agente_publico_tipo_03.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tceba13_agente_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3355",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "“As cidades são os centros da atividade econômica da Europa, assim como da inovação e do emprego”; “...requerem imediatamente respostas integradas a nível dos transportes, da habitação, da formação e do emprego, bem como respostas adaptadas às necessidades locais”.\nQuanto aos dois conectores sublinhados, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos têm valor comparativo."
+        },
+        {
+          "id": "B",
+          "text": "só o primeiro tem valor comparativo."
+        },
+        {
+          "id": "C",
+          "text": "só o segundo tem valor comparativo."
+        },
+        {
+          "id": "D",
+          "text": "ambos possuem valor aditivo."
+        },
+        {
+          "id": "E",
+          "text": "ambos expressam ideia de modo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito definitivo: D. No contexto, tanto “assim como” quanto “bem como” acrescentam termos de mesma função, com valor aditivo. Fonte: questão oficial; FGV; Tribunal de Contas do Estado da Bahia — Agente Público, Tipo 3 (Amarela); 2013; questão 3; https://conhecimento.fgv.br/sites/default/files/concursos/tce_2013_ns_agente_publico_tipo_03.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/tceba13_agente_gabarito_definitivo.pdf."
+    },
+    {
+      "id": "q3356",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Considerando o trecho “(...) é impulsionado não só pelo crime organizado, que financia a extração e a compra do ouro explorado desses territórios, mas também pela desorganização proposital do Estado para enfrentar esta atividade criminosa”, assinale a alternativa que melhor explique a relação lógico-semântica estabelecida pelos elementos coesivos presentes no trecho.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Não haveria prejuízo de sintaxe nem de efeito de sentido caso a expressão correlativa “não só/mas também” fosse, nesse contexto, substituída pela conjunção, igualmente aditiva, “e”."
+        },
+        {
+          "id": "B",
+          "text": "A expressão “não só/mas também”, nesse contexto, estabelece uma relação de oposição entre as ações correlacionadas."
+        },
+        {
+          "id": "C",
+          "text": "Nesse contexto, a expressão “não só/mas também” estabelece uma relação semântica de alternância entre as ações listadas."
+        },
+        {
+          "id": "D",
+          "text": "A expressão “não só/mas também” adiciona uma nova informação à anterior, mostrando que ambas são relevantes."
+        },
+        {
+          "id": "E",
+          "text": "A expressão “não só/mas também” adiciona uma nova informação à anterior, mostrando que há uma relação de explicação entre as ideias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gabarito definitivo: D. A correlação “não só/mas também” soma duas informações e reforça a relevância de ambas. Fonte: questão oficial; FGV; Companhia de Pesquisa de Recursos Minerais (CPRM) — Analista em Geociências — Letras, Tipo 1 (Branca); 2025; questão 47; https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-geociencias-letras-cns02e23-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-cprm.pdf."
+    },
+    {
+      "id": "per-u009-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em “A equipe agiu com cautela e rapidamente”, a análise correta da coordenação é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "é impossível porque uma locução nunca pode coordenar-se com uma palavra."
+        },
+        {
+          "id": "B",
+          "text": "há duas orações, uma para cada expressão de modo."
+        },
+        {
+          "id": "C",
+          "text": "as duas expressões indicam modo e têm função compatível, apesar da diferença formal."
+        },
+        {
+          "id": "D",
+          "text": "rapidamente é objeto direto de agiu."
+        },
+        {
+          "id": "E",
+          "text": "e transforma rapidamente em sujeito composto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com cautela e rapidamente modificam agiu, indicando modo. A equivalência de função permite a coordenação neste contexto; exigir identidade de número de palavras ou de classe seria uma generalização indevida. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "per-u009-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na frase “A equipe revisou o laudo e discordou dele”, a relação entre os complementos mostra que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pronome dele é objeto direto dos dois verbos."
+        },
+        {
+          "id": "B",
+          "text": "a coordenação preserva o complemento direto de revisou e o complemento com de de discordou."
+        },
+        {
+          "id": "C",
+          "text": "o laudo e dele são dois núcleos de um sujeito composto."
+        },
+        {
+          "id": "D",
+          "text": "o emprego de e exige que os dois verbos tenham a mesma regência."
+        },
+        {
+          "id": "E",
+          "text": "a segunda oração não pode retomar o objeto da primeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O laudo completa revisou sem preposição exigida. Dele retoma o mesmo documento e satisfaz a ligação discordar de. Coordenar orações não obriga a igualar a regência dos verbos nem permite apagar suas exigências. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "per-u009-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No grupo “técnicos e auditores experientes”, sem informação adicional, a dúvida de interpretação diz respeito:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao alcance de experientes, que pode caracterizar só auditores ou os dois grupos."
+        },
+        {
+          "id": "B",
+          "text": "à existência de um verbo no futuro."
+        },
+        {
+          "id": "C",
+          "text": "à obrigatoriedade de ler técnicos como objeto indireto."
+        },
+        {
+          "id": "D",
+          "text": "ao valor exclusivamente adversativo de e."
+        },
+        {
+          "id": "E",
+          "text": "à presença de duas orações desenvolvidas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O adjetivo pode alcançar apenas o nome próximo ou o conjunto coordenado. Para afirmar a experiência de ambos, é possível explicitar técnicos experientes e auditores experientes. A ambiguidade é de alcance, não de tempo verbal. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
+    },
+    {
+      "id": "per-u009-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare “João e Maria carregaram a mesa” com “João e Maria preencheram um formulário cada”. A análise adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira exige que cada pessoa tenha carregado uma mesa diferente."
+        },
+        {
+          "id": "B",
+          "text": "a segunda exige que ambos tenham preenchido juntos o mesmo formulário."
+        },
+        {
+          "id": "C",
+          "text": "o sujeito deixa de ser composto na segunda frase."
+        },
+        {
+          "id": "D",
+          "text": "a primeira admite ação conjunta; cada explicita distribuição na segunda."
+        },
+        {
+          "id": "E",
+          "text": "a conjunção e é alternativa exclusiva nas duas frases."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Carregar a mesa admite participação conjunta dos dois sujeitos. Na segunda, cada distribui um formulário por participante. A coordenação dos nomes permanece; o predicado e as expressões de distribuição determinam a leitura. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
+    }
+  ]
+}
