@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades distintas | 99 | 83 | 0 | 16 |
-| Entregáveis unitários C/H/Q | 297 | 249 | 0 | 48 |
+| Unidades distintas | 99 | 77 | 5 | 17 |
+| Entregáveis unitários C/H/Q | 297 | 231 | 15 | 51 |
 
-Estado confirmado: **16 unidades/visões locais publicadas; 48 C/H/Q aceitos; 17/132 referências literais aceitas; 874 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. Os 12 blocos agregam 36 macros C/H/Q; macros/doadores/associações não se somam às unidades. U001–U003 estão documentadas em 5.6/8.6; U004–U006, em 5.7/8.7; U007–U009, em 5.8/8.8; U010–U015, em 5.9/8.9; U016, em 5.10/8.11. Resultados anteriores permanecem históricos, sem importar aceite de campanhas alheias.
+Estado confirmado: **17 unidades/visões locais publicadas; 51 C/H/Q aceitos; 18/132 referências literais aceitas; 907 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U017 — Reorganização de orações e períodos**, conforme 5.2/7.5. Ler integralmente O017, C/H/Q/R, fontes, resoluções e consumidores antes de classificar/produzir. E01 tem 16/19 unidades aceitas e continua pending; R01–R05 e macros E/F também pending. U007 encerra E01 5.1 com U005/U006; U009 encerra E01 5.2. U015 encerra E01 5.8 e o pai E01 5, cujos onze contribuintes U005–U015 estão aceitos. U016 aceita E01 6.1/6.2; o pai E01 6 permanece pending até U017/U018. A dúvida “eclética” fica localizada em U028. Catálogo e ancestrais Generalista já aceitos em PER-P04/P05; sem mudança neste ciclo. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U018 — Reescrita, gêneros e formalidade**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 17/19; E02 0/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -518,7 +518,7 @@ Grupo consumidor: `conhecimentos-gerais/lingua-portuguesa/`, relativo à raiz de
 | PER-U014 — Crase | E01: 5, 5.7 | O014 | `crase` / `per-u014` / 140 | Fusão, condições e exceções; ponte com regência. Pontes: PER-U013. Parcial local; C/H/Q aceitos em 5.9. |
 | PER-U015 — Colocação pronominal | E01: 5, 5.8 | O015 | `colocacao-pronominal` / `per-u015` / 150 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.9. |
 | PER-U016 — Significação e substituição lexical | E01: 6, 6.1, 6.2 | O016; comparação local policial | `significacao-substituicao-lexical` / `per-u016` / 160 | Significação contextual e substituição com referência, inferências, quantidade e correção; parcial local; C/H/Q aceitos em 5.10. Pontes curtas para U017/U018; item 6 agregado ainda pending. |
-| PER-U017 — Reorganização de orações e períodos | E01: 6, 6.3 | O017 | `reorganizacao-oracoes-periodos` / `per-u017` / 170 | Preservação de sentido e correção. Pontes: PER-U009, PER-U010. |
+| PER-U017 — Reorganização de orações e períodos | E01: 6, 6.3 | O017 | `reorganizacao-oracoes-periodos` / `per-u017` / 170 | Preservação de sentido e correção. Pontes: PER-U009, PER-U010. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U018 — Reescrita, gêneros e formalidade | E01: 6, 6.4 | O018 | `reescrita-generos-formalidade` / `per-u018` / 180 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U019 — Redação e correspondência oficial | E01: 7, 7.1, 7.2, 7.3, 7.4 | O019, O020 | `correspondencia-oficial-linguagem-expedientes` / `per-u019` / 190 | Integrar linguagem e finalidade/formato; fonte normativa própria é o Manual de Redação da Presidência da República. |
 
@@ -913,17 +913,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 17/132 |
-| Unidades distintas da objetiva | 98 | 16 |
+| Referências literais da objetiva | 132/132 | 18/132 |
+| Unidades distintas da objetiva | 98 | 17 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 16 |
-| Entregáveis unitários C/H/Q | 297: 249 pending + 0 analyzing + 48 done | 48 done |
-| Visões consumidoras previstas | 99 | 16 |
+| Total de unidades distintas | 99 | 17 |
+| Entregáveis unitários C/H/Q | 297: 231 pending + 15 analyzing + 51 done | 51 done |
+| Visões consumidoras previstas | 99 | 17 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 | 16 classificadas como parcial local em PER-R02 |
+| Unidades com candidato identificado | 77 | 17 classificadas como parcial local em PER-R02 |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | 0 classificadas como novas |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 16 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 17 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1304,6 +1304,28 @@ Snapshots baixados: listagem 7267 bytes, SHA-256 `78d6efb3f76f6af4dfb5f65ec8ced7
 
 **Aceite e pendências:** PER-U016-C/H/Q done, R como suporte de C; resultados unitários de R01/R02/R04 sem done macro. Estado corrente: 16 unidades/visões locais, zero vínculos Perícia, 48 C/H/Q aceitos, 17/132 referências literais aceitas, E01 16/19, 874 questões acumuladas. Aceitas E01 6.1/6.2; o pai E01 6 depende de U017/U018. Permanecem 83 unidades e 249 C/H/Q pending; macros 5 done/46 pending. Defeitos dos doadores e atribuições não verificadas permanecem externos, sem reabrir campanhas nem invalidar aceites anteriores. Incerteza eclética em U028 continua localizada. Próxima unidade: PER-U017 — Reorganização de orações e períodos. Liberar somente a reserva própria depois de reler este aceite e sincronizar o painel.
 
+### 5.11 Execução autônoma: proveniência e aceite por unidade
+
+Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo regras e qualidade. Token `per-autonomo-20261004-2e023a78434b`, workspace `2e023a78434b`. Preparação paralela em recortes exclusivos; publicação serial pelo executor principal, com commit remoto por unidade, releitura na main e aceite documental antes da próxima publicação. Decisões parciais U017–U022 registradas e relidas no painel em 2026-10-04T04:57:56Z, antes da publicação. Origens e consumidores anteriores somente leitura. Compactação retoma pelo último aceite remoto confirmado, sem importar estado de memória.
+
+#### PER-U017 — Reorganização de orações e períodos — C/H/Q done
+
+- **Recorte/origem/destino:** E01 6/6.3, parcial local O017, `conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/` sob a raiz Generalista; `per-u017`, ordem 170, rota pública pelo slug final. Preparador leu integralmente C/H/Q/R canônicos (87 Q: 60 autorais/27 anteriores), físicos PC/SEAP (24 Q cada), dois vínculos TCE explícitos/ordem 17 e vizinhos pertinentes. Árvore-base abcb0a6, 3314 entradas não truncadas, sem resoluções nessas origens. Doadores/consumidores preservados. Blobs O017 C/H/Q/R: `1cadb8d05edd0ba2179c0245622dacab3a97363f` / `17c4e756b7af1efb9ee824dbd7a73c3e5e0ce110` / `7f65949eca2e9a52bede5bdfa8a8cc462c7b46c4` / `3cefb1337b7ec88fe2701e0dd582a2c353e85dab`; vínculo nas duas visões `fc8f822678b6c3ef7c7b2bae22171dde58222d85`. Q PC `e54e5bfb97e79bb090f1cb151485cbe894f06af7`; Q SEAP `a59b4ee434fb00475efa7687a63b4a7f6c0d78ee`.
+- **C/H, problema e ganho:** preserva pré-requisitos e mecanismo do canônico; corta tabela classificatória redundante e ensina finalidade versus resultado, modalidade contextual, aspecto e limite de paralelismo. H deixa de reensinar a aula e recupera controles/condições. Pontes locais de sintaxe/vozes/referência permitem estudar fora de ordem; recortes lexicais, gêneros e expedientes continuam próprios. Exemplos hipotéticos identificados. Coordenador releu integralmente C/H/R, todas as 33 perguntas/opções/chaves/explicações e os ajustes finais.
+- **Q/linhagem:** 31 autorais (28 herdadas + três novas) e duas anteriores adaptadas, conjunto 7. IDs/origin preservados. Revisões alteradas por prompt/opções: q3710/q3721/q3723/q3727 3→4; q3741/q3746/q3757 2→3. q3710 fixa término confirmado pelo contexto; q3723 admite possibilidade/permissão; q3741 distingue aspecto de conclusão material. Distratores de se, zeugma e possessivo corrigidos após leitura independente. Novas per-u017-q001/q002/q003, revisão 1, cobrem transferência integrada, infinitivo flexionado e finalidade/resultado. Anteriores q3759 TCE-GO/2024 tipo1 Q2(B), q3763 Receita/2023 tipo4 Q9(D), cadernos/definitivos oficiais confrontados; adaptações locais avaliadas separadamente. Explicações inline suficientes. Achados externos não importados: q3776 trata infinitivo reduzido como desenvolvimento; q3771 admite mais de uma passiva na leitura editorial. Não se certificam suas provas originais nem as demais atribuições anteriores.
+- **Fontes/cortes:** S05 programa 6/6.3 e cortes, SHA-256 `99f6a6dd86dd9121976454633a5f752a6af0778d3b4f77f8e234020a2b0d9654`; lista oficial reconsultada em 04/10, dez entradas/cinco pares e SHA-256 `78d6efb3f76f6af4dfb5f65ec8ced7109c28d5a9532ef5c821c2b161828d4cf0`, sem alteração Generalista. Manual 2018 §§3.1/11.1–4/11.6, Senado nos pontos de paralelismo/infinitivo/vírgula, respostas originais Ciberdúvidas sobre passiva/particípio, justificativas PCDF itens13/14 e dois pares FGV selecionados. URLs/edições e alcance em R. Não leitura integral de livros/manuais, nem inspeção visual dos PDFs cujo screenshot falhou. Corte legislativo 17/07/2026 preservado; marco jurisprudencial futuro não certificado.
+- **Microglossário/densidade:** C canônico 21599→22622 caracteres brutos; visível aproximado 19185→19787, 2993→3089 palavras (+3,21%). H 8091→4233 brutos; visível 6328→3328, 870→470 palavras (−45,98%). Aproximação remove frontmatter/tags/destinos/Markdown, sem renderização ou tempo estimado. HTML C 1010→1587; H1082→630 caracteres; titles já incluídos, não somados novamente. Crescimento curto restitui condições e reduz classificação repetida; C20/H9 abbr com siglas e termos no ponto de uso, sem pistas nos enunciados/opções. Última passagem acrescentou apenas ajudas de passiva, auxiliar, gênero e registro; todas foram relidas pelo coordenador.
+- **Inspeção individual PER-F02:** C/H/Q/R desta unidade inspecionados por leitura manual de metadados/Markdown/microglossário, identidade/ordem/rota, referências e adaptações, resposta única e revisões; confirmação remota abaixo. Este registro é distinto do aceite C/H/Q e não aceita o macro F02 nem extrapola aos pacotes restantes. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`31bd65b`](https://github.com/insign/concursos/commit/31bd65b469d3560229d122aae077bc1fb3e6b6b5), parent `abcb0a6b2902115faaa722361a64bc1e14911bf5`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/conteudo.md` | `5c5d7bf37cd2be38c8ae27e8d91f4d43d243aa5e` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/cheat-sheet.md` | `46817283a0c4c89f8743009a136b85e3189fca3c` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/questoes.json` | `63483a7e015a7dfdb0bb85f57930d2c7ece2f3e3` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/lingua-portuguesa/reorganizacao-oracoes-periodos/referencias.md` | `6f9d821baad60a5b665c2c7b3bb0d2caee8dd621` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -1573,39 +1595,39 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U017 — Reorganização de orações e períodos
 
-- [ ] PER-U017-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U017-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U017-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U017-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U017-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U017-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U018 — Reescrita, gêneros e formalidade
 
-- [ ] PER-U018-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U018-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U018-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U018-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U018-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U018-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U019 — Redação e correspondência oficial
 
-- [ ] PER-U019-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U019-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U019-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U019-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U019-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U019-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U020 — Estruturas lógicas
 
-- [ ] PER-U020-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U020-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U020-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U020-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U020-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U020-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U021 — Proposições, conectivos e tabelas-verdade
 
-- [ ] PER-U021-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U021-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U021-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U021-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U021-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U021-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U022 — Equivalências e leis de De Morgan
 
-- [ ] PER-U022-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U022-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U022-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U022-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U022-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U022-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U023 — Argumentação e inferências lógicas
 
@@ -2225,3 +2247,11 @@ A resposta de cada ciclo deve informar tarefa/unidade e C/H/Q; origem/consumidor
 Base e reserva: main `f254ac821352e1e2da3091dfc74948618283cf73`, mestre `ed2a0dd64c08593405faafb26df887ad950efa1d`; painel próprio atualizado em 2026-10-04T03:47:44Z. Decisão parcial local registrada e relida em 2026-10-04T04:06:29Z, antes da publicação. Artefatos: [`4bbe022`](https://github.com/insign/concursos/commit/4bbe0229cf1f57842847a3621037539cd216b2c3), quatro arquivos C/H/Q/R somente no destino próprio, parent da main-base confirmado. Arquivos/commit relidos depois da publicação; textos completos iguais ao pacote revisto. Blobs e revisão semântica individual em 5.10.
 
 Este aceite marca somente PER-U016-C/H/Q, nota da matriz e agregados próprios. Preserva programa literal, títulos/descrições das tarefas, contratos, aceites 5.6–5.9/8.6–8.9 e campanhas alheias. Total corrente 16/99 unidades, 48/297 C/H/Q, 17/132 referências literais; E01 16/19, macro pending; 874 questões. Sem testes/build/check/CI. Confirmar este mestre na main antes de sincronizar a issue e liberar o token próprio; próxima ação U017. A campanha permanece aberta.
+
+
+
+### 8.12 Persistência e aceites da execução autônoma
+
+Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite deste mestre. A confirmação do commit documental e do painel é feita depois da publicação deste arquivo. Nenhum aceite encerra a campanha sem atender 8.10. Sem testes/build/check/CI.
+
+- **PER-U017:** artefatos `31bd65b469d3560229d122aae077bc1fb3e6b6b5` confirmados; aceitos neste registro 33 itens, C/H/Q e proveniência 5.11. Totais resultantes: 17/99 unidades, 51/297 C/H/Q, 18/132 referências, 907 questões. Macros 5 done/46 pending/0 analyzing. Próxima ação PER-U018 — Reescrita, gêneros e formalidade; campanha aberta.
