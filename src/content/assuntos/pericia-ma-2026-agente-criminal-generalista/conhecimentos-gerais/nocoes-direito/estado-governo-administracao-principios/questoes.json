@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "u098-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na situação hipotética, uma nova equipe governante altera prioridades de atendimento, enquanto continuam existindo os órgãos, as obrigações e os serviços públicos. A interpretação mais adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A troca do governo não extingue o Estado; direção política e execução administrativa são funções distinguíveis."
+        },
+        {
+          "id": "B",
+          "text": "A permanência dos serviços torna o governo juridicamente permanente, mesmo quando mudam seus titulares."
+        },
+        {
+          "id": "C",
+          "text": "Como executa as prioridades governamentais, a Administração só permanece enquanto durar o mandato que as definiu."
+        },
+        {
+          "id": "D",
+          "text": "A continuidade dos órgãos faz Estado e governo designarem a mesma função, sem distinção conceitual."
+        },
+        {
+          "id": "E",
+          "text": "Ao mudar prioridades, a equipe governante cria um Estado novo, ainda que se preserve a organização jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Estado é a organização político-jurídica que permanece institucionalmente; governo exerce direção política; administração realiza atividade administrativa. Mudar dirigentes ou prioridades não extingue automaticamente o Estado e seus vínculos. A distinção é funcional: a mesma autoridade pode participar de decisões políticas e administrativas."
+    },
+    {
+      "id": "u098-a02",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na síntese doutrinária usual de três elementos do Estado, qual descrição está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Povo é o conjunto de pessoas presentes no território; soberania é a autonomia dos entes federativos."
+        },
+        {
+          "id": "B",
+          "text": "Povo corresponde ao vínculo jurídico de nacionalidade; território é a base espacial; poder soberano expressa a autoridade estatal."
+        },
+        {
+          "id": "C",
+          "text": "Povo corresponde à coletividade nacional; território e orçamento público completam os três elementos."
+        },
+        {
+          "id": "D",
+          "text": "Território é a base espacial; povo é o conjunto de cidadãos aptos a votar; poder soberano é a autoridade estatal."
+        },
+        {
+          "id": "E",
+          "text": "Povo é a coletividade nacional e território é a base espacial; governo soberano é a equipe de governantes durante seu mandato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A síntese usual reúne povo, território e poder soberano. Povo não se reduz à população presente nem apenas aos cidadãos que exercem direitos políticos. Governo soberano, nessa enumeração, refere-se ao poder estatal organizado, e não à duração de uma equipe de governo. A classificação é uma síntese doutrinária, sem afirmar que toda teoria enumera os elementos da mesma maneira."
+    },
+    {
+      "id": "u098-a03",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma alternativa afirma que o Maranhão possui soberania própria porque organiza suas instituições e exerce competências constitucionais. Como avaliar essa conclusão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Está correta: auto-organização é o critério que distingue soberania estadual de soberania federal."
+        },
+        {
+          "id": "B",
+          "text": "Está correta: soberania pertence separadamente à União e a cada estado, mas não aos municípios."
+        },
+        {
+          "id": "C",
+          "text": "Está incorreta: as competências estaduais exprimem autonomia dentro da Constituição; a soberania pertence à República Federativa do Brasil."
+        },
+        {
+          "id": "D",
+          "text": "Está incorreta: auto-organização e exercício de competências estaduais são delegações revogáveis livremente pela União."
+        },
+        {
+          "id": "E",
+          "text": "Está correta se o estado tiver personalidade jurídica própria, que equivale à soberania."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 18 reconhece autonomia dos entes federativos. O Estado brasileiro é soberano; os estados federados exercem competências dentro da Constituição. Auto-organização e personalidade jurídica não transformam autonomia em soberania."
+    },
+    {
+      "id": "u098-a04",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um candidato apresenta duas listas: I — União, estados, Distrito Federal e municípios; II — Legislativo, Executivo e Judiciário. Qual interpretação corresponde aos artigos 18 e 2º da Constituição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I identifica órgãos da administração indireta; II identifica entes federativos."
+        },
+        {
+          "id": "B",
+          "text": "I e II são listas alternativas dos mesmos sujeitos, usadas conforme o ramo do Direito."
+        },
+        {
+          "id": "C",
+          "text": "I identifica entes políticos, todos integrantes do Executivo; II identifica os órgãos que compõem a União."
+        },
+        {
+          "id": "D",
+          "text": "I trata dos entes da organização político-administrativa; II, dos Poderes da União, independentes e harmônicos."
+        },
+        {
+          "id": "E",
+          "text": "I identifica os titulares de soberanias distintas; II identifica órgãos exclusivos da União em função administrativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os artigos 18 e 2º usam critérios diferentes: organização federativa e divisão constitucional dos Poderes. Entes autônomos não são soberanias separadas, e os Poderes não correspondem a territórios ou níveis da Federação."
+    },
+    {
+      "id": "u098-a05",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um tribunal contrata manutenção de seus equipamentos, exercendo a competência de gestão de seus serviços. Nessa atividade, o tribunal:",
+      "options": [
+        {
+          "id": "A",
+          "text": "exerce jurisdição, porque o órgão pertence ao Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "passa a integrar o Executivo durante a execução do contrato."
+        },
+        {
+          "id": "C",
+          "text": "exerce função política de governo, porque escolhe como utilizar seus recursos."
+        },
+        {
+          "id": "D",
+          "text": "fica fora do alcance do artigo 37, porque a contratação não é sua função típica."
+        },
+        {
+          "id": "E",
+          "text": "exerce função administrativa atípica e permanece integrante do Judiciário."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A natureza da atividade não se confunde com o Poder ao qual o órgão pertence. Contratar manutenção é gestão administrativa; atípica indica que essa não é a função predominante do Judiciário. O artigo 37 alcança a administração de qualquer dos Poderes."
+    },
+    {
+      "id": "u098-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No cenário hipotético, definir a expansão do atendimento como prioridade geral do programa governamental exemplifica governo em sentido objetivo porque:",
+      "options": [
+        {
+          "id": "A",
+          "text": "representa atividade política de direção, que continua submetida à Constituição e às competências."
+        },
+        {
+          "id": "B",
+          "text": "identifica o conjunto de servidores que executará as rotinas de atendimento."
+        },
+        {
+          "id": "C",
+          "text": "corresponde apenas ao ato material de adquirir equipamentos já especificados."
+        },
+        {
+          "id": "D",
+          "text": "transforma toda contratação necessária em atividade política imune a controle jurídico."
+        },
+        {
+          "id": "E",
+          "text": "exclui a participação constitucional de outros Poderes na direção estatal, pois governo é sempre sinônimo de Executivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sentido objetivo observa a atividade de direção política. Ele não designa o conjunto de sujeitos, não torna toda execução administrativa uma decisão de governo e não cria imunidade ao Direito. Em acepção ampla, governo não se reduz conceitualmente, em toda formulação, ao Executivo."
+    },
+    {
+      "id": "u098-a09",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um texto inclui direção política e execução administrativa no conceito de Administração. Outro separa a função de governo e mantém o aparato e a atividade propriamente administrativos. Os dois textos adotam, respectivamente:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sentidos subjetivo e objetivo, porque incluir governo significa olhar para pessoas."
+        },
+        {
+          "id": "B",
+          "text": "sentidos objetivo e subjetivo, porque execução administrativa é sempre um conjunto de órgãos."
+        },
+        {
+          "id": "C",
+          "text": "administração direta e indireta, pois governo corresponde à própria pessoa política."
+        },
+        {
+          "id": "D",
+          "text": "sentidos amplo e estrito; a distinção de abrangência não substitui o critério subjetivo/objetivo."
+        },
+        {
+          "id": "E",
+          "text": "sentidos orgânico e material, com exclusão de qualquer atividade administrativa no segundo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Amplo/estrito distingue a abrangência: direção e execução ou apenas a função administrativa. Subjetivo/objetivo distingue sujeitos e atividade. As duas classificações respondem a perguntas diferentes e não se confundem com direta/indireta."
+    },
+    {
+      "id": "u098-a12",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual alternativa contém somente os cinco princípios expressamente enumerados no caput do artigo 37 da Constituição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Legalidade, motivação, moralidade, publicidade e eficiência."
+        },
+        {
+          "id": "B",
+          "text": "Legalidade, impessoalidade, moralidade, publicidade e eficiência."
+        },
+        {
+          "id": "C",
+          "text": "Legalidade, impessoalidade, proporcionalidade, publicidade e eficiência."
+        },
+        {
+          "id": "D",
+          "text": "Legalidade, impessoalidade, moralidade, segurança jurídica e eficiência."
+        },
+        {
+          "id": "E",
+          "text": "Legalidade, impessoalidade, moralidade, publicidade e continuidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput enumera legalidade, impessoalidade, moralidade, publicidade e eficiência. Motivação, proporcionalidade, segurança jurídica e continuidade são relevantes, mas não integram essa enumeração literal. Ser princípio administrativo não significa estar expresso no caput."
+    },
+    {
+      "id": "u098-a13",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma autoridade quer impor uma obrigação aos usuários de um serviço. Não encontrou competência ou fundamento jurídico para a medida, mas afirma que nenhuma norma a proíbe expressamente. À luz da legalidade administrativa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de proibição basta, pois o exercício do poder público segue a mesma regra geral da liberdade privada."
+        },
+        {
+          "id": "B",
+          "text": "a medida é válida se a autoridade demonstrar economia de recursos, suprindo a competência ausente."
+        },
+        {
+          "id": "C",
+          "text": "a ausência de proibição não cria competência; o exercício do poder precisa de fundamento no ordenamento."
+        },
+        {
+          "id": "D",
+          "text": "a aprovação da chefia substitui o fundamento jurídico para obrigações impostas aos usuários."
+        },
+        {
+          "id": "E",
+          "text": "a finalidade pública presume competência para qualquer meio escolhido pela autoridade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Para exercer poder público, a Administração precisa de competência e fundamento jurídico. A regra geral de liberdade do particular não pode ser transferida automaticamente à autoridade. Eficiência, finalidade ou anuência da chefia não criam competência inexistente."
+    },
+    {
+      "id": "u098-a14",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No serviço hipotético, as normas aplicáveis admitem prioridade por necessidade clínica. Uma autoridade quer também antecipar o atendimento de um amigo, sem critério jurídico. A solução compatível com a impessoalidade é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar toda prioridade, porque qualquer diferença de tratamento viola a impessoalidade."
+        },
+        {
+          "id": "B",
+          "text": "manter a prioridade do amigo se o nome dele não aparecer nos registros públicos."
+        },
+        {
+          "id": "C",
+          "text": "permitir o favorecimento se não houver vantagem financeira para a autoridade."
+        },
+        {
+          "id": "D",
+          "text": "aplicar a prioridade clínica juridicamente justificada e rejeitar o favorecimento por amizade."
+        },
+        {
+          "id": "E",
+          "text": "manter a prioridade clínica e admitir a preferência pessoal quando a autoridade assumir a responsabilidade pela exceção."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Impessoalidade impede critérios pessoais sem fundamento; não exige ignorar diferenças juridicamente relevantes. A necessidade clínica, admitida pelas normas da situação, pode justificar prioridade. Ocultar o favorecimento ou não receber dinheiro não o torna impessoal."
+    },
+    {
+      "id": "u098-a15",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um órgão quer divulgar o funcionamento de um serviço e, junto da informação institucional, expor dados pessoais protegidos dos usuários. Sobre publicidade, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O artigo 37 torna públicos todos os dados que estejam em poder da Administração."
+        },
+        {
+          "id": "B",
+          "text": "A divulgação institucional converte automaticamente informações protegidas em informações de interesse geral."
+        },
+        {
+          "id": "C",
+          "text": "Basta publicar um ato para sanar eventuais defeitos de legalidade e de finalidade."
+        },
+        {
+          "id": "D",
+          "text": "O gestor pode optar pelo sigilo de toda a atuação, desde que considere a publicidade inconveniente."
+        },
+        {
+          "id": "E",
+          "text": "A transparência deve conviver com a proteção da intimidade e com sigilos juridicamente legítimos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A publicidade permite conhecimento e controle, sem eliminar a intimidade e os sigilos admitidos pelo ordenamento. Divulgar o funcionamento do serviço não exige expor dados pessoais protegidos. A divulgação também não corrige ilegalidade do ato, e mera conveniência do gestor não basta para impor sigilo."
+    },
+    {
+      "id": "u098-a16",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Duas propostas buscam reduzir a espera no serviço: I — reorganizar tarefas preservando os requisitos legais; II — suprimir uma garantia legal obrigatória apenas para acelerar o atendimento. O princípio da eficiência:",
+      "options": [
+        {
+          "id": "A",
+          "text": "é compatível com I, mas não autoriza II, porque resultados devem ser alcançados dentro dos limites jurídicos."
+        },
+        {
+          "id": "B",
+          "text": "autoriza ambas, desde que a redução da espera seja comprovada."
+        },
+        {
+          "id": "C",
+          "text": "autoriza II se a autoridade publicar a justificativa gerencial antes de agir."
+        },
+        {
+          "id": "D",
+          "text": "afasta I se II produzir menor prazo, porque eficiência exige escolher o procedimento mais rápido entre as propostas."
+        },
+        {
+          "id": "E",
+          "text": "substitui legalidade quando a finalidade do serviço for relevante para a coletividade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Eficiência combina organização, qualidade e utilização dos recursos com o respeito ao Direito. Uma meta não autoriza eliminar garantia legal. Publicar uma justificativa ou demonstrar ganho de rapidez não sana esse defeito."
+    },
+    {
+      "id": "u098-a18",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma autoridade afirma ser dona das competências que recebeu e pretende renunciar livremente a uma delas, invocando o interesse público. A natureza instrumental da Administração significa que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a renúncia é livre se não houver benefício financeiro pessoal."
+        },
+        {
+          "id": "B",
+          "text": "a competência se converte em direito disponível da autoridade enquanto durar o mandato."
+        },
+        {
+          "id": "C",
+          "text": "as competências servem a finalidades públicas dentro do Direito; a disposição ou renúncia depende do ordenamento."
+        },
+        {
+          "id": "D",
+          "text": "a supremacia do interesse público dispensa análise de direitos e limites jurídicos."
+        },
+        {
+          "id": "E",
+          "text": "qualquer medida é válida quando sua justificativa mencionar uma finalidade coletiva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A indisponibilidade do interesse público impede tratar competências como patrimônio pessoal. Elas são instrumentos para cumprir finalidades jurídicas, e possibilidades de disposição ou renúncia dependem do ordenamento. Interesse público não é autorização genérica para ignorar limites ou direitos."
+    },
+    {
+      "id": "u098-p01",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 1 da prova discursiva do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos para Defensor Público Substituto do Pará, concurso de 2021, qual alternativa distingue corretamente os sentidos objetivo e subjetivo da Administração Pública?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Objetivo designa os sujeitos integrantes da estrutura; subjetivo, a atividade administrativa."
+        },
+        {
+          "id": "B",
+          "text": "Objetivo abrange apenas a direção política; subjetivo designa apenas os órgãos do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "Objetivo e subjetivo distinguem, respectivamente, administração direta e indireta."
+        },
+        {
+          "id": "D",
+          "text": "Objetivo designa as finalidades públicas; subjetivo, as preferências pessoais dos agentes."
+        },
+        {
+          "id": "E",
+          "text": "Objetivo designa a atividade administrativa; subjetivo, os órgãos, entidades e agentes que integram a estrutura administrativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O comando discursivo original pede explicar os sentidos objetivo e subjetivo; o padrão definitivo separa atividade e estrutura administrativa. Esta versão converte o contraste em múltipla escolha, sem reprodução literal e sem letra oficial original, pois a prova era discursiva. O sentido subjetivo não inclui automaticamente todo particular que colabore com o poder público."
+    },
+    {
+      "id": "per-u037-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma autoridade cumpre uma formalidade isolada, mas conduz deliberadamente o procedimento de maneira desleal para frustrar a finalidade pública. A avaliação correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a formalidade afasta qualquer controle por moralidade, que só vale quando uma lei repete seu nome."
+        },
+        {
+          "id": "B",
+          "text": "moralidade é uma opinião ética pessoal, sem consequência jurídica para a atuação."
+        },
+        {
+          "id": "C",
+          "text": "moralidade é parâmetro jurídico de controle e pode ser violada mesmo com aparência formal de legalidade."
+        },
+        {
+          "id": "D",
+          "text": "o controle por moralidade depende de norma disciplinar que descreva exatamente o comportamento praticado."
+        },
+        {
+          "id": "E",
+          "text": "a falta de vantagem financeira torna a conduta moralmente regular para o Direito Administrativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Moralidade integra expressamente o artigo 37 e exige probidade, boa-fé e lealdade no exercício da função. O cumprimento de uma formalidade não legitima a utilização desleal do procedimento. A ausência de vantagem financeira não elimina o defeito descrito; outros princípios também podem ser atingidos."
+    },
+    {
+      "id": "per-u037-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em processo administrativo federal, duas medidas realizam igualmente um fim legítimo. A autoridade escolhe a que impõe restrição maior, sem necessidade ou justificativa para o excesso. A conclusão adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a utilidade para o fim torna qualquer intensidade de restrição proporcional."
+        },
+        {
+          "id": "B",
+          "text": "a escolha pode contrariar a proporcionalidade, porque não basta atingir o fim: a restrição não deve exceder o necessário."
+        },
+        {
+          "id": "C",
+          "text": "a motivação substitui a proporcionalidade sempre que a autoridade registrar o resultado esperado."
+        },
+        {
+          "id": "D",
+          "text": "o interesse público exige escolher o meio mais restritivo, ainda que o resultado seja equivalente."
+        },
+        {
+          "id": "E",
+          "text": "a publicidade da decisão torna a restrição excessiva juridicamente adequada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 2º da Lei nº 9.784/1999 exige adequação entre meios e fins e veda restrições superiores às necessárias. Na situação, a igual adequação da alternativa menos restritiva revela o excesso sem justificativa. O caso é federal; a lei não foi presumida como lei de processo estadual."
+    },
+    {
+      "id": "per-u037-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em processo administrativo federal, a autoridade nega um pedido que afeta direito do requerente e registra apenas “por interesse público”, sem indicar fatos ou fundamentos jurídicos. Quanto à motivação:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a menção à finalidade pública é suficiente, dispensando esclarecer a situação examinada."
+        },
+        {
+          "id": "B",
+          "text": "a publicidade do resultado equivale à indicação dos fundamentos da decisão."
+        },
+        {
+          "id": "C",
+          "text": "o dever de motivar só surge se a autoridade escolher conceder o pedido."
+        },
+        {
+          "id": "D",
+          "text": "a decisão deve indicar os fatos e fundamentos jurídicos exigidos; a fórmula genérica não explica as razões do indeferimento."
+        },
+        {
+          "id": "E",
+          "text": "a motivação é dispensada quando a decisão admite escolhas discricionárias pela autoridade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 50 da Lei nº 9.784/1999 exige motivação quando o ato nega, limita ou afeta direitos ou interesses; ela deve ser explícita, clara e congruente. Dizer apenas “por interesse público” não apresenta os fatos e fundamentos relevantes. Divulgar o resultado e justificar a decisão são operações distintas."
+    },
+    {
+      "id": "per-u037-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No controle de seus próprios atos, um órgão federal identifica um ato ilegal e outro válido cuja manutenção deixou de ser conveniente. Segundo o artigo 53 da Lei nº 9.784/1999, a distinção correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "anulação relaciona-se à ilegalidade; revogação, à conveniência ou oportunidade do ato válido, respeitados os limites jurídicos e direitos adquiridos."
+        },
+        {
+          "id": "B",
+          "text": "revogação corrige a ilegalidade; anulação decorre de mudança de conveniência."
+        },
+        {
+          "id": "C",
+          "text": "os dois atos devem ser anulados, porque autotutela dispensa distinguir validade e conveniência."
+        },
+        {
+          "id": "D",
+          "text": "apenas o Judiciário pode retirar o ato ilegal, mesmo quando a própria Administração identifica o defeito."
+        },
+        {
+          "id": "E",
+          "text": "autotutela permite retirar qualquer ato sem observar direitos, prazos ou garantias dos interessados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei federal determina anular atos com vício de legalidade e permite revogar por conveniência ou oportunidade, respeitados direitos adquiridos. Autotutela é controle administrativo dos próprios atos, sujeito a limites e garantias, e não elimina o controle judicial. O item não afirma poder ilimitado de desfazer situações anteriores."
+    },
+    {
+      "id": "per-u037-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe propõe: I — negar a defesa de um interessado em processo administrativo sancionador por mera conveniência; II — aplicar retroativamente uma nova interpretação administrativa federal para desfazer automaticamente situações anteriores. Qual avaliação está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I decorre da eficiência; II decorre da segurança jurídica."
+        },
+        {
+          "id": "B",
+          "text": "I só seria inadequada no Judiciário; II é sempre válida no processo federal."
+        },
+        {
+          "id": "C",
+          "text": "I depende apenas da preferência da autoridade; II é consequência necessária de toda mudança interpretativa."
+        },
+        {
+          "id": "D",
+          "text": "I é permitida se o resultado for publicado; II é permitida se não houver benefício financeiro ao gestor."
+        },
+        {
+          "id": "E",
+          "text": "I contraria contraditório e ampla defesa; II contraria a vedação legal federal à aplicação retroativa de nova interpretação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Constituição assegura contraditório e ampla defesa no processo administrativo. Mera conveniência não permite suprimir essas garantias. A Lei nº 9.784/1999 veda aplicar retroativamente nova interpretação administrativa: segurança jurídica não significa tornar todo erro intocável, mas também não autoriza o desfazimento automático proposto."
+    }
+  ]
+}
