@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 27 | 0 | 9 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 37 | 0 | 14 |
-| Unidades distintas | 99 | 56 | 0 | 43 |
-| Entregáveis unitários C/H/Q | 297 | 168 | 0 | 129 |
+| Unidades distintas | 99 | 53 | 3 | 43 |
+| Entregáveis unitários C/H/Q | 297 | 159 | 9 | 129 |
 
 Estado confirmado: **43 unidades/visões publicadas (43 locais, 0 por vínculo); 129 C/H/Q aceitos; 53/132 referências literais aceitas; 1521 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04 C/H/Q done. Próxima ação: PER-U045 — Prova: conceito, objeto, formas e disposições gerais**, conforme 5.2/7.5. PER-U044 foi retomada por instrução explícita de 04/10/2026, publicada e aceita após confirmação remota; U045–U048 permanecem pending e sem reserva ativa. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; por isso o fechamento de U044 aceita E04:2 e E04:2.7. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05 e PER-E04 C/H/Q done. Próxima ação: concluir PER-U045 — Prova: conceito, objeto, formas e disposições gerais**, conforme 5.2/7.5. PER-U045–PER-U047 C/H/Q estão analyzing sob o token `per-u045-u047-lote-20261004-8ad79c7a`, para execução serial U045 → U046 → U047; U048 permanece pending. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; por isso o fechamento de U044 aceita E04:2 e E04:2.7. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1806,6 +1806,16 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-direitos-vantagens/questoes.json` | `fb1ef94d68e0b0824c2edbcc0d519e812723a8db` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-direitos-vantagens/referencias.md` | `3d589795b062440564270dbf3a395a901e9436b7` |
 
+#### Reserva ativa em 04/10/2026 — lote PER-U045–PER-U047
+
+Token exclusivo `per-u045-u047-lote-20261004-8ad79c7a`, decorrente do pedido explícito “Faça mais 3 itens em seguida”. Base confirmada antes da reserva: main `8ad79c7a4328276cf701eacd8ffa3503d951d0be`, mestre `c68cc138eccf59e66a05467c07ccd30811b77cff`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. #755 está encerrada; #764 e #765 não têm reservas conflitantes. Um único executor cobre as três unidades porque O041 é origem compartilhada; as publicações e aceites permanecem obrigatoriamente serializados.
+
+- **PER-U045:** E05 1/1.1/1.1.1 + E08 4/4.1/4.2/4.3; O041 somente leitura; destino `conhecimentos-gerais/direito-aplicado/prova-conceitos-disposicoes-gerais/`, `per-u045`, ordem 450. Arquivos próprios C/H/Q/R; `conhecimentos-gerais/direito-aplicado/grupo.json` será materializado junto desta primeira unidade completa.
+- **PER-U046:** E05 1/1.1/1.1.2 + E08 5/5.1/5.2/5.3/6; O041 e O042 somente leitura; destino `conhecimentos-gerais/direito-aplicado/corpo-delito-pericias-requisicao-prazos/`, `per-u046`, ordem 460; quatro arquivos próprios.
+- **PER-U047:** E05 1/1.1/1.1.2 + E08 3; O041 e O043 somente leitura; destino `conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/`, `per-u047`, ordem 470; quatro arquivos próprios. O doador digital continua parcial e não limita cadeia de custódia a evidência digital.
+- **Blobs de origem na reserva:** O041 C/H/Q/R `6a9fe615a6974f42a8857bcc791b11548e5876be` / `183e5583c18c7094a042ad3765f7ae0288a32cff` / `34c4ae50213d9d4debea80f8eca40a7437bbd1ae` / `e48827e9cf9de8db690d1bada25ecf05a5ad1c71`; O042 `133bb568efd3982448c4d22eb6b52aa29116229b` / `d59468a73b384c14926ef9fbe9adfa626e2d5310` / `7037aa57698002b8406198bd554e90f9a873d41f` / `dfe8262863e7b248d0b637c137e1b761225f890c`; O043 `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` / `1015a659338b76e3d1511a63178c9dbf5bb3a438` / `67141495127b236546ff3ba7b26838861fdea0fb` / `bcdf06e9d159df22702967f672e595704a50ff44`.
+- O checkpoint histórico preserva finais antigos de U045/U046 e levantamento de U047, mas não é fonte de aceite. Como o ZIP não está na árvore da main, qualquer conteúdo recuperado precisa ser reconferido contra as origens, as fontes primárias e o estado remoto antes de publicação.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -1820,7 +1830,7 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | U047 | Somente levantamento,42Q/210 opções e dispositivos dirigidos, checkpoint com limites | Sem autoria/classificação final/aceite; completar pesquisa antes de decisão |
 | U048 | Reserva liberada antes da autoria; origem canônica/vínculos apenas indicados na reserva histórica | Não iniciada, nenhum aceite |
 
-**Checkpoint histórico superado para U044. Ponto corrente após o aceite abaixo: U045**, ainda sem reserva ativa. U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
+**Checkpoint histórico superado para U044. Ponto corrente: U045–U047 estão reservadas pelo token `per-u045-u047-lote-20261004-8ad79c7a`**, com U045 como única publicação habilitada neste instante. U028 literal incerta e marco jurisprudencial futuro permanecem localizados e pendentes. Não houve alteração de PR, infraestrutura, catálogo, doador, mega revisão ou mensagem externa.
 
 
 
@@ -2279,21 +2289,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U045 — Prova: conceito, objeto, formas e disposições gerais
 
-- [ ] PER-U045-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U045-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U045-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U045-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U045-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U045-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U046 — Corpo de delito, perícias, requisição e prazos
 
-- [ ] PER-U046-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U046-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U046-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U046-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U046-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U046-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U047 — Cadeia de custódia: conceitos, etapas e fases
 
-- [ ] PER-U047-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U047-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U047-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U047-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U047-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U047-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba
 
