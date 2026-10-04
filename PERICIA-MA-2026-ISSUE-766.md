@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 33 | 0 | 3 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 43 | 0 | 8 |
-| Unidades distintas | 99 | 60 | 9 | 30 |
-| Entregáveis unitários C/H/Q | 297 | 180 | 27 | 90 |
+| Unidades distintas | 99 | 60 | 8 | 31 |
+| Entregáveis unitários C/H/Q | 297 | 180 | 24 | 93 |
 
-Estado confirmado: **30 unidades/visões publicadas (30 locais, 0 por vínculo); 90 C/H/Q aceitos; 36/132 referências literais aceitas; 1231 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **31 unidades/visões publicadas (31 locais, 0 por vínculo); 93 C/H/Q aceitos; 37/132 referências literais aceitas; 1247 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U032 — Correio eletrônico**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 3/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U033 — Redes neurais e inteligência artificial**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 4/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -556,7 +556,7 @@ Grupo consumidor: `conhecimentos-gerais/informatica/`, relativo à raiz definida
 | PER-U029 — Noções de sistemas operacionais | E03: 1 | O027 | `sistemas-operacionais-nocoes` / `per-u029` / 290 | Conceitos/funções; Windows/Linux como exemplos, sem pressupor versões exigidas. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U030 — Noções de redes de computadores | E03: 2 | O028 | `redes-computadores-nocoes` / `per-u030` / 300 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U031 — Navegação e busca na Internet | E03: 3 | O029 | `navegacao-busca-internet` / `per-u031` / 310 | Separar busca/navegação de redes sociais não enumeradas. Parcial local; C/H/Q aceitos em 5.11. |
-| PER-U032 — Correio eletrônico | E03: 4 | O030 | `correio-eletronico-nocoes` / `per-u032` / 320 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U032 — Correio eletrônico | E03: 4 | O030 | `correio-eletronico-nocoes` / `per-u032` / 320 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U033 — Redes neurais e inteligência artificial | E03: 5 | O031 | `redes-neurais-inteligencia-artificial` / `per-u033` / 330 | Conceitos, aprendizado e limites; redes neurais explicitamente cobertas. |
 | PER-U034 — Noções de computação na nuvem | E03: 6 | O032 | `computacao-nuvem-nocoes` / `per-u034` / 340 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U035 — Segurança da informação | E03: 7 | O033, O034 | `seguranca-informacao-nocoes` / `per-u035` / 350 | Princípios, ameaças e medidas; não importar toda a legislação digital do TCE. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 36/132 |
-| Unidades distintas da objetiva | 98 | 30 |
+| Referências literais da objetiva | 132/132 | 37/132 |
+| Unidades distintas da objetiva | 98 | 31 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 30 |
-| Entregáveis unitários C/H/Q | 297: 180 pending + 27 analyzing + 90 done | 90 done |
-| Visões consumidoras previstas | 99 | 30 |
+| Total de unidades distintas | 99 | 31 |
+| Entregáveis unitários C/H/Q | 297: 180 pending + 24 analyzing + 93 done | 93 done |
+| Visões consumidoras previstas | 99 | 31 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 28 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 29 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 30 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 31 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1589,6 +1589,24 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 
 Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813a2bb9`: prompt/opções/explanation são inseridos com textContent (linhas138/346/388), portanto HTML seria exibido literalmente. Raiz examinou individualmente os deltas em `q5185`, `q5186`, `q5188`, `q52204102`, `q52204103`, retirou tags e preservou o significado; nomes institucionais/horas foram escritos por extenso. Demais alterações somente explanation: revisões preservadas; IDs/origin/chaves e composição/conjunto intactos. C/H/R intactos, nenhum doador/infra editado. Inspeção individual F02 subsequente, sem certificar macro ou novas unidades; aceites/totais permanecem30unidades/90C/H/Q/36literais/1231questões. Pacote integral remoto comparado ao texto revisto após correção, escopo exclusivoQ/parent/head confirmados. Q publicado em[`265dfa8`](https://github.com/insign/concursos/commit/265dfa8647fe0eed1deec697866a35a39e2dd2cf), blob`04b1b4197abe4b9693b2a3bb2f3ec84701917321`, path`src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/questoes.json`; tabelas dos aceites originais permanecem históricas. Sem testes/build/check/CI.
 
+#### PER-U032 — Correio eletrônico: parcial local
+
+- **Decisão/origens:** parcial local comunicada antes da autoria, O030 PC físico pc-u025/ordem25, C d347cc042833ace0ad886288ea96d665004e6ce7. Autor u017 leu C/H/Q/R e todos20 Q; comparador canônico comunicacao-colaboracao-remota completo66Q, dois vínculos TCE25 SHA798c91477452e618cb1a8bda45dbb4877d50b482, canonical explícito; SEAP navegação completo16Q, sem pacote próprio de e-mail na árvore3346 completa. Sem resoluções separadas nos três prefixos; C vizinhos navegação/rede apenas para fronteiras, sem outros H/Q/R certificados. Nenhum vínculo Perícia/doadores alterados ou aceite externo importado.
+- **C/H e intervenção:** fluxo preparar→transportar→acessar→organizar; conta/endereço/localpart-domínio/interface, cabeçalho/corpo, Para/Cc/Cco e sentido exato da ocultação, Reply-To/respostas, anexo/link/permissões, MIME como representação, SMTP/IMAP/POP3 e condições de cópias/sincronização/exclusão, rascunho/saída/enviados/arquivar/pesquisar/regra. Cco oculta endereços deCco aos destinatáriosPara/Cc, não ocultando estes da cópia oculta; visibilidade entre ocultos contextualizada por produto/padrão. Cortados inventário de portas, redundância/remissãoPC/colaboração/reuniões. H recupera o mesmo percurso.
+- **Q/identidade:** 16 itens,15autorais/1anterior; dez IDs PC u025-a01/a02/a09…a16 com revisões1→2 e chaves/origin preservados, u025-p03 revisão2→3, cinco novos peru032-q01…q05 revisão1, conjunto1→2 pela seleção. Novos gabaritosD/B/D/C/D; todas80 opções e explicações revistas por raiz e independente u021. Fonte/caderno/definitivoPMESP2024SoldadoTipo1Q54/p11/aplicação21/07/2024 conferidos textualmente pelo autor; original I/II falsas, somenteIII verdadeira/gabaritoC, adaptação localII/III verdadeiras/gabaritoD declarada, não letra original importada. ALEMAp02 excluída por timeout do teor, p01/p04 não revalidadas ou retidas; sem quota ou atribuição não conferida.
+- **Primárias/alcance:** documentos5322 §§3.4.1/3.6.2/3.6.3/5,5321,9051,1939,2045 e páginas oficiaisGoogle/Microsoft nos trechos discriminados emR; não documentos inteiros. Raiz confrontou adicionalmente direçãoCco/variações no5322 eGoogle. Padrões técnicos não congelados por corte legislativo; sem limites comerciais universais. Autores/raiz não declaram imagens dos PDFs que retornaram marcadores; verificação anterior textual. Cenários/endereço hipotéticos, sem resultado real inventado.
+- **Densidade:** C bruto12880→11996 caracteres(−6,9%), visível aproximado8836→9743(+10,3%)/1417→1550palavras(+9,4%); H1479→1729 visível/243→253palavras. AjudaC66→25abbr/3289→1728caracteres, H25→12/1234→919. Crescimento paga endereço/Reply-To/condiçõesCco/sincronização/organização após cortes, não ocultado pela redução do HTML. Q1521→2205palavras emcampos de texto,16 itens selecionados com cenários/condições/distratores/proveniência, não aceites por contagem. Aproximações excluem tags/FM/destinos/Markdown, sem renderização ou tempo certificado.
+- **Inspeção individual PER-F02:** raiz leu integralmente C/H/R/evidence e16Q, cada comando/opção/chave/explicação; metadados/per-u032/320/rota, Markdown/ajudas/links/referências, contrato e revisões examinados manualmente. Controladorb5663e2… via textContent: HTML deQ retirado na iteração ainda inédita e relido pelos dois revisores, revisões por comparação com fontePC preservadas; R primeira instituição/número por extenso após delta da raiz. Grupo Informática vigente. Quatro arquivos completos/SHAs/escopo/parent/head confirmados abaixo. Registro distinto do aceite C/H/Q, sem macroF02/extrapolação. Sem testes/build/check/CI, infra/catálogos/doadores editados ou marco futuro certificado.
+
+**Publicação confirmada:** [`8592237`](https://github.com/insign/concursos/commit/8592237e6725d61f2544b0c93db30d3b70e9f3eb), parent `cfa3c04355b70ada72184aa75861562fad6d8fe3`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/correio-eletronico-nocoes/conteudo.md` | `0aba08cf6db984652d400c47dabc84b3278bfff4` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/correio-eletronico-nocoes/cheat-sheet.md` | `47ee1557adccf600671a34456525402f8d1199cb` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/correio-eletronico-nocoes/questoes.json` | `a2c95a6f5c9830fd453fcdad4c616de6e8af17d1` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/correio-eletronico-nocoes/referencias.md` | `a2f8eb3bbb6b862d66445046accb3c29572ff2c7` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -1948,9 +1966,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U032 — Correio eletrônico
 
-- [ ] PER-U032-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U032-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U032-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U032-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U032-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U032-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U033 — Redes neurais e inteligência artificial
 
@@ -2554,3 +2572,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **Manutenção PER-U020:** Q `1313ed4514cf1715bdd9d6ed8b4949bf525aa6fc`/`003fe3823e79748c0d02236581066e6300ad6086` corrigido para texto puro e confirmado integralmente; sem mudança de totais/aceites, registro individualF02 em5.11.
 
 - **Manutenção PER-U024:** Q `265dfa8647fe0eed1deec697866a35a39e2dd2cf`/`04b1b4197abe4b9693b2a3bb2f3ec84701917321` corrigido para texto puro e confirmado integralmente; sem mudança de totais/aceites, registro individualF02 em5.11.
+
+- **PER-U032:** artefatos `8592237e6725d61f2544b0c93db30d3b70e9f3eb` confirmados; aceitos neste registro 16 itens, C/H/Q e proveniência 5.11. Totais resultantes: 31/99 unidades, 93/297 C/H/Q, 37/132 referências, 1247 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U033 — Redes neurais e inteligência artificial; campanha aberta.
