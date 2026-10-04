@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "u099-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No recorte do Executivo federal adotado pelo artigo 4º do Decreto-Lei nº 200/1967, a Administração direta compreende os serviços integrados na estrutura administrativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "da Presidência da República e dos Ministérios."
+        },
+        {
+          "id": "B",
+          "text": "dos Ministérios e das autarquias a eles vinculadas."
+        },
+        {
+          "id": "C",
+          "text": "das autarquias e das fundações de direito público."
+        },
+        {
+          "id": "D",
+          "text": "das entidades vinculadas aos Ministérios, inclusive empresas estatais."
+        },
+        {
+          "id": "E",
+          "text": "dos órgãos estaduais que executem programas financiados pela União."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 4º descreve a direta do Executivo federal pelos serviços da Presidência e dos Ministérios. Autarquias, fundações e empresas estatais são pessoas distintas na indireta; financiamento federal não incorpora órgãos estaduais à estrutura da União."
+    },
+    {
+      "id": "u099-a03",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em situação hipotética, um departamento ministerial tem chefia e dotação orçamentária próprias, mas continua dentro da personalidade jurídica da União. Ao distinguir órgão de entidade, deve-se concluir que o departamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é entidade da indireta, porque administra uma dotação própria."
+        },
+        {
+          "id": "B",
+          "text": "tem personalidade jurídica separada, porque sua chefia decide sobre despesas."
+        },
+        {
+          "id": "C",
+          "text": "é órgão; chefia e orçamento próprios não o tornam outra pessoa jurídica."
+        },
+        {
+          "id": "D",
+          "text": "é entidade, embora os contratos continuem sendo assumidos juridicamente pela União."
+        },
+        {
+          "id": "E",
+          "text": "deixa de ser órgão sempre que seu dirigente assina contratos em nome da União."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A personalidade jurídica, e não a presença de chefia ou orçamento, distingue a entidade. O departamento atua na pessoa jurídica União; seus agentes podem praticar atos em nome dela sem criar uma nova pessoa."
+    },
+    {
+      "id": "u099-a04",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Hipoteticamente, um ministério passa a executar certa atribuição por três departamentos regionais, instituídos na forma juridicamente adequada. Todos permanecem dentro da mesma pessoa jurídica. Na distinção doutrinária entre desconcentração e descentralização, ocorreu",
+      "options": [
+        {
+          "id": "A",
+          "text": "descentralização, pois a competência passou a ser exercida em cidades diferentes."
+        },
+        {
+          "id": "B",
+          "text": "descentralização, pois cada departamento passou a ter chefia própria."
+        },
+        {
+          "id": "C",
+          "text": "concentração, pois todas as unidades continuam pertencendo à União."
+        },
+        {
+          "id": "D",
+          "text": "desconcentração, pois a distribuição ocorreu entre órgãos da mesma pessoa."
+        },
+        {
+          "id": "E",
+          "text": "descentralização política, pois os departamentos ganharam atribuições administrativas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A desconcentração distribui atribuições internamente. Distância, chefia e divisão de trabalho não substituem o critério da pessoa jurídica. A execução permanece centralizada na União."
+    },
+    {
+      "id": "u099-a05",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em situação hipotética, lei específica cria uma autarquia federal para executar atividade antes exercida por um ministério. A nova entidade tem personalidade, patrimônio e receitas próprios. Essa mudança representa",
+      "options": [
+        {
+          "id": "A",
+          "text": "desconcentração, porque ambas as estruturas realizam atividade administrativa federal."
+        },
+        {
+          "id": "B",
+          "text": "concentração, porque a União continua responsável pela política do setor."
+        },
+        {
+          "id": "C",
+          "text": "descentralização política, com formação de novo ente federativo."
+        },
+        {
+          "id": "D",
+          "text": "delegação contratual a particular, pois a nova organização tem patrimônio próprio."
+        },
+        {
+          "id": "E",
+          "text": "descentralização administrativa, com execução por pessoa jurídica distinta da União."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Criar uma autarquia distribui a execução para outra pessoa jurídica administrativa. Ela não se torna ente federativo nem particular; sua autonomia administrativa não é autonomia política de estado ou município."
+    },
+    {
+      "id": "u099-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autarquia federal é vinculada ao ministério de sua área. Nos limites legais, o ministério acompanha seus objetivos e a utilização de recursos. Essa relação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é de supervisão entre pessoas distintas e não equivale à hierarquia interna de um departamento ministerial."
+        },
+        {
+          "id": "B",
+          "text": "é de hierarquia interna, porque ambas integram a Administração federal."
+        },
+        {
+          "id": "C",
+          "text": "só pode existir se a autarquia renunciar à sua autonomia administrativa e financeira."
+        },
+        {
+          "id": "D",
+          "text": "faz o patrimônio da autarquia pertencer diretamente ao ministério."
+        },
+        {
+          "id": "E",
+          "text": "permite ao ministro substituir qualquer decisão da autarquia, independentemente de previsão jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vinculação permite supervisão pelos instrumentos previstos no Direito. O artigo 26 do Decreto-Lei nº 200/1967 também manda preservar a autonomia administrativa, operacional e financeira. Isso difere da hierarquia dentro de uma única estrutura."
+    },
+    {
+      "id": "u099-a07",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Lei específica, já vigente, cria uma autarquia federal. Um servidor afirma que a entidade só terá personalidade jurídica depois do registro de seu ato constitutivo no cartório civil. A afirmação",
+      "options": [
+        {
+          "id": "A",
+          "text": "está correta, pois qualquer entidade administrativa nasce com registro civil."
+        },
+        {
+          "id": "B",
+          "text": "está incorreta, pois a autarquia é pessoa de direito público criada diretamente pela lei."
+        },
+        {
+          "id": "C",
+          "text": "está correta, pois a lei apenas autoriza a instituição de autarquia."
+        },
+        {
+          "id": "D",
+          "text": "está incorreta, pois autarquias são órgãos e não têm personalidade jurídica."
+        },
+        {
+          "id": "E",
+          "text": "está correta se a autarquia tiver patrimônio e receita próprios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei específica cria a autarquia. A etapa constitutiva e o registro próprios das pessoas de direito privado não condicionam sua existência. Patrimônio e receita próprios são características da entidade, não motivos para exigir registro civil."
+    },
+    {
+      "id": "u099-a09",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Pretende-se admitir uma autarquia no capital de uma empresa pública que pertence à União. Segundo a condição expressa no parágrafo único do artigo 3º da Lei nº 13.303/2016, para admitir essa participação deve permanecer em propriedade da União",
+      "options": [
+        {
+          "id": "A",
+          "text": "a totalidade do capital social, mesmo depois da entrada da autarquia."
+        },
+        {
+          "id": "B",
+          "text": "qualquer parcela do capital votante, desde que a soma com a autarquia supere metade dos votos."
+        },
+        {
+          "id": "C",
+          "text": "a totalidade das participações com voto, admitindo-se à autarquia apenas participações sem voto."
+        },
+        {
+          "id": "D",
+          "text": "metade exata do capital votante, podendo a outra metade pertencer à autarquia."
+        },
+        {
+          "id": "E",
+          "text": "a maioria do capital votante."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A participação de outras pessoas públicas e de entidades da indireta é admitida sob a condição de a maioria do capital votante permanecer na propriedade do ente federativo indicado na lei, aqui a União. Somar os votos de União e autarquia não dispensa essa condição expressa."
+    },
+    {
+      "id": "u099-a10",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma sociedade anônima, em situação hipotética, foi instituída após autorização legal e cumprimento dos demais requisitos pertinentes. Particulares detêm 60% do capital total, mas a União possui 55% das ações com direito a voto. Quanto aos critérios de capital e controle da Lei nº 13.303/2016, essa estrutura",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode ser empresa pública, pois a União controla a maioria dos votos."
+        },
+        {
+          "id": "B",
+          "text": "impede a classificação como sociedade de economia mista, pois o capital total não é majoritariamente da União."
+        },
+        {
+          "id": "C",
+          "text": "é compatível com autarquia, pois a maioria votante pertence à União."
+        },
+        {
+          "id": "D",
+          "text": "é compatível com sociedade de economia mista, cujo critério de controle considera a maioria das ações com direito a voto."
+        },
+        {
+          "id": "E",
+          "text": "somente seria compatível com sociedade de economia mista se particulares controlassem a maioria dos votos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 4º considera a maioria das ações com direito a voto, aqui da União. Capital total e capital votante são diferentes. A participação privada impede o enquadramento como empresa pública; controle estatal não transforma uma sociedade em autarquia."
+    },
+    {
+      "id": "u099-a12",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao comparar a forma jurídica de empresa pública e sociedade de economia mista, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a forma de sociedade anônima é obrigatória para ambas."
+        },
+        {
+          "id": "B",
+          "text": "a sociedade de economia mista deve ser sociedade anônima, e a empresa pública também pode assumir essa forma."
+        },
+        {
+          "id": "C",
+          "text": "a empresa pública deve ser sociedade limitada, e a sociedade de economia mista pode escolher qualquer forma."
+        },
+        {
+          "id": "D",
+          "text": "a forma de sociedade anônima é exclusiva das sociedades de economia mista."
+        },
+        {
+          "id": "E",
+          "text": "a sociedade de economia mista pode dispensar a forma anônima quando a União detiver a maioria dos votos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A forma anônima é obrigatória para a sociedade de economia mista, conforme os artigos 4º e 5º da Lei nº 13.303/2016. A empresa pública pode assumir formas admitidas pelo Direito compatíveis com sua natureza, inclusive a anônima."
+    },
+    {
+      "id": "u099-a13",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Além da lei específica mencionada para a instituição de fundação, o artigo 37, XIX, da Constituição atribui à lei complementar a função de",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar individualmente cada autarquia federal."
+        },
+        {
+          "id": "B",
+          "text": "autorizar cada sociedade de economia mista a assumir a forma anônima."
+        },
+        {
+          "id": "C",
+          "text": "definir as áreas de atuação das fundações."
+        },
+        {
+          "id": "D",
+          "text": "substituir o registro dos atos constitutivos das fundações de direito privado."
+        },
+        {
+          "id": "E",
+          "text": "fixar os percentuais de capital votante das empresas públicas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei complementar define as áreas de atuação das fundações. Essa função não se confunde com a lei específica que cria ou autoriza a entidade, nem com os atos constitutivos e o registro de pessoas de direito privado."
+    },
+    {
+      "id": "u099-a14",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma fundação instituída pelo Poder Público recebe todos os seus recursos de dotações estatais. Um analista precisa determinar se ela se submete ao regime de direito público ou ao de direito privado. Segundo o Tema 545 do Supremo Tribunal Federal, a análise deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a origem estatal dos recursos, que resolve a qualificação."
+        },
+        {
+          "id": "B",
+          "text": "apenas a presença da palavra pública no nome da fundação."
+        },
+        {
+          "id": "C",
+          "text": "a origem dos recursos e a inexistência de distribuição de lucros, sem examinar o estatuto."
+        },
+        {
+          "id": "D",
+          "text": "o estatuto de criação ou autorização e as atividades prestadas."
+        },
+        {
+          "id": "E",
+          "text": "o estatuto de criação ou autorização, sendo irrelevantes as atividades prestadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A tese exige os dois elementos: estatuto de criação ou autorização e atividades prestadas. Ser instituída ou mantida pelo Poder Público não basta, isoladamente, para afirmar personalidade de direito público."
+    },
+    {
+      "id": "u099-a15",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Após ler que o artigo 5º, IV, do Decreto-Lei nº 200/1967 descreve uma fundação de direito privado, um aluno conclui que nenhuma fundação pública federal pode ter natureza autárquica. A correção adequada dessa conclusão é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda fundação pública tem natureza autárquica, inclusive a de direito privado."
+        },
+        {
+          "id": "B",
+          "text": "fundações de direito público existem, mas ficam fora da Administração indireta."
+        },
+        {
+          "id": "C",
+          "text": "fundações autárquicas são pessoas de direito privado constituídas por registro civil."
+        },
+        {
+          "id": "D",
+          "text": "a natureza autárquica é adquirida quando o financiamento estatal supera metade das receitas."
+        },
+        {
+          "id": "E",
+          "text": "há fundações públicas de direito público, de natureza autárquica e criadas diretamente por lei específica."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A modalidade descrita no decreto-lei não elimina as fundações públicas de direito público, também chamadas fundações autárquicas. Estas seguem a criação direta por lei; as de direito privado exigem autorização e constituição. Financiamento não substitui a identificação do regime."
+    },
+    {
+      "id": "u099-a17",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma empresa particular, já existente, recebe por concessão a execução de um serviço federal. O contrato não altera sua personalidade nem institui uma entidade estatal. A execução do serviço",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorpora a empresa à Administração indireta, porque a atividade continua pública."
+        },
+        {
+          "id": "B",
+          "text": "representa delegação a particular, sem tornar a empresa entidade da Administração indireta."
+        },
+        {
+          "id": "C",
+          "text": "transforma a empresa em sociedade de economia mista, mesmo sem participação estatal no capital."
+        },
+        {
+          "id": "D",
+          "text": "é desconcentração, porque o serviço pertence à esfera federal."
+        },
+        {
+          "id": "E",
+          "text": "transforma a empresa em órgão da União, subordinado internamente ao ministério."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Delegar a execução de um serviço a particular não o incorpora à estrutura administrativa. Há execução por outra pessoa, mas ela continua particular nas condições do enunciado. Serviço público e entidade estatal são critérios distintos."
+    },
+    {
+      "id": "u099-a18",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considerando a redação do artigo 37, XX, da Constituição, a criação de subsidiárias das entidades mencionadas no inciso XIX e a participação de qualquer delas em empresa privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem apenas de decisão dos dirigentes da entidade inicial."
+        },
+        {
+          "id": "B",
+          "text": "dispensam autorização legislativa quando envolvam recursos próprios."
+        },
+        {
+          "id": "C",
+          "text": "dependem de autorização legislativa, em cada caso."
+        },
+        {
+          "id": "D",
+          "text": "transformam a empresa privada em órgão da Administração direta."
+        },
+        {
+          "id": "E",
+          "text": "exigem lei complementar para definir previamente os percentuais de participação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esse é o comando constitucional do inciso XX. Ele não se confunde com a lei complementar sobre áreas de atuação das fundações, prevista no inciso XIX. A questão recupera a redação constitucional, sem concluir sobre todas as particularidades de operações societárias."
+    },
+    {
+      "id": "u099-p01",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Questão adaptada da prova de 2025 do Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos para o Tribunal de Contas do Estado de Mato Grosso do Sul, conhecimentos gerais, questão 19. Assinale a afirmação correta sobre a Administração indireta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A sociedade de economia mista exige capital inteiramente público e controle estatal de todos os votos."
+        },
+        {
+          "id": "B",
+          "text": "Autarquias e fundações públicas têm necessariamente personalidade de direito privado."
+        },
+        {
+          "id": "C",
+          "text": "A autonomia das fundações públicas afasta sua sujeição à fiscalização estatal."
+        },
+        {
+          "id": "D",
+          "text": "Empresas públicas e sociedades de economia mista, por terem personalidade privada, ficam fora do controle estatal."
+        },
+        {
+          "id": "E",
+          "text": "Autarquias são criadas por lei específica, têm personalidade de direito público e executam atividades típicas da Administração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O núcleo correto é o da autarquia: criação por lei específica, personalidade pública e atividades administrativas típicas. Personalidade privada ou autonomia não elimina controle. Na prova oficial, a resposta era C; nesta adaptação, com alternativas reordenadas e reescritas, é E."
+    },
+    {
+      "id": "per-u038-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade administrativa do Senado Federal, em situação hipotética, contrata manutenção em nome da União, sem personalidade jurídica própria. Um aluno afirma que o artigo 37 da Constituição não a alcança porque o Decreto-Lei nº 200/1967 descreve a estrutura do Executivo federal. A avaliação correta é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o aluno tem razão, pois Administração pública existe somente no Executivo."
+        },
+        {
+          "id": "B",
+          "text": "o aluno está errado, pois o artigo 37 alcança a função administrativa dos órgãos de qualquer Poder, e o recorte do decreto-lei não a exclui."
+        },
+        {
+          "id": "C",
+          "text": "a unidade passa a integrar a Administração indireta por realizar contratação."
+        },
+        {
+          "id": "D",
+          "text": "a unidade deve ser enquadrada como ministério para se submeter ao artigo 37."
+        },
+        {
+          "id": "E",
+          "text": "a contratação confere personalidade jurídica própria à unidade, sujeitando-a então ao artigo 37."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Legislativo também administra e seus órgãos integram a estrutura da União. O alcance do artigo 37 não se limita ao Executivo. O decreto-lei organiza esse Poder no âmbito federal; não elimina a função administrativa dos demais."
+    },
+    {
+      "id": "per-u038-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Invocando exclusivamente o artigo 84, VI, a, da Constituição, pretende-se criar por decreto um novo órgão federal, sem aumentar despesas. Essa medida",
+      "options": [
+        {
+          "id": "A",
+          "text": "é admitida porque a ausência de aumento de despesa basta para criar órgãos por decreto."
+        },
+        {
+          "id": "B",
+          "text": "é admitida se o órgão não receber personalidade jurídica própria."
+        },
+        {
+          "id": "C",
+          "text": "não é admitida por esse dispositivo, pois a autorização também exige ausência de criação ou extinção de órgãos."
+        },
+        {
+          "id": "D",
+          "text": "é admitida se os servidores forem transferidos de outros órgãos."
+        },
+        {
+          "id": "E",
+          "text": "não é admitida porque o Presidente não pode tratar por decreto nem mesmo de organização sem criação de órgãos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os limites são cumulativos: não aumentar despesa e não criar ou extinguir órgãos. O artigo 88 prevê lei para criação e extinção. A alternativa E também erra: o decreto pode tratar de organização e funcionamento dentro dos limites constitucionais."
+    },
+    {
+      "id": "per-u038-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 10 do Decreto-Lei nº 200/1967 inclui, sob o nome descentralização, distribuição de atividades dentro da própria Administração federal. Como relacionar esse emprego legal à distinção doutrinária entre desconcentração e descentralização?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O decreto-lei prova que toda distribuição interna cria uma pessoa jurídica."
+        },
+        {
+          "id": "B",
+          "text": "A distinção doutrinária impede a aplicação do artigo 10 a órgãos internos."
+        },
+        {
+          "id": "C",
+          "text": "O artigo 10 exige que se classifique qualquer departamento como entidade da indireta."
+        },
+        {
+          "id": "D",
+          "text": "O texto legal emprega descentralização em sentido amplo; na distinção doutrinária, distribuir atribuições entre órgãos da mesma pessoa é desconcentração."
+        },
+        {
+          "id": "E",
+          "text": "Os dois usos impõem que a localização em outra cidade seja o critério decisivo para reconhecer descentralização."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "É preciso identificar a fonte e o sentido do termo. A distribuição interna aparece no sentido amplo do artigo 10, mas não cria por isso outra pessoa jurídica. O critério doutrinário da desconcentração continua sendo a distribuição entre órgãos da mesma pessoa."
+    }
+  ]
+}
