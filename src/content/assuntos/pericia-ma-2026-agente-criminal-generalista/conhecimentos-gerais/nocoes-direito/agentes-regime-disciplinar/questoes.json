@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 3,
+  "questions": [
+    {
+      "id": "u100-a13",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No exemplo da Lei federal nº 8.112/1990, uma infração é punível com suspensão e não está também capitulada como crime. O prazo prescricional correspondente é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "cinco anos, por se tratar de sanção disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "cento e oitenta dias, por se tratar de pena não expulsiva."
+        },
+        {
+          "id": "C",
+          "text": "dois anos, conforme a penalidade indicada."
+        },
+        {
+          "id": "D",
+          "text": "noventa dias, correspondente ao limite da suspensão."
+        },
+        {
+          "id": "E",
+          "text": "cento e quarenta dias, correspondente à interrupção da prescrição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 142, II, da Lei nº 8.112/1990 fixa dois anos para infrações puníveis com suspensão. Cinco anos e cento e oitenta dias se referem a outras penalidades; noventa dias é limite da pena, e cento e quarenta dias é o período após o qual a prescrição interrompida volta a correr segundo a Súmula 635 do Superior Tribunal de Justiça. A regra das infrações também capituladas como crime foi excluída expressamente do caso."
+    },
+    {
+      "id": "u100-a14",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei federal nº 8.112/1990, qual situação contém os elementos legais do abandono de cargo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ausência intencional durante exatamente trinta dias consecutivos."
+        },
+        {
+          "id": "B",
+          "text": "Sessenta faltas sem justificativa, distribuídas ao longo de doze meses."
+        },
+        {
+          "id": "C",
+          "text": "Ausência por mais de trinta dias consecutivos, independentemente de ser intencional."
+        },
+        {
+          "id": "D",
+          "text": "Ausência intencional do servidor por mais de trinta dias consecutivos."
+        },
+        {
+          "id": "E",
+          "text": "Mais de trinta faltas intencionais, somadas em dias descontínuos durante doze meses."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 138 exige ausência intencional por mais de trinta dias consecutivos. Exatamente trinta dias não satisfaz o limite; faltas descontínuas não reproduzem a continuidade exigida. A soma de sessenta faltas injustificadas durante doze meses corresponde à inassiduidade habitual do art. 139, que é infração distinta."
+    },
+    {
+      "id": "u100-a15",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na definição de inassiduidade habitual da Lei federal nº 8.112/1990, as faltas ao serviço, sem causa justificada, devem totalizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "sessenta dias interpolados durante cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "mais de trinta dias consecutivos, com intenção de abandonar o cargo."
+        },
+        {
+          "id": "C",
+          "text": "trinta dias interpolados durante doze meses."
+        },
+        {
+          "id": "D",
+          "text": "sessenta dias consecutivos durante seis meses."
+        },
+        {
+          "id": "E",
+          "text": "sessenta dias interpolados durante doze meses."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 139 combina sessenta dias de faltas sem causa justificada, descontínuos, dentro de doze meses. A opção sobre ausência intencional por mais de trinta dias consecutivos remete ao abandono de cargo, do art. 138. Quantidade, continuidade e período de referência precisam ser lidos juntos."
+    },
+    {
+      "id": "u100-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma sindicância punitiva observa as garantias de defesa no regime da Lei federal nº 8.112/1990. Conforme o art. 145, seus resultados legalmente possíveis incluem",
+      "options": [
+        {
+          "id": "A",
+          "text": "arquivamento, advertência, suspensão de até trinta dias ou instauração de processo disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "arquivamento, repreensão, suspensão de até trinta dias ou instauração de processo disciplinar."
+        },
+        {
+          "id": "C",
+          "text": "advertência ou suspensão de até noventa dias, mantendo-se a apuração na sindicância."
+        },
+        {
+          "id": "D",
+          "text": "arquivamento ou demissão, desde que a comissão tenha três servidores estáveis."
+        },
+        {
+          "id": "E",
+          "text": "suspensão superior a trinta dias, sem processo disciplinar, se houver defesa escrita."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 145 permite arquivamento, advertência, suspensão de até trinta dias ou processo disciplinar. Repreensão não integra o rol federal. Suspensão superior a trinta dias e demissão estão entre as hipóteses que exigem processo disciplinar pelo art. 146; defesa escrita ou composição da comissão não afastam essa exigência."
+    },
+    {
+      "id": "u100-a17",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No procedimento disciplinar ordinário da Lei federal nº 8.112/1990, qual alternativa reproduz o prazo de conclusão do art. 152 e seu marco inicial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trinta dias, prorrogáveis por trinta, desde a ciência da irregularidade pela autoridade."
+        },
+        {
+          "id": "B",
+          "text": "Sessenta dias, prorrogáveis por igual período quando as circunstâncias exigirem, desde a publicação do ato que constitui a comissão."
+        },
+        {
+          "id": "C",
+          "text": "Sessenta dias, prorrogáveis por igual período, desde a primeira audiência da instrução."
+        },
+        {
+          "id": "D",
+          "text": "Cento e vinte dias improrrogáveis, desde a citação do indiciado para defesa escrita."
+        },
+        {
+          "id": "E",
+          "text": "Vinte dias, prorrogáveis por igual período, desde o recebimento do relatório pela autoridade julgadora."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 152 fixa sessenta dias desde a publicação do ato que constitui a comissão e admite prorrogação por igual período quando necessária. O prazo de vinte dias do art. 167 é para julgamento, contado do recebimento do processo pela autoridade, e não substitui o prazo de conclusão do procedimento ordinário."
+    },
+    {
+      "id": "u100-a18",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um servidor pede revisão de processo disciplinar federal e apresenta fatos novos capazes de demonstrar inadequação da pena. Segundo os arts. 174 a 182 da Lei nº 8.112/1990,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pedido depende de ser formulado em trinta dias da decisão original."
+        },
+        {
+          "id": "B",
+          "text": "a possibilidade de agravar a pena no julgamento inicial se estende à revisão."
+        },
+        {
+          "id": "C",
+          "text": "a revisão não pode resultar em agravamento da penalidade."
+        },
+        {
+          "id": "D",
+          "text": "o ônus de demonstrar os fatos novos recai exclusivamente sobre a Administração."
+        },
+        {
+          "id": "E",
+          "text": "a revisão deve ser rejeitada se não houver pedido, pois sua abertura de ofício é vedada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A revisão pode ocorrer a qualquer tempo, a pedido ou de ofício, diante dos fatos ou circunstâncias relevantes do art. 174. O ônus da prova cabe ao requerente, e o art. 182 proíbe agravar a penalidade. Essa vedação específica não se confunde com a possibilidade de a autoridade divergir motivadamente da proposta da comissão no julgamento inicial."
+    },
+    {
+      "id": "u053-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma chefia toma conhecimento de possível infração funcional e considera que a notoriedade da suspeita permite aplicar sanção sem ouvir o acusado. À luz das garantias constitucionais da apuração disciplinar,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a notoriedade pode substituir a defesa, desde que a pena seja advertência."
+        },
+        {
+          "id": "B",
+          "text": "a defesa pode ser dispensada quando a autoridade já tiver examinado documentos."
+        },
+        {
+          "id": "C",
+          "text": "a aplicação de sanção exige o procedimento adequado, competência, contraditório e ampla defesa."
+        },
+        {
+          "id": "D",
+          "text": "a publicação da decisão supre a falta de participação do acusado na apuração."
+        },
+        {
+          "id": "E",
+          "text": "o contraditório só é necessário se o agente for estável e a pena for demissão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Constituição, art. 5º, LIV e LV, assegura devido processo legal, contraditório e ampla defesa. Suspeita pública, documentos examinados unilateralmente e pena considerada leve não autorizam punição sem defesa. A notícia pode fundamentar apuração, cujo resultado deve ser demonstrado no procedimento competente."
+    },
+    {
+      "id": "u053-a13",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Dois órgãos, de entes distintos, usam a expressão processo administrativo disciplinar. Antes de aplicar ao segundo órgão os prazos e as penalidades do primeiro, é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "confirmar a identidade do nome do procedimento, pois ela torna uniformes as regras."
+        },
+        {
+          "id": "B",
+          "text": "verificar apenas se os agentes ocupam cargos públicos, o que atrai o estatuto federal."
+        },
+        {
+          "id": "C",
+          "text": "identificar o regime jurídico aplicável e consultar as regras próprias de procedimento e sanção."
+        },
+        {
+          "id": "D",
+          "text": "aplicar a Lei nº 8.112/1990 como estatuto nacional, ainda que haja norma estadual específica."
+        },
+        {
+          "id": "E",
+          "text": "escolher o prazo mais curto entre os estatutos, por força da eficiência administrativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A denominação do procedimento não define seu regime. A Lei nº 8.112/1990 é estatuto federal, e regimes estaduais ou especiais podem prever penalidades e marcos de contagem distintos. Competência, vínculo e norma aplicável antecedem a utilização de um número ou de um rol de sanções."
+    },
+    {
+      "id": "u109-a16",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na comparação delimitada do art. 237 da Lei maranhense nº 6.107/1994, observadas as garantias de defesa quando houver punição, a sindicância pode resultar em",
+      "options": [
+        {
+          "id": "A",
+          "text": "arquivamento, advertência, repreensão, suspensão de até trinta dias ou instauração de processo disciplinar."
+        },
+        {
+          "id": "B",
+          "text": "arquivamento, advertência, suspensão de até trinta dias ou processo disciplinar, sendo a repreensão excluída."
+        },
+        {
+          "id": "C",
+          "text": "arquivamento, repreensão ou suspensão de até noventa dias, sem mudança de procedimento."
+        },
+        {
+          "id": "D",
+          "text": "advertência, repreensão ou demissão, desde que o sindicante fundamente sua decisão."
+        },
+        {
+          "id": "E",
+          "text": "arquivamento ou processo disciplinar, pois nenhuma pena pode decorrer de sindicância punitiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 237 estadual inclui advertência, repreensão e suspensão de até trinta dias, além de arquivamento ou instauração de processo disciplinar. A repreensão diferencia esse conjunto do art. 145 federal. A sindicância investigativa não pune; a aplicação de penalidade em apuração punitiva exige as garantias de defesa e os limites próprios do regime."
+    },
+    {
+      "id": "u100-p01",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Questão anterior adaptada: Tribunal Regional Eleitoral do Tocantins, 2017, questão 23. Um servidor submetido à Lei nº 8.112/1990 recebeu advertência por falta funcional. Três meses depois, reincidiu em falta punível com advertência. A consequência disciplinar prevista para essa reincidência é",
+      "options": [
+        {
+          "id": "A",
+          "text": "nova advertência, pois a reincidência só se caracteriza após cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "repreensão, como etapa obrigatória antes da suspensão no estatuto federal."
+        },
+        {
+          "id": "C",
+          "text": "demissão, pois a segunda infração converte qualquer advertência em pena expulsiva."
+        },
+        {
+          "id": "D",
+          "text": "suspensão de até noventa dias, conforme o art. 130 federal."
+        },
+        {
+          "id": "E",
+          "text": "suspensão de até trinta dias, limite máximo dessa penalidade no estatuto federal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 130 da Lei nº 8.112/1990 prevê suspensão, limitada a noventa dias, para reincidência em falta punida com advertência. Trinta dias é o limite de suspensão aplicável por sindicância, não o máximo da pena federal. O caderno oficial e o gabarito definitivo da questão 23 foram conferidos: resposta original A. Nesta adaptação não literal para cinco alternativas, a resposta local é D; não se atribui essa letra ao original."
+    },
+    {
+      "id": "u100-p02",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Questão anterior adaptada: Superior Tribunal Militar, 2025, item 14. Um servidor acusado em processo disciplinar foi intimado, participou da apuração e apresentou sua própria defesa escrita, sem advogado. Segundo a Súmula Vinculante 5 do Supremo Tribunal Federal,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a defesa pessoal é insuficiente em qualquer caso, impondo nulidade pela ausência de advogado."
+        },
+        {
+          "id": "B",
+          "text": "a ausência de advogado torna dispensável examinar os argumentos apresentados pelo servidor."
+        },
+        {
+          "id": "C",
+          "text": "a defesa sem advogado só é admitida para advertência, sendo nula nas demais hipóteses."
+        },
+        {
+          "id": "D",
+          "text": "a apresentação de defesa pessoal impede qualquer conclusão desfavorável ao servidor."
+        },
+        {
+          "id": "E",
+          "text": "a falta de advogado não é, por si só, causa de nulidade, permanecendo exigidas as garantias de defesa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Súmula Vinculante 5 afasta a nulidade fundada somente na ausência de defesa técnica por advogado no processo disciplinar do servidor. Não dispensa informação, possibilidade de manifestação nem consideração dos argumentos. Caderno e definitivo do item 14 foram efetivamente conferidos: original Certo; a adaptação não literal tem resposta local E. A regra não foi estendida à apuração de falta grave de pessoa presa."
+    },
+    {
+      "id": "peru043-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime federal da Lei nº 8.112/1990, a apuração regular demonstrou uma hipótese do art. 132 que exige demissão. A autoridade pretende substituir a pena por advertência, invocando bons antecedentes funcionais e ausência de dano patrimonial. Segundo a Súmula 650 do Superior Tribunal de Justiça,",
+      "options": [
+        {
+          "id": "A",
+          "text": "os antecedentes favoráveis permitem escolher qualquer pena do rol, sem alterar o enquadramento."
+        },
+        {
+          "id": "B",
+          "text": "caracterizada a hipótese legal, não há liberdade para substituir a demissão por pena diversa."
+        },
+        {
+          "id": "C",
+          "text": "a substituição é permitida se mantido o fundamento do art. 132 na decisão."
+        },
+        {
+          "id": "D",
+          "text": "a autoridade deve primeiro aplicar advertência e só demitir se houver reincidência."
+        },
+        {
+          "id": "E",
+          "text": "o relatório da comissão pode dispensar o enquadramento legal e escolher a pena por conveniência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 650 exige demissão quando caracterizadas as hipóteses do art. 132 federal. A consideração dos elementos do caso e a motivação não autorizam inventar uma pena substitutiva incompatível com o enquadramento. A conclusão pressupõe apuração regular e efetiva demonstração dos elementos da hipótese legal."
+    },
+    {
+      "id": "peru043-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No sistema disciplinar federal, uma sindicância meramente investigativa reuniu indícios de infração, sem instaurar procedimento acusatório nem oportunizar defesa ao investigado. Seu relatório pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicar advertência, pois essa pena não exige contraditório."
+        },
+        {
+          "id": "B",
+          "text": "aplicar suspensão de até trinta dias, por ser sindicância."
+        },
+        {
+          "id": "C",
+          "text": "converter os indícios em confissão pela ausência de defesa escrita."
+        },
+        {
+          "id": "D",
+          "text": "recomendar processo acusatório adequado, sem aplicar pena na investigação preparatória."
+        },
+        {
+          "id": "E",
+          "text": "encaminhar diretamente uma pena de demissão, dispensando apuração posterior."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A sindicância investigativa busca elementos sobre o fato e a possível autoria e não aplica sanção. Se houver fundamento, pode recomendar a instauração de processo acusatório adequado, com contraditório e ampla defesa. A classificação como sindicância não permite usar os resultados punitivos do art. 145 sem o procedimento e as garantias correspondentes."
+    },
+    {
+      "id": "peru043-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A comissão do processo disciplinar ordinário da Lei federal nº 8.112/1990 deve ser formada, conforme o art. 149, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "três agentes, sendo a estabilidade exigida apenas do presidente."
+        },
+        {
+          "id": "B",
+          "text": "dois servidores estáveis, número mínimo que também define a comissão do procedimento ordinário."
+        },
+        {
+          "id": "C",
+          "text": "três servidores necessariamente ocupantes de cargos superiores ao do indiciado."
+        },
+        {
+          "id": "D",
+          "text": "três servidores, sendo admitido cônjuge do acusado quando o voto não for decisivo."
+        },
+        {
+          "id": "E",
+          "text": "três servidores estáveis, com presidente que atenda às condições legais de cargo ou escolaridade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 149 federal exige três servidores estáveis. O presidente ocupa cargo efetivo superior ou de mesmo nível, ou possui escolaridade igual ou superior à do indiciado. Não se exige cargo superior para todos os membros, e cônjuge do acusado não pode participar. Regras de composição de outros procedimentos não substituem as do procedimento ordinário federal."
+    },
+    {
+      "id": "peru043-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para impedir interferência de um servidor federal na apuração, a autoridade instauradora determinou afastamento preventivo nos termos do art. 147 da Lei nº 8.112/1990. Essa medida",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode durar até sessenta dias, com prorrogação por igual prazo, sem prejuízo da remuneração."
+        },
+        {
+          "id": "B",
+          "text": "é suspensão punitiva e deve observar o limite de noventa dias sem remuneração."
+        },
+        {
+          "id": "C",
+          "text": "pode continuar sem limite temporal enquanto o processo estiver inconcluso."
+        },
+        {
+          "id": "D",
+          "text": "é decidida pela comissão apuradora, que exerce a competência da autoridade instauradora nesse ponto."
+        },
+        {
+          "id": "E",
+          "text": "é prorrogada automaticamente por igual prazo sempre que o processo ainda estiver em andamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O afastamento preventivo é cautelar: protege a apuração e não antecipa pena. O art. 147 permite até sessenta dias, prorrogáveis por igual período, sem prejuízo da remuneração. Ao fim do período máximo, cessam os efeitos mesmo se o processo não terminou. Não é suspensão nem comprovação de culpa."
+    },
+    {
+      "id": "peru043-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para os prazos do art. 142 da Lei nº 8.112/1990, conforme a Súmula 635 do Superior Tribunal de Justiça, qual sequência está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ocorrência do fato; investigação preparatória interrompe; contagem retorna apenas pelo saldo restante."
+        },
+        {
+          "id": "B",
+          "text": "Ciência de qualquer colega; qualquer abertura interrompe; o prazo permanece parado até a decisão, sem limite."
+        },
+        {
+          "id": "C",
+          "text": "Ciência da autoridade competente; investigação preparatória interrompe; o prazo retorna por inteiro após noventa dias."
+        },
+        {
+          "id": "D",
+          "text": "Ciência da autoridade competente para instaurar; primeiro ato válido de sindicância punitiva ou processo disciplinar interrompe; após cento e quarenta dias, o prazo volta a correr por inteiro."
+        },
+        {
+          "id": "E",
+          "text": "Ciência da autoridade julgadora após o relatório; só a condenação interrompe; o prazo retorna por inteiro em cento e oitenta dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Súmula 635 liga o início à ciência da autoridade competente para abrir o procedimento. A interrupção decorre da primeira instauração válida de sindicância punitiva ou processo disciplinar. Depois de cento e quarenta dias, a contagem recomeça integralmente. Investigação preparatória, simples conhecimento de colega e conservação do saldo anterior não reproduzem o enunciado."
+    },
+    {
+      "id": "peru043-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um indiciado, regularmente citado em processo disciplinar federal, não apresentou defesa no prazo legal. Conforme o art. 164 da Lei nº 8.112/1990, a providência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar confessados os fatos e encerrar a instrução com proposta obrigatória de demissão."
+        },
+        {
+          "id": "B",
+          "text": "declarar a revelia, devolver o prazo de defesa e designar servidor como defensor dativo nas condições legais."
+        },
+        {
+          "id": "C",
+          "text": "proferir julgamento sem defesa, pois a Súmula Vinculante 5 dispensa toda representação."
+        },
+        {
+          "id": "D",
+          "text": "arquivar obrigatoriamente, pois a falta de defesa impede qualquer continuidade do processo."
+        },
+        {
+          "id": "E",
+          "text": "substituir a defesa pelo relatório da comissão, desde que este examine as provas de acusação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 164 determina a declaração da revelia e a devolução do prazo. A autoridade instauradora designa servidor como defensor dativo, observados os requisitos legais. A ausência de defesa não equivale a confissão e não elimina essa providência. A Súmula Vinculante 5 trata da falta de advogado, não da supressão da defesa."
+    },
+    {
+      "id": "peru043-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na comparação das regras de reincidência da Lei federal nº 8.112/1990 com as da Lei maranhense nº 6.107/1994, a reincidência em falta punida com advertência aparece como hipótese de",
+      "options": [
+        {
+          "id": "A",
+          "text": "repreensão nas duas leis, seguida de suspensão apenas na terceira ocorrência."
+        },
+        {
+          "id": "B",
+          "text": "suspensão nas duas leis, porque repreensão não integra nenhum dos dois estatutos."
+        },
+        {
+          "id": "C",
+          "text": "demissão federal e suspensão estadual, em qualquer espécie de infração."
+        },
+        {
+          "id": "D",
+          "text": "repreensão federal e suspensão estadual, invertendo a sequência das penas."
+        },
+        {
+          "id": "E",
+          "text": "suspensão na lei federal e repreensão na comparação estadual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 130 federal prevê suspensão para reincidência em falta punida com advertência. O art. 224 estadual prevê repreensão, e o art. 225 relaciona a suspensão à reincidência em falta punida com repreensão. Essa comparação delimitada demonstra que o rol e a sequência do estatuto estadual não podem ser importados para a lei federal."
+    },
+    {
+      "id": "peru043-q08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O processo disciplinar federal ultrapassou seu prazo de conclusão. O acusado pede nulidade exclusivamente por esse atraso, sem demonstrar prejuízo à defesa. Segundo a Súmula 592 do Superior Tribunal de Justiça,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o excesso de prazo, sem demonstração de prejuízo à defesa, não basta para causar nulidade."
+        },
+        {
+          "id": "B",
+          "text": "o atraso torna o processo nulo automaticamente, independentemente de seus efeitos."
+        },
+        {
+          "id": "C",
+          "text": "o prazo de conclusão se confunde com o de prescrição, tornando prescrito qualquer processo atrasado."
+        },
+        {
+          "id": "D",
+          "text": "a abertura do processo impede prescrição durante toda a apuração, independentemente de sua duração."
+        },
+        {
+          "id": "E",
+          "text": "a nulidade independe de prejuízo se o atraso ultrapassar a prorrogação máxima prevista em lei."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Súmula 592 exige demonstração de prejuízo à defesa para nulidade por excesso de prazo de conclusão. Isso não elimina os prazos nem impede prescrição. No estatuto federal, o art. 169, § 1º, também estabelece que julgamento fora do prazo legal não implica nulidade do processo."
+    }
+  ]
+}
