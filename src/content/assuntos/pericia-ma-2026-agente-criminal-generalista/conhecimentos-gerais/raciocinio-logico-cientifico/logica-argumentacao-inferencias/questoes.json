@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "q4899",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em análise lógica, um argumento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer sequência de frases sobre o mesmo tema."
+        },
+        {
+          "id": "B",
+          "text": "uma opinião enfática, ainda que desacompanhada de razões."
+        },
+        {
+          "id": "C",
+          "text": "um relato cronológico sem tese defendida."
+        },
+        {
+          "id": "D",
+          "text": "uma estrutura em que premissas são oferecidas para sustentar uma conclusão."
+        },
+        {
+          "id": "E",
+          "text": "qualquer conjunto de afirmações verdadeiras, mesmo sem relação de apoio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O argumento se caracteriza pela relação de apoio: uma ou mais afirmações funcionam como razões para aceitar outra. Tema comum, ênfase ou verdade isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4902",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A frase “O portal ficou lento porque houve aumento excepcional de acessos” funciona como explicação quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lentidão é a tese ainda contestada, e o aumento de acessos é apresentado como razão para aceitá-la."
+        },
+        {
+          "id": "B",
+          "text": "se pretende concluir que houve aumento de acessos apenas por observar a lentidão."
+        },
+        {
+          "id": "C",
+          "text": "a ocorrência da lentidão é inferida como consequência necessária de uma regra e de uma condição dada."
+        },
+        {
+          "id": "D",
+          "text": "a lentidão é tomada como fato aceito, e se procura indicar por que ocorreu."
+        },
+        {
+          "id": "E",
+          "text": "a frase pretende prever que todos os aumentos de acesso produzirão lentidão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A explicação procura a razão de um fato tomado como aceito, como em D. Em A, a razão é oferecida para aceitar a própria ocorrência do fato; B inverte a direção da explicação; C descreve uma dedução; E anuncia uma generalização. A função depende do contexto, não apenas da presença de “porque”."
+    },
+    {
+      "id": "q4904",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No trecho “O atendimento deve ser ampliado, pois a demanda cresceu e a fila dobrou”, a conclusão defendida é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a demanda cresceu."
+        },
+        {
+          "id": "B",
+          "text": "a fila dobrou."
+        },
+        {
+          "id": "C",
+          "text": "a demanda cresceu e a fila dobrou."
+        },
+        {
+          "id": "D",
+          "text": "o atendimento deve ser ampliado."
+        },
+        {
+          "id": "E",
+          "text": "a ampliação do atendimento fez a demanda crescer."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ampliação do atendimento é a tese defendida, e o crescimento da demanda e da fila são razões oferecidas em seu apoio. A conclusão aparece antes das premissas. E acrescenta uma relação causal que o trecho não afirma. Identificar a tese não demonstra, por si, que ela seja necessária dadas as razões."
+    },
+    {
+      "id": "q4905",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo processo urgente recebe prioridade. O processo P é urgente. Logo, P recebe prioridade.” As duas premissas atuam em conjunto porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a regra geral, isoladamente, já informa que P é urgente."
+        },
+        {
+          "id": "B",
+          "text": "a classificação de P como urgente, isoladamente, já informa que urgência implica prioridade."
+        },
+        {
+          "id": "C",
+          "text": "a segunda premissa é uma conclusão obtida da primeira."
+        },
+        {
+          "id": "D",
+          "text": "é preciso aplicar a regra geral ao caso de P para obter a conclusão."
+        },
+        {
+          "id": "E",
+          "text": "qualquer uma delas garante a conclusão, e a outra apenas repete a mesma informação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regra estabelece a ligação entre urgência e prioridade; a segunda premissa informa que P satisfaz essa condição. É a combinação que permite concluir prioridade para P. A regra não classifica P como urgente, e a classificação de P não fornece, sozinha, a regra de prioridade."
+    },
+    {
+      "id": "q4906",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere duas regras hipotéticas: “Cadastros incompletos exigem correção” e “Cadastros que exigem correção ficam pendentes”. Sabe-se que C está incompleto; conclui-se que C exige correção e, depois, que C fica pendente. A afirmação “C exige correção” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma regra geral que substitui as duas regras fornecidas."
+        },
+        {
+          "id": "B",
+          "text": "a conclusão final, sem papel no segundo passo."
+        },
+        {
+          "id": "C",
+          "text": "uma conclusão intermediária, usada também como premissa no passo seguinte."
+        },
+        {
+          "id": "D",
+          "text": "uma informação independente, sem apoio nas afirmações anteriores."
+        },
+        {
+          "id": "E",
+          "text": "uma explicação da causa real de C estar incompleto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A incompletude de C e a primeira regra sustentam “C exige correção”. Essa afirmação, junto à segunda regra, sustenta “C fica pendente”. Ela é conclusão num passo e premissa no seguinte. O exemplo fornece regras hipotéticas; não afirma uma norma jurídica ou a causa da incompletude."
+    },
+    {
+      "id": "q4907",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "“Rui domina o sistema; logo, Rui deve ministrar o treinamento.” Qual premissa adicional, se aceita nas condições do exemplo, completa a ligação necessária para essa conclusão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quem domina o sistema está apto a explicar seu funcionamento."
+        },
+        {
+          "id": "B",
+          "text": "Quem ministra o treinamento aprende a dominar o sistema."
+        },
+        {
+          "id": "C",
+          "text": "Algumas pessoas que dominam o sistema preferem ministrar treinamentos."
+        },
+        {
+          "id": "D",
+          "text": "Quem domina o sistema deve ministrar esse treinamento, nas condições consideradas."
+        },
+        {
+          "id": "E",
+          "text": "Quem não domina o sistema não deve ministrar o treinamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "D liga exatamente o domínio do sistema ao dever de ministrar o treinamento. A oferece aptidão, que não implica dever; B inverte a direção; C trata de preferência de algumas pessoas; E apenas afasta pessoas sem domínio e não determina quem deve ministrar. Reconstruir essa ponte hipotética não comprova que a regra de atribuição do treinamento realmente exista."
+    },
+    {
+      "id": "q4910",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo planeta é feito de vidro. Marte é um planeta. Logo, Marte é feito de vidro.” Esse argumento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inválido apenas porque a primeira premissa é falsa."
+        },
+        {
+          "id": "B",
+          "text": "sólido porque a conclusão segue das premissas."
+        },
+        {
+          "id": "C",
+          "text": "indutivo porque menciona um caso particular."
+        },
+        {
+          "id": "D",
+          "text": "válido quanto à forma, embora não seja sólido porque contém premissa falsa."
+        },
+        {
+          "id": "E",
+          "text": "inválido porque argumentos válidos só podem conter fatos verdadeiros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Se as premissas fossem verdadeiras, a conclusão não poderia ser falsa, portanto a forma é válida. Como há premissa factualmente falsa, o argumento não é sólido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4911",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Numa situação observada, as premissas e a conclusão de um argumento são verdadeiras. Não foram examinadas outras situações possíveis. Isso",
+      "options": [
+        {
+          "id": "A",
+          "text": "basta para provar validade dedutiva, pois a conclusão coincidiu com os fatos."
+        },
+        {
+          "id": "B",
+          "text": "basta para provar solidez, pois a verdade das premissas torna desnecessário examinar a inferência."
+        },
+        {
+          "id": "C",
+          "text": "não basta para provar validade: pode haver outra situação com as premissas verdadeiras e a conclusão falsa."
+        },
+        {
+          "id": "D",
+          "text": "demonstra invalidade, pois ainda não foi provado que a conclusão é necessária."
+        },
+        {
+          "id": "E",
+          "text": "prova que a conclusão foi obtida por indução, qualquer que seja a relação entre as afirmações."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A situação favorável não basta para demonstrar a garantia exigida pela validade. É preciso afastar todos os casos com premissas verdadeiras e conclusão falsa. A solidez exige validade além da verdade das premissas; a informação dada também não determina o tipo de raciocínio."
+    },
+    {
+      "id": "q4916",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um levantamento sobre atrasos no atendimento incluiu muitos casos de diferentes turnos e perfis de usuários, escolhidos de modo a representar o serviço estudado. Isso tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantir que nenhum atendimento futuro será uma exceção à tendência observada."
+        },
+        {
+          "id": "B",
+          "text": "autorizar a conclusão sobre qualquer serviço, mesmo com funcionamento diferente."
+        },
+        {
+          "id": "C",
+          "text": "tornar a conclusão necessária apenas porque os dados observados são verdadeiros."
+        },
+        {
+          "id": "D",
+          "text": "fortalecer uma generalização indutiva cujo alcance seja compatível com esses dados."
+        },
+        {
+          "id": "E",
+          "text": "dispensar o exame de mudanças nas condições que afetam atendimentos futuros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quantidade, variedade e escolha adequada dos casos podem fortalecer a generalização. Isso não elimina exceções, não transfere automaticamente o resultado a serviços diferentes e não torna irrelevantes mudanças futuras. A conclusão deve manter alcance proporcional aos dados."
+    },
+    {
+      "id": "q4923",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere a regra hipotética: “Se o pedido foi deferido, o interessado foi notificado”. O pedido foi deferido; conclui-se que o interessado foi notificado. A forma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirmação do consequente, inválida."
+        },
+        {
+          "id": "B",
+          "text": "negação do antecedente, inválida."
+        },
+        {
+          "id": "C",
+          "text": "afirmação do antecedente, ou modus ponens, válida."
+        },
+        {
+          "id": "D",
+          "text": "negação do consequente, ou modus tollens, válida."
+        },
+        {
+          "id": "E",
+          "text": "uma indução que exige observar a frequência de notificações."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A condição de deferimento foi afirmada, e a regra permite obter a notificação: de se p então q e de p, segue q. Não se partiu da notificação para obter o deferimento, nem se negou uma das afirmações. A validade da forma supõe as premissas dadas, sem depender de levantamento estatístico."
+    },
+    {
+      "id": "q4924",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere a regra hipotética: “Se o pedido foi deferido, o interessado foi notificado”. O interessado não foi notificado; conclui-se que o pedido não foi deferido. A forma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "negação do antecedente, que não garante a negação do consequente."
+        },
+        {
+          "id": "B",
+          "text": "modus tollens, que nega o consequente para negar o antecedente."
+        },
+        {
+          "id": "C",
+          "text": "afirmação do consequente, que não garante o antecedente."
+        },
+        {
+          "id": "D",
+          "text": "modus ponens, que afirma o antecedente para afirmar o consequente."
+        },
+        {
+          "id": "E",
+          "text": "uma passagem inválida porque inverte a regra, mesmo ao negar as duas afirmações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "De se p então q e de não q, segue não p. Se p fosse verdadeira com q falsa, a premissa condicional seria falsa. A inversão simples não é autorizada, mas a inferência que nega a consequência exigida para negar a condição é válida."
+    },
+    {
+      "id": "q4925",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere como premissa a regra “Se choveu, a rua está molhada”. A rua está molhada; conclui-se que choveu. Essa passagem é inválida porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirma o antecedente, embora fosse necessário negar o consequente."
+        },
+        {
+          "id": "B",
+          "text": "afirma o consequente, que pode ocorrer sem o antecedente, por exemplo por lavagem da rua."
+        },
+        {
+          "id": "C",
+          "text": "nega o antecedente, embora a primeira premissa o afirme."
+        },
+        {
+          "id": "D",
+          "text": "a possibilidade de outra causa torna falsa qualquer condicional que ligue chuva a rua molhada."
+        },
+        {
+          "id": "E",
+          "text": "a segunda premissa nega a consequência exigida pela primeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra só garante rua molhada quando chove; não declara que a chuva seja o único caminho para a rua estar molhada. Rua lavada, sem chuva, mantém as duas premissas verdadeiras e torna a conclusão falsa. Outra causa é compatível com a condicional, não uma refutação automática dela."
+    },
+    {
+      "id": "q4926",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere como premissa a regra “Se o relatório foi enviado por e-mail, chegou hoje”. O relatório não foi enviado por e-mail; conclui-se que não chegou hoje. O argumento incorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "modus tollens válido, pois a segunda premissa nega o consequente."
+        },
+        {
+          "id": "B",
+          "text": "modus ponens válido, pois a segunda premissa afirma o antecedente."
+        },
+        {
+          "id": "C",
+          "text": "negação do antecedente, que não exclui a chegada por outro canal."
+        },
+        {
+          "id": "D",
+          "text": "silogismo disjuntivo válido, pois a primeira premissa enumera todos os canais possíveis."
+        },
+        {
+          "id": "E",
+          "text": "afirmação do consequente, pois a segunda premissa afirma a chegada hoje."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A segunda premissa nega o envio por e-mail, que é o antecedente. A primeira não diz que só e-mails chegam hoje; o relatório pode ter chegado por outro canal. Nesse caso, ambas as premissas são verdadeiras e a conclusão é falsa."
+    },
+    {
+      "id": "q4927",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "“Muitas pessoas acreditam que este cálculo está correto; logo, ele está correto.” Sem informações adicionais, o principal problema é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a opinião majoritária demonstra que o cálculo está incorreto."
+        },
+        {
+          "id": "B",
+          "text": "uma conclusão factual só pode ser sustentada por dedução, nunca por evidências."
+        },
+        {
+          "id": "C",
+          "text": "a quantidade de pessoas que acreditam na correção não comprova a correção do cálculo."
+        },
+        {
+          "id": "D",
+          "text": "uma opinião torna o trecho um relato sem conclusão defendida."
+        },
+        {
+          "id": "E",
+          "text": "qualquer informação sobre quem fez o cálculo é necessariamente irrelevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O argumento usa popularidade como prova de correção. Muitas pessoas acreditarem no resultado não substitui razões sobre o próprio cálculo. A popularidade também não prova incorreção. Competência pertinente e evidências poderiam fornecer apoio adicional; não é toda informação sobre as pessoas que deve ser descartada."
+    },
+    {
+      "id": "q4949",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo documento protocolado tem número. D tem número. Logo, D foi protocolado.” Qual cenário refuta a validade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D foi protocolado e tem número."
+        },
+        {
+          "id": "B",
+          "text": "D não tem número e não foi protocolado."
+        },
+        {
+          "id": "C",
+          "text": "D recebeu número interno antes do protocolo e ainda não foi protocolado."
+        },
+        {
+          "id": "D",
+          "text": "D foi protocolado, mas não recebeu número."
+        },
+        {
+          "id": "E",
+          "text": "D foi protocolado depois de receber o número."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nesse cenário, a regra e a afirmação de que D tem número podem ser verdadeiras, mas a conclusão é falsa. Isso fornece o contraexemplo exigido para mostrar invalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4952",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sem dados adicionais, a informação “a origem elétrica da falha é uma hipótese possível” permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a hipótese elétrica deve ser preferida às demais explicações compatíveis."
+        },
+        {
+          "id": "B",
+          "text": "a origem elétrica foi demonstrada, embora ainda falte identificar seu mecanismo."
+        },
+        {
+          "id": "C",
+          "text": "a hipótese não foi excluída, mas isso não basta para classificá-la como provável."
+        },
+        {
+          "id": "D",
+          "text": "comparar explicações alternativas é desnecessário, pois possibilidade já fornece apoio suficiente."
+        },
+        {
+          "id": "E",
+          "text": "as outras explicações são incompatíveis com a falha observada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Possibilidade indica que a hipótese não foi excluída. Sem evidências comparativas, ela não ganha preferência sobre as alternativas, não se torna provável e não é demonstrada. Investigar o mecanismo e confrontar outras explicações pode ser necessário."
+    },
+    {
+      "id": "q4956",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No argumento “A medida reduziu custos na unidade A; como a unidade B usa o mesmo processo, também reduzirá custos”, qual informação mais diretamente enfraquece a analogia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A unidade B possui restrição que impede justamente a mudança responsável pela redução em A."
+        },
+        {
+          "id": "B",
+          "text": "As duas unidades registram seus custos na mesma moeda."
+        },
+        {
+          "id": "C",
+          "text": "A unidade A mediu os custos antes e depois da mudança."
+        },
+        {
+          "id": "D",
+          "text": "A conclusão foi apresentada como previsão."
+        },
+        {
+          "id": "E",
+          "text": "As duas unidades pertencem à mesma organização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A restrição impede no alvo o mecanismo que produziu o resultado na fonte, constituindo diferença decisiva. Semelhanças periféricas não compensam essa ruptura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4957",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Tome como premissas “Se o cadastro estiver completo, o sistema emitirá comprovante” e “O cadastro está completo”. No mundo real, uma pane poderia impedir a emissão. Esse possível problema operacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "refuta a validade da inferência que afirma a condição para obter a consequência."
+        },
+        {
+          "id": "B",
+          "text": "questiona a verdade irrestrita da premissa condicional, mas não a validade da forma que parte dela e da condição."
+        },
+        {
+          "id": "C",
+          "text": "mostra que a condicional garante tanto a ida quanto a volta, mesmo sem isso ter sido afirmado."
+        },
+        {
+          "id": "D",
+          "text": "obriga a concluir que o cadastro está incompleto, antes de avaliar a regra fornecida."
+        },
+        {
+          "id": "E",
+          "text": "mostra que basta a condição ser verdadeira para a condicional ser verdadeira, qualquer que seja a consequência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A partir da condicional e da condição, a conclusão segue validamente. Se a pane permite condição verdadeira e consequência falsa, a descrição irrestrita do funcionamento do sistema contém uma exceção: a dificuldade está na verdade da premissa condicional. Isso não cria uma exceção à regra formal de inferência nem autoriza concluir fatos não dados."
+    },
+    {
+      "id": "q52203704",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Considere: “A maioria dos servidores com bom desempenho deve receber bônus. Lia teve bom desempenho. Logo, Lia deve receber bônus.” Julgue: o argumento é dedutivamente válido.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Certo."
+        },
+        {
+          "id": "B",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação do item 26 do caderno de conhecimentos gerais de código `034_TRF6_CG1_01` do Tribunal Regional Federal da 6.ª Região, aplicado em 19/01/2025, com resposta oficial Errado. A maioria não inclui necessariamente Lia: ela pode pertencer ao grupo de bons servidores não contemplados. Esse caso preserva as premissas e torna a conclusão falsa. A justificativa é análise editorial da inferência, não transcrição de justificativa oficial."
+    },
+    {
+      "id": "q52203705",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Uma pessoa não encontra um livro no lugar habitual e propõe, para explicar a ausência, que alguém o retirou. Julgue: a hipótese foi obtida por uma generalização indutiva.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Certo."
+        },
+        {
+          "id": "B",
+          "text": "Errado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação do item 26 do caderno de conhecimentos gerais de código `034_TRF6_CG3_01` do Tribunal Regional Federal da 6.ª Região, aplicado em 19/01/2025, com resposta oficial Errado. No exemplo, propõe-se uma explicação para um fato, em vez de generalizar uma regularidade observada. A leitura como abdução é análise editorial; o gabarito oficial rejeita a classificação como indução, sem fornecer essa justificativa positiva. Outras explicações, como a própria pessoa ter mudado o livro de lugar, permanecem possíveis."
+    },
+    {
+      "id": "q52203715",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Um pensamento compara a prática sem ciência à navegação sem instrumentos de orientação. A argumentação se apoia principalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoridade, porque depende da reputação de quem enunciou o pensamento."
+        },
+        {
+          "id": "B",
+          "text": "generalização indutiva, porque passa da frequência observada a uma previsão."
+        },
+        {
+          "id": "C",
+          "text": "dedução, porque as premissas excluem todo caso de conclusão falsa."
+        },
+        {
+          "id": "D",
+          "text": "explicação cronológica, porque enumera os eventos de uma viagem."
+        },
+        {
+          "id": "E",
+          "text": "analogia, porque aproxima duas situações por uma semelhança relevante."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Adaptação da questão 5 do caderno Tipo 2 de Aluno Oficial da Polícia Militar do Amazonas, concurso de 2021, prova aplicada em 06/02/2022 pela Fundação Getulio Vargas. O gabarito definitivo retificado indica E. A comparação aproxima a falta de conhecimento orientador na prática e a falta de instrumentos orientadores na navegação. A semelhança é usada como apoio argumentativo; não se apresenta levantamento de frequência, cronologia ou uma dedução necessária."
+    },
+    {
+      "id": "peru023-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere as premissas $p \\to q$ e q, com conclusão p. Qual atribuição de valores é um contraexemplo à validade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "p verdadeira e q verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "p verdadeira e q falsa."
+        },
+        {
+          "id": "C",
+          "text": "p falsa e q verdadeira."
+        },
+        {
+          "id": "D",
+          "text": "p falsa e q falsa."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer atribuição em que a condicional seja falsa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com p falsa e q verdadeira, a condicional é verdadeira, q é verdadeira e a conclusão p é falsa. É o caso que refuta a validade. Em A, a conclusão é verdadeira; B e D não mantêm ambas as premissas verdadeiras. Tornar uma premissa falsa não fornece o contraexemplo exigido."
+    },
+    {
+      "id": "peru023-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fixe p: “A coleta foi encerrada”, q: “A ficha foi enviada” e r: “O protocolo foi emitido”. São verdadeiras $p \\to q$, $q \\to r$ e $\\neg r$. Qual conclusão é necessária?",
+      "options": [
+        {
+          "id": "A",
+          "text": "p e q são verdadeiras."
+        },
+        {
+          "id": "B",
+          "text": "p é falsa e q é verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "p e q são falsas."
+        },
+        {
+          "id": "D",
+          "text": "r é verdadeira e p é falsa."
+        },
+        {
+          "id": "E",
+          "text": "p e q têm valores diferentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Se q fosse verdadeira com r falsa, q → r seria falsa; portanto, q é falsa. Se p fosse verdadeira com q falsa, p → q seria falsa; portanto, p também é falsa. Aplicaram-se duas vezes a inferência que nega a consequência exigida para negar a condição. A conclusão é a conjunção das duas negações."
+    },
+    {
+      "id": "peru023-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pelo menos um dos agentes Ana e Bruno foi designado para a tarefa; ambos podem ter sido designados. Sabe-se que Ana não foi designada. Pode-se concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bruno foi designado."
+        },
+        {
+          "id": "B",
+          "text": "Bruno não foi designado."
+        },
+        {
+          "id": "C",
+          "text": "Ana e Bruno foram designados."
+        },
+        {
+          "id": "D",
+          "text": "a designação de Bruno só seria garantida se a primeira afirmação excluísse a designação de ambos."
+        },
+        {
+          "id": "E",
+          "text": "a designação de Bruno é apenas possível, pois a primeira afirmação permite que nenhum deles tenha sido designado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A primeira premissa exige pelo menos uma designação. Excluída Ana, Bruno precisa ter sido designado. A inferência funciona com disjunção inclusiva: não é necessário excluir previamente a designação de ambos. A possibilidade de nenhuma designação contradiz a primeira premissa."
+    },
+    {
+      "id": "peru023-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sabe-se apenas que p é verdadeira; q pode ser verdadeira ou falsa. Qual fórmula precisa ser verdadeira?",
+      "options": [
+        {
+          "id": "A",
+          "text": "$p \\land q$"
+        },
+        {
+          "id": "B",
+          "text": "$\\neg q$"
+        },
+        {
+          "id": "C",
+          "text": "$p \\lor q$"
+        },
+        {
+          "id": "D",
+          "text": "$p \\to q$"
+        },
+        {
+          "id": "E",
+          "text": "$q \\to \\neg p$"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O “ou” inclusivo é verdadeiro quando pelo menos uma alternativa é verdadeira; p já satisfaz essa exigência. Isso não afirma q. A conjunção e p → q podem ser falsas se q for falsa; não q pode ser falsa se q for verdadeira; q → não p é falsa com q verdadeira, pois p foi dada como verdadeira."
+    },
+    {
+      "id": "peru023-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As premissas de um argumento são $p \\to q$ e p; a conclusão é q. Qual fórmula reúne exatamente essas premissas como antecedente e a conclusão como consequente, permitindo o teste de validade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "$((p \\to q) \\lor p) \\to q$"
+        },
+        {
+          "id": "B",
+          "text": "$((p \\to q) \\land p) \\to q$"
+        },
+        {
+          "id": "C",
+          "text": "$q \\to ((p \\to q) \\land p)$"
+        },
+        {
+          "id": "D",
+          "text": "$(p \\land q) \\to p$"
+        },
+        {
+          "id": "E",
+          "text": "$(p \\to q) \\land p \\land q$"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As duas premissas devem ser reunidas com “e”, e o conjunto deve anteceder a conclusão q. A fórmula de B é verdadeira em todas as combinações: sempre que a condicional e p forem verdadeiras, q será verdadeira. A troca por “ou”, a inversão da direção, a substituição das premissas ou a ausência da condicional externa não representam o argumento dado."
+    },
+    {
+      "id": "peru023-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade trocou o formulário numa semana em que também aumentou a equipe e caiu a demanda. A fila diminuiu depois disso. O gestor concluiu que a troca do formulário causou a redução. Qual avaliação é mais adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ordem temporal, por si, demonstra que a troca foi a causa."
+        },
+        {
+          "id": "B",
+          "text": "a existência de outros fatores prova que o formulário não teve qualquer influência."
+        },
+        {
+          "id": "C",
+          "text": "a conclusão decorre necessariamente de uma regra condicional que o enunciado já forneceu."
+        },
+        {
+          "id": "D",
+          "text": "a redução é compatível com a hipótese do gestor, mas os dados não isolam o efeito do formulário diante das mudanças de equipe e demanda."
+        },
+        {
+          "id": "E",
+          "text": "uma explicação alternativa só seria relevante se a redução tivesse ocorrido antes da troca."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A sequência temporal é compatível com influência do formulário, mas não demonstra essa influência. Equipe e demanda também mudaram e podem afetar a fila. Isso impede atribuir a redução necessariamente ao formulário com os dados apresentados, sem provar que ele não teve efeito algum. Confundir “depois de” com prova de “por causa de” é o defeito examinado."
+    },
+    {
+      "id": "peru023-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare: I — Ana vem antes de Bruno e Bruno vem antes de Caio; logo, Ana vem antes de Caio. II — Ana conhece Bruno e Bruno conhece Caio; logo, Ana conhece Caio. Sem outras regras, qual avaliação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambas as conclusões são garantidas, porque ambas apresentam três pessoas numa cadeia."
+        },
+        {
+          "id": "B",
+          "text": "A conclusão I é garantida pela relação de ordem; a II não é garantida, pois conhecer alguém não transmite automaticamente o conhecimento de seus conhecidos."
+        },
+        {
+          "id": "C",
+          "text": "Somente a conclusão II é garantida; a I exigiria que as pessoas fossem consecutivas."
+        },
+        {
+          "id": "D",
+          "text": "Nenhuma conclusão é garantida, pois qualquer inferência exige uma afirmação explícita com “se”."
+        },
+        {
+          "id": "E",
+          "text": "Ambas são garantidas apenas por suas premissas serem verdadeiras, independentemente das propriedades das relações usadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Antes de” conserva a relação ao encadear os dois passos, sem exigir posições consecutivas. Já Ana pode conhecer Bruno, e Bruno conhecer Caio, sem Ana conhecer Caio. Esse cenário mantém as premissas de II e torna sua conclusão falsa. A forma superficial de cadeia não substitui uma propriedade da relação."
+    }
+  ]
+}
