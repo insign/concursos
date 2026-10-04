@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u027-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um cenário hipotético, uma equipe solicita capacidade de processamento em um portal, e o sistema atende o pedido sem que um funcionário do provedor intervenha em cada solicitação. Qual característica é especificamente evidenciada pela dispensa desse atendimento humano?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autosserviço sob demanda."
+        },
+        {
+          "id": "B",
+          "text": "Elasticidade rápida."
+        },
+        {
+          "id": "C",
+          "text": "Agrupamento de recursos."
+        },
+        {
+          "id": "D",
+          "text": "Serviço mensurado."
+        },
+        {
+          "id": "E",
+          "text": "Amplo acesso pela rede."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O pedido é atendido pelo próprio sistema: isso caracteriza autosserviço sob demanda. Elasticidade trata do ajuste de capacidade; agrupamento, da reunião e distribuição de recursos; mensuração, do consumo; amplo acesso, dos mecanismos de rede. Essas características podem coexistir, mas o detalhe destacado é a ausência de intervenção humana a cada pedido."
+    },
+    {
+      "id": "u027-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um órgão usa uma aplicação de inscrições pronta pela rede. Pode cadastrar usuários e ajustar funções permitidas, mas não instala nem administra o sistema operacional do servidor. Qual classificação de serviço corresponde a essa entrega?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IaaS, porque qualquer aplicação acessada pela rede entrega ao consumidor o servidor para administrar."
+        },
+        {
+          "id": "B",
+          "text": "SaaS, porque a capacidade entregue é a própria aplicação operada pelo provedor."
+        },
+        {
+          "id": "C",
+          "text": "PaaS, porque a configuração de usuários equivale a publicar uma aplicação própria."
+        },
+        {
+          "id": "D",
+          "text": "IaaS, porque o consumidor continua responsável pelas contas que utiliza."
+        },
+        {
+          "id": "E",
+          "text": "PaaS, porque o provedor mantém os equipamentos físicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em software como serviço, o consumidor usa a aplicação do provedor e as configurações permitidas. Cadastrar usuários não equivale a desenvolver e publicar a própria aplicação, como em plataforma como serviço. Responsabilidade pelas contas e existência de equipamentos mantidos pelo provedor não identificam, isoladamente, infraestrutura como serviço."
+    },
+    {
+      "id": "u027-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma equipe desenvolve uma aplicação e a publica no ambiente de execução fornecido por um provedor de nuvem. A equipe controla o código publicado; o provedor mantém o sistema operacional subjacente. Qual associação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IaaS — publicar código significa assumir a administração do sistema operacional subjacente."
+        },
+        {
+          "id": "B",
+          "text": "SaaS — o desenvolvimento pelo consumidor não altera o fato de que toda aplicação remota é SaaS."
+        },
+        {
+          "id": "C",
+          "text": "PaaS — o consumidor controla sua aplicação sem administrar o sistema operacional subjacente."
+        },
+        {
+          "id": "D",
+          "text": "PaaS — o consumidor precisa administrar os equipamentos físicos que executam seu código."
+        },
+        {
+          "id": "E",
+          "text": "IaaS — manter o sistema operacional no provedor é a característica que distingue esse modelo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em plataforma como serviço, o consumidor publica e administra suas aplicações sobre a plataforma fornecida. A administração do sistema operacional subjacente continua com o provedor. Em infraestrutura como serviço, o consumidor tem controle sobre o sistema operacional que instala; em software como serviço, usa a aplicação fornecida, em vez de publicar a própria como descrito."
+    },
+    {
+      "id": "u027-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um serviço hipotético, a sincronização mantém iguais os estados de uma pasta local e de sua correspondente remota, inclusive reproduzindo exclusões. Não há histórico de versões nem outra cópia. Um arquivo é apagado localmente, e a exclusão alcança a pasta remota. Qual conclusão é sustentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As duas localizações asseguram uma cópia de segurança recuperável, mesmo depois da exclusão em ambas."
+        },
+        {
+          "id": "B",
+          "text": "A sincronização propagou a exclusão; manter duas localizações dessa forma não assegurou uma cópia recuperável."
+        },
+        {
+          "id": "C",
+          "text": "A exclusão remota demonstra que o armazenamento deixou de ser um recurso de nuvem."
+        },
+        {
+          "id": "D",
+          "text": "A presença anterior do arquivo remoto assegura restauração por histórico, mesmo sem esse recurso no serviço."
+        },
+        {
+          "id": "E",
+          "text": "A pasta remota mantém o conteúdo excluído porque sincronização se limita a copiar inclusões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O enunciado informa que exclusões também são reproduzidas e que não há histórico ou outra cópia. A sincronização funcionou como descrito, mas os dois estados perderam o arquivo. Uma estratégia de cópia de segurança precisa preservar conteúdo recuperável; a localização remota, sozinha, não cumpre essa condição."
+    },
+    {
+      "id": "u027-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um arquivo na nuvem está restrito a uma lista de contas autorizadas. Uma pessoa recebe o link, mas entra no serviço com uma conta válida que não está nessa lista. Qual condição falta para que ela acesse o arquivo nesse compartilhamento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autenticar qualquer conta válida, pois a existência de conta substitui a lista de acesso."
+        },
+        {
+          "id": "B",
+          "text": "Abrir o mesmo link no dispositivo do proprietário, pois o equipamento determina a autorização."
+        },
+        {
+          "id": "C",
+          "text": "Obter autorização para a identidade com a qual pretende acessar o arquivo."
+        },
+        {
+          "id": "D",
+          "text": "Pertencer à mesma organização, pois isso inclui a conta automaticamente em toda lista restrita."
+        },
+        {
+          "id": "E",
+          "text": "Receber o link diretamente do proprietário, pois a origem da mensagem concede a permissão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Autenticação identifica a conta; autorização determina quais recursos ela pode acessar. Como o compartilhamento é restrito a contas específicas, uma conta válida fora da lista não basta. Nem o dispositivo, a organização ou a procedência da mensagem substituem a autorização exigida nesse cenário."
+    },
+    {
+      "id": "u027-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um serviço hipotético mantém histórico de versões apenas pelo prazo definido em sua política de retenção. Não há outra cópia. Qual avaliação da recuperação de um estado antigo do arquivo é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O fato de o arquivo estar na nuvem permite recuperar qualquer estado, mesmo após sua remoção do histórico."
+        },
+        {
+          "id": "B",
+          "text": "A recuperação pelo histórico depende de esse estado ainda estar preservado segundo a política do serviço."
+        },
+        {
+          "id": "C",
+          "text": "A política de retenção se aplica somente ao espaço local e não afeta versões armazenadas remotamente."
+        },
+        {
+          "id": "D",
+          "text": "A sincronização do estado atual recria as versões antigas que já foram removidas do histórico."
+        },
+        {
+          "id": "E",
+          "text": "O acesso autorizado ao arquivo atual permite recuperar versões descartadas, independentemente da retenção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O histórico só permite restaurar o conteúdo que ainda preserva. A retenção condiciona essa preservação; autenticação, localização remota e sincronização do estado atual não recriam estados removidos. Como o cenário não oferece outra cópia, não há base para garantir recuperação além do que o histórico conserva."
+    },
+    {
+      "id": "u027-a13",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa precisa editar um documento da nuvem durante uma interrupção prevista da conexão. O serviço e a aplicação admitem trabalho desconectado, mas o documento ainda existe apenas remotamente. Qual preparação atende à necessidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disponibilizar o conteúdo localmente antes da interrupção e usar a aplicação compatível com edição desconectada."
+        },
+        {
+          "id": "B",
+          "text": "Guardar somente o link e a senha, pois eles substituem o conteúdo enquanto a rede estiver indisponível."
+        },
+        {
+          "id": "C",
+          "text": "Marcar a conta como autorizada para edição, sem trazer o conteúdo ao dispositivo antes da interrupção."
+        },
+        {
+          "id": "D",
+          "text": "Manter uma sessão do navegador aberta, mesmo sem o conteúdo necessário disponível localmente."
+        },
+        {
+          "id": "E",
+          "text": "Aumentar a capacidade de processamento remota, para que o documento chegue ao dispositivo durante a interrupção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É necessário preparar o conteúdo local e contar com uma aplicação que permita a operação desconectada, conforme as condições do cenário. Credenciais, permissões e uma referência ao documento não transportam seu conteúdo sem rede. Ao reconectar, alterações devem ser reconciliadas conforme o serviço."
+    },
+    {
+      "id": "u027-a14",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um serviço hipotético, os papéis disponíveis são leitor, editor e administrador. Uma pessoa precisa apenas consultar documentos já concluídos. Pelo princípio do menor privilégio, qual concessão corresponde à tarefa descrita?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrador, para evitar solicitações futuras de permissão."
+        },
+        {
+          "id": "B",
+          "text": "Leitor, pois a tarefa exige consulta sem alterações ou administração."
+        },
+        {
+          "id": "C",
+          "text": "Editor, porque toda consulta exige capacidade de modificar o documento."
+        },
+        {
+          "id": "D",
+          "text": "Administrador temporário, pois o prazo reduz a necessidade de limitar capacidades."
+        },
+        {
+          "id": "E",
+          "text": "Editor permanente, porque a existência de histórico substitui a restrição de acesso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Deve-se conceder somente a capacidade necessária à tarefa. Leitura atende à consulta descrita; edição e administração acrescentam poderes sem necessidade. Prazo limitado e histórico não tornam esse excesso indispensável nem substituem a restrição de capacidades."
+    },
+    {
+      "id": "u027-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um serviço de nuvem registra uso de processamento e armazenamento, permite acompanhar o consumo e o controla para otimizar os recursos. O contrato cobra um valor fixo. Qual análise é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O serviço pode ser mensurado mesmo sem cobrança por unidade de uso."
+        },
+        {
+          "id": "B",
+          "text": "A cobrança fixa impede que o serviço tenha a característica de mensuração."
+        },
+        {
+          "id": "C",
+          "text": "O registro de consumo demonstra elasticidade, mesmo sem informação sobre ajuste de capacidade."
+        },
+        {
+          "id": "D",
+          "text": "O registro de consumo demonstra que a infraestrutura é privada, mesmo sem informação sobre seus usuários."
+        },
+        {
+          "id": "E",
+          "text": "A otimização do consumo transfere ao consumidor a administração dos equipamentos físicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Serviço mensurado envolve medir, monitorar e controlar o uso. A cobrança por consumo é uma aplicação possível dessa medição, não uma condição obrigatória da definição. O registro não informa, por si só, elasticidade, modelo de implantação ou controle sobre equipamentos físicos."
+    },
+    {
+      "id": "u027-p02",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "No OneDrive, qual descrição corresponde ao compartilhamento de um arquivo ou pasta com outros usuários e ao acesso por dispositivos diferentes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As permissões concedidas ao destinatário valem apenas no dispositivo em que o proprietário iniciou o compartilhamento."
+        },
+        {
+          "id": "B",
+          "text": "O destinatário precisa tornar-se proprietário do item para acessá-lo a partir de outro dispositivo."
+        },
+        {
+          "id": "C",
+          "text": "O serviço permite compartilhar o conteúdo e acessá-lo em dispositivos distintos, observadas as condições de acesso."
+        },
+        {
+          "id": "D",
+          "text": "O compartilhamento funciona somente após o proprietário enviar uma cópia local separada a cada dispositivo do destinatário."
+        },
+        {
+          "id": "E",
+          "text": "A permissão para acessar em outro dispositivo exige conceder também administração das contas do serviço."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação não literal do item 42 da prova de 2023 para Especialista do Fundo Nacional de Desenvolvimento da Educação, aplicada pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos: o julgamento oficial é certo. O conteúdo compartilhado pode ser acessado por outros usuários em dispositivos diversos; isso não exige transferir propriedade ou conceder administração de contas. A alternativa C local expressa essa capacidade, sem copiar a forma de julgamento do original. Caderno e gabarito definitivo conferidos em referencias.md."
+    },
+    {
+      "id": "per-u034-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um cenário hipotético, uma aplicação de inscrições recebe mais capacidade durante o pico e devolve o excedente ao fim do período. Qual característica descreve especificamente esse ajuste da capacidade conforme a demanda?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elasticidade rápida."
+        },
+        {
+          "id": "B",
+          "text": "Serviço mensurado."
+        },
+        {
+          "id": "C",
+          "text": "Autosserviço sob demanda."
+        },
+        {
+          "id": "D",
+          "text": "Amplo acesso pela rede."
+        },
+        {
+          "id": "E",
+          "text": "Agrupamento de recursos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A capacidade aumenta e diminui para acompanhar a demanda: esse é o contraste central da elasticidade rápida. Mensuração verifica o uso; autosserviço dispensa atendimento humano a cada pedido; amplo acesso trata dos mecanismos de rede; agrupamento reúne recursos para atender consumidores. O ajuste de capacidade descrito evidencia elasticidade."
+    },
+    {
+      "id": "per-u034-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um provedor reúne recursos físicos e os redistribui dinamicamente entre consumidores. Os dados e as permissões de cada consumidor devem permanecer separados. Qual interpretação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O agrupamento de recursos pressupõe que todos os consumidores possam abrir os dados uns dos outros."
+        },
+        {
+          "id": "B",
+          "text": "A redistribuição exige que cada consumidor escolha o servidor físico de todas as solicitações."
+        },
+        {
+          "id": "C",
+          "text": "Compartilhar a capacidade de infraestrutura é compatível com separar o acesso aos dados de cada consumidor."
+        },
+        {
+          "id": "D",
+          "text": "A separação dos dados transforma necessariamente a oferta em uma nuvem privada exclusiva de uma organização."
+        },
+        {
+          "id": "E",
+          "text": "A redistribuição de capacidade significa que o consumidor administra os equipamentos físicos do provedor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Agrupamento de recursos trata da capacidade reunida para atender consumidores e redistribuída conforme a demanda. A separação de acessos é necessária para que essa infraestrutura compartilhada não resulte em acesso indevido a dados alheios. Compartilhamento físico, exclusividade da implantação e controle administrativo são critérios diferentes."
+    },
+    {
+      "id": "per-u034-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma infraestrutura de nuvem é destinada exclusivamente a um órgão e suas unidades internas. Um terceiro a opera em instalações externas. Pelo critério de implantação, qual classificação é sustentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pública, porque qualquer operação por terceiro torna a oferta aberta ao público."
+        },
+        {
+          "id": "B",
+          "text": "Comunitária, porque unidades da mesma organização formam necessariamente uma comunidade de organizações."
+        },
+        {
+          "id": "C",
+          "text": "Híbrida, porque a localização externa já comprova integração de duas nuvens distintas."
+        },
+        {
+          "id": "D",
+          "text": "Privada, porque a destinação é exclusiva de uma organização, independentemente do operador e da localização descritos."
+        },
+        {
+          "id": "E",
+          "text": "Pública, porque a localização fora do órgão torna públicos os arquivos nele armazenados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Nuvem privada é destinada exclusivamente a uma organização, inclusive suas unidades. A definição admite operação por terceiro e localização externa. Esses detalhes não demonstram abertura ao público, comunidade de organizações nem integração entre duas infraestruturas de nuvem."
+    },
+    {
+      "id": "per-u034-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Três organizações estruturam uma nuvem para uso exclusivo de sua comunidade, com missão e requisitos de segurança compartilhados. Qual aspecto justifica classificá-la como comunitária?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O fato de contratar um fornecedor, mesmo que ele ofereça a mesma infraestrutura indistintamente ao público."
+        },
+        {
+          "id": "B",
+          "text": "A destinação exclusiva à comunidade de organizações com preocupações compartilhadas."
+        },
+        {
+          "id": "C",
+          "text": "O uso de aplicações prontas, independentemente de quem possa utilizar a infraestrutura."
+        },
+        {
+          "id": "D",
+          "text": "A existência de três unidades internas de uma única organização, independentemente da destinação descrita."
+        },
+        {
+          "id": "E",
+          "text": "A mera localização dos equipamentos fora das instalações de uma das organizações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição de nuvem comunitária combina uma comunidade de organizações com preocupações comuns e infraestrutura destinada exclusivamente a ela. Modelo de serviço, fornecedor e localização não substituem esse critério. Unidades internas de uma só organização cabem na definição de privada, sem comprovar uma comunidade de organizações."
+    },
+    {
+      "id": "per-u034-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma oferta de nuvem está disponível ao público em geral. Um órgão a contrata e restringe seus documentos a contas autorizadas. Qual conclusão é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A restrição dos documentos altera a implantação para privada, mesmo com a oferta aberta ao público."
+        },
+        {
+          "id": "B",
+          "text": "A classificação pública dispensa autenticação para todos os arquivos nela armazenados."
+        },
+        {
+          "id": "C",
+          "text": "A classificação pública refere-se à destinação da oferta, sendo compatível com documentos de acesso restrito."
+        },
+        {
+          "id": "D",
+          "text": "A contratação pelo órgão torna a infraestrutura comunitária, mesmo sem comunidade com preocupações compartilhadas."
+        },
+        {
+          "id": "E",
+          "text": "A coexistência de contas autorizadas e não autorizadas caracteriza integração de nuvens híbridas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pública descreve a oferta de infraestrutura para uso do público em geral. Autorização para acessar documentos é outra decisão: os arquivos podem permanecer restritos. Uma contratação ou uma lista de contas não demonstra exclusividade da infraestrutura, comunidade de organizações ou integração entre nuvens."
+    },
+    {
+      "id": "per-u034-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual cenário hipotético apresenta a condição que caracteriza uma nuvem híbrida na definição de referência?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um computador local abre, pelo navegador, uma aplicação de uma única nuvem pública."
+        },
+        {
+          "id": "B",
+          "text": "Um órgão usa dois serviços de nuvem sem conexão que permita a portabilidade de dados ou aplicações entre eles."
+        },
+        {
+          "id": "C",
+          "text": "Um provedor muda a localização de servidores dentro de uma única infraestrutura sem criar composição de nuvens distintas."
+        },
+        {
+          "id": "D",
+          "text": "Uma aplicação tem dois tipos de usuário, leitores e editores, em uma única nuvem pública."
+        },
+        {
+          "id": "E",
+          "text": "Uma nuvem privada e uma pública mantêm suas identidades e são integradas por tecnologia que permite a portabilidade de dados e aplicações."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Nuvem híbrida combina infraestruturas de nuvem distintas, que permanecem identificáveis e são conectadas para permitir portabilidade de dados e aplicações. Cliente local, dois fornecedores sem essa integração, mudança de servidor na mesma infraestrutura e papéis de acesso não satisfazem, por si sós, essa condição."
+    },
+    {
+      "id": "per-u034-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão contrata IaaS e instala um sistema operacional e aplicações em máquinas virtuais. Ao planejar a manutenção, qual distribuição de tarefas corresponde ao controle típico nesse modelo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O provedor mantém equipamentos físicos, sistema operacional e aplicações do consumidor; o consumidor limita-se a configurar funções disponíveis."
+        },
+        {
+          "id": "B",
+          "text": "O provedor mantém equipamentos físicos e sistema operacional; o consumidor apenas publica e mantém seu código no ambiente fornecido."
+        },
+        {
+          "id": "C",
+          "text": "O consumidor mantém seu sistema operacional e suas aplicações, enquanto a infraestrutura física permanece sob responsabilidade do provedor."
+        },
+        {
+          "id": "D",
+          "text": "O consumidor administra também os equipamentos físicos do provedor, porque o controle do sistema operacional abrange toda a infraestrutura."
+        },
+        {
+          "id": "E",
+          "text": "O consumidor mantém o sistema operacional, mas o provedor deve administrar todas as aplicações que ele instala, independentemente do contrato."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em infraestrutura como serviço, o consumidor controla o sistema operacional e as aplicações que instala, sem administrar a infraestrutura física subjacente. Controle do ambiente virtual não equivale a controle dos equipamentos físicos. A aplicação pronta caracteriza software como serviço; a plataforma para publicar aplicações sem administrar o sistema operacional subjacente caracteriza plataforma como serviço."
+    }
+  ]
+}
