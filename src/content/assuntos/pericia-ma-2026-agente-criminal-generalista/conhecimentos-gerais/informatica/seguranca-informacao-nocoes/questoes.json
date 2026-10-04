@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "u028-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa sem autorização consegue ler um relatório restrito, sem alterar o arquivo. Qual propriedade foi diretamente violada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disponibilidade."
+        },
+        {
+          "id": "B",
+          "text": "Confidencialidade."
+        },
+        {
+          "id": "C",
+          "text": "Integridade."
+        },
+        {
+          "id": "D",
+          "text": "Redundância."
+        },
+        {
+          "id": "E",
+          "text": "Autenticidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Confidencialidade restringe o conhecimento da informação a quem tem autorização. A leitura indevida já viola essa propriedade, mesmo sem alteração do conteúdo."
+    },
+    {
+      "id": "u028-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um registro correto é modificado sem autorização, mas o sistema continua acessível. O efeito mais direto é sobre",
+      "options": [
+        {
+          "id": "A",
+          "text": "a integridade."
+        },
+        {
+          "id": "B",
+          "text": "a disponibilidade."
+        },
+        {
+          "id": "C",
+          "text": "a confidencialidade."
+        },
+        {
+          "id": "D",
+          "text": "a autenticação."
+        },
+        {
+          "id": "E",
+          "text": "a redundância."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alteração não autorizada compromete diretamente a integridade. O sistema continuar acessível não elimina esse efeito; acesso e preservação do conteúdo são perguntas diferentes."
+    },
+    {
+      "id": "u028-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um serviço fica inacessível durante o período em que usuários autorizados precisam utilizá-lo. A propriedade mais diretamente afetada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "confidencialidade."
+        },
+        {
+          "id": "B",
+          "text": "autenticidade."
+        },
+        {
+          "id": "C",
+          "text": "integridade."
+        },
+        {
+          "id": "D",
+          "text": "disponibilidade."
+        },
+        {
+          "id": "E",
+          "text": "menor privilégio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O serviço não está acessível quando seus usuários autorizados precisam dele, comprometendo a disponibilidade. O cenário não descreve exposição nem alteração do conteúdo."
+    },
+    {
+      "id": "u028-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um controle compara os dados armazenados com a versão registrada inicialmente. Qual situação mostra por que essa verificação de ausência de mudanças não basta para comprovar a verdade factual do conteúdo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um valor foi digitado incorretamente na versão inicial e permanece igual."
+        },
+        {
+          "id": "B",
+          "text": "O valor foi alterado por um invasor após a versão inicial."
+        },
+        {
+          "id": "C",
+          "text": "O arquivo foi corrompido durante a transmissão após o registro."
+        },
+        {
+          "id": "D",
+          "text": "Um registro existente na versão inicial foi apagado sem autorização."
+        },
+        {
+          "id": "E",
+          "text": "O documento registrado foi substituído por uma versão adulterada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A comparação pode constatar que o valor permaneceu igual à referência, mesmo que ele já estivesse errado na entrada. As outras opções descrevem mudanças posteriores. Esse controle de preservação dos dados não substitui a validação da coleta ou do conteúdo."
+    },
+    {
+      "id": "u028-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Autenticação e autorização distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "autenticação concede permissões e autorização verifica identidade."
+        },
+        {
+          "id": "B",
+          "text": "autenticação verifica identidade; autorização decide ações e recursos permitidos."
+        },
+        {
+          "id": "C",
+          "text": "uma identidade autenticada passa a ter todas as permissões do sistema."
+        },
+        {
+          "id": "D",
+          "text": "autorização verifica a senha e autenticação escolhe os documentos acessíveis."
+        },
+        {
+          "id": "E",
+          "text": "autenticação comprova que cada ação posterior da conta será legítima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autenticação verifica a identidade apresentada; autorização trata das permissões. Uma conta pode estar autenticada e continuar sem autorização para alterar um documento. Nenhuma dessas operações torna legítima qualquer ação futura."
+    },
+    {
+      "id": "u028-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre disponibilidade, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A definição exige que todo sistema funcione continuamente, independentemente do requisito do serviço."
+        },
+        {
+          "id": "B",
+          "text": "Acesso público é requisito da disponibilidade, mesmo para informação restrita."
+        },
+        {
+          "id": "C",
+          "text": "Disponibilidade envolve acesso oportuno e confiável conforme a necessidade ou requisito definido para quem está autorizado."
+        },
+        {
+          "id": "D",
+          "text": "Preservar o conteúdo contra alteração já basta para que o serviço esteja disponível."
+        },
+        {
+          "id": "E",
+          "text": "Um arquivo com origem comprovada permanece disponível mesmo quando não pode ser consultado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A disponibilidade é avaliada diante da necessidade de acesso autorizado. Operação contínua pode ser um requisito de determinado serviço, mas não é uma exigência universal da definição. Sigilo, preservação do conteúdo e confiança na origem não substituem acesso oportuno."
+    },
+    {
+      "id": "u028-a08",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O princípio do menor privilégio recomenda",
+      "options": [
+        {
+          "id": "A",
+          "text": "conceder a cada identidade somente os acessos necessários às suas funções."
+        },
+        {
+          "id": "B",
+          "text": "conceder permissões de administração a toda conta que conclua a autenticação."
+        },
+        {
+          "id": "C",
+          "text": "usar uma conta compartilhada com todas as permissões para simplificar a atribuição de ações."
+        },
+        {
+          "id": "D",
+          "text": "manter permissões anteriores após uma mudança de função, mesmo sem necessidade atual."
+        },
+        {
+          "id": "E",
+          "text": "definir as permissões apenas pela frequência de uso do sistema."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Menor privilégio limita as permissões ao necessário para a função ou tarefa. Autenticação não justifica poderes de administração; mudança de função exige avaliar acessos. Compartilhar uma conta ampla também dificulta atribuir ações a pessoas."
+    },
+    {
+      "id": "u028-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A cifragem de um arquivo, quando usada para impedir leitura por quem não possui a chave adequada, protege principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "disponibilidade, pois a existência da chave impede interrupções."
+        },
+        {
+          "id": "B",
+          "text": "confidencialidade, pois o conteúdo permanece ininteligível sem a chave adequada."
+        },
+        {
+          "id": "C",
+          "text": "autenticidade, pois todo arquivo cifrado necessariamente identifica seu autor."
+        },
+        {
+          "id": "D",
+          "text": "integridade, pois qualquer forma de cifragem impede adulterações detectáveis ou indetectáveis."
+        },
+        {
+          "id": "E",
+          "text": "autorização, pois cifrar substitui a decisão sobre permissões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No cenário descrito, a cifragem protege o conteúdo contra leitura sem a chave adequada, apoiando a confidencialidade. Cifragem, por si só, não garante acesso contínuo, autoria, integridade em qualquer construção ou gestão das permissões."
+    },
+    {
+      "id": "u028-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O hash criptográfico de um arquivo é comparado com um resumo de referência confiável para ajudar a detectar mudanças no conteúdo. Nesse papel, o controle apoia principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a integridade."
+        },
+        {
+          "id": "B",
+          "text": "a disponibilidade do serviço."
+        },
+        {
+          "id": "C",
+          "text": "a confidencialidade do conteúdo."
+        },
+        {
+          "id": "D",
+          "text": "a autorização para alterar o arquivo."
+        },
+        {
+          "id": "E",
+          "text": "a identificação do autor do arquivo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A comparação com uma referência confiável ajuda a verificar preservação do conteúdo, apoiando a integridade. O resumo não cifra os dados, não mantém o serviço acessível e não identifica sozinho o autor."
+    },
+    {
+      "id": "u028-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Redundância de componentes e mecanismos de recuperação costumam apoiar principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a disponibilidade, ao reduzir interrupções e apoiar o retorno do serviço."
+        },
+        {
+          "id": "B",
+          "text": "a confidencialidade, ao impedir por si só a leitura das cópias."
+        },
+        {
+          "id": "C",
+          "text": "a autenticidade, ao identificar necessariamente o autor dos dados."
+        },
+        {
+          "id": "D",
+          "text": "a autorização, ao conceder permissões quando o componente principal falha."
+        },
+        {
+          "id": "E",
+          "text": "o menor privilégio, ao reduzir automaticamente as permissões de cada conta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Componentes redundantes podem manter o serviço quando um deles falha; mecanismos de recuperação apoiam seu retorno. Isso contribui principalmente para disponibilidade, sem dispensar proteção das cópias, avaliação das falhas comuns ou gestão de acesso."
+    },
+    {
+      "id": "u028-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma cópia de recuperação de dados é corretamente entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "a própria propriedade de disponibilidade, independentemente da possibilidade de restauração."
+        },
+        {
+          "id": "B",
+          "text": "um possível controle de apoio à recuperação, e não uma propriedade da tríade."
+        },
+        {
+          "id": "C",
+          "text": "um controle que assegura sigilo apenas por manter uma segunda cópia."
+        },
+        {
+          "id": "D",
+          "text": "um controle que impede por si só mudanças nos dados principais."
+        },
+        {
+          "id": "E",
+          "text": "uma comprovação da origem de todos os dados copiados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma cópia de recuperação é uma medida que pode apoiar o retorno dos dados ou do serviço. Ela precisa estar protegida e ser restaurável; sua existência não é a própria disponibilidade nem garante sigilo, autoria ou prevenção de alterações."
+    },
+    {
+      "id": "u028-a13",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um incidente expõe dados restritos a pessoas não autorizadas e também altera registros sem autorização. Nesse caso",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a disponibilidade foi diretamente afetada pelos efeitos descritos."
+        },
+        {
+          "id": "B",
+          "text": "apenas a confidencialidade foi diretamente afetada pelos efeitos descritos."
+        },
+        {
+          "id": "C",
+          "text": "confidencialidade e integridade foram diretamente afetadas pelos efeitos descritos."
+        },
+        {
+          "id": "D",
+          "text": "apenas a integridade foi diretamente afetada pelos efeitos descritos."
+        },
+        {
+          "id": "E",
+          "text": "a divulgação indevida impede que se reconheça também um efeito sobre integridade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Publicar informação restrita a quem não tem autorização compromete confidencialidade; alterar registros indevidamente compromete integridade. Os efeitos podem coexistir. O prompt não informa interrupção de acesso para concluir também indisponibilidade."
+    },
+    {
+      "id": "u028-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual exemplo caracteriza violação de confidencialidade sem exigir a presença de malware?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um usuário autorizado imprime documento restrito e o deixa exposto a pessoas não autorizadas."
+        },
+        {
+          "id": "B",
+          "text": "Um worm derruba um servidor."
+        },
+        {
+          "id": "C",
+          "text": "Um arquivo é corrompido por falha de disco."
+        },
+        {
+          "id": "D",
+          "text": "Um serviço fica indisponível por falta de energia."
+        },
+        {
+          "id": "E",
+          "text": "Uma base recebe valor incorreto por erro de digitação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Expor fisicamente um documento restrito a pessoas não autorizadas viola confidencialidade sem exigir código malicioso. Os demais exemplos tratam de interrupção, corrupção ou incorreção dos dados, sem descrever exposição indevida."
+    },
+    {
+      "id": "u028-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre autenticidade, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um documento autêntico precisa manter seu conteúdo secreto."
+        },
+        {
+          "id": "B",
+          "text": "Autenticidade envolve confiança na identidade ou origem declarada; isso não equivale a sigilo."
+        },
+        {
+          "id": "C",
+          "text": "Um documento disponível tem, necessariamente, origem comprovada."
+        },
+        {
+          "id": "D",
+          "text": "Autenticidade determina quais ações uma conta pode executar no sistema."
+        },
+        {
+          "id": "E",
+          "text": "Identificar a origem de um documento comprova a verdade factual de todas as suas afirmações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autenticidade trata da identidade ou origem declarada. Um documento público pode ter origem verificável; sigilo é outra pergunta. Origem identificada não garante disponibilidade nem verdade factual do conteúdo, e permissões pertencem à autorização."
+    },
+    {
+      "id": "u028-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre controles e propriedades de segurança está correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cada controle protege obrigatoriamente uma única propriedade."
+        },
+        {
+          "id": "B",
+          "text": "Confidencialidade, integridade e disponibilidade são mecanismos técnicos."
+        },
+        {
+          "id": "C",
+          "text": "Um mesmo controle pode contribuir para mais de uma propriedade, sem se confundir com ela."
+        },
+        {
+          "id": "D",
+          "text": "Somente controles digitais protegem informação."
+        },
+        {
+          "id": "E",
+          "text": "A propriedade protegida é determinada pelo nome do produto de segurança."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Propriedades são objetivos de proteção; controles são medidas. O mesmo controle pode contribuir para vários objetivos dependendo de como é empregado. Proteção física e procedimentos também podem apoiar a segurança."
+    },
+    {
+      "id": "q4300",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um e-mail falso leva à instalação de aplicativo disfarçado que registra teclas. A análise correta identifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "pharming como técnica inicial, trojan como disfarce e ransomware como captura de teclas."
+        },
+        {
+          "id": "B",
+          "text": "phishing como técnica inicial, trojan como disfarce e keylogger como função de captura."
+        },
+        {
+          "id": "C",
+          "text": "phishing como técnica inicial, worm como disfarce e spyware como mecanismo obrigatório de autorreplicação."
+        },
+        {
+          "id": "D",
+          "text": "phishing como técnica inicial, vírus como aplicativo necessariamente autônomo e ransomware como captura de teclas."
+        },
+        {
+          "id": "E",
+          "text": "engenharia social como técnica inicial, keylogger como bloqueio extorsivo e worm como simples disfarce."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mensagem falsa caracteriza phishing; o aplicativo com aparência legítima e função maliciosa escondida caracteriza trojan; a captura de teclas é função de keylogger. São aspectos que podem coexistir no mesmo incidente. Pharming exige desvio técnico de destino, não apenas mensagem enganosa."
+    },
+    {
+      "id": "q4305",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A distinção clássica entre vírus e worm é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos precisam inserir cada cópia em um arquivo hospedeiro para se propagarem."
+        },
+        {
+          "id": "B",
+          "text": "o vírus se replica autonomamente entre sistemas, enquanto o worm precisa infectar outro programa."
+        },
+        {
+          "id": "C",
+          "text": "o vírus se associa a um hospedeiro; o worm é autônomo e pode propagar-se pela rede."
+        },
+        {
+          "id": "D",
+          "text": "vírus é o nome de qualquer código malicioso, e worm identifica somente programas que roubam senhas."
+        },
+        {
+          "id": "E",
+          "text": "vírus e worm se distinguem exclusivamente pelo tipo de dano, e não pela forma de propagação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distinção clássica é a associação do vírus a um hospedeiro e a autonomia do worm para replicação e propagação. Não se distingue cada família apenas pelo dano causado, e vírus não é sinônimo de todo malware."
+    },
+    {
+      "id": "q4313",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Botnet é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um único programa que necessariamente cifra dados para exigir resgate."
+        },
+        {
+          "id": "B",
+          "text": "qualquer conjunto de programas automatizados, ainda que legítimos e sem comprometimento."
+        },
+        {
+          "id": "C",
+          "text": "conjunto de dispositivos comprometidos controlados remotamente pelo atacante."
+        },
+        {
+          "id": "D",
+          "text": "um mecanismo que sincroniza cópias de dados entre dispositivos autorizados."
+        },
+        {
+          "id": "E",
+          "text": "um programa cuja única função é capturar teclas, sem comunicação remota."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No contexto de malware, a botnet reúne dispositivos comprometidos sob controle do atacante. Um bot pode ser o programa ou dispositivo participante; automação legítima, por si só, não define uma botnet maliciosa. Captura de teclas e cifragem extorsiva descrevem outras funções."
+    },
+    {
+      "id": "q4319",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Dupla extorsão em ransomware combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas cobranças sucessivas apenas pela recuperação dos arquivos bloqueados."
+        },
+        {
+          "id": "B",
+          "text": "indisponibilidade dos dados com ameaça de divulgação de informações roubadas."
+        },
+        {
+          "id": "C",
+          "text": "bloqueio de duas cópias dos mesmos arquivos, sem roubo nem ameaça de divulgação."
+        },
+        {
+          "id": "D",
+          "text": "cifragem dos arquivos com duas chaves, sem ameaça de exposição dos dados."
+        },
+        {
+          "id": "E",
+          "text": "cobrança pelo desbloqueio de dois computadores, sem roubo de informações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dupla extorsão combina pressão pela recuperação do acesso com ameaça de expor os dados roubados. Pode, portanto, atingir disponibilidade e confidencialidade. Restaurar arquivos não desfaz a exposição já ocorrida."
+    },
+    {
+      "id": "q4325",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Detecção por assinatura é mais eficaz quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ameaça tem apenas comportamento suspeito, sem padrão correspondente na base."
+        },
+        {
+          "id": "B",
+          "text": "a base contém apenas padrões antigos que não correspondem à variante analisada."
+        },
+        {
+          "id": "C",
+          "text": "a amostra é inédita e exige somente inferência a partir de suas ações."
+        },
+        {
+          "id": "D",
+          "text": "o padrão da ameaça já é conhecido e a base está atualizada."
+        },
+        {
+          "id": "E",
+          "text": "a ameaça é um pedido fraudulento de informação sem código a comparar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Detecção por assinatura compara padrões conhecidos. Uma base atualizada aumenta a cobertura dos padrões incorporados, mas uma variante sem correspondência pode escapar. Análise de comportamento e características suspeitas é outro mecanismo; uma fraude sem código não é resolvida apenas por essa comparação."
+    },
+    {
+      "id": "q4326",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Heurística e análise comportamental ajudam a detectar",
+      "options": [
+        {
+          "id": "A",
+          "text": "estruturas ou ações suspeitas mesmo sem correspondência exata de assinatura."
+        },
+        {
+          "id": "B",
+          "text": "apenas amostras cujo padrão já esteja integralmente cadastrado na base de assinaturas."
+        },
+        {
+          "id": "C",
+          "text": "somente a identidade do autor de um arquivo por meio de seu nome."
+        },
+        {
+          "id": "D",
+          "text": "a legitimidade de todo pedido de senha quando o computador está livre de vírus."
+        },
+        {
+          "id": "E",
+          "text": "a possibilidade de recuperar qualquer arquivo apagado, sem cópia anterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Heurística procura características suspeitas; análise comportamental observa ações. Podem identificar ameaças sem correspondência exata com assinatura conhecida, mas também marcar itens legítimos por engano. Não comprovam autoria, honestidade de pedidos ou recuperabilidade de arquivos."
+    },
+    {
+      "id": "q4328",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quarentena é usada para",
+      "options": [
+        {
+          "id": "A",
+          "text": "liberar o objeto para uso normal após o primeiro alerta, sem avaliação."
+        },
+        {
+          "id": "B",
+          "text": "eliminar definitivamente todo objeto detectado, sem possibilidade de tratamento posterior."
+        },
+        {
+          "id": "C",
+          "text": "restaurar automaticamente uma versão confiável de todos os dados do computador."
+        },
+        {
+          "id": "D",
+          "text": "confirmar que o arquivo isolado nunca contém código malicioso."
+        },
+        {
+          "id": "E",
+          "text": "isolar um objeto suspeito e restringir seu uso normal enquanto ele é avaliado ou tratado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A quarentena restringe o uso de um objeto suspeito. Não equivale a exclusão definitiva nem assegura que o objeto seja legítimo ou que o computador inteiro esteja limpo. O retorno ao uso depende de avaliação."
+    },
+    {
+      "id": "q4329",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Falso positivo e falso negativo são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ameaça corretamente detectada e item legítimo corretamente liberado."
+        },
+        {
+          "id": "B",
+          "text": "ameaça não detectada e item legítimo marcado como ameaça."
+        },
+        {
+          "id": "C",
+          "text": "item legítimo marcado como ameaça e ameaça não detectada."
+        },
+        {
+          "id": "D",
+          "text": "item legítimo corretamente liberado e ameaça corretamente detectada."
+        },
+        {
+          "id": "E",
+          "text": "ameaça corretamente detectada e ameaça não detectada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O falso positivo classifica um item legítimo como ameaça; o falso negativo deixa uma ameaça passar sem detecção. Detecção correta de uma ameaça e liberação correta de um item legítimo não são esses erros."
+    },
+    {
+      "id": "q4336",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma limitação essencial do firewall é que ele",
+      "options": [
+        {
+          "id": "A",
+          "text": "comprova que todo arquivo recebido por uma conexão permitida está livre de malware."
+        },
+        {
+          "id": "B",
+          "text": "corrige no programa instalado qualquer falha explorável por uma conexão bloqueada."
+        },
+        {
+          "id": "C",
+          "text": "confirma a honestidade de pedidos de senha enviados em mensagens permitidas."
+        },
+        {
+          "id": "D",
+          "text": "controla tráfego conforme regras, mas não corrige por si só vulnerabilidades nem remove malware já instalado."
+        },
+        {
+          "id": "E",
+          "text": "torna desnecessário verificar a possibilidade de restaurar dados após uma interrupção."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O firewall decide sobre tráfego segundo regras. Pode reduzir comunicações indesejadas, mas não substitui correções de programas, tratamento de infecção, verificação de pedidos ou recuperação. Uma conexão permitida não certifica conteúdo benigno."
+    },
+    {
+      "id": "q4342",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No endereço hipotético https://login.gov.br.exemplo.com/validar, o domínio registrável relevante é",
+      "options": [
+        {
+          "id": "A",
+          "text": "login.gov.br."
+        },
+        {
+          "id": "B",
+          "text": "gov.br."
+        },
+        {
+          "id": "C",
+          "text": "exemplo.com."
+        },
+        {
+          "id": "D",
+          "text": "validar."
+        },
+        {
+          "id": "E",
+          "text": "https."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nesse exemplo, o domínio registrável é exemplo.com. As partes à esquerda integram subdomínios e podem conter palavras familiares para enganar. validar é o caminho do recurso; https é o esquema de acesso. A ocorrência de gov.br à esquerda não transforma esse domínio em governamental."
+    },
+    {
+      "id": "q4351",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Pharming pode ocorrer quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma mensagem falsa pede a senha por resposta, sem desvio técnico de destino."
+        },
+        {
+          "id": "B",
+          "text": "a resolução de um nome esperado é manipulada para levar a um destino falso."
+        },
+        {
+          "id": "C",
+          "text": "um usuário recebe uma solicitação inesperada de autenticação e a recusa."
+        },
+        {
+          "id": "D",
+          "text": "um arquivo suspeito é colocado em quarentena pelo antimalware."
+        },
+        {
+          "id": "E",
+          "text": "uma conta recebe mais permissões do que necessita para sua função."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pharming envolve redirecionamento técnico para um destino falso, por exemplo por manipulação da resolução de nomes. Pedido enganoso sem esse desvio caracteriza outro mecanismo de fraude. Quarentena e permissões excessivas não descrevem pharming."
+    },
+    {
+      "id": "q4355",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Isolar um computador da rede",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode limitar propagação ou comunicação maliciosa, mas não remove sozinho o malware nem comprova que o ambiente voltou a ser confiável."
+        },
+        {
+          "id": "B",
+          "text": "comprova a remoção do malware assim que a comunicação é interrompida."
+        },
+        {
+          "id": "C",
+          "text": "restaura automaticamente os arquivos alterados enquanto o equipamento estava conectado."
+        },
+        {
+          "id": "D",
+          "text": "corrige a vulnerabilidade que permitiu a instalação do código malicioso."
+        },
+        {
+          "id": "E",
+          "text": "garante que as credenciais usadas no computador não foram expostas anteriormente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Isolamento pode conter efeitos ou comunicações, mas não prova remoção da causa, recuperação dos dados ou ausência de exposição anterior. Contenção, remoção da causa e recuperação têm objetivos distintos e precisam ser coordenadas segundo o plano institucional."
+    },
+    {
+      "id": "q4358",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um e-mail real de fornecedor pede nova conta bancária, sem link ou anexo. A conduta mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "suspender a aprovação até confirmar o pedido por contato institucional conhecido e independente da mensagem."
+        },
+        {
+          "id": "B",
+          "text": "aprovar a mudança porque a conta remetente é realmente usada pelo fornecedor."
+        },
+        {
+          "id": "C",
+          "text": "confirmar apenas respondendo à mesma mensagem, pois o endereço é verdadeiro."
+        },
+        {
+          "id": "D",
+          "text": "telefonar exclusivamente para o novo número informado na mensagem que solicita a mudança."
+        },
+        {
+          "id": "E",
+          "text": "aprovar o pagamento porque a ausência de link e anexo elimina a possibilidade de fraude."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Uma conta verdadeira pode estar comprometida. Confirme uma mudança sensível por canal conhecido e independente do pedido, sem usar apenas contatos fornecidos nele. A ausência de link ou anexo não torna legítima a solicitação."
+    },
+    {
+      "id": "q4360",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em uma rede, quatro ocorrências apresentam, nessa ordem: coleta escondida de credenciais; cópias autônomas entre estações; bloqueio extorsivo por cifragem; aplicativo falso instalado pelo usuário. Quais famílias as descrevem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "worm, spyware, trojan, ransomware"
+        },
+        {
+          "id": "B",
+          "text": "trojan, ransomware, spyware, worm"
+        },
+        {
+          "id": "C",
+          "text": "spyware, trojan, worm, ransomware"
+        },
+        {
+          "id": "D",
+          "text": "spyware, worm, ransomware, trojan"
+        },
+        {
+          "id": "E",
+          "text": "ransomware, worm, spyware, trojan"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A sequência é spyware, worm, ransomware e trojan: coleta oculta; replicação autônoma; bloqueio extorsivo; função maliciosa sob aparência legítima. Adaptação temática em nova redação da questão 66, tipo 1, Auditor de Controle Externo — Informática, Analista de Segurança, Tribunal de Contas do Estado do Pará, Fundação Getulio Vargas, aplicação em 11/08/2024. A prova oficial e o gabarito definitivo confirmam a alternativa D; os links estão nas referências."
+    },
+    {
+      "id": "q4361",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Após receber um aviso falso de atualização, uma funcionária informa a senha em uma página fraudulenta. A conta passa a enviar mensagens sem que o computador tenha sido infectado. O par que melhor descreve o mecanismo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pharming e worm"
+        },
+        {
+          "id": "B",
+          "text": "engenharia social e spyware"
+        },
+        {
+          "id": "C",
+          "text": "trojan e keylogger"
+        },
+        {
+          "id": "D",
+          "text": "phishing e ransomware"
+        },
+        {
+          "id": "E",
+          "text": "engenharia social e phishing"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A mensagem e a página falsas induzem a entrega da senha: engenharia social por phishing. O cenário explicita ausência de infecção do computador, sem descrever coleta por spyware ou keylogger, replicação de worm, bloqueio extorsivo ou desvio técnico de resolução de nomes. Adaptação temática em nova redação da questão 67, tipo 1, Auditor de Controle Externo — Informática, Analista de Segurança, Tribunal de Contas do Estado do Pará, Fundação Getulio Vargas, aplicação em 11/08/2024. Prova oficial e gabarito definitivo confirmam E; links nas referências."
+    },
+    {
+      "id": "per-u035-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão identifica uma senha previsível em uma conta que acessa informação restrita e avalia a possibilidade e as consequências de seu uso indevido. Nessa análise, a senha previsível é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o próprio incidente já comprovado, pois qualquer fragilidade implica invasão."
+        },
+        {
+          "id": "B",
+          "text": "uma propriedade de segurança que define quem pode ler a informação."
+        },
+        {
+          "id": "C",
+          "text": "uma vulnerabilidade; o risco considera a possibilidade do evento adverso e suas consequências."
+        },
+        {
+          "id": "D",
+          "text": "uma ameaça que dispensa avaliar o impacto sobre o órgão."
+        },
+        {
+          "id": "E",
+          "text": "um controle preventivo que torna desnecessária a restrição de permissões."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A senha previsível é uma fragilidade que pode ser explorada, portanto uma vulnerabilidade. Avaliar a possibilidade e as consequências do uso indevido é analisar o risco. Identificar a fragilidade não comprova que uma invasão já ocorreu."
+    },
+    {
+      "id": "per-u035-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual combinação representa fatores de tipos distintos na autenticação de uma pessoa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uma senha e outra senha, ambas memorizadas."
+        },
+        {
+          "id": "B",
+          "text": "Uma senha e uma pergunta secreta respondida de memória."
+        },
+        {
+          "id": "C",
+          "text": "Uma senha e um código adicional fixo que a pessoa precisa memorizar."
+        },
+        {
+          "id": "D",
+          "text": "Uma senha e a posse de um dispositivo autenticador usado para confirmar o acesso."
+        },
+        {
+          "id": "E",
+          "text": "Duas perguntas cujas respostas a pessoa conhece."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A senha é algo que se sabe; o dispositivo autenticador é algo que se possui. As outras combinações usam somente conhecimento, ainda que exijam duas etapas ou dois elementos. Autenticação multifator exige tipos distintos."
+    },
+    {
+      "id": "per-u035-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pasta é sincronizada com outro local: toda alteração e exclusão é propagada. Não há versões anteriores preservadas. Após cifragem maliciosa dos arquivos, a alteração também chega à réplica. Qual conclusão é sustentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A existência de dois locais garante recuperação da versão anterior ao ataque."
+        },
+        {
+          "id": "B",
+          "text": "Nesse arranjo, a réplica sincronizada não oferece uma versão anterior preservada para recuperar os arquivos atingidos."
+        },
+        {
+          "id": "C",
+          "text": "Sincronização impede que uma conta comprometida altere os arquivos."
+        },
+        {
+          "id": "D",
+          "text": "A cifragem maliciosa transforma a réplica em uma cópia confiável de recuperação."
+        },
+        {
+          "id": "E",
+          "text": "O número de réplicas substitui a necessidade de verificar a restauração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caso informa propagação das alterações e ausência de versões anteriores. Logo, a segunda localização não fornece o ponto preservado necessário para recuperar os arquivos anteriores ao ataque. Isso não afirma que todo serviço de sincronização tenha essas limitações; a conclusão vale para o arranjo descrito."
+    },
+    {
+      "id": "per-u035-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento é disponibilizado publicamente com uma assinatura digital válida e verificável em um processo confiável. Sobre a função da assinatura, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela torna o texto ininteligível a quem não possui a chave de decifragem."
+        },
+        {
+          "id": "B",
+          "text": "ela assegura que o documento ficará acessível mesmo se o servidor parar."
+        },
+        {
+          "id": "C",
+          "text": "ela substitui a análise das permissões para modificar o documento."
+        },
+        {
+          "id": "D",
+          "text": "ela comprova a verdade factual de cada afirmação do documento."
+        },
+        {
+          "id": "E",
+          "text": "ela apoia a verificação da origem associada ao signatário e da integridade dos dados assinados, sem tornar o conteúdo secreto por si só."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Assinatura digital permite verificar a origem associada ao signatário e a integridade dos dados assinados, no processo confiável descrito. Ela não é cifragem para sigilo, garantia de disponibilidade ou prova automática da verdade do texto; um documento assinado pode ser público."
+    },
+    {
+      "id": "per-u035-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um atacante substitui um arquivo e também o hash de referência divulgado no mesmo local, sem proteção independente dessa referência. O hash do novo arquivo coincide com o novo resumo divulgado. Essa coincidência",
+      "options": [
+        {
+          "id": "A",
+          "text": "não basta para comprovar preservação da versão original, pois a referência também foi substituída."
+        },
+        {
+          "id": "B",
+          "text": "comprova que o arquivo original permaneceu inalterado."
+        },
+        {
+          "id": "C",
+          "text": "identifica o autor original do arquivo, mesmo sem assinatura digital."
+        },
+        {
+          "id": "D",
+          "text": "permite reconstruir a versão original a partir do novo hash."
+        },
+        {
+          "id": "E",
+          "text": "garante que o novo arquivo não contém código malicioso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A comparação ajuda a verificar integridade em relação a uma referência confiável. No cenário, tanto arquivo quanto referência foram trocados; a coincidência só relaciona os novos dados. O hash não recupera a versão anterior, não identifica sozinho autoria e não certifica ausência de malware."
+    },
+    {
+      "id": "per-u035-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma atualização legítima corrige uma vulnerabilidade conhecida em um aplicativo. Qual conclusão é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O aplicativo deixa de exigir qualquer controle de acesso após a instalação."
+        },
+        {
+          "id": "B",
+          "text": "A correção comprova que nenhuma informação foi exposta antes de sua instalação."
+        },
+        {
+          "id": "C",
+          "text": "A atualização elimina todos os riscos do equipamento, inclusive falhas humanas e físicas."
+        },
+        {
+          "id": "D",
+          "text": "A correção reduz a exposição à falha tratada, mas não dispensa outros controles nem comprova ausência de incidentes anteriores."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer mensagem que ofereça uma atualização passa a ser confiável depois dessa correção."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A atualização trata a vulnerabilidade indicada e reduz essa via de ataque. Não prova o que aconteceu anteriormente nem resolve permissões, outras falhas ou fraudes. Obter atualizações de fonte legítima e combinar controles continua necessário."
+    }
+  ]
+}
