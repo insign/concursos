@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 33 | 0 | 3 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 43 | 0 | 8 |
-| Unidades distintas | 99 | 66 | 8 | 25 |
-| Entregáveis unitários C/H/Q | 297 | 198 | 24 | 75 |
+| Unidades distintas | 99 | 66 | 7 | 26 |
+| Entregáveis unitários C/H/Q | 297 | 198 | 21 | 78 |
 
-Estado confirmado: **25 unidades/visões publicadas (25 locais, 0 por vínculo); 75 C/H/Q aceitos; 31/132 referências literais aceitas; 1137 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **26 unidades/visões publicadas (26 locais, 0 por vínculo); 78 C/H/Q aceitos; 32/132 referências literais aceitas; 1156 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U026 — Viés de pesquisa**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 6/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U027 — Pensamento lateral e vertical**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 7/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -543,7 +543,7 @@ Grupo consumidor: `conhecimentos-gerais/raciocinio-logico-cientifico/`, relativo
 | PER-U023 — Argumentação e inferências lógicas | E02: 2 | O024 | `logica-argumentacao-inferencias` / `per-u023` / 230 | Validade e inferências, além de opinião persuasiva. Pontes: PER-U021. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U024 — Princípios de contagem e probabilidade | E02: 4 | O025 | `principios-contagem-probabilidade` / `per-u024` / 240 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U025 — Método científico, hipóteses e teorias | E02: 5, 8 | S05; sem candidato selecionado | `metodo-cientifico-hipoteses-teorias` / `per-u025` / 250 | Problema, hipótese testável, desenho, observação e limites; distinguir teoria de hipótese. Novo local; C/H/Q aceitos em 5.11. |
-| PER-U026 — Viés de pesquisa | E02: 9 | O026 | `vies-pesquisa` / `per-u026` / 260 | Candidato apenas para amostragem; ampliar vieses de seleção, medição, confirmação e publicação com fontes primárias. Pontes: PER-U025. |
+| PER-U026 — Viés de pesquisa | E02: 9 | O026 | `vies-pesquisa` / `per-u026` / 260 | Candidato apenas para amostragem; ampliar vieses de seleção, medição, confirmação e publicação com fontes primárias. Pontes: PER-U025. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U027 — Pensamento lateral e vertical | E02: 7 | S05; sem candidato selecionado | `pensamento-lateral-vertical` / `per-u027` / 270 | Comparar geração de alternativas e encadeamento analítico sem atribuir eficácia não demonstrada. |
 | PER-U028 — Fundamentos de eclética — item literal pendente de esclarecimento | E02: 6 | S05; sem candidato selecionado | `fundamentos-ecletica` / `per-u028` / 280 | Incerteza localizada: C/H/Q pending; nenhum conceito presumido. Produção específica depende da evidência de 3.3. |
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 31/132 |
-| Unidades distintas da objetiva | 98 | 25 |
+| Referências literais da objetiva | 132/132 | 32/132 |
+| Unidades distintas da objetiva | 98 | 26 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 25 |
-| Entregáveis unitários C/H/Q | 297: 198 pending + 24 analyzing + 75 done | 75 done |
-| Visões consumidoras previstas | 99 | 25 |
+| Total de unidades distintas | 99 | 26 |
+| Entregáveis unitários C/H/Q | 297: 198 pending + 21 analyzing + 78 done | 78 done |
+| Visões consumidoras previstas | 99 | 26 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 24 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 25 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 1 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 25 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 26 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1483,6 +1483,24 @@ Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo 
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/questoes.json` | `02a1044d93145c0b843817e3e0198be2b22aa57b` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/referencias.md` | `075e17433b8e6761471d4ad69d5a70cca66f903f` |
 
+#### PER-U026 — Viés de pesquisa — C/H/Q done
+
+- **Origem/recorte/destino:** E02:9, parcial local O026 físico PC, pc-u055/order55, regressao-linear-amostragem. C/H/Q/R `d71e06ff4229ec6f9b6527ad1401cc0a23cfb44b` / `419a9e0417efd1d8656ece04cfc4d9ed1d3cbab1` / `0de83d36453d9e9c160c3b406bed821fc9f1108a` / `758acb453c09e4d1db1c150cb940acca6112eb0a`, quatro arquivos/20 Q íntegros lidos, sem vínculo/canônico/resolução no prefixo da árvore completa. C comparativo PC inferência/estimação/testes lido só para fronteiras, sem importar seus H/Q/R ou viés formal de estimador. Classificação registrada05:33:04Z antes da publicação. Aproveita apenas ponte população/seleção/registro; novo desenvolvimento dos mecanismos. Destino próprio Generalista vies-pesquisa/per-u026/260, grupo científico confirmado; origem/consumidor intactos.
+- **C/H e revisão:** problema inicial mostra que mais respostas mantêm exclusão do canal; constrói desvio sistemático/variação aleatória, precisão/ausência de viés e alvo/alcance. Seleção explica cobertura, voluntariado, não resposta/perda e limites do sorteio/ajuste; distingue amostra e distribuição entre procedimentos. Medição explica registro/expectativa e proteção dirigida à causa, cegamento sem promessa de corrigir aparelho. Confirmação diferencia hipótese prévia de filtragem; publicação distingue estudo ausente/relato seletivo e procura evidência além de artigos. Pré-registro permite exploração transparente, sem garantir ausência de vieses. Risco não determina direção/intensidade/fraude, mecanismos podem coexistir; H recupera em236 palavras. Raiz leu C/H/R integralmente e todos19 enunciados/opções/chaves/explicações, raciocinando sobre mecanismos/limites/distratores; R usa número por extenso em rótulo de link, delta relido, C/H/Q intactos.
+- **Banco/linhagem:** 19 novas autorais per-u026-a01–a19, revision1/conjunto1; zero IDs/Q importadas das20 originais (11 regressão,4 planos,2 tamanho de amostra,3 anteriores de planos sem pertinência ao banco específico). Não certificar atribuições Telebras dessas três anteriores excluídas. Chaves C/E/A/D/B/E/D/A/B/C/C/E/A/D/A/C/B/E/B confirmadas individualmente; distratores distinguem tamanho/cobertura, deslocamento na média, seleção/distribuição, risco/direção, censo/medição, critérios metodológicos/exclusão seletiva, exploração/registro e alcance declarado. Explicações inline suficientes; nenhum valor de estudo empírico fictício ou atribuição de banca, sem quota/resolução separada necessária.
+- **Fontes/alcances:** Cochrane Handbook v6.5/2024 capítulos7 §§7.1/7.1.1 (atualizadoagosto2022),13 §§13.1/13.2 e trechos13.2.1 (agosto2024), sem capítulos completos/metanálise/instrumentos clínicos importados. Statistics Canada AppendixA arquivado2008, Population/Data quality e erros de cobertura/resposta/não resposta, conceitos sem dados históricos como atuais. Oxford Catalogue of Bias páginas Selection2017, Information2019, Confirmation2018 e Reporting2019, pontos identificados em R; Center for Open Science Preregistration definição e perguntas de análises novas/conhecimento prévio. Raiz reconsultou diretamente Confirmation/COS, sem obras integrais certificadas. Registered Reports teve consulta pontual não incorporada. Listagem oficial10 entradas/cinco pares e S05 item9 consultados pelo preparador, não atos futuros; corte17/07/2026 e marco jurisprudencial futuro preservados.
+- **Densidade/microglossário:** C18707→11904 bytes,2700→1637 palavras visíveis; H3029→2280 bytes,389→236 palavras, −39,37%/−39,33% respectivamente. Remover regressão/planos/fórmulas permite ensinar viés, sem alegar preservação de todo o recorte original. C sem abbr; H331 bytes de marcação/quatro ajudas/35 palavras em title, conceitos ensinados no corpo e recuperados isoladamente. Medidas removem tags conservando texto, não são inspeção renderizada/tempo. R do preparo4211 bytes/hash precede expansão final no rótulo.
+- **Inspeção individual PER-F02:** raiz examinou frontmatter/ID/ordem/rota, Markdown/ajudas, cobertura, todas19 respostas/distratores/explicações, revisões e referências; confirmação remota abaixo. Registro distinto do aceite C/H/Q, sem macro F02 ou extrapolação. Sem testes/build/check/CI, infra/catálogos/doadores editados ou marco futuro certificado.
+
+**Publicação confirmada:** [`d32941f`](https://github.com/insign/concursos/commit/d32941f4da1c695e6c13f0c598a7cbd7feb83f1b), parent `12d958435e2d55d783bae6cebd242899b28b0659`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/vies-pesquisa/conteudo.md` | `07e0c3dad3daa73685772ea8a1618b50843cba5a` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/vies-pesquisa/cheat-sheet.md` | `a7ad04b5d803407c4739101cf18979a1e15811c9` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/vies-pesquisa/questoes.json` | `ba547aac4052e2608f44633a8e91675ea514ca9e` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/vies-pesquisa/referencias.md` | `f29142e81f2c722a8767ecbb2cbeb4ff617c1f4c` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -1806,9 +1824,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U026 — Viés de pesquisa
 
-- [ ] PER-U026-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U026-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U026-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U026-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U026-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U026-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U027 — Pensamento lateral e vertical
 
@@ -2430,3 +2448,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U023:** artefatos `25f9805b2188e8ae373565d83314c6f200791ffc` confirmados; aceitos neste registro 28 itens, C/H/Q e proveniência 5.11. Totais resultantes: 24/99 unidades, 72/297 C/H/Q, 30/132 referências, 1103 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U024 — Princípios de contagem e probabilidade; campanha aberta.
 
 - **PER-U024:** artefatos `0e504ab85a7d29787e72a6d3cee9c85524967b95` confirmados; aceitos neste registro 34 itens, C/H/Q e proveniência 5.11. Totais resultantes: 25/99 unidades, 75/297 C/H/Q, 31/132 referências, 1137 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U026 — Viés de pesquisa; campanha aberta.
+
+- **PER-U026:** artefatos `d32941f4da1c695e6c13f0c598a7cbd7feb83f1b` confirmados; aceitos neste registro 19 itens, C/H/Q e proveniência 5.11. Totais resultantes: 26/99 unidades, 78/297 C/H/Q, 32/132 referências, 1156 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U027 — Pensamento lateral e vertical; campanha aberta.
