@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u026-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pesquisa hipotética pretende estimar a satisfação de todos os usuários de um serviço, mas recruta apenas pelo aplicativo. Ao aumentar de mil para cinco mil respostas pelo mesmo canal, pode-se afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o maior tamanho elimina o problema de cobertura."
+        },
+        {
+          "id": "B",
+          "text": "a seleção passa a ser equivalente a um sorteio de todos os usuários."
+        },
+        {
+          "id": "C",
+          "text": "a variação entre amostras pode diminuir, mas o risco ligado aos usuários não alcançados permanece."
+        },
+        {
+          "id": "D",
+          "text": "o aumento garante que os resultados se apliquem a usuários sem acesso ao aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "o tamanho maior torna desnecessária a investigação de quem não respondeu."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Mais observações não dão chance de participação a quem permanece fora do canal. O aumento pode reduzir variação aleatória em condições comparáveis, sem corrigir a cobertura. As demais opções convertem tamanho em garantia de seleção ou generalização que não foi obtida. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma situação hipotética, são sorteados nomes de uma lista completa dos usuários do aplicativo para concluir sobre todos os usuários do serviço, inclusive os que só usam atendimento presencial. Qual afirmação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O sorteio elimina qualquer risco de seleção, porque todos os nomes da lista têm chance de entrar."
+        },
+        {
+          "id": "B",
+          "text": "O problema principal é de publicação, pois os usuários presenciais não aparecem na lista."
+        },
+        {
+          "id": "C",
+          "text": "Trocar o questionário por um instrumento mais preciso permite generalizar automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "Sortear mais nomes da mesma lista dá chance de seleção aos usuários que ela não contém."
+        },
+        {
+          "id": "E",
+          "text": "O sorteio pode ser adequado dentro da lista, mas não resolve a exclusão dos usuários presenciais da população-alvo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A qualidade do sorteio deve ser distinguida da cobertura da lista. O alvo inclui pessoas ausentes do cadastro; elas continuam sem chance de seleção. Precisão de medição e quantidade de nomes não corrigem essa ausência, que também não é publicação de estudos. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Numa pesquisa hipotética sobre tempo de espera, parte das pessoas selecionadas não responde. Para avaliar o risco de viés por não resposta, é especialmente relevante saber",
+      "options": [
+        {
+          "id": "A",
+          "text": "se a chance de responder está relacionada ao tempo de espera, além da quantidade e das razões das perdas."
+        },
+        {
+          "id": "B",
+          "text": "apenas se o número final de respostas supera um valor fixo."
+        },
+        {
+          "id": "C",
+          "text": "se o instrumento registra tempos com muitas casas decimais."
+        },
+        {
+          "id": "D",
+          "text": "se os resultados favoráveis foram publicados rapidamente."
+        },
+        {
+          "id": "E",
+          "text": "se foi possível coletar mais respostas sem examinar quem ficou de fora."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O risco depende de diferenças relevantes entre respondentes e não respondentes e do mecanismo de perda. O tamanho final ou a precisão numérica isolados não estabelecem essa relação; rapidez de publicação investiga outro mecanismo. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um sistema hipotético soma exatamente dois minutos a cada tempo real registrado. Sem corrigir o sistema, repetir as medições e calcular sua média",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina o desvio, porque erros positivos e negativos se compensam."
+        },
+        {
+          "id": "B",
+          "text": "faz a média convergir necessariamente para o tempo real médio."
+        },
+        {
+          "id": "C",
+          "text": "torna a média correta desde que a dispersão das medições seja pequena."
+        },
+        {
+          "id": "D",
+          "text": "mantém a média registrada dois minutos acima da média dos tempos reais medidos."
+        },
+        {
+          "id": "E",
+          "text": "mantém o acréscimo apenas nas medições individuais, mas o elimina na média de muitos registros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cada valor recebeu o mesmo acréscimo. A média desses valores também recebe dois minutos, independentemente de quantos sejam. Não há erros de sinais opostos a compensar, e pouca dispersão não torna a média correta. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compare dois instrumentos hipotéticos. O primeiro produz oscilações para mais ou para menos, centradas no valor real; o segundo sempre registra cinco unidades acima do valor real. A distinção adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o primeiro necessariamente é viesado e o segundo apenas impreciso."
+        },
+        {
+          "id": "B",
+          "text": "o primeiro apresenta variação aleatória de medição; o segundo apresenta desvio sistemático."
+        },
+        {
+          "id": "C",
+          "text": "o primeiro necessariamente terá resultados exatos em toda medição, por estar centrado no valor real."
+        },
+        {
+          "id": "D",
+          "text": "ambos se tornam exatos somente por serem usados em amostras grandes."
+        },
+        {
+          "id": "E",
+          "text": "o segundo não pode ter pouca dispersão, pois é viesado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Oscilações centradas no valor real expressam variação aleatória nas condições descritas. O acréscimo fixo desloca o segundo instrumento sistematicamente. Viés pode coexistir com pouca dispersão; tamanho de amostra não ajusta automaticamente instrumentos. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Numa avaliação hipotética de dois procedimentos, os observadores conhecem o grupo de cada participante e usam critérios mais tolerantes para o procedimento que preferem. Qual medida atua diretamente sobre esse mecanismo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aumentar participantes sem mudar a avaliação."
+        },
+        {
+          "id": "B",
+          "text": "Sortear novos participantes, preservando os critérios diferentes."
+        },
+        {
+          "id": "C",
+          "text": "Divulgar apenas a avaliação do procedimento preferido."
+        },
+        {
+          "id": "D",
+          "text": "Registrar os resultados com mais casas decimais."
+        },
+        {
+          "id": "E",
+          "text": "Padronizar os critérios e, quando viável, ocultar dos avaliadores o grupo de cada participante."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Critérios comuns e cegamento enfrentam a influência da expectativa sobre a medição. Amostra maior, novo sorteio e casas decimais mantêm o registro desigual; divulgação seletiva acrescenta outro problema. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe hipotética formula uma hipótese antes de coletar dados. Qual comportamento caracteriza risco de viés de confirmação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Definir critérios de qualidade antes de conhecer os resultados."
+        },
+        {
+          "id": "B",
+          "text": "Aplicar os mesmos critérios a resultados favoráveis e contrários."
+        },
+        {
+          "id": "C",
+          "text": "Buscar observações que possam contrariar a hipótese."
+        },
+        {
+          "id": "D",
+          "text": "Descartar evidências contrárias apenas porque não combinam com a conclusão desejada."
+        },
+        {
+          "id": "E",
+          "text": "Permitir que os dados levem à revisão da hipótese."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O filtro baseado na conclusão desejada favorece a crença prévia. Ter hipótese não basta para caracterizar confirmação; critérios comuns, confronto e revisão são proteções contra esse mecanismo. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pesquisadora hipotética usa critérios de inclusão definidos antes da busca. Encontra estudos favoráveis e contrários à hipótese, todos atendendo aos critérios. A conduta que reduz o risco de confirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar os dois grupos de estudos com os mesmos critérios e examinar explicações alternativas."
+        },
+        {
+          "id": "B",
+          "text": "incluir apenas os favoráveis, porque a hipótese foi definida antes."
+        },
+        {
+          "id": "C",
+          "text": "tornar o critério mais rigoroso somente para os resultados contrários."
+        },
+        {
+          "id": "D",
+          "text": "interromper a busca quando houver exemplos suficientes a favor."
+        },
+        {
+          "id": "E",
+          "text": "classificar como erro todo resultado que contrarie a hipótese."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Critérios independentes do sentido do resultado permitem confronto real. A definição antecipada da hipótese não autoriza eliminar contrários; rigor desigual e interrupção apenas por confirmação preservam a preferência pela conclusão. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um cenário hipotético, vários estudos foram concluídos, mas apenas aqueles com resultados favoráveis tiveram seus relatórios divulgados. O mecanismo descrito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "variação aleatória decorrente do tamanho de cada amostra."
+        },
+        {
+          "id": "B",
+          "text": "viés de publicação, pois a disponibilidade de estudos dependeu de seus resultados."
+        },
+        {
+          "id": "C",
+          "text": "viés de medição, pois os estudos usaram critérios diferentes de registro."
+        },
+        {
+          "id": "D",
+          "text": "não resposta dos participantes selecionados em cada estudo."
+        },
+        {
+          "id": "E",
+          "text": "deficiência de cobertura do cadastro usado para recrutar participantes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O filtro ocorre na divulgação dos estudos inteiros. O enunciado não informa erro de medição, cadastro ou resposta dos participantes. A evidência visível pode diferir sistematicamente da produzida, mesmo que os estudos publicados sejam bem conduzidos. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um estudo hipotético planejou medir tempo, custo e satisfação. Após examinar os dados, divulgou somente a satisfação porque seu resultado foi favorável. A descrição mais específica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "seleção probabilística de participantes."
+        },
+        {
+          "id": "B",
+          "text": "erro aleatório de medição."
+        },
+        {
+          "id": "C",
+          "text": "relato seletivo de resultados dentro de um estudo."
+        },
+        {
+          "id": "D",
+          "text": "não resposta de todos os participantes."
+        },
+        {
+          "id": "E",
+          "text": "publicação seletiva de estudos inteiros, porque cada medida do mesmo estudo equivale a uma pesquisa separada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O estudo apareceu, mas seus resultados foram filtrados conforme o achado. Isso é relato seletivo; distingue-se de deixar de publicar o estudo inteiro. Nenhum dado do enunciado atribui a omissão a recrutamento, medição aleatória ou ausência de participantes. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma síntese hipotética, todos os estudos publicados são metodologicamente bem conduzidos. Contudo, outros estudos comparáveis, com achados desfavoráveis, ficaram sem divulgação justamente por esses resultados. Isso permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a boa condução dos estudos disponíveis elimina o risco da síntese."
+        },
+        {
+          "id": "B",
+          "text": "o problema só existiria se os estudos publicados fossem pequenos."
+        },
+        {
+          "id": "C",
+          "text": "a síntese pode sofrer viés pela ausência seletiva de evidências, apesar da boa condução dos estudos disponíveis."
+        },
+        {
+          "id": "D",
+          "text": "os resultados desfavoráveis devem ser excluídos por serem desfavoráveis."
+        },
+        {
+          "id": "E",
+          "text": "basta aumentar o número de participantes dos estudos já publicados para recuperar os estudos ausentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A seleção dos estudos visíveis é um mecanismo distinto da qualidade de cada estudo. A ausência dependeu do resultado, podendo distorcer o conjunto usado na síntese. Participantes adicionais nos estudos disponíveis não recuperam por si as pesquisas omitidas. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe hipotética pré-registrou sua hipótese e seu plano de análise antes de conhecer os resultados. Depois, encontrou um padrão inesperado que deseja investigar. A conduta adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "alterar o registro para que pareça que o padrão era a hipótese original."
+        },
+        {
+          "id": "B",
+          "text": "apresentar a nova análise como teste previsto desde o início."
+        },
+        {
+          "id": "C",
+          "text": "descartar a análise porque pré-registro proíbe toda investigação nova."
+        },
+        {
+          "id": "D",
+          "text": "omitir o plano inicial para evitar divergência entre versões."
+        },
+        {
+          "id": "E",
+          "text": "identificar a análise nova como exploratória e explicitar sua diferença em relação ao plano inicial."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O pré-registro permite distinguir decisões prévias de escolhas motivadas pelos dados. Exploração pode gerar novas hipóteses; transparência exige não apresentá-la como teste previamente planejado. O registro não é uma proibição de aprender com achados novos. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Num experimento hipotético, voluntários foram distribuídos por sorteio entre dois procedimentos. Todos os voluntários usam o aplicativo, mas a equipe quer generalizar para todos os usuários do serviço. O sorteio entre procedimentos",
+      "options": [
+        {
+          "id": "A",
+          "text": "ajuda a comparar os grupos formados, mas não torna automaticamente os voluntários representativos de todos os usuários."
+        },
+        {
+          "id": "B",
+          "text": "equivale a sortear a amostra a partir de todos os usuários."
+        },
+        {
+          "id": "C",
+          "text": "elimina qualquer problema de cobertura causado pelo recrutamento."
+        },
+        {
+          "id": "D",
+          "text": "garante que usuários sem aplicativo estejam representados."
+        },
+        {
+          "id": "E",
+          "text": "dispensa o exame das perdas ocorridas após a distribuição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Distribuição aleatória entre procedimentos e seleção de participantes são decisões distintas. O sorteio pode tornar a comparação mais justa, mas não modifica quem teve chance de se voluntariar nem elimina perdas posteriores. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma avaliação hipotética identifica falhas que podem introduzir viés, mas não dispõe de dados para quantificar o desvio. Qual conclusão respeita essa limitação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O valor de todo resultado está necessariamente errado pela mesma quantidade."
+        },
+        {
+          "id": "B",
+          "text": "Foi comprovada fraude intencional dos pesquisadores."
+        },
+        {
+          "id": "C",
+          "text": "A direção e o tamanho do desvio podem ser deduzidos apenas do nome do viés."
+        },
+        {
+          "id": "D",
+          "text": "Há risco de viés a investigar; sua intensidade, direção e intenção não estão determinadas só por essa identificação."
+        },
+        {
+          "id": "E",
+          "text": "A falta de uma quantificação elimina o risco apontado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Uma ameaça metodológica pode ser identificada sem medir seu efeito em um resultado particular. Nem desvio uniforme, direção específica ou fraude decorrem apenas do rótulo. A ausência de quantificação também não demonstra ausência de risco. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pesquisa hipotética recruta apenas voluntários muito interessados no serviço e pergunta: “Você concorda que o excelente atendimento merece avaliação positiva?”. O diagnóstico adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "há riscos distintos de seleção e medição; ampliar a amostra pelo mesmo processo não neutraliza necessariamente nenhum deles."
+        },
+        {
+          "id": "B",
+          "text": "há apenas risco de seleção, pois usar a mesma pergunta para todos impede viés de medição."
+        },
+        {
+          "id": "C",
+          "text": "há apenas risco de medição, pois voluntários formam automaticamente uma amostra representativa."
+        },
+        {
+          "id": "D",
+          "text": "os dois problemas deixam de importar se o número de respostas for suficientemente grande."
+        },
+        {
+          "id": "E",
+          "text": "corrigir o recrutamento garante neutralidade da pergunta sem que ela seja alterada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quem se dispõe a participar pode diferir do alvo; o enunciado da pergunta favorece uma resposta. Os mecanismos podem coexistir e exigem medidas próprias. Repetir o processo ou corrigir só um dos componentes não garante resolver o outro. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um censo hipotético, todos os elementos da população-alvo são observados, mas o equipamento acrescenta uma unidade a cada medição. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode haver viés porque ninguém ficou fora."
+        },
+        {
+          "id": "B",
+          "text": "a cobertura completa transforma o acréscimo em variação aleatória."
+        },
+        {
+          "id": "C",
+          "text": "a ausência de amostragem não elimina o desvio sistemático de medição."
+        },
+        {
+          "id": "D",
+          "text": "o acréscimo pode ser ignorado ao calcular a média, porque afeta todos da mesma forma."
+        },
+        {
+          "id": "E",
+          "text": "a medição se torna correta se o total de elementos for suficientemente grande."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Observar todos os elementos remove a seleção de uma amostra como fonte dessa variação, mas não corrige o aparelho. O acréscimo permanece em cada registro e na média; cobertura, medição e divulgação são mecanismos diferentes. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe hipotética exclui registros com falha documentada de equipamento, usando regra definida antes da análise e aplicada a resultados favoráveis e desfavoráveis. Apenas essa informação permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda exclusão é viés de confirmação."
+        },
+        {
+          "id": "B",
+          "text": "a exclusão não caracteriza, por si só, confirmação: há critério metodológico explícito aplicado sem depender do sentido do resultado."
+        },
+        {
+          "id": "C",
+          "text": "resultados desfavoráveis podem ser excluídos adicionalmente por discordarem da hipótese."
+        },
+        {
+          "id": "D",
+          "text": "o critério garante ausência de todos os demais vieses."
+        },
+        {
+          "id": "E",
+          "text": "a regra só é válida se nenhum registro com resultado desfavorável for retirado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Excluir por falha documentada com critério comum não equivale a descartar apenas por discordância da hipótese. Isso não garante toda a validade da pesquisa nem autoriza novas exclusões orientadas pelo resultado. O critério pode excluir registros favoráveis ou desfavoráveis à hipótese quando há a mesma falha. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe hipotética estudou apenas usuários do aplicativo, declarou esse grupo como sua população-alvo e limitou a conclusão a ele. A ausência de usuários exclusivamente presenciais",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna o estudo inválido mesmo que a seleção e a medição dentro do alvo declarado sejam adequadas."
+        },
+        {
+          "id": "B",
+          "text": "comprova falta de representatividade até mesmo no alvo declarado."
+        },
+        {
+          "id": "C",
+          "text": "exige sempre que o alvo seja alterado para incluir todos os usuários do serviço."
+        },
+        {
+          "id": "D",
+          "text": "impede qualquer conclusão até mesmo sobre usuários do aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "não demonstra, por si só, viés para o alvo declarado, mas limita a extensão da conclusão a todos os usuários do serviço."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O alvo declarado é restrito e a conclusão respeita esse limite. A ausência dos presenciais, por si, não prova distorção nesse alvo nem erro de registro ou publicação. Generalizar a todos os usuários exigiria outra justificativa; outros vieses ainda podem existir. Questão autoral; cenário hipotético."
+    },
+    {
+      "id": "per-u026-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma revisão hipotética quer avaliar se estudos ou resultados desfavoráveis ficaram sem divulgação. Qual procedimento atua diretamente na investigação desse risco?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consultar somente os artigos dos periódicos mais conhecidos."
+        },
+        {
+          "id": "B",
+          "text": "Buscar registros e relatórios de pesquisas e comparar os resultados planejados com os efetivamente divulgados."
+        },
+        {
+          "id": "C",
+          "text": "Descartar estudos com conclusões inconclusivas antes de examinar seu método."
+        },
+        {
+          "id": "D",
+          "text": "Aumentar o número de participantes dos estudos que já apareceram."
+        },
+        {
+          "id": "E",
+          "text": "Considerar a ausência de publicação como prova suficiente de baixa qualidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Registros, protocolos e relatórios podem revelar estudos ou medidas ausentes nos artigos. Comparar plano e relato ajuda a investigar seleção pela natureza do resultado. Prestígio do periódico, tamanho das amostras disponíveis e exclusão por conclusão não recuperam as evidências omitidas; ausência, sozinha, não prova baixa qualidade. Questão autoral; cenário hipotético."
+    }
+  ]
+}
