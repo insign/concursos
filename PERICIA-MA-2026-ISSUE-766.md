@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 30 | 0 | 6 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 40 | 0 | 11 |
-| Unidades distintas | 99 | 56 | 7 | 36 |
-| Entregáveis unitários C/H/Q | 297 | 168 | 21 | 108 |
+| Unidades distintas | 99 | 56 | 6 | 37 |
+| Entregáveis unitários C/H/Q | 297 | 168 | 18 | 111 |
 
-Estado confirmado: **36 unidades/visões publicadas (36 locais, 0 por vínculo); 108 C/H/Q aceitos; 43/132 referências literais aceitas; 1370 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **37 unidades/visões publicadas (37 locais, 0 por vínculo); 111 C/H/Q aceitos; 45/132 referências literais aceitas; 1391 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U038 — Organização administrativa da União**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 1/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U038 — Organização administrativa da União**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 2/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -570,7 +570,7 @@ Grupo consumidor: `conhecimentos-gerais/nocoes-direito/`, relativo à raiz defin
 |---|---|---|---|---|
 | PER-U037 — Estado, governo e administração: fundamentos e princípios | E04: 1, 1.1, 1.2 | O035 | `estado-governo-administracao-principios` / `per-u037` / 370 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U038 — Organização administrativa da União | E04: 1, 1.3 | O036 | `organizacao-administrativa-uniao` / `per-u038` / 380 | Direta/indireta federais; não presumir estrutura estadual equivalente. |
-| PER-U039 — Agentes públicos: espécies, cargo, emprego e função | E04: 2, 2.1, 2.3 | O037 | `agentes-publicos-cargo-emprego-funcao` / `per-u039` / 390 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U039 — Agentes públicos: espécies, cargo, emprego e função | E04: 2, 2.1, 2.3 | O037 | `agentes-publicos-cargo-emprego-funcao` / `per-u039` / 390 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U040 — Poderes, deveres e prerrogativas dos agentes | E04: 2, 2.2 | O038 | `agentes-poderes-deveres-prerrogativas` / `per-u040` / 400 | Recorte do agente; poder administrativo é ponte, não disciplina nova. |
 | PER-U041 — Regime jurídico: ingresso, vacância e movimentação | E04: 2, 2.4 | O039, O040 | `regime-juridico-provimento-movimentacao` / `per-u041` / 410 | Regime não nomeado pelo edital: delimitar bases conceituais e diferenciar exemplos federal/estadual; não escolher estatuto aplicável por suposição. |
 | PER-U042 — Direitos e vantagens dos agentes públicos | E04: 2, 2.5 | O039 | `agentes-direitos-vantagens` / `per-u042` / 420 | Mesmo limite de aplicabilidade de U041. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 43/132 |
-| Unidades distintas da objetiva | 98 | 36 |
+| Referências literais da objetiva | 132/132 | 45/132 |
+| Unidades distintas da objetiva | 98 | 37 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 36 |
-| Entregáveis unitários C/H/Q | 297: 168 pending + 21 analyzing + 108 done | 108 done |
-| Visões consumidoras previstas | 99 | 36 |
+| Total de unidades distintas | 99 | 37 |
+| Entregáveis unitários C/H/Q | 297: 168 pending + 18 analyzing + 111 done | 111 done |
+| Visões consumidoras previstas | 99 | 37 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 34 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 35 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 36 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 37 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1698,6 +1698,24 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/estado-governo-administracao-principios/referencias.md` | `cddc1d1c0ca2d77ff6b3b03894f85e7d1fc29ee2` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/grupo.json` | `7881cb916d15145abd9849156755fc5562050b93` |
 
+#### PER-U039 — Agentes públicos, cargo, emprego e função: parcial local
+
+- **Decisão e origens:** classificação anterior à autoria persistida às 06:51:39Z. O037 Técnico específico físico, tec-nocoes-agentes-144, C `50d2833b09b95bde26352114e03f89bfb78d78da`; quatro artefatos e 60 questões integrais. O038 geral completo com 60 questões tem IDs homônimos e versões diferentes, sem vínculo presumido e sem item importado. Comparadores PC federal completos com 20 e SEAP completos com 18; PC estadual e TCE constitucional apenas C integral para fronteiras. Consumidores físicos próprios, sem Analista inferido; árvore 3383 completa sem vínculos/resoluções nos quatro prefixos. Doadores intactos, achado externo de HTML SEAP não transplantado.
+- **C/H e intervenção:** pessoa e vínculo precedem cargo, emprego e função, regime e ingresso. Aula ensina função sem novo cargo, comissão e confiança com exclusividade/reserva constitucional, efetividade distinta de estabilidade, contratação temporária condicionada e particulares em colaboração. Rótulo assessor não altera tarefa técnica; função policial não cria regime militar. Taxonomias doutrinárias são contextualizadas, sem regra única sobre magistrados/Ministério Público. Lei 8.429 artigo 2º apenas para seus próprios efeitos; exemplos 8.112 federais não impõem estatuto ao cargo estadual. U040–44 preservam poderes, trajetória, vantagens, disciplina e responsabilidades.
+- **Questões e revisões:** 21 itens/105 opções, 20 autorais O037 e uma anterior nova. Conjunto 1→2. Dezessete IDs q114001/003/007/009/012/016/018/021/023/025/026/027/028/029/043/046/050 revisão 1→2 por comando/opções; q114004/034/036 revisão 1, apenas explicações melhoradas. IDs/origin/chaves herdados preservados. per-u039-p01 revisão 1, previous_exam, chave A. Raiz e independente u017 leram todos os comandos, opções, chaves e explicações, confrontando condições e distratores; campos Q inteiramente texto puro.
+- **Primárias e anterior:** autor/independente reconsultaram Constituição 37 I/II/V/IX, 41/42/142/173/236; Lei 8.429 artigo 2º, 8.112 âmbito e vocabulário mínimo, Código Eleitoral 120 e Código de Processo Penal 436 nos trechos declarados. Raiz reabriu e leu os incisos determinantes do artigo 37. Temas STF 1010/612, teses oficiais completas no conteúdo indexado: finalidade/confiança/proporcionalidade/atribuições na própria lei; cinco requisitos cumulativos temporários e limite dos serviços ordinários permanentes. Aberturas diretas falharam, sem acórdão integral certificado. Manual CGU maio 2017, seção 4.2.3 pp.34–36, usado apenas para classificação, sem disciplina atual presumida. Cebraspe TCE Paraíba Agente de Documentação, 13/01/2018, caderno 366_TCE_PB_001_01 questão 12 e definitivo 01 integralmente confrontados pelo autor/independente, A; não misturar letra E do caderno ampliado 06. Parafraseada com exigência constitucional preservada.
+- **Densidade e ajuda:** C 1655→1785 palavras (+7,9%) por exemplos e precisão; H 782→358 (−54,2%), retirando matrizes/fluxos reiterativos. C caracteres visíveis 11361→12215, H 6684→2810; HTML separado 728→1137/203→493, sem alegar redução total só por tags. Siglas renderizadas expandidas em cada uso permitido, sem ajuda em links/controles/Q. Raiz expandiu apenas o nome institucional inicial em R, relido por u017 e autor; R 4619→4694 bytes, C/H/Q intactos.
+- **Inspeção individual PER-F02:** raiz leu C/H/R/evidence e todas as 21 questões integralmente; revisão independente u017 e delta R confirmados. Identidade per-u039/390/rota, ajudas, fontes, plain text, pertinência, revisões e corte 17/07/2026 conferidos. Grupo Noções de Direito existente blob `7881cb916d15145abd9849156755fc5562050b93` revalidado. Quatro arquivos completos/blobs/escopo/parent/head confirmados abaixo. Registro F02 distinto do aceite C/H/Q e da macro; sem testes/build/check/CI, edição de doadores/infra/catálogos, estatuto aplicável presumido ou certificação do marco futuro 11/12/2026.
+
+**Publicação confirmada:** [`a5d046a`](https://github.com/insign/concursos/commit/a5d046a9a6f16d6f6fa976454343db8610320a8c), parent `7aebc06ad42f135ca14a251a026db99000b91bf4`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-publicos-cargo-emprego-funcao/conteudo.md` | `9243906c91edd03097fea8fc078f8adf3d8131d0` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-publicos-cargo-emprego-funcao/cheat-sheet.md` | `e3ba7addee91d33b64c61446aa35ddbca0970f6c` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-publicos-cargo-emprego-funcao/questoes.json` | `2d2cd1de4244b26b4ba6a73e250d9354d2d9962f` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/nocoes-direito/agentes-publicos-cargo-emprego-funcao/referencias.md` | `d02214e658ec3eb2a77187f44c2bb67ecb6a654d` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2099,9 +2117,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U039 — Agentes públicos: espécies, cargo, emprego e função
 
-- [ ] PER-U039-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U039-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U039-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U039-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U039-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U039-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U040 — Poderes, deveres e prerrogativas dos agentes
 
@@ -2675,3 +2693,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U036:** artefatos `a900eb455e0da80e63afee4c5a547c2c309bf59d` confirmados; aceitos neste registro 25 itens, C/H/Q e proveniência 5.11. Totais resultantes: 35/99 unidades, 105/297 C/H/Q, 41/132 referências, 1351 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U037 — Estado, governo e administração: fundamentos e princípios; campanha aberta.
 
 - **PER-U037:** artefatos `d7adbedd6fd87ae10c1b6feea68ca7a1d938903d` confirmados; aceitos neste registro 19 itens, C/H/Q e proveniência 5.11. Totais resultantes: 36/99 unidades, 108/297 C/H/Q, 43/132 referências, 1370 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U038 — Organização administrativa da União; campanha aberta.
+
+- **PER-U039:** artefatos `a5d046a9a6f16d6f6fa976454343db8610320a8c` confirmados; aceitos neste registro 21 itens, C/H/Q e proveniência 5.11. Totais resultantes: 37/99 unidades, 111/297 C/H/Q, 45/132 referências, 1391 questões. Macros 11 done/40 pending/0 analyzing. Próxima ação PER-U038 — Organização administrativa da União; campanha aberta.
