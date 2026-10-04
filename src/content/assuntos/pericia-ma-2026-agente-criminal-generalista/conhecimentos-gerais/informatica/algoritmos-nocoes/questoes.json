@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 6,
+  "questions": [
+    {
+      "id": "q3842",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um algoritmo pode ser definido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma descrição do resultado desejado, que deixa a ordem das operações a cargo de quem executa."
+        },
+        {
+          "id": "B",
+          "text": "um programa executável escrito necessariamente em uma linguagem de programação determinada."
+        },
+        {
+          "id": "C",
+          "text": "uma relação de dados de entrada e resultados, sem instruções para transformar uns nos outros."
+        },
+        {
+          "id": "D",
+          "text": "um conjunto organizado de passos e condições suficientemente precisos para realizar uma tarefa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O algoritmo explicita como realizar a tarefa, por meio de operações e condições organizadas. Descrever só o resultado ou relacionar dados não fornece o procedimento. Um programa pode implementar esse procedimento, mas uma representação em linguagem comum ou pseudocódigo também pode expressar o algoritmo."
+    },
+    {
+      "id": "q3850",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um algoritmo percorre uma lista finita de quantidades inteiras não negativas e conta as que são maiores ou iguais a 20. Para conferir a seleção e o percurso, qual conjunto de casos oferece situações relevantes distintas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas listas com muitos valores acima de 20, pois elas dispensam conferir a igualdade no limite."
+        },
+        {
+          "id": "B",
+          "text": "Apenas uma lista com 19, 20 e 21, pois esse caso também demonstra o comportamento com lista vazia."
+        },
+        {
+          "id": "C",
+          "text": "Apenas listas vazias e com zeros, pois testar a contagem basta para verificar a comparação com 20."
+        },
+        {
+          "id": "D",
+          "text": "Listas vazias, com um e com vários itens, incluindo valores abaixo de 20, iguais a 20 e acima de 20."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os tamanhos distintos examinam o percurso, inclusive sua ausência, e os valores em torno de 20 examinam a fronteira da seleção. Uma lista com 19, 20 e 21 não reproduz, por si, a lista vazia. Casos só acima do limite ou só com zeros deixam comportamentos relevantes sem exame. Mesmo esse conjunto de testes não prova sozinho correção para todas as listas possíveis."
+    },
+    {
+      "id": "per-u036-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um procedimento recebe as quantidades de quatro caixas, calcula sua soma e apresenta o total. Nesse procedimento, a lista recebida e o total apresentado são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "processamento e entrada."
+        },
+        {
+          "id": "B",
+          "text": "entrada e saída."
+        },
+        {
+          "id": "C",
+          "text": "saída e processamento."
+        },
+        {
+          "id": "D",
+          "text": "entrada e processamento."
+        },
+        {
+          "id": "E",
+          "text": "processamento e saída."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lista fornece os dados da tarefa e é a entrada. A soma é parte do processamento; o total apresentado é a saída. Um mesmo valor pode ser resultado interno antes de ser apresentado, mas o comando identifica aqui os papéis de lista recebida e total apresentado."
+    },
+    {
+      "id": "per-u036-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere a execução sequencial, com ← indicando atribuição e × indicando multiplicação:\n\nx ← 4\ny ← x + 1\nx ← y × 3\n\nAo final, os valores de x e y são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 e 5."
+        },
+        {
+          "id": "B",
+          "text": "15 e 16."
+        },
+        {
+          "id": "C",
+          "text": "15 e 5."
+        },
+        {
+          "id": "D",
+          "text": "12 e 5."
+        },
+        {
+          "id": "E",
+          "text": "15 e 15."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "x recebe 4; y usa esse valor e recebe 5; x então recebe 5 multiplicado por 3, isto é, 15. A atribuição final a x não recalcula y, que permanece 5. O valor usado na terceira instrução é y, e não o antigo x."
+    },
+    {
+      "id": "per-u036-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na convenção em que ← indica atribuição e = compara igualdade, a instrução x ← x + 1 significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "comparar x com o resultado de x + 1, sem alterar o valor armazenado."
+        },
+        {
+          "id": "B",
+          "text": "armazenar 1 em x, ignorando o valor que x tinha."
+        },
+        {
+          "id": "C",
+          "text": "estabelecer uma igualdade permanente entre x e x + 1."
+        },
+        {
+          "id": "D",
+          "text": "reservar o nome x, deixando seu valor sem definição."
+        },
+        {
+          "id": "E",
+          "text": "calcular x + 1 com o valor atual de x e guardar o resultado em x."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A expressão à direita é calculada com o estado atual; depois o resultado substitui o valor de x. Se x era 6, passa a ser 7. Trata-se de atribuição, não de comparação ou igualdade matemática permanente."
+    },
+    {
+      "id": "per-u036-q004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na notação em que × é multiplicação e sua prioridade supera a da adição, os resultados de 3 + 2 × 5 e (3 + 2) × 5 são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "13 e 25."
+        },
+        {
+          "id": "B",
+          "text": "25 e 25."
+        },
+        {
+          "id": "C",
+          "text": "13 e 13."
+        },
+        {
+          "id": "D",
+          "text": "25 e 13."
+        },
+        {
+          "id": "E",
+          "text": "10 e 25."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem parênteses, calcula-se primeiro 2 vezes 5 e depois se acrescenta 3: 13. Com parênteses, soma-se 3 a 2 antes da multiplicação: 25. Ignorar a prioridade ou os parênteses igualaria indevidamente os resultados."
+    },
+    {
+      "id": "per-u036-q005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um contador começa em zero. Para cada quantidade da lista [19, 20, 21], ele recebe contador + 1 apenas quando quantidade ≥ 20. Qual valor será exibido depois do percurso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1."
+        },
+        {
+          "id": "B",
+          "text": "2."
+        },
+        {
+          "id": "C",
+          "text": "3."
+        },
+        {
+          "id": "D",
+          "text": "20."
+        },
+        {
+          "id": "E",
+          "text": "41."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "19 não atende; 20 e 21 atendem, pois ≥ inclui a igualdade. O contador é aumentado uma vez por ocorrência, chegando a 2. Somar os valores selecionados produziria 41, mas essa não é a operação informada."
+    },
+    {
+      "id": "per-u036-q006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere E como conjunção e OU em sentido inclusivo. Qual condição aceita somente as quantidades entre 10 e 20, incluindo ambos os limites?",
+      "options": [
+        {
+          "id": "A",
+          "text": "(quantidade > 10) E (quantidade < 20)."
+        },
+        {
+          "id": "B",
+          "text": "(quantidade ≥ 10) OU (quantidade ≤ 20)."
+        },
+        {
+          "id": "C",
+          "text": "(quantidade ≥ 10) E (quantidade ≤ 20)."
+        },
+        {
+          "id": "D",
+          "text": "(quantidade ≤ 10) OU (quantidade ≥ 20)."
+        },
+        {
+          "id": "E",
+          "text": "(quantidade = 10) OU (quantidade = 20)."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As duas desigualdades inclusivas precisam ser satisfeitas simultaneamente. A conjunção inclui os extremos e os valores intermediários. Desigualdades estritas retiram os extremos; testar só igualdades retira o interior. O OU entre quantidade ≥ 10 e quantidade ≤ 20 aceita também valores fora do intervalo."
+    },
+    {
+      "id": "per-u036-q007",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere os comandos independentes, executados na ordem indicada:\n\nx ← 12\nse x ≥ 10 então\n    exiba \"A\"\nfim se\nse x ≤ 15 então\n    exiba \"B\"\nfim se\n\nQual será a saída?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente A, porque a primeira condição verdadeira impede o segundo teste."
+        },
+        {
+          "id": "B",
+          "text": "Somente B, porque a segunda decisão substitui a primeira."
+        },
+        {
+          "id": "C",
+          "text": "Nenhuma mensagem, porque as condições se sobrepõem."
+        },
+        {
+          "id": "D",
+          "text": "A e depois B, porque os dois testes são verdadeiros e independentes."
+        },
+        {
+          "id": "E",
+          "text": "B e depois A, porque o limite superior deve ser testado primeiro."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com x = 12, as duas condições são verdadeiras. O primeiro SE imprime A e o segundo, independente, imprime B. Não há SENÃO ligando os blocos nem regra que substitua uma saída pela outra; a ordem de execução é a escrita."
+    },
+    {
+      "id": "per-u036-q008",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma cadeia de decisão é executada com x = 25:\n\nse x ≥ 10 então\n    exiba \"A\"\nsenão se x ≥ 20 então\n    exiba \"B\"\nsenão\n    exiba \"C\"\nfim se\n\nQual resultado decorre dessa organização?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente A, pois o primeiro ramo verdadeiro é escolhido."
+        },
+        {
+          "id": "B",
+          "text": "Somente B, pois o critério mais restrito sempre tem prioridade automática."
+        },
+        {
+          "id": "C",
+          "text": "A e B, pois ambas as comparações seriam verdadeiras."
+        },
+        {
+          "id": "D",
+          "text": "Somente C, pois a sobreposição invalida os dois primeiros ramos."
+        },
+        {
+          "id": "E",
+          "text": "B e depois A, pois as condições são avaliadas em ordem inversa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A primeira condição já é verdadeira. Nessa cadeia, seu ramo é executado e os ramos ligados por SENÃO não são escolhidos. O algoritmo não reordena sozinho os critérios para preferir o mais restrito. Se a intenção fosse classificar 25 em B, seria necessário reorganizar a lógica."
+    },
+    {
+      "id": "per-u036-q009",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere:\n\ni ← 5\nsoma ← 0\nenquanto i ≤ 3 faça\n    soma ← soma + i\n    i ← i + 1\nfim enquanto\nexiba soma\n\nQual valor é exibido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5, pois o primeiro valor de i sempre entra na soma."
+        },
+        {
+          "id": "B",
+          "text": "6, pois são somados os inteiros de 1 a 3, independentemente do valor inicial de i."
+        },
+        {
+          "id": "C",
+          "text": "1, pois o bloco executa uma vez antes do teste."
+        },
+        {
+          "id": "D",
+          "text": "15, pois o laço soma todos os valores até 5."
+        },
+        {
+          "id": "E",
+          "text": "0, pois a condição inicial é falsa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "ENQUANTO testa antes do bloco. Como 5 ≤ 3 é falso, nenhuma iteração ocorre e soma conserva sua inicialização em zero. A garantia de ao menos uma execução pertence ao modelo de teste ao final, não a esse ENQUANTO."
+    },
+    {
+      "id": "per-u036-q010",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere ← como atribuição:\n\ni ← 2\nsoma ← 0\nenquanto i ≤ 5 faça\n    soma ← soma + i\n    i ← i + 1\nfim enquanto\nexiba soma, i\n\nQuais valores são exibidos, na ordem solicitada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "9 e 5."
+        },
+        {
+          "id": "B",
+          "text": "14 e 6."
+        },
+        {
+          "id": "C",
+          "text": "14 e 5."
+        },
+        {
+          "id": "D",
+          "text": "20 e 6."
+        },
+        {
+          "id": "E",
+          "text": "12 e 6."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O bloco soma 2, 3, 4 e 5, totalizando 14. Após somar 5, i é atualizado para 6; o novo teste falha. Portanto, o valor final de i é 6, embora o último valor que satisfez a condição tenha sido 5. Excluir a igualdade retiraria a última soma."
+    },
+    {
+      "id": "per-u036-q011",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na convenção REPITA...ATÉ, o teste ocorre depois do bloco e a repetição para quando a condição final é verdadeira. Considere:\n\ni ← 8\nrepita\n    i ← i + 1\naté i > 3\nexiba i\n\nQual valor será exibido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "8, porque a condição já era verdadeira antes do bloco."
+        },
+        {
+          "id": "B",
+          "text": "A execução não termina, porque a condição final verdadeira mantém a repetição ativa."
+        },
+        {
+          "id": "C",
+          "text": "9, porque o bloco executa uma vez antes do teste."
+        },
+        {
+          "id": "D",
+          "text": "10, porque o teste ao final exige duas execuções."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O modelo informado executa o bloco antes de testar. i passa de 8 para 9; então 9 > 3 é verdadeiro e a repetição termina. A condição seria verdadeira no estado inicial, mas não é avaliada antes da primeira execução nesse modelo."
+    },
+    {
+      "id": "per-u036-q012",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na convenção em que REPITA...ATÉ termina quando a condição final é verdadeira, considere:\n\ni ← 0\nrepita\n    i ← i + 2\naté i ≥ 3\nexiba i\n\nO bloco executa quantas vezes e qual valor de i é exibido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uma vez; 2."
+        },
+        {
+          "id": "B",
+          "text": "Três vezes; 6."
+        },
+        {
+          "id": "C",
+          "text": "Duas vezes; 3."
+        },
+        {
+          "id": "D",
+          "text": "Duas vezes; 4."
+        },
+        {
+          "id": "E",
+          "text": "Zero vezes; 0."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Depois da primeira execução, i = 2 e 2 ≥ 3 é falso: o bloco repete. Depois da segunda, i = 4 e a condição é verdadeira: o laço termina. A variável avança de dois em dois, sem precisar assumir exatamente o valor 3."
+    },
+    {
+      "id": "per-u036-q013",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O objetivo é somar os inteiros de 1 a 3 e terminar. Considere:\n\ni ← 1\nsoma ← 0\nenquanto i ≤ 3 faça\n    soma ← soma + i\nfim enquanto\n\nQual alteração permite cumprir esse objetivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acrescentar i ← i + 1 após a soma, dentro do bloco."
+        },
+        {
+          "id": "B",
+          "text": "Acrescentar soma ← 0 após a soma, dentro do bloco."
+        },
+        {
+          "id": "C",
+          "text": "Trocar a condição i ≤ 3 por i < 3."
+        },
+        {
+          "id": "D",
+          "text": "Trocar soma ← soma + i por soma ← soma + 1."
+        },
+        {
+          "id": "E",
+          "text": "Trocar a inicialização i ← 1 por i ← 0."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O bloco original altera soma, mas mantém i = 1; o teste continua verdadeiro. Acrescentar o avanço após cada soma faz o bloco usar 1, 2 e 3 e sair com i = 4 e soma = 6. As outras alterações continuam sem mudar i dentro do bloco, não alcançam o término exigido e, em alguns casos, também alteram incorretamente o cálculo."
+    },
+    {
+      "id": "per-u036-q014",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao percorrer [4, 7, 9], um algoritmo inicializa a ← 0 e b ← 0. Para cada valor, faz a ← a + 1 e b ← b + valor. Ao final, a e b representam, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a soma dos valores e a quantidade de itens."
+        },
+        {
+          "id": "B",
+          "text": "o último valor e a soma dos valores."
+        },
+        {
+          "id": "C",
+          "text": "a quantidade de itens e o último valor."
+        },
+        {
+          "id": "D",
+          "text": "a soma dos valores e a quantidade de itens positivos."
+        },
+        {
+          "id": "E",
+          "text": "a quantidade de itens e a soma dos valores."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "a recebe uma unidade por item, funcionando como contador e terminando em 3. b acrescenta cada valor ao resultado anterior, funcionando como acumulador e terminando em 20. Somar 1 e somar o valor corrente atendem a objetivos diferentes."
+    },
+    {
+      "id": "per-u036-q015",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um algoritmo inicia total e selecionadas em zero. Percorre [8, 20, 23], acrescentando cada quantidade a total. Quando a quantidade é maior ou igual a 20, acrescenta uma unidade a selecionadas. A saída total, selecionadas será",
+      "options": [
+        {
+          "id": "A",
+          "text": "51, 1."
+        },
+        {
+          "id": "B",
+          "text": "43, 2."
+        },
+        {
+          "id": "C",
+          "text": "51, 2."
+        },
+        {
+          "id": "D",
+          "text": "3, 43."
+        },
+        {
+          "id": "E",
+          "text": "23, 1."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O total reúne todas as quantidades: 8 + 20 + 23 = 51. A seleção inclui 20 e 23, portanto conta duas ocorrências. Excluir 20 confundiria ≥ com >; somar apenas as selecionadas daria 43; zerar o acumulador em cada item impediria reunir toda a lista."
+    },
+    {
+      "id": "per-u036-q016",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere a lista [4, 9, 6] e o procedimento:\n\npara cada valor na lista faça\n    total ← 0\n    total ← total + valor\nfim para\nexiba total\n\nQual é a saída?",
+      "options": [
+        {
+          "id": "A",
+          "text": "19, porque todos os valores são visitados."
+        },
+        {
+          "id": "B",
+          "text": "6, porque total é zerado em cada iteração."
+        },
+        {
+          "id": "C",
+          "text": "3, porque o laço tem três iterações."
+        },
+        {
+          "id": "D",
+          "text": "9, porque esse é o maior valor."
+        },
+        {
+          "id": "E",
+          "text": "0, porque a inicialização impede a soma."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em cada iteração, total volta a zero antes de receber o valor corrente. Os valores ao final de cada bloco são 4, 9 e 6; a saída é 6. Visitar todos os itens não garante acumular todos eles. Para obter 19, a inicialização deveria ocorrer antes do laço."
+    },
+    {
+      "id": "per-u036-q017",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um fluxograma, um losango testa quantidade ≥ 20. A seta rotulada Verdadeiro leva à operação de acrescentar uma unidade ao contador; a seta Falso desvia dessa operação. Os caminhos se encontram depois. Para quantidade = 20, qual percurso corresponde ao desenho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seguir Falso, pois a igualdade não satisfaz ≥."
+        },
+        {
+          "id": "B",
+          "text": "Executar as duas saídas do losango, pois elas se encontram depois."
+        },
+        {
+          "id": "C",
+          "text": "Seguir Verdadeiro e acrescentar 20 ao contador, usando o valor do limite como incremento."
+        },
+        {
+          "id": "D",
+          "text": "Seguir Verdadeiro, executar o acréscimo e continuar após o encontro dos caminhos."
+        },
+        {
+          "id": "E",
+          "text": "Parar no losango, pois a igualdade não corresponde a nenhuma das duas saídas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A igualdade está incluída em ≥, logo o percurso é o ramo Verdadeiro. Esse ramo executa o acréscimo e depois segue adiante. O encontro posterior das setas não faz executar o ramo que foi desviado; repetição dependeria de um retorno indicado no fluxo."
+    },
+    {
+      "id": "per-u036-q018",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe representa a mesma solução em pseudocódigo, usando palavras e delimitadores diferentes dos de outra equipe. Qual critério permite avaliar essas representações?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As convenções precisam estar claras e conservar operações, caminhos e condições da solução."
+        },
+        {
+          "id": "B",
+          "text": "Ambas precisam usar uma sintaxe universal de pseudocódigo para representar um algoritmo."
+        },
+        {
+          "id": "C",
+          "text": "A redação precisa ser aceita diretamente por um compilador, ainda que omita condições."
+        },
+        {
+          "id": "D",
+          "text": "Os nomes de variáveis precisam ser idênticos, mesmo que as operações estejam bem definidas."
+        },
+        {
+          "id": "E",
+          "text": "A representação com menos linhas é necessariamente a que conserva a lógica correta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Não existe uma única sintaxe universal de pseudocódigo. Convenções diferentes podem expor a mesma lógica se seu significado for claro e os mecanismos forem preservados. Compilação direta, identidade dos nomes ou menor quantidade de linhas não substituem essa conferência."
+    },
+    {
+      "id": "per-u036-q019",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um algoritmo foi especificado para receber apenas quantidades inteiras não negativas. O texto não define tratamento para entradas negativas. Após funcionar com 0, 5 e 20, pode-se concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ele aceita qualquer número, porque as operações aritméticas são válidas."
+        },
+        {
+          "id": "B",
+          "text": "ele rejeita automaticamente as entradas negativas."
+        },
+        {
+          "id": "C",
+          "text": "ele corrige automaticamente uma quantidade negativa para zero."
+        },
+        {
+          "id": "D",
+          "text": "ele funciona para todas as entradas admitidas, pois três casos foram conferidos."
+        },
+        {
+          "id": "E",
+          "text": "os casos conferidos não demonstram o tratamento de negativas nem provam correção geral."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os três casos pertencem ao domínio especificado, mas não estabelecem tratamento para uma entrada excluída dele. Rejeitar ou corrigir exige uma regra definida. Conferir alguns casos também não prova que o resultado será correto para todas as entradas admitidas."
+    },
+    {
+      "id": "per-u036-q020",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas soluções devem contar quantidades maiores ou iguais a 20. A primeira aplica esse critério; a segunda usa quantidade > 20 e realiza menos operações. Quanto à tarefa exigida,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a segunda é correta porque sua execução exige menos operações."
+        },
+        {
+          "id": "B",
+          "text": "a segunda pode ser mais econômica, mas erra a classificação da quantidade 20."
+        },
+        {
+          "id": "C",
+          "text": "ambas são corretas porque a diferença entre > e ≥ afeta apenas a velocidade."
+        },
+        {
+          "id": "D",
+          "text": "a primeira é incorreta porque inclui exatamente o valor de fronteira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tarefa inclui 20. A condição estrita da segunda solução exclui esse caso, independentemente da quantidade de operações. Eficiência é um aspecto distinto da correspondência ao resultado exigido; a forma de representação não altera o significado do critério."
+    },
+    {
+      "id": "per-u036-q021",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um procedimento define limite como valor fixo 20, sem permitir sua alteração durante a execução, enquanto total recebe sucessivas somas das quantidades. Pelos papéis descritos, limite e total funcionam, respectivamente, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "contador e constante."
+        },
+        {
+          "id": "B",
+          "text": "variável acumuladora e constante."
+        },
+        {
+          "id": "C",
+          "text": "constante e variável acumuladora."
+        },
+        {
+          "id": "D",
+          "text": "duas constantes, pois seus nomes não mudam."
+        },
+        {
+          "id": "E",
+          "text": "constante e contador de caixas, pois toda soma equivale à contagem de itens."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "limite é definido como fixo, sem alteração permitida, e funciona como constante. total muda ao reunir quantidades, funcionando como variável acumuladora. Uma variável manter o mesmo valor em um percurso não a torna constante; o enunciado especificou que limite não pode ser alterado. Acrescentar quantidades não é necessariamente contar ocorrências."
+    },
+    {
+      "id": "per-u036-q022",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere:\n\nx ← 7\nse x ≥ 10 então\n    se x ≤ 20 então\n        exiba \"A\"\n    fim se\nfim se\nexiba \"B\"\n\nQual saída será produzida?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A e depois B, pois 7 ≤ 20 é verdadeiro."
+        },
+        {
+          "id": "B",
+          "text": "Somente A, pois o teste interno tem prioridade."
+        },
+        {
+          "id": "C",
+          "text": "Nenhuma mensagem, pois o primeiro teste é falso."
+        },
+        {
+          "id": "D",
+          "text": "Somente B, pois o bloco interno não é alcançado e a sequência prossegue."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O teste externo 7 ≥ 10 é falso, então todo o seu bloco, inclusive a decisão interna, é desviado. A instrução que exibe B está fora desse bloco e executa em seguida. A verdade isolada de x ≤ 20 não faz alcançar uma instrução localizada em um caminho não escolhido."
+    },
+    {
+      "id": "per-u036-q023",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na convenção a seguir, PARA inclui ambos os limites e avança de uma unidade:\n\nsoma ← 0\npara i de 2 até 4 faça\n    soma ← soma + i\nfim para\nexiba soma\n\nQual valor será exibido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5, excluindo o limite final 4."
+        },
+        {
+          "id": "B",
+          "text": "9, somando 2, 3 e 4."
+        },
+        {
+          "id": "C",
+          "text": "7, excluindo o limite inicial 2."
+        },
+        {
+          "id": "D",
+          "text": "4, conservando apenas o último valor de i."
+        },
+        {
+          "id": "E",
+          "text": "3, contando uma unidade por iteração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A convenção informada executa o bloco para i = 2, i = 3 e i = 4. A soma acumulada é 2 + 3 + 4 = 9. Excluir um dos limites contraria o enunciado; conservar só o último valor ou acrescentar 1 em cada execução troca a operação de acumular os valores."
+    }
+  ]
+}
