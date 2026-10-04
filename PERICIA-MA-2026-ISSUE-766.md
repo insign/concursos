@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 33 | 0 | 3 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 43 | 0 | 8 |
-| Unidades distintas | 99 | 58 | 8 | 33 |
-| Entregáveis unitários C/H/Q | 297 | 174 | 24 | 99 |
+| Unidades distintas | 99 | 58 | 7 | 34 |
+| Entregáveis unitários C/H/Q | 297 | 174 | 21 | 102 |
 
-Estado confirmado: **33 unidades/visões publicadas (33 locais, 0 por vínculo); 99 C/H/Q aceitos; 39/132 referências literais aceitas; 1290 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **34 unidades/visões publicadas (34 locais, 0 por vínculo); 102 C/H/Q aceitos; 40/132 referências literais aceitas; 1326 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U035 — Segurança da informação**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 6/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U036 — Noções de algoritmos**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 8/9; E03 7/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -559,7 +559,7 @@ Grupo consumidor: `conhecimentos-gerais/informatica/`, relativo à raiz definida
 | PER-U032 — Correio eletrônico | E03: 4 | O030 | `correio-eletronico-nocoes` / `per-u032` / 320 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U033 — Redes neurais e inteligência artificial | E03: 5 | O031 | `redes-neurais-inteligencia-artificial` / `per-u033` / 330 | Conceitos, aprendizado e limites; redes neurais explicitamente cobertas. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U034 — Noções de computação na nuvem | E03: 6 | O032 | `computacao-nuvem-nocoes` / `per-u034` / 340 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
-| PER-U035 — Segurança da informação | E03: 7 | O033, O034 | `seguranca-informacao-nocoes` / `per-u035` / 350 | Princípios, ameaças e medidas; não importar toda a legislação digital do TCE. |
+| PER-U035 — Segurança da informação | E03: 7 | O033, O034 | `seguranca-informacao-nocoes` / `per-u035` / 350 | Princípios, ameaças e medidas; não importar toda a legislação digital do TCE. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U036 — Noções de algoritmos | E03: 8 | S05; sem candidato selecionado | `algoritmos-nocoes` / `per-u036` / 360 | Sequência, decisão, repetição e representação, com exemplos conceituais. |
 
 #### 5.2.4 Noções de Direito
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 39/132 |
-| Unidades distintas da objetiva | 98 | 33 |
+| Referências literais da objetiva | 132/132 | 40/132 |
+| Unidades distintas da objetiva | 98 | 34 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 33 |
-| Entregáveis unitários C/H/Q | 297: 174 pending + 24 analyzing + 99 done | 99 done |
-| Visões consumidoras previstas | 99 | 33 |
+| Total de unidades distintas | 99 | 34 |
+| Entregáveis unitários C/H/Q | 297: 174 pending + 21 analyzing + 102 done | 102 done |
+| Visões consumidoras previstas | 99 | 34 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 31 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 32 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 33 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 34 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1643,6 +1643,24 @@ Defeito comprovado pelo controlador vigente `b5663e2bf4dadd67e2a8989bb7362d0f813
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/computacao-nuvem-nocoes/questoes.json` | `e11c3a149d3d1bb47616e5a4b2d0355d8f2ce36f` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/computacao-nuvem-nocoes/referencias.md` | `14657208effe92d5dded8250d569467d1da37258` |
 
+#### PER-U035 — Segurança da informação: parcial local
+
+- **Decisão e origens:** parcial local comunicada antes da autoria e registrada no painel às06:32:22Z. O033 físico PC pc-u028/ordem28, C `b1cf71dcdfb08e9a27417e4588821aaf8102940b`; O034 canônico malware-protecao-ameacas, C `14bfa6912f1a4d35ef136555902634791187037b`; comparador físico SEAP antivírus/firewall, C `8e9dd04e6448304bd615cf155c17d0e83e008a08`. C/H/Q/R e todos os20/71/18 itens lidos integralmente pelo autor. Três vínculos O034 explicitamente resolvidos: PC ordem29/SHA `77ccbb05216c862bcc533b2dd87399be8dcca228`, dois TCE ordem27/SHA `36c7f1171c87a3455084532b42f0ea704ba804c2`. PC e SEAP físicos não confundidos com vínculos. Árvore3366 completa sem resoluções nos três prefixos; C vizinhos criptografia/backup apenas para fronteiras, seus H/Q/R não certificados. Doadores e consumidores intactos.
+- **C/H e intervenção:** exposição/alteração/interrupção constroem a tríade e efeitos combináveis. Autenticidade, autenticação/autorização, menor privilégio, fatores distintos, ameaça/vulnerabilidade/risco precedem mecanismos de malware/fraude. Hash exige referência confiável; preservação de dados não comprova verdade factual; assinatura não cifra por si só. Antimalware/firewall/atualizações/quarentena/backup têm limites, com contenção distinta de remoção/recuperação. Endereço/domínio e cifragem são pontes autônomas; cortados remissões PC, política federal, protocolos de e-mail, famílias/configurações avançadas e ordem universal de resposta. H recupera essas condições.
+- **Q e revisões:**36 itens,34 autorais/2 anteriores;30 herdados e6 novos, conjunto5→6. PC u028-a01/a02/a15/a17 revisão1 por explicação apenas; a03/a05…a13/a16 revisão2 por comando/opções. Treze autorais canônicos q4300/q4305/q4313/q4319/q4325/q4326/q4328/q4329/q4336/q4342/q4351/q4355/q4358 revisão2→3. q4360 revisão2 mantida por explicação apenas; q4361 revisão2→3 pelos distratores. Novos per-u035-q01…q06 revisão1. IDs/origin/chaves herdados preservados, nenhum ID SEAP transportado; sem quota. Raiz e independente u019 leram todos36 comandos,180 opções, chaves e explicações; delta q4319 completo relido por ambos, distratores próximos de cobranças/cópias/chaves/computadores versus bloqueio com ameaça de exposição, chaveB única. Todos os campos Q em texto puro.
+- **Fontes e alcance:** verbetes NIST, resumo1800-26A, fascículos CERT nas páginas declaradas,800-83r1 §§3.3/3.4.1,800-61r3 pp32–34, documentos Microsoft de mecanismos/erros,3986 §§3.2/3.2.2 e Public Suffix List em trechos. Raiz reabriu definições NIST de risco/assinatura digital e conferiu contexto de probabilidade/impacto e proteção de origem/integridade sem sigilo. Manuais extensos e obras subjacentes não certificados integralmente. Autor e independente reconsultaram caderno FGV TCE-PA2024 AuditorInformática/AnalistaSegurança Tipo1, Q66 p15/D e Q67 p16/E, definitivo quadro exato p15/linha61–80, aplicação11/08/2024. Adaptações temáticas locais declaradas; três anteriores PC e outras anteriores canônicas não revalidadas separadamente ou excluídas. Screenshots sem imagem inspecionável não certificados visualmente; consulta válida textual.
+- **Densidade:** C final1885 palavras visíveis aproximadas versus PC1429 e canônico2759; redução de cerca55% da soma4188, crescimento de cerca32% frente ao PC paga integração de ameaças e controles. H435 versus195+755. C HTML171 caracteres versus944 PC; Q zero HTML. Q final3588 palavras aproximadas de campos textuais após delta. Medidas descritivas excluem FM/tags/destinos/Markdown e não certificam navegador ou tempo. Conceitos ensinados no corpo; ajudas fora de links/controles/IDs.
+- **Inspeção individual PER-F02:** raiz leu C/H/R/evidence e36Q completos, metadados per-u035/350/rota, Markdown/ajudas/referências/contrato e revisões; independente u019 integral e delta fechado. Grupo Informática existente. Quatro conteúdos/blobs/escopo/parent/head confirmados na main abaixo, antes deste aceite. Classificação U042 anterior à autoria registrada no painel07:09:41Z, sem aceite. Registro unitário distinto da macroF02, sem extrapolação, testes/build/check/CI ou alterações de doadores/infra/catálogos; marco jurisprudencial futuro não certificado.
+
+**Publicação confirmada:** [`dc9668f`](https://github.com/insign/concursos/commit/dc9668f462e91c0df5e37f98a018be45bcec14ea), parent `50c51da06e854d6e04f93adda882ae7318b06064`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/seguranca-informacao-nocoes/conteudo.md` | `2718fd9dec03dec4ad3b7f76907c98194f8db132` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/seguranca-informacao-nocoes/cheat-sheet.md` | `5a7d67cf9c0803f576ea1018e69316403fa56c79` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/seguranca-informacao-nocoes/questoes.json` | `f1a2d8103ba48b235c1a74e435580b75122022aa` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/informatica/seguranca-informacao-nocoes/referencias.md` | `726b5c880885699bca7b5c1fe36115f5db466ddb` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2020,9 +2038,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U035 — Segurança da informação
 
-- [ ] PER-U035-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U035-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U035-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U035-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U035-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U035-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U036 — Noções de algoritmos
 
@@ -2614,3 +2632,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U033:** artefatos `5b070850ca60711cfd77d6461d11a32e22e95246` confirmados; aceitos neste registro 26 itens, C/H/Q e proveniência 5.11. Totais resultantes: 32/99 unidades, 96/297 C/H/Q, 38/132 referências, 1273 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U034 — Noções de computação na nuvem; campanha aberta.
 
 - **PER-U034:** artefatos `175c56970a7bb9d85b94c04543168944685aba60` confirmados; aceitos neste registro 17 itens, C/H/Q e proveniência 5.11. Totais resultantes: 33/99 unidades, 99/297 C/H/Q, 39/132 referências, 1290 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U035 — Segurança da informação; campanha aberta.
+
+- **PER-U035:** artefatos `dc9668f462e91c0df5e37f98a018be45bcec14ea` confirmados; aceitos neste registro 36 itens, C/H/Q e proveniência 5.11. Totais resultantes: 34/99 unidades, 102/297 C/H/Q, 40/132 referências, 1326 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U036 — Noções de algoritmos; campanha aberta.
