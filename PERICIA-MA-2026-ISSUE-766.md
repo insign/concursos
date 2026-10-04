@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades distintas | 99 | 73 | 7 | 19 |
-| Entregáveis unitários C/H/Q | 297 | 219 | 21 | 57 |
+| Unidades distintas | 99 | 73 | 6 | 20 |
+| Entregáveis unitários C/H/Q | 297 | 219 | 18 | 60 |
 
-Estado confirmado: **19 unidades/visões locais publicadas; 57 C/H/Q aceitos; 21/132 referências literais aceitas; 968 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **20 unidades/visões locais publicadas; 60 C/H/Q aceitos; 21/132 referências literais aceitas; 990 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U019 — Redação e correspondência oficial**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 18/19; E02 1/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U019 — Redação e correspondência oficial**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 18/19; E02 2/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -530,7 +530,7 @@ Grupo consumidor: `conhecimentos-gerais/raciocinio-logico-cientifico/`, relativo
 |---|---|---|---|---|
 | PER-U020 — Estruturas lógicas | E02: 1 | O021 | `estruturas-logicas` / `per-u020` / 200 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U021 — Proposições, conectivos e tabelas-verdade | E02: 3 | O022 | `proposicoes-tabelas-verdade` / `per-u021` / 210 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
-| PER-U022 — Equivalências e leis de De Morgan | E02: 3 | O023 | `equivalencias-de-morgan-diagramas-logicos` / `per-u022` / 220 | Negação/equivalência; não importar lógica de primeira ordem como capítulo extra. Pontes: PER-U021. |
+| PER-U022 — Equivalências e leis de De Morgan | E02: 3 | O023 | `equivalencias-de-morgan-diagramas-logicos` / `per-u022` / 220 | Negação/equivalência; não importar lógica de primeira ordem como capítulo extra. Pontes: PER-U021. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U023 — Argumentação e inferências lógicas | E02: 2 | O024 | `logica-argumentacao-inferencias` / `per-u023` / 230 | Validade e inferências, além de opinião persuasiva. Pontes: PER-U021. |
 | PER-U024 — Princípios de contagem e probabilidade | E02: 4 | O025 | `principios-contagem-probabilidade` / `per-u024` / 240 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U025 — Método científico, hipóteses e teorias | E02: 5, 8 | S05; sem candidato selecionado | `metodo-cientifico-hipoteses-teorias` / `per-u025` / 250 | Problema, hipótese testável, desenho, observação e limites; distinguir teoria de hipótese. |
@@ -914,16 +914,16 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
 | Referências literais da objetiva | 132/132 | 21/132 |
-| Unidades distintas da objetiva | 98 | 19 |
+| Unidades distintas da objetiva | 98 | 20 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 19 |
-| Entregáveis unitários C/H/Q | 297: 219 pending + 21 analyzing + 57 done | 57 done |
-| Visões consumidoras previstas | 99 | 19 |
+| Total de unidades distintas | 99 | 20 |
+| Entregáveis unitários C/H/Q | 297: 219 pending + 18 analyzing + 60 done | 60 done |
+| Visões consumidoras previstas | 99 | 20 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 | 19 classificadas como parcial local em PER-R02 |
+| Unidades com candidato identificado | 77 | 20 classificadas como parcial local em PER-R02 |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | 0 classificadas como novas |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 19 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 20 unidades locais, nenhum vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1363,6 +1363,24 @@ Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo 
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/estruturas-logicas/referencias.md` | `10ac45a6f12879630b7d1171a4a0a611bb7849c7` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/grupo.json` | `4d248a401d681199fb254899ce0ea42f2de4ceba` |
 
+#### PER-U022 — Equivalências e leis de De Morgan — C/H/Q done
+
+- **Origem/recorte/destino:** parcial local O023, E02:3 compartilhado com U021; origem `biblioteca/raciocinio-logico/equivalencias-de-morgan-diagramas-logicos/`, C/H/Q/R blobs `cf3e4c68a291c577b34b3dabef9f0ad891bc9ce7` / `fb704a2ceb5cc92a3d696e9b6d99cf7dce5b318f` / `ab746caab3544ef160a48367843d785eb558f72c` / `d159f866c05a4748e2e61acfd0f98b5ebacde28e`. Preparador leu C/H/Q/R e todas as 39 Q, três vínculos PC ordem38/TCEs39, C vizinho O022 e dois C físicos SEAP pertinentes; não certifica H/Q/R desses vizinhos físicos. Árvore-base completa sem resoluções; imagem categórica externa não transferida nem certificada visualmente. Classificação anterior à autoria registrada às04:57:56Z. Destino próprio Generalista no grupo científico, slug histórico equivalencias-de-morgan-diagramas-logicos, ID per-u022, ordem220; grupo já confirmado em U020. Biblioteca/consumidores preservados.
+- **C/H e cobertura:** constrói falha de conjunção/disjunção antes de De Morgan; distingue 'não ambos' de 'nenhum', nega cadeias e fórmulas aninhadas, reconstrói condicional, contraposição/conversa/inversa, bicondicional e sua negação. Equivalência exige todas as atribuições, admite substituição por equivalente e não equivale a implicação unilateral ou mera quantidade de linhas verdadeiras. Distributividade, absorção/fatoração e parênteses têm passos/contraexemplos. Mínimo autônomo de proposição/conectivos/tabela antes da remissão; recortes categóricos/quantificadores/diagramas de classes excluídos localmente. H recupera fórmulas/limites sem reensinar. Coordenador leu integralmente C/H/R e todos os22 itens, raciocinando cada chave; refinamentos finais q5019/per-u022-q06 relidos.
+- **Banco e revisões:** 22 Q, 18 autorais e quatro anteriores; 16 IDs herdados e seis novos, conjunto6→7. IDs/origin preservados, herdadas revisão+1; q5044-E corrigida para eliminar segundo contraexemplo válido. q5019-D confunde implicação unilateral com equivalência; per-u022-q06-E confunde bicondicional com valores diferentes. Novas per-u022-q01–q06 revisão1 aplicam negação aninhada, condicional composta, bicondicional, absorção, reagrupamento misto e dupla negação dos lados. Explicações inline suficientes. 23 itens originais excluídos após leitura por recorte/redundância; seis anteriores excluídas não recebem certificação institucional.
+- **Fontes primárias e limites:** quatro anteriores confrontadas por caderno/cargo/tipo/item/definitivo: q2026082803 TJRS2025 Técnico tipo1 Q38(B); q52203901/02 PCRO2022 Cargo6 caderno732_PCRO_CG4_01 Q17(B)/18(A), texto comum repetido por isolamento; q52203903 ALMT2013 Superior tipo2 Q20(C), quadro definitivo p.58 de59 inspecionado. Silva/UFR, Noções Básicas de Lógica e Conjuntos versão1.1,04/05/2026 §§2.4–2.5/3.5–3.6; Hammack Book of Proof edição3.4,2018 §2.6 pp50–52; Kwong Spiral Workbook §2.5 autoral via LibreTexts consultados nos trechos indicados em R, sem leitura integral de livros. S05 local consolidado sustenta item3; falha da abertura web não foi convertida em nova íntegra consultada. Corte17/07/2026 e marco jurisprudencial futuro preservados.
+- **Densidade/microglossário:** C bruto15125→12981 bytes, corpo sem tags13940→11896 caracteres e2286→1823 palavras; H3823→3569 bytes e633→403 palavras. Comparação honesta do recorte proposicional §§1–7:7303→11896 caracteres (+62,89%) e1199→1823 palavras (+52,04%); acréscimo justificado pelos mecanismos/condições/contraexemplos antes ausentes, sem compensação automática pelo corte categórico. Titles C273→301/H160→539 caracteres, incluídos no bruto; medidas aproximadas ainda contêm Markdown/LaTeX, sem renderização ou tempo de estudo. C/H ajudas técnicas no ponto/trecho isolado; instituições de R por extenso e Q sem pistas.
+- **Inspeção individual PER-F02:** coordenador inspecionou metadados/Markdown/microglossário, identidade/ordem/rota, respostas únicas e explicações de22 itens, revisões e referências; confirmação remota abaixo. Registro individual distinto do aceite C/H/Q, sem aceitar macro F02 nem E02:3 antes de U021. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`0e3f3b1`](https://github.com/insign/concursos/commit/0e3f3b182df18ad17ebdceece1bc25cff7ecd3c9), parent `34d7f98dd172fbf37fbd9388efc5c84f494fb3e2`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/equivalencias-de-morgan-diagramas-logicos/conteudo.md` | `879b2cff4b9510e1a640e77f0ddbec76ccb51048` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/equivalencias-de-morgan-diagramas-logicos/cheat-sheet.md` | `e6ba19a38449b06bcd192e2efbd8b68198b0e9b4` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/equivalencias-de-morgan-diagramas-logicos/questoes.json` | `ca7b21925e751bcdfdd087dc00d7f197226dfcef` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/equivalencias-de-morgan-diagramas-logicos/referencias.md` | `f07e04fe3bd31e90abc803e6795e66698957d5ba` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -1662,9 +1680,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U022 — Equivalências e leis de De Morgan
 
-- [ ] PER-U022-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U022-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U022-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U022-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U022-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U022-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U023 — Argumentação e inferências lógicas
 
@@ -2296,3 +2314,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U018:** artefatos `1ff79e43620b58ec0ab40da5e4be339b3d1bf13f` confirmados; aceitos neste registro 28 itens, C/H/Q e proveniência 5.11. Totais resultantes: 18/99 unidades, 54/297 C/H/Q, 20/132 referências, 935 questões. Macros 5 done/46 pending/0 analyzing. Próxima ação PER-U019 — Redação e correspondência oficial; campanha aberta.
 
 - **PER-U020:** artefatos `8b9073bd4196f686c6ace79b3db04eef89aee732` confirmados; aceitos neste registro 33 itens, C/H/Q e proveniência 5.11. Totais resultantes: 19/99 unidades, 57/297 C/H/Q, 21/132 referências, 968 questões. Macros 5 done/46 pending/0 analyzing. Próxima ação PER-U019 — Redação e correspondência oficial; campanha aberta.
+
+- **PER-U022:** artefatos `0e3f3b182df18ad17ebdceece1bc25cff7ecd3c9` confirmados; aceitos neste registro 22 itens, C/H/Q e proveniência 5.11. Totais resultantes: 20/99 unidades, 60/297 C/H/Q, 21/132 referências, 990 questões. Macros 5 done/46 pending/0 analyzing. Próxima ação PER-U019 — Redação e correspondência oficial; campanha aberta.
