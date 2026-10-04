@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 7,
+  "questions": [
+    {
+      "id": "q3699",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao julgar uma reescrita estrutural, qual sequência de análise é a mais segura?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Escolher a versão mais curta, ajustar a pontuação e encerrar a análise."
+        },
+        {
+          "id": "B",
+          "text": "Mapear a estrutura, executar a transformação e reler a versão inteira, comparando correção e sentido."
+        },
+        {
+          "id": "C",
+          "text": "Comparar apenas os conectores, pois eles concentram todo o sentido do período."
+        },
+        {
+          "id": "D",
+          "text": "Verificar primeiro o estilo e dispensar a análise dos participantes se a frase soar natural."
+        },
+        {
+          "id": "E",
+          "text": "Manter as mesmas palavras em qualquer ordem, porque isso garante equivalência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reescrita estrutural exige primeiro entender a arquitetura da frase, depois transformá-la e, por fim, conferir se papéis, relações e correção foram preservados."
+    },
+    {
+      "id": "q3702",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Compare “Não decidiu revisar o relatório” e “Decidiu não revisar o relatório”. A principal diferença decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "da concordância nominal."
+        },
+        {
+          "id": "B",
+          "text": "da regência do verbo revisar."
+        },
+        {
+          "id": "C",
+          "text": "do escopo da negação em cada estrutura."
+        },
+        {
+          "id": "D",
+          "text": "da voz passiva na segunda frase."
+        },
+        {
+          "id": "E",
+          "text": "da ausência de sujeito na primeira frase."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na primeira versão, a negação alcança a decisão; na segunda, a decisão existe e a negação integra seu conteúdo. O escopo mudou."
+    },
+    {
+      "id": "q3703",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em qual par o deslocamento preserva mais claramente a informação básica no contexto neutro?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Só Ana revisou o laudo. / Ana revisou só o laudo."
+        },
+        {
+          "id": "B",
+          "text": "A equipe revisou o protocolo em 2025. / Em 2025, a equipe revisou o protocolo."
+        },
+        {
+          "id": "C",
+          "text": "Não apenas Pedro revisou, mas Joana arquivou. / Pedro apenas não revisou, mas Joana arquivou."
+        },
+        {
+          "id": "D",
+          "text": "Apenas o laudo foi enviado. / O laudo foi apenas enviado."
+        },
+        {
+          "id": "E",
+          "text": "São as escolhas, e não as habilidades, que importam. / São as habilidades, e não as escolhas, que importam."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A circunstância de tempo pode ser anteposta sem trocar participantes nem o momento da revisão; o destaque pode mudar. Nos demais pares, muda o alcance de palavras como “só” e “apenas” ou a distribuição dos elementos afirmados e negados."
+    },
+    {
+      "id": "q3705",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual frase apresenta intercalação corretamente isolada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida segundo o relatório, reduziu custos."
+        },
+        {
+          "id": "B",
+          "text": "A medida, segundo o relatório reduziu custos."
+        },
+        {
+          "id": "C",
+          "text": "A medida, segundo o relatório, reduziu custos."
+        },
+        {
+          "id": "D",
+          "text": "A medida segundo, o relatório reduziu custos."
+        },
+        {
+          "id": "E",
+          "text": "A medida segundo o relatório reduziu, custos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O segmento intercalado deve ser delimitado nos dois lados; as demais alternativas rompem o pareamento ou separam termos sem justificativa."
+    },
+    {
+      "id": "q3707",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em 'Os servidores que concluíram o curso foram certificados', a oração adjetiva",
+      "options": [
+        {
+          "id": "A",
+          "text": "restringe a certificação aos servidores que concluíram."
+        },
+        {
+          "id": "B",
+          "text": "afirma necessariamente que todos os servidores concluíram."
+        },
+        {
+          "id": "C",
+          "text": "expressa a causa da certificação como oração adverbial."
+        },
+        {
+          "id": "D",
+          "text": "deveria obrigatoriamente vir entre vírgulas."
+        },
+        {
+          "id": "E",
+          "text": "é meramente explicativa e pode ser retirada sem alterar a extensão do referente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem vírgulas, a oração é restritiva e delimita o conjunto de servidores a que a afirmação se aplica."
+    },
+    {
+      "id": "q3709",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Dois períodos dizem apenas: “O prazo terminou. O setor enviou o relatório.” Qual união é inadequada se o contexto não fornece relação adicional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O prazo terminou, e o setor enviou o relatório."
+        },
+        {
+          "id": "B",
+          "text": "O prazo terminou; o setor enviou o relatório."
+        },
+        {
+          "id": "C",
+          "text": "O prazo terminou; além disso, o setor enviou o relatório."
+        },
+        {
+          "id": "D",
+          "text": "O setor enviou o relatório porque o prazo terminou."
+        },
+        {
+          "id": "E",
+          "text": "O prazo terminou, e o relatório foi enviado pelo setor."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Apenas 'porque' acrescenta uma causa. Coordenação aditiva, ponto e vírgula e mudança da voz do segundo período preservam os dois fatos sem lhes atribuir uma relação causal."
+    },
+    {
+      "id": "q3710",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Sabendo pelo contexto que a análise terminou, como dividir “O setor informou que a análise terminou”, conservando a informação e evitando transformar uma oração dependente em fragmento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O setor informou. Que a análise terminou."
+        },
+        {
+          "id": "B",
+          "text": "A análise terminou. O setor informou isso."
+        },
+        {
+          "id": "C",
+          "text": "O setor. Informou que a análise terminou."
+        },
+        {
+          "id": "D",
+          "text": "Que a análise terminou. Foi informado pelo setor."
+        },
+        {
+          "id": "E",
+          "text": "O setor informou que. A análise terminou."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A versão B reconstrói duas orações autônomas: primeiro afirma o término confirmado pelo contexto; depois retoma esse fato com “isso”. Separar “que a análise terminou” sem reconstrução deixa uma oração subordinada solta."
+    },
+    {
+      "id": "q3715",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em “Concluída a perícia, o material foi encaminhado”, qual desenvolvimento preserva adequadamente a leitura temporal indicada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque a perícia concluiria, o material foi encaminhado."
+        },
+        {
+          "id": "B",
+          "text": "Embora a perícia conclua, o material foi encaminhado."
+        },
+        {
+          "id": "C",
+          "text": "Depois que a perícia foi concluída, o material foi encaminhado."
+        },
+        {
+          "id": "D",
+          "text": "Para que a perícia concluísse, o material foi encaminhado."
+        },
+        {
+          "id": "E",
+          "text": "Se a perícia fosse concluída, o material foi encaminhado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A forma desenvolvida explicita a leitura temporal sem inventar agente e mantém a perícia como elemento concluído."
+    },
+    {
+      "id": "q3716",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual oração é reduzida de infinitivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quando terminou, saiu."
+        },
+        {
+          "id": "B",
+          "text": "Ao terminar a análise, enviou o parecer."
+        },
+        {
+          "id": "C",
+          "text": "Concluído o processo, arquivou-o."
+        },
+        {
+          "id": "D",
+          "text": "Embora estivesse cansado, continuou."
+        },
+        {
+          "id": "E",
+          "text": "Terminando a análise, enviou o parecer."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Terminar' está no infinitivo; 'ao' pode explicitar valor temporal no contexto. A alternativa E contém gerúndio."
+    },
+    {
+      "id": "q3717",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual oração é reduzida de gerúndio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Se houver falha, revise."
+        },
+        {
+          "id": "B",
+          "text": "Para revisar, leia."
+        },
+        {
+          "id": "C",
+          "text": "Mesmo estando atrasado, compareceu."
+        },
+        {
+          "id": "D",
+          "text": "Concluída a análise, envie."
+        },
+        {
+          "id": "E",
+          "text": "Quando estava atrasado, compareceu."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Estando' é gerúndio; a construção expressa concessão no contexto. B contém infinitivo; D, particípio; A e E são desenvolvidas."
+    },
+    {
+      "id": "q3719",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A passagem de “A comissão revisará o relatório” para a voz passiva analítica, preservando o tempo verbal, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório foi revisado pela comissão."
+        },
+        {
+          "id": "B",
+          "text": "O relatório será revisado pela comissão."
+        },
+        {
+          "id": "C",
+          "text": "O relatório seria revisado pela comissão."
+        },
+        {
+          "id": "D",
+          "text": "Revisa-se o relatório pela comissão."
+        },
+        {
+          "id": "E",
+          "text": "A comissão terá sido revisada pelo relatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O futuro do presente deve permanecer futuro: 'revisará' corresponde a 'será revisado'."
+    },
+    {
+      "id": "q3720",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em “Revisaram-se os relatórios”, a leitura de passiva sintética é sustentada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'se' é sempre sujeito da oração."
+        },
+        {
+          "id": "B",
+          "text": "'os relatórios' funciona como sujeito paciente e o verbo concorda com ele."
+        },
+        {
+          "id": "C",
+          "text": "todo verbo acompanhado de 'se' é impessoal."
+        },
+        {
+          "id": "D",
+          "text": "há obrigatoriamente um agente da passiva expresso."
+        },
+        {
+          "id": "E",
+          "text": "o verbo é intransitivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Os relatórios' pode corresponder ao sujeito paciente de 'Os relatórios foram revisados'; a concordância no plural reforça a análise passiva."
+    },
+    {
+      "id": "q3721",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Por que “Precisa-se de peritos” não deve ser transformada em “Peritos são precisados”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque a forma singular de 'precisa-se' indica que só um perito pratica a ação."
+        },
+        {
+          "id": "B",
+          "text": "Porque a presença de 'se' impede qualquer construção passiva."
+        },
+        {
+          "id": "C",
+          "text": "Porque 'de peritos' é complemento preposicionado de 'precisar de', não sujeito paciente de passiva."
+        },
+        {
+          "id": "D",
+          "text": "Porque 'se' é reflexivo e indica que os peritos praticam a ação sobre si mesmos."
+        },
+        {
+          "id": "E",
+          "text": "Porque 'de peritos' já expressa o agente da passiva e não poderia ocupar outra função."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O verbo 'precisar de' exige complemento com preposição; 'de peritos' não é objeto direto nem sujeito paciente. O 'se' indetermina quem precisa: não indica ação dos peritos sobre si mesmos e não torna os peritos agentes. Em 'Revisaram-se os relatórios', há outra construção, passiva, que admite plural."
+    },
+    {
+      "id": "q3722",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual nominalização preserva de modo mais claro os papéis de “A comissão aprovou o projeto”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a aprovação da comissão pelo projeto"
+        },
+        {
+          "id": "B",
+          "text": "a aprovação do projeto pela comissão"
+        },
+        {
+          "id": "C",
+          "text": "a comissão da aprovação do projeto"
+        },
+        {
+          "id": "D",
+          "text": "o projeto da comissão aprovada"
+        },
+        {
+          "id": "E",
+          "text": "a aprovação para a comissão do projeto"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Do projeto' mantém o paciente e 'pela comissão' mantém o agente. Outras formas podem inverter ou obscurecer esses papéis."
+    },
+    {
+      "id": "q3723",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "A troca de “A equipe pode revisar o relatório” por “a revisão do relatório pela equipe” perde, sem complemento adicional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a flexão de número do substantivo."
+        },
+        {
+          "id": "B",
+          "text": "o valor de possibilidade ou permissão marcado por 'pode', conforme o contexto."
+        },
+        {
+          "id": "C",
+          "text": "o objeto afetado pela revisão."
+        },
+        {
+          "id": "D",
+          "text": "o agente da revisão."
+        },
+        {
+          "id": "E",
+          "text": "a noção de relatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A nominalização mantém os participantes, mas não exprime sozinha a possibilidade ou a permissão que 'pode' acrescenta à revisão. Não é equivalente afirmar que uma revisão é possível e simplesmente nomear a revisão."
+    },
+    {
+      "id": "q3725",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Por que 'As normas foram publicadas. Entrarão em vigor' não equivale necessariamente a 'As normas publicadas entrarão em vigor'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A segunda elimina qualquer verbo principal."
+        },
+        {
+          "id": "B",
+          "text": "'Publicadas' passa obrigatoriamente a funcionar como advérbio."
+        },
+        {
+          "id": "C",
+          "text": "A segunda pode restringir a entrada em vigor ao subconjunto das normas publicadas."
+        },
+        {
+          "id": "D",
+          "text": "A primeira situa a publicação obrigatoriamente no futuro."
+        },
+        {
+          "id": "E",
+          "text": "A segunda transforma 'normas' em agente de uma ação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma informação independente sobre as normas pode virar caracterização restritiva que delimita o conjunto referido."
+    },
+    {
+      "id": "q3726",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em “Após a conclusão da análise, o setor publicou o resultado”, a reescrita “Depois que o setor concluiu a análise, publicou o resultado” só é equivalente se",
+      "options": [
+        {
+          "id": "A",
+          "text": "o contexto autorizar que o setor seja também quem concluiu a análise."
+        },
+        {
+          "id": "B",
+          "text": "a palavra 'resultado' for eliminada."
+        },
+        {
+          "id": "C",
+          "text": "a oração desenvolvida ficar sempre na voz passiva."
+        },
+        {
+          "id": "D",
+          "text": "o verbo 'publicar' passar ao futuro."
+        },
+        {
+          "id": "E",
+          "text": "a frase original tiver sujeito indeterminado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão nominal 'conclusão da análise' não identifica necessariamente seu agente. A verbalização não pode inventar que foi o setor quem concluiu."
+    },
+    {
+      "id": "q3727",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Em “Ana revisou o laudo; Bruno, o relatório”, a expansão estrutural correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ana revisou o laudo e o relatório de Bruno."
+        },
+        {
+          "id": "B",
+          "text": "Ana revisou o laudo, e Bruno revisou o relatório."
+        },
+        {
+          "id": "C",
+          "text": "Ana revisou o laudo, e Bruno revisou o laudo."
+        },
+        {
+          "id": "D",
+          "text": "Ana e Bruno revisaram o laudo."
+        },
+        {
+          "id": "E",
+          "text": "Ana revisou o relatório, e Bruno revisou o laudo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O verbo 'revisou' é recuperado na segunda oração, cuja pessoa é Bruno e cujo objeto é o relatório. A atribui os dois objetos a Ana e transforma Bruno em possuidor; C repete o objeto de Ana; D reúne os sujeitos e apaga o relatório; E troca os objetos. A <abbr title=\"omissão de um termo já expresso e recuperável\">zeugma</abbr> não autoriza mudar essas funções."
+    },
+    {
+      "id": "q3728",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Qual versão restabelece paralelismo sintático em “O plano prevê revisar o protocolo e a atualização do cadastro” sem mudar as duas ações previstas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O plano prevê revisar o protocolo e o cadastro atualizado."
+        },
+        {
+          "id": "B",
+          "text": "O plano prevê a revisão do protocolo e atualizar o cadastro."
+        },
+        {
+          "id": "C",
+          "text": "O plano prevê revisar o protocolo e atualizar o cadastro."
+        },
+        {
+          "id": "D",
+          "text": "O plano prevê o protocolo e a atualização do cadastro revisados."
+        },
+        {
+          "id": "E",
+          "text": "O plano prevê que o protocolo e o cadastro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os dois termos coordenados passam a infinitivos com a mesma função: 'revisar' e 'atualizar'."
+    },
+    {
+      "id": "q3733",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao desenvolver uma oração reduzida de gerúndio, é incorreto assumir automaticamente que o gerúndio expressa",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma relação que deve ser identificada pelo contexto."
+        },
+        {
+          "id": "B",
+          "text": "sempre causa, independentemente da frase."
+        },
+        {
+          "id": "C",
+          "text": "valor que pode ser temporal em certos contextos."
+        },
+        {
+          "id": "D",
+          "text": "valor que pode ser condicional em certos contextos."
+        },
+        {
+          "id": "E",
+          "text": "uma relação cuja explicitação pode exigir conectivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gerúndio não corresponde a um único conectivo. A relação precisa ser inferida do contexto antes da transformação."
+    },
+    {
+      "id": "q3734",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Comparada a 'A comissão aprovou o parecer', a frase 'O parecer foi aprovado'",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserva explicitamente o agente da ação."
+        },
+        {
+          "id": "B",
+          "text": "inverte obrigatoriamente o tempo verbal."
+        },
+        {
+          "id": "C",
+          "text": "nega a aprovação anteriormente afirmada."
+        },
+        {
+          "id": "D",
+          "text": "omite quem aprovou o parecer."
+        },
+        {
+          "id": "E",
+          "text": "transforma o parecer em agente da ação de aprovar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A passiva sem agente omite uma informação expressa na ativa: quem aprovou. O evento pode permanecer, mas há perda informacional."
+    },
+    {
+      "id": "q3741",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A nominalização pode apagar uma diferença entre 'vinha analisando' e 'analisou' porque o nome",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre indica futuro do presente."
+        },
+        {
+          "id": "B",
+          "text": "sempre expressa negação do evento."
+        },
+        {
+          "id": "C",
+          "text": "não marca sozinho o contraste entre continuidade e apresentação global do evento."
+        },
+        {
+          "id": "D",
+          "text": "não admite qualquer complemento nominal."
+        },
+        {
+          "id": "E",
+          "text": "obriga a interpretar a ação como hipotética."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Vinha analisando' apresenta a ação em continuidade; 'analisou' a apresenta globalmente. O nome 'análise' sozinho não conserva essa diferença de <abbr title=\"maneira de apresentar o desenvolvimento da ação\">aspecto verbal</abbr>. Isso não significa que todo pretérito perfeito garanta a conclusão material de qualquer ação."
+    },
+    {
+      "id": "q3746",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A reorganização de 'O auditor informou ao gestor que seu relatório estava pronto' exige cautela porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir 'seu' por 'dele' garante, sem contexto, que o relatório pertence ao gestor."
+        },
+        {
+          "id": "B",
+          "text": "o possessivo só pode retomar o sujeito 'auditor', qualquer que seja a construção resultante."
+        },
+        {
+          "id": "C",
+          "text": "unir as orações permite escolher livremente o possuidor, desde que a versão seja gramatical."
+        },
+        {
+          "id": "D",
+          "text": "'seu' pode ter mais de um antecedente humano plausível."
+        },
+        {
+          "id": "E",
+          "text": "a vírgula antes de 'que' eliminaria as duas leituras de posse."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O relatório pode ser do auditor ou do gestor; o contexto deve identificar o possuidor antes de uma reescrita o explicitar. Nem o sujeito nem o termo mais próximo são escolhas automáticas. 'Dele' também pode permanecer ambíguo; uma vírgula não resolve a posse. Correção gramatical não autoriza inventar de quem é o relatório."
+    },
+    {
+      "id": "q3748",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em 'Só a comissão analisou o relatório', 'só' restringe",
+      "options": [
+        {
+          "id": "A",
+          "text": "o relatório analisado."
+        },
+        {
+          "id": "B",
+          "text": "quem realizou a análise."
+        },
+        {
+          "id": "C",
+          "text": "o momento em que a análise ocorreu."
+        },
+        {
+          "id": "D",
+          "text": "o tempo verbal de 'analisou'."
+        },
+        {
+          "id": "E",
+          "text": "a possibilidade de o relatório existir."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O operador recai sobre 'a comissão', excluindo outros agentes. Em 'A comissão analisou só o relatório', o foco seria o objeto."
+    },
+    {
+      "id": "q3750",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Trocar o verbo durante uma reorganização pode exigir nova preposição principalmente por causa da",
+      "options": [
+        {
+          "id": "A",
+          "text": "concordância entre sujeito e verbo."
+        },
+        {
+          "id": "B",
+          "text": "pontuação dos adjuntos deslocados."
+        },
+        {
+          "id": "C",
+          "text": "correferência dos pronomes do período."
+        },
+        {
+          "id": "D",
+          "text": "regência do novo verbo ou nome."
+        },
+        {
+          "id": "E",
+          "text": "posição informacional do tópico."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A <abbr title=\"relação pela qual um verbo ou nome exige seus complementos\">regência</abbr> determina a ligação com os complementos. “Analisou a proposta” tem objeto direto; “referiu-se à proposta” exige a preposição “a”, combinada com o artigo “a”. A nova construção deve ser avaliada por inteiro."
+    },
+    {
+      "id": "q3753",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma reorganização deve ser rejeitada por diferença de sentido quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "as versões apresentam o mesmo número de verbos."
+        },
+        {
+          "id": "B",
+          "text": "ambas são gramaticais, ainda que com focos diferentes permitidos pelo comando."
+        },
+        {
+          "id": "C",
+          "text": "há situação plausível em que uma pode ser verdadeira e a outra, falsa."
+        },
+        {
+          "id": "D",
+          "text": "a nova versão é mais curta do que a original."
+        },
+        {
+          "id": "E",
+          "text": "a ordem dos termos foi alterada, ainda que nenhuma relação tenha mudado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O contraexemplo revela mudança nas condições de verdade ou nas relações relevantes; mera diferença de extensão ou ordem não basta."
+    },
+    {
+      "id": "q3756",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma reescrita com pronome relativo falha quando o pronome",
+      "options": [
+        {
+          "id": "A",
+          "text": "introduz oração adjetiva mantendo o mesmo antecedente e a mesma função."
+        },
+        {
+          "id": "B",
+          "text": "passa a retomar antecedente diferente e altera o participante da ação."
+        },
+        {
+          "id": "C",
+          "text": "evita repetição de um nome sem criar ambiguidade."
+        },
+        {
+          "id": "D",
+          "text": "mantém a mesma cadeia referencial da versão original."
+        },
+        {
+          "id": "E",
+          "text": "é deslocado sem que sua referência ou função se modifiquem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mudar o antecedente do relativo altera a estrutura de referência e pode mudar quem pratica ou recebe a ação, mesmo que a frase resultante seja gramatical."
+    },
+    {
+      "id": "q3757",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para a base “O órgão revisará a norma se houver erro”, qual reorganização conserva a condição e emprega a pontuação adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O órgão revisará, a norma se houver erro."
+        },
+        {
+          "id": "B",
+          "text": "Quando houver erro, o órgão talvez revisaria a norma."
+        },
+        {
+          "id": "C",
+          "text": "Se houver erro, o órgão revisará a norma."
+        },
+        {
+          "id": "D",
+          "text": "Porque houver erro, o órgão revisará a norma."
+        },
+        {
+          "id": "E",
+          "text": "Embora houver erro, o órgão revisará a norma."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A oração condicional anteposta mantém o conector 'se' e é separada por vírgula, sem alterar tempo ou relação lógica."
+    },
+    {
+      "id": "q3759",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Uma prova pede a transformação adequada de uma estrutura reduzida em desenvolvida. Qual opção preserva corretamente o valor de “É raro alguém querer ouvir aquilo que não quer ouvir”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "É raro alguém para que ouvisse aquilo que não quer ouvir."
+        },
+        {
+          "id": "B",
+          "text": "É raro que alguém queira ouvir aquilo que não quer ouvir."
+        },
+        {
+          "id": "C",
+          "text": "É raro quando alguém ouviria aquilo que não quer ouvir."
+        },
+        {
+          "id": "D",
+          "text": "É raro porque alguém queira ouvir aquilo que não quer ouvir."
+        },
+        {
+          "id": "E",
+          "text": "É raro alguém que terá ouvido aquilo que não quer ouvir."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A oração com infinitivo é desenvolvida por 'que' + subjuntivo, preservando sujeito e valor da construção. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, <abbr title=\"Tribunal de Contas do Estado de Goiás\">TCE-GO</abbr>, Analista de Controle Externo — Controle Externo, Tipo 1, 2024, questão 2; gabarito definitivo B. Fontes oficiais em referencias.md."
+    },
+    {
+      "id": "q3763",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Assinale a descrição correta da transformação feita entre as duas versões.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“para enriquecer os objetos” → “para o enriquecimento dos objetos”: oração reduzida transformada em desenvolvida."
+        },
+        {
+          "id": "B",
+          "text": "“Errar é humano. Culpar a máquina também.” → “Errar é humano, embora culpar a máquina também seja.”: simples troca de pontuação sem nova relação."
+        },
+        {
+          "id": "C",
+          "text": "“gostam de ser a exceção da regra” → “gostam de ser a exceção dela”: substituição por hiperônimo."
+        },
+        {
+          "id": "D",
+          "text": "“deseja realizar o projeto e o pagamento do serviço” → “deseja realizar o projeto e receber o pagamento”: ajuste que restabelece o paralelismo entre os termos coordenados."
+        },
+        {
+          "id": "E",
+          "text": "“é preciso fugir na direção certa” → “é preciso fazê-lo na direção certa”: substituição por sinônimo lexical."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A segunda construção coordena dois infinitivos dependentes de 'deseja' — 'realizar' e 'receber' — e restabelece a correspondência entre as ações. A transforma a oração em expressão nominal; B acrescenta concessão; C troca o nome por pronome, e não por um <abbr title=\"termo de sentido mais amplo, como animal em relação a cão\">hiperônimo</abbr>; E retoma uma ação por 'fazê-lo', sem substituí-la por sinônimo lexical. Adaptação não literal da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, Receita Federal do Brasil, Auditor-Fiscal, Tipo 4, 2023, questão 9; gabarito definitivo D. Fontes oficiais em referencias.md."
+    },
+    {
+      "id": "per-u017-q001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere “Embora os pareceres estivessem incompletos, a comissão podia aprová-los”, com “podia” indicando possibilidade. Qual versão conserva os participantes, o contraste e esse valor verbal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os pareceres estavam incompletos. Por isso, foram aprovados pela comissão."
+        },
+        {
+          "id": "B",
+          "text": "Os pareceres estavam incompletos. Mesmo assim, tinham de ser aprovados pela comissão."
+        },
+        {
+          "id": "C",
+          "text": "Os pareceres estavam incompletos. Mesmo assim, podiam ser aprovados pela comissão."
+        },
+        {
+          "id": "D",
+          "text": "A comissão estava incompleta. Mesmo assim, podia aprovar os pareceres."
+        },
+        {
+          "id": "E",
+          "text": "Se os pareceres estivessem incompletos, seriam aprovados pela comissão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Mesmo assim” mantém a expectativa contrariada que “embora” introduzia; “podiam ser aprovados” conserva a possibilidade e a passiva conserva quem aprovaria e o que seria aprovado. A afirma aprovação realizada e causa; B impõe obrigação; D troca quem estava incompleto; E troca concessão por condição."
+    },
+    {
+      "id": "per-u017-q002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual reescrita de “Antes de os servidores saírem, a reunião terminou” desenvolve a oração reduzida e conserva os participantes e a relação temporal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antes da saída dos servidores, a reunião terminou."
+        },
+        {
+          "id": "B",
+          "text": "Antes que os servidores saíssem, a reunião terminou."
+        },
+        {
+          "id": "C",
+          "text": "Antes de saírem os servidores, a reunião terminou."
+        },
+        {
+          "id": "D",
+          "text": "Depois que os servidores saíram, a reunião terminou."
+        },
+        {
+          "id": "E",
+          "text": "Antes que a reunião saísse, os servidores terminaram."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A construção com “antes que” e o verbo “saíssem” desenvolve a oração, preservando os servidores como quem sairia e o término da reunião como anterior à saída. A nominaliza; C conserva o infinitivo flexionado e permanece reduzida; D inverte a relação temporal; E troca os participantes."
+    },
+    {
+      "id": "per-u017-q003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A base “A equipe revisou os dados para que o relatório ficasse correto” informa um objetivo. Qual versão conserva esse valor sem afirmar que o objetivo foi alcançado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equipe revisou os dados, de modo que o relatório ficou correto."
+        },
+        {
+          "id": "B",
+          "text": "Como o relatório ficou correto, a equipe revisou os dados."
+        },
+        {
+          "id": "C",
+          "text": "Os dados foram revisados pela equipe a fim de que o relatório ficasse correto."
+        },
+        {
+          "id": "D",
+          "text": "O relatório ficou correto; por isso, a equipe revisou os dados."
+        },
+        {
+          "id": "E",
+          "text": "Embora o relatório tivesse ficado correto, a equipe revisou os dados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“A fim de que” conserva a finalidade; a passagem à passiva mantém a equipe como agente e os dados como aquilo que foi revisado. A afirma um resultado alcançado; B e D apresentam a correção como causa ou motivo da revisão; E afirma a correção anterior e cria concessão. A finalidade, por si só, não assegura realização."
+    }
+  ]
+}
