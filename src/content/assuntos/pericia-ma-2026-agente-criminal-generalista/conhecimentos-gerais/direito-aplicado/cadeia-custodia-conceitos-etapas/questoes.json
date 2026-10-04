@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u093-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre o início da cadeia de custódia, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ela começa apenas quando o vestígio chega ao laboratório."
+        },
+        {
+          "id": "B",
+          "text": "Ela começa necessariamente após o laudo pericial."
+        },
+        {
+          "id": "C",
+          "text": "Ela pode começar com a preservação do local de crime ou com procedimento policial ou pericial em que seja detectado vestígio."
+        },
+        {
+          "id": "D",
+          "text": "Ela começa somente no armazenamento."
+        },
+        {
+          "id": "E",
+          "text": "Ela é aplicável apenas depois do oferecimento da denúncia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 158-A, § 1º, situa o início na preservação do local ou na detecção do vestígio em procedimentos policiais ou periciais."
+    },
+    {
+      "id": "u093-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual sequência contém, na ordem legal, as três primeiras etapas da cadeia de custódia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolamento, armazenamento e coleta."
+        },
+        {
+          "id": "B",
+          "text": "Coleta, processamento e descarte."
+        },
+        {
+          "id": "C",
+          "text": "Fixação, reconhecimento e transporte."
+        },
+        {
+          "id": "D",
+          "text": "Reconhecimento, isolamento e fixação."
+        },
+        {
+          "id": "E",
+          "text": "Recebimento, coleta e reconhecimento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 158-B inicia a sequência por reconhecimento, isolamento e fixação, seguindo depois para coleta e as demais etapas."
+    },
+    {
+      "id": "u093-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à coleta de vestígios na cadeia de custódia, o Código de Processo Penal determina que ela seja realizada",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente por duas testemunhas."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente por perito oficial, sem qualquer exceção."
+        },
+        {
+          "id": "C",
+          "text": "somente pelo juiz."
+        },
+        {
+          "id": "D",
+          "text": "apenas pelo delegado de polícia."
+        },
+        {
+          "id": "E",
+          "text": "preferencialmente por perito oficial."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 158-C usa a expressão 'preferencialmente por perito oficial'; trocar preferencialmente por exclusivamente altera a regra legal."
+    },
+    {
+      "id": "u031-a13",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo o modelo legal da cadeia de custódia, a central de custódia deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitir movimentações sem registro para acelerar exames."
+        },
+        {
+          "id": "B",
+          "text": "controlar e registrar entrada, saída, acessos e movimentações dos vestígios armazenados."
+        },
+        {
+          "id": "C",
+          "text": "receber somente documentos impressos."
+        },
+        {
+          "id": "D",
+          "text": "eliminar a necessidade de identificar quem acessa o material."
+        },
+        {
+          "id": "E",
+          "text": "descartar o vestígio imediatamente após o primeiro exame."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-E do Código de Processo Penal exige controle e registro da entrada, saída, acesso e movimentação dos vestígios na central de custódia."
+    },
+    {
+      "id": "u031-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O artigo 158-C do Código de Processo Penal estabelece que a coleta dos vestígios deve ser realizada",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente pelo delegado de polícia."
+        },
+        {
+          "id": "B",
+          "text": "preferencialmente por perito oficial."
+        },
+        {
+          "id": "C",
+          "text": "somente por testemunhas civis."
+        },
+        {
+          "id": "D",
+          "text": "por qualquer pessoa, sem registro de identidade."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente pelo juiz."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literalidade relevante é 'preferencialmente por perito oficial'. Transformar preferência em exclusividade altera a regra legal."
+    },
+    {
+      "id": "u031-a17",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Após a realização da perícia em um vestígio, qual afirmação melhor corresponde ao artigo 158-F do Código de Processo Penal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O material deve ser descartado imediatamente em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "O material deve retornar à central de custódia e nela permanecer, ressalvada hipótese legal de depósito em local diverso quando a central não puder armazená-lo."
+        },
+        {
+          "id": "C",
+          "text": "O perito passa a ser proprietário definitivo do material."
+        },
+        {
+          "id": "D",
+          "text": "A cadeia se encerra automaticamente no instante em que começa o exame."
+        },
+        {
+          "id": "E",
+          "text": "A guarda posterior é proibida para permitir irrepetibilidade do exame."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-F prevê retorno e permanência do material na central de custódia após a perícia; se a central não possuir espaço ou condições de armazenar determinado material, a autoridade competente deve determinar as condições de depósito em local diverso."
+    },
+    {
+      "id": "u031-p01",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Uma equipe preservou o local onde foi encontrado um dispositivo e registrou sua posição. A coleta do objeto ocorreu horas depois. A partir de qual marco pode ter começado a cadeia de custódia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente da coleta efetiva do dispositivo, ainda que o local tenha sido preservado antes."
+        },
+        {
+          "id": "B",
+          "text": "Da preservação do local, quando se iniciou o controle do vestígio, antes da coleta."
+        },
+        {
+          "id": "C",
+          "text": "Da emissão do laudo, após a extração dos dados."
+        },
+        {
+          "id": "D",
+          "text": "Do recebimento da cópia digital pelo juízo."
+        },
+        {
+          "id": "E",
+          "text": "Do descarte do suporte, depois de terminado o exame."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal de item da Polícia Científica de Alagoas de 2023. O artigo 158-A, § 1º, situa o início também na preservação do local ou em procedimento policial ou pericial no qual seja detectado vestígio."
+    },
+    {
+      "id": "u031-p02",
+      "revision": 3,
+      "origin": "previous_exam",
+      "prompt": "Antes de retirar uma mídia de uma sala, a equipe fotografa seu estado, descreve as conexões e anota a posição em que foi encontrada. Qual etapa legal corresponde principalmente a esse registro?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Descarte, pois a descrição autoriza eliminar a mídia."
+        },
+        {
+          "id": "B",
+          "text": "Fixação, que registra detalhadamente o vestígio e sua posição ou situação examinada."
+        },
+        {
+          "id": "C",
+          "text": "Transporte, ainda que a mídia permaneça no local."
+        },
+        {
+          "id": "D",
+          "text": "Armazenamento, porque o registro substitui o acondicionamento."
+        },
+        {
+          "id": "E",
+          "text": "Recebimento, mesmo sem transferência da posse."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal de item da Polícia Científica de Alagoas de 2023. O artigo 158-B, III, descreve a fixação como o registro detalhado do vestígio e de sua posição ou situação na área de exame."
+    },
+    {
+      "id": "per-u047-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para o Código de Processo Penal, a cadeia de custódia tem como função central",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir o exame pericial."
+        },
+        {
+          "id": "B",
+          "text": "manter e documentar a história cronológica do vestígio, rastreando posse e manuseio do reconhecimento ao descarte."
+        },
+        {
+          "id": "C",
+          "text": "registrar apenas o resultado final do laudo."
+        },
+        {
+          "id": "D",
+          "text": "identificar automaticamente o autor da infração."
+        },
+        {
+          "id": "E",
+          "text": "dispensar controle sobre transferências de posse."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-A define a cadeia como o conjunto de procedimentos usado para manter e documentar a história cronológica do vestígio e rastrear posse e manuseio até o descarte."
+    },
+    {
+      "id": "per-u047-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um agente público reconheceu um objeto como potencialmente relevante para a produção da prova pericial. Segundo o artigo 158-A,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ele passa a ser responsável por sua preservação."
+        },
+        {
+          "id": "B",
+          "text": "só haverá responsabilidade após o objeto chegar ao laboratório."
+        },
+        {
+          "id": "C",
+          "text": "o objeto deixa de ser vestígio até a coleta."
+        },
+        {
+          "id": "D",
+          "text": "apenas o juiz poderá preservá-lo."
+        },
+        {
+          "id": "E",
+          "text": "a cadeia fica suspensa até a emissão do laudo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Código atribui responsabilidade pela preservação ao agente público que reconhece elemento de potencial interesse para a produção da prova pericial."
+    },
+    {
+      "id": "per-u047-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio, para o artigo 158-A, § 3º, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente material biológico visível."
+        },
+        {
+          "id": "B",
+          "text": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, relacionado à infração penal."
+        },
+        {
+          "id": "C",
+          "text": "apenas aquilo que já foi processado em laboratório."
+        },
+        {
+          "id": "D",
+          "text": "a conclusão final do perito."
+        },
+        {
+          "id": "E",
+          "text": "qualquer informação sem relação com o fato investigado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição legal é ampla e abrange objeto ou material bruto, visível ou latente, constatado ou recolhido, desde que relacionado à infração."
+    },
+    {
+      "id": "per-u047-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na etapa de isolamento, o objetivo principal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "produzir imediatamente o laudo."
+        },
+        {
+          "id": "B",
+          "text": "evitar alteração do estado das coisas e preservar os ambientes relacionados ao vestígio e ao local do fato."
+        },
+        {
+          "id": "C",
+          "text": "formalizar a transferência de posse ao laboratório."
+        },
+        {
+          "id": "D",
+          "text": "descartar vestígios sem interesse aparente."
+        },
+        {
+          "id": "E",
+          "text": "embalar cada vestígio individualmente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Isolamento protege o estado das coisas e os ambientes imediato, mediato e relacionado, evitando intervenções antes da documentação e coleta adequadas."
+    },
+    {
+      "id": "per-u047-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa distingue corretamente fixação e coleta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixação retira o vestígio; coleta apenas o fotografa."
+        },
+        {
+          "id": "B",
+          "text": "Fixação registra detalhadamente o vestígio e sua posição; coleta o recolhe para análise pericial."
+        },
+        {
+          "id": "C",
+          "text": "São nomes diferentes para a mesma etapa."
+        },
+        {
+          "id": "D",
+          "text": "Coleta ocorre antes do reconhecimento."
+        },
+        {
+          "id": "E",
+          "text": "Fixação é o descarte documentado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fixação preserva informação sobre estado e posição; a coleta é a retirada controlada do vestígio para submissão à análise."
+    },
+    {
+      "id": "per-u047-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No acondicionamento, o Código exige que cada vestígio seja",
+      "options": [
+        {
+          "id": "A",
+          "text": "misturado aos demais para reduzir o número de recipientes."
+        },
+        {
+          "id": "B",
+          "text": "embalado individualmente, conforme sua natureza, com registro das informações de coleta e acondicionamento."
+        },
+        {
+          "id": "C",
+          "text": "guardado sem identificação para preservar anonimato."
+        },
+        {
+          "id": "D",
+          "text": "transportado antes de ser protegido."
+        },
+        {
+          "id": "E",
+          "text": "sempre colocado no mesmo tipo de recipiente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O acondicionamento deve respeitar características físicas, químicas e biológicas e individualizar o vestígio, registrando informações relevantes do procedimento."
+    },
+    {
+      "id": "per-u047-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Transporte e recebimento são etapas distintas porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o transporte formaliza a passagem de posse e o recebimento apenas desloca o material."
+        },
+        {
+          "id": "B",
+          "text": "o transporte realiza o deslocamento controlado e o recebimento formaliza a transferência de posse com os registros exigidos."
+        },
+        {
+          "id": "C",
+          "text": "o recebimento ocorre antes da coleta."
+        },
+        {
+          "id": "D",
+          "text": "nenhuma das duas etapas exige rastreabilidade."
+        },
+        {
+          "id": "E",
+          "text": "somente o transporte integra a cadeia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Transporte é a movimentação sob condições adequadas; recebimento é a formalização da transferência de posse com identificação e protocolo."
+    },
+    {
+      "id": "per-u047-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A etapa de processamento corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao exame pericial do vestígio, com metodologia adequada e formalização do resultado em laudo."
+        },
+        {
+          "id": "B",
+          "text": "ao isolamento do local antes de qualquer registro."
+        },
+        {
+          "id": "C",
+          "text": "ao descarte definitivo do material."
+        },
+        {
+          "id": "D",
+          "text": "à simples chegada à central de custódia."
+        },
+        {
+          "id": "E",
+          "text": "ao reconhecimento inicial do potencial interesse."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Processamento é o exame ou manipulação técnica do vestígio de acordo com metodologia adequada, com resultado formalizado no laudo."
+    },
+    {
+      "id": "per-u047-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Armazenamento, na cadeia de custódia, deve permitir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas descarte imediato após o primeiro exame."
+        },
+        {
+          "id": "B",
+          "text": "guarda em condições adequadas para processamento, contraperícia, devolução, transporte ou destinação posterior, mantendo rastreabilidade."
+        },
+        {
+          "id": "C",
+          "text": "retirada informal do vestígio por qualquer interessado."
+        },
+        {
+          "id": "D",
+          "text": "perda do vínculo com o laudo correspondente."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de registro de movimentações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Armazenar é manter o material protegido e recuperável para usos posteriores previstos, ligado ao respectivo registro e laudo."
+    },
+    {
+      "id": "per-u047-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As quatro 'fases' descoberta/preservação, retirada/transferência, exame/guarda e destinação final",
+      "options": [
+        {
+          "id": "A",
+          "text": "são as quatro etapas oficiais criadas pelo artigo 158-B."
+        },
+        {
+          "id": "B",
+          "text": "são um agrupamento didático das dez etapas legais e não substituem a enumeração do Código."
+        },
+        {
+          "id": "C",
+          "text": "foram estabelecidas pelo Código Penal."
+        },
+        {
+          "id": "D",
+          "text": "eliminam a necessidade de memorizar as dez etapas."
+        },
+        {
+          "id": "E",
+          "text": "só se aplicam a vestígios digitais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-B enumera dez etapas. As quatro fases são apenas uma organização pedagógica para enxergar blocos funcionais do percurso."
+    },
+    {
+      "id": "per-u047-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes de o perito responsável liberar um local isolado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pessoa pode entrar e retirar vestígios se registrar o nome."
+        },
+        {
+          "id": "B",
+          "text": "a entrada e a remoção de vestígios são vedadas nas condições do artigo 158-C."
+        },
+        {
+          "id": "C",
+          "text": "o isolamento deixa de integrar a cadeia."
+        },
+        {
+          "id": "D",
+          "text": "a coleta deve ser feita exclusivamente pela autoridade policial."
+        },
+        {
+          "id": "E",
+          "text": "o vestígio pode ser descartado se parecer sem interesse."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-C protege o local antes da liberação do perito responsável e veda ingresso ou remoção indevida de vestígios."
+    },
+    {
+      "id": "per-u047-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um lacre precisou ser rompido de forma autorizada para novo exame. A providência compatível com o artigo 158-D é",
+      "options": [
+        {
+          "id": "A",
+          "text": "descartar o lacre rompido sem qualquer registro."
+        },
+        {
+          "id": "B",
+          "text": "registrar responsável, data, local e finalidade, aplicar novo lacre e manter o lacre rompido no novo recipiente."
+        },
+        {
+          "id": "C",
+          "text": "substituir o recipiente sem registrar a abertura."
+        },
+        {
+          "id": "D",
+          "text": "considerar a prova automaticamente nula."
+        },
+        {
+          "id": "E",
+          "text": "apagar o número do lacre anterior para evitar confusão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei admite abertura controlada, mas exige registro detalhado do rompimento e da relacração e preservação do lacre rompido."
+    },
+    {
+      "id": "per-u047-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na central de custódia, o acesso ao material armazenado",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa identificação de quem acessou."
+        },
+        {
+          "id": "B",
+          "text": "deve permitir identificação da pessoa, data e hora, além do registro das movimentações."
+        },
+        {
+          "id": "C",
+          "text": "é livre para qualquer servidor."
+        },
+        {
+          "id": "D",
+          "text": "encerra a cadeia de custódia."
+        },
+        {
+          "id": "E",
+          "text": "não precisa ser protocolado quando o vestígio já foi periciado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-E exige protocolo de entrada e saída, identificação de acessos e registro de movimentações do vestígio."
+    },
+    {
+      "id": "per-u047-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre mesmidade, integridade e auditabilidade, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "São três novas etapas expressas do artigo 158-B."
+        },
+        {
+          "id": "B",
+          "text": "São lentes para avaliar se o material corresponde ao originalmente obtido, permaneceu confiável e possui percurso reconstruível."
+        },
+        {
+          "id": "C",
+          "text": "Aplicam-se exclusivamente a testemunhos."
+        },
+        {
+          "id": "D",
+          "text": "Mesmidade significa autoria do crime."
+        },
+        {
+          "id": "E",
+          "text": "Auditabilidade dispensa registro de transferências."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essas ideias descrevem qualidades que a documentação e o controle da cadeia procuram sustentar; não substituem nem ampliam as dez etapas legais."
+    },
+    {
+      "id": "per-u047-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ocorrência de uma irregularidade na cadeia de custódia",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre anula automaticamente toda a prova."
+        },
+        {
+          "id": "B",
+          "text": "é irrelevante por definição."
+        },
+        {
+          "id": "C",
+          "text": "exige avaliar concretamente o impacto sobre confiabilidade, identidade do material e possibilidade de controle, não havendo nulidade automática em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "transforma a prova em confissão."
+        },
+        {
+          "id": "E",
+          "text": "só importa se o vestígio for digital."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A jurisprudência do Superior Tribunal de Justiça rejeita a nulidade automática e exige exame concreto das consequências da falha para a confiabilidade e para o processo."
+    },
+    {
+      "id": "per-u047-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em evidência digital, um mecanismo técnico de verificação de integridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui sozinho toda a cadeia de custódia."
+        },
+        {
+          "id": "B",
+          "text": "pode auxiliar a demonstrar integridade e correspondência entre dados comparados, mas não substitui a documentação da trajetória do vestígio."
+        },
+        {
+          "id": "C",
+          "text": "prova necessariamente autoria e veracidade do conteúdo."
+        },
+        {
+          "id": "D",
+          "text": "é uma décima primeira etapa legal."
+        },
+        {
+          "id": "E",
+          "text": "dispensa controle de posse e acessos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ferramentas técnicas podem apoiar mesmidade e integridade de dados, mas a cadeia também exige origem, posse, manuseio, transferências, acessos, exame e guarda documentados."
+    }
+  ]
+}
