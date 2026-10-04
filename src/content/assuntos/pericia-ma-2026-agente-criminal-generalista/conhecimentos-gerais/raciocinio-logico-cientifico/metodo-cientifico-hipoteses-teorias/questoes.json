@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u025-q01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta um problema de pesquisa delimitado, em vez de apenas um tema ou uma tarefa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Secagem de materiais em laboratórios."
+        },
+        {
+          "id": "B",
+          "text": "Conhecer melhor os materiais utilizados pela equipe."
+        },
+        {
+          "id": "C",
+          "text": "Para porções do material X com a mesma massa inicial, elevar a temperatura de 20 para 30 graus Celsius reduz o tempo de secagem nas condições definidas?"
+        },
+        {
+          "id": "D",
+          "text": "Reunir todos os registros disponíveis sobre secagem."
+        },
+        {
+          "id": "E",
+          "text": "Aplicar um procedimento de medição de massa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa C delimita a unidade, a condição comparada e a resposta investigada. A indica um tema; B, um objetivo amplo; D e E, atividades que podem integrar a pesquisa, mas não formulam a pergunta que elas deverão responder."
+    },
+    {
+      "id": "per-u025-q02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma hipótese científica é testável quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "já recebeu confirmação suficiente para ser tratada como lei."
+        },
+        {
+          "id": "B",
+          "text": "admite identificar observações relevantes capazes de apoiá-la ou contrariá-la."
+        },
+        {
+          "id": "C",
+          "text": "explica igualmente qualquer resultado possível, sem precisar de ajustes examináveis."
+        },
+        {
+          "id": "D",
+          "text": "pode ser defendida por um especialista mesmo sem conexão com dados."
+        },
+        {
+          "id": "E",
+          "text": "depende apenas de medições numéricas, excluindo descrições sistemáticas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A testabilidade exige confronto possível com evidências. Não depende de a hipótese ser verdadeira ou já confirmada. Uma explicação que acomoda qualquer resultado não oferece esse confronto; autoridade e uso de números, isoladamente, também não o garantem."
+    },
+    {
+      "id": "per-u025-q03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe propõe que a temperatura mais alta favorece a secagem do material X. Para porções comparáveis, espera menor tempo médio a 30 graus Celsius do que a 20. Esse resultado esperado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma observação já realizada, pois foi expresso de modo preciso."
+        },
+        {
+          "id": "B",
+          "text": "uma teoria científica, pois conecta temperatura e secagem."
+        },
+        {
+          "id": "C",
+          "text": "a conclusão definitiva da pesquisa, pois decorre da hipótese."
+        },
+        {
+          "id": "D",
+          "text": "uma previsão derivada da hipótese e das condições assumidas, a comparar com os resultados."
+        },
+        {
+          "id": "E",
+          "text": "um fator de confusão, pois envolve duas temperaturas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A previsão descreve o que se espera observar caso a hipótese e as condições consideradas sejam adequadas. Ela ainda não é o resultado efetivamente medido nem a conclusão sobre o apoio recebido. Precisão na formulação não transforma expectativa em observação."
+    },
+    {
+      "id": "per-u025-q04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estudo hipotético de secagem, a equipe define que o tempo será contado até a massa deixar de variar acima de um limite estabelecido, usando o mesmo procedimento em todos os grupos. Essa decisão serve principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "tornar observável e comparável o conceito de secagem adotado no estudo."
+        },
+        {
+          "id": "B",
+          "text": "garantir que a hipótese sobre temperatura será confirmada."
+        },
+        {
+          "id": "C",
+          "text": "substituir a comparação entre as temperaturas por uma definição."
+        },
+        {
+          "id": "D",
+          "text": "tornar desnecessário registrar a incerteza das medidas."
+        },
+        {
+          "id": "E",
+          "text": "transformar uma hipótese em teoria antes da coleta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A decisão estabelece o critério e o procedimento usados para observar a secagem: é a operacionalização do conceito. Padronizar a medida permite comparação, mas não garante a hipótese, não elimina a incerteza e não dispensa os dados."
+    },
+    {
+      "id": "per-u025-q05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um experimento hipotético, o grupo a 30 graus Celsius recebe maior ventilação que o grupo a 20. O primeiro seca mais rapidamente. A principal limitação da atribuição dessa diferença à temperatura é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se pode usar uma temperatura mais baixa como condição de comparação."
+        },
+        {
+          "id": "B",
+          "text": "a ventilação deve ser tratada como o resultado, em lugar do tempo."
+        },
+        {
+          "id": "C",
+          "text": "qualquer comparação entre grupos deixa de ser científica se houver variação."
+        },
+        {
+          "id": "D",
+          "text": "a manipulação da temperatura transforma automaticamente o estudo em observacional."
+        },
+        {
+          "id": "E",
+          "text": "a ventilação varia junto com a temperatura e também pode afetar o tempo, misturando as explicações."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A ventilação é um fator de confusão nessa comparação. Como as duas condições mudam juntas e ambas podem afetar a resposta, a diferença observada não isola o efeito da temperatura. O problema está no desenho específico, não na mera existência de comparação ou variação."
+    },
+    {
+      "id": "per-u025-q06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para investigar secagem, uma equipe compara registros de dias já ocorridos, sem decidir a temperatura ou a ventilação a que os materiais foram expostos. Trata-se de",
+      "options": [
+        {
+          "id": "A",
+          "text": "um experimento controlado, porque a equipe compara resultados."
+        },
+        {
+          "id": "B",
+          "text": "um estudo observacional, que pode testar previsões, mas exige exame de diferenças entre os dias e explicações alternativas."
+        },
+        {
+          "id": "C",
+          "text": "uma pesquisa sem evidência empírica, porque usa registros existentes."
+        },
+        {
+          "id": "D",
+          "text": "uma dedução que dispensa examinar as medidas registradas."
+        },
+        {
+          "id": "E",
+          "text": "um experimento aleatório, porque os dias não foram escolhidos pela equipe."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A equipe observa exposições existentes; não atribui a intervenção investigada. Comparar registros não é, por si só, manipular condições ou sortear tratamentos. Registros podem fornecer evidências científicas, mas fatores que variam entre os dias precisam ser considerados."
+    },
+    {
+      "id": "per-u025-q07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Porções de material são distribuídas por sorteio entre duas condições experimentais. Essa distribuição",
+      "options": [
+        {
+          "id": "A",
+          "text": "assegura que as duas condições terão exatamente a mesma composição em qualquer sorteio."
+        },
+        {
+          "id": "B",
+          "text": "elimina automaticamente falhas do instrumento de medição."
+        },
+        {
+          "id": "C",
+          "text": "ajuda a reduzir diferenças sistemáticas entre grupos, sem garantir igualdade perfeita."
+        },
+        {
+          "id": "D",
+          "text": "garante que os resultados podem ser aplicados a todos os materiais."
+        },
+        {
+          "id": "E",
+          "text": "substitui a necessidade de definir como o tempo de secagem será medido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sorteio entre condições reduz a possibilidade de alocação sistematicamente diferente de porções. Ele não garante equilíbrio perfeito em cada execução, não corrige a medida e não torna universal o alcance de uma pesquisa com material específico."
+    },
+    {
+      "id": "per-u025-q08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um estudo adequado, a previsão de uma hipótese foi observada. A conclusão mais justificada é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o resultado oferece apoio à hipótese nas condições do estudo, devendo ser considerado com alternativas e limites."
+        },
+        {
+          "id": "B",
+          "text": "a hipótese foi demonstrada como a única explicação possível."
+        },
+        {
+          "id": "C",
+          "text": "a hipótese deve ser renomeada imediatamente como lei científica."
+        },
+        {
+          "id": "D",
+          "text": "não há necessidade de avaliar novos resultados sobre a mesma pergunta."
+        },
+        {
+          "id": "E",
+          "text": "o desenho passa a ser irrelevante porque previsão e resultado coincidiram."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A coincidência dá apoio, mas outras explicações podem produzir uma previsão semelhante. A força do apoio depende também do desenho, das medidas e das alternativas examinadas. Um resultado favorável não gera verdade universal, exclusividade ou promoção automática a lei."
+    },
+    {
+      "id": "per-u025-q09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um resultado contradiz a previsão de uma hipótese. Depois, a equipe identifica que o instrumento estava desajustado. A conduta cientificamente adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "preservar a hipótese sem novos testes, pois foi encontrada uma justificativa possível."
+        },
+        {
+          "id": "B",
+          "text": "apagar o resultado sem informar o problema de medição."
+        },
+        {
+          "id": "C",
+          "text": "concluir que nenhuma hipótese científica pode ser contrariada por observações."
+        },
+        {
+          "id": "D",
+          "text": "examinar e corrigir a condição de medição e reavaliar o confronto, mantendo aberta a possibilidade de revisão da hipótese."
+        },
+        {
+          "id": "E",
+          "text": "tratar a existência de falha instrumental como confirmação da hipótese."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O teste depende da adequação da medida. Uma falha identificada merece exame, correção e registro; ela não confirma a hipótese nem permite protegê-la de futuros resultados. Após avaliar os pressupostos do teste, a própria hipótese continua sujeita a crítica."
+    },
+    {
+      "id": "per-u025-q10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os dados de um estudo são compatíveis com duas explicações concorrentes e não oferecem comparação suficiente para distinguir entre elas. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira explicação formulada deve ser considerada verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "ambas foram demonstradas como falsas."
+        },
+        {
+          "id": "C",
+          "text": "a explicação mais abrangente deve vencer independentemente dos dados."
+        },
+        {
+          "id": "D",
+          "text": "a compatibilidade transforma as duas explicações em leis equivalentes."
+        },
+        {
+          "id": "E",
+          "text": "o resultado é inconclusivo quanto à escolha entre essas explicações e pode orientar uma investigação adicional."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ser compatível com duas explicações não decide qual é melhor sustentada. Um resultado inconclusivo revela o limite daquele confronto; pode motivar medidas ou testes que diferenciem as previsões, sem impor verdade ou falsidade automática a ambas."
+    },
+    {
+      "id": "per-u025-q11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe obtém vários resultados semelhantes em porções do material X e, a partir deles, sustenta uma expectativa sobre outras porções desse material, nas mesmas condições. O movimento inferencial descrito é principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "dedutivo, porque muitos casos tornam a conclusão necessária."
+        },
+        {
+          "id": "B",
+          "text": "indutivo, porque os casos observados apoiam uma extensão sem garantir todos os casos futuros."
+        },
+        {
+          "id": "C",
+          "text": "experimental, porque qualquer expectativa exige manipulação."
+        },
+        {
+          "id": "D",
+          "text": "uma observação direta de todas as porções futuras."
+        },
+        {
+          "id": "E",
+          "text": "uma definição, porque fixa o significado de material X."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os resultados observados apoiam uma generalização ou previsão para casos não observados. Essa é a função da indução no cenário. Reunir muitos casos pode fortalecer o apoio, mas não transforma a expectativa em observação de todos os casos ou em necessidade dedutiva."
+    },
+    {
+      "id": "per-u025-q12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma leitura inesperada de massa leva a equipe a propor que uma falha de ventilação explique o resultado. A equipe ainda considera outras possibilidades. Nesse movimento, a hipótese",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre necessariamente dos dados, por dedução válida."
+        },
+        {
+          "id": "B",
+          "text": "é uma generalização sobre todos os materiais a partir de uma amostra."
+        },
+        {
+          "id": "C",
+          "text": "constitui uma explicação plausível a investigar e comparar com alternativas, em um raciocínio abdutivo."
+        },
+        {
+          "id": "D",
+          "text": "é a própria leitura de massa, sem acrescentar interpretação."
+        },
+        {
+          "id": "E",
+          "text": "já corresponde a uma teoria aceita por muitas linhas de evidência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A equipe procura uma explicação para o resultado, sem deduzi-la necessariamente nem generalizar uma frequência. Esse é o movimento abdutivo. A plausibilidade orienta a investigação, mas a leitura também pode ter outras explicações."
+    },
+    {
+      "id": "per-u025-q13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O raciocínio hipotético-dedutivo envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir medidas por deduções, tornando dispensável a observação."
+        },
+        {
+          "id": "B",
+          "text": "formular a hipótese somente depois que todos os resultados forem conhecidos."
+        },
+        {
+          "id": "C",
+          "text": "manter a hipótese e selecionar apenas resultados compatíveis com as consequências previstas."
+        },
+        {
+          "id": "D",
+          "text": "derivar consequências de uma hipótese sob condições declaradas e confrontá-las com observações."
+        },
+        {
+          "id": "E",
+          "text": "seguir a mesma ordem de tarefas em toda área, sem retornar a etapas anteriores."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A dedução permite explicitar consequências que se esperam se a hipótese e as condições forem adequadas. O confronto empírico avalia o apoio recebido. Esse vínculo lógico não estabelece uma cronologia única nem elimina a observação e a revisão. Selecionar apenas resultados favoráveis impede o confronto crítico com evidências contrárias."
+    },
+    {
+      "id": "per-u025-q14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No uso científico de teoria, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma teoria organiza explicações de alcance amplo e, para ser aceita, requer apoio consistente; não é um mero palpite."
+        },
+        {
+          "id": "B",
+          "text": "uma teoria é uma hipótese que obrigatoriamente se converte em lei após mais testes."
+        },
+        {
+          "id": "C",
+          "text": "uma teoria é definida pela ausência de relação com observações."
+        },
+        {
+          "id": "D",
+          "text": "hipótese e teoria diferem somente pelo número de pessoas que as defendem."
+        },
+        {
+          "id": "E",
+          "text": "o caráter revisável de uma teoria impede que ela seja bem sustentada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Teorias conectam conceitos, evidências e relações de alcance amplo, permitindo novas hipóteses e previsões. O nome não indica palpite nem certeza final. Hipótese, teoria e lei têm funções distintas; apoio adicional não produz uma escada automática entre elas."
+    },
+    {
+      "id": "per-u025-q15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Novos dados bem avaliados mostram que uma teoria aceita precisa ser delimitada a certas condições. Isso indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os resultados anteriores perderam necessariamente toda utilidade."
+        },
+        {
+          "id": "B",
+          "text": "todas as explicações concorrentes passam a ter igual apoio."
+        },
+        {
+          "id": "C",
+          "text": "a teoria nunca teve sustentação, porque conhecimentos científicos não admitem limites."
+        },
+        {
+          "id": "D",
+          "text": "a revisão deve ser evitada para preservar a continuidade da ciência."
+        },
+        {
+          "id": "E",
+          "text": "o conhecimento pode ser refinado à luz da evidência, preservando o que continua sustentado em seu alcance."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A revisão pode delimitar o alcance sem anular os resultados que continuam válidos sob as condições pertinentes. Ciência busca graus de confiança sustentados por evidências, e pode combinar continuidade do conhecimento com correção e refinamento."
+    },
+    {
+      "id": "per-u025-q16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual registro oferece melhores condições para o exame crítico de um estudo por outras equipes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente a conclusão final, para não influenciar novas pesquisas."
+        },
+        {
+          "id": "B",
+          "text": "Pergunta, materiais e procedimentos, dados pertinentes, análise, incertezas e limites."
+        },
+        {
+          "id": "C",
+          "text": "Somente a descrição dos resultados que concordam com a previsão."
+        },
+        {
+          "id": "D",
+          "text": "O nome do responsável e sua experiência, dispensando o método."
+        },
+        {
+          "id": "E",
+          "text": "Uma lista completa dos valores medidos, sem indicar unidades ou procedimentos, para evitar interpretações."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O exame crítico depende de informações suficientes para interpretar e verificar o que foi feito. Informar procedimentos, resultados, análise e incerteza permite avaliar a ligação entre evidência e conclusão. Dados sem unidades ou método, autoria e seleção apenas dos resultados favoráveis não substituem essa informação."
+    },
+    {
+      "id": "per-u025-q17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um estudo compara porções do material X sob duas temperaturas e conclui que a diferença observada se aplica a qualquer material sob qualquer temperatura. A principal falha é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter formulado uma expectativa para outras porções do material X nas mesmas condições."
+        },
+        {
+          "id": "B",
+          "text": "não ter examinado todas as porções existentes do material X antes de fazer qualquer inferência."
+        },
+        {
+          "id": "C",
+          "text": "usar tempos medidos, em vez de apenas descrições qualitativas, para avaliar a secagem."
+        },
+        {
+          "id": "D",
+          "text": "estender a conclusão além das unidades e das condições para as quais houve evidência."
+        },
+        {
+          "id": "E",
+          "text": "não ter transformado a hipótese em lei antes de ampliar seu alcance."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A generalização excede o alcance investigado. Evidências sobre material X sob condições específicas não bastam, sozinhas, para todos os materiais e temperaturas. Não é necessário observar todos os casos para fazer qualquer inferência, nem abandonar medidas ou promover uma hipótese a lei; é necessário justificar o alcance da extensão."
+    },
+    {
+      "id": "per-u025-q18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe registra menor tempo médio de secagem em um grupo e afirma que a temperatura causou a diferença. A distinção correta entre as duas afirmações é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira descreve um resultado; a segunda é uma inferência causal que depende do desenho e do exame de alternativas."
+        },
+        {
+          "id": "B",
+          "text": "ambas são observações diretas, pois contêm informação sobre os grupos."
+        },
+        {
+          "id": "C",
+          "text": "a primeira é hipótese e a segunda é lei por expressar causalidade."
+        },
+        {
+          "id": "D",
+          "text": "a segunda dispensa dados adicionais por ser uma explicação possível."
+        },
+        {
+          "id": "E",
+          "text": "a primeira só é científica se os tempos forem exatamente iguais em todas as porções."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tempo médio registrado descreve o resultado obtido. Atribuir a diferença à temperatura acrescenta uma interpretação causal. Para sustentá-la, é necessário avaliar se a comparação e as medidas permitem separar esse efeito de outras explicações."
+    }
+  ]
+}
