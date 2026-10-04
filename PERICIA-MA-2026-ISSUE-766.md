@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 33 | 0 | 3 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 43 | 0 | 8 |
-| Unidades distintas | 99 | 67 | 8 | 24 |
-| Entregáveis unitários C/H/Q | 297 | 201 | 24 | 72 |
+| Unidades distintas | 99 | 66 | 8 | 25 |
+| Entregáveis unitários C/H/Q | 297 | 198 | 24 | 75 |
 
-Estado confirmado: **24 unidades/visões publicadas (24 locais, 0 por vínculo); 72 C/H/Q aceitos; 30/132 referências literais aceitas; 1103 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **25 unidades/visões publicadas (25 locais, 0 por vínculo); 75 C/H/Q aceitos; 31/132 referências literais aceitas; 1137 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução autônoma corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 done. Próxima ação: PER-U024 — Princípios de contagem e probabilidade**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 5/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
+**PER-P01–P05 done. Próxima ação: PER-U026 — Viés de pesquisa**, conforme 5.2/7.5, sem interromper a autorização autônoma. Distribuição por bloco: E01 19/19; E02 6/9; E03 0/8; E04 0/8; E05 0/3; E06 0/10; E07 0/13; E08 0/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: #766.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -541,7 +541,7 @@ Grupo consumidor: `conhecimentos-gerais/raciocinio-logico-cientifico/`, relativo
 | PER-U021 — Proposições, conectivos e tabelas-verdade | E02: 3 | O022 | `proposicoes-tabelas-verdade` / `per-u021` / 210 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U022 — Equivalências e leis de De Morgan | E02: 3 | O023 | `equivalencias-de-morgan-diagramas-logicos` / `per-u022` / 220 | Negação/equivalência; não importar lógica de primeira ordem como capítulo extra. Pontes: PER-U021. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U023 — Argumentação e inferências lógicas | E02: 2 | O024 | `logica-argumentacao-inferencias` / `per-u023` / 230 | Validade e inferências, além de opinião persuasiva. Pontes: PER-U021. Parcial local; C/H/Q aceitos em 5.11. |
-| PER-U024 — Princípios de contagem e probabilidade | E02: 4 | O025 | `principios-contagem-probabilidade` / `per-u024` / 240 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U024 — Princípios de contagem e probabilidade | E02: 4 | O025 | `principios-contagem-probabilidade` / `per-u024` / 240 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U025 — Método científico, hipóteses e teorias | E02: 5, 8 | S05; sem candidato selecionado | `metodo-cientifico-hipoteses-teorias` / `per-u025` / 250 | Problema, hipótese testável, desenho, observação e limites; distinguir teoria de hipótese. Novo local; C/H/Q aceitos em 5.11. |
 | PER-U026 — Viés de pesquisa | E02: 9 | O026 | `vies-pesquisa` / `per-u026` / 260 | Candidato apenas para amostragem; ampliar vieses de seleção, medição, confirmação e publicação com fontes primárias. Pontes: PER-U025. |
 | PER-U027 — Pensamento lateral e vertical | E02: 7 | S05; sem candidato selecionado | `pensamento-lateral-vertical` / `per-u027` / 270 | Comparar geração de alternativas e encadeamento analítico sem atribuir eficácia não demonstrada. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 30/132 |
-| Unidades distintas da objetiva | 98 | 24 |
+| Referências literais da objetiva | 132/132 | 31/132 |
+| Unidades distintas da objetiva | 98 | 25 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 24 |
-| Entregáveis unitários C/H/Q | 297: 201 pending + 24 analyzing + 72 done | 72 done |
-| Visões consumidoras previstas | 99 | 24 |
+| Total de unidades distintas | 99 | 25 |
+| Entregáveis unitários C/H/Q | 297: 198 pending + 24 analyzing + 75 done | 75 done |
+| Visões consumidoras previstas | 99 | 25 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 23 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 24 parciais locais, 0 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 1 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 24 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 25 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1465,6 +1465,24 @@ Autorização explícita de 04/10/2026 para seguir até concluir #766, mantendo 
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/logica-argumentacao-inferencias/questoes.json` | `3505ba716f409736ae3b5378bef03e65026ce9df` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/logica-argumentacao-inferencias/referencias.md` | `ea63164e8b2203b7b11843b97612e8aa89742413` |
 
+#### PER-U024 — Princípios de contagem e probabilidade — C/H/Q done
+
+- **Origem/recorte/destino:** E02:4, parcial local O025 canônico contagem-probabilidade no caminho principios-contagem-probabilidade. C/H/Q/R `ea020bbce82099dfe09d387e8fb90aa2985c01ce` / `bd16bb669ab25a54fe87dda62bb7a94143736f75` / `8f15485be01ed7dc51cdf6caa53e22397b01b71d` / `5093978ee408a440bcd95299383b1a6d7dba0499`, quatro arquivos/69 Q completos e três vínculos PC40/TCEs41 lidos/resolvidos. Árvore completa sem resoluções ou pacote SEAP do mesmo recorte; C SEAP aritmético e C canônico/vínculo de conjuntos lidos só para fronteiras, sem certificar H/Q/R desses comparadores. Classificação anterior à autoria registrada05:33:04Z. Destino próprio Generalista principios-contagem-probabilidade/per-u024/240, grupo científico confirmado; doadores/consumidores intactos.
+- **C/H e revisão:** começa pelo que distingue resultados, constrói soma/produto antes de fatorial/ordem/repetição/restrição. Marcas/separadores explicam combinação com repetição; operações de conjuntos mínimas precedem inclusão-exclusão, região tripla e limite garantido com contraexemplo. Constrói espaço/equiprobabilidade, universo condicionado, exclusão/independência, reposição e partição antes de total/Bayes. Lote contado precede fórmula inversa e taxa-base. H recupera mecanismos/fórmulas/condições, sem remissão que terceirize aprendizagem. Raiz leu integralmente C/H/R e todas34 perguntas/opções/chaves/explicações, calculando cada resultado; revisão independente integral u021 confirmou todas as chaves e distratores. Precisão proposta aceita: Bayes pergunta a probabilidade da origem após A, sem sugerir aumento necessário. R usa número por extenso no rótulo de link; explicação da Q nova retira código de campanha. Deltas relidos.
+- **Banco/linhagem:** 69→34 itens,29 autorais/5 anteriores,33 IDs herdados e per-u024-q01 nova. Conjunto5→6; dezessete herdadas2→3 (q5139/q5146/q5152/q5154/q5156/q5168/q5169/q5170/q5175/q5176/q5179/q5180/q5182/q5192 e BNB q5185/q5186/q5188), duas FGV1→2; demais14 preservadas, q5158 já3. IDs/origin preservados; q5192 agora B após substituir opções, q5156 aplica região tripla. Nova exige somar caminhos de quantidades diferentes. Chaves por leitura/cálculo, incluindo480 filas,55 na união tripla, maior mínimo6, produto par3/4, sem/com reposição3/10 e9/25, total0,032/posterior5/8; anterior FGV seis pares/64 e interseção0,4–0,6 com independência0,48. Explicações inline suficientes; sem quota ou resoluções necessárias.
+- **Fontes/anteriores:** Bezerra/Universidade Federal do Pará2018, Análise Combinatória e Probabilidade via eduCAPES, trechos identificados7–16/64–81, sem livro200 páginas integral ou download shell certificado (falhou; consulta textual web efetiva). Orloff/Bloom curso18.05 Spring2022, Counting and Sets §§2.2–2.4 e Conditional Probability, Independence and Bayes’ Theorem §§2–7.1, consultas parciais identificadas em R, sem notas integrais. Caderno/definitivo BNB2018 Cargo1 básicos itens35/36/38 conferidos por texto: E/C/E; adaptações locais valores5/12,8!,8!, sem transportar letras do certo/errado. TJRR2024 Estatística Tipo1 Q39/41, caderno/definitivo v3 C/D e portal retificação19/03/2025; aplicação17/11/2024 conforme edital§10.1/notícia institucional, apesar do cabeçalho17/12/2024 divergente. Divergência documentada, sem certificar imagens não vistas pela raiz. Outras12 anteriores excluídas lidas editorialmente, sem revalidação primária declarada. S05 item4/corte preservados, assunto matemático sem jurisprudência futura.
+- **Densidade/microglossário:** antes dos deltas C/R/Q da raiz, C14749→17837 bytes, prosa aproximada1614→2101 palavras (+30,2%); H3961→4397 bytes,383→416 palavras (+8,6%). HTML C479→220 bytes/H378→495 bytes, contado separadamente. Crescimento paga repetição/condicionamento/Bayes, limites/hipóteses e ponte de conjuntos antes ausentes, após cortar modelos/checklist redundantes; sem combinatória avançada. Medidas excluem frontmatter/tags/URLs/fórmulas e marcadores, não certificam página renderizada ou tempo. Ajudas no uso inicial/retomadas isoladas, instituições em explicações/R expandidas, Q sem pistas.
+- **Inspeção individual PER-F02:** raiz inspecionou frontmatter/ID/ordem/rota, Markdown/ajudas, cobertura, todas34 chaves/distratores/cálculos/explicações, revisões e fontes; confirmação remota abaixo. Registro distinto do aceite C/H/Q, sem macro F02 ou extrapolação. Sem testes/build/check/CI, doadores/infra/catálogos editados ou marco futuro certificado.
+
+**Publicação confirmada:** [`0e504ab`](https://github.com/insign/concursos/commit/0e504ab85a7d29787e72a6d3cee9c85524967b95), parent `2ab1f2ff612e5be6569f2d8c436571d022e364ba`. Arquivos completos relidos na main e comparados ao pacote editorial revisto; escopo do commit confirmado. A inspeção de contrato/comparação não substitui a revisão semântica individual descrita acima. C/H/Q done somente após essa confirmação; nenhuma resolução separada necessária quando a explicação inline é suficiente.
+
+| Arquivo remoto confirmado | Blob |
+|---|---|
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/conteudo.md` | `abaff265cc85c198fda01d5be8db3438f8e2e47f` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/cheat-sheet.md` | `e297c6f311e9519ed612c4d1cd61ff1787ebeba3` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/questoes.json` | `02a1044d93145c0b843817e3e0198be2b22aa57b` |
+| `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/raciocinio-logico-cientifico/principios-contagem-probabilidade/referencias.md` | `075e17433b8e6761471d4ad69d5a70cca66f903f` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -1776,9 +1794,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U024 — Princípios de contagem e probabilidade
 
-- [ ] PER-U024-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U024-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U024-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U024-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U024-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U024-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U025 — Método científico, hipóteses e teorias
 
@@ -1836,9 +1854,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U034 — Noções de computação na nuvem
 
-- [ ] PER-U034-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U034-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U034-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U034-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U034-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U034-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U035 — Segurança da informação
 
@@ -2410,3 +2428,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U025, ajuste de R:** commit `58c705601a30d4b19087b9fbbc08d293a7a1840a`, blob `df83adedbd733ff829a8b0c95825f12f383b1ac1` confirmado após leitura integral; rótulo de link por extenso. Sem alteração de C/H/Q ou totais.
 
 - **PER-U023:** artefatos `25f9805b2188e8ae373565d83314c6f200791ffc` confirmados; aceitos neste registro 28 itens, C/H/Q e proveniência 5.11. Totais resultantes: 24/99 unidades, 72/297 C/H/Q, 30/132 referências, 1103 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U024 — Princípios de contagem e probabilidade; campanha aberta.
+
+- **PER-U024:** artefatos `0e504ab85a7d29787e72a6d3cee9c85524967b95` confirmados; aceitos neste registro 34 itens, C/H/Q e proveniência 5.11. Totais resultantes: 25/99 unidades, 75/297 C/H/Q, 31/132 referências, 1137 questões. Macros 8 done/43 pending/0 analyzing. Próxima ação PER-U026 — Viés de pesquisa; campanha aberta.
