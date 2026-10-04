@@ -27,12 +27,14 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 36 | 0 | 0 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 46 | 0 | 5 |
-| Unidades distintas | 99 | 93 | 0 | 6 |
-| Entregáveis unitários C/H/Q | 297 | 279 | 0 | 18 |
+| Unidades distintas | 99 | 90 | 3 | 6 |
+| Entregáveis unitários C/H/Q | 297 | 270 | 9 | 18 |
 
 Os 12 blocos editoriais agregam 36 macros C/H/Q, sem criar tarefas adicionais. PER-P03 mantém 98 unidades objetivas e uma auxiliar, 99 visões previstas e 132 referências literais mapeadas. Estado confirmado: **6 unidades/visões locais publicadas; 18 C/H/Q aceitos; 6/132 referências literais aceitas**. U001–U003 estão documentadas em 5.6/8.6; U004–U006, em 5.7/8.7. Classificação parcial local limitada aos recortes executados, sem aceite macro antecipado.
 
 **PER-P01–P05 done. Próxima ação: PER-U007**, conforme matriz 5.2 e backlog 7.5. Ler integralmente O008, companheiros/fontes/resoluções e consumidores antes de classificar Classes invariáveis de palavras. R01–R05 e macros E/F continuam pending. E01 tem 6/19 unidades aceitas. A dúvida “eclética” continua localizada em U028; não bloqueia os demais recortes. Catálogo e os dois grupos Generalista já publicados em PER-P04/P05, sem alteração neste ciclo; novos ramos surgirão com seus pacotes completos. Reservas operacionais devem ser lidas na #766.
+
+**Reserva U007–U009, 03/10/2026:** token `per-u007-u009-20261004-0664aacf3713`; nove entregáveis C/H/Q em analyzing. O008/O009 canônicos, quatro visões TCE (ordens 8/9); O073 físico PC, sem vínculo compartilhado. Origens e #764/#765/#755 somente leitura, sem reservas alheias. Destinos locais propostos na Perícia: `classes-invariaveis-de-palavras/per-u007/70`, `estrutura-morfossintatica-periodo/per-u008/80`, `coordenacao-oracoes-termos/per-u009/90`, sob o grupo Língua Portuguesa; classificação após revisão integral. Mestre reservado apenas para estados/totais, notas próprias da matriz e evidências; programa, guia, IDs/títulos/descrições e aceites anteriores preservados. Base main `97f19d8ff3c5a203396f2de261d8f081e55c9529`, mestre `c5a0f1a48468da21dcc61045156878b4edbda6cd`. Publicar pacote completo, reler main, aceitar e sincronizar por unidade.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -917,7 +919,7 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 | Unidades distintas da objetiva | 98 | 6 |
 | Unidade discursiva auxiliar | 1 | 0 |
 | Total de unidades distintas | 99 | 6 |
-| Entregáveis unitários C/H/Q | 297: 279 pending + 0 analyzing + 18 done | 18 done |
+| Entregáveis unitários C/H/Q | 297: 270 pending + 9 analyzing + 18 done | 18 done |
 | Visões consumidoras previstas | 99 | 6 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
 | Unidades com candidato identificado | 77 | 6 classificadas como parcial local em PER-R02 |
@@ -1275,21 +1277,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U007 — Classes invariáveis de palavras
 
-- [ ] PER-U007-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U007-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U007-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U007-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U007-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U007-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U008 — Estrutura morfossintática do período
 
-- [ ] PER-U008-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U008-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U008-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U008-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U008-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U008-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U009 — Coordenação de orações e termos
 
-- [ ] PER-U009-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U009-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U009-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U009-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U009-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U009-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U010 — Subordinação de orações e termos
 
