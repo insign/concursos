@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "q115001",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os poderes administrativos conferidos a um agente público são",
+      "options": [
+        {
+          "id": "A",
+          "text": "instrumentos para cumprir finalidades públicas, sujeitos às competências e aos limites jurídicos."
+        },
+        {
+          "id": "B",
+          "text": "autorizações para afastar limites legais sempre que o resultado do serviço melhorar."
+        },
+        {
+          "id": "C",
+          "text": "atribuições que se ampliam para toda matéria administrativa pelo simples exercício de cargo público."
+        },
+        {
+          "id": "D",
+          "text": "vantagens pessoais que o titular pode utilizar para escolher os beneficiários do serviço."
+        },
+        {
+          "id": "E",
+          "text": "faculdades cujo exercício depende apenas do interesse pessoal do titular em atuar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os poderes servem à função pública e devem ser exercidos conforme competência, finalidade e demais limites. Eficiência não afasta a legalidade, e a condição de agente não confere todas as competências. Quando a norma exige atuação, a vontade pessoal não autoriza omissão. Fundamento: Constituição, artigo 37, e Lei número 9.784/1999, artigos 2º e 11, estes no âmbito federal."
+    },
+    {
+      "id": "q115009",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, servidor civil federal regido pela Lei número 8.112/1990 recebe ordem manifestamente ilegal para destruir documento público a fim de ocultar uma irregularidade. O dever de obediência",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige execução se o superior confirmar verbalmente que assume a responsabilidade."
+        },
+        {
+          "id": "B",
+          "text": "exige execução quando a ordem está escrita, porque a forma afasta a ilegalidade."
+        },
+        {
+          "id": "C",
+          "text": "exige execução imediata e permite apenas uma reclamação posterior."
+        },
+        {
+          "id": "D",
+          "text": "excetua essa ordem manifestamente ilegal; a subordinação não a torna obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "permite recusa apenas após decisão judicial que declare a ordem inválida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 116, inciso IV, da Lei número 8.112/1990 exclui as ordens manifestamente ilegais do dever de obediência. Assinatura, confirmação da chefia e subordinação não retiram a ilegalidade manifesta descrita. Trata-se de exemplo do regime federal declarado no enunciado, sem dispensar os demais deveres de comunicação aplicáveis."
+    },
+    {
+      "id": "q115051",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, autoridade legalmente competente para remover um servidor exerce essa competência exclusivamente para persegui-lo, sem finalidade de serviço. O defeito central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "desvio de finalidade, por utilizar a competência existente para fim indevido."
+        },
+        {
+          "id": "B",
+          "text": "excesso de poder, porque toda finalidade indevida significa ausência da competência legal."
+        },
+        {
+          "id": "C",
+          "text": "discricionariedade regular, porque a competência permite escolher qualquer finalidade."
+        },
+        {
+          "id": "D",
+          "text": "ausência de abuso, se a remoção não causar perda de recursos públicos."
+        },
+        {
+          "id": "E",
+          "text": "mera preferência pessoal irrelevante, se forem cumpridas as formalidades do ato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado afirma que a competência existe e identifica o fim exclusivamente persecutório. A falha central é a finalidade, não a inexistência da atribuição. Forma correta e ausência de perda financeira não legitimam esse uso. Fundamento: Lei número 4.717/1965, artigo 2º, alínea e e parágrafo único, alínea e; Constituição, artigo 37."
+    },
+    {
+      "id": "q115052",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, uma chefe, sem delegação autorizada, toma decisão que a lei reserva a uma autoridade superior. Ela busca apenas atender a finalidade pública prevista. O defeito central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "desvio de finalidade, porque a falta de competência basta para demonstrar o fim indevido."
+        },
+        {
+          "id": "B",
+          "text": "excesso de poder, por ultrapassar a competência atribuída à chefe."
+        },
+        {
+          "id": "C",
+          "text": "exercício regular da hierarquia, porque a coordenação da equipe confere qualquer competência decisória."
+        },
+        {
+          "id": "D",
+          "text": "mera falha de forma, corrigível apenas com a assinatura da mesma chefe."
+        },
+        {
+          "id": "E",
+          "text": "exercício regular da discricionariedade, porque a solução atende à finalidade pública."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A finalidade pública foi preservada no cenário, mas falta a competência para a decisão. O defeito central é a extrapolação da atribuição, caracterizada como excesso de poder. A posição na hierarquia, a assinatura do ato e a margem de escolha não substituem a competência. Fundamento: Lei número 4.717/1965, artigo 2º, alínea a e parágrafo único, alínea a; Constituição, artigo 37."
+    },
+    {
+      "id": "per-u040-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No âmbito federal regido pela Lei número 9.784/1999, uma autoridade recebe solicitação sobre matéria de sua competência. Concluída a análise, entende que o pedido deve ser negado e decide simplesmente não responder. Quanto ao dever de decidir, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a expectativa de indeferimento torna desnecessária uma decisão."
+        },
+        {
+          "id": "B",
+          "text": "a autoridade deve emitir decisão explícita, podendo indeferir o pedido com os fundamentos cabíveis."
+        },
+        {
+          "id": "C",
+          "text": "a obrigação de decidir obriga a autoridade a conceder o pedido."
+        },
+        {
+          "id": "D",
+          "text": "o silêncio substitui a decisão quando evita conflito com o interessado."
+        },
+        {
+          "id": "E",
+          "text": "a competência pode ser abandonada se a decisão for impopular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Decidir não equivale a conceder. O artigo 48 da Lei número 9.784/1999 exige decisão explícita sobre matéria da competência administrativa; o indeferimento deve observar os fundamentos cabíveis. A conveniência pessoal de evitar conflito não dispensa essa atuação. O enunciado delimita o âmbito federal."
+    },
+    {
+      "id": "per-u040-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, uma autoridade quer concluir mais rapidamente um processo sancionador e, para isso, eliminar a oportunidade de defesa do acusado. A invocação da eficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "legitima a medida quando há redução do tempo médio de conclusão."
+        },
+        {
+          "id": "B",
+          "text": "legitima a medida quando a autoridade acredita que a acusação é verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "permite substituir a defesa por uma comunicação depois de aplicada a sanção."
+        },
+        {
+          "id": "D",
+          "text": "não autoriza suprimir a garantia; a melhoria da rotina deve preservar os direitos exigidos."
+        },
+        {
+          "id": "E",
+          "text": "dispensa a defesa se a sanção pretendida não envolve perda do cargo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Eficiência deve coexistir com a legalidade e as garantias constitucionais. Reduzir o tempo ou antecipar a convicção da autoridade não permite eliminar a defesa do acusado. Fundamento: Constituição, artigos 37 e 5º, inciso LV. Como exemplo federal, a Lei número 9.784/1999, artigo 2º, parágrafo único, exige formalidades essenciais à garantia de direitos."
+    },
+    {
+      "id": "per-u040-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, um agente passa seu amigo à frente na fila de atendimento exclusivamente por amizade, sem critério legal de prioridade. O agente alega que ninguém perdeu dinheiro público. Essa alegação",
+      "options": [
+        {
+          "id": "A",
+          "text": "afasta a falha, porque probidade se limita à conservação de valores financeiros."
+        },
+        {
+          "id": "B",
+          "text": "legitima a prioridade se o amigo cumprir os requisitos do serviço solicitado."
+        },
+        {
+          "id": "C",
+          "text": "torna o favorecimento regular se a fila voltar ao normal depois do atendimento."
+        },
+        {
+          "id": "D",
+          "text": "prova que houve necessariamente um crime, mesmo sem examinar seus requisitos legais."
+        },
+        {
+          "id": "E",
+          "text": "não afasta a violação à impessoalidade e à conduta proba, que não dependem apenas de dano financeiro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A amizade é usada como critério de favorecimento, contrariando a impessoalidade e a honestidade no exercício da função. Ausência de perda financeira não basta para tornar a conduta correta; também não permite concluir automaticamente por uma figura criminal. Fundamento: Constituição, artigo 37; Lei número 9.784/1999, artigo 2º, parágrafo único, incisos III e IV, como exemplo federal."
+    },
+    {
+      "id": "per-u040-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma associação privada administra recursos públicos federais abrangidos pelo artigo 70, parágrafo único, da Constituição. Quanto à prestação de contas, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a natureza privada da associação não a dispensa de prestar contas desses recursos."
+        },
+        {
+          "id": "B",
+          "text": "somente o servidor que transferiu os recursos pode ter dever de prestar contas."
+        },
+        {
+          "id": "C",
+          "text": "a obrigação depende de a associação obter lucro com a administração dos recursos."
+        },
+        {
+          "id": "D",
+          "text": "a contratação de contador afasta o dever de prestação de contas da associação."
+        },
+        {
+          "id": "E",
+          "text": "o dever surge apenas se já estiver demonstrado prejuízo aos recursos administrados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dispositivo constitucional alcança pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre os recursos nele indicados. A qualidade privada, a ausência de lucro e a ausência de dano não afastam por si sós esse dever. A contratação de apoio contábil não equivale à dispensa da prestação de contas."
+    },
+    {
+      "id": "per-u040-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Servidor civil federal regido pela Lei número 8.112/1990 recebe ordem legal de sua chefia, dentro das atribuições funcionais, para executar uma tarefa que considera pouco interessante. Não há ilegalidade ou outro impedimento no caso. O dever funcional",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite recusa apenas porque a tarefa não corresponde à sua preferência."
+        },
+        {
+          "id": "B",
+          "text": "depende de concordância pessoal com a prioridade escolhida pela chefia."
+        },
+        {
+          "id": "C",
+          "text": "exige cumprimento da ordem; a preferência pessoal não equivale à exceção das ordens manifestamente ilegais."
+        },
+        {
+          "id": "D",
+          "text": "permite recusa enquanto o superior não obtiver autorização judicial."
+        },
+        {
+          "id": "E",
+          "text": "autoriza trocar a tarefa por qualquer outra que o servidor julgue mais relevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 116, inciso IV, exige o cumprimento das ordens superiores, excetuadas as manifestamente ilegais. O caso afirma que a ordem é legal e compatível com as atribuições, sem outro impedimento. Desinteresse pessoal não constitui aquela exceção. O regime federal é expressamente definido no enunciado."
+    },
+    {
+      "id": "per-u040-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Servidor civil federal regido pela Lei número 8.112/1990 toma conhecimento de irregularidade em razão do cargo e suspeita de envolvimento de seu superior. Segundo o artigo 116, inciso VI, ele deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar que o superior autorize o encaminhamento da informação."
+        },
+        {
+          "id": "B",
+          "text": "comunicar a irregularidade a outra autoridade competente para apuração."
+        },
+        {
+          "id": "C",
+          "text": "comunicar exclusivamente ao superior suspeito, porque a hierarquia impede outra via."
+        },
+        {
+          "id": "D",
+          "text": "tratar a informação como assunto pessoal, fora de seus deveres funcionais."
+        },
+        {
+          "id": "E",
+          "text": "aplicar diretamente a sanção que considerar adequada, em lugar de comunicar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso VI prevê comunicação à autoridade superior ou, quando houver suspeita de envolvimento dela, a outra autoridade competente para apuração. A previsão não entrega ao comunicante competência para aplicar uma sanção. A regra é apresentada no âmbito federal declarado."
+    },
+    {
+      "id": "per-u040-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um texto de estudo usa a Lei número 8.112/1990 para exemplificar deveres e a Lei número 9.784/1999 para exemplificar competência e dever de decidir. Sem identificar uma norma que as torne aplicáveis ao vínculo estadual em análise, a conclusão adequada é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a condição de agente público torna os dois diplomas automaticamente o estatuto estadual."
+        },
+        {
+          "id": "B",
+          "text": "as normas específicas estaduais deixam de ser relevantes diante de qualquer lei federal."
+        },
+        {
+          "id": "C",
+          "text": "a semelhança entre os deveres basta para transferir integralmente os procedimentos federais."
+        },
+        {
+          "id": "D",
+          "text": "as regras possuem os âmbitos federais indicados; sua aplicação ao caso estadual exige fundamento próprio."
+        },
+        {
+          "id": "E",
+          "text": "nenhum princípio constitucional pode orientar agentes estaduais enquanto não existir estatuto federal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei número 8.112/1990, artigo 1º, delimita seu regime aos servidores civis federais indicados; a Lei número 9.784/1999, artigo 1º, delimita o processo administrativo federal. Um exemplo desses diplomas não demonstra sua aplicação automática a um vínculo estadual. Isso não afasta os princípios constitucionais do artigo 37."
+    },
+    {
+      "id": "per-u040-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, a norma confere a uma autoridade margem de escolha entre providências legais para cumprir determinada finalidade pública. Essa discricionariedade",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza escolher a finalidade pessoal que parecer mais conveniente."
+        },
+        {
+          "id": "B",
+          "text": "afasta o controle de competência e de proporcionalidade."
+        },
+        {
+          "id": "C",
+          "text": "transforma a obrigação de decidir em uma faculdade de não analisar o caso."
+        },
+        {
+          "id": "D",
+          "text": "permite optar por providência vedada quando ela custa menos."
+        },
+        {
+          "id": "E",
+          "text": "permite escolha dentro da margem jurídica, preservando finalidade e demais limites."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A margem discricionária existe dentro do ordenamento. Não altera a finalidade da atribuição, não dispensa competência nem proporcionalidade e não transforma o dever de decidir em liberdade de omissão. Fundamento: Constituição, artigo 37; Lei número 9.784/1999, artigo 2º, como exemplo federal."
+    },
+    {
+      "id": "per-u040-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, uma norma determina que a autoridade conceda uma autorização quando todos os requisitos previstos estejam preenchidos. Eles estão presentes, mas a autoridade prefere negar por gosto pessoal. Nessa atuação vinculada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a preferência pessoal não autoriza substituir o resultado exigido pela norma."
+        },
+        {
+          "id": "B",
+          "text": "a existência de competência transforma o resultado em escolha livre."
+        },
+        {
+          "id": "C",
+          "text": "a decisão pode ser negativa se a autoridade não precisar motivá-la."
+        },
+        {
+          "id": "D",
+          "text": "a finalidade pública pode ser escolhida novamente a cada pedido."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de perda financeira autoriza negar a autorização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O enunciado define o resultado normativamente exigido quando presentes os requisitos. A autoridade deve cumprir essa vinculação, sem substituí-la por gosto pessoal. Trata-se de caso hipotético de legalidade e vinculação; não descreve uma autorização real de regime específico. Fundamento: Constituição, artigo 37."
+    },
+    {
+      "id": "per-u040-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, a lei confere a determinada chefia competência para expedir ordens legais de organização do serviço. Essa prerrogativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "acompanha todo agente público, independentemente de suas atribuições."
+        },
+        {
+          "id": "B",
+          "text": "permite ao titular organizar também assuntos privados dos subordinados."
+        },
+        {
+          "id": "C",
+          "text": "é funcional e limitada à competência conferida, não um poder pessoal irrestrito."
+        },
+        {
+          "id": "D",
+          "text": "pode ser utilizada para favorecer amigos se o serviço continuar funcionando."
+        },
+        {
+          "id": "E",
+          "text": "torna desnecessária a observância dos deveres da própria chefia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A prerrogativa é conferida para viabilizar a função e existe nos limites da atribuição. Não se estende automaticamente a todos os agentes, a relações privadas ou a finalidades de favorecimento. Ter autoridade também não afasta seus próprios deveres. Fundamento: Constituição, artigo 37."
+    },
+    {
+      "id": "per-u040-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em processo administrativo no qual um agente público é acusado de infração, a Constituição assegura contraditório e ampla defesa. Essa proteção",
+      "options": [
+        {
+          "id": "A",
+          "text": "existe apenas para quem já adquiriu estabilidade."
+        },
+        {
+          "id": "B",
+          "text": "não depende de estabilidade, pois alcança os acusados em geral nas condições constitucionais."
+        },
+        {
+          "id": "C",
+          "text": "impede qualquer conclusão desfavorável depois de exercida a defesa."
+        },
+        {
+          "id": "D",
+          "text": "dispensa a autoridade de identificar a competência para decidir."
+        },
+        {
+          "id": "E",
+          "text": "pode ser substituída pela convicção pessoal da chefia sobre os fatos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º, inciso LV, assegura contraditório e ampla defesa aos litigantes em processo judicial ou administrativo e aos acusados em geral. Não limita essa proteção aos servidores estáveis. A defesa não garante uma decisão favorável nem dispensa competência ou análise dos fatos."
+    },
+    {
+      "id": "per-u040-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A estabilidade constitucional, quando adquirida por quem preenche os requisitos aplicáveis, é exemplo de garantia funcional. É correto afirmar que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna facultativo cumprir ordens legais da chefia."
+        },
+        {
+          "id": "B",
+          "text": "se estende a qualquer agente pelo simples início do exercício de função pública."
+        },
+        {
+          "id": "C",
+          "text": "exclui toda hipótese de perda do cargo."
+        },
+        {
+          "id": "D",
+          "text": "protege nos limites constitucionais, sem afastar deveres ou impedir a perda do cargo nas hipóteses admitidas."
+        },
+        {
+          "id": "E",
+          "text": "transfere ao servidor as competências das autoridades superiores."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A garantia é sujeita aos requisitos e limites constitucionais, não um atributo automático de todos os agentes nem uma imunidade. O artigo 41 contempla estabilidade e hipóteses de perda do cargo. O item não desenvolve os requisitos de aquisição nem pretende enumerar todas as hipóteses constitucionais de perda."
+    },
+    {
+      "id": "per-u040-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em dois cenários hipotéticos, autoridades competentes praticam as seguintes condutas: I — distribuem tarefas e fiscalizam o trabalho da equipe subordinada; II — apuram infração funcional e aplicam a sanção cabível, observadas as garantias. Os instrumentos administrativos predominantes são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "poder disciplinar e poder hierárquico."
+        },
+        {
+          "id": "B",
+          "text": "poder de polícia e poder normativo."
+        },
+        {
+          "id": "C",
+          "text": "poder normativo e poder de polícia."
+        },
+        {
+          "id": "D",
+          "text": "poder hierárquico e poder de polícia."
+        },
+        {
+          "id": "E",
+          "text": "poder hierárquico e poder disciplinar."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Organização e fiscalização do trabalho subordinado caracterizam a função hierárquica. Apuração de infração funcional e sanção cabível caracterizam a função disciplinar. Ambas dependem de competência e limites; não se conclui que toda chefia possua qualquer atribuição sancionadora. Apoio conceitual: Escola Nacional de Administração Pública, módulo Administração Pública e o Contexto Institucional Contemporâneo, seção 4.2; Constituição, artigos 37 e 5º, inciso LV."
+    }
+  ]
+}
