@@ -124,13 +124,13 @@
     },
     {
       "id": "q4854",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Em uma associação um a um entre pessoas e setores, a confirmação de que Lia está em <abbr title=\"Tecnologia da Informação\">TI</abbr> permite",
+      "prompt": "Em uma associação um a um entre pessoas e setores, a confirmação de que Lia está em Tecnologia da Informação permite",
       "options": [
         {
           "id": "A",
-          "text": "manter <abbr title=\"Tecnologia da Informação\">TI</abbr> como possibilidade para todas as outras pessoas."
+          "text": "manter Tecnologia da Informação como possibilidade para todas as outras pessoas."
         },
         {
           "id": "B",
@@ -142,7 +142,7 @@
         },
         {
           "id": "D",
-          "text": "eliminar os outros setores para Lia e <abbr title=\"Tecnologia da Informação\">TI</abbr> para as demais pessoas."
+          "text": "eliminar os outros setores para Lia e Tecnologia da Informação para as demais pessoas."
         },
         {
           "id": "E",
@@ -150,7 +150,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Em relação um a um, uma confirmação fecha a linha da pessoa e a coluna do valor: Lia fica com <abbr title=\"Tecnologia da Informação\">TI</abbr>, e <abbr title=\"Tecnologia da Informação\">TI</abbr> deixa de ser opção para os demais. Questão autoral."
+      "explanation": "Em relação um a um, uma confirmação fecha a linha da pessoa e a coluna do valor: Lia fica com Tecnologia da Informação, e Tecnologia da Informação deixa de ser opção para os demais. Questão autoral."
     },
     {
       "id": "q4855",
@@ -690,7 +690,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+      "explanation": "Acompanhando a pessoa inicialmente na 3ª posição: após a troca entre o 1º e o 3º lugares ela passa ao 1º; as trocas seguintes levam essa pessoa ao 4º lugar. Fonte: questão oficial; Fundação Getulio Vargas; Tribunal Regional do Trabalho da 16ª Região — Analista Judiciário (Área Administrativa — Qualquer Área), Tipo 1 (Branca); 2022; questão 11; https://conhecimento.fgv.br/sites/default/files/concursos/analista_judiciario_area_administrativa_-_qualquer_areacnsm003_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
     },
     {
       "id": "q52203602",
@@ -720,7 +720,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
+      "explanation": "As condições impõem C antes de D, D antes de B e B antes de A. Como E chegou quando exatamente dois amigos já haviam chegado, E ocupa a 3ª posição; resta a ordem C, D, E, B, A, de modo que B foi o 4º a chegar. Fonte: questão oficial; Fundação Getulio Vargas; Tribunal Regional do Trabalho da 16ª Região — Técnico Judiciário (Área Administrativa — Qualquer Área), Tipo 4 (Azul); 2022; questão 12; https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_judiciario_area_administrativa_-_qualquer_areacnmt001_tipo_4.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/trt_-_16_2022_-_gabarito_definitivo_8913849131354864.pdf."
     },
     {
       "id": "q52203603",
@@ -750,7 +750,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Bia é a mais velha e, portanto, não pode ser a professora nem a médica; como Carol também não é médica, Ana é a médica e Bia é a enfermeira, dona do gato. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Secretaria da Fazenda do Estado da Bahia — Agente de Tributos Estaduais, Administração Tributária, Tipo 2; 2022; questão 70; https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_tributos_estaduais_administracao_tributariacns003_tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/saebba2022_gabarito_definitivo_0.pdf."
+      "explanation": "Bia é a mais velha e, portanto, não pode ser a professora nem a médica; como Carol também não é médica, Ana é a médica e Bia é a enfermeira, dona do gato. Fonte: questão oficial; Fundação Getulio Vargas; Secretaria da Fazenda do Estado da Bahia — Agente de Tributos Estaduais, Administração Tributária, Tipo 2; 2022; questão 70; https://conhecimento.fgv.br/sites/default/files/concursos/agente_de_tributos_estaduais_administracao_tributariacns003_tipo_2.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/saebba2022_gabarito_definitivo_0.pdf."
     },
     {
       "id": "q52203608",
@@ -780,7 +780,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Se Rita não fosse a mais jovem, sua fala seria verdadeira. Maria teria de mentir, logo também não seria a mais jovem; Ana seria então a mais jovem e sua fala também seria verdadeira, contrariando a regra. Portanto Rita é a mais jovem; Maria mente, e a única verdade é a fala de Ana. Ana não é a do meio nem a mais jovem, logo é a mais velha. Maria é a do meio, o que também elimina a opção E. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Prefeitura de Manaus — Assistente em Administração (40 <abbr title=\"horas semanais\">H/S</abbr>); concurso 2021, prova aplicada em 2022; questão 35, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracaonm201_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
+      "explanation": "Se Rita não fosse a mais jovem, sua fala seria verdadeira. Maria teria de mentir, logo também não seria a mais jovem; Ana seria então a mais jovem e sua fala também seria verdadeira, contrariando a regra. Portanto Rita é a mais jovem; Maria mente, e a única verdade é a fala de Ana. Ana não é a do meio nem a mais jovem, logo é a mais velha. Maria é a do meio, o que também elimina a opção E. Fonte: questão oficial; Fundação Getulio Vargas; Prefeitura de Manaus — Assistente em Administração (40 horas semanais); concurso 2021, prova aplicada em 2022; questão 35, Tipo 1; https://conhecimento.fgv.br/sites/default/files/concursos/as-assistente_em_administracaonm201_tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/semsa2021e02nm_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203612",
@@ -810,7 +810,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Como B não é vizinho de A nem de C, seus dois vizinhos são D e E. D já tem B como vizinho e deve ter C como outro. Fechando o círculo, C liga-se a A, e A liga-se a E: o ciclo de vizinhanças é B-D-C-A-E-B, admitindo orientação compatível com a esquerda indicada. Assim, A tem vizinhos C e E; as demais opções contrariam esse ciclo. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+      "explanation": "Como B não é vizinho de A nem de C, seus dois vizinhos são D e E. D já tem B como vizinho e deve ter C como outro. Fechando o círculo, C liga-se a A, e A liga-se a E: o ciclo de vizinhanças é B-D-C-A-E-B, admitindo orientação compatível com a esquerda indicada. Assim, A tem vizinhos C e E; as demais opções contrariam esse ciclo. Fonte: questão oficial; Fundação Getulio Vargas; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 17; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
     },
     {
       "id": "q52203613",
@@ -840,7 +840,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Ben deve estar no meio de um bloco Ela-Ben-Dil ou Dil-Ben-Ela. Ben na posição 2 deixaria Ali na 4 e Dil na 1 ou 3: o primeiro caso exigiria Clô na posição 4, já ocupada, e o segundo não permitiria duas pessoas entre Dil e Clô. Ben na posição 4 exigiria Ali na 2 e Dil na 3 ou 5; a posição 3 impede a distância exigida e a 5 é proibida. Resta Ben na 3: Ali não pode ser 1, logo é 5; Dil não pode ser 2, pois Clô precisaria ser 5. A fila fica Clô, Ela, Ben, Dil, Ali. Só C vale. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
+      "explanation": "Ben deve estar no meio de um bloco Ela-Ben-Dil ou Dil-Ben-Ela. Ben na posição 2 deixaria Ali na 4 e Dil na 1 ou 3: o primeiro caso exigiria Clô na posição 4, já ocupada, e o segundo não permitiria duas pessoas entre Dil e Clô. Ben na posição 4 exigiria Ali na 2 e Dil na 3 ou 5; a posição 3 impede a distância exigida e a 5 é proibida. Resta Ben na 3: Ali não pode ser 1, logo é 5; Dil não pode ser 2, pois Clô precisaria ser 5. A fila fica Clô, Ela, Ben, Dil, Ali. Só C vale. Fonte: questão oficial; Fundação Getulio Vargas; Câmara Municipal de Caruaru — Analista Legislativo, Contabilidade, Tipo 1; 2015; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/CP201502_Analista_Legislativo_%28Contabilidade%29_%28NS004%29_Tipo_1.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/caruaru/caruaru_gabarito_definitivo_conccamaracaruaru_150624_syuyxsgh.pdf."
     },
     {
       "id": "q52203614",
@@ -870,7 +870,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Açúcar e verde não são vizinhos nem estão na mesma lata, então ocupam os extremos. Se açúcar fosse à esquerda e verde à direita, café seria central e farinha estaria à direita; não sobraria posição à direita da farinha para a lata vermelha. Logo açúcar está à direita, verde à esquerda, café no centro e farinha à esquerda. A vermelha só pode ser central: a lata da direita, com açúcar, é azul. Portanto B vale; café é vermelho e farinha é verde, eliminando as demais opções. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+      "explanation": "Açúcar e verde não são vizinhos nem estão na mesma lata, então ocupam os extremos. Se açúcar fosse à esquerda e verde à direita, café seria central e farinha estaria à direita; não sobraria posição à direita da farinha para a lata vermelha. Logo açúcar está à direita, verde à esquerda, café no centro e farinha à esquerda. A vermelha só pode ser central: a lata da direita, com açúcar, é azul. Portanto B vale; café é vermelho e farinha é verde, eliminando as demais opções. Fonte: questão oficial; Fundação Getulio Vargas; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203615",
@@ -900,7 +900,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+      "explanation": "As comparações produzem a ordem Laura, Fernanda, Beatriz, Dalva, Sônia; Beatriz ocupa a terceira posição. Fonte: questão oficial; Fundação Getulio Vargas; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 20; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
     },
     {
       "id": "per-u020-a01",
