@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u053-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No exemplo federal da Lei nº 8.112/1990, uma mesma conduta irregular no exercício das atribuições pode gerar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "responsabilidade administrativa apenas, pois as demais dependem de fato distinto."
+        },
+        {
+          "id": "B",
+          "text": "responsabilidade penal que substitui necessariamente qualquer reparação civil."
+        },
+        {
+          "id": "C",
+          "text": "responsabilidades administrativa, civil e penal, se preenchidos os pressupostos próprios de cada esfera."
+        },
+        {
+          "id": "D",
+          "text": "responsabilidades civil e penal alternativas, cabendo ao servidor escolher uma delas."
+        },
+        {
+          "id": "E",
+          "text": "três condenações obrigatórias sempre que forem abertas três apurações."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os artigos 121 e 125 da Lei nº 8.112/1990, no regime federal que ela disciplina, admitem repercussões civis, penais e administrativas e sua cumulação. Cada esfera continua exigindo seus próprios pressupostos; apuração simultânea não significa condenação automática."
+    },
+    {
+      "id": "u053-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A independência entre as esferas civil, criminal e administrativa significa que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conclusão criminal é sempre irrelevante para qualquer outra esfera."
+        },
+        {
+          "id": "B",
+          "text": "cada esfera possui fundamento próprio, com comunicações entre decisões previstas no ordenamento."
+        },
+        {
+          "id": "C",
+          "text": "a decisão administrativa sobre culpa vincula necessariamente o juízo penal."
+        },
+        {
+          "id": "D",
+          "text": "a absolvição criminal elimina sempre todas as consequências civis e funcionais."
+        },
+        {
+          "id": "E",
+          "text": "a ação civil somente pode começar depois de condenação penal definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A independência não é isolamento absoluto. A Lei nº 8.112/1990, artigo 126, prevê efeito da absolvição que nega fato ou autoria sobre a responsabilidade administrativa federal. O Código Civil, artigo 935, também protege premissas decididas criminalmente. A simples existência de uma apuração em outra esfera não dispensa exame dos requisitos próprios."
+    },
+    {
+      "id": "u053-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma decisão criminal definitiva reconheceu que o fato imputado a um servidor federal jamais ocorreu. Para a responsabilidade administrativa pelo mesmo fato, sob a Lei nº 8.112/1990, a conclusão correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a responsabilidade deve ser afastada, pois a absolvição negou a existência do fato."
+        },
+        {
+          "id": "B",
+          "text": "a Administração pode tratar o mesmo fato como ocorrido, porque as esferas são independentes."
+        },
+        {
+          "id": "C",
+          "text": "o efeito depende de a absolvição ter sido por falta de prova, e não por inexistência comprovada."
+        },
+        {
+          "id": "D",
+          "text": "a decisão só impede cobrança civil, preservando necessariamente a imputação funcional."
+        },
+        {
+          "id": "E",
+          "text": "a responsabilidade funcional só é afastada se a infração administrativa imputada for de pequena gravidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 126 da Lei nº 8.112/1990 afasta a responsabilidade administrativa quando a absolvição criminal nega a existência do fato ou sua autoria. A hipótese reconhece inexistência comprovada, não mera insuficiência de prova. O efeito corresponde ao mesmo fato decidido; não certifica condutas diferentes não abrangidas pela absolvição."
+    },
+    {
+      "id": "q118053",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa jurídica indenizou terceiro por dano causado por seu agente em atuação funcional. Para cobrar regressivamente do agente, o artigo 37, § 6º, da Constituição exige:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a demonstração de culpa da vítima, em substituição à análise da conduta do agente."
+        },
+        {
+          "id": "b",
+          "text": "a existência de condenação penal definitiva do agente como requisito universal."
+        },
+        {
+          "id": "c",
+          "text": "dolo ou culpa do responsável, além dos demais pressupostos cabíveis à reparação."
+        },
+        {
+          "id": "d",
+          "text": "a aplicação ao agente da mesma responsabilidade objetiva utilizada contra a pessoa jurídica."
+        },
+        {
+          "id": "e",
+          "text": "a prova de que houve pagamento, dispensando examinar dolo ou culpa do agente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Constituição assegura regresso contra o responsável nos casos de dolo ou culpa. O pagamento pela pessoa jurídica não torna automaticamente objetiva a responsabilidade do agente, nem a norma exige condenação penal prévia como requisito universal."
+    },
+    {
+      "id": "q118054",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na hipótese do artigo 37, § 6º, da Constituição, um agente, no exercício da função pública, causa dano a terceiro. Segundo o Tema 940 do Supremo Tribunal Federal, a ação indenizatória da vítima deve ser ajuizada:",
+      "options": [
+        {
+          "id": "a",
+          "text": "contra o agente apenas, pois ele praticou materialmente o ato."
+        },
+        {
+          "id": "b",
+          "text": "contra o agente e a pessoa jurídica obrigatoriamente, em toda hipótese."
+        },
+        {
+          "id": "c",
+          "text": "contra a pessoa jurídica somente depois da condenação criminal do agente."
+        },
+        {
+          "id": "d",
+          "text": "contra o Estado ou a pessoa privada prestadora do serviço público, conforme o caso."
+        },
+        {
+          "id": "e",
+          "text": "contra o agente sempre que a vítima alegar dolo, dispensando a pessoa jurídica."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A tese oficial do Tema 940 fixa a ação contra o Estado ou a pessoa jurídica privada prestadora de serviço público e declara o autor do ato parte ilegítima nessa ação direta. Preserva o direito de regresso contra o responsável em caso de dolo ou culpa. A hipótese exige atuação funcional; não trata de um ato inteiramente privado do agente."
+    },
+    {
+      "id": "per-u044-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime federal da Lei nº 8.112/1990, a responsabilidade civil descrita no artigo 122 pode decorrer de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas ação intencional, excluídas omissão e culpa."
+        },
+        {
+          "id": "B",
+          "text": "qualquer falha funcional, mesmo sem prejuízo ou ligação causal."
+        },
+        {
+          "id": "C",
+          "text": "mera lotação do servidor no órgão que sofreu o dano."
+        },
+        {
+          "id": "D",
+          "text": "apenas ato reconhecido como crime em sentença definitiva."
+        },
+        {
+          "id": "E",
+          "text": "ação ou omissão dolosa ou culposa que resulte em prejuízo ao erário ou a terceiros."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 122 inclui atos comissivos e omissivos, dolosos e culposos, que resultem em prejuízo ao erário ou a terceiros. O caráter subjetivo desse modelo exige examinar dolo ou culpa, além do dano e do nexo causal. Não exige que todo dano seja também crime."
+    },
+    {
+      "id": "per-u044-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em caso hipotético, um equipamento público sob guarda de servidor federal foi destruído por causa independente, sem contribuição dolosa ou culposa do servidor. Sob o modelo do artigo 122 da Lei nº 8.112/1990, é correto concluir que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "o simples dever de guarda não basta para completar os pressupostos da responsabilidade civil do servidor."
+        },
+        {
+          "id": "B",
+          "text": "o servidor responde objetivamente porque a Administração pode responder objetivamente perante terceiros."
+        },
+        {
+          "id": "C",
+          "text": "a existência do prejuízo substitui a necessidade de nexo com a conduta do servidor."
+        },
+        {
+          "id": "D",
+          "text": "a ausência de culpa impede apenas a responsabilidade criminal, nunca a civil do servidor."
+        },
+        {
+          "id": "E",
+          "text": "a responsabilidade pessoal nasce automaticamente da posição funcional do servidor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 122 exige ato doloso ou culposo que resulte em prejuízo. A premissa afasta a contribuição dolosa ou culposa e a ligação causal necessária ao modelo. Estar vinculado ao órgão ou guardar um bem não transforma, por si, o agente em responsável objetivo por toda perda."
+    },
+    {
+      "id": "per-u044-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma apuração regular identificou violação de dever funcional, mas não encontrou dano patrimonial nem os elementos de infração penal. A conclusão compatível com a distinção entre esferas é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "sem dano patrimonial, nenhuma responsabilidade administrativa pode existir."
+        },
+        {
+          "id": "B",
+          "text": "a falta funcional pode ser examinada por seus requisitos próprios, sem criar automaticamente dever de reparar ou crime."
+        },
+        {
+          "id": "C",
+          "text": "a infração funcional obriga a reconhecer um crime, mesmo sem previsão penal."
+        },
+        {
+          "id": "D",
+          "text": "a responsabilidade administrativa somente pode ser examinada depois de obtido ressarcimento civil."
+        },
+        {
+          "id": "E",
+          "text": "a Administração deve aguardar condenação penal antes de examinar qualquer falta funcional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A responsabilidade administrativa possui fundamento na infração funcional aplicável e não exige universalmente dano patrimonial ou crime. A reparação requer dano juridicamente reparável e seus demais pressupostos; a penal exige previsão legal e elementos próprios. A conclusão não fixa uma penalidade nem dispensa garantias de apuração."
+    },
+    {
+      "id": "per-u044-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma conduta culposa de agente público gerou prejuízo, e discute-se sua possível responsabilização penal. Segundo a regra do artigo 18 do Código Penal:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a culpa civil torna automaticamente configurado algum crime culposo."
+        },
+        {
+          "id": "B",
+          "text": "a previsão de culpa no estatuto funcional substitui a previsão de modalidade culposa na lei penal."
+        },
+        {
+          "id": "C",
+          "text": "a punição por modalidade culposa exige previsão expressa em lei, além dos demais requisitos penais."
+        },
+        {
+          "id": "D",
+          "text": "qualquer infração funcional é punível penalmente, ainda que a lei só descreva modalidade dolosa."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de intenção afasta todo dever de reparação civil."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 18, parágrafo único, do Código Penal reserva a punição culposa aos casos expressos em lei. A culpa que interessa à reparação ou à disciplina não cria, por si, tipo penal culposo. O item tampouco afirma que uma conduta sem intenção jamais gera responsabilidade civil."
+    },
+    {
+      "id": "per-u044-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para os efeitos penais, o artigo 327 do Código Penal considera funcionário público:",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o ocupante de cargo efetivo remunerado."
+        },
+        {
+          "id": "B",
+          "text": "somente o servidor civil federal regido pela Lei nº 8.112/1990."
+        },
+        {
+          "id": "C",
+          "text": "apenas quem possui estabilidade constitucional."
+        },
+        {
+          "id": "D",
+          "text": "quem exerce cargo, emprego ou função pública, mesmo transitoriamente ou sem remuneração."
+        },
+        {
+          "id": "E",
+          "text": "apenas quem mantém emprego público por contrato de trabalho permanente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A parte inicial do artigo 327 inclui cargo, emprego ou função pública e admite exercício transitório ou gratuito. Essa definição vale para efeitos penais; não confere cargo efetivo, estabilidade ou regime federal a todos os agentes por ela alcançados."
+    },
+    {
+      "id": "per-u044-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exemplo federal, o artigo 123 da Lei nº 8.112/1990 abrange, na responsabilidade penal do servidor nessa qualidade:",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas infrações que produzam dano ao patrimônio público."
+        },
+        {
+          "id": "B",
+          "text": "toda infração funcional, ainda que sem previsão na legislação penal."
+        },
+        {
+          "id": "C",
+          "text": "somente crimes classificados como crimes contra a Administração Pública."
+        },
+        {
+          "id": "D",
+          "text": "apenas crimes, porque contravenções pertencem exclusivamente à esfera administrativa."
+        },
+        {
+          "id": "E",
+          "text": "crimes e contravenções que lhe sejam imputados nessa qualidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 123 menciona expressamente crimes e contravenções imputados ao servidor nessa qualidade. A esfera penal não se limita ao nome de um capítulo do Código Penal e não se confunde com toda violação disciplinar."
+    },
+    {
+      "id": "per-u044-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Decisão criminal definitiva reconheceu estar provado que um servidor federal não participou do fato imputado. Sob o artigo 126 da Lei nº 8.112/1990, quanto à mesma imputação funcional:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a responsabilidade administrativa deve ser afastada, pois a autoria foi negada."
+        },
+        {
+          "id": "B",
+          "text": "a absolvição só produz efeito se também declarar que nenhum fato ocorreu."
+        },
+        {
+          "id": "C",
+          "text": "a Administração pode atribuir-lhe o fato desde que troque o nome jurídico da infração."
+        },
+        {
+          "id": "D",
+          "text": "a decisão corresponde necessariamente a insuficiência de prova, sem negar autoria."
+        },
+        {
+          "id": "E",
+          "text": "a negativa de participação só afasta eventual indenização, sem efeito administrativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A negativa de autoria é fundamento autônomo do artigo 126; não exige simultaneamente inexistência do fato. O Código de Processo Penal, artigo 386, IV, distingue estar provado que o réu não concorreu para a infração de não existir prova de sua participação."
+    },
+    {
+      "id": "per-u044-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal foi absolvido criminalmente apenas por não existir prova suficiente para a condenação. A decisão não afirmou que o fato inexistiu nem que ele não foi o autor. No exame administrativo sob a Lei nº 8.112/1990:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a culpa administrativa fica provada pela simples insuficiência de prova criminal."
+        },
+        {
+          "id": "B",
+          "text": "a absolvição não afasta automaticamente a responsabilidade funcional, que ainda exige apuração e suporte próprios."
+        },
+        {
+          "id": "C",
+          "text": "o artigo 126 impõe afastar toda imputação funcional qualquer que seja o fundamento da absolvição."
+        },
+        {
+          "id": "D",
+          "text": "a Administração pode puni-lo sem examinar provas, devido à independência entre esferas."
+        },
+        {
+          "id": "E",
+          "text": "a absolvição por insuficiência equivale a reconhecer definitivamente que o fato não ocorreu."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 126 prevê comunicação quando a absolvição nega fato ou autoria. A insuficiência de prova não equivale a essas negativas. A possibilidade de apuração administrativa não presume culpa e não autoriza punição sem prova ou defesa."
+    },
+    {
+      "id": "per-u044-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma decisão criminal reconheceu que determinada conduta não constitui infração penal, sem negar sua ocorrência ou autoria. A afirmação correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conduta deve ser considerada inexistente também para todo efeito funcional."
+        },
+        {
+          "id": "B",
+          "text": "a decisão impõe necessariamente sanção administrativa, porque houve absolvição."
+        },
+        {
+          "id": "C",
+          "text": "podem subsistir exame funcional e pretensão reparatória com pressupostos próprios; a ausência de caráter penal não os elimina por si só."
+        },
+        {
+          "id": "D",
+          "text": "a responsabilidade civil somente poderá ser examinada se a decisão penal for revertida para condenação."
+        },
+        {
+          "id": "E",
+          "text": "a independência autoriza ignorar inclusive as premissas sobre fatos já decididas criminalmente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Fato sem caráter penal não é sinônimo de fato inexistente. A Súmula 18 do Supremo Tribunal Federal admite punição por falta residual não compreendida na absolvição. O Código de Processo Penal, artigo 67, III, não impede a ação civil apenas por o fato não constituir crime. Possibilidade não equivale a responsabilidade automática."
+    },
+    {
+      "id": "per-u044-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 935 do Código Civil, a independência em relação à responsabilidade criminal não permite:",
+      "options": [
+        {
+          "id": "A",
+          "text": "promover ação reparatória sem condenação penal prévia."
+        },
+        {
+          "id": "B",
+          "text": "analisar o dano e o valor da reparação na esfera civil."
+        },
+        {
+          "id": "C",
+          "text": "reconhecer que fato sem caráter penal pode ter consequência civil."
+        },
+        {
+          "id": "D",
+          "text": "rediscutir existência do fato ou autoria quando essas questões já estiverem decididas no juízo criminal."
+        },
+        {
+          "id": "E",
+          "text": "aplicar normas civis distintas das normas de infração penal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 935 afirma a independência, mas veda questionar novamente existência do fato e autoria quando decididas no juízo criminal. A esfera civil conserva questões próprias que não foram resolvidas por essa decisão; a regra não exige condenação penal prévia em qualquer ação reparatória."
+    },
+    {
+      "id": "per-u044-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor federal faleceu deixando obrigação de reparar dano e herança inferior ao valor da dívida. Segundo o artigo 122, § 3º, da Lei nº 8.112/1990:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a obrigação de reparar desaparece sempre com a morte, mesmo existindo herança."
+        },
+        {
+          "id": "B",
+          "text": "os sucessores recebem automaticamente eventual pena criminal do servidor."
+        },
+        {
+          "id": "C",
+          "text": "a obrigação pode ser cobrada sem limite contra os bens próprios dos sucessores."
+        },
+        {
+          "id": "D",
+          "text": "o limite é o valor total da dívida, independentemente da herança recebida."
+        },
+        {
+          "id": "E",
+          "text": "a obrigação pode alcançar os sucessores até o limite do valor da herança recebida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei federal limita a execução contra sucessores ao valor da herança recebida. A Constituição, artigo 5º, XLV, impede que a pena passe da pessoa do condenado e admite, nos termos da lei, extensão da reparação até o patrimônio transferido. Reparação e pena não têm o mesmo tratamento."
+    },
+    {
+      "id": "per-u044-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sentença penal definitiva reconheceu que um ato foi praticado em legítima defesa. Segundo o artigo 65 do Código de Processo Penal, no juízo civil:",
+      "options": [
+        {
+          "id": "A",
+          "text": "o reconhecimento penal faz coisa julgada e não pode ser ignorado, devendo os efeitos indenizatórios ser examinados pelas normas civis pertinentes."
+        },
+        {
+          "id": "B",
+          "text": "a independência permite negar livremente a legítima defesa reconhecida criminalmente."
+        },
+        {
+          "id": "C",
+          "text": "a sentença deve ser tratada como mera ausência de prova, sem decidir a justificativa do ato."
+        },
+        {
+          "id": "D",
+          "text": "todo dano passa a ser inexistente por força da absolvição."
+        },
+        {
+          "id": "E",
+          "text": "a sentença decide necessariamente o valor exato de toda indenização civil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 65 prevê coisa julgada no cível quanto ao reconhecimento penal de legítima defesa e das demais hipóteses nele enumeradas. O reconhecimento deve ser respeitado; daí não decorre que qualquer dano desapareça ou que toda absolvição elimine qualquer reparação. É necessário examinar os efeitos pelas normas civis aplicáveis."
+    }
+  ]
+}
