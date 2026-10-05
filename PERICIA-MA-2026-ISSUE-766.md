@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 34 | 1 | 64 |
-| Entregáveis unitários C/H/Q | 297 | 102 | 3 | 192 |
+| Unidades distintas | 99 | 34 | 0 | 65 |
+| Entregáveis unitários C/H/Q | 297 | 102 | 0 | 195 |
 
-Estado confirmado: **64 unidades/visões publicadas (59 locais, 5 por vínculo); 192 C/H/Q aceitos; 91/132 referências literais aceitas; 2478 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **65 unidades/visões publicadas (60 locais, 5 por vínculo); 195 C/H/Q aceitos; 92/132 referências literais aceitas; 2540 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U066 — Extrativismo vegetal, animal e mineral**, conforme 5.2/7.5. PER-U064 e PER-U065 foram publicadas e aceitas; somente PER-U066 C/H/Q permanece analyzing sob o token `per-u064-u066-lote-20261005-27f5e1fa`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 8/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:9 está aceito. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: somente PER-U066 sob `per-u064-u066-lote-20261005-27f5e1fa`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U067 — Indústrias de base e transformação**, conforme 5.2/7.5. PER-U064–PER-U066 foram publicadas e aceitas; o lote foi encerrado. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 9/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -618,7 +618,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Parcial/local complementar a U060: apenas biomas/formações, florestas, Cerrado e cocais; C/H/Q aceitos em 5.11. |
 | PER-U064 — População, densidade, povoamento e movimentos | E07: 8 | O060 | `populacao-urbanizacao-movimentos` / `per-u064` / 640 | Parcial/local: pacote PC-MA compatível derivado de O060; urbanização/rede urbana apenas como ponte; C/H/Q aceitos em 5.11. |
 | PER-U065 — Agricultura e pecuária maranhenses | E07: 9 | O061 | `agricultura-pecuaria-maranhenses` / `per-u065` / 650 | Integral por cópia local de O061; remissões TCE neutralizadas e corte estatístico Perícia explicitado; C/H/Q aceitos em 5.11. |
-| PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Integral por cópia local de O062; remissões/corte TCE neutralizados, fontes e anteriores revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U067 — Indústrias de base e transformação | E07: 11 | O063 | `industrias-base-transformacao` / `per-u067` / 670 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U068 — Setor terciário: comércio, telecomunicações e transportes | E07: 12 | O064 | `comercio-telecom-transportes` / `per-u068` / 680 | Funções/redes econômicas; infraestrutura específica em U069. |
 | PER-U069 — Malha viária, portos e aeroportos | E07: 13, 14 | O065 | `malha-viaria-portos-aeroportos` / `per-u069` / 690 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 91/132 |
-| Unidades distintas da objetiva | 98 | 64 |
+| Referências literais da objetiva | 132/132 | 92/132 |
+| Unidades distintas da objetiva | 98 | 65 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 64 |
-| Entregáveis unitários C/H/Q | 297: 105 pending + 0 analyzing + 192 done | 192 done |
-| Visões consumidoras previstas | 99 | 64 |
+| Total de unidades distintas | 99 | 65 |
+| Entregáveis unitários C/H/Q | 297: 102 pending + 0 analyzing + 195 done | 195 done |
+| Visões consumidoras previstas | 99 | 65 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 6 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 7 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 59 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 60 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1870,14 +1870,14 @@ O pedido “Mais 3” foi executado sob o token `per-u061-u063-lote-20261005-448
 - **U063:** parcial/local complementar a U060 a partir de O057; artefato `b302dd1389e9d3ba4f20605622b6b1ebba5519c4`; 18 questões/90 opções, 16 autorais + 2 anteriores São Luís/2017.
 - O057–O059, o pacote PC doador e consumidores PC/SEAP/TCE permaneceram sem edição. E07:4–7 estão aceitos. **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — lote PER-U064–PER-U066
+#### Decisão de execução serial em 05/10/2026 — lote PER-U064–PER-U066 concluído
 
-Token exclusivo `per-u064-u066-lote-20261005-27f5e1fa`, decorrente do pedido “Mais 3”. Base inicial: main `27f5e1faacd64c0bc2d2f0dfa94bcf540c24dc2f`, mestre `e152c40c95dfb8bbb7d1fa977b04d31cbb50a005`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+O pedido “Mais 3” foi executado sob o token `per-u064-u066-lote-20261005-27f5e1fa`, com publicação/aceite serial U064 → U065 → U066. Base inicial: main `27f5e1faacd64c0bc2d2f0dfa94bcf540c24dc2f`, mestre `e152c40c95dfb8bbb7d1fa977b04d31cbb50a005`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
 
-- **PER-U064 concluída:** parcial/local por pacote PC-MA compatível derivado de O060; artefato `3a09dbb1bb049fda3da29235639dd80873dca2fe`, 20 questões/100 opções.
-- **PER-U065 concluída:** integral/local a partir de O061; artefato `e1ca9cb581f833d01d2ce0a1518b63c82df6315a`, 62 questões/310 opções, corte estatístico e remissões compatibilizados.
-- **PER-U066 analyzing:** E07:10; O062 `historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral`; destino `conhecimentos-gerais/geografia-maranhao/extrativismo-vegetal-animal-mineral/`, ordem 660.
-- Doadores canônicos, PC/SEAP e TCE permanecem sem edição.
+- **U064:** parcial/local por pacote PC-MA compatível derivado de O060; artefato `3a09dbb1bb049fda3da29235639dd80873dca2fe`; 20 questões/100 opções.
+- **U065:** integral/local a partir de O061; artefato `e1ca9cb581f833d01d2ce0a1518b63c82df6315a`; 62 questões/310 opções.
+- **U066:** integral/local a partir de O062; artefato `04d98d656957b84683107aaadba2868beef3250b`; 62 questões/310 opções, duas anteriores adaptadas/revalidadas.
+- O060–O062 e consumidores TCE/PC/SEAP permaneceram sem edição. E07:8–10 estão aceitos. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2249,6 +2249,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `e45d55da9752fdb5e7a6ec9299c158a97573f47c` |
 | Q | `4b76d2bb9710cb1a3846209f1807e8ab8918a242` |
 | R | `d81ece09ba3c41829b3f22accc0525e3b6a03434` |
+
+#### PER-U066 — Extrativismo vegetal, animal e mineral: integral/local — C/H/Q done
+
+- **Decisão:** O062 coincide integralmente com E07:10, mas continha remissões internas `Assunto 089/091` e corte documental da campanha TCE. Foi feita cópia local integral para aplicar identidade/ordem Perícia, neutralizar essas remissões e alinhar o corte ao edital de 17/07/2026, preservando o canônico compartilhado.
+- **C/H:** preservam a distinção origem do recurso → etapa da cadeia → indicador → território, cobrindo extração vegetal, pesca extrativa, mineração e petróleo/gás. Agricultura/pecuária e indústria aparecem somente como fronteiras.
+- **Corte/fontes:** PEVS 2024 e o boletim pesqueiro 2023–2024 já existiam antes do edital; o Anuário ANP 2026 foi publicado em 26/06/2026 e consolidava 2016–2025. A PEVS 2025, divulgada em 24/09/2026, foi registrada apenas como atualização posterior. Para CFEM, a cópia usa documentação ANM de 2019 sobre municípios afetados por estruturas da mineração, em vez da notícia pós-edital de 21/07/2026.
+- **Q:** 62 questões/310 opções, 60 autorais + 2 anteriores, `questionSetRevision: 4`, zero HTML/duplicidades/gabaritos inválidos. `q20007` foi reescrita como adaptação da FGV/PM-MA 2012; caderno e gabarito definitivos oficiais confirmam questão 50 Tipo 1 = **D**. `q20008` foi reescrita como adaptação da FCC/DPE-MA 2026, questão 93, com núcleo Babaçu Livre e gabarito **B** corroborados por fontes indexadas e concurso confirmado no portal FCC. Ambas tiveram `revision` incrementada.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O062 ficou intacto. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`04d98d65`](https://github.com/insign/concursos/commit/04d98d656957b84683107aaadba2868beef3250b).
+
+| Arquivo | Blob |
+|---|---|
+| C | `41bfe85bb82f93d7bce1856766fefa17af22ce9f` |
+| H | `32a992ee5d29e12aae3075f2db50757c03935ae4` |
+| Q | `2a7ab5b6c59f2fe9e7eff8b11854e0c7da098084` |
+| R | `209e281f45a117d3e3c767ffbdb2f430c52a85e6` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2813,9 +2830,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U066 — Extrativismo vegetal, animal e mineral
 
-- [ ] PER-U066-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U066-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U066-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U066-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U066-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U066-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U067 — Indústrias de base e transformação
 
@@ -3283,3 +3300,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U064:** artefatos `3a09dbb1bb049fda3da29235639dd80873dca2fe` confirmados; parcial/local por pacote PC-MA compatível derivado de O060, 20 questões/100 opções, C/H/Q e proveniência 5.11 aceitos. E07:8 aceito. Totais resultantes: 63/99 unidades, 189/297 C/H/Q, 90/132 referências e 2416 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 7/13. Próxima ação PER-U065 — Agricultura e pecuária maranhenses; U065/U066 permanecem analyzing.
 
 - **PER-U065:** artefatos `e1ca9cb581f833d01d2ce0a1518b63c82df6315a` confirmados; cópia local integral de O061, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:9 aceito. Totais resultantes: 64/99 unidades, 192/297 C/H/Q, 91/132 referências e 2478 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 8/13. Próxima ação PER-U066 — Extrativismo vegetal, animal e mineral; somente U066 permanece analyzing.
+
+- **PER-U066:** artefatos `04d98d656957b84683107aaadba2868beef3250b` confirmados; cópia local integral de O062, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:10 aceito. Totais resultantes: 65/99 unidades, 195/297 C/H/Q, 92/132 referências e 2540 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 9/13. Lote U064–U066 encerrado sem reserva ativa. Próxima ação PER-U067 — Indústrias de base e transformação; campanha aberta.
