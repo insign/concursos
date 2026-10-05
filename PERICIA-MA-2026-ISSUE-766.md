@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 50 | 2 | 47 |
-| Entregáveis unitários C/H/Q | 297 | 150 | 6 | 141 |
+| Unidades distintas | 99 | 50 | 1 | 48 |
+| Entregáveis unitários C/H/Q | 297 | 150 | 3 | 144 |
 
-Estado confirmado: **47 unidades/visões publicadas (46 locais, 1 por vínculo); 141 C/H/Q aceitos; 70/132 referências literais aceitas; 1648 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **48 unidades/visões publicadas (47 locais, 1 por vínculo); 144 C/H/Q aceitos; 71/132 referências literais aceitas; 1664 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U049 — Capitães-mores do Maranhão**, conforme 5.2/7.5. PER-U048 foi publicada e aceita por vínculo integral; PER-U049–PER-U050 C/H/Q permanecem analyzing sob o token `per-u048-u050-lote-20261005-69367474`, em execução serial. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 1/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U049–PER-U050 sob `per-u048-u050-lote-20261005-69367474`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U050 — Invasão e expulsão dos holandeses**, conforme 5.2/7.5. PER-U048 e PER-U049 foram publicadas e aceitas; somente PER-U050 C/H/Q permanece analyzing sob o token `per-u048-u050-lote-20261005-69367474`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 2/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U050 sob `per-u048-u050-lote-20261005-69367474`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -594,7 +594,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
 | PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba | E06: 1, 2, 3 | O044 | `franca-equinocial-guaxenduba` / canônico `franca-equinocial-guaxenduba` / 480 | Integral por vínculo ao canônico O044; C/H/Q aceitos em 5.11. |
-| PER-U049 — Capitães-mores do Maranhão | E06: 4 | O045 | `capitaes-mores-maranhao` / `per-u049` / 490 | Separar administração colonial da sequência de fundação/combate. |
+| PER-U049 — Capitães-mores do Maranhão | E06: 4 | O045 | `capitaes-mores-maranhao` / `per-u049` / 490 | Separar administração colonial da sequência de fundação/combate. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U050 — Invasão e expulsão dos holandeses | E06: 5, 6 | O046 | `invasao-expulsao-holandeses` / `per-u050` / 500 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Incluir formação/organização do Estado, companhia, causas e objetivos da revolta. |
 | PER-U052 — Independência, adesão do Maranhão e Jenipapo | E06: 8, 9, 10 | O048 | `adesao-independencia-jenipapo` / `per-u052` / 520 | Império, não adesão e contexto da Independência. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 70/132 |
-| Unidades distintas da objetiva | 98 | 47 |
+| Referências literais da objetiva | 132/132 | 71/132 |
+| Unidades distintas da objetiva | 98 | 48 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 47 |
-| Entregáveis unitários C/H/Q | 297: 150 pending + 6 analyzing + 141 done | 141 done |
-| Visões consumidoras previstas | 99 | 47 |
+| Total de unidades distintas | 99 | 48 |
+| Entregáveis unitários C/H/Q | 297: 150 pending + 3 analyzing + 144 done | 144 done |
+| Visões consumidoras previstas | 99 | 48 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 44 parciais locais, 1 integral por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 45 parciais locais, 1 integral por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 46 unidades locais, 1 vínculo Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 47 unidades locais, 1 vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1927,6 +1927,22 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | canônico Q | `f2f1666f51651f300d6d847e956038a310aad7e0` |
 | canônico R | `66607458569fac0ecb74d3afc276e36db5d7f03e` |
 
+#### PER-U049 — Capitães-mores do Maranhão: parcial local — C/H/Q done
+
+- **Decisão, origem e destino:** O045 permaneceu somente leitura; seu pacote PC mistura França Equinocial, fundação, Guaxenduba e capitães-mores. O destino próprio `conhecimentos-gerais/historia-maranhao/capitaes-mores-maranhao/`, `per-u049`, ordem 490, foi produzido apenas para E06:4.
+- **Intervenção pedagógica:** o material começa pelo problema conquista → defesa → administração, define capitão-mor como função colonial variável e só depois apresenta a sucessão tradicional Jerônimo de Albuquerque → Antônio de Albuquerque → Domingos da Costa Machado → Antônio Moniz Barreiros. A divergência documental sobre “primeiro capitão-mor” é mantida explicitamente; 1621 (criação do Estado) e 1626 (posse de Francisco Coelho de Carvalho) são distinguidos. U048 aparece apenas como ponte, sem reensinar França Equinocial/Guaxenduba.
+- **Q e fontes:** 16 questões/80 opções, `questionSetRevision: 1`; nove autorais `u062-a01`–`u062-a09` preservadas com ID/revisão/`origin`, mais sete novas. Busca no acervo não localizou anterior específica verificável sobre capitães-mores; nenhuma banca foi inventada. Fontes centrais: Fabiano Vilaça dos Santos (2021), Jerônimo de Viveiros (1946), Atlas Digital da América Lusa e edital da Perícia. Matéria histórica, consulta editorial 05/10/2026.
+- **Inspeção individual PER-F02:** C/H/Q/R e 16Q/80 opções foram relidos na main; Q está em texto puro, chaves únicas e commit limitado aos quatro arquivos. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`b267cce6`](https://github.com/insign/concursos/commit/b267cce66d578d95760facb289b2cd9efe3f8542).
+
+| Arquivo | Blob |
+|---|---|
+| C | `8a144d050dabd3a718ff8221d64143f4e52c5570` |
+| H | `0286eb57e081c7a6f5a8624d13e7b7132f3b1ab8` |
+| Q | `79e18b98b83892df2917438f76cefc2af45e6a19` |
+| R | `7d5c834a53fd33e7c8dde5a39b88726a6ce587b6` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2388,9 +2404,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U049 — Capitães-mores do Maranhão
 
-- [ ] PER-U049-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U049-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U049-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U049-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U049-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U049-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U050 — Invasão e expulsão dos holandeses
 
@@ -2926,3 +2942,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U047:** artefatos `b34917a65bbd7099c175303d5feb65546e1fef38` confirmados; aceitos neste registro 24 itens, C/H/Q e proveniência 5.11. Totais resultantes: 46/99 unidades, 138/297 C/H/Q, 67/132 referências, 1587 questões. Macros 17 done/34 pending/0 analyzing. PER-E05 C/H/Q fica done (3/3); E08 passa a 3/11. E08:3 e E05:1/E05:1.1/E05:1.1.2 aceitos pelo índice inverso. Lote U045–U047 encerrado sem reserva ativa. Próxima ação PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba; campanha aberta.
 
 - **PER-U048:** vínculo `b34de7f1d6c44f8ce32061de489a9fa21383ebec` confirmado; canônico O044 auditado em C/H/Q/R, 61 questões/304 opções. Totais resultantes: 47/99 unidades, 141/297 C/H/Q, 70/132 referências, 1648 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 1/10. Próxima ação PER-U049 — Capitães-mores do Maranhão; U049/U050 permanecem analyzing sob a reserva do lote.
+
+- **PER-U049:** artefatos `b267cce66d578d95760facb289b2cd9efe3f8542` confirmados; 16 questões/80 opções aceitas com C/H/Q e proveniência 5.11. Totais resultantes: 48/99 unidades, 144/297 C/H/Q, 71/132 referências, 1664 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 2/10. Próxima ação PER-U050 — Invasão e expulsão dos holandeses; somente U050 permanece analyzing.
