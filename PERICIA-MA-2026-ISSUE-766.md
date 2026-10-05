@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 47 | 3 | 49 |
-| Entregáveis unitários C/H/Q | 297 | 141 | 9 | 147 |
+| Unidades distintas | 99 | 47 | 2 | 50 |
+| Entregáveis unitários C/H/Q | 297 | 141 | 6 | 150 |
 
-Estado confirmado: **49 unidades/visões publicadas (47 locais, 2 por vínculo); 147 C/H/Q aceitos; 73/132 referências literais aceitas; 1724 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **50 unidades/visões publicadas (48 locais, 2 por vínculo); 150 C/H/Q aceitos; 74/132 referências literais aceitas; 1787 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia**, conforme 5.2/7.5. PER-U051–PER-U053 C/H/Q estão analyzing sob o token `per-u051-u053-lote-20261005-f56160af`, em execução serial U051 → U052 → U053. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 3/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U051–PER-U053 sob `per-u051-u053-lote-20261005-f56160af`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U052 — Independência, adesão do Maranhão e Jenipapo**, conforme 5.2/7.5. PER-U051 foi publicada e aceita; PER-U052–PER-U053 C/H/Q permanecem analyzing sob o token `per-u051-u053-lote-20261005-f56160af`, em execução serial. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 4/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U052–PER-U053 sob `per-u051-u053-lote-20261005-f56160af`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -596,7 +596,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba | E06: 1, 2, 3 | O044 | `franca-equinocial-guaxenduba` / canônico `franca-equinocial-guaxenduba` / 480 | Integral por vínculo ao canônico O044; C/H/Q aceitos em 5.11. |
 | PER-U049 — Capitães-mores do Maranhão | E06: 4 | O045 | `capitaes-mores-maranhao` / `per-u049` / 490 | Separar administração colonial da sequência de fundação/combate. Parcial local; C/H/Q aceitos em 5.11. |
 | PER-U050 — Invasão e expulsão dos holandeses | E06: 5, 6 | O046 | `invasao-expulsao-holandeses` / canônico `invasao-expulsao-holandeses` / 500 | Integral por vínculo ao canônico O046; C/H/Q aceitos em 5.11. |
-| PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Incluir formação/organização do Estado, companhia, causas e objetivos da revolta. |
+| PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Parcial local: canônico cobre Bequimão/companhias; complemento próprio cobre formação/organização do Estado. C/H/Q aceitos em 5.11. |
 | PER-U052 — Independência, adesão do Maranhão e Jenipapo | E06: 8, 9, 10 | O048 | `adesao-independencia-jenipapo` / `per-u052` / 520 | Império, não adesão e contexto da Independência. |
 | PER-U053 — Balaiada: caracterização e causas | E06: 11 | O049 | `balaiada-caracterizacao-causas` / `per-u053` / 530 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / `per-u054` / 540 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 73/132 |
-| Unidades distintas da objetiva | 98 | 49 |
+| Referências literais da objetiva | 132/132 | 74/132 |
+| Unidades distintas da objetiva | 98 | 50 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 49 |
-| Entregáveis unitários C/H/Q | 297: 150 pending + 0 analyzing + 147 done | 147 done |
-| Visões consumidoras previstas | 99 | 49 |
+| Total de unidades distintas | 99 | 50 |
+| Entregáveis unitários C/H/Q | 297: 141 pending + 6 analyzing + 150 done | 150 done |
+| Visões consumidoras previstas | 99 | 50 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 45 parciais locais, 2 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 46 parciais locais, 2 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 47 unidades locais, 2 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 48 unidades locais, 2 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1963,6 +1963,23 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 
 Canônico confirmado: C `fb17d4d344bb598cc2c0009f6898dc58bb11d6d6`; H `832f0439a727409f90ebd70bc2359f1b4668ee6b`; Q `c2a8e7fb35554218b081253f3c799130c8e9bee8`; R `e9368c5c72d65d5c9d0c42a0407227b4b5680e70`.
 
+#### PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia: parcial local — C/H/Q done
+
+- **Decisão, origem e destino:** O047 canônico `historia-geografia-estado-maranhao/revolta-bequimao-companhias` foi lido integralmente. Ele cobre Bequimão, estanco, jesuítas, causas/objetivos e companhias, mas não desenvolve a formação/organização do Estado exigida pela matriz. Por isso, U051 é **parcial/local**, em `conhecimentos-gerais/historia-maranhao/revolta-bequimao-companhias/`, `per-u051`, ordem 510, sem alterar o canônico compartilhado.
+- **Intervenção pedagógica e ganho:** antes das causas de 1684, a aula explica a criação do Estado do Maranhão em 1621, sua separação do Estado do Brasil, subordinação direta a Lisboa e a instalação, em 1626, de Francisco Coelho de Carvalho como governador e capitão-general. A ponte conecta a organização setentrional às dificuldades de comunicação, abastecimento, comércio e trabalho. Bequimão permanece organizado pelo mecanismo restrição ao cativeiro indígena → expectativa de africanos escravizados/mercadorias → monopólio e abastecimento insatisfatório → conflito com jesuítas/autoridades → rebelião.
+- **Fontes e cautelas:** além das fontes do canônico, foram revalidados Fabiano Vilaça dos Santos, em *História* (2021), e o Arquivo Nacional para a moldura administrativa. A companhia de 1682 continua separada da Companhia Geral do Grão-Pará e Maranhão de 1755. Matéria histórica; consulta 05/10/2026, sem corte legislativo/jurisprudencial material.
+- **Banco e linhagem:** 63 questões/315 opções, `questionSetRevision: 4`. Todos os IDs/`origin` do canônico foram preservados; quatro itens que continham HTML em campos de texto puro tiveram as tags removidas e revisão individual incrementada. Três autorais novas `per-u051-a01`–`per-u051-a03` cobrem a lacuna administrativa. A releitura remota confirmou 0 HTML, IDs únicos e chaves válidas.
+- **Inspeção individual PER-F02:** C/H/Q/R relidos na main; commit limitado aos quatro artefatos próprios. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`7e81723f`](https://github.com/insign/concursos/commit/7e81723feca9a55473a59a37e92db75da582de00).
+
+| Arquivo | Blob |
+|---|---|
+| C | `c5e00e27a451d4e3c4cdd20c62be65044acf0c7a` |
+| H | `f8126c80cf4a6ae66785dab5e2c917665068b991` |
+| Q | `862877dcebde52a7c53c14d48a8aa3aed8f39ad9` |
+| R | `4bb1c3410d6c2dfd9fa242c0b865c1a1703707db` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2436,9 +2453,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia
 
-- [ ] PER-U051-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U051-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U051-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U051-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U051-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U051-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U052 — Independência, adesão do Maranhão e Jenipapo
 
@@ -2966,3 +2983,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U049:** artefatos `b267cce66d578d95760facb289b2cd9efe3f8542` confirmados; 16 questões/80 opções aceitas com C/H/Q e proveniência 5.11. Totais resultantes: 48/99 unidades, 144/297 C/H/Q, 71/132 referências, 1664 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 2/10. Próxima ação PER-U050 — Invasão e expulsão dos holandeses; somente U050 permanece analyzing.
 
 - **PER-U050:** vínculo `0b603b3c84dca773e60c6f939ebcbce51d7ffdba` confirmado; canônico O046 auditado em C/H/Q/R, 60 questões/300 opções. Totais resultantes: 49/99 unidades, 147/297 C/H/Q, 73/132 referências, 1724 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 3/10. Lote U048–U050 encerrado sem reserva ativa. Próxima ação PER-U051 — Revolta de Bequimão e Companhia de Comércio; campanha aberta.
+
+- **PER-U051:** artefatos `7e81723feca9a55473a59a37e92db75da582de00` confirmados; 63 questões/315 opções aceitas com C/H/Q e proveniência 5.11. Totais resultantes: 50/99 unidades, 150/297 C/H/Q, 74/132 referências, 1787 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 4/10. Próxima ação PER-U052 — Independência, adesão do Maranhão e Jenipapo; U052/U053 permanecem analyzing.
