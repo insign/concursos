@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 37 | 0 | 62 |
-| Entregáveis unitários C/H/Q | 297 | 111 | 0 | 186 |
+| Unidades distintas | 99 | 34 | 3 | 62 |
+| Entregáveis unitários C/H/Q | 297 | 102 | 9 | 186 |
 
 Estado confirmado: **62 unidades/visões publicadas (57 locais, 5 por vínculo); 186 C/H/Q aceitos; 89/132 referências literais aceitas; 2396 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U064 — População, densidade, povoamento e movimentos**, conforme 5.2/7.5. PER-U061–PER-U063 foram publicadas e aceitas; o lote foi encerrado. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 6/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U064 — População, densidade, povoamento e movimentos**, conforme 5.2/7.5. PER-U064–PER-U066 C/H/Q estão analyzing sob o token `per-u064-u066-lote-20261005-27f5e1fa`, em execução serial U064 → U065 → U066. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 6/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U064–PER-U066 sob `per-u064-u066-lote-20261005-27f5e1fa`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1870,6 +1870,16 @@ O pedido “Mais 3” foi executado sob o token `per-u061-u063-lote-20261005-448
 - **U063:** parcial/local complementar a U060 a partir de O057; artefato `b302dd1389e9d3ba4f20605622b6b1ebba5519c4`; 18 questões/90 opções, 16 autorais + 2 anteriores São Luís/2017.
 - O057–O059, o pacote PC doador e consumidores PC/SEAP/TCE permaneceram sem edição. E07:4–7 estão aceitos. **Nenhuma reserva permanece ativa.**
 
+#### Reserva ativa em 05/10/2026 — lote PER-U064–PER-U066
+
+Token exclusivo `per-u064-u066-lote-20261005-27f5e1fa`, decorrente do pedido “Mais 3”. Base: main `27f5e1faacd64c0bc2d2f0dfa94bcf540c24dc2f`, mestre `e152c40c95dfb8bbb7d1fa977b04d31cbb50a005`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U064 → U065 → U066; cada unidade só avança após publicação confirmada e aceite próprio.
+
+- **PER-U064:** E07:8, população absoluta, densidade demográfica, povoamento e movimentos populacionais; O060 canônico `historia-geografia-estado-maranhao/populacao-urbanizacao-movimentos`; destino `conhecimentos-gerais/geografia-maranhao/populacao-urbanizacao-movimentos/`, identidade local `per-u064`, ordem 640. Hipótese: parcial/local, excluindo urbanização/rede urbana como aprofundamento autônomo e deixando-os apenas como ponte.
+- **PER-U065:** E07:9, agricultura e pecuária; O061 canônico `historia-geografia-estado-maranhao/agricultura-pecuaria-maranhenses`; destino `conhecimentos-gerais/geografia-maranhao/agricultura-pecuaria-maranhenses/`, ordem 650. Hipótese integral por vínculo ou cópia local conforme auditoria de contratos/Q/atualidade dos dados.
+- **PER-U066:** E07:10, extrativismo vegetal, animal e mineral; O062 canônico `historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral`; destino `conhecimentos-gerais/geografia-maranhao/extrativismo-vegetal-animal-mineral/`, ordem 660. Hipótese integral por vínculo ou cópia local conforme auditoria de contratos/Q/atualidade dos dados.
+- **Consumidores confirmados:** O060–O062 têm vínculos TCE Analista/Técnico (#755); PC/SEAP possuem pacotes locais reaproveitados para comparação de fronteira em U064–U066, sem edição.
+- **Arquivos reservados:** C/H/Q/R de O060–O062; pacotes locais PC/SEAP pertinentes apenas como evidência; destinos próprios U064–U066.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -2758,21 +2768,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U064 — População, densidade, povoamento e movimentos
 
-- [ ] PER-U064-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U064-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U064-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U064-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U064-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U064-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U065 — Agricultura e pecuária maranhenses
 
-- [ ] PER-U065-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U065-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U065-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U065-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U065-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U065-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U066 — Extrativismo vegetal, animal e mineral
 
-- [ ] PER-U066-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U066-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U066-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U066-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U066-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U066-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U067 — Indústrias de base e transformação
 
