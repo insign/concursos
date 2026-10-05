@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 40 | 1 | 58 |
-| Entregáveis unitários C/H/Q | 297 | 120 | 3 | 174 |
+| Unidades distintas | 99 | 40 | 0 | 59 |
+| Entregáveis unitários C/H/Q | 297 | 120 | 0 | 177 |
 
-Estado confirmado: **58 unidades/visões publicadas (53 locais, 5 por vínculo); 174 C/H/Q aceitos; 83/132 referências literais aceitas; 2279 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **59 unidades/visões publicadas (54 locais, 5 por vínculo); 177 C/H/Q aceitos; 84/132 referências literais aceitas; 2321 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U060 — Climas: pluviosidade e temperatura**, conforme 5.2/7.5. PER-U058 e PER-U059 foram publicadas e aceitas; somente PER-U060 C/H/Q permanece analyzing sob o token `per-u058-u060-lote-20261005-044a2fbf`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 2/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:1 e E07:2 foram aceitos após U058/U059. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: somente PER-U060 sob `per-u058-u060-lote-20261005-044a2fbf`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U061 — Geomorfologia e classificação do relevo**, conforme 5.2/7.5. PER-U058–PER-U060 foram publicadas e aceitas; E07:1–3 estão cobertos, e o lote foi encerrado. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 3/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -612,7 +612,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 |---|---|---|---|---|
 | PER-U058 — Localização, superfície, limites, fronteiras e extremos | E07: 1 | O055 | `localizacao-limites-extremos` / `per-u058` / 580 | Integral por cópia local de O055; remissão numérica canônica neutralizada e Q normalizado para texto puro; C/H/Q aceitos em 5.11. |
 | PER-U059 — Áreas de proteção ambiental e parques nacionais | E07: 1, 2 | O056 | `areas-protecao-parques-nacionais` / `per-u059` / 590 | Integral por cópia local de O056; frontmatter/Q normalizados para texto puro; C/H/Q aceitos em 5.11. |
-| PER-U060 — Climas: pluviosidade e temperatura | E07: 3 | O057 | `climas-maranhao` / `per-u060` / 600 | Usar só recorte climático; vegetação própria U063. |
+| PER-U060 — Climas: pluviosidade e temperatura | E07: 3 | O057 | `climas-maranhao` / `per-u060` / 600 | Parcial/local: recorte climático de O057; vegetação reservada a U063; C/H/Q aceitos em 5.11. |
 | PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Planaltos, planícies e baixadas; geologia apenas quando explicar relevo. |
 | PER-U062 — Rios e bacias limítrofes e maranhenses | E07: 5, 6 | O059 | `rios-bacias-maranhenses` / `per-u062` / 620 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Recorte vegetal; não copiar novamente o capítulo climático. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 83/132 |
-| Unidades distintas da objetiva | 98 | 58 |
+| Referências literais da objetiva | 132/132 | 84/132 |
+| Unidades distintas da objetiva | 98 | 59 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 58 |
-| Entregáveis unitários C/H/Q | 297: 123 pending + 0 analyzing + 174 done | 174 done |
-| Visões consumidoras previstas | 99 | 58 |
+| Total de unidades distintas | 99 | 59 |
+| Entregáveis unitários C/H/Q | 297: 120 pending + 0 analyzing + 177 done | 177 done |
+| Visões consumidoras previstas | 99 | 59 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 4 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 48 parciais locais, 4 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 53 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 54 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1852,14 +1852,14 @@ O pedido “Avança 3 seguidas” foi executado sob o token `per-u055-u057-lote-
 - **U057:** integral/local a partir de O054; artefato `4190c822003fde0c93d3d6b6f6f0c13dc02f72f1`; 61 questões/305 opções; fronteiras/remissões TCE neutralizadas, `q7603` revisada e uma anterior FCC/DPE-MA 2026 incorporada.
 - O051–O054 e consumidores TCE/PC/SEAP permaneceram sem edição. E06:14 foi aceito somente após os três filhos U055/U056/U057; PER-E06-C/H/Q fecha done (10/10). **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — lote PER-U058–PER-U060
+#### Decisão de execução serial em 05/10/2026 — lote PER-U058–PER-U060 concluído
 
-Token exclusivo `per-u058-u060-lote-20261005-044a2fbf`, decorrente do pedido “Mais 3”. Base inicial: main `044a2fbf0d431fccc561035d5ec6624b6a8cea3d`, mestre `fb7eb8288fac8dfde19782c03b3224e81242780b`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+O pedido “Mais 3” foi executado sob o token `per-u058-u060-lote-20261005-044a2fbf`, com publicação/aceite serial U058 → U059 → U060. Base inicial: main `044a2fbf0d431fccc561035d5ec6624b6a8cea3d`, mestre `fb7eb8288fac8dfde19782c03b3224e81242780b`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
 
-- **PER-U058 concluída:** integral/local a partir de O055; artefato `8c348bc615144dcd61145ff12a9bb3bf4b878040`, 60 questões/300 opções.
-- **PER-U059 concluída:** integral/local a partir de O056; artefato `eb5430f8b44200f596d14a645092c2573914229e`, 61 questões/305 opções, frontmatter/Q normalizados.
-- **PER-U060 analyzing:** E07:3 climático; O057 `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/climas-maranhao/`, ordem 600. Hipótese parcial/local.
-- O055–O057 e consumidores PC/SEAP/TCE permanecem sem edição.
+- **U058:** integral/local a partir de O055; artefato `8c348bc615144dcd61145ff12a9bb3bf4b878040`; 60 questões/300 opções.
+- **U059:** integral/local a partir de O056; artefato `eb5430f8b44200f596d14a645092c2573914229e`; 61 questões/305 opções.
+- **U060:** parcial/local a partir de O057; artefato `c2bffffc7dbf78e066ea7a785be5ad86e1c567ea`; 42 questões/210 opções, sendo 41 autorais climáticas e uma anterior PM/MA 2017 adaptada e verificada em fonte primária.
+- O055–O057 e consumidores PC/SEAP/TCE permaneceram sem edição. E07:1–3 foram aceitos. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2128,6 +2128,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `0825bd22c608efe9930fdcc2d1cdc7a544863c62` |
 | Q | `4243db2b7e92a708e44544c2bb38e92dbc6328f3` |
 | R | `c33a497a44da095e223bbcfcab7ee6f3ea2d840b` |
+
+#### PER-U060 — Climas: pluviosidade e temperatura: parcial/local — C/H/Q done
+
+- **Decisão:** O057 reúne dois recortes distintos da matriz: E07:3 (clima, pluviosidade e temperatura) e E07:7 (floresta, Cerrado e cocais). U060 extrai somente o núcleo climático, preservando a vegetação para U063; vínculo integral ou cópia integral de O057 duplicariam matéria planejada.
+- **Intervenção pedagógica:** C foi reorganizado por mecanismo — posição tropical → circulação atmosférica → sazonalidade da chuva → contraste litoral/interior → temperatura → classificações — e termina com pegadinhas de leitura de normais. H recupera apenas clima. A fronteira explicita que formações vegetais pertencem à unidade própria.
+- **Q:** foram preservadas as 41 questões autorais climáticas `q7839`–`q7879`; 11 com `abbr` herdado em campos JSON foram convertidas a texto puro com `revision` incrementada. Foi acrescentada `per-u060-pmma-2017-q52`, adaptação do item 52 da PM/MA 2017. O caderno oficial contém a assertiva sobre dunas e suposto clima semiárido no oeste; o gabarito definitivo oficial marca **E (Errado)**. Banco final: 42 questões/210 opções, `questionSetRevision: 5`, zero HTML/duplicidades/gabaritos inválidos.
+- **Fontes:** <abbr title="Instituto Nacional de Meteorologia">INMET</abbr> reconsultado em 05/10/2026 mantém Normais 1991–2020 e variáveis de precipitação/temperatura; <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> mantém o Mapa de Clima 2002 como produto oficial. A atualização regional de 2023 sustenta os calendários sazonais e a classificação Köppen usada com cautelas.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O057 permaneceu inalterado; vegetação não foi antecipada em profundidade. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`c2bffffc`](https://github.com/insign/concursos/commit/c2bffffc7dbf78e066ea7a785be5ad86e1c567ea).
+
+| Arquivo | Blob |
+|---|---|
+| C | `bc82e7feeaa855e6397bc7932585135972a13444` |
+| H | `8853f65e391cd428df6203abb88e3fc39633e0d2` |
+| Q | `1ef21df612f58a8ef8b46c646d27836a593cdf3d` |
+| R | `0cea25858f5db0d6cf0197335ec790c1c2022a47` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2656,9 +2673,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U060 — Climas: pluviosidade e temperatura
 
-- [ ] PER-U060-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U060-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U060-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U060-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U060-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U060-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U061 — Geomorfologia e classificação do relevo
 
@@ -3150,3 +3167,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U058:** artefatos `8c348bc615144dcd61145ff12a9bb3bf4b878040` confirmados; cópia local integral de O055, 60 questões/300 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 57/99 unidades, 171/297 C/H/Q, 81/132 referências e 2218 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 1/13; E07:1 ainda aguarda U059. Próxima ação PER-U059 — Áreas de proteção ambiental e parques nacionais; U059/U060 permanecem analyzing.
 
 - **PER-U059:** artefatos `eb5430f8b44200f596d14a645092c2573914229e` confirmados; cópia local integral de O056, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E07:1 e E07:2 aceitos após fechamento do índice inverso. Totais resultantes: 58/99 unidades, 174/297 C/H/Q, 83/132 referências e 2279 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 2/13. Próxima ação PER-U060 — Climas: pluviosidade e temperatura; somente U060 permanece analyzing.
+
+- **PER-U060:** artefatos `c2bffffc7dbf78e066ea7a785be5ad86e1c567ea` confirmados; recorte parcial/local de O057, 42 questões/210 opções, C/H/Q e proveniência 5.11 aceitos. E07:3 aceito. Totais resultantes: 59/99 unidades, 177/297 C/H/Q, 84/132 referências e 2321 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 3/13. Lote U058–U060 encerrado sem reserva ativa. Próxima ação PER-U061 — Geomorfologia e classificação do relevo; campanha aberta.
