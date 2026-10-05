@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 34 | 3 | 62 |
-| Entregáveis unitários C/H/Q | 297 | 102 | 9 | 186 |
+| Unidades distintas | 99 | 34 | 2 | 63 |
+| Entregáveis unitários C/H/Q | 297 | 102 | 6 | 189 |
 
-Estado confirmado: **62 unidades/visões publicadas (57 locais, 5 por vínculo); 186 C/H/Q aceitos; 89/132 referências literais aceitas; 2396 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **63 unidades/visões publicadas (58 locais, 5 por vínculo); 189 C/H/Q aceitos; 90/132 referências literais aceitas; 2416 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U064 — População, densidade, povoamento e movimentos**, conforme 5.2/7.5. PER-U064–PER-U066 C/H/Q estão analyzing sob o token `per-u064-u066-lote-20261005-27f5e1fa`, em execução serial U064 → U065 → U066. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 6/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U064–PER-U066 sob `per-u064-u066-lote-20261005-27f5e1fa`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U065 — Agricultura e pecuária maranhenses**, conforme 5.2/7.5. PER-U064 foi publicada e aceita; PER-U065–PER-U066 C/H/Q permanecem analyzing sob o token `per-u064-u066-lote-20261005-27f5e1fa`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 7/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:8 está aceito. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U065–PER-U066 sob `per-u064-u066-lote-20261005-27f5e1fa`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -616,7 +616,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Parcial/local: pacote PC-MA de recorte compatível, derivado de O058; geologia apenas como base explicativa; C/H/Q aceitos em 5.11. |
 | PER-U062 — Rios e bacias limítrofes e maranhenses | E07: 5, 6 | O059 | `rios-bacias-maranhenses` / `per-u062` / 620 | Integral por cópia local de O059; Q normalizado para texto puro e anteriores revalidadas por nível de evidência; C/H/Q aceitos em 5.11. |
 | PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Parcial/local complementar a U060: apenas biomas/formações, florestas, Cerrado e cocais; C/H/Q aceitos em 5.11. |
-| PER-U064 — População, densidade, povoamento e movimentos | E07: 8 | O060 | `populacao-urbanizacao-movimentos` / `per-u064` / 640 | Urbanização só como ponte para povoamento/movimentos; datas de dados explícitas. |
+| PER-U064 — População, densidade, povoamento e movimentos | E07: 8 | O060 | `populacao-urbanizacao-movimentos` / `per-u064` / 640 | Parcial/local: pacote PC-MA compatível derivado de O060; urbanização/rede urbana apenas como ponte; C/H/Q aceitos em 5.11. |
 | PER-U065 — Agricultura e pecuária maranhenses | E07: 9 | O061 | `agricultura-pecuaria-maranhenses` / `per-u065` / 650 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U067 — Indústrias de base e transformação | E07: 11 | O063 | `industrias-base-transformacao` / `per-u067` / 670 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 89/132 |
-| Unidades distintas da objetiva | 98 | 62 |
+| Referências literais da objetiva | 132/132 | 90/132 |
+| Unidades distintas da objetiva | 98 | 63 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 62 |
-| Entregáveis unitários C/H/Q | 297: 111 pending + 0 analyzing + 186 done | 186 done |
-| Visões consumidoras previstas | 99 | 62 |
+| Total de unidades distintas | 99 | 63 |
+| Entregáveis unitários C/H/Q | 297: 108 pending + 0 analyzing + 189 done | 189 done |
+| Visões consumidoras previstas | 99 | 63 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 50 parciais locais, 5 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 5 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 57 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 58 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1872,13 +1872,12 @@ O pedido “Mais 3” foi executado sob o token `per-u061-u063-lote-20261005-448
 
 #### Reserva ativa em 05/10/2026 — lote PER-U064–PER-U066
 
-Token exclusivo `per-u064-u066-lote-20261005-27f5e1fa`, decorrente do pedido “Mais 3”. Base: main `27f5e1faacd64c0bc2d2f0dfa94bcf540c24dc2f`, mestre `e152c40c95dfb8bbb7d1fa977b04d31cbb50a005`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U064 → U065 → U066; cada unidade só avança após publicação confirmada e aceite próprio.
+Token exclusivo `per-u064-u066-lote-20261005-27f5e1fa`, decorrente do pedido “Mais 3”. Base inicial: main `27f5e1faacd64c0bc2d2f0dfa94bcf540c24dc2f`, mestre `e152c40c95dfb8bbb7d1fa977b04d31cbb50a005`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
 
-- **PER-U064:** E07:8, população absoluta, densidade demográfica, povoamento e movimentos populacionais; O060 canônico `historia-geografia-estado-maranhao/populacao-urbanizacao-movimentos`; destino `conhecimentos-gerais/geografia-maranhao/populacao-urbanizacao-movimentos/`, identidade local `per-u064`, ordem 640. Hipótese: parcial/local, excluindo urbanização/rede urbana como aprofundamento autônomo e deixando-os apenas como ponte.
-- **PER-U065:** E07:9, agricultura e pecuária; O061 canônico `historia-geografia-estado-maranhao/agricultura-pecuaria-maranhenses`; destino `conhecimentos-gerais/geografia-maranhao/agricultura-pecuaria-maranhenses/`, ordem 650. Hipótese integral por vínculo ou cópia local conforme auditoria de contratos/Q/atualidade dos dados.
-- **PER-U066:** E07:10, extrativismo vegetal, animal e mineral; O062 canônico `historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral`; destino `conhecimentos-gerais/geografia-maranhao/extrativismo-vegetal-animal-mineral/`, ordem 660. Hipótese integral por vínculo ou cópia local conforme auditoria de contratos/Q/atualidade dos dados.
-- **Consumidores confirmados:** O060–O062 têm vínculos TCE Analista/Técnico (#755); PC/SEAP possuem pacotes locais reaproveitados para comparação de fronteira em U064–U066, sem edição.
-- **Arquivos reservados:** C/H/Q/R de O060–O062; pacotes locais PC/SEAP pertinentes apenas como evidência; destinos próprios U064–U066.
+- **PER-U064 concluída:** parcial/local por pacote PC-MA compatível derivado de O060; artefato `3a09dbb1bb049fda3da29235639dd80873dca2fe`, 20 questões/100 opções.
+- **PER-U065 analyzing:** E07:9; O061 `historia-geografia-estado-maranhao/agricultura-pecuaria-maranhenses`; destino `conhecimentos-gerais/geografia-maranhao/agricultura-pecuaria-maranhenses/`, ordem 650.
+- **PER-U066 analyzing:** E07:10; O062 `historia-geografia-estado-maranhao/extrativismo-vegetal-animal-mineral`; destino `conhecimentos-gerais/geografia-maranhao/extrativismo-vegetal-animal-mineral/`, ordem 660.
+- Doadores canônicos, PC/SEAP e TCE permanecem sem edição.
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2216,6 +2215,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `a7ab8beff99a71102fd6636b99f7216d340d0511` |
 | Q | `48e194f84889e59dc524f764d175937bb7d8c156` |
 | R | `c25c1881500a00b60567f025b6f33603249619e3` |
+
+#### PER-U064 — População, densidade, povoamento e movimentos: parcial/local — C/H/Q done
+
+- **Decisão:** O060 é mais amplo que E07:8 porque inclui urbanização e rede urbana. O pacote local PC-MA `populacao-movimentos` já recorta exatamente população absoluta, densidade, povoamento, migração e deslocamentos, documentando reaproveitamento parcial de O060; foi usado como doador local sem importar o aceite da campanha PC.
+- **Intervenção:** C recebeu identidade/ordem Perícia e fronteira nominal própria. H preserva urbanização apenas como ponte. Q foi reaproveitado integralmente: 20 questões/100 opções, 18 autorais + 2 anteriores, zero HTML/duplicidades/gabaritos inválidos.
+- **Atualidade:** o <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> reconsultado em 05/10/2026 mantém **6.776.699 habitantes** e **20,56 hab/km²** no Censo 2022. O portal atualmente também exibe estimativa 2026 de 7.024.557, mas essa edição foi publicada no DOU em **28/08/2026**, após o edital de 17/07/2026; por isso não substitui a base censitária usada no recorte.
+- **Questões anteriores:** `q8012` (CEBRASPE/IBGE 2021) e `q20003` (CEBRASPE/São Luís 2017) mantêm suas fontes oficiais e adaptações identificadas.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O060 e consumidores TCE ficaram intactos. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`3a09dbb1`](https://github.com/insign/concursos/commit/3a09dbb1bb049fda3da29235639dd80873dca2fe).
+
+| Arquivo | Blob |
+|---|---|
+| C | `d8b0e740fced120426333706ed977f421b1ba7ba` |
+| H | `fedb888bffe642521d04997f307d2befff880a30` |
+| Q | `c1f81ebd61be5d27cbee89659decba567cd18e5a` |
+| R | `7247b903bc9dfc6e210981ab71c9d831447a5b27` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2768,9 +2784,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U064 — População, densidade, povoamento e movimentos
 
-- [ ] PER-U064-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U064-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U064-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U064-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U064-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U064-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U065 — Agricultura e pecuária maranhenses
 
@@ -3246,3 +3262,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U062:** artefatos `b060283137131e2363d767fbd1695562e24f0bbe` confirmados; cópia local integral de O059, 37 questões/185 opções, C/H/Q e proveniência 5.11 aceitos. E07:5 e 6 aceitos. Totais resultantes: 61/99 unidades, 183/297 C/H/Q, 88/132 referências e 2378 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 5/13. Próxima ação PER-U063 — Formações vegetais: floresta, cerrado e cocais; somente U063 permanece analyzing.
 
 - **PER-U063:** artefatos `b302dd1389e9d3ba4f20605622b6b1ebba5519c4` confirmados; recorte parcial/local vegetal de O057, 18 questões/90 opções, C/H/Q e proveniência 5.11 aceitos. E07:7 aceito. Totais resultantes: 62/99 unidades, 186/297 C/H/Q, 89/132 referências e 2396 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 6/13. Lote U061–U063 encerrado sem reserva ativa. Próxima ação PER-U064 — População, densidade, povoamento e movimentos; campanha aberta.
+
+- **PER-U064:** artefatos `3a09dbb1bb049fda3da29235639dd80873dca2fe` confirmados; parcial/local por pacote PC-MA compatível derivado de O060, 20 questões/100 opções, C/H/Q e proveniência 5.11 aceitos. E07:8 aceito. Totais resultantes: 63/99 unidades, 189/297 C/H/Q, 90/132 referências e 2416 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 7/13. Próxima ação PER-U065 — Agricultura e pecuária maranhenses; U065/U066 permanecem analyzing.
