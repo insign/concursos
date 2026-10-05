@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: "Estatuto do Desarmamento — Lei 10.826/2003"
-description: "Lei nº 10.826/2003 no corte de 21 de julho de 2026: <abbr title="Sistema Nacional de Armas">Sinarm</abbr>, registro, aquisição, posse, porte, categorias autorizadas, crimes, apreensão, entrega, banco balístico, referendo e alteração da Lei nº 15.358/2026."
+description: "Lei nº 10.826/2003 no corte de 21 de julho de 2026: Sinarm, registro, aquisição, posse, porte, categorias autorizadas, crimes, apreensão, entrega, banco balístico, referendo e alteração da Lei nº 15.358/2026."
 order: 94
 storageId: seap-u094
 ---

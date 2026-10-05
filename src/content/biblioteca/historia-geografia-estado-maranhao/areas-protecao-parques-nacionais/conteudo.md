@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: "Áreas de Proteção Ambiental e Parques Nacionais"
-description: "Áreas de Proteção Ambiental e parques nacionais incidentes no Maranhão, com distinções essenciais do <abbr title="Sistema Nacional de Unidades de Conservação da Natureza">SNUC</abbr>, localização e pegadinhas de prova."
+description: "Áreas de Proteção Ambiental e parques nacionais incidentes no Maranhão, com distinções essenciais do SNUC, localização e pegadinhas de prova."
 order: 85
 storageId: "areas-protecao-parques-nacionais"
 ---

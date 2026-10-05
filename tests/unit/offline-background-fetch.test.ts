@@ -117,6 +117,7 @@ describe('background fetch adoption', () => {
       '/_astro/shared.js',
     ]);
     expect(requests.every((request) => request.credentials === 'same-origin')).toBe(true);
+    expect(requests.every((request) => request.headers.get('X-PWA-Offline') === '1')).toBe(true);
   });
 
   it('routes package resources to staging, shared assets to the shared cache and promotes', async () => {

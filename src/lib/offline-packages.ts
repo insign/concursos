@@ -75,12 +75,15 @@ function uniqueResources(manifest: OfflinePackageManifest): string[] {
   return [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])];
 }
 
-function requestFor(path: string, origin: string): Request {
+export function requestForOfflinePackage(path: string, origin: string): Request {
   const url = new URL(path, origin);
   if (url.origin !== origin || url.origin === 'https://kv.helio.me') {
     throw new Error('O pacote offline contém um recurso externo inválido.');
   }
-  return new Request(url, { credentials: 'same-origin' });
+  return new Request(url, {
+    credentials: 'same-origin',
+    headers: { 'X-PWA-Offline': '1' },
+  });
 }
 
 export async function hashOfflineResource(resource: string, contents: BufferSource): Promise<string> {
@@ -230,7 +233,7 @@ async function copyResourceLocally(
 
 async function cacheContains(cache: Cache, resources: Iterable<string>, origin: string): Promise<boolean> {
   for (const resource of resources) {
-    if (!await cache.match(requestFor(resource, origin), { ignoreVary: true })) return false;
+    if (!await cache.match(requestForOfflinePackage(resource, origin), { ignoreVary: true })) return false;
   }
   return true;
 }
@@ -438,7 +441,7 @@ async function downloadContestPackageLocked(
   try {
     await runConcurrentPool(resources, boundedConcurrency, async (resource, signal) => {
       if (signal?.aborted) return;
-      const request = requestFor(resource, origin);
+      const request = requestForOfflinePackage(resource, origin);
       const isPackageResource = packageResources.has(resource);
       const destination = isPackageResource ? temporary : shared;
       const expectedHash = isPackageResource

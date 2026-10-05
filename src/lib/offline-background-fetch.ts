@@ -2,6 +2,7 @@ import {
   ADOPTION_LEASE_WAIT_MS,
   adoptStagedPackageUnderLock,
   offlinePackageManifestSchema,
+  requestForOfflinePackage,
   type OfflinePackageManifest,
 } from './offline-packages';
 import { SHARED_ASSET_CACHE } from './pwa-cache';
@@ -95,7 +96,7 @@ export async function hasActivePackageDownload(
 
 export function buildPackageRequests(manifest: OfflinePackageManifest, origin: string): Request[] {
   const resources = [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])];
-  return resources.map((resource) => new Request(`${origin}${resource}`, { credentials: 'same-origin' }));
+  return resources.map((resource) => requestForOfflinePackage(resource, origin));
 }
 
 export async function startBackgroundPackageDownload(

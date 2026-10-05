@@ -136,9 +136,10 @@ describe('offline contest packages', () => {
   it('activates a complete package and removes it explicitly', async () => {
     const cacheStorage = new MemoryCacheStorage();
     const progress = vi.fn();
+    const fetchResource = vi.fn(successfulFetch);
     const record = await downloadContestPackage(await hashedManifest('11111111111111111111'), progress, {
       cacheStorage: cacheStorage as unknown as CacheStorage,
-      fetch: successfulFetch as typeof fetch,
+      fetch: fetchResource as typeof fetch,
       origin: 'https://concursos.test',
       storage: {
         persist: () => Promise.resolve(true),
@@ -148,6 +149,7 @@ describe('offline contest packages', () => {
 
     expect(record.resourceCount).toBe(2);
     expect(progress).toHaveBeenLastCalledWith({ completed: 2, total: 2, downloadedBytes: 64, fetched: 2, copied: 0 });
+    expect(fetchResource.mock.calls.every(([input]) => new Request(input).headers.get('X-PWA-Offline') === '1')).toBe(true);
     expect(await getOfflineContestRecord('exemplo')).toEqual(record);
     expect(cacheStorage.caches.has(record.activeCacheName)).toBe(true);
     const sharedResponse = await cacheStorage.caches.get(SHARED_ASSET_CACHE)?.match('https://concursos.test/_astro/shared.js');
