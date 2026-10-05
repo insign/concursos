@@ -1,0 +1,27 @@
+# Fatos políticos do Maranhão na segunda metade do século XX
+
+## 1951: crise que não encerra a hegemonia
+
+- **3 out. 1950:** eleição Eugênio Barros × Saturnino Belo; resultado contestado e denúncias de fraude ≠ fraude judicialmente comprovada.
+- **28 fev. 1951:** posse de Eugênio → 1ª fase da Greve de 1951.
+- **14 mar.:** licença; César Alexandre Aboud, presidente da Assembleia, exerce interinamente o governo. **Licença ≠ cassação/renúncia.**
+- **3 set.:** <abbr title="Tribunal Superior Eleitoral">TSE</abbr> mantém o diploma; **18 set.** Eugênio reassume → 2ª fase; encerramento em **8 out.**
+- Movimento <abbr title="Com participação de grupos de diferentes classes sociais">multiclassista</abbr> e de pauta político-eleitoral imediata; duas fases, não uma paralisação contínua.
+- **Resultado:** desgaste político e mobilização ampla, mas mandato preservado. **1951 ≠ fim do vitorinismo; 1965 = ruptura eleitoral da hegemonia.**
+
+## Regra de escolha, facção e resultado (1951–2000)
+
+A Greve de 1951 desgastou o **vitorinismo** (rede de chefias, partidos e conexão federal), mas sua hegemonia eleitoral só foi rompida em **1965**. Sarney iniciou a trajetória no <abbr title="Partido Social Democrático">PSD</abbr>, rompeu com o campo vitorinista, integrou as Oposições Coligadas e tornou-se liderança posterior da <abbr title="União Democrática Nacional">UDN</abbr>. Sua vitória direta em **1965** e posse em **1966** são marcos diferentes; o discurso do “Maranhão Novo” prometeu renovação e planejamento, sem apagar as redes municipais e a concentração de poder.
+
+| Escolha | Regra e resultado | Como ler |
+|---|---|---|
+| **1965/66** | Direta: José Sarney eleito; toma posse no ano seguinte. | Ruptura eleitoral vitorinista; influência pessoal de Vitorino não desaparece instantaneamente. |
+| **1970, 1974, 1978** | Indiretas por <abbr title="Corpo institucional de eleitores que escolhia o governador sob o regime militar">colégio eleitoral</abbr>: Pedro Neiva de Santana, Nunes Freire e João Castelo. | Neiva e Castelo ligados inicialmente a Sarney; Nunes Freire, à influência de Vitorino. As facções competiam dentro da mesma <abbr title="Aliança Renovadora Nacional">ARENA</abbr> governista; o <abbr title="Movimento Democrático Brasileiro">MDB</abbr> era oposição institucional. |
+| **1982** | Direta: Luís Rocha (<abbr title="Partido Democrático Social">PDS</abbr>). | Primeira eleição direta de governador desde 1965; **voto vinculado** exigia escolhas do mesmo partido para os cargos disputados, sob nulidade, conforme lei eleitoral da época. |
+| **1986** | Direta: Epitácio Cafeteira (<abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>). | A redemocratização e as alianças locais não fixaram líderes como aliados ou adversários permanentes. |
+| **1990** | Direta, segundo turno: Edison Lobão (<abbr title="Partido da Frente Liberal">PFL</abbr>) derrota João Castelo. | Redes políticas se adaptam à competição multipartidária. |
+| **1994/1998** | Roseana Sarney (<abbr title="Partido da Frente Liberal">PFL</abbr>) vence Cafeteira no **segundo turno** em 1994; é reeleita no **primeiro turno** em 1998. | A reeleição consecutiva veio com a Emenda Constitucional 16/1997; “Novo Tempo” usa ideia de renovação em contexto distinto do “Maranhão Novo”. |
+
+**Mudança de partidos e voto:** Sarney e Vitorino ingressaram na <abbr title="Aliança Renovadora Nacional">ARENA</abbr>, sem virarem uma facção única. O encerramento político do bipartidarismo é situado em novembro de 1979; a **Lei 6.767, de 20/12/1979**, extinguiu juridicamente os partidos daquela ordem. A <abbr title="Aliança Renovadora Nacional">ARENA</abbr> desdobrou-se sobretudo no <abbr title="Partido Democrático Social">PDS</abbr>, o <abbr title="Movimento Democrático Brasileiro">MDB</abbr> no <abbr title="Partido do Movimento Democrático Brasileiro">PMDB</abbr>; dissidências do <abbr title="Partido Democrático Social">PDS</abbr> formaram a Frente Liberal e depois o <abbr title="Partido da Frente Liberal">PFL</abbr>. A Emenda Constitucional 15/1980 restabeleceu voto direto para governador; a lei eleitoral de 1982 ainda tinha regras diferentes das atuais.
+
+**Instituições e escala:** eleições diretas para prefeito de capital voltaram em 1985; **Gardênia Gonçalves** venceu em São Luís, exemplo de resultado local diferente do estadual. A Constituição maranhense foi **promulgada pela Assembleia em 5/10/1989**, não outorgada por governador. O sarneísmo é rede de lideranças, municípios e alianças, e não apenas um mandato ou uma família; modernização conservadora designa reforma administrativa com permanência de relações de poder, categoria analítica, não nome oficial. O recorte termina em **2000**, sem incorporar a eleição de 2002.
