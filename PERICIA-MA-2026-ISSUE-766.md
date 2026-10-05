@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 43 | 2 | 54 |
-| Entregáveis unitários C/H/Q | 297 | 129 | 6 | 162 |
+| Unidades distintas | 99 | 43 | 1 | 55 |
+| Entregáveis unitários C/H/Q | 297 | 129 | 3 | 165 |
 
-Estado confirmado: **54 unidades/visões publicadas (49 locais, 5 por vínculo); 162 C/H/Q aceitos; 80/132 referências literais aceitas; 2037 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **55 unidades/visões publicadas (50 locais, 5 por vínculo); 165 C/H/Q aceitos; 80/132 referências literais aceitas; 2097 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U055 foi publicada e aceita; PER-U056–PER-U057 C/H/Q permanecem analyzing sob o token `per-u055-u057-lote-20261005-e490070a`, em execução serial. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 8/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E06:14 continua sem aceite literal até U056/U057 concluírem o índice inverso compartilhado. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U056–PER-U057 sob `per-u055-u057-lote-20261005-e490070a`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U055 e PER-U056 foram publicadas e aceitas; PER-U057 C/H/Q permanece analyzing sob o token `per-u055-u057-lote-20261005-e490070a`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 9/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E06:14 continua sem aceite literal até U057 concluir o índice inverso compartilhado. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: somente PER-U057 sob `per-u055-u057-lote-20261005-e490070a`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -601,7 +601,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | PER-U053 — Balaiada: caracterização e causas | E06: 11 | O049 | `balaiada-caracterizacao-causas` / canônico `balaiada-caracterizacao-causas` / 530 | Integral por vínculo ao canônico O049; C/H/Q aceitos em 5.11. |
 | PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / canônico `adesao-republica-revolucao-1930` / 540 | Integral por vínculo ao canônico O050; C/H/Q aceitos em 5.11. |
 | PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX | E06: 14 | O051, O052 | `fatos-politicos-maranhao-sec-xx` / `per-u055` / 550 | Parcial local: O051 ampliado com núcleo da Greve de 1951 de O052; C/H/Q aceitos em 5.11. |
-| PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX | E06: 14 | O053 | `fatos-economicos-maranhao-sec-xx` / `per-u056` / 560 | História econômica; dados atuais da geografia não substituem processos históricos. |
+| PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX | E06: 14 | O053 | `fatos-economicos-maranhao-sec-xx` / `per-u056` / 560 | Integral por cópia local de O053; remissões numéricas TCE foram neutralizadas; C/H/Q aceitos em 5.11. |
 | PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX | E06: 14 | O054 | `fatos-sociais-maranhao-sec-xx` / `per-u057` / 570 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 
 #### 5.2.7 Geografia do Maranhão
@@ -923,16 +923,16 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
 | Referências literais da objetiva | 132/132 | 80/132 |
-| Unidades distintas da objetiva | 98 | 54 |
+| Unidades distintas da objetiva | 98 | 55 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 54 |
-| Entregáveis unitários C/H/Q | 297: 129 pending + 6 analyzing + 162 done | 162 done |
-| Visões consumidoras previstas | 99 | 54 |
+| Total de unidades distintas | 99 | 55 |
+| Entregáveis unitários C/H/Q | 297: 129 pending + 3 analyzing + 165 done | 165 done |
+| Visões consumidoras previstas | 99 | 55 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 1 integral local e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 49 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 50 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1847,9 +1847,9 @@ O pedido “Avance” foi executado sob o token `per-u054-20261005-54212605`, a 
 
 Token exclusivo `per-u055-u057-lote-20261005-e490070a`, decorrente do pedido “Avança 3 seguidas”. Base inicial: main `e490070a5401e754195022c89ab7cb299b5f10c2`, mestre `50e3b9d8c5c2e59668b1eb0e69db1c1a9956c6fc`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
 
-- **PER-U055 concluída:** parcial/local a partir de O051 + núcleo político da Greve de 1951 de O052; artefato `c82a99061e7a640a56818dcf43bffc54943c797c`, quatro arquivos próprios, 68 questões/340 opções.
-- **PER-U056 analyzing:** E06:14 econômico; O053 `historia-geografia-estado-maranhao/fatos-economicos-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-economicos-maranhao-sec-xx/`, ordem 560. Hipótese integral por vínculo.
-- **PER-U057 analyzing:** E06:14 social; O054 `historia-geografia-estado-maranhao/fatos-sociais-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-sociais-maranhao-sec-xx/`, ordem 570. Hipótese integral por vínculo.
+- **PER-U055 concluída:** parcial/local; artefato `c82a99061e7a640a56818dcf43bffc54943c797c`, 68 questões/340 opções.
+- **PER-U056 concluída:** integral por cópia local de O053; artefato `59d3796afc9f3d0412527aa966e61fd7fe9b2467`, 60 questões/300 opções, com duas anteriores revalidadas.
+- **PER-U057 analyzing:** E06:14 social; O054 `historia-geografia-estado-maranhao/fatos-sociais-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-sociais-maranhao-sec-xx/`, ordem 570. Hipótese integral por vínculo/cópia local condicionada à compatibilidade do canônico.
 - Consumidores canônicos: TCE Analista/Técnico (#755); PC (#764) e SEAP (#765) preservados. Nenhum canônico foi alterado.
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
@@ -2051,6 +2051,22 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `d572dd870a22387dd0ae2144e86465d1b356ddef` |
 | Q | `195c8f0401f48361cc4436ab60c63bf73df16910` |
 | R | `e0e0e5b669810bdf6e6b5f52895303fa20579a75` |
+
+#### PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX: integral/local — C/H/Q done
+
+- **Decisão:** O053 cobre integralmente o recorte econômico de E06:14, com transformação produtiva 1951–2000, babaçu/arroz/têxtil, integração regional, terras/pecuarização, grandes projetos, corredor exportador e privatizações. O vínculo direto foi descartado apenas porque o texto canônico contém remissões numéricas internas “Assunto 082/089–093”, próprias da organização dos consumidores TCE; para não expor remissão incompatível nem alterar o doador, foi feita cópia local integral.
+- **Intervenção:** C preserva o conteúdo substantivo e troca apenas identidade/ordem e as remissões numéricas por fronteiras sem numeração (“unidade de fatos sociais” e “unidades de Geografia correspondentes”). H e Q foram copiados integralmente. R recebeu proveniência Perícia e microglossário institucional nas ocorrências renderizadas pertinentes.
+- **Q/fontes:** `questionSetRevision: 3`, 60 questões/300 opções, 58 autorais e duas anteriores adaptadas da Prefeitura de São Luís/2017, Professor de Geografia. O caderno oficial confirma o texto-base do item 69 e o gabarito definitivo oficial confirma **62 = D** e **69 = D**; as adaptações registram a reordenação das alternativas. Banco sem HTML, IDs/prompts duplicados ou gabarito inválido.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O053 permaneceu inalterado; commit limitado à unidade. PER-F02 macro permanece pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`59d3796a`](https://github.com/insign/concursos/commit/59d3796afc9f3d0412527aa966e61fd7fe9b2467).
+
+| Arquivo | Blob |
+|---|---|
+| C | `08ca1d5680f0d9dc4ac459ee5d44f8f51abad0f0` |
+| H | `69ab2b0fcec55916b38f3d6313e02b5814a2ef90` |
+| Q | `3842198b97b891cc7d3d7f9be53a247c795f6535` |
+| R | `277f241eec987fc14263d849c4936555df8712ce` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2555,9 +2571,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX
 
-- [ ] PER-U056-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U056-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U056-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U056-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U056-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U056-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX
 
@@ -3065,3 +3081,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U054:** vínculo `b097488df4f6067f46d178b94e5f28be1bc87c4e` confirmado; canônico O050 auditado em C/H/Q/R, 60 questões/300 opções e dois anteriores verificáveis. Totais resultantes: 53/99 unidades, 159/297 C/H/Q, 80/132 referências, 1969 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 7/10. PER-U054 encerrada sem reserva ativa. Próxima ação PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX; campanha aberta.
 
 - **PER-U055:** artefatos `c82a99061e7a640a56818dcf43bffc54943c797c` confirmados; 68 questões/340 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 54/99 unidades, 162/297 C/H/Q, 80/132 referências e 2037 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 8/10; E06:14 ainda aguarda U056/U057. Próxima ação PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX; U056/U057 permanecem analyzing.
+
+- **PER-U056:** artefatos `59d3796afc9f3d0412527aa966e61fd7fe9b2467` confirmados; cópia local integral de O053, 60 questões/300 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 55/99 unidades, 165/297 C/H/Q, 80/132 referências e 2097 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 9/10; E06:14 ainda aguarda U057. Próxima ação PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX; somente U057 permanece analyzing.
