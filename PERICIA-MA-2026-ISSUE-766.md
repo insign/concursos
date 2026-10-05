@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 37 | 3 | 59 |
-| Entregáveis unitários C/H/Q | 297 | 111 | 9 | 177 |
+| Unidades distintas | 99 | 37 | 2 | 60 |
+| Entregáveis unitários C/H/Q | 297 | 111 | 6 | 180 |
 
-Estado confirmado: **59 unidades/visões publicadas (54 locais, 5 por vínculo); 177 C/H/Q aceitos; 84/132 referências literais aceitas; 2321 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **60 unidades/visões publicadas (55 locais, 5 por vínculo); 180 C/H/Q aceitos; 86/132 referências literais aceitas; 2341 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U061 — Geomorfologia e classificação do relevo**, conforme 5.2/7.5. PER-U061–PER-U063 C/H/Q estão analyzing sob o token `per-u061-u063-lote-20261005-448cba84`, em execução serial U061 → U062 → U063. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 3/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U061–PER-U063 sob `per-u061-u063-lote-20261005-448cba84`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U062 — Rios e bacias limítrofes e maranhenses**, conforme 5.2/7.5. PER-U061 foi publicada e aceita; PER-U062–PER-U063 C/H/Q permanecem analyzing sob o token `per-u061-u063-lote-20261005-448cba84`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 4/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:4 e E07:4.1 estão aceitos. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U062–PER-U063 sob `per-u061-u063-lote-20261005-448cba84`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -613,7 +613,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U058 — Localização, superfície, limites, fronteiras e extremos | E07: 1 | O055 | `localizacao-limites-extremos` / `per-u058` / 580 | Integral por cópia local de O055; remissão numérica canônica neutralizada e Q normalizado para texto puro; C/H/Q aceitos em 5.11. |
 | PER-U059 — Áreas de proteção ambiental e parques nacionais | E07: 1, 2 | O056 | `areas-protecao-parques-nacionais` / `per-u059` / 590 | Integral por cópia local de O056; frontmatter/Q normalizados para texto puro; C/H/Q aceitos em 5.11. |
 | PER-U060 — Climas: pluviosidade e temperatura | E07: 3 | O057 | `climas-maranhao` / `per-u060` / 600 | Parcial/local: recorte climático de O057; vegetação reservada a U063; C/H/Q aceitos em 5.11. |
-| PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Planaltos, planícies e baixadas; geologia apenas quando explicar relevo. |
+| PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Parcial/local: pacote PC-MA de recorte compatível, derivado de O058; geologia apenas como base explicativa; C/H/Q aceitos em 5.11. |
 | PER-U062 — Rios e bacias limítrofes e maranhenses | E07: 5, 6 | O059 | `rios-bacias-maranhenses` / `per-u062` / 620 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Recorte vegetal; não copiar novamente o capítulo climático. |
 | PER-U064 — População, densidade, povoamento e movimentos | E07: 8 | O060 | `populacao-urbanizacao-movimentos` / `per-u064` / 640 | Urbanização só como ponte para povoamento/movimentos; datas de dados explícitas. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 84/132 |
-| Unidades distintas da objetiva | 98 | 59 |
+| Referências literais da objetiva | 132/132 | 86/132 |
+| Unidades distintas da objetiva | 98 | 60 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 59 |
-| Entregáveis unitários C/H/Q | 297: 120 pending + 0 analyzing + 177 done | 177 done |
-| Visões consumidoras previstas | 99 | 59 |
+| Total de unidades distintas | 99 | 60 |
+| Entregáveis unitários C/H/Q | 297: 117 pending + 0 analyzing + 180 done | 180 done |
+| Visões consumidoras previstas | 99 | 60 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 48 parciais locais, 4 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 49 parciais locais, 4 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 54 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 55 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1863,13 +1863,12 @@ O pedido “Mais 3” foi executado sob o token `per-u058-u060-lote-20261005-044
 
 #### Reserva ativa em 05/10/2026 — lote PER-U061–PER-U063
 
-Token exclusivo `per-u061-u063-lote-20261005-448cba84`, decorrente do pedido “Mais 3”. Base: main `448cba84cb3ff95e66ed4eff12b79125fc17f28c`, mestre `d5cb7606ef2938b02f5e0405c7e74ef63d853681`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U061 → U062 → U063; cada unidade só avança após publicação confirmada e aceite próprio.
+Token exclusivo `per-u061-u063-lote-20261005-448cba84`, decorrente do pedido “Mais 3”. Base inicial: main `448cba84cb3ff95e66ed4eff12b79125fc17f28c`, mestre `d5cb7606ef2938b02f5e0405c7e74ef63d853681`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
 
-- **PER-U061:** E07:4/4.1, geomorfologia e classificação do relevo; O058 canônico `historia-geografia-estado-maranhao/geomorfologia-geologia-relevo`; destino `conhecimentos-gerais/geografia-maranhao/geomorfologia-relevo-maranhense/`, identidade local `per-u061`, ordem 610. Hipótese: parcial/local, porque O058 também aprofunda geologia e recursos minerais além do recorte.
-- **PER-U062:** E07:5/6, rios/bacias limítrofes e maranhenses; O059 canônico `historia-geografia-estado-maranhao/rios-bacias-maranhenses`; destino `conhecimentos-gerais/geografia-maranhao/rios-bacias-maranhenses/`, ordem 620. Hipótese: integral por vínculo ou cópia local conforme auditoria de contratos/remissões.
-- **PER-U063:** E07:7, formações vegetais — floresta, Cerrado e cocais; O057 canônico `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/formacoes-vegetais-maranhao/`, identidade local `per-u063`, ordem 630. Hipótese: parcial/local complementar a U060, retirando o capítulo climático.
-- **Consumidores confirmados:** O058 tem TCE Analista/Técnico (#755); O059 e O057 têm PC (#764), SEAP (#765), TCE Analista/Técnico (#755). Doadores e consumidores ficam preservados.
-- **Arquivos reservados:** C/H/Q/R de O058/O059/O057; pacotes locais PC/SEAP de geomorfologia apenas como evidência de fronteira; destinos próprios U061/U063 e eventual vínculo/cópia U062.
+- **PER-U061 concluída:** parcial/local, usando pacote PC-MA de recorte compatível derivado de O058; artefato `eaca703ac44ed3bd90e63dd6356628384d3d0599`, 20 questões/100 opções, duas anteriores PM/MA 2017 verificadas.
+- **PER-U062 analyzing:** E07:5/6; O059 `historia-geografia-estado-maranhao/rios-bacias-maranhenses`; destino `conhecimentos-gerais/geografia-maranhao/rios-bacias-maranhenses/`, ordem 620. Hipótese integral por cópia local/vínculo conforme contratos.
+- **PER-U063 analyzing:** E07:7; O057 `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/formacoes-vegetais-maranhao/`, ordem 630. Hipótese parcial/local complementar a U060.
+- Doadores e consumidores PC/SEAP/TCE permanecem sem edição.
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2155,6 +2154,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `8853f65e391cd428df6203abb88e3fc39633e0d2` |
 | Q | `1ef21df612f58a8ef8b46c646d27836a593cdf3d` |
 | R | `0cea25858f5db0d6cf0197335ec790c1c2022a47` |
+
+#### PER-U061 — Geomorfologia e classificação do relevo: parcial/local — C/H/Q done
+
+- **Decisão:** O058 é mais amplo que E07:4/4.1, pois inclui geologia e recursos minerais. O pacote local PC-MA `geomorfologia-relevo` já documenta reaproveitamento parcial de O058 e coincide com o recorte da Perícia: processos geomorfológicos, planaltos, planícies, baixadas, chapadas, dunas e contrastes espaciais, usando geologia apenas para explicar o relevo.
+- **Intervenção:** C/H/Q do doador local foram preservados, com identidade/ordem Perícia. A única adaptação substantiva em C substitui o corte específico da PC por estado verificável em 05/10/2026: o Sistema Brasileiro de Classificação de Relevo segue em construção, e o IBGE divulgou em 29/06/2026 o relatório do 4º Workshop como continuidade do desenvolvimento do sistema.
+- **Q:** 20 questões/100 opções, 18 autorais + 2 anteriores, zero HTML/duplicidades/gabaritos inválidos. `u072-p01` e `u072-p02` preservam as adaptações dos itens 43 e 44 da PM/MA 2017. Releitura do caderno e gabarito definitivos oficiais confirma **43 = E** e **44 = C**.
+- **Proveniência:** O058 canônico e os consumidores TCE ficaram intactos. A referência do doador PC explicita sua reconciliação histórica com o snapshot canônico anterior, sem importar aceite de #764.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; commit limitado à unidade. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`eaca703a`](https://github.com/insign/concursos/commit/eaca703ac44ed3bd90e63dd6356628384d3d0599).
+
+| Arquivo | Blob |
+|---|---|
+| C | `1b91b1f5ccfbb98b48c8e7c4be213510261ea61c` |
+| H | `c56de778aa4e6b95ea7729beb919ff32bb562a3d` |
+| Q | `c47867f5e3f12e9870aaa03fbb8eb3dba3fea8a5` |
+| R | `f39f913090f583b8faa92ad72eb37e92a2aa9b40` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2689,9 +2705,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U061 — Geomorfologia e classificação do relevo
 
-- [ ] PER-U061-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U061-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U061-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U061-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U061-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U061-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U062 — Rios e bacias limítrofes e maranhenses
 
@@ -3179,3 +3195,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U059:** artefatos `eb5430f8b44200f596d14a645092c2573914229e` confirmados; cópia local integral de O056, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E07:1 e E07:2 aceitos após fechamento do índice inverso. Totais resultantes: 58/99 unidades, 174/297 C/H/Q, 83/132 referências e 2279 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 2/13. Próxima ação PER-U060 — Climas: pluviosidade e temperatura; somente U060 permanece analyzing.
 
 - **PER-U060:** artefatos `c2bffffc7dbf78e066ea7a785be5ad86e1c567ea` confirmados; recorte parcial/local de O057, 42 questões/210 opções, C/H/Q e proveniência 5.11 aceitos. E07:3 aceito. Totais resultantes: 59/99 unidades, 177/297 C/H/Q, 84/132 referências e 2321 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 3/13. Lote U058–U060 encerrado sem reserva ativa. Próxima ação PER-U061 — Geomorfologia e classificação do relevo; campanha aberta.
+
+- **PER-U061:** artefatos `eaca703ac44ed3bd90e63dd6356628384d3d0599` confirmados; parcial/local por pacote PC-MA compatível derivado de O058, 20 questões/100 opções, C/H/Q e proveniência 5.11 aceitos. E07:4 e 4.1 aceitos. Totais resultantes: 60/99 unidades, 180/297 C/H/Q, 86/132 referências e 2341 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 4/13. Próxima ação PER-U062 — Rios e bacias limítrofes e maranhenses; U062/U063 permanecem analyzing.
