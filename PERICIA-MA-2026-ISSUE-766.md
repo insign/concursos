@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 37 | 1 | 61 |
-| Entregáveis unitários C/H/Q | 297 | 111 | 3 | 183 |
+| Unidades distintas | 99 | 37 | 0 | 62 |
+| Entregáveis unitários C/H/Q | 297 | 111 | 0 | 186 |
 
-Estado confirmado: **61 unidades/visões publicadas (56 locais, 5 por vínculo); 183 C/H/Q aceitos; 88/132 referências literais aceitas; 2378 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **62 unidades/visões publicadas (57 locais, 5 por vínculo); 186 C/H/Q aceitos; 89/132 referências literais aceitas; 2396 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U063 — Formações vegetais: floresta, cerrado e cocais**, conforme 5.2/7.5. PER-U061 e PER-U062 foram publicadas e aceitas; somente PER-U063 C/H/Q permanece analyzing sob o token `per-u061-u063-lote-20261005-448cba84`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 5/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:5 e E07:6 estão aceitos. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: somente PER-U063 sob `per-u061-u063-lote-20261005-448cba84`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U064 — População, densidade, povoamento e movimentos**, conforme 5.2/7.5. PER-U061–PER-U063 foram publicadas e aceitas; o lote foi encerrado. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 6/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -615,7 +615,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U060 — Climas: pluviosidade e temperatura | E07: 3 | O057 | `climas-maranhao` / `per-u060` / 600 | Parcial/local: recorte climático de O057; vegetação reservada a U063; C/H/Q aceitos em 5.11. |
 | PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Parcial/local: pacote PC-MA de recorte compatível, derivado de O058; geologia apenas como base explicativa; C/H/Q aceitos em 5.11. |
 | PER-U062 — Rios e bacias limítrofes e maranhenses | E07: 5, 6 | O059 | `rios-bacias-maranhenses` / `per-u062` / 620 | Integral por cópia local de O059; Q normalizado para texto puro e anteriores revalidadas por nível de evidência; C/H/Q aceitos em 5.11. |
-| PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Recorte vegetal; não copiar novamente o capítulo climático. |
+| PER-U063 — Formações vegetais: floresta, cerrado e cocais | E07: 7 | O057 | `formacoes-vegetais-maranhao` / `per-u063` / 630 | Parcial/local complementar a U060: apenas biomas/formações, florestas, Cerrado e cocais; C/H/Q aceitos em 5.11. |
 | PER-U064 — População, densidade, povoamento e movimentos | E07: 8 | O060 | `populacao-urbanizacao-movimentos` / `per-u064` / 640 | Urbanização só como ponte para povoamento/movimentos; datas de dados explícitas. |
 | PER-U065 — Agricultura e pecuária maranhenses | E07: 9 | O061 | `agricultura-pecuaria-maranhenses` / `per-u065` / 650 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 88/132 |
-| Unidades distintas da objetiva | 98 | 61 |
+| Referências literais da objetiva | 132/132 | 89/132 |
+| Unidades distintas da objetiva | 98 | 62 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 61 |
-| Entregáveis unitários C/H/Q | 297: 114 pending + 0 analyzing + 183 done | 183 done |
-| Visões consumidoras previstas | 99 | 61 |
+| Total de unidades distintas | 99 | 62 |
+| Entregáveis unitários C/H/Q | 297: 111 pending + 0 analyzing + 186 done | 186 done |
+| Visões consumidoras previstas | 99 | 62 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 49 parciais locais, 5 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 50 parciais locais, 5 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 56 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 57 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1861,14 +1861,14 @@ O pedido “Mais 3” foi executado sob o token `per-u058-u060-lote-20261005-044
 - **U060:** parcial/local a partir de O057; artefato `c2bffffc7dbf78e066ea7a785be5ad86e1c567ea`; 42 questões/210 opções, sendo 41 autorais climáticas e uma anterior PM/MA 2017 adaptada e verificada em fonte primária.
 - O055–O057 e consumidores PC/SEAP/TCE permaneceram sem edição. E07:1–3 foram aceitos. **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — lote PER-U061–PER-U063
+#### Decisão de execução serial em 05/10/2026 — lote PER-U061–PER-U063 concluído
 
-Token exclusivo `per-u061-u063-lote-20261005-448cba84`, decorrente do pedido “Mais 3”. Base inicial: main `448cba84cb3ff95e66ed4eff12b79125fc17f28c`, mestre `d5cb7606ef2938b02f5e0405c7e74ef63d853681`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+O pedido “Mais 3” foi executado sob o token `per-u061-u063-lote-20261005-448cba84`, com publicação/aceite serial U061 → U062 → U063. Base inicial: main `448cba84cb3ff95e66ed4eff12b79125fc17f28c`, mestre `d5cb7606ef2938b02f5e0405c7e74ef63d853681`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
 
-- **PER-U061 concluída:** parcial/local por pacote PC-MA compatível derivado de O058; artefato `eaca703ac44ed3bd90e63dd6356628384d3d0599`, 20 questões/100 opções.
-- **PER-U062 concluída:** integral/local a partir de O059; artefato `b060283137131e2363d767fbd1695562e24f0bbe`, 37 questões/185 opções, Q normalizado para texto puro.
-- **PER-U063 analyzing:** E07:7; O057 `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/formacoes-vegetais-maranhao/`, ordem 630. Recorte parcial/local complementar a U060.
-- Doadores e consumidores PC/SEAP/TCE permanecem sem edição.
+- **U061:** parcial/local pelo pacote PC-MA compatível derivado de O058; artefato `eaca703ac44ed3bd90e63dd6356628384d3d0599`; 20 questões/100 opções.
+- **U062:** integral/local a partir de O059; artefato `b060283137131e2363d767fbd1695562e24f0bbe`; 37 questões/185 opções.
+- **U063:** parcial/local complementar a U060 a partir de O057; artefato `b302dd1389e9d3ba4f20605622b6b1ebba5519c4`; 18 questões/90 opções, 16 autorais + 2 anteriores São Luís/2017.
+- O057–O059, o pacote PC doador e consumidores PC/SEAP/TCE permaneceram sem edição. E07:4–7 estão aceitos. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2188,6 +2188,24 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `f14996841971825560251e27e4ed4284035ca583` |
 | Q | `2c7c2d377e2e53f19c474417aca7f93c1c2cb13a` |
 | R | `6f6599c734539c93f1c46a648fd008c8846eeee6` |
+
+#### PER-U063 — Formações vegetais: floresta, Cerrado e cocais: parcial/local — C/H/Q done
+
+- **Decisão:** O057 reúne E07:3 (clima) e E07:7 (vegetação). U063 é o recorte complementar de U060 e mantém somente bioma/formação/cobertura, florestas, Cerrado, cocais e transições; o clima aparece apenas como um dos controles da paisagem.
+- **Intervenção pedagógica:** C abre por distribuição espacial e pela distinção formação vegetal × bioma × cobertura/uso. Preserva florestas ombrófilas/estacionais, o gradiente de fisionomias do Cerrado e a leitura dos cocais como formações/transições, inclusive o papel de vegetação secundária. H foi recortado para recuperação vegetal autônoma.
+- **Q:** 18 questões/90 opções, 16 autorais + 2 anteriores; `q7898`, integrada a clima e vegetação, foi excluída para não duplicar U060. Sete questões com `abbr` herdado em campos JSON foram convertidas a texto puro com `revision` incrementada; `questionSetRevision: 5`. Zero HTML/duplicidades/gabaritos inválidos.
+- **Questões anteriores:** `q7896` e `q7897` foram revalidadas contra caderno e gabarito definitivos oficiais da Prefeitura de São Luís/2017, Professor de Geografia. A questão original 38 tem gabarito **C** e a 39, **B**; as versões locais preservam o núcleo e removem dependência da figura.
+- **Revalidação vegetal:** o produto atual de Biomas e Sistema Costeiro-Marinho do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> foi reconsultado; a revisão de limites divulgada em 2025 se concentrou em trechos de Minas Gerais e São Paulo. A publicação específica do Maranhão do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> registra Amazônia, Cerrado e Caatinga e as principais formações do mapa estadual. Não foi localizada mudança recente que invalide o recorte.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O057 permaneceu inalterado e a fronteira com U060 ficou explícita. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`b302dd13`](https://github.com/insign/concursos/commit/b302dd1389e9d3ba4f20605622b6b1ebba5519c4).
+
+| Arquivo | Blob |
+|---|---|
+| C | `dacc69ae716ab5952bac41bf797173e8af61074c` |
+| H | `a7ab8beff99a71102fd6636b99f7216d340d0511` |
+| Q | `48e194f84889e59dc524f764d175937bb7d8c156` |
+| R | `c25c1881500a00b60567f025b6f33603249619e3` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2734,9 +2752,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U063 — Formações vegetais: floresta, cerrado e cocais
 
-- [ ] PER-U063-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U063-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U063-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U063-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U063-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U063-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U064 — População, densidade, povoamento e movimentos
 
@@ -3216,3 +3234,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U061:** artefatos `eaca703ac44ed3bd90e63dd6356628384d3d0599` confirmados; parcial/local por pacote PC-MA compatível derivado de O058, 20 questões/100 opções, C/H/Q e proveniência 5.11 aceitos. E07:4 e 4.1 aceitos. Totais resultantes: 60/99 unidades, 180/297 C/H/Q, 86/132 referências e 2341 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 4/13. Próxima ação PER-U062 — Rios e bacias limítrofes e maranhenses; U062/U063 permanecem analyzing.
 
 - **PER-U062:** artefatos `b060283137131e2363d767fbd1695562e24f0bbe` confirmados; cópia local integral de O059, 37 questões/185 opções, C/H/Q e proveniência 5.11 aceitos. E07:5 e 6 aceitos. Totais resultantes: 61/99 unidades, 183/297 C/H/Q, 88/132 referências e 2378 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 5/13. Próxima ação PER-U063 — Formações vegetais: floresta, cerrado e cocais; somente U063 permanece analyzing.
+
+- **PER-U063:** artefatos `b302dd1389e9d3ba4f20605622b6b1ebba5519c4` confirmados; recorte parcial/local vegetal de O057, 18 questões/90 opções, C/H/Q e proveniência 5.11 aceitos. E07:7 aceito. Totais resultantes: 62/99 unidades, 186/297 C/H/Q, 89/132 referências e 2396 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 6/13. Lote U061–U063 encerrado sem reserva ativa. Próxima ação PER-U064 — População, densidade, povoamento e movimentos; campanha aberta.
