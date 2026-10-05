@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
+| Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 43 | 1 | 55 |
-| Entregáveis unitários C/H/Q | 297 | 129 | 3 | 165 |
+| Total de macros individualizadas | 51 | 31 | 0 | 20 |
+| Unidades distintas | 99 | 43 | 0 | 56 |
+| Entregáveis unitários C/H/Q | 297 | 129 | 0 | 168 |
 
-Estado confirmado: **55 unidades/visões publicadas (50 locais, 5 por vínculo); 165 C/H/Q aceitos; 80/132 referências literais aceitas; 2097 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **56 unidades/visões publicadas (51 locais, 5 por vínculo); 168 C/H/Q aceitos; 81/132 referências literais aceitas; 2158 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U055 e PER-U056 foram publicadas e aceitas; PER-U057 C/H/Q permanece analyzing sob o token `per-u055-u057-lote-20261005-e490070a`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 9/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E06:14 continua sem aceite literal até U057 concluir o índice inverso compartilhado. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: somente PER-U057 sob `per-u055-u057-lote-20261005-e490070a`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U058 — Localização, superfície, limites, fronteiras e extremos**, conforme 5.2/7.5. PER-U055–PER-U057 foram publicadas e aceitas; E06:14 foi aceito pelo índice inverso após os três recortes político/econômico/social. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -602,7 +602,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / canônico `adesao-republica-revolucao-1930` / 540 | Integral por vínculo ao canônico O050; C/H/Q aceitos em 5.11. |
 | PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX | E06: 14 | O051, O052 | `fatos-politicos-maranhao-sec-xx` / `per-u055` / 550 | Parcial local: O051 ampliado com núcleo da Greve de 1951 de O052; C/H/Q aceitos em 5.11. |
 | PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX | E06: 14 | O053 | `fatos-economicos-maranhao-sec-xx` / `per-u056` / 560 | Integral por cópia local de O053; remissões numéricas TCE foram neutralizadas; C/H/Q aceitos em 5.11. |
-| PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX | E06: 14 | O054 | `fatos-sociais-maranhao-sec-xx` / `per-u057` / 570 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX | E06: 14 | O054 | `fatos-sociais-maranhao-sec-xx` / `per-u057` / 570 | Integral por cópia local de O054; fronteiras/remissões TCE neutralizadas e uma anterior FCC 2026 incorporada; C/H/Q aceitos em 5.11. |
 
 #### 5.2.7 Geografia do Maranhão
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 80/132 |
-| Unidades distintas da objetiva | 98 | 55 |
+| Referências literais da objetiva | 132/132 | 81/132 |
+| Unidades distintas da objetiva | 98 | 56 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 55 |
-| Entregáveis unitários C/H/Q | 297: 129 pending + 3 analyzing + 165 done | 165 done |
-| Visões consumidoras previstas | 99 | 55 |
+| Total de unidades distintas | 99 | 56 |
+| Entregáveis unitários C/H/Q | 297: 129 pending + 0 analyzing + 168 done | 168 done |
+| Visões consumidoras previstas | 99 | 56 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 1 integral local e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 2 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 50 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 51 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1843,14 +1843,14 @@ O pedido “Avance” foi executado sob o token `per-u054-20261005-54212605`, a 
 - **Defeito isolado herdado:** 14 ocorrências de microglossário HTML pré-existente foram observadas em Q. Conforme a regra de fechamento, isso não reabre os consumidores já aceitos nem justifica cópia divergente.
 - **Inspeção individual PER-F02:** vínculo e C/H/Q/R relidos na main; o commit de artefato contém somente o `vinculo.json`. PER-F02 macro permanece pending. Sem testes/build/check/CI. **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — lote PER-U055–PER-U057
+#### Decisão de execução serial em 05/10/2026 — lote PER-U055–PER-U057 concluído
 
-Token exclusivo `per-u055-u057-lote-20261005-e490070a`, decorrente do pedido “Avança 3 seguidas”. Base inicial: main `e490070a5401e754195022c89ab7cb299b5f10c2`, mestre `50e3b9d8c5c2e59668b1eb0e69db1c1a9956c6fc`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+O pedido “Avança 3 seguidas” foi executado sob o token `per-u055-u057-lote-20261005-e490070a`, com publicação/aceite serial U055 → U056 → U057. Base inicial: main `e490070a5401e754195022c89ab7cb299b5f10c2`, mestre `50e3b9d8c5c2e59668b1eb0e69db1c1a9956c6fc`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
 
-- **PER-U055 concluída:** parcial/local; artefato `c82a99061e7a640a56818dcf43bffc54943c797c`, 68 questões/340 opções.
-- **PER-U056 concluída:** integral por cópia local de O053; artefato `59d3796afc9f3d0412527aa966e61fd7fe9b2467`, 60 questões/300 opções, com duas anteriores revalidadas.
-- **PER-U057 analyzing:** E06:14 social; O054 `historia-geografia-estado-maranhao/fatos-sociais-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-sociais-maranhao-sec-xx/`, ordem 570. Hipótese integral por vínculo/cópia local condicionada à compatibilidade do canônico.
-- Consumidores canônicos: TCE Analista/Técnico (#755); PC (#764) e SEAP (#765) preservados. Nenhum canônico foi alterado.
+- **U055:** parcial/local, O051 + núcleo político da Greve de 1951 de O052; artefato `c82a99061e7a640a56818dcf43bffc54943c797c`; 68 questões/340 opções.
+- **U056:** integral/local a partir de O053; artefato `59d3796afc9f3d0412527aa966e61fd7fe9b2467`; 60 questões/300 opções; remissões numéricas TCE neutralizadas.
+- **U057:** integral/local a partir de O054; artefato `4190c822003fde0c93d3d6b6f6f0c13dc02f72f1`; 61 questões/305 opções; fronteiras/remissões TCE neutralizadas, `q7603` revisada e uma anterior FCC/DPE-MA 2026 incorporada.
+- O051–O054 e consumidores TCE/PC/SEAP permaneceram sem edição. E06:14 foi aceito somente após os três filhos U055/U056/U057; PER-E06-C/H/Q fecha done (10/10). **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2068,6 +2068,24 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `3842198b97b891cc7d3d7f9be53a247c795f6535` |
 | R | `277f241eec987fc14263d849c4936555df8712ce` |
 
+#### PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX: integral/local — C/H/Q done
+
+- **Decisão:** O054 cobre integralmente o recorte social de E06:14 — urbanização, trabalho, questão agrária, desigualdades, direitos e movimentos sociais de 1951 a 2000. O vínculo direto foi descartado porque C/Q carregavam numeração interna da organização TCE (`Assunto 082/088`) e a abertura remetia a Greve de 1951 ao “assunto anterior”, fronteira incompatível com a sequência da Perícia.
+- **Intervenção:** C recebeu identidade/ordem da Perícia, remissão explícita à unidade política para a Greve de 1951 e fronteira genérica com Geografia da população. H foi reaproveitado integralmente. Em Q, `q7603` foi adaptada à nova organização e passou a revision 3; o conjunto passou a `questionSetRevision: 3`.
+- **Questão anterior:** busca dirigida encontrou questão FCC/DPE-MA/Defensor(a) Público(a) 2026 sobre <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr>/Babaçu Livre. A página oficial FCC confirma concurso e disponibilização de provas/gabaritos; reproduções indexadas da prova registram questão 93 e gabarito B. Foi incorporada em forma adaptada como `per-u057-fcc-dpema-2026-q93`, sem reprodução literal extensa. Banco final: 61 questões/305 opções, 60 autorais + 1 anterior, sem HTML/duplicidades/gabaritos inválidos.
+- **Revalidação factual:** Censo 2000 do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> confirma 5.642.960 residentes e 3.357.898 urbanos (59,51%); <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> confirma fundação em 1989; fontes do <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> confirmam articulação em 1991 e Lei 05/1997, distinguida das proteções ampliadas posteriores. A Constituição de 1988 sustenta art. 231 e art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>.
+- **Índice inverso:** com U055/U056/U057 done, a referência literal E06:14 recebe aceite e PER-E06-C/H/Q fecha 10/10.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; O054 permaneceu inalterado; commit limitado à unidade. PER-F02 macro permanece pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`4190c822`](https://github.com/insign/concursos/commit/4190c822003fde0c93d3d6b6f6f0c13dc02f72f1).
+
+| Arquivo | Blob |
+|---|---|
+| C | `86313e7076f0a9fdcc7c1a9d7befd35a78b09cdf` |
+| H | `af0dacd234601a9c5b456f9d1d076c657a38aae7` |
+| Q | `d97b3289ffcf1967eefb6e16cba003197d5fd700` |
+| R | `dbd193fea572b3ca072f306e4aa21f5510ef61aa` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2189,9 +2207,9 @@ Respeitar o recorte de direito administrativo e agentes públicos deste bloco, s
 - [x] PER-E05-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E06 — História do Maranhão
-- [ ] PER-E06-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
-- [ ] PER-E06-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] PER-E06-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] PER-E06-C — `done` — Pesquisar, revisar e salvar conteúdo e referências.
+- [x] PER-E06-H — `done` — Produzir e salvar cheat sheets.
+- [x] PER-E06-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E07 — Geografia do Maranhão
 - [ ] PER-E07-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
@@ -2577,9 +2595,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX
 
-- [ ] PER-U057-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U057-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U057-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U057-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U057-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U057-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U058 — Localização, superfície, limites, fronteiras e extremos
 
@@ -3083,3 +3101,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U055:** artefatos `c82a99061e7a640a56818dcf43bffc54943c797c` confirmados; 68 questões/340 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 54/99 unidades, 162/297 C/H/Q, 80/132 referências e 2037 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 8/10; E06:14 ainda aguarda U056/U057. Próxima ação PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX; U056/U057 permanecem analyzing.
 
 - **PER-U056:** artefatos `59d3796afc9f3d0412527aa966e61fd7fe9b2467` confirmados; cópia local integral de O053, 60 questões/300 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 55/99 unidades, 165/297 C/H/Q, 80/132 referências e 2097 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 9/10; E06:14 ainda aguarda U057. Próxima ação PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX; somente U057 permanece analyzing.
+
+- **PER-U057:** artefatos `4190c822003fde0c93d3d6b6f6f0c13dc02f72f1` confirmados; cópia local integral de O054, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E06:14 aceito por completar U055/U056/U057; PER-E06-C/H/Q fecha done. Totais resultantes: 56/99 unidades, 168/297 C/H/Q, 81/132 referências e 2158 questões. Macros 20 done/31 pending/0 analyzing. E06 fecha 10/10. Lote U055–U057 encerrado sem reserva ativa. Próxima ação PER-U058 — Localização, superfície, limites, fronteiras e extremos; campanha aberta.
