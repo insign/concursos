@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 50 | 0 | 49 |
-| Entregáveis unitários C/H/Q | 297 | 150 | 0 | 147 |
+| Unidades distintas | 99 | 47 | 3 | 49 |
+| Entregáveis unitários C/H/Q | 297 | 141 | 9 | 147 |
 
 Estado confirmado: **49 unidades/visões publicadas (47 locais, 2 por vínculo); 147 C/H/Q aceitos; 73/132 referências literais aceitas; 1724 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U051 — Revolta de Bequimão e Companhia de Comércio**, conforme 5.2/7.5. PER-U048–PER-U050 foram publicadas e aceitas; U051 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 3/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia**, conforme 5.2/7.5. PER-U051–PER-U053 C/H/Q estão analyzing sob o token `per-u051-u053-lote-20261005-f56160af`, em execução serial U051 → U052 → U053. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 3/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U051–PER-U053 sob `per-u051-u053-lote-20261005-f56160af`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1821,6 +1821,15 @@ O pedido “Mais 3” foi executado sob o token `per-u048-u050-lote-20261005-693
 - U050: integral/canônica por vínculo a `historia-geografia-estado-maranhao/invasao-expulsao-holandeses`.
 - Os canônicos permaneceram sem edição. O HTML de microglossário pré-existente em campos Q de O046 foi registrado como defeito isolado de unidade já aceita e não reabriu campanhas consumidoras, conforme regra de fechamento. **Nenhuma reserva permanece ativa.**
 
+#### Reserva ativa em 05/10/2026 — lote PER-U051–PER-U053
+
+Token exclusivo `per-u051-u053-lote-20261005-f56160af`, decorrente do pedido “Mais 3”. Base: main `f56160af75a066bd2e659dca4c30b26667462dde`, mestre `87d3812baba89b76298cf9905d2f8ffd06a121f1`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+
+- **PER-U051:** E06:7; O047 canônico `historia-geografia-estado-maranhao/revolta-bequimao-companhias`; destino `conhecimentos-gerais/historia-maranhao/revolta-bequimao-companhias/`, ordem 510.
+- **PER-U052:** E06:8/9/10; O048 canônico `historia-geografia-estado-maranhao/adesao-independencia-jenipapo`; destino `conhecimentos-gerais/historia-maranhao/adesao-independencia-jenipapo/`, ordem 520.
+- **PER-U053:** E06:11; O049 canônico `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas`; destino `conhecimentos-gerais/historia-maranhao/balaiada-caracterizacao-causas/`, ordem 530.
+- Hipótese: integral por vínculo nas três, condicionada à auditoria final de C/H/Q/R, consumidores e recorte. Nenhum canônico ou consumidor será editado sem necessidade própria comprovada.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -2427,21 +2436,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia
 
-- [ ] PER-U051-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U051-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U051-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U051-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U051-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U051-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U052 — Independência, adesão do Maranhão e Jenipapo
 
-- [ ] PER-U052-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U052-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U052-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U052-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U052-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U052-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U053 — Balaiada: caracterização e causas
 
-- [ ] PER-U053-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U053-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U053-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U053-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U053-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U053-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U054 — Adesão à República e Revolução de 1930
 
