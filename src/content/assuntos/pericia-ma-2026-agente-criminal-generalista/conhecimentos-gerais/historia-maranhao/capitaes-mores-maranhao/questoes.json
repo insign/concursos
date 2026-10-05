@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "u062-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Maranhão colonial, o título de capitão-mor deve ser compreendido, no recorte desta unidade, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "um posto com funções invariáveis do século XVI ao XIX, equivalente a uma patente militar atual."
+        },
+        {
+          "id": "B",
+          "text": "um cargo de comando cujo alcance dependia da época, da jurisdição e das instruções recebidas, podendo reunir defesa e administração."
+        },
+        {
+          "id": "C",
+          "text": "um cargo exclusivamente eclesiástico, ligado à missão capuchinha."
+        },
+        {
+          "id": "D",
+          "text": "um título reservado aos dirigentes franceses da França Equinocial."
+        },
+        {
+          "id": "E",
+          "text": "uma função judicial sem qualquer relação com defesa ou governo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O título teve sentidos e atribuições variáveis. No Maranhão, aparece ligado à conquista e ao estabelecimento do governo e, em fases posteriores, também à administração da capitania na ausência do governador."
+    },
+    {
+      "id": "u062-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência administrativa tradicional do Maranhão após a conquista portuguesa, a ordem correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jerônimo de Albuquerque → Antônio de Albuquerque → Domingos da Costa Machado → Antônio Moniz Barreiros."
+        },
+        {
+          "id": "B",
+          "text": "Daniel de La Touche → Jerônimo de Albuquerque → Maurício de Nassau → Antônio Moniz Barreiros."
+        },
+        {
+          "id": "C",
+          "text": "Alexandre de Moura → Daniel de La Touche → Antônio de Albuquerque → Manuel Beckman."
+        },
+        {
+          "id": "D",
+          "text": "Domingos da Costa Machado → Jerônimo de Albuquerque → Antônio Moniz Barreiros → La Ravardière."
+        },
+        {
+          "id": "E",
+          "text": "Antônio Moniz Barreiros → Antônio de Albuquerque → Jerônimo de Albuquerque → Domingos da Costa Machado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A narrativa administrativa tradicional apresenta Jerônimo, Antônio, Domingos e Antônio Moniz como a sequência inicial ligada à consolidação portuguesa."
+    },
+    {
+      "id": "u062-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a morte de Jerônimo de Albuquerque em 1618, a narrativa administrativa tradicional aponta como seu sucessor imediato",
+      "options": [
+        {
+          "id": "A",
+          "text": "Daniel de La Touche."
+        },
+        {
+          "id": "B",
+          "text": "Antônio de Albuquerque, seu filho."
+        },
+        {
+          "id": "C",
+          "text": "Francisco Coelho de Carvalho."
+        },
+        {
+          "id": "D",
+          "text": "Domingos Jorge Velho."
+        },
+        {
+          "id": "E",
+          "text": "Vital Maciel Parente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Jerônimo foi sucedido por Antônio de Albuquerque. Domingos da Costa Machado assumiu depois, na sequência tradicional da administração inicial."
+    },
+    {
+      "id": "u062-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a narrativa administrativa tradicional utilizada nesta unidade, Domingos da Costa Machado",
+      "options": [
+        {
+          "id": "A",
+          "text": "dirigiu a França Equinocial desde 1612."
+        },
+        {
+          "id": "B",
+          "text": "assumiu o governo da capitania depois de Antônio de Albuquerque, com período situado entre 1619 e 1622."
+        },
+        {
+          "id": "C",
+          "text": "foi o governador neerlandês que tomou São Luís em 1641."
+        },
+        {
+          "id": "D",
+          "text": "foi o primeiro governador e capitão-general do Estado do Maranhão em 1626."
+        },
+        {
+          "id": "E",
+          "text": "substituiu Jerônimo de Albuquerque antes da Batalha de Guaxenduba."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A referência administrativa tradicional situa Domingos da Costa Machado depois de Antônio de Albuquerque e antes de Antônio Moniz Barreiros, entre 1619 e 1622."
+    },
+    {
+      "id": "u062-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação do Estado do Maranhão, em 1621, deve ser relacionada",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao retorno do domínio francês sobre Saint-Louis."
+        },
+        {
+          "id": "B",
+          "text": "à abertura de uma transição administrativa que culminou, em 1626, com a posse de Francisco Coelho de Carvalho como governador e capitão-general."
+        },
+        {
+          "id": "C",
+          "text": "ao fim definitivo do uso do título capitão-mor em toda a América portuguesa."
+        },
+        {
+          "id": "D",
+          "text": "à Independência do Brasil no Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "à invasão neerlandesa de São Luís no mesmo ano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Estado do Maranhão foi criado em 1621; o processo de organização institucional levou alguns anos, e Francisco Coelho de Carvalho tomou posse como governador e capitão-general em 1626."
+    },
+    {
+      "id": "u062-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a expressão “primeiro capitão-mor do Maranhão”, a postura historicamente mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirmar que todas as fontes começam a lista por Jerônimo de Albuquerque."
+        },
+        {
+          "id": "B",
+          "text": "afirmar que todas as fontes começam a lista por Alexandre de Moura."
+        },
+        {
+          "id": "C",
+          "text": "reconhecer que a narrativa administrativa tradicional chama Jerônimo de primeiro, enquanto um catálogo de Évora reproduzido por estudo moderno começa por Alexandre de Moura em 1615 e Jerônimo em 1616."
+        },
+        {
+          "id": "D",
+          "text": "considerar impossível identificar qualquer capitão-mor antes de 1751."
+        },
+        {
+          "id": "E",
+          "text": "usar o título apenas para oficiais de ordenanças."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As fontes empregam critérios diferentes, e o estudo moderno adverte que o catálogo de Évora inclui situações especiais e lacunas."
+    },
+    {
+      "id": "u062-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em fase posterior do Estado do Maranhão e Grão-Pará, especialmente quando governadores permaneciam em Belém, os capitães-mores do Maranhão podiam",
+      "options": [
+        {
+          "id": "A",
+          "text": "administrar a capitania de forma subordinada durante a ausência do governador."
+        },
+        {
+          "id": "B",
+          "text": "declarar independência em relação à Coroa sem autorização."
+        },
+        {
+          "id": "C",
+          "text": "atuar somente como missionários capuchinhos."
+        },
+        {
+          "id": "D",
+          "text": "governar a França Equinocial em nome de Luís XIII."
+        },
+        {
+          "id": "E",
+          "text": "exercer apenas funções municipais sem atribuições de governo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A historiografia mostra que capitães-mores foram usados para responder pela administração do Maranhão na ausência do titular em fases posteriores."
+    },
+    {
+      "id": "u062-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao estudar os capitães-mores do Maranhão, é incorreto",
+      "options": [
+        {
+          "id": "A",
+          "text": "distinguir a fase inicial de conquista das funções administrativas posteriores."
+        },
+        {
+          "id": "B",
+          "text": "considerar que as atribuições podiam variar conforme época e regimento."
+        },
+        {
+          "id": "C",
+          "text": "equiparar automaticamente o capitão-mor da capitania ao capitão-mor de ordenanças, como se fossem sempre a mesma função."
+        },
+        {
+          "id": "D",
+          "text": "relacionar o título à defesa e ao governo em contextos coloniais."
+        },
+        {
+          "id": "E",
+          "text": "observar o critério adotado pela fonte quando houver divergência de listas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A historiografia adverte contra a confusão automática entre o capitão-mor da capitania e o capitão-mor de ordenanças."
+    },
+    {
+      "id": "u062-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O que melhor explica a presença dos capitães-mores imediatamente após a conquista portuguesa do Maranhão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A necessidade de transformar a vitória militar em defesa, governo e administração do território."
+        },
+        {
+          "id": "B",
+          "text": "A intenção de restaurar o comando francês sobre a ilha."
+        },
+        {
+          "id": "C",
+          "text": "A extinção de qualquer autoridade colonial superior."
+        },
+        {
+          "id": "D",
+          "text": "A criação de uma monarquia independente em São Luís."
+        },
+        {
+          "id": "E",
+          "text": "A transferência imediata da capital portuguesa para Belém."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conquistar o território não bastava: era preciso organizar defesa, povoamento e governo."
+    },
+    {
+      "id": "per-u049-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor forma de interpretar o cargo de capitão-mor no Maranhão colonial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "como função invariável em todos os séculos."
+        },
+        {
+          "id": "B",
+          "text": "como posto cujo conteúdo dependia do contexto político e administrativo."
+        },
+        {
+          "id": "C",
+          "text": "como título exclusivamente honorífico."
+        },
+        {
+          "id": "D",
+          "text": "como sinônimo necessário de governador e capitão-general."
+        },
+        {
+          "id": "E",
+          "text": "como cargo criado somente no século XIX."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conteúdo funcional do posto variou conforme época, jurisdição, regimento e estrutura superior de governo."
+    },
+    {
+      "id": "per-u049-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência Jerônimo de Albuquerque, Antônio de Albuquerque, Domingos da Costa Machado e Antônio Moniz Barreiros deve ser estudada principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma sucessão tradicional da administração inicial portuguesa."
+        },
+        {
+          "id": "B",
+          "text": "lista dos comandantes franceses da França Equinocial."
+        },
+        {
+          "id": "C",
+          "text": "relação dos governadores neerlandeses do Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "ordem dos presidentes da província após a Independência."
+        },
+        {
+          "id": "E",
+          "text": "lista universal e incontroversa de todos os capitães-mores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência é útil como eixo da narrativa administrativa tradicional, mas não deve ser transformada em catálogo universal sem considerar critérios e fontes."
+    },
+    {
+      "id": "per-u049-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre os marcos de 1621 e 1626 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "1621 marca a criação do Estado do Maranhão, enquanto 1626 marca a posse de Francisco Coelho de Carvalho na nova chefia superior."
+        },
+        {
+          "id": "B",
+          "text": "1621 marca a expulsão dos franceses e 1626 a Batalha de Guaxenduba."
+        },
+        {
+          "id": "C",
+          "text": "1621 marca a invasão neerlandesa e 1626 sua expulsão."
+        },
+        {
+          "id": "D",
+          "text": "ambos se referem ao mesmo ato administrativo."
+        },
+        {
+          "id": "E",
+          "text": "1621 marca a Independência e 1626 a adesão do Maranhão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Criação institucional e instalação da nova chefia superior são momentos diferentes do processo administrativo."
+    },
+    {
+      "id": "per-u049-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A criação do Estado do Maranhão em 1621",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminou definitivamente o título de capitão-mor."
+        },
+        {
+          "id": "B",
+          "text": "impediu qualquer administração subordinada posterior."
+        },
+        {
+          "id": "C",
+          "text": "alterou a estrutura superior, mas o título de capitão-mor continuou a aparecer em outros contextos."
+        },
+        {
+          "id": "D",
+          "text": "restabeleceu a França Equinocial."
+        },
+        {
+          "id": "E",
+          "text": "transferiu imediatamente toda a administração para Pernambuco."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reorganização superior não extinguiu para sempre o uso do título, que continuou a aparecer em funções posteriores."
+    },
+    {
+      "id": "per-u049-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se uma questão afirma que Jerônimo de Albuquerque é, sem qualquer ressalva, reconhecido por todas as fontes como o primeiro capitão-mor do Maranhão, a avaliação mais segura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceitar, pois não existe divergência documental."
+        },
+        {
+          "id": "B",
+          "text": "rejeitar a generalização, porque as listas dependem de critérios e há catálogo que começa por Alexandre de Moura."
+        },
+        {
+          "id": "C",
+          "text": "aceitar apenas porque Jerônimo participou de Guaxenduba."
+        },
+        {
+          "id": "D",
+          "text": "rejeitar porque Jerônimo nunca exerceu governo no Maranhão."
+        },
+        {
+          "id": "E",
+          "text": "aceitar porque o título surgiu somente em 1618."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A divergência de critérios entre narrativa tradicional e catálogo histórico impede afirmar unanimidade absoluta das fontes."
+    },
+    {
+      "id": "per-u049-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em períodos posteriores, quando o governador permanecia em Belém, o capitão-mor do Maranhão podia",
+      "options": [
+        {
+          "id": "A",
+          "text": "responder subordinadamente pela administração local."
+        },
+        {
+          "id": "B",
+          "text": "governar como rei independente."
+        },
+        {
+          "id": "C",
+          "text": "atuar apenas como oficial religioso."
+        },
+        {
+          "id": "D",
+          "text": "substituir automaticamente a Coroa."
+        },
+        {
+          "id": "E",
+          "text": "exercer apenas função cerimonial sem governo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A historiografia registra situações em que capitães-mores respondiam pela administração da capitania durante ausências do governador."
+    },
+    {
+      "id": "per-u049-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual contraste melhor resume a função histórica dos capitães-mores nesta unidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "conquista territorial versus transformação da conquista em governo."
+        },
+        {
+          "id": "B",
+          "text": "França Antártica versus invasão neerlandesa."
+        },
+        {
+          "id": "C",
+          "text": "Império versus República."
+        },
+        {
+          "id": "D",
+          "text": "escravidão versus imigração europeia."
+        },
+        {
+          "id": "E",
+          "text": "independência versus abolição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O capítulo usa o cargo para mostrar a passagem entre vitória militar, defesa, povoamento e administração colonial."
+    }
+  ]
+}
