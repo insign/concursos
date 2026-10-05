@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 43 | 0 | 56 |
-| Entregáveis unitários C/H/Q | 297 | 129 | 0 | 168 |
+| Unidades distintas | 99 | 40 | 3 | 56 |
+| Entregáveis unitários C/H/Q | 297 | 120 | 9 | 168 |
 
 Estado confirmado: **56 unidades/visões publicadas (51 locais, 5 por vínculo); 168 C/H/Q aceitos; 81/132 referências literais aceitas; 2158 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: PER-U058 — Localização, superfície, limites, fronteiras e extremos**, conforme 5.2/7.5. PER-U055–PER-U057 foram publicadas e aceitas; E06:14 foi aceito pelo índice inverso após os três recortes político/econômico/social. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U058 — Localização, superfície, limites, fronteiras e extremos**, conforme 5.2/7.5. PER-U058–PER-U060 C/H/Q estão analyzing sob o token `per-u058-u060-lote-20261005-044a2fbf`, em execução serial U058 → U059 → U060. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U058–PER-U060 sob `per-u058-u060-lote-20261005-044a2fbf`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1852,6 +1852,16 @@ O pedido “Avança 3 seguidas” foi executado sob o token `per-u055-u057-lote-
 - **U057:** integral/local a partir de O054; artefato `4190c822003fde0c93d3d6b6f6f0c13dc02f72f1`; 61 questões/305 opções; fronteiras/remissões TCE neutralizadas, `q7603` revisada e uma anterior FCC/DPE-MA 2026 incorporada.
 - O051–O054 e consumidores TCE/PC/SEAP permaneceram sem edição. E06:14 foi aceito somente após os três filhos U055/U056/U057; PER-E06-C/H/Q fecha done (10/10). **Nenhuma reserva permanece ativa.**
 
+#### Reserva ativa em 05/10/2026 — lote PER-U058–PER-U060
+
+Token exclusivo `per-u058-u060-lote-20261005-044a2fbf`, decorrente do pedido “Mais 3”. Base: main `044a2fbf0d431fccc561035d5ec6624b6a8cea3d`, mestre `fb7eb8288fac8dfde19782c03b3224e81242780b`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U058 → U059 → U060; cada unidade só avança após publicação confirmada e aceite próprio.
+
+- **PER-U058:** E07:1, recorte territorial de localização/superfície/limites/fronteiras/extremos; O055 canônico `historia-geografia-estado-maranhao/localizacao-limites-extremos`; destino `conhecimentos-gerais/geografia-maranhao/localizacao-limites-extremos/`, ordem 580. Hipótese: integral por vínculo, condicionada à auditoria C/H/Q/R e à fronteira com U059.
+- **PER-U059:** E07:1/2, recorte ambiental de áreas de proteção/parques; O056 canônico `historia-geografia-estado-maranhao/areas-protecao-parques-nacionais`; destino `conhecimentos-gerais/geografia-maranhao/areas-protecao-parques-nacionais/`, ordem 590. Hipótese: integral por vínculo, condicionada à auditoria.
+- **PER-U060:** E07:3, clima/pluviosidade/temperatura; O057 canônico `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/climas-maranhao/`, identidade local de reserva `per-u060`, ordem 600. Hipótese: parcial/local, porque O057 reúne clima + formações vegetais e a vegetação está reservada a U063.
+- **Consumidores confirmados:** O055–O057 têm vínculos explícitos em PC (#764), SEAP (#765), TCE Analista e TCE Técnico (#755). Nenhum canônico/consumidor será editado sem defeito próprio comprovado.
+- **Arquivos reservados:** C/H/Q/R de O055–O057, vínculos U058/U059 e, se confirmada a parcialidade, os quatro artefatos locais próprios de U060.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -2601,21 +2611,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U058 — Localização, superfície, limites, fronteiras e extremos
 
-- [ ] PER-U058-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U058-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U058-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U058-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U058-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U058-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U059 — Áreas de proteção ambiental e parques nacionais
 
-- [ ] PER-U059-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U059-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U059-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U059-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U059-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U059-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U060 — Climas: pluviosidade e temperatura
 
-- [ ] PER-U060-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U060-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U060-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U060-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U060-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U060-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U061 — Geomorfologia e classificação do relevo
 
