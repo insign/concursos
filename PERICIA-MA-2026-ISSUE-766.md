@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 53 | 0 | 46 |
-| Entregáveis unitários C/H/Q | 297 | 159 | 0 | 138 |
+| Unidades distintas | 99 | 50 | 3 | 46 |
+| Entregáveis unitários C/H/Q | 297 | 150 | 9 | 138 |
 
 Estado confirmado: **46 unidades/visões publicadas (46 locais, 0 por vínculo); 138 C/H/Q aceitos; 67/132 referências literais aceitas; 1587 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba**, conforme 5.2/7.5. PER-U045–PER-U047 foram publicadas e aceitas; U048 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 0/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba**, conforme 5.2/7.5. PER-U048–PER-U050 C/H/Q estão analyzing sob o token `per-u048-u050-lote-20261005-69367474`, para execução serial U048 → U049 → U050. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 0/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U048–PER-U050 sob `per-u048-u050-lote-20261005-69367474`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1812,6 +1812,15 @@ O pedido explícito “Faça mais 3 itens em seguida” foi executado serialment
 
 Blobs de origem mantidos somente leitura na decisão: O041 C/H/Q/R `6a9fe615a6974f42a8857bcc791b11548e5876be` / `183e5583c18c7094a042ad3765f7ae0288a32cff` / `34c4ae50213d9d4debea80f8eca40a7437bbd1ae` / `e48827e9cf9de8db690d1bada25ecf05a5ad1c71`; O042 `133bb568efd3982448c4d22eb6b52aa29116229b` / `d59468a73b384c14926ef9fbe9adfa626e2d5310` / `7037aa57698002b8406198bd554e90f9a873d41f` / `dfe8262863e7b248d0b637c137e1b761225f890c`; O043 `9cb25d97f6087e59e24c0c517a4c0d7c68e9d330` / `1015a659338b76e3d1511a63178c9dbf5bb3a438` / `67141495127b236546ff3ba7b26838861fdea0fb` / `bcdf06e9d159df22702967f672e595704a50ff44`. As evidências finais específicas de cada unidade substituem o estado operacional dessa execução. **Nenhuma reserva permanece ativa.**
 
+#### Reserva ativa em 05/10/2026 — lote PER-U048–PER-U050
+
+Token exclusivo `per-u048-u050-lote-20261005-69367474`, decorrente do pedido “Mais 3”. Base confirmada: main `69367474ae8c04bd21bb12612a1af4c65706dbbd`, mestre `827087b979237fe1790c96c3df5f5f8f04148fec`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução obrigatoriamente serial.
+
+- **PER-U048:** E06 1/2/3; O044 canônico `historia-geografia-estado-maranhao/franca-equinocial-guaxenduba`; destino `conhecimentos-gerais/historia-maranhao/franca-equinocial-guaxenduba/`, ordem 480. Hipótese integral por vínculo, sujeita à auditoria final.
+- **PER-U049:** E06 4; O045 físico PC `franca-equinocial-fundacao-guaxenduba-capitaes-mores`; destino local `conhecimentos-gerais/historia-maranhao/capitaes-mores-maranhao/`, `per-u049`, ordem 490. Recorte parcial/local a confirmar.
+- **PER-U050:** E06 5/6; O046 canônico `historia-geografia-estado-maranhao/invasao-expulsao-holandeses`; destino `conhecimentos-gerais/historia-maranhao/invasao-expulsao-holandeses/`, ordem 500. Hipótese integral por vínculo, sujeita à auditoria final.
+- `conhecimentos-gerais/historia-maranhao/grupo.json` será materializado junto da primeira unidade completa. Nenhum doador/canônico será editado salvo defeito próprio comprovado que exija intervenção compatível com todos os consumidores.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -2355,21 +2364,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba
 
-- [ ] PER-U048-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U048-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U048-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U048-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U048-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U048-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U049 — Capitães-mores do Maranhão
 
-- [ ] PER-U049-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U049-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U049-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U049-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U049-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U049-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U050 — Invasão e expulsão dos holandeses
 
-- [ ] PER-U050-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U050-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U050-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U050-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U050-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U050-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia
 
