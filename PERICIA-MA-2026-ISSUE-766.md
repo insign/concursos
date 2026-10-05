@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 50 | 3 | 46 |
-| Entregáveis unitários C/H/Q | 297 | 150 | 9 | 138 |
+| Unidades distintas | 99 | 50 | 2 | 47 |
+| Entregáveis unitários C/H/Q | 297 | 150 | 6 | 141 |
 
-Estado confirmado: **46 unidades/visões publicadas (46 locais, 0 por vínculo); 138 C/H/Q aceitos; 67/132 referências literais aceitas; 1587 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **47 unidades/visões publicadas (46 locais, 1 por vínculo); 141 C/H/Q aceitos; 70/132 referências literais aceitas; 1648 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba**, conforme 5.2/7.5. PER-U048–PER-U050 C/H/Q estão analyzing sob o token `per-u048-u050-lote-20261005-69367474`, para execução serial U048 → U049 → U050. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 0/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U048–PER-U050 sob `per-u048-u050-lote-20261005-69367474`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U049 — Capitães-mores do Maranhão**, conforme 5.2/7.5. PER-U048 foi publicada e aceita por vínculo integral; PER-U049–PER-U050 C/H/Q permanecem analyzing sob o token `per-u048-u050-lote-20261005-69367474`, em execução serial. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 1/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U049–PER-U050 sob `per-u048-u050-lote-20261005-69367474`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -593,7 +593,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba | E06: 1, 2, 3 | O044 | `franca-equinocial-guaxenduba` / `per-u048` / 480 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba | E06: 1, 2, 3 | O044 | `franca-equinocial-guaxenduba` / canônico `franca-equinocial-guaxenduba` / 480 | Integral por vínculo ao canônico O044; C/H/Q aceitos em 5.11. |
 | PER-U049 — Capitães-mores do Maranhão | E06: 4 | O045 | `capitaes-mores-maranhao` / `per-u049` / 490 | Separar administração colonial da sequência de fundação/combate. |
 | PER-U050 — Invasão e expulsão dos holandeses | E06: 5, 6 | O046 | `invasao-expulsao-holandeses` / `per-u050` / 500 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Incluir formação/organização do Estado, companhia, causas e objetivos da revolta. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 67/132 |
-| Unidades distintas da objetiva | 98 | 46 |
+| Referências literais da objetiva | 132/132 | 70/132 |
+| Unidades distintas da objetiva | 98 | 47 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 46 |
-| Entregáveis unitários C/H/Q | 297: 159 pending + 0 analyzing + 138 done | 138 done |
-| Visões consumidoras previstas | 99 | 46 |
+| Total de unidades distintas | 99 | 47 |
+| Entregáveis unitários C/H/Q | 297: 150 pending + 6 analyzing + 141 done | 141 done |
+| Visões consumidoras previstas | 99 | 47 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 44 parciais locais, 0 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 44 parciais locais, 1 integral por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 46 unidades locais, 0 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 46 unidades locais, 1 vínculo Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1909,6 +1909,24 @@ Checkpoint persistente **pericia-ma-766-checkpoint-20261004.zip**, 107710 bytes,
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/questoes.json` | `37dc3ab4d12b2a89d0f4a8fe10148def2c7071bb` |
 | `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/direito-aplicado/cadeia-custodia-conceitos-etapas/referencias.md` | `8fdb9b3f2dd299aa979a44dbcca8fe5a48b7362f` |
 
+#### PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba: integral/canônica — C/H/Q done
+
+- **Decisão, origem e destino:** O044 foi resolvido fisicamente em `src/content/biblioteca/historia-geografia-estado-maranhao/franca-equinocial-guaxenduba/` e auditado integralmente antes do vínculo. O recorte canônico coincide com E06 1/2/3: expedição de Daniel de La Touche, fundação de São Luís e Batalha de Guaxenduba. Destino consumidor `conhecimentos-gerais/historia-maranhao/franca-equinocial-guaxenduba/`, ordem 480, sem cópia física nem overlay. O grupo História do Maranhão foi materializado junto desta primeira unidade completa.
+- **C/H e ganho:** o canônico já organiza o tema por mecanismo e contraste — presença francesa prévia, projeto colonial de 1612, agência indígena, fundação × continuidade, Guaxenduba 1614 × fim do domínio 1615 — e evita converter tradição religiosa em causalidade histórica. A leitura integral não encontrou lacuna proporcional que justificasse duplicação ou edição compartilhada.
+- **Q e fontes:** `questionSetRevision: 3`, 61 questões/304 opções, quatro questões anteriores verificáveis; IDs/chaves/explicações e proveniências foram inspecionados. Referências combinam fonte primária francesa, narrativa portuguesa da campanha, bibliografia acadêmica, Atlas da América Lusa e provas/gabaritos oficiais. Matéria histórica sem corte legislativo material; consulta de compatibilidade em 05/10/2026. O item de fundação anulado em prova anterior permanece tratado como controvérsia, não como certeza silenciosa.
+- **Microglossário e inspeção individual PER-F02:** C/H usam microdescrições onde necessárias; Q do canônico não contém HTML. Esta inspeção individual não conclui PER-F02 macro e não reabre #755. Nenhum teste/build/check/CI foi executado.
+
+**Publicação confirmada:** [`b34de7f1`](https://github.com/insign/concursos/commit/b34de7f1d6c44f8ce32061de489a9fa21383ebec), parent `4312ab3a2dede9e56fb380dc3323f841dd32686b`. O commit contém somente o descritor do grupo e o vínculo.
+
+| Evidência | Blob |
+|---|---|
+| `conhecimentos-gerais/historia-maranhao/grupo.json` | `1351210da9071f41f4ea025aab15c078a23fe0e6` |
+| `conhecimentos-gerais/historia-maranhao/franca-equinocial-guaxenduba/vinculo.json` | `4b779fda4621751dbddbf1d4c5eb0ce8c81c2485` |
+| canônico C | `5b7c47bfc0b128f2ca9ab0d7d726d262f545aca4` |
+| canônico H | `98c88d1b4023204bde019b618721bf6f05a1fe44` |
+| canônico Q | `f2f1666f51651f300d6d847e956038a310aad7e0` |
+| canônico R | `66607458569fac0ecb74d3afc276e36db5d7f03e` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2364,9 +2382,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba
 
-- [ ] PER-U048-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U048-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U048-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U048-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U048-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U048-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U049 — Capitães-mores do Maranhão
 
@@ -2906,3 +2924,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U046:** artefatos `65f614d5fd8f540c6051ed67f7a0895df27c82ac` confirmados; aceitos neste registro 25 itens, C/H/Q e proveniência 5.11. Totais resultantes: 45/99 unidades, 135/297 C/H/Q, 63/132 referências, 1563 questões. Macros 14 done/37 pending/0 analyzing. Distribuição aceita E05 2/3 e E08 2/11; E08 5/5.1/5.2/5.3/6 aceitos, enquanto E05 1/1.1/1.1.2 aguardam o consumidor compartilhado U047. Próxima ação PER-U047 — Cadeia de custódia: conceitos, etapas e fases; somente U047 permanece analyzing.
 
 - **PER-U047:** artefatos `b34917a65bbd7099c175303d5feb65546e1fef38` confirmados; aceitos neste registro 24 itens, C/H/Q e proveniência 5.11. Totais resultantes: 46/99 unidades, 138/297 C/H/Q, 67/132 referências, 1587 questões. Macros 17 done/34 pending/0 analyzing. PER-E05 C/H/Q fica done (3/3); E08 passa a 3/11. E08:3 e E05:1/E05:1.1/E05:1.1.2 aceitos pelo índice inverso. Lote U045–U047 encerrado sem reserva ativa. Próxima ação PER-U048 — França Equinocial, fundação de São Luís e Guaxenduba; campanha aberta.
+
+- **PER-U048:** vínculo `b34de7f1d6c44f8ce32061de489a9fa21383ebec` confirmado; canônico O044 auditado em C/H/Q/R, 61 questões/304 opções. Totais resultantes: 47/99 unidades, 141/297 C/H/Q, 70/132 referências, 1648 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 1/10. Próxima ação PER-U049 — Capitães-mores do Maranhão; U049/U050 permanecem analyzing sob a reserva do lote.
