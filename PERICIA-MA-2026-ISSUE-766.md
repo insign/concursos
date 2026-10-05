@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 46 | 0 | 53 |
-| Entregáveis unitários C/H/Q | 297 | 138 | 0 | 159 |
+| Unidades distintas | 99 | 43 | 3 | 53 |
+| Entregáveis unitários C/H/Q | 297 | 129 | 9 | 159 |
 
 Estado confirmado: **53 unidades/visões publicadas (48 locais, 5 por vínculo); 159 C/H/Q aceitos; 80/132 referências literais aceitas; 1969 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U054 foi publicada por vínculo canônico, relida e aceita; U055 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 7/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U055–PER-U057 C/H/Q estão analyzing sob o token `per-u055-u057-lote-20261005-e490070a`, em execução serial U055 → U056 → U057. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 7/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U055–PER-U057 sob `per-u055-u057-lote-20261005-e490070a`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -1843,6 +1843,16 @@ O pedido “Avance” foi executado sob o token `per-u054-20261005-54212605`, a 
 - **Defeito isolado herdado:** 14 ocorrências de microglossário HTML pré-existente foram observadas em Q. Conforme a regra de fechamento, isso não reabre os consumidores já aceitos nem justifica cópia divergente.
 - **Inspeção individual PER-F02:** vínculo e C/H/Q/R relidos na main; o commit de artefato contém somente o `vinculo.json`. PER-F02 macro permanece pending. Sem testes/build/check/CI. **Nenhuma reserva permanece ativa.**
 
+#### Reserva ativa em 05/10/2026 — lote PER-U055–PER-U057
+
+Token exclusivo `per-u055-u057-lote-20261005-e490070a`, decorrente do pedido “Avança 3 seguidas”. Base: main `e490070a5401e754195022c89ab7cb299b5f10c2`, mestre `50e3b9d8c5c2e59668b1eb0e69db1c1a9956c6fc`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U055 → U056 → U057; cada unidade só avança após artefato confirmado e aceite próprio.
+
+- **PER-U055:** E06:14, recorte político; origens candidatas O051 `historia-geografia-estado-maranhao/fatos-politicos-maranhao-sec-xx` e O052 `historia-geografia-estado-maranhao/vitorinismo-greve-1951`; destino `conhecimentos-gerais/historia-maranhao/fatos-politicos-maranhao-sec-xx/`, identidade local de reserva `per-u055`, ordem 550. Hipótese: parcial/local se O051 não absorver integralmente a greve/vitorinismo necessária ao recorte.
+- **PER-U056:** E06:14, recorte econômico; O053 `historia-geografia-estado-maranhao/fatos-economicos-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-economicos-maranhao-sec-xx/`, identidade local de reserva `per-u056`, ordem 560. Hipótese: integral por vínculo, condicionada à auditoria.
+- **PER-U057:** E06:14, recorte social; O054 `historia-geografia-estado-maranhao/fatos-sociais-maranhao-sec-xx`; destino `conhecimentos-gerais/historia-maranhao/fatos-sociais-maranhao-sec-xx/`, identidade local de reserva `per-u057`, ordem 570. Hipótese: integral por vínculo, condicionada à auditoria.
+- **Consumidores confirmados dos canônicos:** TCE Analista e TCE Técnico (#755); PC (#764) e SEAP (#765) possuem unidades locais integradas para o item amplo, que serão lidas apenas como evidência de fronteira/reaproveitamento, sem edição.
+- **Arquivos reservados:** C/H/Q/R de O051–O054; pacote local integrado PC/SEAP quando necessário para comparação; destinos/vínculos U055–U057; se U055 exigir pacote local, somente seus quatro artefatos próprios.
+
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
 Este bloco preserva o checkpoint da pausa anterior e não define o estado corrente. Naquele momento, o pedido do usuário interrompeu a autorização contínua após U042. **U044 foi posteriormente retomada, publicada e aceita no registro seguinte; U045–U048 permanecem pending.** O preparo não publicado das demais unidades continua sem valor de aceite.
@@ -2523,21 +2533,21 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX
 
-- [ ] PER-U055-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U055-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U055-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U055-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U055-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U055-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX
 
-- [ ] PER-U056-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U056-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U056-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U056-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U056-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U056-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX
 
-- [ ] PER-U057-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U057-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U057-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U057-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U057-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U057-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U058 — Localização, superfície, limites, fronteiras e extremos
 
