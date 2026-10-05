@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 47 | 1 | 51 |
-| Entregáveis unitários C/H/Q | 297 | 141 | 3 | 153 |
+| Unidades distintas | 99 | 47 | 0 | 52 |
+| Entregáveis unitários C/H/Q | 297 | 141 | 0 | 156 |
 
-Estado confirmado: **51 unidades/visões publicadas (48 locais, 3 por vínculo); 153 C/H/Q aceitos; 77/132 referências literais aceitas; 1849 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **52 unidades/visões publicadas (48 locais, 4 por vínculo); 156 C/H/Q aceitos; 78/132 referências literais aceitas; 1909 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U053 — Balaiada: caracterização e causas**, conforme 5.2/7.5. PER-U051 e PER-U052 foram publicadas e aceitas; somente PER-U053 C/H/Q permanece analyzing sob o token `per-u051-u053-lote-20261005-f56160af`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 5/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U053 sob `per-u051-u053-lote-20261005-f56160af`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U054 — Adesão à República e Revolução de 1930**, conforme 5.2/7.5. PER-U051–PER-U053 foram publicadas e aceitas; U054 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 6/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -598,7 +598,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | PER-U050 — Invasão e expulsão dos holandeses | E06: 5, 6 | O046 | `invasao-expulsao-holandeses` / canônico `invasao-expulsao-holandeses` / 500 | Integral por vínculo ao canônico O046; C/H/Q aceitos em 5.11. |
 | PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Parcial local: canônico cobre Bequimão/companhias; complemento próprio cobre formação/organização do Estado. C/H/Q aceitos em 5.11. |
 | PER-U052 — Independência, adesão do Maranhão e Jenipapo | E06: 8, 9, 10 | O048 | `adesao-independencia-jenipapo` / canônico `adesao-independencia-jenipapo` / 520 | Integral por vínculo ao canônico O048; C/H/Q aceitos em 5.11. |
-| PER-U053 — Balaiada: caracterização e causas | E06: 11 | O049 | `balaiada-caracterizacao-causas` / `per-u053` / 530 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U053 — Balaiada: caracterização e causas | E06: 11 | O049 | `balaiada-caracterizacao-causas` / canônico `balaiada-caracterizacao-causas` / 530 | Integral por vínculo ao canônico O049; C/H/Q aceitos em 5.11. |
 | PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / `per-u054` / 540 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX | E06: 14 | O051, O052 | `fatos-politicos-maranhao-sec-xx` / `per-u055` / 550 | Articular cronologia política; greve de 1951 não vira unidade extra. |
 | PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX | E06: 14 | O053 | `fatos-economicos-maranhao-sec-xx` / `per-u056` / 560 | História econômica; dados atuais da geografia não substituem processos históricos. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 77/132 |
-| Unidades distintas da objetiva | 98 | 51 |
+| Referências literais da objetiva | 132/132 | 78/132 |
+| Unidades distintas da objetiva | 98 | 52 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 51 |
-| Entregáveis unitários C/H/Q | 297: 141 pending + 3 analyzing + 153 done | 153 done |
-| Visões consumidoras previstas | 99 | 51 |
+| Total de unidades distintas | 99 | 52 |
+| Entregáveis unitários C/H/Q | 297: 141 pending + 0 analyzing + 156 done | 156 done |
+| Visões consumidoras previstas | 99 | 52 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 46 parciais locais, 3 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 46 parciais locais, 4 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 48 unidades locais, 3 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 48 unidades locais, 4 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1821,14 +1821,14 @@ O pedido “Mais 3” foi executado sob o token `per-u048-u050-lote-20261005-693
 - U050: integral/canônica por vínculo a `historia-geografia-estado-maranhao/invasao-expulsao-holandeses`.
 - Os canônicos permaneceram sem edição. O HTML de microglossário pré-existente em campos Q de O046 foi registrado como defeito isolado de unidade já aceita e não reabriu campanhas consumidoras, conforme regra de fechamento. **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — lote PER-U051–PER-U053
+#### Decisão de execução serial em 05/10/2026 — lote PER-U051–PER-U053 concluído
 
-Token exclusivo `per-u051-u053-lote-20261005-f56160af`, decorrente do pedido “Mais 3”. Base: main `f56160af75a066bd2e659dca4c30b26667462dde`, mestre `87d3812baba89b76298cf9905d2f8ffd06a121f1`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
+O pedido “Mais 3” foi executado sob o token `per-u051-u053-lote-20261005-f56160af`, a partir da main `f56160af75a066bd2e659dca4c30b26667462dde`, mestre `87d3812baba89b76298cf9905d2f8ffd06a121f1` e AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. U051, U052 e U053 foram publicadas, relidas, aceitas e sincronizadas nessa ordem.
 
-- **PER-U051:** E06:7; O047 canônico `historia-geografia-estado-maranhao/revolta-bequimao-companhias`; destino `conhecimentos-gerais/historia-maranhao/revolta-bequimao-companhias/`, ordem 510.
-- **PER-U052:** E06:8/9/10; O048 canônico `historia-geografia-estado-maranhao/adesao-independencia-jenipapo`; destino `conhecimentos-gerais/historia-maranhao/adesao-independencia-jenipapo/`, ordem 520.
-- **PER-U053:** E06:11; O049 canônico `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas`; destino `conhecimentos-gerais/historia-maranhao/balaiada-caracterizacao-causas/`, ordem 530.
-- Hipótese: integral por vínculo nas três, condicionada à auditoria final de C/H/Q/R, consumidores e recorte. Nenhum canônico ou consumidor será editado sem necessidade própria comprovada.
+- U051: **parcial/local**; o canônico de Bequimão foi complementado com formação/organização do Estado do Maranhão e Grão-Pará.
+- U052: **integral/canônica** por vínculo a `historia-geografia-estado-maranhao/adesao-independencia-jenipapo`.
+- U053: **integral/canônica** por vínculo a `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas`.
+- HTML de microglossário pré-existente nos Q canônicos de U052/U053 foi registrado como defeito isolado de material compartilhado já aceito, sem reabrir campanhas consumidoras. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -1990,6 +1990,17 @@ Canônico confirmado: C `fb17d4d344bb598cc2c0009f6898dc58bb11d6d6`; H `832f0439a
 **Publicação confirmada:** [`904a8659`](https://github.com/insign/concursos/commit/904a865939bf8e3fe4a83f8b929890b10f2a7ce0). Vínculo blob `6bdbb79c49b724947ecf7d508bfef1e0e9ff7bbb`.
 
 Canônico confirmado: C `ad6e40515fec812be2e5962c7f6af43ab276cfb7`; H `a7ef9f68c5ec23c154042ec882e267d21cec525d`; Q `36951be277606431f41ecdd64b91f3584d16e82a`; R `d068616d12185e95535994389c2ca47ef56d8949`.
+
+#### PER-U053 — Balaiada: caracterização e causas: integral/canônica — C/H/Q done
+
+- **Decisão, origem e destino:** O049 canônico `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas` coincide integralmente com E06:11. Vínculos de PC, SEAP, TCE Analista e TCE Técnico foram confirmados. Destino Perícia `conhecimentos-gerais/historia-maranhao/balaiada-caracterizacao-causas/`, ordem 530; sem cópia ou overlay.
+- **C/H e ganho:** o canônico distingue causas estruturais, conjunturais e estopim; trata Regência, desigualdade, escravidão, disputa entre bem-te-vis/cabanos, recrutamento e Vila da Manga; diferencia Raimundo Gomes, Balaio e Negro Cosme e evita reduzir o movimento a uma causa única ou programa homogêneo. A auditoria integral não encontrou lacuna proporcional.
+- **Q/fontes:** `questionSetRevision: 2`, 60 questões/300 opções, quatro anteriores verificáveis da PM/MA 2017, além de autorais. Fontes incluem Câmara dos Deputados, Museu do Índio/Funai, historiografia acadêmica e fonte primária do século XIX usada criticamente. Cinco questões preservam microglossário HTML herdado do canônico; defeito isolado registrado sem reabrir consumidores.
+- **Inspeção individual PER-F02:** vínculo e C/H/Q/R canônicos relidos; commit contém somente `vinculo.json`. PER-F02 macro permanece pending. Matéria histórica; sem teste/build/check/CI.
+
+**Publicação confirmada:** [`721674ef`](https://github.com/insign/concursos/commit/721674ef468508f276e8f6f71281ad57b3c2dcbb). Vínculo blob `069d0d59be8b220bfa7356f4efe5397903fab30e`.
+
+Canônico confirmado: C `55e3dbf774a202bad719b16e0c6cd3a279bc2efb`; H `03acfdaa735ec11f105a79ff06d26e09902a6dca`; Q `0f8148610287a98393cd0789af0fb29dda0842c5`; R `cb0b2fde84932c41fd0b605793008a9e77854e0d`.
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2476,9 +2487,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U053 — Balaiada: caracterização e causas
 
-- [ ] PER-U053-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U053-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U053-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U053-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U053-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U053-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U054 — Adesão à República e Revolução de 1930
 
@@ -2998,3 +3009,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U051:** artefatos `7e81723feca9a55473a59a37e92db75da582de00` confirmados; 63 questões/315 opções aceitas com C/H/Q e proveniência 5.11. Totais resultantes: 50/99 unidades, 150/297 C/H/Q, 74/132 referências, 1787 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 4/10. Próxima ação PER-U052 — Independência, adesão do Maranhão e Jenipapo; U052/U053 permanecem analyzing.
 
 - **PER-U052:** vínculo `904a865939bf8e3fe4a83f8b929890b10f2a7ce0` confirmado; canônico O048 auditado em C/H/Q/R, 62 questões/310 opções. Totais resultantes: 51/99 unidades, 153/297 C/H/Q, 77/132 referências, 1849 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 5/10. Próxima ação PER-U053 — Balaiada: caracterização e causas; somente U053 permanece analyzing.
+
+- **PER-U053:** vínculo `721674ef468508f276e8f6f71281ad57b3c2dcbb` confirmado; canônico O049 auditado em C/H/Q/R, 60 questões/300 opções. Totais resultantes: 52/99 unidades, 156/297 C/H/Q, 78/132 referências, 1909 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 6/10. Lote U051–U053 encerrado sem reserva ativa. Próxima ação PER-U054 — Adesão à República e Revolução de 1930; campanha aberta.
