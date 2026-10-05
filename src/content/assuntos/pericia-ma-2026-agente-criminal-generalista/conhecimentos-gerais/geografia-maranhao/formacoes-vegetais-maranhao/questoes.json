@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "q7880",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Bioma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma lavoura observada em uma data."
+        },
+        {
+          "id": "B",
+          "text": "o uso econômico de uma propriedade."
+        },
+        {
+          "id": "C",
+          "text": "uma estação meteorológica."
+        },
+        {
+          "id": "D",
+          "text": "um grande conjunto regional de vegetação, fauna, condições geoclimáticas e história ecológica."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo de qualquer formação local."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O bioma é um recorte regional amplo e não equivale à cobertura atual de cada ponto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7881",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No recorte oficial de biomas do IBGE, o Maranhão inclui áreas de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amazônia, Cerrado e Caatinga."
+        },
+        {
+          "id": "B",
+          "text": "Pantanal, Pampa e Tundra."
+        },
+        {
+          "id": "C",
+          "text": "apenas Amazônia."
+        },
+        {
+          "id": "D",
+          "text": "Mata dos Cocais, Pampa e Pantanal."
+        },
+        {
+          "id": "E",
+          "text": "apenas Cerrado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O recorte de biomas situa o Maranhão no contato entre Amazônia, Cerrado e Caatinga, além do Sistema Costeiro-Marinho; o mapa de vegetação possui objeto fitoecológico distinto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7882",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre formação vegetal e cobertura da terra é",
+      "options": [
+        {
+          "id": "A",
+          "text": "as duas expressões significam sempre a mesma coisa."
+        },
+        {
+          "id": "B",
+          "text": "formação indica apenas propriedade jurídica."
+        },
+        {
+          "id": "C",
+          "text": "formação descreve fisionomia/composição; cobertura registra o que recobre a superfície na data mapeada."
+        },
+        {
+          "id": "D",
+          "text": "cobertura é somente o clima."
+        },
+        {
+          "id": "E",
+          "text": "formação é sempre uma cidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma formação potencial ou original pode ter sido substituída por pastagem, lavoura ou vegetação secundária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7883",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uso da terra refere-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao nome oficial do bioma."
+        },
+        {
+          "id": "B",
+          "text": "à temperatura média."
+        },
+        {
+          "id": "C",
+          "text": "à forma do relevo."
+        },
+        {
+          "id": "D",
+          "text": "apenas à vegetação primária."
+        },
+        {
+          "id": "E",
+          "text": "à finalidade ou ao manejo humano, como agricultura, pecuária ou conservação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Uso e cobertura são relacionados, mas respondem a perguntas diferentes sobre função e superfície observada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7884",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Mata dos Cocais deve ser classificada, neste recorte, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "o sétimo bioma continental oficial do IBGE."
+        },
+        {
+          "id": "B",
+          "text": "formação ou complexo de formações com palmeiras em área de transição."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de toda a Amazônia."
+        },
+        {
+          "id": "D",
+          "text": "uma classe climática de Köppen."
+        },
+        {
+          "id": "E",
+          "text": "uma categoria de unidade de conservação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cocais é denominação fitogeográfica/didática de transição e não integra a lista oficial dos seis biomas continentais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7885",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um ecótono,",
+      "options": [
+        {
+          "id": "A",
+          "text": "as formações vizinhas permanecem separadas por limite nítido, sem mistura florística."
+        },
+        {
+          "id": "B",
+          "text": "uma formação mantém sua identidade integral dentro de uma matriz dominada por outra, como em um encrave."
+        },
+        {
+          "id": "C",
+          "text": "a vegetação secundária substitui obrigatoriamente toda a vegetação primária existente."
+        },
+        {
+          "id": "D",
+          "text": "espécies e características de formações vizinhas se misturam."
+        },
+        {
+          "id": "E",
+          "text": "o limite coincide necessariamente com a fronteira oficial entre dois biomas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ecótono é zona de transição com mistura florística; no encrave, uma formação mantém identidade própria dentro de outra matriz. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7886",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um encrave vegetal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma formação que mantém identidade dentro de matriz dominada por outra."
+        },
+        {
+          "id": "B",
+          "text": "a mistura completa e aleatória de espécies de duas formações."
+        },
+        {
+          "id": "C",
+          "text": "qualquer área urbana."
+        },
+        {
+          "id": "D",
+          "text": "uma normal climatológica."
+        },
+        {
+          "id": "E",
+          "text": "um erro cartográfico obrigatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No encrave, a formação inserida conserva sua identidade; no ecótono, ocorre mistura florística. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7887",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Floresta Ombrófila Densa maranhense ocorre principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "no centro-sul, onde domina o setor mais sazonal do Cerrado."
+        },
+        {
+          "id": "B",
+          "text": "no leste, acompanhando as áreas com estação seca mais prolongada."
+        },
+        {
+          "id": "C",
+          "text": "no oeste junto ao Pará, associada a maior umidade e estrutura estratificada."
+        },
+        {
+          "id": "D",
+          "text": "em toda a área de Cerrado, sem transições com outras formações."
+        },
+        {
+          "id": "E",
+          "text": "apenas nas planícies costeiras, sem ocorrência no interior ocidental."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A formação pluvial ocupa sobretudo o setor amazônico ocidental, sob maior disponibilidade hídrica, e inclui diferentes fisionomias florestais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7888",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o mapa IBGE de vegetação, a Floresta Ombrófila Aberta",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca apresentou palmeiras."
+        },
+        {
+          "id": "B",
+          "text": "é sinônimo de campo limpo."
+        },
+        {
+          "id": "C",
+          "text": "ocorre apenas fora do Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "permanece integralmente primária."
+        },
+        {
+          "id": "E",
+          "text": "apresentava fisionomias com palmeiras e, em alguns setores, cipós, sendo amplamente substituída por vegetação secundária rica em babaçu."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A transformação da floresta aberta ajuda a explicar a paisagem contemporânea dos cocais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7889",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Floresta Estacional Semidecidual caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "perda de folhas superior a 90% em todas as espécies."
+        },
+        {
+          "id": "B",
+          "text": "perda foliar de aproximadamente 20% a 50% dos elementos arbóreos emergentes no período desfavorável."
+        },
+        {
+          "id": "C",
+          "text": "ausência completa de sazonalidade."
+        },
+        {
+          "id": "D",
+          "text": "predomínio exclusivo de gramíneas."
+        },
+        {
+          "id": "E",
+          "text": "ocorrer somente no litoral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A semideciduidade expressa resposta à estação desfavorável e se distingue da deciduidade mais intensa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7890",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Floresta Estacional Decidual distingue-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma árvore perde folhas."
+        },
+        {
+          "id": "B",
+          "text": "é uma savana sem estrato arbóreo."
+        },
+        {
+          "id": "C",
+          "text": "exige chuva uniforme em todos os meses."
+        },
+        {
+          "id": "D",
+          "text": "mais de 50% dos elementos arbóreos perdem folhas na estação seca."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de manguezal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A deciduidade superior a 50% está associada a sazonalidade hídrica mais severa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7891",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o Cerrado maranhense, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "reúne formações florestadas, arborizadas, parque e gramíneo-lenhosas."
+        },
+        {
+          "id": "B",
+          "text": "possui uma única fisionomia."
+        },
+        {
+          "id": "C",
+          "text": "não apresenta estrato herbáceo."
+        },
+        {
+          "id": "D",
+          "text": "ocorre somente no litoral."
+        },
+        {
+          "id": "E",
+          "text": "é uma classe de cobertura urbana."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Cerrado é um mosaico fisionômico que varia de cerradão a campos predominantemente herbáceos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7892",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na classificação fitogeográfica do IBGE, Cerradão corresponde à",
+      "options": [
+        {
+          "id": "A",
+          "text": "Savana Gramíneo-Lenhosa."
+        },
+        {
+          "id": "B",
+          "text": "Floresta Ombrófila Densa."
+        },
+        {
+          "id": "C",
+          "text": "Savana Florestada."
+        },
+        {
+          "id": "D",
+          "text": "Formação Pioneira Marinha."
+        },
+        {
+          "id": "E",
+          "text": "Savana-Estépica Parque."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Savana Florestada é a fisionomia mais arbórea do gradiente do Cerrado e recebe o nome frequente de Cerradão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7893",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em aproximação didática entre nomenclaturas das formações do Cerrado, qual associação é a mais adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Savana Parque-cerradão; Florestada-campo limpo."
+        },
+        {
+          "id": "B",
+          "text": "Arborizada-manguezal; Parque-floresta densa."
+        },
+        {
+          "id": "C",
+          "text": "Gramíneo-Lenhosa-floresta ombrófila."
+        },
+        {
+          "id": "D",
+          "text": "Florestada-campo sujo; Arborizada-campo limpo."
+        },
+        {
+          "id": "E",
+          "text": "Savana Parque-campo sujo; Gramíneo-Lenhosa-campo limpo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Savana Parque aproxima-se didaticamente de campo sujo e Savana Gramíneo-Lenhosa de campo limpo; as correspondências não são equivalências taxonômicas universais. O critério de prova é o gradiente de densidade lenhosa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7894",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Os babaçuais contemporâneos do Maranhão",
+      "options": [
+        {
+          "id": "A",
+          "text": "indicam que toda área ocupada por babaçu conserva necessariamente floresta primária intacta."
+        },
+        {
+          "id": "B",
+          "text": "podem ser abundantes em vegetação secundária após alteração da Floresta Ombrófila Aberta."
+        },
+        {
+          "id": "C",
+          "text": "restringem-se a trechos sem histórico de perturbação ou regeneração da cobertura vegetal."
+        },
+        {
+          "id": "D",
+          "text": "constituem, por si sós, um bioma continental oficial autônomo do IBGE."
+        },
+        {
+          "id": "E",
+          "text": "não apresentam relação com processos de sucessão e regeneração em paisagens alteradas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O babaçu é nativo e pode expandir-se vigorosamente em paisagens alteradas e em regeneração, especialmente em áreas antes ocupadas por Floresta Ombrófila Aberta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7895",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distribuição das formações vegetais maranhenses depende",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente da chuva anual."
+        },
+        {
+          "id": "B",
+          "text": "apenas da temperatura."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente do uso da terra."
+        },
+        {
+          "id": "D",
+          "text": "da interação entre clima, solos, drenagem, relevo, fogo, sucessão e uso histórico."
+        },
+        {
+          "id": "E",
+          "text": "unicamente da altitude."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O clima é decisivo, mas não determina sozinho bioma, fitofisionomia ou cobertura atual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7896",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão da Prefeitura de São Luís (2017), qual síntese descreve corretamente a distribuição das principais formações vegetais maranhenses?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Floresta amazônica em todo o território, sem Cerrado ou cocais."
+        },
+        {
+          "id": "B",
+          "text": "Cerrado apenas no noroeste e floresta apenas no extremo sul."
+        },
+        {
+          "id": "C",
+          "text": "Cocais exclusivamente no litoral, sem área de transição."
+        },
+        {
+          "id": "D",
+          "text": "Vegetação homogênea que não pode ser regionalizada."
+        },
+        {
+          "id": "E",
+          "text": "Cerrado predominante no sul, formações amazônicas no noroeste, babaçu no eixo centro-norte e carnaúba sobretudo em setores mais a leste."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A alternativa preserva o núcleo da opção C da questão original, cujo gabarito definitivo foi C, e torna mais precisa a distribuição das palmeiras sem negar as transições. Fonte oficial: Cebraspe, Prefeitura de São Luís/MA, Cargo 7 — Professor Nível Superior/PNS-A, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 38. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: retirada da dependência da figura, precisão espacial e reordenação das alternativas, mantendo cinco opções e o núcleo geográfico cobrado."
+    },
+    {
+      "id": "q7897",
+      "revision": 4,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação da questão cartográfica da prova de Professor de Geografia de São Luís (2017), qual formação se destaca no eixo central de transição entre as formações amazônicas do noroeste e o Cerrado do sul maranhense?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Floresta Ombrófila Densa contínua."
+        },
+        {
+          "id": "B",
+          "text": "Mata dos Cocais, com destaque para palmeiras como babaçu e carnaúba em setores distintos."
+        },
+        {
+          "id": "C",
+          "text": "Manguezal exclusivo de toda a faixa interior."
+        },
+        {
+          "id": "D",
+          "text": "Campo limpo sem presença de palmeiras."
+        },
+        {
+          "id": "E",
+          "text": "Savana-Estépica como única cobertura estadual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alternativa B preserva a associação correta da região 4 à Mata dos Cocais na questão original, cujo gabarito definitivo foi B, sem transformar a simplificação cartográfica em homogeneidade ecológica. Fonte oficial: Cebraspe, Prefeitura de São Luís/MA, Cargo 7 — Professor Nível Superior/PNS-A, especialidade Geografia, prova aplicada em 5/2/2017, caderno 287_PREFSAOLUIS_007_01, questão 39. Prova: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_007_01.pdf. Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_007_01.pdf. Adaptação: substituição da figura e de sua numeração por descrição espacial autossuficiente, qualificação dos cocais e preservação de cinco alternativas."
+    }
+  ]
+}
