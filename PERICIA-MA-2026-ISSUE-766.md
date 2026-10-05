@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 40 | 3 | 56 |
-| Entregáveis unitários C/H/Q | 297 | 120 | 9 | 168 |
+| Unidades distintas | 99 | 40 | 2 | 57 |
+| Entregáveis unitários C/H/Q | 297 | 120 | 6 | 171 |
 
-Estado confirmado: **56 unidades/visões publicadas (51 locais, 5 por vínculo); 168 C/H/Q aceitos; 81/132 referências literais aceitas; 2158 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **57 unidades/visões publicadas (52 locais, 5 por vínculo); 171 C/H/Q aceitos; 81/132 referências literais aceitas; 2218 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U058 — Localização, superfície, limites, fronteiras e extremos**, conforme 5.2/7.5. PER-U058–PER-U060 C/H/Q estão analyzing sob o token `per-u058-u060-lote-20261005-044a2fbf`, em execução serial U058 → U059 → U060. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U058–PER-U060 sob `per-u058-u060-lote-20261005-044a2fbf`.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. Próxima ação: concluir PER-U059 — Áreas de proteção ambiental e parques nacionais**, conforme 5.2/7.5. PER-U058 foi publicada e aceita; PER-U059–PER-U060 C/H/Q permanecem analyzing sob o token `per-u058-u060-lote-20261005-044a2fbf`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 1/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. E07:1 permanece sem aceite literal até U059 concluir o consumidor compartilhado. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U059–PER-U060 sob `per-u058-u060-lote-20261005-044a2fbf`.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -610,7 +610,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U058 — Localização, superfície, limites, fronteiras e extremos | E07: 1 | O055 | `localizacao-limites-extremos` / `per-u058` / 580 | Parte territorial de 1; áreas protegidas vão a U059. |
+| PER-U058 — Localização, superfície, limites, fronteiras e extremos | E07: 1 | O055 | `localizacao-limites-extremos` / `per-u058` / 580 | Integral por cópia local de O055; remissão numérica canônica neutralizada e Q normalizado para texto puro; C/H/Q aceitos em 5.11. |
 | PER-U059 — Áreas de proteção ambiental e parques nacionais | E07: 1, 2 | O056 | `areas-protecao-parques-nacionais` / `per-u059` / 590 | Cobertura ambiental do item 1, sem repetir localização. |
 | PER-U060 — Climas: pluviosidade e temperatura | E07: 3 | O057 | `climas-maranhao` / `per-u060` / 600 | Usar só recorte climático; vegetação própria U063. |
 | PER-U061 — Geomorfologia e classificação do relevo | E07: 4, 4.1 | O058 | `geomorfologia-relevo-maranhense` / `per-u061` / 610 | Planaltos, planícies e baixadas; geologia apenas quando explicar relevo. |
@@ -923,16 +923,16 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
 | Referências literais da objetiva | 132/132 | 81/132 |
-| Unidades distintas da objetiva | 98 | 56 |
+| Unidades distintas da objetiva | 98 | 57 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 56 |
-| Entregáveis unitários C/H/Q | 297: 129 pending + 0 analyzing + 168 done | 168 done |
-| Visões consumidoras previstas | 99 | 56 |
+| Total de unidades distintas | 99 | 57 |
+| Entregáveis unitários C/H/Q | 297: 126 pending + 0 analyzing + 171 done | 171 done |
+| Visões consumidoras previstas | 99 | 57 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 2 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 47 parciais locais, 3 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 51 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 52 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1854,13 +1854,12 @@ O pedido “Avança 3 seguidas” foi executado sob o token `per-u055-u057-lote-
 
 #### Reserva ativa em 05/10/2026 — lote PER-U058–PER-U060
 
-Token exclusivo `per-u058-u060-lote-20261005-044a2fbf`, decorrente do pedido “Mais 3”. Base: main `044a2fbf0d431fccc561035d5ec6624b6a8cea3d`, mestre `fb7eb8288fac8dfde19782c03b3224e81242780b`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial U058 → U059 → U060; cada unidade só avança após publicação confirmada e aceite próprio.
+Token exclusivo `per-u058-u060-lote-20261005-044a2fbf`, decorrente do pedido “Mais 3”. Base inicial: main `044a2fbf0d431fccc561035d5ec6624b6a8cea3d`, mestre `fb7eb8288fac8dfde19782c03b3224e81242780b`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`. Execução serial.
 
-- **PER-U058:** E07:1, recorte territorial de localização/superfície/limites/fronteiras/extremos; O055 canônico `historia-geografia-estado-maranhao/localizacao-limites-extremos`; destino `conhecimentos-gerais/geografia-maranhao/localizacao-limites-extremos/`, ordem 580. Hipótese: integral por vínculo, condicionada à auditoria C/H/Q/R e à fronteira com U059.
-- **PER-U059:** E07:1/2, recorte ambiental de áreas de proteção/parques; O056 canônico `historia-geografia-estado-maranhao/areas-protecao-parques-nacionais`; destino `conhecimentos-gerais/geografia-maranhao/areas-protecao-parques-nacionais/`, ordem 590. Hipótese: integral por vínculo, condicionada à auditoria.
-- **PER-U060:** E07:3, clima/pluviosidade/temperatura; O057 canônico `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/climas-maranhao/`, identidade local de reserva `per-u060`, ordem 600. Hipótese: parcial/local, porque O057 reúne clima + formações vegetais e a vegetação está reservada a U063.
-- **Consumidores confirmados:** O055–O057 têm vínculos explícitos em PC (#764), SEAP (#765), TCE Analista e TCE Técnico (#755). Nenhum canônico/consumidor será editado sem defeito próprio comprovado.
-- **Arquivos reservados:** C/H/Q/R de O055–O057, vínculos U058/U059 e, se confirmada a parcialidade, os quatro artefatos locais próprios de U060.
+- **PER-U058 concluída:** integral/local a partir de O055; artefato `8c348bc615144dcd61145ff12a9bb3bf4b878040`, 60 questões/300 opções, remissão numérica neutralizada e Q convertido a texto puro.
+- **PER-U059 analyzing:** E07:1/2 ambiental; O056 `historia-geografia-estado-maranhao/areas-protecao-parques-nacionais`; destino `conhecimentos-gerais/geografia-maranhao/areas-protecao-parques-nacionais/`, ordem 590. Hipótese integral por vínculo.
+- **PER-U060 analyzing:** E07:3 climático; O057 `historia-geografia-estado-maranhao/climas-formacoes-vegetais`; destino `conhecimentos-gerais/geografia-maranhao/climas-maranhao/`, ordem 600. Hipótese parcial/local.
+- O055–O057 e consumidores PC/SEAP/TCE permanecem sem edição.
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2095,6 +2094,22 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | H | `af0dacd234601a9c5b456f9d1d076c657a38aae7` |
 | Q | `d97b3289ffcf1967eefb6e16cba003197d5fd700` |
 | R | `dbd193fea572b3ca072f306e4aa21f5510ef61aa` |
+
+#### PER-U058 — Localização, superfície, limites, fronteiras e extremos: integral/local — C/H/Q done
+
+- **Decisão:** O055 coincide com o recorte territorial de E07:1, excluídas as áreas protegidas destinadas a U059. O vínculo direto foi descartado porque C trazia a remissão interna “Assunto 087”, específica da organização canônica; para não alterar os consumidores compartilhados, foi feita cópia local integral.
+- **Intervenção:** C recebeu identidade/ordem Perícia e a remissão foi substituída por “unidade de rios e bacias”. H foi reaproveitado integralmente. Q preserva as 60 autorais do doador, mas as 10 questões que continham `abbr` em campos JSON de texto puro tiveram as tags removidas, preservando o texto visível; suas revisões foram incrementadas e `questionSetRevision` passou de 3 para 4.
+- **Revalidação:** a página oficial do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> mantém **329.651,463 km²** como área territorial do Maranhão [2025], e o Anuário Estatístico 2025 mantém tabela própria de pontos extremos. O material diferencia edição da malha, área, costa, divisa e fronteira internacional. Busca dirigida não localizou questão anterior oficial suficientemente verificável e pertinente para inclusão.
+- **Inspeção PER-F02:** quatro arquivos próprios relidos na main; banco final 60 questões/300 opções, zero HTML/duplicidades/gabaritos inválidos; O055 permaneceu inalterado. PER-F02 macro segue pending. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`8c348bc6`](https://github.com/insign/concursos/commit/8c348bc615144dcd61145ff12a9bb3bf4b878040).
+
+| Arquivo | Blob |
+|---|---|
+| C | `3267a5bcce2bddbeb1b48939693fa24e110136f5` |
+| H | `35a986dd9cb9cda6fadd50199526429eacb0a4ae` |
+| Q | `e864435d467b9f1da1cfd3f570b1f8f88f6cc628` |
+| R | `ce6e28f5c2edcea4645ccbcabd28839e1fa07eed` |
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2611,9 +2626,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U058 — Localização, superfície, limites, fronteiras e extremos
 
-- [ ] PER-U058-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U058-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U058-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U058-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U058-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U058-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U059 — Áreas de proteção ambiental e parques nacionais
 
@@ -3113,3 +3128,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U056:** artefatos `59d3796afc9f3d0412527aa966e61fd7fe9b2467` confirmados; cópia local integral de O053, 60 questões/300 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 55/99 unidades, 165/297 C/H/Q, 80/132 referências e 2097 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 9/10; E06:14 ainda aguarda U057. Próxima ação PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX; somente U057 permanece analyzing.
 
 - **PER-U057:** artefatos `4190c822003fde0c93d3d6b6f6f0c13dc02f72f1` confirmados; cópia local integral de O054, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E06:14 aceito por completar U055/U056/U057; PER-E06-C/H/Q fecha done. Totais resultantes: 56/99 unidades, 168/297 C/H/Q, 81/132 referências e 2158 questões. Macros 20 done/31 pending/0 analyzing. E06 fecha 10/10. Lote U055–U057 encerrado sem reserva ativa. Próxima ação PER-U058 — Localização, superfície, limites, fronteiras e extremos; campanha aberta.
+
+- **PER-U058:** artefatos `8c348bc615144dcd61145ff12a9bb3bf4b878040` confirmados; cópia local integral de O055, 60 questões/300 opções, C/H/Q e proveniência 5.11 aceitos. Totais resultantes: 57/99 unidades, 171/297 C/H/Q, 81/132 referências e 2218 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 1/13; E07:1 ainda aguarda U059. Próxima ação PER-U059 — Áreas de proteção ambiental e parques nacionais; U059/U060 permanecem analyzing.
