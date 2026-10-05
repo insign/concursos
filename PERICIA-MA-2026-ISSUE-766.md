@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 24 | 0 | 12 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 34 | 0 | 17 |
-| Unidades distintas | 99 | 46 | 1 | 52 |
-| Entregáveis unitários C/H/Q | 297 | 138 | 3 | 156 |
+| Unidades distintas | 99 | 46 | 0 | 53 |
+| Entregáveis unitários C/H/Q | 297 | 138 | 0 | 159 |
 
-Estado confirmado: **52 unidades/visões publicadas (48 locais, 4 por vínculo); 156 C/H/Q aceitos; 78/132 referências literais aceitas; 1909 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **53 unidades/visões publicadas (48 locais, 5 por vínculo); 159 C/H/Q aceitos; 80/132 referências literais aceitas; 1969 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: concluir PER-U054 — Adesão à República e Revolução de 1930**, conforme 5.2/7.5. PER-U054 C/H/Q estão analyzing sob o token `per-u054-20261005-54212605`. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 6/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: PER-U054 sob `per-u054-20261005-54212605`.
+**PER-P01–P05, PER-E04 C/H/Q e PER-E05 C/H/Q done. Próxima ação: PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX**, conforme 5.2/7.5. PER-U054 foi publicada por vínculo canônico, relida e aceita; U055 permanece pending e sem reserva. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 7/10; E07 0/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. Referências compartilhadas/pais são aceitas pelo índice inverso 5.4 somente com todos os recortes concluídos; o fechamento de U047 aceita E08:3 e, por completar seus consumidores, E05:1/E05:1.1/E05:1.1.2. R01–R05 e F01–F05 continuam pending até sua consolidação própria; registros unitários não os encerram por extrapolação. A dúvida “eclética” fica localizada em U028. Reservas operacionais: nenhuma.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -599,7 +599,7 @@ Grupo consumidor: `conhecimentos-gerais/historia-maranhao/`, relativo à raiz de
 | PER-U051 — Estado do Maranhão e Grão-Pará, Bequimão e Companhia | E06: 7 | O047 | `revolta-bequimao-companhias` / `per-u051` / 510 | Parcial local: canônico cobre Bequimão/companhias; complemento próprio cobre formação/organização do Estado. C/H/Q aceitos em 5.11. |
 | PER-U052 — Independência, adesão do Maranhão e Jenipapo | E06: 8, 9, 10 | O048 | `adesao-independencia-jenipapo` / canônico `adesao-independencia-jenipapo` / 520 | Integral por vínculo ao canônico O048; C/H/Q aceitos em 5.11. |
 | PER-U053 — Balaiada: caracterização e causas | E06: 11 | O049 | `balaiada-caracterizacao-causas` / canônico `balaiada-caracterizacao-causas` / 530 | Integral por vínculo ao canônico O049; C/H/Q aceitos em 5.11. |
-| PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / `per-u054` / 540 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U054 — Adesão à República e Revolução de 1930 | E06: 12, 13 | O050 | `adesao-republica-revolucao-1930` / canônico `adesao-republica-revolucao-1930` / 540 | Integral por vínculo ao canônico O050; C/H/Q aceitos em 5.11. |
 | PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX | E06: 14 | O051, O052 | `fatos-politicos-maranhao-sec-xx` / `per-u055` / 550 | Articular cronologia política; greve de 1951 não vira unidade extra. |
 | PER-U056 — Fatos econômicos do Maranhão na segunda metade do século XX | E06: 14 | O053 | `fatos-economicos-maranhao-sec-xx` / `per-u056` / 560 | História econômica; dados atuais da geografia não substituem processos históricos. |
 | PER-U057 — Fatos sociais do Maranhão na segunda metade do século XX | E06: 14 | O054 | `fatos-sociais-maranhao-sec-xx` / `per-u057` / 570 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 78/132 |
-| Unidades distintas da objetiva | 98 | 52 |
+| Referências literais da objetiva | 132/132 | 80/132 |
+| Unidades distintas da objetiva | 98 | 53 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 52 |
-| Entregáveis unitários C/H/Q | 297: 141 pending + 0 analyzing + 156 done | 156 done |
-| Visões consumidoras previstas | 99 | 52 |
+| Total de unidades distintas | 99 | 53 |
+| Entregáveis unitários C/H/Q | 297: 138 pending + 0 analyzing + 159 done | 159 done |
+| Visões consumidoras previstas | 99 | 53 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 46 parciais locais, 4 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 46 parciais locais, 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 48 unidades locais, 4 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 48 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -1830,16 +1830,18 @@ O pedido “Mais 3” foi executado sob o token `per-u051-u053-lote-20261005-f56
 - U053: **integral/canônica** por vínculo a `historia-geografia-estado-maranhao/balaiada-caracterizacao-causas`.
 - HTML de microglossário pré-existente nos Q canônicos de U052/U053 foi registrado como defeito isolado de material compartilhado já aceito, sem reabrir campanhas consumidoras. **Nenhuma reserva permanece ativa.**
 
-#### Reserva ativa em 05/10/2026 — PER-U054
+#### Decisão de execução em 05/10/2026 — PER-U054 concluída
 
-Token exclusivo `per-u054-20261005-54212605`, decorrente do pedido “Avance”. Base: main `542126050905c0fe6f6b7ea705950642b598a2c2`, mestre `252b02e9c993242a2adbdcf93cf00946ba67ebcb`, AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
+O pedido “Avance” foi executado sob o token `per-u054-20261005-54212605`, a partir da main `542126050905c0fe6f6b7ea705950642b598a2c2`, mestre `252b02e9c993242a2adbdcf93cf00946ba67ebcb` e AGENTS `1735e5035e3824be202be5c014f18d6445e235bb`.
 
-- **Tarefa:** PER-U054-C/H/Q — Adesão à República e Revolução de 1930; E06:12–13.
-- **Origem candidata:** O050, canônico `src/content/biblioteca/historia-geografia-estado-maranhao/adesao-republica-revolucao-1930/`; conteúdo blob `0175393a8a6940e0bfd26b0888126af5c317ec74`.
-- **Destino/visão:** `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-gerais/historia-maranhao/adesao-republica-revolucao-1930/vinculo.json`, ordem 540.
-- **Consumidores confirmados do canônico:** PC (#764), SEAP (#765), TCE Analista (#755) e TCE Técnico (#755); a nova visão da Perícia somente será publicada após auditoria integral de C/H/Q/R.
-- **Arquivos sob auditoria:** `conteudo.md`, `cheat-sheet.md`, `questoes.json`, `referencias.md` do canônico; nenhum canônico/consumidor será editado sem defeito próprio comprovado.
-- **Hipótese:** reaproveitamento integral por vínculo, condicionada à coincidência do recorte E06:12–13, profundidade, qualidade pedagógica, proveniência e integridade das questões.
+- **Classificação:** integral/canônica. E06:12–13 coincide com O050 `historia-geografia-estado-maranhao/adesao-republica-revolucao-1930`; nenhuma lacuna própria da Perícia justificou cópia ou overlay.
+- **Destino publicado:** `conhecimentos-gerais/historia-maranhao/adesao-republica-revolucao-1930/vinculo.json`, ordem 540; commit `b097488df4f6067f46d178b94e5f28be1bc87c4e`, vínculo blob `c18e45c99e32df89961c2aec163debad10c5308b`.
+- **Consumidores e fronteiras:** PC (#764), SEAP (#765), TCE Analista e TCE Técnico (#755) permanecem no mesmo canônico. O050 não foi editado; U055 recebe os fatos políticos posteriores da segunda metade do século XX.
+- **Auditoria C/H/Q/R:** conteúdo e cheat sheet constroem/recuperam o contraste 1889 × 1930, datas, agentes, Juntas, federalismo/interventorias e limites de democratização; referências sustentam os marcos sensíveis. Banco com 60 questões/300 opções, `questionSetRevision: 2`, IDs/prompts únicos, cinco opções por item, gabaritos válidos e explicação em todos.
+- **Proveniência Q:** dois itens `previous_exam` foram conferidos contra o caderno e o gabarito definitivo PM/MA 2017 (itens 30 = Errado e 31 = Certo); as adaptações registram a transformação. As outras 58 são autorais identificadas.
+- **Fontes revalidadas:** APEM confirma a Junta de 18/11/1889 e seus seis signatários; FGV confirma a Junta revolucionária de 8/10 a 14/11/1930 e a passagem a Luso Torres; a cronologia de Magalhães de Almeida/Pires Sexto foi revalidada em fonte institucional/biográfica. Matéria histórica; sem corte legislativo/jurisprudencial material.
+- **Defeito isolado herdado:** 14 ocorrências de microglossário HTML pré-existente foram observadas em Q. Conforme a regra de fechamento, isso não reabre os consumidores já aceitos nem justifica cópia divergente.
+- **Inspeção individual PER-F02:** vínculo e C/H/Q/R relidos na main; o commit de artefato contém somente o `vinculo.json`. PER-F02 macro permanece pending. Sem testes/build/check/CI. **Nenhuma reserva permanece ativa.**
 
 #### Pausa em 04/10/2026 — trabalho não aceito preservado
 
@@ -2012,6 +2014,17 @@ Canônico confirmado: C `ad6e40515fec812be2e5962c7f6af43ab276cfb7`; H `a7ef9f68c
 **Publicação confirmada:** [`721674ef`](https://github.com/insign/concursos/commit/721674ef468508f276e8f6f71281ad57b3c2dcbb). Vínculo blob `069d0d59be8b220bfa7356f4efe5397903fab30e`.
 
 Canônico confirmado: C `55e3dbf774a202bad719b16e0c6cd3a279bc2efb`; H `03acfdaa735ec11f105a79ff06d26e09902a6dca`; Q `0f8148610287a98393cd0789af0fb29dda0842c5`; R `cb0b2fde84932c41fd0b605793008a9e77854e0d`.
+
+#### PER-U054 — Adesão à República e Revolução de 1930: integral/canônica — C/H/Q done
+
+- **Decisão, origem e destino:** O050 canônico `historia-geografia-estado-maranhao/adesao-republica-revolucao-1930` cobre integralmente E06:12–13, distinguindo a adesão republicana de 1889 da ruptura de 1930. Vínculos de PC, SEAP, TCE Analista e TCE Técnico foram confirmados. Destino Perícia `conhecimentos-gerais/historia-maranhao/adesao-republica-revolucao-1930/`, ordem 540; sem cópia ou overlay.
+- **C/H e ganho:** o canônico organiza 1889 por notícia → conflito dos libertos → Junta → federalismo e 1930 por crise oligárquica → levante → Junta → interventorias. A comparação evita confundir 15/11 com a instalação local, Magalhães de Almeida com o governador deposto José Pires Sexto e federalismo de 1891 com centralização interventora. A auditoria integral não encontrou lacuna proporcional.
+- **Q/fontes:** `questionSetRevision: 2`, 60 questões/300 opções, duas anteriores verificáveis da PM/MA 2017 e 58 autorais. Caderno/gabarito definitivos confirmam os itens-base 30 = Errado e 31 = Certo. APEM/FGV e demais referências sustentam as cronologias. Quatorze ocorrências de microglossário HTML pré-existente em Q foram registradas como defeito isolado sem reabrir consumidores.
+- **Inspeção individual PER-F02:** vínculo e C/H/Q/R canônicos relidos; commit contém somente `vinculo.json`. PER-F02 macro permanece pending. Matéria histórica; sem teste/build/check/CI.
+
+**Publicação confirmada:** [`b097488d`](https://github.com/insign/concursos/commit/b097488df4f6067f46d178b94e5f28be1bc87c4e). Vínculo blob `c18e45c99e32df89961c2aec163debad10c5308b`.
+
+Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438b92e0729a58a79341111818575d06b2`; Q `c7380191d573d47803f783cace9e229f45ce738a`; R `fb0b5a4d98df538f2727549c1913157fe6dfff65`.
 
 ## 6. Guia obrigatório de qualidade pedagógica
 
@@ -2504,9 +2517,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U054 — Adesão à República e Revolução de 1930
 
-- [ ] PER-U054-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U054-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U054-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U054-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U054-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U054-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX
 
@@ -3022,3 +3035,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U052:** vínculo `904a865939bf8e3fe4a83f8b929890b10f2a7ce0` confirmado; canônico O048 auditado em C/H/Q/R, 62 questões/310 opções. Totais resultantes: 51/99 unidades, 153/297 C/H/Q, 77/132 referências, 1849 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 5/10. Próxima ação PER-U053 — Balaiada: caracterização e causas; somente U053 permanece analyzing.
 
 - **PER-U053:** vínculo `721674ef468508f276e8f6f71281ad57b3c2dcbb` confirmado; canônico O049 auditado em C/H/Q/R, 60 questões/300 opções. Totais resultantes: 52/99 unidades, 156/297 C/H/Q, 78/132 referências, 1909 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 6/10. Lote U051–U053 encerrado sem reserva ativa. Próxima ação PER-U054 — Adesão à República e Revolução de 1930; campanha aberta.
+
+- **PER-U054:** vínculo `b097488df4f6067f46d178b94e5f28be1bc87c4e` confirmado; canônico O050 auditado em C/H/Q/R, 60 questões/300 opções e dois anteriores verificáveis. Totais resultantes: 53/99 unidades, 159/297 C/H/Q, 80/132 referências, 1969 questões. Macros 17 done/34 pending/0 analyzing. E06 passa a 7/10. PER-U054 encerrada sem reserva ativa. Próxima ação PER-U055 — Fatos políticos do Maranhão na segunda metade do século XX; campanha aberta.
