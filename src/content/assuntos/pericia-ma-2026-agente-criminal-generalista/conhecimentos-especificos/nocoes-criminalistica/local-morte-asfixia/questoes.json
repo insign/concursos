@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u078-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um local de morte com suspeita de asfixia, a abordagem criminalística mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "diagnosticar a modalidade apenas pela aparência externa do cadáver."
+        },
+        {
+          "id": "B",
+          "text": "considerar o objeto mais chamativo como causa suficiente."
+        },
+        {
+          "id": "C",
+          "text": "integrar corpo, ambiente, objetos, posição, alterações e exames posteriores antes de concluir."
+        },
+        {
+          "id": "D",
+          "text": "ignorar o local e aguardar exclusivamente a necropsia."
+        },
+        {
+          "id": "E",
+          "text": "determinar autoria antes da coleta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O local fornece contexto e relações, mas o diagnóstico e a dinâmica exigem integração com corpo e exames."
+    },
+    {
+      "id": "per-u078-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um cadáver está parcialmente suspenso, com os pés tocando o piso. Esse achado",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui enforcamento."
+        },
+        {
+          "id": "B",
+          "text": "não exclui enforcamento, pois a suspensão pode ser incompleta."
+        },
+        {
+          "id": "C",
+          "text": "prova homicídio."
+        },
+        {
+          "id": "D",
+          "text": "prova que o laço foi colocado após a morte."
+        },
+        {
+          "id": "E",
+          "text": "dispensa exame do ponto de fixação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No enforcamento, a força constritiva pode decorrer do peso corporal mesmo sem suspensão total; a classificação detalhada fica para U080."
+    },
+    {
+      "id": "per-u078-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma suspeita de enforcamento, antes de remover o corpo é particularmente importante documentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "laço, nó, ponto de fixação, apoios, geometria e relação do corpo com as superfícies."
+        },
+        {
+          "id": "B",
+          "text": "apenas a cor do laço."
+        },
+        {
+          "id": "C",
+          "text": "somente o tipo de material do piso."
+        },
+        {
+          "id": "D",
+          "text": "apenas a posição das mãos."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a presença de bilhete."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A configuração do sistema de suspensão é informação de cena e pode ser perdida com a remoção."
+    },
+    {
+      "id": "per-u078-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o nó de um laço encontrado em possível enforcamento, a conduta conceitualmente mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "desfazê-lo antes das fotografias."
+        },
+        {
+          "id": "B",
+          "text": "cortá-lo exatamente sobre o nó para facilitar a remoção."
+        },
+        {
+          "id": "C",
+          "text": "reconstruí-lo depois com base na memória."
+        },
+        {
+          "id": "D",
+          "text": "preservar e documentar sua configuração, registrando qualquer intervenção necessária."
+        },
+        {
+          "id": "E",
+          "text": "considerá-lo irrelevante se houver sulco cervical."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O nó pode ter valor configuracional e material; alterações irreversíveis devem ser evitadas antes do registro."
+    },
+    {
+      "id": "per-u078-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de um corpo suspenso por laço permite concluir, isoladamente, que a maneira da morte foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "homicídio."
+        },
+        {
+          "id": "B",
+          "text": "acidente."
+        },
+        {
+          "id": "C",
+          "text": "suicídio."
+        },
+        {
+          "id": "D",
+          "text": "indeterminada obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma das anteriores, pois a maneira depende da integração de cena, corpo e investigação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A aparência do mecanismo não determina automaticamente a maneira médico-legal."
+    },
+    {
+      "id": "per-u078-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Marcas cervicais e sinais de possível luta em uma cena",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam homicídio."
+        },
+        {
+          "id": "B",
+          "text": "provam estrangulamento por laço."
+        },
+        {
+          "id": "C",
+          "text": "devem ser integrados com demais vestígios e exame médico-legal, sem conclusão automática de modalidade ou autoria."
+        },
+        {
+          "id": "D",
+          "text": "eliminam a possibilidade de intervenção de socorro."
+        },
+        {
+          "id": "E",
+          "text": "dispensam toxicologia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sinais isolados podem apoiar hipóteses, mas a interpretação depende do conjunto."
+    },
+    {
+      "id": "per-u078-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um travesseiro é encontrado junto à face do cadáver. Esse achado",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova sufocação."
+        },
+        {
+          "id": "B",
+          "text": "é um possível vestígio cuja relação com face, materiais, posição e demais dados precisa ser examinada."
+        },
+        {
+          "id": "C",
+          "text": "prova homicídio."
+        },
+        {
+          "id": "D",
+          "text": "permite dispensar a necropsia."
+        },
+        {
+          "id": "E",
+          "text": "deve ser pressionado contra a face para testar compatibilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Proximidade de objeto não equivale a nexo causal."
+    },
+    {
+      "id": "per-u078-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um cadáver é recuperado de um rio. A conclusão correta é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a causa da morte é necessariamente afogamento."
+        },
+        {
+          "id": "B",
+          "text": "qualquer trauma anterior é irrelevante."
+        },
+        {
+          "id": "C",
+          "text": "a água demonstra que a vítima estava viva ao entrar nela."
+        },
+        {
+          "id": "D",
+          "text": "a imersão é uma circunstância; o afogamento precisa ser sustentado por investigação, autópsia e exames."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de espuma exclui afogamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Corpos recuperados da água podem ter morrido por causas diversas; o diagnóstico é integrado."
+    },
+    {
+      "id": "per-u078-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na investigação de uma morte aquática, é relevante registrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "ponto de recuperação, condições da água, correnteza, profundidade, roupas, equipamentos, resgate e testemunhos."
+        },
+        {
+          "id": "B",
+          "text": "apenas o sexo da vítima."
+        },
+        {
+          "id": "C",
+          "text": "somente a temperatura corporal."
+        },
+        {
+          "id": "D",
+          "text": "apenas o local da necropsia."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a presença de espuma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O contexto ambiental e a recuperação do corpo influenciam a interpretação."
+    },
+    {
+      "id": "per-u078-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante a retirada de um corpo da água, roupas e materiais aderidos podem se deslocar. A consequência pericial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar todo vestígio inválido."
+        },
+        {
+          "id": "B",
+          "text": "presumir que a posição após a retirada era a original."
+        },
+        {
+          "id": "C",
+          "text": "documentar a recuperação e as mudanças observadas para limitar inferências sobre a condição original."
+        },
+        {
+          "id": "D",
+          "text": "descartar as roupas."
+        },
+        {
+          "id": "E",
+          "text": "dispensar fotografias."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A recuperação pode alterar vestígios; essas alterações devem ser incorporadas à reconstrução."
+    },
+    {
+      "id": "per-u078-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de espuma na boca ou narinas de um corpo recuperado da água",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova afogamento em qualquer contexto."
+        },
+        {
+          "id": "B",
+          "text": "prova que a morte ocorreu naquele corpo d'água."
+        },
+        {
+          "id": "C",
+          "text": "permite excluir trauma."
+        },
+        {
+          "id": "D",
+          "text": "define a maneira da morte."
+        },
+        {
+          "id": "E",
+          "text": "pode ser achado de apoio, mas não deve ser tratado como diagnóstico absoluto isolado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Achados de afogamento são variáveis e devem ser interpretados com circunstâncias e demais exames."
+    },
+    {
+      "id": "per-u078-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de espuma em um cadáver retirado da água",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui afogamento."
+        },
+        {
+          "id": "B",
+          "text": "não exclui afogamento por si só."
+        },
+        {
+          "id": "C",
+          "text": "prova decomposição avançada."
+        },
+        {
+          "id": "D",
+          "text": "prova morte anterior à imersão."
+        },
+        {
+          "id": "E",
+          "text": "define a causa como natural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nenhum sinal externo isolado possui sensibilidade absoluta para todos os casos."
+    },
+    {
+      "id": "per-u078-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um corpo é encontrado sob grande quantidade de grãos em um silo. Para a cena, é correto",
+      "options": [
+        {
+          "id": "A",
+          "text": "concluir imediatamente soterramento vital."
+        },
+        {
+          "id": "B",
+          "text": "retirar todo o material antes de documentar."
+        },
+        {
+          "id": "C",
+          "text": "documentar material, posição, profundidade, mecanismo de fluxo/desabamento e resgate, deixando vitalidade para exame médico-legal."
+        },
+        {
+          "id": "D",
+          "text": "considerar a quantidade de grãos como prova de autoria."
+        },
+        {
+          "id": "E",
+          "text": "ignorar vias aéreas porque pertencem apenas à Criminalística."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O material ambiental sustenta a hipótese, mas a demonstração de aspiração vital exige exame médico-legal."
+    },
+    {
+      "id": "per-u078-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao encontrar um cadáver em espaço confinado com suspeita de atmosfera pobre em oxigênio, a prioridade operacional é",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrar rapidamente para preservar a posição."
+        },
+        {
+          "id": "B",
+          "text": "usar qualquer máscara filtrante e entrar."
+        },
+        {
+          "id": "C",
+          "text": "ventilar sem registrar e depois iniciar a perícia."
+        },
+        {
+          "id": "D",
+          "text": "garantir segurança e avaliação atmosférica apropriada antes de entrada não protegida."
+        },
+        {
+          "id": "E",
+          "text": "presumir que gases inertes sempre serão percebidos pelo odor."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Atmosferas deficientes em oxigênio podem ser fatais e nem sempre oferecem sinais sensoriais confiáveis."
+    },
+    {
+      "id": "per-u078-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre respiradores purificadores de ar em atmosfera deficiente em oxigênio, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não fornecem oxigênio e não são solução para entrada em atmosfera deficiente."
+        },
+        {
+          "id": "B",
+          "text": "criam oxigênio por filtração."
+        },
+        {
+          "id": "C",
+          "text": "funcionam independentemente da concentração de oxigênio."
+        },
+        {
+          "id": "D",
+          "text": "são equivalentes a equipamento autônomo de respiração."
+        },
+        {
+          "id": "E",
+          "text": "eliminam a necessidade de medir a atmosfera."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Equipamentos filtrantes removem contaminantes, mas não suprem oxigênio ausente."
+    },
+    {
+      "id": "per-u078-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um cilindro de gás inerte é encontrado em ambiente fechado com cadáver. Isso",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova asfixia pelo gás."
+        },
+        {
+          "id": "B",
+          "text": "prova suicídio."
+        },
+        {
+          "id": "C",
+          "text": "gera hipótese que depende de funcionamento, vazamento, ambiente, medições e correlação médico-legal."
+        },
+        {
+          "id": "D",
+          "text": "torna desnecessário examinar o corpo."
+        },
+        {
+          "id": "E",
+          "text": "permite identificar concentração passada apenas pela presença do cilindro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fonte potencial é vestígio; causa e dinâmica exigem confirmação."
+    },
+    {
+      "id": "per-u078-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ventilar um ambiente suspeito antes de medições pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "não ter qualquer efeito pericial."
+        },
+        {
+          "id": "B",
+          "text": "alterar a composição atmosférica e deve ser registrado se necessário por segurança."
+        },
+        {
+          "id": "C",
+          "text": "provar que não havia risco."
+        },
+        {
+          "id": "D",
+          "text": "dispensar documentação do equipamento presente."
+        },
+        {
+          "id": "E",
+          "text": "ser proibido mesmo diante de risco à vida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Segurança prevalece, mas a intervenção pode alterar o vestígio ambiental e precisa ser documentada."
+    },
+    {
+      "id": "per-u078-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após socorro, o laço foi cortado e o corpo colocado no chão. A perícia deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "recolocar o corpo e refazer o laço como se nada tivesse ocorrido."
+        },
+        {
+          "id": "B",
+          "text": "ignorar a intervenção."
+        },
+        {
+          "id": "C",
+          "text": "considerar a cena imprestável."
+        },
+        {
+          "id": "D",
+          "text": "atribuir qualquer marca nova ao evento original."
+        },
+        {
+          "id": "E",
+          "text": "documentar a alteração, buscar registros anteriores e limitar inferências dependentes da configuração original."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Intervenção de salvamento altera a cena; sua existência deve integrar a reconstrução."
+    },
+    {
+      "id": "per-u078-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor relação entre local, necropsia e laboratório em suspeita de asfixia é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o local testa plausibilidade da configuração, a necropsia examina achados corporais e exames ambientais/laboratoriais complementam hipóteses."
+        },
+        {
+          "id": "B",
+          "text": "o local sozinho define a causa."
+        },
+        {
+          "id": "C",
+          "text": "a necropsia sozinha define a dinâmica espacial."
+        },
+        {
+          "id": "D",
+          "text": "o laboratório sempre define autoria."
+        },
+        {
+          "id": "E",
+          "text": "cada bloco deve ser interpretado isoladamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três fontes respondem perguntas diferentes e complementares."
+    },
+    {
+      "id": "per-u078-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fronteira correta entre PER-U078 e PER-U080 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "U078 ensina toda a fisiopatologia e U080 apenas fotografia."
+        },
+        {
+          "id": "B",
+          "text": "U078 trata apenas de cadeia de custódia."
+        },
+        {
+          "id": "C",
+          "text": "U078 foca a cena e seus limites; U080 aprofunda mecanismos, modalidades e sinais médico-legais das asfixias."
+        },
+        {
+          "id": "D",
+          "text": "U080 não aborda enforcamento ou afogamento."
+        },
+        {
+          "id": "E",
+          "text": "as duas unidades devem repetir o mesmo conteúdo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A separação evita duplicação e mantém a unidade criminalística centrada no local."
+    }
+  ]
+}
