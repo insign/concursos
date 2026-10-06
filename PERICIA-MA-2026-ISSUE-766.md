@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 18 | 0 | 18 |
+| Macros editoriais C/H/Q | 36 | 15 | 0 | 21 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 28 | 0 | 23 |
-| Unidades distintas | 99 | 23 | 0 | 76 |
-| Entregáveis unitários C/H/Q | 297 | 69 | 0 | 228 |
+| Total de macros individualizadas | 51 | 25 | 0 | 26 |
+| Unidades distintas | 99 | 22 | 0 | 77 |
+| Entregáveis unitários C/H/Q | 297 | 66 | 0 | 231 |
 
-Estado confirmado: **76 unidades/visões publicadas (70 locais, 6 por vínculo); 228 C/H/Q aceitos; 104/132 referências literais aceitas; 2934 questões acumuladas**. PER-U077 está concluída, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **77 unidades/visões publicadas (71 locais, 6 por vínculo); 231 C/H/Q aceitos; 106/132 referências literais aceitas; 2954 questões acumuladas**. PER-U078 está concluída, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U077 — Local de morte por instrumentos mecânicos está done; próxima ação: PER-U078 — Local de morte por asfixia**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 10/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U078 — Local de morte por asfixia está done; próxima ação: PER-U079 — Traumatologia e instrumentos de ação mecânica**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -637,7 +637,7 @@ Grupo consumidor: `conhecimentos-especificos/nocoes-criminalistica/`, relativo �
 | PER-U075 — Locais de morte e morte violenta | E08: 9, 9.1 | O067 | `locais-morte-morte-violenta` / `per-u075` / 750 | Parcial/local com O067 e apoio O069: arquitetura comum de local de morte, morte violenta, corpo/ambiente, documentação, intervenções e limites; mecanismos específicos ficam U076–U078 e Tanatologia em U081. E08:9.1 aceito; pai E08:9 aguarda U076–U078. C/H/Q aceitos em 5.11. |
 | PER-U076 — Local de morte por arma de fogo | E08: 9, 9.2 | O068 | `local-morte-arma-fogo` / `per-u076` / 760 | Parcial/local com O068 restrito a vocabulário mínimo, resíduos, distância e limites inferenciais; cena reorganizada por arma/componentes → impactos/trajectória → resíduos → alterações → integração local/necropsia/laboratório. Lesões e balística lesional ficam em U079. E08:9.2 aceito; E08:9 aguarda U077/U078. C/H/Q aceitos em 5.11. |
 | PER-U077 — Local de morte por instrumentos mecânicos | E08: 9, 9.3 | O068 | `local-morte-instrumentos-mecanicos` / `per-u077` / 770 | Parcial/local com O068 restrito à ponte de mecanismos, variabilidade instrumento-lesão e limites inferenciais; o recorte criminalístico foi completado para objeto/corpo/manchas/marcas/roupas, preservação, alterações e hipóteses concorrentes. A classificação detalhada das lesões permanece em U079. E08:9.3 aceito; E08:9 aguarda U078. C/H/Q aceitos em 5.11. |
-| PER-U078 — Local de morte por asfixia | E08: 9, 9.4 | O067 | `local-morte-asfixia` / `per-u078` / 780 | Local, sinais e limites; não duplicar mecanismos de U080. Pontes: PER-U075, PER-U080. |
+| PER-U078 — Local de morte por asfixia | E08: 9, 9.4 | O067 | `local-morte-asfixia` / `per-u078` / 780 | Parcial/local: O067 fornece arquitetura de corpo-local, registro antes da movimentação e cena alterada; o recorte foi completado para suspensão/laço, constrição/obstrução, morte aquática, soterramento, ambientes confinados/gases, segurança e alterações de socorro. Mecanismos e semiologia detalhada permanecem em U080. E08:9 e 9.4 aceitos; PER-E08 C/H/Q fecha done. C/H/Q aceitos em 5.11. |
 
 #### 5.2.9 Noções de Medicina Legal
 
@@ -2460,6 +2460,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | \`fe2227835aa273ef9c24135b0f746106188d0c1c\` |
 | R | \`26dec5f1e5a5ad16d4ee1eed085b60d4578d22fe\` |
 
+
+#### PER-U078 — Local de morte por asfixia: parcial/local — C/H/Q done
+
+- **Recorte/origem/destino:** E08:9/9.4. O067 foi lido integralmente como origem física somente leitura; fornece arquitetura corpo-local, documentação antes de mover, roupas, intervenções e limites de cena alterada, mas não cobre asfixia integralmente. Produção parcial/local em \`conhecimentos-especificos/nocoes-criminalistica/local-morte-asfixia/\`, identidade \`per-u078\`, ordem 780, sem \`vinculo.json\`. U075 foi usada como pré-requisito; U080 permanece responsável por mecanismos e semiologia. E08:9.4 e o pai E08:9 são aceitos agora; PER-E08 C/H/Q fecha done (11/11).
+- **Problema/intervenção/ganho:** copiar O067 produziria apenas uma aula genérica de local e não cobriria configurações específicas. U078 foi reorganizada por hipótese de cena: suspensão/laço e ponto de fixação → constrição/obstrução → morte aquática e recuperação → soterramento → espaços confinados/gases e segurança → alterações do socorro → integração local/necropsia/laboratório. O ganho é ensinar o que preservar e quais inferências evitar sem duplicar enforcamento, estrangulamento, esganadura, afogamento e demais mecanismos de U080.
+- **Tamanho/microglossário:** destino novo, portanto sem crescimento artificial a preservar. C final: 15.085 caracteres brutos, aproximadamente 14.009 visíveis e 2.084 palavras; H: 2.813 brutos, aproximadamente 2.454 visíveis e 347 palavras. C tem três \`abbr\`; H, um. Siglas institucionais renderizadas foram expandidas no ponto de uso. Sem estimativa inventada de tempo.
+- **Fontes/cortes:** S05; <abbr title="Código de Processo Penal">CPP</abbr> arts. 164/169; guias do <abbr title="National Institute of Justice">NIJ</abbr> sobre investigação de morte/cena e mortes aquáticas; revisão prática e revisão sistemática contemporânea de afogamento; revisões de enforcamento/vitalidade; e orientações do <abbr title="National Institute for Occupational Safety and Health">NIOSH</abbr> sobre espaços confinados e respiradores. Fontes estrangeiras servem como apoio metodológico, não como norma brasileira. Corte legislativo 17/07/2026; consulta técnico-material 06/10/2026.
+- **Q/inspeção:** \`questionSetRevision: 1\`, 20 questões autorais/100 opções. Nenhuma questão anterior foi forçada: as anteriores localizadas eram mais adequadas à semiologia de U080. IDs únicos, cinco opções por questão, chaves válidas e explicações suficientes; nenhuma resolução separada necessária.
+- **Publicação/inspeção:** C/H/Q/R relidos integralmente no commit \`17e53eb79fa3e46f2badb133d58632a1d13433e0\`; frontmatter, identidade/ordem, fronteira U080, tags \`abbr\`, IDs, opções, gabaritos, explicações e referências conferidos. Diff adiciona somente os quatro arquivos da unidade. Sem testes/build/check/CI.
+
+| Arquivo | Blob |
+|---|---|
+| C | \`29ccc32b5f1b4f7dc642b08bc8f4b407ec74869f\` |
+| H | \`56c2590cb5637094120e1f1e2ccba0e0649e9a8a\` |
+| Q | \`cb141bbbb3bbd3d14d418923f87da218b22d96d1\` |
+| R | \`f8d2fc62741915a59ea5f6751bc9aa417b20e7f8\` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3095,9 +3112,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U078 — Local de morte por asfixia
 
-- [ ] PER-U078-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U078-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U078-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U078-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U078-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U078-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U079 — Traumatologia e instrumentos de ação mecânica
 
@@ -3515,3 +3532,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U075:** artefato `d9e776417bf5509fc2b6c8b5415a9e584f3300bd` confirmado; parcial/local com O067 + apoio O069, 21 questões/105 opções (20 autorais + `u154-p02` anterior preservada), C/H/Q/R aceitos. E08:9.1 aceito; E08:9 permanece aberto até U076–U078. Totais: 74/99 unidades, 222/297 C/H/Q, 102/132 referências e 2892 questões. E08 passa a 8/11. Lote U073–U075 concluído sem analyzing. Próxima ação PER-U076 — Local de morte por arma de fogo.
 - **PER-U076:** snapshot final `5783fdca64c99455e10a19d44b33d02a31169dda` confirmado; parcial/local com O068 restrito à ponte técnico-médica e complementação criminalística por padrões/guias técnicos revalidados, 21 questões/105 opções (20 autorais + 1 anterior <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Superintendência de Polícia Técnico-Científica de Rondônia">POLITEC/RO</abbr> 2022 verificada), C/H/Q/R aceitos. E08:9.2 aceito; E08:9 permanece aberto até U077/U078. Totais: 75/99 unidades, 225/297 C/H/Q, 103/132 referências e 2913 questões. E08 passa a 9/11. Próxima ação PER-U077 — Local de morte por instrumentos mecânicos.
 - **PER-U077:** artefato `850afd17a057969c7b824f57a68881115d235375` confirmado; parcial/local com O068 restrito à ponte de mecanismos e complementação criminalística por preservação de cena, objetos, materiais aderidos, marcas, roupas, sangue e hipóteses concorrentes; 21 questões/105 opções (20 autorais + 1 anterior <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Civil de Pernambuco">PC-PE</abbr> 2016 verificada), C/H/Q/R aceitos. E08:9.3 aceito; E08:9 permanece aberto até U078. Totais: 76/99 unidades, 228/297 C/H/Q, 104/132 referências e 2934 questões. Macros 23 done/28 pending/0 analyzing. E08 passa a 10/11. Próxima ação PER-U078 — Local de morte por asfixia.
+- **PER-U078:** artefato `17e53eb79fa3e46f2badb133d58632a1d13433e0` confirmado; parcial/local com O067 para arquitetura de local e complementação específica de suspensão, mortes aquáticas, soterramento, ambientes confinados/gases e alterações de socorro; 20 questões/100 opções autorais, C/H/Q/R aceitos. E08:9.4 e o pai E08:9 aceitos; PER-E08 C/H/Q fecha done. Totais: 77/99 unidades, 231/297 C/H/Q, 106/132 referências e 2954 questões. Macros 26 done/25 pending/0 analyzing. E08 fecha 11/11. Próxima ação PER-U079 — Traumatologia e instrumentos de ação mecânica.
