@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 18 | 0 | 18 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 28 | 0 | 23 |
-| Unidades distintas | 99 | 29 | 1 | 69 |
-| Entregáveis unitários C/H/Q | 297 | 87 | 3 | 207 |
+| Unidades distintas | 99 | 29 | 0 | 70 |
+| Entregáveis unitários C/H/Q | 297 | 87 | 0 | 210 |
 
-Estado confirmado: **69 unidades/visões publicadas (63 locais, 6 por vínculo); 207 C/H/Q aceitos; 97/132 referências literais aceitas; 2783 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **70 unidades/visões publicadas (64 locais, 6 por vínculo); 210 C/H/Q aceitos; 98/132 referências literais aceitas; 2807 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U071 — Criminalística: definição, histórico e doutrina está analyzing**, conforme 5.2/7.5, sob a reserva `per-u071-20261006-0900-6d2afc73`. PER-U070 permanece aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U071 — Criminalística: definição, histórico e doutrina está done; próxima ação: PER-U072 — Locais de crime: classificação, isolamento e preservação**, conforme 5.2/7.5. PER-U071 foi publicada, relida integralmente na `main` e aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 4/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -630,7 +630,7 @@ Grupo consumidor: `conhecimentos-especificos/nocoes-criminalistica/`, relativo �
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U071 — Criminalística: definição, histórico e doutrina | E08: 1 | S05; sem candidato selecionado | `criminalistica-fundamentos-historico-doutrina` / `per-u071` / 710 | Não substituir criminalística por criminologia ou fundamentos médicos. |
+| PER-U071 — Criminalística: definição, histórico e doutrina | E08: 1 | S05; busca negativa de origem compatível | `criminalistica-fundamentos-historico-doutrina` / `per-u071` / 710 | Nova/local; definição, história, Gross/Locard e doutrina clássica com ressalvas epistemológicas; não importar Criminologia/Medicina Legal; C/H/Q aceitos em 5.11. |
 | PER-U072 — Locais de crime: classificação, isolamento e preservação | E08: 2 | O067 | `locais-crime-classificacao-isolamento-preservacao` / `per-u072` / 720 | Candidato médico é restrito; cobrir função técnico-operacional do Generalista. Pontes: PER-U047. |
 | PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio | E08: 7 | O067 | `levantamentos-locais-pessoa-patrimonio` / `per-u073` / 730 | Finalidades e documentação; incluir patrimônio, sem ensinar execução profissional de perícia. Pontes: PER-U072. |
 | PER-U074 — Vestígios de interesse forense e classificações | E08: 8 | S05; sem candidato selecionado | `vestigios-forenses-classificacoes` / `per-u074` / 740 | Distinguir observação, inferência e limites. Pontes: PER-U047, PER-U072. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 97/132 |
-| Unidades distintas da objetiva | 98 | 69 |
+| Referências literais da objetiva | 132/132 | 98/132 |
+| Unidades distintas da objetiva | 98 | 70 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 69 |
-| Entregáveis unitários C/H/Q | 297: 90 pending + 0 analyzing + 207 done | 207 done |
-| Visões consumidoras previstas | 99 | 69 |
+| Total de unidades distintas | 99 | 70 |
+| Entregáveis unitários C/H/Q | 297: 87 pending + 0 analyzing + 210 done | 210 done |
+| Visões consumidoras previstas | 99 | 70 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
 | Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 10 integrais locais e 6 integrais por vínculo |
-| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
+| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 3 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 63 unidades locais, 6 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 64 unidades locais, 6 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2341,6 +2341,26 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | canônico Q | `bbc07624e16f970f4bb4496ada63b51814f19589` |
 | canônico R | `47d458f0a314ed8d910133de4843bd93c488366d` |
 
+#### PER-U071 — Criminalística: definição, histórico e doutrina: nova/local — C/H/Q done
+
+- **Decisão:** buscas dirigidas na biblioteca e nos pacotes PC-MA/SEAP-MA não localizaram origem física ou canônica compatível com E08:1. Os resultados encontrados pertenciam a Criminologia, Medicina Legal ou unidades vizinhas de prova/cadeia de custódia e não foram tratados como doadores por semelhança. U071 foi produzida como nova/local, identidade `per-u071`, ordem 710.
+- **Estrutura PER-P05:** foram materializados `conhecimentos-especificos/grupo.json` (ordem 2) e `conhecimentos-especificos/nocoes-criminalistica/grupo.json` (ordem 1) junto do primeiro pacote completo desse ramo, sem diretórios vazios prévios.
+- **C/H:** C tem 1.880 palavras visíveis e organiza o assunto por definição → vestígio/inferência → Gross/Locard → cinco princípios clássicos → três postulados brasileiros → diferença entre doutrina e regra legal. A ressalva epistemológica é explícita: fórmulas clássicas de invariância, meio e tempo são reconhecidas para a prova, mas não viram garantias de infalibilidade científica. H recupera o mapa em 342 palavras sem introduzir fundamento novo.
+- **Fontes:** a sistematização de Hans Gross em 1893 foi sustentada por historiografia acadêmica; o princípio de troca de Locard foi confrontado com fontes institucionais contemporâneas; a doutrina brasileira e sua revisão crítica foram sustentadas por literatura nacional, inclusive revisão acadêmica de 2024. O recorte não ensina Criminologia, Medicina Legal, local de crime ou classificações detalhadas de vestígio como capítulos extras.
+- **Q:** `questionSetRevision: 1`, 24 questões/120 opções, 21 autorais + 3 anteriores adaptadas, zero HTML/duplicidades/gabaritos inválidos. As adaptações `per-u071-p01`–`p03` vêm das questões 34–36 da prova <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>/Polícia Civil da Paraíba 2009 para Perito Oficial Criminal; caderno e gabarito definitivo oficiais confirmam **34=A, 35=C, 36=E**.
+- **Inspeção unitária:** dois descritores de grupo e C/H/Q/R relidos na `main`; o commit contém somente os seis arquivos próprios de implantação/U071. Sem `vinculo.json` e sem `resolucoes/`. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`d7df9e08`](https://github.com/insign/concursos/commit/d7df9e08d1676ad45eaa83dd43dab8594eadbf40).
+
+| Arquivo | Blob |
+|---|---|
+| grupo Conhecimentos específicos | `061000f3c1a16077851f8e0456bbc5b2dcca3c0c` |
+| grupo Noções de Criminalística | `ce7169f037a5ca36e1e77cf7699808b3092d6019` |
+| C | `f9afbb62fb300ee972b6bdb5242a70db5581c04b` |
+| H | `213558802a37f64bfa7aa6372e1669365b846e08` |
+| Q | `6cf487fa50792c8c7fce4ce5007cf0dc62c7563f` |
+| R | `66300d6187446350f401bb200b54d8a47d974906` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2934,9 +2954,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U071 — Criminalística: definição, histórico e doutrina
 
-- [ ] PER-U071-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U071-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U071-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U071-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U071-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U071-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U072 — Locais de crime: classificação, isolamento e preservação
 
@@ -3384,3 +3404,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U069:** artefato `3177500adb0b4542c5803a33242b7348157e6e09` confirmado; cópia local integral de O065, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E07:13–14 aceitos. Totais resultantes: 68/99 unidades, 204/297 C/H/Q, 96/132 referências e 2721 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 12/13. Próxima ação PER-U070 — Cultura maranhense.
 
 - **PER-U070:** vínculo `0c62b32fa1f7e8cb03e1abb4d2031f5538dc244d` confirmado; canônico O066 auditado em C/H/Q/R, 62 questões/310 opções, 60 autorais + 2 anteriores. E07:15 aceito e PER-E07-C/H/Q fecha done. Totais resultantes: 69/99 unidades, 207/297 C/H/Q, 97/132 referências e 2783 questões. Macros 23 done/28 pending/0 analyzing. E07 fecha 13/13. Próxima ação PER-U071 — Criminalística: definição, histórico e doutrina.
+
+- **PER-U071:** artefato `d7df9e08d1676ad45eaa83dd43dab8594eadbf40` confirmado; unidade nova/local com grupos de Conhecimentos Específicos/Noções de Criminalística materializados, 24 questões/120 opções, C/H/Q/R aceitos. E08:1 aceito. Totais resultantes: 70/99 unidades, 210/297 C/H/Q, 98/132 referências e 2807 questões. Macros 23 done/28 pending/0 analyzing. E08 passa a 4/11. Lote solicitado de três unidades U069–U071 concluído. Próxima ação PER-U072 — Locais de crime: classificação, isolamento e preservação.
