@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u072-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte criminalístico, local de crime deve ser compreendido principalmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o ponto exato em que ocorreu a conduta principal."
+        },
+        {
+          "id": "B",
+          "text": "o conjunto de espaços ligados ao fato e aos vestígios potencialmente relevantes para seu esclarecimento."
+        },
+        {
+          "id": "C",
+          "text": "qualquer área indicada por uma testemunha, ainda que sem relação material possível com o fato."
+        },
+        {
+          "id": "D",
+          "text": "somente o local em que a polícia efetuou a primeira prisão."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente o ambiente em que esteja o corpo de delito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O local relevante pode abranger núcleo, adjacências e outros espaços materialmente relacionados ao fato; não se limita ao ponto principal."
+    },
+    {
+      "id": "per-u072-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à relação espacial com o fato, o local imediato é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um espaço necessariamente distante e descontínuo."
+        },
+        {
+          "id": "B",
+          "text": "a área reservada exclusivamente ao armazenamento posterior dos vestígios."
+        },
+        {
+          "id": "C",
+          "text": "o núcleo material mais diretamente ligado ao fato e seu entorno próximo."
+        },
+        {
+          "id": "D",
+          "text": "qualquer ambiente externo ao imóvel."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo de todo local relacionado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O imediato concentra o núcleo material do fato e seu entorno próximo; sua extensão concreta depende da dinâmica."
+    },
+    {
+      "id": "per-u072-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Local mediato é, em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a área adjacente e geograficamente ligada ao local imediato, potencialmente relevante para vestígios e acessos."
+        },
+        {
+          "id": "B",
+          "text": "qualquer lugar localizado em outro município."
+        },
+        {
+          "id": "C",
+          "text": "apenas a área interna do imóvel."
+        },
+        {
+          "id": "D",
+          "text": "o local destinado ao processamento laboratorial."
+        },
+        {
+          "id": "E",
+          "text": "um espaço que não pode conter vestígios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O mediato corresponde às adjacências do imediato e mantém continuidade geográfica com ele."
+    },
+    {
+      "id": "per-u072-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um veículo ligado ao fato, encontrado em outro bairro e sem continuidade geográfica com a área principal, pode ser classificado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "local imediato, obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "local mediato, porque todo veículo é adjacente ao fato."
+        },
+        {
+          "id": "C",
+          "text": "local interno."
+        },
+        {
+          "id": "D",
+          "text": "local relacionado."
+        },
+        {
+          "id": "E",
+          "text": "local sem interesse pericial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O local relacionado pode estar fisicamente separado dos locais imediato e mediato, desde que guarde relação com o mesmo fato."
+    },
+    {
+      "id": "per-u072-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A classificação entre local interno e local externo",
+      "options": [
+        {
+          "id": "A",
+          "text": "é uma classificação operacional que considera as características do ambiente."
+        },
+        {
+          "id": "B",
+          "text": "substitui a classificação entre imediato, mediato e relacionado."
+        },
+        {
+          "id": "C",
+          "text": "é literalmente criada pelo artigo 158-B do Código de Processo Penal."
+        },
+        {
+          "id": "D",
+          "text": "define, sozinha, se o local é idôneo."
+        },
+        {
+          "id": "E",
+          "text": "impede que a mesma ocorrência alcance áreas de tipos diferentes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Interno e externo descrevem o ambiente. Uma mesma ocorrência pode atravessar áreas abertas e fechadas, e essa taxonomia não substitui o eixo espacial."
+    },
+    {
+      "id": "per-u072-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na terminologia técnico-doutrinária, local inidôneo é aquele que",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente não contém qualquer vestígio."
+        },
+        {
+          "id": "B",
+          "text": "sofreu alteração relevante em relação à condição original de seus vestígios."
+        },
+        {
+          "id": "C",
+          "text": "somente pode ser examinado por ordem judicial."
+        },
+        {
+          "id": "D",
+          "text": "foi classificado como externo."
+        },
+        {
+          "id": "E",
+          "text": "está distante do local imediato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Idoneidade, nesse contexto, descreve o estado de preservação, não a distância, o ambiente ou a existência absoluta de vestígios."
+    },
+    {
+      "id": "per-u072-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A constatação de que um local foi alterado antes do exame pericial implica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo exame deve ser cancelado."
+        },
+        {
+          "id": "B",
+          "text": "o local deve ser reconstruído por memória."
+        },
+        {
+          "id": "C",
+          "text": "as alterações e seus efeitos devem ser avaliados, sem presumir inutilidade total da perícia."
+        },
+        {
+          "id": "D",
+          "text": "nenhum vestígio restante pode ser aproveitado."
+        },
+        {
+          "id": "E",
+          "text": "a cadeia de custódia passa a ser irrelevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Código de Processo Penal prevê o registro das alterações e a discussão de suas consequências. O impacto depende do que foi modificado."
+    },
+    {
+      "id": "per-u072-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação mais adequada entre isolamento e preservação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolamento controla acessos e intervenções; preservação é o objetivo mais amplo de conservar a informação material."
+        },
+        {
+          "id": "B",
+          "text": "isolamento e preservação são sempre atos juridicamente idênticos."
+        },
+        {
+          "id": "C",
+          "text": "preservação só existe depois da coleta."
+        },
+        {
+          "id": "D",
+          "text": "isolamento é etapa exclusivamente laboratorial."
+        },
+        {
+          "id": "E",
+          "text": "preservação dispensa controle de acesso."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Isolamento é um mecanismo de proteção do local; preservação abrange a manutenção das condições e dos vestígios."
+    },
+    {
+      "id": "per-u072-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Código de Processo Penal, o início da cadeia de custódia",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre necessariamente no processamento laboratorial."
+        },
+        {
+          "id": "B",
+          "text": "ocorre apenas após a coleta."
+        },
+        {
+          "id": "C",
+          "text": "pode ocorrer com a preservação do local de crime ou com procedimento em que seja detectado vestígio."
+        },
+        {
+          "id": "D",
+          "text": "depende da apresentação do laudo em juízo."
+        },
+        {
+          "id": "E",
+          "text": "somente existe após o acondicionamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 158-A, § 1º, admite o início com a preservação do local ou com procedimento policial ou pericial que detecte vestígio."
+    },
+    {
+      "id": "per-u072-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao tomar conhecimento da prática de infração penal, a regra do artigo 6º do Código de Processo Penal determina, entre outras providências,",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar a coleta antes de preservar o local."
+        },
+        {
+          "id": "B",
+          "text": "providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos criminais."
+        },
+        {
+          "id": "C",
+          "text": "autorizar livre circulação para conhecimento do fato."
+        },
+        {
+          "id": "D",
+          "text": "remover previamente todos os objetos relevantes."
+        },
+        {
+          "id": "E",
+          "text": "limitar o isolamento ao local imediato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preservação do estado das coisas precede a chegada dos peritos e protege as condições necessárias ao exame."
+    },
+    {
+      "id": "per-u072-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O agente público que reconhece elemento como de potencial interesse para a produção da prova pericial",
+      "options": [
+        {
+          "id": "A",
+          "text": "não assume qualquer dever até a coleta."
+        },
+        {
+          "id": "B",
+          "text": "passa a responder por sua preservação, nos termos do artigo 158-A do Código de Processo Penal."
+        },
+        {
+          "id": "C",
+          "text": "deve necessariamente processá-lo no próprio local."
+        },
+        {
+          "id": "D",
+          "text": "pode removê-lo livremente antes da liberação pericial."
+        },
+        {
+          "id": "E",
+          "text": "transforma o elemento automaticamente em prova conclusiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-A, § 2º, atribui responsabilidade pela preservação ao agente público que reconhece o potencial interesse pericial."
+    },
+    {
+      "id": "per-u072-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a delimitação inicial do local, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve sempre ser mínima para reduzir o trabalho pericial."
+        },
+        {
+          "id": "B",
+          "text": "é definitiva e não pode ser revista."
+        },
+        {
+          "id": "C",
+          "text": "deve considerar a dinâmica possível e pode ser ajustada conforme surgem informações e vestígios."
+        },
+        {
+          "id": "D",
+          "text": "abrange somente o objeto mais chamativo."
+        },
+        {
+          "id": "E",
+          "text": "não pode alcançar áreas adjacentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A delimitação inicial é protetiva e preliminar; pode ser ampliada ou ajustada de acordo com a dinâmica e a avaliação técnica."
+    },
+    {
+      "id": "per-u072-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma ocorrência com vítima possivelmente viva, a preservação do local",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede qualquer socorro até a chegada do perito."
+        },
+        {
+          "id": "B",
+          "text": "exige priorizar a vida e a segurança, reduzindo alterações evitáveis e registrando intervenções necessárias."
+        },
+        {
+          "id": "C",
+          "text": "torna irrelevante documentar mudanças produzidas pelo atendimento."
+        },
+        {
+          "id": "D",
+          "text": "autoriza reconstruir depois a posição original por memória."
+        },
+        {
+          "id": "E",
+          "text": "elimina a necessidade de comunicação à equipe pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Socorro e segurança têm prioridade. Intervenções necessárias devem ser feitas com a menor alteração compatível e depois comunicadas e documentadas."
+    },
+    {
+      "id": "per-u072-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A introdução de material estranho em uma cena constitui exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "adição, uma forma de alteração do local."
+        },
+        {
+          "id": "B",
+          "text": "local mediato."
+        },
+        {
+          "id": "C",
+          "text": "fixação."
+        },
+        {
+          "id": "D",
+          "text": "processamento."
+        },
+        {
+          "id": "E",
+          "text": "descarte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adicionar material que não estava na condição original altera a cena e pode contaminar a interpretação."
+    },
+    {
+      "id": "per-u072-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Retirar um objeto da posição em que foi encontrado antes da documentação pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "melhorar necessariamente a confiabilidade do exame."
+        },
+        {
+          "id": "B",
+          "text": "eliminar ou modificar uma relação espacial relevante."
+        },
+        {
+          "id": "C",
+          "text": "transformar o local externo em interno."
+        },
+        {
+          "id": "D",
+          "text": "ser irrelevante porque apenas a identidade do objeto importa."
+        },
+        {
+          "id": "E",
+          "text": "substituir a etapa de fixação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A posição faz parte da informação material. Remoção precoce pode apagar relação espacial necessária à reconstrução."
+    },
+    {
+      "id": "per-u072-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra do artigo 158-C, § 2º, do Código de Processo Penal estabelece, em síntese, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer pessoa pode entrar na área isolada se não tocar em objetos."
+        },
+        {
+          "id": "B",
+          "text": "é proibida a entrada em local isolado e a remoção de vestígios antes da liberação pelo perito responsável."
+        },
+        {
+          "id": "C",
+          "text": "somente vestígios biológicos não podem ser removidos."
+        },
+        {
+          "id": "D",
+          "text": "a proibição termina com a chegada da autoridade policial."
+        },
+        {
+          "id": "E",
+          "text": "a área isolada deve ser liberada antes da fixação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A norma protege o local contra acessos e remoções antes da liberação pericial, preservando as relações materiais a serem examinadas."
+    },
+    {
+      "id": "per-u072-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando se sabe que um objeto foi movido antes da chegada da perícia, a conduta conceitualmente mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "recolocá-lo na posição presumida e ocultar a alteração."
+        },
+        {
+          "id": "B",
+          "text": "considerar todo o local sem valor."
+        },
+        {
+          "id": "C",
+          "text": "documentar a condição encontrada e a alteração conhecida, limitando inferências que dependam da posição original."
+        },
+        {
+          "id": "D",
+          "text": "retirar os demais objetos para padronizar a cena."
+        },
+        {
+          "id": "E",
+          "text": "ignorar a mudança se houver fotografias posteriores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alteração deve ser registrada. Reencenar uma posição suposta mistura fato e hipótese e pode criar informação falsa."
+    },
+    {
+      "id": "per-u072-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 169 do Código de Processo Penal, se houve alteração do estado das coisas, os peritos devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "omitir a mudança para não comprometer o laudo."
+        },
+        {
+          "id": "B",
+          "text": "registrá-la e discutir suas consequências na dinâmica dos fatos."
+        },
+        {
+          "id": "C",
+          "text": "encerrar automaticamente a perícia."
+        },
+        {
+          "id": "D",
+          "text": "reconstruir materialmente toda a cena antes do exame."
+        },
+        {
+          "id": "E",
+          "text": "considerar todos os vestígios contaminados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei exige registro da alteração e avaliação de suas consequências, sem impor inutilidade automática do local."
+    },
+    {
+      "id": "per-u072-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal fronteira entre esta unidade e a unidade sobre cadeia de custódia é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "esta unidade substitui todas as dez etapas legais da cadeia."
+        },
+        {
+          "id": "B",
+          "text": "cadeia de custódia trata apenas de locais externos."
+        },
+        {
+          "id": "C",
+          "text": "aqui se aprofunda classificação, isolamento e preservação do local; a unidade de cadeia de custódia mantém o percurso legal completo do vestígio."
+        },
+        {
+          "id": "D",
+          "text": "não existe relação entre os temas."
+        },
+        {
+          "id": "E",
+          "text": "preservação não integra a cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os assuntos se conectam, mas têm escopos diferentes: o local é aprofundado aqui; o rastreamento integral do vestígio permanece na unidade própria."
+    },
+    {
+      "id": "per-u072-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de delimitar e preservar o local, o estudo detalhado de documentação, processamento e levantamentos técnicos",
+      "options": [
+        {
+          "id": "A",
+          "text": "pertence ao aprofundamento da unidade seguinte sobre levantamentos em locais de crime."
+        },
+        {
+          "id": "B",
+          "text": "deve ser tratado como classificação de local."
+        },
+        {
+          "id": "C",
+          "text": "é dispensável."
+        },
+        {
+          "id": "D",
+          "text": "substitui a preservação."
+        },
+        {
+          "id": "E",
+          "text": "é conteúdo exclusivo de Medicina Legal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fronteira editorial mantém U072 concentrada em classificação, isolamento e preservação, deixando o processamento técnico para a unidade seguinte."
+    },
+    {
+      "id": "per-u072-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma residência, a equipe isola apenas o cômodo onde está o principal vestígio, embora existam sinais de passagem até o quintal. O problema central é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o isolamento pode estar estreito demais para a dinâmica possível e precisa considerar áreas adjacentes relevantes."
+        },
+        {
+          "id": "B",
+          "text": "todo quintal é necessariamente local relacionado e nunca mediato."
+        },
+        {
+          "id": "C",
+          "text": "o cômodo interno não pode ser local imediato."
+        },
+        {
+          "id": "D",
+          "text": "o perímetro inicial jamais pode ser alterado."
+        },
+        {
+          "id": "E",
+          "text": "somente locais externos podem conter vestígios de passagem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O isolamento não deve ser reduzido mecanicamente ao elemento mais evidente; adjacências e acessos podem integrar o local mediato."
+    },
+    {
+      "id": "per-u072-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal de item da prova da Polícia Federal de 2025 para Perito Criminal Federal na área de Medicina Legal, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A preservação do local só pode começar quando o perito chega."
+        },
+        {
+          "id": "B",
+          "text": "O isolamento anterior e o início do exame pericial são necessariamente o mesmo ato."
+        },
+        {
+          "id": "C",
+          "text": "O local pode ser preservado antes; no item oficial, o exame de local ou perinecroscopia foi considerado iniciado com a chegada do perito."
+        },
+        {
+          "id": "D",
+          "text": "A chegada do perito encerra a necessidade de preservação."
+        },
+        {
+          "id": "E",
+          "text": "O isolamento anterior torna desnecessário o exame do local."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O item 85 teve gabarito definitivo Certo. Ele distingue a preservação e o isolamento prévios do início do exame de local ou perinecroscopia com a chegada do perito."
+    }
+  ]
+}
