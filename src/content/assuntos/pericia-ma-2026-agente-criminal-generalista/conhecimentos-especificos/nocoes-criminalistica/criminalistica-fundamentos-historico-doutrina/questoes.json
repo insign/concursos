@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u071-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte introdutório da criminalística, a formulação mais adequada é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "ciência voltada exclusivamente à explicação sociológica da criminalidade."
+        },
+        {
+          "id": "B",
+          "text": "campo técnico-científico que reconhece, examina, interpreta e documenta vestígios materiais relacionados a fatos de interesse da Justiça."
+        },
+        {
+          "id": "C",
+          "text": "ramo médico restrito ao exame de cadáveres."
+        },
+        {
+          "id": "D",
+          "text": "atividade destinada a substituir a valoração jurídica do conjunto probatório."
+        },
+        {
+          "id": "E",
+          "text": "método de investigação baseado apenas em depoimentos e confissões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A criminalística trabalha tecnicamente com vestígios materiais e suas relações com o fato. Não se confunde com criminologia, medicina legal nem com a decisão jurídica final."
+    },
+    {
+      "id": "per-u071-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que distingue corretamente criminalística e criminologia.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A criminalística examina vestígios de casos concretos; a criminologia estuda fenômenos criminais, pessoa que delinque, vítima e controle social em perspectiva mais ampla."
+        },
+        {
+          "id": "B",
+          "text": "A criminalística explica causas sociais do crime, e a criminologia examina impressões e resíduos."
+        },
+        {
+          "id": "C",
+          "text": "Ambas são sinônimos e diferem apenas pela nomenclatura institucional."
+        },
+        {
+          "id": "D",
+          "text": "A criminologia é um subcampo da documentoscopia."
+        },
+        {
+          "id": "E",
+          "text": "A criminalística limita-se a exames médico-legais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A distinção é pelo problema predominante: criminalística trabalha com vestígios e relações materiais do caso; criminologia investiga o fenômeno criminal em escala e objetos mais amplos."
+    },
+    {
+      "id": "per-u071-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre criminalística e medicina legal é corretamente descrita por:",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda criminalística é medicina legal."
+        },
+        {
+          "id": "B",
+          "text": "medicina legal trata exclusivamente de documentos."
+        },
+        {
+          "id": "C",
+          "text": "são campos que podem dialogar, mas a medicina legal se concentra em questões médico-biológicas de interesse jurídico, enquanto a criminalística abrange outros vestígios e exames materiais."
+        },
+        {
+          "id": "D",
+          "text": "a criminalística não pode examinar material biológico em nenhuma hipótese."
+        },
+        {
+          "id": "E",
+          "text": "a medicina legal substitui a investigação de local."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há interfaces, mas os campos não são sinônimos. A medicina legal organiza questões médico-biológicas; a criminalística tem escopo material mais amplo."
+    },
+    {
+      "id": "per-u071-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Encontrar um vestígio material compatível com determinada fonte permite, por si só, concluir que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autoria jurídica está definitivamente provada."
+        },
+        {
+          "id": "B",
+          "text": "toda a dinâmica do fato foi reconstruída sem incerteza."
+        },
+        {
+          "id": "C",
+          "text": "existe uma informação material que precisa ser examinada e interpretada dentro do alcance do método e do contexto."
+        },
+        {
+          "id": "D",
+          "text": "não é mais necessário considerar outros elementos do caso."
+        },
+        {
+          "id": "E",
+          "text": "o vestígio é necessariamente individualizador."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Vestígio é ponto de partida material. A inferência depende do exame, da qualidade dos dados e do contexto; associação material não equivale automaticamente a autoria."
+    },
+    {
+      "id": "per-u071-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Hans Gross é associado, na história da criminalística, principalmente:",
+      "options": [
+        {
+          "id": "A",
+          "text": "à sistematização, no fim do século XIX, de métodos de investigação científica reunidos em sua obra de 1893."
+        },
+        {
+          "id": "B",
+          "text": "à criação da primeira lei brasileira de cadeia de custódia."
+        },
+        {
+          "id": "C",
+          "text": "à formulação do princípio de troca por contato atribuído a Locard."
+        },
+        {
+          "id": "D",
+          "text": "à fundação da criminologia crítica."
+        },
+        {
+          "id": "E",
+          "text": "à invenção isolada de todas as técnicas forenses modernas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A importância histórica de Hans Gross está na sistematização de práticas e conhecimentos de investigação científica, notadamente em sua obra publicada em 1893."
+    },
+    {
+      "id": "per-u071-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A associação histórica correta é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gross — princípio da troca; Locard — sistematização de 1893."
+        },
+        {
+          "id": "B",
+          "text": "Gross — sistematização da criminalística; Locard — princípio da troca associado ao contato."
+        },
+        {
+          "id": "C",
+          "text": "Gross e Locard — autores da mesma obra de 1893."
+        },
+        {
+          "id": "D",
+          "text": "Locard — criador da criminologia sociológica; Gross — médico-legista exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "nenhum dos dois possui relação com a história da ciência forense."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gross é referência da sistematização histórica; Locard é associado ao princípio da troca. Trocar esses papéis é pegadinha frequente."
+    },
+    {
+      "id": "per-u071-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio de troca associado a Edmond Locard expressa, em termos gerais, que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo contato garante a recuperação de um vestígio individualizador."
+        },
+        {
+          "id": "B",
+          "text": "interações entre pessoas, objetos e ambientes podem produzir transferência de materiais ou marcas."
+        },
+        {
+          "id": "C",
+          "text": "somente material biológico pode ser transferido."
+        },
+        {
+          "id": "D",
+          "text": "todo vestígio encontrado prova autoria."
+        },
+        {
+          "id": "E",
+          "text": "o exame pericial independe do modo de coleta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ideia de Locard orienta a busca por transferências decorrentes do contato. Ela não garante que todo contato produzirá vestígio detectável ou individualizador."
+    },
+    {
+      "id": "per-u071-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O fato de um contato potencialmente produzir transferência de material não significa que o vestígio será sempre detectado porque:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a criminalística não trabalha com materiais microscópicos."
+        },
+        {
+          "id": "B",
+          "text": "persistência, degradação, preservação, coleta e sensibilidade do método afetam a possibilidade de recuperação e detecção."
+        },
+        {
+          "id": "C",
+          "text": "o princípio de Locard proíbe coleta em local de crime."
+        },
+        {
+          "id": "D",
+          "text": "todo material transferido desaparece imediatamente."
+        },
+        {
+          "id": "E",
+          "text": "vestígios só podem ser observados por testemunhas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A existência teórica de transferência e a possibilidade prática de detectar e recuperar o material são questões diferentes."
+    },
+    {
+      "id": "per-u071-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na taxonomia clássica estudada neste capítulo, o princípio da observação ou troca está ligado principalmente:",
+      "options": [
+        {
+          "id": "A",
+          "text": "à possibilidade de transferência de vestígios nas interações."
+        },
+        {
+          "id": "B",
+          "text": "à redação formal do laudo."
+        },
+        {
+          "id": "C",
+          "text": "à escolha da pena aplicável."
+        },
+        {
+          "id": "D",
+          "text": "à independência temporal da perícia como postulado."
+        },
+        {
+          "id": "E",
+          "text": "à criação de regras processuais pelo perito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Observação/troca remete à procura e reconhecimento de vestígios decorrentes das interações materiais; não é sinônimo dos princípios de análise, descrição ou documentação."
+    },
+    {
+      "id": "per-u071-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio da análise, na doutrina criminalística clássica, é melhor representado pela exigência de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir método técnico por intuição do examinador."
+        },
+        {
+          "id": "B",
+          "text": "usar procedimentos técnico-científicos adequados e manter coerência entre dados, método e conclusão."
+        },
+        {
+          "id": "C",
+          "text": "aceitar qualquer resultado desde que seja conclusivo."
+        },
+        {
+          "id": "D",
+          "text": "evitar a explicitação das limitações do exame."
+        },
+        {
+          "id": "E",
+          "text": "considerar que todos os exames possuem a mesma sensibilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Análise pressupõe método adequado ao objeto e conclusão justificável pelos resultados, com reconhecimento das limitações."
+    },
+    {
+      "id": "per-u071-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio de interpretação ou individualidade ajuda a lembrar que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois objetos da mesma classe são necessariamente o mesmo objeto."
+        },
+        {
+          "id": "B",
+          "text": "semelhança ou compatibilidade não equivale automaticamente a identidade, e o alcance da conclusão depende do poder discriminante do método."
+        },
+        {
+          "id": "C",
+          "text": "todo exame permite individualização de fonte."
+        },
+        {
+          "id": "D",
+          "text": "classificação e individualização são sempre sinônimos."
+        },
+        {
+          "id": "E",
+          "text": "a interpretação dispensa dados comparativos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A doutrina clássica enfatiza a individualidade, mas o material ensina o limite: nem todo método permite atribuir um vestígio a uma fonte única."
+    },
+    {
+      "id": "per-u071-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa diferencia corretamente classificar e individualizar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classificar coloca o objeto em uma categoria; individualizar exige suporte técnico suficiente para atribuição específica quando o método permite."
+        },
+        {
+          "id": "B",
+          "text": "Classificar sempre identifica uma fonte única."
+        },
+        {
+          "id": "C",
+          "text": "Individualizar é apenas nomear a classe geral do vestígio."
+        },
+        {
+          "id": "D",
+          "text": "Os dois verbos têm exatamente o mesmo sentido técnico."
+        },
+        {
+          "id": "E",
+          "text": "Individualização independe da informação produzida pelo método."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Classificação e individualização possuem níveis de inferência diferentes. A individualização só é legítima quando o método e os dados sustentam esse alcance."
+    },
+    {
+      "id": "per-u071-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio da descrição exige que o trabalho pericial:",
+      "options": [
+        {
+          "id": "A",
+          "text": "apresente apenas a conclusão final, sem expor como foi obtida."
+        },
+        {
+          "id": "B",
+          "text": "registre de modo compreensível objeto, observações, método, resultados relevantes, conclusão e limites."
+        },
+        {
+          "id": "C",
+          "text": "adote linguagem persuasiva para convencer o julgador."
+        },
+        {
+          "id": "D",
+          "text": "omita resultados incompatíveis com a hipótese inicial."
+        },
+        {
+          "id": "E",
+          "text": "substitua documentação por memória do examinador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Descrição torna o percurso técnico compreensível e controlável. Não é narrativa persuasiva nem licença para ocultar limitações."
+    },
+    {
+      "id": "per-u071-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O princípio da documentação faz ponte com a cadeia de custódia porque ambos valorizam:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de registros para evitar interferência."
+        },
+        {
+          "id": "B",
+          "text": "a rastreabilidade da origem, dos procedimentos e do percurso do material."
+        },
+        {
+          "id": "C",
+          "text": "a substituição do vestígio por fotografia."
+        },
+        {
+          "id": "D",
+          "text": "a decisão jurídica de autoria pelo perito."
+        },
+        {
+          "id": "E",
+          "text": "a eliminação de lacres e controles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Documentação ajuda a avaliar identidade, integridade e percurso do material. As etapas legais da cadeia de custódia são aprofundadas em unidade própria."
+    },
+    {
+      "id": "per-u071-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a distinção correta entre princípio, postulado e regra legal neste capítulo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "São três nomes para qualquer artigo do Código de Processo Penal."
+        },
+        {
+          "id": "B",
+          "text": "Princípio organiza o raciocínio doutrinário; postulado é proposição estruturante da doutrina clássica; regra legal é comando normativo."
+        },
+        {
+          "id": "C",
+          "text": "Postulado é necessariamente uma lei federal."
+        },
+        {
+          "id": "D",
+          "text": "Princípio é sempre uma obrigação processual escrita em lei."
+        },
+        {
+          "id": "E",
+          "text": "Regra legal pode ser criada pelo laudo pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A banca pode misturar a natureza das fontes. Enunciado doutrinário e comando normativo não devem ser tratados como equivalentes."
+    },
+    {
+      "id": "per-u071-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na formulação clássica dos postulados da criminalística brasileira, afirmar que o conteúdo do laudo não depende da pessoa do perito busca expressar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ideia de que preferências pessoais não deveriam determinar a conclusão diante dos mesmos dados e de método válido."
+        },
+        {
+          "id": "B",
+          "text": "que qualquer pessoa pode assinar o laudo sem qualificação."
+        },
+        {
+          "id": "C",
+          "text": "que peritos diferentes são proibidos de divergir cientificamente."
+        },
+        {
+          "id": "D",
+          "text": "que o método é desnecessário."
+        },
+        {
+          "id": "E",
+          "text": "que a prova pericial dispensa revisão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fórmula clássica procura afirmar objetividade. O material não a transforma em promessa de ausência absoluta de divergência ou erro."
+    },
+    {
+      "id": "per-u071-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O postulado clássico segundo o qual a conclusão independe do meio empregado deve ser estudado como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "permissão para usar qualquer técnica, mesmo inadequada."
+        },
+        {
+          "id": "B",
+          "text": "ideia doutrinária de convergência entre métodos tecnicamente adequados que medem corretamente o mesmo fenômeno, não irrelevância do método."
+        },
+        {
+          "id": "C",
+          "text": "proibição de validação científica dos métodos."
+        },
+        {
+          "id": "D",
+          "text": "garantia de que métodos com diferentes sensibilidades sempre darão o mesmo resultado."
+        },
+        {
+          "id": "E",
+          "text": "norma processual sobre competência territorial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A leitura crítica é essencial: o postulado é uma fórmula histórica de objetividade, e não licença para desprezar adequação, validação ou limitações do método."
+    },
+    {
+      "id": "per-u071-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O postulado clássico da independência temporal da perícia criminalística significa, na formulação histórica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "que materiais nunca se degradam."
+        },
+        {
+          "id": "B",
+          "text": "que fatos científicos jamais podem ser revistos."
+        },
+        {
+          "id": "C",
+          "text": "que uma conclusão baseada em fenômeno objetivo não deveria mudar apenas pela passagem do tempo, embora novos dados ou métodos possam justificar revisão."
+        },
+        {
+          "id": "D",
+          "text": "que a coleta pode ocorrer em qualquer momento sem perda de informação."
+        },
+        {
+          "id": "E",
+          "text": "que vestígios são eternos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A primeira parte reconhece a fórmula doutrinária cobrada; a ressalva impede transformá-la em afirmação cientificamente absoluta."
+    },
+    {
+      "id": "per-u071-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que o material trata criticamente os postulados clássicos sem simplesmente descartá-los?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque são fórmulas históricas cobradas em concursos, mas ciência real admite novos dados, métodos mais sensíveis, degradação de amostras e revisão de hipóteses."
+        },
+        {
+          "id": "B",
+          "text": "Porque todo postulado é uma lei natural comprovada."
+        },
+        {
+          "id": "C",
+          "text": "Porque a doutrina torna desnecessária a validação científica."
+        },
+        {
+          "id": "D",
+          "text": "Porque concursos não podem cobrar história da criminalística."
+        },
+        {
+          "id": "E",
+          "text": "Porque qualquer conclusão pericial é mera opinião."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É preciso reconhecer a doutrina clássica para a prova e, ao mesmo tempo, não exagerar seu valor epistemológico."
+    },
+    {
+      "id": "per-u071-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência representa melhor uma inferência criminalística controlada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoria → vestígio → método → observação."
+        },
+        {
+          "id": "B",
+          "text": "observação → exame → comparação → interpretação → conclusão tecnicamente limitada."
+        },
+        {
+          "id": "C",
+          "text": "conclusão → coleta → hipótese → descarte dos limites."
+        },
+        {
+          "id": "D",
+          "text": "suspeita → certeza → seleção apenas dos vestígios concordantes."
+        },
+        {
+          "id": "E",
+          "text": "depoimento → condenação → exame opcional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A escada impede o salto de vestígio para autoria e força a explicitação do alcance de cada etapa."
+    },
+    {
+      "id": "per-u071-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre doutrina criminalística e legislação, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os cinco princípios clássicos estão necessariamente transcritos como artigos do Código de Processo Penal."
+        },
+        {
+          "id": "B",
+          "text": "Os três postulados clássicos são regras legais de cadeia de custódia."
+        },
+        {
+          "id": "C",
+          "text": "Doutrina pode organizar princípios e postulados sem que esses enunciados sejam, por isso, comandos legais."
+        },
+        {
+          "id": "D",
+          "text": "Se uma afirmação é doutrinária, não pode ser cobrada em concurso."
+        },
+        {
+          "id": "E",
+          "text": "Regra processual e princípio histórico são intercambiáveis."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A natureza da fonte importa: doutrina, conhecimento científico e norma jurídica podem dialogar, mas não são a mesma coisa."
+    },
+    {
+      "id": "per-u071-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão do CEBRASPE para Perito Oficial Criminal da Polícia Civil da Paraíba (2009), qual princípio clássico é associado a Edmond Locard e à ideia de que não há ação sem produção ou transferência de vestígios?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Princípio da observação ou troca."
+        },
+        {
+          "id": "B",
+          "text": "Princípio da descrição."
+        },
+        {
+          "id": "C",
+          "text": "Postulado da independência temporal."
+        },
+        {
+          "id": "D",
+          "text": "Princípio da documentação."
+        },
+        {
+          "id": "E",
+          "text": "Princípio da interpretação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Adaptação da questão 34 da prova CEBRASPE/Polícia Civil da Paraíba, Perito Oficial Criminal, aplicada em 29/03/2009. O gabarito definitivo oficial da questão 34 é A. A adaptação preserva o núcleo: Locard e o princípio clássico da observação/troca."
+    },
+    {
+      "id": "per-u071-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão do CEBRASPE para Perito Oficial Criminal da Polícia Civil da Paraíba (2009), qual enunciado corresponde a um postulado clássico da criminalística brasileira?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O perito pode alterar livremente o método para obter o resultado desejado."
+        },
+        {
+          "id": "B",
+          "text": "Toda associação material prova autoria."
+        },
+        {
+          "id": "C",
+          "text": "A perícia criminalística seria independente do tempo, na formulação doutrinária clássica."
+        },
+        {
+          "id": "D",
+          "text": "Todo contato produz vestígio necessariamente recuperável."
+        },
+        {
+          "id": "E",
+          "text": "A conclusão jurídica deve ser fixada pelo perito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adaptação da questão 35 da prova CEBRASPE/Polícia Civil da Paraíba, Perito Oficial Criminal, aplicada em 29/03/2009. O gabarito definitivo oficial da questão 35 é C. A formulação é doutrinária e deve ser lida com as ressalvas científicas ensinadas na aula."
+    },
+    {
+      "id": "per-u071-p03",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação de questão do CEBRASPE para Perito Oficial Criminal da Polícia Civil da Paraíba (2009), a criminalística é melhor caracterizada como campo que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "estuda exclusivamente armas de fogo."
+        },
+        {
+          "id": "B",
+          "text": "trata apenas de identificação de documentos."
+        },
+        {
+          "id": "C",
+          "text": "substitui a medicina legal em todo exame de pessoa."
+        },
+        {
+          "id": "D",
+          "text": "explica sociologicamente as causas da criminalidade."
+        },
+        {
+          "id": "E",
+          "text": "emprega observação e interpretação técnico-científica de vestígios materiais para esclarecer fatos de interesse da Justiça."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Adaptação da questão 36 da prova CEBRASPE/Polícia Civil da Paraíba, Perito Oficial Criminal, aplicada em 29/03/2009. O gabarito definitivo oficial da questão 36 é E. A adaptação preserva a distinção entre criminalística e campos vizinhos."
+    }
+  ]
+}
