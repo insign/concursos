@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 32 | 1 | 66 |
-| Entregáveis unitários C/H/Q | 297 | 96 | 3 | 198 |
+| Unidades distintas | 99 | 32 | 0 | 67 |
+| Entregáveis unitários C/H/Q | 297 | 96 | 0 | 201 |
 
-Estado confirmado: **66 unidades/visões publicadas (61 locais, 5 por vínculo); 198 C/H/Q aceitos; 93/132 referências literais aceitas; 2598 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **67 unidades/visões publicadas (62 locais, 5 por vínculo); 201 C/H/Q aceitos; 94/132 referências literais aceitas; 2660 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. PER-U068 — Setor terciário: comércio, telecomunicações e transportes está analyzing**, conforme 5.2/7.5, sob a reserva `per-u068-20261006-0430-8c1f5d2a`. PER-U067 permanece aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 10/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. PER-U068 — Setor terciário: comércio, telecomunicações e transportes está done; próxima ação: PER-U069 — Malha viária, portos e aeroportos**, conforme 5.2/7.5. PER-U068 foi publicada, relida integralmente na `main` e aceita; O064 permaneceu intacto. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 11/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -620,7 +620,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U065 — Agricultura e pecuária maranhenses | E07: 9 | O061 | `agricultura-pecuaria-maranhenses` / `per-u065` / 650 | Integral por cópia local de O061; remissões TCE neutralizadas e corte estatístico Perícia explicitado; C/H/Q aceitos em 5.11. |
 | PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Integral por cópia local de O062; remissões/corte TCE neutralizados, fontes e anteriores revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U067 — Indústrias de base e transformação | E07: 11 | O063 | `industrias-base-transformacao` / `per-u067` / 670 | Integral por cópia local de O063; remissões/corte TCE neutralizados, redundâncias de Q removidas e fontes/anteriores revalidadas; C/H/Q aceitos em 5.11. |
-| PER-U068 — Setor terciário: comércio, telecomunicações e transportes | E07: 12 | O064 | `comercio-telecom-transportes` / `per-u068` / 680 | Funções/redes econômicas; infraestrutura específica em U069. |
+| PER-U068 — Setor terciário: comércio, telecomunicações e transportes | E07: 12 | O064 | `comercio-telecom-transportes` / `per-u068` / 680 | Integral por cópia local de O064; remissão TCE neutralizada, versões estatísticas atuais explicitadas e anteriores revalidadas; infraestrutura específica permanece em U069; C/H/Q aceitos em 5.11. |
 | PER-U069 — Malha viária, portos e aeroportos | E07: 13, 14 | O065 | `malha-viaria-portos-aeroportos` / `per-u069` / 690 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 | PER-U070 — Cultura maranhense | E07: 15 | O066 | `cultura-maranhense` / `per-u070` / 700 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 93/132 |
-| Unidades distintas da objetiva | 98 | 66 |
+| Referências literais da objetiva | 132/132 | 94/132 |
+| Unidades distintas da objetiva | 98 | 67 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 66 |
-| Entregáveis unitários C/H/Q | 297: 99 pending + 0 analyzing + 198 done | 198 done |
-| Visões consumidoras previstas | 99 | 66 |
+| Total de unidades distintas | 99 | 67 |
+| Entregáveis unitários C/H/Q | 297: 96 pending + 0 analyzing + 201 done | 201 done |
+| Visões consumidoras previstas | 99 | 67 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 8 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 9 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 61 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 62 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2286,6 +2286,24 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `e72f58910d3984311f8da8a92df125472f2e9489` |
 | R | `cc1f2113faf7a0394ad0b5972a2650eb13eaa0b4` |
 
+#### PER-U068 — Setor terciário: comércio, telecomunicações e transportes: integral/local — C/H/Q done
+
+- **Decisão:** O064 coincide integralmente com E07:12, mas o vínculo direto foi descartado porque o cheat sheet canônico compartilhado pelos dois consumidores <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> contém a remissão interna “Assunto 093”. A cópia local aplica identidade `per-u068`, ordem 680 e fronteira nominal com U069 sem alterar o doador.
+- **C/H e ganho:** C preserva o modelo mental telecomunicações → comércio → transportes → centralidades e acrescenta somente a seção de versões/datas necessária para não misturar publicação, consulta e marco do edital. O texto visível passa de 2.444 para 2.656 palavras (+212), concentradas na atualidade estatística e na fronteira com U069. H substitui a remissão numérica por fronteira nominal e registra as séries correntes; palavras visíveis 594 → 628. Não há expansão do inventário de infraestrutura, reservado a U069.
+- **Atualidade e fontes:** a <abbr title="Pesquisa Anual de Comércio">PAC</abbr> 2024 foi divulgada em 29/07/2026 e a <abbr title="Pesquisa Anual de Serviços">PAS</abbr> 2024 em 27/08/2026; ambas iniciam novas séries e são registradas como versões estatísticas atuais, posteriores ao edital, sem inventar congelamento geral de dados geográficos em 17/07. **Logística dos Transportes 2024** foi divulgada em 13/07/2026, antes do edital — corrigindo a classificação temporal equivocada do doador. A página de coletas da Anatel estava modificada em 03/08/2026 e a de cobertura/zona de sombra em 31/08/2025.
+- **Q:** `questionSetRevision: 4`, 62 questões/310 opções, 59 autorais + 3 anteriores, zero HTML, prompts duplicados ou gabaritos sem opção. `q8256` foi atualizada da PAS 2023 para a <abbr title="Pesquisa Anual de Serviços">PAS</abbr> 2024 e passou a `revision: 2`; `q8225` recebeu explicação própria do edital da Perícia, sem mudança de enunciado, opções ou chave.
+- **Questões anteriores:** `q8258` preserva adaptação do item 35 CEBRASPE/PM-MA 2017; caderno e gabarito oficial definitivo confirmam a assertiva e **Certo**. `q20010` e `q20011` foram conferidas na prova Tipo 4 — Azul da Fundação Getulio Vargas/PM-MA 2012; o gabarito definitivo confirma questão 48 = **C** e questão 50 = **B**.
+- **Inspeção unitária:** C/H/Q/R foram relidos na `main`, o commit contém somente os quatro arquivos de U068 e O064 conserva os quatro blobs de origem. Não há `resolucoes/` no pacote. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`d81ad63c`](https://github.com/insign/concursos/commit/d81ad63c87107d08f94ca5529c7a6e0874f082fc).
+
+| Arquivo | Blob |
+|---|---|
+| C | `9895a9cd7e839227693ddab207b7a88f81400af7` |
+| H | `059057193dca8f23d5781294042df3d186ab08f1` |
+| Q | `18216cf1ed9997b3518735b1d5d6145e0e9b0d67` |
+| R | `e59b4a5a2760d13713623052379743283eba8ac5` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2861,9 +2879,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U068 — Setor terciário: comércio, telecomunicações e transportes
 
-- [ ] PER-U068-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U068-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U068-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U068-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U068-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U068-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U069 — Malha viária, portos e aeroportos
 
@@ -3323,3 +3341,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U066:** artefatos `04d98d656957b84683107aaadba2868beef3250b` confirmados; cópia local integral de O062, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:10 aceito. Totais resultantes: 65/99 unidades, 195/297 C/H/Q, 92/132 referências e 2540 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 9/13. Lote U064–U066 encerrado sem reserva ativa. Próxima ação PER-U067 — Indústrias de base e transformação; campanha aberta.
 
 - **PER-U067:** artefato `b5e3a066a0d4a6c44308968a5342466b18966061` e correção de microglossário `c3ec3f1ef80927d42b0fa2de54f24957a00713e0` confirmados; cópia local integral de O063, descritor `geografia-maranhao/grupo.json` materializado, 58 questões/289 opções, C/H/Q e proveniência 5.11 aceitos. E07:11 aceito. Totais resultantes: 66/99 unidades, 198/297 C/H/Q, 93/132 referências e 2598 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 10/13. Próxima ação PER-U068 — Setor terciário: comércio, telecomunicações e transportes.
+
+- **PER-U068:** artefato `d81ad63c87107d08f94ca5529c7a6e0874f082fc` confirmado; cópia local integral de O064, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:12 aceito. Totais resultantes: 67/99 unidades, 201/297 C/H/Q, 94/132 referências e 2660 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 11/13. Próxima ação PER-U069 — Malha viária, portos e aeroportos.
