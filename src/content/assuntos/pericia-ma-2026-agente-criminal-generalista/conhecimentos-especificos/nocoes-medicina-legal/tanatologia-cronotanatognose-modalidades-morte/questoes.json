@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u081-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Tanatologia forense, no recorte desta unidade, relaciona-se principalmente ao estudo",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivo de lesões por instrumentos mecânicos."
+        },
+        {
+          "id": "B",
+          "text": "da morte, das transformações cadavéricas, da estimativa temporal e de modalidades médico-legais pertinentes."
+        },
+        {
+          "id": "C",
+          "text": "somente da identificação civil do cadáver."
+        },
+        {
+          "id": "D",
+          "text": "apenas da toxicologia analítica."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente da sexologia forense."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A unidade usa a Tanatologia para compreender fenômenos pós-morte, estimar o intervalo pós-morte e distinguir modalidades como morte súbita, suspeita e agonizante."
+    },
+    {
+      "id": "per-u081-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação tradicional, resfriamento, livores, rigidez e desidratação são fenômenos",
+      "options": [
+        {
+          "id": "A",
+          "text": "cadavéricos consecutivos ou mediatos."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente transformativos conservadores."
+        },
+        {
+          "id": "C",
+          "text": "que provam a causa jurídica da morte."
+        },
+        {
+          "id": "D",
+          "text": "que ocorrem em horário idêntico em todos os corpos."
+        },
+        {
+          "id": "E",
+          "text": "sem utilidade para cronotanatognose."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses fenômenos integram o grupo clássico dos consecutivos/mediatos e ajudam na interpretação cronológica quando avaliados em conjunto."
+    },
+    {
+      "id": "per-u081-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o algor mortis, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a temperatura corporal cai sempre na mesma taxa horária."
+        },
+        {
+          "id": "B",
+          "text": "o ambiente não interfere no resfriamento."
+        },
+        {
+          "id": "C",
+          "text": "o resfriamento deve ser interpretado com condições ambientais e corporais."
+        },
+        {
+          "id": "D",
+          "text": "ele corresponde ao acúmulo gravitacional de sangue."
+        },
+        {
+          "id": "E",
+          "text": "é sinônimo de putrefação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O resfriamento varia com ambiente, roupas, massa corporal, contato com água ou solo e outras condições; não existe taxa universal aplicável a todo cadáver."
+    },
+    {
+      "id": "per-u081-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os livores cadavéricos resultam principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "do acúmulo gravitacional de sangue em regiões declivosas após cessar a circulação."
+        },
+        {
+          "id": "B",
+          "text": "de trauma contuso obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "da contração muscular pós-morte."
+        },
+        {
+          "id": "D",
+          "text": "da evaporação de água da pele."
+        },
+        {
+          "id": "E",
+          "text": "da formação de adipocera."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Livores ou hipóstases correspondem ao acúmulo gravitacional de sangue nas regiões dependentes depois da cessação circulatória."
+    },
+    {
+      "id": "per-u081-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à fixação dos livores, a formulação mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre obrigatoriamente em horário único e universal."
+        },
+        {
+          "id": "B",
+          "text": "não apresenta relação alguma com a evolução pós-morte."
+        },
+        {
+          "id": "C",
+          "text": "há progressão temporal, mas a variabilidade observada impede adotar um horário universal rígido."
+        },
+        {
+          "id": "D",
+          "text": "só ocorre em mortes violentas."
+        },
+        {
+          "id": "E",
+          "text": "é idêntica à formação de equimose."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Estudos mostram heterogeneidade importante nos tempos de aparecimento e fixação; o fenômeno deve ser integrado ao restante do caso."
+    },
+    {
+      "id": "per-u081-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A rigidez cadavérica corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao resfriamento do cadáver."
+        },
+        {
+          "id": "B",
+          "text": "a alterações bioquímicas musculares pós-morte que produzem rigidez."
+        },
+        {
+          "id": "C",
+          "text": "ao acúmulo de sangue por gravidade."
+        },
+        {
+          "id": "D",
+          "text": "à decomposição bacteriana exclusiva da pele."
+        },
+        {
+          "id": "E",
+          "text": "à secagem conservadora do corpo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O rigor mortis decorre de alterações bioquímicas do músculo após a morte e apresenta evolução variável."
+    },
+    {
+      "id": "per-u081-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Com a progressão da decomposição, a rigidez cadavérica",
+      "options": [
+        {
+          "id": "A",
+          "text": "tende a desaparecer."
+        },
+        {
+          "id": "B",
+          "text": "aumenta indefinidamente."
+        },
+        {
+          "id": "C",
+          "text": "transforma-se obrigatoriamente em livor."
+        },
+        {
+          "id": "D",
+          "text": "passa a provar morte violenta."
+        },
+        {
+          "id": "E",
+          "text": "torna-se independente da temperatura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A degradação dos tecidos durante a decomposição desfaz a rigidez; ela não cresce indefinidamente."
+    },
+    {
+      "id": "per-u081-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre autólise e putrefação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "autólise é autodigestão por enzimas celulares; putrefação envolve principalmente atividade microbiana."
+        },
+        {
+          "id": "B",
+          "text": "autólise e putrefação são sinônimos perfeitos."
+        },
+        {
+          "id": "C",
+          "text": "putrefação ocorre apenas em ambiente seco."
+        },
+        {
+          "id": "D",
+          "text": "autólise depende obrigatoriamente de insetos."
+        },
+        {
+          "id": "E",
+          "text": "ambas são fenômenos exclusivamente conservadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A autólise decorre da ação enzimática das próprias células; a putrefação é decomposição associada sobretudo à atividade microbiana."
+    },
+    {
+      "id": "per-u081-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência didática clássica da putrefação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "gasosa, cromática, esqueletização e rigidez."
+        },
+        {
+          "id": "B",
+          "text": "cromática, gasosa, coliquativa e redução esquelética."
+        },
+        {
+          "id": "C",
+          "text": "livor, rigor, autólise e coma."
+        },
+        {
+          "id": "D",
+          "text": "mumificação, adipocera, cromática e apneia."
+        },
+        {
+          "id": "E",
+          "text": "coliquativa, cromática, gasosa e resfriamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A classificação clássica organiza a putrefação em períodos cromático, gasoso, coliquativo e de redução esquelética; a velocidade de progressão varia."
+    },
+    {
+      "id": "per-u081-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cronotanatognose é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a obrigação de determinar o minuto exato da morte."
+        },
+        {
+          "id": "B",
+          "text": "a estimativa médico-legal do momento ou intervalo da morte a partir do conjunto de achados."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de identificação papiloscópica."
+        },
+        {
+          "id": "D",
+          "text": "a classificação exclusiva da causa penal do óbito."
+        },
+        {
+          "id": "E",
+          "text": "um método baseado somente na temperatura corporal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cronotanatognose busca estimar a cronologia da morte; a conclusão tecnicamente adequada costuma expressar um intervalo compatível e sua incerteza."
+    },
+    {
+      "id": "per-u081-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A estratégia mais robusta para estimar o intervalo pós-morte é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar um único sinal e ignorar o ambiente."
+        },
+        {
+          "id": "B",
+          "text": "combinar temperatura, livores, rigidez, decomposição, ambiente, contexto e métodos complementares."
+        },
+        {
+          "id": "C",
+          "text": "converter a última refeição diretamente em hora de morte."
+        },
+        {
+          "id": "D",
+          "text": "usar sempre uma tabela temporal fixa."
+        },
+        {
+          "id": "E",
+          "text": "desconsiderar achados discordantes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cronotanatognose é mais confiável quando integra sinais independentes e explicita conflitos e limitações."
+    },
+    {
+      "id": "per-u081-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o potássio do humor vítreo na estimativa pós-morte, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina qualquer margem de erro."
+        },
+        {
+          "id": "B",
+          "text": "dispensa conhecimento do contexto."
+        },
+        {
+          "id": "C",
+          "text": "pode integrar modelos de estimativa, mas sofre influência de variabilidade, coleta, análise e modelo estatístico."
+        },
+        {
+          "id": "D",
+          "text": "serve apenas para identificar o cadáver."
+        },
+        {
+          "id": "E",
+          "text": "não possui relação alguma com estimativa temporal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O potássio vítreo é útil em modelos, mas limitações pré-analíticas, analíticas e estatísticas impedem tratá-lo como relógio exato."
+    },
+    {
+      "id": "per-u081-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na entomologia forense aplicada ao intervalo pós-morte, devem ser considerados",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o tamanho do cadáver."
+        },
+        {
+          "id": "B",
+          "text": "espécie, temperatura, acesso dos insetos e história ambiental do corpo."
+        },
+        {
+          "id": "C",
+          "text": "apenas a causa jurídica da morte."
+        },
+        {
+          "id": "D",
+          "text": "somente a presença ou ausência de roupas."
+        },
+        {
+          "id": "E",
+          "text": "um calendário universal independente do clima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O desenvolvimento dos insetos depende de espécie e temperatura e pode ser alterado pelo acesso ao corpo e pela história ambiental."
+    },
+    {
+      "id": "per-u081-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O conteúdo gastrointestinal, na cronotanatognose, deve ser entendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "dado auxiliar, incapaz de fixar sozinho a hora da morte."
+        },
+        {
+          "id": "B",
+          "text": "prova absoluta do minuto do óbito."
+        },
+        {
+          "id": "C",
+          "text": "método que substitui todos os fenômenos cadavéricos."
+        },
+        {
+          "id": "D",
+          "text": "dado sem qualquer relação possível com a estimativa temporal."
+        },
+        {
+          "id": "E",
+          "text": "critério para definir homicídio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Digestão e esvaziamento variam; o conteúdo gastrointestinal pode contribuir, mas a última refeição não funciona como relógio isolado."
+    },
+    {
+      "id": "per-u081-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Com a progressão para decomposição avançada, a estimativa do intervalo pós-morte tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "tornar-se necessariamente exata."
+        },
+        {
+          "id": "B",
+          "text": "ficar mais dependente do ambiente e frequentemente mais ampla."
+        },
+        {
+          "id": "C",
+          "text": "dispensar todo dado de cena."
+        },
+        {
+          "id": "D",
+          "text": "basear-se apenas em livores."
+        },
+        {
+          "id": "E",
+          "text": "ser independente de temperatura e umidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sinais iniciais desaparecem e fatores ambientais passam a dominar a decomposição, ampliando a incerteza em muitos casos."
+    },
+    {
+      "id": "per-u081-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contraste estudado nesta unidade, morte súbita caracteriza-se principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "evolução rápida e inesperada."
+        },
+        {
+          "id": "B",
+          "text": "certeza de homicídio."
+        },
+        {
+          "id": "C",
+          "text": "evolução obrigatoriamente de dias ou semanas."
+        },
+        {
+          "id": "D",
+          "text": "dúvida sobre autoria criminal."
+        },
+        {
+          "id": "E",
+          "text": "putrefação avançada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Morte súbita enfatiza a rapidez e o caráter inesperado da evolução; isso não prova, sozinho, causa externa ou violência."
+    },
+    {
+      "id": "per-u081-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Morte suspeita é melhor compreendida como aquela em que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o homicídio já foi definitivamente provado."
+        },
+        {
+          "id": "B",
+          "text": "as circunstâncias deixam dúvida relevante sobre a origem e exigem investigação."
+        },
+        {
+          "id": "C",
+          "text": "a evolução sempre dura semanas."
+        },
+        {
+          "id": "D",
+          "text": "a causa é obrigatoriamente natural."
+        },
+        {
+          "id": "E",
+          "text": "a morte foi necessariamente instantânea."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A suspeita decorre da incerteza sobre origem ou circunstâncias; ela não equivale à conclusão de homicídio."
+    },
+    {
+      "id": "per-u081-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa jovem, sem doença conhecida, morre de modo inesperado em cenário com informações contraditórias. Conceitualmente, é possível que a morte seja",
+      "options": [
+        {
+          "id": "A",
+          "text": "súbita e suspeita ao mesmo tempo."
+        },
+        {
+          "id": "B",
+          "text": "agonizante apenas porque é suspeita."
+        },
+        {
+          "id": "C",
+          "text": "necessariamente homicida."
+        },
+        {
+          "id": "D",
+          "text": "incapaz de ser classificada como súbita."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente natural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Súbita descreve rapidez/inesperado; suspeita descreve dúvida sobre origem ou circunstâncias. Os eixos podem coexistir."
+    },
+    {
+      "id": "per-u081-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No vocabulário médico-legal usado para este edital, morte agonizante corresponde à morte",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatoriamente instantânea."
+        },
+        {
+          "id": "B",
+          "text": "cuja evolução se prolonga por dias ou semanas após a eclosão da causa básica."
+        },
+        {
+          "id": "C",
+          "text": "que prova causa externa."
+        },
+        {
+          "id": "D",
+          "text": "que ocorre apenas durante o sono."
+        },
+        {
+          "id": "E",
+          "text": "que não admite tratamento antes do óbito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A doutrina também usa morte agônica ou tardia para a evolução prolongada, por dias ou semanas, depois da causa básica."
+    },
+    {
+      "id": "per-u081-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma lesão grave inicia a cadeia causal; a pessoa recebe tratamento e morre vários dias depois. Sem outros dados, a classificação temporal mais compatível é",
+      "options": [
+        {
+          "id": "A",
+          "text": "morte agonizante ou tardia."
+        },
+        {
+          "id": "B",
+          "text": "morte súbita obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "morte suspeita obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "morte instantânea."
+        },
+        {
+          "id": "E",
+          "text": "morte natural obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sobrevida de vários dias após a eclosão da causa básica é compatível com morte agonizante/tardia; isso, sozinho, não define se a origem é natural ou externa."
+    },
+    {
+      "id": "u153-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 6 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, constituem fenômenos cadavéricos consecutivos clássicos",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente perda da consciência e apneia."
+        },
+        {
+          "id": "B",
+          "text": "morte encefálica e coma."
+        },
+        {
+          "id": "C",
+          "text": "apenas putrefação e esqueletização."
+        },
+        {
+          "id": "D",
+          "text": "desidratação, resfriamento, hipóstase e rigidez cadavérica."
+        },
+        {
+          "id": "E",
+          "text": "apenas maceração fetal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O padrão oficial listou desidratação, resfriamento, hipóstase e rigidez entre os fenômenos consecutivos/mediatos."
+    },
+    {
+      "id": "u153-p04",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 43 da prova objetiva Cebraspe/PC-RO 2022 para Médico-Legista, a sequência clássica da rigidez cadavérica ocorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "das maiores massas musculares para as menores, dos pés para a cabeça."
+        },
+        {
+          "id": "B",
+          "text": "das massas musculares menores para as maiores, didaticamente da cabeça para os pés."
+        },
+        {
+          "id": "C",
+          "text": "somente após o período coliquativo."
+        },
+        {
+          "id": "D",
+          "text": "sem qualquer ordem reconhecida na literatura clássica."
+        },
+        {
+          "id": "E",
+          "text": "apenas nos músculos lesionados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. O padrão clássico cobrado descreve progressão de menores para maiores massas musculares e da cabeça para os pés."
+    },
+    {
+      "id": "per-u081-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 71 da prova Instituto AOCP/PC-GO 2023 para Escrivão de Polícia, morte agonizante é a que",
+      "options": [
+        {
+          "id": "A",
+          "text": "produz efeito fatal necessariamente instantâneo."
+        },
+        {
+          "id": "B",
+          "text": "apresenta evolução prolongada por dias ou semanas após a causa básica."
+        },
+        {
+          "id": "C",
+          "text": "decorre necessariamente de doença congênita."
+        },
+        {
+          "id": "D",
+          "text": "termina sempre em poucos minutos."
+        },
+        {
+          "id": "E",
+          "text": "corresponde necessariamente a homicídio, suicídio ou acidente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão anterior cobra diretamente a classificação pela sobrevivência. A definição de morte agônica/tardia como evolução por dias ou semanas após a causa básica também é registrada na doutrina de Genival Veloso de França."
+    }
+  ]
+}
