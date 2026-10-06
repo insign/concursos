@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 15 | 0 | 21 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 25 | 0 | 26 |
-| Unidades distintas | 99 | 20 | 0 | 79 |
-| Entregáveis unitários C/H/Q | 297 | 60 | 0 | 237 |
+| Unidades distintas | 99 | 19 | 1 | 79 |
+| Entregáveis unitários C/H/Q | 297 | 57 | 3 | 237 |
 
-Estado confirmado: **79 unidades/visões publicadas (73 locais, 6 por vínculo); 237 C/H/Q aceitos; 112/132 referências literais aceitas; 2997 questões acumuladas**. PER-U080 está concluída, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **79 unidades/visões publicadas (73 locais, 6 por vínculo); 237 C/H/Q aceitos; 112/132 referências literais aceitas; 2997 questões acumuladas**. PER-U081 está reservada e `analyzing`; nenhum aceite adicional é antecipado. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U080 — Asfixiologia: mecanismos e modalidades está done; próxima ação: PER-U081 — Tanatologia, cronotanatognose e modalidades de morte**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 2/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U081 — Tanatologia, cronotanatognose e modalidades de morte está analyzing sob a reserva `gpt56sol-20261006T2030-03-per-u081`**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 2/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -3165,9 +3165,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U081 — Tanatologia, cronotanatognose e modalidades de morte
 
-- [ ] PER-U081-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U081-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U081-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U081-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U081-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U081-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U082 — Noções de agentes químicos
 
@@ -3570,3 +3570,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U078:** artefato `17e53eb79fa3e46f2badb133d58632a1d13433e0` confirmado; parcial/local com O067 para arquitetura de local e complementação específica de suspensão, mortes aquáticas, soterramento, ambientes confinados/gases e alterações de socorro; 20 questões/100 opções autorais, C/H/Q/R aceitos. E08:9.4 e o pai E08:9 aceitos; PER-E08 C/H/Q fecha done. Totais: 77/99 unidades, 231/297 C/H/Q, 106/132 referências e 2954 questões. Macros 26 done/25 pending/0 analyzing. E08 fecha 11/11. Próxima ação PER-U079 — Traumatologia e instrumentos de ação mecânica.
 - **PER-U079:** artefato `03967195ba8f4eb0a5fcb05d7a1f07ebbee794b4` confirmado; parcial/local de O068 com reorganização explícita dos seis tipos de instrumentos/ações mecânicas e materialização do grupo de Noções de Medicina Legal; 22 questões/110 opções (20 autorais + 2 anteriores verificadas), C/H/Q/R aceitos. E09:1/1.1/1.2/4 aceitos. Totais: 78/99 unidades, 234/297 C/H/Q, 110/132 referências e 2976 questões. E09 passa a 1/6. Próxima ação PER-U080 — Asfixiologia: mecanismos e modalidades.
 - **PER-U080:** artefato `243fec51fba159081ea654b889e908a45cb9b1a9` confirmado; nova/local, cobrindo as oito modalidades de Asfixiologia com fontes verificáveis e limites diagnósticos contemporâneos; 21 questões/105 opções (20 autorais + 1 anterior Cebraspe/PC-MA 2018 verificada), C/H/Q/R aceitos. E09:2/2.1 aceitos. Totais: 79/99 unidades, 237/297 C/H/Q, 112/132 referências e 2997 questões. E09 passa a 2/6. Lote U078–U080 concluído; próxima ação PER-U081 — Tanatologia, cronotanatognose e modalidades de morte.
+- **Reserva ativa PER-U081 — gpt56sol-20261006T2030-03-per-u081:** C/H/Q em `analyzing`; origem O069 somente leitura; destino `conhecimentos-especificos/nocoes-medicina-legal/tanatologia-cronotanatognose-modalidades-morte/`; consumidor Generalista; arquivos C/H/Q/R e seções de estado/evidência de U081 reservados. SHA-base `d169eab509ae98a96404de6929c5330d2274e80b`; mestre blob-base `15e5aaa60b37a87f897d2288e82583ae32bd7538`.
