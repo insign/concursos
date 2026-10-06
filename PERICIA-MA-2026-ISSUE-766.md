@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 31 | 1 | 67 |
-| Entregáveis unitários C/H/Q | 297 | 93 | 3 | 201 |
+| Unidades distintas | 99 | 31 | 0 | 68 |
+| Entregáveis unitários C/H/Q | 297 | 93 | 0 | 204 |
 
-Estado confirmado: **67 unidades/visões publicadas (62 locais, 5 por vínculo); 201 C/H/Q aceitos; 94/132 referências literais aceitas; 2660 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **68 unidades/visões publicadas (63 locais, 5 por vínculo); 204 C/H/Q aceitos; 96/132 referências literais aceitas; 2721 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. PER-U069 — Malha viária, portos e aeroportos está analyzing**, conforme 5.2/7.5, sob a reserva `per-u069-20261006-0900-3a7d91c4`. PER-U068 permanece aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 11/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. PER-U069 — Malha viária, portos e aeroportos está done; próxima ação: PER-U070 — Cultura maranhense**, conforme 5.2/7.5. PER-U069 foi publicada, relida integralmente na `main` e aceita; O065 permaneceu intacto. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 12/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -621,7 +621,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U066 — Extrativismo vegetal, animal e mineral | E07: 10 | O062 | `extrativismo-vegetal-animal-mineral` / `per-u066` / 660 | Integral por cópia local de O062; remissões/corte TCE neutralizados, fontes e anteriores revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U067 — Indústrias de base e transformação | E07: 11 | O063 | `industrias-base-transformacao` / `per-u067` / 670 | Integral por cópia local de O063; remissões/corte TCE neutralizados, redundâncias de Q removidas e fontes/anteriores revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U068 — Setor terciário: comércio, telecomunicações e transportes | E07: 12 | O064 | `comercio-telecom-transportes` / `per-u068` / 680 | Integral por cópia local de O064; remissão TCE neutralizada, versões estatísticas atuais explicitadas e anteriores revalidadas; infraestrutura específica permanece em U069; C/H/Q aceitos em 5.11. |
-| PER-U069 — Malha viária, portos e aeroportos | E07: 13, 14 | O065 | `malha-viaria-portos-aeroportos` / `per-u069` / 690 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U069 — Malha viária, portos e aeroportos | E07: 13, 14 | O065 | `malha-viaria-portos-aeroportos` / `per-u069` / 690 | Integral por cópia local de O065; corte/remissão TCE neutralizados, infraestrutura e mudança de controle aeroportuário revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U070 — Cultura maranhense | E07: 15 | O066 | `cultura-maranhense` / `per-u070` / 700 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
 
 #### 5.2.8 Noções de Criminalística
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 94/132 |
-| Unidades distintas da objetiva | 98 | 67 |
+| Referências literais da objetiva | 132/132 | 96/132 |
+| Unidades distintas da objetiva | 98 | 68 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 67 |
-| Entregáveis unitários C/H/Q | 297: 96 pending + 0 analyzing + 201 done | 201 done |
-| Visões consumidoras previstas | 99 | 67 |
+| Total de unidades distintas | 99 | 68 |
+| Entregáveis unitários C/H/Q | 297: 93 pending + 0 analyzing + 204 done | 204 done |
+| Visões consumidoras previstas | 99 | 68 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 9 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 10 integrais locais e 5 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 62 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 63 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2304,6 +2304,24 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `18216cf1ed9997b3518735b1d5d6145e0e9b0d67` |
 | R | `e59b4a5a2760d13713623052379743283eba8ac5` |
 
+#### PER-U069 — Malha viária, portos e aeroportos: integral/local — C/H/Q done
+
+- **Decisão:** O065 coincide integralmente com E07:13–14, mas C/H carregavam o corte factual e a remissão interna da campanha <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Foi feita cópia local com identidade `per-u069`, ordem 690 e atualização factual própria, sem alterar os dois consumidores TCE.
+- **C/H:** a aula preserva rede física → identidade da infraestrutura → operador/administração → indicador, distinguindo jurisdição, concessão, conexão ferroviária, porto organizado/<abbr title="Terminal de Uso Privado">TUP</abbr> e códigos aeroportuários. H troca “Assunto 092” pela fronteira nominal com a unidade de setor terciário. C passa de 2.021 para 2.192 palavras visíveis; o crescimento se concentra em atualização aeroportuária e datas de referência.
+- **Revalidação 06/10/2026:** <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr> mantém sete rodovias federais e o mapa de fevereiro/2026 com 3.512,2 km da malha sob sua administração; <abbr title="Agência Nacional de Transportes Terrestres">ANTT</abbr> mantém <abbr title="Estrada de Ferro Carajás">EFC</abbr> 996,7 km, <abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> 744,5 km e <abbr title="Ferrovia Transnordestina Logística">FTL</abbr> 4.295,1 km como extensões multiestaduais; Itaqui teve gestão renovada até 2051; Ponta da Madeira movimentou 172,4 milhões t em 2025.
+- **Mudança posterior ao edital:** em 01/09/2026, a Motiva concluiu a venda de sua plataforma de aeroportos ao <abbr title="Grupo Aeroportuario del Sureste">ASUR</abbr>. Os certificados <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> consultados continuam identificando a Concessionária do Bloco Central S.A. como operadora de São Luís e Imperatriz; a aula separa operador certificado, controlador e marca.
+- **Q:** `questionSetRevision: 4`, 61 questões/305 opções, 59 autorais + 2 anteriores, zero HTML/duplicidades/gabaritos inválidos. `q8312` foi reescrita para a mudança de controle e passou a `revision: 2`. `q8318` (FGV/PM-MA 2012, questão 47 Tipo 1 = E) e `q20012` (CEBRASPE/Prefeitura de São Luís 2017, questão 62 = D) foram revalidadas em cadernos e gabaritos definitivos.
+- **Inspeção unitária:** quatro arquivos próprios relidos na `main`; commit limitado a U069; O065 conserva C/H/Q/R. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`3177500a`](https://github.com/insign/concursos/commit/3177500adb0b4542c5803a33242b7348157e6e09).
+
+| Arquivo | Blob |
+|---|---|
+| C | `8006618bd3b4c269a3f4805af998d7988e18a1aa` |
+| H | `70c8538e91feec6e7da0f92e1274b798fb7b77a8` |
+| Q | `8feb9f7d31df1ada76f0d1cc9040a2b08b27ce3e` |
+| R | `873aaaac09ba8acb1eda7b14fc5e8ebb38c5ef5b` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2885,9 +2903,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U069 — Malha viária, portos e aeroportos
 
-- [ ] PER-U069-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U069-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U069-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U069-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U069-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U069-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U070 — Cultura maranhense
 
@@ -3343,3 +3361,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U067:** artefato `b5e3a066a0d4a6c44308968a5342466b18966061` e correção de microglossário `c3ec3f1ef80927d42b0fa2de54f24957a00713e0` confirmados; cópia local integral de O063, descritor `geografia-maranhao/grupo.json` materializado, 58 questões/289 opções, C/H/Q e proveniência 5.11 aceitos. E07:11 aceito. Totais resultantes: 66/99 unidades, 198/297 C/H/Q, 93/132 referências e 2598 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 10/13. Próxima ação PER-U068 — Setor terciário: comércio, telecomunicações e transportes.
 
 - **PER-U068:** artefato `d81ad63c87107d08f94ca5529c7a6e0874f082fc` confirmado; cópia local integral de O064, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:12 aceito. Totais resultantes: 67/99 unidades, 201/297 C/H/Q, 94/132 referências e 2660 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 11/13. Próxima ação PER-U069 — Malha viária, portos e aeroportos.
+
+- **PER-U069:** artefato `3177500adb0b4542c5803a33242b7348157e6e09` confirmado; cópia local integral de O065, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E07:13–14 aceitos. Totais resultantes: 68/99 unidades, 204/297 C/H/Q, 96/132 referências e 2721 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 12/13. Próxima ação PER-U070 — Cultura maranhense.
