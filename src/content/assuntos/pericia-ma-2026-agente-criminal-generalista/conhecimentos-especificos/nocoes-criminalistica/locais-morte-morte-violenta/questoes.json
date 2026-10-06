@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u075-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A abordagem criminalística mais adequada em local com cadáver é",
+      "options": [
+        {
+          "id": "A",
+          "text": "interpretar o corpo sem considerar o ambiente."
+        },
+        {
+          "id": "B",
+          "text": "integrar corpo, posição, ambiente e vestígios, testando hipóteses sem transformar um achado isolado em conclusão."
+        },
+        {
+          "id": "C",
+          "text": "considerar toda morte como homicídio até prova em contrário."
+        },
+        {
+          "id": "D",
+          "text": "mover o corpo antes da documentação."
+        },
+        {
+          "id": "E",
+          "text": "substituir a necropsia por fotografia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O local de morte exige correlação entre corpo e ambiente, com hipóteses limitadas pelo conjunto dos achados."
+    },
+    {
+      "id": "per-u075-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação médico-legal tradicional, morte violenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sinônimo de homicídio."
+        },
+        {
+          "id": "B",
+          "text": "corresponde ao campo das mortes por causas externas, incluindo homicídio, suicídio e acidente."
+        },
+        {
+          "id": "C",
+          "text": "exclui acidentes."
+        },
+        {
+          "id": "D",
+          "text": "só existe quando há arma de fogo."
+        },
+        {
+          "id": "E",
+          "text": "é definida exclusivamente pela posição do cadáver."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Morte violenta está ligada a causas externas; homicídio é apenas uma das maneiras possíveis."
+    },
+    {
+      "id": "per-u075-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Local de encontro do cadáver, local da lesão causal e local da morte",
+      "options": [
+        {
+          "id": "A",
+          "text": "são necessariamente o mesmo."
+        },
+        {
+          "id": "B",
+          "text": "podem coincidir ou divergir conforme deslocamento da vítima ou movimentação do corpo."
+        },
+        {
+          "id": "C",
+          "text": "só divergem em morte natural."
+        },
+        {
+          "id": "D",
+          "text": "não possuem importância pericial."
+        },
+        {
+          "id": "E",
+          "text": "são definidos apenas por testemunhas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A pessoa pode deslocar-se depois de lesionada ou o corpo pode ser transportado após a morte."
+    },
+    {
+      "id": "per-u075-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Código de Processo Penal, em relação ao cadáver encontrado no local,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser fotografado na posição em que foi encontrado."
+        },
+        {
+          "id": "B",
+          "text": "deve ser colocado em decúbito dorsal antes da foto."
+        },
+        {
+          "id": "C",
+          "text": "só deve ser fotografado após necropsia."
+        },
+        {
+          "id": "D",
+          "text": "a fotografia é proibida antes da identificação."
+        },
+        {
+          "id": "E",
+          "text": "a posição original é irrelevante."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 164 determina fotografia do cadáver na posição em que foi encontrado, preservando relação espacial."
+    },
+    {
+      "id": "per-u075-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal razão para documentar o corpo antes de movê-lo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitar uma fotografia esteticamente melhor."
+        },
+        {
+          "id": "B",
+          "text": "preservar relações espaciais que podem ser perdidas com a movimentação."
+        },
+        {
+          "id": "C",
+          "text": "dispensar a necropsia."
+        },
+        {
+          "id": "D",
+          "text": "fixar juridicamente a autoria."
+        },
+        {
+          "id": "E",
+          "text": "evitar qualquer exame posterior."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Movimentar o corpo pode destruir informação sobre posição e relação com o ambiente."
+    },
+    {
+      "id": "per-u075-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma posição corporal considerada 'estranha' pelo observador",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que o cadáver foi transportado."
+        },
+        {
+          "id": "B",
+          "text": "é suficiente para concluir homicídio."
+        },
+        {
+          "id": "C",
+          "text": "gera hipótese que precisa ser confrontada com outros vestígios e fenômenos."
+        },
+        {
+          "id": "D",
+          "text": "dispensa exame médico-legal."
+        },
+        {
+          "id": "E",
+          "text": "define o local da morte."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A aparência isolada da posição não prova movimentação nem maneira da morte."
+    },
+    {
+      "id": "per-u075-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nesta unidade, livores e rigidez cadavérica devem ser usados principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixar horário exato da morte."
+        },
+        {
+          "id": "B",
+          "text": "testar compatibilidade entre estado do corpo, posição e ambiente, deixando cronologia detalhada para unidade própria."
+        },
+        {
+          "id": "C",
+          "text": "provar autoria."
+        },
+        {
+          "id": "D",
+          "text": "substituir fotografia."
+        },
+        {
+          "id": "E",
+          "text": "classificar automaticamente a morte como violenta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fenômenos cadavéricos são ponte contextual aqui; Tanatologia e cronotanatognose pertencem à U081."
+    },
+    {
+      "id": "per-u075-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma lesão externa próxima de uma quina rígida permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a quina causou necessariamente a lesão."
+        },
+        {
+          "id": "B",
+          "text": "houve acidente."
+        },
+        {
+          "id": "C",
+          "text": "há uma possível relação a ser examinada com os demais achados."
+        },
+        {
+          "id": "D",
+          "text": "a morte foi homicídio."
+        },
+        {
+          "id": "E",
+          "text": "não é necessário examinar o corpo internamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Compatibilidade espacial cria hipótese, mas não estabelece causalidade ou maneira da morte sozinha."
+    },
+    {
+      "id": "per-u075-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Encontrar uma arma ou ferramenta ao lado do corpo",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova seu uso no evento."
+        },
+        {
+          "id": "B",
+          "text": "prova autoria de quem a possuía."
+        },
+        {
+          "id": "C",
+          "text": "exige avaliar posição, compatibilidade, materiais e exames específicos antes de estabelecer relação causal."
+        },
+        {
+          "id": "D",
+          "text": "torna irrelevantes outros vestígios."
+        },
+        {
+          "id": "E",
+          "text": "define a morte como violenta por homicídio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Proximidade não equivale a uso ou nexo; a relação precisa ser tecnicamente sustentada."
+    },
+    {
+      "id": "per-u075-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distribuição de sangue no local",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode fornecer relações espaciais relevantes, mas não deve ser interpretada de forma complexa por um sinal isolado."
+        },
+        {
+          "id": "B",
+          "text": "prova sempre a posição inicial da vítima."
+        },
+        {
+          "id": "C",
+          "text": "dispensa exame do corpo."
+        },
+        {
+          "id": "D",
+          "text": "identifica automaticamente o agressor."
+        },
+        {
+          "id": "E",
+          "text": "é irrelevante se houver cadáver."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Manchas podem apoiar hipóteses de posição e deslocamento, mas exigem contexto e análise adequada."
+    },
+    {
+      "id": "per-u075-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de sangue visível em uma cena",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui hemorragia relevante."
+        },
+        {
+          "id": "B",
+          "text": "prova morte natural."
+        },
+        {
+          "id": "C",
+          "text": "não exclui, sozinha, lesão hemorrágica ou sangue não visível no local examinado."
+        },
+        {
+          "id": "D",
+          "text": "prova que o corpo foi movido."
+        },
+        {
+          "id": "E",
+          "text": "torna a necropsia desnecessária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ausência observada possui alcance limitado e deve ser confrontada com corpo e demais exames."
+    },
+    {
+      "id": "per-u075-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roupas no local de morte",
+      "options": [
+        {
+          "id": "A",
+          "text": "são irrelevantes se o corpo já foi identificado."
+        },
+        {
+          "id": "B",
+          "text": "podem conter danos, manchas e materiais e devem ser correlacionadas com lesões e posição."
+        },
+        {
+          "id": "C",
+          "text": "devem ser retiradas antes de qualquer fotografia."
+        },
+        {
+          "id": "D",
+          "text": "provam sozinhas o instrumento lesivo."
+        },
+        {
+          "id": "E",
+          "text": "não registram alterações de atendimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Roupas fazem parte da relação corpo-local e podem preservar ou explicar achados."
+    },
+    {
+      "id": "per-u075-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma marca produzida por atendimento de saúde é",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente lesão do crime."
+        },
+        {
+          "id": "B",
+          "text": "achado iatrogênico, que deve ser distinguido das lesões do evento."
+        },
+        {
+          "id": "C",
+          "text": "sempre vestígio forjado."
+        },
+        {
+          "id": "D",
+          "text": "prova de luta."
+        },
+        {
+          "id": "E",
+          "text": "fenômeno cadavérico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Achados iatrogênicos decorrem da intervenção de saúde e precisam ser documentados como tal."
+    },
+    {
+      "id": "per-u075-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma sala desorganizada ao redor do cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova luta."
+        },
+        {
+          "id": "B",
+          "text": "pode resultar de diferentes causas e precisa ser analisada com outros vestígios."
+        },
+        {
+          "id": "C",
+          "text": "define homicídio."
+        },
+        {
+          "id": "D",
+          "text": "é irrelevante para o levantamento."
+        },
+        {
+          "id": "E",
+          "text": "prova simulação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Desordem pode decorrer de luta, socorro, rotina anterior, busca, movimentação ou simulação; não é conclusão isolada."
+    },
+    {
+      "id": "per-u075-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de ferimentos externos visíveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova morte natural."
+        },
+        {
+          "id": "B",
+          "text": "exclui morte violenta."
+        },
+        {
+          "id": "C",
+          "text": "não permite, isoladamente, excluir causa externa ou morte violenta."
+        },
+        {
+          "id": "D",
+          "text": "prova intoxicação."
+        },
+        {
+          "id": "E",
+          "text": "torna o local sem interesse."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Morte violenta pode ocorrer sem lesão externa evidente; necropsia e exames complementares podem ser decisivos."
+    },
+    {
+      "id": "per-u075-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de uma lesão visível no cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "significa que ela causou a morte."
+        },
+        {
+          "id": "B",
+          "text": "deve ser correlacionada com o restante do exame; lesão presente não é automaticamente causa médica da morte."
+        },
+        {
+          "id": "C",
+          "text": "prova autoria."
+        },
+        {
+          "id": "D",
+          "text": "dispensa análise do local."
+        },
+        {
+          "id": "E",
+          "text": "define homicídio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lesão e causa da morte são perguntas diferentes; relação causal precisa ser demonstrada."
+    },
+    {
+      "id": "per-u075-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Causa médica, mecanismo fisiopatológico, maneira médico-legal e autoria",
+      "options": [
+        {
+          "id": "A",
+          "text": "são expressões equivalentes."
+        },
+        {
+          "id": "B",
+          "text": "respondem a perguntas diferentes e não devem ser substituídas umas pelas outras."
+        },
+        {
+          "id": "C",
+          "text": "são definidas apenas pela cena."
+        },
+        {
+          "id": "D",
+          "text": "dependem apenas de testemunhos."
+        },
+        {
+          "id": "E",
+          "text": "são todas atribuições exclusivas do perito criminal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Causa, mecanismo, circunstâncias médico-legais e autoria pertencem a níveis distintos de análise."
+    },
+    {
+      "id": "per-u075-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre local e necropsia é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o local sempre substitui a necropsia."
+        },
+        {
+          "id": "B",
+          "text": "a necropsia torna o local irrelevante."
+        },
+        {
+          "id": "C",
+          "text": "são fontes complementares: o local fornece contexto e relações; a necropsia aprofunda o exame cadavérico."
+        },
+        {
+          "id": "D",
+          "text": "somente o local pode esclarecer causa médica."
+        },
+        {
+          "id": "E",
+          "text": "somente a necropsia pode registrar posição do corpo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A correlação entre cena e exame cadavérico fortalece ou limita hipóteses."
+    },
+    {
+      "id": "per-u075-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Livores incompatíveis com a posição atual do cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam sozinhos que o corpo foi movido."
+        },
+        {
+          "id": "B",
+          "text": "podem sugerir movimentação, mas exigem interpretação conforme estágio, compressão e outros dados."
+        },
+        {
+          "id": "C",
+          "text": "provam homicídio."
+        },
+        {
+          "id": "D",
+          "text": "são irrelevantes no local."
+        },
+        {
+          "id": "E",
+          "text": "fixam o horário exato da morte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A incompatibilidade pode ser indício técnico de movimentação, mas não deve ser usada isoladamente."
+    },
+    {
+      "id": "per-u075-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal função da PER-U075 em relação às unidades U076–U081 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir todos os aprofundamentos específicos."
+        },
+        {
+          "id": "B",
+          "text": "ensinar a arquitetura comum de local de morte e deixar mecanismos específicos e Tanatologia detalhada para as unidades próprias."
+        },
+        {
+          "id": "C",
+          "text": "ensinar balística completa."
+        },
+        {
+          "id": "D",
+          "text": "tratar exclusivamente de asfixia."
+        },
+        {
+          "id": "E",
+          "text": "eliminar a necessidade de estudar traumatologia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "U075 integra local, corpo e circunstâncias; mecanismos e fenômenos detalhados permanecem nos recortes seguintes."
+    },
+    {
+      "id": "u154-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 92 da prova Cebraspe/PC-RJ 2022 para Delegado, em uma investigação de queda de altura com dois cadáveres, a reconstrução médico-legal deve priorizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma única lesão externa, independentemente do local."
+        },
+        {
+          "id": "B",
+          "text": "a integração de achados periciais, exame do local e relações espaciais, como distâncias e linha de projeção."
+        },
+        {
+          "id": "C",
+          "text": "apenas a presença de um objeto potencialmente lesivo."
+        },
+        {
+          "id": "D",
+          "text": "somente a toxicologia, sem considerar geometria."
+        },
+        {
+          "id": "E",
+          "text": "a aparência inicial da cena como conclusão definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. No cenário, o conjunto de perícias e relações espaciais permitia distinguir as causas jurídicas das mortes."
+    }
+  ]
+}
