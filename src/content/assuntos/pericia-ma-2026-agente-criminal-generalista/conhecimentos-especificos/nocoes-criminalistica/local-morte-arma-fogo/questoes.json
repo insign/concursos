@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u076-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um local de morte com suspeita de disparo de arma de fogo, a reconstrução criminalística deve priorizar",
+      "options": [
+        {"id": "A", "text": "a presença isolada da arma próxima ao corpo."},
+        {"id": "B", "text": "a convergência entre posição, impactos, componentes de munição, resíduos, corpo e demais vestígios."},
+        {"id": "C", "text": "exclusivamente a quantidade de estojos encontrados."},
+        {"id": "D", "text": "somente a aparência externa das lesões."},
+        {"id": "E", "text": "a hipótese inicialmente sugerida por testemunhas, ainda que incompatível com vestígios."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reconstrução depende da integração de relações espaciais e materiais. Um único achado não deve ser convertido em dinâmica provada."
+    },
+    {
+      "id": "per-u076-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma arma de fogo foi encontrada ao lado do cadáver. Esse achado, isoladamente,",
+      "options": [
+        {"id": "A", "text": "prova suicídio."},
+        {"id": "B", "text": "prova que a arma foi disparada pela vítima."},
+        {"id": "C", "text": "é um vestígio relevante que precisa ser correlacionado com os demais dados antes de qualquer conclusão sobre uso, autoria ou maneira da morte."},
+        {"id": "D", "text": "dispensa exame dos componentes de munição."},
+        {"id": "E", "text": "torna desnecessária a necropsia."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Proximidade espacial não demonstra uso, autoria nem maneira da morte; essas hipóteses exigem correlação."
+    },
+    {
+      "id": "per-u076-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à arma encontrada em uma cena de disparo, a conduta pericial conceitualmente mais adequada é",
+      "options": [
+        {"id": "A", "text": "movê-la imediatamente para descobrir o que existe abaixo dela, sem registro prévio."},
+        {"id": "B", "text": "documentar sua posição e condição antes da movimentação, quando a segurança e o socorro permitirem, registrando eventual intervenção necessária."},
+        {"id": "C", "text": "testá-la no próprio local para confirmar seu funcionamento."},
+        {"id": "D", "text": "ignorar sua posição porque apenas o exame laboratorial interessa."},
+        {"id": "E", "text": "presumir que seu estado encontrado nunca sofreu alteração anterior."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A posição e a condição da arma podem ter valor reconstrutivo. Segurança e preservação da vida prevalecem, e alterações necessárias devem ser documentadas."
+    },
+    {
+      "id": "per-u076-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre cartucho, estojo e projétil, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "são nomes equivalentes para o mesmo componente."},
+        {"id": "B", "text": "o projétil é o componente lançado em direção ao alvo, enquanto o estojo pode permanecer ou ser ejetado conforme o sistema da arma."},
+        {"id": "C", "text": "o estojo necessariamente acompanha o projétil até o alvo."},
+        {"id": "D", "text": "o cartucho só existe depois do disparo."},
+        {"id": "E", "text": "a posição final de todos eles deve coincidir."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os componentes têm funções distintas e podem ocupar regiões diferentes da cena, o que é essencial para a interpretação espacial."
+    },
+    {
+      "id": "per-u076-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de estojos deflagrados no chão permite concluir que",
+      "options": [
+        {"id": "A", "text": "foi necessariamente usado um revólver."},
+        {"id": "B", "text": "não houve disparo de arma de fogo."},
+        {"id": "C", "text": "houve apenas um disparo."},
+        {"id": "D", "text": "o dado tem alcance limitado e admite explicações como sistema da arma, recolhimento, deslocamento ou alteração da cena."},
+        {"id": "E", "text": "o corpo foi transportado."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ausência de estojo é dado negativo que não identifica automaticamente a arma nem exclui disparo."
+    },
+    {
+      "id": "per-u076-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Encontrar um estojo a dois metros do cadáver significa, por si só, que",
+      "options": [
+        {"id": "A", "text": "o atirador estava exatamente naquele ponto."},
+        {"id": "B", "text": "a vítima estava de pé."},
+        {"id": "C", "text": "a posição do estojo deve ser interpretada considerando ejeção, quique e possíveis alterações da cena."},
+        {"id": "D", "text": "houve ricochete do projétil."},
+        {"id": "E", "text": "o disparo foi acidental."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição final do estojo não coincide necessariamente com a posição da arma no instante da ejeção."
+    },
+    {
+      "id": "per-u076-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um dano circular em uma parede é suspeito de impacto de projétil. O procedimento intelectual adequado é",
+      "options": [
+        {"id": "A", "text": "classificá-lo imediatamente como impacto de bala pelo formato."},
+        {"id": "B", "text": "documentar localização, suporte, características e relações espaciais, submetendo a hipótese a exame compatível."},
+        {"id": "C", "text": "remover de imediato a área da parede antes das fotografias."},
+        {"id": "D", "text": "ignorar impactos se houver cadáver no local."},
+        {"id": "E", "text": "usar apenas o diâmetro para identificar a arma específica."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A aparência gera hipótese; a natureza do impacto e seu valor reconstrutivo dependem de documentação e exame."
+    },
+    {
+      "id": "per-u076-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma trajetória estimada a partir de impactos confiáveis permite, isoladamente, determinar",
+      "options": [
+        {"id": "A", "text": "a identidade do atirador."},
+        {"id": "B", "text": "a intenção de matar."},
+        {"id": "C", "text": "a direção ou caminho provável do projétil, sem fixar por si só autoria, postura ou posição corporal exata."},
+        {"id": "D", "text": "a causa jurídica da morte."},
+        {"id": "E", "text": "o modelo exato da arma."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trajetória é uma relação geométrica. Sua força depende dos impactos e da integridade da cena, e não responde automaticamente a perguntas de autoria."
+    },
+    {
+      "id": "per-u076-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na reconstrução de um disparo, a existência de um alvo intermediário é relevante porque",
+      "options": [
+        {"id": "A", "text": "garante que o projétil manteve a direção original."},
+        {"id": "B", "text": "pode alterar direção, estabilidade, deformação ou fragmentação do projétil."},
+        {"id": "C", "text": "elimina a necessidade de examinar impactos posteriores."},
+        {"id": "D", "text": "prova que houve mais de um atirador."},
+        {"id": "E", "text": "impede qualquer reconstrução."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Interações com alvos intermediários podem modificar o comportamento do projétil e precisam ser consideradas."
+    },
+    {
+      "id": "per-u076-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma cena foram encontrados três fragmentos de projétil e dois estojos. A conclusão correta é que",
+      "options": [
+        {"id": "A", "text": "ocorreram exatamente cinco disparos."},
+        {"id": "B", "text": "ocorreram exatamente três disparos."},
+        {"id": "C", "text": "ocorreram exatamente dois disparos."},
+        {"id": "D", "text": "as quantidades devem ser conciliadas com impactos, fragmentação, recuperação incompleta e demais vestígios antes de estimar o número de disparos."},
+        {"id": "E", "text": "os fragmentos não têm valor reconstrutivo."}
+      ],
+      "correctOptionId": "D",
+      "explanation": "Fragmentação, perdas e trajetórias por múltiplas superfícies impedem equivalência automática entre contagens."
+    },
+    {
+      "id": "per-u076-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A detecção de resíduos de disparo nas mãos de uma pessoa permite afirmar, isoladamente, que ela",
+      "options": [
+        {"id": "A", "text": "efetuou o disparo."},
+        {"id": "B", "text": "esteve necessariamente a menos de um metro da arma."},
+        {"id": "C", "text": "teve exposição compatível com hipóteses que podem incluir disparo, proximidade ou transferência, devendo o resultado ser contextualizado."},
+        {"id": "D", "text": "é autora do homicídio."},
+        {"id": "E", "text": "manuseou exatamente a arma encontrada."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Resíduos podem decorrer de diferentes formas de exposição e transferência; sua presença não individualiza automaticamente a atividade realizada."
+    },
+    {
+      "id": "per-u076-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um resultado negativo para resíduos de disparo nas mãos de um suspeito",
+      "options": [
+        {"id": "A", "text": "prova que ele não disparou."},
+        {"id": "B", "text": "deve ser interpretado considerando tempo, lavagem, fricção, atividades, ambiente, coleta e características da arma e munição."},
+        {"id": "C", "text": "prova que a arma não foi utilizada."},
+        {"id": "D", "text": "elimina a necessidade de examinar a cena."},
+        {"id": "E", "text": "prova transferência do corpo."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Resíduos podem ser perdidos ou não recuperados; um resultado negativo não exclui por si só o disparo."
+    },
+    {
+      "id": "per-u076-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre estimativa da distância entre a boca da arma e o alvo a partir de resíduos, assinale a opção correta.",
+      "options": [
+        {"id": "A", "text": "Existe tabela universal em centímetros válida para qualquer arma e munição."},
+        {"id": "B", "text": "A distância pode ser estimada por padrões preservados e comparação adequada, considerando arma, munição e alvo."},
+        {"id": "C", "text": "A ausência de resíduo define distância infinita."},
+        {"id": "D", "text": "A distância é determinada apenas pelo calibre nominal."},
+        {"id": "E", "text": "A análise independe das condições do vestígio."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Padrões variam com sistema arma-munição, alvo e condições; não há limiar universal aplicável a toda situação."
+    },
+    {
+      "id": "per-u076-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roupas e superfícies atingidas em uma cena de disparo",
+      "options": [
+        {"id": "A", "text": "só interessam se contiverem sangue."},
+        {"id": "B", "text": "podem preservar perfurações, resíduos, fragmentos e relações espaciais úteis à reconstrução."},
+        {"id": "C", "text": "devem ser limpas antes de fotografadas."},
+        {"id": "D", "text": "não contribuem para avaliação de distância."},
+        {"id": "E", "text": "substituem o exame do cadáver."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Suportes podem preservar padrões e materiais que complementam o exame do corpo e da arma."
+    },
+    {
+      "id": "per-u076-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após um disparo, houve socorro, chuva e circulação de pessoas pelo local. Na reconstrução, essas informações",
+      "options": [
+        {"id": "A", "text": "devem ser omitidas para não enfraquecer o laudo."},
+        {"id": "B", "text": "são irrelevantes se a arma foi localizada."},
+        {"id": "C", "text": "precisam ser consideradas porque podem alterar posição de vestígios, resíduos e outros elementos, limitando conclusões."},
+        {"id": "D", "text": "provam que a cena foi forjada."},
+        {"id": "E", "text": "impedem qualquer exame pericial."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Alterações pós-evento são parte da história da cena e podem afetar a confiança da reconstrução."
+    },
+    {
+      "id": "per-u076-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um projétil está incrustado em um móvel. Antes de sua recuperação, o mais adequado é",
+      "options": [
+        {"id": "A", "text": "extraí-lo imediatamente para evitar que seja fotografado no local."},
+        {"id": "B", "text": "documentar impacto, localização e relações pertinentes, realizando depois a recuperação de modo a preservar características e associação com o ponto de origem."},
+        {"id": "C", "text": "marcar o projétil com instrumento cortante."},
+        {"id": "D", "text": "descartar o móvel por não ter valor."},
+        {"id": "E", "text": "presumir que ele veio da arma mais próxima."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A recuperação deve preservar tanto o material quanto a informação espacial que o contextualiza."
+    },
+    {
+      "id": "per-u076-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A identificação pericial de um componente de munição como tendo sido disparado por determinada arma significa que",
+      "options": [
+        {"id": "A", "text": "a autoria penal está automaticamente demonstrada."},
+        {"id": "B", "text": "a arma pode ser associada tecnicamente ao componente, mas autoria e dinâmica ainda dependem do conjunto de evidências."},
+        {"id": "C", "text": "a posição exata do atirador está definida."},
+        {"id": "D", "text": "a maneira da morte é necessariamente homicídio."},
+        {"id": "E", "text": "não é mais necessário examinar o local."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Associação de arma e componente responde a uma pergunta técnica específica e não substitui a reconstrução nem prova autoria sozinha."
+    },
+    {
+      "id": "per-u076-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em relação ao exame do local e à necropsia em morte por arma de fogo, é correto afirmar que",
+      "options": [
+        {"id": "A", "text": "o local torna a necropsia dispensável."},
+        {"id": "B", "text": "a necropsia torna a geometria da cena irrelevante."},
+        {"id": "C", "text": "o local fornece relações externas e a necropsia aprofunda lesões e percursos internos, devendo os achados ser correlacionados."},
+        {"id": "D", "text": "somente a necropsia pode identificar qualquer vestígio de disparo."},
+        {"id": "E", "text": "divergências entre ambos devem ser descartadas."}
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cena e exame cadavérico são complementares; divergências devem ser explicadas, não omitidas."
+    },
+    {
+      "id": "per-u076-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ricochete de um projétil é relevante para a interpretação da cena porque",
+      "options": [
+        {"id": "A", "text": "mantém obrigatoriamente a direção original."},
+        {"id": "B", "text": "pode produzir desvio e tornar inadequado prolongar mecanicamente uma linha como se não houvesse interação com superfície."},
+        {"id": "C", "text": "prova que o disparo foi acidental."},
+        {"id": "D", "text": "impede a formação de fragmentos."},
+        {"id": "E", "text": "elimina o valor dos impactos anteriores."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "A interação com superfícies pode alterar o caminho do projétil e deve ser incorporada à reconstrução."
+    },
+    {
+      "id": "per-u076-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma cena com diversos estojos, a individualização e o registro de suas posições ajudam principalmente a",
+      "options": [
+        {"id": "A", "text": "preservar identidade e relações espaciais para posterior correlação e reconstrução."},
+        {"id": "B", "text": "definir autoria antes do exame."},
+        {"id": "C", "text": "dispensar a cadeia de custódia."},
+        {"id": "D", "text": "provar que todos vieram da mesma arma."},
+        {"id": "E", "text": "estabelecer automaticamente o número de atiradores."}
+      ],
+      "correctOptionId": "A",
+      "explanation": "Identidade e posição são informações distintas e complementares; a correlação posterior depende de ambas."
+    },
+    {
+      "id": "per-u076-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 68 da prova Cebraspe/POLITEC-RO 2022 para Perito Criminal — Área 2, durante o exame de um local de homicídio por arma de fogo, estojos do mesmo calibre são encontrados em área próxima, mas sem ligação geográfica com o núcleo preservado do delito. Considerando a divisão doutrinária do local de crime, essa área deve ser tratada como",
+      "options": [
+        {"id": "A", "text": "local imediato, porque contém vestígio balístico."},
+        {"id": "B", "text": "local mediato, apenas por estar nas proximidades."},
+        {"id": "C", "text": "local inidôneo, porque não houve preservação inicial."},
+        {"id": "D", "text": "vestígio ilusório, sem necessidade de coleta."},
+        {"id": "E", "text": "local relacionado, pois pode manter vínculo com o fato mesmo sem continuidade geográfica com o núcleo."}
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito oficial definitivo da questão original foi E. A hipótese ilustra local relacionado: há vínculo potencial com o fato apesar da ausência de continuidade geográfica com a área principal."
+    }
+  ]
+}
