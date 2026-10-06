@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 21 | 0 | 15 |
+| Macros editoriais C/H/Q | 36 | 18 | 0 | 18 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 31 | 0 | 20 |
-| Unidades distintas | 99 | 30 | 1 | 68 |
-| Entregáveis unitários C/H/Q | 297 | 90 | 3 | 204 |
+| Total de macros individualizadas | 51 | 28 | 0 | 23 |
+| Unidades distintas | 99 | 30 | 0 | 69 |
+| Entregáveis unitários C/H/Q | 297 | 90 | 0 | 207 |
 
-Estado confirmado: **68 unidades/visões publicadas (63 locais, 5 por vínculo); 204 C/H/Q aceitos; 96/132 referências literais aceitas; 2721 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **69 unidades/visões publicadas (63 locais, 6 por vínculo); 207 C/H/Q aceitos; 97/132 referências literais aceitas; 2783 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q e PER-E06 C/H/Q done. PER-U070 — Cultura maranhense está analyzing**, conforme 5.2/7.5, sob a reserva `per-u070-20261006-0900-f4b8c2e1`. PER-U069 permanece aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 12/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U070 — Cultura maranhense está done; próxima ação: PER-U071 — Criminalística: definição, histórico e doutrina**, conforme 5.2/7.5. PER-U070 foi publicada por vínculo, o canônico O066 foi relido integralmente e permaneceu intacto. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 3/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -622,7 +622,7 @@ Grupo consumidor: `conhecimentos-gerais/geografia-maranhao/`, relativo à raiz d
 | PER-U067 — Indústrias de base e transformação | E07: 11 | O063 | `industrias-base-transformacao` / `per-u067` / 670 | Integral por cópia local de O063; remissões/corte TCE neutralizados, redundâncias de Q removidas e fontes/anteriores revalidadas; C/H/Q aceitos em 5.11. |
 | PER-U068 — Setor terciário: comércio, telecomunicações e transportes | E07: 12 | O064 | `comercio-telecom-transportes` / `per-u068` / 680 | Integral por cópia local de O064; remissão TCE neutralizada, versões estatísticas atuais explicitadas e anteriores revalidadas; infraestrutura específica permanece em U069; C/H/Q aceitos em 5.11. |
 | PER-U069 — Malha viária, portos e aeroportos | E07: 13, 14 | O065 | `malha-viaria-portos-aeroportos` / `per-u069` / 690 | Integral por cópia local de O065; corte/remissão TCE neutralizados, infraestrutura e mudança de controle aeroportuário revalidadas; C/H/Q aceitos em 5.11. |
-| PER-U070 — Cultura maranhense | E07: 15 | O066 | `cultura-maranhense` / `per-u070` / 700 | Cobrir integralmente os itens associados; comparar profundidade e artefatos em PER-R01/R02. |
+| PER-U070 — Cultura maranhense | E07: 15 | O066 | `cultura-maranhense` / canônico `cultura-maranhense` / 700 | Integral por vínculo ao canônico O066; C/H/Q/R e reconhecimentos patrimoniais revalidados; C/H/Q aceitos em 5.11. |
 
 #### 5.2.8 Noções de Criminalística
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 96/132 |
-| Unidades distintas da objetiva | 98 | 68 |
+| Referências literais da objetiva | 132/132 | 97/132 |
+| Unidades distintas da objetiva | 98 | 69 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 68 |
-| Entregáveis unitários C/H/Q | 297: 93 pending + 0 analyzing + 204 done | 204 done |
-| Visões consumidoras previstas | 99 | 68 |
+| Total de unidades distintas | 99 | 69 |
+| Entregáveis unitários C/H/Q | 297: 90 pending + 0 analyzing + 207 done | 207 done |
+| Visões consumidoras previstas | 99 | 69 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 10 integrais locais e 5 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 10 integrais locais e 6 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 2 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 63 unidades locais, 5 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 63 unidades locais, 6 vínculos Perícia; demais unidades dependem de PER-R02.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2322,6 +2322,25 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `8feb9f7d31df1ada76f0d1cc9040a2b08b27ce3e` |
 | R | `873aaaac09ba8acb1eda7b14fc5e8ebb38c5ef5b` |
 
+#### PER-U070 — Cultura maranhense: integral/canônico — C/H/Q done
+
+- **Decisão:** O066 coincide integralmente com E07:15. C/H são genéricos e não carregam corte, ordem ou remissão exclusiva dos consumidores <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>; Q/R também são compatíveis. Foi criado somente `vinculo.json`, ordem 700, preservando uma única origem editorial e sem cópia física.
+- **C/H:** releitura integral confirmou progressão por natureza da prática → gesto/rito → território/comunidade → tipo de reconhecimento, com contrastes Bumba Meu Boi, Tambor de Crioula/Mina/Terecô, Divino/Cacuriá, carnaval/reggae, patrimônio, literatura, música, culinária e artesanato. H recupera as mesmas distinções sem reensinar a aula.
+- **Patrimônio revalidado:** Bumba Meu Boi mantém registro nacional de 2011, inscrição <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> de 2019 e revalidação do registro em 2025; Tambor de Crioula mantém registro de 2007 e revalidação de 2021; Centro Histórico de São Luís permanece inscrito na Lista do Patrimônio Mundial desde 1997, critérios (iii), (iv) e (v); Alcântara permanece tombada federalmente desde 1948. A Lei nº 14.668/2023 continua dando a São Luís o título de Capital Nacional do Reggae, sem confundi-lo com registro ou inscrição internacional.
+- **Q:** canônico `questionSetRevision: 3`, 62 questões/310 opções, 60 autorais + 2 anteriores, zero HTML/duplicidades/gabaritos inválidos. `q20013` foi revalidada em caderno e gabarito definitivo CEBRASPE/Prefeitura de São Luís 2017, questão 44 = **B**. `q20014` foi revalidada no gabarito oficial após fase recursal da Fundação Sousândrade/IFMA 2025: Prova 64-A, questão 18 = **A**.
+- **Inspeção unitária:** vínculo e C/H/Q/R canônicos relidos na `main`; O066 conserva os quatro blobs de origem. PC/SEAP permanecem cópias físicas combinadas e não foram tratados como consumidores vinculados. Sem testes/build/check/CI.
+- **Índice inverso:** com U058–U070 concluídas, E07 fecha **13/13** e PER-E07-C/H/Q recebe done.
+
+**Publicação confirmada:** [`0c62b32f`](https://github.com/insign/concursos/commit/0c62b32fa1f7e8cb03e1abb4d2031f5538dc244d).
+
+| Evidência | Blob |
+|---|---|
+| vínculo | `0cf087ff6fa17003f8a085e6005affdc73361572` |
+| canônico C | `66c13ca797bf6c5e46184366455ea8aa21a2dd04` |
+| canônico H | `8383d17c2e33762d087554b1fb082dfefdb3ec38` |
+| canônico Q | `bbc07624e16f970f4bb4496ada63b51814f19589` |
+| canônico R | `47d458f0a314ed8d910133de4843bd93c488366d` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2448,9 +2467,9 @@ Respeitar o recorte de direito administrativo e agentes públicos deste bloco, s
 - [x] PER-E06-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E07 — Geografia do Maranhão
-- [ ] PER-E07-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências.
-- [ ] PER-E07-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] PER-E07-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] PER-E07-C — `done` — Pesquisar, revisar e salvar conteúdo e referências.
+- [x] PER-E07-H — `done` — Produzir e salvar cheat sheets.
+- [x] PER-E07-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 #### Conhecimentos específicos — item 21.2.3, Cargo 1
 
@@ -2909,9 +2928,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U070 — Cultura maranhense
 
-- [ ] PER-U070-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U070-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U070-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U070-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U070-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U070-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U071 — Criminalística: definição, histórico e doutrina
 
@@ -3363,3 +3382,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U068:** artefato `d81ad63c87107d08f94ca5529c7a6e0874f082fc` confirmado; cópia local integral de O064, 62 questões/310 opções, C/H/Q e proveniência 5.11 aceitos. E07:12 aceito. Totais resultantes: 67/99 unidades, 201/297 C/H/Q, 94/132 referências e 2660 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 11/13. Próxima ação PER-U069 — Malha viária, portos e aeroportos.
 
 - **PER-U069:** artefato `3177500adb0b4542c5803a33242b7348157e6e09` confirmado; cópia local integral de O065, 61 questões/305 opções, C/H/Q e proveniência 5.11 aceitos. E07:13–14 aceitos. Totais resultantes: 68/99 unidades, 204/297 C/H/Q, 96/132 referências e 2721 questões. Macros 20 done/31 pending/0 analyzing. E07 passa a 12/13. Próxima ação PER-U070 — Cultura maranhense.
+
+- **PER-U070:** vínculo `0c62b32fa1f7e8cb03e1abb4d2031f5538dc244d` confirmado; canônico O066 auditado em C/H/Q/R, 62 questões/310 opções, 60 autorais + 2 anteriores. E07:15 aceito e PER-E07-C/H/Q fecha done. Totais resultantes: 69/99 unidades, 207/297 C/H/Q, 97/132 referências e 2783 questões. Macros 23 done/28 pending/0 analyzing. E07 fecha 13/13. Próxima ação PER-U071 — Criminalística: definição, histórico e doutrina.
