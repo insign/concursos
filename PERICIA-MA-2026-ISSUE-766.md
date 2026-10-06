@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 18 | 0 | 18 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 28 | 0 | 23 |
-| Unidades distintas | 99 | 29 | 0 | 70 |
-| Entregáveis unitários C/H/Q | 297 | 87 | 0 | 210 |
+| Unidades distintas | 99 | 28 | 0 | 71 |
+| Entregáveis unitários C/H/Q | 297 | 84 | 0 | 213 |
 
-Estado confirmado: **70 unidades/visões publicadas (64 locais, 6 por vínculo); 210 C/H/Q aceitos; 98/132 referências literais aceitas; 2807 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **71 unidades/visões publicadas (65 locais, 6 por vínculo); 213 C/H/Q aceitos; 99/132 referências literais aceitas; 2829 questões acumuladas**. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U071 — Criminalística: definição, histórico e doutrina está done; próxima ação: PER-U072 — Locais de crime: classificação, isolamento e preservação**, conforme 5.2/7.5. PER-U071 foi publicada, relida integralmente na `main` e aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 4/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U072 — Locais de crime: classificação, isolamento e preservação está done; próxima ação: PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio**, conforme 5.2/7.5. PER-U072 foi publicada, relida integralmente na `main` e aceita. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 5/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -631,7 +631,7 @@ Grupo consumidor: `conhecimentos-especificos/nocoes-criminalistica/`, relativo �
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
 | PER-U071 — Criminalística: definição, histórico e doutrina | E08: 1 | S05; busca negativa de origem compatível | `criminalistica-fundamentos-historico-doutrina` / `per-u071` / 710 | Nova/local; definição, história, Gross/Locard e doutrina clássica com ressalvas epistemológicas; não importar Criminologia/Medicina Legal; C/H/Q aceitos em 5.11. |
-| PER-U072 — Locais de crime: classificação, isolamento e preservação | E08: 2 | O067 | `locais-crime-classificacao-isolamento-preservacao` / `per-u072` / 720 | Candidato médico é restrito; cobrir função técnico-operacional do Generalista. Pontes: PER-U047. |
+| PER-U072 — Locais de crime: classificação, isolamento e preservação | E08: 2 | O067 | `locais-crime-classificacao-isolamento-preservacao` / `per-u072` / 720 | Parcial/local: O067 usado só para preservação prévia ao exame, cena alterada e a questão anterior PF/2025; classificação criminalística e função técnico-operacional completadas com CPP/MJSP/SENASP. Fronteiras: PER-U047/U073/U074/U075. C/H/Q aceitos em 5.11. |
 | PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio | E08: 7 | O067 | `levantamentos-locais-pessoa-patrimonio` / `per-u073` / 730 | Finalidades e documentação; incluir patrimônio, sem ensinar execução profissional de perícia. Pontes: PER-U072. |
 | PER-U074 — Vestígios de interesse forense e classificações | E08: 8 | S05; sem candidato selecionado | `vestigios-forenses-classificacoes` / `per-u074` / 740 | Distinguir observação, inferência e limites. Pontes: PER-U047, PER-U072. |
 | PER-U075 — Locais de morte e morte violenta | E08: 9, 9.1 | O067 | `locais-morte-morte-violenta` / `per-u075` / 750 | Integração do local; aprofundamento dos fenômenos cadavéricos em U081. Pontes: PER-U072, PER-U074, PER-U081. |
@@ -2361,6 +2361,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `6cf487fa50792c8c7fce4ce5007cf0dc62c7563f` |
 | R | `66300d6187446350f401bb200b54d8a47d974906` |
 
+#### PER-U072 — Locais de crime: classificação, isolamento e preservação: parcial/local — C/H/Q done
+
+- **Recorte/origem/destino:** E08:2. O067 foi lido como candidato somente leitura, mas seu foco médico-legal não cobre integralmente o recorte criminalístico do Generalista; por isso, U072 é parcial/local no destino `conhecimentos-especificos/nocoes-criminalistica/locais-crime-classificacao-isolamento-preservacao/`, identidade `per-u072`, ordem 720. Blobs doadores O067: C `995521dc432975b1ab97895c6aea20b0453c66fe`, H `981ccc8dba235345a8be40b50352cbbf310fa9b9`, Q `06b8bd67789ab7b826d3213456ca02c3db2e5289`, R `e58cdd90ec8085737f4115d96a87fd866258b99d`. Sem `vinculo.json`.
+- **C/H, problema e intervenção:** o doador ensina perinecroscopia, cadáver e correlação médico-legal; copiar integralmente confundiria especialidades e deixaria classificação criminalística incompleta. A aula foi reconstruída em torno de conceito → classificação por relação espacial (imediato/mediato/relacionado) → ambiente (interno/externo) → estado de preservação (idôneo/inidôneo) → isolamento versus preservação → delimitação revisável → urgência → alterações/contaminação → controle de acesso → cena já alterada. O ganho é separar classificação doutrinária da literalidade legal e ensinar que isolamento é meio para preservar informação material. PER-U047 conserva a cadeia de custódia completa; U073, levantamentos; U074, classificações de vestígios; U075, locais de morte. C tem cerca de 1.973 palavras visíveis; H, cerca de 355, sem reensinar a aula.
+- **Fontes e corte:** S05 confirma E08:2. Foram revalidados o <abbr title="Código de Processo Penal">CPP</abbr> oficial nos arts. 6º, I, 158-A a 158-C e 169; relatório técnico do Ministério da Justiça e Segurança Pública para as classificações e alterações da cena; Caderno Temático de Investigação Criminal de Homicídios da <abbr title="Secretaria Nacional de Segurança Pública">SENASP</abbr> (2014) para delimitação espacial e preservação; e a prova/gabarito definitivos <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Federal">PF</abbr> 2025, item 85, conferidos também visualmente. Corte legislativo 17/07/2026 preservado; consulta material em 06/10/2026. Classificações operacionais não são apresentadas como texto literal do <abbr title="Código de Processo Penal">CPP</abbr>.
+- **Q:** `questionSetRevision: 1`, 22 questões/110 opções, 21 autorais + uma anterior adaptada de forma não literal (`per-u072-p01`, <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Federal">PF</abbr> 2025, item 85, gabarito definitivo Certo). IDs e opções são únicos, cada gabarito aponta para opção existente e as explicações enfrentam a confusão testada. Nenhuma `resolucoes/*.md` separada é necessária.
+- **Microglossário e inspeção unitária:** C/H/R foram relidos integralmente após publicação; todas as 22 questões, alternativas, gabaritos e explicações foram examinadas. Tags `abbr` estão balanceadas em C/H/R; Q permanece texto puro. Frontmatter confirma `per-u072`/720. Commit contém somente os quatro arquivos próprios. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`f90828db`](https://github.com/insign/concursos/commit/f90828dbab9d8f6842942dddb80b05528c5230f9).
+
+| Arquivo | Blob |
+|---|---|
+| C | `57ad764201998398288df926b24c4490f5f1e6bd` |
+| H | `1fb228c951ecb6b3b58d6a3c10f7c1192cf301ad` |
+| Q | `3abcbd4dc2283fe17f607c2b911922bb3d9b3f38` |
+| R | `7ac1b1c919dc0bf7e1276fe394bb44cee5339716` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2960,9 +2977,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U072 — Locais de crime: classificação, isolamento e preservação
 
-- [ ] PER-U072-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U072-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U072-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U072-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U072-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U072-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio
 
@@ -3406,3 +3423,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U070:** vínculo `0c62b32fa1f7e8cb03e1abb4d2031f5538dc244d` confirmado; canônico O066 auditado em C/H/Q/R, 62 questões/310 opções, 60 autorais + 2 anteriores. E07:15 aceito e PER-E07-C/H/Q fecha done. Totais resultantes: 69/99 unidades, 207/297 C/H/Q, 97/132 referências e 2783 questões. Macros 23 done/28 pending/0 analyzing. E07 fecha 13/13. Próxima ação PER-U071 — Criminalística: definição, histórico e doutrina.
 
 - **PER-U071:** artefato `d7df9e08d1676ad45eaa83dd43dab8594eadbf40` confirmado; unidade nova/local com grupos de Conhecimentos Específicos/Noções de Criminalística materializados, 24 questões/120 opções, C/H/Q/R aceitos. E08:1 aceito. Totais resultantes: 70/99 unidades, 210/297 C/H/Q, 98/132 referências e 2807 questões. Macros 23 done/28 pending/0 analyzing. E08 passa a 4/11. Lote solicitado de três unidades U069–U071 concluído. Próxima ação PER-U072 — Locais de crime: classificação, isolamento e preservação.
+
+- **PER-U072:** artefato `f90828dbab9d8f6842942dddb80b05528c5230f9` confirmado; parcial/local a partir de O067 com complementação criminalística em <abbr title="Código de Processo Penal">CPP</abbr>/Ministério da Justiça e Segurança Pública/<abbr title="Secretaria Nacional de Segurança Pública">SENASP</abbr>, 22 questões/110 opções (21 autorais + 1 anterior <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Federal">PF</abbr> 2025 verificada), C/H/Q/R aceitos. E08:2 aceito. Totais resultantes: 71/99 unidades, 213/297 C/H/Q, 99/132 referências e 2829 questões. Macros 23 done/28 pending/0 analyzing. E08 passa a 5/11. Próxima ação PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio.
