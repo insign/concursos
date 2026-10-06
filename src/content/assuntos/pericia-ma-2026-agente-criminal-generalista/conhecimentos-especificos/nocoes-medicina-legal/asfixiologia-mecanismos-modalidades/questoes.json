@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u080-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Asfixiologia forense estuda, no recorte deste edital, principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente intoxicações químicas."
+        },
+        {
+          "id": "B",
+          "text": "mecanismos e achados relacionados ao comprometimento da oxigenação de interesse médico-legal."
+        },
+        {
+          "id": "C",
+          "text": "apenas lesões por instrumentos cortantes."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente fenômenos cadavéricos."
+        },
+        {
+          "id": "E",
+          "text": "apenas doenças pulmonares naturais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Asfixiologia abrange diferentes mecanismos que comprometem a oxigenação; o edital enumera compressões cervicais, sufocação, soterramento, afogamento, confinamento e gases inertes."
+    },
+    {
+      "id": "per-u080-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre petéquias em mortes asfíxicas, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorrem em todos os casos."
+        },
+        {
+          "id": "B",
+          "text": "são exclusivas de afogamento."
+        },
+        {
+          "id": "C",
+          "text": "são produzidas apenas por hipóxia celular."
+        },
+        {
+          "id": "D",
+          "text": "podem apoiar a interpretação, mas não são achado exclusivo nem obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "provam homicídio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Petéquias possuem mecanismos vasculares e mecânicos e podem estar ausentes em asfixias ou presentes em outras condições."
+    },
+    {
+      "id": "per-u080-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O enforcamento caracteriza-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o peso do corpo ou de parte dele participa da força que tensiona o laço cervical."
+        },
+        {
+          "id": "B",
+          "text": "uma pessoa necessariamente aperta o laço com as mãos."
+        },
+        {
+          "id": "C",
+          "text": "a compressão é obrigatoriamente manual."
+        },
+        {
+          "id": "D",
+          "text": "há sempre suspensão completa."
+        },
+        {
+          "id": "E",
+          "text": "não ocorre compressão vascular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A origem gravitacional da força de constrição diferencia o enforcamento do estrangulamento por laço."
+    },
+    {
+      "id": "per-u080-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No enforcamento incompleto",
+      "options": [
+        {
+          "id": "A",
+          "text": "a via aérea permanece sempre livre."
+        },
+        {
+          "id": "B",
+          "text": "não existe risco de morte."
+        },
+        {
+          "id": "C",
+          "text": "parte do corpo pode permanecer apoiada e ainda assim existir constrição cervical relevante."
+        },
+        {
+          "id": "D",
+          "text": "o laço necessariamente fica abaixo da cartilagem tireoide."
+        },
+        {
+          "id": "E",
+          "text": "não pode haver perda de consciência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Suspensão total não é requisito para a modalidade."
+    },
+    {
+      "id": "per-u080-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O sulco clássico do enforcamento tende a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre horizontal e múltiplo."
+        },
+        {
+          "id": "B",
+          "text": "sempre abaixo da cartilagem tireoide."
+        },
+        {
+          "id": "C",
+          "text": "circular perfeito e contínuo."
+        },
+        {
+          "id": "D",
+          "text": "sem relação com o ponto do nó."
+        },
+        {
+          "id": "E",
+          "text": "oblíquo ou ascendente em direção ao nó, embora haja variações."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A descrição clássica é uma tendência e deve ser interpretada com o conjunto dos achados."
+    },
+    {
+      "id": "per-u080-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No estrangulamento por laço, a força constritiva",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre necessariamente do peso do corpo."
+        },
+        {
+          "id": "B",
+          "text": "é produzida por força diferente da gravidade do corpo."
+        },
+        {
+          "id": "C",
+          "text": "é sempre aplicada diretamente por dedos."
+        },
+        {
+          "id": "D",
+          "text": "não pode afetar vasos cervicais."
+        },
+        {
+          "id": "E",
+          "text": "exige suspensão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No estrangulamento por laço, a força que tensiona o laço não é fornecida pelo peso corporal."
+    },
+    {
+      "id": "per-u080-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A esganadura corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "submersão em líquido."
+        },
+        {
+          "id": "B",
+          "text": "constrição por laço e peso corporal."
+        },
+        {
+          "id": "C",
+          "text": "compressão manual do pescoço."
+        },
+        {
+          "id": "D",
+          "text": "obstrução por terra."
+        },
+        {
+          "id": "E",
+          "text": "atmosfera pobre em oxigênio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esganadura é compressão cervical manual; podem existir marcas externas ou lesões profundas, mas sua ausência externa não exclui o mecanismo."
+    },
+    {
+      "id": "per-u080-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de lesões externas marcantes no pescoço",
+      "options": [
+        {
+          "id": "A",
+          "text": "não exclui compressão cervical, porque achados externos podem ser discretos e o exame interno é relevante."
+        },
+        {
+          "id": "B",
+          "text": "exclui estrangulamento."
+        },
+        {
+          "id": "C",
+          "text": "exclui esganadura."
+        },
+        {
+          "id": "D",
+          "text": "prova causa natural."
+        },
+        {
+          "id": "E",
+          "text": "torna a necropsia desnecessária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Compressões cervicais podem apresentar poucos sinais externos; a avaliação deve integrar exame interno e contexto."
+    },
+    {
+      "id": "per-u080-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na compressão cervical, é inadequado reduzir o mecanismo apenas a obstrução da traqueia porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pescoço não contém vasos."
+        },
+        {
+          "id": "B",
+          "text": "o sistema nervoso não participa."
+        },
+        {
+          "id": "C",
+          "text": "a via aérea nunca é comprimida."
+        },
+        {
+          "id": "D",
+          "text": "redução do fluxo cerebral, dificuldade do retorno venoso e outros mecanismos podem contribuir."
+        },
+        {
+          "id": "E",
+          "text": "somente fraturas cervicais são relevantes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Compressão vascular e outros mecanismos podem ser importantes além da obstrução respiratória."
+    },
+    {
+      "id": "per-u080-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sufocação pode ocorrer por",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente compressão do tórax."
+        },
+        {
+          "id": "B",
+          "text": "obstrução de boca/nariz, corpo estranho na via aérea ou impedimento mecânico relevante da ventilação."
+        },
+        {
+          "id": "C",
+          "text": "apenas afogamento."
+        },
+        {
+          "id": "D",
+          "text": "somente constrição cervical por laço."
+        },
+        {
+          "id": "E",
+          "text": "gás inerte exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recorte de sufocação envolve impedimento mecânico da entrada de ar ou dos movimentos respiratórios."
+    },
+    {
+      "id": "per-u080-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Compressão importante do tórax ou abdome pode produzir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas trauma ósseo, nunca asfixia."
+        },
+        {
+          "id": "B",
+          "text": "enforcamento."
+        },
+        {
+          "id": "C",
+          "text": "estrangulamento por laço."
+        },
+        {
+          "id": "D",
+          "text": "afogamento."
+        },
+        {
+          "id": "E",
+          "text": "comprometimento respiratório mecânico ao limitar a expansão toracoabdominal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A restrição mecânica da expansão pode impedir ventilação adequada."
+    },
+    {
+      "id": "per-u080-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No soterramento, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "material sobre o cadáver prova aspiração em vida."
+        },
+        {
+          "id": "B",
+          "text": "o mecanismo é apenas tóxico."
+        },
+        {
+          "id": "C",
+          "text": "podem coexistir obstrução por material e restrição mecânica da respiração, devendo a vitalidade ser avaliada no conjunto."
+        },
+        {
+          "id": "D",
+          "text": "não há relação com vias aéreas."
+        },
+        {
+          "id": "E",
+          "text": "a cena é irrelevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O material particulado pode participar por obstrução e compressão; a presença externa isolada não demonstra vitalidade."
+    },
+    {
+      "id": "per-u080-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Afogamento é definido modernamente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "processo de comprometimento respiratório por submersão ou imersão em líquido."
+        },
+        {
+          "id": "B",
+          "text": "presença obrigatória de volume mínimo de água nos pulmões."
+        },
+        {
+          "id": "C",
+          "text": "qualquer morte de pessoa encontrada na água."
+        },
+        {
+          "id": "D",
+          "text": "apenas morte em água doce."
+        },
+        {
+          "id": "E",
+          "text": "apenas morte com cogumelo de espuma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição internacional centra-se no processo de comprometimento respiratório por submersão ou imersão, independentemente do desfecho."
+    },
+    {
+      "id": "per-u080-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um cadáver recuperado de um lago",
+      "options": [
+        {
+          "id": "A",
+          "text": "morreu necessariamente afogado."
+        },
+        {
+          "id": "B",
+          "text": "não pode ter sofrido trauma antes da água."
+        },
+        {
+          "id": "C",
+          "text": "dispensa autópsia se houver espuma."
+        },
+        {
+          "id": "D",
+          "text": "pode ter morrido por afogamento ou por outra causa; o diagnóstico exige integração de circunstâncias e exames."
+        },
+        {
+          "id": "E",
+          "text": "teve necessariamente aspiração de grande volume de água."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Corpos recuperados da água podem ter doença, trauma, intoxicação ou morte prévia; o ambiente não define a causa sozinho."
+    },
+    {
+      "id": "per-u080-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O chamado cogumelo de espuma em contexto de afogamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é patognomônico e obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "é achado clássico de apoio, mas não é absoluto nem obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "prova a maneira da morte."
+        },
+        {
+          "id": "D",
+          "text": "não pode ser modificado por reanimação."
+        },
+        {
+          "id": "E",
+          "text": "ocorre apenas após putrefação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Espuma pode apoiar a hipótese, mas sua presença ou ausência não decide isoladamente o diagnóstico."
+    },
+    {
+      "id": "per-u080-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As manchas de Paltauf são classicamente descritas como",
+      "options": [
+        {
+          "id": "A",
+          "text": "fraturas cervicais."
+        },
+        {
+          "id": "B",
+          "text": "escoriações ungueais."
+        },
+        {
+          "id": "C",
+          "text": "equimoses lineares da pele."
+        },
+        {
+          "id": "D",
+          "text": "marcas do laço."
+        },
+        {
+          "id": "E",
+          "text": "hemorragias subpleurais associadas à doutrina do afogamento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Manchas de Paltauf são achado clássico de afogamento, mas não devem ser tratadas como prova isolada e infalível."
+    },
+    {
+      "id": "per-u080-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pesquisa de diatomáceas em suspeita de afogamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre definitiva."
+        },
+        {
+          "id": "B",
+          "text": "não sofre risco de contaminação."
+        },
+        {
+          "id": "C",
+          "text": "pode integrar o conjunto, mas possui limitações metodológicas e interpretativas."
+        },
+        {
+          "id": "D",
+          "text": "substitui a necropsia."
+        },
+        {
+          "id": "E",
+          "text": "define automaticamente o local exato do afogamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Revisões sistemáticas apontam limitações de contaminação, método e interpretação, sobretudo em pequenas quantidades."
+    },
+    {
+      "id": "per-u080-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No confinamento, o mecanismo de interesse é",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente envenenamento."
+        },
+        {
+          "id": "B",
+          "text": "deterioração da atmosfera respirável em espaço com renovação insuficiente de ar."
+        },
+        {
+          "id": "C",
+          "text": "sempre compressão manual do pescoço."
+        },
+        {
+          "id": "D",
+          "text": "apenas aumento de temperatura."
+        },
+        {
+          "id": "E",
+          "text": "somente obstrução por corpo estranho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ambiente fechado com ventilação insuficiente pode desenvolver atmosfera inadequada à respiração."
+    },
+    {
+      "id": "per-u080-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Gás inerte pode causar hipóxia porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente corrosivo."
+        },
+        {
+          "id": "B",
+          "text": "sempre bloqueia mecanicamente a traqueia."
+        },
+        {
+          "id": "C",
+          "text": "precisa reagir quimicamente com a hemoglobina."
+        },
+        {
+          "id": "D",
+          "text": "pode deslocar o oxigênio do ambiente sem toxicidade química específica."
+        },
+        {
+          "id": "E",
+          "text": "produz sempre odor forte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O risco de gases inertes em espaços fechados decorre principalmente da redução do oxigênio disponível."
+    },
+    {
+      "id": "per-u080-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre respiradores purificadores de ar em atmosfera deficiente em oxigênio, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não fornecem oxigênio e não corrigem uma atmosfera hipóxica."
+        },
+        {
+          "id": "B",
+          "text": "produzem oxigênio ao filtrar nitrogênio."
+        },
+        {
+          "id": "C",
+          "text": "substituem qualquer equipamento de suprimento de ar."
+        },
+        {
+          "id": "D",
+          "text": "dispensam avaliação da atmosfera."
+        },
+        {
+          "id": "E",
+          "text": "são adequados independentemente da concentração de oxigênio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Respiradores filtrantes removem certos contaminantes, mas não fornecem o oxigênio ausente."
+    },
+    {
+      "id": "per-u080-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 60 da prova <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Civil do Maranhão\">PC-MA</abbr> 2018 para Odontolegista, avalie: I — no enforcamento, as manchas hipostáticas concentram-se tipicamente na parte superior do corpo; II — no estrangulamento, o sulco cervical tende a ser horizontal e pode ser múltiplo; III — na esganadura, podem existir marcas ungueais. Assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas I está correta."
+        },
+        {
+          "id": "B",
+          "text": "Apenas III está correta."
+        },
+        {
+          "id": "C",
+          "text": "Apenas I e II estão corretas."
+        },
+        {
+          "id": "D",
+          "text": "Apenas II e III estão corretas."
+        },
+        {
+          "id": "E",
+          "text": "Todas estão corretas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gabarito oficial definitivo foi D. A questão original considerou corretos os itens II e III e incorreto o item I."
+    }
+  ]
+}
