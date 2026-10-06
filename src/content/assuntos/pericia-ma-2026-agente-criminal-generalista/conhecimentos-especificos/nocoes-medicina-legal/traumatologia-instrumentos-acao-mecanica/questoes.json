@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u079-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Traumatologia forense, a sequência de raciocínio mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "nome do objeto → intenção → lesão."
+        },
+        {
+          "id": "B",
+          "text": "energia/mecanismo → tecido → lesão → interpretação."
+        },
+        {
+          "id": "C",
+          "text": "autoria → instrumento → ferida."
+        },
+        {
+          "id": "D",
+          "text": "maneira da morte → objeto → tecido."
+        },
+        {
+          "id": "E",
+          "text": "testemunho → diagnóstico → lesão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lesão é resultado da interação entre energia, mecanismo e tecido; a interpretação vem depois."
+    },
+    {
+      "id": "per-u079-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre trauma e lesão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "trauma é sempre uma ferida aberta; lesão é o objeto."
+        },
+        {
+          "id": "B",
+          "text": "trauma e lesão são sinônimos absolutos."
+        },
+        {
+          "id": "C",
+          "text": "trauma é apenas psicológico; lesão é mecânica."
+        },
+        {
+          "id": "D",
+          "text": "trauma é a ação de energia capaz de causar dano; lesão é a alteração tecidual resultante."
+        },
+        {
+          "id": "E",
+          "text": "lesão é a energia; trauma é o tecido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A distinção evita confundir causa mecânica com seu resultado corporal."
+    },
+    {
+      "id": "per-u079-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação perfurante, o elemento predominante do instrumento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ponta."
+        },
+        {
+          "id": "B",
+          "text": "o gume."
+        },
+        {
+          "id": "C",
+          "text": "a massa."
+        },
+        {
+          "id": "D",
+          "text": "o calor."
+        },
+        {
+          "id": "E",
+          "text": "a superfície abrasiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Instrumentos perfurantes atuam predominantemente pela ponta."
+    },
+    {
+      "id": "per-u079-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação cortante, predomina",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ponta sem gume."
+        },
+        {
+          "id": "B",
+          "text": "a massa."
+        },
+        {
+          "id": "C",
+          "text": "o gume em deslocamento sobre o tecido."
+        },
+        {
+          "id": "D",
+          "text": "a compressão cervical."
+        },
+        {
+          "id": "E",
+          "text": "a cavitação temporária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ação cortante é típica do gume."
+    },
+    {
+      "id": "per-u079-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ação contundente, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há necessariamente ferida aberta."
+        },
+        {
+          "id": "B",
+          "text": "produz apenas equimose."
+        },
+        {
+          "id": "C",
+          "text": "depende sempre de ponta."
+        },
+        {
+          "id": "D",
+          "text": "não pode causar fratura."
+        },
+        {
+          "id": "E",
+          "text": "pode produzir escoriação, equimose, hematoma, ferida contusa, fratura ou lesão interna."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O resultado depende da energia, área de contato, tecido e outros fatores."
+    },
+    {
+      "id": "per-u079-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Equimose e hematoma se distinguem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "hematoma nunca contém sangue."
+        },
+        {
+          "id": "B",
+          "text": "equimose é infiltração hemorrágica; hematoma é coleção sanguínea mais localizada."
+        },
+        {
+          "id": "C",
+          "text": "equimose é sempre profunda e hematoma superficial."
+        },
+        {
+          "id": "D",
+          "text": "equimose decorre apenas de corte."
+        },
+        {
+          "id": "E",
+          "text": "não há diferença."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Equimose infiltra os tecidos; hematoma forma coleção mais delimitada."
+    },
+    {
+      "id": "per-u079-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cor de uma equimose",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite fixar a idade exata em horas."
+        },
+        {
+          "id": "B",
+          "text": "independe da pigmentação da pele."
+        },
+        {
+          "id": "C",
+          "text": "pode fornecer contexto, mas não cronologia exata universal isoladamente."
+        },
+        {
+          "id": "D",
+          "text": "é sempre igual em qualquer região corporal."
+        },
+        {
+          "id": "E",
+          "text": "não se altera ao longo do tempo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há ampla variabilidade, impedindo transformar cor em relógio universal."
+    },
+    {
+      "id": "per-u079-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um achado que favorece ferida contusa em relação a ferida incisa típica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "gume evidente."
+        },
+        {
+          "id": "B",
+          "text": "margens sempre regulares."
+        },
+        {
+          "id": "C",
+          "text": "ausência absoluta de contusão."
+        },
+        {
+          "id": "D",
+          "text": "maior extensão que profundidade."
+        },
+        {
+          "id": "E",
+          "text": "pontes de tecido no fundo da ferida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Pontes de tecido decorrem do rasgo incompleto por ação contundente."
+    },
+    {
+      "id": "per-u079-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pele com pouca alteração externa",
+      "options": [
+        {
+          "id": "A",
+          "text": "não exclui fratura, lesão visceral ou hemorragia interna importante."
+        },
+        {
+          "id": "B",
+          "text": "exclui trauma contundente grave."
+        },
+        {
+          "id": "C",
+          "text": "prova que a lesão é antiga."
+        },
+        {
+          "id": "D",
+          "text": "elimina necessidade de necropsia."
+        },
+        {
+          "id": "E",
+          "text": "prova ausência de energia mecânica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Dano profundo pode ocorrer com aparência externa discreta."
+    },
+    {
+      "id": "per-u079-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ferida incisa típica tende a apresentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "pontes de tecido abundantes."
+        },
+        {
+          "id": "B",
+          "text": "margens esmagadas obrigatórias."
+        },
+        {
+          "id": "C",
+          "text": "abertura mínima e profundidade sempre grande."
+        },
+        {
+          "id": "D",
+          "text": "margens relativamente regulares e ausência de pontes de tecido."
+        },
+        {
+          "id": "E",
+          "text": "fuligem nas bordas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gume divide o tecido de modo mais limpo, embora existam variações."
+    },
+    {
+      "id": "per-u079-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação perfurante pode produzir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas lesão superficial."
+        },
+        {
+          "id": "B",
+          "text": "pequena abertura externa e grande profundidade."
+        },
+        {
+          "id": "C",
+          "text": "sempre ferida maior que profunda."
+        },
+        {
+          "id": "D",
+          "text": "obrigatoriamente margens contusas."
+        },
+        {
+          "id": "E",
+          "text": "apenas lesão óssea."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ponta pode penetrar profundamente por orifício externo pequeno."
+    },
+    {
+      "id": "per-u079-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Instrumento perfurocortante atua principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "massa e impacto."
+        },
+        {
+          "id": "B",
+          "text": "superfície romba."
+        },
+        {
+          "id": "C",
+          "text": "ponta e gume."
+        },
+        {
+          "id": "D",
+          "text": "atrito e calor."
+        },
+        {
+          "id": "E",
+          "text": "gume e massa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Perfurocortante combina penetração pela ponta e corte pelo gume."
+    },
+    {
+      "id": "per-u079-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ação cortocontundente combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "gume e massa/impacto."
+        },
+        {
+          "id": "B",
+          "text": "ponta e gume."
+        },
+        {
+          "id": "C",
+          "text": "apenas ponta."
+        },
+        {
+          "id": "D",
+          "text": "apenas compressão."
+        },
+        {
+          "id": "E",
+          "text": "pólvora e fuligem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Instrumento cortocontundente corta e transmite impacto pela massa."
+    },
+    {
+      "id": "per-u079-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação médico-legal tradicional, projétil de arma de fogo é exemplo de agente",
+      "options": [
+        {
+          "id": "A",
+          "text": "cortante."
+        },
+        {
+          "id": "B",
+          "text": "perfurante puro."
+        },
+        {
+          "id": "C",
+          "text": "contundente puro."
+        },
+        {
+          "id": "D",
+          "text": "perfurocontundente."
+        },
+        {
+          "id": "E",
+          "text": "cortocontundente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O projétil penetra e transfere energia contundente aos tecidos."
+    },
+    {
+      "id": "per-u079-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a forma de uma ferida perfurocortante, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "reproduz sempre a lâmina como molde perfeito."
+        },
+        {
+          "id": "B",
+          "text": "individualiza automaticamente a faca."
+        },
+        {
+          "id": "C",
+          "text": "não sofre influência da tensão da pele."
+        },
+        {
+          "id": "D",
+          "text": "independe do ângulo."
+        },
+        {
+          "id": "E",
+          "text": "pode indicar classe de ação, mas não individualiza necessariamente o instrumento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Movimento, ângulo, tensão e elasticidade modificam a morfologia."
+    },
+    {
+      "id": "per-u079-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lesões em mãos e antebraços compatíveis com defesa",
+      "options": [
+        {
+          "id": "A",
+          "text": "provam homicídio."
+        },
+        {
+          "id": "B",
+          "text": "podem apoiar hipótese de reação defensiva, mas não resolvem a dinâmica sozinhas."
+        },
+        {
+          "id": "C",
+          "text": "são obrigatórias em qualquer agressão."
+        },
+        {
+          "id": "D",
+          "text": "excluem acidente em toda situação."
+        },
+        {
+          "id": "E",
+          "text": "identificam o agressor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lesões de defesa têm valor contextual, não absoluto."
+    },
+    {
+      "id": "per-u079-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de dez feridas permite concluir, isoladamente, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foram usados dez instrumentos."
+        },
+        {
+          "id": "B",
+          "text": "havia pelo menos dois autores."
+        },
+        {
+          "id": "C",
+          "text": "não se pode contar automaticamente instrumentos ou autores apenas pelo número de feridas."
+        },
+        {
+          "id": "D",
+          "text": "houve homicídio."
+        },
+        {
+          "id": "E",
+          "text": "todas ocorreram no mesmo momento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Número de feridas não equivale automaticamente a número de instrumentos ou agentes."
+    },
+    {
+      "id": "per-u079-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A principal fronteira entre U077 e U079 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "U077 foca relações de cena; U079 foca mecanismos e morfologia das lesões."
+        },
+        {
+          "id": "B",
+          "text": "U077 ensina toda a Traumatologia e U079 apenas fotografia."
+        },
+        {
+          "id": "C",
+          "text": "U079 trata apenas de cadeia de custódia."
+        },
+        {
+          "id": "D",
+          "text": "U077 não pode mencionar instrumentos."
+        },
+        {
+          "id": "E",
+          "text": "as duas devem ser duplicadas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A separação preserva autonomia sem repetir conteúdo."
+    },
+    {
+      "id": "per-u079-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A víbice é",
+      "options": [
+        {
+          "id": "A",
+          "text": "hematoma profundo."
+        },
+        {
+          "id": "B",
+          "text": "escoriação circular."
+        },
+        {
+          "id": "C",
+          "text": "ferida perfurante."
+        },
+        {
+          "id": "D",
+          "text": "equimose linear ou em estria."
+        },
+        {
+          "id": "E",
+          "text": "ferida cortocontusa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Víbice é denominação clássica de equimose em faixa ou estria."
+    },
+    {
+      "id": "per-u079-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos limites de inferência, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ferida perfurocortante identifica a faca específica."
+        },
+        {
+          "id": "B",
+          "text": "lesão de defesa define a maneira da morte."
+        },
+        {
+          "id": "C",
+          "text": "cor da equimose fixa a hora da agressão."
+        },
+        {
+          "id": "D",
+          "text": "orifício pequeno exclui lesão profunda."
+        },
+        {
+          "id": "E",
+          "text": "a morfologia sustenta compatibilidades, mas instrumento específico e dinâmica exigem o conjunto de dados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Conclusões devem ser proporcionais à força dos achados."
+    },
+    {
+      "id": "u152-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 35 da prova Cebraspe/PC-RO 2022 para Médico-Legista, víbices são",
+      "options": [
+        {
+          "id": "A",
+          "text": "escoriações circulares."
+        },
+        {
+          "id": "B",
+          "text": "equimoses em forma de estrias."
+        },
+        {
+          "id": "C",
+          "text": "feridas perfurantes."
+        },
+        {
+          "id": "D",
+          "text": "fraturas lineares."
+        },
+        {
+          "id": "E",
+          "text": "zonas de esfumaçamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A questão original teve gabarito definitivo B. Víbice é denominação clássica para equimose linear/em estria."
+    },
+    {
+      "id": "per-u079-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 98 da prova Cebraspe/DPE-TO 2022 para Defensor Público, uma lesão descrita como incisa foi produzida por instrumento",
+      "options": [
+        {
+          "id": "A",
+          "text": "cortocontundente."
+        },
+        {
+          "id": "B",
+          "text": "perfurante."
+        },
+        {
+          "id": "C",
+          "text": "perfurocontundente."
+        },
+        {
+          "id": "D",
+          "text": "contundente."
+        },
+        {
+          "id": "E",
+          "text": "cortante."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito oficial definitivo foi E. Ferida incisa é classicamente produzida por ação cortante."
+    }
+  ]
+}
