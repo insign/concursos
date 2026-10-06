@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u074-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 158-A, § 3º, do Código de Processo Penal, vestígio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente material biológico recolhido."
+        },
+        {
+          "id": "B",
+          "text": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, relacionado à infração penal."
+        },
+        {
+          "id": "C",
+          "text": "apenas aquilo que já foi transformado em evidência técnica."
+        },
+        {
+          "id": "D",
+          "text": "qualquer informação testemunhal."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo necessário de indício do artigo 239."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A definição legal alcança objeto ou material bruto, visível ou latente, constatado ou recolhido, relacionado à infração."
+    },
+    {
+      "id": "per-u074-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que vestígio é ponto de partida significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua presença já prova autoria."
+        },
+        {
+          "id": "B",
+          "text": "ele deve ser reconhecido e examinado antes de se concluir o que significa e como se relaciona com o fato."
+        },
+        {
+          "id": "C",
+          "text": "todo vestígio deve ser descartado depois da coleta."
+        },
+        {
+          "id": "D",
+          "text": "somente vestígios visíveis podem ter valor."
+        },
+        {
+          "id": "E",
+          "text": "a cadeia de custódia é dispensável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O vestígio exige exame e interpretação; relação material e alcance da conclusão não vêm prontos."
+    },
+    {
+      "id": "per-u074-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mesma impressão pode ser simultaneamente latente e verdadeira porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "as classificações usam critérios diferentes."
+        },
+        {
+          "id": "B",
+          "text": "latente e verdadeiro são sinônimos."
+        },
+        {
+          "id": "C",
+          "text": "todo vestígio latente é necessariamente verdadeiro."
+        },
+        {
+          "id": "D",
+          "text": "verdadeiro descreve apenas visibilidade."
+        },
+        {
+          "id": "E",
+          "text": "a lei proíbe múltiplas classificações."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Latente trata da percepção inicial; verdadeiro trata da relação sustentada com o fato."
+    },
+    {
+      "id": "per-u074-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio latente é aquele que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existe materialmente."
+        },
+        {
+          "id": "B",
+          "text": "não é prontamente perceptível nas condições iniciais e pode exigir técnica para detecção ou revelação."
+        },
+        {
+          "id": "C",
+          "text": "é sempre forjado."
+        },
+        {
+          "id": "D",
+          "text": "já foi recolhido."
+        },
+        {
+          "id": "E",
+          "text": "não pode ser examinado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Latência se refere à detectabilidade, não à inexistência nem à relação com o fato."
+    },
+    {
+      "id": "per-u074-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um vestígio visível",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente verdadeiro."
+        },
+        {
+          "id": "B",
+          "text": "é perceptível diretamente, mas ainda precisa ser interpretado e relacionado tecnicamente ao fato."
+        },
+        {
+          "id": "C",
+          "text": "dispensa cadeia de custódia."
+        },
+        {
+          "id": "D",
+          "text": "não pode ser ilusório."
+        },
+        {
+          "id": "E",
+          "text": "prova autoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Visibilidade não responde se o elemento pertence à dinâmica investigada."
+    },
+    {
+      "id": "per-u074-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na expressão legal 'constatado ou recolhido', é correto entender que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo vestígio constatado precisa ser removido do local."
+        },
+        {
+          "id": "B",
+          "text": "os termos descrevem situações do material no percurso pericial e não espécies mutuamente exclusivas."
+        },
+        {
+          "id": "C",
+          "text": "recolhido significa verdadeiro."
+        },
+        {
+          "id": "D",
+          "text": "constatado significa forjado."
+        },
+        {
+          "id": "E",
+          "text": "nenhum vestígio pode permanecer in situ."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Alguns elementos são documentados e examinados no local; outros são recolhidos. A expressão não cria categorias ontológicas incompatíveis."
+    },
+    {
+      "id": "per-u074-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio verdadeiro, na classificação doutrinária pela relação com o fato, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo objeto encontrado no local antes da análise."
+        },
+        {
+          "id": "B",
+          "text": "aquele cuja relação com o evento investigado é sustentada após exame e análise crítica."
+        },
+        {
+          "id": "C",
+          "text": "qualquer material visível."
+        },
+        {
+          "id": "D",
+          "text": "todo elemento preservado em cadeia de custódia."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo de prova de autoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A classificação como verdadeiro exige relação tecnicamente sustentada com o fato; preservação e visibilidade não bastam."
+    },
+    {
+      "id": "per-u074-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio ilusório é melhor definido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "elemento intencionalmente plantado para enganar."
+        },
+        {
+          "id": "B",
+          "text": "elemento presente no local que aparenta relevância, mas não guarda relação com a dinâmica investigada e não foi produzido para enganar."
+        },
+        {
+          "id": "C",
+          "text": "vestígio invisível."
+        },
+        {
+          "id": "D",
+          "text": "material necessariamente biológico."
+        },
+        {
+          "id": "E",
+          "text": "erro de interpretação do perito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ilusório não pertence ao fato e não decorre de manipulação intencional com propósito de desviar a investigação."
+    },
+    {
+      "id": "per-u074-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio forjado caracteriza-se principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "não ser visível."
+        },
+        {
+          "id": "B",
+          "text": "ser introduzido, removido ou alterado intencionalmente para criar aparência falsa e induzir erro."
+        },
+        {
+          "id": "C",
+          "text": "ser biológico."
+        },
+        {
+          "id": "D",
+          "text": "ter sido recolhido."
+        },
+        {
+          "id": "E",
+          "text": "não possuir qualquer suporte material."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O núcleo do forjamento é a manipulação intencional da cena ou do material para enganar."
+    },
+    {
+      "id": "per-u074-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença mais importante entre vestígio ilusório e forjado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a cor do material."
+        },
+        {
+          "id": "B",
+          "text": "a intenção de enganar presente no forjamento e ausente no ilusório."
+        },
+        {
+          "id": "C",
+          "text": "o tamanho do vestígio."
+        },
+        {
+          "id": "D",
+          "text": "o fato de somente o ilusório ser físico."
+        },
+        {
+          "id": "E",
+          "text": "o uso de fotografia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ambos podem confundir a investigação, mas o forjado envolve produção ou manipulação deliberada para induzir erro."
+    },
+    {
+      "id": "per-u074-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma bituca encontrada em uma sala pode ser inicialmente tratada como potencial vestígio. Se depois se demonstra que foi deixada por morador no dia anterior, sem relação com o fato, ela é exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "vestígio ilusório."
+        },
+        {
+          "id": "B",
+          "text": "vestígio forjado."
+        },
+        {
+          "id": "C",
+          "text": "vestígio verdadeiro por definição."
+        },
+        {
+          "id": "D",
+          "text": "indício jurídico obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "vestígio digital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O elemento é real, mas não integra a dinâmica investigada e não foi colocado com intenção de enganar."
+    },
+    {
+      "id": "per-u074-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a mesma bituca tiver sido colocada propositalmente para simular a presença de terceiro, a classificação adequada quanto à relação com o fato é",
+      "options": [
+        {
+          "id": "A",
+          "text": "latente."
+        },
+        {
+          "id": "B",
+          "text": "ilusória."
+        },
+        {
+          "id": "C",
+          "text": "forjada."
+        },
+        {
+          "id": "D",
+          "text": "biológica exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "constatada apenas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A colocação deliberada para criar narrativa falsa caracteriza forjamento."
+    },
+    {
+      "id": "per-u074-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As categorias biológico, químico, digital, papiloscópico e documentoscópico",
+      "options": [
+        {
+          "id": "A",
+          "text": "formam necessariamente uma classificação exclusiva em que um vestígio só pode pertencer a uma categoria."
+        },
+        {
+          "id": "B",
+          "text": "são categorias operacionais ligadas à natureza e à especialidade, podendo haver sobreposição entre elas."
+        },
+        {
+          "id": "C",
+          "text": "substituem visível e latente."
+        },
+        {
+          "id": "D",
+          "text": "são as únicas categorias previstas literalmente no artigo 158-A."
+        },
+        {
+          "id": "E",
+          "text": "definem automaticamente a relação com o crime."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A organização operacional ajuda a encaminhar preservação e exame, mas categorias podem se cruzar e não substituem outros eixos."
+    },
+    {
+      "id": "per-u074-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um telefone apreendido em investigação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é apenas vestígio digital e nunca objeto físico."
+        },
+        {
+          "id": "B",
+          "text": "pode ser objeto físico e também conter dados de interesse digital, demonstrando sobreposição de categorias."
+        },
+        {
+          "id": "C",
+          "text": "é vestígio verdadeiro automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "dispensa documentação da cadeia."
+        },
+        {
+          "id": "E",
+          "text": "não pode conter vestígio biológico em sua superfície."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O mesmo suporte pode envolver diferentes naturezas de vestígio e diferentes exames."
+    },
+    {
+      "id": "per-u074-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígio biológico",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sinônimo necessário de perfil genético."
+        },
+        {
+          "id": "B",
+          "text": "pode incluir sangue, saliva, tecidos e outros materiais, e o exame de DNA é apenas uma possibilidade."
+        },
+        {
+          "id": "C",
+          "text": "sempre prova identidade individual."
+        },
+        {
+          "id": "D",
+          "text": "não pode ser latente."
+        },
+        {
+          "id": "E",
+          "text": "não exige preservação adequada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Biológico descreve a origem do material; a técnica de exame e o alcance da conclusão variam."
+    },
+    {
+      "id": "per-u074-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na linguagem técnica, chamar um vestígio examinado de evidência costuma indicar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua relação com o fato foi sustentada pelo exame, sem que isso crie automaticamente categoria processual autônoma."
+        },
+        {
+          "id": "B",
+          "text": "ele se tornou confissão."
+        },
+        {
+          "id": "C",
+          "text": "a autoria está provada."
+        },
+        {
+          "id": "D",
+          "text": "o vestígio deixou de precisar de contexto."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 239 foi revogado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Evidência é uso técnico para relação sustentada; não deve ser confundida automaticamente com categorias jurídicas."
+    },
+    {
+      "id": "per-u074-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O indício definido no artigo 239 do Código de Processo Penal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer objeto bruto ainda não examinado."
+        },
+        {
+          "id": "B",
+          "text": "circunstância conhecida e provada que, relacionada ao fato, autoriza inferir outra circunstância."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo legal de vestígio latente."
+        },
+        {
+          "id": "D",
+          "text": "todo material recolhido."
+        },
+        {
+          "id": "E",
+          "text": "apenas prova testemunhal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 239 define indício como circunstância conhecida e provada usada em inferência, conceito distinto do vestígio material."
+    },
+    {
+      "id": "per-u074-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre vestígio e indício, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sempre sinônimos."
+        },
+        {
+          "id": "B",
+          "text": "um vestígio examinado pode contribuir para inferências probatórias, mas os conceitos não são automaticamente equivalentes."
+        },
+        {
+          "id": "C",
+          "text": "indício é sempre material biológico."
+        },
+        {
+          "id": "D",
+          "text": "vestígio só existe depois de sentença."
+        },
+        {
+          "id": "E",
+          "text": "indício é uma etapa da cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vestígio pertence ao plano material pericial; indício do art. 239 é circunstância provada utilizada em inferência."
+    },
+    {
+      "id": "per-u074-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma cadeia de custódia perfeitamente documentada demonstra, por si só, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o vestígio é verdadeiro e pertence ao crime."
+        },
+        {
+          "id": "B",
+          "text": "o percurso, identidade e manuseio do material são rastreáveis, mas sua relação com o fato ainda depende de análise."
+        },
+        {
+          "id": "C",
+          "text": "a autoria está provada."
+        },
+        {
+          "id": "D",
+          "text": "o material não pode ser ilusório."
+        },
+        {
+          "id": "E",
+          "text": "não é necessário exame pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cadeia sustenta identidade e integridade do percurso, não o significado do vestígio no evento."
+    },
+    {
+      "id": "per-u074-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Material introduzido acidentalmente por circulação indevida no local pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser exemplo de contaminação e produzir elemento ilusório."
+        },
+        {
+          "id": "B",
+          "text": "ser necessariamente forjado."
+        },
+        {
+          "id": "C",
+          "text": "transformar-se automaticamente em evidência."
+        },
+        {
+          "id": "D",
+          "text": "provar fraude processual."
+        },
+        {
+          "id": "E",
+          "text": "dispensar isolamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem intenção de enganar, material contaminante pode parecer relacionado e depois se revelar estranho à dinâmica original."
+    },
+    {
+      "id": "per-u074-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre vestígio forjado e erro interpretativo é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "forjamento envolve manipulação intencional do material/cena; erro interpretativo é falha na análise."
+        },
+        {
+          "id": "B",
+          "text": "todo erro interpretativo é fraude processual."
+        },
+        {
+          "id": "C",
+          "text": "forjamento ocorre apenas em vestígio digital."
+        },
+        {
+          "id": "D",
+          "text": "erro interpretativo altera fisicamente a cena necessariamente."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Forjamento é ação intencional sobre a cena ou vestígio; erro interpretativo ocorre no raciocínio sobre o material."
+    },
+    {
+      "id": "per-u074-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma impressão verdadeira vinculada a uma pessoa",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova automaticamente que essa pessoa praticou a infração."
+        },
+        {
+          "id": "B",
+          "text": "pode sustentar contato ou presença, mas tempo, motivo, participação e autoria jurídica dependem do contexto e de outros elementos."
+        },
+        {
+          "id": "C",
+          "text": "elimina hipóteses alternativas em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "determina sozinha o momento exato do fato."
+        },
+        {
+          "id": "E",
+          "text": "dispensa análise de cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mesmo um vestígio verdadeiro tem alcance limitado; a conclusão precisa respeitar o que o método e o contexto sustentam."
+    }
+  ]
+}
