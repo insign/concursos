@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u073-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A finalidade central do levantamento criminalístico de um local é",
+      "options": [
+        {
+          "id": "A",
+          "text": "recolher o maior número possível de objetos, independentemente de relação com o fato."
+        },
+        {
+          "id": "B",
+          "text": "documentar e relacionar elementos materiais de modo que hipóteses técnicas possam ser testadas e fundamentadas."
+        },
+        {
+          "id": "C",
+          "text": "confirmar a primeira versão apresentada à equipe."
+        },
+        {
+          "id": "D",
+          "text": "substituir o laudo pericial por fotografias."
+        },
+        {
+          "id": "E",
+          "text": "realizar investigação exclusivamente testemunhal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O levantamento constrói uma base documental e material para exame, confronto de hipóteses e conclusão tecnicamente limitada."
+    },
+    {
+      "id": "per-u073-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença correta entre reconhecimento, fixação e coleta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reconhecimento retira o vestígio; fixação o descarta; coleta o fotografa."
+        },
+        {
+          "id": "B",
+          "text": "reconhecimento identifica potencial interesse, fixação registra estado e posição e coleta retira o vestígio para análise quando cabível."
+        },
+        {
+          "id": "C",
+          "text": "as três expressões designam a mesma etapa."
+        },
+        {
+          "id": "D",
+          "text": "fixação sempre ocorre depois do processamento."
+        },
+        {
+          "id": "E",
+          "text": "coleta deve anteceder qualquer registro espacial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 158-B separa essas etapas. A posição deve ser documentada antes da retirada quando a relação espacial for relevante."
+    },
+    {
+      "id": "per-u073-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao encontrar um objeto potencialmente relevante, o procedimento conceitualmente mais adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "movê-lo imediatamente para verificar sua face inferior."
+        },
+        {
+          "id": "B",
+          "text": "concluir de imediato que ele participou da dinâmica."
+        },
+        {
+          "id": "C",
+          "text": "documentar sua condição e relação espacial antes de removê-lo, se a coleta for necessária."
+        },
+        {
+          "id": "D",
+          "text": "ignorar o contexto e registrar apenas sua cor."
+        },
+        {
+          "id": "E",
+          "text": "tratá-lo como prova conclusiva antes do exame."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fixação preserva informação sobre estado e posição antes que a coleta modifique a cena."
+    },
+    {
+      "id": "per-u073-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma fotografia de detalhe, sem qualquer imagem que mostre a posição do vestígio no ambiente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre basta para reconstruir a relação espacial."
+        },
+        {
+          "id": "B",
+          "text": "pode registrar características do vestígio, mas perder contexto sobre onde ele estava."
+        },
+        {
+          "id": "C",
+          "text": "substitui necessariamente croqui e descrição."
+        },
+        {
+          "id": "D",
+          "text": "prova autoria do fato."
+        },
+        {
+          "id": "E",
+          "text": "torna dispensável o laudo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Detalhe e contexto cumprem funções diferentes; a documentação deve permitir compreender a relação do elemento com a cena."
+    },
+    {
+      "id": "per-u073-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No levantamento, descrição escrita, fotografia e croqui",
+      "options": [
+        {
+          "id": "A",
+          "text": "são registros necessariamente redundantes e um deles deve ser eliminado."
+        },
+        {
+          "id": "B",
+          "text": "podem ser complementares, porque registram atributos e relações de formas diferentes."
+        },
+        {
+          "id": "C",
+          "text": "só podem ser usados em local contra o patrimônio."
+        },
+        {
+          "id": "D",
+          "text": "são etapas legais da cadeia de custódia que substituem a fixação."
+        },
+        {
+          "id": "E",
+          "text": "devem ser produzidos apenas depois da coleta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os registros podem se complementar para preservar características, posição e geometria básica da cena."
+    },
+    {
+      "id": "per-u073-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma descrição tecnicamente cuidadosa deve distinguir",
+      "options": [
+        {
+          "id": "A",
+          "text": "observação direta, informação recebida e inferência."
+        },
+        {
+          "id": "B",
+          "text": "apenas fatos favoráveis à hipótese inicial."
+        },
+        {
+          "id": "C",
+          "text": "relato de testemunha e resultado pericial como se fossem equivalentes."
+        },
+        {
+          "id": "D",
+          "text": "qualquer informação recebida como observação do perito."
+        },
+        {
+          "id": "E",
+          "text": "inferência de conclusão jurídica definitiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Separar o que foi observado, o que foi relatado e o que foi inferido evita transformar hipótese ou informação de terceiro em fato material constatado."
+    },
+    {
+      "id": "per-u073-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O reconhecimento de um elemento como de potencial interesse pericial significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua relação com a infração já está definitivamente comprovada."
+        },
+        {
+          "id": "B",
+          "text": "ele merece tratamento e avaliação pericial, sem antecipar a conclusão sobre sua relação com o fato."
+        },
+        {
+          "id": "C",
+          "text": "ele deve ser obrigatoriamente destruído após fotografado."
+        },
+        {
+          "id": "D",
+          "text": "não precisa ser fixado."
+        },
+        {
+          "id": "E",
+          "text": "é automaticamente um indício jurídico de autoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Potencial interesse é uma decisão de preservação e exame, não conclusão definitiva sobre vínculo ou autoria."
+    },
+    {
+      "id": "per-u073-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em local de crime contra a pessoa, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre deve existir cadáver."
+        },
+        {
+          "id": "B",
+          "text": "o ambiente e seus vestígios podem ser relevantes mesmo em agressão ou tentativa sem morte."
+        },
+        {
+          "id": "C",
+          "text": "apenas lesões internas têm interesse criminalístico."
+        },
+        {
+          "id": "D",
+          "text": "objetos e superfícies próximas são irrelevantes."
+        },
+        {
+          "id": "E",
+          "text": "o levantamento substitui o exame médico-legal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ocorrências contra a pessoa podem envolver vítima viva e ainda exigir documentação criminalística do ambiente e dos vestígios."
+    },
+    {
+      "id": "per-u073-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No local contra a pessoa, a pergunta criminalística central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qual pena deve ser aplicada."
+        },
+        {
+          "id": "B",
+          "text": "como os elementos materiais do ambiente se relacionam com a pessoa e com as dinâmicas tecnicamente possíveis."
+        },
+        {
+          "id": "C",
+          "text": "qual testemunha parece mais convincente."
+        },
+        {
+          "id": "D",
+          "text": "qual diagnóstico médico definitivo pode ser feito sem exame específico."
+        },
+        {
+          "id": "E",
+          "text": "quem é o autor com base apenas na aparência da cena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O levantamento criminalístico trabalha relações materiais e compatibilidades, sem substituir decisão jurídica ou exame médico especializado."
+    },
+    {
+      "id": "per-u073-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em local contra o patrimônio, a presença de dano em uma porta",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova, sozinha, que o autor ingressou por ali."
+        },
+        {
+          "id": "B",
+          "text": "deve ser documentada e examinada no contexto, porque pode ser anterior, posterior, acidental ou relacionado ao fato."
+        },
+        {
+          "id": "C",
+          "text": "é irrelevante se houver objeto subtraído."
+        },
+        {
+          "id": "D",
+          "text": "dispensa exame de outras áreas."
+        },
+        {
+          "id": "E",
+          "text": "define automaticamente o instrumento utilizado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dano é um achado que precisa ser relacionado ao fato por posição, características e demais vestígios."
+    },
+    {
+      "id": "per-u073-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A atenção a acessos, saídas, objetos deslocados, marcas e fragmentos em ocorrência patrimonial busca principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "ensinar técnicas de invasão."
+        },
+        {
+          "id": "B",
+          "text": "examinar alterações materiais e relações de ação e deslocamento compatíveis com o fato."
+        },
+        {
+          "id": "C",
+          "text": "substituir a preservação do local."
+        },
+        {
+          "id": "D",
+          "text": "determinar o valor econômico dos bens."
+        },
+        {
+          "id": "E",
+          "text": "transformar todo objeto do ambiente em vestígio verdadeiro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recorte é pericial: identificar e documentar alterações materiais relevantes, não ensinar execução delitiva nem presumir vínculo de todos os objetos."
+    },
+    {
+      "id": "per-u073-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A divisão entre levantamentos contra a pessoa e contra o patrimônio",
+      "options": [
+        {
+          "id": "A",
+          "text": "cria dois métodos periciais sem qualquer elemento comum."
+        },
+        {
+          "id": "B",
+          "text": "organiza prioridades e finalidades, mas o método geral continua baseado em preservação, documentação, reconhecimento e exame."
+        },
+        {
+          "id": "C",
+          "text": "impede que uma ocorrência envolva simultaneamente pessoa e bens."
+        },
+        {
+          "id": "D",
+          "text": "elimina a necessidade de cadeia de custódia no patrimônio."
+        },
+        {
+          "id": "E",
+          "text": "faz com que vestígios biológicos só existam no primeiro grupo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A natureza da ocorrência muda focos de observação, não os fundamentos do raciocínio criminalístico."
+    },
+    {
+      "id": "per-u073-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ler a cena em camadas de ambiente, relações e detalhes é útil porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite começar pelo contexto e depois aprofundar elementos sem perder sua posição no conjunto."
+        },
+        {
+          "id": "B",
+          "text": "dispensa medidas e registros."
+        },
+        {
+          "id": "C",
+          "text": "transforma todo detalhe em prova definitiva."
+        },
+        {
+          "id": "D",
+          "text": "é exigência literal do Código de Processo Penal com esses três nomes."
+        },
+        {
+          "id": "E",
+          "text": "serve apenas para cenas externas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência é um modelo pedagógico para preservar contexto antes de concentrar atenção em detalhes específicos."
+    },
+    {
+      "id": "per-u073-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'não foi observada impressão visível na superfície examinada' permite concluir, por si só, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma impressão jamais existiu no local."
+        },
+        {
+          "id": "B",
+          "text": "a superfície não pode ser periciada."
+        },
+        {
+          "id": "C",
+          "text": "naquele exame não foi observada impressão visível, sem excluir perda, latência, degradação ou limitações do método."
+        },
+        {
+          "id": "D",
+          "text": "o autor usou necessariamente luvas."
+        },
+        {
+          "id": "E",
+          "text": "não houve contato com a superfície."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ausência observada não equivale a inexistência absoluta; o alcance depende das condições e do método."
+    },
+    {
+      "id": "per-u073-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o local sofreu alteração antes do levantamento, o mais adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "recriá-lo conforme a memória das pessoas presentes."
+        },
+        {
+          "id": "B",
+          "text": "registrar a condição encontrada, a alteração conhecida e seu possível impacto nas inferências."
+        },
+        {
+          "id": "C",
+          "text": "omitir a alteração para preservar a força do laudo."
+        },
+        {
+          "id": "D",
+          "text": "abandonar toda a perícia."
+        },
+        {
+          "id": "E",
+          "text": "misturar a posição anterior relatada com a posição atual como se ambas fossem observadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 169 exige registro das alterações e avaliação de suas consequências; relato sobre condição anterior deve ser identificado como tal."
+    },
+    {
+      "id": "per-u073-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Levantamento de local e laudo pericial diferem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "levantamento é o exame e documentação da cena; laudo formaliza achados, métodos e conclusões pertinentes."
+        },
+        {
+          "id": "B",
+          "text": "laudo é apenas um conjunto de fotografias."
+        },
+        {
+          "id": "C",
+          "text": "levantamento só existe depois do laudo."
+        },
+        {
+          "id": "D",
+          "text": "são termos absolutamente sinônimos."
+        },
+        {
+          "id": "E",
+          "text": "o laudo não pode mencionar registros produzidos no levantamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O levantamento gera registros e achados; o laudo organiza e formaliza o raciocínio pericial resultante."
+    },
+    {
+      "id": "per-u073-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe recebe a informação de que houve luta no ambiente. Durante o levantamento, essa informação deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratada como fato observado mesmo sem vestígios compatíveis."
+        },
+        {
+          "id": "B",
+          "text": "usada como hipótese a ser confrontada com o estado material do local."
+        },
+        {
+          "id": "C",
+          "text": "ocultada do perito."
+        },
+        {
+          "id": "D",
+          "text": "convertida imediatamente em conclusão de homicídio."
+        },
+        {
+          "id": "E",
+          "text": "suficiente para dispensar documentação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Relatos orientam perguntas, mas precisam ser confrontados com vestígios e relações materiais."
+    },
+    {
+      "id": "per-u073-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor formulação sobre hipótese pericial no local é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a hipótese inicial deve ser confirmada sempre que possível."
+        },
+        {
+          "id": "B",
+          "text": "hipóteses servem para orientar testes e devem poder ser enfraquecidas ou rejeitadas pelos achados."
+        },
+        {
+          "id": "C",
+          "text": "uma cena só pode ter uma hipótese desde o início."
+        },
+        {
+          "id": "D",
+          "text": "hipóteses substituem observações."
+        },
+        {
+          "id": "E",
+          "text": "a primeira hipótese da autoridade policial vincula a conclusão pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O raciocínio técnico deve testar versões, não procurar apenas elementos que confirmem uma narrativa inicial."
+    },
+    {
+      "id": "per-u073-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O detalhamento das classificações dos vestígios de interesse forense pertence principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "à PER-U074, enquanto U073 usa apenas o conceito necessário para o levantamento."
+        },
+        {
+          "id": "B",
+          "text": "à unidade de Língua Portuguesa."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente ao laudo médico."
+        },
+        {
+          "id": "D",
+          "text": "ao estudo de Direito Penal material."
+        },
+        {
+          "id": "E",
+          "text": "a nenhum assunto do edital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "U073 necessita reconhecer potencial interesse, mas a taxonomia de vestígios é aprofundada na unidade seguinte."
+    },
+    {
+      "id": "per-u073-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um levantamento patrimonial, um fragmento encontrado junto a uma janela danificada deve ser tratado inicialmente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova automática de que a janela foi rompida pelo suspeito."
+        },
+        {
+          "id": "B",
+          "text": "elemento de potencial interesse a ser documentado e examinado em relação ao dano e ao restante da cena."
+        },
+        {
+          "id": "C",
+          "text": "objeto sem interesse por não ser biológico."
+        },
+        {
+          "id": "D",
+          "text": "vestígio verdadeiro antes de qualquer análise."
+        },
+        {
+          "id": "E",
+          "text": "evidência suficiente de autoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O fragmento pode ter interesse pericial, mas seu vínculo com o dano, a dinâmica e eventual fonte exige exame e contexto."
+    }
+  ]
+}
