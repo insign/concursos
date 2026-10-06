@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 18 | 0 | 18 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 28 | 0 | 23 |
-| Unidades distintas | 99 | 25 | 1 | 73 |
-| Entregáveis unitários C/H/Q | 297 | 75 | 3 | 219 |
+| Unidades distintas | 99 | 25 | 0 | 74 |
+| Entregáveis unitários C/H/Q | 297 | 75 | 0 | 222 |
 
-Estado confirmado: **73 unidades/visões publicadas (67 locais, 6 por vínculo); 219 C/H/Q aceitos; 101/132 referências literais aceitas; 2871 questões acumuladas**. PER-U075 permanece reservada/analyzing no lote serial corrente. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **74 unidades/visões publicadas (68 locais, 6 por vínculo); 222 C/H/Q aceitos; 102/132 referências literais aceitas; 2892 questões acumuladas**. O lote serial PER-U073–PER-U075 está concluído, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U074 — Vestígios de interesse forense e classificações está done; próxima publicação serial: PER-U075 — Locais de morte e morte violenta**, conforme 5.2/7.5. U075 continua reservada. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 7/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q e PER-E07 C/H/Q done. PER-U075 — Locais de morte e morte violenta está done; próxima ação: PER-U076 — Local de morte por arma de fogo**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 8/11; E09 0/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -634,7 +634,7 @@ Grupo consumidor: `conhecimentos-especificos/nocoes-criminalistica/`, relativo �
 | PER-U072 — Locais de crime: classificação, isolamento e preservação | E08: 2 | O067 | `locais-crime-classificacao-isolamento-preservacao` / `per-u072` / 720 | Parcial/local: O067 usado só para preservação prévia ao exame, cena alterada e a questão anterior PF/2025; classificação criminalística e função técnico-operacional completadas com CPP/MJSP/SENASP. Fronteiras: PER-U047/U073/U074/U075. C/H/Q aceitos em 5.11. |
 | PER-U073 — Levantamentos de locais contra a pessoa e o patrimônio | E08: 7 | O067 | `levantamentos-locais-pessoa-patrimonio` / `per-u073` / 730 | Parcial/local: O067 fornece documentação/relações espaciais; recorte criminalístico completado para finalidades contra pessoa e patrimônio sem importar Medicina Legal nem técnicas operacionais avançadas. Ponte U072; classificações em U074 e morte em U075. C/H/Q aceitos em 5.11. |
 | PER-U074 — Vestígios de interesse forense e classificações | E08: 8 | S05; busca negativa de doador integral | `vestigios-forenses-classificacoes` / `per-u074` / 740 | Nova/local: definição legal; eixos visível/latente, constatado/recolhido, verdadeiro/ilusório/forjado e organização operacional por natureza; distingue vestígio/evidência/indício e limites inferenciais. Pontes U047/U072/U073. C/H/Q aceitos em 5.11. |
-| PER-U075 — Locais de morte e morte violenta | E08: 9, 9.1 | O067 | `locais-morte-morte-violenta` / `per-u075` / 750 | Integração do local; aprofundamento dos fenômenos cadavéricos em U081. Pontes: PER-U072, PER-U074, PER-U081. |
+| PER-U075 — Locais de morte e morte violenta | E08: 9, 9.1 | O067 | `locais-morte-morte-violenta` / `per-u075` / 750 | Parcial/local com O067 e apoio O069: arquitetura comum de local de morte, morte violenta, corpo/ambiente, documentação, intervenções e limites; mecanismos específicos ficam U076–U078 e Tanatologia em U081. E08:9.1 aceito; pai E08:9 aguarda U076–U078. C/H/Q aceitos em 5.11. |
 | PER-U076 — Local de morte por arma de fogo | E08: 9, 9.2 | O068 | `local-morte-arma-fogo` / `per-u076` / 760 | Cena e vestígios; diferenciar de ensino de lesões em U079. Pontes: PER-U075, PER-U079. |
 | PER-U077 — Local de morte por instrumentos mecânicos | E08: 9, 9.3 | O068 | `local-morte-instrumentos-mecanicos` / `per-u077` / 770 | Cena contundente/cortante/perfurante/mista; lesão não determina sozinha dinâmica. Pontes: PER-U075, PER-U079. |
 | PER-U078 — Local de morte por asfixia | E08: 9, 9.4 | O067 | `local-morte-asfixia` / `per-u078` / 780 | Local, sinais e limites; não duplicar mecanismos de U080. Pontes: PER-U075, PER-U080. |
@@ -2410,6 +2410,22 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `cfee6eed3c0f6fb06bce78dc1ac50d575a9838aa` |
 | R | `fc070d8ec71f17954d62c54eba8b91c4d3dbd1d1` |
 
+#### PER-U075 — Locais de morte e morte violenta: parcial/local — C/H/Q done
+
+- **Recorte/origem/destino:** E08:9/9.1. O067 e O069 foram lidos como apoios somente leitura; nenhum substitui integralmente o recorte criminalístico do Generalista. Produção parcial/local em `conhecimentos-especificos/nocoes-criminalistica/locais-morte-morte-violenta/`, identidade `per-u075`, ordem 750, sem `vinculo.json`. E08:9.1 é aceito agora; E08:9 permanece aberto até U076/U077/U078.
+- **Problema/intervenção/ganho:** O067 é médico-legal e O069 aprofunda Tanatologia; copiar qualquer um integralmente duplicaria especialidades e vizinhos. U075 foi reorganizada por corpo+ambiente → morte violenta ≠ homicídio → encontro/lesão/morte → fotografia antes de mover → posição → ponte de fenômenos cadavéricos → lesão/objeto/manchas/roupas → intervenção iatrogênica → desordem → natural/violenta/indeterminada → causa/maneira/autoria → local+necropsia → convergência. C tem aproximadamente 1653 palavras visíveis; H, 376.
+- **Fontes:** S05; <abbr title="Código de Processo Penal">CPP</abbr> arts. 164/169; Departamento de Polícia Científica do Piauí; Secretaria de Segurança Pública do Maranhão; Alagoas Digital/Perícia Oficial; O067 e O069 para fronteiras. A questão PC-RJ/2022 de defenestração já auditada em O067 foi reaproveitada preservando ID `u154-p02`, revisão 1 e `origin: previous_exam`.
+- **Q/inspeção:** `questionSetRevision: 1`, 21 questões/105 opções: 20 autorais + 1 anterior preservada byte a byte do doador. C/H/Q/R relidos na `main`; ID anterior e proveniência confirmados, IDs/opções únicos, gabaritos válidos, tags `abbr` balanceadas e Q em texto puro. Sem resoluções separadas. Sem testes/build/check/CI.
+
+**Publicação confirmada:** [`d9e77641`](https://github.com/insign/concursos/commit/d9e776417bf5509fc2b6c8b5415a9e584f3300bd).
+
+| Arquivo | Blob |
+|---|---|
+| C | `b007eaee8eac7a04f7d6b6959727928600edb04f` |
+| H | `5f5afb05dbb24edab7bf85be272aa0b7349908c8` |
+| Q | `1004da1974b1389ba5f317509852db08caa3d69d` |
+| R | `f9d02d69bb771d9af4fb254289eebfc1ff6a6e75` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3027,9 +3043,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U075 — Locais de morte e morte violenta
 
-- [ ] PER-U075-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U075-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U075-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U075-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U075-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U075-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U076 — Local de morte por arma de fogo
 
@@ -3461,3 +3477,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U073:** artefato `522b706a4d37dfd23e5e3aa3a1c6f6c51c598516` confirmado; parcial/local com O067 restrito a documentação/relações espaciais, 20 questões/100 opções autorais, C/H/Q/R aceitos. E08:7 aceito. Totais: 72/99 unidades, 216/297 C/H/Q, 100/132 referências e 2849 questões. U074/U075 permanecem analyzing no lote; E08 passa a 6/11. Próxima publicação PER-U074 — Vestígios de interesse forense e classificações.
 
 - **PER-U074:** artefato `457f7c3c9b902cefe95ef202f806689d7f7c6fa3` confirmado; nova/local, 22 questões/110 opções autorais, C/H/Q/R aceitos. E08:8 aceito. Totais: 73/99 unidades, 219/297 C/H/Q, 101/132 referências e 2871 questões. U075 permanece analyzing no lote; E08 passa a 7/11. Próxima publicação PER-U075 — Locais de morte e morte violenta.
+
+- **PER-U075:** artefato `d9e776417bf5509fc2b6c8b5415a9e584f3300bd` confirmado; parcial/local com O067 + apoio O069, 21 questões/105 opções (20 autorais + `u154-p02` anterior preservada), C/H/Q/R aceitos. E08:9.1 aceito; E08:9 permanece aberto até U076–U078. Totais: 74/99 unidades, 222/297 C/H/Q, 102/132 referências e 2892 questões. E08 passa a 8/11. Lote U073–U075 concluído sem analyzing. Próxima ação PER-U076 — Local de morte por arma de fogo.
