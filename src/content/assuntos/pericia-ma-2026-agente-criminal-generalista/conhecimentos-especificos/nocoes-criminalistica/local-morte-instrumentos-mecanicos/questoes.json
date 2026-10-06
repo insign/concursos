@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u077-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um local de morte com possível ação por instrumento mecânico, a conclusão sobre o instrumento utilizado deve partir principalmente de",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma lesão isolada, porque sua forma individualiza o objeto."
+        },
+        {
+          "id": "B",
+          "text": "um objeto próximo ao cadáver, independentemente de outros achados."
+        },
+        {
+          "id": "C",
+          "text": "convergência entre corpo, objetos, manchas, marcas, roupas, ambiente e exames posteriores."
+        },
+        {
+          "id": "D",
+          "text": "relato inicial de testemunha, mesmo incompatível com os vestígios."
+        },
+        {
+          "id": "E",
+          "text": "nome comercial do objeto encontrado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A cena deve ser reconstruída pela integração dos vestígios. Compatibilidade isolada gera hipótese; convergência dá suporte à conclusão."
+    },
+    {
+      "id": "per-u077-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para orientar a leitura inicial da cena sem antecipar a classificação médico-legal detalhada das lesões, a associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "contundente = somente ponta; cortante = massa; perfurante = gume."
+        },
+        {
+          "id": "B",
+          "text": "contundente = gume; cortante = ponta; perfurante = superfície romba."
+        },
+        {
+          "id": "C",
+          "text": "contundente = calor; cortante = eletricidade; perfurante = pressão atmosférica."
+        },
+        {
+          "id": "D",
+          "text": "contundente = superfície/massa; cortante = gume; perfurante = ponta."
+        },
+        {
+          "id": "E",
+          "text": "contundente, cortante e perfurante são sinônimos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ponte funcional da unidade é mecanismo de ação: superfície ou massa na ação contundente, gume na cortante e ponta na perfurante. A taxonomia lesional aprofundada fica para a PER-U079."
+    },
+    {
+      "id": "per-u077-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um objeto que combina ponta e gume encontrado junto ao cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser classificado como tendo produzido obrigatoriamente uma única modalidade de lesão."
+        },
+        {
+          "id": "B",
+          "text": "pode atuar por mecanismos diferentes conforme o modo de uso, e sua presença precisa ser correlacionada com os demais vestígios."
+        },
+        {
+          "id": "C",
+          "text": "prova que a morte foi homicídio."
+        },
+        {
+          "id": "D",
+          "text": "dispensa exame das roupas e do cadáver."
+        },
+        {
+          "id": "E",
+          "text": "deve ser encaixado na ferida para confirmar a hipótese."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modo de uso, a energia e os tecidos atingidos influenciam o resultado. O nome ou a forma geral do objeto não demonstram, sozinhos, sua participação nem a dinâmica."
+    },
+    {
+      "id": "per-u077-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma ferramenta ensanguentada foi encontrada a poucos centímetros do cadáver. Isoladamente, esse achado",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que a ferramenta produziu todas as lesões."
+        },
+        {
+          "id": "B",
+          "text": "prova autoria de quem normalmente utiliza a ferramenta."
+        },
+        {
+          "id": "C",
+          "text": "é relevante, mas exige documentação e correlação antes de inferir uso, causalidade, autoria ou maneira da morte."
+        },
+        {
+          "id": "D",
+          "text": "permite dispensar a necropsia."
+        },
+        {
+          "id": "E",
+          "text": "permite concluir que não houve outro instrumento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Proximidade e material aderido podem sustentar investigação, mas não resolvem sozinhos quando, como ou por quem ocorreu o contato."
+    },
+    {
+      "id": "per-u077-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um cadáver com sinais compatíveis com trauma mecânico, nenhum instrumento potencial é localizado na área imediata. A conclusão adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir ação mecânica."
+        },
+        {
+          "id": "B",
+          "text": "concluir que a morte foi natural."
+        },
+        {
+          "id": "C",
+          "text": "presumir que o instrumento era necessariamente uma parte do ambiente."
+        },
+        {
+          "id": "D",
+          "text": "manter a hipótese, pois o objeto pode ter sido removido, deslocado, descartado em local relacionado ou não reconhecido inicialmente."
+        },
+        {
+          "id": "E",
+          "text": "encerrar o exame por ausência do instrumento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ausência do objeto tem alcance limitado. A hipótese deve ser testada com corpo, roupas, marcas, materiais e demais vestígios."
+    },
+    {
+      "id": "per-u077-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes de recolher um objeto potencialmente relacionado ao trauma, quando segurança e preservação da vida permitirem, é mais adequado",
+      "options": [
+        {
+          "id": "A",
+          "text": "documentar posição, orientação, condição e relações com corpo, manchas e superfícies."
+        },
+        {
+          "id": "B",
+          "text": "lavá-lo para revelar melhor sua forma."
+        },
+        {
+          "id": "C",
+          "text": "movê-lo para perto do corpo e então fotografar."
+        },
+        {
+          "id": "D",
+          "text": "testar sua compatibilidade em uma lesão."
+        },
+        {
+          "id": "E",
+          "text": "separar imediatamente qualquer material aderido sem registrar onde estava."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A posição e a condição do objeto também são informação pericial. A documentação deve anteceder a movimentação sempre que possível."
+    },
+    {
+      "id": "per-u077-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para verificar se uma lâmina suspeita é compatível com uma ferida, a conduta conceitualmente correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inseri-la parcialmente na ferida para comparar a largura."
+        },
+        {
+          "id": "B",
+          "text": "encostá-la no tecido apenas se estiver limpa."
+        },
+        {
+          "id": "C",
+          "text": "reproduzir o contato no cadáver antes da necropsia."
+        },
+        {
+          "id": "D",
+          "text": "forçar a lâmina em rasgos da roupa para verificar encaixe."
+        },
+        {
+          "id": "E",
+          "text": "preservar objeto e vestígio e realizar a comparação pelos exames apropriados, sem criar novo contato."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Testar encaixe fisicamente pode contaminar, transferir material e alterar características. Compatibilidade deve ser avaliada sem produzir novo vestígio."
+    },
+    {
+      "id": "per-u077-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A identificação de sangue compatível com a vítima em um objeto suspeito permite, por si só, concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o objeto causou a morte e foi manipulado pelo autor."
+        },
+        {
+          "id": "B",
+          "text": "houve uma associação material que precisa ser interpretada com contexto, sem definir automaticamente momento, causalidade ou autoria."
+        },
+        {
+          "id": "C",
+          "text": "todas as lesões foram causadas por esse objeto."
+        },
+        {
+          "id": "D",
+          "text": "o objeto permaneceu imóvel desde o evento."
+        },
+        {
+          "id": "E",
+          "text": "a maneira da morte foi homicídio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Material biológico pode ligar objeto e pessoa, mas a sequência dos eventos e o papel causal dependem da integração com outros dados."
+    },
+    {
+      "id": "per-u077-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma marca em uma superfície parece corresponder à borda de uma ferramenta encontrada no local. O procedimento correto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar a correspondência provada pela semelhança visual."
+        },
+        {
+          "id": "B",
+          "text": "pressionar a ferramenta sobre a marca original para verificar o encaixe."
+        },
+        {
+          "id": "C",
+          "text": "documentar objeto, marca, condição e materiais aderidos, preservando-os para exame comparativo quando pertinente."
+        },
+        {
+          "id": "D",
+          "text": "descartar a marca, pois apenas lesões corporais importam."
+        },
+        {
+          "id": "E",
+          "text": "limpar a ferramenta antes de qualquer registro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Marcas podem ter valor comparativo, mas semelhança visual macroscópica não substitui documentação e exame técnico."
+    },
+    {
+      "id": "per-u077-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre roupas em um local de morte por possível instrumento mecânico, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rasgos, cortes, perfurações, sangue e materiais podem ser correlacionados com posição da roupa, lesões e demais vestígios."
+        },
+        {
+          "id": "B",
+          "text": "Uma abertura na roupa deve coincidir perfeitamente com a lesão na posição final do corpo."
+        },
+        {
+          "id": "C",
+          "text": "Roupas não sofrem alteração por socorro."
+        },
+        {
+          "id": "D",
+          "text": "A roupa só interessa se o instrumento estiver sobre ela."
+        },
+        {
+          "id": "E",
+          "text": "Danos nas roupas identificam automaticamente o instrumento específico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Roupas são intermediárias entre corpo, objeto e ambiente e podem se deslocar ou ser alteradas durante evento e atendimento."
+    },
+    {
+      "id": "per-u077-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distribuição de sangue em uma cena com suspeita de ação mecânica",
+      "options": [
+        {
+          "id": "A",
+          "text": "determina sozinha o número exato de golpes."
+        },
+        {
+          "id": "B",
+          "text": "identifica automaticamente o instrumento."
+        },
+        {
+          "id": "C",
+          "text": "revela a autoria pela forma das manchas."
+        },
+        {
+          "id": "D",
+          "text": "pode apoiar hipóteses de contato, posição ou deslocamento, mas padrões precisam de análise contextual e especializada."
+        },
+        {
+          "id": "E",
+          "text": "é irrelevante se houver lesões visíveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A localização e distribuição do sangue têm valor reconstrutivo, mas uma mancha isolada ou impressão visual não resolve a dinâmica."
+    },
+    {
+      "id": "per-u077-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Foram observadas diversas lesões no cadáver. Apenas esse número permite afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "houve o mesmo número de instrumentos."
+        },
+        {
+          "id": "B",
+          "text": "houve pelo menos dois autores."
+        },
+        {
+          "id": "C",
+          "text": "todas as lesões ocorreram no mesmo momento."
+        },
+        {
+          "id": "D",
+          "text": "a vítima necessariamente apresentou defesa."
+        },
+        {
+          "id": "E",
+          "text": "não é possível contar automaticamente instrumentos ou autores; é necessária correlação com outros achados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Quantidade e distribuição das lesões são dados contextuais. A individualização de mecanismos e dinâmica exige necropsia e demais vestígios."
+    },
+    {
+      "id": "per-u077-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um local com suspeita de trauma contundente não há sangue visível no piso. Esse fato",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui lesão interna hemorrágica."
+        },
+        {
+          "id": "B",
+          "text": "tem alcance limitado e não exclui trauma mecânico, pois pode haver sangramento interno, absorção, remoção ou sangue em outro ponto."
+        },
+        {
+          "id": "C",
+          "text": "prova que o corpo foi transportado."
+        },
+        {
+          "id": "D",
+          "text": "prova morte natural."
+        },
+        {
+          "id": "E",
+          "text": "dispensa exame das roupas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ausência observada não equivale a ausência do fenômeno. O dado negativo deve ser interpretado conforme contexto e exames."
+    },
+    {
+      "id": "per-u077-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um objeto quebrado e fragmentos potencialmente relacionados são encontrados em pontos distintos da cena. O mais adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "montar imediatamente as peças, pressionando-as umas contra as outras."
+        },
+        {
+          "id": "B",
+          "text": "descartar fragmentos pequenos."
+        },
+        {
+          "id": "C",
+          "text": "documentar posições, individualizar e preservar as partes, encaminhando comparação quando pertinente."
+        },
+        {
+          "id": "D",
+          "text": "juntar todas as partes no mesmo recipiente sem identificação."
+        },
+        {
+          "id": "E",
+          "text": "limpar as superfícies para facilitar a montagem."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Montagem ou manipulação indevida pode criar transferência e perder informações. Posição, identidade e condição devem ser preservadas."
+    },
+    {
+      "id": "per-u077-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um objeto permanece inserido no cadáver. Do ponto de vista da preservação da relação corpo-objeto, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "retirá-lo e recolocá-lo para confirmar profundidade."
+        },
+        {
+          "id": "B",
+          "text": "movê-lo até a posição considerada mais provável."
+        },
+        {
+          "id": "C",
+          "text": "removê-lo antes de fotografar o corpo."
+        },
+        {
+          "id": "D",
+          "text": "documentar e preservar a relação encontrada, deixando o aprofundamento para o exame apropriado e registrando intervenções anteriores."
+        },
+        {
+          "id": "E",
+          "text": "quebrá-lo para facilitar a remoção do corpo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A posição original pode ter valor pericial. Manipulação desnecessária altera a relação e pode comprometer vestígios."
+    },
+    {
+      "id": "per-u077-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após socorro e limpeza parcial do ambiente, a cena apresenta objetos deslocados. Isso significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a reconstrução deve identificar o que foi alterado, avaliar o que ainda é confiável e limitar cada inferência conforme essas mudanças."
+        },
+        {
+          "id": "B",
+          "text": "a cena deve ser considerada automaticamente forjada."
+        },
+        {
+          "id": "C",
+          "text": "todo vestígio perdeu valor."
+        },
+        {
+          "id": "D",
+          "text": "a posição atual dos objetos reproduz necessariamente a posição do evento."
+        },
+        {
+          "id": "E",
+          "text": "a necropsia se torna dispensável."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Alterações pós-evento integram a história da cena. Elas não anulam automaticamente o exame, mas reduzem ou modificam a força de determinadas inferências."
+    },
+    {
+      "id": "per-u077-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A integração correta entre local, necropsia e laboratório é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o local determina o instrumento específico; os demais exames apenas confirmam."
+        },
+        {
+          "id": "B",
+          "text": "o local fornece relações espaciais, a necropsia aprofunda lesões e o laboratório ou exame comparativo pode testar associações materiais e marcas."
+        },
+        {
+          "id": "C",
+          "text": "a necropsia substitui o levantamento do local."
+        },
+        {
+          "id": "D",
+          "text": "o laboratório define sozinho autoria e maneira da morte."
+        },
+        {
+          "id": "E",
+          "text": "os três blocos devem produzir sempre conclusões idênticas, sem divergências."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As fontes respondem perguntas diferentes e complementares. Divergências devem ser explicadas, e não ocultadas."
+    },
+    {
+      "id": "per-u077-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um mesmo instrumento mecânico",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre produz a mesma lesão."
+        },
+        {
+          "id": "B",
+          "text": "individualiza-se pela aparência de qualquer ferida."
+        },
+        {
+          "id": "C",
+          "text": "pode produzir efeitos diferentes conforme modo de uso, energia, região e tecido, razão pela qual a cena não deve procurar uma assinatura visual simplificada."
+        },
+        {
+          "id": "D",
+          "text": "atua apenas se estiver solto no ambiente."
+        },
+        {
+          "id": "E",
+          "text": "não pode combinar ponta, gume e massa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O resultado depende da interação entre instrumento, energia e tecido. Essa variabilidade limita inferências baseadas em forma isolada."
+    },
+    {
+      "id": "per-u077-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao comparar hipóteses para um objeto suspeito, a prática mais robusta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "adotar desde o início a hipótese de que ele foi usado e reinterpretar os vestígios conforme ela."
+        },
+        {
+          "id": "B",
+          "text": "ignorar hipóteses que contrariem a narrativa inicial."
+        },
+        {
+          "id": "C",
+          "text": "considerar apenas o objeto mais próximo do corpo."
+        },
+        {
+          "id": "D",
+          "text": "eliminar alternativas antes do exame laboratorial."
+        },
+        {
+          "id": "E",
+          "text": "testar explicações concorrentes, perguntando quais achados cada uma explica e quais a contradizem."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Trabalhar com hipóteses concorrentes reduz viés de confirmação e preserva abertura para explicações compatíveis com o conjunto."
+    },
+    {
+      "id": "per-u077-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fronteira pedagógica correta entre PER-U077 e PER-U079 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "PER-U077 foca a reconstrução do local com objetos e relações; PER-U079 aprofunda a classificação médico-legal dos instrumentos e lesões."
+        },
+        {
+          "id": "B",
+          "text": "PER-U077 deve ensinar toda a Traumatologia e PER-U079 apenas preservação de local."
+        },
+        {
+          "id": "C",
+          "text": "PER-U077 trata apenas de cadeia de custódia e PER-U079 apenas de fotografia."
+        },
+        {
+          "id": "D",
+          "text": "as duas unidades devem repetir integralmente o mesmo conteúdo."
+        },
+        {
+          "id": "E",
+          "text": "PER-U079 não se relaciona com instrumentos mecânicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A separação evita duplicação: U077 é cena e correlação criminalística; U079 é Traumatologia e classificação das lesões por ação mecânica."
+    },
+    {
+      "id": "per-u077-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 51 da prova <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Civil de Pernambuco\">PC-PE</abbr> 2016 para Agente de Polícia, um cadáver encontrado em prédio abandonado apresenta afundamento craniano sugestivo de ação contundente. A providência compatível com o gabarito oficial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "remover imediatamente o cadáver para liberar o prédio."
+        },
+        {
+          "id": "B",
+          "text": "permitir o fluxo de pessoas até que haja ordem judicial."
+        },
+        {
+          "id": "C",
+          "text": "aguardar autorização do Ministério Público para qualquer perícia."
+        },
+        {
+          "id": "D",
+          "text": "transportar primeiro o corpo e documentar o local depois."
+        },
+        {
+          "id": "E",
+          "text": "preservar o estado e o local até a chegada dos peritos e determinar as perícias necessárias à identificação do cadáver e à determinação da causa da morte."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O gabarito oficial definitivo da questão original foi E. A presença de provável ação contundente não autoriza alterar o contexto antes da perícia."
+    }
+  ]
+}
