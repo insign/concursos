@@ -121,7 +121,7 @@ Depois:
 
 Pode haver vínculo com o fato **sem continuidade geográfica** com o núcleo principal.
 
-Cebraspe/POLITEC-RO 2022: estojos em área próxima, sem ligação geográfica → local relacionado.
+<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Superintendência de Polícia Técnico-Científica de Rondônia">POLITEC/RO</abbr> 2022: estojos em área próxima, sem ligação geográfica → local relacionado.
 
 ## Integração
 
