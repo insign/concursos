@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 15 | 0 | 21 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 25 | 0 | 26 |
-| Unidades distintas | 99 | 21 | 0 | 78 |
-| Entregáveis unitários C/H/Q | 297 | 63 | 0 | 234 |
+| Unidades distintas | 99 | 20 | 0 | 79 |
+| Entregáveis unitários C/H/Q | 297 | 60 | 0 | 237 |
 
-Estado confirmado: **78 unidades/visões publicadas (72 locais, 6 por vínculo); 234 C/H/Q aceitos; 110/132 referências literais aceitas; 2976 questões acumuladas**. PER-U079 está concluída, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **79 unidades/visões publicadas (73 locais, 6 por vínculo); 237 C/H/Q aceitos; 112/132 referências literais aceitas; 2997 questões acumuladas**. PER-U080 está concluída, sem analyzing. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U079 — Traumatologia e instrumentos de ação mecânica está done; próxima ação: PER-U080 — Asfixiologia: mecanismos e modalidades**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 1/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U080 — Asfixiologia: mecanismos e modalidades está done; próxima ação: PER-U081 — Tanatologia, cronotanatognose e modalidades de morte**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 2/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -646,7 +646,7 @@ Grupo consumidor: `conhecimentos-especificos/nocoes-medicina-legal/`, relativo �
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
 | PER-U079 — Traumatologia e instrumentos de ação mecânica | E09: 1, 1.1, 1.2, 4 | O068 | `traumatologia-instrumentos-acao-mecanica` / `per-u079` / 790 | Parcial/local: O068 fornece mecanismos e morfologia de trauma contundente, ponta/gume e projéteis, mas foi recortado para os seis tipos literais do edital e sem repetir balística de U076 nem cena de U077. E09:1/1.1/1.2/4 aceitos. C/H/Q aceitos em 5.11. |
-| PER-U080 — Asfixiologia: mecanismos e modalidades | E09: 2, 2.1 | S05; sem candidato selecionado | `asfixiologia-mecanismos-modalidades` / `per-u080` / 800 | Enforcamento, estrangulamento, esganadura, sufocação, soterramento, afogamento, confinamento e gases inertes. |
+| PER-U080 — Asfixiologia: mecanismos e modalidades | E09: 2, 2.1 | S05; sem candidato selecionado | `asfixiologia-mecanismos-modalidades` / `per-u080` / 800 | Nova/local: cobre as oito modalidades literais por mecanismo, sinais típicos e limites diagnósticos; integra literatura contemporânea para evitar absolutização de petéquias, sinais de afogamento e diatomáceas. U078 conserva a leitura de cena; U082 recebe agentes químicos. E09:2/2.1 aceitos. C/H/Q aceitos em 5.11. |
 | PER-U081 — Tanatologia, cronotanatognose e modalidades de morte | E09: 3, 3.1 | O069 | `tanatologia-cronotanatognose-modalidades-morte` / `per-u081` / 810 | Morte suspeita, súbita, agonizante; limites da estimativa temporal. |
 | PER-U082 — Noções de agentes químicos | E09: 5 | S05; sem candidato selecionado | `agentes-quimicos-medicina-legal` / `per-u082` / 820 | Mecanismos e efeitos no recorte de noções; fontes primárias por pesquisar. |
 | PER-U083 — Noções de agentes térmicos | E09: 6 | S05; sem candidato selecionado | `agentes-termicos-medicina-legal` / `per-u083` / 830 | Calor/frio e limites de inferência pericial. |
@@ -2495,6 +2495,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | \`29b4fb6fedce5757019eb6e2fe6b96eecc59345b\` |
 | R | \`593e851eb565177e8f658283a74e35cb04f12367\` |
 
+
+#### PER-U080 — Asfixiologia: mecanismos e modalidades: nova/local — C/H/Q done
+
+- **Recorte/origem/destino:** E09:2/2.1. A busca no acervo não encontrou pacote C/H/Q/R integral compatível; menções introdutórias alheias não foram convertidas em doador presumido. A unidade foi produzida nova/local em \`conhecimentos-especificos/nocoes-medicina-legal/asfixiologia-mecanismos-modalidades/\`, identidade \`per-u080\`, ordem 800. O grupo de Noções de Medicina Legal, criado com U079, permaneceu somente leitura.
+- **Problema/intervenção/ganho:** a lista literal do edital reúne oito modalidades com mecanismos distintos e é propensa a memorização sem critério. U080 foi organizada por sinais gerais e seus limites → enforcamento/estrangulamento/esganadura → sufocação/compressão → soterramento → afogamento → confinamento/gases inertes. A intervenção ensina a distinguir a fonte da constrição cervical, evita tratar petéquias, espuma, Paltauf ou diatomáceas como provas absolutas e preserva a fronteira com a leitura de local de U078 e com agentes químicos de U082.
+- **Tamanho/microglossário:** C final: 13.268 caracteres brutos, aproximadamente 12.138 visíveis e 1.790 palavras; H: 2.790 brutos, aproximadamente 2.329 visíveis e 308 palavras. C/H trazem três ocorrências de \`abbr\` cada para siglas institucionais renderizadas; nenhuma regra ou exceção foi escondida nos \`title\`. Destino novo, sem crescimento artificial contra versão anterior.
+- **Fontes/cortes:** S05; revisão de classificação de asfixias; revisões contemporâneas de enforcamento/compressão cervical e asfixia mecânica; Organização Mundial da Saúde e revisão prática de mortes aquáticas; revisão sistemática de diatomáceas; padrão discursivo oficial da PC-MA/2018 para repertório clássico de afogamento; orientações do <abbr title="National Institute for Occupational Safety and Health">NIOSH</abbr> para confinamento/atmosferas pobres em oxigênio. Corte legislativo 17/07/2026; consulta técnico-material 06/10/2026.
+- **Q/linhagem:** \`questionSetRevision: 1\`, 21 questões/105 opções: 20 autorais + uma adaptação não literal \`per-u080-p01\` da questão 60 <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Civil do Maranhão">PC-MA</abbr> 2018 Odontolegista. Caderno e gabarito definitivo foram confrontados; chave oficial D (itens II e III corretos). IDs/opções/chaves/explicações relidos e válidos; nenhuma resolução separada necessária.
+- **Publicação/inspeção:** C/H/Q/R relidos integralmente no commit \`243fec51fba159081ea654b889e908a45cb9b1a9\`; frontmatter, identidade/ordem, 21 questões, 105 opções, \`abbr\`, fronteiras U078/U082 e referências conferidos. Diff adiciona somente os quatro arquivos da unidade. Sem testes/build/check/CI.
+
+| Arquivo | Blob |
+|---|---|
+| C | \`bb33d5f16400c000e6c9145fa3c2bace329f5ca8\` |
+| H | \`06f670b7ef4b91f1437e8d1cc177d69a3051a44a\` |
+| Q | \`0b604c235508239f758a795e80f25607c925922e\` |
+| R | \`b04a3c6ff1ce3b6a86ce2fe924362b848e1a1640\` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3142,9 +3159,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U080 — Asfixiologia: mecanismos e modalidades
 
-- [ ] PER-U080-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U080-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U080-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U080-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U080-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U080-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U081 — Tanatologia, cronotanatognose e modalidades de morte
 
@@ -3552,3 +3569,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U077:** artefato `850afd17a057969c7b824f57a68881115d235375` confirmado; parcial/local com O068 restrito à ponte de mecanismos e complementação criminalística por preservação de cena, objetos, materiais aderidos, marcas, roupas, sangue e hipóteses concorrentes; 21 questões/105 opções (20 autorais + 1 anterior <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>/<abbr title="Polícia Civil de Pernambuco">PC-PE</abbr> 2016 verificada), C/H/Q/R aceitos. E08:9.3 aceito; E08:9 permanece aberto até U078. Totais: 76/99 unidades, 228/297 C/H/Q, 104/132 referências e 2934 questões. Macros 23 done/28 pending/0 analyzing. E08 passa a 10/11. Próxima ação PER-U078 — Local de morte por asfixia.
 - **PER-U078:** artefato `17e53eb79fa3e46f2badb133d58632a1d13433e0` confirmado; parcial/local com O067 para arquitetura de local e complementação específica de suspensão, mortes aquáticas, soterramento, ambientes confinados/gases e alterações de socorro; 20 questões/100 opções autorais, C/H/Q/R aceitos. E08:9.4 e o pai E08:9 aceitos; PER-E08 C/H/Q fecha done. Totais: 77/99 unidades, 231/297 C/H/Q, 106/132 referências e 2954 questões. Macros 26 done/25 pending/0 analyzing. E08 fecha 11/11. Próxima ação PER-U079 — Traumatologia e instrumentos de ação mecânica.
 - **PER-U079:** artefato `03967195ba8f4eb0a5fcb05d7a1f07ebbee794b4` confirmado; parcial/local de O068 com reorganização explícita dos seis tipos de instrumentos/ações mecânicas e materialização do grupo de Noções de Medicina Legal; 22 questões/110 opções (20 autorais + 2 anteriores verificadas), C/H/Q/R aceitos. E09:1/1.1/1.2/4 aceitos. Totais: 78/99 unidades, 234/297 C/H/Q, 110/132 referências e 2976 questões. E09 passa a 1/6. Próxima ação PER-U080 — Asfixiologia: mecanismos e modalidades.
+- **PER-U080:** artefato `243fec51fba159081ea654b889e908a45cb9b1a9` confirmado; nova/local, cobrindo as oito modalidades de Asfixiologia com fontes verificáveis e limites diagnósticos contemporâneos; 21 questões/105 opções (20 autorais + 1 anterior Cebraspe/PC-MA 2018 verificada), C/H/Q/R aceitos. E09:2/2.1 aceitos. Totais: 79/99 unidades, 237/297 C/H/Q, 112/132 referências e 2997 questões. E09 passa a 2/6. Lote U078–U080 concluído; próxima ação PER-U081 — Tanatologia, cronotanatognose e modalidades de morte.
