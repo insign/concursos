@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 15 | 0 | 21 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 25 | 0 | 26 |
-| Unidades distintas | 99 | 18 | 0 | 81 |
-| Entregáveis unitários C/H/Q | 297 | 54 | 0 | 243 |
+| Unidades distintas | 99 | 17 | 1 | 81 |
+| Entregáveis unitários C/H/Q | 297 | 51 | 3 | 243 |
 
-Estado confirmado: **81 unidades/visões publicadas (75 locais, 6 por vínculo); 243 C/H/Q aceitos; 115/132 referências literais aceitas; 3041 questões acumuladas**. PER-U082 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **81 unidades/visões publicadas (75 locais, 6 por vínculo); 243 C/H/Q aceitos; 115/132 referências literais aceitas; 3041 questões acumuladas**. PER-U083 está reservada e `analyzing`; nenhum aceite adicional é antecipado. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U082 — Noções de agentes químicos está done; próxima ação: PER-U083 — Noções de agentes térmicos**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 3/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q e PER-E08 C/H/Q done. PER-U083 — Noções de agentes térmicos está analyzing sob a reserva `gpt56sol-20261007T0919-03-per-u083`**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 3/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -3177,9 +3177,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U083 — Noções de agentes térmicos
 
-- [ ] PER-U083-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U083-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U083-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [ ] PER-U083-C — `analyzing` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [ ] PER-U083-H — `analyzing` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [ ] PER-U083-Q — `analyzing` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U084 — Noções de sexologia forense
 
@@ -3572,3 +3572,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U080:** artefato `243fec51fba159081ea654b889e908a45cb9b1a9` confirmado; nova/local, cobrindo as oito modalidades de Asfixiologia com fontes verificáveis e limites diagnósticos contemporâneos; 21 questões/105 opções (20 autorais + 1 anterior Cebraspe/PC-MA 2018 verificada), C/H/Q/R aceitos. E09:2/2.1 aceitos. Totais: 79/99 unidades, 237/297 C/H/Q, 112/132 referências e 2997 questões. E09 passa a 2/6. Lote U078–U080 concluído; próxima ação PER-U081 — Tanatologia, cronotanatognose e modalidades de morte.
 - **PER-U081:** publicação `de252e229894556daff370540f907a92351888c2` e refinamento de proveniência `5849a9fa9f3e5d0179cff12c9cb6c8799e802df9` confirmados; parcial/local a partir de O069, recortando o programa mais amplo para fenômenos úteis à cronologia, cronotanatognose e mortes suspeita/súbita, com complementação independente de morte agonizante; 23 questões/115 opções (20 autorais + 3 anteriores pertinentes, duas preservadas de O069 e uma adaptação não literal Instituto AOCP/PC-GO 2023), C/H/Q/R aceitos. E09:3/3.1 aceitos. Totais: 80/99 unidades, 240/297 C/H/Q, 114/132 referências e 3020 questões. E09 passa a 3/6. Próxima ação PER-U082 — Noções de agentes químicos.
 - **PER-U082:** artefato `3384abca7344196976be3d287d84770bce4f74d7` confirmado; nova/local, 21 questões/105 opções (20 autorais + 1 adaptação Cebraspe/PC-RO 2022), com correção explícita da generalização histórica sobre “chumbinho”; C/H/Q/R aceitos. E09:5 aceito. Totais: 81/99 unidades, 243/297 C/H/Q, 115/132 referências e 3041 questões. E09 passa a 4/6. Próxima ação PER-U083 — Noções de agentes térmicos.
+- **Reserva ativa PER-U083 — gpt56sol-20261007T0919-03-per-u083:** C/H/Q em `analyzing`; unidade nova/local após busca negativa de pacote integral; destino `conhecimentos-especificos/nocoes-medicina-legal/agentes-termicos-medicina-legal/`; consumidor Generalista; arquivos C/H/Q/R e seções de estado/evidência de U083 reservados. SHA-base `a9279f94b1b16acdbcfea4eecab95de69eed7edd`; mestre blob-base `fe1ec353ecb5b3139dbe5d5efec857bfef349a2f`.
