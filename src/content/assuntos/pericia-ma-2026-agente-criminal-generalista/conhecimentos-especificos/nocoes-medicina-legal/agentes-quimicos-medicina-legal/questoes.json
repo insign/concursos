@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u082-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção mais útil entre agente corrosivo e agente tóxico sistêmico é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o corrosivo atua necessariamente apenas após absorção sanguínea."
+        },
+        {
+          "id": "B",
+          "text": "o corrosivo pode destruir tecidos no ponto de contato, enquanto o tóxico sistêmico produz efeitos após absorção e distribuição."
+        },
+        {
+          "id": "C",
+          "text": "todo agente tóxico é obrigatoriamente gasoso."
+        },
+        {
+          "id": "D",
+          "text": "agentes corrosivos não produzem qualquer efeito sistêmico."
+        },
+        {
+          "id": "E",
+          "text": "os dois termos são sinônimos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A corrosão descreve sobretudo destruição local; toxicidade sistêmica envolve absorção e efeito no organismo. As duas situações podem coexistir."
+    },
+    {
+      "id": "per-u082-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A gravidade de uma lesão química depende, entre outros fatores, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas do nome comercial do produto."
+        },
+        {
+          "id": "B",
+          "text": "somente da cor da lesão."
+        },
+        {
+          "id": "C",
+          "text": "concentração, duração do contato e tecido atingido."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente da idade da embalagem."
+        },
+        {
+          "id": "E",
+          "text": "apenas da temperatura ambiente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Concentração, quantidade, duração, temperatura e tecido atingido influenciam a lesão; a aparência isolada não identifica gravidade ou agente."
+    },
+    {
+      "id": "per-u082-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em termos gerais, ácidos fortes e álcalis fortes tendem, respectivamente, a produzir",
+      "options": [
+        {
+          "id": "A",
+          "text": "necrose por coagulação e necrose por liquefação."
+        },
+        {
+          "id": "B",
+          "text": "necrose por liquefação e necrose por coagulação, sem exceções."
+        },
+        {
+          "id": "C",
+          "text": "apenas efeitos sistêmicos, sem lesão local."
+        },
+        {
+          "id": "D",
+          "text": "somente eritema reversível."
+        },
+        {
+          "id": "E",
+          "text": "efeitos idênticos em qualquer concentração."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A tendência didática é coagulação com ácidos e liquefação/saponificação com álcalis; o quadro real varia conforme agente e exposição."
+    },
+    {
+      "id": "per-u082-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aparência de uma queimadura química",
+      "options": [
+        {
+          "id": "A",
+          "text": "identifica de forma absoluta a substância envolvida."
+        },
+        {
+          "id": "B",
+          "text": "dispensa investigação da cena."
+        },
+        {
+          "id": "C",
+          "text": "deve ser integrada a história, resíduos, recipientes e análise quando indicada."
+        },
+        {
+          "id": "D",
+          "text": "prova a intenção do autor."
+        },
+        {
+          "id": "E",
+          "text": "permite calcular exatamente a concentração do produto."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Morfologia ajuda a formular hipóteses, mas não substitui contexto e análise química."
+    },
+    {
+      "id": "per-u082-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após socorro com irrigação e retirada de roupas contaminadas, a conduta pericial correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar o caso imprestável para perícia."
+        },
+        {
+          "id": "B",
+          "text": "ignorar as alterações causadas pelo atendimento."
+        },
+        {
+          "id": "C",
+          "text": "documentar as intervenções e interpretar os vestígios remanescentes sem sacrificar a assistência."
+        },
+        {
+          "id": "D",
+          "text": "impedir descontaminação até a chegada do perito."
+        },
+        {
+          "id": "E",
+          "text": "presumir que todo resíduo foi eliminado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A assistência tem prioridade; a perícia documenta as modificações e trabalha com os vestígios remanescentes."
+    },
+    {
+      "id": "per-u082-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre toxicidade, a formulação mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o nome da substância basta para prever qualquer efeito."
+        },
+        {
+          "id": "B",
+          "text": "dose, via e tempo de exposição são centrais para interpretar o risco e o efeito."
+        },
+        {
+          "id": "C",
+          "text": "qualquer presença laboratorial é fatal."
+        },
+        {
+          "id": "D",
+          "text": "substâncias tóxicas só atuam por via oral."
+        },
+        {
+          "id": "E",
+          "text": "a concentração nunca modifica o efeito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Toxicidade depende da exposição concreta, incluindo dose/concentração, via e tempo."
+    },
+    {
+      "id": "per-u082-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma exposição respiratória a agente químico",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca produz efeito sistêmico."
+        },
+        {
+          "id": "B",
+          "text": "pode produzir efeito rápido dependendo da substância e da concentração."
+        },
+        {
+          "id": "C",
+          "text": "é equivalente a qualquer exposição dérmica."
+        },
+        {
+          "id": "D",
+          "text": "não exige análise do ambiente."
+        },
+        {
+          "id": "E",
+          "text": "sempre deixa queimadura visível na pele."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A via respiratória pode permitir absorção rápida ou dano local respiratório, conforme o agente."
+    },
+    {
+      "id": "per-u082-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Intoxicação aguda difere da crônica porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a aguda ocorre necessariamente por via intravenosa."
+        },
+        {
+          "id": "B",
+          "text": "a crônica exige um único contato de segundos."
+        },
+        {
+          "id": "C",
+          "text": "a aguda se relaciona a exposição em período curto, enquanto a crônica envolve exposições repetidas ou prolongadas."
+        },
+        {
+          "id": "D",
+          "text": "a crônica nunca produz efeitos cumulativos."
+        },
+        {
+          "id": "E",
+          "text": "não existe distinção temporal relevante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A distinção é temporal e depende do padrão de exposição."
+    },
+    {
+      "id": "per-u082-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um toxidrome é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a identificação laboratorial definitiva de uma molécula."
+        },
+        {
+          "id": "B",
+          "text": "um conjunto de sinais e sintomas que sugere determinada classe de agentes."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de necropsia toxicológica."
+        },
+        {
+          "id": "D",
+          "text": "uma concentração sanguínea específica."
+        },
+        {
+          "id": "E",
+          "text": "um tipo de cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Toxidrome orienta hipóteses clínicas e periciais, mas não identifica sozinho a substância."
+    },
+    {
+      "id": "per-u082-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os achados compatíveis com síndrome colinérgica por inibidores de acetilcolinesterase estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "midríase seca e retenção urinária como regra."
+        },
+        {
+          "id": "B",
+          "text": "miose, aumento de secreções e manifestações gastrointestinais."
+        },
+        {
+          "id": "C",
+          "text": "somente hipertensão assintomática."
+        },
+        {
+          "id": "D",
+          "text": "apenas lesões cutâneas corrosivas."
+        },
+        {
+          "id": "E",
+          "text": "ausência obrigatória de alterações respiratórias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Organofosforados e alguns carbamatos podem produzir miose, secreções, broncoconstrição, vômitos, diarreia e outros sinais colinérgicos."
+    },
+    {
+      "id": "per-u082-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o produto clandestino conhecido popularmente como “chumbinho”, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua composição é sempre e necessariamente um único carbamato."
+        },
+        {
+          "id": "B",
+          "text": "o nome popular não garante composição química definida."
+        },
+        {
+          "id": "C",
+          "text": "é um raticida legal padronizado em todo o país."
+        },
+        {
+          "id": "D",
+          "text": "não pode conter organofosforados."
+        },
+        {
+          "id": "E",
+          "text": "a composição pode ser determinada apenas pelo aspecto visual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Ministério da Saúde alerta que produtos clandestinos vendidos como “chumbinho” podem apresentar composições diferentes."
+    },
+    {
+      "id": "per-u082-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um exame toxicológico positivo para determinada substância",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova automaticamente que ela causou a morte."
+        },
+        {
+          "id": "B",
+          "text": "demonstra presença, cuja relevância depende de concentração, cronologia e contexto."
+        },
+        {
+          "id": "C",
+          "text": "dispensa necropsia e investigação."
+        },
+        {
+          "id": "D",
+          "text": "prova intenção criminosa."
+        },
+        {
+          "id": "E",
+          "text": "não necessita de informação sobre a amostra."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Detecção não equivale, por si só, a causalidade."
+    },
+    {
+      "id": "per-u082-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um resultado toxicológico negativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui qualquer exposição possível."
+        },
+        {
+          "id": "B",
+          "text": "pode precisar ser interpretado à luz da janela de detecção, amostra e método."
+        },
+        {
+          "id": "C",
+          "text": "prova que não houve metabolismo da substância."
+        },
+        {
+          "id": "D",
+          "text": "é sempre erro laboratorial."
+        },
+        {
+          "id": "E",
+          "text": "dispensa análise do tempo de coleta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Coleta tardia, amostra inadequada, degradação ou método não direcionado podem limitar a interpretação de um resultado negativo."
+    },
+    {
+      "id": "per-u082-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na escolha de material para exame toxicológico",
+      "options": [
+        {
+          "id": "A",
+          "text": "há uma única amostra ideal para todos os agentes."
+        },
+        {
+          "id": "B",
+          "text": "a escolha depende da hipótese, do composto e da cronologia."
+        },
+        {
+          "id": "C",
+          "text": "sangue sempre substitui qualquer outro material."
+        },
+        {
+          "id": "D",
+          "text": "cabelo serve apenas para exposições ocorridas minutos antes."
+        },
+        {
+          "id": "E",
+          "text": "conteúdo gástrico nunca possui utilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Amostras diferentes respondem a perguntas diferentes."
+    },
+    {
+      "id": "per-u082-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à cadeia de custódia de um vestígio químico",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela é irrelevante porque o laboratório corrige qualquer problema de origem."
+        },
+        {
+          "id": "B",
+          "text": "identificação, acondicionamento e documentação são necessários para garantir interpretabilidade da amostra."
+        },
+        {
+          "id": "C",
+          "text": "só se aplica a armas de fogo."
+        },
+        {
+          "id": "D",
+          "text": "começa apenas quando a amostra chega ao laboratório."
+        },
+        {
+          "id": "E",
+          "text": "permite misturar amostras se forem do mesmo local."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A confiabilidade analítica depende também da origem, integridade e documentação da amostra."
+    },
+    {
+      "id": "per-u082-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre gás inerte e gás tóxico, no recorte desta disciplina, é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo gás inerte é venenoso por interação bioquímica específica."
+        },
+        {
+          "id": "B",
+          "text": "gás inerte pode causar hipóxia por deslocamento do oxigênio, enquanto gás tóxico pode ter efeito químico próprio."
+        },
+        {
+          "id": "C",
+          "text": "gás tóxico nunca interfere na respiração."
+        },
+        {
+          "id": "D",
+          "text": "gases inertes pertencem sempre à toxicologia analítica."
+        },
+        {
+          "id": "E",
+          "text": "não existe diferença pericial relevante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "U080 tratou do deslocamento de oxigênio por gases inertes; U082 reserva o conceito de toxicidade química para agentes com efeito próprio."
+    },
+    {
+      "id": "per-u082-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No local relacionado a possível exposição química, é adequado",
+      "options": [
+        {
+          "id": "A",
+          "text": "cheirar recipientes diretamente para identificar o agente."
+        },
+        {
+          "id": "B",
+          "text": "ignorar rótulos porque podem estar errados."
+        },
+        {
+          "id": "C",
+          "text": "documentar recipientes, rótulos, resíduos e fontes de exposição com segurança."
+        },
+        {
+          "id": "D",
+          "text": "misturar líquidos semelhantes para reduzir o número de amostras."
+        },
+        {
+          "id": "E",
+          "text": "descartar embalagens após fotografá-las."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O contexto do local orienta hipóteses e amostragem; segurança e preservação são fundamentais."
+    },
+    {
+      "id": "per-u082-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de um recipiente de produto químico ao lado de um cadáver",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que o conteúdo causou a morte."
+        },
+        {
+          "id": "B",
+          "text": "é um elemento contextual que precisa ser correlacionado com vestígios e exames."
+        },
+        {
+          "id": "C",
+          "text": "prova suicídio."
+        },
+        {
+          "id": "D",
+          "text": "dispensa identificação do conteúdo."
+        },
+        {
+          "id": "E",
+          "text": "permite inferir a dose absorvida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Objeto e posição ajudam a formar hipóteses, mas não resolvem causalidade ou maneira da morte."
+    },
+    {
+      "id": "per-u082-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na interpretação de uma concentração de substância em amostra post mortem, é inadequado",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar metabolismo e redistribuição."
+        },
+        {
+          "id": "B",
+          "text": "avaliar tempo e local de coleta."
+        },
+        {
+          "id": "C",
+          "text": "integrar achados de necropsia e investigação."
+        },
+        {
+          "id": "D",
+          "text": "tratar o número isoladamente como prova automática de causa da morte."
+        },
+        {
+          "id": "E",
+          "text": "considerar possíveis interações."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Concentrações post mortem exigem contexto e podem ser afetadas por fenômenos pós-morte e pela coleta."
+    },
+    {
+      "id": "per-u082-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O método de prova mais seguro para agentes químicos é",
+      "options": [
+        {
+          "id": "A",
+          "text": "memorizar cores fixas de lesões."
+        },
+        {
+          "id": "B",
+          "text": "ligar automaticamente produto popular a um princípio ativo."
+        },
+        {
+          "id": "C",
+          "text": "separar exposição, efeito local, efeito sistêmico, vestígios e interpretação laboratorial."
+        },
+        {
+          "id": "D",
+          "text": "considerar qualquer achado isolado como conclusivo."
+        },
+        {
+          "id": "E",
+          "text": "ignorar via e tempo de exposição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A sequência evita inferências indevidas e organiza o raciocínio pericial."
+    },
+    {
+      "id": "per-u082-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 22 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, uma intoxicação por agente anticolinesterásico do grupo dos organofosforados ou carbamatos pode apresentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "miose, hipersecreções e manifestações gastrointestinais."
+        },
+        {
+          "id": "B",
+          "text": "apenas lesão cáustica cutânea sem efeitos sistêmicos."
+        },
+        {
+          "id": "C",
+          "text": "midríase seca com ausência de secreções como padrão colinérgico."
+        },
+        {
+          "id": "D",
+          "text": "somente hipertensão sem alteração respiratória."
+        },
+        {
+          "id": "E",
+          "text": "ausência obrigatória de alterações neuromusculares."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial descreveu manifestações colinérgicas em intoxicação por carbamatos/organofosforados. A adaptação evita generalizar a composição do produto clandestino chamado “chumbinho”, que protocolos atuais reconhecem como variável."
+    }
+  ]
+}
