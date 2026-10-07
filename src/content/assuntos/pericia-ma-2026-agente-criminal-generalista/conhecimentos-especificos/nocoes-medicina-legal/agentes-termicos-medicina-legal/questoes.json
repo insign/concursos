@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u083-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre efeito térmico local e sistêmico é exemplificada corretamente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "queimadura como efeito local e hipertermia como efeito sistêmico."
+        },
+        {
+          "id": "B",
+          "text": "hipotermia como lesão exclusivamente local."
+        },
+        {
+          "id": "C",
+          "text": "geladura como efeito sistêmico obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "carbonização como alteração sem relação com calor."
+        },
+        {
+          "id": "E",
+          "text": "frio sem possibilidade de efeito local."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Queimaduras e geladuras são efeitos locais; hipertermia e hipotermia representam alterações sistêmicas de temperatura."
+    },
+    {
+      "id": "per-u083-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação clássica de Hoffmann, a queimadura de primeiro grau caracteriza-se principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "carbonização óssea."
+        },
+        {
+          "id": "B",
+          "text": "eritema superficial, edema e dor com pele íntegra."
+        },
+        {
+          "id": "C",
+          "text": "necrose profunda até músculos."
+        },
+        {
+          "id": "D",
+          "text": "flictenas obrigatoriamente hemorrágicas."
+        },
+        {
+          "id": "E",
+          "text": "gangrena."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O primeiro grau clássico é superficial e marcado por eritema; a banca pode cobrar essa classificação histórica."
+    },
+    {
+      "id": "per-u083-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação clássica, flictenas são características sobretudo de queimadura de",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeiro grau."
+        },
+        {
+          "id": "B",
+          "text": "segundo grau."
+        },
+        {
+          "id": "C",
+          "text": "terceiro grau exclusivamente."
+        },
+        {
+          "id": "D",
+          "text": "quarto grau exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "nenhum grau."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As bolhas ou flictenas são o elemento clássico do segundo grau."
+    },
+    {
+      "id": "per-u083-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Carbonização de planos profundos corresponde, na classificação clássica de Hoffmann, ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "primeiro grau."
+        },
+        {
+          "id": "B",
+          "text": "segundo grau."
+        },
+        {
+          "id": "C",
+          "text": "terceiro grau."
+        },
+        {
+          "id": "D",
+          "text": "quarto grau."
+        },
+        {
+          "id": "E",
+          "text": "grau zero."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O quarto grau clássico envolve carbonização e destruição térmica profunda."
+    },
+    {
+      "id": "per-u083-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Profundidade e extensão de uma queimadura",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sinônimos."
+        },
+        {
+          "id": "B",
+          "text": "avaliam dimensões diferentes da lesão."
+        },
+        {
+          "id": "C",
+          "text": "podem ser substituídas apenas pela presença de dor."
+        },
+        {
+          "id": "D",
+          "text": "não influenciam gravidade."
+        },
+        {
+          "id": "E",
+          "text": "só são relevantes em crianças."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Profundidade mede planos atingidos; extensão mede a superfície corporal afetada."
+    },
+    {
+      "id": "per-u083-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A chamada posição de pugilista em corpo queimado",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que houve luta corporal."
+        },
+        {
+          "id": "B",
+          "text": "resulta de efeitos térmicos sobre músculos e tecidos e pode ocorrer post mortem."
+        },
+        {
+          "id": "C",
+          "text": "prova defesa contra agressor."
+        },
+        {
+          "id": "D",
+          "text": "só ocorre em pessoa consciente."
+        },
+        {
+          "id": "E",
+          "text": "é sinal exclusivo de homicídio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A postura pode ser produzida pelo calor e não deve ser interpretada como gesto voluntário."
+    },
+    {
+      "id": "per-u083-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fissuras e fraturas em cadáver carbonizado",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem ser automaticamente classificadas como trauma ante mortem."
+        },
+        {
+          "id": "B",
+          "text": "podem ser artefatos produzidos pelo calor e precisam de correlação pericial."
+        },
+        {
+          "id": "C",
+          "text": "provam queda de grande altura."
+        },
+        {
+          "id": "D",
+          "text": "não podem ser avaliadas por imagem."
+        },
+        {
+          "id": "E",
+          "text": "sempre indicam arma contundente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Calor intenso pode criar artefatos que simulam trauma."
+    },
+    {
+      "id": "per-u083-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de fuligem em vias aéreas pode apoiar a conclusão de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "houve inalação de fumaça enquanto existia respiração."
+        },
+        {
+          "id": "B",
+          "text": "a morte foi homicídio."
+        },
+        {
+          "id": "C",
+          "text": "a queimadura foi necessariamente a causa exclusiva da morte."
+        },
+        {
+          "id": "D",
+          "text": "não houve intoxicação por monóxido de carbono."
+        },
+        {
+          "id": "E",
+          "text": "todo o corpo queimou em vida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Fuligem em vias aéreas sugere inalação em vida, mas não define sozinha causa ou maneira da morte."
+    },
+    {
+      "id": "per-u083-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Carboxiemoglobina detectável em vítima de incêndio",
+      "options": [
+        {
+          "id": "A",
+          "text": "é irrelevante em qualquer concentração."
+        },
+        {
+          "id": "B",
+          "text": "pode apoiar exposição ao monóxido de carbono, devendo ser integrada ao caso."
+        },
+        {
+          "id": "C",
+          "text": "prova automaticamente morte por queimadura."
+        },
+        {
+          "id": "D",
+          "text": "define autoria do incêndio."
+        },
+        {
+          "id": "E",
+          "text": "exclui trauma associado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O valor deve ser interpretado com cena, necropsia e demais mecanismos."
+    },
+    {
+      "id": "per-u083-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em mortes relacionadas a incêndio, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "um único marcador sempre define a causa."
+        },
+        {
+          "id": "B",
+          "text": "fumaça, monóxido de carbono, calor e trauma podem contribuir simultaneamente."
+        },
+        {
+          "id": "C",
+          "text": "carbonização exclui inalação de fumaça."
+        },
+        {
+          "id": "D",
+          "text": "trauma não pode coexistir com queimaduras."
+        },
+        {
+          "id": "E",
+          "text": "a presença de fogo define acidente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Incêndios podem produzir causas multifatoriais e exigem integração."
+    },
+    {
+      "id": "per-u083-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Geladura é",
+      "options": [
+        {
+          "id": "A",
+          "text": "redução sistêmica obrigatória da temperatura central."
+        },
+        {
+          "id": "B",
+          "text": "lesão local causada pelo frio."
+        },
+        {
+          "id": "C",
+          "text": "sinônimo de desnudamento paradoxal."
+        },
+        {
+          "id": "D",
+          "text": "achado gástrico de hipotermia."
+        },
+        {
+          "id": "E",
+          "text": "alteração produzida apenas pelo calor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Geladura é efeito localizado do frio; hipotermia é sistêmica."
+    },
+    {
+      "id": "per-u083-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na classificação clássica de geladuras, o segundo grau apresenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas palidez sem bolhas."
+        },
+        {
+          "id": "B",
+          "text": "eritema e formação de bolhas ou flictenas."
+        },
+        {
+          "id": "C",
+          "text": "gangrena e perda de segmento."
+        },
+        {
+          "id": "D",
+          "text": "carbonização óssea."
+        },
+        {
+          "id": "E",
+          "text": "somente necrose muscular profunda."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão clássico do Cebraspe descreve eritema e bolhas no segundo grau."
+    },
+    {
+      "id": "per-u083-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A geladura de quarto grau caracteriza-se classicamente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "eritema superficial."
+        },
+        {
+          "id": "B",
+          "text": "apenas edema."
+        },
+        {
+          "id": "C",
+          "text": "gangrena e destruição profunda."
+        },
+        {
+          "id": "D",
+          "text": "flictenas sem necrose."
+        },
+        {
+          "id": "E",
+          "text": "ausência de dano tecidual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O quarto grau representa o extremo da destruição local pelo frio."
+    },
+    {
+      "id": "per-u083-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre diagnóstico post mortem de hipotermia, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há um único sinal patognomônico presente em todos os casos."
+        },
+        {
+          "id": "B",
+          "text": "a conclusão depende de integração de cena, história e achados, pois os sinais isolados são inespecíficos."
+        },
+        {
+          "id": "C",
+          "text": "a temperatura ambiental basta para fechar o diagnóstico."
+        },
+        {
+          "id": "D",
+          "text": "a ausência de lesão cutânea exclui hipotermia."
+        },
+        {
+          "id": "E",
+          "text": "somente a toxicologia define o diagnóstico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Revisões forenses destacam a ausência de sinal único e obrigatório."
+    },
+    {
+      "id": "per-u083-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As manchas de Wischnewski são",
+      "options": [
+        {
+          "id": "A",
+          "text": "lesões gástricas escuras que podem apoiar diagnóstico de hipotermia."
+        },
+        {
+          "id": "B",
+          "text": "queimaduras de primeiro grau."
+        },
+        {
+          "id": "C",
+          "text": "fraturas térmicas do crânio."
+        },
+        {
+          "id": "D",
+          "text": "lesões exclusivas e obrigatórias da hipotermia."
+        },
+        {
+          "id": "E",
+          "text": "marcas cutâneas de corrente elétrica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "São achados gástricos classicamente associados ao frio, mas não exclusivos nem obrigatórios."
+    },
+    {
+      "id": "per-u083-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de manchas de Wischnewski",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui morte por hipotermia."
+        },
+        {
+          "id": "B",
+          "text": "não exclui hipotermia, pois os achados podem ser inconstantes."
+        },
+        {
+          "id": "C",
+          "text": "prova hipertermia."
+        },
+        {
+          "id": "D",
+          "text": "prova intoxicação."
+        },
+        {
+          "id": "E",
+          "text": "define causa indeterminada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A literatura não reconhece sinal macroscópico único cuja ausência elimine a hipótese."
+    },
+    {
+      "id": "per-u083-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desnudamento paradoxal em contexto de frio",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatório em toda hipotermia fatal."
+        },
+        {
+          "id": "B",
+          "text": "pode ocorrer, mas é dado contextual inespecífico."
+        },
+        {
+          "id": "C",
+          "text": "prova intenção suicida."
+        },
+        {
+          "id": "D",
+          "text": "é lesão cutânea típica."
+        },
+        {
+          "id": "E",
+          "text": "substitui necropsia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O comportamento pode aparecer em hipotermia grave, porém não é exclusivo ou obrigatório."
+    },
+    {
+      "id": "per-u083-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A interpretação de possível morte pelo frio deve considerar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a temperatura do ambiente."
+        },
+        {
+          "id": "B",
+          "text": "ambiente, roupas, duração da exposição, condições individuais e achados periciais."
+        },
+        {
+          "id": "C",
+          "text": "somente a presença de álcool."
+        },
+        {
+          "id": "D",
+          "text": "apenas o aspecto da pele."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente a idade da vítima."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A suscetibilidade ao frio depende de múltiplos fatores e a conclusão é contextual."
+    },
+    {
+      "id": "per-u083-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em corpo exposto a calor intenso, a distinção entre lesão vital e artefato térmico",
+      "options": [
+        {
+          "id": "A",
+          "text": "é desnecessária."
+        },
+        {
+          "id": "B",
+          "text": "pode exigir cena, necropsia, histologia e toxicologia, conforme o caso."
+        },
+        {
+          "id": "C",
+          "text": "é resolvida apenas pela posição de pugilista."
+        },
+        {
+          "id": "D",
+          "text": "é impossível em qualquer circunstância."
+        },
+        {
+          "id": "E",
+          "text": "depende somente da extensão da carbonização."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A investigação de vitalidade em corpos queimados é integrativa."
+    },
+    {
+      "id": "per-u083-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O roteiro mais adequado diante de questão sobre agente térmico é",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificar calor/frio, separar efeito local/sistêmico e avaliar sinais de apoio e artefatos."
+        },
+        {
+          "id": "B",
+          "text": "memorizar um único sinal diagnóstico."
+        },
+        {
+          "id": "C",
+          "text": "presumir maneira da morte pela fonte térmica."
+        },
+        {
+          "id": "D",
+          "text": "ignorar a cena."
+        },
+        {
+          "id": "E",
+          "text": "tratar geladura e hipotermia como sinônimos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O método organiza mecanismo, distribuição e limites inferenciais antes de concluir."
+    },
+    {
+      "id": "per-u083-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 29 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, a ação localizada do frio é denominada",
+      "options": [
+        {
+          "id": "A",
+          "text": "geladura e pode ser classificada em graus progressivos de lesão."
+        },
+        {
+          "id": "B",
+          "text": "hipertermia e não produz lesão cutânea."
+        },
+        {
+          "id": "C",
+          "text": "carbonização."
+        },
+        {
+          "id": "D",
+          "text": "posição de pugilista."
+        },
+        {
+          "id": "E",
+          "text": "causticação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial descreveu a geladura como ação localizada do frio e apresentou quatro graus clássicos."
+    },
+    {
+      "id": "per-u083-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 33 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, na classificação de Hoffmann a queimadura de segundo grau caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas eritema com pele íntegra."
+        },
+        {
+          "id": "B",
+          "text": "flictenas ou bolhas associadas à lesão cutânea."
+        },
+        {
+          "id": "C",
+          "text": "carbonização óssea."
+        },
+        {
+          "id": "D",
+          "text": "gangrena por frio."
+        },
+        {
+          "id": "E",
+          "text": "ausência completa de alteração epidérmica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O padrão oficial do Cebraspe cobrou as flictenas como elemento clássico do segundo grau."
+    }
+  ]
+}
