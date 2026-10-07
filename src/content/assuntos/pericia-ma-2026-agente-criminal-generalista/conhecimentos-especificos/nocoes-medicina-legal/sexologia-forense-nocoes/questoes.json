@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u084-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Sexologia Forense, no recorte desta unidade, aplica conhecimentos médicos e biológicos principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "questões jurídicas relacionadas à sexualidade e à reprodução."
+        },
+        {
+          "id": "B",
+          "text": "somente identificação papiloscópica."
+        },
+        {
+          "id": "C",
+          "text": "apenas toxicologia laboratorial."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente balística."
+        },
+        {
+          "id": "E",
+          "text": "gestão de documentos públicos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Sexologia Forense relaciona conhecimentos médicos e jurídicos em questões ligadas à sexualidade e à reprodução, aqui com foco pericial introdutório."
+    },
+    {
+      "id": "per-u084-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O exame médico-legal relacionado a possível violência sexual",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui todas as demais provas."
+        },
+        {
+          "id": "B",
+          "text": "pode incluir histórico, exame físico, documentação e coleta de vestígios orientada pelo caso."
+        },
+        {
+          "id": "C",
+          "text": "deve limitar-se obrigatoriamente à região genital."
+        },
+        {
+          "id": "D",
+          "text": "serve apenas para concluir consentimento."
+        },
+        {
+          "id": "E",
+          "text": "dispensa cadeia de custódia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O exame é uma fonte de evidência integrada a outras e deve ser orientado pela história e pelos achados."
+    },
+    {
+      "id": "per-u084-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Atendimento humanizado em exame de violência sexual",
+      "options": [
+        {
+          "id": "A",
+          "text": "é incompatível com produção de prova."
+        },
+        {
+          "id": "B",
+          "text": "inclui privacidade, explicação dos procedimentos e redução de repetições desnecessárias."
+        },
+        {
+          "id": "C",
+          "text": "exige repetir o relato em cada etapa."
+        },
+        {
+          "id": "D",
+          "text": "autoriza dispensar documentação."
+        },
+        {
+          "id": "E",
+          "text": "impede coleta de vestígios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A abordagem humanizada pode coexistir com coleta pericial e reduz revitimização sem abandonar qualidade técnica."
+    },
+    {
+      "id": "per-u084-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de lesão genital no exame",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que não houve contato."
+        },
+        {
+          "id": "B",
+          "text": "não exclui violência sexual ou contato, devendo ser interpretada com o contexto."
+        },
+        {
+          "id": "C",
+          "text": "prova consentimento."
+        },
+        {
+          "id": "D",
+          "text": "torna qualquer coleta inútil."
+        },
+        {
+          "id": "E",
+          "text": "significa que o exame foi necessariamente malfeito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Lesões podem estar ausentes por características do ato, tecidos, tempo, cicatrização e outras variáveis."
+    },
+    {
+      "id": "per-u084-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de uma lesão genital",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova automaticamente estupro."
+        },
+        {
+          "id": "B",
+          "text": "identifica necessariamente o autor."
+        },
+        {
+          "id": "C",
+          "text": "é um achado que precisa ser interpretado quanto a mecanismo, idade e contexto."
+        },
+        {
+          "id": "D",
+          "text": "prova ausência de consentimento em qualquer situação."
+        },
+        {
+          "id": "E",
+          "text": "dispensa outros vestígios."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lesão pode ser relevante, mas não responde sozinha a autoria, consentimento ou classificação jurídica."
+    },
+    {
+      "id": "per-u084-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Vestígios de interesse em um caso de violência sexual podem ser encontrados",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em genitais."
+        },
+        {
+          "id": "B",
+          "text": "apenas no corpo da vítima."
+        },
+        {
+          "id": "C",
+          "text": "no corpo, em roupas, lençóis, preservativos e objetos, conforme a história."
+        },
+        {
+          "id": "D",
+          "text": "somente se houver lesão visível."
+        },
+        {
+          "id": "E",
+          "text": "apenas em ambientes fechados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A coleta depende do possível contato e pode abranger várias regiões, roupas e objetos."
+    },
+    {
+      "id": "per-u084-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um perfil genético obtido de material biológico pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "por si só provar ausência de consentimento."
+        },
+        {
+          "id": "B",
+          "text": "associar ou excluir determinados contribuintes conforme a qualidade da amostra, mas exige contexto para interpretar o evento."
+        },
+        {
+          "id": "C",
+          "text": "definir a pena do crime."
+        },
+        {
+          "id": "D",
+          "text": "determinar automaticamente quando o material foi depositado."
+        },
+        {
+          "id": "E",
+          "text": "substituir o exame de local."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Genética pode vincular material a pessoas, mas não resolve sozinha consentimento, cronologia ou qualificação jurídica."
+    },
+    {
+      "id": "per-u084-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de espermatozoides em uma amostra",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui qualquer contato sexual."
+        },
+        {
+          "id": "B",
+          "text": "pode ocorrer mesmo após contato, por ausência de ejaculação, preservativo, tempo, higiene ou outros fatores."
+        },
+        {
+          "id": "C",
+          "text": "prova que a coleta ocorreu nas primeiras horas."
+        },
+        {
+          "id": "D",
+          "text": "prova consentimento."
+        },
+        {
+          "id": "E",
+          "text": "impede qualquer outro exame biológico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Resultado negativo deve ser interpretado segundo ato, intervalo, local e método de coleta."
+    },
+    {
+      "id": "per-u084-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o tempo entre o evento e a coleta de vestígios, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "existe um prazo biológico único e absoluto para todos os vestígios."
+        },
+        {
+          "id": "B",
+          "text": "a chance de recuperação de muitos vestígios tende a diminuir com o tempo, mas persistência varia conforme material, local e circunstâncias."
+        },
+        {
+          "id": "C",
+          "text": "após 24 horas nenhuma coleta possui valor."
+        },
+        {
+          "id": "D",
+          "text": "o tempo não influencia qualquer material biológico."
+        },
+        {
+          "id": "E",
+          "text": "protocolos institucionais nunca podem definir janelas operacionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Persistência é variável; protocolos podem definir fluxos, mas não se deve transformar uma janela específica em lei biológica universal."
+    },
+    {
+      "id": "per-u084-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para reduzir contaminação cruzada em coletas biológicas, é adequado",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar o mesmo material sem troca entre todas as regiões."
+        },
+        {
+          "id": "B",
+          "text": "misturar amostras de diferentes locais."
+        },
+        {
+          "id": "C",
+          "text": "identificar separadamente amostras e adotar técnica compatível com cada coleta."
+        },
+        {
+          "id": "D",
+          "text": "retirar rótulos após o acondicionamento."
+        },
+        {
+          "id": "E",
+          "text": "dispensar documentação de origem."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Separação, identificação e técnica adequada preservam a interpretabilidade dos vestígios."
+    },
+    {
+      "id": "per-u084-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à anatomia himenal, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há grande variação anatômica normal."
+        },
+        {
+          "id": "B",
+          "text": "a forma é idêntica em todas as pessoas."
+        },
+        {
+          "id": "C",
+          "text": "qualquer irregularidade prova trauma."
+        },
+        {
+          "id": "D",
+          "text": "hímen íntegro prova ausência de relação sexual."
+        },
+        {
+          "id": "E",
+          "text": "o exame permite determinar virgindade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Forma, espessura, elasticidade e borda variam naturalmente, exigindo descrição cuidadosa."
+    },
+    {
+      "id": "per-u084-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo orientação da Organização Mundial da Saúde, o aspecto do hímen",
+      "options": [
+        {
+          "id": "A",
+          "text": "é método confiável para provar virgindade."
+        },
+        {
+          "id": "B",
+          "text": "não é indicador confiável de relação sexual prévia, e nenhum exame prova virgindade."
+        },
+        {
+          "id": "C",
+          "text": "sempre revela o momento exato da última relação."
+        },
+        {
+          "id": "D",
+          "text": "permite concluir consentimento."
+        },
+        {
+          "id": "E",
+          "text": "define autoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A chamada verificação de virgindade não possui base científica válida."
+    },
+    {
+      "id": "per-u084-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na distinção morfológica clássica, um entalhe himenal tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "representar obrigatoriamente trauma recente."
+        },
+        {
+          "id": "B",
+          "text": "ser variação de borda mais regular, sem características de ruptura traumática recente."
+        },
+        {
+          "id": "C",
+          "text": "provar relação sexual."
+        },
+        {
+          "id": "D",
+          "text": "ser sempre hemorrágico."
+        },
+        {
+          "id": "E",
+          "text": "atingir obrigatoriamente tecidos profundos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Entalhes são variações morfológicas; a descrição deve distingui-los de rupturas sem transformar o achado em teste de atividade sexual."
+    },
+    {
+      "id": "per-u084-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma ruptura himenal recente pode apresentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas características de variação anatômica regular."
+        },
+        {
+          "id": "B",
+          "text": "sinais inflamatórios, sangramento ou solução de continuidade, conforme o caso."
+        },
+        {
+          "id": "C",
+          "text": "ausência obrigatória de qualquer alteração."
+        },
+        {
+          "id": "D",
+          "text": "prova necessária de crime."
+        },
+        {
+          "id": "E",
+          "text": "identificação do autor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Rupturas recentes podem mostrar sinais traumáticos, mas a interpretação jurídica depende do conjunto."
+    },
+    {
+      "id": "per-u084-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um hímen sem ruptura observável",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui penetração em qualquer circunstância."
+        },
+        {
+          "id": "B",
+          "text": "não permite, sozinho, concluir ausência de contato sexual."
+        },
+        {
+          "id": "C",
+          "text": "prova consentimento."
+        },
+        {
+          "id": "D",
+          "text": "prova que o exame foi precoce."
+        },
+        {
+          "id": "E",
+          "text": "elimina necessidade de coleta biológica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A anatomia himenal não funciona como marcador binário de relação sexual."
+    },
+    {
+      "id": "per-u084-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Roupas utilizadas no evento investigado",
+      "options": [
+        {
+          "id": "A",
+          "text": "não possuem valor após exame corporal."
+        },
+        {
+          "id": "B",
+          "text": "podem conservar material biológico, fibras, resíduos, manchas ou rasgos relevantes."
+        },
+        {
+          "id": "C",
+          "text": "devem sempre ser lavadas antes da coleta."
+        },
+        {
+          "id": "D",
+          "text": "podem ser acondicionadas todas juntas sem identificação."
+        },
+        {
+          "id": "E",
+          "text": "servem apenas para reconhecimento visual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Roupas podem ser fonte independente de vestígios e devem ser preservadas conforme a hipótese."
+    },
+    {
+      "id": "per-u084-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Gravidez ou diagnóstico de infecção sexualmente transmissível",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificam automaticamente um autor e a data do evento."
+        },
+        {
+          "id": "B",
+          "text": "podem ter relevância clínica e médico-legal, mas não provam sozinhos um episódio específico."
+        },
+        {
+          "id": "C",
+          "text": "provam violência em qualquer circunstância."
+        },
+        {
+          "id": "D",
+          "text": "substituem exame genético."
+        },
+        {
+          "id": "E",
+          "text": "não possuem qualquer relevância pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses achados exigem cronologia e contexto e não individualizam sozinhos um evento."
+    },
+    {
+      "id": "per-u084-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A conclusão médico-legal sobre achados sexológicos deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir automaticamente responsabilidade penal."
+        },
+        {
+          "id": "B",
+          "text": "descrever achados, compatibilidade e limitações, deixando a qualificação jurídica para integração das provas."
+        },
+        {
+          "id": "C",
+          "text": "presumir consentimento quando não há lesão."
+        },
+        {
+          "id": "D",
+          "text": "presumir violência sempre que há sêmen."
+        },
+        {
+          "id": "E",
+          "text": "ignorar a história clínica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O laudo técnico responde aos limites da perícia e não substitui decisão jurídica."
+    },
+    {
+      "id": "per-u084-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença entre Sexologia Forense e Direito Penal, neste recorte, é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existe diferença."
+        },
+        {
+          "id": "B",
+          "text": "a Sexologia Forense examina corpo e vestígios; o Direito Penal define tipos e consequências jurídicas."
+        },
+        {
+          "id": "C",
+          "text": "Sexologia Forense decide condenação."
+        },
+        {
+          "id": "D",
+          "text": "Direito Penal realiza exames laboratoriais."
+        },
+        {
+          "id": "E",
+          "text": "Sexologia Forense estuda apenas documentos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As áreas dialogam, mas têm funções diferentes."
+    },
+    {
+      "id": "per-u084-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O método mais seguro diante de questão de Sexologia Forense é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar um único achado anatômico como prova definitiva."
+        },
+        {
+          "id": "B",
+          "text": "integrar história, exame, vestígios, tempo, cadeia de custódia e limites probatórios."
+        },
+        {
+          "id": "C",
+          "text": "concluir consentimento pelo hímen."
+        },
+        {
+          "id": "D",
+          "text": "ignorar roupas se houver exame corporal."
+        },
+        {
+          "id": "E",
+          "text": "considerar resultado negativo como exclusão absoluta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A interpretação pericial é integrativa e deve declarar limites."
+    },
+    {
+      "id": "per-u084-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em adaptação não literal da questão 14 da prova oral Cebraspe/PC-RO 2022 para Médico-Legista, a distinção clássica entre entalhe e ruptura himenal é melhor expressa por",
+      "options": [
+        {
+          "id": "A",
+          "text": "entalhe como variação morfológica de borda e ruptura como solução de continuidade traumática, cuja aparência varia com o tempo de cicatrização."
+        },
+        {
+          "id": "B",
+          "text": "entalhe e ruptura como sinônimos obrigatórios."
+        },
+        {
+          "id": "C",
+          "text": "entalhe como prova de violência e ruptura como prova de consentimento."
+        },
+        {
+          "id": "D",
+          "text": "ruptura sempre regular e simétrica, sem sinais recentes."
+        },
+        {
+          "id": "E",
+          "text": "entalhe sempre hemorrágico e profundo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O padrão oficial diferencia a variação morfológica do entalhe da ruptura traumática e descreve mudanças entre lesão recente e cicatrizada; a U084 acrescenta que nenhum desses achados constitui teste de virgindade ou prova automática de violência."
+    }
+  ]
+}
