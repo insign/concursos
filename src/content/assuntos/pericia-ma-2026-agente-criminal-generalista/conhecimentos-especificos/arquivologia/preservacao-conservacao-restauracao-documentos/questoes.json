@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u091-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma instituição define prioridades de salvamento, treina equipes, prevê inspeções e estabelece critérios para intervenções nos documentos. O conjunto dessas escolhas corresponde mais diretamente à",
+      "options": [
+        {
+          "id": "A",
+          "text": "restauração, porque todas as medidas atuam sobre danos já ocorridos."
+        },
+        {
+          "id": "B",
+          "text": "desmetalização, por envolver retirada de elementos nocivos."
+        },
+        {
+          "id": "C",
+          "text": "preservação, pois reúne políticas e ações para manter integridade e acesso."
+        },
+        {
+          "id": "D",
+          "text": "planificação, por prever a redução de deformações do papel."
+        },
+        {
+          "id": "E",
+          "text": "eliminação, pois determina a destinação das séries."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Preservação tem alcance institucional e operacional amplo, incluindo planejamento, prevenção e tratamento quando necessário. As demais opções são operações específicas ou decisão de destinação."
+    },
+    {
+      "id": "per-u091-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a distinção técnica usada no material, a conservação documental tem como finalidade principal",
+      "options": [
+        {
+          "id": "A",
+          "text": "desacelerar a degradação e estabilizar documentos, por prevenção ou tratamentos compatíveis."
+        },
+        {
+          "id": "B",
+          "text": "reconstituir integralmente textos e assinaturas que desapareceram."
+        },
+        {
+          "id": "C",
+          "text": "transformar todo documento em obra de guarda permanente."
+        },
+        {
+          "id": "D",
+          "text": "substituir o plano de classificação pela avaliação de risco."
+        },
+        {
+          "id": "E",
+          "text": "impedir qualquer pequeno reparo, reservando-o sempre à restauração."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conservação inclui ações preventivas e estabilizadoras, podendo alcançar higienização e reparos limitados. Não recompõe informação perdida nem muda a destinação."
+    },
+    {
+      "id": "per-u091-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um processo tem um pequeno rasgo cuja progressão pode ser impedida por reparo técnico delimitado. É correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conservação não pode atuar, porque já existe dano."
+        },
+        {
+          "id": "B",
+          "text": "um reparo só é admissível depois de tornar o documento permanente."
+        },
+        {
+          "id": "C",
+          "text": "a restauração exige obrigatoriamente reconstrução completa do papel."
+        },
+        {
+          "id": "D",
+          "text": "qualquer cola doméstica serve se o objetivo for interromper o rasgo."
+        },
+        {
+          "id": "E",
+          "text": "um pequeno reparo pode integrar a conservação, desde que se observem suporte, técnica e limites."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A conservação pode incluir estabilização de deterioração em andamento e reparos executados com critérios rigorosos. A existência de dano não exige restauração ampla."
+    },
+    {
+      "id": "per-u091-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento antigo em papel tornou-se quebradiço. Uma hipótese material que ajuda a explicar a perda de resistência é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o mero número de folhas de outro processo da mesma série."
+        },
+        {
+          "id": "B",
+          "text": "a degradação das cadeias de celulose por processos químicos, inclusive acidez e oxidação."
+        },
+        {
+          "id": "C",
+          "text": "a transferência do arquivo corrente para o intermediário."
+        },
+        {
+          "id": "D",
+          "text": "o registro da consulta num instrumento de pesquisa."
+        },
+        {
+          "id": "E",
+          "text": "a troca de identificação da estante, que altera quimicamente toda fibra."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O papel contém fibras de celulose cujas cadeias podem ser degradadas por processos químicos. Fase, identificação e movimentação não explicam por si a ruptura molecular."
+    },
+    {
+      "id": "per-u091-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao examinar uma folha ondulada e manchada após vazamento, a conduta mais prudente antes de escolher o tratamento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "concluir que toda mancha decorre exclusivamente de fungo ativo."
+        },
+        {
+          "id": "B",
+          "text": "passar ferro quente para eliminar a umidade residual."
+        },
+        {
+          "id": "C",
+          "text": "aplicar diretamente solvente forte para uniformizar a cor."
+        },
+        {
+          "id": "D",
+          "text": "avaliar o histórico de água, a estabilidade de tinta e suporte e o estado de deterioração."
+        },
+        {
+          "id": "E",
+          "text": "reclassificar a série documental como permanente para tornar a folha resistente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ondulação e manchas podem ter causas e consequências variadas. Diagnóstico de água, material, tinta e fragilidade precede secagem ou intervenção direta."
+    },
+    {
+      "id": "per-u091-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um trabalhador encontrou pequenas manchas que se assemelham a fungos em uma caixa antiga, sem evidência sobre atividade biológica. A conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "confirmar fungos ativos apenas pela cor."
+        },
+        {
+          "id": "B",
+          "text": "espalhar as folhas para que esporos se dispersem."
+        },
+        {
+          "id": "C",
+          "text": "restringir o manuseio, investigar o risco ambiental e solicitar avaliação adequada."
+        },
+        {
+          "id": "D",
+          "text": "usar alvejante doméstico, pois qualquer mancha biológica exige desinfecção."
+        },
+        {
+          "id": "E",
+          "text": "declarar todo o fundo documental irrecuperável e eliminá-lo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A aparência isolada não prova atividade biológica. Isolamento prudente, identificação da causa e avaliação especializada evitam disseminação e danos adicionais."
+    },
+    {
+      "id": "per-u091-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na higienização de documentos de arquivo, uma limpeza superficial a seco pode ser apropriada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda a tinta já se desprende em partículas."
+        },
+        {
+          "id": "B",
+          "text": "o suporte está encharcado e as folhas aderidas."
+        },
+        {
+          "id": "C",
+          "text": "há infestação sem avaliação e o procedimento ocorrerá na própria estante."
+        },
+        {
+          "id": "D",
+          "text": "é preciso remover manchas profundas com solvente doméstico."
+        },
+        {
+          "id": "E",
+          "text": "o documento foi examinado, o suporte é estável e a execução utiliza pessoal e método adequados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A limpeza seca de superfície depende de avaliar tinta, suporte e risco; nem mesmo um procedimento leve serve a todos os documentos. Solventes e manuseio de contaminados requerem outra abordagem."
+    },
+    {
+      "id": "per-u091-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma folha contém escrita a lápis pouco fixada e áreas de pigmento pulverulento. O principal risco da limpeza mecânica indiscriminada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "remover também partículas que constituem a própria informação registrada."
+        },
+        {
+          "id": "B",
+          "text": "alterar apenas o código de classificação, sem atingir material original."
+        },
+        {
+          "id": "C",
+          "text": "transformar a folha em um documento digital autêntico."
+        },
+        {
+          "id": "D",
+          "text": "ampliar o prazo previsto na tabela de temporalidade."
+        },
+        {
+          "id": "E",
+          "text": "promover desacidificação química por simples escovação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Partículas da escrita ou do desenho podem desprender-se com pincel ou atrito. A higienização precisa respeitar a técnica de registro e pode ser desaconselhável."
+    },
+    {
+      "id": "per-u091-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Grampos corroídos foram encontrados em um processo com folhas muito frágeis. Qual decisão é justificável?",
+      "options": [
+        {
+          "id": "A",
+          "text": "retirar imediatamente todos os metais, puxando-os com força."
+        },
+        {
+          "id": "B",
+          "text": "avaliar as condições e, se necessário, realizar a desmetalização com equipe e método compatíveis."
+        },
+        {
+          "id": "C",
+          "text": "fixar novos grampos sobre os antigos para impedir sua movimentação."
+        },
+        {
+          "id": "D",
+          "text": "umedecer o processo inteiro sem testar sua estabilidade."
+        },
+        {
+          "id": "E",
+          "text": "substituir as folhas antigas por folhas novas sem registro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Desmetalizar é remover elementos metálicos, mas uma retirada mal executada pode rasgar o papel. Estado, ferramentas e capacitação são essenciais."
+    },
+    {
+      "id": "per-u091-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um arquivo constatou ataque por insetos em parte do acervo. A providência que corresponde especificamente ao combate desse agente é denominada",
+      "options": [
+        {
+          "id": "A",
+          "text": "desacidificação."
+        },
+        {
+          "id": "B",
+          "text": "planificação."
+        },
+        {
+          "id": "C",
+          "text": "obturação."
+        },
+        {
+          "id": "D",
+          "text": "desinfestação, distinta de desinfecção de microrganismos."
+        },
+        {
+          "id": "E",
+          "text": "recolhimento, porque todo ataque de inseto impõe guarda permanente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Desinfestação dirige-se a insetos; desinfecção trata microrganismos. Ambas precisam de diagnóstico e execução adequada, sem uso indiscriminado de substâncias químicas."
+    },
+    {
+      "id": "per-u091-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma folha já rasgada ameaça perder fragmentos durante consultas. Na decisão entre deixar como está, reparar ou restaurar, o critério mais defensável é",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolher o procedimento de maior transformação para recuperar a aparência original."
+        },
+        {
+          "id": "B",
+          "text": "avaliar estado e risco, adotando a menor estabilização segura e suficiente ao uso previsto."
+        },
+        {
+          "id": "C",
+          "text": "aplicar fita transparente porque não altera a leitura imediata."
+        },
+        {
+          "id": "D",
+          "text": "reproduzir a assinatura em folha nova antes de qualquer diagnóstico."
+        },
+        {
+          "id": "E",
+          "text": "esperar obrigatoriamente o prazo final da tabela para avaliar o dano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Intervenção mínima e diagnóstico orientam a conservação. A escolha não é pela aparência, e registros probatórios não podem ser refeitos por adivinhação."
+    },
+    {
+      "id": "per-u091-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento sofreu perda física de uma margem com parte da informação manuscrita. Um restaurador completa o suporte ausente com material compatível. Dessa ação não se pode concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi possível estabilizar o suporte restante."
+        },
+        {
+          "id": "B",
+          "text": "foi necessário distinguir intervenção posterior do original."
+        },
+        {
+          "id": "C",
+          "text": "a documentação técnica do tratamento continua relevante."
+        },
+        {
+          "id": "D",
+          "text": "o conjunto conserva o vínculo com a série arquivística."
+        },
+        {
+          "id": "E",
+          "text": "o conteúdo verbal desaparecido foi automaticamente recuperado com autenticidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Reintegração de suporte não prova as palavras ou assinaturas perdidas. Inventar informação não é restauração, e intervenção não dispensa rastreabilidade."
+    },
+    {
+      "id": "per-u091-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A escolha entre limpar, reforçar e restaurar deve seguir o princípio da mínima intervenção. Isso implica",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir todo o suporte original sempre que houver rasgo."
+        },
+        {
+          "id": "B",
+          "text": "impedir qualquer tratamento mesmo quando o dano ameaça avançar."
+        },
+        {
+          "id": "C",
+          "text": "intervir apenas na extensão necessária para estabilizar e permitir uso seguro, preservando material original."
+        },
+        {
+          "id": "D",
+          "text": "imitar todos os traços perdidos como se fossem autênticos."
+        },
+        {
+          "id": "E",
+          "text": "esconder do registro qualquer tratamento aplicado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A mínima intervenção limita a mudança ao essencial. Não significa omissão obrigatória, nem autoriza substituir ou falsificar o material documental."
+    },
+    {
+      "id": "per-u091-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Antes de empregar um adesivo num papel com tinta sensível, a equipe técnica deve considerar principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a compatibilidade e a estabilidade do método e material em relação a suporte e tinta."
+        },
+        {
+          "id": "B",
+          "text": "somente a cor do adesivo, independentemente de sua composição."
+        },
+        {
+          "id": "C",
+          "text": "a facilidade de compra como critério suficiente."
+        },
+        {
+          "id": "D",
+          "text": "se a caixa está cheia, sem examinar o documento."
+        },
+        {
+          "id": "E",
+          "text": "a data do primeiro registro da série, que determina o adesivo obrigatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Compatibilidade evita reações e danos novos. O adesivo e o modo de aplicação devem ser escolhidos segundo o documento e os critérios técnicos."
+    },
+    {
+      "id": "per-u091-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No planejamento da restauração, a reversibilidade é compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantia de que toda alteração feita será sempre completamente desfeita."
+        },
+        {
+          "id": "B",
+          "text": "obrigação de copiar digitalmente o documento antes da restauração, sem outras exigências."
+        },
+        {
+          "id": "C",
+          "text": "necessidade de refazer todas as intervenções anteriores."
+        },
+        {
+          "id": "D",
+          "text": "preferência, quando tecnicamente viável, por tratamentos revisáveis ou removíveis com segurança."
+        },
+        {
+          "id": "E",
+          "text": "uso obrigatório de material plástico permanente colado às duas faces."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A reversibilidade é um critério de escolha, sujeito a limites técnicos; não é promessa universal de eliminar qualquer efeito de uma intervenção."
+    },
+    {
+      "id": "per-u091-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma recomposição moderna em documento histórico foi executada com material compatível, mas sem registro do tratamento, e procurando parecer original. O problema central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o uso de qualquer tratamento em documento de papel."
+        },
+        {
+          "id": "B",
+          "text": "a violação da distinguibilidade e da documentação da intervenção."
+        },
+        {
+          "id": "C",
+          "text": "a necessidade de transformar o documento em cópia de consulta."
+        },
+        {
+          "id": "D",
+          "text": "a obrigação de mudar o valor primário do documento."
+        },
+        {
+          "id": "E",
+          "text": "a suposta proibição de reparar peças históricas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Distinguibilidade e registro permitem separar original e intervenção, assegurando rastreabilidade e respeito à autenticidade. Não se busca enganar o consulente."
+    },
+    {
+      "id": "per-u091-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na restauração de um documento com lacuna material, a técnica de obturação tem por objetivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "preencher falhas do suporte com material adequado, sem criar conteúdo textual não documentado."
+        },
+        {
+          "id": "B",
+          "text": "reduzir automaticamente a umidade do depósito."
+        },
+        {
+          "id": "C",
+          "text": "trocar grampos enferrujados por novos grampos de metal."
+        },
+        {
+          "id": "D",
+          "text": "classificar o conteúdo do processo por funções institucionais."
+        },
+        {
+          "id": "E",
+          "text": "produzir cópia digital que substitui legalmente o original."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Obturação ou reintegração completa material faltante no suporte. Não inventa escrita e não atua sobre a classificação ou a destinação arquivística."
+    },
+    {
+      "id": "per-u091-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma diretriz técnica descreve a aplicação de folha de papel ou tecido para reforçar o verso de um documento danificado. Essa técnica corresponde à",
+      "options": [
+        {
+          "id": "A",
+          "text": "transferência ao arquivo intermediário."
+        },
+        {
+          "id": "B",
+          "text": "desinfestação por agentes químicos."
+        },
+        {
+          "id": "C",
+          "text": "catalogação por suporte."
+        },
+        {
+          "id": "D",
+          "text": "eliminação de documento danificado."
+        },
+        {
+          "id": "E",
+          "text": "velatura, cujo uso exige análise de material e técnica de registro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Velatura (também tratada em certas fontes como laminação) aplica reforço no verso. Não é técnica de destinação ou controle de pragas; sua adequação depende do suporte."
+    },
+    {
+      "id": "per-u091-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um desenho é colocado entre duas películas transparentes de poliéster, unidas apenas nas bordas externas, sem colar o documento. O procedimento, quando compatível com a técnica de registro, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "velatura por aderência permanente ao verso do original."
+        },
+        {
+          "id": "B",
+          "text": "desacidificação por neutralização química."
+        },
+        {
+          "id": "C",
+          "text": "encapsulação, distinta da plastificação aderida ao documento."
+        },
+        {
+          "id": "D",
+          "text": "obturação de lacunas do papel."
+        },
+        {
+          "id": "E",
+          "text": "desinfecção por ausência de oxigênio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Encapsular envolve acondicionar o documento entre filmes unidos nas margens, não colar diretamente a peça. Algumas tintas e registros pulverulentos são incompatíveis."
+    },
+    {
+      "id": "per-u091-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma tubulação rompeu-se e alagou uma sala com processos, fotografias e mídias. A primeira conduta institucional deve priorizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "secagem de todas as peças por calor intenso no local do acidente."
+        },
+        {
+          "id": "B",
+          "text": "descarte de toda documentação molhada como consequência do sinistro."
+        },
+        {
+          "id": "C",
+          "text": "recolhimento definitivo das peças à fase permanente."
+        },
+        {
+          "id": "D",
+          "text": "segurança das pessoas e controle da origem do acidente, acionando responsáveis e plano de emergência."
+        },
+        {
+          "id": "E",
+          "text": "limpeza de todo acervo com solvente antes de qualquer registro."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em sinistros, a segurança humana e contenção da causa vêm primeiro. O resgate organizado depende de equipes, identificação e triagem por suporte."
+    },
+    {
+      "id": "per-u091-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante o resgate após inundação, houve substituição de caixas e deslocamento dos documentos para uma área seca. Para manter integridade arquivística, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "juntar todos os processos molhados numa sequência única por aparência."
+        },
+        {
+          "id": "B",
+          "text": "registrar conjuntos, posições, identificadores e movimentações, preservando proveniência e vínculos."
+        },
+        {
+          "id": "C",
+          "text": "rasgar as etiquetas danificadas sem registrar os códigos."
+        },
+        {
+          "id": "D",
+          "text": "descartar o inventário antigo porque os recipientes foram trocados."
+        },
+        {
+          "id": "E",
+          "text": "impedir qualquer documento do acervo de receber identificação provisória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preservação do contexto exige registros de identificação e movimentação durante o resgate; a substituição de recipientes não deve apagar a proveniência ou desorganizar o conjunto."
+    },
+    {
+      "id": "per-u091-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a proteção de documentos de arquivo, a afirmação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma restauração concluída autoriza eliminar o original se existir fotografia dele."
+        },
+        {
+          "id": "B",
+          "text": "o papel restaurado adquire automaticamente valor histórico permanente."
+        },
+        {
+          "id": "C",
+          "text": "conservação e restauração definem a fase corrente ou intermediária do documento."
+        },
+        {
+          "id": "D",
+          "text": "um documento restaurado não precisa manter a relação com seu processo."
+        },
+        {
+          "id": "E",
+          "text": "restauração e reprodução para consulta não substituem avaliação e destinação legalmente competentes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A intervenção material e as cópias protegem e viabilizam acesso; os prazos e a eliminação dependem de avaliação e procedimento próprio."
+    }
+  ]
+}
