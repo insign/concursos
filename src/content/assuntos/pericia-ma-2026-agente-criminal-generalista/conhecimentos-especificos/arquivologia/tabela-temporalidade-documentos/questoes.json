@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u089-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma requisição foi produzida em 2019, mas a atividade à qual pertence só se encerrou em 2021. A tabela competente prevê início do prazo após o encerramento. O marco adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a data de 2019, por ser a mais antiga."
+        },
+        {
+          "id": "B",
+          "text": "a data de conclusão da atividade em 2021, se comprovada."
+        },
+        {
+          "id": "C",
+          "text": "o dia em que o servidor digitalizar a primeira folha."
+        },
+        {
+          "id": "D",
+          "text": "a data da última consulta informal, independentemente da tabela."
+        },
+        {
+          "id": "E",
+          "text": "o primeiro dia do ano seguinte à publicação do edital."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O evento de início expresso na tabela governa a contagem. A produção em 2019 não pode substituir o encerramento comprovado de 2021."
+    },
+    {
+      "id": "per-u089-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma tabela fictícia prevê dois anos na fase corrente a partir do encerramento e três na intermediária a partir da transferência efetiva. A conclusão que evita erro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "contar cinco anos desde a primeira assinatura."
+        },
+        {
+          "id": "B",
+          "text": "presumir que as duas fases se iniciam juntas."
+        },
+        {
+          "id": "C",
+          "text": "declarar eliminação no dia da classificação."
+        },
+        {
+          "id": "D",
+          "text": "conferir separadamente as duas datas de início antes de concluir os períodos."
+        },
+        {
+          "id": "E",
+          "text": "dispensar o registro da transferência, pois o prazo intermediário é automático."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A contagem intermediária depende da transferência efetiva; não basta somar períodos a partir da produção ou da conclusão."
+    },
+    {
+      "id": "per-u089-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exemplo didático, uma demanda encerrou-se em 1º/4/2021 e a transferência ao intermediário só aconteceu em 1º/5/2023. A tabela fictícia prevê três anos intermediários desde a transferência. A referência de término desse período é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º/5/2026, sem autorização automática de descarte."
+        },
+        {
+          "id": "B",
+          "text": "1º/4/2024, pois contam três anos desde o encerramento."
+        },
+        {
+          "id": "C",
+          "text": "1º/4/2026, pois a transferência nunca influencia a contagem."
+        },
+        {
+          "id": "D",
+          "text": "1º/5/2023, pois o início também é o fim do prazo."
+        },
+        {
+          "id": "E",
+          "text": "1º/5/2028, por acrescentar cinco anos ao prazo intermediário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Contando três anos da transferência em 1º/5/2023 chega-se a 1º/5/2026 na hipótese. Mesmo nesse momento, a eliminação depende do rito competente."
+    },
+    {
+      "id": "per-u089-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O valor de um conjunto permanece relevante porque ele permite comprovar obrigações fiscais e administrativas da atividade que o produziu. Essa utilidade é exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "valor secundário exclusivamente histórico."
+        },
+        {
+          "id": "B",
+          "text": "ausência de valor arquivístico, se o papel estiver arquivado."
+        },
+        {
+          "id": "C",
+          "text": "valor primário, vinculado às necessidades da atividade original."
+        },
+        {
+          "id": "D",
+          "text": "recolhimento para preservação automática."
+        },
+        {
+          "id": "E",
+          "text": "autorização de eliminação por simples decurso do tempo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Valor primário decorre de necessidades administrativas, legais ou fiscais ligadas às atividades originais; não é sinônimo de interesse exclusivamente histórico."
+    },
+    {
+      "id": "per-u089-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um conjunto já não é necessário à operação cotidiana, mas sua informação é relevante para pesquisa histórica e comprovação duradoura, conforme avaliação competente. Esse valor é denominado",
+      "options": [
+        {
+          "id": "A",
+          "text": "temporário obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "primário exclusivo."
+        },
+        {
+          "id": "C",
+          "text": "de protocolo."
+        },
+        {
+          "id": "D",
+          "text": "de ordenação numérica."
+        },
+        {
+          "id": "E",
+          "text": "secundário, com potencial de fundamentar guarda permanente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Valor secundário subsiste além do uso original e pode justificar preservação permanente. Não se deduz automaticamente da idade ou da denominação do conjunto."
+    },
+    {
+      "id": "per-u089-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "À luz do art. 8º da Lei nº 8.159/1991, documentos sem uso corrente que aguardam eliminação ou recolhimento por interesse administrativo são",
+      "options": [
+        {
+          "id": "A",
+          "text": "intermediários."
+        },
+        {
+          "id": "B",
+          "text": "permanentes, por definição."
+        },
+        {
+          "id": "C",
+          "text": "correntes, necessariamente, por estarem guardados."
+        },
+        {
+          "id": "D",
+          "text": "coleções privadas obrigatórias."
+        },
+        {
+          "id": "E",
+          "text": "documentos eliminados de fato."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Arquivo intermediário é a fase de guarda de documentos sem uso corrente que aguardam destinação. Não é sinônimo de eliminação."
+    },
+    {
+      "id": "per-u089-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um processo terminou a tramitação e foi arquivado. Um servidor conclui que ele já ingressou em arquivo permanente. Essa conclusão",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre de todo despacho de arquivamento."
+        },
+        {
+          "id": "B",
+          "text": "equivale à aprovação da tabela de temporalidade."
+        },
+        {
+          "id": "C",
+          "text": "é necessária para qualquer documento digital."
+        },
+        {
+          "id": "D",
+          "text": "confunde o ato de arquivar com recolhimento e destinação definitiva."
+        },
+        {
+          "id": "E",
+          "text": "está prevista para qualquer documento produzido por órgão público."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Arquivamento pode significar guarda ordenada ou despacho após tramitação. Recolhimento é a entrada na guarda permanente, após avaliação e procedimentos competentes."
+    },
+    {
+      "id": "per-u089-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade envia documentos que já não usa frequentemente à guarda intermediária, segundo a tabela. Essa passagem se chama",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminação."
+        },
+        {
+          "id": "B",
+          "text": "transferência."
+        },
+        {
+          "id": "C",
+          "text": "recolhimento permanente."
+        },
+        {
+          "id": "D",
+          "text": "autuação."
+        },
+        {
+          "id": "E",
+          "text": "restauração documental."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Transferência desloca documentos à guarda intermediária; recolhimento os dirige à guarda permanente. Eliminação é outro tipo de destinação."
+    },
+    {
+      "id": "per-u089-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O resultado de avaliação que estabelece a preservação definitiva de determinados conjuntos deve ser cumprido por meio de",
+      "options": [
+        {
+          "id": "A",
+          "text": "destruição do original assim que existir cópia."
+        },
+        {
+          "id": "B",
+          "text": "registro de protocolo como etapa suficiente."
+        },
+        {
+          "id": "C",
+          "text": "recolhimento para guarda permanente, conforme o rito competente."
+        },
+        {
+          "id": "D",
+          "text": "simples mudança da ordem alfabética."
+        },
+        {
+          "id": "E",
+          "text": "retirada temporária para consulta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Documentos destinados à guarda permanente devem ser recolhidos na forma aplicável, sem que isso se confunda com transferência intermediária."
+    },
+    {
+      "id": "per-u089-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma tabela regularmente aprovada indica que certa série documental poderá ser eliminada ao terminar o prazo previsto. O prazo expirou. O que falta verificar antes do descarte?",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a cor da pasta."
+        },
+        {
+          "id": "B",
+          "text": "somente a idade do servidor responsável."
+        },
+        {
+          "id": "C",
+          "text": "a ordem numérica da primeira folha."
+        },
+        {
+          "id": "D",
+          "text": "se existe cópia informal do documento em outro setor."
+        },
+        {
+          "id": "E",
+          "text": "avaliação/seleção, competência e procedimentos aplicáveis à destinação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Prazo cumprido não basta: eliminação de documentos públicos depende de autorização institucional e da observância do rito de avaliação e destinação."
+    },
+    {
+      "id": "per-u089-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 9º da Lei nº 8.159/1991, a eliminação de documentos produzidos por instituições públicas e de caráter público depende de",
+      "options": [
+        {
+          "id": "A",
+          "text": "autorização da instituição arquivística pública na sua específica esfera de competência."
+        },
+        {
+          "id": "B",
+          "text": "autorização de qualquer servidor que consulte os registros."
+        },
+        {
+          "id": "C",
+          "text": "parecer exclusivamente do setor de informática."
+        },
+        {
+          "id": "D",
+          "text": "aprovação tácita após cinco anos desde a emissão."
+        },
+        {
+          "id": "E",
+          "text": "mera criação de cópia digital em repositório externo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 9º expressamente condiciona a eliminação à autorização da instituição arquivística pública na esfera competente, e não à preferência de um usuário."
+    },
+    {
+      "id": "per-u089-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na redação da Resolução Conarq nº 40/2014 alterada pela nº 44/2020, a eliminação de documentos digitais e não digitais no sistema nacional pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "destruição antes da avaliação para reduzir custos."
+        },
+        {
+          "id": "B",
+          "text": "autorização automática por terem sido digitalizados."
+        },
+        {
+          "id": "C",
+          "text": "decisão individual do servidor sem instrumento formal."
+        },
+        {
+          "id": "D",
+          "text": "análise e seleção pelas comissões permanentes competentes e cumprimento dos procedimentos previstos."
+        },
+        {
+          "id": "E",
+          "text": "apenas um aviso informal enviado ao produtor."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resolução determina avaliação e seleção conduzidas por comissão competente e cumprimento dos controles de eliminação, incluindo instrumentos e registros."
+    },
+    {
+      "id": "per-u089-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A redação de 2020 da Resolução Conarq nº 40/2014 relaciona a autorização de eliminação de documentos públicos à",
+      "options": [
+        {
+          "id": "A",
+          "text": "idade mínima fixa de vinte anos para qualquer série."
+        },
+        {
+          "id": "B",
+          "text": "aprovação do código de classificação e da tabela de temporalidade pela instituição arquivística competente."
+        },
+        {
+          "id": "C",
+          "text": "simples emissão de parecer informal da equipe de protocolo."
+        },
+        {
+          "id": "D",
+          "text": "aprovação exclusivamente pelo destinatário da última remessa."
+        },
+        {
+          "id": "E",
+          "text": "criação de cópia de segurança sem avaliação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração introduzida pela Resolução nº 44/2020 articula a autorização à aprovação dos instrumentos pela instituição arquivística pública em sua esfera competente."
+    },
+    {
+      "id": "per-u089-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma comissão seleciona documentos elimináveis e prepara um registro com sua identificação. Segundo o rito de eliminação da Resolução Conarq nº 40/2014 alterada, esse documento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "termo de recolhimento permanente."
+        },
+        {
+          "id": "B",
+          "text": "despacho de encerramento de processo."
+        },
+        {
+          "id": "C",
+          "text": "relatório de transferência intermediária."
+        },
+        {
+          "id": "D",
+          "text": "certidão de destruição consumada."
+        },
+        {
+          "id": "E",
+          "text": "Listagem de Eliminação de Documentos, submetida à aprovação competente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A listagem registra o que está previsto para eliminação; não prova a efetivação, que é documentada pelo termo após o ato."
+    },
+    {
+      "id": "per-u089-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após aprovação da listagem, o órgão publica documento oficial que comunica quais registros serão eliminados. A função desse ato é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir toda avaliação documental."
+        },
+        {
+          "id": "B",
+          "text": "provar que a destruição já se completou."
+        },
+        {
+          "id": "C",
+          "text": "dar ciência previamente, por Edital de Ciência de Eliminação de Documentos."
+        },
+        {
+          "id": "D",
+          "text": "transferir automaticamente arquivos correntes ao permanente."
+        },
+        {
+          "id": "E",
+          "text": "reclassificar o conjunto como documento sigiloso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O edital de ciência divulga a eliminação planejada antes da execução; a prova do procedimento já efetivado é o termo posterior."
+    },
+    {
+      "id": "per-u089-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Concluída a eliminação segundo o procedimento, o registro que documenta a execução do ato é o",
+      "options": [
+        {
+          "id": "A",
+          "text": "Termo de Eliminação de Documentos."
+        },
+        {
+          "id": "B",
+          "text": "Edital de Ciência de Eliminação, que sempre comprova execução passada."
+        },
+        {
+          "id": "C",
+          "text": "plano de classificação por funções."
+        },
+        {
+          "id": "D",
+          "text": "despacho de recebimento inicial."
+        },
+        {
+          "id": "E",
+          "text": "índice alfabético de consulta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O termo é elaborado após a eliminação para documentar a realização do procedimento, diferentemente de listagem e edital prévios."
+    },
+    {
+      "id": "per-u089-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série não consta da tabela de temporalidade aplicável. Conforme a redação de 2020 da Resolução Conarq nº 40/2014, isso",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite eliminá-la livremente porque não há prazo registrado."
+        },
+        {
+          "id": "B",
+          "text": "obriga a descartá-la na semana seguinte."
+        },
+        {
+          "id": "C",
+          "text": "fixa guarda intermediária de dez anos em todo o país."
+        },
+        {
+          "id": "D",
+          "text": "exige autorização excepcional da instituição arquivística competente para uma possível eliminação."
+        },
+        {
+          "id": "E",
+          "text": "dispensa avaliação e controle, por inexistência de classe."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resolução prevê autorização excepcional da instituição arquivística pública competente para casos não contemplados; ausência na tabela não equivale a autorização."
+    },
+    {
+      "id": "per-u089-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Arquivo Nacional divulga instrumentos técnicos aprovados pela Portaria AN/MGI nº 174/2024 para atividades-meio do Poder Executivo federal. Para uma unidade estadual do Maranhão, a conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os códigos e prazos federais tornam-se automaticamente obrigatórios no Estado."
+        },
+        {
+          "id": "B",
+          "text": "o instrumento é referência técnica, mas o prazo estadual exige comprovação do ato competente aplicável."
+        },
+        {
+          "id": "C",
+          "text": "a atividade-fim estadual fica dispensada de avaliação documental."
+        },
+        {
+          "id": "D",
+          "text": "a portaria federal torna impossível elaborar instrumentos estaduais."
+        },
+        {
+          "id": "E",
+          "text": "as normas legais nacionais de arquivo deixam de existir no Estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A portaria citada aprova instrumentos de âmbito federal. Sua aplicação ao Maranhão não se presume por semelhança; exige verificação da disciplina estadual competente."
+    },
+    {
+      "id": "per-u089-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento administrativo físico foi digitalizado e a imagem ficou legível. Qual consequência sobre sua destinação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "o original está automaticamente liberado para destruição."
+        },
+        {
+          "id": "B",
+          "text": "a nova imagem transforma o conjunto em permanente por definição."
+        },
+        {
+          "id": "C",
+          "text": "qualquer cópia de segurança substitui a avaliação."
+        },
+        {
+          "id": "D",
+          "text": "o prazo da tabela passa a começar na data da digitalização obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "a digitalização não dispensa as regras de avaliação, guarda e eliminação do suporte original."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Digitalizar altera o modo de representação e acesso, mas não elimina a necessidade de observar os requisitos legais de preservação e destinação."
+    },
+    {
+      "id": "per-u089-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma tabela prevê destinação permanente para certa série, enquanto outra série, avaliada e selecionada, poderá ser eliminada após cumprir os controles. A diferença se fundamenta principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "no tamanho de cada pasta."
+        },
+        {
+          "id": "B",
+          "text": "no nome dado pelo atendente."
+        },
+        {
+          "id": "C",
+          "text": "na avaliação do valor dos conjuntos documentais e na tabela aplicável."
+        },
+        {
+          "id": "D",
+          "text": "na escolha da cor do fichário."
+        },
+        {
+          "id": "E",
+          "text": "na mera preferência por arquivos físicos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Avaliação distingue necessidades de guarda e valor permanente por conjunto; não depende somente de aparência, suporte ou gosto pessoal."
+    },
+    {
+      "id": "per-u089-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série é consultada raramente, mas ainda documenta obrigações não encerradas. Qual entendimento evita erro de temporalidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poucas consultas, sozinhas, não demonstram falta de valor nem autorizam eliminação."
+        },
+        {
+          "id": "B",
+          "text": "A ausência de movimentação obriga eliminar imediatamente."
+        },
+        {
+          "id": "C",
+          "text": "Toda baixa frequência converte automaticamente em arquivo permanente."
+        },
+        {
+          "id": "D",
+          "text": "O prazo de qualquer documento começa na primeira consulta."
+        },
+        {
+          "id": "E",
+          "text": "Uma unidade digital não pode conservar valores administrativos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Necessidade de guarda pode persistir por razões legais, fiscais ou probatórias mesmo sem consulta frequente; a avaliação e o marco válido continuam necessários."
+    },
+    {
+      "id": "per-u089-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um conjunto está classificado corretamente por atividade, mas ainda não há prova do evento que deveria iniciar o prazo de guarda. A medida prudente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que o evento aconteceu na criação do primeiro documento."
+        },
+        {
+          "id": "B",
+          "text": "aplicar o prazo de outro órgão que usa descrição parecida."
+        },
+        {
+          "id": "C",
+          "text": "somar os prazos das duas fases desde a última assinatura disponível."
+        },
+        {
+          "id": "D",
+          "text": "fixar arbitrariamente prazo menor para reduzir armazenamento."
+        },
+        {
+          "id": "E",
+          "text": "identificar e documentar o marco previsto antes de concluir o vencimento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Classe identificada não substitui a verificação do evento que dispara a contagem. A ausência dele impede fixar data de vencimento confiável."
+    }
+  ]
+}
