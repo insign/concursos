@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u095-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma empresa privada exige a apresentação de documento pessoal e decide guardá-lo como garantia de pagamento, embora já tenha conferido os dados. Segundo a Lei nº 5.553/1968, a conduta",
+      "options": [
+        {
+          "id": "A",
+          "text": "é permitida se o titular concordou verbalmente."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatória para identificação de clientes."
+        },
+        {
+          "id": "C",
+          "text": "só é proibida quando praticada por órgão público."
+        },
+        {
+          "id": "D",
+          "text": "é permitida por até 60 dias, conforme o artigo 4º."
+        },
+        {
+          "id": "E",
+          "text": "contraria a proibição de retenção de documentos de identificação pessoal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 1º proíbe a retenção, inclusive por pessoas jurídicas privadas. A conferência não autoriza usar o documento como caução; o prazo de 60 dias do artigo 4º referia-se à regulamentação."
+    },
+    {
+      "id": "per-u095-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 1º da Lei nº 5.553/1968 expressamente protege, entre outros documentos, o",
+      "options": [
+        {
+          "id": "A",
+          "text": "título de eleitor."
+        },
+        {
+          "id": "B",
+          "text": "somente passaporte diplomático."
+        },
+        {
+          "id": "C",
+          "text": "contrato de prestação de serviços em geral."
+        },
+        {
+          "id": "D",
+          "text": "recibo comercial sem função identificadora."
+        },
+        {
+          "id": "E",
+          "text": "cupom fiscal de compra."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lista legal exemplificativa inclui título de eleitor, documento militar, carteira profissional, certidões e documentos referentes a naturalização e estrangeiros."
+    },
+    {
+      "id": "per-u095-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa física, sem representar empresa ou órgão público, retém indevidamente documento de identificação pessoal de terceiro. À luz do artigo 1º da Lei nº 5.553/1968, a proibição",
+      "options": [
+        {
+          "id": "A",
+          "text": "não a alcança, pois só proíbe pessoas jurídicas."
+        },
+        {
+          "id": "B",
+          "text": "exige que o documento seja carteira profissional."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se também a pessoas físicas."
+        },
+        {
+          "id": "D",
+          "text": "alcança somente agentes de direito público."
+        },
+        {
+          "id": "E",
+          "text": "é afastada sempre que a retenção dure menos de um mês."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A vedação do artigo 1º alcança pessoas físicas e pessoas jurídicas tanto de direito público quanto privado."
+    },
+    {
+      "id": "per-u095-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão recebe cópia autenticada de certidão de casamento usada para identificação e afirma que, por não ser original, pode retê-la sem limite. A afirmação",
+      "options": [
+        {
+          "id": "A",
+          "text": "corresponde ao artigo 2º, § 2º, para qualquer ato."
+        },
+        {
+          "id": "B",
+          "text": "é incorreta: o artigo 1º inclui fotocópia autenticada e pública-forma na proteção."
+        },
+        {
+          "id": "C",
+          "text": "seria correta se o órgão fosse privado."
+        },
+        {
+          "id": "D",
+          "text": "autoriza guardar a cópia por 60 dias, conforme o artigo 4º."
+        },
+        {
+          "id": "E",
+          "text": "só seria incorreta se a cópia não tivesse autenticação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º é explícito ao proteger documentos mesmo apresentados por fotocópia autenticada ou pública-forma. A forma de apresentação não cria imunidade à proibição de retenção."
+    },
+    {
+      "id": "per-u095-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na portaria de entidade particular, o documento de identidade é indispensável à entrada de visitante. Após anotar os dados, o atendente deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "reter o documento por até cinco dias, como regra obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "guardá-lo até o término da visita."
+        },
+        {
+          "id": "C",
+          "text": "enviar o documento original ao órgão policial."
+        },
+        {
+          "id": "D",
+          "text": "devolvê-lo imediatamente ao interessado."
+        },
+        {
+          "id": "E",
+          "text": "devolver somente após autorização judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 2º, § 2º, incluído em 1997, exige anotação dos dados no ato e devolução imediata do documento para ingresso em órgãos públicos ou particulares."
+    },
+    {
+      "id": "per-u095-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um procedimento que não envolve ingresso em estabelecimento, a pessoa encarregada exige documento de identificação para extrair dados pertinentes a determinado ato. O artigo 2º, caput, prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "extração dos dados de interesse em até cinco dias, com devolução em seguida."
+        },
+        {
+          "id": "B",
+          "text": "retenção automática por trinta dias após a extração."
+        },
+        {
+          "id": "C",
+          "text": "que nenhum dado possa ser anotado por quem solicita o documento."
+        },
+        {
+          "id": "D",
+          "text": "retenção por prazo indeterminado mediante autorização do gerente."
+        },
+        {
+          "id": "E",
+          "text": "extração apenas após a aplicação de contravenção penal ao exibidor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput vincula o prazo de até cinco dias à extração dos dados pertinentes ao ato e prevê devolução subsequente. Não legitima guarda rotineira ou sem finalidade."
+    },
+    {
+      "id": "per-u095-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão 'dados que interessarem', no artigo 2º da Lei nº 5.553/1968, significa que a pessoa que exigiu o documento deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "copiar indiscriminadamente todas as informações de todos os documentos do titular."
+        },
+        {
+          "id": "B",
+          "text": "negar a devolução até que o interessado forneça dados bancários."
+        },
+        {
+          "id": "C",
+          "text": "reter quaisquer informações por período indeterminado."
+        },
+        {
+          "id": "D",
+          "text": "exigir dados de parentes não relacionados ao ato."
+        },
+        {
+          "id": "E",
+          "text": "extrair as informações pertinentes ao ato que motivou a apresentação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei vincula a extração dos dados à realização de um ato determinado. Não autoriza exigência ou retenção sem relação com essa finalidade."
+    },
+    {
+      "id": "per-u095-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um responsável por procedimento documental deseja manter o documento de identificação além do prazo do artigo 2º. Segundo o seu § 1º, será necessária",
+      "options": [
+        {
+          "id": "A",
+          "text": "autorização verbal do funcionário recebedor."
+        },
+        {
+          "id": "B",
+          "text": "autorização escrita do diretor do departamento, que substitui qualquer decisão judicial."
+        },
+        {
+          "id": "C",
+          "text": "ordem judicial."
+        },
+        {
+          "id": "D",
+          "text": "declaração unilateral da entidade requerente."
+        },
+        {
+          "id": "E",
+          "text": "apenas a afixação de aviso sobre a retenção."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 1º exige ordem judicial para retenção além do prazo previsto no artigo; autoridade administrativa não substitui o requisito."
+    },
+    {
+      "id": "per-u095-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um segurança sustenta que, como a lei fala em cinco dias, pode reter a identidade do visitante até a saída de um prédio público. A interpretação adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta apenas quando o visitante é servidor público."
+        },
+        {
+          "id": "B",
+          "text": "correta porque o prazo específico para ingresso é de cinco dias."
+        },
+        {
+          "id": "C",
+          "text": "incorreta apenas se o documento for uma cópia."
+        },
+        {
+          "id": "D",
+          "text": "incorreta: para entrada, o artigo 2º, § 2º, impõe devolução imediata após anotação no ato."
+        },
+        {
+          "id": "E",
+          "text": "correta se a empresa contratada para segurança tiver sede no mesmo estado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º distingue expressamente o ingresso em órgão público ou particular e exige devolução imediata, não o prazo geral de cinco dias."
+    },
+    {
+      "id": "per-u095-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra de devolução imediata do artigo 2º, § 2º, refere-se à entrada em órgãos",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas federais."
+        },
+        {
+          "id": "B",
+          "text": "públicos ou particulares."
+        },
+        {
+          "id": "C",
+          "text": "somente estaduais."
+        },
+        {
+          "id": "D",
+          "text": "somente privados com mais de cem empregados."
+        },
+        {
+          "id": "E",
+          "text": "apenas judiciais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O texto do § 2º usa expressamente 'órgãos públicos ou particulares', sem limitar a incidência pela natureza da instituição."
+    },
+    {
+      "id": "per-u095-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um setor extraiu em poucas horas os dados que interessavam à realização do ato e decidiu reter o original pelos cinco dias inteiros, sem finalidade adicional. A lei",
+      "options": [
+        {
+          "id": "A",
+          "text": "não transforma o prazo máximo de extração em autorização para retenção rotineira sem finalidade."
+        },
+        {
+          "id": "B",
+          "text": "obriga a retenção de cinco dias mesmo após a extração."
+        },
+        {
+          "id": "C",
+          "text": "manda reter o documento por sessenta dias."
+        },
+        {
+          "id": "D",
+          "text": "exige que o titular retire o documento apenas por ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "dispensa restituição sempre que o atendimento terminou antes de cinco dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O caput prevê extração dos dados de interesse em até cinco dias e devolução em seguida. O limite temporal não autoriza prolongamento artificial da guarda depois da finalidade."
+    },
+    {
+      "id": "per-u095-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.453/1997 alterou o artigo 2º da Lei nº 5.553/1968 ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogar a lei de 1968 por inteiro."
+        },
+        {
+          "id": "B",
+          "text": "aumentar a retenção geral para trinta dias."
+        },
+        {
+          "id": "C",
+          "text": "transformar o parágrafo único em § 1º e incluir o § 2º sobre devolução imediata no ingresso."
+        },
+        {
+          "id": "D",
+          "text": "eliminar a necessidade de devolução no ingresso."
+        },
+        {
+          "id": "E",
+          "text": "reclassificar a retenção irregular de contravenção em crime de reclusão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 9.453/1997 renumerou o antigo parágrafo único para § 1º e acrescentou o § 2º sobre registro no ato e devolução imediata."
+    },
+    {
+      "id": "per-u095-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A retificação do texto original de 1968 corrigiu, no parágrafo então único do artigo 2º, o verbo",
+      "options": [
+        {
+          "id": "A",
+          "text": "'anotado' para 'arquivado'."
+        },
+        {
+          "id": "B",
+          "text": "'devolvido' para 'destruído'."
+        },
+        {
+          "id": "C",
+          "text": "'judicial' para 'administrativo'."
+        },
+        {
+          "id": "D",
+          "text": "'retido' para 'apreendido'."
+        },
+        {
+          "id": "E",
+          "text": "'retirado' para 'retido'."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A retificação publicada em 20/12/1968 substituiu 'retirado' por 'retido'. O dispositivo foi depois renumerado como § 1º em 1997."
+    },
+    {
+      "id": "per-u095-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º da Lei nº 5.553/1968 qualifica a retenção proibida de documento pessoal como",
+      "options": [
+        {
+          "id": "A",
+          "text": "crime punido exclusivamente com reclusão."
+        },
+        {
+          "id": "B",
+          "text": "contravenção penal, com prisão simples de um a três meses ou multa."
+        },
+        {
+          "id": "C",
+          "text": "mera infração disciplinar, sem previsão penal."
+        },
+        {
+          "id": "D",
+          "text": "crime necessariamente punido com detenção de três a cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "ilícito que só existe quando praticado por órgão público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 3º expressamente prevê contravenção penal e sanções alternativas: prisão simples de 1 a 3 meses ou multa na redação legal."
+    },
+    {
+      "id": "per-u095-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 3º da Lei nº 5.553/1968 conserva referência a multa expressa em cruzeiros novos. Na preparação para a prova, essa informação deve ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "valor atual obrigatório em reais, sem qualquer alteração."
+        },
+        {
+          "id": "B",
+          "text": "autorização para deixar de estudar a pena de prisão simples."
+        },
+        {
+          "id": "C",
+          "text": "multa que incide automaticamente em dobro para documentos autenticados."
+        },
+        {
+          "id": "D",
+          "text": "literalidade monetária histórica, sem conversão automática para valor atual por suposição."
+        },
+        {
+          "id": "E",
+          "text": "demonstração de que toda retenção de identidade deixou de ser ilícita."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A cifra em cruzeiros novos é texto monetário histórico mantido na lei; o estudo não deve inventar conversão ou valor corrente, mas preservar a classificação e a alternativa de sanções."
+    },
+    {
+      "id": "per-u095-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O gerente de uma pessoa jurídica ordena expressamente ao empregado que retenha documentos de identidade sem fundamento. Segundo a regra geral de responsabilidade do artigo 3º, parágrafo único, será responsável",
+      "options": [
+        {
+          "id": "A",
+          "text": "quem ordenou a retenção."
+        },
+        {
+          "id": "B",
+          "text": "sempre o titular cujo documento foi retido."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente a pessoa jurídica, sem individualização de condutas."
+        },
+        {
+          "id": "D",
+          "text": "o juiz que não participou do ato."
+        },
+        {
+          "id": "E",
+          "text": "apenas o empregado executor, independentemente da ordem recebida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único atribui, em regra, responsabilidade a quem ordenou a retenção executada por preposto ou agente da pessoa jurídica; há ressalva quando o executante desobedece instrução expressa."
+    },
+    {
+      "id": "per-u095-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A empresa determinou expressamente que seus atendentes devolvessem de imediato os documentos de visitantes. Um empregado descumpriu a instrução e reteve a identidade. À luz da ressalva do artigo 3º, parágrafo único, o infrator será",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente o gerente que proibiu a retenção."
+        },
+        {
+          "id": "B",
+          "text": "a própria pessoa identificada por não insistir na devolução."
+        },
+        {
+          "id": "C",
+          "text": "qualquer cliente que estivesse no mesmo local."
+        },
+        {
+          "id": "D",
+          "text": "o magistrado, ainda que inexistisse ordem judicial."
+        },
+        {
+          "id": "E",
+          "text": "o executante que desobedeceu às instruções expressas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A exceção do parágrafo único atribui a infração ao agente que desobedece ou inobserva ordens ou instruções expressas, em lugar de responsabilizar quem teria ordenado a retenção."
+    },
+    {
+      "id": "per-u095-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao interpretar o parágrafo único do artigo 3º da Lei nº 5.553/1968, é correto",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir responsabilidade sempre e apenas ao titular do documento."
+        },
+        {
+          "id": "B",
+          "text": "distinguir quem ordenou a retenção e o agente que, contrariando instrução expressa, a executou."
+        },
+        {
+          "id": "C",
+          "text": "concluir que todo agente e todo superior são obrigatoriamente punidos em conjunto."
+        },
+        {
+          "id": "D",
+          "text": "afirmar que a contravenção exige retenção praticada por pessoa jurídica pública."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a verificação de instruções e ordens quando a empresa é privada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra identifica o mandante da retenção irregular; a ressalva desloca a responsabilidade para quem a executa desobedecendo ordem ou instrução expressa."
+    },
+    {
+      "id": "per-u095-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 4º da Lei nº 5.553/1968 estabeleceu prazo de sessenta dias para",
+      "options": [
+        {
+          "id": "A",
+          "text": "a devolução de toda carteira retida por portaria."
+        },
+        {
+          "id": "B",
+          "text": "a punição administrativa de quem pediu identificação."
+        },
+        {
+          "id": "C",
+          "text": "a expedição de certidão de nascimento."
+        },
+        {
+          "id": "D",
+          "text": "a regulamentação histórica da lei pelo Poder Executivo, contada da publicação."
+        },
+        {
+          "id": "E",
+          "text": "a retenção de documentos por autoridade administrativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os 60 dias se referiam a dever histórico de regulamentação do Executivo, e não ao prazo de guarda, devolução ou expedição de documentos."
+    },
+    {
+      "id": "per-u095-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 5º da Lei nº 5.553/1968",
+      "options": [
+        {
+          "id": "A",
+          "text": "revoga as disposições em contrário, sem criar novo prazo de retenção."
+        },
+        {
+          "id": "B",
+          "text": "autoriza órgãos particulares a reter passaportes por 30 dias."
+        },
+        {
+          "id": "C",
+          "text": "obriga o cidadão a deixar cópia autenticada em toda portaria."
+        },
+        {
+          "id": "D",
+          "text": "substitui a ordem judicial por despacho administrativo."
+        },
+        {
+          "id": "E",
+          "text": "contém lista taxativa de documentos que podem ser retidos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 5º veicula cláusula geral de revogação de disposições contrárias, não acrescentando exceção de retenção à disciplina do artigo 2º."
+    },
+    {
+      "id": "per-u095-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao objeto das Leis nº 7.116/1983 e nº 5.553/1968, a associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira regula contravenção por retenção e a segunda fixa o registro geral da carteira."
+        },
+        {
+          "id": "B",
+          "text": "ambas proíbem qualquer extração de dados de documentos exibidos."
+        },
+        {
+          "id": "C",
+          "text": "a primeira dispõe sobre expedição e efeitos da carteira; a segunda, sobre apresentação, uso e retenção de documentos pessoais."
+        },
+        {
+          "id": "D",
+          "text": "a primeira trata exclusivamente de identificação criminal e a segunda de coleta genética."
+        },
+        {
+          "id": "E",
+          "text": "a segunda fixou o modelo físico e o período de validade temporal da carteira nacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 7.116/1983 cuida da carteira de identidade (expedição, prova e validade nacional); a nº 5.553/1968 trata da exibição e proibição de retenção de documentos de identificação."
+    },
+    {
+      "id": "per-u095-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma entidade alega que o título de eleitor não precisa ser devolvido porque não serve, em todas as situações, como carteira de identidade fotográfica. Segundo a Lei nº 5.553/1968, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a proteção contra retenção só cobre documento com foto."
+        },
+        {
+          "id": "B",
+          "text": "a lei inclui expressamente o título de eleitor entre os documentos protegidos contra retenção."
+        },
+        {
+          "id": "C",
+          "text": "o título está fora do alcance legal, pois só carteiras de identidade são protegidas."
+        },
+        {
+          "id": "D",
+          "text": "o documento perde proteção quando a finalidade do atendimento é privada."
+        },
+        {
+          "id": "E",
+          "text": "a lei autoriza retenção do título de eleitor por até sessenta dias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O título de eleitor consta expressamente do art. 1º. A proteção contra retenção não equivale a afirmar que ele satisfaz todo requisito de identificação fotográfica de qualquer ato."
+    },
+    {
+      "id": "per-u095-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na recepção de empresa, para permitir a entrada de um visitante, o atendente pede sua identidade e anota os dados. Um procedimento conforme à Lei nº 5.553/1968 consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "guardar a identidade em gaveta e devolvê-la ao fim do expediente."
+        },
+        {
+          "id": "B",
+          "text": "reter o documento por cinco dias independentemente de necessidade."
+        },
+        {
+          "id": "C",
+          "text": "escolher qualquer período de retenção se a empresa registrar essa escolha."
+        },
+        {
+          "id": "D",
+          "text": "solicitar ao visitante declaração de renúncia à devolução imediata."
+        },
+        {
+          "id": "E",
+          "text": "anotar os dados no momento da apresentação e devolver logo o documento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 2º, § 2º, exige registro dos dados no ato e devolução imediata quando o documento de identidade for indispensável ao ingresso em órgão particular ou público."
+    },
+    {
+      "id": "per-u095-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma servidora recebe uma certidão de nascimento para extrair dados pertinentes a ato administrativo. A chefia quer guardá-la além do período do artigo 2º, sem ordem judicial. A solução compatível com a Lei nº 5.553/1968 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "devolver após a extração, observando o prazo legal; para período superior, exigir ordem judicial."
+        },
+        {
+          "id": "B",
+          "text": "autorizar prorrogação ilimitada por escrito pela própria chefia."
+        },
+        {
+          "id": "C",
+          "text": "reter indefinidamente porque o documento não tem fotografia."
+        },
+        {
+          "id": "D",
+          "text": "converter o prazo de cinco dias em cinco meses por ser documento do setor público."
+        },
+        {
+          "id": "E",
+          "text": "tratar o artigo 4º como autorização para guarda por sessenta dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 2º determina extração dos dados pertinentes em até cinco dias e devolução em seguida. O § 1º exige ordem judicial para manter o documento além desse prazo."
+    }
+  ]
+}
