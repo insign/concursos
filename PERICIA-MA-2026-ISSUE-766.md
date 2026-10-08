@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 9 | 0 | 27 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 19 | 0 | 32 |
-| Unidades distintas | 99 | 8 | 0 | 91 |
-| Entregáveis unitários C/H/Q | 297 | 24 | 0 | 273 |
+| Unidades distintas | 99 | 7 | 0 | 92 |
+| Entregáveis unitários C/H/Q | 297 | 21 | 0 | 276 |
 
-Estado confirmado: **91 unidades/visões publicadas (85 locais, 6 por vínculo); 273 C/H/Q aceitos; 126/132 referências literais aceitas; 3254 questões acumuladas**. PER-U092 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **92 unidades/visões publicadas (86 locais, 6 por vínculo); 276 C/H/Q aceitos; 127/132 referências literais aceitas; 3289 questões acumuladas**. PER-U093 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04–E10 C/H/Q done. PER-U092 — Tipologias, suportes, microfilmagem e automação está done; Arquivologia E10 fechada; próxima ação: PER-U093 — Identificação criminal (Lei nº 12.037/2009)**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05 e PER-E04–E10 C/H/Q done. PER-U093 — Identificação criminal (Lei nº 12.037/2009) está done; Legislação Especial E11 em 1/6; próxima ação: PER-U094 — Carteira de identidade (Lei nº 7.116/1983 e Decreto nº 89.250/1983)**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 1/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -673,7 +673,7 @@ Grupo consumidor: `conhecimentos-especificos/legislacao-especial/`, relativo à 
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U093 — Identificação criminal — Lei nº 12.037/2009 | E11: 1 | O070 | `identificacao-criminal-lei-12037` / `per-u093` / 930 | Revalidar alterações da Lei nº 15.295/2025 e corte próprio antes da cópia. |
+| PER-U093 — Identificação criminal — Lei nº 12.037/2009 | E11: 1 | O070 físico PC-MA; parcial/local revalidada | `identificacao-criminal-lei-12037` / `per-u093` / 930 | Regra constitucional, identificação civil, sete hipóteses, fotografia/datiloscopia, coleta genética após a Lei nº 15.295/2025, sigilo, bancos genético e multibiométrico, exclusão e jurisprudência com corte próprio. C/H/Q/R aceitos, grupo de Legislação Especial materializado, evidência 5.11, artefato `79b623af`. E11 1/6; macro C/H/Q permanece pending. |
 | PER-U094 — Carteira de identidade — Lei nº 7.116/1983 e Decreto nº 89.250/1983 | E11: 2, 5 | S05; sem candidato selecionado | `carteira-identidade-lei-7116-decreto-89250` / `per-u094` / 940 | Conciliar 2/5; diploma citado revogado continua literal, conforme 20.33; não substituir por regulamento posterior. |
 | PER-U095 — Apresentação e retenção de identificação — Lei nº 5.553/1968 | E11: 2 | S05; sem candidato selecionado | `documentos-identificacao-lei-5553` / `per-u095` / 950 | Parte própria do item 2; não confundir retenção com expedição. |
 | PER-U096 — Registro de identidade civil — Lei nº 9.454/1997 | E11: 3 | S05; sem candidato selecionado | `registro-identidade-civil-lei-9454` / `per-u096` / 960 | Redação aplicável no corte; não duplicar carteira de identidade. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 126/132 |
-| Unidades distintas da objetiva | 98 | 91 |
+| Referências literais da objetiva | 132/132 | 127/132 |
+| Unidades distintas da objetiva | 98 | 92 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 91 |
-| Entregáveis unitários C/H/Q | 297: 24 pending + 0 analyzing + 273 done | 273 done |
-| Visões consumidoras previstas | 99 | 91 |
+| Total de unidades distintas | 99 | 92 |
+| Entregáveis unitários C/H/Q | 297: 21 pending + 0 analyzing + 276 done | 276 done |
+| Visões consumidoras previstas | 99 | 92 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 59 parciais locais, 10 integrais locais e 6 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 60 parciais locais, 10 integrais locais e 6 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 16 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 85 unidades locais, 6 vínculos Perícia; 8 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 16 novas locais e 6 integrais canônicas.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 86 unidades locais, 6 vínculos Perícia; 7 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 60 parciais locais, 10 integrais locais, 16 novas locais e 6 integrais canônicas.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2647,6 +2647,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `3fbde9d90a47b9fd6b95f3b21765aa5da6e304e5` |
 | R | `98dceb4cce355b82b7c714dac1ed38f31b9e69c0` |
 
+#### PER-U093 — Identificação criminal (Lei nº 12.037/2009): parcial/local — C/H/Q done
+
+- **Programa/identidade/consumidor:** S05, Legislação Especial E11:1, Cargo 1 Generalista. Pacote físico exclusivo `conhecimentos-especificos/legislacao-especial/identificacao-criminal-lei-12037/`, `storageId: per-u093`, ordem 930. O descritor `conhecimentos-especificos/legislacao-especial/grupo.json` foi publicado com título Legislação Especial, ordem 4; não existe `vinculo.json`. E11:1 aceito; macro E11-C/H/Q permanece pending até U094–U098. Reserva própria `per-u093-20261008-1900-gpt6-66d2`; SHA-base `f608aac61bdc0e7a6d8199cb1ea151ab11ba430d`, mestre anterior `2df67089dc6a63a9b67ffd82d22b2a78e210041c`.
+- **Origem comprovada e reaproveitamento:** O070, pacote **físico/local** da Polícia Civil do Maranhão, assunto `conhecimentos-especificos/legislacao-especial/identificacao-criminal-lei-12037/`, `pc-u134`, consumidor PC #764. C/H/Q/R integrais lidos em blobs `7ce73aa206eb1f3672c7f1804b0488391cfafb0d`, `7e233923e8794819917e1cc4517311cb0ed71ff6`, `8fe3e60d425621050c281d1240d65933d1dc4249`, `4fcf235faeaeb5e99938298224b4bf95f57b9267`. Classificação **parcial/local**: reutilizado texto legal e exercícios pertinentes, com reordenação, edição pedagógica, correção de fronteiras e revisão de questões no destino, sem afetar doador, vínculos, consumidores ou campanhas #755/#764/#765.
+- **Problema/intervenção/ganho:** o doador tinha corte **13/07/2026**, referências à U092/U114 de outro concurso e questões com alternativas pouco plausíveis; cópia acrítica confundiria planejamento e reduziria aprendizagem. C agora usa corte legislativo **17/07/2026**, corrige remissões, esclarece documento civil × hipótese do artigo 3º × procedimento e compara **inciso VII: denúncia recebida** com **artigo 5º, § 2º: flagrante**. Preserva as sete hipóteses, condição judicial do inciso IV, coleta obrigatória pós-2025, juntada, fotografia/datiloscopia, bancos de dados, sigilo, laudo oficial, prazos e exclusões. Corrigida explicação de trânsito em julgado e incluídos cenários decisórios próprios. H foi condensado e redesenhado como mapa de recuperação; conteúdo não terceiriza conceitos.
+- **Fontes verificadas e cortes:** S05; Constituição, art. 5º, LVIII; Lei nº 12.037/2009 cotejada no Planalto/Câmara; Leis nº 12.654/2012, 13.964/2019 e 15.295/2025 (publicação **22/12/2025**, vigência após 30 dias, portanto anterior à abertura **17/07/2026**). Decreto nº 7.950/2013 usado apenas como contexto federal, sem aplicação administrativa presumida no Maranhão. Precedente do Superior Tribunal de Justiça, Recurso em Habeas Corpus 162.703, julgado 13/09/2022 e publicado 06/10/2022, não foi transportado à redação de 2025. Tema 905 do Supremo Tribunal Federal sobre condenados na Lei de Execução Penal, sem tese final publicada na consulta oficial de **08/10/2026**; não se antecipou a janela final do edital. Referências completas e proveniência em R.
+- **Questões e revisão:** **29 questões autorais do doador**, IDs e `origin: authorial` preservados como `u134-a01`–`u134-a29`; **19 revisadas** em enunciado, alternativas e justificativa (`revision: 2`), dez sem alteração (`revision: 1`). Seis autorais próprias `per-u093-a01`–`per-u093-a06`, `revision: 1`. Total **35 questões, 175 alternativas**, todas com cinco opções, uma resposta e explicação; `questionSetRevision: 2`, sem resolução avulsa necessária. Questões anteriores pertinentes surgiram em pesquisa, mas nenhuma foi copiada sem confronto do caderno e gabarito oficiais, inclusive porque questões antigas usam redação anterior à Lei nº 15.295/2025. Leitura do banco com alternativas e explicações, IDs únicos e procedência examinados. C 22.700, H 4.693, Q 41.464, R 6.701 e grupo 73 caracteres brutos; unidade nova para a Perícia, sem estimativa inventada de redução de tempo. Não houve execução de testes/build/check/CI.
+- **Publicação na main:** [`79b623af`](https://github.com/insign/concursos/commit/79b623afd7a2e5282b7acf06013b8d5d8741632a), exatamente os quatro arquivos locais C/H/Q/R mais o grupo. Arquivos relidos e cinco blobs coincidentes.
+
+| Arquivo | Blob na main |
+|---|---|
+| Grupo | `d87f5b3ec3349212389179245b24e00048a557a1` |
+| C | `39ce46acdb874ffba33952197f985a85f31146ac` |
+| H | `b5873c68bf3c81300046eefd796c0ed63e970a32` |
+| Q | `ae87e33cf168182281d9e1329b3cc755010d3d2c` |
+| R | `f402e500d6c4fc5f4dc43a7326f1056375a66920` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3372,9 +3389,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U093 — Identificação criminal — Lei nº 12.037/2009
 
-- [ ] PER-U093-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U093-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U093-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U093-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U093-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U093-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U094 — Carteira de identidade — Lei nº 7.116/1983 e Decreto nº 89.250/1983
 
@@ -3717,3 +3734,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U090:** artefato `627668bf558bdc20fd7ce2771c98a4cf161369d2` relido na `main`; C/H/Q/R e quatro blobs confirmados, nova/local, 20 questões autorais/100 alternativas, E10:3 aceito. Totais: **89/99 unidades, 267/297 C/H/Q, 124/132 referências, 3212 questões**, 83 locais e 6 por vínculo; **29 macros done**, E10 6/8. Próxima PER-U091 — Preservação, conservação e restauração; reserva própria será liberada após a sincronização da issue.
 - **PER-U091:** artefato `c2af59dc15c75e4f1dded5710194bb555b9b20d4` relido na `main`, quatro blobs C/H/Q/R confirmados; nova/local, 22 questões autorais/110 alternativas, E10:4 aceito e parcela conservativa de E10:5 ensinada (E10:5 permanece agregado até U092). Totais **90/99 unidades, 270/297 C/H/Q, 125/132 referências e 3234 questões**, 84 locais e 6 vínculos; **29 macros done**, E10 7/8. Próxima PER-U092 — Tipologias, suportes, microfilmagem e automação; a reserva própria será liberada após sincronizar a issue.
 - **PER-U092:** pacote `79b185f76a1d918d88fdfd4d35db31499837719b` relido na `main`, quatro blobs C/H/Q/R confirmados; nova/local, **20 questões autorais/100 alternativas**, E10:5 aceito conjuntamente com conservação de U091, **PER-E10-C/H/Q fecha done**. Totais: **91/99 unidades, 273/297 C/H/Q, 126/132 referências, 3254 questões**, 85 locais e 6 vínculos; **32 macros done/19 pending/0 analyzing**, Arquivologia **8/8**. Próxima PER-U093 — Identificação criminal (Lei nº 12.037/2009); reserva própria de U092 será liberada após sincronização da issue.
+- **PER-U093:** publicação `79b623afd7a2e5282b7acf06013b8d5d8741632a` relida na `main`, cinco blobs C/H/Q/R/grupo confirmados; **parcial/local de O070 físico**, adaptada ao corte da Perícia e à Lei nº 15.295/2025, **35 questões autorais/175 alternativas** (29 reaproveitadas, 19 revisadas; seis próprias). E11:1 aceito, E11 **1/6**, macro E11-C/H/Q ainda pending. Totais **92/99 unidades, 276/297 C/H/Q, 127/132 referências e 3289 questões**, 86 locais e 6 vínculos; **32 macros done/19 pending/0 analyzing**. Próxima PER-U094 — Carteira de identidade (Lei nº 7.116/1983 e Decreto nº 89.250/1983); reserva U093 será liberada após sincronizar o painel.
