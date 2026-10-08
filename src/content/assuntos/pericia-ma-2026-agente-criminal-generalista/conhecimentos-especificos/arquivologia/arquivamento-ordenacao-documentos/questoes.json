@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u088-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Três pastas pertencem à mesma classe funcional: Ana Costa (110), Bruno Lima (109) e João Melo (108). O arquivo está fisicamente ordenado pelos números. Um usuário pede a pasta de Bruno Lima, sem saber o número. Qual procedimento permite recuperá-la corretamente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Procurar primeiro por Bruno entre as pastas, pois a ordenação numérica também é automaticamente alfabética."
+        },
+        {
+          "id": "B",
+          "text": "Consultar um índice nome → número, localizar a pasta 109 e manter o registro de sua localização."
+        },
+        {
+          "id": "C",
+          "text": "Reclassificar as três pastas pelo município antes de atender qualquer pedido."
+        },
+        {
+          "id": "D",
+          "text": "Transformar o número 109 em prazo de guarda para identificar o documento."
+        },
+        {
+          "id": "E",
+          "text": "Transferir todos os registros ao arquivo permanente para facilitar a consulta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A disposição por 108, 109 e 110 é numérica. Quem conhece só o nome precisa de correspondência nominal para descobrir 109; não é necessário modificar a classe arquivística."
+    },
+    {
+      "id": "per-u088-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um setor mantém pastas de pessoas sob a chave padronizada 'sobrenome, prenome'. A sequência de entrada de Ana Costa, Bruno Lima e João Melo será",
+      "options": [
+        {
+          "id": "A",
+          "text": "COSTA, Ana; LIMA, Bruno; MELO, João."
+        },
+        {
+          "id": "B",
+          "text": "Ana Costa; João Melo; Bruno Lima, porque a ordem de recebimento prevalece."
+        },
+        {
+          "id": "C",
+          "text": "LIMA, Bruno; COSTA, Ana; MELO, João, porque se usa a ordem cronológica."
+        },
+        {
+          "id": "D",
+          "text": "João Melo; Bruno Lima; Ana Costa, pela prioridade da função administrativa."
+        },
+        {
+          "id": "E",
+          "text": "Apenas números, pois fichários nominais não permitem entrada alfabética."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O próprio enunciado define a convenção: ordenar por sobrenome e, em seguida, prenome. Essa regra não determina por si a classificação funcional dos documentos."
+    },
+    {
+      "id": "per-u088-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um arquivo foi ordenado por município. Há duas pastas originadas de Bacabal e uma de Imperatriz. Qual procedimento resolve de forma coerente a posição relativa das duas de Bacabal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alterar necessariamente a proveniência dos documentos para o município."
+        },
+        {
+          "id": "B",
+          "text": "Eliminar a pasta com numeração mais recente, para evitar duplicação."
+        },
+        {
+          "id": "C",
+          "text": "Utilizar sempre o mês de emissão, independentemente do método previsto."
+        },
+        {
+          "id": "D",
+          "text": "Estabelecer e aplicar critério secundário, como o nome ou o número da pasta."
+        },
+        {
+          "id": "E",
+          "text": "Armazenar obrigatoriamente uma pasta na horizontal e a outra na vertical."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O método geográfico agrupa os documentos pelo eixo territorial; dentro de uma mesma localidade é preciso uma ordem secundária consistente. Isso não altera o produtor do conjunto."
+    },
+    {
+      "id": "per-u088-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série de ofícios exige que a disposição considere conjuntamente a numeração e a data dos próprios documentos. O método pertinente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "numérico simples, que considera exclusivamente o número do dossiê."
+        },
+        {
+          "id": "B",
+          "text": "geográfico, porque toda data depende de localidade."
+        },
+        {
+          "id": "C",
+          "text": "numérico-cronológico, que conjuga os dois dados na ordenação."
+        },
+        {
+          "id": "D",
+          "text": "temático dicionário, porque toda série forma uma lista de assuntos."
+        },
+        {
+          "id": "E",
+          "text": "variadex, porque numera letras com cores."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No numérico-cronológico contam número e data do documento. Numérico simples refere-se ao número da unidade arquivada; a ordenação puramente cronológica usa datas como chave central."
+    },
+    {
+      "id": "per-u088-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um usuário só dispõe do nome do interessado, mas o arquivo organiza as pastas por identificadores numéricos. A necessidade de consultar uma relação nome–identificador antes de procurar o documento caracteriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "recolhimento automático para guarda permanente."
+        },
+        {
+          "id": "B",
+          "text": "ordenação alfabética direta, mesmo que as pastas estejam por números."
+        },
+        {
+          "id": "C",
+          "text": "classificação de acesso restrito."
+        },
+        {
+          "id": "D",
+          "text": "restauração de documento danificado."
+        },
+        {
+          "id": "E",
+          "text": "sistema de busca indireto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A busca é indireta porque a chave conhecida pelo usuário não é a chave de disposição: precisa ser convertida num número ou endereço por meio de índice."
+    },
+    {
+      "id": "per-u088-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma lista de assuntos apresenta 'aquisições', 'atendimento' e 'capacitação' em única sequência alfabética, sem agrupá-los sob categorias gerais. A modalidade temática é",
+      "options": [
+        {
+          "id": "A",
+          "text": "enciclopédica, com níveis hierárquicos de assuntos."
+        },
+        {
+          "id": "B",
+          "text": "decimal, que exige dez grandes classes."
+        },
+        {
+          "id": "C",
+          "text": "dicionária, pela sucessão alfabética linear dos termos."
+        },
+        {
+          "id": "D",
+          "text": "dígito-terminal, pela prioridade dos últimos blocos."
+        },
+        {
+          "id": "E",
+          "text": "numérico-cronológica, por conter termos que podem indicar datas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A modalidade dicionária mantém os assuntos isolados em sequência alfabética. A enciclopédica os agrupa sob temas gerais e subdivisões."
+    },
+    {
+      "id": "per-u088-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Outro arquivo apresenta 'administração → aquisições' e 'pessoal → capacitação', reunindo assuntos correlatos sob títulos gerais. A modalidade indicada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "alfabética nominal, que toma necessariamente o sobrenome das pessoas."
+        },
+        {
+          "id": "B",
+          "text": "enciclopédica, pois os temas são agrupados sob categorias superiores."
+        },
+        {
+          "id": "C",
+          "text": "numérico simples, porque toda subordinação exige número de pasta."
+        },
+        {
+          "id": "D",
+          "text": "geográfica, porque categorias gerais são municípios."
+        },
+        {
+          "id": "E",
+          "text": "soundex, porque a relação é fonética."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A organização enciclopédica evidencia conjuntos temáticos e subtemas. A simples presença de letras não transforma o método em alfabético de pessoas."
+    },
+    {
+      "id": "per-u088-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um método de ordenação temática associa classes numeradas consecutivamente a subclasses indicadas por traços, como 4-2-1. O método descrito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "duplex."
+        },
+        {
+          "id": "B",
+          "text": "variadex."
+        },
+        {
+          "id": "C",
+          "text": "numérico-cronológico."
+        },
+        {
+          "id": "D",
+          "text": "geográfico."
+        },
+        {
+          "id": "E",
+          "text": "dígito-terminal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Duplex indica ramificações de assuntos numerados com traços. O código é uma notação hierárquica temática, não uma identificação universal de processo."
+    },
+    {
+      "id": "per-u088-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um plano de ordenação por assuntos distribui sua estrutura em dez grandes classes, com sucessivas subdivisões em dez classes subordinadas por nível. Trata-se do método",
+      "options": [
+        {
+          "id": "A",
+          "text": "numérico simples, cujo número independe de classes."
+        },
+        {
+          "id": "B",
+          "text": "soundex, baseado em pronúncia."
+        },
+        {
+          "id": "C",
+          "text": "alfabético dicionário, de sequência linear."
+        },
+        {
+          "id": "D",
+          "text": "decimal, baseado em uma hierarquia de dez grandes classes."
+        },
+        {
+          "id": "E",
+          "text": "numérico-cronológico, orientado exclusivamente por data."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A marca do decimal é a divisão em dez grandes classes e níveis de dez subdivisões. A numeração de uma pasta isolada não cria, por si, um plano decimal."
+    },
+    {
+      "id": "per-u088-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em determinado método, um identificador é dividido em grupos de dígitos e a disposição começa pela comparação dos grupos da direita para a esquerda. A técnica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "cronológica."
+        },
+        {
+          "id": "B",
+          "text": "alfabética."
+        },
+        {
+          "id": "C",
+          "text": "duplex."
+        },
+        {
+          "id": "D",
+          "text": "geográfica."
+        },
+        {
+          "id": "E",
+          "text": "dígito-terminal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Dígito-terminal usa os blocos finais como primeiro eixo de disposição. Os demais blocos continuam necessários; não são simplesmente descartados."
+    },
+    {
+      "id": "per-u088-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um esquema de arquivamento agrupa nomes a partir da semelhança de pronúncia, e não da grafia literal. O método de ordenação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "variadex, pela codificação cromática."
+        },
+        {
+          "id": "B",
+          "text": "dicionário, pela sequência de assuntos."
+        },
+        {
+          "id": "C",
+          "text": "soundex, pelo critério fonético."
+        },
+        {
+          "id": "D",
+          "text": "decimal, por classes de dez."
+        },
+        {
+          "id": "E",
+          "text": "numérico simples, por pasta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Soundex é reconhecido pelo eixo fonético, em contraste com o alfabético comum, que utiliza as letras na grafia."
+    },
+    {
+      "id": "per-u088-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para diferenciar letras ou grupos alfabéticos, um arquivo usa faixas de cores no sistema de ordenação. A técnica descrita é",
+      "options": [
+        {
+          "id": "A",
+          "text": "variadex."
+        },
+        {
+          "id": "B",
+          "text": "soundex."
+        },
+        {
+          "id": "C",
+          "text": "numérico-cronológico."
+        },
+        {
+          "id": "D",
+          "text": "duplex."
+        },
+        {
+          "id": "E",
+          "text": "geográfica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Variadex usa cores associadas a grupos de letras. Não é método baseado em pronúncia nem em número e data."
+    },
+    {
+      "id": "per-u088-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma organização usa a chave R-023 para uma unidade documental. A presença simultânea de letras e números permite reconhecer, de modo imediato, uma notação",
+      "options": [
+        {
+          "id": "A",
+          "text": "universal e obrigatória para todos os arquivos nacionais."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente cronológica."
+        },
+        {
+          "id": "C",
+          "text": "equivalente a prazo de eliminação."
+        },
+        {
+          "id": "D",
+          "text": "necessariamente de origem pericial."
+        },
+        {
+          "id": "E",
+          "text": "alfanumérica, sem que isso por si comprove a classificação funcional correta."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Alfanumérico combina letras e números. Para verificar a classe arquivística ainda é preciso consultar o contexto e o instrumento competente."
+    },
+    {
+      "id": "per-u088-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um despacho manda guardar um processo após a cessação de sua tramitação. Segundo os sentidos reunidos no Dicionário brasileiro de terminologia arquivística, esse ato corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatoriamente ao recolhimento definitivo à guarda permanente."
+        },
+        {
+          "id": "B",
+          "text": "ao segundo sentido de arquivamento, decisão de guardar quando cessa a tramitação."
+        },
+        {
+          "id": "C",
+          "text": "à eliminação imediata determinada pela antiguidade do processo."
+        },
+        {
+          "id": "D",
+          "text": "à ordem alfabética dos documentos pelo prenome do signatário."
+        },
+        {
+          "id": "E",
+          "text": "ao empréstimo temporário do processo a um pesquisador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O dicionário distingue o trabalho de guarda ordenada do ato de autoridade que determina guardar documento com tramitação cessada. Nenhum dos dois implica eliminação ou recolhimento permanente."
+    },
+    {
+      "id": "per-u088-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "De acordo com o Guia de gestão de documentos do Arquivo Nacional (2025), voltado ao Executivo federal, uma pessoa retira uma pasta para consulta, sem retomar a ação administrativa. O enquadramento adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "desarquivamento necessariamente, pois qualquer retirada reabre o procedimento."
+        },
+        {
+          "id": "B",
+          "text": "recolhimento permanente, porque o documento será lido."
+        },
+        {
+          "id": "C",
+          "text": "descarte autorizado, já que a finalidade da pasta se esgotou."
+        },
+        {
+          "id": "D",
+          "text": "empréstimo para consulta, com controle de saída e retorno, distinto de desarquivamento para continuidade da ação."
+        },
+        {
+          "id": "E",
+          "text": "classificação sigilosa automática, por estar em poder de terceiro."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A referência federal diferencia acesso temporário para pesquisa do desarquivamento que retoma a atividade. Empréstimos exigem rastreabilidade, mas não reabrem o processo só pelo uso informativo."
+    },
+    {
+      "id": "per-u088-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe retoma formalmente uma providência que depende do conteúdo de um processo arquivado. Em relação à simples consulta de uma pasta, há agora",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessidade de destruir a ordem original do processo."
+        },
+        {
+          "id": "B",
+          "text": "obrigação geral de eliminar a pasta após a providência."
+        },
+        {
+          "id": "C",
+          "text": "situação de possível desarquivamento para continuidade da ação, com registro de movimentação."
+        },
+        {
+          "id": "D",
+          "text": "ordenação sempre geográfica, independentemente do instrumento."
+        },
+        {
+          "id": "E",
+          "text": "redução automática do prazo de guarda a zero."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O elemento distintivo é a retomada da ação administrativa. Ela deve observar os atos e controles do órgão, e não ser confundida com retirada para mera referência."
+    },
+    {
+      "id": "per-u088-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O órgão mantém um arquivo digital capaz de buscar por nome e número. Entretanto, perdeu os vínculos dos arquivos com seus procedimentos e produtores. É correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a busca textual dispensa contexto documental, desde que tenha resultados rápidos."
+        },
+        {
+          "id": "B",
+          "text": "todas as peças recuperadas passam a integrar um mesmo fundo."
+        },
+        {
+          "id": "C",
+          "text": "o suporte digital exige ordenação exclusivamente pela data de criação do arquivo."
+        },
+        {
+          "id": "D",
+          "text": "a recuperação por palavras-chave, sozinha, garante autenticidade e prova o conteúdo."
+        },
+        {
+          "id": "E",
+          "text": "a pesquisa é possível, mas continua havendo deficiência de gestão arquivística pela perda das relações documentais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Um buscador não recompõe automaticamente classe, produtor, organicidade e relação com o processo. Gestão documental digital requer esses vínculos, além de meios de consulta."
+    },
+    {
+      "id": "per-u088-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um arquivo físico organiza processos numericamente. A equipe decide colocar algumas pastas sobrepostas horizontalmente, mantendo a mesma numeração. Essa decisão altera",
+      "options": [
+        {
+          "id": "A",
+          "text": "a disposição física da guarda, não o método de ordenação numérico."
+        },
+        {
+          "id": "B",
+          "text": "a classificação funcional, que deve necessariamente se tornar geográfica."
+        },
+        {
+          "id": "C",
+          "text": "o método para numérico-cronológico, pela posição das pastas."
+        },
+        {
+          "id": "D",
+          "text": "os direitos de acesso aos processos."
+        },
+        {
+          "id": "E",
+          "text": "a destinação documental, exigindo eliminação das pastas horizontais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Horizontal/vertical descrevem a posição das unidades no mobiliário. A sequência por números continua sendo o método de ordenação."
+    },
+    {
+      "id": "per-u088-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante a organização de um fundo, a equipe separa fotografias, laudos e requisições de todos os procedimentos em três pilhas, sem registrar a quais casos pertenciam. Qual é a falha?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar qualquer índice alternativo para consulta."
+        },
+        {
+          "id": "B",
+          "text": "Manter a correspondência do documento com seu produtor."
+        },
+        {
+          "id": "C",
+          "text": "Preservar os processos como unidades vinculadas."
+        },
+        {
+          "id": "D",
+          "text": "Destruir relações orgânicas e a ordem significativa das peças, em busca de uma ordenação superficial por tipo."
+        },
+        {
+          "id": "E",
+          "text": "Armazenar alguns documentos em meio digital."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ordenação precisa respeitar os vínculos de produção: separar peças por tipo sem preservar qual pertence a qual processo compromete a recuperação da história de cada procedimento."
+    },
+    {
+      "id": "per-u088-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão publica índice temático que permite localizar requisições de várias unidades, mas mantém os documentos em seus fundos de origem e preserva os vínculos. Essa prática",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre vedada, pois qualquer pesquisa por assunto viola a proveniência."
+        },
+        {
+          "id": "B",
+          "text": "pode ampliar a recuperação sem destruir a proveniência, pois o índice não obriga mudar o fundo."
+        },
+        {
+          "id": "C",
+          "text": "transforma todos os documentos em coleção particular."
+        },
+        {
+          "id": "D",
+          "text": "prova que o método de guarda adotado é necessariamente numérico-cronológico."
+        },
+        {
+          "id": "E",
+          "text": "dispensa o registro de localização das pastas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Buscar por assunto pode ser uma via adicional, sem misturar fundos. A regra de proveniência continua preservada pela manutenção da origem e dos vínculos."
+    },
+    {
+      "id": "per-u088-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor argumenta que 'arquivar' uma pasta autoriza automaticamente eliminá-la no mesmo dia. A avaliação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o servidor pode fixar prazo de guarda apenas pelo valor aparente do conteúdo."
+        },
+        {
+          "id": "B",
+          "text": "arquivamento corresponde ao recolhimento definitivo para todo documento."
+        },
+        {
+          "id": "C",
+          "text": "a destinação depende de avaliação e instrumento de temporalidade e competência apropriados, não apenas do ato de arquivamento."
+        },
+        {
+          "id": "D",
+          "text": "as pastas numéricas devem sempre ser eliminadas antes das alfabéticas."
+        },
+        {
+          "id": "E",
+          "text": "o prazo legal é idêntico para todas as classes, pois cada pasta recebe um número."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Guarda ordenada, prazo de guarda e destinação são decisões distintas. A eliminação depende de avaliação e regras de destinação pertinentes, não de iniciativa arbitrária."
+    },
+    {
+      "id": "per-u088-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série guarda os documentos pelos números 8, 9 e 10. Um sistema coloca '10' antes de '8' por tratar os números como palavras, em vez de quantidades. O erro reside em",
+      "options": [
+        {
+          "id": "A",
+          "text": "ter escolhido o método alfabético para um arquivo que não existe."
+        },
+        {
+          "id": "B",
+          "text": "desconsiderar a proveniência geográfica do município."
+        },
+        {
+          "id": "C",
+          "text": "aplicar obrigatoriamente a lei de temporalidade a cada documento."
+        },
+        {
+          "id": "D",
+          "text": "usar a sequência cronológica correta."
+        },
+        {
+          "id": "E",
+          "text": "comparar identificadores numerados como texto, produzindo ordem diferente da sequência numérica prevista."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ordenação numérica exige comparar valores ou usar notações formatadas de modo consistente. A comparação textual simples pode colocar 10 antes de 8."
+    },
+    {
+      "id": "per-u088-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois ofícios têm o mesmo número, mas anos de expedição diferentes. Um servidor os considera automaticamente idênticos, porque a numeração coincide. Para um método numérico-cronológico, a análise adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar também as datas/anos e o instrumento adotado antes de concluir que são a mesma peça."
+        },
+        {
+          "id": "B",
+          "text": "substituir o número de ambos pelo nome do município do remetente."
+        },
+        {
+          "id": "C",
+          "text": "descartar o ofício mais antigo para evitar número repetido."
+        },
+        {
+          "id": "D",
+          "text": "ignorar completamente a data, pois esse método só trabalha com número de pasta."
+        },
+        {
+          "id": "E",
+          "text": "reordenar todos os documentos pela cor da primeira letra."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O numérico-cronológico considera número e data; o mesmo número em períodos diferentes não prova identidade documental."
+    },
+    {
+      "id": "per-u088-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas cidades de estados diferentes possuem o mesmo nome. Num arquivo por procedência territorial, qual providência preserva a correta recuperação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reunir todas as peças na mesma pasta apenas porque o município tem nome idêntico."
+        },
+        {
+          "id": "B",
+          "text": "Substituir permanentemente as cidades pela data da produção, sem índice."
+        },
+        {
+          "id": "C",
+          "text": "Classificar documentos de ambos os municípios como pertencentes ao mesmo órgão produtor."
+        },
+        {
+          "id": "D",
+          "text": "Registrar estado ou outra referência que distinga as localidades e aplicar o critério geográfico definido."
+        },
+        {
+          "id": "E",
+          "text": "Adotar obrigatoriamente o método soundex para cidades homônimas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A chave geográfica deve desambiguar lugares homônimos para que uma consulta não conduza ao conjunto errado. Estado e município podem compor essa chave."
+    }
+  ]
+}
