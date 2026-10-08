@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u085-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão pericial mantém requisições recebidas, registros de exame e laudos produzidos no exercício de suas funções. O conjunto é arquivístico principalmente porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "está em papel timbrado."
+        },
+        {
+          "id": "B",
+          "text": "nasceu das atividades exercidas pelo órgão."
+        },
+        {
+          "id": "C",
+          "text": "contém somente registros antigos."
+        },
+        {
+          "id": "D",
+          "text": "reúne documentos de assinatura obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "está guardado no mesmo armário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O critério central é a produção ou o recebimento em decorrência das atividades; suporte, assinatura, antiguidade e local não o substituem."
+    },
+    {
+      "id": "per-u085-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Documentos próprios de dois órgãos diferentes são fundidos numa só sequência, apenas porque tratam do mesmo acidente. Qual princípio é diretamente prejudicado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pertinência temática."
+        },
+        {
+          "id": "B",
+          "text": "Preservação do suporte."
+        },
+        {
+          "id": "C",
+          "text": "Proveniência ou respeito aos fundos."
+        },
+        {
+          "id": "D",
+          "text": "Consulta corrente."
+        },
+        {
+          "id": "E",
+          "text": "Autenticidade da assinatura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Fusão temática que apaga a identidade dos produtores desrespeita a proveniência de cada fundo."
+    },
+    {
+      "id": "per-u085-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um arquivo preserva os fundos por órgão e publica um índice para localizar documentos de todos eles sobre determinado assunto. Isso",
+      "options": [
+        {
+          "id": "A",
+          "text": "destrói necessariamente a ordem original."
+        },
+        {
+          "id": "B",
+          "text": "transforma todo fundo em coleção."
+        },
+        {
+          "id": "C",
+          "text": "é proibido no meio digital."
+        },
+        {
+          "id": "D",
+          "text": "é compatível com a proveniência se mantiver os vínculos de origem."
+        },
+        {
+          "id": "E",
+          "text": "obriga eliminar os documentos originais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Um índice temático pode facilitar pesquisa sem rearranjar os fundos nem apagar produtor, ordem e relações documentais."
+    },
+    {
+      "id": "per-u085-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao separar requisições, fotografias e laudos de cada procedimento em conjuntos por tipo, sem registrar a quais procedimentos pertenciam, perde-se especialmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "a organicidade das peças relacionadas pela atividade."
+        },
+        {
+          "id": "B",
+          "text": "a possibilidade de haver suporte digital."
+        },
+        {
+          "id": "C",
+          "text": "o caráter público do produtor."
+        },
+        {
+          "id": "D",
+          "text": "a distinção entre documento e informação."
+        },
+        {
+          "id": "E",
+          "text": "a existência de documentos autênticos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A atividade produz vínculos funcionais entre as peças do procedimento; separá-las sem preservar relações prejudica a organicidade."
+    },
+    {
+      "id": "per-u085-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor distinção entre proveniência e ordem original é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas significam ordenar alfabeticamente."
+        },
+        {
+          "id": "B",
+          "text": "proveniência é local de depósito; ordem original é prazo de guarda."
+        },
+        {
+          "id": "C",
+          "text": "a primeira só existe nos arquivos permanentes."
+        },
+        {
+          "id": "D",
+          "text": "a primeira impede cópias, e a segunda as permite."
+        },
+        {
+          "id": "E",
+          "text": "proveniência distingue fundos por produtor; ordem original respeita o arranjo interno dado pelo produtor."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Proveniência define a origem dos fundos; ordem original protege sua organização interna identificável."
+    },
+    {
+      "id": "per-u085-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma instituição reúne intencionalmente cópias de fotografias históricas provenientes de muitos órgãos para uma exposição temática. O conjunto é mais bem caracterizado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundo de uma única proveniência."
+        },
+        {
+          "id": "B",
+          "text": "coleção de seleção temática."
+        },
+        {
+          "id": "C",
+          "text": "arquivo corrente obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "documentação intermediária de um órgão único."
+        },
+        {
+          "id": "E",
+          "text": "série naturalmente produzida em um mesmo procedimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Coleção é reunião intencional por interesse escolhido; fundo é acumulação orgânica de um produtor."
+    },
+    {
+      "id": "per-u085-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O atributo arquivístico da unicidade significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não podem existir reproduções."
+        },
+        {
+          "id": "B",
+          "text": "cada instituição possui apenas um arquivo."
+        },
+        {
+          "id": "C",
+          "text": "o documento ocupa posição singular em seu contexto, ainda que haja cópias."
+        },
+        {
+          "id": "D",
+          "text": "todo registro precisa ter conteúdo inédito."
+        },
+        {
+          "id": "E",
+          "text": "somente documento original manuscrito é arquivístico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A singularidade diz respeito à função contextual do registro, não à impossibilidade material de criar cópias."
+    },
+    {
+      "id": "per-u085-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão elimina documentos segundo avaliação e destinação regularmente autorizadas. Isso não viola necessariamente a integridade arquivística porque a integridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "combate mistura e eliminação indiscriminada, sem impor retenção eterna."
+        },
+        {
+          "id": "B",
+          "text": "impõe preservar todo registro para sempre."
+        },
+        {
+          "id": "C",
+          "text": "diz respeito apenas a assinaturas eletrônicas."
+        },
+        {
+          "id": "D",
+          "text": "autoriza eliminar livremente qualquer parte do fundo."
+        },
+        {
+          "id": "E",
+          "text": "transforma o fundo numa coleção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Integridade do fundo protege sua identidade, mas não substitui regras de avaliação e destinação documental."
+    },
+    {
+      "id": "per-u085-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um relatório comprova autoria institucional e ausência de adulteração, mas registra um dado numérico errado. A conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o relatório deixa de pertencer ao arquivo."
+        },
+        {
+          "id": "B",
+          "text": "o órgão perde necessariamente o seu fundo."
+        },
+        {
+          "id": "C",
+          "text": "erro factual impede qualquer prova de identidade."
+        },
+        {
+          "id": "D",
+          "text": "autenticidade do registro não equivale à veracidade de todas as informações."
+        },
+        {
+          "id": "E",
+          "text": "o documento deve ser eliminado imediatamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Autenticidade refere-se à identidade e integridade verificáveis; a exatidão do conteúdo é questão distinta."
+    },
+    {
+      "id": "per-u085-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "De acordo com o art. 2º da Lei nº 8.159/1991, o conceito de arquivo abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente documentos públicos em papel."
+        },
+        {
+          "id": "B",
+          "text": "apenas documentos classificados como permanentes."
+        },
+        {
+          "id": "C",
+          "text": "somente registros de instituições governamentais."
+        },
+        {
+          "id": "D",
+          "text": "unicamente documentos impressos e assinados."
+        },
+        {
+          "id": "E",
+          "text": "conjuntos produzidos ou recebidos em atividades específicas, independentemente do suporte."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A definição legal abrange produtores públicos, privados e pessoas físicas e independe do suporte do documento."
+    },
+    {
+      "id": "per-u085-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento não tramita atualmente, mas é consultado frequentemente. Segundo a Lei nº 8.159/1991, ele pode integrar a fase",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanente por definição."
+        },
+        {
+          "id": "B",
+          "text": "corrente."
+        },
+        {
+          "id": "C",
+          "text": "intermediária obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "de coleção temática."
+        },
+        {
+          "id": "E",
+          "text": "de descarte irrestrito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Corrente inclui documentos em curso ou frequentemente consultados, mesmo sem movimentação."
+    },
+    {
+      "id": "per-u085-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Documentos sem uso corrente, ainda aguardando eliminação ou recolhimento para preservação definitiva, caracterizam a fase",
+      "options": [
+        {
+          "id": "A",
+          "text": "de formação de coleção."
+        },
+        {
+          "id": "B",
+          "text": "corrente."
+        },
+        {
+          "id": "C",
+          "text": "intermediária."
+        },
+        {
+          "id": "D",
+          "text": "de ordenação original."
+        },
+        {
+          "id": "E",
+          "text": "de proveniência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fase intermediária é a espera de destinação após cessar o uso corrente; não equivale a descarte imediato."
+    },
+    {
+      "id": "per-u085-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Cumulatividade arquivística consiste em documentos que",
+      "options": [
+        {
+          "id": "A",
+          "text": "se acumulam progressivamente em decorrência de atividades."
+        },
+        {
+          "id": "B",
+          "text": "são escolhidos por um pesquisador conforme sua preferência."
+        },
+        {
+          "id": "C",
+          "text": "devem obrigatoriamente ser impressos antes de guardados."
+        },
+        {
+          "id": "D",
+          "text": "adquirem valor permanente no nascimento."
+        },
+        {
+          "id": "E",
+          "text": "são sempre produzidos simultaneamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A acumulação é funcional e progressiva; coleção é reunião intencional por seleção."
+    },
+    {
+      "id": "per-u085-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Afirmar que a imparcialidade arquivística tradicional garante que produtores nunca erram ou agem por interesse significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicar literalmente o art. 2º da Lei de Arquivos."
+        },
+        {
+          "id": "B",
+          "text": "descrever a definição de arquivo intermediário."
+        },
+        {
+          "id": "C",
+          "text": "reconhecer a necessidade de proveniência."
+        },
+        {
+          "id": "D",
+          "text": "confundir produção funcional com neutralidade e infalibilidade."
+        },
+        {
+          "id": "E",
+          "text": "exigir digitalização para provar autenticidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A característica tradicional se relaciona à produção no curso das atividades, não à ausência de erros, interesses ou vieses."
+    },
+    {
+      "id": "per-u085-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um laudo produzido digitalmente no trabalho de uma equipe",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode ser documento de arquivo sem impressão."
+        },
+        {
+          "id": "B",
+          "text": "só se torna arquivístico após uma década."
+        },
+        {
+          "id": "C",
+          "text": "perde todo vínculo com o produtor."
+        },
+        {
+          "id": "D",
+          "text": "pertence automaticamente à coleção pessoal do servidor."
+        },
+        {
+          "id": "E",
+          "text": "pode integrar arquivo desde que preserve seu vínculo com a atividade de produção."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A natureza arquivística decorre do contexto de produção/recebimento, independentemente de suporte."
+    },
+    {
+      "id": "per-u085-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O contraste entre fundo e coleção está corretamente expresso em",
+      "options": [
+        {
+          "id": "A",
+          "text": "fundo escolhido por gosto pessoal; coleção acumulada só por atividade pública."
+        },
+        {
+          "id": "B",
+          "text": "fundo reunido por uma proveniência; coleção reunida por seleção intencional sem exigir produtor único."
+        },
+        {
+          "id": "C",
+          "text": "fundo sempre digital; coleção sempre impressa."
+        },
+        {
+          "id": "D",
+          "text": "fundo só com documentos antigos; coleção só com documentos novos."
+        },
+        {
+          "id": "E",
+          "text": "fundo sem organicidade; coleção necessariamente orgânica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O critério decisivo é o vínculo de proveniência e acumulação funcional versus a escolha de reunir por tema."
+    },
+    {
+      "id": "per-u085-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando um arquivo muda de prédio, sem alteração de sua autoria e das relações documentais, a proveniência",
+      "options": [
+        {
+          "id": "A",
+          "text": "passa a pertencer obrigatoriamente ao município receptor."
+        },
+        {
+          "id": "B",
+          "text": "desaparece devido à mudança do depósito."
+        },
+        {
+          "id": "C",
+          "text": "não se altera apenas por causa da nova localização física."
+        },
+        {
+          "id": "D",
+          "text": "deve ser substituída pela classificação alfabética."
+        },
+        {
+          "id": "E",
+          "text": "faz o acervo se tornar automaticamente permanente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Proveniência está ligada ao produtor e sua atividade, não à localização física atual de guarda."
+    },
+    {
+      "id": "per-u085-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dizer que os documentos integram arquivo público e concluir que o acesso a todos eles é irrestrito confunde",
+      "options": [
+        {
+          "id": "A",
+          "text": "a natureza do conjunto com as regras específicas de acesso e sigilo."
+        },
+        {
+          "id": "B",
+          "text": "documento arquivístico com documento de papel."
+        },
+        {
+          "id": "C",
+          "text": "a proveniência com localização física."
+        },
+        {
+          "id": "D",
+          "text": "a fase corrente com a fase permanente."
+        },
+        {
+          "id": "E",
+          "text": "a coleção com os suportes digitais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Arquivo público qualifica a origem funcional dos documentos, não elimina regras legais de proteção e acesso."
+    },
+    {
+      "id": "per-u085-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual organização respeita simultaneamente proveniência, ordem original e organicidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Misturar os documentos de vários órgãos por tema, apagando o produtor."
+        },
+        {
+          "id": "B",
+          "text": "Reunir todas as fotografias de todos os processos sem referência aos originais."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar documentos assim que a atividade se encerrar, sem avaliação."
+        },
+        {
+          "id": "D",
+          "text": "Manter fundos distintos por produtor e preservar relações entre as peças dos procedimentos, oferecendo busca temática adicional."
+        },
+        {
+          "id": "E",
+          "text": "Transformar toda documentação de um órgão numa única coleção de papéis soltos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Separação por produtor, manutenção do arranjo dos procedimentos e preservação das relações funcionais são compatíveis; a pesquisa por assunto pode coexistir."
+    },
+    {
+      "id": "per-u085-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A referência ao e-ARQ Brasil, versão 2, neste capítulo, serve principalmente para indicar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "documentos digitais dispensam identificação da instituição produtora."
+        },
+        {
+          "id": "B",
+          "text": "digitalizar sempre autoriza destruir os originais."
+        },
+        {
+          "id": "C",
+          "text": "todo governo estadual é obrigado a utilizar a mesma plataforma específica."
+        },
+        {
+          "id": "D",
+          "text": "arquivos híbridos deixam de ser arquivísticos."
+        },
+        {
+          "id": "E",
+          "text": "a gestão arquivística informatizada também requer preservar identidade, relações e contexto documental."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O modelo orienta requisitos para sistemas de gestão arquivística; digitalização não elimina vínculos de proveniência nem cria obrigação geral de uma plataforma."
+    }
+  ]
+}
