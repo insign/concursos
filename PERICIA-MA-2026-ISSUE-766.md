@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 12 | 0 | 24 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 22 | 0 | 29 |
-| Unidades distintas | 99 | 16 | 0 | 83 |
-| Entregáveis unitários C/H/Q | 297 | 48 | 0 | 249 |
+| Unidades distintas | 99 | 15 | 0 | 84 |
+| Entregáveis unitários C/H/Q | 297 | 45 | 0 | 252 |
 
-Estado confirmado: **83 unidades/visões publicadas (77 locais, 6 por vínculo); 249 C/H/Q aceitos; 117/132 referências literais aceitas; 3084 questões acumuladas**. PER-U084 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **84 unidades/visões publicadas (78 locais, 6 por vínculo); 252 C/H/Q aceitos; 118/132 referências literais aceitas; 3104 questões acumuladas**. PER-U085 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U084 — Noções de sexologia forense está done; próxima ação: PER-U085 — Arquivística: princípios e conceitos**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 0/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U085 — Arquivística: princípios e conceitos está done; próxima ação: PER-U086 — Gestão documental e protocolo**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 1/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -658,7 +658,7 @@ Grupo consumidor: `conhecimentos-especificos/arquivologia/`, relativo à raiz de
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U085 — Arquivística: princípios e conceitos | E10: 1 | S05; sem candidato selecionado | `arquivistica-principios-conceitos` / `per-u085` / 850 | Arquivo, documento, proveniência e organicidade; materiais patrimoniais do TCE não equivalem a arquivística. |
+| PER-U085 — Arquivística: princípios e conceitos | E10: 1 | S05; nova/local após pesquisa negativa de pacote integral | `arquivistica-principios-conceitos` / `per-u085` / 850 | Arquivo, fundo × coleção, proveniência, organicidade, ordem original, integridade, características e fases; TCE patrimonial excluído como doador. C/H/Q/R aceitos em 5.11; artefato `6b392c4b`. |
 | PER-U086 — Gestão documental e protocolo | E10: 2, 2.1 | S05; sem candidato selecionado | `gestao-documental-protocolo` / `per-u086` / 860 | Recebimento, registro, distribuição, tramitação e expedição. |
 | PER-U087 — Classificação de documentos de arquivo | E10: 2, 2.2 | S05; sem candidato selecionado | `classificacao-documentos-arquivo` / `per-u087` / 870 | Classificação funcional; distinguir ordenação. |
 | PER-U088 — Arquivamento e ordenação | E10: 2, 2.3 | S05; sem candidato selecionado | `arquivamento-ordenacao-documentos` / `per-u088` / 880 | Métodos e recuperação; conceitos mínimos de U087. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 98/132 |
-| Unidades distintas da objetiva | 98 | 70 |
+| Referências literais da objetiva | 132/132 | 118/132 |
+| Unidades distintas da objetiva | 98 | 84 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 70 |
-| Entregáveis unitários C/H/Q | 297: 87 pending + 0 analyzing + 210 done | 210 done |
-| Visões consumidoras previstas | 99 | 70 |
+| Total de unidades distintas | 99 | 84 |
+| Entregáveis unitários C/H/Q | 297: 45 pending + 0 analyzing + 252 done | 252 done |
+| Visões consumidoras previstas | 99 | 84 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 51 parciais locais, 10 integrais locais e 6 integrais por vínculo |
-| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 3 |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 59 parciais locais, 10 integrais locais e 6 integrais por vínculo |
+| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 9 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 64 unidades locais, 6 vínculos Perícia; demais unidades dependem de PER-R02.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 78 unidades locais, 6 vínculos Perícia; 15 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 9 novas locais e 6 integrais canônicas.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2512,6 +2512,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | \`0b604c235508239f758a795e80f25607c925922e\` |
 | R | \`b04a3c6ff1ce3b6a86ce2fe924362b848e1a1640\` |
 
+#### PER-U085 — Arquivística: princípios e conceitos: nova/local — C/H/Q done
+
+- **Origem/consumidor:** S05, Arquivologia item 1; consumidor único Perícia Oficial/MA 2026, Cargo 1 Generalista. O inventário integral de 3.649 entradas e a busca temática não localizaram pacote C/H/Q/R de princípios arquivísticos. O conjunto físico do TCE sobre recebimento e inventário de materiais foi consultado e não equivale a arquivo/fundo/orgânico; sem cópia ou vínculo canônico. Destino `conhecimentos-especificos/arquivologia/arquivistica-principios-conceitos/`, identidade `per-u085`, ordem 850. Grupo `arquivologia/grupo.json` criado com o primeiro pacote completo, título Arquivologia, ordem 3.
+- **Problema/intervenção/ganho:** definições isoladas não ensinam por que produtor e atividade importam. C organiza o cenário pericial hipotético por documento → fundo × coleção → proveniência × pertinência → organicidade × ordem original → integridade, unicidade, cumulatividade e autenticidade → fases → digital. Esclarece que índice temático não exige desfazer fundos, integridade não significa reter tudo e autenticidade não equivale a veracidade. H recupera essas discriminações sem duplicar aula; fontes foram associadas a cada núcleo conceitual. Próximas U086–U092 permanecem responsáveis pelos procedimentos especializados.
+- **Fontes/corte:** S05; Lei nº 8.159/1991, arts. 1º–3º e 7º–10; Dicionário brasileiro de terminologia arquivística do Arquivo Nacional (2005); Resolução <abbr title="Conselho Nacional de Arquivos">Conarq</abbr> nº 50/2022, <abbr title="Modelo de Requisitos para Sistemas Informatizados de Gestão Arquivística de Documentos">e-ARQ Brasil</abbr>, versão 2. Corte legislativo 17/07/2026; consulta 08/10/2026, sem antecipar novo corte nem impor automaticamente norma infralegal federal ao Estado.
+- **Extensão/microglossário:** C 11.270 caracteres brutos e H 2.138; unidade nova, sem crescimento comparativo de versão local anterior. Siglas técnicas renderizadas expandidas com `abbr` no C e nas referências; H não usa siglas técnicas. Conceitos principais ficam no texto, não nos `title`.
+- **Questões:** `questionSetRevision: 1`, 20 questões autorais/100 alternativas, IDs próprios `per-u085-a01`–`per-u085-a20`; gabaritos e explicações individualmente conferidos, 20 respostas únicas, 0 IDs repetidos. Nenhuma atribuição a prova anterior, sem resolução separada.
+- **Publicação confirmada:** [`6b392c4b`](https://github.com/insign/concursos/commit/6b392c4b162d385cfde6de6c0e8bf4f0a179f478). Os cinco arquivos foram relidos na `main` e seus blobs comparados com o pacote produzido, com 20 itens/100 opções, metadados, títulos, fontes, fronteiras e grupo. Nenhum teste, build, check ou CI executado.
+
+| Arquivo | Blob confirmado |
+|---|---|
+| grupo | `25698a65750fa8bdc0a1f3347e853af6e66ef1df` |
+| C | `430988dcb4c0ae25bad6b984c921daa666c7a140` |
+| H | `9ca0416e1e6cce82575226e4aed72f110bf960b1` |
+| Q | `99c6d93641ac903dcbaf270ea77705c45fd35a5f` |
+| R | `be9b7df12b59b140f014285b0cfa618bcc47744a` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3189,9 +3206,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U085 — Arquivística: princípios e conceitos
 
-- [ ] PER-U085-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U085-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U085-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U085-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U085-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U085-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U086 — Gestão documental e protocolo
 
@@ -3574,3 +3591,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U082:** artefato `3384abca7344196976be3d287d84770bce4f74d7` confirmado; nova/local, 21 questões/105 opções (20 autorais + 1 adaptação Cebraspe/PC-RO 2022), com correção explícita da generalização histórica sobre “chumbinho”; C/H/Q/R aceitos. E09:5 aceito. Totais: 81/99 unidades, 243/297 C/H/Q, 115/132 referências e 3041 questões. E09 passa a 4/6. Próxima ação PER-U083 — Noções de agentes térmicos.
 - **PER-U083:** artefato `cc33630c6f7204b7bfce71f764666259e5e89a49` confirmado; nova/local, 22 questões/110 opções (20 autorais + 2 adaptações Cebraspe/PC-RO 2022), preservando Hoffmann/geladuras com limites contemporâneos para Wischnewski, vitalidade e artefatos térmicos; C/H/Q/R aceitos. E09:6 aceito. Totais: 82/99 unidades, 246/297 C/H/Q, 116/132 referências e 3063 questões. E09 passa a 5/6. Próxima ação PER-U084 — Noções de sexologia forense.
 - **PER-U084:** artefato `54df4e05a419836fc06b16db3b4021382263739d` confirmado; nova/local, 21 questões/105 opções (20 autorais + 1 adaptação Cebraspe/PC-RO 2022), com exame orientado, vestígios biológicos, hímen/entalhe/ruptura, atendimento humanizado e limites explícitos contra teste de virgindade ou inferências automáticas; C/H/Q/R aceitos. E09:7 aceito e PER-E09 C/H/Q fecha done. Totais: 83/99 unidades, 249/297 C/H/Q, 117/132 referências e 3084 questões. E09 fecha 6/6. Próxima ação PER-U085 — Arquivística: princípios e conceitos.
+- **PER-U085:** artefato `6b392c4b162d385cfde6de6c0e8bf4f0a179f478` confirmado; nova/local com grupo de Arquivologia e 20 questões/100 opções autorais; C/H/Q/R aceitos, E10:1 coberto. Totais: 84/99 unidades, 252/297 C/H/Q, 118/132 referências, 3104 questões, 29 macros done; E10 1/8. Nenhuma reserva ativa após sincronização da issue. Próxima ação PER-U086 — Gestão documental e protocolo.
