@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u092-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão produziu um relatório de inspeção em papel e depois fez uma cópia digital para consulta. Qual informação identifica o TIPO documental do original, segundo o critério arquivístico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A designação do suporte em que o documento está guardado, no caso, papel."
+        },
+        {
+          "id": "B",
+          "text": "A marca do equipamento usado para produzir a cópia digital."
+        },
+        {
+          "id": "C",
+          "text": "A combinação da espécie relatório com a atividade de inspeção que o gerou."
+        },
+        {
+          "id": "D",
+          "text": "A informação de que o documento pode ser lido em computador."
+        },
+        {
+          "id": "E",
+          "text": "A quantidade de folhas e a resolução da cópia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tipo documental caracteriza a espécie pela atividade produtora: relatório de inspeção. O papel é suporte, digital é meio de representação e número de páginas ou resolução não define tipo."
+    },
+    {
+      "id": "per-u092-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma mesma instituição emite relatórios de inspeção e relatórios de manutenção. Para definir sua classificação arquivística, qual procedimento é o mais apropriado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relacionar cada documento à função e à atividade no plano de classificação aplicável, usando o tipo como indício contextual."
+        },
+        {
+          "id": "B",
+          "text": "Colocar todos os relatórios na mesma classe apenas porque pertencem à mesma espécie."
+        },
+        {
+          "id": "C",
+          "text": "Classificar os de papel como administrativos e os digitais como finalísticos."
+        },
+        {
+          "id": "D",
+          "text": "Determinar a classe somente pelo sobrenome de quem assinou."
+        },
+        {
+          "id": "E",
+          "text": "Aplicar automaticamente a mesma destinação e o mesmo prazo a todas as espécies relatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A classe depende do instrumento e do vínculo com a função/atividade. A espécie pode repetir-se em atividades diferentes. Suporte, assinatura e mera semelhança de forma não substituem classificação nem avaliação."
+    },
+    {
+      "id": "per-u092-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma fotografia da vistoria foi produzida em película e posteriormente convertida em arquivo de imagem. A respeito de gênero e suporte, é correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conversão muda obrigatoriamente o gênero iconográfico para gênero textual."
+        },
+        {
+          "id": "B",
+          "text": "um arquivo digital nunca pode representar informação iconográfica."
+        },
+        {
+          "id": "C",
+          "text": "o suporte e o gênero são sinônimos, pois ambos indicam como o arquivo é classificado."
+        },
+        {
+          "id": "D",
+          "text": "o gênero iconográfico pode permanecer, enquanto os meios de registro e acesso passam a diferir."
+        },
+        {
+          "id": "E",
+          "text": "por estar digitalizada, a fotografia se converte em ato administrativo da espécie certidão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gênero caracteriza a linguagem de representação; suporte descreve o meio material de registro. Digitalizar a imagem não transforma sua linguagem visual nem sua função documental."
+    },
+    {
+      "id": "per-u092-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um laudo foi redigido, formalizado e arquivado em sistema informatizado. Em outra situação, um laudo assinado em papel foi escaneado. Na ordem, os registros digitais resultantes são",
+      "options": [
+        {
+          "id": "A",
+          "text": "dois microfilmes com a mesma origem."
+        },
+        {
+          "id": "B",
+          "text": "um documento nato-digital e um representante digitalizado de documento físico."
+        },
+        {
+          "id": "C",
+          "text": "duas versões necessariamente originais de papel."
+        },
+        {
+          "id": "D",
+          "text": "um documento digitalizado e outro nato-digital, respectivamente."
+        },
+        {
+          "id": "E",
+          "text": "dois documentos exclusivamente analógicos, por preservarem texto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A origem é decisiva: o primeiro foi criado e mantido digitalmente; o segundo foi convertido de papel para representação em bits. Microfilmagem produz filme, não esses dois arquivos."
+    },
+    {
+      "id": "per-u092-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um acervo contém fita de vídeo de sinal analógico e documentos eletrônicos codificados em bits. Qual proposição distingue corretamente os conceitos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo documento eletrônico é necessariamente digital."
+        },
+        {
+          "id": "B",
+          "text": "Todo suporte de fita analógica é documento nato-digital."
+        },
+        {
+          "id": "C",
+          "text": "Documento digital independe de equipamento para leitura."
+        },
+        {
+          "id": "D",
+          "text": "A codificação em bits exclui a natureza arquivística do documento."
+        },
+        {
+          "id": "E",
+          "text": "Todo documento digital é eletrônico, mas um documento eletrônico pode ser analógico."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Documento eletrônico demanda equipamento, mas pode empregar sinal analógico. Digital caracteriza codificação em bits e interpretação por sistema computacional; sua condição arquivística depende da atividade e do contexto."
+    },
+    {
+      "id": "per-u092-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na microfilmagem de uma série arquivística, a equipe usa captação eletrônica antes de gravar as imagens reduzidas em película fotográfica. O produto final é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um documento obrigatoriamente nato-digital por causa da captação eletrônica."
+        },
+        {
+          "id": "B",
+          "text": "um microfilme, pois o resultado é reprodução em filme, nos termos do Decreto nº 1.799/1996."
+        },
+        {
+          "id": "C",
+          "text": "um arquivo digital sujeito exclusivamente ao Decreto nº 10.278/2020."
+        },
+        {
+          "id": "D",
+          "text": "uma impressão em papel certificada automaticamente."
+        },
+        {
+          "id": "E",
+          "text": "um repositório de preservação digital, mesmo sem sistema arquivístico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 3º do Decreto nº 1.799/1996 admite meios fotográficos ou eletrônicos no processo que resulta em filme. A técnica empregada na captação não muda a natureza física do microfilme."
+    },
+    {
+      "id": "per-u092-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "De acordo com o art. 5º do Decreto nº 1.799/1996, qual arranjo é compatível com a guarda dos filmes após a microfilmagem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Produzir apenas filme original e manter um segundo exemplar somente se houver dinheiro disponível."
+        },
+        {
+          "id": "B",
+          "text": "Produzir filme original e cópia, guardando ambos obrigatoriamente na mesma caixa."
+        },
+        {
+          "id": "C",
+          "text": "Usar filme atualizável em lugar da cópia de segurança."
+        },
+        {
+          "id": "D",
+          "text": "Extrair filme-cópia obrigatório e guardar o filme original em local diferente da cópia."
+        },
+        {
+          "id": "E",
+          "text": "Destruir o filme original após transferir as imagens a computador."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O decreto exige filme-cópia de segurança, proíbe filmes atualizáveis e manda guardar original em local diferente do filme-cópia, reduzindo riscos comuns."
+    },
+    {
+      "id": "per-u092-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um edital de contratação exige conformidade estrita ao art. 5º do Decreto nº 1.799/1996 para o filme original de microfilmagem. Qual mínimo técnico deve constar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Definição mínima de 180 linhas por milímetro, sem prejuízo da fidelidade e legibilidade."
+        },
+        {
+          "id": "B",
+          "text": "Resolução mínima de 300 pontos por polegada, obrigatoriamente em arquivo PDF/A."
+        },
+        {
+          "id": "C",
+          "text": "Compressão com perda para reduzir o volume da imagem."
+        },
+        {
+          "id": "D",
+          "text": "Redução fixa idêntica para todos os documentos, independentemente do tamanho."
+        },
+        {
+          "id": "E",
+          "text": "Digitalização em formato de imagem sem cópia em filme."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º prevê definição mínima de 180 linhas/mm no filme original. O art. 6º admite diferentes graus de redução se garantidas legibilidade e qualidade. 300 dpi/PDF/A refere-se a hipótese específica do decreto de digitalização, não ao filme original."
+    },
+    {
+      "id": "per-u092-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao conferir um rolo já microfilmado, o servidor encontra imagem ilegível de um documento. Qual solução se ajusta ao Decreto nº 1.799/1996?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recortar o trecho ilegível do original e colar a nova imagem no mesmo espaço sem registrar a mudança."
+        },
+        {
+          "id": "B",
+          "text": "Excluir o documento da série sem anotação, pois a falha decorreu do equipamento."
+        },
+        {
+          "id": "C",
+          "text": "Modificar eletronicamente a numeração do filme original e dispensar referência."
+        },
+        {
+          "id": "D",
+          "text": "Dar a imagem ilegível como válida quando houver texto legível em outra folha."
+        },
+        {
+          "id": "E",
+          "text": "Realizar a complementação com imagem de observação e indexação remissiva; repetir a série se a complementação não atingir qualidade adequada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 9º disciplina a reprodução posterior de omissões e imagens ilegíveis, sem corte ou inserção no filme original, com imagem de observação e índice remissivo. Se insuficiente, a série deve ser repetida."
+    },
+    {
+      "id": "per-u092-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O órgão microfilmou uma série pública classificada e avaliada como de guarda permanente. A medida correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar os papéis assim que existir filme-cópia."
+        },
+        {
+          "id": "B",
+          "text": "descartar os documentos porque terão menor volume no depósito."
+        },
+        {
+          "id": "C",
+          "text": "preservar os originais permanentes, usando o microfilme para reprodução e consulta sem autorização para destruí-los."
+        },
+        {
+          "id": "D",
+          "text": "preservar apenas as folhas assinadas, eliminando as demais por serem anexos."
+        },
+        {
+          "id": "E",
+          "text": "transferir a decisão de eliminação exclusivamente à empresa que filmou."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 13 do Decreto nº 1.799/1996 impede eliminar documentos públicos permanentes após microfilmagem. A Lei nº 5.433/1968 protege documentos históricos. Reprodução e destinação são decisões distintas."
+    },
+    {
+      "id": "per-u092-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um setor pretende eliminar documentos públicos de guarda temporária após microfilmá-los. Qual condição é necessária, mas não substitui as demais exigências?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bastar a declaração verbal de que todas as páginas estão legíveis."
+        },
+        {
+          "id": "B",
+          "text": "Ser o filme menor que o volume dos documentos originais."
+        },
+        {
+          "id": "C",
+          "text": "Ter havido pagamento à empresa filmadora."
+        },
+        {
+          "id": "D",
+          "text": "Concluir a captação, independentemente de qualquer avaliação."
+        },
+        {
+          "id": "E",
+          "text": "Haver previsão na tabela de temporalidade aprovada e cumprir o procedimento de eliminação e a legislação arquivística."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 12, parágrafo único, exige, para documentos públicos, previsão na tabela aprovada e respeito à Lei nº 8.159/1991. Revisão, filme-cópia e termo também integram o procedimento regulado."
+    },
+    {
+      "id": "per-u092-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um processo ainda está em tramitação, e a administração quer microfilmá-lo para reduzir consultas às folhas. Sobre eventual eliminação do papel, o Decreto nº 1.799/1996 determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a reprodução gera eliminação obrigatória imediata."
+        },
+        {
+          "id": "B",
+          "text": "a fase de tramitação dispensa qualquer destinação final."
+        },
+        {
+          "id": "C",
+          "text": "o documento em tramitação não pode ser eliminado até a definição de sua destinação final."
+        },
+        {
+          "id": "D",
+          "text": "a empresa filmadora pode eliminar o papel em lugar da instituição sem outros requisitos."
+        },
+        {
+          "id": "E",
+          "text": "o prazo de guarda passa a ser automaticamente de um ano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 11 admite microfilmagem de documentos em tramitação ou estudo a critério competente, mas veda a eliminação antes da definição de destinação final. Prazos não são inventados pelo procedimento."
+    },
+    {
+      "id": "per-u092-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade pretende invocar o Decreto nº 10.278/2020 para equiparar digitalizações de vários materiais. Qual conjunto contém apenas espécies explicitamente EXCLUÍDAS do âmbito desse decreto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Textos impressos sem ilustração, plantas em papel e relatórios manuscritos."
+        },
+        {
+          "id": "B",
+          "text": "Documentos de identificação, em microfilme e nato-digitais."
+        },
+        {
+          "id": "C",
+          "text": "Requerimentos físicos comuns, cópias de contratos em papel e cartas em papel."
+        },
+        {
+          "id": "D",
+          "text": "Registros em papel produzidos por órgão público e digitalizados para comprovação perante outro."
+        },
+        {
+          "id": "E",
+          "text": "Textos impressos coloridos e correspondência física comum."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º, parágrafo único, exclui nato-digitais, microfilmes, documentos de identificação e outras categorias indicadas. A exclusão não significa ausência de toda regulamentação, mas inaplicabilidade deste regime específico."
+    },
+    {
+      "id": "per-u092-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão público digitaliza documentos físicos para produzir representante digital com os efeitos jurídicos do art. 5º do Decreto nº 10.278/2020. Qual conjunto de requisitos é exigido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente imagem legível e nome do arquivo contendo a data."
+        },
+        {
+          "id": "B",
+          "text": "Arquivo em qualquer formato e assinatura de servidor em papel."
+        },
+        {
+          "id": "C",
+          "text": "Reconhecimento óptico de caracteres e envio automático por e-mail."
+        },
+        {
+          "id": "D",
+          "text": "Assinatura digital no padrão ICP-Brasil, padrões técnicos mínimos do Anexo I e metadados mínimos do Anexo II."
+        },
+        {
+          "id": "E",
+          "text": "Armazenamento exclusivo em serviço de nuvem, independentemente de metadados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 5º exige cumulativamente certificação digital ICP-Brasil, requisitos técnicos do Anexo I e metadados do Anexo II. Legibilidade sozinha, nuvem ou mera busca textual não substituem as condições."
+    },
+    {
+      "id": "per-u092-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos padrões técnicos do Anexo I do Decreto nº 10.278/2020, o texto impresso em preto e branco, sem ilustrações, tem como referência mínima",
+      "options": [
+        {
+          "id": "A",
+          "text": "300 pontos por polegada, monocromático e formato PDF/A."
+        },
+        {
+          "id": "B",
+          "text": "180 linhas por milímetro em filme original de microfilmagem."
+        },
+        {
+          "id": "C",
+          "text": "600 pontos por polegada em qualquer modalidade e formato de áudio."
+        },
+        {
+          "id": "D",
+          "text": "captura em vídeo com compressão obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "apenas uma transcrição digitada sem imagem do documento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Anexo I associa à categoria específica de texto impresso preto e branco sem ilustrações 300 dpi, monocromático e PDF/A. Mapas, fotografias e outras categorias possuem padrões próprios."
+    },
+    {
+      "id": "per-u092-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois particulares digitalizam um instrumento físico para comprovação entre si, mas não pactuaram previamente os meios de comprovar autoria e integridade. Pelo art. 6º do Decreto nº 10.278/2020, aplica-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "o regime do art. 5º, na falta do acordo prévio referido para relações entre particulares."
+        },
+        {
+          "id": "B",
+          "text": "a regra de que basta uma foto sem qualquer condição de autoria e integridade."
+        },
+        {
+          "id": "C",
+          "text": "a exigência de criar filme-cópia em local diferente do filme original."
+        },
+        {
+          "id": "D",
+          "text": "a regra de que todo documento privado é inapto à digitalização."
+        },
+        {
+          "id": "E",
+          "text": "o descarte do original físico antes de qualquer conferência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 6º admite, entre particulares, meios acordados ou aceitos; seu parágrafo único manda aplicar o art. 5º quando não houve acordo prévio. Não se transfere para isso o regime de microfilmagem."
+    },
+    {
+      "id": "per-u092-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe digitalizou integralmente um conjunto público com valor histórico permanente e obteve arquivos com assinatura e metadados. Qual conclusão decorre da legislação e do regime arquivístico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os originais devem ser imediatamente eliminados, pois as imagens são perfeitas."
+        },
+        {
+          "id": "B",
+          "text": "A digitalização muda a destinação permanente para temporária."
+        },
+        {
+          "id": "C",
+          "text": "A assinatura da digitalização autoriza destruir qualquer papel histórico."
+        },
+        {
+          "id": "D",
+          "text": "Os documentos físicos só precisam ser guardados até o primeiro acesso ao sistema."
+        },
+        {
+          "id": "E",
+          "text": "O original de valor histórico/permanente continua protegido contra eliminação; equiparação digital não dispensa o regime de destinação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Lei nº 12.682/2012, Decreto nº 10.278/2020 e Lei nº 8.159/1991 preservam a salvaguarda histórica e a gestão documental competente. Assinatura e metadados não substituem avaliação arquivística."
+    },
+    {
+      "id": "per-u092-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um produto oferece pesquisa textual, armazenamento de imagens e compartilhamento, mas não implementa classificação por função, tabela de temporalidade nem destinação. Qual avaliação técnica é a mais precisa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O produto necessariamente é um sistema completo de gestão arquivística porque pesquisa textos."
+        },
+        {
+          "id": "B",
+          "text": "A capacidade de escanear documentos substitui a classificação funcional."
+        },
+        {
+          "id": "C",
+          "text": "As funções descritas são úteis ao gerenciamento eletrônico, mas não demonstram, isoladamente, a gestão arquivística de todo o ciclo de vida."
+        },
+        {
+          "id": "D",
+          "text": "Se houver cópia de segurança, todo controle de temporalidade torna-se dispensável."
+        },
+        {
+          "id": "E",
+          "text": "A ausência de classificação é irrelevante porque a legislação só exige suporte eletrônico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "GED pode gerenciar imagens e pesquisa. Um sistema informatizado de gestão arquivística precisa contemplar operações como captura, classificação, avaliação, destinação, segurança e preservação, inclusive em ambiente híbrido."
+    },
+    {
+      "id": "per-u092-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma instituição usa um sistema para captura, classificação e destinação dos registros digitais, mas busca preservação confiável de longo prazo além do ciclo operacional. Qual combinação melhor descreve as funções?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O e-ARQ Brasil é um aplicativo que substitui todo repositório sem decisões da instituição."
+        },
+        {
+          "id": "B",
+          "text": "Um sistema informatizado de gestão arquivística atende às operações de gestão; um repositório arquivístico digital confiável complementa a preservação prolongada."
+        },
+        {
+          "id": "C",
+          "text": "Um repositório de preservação substitui necessariamente todo protocolo e toda avaliação documental."
+        },
+        {
+          "id": "D",
+          "text": "Uma pasta sincronizada de arquivos, sem metadados, é por definição repositório arquivístico confiável."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer backup comprova a identidade de todos os produtores e elimina a necessidade de rastreabilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modelo e-ARQ Brasil orienta SIGAD, voltado à gestão arquivística, enquanto RDC-Arq trata preservação confiável ao longo do tempo. Há complementaridade, não sinonímia nem garantia automática por nome."
+    },
+    {
+      "id": "per-u092-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após migrar documentos digitais para outro sistema, a equipe mantém apenas arquivos abertos para leitura, apagando metadados de produção, classe e histórico de ações. O defeito principal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a impossibilidade absoluta de copiar qualquer arquivo digital entre sistemas."
+        },
+        {
+          "id": "B",
+          "text": "ter usado tecnologia diferente para recuperar o conteúdo."
+        },
+        {
+          "id": "C",
+          "text": "não ter escolhido a mesma pasta do sistema antigo para cada documento."
+        },
+        {
+          "id": "D",
+          "text": "a perda de contexto, relações e rastreabilidade que sustentam a gestão e a autenticidade arquivísticas."
+        },
+        {
+          "id": "E",
+          "text": "a existência de arquivo de imagem entre os documentos migrados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Preservação digital não é apenas legibilidade momentânea do arquivo: contexto de produção, classe, metadados e histórico precisam ser mantidos segundo a função documental. Migração sem esse controle pode comprometer confiança e uso probatório."
+    }
+  ]
+}
