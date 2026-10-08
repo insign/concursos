@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u094-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma carteira de identidade regularmente emitida no Maranhão é apresentada para identificação no Pará. Segundo o artigo 1º da Lei nº 7.116/1983, ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "tem validade restrita à unidade expedidora."
+        },
+        {
+          "id": "B",
+          "text": "possui fé pública e validade em todo o território nacional."
+        },
+        {
+          "id": "C",
+          "text": "vale no Pará apenas se for autenticada por tabelião."
+        },
+        {
+          "id": "D",
+          "text": "perde eficácia quando o titular muda de residência."
+        },
+        {
+          "id": "E",
+          "text": "exige número geral novo por estar em outra unidade federativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei assegura fé pública e validade nacional independentemente do ente que expediu a carteira. Isso não dispensa verificações legítimas de autenticidade ou prazo aplicável à via."
+    },
+    {
+      "id": "per-u094-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão afirma que o Decreto nº 89.250/1983 foi revogado em 2018. Isso permite concluir corretamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei nº 7.116/1983 também foi revogada em 2018."
+        },
+        {
+          "id": "B",
+          "text": "a carteira emitida por estado deixou de valer fora dele."
+        },
+        {
+          "id": "C",
+          "text": "o decreto histórico não é o regulamento vigente da emissão em julho de 2026."
+        },
+        {
+          "id": "D",
+          "text": "todos os documentos expedidos na década de 1980 perderam validade nacional imediatamente."
+        },
+        {
+          "id": "E",
+          "text": "a edição de 2022 restaurou automaticamente o decreto de 1983."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Decreto nº 9.278/2018 revogou o regulamento de 1983, mas não a lei. O Decreto nº 10.977/2022 sucedeu o de 2018, sem repristinar automaticamente o de 1983."
+    },
+    {
+      "id": "per-u094-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da primeira expedição da carteira de identidade, a Lei nº 7.116/1983, com alteração de 2012, estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é gratuita."
+        },
+        {
+          "id": "B",
+          "text": "é gratuita somente para servidores públicos."
+        },
+        {
+          "id": "C",
+          "text": "tem cobrança obrigatória para todos os requerentes."
+        },
+        {
+          "id": "D",
+          "text": "é gratuita apenas quando não houver inscrição no CPF."
+        },
+        {
+          "id": "E",
+          "text": "depende de decisão discricionária do órgão expedidor para ser gratuita."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 2º, § 3º, introduzido pela Lei nº 12.687/2012, assegura a gratuidade da primeira emissão. Não atribui, por isso, gratuidade irrestrita a qualquer segunda via."
+    },
+    {
+      "id": "per-u094-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um brasileiro naturalizado solicita a carteira de identidade. Pelo artigo 2º, § 2º, da Lei nº 7.116/1983, é exigido",
+      "options": [
+        {
+          "id": "A",
+          "text": "certificado de naturalização."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente título eleitoral estrangeiro."
+        },
+        {
+          "id": "C",
+          "text": "somente passaporte do país de origem."
+        },
+        {
+          "id": "D",
+          "text": "obrigatoriamente certificado do Estatuto da Igualdade português."
+        },
+        {
+          "id": "E",
+          "text": "autorização judicial de identificação criminal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei prevê certificado de naturalização para o brasileiro naturalizado. Igualdade de direitos do português é condição diferente; identificação criminal é regulada por outra legislação."
+    },
+    {
+      "id": "per-u094-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto ao que a carteira de identidade comprova, o artigo 6º da Lei nº 7.116/1983 dispõe que",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o nome do titular tem força probatória."
+        },
+        {
+          "id": "B",
+          "text": "dados nela incluídos exigem sempre nova apresentação das certidões originais."
+        },
+        {
+          "id": "C",
+          "text": "os dados inscritos são provados pelo documento, dispensando os documentos de origem para tal comprovação."
+        },
+        {
+          "id": "D",
+          "text": "ela substitui todos os atos de registro civil, independentemente de sua finalidade."
+        },
+        {
+          "id": "E",
+          "text": "seus dados são insuscetíveis de impugnação mesmo diante de fraude."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O documento faz prova dos dados nele incluídos e dispensa, para esse fim, documentos que os originaram ou foram nele mencionados. Não é autorização para fraude nem para substituir todo ato registral."
+    },
+    {
+      "id": "per-u094-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos novos documentos, após a alteração feita pela Lei nº 14.534/2023, o número de registro geral da carteira de identidade é",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente um número municipal autônomo."
+        },
+        {
+          "id": "B",
+          "text": "um número livre escolhido pelo requerente."
+        },
+        {
+          "id": "C",
+          "text": "sempre o mesmo registro estadual histórico, vedada mudança."
+        },
+        {
+          "id": "D",
+          "text": "o número de inscrição do titular no Cadastro de Pessoas Físicas."
+        },
+        {
+          "id": "E",
+          "text": "o número do cartão do Sistema Único de Saúde."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 3º, § 1º, exige utilizar o número de inscrição no CPF como registro geral na emissão de novos documentos. Não exige número geral independente por estado."
+    },
+    {
+      "id": "per-u094-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa ainda não possui inscrição no Cadastro de Pessoas Físicas e requer o novo documento de identidade. A Lei nº 7.116/1983, art. 3º, § 3º, determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pedido deve ser negado definitivamente."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa deve contratar um intermediário para criar registro estadual próprio."
+        },
+        {
+          "id": "C",
+          "text": "o órgão de identificação realize a inscrição no cadastro fiscal."
+        },
+        {
+          "id": "D",
+          "text": "a nova carteira seja emitida necessariamente sem registro geral."
+        },
+        {
+          "id": "E",
+          "text": "somente o Poder Judiciário pode promover a inscrição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na ausência de inscrição no CPF, o órgão de identificação providencia esse cadastro; a regra acompanha o uso do CPF como registro geral dos novos documentos."
+    },
+    {
+      "id": "per-u094-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O órgão emissor prepara uma nova carteira após a Lei nº 14.534/2023. Segundo o art. 3º, § 2º, da Lei nº 7.116/1983, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "pesquisar a base do CPF e disponibilizar à Receita Federal os dados cadastrais e biométricos previstos."
+        },
+        {
+          "id": "B",
+          "text": "criar número de identificação estadual desconectado da base do CPF."
+        },
+        {
+          "id": "C",
+          "text": "dispensar toda conferência de integridade das informações cadastrais."
+        },
+        {
+          "id": "D",
+          "text": "enviar automaticamente perfil genético forense a qualquer delegacia."
+        },
+        {
+          "id": "E",
+          "text": "recusar emitir carteiras para cidadãos inscritos em outro estado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alteração de 2023 fixou pesquisa de integridade na base do CPF e compartilhamento de dados cadastrais e biométricos do registro com a Receita Federal; não cria coleta genética penal geral."
+    },
+    {
+      "id": "per-u094-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A possibilidade de inclusão opcional de números de programas sociais, na Lei nº 7.116/1983, significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o titular pode optar por não ter número geral na carteira emitida no modelo de 2026."
+        },
+        {
+          "id": "B",
+          "text": "a regra de 2023 sobre CPF como registro geral pode ser ignorada."
+        },
+        {
+          "id": "C",
+          "text": "o nome do titular pode ser omitido por solicitação."
+        },
+        {
+          "id": "D",
+          "text": "os dados adicionais facultativos se distinguem do número CPF obrigatório nos documentos novos."
+        },
+        {
+          "id": "E",
+          "text": "a carteira pode conter somente as inscrições sociais, sem identificador do titular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 4º disciplina acréscimos a pedido; a alteração específica posterior do art. 3º exige CPF como registro geral das novas carteiras."
+    },
+    {
+      "id": "per-u094-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um português sem comprovação de condição especial invoca o artigo 5º da Lei nº 7.116/1983 para receber automaticamente carteira brasileira. A alegação",
+      "options": [
+        {
+          "id": "A",
+          "text": "está correta para qualquer pessoa de nacionalidade portuguesa."
+        },
+        {
+          "id": "B",
+          "text": "depende de ser beneficiário do Estatuto da Igualdade, conforme os pressupostos dessa condição."
+        },
+        {
+          "id": "C",
+          "text": "dispensa a identificação do requerente por simples nacionalidade."
+        },
+        {
+          "id": "D",
+          "text": "só se resolve com identificação criminal compulsória."
+        },
+        {
+          "id": "E",
+          "text": "é correta apenas se o documento for expedido fora do estado de residência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º refere-se ao português beneficiado pelo Estatuto da Igualdade, impondo referência à nacionalidade e à convenção, e não a toda pessoa portuguesa indistintamente."
+    },
+    {
+      "id": "per-u094-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito da segunda via da carteira de identidade, o artigo 7º da Lei nº 7.116/1983 prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "requerimento judicial obrigatório em todos os casos."
+        },
+        {
+          "id": "B",
+          "text": "apenas expedição mediante quatro testemunhas."
+        },
+        {
+          "id": "C",
+          "text": "nova certidão de nascimento emitida nas últimas 24 horas em qualquer situação."
+        },
+        {
+          "id": "D",
+          "text": "simples solicitação, sem exigências além das previstas no artigo 2º da própria lei."
+        },
+        {
+          "id": "E",
+          "text": "gratuidade obrigatória irrestrita de todas as segundas vias como regra do seu § 3º."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 7º permite segunda via por simples solicitação e veda exigência documental além da do art. 2º. O § 3º do art. 2º assegura explicitamente gratuidade da primeira emissão."
+    },
+    {
+      "id": "per-u094-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a Lei nº 7.116/1983, a identificação datiloscópica, fundamento da expedição no artigo 8º, utiliza",
+      "options": [
+        {
+          "id": "A",
+          "text": "reconhecimento exclusivo da voz."
+        },
+        {
+          "id": "B",
+          "text": "análise obrigatória do perfil genético."
+        },
+        {
+          "id": "C",
+          "text": "identificação por impressões digitais."
+        },
+        {
+          "id": "D",
+          "text": "perícia obrigatória de assinatura por um magistrado."
+        },
+        {
+          "id": "E",
+          "text": "apenas a fotografia, sem exame de impressões."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Datiloscopia é identificação por impressões digitais. Sua previsão civil na lei não se confunde com a coleta genética criminal em hipóteses legais excepcionais."
+    },
+    {
+      "id": "per-u094-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 7.116/1983 permite, em seu artigo 9º, que os documentos necessários à expedição previstos no artigo 2º sejam apresentados",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente no original, sem nenhuma possibilidade de cópia."
+        },
+        {
+          "id": "B",
+          "text": "por cópia regularmente autenticada."
+        },
+        {
+          "id": "C",
+          "text": "apenas mediante cópia simples, dispensada qualquer conferência."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente por mensagem informal sem documento."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente por escritura pública de identidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 9º aceita cópia regularmente autenticada. O decreto histórico fazia distinções adicionais sobre conferência com original, que não devem ser inseridas como literalidade do artigo 9º da lei."
+    },
+    {
+      "id": "per-u094-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão pede o tamanho e a cor do suporte da carteira segundo o revogado Decreto nº 89.250/1983, sem confundir com o padrão de 2026. A resposta adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "cartão de policarbonato de 85,6 × 53,98 mm com gravação a laser."
+        },
+        {
+          "id": "B",
+          "text": "modelo de 10,2 × 6,8 cm em papel de segurança, com tarja verde."
+        },
+        {
+          "id": "C",
+          "text": "formato exclusivamente digital, sem versão física."
+        },
+        {
+          "id": "D",
+          "text": "papel comum A4, sem elementos de segurança."
+        },
+        {
+          "id": "E",
+          "text": "formato único de passaporte com 32 páginas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 3º do decreto histórico adotava 10,2 × 6,8 cm e recursos físicos de segurança, entre eles tarja verde. O decreto está revogado e não define o padrão atual."
+    },
+    {
+      "id": "per-u094-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O revogado Decreto nº 89.250/1983 determinava, no art. 4º, § 2º, que o requerente apresentasse",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma fotografia de corpo inteiro sem certidão."
+        },
+        {
+          "id": "B",
+          "text": "duas fotografias 5 × 7 cm e título eleitoral."
+        },
+        {
+          "id": "C",
+          "text": "três fotografias recentes, 3 × 4 cm, de frente e sem retoque, além da certidão pertinente."
+        },
+        {
+          "id": "D",
+          "text": "somente fotografia digital enviada a um aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "três perfis genéticos forenses, sem fotografia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O dispositivo exigia três fotografias recentes de 3 × 4 cm, de frente e sem retoque. É exigência do decreto revogado, não regra geral do documento emitido em 2026."
+    },
+    {
+      "id": "per-u094-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Conforme o antigo Decreto nº 89.250/1983, uma cópia documental autenticada por pessoa diversa de tabelião exigia, para o art. 9º, que o requerente",
+      "options": [
+        {
+          "id": "A",
+          "text": "também apresentasse o original para conferência."
+        },
+        {
+          "id": "B",
+          "text": "sempre fosse detido para identificação criminal."
+        },
+        {
+          "id": "C",
+          "text": "pagasse taxa penal específica."
+        },
+        {
+          "id": "D",
+          "text": "substituísse a certidão por declaração verbal."
+        },
+        {
+          "id": "E",
+          "text": "omitisse o documento originário dos registros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 9º do decreto revogado exigia original para conferência se a autenticação não tivesse sido realizada por tabelião. Distingue-se do art. 9º da Lei nº 7.116/1983."
+    },
+    {
+      "id": "per-u094-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na regra histórica do Decreto nº 89.250/1983, a disciplina da segunda via, no art. 8º, remetia às exigências documentais",
+      "options": [
+        {
+          "id": "A",
+          "text": "dos artigos 4º, 5º e 6º do próprio decreto."
+        },
+        {
+          "id": "B",
+          "text": "do art. 50 da Constituição Federal."
+        },
+        {
+          "id": "C",
+          "text": "dos artigos 12 a 14 da Lei nº 5.553/1968."
+        },
+        {
+          "id": "D",
+          "text": "exclusivas dos artigos 15 e 16 do Decreto nº 10.977/2022."
+        },
+        {
+          "id": "E",
+          "text": "de qualquer ato estadual editado posteriormente sem limite."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A remissão expressa no art. 8º do decreto antigo era aos seus arts. 4º, 5º e 6º. O art. 7º da lei vigente remete, diferentemente, ao art. 2º da própria Lei nº 7.116/1983."
+    },
+    {
+      "id": "per-u094-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 89.721/1984 alterou a transição do modelo do Decreto nº 89.250/1983. O marco correto, segundo a redação alterada do art. 14, foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º de maio de 1984, sem possibilidade de continuidade de modelos anteriores."
+        },
+        {
+          "id": "B",
+          "text": "1º de janeiro de 2026, para emitir todas as primeiras vias."
+        },
+        {
+          "id": "C",
+          "text": "1º de julho de 1984, preservando a validade nacional das carteiras emitidas nos modelos antigos até 30 de junho de 1984."
+        },
+        {
+          "id": "D",
+          "text": "1º de março de 2032, quando entrou em vigor a lei de 1983."
+        },
+        {
+          "id": "E",
+          "text": "11 de janeiro de 2024, marco original da regulamentação de 1983."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Decreto nº 89.721/1984 mudou o art. 14 para 1º/07/1984 e seu parágrafo único para as carteiras emitidas até 30/06/1984. Não reutilize as datas superadas de maio e abril."
+    },
+    {
+      "id": "per-u094-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 17/07/2026, qual decreto regulamentava o padrão da carteira nacional de identidade previsto na Lei nº 7.116/1983?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decreto nº 89.250/1983, integralmente restaurado em 2022."
+        },
+        {
+          "id": "B",
+          "text": "Decreto nº 9.278/2018, que não foi revogado."
+        },
+        {
+          "id": "C",
+          "text": "Decreto nº 10.977/2022, com alterações pertinentes."
+        },
+        {
+          "id": "D",
+          "text": "Decreto nº 89.721/1984, sem alteração posterior."
+        },
+        {
+          "id": "E",
+          "text": "Nenhum, pois a Lei nº 7.116/1983 foi revogada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Decreto nº 10.977/2022 revogou o Decreto nº 9.278/2018, que havia revogado o de 1983. A Lei nº 7.116/1983 continuou vigente."
+    },
+    {
+      "id": "per-u094-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pelo artigo 4º do Decreto nº 10.977/2022, uma certidão de nascimento válida foi apresentada sem indícios de irregularidade. É correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o órgão deve exigir de todos certidão expedida nos seis meses anteriores."
+        },
+        {
+          "id": "B",
+          "text": "a exigência de certidão recente ou outro documento pressupõe dúvida fundamentada sobre autenticidade, na hipótese regulamentar."
+        },
+        {
+          "id": "C",
+          "text": "a certidão física é sempre proibida."
+        },
+        {
+          "id": "D",
+          "text": "a certidão digital não pode ser apresentada."
+        },
+        {
+          "id": "E",
+          "text": "a emissão exige obrigatoriamente autorização do Ministério Público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O decreto admite certidão física ou digital e prevê documentos adicionais na situação de dúvida fundamentada. Não converte a exceção em exigência geral."
+    },
+    {
+      "id": "per-u094-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma criança de 11 anos recebe carteira no padrão do Decreto nº 10.977/2022. Segundo o artigo 15, o prazo normal da via será",
+      "options": [
+        {
+          "id": "A",
+          "text": "cinco anos, pois a faixa de zero a onze anos considera a idade na expedição."
+        },
+        {
+          "id": "B",
+          "text": "dez anos, porque completará doze no ano seguinte."
+        },
+        {
+          "id": "C",
+          "text": "indeterminado, por ser menor de idade."
+        },
+        {
+          "id": "D",
+          "text": "vinte anos, independentemente da idade."
+        },
+        {
+          "id": "E",
+          "text": "exatamente até o aniversário de doze anos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 15 estabelece prazo de cinco anos para quem tem entre zero e onze anos na data da expedição; aniversário posterior não muda a faixa que definiu a validade."
+    },
+    {
+      "id": "per-u094-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao emitir nova carteira para pessoa de 60 anos completos, o Decreto nº 10.977/2022, artigo 15, prevê prazo",
+      "options": [
+        {
+          "id": "A",
+          "text": "de cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "de dez anos."
+        },
+        {
+          "id": "C",
+          "text": "de um ano renovável."
+        },
+        {
+          "id": "D",
+          "text": "indeterminado, sujeito às condições legais de autenticidade."
+        },
+        {
+          "id": "E",
+          "text": "indeterminado somente depois dos 70 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O prazo é indeterminado a partir dos 60 anos na emissão. O artigo 16 ainda prevê hipóteses de questionamento de validade que não se confundem com vencimento por prazo."
+    },
+    {
+      "id": "per-u094-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pessoa tinha 59 anos em 1º/03/2022 e possui carteira do padrão anterior ao Decreto nº 10.977/2022. Completou 60 anos em 2023. Quanto à regra especial de transição do artigo 25, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "passou automaticamente a ter prazo indeterminado em 2023 por ter feito aniversário."
+        },
+        {
+          "id": "B",
+          "text": "a exceção de prazo indeterminado exige 60 anos ou mais na entrada em vigor do decreto, e não em data posterior."
+        },
+        {
+          "id": "C",
+          "text": "a carteira antiga era inválida em todos os estados desde 2022."
+        },
+        {
+          "id": "D",
+          "text": "a data da entrada em vigor para essa regra é 11/01/2024."
+        },
+        {
+          "id": "E",
+          "text": "o artigo 25 dispõe sobre prazo de cinco anos para todas as carteiras antigas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A condição excepcional de validade indeterminada do art. 25, parágrafo único, é idade de 60 anos ou mais em 1º/03/2022. Para quem não se enquadra, o caput prevê dez anos contados dessa data."
+    },
+    {
+      "id": "per-u094-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor nega a validade de carteira a pessoa enferma exclusivamente porque a assinatura mudou significativamente, sem indício de adulteração. Pelo artigo 16 do Decreto nº 10.977/2022, a decisão",
+      "options": [
+        {
+          "id": "A",
+          "text": "é imposta pelo inciso I a todas as pessoas."
+        },
+        {
+          "id": "B",
+          "text": "deve ser mantida, porque proteção especial só se aplica a pessoas com 80 anos."
+        },
+        {
+          "id": "C",
+          "text": "contraria a proteção do parágrafo único, que impede negativa fundamentada somente nos incisos III e IV para enfermos ou pessoas a partir de 60 anos."
+        },
+        {
+          "id": "D",
+          "text": "decorre da revogação da Lei nº 7.116/1983."
+        },
+        {
+          "id": "E",
+          "text": "é válida apenas porque a carteira foi emitida em outro estado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parágrafo único impede negar validade por alteração de características físicas ou da assinatura a enfermos ou titulares de 60 anos ou mais. Não afasta outros motivos, como dados adulterados ou dano físico impeditivo de verificar autenticidade."
+    },
+    {
+      "id": "per-u094-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A obrigatoriedade de os órgãos expedidores adotarem o padrão do Decreto nº 10.977/2022 foi estabelecida, após alteração de 2023 ao art. 24, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "1º de julho de 1984, prazo pessoal de todas as carteiras."
+        },
+        {
+          "id": "B",
+          "text": "11 de janeiro de 2024, marco de adoção institucional, distinto do prazo de validade das vias."
+        },
+        {
+          "id": "C",
+          "text": "1º de março de 2032, quando o decreto entrou em vigor."
+        },
+        {
+          "id": "D",
+          "text": "17 de julho de 2026, que é data de revogação da lei."
+        },
+        {
+          "id": "E",
+          "text": "trinta anos após a emissão da primeira carteira em cada estado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 24, na redação do Decreto nº 11.797/2023, fixou 11/01/2024 para adoção pelos expedidores. O prazo do documento depende das regras dos arts. 15 e 25."
+    }
+  ]
+}

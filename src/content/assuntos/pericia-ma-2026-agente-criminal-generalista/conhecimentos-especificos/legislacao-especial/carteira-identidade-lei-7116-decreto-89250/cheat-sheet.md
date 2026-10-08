@@ -1,0 +1,11 @@
+# Carteira de identidade — revisão rápida
+
+**Status no corte 17/07/2026:** Lei nº 7.116/1983 vigente; Decreto nº 89.250/1983 revogado em 2018 pelo Decreto nº 9.278/2018; este, revogado pelo Decreto nº 10.977/2022. Revogar um decreto não revoga a lei que ele regulamentava.
+
+**Lei nº 7.116/1983:** art. 1º, validade nacional e fé pública; art. 2º, certidão de nascimento/casamento, naturalizado com certificado, primeira emissão gratuita (§ 3º); art. 3º, dados de identificação, fotografia, digitais e número do <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> como registro geral nas carteiras novas (Lei nº 14.534/2023). Arts. 4º–5º: informações adicionais a pedido e português beneficiado pelo Estatuto da Igualdade. Art. 6º: carteira prova dados inscritos; art. 7º: segunda via mediante solicitação; art. 8º: datiloscopia; art. 9º: cópia autenticada; art. 10: regulamento; art. 11: validade nacional das antigas, sujeita às transições posteriores.
+
+**Decreto nº 89.250/1983 — conteúdo histórico, sem vigência:** art. 1º, dados; art. 2º, campos adicionais; art. 3º, modelo **10,2 × 6,8 cm**, papel verde e segurança; art. 4º, certidão e **três fotos**; arts. 5º–7º, naturalizado, português em igualdade e atualizações; art. 8º, segunda via; art. 9º, original/cópia autenticada; arts. 10–11, datiloscopia (impressões digitais) e valor probatório; arts. 12–13, perda da igualdade e modelo; art. 14, padrão obrigatório **1º/07/1984** após Decreto nº 89.721/1984; arts. 15–16, vigência e disposições contrárias.
+
+**Decreto nº 10.977/2022 — atual em 17/07/2026:** <abbr title="Cadastro de Pessoas Físicas">CPF</abbr> único; certidão física ou digital (dúvida fundamentada permite documento adicional nas hipóteses do art. 4º); carteira física e digital. Prazo por idade **na emissão**: 0–11 anos, **5 anos**; 12–59, **10 anos**; 60+, **indeterminado**. Para **modelos anteriores**, art. 25: 10 anos a partir de **1º/03/2022**, ressalvado quem tinha 60+ nessa data, com validade indeterminada. Adoção obrigatória pelos emissores desde **11/01/2024** (art. 24 alterado em 2023).
+
+**Pegadinhas:** validade *nacional* ≠ prazo; primeira via gratuita ≠ todas as vias gratuitas; informação opcional ≠ registro geral opcional; três fotos históricas ≠ exigência atual; lei vigente ≠ decreto antigo vigente. Lei nº 5.553/1968 é assunto PER-U095, não regula emissão.
