@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u087-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade pericial arquiva, pelo nome de um mesmo equipamento, a requisição de exame, o laudo e uma nota fiscal de compra. Para classificá-los arquivisticamente, a primeira análise deve recair sobre",
+      "options": [
+        {
+          "id": "A",
+          "text": "o material do suporte físico ou digital."
+        },
+        {
+          "id": "B",
+          "text": "as funções e atividades que justificaram produzir ou receber cada documento."
+        },
+        {
+          "id": "C",
+          "text": "a quantidade de páginas de cada peça."
+        },
+        {
+          "id": "D",
+          "text": "a ordem alfabética do nome do equipamento."
+        },
+        {
+          "id": "E",
+          "text": "a data mais recente de todos os documentos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Requisição e laudo ligam-se à atividade pericial; a nota fiscal documenta aquisição. A coincidência temática não elimina funções distintas."
+    },
+    {
+      "id": "per-u087-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor atribuiu número de protocolo a um ofício e registrou sua chegada. Para comprovar a classificação arquivística, ainda é necessário",
+      "options": [
+        {
+          "id": "A",
+          "text": "organizar todos os ofícios pela data de chegada, sem consultar o instrumento."
+        },
+        {
+          "id": "B",
+          "text": "transformar automaticamente o ofício em processo permanente."
+        },
+        {
+          "id": "C",
+          "text": "apagar o número de entrada e substituí-lo por um nome de pasta."
+        },
+        {
+          "id": "D",
+          "text": "identificar apenas quem assinou o documento."
+        },
+        {
+          "id": "E",
+          "text": "enquadrar o documento na classe pertinente do plano, de acordo com seu contexto."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Número de entrada identifica e controla o recebimento. Classificação depende de relacionar o documento à função/atividade e à classe do instrumento."
+    },
+    {
+      "id": "per-u087-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe mantém requisições corretamente agrupadas por atividade, mas decide ordenar as peças pela sequência numérica dos processos. Essa segunda decisão é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliação documental."
+        },
+        {
+          "id": "B",
+          "text": "definição de proveniência."
+        },
+        {
+          "id": "C",
+          "text": "ordenação, e não criação de uma nova classe funcional."
+        },
+        {
+          "id": "D",
+          "text": "eliminação por temporalidade."
+        },
+        {
+          "id": "E",
+          "text": "alteração do produtor dos documentos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A classe já foi estabelecida conforme a atividade; a sequência numérica organiza documentos dentro do conjunto. Ordenação e classificação têm perguntas diferentes."
+    },
+    {
+      "id": "per-u087-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Dois órgãos elaboram seus próprios registros sobre um mesmo fato e um arquivista pretende fundir tudo numa única classe temática, apagando os vínculos de origem. O problema é",
+      "options": [
+        {
+          "id": "A",
+          "text": "desconsiderar a proveniência e a organicidade dos arquivos."
+        },
+        {
+          "id": "B",
+          "text": "ter mantido a identificação dos respectivos produtores."
+        },
+        {
+          "id": "C",
+          "text": "ter usado um sistema de pesquisa comum para localizar os registros."
+        },
+        {
+          "id": "D",
+          "text": "ter empregado um instrumento de classificação em cada órgão."
+        },
+        {
+          "id": "E",
+          "text": "ter documentado as atividades responsáveis pelos registros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Apagar a origem de registros de produtores distintos descaracteriza os fundos e suas relações. Pesquisar documentos de diferentes órgãos pelo tema é possível sem fundi-los."
+    },
+    {
+      "id": "per-u087-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Resolução nº 1/1995 do Conselho Nacional de Arquivos menciona a natureza dos assuntos resultantes das atividades e funções. A interpretação arquivística adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "classificar unicamente pela palavra mais repetida em cada documento."
+        },
+        {
+          "id": "B",
+          "text": "formar uma única coleção universal para cada tema de interesse público."
+        },
+        {
+          "id": "C",
+          "text": "ignorar o conteúdo dos documentos ao identificar a atividade."
+        },
+        {
+          "id": "D",
+          "text": "considerar o assunto no contexto da função e da atividade, sem desfazer a proveniência."
+        },
+        {
+          "id": "E",
+          "text": "substituir todos os planos de classificação por índices alfabéticos de pessoas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O assunto ajuda a reconhecer a atividade documentada; não é um critério avulso para misturar fundos e dispensar instrumentos de classificação."
+    },
+    {
+      "id": "per-u087-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um plano de classificação usa os códigos inventados P.1 e P.2 para duas atividades. Qual conclusão respeita o papel desses códigos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "P.1 corresponde obrigatoriamente a requisições em qualquer órgão brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "A notação identifica classes naquele instrumento; o significado depende do plano adotado."
+        },
+        {
+          "id": "C",
+          "text": "Códigos semelhantes provam que os documentos têm o mesmo produtor."
+        },
+        {
+          "id": "D",
+          "text": "O número atribuído dispensa a análise da função."
+        },
+        {
+          "id": "E",
+          "text": "A notação fixa automaticamente a destinação de cada documento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A notação serve para identificar classes num instrumento específico; não é universal nem substitui análise contextual ou avaliação documental."
+    },
+    {
+      "id": "per-u087-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma instituição organiza classes também por suas unidades administrativas. Uma alteração no organograma ocorre. Qual avaliação é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A classificação organizacional pode existir, mas é preciso preservar e compreender as relações funcionais afetadas pela reorganização."
+        },
+        {
+          "id": "B",
+          "text": "Toda classificação que considere setores é proibida por definição."
+        },
+        {
+          "id": "C",
+          "text": "Mudar o nome do setor exige eliminar documentos anteriores."
+        },
+        {
+          "id": "D",
+          "text": "As classes devem acompanhar o prédio em que os documentos estão guardados."
+        },
+        {
+          "id": "E",
+          "text": "A classificação deve abandonar as atividades e adotar somente palavras-chave."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Instrumentos podem refletir a estrutura organizacional ou as funções. Mudanças de organograma exigem cuidado para preservar a relação histórica entre documentos, produtor e atividade."
+    },
+    {
+      "id": "per-u087-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um único ofício faz referência à aquisição de material e ao atendimento de exame. Qual procedimento evita uma classificação mecânica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separar fisicamente o ofício em dois papéis sem registrar a origem."
+        },
+        {
+          "id": "B",
+          "text": "Criar uma classe com o nome da primeira palavra do texto."
+        },
+        {
+          "id": "C",
+          "text": "Classificar necessariamente pela atividade mencionada no último parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "Escolher sempre a classe do departamento que possui a impressora."
+        },
+        {
+          "id": "E",
+          "text": "Examinar finalidade, processo e orientações do plano; usar referências de recuperação quando cabíveis."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Documentos que tocam mais de um assunto exigem análise de contexto, finalidade e vínculos; referências cruzadas podem ajudar a buscar sem inventar registros."
+    },
+    {
+      "id": "per-u087-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um instrumento de classificação, uma classe representa normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "o número de protocolo de uma única peça."
+        },
+        {
+          "id": "B",
+          "text": "um local físico de guarda."
+        },
+        {
+          "id": "C",
+          "text": "uma categoria de agrupamento relacionada a funções/atividades, com lugar na hierarquia do plano."
+        },
+        {
+          "id": "D",
+          "text": "uma autorização automática de divulgação irrestrita."
+        },
+        {
+          "id": "E",
+          "text": "um prazo de retenção estabelecido apenas pela antiguidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Classe é categoria intelectual do plano, eventualmente com notação. Não equivale a local, registro, regra de acesso ou prazo de guarda."
+    },
+    {
+      "id": "per-u087-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas peças são chamadas de 'relatório', mas uma documenta inspeção pericial e outra, uma compra. Para decidir suas classes, importa principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "o mesmo formato de papel."
+        },
+        {
+          "id": "B",
+          "text": "a fonte tipográfica usada."
+        },
+        {
+          "id": "C",
+          "text": "a ordem de assinatura."
+        },
+        {
+          "id": "D",
+          "text": "a atividade produtora ou receptora e o vínculo de cada peça com o conjunto documental."
+        },
+        {
+          "id": "E",
+          "text": "a quantidade de palavras no título."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A designação 'relatório' não basta para identificar a classe: documentos de mesma forma podem resultar de funções e atividades diferentes."
+    },
+    {
+      "id": "per-u087-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um sistema digital mantém os documentos com classes vinculadas a processos, produtores e datas. A palavra 'classe' armazenada no sistema é exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "metadado arquivístico que auxilia a recuperação contextual."
+        },
+        {
+          "id": "B",
+          "text": "prova automática da veracidade de todo o conteúdo."
+        },
+        {
+          "id": "C",
+          "text": "autorização de eliminação de todos os registros digitais."
+        },
+        {
+          "id": "D",
+          "text": "substituto necessário do plano de classificação."
+        },
+        {
+          "id": "E",
+          "text": "garantia de acesso público sem restrições."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A informação sobre a classe é metadado vinculado ao contexto do registro. Ela não certifica veracidade, eliminações ou regras irrestritas de acesso."
+    },
+    {
+      "id": "per-u087-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento foi corretamente enquadrado na atividade administrativa correspondente, mas contém informações cuja consulta é restrita. Essa situação indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhuma classe pode ser atribuída até que a restrição termine."
+        },
+        {
+          "id": "B",
+          "text": "a classe funcional deve ser trocada por 'sigiloso'."
+        },
+        {
+          "id": "C",
+          "text": "classificação arquivística e grau de sigilo são necessariamente o mesmo ato."
+        },
+        {
+          "id": "D",
+          "text": "a classificação da função e as regras de acesso são dimensões distintas."
+        },
+        {
+          "id": "E",
+          "text": "documentos com restrição deixam de ser arquivísticos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A classificação arquivística descreve contexto funcional; regras de acesso controlam quem pode consultar. Ambas podem coexistir sem alterar a natureza documental."
+    },
+    {
+      "id": "per-u087-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de classificar uma série, um servidor determina sua eliminação imediata por achar a classe pouco relevante. Qual é a falha?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar o plano para recuperar o conjunto."
+        },
+        {
+          "id": "B",
+          "text": "Confundir enquadramento de classe com avaliação e destinação regularmente autorizadas."
+        },
+        {
+          "id": "C",
+          "text": "Manter o contexto funcional associado aos documentos."
+        },
+        {
+          "id": "D",
+          "text": "Distinguir atividade-meio de atividade-fim."
+        },
+        {
+          "id": "E",
+          "text": "Registrar uma classe no documento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Classificação não autoriza descarte. Destinação depende de avaliação e aplicação do instrumento de temporalidade e das condições competentes."
+    },
+    {
+      "id": "per-u087-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Arquivo Nacional informa que determinado código de atividades-meio é usado no Poder Executivo federal. Para uma unidade estadual maranhense, a inferência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o código federal passa a ser obrigatoriamente o único do Estado."
+        },
+        {
+          "id": "B",
+          "text": "a classificação estadual não precisa considerar funções nem atividades."
+        },
+        {
+          "id": "C",
+          "text": "o instrumento federal pode servir de referência, sem incidência automática: é necessário conhecer o instrumento estadual competente."
+        },
+        {
+          "id": "D",
+          "text": "o nome de qualquer classe federal substitui a origem do documento estadual."
+        },
+        {
+          "id": "E",
+          "text": "não existem critérios arquivísticos aplicáveis a instituições estaduais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O regime expresso de instrumentos federais tem âmbito próprio. O caso estadual exige identificar a disciplina e o instrumento competentes, sem dispensar os fundamentos técnicos."
+    },
+    {
+      "id": "per-u087-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência é mais coerente com a classificação funcional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ordem alfabética → idade → suporte → classe."
+        },
+        {
+          "id": "B",
+          "text": "Sigilo → prédio → tamanho → classe."
+        },
+        {
+          "id": "C",
+          "text": "Título do arquivo → número de folhas → classe."
+        },
+        {
+          "id": "D",
+          "text": "Prazo de guarda → eliminação → classe."
+        },
+        {
+          "id": "E",
+          "text": "Produtor e contexto → função → atividade → classe do instrumento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Classificação funcional parte do produtor e da função/atividade documentada; forma, suporte, prazo e sigilo respondem a outras decisões."
+    },
+    {
+      "id": "per-u087-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao não encontrar classe adequada para um novo documento, o servidor deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar silenciosamente uma notação sem coordenação, para acelerar a tramitação."
+        },
+        {
+          "id": "B",
+          "text": "substituir todo o plano por uma sequência cronológica."
+        },
+        {
+          "id": "C",
+          "text": "marcar o documento como permanente por segurança."
+        },
+        {
+          "id": "D",
+          "text": "consultar as orientações do plano e a instância competente, mantendo rastreável a decisão."
+        },
+        {
+          "id": "E",
+          "text": "escolher a classe de qualquer documento que tenha a mesma palavra no título."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Lacuna ou dúvida exige procedimento controlado e registro da decisão. Códigos improvisados comprometem consistência e recuperação."
+    },
+    {
+      "id": "per-u087-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um conjunto de documentos se repete ao longo dos anos por resultar de uma mesma atividade, com relação comum de produção. Esse conjunto pode constituir",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatoriamente uma nova instituição produtora."
+        },
+        {
+          "id": "B",
+          "text": "uma série documental, que não é sinônimo de uma peça isolada."
+        },
+        {
+          "id": "C",
+          "text": "uma coleção artificial de vários órgãos, por definição."
+        },
+        {
+          "id": "D",
+          "text": "um inventário de mobiliário."
+        },
+        {
+          "id": "E",
+          "text": "uma declaração de sigilo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Série documental envolve relação continuada de produção/função. A série não é um identificador de entrada nem se reduz a um documento."
+    },
+    {
+      "id": "per-u087-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em questão de Arquivologia, 'arranjo' refere-se à organização de conjuntos recolhidos à guarda permanente. A melhor afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "arranjo de arquivo permanente se relaciona com classificação e proveniência, mas não é simples sinônimo de classificar documento corrente."
+        },
+        {
+          "id": "B",
+          "text": "arranjo significa escolher o prazo de guarda exclusivamente pelo suporte."
+        },
+        {
+          "id": "C",
+          "text": "arranjo é o ato de remeter ofício ao protocolo."
+        },
+        {
+          "id": "D",
+          "text": "arranjo exige misturar fundos por assunto."
+        },
+        {
+          "id": "E",
+          "text": "arranjo substitui toda identificação de produtores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Arranjo ordena e relaciona conjuntos permanentes segundo critérios arquivísticos. Embora relacionado à classificação, tem aplicação e objetivos próprios."
+    },
+    {
+      "id": "per-u087-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade substitui um plano de classificação e altera nomes de classes, mas preserva registros dos enquadramentos anteriores e seus vínculos. Por que isso é importante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque torna toda reclassificação irreversível."
+        },
+        {
+          "id": "B",
+          "text": "Porque dispensa indicar atividades atuais."
+        },
+        {
+          "id": "C",
+          "text": "Porque todo documento passa automaticamente ao arquivo permanente."
+        },
+        {
+          "id": "D",
+          "text": "Porque a notação antiga deve ser reproduzida obrigatoriamente em todos os órgãos."
+        },
+        {
+          "id": "E",
+          "text": "Porque permite reconstruir decisões e recuperar conjuntos sem perder o histórico contextual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Mudanças de instrumentos exigem coerência e rastreabilidade. Preservar histórico evita que a alteração de rótulos apague o contexto classificatório anterior."
+    },
+    {
+      "id": "per-u087-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão recebe uma requisição elaborada externamente e a incorpora a seu procedimento pericial. Quanto à classificação no arquivo do destinatário, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o documento deve manter obrigatoriamente a classe administrativa do remetente como única classe do destinatário."
+        },
+        {
+          "id": "B",
+          "text": "receber documento externo impede integrá-lo ao arquivo institucional."
+        },
+        {
+          "id": "C",
+          "text": "a classe no destinatário depende da atividade em que a requisição foi acumulada, sem apagar a informação sobre sua origem externa."
+        },
+        {
+          "id": "D",
+          "text": "a classificação depende apenas da data registrada pelo remetente."
+        },
+        {
+          "id": "E",
+          "text": "o recebimento transforma automaticamente o destinatário no autor do documento original."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O documento recebido integra a atividade do destinatário e pode ser classificado no contexto do seu arquivo; isso não apaga o remetente nem altera a autoria original."
+    }
+  ]
+}
