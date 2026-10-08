@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 12 | 0 | 24 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 22 | 0 | 29 |
-| Unidades distintas | 99 | 13 | 0 | 86 |
-| Entregáveis unitários C/H/Q | 297 | 39 | 0 | 258 |
+| Unidades distintas | 99 | 12 | 0 | 87 |
+| Entregáveis unitários C/H/Q | 297 | 36 | 0 | 261 |
 
-Estado confirmado: **86 unidades/visões publicadas (80 locais, 6 por vínculo); 258 C/H/Q aceitos; 120/132 referências literais aceitas; 3146 questões acumuladas**. PER-U087 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **87 unidades/visões publicadas (81 locais, 6 por vínculo); 261 C/H/Q aceitos; 121/132 referências literais aceitas; 3170 questões acumuladas**. PER-U088 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U087 — Classificação de documentos de arquivo está done; próxima ação: PER-U088 — Arquivamento e ordenação**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 3/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U088 — Arquivamento e ordenação está done; próxima ação: PER-U089 — Tabela de temporalidade**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 4/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -661,7 +661,7 @@ Grupo consumidor: `conhecimentos-especificos/arquivologia/`, relativo à raiz de
 | PER-U085 — Arquivística: princípios e conceitos | E10: 1 | S05; nova/local após pesquisa negativa de pacote integral | `arquivistica-principios-conceitos` / `per-u085` / 850 | Arquivo, fundo × coleção, proveniência, organicidade, ordem original, integridade, características e fases; TCE patrimonial excluído como doador. C/H/Q/R aceitos em 5.11; artefato `6b392c4b`. |
 | PER-U086 — Gestão documental e protocolo | E10: 2, 2.1 | S05; nova/local, após cotejo do canônico federal PEN/SEI | `gestao-documental-protocolo` / `per-u086` / 860 | Gestão de informações/documentos, recepção com ressalvas, metadados/registro, distribuição, percurso e expedição, autuação e limites de aplicação federal. E10:2.1 aceito; E10:2 permanece agregado até U087–U089. C/H/Q/R aceitos em 5.11, commit `d443e17e`. |
 | PER-U087 — Classificação de documentos de arquivo | E10: 2, 2.2 | S05; nova/local; árvore integral da main e fontes oficiais, sem doador editorial equivalente | `classificacao-documentos-arquivo` / `per-u087` / 870 | Classificação por funções/atividades, classes, códigos e aplicação; separa registro, ordenação, avaliação e sigilo; E10:2.2 aceito, pai E10:2 agregado até U088–U089. C/H/Q/R aceitos em 5.11, artefato `55ca7167`. |
-| PER-U088 — Arquivamento e ordenação | E10: 2, 2.3 | S05; sem candidato selecionado | `arquivamento-ordenacao-documentos` / `per-u088` / 880 | Métodos e recuperação; conceitos mínimos de U087. |
+| PER-U088 — Arquivamento e ordenação | E10: 2, 2.3 | S05; nova/local após conferência da árvore integral, doador patrimonial não compatível e documentação oficial | `arquivamento-ordenacao-documentos` / `per-u088` / 880 | Métodos alfabético, geográfico, numéricos, temáticos e variantes; acesso direto/indireto, ordem, empréstimo/desarquivamento. E10:2.3 aceito, E10:2 permanece agregado até U089; C/H/Q/R aceitos em 5.11, commit `a82553a2`. |
 | PER-U089 — Tabela de temporalidade | E10: 2, 2.4 | S05; sem candidato selecionado | `tabela-temporalidade-documentos` / `per-u089` / 890 | Avaliação, prazos e destinação; não confundir com data do documento. |
 | PER-U090 — Acondicionamento e armazenamento de documentos | E10: 3 | S05; sem candidato selecionado | `acondicionamento-armazenamento-documentos` / `per-u090` / 900 | Proteção e ambiente; conservação/restauração em U091. |
 | PER-U091 — Preservação, conservação e restauração | E10: 4, 5 | S05; sem candidato selecionado | `preservacao-conservacao-restauracao-documentos` / `per-u091` / 910 | Uma cobertura de 4/5; intervenções, prevenção e limites, sem duplicação. |
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 120/132 |
-| Unidades distintas da objetiva | 98 | 86 |
+| Referências literais da objetiva | 132/132 | 121/132 |
+| Unidades distintas da objetiva | 98 | 87 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 86 |
-| Entregáveis unitários C/H/Q | 297: 39 pending + 0 analyzing + 258 done | 258 done |
-| Visões consumidoras previstas | 99 | 86 |
+| Total de unidades distintas | 99 | 87 |
+| Entregáveis unitários C/H/Q | 297: 36 pending + 0 analyzing + 261 done | 261 done |
+| Visões consumidoras previstas | 99 | 87 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
 | Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 59 parciais locais, 10 integrais locais e 6 integrais por vínculo |
-| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 11 |
+| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 12 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 80 unidades locais, 6 vínculos Perícia; 13 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 11 novas locais e 6 integrais canônicas.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 81 unidades locais, 6 vínculos Perícia; 12 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 12 novas locais e 6 integrais canônicas.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2563,6 +2563,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `a71ad0c7b99ca11cb5f9a33c3ff4178253095987` |
 | R | `46dabef0ba82753966835ab91fd88934da9d2336` |
 
+#### PER-U088 — Arquivamento e ordenação: nova/local — C/H/Q done
+
+- **Recorte, consumidor e dependências:** Arquivologia E10:2.3 coberto; parte de E10:2, que permanece agregado até U089. Consumidor único: Cargo 1 — Agente de Perícia Criminal, Generalista. Raiz consumidora `conhecimentos-especificos/arquivologia/arquivamento-ordenacao-documentos/`, identidade `per-u088`, ordem 880; sem vínculo. Grupo, catálogo e U085–U087 intactos, apenas consultados.
+- **Origem e pesquisa:** árvore recursiva `main` integral, 3.666 entradas antes da publicação, e doador TCE de administração de materiais, pacote físico `arquivamento-recebimento-distribuicao-inventario`, C/H/Q/R examinados; sua aula patrimonial não ensina ordenação documental por nome, lugar, número ou assunto, e a breve parte documental já está atendida pelas fronteiras anteriores. Nenhum pacote completo compatível na biblioteca, PC, SEAP ou Perícia. Produção nova/local, sem copiar ou editar terceiros. Provas oficiais sobre ordenação foram localizadas, mas nenhum enunciado foi incorporado sem gabarito/exame de alternativas comprovados.
+- **Problema/intervenção/ganho:** misturar classificação por função, ordenação por chave, busca por índice e ato de arquivamento torna impossível localizar pastas com segurança. Um **caso hipotético de três pastas (108–110)** ensina números, nomes, municípios, índice de recuperação e retorno ao local correto; amplia para métodos temáticos (dicionário/enciclopédico, duplex/decimal), numérico-cronológico, dígito-terminal, soundex e variadex. H comprime os gatilhos de reconhecimento; C preserva as distinções entre busca direta/indireta, ordem original, guarda horizontal/vertical e empréstimo para consulta versus desarquivamento que retoma a atividade.
+- **Fontes e cortes:** S05; Lei nº 8.159/1991; *Dicionário brasileiro de terminologia arquivística* (Arquivo Nacional, 2005); *Guia de gestão de documentos para os órgãos e entidades do Poder Executivo federal* (Arquivo Nacional, 2025, p. 60); apostila institucional do Centro de Formação dos Servidores e Empregados Públicos de Pernambuco (2021); Resolução <abbr title="Conselho Nacional de Arquivos">Conarq</abbr> nº 50/2022. Consulta em 08/10/2026, corte legislativo 17/07/2026; passos federais e material de outro Estado não são presumidos obrigatórios no Maranhão. Fronteira com U089 (avaliação, temporalidade e destinação) e U090 (acondicionamento) preservada.
+- **Extensão/microglossário:** C 13.997 caracteres brutos; H 2.423; R 5.611; unidade nova, sem expansão comparativa sobre versão anterior. Conceito de índice antecipado ao seu uso; cinco marcações `abbr` no C, três em H e três em R, com microdescrições para jargões; sem transpor respostas para dicas de hover em Q.
+- **Q e inspeção:** `questionSetRevision: 1`, 24 questões autorais / 120 alternativas, IDs `per-u088-a01`–`per-u088-a24`, revisão 1, cinco opções, uma chave e explicação por item. Gabaritos e 120 alternativas individualmente inspecionados; nenhuma banca/prova atribuída sem fonte e nenhuma resolução separada necessária. C/H/Q/R relidos na `main` e os quatro blobs confirmados, sem testes/builds/check/CI.
+- **Publicação confirmada:** [`a82553a2`](https://github.com/insign/concursos/commit/a82553a27c0bddac9cd17a00d4559a6f0a619a09), exclusivamente os quatro arquivos locais.
+
+| Arquivo | Blob confirmado |
+|---|---|
+| C | `99fdcd68e9cad007378155a6ab8c0792f22d831f` |
+| H | `60b1bb2149929e21a7de8c47290f9dd74d0a61d1` |
+| Q | `52bec6e4f2afc6d513e61fd0c48451d16900896e` |
+| R | `f6dec70f58003239d64698679ea9eca6c3e5ef1f` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3258,9 +3275,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U088 — Arquivamento e ordenação
 
-- [ ] PER-U088-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U088-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U088-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U088-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U088-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U088-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U089 — Tabela de temporalidade
 
@@ -3628,3 +3645,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U085:** artefato `6b392c4b162d385cfde6de6c0e8bf4f0a179f478` confirmado; nova/local com grupo de Arquivologia e 20 questões/100 opções autorais; C/H/Q/R aceitos, E10:1 coberto. Totais: 84/99 unidades, 252/297 C/H/Q, 118/132 referências, 3104 questões, 29 macros done; E10 1/8. Nenhuma reserva ativa após sincronização da issue. Próxima ação PER-U086 — Gestão documental e protocolo.
 - **PER-U086:** artefato `d443e17e2d5aee8d56b623c7e5855187edbec0dc` confirmado; nova/local com 22 questões/110 alternativas autorais, C/H/Q/R aceitos, E10:2.1 coberto; E10:2 permanece pai até U087–U089. Totais: 85/99 unidades, 255/297 C/H/Q, 119/132 referências e 3126 questões; 29 macros done e E10 2/8. Nenhuma reserva ativa após sincronização da issue; próxima PER-U087 — Classificação de documentos de arquivo.
 - **PER-U087:** artefato `55ca71673cdd46affa4c78ad806c2ebf2d61bb63` com C/H/Q/R relidos na `main`, quatro blobs confirmados; nova/local, 20 questões autorais/100 opções, E10:2.2 aceito. Totais: 86/99 unidades, 258/297 C/H/Q, 120/132 referências e 3146 questões; 80 locais e 6 vínculos, 29 macros done, E10 3/8. Item pai E10:2 permanece agregado até U088/U089. Reserva própria encerrada após publicação e sincronização; próxima PER-U088 — Arquivamento e ordenação.
+- **PER-U088:** artefato `a82553a27c0bddac9cd17a00d4559a6f0a619a09` confirmado na `main` com C/H/Q/R e quatro blobs relidos; nova/local, 24 questões autorais/120 alternativas, E10:2.3 aceito, item pai E10:2 ainda agregado até U089. Totais: 87/99 unidades, 261/297 C/H/Q, 121/132 referências e 3170 questões; 81 locais, 6 por vínculo, 29 macros done, E10 4/8. Próxima PER-U089 — Tabela de temporalidade; reserva própria a sincronizar e liberar na issue.
