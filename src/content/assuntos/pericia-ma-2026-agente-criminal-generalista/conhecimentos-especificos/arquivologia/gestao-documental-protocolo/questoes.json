@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u086-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma requisição chega ao protocolo com declaração de três anexos, mas apenas dois estão presentes. Qual conduta preserva melhor a confiabilidade do controle documental?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Registrar a existência dos três anexos para manter conformidade com a declaração do remetente."
+        },
+        {
+          "id": "B",
+          "text": "Expedir a requisição de volta sem registrar a ocorrência, porque recebimento e registro são incompatíveis."
+        },
+        {
+          "id": "C",
+          "text": "Documentar o recebimento efetivo de dois anexos e tratar a divergência segundo o procedimento aplicável."
+        },
+        {
+          "id": "D",
+          "text": "Autuar necessariamente processo separado para o anexo ausente."
+        },
+        {
+          "id": "E",
+          "text": "Considerar que a ausência de anexo prova a improcedência da requisição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O registro deve representar o que de fato foi recebido; a ausência do terceiro anexo é ocorrência a tratar, não informação a encobrir ou julgamento do mérito."
+    },
+    {
+      "id": "per-u086-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um setor atribuiu a um ofício um número de protocolo e registrou remetente, destinatário e data. O efeito diretamente demonstrado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a formação obrigatória de novo processo."
+        },
+        {
+          "id": "B",
+          "text": "o deferimento da solicitação."
+        },
+        {
+          "id": "C",
+          "text": "a autenticidade do conteúdo integral do ofício."
+        },
+        {
+          "id": "D",
+          "text": "o recebimento confirmado pelo destinatário final."
+        },
+        {
+          "id": "E",
+          "text": "a identificação e recuperação do documento no controle do órgão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O registro fornece identificação e dados de recuperação. Número de protocolo não autentica sozinho conteúdo, não decide mérito nem comprova entrega final."
+    },
+    {
+      "id": "per-u086-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento registrado é encaminhado do protocolo à equipe que deverá analisá-lo. Essa operação caracteriza principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "expedição da resposta definitiva."
+        },
+        {
+          "id": "B",
+          "text": "distribuição ao responsável competente."
+        },
+        {
+          "id": "C",
+          "text": "avaliação de temporalidade."
+        },
+        {
+          "id": "D",
+          "text": "recolhimento permanente."
+        },
+        {
+          "id": "E",
+          "text": "eliminação de documento avulso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distribuição encaminha o documento à unidade responsável. Expedição trata da saída e tramitação controla o percurso subsequente."
+    },
+    {
+      "id": "per-u086-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma requisição passou pela equipe de análise, voltou ao protocolo para ajuste de destinatário e retornou à equipe. O registro relevante é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o histórico de tramitação, incluindo os movimentos de retorno."
+        },
+        {
+          "id": "B",
+          "text": "apenas o primeiro registro de entrada, suficiente para provar todo o percurso."
+        },
+        {
+          "id": "C",
+          "text": "a troca da identificação original a cada movimentação."
+        },
+        {
+          "id": "D",
+          "text": "o cancelamento retroativo do percurso anterior para manter sequência linear."
+        },
+        {
+          "id": "E",
+          "text": "um registro de expedição externa a cada transferência interna."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Controle de tramitação deve permitir reconstruir sucessivas remessas, recebimentos e retornos, sem apagar eventos válidos."
+    },
+    {
+      "id": "per-u086-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um laudo foi concluído e assinado, mas não há evidência de que tenha sido enviado ao solicitante. É correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a assinatura prova automaticamente a expedição."
+        },
+        {
+          "id": "B",
+          "text": "o registro da entrada anterior prova a saída posterior."
+        },
+        {
+          "id": "C",
+          "text": "a conclusão do laudo determina seu arquivamento definitivo."
+        },
+        {
+          "id": "D",
+          "text": "produção/conclusão e expedição são fatos distintos; o envio precisa de registro adequado."
+        },
+        {
+          "id": "E",
+          "text": "a distribuição inicial da requisição substitui a saída do laudo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A elaboração e a assinatura não bastam para demonstrar remessa. A expedição registra saída, destinatário, meio e outros elementos do envio."
+    },
+    {
+      "id": "per-u086-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma organização cuida tanto de registros formais quanto de informações obtidas oralmente em reuniões. Essa situação ilustra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "gestão da informação é mais ampla que gestão documental, sem torná-las sinônimas."
+        },
+        {
+          "id": "B",
+          "text": "toda conversa oral passa a integrar automaticamente o arquivo permanente."
+        },
+        {
+          "id": "C",
+          "text": "gestão documental só existe quando a reunião gera papéis."
+        },
+        {
+          "id": "D",
+          "text": "gestão da informação dispensa a proteção de documentos de arquivo."
+        },
+        {
+          "id": "E",
+          "text": "as duas atividades se limitam à guarda de documentos sem consulta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Informação pode circular fora de documento arquivístico; gestão documental é o tratamento específico dos registros produzidos ou recebidos nas atividades."
+    },
+    {
+      "id": "per-u086-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a Lei nº 8.159/1991, a gestão documental é corretamente relacionada a",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente restauração de acervo permanente."
+        },
+        {
+          "id": "B",
+          "text": "apenas instalação de sistema de busca textual."
+        },
+        {
+          "id": "C",
+          "text": "produção, tramitação, uso, avaliação e arquivamento em fases corrente e intermediária, visando à destinação."
+        },
+        {
+          "id": "D",
+          "text": "processos de prova pericial exclusivamente judicial."
+        },
+        {
+          "id": "E",
+          "text": "seleção de materiais por seu valor comercial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei descreve operações durante o ciclo de vida nas fases corrente/intermediária; não restringe a gestão à guarda final."
+    },
+    {
+      "id": "per-u086-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Portaria Interministerial nº 1.677/2015 é usada como referência técnica para protocolo no concurso estadual. Sua obrigatoriedade expressa abrange",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer repartição estadual, independentemente de norma local."
+        },
+        {
+          "id": "B",
+          "text": "apenas instituições privadas que prestem serviços de arquivo."
+        },
+        {
+          "id": "C",
+          "text": "todos os municípios com mais de determinado número de habitantes."
+        },
+        {
+          "id": "D",
+          "text": "somente documentos em papel."
+        },
+        {
+          "id": "E",
+          "text": "os órgãos e entidades da Administração Pública Federal nos termos da portaria."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O ato é federal e seu comando de observância obrigatória dirige-se à administração pública federal. Não se presume incidência automática em rotinas estaduais."
+    },
+    {
+      "id": "per-u086-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um documento recebido foi registrado e deve integrar processo administrativo já existente. A alternativa mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "abrir obrigatoriamente um novo processo com outro objeto."
+        },
+        {
+          "id": "B",
+          "text": "apagar o registro original e criar apenas uma pasta temática."
+        },
+        {
+          "id": "C",
+          "text": "considerar o documento sem relevância arquivística por ser recebido."
+        },
+        {
+          "id": "D",
+          "text": "preservar o vínculo com o processo existente conforme o procedimento aplicável."
+        },
+        {
+          "id": "E",
+          "text": "presumir que toda juntada constitui autuação inicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A unidade deve preservar as relações documentais e obedecer à rotina do processo existente; juntar documento não implica autuar processo novo."
+    },
+    {
+      "id": "per-u086-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Autuar documentos para formar processo significa, em termos gerais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas registrar a chegada no protocolo, sem organização processual."
+        },
+        {
+          "id": "B",
+          "text": "formalizar a constituição de processo com documentos e identificação conforme regras aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "transferir todo documento para a fase permanente."
+        },
+        {
+          "id": "D",
+          "text": "enviar cópia de qualquer documento a outro setor."
+        },
+        {
+          "id": "E",
+          "text": "ordenar documentos de todos os órgãos apenas por assunto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autuação forma formalmente um processo. O registro de documento avulso e o simples encaminhamento são operações diferentes."
+    },
+    {
+      "id": "per-u086-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um serviço utiliza sistema eletrônico que grava entradas e movimentações, mas não realiza avaliação ou controle de destinação documental. Pode-se concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "existem funções de protocolo, mas isso não comprova gestão arquivística informatizada completa."
+        },
+        {
+          "id": "B",
+          "text": "o sistema atende a todo requisito de gestão arquivística apenas porque é digital."
+        },
+        {
+          "id": "C",
+          "text": "todo documento nele criado é automaticamente permanente."
+        },
+        {
+          "id": "D",
+          "text": "a ausência de avaliação elimina a necessidade de registro."
+        },
+        {
+          "id": "E",
+          "text": "a expedição digital dispensa histórico de movimentos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O protocolo eletrônico pode cobrir circulação e registro sem assegurar controle do ciclo de vida, como avaliação e destinação."
+    },
+    {
+      "id": "per-u086-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor afirma que o controle de movimentação de requisições administrativas equivale à cadeia de custódia de vestígios recolhidos em local de crime. A avaliação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos têm finalidades idênticas e são intercambiáveis."
+        },
+        {
+          "id": "B",
+          "text": "somente registros de papel exigem rastreabilidade."
+        },
+        {
+          "id": "C",
+          "text": "apenas a cadeia de custódia pericial contém documentos."
+        },
+        {
+          "id": "D",
+          "text": "a tramitação administrativa autoriza concluir integridade de qualquer vestígio."
+        },
+        {
+          "id": "E",
+          "text": "ambos dependem de registros, mas seus objetos e requisitos são distintos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Protocolo acompanha documentos e processos; cadeia de custódia pericial cuida da preservação e do rastreamento dos vestígios. A relação é uma ponte, não equivalência."
+    },
+    {
+      "id": "per-u086-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No sistema aparece o status 'enviado à unidade técnica' sem confirmação de chegada ou análise. A interpretação tecnicamente correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a unidade técnica comprovadamente concluiu a decisão."
+        },
+        {
+          "id": "B",
+          "text": "o documento deve ser considerado expedido ao solicitante."
+        },
+        {
+          "id": "C",
+          "text": "o status comprova a ação de envio registrada, não necessariamente recebimento e exame pelo destino."
+        },
+        {
+          "id": "D",
+          "text": "o histórico de tramitação torna-se dispensável."
+        },
+        {
+          "id": "E",
+          "text": "o documento deixou de ser arquivístico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ação de envio e efetivo recebimento são eventos distintos; devem ser diferenciados conforme as confirmações do fluxo."
+    },
+    {
+      "id": "per-u086-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quais dados, em conjunto, apoiam melhor o registro e a recuperação de um documento recebido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente cor da pasta e nome do arquivo digital."
+        },
+        {
+          "id": "B",
+          "text": "Única palavra-chave sem indicação do produtor."
+        },
+        {
+          "id": "C",
+          "text": "Somente prazo de eliminação, independentemente de identificação."
+        },
+        {
+          "id": "D",
+          "text": "Identificador, data, remetente, destinatário e vínculo com processo, quando houver."
+        },
+        {
+          "id": "E",
+          "text": "Unicamente nome do profissional que assinará futura resposta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Metadados de identificação, proveniência, contexto e vínculo processual permitem recuperar o documento com confiabilidade."
+    },
+    {
+      "id": "per-u086-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma área identifica a entrada de uma requisição por número, mas a classifica somente como 'documento importante', sem relacioná-la à atividade pertinente. O problema central é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existir documento de arquivo sem classificação alfabética."
+        },
+        {
+          "id": "B",
+          "text": "o número de registro não substituir a classificação por função ou atividade."
+        },
+        {
+          "id": "C",
+          "text": "a impossibilidade de documento receber um identificador."
+        },
+        {
+          "id": "D",
+          "text": "a obrigatoriedade de classificar apenas documentos permanentes."
+        },
+        {
+          "id": "E",
+          "text": "a necessidade de autuar um novo processo antes de toda classificação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Registro individualiza e localiza; classificação arquivística organiza segundo funções e atividades, com técnica aprofundada na unidade própria."
+    },
+    {
+      "id": "per-u086-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma comunicação com acesso restrito entra por canal autorizado. A boa prática de protocolo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "registrar e encaminhar preservando controles de acesso e destino adequado."
+        },
+        {
+          "id": "B",
+          "text": "publicar o teor para comprovar transparência da entrada."
+        },
+        {
+          "id": "C",
+          "text": "eliminar o registro de circulação para manter sigilo."
+        },
+        {
+          "id": "D",
+          "text": "dispensar a identificação documental por ser restrita."
+        },
+        {
+          "id": "E",
+          "text": "enviar indiscriminadamente a todas as unidades para que escolham o destinatário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Restrição de acesso deve acompanhar a gestão e a tramitação; sigilo não significa ausência de registro nem divulgação ampla."
+    },
+    {
+      "id": "per-u086-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A equipe recebeu um documento físico, lavrou comprovante de entrada e depois o registrou em sistema. Qual distinção é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recebimento é sempre a criação de processo e registro é sempre sua eliminação."
+        },
+        {
+          "id": "B",
+          "text": "Recebimento e registro somente podem ocorrer em órgãos diferentes."
+        },
+        {
+          "id": "C",
+          "text": "Recebimento atesta automaticamente a procedência jurídica da demanda."
+        },
+        {
+          "id": "D",
+          "text": "Registro substitui necessariamente conferência dos anexos."
+        },
+        {
+          "id": "E",
+          "text": "Recebimento evidencia a entrada; registro fornece identificador e dados para controle e recuperação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Embora possam integrar uma mesma interface, conferência da entrada e identificação controlada cumprem funções diferentes."
+    },
+    {
+      "id": "per-u086-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito dos documentos avulsos e processos, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documento avulso é obrigatoriamente eletrônico."
+        },
+        {
+          "id": "B",
+          "text": "Processo se forma automaticamente em toda operação de expedição."
+        },
+        {
+          "id": "C",
+          "text": "Documento registrado pode permanecer avulso; nem todo registro exige autuação."
+        },
+        {
+          "id": "D",
+          "text": "Documento avulso não pode ser recebido por serviço de protocolo."
+        },
+        {
+          "id": "E",
+          "text": "Um processo só pode conter documentos produzidos por um único servidor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Autuação é formalização de processo quando cabível, não consequência necessária de qualquer registro de entrada."
+    },
+    {
+      "id": "per-u086-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A unidade pericial deseja saber por quais setores um documento passou e quanto tempo ficou sob cada responsabilidade. A operação relevante é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a emissão de cópia simples."
+        },
+        {
+          "id": "B",
+          "text": "somente a escolha do suporte."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente a avaliação da temporalidade."
+        },
+        {
+          "id": "D",
+          "text": "controle da tramitação com identificação dos movimentos e responsáveis."
+        },
+        {
+          "id": "E",
+          "text": "restauração física do original."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O histórico de tramitação possibilita reconstruir deslocamentos e atribuições; registrar só a última localização não basta."
+    },
+    {
+      "id": "per-u086-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão recebeu documento por canal digital e o incorporou a um processo com vínculo preservado. O fato de o suporte ser digital",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede classificação e autuação."
+        },
+        {
+          "id": "B",
+          "text": "não impede gestão de protocolo nem dispensa preservação de contexto e rastreabilidade."
+        },
+        {
+          "id": "C",
+          "text": "dispensa controle de destinatário e data de envio."
+        },
+        {
+          "id": "D",
+          "text": "transforma automaticamente o documento em coleção."
+        },
+        {
+          "id": "E",
+          "text": "retira da atividade o vínculo de proveniência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Portaria federal de referência admite documentos de diversos suportes; os princípios arquivísticos se mantêm no meio eletrônico."
+    },
+    {
+      "id": "per-u086-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma equipe conclui que, porque existe o registro de expedição de ofício, o destinatário necessariamente já tomou conhecimento e praticou os atos solicitados. A falha é",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratar comprovante de envio como comprovação automática de recebimento, ciência e execução."
+        },
+        {
+          "id": "B",
+          "text": "confundir processo intermediário com permanente."
+        },
+        {
+          "id": "C",
+          "text": "exigir número para identificação."
+        },
+        {
+          "id": "D",
+          "text": "realizar controle de saída dos documentos."
+        },
+        {
+          "id": "E",
+          "text": "preservar o histórico administrativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Expedição registra a saída; ciência, recebimento e atendimento podem requerer evidências posteriores distintas."
+    },
+    {
+      "id": "per-u086-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um servidor reúne os registros já recebidos e indica sua destinação para análise, mas apaga remessas anteriores quando há devolução. O erro mais diretamente associado ao protocolo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "definir dados de destinatário na distribuição."
+        },
+        {
+          "id": "B",
+          "text": "registrar o conteúdo da requisição."
+        },
+        {
+          "id": "C",
+          "text": "conservar a identificação originalmente atribuída."
+        },
+        {
+          "id": "D",
+          "text": "utilizar documento digital em vez de papel."
+        },
+        {
+          "id": "E",
+          "text": "perder a rastreabilidade do percurso ao suprimir eventos intermediários."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A trama de movimentos e retornos deve permanecer reconstruível. Apagar etapas anteriores distorce responsabilidades e situação documental."
+    }
+  ]
+}
