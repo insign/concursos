@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u090-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade mantém documentos em pastas de tamanho adequado, mas guarda as caixas junto a uma tubulação com vazamento recorrente. A falha principal está",
+      "options": [
+        {
+          "id": "A",
+          "text": "na definição do prazo de guarda, que deveria ser abreviado."
+        },
+        {
+          "id": "B",
+          "text": "no armazenamento, pela localização de risco do depósito."
+        },
+        {
+          "id": "C",
+          "text": "na classificação, porque a tubulação altera a proveniência."
+        },
+        {
+          "id": "D",
+          "text": "no formato documental, porque pastas não podem conter papel."
+        },
+        {
+          "id": "E",
+          "text": "na temporalidade, porque caixa apropriada dispensa controle ambiental."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os invólucros podem estar adequados, mas o depósito está exposto à água. Localização e risco predial pertencem à decisão de armazenamento."
+    },
+    {
+      "id": "per-u090-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um depósito controla satisfatoriamente iluminação e umidade, mas contém processos comprimidos em pastas pequenas, com bordas deformadas. Qual medida ataca diretamente a causa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduzir os prazos de guarda dos processos."
+        },
+        {
+          "id": "B",
+          "text": "Mover os processos para o arquivo permanente sem avaliação."
+        },
+        {
+          "id": "C",
+          "text": "Substituir as pastas por invólucros proporcionais, preservando identificação e vínculos."
+        },
+        {
+          "id": "D",
+          "text": "Trocar exclusivamente o sensor de umidade."
+        },
+        {
+          "id": "E",
+          "text": "Ordenar os processos novamente por município."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há dano mecânico produzido pelo acondicionamento inadequado; não é problema resolvido por clima, fase arquivística ou método de ordenação."
+    },
+    {
+      "id": "per-u090-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao reorganizar a sala, um servidor propõe colocar caixas documentalmente identificadas diretamente sobre o piso, pois a sala parece limpa. A recomendação técnica mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceitar a proposta se o prazo for inferior a um ano."
+        },
+        {
+          "id": "B",
+          "text": "aceitar a proposta quando a caixa for de cartão alcalino."
+        },
+        {
+          "id": "C",
+          "text": "aceitar a proposta depois de fotografar os rótulos."
+        },
+        {
+          "id": "D",
+          "text": "aceitar a proposta caso as caixas sejam fechadas."
+        },
+        {
+          "id": "E",
+          "text": "manter o acervo apoiado em mobiliário apropriado, sem contato direto com o chão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O contato com o piso aumenta vulnerabilidade a água, sujeira e impacto; identificação e composição da caixa não afastam esses riscos."
+    },
+    {
+      "id": "per-u090-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série de plantas de grandes dimensões, destinada à guarda permanente, está sendo dobrada para caber em caixas comuns. A opção tecnicamente mais coerente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "acondicionar as plantas planas em mapoteca dimensionada para elas, preservando sua identificação."
+        },
+        {
+          "id": "B",
+          "text": "dobrar cada planta mais vezes para tornar as caixas uniformes."
+        },
+        {
+          "id": "C",
+          "text": "separar todas as plantas por cor do desenho, misturando fundos."
+        },
+        {
+          "id": "D",
+          "text": "deixar os documentos expostos em mesa próxima à janela para ventilação."
+        },
+        {
+          "id": "E",
+          "text": "encadernar os mapas à força em volumes pequenos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O apoio horizontal em mapoteca adequada evita dobras e preserva os grandes formatos. Identificação e contexto arquivístico continuam necessários."
+    },
+    {
+      "id": "per-u090-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a guarda plana não é viável para certos mapas e a avaliação técnica admite acondicionamento enrolado, uma solução compatível com as recomendações do Conarq é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar qualquer tubo úmido, desde que a tampa esteja fechada."
+        },
+        {
+          "id": "B",
+          "text": "fixar o rolo com fita adesiva diretamente sobre o desenho."
+        },
+        {
+          "id": "C",
+          "text": "deixar o tubo verticalmente apoiado na folha que fica na base."
+        },
+        {
+          "id": "D",
+          "text": "enrolar sobre tubo de cartão alcalino apropriado e apoiar o conjunto horizontalmente em mobiliário adequado."
+        },
+        {
+          "id": "E",
+          "text": "dobrar o mapa em partes menores e colocá-lo num saco sem identificação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Conarq prevê, para grandes formatos permanentes, mapotecas ou tubos de cartão alcalino acondicionados em armários/gavetas; a escolha depende do suporte e evita deformação."
+    },
+    {
+      "id": "per-u090-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma caixa externa já adquirida pode ter composição inadequada para contato direto com documentação permanente em papel. Qual providência é mais defensável?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aumentar a temperatura do depósito para compensar o papel."
+        },
+        {
+          "id": "B",
+          "text": "Avaliar e usar invólucro interno alcalino compatível, evitando contato prejudicial com a caixa."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar os documentos ao completar a caixa."
+        },
+        {
+          "id": "D",
+          "text": "Trocar a etiqueta por uma cor diferente."
+        },
+        {
+          "id": "E",
+          "text": "Tornar a caixa hermética sem avaliar seus materiais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A camada interna apropriada pode reduzir o contato do documento com material instável; a adequação química e física precisa ser examinada."
+    },
+    {
+      "id": "per-u090-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas propostas são apresentadas: I, usar qualquer plástico por ser impermeável; II, escolher o invólucro pela estabilidade de sua composição e pelas características do suporte. A conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "I apenas, pois todo plástico preserva papel e fotografias."
+        },
+        {
+          "id": "B",
+          "text": "ambas, porque impermeabilidade é o único requisito."
+        },
+        {
+          "id": "C",
+          "text": "II, pois não existe adequação universal do material de acondicionamento."
+        },
+        {
+          "id": "D",
+          "text": "nenhuma, pois documentos de arquivo não precisam de recipientes."
+        },
+        {
+          "id": "E",
+          "text": "I apenas para guarda permanente, porque o suporte não importa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Diferentes plásticos e demais materiais têm composições e comportamentos variados. Adequação ao suporte e estabilidade importam; não há licença geral para qualquer plástico."
+    },
+    {
+      "id": "per-u090-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma pasta frágil contém grampos antigos com sinais de corrosão. Sem condições de avaliar o suporte, qual decisão é prudente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Evitar intervenção improvisada e solicitar avaliação técnica para eventual retirada/substituição segura."
+        },
+        {
+          "id": "B",
+          "text": "Arrancar todos os grampos rapidamente, qualquer que seja o estado das folhas."
+        },
+        {
+          "id": "C",
+          "text": "Recobrir o metal com cola de uso comum."
+        },
+        {
+          "id": "D",
+          "text": "Aumentar a pressão da caixa para imobilizar as folhas."
+        },
+        {
+          "id": "E",
+          "text": "Borrifar solvente doméstico sobre o processo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Elementos metálicos e adesivos podem causar dano, mas sua remoção em documento frágil pode ampliar a perda. O manuseio deve respeitar avaliação técnica."
+    },
+    {
+      "id": "per-u090-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade quer guardar fotografias em cor, filmes e processos textuais num único ambiente, adotando uma única condição climática sem estudo prévio. O principal problema é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o fato de fotografias não serem documentos arquivísticos."
+        },
+        {
+          "id": "B",
+          "text": "a necessidade de transferir previamente tudo para arquivo permanente."
+        },
+        {
+          "id": "C",
+          "text": "a impossibilidade de identificar filmes."
+        },
+        {
+          "id": "D",
+          "text": "a obrigação de eliminar os processos textuais."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de avaliação das necessidades ambientais próprias de cada suporte."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Fotografias, filmes e papéis podem demandar condições diferentes; não se presume que uma regulagem única seja segura."
+    },
+    {
+      "id": "per-u090-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em um depósito quente e úmido, a ventilação é insuficiente. Qual risco está diretamente relacionado às condições descritas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desaparecimento automático dos metadados de classificação."
+        },
+        {
+          "id": "B",
+          "text": "Redução permanente e universal de toda atividade microbiológica."
+        },
+        {
+          "id": "C",
+          "text": "Conversão de documentos correntes em permanentes."
+        },
+        {
+          "id": "D",
+          "text": "Maior probabilidade de deterioração e desenvolvimento de fungos ou infestações."
+        },
+        {
+          "id": "E",
+          "text": "Eliminação da necessidade de inspecionar embalagens."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A combinação de calor, umidade elevada e ventilação inadequada pode favorecer microrganismos e danos; o controle deve considerar conjunto e estabilidade ambiental."
+    },
+    {
+      "id": "per-u090-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um equipamento de climatização funciona apenas algumas horas por dia e provoca oscilações acentuadas de temperatura e umidade. A orientação mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "avaliar a estabilidade ambiental e a viabilidade de manutenção contínua, em vez de supor benefício automático do equipamento."
+        },
+        {
+          "id": "B",
+          "text": "adotar a menor temperatura possível, mesmo que a umidade oscile bruscamente."
+        },
+        {
+          "id": "C",
+          "text": "dispensar medições, pois o ar-condicionado é evidência suficiente."
+        },
+        {
+          "id": "D",
+          "text": "guardar documentos no chão para equilibrar a temperatura."
+        },
+        {
+          "id": "E",
+          "text": "reduzir o prazo de guarda para que as oscilações deixem de importar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As recomendações de 2005 chamam atenção para flutuações súbitas e para a utilidade de climatização que não pode operar regularmente; monitoramento e estabilidade vêm primeiro."
+    },
+    {
+      "id": "per-u090-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato afirma que todo documento de arquivo brasileiro precisa, por determinação legal uniforme, de 20 °C e 50% de umidade relativa do ar. A avaliação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque a legislação federal define temperatura exata para qualquer suporte."
+        },
+        {
+          "id": "B",
+          "text": "correta, desde que o órgão seja estadual."
+        },
+        {
+          "id": "C",
+          "text": "incorreta: são referências técnicas para condições determinadas, com ressalvas climáticas e diferenças entre suportes."
+        },
+        {
+          "id": "D",
+          "text": "incorreta apenas porque a temperatura deveria ser zero grau."
+        },
+        {
+          "id": "E",
+          "text": "correta somente para documentos que aguardam eliminação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Conarq apresenta parâmetros técnicos em publicação de construção com ressalvas à aplicação indiscriminada em climas tropicais; a lei de arquivos não estabelece valor universal."
+    },
+    {
+      "id": "per-u090-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um projeto propõe estantes compactas para aumentar a capacidade de guarda. Qual análise não pode ser dispensada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente a ordem alfabética das pastas."
+        },
+        {
+          "id": "B",
+          "text": "A carga estrutural, a ventilação, o acesso e a segurança do conjunto."
+        },
+        {
+          "id": "C",
+          "text": "A transformação de todas as séries em permanentes."
+        },
+        {
+          "id": "D",
+          "text": "A eliminação de índices de localização."
+        },
+        {
+          "id": "E",
+          "text": "A substituição de caixas por folhas soltas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Estantes compactas podem economizar área, mas exigem avaliação de peso, circulação de ar e operação segura, não só de densidade."
+    },
+    {
+      "id": "per-u090-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma coleção documental identificada fica sob exposição solar direta durante o expediente. O raciocínio tecnicamente adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitir a exposição porque as caixas estão etiquetadas."
+        },
+        {
+          "id": "B",
+          "text": "aceitar o risco para documentos que não são permanentes."
+        },
+        {
+          "id": "C",
+          "text": "aumentar a iluminação como substituto da ventilação."
+        },
+        {
+          "id": "D",
+          "text": "tornar os documentos digitais e eliminar o papel imediatamente."
+        },
+        {
+          "id": "E",
+          "text": "reduzir incidência luminosa e radiação ultravioleta por medidas de proteção, conforme o suporte."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Luz e radiação ultravioleta produzem danos cumulativos; rótulos ou o prazo menor não tornam a luz direta inofensiva."
+    },
+    {
+      "id": "per-u090-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante a inspeção, constatou-se que uma prateleira suporta peso inferior ao das caixas empilhadas. O procedimento coerente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter o peso porque caixas de arquivo são leves."
+        },
+        {
+          "id": "B",
+          "text": "fixar mais etiquetas como medida compensatória."
+        },
+        {
+          "id": "C",
+          "text": "aguardar a data de destinação sem intervir."
+        },
+        {
+          "id": "D",
+          "text": "redistribuir a carga em mobiliário compatível e verificar estabilidade e circulação."
+        },
+        {
+          "id": "E",
+          "text": "mudar a classificação dos documentos para reduzir o peso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A resistência do mobiliário e a estabilidade mecânica são requisitos de armazenamento; prazos e etiquetas não anulam uma sobrecarga."
+    },
+    {
+      "id": "per-u090-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O arquivo conhece o risco de inundação, mas não tem responsabilidades definidas, prioridades de salvamento ou procedimento de resposta. Qual providência responde diretamente a essa lacuna?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Criar somente um índice temático novo."
+        },
+        {
+          "id": "B",
+          "text": "Preparar e manter plano de emergência, com riscos, responsabilidades e prioridades definidos."
+        },
+        {
+          "id": "C",
+          "text": "Acondicionar todas as fotografias em pastas de papel comum."
+        },
+        {
+          "id": "D",
+          "text": "Adotar eliminação imediata de conjuntos pouco consultados."
+        },
+        {
+          "id": "E",
+          "text": "Confiar exclusivamente em caixas rígidas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A gestão de risco arquivístico precisa incluir planejamento anterior ao sinistro, responsabilidades, prioridades e resposta; recipientes isolados não bastam."
+    },
+    {
+      "id": "per-u090-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após uma consulta, um processo retorna a uma caixa parecida, mas de outra série. Apesar de não haver dano físico aparente, a falha é relevante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a movimentação e a localização incorretas podem romper a recuperação e o vínculo do documento ao conjunto."
+        },
+        {
+          "id": "B",
+          "text": "o documento foi automaticamente recolhido ao permanente."
+        },
+        {
+          "id": "C",
+          "text": "toda consulta gera autorização de eliminação."
+        },
+        {
+          "id": "D",
+          "text": "a classe documental sempre muda depois de empréstimo."
+        },
+        {
+          "id": "E",
+          "text": "o material da caixa altera a data de produção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Preservar informação exige manter identificação, contexto e endereço físico. A proteção mecânica não substitui o controle de circulação e devolução."
+    },
+    {
+      "id": "per-u090-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Fitas de áudio magnéticas foram colocadas próximas a equipamento capaz de produzir campo magnético prejudicial. A decisão mais coerente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "elevar a umidade para neutralizar magnetismo."
+        },
+        {
+          "id": "B",
+          "text": "plastificar as fitas sem avaliar o material."
+        },
+        {
+          "id": "C",
+          "text": "misturá-las com papéis de outra série."
+        },
+        {
+          "id": "D",
+          "text": "afastá-las da fonte de campo prejudicial e adotar guarda adequada ao suporte."
+        },
+        {
+          "id": "E",
+          "text": "considerar o armazenamento seguro porque o gabinete está limpo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Meios magnéticos exigem atenção à proximidade de campos que podem distorcer ou levar à perda de dados, além de proteção física."
+    },
+    {
+      "id": "per-u090-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma série possui tabela de temporalidade válida, mas as caixas estão frágeis. A mudança de recipientes, por si, permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "alterar a destinação de eliminação para guarda permanente."
+        },
+        {
+          "id": "B",
+          "text": "contar o prazo desde a data da troca de caixa."
+        },
+        {
+          "id": "C",
+          "text": "revogar o plano de classificação do órgão."
+        },
+        {
+          "id": "D",
+          "text": "dispensar autorização da instituição arquivística competente."
+        },
+        {
+          "id": "E",
+          "text": "melhorar a proteção durante a guarda, sem mudar automaticamente prazo, classe ou destinação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Acondicionamento e armazenamento tratam da proteção durante o tempo devido; avaliação e tabela disciplinam prazos e destinos."
+    },
+    {
+      "id": "per-u090-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade converte documentos em arquivos digitais e mantém uma cópia de segurança. Sobre a guarda arquivística, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a digitalização autoriza, por si, eliminar todos os originais."
+        },
+        {
+          "id": "B",
+          "text": "a cópia de segurança define automaticamente os prazos de retenção."
+        },
+        {
+          "id": "C",
+          "text": "continuam necessários requisitos de integridade, contexto, acesso e destinação; nem cópia nem digitalização bastam isoladamente."
+        },
+        {
+          "id": "D",
+          "text": "o suporte digital dispensa identificar o produtor documental."
+        },
+        {
+          "id": "E",
+          "text": "a imagem digital transforma todo documento em arquivo permanente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conversão e a cópia de segurança são operações distintas da gestão arquivística; é preciso preservar relações, autenticidade e acesso e respeitar destinação competente."
+    }
+  ]
+}
