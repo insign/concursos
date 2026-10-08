@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 12 | 0 | 24 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 22 | 0 | 29 |
-| Unidades distintas | 99 | 10 | 0 | 89 |
-| Entregáveis unitários C/H/Q | 297 | 30 | 0 | 267 |
+| Unidades distintas | 99 | 9 | 0 | 90 |
+| Entregáveis unitários C/H/Q | 297 | 27 | 0 | 270 |
 
-Estado confirmado: **89 unidades/visões publicadas (83 locais, 6 por vínculo); 267 C/H/Q aceitos; 124/132 referências literais aceitas; 3212 questões acumuladas**. PER-U090 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **90 unidades/visões publicadas (84 locais, 6 por vínculo); 270 C/H/Q aceitos; 125/132 referências literais aceitas; 3234 questões acumuladas**. PER-U091 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U090 — Acondicionamento e armazenamento está done; próxima ação: PER-U091 — Preservação, conservação e restauração**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 6/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05, PER-E04 C/H/Q, PER-E05 C/H/Q, PER-E06 C/H/Q, PER-E07 C/H/Q, PER-E08 C/H/Q e PER-E09 C/H/Q done. PER-U091 — Preservação, conservação e restauração está done; próxima ação: PER-U092 — Tipologias, suportes, microfilmagem e automação**, conforme 5.2/7.5. Distribuição por bloco: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 7/8; E11 0/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -664,7 +664,7 @@ Grupo consumidor: `conhecimentos-especificos/arquivologia/`, relativo à raiz de
 | PER-U088 — Arquivamento e ordenação | E10: 2, 2.3 | S05; nova/local após conferência da árvore integral, doador patrimonial não compatível e documentação oficial | `arquivamento-ordenacao-documentos` / `per-u088` / 880 | Métodos alfabético, geográfico, numéricos, temáticos e variantes; acesso direto/indireto, ordem, empréstimo/desarquivamento. E10:2.3 aceito, E10:2 permanece agregado até U089; C/H/Q/R aceitos em 5.11, commit `a82553a2`. |
 | PER-U089 — Tabela de temporalidade | E10: 2, 2.4 | S05; nova/local após auditoria do acervo, TCE patrimonial apenas incidental; Lei nº 8.159/1991 e Conarq 40/44 | `tabela-temporalidade-documentos` / `per-u089` / 890 | Avaliação, valores, tabela, marcos dos prazos, transferência/recolhimento e eliminação autorizada. E10:2.4 e pai E10:2 aceitos com U086–U089; sem duplicar unidade. C/H/Q/R aceitos em 5.11, artefato `56221451`. |
 | PER-U090 — Acondicionamento e armazenamento de documentos | E10: 3 | S05; nova/local após confronto de acervo e consulta ao Conarq 2005/2000 | `acondicionamento-armazenamento-documentos` / `per-u090` / 900 | Proteção física, invólucros/caixas, formatos especiais, mobiliário, ambiente e riscos, preservando U091 para intervenções de conservação/restauração e U092 para meios digitais. E10:3 e C/H/Q/R aceitos em 5.11; artefato `627668bf`. |
-| PER-U091 — Preservação, conservação e restauração | E10: 4, 5 | S05; sem candidato selecionado | `preservacao-conservacao-restauracao-documentos` / `per-u091` / 910 | Uma cobertura de 4/5; intervenções, prevenção e limites, sem duplicação. |
+| PER-U091 — Preservação, conservação e restauração | E10: 4 e parcela conservativa de 5 | S05; nova/local, Cassares/Moi 2000 e Conarq 2012/2024 | `preservacao-conservacao-restauracao-documentos` / `per-u091` / 910 | Política de preservação, causas de deterioração, conservação preventiva, higienização, reparos, restauração ética e resgate por água. **E10:4 aceito**; parte conservativa de E10:5 ensinada, mas referência **E10:5 ainda pending até U092**, sem duplicar unidade. C/H/Q/R aceitos em 5.11; artefato `c2af59dc`. |
 | PER-U092 — Tipologias, suportes, microfilmagem e automação | E10: 5 | S05; sem candidato selecionado | `tipologias-suportes-microfilmagem-automacao` / `per-u092` / 920 | Cobrir parte tecnológica/tipológica de 5 e remeter à conservação sem reescrevê-la. |
 
 #### 5.2.11 Legislação Especial
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 124/132 |
-| Unidades distintas da objetiva | 98 | 89 |
+| Referências literais da objetiva | 132/132 | 125/132 |
+| Unidades distintas da objetiva | 98 | 90 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 89 |
-| Entregáveis unitários C/H/Q | 297: 30 pending + 0 analyzing + 267 done | 267 done |
-| Visões consumidoras previstas | 99 | 89 |
+| Total de unidades distintas | 99 | 90 |
+| Entregáveis unitários C/H/Q | 297: 27 pending + 0 analyzing + 270 done | 270 done |
+| Visões consumidoras previstas | 99 | 90 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
 | Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 59 parciais locais, 10 integrais locais e 6 integrais por vínculo |
-| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 14 |
+| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 15 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 83 unidades locais, 6 vínculos Perícia; 10 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 14 novas locais e 6 integrais canônicas.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 84 unidades locais, 6 vínculos Perícia; 9 unidades ainda pendentes, entre elas a U028. Classificações publicadas: 59 parciais locais, 10 integrais locais, 15 novas locais e 6 integrais canônicas.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2614,6 +2614,23 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `5af9bc4526cb9e896585a5ec1aab0e9a405af05a` |
 | R | `cd96b24f2c60f35abc15ee2968ba7bca02d7522d` |
 
+#### PER-U091 — Preservação, conservação e restauração: nova/local — C/H/Q done
+
+- **Programa, consumidor e aceite:** S05, Arquivologia E10:4 (preservação e conservação) e segmento específico de preservação/conservação/restauração de E10:5. Consumidor exclusivo Cargo 1 — Agente de Perícia Criminal, Generalista. Pacote local `conhecimentos-especificos/arquivologia/preservacao-conservacao-restauracao-documentos/`, identidade `per-u091`, ordem 910 e slug próprio; sem vínculo/canônico. **E10:4 aceito, E10:5 ainda pendente como referência literal** até a tipologia, microfilmagem e automação de U092; o estudo compartilhado de conservação não vira segunda unidade. E10 continua macro C/H/Q pending, agora 7/8.
+- **Proveniência e pesquisa:** S05 e busca no acervo biblioteca/Perícia/PC/SEAP/TCE sem C/H/Q/R com recorte integral equivalente. TCE patrimonial trata conservação de materiais e segurança de estoque; similaridade de nome não prova doador arquivístico. Produção **nova/local**, sem copiar trechos/questões ou alterar consumidores, catálogos, vínculos, doadores e campanhas #755/#764/#765. Consulta aos assuntos vizinhos U089/U090; U092 ainda não publicada. Reserva `per-u091-20261008-1415-8d5e`, base `5589455d12c18ce75812c647d65c52a043d0480b`.
+- **Problema, intervenção e ganho pedagógico:** o iniciante pode supor que conservação exclui reparos, que restauração é renovação estética ou que limpar qualquer mancha é seguro. C abre com processo hipotético rasgado e úmido, constrói **risco → mecanismo de dano → diagnóstico → prevenção/estabilização → intervenção ética → registro**. Diferencia preservação (política), conservação (controle de degradação, inclusive pequenos reparos) e restauração especializada; desenvolve suporte/celulose/acidez, higienização seca, desmetalização, riscos de tinta pulverulenta, reconsolidação material sem forjar texto, desacidificação, obturação, velatura, encapsulação e princípios de mínima intervenção, compatibilidade, reversibilidade condicionada e distinguibilidade. Caso de resgate por água aplica segurança humana, identificação do acervo, triagem por suporte e encaminhamento técnico; exemplos e prazos de salvamento não são atribuídos ao Maranhão. H resume decisões e confusões, sem copiar a aula. U090 permanece no acondicionamento/depósito, U089 em prazos e U092 em tipologias e processos digitais.
+- **Fontes e corte:** Edital S05, Lei nº 8.159/1991, Cassares/Moi (*Como fazer conservação preventiva em arquivos e bibliotecas*, Arquivo do Estado/SP, 2000), *Diretrizes para tratamento técnico de arquivos relacionados com a arquitetura*, Resolução nº 56/2024 do <abbr title="Conselho Nacional de Arquivos">Conarq</abbr> (especialmente p. 55–63), Resolução nº 34/2012 e *Recomendações para resgate de acervos danificados por água* (2012), recomendações Conarq de 2005 para fronteiras. Links completos em R. Fontes pesquisadas/consultadas em **08/10/2026**; normas anteriores ao corte legislativo **17/07/2026**; Resolução nº 34/2012 **propõe** a adoção de recomendações, não impõe procedimentos idênticos automaticamente ao Estado. Páginas com atualizações posteriores ao corte não foram convertidas em norma do programa.
+- **Questões e inspeção:** **22 questões autorais**, 110 alternativas; `questionSetRevision: 1`, questões `per-u091-a01`–`per-u091-a22` com `revision: 1`, cinco alternativas, resposta única e explicação inline. Distribuição de chaves A 4/B 5/C 4/D 4/E 5; nenhum ano/banca inventado. Questões anteriores pertinentes identificadas em busca, mas não reproduzidas sem checagem e licença adequadas. C/H/Q/R lidos e conferidos na `main` após commit, com quatro blobs idênticos aos pacotes criados; nenhum teste/build/CI/check executado. Não foram necessárias resoluções avulsas.
+- **Extensão:** C 19.987, H 3.277, Q 24.521, R 6.655 caracteres brutos. Nova unidade, sem versão prévia comparável ou tempo poupado inventado. Microglossário nas ocorrências pertinentes, termos nucleares ensinados em C; referências oficiais e transcrições preservadas.
+- **Artefato confirmado:** [`c2af59dc`](https://github.com/insign/concursos/commit/c2af59dc15c75e4f1dded5710194bb555b9b20d4). Alterados somente quatro arquivos físicos deste assunto.
+
+| Arquivo confirmado | Blob na main |
+|---|---|
+| C | `725b2c3594d7acfa2dd2956c78e5c21c8461f431` |
+| H | `5af8e2159cf9285613ba4714cccc69c999a42fd8` |
+| Q | `cf4039e1bed5b67bb3302763b290ce64a3985c83` |
+| R | `19d3053adc1e443fddc82959433b280910ab2d9e` |
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3327,9 +3344,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U091 — Preservação, conservação e restauração
 
-- [ ] PER-U091-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U091-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U091-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U091-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U091-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U091-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U092 — Tipologias, suportes, microfilmagem e automação
 
@@ -3682,3 +3699,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U088:** artefato `a82553a27c0bddac9cd17a00d4559a6f0a619a09` confirmado na `main` com C/H/Q/R e quatro blobs relidos; nova/local, 24 questões autorais/120 alternativas, E10:2.3 aceito, item pai E10:2 ainda agregado até U089. Totais: 87/99 unidades, 261/297 C/H/Q, 121/132 referências e 3170 questões; 81 locais, 6 por vínculo, 29 macros done, E10 4/8. Próxima PER-U089 — Tabela de temporalidade; reserva própria a sincronizar e liberar na issue.
 - **PER-U089:** artefato `56221451f1d5f011d4b8145b413ad6a1b327c413` relido na `main`, quatro blobs C/H/Q/R confirmados; nova/local, 22 autorais/110 opções, E10:2.4 aceito e **pai E10:2 aceito** por fechamento U086–U089, sem contá-lo como unidade. Totais: 88/99 unidades, 264/297 C/H/Q, **123/132 referências** (E10:2.4 mais o pai E10:2), 3192 questões, 82 locais e 6 vínculos; 29 macros done, E10 5/8. Próxima PER-U090 — Acondicionamento e armazenamento de documentos; reserva própria será liberada na issue.
 - **PER-U090:** artefato `627668bf558bdc20fd7ce2771c98a4cf161369d2` relido na `main`; C/H/Q/R e quatro blobs confirmados, nova/local, 20 questões autorais/100 alternativas, E10:3 aceito. Totais: **89/99 unidades, 267/297 C/H/Q, 124/132 referências, 3212 questões**, 83 locais e 6 por vínculo; **29 macros done**, E10 6/8. Próxima PER-U091 — Preservação, conservação e restauração; reserva própria será liberada após a sincronização da issue.
+- **PER-U091:** artefato `c2af59dc15c75e4f1dded5710194bb555b9b20d4` relido na `main`, quatro blobs C/H/Q/R confirmados; nova/local, 22 questões autorais/110 alternativas, E10:4 aceito e parcela conservativa de E10:5 ensinada (E10:5 permanece agregado até U092). Totais **90/99 unidades, 270/297 C/H/Q, 125/132 referências e 3234 questões**, 84 locais e 6 vínculos; **29 macros done**, E10 7/8. Próxima PER-U092 — Tipologias, suportes, microfilmagem e automação; a reserva própria será liberada após sincronizar a issue.
