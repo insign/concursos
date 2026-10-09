@@ -27,12 +27,12 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 | Macros editoriais C/H/Q | 36 | 9 | 0 | 27 |
 | Fechamento | 5 | 5 | 0 | 0 |
 | Total de macros individualizadas | 51 | 19 | 0 | 32 |
-| Unidades distintas | 99 | 5 | 0 | 94 |
-| Entregáveis unitários C/H/Q | 297 | 15 | 0 | 282 |
+| Unidades distintas | 99 | 4 | 0 | 95 |
+| Entregáveis unitários C/H/Q | 297 | 12 | 0 | 285 |
 
-Estado confirmado: **94 unidades/visões publicadas (88 locais, 6 por vínculo); 282 C/H/Q aceitos; 129/132 referências literais aceitas; 3338 questões acumuladas**. PER-U095 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **95 unidades/visões publicadas (89 locais, 6 por vínculo); 285 C/H/Q aceitos; 130/132 referências literais aceitas; 3366 questões acumuladas**. PER-U096 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04–E10 C/H/Q done. PER-U095 — Apresentação e retenção de documentos (Lei nº 5.553/1968) está done; E11 em 3/6; próxima PER-U096 — Registro de identidade civil (Lei nº 9.454/1997)**, conforme 5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 3/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05 e PER-E04–E10 C/H/Q done. PER-U096 — Registro de identidade civil (Lei nº 9.454/1997) está done; E11 em 4/6; próxima PER-U097 — Improbidade: sujeitos e atos**, conforme 5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 4/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -676,7 +676,7 @@ Grupo consumidor: `conhecimentos-especificos/legislacao-especial/`, relativo à 
 | PER-U093 — Identificação criminal — Lei nº 12.037/2009 | E11: 1 | O070 físico PC-MA; parcial/local revalidada | `identificacao-criminal-lei-12037` / `per-u093` / 930 | Regra constitucional, identificação civil, sete hipóteses, fotografia/datiloscopia, coleta genética após a Lei nº 15.295/2025, sigilo, bancos genético e multibiométrico, exclusão e jurisprudência com corte próprio. C/H/Q/R aceitos, grupo de Legislação Especial materializado, evidência 5.11, artefato `79b623af`. E11 1/6; macro C/H/Q permanece pending. |
 | PER-U094 — Carteira de identidade — Lei nº 7.116/1983 e Decreto nº 89.250/1983 | E11: 2, 5 | S05; nova/local após pesquisa e confronto do acervo; Lei nº 7.116/1983 e decretos históricos/vigentes | `carteira-identidade-lei-7116-decreto-89250` / `per-u094` / 940 | C/H/Q/R aceitos; Lei nº 7.116/1983 vigente com alterações até 17/07/2026, Decreto nº 89.250/1983 histórico revogado em 2018, Decreto nº 10.977/2022 vigente. E11:5 aceito; **E11:2 ainda parcial até U095**, pois inclui Lei nº 5.553/1968. Conteúdo não duplica U095/U096; evidência 5.11, artefato `a6699c53`. |
 | PER-U095 — Apresentação e retenção de identificação — Lei nº 5.553/1968 | E11: 2 | S05; nova/local, Lei nº 5.553/1968 e Lei nº 9.453/1997 | `documentos-identificacao-lei-5553` / `per-u095` / 950 | C/H/Q/R aceitos; vedação, prazo de cinco dias, devolução imediata no ingresso, ordem judicial e contravenção. **E11:2 aceito** com U094, sem duplicar expedição. Evidência 5.11, artefato `512a4c4a`. |
-| PER-U096 — Registro de identidade civil — Lei nº 9.454/1997 | E11: 3 | S05; sem candidato selecionado | `registro-identidade-civil-lei-9454` / `per-u096` / 960 | Redação aplicável no corte; não duplicar carteira de identidade. |
+| PER-U096 — Registro de identidade civil — Lei nº 9.454/1997 | E11: 3 | S05; nova/local, Lei nº 9.454/1997 e alterações de 2009/2023 | `registro-identidade-civil-lei-9454` / `per-u096` / 960 | **C/H/Q/R aceitos**; número único, cadastro, órgão central e cooperação, leis nº 12.058/2009 e nº 14.534/2023, sistemas anterior/atual e proteção de dados, sem duplicar a carteira. **E11:3 aceito** no artefato `121593c8`, evidência 5.11. |
 | PER-U097 — Improbidade: sujeitos e atos | E11: 4 | O071 | `improbidade-sujeitos-atos` / `per-u097` / 970 | Doador de controle externo: remover recorte exclusivo, atualizar lei e jurisprudência pelo corte da Perícia. |
 | PER-U098 — Improbidade: sanções e procedimento | E11: 4 | O072 | `improbidade-sancoes-procedimento` / `per-u098` / 980 | Complementa sujeitos/atos; sentença, sanções, procedimento e prescrição. Pontes: PER-U097. |
 
@@ -2686,6 +2686,13 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 - **Revisão e fontes:** problema: confusão entre cinco dias (extração de dados) e **devolução imediata em portaria**, além de ordem judicial, contravenção e mandante versus executante desobediente. C constrói o fluxo com casos hipotéticos; H recupera condições; R documenta Lei nº 5.553/1968 (Câmara/Planalto), retificação 1968 e Lei nº 9.453/1997. Corte **17/07/2026**; multa em cruzeiros novos tratada historicamente. **24 questões autorais/120 opções**, IDs `per-u095-a01`–`a24`, revisão 1; anterior de 2010 localizada sem par oficial de gabarito, não copiada. Sem testes/build/check/CI.
 - **Main:** artefato [`512a4c4a`](https://github.com/insign/concursos/commit/512a4c4aa3f3377f9365b2d9148c1ab29b42d6e2), quatro arquivos relidos, blobs C `a06c7dc14566`, H `abf7a606092c`, Q `b09ccf28728c` e R `679e666a8615` (prefixos inequívocos). Sem grupo/infra/doadores editados.
 
+#### PER-U096 — Registro de Identidade Civil (Lei nº 9.454/1997): nova/local — C/H/Q done
+
+- **Origem, consumidor e recorte:** Legislação Especial E11:3, S05; origem física **nova/local** `conhecimentos-especificos/legislacao-especial/registro-identidade-civil-lei-9454/`, identidade `per-u096`, ordem 960, sem `vinculo.json`; único consumidor Cargo 1 Generalista #766. Reserva `per-u096-20261009-0455-gpt6-e7d9`, base `6b8f19067c401fdc83f237e65e139d4c121da4f6`. Árvore integral de 3.708 entradas, destino ausente; biblioteca/TCE/PC/SEAP e Perícia sem pacote comprovadamente equivalente para copiar/vincular; nenhum grupo, doador ou campanha alheia alterado.
+- **Intervenção/ganho:** a confusão principal era tomar número, Cadastro Nacional, carteira emitida e serviço atual como sinônimos e aplicar regras de 2010 revogadas. Aula C cobre todos os artigos 1º–8º da Lei nº 9.454/1997, 2009 (Lei nº 12.058, inclusive revogações) e 2023 (Lei nº 14.534, número do CPF), além de diferenciar Decreto nº 7.166/2010 revogado e Decretos nº 10.977/2022 e nº 11.797/2023 vigentes. Explica convênios federativos versus dispensa de convênio para acesso técnico à base CPF; confidencialidade, cooperação e usos do Serviço de Identificação do Cidadão com casos hipotéticos. H recupera condições/prazos sem reensinar.
+- **Evidência e Q:** fontes primárias na R (Planalto, Câmara e Senado), verificadas **09/10/2026** com corte **17/07/2026**; separadas consulta, publicação, revogação e prazos de 1997/2023, sem certificar implantação efetiva nem jurisprudência futura. **28 questões autorais/140 alternativas** (`per-u096-a01`–`a28`, `origin: authorial`, revisão de questões e conjunto = 1), alternativas e explicações examinadas; nenhuma prova anterior copiada sem gabarito oficial completo. Sem resolução avulsa, testes/builds/CI/checks.
+- **Publicação:** [`121593c8`](https://github.com/insign/concursos/commit/121593c8e39f900445244e6d43b22d5962b0c87c), quatro arquivos relidos integralmente na `main`; blobs confirmados C `0e00a3abec5340a418f2decb03c1ced0d88c0d8d`, H `9faa756ee17da36043896312b4130cb62a1b4c08`, Q `658dd3e7990b60db98c099c9da292fdabd8dc7ca`, R `715941f200db91ea8583618c909c509aca863a3a`. C 17.675, H 3.400, Q 31.897, R 7.801 caracteres brutos; sem estimativa de tempo poupado.
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -3429,9 +3436,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U096 — Registro de identidade civil — Lei nº 9.454/1997
 
-- [ ] PER-U096-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U096-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U096-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U096-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U096-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U096-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U097 — Improbidade: sujeitos e atos
 
@@ -3759,3 +3766,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U093:** publicação `79b623afd7a2e5282b7acf06013b8d5d8741632a` relida na `main`, cinco blobs C/H/Q/R/grupo confirmados; **parcial/local de O070 físico**, adaptada ao corte da Perícia e à Lei nº 15.295/2025, **35 questões autorais/175 alternativas** (29 reaproveitadas, 19 revisadas; seis próprias). E11:1 aceito, E11 **1/6**, macro E11-C/H/Q ainda pending. Totais **92/99 unidades, 276/297 C/H/Q, 127/132 referências e 3289 questões**, 86 locais e 6 vínculos; **32 macros done/19 pending/0 analyzing**. Próxima PER-U094 — Carteira de identidade (Lei nº 7.116/1983 e Decreto nº 89.250/1983); reserva U093 será liberada após sincronizar o painel.
 - **PER-U094:** pacote `a6699c53fb325c87f98cca58de5107278f6da83a`, C/H/Q/R relidos na `main` com quatro blobs coincidentes; nova/local com **25 questões autorais e 125 alternativas**. E11:5 aceito, E11:2 parcial até U095. Totais **93/99 unidades, 279/297 C/H/Q, 128/132 referências e 3314 questões**, 87 locais e 6 vínculos; **32 macros done/19 pending/0 analyzing**, E11 **2/6**. Próxima PER-U095 — Apresentação e retenção de identificação (Lei nº 5.553/1968); a reserva U094 será liberada após sincronizar o painel.
 - **PER-U095:** pacote `512a4c4aa3f3377f9365b2d9148c1ab29b42d6e2` confirmado na `main` (C/H/Q/R), 24 autorais/120 alternativas, nova/local. E11:2 completado com U094; E11 **3/6**. Totais: **94/99 unidades, 282/297 C/H/Q, 129/132 referências, 3338 questões**, 88 locais e 6 vínculos; macros **32 done/19 pending/0 analyzing**. Próxima PER-U096.
+- **PER-U096:** pacote `121593c8e39f900445244e6d43b22d5962b0c87c` confirmado na `main` (C/H/Q/R), nova/local com **28 questões autorais/140 alternativas**, E11:3 aceito. Totais: **95/99 unidades, 285/297 C/H/Q, 130/132 referências, 3366 questões**, 89 locais e 6 vínculos; E11 **4/6**, macros **32 done/19 pending/0 analyzing**. Próxima PER-U097 — Improbidade: sujeitos e atos; reserva U096 liberada após painel.
