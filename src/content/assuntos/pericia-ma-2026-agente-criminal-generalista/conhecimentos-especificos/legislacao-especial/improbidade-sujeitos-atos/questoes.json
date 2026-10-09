@@ -1,0 +1,1026 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 5,
+  "questions": [
+    {
+      "id": "q5682",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma contratação administrativa foi autorizada por procedimento irregular. Não há prova de favorecimento intencional nem dos resultados típicos da Lei nº 8.429/1992. A conclusão juridicamente adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a irregularidade sempre implica enriquecimento ilícito, mesmo sem vantagem patrimonial."
+        },
+        {
+          "id": "B",
+          "text": "basta o agente ter assinado voluntariamente a autorização para comprovar o dolo de improbidade."
+        },
+        {
+          "id": "C",
+          "text": "se não houve condenação por improbidade, todas as ilegalidades do contrato são automaticamente convalidadas."
+        },
+        {
+          "id": "D",
+          "text": "a irregularidade pode acarretar invalidação ou outros controles, mas a improbidade depende ainda de dolo, tipificação e dos requisitos próprios."
+        },
+        {
+          "id": "E",
+          "text": "a irregularidade formal gera, por presunção, dano patrimonial integral do contrato."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ilegalidade e improbidade não são sinônimos; artigos 1º e 9º–11 exigem elemento subjetivo, tipicidade e resultado próprio do tipo. Eventual controle de legalidade pode subsistir."
+    },
+    {
+      "id": "q5684",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma associação privada recebe incentivo fiscal público e não integra a administração indireta. Alega que, por ser privada, seu patrimônio jamais é protegido pelo regime de improbidade. O argumento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é correto porque apenas autarquias e fundações públicas são protegidas."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível com o artigo 1º, § 6º, que abrange entidade privada beneficiada por subvenção, benefício ou incentivo público ali descrito."
+        },
+        {
+          "id": "C",
+          "text": "somente deixaria de valer se todos os seus empregados tivessem vínculo estatutário."
+        },
+        {
+          "id": "D",
+          "text": "seria válido sempre que o incentivo fosse creditício, não financeiro."
+        },
+        {
+          "id": "E",
+          "text": "só poderia ser afastado se a entidade tivesse sido criada integralmente com dinheiro público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 6º alcança entidade privada subvencionada/incentivada nos termos legais. O § 7º prevê outra hipótese, relacionada à criação/custeio com participação pública, com limite próprio de reparação."
+    },
+    {
+      "id": "q5685",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma entidade privada foi criada com contribuição do erário. Apura-se lesão ligada a esses recursos, sem se confundir o restante do patrimônio privado com verba pública. O artigo 1º, § 7º, limita eventual ressarcimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "à repercussão do ilícito sobre a contribuição dos cofres públicos."
+        },
+        {
+          "id": "B",
+          "text": "ao valor de todo o patrimônio privado da entidade, ainda que sem relação com a contribuição pública."
+        },
+        {
+          "id": "C",
+          "text": "a uma multa fixa independentemente de perda e de participação."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente ao valor do salário anual do agente público investigado."
+        },
+        {
+          "id": "E",
+          "text": "ao dobro de qualquer repasse, sem apuração do efeito patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na hipótese específica do artigo 1º, § 7º, a lei limita a reparação à repercussão do ilícito sobre a contribuição pública. Não se presume alcance integral do patrimônio privado."
+    },
+    {
+      "id": "q5686",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma pessoa foi designada para exercer temporariamente, sem remuneração, função em órgão público abrangido pela Lei nº 8.429/1992. Para o artigo 2º, ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente é agente público se receber vencimentos do Tesouro."
+        },
+        {
+          "id": "B",
+          "text": "está excluída porque a designação é transitória."
+        },
+        {
+          "id": "C",
+          "text": "só seria agente público depois de adquirir estabilidade."
+        },
+        {
+          "id": "D",
+          "text": "pode enquadrar-se como agente público mesmo sem estabilidade, concurso ou remuneração."
+        },
+        {
+          "id": "E",
+          "text": "é necessariamente particular terceiro sujeito apenas ao artigo 3º."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 2º tem conceito amplo, que abrange exercício de função pública por designação e sem remuneração. Isso não significa que qualquer conduta sua configure improbidade: dolo e demais requisitos continuam necessários."
+    },
+    {
+      "id": "q5688",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma organização privada celebra contrato de gestão com a administração pública, utiliza recursos de origem pública e pratica irregularidade. Para determinar a incidência da lei de improbidade, o artigo 2º, parágrafo único,",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna a pessoa jurídica imune por não compor a administração direta."
+        },
+        {
+          "id": "B",
+          "text": "alcança o particular em relação a recursos de origem pública, sem convertê-lo em servidor público efetivo."
+        },
+        {
+          "id": "C",
+          "text": "substitui a necessidade de prova de dolo pela responsabilidade objetiva de todo contratado."
+        },
+        {
+          "id": "D",
+          "text": "exige que a organização primeiro seja transformada em autarquia."
+        },
+        {
+          "id": "E",
+          "text": "somente alcança particulares quando o contrato é firmado com a União."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ajuste envolvendo recursos públicos enquadra o particular no alcance legal. Participação, dolo e tipificação devem ser apurados; o contrato não o torna servidor e não presume improbidade."
+    },
+    {
+      "id": "q5689",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um fornecedor conhece a contratação pública e recebe pagamento contratualmente previsto, sem evidência de contribuição para uma fraude. O artigo 3º permite responsabilizar particular não agente público",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre que o terceiro tiver vínculo de amizade com o agente público."
+        },
+        {
+          "id": "B",
+          "text": "por qualquer pagamento contratual, mesmo sem atuação em ilícito."
+        },
+        {
+          "id": "C",
+          "text": "se houver indução ou concurso doloso para a prática de ato ímprobo, não apenas por proximidade ou recebimento isolado."
+        },
+        {
+          "id": "D",
+          "text": "apenas quando exercer mandato eletivo na mesma administração."
+        },
+        {
+          "id": "E",
+          "text": "somente depois que se tornar servidor público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei exige participação como indução/concurso doloso. Benefício econômico pode ser elemento de prova, mas não substitui demonstração individual da contribuição ilícita."
+    },
+    {
+      "id": "q5692",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um diretor colaborou dolosamente para ilícito imputado a empresa privada, mas não recebeu vantagem patrimonial pessoal. Sobre o artigo 3º, § 1º, após o julgamento das ADIs 7156/7236, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de benefício direto impede qualquer responsabilização do diretor, mesmo com participação demonstrada."
+        },
+        {
+          "id": "B",
+          "text": "a decisão transformou todos os sócios em responsáveis objetivos."
+        },
+        {
+          "id": "C",
+          "text": "o julgamento afastou a necessidade de participação individual, bastando cargo de direção."
+        },
+        {
+          "id": "D",
+          "text": "a retirada da expressão vale apenas para fatos posteriores a 2026, sem ressalva da coisa julgada."
+        },
+        {
+          "id": "E",
+          "text": "a expressão “e benefícios diretos” foi invalidada com efeitos desde a origem, ressalvados julgados definitivos; a participação dolosa continua a ser comprovada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O STF retirou a condição cumulativa de benefício direto, sem autorizar responsabilidade objetiva ou automática de sócios, cotistas, diretores ou colaboradores."
+    },
+    {
+      "id": "q5696",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma pessoa jurídica já sofreu sanção por determinado ato lesivo sob a Lei nº 12.846/2013. Discute-se impor à mesma pessoa jurídica sanção da Lei nº 8.429/1992 pelo mesmo ato. À luz do artigo 3º, § 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a situação extingue automaticamente eventual responsabilidade individual de agentes públicos que concorreram para o fato."
+        },
+        {
+          "id": "B",
+          "text": "as sanções de improbidade não se aplicam à pessoa jurídica se o mesmo ato também foi sancionado como ato lesivo sob a Lei nº 12.846/2013."
+        },
+        {
+          "id": "C",
+          "text": "o ilícito torna-se atípico para todos os demais regimes de responsabilização."
+        },
+        {
+          "id": "D",
+          "text": "a pessoa jurídica deve receber as sanções dos dois regimes cumulativamente, sem consideração do mesmo ato."
+        },
+        {
+          "id": "E",
+          "text": "a responsabilidade pessoal dos diretores torna-se objetiva quando a sanção da empresa é definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra limita duplicação sancionatória sobre a pessoa jurídica pelo mesmo ato já sancionado na Lei Anticorrupção; não suprime por reflexo as responsabilidades individuais com pressupostos próprios."
+    },
+    {
+      "id": "q5697",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um servidor assinou conscientemente um documento administrativo que depois se revelou ilegal; a investigação não demonstrou que ele pretendia o resultado ilícito tipificado. A noção de dolo do artigo 1º, § 2º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "considera dolo qualquer ato praticado sem coação, independentemente do objetivo."
+        },
+        {
+          "id": "B",
+          "text": "equipara erro grosseiro automaticamente à intenção de enriquecimento."
+        },
+        {
+          "id": "C",
+          "text": "exige vontade livre e consciente de alcançar o resultado ilícito legalmente descrito; mera voluntariedade da assinatura é insuficiente."
+        },
+        {
+          "id": "D",
+          "text": "dispensa a descrição do resultado ilícito para valorizar a gravidade do dano."
+        },
+        {
+          "id": "E",
+          "text": "autoriza presunção de dolo quando o agente tiver cargo de chefia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A norma distingue vontade de praticar um ato de vontade de alcançar o resultado ilícito tipificado. A responsabilidade é subjetiva e demanda prova da conduta."
+    },
+    {
+      "id": "q5702",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um gestor adota interpretação da lei apoiada em entendimento de tribunal superior; esse entendimento é superado anos depois. No artigo 1º, § 8º, conforme interpretação fixada pelo STF, a proteção",
+      "options": [
+        {
+          "id": "A",
+          "text": "abrange qualquer opinião pessoal do gestor, mesmo sem suporte jurídico ou jurisprudencial."
+        },
+        {
+          "id": "B",
+          "text": "exige necessariamente que a jurisprudência invocada nunca venha a ser superada."
+        },
+        {
+          "id": "C",
+          "text": "converte erro grosseiro em improbidade objetiva, dispensando dolo."
+        },
+        {
+          "id": "D",
+          "text": "não pode alcançar decisões fundamentadas em tribunal superior porque esses julgados não vinculam todos os órgãos."
+        },
+        {
+          "id": "E",
+          "text": "depende de base jurisprudencial qualificada ou, na sua ausência, decisão de mérito colegiada de segundo grau transitada em julgado, e não subsiste se evidenciados dolo ou erro grosseiro."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A interpretação conforme delimitou as fontes da divergência e a ressalva de dolo/erro grosseiro. A superação posterior, isolada, não gera improbidade; erro grosseiro não substitui prova de dolo para condenar."
+    },
+    {
+      "id": "q5705",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em hipótese fictícia, um agente recebe comissão indevida para produzir declaração técnica falsa relacionada a serviço público. Não foi comprovado prejuízo patrimonial ao erário. Quanto ao artigo 9º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ausência de prejuízo não afasta, por si só, o enquadramento por enriquecimento ilícito se vantagem, vínculo funcional, dolo e demais requisitos forem demonstrados."
+        },
+        {
+          "id": "B",
+          "text": "a falta de dano público impede qualquer ato de enriquecimento ilícito, mesmo com vantagem indevida comprovada."
+        },
+        {
+          "id": "C",
+          "text": "a declaração falsa somente pode ser tratada como ato do artigo 10, independente de perda patrimonial."
+        },
+        {
+          "id": "D",
+          "text": "o tipo exige que a vantagem econômica seja recebida obrigatoriamente pela administração, não pelo agente."
+        },
+        {
+          "id": "E",
+          "text": "o recebimento de vantagem não tem pertinência à tipicidade enquanto não houver condenação criminal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 9º tutela vantagem patrimonial indevida decorrente da função, sem exigir como elemento obrigatório dano público quantificável. O inciso VI menciona vantagem para declaração falsa sobre dados técnicos nas condições previstas."
+    },
+    {
+      "id": "q5707",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Demonstrou-se aumento patrimonial significativo de agente, incompatível com rendimentos conhecidos, sem origem identificada, com relação mínima às atividades públicas. Segundo o REsp 2.256.539/MS, o passo probatório adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar o fato necessariamente lícito enquanto não se identifique em detalhe cada ato administrativo que gerou o acréscimo."
+        },
+        {
+          "id": "B",
+          "text": "decretar condenação objetiva, independentemente da intenção demonstrada."
+        },
+        {
+          "id": "C",
+          "text": "admitir que o imputado demonstre a origem lícita dos ingressos contestados, sem dispensar o dolo e demais elementos do artigo 9º, VII."
+        },
+        {
+          "id": "D",
+          "text": "exigir confissão do agente antes de considerar comprovada qualquer variação patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "afastar a irregularidade porque o artigo 9º, VII, foi revogado em 2021."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O STJ exige incremento desproporcional de origem não justificada e relação mínima com função; não pede prova de ato funcional único, mas preserva responsabilidade subjetiva e exame da explicação de origem lícita."
+    },
+    {
+      "id": "q5709",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O órgão pagou por serviço prestado de modo irregular. A acusação sustenta lesão ao erário apenas porque o procedimento desrespeitou formalidade, sem calcular ou demonstrar perda patrimonial. O artigo 10 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "só a demonstração da violação ao procedimento, porque dano é presumido em contratações irregulares."
+        },
+        {
+          "id": "B",
+          "text": "vantagem patrimonial recebida pelo próprio agente, sempre e necessariamente."
+        },
+        {
+          "id": "C",
+          "text": "apenas risco futuro de perda, sem dano ocorrido."
+        },
+        {
+          "id": "D",
+          "text": "recomendação do controle interno, que substitui demonstração do dano."
+        },
+        {
+          "id": "E",
+          "text": "prova de perda patrimonial efetiva causada por ação ou omissão dolosa, não presunção de prejuízo decorrente de irregularidade formal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Artigo 10 exige dolo e perda efetiva e comprovada; irregularidade procedimental pode ter outras consequências, mas não preenche sozinha o tipo."
+    },
+    {
+      "id": "q5713",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma licitação foi frustrada por conduta do agente, mas a acusação não comprovou perda patrimonial e não individualizou dolo. Quanto ao inciso VIII do artigo 10,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a frustração, por si só, torna o valor integral do contrato prejuízo presumido."
+        },
+        {
+          "id": "B",
+          "text": "a falta de comprovação do dano é irrelevante, desde que haja dano moral à imagem do órgão."
+        },
+        {
+          "id": "C",
+          "text": "somente pode configurar a hipótese quando se provar dano patrimonial efetivo e o dolo exigido pelo caput, além da conduta tipificada."
+        },
+        {
+          "id": "D",
+          "text": "o enquadramento exige antes proveito pessoal do agente, e não necessariamente dano."
+        },
+        {
+          "id": "E",
+          "text": "a alteração de lei revogou toda possibilidade de responsabilidade por frustração de licitação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O inciso VIII não afasta o caput do artigo 10: o ato deve ser doloso e ensejar perda patrimonial efetiva; irregularidade isolada não autoriza presumir o valor do contrato como dano."
+    },
+    {
+      "id": "q5716",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A autoridade sustenta que qualquer ato desonesto não expressamente descrito no artigo 11 pode ser punido por ofensa genérica à moralidade. Com a Lei nº 14.230/2021 e o julgamento das ADIs, o rol do artigo 11 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aberto, pois qualquer princípio constitucional equivale a um inciso adicional."
+        },
+        {
+          "id": "B",
+          "text": "taxativo, sem prejuízo de tipos previstos expressamente em leis especiais; analogia não cria conduta punível."
+        },
+        {
+          "id": "C",
+          "text": "meramente exemplificativo, porque a redação histórica do artigo permanece íntegra."
+        },
+        {
+          "id": "D",
+          "text": "aplicável exclusivamente se houver enriquecimento ilícito."
+        },
+        {
+          "id": "E",
+          "text": "revogado por completo, sem possibilidade de punir condutas que violam princípios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 11 exige correspondência a uma das condutas previstas na redação vigente, respeitados tipos especiais criados por lei; princípio genérico não permite analogia sancionadora."
+    },
+    {
+      "id": "q5717",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em ação fundada somente no artigo 11, indicou-se violação genérica à ética institucional, mas não o inciso aplicável, a norma violada ou lesividade material relevante. É correta a avaliação de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a menção ao princípio da moralidade substitui a tipicidade e autoriza qualquer sanção."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 11 exige sempre prova de dano econômico e enriquecimento simultâneos."
+        },
+        {
+          "id": "C",
+          "text": "faltam elementos necessários: conduta taxativa, dolo, finalidade indevida, indicação da ilegalidade/norma e lesividade relevante."
+        },
+        {
+          "id": "D",
+          "text": "a posição hierárquica do agente permite presumir o elemento subjetivo."
+        },
+        {
+          "id": "E",
+          "text": "somente a ausência de enriquecimento impede a tipificação por princípios."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 11 impõe tipicidade fechada e os requisitos materiais e subjetivos dos §§ 1º–4º. Exige-se lesividade relevante, mas não necessariamente dano contábil."
+    },
+    {
+      "id": "q5718",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um servidor frustra dolosamente e com propósito de favorecimento o caráter concorrencial de concurso público, havendo lesividade relevante ao bem jurídico, mas sem perda monetária comprovada. Para o artigo 11,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o enquadramento depende de vantagem financeira pessoal do agente."
+        },
+        {
+          "id": "B",
+          "text": "a conduta sempre será do artigo 10 porque a disputa envolveu vagas remuneradas."
+        },
+        {
+          "id": "C",
+          "text": "somente existe improbidade se o órgão tiver prejuízo contábil mensurável."
+        },
+        {
+          "id": "D",
+          "text": "ausência de dano patrimonial não afasta, por si só, ato tipificado contra princípios, se demonstrados inciso e demais requisitos."
+        },
+        {
+          "id": "E",
+          "text": "qualquer desrespeito formal, mesmo sem dolo e sem relevância, basta para o artigo 11."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A frustração do caráter concorrencial de concurso no inciso V pode ser relevante ao artigo 11 quando presentes finalidade indevida, dolo, tipicidade e lesividade, ainda que sem dano contábil."
+    },
+    {
+      "id": "q5720",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um gestor deixa de prestar contas porque quer ocultar irregularidade, embora possua documentos e condições de cumprir a obrigação. Para o artigo 11, VI, o núcleo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer atraso, inclusive quando não havia obrigação ou possibilidade de apresentar contas."
+        },
+        {
+          "id": "B",
+          "text": "omissão de prestação de contas devida, quando possível, com finalidade de ocultar irregularidades, além dos requisitos gerais."
+        },
+        {
+          "id": "C",
+          "text": "somente o não pagamento de valores pela entidade, independentemente de contas."
+        },
+        {
+          "id": "D",
+          "text": "a apresentação de contas incorretas por culpa, sem intenção de ocultar."
+        },
+        {
+          "id": "E",
+          "text": "a falta de assinatura em recibo administrativo, sem relação com a prestação de contas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso VI combina dever, possibilidade e intuito de ocultar irregularidade. Não equivale a toda demora ou falha documental."
+    },
+    {
+      "id": "q5721",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Duas autoridades ajustam nomeações recíprocas de parentes em cargos em comissão, dentro dos graus proibidos, para contornar a vedação direta. Quanto ao artigo 11, XI, a lei",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente proíbe parentesco de primeiro grau e apenas na União."
+        },
+        {
+          "id": "B",
+          "text": "admite sempre a troca de nomeações porque os parentes atuam em órgãos diferentes."
+        },
+        {
+          "id": "C",
+          "text": "exclui nomeações para funções gratificadas ainda que estejam no tipo legal."
+        },
+        {
+          "id": "D",
+          "text": "apenas alcança concurso público com aprovação regular, jamais nomeação comissionada."
+        },
+        {
+          "id": "E",
+          "text": "inclui o ajuste por designações recíprocas no nepotismo, sem dispensar dolo e as condições normativas do ato ímprobo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O inciso XI alcança situações de nepotismo até o grau definido e o ajuste mediante designações recíprocas; indispensável analisar a intenção e a finalidade ilícita no caso."
+    },
+    {
+      "id": "q5722",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um chefe do Executivo faz indicação política para cargo de confiança, sem prova de finalidade ilícita ou de parentesco proibido. A acusação invoca automaticamente o artigo 11. O § 5º estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a mera nomeação ou indicação política não configura improbidade sem aferição de dolo com finalidade ilícita."
+        },
+        {
+          "id": "B",
+          "text": "todas as nomeações políticas ficam automaticamente imunes, inclusive as feitas com ajuste de parentes."
+        },
+        {
+          "id": "C",
+          "text": "o simples vínculo político comprova o dolo e dispensa outros requisitos."
+        },
+        {
+          "id": "D",
+          "text": "somente agentes eleitos podem praticar ato de improbidade por nepotismo."
+        },
+        {
+          "id": "E",
+          "text": "basta invocar violação genérica à moralidade para substituir a identificação do inciso legal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 5º impede automatismo: nomeação política isolada não comprova ato ímprobo, mas a proteção não neutraliza ilícitos tipificados e dolosos, inclusive nepotismo."
+    },
+    {
+      "id": "q5723",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Campanha institucional custeada com dinheiro público enaltece inequivocamente a pessoa de uma autoridade, personalizando publicidade oficial, com dolo, finalidade indevida e lesividade relevante demonstrados. A conduta",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode subsumir-se ao artigo 11, XII, mesmo sem perda patrimonial isoladamente contabilizada."
+        },
+        {
+          "id": "B",
+          "text": "é sempre regular porque foi executada por setor de comunicação institucional."
+        },
+        {
+          "id": "C",
+          "text": "só é ímproba se o próprio agente receber pagamento da publicidade."
+        },
+        {
+          "id": "D",
+          "text": "não se enquadra no artigo 11 por ausência de requisito de perda financeira."
+        },
+        {
+          "id": "E",
+          "text": "constitui necessariamente artigo 9º, sem examinar vantagem patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso XII trata publicidade com enaltecimento e personalização do agente, sob os requisitos gerais do artigo 11; não é necessário dano econômico para esse tipo."
+    },
+    {
+      "id": "q5726",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Falecido o responsável por ato de improbidade que causou dano ao erário, os herdeiros recebem patrimônio limitado. Segundo o artigo 8º, pode-se exigir dos sucessores",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as penas políticas e administrativas devidas ao falecido, além da reparação."
+        },
+        {
+          "id": "B",
+          "text": "reparação integral ilimitada com o patrimônio particular preexistente de cada herdeiro."
+        },
+        {
+          "id": "C",
+          "text": "nenhuma reparação, nem mesmo na medida do patrimônio recebido."
+        },
+        {
+          "id": "D",
+          "text": "responsabilidade subjetiva presumida dos herdeiros como coautores."
+        },
+        {
+          "id": "E",
+          "text": "somente obrigação reparatória até o valor recebido de herança ou patrimônio transferido, não sanções pessoais."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 8º limita a transmissão à reparação e ao valor da herança/transferência patrimonial; sanções pessoais não passam automaticamente aos sucessores."
+    },
+    {
+      "id": "q5730",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma ação de improbidade e uma persecução penal versam sobre os mesmos fatos. O acusado é absolvido criminalmente por fundamento que não decide definitivamente inexistência do fato, negativa de autoria ou excludente de ilicitude. Conforme o STF em 2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer absolvição criminal, mesmo provisória, afasta todos os ilícitos civis."
+        },
+        {
+          "id": "B",
+          "text": "a decisão criminal nunca pode influenciar a esfera civil, por completa independência."
+        },
+        {
+          "id": "C",
+          "text": "a absolvição comprova automaticamente que todo ato administrativo era legal."
+        },
+        {
+          "id": "D",
+          "text": "não há encerramento automático da improbidade; é necessário verificar fundamento, trânsito em julgado e limites dos efeitos da decisão criminal."
+        },
+        {
+          "id": "E",
+          "text": "a ação civil só subsiste se houver enriquecimento ilícito e nenhum outro tipo de improbidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A autonomia é relativa. O STF delimitou efeitos vinculantes para fundamentos penais qualificados e definitivos; outras absolvições não extinguem indistintamente a ação sancionatória civil."
+    },
+    {
+      "id": "q5732",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O órgão de controle aponta desvio de valores e quer responsabilizar o gestor automaticamente apenas pela condição de ordenador de despesa. A primeira tese do Tema 1199 do STF reafirma que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o dano orçamentário torna a responsabilidade objetiva sempre que há cargo de chefia."
+        },
+        {
+          "id": "B",
+          "text": "os atos dos artigos 9º, 10 e 11 exigem responsabilidade subjetiva, com dolo demonstrado para o enquadramento."
+        },
+        {
+          "id": "C",
+          "text": "as condenações dispensam individualização de conduta em órgãos com hierarquia rígida."
+        },
+        {
+          "id": "D",
+          "text": "a mera culpa do superior substitui demonstração de vontade dirigida ao ilícito."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de vantagem pessoal prova dolo em atos contra princípios."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 1199 exige dolo nos tipos centrais, e o cargo ou resultado patrimonial não dispensam o elemento subjetivo nem a tipicidade."
+    },
+    {
+      "id": "q5733",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Apura-se fato antigo imputado apenas como culposo, praticado antes da reforma de 2021, e não existe condenação transitada em julgado. Conforme o Tema 1199,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a revogação da modalidade culposa alcança o processo ainda sem decisão definitiva, cabendo verificar se houve dolo no caso concreto."
+        },
+        {
+          "id": "B",
+          "text": "o processo mantém automaticamente a responsabilização por culpa em nome da lei vigente na data do ato."
+        },
+        {
+          "id": "C",
+          "text": "a alteração extingue qualquer ação antiga, mesmo havendo prova de dolo."
+        },
+        {
+          "id": "D",
+          "text": "a culpa é automaticamente convertida em dolo quando o prejuízo for elevado."
+        },
+        {
+          "id": "E",
+          "text": "a nova lei só tem efeitos sobre fatos praticados depois da publicação, mesmo sem coisa julgada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Supremo ressalvou casos definitivos, mas determinou o exame de dolo para fatos anteriores imputados como culposos sem condenação definitiva."
+    },
+    {
+      "id": "q5734",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um agente já possui condenação por improbidade culposa transitada em julgado antes da reforma de 2021 e pretende desfazer automaticamente a coisa julgada. A tese do Tema 1199",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite extinguir qualquer execução por simples pedido administrativo."
+        },
+        {
+          "id": "B",
+          "text": "determina que toda condenação anterior, inclusive dolosa, seja revista de ofício."
+        },
+        {
+          "id": "C",
+          "text": "exige tratar a coisa julgada como inexistente após a publicação da reforma."
+        },
+        {
+          "id": "D",
+          "text": "não atribui à revogação da culpa efeito automático sobre a condenação definitiva e a execução da sanção."
+        },
+        {
+          "id": "E",
+          "text": "equivale à retroatividade geral da prescrição e das causas interruptivas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Supremo preservou a autoridade da coisa julgada e a execução das penas; o benefício para culpa antiga tem alcance limitado aos processos sem condenação definitiva."
+    },
+    {
+      "id": "q5738",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A ação, ainda sem trânsito em julgado, descreve violação genérica a princípios sob antiga redação do artigo 11, sem apontar conduta correspondente a inciso vigente. Pela jurisprudência atual do STJ,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a mera moralidade administrativa basta para manter qualquer tipo antigo revogado."
+        },
+        {
+          "id": "B",
+          "text": "a lista atual de incisos vale apenas para condutas iniciadas depois do julgamento de 2026."
+        },
+        {
+          "id": "C",
+          "text": "a ausência de tipo atual se resolve automaticamente com enquadramento no artigo 10, sem dano."
+        },
+        {
+          "id": "D",
+          "text": "o processo deve ser convertido em processo criminal para conservar o ilícito antigo."
+        },
+        {
+          "id": "E",
+          "text": "a tipicidade vigente rege o caso; sem correspondência legal atual, não se pode recriar o ilícito por analogia, embora possa haver continuidade típica em outra hipótese prevista."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O STJ aplica tipicidade estrita em processos pendentes, reconhecendo continuidade típico-normativa apenas quando o fato se encaixa em tipo em vigor; ofensa genérica não reintroduz inciso revogado."
+    },
+    {
+      "id": "per-u097-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, um responsável técnico recebe vantagem econômica indevida de fornecedor para declarar falsamente a qualidade de bem fornecido ao poder público. Não há perda patrimonial quantificada. A descrição aproxima-se, em tese, do",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo 9º, VI, por vantagem para declaração técnica falsa, desde que comprovados vínculo funcional, dolo e demais requisitos."
+        },
+        {
+          "id": "B",
+          "text": "artigo 10, sempre, porque prejuízo pode ser presumido pelo pagamento ao fornecedor."
+        },
+        {
+          "id": "C",
+          "text": "artigo 11, unicamente pela irregularidade formal, mesmo sem enquadramento em inciso atual."
+        },
+        {
+          "id": "D",
+          "text": "artigo 8º-A, porque existe contrato com pessoa jurídica."
+        },
+        {
+          "id": "E",
+          "text": "regime exclusivamente penal, pois a lei de improbidade exclui toda declaração técnica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 9º, VI, menciona vantagem econômica para declaração falsa sobre dado técnico relativo a obras/serviços, mercadorias e bens fornecidos. Dano público não é requisito do artigo 9º; os demais elementos precisam ser demonstrados."
+    },
+    {
+      "id": "per-u097-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um órgão sofre perda financeira por atividade econômica de risco legítimo, sem ato doloso dirigido a esse prejuízo. Considerando o artigo 10, § 2º, é adequado afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a perda financeira gera presunção absoluta de dolo sempre que o gestor é remunerado."
+        },
+        {
+          "id": "B",
+          "text": "a imputação deve migrar ao artigo 9º mesmo sem vantagem indevida."
+        },
+        {
+          "id": "C",
+          "text": "basta contabilizar uma redução de receita para caracterizar o tipo do artigo 10."
+        },
+        {
+          "id": "D",
+          "text": "a distinção entre dolo e culpa só importa para sanções, nunca para tipificar."
+        },
+        {
+          "id": "E",
+          "text": "a perda econômica por si só não caracteriza improbidade; é indispensável ato doloso com finalidade ilícita na hipótese legal."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 10, § 2º, afasta a simples perda decorrente de atividade econômica, salvo ato doloso com essa finalidade. A possibilidade de controle de gestão não equivale a responsabilidade por improbidade."
+    },
+    {
+      "id": "per-u097-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma empresa privada contratada por órgão público descobre que seu gerente concorreu dolosamente para um ato de improbidade com servidor. O gerente não enriqueceu pessoalmente. Após o julgamento das ADIs 7156/7236,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o gerente só pode responder se também tiver sido servidor estatutário no momento do ato."
+        },
+        {
+          "id": "B",
+          "text": "a falta de benefício pessoal direto não impede por si a responsabilização, desde que se comprovem participação dolosa e demais requisitos."
+        },
+        {
+          "id": "C",
+          "text": "o vínculo de emprego com a empresa torna o gerente objetivamente responsável por todo dano."
+        },
+        {
+          "id": "D",
+          "text": "a pessoa natural é sempre imune se a empresa privada recebeu o pagamento formalmente."
+        },
+        {
+          "id": "E",
+          "text": "qualquer sanção exige primeiro confirmar lucro individual do gerente em conta bancária."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF declarou inconstitucional a exigência de benefício direto ao sócio/diretor/colaborador, mas não dispensou a demonstração de participação individual e dolo."
+    },
+    {
+      "id": "per-u097-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um agente organiza publicidade oficial, com inequívoca personalização para promover sua imagem, mas sem dano econômico. A acusação encontra previsão específica no artigo 11, XII, e demonstra finalidade ilícita e lesividade. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a lesividade é presumida em toda publicidade institucional, mesmo impessoal."
+        },
+        {
+          "id": "B",
+          "text": "a tipicidade desaparece sem contabilizar perda de recursos públicos."
+        },
+        {
+          "id": "C",
+          "text": "a inexistência de dano econômico não afasta por si o tipo do artigo 11, que exige conduta prevista, dolo e lesividade."
+        },
+        {
+          "id": "D",
+          "text": "a publicidade oficial não pode constituir improbidade porque o artigo 11 foi revogado."
+        },
+        {
+          "id": "E",
+          "text": "somente vantagem material recebida pelo agente permitiria reconhecer a conduta descrita."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Artigo 11 pode ocorrer sem dano ou vantagem patrimonial; a publicidade personalista do inciso XII exige exame do dolo, benefício indevido e lesividade relevante."
+    },
+    {
+      "id": "per-u097-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma fusão societária, a sucessora recebe patrimônio da empresa que praticou ato de improbidade. Sem fraude comprovada, deseja-se impor a ela todas as sanções pessoais por fatos anteriores. O artigo 8º-A",
+      "options": [
+        {
+          "id": "A",
+          "text": "estende automaticamente todas as sanções políticas à nova empresa, sem relação com patrimônio."
+        },
+        {
+          "id": "B",
+          "text": "elimina até o dever de reparar danos do patrimônio sucedido, em qualquer caso."
+        },
+        {
+          "id": "C",
+          "text": "somente admite responsabilização se os novos administradores forem agentes públicos eleitos."
+        },
+        {
+          "id": "D",
+          "text": "transforma a sucessora em responsável por todos os fatos antigos, mesmo sem simulação ou fraude."
+        },
+        {
+          "id": "E",
+          "text": "em regra limita a sucessora à reparação do dano até o valor patrimonial transferido; fraudes ou simulação comprovadas são exceções."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O art. 8º-A distingue sucessão empresarial e responsabilização individual. Fusão/incorporação limita repercussão reparatória, ressalvadas simulação ou evidente intuito de fraude devidamente comprovados."
+    },
+    {
+      "id": "per-u097-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em processo ainda sem condenação definitiva, o autor invoca o antigo artigo 11 apenas porque um servidor violou genericamente a honestidade administrativa. O fato não se enquadra em inciso atual. A solução compatível com tipicidade sancionadora é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não criar tipo por analogia; é preciso correspondência com conduta prevista em inciso vigente ou em lei especial aplicável."
+        },
+        {
+          "id": "B",
+          "text": "presumir o enquadramento em qualquer inciso atual para evitar impunidade."
+        },
+        {
+          "id": "C",
+          "text": "condenar necessariamente por artigo 10, ainda que não haja perda patrimonial."
+        },
+        {
+          "id": "D",
+          "text": "considerar dolo e lesividade suficientes para dispensar previsão legal específica."
+        },
+        {
+          "id": "E",
+          "text": "aplicar a redação genérica antiga a todo processo iniciado antes de 2021."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A taxatividade do artigo 11 impede responsabilização por ofensa genérica fora de condutas vigentes; continuidade típico-normativa exige correspondência material com tipo ainda existente."
+    },
+    {
+      "id": "per-u097-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em apuração administrativa, um analista conclui que houve irregularidade no contrato de manutenção de equipamentos, mas não identifica vantagem, perda efetiva nem hipótese taxativa do artigo 11. A conclusão sobre improbidade deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "automática pela gravidade administrativa atribuída pelo analista."
+        },
+        {
+          "id": "B",
+          "text": "definida pelo valor do contrato, mesmo sem qualquer prejuízo comprovado."
+        },
+        {
+          "id": "C",
+          "text": "sempre vinculada à existência de agente público com cargo de chefia."
+        },
+        {
+          "id": "D",
+          "text": "reservada à demonstração de conduta dolosa tipificada e seus elementos, sem confundir irregularidade com ato ímprobo."
+        },
+        {
+          "id": "E",
+          "text": "necessariamente de enriquecimento ilícito se o contrato envolveu empresa privada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O controle pode apontar falhas e gerar outras respostas, mas improbidade exige autoria dolosa, tipo vigente e os requisitos materiais do artigo 9º, 10 ou 11."
+    }
+  ]
+}
