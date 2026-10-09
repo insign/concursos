@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u096-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual é a finalidade central do número único instituído pela Lei nº 9.454/1997?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identificar exclusivamente estrangeiros que não possuem registro brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "Individualizar cada cidadão brasileiro, nato ou naturalizado, nas relações com a sociedade e organismos governamentais e privados."
+        },
+        {
+          "id": "C",
+          "text": "Substituir todos os registros de estado civil por um banco de antecedentes penais."
+        },
+        {
+          "id": "D",
+          "text": "Criar uma nova inscrição fiscal diferente do CPF para cada estado."
+        },
+        {
+          "id": "E",
+          "text": "Conferir poderes aos municípios para revogar documentos emitidos por outros estados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 1º cria o número único de Registro de Identidade Civil para brasileiros natos e naturalizados em relações sociais e com organismos públicos e privados. Não é banco penal nem número estadual."
+    },
+    {
+      "id": "per-u096-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 14.534/2023, o número único a ser adotado nos documentos novos, de acordo com o artigo 1º, § 2º, da Lei nº 9.454/1997, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o número da certidão de casamento, mesmo quando inexistente."
+        },
+        {
+          "id": "B",
+          "text": "o número estadual do primeiro documento emitido na vida."
+        },
+        {
+          "id": "C",
+          "text": "o número de inscrição no Cadastro de Pessoas Físicas (CPF)."
+        },
+        {
+          "id": "D",
+          "text": "a matrícula do servidor que realizou a emissão."
+        },
+        {
+          "id": "E",
+          "text": "um número aleatório gerado para cada via da carteira nacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 14.534/2023 acrescentou o § 2º ao artigo 1º da Lei nº 9.454/1997, adotando o CPF como número único nos novos documentos."
+    },
+    {
+      "id": "per-u096-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 1º, § 3º, da Lei nº 9.454/1997 estabelece que o número de inscrição no CPF é",
+      "options": [
+        {
+          "id": "A",
+          "text": "único e definitivo para cada pessoa física."
+        },
+        {
+          "id": "B",
+          "text": "redefinido quando a pessoa muda de estado."
+        },
+        {
+          "id": "C",
+          "text": "facultativo nos novos documentos de identificação."
+        },
+        {
+          "id": "D",
+          "text": "sempre diferente do registro geral nacional da carteira."
+        },
+        {
+          "id": "E",
+          "text": "emitido apenas aos cidadãos brasileiros natos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º, acrescentado em 2023, caracteriza o CPF como único e definitivo por pessoa física, em distinção de números locais gerados por emissão."
+    },
+    {
+      "id": "per-u096-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato lê no artigo 1º da Lei nº 9.454/1997 um § 1º marcado como 'vetado' e conclui que suas previsões seriam implicitamente válidas. A conclusão está",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta porque texto vetado produz obrigação sem promulgação."
+        },
+        {
+          "id": "B",
+          "text": "correta apenas para cidadãos naturalizados."
+        },
+        {
+          "id": "C",
+          "text": "correta porque a Lei nº 14.534/2023 restaurou os incisos vetados."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, pois dispositivo vetado não cria regra aplicável."
+        },
+        {
+          "id": "E",
+          "text": "correta porque todo parágrafo sem texto pode ser complementado por regulamento estadual."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O antigo parágrafo único vetado foi renumerado como § 1º em 2023, permanecendo vetado, assim como os incisos. Não há comando legal presumível."
+    },
+    {
+      "id": "per-u096-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 2º da Lei nº 9.454/1997, o Cadastro Nacional de Registro de Identificação Civil destina-se a conter",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente fotografias sem número de identificação."
+        },
+        {
+          "id": "B",
+          "text": "apenas nomes e endereços de pessoas condenadas."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente o número da identidade estadual de quem nascer em cada unidade federativa."
+        },
+        {
+          "id": "D",
+          "text": "somente informações de estrangeiros em trânsito."
+        },
+        {
+          "id": "E",
+          "text": "o número único de Registro de Identidade Civil acompanhado dos dados de identificação de cada cidadão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 2º, na redação de 2009, estabelece número único acompanhado de dados de identificação. O cadastro não é só o número nem banco criminal."
+    },
+    {
+      "id": "per-u096-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma base armazena uma chave de identificação nacional e nome, nascimento e filiação do titular. A relação com a Lei nº 9.454/1997 é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o número único e o cadastro que associa dados a esse número são conceitos complementares, mas distintos."
+        },
+        {
+          "id": "B",
+          "text": "o artigo 2º só permite armazenar a chave, sem dados associados."
+        },
+        {
+          "id": "C",
+          "text": "a lei proíbe qualquer cadastro de identificação civil."
+        },
+        {
+          "id": "D",
+          "text": "o cadastro dispensa mecanismos de correção quando houver divergência."
+        },
+        {
+          "id": "E",
+          "text": "o número único serve exclusivamente para identificar a instituição expedidora."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei separa o identificador previsto no artigo 1º e o Cadastro Nacional com dados ligados a esse identificador, no artigo 2º."
+    },
+    {
+      "id": "per-u096-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A competência para definir qual entidade será o órgão central de implementação, coordenação e controle do Cadastro Nacional, segundo o artigo 3º, caput, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "do prefeito da cidade onde o cidadão nasceu."
+        },
+        {
+          "id": "B",
+          "text": "do Conselho Nacional de Justiça, independentemente de ato do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "do Poder Executivo."
+        },
+        {
+          "id": "D",
+          "text": "de cada cartório isoladamente, sem coordenação."
+        },
+        {
+          "id": "E",
+          "text": "do titular do documento, por eleição anual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 3º, caput, atribui ao Poder Executivo a definição da entidade central do Sistema Nacional de Registro de Identificação Civil."
+    },
+    {
+      "id": "per-u096-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A União, para implementar o número único de identificação civil, segundo o artigo 3º, § 1º, da Lei nº 9.454/1997,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deverá atribuir a emissão de todas as identidades ao município da capital."
+        },
+        {
+          "id": "B",
+          "text": "pode celebrar convênios com os estados e o Distrito Federal."
+        },
+        {
+          "id": "C",
+          "text": "deve obrigar todos os entes a celebrar o mesmo convênio sem manifestação deles."
+        },
+        {
+          "id": "D",
+          "text": "não pode estabelecer qualquer cooperação com os estados."
+        },
+        {
+          "id": "E",
+          "text": "somente pode colaborar com estados após ordem judicial individual por cidadão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º autoriza a União a firmar convênios com estados e Distrito Federal. O texto é autorização de cooperação, não imposição automática de assinatura."
+    },
+    {
+      "id": "per-u096-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um estado é signatário de convênio previsto no artigo 3º da Lei nº 9.454/1997. Conforme o § 2º, terá a atribuição de",
+      "options": [
+        {
+          "id": "A",
+          "text": "receber dados apenas para arquivá-los, sem atualizar o Cadastro."
+        },
+        {
+          "id": "B",
+          "text": "substituir por completo a entidade central nacional."
+        },
+        {
+          "id": "C",
+          "text": "instituir um número único paralelo e independente do Cadastro."
+        },
+        {
+          "id": "D",
+          "text": "operacionalizar e atualizar o Cadastro Nacional no território, em compartilhamento com o órgão central."
+        },
+        {
+          "id": "E",
+          "text": "expedir carteiras sem observância das normas nacionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Estados e Distrito Federal signatários participam do sistema, operacionalizam e atualizam o Cadastro nos territórios em regime de compartilhamento com o órgão central."
+    },
+    {
+      "id": "per-u096-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O órgão central disciplina a forma de compartilhamento a que alude o artigo 3º, § 2º, da Lei nº 9.454/1997. Isso implica",
+      "options": [
+        {
+          "id": "A",
+          "text": "interação com estados e Distrito Federal signatários, mantendo repartição de tarefas."
+        },
+        {
+          "id": "B",
+          "text": "gestão exclusivamente municipal, vedada qualquer atuação estadual."
+        },
+        {
+          "id": "C",
+          "text": "livre comercialização da base de dados pelos entes signatários."
+        },
+        {
+          "id": "D",
+          "text": "dispensa de observar o número único nacional em novas carteiras."
+        },
+        {
+          "id": "E",
+          "text": "revogação automática de qualquer convênio já firmado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º prevê regime de compartilhamento entre órgão central e entes signatários, sendo deste órgão central a disciplina da forma de compartilhamento. Não há comércio ou substituição do sistema."
+    },
+    {
+      "id": "per-u096-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão atribui ao artigo 3º, § 3º, da Lei nº 9.454/1997 obrigação vigente de os órgãos locais executarem instruções dos órgãos regionais. A interpretação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o parágrafo voltou a vigorar em 2023."
+        },
+        {
+          "id": "B",
+          "text": "o texto é obrigatório exclusivamente no Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "a norma antiga continua em vigor porque o Decreto nº 7.166/2010 permaneceu válido."
+        },
+        {
+          "id": "D",
+          "text": "a regra passou a ser definida pelo titular da carteira."
+        },
+        {
+          "id": "E",
+          "text": "o § 3º foi revogado pela Lei nº 12.058/2009."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 12.058/2009 revogou o § 3º do artigo 3º. A organização antiga dos órgãos locais não pode ser apresentada como regra vigente."
+    },
+    {
+      "id": "per-u096-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 4º da Lei nº 9.454/1997 disciplina",
+      "options": [
+        {
+          "id": "A",
+          "text": "a guarda de documentos de identificação por portarias privadas."
+        },
+        {
+          "id": "B",
+          "text": "a exigência de coleta genética de todos os cidadãos."
+        },
+        {
+          "id": "C",
+          "text": "a inclusão de meios necessários e cronograma de implementação e manutenção do sistema na proposta orçamentária do órgão central."
+        },
+        {
+          "id": "D",
+          "text": "a distribuição de documentos a brasileiros naturalizados apenas."
+        },
+        {
+          "id": "E",
+          "text": "a validade temporal da carteira após os sessenta anos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 4º é providência de planejamento orçamentário e cronograma de implantação/manutenção do sistema, não prazo de retenção nem de validade."
+    },
+    {
+      "id": "per-u096-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A respeito dos prazos previstos no artigo 5º da Lei nº 9.454/1997, a associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 dias para emissão de carteiras e 60 dias para renovação."
+        },
+        {
+          "id": "B",
+          "text": "180 dias para regulamentação e 360 dias para início de implementação, ambos comandos históricos do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "12 meses para regulamentar e 24 meses para expedir todo documento."
+        },
+        {
+          "id": "D",
+          "text": "5 anos para criação do cadastro e 10 para sua validação."
+        },
+        {
+          "id": "E",
+          "text": "24 horas para instituir o sistema e 48 para compartilhar registros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 5º prevê regulamentação em 180 dias e início de implementação em 360 dias; esses prazos históricos não definem validade de documento."
+    },
+    {
+      "id": "per-u096-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 6º da Lei nº 9.454/1997, que originalmente previa consequências temporais para documentos anteriores, encontra-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "vigente, impondo vencimento imediato de toda carteira estadual."
+        },
+        {
+          "id": "B",
+          "text": "transformado em novo artigo sobre gratuidade."
+        },
+        {
+          "id": "C",
+          "text": "vigente apenas para quem tinha mais de sessenta anos em 1997."
+        },
+        {
+          "id": "D",
+          "text": "revogado pela Lei nº 12.058/2009."
+        },
+        {
+          "id": "E",
+          "text": "em vigor exclusivamente nas regiões que aderiram por convênio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 12.058/2009 revogou o artigo 6º. Não é correta a aplicação atual da regra originalmente prevista de perda de validade dos documentos."
+    },
+    {
+      "id": "per-u096-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a eficácia temporal da Lei nº 9.454/1997, os artigos 7º e 8º estabelecem, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "vigência apenas a partir de 2023 e cancelamento automático dos registros antigos."
+        },
+        {
+          "id": "B",
+          "text": "vigência no dia do nascimento de cada pessoa e revogação da Lei nº 7.116/1983."
+        },
+        {
+          "id": "C",
+          "text": "vigência na data de sua publicação e revogação genérica das disposições em contrário."
+        },
+        {
+          "id": "D",
+          "text": "vigência apenas após convênio de todos os estados e preservação de todas as normas anteriores incompatíveis."
+        },
+        {
+          "id": "E",
+          "text": "vigência depois de 360 dias e declaração de ilegalidade de qualquer carteira local."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 7º fixa vigência na publicação (08/04/1997) e o artigo 8º revoga genericamente as disposições contrárias; não revoga expressamente toda a legislação da carteira."
+    },
+    {
+      "id": "per-u096-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 7.166/2010, que organizava antigo Sistema Nacional de Registro de Identificação Civil, encontra-se, no corte legislativo de julho de 2026,",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogado pelo Decreto nº 10.977/2022."
+        },
+        {
+          "id": "B",
+          "text": "em vigor integralmente, acima do decreto de 2022."
+        },
+        {
+          "id": "C",
+          "text": "incorporado à Constituição com força de lei complementar."
+        },
+        {
+          "id": "D",
+          "text": "a única norma vigente para emissão nacional de carteira."
+        },
+        {
+          "id": "E",
+          "text": "revogado pela Lei nº 5.553/1968 antes de sua criação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Decreto nº 10.977/2022, artigo 27, inciso I, revogou o Decreto nº 7.166/2010. A Lei nº 9.454/1997 continuou sem revogação expressa."
+    },
+    {
+      "id": "per-u096-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No artigo 1º do Decreto nº 10.977/2022, as Leis nº 7.116/1983 e nº 9.454/1997 aparecem em funções diferentes. A correlação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira trata do Registro de Identidade Civil nacional e a segunda da retenção na portaria."
+        },
+        {
+          "id": "B",
+          "text": "ambas regulam exclusivamente a identificação criminal."
+        },
+        {
+          "id": "C",
+          "text": "a primeira define pena por falsificar documentos e a segunda define validade de passaportes."
+        },
+        {
+          "id": "D",
+          "text": "a primeira rege a expedição da carteira de identidade e a segunda o sistema nacional de registro de identificação civil."
+        },
+        {
+          "id": "E",
+          "text": "ambas foram revogadas pelo decreto de 2022."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Decreto nº 10.977/2022 regulamenta a Lei nº 7.116/1983 para expedição da carteira e a Lei nº 9.454/1997 para a configuração do Serviço de Identificação do Cidadão como sistema de registro civil."
+    },
+    {
+      "id": "per-u096-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O artigo 22 do Decreto nº 10.977/2022, com redação de 2023, dispõe que, para fins desse decreto, o Sistema Nacional de Registro de Identificação Civil será substituído pelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sistema Federal de Antecedentes Criminais, criado em 1997."
+        },
+        {
+          "id": "B",
+          "text": "Serviço de Identificação do Cidadão, instituído pelo Decreto nº 11.797/2023."
+        },
+        {
+          "id": "C",
+          "text": "Cadastro Nacional de Inquéritos, regido pela Lei nº 5.553/1968."
+        },
+        {
+          "id": "D",
+          "text": "Sistema de Numeração Estadual Independente."
+        },
+        {
+          "id": "E",
+          "text": "registro de impressão digital de condenado, obrigatório para todos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 22, com redação de 2023, estabelece o Serviço de Identificação do Cidadão como substituto do Sistema Nacional para fins regulamentares, sem revogar a lei de 1997."
+    },
+    {
+      "id": "per-u096-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 11.797/2023 faz do número do Cadastro de Pessoas Físicas (CPF) no Serviço de Identificação do Cidadão uma",
+      "options": [
+        {
+          "id": "A",
+          "text": "autorização para divulgação irrestrita de dados."
+        },
+        {
+          "id": "B",
+          "text": "substituição automática de todas as competências estaduais pela Receita Federal."
+        },
+        {
+          "id": "C",
+          "text": "prova de condenação criminal."
+        },
+        {
+          "id": "D",
+          "text": "chave que muda a cada emissão de carteira."
+        },
+        {
+          "id": "E",
+          "text": "chave de vinculação dos dados da pessoa natural."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 5º do Decreto nº 11.797/2023 usa o CPF como chave de vinculação dos dados. Isso não elimina responsabilidades de segurança, restrições de acesso ou verificação."
+    },
+    {
+      "id": "per-u096-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o artigo 7º do Decreto nº 11.797/2023, o compartilhamento de dados civis pelo Serviço de Identificação do Cidadão deverá",
+      "options": [
+        {
+          "id": "A",
+          "text": "atender a finalidades legítimas e específicas, limitar dados ao necessário e permitir controles de acesso e auditoria."
+        },
+        {
+          "id": "B",
+          "text": "ser irrestrito para qualquer particular interessado, desde que ele conheça o CPF."
+        },
+        {
+          "id": "C",
+          "text": "ocorrer sem medidas de segurança, porque não se trata de dados criminais."
+        },
+        {
+          "id": "D",
+          "text": "incluir automaticamente qualquer informação protegida por sigilo legal."
+        },
+        {
+          "id": "E",
+          "text": "dispensar transparência e fundamentação de finalidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O decreto condiciona compartilhamento às regras de finalidade, adequação, necessidade, segurança, transparência e auditabilidade, observada a legislação de proteção de dados."
+    },
+    {
+      "id": "per-u096-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos termos do Decreto nº 11.797/2023, o uso do Serviço de Identificação do Cidadão em procedimentos de identificação criminal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatório e suficiente para afastar todas as regras da Lei nº 12.037/2009."
+        },
+        {
+          "id": "B",
+          "text": "vedado em qualquer situação."
+        },
+        {
+          "id": "C",
+          "text": "facultativo quanto ao serviço, sem tornar facultativas obrigações legais próprias da identificação criminal."
+        },
+        {
+          "id": "D",
+          "text": "obrigatório somente quando o documento não possui fotografia."
+        },
+        {
+          "id": "E",
+          "text": "automático para todas as pessoas investigadas, independente de hipótese legal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 3º do Decreto nº 11.797/2023 fala do uso facultativo do serviço na identificação criminal. Isso não altera as hipóteses e os procedimentos impostos pela Lei nº 12.037/2009."
+    },
+    {
+      "id": "per-u096-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 14.534/2023, artigo 9º, definiu, respectivamente, os prazos de adaptação de sistemas/atendimento e de interoperabilidade entre bases pelo CPF como",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 meses e 12 meses."
+        },
+        {
+          "id": "B",
+          "text": "6 meses e 18 meses."
+        },
+        {
+          "id": "C",
+          "text": "180 dias e 360 dias."
+        },
+        {
+          "id": "D",
+          "text": "12 meses e 24 meses."
+        },
+        {
+          "id": "E",
+          "text": "5 anos e 10 anos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 9º da Lei nº 14.534/2023 fixou 12 meses para sistemas e atendimento e 24 meses para interoperabilidade, contados da publicação da lei; não são os prazos históricos de 1997."
+    },
+    {
+      "id": "per-u096-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um candidato confunde a autorização de convênios do artigo 3º, § 1º, da Lei nº 9.454/1997 com a dispensa prevista no artigo 21 do Decreto nº 10.977/2022 (redação de 2023). O contraste correto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os convênios federativos de implementação foram proibidos pelo decreto."
+        },
+        {
+          "id": "B",
+          "text": "a lei trata de cooperação para implementar o registro; o decreto dispensa convênio especificamente para o acesso técnico dos órgãos de identificação à base do CPF."
+        },
+        {
+          "id": "C",
+          "text": "a lei exige convênio para cada acesso judicial à identificação criminal."
+        },
+        {
+          "id": "D",
+          "text": "a dispensa do decreto torna proibidos os convênios permitidos por lei."
+        },
+        {
+          "id": "E",
+          "text": "o decreto revoga automaticamente todo o artigo 3º da lei."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os dispositivos tratam de objetos diferentes: convênios federativos de implementação (lei) e acesso à base CPF pelos expedidores a pedido do ente, sem convênio específico (decreto). Não há contradição nem revogação da lei."
+    },
+    {
+      "id": "per-u096-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um estrangeiro regularmente inscrito no CPF, sem naturalização, aparece em cadastros fiscais. Sobre o artigo 1º da Lei nº 9.454/1997, é correto",
+      "options": [
+        {
+          "id": "A",
+          "text": "concluir que ele é brasileiro nato por possuir CPF."
+        },
+        {
+          "id": "B",
+          "text": "presumir sua naturalização automática por lei."
+        },
+        {
+          "id": "C",
+          "text": "afirmar que o CPF só pode ser atribuído a brasileiros."
+        },
+        {
+          "id": "D",
+          "text": "identificar imediatamente qualquer número de CPF como documento de nacionalidade brasileira."
+        },
+        {
+          "id": "E",
+          "text": "distinguir o universo do CPF de pessoas físicas do número de Registro de Identidade Civil destinado no caput a brasileiros natos e naturalizados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O caput da Lei nº 9.454/1997 destina o RIC ao cidadão brasileiro nato ou naturalizado. A inscrição no CPF tem disciplina própria e não constitui prova automática de nacionalidade."
+    },
+    {
+      "id": "per-u096-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um estado não é signatário de convênio de implementação do artigo 3º, § 1º, da Lei nº 9.454/1997. O § 2º permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a previsão específica de participação por convênio alcança os estados e o Distrito Federal signatários, não autoriza presumir adesão automática desse estado."
+        },
+        {
+          "id": "B",
+          "text": "o estado é considerado signatário por presunção irrevogável desde 1997."
+        },
+        {
+          "id": "C",
+          "text": "a União perdeu a possibilidade de propor convênio a esse estado."
+        },
+        {
+          "id": "D",
+          "text": "o estado está dispensado de todas as normas federais de expedição da carteira nacional."
+        },
+        {
+          "id": "E",
+          "text": "a ausência do convênio torna seus cidadãos automaticamente estrangeiros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º condiciona a participação sob o arranjo de convênios aos entes signatários. Isso não afasta outros deveres e mecanismos do regime contemporâneo da carteira."
+    },
+    {
+      "id": "per-u096-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 11.797/2023 define o Serviço de Identificação do Cidadão como conjunto de procedimentos de gestão e verificação da identidade de pessoas naturais perante",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas estabelecimentos comerciais privados, sem relação com o setor público."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente cartórios municipais."
+        },
+        {
+          "id": "C",
+          "text": "a administração pública federal direta, autárquica e fundacional, com utilização do serviço na emissão de carteira por órgãos estaduais e distritais."
+        },
+        {
+          "id": "D",
+          "text": "qualquer pessoa física que conheça o número fiscal do titular."
+        },
+        {
+          "id": "E",
+          "text": "somente tribunais criminais, para produção de antecedentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 2º fixa o âmbito da administração pública federal direta, autárquica e fundacional, e seu parágrafo único prevê o uso pelos emissores estaduais e do Distrito Federal."
+    },
+    {
+      "id": "per-u096-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma unidade propõe incluir dados protegidos por sigilo legal no Serviço de Identificação do Cidadão para facilitar consultas públicas. Segundo o artigo 4º do Decreto nº 11.797/2023, a medida",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatória, independentemente de base legal."
+        },
+        {
+          "id": "B",
+          "text": "é livre desde que o dado tenha sido coletado por estado."
+        },
+        {
+          "id": "C",
+          "text": "depende apenas de um pedido informal de cidadão."
+        },
+        {
+          "id": "D",
+          "text": "contraria a proibição de uso de dados protegidos por sigilo legal e os deveres de proteção de dados."
+        },
+        {
+          "id": "E",
+          "text": "é permitida porque a Lei nº 9.454/1997 revogou integralmente a legislação de proteção de dados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 4º veda uso de dados protegidos por sigilo legal e impõe observância das regras de proteção de dados, inclusive da Lei nº 13.709/2018."
+    },
+    {
+      "id": "per-u096-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Um material de estudo descreve o Comitê Gestor do Decreto nº 7.166/2010 como órgão obrigatório e vigente da estrutura de identificação civil em 2026. A revisão correta deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter a informação porque normas anteriores têm precedência automática."
+        },
+        {
+          "id": "B",
+          "text": "assinalar que o Decreto nº 7.166/2010 foi revogado e confrontar a governança atual, incluindo o Serviço de Identificação do Cidadão e a Cefic previstos em 2023."
+        },
+        {
+          "id": "C",
+          "text": "substituir a Lei nº 9.454/1997 pela Lei nº 5.553/1968."
+        },
+        {
+          "id": "D",
+          "text": "tratar a carteira nacional como instrumento exclusivo de investigação criminal."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a pesquisa de alteração normativa porque o título do decreto é semelhante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O decreto de 2010 foi revogado em 2022. O modelo normativo atual usa o Serviço de Identificação do Cidadão e a Cefic, regulados pelo Decreto nº 11.797/2023, sem revogar a Lei nº 9.454/1997."
+    }
+  ]
+}
