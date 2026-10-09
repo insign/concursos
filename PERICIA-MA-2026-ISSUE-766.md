@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 9 | 0 | 27 |
+| Macros editoriais C/H/Q | 36 | 6 | 0 | 30 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 19 | 0 | 32 |
-| Unidades distintas | 99 | 3 | 0 | 96 |
-| Entregáveis unitários C/H/Q | 297 | 9 | 0 | 288 |
+| Total de macros individualizadas | 51 | 16 | 0 | 35 |
+| Unidades distintas | 99 | 2 | 0 | 97 |
+| Entregáveis unitários C/H/Q | 297 | 6 | 0 | 291 |
 
-Estado confirmado: **96 unidades/visões publicadas (90 locais, 6 por vínculo); 288 C/H/Q aceitos; 130/132 referências literais aceitas; 3400 questões acumuladas**. PER-U097 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **97 unidades/visões publicadas (91 locais, 6 por vínculo); 291 C/H/Q aceitos; 131/132 referências literais aceitas; 3445 questões acumuladas**. PER-U098 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04–E10 C/H/Q done. PER-U097 — Improbidade: sujeitos e atos está done; E11 em 5/6; próxima PER-U098 — Improbidade: sanções e procedimento**, conforme 5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 5/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05 e PER-E04–E11 C/H/Q done. PER-U098 — Improbidade: sanções e procedimento está done; E11 em 6/6; próxima PER-U099 — Redação: planejamento, critérios e treino comentado**, conforme 5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 6/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -678,7 +678,7 @@ Grupo consumidor: `conhecimentos-especificos/legislacao-especial/`, relativo à 
 | PER-U095 — Apresentação e retenção de identificação — Lei nº 5.553/1968 | E11: 2 | S05; nova/local, Lei nº 5.553/1968 e Lei nº 9.453/1997 | `documentos-identificacao-lei-5553` / `per-u095` / 950 | C/H/Q/R aceitos; vedação, prazo de cinco dias, devolução imediata no ingresso, ordem judicial e contravenção. **E11:2 aceito** com U094, sem duplicar expedição. Evidência 5.11, artefato `512a4c4a`. |
 | PER-U096 — Registro de identidade civil — Lei nº 9.454/1997 | E11: 3 | S05; nova/local, Lei nº 9.454/1997 e alterações de 2009/2023 | `registro-identidade-civil-lei-9454` / `per-u096` / 960 | **C/H/Q/R aceitos**; número único, cadastro, órgão central e cooperação, leis nº 12.058/2009 e nº 14.534/2023, sistemas anterior/atual e proteção de dados, sem duplicar a carteira. **E11:3 aceito** no artefato `121593c8`, evidência 5.11. |
 | PER-U097 — Improbidade: sujeitos e atos | E11: 4 | O071 canônico, TCE Analista/Técnico; reaproveitamento parcial/local com edição pedagógica e cotejo de jurisprudência | `improbidade-sujeitos-atos` / `per-u097` / 970 | Sujeitos/particulares, dolo, divergência interpretativa, enriquecimento ilícito (art. 9º), dano efetivo (art. 10), taxatividade e lesividade (art. 11), sucessão e direito intertemporal. C/H/Q/R aceitos em 5.11, commit `a0aae983`; **E11:4 permanece agregado pendente até U098** para sanções, rito e prescrição. |
-| PER-U098 — Improbidade: sanções e procedimento | E11: 4 | O072 | `improbidade-sancoes-procedimento` / `per-u098` / 980 | Complementa sujeitos/atos; sentença, sanções, procedimento e prescrição. Pontes: PER-U097. |
+| PER-U098 — Improbidade: sanções e procedimento | E11: 4 | O072 canônico; parcial/local adaptada | `improbidade-sancoes-procedimento` / `per-u098` / 980 | **C/H/Q/R aceitos**, sanções e dosimetria, responsabilidade patrimonial, indisponibilidade, investigação/ação, acordos, sentença, ressarcimento e prescrição, com ADIs 7156/7236 e temas 897/1199/1257; ponte PER-U097. **E11:4 e E11 6/6 integralmente aceitos**, evidência 5.11, artefato `99b1ef1b`. |
 
 #### 5.2.12 Preparação discursiva
 
@@ -922,17 +922,17 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 
 | Dimensão | Planejado / mapeado | Publicado ou aceito na Perícia |
 |---|---:|---:|
-| Referências literais da objetiva | 132/132 | 127/132 |
-| Unidades distintas da objetiva | 98 | 96 |
+| Referências literais da objetiva | 132/132 | 131/132 |
+| Unidades distintas da objetiva | 98 | 97 |
 | Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 96 |
-| Entregáveis unitários C/H/Q | 297: 9 pending + 0 analyzing + 288 done | 288 done |
-| Visões consumidoras previstas | 99 | 96 |
+| Total de unidades distintas | 99 | 97 |
+| Entregáveis unitários C/H/Q | 297: 6 pending + 0 analyzing + 291 done | 291 done |
+| Visões consumidoras previstas | 99 | 97 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
-| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 61 parciais locais, 10 integrais locais e 6 integrais por vínculo |
+| Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 62 parciais locais, 10 integrais locais e 6 integrais por vínculo |
 | Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 19 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 90 unidades locais, 6 vínculos Perícia; 3 unidades ainda pendentes (U028, U098 e U099). Classificações publicadas: 61 parciais locais, 10 integrais locais, 19 novas locais e 6 integrais canônicas.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 91 unidades locais, 6 vínculos Perícia; 2 unidades ainda pendentes (U028 e U099). Classificações publicadas: 62 parciais locais, 10 integrais locais, 19 novas locais e 6 integrais canônicas.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2709,6 +2709,15 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 | Q | `d8a542e787ca86f1e9e0f07d16298101e75f54e4` |
 | R | `0c4a4eb4536b07ff4448edf821527620fd592a03` |
 
+#### PER-U098 — Improbidade: sanções e procedimento: parcial/local — C/H/Q done
+
+- **Programa, consumidor e conclusão:** Legislação Especial, item **E11:4**, Lei nº 8.429/1992 e alterações, S05, Cargo 1 Generalista. Pacote exclusivo `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/conhecimentos-especificos/legislacao-especial/improbidade-sancoes-procedimento/`, `storageId: per-u098`, ordem 980, sem `vinculo.json`. Compartilha **referência literal**, não conjuntos de questões, com PER-U097 (sujeitos, dolo, tipos). **E11:4 passa a integral e E11 fecha 6/6**, PER-E11 C/H/Q done. Reserva da conversa: `per-u098-20261009-1400-gpt6-9631`, base principal `b81a333d4798de284ab6515999f7ab4086cbc53c`, mestre anterior `bbf3245ecf5db96c83adfed966ba53b4da4a4b75`.
+- **Origem e propriedade:** O072 canônico `src/content/biblioteca/controle-externo/improbidade-sancoes-procedimento/`, consumidores **TCE/MA Analista/Administração e Técnico-Administrativa** por dois `vinculo.json` explícitos com `canonical: controle-externo/improbidade-sancoes-procedimento`. Origem C `e19e8c2e4810f0ae9c863ed3246feb0e0cfe570f`, H `422426772cf4106133222566eaf1beead2f9ab5f`, Q `44bf4aa464aef4c2a9f23ac044bfaf84837f60a1`, R `1ad0e4f2ed047e0ba2ddce2535c71e9f2988dcb6`. Reaproveitamento **parcial/local** pelo corte normativo, foco Generalista e seleção/aprimoramento de questões; doador, vínculos, outros consumidores, #755/#764/#765 e infraestrutura não editados.
+- **Problema/intervenção/ganho:** aula canônica pensada para controle externo tinha corte em 07/09/2026 e ausência de ponte com U097; reprodução direta transferiria corte alheio e avaliação genérica da matéria. C local retoma um **contrato pericial inteiramente hipotético**, separa sanções pessoais, ressarcimento, reversão e indisponibilidade, preserva quadros dos artigos 12, 16–23 e acrescenta contrastes calculados (continuidade de ilícito, oito contra onze anos; bloqueio global de R$ 200 mil sem duplicação por réu; abatimento de serviços efetivos). H reorganiza os gatilhos de recuperação e explicita as decisões de 2026 e o corte. Q seleciona os conceitos mais pertinentes sem importar todo o banco especializado. Conteúdo C bruto **25.882 → 27.672** caracteres; H **9.338 → 9.600**, incremento pequeno justificado pelos cenários, atualização e fronteiras, sem estimativa de tempo poupado.
+- **Fontes e temporalidade:** Constituição art. 37, §§ 4º–5º, Lei nº 8.429/1992 compilada, Lei nº 14.230/2021, Lei nº 12.846/2013, legislação processual nos limites da unidade; decisões do Supremo Tribunal Federal nas ADIs 7042/7043 e 7156/7236 (julgamento conjunto concluído **01/07/2026**), Tema 1199 (transição prescricional), Tema 897 (ressarcimento qualificado) e Tema 1257 do Superior Tribunal de Justiça (indisponibilidade processual). Fontes oficiais e transcrição governamental do dispositivo parcial de junho identificadas em R, com limite de acesso ao inteiro teor; **corte legislativo 17/07/2026**, consulta em **09/10/2026** e janela jurisprudencial final potencial **11/12/2026**, sem certificar julgados futuros nem confundir a data do julgamento com publicação.
+- **Questões auditadas:** doador `questionSetRevision: 6`, **63 questões** (59 autorais, quatro anteriores). Selecionadas **37 autorais** com IDs `q5739`–`q5797` não contíguos, origem mantida; **9** receberam revisão de alternativas e `revision: 2 → 3`, demais mantidas na revisão 2. Acrescentadas **oito autorais inéditas** `per-u098-a01`–`a08`, revision 1. Conjunto local `questionSetRevision: 7`, **45 questões/225 alternativas**, cinco opções, chave única e explicação por item. As **quatro anteriores não foram importadas** sem verificação própria de prova, gabarito e licenciamento; não inventar atribuição de banca/ano. Sem resoluções avulsas necessárias. Inspeção editorial e leitura dos C/H/Q/R completos; sem testes/build/check/CI.
+- **Publicação e releitura:** pacote único [`99b1ef1b`](https://github.com/insign/concursos/commit/99b1ef1ba079cd31afe09f77af5e621560b9baff) confirmado na main, com apenas quatro arquivos locais de PER-U098, sem criação de grupos. Quatro blobs relidos: C `52ed6b68dede6c95ae4f93e44a73beb14027b5ae`; H `85b353401bd9f55545641a80138d671f4f6c7d65`; Q `fe97083f63098149c295343d793f10d0dd5e82f8`; R `05f1f9b10fec5ecc5e840ca3a85efc9f1997abe9`.
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2857,9 +2866,9 @@ Respeitar o recorte de direito administrativo e agentes públicos deste bloco, s
 - [x] PER-E10-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 ##### PER-E11 — Legislação Especial
-- [ ] PER-E11-C — `pending` — Pesquisar, revisar e salvar conteúdo e referências de todas as normas enumeradas, conciliando cobertura das ocorrências repetidas e controle do corte sem correção silenciosa do edital.
-- [ ] PER-E11-H — `pending` — Produzir e salvar cheat sheets.
-- [ ] PER-E11-Q — `pending` — Buscar, revisar e salvar questões e resoluções pertinentes.
+- [x] PER-E11-C — `done` — Pesquisar, revisar e salvar conteúdo e referências de todas as normas enumeradas, conciliando cobertura das ocorrências repetidas e controle do corte sem correção silenciosa do edital.
+- [x] PER-E11-H — `done` — Produzir e salvar cheat sheets.
+- [x] PER-E11-Q — `done` — Buscar, revisar e salvar questões e resoluções pertinentes.
 
 #### Preparação discursiva — bloco editorial auxiliar, item 9
 
@@ -3464,9 +3473,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U098 — Improbidade: sanções e procedimento
 
-- [ ] PER-U098-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U098-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U098-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U098-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U098-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U098-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 #### PER-U099 — Redação: planejamento, critérios e treino comentado
 
@@ -3784,3 +3793,5 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U095:** pacote `512a4c4aa3f3377f9365b2d9148c1ab29b42d6e2` confirmado na `main` (C/H/Q/R), 24 autorais/120 alternativas, nova/local. E11:2 completado com U094; E11 **3/6**. Totais: **94/99 unidades, 282/297 C/H/Q, 129/132 referências, 3338 questões**, 88 locais e 6 vínculos; macros **32 done/19 pending/0 analyzing**. Próxima PER-U096.
 - **PER-U096:** pacote `121593c8e39f900445244e6d43b22d5962b0c87c` confirmado na `main` (C/H/Q/R), nova/local com **28 questões autorais/140 alternativas**, E11:3 aceito. Totais: **95/99 unidades, 285/297 C/H/Q, 130/132 referências, 3366 questões**, 89 locais e 6 vínculos; E11 **4/6**, macros **32 done/19 pending/0 analyzing**. Próxima PER-U097 — Improbidade: sujeitos e atos; reserva U096 liberada após painel.
 - **PER-U097:** `a0aae983d12f77dcc9397fbb0274513d908e41db` confirmado na `main`, quatro blobs C/H/Q/R relidos. Parcial/local a partir de O071 canônico do TCE, sem afetar origens/consumidores; **34 questões autorais/170 alternativas** (27 doadoras revisadas + 7 novas). E11 **5/6**, pai E11:4 pendente até U098, macros E11-C/H/Q pending. Totais **96/99 unidades, 288/297 C/H/Q, 130/132 referências, 3400 questões**, 90 locais e 6 vínculos, **32 macros done/19 pending/0 analyzing**. Próxima ação PER-U098 — Improbidade: sanções e procedimento; reserva própria liberada após sincronização da issue.
+- **PER-U098:** pacote `99b1ef1ba079cd31afe09f77af5e621560b9baff` confirmado na `main`, quatro blobs C/H/Q/R relidos; parcial/local de O072 canônico do TCE sem tocar consumidores. **45 questões autorais/225 alternativas** (37 selecionadas do doador, nove revisadas, oito novas); E11:4 aceita em conjunto com U097 e **PER-E11-C/H/Q fecha done**, Legislação Especial **6/6**. Totais: **97/99 unidades, 291/297 C/H/Q, 131/132 referências, 3445 questões**, 91 locais e 6 vínculos; **35 macros done/16 pending/0 analyzing**. Próxima ação PER-U099 — Redação: planejamento, critérios e treino comentado; U028 permanece dependente de esclarecimento da expressão literal “Fundamentos de eclética”. Reserva própria a liberar após sincronização do painel.
+
