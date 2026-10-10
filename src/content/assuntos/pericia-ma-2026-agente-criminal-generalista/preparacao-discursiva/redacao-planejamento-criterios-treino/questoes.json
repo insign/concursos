@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "per-u099-a01",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma proposta fictícia pede 'Discuta condições para que serviços digitais ampliem o acesso da população'. Que plano atende melhor ao comando?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Descrever a história geral da internet e listar tecnologias."
+        },
+        {
+          "id": "B",
+          "text": "Repetir a afirmação de que tecnologia é importante em todos os parágrafos."
+        },
+        {
+          "id": "C",
+          "text": "Comentar apenas o custo de equipamentos, sem relacioná-lo ao acesso."
+        },
+        {
+          "id": "D",
+          "text": "Defender que o acesso exige informação compreensível e canais de apoio, explicando as duas condições."
+        },
+        {
+          "id": "E",
+          "text": "Enumerar aplicativos e encerrar sem discutir seus efeitos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O comando pede condições, não inventário tecnológico. Uma tese delimitada e razões que expliquem clareza e apoio respondem ao recorte e permitem progressão."
+    },
+    {
+      "id": "per-u099-a02",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Cargo 1 — Agente de Perícia Criminal, Generalista, a redação versará sobre",
+      "options": [
+        {
+          "id": "A",
+          "text": "assunto escolhido livremente pelo candidato, sem delimitação programática."
+        },
+        {
+          "id": "B",
+          "text": "tema relacionado aos conhecimentos gerais do Grupo I."
+        },
+        {
+          "id": "C",
+          "text": "apenas criminalística e medicina legal do Grupo II."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente Atualidades, disciplina objetiva autônoma."
+        },
+        {
+          "id": "E",
+          "text": "uma questão prática de elaboração de laudo pericial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item 9.1 limita a redação aos objetos de conhecimentos gerais do Grupo I. Não cria disciplina autônoma de Atualidades nem transfere conhecimentos específicos de outro cargo."
+    },
+    {
+      "id": "per-u099-a03",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto de características é previsto no edital para a discursiva do Generalista?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uma redação dissertativa de até 30 linhas, valendo 20 pontos."
+        },
+        {
+          "id": "B",
+          "text": "Duas questões técnicas de até 15 linhas, valendo dez pontos cada."
+        },
+        {
+          "id": "C",
+          "text": "Redação com no mínimo 30 e no máximo 40 linhas."
+        },
+        {
+          "id": "D",
+          "text": "Texto de correspondência oficial com vocativo e assinatura obrigatórios."
+        },
+        {
+          "id": "E",
+          "text": "Peça de natureza penal com até 45 linhas, valendo 20 pontos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item 9.1 prevê redação dissertativa, até 30 linhas e 20 pontos. Não fixa número mínimo de linhas nem converte o texto em expediente administrativo."
+    },
+    {
+      "id": "per-u099-a04",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O comando autoral diz: 'Explique por que a definição de indicadores interfere na avaliação de serviços'. Um texto apresenta conceitos, mecanismos e limites, sem defender uma política controversa. Nesse caso, a dissertação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente inadequada, pois todo texto dissertativo exige uma tese contra outra opinião."
+        },
+        {
+          "id": "B",
+          "text": "é narrativa apenas por descrever etapas temporais."
+        },
+        {
+          "id": "C",
+          "text": "precisa citar um pesquisador identificado para cumprir o gênero."
+        },
+        {
+          "id": "D",
+          "text": "deve encerrar com proposta de intervenção conforme modelo de outro exame."
+        },
+        {
+          "id": "E",
+          "text": "pode ser predominantemente explicativa, desde que responda com clareza ao verbo do comando."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O próprio comando 'explique' permite exposição fundamentada. Não há exigência de criar conflito de opiniões ou usar modelo externo de prova."
+    },
+    {
+      "id": "per-u099-a05",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual frase oferece a tese mais delimitada para discutir inclusão no atendimento digital?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A tecnologia é um assunto bastante importante."
+        },
+        {
+          "id": "B",
+          "text": "O mundo moderno apresenta muitos desafios sociais."
+        },
+        {
+          "id": "C",
+          "text": "A digitalização amplia o acesso quando oferece instruções compreensíveis, proteção de informações e suporte a quem enfrenta dificuldades."
+        },
+        {
+          "id": "D",
+          "text": "Desde a Antiguidade, seres humanos procuram novos meios de comunicação."
+        },
+        {
+          "id": "E",
+          "text": "É necessário promover iniciativas relevantes e inovadoras em todas as situações."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alternativa apresenta posição condicionada e indica mecanismos desenvolvíveis, sem inventar efeitos universais; as outras permanecem genéricas ou fora do recorte."
+    },
+    {
+      "id": "per-u099-a06",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os dois parágrafos de desenvolvimento de uma redação usam sinônimos para dizer que informações claras são importantes. Qual intervenção melhor resolve a repetição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acrescentar adjetivos positivos aos dois parágrafos."
+        },
+        {
+          "id": "B",
+          "text": "Desenvolver no segundo uma condição diferente, como apoio a usuários com dificuldade digital, explicando sua relação com a tese."
+        },
+        {
+          "id": "C",
+          "text": "Repetir a mesma tese no início e fim de cada parágrafo."
+        },
+        {
+          "id": "D",
+          "text": "Empregar um conector conclusivo, mesmo sem conclusão nova."
+        },
+        {
+          "id": "E",
+          "text": "Excluir a conclusão e manter as duas razões equivalentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Progressão temática acrescenta uma ideia pertinente e explica sua relação com a tese. Trocar palavras não transforma duplicação em segundo argumento."
+    },
+    {
+      "id": "per-u099-a07",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Considere: 'O portal foi lançado ontem. Portanto, todos os usuários já conseguem utilizá-lo'. Qual crítica é central?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O problema principal é a concordância entre portal e lançado."
+        },
+        {
+          "id": "B",
+          "text": "A frase deixa implícito que o portal será lançado."
+        },
+        {
+          "id": "C",
+          "text": "A presença de 'portanto' sempre dispensa outras justificativas."
+        },
+        {
+          "id": "D",
+          "text": "A conclusão universal decorre necessariamente da data de lançamento."
+        },
+        {
+          "id": "E",
+          "text": "Ter sido lançado não comprova acesso de todos; o conector não produz inferência válida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Lançamento é fato temporal. Acesso universal exigiria evidências adicionais. Coesão formal não substitui coerência do raciocínio."
+    },
+    {
+      "id": "per-u099-a08",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sem dados que demonstrem resultados, qual formulação evita extrapolação indevida?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Instruções claras podem diminuir dúvidas, conforme as condições de atendimento."
+        },
+        {
+          "id": "B",
+          "text": "Instruções claras eliminaram comprovadamente todas as dúvidas em qualquer serviço."
+        },
+        {
+          "id": "C",
+          "text": "Dados inexistentes confirmam que houve melhora de 100%."
+        },
+        {
+          "id": "D",
+          "text": "Todos os serviços serão acessíveis porque possuem página eletrônica."
+        },
+        {
+          "id": "E",
+          "text": "Se existe tecnologia, a inclusão está garantida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Possibilidade condicionada é defensável como mecanismo hipotético; as demais opções apresentam certeza ou estatística sem evidência."
+    },
+    {
+      "id": "per-u099-a09",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em 'A unidade analisou o pedido e a reclamação. Isso foi encaminhado', o pronome pode retomar objetos distintos. Qual revisão atende melhor à precisão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Manter 'isso' porque todo pronome é unívoco."
+        },
+        {
+          "id": "B",
+          "text": "Substituir por 'aquilo', sem explicitar referente."
+        },
+        {
+          "id": "C",
+          "text": "Acrescentar 'portanto' antes do pronome."
+        },
+        {
+          "id": "D",
+          "text": "Retomar explicitamente 'o pedido' ou 'a reclamação', conforme o objeto realmente encaminhado."
+        },
+        {
+          "id": "E",
+          "text": "Repetir 'encaminhado' duas vezes, sem indicar objeto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando há dois antecedentes plausíveis, o leitor não deve adivinhar qual foi encaminhado. Retomada nominal precisa resolve a ambiguidade."
+    },
+    {
+      "id": "per-u099-a10",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de defender clareza de instruções e meios complementares de apoio, qual fecho mantém a coerência?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Afirmar pela primeira vez que um novo país adotou sistema semelhante."
+        },
+        {
+          "id": "B",
+          "text": "Declarar que o atendimento presencial deve ser extinto em todas as condições."
+        },
+        {
+          "id": "C",
+          "text": "Concluir que a inclusão digital depende de comunicação compreensível e suporte real, sintetizando as razões apresentadas."
+        },
+        {
+          "id": "D",
+          "text": "Introduzir debate não desenvolvido sobre política tributária."
+        },
+        {
+          "id": "E",
+          "text": "Repetir frases vagas sem recuperar nenhum critério do corpo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conclusão decorre das condições explicadas, sem dado novo, tese contraditória ou desvio temático."
+    },
+    {
+      "id": "per-u099-a11",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma candidata confunde registro formal com expediente administrativo. Que orientação é adequada à redação dissertativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acrescentar vocativo e assinatura por se tratar de concurso público."
+        },
+        {
+          "id": "B",
+          "text": "Escrever com precisão e correção, sem exigir formato de ofício nem palavras rebuscadas."
+        },
+        {
+          "id": "C",
+          "text": "Usar somente voz passiva, porque a redação não admite sujeito explícito."
+        },
+        {
+          "id": "D",
+          "text": "Preferir substantivos difíceis a verbos que expliquem ações."
+        },
+        {
+          "id": "E",
+          "text": "Evitar toda repetição nominal, mesmo com pronomes ambíguos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Dissertação e ofício são gêneros diferentes. Linguagem formal pede adequação e clareza, não vocativo, assinatura ou rebuscamento automático."
+    },
+    {
+      "id": "per-u099-a12",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual revisão promove paralelismo em 'informar as etapas, o atendimento às dúvidas e que os registros sejam protegidos'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Informar as etapas, orientar os usuários e proteger os registros."
+        },
+        {
+          "id": "B",
+          "text": "Informar as etapas, o orientar usuários e a proteção de registros seja."
+        },
+        {
+          "id": "C",
+          "text": "Informar as etapas, orientação de usuários e que se proteja."
+        },
+        {
+          "id": "D",
+          "text": "Informação das etapas, orientar usuários e a proteger registros."
+        },
+        {
+          "id": "E",
+          "text": "Manter a forma inicial, pois o paralelismo nunca favorece a leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência de três verbos no infinitivo com complementos claros alinha a função das ações, sem mudar o núcleo pretendido."
+    },
+    {
+      "id": "per-u099-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na fórmula da discursiva, uma redação hipotética recebe 16 pontos de conteúdo, seis erros e 24 linhas escritas. Qual nota final resulta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "16, porque a quantidade de erros não afeta a nota."
+        },
+        {
+          "id": "B",
+          "text": "12, porque se abate quatro pontos fixos por qualquer erro."
+        },
+        {
+          "id": "C",
+          "text": "10, porque são descontados todos os seis erros em pontos inteiros."
+        },
+        {
+          "id": "D",
+          "text": "14, porque a dedução calculada é dois pontos."
+        },
+        {
+          "id": "E",
+          "text": "15, porque 4 × 6 ÷ 24 representa um ponto de dedução."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A regra é nota de conteúdo menos quatro vezes a razão entre erros e linhas. 16 − 4×6/24 = 16 − 1 = 15."
+    },
+    {
+      "id": "per-u099-a14",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma simulação, a nota de conteúdo é 12, com 18 erros e 24 linhas efetivas. Qual conclusão é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A nota final é 12 e há aprovação porque o conteúdo supera 10."
+        },
+        {
+          "id": "B",
+          "text": "A nota final é 10 por arredondamento obrigatório."
+        },
+        {
+          "id": "C",
+          "text": "A nota final é 9 e fica abaixo do mínimo de aprovação na discursiva."
+        },
+        {
+          "id": "D",
+          "text": "A nota final é 6, porque cada erro equivale a um ponto."
+        },
+        {
+          "id": "E",
+          "text": "A nota final é 18, pois o número de linhas compensa os erros."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A dedução é 4×18/24 = 3; a nota final é 12 − 3 = 9. O mínimo exigido é 10 pontos na nota final."
+    },
+    {
+      "id": "per-u099-a15",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os examinadores atribuem 13 e 17 pontos de conteúdo (máximo 20) a uma redação. Qual procedimento segue o edital?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Terceira avaliação porque toda diferença superior a três pontos é divergência."
+        },
+        {
+          "id": "B",
+          "text": "Soma das duas notas para resultado de 30 pontos."
+        },
+        {
+          "id": "C",
+          "text": "Nota igual à maior avaliação por critério de benefício."
+        },
+        {
+          "id": "D",
+          "text": "Notas convergentes, pois diferem quatro pontos; o conteúdo recebe a média 15."
+        },
+        {
+          "id": "E",
+          "text": "Anulação por divergência obrigatória."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O limiar de convergência é 25% de 20, isto é, cinco pontos. Uma diferença de quatro permite usar média: (13+17)/2 = 15."
+    },
+    {
+      "id": "per-u099-a16",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Duas avaliações de conteúdo são 12 e 18, para máximo de 20 pontos. O que deve acontecer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atribuição automática da média 15, sem nenhuma outra avaliação."
+        },
+        {
+          "id": "B",
+          "text": "Terceira correção, pois a diferença de seis supera o limite de convergência de cinco pontos."
+        },
+        {
+          "id": "C",
+          "text": "Aprovação automática na prova, ainda antes de computar erros."
+        },
+        {
+          "id": "D",
+          "text": "Escolha imediata da nota mais alta pelo candidato."
+        },
+        {
+          "id": "E",
+          "text": "Nota zero porque os avaliadores não chegaram ao mesmo número."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Acima de 25% da nota máxima, exige-se terceira correção; selecionam-se as duas notas mais próximas desde que convergentes."
+    },
+    {
+      "id": "per-u099-a17",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na avaliação da redação do concurso, que documento é válido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A folha de texto definitivo, observados os limites e condições do edital."
+        },
+        {
+          "id": "B",
+          "text": "O rascunho, se contiver a versão mais completa."
+        },
+        {
+          "id": "C",
+          "text": "Rascunho e texto definitivo somados em uma única resposta."
+        },
+        {
+          "id": "D",
+          "text": "Qualquer folha adicional assinada e anexada pelo candidato."
+        },
+        {
+          "id": "E",
+          "text": "O conteúdo oralmente explicado ao fiscal após a prova."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item 9.5 declara válida somente a folha definitiva; rascunho é facultativo e não integra a avaliação."
+    },
+    {
+      "id": "per-u099-a18",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao terminar a redação, um candidato deseja assinar ao pé do último parágrafo para confirmar autoria. Qual é a conduta correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assinar no fim porque todo texto formal exige identificação."
+        },
+        {
+          "id": "B",
+          "text": "Assinar é permitido se a palavra ocupar menos de uma linha."
+        },
+        {
+          "id": "C",
+          "text": "Usar rubrica em vez de assinatura, sem risco de identificação."
+        },
+        {
+          "id": "D",
+          "text": "Acrescentar assinatura fora do espaço indicado para evitar erro de identificação."
+        },
+        {
+          "id": "E",
+          "text": "Não colocar assinatura, rubrica ou outra marca de identificação fora do lugar permitido, sob pena de anulação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O item 9.4 proíbe identificação em local impróprio e prevê anulação da discursiva."
+    },
+    {
+      "id": "per-u099-a19",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma candidata ultrapassa o limite de 30 linhas e coloca o fechamento indispensável apenas na linha 31. Qual risco decorre do edital?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O fechamento excedente ainda será lido porque faz parte do mesmo parágrafo."
+        },
+        {
+          "id": "B",
+          "text": "O limite de 30 linhas é orientação facultativa sem consequência."
+        },
+        {
+          "id": "C",
+          "text": "O fragmento além do limite é desconsiderado; o texto deve conter argumento e fecho no espaço válido."
+        },
+        {
+          "id": "D",
+          "text": "Será atribuída pontuação extra por desenvolvimento ampliado."
+        },
+        {
+          "id": "E",
+          "text": "O texto será automaticamente transformado em questão objetiva."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Item 9.7.5, c: o que estiver fora do espaço ou ultrapassar o limite de linhas é desconsiderado."
+    },
+    {
+      "id": "per-u099-a20",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma redação de 25 linhas está gramaticalmente correta, mas foge completamente ao tema do comando. Que consequência é expressa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avaliar apenas grafia, desconsiderando conteúdo."
+        },
+        {
+          "id": "B",
+          "text": "Nota zero por fuga ao tema."
+        },
+        {
+          "id": "C",
+          "text": "Nota de conteúdo mínima de dez pontos por cumprir o limite de linhas."
+        },
+        {
+          "id": "D",
+          "text": "Direito de apresentar segundo texto após resultado provisório."
+        },
+        {
+          "id": "E",
+          "text": "Nota máxima de apresentação e estrutura por legibilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O edital atribui zero aos casos de fuga ao tema, independentemente de extensão ou correção formal."
+    },
+    {
+      "id": "per-u099-a21",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O candidato devolve a folha definitiva sem qualquer texto. Como aplicar a regra de nota?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar uma linha fictícia para permitir a divisão da fórmula."
+        },
+        {
+          "id": "B",
+          "text": "Atribuir nota máxima por não haver erros gramaticais."
+        },
+        {
+          "id": "C",
+          "text": "Usar trinta como total de linhas efetivas por ser a capacidade do papel."
+        },
+        {
+          "id": "D",
+          "text": "Aplicar nota zero por ausência de texto, sem calcular uma divisão com total de linhas igual a zero."
+        },
+        {
+          "id": "E",
+          "text": "Considerar somente a nota da objetiva para compor a discursiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ausência de texto tem regra específica de nota zero; a fórmula pressupõe texto efetivamente escrito e linhas contáveis."
+    },
+    {
+      "id": "per-u099-a22",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A objetiva e a discursiva compartilham cinco horas no turno da tarde. Qual planejamento é compatível com o edital?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Distribuir de forma flexível o tempo das duas provas, sem atribuir ao edital uma divisão fixa de minutos."
+        },
+        {
+          "id": "B",
+          "text": "Reservar obrigatoriamente duas horas completas para redação porque o edital fixa esse bloco."
+        },
+        {
+          "id": "C",
+          "text": "Usar cinco horas para cada prova, num total de dez horas."
+        },
+        {
+          "id": "D",
+          "text": "Escrever a redação somente após entrega da objetiva e autorização separada."
+        },
+        {
+          "id": "E",
+          "text": "Dedicar tempo exclusivamente à objetiva; a redação pode ser entregue em outro dia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As cinco horas são compartilhadas. O candidato deve gerir as etapas, mas não há distribuição oficial de minutos entre elas."
+    },
+    {
+      "id": "per-u099-a23",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Depois de divulgado o padrão definitivo da prova discursiva, que objeto pode ser discutido no recurso contra o resultado provisório?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A rediscussão irrestrita do padrão em tese, mesmo já decidido."
+        },
+        {
+          "id": "B",
+          "text": "A substituição do tema por outro escolhido pelo candidato."
+        },
+        {
+          "id": "C",
+          "text": "A correção aplicada à própria resposta à luz do padrão definitivo, sem renovar impugnação abstrata desse padrão."
+        },
+        {
+          "id": "D",
+          "text": "A escrita de nova redação para substituir o texto definitivo."
+        },
+        {
+          "id": "E",
+          "text": "A inclusão de parágrafos no rascunho não avaliado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os itens 9.8.3–9.8.5 diferenciam recursos ao padrão preliminar e ao resultado: este fica restrito à correção segundo padrão definitivo."
+    },
+    {
+      "id": "per-u099-a24",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma candidata pensa em inserir percentual de pesquisa que não sabe identificar para fortalecer a redação. Qual opção protege precisão e credibilidade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atribuir o percentual a uma instituição não nomeada."
+        },
+        {
+          "id": "B",
+          "text": "Criar um valor plausível e apresentá-lo como dado oficial."
+        },
+        {
+          "id": "C",
+          "text": "Acrescentar um ano fictício para tornar a informação mais convincente."
+        },
+        {
+          "id": "D",
+          "text": "Evitar desenvolver mecanismos, pois toda explicação exige números."
+        },
+        {
+          "id": "E",
+          "text": "Explicar o mecanismo com clareza e, se usar situação inventada, identificá-la como hipotética, sem inventar fontes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Argumentar não exige citações fictícias. Uma relação explicitada e exemplo hipotético transparente sustentam o texto sem criar fatos ou resultados."
+    },
+    {
+      "id": "per-u099-a25",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em tema sobre vieses de pesquisa, qual argumento usa corretamente conhecimentos de Raciocínio Lógico e Científico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo aumento de indicador depois de uma medida prova causalidade."
+        },
+        {
+          "id": "B",
+          "text": "É necessário definir indicadores e examinar quais casos ficaram fora dos dados para evitar conclusões distorcidas."
+        },
+        {
+          "id": "C",
+          "text": "Como existem vieses, nenhuma medição pode ser usada."
+        },
+        {
+          "id": "D",
+          "text": "Ausência de números basta para afastar viés de seleção."
+        },
+        {
+          "id": "E",
+          "text": "O volume de dados torna irrelevante a forma de coleta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Definição de medida e seleção dos registros afetam a inferência. Mudança temporal não demonstra, por si só, causa, e amostras grandes podem permanecer enviesadas."
+    },
+    {
+      "id": "per-u099-a26",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao reescrever a frase 'O serviço pode reduzir dúvidas se houver orientação clara' como 'O serviço eliminará dúvidas em todos os casos', o aluno",
+      "options": [
+        {
+          "id": "A",
+          "text": "melhorou a concordância sem modificar a informação."
+        },
+        {
+          "id": "B",
+          "text": "conservou a mesma condição e a mesma modalidade de certeza."
+        },
+        {
+          "id": "C",
+          "text": "reduziu o alcance da afirmação."
+        },
+        {
+          "id": "D",
+          "text": "transformou possibilidade condicionada em certeza universal sem sustentação."
+        },
+        {
+          "id": "E",
+          "text": "passou da dissertação à narração obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "'Pode ... se' é possibilidade subordinada a condição; 'eliminará ... em todos' afirma certeza e universalidade, alterando o conteúdo."
+    },
+    {
+      "id": "per-u099-a27",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A introdução promete explicar duas condições para a digitalização inclusiva, mas o desenvolvimento trata só de uma. Qual revisão melhora a arquitetura?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desenvolver a segunda condição ou restringir a tese para que as partes correspondam."
+        },
+        {
+          "id": "B",
+          "text": "Inserir 'por conseguinte' antes de qualquer oração e manter o conteúdo."
+        },
+        {
+          "id": "C",
+          "text": "Ampliar as linhas apenas com sinônimos da primeira condição."
+        },
+        {
+          "id": "D",
+          "text": "Acrescentar uma assinatura final para fechar a argumentação."
+        },
+        {
+          "id": "E",
+          "text": "Excluir toda conclusão, mantendo a promessa não cumprida."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A introdução estabelece um compromisso com o leitor; desenvolvimento e fecho precisam entregar o que foi anunciado, sem repetição formal vazia."
+    },
+    {
+      "id": "per-u099-a28",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na proposta fictícia sobre inteligência artificial em serviços públicos, qual linha argumentativa delimita melhor o papel do controle humano?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Como o sistema é digital, todas as respostas são necessariamente corretas e não exigem supervisão."
+        },
+        {
+          "id": "B",
+          "text": "A tecnologia é sempre prejudicial e deve ser recusada sem avaliação de finalidade ou resultados."
+        },
+        {
+          "id": "C",
+          "text": "Ferramentas podem apoiar tarefas, desde que suas recomendações sejam verificáveis, haja responsáveis identificáveis e seja possível corrigir decisões."
+        },
+        {
+          "id": "D",
+          "text": "O controle humano pode ser eliminado sempre que a tarefa parecer repetitiva, mesmo que afete pessoas."
+        },
+        {
+          "id": "E",
+          "text": "Basta citar um sistema famoso, ainda que sem mostrar relações com atendimento ou responsabilidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O comando pede equilíbrio entre apoio tecnológico e controle humano; a alternativa C articula verificação, responsabilidade e correção, sem confundir automação com certeza de acerto."
+    }
+  ]
+}
