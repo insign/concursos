@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q086",
@@ -1414,33 +1414,33 @@
     },
     {
       "id": "q133",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Na revisão do período “A auto-avaliação do setor ocorrerá no dia-a-dia, e os diretores vêem a medida como anti-inflamatória contra falhas”, qual versão corrige apenas a ortografia?",
+      "prompt": "Na revisão do período “A auto-avaliação faz parte do dia-a-dia da farmácia, e os profissionais vêem aumentar a procura por anti-inflamatórios”, qual versão corrige apenas a ortografia?",
       "options": [
         {
           "id": "a",
-          "text": "A auto-avaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como antinflamatória contra falhas."
+          "text": "A auto-avaliação faz parte do dia a dia da farmácia, e os profissionais veem aumentar a procura por antinflamatórios."
         },
         {
           "id": "b",
-          "text": "A autoavaliação do setor ocorrerá no dia-a-dia, e os diretores vêem a medida como anti-inflamatória contra falhas."
+          "text": "A autoavaliação faz parte do dia-a-dia da farmácia, e os profissionais vêem aumentar a procura por anti-inflamatórios."
         },
         {
           "id": "c",
-          "text": "A autoavaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como anti-inflamatória contra falhas."
+          "text": "A autoavaliação faz parte do dia a dia da farmácia, e os profissionais veem aumentar a procura por anti-inflamatórios."
         },
         {
           "id": "d",
-          "text": "A auto avaliação do setor ocorrerá no dia a dia, e os diretores veem a medida como antinflamatória contra falhas."
+          "text": "A auto avaliação faz parte do dia a dia da farmácia, e os profissionais veem aumentar a procura por antinflamatórios."
         },
         {
           "id": "e",
-          "text": "A autoavaliação do setor ocorrerá no dia-a-dia, e os diretores veem a medida como anti inflamatória contra falhas."
+          "text": "A autoavaliação faz parte do dia-a-dia da farmácia, e os profissionais veem aumentar a procura por anti inflamatórios."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "Escrevem-se “autoavaliação”, “dia a dia”, “veem” (sem circunflexo) e “anti-inflamatória” (mesma vogal). Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Escrevem-se “autoavaliação”, “dia a dia”, “veem” (sem circunflexo) e “anti-inflamatórios” (mesma vogal). Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q142",
