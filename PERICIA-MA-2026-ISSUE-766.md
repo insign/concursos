@@ -24,15 +24,15 @@ Este é o arquivo-mestre da implantação do **Cargo 1 — Agente de Perícia Cr
 |---|---:|---:|---:|---:|
 | Implantação e fontes | 5 | 0 | 0 | 5 |
 | Inventário e reaproveitamento | 5 | 5 | 0 | 0 |
-| Macros editoriais C/H/Q | 36 | 6 | 0 | 30 |
+| Macros editoriais C/H/Q | 36 | 3 | 0 | 33 |
 | Fechamento | 5 | 5 | 0 | 0 |
-| Total de macros individualizadas | 51 | 16 | 0 | 35 |
-| Unidades distintas | 99 | 2 | 0 | 97 |
-| Entregáveis unitários C/H/Q | 297 | 6 | 0 | 291 |
+| Total de macros individualizadas | 51 | 13 | 0 | 38 |
+| Unidades distintas | 99 | 1 | 0 | 98 |
+| Entregáveis unitários C/H/Q | 297 | 3 | 0 | 294 |
 
-Estado confirmado: **97 unidades/visões publicadas (91 locais, 6 por vínculo); 291 C/H/Q aceitos; 131/132 referências literais aceitas; 3445 questões acumuladas**. PER-U098 está concluída e aceita; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
+Estado confirmado: **98 unidades/visões publicadas (92 locais, 6 por vínculo); 294 C/H/Q aceitos; 131/132 referências literais objetivas aceitas; 3473 questões acumuladas**. PER-U099 está concluída e aceita como **unidade discursiva auxiliar**, fora das 132 referências literais da objetiva; não há unidade em `analyzing`. Matriz: 98 unidades objetivas e uma auxiliar, 99 visões previstas, 132/132 referências mapeadas. As 36 macros C/H/Q agregam unidades; macros, doadores e associações não se somam ao total. Aceites históricos em 5.6–5.10/8.6–8.11 preservados; execução corrente em 5.11/8.12. Não importar aceite de campanhas alheias.
 
-**PER-P01–P05 e PER-E04–E11 C/H/Q done. PER-U098 — Improbidade: sanções e procedimento está done; E11 em 6/6; próxima PER-U099 — Redação: planejamento, critérios e treino comentado**, conforme 5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 6/6; E12 0/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
+**PER-P01–P05 e PER-E04–E12 C/H/Q done. PER-U099 — Preparação discursiva está done; E12 em 1/1; PER-U028 — “Fundamentos de eclética” é a única unidade pendente e segue sob dependência oficial específica**, conforme 3.3/5.1/5.2/7.5. Distribuição: E01 19/19; E02 8/9; E03 8/8; E04 8/8; E05 3/3; E06 10/10; E07 13/13; E08 11/11; E09 6/6; E10 8/8; E11 6/6; E12 1/1. Macro C/H/Q recebe done somente com todos os contribuintes aceitos. R01–R05 e F01–F05 continuam pending. A dúvida “eclética” fica localizada em U028.
 
 ## 3. Fontes recebidas e consolidação do edital
 
@@ -686,7 +686,7 @@ Grupo consumidor: `preparacao-discursiva/`, relativo à raiz definida em 5.1.
 
 | Unidade / título | Referências literais | Origem candidata | Slug final / identidade local de reserva / ordem | Recorte, lacunas e pontes |
 |---|---|---|---|---|
-| PER-U099 — Redação: planejamento, critérios e treino comentado | D: 9 | S05; sem candidato selecionado | `redacao-planejamento-criterios-treino` / `per-u099` / 990 | C inclui propostas abertas/modelos comentados; H recupera critérios; Q tem apenas questões objetivas autorais sobre critérios/técnica, com remissões aos conjuntos do Grupo I, sem copiar questões de base. Pontes: PER-U001, PER-U003, PER-U016, PER-U017, PER-U018. |
+| PER-U099 — Redação: planejamento, critérios e treino comentado | D: 9 | S05; **nova/local**, sem pacote doador equivalente selecionado | `redacao-planejamento-criterios-treino` / `per-u099` / 990 | **C/H/Q/R aceitos em 5.11**; grupo auxiliar `preparacao-discursiva/grupo.json` ordem 3, três respostas-modelo autorais para propostas abertas e quarto treino guiado; H com regras e revisão; **28 questões autorais objetivas** sobre técnica e critérios, sem duplicar questões de base. Pontes: PER-U001, PER-U003, PER-U016, PER-U017, PER-U018 e outras unidades gerais. **E12 1/1, macros C/H/Q done.** |
 
 ### 5.3 Origens candidatas verificadas e consumidores conhecidos
 
@@ -924,15 +924,15 @@ Texto literal mantido na fonte 3.4; esta segunda projeção permite conferir cad
 |---|---:|---:|
 | Referências literais da objetiva | 132/132 | 131/132 |
 | Unidades distintas da objetiva | 98 | 97 |
-| Unidade discursiva auxiliar | 1 | 0 |
-| Total de unidades distintas | 99 | 97 |
-| Entregáveis unitários C/H/Q | 297: 6 pending + 0 analyzing + 291 done | 291 done |
-| Visões consumidoras previstas | 99 | 97 |
+| Unidade discursiva auxiliar | 1 | 1 |
+| Total de unidades distintas | 99 | 98 |
+| Entregáveis unitários C/H/Q | 297: 3 pending + 0 analyzing + 294 done | 294 done |
+| Visões consumidoras previstas | 99 | 98 |
 | Origens candidatas consultadas por metadados | 73: 48 canônicas + 25 locais | 0 aceites importados |
 | Unidades com candidato identificado | 77 na triagem inicial | Resultados publicados: 62 parciais locais, 10 integrais locais e 6 integrais por vínculo |
-| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 19 |
+| Unidades sem candidato selecionado na triagem | 22, incluindo a incerteza U028 | Novas locais publicadas após busca e classificação: 20 |
 
-Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 91 unidades locais, 6 vínculos Perícia; 2 unidades ainda pendentes (U028 e U099). Classificações publicadas: 62 parciais locais, 10 integrais locais, 19 novas locais e 6 integrais canônicas.
+Por macro: E01 19; E02 9; E03 8; E04 8; E05 3; E06 10; E07 13; E08 11 (8 próprias + U045/U046/U047); E09 6; E10 8; E11 6; E12 1. São **102 associações a macros**, mas **99 unidades distintas e 297 entregáveis**, porque três unidades atendem dois blocos. Não somar as 36 macros C/H/Q aos 297 entregáveis unitários nem os 48/25 doadores às unidades Perícia. Distribuição corrente: 92 unidades locais, 6 vínculos Perícia; **somente U028 permanece pending**, com dependência localizada de 3.3. Classificações publicadas: 62 parciais locais, 10 integrais locais, 20 novas locais e 6 integrais canônicas. **D:9 — discursiva auxiliar** aceita separadamente das 132 referências da objetiva (131/132); não elevar essa contagem por completar U099.
 
 Os 51 IDs, títulos e descrições de macro anteriores permanecem. Novos IDs unitários usam série livre PER-U001–PER-U099 e são estáveis administrativamente; ajustes futuros de recorte devem manter proveniência e justificar redistribuição. Macro C/H/Q só recebe done quando todos os estados unitários que a alimentam estiverem done; para E05/E08, ler os mesmos três registros compartilhados.
 
@@ -2718,6 +2718,15 @@ Canônico confirmado: C `0175393a8a6940e0bfd26b0888126af5c317ec74`; H `e8c4b4438
 - **Questões auditadas:** doador `questionSetRevision: 6`, **63 questões** (59 autorais, quatro anteriores). Selecionadas **37 autorais** com IDs `q5739`–`q5797` não contíguos, origem mantida; **9** receberam revisão de alternativas e `revision: 2 → 3`, demais mantidas na revisão 2. Acrescentadas **oito autorais inéditas** `per-u098-a01`–`a08`, revision 1. Conjunto local `questionSetRevision: 7`, **45 questões/225 alternativas**, cinco opções, chave única e explicação por item. As **quatro anteriores não foram importadas** sem verificação própria de prova, gabarito e licenciamento; não inventar atribuição de banca/ano. Sem resoluções avulsas necessárias. Inspeção editorial e leitura dos C/H/Q/R completos; sem testes/build/check/CI.
 - **Publicação e releitura:** pacote único [`99b1ef1b`](https://github.com/insign/concursos/commit/99b1ef1ba079cd31afe09f77af5e621560b9baff) confirmado na main, com apenas quatro arquivos locais de PER-U098, sem criação de grupos. Quatro blobs relidos: C `52ed6b68dede6c95ae4f93e44a73beb14027b5ae`; H `85b353401bd9f55545641a80138d671f4f6c7d65`; Q `fe97083f63098149c295343d793f10d0dd5e82f8`; R `05f1f9b10fec5ecc5e840ca3a85efc9f1997abe9`.
 
+#### PER-U099 — Redação: planejamento, critérios e treino comentado — nova/local — C/H/Q done
+
+- **Recorte e propriedade:** edital S05, Cargo 1 — Agente de Perícia Criminal/Generalista, item **9.1–9.8**, redação dissertativa de até 30 linhas/20 pontos sobre **Conhecimentos Gerais, Grupo I** (D:9); unidade auxiliar PER-E12, não 12ª disciplina objetiva. Destino exclusivamente próprio `src/content/assuntos/pericia-ma-2026-agente-criminal-generalista/preparacao-discursiva/redacao-planejamento-criterios-treino/`, `storageId: per-u099`, ordem 990; descritor `preparacao-discursiva/grupo.json`, ordem 3, sem `vinculo.json`. Sem pacote equivalente selecionado na matriz ou diretório consumidor prévio na `main`: **nova/local**, sem aceite emprestado de outra campanha. Reserva exclusiva da conversa `per-u099-20261010-1146-gpt6-d64f`, base `94db20035a4a431cea6c632e12ce91da8c267dd7`, mestre anterior `e6949a3d510146d923cb72d1249d9563231e16c0`.
+- **Problema/intervenção/ganho:** o treino de redação dependia de ligar critérios oficiais a decisões práticas, sem transformar Q em redação aberta incompatível com schema ou importar Atualidades da PC/SEAP. C constrói a resposta ao comando (recorte, ideia central, argumentos distintos, progressão/coesão, limites e revisão), distingue dissertação explicativa/argumentativa conforme o pedido, ensina fórmula da nota **NPD = NC − 4×NE/TL** com dois cálculos hipotéticos (15 e 9) e convergência de corretores (até 5 pontos). Mantém regra de documento definitivo, escrita, anulação, recursos e diferença entre pontuação objetiva mínima e efetiva correção da discursiva. Contém **três propostas abertas com respostas-modelo e comentários por mecanismos** (atendimento digital, método/vieses, cultura do Maranhão) e um quarto treino guiado de inteligência artificial; **todos autorais/hipotéticos**, sem atribuição à banca, sem pressupor que linhas Markdown equivalham a linhas manuscritas. H recupera critérios, números e inspeção de texto, não reensina aula.
+- **Reuso/fronteiras:** suporte local por remissão a PER-U001/U003/U016/U017/U018 e às bases temáticas PER-U025/U026, Informática e História/Geografia do Maranhão. As aulas e conjuntos desses consumidores foram mantidos; nenhuma questão replicada, identidade renumerada ou canônico/consumidor de #755/#764/#765 alterado. A questão objetiva testa interpretação do comando, argumentos, coesão, forma, cálculo e atos do edital; **não contém dissertações**, que ficam em C.
+- **Fontes/consultas:** versão consolidada oficial S05/89 páginas, seção 9 e Grupo I confrontados com texto extraído e páginas 29–31 visualizadas em **10/10/2026**; Senado Federal — Manual de Comunicação, paralelismo e vírgula, como apoio linguístico, e capítulos de Português da própria Perícia. A página da seleção exigiu JavaScript e a listagem pública não ficou acessível na tentativa atual: não declarar ausência comprovada de novas retificações. As fontes identificáveis e limites estão em R. Não aplicar corte artificial de Atualidades nem antecipar jurisprudência.
+- **Questões e formato:** `questionSetRevision: 1`, **28 questões inteiramente autorais**, IDs `per-u099-a01`–`per-u099-a28`, todas `revision: 1`/`origin: authorial`, **140 alternativas** (cinco por item), uma chave e explicação individual. Nenhuma questão anterior copiada sem conferência própria; nenhum nome/ano/banca inventado, nem resolução separada necessária. A aula mede 19.251 caracteres brutos; H 4.047, Q 30.786 e R 5.450; grupo 75, sem estimar tempo poupado. Releitura dos cinco arquivos e correspondência aos blobs na `main`; não foram executados testes/build/CI/check.
+- **Publicação/releitura:** commit de cinco arquivos [`a7ef7f71`](https://github.com/insign/concursos/commit/a7ef7f71e52fcbe6e7496c25eff1beb86efbd7d9), relido na main; blobs G `50aedb58fd4ffb5061f07b86cc40893d007ee492`; C `6908781e32aff4b684c0061cba6a022465ca01cd`; H `59f477d85042fbe6a6c2ea234a8356ef838d590f`; Q `22c0236b85ceca11ceb71fccaa8ac82f96153520`; R `e540ce36e1202036505825a2369983a5b85c55d3`. **D:9 aceita e PER-E12-C/H/Q done**; as 132 referências literais objetivas permanecem **131 aceitas**, faltando só o item literal E02:6 em U028.
+
 ## 6. Guia obrigatório de qualidade pedagógica
 
 ### 6.1 Leitor, alcance e evidência
@@ -2873,9 +2882,9 @@ Respeitar o recorte de direito administrativo e agentes públicos deste bloco, s
 #### Preparação discursiva — bloco editorial auxiliar, item 9
 
 ##### PER-E12 — Redação sobre conhecimentos gerais
-- [ ] PER-E12-C — `pending` — Pesquisar e salvar orientação de escrita, critérios oficiais e propostas comentadas apoiadas no Grupo I, reutilizando os capítulos de base sem reescrevê-los.
-- [ ] PER-E12-H — `pending` — Produzir e salvar revisão de estrutura, planejamento e critérios da redação, em artefato editorial compatível com o catálogo.
-- [ ] PER-E12-Q — `pending` — Selecionar e salvar exercícios e propostas comentadas de treino nos formatos existentes, reutilizando as questões do Grupo I sem duplicação e distinguindo questões objetivas de propostas abertas.
+- [x] PER-E12-C — `done` — Pesquisar e salvar orientação de escrita, critérios oficiais e propostas comentadas apoiadas no Grupo I, reutilizando os capítulos de base sem reescrevê-los.
+- [x] PER-E12-H — `done` — Produzir e salvar revisão de estrutura, planejamento e critérios da redação, em artefato editorial compatível com o catálogo.
+- [x] PER-E12-Q — `done` — Selecionar e salvar exercícios e propostas comentadas de treino nos formatos existentes, reutilizando as questões do Grupo I sem duplicação e distinguindo questões objetivas de propostas abertas.
 
 ### 7.4 Fechamento e aceite
 
@@ -3479,9 +3488,9 @@ Estado inicial: todas as tarefas abaixo começaram pending. O estado corrente é
 
 #### PER-U099 — Redação: planejamento, critérios e treino comentado
 
-- [ ] PER-U099-C — `pending` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
-- [ ] PER-U099-H — `pending` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
-- [ ] PER-U099-Q — `pending` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
+- [x] PER-U099-C — `done` — Concluir conteúdo e referências do recorte definido em 5.2, com pesquisa e revisão integral.
+- [x] PER-U099-H — `done` — Concluir recuperação por cheat sheet coerente com o conteúdo e suas condições.
+- [x] PER-U099-Q — `done` — Concluir questões e resoluções pertinentes, com resposta única, explicação e proveniência verificáveis.
 
 ## 8. Publicação, evidência e encerramento
 
@@ -3795,3 +3804,4 @@ Cada entrada abaixo registra artefatos publicados/reconfirmados antes do aceite 
 - **PER-U097:** `a0aae983d12f77dcc9397fbb0274513d908e41db` confirmado na `main`, quatro blobs C/H/Q/R relidos. Parcial/local a partir de O071 canônico do TCE, sem afetar origens/consumidores; **34 questões autorais/170 alternativas** (27 doadoras revisadas + 7 novas). E11 **5/6**, pai E11:4 pendente até U098, macros E11-C/H/Q pending. Totais **96/99 unidades, 288/297 C/H/Q, 130/132 referências, 3400 questões**, 90 locais e 6 vínculos, **32 macros done/19 pending/0 analyzing**. Próxima ação PER-U098 — Improbidade: sanções e procedimento; reserva própria liberada após sincronização da issue.
 - **PER-U098:** pacote `99b1ef1ba079cd31afe09f77af5e621560b9baff` confirmado na `main`, quatro blobs C/H/Q/R relidos; parcial/local de O072 canônico do TCE sem tocar consumidores. **45 questões autorais/225 alternativas** (37 selecionadas do doador, nove revisadas, oito novas); E11:4 aceita em conjunto com U097 e **PER-E11-C/H/Q fecha done**, Legislação Especial **6/6**. Totais: **97/99 unidades, 291/297 C/H/Q, 131/132 referências, 3445 questões**, 91 locais e 6 vínculos; **35 macros done/16 pending/0 analyzing**. Próxima ação PER-U099 — Redação: planejamento, critérios e treino comentado; U028 permanece dependente de esclarecimento da expressão literal “Fundamentos de eclética”. Reserva própria a liberar após sincronização do painel.
 
+- **PER-U099:** publicação `a7ef7f71e52fcbe6e7496c25eff1beb86efbd7d9` (G/C/H/Q/R) confirmada na main com cinco blobs; **nova/local**, grupo de Preparação Discursiva materializado, três propostas/respostas-modelo autorais completas e um treino guiado, mais **28 questões objetivas autorais/140 alternativas**. **PER-E12-C/H/Q done 1/1**, referência auxiliar D:9 concluída sem somar às 132 referências literais da objetiva. Totais **98/99 unidades, 294/297 C/H/Q, 131/132 referências objetivas, 3473 questões**, 92 locais + 6 vínculos, **38 macros done/13 pending/0 analyzing**. **Só PER-U028 permanece pending** por “Fundamentos de eclética” sem interpretação primária suficiente; F01–F05 e R01–R05 preservados pending. Próxima seleção: reconsulta dirigida da ambiguidade e avaliação de fechamentos habilitáveis, sem antecipar aceite integral.
