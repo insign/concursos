@@ -34,7 +34,7 @@
 | Repetição/imitação de som | reco-recos |
 | Segundo nome especifica o primeiro | palavras-chave; há também a variante palavras-chaves |
 
-Não forme o plural olhando só o hífen. **Substantivação:** o belo; um porquê; seu não; o estudar. O determinante faz a expressão nomear algo; em “o candidato”, o artigo apenas determina um substantivo já existente.
+Não forme o plural olhando só o hífen. **Substantivação:** o belo; um porquê; o não da servidora; o estudar. O determinante faz a expressão nomear algo; em “o candidato”, o artigo apenas determina um substantivo já existente.
 
 ## Artigo, adjetivo e numeral
 

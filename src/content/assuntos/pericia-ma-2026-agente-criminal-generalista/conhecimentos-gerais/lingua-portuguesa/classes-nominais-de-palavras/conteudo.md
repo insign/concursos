@@ -40,7 +40,7 @@ O artigo pode unir-se à **preposição**, palavra que liga termos: *do relatór
 
 ### Quando outra palavra passa a nomear
 
-Em *o belo*, *belo* não caracteriza um nome expresso: nomeia a beleza como ideia. Em *seu não foi definitivo*, *não* nomeia uma resposta negativa. Esse emprego é a **substantivação**, um caso de <abbr title="Mudança de classe da palavra sem alteração de sua forma">derivação imprópria</abbr>.
+Em *o belo*, *belo* não caracteriza um nome expresso: nomeia a beleza como ideia. Em *O não da servidora foi definitivo*, o artigo *o* determina *não*, que passa a nomear a recusa. Esse emprego é a **substantivação**, um caso de <abbr title="Mudança de classe da palavra sem alteração de sua forma">derivação imprópria</abbr>.
 
 O artigo é uma pista, não um teste cego: em *o novo relatório*, ele acompanha *relatório*, não transforma *novo* em substantivo. Compare ainda *o brasileiro chegou* e *o cidadão brasileiro chegou*: no primeiro, *brasileiro* nomeia a pessoa; no segundo, caracteriza *cidadão*. *Um porquê* e *vários porquês* nomeiam motivos e admitem plural.
 

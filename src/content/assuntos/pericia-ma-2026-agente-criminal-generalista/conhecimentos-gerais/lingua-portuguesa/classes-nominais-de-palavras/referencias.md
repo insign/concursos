@@ -6,6 +6,7 @@
 
 ## Base gramatical
 
+- AULETE/LEXIKON. **Dicionário Caldas Aulete — verbete “não”**. Acepções de advérbio e substantivo masculino (negativa, recusa). [Verbete digital](https://www.aulete.com.br/n%C3%A3o). Consulta em: 10 out. 2026.
 - [Aulete/Lexikon. Gramática Básica: Classificação dos Substantivos](https://www.aulete.com.br/gram/cap06-01-classificacao_dos_substantivos). Consulta em 03/10/2026.
 - [Flexões dos Substantivos](https://www.aulete.com.br/gram/cap06-02-flexoes_do_substantivo). Consulta em 03/10/2026.
 - [Substantivos Uniformes](https://www.aulete.com.br/gram/cap06-03-substantivos_uniformes). Consulta em 03/10/2026.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q234",
@@ -244,9 +244,9 @@
     },
     {
       "id": "q242",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em “Seu não foi definitivo”, a palavra “não” é classificada como substantivo porque",
+      "prompt": "Em “O não da servidora foi definitivo”, a palavra “não” é classificada como substantivo porque",
       "options": [
         {
           "id": "a",
@@ -270,7 +270,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "O possessivo “seu” determina “não”, que passa a nomear uma resposta ou manifestação negativa; ocorre substantivação. Fora desse emprego, “não” pode ser advérbio de negação. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "O artigo “o” determina “não”, que nomeia uma recusa em vez de negar um verbo. O Dicionário Caldas Aulete registra “não” como substantivo masculino no sentido de negativa ou recusa; fonte identificada em `referencias.md`."
     },
     {
       "id": "q243",
