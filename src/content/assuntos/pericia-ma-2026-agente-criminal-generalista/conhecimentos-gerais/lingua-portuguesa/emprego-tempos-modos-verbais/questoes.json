@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q185",
@@ -64,9 +64,9 @@
     },
     {
       "id": "q187",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Na norma-padrão, a forma adequada para uma proibição dirigida a “você” é",
+      "prompt": "Qual alternativa apresenta, na norma-padrão, o imperativo negativo dirigido a “você”?",
       "options": [
         {
           "id": "a",
@@ -90,7 +90,7 @@
         }
       ],
       "correctOptionId": "d",
-      "explanation": "O imperativo negativo usa formas do presente do subjuntivo: `não altere`. Fonte: questão autoral baseada em Bechara, Cunha e Cintra, Castilho e Neves; revisão editorial 2026."
+      "explanation": "No imperativo negativo, “você” recebe a forma de terceira pessoa correspondente ao presente do subjuntivo: “não altere”. “Não alterarás” pode exprimir proibição, mas é futuro do indicativo de “tu”, não imperativo negativo dirigido a “você”. Fontes gramaticais indicadas em `referencias.md`; questão autoral."
     },
     {
       "id": "q188",
