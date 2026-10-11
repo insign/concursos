@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q334",
@@ -424,7 +424,7 @@
     },
     {
       "id": "q351",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Segundo o regulamento”, “segundo” é preposição acidental porque",
       "options": [
@@ -450,7 +450,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Preposições acidentais vêm de outras classes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Em “o segundo candidato”, a palavra é numeral ordinal e expressa posição na sequência. Em “segundo o regulamento”, introduz um termo nominal com o sentido de “de acordo com” e funciona como preposição acidental: palavra de outra classe usada com função prepositiva. É preciso reconhecer o emprego concreto; dizer apenas que uma palavra pode ter outras classes não basta para identificá-la. Fonte: questão autoral e contrastes ensinados no conteúdo."
     },
     {
       "id": "q352",
@@ -1444,9 +1444,9 @@
     },
     {
       "id": "q388",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "Em todas as frases abaixo está presente a conjunção E Assinale a opção que indica a frase em que esse significado está indicado erradamente.",
+      "prompt": "Em todas as frases abaixo está presente a conjunção “e”. Assinale a opção em que a relação de sentido indicada após a barra está incorreta.",
       "options": [
         {
           "id": "a",
@@ -1470,7 +1470,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Gabarito definitivo: B. Fonte: questão oficial; FGV; SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca); edital nº 01/2024; questão 59; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf. Em B, nasce, cresce e morre apresentam etapas sucessivas, não uma consequência explicitada pela conjunção. A soma termos; C opõe/corrige uma formulação; D repete o ato para intensificá-lo; E apresenta sequência temporal. A classe da conjunção não fixa sozinha todos esses efeitos."
+      "explanation": "A opção B atribui consequência ao “e” entre “nasce”, “cresce” e “morre”, embora a construção apresente uma sequência de etapas. A acrescenta dois grupos; C constrói oposição/correção (“e sim”); D repete o verbo para intensificar; E apresenta sequência temporal. A classe “conjunção aditiva” não impede efeitos de sentido variados no contexto. Gabarito definitivo: B. Fonte: questão oficial FGV/SEEC-RN, Professor de Língua Portuguesa, Tipo 1 (2025), nº 59, com comando reescrito apenas para tornar explícita a tarefa e a pontuação; alternativas e chave preservadas. https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf; gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
     },
     {
       "id": "per-u007-q001",

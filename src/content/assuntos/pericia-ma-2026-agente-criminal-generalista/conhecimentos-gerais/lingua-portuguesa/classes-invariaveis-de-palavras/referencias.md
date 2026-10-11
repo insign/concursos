@@ -31,7 +31,7 @@ LEXIKON EDITORA DIGITAL. **Gramática Básica da Língua Portuguesa**, portal Au
 
 - FGV. **SEEC/RN — Professor de Língua Portuguesa, caderno Tipo 1 (Branca), edital nº 01/2024**. Questões 48 (B), 57 (A) e 59 (B), IDs locais q384/q387/q388. [Caderno](https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf); [definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf), seção Professor de Língua Portuguesa — Tipo 1. Identificação pela especialidade, tipo e numeração; a data incongruente do cabeçalho do definitivo não foi usada para inferir calendário. Provas recebidas no ciclo anterior e novamente confrontadas nesta revisão.
 
-q387 conserva origem anterior e chave A, mas corrige na alternativa B “a gente e pega” para “a gente pega”; é adaptação de transcrição, revisão 2. As demais alternativas e o fenômeno de menos nominal/adverbial permanecem. q384/q388 têm explicações ampliadas, com identidade/revisão preservadas.
+q387 conserva origem anterior e chave A, mas corrige na alternativa B “a gente e pega” para “a gente pega”; é adaptação de transcrição, revisão 2. As demais alternativas e o fenômeno de menos nominal/adverbial permanecem. q384 preserva o original com explicação ampliada. Na inspeção F02, q388 teve apenas o comando esclarecido para explicitar o critério pedido e a pontuação (adaptação editorial), mantendo a questão 59, as cinco alternativas, a origem FGV e a chave B. A explicação distingue classe e valor semântico. q351 autoral teve explicação contrastiva ampliada, sem alterar alternativas/chave.
 
 ## Autoria e proveniência local
 
