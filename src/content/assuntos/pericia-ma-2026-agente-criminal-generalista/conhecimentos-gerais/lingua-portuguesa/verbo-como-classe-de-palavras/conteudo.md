@@ -32,7 +32,7 @@ Em **cant-á-va-mos**, distinguem-se:
 | -va- | Desinência modo-temporal: indica pretérito imperfeito do indicativo, isto é, passado apresentado em desenvolvimento ou como hábito |
 | -mos | Desinência número-pessoal: indica primeira pessoa do plural |
 
-**Desinências** são terminações que expressam flexão. Na segmentação tradicional de *beb-i-a* e *faz-i-a*, o *-i-* é vogal temática e o *-a-* marca tempo e modo. Nem toda forma apresenta essas partes separáveis: não force o modelo sobre *sou* ou *fiz*.
+**Desinências** são terminações que expressam flexão. Na segmentação tradicional de *beb-i-a* e *faz-i-a*, o *-i-* é vogal temática e o *-a-* marca tempo e modo. Já *part-i-re-mos* combina radical *part-*, vogal temática *-i-*, desinência modo-temporal *-re-* (futuro do presente do indicativo) e número-pessoal *-mos* (primeira pessoa do plural). Nem toda forma apresenta essas partes separáveis: não force o modelo sobre *sou* ou *fiz*.
 
 As três **conjugações** agrupam verbos em *-ar* (*analisar*), *-er* (*vender*) e *-ir* (*partir*). **Pôr e seus derivados pertencem à segunda**, vinculados à antiga forma *poer*: *propor* e *compor* não criam uma quarta conjugação. Essa classificação consta da [Nomenclatura Gramatical Brasileira](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf), ou <abbr title="Nomenclatura Gramatical Brasileira">NGB</abbr>.
 

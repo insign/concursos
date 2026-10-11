@@ -4,7 +4,7 @@
 
 ## Forma e classificação
 
-**Cantávamos = cant- + -a- + -va- + -mos:** radical (significado), vogal temática (conjugação), desinência modo-temporal, desinência número-pessoal. Tema = radical + vogal temática; nem toda forma permite separar todas as partes.
+**Cantávamos = cant- + -a- + -va- + -mos:** radical (significado), vogal temática (conjugação), desinência modo-temporal, desinência número-pessoal. No futuro, **partiremos = part- + -i- + -re- + -mos** (radical, vogal temática, tempo/modo, pessoa/número). Tema = radical + vogal temática; nem toda forma permite separar todas as partes.
 
 | Critério | Recuperação |
 |---|---|
