@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q284",
@@ -1504,13 +1504,13 @@
     },
     {
       "id": "q334",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na forma verbal “partiremos”, a segmentação morfológica mais adequada identifica",
       "options": [
         {
           "id": "a",
-          "text": "o radical `part-`, a vogal temática `-i-` e a desinência número-pessoal `-mos`."
+          "text": "o radical `part-`, a vogal temática `-i-`, a desinência modo-temporal `-re-` e a desinência número-pessoal `-mos`."
         },
         {
           "id": "b",
@@ -1530,7 +1530,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Em `partiremos`, `part-` concentra o conteúdo lexical; `-i-` integra o tema da terceira conjugação; `-mos` marca a primeira pessoa do plural. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+      "explanation": "Em `part-i-re-mos`, `part-` é o radical, `-i-` é a vogal temática da terceira conjugação, `-re-` marca o futuro do presente do indicativo e `-mos` marca a primeira pessoa do plural. O critério é a função de cada elemento na forma conjugada, não apenas a presença de `-mos`. Questão autoral; fundamentos no conteúdo e no quadro de desinências da Fundação Cecierj citado nas referências."
     },
     {
       "id": "q335",
@@ -1924,7 +1924,7 @@
     },
     {
       "id": "q384",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
       "prompt": "Assinale a opção que indica a única palavra em que a letra A desempenha o papel de desinência modo-temporal.",
       "options": [
@@ -1950,7 +1950,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Em fazia, a letra a integra a marca modo-temporal -ia, associada ao pretérito imperfeito do indicativo. Não se deve interpretar o a como a desinência inteira isoladamente. Nas demais opções, não há a marca do imperfeito indicada pelo item. Gabarito definitivo: A. Fonte: questão oficial; FGV; SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca); 2025; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
+      "explanation": "Em `faz-i-a`, `faz-` é o radical, `-i-` é a vogal temática e o `-a` final é, ele próprio, a desinência modo-temporal do pretérito imperfeito do indicativo. Em `trabalha` e `ajuda`, o `-a` pertence ao tema da primeira conjugação, e não expressa o imperfeito; `cessar` e `altar` também não trazem `-a` com essa função. O ponto decisivo é a função morfológica da letra, não sua mera presença. Gabarito definitivo: A. Fonte: questão oficial; FGV; SEEC/RN — Professor de Língua Portuguesa, Tipo 1 (Branca); 2025; questão 49; https://conhecimento.fgv.br/sites/default/files/concursos/professor-de-lingua-portuguesacns112-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_seadrn_v3.pdf."
     },
     {
       "id": "q385",

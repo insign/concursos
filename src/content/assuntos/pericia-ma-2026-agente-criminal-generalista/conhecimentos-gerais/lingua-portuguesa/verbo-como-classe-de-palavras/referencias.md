@@ -14,6 +14,7 @@
 - [Priberam. Haver: usos impessoais, auxiliar e haver por bem](https://dicionario.priberam.org/haver). Consulta em 03/10/2026.
 - [Priberam. Reaver: conjugação defectiva e particípio regular](https://dicionario.priberam.org/reaver). Consulta em 03/10/2026.
 - [Escola Fazendária do Paraná. Dicas de Português: dica 888, Infinitivo flexionado — exceção, 15/03/2018](https://efaz.fazenda.pr.gov.br/Pagina/Dicas-de-Portugues-0). Consulta em 03/10/2026.
+- Fundação Cecierj/Consórcio Cederj. **Português IV — O mecanismo da flexão verbal I**, aula 9, quadro 9.10, p. 149 (paginação impressa). [Material didático](https://canal.cecierj.edu.br/012016/6b8590922935afbb47b1d438bd6de511.pdf). As páginas 148–149, consultadas em 10/10/2026, distinguem vogal temática, desinência modo-temporal (`-a` no imperfeito da segunda/terceira conjugações; `-ra/-re` no futuro do presente) e desinência número-pessoal (`-mos`). Não se declara leitura integral do volume.
 
 As fontes foram comparadas nos pontos materiais do recorte, sem declaração de leitura de todas as obras. Preferências escolares e orientações de redação não são convertidas em proibições universais: contexto, sujeito e construção continuam necessários. O capítulo conserva explicações próprias, exemplos hipotéticos e distinções entre classe, forma, função e sentido.
 
@@ -26,6 +27,8 @@ As fontes foram comparadas nos pontos materiais do recorte, sem declaração de 
 | `q386` | [Caderno oficial: Ministério Público do Rio de Janeiro, Técnico — Área Administrativa, 2025, tipo 3, questão 10](https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-3.pdf) | [C](https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf) |
 
 Banca: Fundação Getulio Vargas. Enunciados, alternativas e soluções dos itens selecionados foram confrontados com os cadernos e gabaritos definitivos; espaços e quebras de linha podem diferir. Não são questões da Perícia/MA. As explicações são editoriais; não certificam toda a coleção de origem. Questões autorais não recebem banca ou ano de prova fictícios.
+
+**Nota de proveniência (SEEC/RN):** o PDF do gabarito definitivo imprime no cabeçalho `19/01/2024`, enquanto a [página oficial do certame na FGV](https://conhecimento.fgv.br/concursos/seec.rn24) situa a publicação do gabarito preliminar em 21/01/2025 e do definitivo em 19/02/2025. `01/2024` identifica o edital; os itens selecionados são referidos à aplicação de 2025. A discrepância do cabeçalho não altera as respostas oficiais A/E.
 
 A explicação de q295 corrige a letra da alternativa citada; q364 retira a exigência de proximidade temporal, com revisão aumentada. q384–q386 ganham explicações do raciocínio, preservando enunciados, opções, chave e revisão. O item autoral per-u006-q001 testa o limite da passivização com haver existencial.
 
