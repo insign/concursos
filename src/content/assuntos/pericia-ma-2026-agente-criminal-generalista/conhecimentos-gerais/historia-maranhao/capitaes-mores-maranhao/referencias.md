@@ -5,6 +5,10 @@
 - **VIVEIROS, Jerônimo de. Administração portuguêsa na capitania do Maranhão.** *Revista do Serviço Público*, jan. 1946. Narrativa administrativa tradicional usada para a sucessão inicial de Jerônimo de Albuquerque, Antônio de Albuquerque, Domingos da Costa Machado e Antônio Moniz Barreiros. https://revista.enap.gov.br/index.php/RSP/article/download/7678/4773/24377.
 - **Universidade de Brasília. São Luís — Atlas Digital da América Lusa.** Contexto da passagem da conquista para a organização administrativa portuguesa. https://lhs.unb.br/atlas/index.php?title=S%C3%A3o_Lu%C3%ADs.
 
+## Revalidação de cronologia divergente
+
+- **Conferência dirigida de 12/10/2026:** a tabela 1 do artigo de Fabiano Vilaça dos Santos, já referenciado acima, reproduz a entrada de Domingos da Costa Machado em **3 de abril de 1618** no catálogo de Évora. A narrativa de Jerônimo de Viveiros, também identificada acima, serve de base à sequência tradicional que situa a administração de Domingos a partir de **1619**. A aula e o resumo atribuem cada cronologia à respectiva fonte, sem alegar consenso universal ou leitura integral de artigo, catálogo manuscrito ou documentação histórica nesta nova consulta.
+
 ## Proveniência e fronteiras
 
 - Classificação **parcial/local**. Origem física somente leitura O045: `src/content/assuntos/pc-ma-2026-oficial-investigador/conhecimentos-gerais/historia-maranhao/franca-equinocial-fundacao-guaxenduba-capitaes-mores/`.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u062-a01",
@@ -274,93 +274,93 @@
     },
     {
       "id": "per-u049-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A melhor forma de interpretar o cargo de capitão-mor no Maranhão colonial é",
+      "prompt": "Dois documentos coloniais usam o título de capitão-mor: um se refere a ordenanças locais; outro, ao governo da capitania na ausência do governador. Que método evita confundir essas autoridades?",
       "options": [
         {
           "id": "A",
-          "text": "como função invariável em todos os séculos."
+          "text": "Equiparar as competências porque os dois documentos empregam o mesmo título."
         },
         {
           "id": "B",
-          "text": "como posto cujo conteúdo dependia do contexto político e administrativo."
+          "text": "Atribuir a ambos uma patente militar contemporânea com funções fixas."
         },
         {
           "id": "C",
-          "text": "como título exclusivamente honorífico."
+          "text": "Concluir que ambos exerciam, necessariamente, o posto de governador e capitão-general."
         },
         {
           "id": "D",
-          "text": "como sinônimo necessário de governador e capitão-general."
+          "text": "Identificar época, jurisdição e atribuições antes de comparar o alcance dos cargos."
         },
         {
           "id": "E",
-          "text": "como cargo criado somente no século XIX."
+          "text": "Descartar o documento sobre ordenanças porque essa instituição nunca utilizou capitães-mores."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "O conteúdo funcional do posto variou conforme época, jurisdição, regimento e estrutura superior de governo."
+      "correctOptionId": "D",
+      "explanation": "O título podia designar funções diferentes conforme época, jurisdição e instruções. A comparação exige saber qual cargo cada fonte descreve. Homonímia não comprova hierarquia, identidade funcional ou equivalência com postos militares atuais."
     },
     {
       "id": "per-u049-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A sequência Jerônimo de Albuquerque, Antônio de Albuquerque, Domingos da Costa Machado e Antônio Moniz Barreiros deve ser estudada principalmente como",
+      "prompt": "A narrativa administrativa tradicional situa o início da administração de Domingos da Costa Machado em 1619; o catálogo de Évora reproduzido por estudo moderno registra sua posse em 3 de abril de 1618. Qual conclusão é historicamente adequada?",
       "options": [
         {
           "id": "A",
-          "text": "uma sucessão tradicional da administração inicial portuguesa."
+          "text": "A diferença prova que nunca existiu capitão-mor chamado Domingos da Costa Machado."
         },
         {
           "id": "B",
-          "text": "lista dos comandantes franceses da França Equinocial."
+          "text": "É correto tirar a média das duas datas para obter o ano verdadeiro, independentemente das fontes."
         },
         {
           "id": "C",
-          "text": "relação dos governadores neerlandeses do Maranhão."
+          "text": "A divergência comprova fraude na narrativa tradicional, sem necessidade de examinar os documentos."
         },
         {
           "id": "D",
-          "text": "ordem dos presidentes da província após a Independência."
+          "text": "As fontes registram exatamente o mesmo ano de início e não exigem ressalva."
         },
         {
           "id": "E",
-          "text": "lista universal e incontroversa de todos os capitães-mores."
+          "text": "As cronologias divergem nesse marco; cada data deve ser atribuída à sua fonte e ao critério do registro."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A sequência é útil como eixo da narrativa administrativa tradicional, mas não deve ser transformada em catálogo universal sem considerar critérios e fontes."
+      "correctOptionId": "E",
+      "explanation": "A narrativa tradicional e a tabela do catálogo de Évora registram datas diferentes para Domingos. A divergência documentada não elimina sua participação nem deve ser resolvida por média ou por acusação de falsificação sem evidência. Para responder, identifique qual fonte e qual critério a questão adota."
     },
     {
       "id": "per-u049-a03",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A diferença entre os marcos de 1621 e 1626 é que",
+      "prompt": "Um documento refere-se ao Estado do Maranhão em 1623, mas outro registra a posse de Francisco Coelho de Carvalho como governador e capitão-general da nova organização apenas em 1626. Esses dois marcos são incompatíveis?",
       "options": [
         {
           "id": "A",
-          "text": "1621 marca a criação do Estado do Maranhão, enquanto 1626 marca a posse de Francisco Coelho de Carvalho na nova chefia superior."
+          "text": "Sim, pois o Estado do Maranhão foi criado somente quando o novo governador tomou posse em 1626."
         },
         {
           "id": "B",
-          "text": "1621 marca a expulsão dos franceses e 1626 a Batalha de Guaxenduba."
+          "text": "Sim, pois os franceses ainda governavam Saint-Louis em 1623."
         },
         {
           "id": "C",
-          "text": "1621 marca a invasão neerlandesa e 1626 sua expulsão."
+          "text": "Sim, pois a chefia superior da nova estrutura já havia tomado posse em 1612."
         },
         {
           "id": "D",
-          "text": "ambos se referem ao mesmo ato administrativo."
+          "text": "Não. A criação do Estado em 1621 antecedeu a instalação da nova chefia superior em 1626."
         },
         {
           "id": "E",
-          "text": "1621 marca a Independência e 1626 a adesão do Maranhão."
+          "text": "Não, porque a criação do Estado do Maranhão só ocorreu depois de 1640."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "Criação institucional e instalação da nova chefia superior são momentos diferentes do processo administrativo."
+      "correctOptionId": "D",
+      "explanation": "Criação institucional e instalação da chefia superior são atos distintos. O Estado do Maranhão foi criado em 1621, enquanto a posse de Francisco Coelho de Carvalho ocorreu em 1626; uma referência à nova estrutura em 1623 não é, por isso, contraditória."
     },
     {
       "id": "per-u049-a04",
@@ -394,63 +394,63 @@
     },
     {
       "id": "per-u049-a05",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Se uma questão afirma que Jerônimo de Albuquerque é, sem qualquer ressalva, reconhecido por todas as fontes como o primeiro capitão-mor do Maranhão, a avaliação mais segura é",
+      "prompt": "Uma questão pergunta quem foi o 'primeiro capitão-mor do Maranhão', mas não informa período, fonte ou critério de ordenação. Qual reformulação tornaria a resposta historicamente menos ambígua?",
       "options": [
         {
           "id": "A",
-          "text": "aceitar, pois não existe divergência documental."
+          "text": "Pedir a resposta sem considerar qualquer fonte histórica, privilegiando o nome mais conhecido."
         },
         {
           "id": "B",
-          "text": "rejeitar a generalização, porque as listas dependem de critérios e há catálogo que começa por Alexandre de Moura."
+          "text": "Equiparar o título a uma patente militar atual e escolher o primeiro que a usou."
         },
         {
           "id": "C",
-          "text": "aceitar apenas porque Jerônimo participou de Guaxenduba."
+          "text": "Determinar que toda narrativa começava por Jerônimo de Albuquerque, mesmo diante de registros divergentes."
         },
         {
           "id": "D",
-          "text": "rejeitar porque Jerônimo nunca exerceu governo no Maranhão."
+          "text": "Ignorar a função e o período do cargo, considerando suficiente a data mais antiga encontrada."
         },
         {
           "id": "E",
-          "text": "aceitar porque o título surgiu somente em 1618."
+          "text": "Indicar se adota a sucessão administrativa tradicional ou o catálogo de Évora e delimitar o período."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "A divergência de critérios entre narrativa tradicional e catálogo histórico impede afirmar unanimidade absoluta das fontes."
+      "correctOptionId": "E",
+      "explanation": "As listas não partem sempre do mesmo critério: a narrativa tradicional destaca Jerônimo, enquanto o catálogo de Évora começa por Alexandre de Moura. Explicitar fonte, período e função do posto permite uma resposta verificável sem fabricar consenso."
     },
     {
       "id": "per-u049-a06",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em períodos posteriores, quando o governador permanecia em Belém, o capitão-mor do Maranhão podia",
+      "prompt": "Em período posterior da administração colonial, um governador permanece em Belém enquanto um capitão-mor administra assuntos locais do Maranhão. O que essa situação demonstra sobre o posto?",
       "options": [
         {
           "id": "A",
-          "text": "responder subordinadamente pela administração local."
+          "text": "O capitão-mor assumia a soberania e deixava de responder à Coroa quando o governador saía da capitania."
         },
         {
           "id": "B",
-          "text": "governar como rei independente."
+          "text": "A ausência física do governador convertia a capitania em um reino independente."
         },
         {
           "id": "C",
-          "text": "atuar apenas como oficial religioso."
+          "text": "O título tinha competências idênticas, sem qualquer variação desde a conquista do século XVII."
         },
         {
           "id": "D",
-          "text": "substituir automaticamente a Coroa."
+          "text": "O capitão-mor podia exercer administração subordinada conforme a estrutura e as atribuições daquele período."
         },
         {
           "id": "E",
-          "text": "exercer apenas função cerimonial sem governo."
+          "text": "A administração da capitania ficava necessariamente paralisada até o retorno do governador."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A historiografia registra situações em que capitães-mores respondiam pela administração da capitania durante ausências do governador."
+      "correctOptionId": "D",
+      "explanation": "A pesquisa sobre os séculos XVII e XVIII identifica capitães-mores exercendo administração subordinada na ausência do governador, que podia permanecer em Belém. Não se tratava de soberania autônoma nem de competência imutável em todos os períodos."
     },
     {
       "id": "per-u049-a07",

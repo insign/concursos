@@ -25,6 +25,7 @@ Não confundir automaticamente:
 - narrativa tradicional: **Jerônimo** como primeiro capitão-mor;
 - catálogo de Évora reproduzido por estudo moderno: começa com **Alexandre de Moura (1615)** e depois **Jerônimo (1616)**;
 - o próprio estudo aponta lacunas e situações especiais.
+- **Domingos da Costa Machado:** início em **1619** na narrativa tradicional; **3/4/1618** no catálogo de Évora reproduzido por Santos. Atribua a data à fonte.
 
 **Em prova: observe a fonte e o critério do enunciado.**
 

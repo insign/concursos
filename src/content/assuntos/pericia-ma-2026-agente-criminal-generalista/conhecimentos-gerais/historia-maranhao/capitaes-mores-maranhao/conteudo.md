@@ -56,6 +56,8 @@ Uma narrativa administrativa tradicional do século XX apresenta Jerônimo de Al
 
 O próprio estudo moderno alerta que esse catálogo possui lacunas, situações especiais e problemas de classificação.
 
+A diferença aparece também na data de Domingos da Costa Machado: a narrativa administrativa tradicional o situa a partir de **1619**, enquanto a tabela do catálogo de Évora, reproduzida por Fabiano Vilaça dos Santos, registra **3 de abril de 1618**. Trata-se de datas atribuídas a registros diferentes; não se deve uni-las em uma cronologia artificial nem apresentar uma delas como consenso indiscutível.
+
 Portanto, não há ganho em transformar uma divergência documental em certeza artificial.
 
 ### Regra de prova
