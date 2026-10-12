@@ -1,3 +1,5 @@
+# Referências — Reescrita, gêneros e formalidade
+
 ## Programa e alcance
 
 - SECRETARIA DE ESTADO DA ADMINISTRAÇÃO DO MARANHÃO; SECRETARIA DE SEGURANÇA PÚBLICA DO ESTADO DO MARANHÃO; <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr>. **Edital <abbr title="número">nº</abbr> 1 — Perícia Oficial de Natureza Criminal, de 17 de julho de 2026**, consolidado até o Edital <abbr title="número">nº</abbr> 3, de 29 de setembro de 2026. [Documento oficial](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Item 21.2.2, Língua Portuguesa, itens 6 e 6.4; páginas 59–60. Releitura dirigida do programa em 4 de outubro de 2026. O item 6 é compartilhado com significação/substituição e reorganização de orações; os expedientes oficiais têm unidade própria.
@@ -23,3 +25,9 @@ Pacote local próprio de `PER-U018`, identidade `per-u018`, ordem 180, para `per
 - Comparação integral com os quatro artefatos dos pacotes físicos de mesmo slug da Polícia Civil do Maranhão e da Secretaria de Estado de Administração Penitenciária do Maranhão. Não se deduz vínculo por semelhança.
 - **Reaproveitamento parcial local:** preservados mecanismos de adequação, fidelidade, retextualização e registro; reconstruídos percurso e exemplos, cortadas repetições e regras específicas de correspondência, corrigidas condições do resumo e da ancoragem temporal. As questões pertinentes mantêm IDs e origem, com revisão incrementada; duas autorais novas cobrem preservação integral de avaliação e causalidade inventada.
 - Biblioteca, vínculos, consumidores anteriores e campanhas doadoras permanecem sem edição. Leituras, caminhos/blobs, itens retirados e limites de consulta são registrados na evidência da unidade.
+
+## Inspeção PER-F02 — 12/10/2026
+
+Relidos individualmente C/H, 28 questões com cinco alternativas e suas explicações, além das referências. C/H mantidos. As duas adaptações de prova anterior (`q3839` E; `q3840` A) não sofreram alteração; a conferência original dos cadernos e gabaritos, de 04/10, permanece histórica, sem declarar leitura integral atual.
+
+**Defeito e intervenção:** havia concentração de 21 das 28 respostas nas letras B/C e apenas uma na E, esta de prova anterior. Em nove autorais (`q3761`, `q3762`, `q3767`, `q3770`, `q3771`, `q3787`, `q3788`, `q3813`, `per-u018-q01`) trocou-se somente a posição de uma correta com um distrator, acompanhada de `correctOptionId` e `revision +1`. Foram ajustadas referências a letras nas explicações de `q3770`, `q3771`, `q3787`, `q3788` e `per-u018-q01`. Enunciados, conjuntos de cinco textos por item, IDs, `origin` e questões anteriores preservados. `questionSetRevision: 7→8`; distribuição A3/B9/C12/D3/E1→**A6/B6/C6/D5/E5**, sem trincas cíclicas ascendentes/descendentes ou iguais. Este documento também recebeu o título de nível 1, antes ausente, para recuperar a hierarquia. Nenhuma expansão da aula, fonte inventada ou modificação de doadores/canônicos.
