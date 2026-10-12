@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q3459",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Regência é a relação pela qual",
       "options": [
         {
           "id": "A",
-          "text": "um termo regente seleciona ou condiciona seu complemento, chamado termo regido."
+          "text": "a palavra mais próxima determina obrigatoriamente a flexão do verbo."
         },
         {
           "id": "B",
@@ -18,7 +18,7 @@
         },
         {
           "id": "C",
-          "text": "a palavra mais próxima determina obrigatoriamente a flexão do verbo."
+          "text": "um termo regente seleciona ou condiciona seu complemento, chamado termo regido."
         },
         {
           "id": "D",
@@ -29,7 +29,7 @@
           "text": "a presença de preposição determina, por si só, a concordância do período."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A regência descreve a dependência entre regente e regido; preposição, proximidade, concordância e impessoalidade, isoladamente, não definem essa relação. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "q3462",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Na norma-padrão tradicional, o verbo 'assistir' no sentido de ver ou presenciar está corretamente empregado em",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "Os servidores assistiram no julgamento para presenciá-lo."
+          "text": "Os servidores assistiram ao julgamento."
         },
         {
           "id": "C",
@@ -112,14 +112,14 @@
         },
         {
           "id": "D",
-          "text": "Os servidores assistiram ao julgamento."
+          "text": "Os servidores assistiram no julgamento para presenciá-lo."
         },
         {
           "id": "E",
           "text": "Os servidores assistiram de julgamento."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "No sentido de presenciar, a tradição seleciona 'a': assistir ao julgamento. O uso direto é documentado, mas não é a resposta conservadora pedida, e a retomada tradicional do espetáculo é 'a ele', não 'lhe'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "id": "q3465",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase segue a construção tradicional de 'visar' no sentido de ter por objetivo?",
       "options": [
@@ -198,7 +198,7 @@
         },
         {
           "id": "C",
-          "text": "A medida visa ao equilíbrio fiscal."
+          "text": "A medida visa o equilíbrio fiscal, por ser essa obrigatoriamente a única forma culta."
         },
         {
           "id": "D",
@@ -206,10 +206,10 @@
         },
         {
           "id": "E",
-          "text": "A medida visa o equilíbrio fiscal, por ser essa obrigatoriamente a única forma culta."
+          "text": "A medida visa ao equilíbrio fiscal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A tradição normativa seleciona 'visar a' quando o verbo significa objetivar. O uso direto é documentado no Brasil, mas não é a forma tradicional solicitada nem autoriza afirmar que seja a única forma culta. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "id": "q3468",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual alternativa emprega 'implicar' segundo a tradição normativa no sentido de acarretar?",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "A falha implicou custos adicionais."
+          "text": "A falha implicou em custos adicionais, sendo 'em' obrigatória na norma tradicional."
         },
         {
           "id": "C",
@@ -296,10 +296,10 @@
         },
         {
           "id": "E",
-          "text": "A falha implicou em custos adicionais, sendo 'em' obrigatória na norma tradicional."
+          "text": "A falha implicou custos adicionais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Na acepção de acarretar, a forma conservadora usa complemento direto, sem preposição; 'implicar com' significa antipatizar, e o uso com 'em', embora corrente, não é obrigatório nem a primeira escolha normativa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "id": "q3473",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A regência adequada de 'cientificar' em redação formal ocorre em",
       "options": [
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "Cientifiquei o servidor de que o prazo terminara."
+          "text": "Cientifiquei-lhe o prazo, porque a pessoa é necessariamente objeto indireto."
         },
         {
           "id": "D",
@@ -446,15 +446,15 @@
         },
         {
           "id": "E",
-          "text": "Cientifiquei-lhe o prazo, porque a pessoa é necessariamente objeto indireto."
+          "text": "Cientifiquei o servidor de que o prazo terminara."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Na construção usual, cientifica-se alguém de algo ou de que algo ocorreu; a pessoa é objeto direto, razão pela qual a retomada seria 'cientifiquei-o'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3474",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Segundo a organização tradicional de 'pagar' e 'perdoar',",
       "options": [
@@ -464,7 +464,7 @@
         },
         {
           "id": "B",
-          "text": "tanto pessoa quanto coisa exigem obrigatoriamente 'de'."
+          "text": "a coisa é complemento direto, e a pessoa é introduzida por 'a'."
         },
         {
           "id": "C",
@@ -472,14 +472,14 @@
         },
         {
           "id": "D",
-          "text": "a coisa é complemento direto, e a pessoa é introduzida por 'a'."
+          "text": "tanto pessoa quanto coisa exigem obrigatoriamente 'de'."
         },
         {
           "id": "E",
           "text": "a coisa é introduzida por 'de', e a pessoa aparece sem preposição."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "Paga-se a dívida ao credor e perdoa-se a ofensa ao réu; a coisa é direta e a pessoa recebe 'a', o que também explica 'paguei-lhe a dívida'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -544,7 +544,7 @@
     },
     {
       "id": "q3477",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Na regência tradicional de 'acarretar', a forma adequada é",
       "options": [
@@ -558,7 +558,7 @@
         },
         {
           "id": "C",
-          "text": "A omissão acarretou prejuízos."
+          "text": "A omissão acarretou em prejuízos, sendo 'em' obrigatória no padrão tradicional."
         },
         {
           "id": "D",
@@ -566,10 +566,10 @@
         },
         {
           "id": "E",
-          "text": "A omissão acarretou em prejuízos, sendo 'em' obrigatória no padrão tradicional."
+          "text": "A omissão acarretou prejuízos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "'Acarretar' no sentido de causar seleciona complemento direto na descrição tradicional; inserir 'em', 'a' ou 'com' não corresponde à forma conservadora cobrada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -664,13 +664,13 @@
     },
     {
       "id": "q3481",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em 'Custou-me aceitar a decisão', a análise adequada é",
       "options": [
         {
           "id": "A",
-          "text": "'me' é sujeito do verbo 'custar'."
+          "text": "aceitar a decisão é o fato difícil, e 'me' designa quem experimenta a dificuldade."
         },
         {
           "id": "B",
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "aceitar a decisão é o fato difícil, e 'me' designa quem experimenta a dificuldade."
+          "text": "'me' é sujeito do verbo 'custar'."
         },
         {
           "id": "D",
@@ -689,7 +689,7 @@
           "text": "'me' é objeto direto do verbo 'aceitar'."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Na construção tradicional de dificuldade, o fato expresso pelo infinitivo é aquilo que custa, e o pronome marca a pessoa afetada; preço e demora são leituras diferentes. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -754,7 +754,7 @@
     },
     {
       "id": "q3484",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual afirmação respeita a variação documentada de 'presidir' e 'deparar(-se)'?",
       "options": [
@@ -764,7 +764,7 @@
         },
         {
           "id": "B",
-          "text": "Há registro de 'presidir a sessão/presidir à sessão' e de 'deparar com/deparar-se com'."
+          "text": "A única combinação formal é 'presidir com a sessão' e 'deparar ao problema'."
         },
         {
           "id": "C",
@@ -776,10 +776,10 @@
         },
         {
           "id": "E",
-          "text": "A única combinação formal é 'presidir com a sessão' e 'deparar ao problema'."
+          "text": "Há registro de 'presidir a sessão/presidir à sessão' e de 'deparar com/deparar-se com'."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "As fontes registram mais de uma construção para esses verbos; as outras opções eliminam variantes ou lhes atribuem regências sem base. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "id": "q3494",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A forma normativa 'Assiste-se a palestras' mantém o verbo no singular porque",
       "options": [
@@ -974,7 +974,7 @@
         },
         {
           "id": "B",
-          "text": "todo substantivo plural exige verbo singular com 'se'."
+          "text": "'assistir a', no sentido de presenciar, é indireto, e 'se' indetermina o sujeito."
         },
         {
           "id": "C",
@@ -982,25 +982,25 @@
         },
         {
           "id": "D",
-          "text": "'assistir a', no sentido de presenciar, é indireto, e 'se' indetermina o sujeito."
+          "text": "todo substantivo plural exige verbo singular com 'se'."
         },
         {
           "id": "E",
           "text": "'a palestras' é sujeito paciente plural, mas a concordância é facultativa."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "O termo 'a palestras' é complemento preposicionado, não sujeito paciente; por isso há sujeito indeterminado e terceira pessoa do singular. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3495",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Na análise tradicional de 'Obedece-se às normas',",
       "options": [
         {
           "id": "A",
-          "text": "o sujeito é indeterminado, e o verbo fica no singular diante do complemento com 'a'."
+          "text": "'às normas' é sujeito paciente porque todo termo no plural após 'se' assume essa função."
         },
         {
           "id": "B",
@@ -1016,10 +1016,10 @@
         },
         {
           "id": "E",
-          "text": "'às normas' é sujeito paciente porque todo termo no plural após 'se' assume essa função."
+          "text": "o sujeito é indeterminado, e o verbo fica no singular diante do complemento com 'a'."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "'Obedecer a' é tradicionalmente indireto, de modo que o 'se' indetermina o sujeito; a passiva lexical registrada com obedecer não muda essa análise sintética regular. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "q3498",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O queísmo ocorre quando",
       "options": [
@@ -1098,29 +1098,29 @@
         },
         {
           "id": "C",
-          "text": "se coloca um objeto direto depois de verbo transitivo direto."
+          "text": "se retira a preposição exigida, como em 'tenho certeza que' no padrão conservador."
         },
         {
           "id": "D",
-          "text": "se retira a preposição exigida, como em 'tenho certeza que' no padrão conservador."
+          "text": "se coloca um objeto direto depois de verbo transitivo direto."
         },
         {
           "id": "E",
           "text": "se mantém a preposição exigida antes de uma oração introduzida por 'que'."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "Queísmo é a supressão da preposição selecionada antes de 'que'; as outras situações podem ser estruturas regulares e não definem o fenômeno. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3499",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Sobre 'Lembro-me de que a reunião foi adiada' e 'Lembro-me que a reunião foi adiada', é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "a primeira é a forma conservadora inequívoca, e a segunda possui registros, embora não seja a escolha mais segura em prova normativa."
+          "text": "a supressão de 'de' é sempre obrigatória diante de 'que'."
         },
         {
           "id": "B",
@@ -1136,10 +1136,10 @@
         },
         {
           "id": "E",
-          "text": "a supressão de 'de' é sempre obrigatória diante de 'que'."
+          "text": "a primeira é a forma conservadora inequívoca, e a segunda possui registros, embora não seja a escolha mais segura em prova normativa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "'Lembrar-se de' sustenta 'de que'; a supressão aparece documentada, mas a forma preposicionada evita controvérsia. As demais respostas negam a regência ou transformam variação em regra absoluta. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "q3501",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A forma de acordo com a regência de 'gostar' é",
       "options": [
@@ -1188,7 +1188,7 @@
         },
         {
           "id": "C",
-          "text": "O livro de que gosto foi publicado."
+          "text": "O livro por que gosto foi publicado."
         },
         {
           "id": "D",
@@ -1196,10 +1196,10 @@
         },
         {
           "id": "E",
-          "text": "O livro por que gosto foi publicado."
+          "text": "O livro de que gosto foi publicado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Quem gosta, gosta de algo; por isso 'de' antecede o relativo. O relativo sozinho não absorve a preposição, e 'a/com/por' não correspondem à regência. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1234,13 +1234,13 @@
     },
     {
       "id": "q3503",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A construção adequada para retomar uma pessoa como complemento de 'obedecer' é",
       "options": [
         {
           "id": "A",
-          "text": "A servidora a quem obedeci apresentou o relatório."
+          "text": "A servidora por quem obedeci apresentou o relatório."
         },
         {
           "id": "B",
@@ -1256,10 +1256,10 @@
         },
         {
           "id": "E",
-          "text": "A servidora por quem obedeci apresentou o relatório."
+          "text": "A servidora a quem obedeci apresentou o relatório."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A oração reconstruída é 'obedeci à servidora'; 'a' vem antes de 'quem'. O relativo sem preposição ou com 'de/com/por' não preserva a regência tradicional. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "q3505",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em redação formal, a forma mais precisa para antecedente abstrato é",
       "options": [
@@ -1308,7 +1308,7 @@
         },
         {
           "id": "C",
-          "text": "a situação em que ocorreu a falha."
+          "text": "a situação pela qual ocorreu a falha, preservando necessariamente o mesmo sentido."
         },
         {
           "id": "D",
@@ -1316,10 +1316,10 @@
         },
         {
           "id": "E",
-          "text": "a situação pela qual ocorreu a falha, preservando necessariamente o mesmo sentido."
+          "text": "a situação em que ocorreu a falha."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Com antecedente abstrato e valor de enquadramento, 'em que' é a forma precisa e de menor controvérsia; as demais preposições não correspondem à relação expressa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1384,7 +1384,7 @@
     },
     {
       "id": "q3508",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A regência nominal está correta em",
       "options": [
@@ -1394,7 +1394,7 @@
         },
         {
           "id": "B",
-          "text": "compatível com o cargo e em conformidade com a norma."
+          "text": "compatível com o cargo e em conformidade da norma."
         },
         {
           "id": "C",
@@ -1406,10 +1406,10 @@
         },
         {
           "id": "E",
-          "text": "compatível com o cargo e em conformidade da norma."
+          "text": "compatível com o cargo e em conformidade com a norma."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "'Compatível' e 'conformidade' selecionam frequentemente 'com'; as demais opções substituem uma ou ambas as preposições por relações não sustentadas nesse contexto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1504,7 +1504,7 @@
     },
     {
       "id": "q3512",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A sequência 'obedecer ao regulamento → obediência ao regulamento → obediente ao regulamento' ilustra que",
       "options": [
@@ -1514,7 +1514,7 @@
         },
         {
           "id": "B",
-          "text": "nomes cognatos podem conservar a relação preposicional do verbo, embora isso não dispense consulta."
+          "text": "regência nominal e verbal são exatamente a mesma categoria morfológica."
         },
         {
           "id": "C",
@@ -1522,14 +1522,14 @@
         },
         {
           "id": "D",
-          "text": "regência nominal e verbal são exatamente a mesma categoria morfológica."
+          "text": "nomes cognatos podem conservar a relação preposicional do verbo, embora isso não dispense consulta."
         },
         {
           "id": "E",
           "text": "nomes cognatos conservam obrigatoriamente a mesma preposição, sem exceção nem necessidade de consulta."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A família cognata conserva nesse caso a preposição 'a', recurso útil de memorização; isso não torna as classes idênticas nem cria regra absoluta. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "q3514",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase mostra que a preposição 'a' regencial não produz crase automaticamente?",
       "options": [
@@ -1578,18 +1578,18 @@
         },
         {
           "id": "C",
-          "text": "Foi favorável à medida."
+          "text": "Aspirou a este cargo."
         },
         {
           "id": "D",
-          "text": "Aspirou a este cargo."
+          "text": "Foi favorável à medida."
         },
         {
           "id": "E",
           "text": "Obedeceu às regras."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "Diante de 'este' não há artigo feminino 'a' para fundir com a preposição; nas outras frases, preposição e artigo se combinam. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "q3516",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Ao trocar 'O médico assistiu o paciente' por 'O médico assistiu ao julgamento', a alteração da preposição",
       "options": [
@@ -1634,7 +1634,7 @@
         },
         {
           "id": "B",
-          "text": "acompanha a mudança de 'prestar assistência' para 'presenciar'."
+          "text": "marca a passagem de 'presenciar' para 'prestar assistência', nessa ordem."
         },
         {
           "id": "C",
@@ -1646,10 +1646,10 @@
         },
         {
           "id": "E",
-          "text": "marca a passagem de 'presenciar' para 'prestar assistência', nessa ordem."
+          "text": "acompanha a mudança de 'prestar assistência' para 'presenciar'."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A construção direta expressa assistência ao paciente, e a construção com 'a' expressa presença como espectador; portanto uma reescrita pode ser gramatical e não equivalente. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
