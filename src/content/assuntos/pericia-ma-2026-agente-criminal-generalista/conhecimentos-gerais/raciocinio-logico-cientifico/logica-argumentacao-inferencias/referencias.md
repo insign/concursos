@@ -1,3 +1,5 @@
+# Referências — Argumentação e inferências lógicas
+
 ## Programa e recorte
 
 - **Perícia Oficial do Maranhão.** [Edital número 1, de 17/07/2026, consolidado até o Edital número 3](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Item 21.2.2, Raciocínio Lógico e Científico, item 2: “Lógica de argumentação”. A unidade ensina identificação de argumentos, validade, regras de inferência e avaliação de apoio não necessário. Tabelas completas, equivalências, estruturas finitas e métodos científicos recebem aprofundamento nas unidades próprias.

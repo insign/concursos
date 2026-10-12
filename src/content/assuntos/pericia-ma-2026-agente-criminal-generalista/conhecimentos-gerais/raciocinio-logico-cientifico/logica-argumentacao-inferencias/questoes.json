@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q4899",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em análise lógica, um argumento é",
       "options": [
@@ -22,14 +22,14 @@
         },
         {
           "id": "D",
-          "text": "uma estrutura em que premissas são oferecidas para sustentar uma conclusão."
+          "text": "qualquer conjunto de afirmações verdadeiras, mesmo sem relação de apoio."
         },
         {
           "id": "E",
-          "text": "qualquer conjunto de afirmações verdadeiras, mesmo sem relação de apoio."
+          "text": "uma estrutura em que premissas são oferecidas para sustentar uma conclusão."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "O argumento se caracteriza pela relação de apoio: uma ou mais afirmações funcionam como razões para aceitar outra. Tema comum, ênfase ou verdade isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "q4905",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Considere: “Todo processo urgente recebe prioridade. O processo P é urgente. Logo, P recebe prioridade.” As duas premissas atuam em conjunto porque",
       "options": [
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "é preciso aplicar a regra geral ao caso de P para obter a conclusão."
+          "text": "qualquer uma delas garante a conclusão, e a outra apenas repete a mesma informação."
         },
         {
           "id": "E",
-          "text": "qualquer uma delas garante a conclusão, e a outra apenas repete a mesma informação."
+          "text": "é preciso aplicar a regra geral ao caso de P para obter a conclusão."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "A regra estabelece a ligação entre urgência e prioridade; a segunda premissa informa que P satisfaz essa condição. É a combinação que permite concluir prioridade para P. A regra não classifica P como urgente, e a classificação de P não fornece, sozinha, a regra de prioridade."
     },
     {
       "id": "q4906",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Considere duas regras hipotéticas: “Cadastros incompletos exigem correção” e “Cadastros que exigem correção ficam pendentes”. Sabe-se que C está incompleto; conclui-se que C exige correção e, depois, que C fica pendente. A afirmação “C exige correção” é",
       "options": [
         {
           "id": "A",
-          "text": "uma regra geral que substitui as duas regras fornecidas."
+          "text": "uma conclusão intermediária, usada também como premissa no passo seguinte."
         },
         {
           "id": "B",
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "uma conclusão intermediária, usada também como premissa no passo seguinte."
+          "text": "uma regra geral que substitui as duas regras fornecidas."
         },
         {
           "id": "D",
@@ -149,7 +149,7 @@
           "text": "uma explicação da causa real de C estar incompleto."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "A incompletude de C e a primeira regra sustentam “C exige correção”. Essa afirmação, junto à segunda regra, sustenta “C fica pendente”. Ela é conclusão num passo e premissa no seguinte. O exemplo fornece regras hipotéticas; não afirma uma norma jurídica ou a causa da incompletude."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "q4911",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Numa situação observada, as premissas e a conclusão de um argumento são verdadeiras. Não foram examinadas outras situações possíveis. Isso",
       "options": [
         {
           "id": "A",
-          "text": "basta para provar validade dedutiva, pois a conclusão coincidiu com os fatos."
+          "text": "não basta para provar validade: pode haver outra situação com as premissas verdadeiras e a conclusão falsa."
         },
         {
           "id": "B",
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "não basta para provar validade: pode haver outra situação com as premissas verdadeiras e a conclusão falsa."
+          "text": "basta para provar validade dedutiva, pois a conclusão coincidiu com os fatos."
         },
         {
           "id": "D",
@@ -239,7 +239,7 @@
           "text": "prova que a conclusão foi obtida por indução, qualquer que seja a relação entre as afirmações."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "A situação favorável não basta para demonstrar a garantia exigida pela validade. É preciso afastar todos os casos com premissas verdadeiras e conclusão falsa. A solidez exige validade além da verdade das premissas; a informação dada também não determina o tipo de raciocínio."
     },
     {
@@ -274,13 +274,13 @@
     },
     {
       "id": "q4923",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Considere a regra hipotética: “Se o pedido foi deferido, o interessado foi notificado”. O pedido foi deferido; conclui-se que o interessado foi notificado. A forma é",
       "options": [
         {
           "id": "A",
-          "text": "afirmação do consequente, inválida."
+          "text": "afirmação do antecedente, ou modus ponens, válida."
         },
         {
           "id": "B",
@@ -288,7 +288,7 @@
         },
         {
           "id": "C",
-          "text": "afirmação do antecedente, ou modus ponens, válida."
+          "text": "afirmação do consequente, inválida."
         },
         {
           "id": "D",
@@ -299,12 +299,12 @@
           "text": "uma indução que exige observar a frequência de notificações."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "A condição de deferimento foi afirmada, e a regra permite obter a notificação: de se p então q e de p, segue q. Não se partiu da notificação para obter o deferimento, nem se negou uma das afirmações. A validade da forma supõe as premissas dadas, sem depender de levantamento estatístico."
     },
     {
       "id": "q4924",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Considere a regra hipotética: “Se o pedido foi deferido, o interessado foi notificado”. O interessado não foi notificado; conclui-se que o pedido não foi deferido. A forma é",
       "options": [
@@ -314,7 +314,7 @@
         },
         {
           "id": "B",
-          "text": "modus tollens, que nega o consequente para negar o antecedente."
+          "text": "uma passagem inválida porque inverte a regra, mesmo ao negar as duas afirmações."
         },
         {
           "id": "C",
@@ -326,10 +326,10 @@
         },
         {
           "id": "E",
-          "text": "uma passagem inválida porque inverte a regra, mesmo ao negar as duas afirmações."
+          "text": "modus tollens, que nega o consequente para negar o antecedente."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "De se p então q e de não q, segue não p. Se p fosse verdadeira com q falsa, a premissa condicional seria falsa. A inversão simples não é autorizada, mas a inferência que nega a consequência exigida para negar a condição é válida."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "q4926",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Considere como premissa a regra “Se o relatório foi enviado por e-mail, chegou hoje”. O relatório não foi enviado por e-mail; conclui-se que não chegou hoje. O argumento incorre em",
       "options": [
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "negação do antecedente, que não exclui a chegada por outro canal."
+          "text": "afirmação do consequente, pois a segunda premissa afirma a chegada hoje."
         },
         {
           "id": "D",
@@ -386,10 +386,10 @@
         },
         {
           "id": "E",
-          "text": "afirmação do consequente, pois a segunda premissa afirma a chegada hoje."
+          "text": "negação do antecedente, que não exclui a chegada por outro canal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A segunda premissa nega o envio por e-mail, que é o antecedente. A primeira não diz que só e-mails chegam hoje; o relatório pode ter chegado por outro canal. Nesse caso, ambas as premissas são verdadeiras e a conclusão é falsa."
     },
     {
