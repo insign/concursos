@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 7,
+  "questionSetRevision": 8,
   "questions": [
     {
       "id": "q5019",
@@ -34,7 +34,7 @@
     },
     {
       "id": "q5020",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma forma de testar se P e Q são equivalentes é verificar se",
       "options": [
@@ -44,7 +44,7 @@
         },
         {
           "id": "B",
-          "text": "P ↔ Q é uma tautologia."
+          "text": "P → Q é falsa em alguma linha."
         },
         {
           "id": "C",
@@ -52,25 +52,25 @@
         },
         {
           "id": "D",
-          "text": "P → Q é falsa em alguma linha."
+          "text": "P ↔ Q é uma tautologia."
         },
         {
           "id": "E",
           "text": "P e Q contêm a mesma quantidade de proposições simples."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "P ↔ Q é verdadeira exatamente quando P e Q têm valores iguais. Se isso ocorre em todas as linhas, a bicondicional é uma tautologia e as fórmulas são equivalentes. P e Q não precisam ser individualmente sempre verdadeiras: podem ser ambas falsas na mesma linha. Questão autoral."
     },
     {
       "id": "q5027",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A forma equivalente a p ∧ (q ∨ r), pela distributividade, é",
       "options": [
         {
           "id": "A",
-          "text": "(p ∧ q) ∨ (p ∧ r)."
+          "text": "(p ∨ q) ∨ (p ∨ r)."
         },
         {
           "id": "B",
@@ -86,21 +86,21 @@
         },
         {
           "id": "E",
-          "text": "(p ∨ q) ∨ (p ∨ r)."
+          "text": "(p ∧ q) ∨ (p ∧ r)."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Distribua p para cada parcela de q ∨ r: (p ∧ q) ∨ (p ∧ r). Para a fórmula inicial ser verdadeira, p deve ser verdadeira e ao menos uma de q ou r também; as duas parcelas da resposta expressam exatamente essas possibilidades. Exigir as duas parcelas simultaneamente, como em D, passaria a exigir q e r verdadeiras. Questão autoral."
     },
     {
       "id": "q5031",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A eliminação correta da seta em p → q produz",
       "options": [
         {
           "id": "A",
-          "text": "¬p ∨ q."
+          "text": "p ∨ q."
         },
         {
           "id": "B",
@@ -116,10 +116,10 @@
         },
         {
           "id": "E",
-          "text": "p ∨ q."
+          "text": "¬p ∨ q."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "p → q e ¬p ∨ q são falsas somente quando p é verdadeira e q é falsa. Nas outras três combinações, ambas são verdadeiras. Já p ∧ ¬q, alternativa D, afirma o caso falso da condicional e é sua negação, não sua equivalente. Questão autoral."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "q5039",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A expressão (p ∧ q) ∨ (p ∧ ¬q) simplifica-se para",
       "options": [
         {
           "id": "A",
-          "text": "p."
+          "text": "p → q."
         },
         {
           "id": "B",
@@ -236,10 +236,10 @@
         },
         {
           "id": "E",
-          "text": "p → q."
+          "text": "p."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Pela distributividade, (p ∧ q) ∨ (p ∧ ¬q) equivale a p ∧ (q ∨ ¬q). Como q ∨ ¬q é sempre verdadeira, a conjunção tem exatamente o valor de p. Não se está cancelando q por aparência: cada passagem usa uma equivalência. Questão autoral."
     },
     {
