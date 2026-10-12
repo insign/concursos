@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u023-a01",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual afirmação distingue corretamente sistema operacional e gerenciador de arquivos?",
       "options": [
         {
           "id": "A",
-          "text": "O gerenciador de arquivos distribui diretamente tempo de processamento entre todas as tarefas do computador."
+          "text": "O sistema operacional coordena recursos; o gerenciador de arquivos é um aplicativo usado para navegar e operar sobre arquivos e diretórios."
         },
         {
           "id": "B",
-          "text": "O sistema operacional coordena recursos; o gerenciador de arquivos é um aplicativo usado para navegar e operar sobre arquivos e diretórios."
+          "text": "O gerenciador de arquivos distribui diretamente tempo de processamento entre todas as tarefas do computador."
         },
         {
           "id": "C",
@@ -29,8 +29,8 @@
           "text": "O sistema operacional se limita aos serviços de armazenamento, enquanto cada aplicativo administra sozinho a memória física."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "B distingue a administração geral dos recursos da ferramenta de navegação. O sistema de arquivos organiza o armazenamento, mas não esgota as funções do sistema operacional. Mostrar dispositivos em uma janela também não transforma o aplicativo em núcleo. Apoio: glossário de sistema operacional do National Institute of Standards and Technology e File Explorer in Windows, Microsoft."
+      "correctOptionId": "A",
+      "explanation": "A distingue a administração geral dos recursos da ferramenta de navegação. O sistema de arquivos organiza o armazenamento, mas não esgota as funções do sistema operacional. Mostrar dispositivos em uma janela também não transforma o aplicativo em núcleo. Apoio: glossário de sistema operacional do National Institute of Standards and Technology e File Explorer in Windows, Microsoft."
     },
     {
       "id": "u023-a02",
@@ -574,7 +574,7 @@
     },
     {
       "id": "per-u029-q004",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ao aumentar muito a carga de programas, um computador passa a transferir frequentemente páginas entre a memória e o armazenamento. Qual conclusão é sustentada?",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "Essas transferências podem reduzir o desempenho e não equivalem a instalar memória física adicional."
+          "text": "A memória principal deixou de ser volátil porque parte dos dados foi transferida."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "A memória principal deixou de ser volátil porque parte dos dados foi transferida."
+          "text": "Essas transferências podem reduzir o desempenho e não equivalem a instalar memória física adicional."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O armazenamento pode apoiar paginação/troca, mas as transferências têm custo e podem tornar o trabalho mais lento. O mecanismo não cria memória física, não salva automaticamente documentos e não define ausência de multitarefa. Apoio: Virtual address spaces, Microsoft, e Concepts overview, documentação do núcleo Linux."
     },
     {
@@ -724,17 +724,17 @@
     },
     {
       "id": "per-u029-q009",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um usuário entra corretamente em sua conta e consegue ler um relatório, mas a tentativa de gravar mudanças no mesmo arquivo é negada por suas permissões. Isso ilustra que",
       "options": [
         {
           "id": "A",
-          "text": "a autenticação falhou, pois uma conta válida permitiria qualquer operação."
+          "text": "autenticação verifica a identidade, enquanto autorização pode permitir leitura e negar escrita."
         },
         {
           "id": "B",
-          "text": "autenticação verifica a identidade, enquanto autorização pode permitir leitura e negar escrita."
+          "text": "a autenticação falhou, pois uma conta válida permitiria qualquer operação."
         },
         {
           "id": "C",
@@ -749,7 +749,7 @@
           "text": "usar um terminal garantiria permissão de escrita sobre esse arquivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Reconhecer a identidade não concede todas as operações. As permissões podem autorizar leitura e negar escrita; a forma gráfica ou textual de solicitar a operação não elimina esse controle. Apoio: File security and access rights, Microsoft, e Set file permissions, projeto GNOME (projeto de ambiente gráfico)."
     }
   ]
