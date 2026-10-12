@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q3580",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Qual série contém somente pronomes pessoais oblíquos átonos?",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "me, te, se, lhe, nos."
+          "text": "meu, teu, seu, nosso."
         },
         {
           "id": "C",
@@ -22,14 +22,14 @@
         },
         {
           "id": "D",
-          "text": "meu, teu, seu, nosso."
+          "text": "me, te, se, lhe, nos."
         },
         {
           "id": "E",
           "text": "me, te, mim, lhe, nos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "'Me', 'te', 'se', 'lhe' e 'nos' são formas átonas. As demais séries contêm formas tônicas, pronomes retos ou possessivos. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "id": "q3640",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a reescrita adequada ao padrão formal conservador para “Nunca comunicaram-me a decisão”.",
       "options": [
@@ -284,7 +284,7 @@
         },
         {
           "id": "B",
-          "text": "Nunca me comunicaram a decisão."
+          "text": "Nunca comunicaram-lhe a decisão."
         },
         {
           "id": "C",
@@ -292,14 +292,14 @@
         },
         {
           "id": "D",
-          "text": "Nunca comunicaram-lhe a decisão."
+          "text": "Nunca me comunicaram a decisão."
         },
         {
           "id": "E",
           "text": "Nunca me comunicaram-lhe a decisão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A palavra negativa “nunca” exige próclise. A reescrita preserva a função de objeto indireto exercida por “me”. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "id": "q3642",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No trecho “Em se tratando de recursos públicos, redobre-se a cautela”, a primeira próclise é explicada por",
       "options": [
@@ -352,14 +352,14 @@
         },
         {
           "id": "D",
-          "text": "a construção fixa formada por “em” seguido de gerúndio."
+          "text": "a posição inicial do gerúndio, que exige sempre mesóclise."
         },
         {
           "id": "E",
-          "text": "a posição inicial do gerúndio, que exige sempre mesóclise."
+          "text": "a construção fixa formada por “em” seguido de gerúndio."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "A tradição normativa reconhece próclise em “em + gerúndio”. Já “tratando-se”, sem a preposição “em”, constitui outra estrutura. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -454,13 +454,13 @@
     },
     {
       "id": "q3647",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Compare “Hoje se divulgará o resultado” e “Hoje, divulgar-se-á o resultado”. A diferença de colocação é explicada porque",
       "options": [
         {
           "id": "A",
-          "text": "a vírgula transforma “hoje” em palavra negativa."
+          "text": "na segunda frase, a pausa separa o advérbio do verbo e reaparece o futuro simples sem atrator inequívoco."
         },
         {
           "id": "B",
@@ -472,14 +472,14 @@
         },
         {
           "id": "D",
-          "text": "na segunda frase, a pausa separa o advérbio do verbo e reaparece o futuro simples sem atrator inequívoco."
+          "text": "a vírgula transforma “hoje” em palavra negativa."
         },
         {
           "id": "E",
           "text": "o pronome muda de função sintática na segunda frase."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "A",
       "explanation": "Sem pausa, o advérbio favorece a próclise; com pausa, a orientação conservadora admite a mesóclise do futuro simples. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "id": "q3658",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “A comissão analisou o processo e encaminhou-o ao setor”, a ênclise em “encaminhou-o” é possível porque",
       "options": [
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "a coordenação transforma o verbo em futuro."
+          "text": "a conjunção coordenativa “e” não cria atração automática."
         },
         {
           "id": "D",
@@ -686,10 +686,10 @@
         },
         {
           "id": "E",
-          "text": "a conjunção coordenativa “e” não cria atração automática."
+          "text": "a coordenação transforma o verbo em futuro."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "Conjunções coordenativas não equivalem a fatores fortes de próclise. A posição depende da estrutura completa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -784,13 +784,13 @@
     },
     {
       "id": "q3663",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sem fator de próclise, qual forma corresponde à orientação normativa tradicional no futuro do presente?",
       "options": [
         {
           "id": "A",
-          "text": "Comunicarei-lhe a decisão amanhã."
+          "text": "Comunicar-lhe-ei a decisão amanhã."
         },
         {
           "id": "B",
@@ -806,11 +806,11 @@
         },
         {
           "id": "E",
-          "text": "Comunicar-lhe-ei a decisão amanhã."
+          "text": "Comunicarei-lhe a decisão amanhã."
         }
       ],
-      "correctOptionId": "E",
-      "explanation": "No futuro simples sem atrator, a tradição emprega mesóclise, com o pronome entre o radical e a terminação. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+      "correctOptionId": "A",
+      "explanation": "No futuro simples sem fator atrativo, a orientação tradicional emprega mesóclise, com o pronome entre a base do infinitivo e a terminação de futuro. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3664",
@@ -964,7 +964,7 @@
     },
     {
       "id": "q3671",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual forma é adequada em “É importante ___ imediatamente”, retomando “o candidato”?",
       "options": [
@@ -974,11 +974,11 @@
         },
         {
           "id": "B",
-          "text": "informa-lo"
+          "text": "informá-lo"
         },
         {
           "id": "C",
-          "text": "informá-lo"
+          "text": "informa-lo"
         },
         {
           "id": "D",
@@ -989,7 +989,7 @@
           "text": "informado-o"
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "Depois de infinitivo terminado em r, “o” assume a forma “lo”, com perda do r e acentuação: “informá-lo”. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1054,17 +1054,17 @@
     },
     {
       "id": "q3674",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual forma está correta com gerúndio sem a preposição “em” e sem atrator?",
       "options": [
         {
           "id": "A",
-          "text": "Continuou examinando-o."
+          "text": "Continuou o examinando, como única forma normativa."
         },
         {
           "id": "B",
-          "text": "Continuou o examinando, como única forma normativa."
+          "text": "Continuou examinando-o."
         },
         {
           "id": "C",
@@ -1079,7 +1079,7 @@
           "text": "Continuou examinar-o."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "O gerúndio sem atrator admite ênclise; “o” retoma objeto direto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "q3680",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual opção apresenta outra posição normativa possível para o pronome em “Deve-se informar sobre o resultado”?",
       "options": [
@@ -1214,11 +1214,11 @@
         },
         {
           "id": "B",
-          "text": "Deve informar-se sobre o resultado."
+          "text": "Deve informar sobre-se o resultado."
         },
         {
           "id": "C",
-          "text": "Deve informar sobre-se o resultado."
+          "text": "Deve informar-se sobre o resultado."
         },
         {
           "id": "D",
@@ -1229,7 +1229,7 @@
           "text": "Deve-lhe informar-se sobre o resultado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Com infinitivo, pode ocorrer ênclise ao principal, conforme a estrutura. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1320,7 +1320,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O Cebraspe vem cobrando a posição entre auxiliar e infinitivo; não se pode ignorar a variação. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+      "explanation": "A posição sem hífen entre auxiliar e infinitivo é produtiva no português brasileiro; sua adequação ao padrão solicitado depende do comando e do registro. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3685",
@@ -1354,7 +1354,7 @@
     },
     {
       "id": "q3687",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual construção evita pronome depois do particípio em uma cadeia com três verbos?",
       "options": [
@@ -1372,14 +1372,14 @@
         },
         {
           "id": "D",
-          "text": "Pode ter-se manifestado."
+          "text": "Pode ter manifestar-se."
         },
         {
           "id": "E",
-          "text": "Pode ter manifestar-se."
+          "text": "Pode ter-se manifestado."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "O clítico pode ligar-se ao infinitivo auxiliar “ter”, mas não ao particípio “manifestado”. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "q3690",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual alternativa também pode ser construída com negativa e clítico ligado ao infinitivo auxiliar?",
       "options": [
@@ -1454,7 +1454,7 @@
         },
         {
           "id": "B",
-          "text": "Não pode ter-se manifestado."
+          "text": "Não pode ter-se manifestar-se."
         },
         {
           "id": "C",
@@ -1466,10 +1466,10 @@
         },
         {
           "id": "E",
-          "text": "Não pode ter-se manifestar-se."
+          "text": "Não pode ter-se manifestado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A ênclise ao infinitivo “ter” pode coexistir com o fator atrativo que antecede a cadeia, conforme a orientação adotada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "q3696",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Precisa-se de servidores”, o singular do verbo decorre de",
       "options": [
@@ -1608,7 +1608,7 @@
         },
         {
           "id": "C",
-          "text": "“se” funcionar como índice de indeterminação com verbo transitivo indireto."
+          "text": "a preposição “de” funcionar como atrator."
         },
         {
           "id": "D",
@@ -1616,10 +1616,10 @@
         },
         {
           "id": "E",
-          "text": "a preposição “de” funcionar como atrator."
+          "text": "“se” funcionar como índice de indeterminação com verbo transitivo indireto."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Não há sujeito paciente com o qual o verbo concorde; a construção fica no singular. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1804,7 +1804,7 @@
     },
     {
       "id": "q3708",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual grafia está correta para “trazer + a” em ênclise?",
       "options": [
@@ -1814,7 +1814,7 @@
         },
         {
           "id": "B",
-          "text": "traze-la"
+          "text": "trazê-la"
         },
         {
           "id": "C",
@@ -1826,10 +1826,10 @@
         },
         {
           "id": "E",
-          "text": "trazê-la"
+          "text": "traze-la"
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "B",
       "explanation": "Depois de r, elimina-se a consoante, usa-se “la” e ajusta-se a acentuação. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1894,7 +1894,7 @@
     },
     {
       "id": "q3711",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A forma “Informou-me o resultado” foi reescrita como locução. Qual alternativa preserva o destinatário de primeira pessoa e uma colocação possível?",
       "options": [
@@ -1908,7 +1908,7 @@
         },
         {
           "id": "C",
-          "text": "Deve informar-me o resultado."
+          "text": "Deve informado o resultado-me."
         },
         {
           "id": "D",
@@ -1916,10 +1916,10 @@
         },
         {
           "id": "E",
-          "text": "Deve informado o resultado-me."
+          "text": "Deve informar-me o resultado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A locução com infinitivo admite ênclise ao principal; “me” conserva a função original. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1954,17 +1954,17 @@
     },
     {
       "id": "q3714",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A inserção de “talvez” em “Informar-me-á amanhã” exige a reescrita",
       "options": [
         {
           "id": "A",
-          "text": "Talvez me informe amanhã."
+          "text": "Talvez informar-me-á amanhã."
         },
         {
           "id": "B",
-          "text": "Talvez informar-me-á amanhã."
+          "text": "Talvez me informe amanhã."
         },
         {
           "id": "C",
@@ -1979,7 +1979,7 @@
           "text": "Talvez me informar-me-á amanhã."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "“Talvez” favorece a próclise e seleciona normalmente o subjuntivo no contexto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -2010,7 +2010,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O Cebraspe explora a mobilidade do clítico em locuções e o registro exigido pelo comando. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
+      "explanation": "Em “vão se beneficiar”, o clítico antecede o infinitivo sem hífen; em “vão beneficiar-se”, liga-se depois do infinitivo. É preciso considerar o padrão e o registro pedidos. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3716",
