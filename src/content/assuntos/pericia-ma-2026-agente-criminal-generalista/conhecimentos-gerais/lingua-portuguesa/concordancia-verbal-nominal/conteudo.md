@@ -276,7 +276,7 @@ Em *É necessário conferir os dados*, o sujeito é <abbr title="Uma oração in
 
 O padrão se repete em *É necessário paciência / É necessária esta paciência* e *Água é bom / A água é boa*. Sem determinante, a construção genérica admite o masculino singular; com artigo ou pronome determinando o sujeito, o adjetivo acompanha o nome.
 
-A <abbr title="Universidade Federal de Lavras">UFLA</abbr> registra, especificamente com **é preciso** antes do sujeito, uso brasileiro frequente sem variação mesmo diante de sujeito determinado. Não estenda essa observação a todas as expressões. Formulações normativas inequívocas: *São necessárias as autorizações* ou *É preciso obter as autorizações*.
+Para escrever sem ambiguidade no padrão formal, use uma construção cujo termo controlador seja claro: *São necessárias as autorizações* (sujeito nominal determinado) ou *É preciso obter as autorizações* (sujeito oracional). Assim, a flexão decorre da estrutura, não da proximidade.
 
 ### *Possível*: qual é a construção intensificadora?
 

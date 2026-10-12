@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q3402",
@@ -64,13 +64,13 @@
     },
     {
       "id": "q3404",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Na frase 'Prazos, custos e riscos, tudo foi examinado', o verbo concorda com",
       "options": [
         {
           "id": "A",
-          "text": "o pronome singular 'tudo', que resume a enumeração."
+          "text": "os três nomes anteriores, apesar do pronome resumidor."
         },
         {
           "id": "B",
@@ -86,10 +86,10 @@
         },
         {
           "id": "E",
-          "text": "os três nomes anteriores, apesar do pronome resumidor."
+          "text": "o pronome singular 'tudo', que resume a enumeração."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O pronome indefinido resume os núcleos anteriores e comanda a concordância no singular. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -124,13 +124,13 @@
     },
     {
       "id": "q3418",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Na concordância de percentual acompanhado de especificador, deve-se considerar que",
       "options": [
         {
           "id": "A",
-          "text": "o verbo fica sempre no singular."
+          "text": "o número e o nome especificador podem orientar a concordância, havendo variantes em certas estruturas."
         },
         {
           "id": "B",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "o número e o nome especificador podem orientar a concordância, havendo variantes em certas estruturas."
+          "text": "o verbo fica sempre no singular."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "A",
       "explanation": "Construções como '1% dos eleitores faltou/faltaram' mostram que a forma não pode ser julgada por regra única sem observar a estrutura. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "id": "q3447",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A distinção correta entre os usos de 'só' aparece em",
       "options": [
@@ -374,7 +374,7 @@
         },
         {
           "id": "B",
-          "text": "Os fiscais ficaram sós; sós os fiscais ficaram no sentido de somente."
+          "text": "Os fiscais ficaram sós; só os fiscais ficaram."
         },
         {
           "id": "C",
@@ -382,14 +382,14 @@
         },
         {
           "id": "D",
-          "text": "Os fiscais ficaram sós; só os fiscais ficaram."
+          "text": "Os fiscais ficaram sós; sós os fiscais ficaram no sentido de somente."
         },
         {
           "id": "E",
           "text": "Os fiscais ficaram só; só os fiscais ficaram."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "Com sentido de 'sozinhos', 'sós' é adjetivo variável; com sentido de 'somente', 'só' é advérbio invariável. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "q3453",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Qual par mostra o contraste entre sujeito genérico e sujeito determinado?",
       "options": [
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "É proibidos entrada / São proibida as entradas."
+          "text": "É proibido entrada / É proibida a entrada."
         },
         {
           "id": "D",
@@ -536,10 +536,10 @@
         },
         {
           "id": "E",
-          "text": "É proibido entrada / É proibida a entrada."
+          "text": "É proibidos entrada / São proibida as entradas."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "Sem determinante e com sentido genérico, usa-se o masculino singular; com artigo, o predicativo concorda com 'a entrada'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "id": "q3471",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual frase apresenta a forma segura com sujeito composto anteposto?",
       "options": [
@@ -674,11 +674,11 @@
         },
         {
           "id": "B",
-          "text": "“Chegou o relatório e a planilha” é a única forma possível."
+          "text": "“O relatório e a planilha chegaram.”"
         },
         {
           "id": "C",
-          "text": "“O relatório e a planilha chegaram.”"
+          "text": "“Chegou o relatório e a planilha” é a única forma possível."
         },
         {
           "id": "D",
@@ -689,7 +689,7 @@
           "text": "“Nem o relatório nem a planilha chegou” é obrigatoriamente singular."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "Com sujeito composto anteposto, o plural é a regra geral. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -724,13 +724,13 @@
     },
     {
       "id": "q3473",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na frase “O presidente, com os conselheiros, aprovou a minuta”, o singular indica que",
       "options": [
         {
           "id": "A",
-          "text": "“presidente” e “conselheiros” formam sujeito composto obrigatório."
+          "text": "“com os conselheiros” foi tratado como termo parentético de companhia."
         },
         {
           "id": "B",
@@ -746,10 +746,10 @@
         },
         {
           "id": "E",
-          "text": "“com os conselheiros” foi tratado como termo parentético de companhia."
+          "text": "“presidente” e “conselheiros” formam sujeito composto obrigatório."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "A",
       "explanation": "A pontuação favorece a leitura de companhia; o sujeito sintático principal é “O presidente”. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -814,7 +814,7 @@
     },
     {
       "id": "q3476",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “O descuido ou a fraude podem causar dano”, o plural sinaliza que",
       "options": [
@@ -824,11 +824,11 @@
         },
         {
           "id": "B",
-          "text": "o verbo concorda com “dano”."
+          "text": "as duas possibilidades podem concorrer para o resultado."
         },
         {
           "id": "C",
-          "text": "as duas possibilidades podem concorrer para o resultado."
+          "text": "o verbo concorda com “dano”."
         },
         {
           "id": "D",
@@ -839,7 +839,7 @@
           "text": "a proximidade de “fraude” exige plural."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "O “ou” inclusivo admite a participação de ambos os núcleos. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -874,17 +874,17 @@
     },
     {
       "id": "q3479",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na frase “Ler e escrever exige concentração”, o singular apresenta",
       "options": [
         {
           "id": "A",
-          "text": "as duas ações como atividade integrada."
+          "text": "“concentração” como sujeito."
         },
         {
           "id": "B",
-          "text": "“concentração” como sujeito."
+          "text": "as duas ações como atividade integrada."
         },
         {
           "id": "C",
@@ -899,7 +899,7 @@
           "text": "concordância atrativa com “escrever”."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Infinitivos coordenados podem levar o verbo ao singular quando exprimem uma unidade. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -994,7 +994,7 @@
     },
     {
       "id": "q3485",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Mais de um gestor se acusaram mutuamente”, o plural é explicado pela",
       "options": [
@@ -1004,7 +1004,7 @@
         },
         {
           "id": "B",
-          "text": "reciprocidade."
+          "text": "regra de que “mais de um” sempre é plural."
         },
         {
           "id": "C",
@@ -1016,10 +1016,10 @@
         },
         {
           "id": "E",
-          "text": "regra de que “mais de um” sempre é plural."
+          "text": "reciprocidade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A ação recíproca exige mais de um participante e favorece o plural. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1144,7 +1144,7 @@
     },
     {
       "id": "q3492",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Zero ocorrências foram registradas”, a concordância é adequada porque",
       "options": [
@@ -1162,19 +1162,19 @@
         },
         {
           "id": "D",
-          "text": "o substantivo expresso está no plural."
+          "text": "o particípio não precisa concordar."
         },
         {
           "id": "E",
-          "text": "o particípio não precisa concordar."
+          "text": "o substantivo expresso está no plural."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "A formulação “zero ocorrências” apresenta sujeito plural. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3493",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Fomos nós que redigimos o parecer”, a forma “redigimos” concorda com",
       "options": [
@@ -1192,14 +1192,14 @@
         },
         {
           "id": "D",
-          "text": "a forma “fomos”."
+          "text": "o antecedente “nós” do pronome relativo “que”."
         },
         {
           "id": "E",
-          "text": "o antecedente “nós” do pronome relativo “que”."
+          "text": "a forma “fomos”."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "D",
       "explanation": "Quando “que” exerce a função de sujeito, o verbo concorda com o antecedente. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "q3496",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a concordância adequada com pronome de tratamento dirigido a uma mulher.",
       "options": [
@@ -1278,7 +1278,7 @@
         },
         {
           "id": "C",
-          "text": "“Vossa Excelência está informada.”"
+          "text": "“Vossa Excelência estão informadas.”"
         },
         {
           "id": "D",
@@ -1286,15 +1286,15 @@
         },
         {
           "id": "E",
-          "text": "“Vossa Excelência estão informadas.”"
+          "text": "“Vossa Excelência está informada.”"
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O verbo fica na terceira pessoa; o predicativo acompanha o gênero da pessoa referida. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3497",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual construção é prototípica com nome próprio precedido de artigo plural?",
       "options": [
@@ -1304,7 +1304,7 @@
         },
         {
           "id": "B",
-          "text": "“Estados Unidos anunciaram” é obrigatória em qualquer uso."
+          "text": "“Os Estados Unidos anunciaram a medida.”"
         },
         {
           "id": "C",
@@ -1312,14 +1312,14 @@
         },
         {
           "id": "D",
-          "text": "“Os Estados Unidos anunciaram a medida.”"
+          "text": "“Estados Unidos anunciaram” é obrigatória em qualquer uso."
         },
         {
           "id": "E",
           "text": "“Os Estados Unidos anunciou-se a medida.”"
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "O artigo plural e o uso consagrado favorecem a concordância no plural. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1384,7 +1384,7 @@
     },
     {
       "id": "q3502",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ao substituir “Há alternativas” por uma forma de “existir”, a redação correta é",
       "options": [
@@ -1398,18 +1398,18 @@
         },
         {
           "id": "C",
-          "text": "“Hão alternativas.”"
+          "text": "“Existem alternativas.”"
         },
         {
           "id": "D",
-          "text": "“Existem alternativas.”"
+          "text": "“Hão alternativas.”"
         },
         {
           "id": "E",
           "text": "“Existir alternativas.”"
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "“Existir” é pessoal e concorda com o sujeito plural. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "q3505",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a forma adequada com índice de indeterminação do sujeito.",
       "options": [
@@ -1484,11 +1484,11 @@
         },
         {
           "id": "B",
-          "text": "“Precisa-se de analistas.”"
+          "text": "“Precisam-se analistas.”"
         },
         {
           "id": "C",
-          "text": "“Precisam-se analistas.”"
+          "text": "“Precisa-se de analistas.”"
         },
         {
           "id": "D",
@@ -1499,7 +1499,7 @@
           "text": "“Precisaram-se de analistas.”"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O verbo transitivo indireto permanece na terceira pessoa do singular. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "q3511",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a forma correta.",
       "options": [
@@ -1578,7 +1578,7 @@
         },
         {
           "id": "C",
-          "text": "“As certidões foram consideradas válidas.”"
+          "text": "“As certidões foi considerado válido.”"
         },
         {
           "id": "D",
@@ -1586,10 +1586,10 @@
         },
         {
           "id": "E",
-          "text": "“As certidões foi considerado válido.”"
+          "text": "“As certidões foram consideradas válidas.”"
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Verbo, particípio e predicativo concordam com o sujeito feminino plural. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1744,17 +1744,17 @@
     },
     {
       "id": "q3519",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Os gestores devem revisar os controles”, a forma “revisar”",
       "options": [
         {
           "id": "A",
-          "text": "não se flexiona porque integra locução verbal com o auxiliar “devem”."
+          "text": "deve ser “revisarem”."
         },
         {
           "id": "B",
-          "text": "deve ser “revisarem”."
+          "text": "não se flexiona porque integra locução verbal com o auxiliar “devem”."
         },
         {
           "id": "C",
@@ -1769,7 +1769,7 @@
           "text": "é particípio invariável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Na locução, apenas o auxiliar recebe as marcas de número e pessoa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1864,7 +1864,7 @@
     },
     {
       "id": "q3533",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a construção adequada com particípio anteposto.",
       "options": [
@@ -1878,7 +1878,7 @@
         },
         {
           "id": "C",
-          "text": "“Dado as circunstâncias, os relatório foi revisto.”"
+          "text": "“Dadas as circunstâncias, o relatório foi revisto.”"
         },
         {
           "id": "D",
@@ -1886,10 +1886,10 @@
         },
         {
           "id": "E",
-          "text": "“Dadas as circunstâncias, o relatório foi revisto.”"
+          "text": "“Dado as circunstâncias, os relatório foi revisto.”"
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "“Dadas” tem valor participial e concorda com “circunstâncias”. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -2074,39 +2074,39 @@
     },
     {
       "id": "q3550",
-      "revision": 1,
+      "revision": 2,
       "origin": "previous_exam",
-      "prompt": "A frase abaixo em que a concordância do verbo sublinhado apresenta incorreção é:",
+      "prompt": "Assinale a frase em que o verbo ou a locução verbal entre aspas apresenta erro de concordância.",
       "options": [
         {
           "id": "a",
-          "text": "50% do grupo `receberam` a vacina."
+          "text": "50% do grupo “receberam” a vacina."
         },
         {
           "id": "b",
-          "text": "Um terço dos capixabas já `foi vacinado`."
+          "text": "Um terço dos capixabas já “foi vacinado”."
         },
         {
           "id": "c",
-          "text": "A maior parte dos turistas também `foi` vacinada."
+          "text": "A maior parte dos turistas também “foi” vacinada."
         },
         {
           "id": "d",
-          "text": "`Chegaram` um milhão do total adquirido esta semana."
+          "text": "“Chegaram” um milhão do total adquirido esta semana."
         },
         {
           "id": "e",
-          "text": "Mais da metade dos capixabas `vai` receber a segunda dose."
+          "text": "Mais da metade dos capixabas “vai” receber a segunda dose."
         }
       ],
       "correctOptionId": "d",
-      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Secretaria de Estado da Fazenda do Espírito Santo — Auditor Fiscal da Receita Estadual, Prova 2 (Tarde), Tipo 1 (Branca); 2021; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/sefaz-es-auditor-fiscal-da-receita-estadual-p2-af02-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sefazes2021_gabarito_definitivo.pdf. As crases preservam, no JSON, os trechos sublinhados no caderno oficial, sem alterar o texto. Em D, um milhão não traz especificador plural que sustente chegaram: do total adquirido é singular. A leitura regular é chegou um milhão. A admite concordância com 50%; B/C/E admitem concordância com o núcleo quantitativo. Não se conclui que chegar ao plural com um milhão de pessoas seja sempre errado."
+      "explanation": "Gabarito definitivo: D. Fonte: questão oficial; FGV; Secretaria de Estado da Fazenda do Espírito Santo — Auditor Fiscal da Receita Estadual, Prova 2 (Tarde), Tipo 1 (Branca); 2021; questão 10; https://conhecimento.fgv.br/sites/default/files/concursos/sefaz-es-auditor-fiscal-da-receita-estadual-p2-af02-tipo-1.pdf. Gabarito oficial definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/sefazes2021_gabarito_definitivo.pdf. No caderno oficial, os verbos e locuções analisados estão sublinhados; nesta adaptação do comando e da marcação gráfica, as aspas indicam o mesmo destaque porque as alternativas são texto simples. Em D, um milhão não traz especificador plural que sustente chegaram: do total adquirido é singular. A leitura regular é chegou um milhão. A admite concordância com 50%; B/C/E admitem concordância com o núcleo quantitativo. Não se conclui que chegar ao plural com um milhão de pessoas seja sempre errado."
     },
     {
       "id": "per-u012-q001",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Segundo a orientação do Manual de Comunicação do Senado para infinitivos após verbos de percepção, qual comparação é adequada?",
+      "prompt": "Na concordância do infinitivo após verbos de percepção, qual comparação segue o padrão formal descrito nas referências da unidade?",
       "options": [
         {
           "id": "A",
@@ -2130,7 +2130,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Com nome expresso depois de ver, o manual admite sair e saírem. Com pronome oblíquo átono, a construção é vi-os sair. O sujeito do verbo principal não controla mecanicamente a flexão do infinitivo. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
+      "explanation": "O Manual de Comunicação do Senado admite a variação sair/saírem com nome expresso após ver. Com pronome oblíquo átono, o Manual de Padronização de Textos do STJ (3ª ed., 2024, item 1.4) orienta a forma não flexionada vi-os sair. O sujeito do verbo principal não controla mecanicamente a flexão do infinitivo. Exemplo hipotético; questão autoral baseada no conteúdo e nas referências desta unidade."
     }
   ]
 }
