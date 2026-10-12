@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 7,
+  "questionSetRevision": 8,
   "questions": [
     {
       "id": "q3759",
@@ -34,7 +34,7 @@
     },
     {
       "id": "q3761",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma anotação técnica é reconstruída como instrução para usuários, com outra finalidade e outra organização. Essa operação caracteriza retextualização porque",
       "options": [
@@ -44,7 +44,7 @@
         },
         {
           "id": "B",
-          "text": "produz novo texto a partir da base para outra situação comunicativa."
+          "text": "substitui termos técnicos por sinônimos de maior formalidade."
         },
         {
           "id": "C",
@@ -56,15 +56,15 @@
         },
         {
           "id": "E",
-          "text": "substitui termos técnicos por sinônimos de maior formalidade."
+          "text": "produz novo texto a partir da base para outra situação comunicativa."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "No caso proposto, a nova finalidade e a organização dirigida aos usuários caracterizam a retextualização. A descrição de resumo que mantém o propósito não corresponde à transformação pedida, e a operação não se limita à troca de palavras ou à mudança de suporte. Questão autoral; situações hipotéticas."
     },
     {
       "id": "q3762",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um bilhete entre amigos diz “A gente chega cedo”, e um comunicado administrativo diz “Nós chegará cedo”. Qual análise separa registro e correção?",
       "options": [
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "A primeira tem marca coloquial com concordância regular; a segunda contém erro de concordância, apesar da troca de expressão."
+          "text": "A escolha de “nós” neutraliza o contraste de registro entre as frases, ainda que o verbo permaneça no singular."
         },
         {
           "id": "D",
@@ -86,10 +86,10 @@
         },
         {
           "id": "E",
-          "text": "A escolha de “nós” neutraliza o contraste de registro entre as frases, ainda que o verbo permaneça no singular."
+          "text": "A primeira tem marca coloquial com concordância regular; a segunda contém erro de concordância, apesar da troca de expressão."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "“A gente” combina com verbo no singular; “nós” exige plural. A expressão coloquial pode ser adequada ao bilhete. A troca de expressão não neutraliza a diferença de situação nem corrige a concordância da nova frase. Questão autoral; situações hipotéticas."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "q3767",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma mensagem será arquivada para leitura posterior. Ela diz “O atendimento volta amanhã”, mas a data de envio não foi fornecida. Qual adaptação preserva a fidelidade?",
       "options": [
@@ -224,7 +224,7 @@
         },
         {
           "id": "B",
-          "text": "Registrar a dependência temporal da mensagem sem inventar uma data absoluta para o retorno."
+          "text": "Eliminar a referência temporal, pois expressões relativas não podem ocorrer na escrita."
         },
         {
           "id": "C",
@@ -236,10 +236,10 @@
         },
         {
           "id": "E",
-          "text": "Eliminar a referência temporal, pois expressões relativas não podem ocorrer na escrita."
+          "text": "Registrar a dependência temporal da mensagem sem inventar uma data absoluta para o retorno."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Sem o dia de produção, não se calcula a data de “amanhã”. A versão pode atribuir a indicação à mensagem original ou exigir sua ancoragem, mas não escolher uma data. “Em breve” perde a delimitação; escrita não proíbe referência temporal relativa. Questão autoral; situações hipotéticas."
     },
     {
@@ -304,13 +304,13 @@
     },
     {
       "id": "q3770",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A base recomenda guardar uma cópia antes da atualização. O novo texto deve orientar diretamente o usuário sem criar obrigação. Qual versão atende ao comando?",
       "options": [
         {
           "id": "A",
-          "text": "Guarde obrigatoriamente uma cópia antes da atualização."
+          "text": "É recomendável que você guarde uma cópia antes da atualização."
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "É recomendável que você guarde uma cópia antes da atualização."
+          "text": "Guarde obrigatoriamente uma cópia antes da atualização."
         },
         {
           "id": "D",
@@ -329,18 +329,18 @@
           "text": "A atualização depende de uma cópia previamente guardada."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "C dirige a recomendação ao usuário e mantém a anterioridade. A, B e E aumentam a força para obrigação ou condição; D muda o momento. A passagem à orientação não exige apagar o caráter de conselho. Questão autoral; situações hipotéticas."
+      "correctOptionId": "A",
+      "explanation": "A dirige a recomendação ao usuário e mantém a anterioridade. C, B e E aumentam a força para obrigação ou condição; D muda o momento. A passagem à orientação não exige apagar o caráter de conselho. Questão autoral; situações hipotéticas."
     },
     {
       "id": "q3771",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A base diz “O diretor classificou a medida como insuficiente”. Qual versão informativa preserva a avaliação atribuída?",
       "options": [
         {
           "id": "A",
-          "text": "A medida é insuficiente, segundo todos os participantes."
+          "text": "O diretor avaliou a medida como insuficiente."
         },
         {
           "id": "B",
@@ -348,7 +348,7 @@
         },
         {
           "id": "C",
-          "text": "O diretor avaliou a medida como insuficiente."
+          "text": "A medida é insuficiente, segundo todos os participantes."
         },
         {
           "id": "D",
@@ -359,8 +359,8 @@
           "text": "Embora o diretor discorde, a medida é insuficiente."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "C mantém a avaliação e sua fonte. As demais criam consenso, comprovação, causa ou posição não informada. Relatar que alguém avaliou não prova que a avaliação seja um fato independente. Questão autoral; situações hipotéticas."
+      "correctOptionId": "A",
+      "explanation": "A mantém a avaliação e sua fonte. As demais criam consenso, comprovação, causa ou posição não informada. Relatar que alguém avaliou não prova que a avaliação seja um fato independente. Questão autoral; situações hipotéticas."
     },
     {
       "id": "q3772",
@@ -484,7 +484,7 @@
     },
     {
       "id": "q3787",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A mensagem “Você consegue enviar o relatório até as 17 horas, se for possível?” deve virar pedido profissional sem aumentar a exigência. Qual versão atende?",
       "options": [
@@ -494,7 +494,7 @@
         },
         {
           "id": "B",
-          "text": "Solicito, se possível, o envio do relatório até as 17 horas."
+          "text": "Autoriza-se o envio do relatório somente depois das 17 horas."
         },
         {
           "id": "C",
@@ -502,19 +502,19 @@
         },
         {
           "id": "D",
-          "text": "Autoriza-se o envio do relatório somente depois das 17 horas."
+          "text": "Solicito, se possível, o envio do relatório até as 17 horas."
         },
         {
           "id": "E",
           "text": "Confirmo que o relatório estará disponível às 17 horas."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "A ressalva de possibilidade permanece e o texto continua sendo pedido. A e C impõem cumprimento; D altera ação e horário; E confirma resultado. Cortesia formal não autoriza intensificar a exigência. Questão autoral; situações hipotéticas."
+      "correctOptionId": "D",
+      "explanation": "A ressalva de possibilidade permanece e o texto continua sendo pedido. A e C impõem cumprimento; B altera ação e horário; E confirma resultado. Cortesia formal não autoriza intensificar a exigência. Questão autoral; situações hipotéticas."
     },
     {
       "id": "q3788",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma mensagem enviada em 20 de julho de 2026 prevê interrupção “amanhã, das 14 às 16 horas”. Ela será publicada em página permanente, sem alterar a previsão. Qual versão é adequada?",
       "options": [
@@ -528,19 +528,19 @@
         },
         {
           "id": "C",
-          "text": "Há previsão de interrupção em 21 de julho de 2026, das 14 às 16 horas."
+          "text": "Há previsão de interrupção no dia seguinte à leitura desta página."
         },
         {
           "id": "D",
-          "text": "Há previsão de interrupção no dia seguinte à leitura desta página."
+          "text": "Há previsão de interrupção em 21 de julho de 2026, das 14 às 16 horas."
         },
         {
           "id": "E",
           "text": "Há previsão de interrupção durante toda a tarde de 21 de julho de 2026."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "A data de produção permite ancorar “amanhã” em 21 de julho. C mantém previsão e intervalo. A perde o intervalo; B afirma conclusão; D muda a referência; E amplia a duração. Questão autoral; situações hipotéticas."
+      "correctOptionId": "D",
+      "explanation": "A data de produção permite ancorar “amanhã” em 21 de julho. D mantém previsão e intervalo. A perde o intervalo; B afirma conclusão; C muda a referência; E amplia a duração. Questão autoral; situações hipotéticas."
     },
     {
       "id": "q3789",
@@ -694,7 +694,7 @@
     },
     {
       "id": "q3813",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A base de um relato formal diz “A equipe técnica identificou a falha”. Qual afirmação sobre a versão “A falha foi identificada” é correta?",
       "options": [
@@ -708,7 +708,7 @@
         },
         {
           "id": "C",
-          "text": "Omitiu o responsável expresso; sua aceitação depende de a tarefa permitir dispensar essa informação."
+          "text": "Atende obrigatoriamente melhor à formalidade por eliminar o agente."
         },
         {
           "id": "D",
@@ -716,10 +716,10 @@
         },
         {
           "id": "E",
-          "text": "Atende obrigatoriamente melhor à formalidade por eliminar o agente."
+          "text": "Omitiu o responsável expresso; sua aceitação depende de a tarefa permitir dispensar essa informação."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A passiva sem agente mantém a identificação realizada, mas deixa de nomear a equipe. A tarefa e o contexto decidem se a omissão é admissível. A voz não altera automaticamente certeza e a formalidade não exige esconder responsáveis. Questão autoral; situações hipotéticas."
     },
     {
@@ -784,13 +784,13 @@
     },
     {
       "id": "per-u018-q01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A base declara “A associação considera a medida excelente e afirma que ela poderá reduzir filas”. A tarefa pede relato informativo com preservação integral dos sentidos. Qual versão atende?",
       "options": [
         {
           "id": "A",
-          "text": "A medida reduzirá filas, segundo especialistas."
+          "text": "A associação avaliou a medida como excelente e afirmou que ela poderá reduzir filas."
         },
         {
           "id": "B",
@@ -798,7 +798,7 @@
         },
         {
           "id": "C",
-          "text": "A associação avaliou a medida como excelente e afirmou que ela poderá reduzir filas."
+          "text": "A medida reduzirá filas, segundo especialistas."
         },
         {
           "id": "D",
@@ -809,8 +809,8 @@
           "text": "A medida poderá reduzir filas e é excelente."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "C conserva avaliação e seu grau, fonte e possibilidade. B seria seleção possível em outra tarefa, mas aqui apaga avaliação exigida pela preservação integral. A e D inventam fonte, comprovação ou resultado; E faz o redator assumir a avaliação. Questão autoral; situação hipotética."
+      "correctOptionId": "A",
+      "explanation": "A conserva avaliação e seu grau, fonte e possibilidade. B seria seleção possível em outra tarefa, mas aqui apaga avaliação exigida pela preservação integral. C e D inventam fonte, comprovação ou resultado; E faz o redator assumir a avaliação. Questão autoral; situação hipotética."
     },
     {
       "id": "per-u018-q02",
