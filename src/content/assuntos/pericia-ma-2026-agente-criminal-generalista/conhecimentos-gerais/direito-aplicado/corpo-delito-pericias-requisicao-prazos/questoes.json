@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "u093-a01",
@@ -34,7 +34,7 @@
     },
     {
       "id": "u093-a02",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Se os vestígios de uma infração desaparecerem e o exame de corpo de delito não puder mais ser realizado,",
       "options": [
@@ -44,7 +44,7 @@
         },
         {
           "id": "B",
-          "text": "a prova testemunhal pode suprir a falta do exame."
+          "text": "o juiz deve presumir a materialidade."
         },
         {
           "id": "C",
@@ -56,10 +56,10 @@
         },
         {
           "id": "E",
-          "text": "o juiz deve presumir a materialidade."
+          "text": "a prova testemunhal pode suprir a falta do exame."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 167 permite que a prova testemunhal supra a falta quando os vestígios desapareceram e o exame se tornou impossível."
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "u093-a07",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O prazo legal para elaboração do laudo pericial é, como regra, de",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "10 dias, com possibilidade de prorrogação em casos excepcionais a requerimento dos peritos."
+          "text": "prazo livre, escolhido pelo perito."
         },
         {
           "id": "C",
@@ -116,10 +116,10 @@
         },
         {
           "id": "E",
-          "text": "prazo livre, escolhido pelo perito."
+          "text": "10 dias, com possibilidade de prorrogação em casos excepcionais a requerimento dos peritos."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O artigo 160, parágrafo único, prevê prazo máximo de 10 dias, prorrogável excepcionalmente a requerimento dos peritos."
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "id": "u150-a02",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A relação correta entre corpo de delito e exame de corpo de delito é",
       "options": [
@@ -194,7 +194,7 @@
         },
         {
           "id": "B",
-          "text": "o primeiro é a realidade material e o segundo é a operação técnico-pericial realizada sobre ela."
+          "text": "o exame é uma declaração testemunhal."
         },
         {
           "id": "C",
@@ -206,10 +206,10 @@
         },
         {
           "id": "E",
-          "text": "o exame é uma declaração testemunhal."
+          "text": "o primeiro é a realidade material e o segundo é a operação técnico-pericial realizada sobre ela."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O corpo de delito é o objeto material da demonstração; o exame é a atividade técnica que o analisa."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "id": "per-u046-a04",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prioridade legal do exame de corpo de delito prevista no artigo 158 alcança, entre outras hipóteses, crime que envolva",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "violência doméstica e familiar contra mulher ou violência contra criança, adolescente, idoso ou pessoa com deficiência."
+          "text": "exclusivamente delitos de trânsito."
         },
         {
           "id": "C",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "exclusivamente delitos de trânsito."
+          "text": "violência doméstica e familiar contra mulher ou violência contra criança, adolescente, idoso ou pessoa com deficiência."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O parágrafo único do artigo 158 estabelece prioridade nessas hipóteses de violência especialmente protegidas."
     },
     {
@@ -544,7 +544,7 @@
     },
     {
       "id": "per-u046-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O exame de corpo de delito, segundo o artigo 161 do Código de Processo Penal,",
       "options": [
@@ -554,11 +554,11 @@
         },
         {
           "id": "B",
-          "text": "pode ser feito em qualquer dia e a qualquer hora."
+          "text": "depende de autorização judicial em todos os casos."
         },
         {
           "id": "C",
-          "text": "depende de autorização judicial em todos os casos."
+          "text": "pode ser feito em qualquer dia e a qualquer hora."
         },
         {
           "id": "D",
@@ -569,7 +569,7 @@
           "text": "é proibido no período noturno."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O artigo 161 afirma expressamente que o exame pode ser feito em qualquer dia e a qualquer hora."
     },
     {
@@ -694,7 +694,7 @@
     },
     {
       "id": "per-u046-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A autoridade e as partes podem formular quesitos para a perícia, segundo o artigo 176,",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "até o ato da diligência."
+          "text": "somente na fase policial."
         },
         {
           "id": "C",
@@ -712,14 +712,14 @@
         },
         {
           "id": "D",
-          "text": "somente na fase policial."
+          "text": "até o ato da diligência."
         },
         {
           "id": "E",
           "text": "nunca, pois quesitos são exclusivos do perito."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O artigo 176 permite à autoridade e às partes formular quesitos até o ato da diligência."
     },
     {
