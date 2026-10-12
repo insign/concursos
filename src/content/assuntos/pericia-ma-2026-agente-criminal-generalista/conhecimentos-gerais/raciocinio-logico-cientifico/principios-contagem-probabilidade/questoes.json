@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q5139",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma equipe de 3 pessoas será escolhida entre 8, sem funções distintas. O número de equipes possíveis é",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "56 equipes."
+          "text": "336 equipes."
         },
         {
           "id": "C",
@@ -26,15 +26,15 @@
         },
         {
           "id": "E",
-          "text": "336 equipes."
+          "text": "56 equipes."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Trocar a ordem dos três escolhidos não cria outra equipe. As 8·7·6 escolhas ordenadas representam cada equipe 3!=6 vezes; 336/6=56. Contar 336 trata a escolha como cargos distintos; dividir por apenas 2 ainda mantém repetições. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
       "id": "q5142",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Uma senha tem duas letras distintas seguidas de três algarismos, e os algarismos podem repetir. Considerando 26 letras e 10 algarismos, o total é",
       "options": [
@@ -48,7 +48,7 @@
         },
         {
           "id": "C",
-          "text": "26·25·10^3."
+          "text": "26·25·10·9·8."
         },
         {
           "id": "D",
@@ -56,10 +56,10 @@
         },
         {
           "id": "E",
-          "text": "26·25·10·9·8."
+          "text": "26·25·10^3."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "As letras ocupam posições distintas e não podem repetir: 26·25. Cada algarismo tem 10 opções, pois pode repetir: 10^3. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "q5146",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sete pessoas distintas sentam-se em círculo, sem assentos marcados. Rotações representam a mesma disposição, mas reflexões representam disposições diferentes. Quantas disposições existem?",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "720 disposições."
+          "text": "120 disposições."
         },
         {
           "id": "C",
@@ -116,10 +116,10 @@
         },
         {
           "id": "E",
-          "text": "120 disposições."
+          "text": "720 disposições."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Fixe uma pessoa como referência e ordene as seis demais: 6!=720. Contar 7! distingue rotações que o comando identifica; dividir ainda por 2 apagaria reflexões que ele manda conservar. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "id": "q5149",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Escolhem-se 4 bolas de sorvete entre 6 sabores, permitindo repetição e ignorando a ordem. O total de escolhas é",
       "options": [
@@ -164,7 +164,7 @@
         },
         {
           "id": "B",
-          "text": "C(9,4)=126."
+          "text": "C(10,4)=210."
         },
         {
           "id": "C",
@@ -176,21 +176,21 @@
         },
         {
           "id": "E",
-          "text": "C(10,4)=210."
+          "text": "C(9,4)=126."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "É combinação com repetição: C(6+4−1,4)=C(9,4)=126. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
       "id": "q5151",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O número de sequências de quatro lançamentos de um dado que contêm pelo menos um resultado 6 é",
       "options": [
         {
           "id": "A",
-          "text": "5^4."
+          "text": "6^4−5^4=671."
         },
         {
           "id": "B",
@@ -202,14 +202,14 @@
         },
         {
           "id": "D",
-          "text": "6^4−5^4=671."
+          "text": "5^4."
         },
         {
           "id": "E",
           "text": "6^4−4^4=1.040."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "A",
       "explanation": "Conta-se o total, 6^4, e retira-se o complemento sem nenhum 6, que tem 5^4 sequências: 671. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
@@ -244,7 +244,7 @@
     },
     {
       "id": "q5153",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Cinco pessoas distintas formam uma fila. Se Ana e Bruno devem ficar juntos, o número de filas é",
       "options": [
@@ -258,7 +258,7 @@
         },
         {
           "id": "C",
-          "text": "4!·2!=48."
+          "text": "5!−4!=96."
         },
         {
           "id": "D",
@@ -266,10 +266,10 @@
         },
         {
           "id": "E",
-          "text": "5!−4!=96."
+          "text": "4!·2!=48."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O par forma um bloco. Há 4! ordens das quatro unidades e 2! ordens internas do par: 48. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
@@ -394,13 +394,13 @@
     },
     {
       "id": "q5167",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Em três lançamentos independentes de moeda honesta, a probabilidade de ocorrer ao menos uma cara é",
       "options": [
         {
           "id": "A",
-          "text": "1/8."
+          "text": "7/8."
         },
         {
           "id": "B",
@@ -412,14 +412,14 @@
         },
         {
           "id": "D",
-          "text": "7/8."
+          "text": "1/8."
         },
         {
           "id": "E",
           "text": "5/8."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "A",
       "explanation": "O complemento é três coroas, com probabilidade (1/2)^3=1/8. Logo, 1−1/8=7/8. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
@@ -484,7 +484,7 @@
     },
     {
       "id": "q5170",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Dois dados honestos de seis faces são lançados de forma independente. A probabilidade de o produto dos resultados ser par é",
       "options": [
@@ -494,7 +494,7 @@
         },
         {
           "id": "B",
-          "text": "3/4."
+          "text": "2/3."
         },
         {
           "id": "C",
@@ -506,10 +506,10 @@
         },
         {
           "id": "E",
-          "text": "2/3."
+          "text": "3/4."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O produto só é ímpar quando os dois resultados são ímpares. Cada dado tem três faces ímpares entre seis; pela independência, essa chance é (1/2)^2=1/4. O complemento tem probabilidade 3/4. Exigir dois resultados pares contaria apenas parte do evento desejado. Questão autoral do acervo Insign/Concursos; contexto hipotético quando aplicável."
     },
     {
