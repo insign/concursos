@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q3554",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Qual orientação evita generalização indevida sobre instrumento e meio?",
       "options": [
         {
           "id": "A",
-          "text": "Devem-se reconhecer locuções consagradas, como 'à mão' e 'à máquina', e o padrão editorial aplicável."
+          "text": "Qualquer indicação de meio dispensa o acento, inclusive nas locuções à mão e à máquina."
         },
         {
           "id": "B",
@@ -26,10 +26,10 @@
         },
         {
           "id": "E",
-          "text": "Qualquer indicação de meio dispensa o acento, inclusive nas locuções à mão e à máquina."
+          "text": "Devem-se reconhecer locuções consagradas, como 'à mão' e 'à máquina', e o padrão editorial aplicável."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Manuais registram certas locuções por tradição ou clareza, mas isso não cria regra automática para todo nome feminino de instrumento. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "id": "q3580",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na frase “A norma se aplica a uma situação excepcional”, a substituição de `a uma` por `à uma` seria",
       "options": [
@@ -74,7 +74,7 @@
         },
         {
           "id": "B",
-          "text": "incorreta, porque a preposição `a` não se funde com o artigo indefinido `uma`."
+          "text": "correta apenas se `uma` indicar quantidade exata."
         },
         {
           "id": "C",
@@ -86,10 +86,10 @@
         },
         {
           "id": "E",
-          "text": "correta apenas se `uma` indicar quantidade exata."
+          "text": "incorreta, porque a preposição `a` não se funde com o artigo indefinido `uma`."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A crase básica exige preposição `a` e artigo definido `a/as`, não artigo indefinido. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -154,17 +154,17 @@
     },
     {
       "id": "q3584",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Os técnicos chegaram a adquirir experiência”, inserir acento grave no `a` seria",
       "options": [
         {
           "id": "A",
-          "text": "incorreto, porque o termo seguinte é infinitivo e não admite artigo feminino."
+          "text": "correto, porque `chegar` exige preposição."
         },
         {
           "id": "B",
-          "text": "correto, porque `chegar` exige preposição."
+          "text": "incorreto, porque o termo seguinte é infinitivo e não admite artigo feminino."
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "correto apenas no plural."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "A preposição pode estar presente antes do infinitivo, mas não existe segundo `a` para fusão. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "q3586",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na frase “O portal dá acesso a elas”, a forma `a elas`",
       "options": [
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "não recebe acento grave, porque pronomes pessoais não admitem artigo."
+          "text": "só fica sem acento se o referente for masculino."
         },
         {
           "id": "D",
@@ -236,21 +236,21 @@
         },
         {
           "id": "E",
-          "text": "só fica sem acento se o referente for masculino."
+          "text": "não recebe acento grave, porque pronomes pessoais não admitem artigo."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A regência fornece a preposição, mas o pronome pessoal não fornece artigo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3588",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase em que o emprego do acento grave está incorreto.",
       "options": [
         {
           "id": "A",
-          "text": "A reunião começou às cinco horas."
+          "text": "O documento fazia às vezes de comprovante provisório."
         },
         {
           "id": "B",
@@ -266,10 +266,10 @@
         },
         {
           "id": "E",
-          "text": "O documento fazia às vezes de comprovante provisório."
+          "text": "A reunião começou às cinco horas."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "A",
       "explanation": "A expressão correta é `fazer as vezes de`, com artigo plural e sem preposição `a`; não há crase. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -334,13 +334,13 @@
     },
     {
       "id": "q3591",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “A decisão é idêntica à prevista no edital”, a forma acentuada representa",
       "options": [
         {
           "id": "A",
-          "text": "artigo de um objeto direto."
+          "text": "preposição `a` mais demonstrativo feminino equivalente a `aquela decisão`."
         },
         {
           "id": "B",
@@ -348,7 +348,7 @@
         },
         {
           "id": "C",
-          "text": "preposição `a` mais demonstrativo feminino equivalente a `aquela decisão`."
+          "text": "artigo de um objeto direto."
         },
         {
           "id": "D",
@@ -359,7 +359,7 @@
           "text": "contração com o pronome relativo `que`."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O núcleo `decisão` foi omitido e recuperado pelo demonstrativo `a`. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "id": "q3593",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A construção “a autora à cujo texto fiz referência” deve ser corrigida para",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "a autora às cujo texto fiz referência."
+          "text": "a autora a cujo texto fiz referência."
         },
         {
           "id": "C",
@@ -416,10 +416,10 @@
         },
         {
           "id": "E",
-          "text": "a autora a cujo texto fiz referência."
+          "text": "a autora às cujo texto fiz referência."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "B",
       "explanation": "`Cujo` não admite artigo; a preposição `a` permanece isolada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -484,7 +484,7 @@
     },
     {
       "id": "q3596",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
@@ -494,11 +494,11 @@
         },
         {
           "id": "B",
-          "text": "Não atribuiu importância à isso que foi comprovado."
+          "text": "Não atribuiu importância àquilo que foi comprovado."
         },
         {
           "id": "C",
-          "text": "Não atribuiu importância àquilo que foi comprovado."
+          "text": "Não atribuiu importância à isso que foi comprovado."
         },
         {
           "id": "D",
@@ -509,7 +509,7 @@
           "text": "Não atribuiu importância à qualquer evidência."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A preposição se incorpora ao início de `aquilo`; `isso`, `este` e `qualquer` não admitem artigo nesse uso. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -574,13 +574,13 @@
     },
     {
       "id": "q3599",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a opção correta quanto à crase diante de pronomes.",
       "options": [
         {
           "id": "A",
-          "text": "Trouxe o documento a você e entregou a cópia à secretária."
+          "text": "Trouxe o documento à qualquer pessoa."
         },
         {
           "id": "B",
@@ -588,7 +588,7 @@
         },
         {
           "id": "C",
-          "text": "Trouxe o documento à qualquer pessoa."
+          "text": "Trouxe o documento a você e entregou a cópia à secretária."
         },
         {
           "id": "D",
@@ -599,7 +599,7 @@
           "text": "Entregou o processo à ela."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "`Você`, `qualquer`, `Vossa Excelência` e `ela` não recebem artigo nesse uso; `secretária` admite artigo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -694,17 +694,17 @@
     },
     {
       "id": "q3604",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A frase “Dirigiu-se à Vossa Excelência” deve ser corrigida para",
       "options": [
         {
           "id": "A",
-          "text": "Dirigiu-se a Vossa Excelência."
+          "text": "Dirigiu-se às Vossa Excelência."
         },
         {
           "id": "B",
-          "text": "Dirigiu-se às Vossa Excelência."
+          "text": "Dirigiu-se a Vossa Excelência."
         },
         {
           "id": "C",
@@ -719,7 +719,7 @@
           "text": "Dirigiu-se para à Vossa Excelência."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Pronomes de tratamento com `Vossa` não recebem artigo definido. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "id": "q3618",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a opção em que a mudança de grafia altera o valor temporal.",
       "options": [
@@ -982,25 +982,25 @@
         },
         {
           "id": "D",
-          "text": "à vista / à prazo."
+          "text": "chegou há uma hora / chegou à uma hora."
         },
         {
           "id": "E",
-          "text": "chegou há uma hora / chegou à uma hora."
+          "text": "à vista / à prazo."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "D",
       "explanation": "`Há uma hora` indica tempo decorrido; `à uma hora`, horário. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3619",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase em que a locução está corretamente grafada.",
       "options": [
         {
           "id": "A",
-          "text": "A equipe trabalhou à medida que os dados chegavam."
+          "text": "A equipe trabalhou à medida de que os dados chegavam."
         },
         {
           "id": "B",
@@ -1016,10 +1016,10 @@
         },
         {
           "id": "E",
-          "text": "A equipe trabalhou à medida de que os dados chegavam."
+          "text": "A equipe trabalhou à medida que os dados chegavam."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "`À medida que` é locução conjuntiva proporcional; os cruzamentos não pertencem ao padrão formal adotado. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1054,7 +1054,7 @@
     },
     {
       "id": "q3621",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase que contém elipse de `à maneira de`.",
       "options": [
@@ -1068,23 +1068,23 @@
         },
         {
           "id": "C",
-          "text": "O atacante marcou um gol à Pelé."
+          "text": "O atacante começou à correr."
         },
         {
           "id": "D",
-          "text": "O atacante começou à correr."
+          "text": "O atacante marcou um gol à Pelé."
         },
         {
           "id": "E",
           "text": "O atacante referiu-se à ele."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O acento é explicado pelo sentido de estilo ou maneira, não pelo nome masculino em si. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3622",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No contraste “bateu a máquina” / “escreveu à máquina”, o acento grave",
       "options": [
@@ -1098,18 +1098,18 @@
         },
         {
           "id": "C",
-          "text": "substitui o artigo indefinido."
+          "text": "ajuda a distinguir o objeto direto da locução de meio."
         },
         {
           "id": "D",
-          "text": "ajuda a distinguir o objeto direto da locução de meio."
+          "text": "substitui o artigo indefinido."
         },
         {
           "id": "E",
           "text": "é sempre facultativo."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "C",
       "explanation": "A primeira expressão tem objeto direto; a segunda, locução tradicional de meio. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "q3625",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A construção “referiu-se à Brasília de sua juventude” é possível porque",
       "options": [
@@ -1184,11 +1184,11 @@
         },
         {
           "id": "B",
-          "text": "o modificador determina o topônimo e favorece o artigo."
+          "text": "`Brasília` sempre recebe artigo em qualquer contexto."
         },
         {
           "id": "C",
-          "text": "`Brasília` sempre recebe artigo em qualquer contexto."
+          "text": "o modificador determina o topônimo e favorece o artigo."
         },
         {
           "id": "D",
@@ -1199,7 +1199,7 @@
           "text": "a expressão é horário determinado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Topônimos sem artigo podem recebê-lo quando modificados e individualizados. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "q3627",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
@@ -1252,14 +1252,14 @@
         },
         {
           "id": "D",
-          "text": "Os servidores voltaram à casa dos pais."
+          "text": "Os servidores começaram à voltar a casa."
         },
         {
           "id": "E",
-          "text": "Os servidores começaram à voltar a casa."
+          "text": "Os servidores voltaram à casa dos pais."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "`Voltar a` mais `a casa dos pais` produz crase; `visitar` é direto e infinitivo não admite artigo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "q3630",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “foi até a sala / foi até à sala”, as duas formas podem ser admitidas porque",
       "options": [
@@ -1334,11 +1334,11 @@
         },
         {
           "id": "B",
-          "text": "`até` pode aparecer sozinho ou acompanhado da preposição `a`."
+          "text": "o artigo de `sala` é sempre omitido."
         },
         {
           "id": "C",
-          "text": "o artigo de `sala` é sempre omitido."
+          "text": "`até` pode aparecer sozinho ou acompanhado da preposição `a`."
         },
         {
           "id": "D",
@@ -1349,12 +1349,12 @@
           "text": "o acento é apenas decorativo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A facultatividade é específica e não se estende automaticamente a outras preposições. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3633",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a frase correta com expressão repetida.",
       "options": [
@@ -1372,29 +1372,29 @@
         },
         {
           "id": "D",
-          "text": "Os negociadores ficaram frente às frente."
+          "text": "Os negociadores ficaram frente a frente."
         },
         {
           "id": "E",
-          "text": "Os negociadores ficaram frente a frente."
+          "text": "Os negociadores ficaram frente às frente."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "D",
       "explanation": "Expressões repetidas desse tipo são tradicionalmente grafadas sem acento. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3635",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A frase “Prefiro a estabilidade à mudança constante” apresenta crase porque",
       "options": [
         {
           "id": "A",
-          "text": "`preferir` exige sempre `de`."
+          "text": "a comparação com o primeiro termo direto introduz o segundo por `a`, que se funde com o artigo."
         },
         {
           "id": "B",
-          "text": "a comparação com o primeiro termo direto introduz o segundo por `a`, que se funde com o artigo."
+          "text": "`preferir` exige sempre `de`."
         },
         {
           "id": "C",
@@ -1409,12 +1409,12 @@
           "text": "o acento é facultativo diante de qualquer comparação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Na regência padrão, prefere-se uma coisa a outra; com artigo, forma-se `à`. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3636",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “submeteu o texto a revisão”, a correção para `à revisão` depende de",
       "options": [
@@ -1424,11 +1424,11 @@
         },
         {
           "id": "B",
-          "text": "apenas de o verbo estar no pretérito."
+          "text": "o verbo estar empregado com a regência `submeter algo a` e de `revisão` admitir artigo no contexto."
         },
         {
           "id": "C",
-          "text": "o verbo estar empregado com a regência `submeter algo a` e de `revisão` admitir artigo no contexto."
+          "text": "apenas de o verbo estar no pretérito."
         },
         {
           "id": "D",
@@ -1439,7 +1439,7 @@
           "text": "a expressão indicar tempo."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "Os dois filtros devem ser satisfeitos. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
