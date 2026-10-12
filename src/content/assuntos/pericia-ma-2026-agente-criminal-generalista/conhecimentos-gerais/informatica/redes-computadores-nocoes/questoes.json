@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u026-a01",
@@ -34,7 +34,7 @@
     },
     {
       "id": "u026-a02",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual equipamento tem como função central encaminhar pacotes entre redes IP diferentes?",
       "options": [
@@ -44,11 +44,11 @@
         },
         {
           "id": "B",
-          "text": "Roteador."
+          "text": "Ponto de acesso na função de conectar clientes sem fio."
         },
         {
           "id": "C",
-          "text": "Ponto de acesso na função de conectar clientes sem fio."
+          "text": "Roteador."
         },
         {
           "id": "D",
@@ -59,12 +59,12 @@
           "text": "Servidor DHCP na função de distribuir configuração."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A função de roteamento encaminha pacotes entre redes segundo rotas IP (Internet Protocol — protocolo da Internet). Conectar no enlace, consultar nomes e distribuir configuração são responsabilidades diferentes. Um aparelho pode reunir funções, mas o enunciado pede a de roteador. Questão autoral herdada, revisada."
     },
     {
       "id": "u026-a03",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Ao exercer a função de ponto de acesso sem fio, um equipamento tem como papel típico",
       "options": [
@@ -74,7 +74,7 @@
         },
         {
           "id": "B",
-          "text": "conectar clientes Wi-Fi à rede local."
+          "text": "distribuir automaticamente a configuração IP aos computadores."
         },
         {
           "id": "C",
@@ -82,14 +82,14 @@
         },
         {
           "id": "D",
-          "text": "distribuir automaticamente a configuração IP aos computadores."
+          "text": "conectar clientes Wi-Fi à rede local."
         },
         {
           "id": "E",
           "text": "garantir ordenação e retransmissão dos dados de toda aplicação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O ponto de acesso oferece conectividade sem fio e integra os clientes à rede local. As demais opções descrevem roteamento, consulta de nomes, configuração dinâmica ou transporte confiável. Reunir recursos no mesmo aparelho não torna essas funções equivalentes. Questão autoral herdada, revisada."
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "id": "u026-a08",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual endereço pertence a uma das faixas IPv4 privadas da RFC 1918?",
       "options": [
@@ -194,7 +194,7 @@
         },
         {
           "id": "B",
-          "text": "192.168.20.10"
+          "text": "224.0.0.1"
         },
         {
           "id": "C",
@@ -206,10 +206,10 @@
         },
         {
           "id": "E",
-          "text": "224.0.0.1"
+          "text": "192.168.20.10"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "192.168.0.0/16 é uma das três faixas de uso privado em IPv4 (Internet Protocol version 4 — protocolo da Internet versão 4). Os demais endereços listados não pertencem a 10.0.0.0/8, 172.16.0.0/12 ou 192.168.0.0/16. Ser privado não significa ser inválido ou ter conteúdo criptografado."
     },
     {

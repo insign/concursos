@@ -1,3 +1,5 @@
+# Referências — Noções de redes de computadores
+
 ## Programa
 
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [**Edital número 1, de 17 de julho de 2026 — Perícia Oficial de Natureza Criminal do Maranhão, consolidado até o Edital número 3, de 29 de setembro de 2026**](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Subitem 21.2.2, Informática, item 2: noções de redes de computadores, página 60 do arquivo. [Listagem oficial](https://apis.cebraspe.org.br/cebraspe/eventos/PERICIA_OFICIAL_MA_26) consultada em 4 out. 2026.
