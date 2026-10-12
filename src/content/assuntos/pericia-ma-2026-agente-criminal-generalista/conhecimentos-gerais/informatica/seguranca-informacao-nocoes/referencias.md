@@ -1,3 +1,5 @@
+# Referências — Segurança da informação
+
 ## Princípios, identidade e risco
 
 **National Institute of Standards and Technology — <abbr title="National Institute of Standards and Technology — instituto nacional de padrões e tecnologia dos Estados Unidos">NIST</abbr>.** Glossário institucional. Foram consultadas as definições nos verbetes abaixo e seus contextos indicados; isso não equivale à leitura integral das obras que cada verbete referencia. Consulta em 4 de outubro de 2026.

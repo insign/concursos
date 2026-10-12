@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "u028-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma pessoa sem autorização consegue ler um relatório restrito, sem alterar o arquivo. Qual propriedade foi diretamente violada?",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "Confidencialidade."
+          "text": "Autenticidade."
         },
         {
           "id": "C",
@@ -26,21 +26,21 @@
         },
         {
           "id": "E",
-          "text": "Autenticidade."
+          "text": "Confidencialidade."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Confidencialidade restringe o conhecimento da informação a quem tem autorização. A leitura indevida já viola essa propriedade, mesmo sem alteração do conteúdo."
     },
     {
       "id": "u028-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um registro correto é modificado sem autorização, mas o sistema continua acessível. O efeito mais direto é sobre",
       "options": [
         {
           "id": "A",
-          "text": "a integridade."
+          "text": "a redundância."
         },
         {
           "id": "B",
@@ -56,10 +56,10 @@
         },
         {
           "id": "E",
-          "text": "a redundância."
+          "text": "a integridade."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A alteração não autorizada compromete diretamente a integridade. O sistema continuar acessível não elimina esse efeito; acesso e preservação do conteúdo são perguntas diferentes."
     },
     {
@@ -814,13 +814,13 @@
     },
     {
       "id": "q4358",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um e-mail real de fornecedor pede nova conta bancária, sem link ou anexo. A conduta mais segura é",
       "options": [
         {
           "id": "A",
-          "text": "suspender a aprovação até confirmar o pedido por contato institucional conhecido e independente da mensagem."
+          "text": "aprovar o pagamento porque a ausência de link e anexo elimina a possibilidade de fraude."
         },
         {
           "id": "B",
@@ -836,10 +836,10 @@
         },
         {
           "id": "E",
-          "text": "aprovar o pagamento porque a ausência de link e anexo elimina a possibilidade de fraude."
+          "text": "suspender a aprovação até confirmar o pedido por contato institucional conhecido e independente da mensagem."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Uma conta verdadeira pode estar comprometida. Confirme uma mudança sensível por canal conhecido e independente do pedido, sem usar apenas contatos fornecidos nele. A ausência de link ou anexo não torna legítima a solicitação."
     },
     {
