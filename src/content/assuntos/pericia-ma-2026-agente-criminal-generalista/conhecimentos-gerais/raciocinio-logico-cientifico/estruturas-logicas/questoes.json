@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q4842",
@@ -844,9 +844,9 @@
     },
     {
       "id": "q52203614",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "Em uma prateleira do armário da cozinha há três latas, uma ao lado da outra. Uma lata é azul, outra é verde e outra é vermelha e contêm coisas diferentes: uma contém café, outra contém açúcar e outra contém farinha.\n\nSabe-se que\n• a lata vermelha está à direita da lata que contém farinha;\n• a lata que contém açúcar não é verde e não está ao lado da lata verde;\n• café e açúcar estão em latas vizinhas.\n\nAssim, é correto concluir que",
+      "prompt": "Em uma prateleira do armário da cozinha há três latas, uma ao lado da outra. Uma lata é azul, outra é verde e outra é vermelha e contêm coisas diferentes: uma contém café, outra contém açúcar e outra contém farinha.\n\nSabe-se que\n• a lata vermelha está imediatamente à direita da lata que contém farinha;\n• a lata que contém açúcar não é verde e não está ao lado da lata verde;\n• café e açúcar estão em latas vizinhas.\n\nAssim, é correto concluir que",
       "options": [
         {
           "id": "A",
@@ -870,7 +870,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Açúcar e verde não são vizinhos nem estão na mesma lata, então ocupam os extremos. Se açúcar fosse à esquerda e verde à direita, café seria central e farinha estaria à direita; não sobraria posição à direita da farinha para a lata vermelha. Logo açúcar está à direita, verde à esquerda, café no centro e farinha à esquerda. A vermelha só pode ser central: a lata da direita, com açúcar, é azul. Portanto B vale; café é vermelho e farinha é verde, eliminando as demais opções. Fonte: questão oficial; Fundação Getulio Vargas; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
+      "explanation": "Açúcar e verde não são vizinhos nem estão na mesma lata, então ocupam os extremos. Se açúcar fosse à esquerda e verde à direita, café seria central e farinha estaria à direita; não sobraria posição à direita da farinha para a lata vermelha. Logo açúcar está à direita, verde à esquerda, café no centro e farinha à esquerda. Com a adjacência explicitada, a vermelha só pode ser central: a lata da direita, com açúcar, é azul. Portanto B vale; café é vermelho e farinha é verde, eliminando as demais opções. Adaptação não literal do item oficial, com inclusão da condição de adjacência não expressa no original; original com duas disposições possíveis e chave oficial B. Fonte: Fundação Getulio Vargas; Assembleia Legislativa do Estado do Maranhão — Auxiliar Legislativo Operacional, Bombeiro Hidráulico, Tipo 2 (Verde); 2013; questão 19; https://conhecimento.fgv.br/sites/default/files/concursos/alema_-_auxiliar_legislativo_-_bombeiro_hidraulico_-_prova_tipo_02.pdf. Gabarito definitivo: https://conhecimento.fgv.br/sites/default/files/concursos/alema13_auxiliar_gabarito_definitivo.pdf."
     },
     {
       "id": "q52203615",
