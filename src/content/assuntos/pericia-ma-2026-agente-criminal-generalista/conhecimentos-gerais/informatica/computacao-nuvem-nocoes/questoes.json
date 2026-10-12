@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u027-a01",
@@ -124,7 +124,7 @@
     },
     {
       "id": "u027-a05",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Um arquivo na nuvem está restrito a uma lista de contas autorizadas. Uma pessoa recebe o link, mas entra no serviço com uma conta válida que não está nessa lista. Qual condição falta para que ela acesse o arquivo nesse compartilhamento?",
       "options": [
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "Obter autorização para a identidade com a qual pretende acessar o arquivo."
+          "text": "Receber o link diretamente do proprietário, pois a origem da mensagem concede a permissão."
         },
         {
           "id": "D",
@@ -146,10 +146,10 @@
         },
         {
           "id": "E",
-          "text": "Receber o link diretamente do proprietário, pois a origem da mensagem concede a permissão."
+          "text": "Obter autorização para a identidade com a qual pretende acessar o arquivo."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Autenticação identifica a conta; autorização determina quais recursos ela pode acessar. Como o compartilhamento é restrito a contas específicas, uma conta válida fora da lista não basta. Nem o dispositivo, a organização ou a procedência da mensagem substituem a autorização exigida nesse cenário."
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "id": "per-u034-q02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um provedor reúne recursos físicos e os redistribui dinamicamente entre consumidores. Os dados e as permissões de cada consumidor devem permanecer separados. Qual interpretação é correta?",
       "options": [
@@ -348,18 +348,18 @@
         },
         {
           "id": "C",
-          "text": "Compartilhar a capacidade de infraestrutura é compatível com separar o acesso aos dados de cada consumidor."
+          "text": "A separação dos dados transforma necessariamente a oferta em uma nuvem privada exclusiva de uma organização."
         },
         {
           "id": "D",
-          "text": "A separação dos dados transforma necessariamente a oferta em uma nuvem privada exclusiva de uma organização."
+          "text": "Compartilhar a capacidade de infraestrutura é compatível com separar o acesso aos dados de cada consumidor."
         },
         {
           "id": "E",
           "text": "A redistribuição de capacidade significa que o consumidor administra os equipamentos físicos do provedor."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Agrupamento de recursos trata da capacidade reunida para atender consumidores e redistribuída conforme a demanda. A separação de acessos é necessária para que essa infraestrutura compartilhada não resulte em acesso indevido a dados alheios. Compartilhamento físico, exclusividade da implantação e controle administrativo são critérios diferentes."
     },
     {

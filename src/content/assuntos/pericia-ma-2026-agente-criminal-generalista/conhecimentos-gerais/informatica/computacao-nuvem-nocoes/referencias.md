@@ -1,3 +1,5 @@
+# Referências — Noções de computação na nuvem
+
 ## Escopo e fontes primárias
 
 - **Secretarias de Estado da Administração e de Segurança Pública do Maranhão; Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Edital nº 1 — Perícia Oficial de Natureza Criminal, de 17 de julho de 2026**, versão atualizada até o Edital nº 3, de 29 de setembro de 2026. Programa de conhecimentos gerais, item 21.2.2, Informática 6: “Noções de computação na nuvem”. A fonte delimita o recorte; não impõe uma marca ou tutorial comercial. [Edital consolidado](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Consultado em 4 de outubro de 2026, em cópia local da mesma fonte: cabeçalho e trecho programático pertinente, sem certificação integral do edital nesta unidade.
