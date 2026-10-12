@@ -1,3 +1,5 @@
+# Referências — Navegação e busca na Internet
+
 ## Programa
 
 - Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Perícia Oficial de Natureza Criminal do Maranhão — Edital nº 1, de 17 de julho de 2026, consolidado até o Edital nº 3, de 29 de setembro de 2026](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Item 21.2.2, Informática, item 3: navegação e busca na Internet, página 60.

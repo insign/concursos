@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u022-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a alternativa que distingue corretamente Internet e Web.",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "A Internet é a infraestrutura global de redes interconectadas; a Web é um conjunto de recursos interligados que funciona sobre essa infraestrutura."
+          "text": "A Internet só existe quando um navegador está aberto."
         },
         {
           "id": "C",
@@ -26,10 +26,10 @@
         },
         {
           "id": "E",
-          "text": "A Internet só existe quando um navegador está aberto."
+          "text": "A Internet é a infraestrutura global de redes interconectadas; a Web é um conjunto de recursos interligados que funciona sobre essa infraestrutura."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Internet e Web não são sinônimos. A Internet interliga redes e suporta diversos serviços; a Web é um desses serviços, baseado em recursos interligados acessados por tecnologias web."
     },
     {
@@ -244,7 +244,7 @@
     },
     {
       "id": "u022-a10",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual sequência representa, de forma simplificada, o funcionamento de um mecanismo de busca?",
       "options": [
@@ -254,7 +254,7 @@
         },
         {
           "id": "B",
-          "text": "rastrear/descobrir → indexar → recuperar/ordenar resultados"
+          "text": "digitar o endereço → localizar texto na página aberta → formar o índice do buscador"
         },
         {
           "id": "C",
@@ -262,29 +262,29 @@
         },
         {
           "id": "D",
-          "text": "digitar o endereço → localizar texto na página aberta → formar o índice do buscador"
+          "text": "rastrear/descobrir → indexar → recuperar/ordenar resultados"
         },
         {
           "id": "E",
           "text": "salvar favoritos → copiar o histórico do usuário → pesquisar somente esse histórico"
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O mecanismo descobre e rastreia recursos, processa informações em um índice e recupera resultados para a consulta. A ordenação responde à pesquisa; não exige visitar toda a Web a cada consulta nem se reduz ao histórico ou aos favoritos do usuário."
     },
     {
       "id": "u022-a11",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Por que é incorreto afirmar que o índice de um mecanismo de busca contém, em tempo real, todo o conteúdo existente na Internet?",
       "options": [
         {
           "id": "A",
-          "text": "Porque páginas institucionais são excluídas da indexação por definição."
+          "text": "Porque páginas podem não ser descobertas ou indexadas, podem mudar depois do rastreamento e podem ser excluídas dos resultados."
         },
         {
           "id": "B",
-          "text": "Porque páginas podem não ser descobertas ou indexadas, podem mudar depois do rastreamento e podem ser excluídas dos resultados."
+          "text": "Porque páginas institucionais são excluídas da indexação por definição."
         },
         {
           "id": "C",
@@ -299,7 +299,7 @@
           "text": "Porque toda busca consulta diretamente cada servidor da Internet no momento da pesquisa."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Rastreamento e indexação não cobrem necessariamente toda a Web nem refletem instantaneamente cada alteração. O serviço consulta seu índice e aplica regras próprias ao servir resultados."
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "id": "u022-a13",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a alternativa que distingue corretamente histórico, cache e cookies no navegador.",
       "options": [
@@ -344,7 +344,7 @@
         },
         {
           "id": "B",
-          "text": "Histórico registra navegações; cache reutiliza temporariamente recursos/respostas; cookies podem manter estado ou preferências associados a sites."
+          "text": "Cookies são cópias completas de todas as páginas visitadas."
         },
         {
           "id": "C",
@@ -356,10 +356,10 @@
         },
         {
           "id": "E",
-          "text": "Cookies são cópias completas de todas as páginas visitadas."
+          "text": "Histórico registra navegações; cache reutiliza temporariamente recursos/respostas; cookies podem manter estado ou preferências associados a sites."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Os três mecanismos têm finalidades distintas. Apagar um deles não equivale automaticamente a apagar os demais."
     },
     {
