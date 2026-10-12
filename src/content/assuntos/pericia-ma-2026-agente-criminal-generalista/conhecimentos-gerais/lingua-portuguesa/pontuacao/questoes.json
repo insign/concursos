@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q3340",
@@ -34,13 +34,13 @@
     },
     {
       "id": "q3341",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Os relatórios, segundo a comissão, serão examinados', as vírgulas",
       "options": [
         {
           "id": "A",
-          "text": "separam diretamente o sujeito de seu predicado."
+          "text": "isolam um comentário intercalado, sem romper a frase-base."
         },
         {
           "id": "B",
@@ -48,7 +48,7 @@
         },
         {
           "id": "C",
-          "text": "isolam um comentário intercalado, sem romper a frase-base."
+          "text": "separam diretamente o sujeito de seu predicado."
         },
         {
           "id": "D",
@@ -59,7 +59,7 @@
           "text": "delimitam uma oração adjetiva que seleciona quais relatórios serão examinados."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Retirado o inciso 'segundo a comissão', resta a estrutura integrada 'Os relatórios serão examinados'. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "q3343",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A forma adequada é 'O relatório demonstra que houve melhora' porque",
       "options": [
@@ -108,7 +108,7 @@
         },
         {
           "id": "C",
-          "text": "a subordinada é adverbial deslocada."
+          "text": "a oração iniciada por 'que' funciona como complemento integrado do verbo."
         },
         {
           "id": "D",
@@ -116,10 +116,10 @@
         },
         {
           "id": "E",
-          "text": "a oração iniciada por 'que' funciona como complemento integrado do verbo."
+          "text": "a subordinada é adverbial deslocada."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "A subordinada substantiva objetiva direta completa 'demonstra' e não deve ser separada do regente por vírgula arbitrária. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "id": "q3345",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Candidatos, leiam o comando', o termo 'Candidatos' é",
       "options": [
@@ -164,7 +164,7 @@
         },
         {
           "id": "B",
-          "text": "vocativo corretamente isolado."
+          "text": "aposto especificativo."
         },
         {
           "id": "C",
@@ -172,14 +172,14 @@
         },
         {
           "id": "D",
-          "text": "aposto especificativo."
+          "text": "vocativo corretamente isolado."
         },
         {
           "id": "E",
           "text": "adjunto adverbial de destinatário."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O nome interpela os destinatários; o sujeito está implícito na forma imperativa. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -214,13 +214,13 @@
     },
     {
       "id": "q3347",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sobre o adjunto adverbial curto anteposto, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "a vírgula é sempre proibida."
+          "text": "a vírgula pode ser dispensada ou usada para realce, conforme clareza e contexto."
         },
         {
           "id": "B",
@@ -232,14 +232,14 @@
         },
         {
           "id": "D",
-          "text": "a vírgula pode ser dispensada ou usada para realce, conforme clareza e contexto."
+          "text": "a vírgula é sempre proibida."
         },
         {
           "id": "E",
           "text": "a vírgula faz o adjunto passar a exercer a função de sujeito."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "A",
       "explanation": "Fontes normativas reconhecem facultatividade em adjuntos de pequena extensão, sem regra universal de contagem de palavras. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -274,13 +274,13 @@
     },
     {
       "id": "q3349",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Chegou, conferiu, assinou, saiu', as vírgulas separam",
       "options": [
         {
           "id": "A",
-          "text": "orações coordenadas assindéticas."
+          "text": "um único predicado de seu sujeito composto."
         },
         {
           "id": "B",
@@ -292,14 +292,14 @@
         },
         {
           "id": "D",
-          "text": "um único predicado de seu sujeito composto."
+          "text": "orações coordenadas assindéticas."
         },
         {
           "id": "E",
           "text": "orações adverbiais reduzidas de gerúndio."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Os verbos formam orações coordenadas sem conjunção e são delimitados por vírgulas. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -334,13 +334,13 @@
     },
     {
       "id": "q3351",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A vírgula antes de 'e' é admissível em 'A equipe encerrou a análise, e o relator publicou o voto' porque",
       "options": [
         {
           "id": "A",
-          "text": "o primeiro verbo foi omitido."
+          "text": "a mudança de sujeito favorece a delimitação das duas orações."
         },
         {
           "id": "B",
@@ -348,7 +348,7 @@
         },
         {
           "id": "C",
-          "text": "a mudança de sujeito favorece a delimitação das duas orações."
+          "text": "o primeiro verbo foi omitido."
         },
         {
           "id": "D",
@@ -359,7 +359,7 @@
           "text": "o segundo sujeito passa a ser aposto do primeiro."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Orações coordenadas ligadas por 'e' podem ser separadas quando possuem sujeitos diferentes; o contexto define a necessidade efetiva. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "id": "q3353",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Os servidores, que concluíram o curso, foram promovidos', a pontuação favorece a leitura de que",
       "options": [
@@ -408,7 +408,7 @@
         },
         {
           "id": "C",
-          "text": "'servidores' é vocativo."
+          "text": "a conclusão do curso é comentário explicativo sobre o grupo identificado."
         },
         {
           "id": "D",
@@ -416,10 +416,10 @@
         },
         {
           "id": "E",
-          "text": "a conclusão do curso é comentário explicativo sobre o grupo identificado."
+          "text": "'servidores' é vocativo."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "As vírgulas isolam a adjetiva explicativa e alteram o alcance em relação à versão restritiva. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -454,13 +454,13 @@
     },
     {
       "id": "q3356",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Terminada a sessão, os presentes saíram', o segmento inicial",
       "options": [
         {
           "id": "A",
-          "text": "é objeto direto de 'saíram'."
+          "text": "é oração reduzida com valor adverbial e está adequadamente isolado."
         },
         {
           "id": "B",
@@ -468,7 +468,7 @@
         },
         {
           "id": "C",
-          "text": "é oração reduzida com valor adverbial e está adequadamente isolado."
+          "text": "é objeto direto de 'saíram'."
         },
         {
           "id": "D",
@@ -479,7 +479,7 @@
           "text": "é uma oração substantiva que funciona como sujeito de saíram."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "A reduzida de particípio equivale, no contexto, a uma adverbial temporal deslocada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "q3358",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A frase 'A tese, porém, não convenceu' isola 'porém' porque o conector",
       "options": [
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "introduz citação direta."
+          "text": "está intercalado na oração."
         },
         {
           "id": "D",
@@ -536,10 +536,10 @@
         },
         {
           "id": "E",
-          "text": "está intercalado na oração."
+          "text": "introduz citação direta."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "Conectores adversativos deslocados para dentro da oração ficam isolados por vírgulas. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -574,7 +574,7 @@
     },
     {
       "id": "q3360",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'Revise o texto, pois há falhas', 'pois' é",
       "options": [
@@ -584,7 +584,7 @@
         },
         {
           "id": "B",
-          "text": "explicativo anteposto à oração que justifica a orientação."
+          "text": "marca a conclusão inferida de uma revisão já realizada."
         },
         {
           "id": "C",
@@ -596,10 +596,10 @@
         },
         {
           "id": "E",
-          "text": "marca a conclusão inferida de uma revisão já realizada."
+          "text": "explicativo anteposto à oração que justifica a orientação."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Anteposto à oração, 'pois' apresenta a explicação para o ato de fala expresso pelo imperativo. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -634,7 +634,7 @@
     },
     {
       "id": "q3362",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O ponto e vírgula é especialmente útil para",
       "options": [
@@ -652,14 +652,14 @@
         },
         {
           "id": "D",
-          "text": "hierarquizar blocos extensos ou já marcados internamente por vírgulas."
+          "text": "marcar o término de um inciso iniciado por parêntese."
         },
         {
           "id": "E",
-          "text": "marcar o término de um inciso iniciado por parêntese."
+          "text": "hierarquizar blocos extensos ou já marcados internamente por vírgulas."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "E",
       "explanation": "O sinal cria fronteira mais forte que a vírgula e organiza estruturas internas complexas sem encerrar totalmente a articulação. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -694,7 +694,7 @@
     },
     {
       "id": "q3365",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'O problema era claro: faltavam dados', os dois-pontos estabelecem relação de",
       "options": [
@@ -704,7 +704,7 @@
         },
         {
           "id": "B",
-          "text": "explicação do problema anunciado."
+          "text": "uma sucessão temporal obrigatória entre dois fatos."
         },
         {
           "id": "C",
@@ -716,10 +716,10 @@
         },
         {
           "id": "E",
-          "text": "uma sucessão temporal obrigatória entre dois fatos."
+          "text": "explicação do problema anunciado."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O segundo segmento esclarece o conteúdo do problema apresentado no primeiro. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -784,7 +784,7 @@
     },
     {
       "id": "q3368",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A frase 'O relator perguntou se o recurso havia sido protocolado.' termina com ponto porque",
       "options": [
@@ -794,7 +794,7 @@
         },
         {
           "id": "B",
-          "text": "toda ocorrência de 'se' proíbe interrogação."
+          "text": "a pergunta é indireta e integra uma oração declarativa maior."
         },
         {
           "id": "C",
@@ -806,21 +806,21 @@
         },
         {
           "id": "E",
-          "text": "a pergunta é indireta e integra uma oração declarativa maior."
+          "text": "toda ocorrência de 'se' proíbe interrogação."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "B",
       "explanation": "Interrogativas indiretas funcionam como conteúdo do verbo e não recebem ponto de interrogação apenas por expressarem uma pergunta relatada. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3369",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sobre o ponto de exclamação em texto técnico-administrativo, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "é gramatical em certos contextos, mas deve ser usado com parcimônia conforme o gênero."
+          "text": "transforma automaticamente uma pergunta indireta em ordem."
         },
         {
           "id": "B",
@@ -836,10 +836,10 @@
         },
         {
           "id": "E",
-          "text": "transforma automaticamente uma pergunta indireta em ordem."
+          "text": "é gramatical em certos contextos, mas deve ser usado com parcimônia conforme o gênero."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O sinal marca emoção, apelo ou ordem enfática, mas a sobriedade do gênero técnico restringe sua conveniência. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -874,7 +874,7 @@
     },
     {
       "id": "q3371",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em uma citação, a forma que indica inequivocamente supressão editorial é",
       "options": [
@@ -888,7 +888,7 @@
         },
         {
           "id": "C",
-          "text": "[...]"
+          "text": "[sic]"
         },
         {
           "id": "D",
@@ -896,10 +896,10 @@
         },
         {
           "id": "E",
-          "text": "[sic]"
+          "text": "[...]"
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Reticências entre colchetes mostram que o corte foi feito por quem editou a citação, não pelo autor original. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -934,7 +934,7 @@
     },
     {
       "id": "q3373",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em 'A proposta — ainda provisória — será debatida', usam-se dois travessões porque",
       "options": [
@@ -944,7 +944,7 @@
         },
         {
           "id": "B",
-          "text": "o segundo marca o sujeito."
+          "text": "a oração principal continua depois do inciso."
         },
         {
           "id": "C",
@@ -956,10 +956,10 @@
         },
         {
           "id": "E",
-          "text": "a oração principal continua depois do inciso."
+          "text": "o segundo marca o sujeito."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "B",
       "explanation": "O par abre e fecha a informação intercalada antes da retomada da frase-base. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -994,7 +994,7 @@
     },
     {
       "id": "q3375",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Os parênteses são adequados para",
       "options": [
@@ -1004,7 +1004,7 @@
         },
         {
           "id": "B",
-          "text": "isolar comentário, data, sigla, tradução, referência ou informação lateral."
+          "text": "marcar exclusivamente uma supressão feita em citação literal."
         },
         {
           "id": "C",
@@ -1016,10 +1016,10 @@
         },
         {
           "id": "E",
-          "text": "marcar exclusivamente uma supressão feita em citação literal."
+          "text": "isolar comentário, data, sigla, tradução, referência ou informação lateral."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Parênteses afastam informação acessória do fluxo principal e têm usos editoriais recorrentes. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1054,7 +1054,7 @@
     },
     {
       "id": "q3377",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O uso descuidado de aspas em uma palavra isolada pode",
       "options": [
@@ -1064,7 +1064,7 @@
         },
         {
           "id": "B",
-          "text": "garantir neutralidade absoluta."
+          "text": "sugerir ironia, descrença ou sentido pejorativo involuntário."
         },
         {
           "id": "C",
@@ -1072,14 +1072,14 @@
         },
         {
           "id": "D",
-          "text": "sugerir ironia, descrença ou sentido pejorativo involuntário."
+          "text": "garantir neutralidade absoluta."
         },
         {
           "id": "E",
           "text": "suprimir o termo citado sem deixar marca editorial."
         }
       ],
-      "correctOptionId": "D",
+      "correctOptionId": "B",
       "explanation": "Aspas podem marcar distanciamento semântico e não funcionam como destaque neutro em todo contexto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1114,17 +1114,17 @@
     },
     {
       "id": "q3379",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em uma citação, '[do processo]' sinaliza",
       "options": [
         {
           "id": "A",
-          "text": "acréscimo explicativo do editor que não pertence ao original."
+          "text": "fala direta do autor original."
         },
         {
           "id": "B",
-          "text": "fala direta do autor original."
+          "text": "acréscimo explicativo do editor que não pertence ao original."
         },
         {
           "id": "C",
@@ -1139,7 +1139,7 @@
           "text": "trecho suprimido do original e não informação acrescentada."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "B",
       "explanation": "Os colchetes tornam visível uma intervenção esclarecedora feita na reprodução do texto. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1174,13 +1174,13 @@
     },
     {
       "id": "q3381",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A posição do ponto final em relação às aspas",
       "options": [
         {
           "id": "A",
-          "text": "possui uma única solução universal em todos os manuais."
+          "text": "pode seguir convenções editoriais diferentes e exige atenção ao padrão indicado."
         },
         {
           "id": "B",
@@ -1188,7 +1188,7 @@
         },
         {
           "id": "C",
-          "text": "pode seguir convenções editoriais diferentes e exige atenção ao padrão indicado."
+          "text": "possui uma única solução universal em todos os manuais."
         },
         {
           "id": "D",
@@ -1199,12 +1199,12 @@
           "text": "fica sempre dentro das aspas, mesmo em citações parciais."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "Senado e Embrapa adotam convenções não idênticas; sem padrão indicado, não se deve absolutizar preferência editorial. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
       "id": "q3386",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A pontuação de 'E pergunta, e compara, e contesta' decorre",
       "options": [
@@ -1218,7 +1218,7 @@
         },
         {
           "id": "C",
-          "text": "da repetição expressiva da conjunção, caso de polissíndeto."
+          "text": "de três orações subordinadas introduzidas por conjunção integrante."
         },
         {
           "id": "D",
@@ -1226,10 +1226,10 @@
         },
         {
           "id": "E",
-          "text": "de três orações subordinadas introduzidas por conjunção integrante."
+          "text": "da repetição expressiva da conjunção, caso de polissíndeto."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A conjunção reiterada permite separar os membros coordenados e reforça o encadeamento. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "q3396",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A vírgula antes de 'etc.' deve ser tratada como",
       "options": [
@@ -1274,11 +1274,11 @@
         },
         {
           "id": "B",
-          "text": "sinal obrigatório por regra de sujeito e predicado."
+          "text": "convenção que pode variar entre manuais editoriais."
         },
         {
           "id": "C",
-          "text": "convenção que pode variar entre manuais editoriais."
+          "text": "sinal obrigatório por regra de sujeito e predicado."
         },
         {
           "id": "D",
@@ -1289,7 +1289,7 @@
           "text": "marca a omissão do último item da enumeração como uma zeugma."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "B",
       "explanation": "A Embrapa a exige em suas publicações, enquanto outras tradições editoriais adotam solução diferente. Fonte: questão autoral baseada no conteúdo e nas referências desta unidade."
     },
     {
