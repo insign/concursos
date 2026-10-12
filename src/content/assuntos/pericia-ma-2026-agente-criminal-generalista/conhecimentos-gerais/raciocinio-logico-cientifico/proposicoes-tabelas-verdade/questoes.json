@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q4959",
@@ -154,7 +154,7 @@
     },
     {
       "id": "q4969",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em um cenário hipotético, p significa “A coleta terminou” e q significa “O relatório está pronto”. Sabe-se que p é verdadeira e q é falsa. O valor de “A coleta terminou e o relatório está pronto” é",
       "options": [
@@ -168,7 +168,7 @@
         },
         {
           "id": "C",
-          "text": "falso, porque a conjunção exige as duas partes verdadeiras."
+          "text": "sem valor lógico, porque uma parte é falsa."
         },
         {
           "id": "D",
@@ -176,10 +176,10 @@
         },
         {
           "id": "E",
-          "text": "sem valor lógico, porque uma parte é falsa."
+          "text": "falso, porque a conjunção exige as duas partes verdadeiras."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A conjunção exige as duas afirmações verdadeiras. A falsidade de q torna p ∧ q falsa, ainda que p seja verdadeira. A regra de “ao menos uma verdadeira” pertence à disjunção inclusiva; a frase continua sendo uma proposição e recebe um valor determinado."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "q4973",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A proposição “ou p ou q, mas não ambos” é verdadeira quando",
       "options": [
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "exatamente uma entre p e q é verdadeira."
+          "text": "p e q têm sempre o mesmo valor."
         },
         {
           "id": "D",
@@ -236,15 +236,15 @@
         },
         {
           "id": "E",
-          "text": "p e q têm sempre o mesmo valor."
+          "text": "exatamente uma entre p e q é verdadeira."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "“Mas não ambos” impõe exclusividade. A frase é verdadeira quando uma componente é verdadeira e a outra falsa. Com ambas verdadeiras, viola a exclusão; com ambas falsas, nem sequer uma das alternativas ocorre."
     },
     {
       "id": "q4977",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A respeito da condicional material p → q, é correto afirmar que",
       "options": [
@@ -258,7 +258,7 @@
         },
         {
           "id": "C",
-          "text": "sua tabela fixa condições de verdade e não exige, por si, causalidade ou ordem temporal."
+          "text": "ela é falsa sempre que o antecedente é falso."
         },
         {
           "id": "D",
@@ -266,10 +266,10 @@
         },
         {
           "id": "E",
-          "text": "ela é falsa sempre que o antecedente é falso."
+          "text": "sua tabela fixa condições de verdade e não exige, por si, causalidade ou ordem temporal."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A condicional material é avaliada pelos valores de p e q: só é falsa quando p é verdadeira e q é falsa. Nenhum caso da tabela exige causalidade, ordem temporal ou tema comum. Antecedente falso torna a condicional verdadeira, sem provar que o consequente ocorreu."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "q5009",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Ao encontrar uma linha falsa na coluna final de uma fórmula, pode-se concluir imediatamente que ela",
       "options": [
@@ -528,7 +528,7 @@
         },
         {
           "id": "C",
-          "text": "não é tautologia, mas as demais linhas ainda distinguem contradição de contingência."
+          "text": "é necessariamente bicondicional."
         },
         {
           "id": "D",
@@ -536,15 +536,15 @@
         },
         {
           "id": "E",
-          "text": "é necessariamente bicondicional."
+          "text": "não é tautologia, mas as demais linhas ainda distinguem contradição de contingência."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A linha falsa já impede que a fórmula seja verdadeira em todas as atribuições, portanto exclui tautologia. Ainda pode haver contradição, se todas as linhas forem falsas, ou contingência, se outra linha for verdadeira. Uma linha isolada não decide entre essas duas classes."
     },
     {
       "id": "q5012",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Considere p: “O cadastro está completo” e q: “O comprovante será emitido”. A frase “O comprovante será emitido somente se o cadastro estiver completo” corresponde a",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "q → p."
+          "text": "¬q → p."
         },
         {
           "id": "C",
@@ -566,10 +566,10 @@
         },
         {
           "id": "E",
-          "text": "¬q → p."
+          "text": "q → p."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "“Somente se” apresenta a condição necessária: o cadastro completo, p, é exigido para que o comprovante seja emitido, q. A relação é q → p. A frase não afirma que ter o cadastro completo basta para emitir o comprovante nem acrescenta uma bicondicional."
     },
     {
