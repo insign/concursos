@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 6,
+  "questionSetRevision": 7,
   "questions": [
     {
       "id": "q3842",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Um algoritmo pode ser definido como",
       "options": [
@@ -23,14 +23,18 @@
         {
           "id": "D",
           "text": "um conjunto organizado de passos e condições suficientemente precisos para realizar uma tarefa."
+        },
+        {
+          "id": "E",
+          "text": "uma lista numerada que garante correção sem que seja necessário verificar os passos ou o domínio das entradas."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O algoritmo explicita como realizar a tarefa, por meio de operações e condições organizadas. Descrever só o resultado ou relacionar dados não fornece o procedimento. Um programa pode implementar esse procedimento, mas uma representação em linguagem comum ou pseudocódigo também pode expressar o algoritmo."
+      "explanation": "O algoritmo explicita como realizar a tarefa, por meio de operações e condições organizadas. Descrever só o resultado ou relacionar dados não fornece o procedimento. Um programa pode implementar esse procedimento, mas uma representação em linguagem comum ou pseudocódigo também pode expressar o algoritmo. Numerar instruções não as torna corretas nem dispensa definir quais entradas e condições elas cobrem."
     },
     {
       "id": "q3850",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Um algoritmo percorre uma lista finita de quantidades inteiras não negativas e conta as que são maiores ou iguais a 20. Para conferir a seleção e o percurso, qual conjunto de casos oferece situações relevantes distintas?",
       "options": [
@@ -49,10 +53,14 @@
         {
           "id": "D",
           "text": "Listas vazias, com um e com vários itens, incluindo valores abaixo de 20, iguais a 20 e acima de 20."
+        },
+        {
+          "id": "E",
+          "text": "somente listas com vários itens iguais a 20, pois testar a igualdade verifica automaticamente qualquer quantidade de itens."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Os tamanhos distintos examinam o percurso, inclusive sua ausência, e os valores em torno de 20 examinam a fronteira da seleção. Uma lista com 19, 20 e 21 não reproduz, por si, a lista vazia. Casos só acima do limite ou só com zeros deixam comportamentos relevantes sem exame. Mesmo esse conjunto de testes não prova sozinho correção para todas as listas possíveis."
+      "explanation": "Os tamanhos distintos examinam o percurso, inclusive sua ausência, e os valores em torno de 20 examinam a fronteira da seleção. Uma lista com 19, 20 e 21 não reproduz, por si, a lista vazia. Casos só acima do limite ou só com zeros deixam comportamentos relevantes sem exame. Mesmo esse conjunto de testes não prova sozinho correção para todas as listas possíveis. Testar só o valor exatamente igual ao limite não examina resultados abaixo/acima nem o percurso vazio ou unitário."
     },
     {
       "id": "per-u036-q001",
@@ -356,7 +364,7 @@
     },
     {
       "id": "per-u036-q011",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na convenção REPITA...ATÉ, o teste ocorre depois do bloco e a repetição para quando a condição final é verdadeira. Considere:\n\ni ← 8\nrepita\n    i ← i + 1\naté i > 3\nexiba i\n\nQual valor será exibido?",
       "options": [
@@ -375,10 +383,14 @@
         {
           "id": "D",
           "text": "10, porque o teste ao final exige duas execuções."
+        },
+        {
+          "id": "E",
+          "text": "11, porque uma repetição desse tipo executa três atualizações antes de examinar a condição de parada."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O modelo informado executa o bloco antes de testar. i passa de 8 para 9; então 9 > 3 é verdadeiro e a repetição termina. A condição seria verdadeira no estado inicial, mas não é avaliada antes da primeira execução nesse modelo."
+      "explanation": "O modelo informado executa o bloco antes de testar. i passa de 8 para 9; então 9 > 3 é verdadeiro e a repetição termina. A condição seria verdadeira no estado inicial, mas não é avaliada antes da primeira execução nesse modelo. O teste ocorre logo após a primeira atualização, não depois de três execuções obrigatórias."
     },
     {
       "id": "per-u036-q012",
@@ -622,7 +634,7 @@
     },
     {
       "id": "per-u036-q020",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Duas soluções devem contar quantidades maiores ou iguais a 20. A primeira aplica esse critério; a segunda usa quantidade > 20 e realiza menos operações. Quanto à tarefa exigida,",
       "options": [
@@ -641,10 +653,14 @@
         {
           "id": "D",
           "text": "a primeira é incorreta porque inclui exatamente o valor de fronteira."
+        },
+        {
+          "id": "E",
+          "text": "a primeira deve ser descartada por incluir o limite, pois um algoritmo eficiente sempre usa desigualdades estritas."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A tarefa inclui 20. A condição estrita da segunda solução exclui esse caso, independentemente da quantidade de operações. Eficiência é um aspecto distinto da correspondência ao resultado exigido; a forma de representação não altera o significado do critério."
+      "explanation": "A tarefa inclui 20. A condição estrita da segunda solução exclui esse caso, independentemente da quantidade de operações. Eficiência é um aspecto distinto da correspondência ao resultado exigido; a forma de representação não altera o significado do critério. A escolha de operador estrito ou inclusivo depende do enunciado, não da eficiência."
     },
     {
       "id": "per-u036-q021",
@@ -678,7 +694,7 @@
     },
     {
       "id": "per-u036-q022",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Considere:\n\nx ← 7\nse x ≥ 10 então\n    se x ≤ 20 então\n        exiba \"A\"\n    fim se\nfim se\nexiba \"B\"\n\nQual saída será produzida?",
       "options": [
@@ -697,10 +713,14 @@
         {
           "id": "D",
           "text": "Somente B, pois o bloco interno não é alcançado e a sequência prossegue."
+        },
+        {
+          "id": "E",
+          "text": "O procedimento não pode ser executado, porque um bloco SE não pode conter outro bloco SE."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O teste externo 7 ≥ 10 é falso, então todo o seu bloco, inclusive a decisão interna, é desviado. A instrução que exibe B está fora desse bloco e executa em seguida. A verdade isolada de x ≤ 20 não faz alcançar uma instrução localizada em um caminho não escolhido."
+      "explanation": "O teste externo 7 ≥ 10 é falso, então todo o seu bloco, inclusive a decisão interna, é desviado. A instrução que exibe B está fora desse bloco e executa em seguida. A verdade isolada de x ≤ 20 não faz alcançar uma instrução localizada em um caminho não escolhido. A decisão aninhada é permitida; apenas fica inacessível quando o teste externo é falso."
     },
     {
       "id": "per-u036-q023",
