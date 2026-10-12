@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 7,
+  "questionSetRevision": 8,
   "questions": [
     {
       "id": "q3699",
@@ -34,7 +34,7 @@
     },
     {
       "id": "q3702",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Compare “Não decidiu revisar o relatório” e “Decidiu não revisar o relatório”. A principal diferença decorre",
       "options": [
@@ -48,7 +48,7 @@
         },
         {
           "id": "C",
-          "text": "do escopo da negação em cada estrutura."
+          "text": "da ausência de sujeito na primeira frase."
         },
         {
           "id": "D",
@@ -56,10 +56,10 @@
         },
         {
           "id": "E",
-          "text": "da ausência de sujeito na primeira frase."
+          "text": "do escopo da negação em cada estrutura."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Na primeira versão, a negação alcança a decisão; na segunda, a decisão existe e a negação integra seu conteúdo. O escopo mudou."
     },
     {
@@ -94,13 +94,13 @@
     },
     {
       "id": "q3705",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual frase apresenta intercalação corretamente isolada?",
       "options": [
         {
           "id": "A",
-          "text": "A medida segundo o relatório, reduziu custos."
+          "text": "A medida, segundo o relatório, reduziu custos."
         },
         {
           "id": "B",
@@ -108,7 +108,7 @@
         },
         {
           "id": "C",
-          "text": "A medida, segundo o relatório, reduziu custos."
+          "text": "A medida segundo o relatório, reduziu custos."
         },
         {
           "id": "D",
@@ -119,7 +119,7 @@
           "text": "A medida segundo o relatório reduziu, custos."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O segmento intercalado deve ser delimitado nos dois lados; as demais alternativas rompem o pareamento ou separam termos sem justificativa."
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "id": "q3715",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em “Concluída a perícia, o material foi encaminhado”, qual desenvolvimento preserva adequadamente a leitura temporal indicada?",
       "options": [
@@ -228,7 +228,7 @@
         },
         {
           "id": "C",
-          "text": "Depois que a perícia foi concluída, o material foi encaminhado."
+          "text": "Se a perícia fosse concluída, o material foi encaminhado."
         },
         {
           "id": "D",
@@ -236,10 +236,10 @@
         },
         {
           "id": "E",
-          "text": "Se a perícia fosse concluída, o material foi encaminhado."
+          "text": "Depois que a perícia foi concluída, o material foi encaminhado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "A forma desenvolvida explicita a leitura temporal sem inventar agente e mantém a perícia como elemento concluído."
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "id": "q3719",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A passagem de “A comissão revisará o relatório” para a voz passiva analítica, preservando o tempo verbal, é",
       "options": [
@@ -314,7 +314,7 @@
         },
         {
           "id": "B",
-          "text": "O relatório será revisado pela comissão."
+          "text": "A comissão terá sido revisada pelo relatório."
         },
         {
           "id": "C",
@@ -326,15 +326,15 @@
         },
         {
           "id": "E",
-          "text": "A comissão terá sido revisada pelo relatório."
+          "text": "O relatório será revisado pela comissão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O futuro do presente deve permanecer futuro: 'revisará' corresponde a 'será revisado'."
     },
     {
       "id": "q3720",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Em “Revisaram-se os relatórios”, a leitura de passiva sintética é sustentada porque",
       "options": [
@@ -344,7 +344,7 @@
         },
         {
           "id": "B",
-          "text": "'os relatórios' funciona como sujeito paciente e o verbo concorda com ele."
+          "text": "há obrigatoriamente um agente da passiva expresso."
         },
         {
           "id": "C",
@@ -352,19 +352,19 @@
         },
         {
           "id": "D",
-          "text": "há obrigatoriamente um agente da passiva expresso."
+          "text": "'os relatórios' funciona como sujeito paciente e o verbo concorda com ele."
         },
         {
           "id": "E",
           "text": "o verbo é intransitivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "'Os relatórios' pode corresponder ao sujeito paciente de 'Os relatórios foram revisados'; a concordância no plural reforça a análise passiva."
     },
     {
       "id": "q3721",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Por que “Precisa-se de peritos” não deve ser transformada em “Peritos são precisados”?",
       "options": [
@@ -378,7 +378,7 @@
         },
         {
           "id": "C",
-          "text": "Porque 'de peritos' é complemento preposicionado de 'precisar de', não sujeito paciente de passiva."
+          "text": "Porque 'de peritos' já expressa o agente da passiva e não poderia ocupar outra função."
         },
         {
           "id": "D",
@@ -386,10 +386,10 @@
         },
         {
           "id": "E",
-          "text": "Porque 'de peritos' já expressa o agente da passiva e não poderia ocupar outra função."
+          "text": "Porque 'de peritos' é complemento preposicionado de 'precisar de', não sujeito paciente de passiva."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "O verbo 'precisar de' exige complemento com preposição; 'de peritos' não é objeto direto nem sujeito paciente. O 'se' indetermina quem precisa: não indica ação dos peritos sobre si mesmos e não torna os peritos agentes. Em 'Revisaram-se os relatórios', há outra construção, passiva, que admite plural."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "id": "q3723",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A troca de “A equipe pode revisar o relatório” por “a revisão do relatório pela equipe” perde, sem complemento adicional,",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "o valor de possibilidade ou permissão marcado por 'pode', conforme o contexto."
+          "text": "a noção de relatório."
         },
         {
           "id": "C",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "a noção de relatório."
+          "text": "o valor de possibilidade ou permissão marcado por 'pode', conforme o contexto."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A nominalização mantém os participantes, mas não exprime sozinha a possibilidade ou a permissão que 'pode' acrescenta à revisão. Não é equivalente afirmar que uma revisão é possível e simplesmente nomear a revisão."
     },
     {
@@ -514,17 +514,17 @@
     },
     {
       "id": "q3727",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Em “Ana revisou o laudo; Bruno, o relatório”, a expansão estrutural correta é",
       "options": [
         {
           "id": "A",
-          "text": "Ana revisou o laudo e o relatório de Bruno."
+          "text": "Ana revisou o laudo, e Bruno revisou o relatório."
         },
         {
           "id": "B",
-          "text": "Ana revisou o laudo, e Bruno revisou o relatório."
+          "text": "Ana revisou o laudo e o relatório de Bruno."
         },
         {
           "id": "C",
@@ -539,8 +539,8 @@
           "text": "Ana revisou o relatório, e Bruno revisou o laudo."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "O verbo 'revisou' é recuperado na segunda oração, cuja pessoa é Bruno e cujo objeto é o relatório. A atribui os dois objetos a Ana e transforma Bruno em possuidor; C repete o objeto de Ana; D reúne os sujeitos e apaga o relatório; E troca os objetos. A zeugma não autoriza mudar essas funções."
+      "correctOptionId": "A",
+      "explanation": "O verbo 'revisou' é recuperado na segunda oração, cuja pessoa é Bruno e cujo objeto é o relatório. B atribui os dois objetos a Ana e transforma Bruno em possuidor; C repete o objeto de Ana; D reúne os sujeitos e apaga o relatório; E troca os objetos. A zeugma não autoriza mudar essas funções."
     },
     {
       "id": "q3728",
@@ -574,17 +574,17 @@
     },
     {
       "id": "q3733",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Ao desenvolver uma oração reduzida de gerúndio, é incorreto assumir automaticamente que o gerúndio expressa",
       "options": [
         {
           "id": "A",
-          "text": "uma relação que deve ser identificada pelo contexto."
+          "text": "sempre causa, independentemente da frase."
         },
         {
           "id": "B",
-          "text": "sempre causa, independentemente da frase."
+          "text": "uma relação que deve ser identificada pelo contexto."
         },
         {
           "id": "C",
@@ -599,7 +599,7 @@
           "text": "uma relação cuja explicitação pode exigir conectivo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Gerúndio não corresponde a um único conectivo. A relação precisa ser inferida do contexto antes da transformação."
     },
     {
@@ -754,13 +754,13 @@
     },
     {
       "id": "q3753",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Uma reorganização deve ser rejeitada por diferença de sentido quando",
       "options": [
         {
           "id": "A",
-          "text": "as versões apresentam o mesmo número de verbos."
+          "text": "há situação plausível em que uma pode ser verdadeira e a outra, falsa."
         },
         {
           "id": "B",
@@ -768,7 +768,7 @@
         },
         {
           "id": "C",
-          "text": "há situação plausível em que uma pode ser verdadeira e a outra, falsa."
+          "text": "as versões apresentam o mesmo número de verbos."
         },
         {
           "id": "D",
@@ -779,22 +779,22 @@
           "text": "a ordem dos termos foi alterada, ainda que nenhuma relação tenha mudado."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "A",
       "explanation": "O contraexemplo revela mudança nas condições de verdade ou nas relações relevantes; mera diferença de extensão ou ordem não basta."
     },
     {
       "id": "q3756",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Uma reescrita com pronome relativo falha quando o pronome",
       "options": [
         {
           "id": "A",
-          "text": "introduz oração adjetiva mantendo o mesmo antecedente e a mesma função."
+          "text": "passa a retomar antecedente diferente e altera o participante da ação."
         },
         {
           "id": "B",
-          "text": "passa a retomar antecedente diferente e altera o participante da ação."
+          "text": "introduz oração adjetiva mantendo o mesmo antecedente e a mesma função."
         },
         {
           "id": "C",
@@ -809,7 +809,7 @@
           "text": "é deslocado sem que sua referência ou função se modifiquem."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Mudar o antecedente do relativo altera a estrutura de referência e pode mudar quem pratica ou recebe a ação, mesmo que a frase resultante seja gramatical."
     },
     {
@@ -934,7 +934,7 @@
     },
     {
       "id": "per-u017-q002",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Qual reescrita de “Antes de os servidores saírem, a reunião terminou” desenvolve a oração reduzida e conserva os participantes e a relação temporal?",
       "options": [
@@ -944,7 +944,7 @@
         },
         {
           "id": "B",
-          "text": "Antes que os servidores saíssem, a reunião terminou."
+          "text": "Antes que a reunião saísse, os servidores terminaram."
         },
         {
           "id": "C",
@@ -956,10 +956,10 @@
         },
         {
           "id": "E",
-          "text": "Antes que a reunião saísse, os servidores terminaram."
+          "text": "Antes que os servidores saíssem, a reunião terminou."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A construção com “antes que” e o verbo “saíssem” desenvolve a oração, preservando os servidores como quem sairia e o término da reunião como anterior à saída. A nominaliza; C conserva o infinitivo flexionado e permanece reduzida; D inverte a relação temporal; E troca os participantes."
     },
     {
