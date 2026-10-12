@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "u025-a01",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Uma servidora usa o mesmo serviço de correio ora pelo navegador, ora por um aplicativo instalado. Assinale a distinção correta entre interface e protocolo.",
       "options": [
@@ -14,7 +14,7 @@
         },
         {
           "id": "B",
-          "text": "Webmail é uma interface no navegador; os protocolos de correio têm funções próprias no envio e no acesso."
+          "text": "Webmail conserva a caixa apenas no navegador, enquanto o cliente instalado a conserva apenas no servidor."
         },
         {
           "id": "C",
@@ -26,25 +26,25 @@
         },
         {
           "id": "E",
-          "text": "Webmail conserva a caixa apenas no navegador, enquanto o cliente instalado a conserva apenas no servidor."
+          "text": "Webmail é uma interface no navegador; os protocolos de correio têm funções próprias no envio e no acesso."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A interface permite usar a conta; o transporte e o acesso são funções dos sistemas de correio. A mesma conta pode ser usada por interfaces diferentes, conforme o suporte e a configuração do serviço. Navegador e aplicativo instalado não determinam, por si sós, contas ou destinatários diferentes."
     },
     {
       "id": "u025-a02",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Um cliente prepara uma mensagem, envia-a pelo serviço de correio e depois consulta a caixa no servidor por IMAP. Qual sequência distingue corretamente as funções?",
       "options": [
         {
           "id": "A",
-          "text": "Preparação na interface → acesso por IMAP para transferir ao destino → SMTP para sincronizar a caixa."
+          "text": "Preparação na interface → envio e transferência por SMTP → acesso à caixa por IMAP."
         },
         {
           "id": "B",
-          "text": "Preparação na interface → envio e transferência por SMTP → acesso à caixa por IMAP."
+          "text": "Preparação na interface → acesso por IMAP para transferir ao destino → SMTP para sincronizar a caixa."
         },
         {
           "id": "C",
@@ -59,12 +59,12 @@
           "text": "Preparação na interface → download por POP3, que envia a mensagem ao destinatário → acesso por SMTP."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "O protocolo simples de transferência de correio (SMTP) atua no envio e na transferência; o protocolo de acesso a mensagens da Internet (IMAP) permite acessar e manipular a caixa no servidor. A composição ocorre na interface, antes dessas funções. A consulta a uma caixa não substitui o transporte da mensagem ao serviço de destino."
     },
     {
       "id": "u025-a09",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Ana envia uma mensagem a Bruno em Para e a Diana em Cco. Qual efeito esse campo produz na cópia entregue a Bruno?",
       "options": [
@@ -74,7 +74,7 @@
         },
         {
           "id": "B",
-          "text": "Bruno não vê o endereço de Diana na lista de destinatários dessa cópia; isso não impede encaminhar o conteúdo."
+          "text": "Bruno não vê o endereço de Diana e, por esse motivo, o conteúdo fica cifrado para qualquer novo destinatário."
         },
         {
           "id": "C",
@@ -86,10 +86,10 @@
         },
         {
           "id": "E",
-          "text": "Bruno não vê o endereço de Diana e, por esse motivo, o conteúdo fica cifrado para qualquer novo destinatário."
+          "text": "Bruno não vê o endereço de Diana na lista de destinatários dessa cópia; isso não impede encaminhar o conteúdo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O campo de cópia oculta (Cco) esconde o endereço de Diana dos destinatários visíveis, como Bruno; Diana continua recebendo a mensagem. O campo não controla encaminhamentos nem cifra o conteúdo. Ocultar a lista de endereços não restringe automaticamente o uso da mensagem por quem a recebeu."
     },
     {

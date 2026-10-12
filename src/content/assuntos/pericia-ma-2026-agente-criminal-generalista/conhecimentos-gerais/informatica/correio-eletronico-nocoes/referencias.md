@@ -1,3 +1,5 @@
+# Referências — Correio eletrônico
+
 ## Programa e critério de atualização
 
 - **Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos — Perícia Oficial do Maranhão, Edital número 1, de 17 de julho de 2026.** Item 21.2.2, Informática, subitem 4: “Correio eletrônico”. [Edital de abertura](https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf). Recorte da unidade: composição, destinatários, respostas, anexos, envio, acesso e organização da caixa postal.
