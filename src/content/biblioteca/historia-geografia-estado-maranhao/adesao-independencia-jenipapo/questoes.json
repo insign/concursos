@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q7239",
-      "revision": 3,
+      "revision": 4,
       "origin": "previous_exam",
       "prompt": "Quase um ano após o Grito do Ipiranga (1822), a Província do Maranhão ainda se mantinha leal a Portugal e se recusava a aderir ao movimento de independência de D. Pedro I. A respeito do processo de adesão do Maranhão à independência do Brasil, assinale a afirmativa correta.",
       "options": [
@@ -30,11 +30,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Questão 59 da prova Tipo 4 — Azul do concurso da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>/<abbr title=\"Secretaria de Estado da Gestão e Previdência do Maranhão\">SEGEP-MA</abbr> para Soldado Combatente da Polícia Militar do Maranhão, aplicada em 02/12/2012; gabarito definitivo: C. Prova oficial: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf ; gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
+      "explanation": "Questão 59 da prova Tipo 4 — Azul do concurso da FGV/SEGEP-MA para Soldado Combatente da Polícia Militar do Maranhão, aplicada em 02/12/2012; gabarito definitivo: C. Prova oficial: https://conhecimento.fgv.br/sites/default/files/concursos/policia_militar_soldado_combatente_caderno_04.pdf ; gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/segep12_policia_militar_-_soldado_combatente_-_gabaritos_13_01_02.pdf."
     },
     {
       "id": "q7240",
-      "revision": 4,
+      "revision": 5,
       "origin": "previous_exam",
       "prompt": "Considere o item: A adesão da Província do Maranhão à independência do Brasil resultou da derrota militar de parte da elite maranhense que defendeu, por meio das armas, a manutenção dos laços com Portugal, a despeito das estreitas relações existentes entre o Maranhão e a Corte no Rio de Janeiro. As tropas portuguesas, mesmo tendo vencido a Batalha do Jenipapo, foram derrotadas por Thomas Cochrane em São Luís. A respeito desse item, assinale a opção correta.",
       "options": [
@@ -60,7 +60,7 @@
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Adaptação do item 26 do <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr> 2017, caderno 359, prova aplicada em 17/12/2017; gabarito definitivo original: E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf ; gabarito: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG1_01.pdf."
+      "explanation": "Adaptação do item 26 do Cebraspe/PM-MA 2017, caderno 359, prova aplicada em 17/12/2017; gabarito definitivo original: E (Errado). Prova: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf ; gabarito: https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG1_01.pdf."
     },
     {
       "id": "q7241",
@@ -94,7 +94,7 @@
     },
     {
       "id": "q7242",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Entre as causas da não adesão inicial do Maranhão ao governo de D. Pedro I, destaca-se",
       "options": [
@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "os vínculos econômicos, políticos e administrativos de São Luís com Lisboa."
+          "text": "a adesão antecipada de Caxias em setembro de 1822."
         },
         {
           "id": "C",
@@ -112,25 +112,25 @@
         },
         {
           "id": "D",
-          "text": "a adesão antecipada de Caxias em setembro de 1822."
+          "text": "os vínculos econômicos, políticos e administrativos de São Luís com Lisboa."
         },
         {
           "id": "E",
           "text": "a existência de uma ferrovia entre São Luís e Lisboa."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A capital mantinha redes comerciais, administrativas e de comunicação orientadas para Lisboa, o que ajudou a sustentar a resistência ao novo centro político no Rio de Janeiro."
     },
     {
       "id": "q7243",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A geografia das comunicações maranhenses no início da década de 1820 favorecia",
       "options": [
         {
           "id": "A",
-          "text": "a comunicação marítima com Lisboa, enquanto a articulação com o Rio de Janeiro era mais difícil."
+          "text": "o isolamento completo de São Luís do Atlântico."
         },
         {
           "id": "B",
@@ -138,7 +138,7 @@
         },
         {
           "id": "C",
-          "text": "o isolamento completo de São Luís do Atlântico."
+          "text": "a comunicação marítima com Lisboa, enquanto a articulação com o Rio de Janeiro era mais difícil."
         },
         {
           "id": "D",
@@ -149,18 +149,18 @@
           "text": "a inexistência de navegação comercial entre Maranhão e Portugal."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Ventos, correntes e rotas atlânticas tornavam a conexão marítima com Portugal comparativamente importante."
     },
     {
       "id": "q7244",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Produtos que ajudam a explicar os interesses exportadores de grupos maranhenses ligados a Lisboa eram",
       "options": [
         {
           "id": "A",
-          "text": "algodão e arroz."
+          "text": "ouro e diamantes como base exclusiva da economia."
         },
         {
           "id": "B",
@@ -176,10 +176,10 @@
         },
         {
           "id": "E",
-          "text": "ouro e diamantes como base exclusiva da economia."
+          "text": "algodão e arroz."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Algodão e arroz ocupavam papel relevante na economia exportadora maranhense e nas redes mercantis atlânticas do período."
     },
     {
@@ -244,13 +244,13 @@
     },
     {
       "id": "q7247",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A Batalha do Jenipapo ocorreu em",
       "options": [
         {
           "id": "A",
-          "text": "13 de março de 1823."
+          "text": "2 de dezembro de 1822."
         },
         {
           "id": "B",
@@ -266,10 +266,10 @@
         },
         {
           "id": "E",
-          "text": "2 de dezembro de 1822."
+          "text": "13 de março de 1823."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O combate do Jenipapo ocorreu em 13 de março de 1823."
     },
     {
@@ -304,13 +304,13 @@
     },
     {
       "id": "q7249",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "João José da Cunha Fidié era",
       "options": [
         {
           "id": "A",
-          "text": "comandante português encarregado de sustentar a autoridade de Lisboa no Piauí."
+          "text": "presidente da Câmara de São Luís em 28 de julho."
         },
         {
           "id": "B",
@@ -322,14 +322,14 @@
         },
         {
           "id": "D",
-          "text": "presidente da Câmara de São Luís em 28 de julho."
+          "text": "comandante português encarregado de sustentar a autoridade de Lisboa no Piauí."
         },
         {
           "id": "E",
           "text": "comandante da Nau Pedro I a serviço de D. Pedro."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Fidié era oficial português e governador das armas do Piauí, atuando contra o movimento independentista e depois concentrando-se em Caxias."
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "id": "q7252",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A importância estratégica do Jenipapo para a campanha decorre do fato de que",
       "options": [
@@ -404,7 +404,7 @@
         },
         {
           "id": "B",
-          "text": "Fidié não retomou Oeiras, sofreu desgaste e acabou deslocando-se para Caxias."
+          "text": "Portugal reconheceu a Independência imediatamente após o combate."
         },
         {
           "id": "C",
@@ -416,15 +416,15 @@
         },
         {
           "id": "E",
-          "text": "Portugal reconheceu a Independência imediatamente após o combate."
+          "text": "Fidié não retomou Oeiras, sofreu desgaste e acabou deslocando-se para Caxias."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O deslocamento de Fidié para Caxias conectou a guerra piauiense à resistência no interior maranhense."
     },
     {
       "id": "q7253",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A relação causal correta entre a não adesão maranhense e a Batalha do Jenipapo é:",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "a resistência maranhense já existia; Jenipapo integrou a guerra que condicionou seu desfecho."
+          "text": "Jenipapo ocorreu depois da adesão de São Luís."
         },
         {
           "id": "C",
@@ -442,14 +442,14 @@
         },
         {
           "id": "D",
-          "text": "Jenipapo ocorreu depois da adesão de São Luís."
+          "text": "a resistência maranhense já existia; Jenipapo integrou a guerra que condicionou seu desfecho."
         },
         {
           "id": "E",
           "text": "a batalha eliminou a necessidade de campanha no Maranhão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Os vínculos maranhenses com Lisboa e a resistência ao Rio eram anteriores a março de 1823."
     },
     {
@@ -544,13 +544,13 @@
     },
     {
       "id": "q7257",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Caxias tornou-se central na campanha de 1823 porque",
       "options": [
         {
           "id": "A",
-          "text": "abrigou a principal concentração militar portuguesa no interior após Jenipapo."
+          "text": "foi controlada por tropas neerlandesas."
         },
         {
           "id": "B",
@@ -566,21 +566,21 @@
         },
         {
           "id": "E",
-          "text": "foi controlada por tropas neerlandesas."
+          "text": "abrigou a principal concentração militar portuguesa no interior após Jenipapo."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Fidié concentrou-se em Caxias, que passou a ser cercada por forças do Piauí, Ceará e Maranhão."
     },
     {
       "id": "q7258",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O marco formal mais seguro para Caxias é",
       "options": [
         {
           "id": "A",
-          "text": "o juramento da Independência em 7 de agosto de 1823."
+          "text": "o tratado de reconhecimento de 1825."
         },
         {
           "id": "B",
@@ -596,21 +596,21 @@
         },
         {
           "id": "E",
-          "text": "o tratado de reconhecimento de 1825."
+          "text": "o juramento da Independência em 7 de agosto de 1823."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O juramento em Caxias é documentado em 7 de agosto de 1823."
     },
     {
       "id": "q7259",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Itapecuru-Mirim era estrategicamente relevante porque",
       "options": [
         {
           "id": "A",
-          "text": "articulava produção algodoeira e comunicações entre o interior e São Luís."
+          "text": "era sede das Cortes portuguesas."
         },
         {
           "id": "B",
@@ -626,10 +626,10 @@
         },
         {
           "id": "E",
-          "text": "era sede das Cortes portuguesas."
+          "text": "articulava produção algodoeira e comunicações entre o interior e São Luís."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Itapecuru-Mirim conectava área produtora e vias de circulação, e sua mudança de alinhamento ajudou a isolar São Luís."
     },
     {
@@ -694,13 +694,13 @@
     },
     {
       "id": "q7262",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Antes da chegada de Cochrane, São Luís já enfrentava",
       "options": [
         {
           "id": "A",
-          "text": "isolamento crescente, dificuldades de abastecimento e perda de posições no interior."
+          "text": "ocupação militar de Fidié na ilha."
         },
         {
           "id": "B",
@@ -716,21 +716,21 @@
         },
         {
           "id": "E",
-          "text": "ocupação militar de Fidié na ilha."
+          "text": "isolamento crescente, dificuldades de abastecimento e perda de posições no interior."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A pressão naval incidiu sobre uma capital já enfraquecida pelo avanço terrestre e pela perda de comunicações."
     },
     {
       "id": "q7263",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Lord Thomas Cochrane atuou no Maranhão como",
       "options": [
         {
           "id": "A",
-          "text": "comandante naval a serviço do Império de D. Pedro I."
+          "text": "líder de Caxias aliado a Fidié."
         },
         {
           "id": "B",
@@ -742,25 +742,25 @@
         },
         {
           "id": "D",
-          "text": "líder de Caxias aliado a Fidié."
+          "text": "comandante naval a serviço do Império de D. Pedro I."
         },
         {
           "id": "E",
           "text": "deputado das Cortes de Lisboa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Depois da campanha da Bahia, Cochrane levou a força naval imperial a São Luís."
     },
     {
       "id": "q7264",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A principal embarcação de Cochrane diante de São Luís é identificada nas fontes como",
       "options": [
         {
           "id": "A",
-          "text": "Nau Pedro I."
+          "text": "Caravela Jenipapo."
         },
         {
           "id": "B",
@@ -768,7 +768,7 @@
         },
         {
           "id": "C",
-          "text": "Caravela Jenipapo."
+          "text": "Nau Pedro I."
         },
         {
           "id": "D",
@@ -779,42 +779,42 @@
           "text": "Encouraçado Caxias."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "As fontes consultadas identificam a embarcação como Nau Pedro I; chamá-la automaticamente de fragata é impreciso."
     },
     {
       "id": "q7265",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "O estratagema de Cochrane diante de São Luís incluiu",
+      "prompt": "Uma autoridade de São Luís em julho de 1823 recebe exigência do comandante naval imperial, quando as ligações com o interior já estão enfraquecidas. Qual é a interpretação histórica mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "dissimulação e blefe sobre a presença de força imperial maior."
+          "text": "A exigência naval é irrelevante, pois a guerra terrestre não havia afetado São Luís."
         },
         {
           "id": "B",
-          "text": "rendição imediata ao governo português."
+          "text": "A presença naval comprova que Fidié lutou contra Cochrane na baía de São Marcos."
         },
         {
           "id": "C",
-          "text": "transporte de Fidié do Jenipapo para a capital."
+          "text": "A pressão naval de Cochrane somou-se ao isolamento terrestre, limitando a margem de resistência da Junta provincial."
         },
         {
           "id": "D",
-          "text": "abandono da barra sem contato com a Junta."
+          "text": "A exigência significava que as Cortes de Lisboa já haviam reconhecido a incorporação ao Império."
         },
         {
           "id": "E",
-          "text": "apoio à permanência do Maranhão ligado a Lisboa."
+          "text": "O episódio ocorreu antes de Jenipapo e impediu o deslocamento de Fidié para Caxias."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "Cochrane explorou a incerteza da Junta e exagerou a força imperial disponível."
+      "correctOptionId": "C",
+      "explanation": "Cochrane atuou na etapa final sobre uma capital pressionada pelo avanço do interior. Sua exigência de julho se somou ao isolamento de São Luís, e não foi uma batalha naval contra Fidié."
     },
     {
       "id": "q7266",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A relação correta entre 27 e 28 de julho de 1823 é:",
       "options": [
@@ -840,11 +840,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A documentação do <abbr title=\"Arquivo Público do Estado do Maranhão\">APEM</abbr> distingue a exigência de Cochrane em 27 de julho do ato formal realizado no dia 28."
+      "explanation": "A documentação do APEM distingue a exigência de Cochrane em 27 de julho do ato formal realizado no dia 28."
     },
     {
       "id": "q7267",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A data da adesão formal de São Luís ao Império é",
       "options": [
@@ -854,7 +854,7 @@
         },
         {
           "id": "B",
-          "text": "28 de julho de 1823."
+          "text": "1º de dezembro de 1822."
         },
         {
           "id": "C",
@@ -866,15 +866,15 @@
         },
         {
           "id": "E",
-          "text": "1º de dezembro de 1822."
+          "text": "28 de julho de 1823."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O ato formal de independência política e adesão ao Império em São Luís ocorreu em 28 de julho de 1823."
     },
     {
       "id": "q7268",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A adesão de São Luís em 28 de julho de 1823 foi",
       "options": [
@@ -884,11 +884,11 @@
         },
         {
           "id": "B",
-          "text": "resultado de combinação entre avanço terrestre, isolamento, crise de abastecimento e pressão naval."
+          "text": "efeito exclusivo de uma vitória independentista no Jenipapo."
         },
         {
           "id": "C",
-          "text": "efeito exclusivo de uma vitória independentista no Jenipapo."
+          "text": "resultado de combinação entre avanço terrestre, isolamento, crise de abastecimento e pressão naval."
         },
         {
           "id": "D",
@@ -899,18 +899,18 @@
           "text": "anterior à campanha do interior."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O ato formal ocorreu sob forte alteração da correlação de forças; guerra terrestre e pressão naval convergiram sobre a capital."
     },
     {
       "id": "q7269",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sobre o papel de Cochrane na adesão maranhense, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "foi decisivo, mas atuou sobre uma capital já pressionada pela guerra terrestre."
+          "text": "atuou a serviço das Cortes de Lisboa."
         },
         {
           "id": "B",
@@ -926,10 +926,10 @@
         },
         {
           "id": "E",
-          "text": "atuou a serviço das Cortes de Lisboa."
+          "text": "foi decisivo, mas atuou sobre uma capital já pressionada pela guerra terrestre."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Cochrane foi decisivo na etapa final, mas o isolamento de São Luís foi produzido também pelas campanhas no interior."
     },
     {
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "q7273",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A participação social na guerra regional incluiu",
       "options": [
@@ -1034,7 +1034,7 @@
         },
         {
           "id": "B",
-          "text": "grupos diversos, como vaqueiros, lavradores, indígenas, negros, mestiços, libertos e tropas regulares."
+          "text": "somente proprietários de algodão."
         },
         {
           "id": "C",
@@ -1046,21 +1046,21 @@
         },
         {
           "id": "E",
-          "text": "somente proprietários de algodão."
+          "text": "grupos diversos, como vaqueiros, lavradores, indígenas, negros, mestiços, libertos e tropas regulares."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A campanha mobilizou grupos sociais variados; isso não significa igualdade de objetivos ou de poder político."
     },
     {
       "id": "q7274",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A oposição simples 'brasileiros versus portugueses' é insuficiente porque",
       "options": [
         {
           "id": "A",
-          "text": "o local de nascimento não determinava sozinho a posição política."
+          "text": "as categorias Brasil e Portugal não existiam."
         },
         {
           "id": "B",
@@ -1072,14 +1072,14 @@
         },
         {
           "id": "D",
-          "text": "as categorias Brasil e Portugal não existiam."
+          "text": "o local de nascimento não determinava sozinho a posição política."
         },
         {
           "id": "E",
           "text": "as escolhas não tinham relação com cargos, comércio ou alianças."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Interesses econômicos, cargos, redes familiares e projetos políticos também influíram nas escolhas."
     },
     {
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "q7278",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Associe corretamente local e papel na campanha:",
       "options": [
@@ -1184,11 +1184,11 @@
         },
         {
           "id": "B",
-          "text": "Caxias — principal posição portuguesa no interior após Jenipapo."
+          "text": "Pastos Bons — adesão formal de São Luís."
         },
         {
           "id": "C",
-          "text": "Pastos Bons — adesão formal de São Luís."
+          "text": "Caxias — principal posição portuguesa no interior após Jenipapo."
         },
         {
           "id": "D",
@@ -1199,7 +1199,7 @@
           "text": "Matões — sede das Cortes portuguesas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Caxias concentrou Fidié e tornou-se alvo de cerco. Os demais pares trocam localidades e funções."
     },
     {
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "q7283",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A afirmação 'toda a elite maranhense permaneceu fiel a Portugal até o fim' está",
       "options": [
@@ -1334,7 +1334,7 @@
         },
         {
           "id": "B",
-          "text": "incorreta, pois havia divisões e mudanças de alinhamento, inclusive no interior."
+          "text": "incorreta apenas porque nenhuma elite participou do conflito."
         },
         {
           "id": "C",
@@ -1342,19 +1342,19 @@
         },
         {
           "id": "D",
-          "text": "incorreta apenas porque nenhuma elite participou do conflito."
+          "text": "incorreta, pois havia divisões e mudanças de alinhamento, inclusive no interior."
         },
         {
           "id": "E",
           "text": "correta, pois a Câmara de São Luís nunca aderiu ao Império."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Interesses ligados a Lisboa foram fortes, sobretudo na capital, mas a política provincial era dividida e mudou ao longo da campanha."
     },
     {
       "id": "q7284",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A Batalha do Jenipapo deve aparecer entre as causas da não adesão maranhense",
       "options": [
@@ -1364,7 +1364,7 @@
         },
         {
           "id": "B",
-          "text": "apenas como parte do processo militar que condicionou o desfecho, não como origem da resistência."
+          "text": "como ato que criou a economia algodoeira maranhense."
         },
         {
           "id": "C",
@@ -1376,21 +1376,21 @@
         },
         {
           "id": "E",
-          "text": "como ato que criou a economia algodoeira maranhense."
+          "text": "apenas como parte do processo militar que condicionou o desfecho, não como origem da resistência."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A resistência política e econômica do Maranhão era anterior; Jenipapo integrou a guerra e ajudou a deslocar o centro da campanha para Caxias."
     },
     {
       "id": "q7285",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "O consumo e a dificuldade de reposição dos suprimentos de Fidié após Jenipapo são relevantes porque",
       "options": [
         {
           "id": "A",
-          "text": "a logística influenciou a capacidade de Fidié explorar sua vitória tática."
+          "text": "provocou a rendição imediata de Lisboa."
         },
         {
           "id": "B",
@@ -1398,7 +1398,7 @@
         },
         {
           "id": "C",
-          "text": "provocou a rendição imediata de Lisboa."
+          "text": "a logística influenciou a capacidade de Fidié explorar sua vitória tática."
         },
         {
           "id": "D",
@@ -1409,7 +1409,7 @@
           "text": "ocorreu somente depois de 1825."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O desgaste material contribuiu para limitar a capacidade portuguesa de retomar Oeiras e sustentar a campanha."
     },
     {
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "q7288",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Depois de Jenipapo, Fidié",
       "options": [
@@ -1484,7 +1484,7 @@
         },
         {
           "id": "B",
-          "text": "deslocou-se para Caxias, no Maranhão."
+          "text": "aderiu ao Império em Campo Maior."
         },
         {
           "id": "C",
@@ -1492,25 +1492,25 @@
         },
         {
           "id": "D",
-          "text": "aderiu ao Império em Campo Maior."
+          "text": "deslocou-se para Caxias, no Maranhão."
         },
         {
           "id": "E",
           "text": "retornou imediatamente a Portugal."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O deslocamento de Fidié para Caxias é o elo central entre Jenipapo e a campanha maranhense."
     },
     {
       "id": "q7289",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O cerco de Caxias contou com participação de forças",
       "options": [
         {
           "id": "A",
-          "text": "do Piauí, Ceará e Maranhão."
+          "text": "exclusivamente da Marinha britânica."
         },
         {
           "id": "B",
@@ -1518,7 +1518,7 @@
         },
         {
           "id": "C",
-          "text": "exclusivamente da Marinha britânica."
+          "text": "do Piauí, Ceará e Maranhão."
         },
         {
           "id": "D",
@@ -1529,38 +1529,38 @@
           "text": "da França e dos Países Baixos."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A composição interprovincial do cerco mostra que a guerra no Norte ultrapassou fronteiras administrativas."
     },
     {
       "id": "q7290",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Qual matriz está correta?",
+      "prompt": "Um mapa esquemático da campanha mostra Caxias ocupada por forças portuguesas e o eixo de Itapecuru-Mirim mudando de alinhamento. Qual consequência estratégica decorre da combinação desses fatos?",
       "options": [
         {
           "id": "A",
-          "text": "Matões — pressão naval; Caxias — Jenipapo; Itapecuru — sede das Cortes; Pastos Bons — adesão de São Luís."
+          "text": "A mudança no Itapecuru permitiu reforços portugueses ilimitados de Caxias para São Luís."
         },
         {
           "id": "B",
-          "text": "Matões — ponto disputado; Caxias — concentração portuguesa; Itapecuru — eixo de comunicação; Pastos Bons — área sertaneja de campanha."
+          "text": "A resistência em Caxias encerrou a necessidade de controle das rotas no interior."
         },
         {
           "id": "C",
-          "text": "Matões — capital do Piauí; Caxias — base de Cochrane; Itapecuru — Campo Maior; Pastos Bons — Lisboa."
+          "text": "O controle português da capital não sofreu pressão porque os caminhos eram irrelevantes."
         },
         {
           "id": "D",
-          "text": "Matões — coroação imperial; Caxias — Revolução do Porto; Itapecuru — Bahia; Pastos Bons — Rio de Janeiro."
+          "text": "As comunicações e os suprimentos da resistência portuguesa ficaram mais vulneráveis, agravando o isolamento da capital."
         },
         {
           "id": "E",
-          "text": "Matões — reconhecimento de 1825; Caxias — Dia do Fico; Itapecuru — Jenipapo; Pastos Bons — Nau Pedro I."
+          "text": "O avanço do interior substituiu automaticamente o ato formal de adesão da Câmara de São Luís."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "A matriz B resume as funções das quatro localidades maranhenses sem inventar batalhas ou papéis inexistentes."
+      "correctOptionId": "D",
+      "explanation": "Caxias concentrava forças portuguesas e Itapecuru-Mirim articulava produção e circulação até a capital. A perda desse eixo aumentou o isolamento terrestre, sem tornar desnecessário o ato formal de julho."
     },
     {
       "id": "q7291",
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "q7293",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O juramento de 7 de agosto de 1823 ocorreu em",
       "options": [
@@ -1634,7 +1634,7 @@
         },
         {
           "id": "B",
-          "text": "Caxias."
+          "text": "Parnaíba."
         },
         {
           "id": "C",
@@ -1642,55 +1642,55 @@
         },
         {
           "id": "D",
-          "text": "Parnaíba."
+          "text": "Caxias."
         },
         {
           "id": "E",
           "text": "Oeiras."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O juramento da Independência em Caxias ocorreu em 7 de agosto de 1823."
     },
     {
       "id": "q7294",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "A sequência que melhor resume o processo é",
+      "prompt": "Um estudante conclui: 'A vitória tática portuguesa no Jenipapo encerrou as operações, permitindo a Fidié restabelecer imediatamente o governo de Lisboa em Oeiras'. Qual dado contradiz diretamente essa conclusão?",
       "options": [
         {
           "id": "A",
-          "text": "Jenipapo → avanço e cerco no interior → isolamento de São Luís → pressão de Cochrane → adesão da capital."
+          "text": "O fato de Cochrane ter desembarcado em Campo Maior durante o combate."
         },
         {
           "id": "B",
-          "text": "adesão de São Luís → Jenipapo → retorno de Fidié a Oeiras → cerco de Caxias."
+          "text": "A subordinação administrativa do Maranhão à Corte do Rio desde 1821."
         },
         {
           "id": "C",
-          "text": "Cochrane → Revolução do Porto → Jenipapo → 7 de setembro."
+          "text": "Fidié não recuperou Oeiras e deslocou-se para Caxias, onde a guerra prosseguiu."
         },
         {
           "id": "D",
-          "text": "juramento de Caxias → Jenipapo → adesão de Parnaíba → São Luís."
+          "text": "A adesão de Caxias ter sido concluída no dia 7 de setembro de 1822."
         },
         {
           "id": "E",
-          "text": "tratado de 1825 → Jenipapo → Itapecuru → 28 de julho."
+          "text": "O reconhecimento diplomático português ter ocorrido antes de março de 1823."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "Essa sequência preserva as relações causais e a ordem geral da campanha de 1823."
+      "correctOptionId": "C",
+      "explanation": "Vencer o combate não significou vencer a campanha: Fidié não retomou Oeiras e buscou reorganizar sua posição em Caxias, contribuindo para prolongar o confronto."
     },
     {
       "id": "q7295",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma explicação completa da não adesão inicial do Maranhão deve combinar",
       "options": [
         {
           "id": "A",
-          "text": "geografia das comunicações, interesses comerciais, política provincial e resistência ao centro do Rio de Janeiro."
+          "text": "exclusivamente a ação de Cochrane."
         },
         {
           "id": "B",
@@ -1702,14 +1702,14 @@
         },
         {
           "id": "D",
-          "text": "exclusivamente a ação de Cochrane."
+          "text": "geografia das comunicações, interesses comerciais, política provincial e resistência ao centro do Rio de Janeiro."
         },
         {
           "id": "E",
           "text": "apenas a produção de gado no Piauí."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A resistência maranhense resultou de fatores econômicos, políticos e administrativos anteriores à campanha militar de 1823."
     },
     {
@@ -1744,67 +1744,67 @@
     },
     {
       "id": "q7297",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "O principal elo entre Jenipapo e a adesão do Maranhão foi",
+      "prompt": "Num resumo sobre a independência do Norte, Fidié e Cochrane aparecem como comandantes que se enfrentaram pessoalmente em batalha naval em São Luís. Qual correção preserva as funções efetivas dos dois?",
       "options": [
         {
           "id": "A",
-          "text": "o deslocamento de Fidié para Caxias e a continuidade da campanha interprovincial."
+          "text": "Ambos lideraram tropas independentistas no combate terrestre do Jenipapo."
         },
         {
           "id": "B",
-          "text": "a chegada imediata de Cochrane a Campo Maior."
+          "text": "Fidié era o almirante imperial e Cochrane, o governador das armas português."
         },
         {
           "id": "C",
-          "text": "a coroação de D. Pedro no Piauí."
+          "text": "Cochrane comandou a resistência portuguesa em Caxias após março de 1823."
         },
         {
           "id": "D",
-          "text": "a criação dos vínculos comerciais com Lisboa."
+          "text": "Fidié atuou na campanha terrestre entre Piauí e Caxias; Cochrane exerceu pressão naval em São Luís meses depois."
         },
         {
           "id": "E",
-          "text": "a rendição de São Luís em 13 de março."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Jenipapo não encerrou a guerra: Fidié seguiu para Caxias, onde a resistência portuguesa passou a ser cercada por forças regionais."
-    },
-    {
-      "id": "q7298",
-      "revision": 3,
-      "origin": "authorial",
-      "prompt": "Sintetiza corretamente a incorporação do Maranhão ao Império a afirmação de que",
-      "options": [
-        {
-          "id": "A",
-          "text": "resultou apenas de uma decisão espontânea da Câmara, sem guerra ou pressão."
-        },
-        {
-          "id": "B",
-          "text": "foi concluída no 7 de setembro de 1822."
-        },
-        {
-          "id": "C",
-          "text": "decorreu de uma vitória tática independentista no Jenipapo."
-        },
-        {
-          "id": "D",
-          "text": "combinou vínculos prévios com Lisboa, divisões locais, guerra interprovincial, cerco no interior e pressão naval sobre São Luís."
-        },
-        {
-          "id": "E",
-          "text": "foi produzida exclusivamente pela ação pessoal de Cochrane."
+          "text": "Os dois comandavam contingentes portugueses e chegaram simultaneamente a Itapecuru-Mirim."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A incorporação foi processo político e militar: Jenipapo teve vitória tática portuguesa, a campanha avançou pelo interior e Cochrane pressionou uma capital já isolada."
+      "explanation": "Fidié conduziu as forças portuguesas em Jenipapo e se concentrou em Caxias. Cochrane, comandante naval imperial, pressionou a Junta provincial na etapa final de julho; não houve batalha naval entre ambos na capital."
+    },
+    {
+      "id": "q7298",
+      "revision": 4,
+      "origin": "authorial",
+      "prompt": "Um historiador dispõe de dois registros: um sobre comerciantes maranhenses vinculados a Lisboa em 1822 e outro sobre a exigência naval imperial dirigida a São Luís em julho de 1823. Qual interpretação articula melhor a mudança política da província?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As ligações com Lisboa desapareceram antes da guerra e a adesão foi exclusivamente espontânea."
+        },
+        {
+          "id": "B",
+          "text": "O vínculo com Lisboa prova que a batalha do Jenipapo ocorreu no porto de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "A resistência inicial tinha bases políticas e comerciais, mas a campanha regional e a pressão naval alteraram a capacidade de resistir à incorporação imperial."
+        },
+        {
+          "id": "D",
+          "text": "O registro de julho comprova que não houve participação de forças do Piauí e Ceará na campanha."
+        },
+        {
+          "id": "E",
+          "text": "As duas fontes mostram que a incorporação do Maranhão se concluiu em setembro de 1822."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A adesão precisa ser vista como processo: redes com Portugal sustentaram a resistência inicial; guerra interprovincial, isolamento e exigência naval de Cochrane ajudaram a definir o ato de julho de 1823."
     },
     {
       "id": "qU076R01",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Leia o trecho a seguir.\nEm 31 de março de 1823, o Juiz de Fora de Parnaíba, João Cândido de Deus e Silva, escreve da Vila da Granja ao Ilustríssimo Ministro e Secretário de Estado dos Negócios do Império, referindo-se ao ofício anterior no qual informara sobre a ocupação da Vila de Parnaíba. Nessa comunicação, relatava que o Governo Português ali permaneceu até o dia 1º de março, quando abandonou a vila para marchar em direção à cidade de Oeiras, que, em 24 de janeiro, na ausência do referido governador, proclamara, de forma gloriosa, sua adesão ao sistema brasileiro, hasteando o pavilhão da independência.\nAdaptado de: Informes do acontecido na edição de 21 de julho de 1823 no Jornal Diário do Governo.\nCom base na leitura do trecho, assinale a opção que apresenta corretamente os fatores que motivaram o início da Batalha de Jenipapo.",
       "options": [
@@ -1830,13 +1830,13 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A alternativa C identifica o encadeamento apresentado no documento: a adesão de vilas piauienses ao sistema brasileiro colocou as populações locais em resistência às forças portuguesas, processo que culminou no confronto do Jenipapo. As demais alternativas atribuem causas ou alinhamentos incompatíveis com o contexto descrito. Fonte: questão oficial; <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>; <abbr title=\"Polícia Civil do Piauí\">PC-PI</abbr> — Perito Médico Legista (Geral), Tipo 2; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/perito-medico-legista-geral-cns210-tipo-2.pdf."
+      "explanation": "A alternativa C identifica o encadeamento apresentado no documento: a adesão de vilas piauienses ao sistema brasileiro colocou as populações locais em resistência às forças portuguesas, processo que culminou no confronto do Jenipapo. As demais alternativas atribuem causas ou alinhamentos incompatíveis com o contexto descrito. Fonte: questão oficial; FGV; PC-PI — Perito Médico Legista (Geral), Tipo 2; 2026; questão 23; https://conhecimento.fgv.br/sites/default/files/concursos/perito-medico-legista-geral-cns210-tipo-2.pdf."
     },
     {
       "id": "qU076R02",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
-      "prompt": "“O enfrentamento do Jenipapo ocorreu no dia 13 de março de 1823; é relativamente farta a crônica documentada pela escrita de autovencedores, para quem, preso e deportado o governador Fidié, a província estaria pacificada, voltando os combates do povo aos campos de lavrar e criar — porque política é coisa de branco”.\nFonte: SANTOS NETO, Antonio Fonseca dos. Jenipapo: riacho irrigado com os sonhos da esperança. Piauí: <abbr title=\"Coordenadoria de Comunicação Social do Piauí\">CCOM</abbr>, 2010, p. 54\nEm 2022, intelectuais e estudantes brasileiros voltaram sua atenção para uma reflexão a respeito dos 200 anos da independência política do Brasil, oportunidade em que opiniões, posturas e decisões a respeito dessa experiência histórica nacional e local, assim como sugere o texto acima, foram expostas, permitindo compreender que:",
+      "prompt": "“O enfrentamento do Jenipapo ocorreu no dia 13 de março de 1823; é relativamente farta a crônica documentada pela escrita de autovencedores, para quem, preso e deportado o governador Fidié, a província estaria pacificada, voltando os combates do povo aos campos de lavrar e criar — porque política é coisa de branco”.\nFonte: SANTOS NETO, Antonio Fonseca dos. Jenipapo: riacho irrigado com os sonhos da esperança. Piauí: CCOM, 2010, p. 54\nEm 2022, intelectuais e estudantes brasileiros voltaram sua atenção para uma reflexão a respeito dos 200 anos da independência política do Brasil, oportunidade em que opiniões, posturas e decisões a respeito dessa experiência histórica nacional e local, assim como sugere o texto acima, foram expostas, permitindo compreender que:",
       "options": [
         {
           "id": "A",
@@ -1860,7 +1860,7 @@
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A alternativa D expressa a interpretação historiográfica proposta: sem projetar um nacionalismo brasileiro já consolidado sobre os combatentes populares, a historiografia recente lê sua participação também como contestação a relações de exploração e violência que ultrapassavam a ruptura formal entre Brasil e Portugal. As demais alternativas apagam a participação popular, supõem coesão inexistente ou invertem o problema dos relatos dos “autovencedores”. Fonte: questão oficial; <abbr title=\"Núcleo de Concursos e Promoção de Eventos\">NUCEPE</abbr>/<abbr title=\"Universidade Estadual do Piauí\">UESPI</abbr>; <abbr title=\"Secretaria de Estado da Educação do Piauí\">SEDUC-PI</abbr> — Professor de História; 2025; questão 31; https://nucepe.uespi.br/consultas/downloads/2025_seduc_edital_40/PROVAS/8.%20Prova%20-%20Professor%20de%20HIST%C3%93RIA.pdf."
+      "explanation": "A alternativa D expressa a interpretação historiográfica proposta: sem projetar um nacionalismo brasileiro já consolidado sobre os combatentes populares, a historiografia recente lê sua participação também como contestação a relações de exploração e violência que ultrapassavam a ruptura formal entre Brasil e Portugal. As demais alternativas apagam a participação popular, supõem coesão inexistente ou invertem o problema dos relatos dos “autovencedores”. Fonte: questão oficial; NUCEPE/UESPI; SEDUC-PI — Professor de História; 2025; questão 31; https://nucepe.uespi.br/consultas/downloads/2025_seduc_edital_40/PROVAS/8.%20Prova%20-%20Professor%20de%20HIST%C3%93RIA.pdf."
     }
   ]
 }
