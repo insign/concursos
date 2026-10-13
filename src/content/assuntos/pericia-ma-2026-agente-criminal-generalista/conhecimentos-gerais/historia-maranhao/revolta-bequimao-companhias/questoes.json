@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q7179",
@@ -94,13 +94,13 @@
     },
     {
       "id": "q7182",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Revolta de Beckman, Revolta de Bequimão e Revolta do Estanco são",
       "options": [
         {
           "id": "A",
-          "text": "nomes usados para o mesmo movimento ocorrido no Maranhão em 1684."
+          "text": "nomes de companhias comerciais portuguesas."
         },
         {
           "id": "B",
@@ -108,7 +108,7 @@
         },
         {
           "id": "C",
-          "text": "nomes de companhias comerciais portuguesas."
+          "text": "nomes usados para o mesmo movimento ocorrido no Maranhão em 1684."
         },
         {
           "id": "D",
@@ -119,7 +119,7 @@
           "text": "movimentos ligados à Independência do Brasil."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "As três denominações remetem ao mesmo levante de 1684; 'Bequimão' é forma aportuguesada de Beckman, e 'Estanco' destaca o monopólio combatido."
     },
     {
@@ -184,13 +184,13 @@
     },
     {
       "id": "q7185",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A companhia diretamente relacionada às causas da Revolta de Bequimão foi",
       "options": [
         {
           "id": "A",
-          "text": "a Companhia de Comércio do Maranhão instituída em 1682."
+          "text": "uma companhia fundada pelos próprios revoltosos em 1684."
         },
         {
           "id": "B",
@@ -206,10 +206,10 @@
         },
         {
           "id": "E",
-          "text": "uma companhia fundada pelos próprios revoltosos em 1684."
+          "text": "a Companhia de Comércio do Maranhão instituída em 1682."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A experiência monopolista de 1682 é a companhia diretamente ligada às reclamações que desembocaram na revolta."
     },
     {
@@ -334,13 +334,13 @@
     },
     {
       "id": "q7190",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Sobre o papel dos jesuítas nas causas da revolta, é correto afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "os colonos criticavam a influência missionária sobre aldeamentos e a distribuição do trabalho indígena."
+          "text": "a ordem havia sido expulsa de todo o império antes de 1684."
         },
         {
           "id": "B",
@@ -352,19 +352,19 @@
         },
         {
           "id": "D",
-          "text": "a ordem havia sido expulsa de todo o império antes de 1684."
+          "text": "os colonos criticavam a influência missionária sobre aldeamentos e a distribuição do trabalho indígena."
         },
         {
           "id": "E",
           "text": "o conflito religioso não possuía qualquer dimensão econômica ou política."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A disputa com os jesuítas envolvia autoridade sobre aldeamentos, trabalho indígena e poder temporal, combinando dimensões econômica, jurídica, religiosa e política."
     },
     {
       "id": "q7191",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A Revolta de Bequimão não pode ser classificada como movimento abolicionista porque",
       "options": [
@@ -374,11 +374,11 @@
         },
         {
           "id": "B",
-          "text": "parte de seus dirigentes buscava ampliar o acesso a africanos escravizados e ao trabalho indígena."
+          "text": "não houve participação de proprietários."
         },
         {
           "id": "C",
-          "text": "não houve participação de proprietários."
+          "text": "parte de seus dirigentes buscava ampliar o acesso a africanos escravizados e ao trabalho indígena."
         },
         {
           "id": "D",
@@ -389,7 +389,7 @@
           "text": "a Coroa já havia abolido todo trabalho compulsório."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Os revoltosos combatiam abusos do estanco, mas seus objetivos incluíam maior acesso a formas coercivas de trabalho."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "id": "q7193",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Entre as queixas contra a companhia de 1682 estava",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "o abastecimento considerado insuficiente e condições comerciais desfavoráveis."
+          "text": "a obrigação de os moradores exportarem apenas para a França."
         },
         {
           "id": "C",
@@ -442,25 +442,25 @@
         },
         {
           "id": "D",
-          "text": "a obrigação de os moradores exportarem apenas para a França."
+          "text": "o abastecimento considerado insuficiente e condições comerciais desfavoráveis."
         },
         {
           "id": "E",
           "text": "a proibição de importar mercadorias metropolitanas por decisão da Câmara rebelde."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Os moradores reclamavam de abastecimento, preços, compra de produtos locais e fornecimento de trabalhadores sob o regime monopolista."
     },
     {
       "id": "q7194",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A companhia de 1682 foi concebida, entre outros objetivos, para",
       "options": [
         {
           "id": "A",
-          "text": "abastecer a região e ampliar a entrada de africanos escravizados."
+          "text": "encerrar as relações comerciais entre São Luís e Lisboa."
         },
         {
           "id": "B",
@@ -476,15 +476,15 @@
         },
         {
           "id": "E",
-          "text": "encerrar as relações comerciais entre São Luís e Lisboa."
+          "text": "abastecer a região e ampliar a entrada de africanos escravizados."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A companhia deveria organizar circuitos de comércio e abastecimento e aumentar o fornecimento de trabalhadores africanos escravizados."
     },
     {
       "id": "q7195",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "O fato de uma companhia receber privilégios da Coroa significa, no caso do estanco, que",
       "options": [
@@ -494,7 +494,7 @@
         },
         {
           "id": "B",
-          "text": "determinadas operações comerciais ficavam concentradas em um agente privilegiado."
+          "text": "a Câmara de São Luís passava a controlar o comércio europeu."
         },
         {
           "id": "C",
@@ -502,14 +502,14 @@
         },
         {
           "id": "D",
-          "text": "a Câmara de São Luís passava a controlar o comércio europeu."
+          "text": "determinadas operações comerciais ficavam concentradas em um agente privilegiado."
         },
         {
           "id": "E",
           "text": "os jesuítas recebiam exclusividade sobre o tráfico africano."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O estanco restringia a concorrência e a negociação direta, concentrando operações relevantes no agente autorizado."
     },
     {
@@ -544,13 +544,13 @@
     },
     {
       "id": "q7197",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A ligação direta do Estado do Maranhão e Grão-Pará com Lisboa é relevante porque",
       "options": [
         {
           "id": "A",
-          "text": "ajuda a explicar circuitos políticos e comerciais próprios do norte colonial."
+          "text": "transformava a região em parte administrativa das Províncias Unidas."
         },
         {
           "id": "B",
@@ -566,15 +566,15 @@
         },
         {
           "id": "E",
-          "text": "transformava a região em parte administrativa das Províncias Unidas."
+          "text": "ajuda a explicar circuitos políticos e comerciais próprios do norte colonial."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A geografia atlântica e fluvial favorecia conexões próprias com Lisboa e distinguia a administração setentrional do Estado do Brasil."
     },
     {
       "id": "q7198",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A principal liderança associada ao nome da revolta é",
       "options": [
@@ -584,11 +584,11 @@
         },
         {
           "id": "B",
-          "text": "Manuel Beckman."
+          "text": "Baltasar Fernandes."
         },
         {
           "id": "C",
-          "text": "Baltasar Fernandes."
+          "text": "Manuel Beckman."
         },
         {
           "id": "D",
@@ -599,12 +599,12 @@
           "text": "Jerônimo de Albuquerque."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Manuel Beckman foi o principal articulador e dirigente político do movimento."
     },
     {
       "id": "q7199",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Tomás Beckman destacou-se por",
       "options": [
@@ -614,7 +614,7 @@
         },
         {
           "id": "B",
-          "text": "viajar a Lisboa para apresentar as reivindicações ao rei."
+          "text": "liderar a invasão neerlandesa do Maranhão."
         },
         {
           "id": "C",
@@ -626,10 +626,10 @@
         },
         {
           "id": "E",
-          "text": "liderar a invasão neerlandesa do Maranhão."
+          "text": "viajar a Lisboa para apresentar as reivindicações ao rei."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Tomás Beckman foi enviado a Lisboa, o que mostra que os revoltosos ainda reconheciam o rei como instância política."
     },
     {
@@ -664,13 +664,13 @@
     },
     {
       "id": "q7201",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Entre as ações dos revoltosos em 1684 esteve",
       "options": [
         {
           "id": "A",
-          "text": "a tomada do governo local e a organização de uma junta."
+          "text": "a entrega de São Luís aos neerlandeses."
         },
         {
           "id": "B",
@@ -682,25 +682,25 @@
         },
         {
           "id": "D",
-          "text": "a entrega de São Luís aos neerlandeses."
+          "text": "a tomada do governo local e a organização de uma junta."
         },
         {
           "id": "E",
           "text": "a dissolução da monarquia portuguesa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Os revoltosos assumiram o governo local, prenderam autoridades e organizaram uma junta, sem proclamar independência."
     },
     {
       "id": "q7202",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A expulsão dos jesuítas promovida pelos revoltosos em 1684",
       "options": [
         {
           "id": "A",
-          "text": "foi local e não se confunde com a expulsão geral da Companhia de Jesus em 1759."
+          "text": "ocorreu depois da companhia pombalina de 1755."
         },
         {
           "id": "B",
@@ -712,14 +712,14 @@
         },
         {
           "id": "D",
-          "text": "ocorreu depois da companhia pombalina de 1755."
+          "text": "foi local e não se confunde com a expulsão geral da Companhia de Jesus em 1759."
         },
         {
           "id": "E",
           "text": "foi realizada pelos neerlandeses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A medida de 1684 atingiu os missionários no espaço controlado pelo movimento; a expulsão geral dos domínios portugueses ocorreu apenas em 1759."
     },
     {
@@ -784,13 +784,13 @@
     },
     {
       "id": "q7205",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A direção social do movimento pode ser caracterizada como",
       "options": [
         {
           "id": "A",
-          "text": "principalmente formada por setores proprietários e homens ligados à Câmara, embora houvesse mobilização mais ampla."
+          "text": "exclusivamente missionária e jesuítica."
         },
         {
           "id": "B",
@@ -806,15 +806,15 @@
         },
         {
           "id": "E",
-          "text": "exclusivamente missionária e jesuítica."
+          "text": "principalmente formada por setores proprietários e homens ligados à Câmara, embora houvesse mobilização mais ampla."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A direção foi sobretudo elitista, o que não significa ausência de outros moradores na mobilização."
     },
     {
       "id": "q7206",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A presença do termo 'povo' em documentos da revolta",
       "options": [
@@ -824,7 +824,7 @@
         },
         {
           "id": "B",
-          "text": "deve ser lida no contexto político da época e não como sinônimo automático de toda a população."
+          "text": "prova liderança autônoma dos escravizados."
         },
         {
           "id": "C",
@@ -836,10 +836,10 @@
         },
         {
           "id": "E",
-          "text": "prova liderança autônoma dos escravizados."
+          "text": "deve ser lida no contexto político da época e não como sinônimo automático de toda a população."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O vocabulário político do período não permite inferir participação homogênea de indígenas, escravizados, mulheres, pobres e demais grupos."
     },
     {
@@ -904,7 +904,7 @@
     },
     {
       "id": "q7209",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A relação entre revolta e autoridade régia é melhor descrita por",
       "options": [
@@ -914,7 +914,7 @@
         },
         {
           "id": "B",
-          "text": "contestação de agentes e práticas coloniais acompanhada de recurso ao monarca."
+          "text": "apoio ao governador contestado contra a Câmara."
         },
         {
           "id": "C",
@@ -922,14 +922,14 @@
         },
         {
           "id": "D",
-          "text": "apoio ao governador contestado contra a Câmara."
+          "text": "contestação de agentes e práticas coloniais acompanhada de recurso ao monarca."
         },
         {
           "id": "E",
           "text": "transferência de fidelidade para as Províncias Unidas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Rebelião e negociação coexistiram: o movimento derrubou autoridades locais, mas continuou a invocar o rei como árbitro."
     },
     {
@@ -1024,13 +1024,13 @@
     },
     {
       "id": "q7213",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Manuel Beckman e Jorge de Sampaio de Carvalho",
       "options": [
         {
           "id": "A",
-          "text": "foram executados em São Luís em novembro de 1685."
+          "text": "foram anistiados e nomeados governadores."
         },
         {
           "id": "B",
@@ -1046,10 +1046,10 @@
         },
         {
           "id": "E",
-          "text": "foram anistiados e nomeados governadores."
+          "text": "foram executados em São Luís em novembro de 1685."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os dois receberam pena capital na repressão. Para o edital, mês e ano são mais úteis que a controvérsia sobre o dia exato."
     },
     {
@@ -1144,13 +1144,13 @@
     },
     {
       "id": "q7217",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Dizer que a revolta foi derrotada politicamente não significa afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "as reclamações contra o monopólio desapareceram ou que o arranjo comercial permaneceu inalterado por décadas."
+          "text": "lideranças foram punidas."
         },
         {
           "id": "B",
@@ -1158,7 +1158,7 @@
         },
         {
           "id": "C",
-          "text": "lideranças foram punidas."
+          "text": "as reclamações contra o monopólio desapareceram ou que o arranjo comercial permaneceu inalterado por décadas."
         },
         {
           "id": "D",
@@ -1169,7 +1169,7 @@
           "text": "Gomes Freire de Andrade participou da restauração régia."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A derrota do movimento não apagou os problemas econômicos e o experimento monopolista de 1682 não perdurou até o prazo inicialmente imaginado."
     },
     {
@@ -1264,13 +1264,13 @@
     },
     {
       "id": "q7221",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Qual associação está correta?",
       "options": [
         {
           "id": "A",
-          "text": "Tomás Beckman — enviado a Lisboa para apresentar queixas."
+          "text": "Sebastião José de Carvalho e Melo — líder da revolta de 1684."
         },
         {
           "id": "B",
@@ -1282,14 +1282,14 @@
         },
         {
           "id": "D",
-          "text": "Sebastião José de Carvalho e Melo — líder da revolta de 1684."
+          "text": "Tomás Beckman — enviado a Lisboa para apresentar queixas."
         },
         {
           "id": "E",
           "text": "D. José I — rei português em 1684."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Tomás Beckman cumpriu a missão de negociação em Lisboa; os demais pares são anacrônicos ou trocam papéis."
     },
     {
@@ -1324,33 +1324,33 @@
     },
     {
       "id": "q7223",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "A principal pegadinha cronológica do assunto é confundir",
+      "prompt": "Uma ata de 1684 menciona os contratadores do estanco, enquanto uma síntese histórica analisa a Companhia Geral do Grão-Pará e Maranhão fundada em 1755. Qual cuidado é essencial ao comparar esses documentos?",
       "options": [
         {
           "id": "A",
-          "text": "a companhia monopolista de 1682 com a Companhia Geral do Grão-Pará e Maranhão de 1755."
+          "text": "Identificar a companhia de 1755 como origem administrativa do estanco de 1682."
         },
         {
           "id": "B",
-          "text": "a revolta de 1684 com a repressão de 1685."
+          "text": "Concluir que o nome semelhante confirma continuidade jurídica e comercial da mesma empresa."
         },
         {
           "id": "C",
-          "text": "o governo local com a Câmara de São Luís."
+          "text": "Separar o monopólio vinculado à revolta de 1684 da companhia pombalina criada posteriormente."
         },
         {
           "id": "D",
-          "text": "Manuel com Tomás Beckman."
+          "text": "Atribuir a ambos os registros as reformas de D. José I em vigor desde 1682."
         },
         {
           "id": "E",
-          "text": "São Luís com Belém."
+          "text": "Eliminar o documento de 1684 por ser anterior à companhia de 1755."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "As duas companhias possuem nomes semelhantes, mas pertencem a contextos separados por cerca de sete décadas."
+      "correctOptionId": "C",
+      "explanation": "O estanco associado à crise de 1684 foi contratado em 1682; a Companhia Geral de 1755 é posterior e pertence a outro reinado e política. Semelhança dos nomes não prova identidade institucional."
     },
     {
       "id": "q7224",
@@ -1384,13 +1384,13 @@
     },
     {
       "id": "q7225",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A relação correta entre as companhias de 1682 e 1755 é",
       "options": [
         {
           "id": "A",
-          "text": "a primeira está diretamente ligada à revolta; a segunda é posterior e pombalina."
+          "text": "nenhuma possuía privilégios comerciais."
         },
         {
           "id": "B",
@@ -1406,41 +1406,41 @@
         },
         {
           "id": "E",
-          "text": "nenhuma possuía privilégios comerciais."
+          "text": "a primeira está diretamente ligada à revolta; a segunda é posterior e pombalina."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Distinguir data, contexto e função evita anacronismo: 1682 é o estanco combatido; 1755 é outra companhia, pombalina."
     },
     {
       "id": "q7226",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "A Companhia Geral de 1755 deve ocupar espaço limitado neste assunto porque",
+      "prompt": "Um material de estudo usa um relatório da Companhia Geral de 1755 para explicar diretamente as queixas contra o monopólio de 1684. Qual crítica histórica é mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "o edital cobra a revolta e a companhia ligada a suas causas, sendo 1755 sobretudo contraste anti-anacronismo."
+          "text": "O relatório seria inútil para qualquer estudo do comércio colonial, independentemente de sua data."
         },
         {
           "id": "B",
-          "text": "ela não teve qualquer relação com o Maranhão."
+          "text": "O governo português não permitiu nenhuma companhia comercial antes de 1755."
         },
         {
           "id": "C",
-          "text": "foi criada antes da companhia de 1682."
+          "text": "A Revolta de Bequimão ocorreu depois de 1755, portanto a associação é temporalmente correta."
         },
         {
           "id": "D",
-          "text": "não possuía atividade comercial."
+          "text": "O documento é de uma companhia posterior e não pode, sem prova adicional, fundamentar causas de uma rebelião anterior."
         },
         {
           "id": "E",
-          "text": "foi administrada por Manuel Beckman."
+          "text": "A única questão é que o comércio do Maranhão nunca esteve ligado à Coroa."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A empresa de 1755 é útil para distinguir nomes semelhantes, mas aprofundar sua administração e liquidação extrapola o núcleo da Revolta de Bequimão."
+      "correctOptionId": "D",
+      "explanation": "Documentos da companhia pombalina podem servir ao contraste histórico, não como prova direta das reclamações contra o contrato monopolista de 1682, que antecedeu a revolta."
     },
     {
       "id": "q7227",
@@ -1504,7 +1504,7 @@
     },
     {
       "id": "q7229",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Se uma questão afirmar que a legislação de 1680 tornou os indígenas plenamente autônomos e eliminou toda coerção, a afirmação estará",
       "options": [
@@ -1514,11 +1514,11 @@
         },
         {
           "id": "B",
-          "text": "incorreta, pois restrições ao cativeiro coexistiram com tutela e outras formas coloniais de exploração do trabalho."
+          "text": "correta, pois os jesuítas deixaram o Maranhão naquele ano."
         },
         {
           "id": "C",
-          "text": "correta, pois os jesuítas deixaram o Maranhão naquele ano."
+          "text": "incorreta, pois restrições ao cativeiro coexistiram com tutela e outras formas coloniais de exploração do trabalho."
         },
         {
           "id": "D",
@@ -1529,12 +1529,12 @@
           "text": "correta, pois a revolta defendeu a liberdade indígena."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Liberdade jurídica e fim do cativeiro em certas hipóteses não equivalem a autonomia plena ou desaparecimento de coerções coloniais."
     },
     {
       "id": "q7230",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Se uma questão afirmar que os revoltosos defendiam a liberdade indígena como objetivo central, a avaliação correta é",
       "options": [
@@ -1544,11 +1544,11 @@
         },
         {
           "id": "B",
-          "text": "incorreta, porque uma das tensões era justamente ampliar o acesso colonial ao trabalho indígena."
+          "text": "correta, porque a Companhia de Jesus apoiou a escravização irrestrita."
         },
         {
           "id": "C",
-          "text": "correta, porque a Companhia de Jesus apoiou a escravização irrestrita."
+          "text": "incorreta, porque uma das tensões era justamente ampliar o acesso colonial ao trabalho indígena."
         },
         {
           "id": "D",
@@ -1559,7 +1559,7 @@
           "text": "incorreta apenas porque não havia indígenas no Maranhão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O conflito com a tutela missionária estava ligado ao interesse dos moradores em controlar trabalhadores indígenas."
     },
     {
@@ -1594,37 +1594,37 @@
     },
     {
       "id": "q7232",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Um enunciado associa Tomás Beckman à proclamação da independência. A correção é",
+      "prompt": "Uma carta dos rebeldes de São Luís acusa autoridades e contratadores, mas pede ao rei português providências contra os abusos. Qual interpretação respeita simultaneamente a rebelião e o recurso à Coroa?",
       "options": [
         {
           "id": "A",
-          "text": "manter a afirmação, porque ele fundou uma república em Lisboa."
+          "text": "A carta demonstra aceitação plena de todas as autoridades locais, sem oposição política."
         },
         {
           "id": "B",
-          "text": "corrigir: Tomás foi enviado a Lisboa para levar reivindicações ao rei, o que reforça a ausência de programa separatista comprovado."
+          "text": "A contestação do governo local coexistia com o reconhecimento do monarca como instância de decisão."
         },
         {
           "id": "C",
-          "text": "manter, porque D. Pedro II reconheceu a independência."
+          "text": "A petição confirma que os revoltosos já haviam constituído Estado soberano independente."
         },
         {
           "id": "D",
-          "text": "corrigir apenas a data para 1755."
+          "text": "O recurso ao rei impede que a tomada das casas da companhia seja chamada de revolta."
         },
         {
           "id": "E",
-          "text": "manter, porque a Coroa não foi mencionada pelos revoltosos."
+          "text": "A carta comprova que a insatisfação se limitava a divergências religiosas, sem comércio e trabalho."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A missão de Tomás Beckman é evidência importante da linguagem de fidelidade régia e negociação."
+      "explanation": "A tomada do poder local foi real, assim como o recurso à autoridade régia por Tomás Beckman. Não há contradição em resistir a agentes e medidas coloniais sem propor independência."
     },
     {
       "id": "q7233",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um enunciado afirma que a expulsão dos jesuítas em 1684 foi definitiva em todo o império. A avaliação correta é",
       "options": [
@@ -1634,7 +1634,7 @@
         },
         {
           "id": "B",
-          "text": "incorreta, pois foi uma expulsão local; a expulsão geral dos domínios portugueses ocorreu em 1759."
+          "text": "incorreta apenas porque os jesuítas foram expulsos em 1644."
         },
         {
           "id": "C",
@@ -1642,19 +1642,19 @@
         },
         {
           "id": "D",
-          "text": "incorreta apenas porque os jesuítas foram expulsos em 1644."
+          "text": "incorreta, pois foi uma expulsão local; a expulsão geral dos domínios portugueses ocorreu em 1759."
         },
         {
           "id": "E",
           "text": "correta, pois os jesuítas nunca retornaram ao Maranhão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A medida rebelde de 1684 tinha alcance local; a política geral de expulsão pertence ao período pombalino."
     },
     {
       "id": "q7234",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um enunciado afirma que a companhia de 1682 resolveu satisfatoriamente o abastecimento e o fornecimento de trabalhadores. A avaliação correta é",
       "options": [
@@ -1664,7 +1664,7 @@
         },
         {
           "id": "B",
-          "text": "incorreta, porque o desempenho insatisfatório atribuído à companhia esteve entre as causas da revolta."
+          "text": "incorreta apenas porque a companhia foi criada em 1755."
         },
         {
           "id": "C",
@@ -1672,14 +1672,14 @@
         },
         {
           "id": "D",
-          "text": "incorreta apenas porque a companhia foi criada em 1755."
+          "text": "incorreta, porque o desempenho insatisfatório atribuído à companhia esteve entre as causas da revolta."
         },
         {
           "id": "E",
           "text": "correta, pois o estanco ampliou a liberdade comercial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "As reclamações dos moradores incluíam mercadorias, condições de comércio e fornecimento insuficiente de africanos escravizados."
     },
     {
@@ -1714,7 +1714,7 @@
     },
     {
       "id": "q7236",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um enunciado afirma que a derrota dos revoltosos significa manutenção integral do estanco pelo prazo originalmente previsto. A avaliação correta é",
       "options": [
@@ -1724,7 +1724,7 @@
         },
         {
           "id": "B",
-          "text": "incorreta, porque a derrota política coexistiu com mudanças posteriores e o arranjo monopolista não perdurou até o termo inicialmente previsto."
+          "text": "correta, porque a Coroa premiou Manuel Beckman."
         },
         {
           "id": "C",
@@ -1736,81 +1736,81 @@
         },
         {
           "id": "E",
-          "text": "correta, porque a Coroa premiou Manuel Beckman."
+          "text": "incorreta, porque a derrota política coexistiu com mudanças posteriores e o arranjo monopolista não perdurou até o termo inicialmente previsto."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A Coroa venceu o movimento, mas isso não implica que a experiência comercial contestada tenha permanecido inalterada pelo prazo nominal."
     },
     {
       "id": "q7237",
-      "revision": 5,
+      "revision": 6,
       "origin": "authorial",
-      "prompt": "A matriz que melhor resume o assunto é",
+      "prompt": "Suponha que um documento régio de 1685 registre a punição de dirigentes rebeldes, mas uma carta de comerciantes posterior continue a reclamar do abastecimento. Qual conclusão é sustentável?",
       "options": [
         {
           "id": "A",
-          "text": "1680: disputa pelo trabalho; 1682: estanco; 1684: revolta; 1685: repressão."
+          "text": "A punição torna impossível a continuidade de conflitos de comércio e trabalho."
         },
         {
           "id": "B",
-          "text": "1680: companhia pombalina; 1682: independência; 1684: WIC; 1685: França Equinocial."
+          "text": "A restauração da autoridade régia equivale à vitória política permanente da junta."
         },
         {
           "id": "C",
-          "text": "1680: expulsão geral dos jesuítas; 1682: Diretório dos Índios; 1684: companhia de 1755; 1685: Pombal."
+          "text": "A continuidade das reclamações prova que Manuel Beckman não foi executado."
         },
         {
           "id": "D",
-          "text": "1680: Balaiada; 1682: Guaxenduba; 1684: Independência; 1685: República."
+          "text": "O fim do governo rebelde não demonstra, por si só, a solução de suas causas econômicas e sociais."
         },
         {
           "id": "E",
-          "text": "1680: fim da escravidão; 1682: livre comércio; 1684: abolição; 1685: autonomia indígena."
+          "text": "A carta exige concluir que a companhia pombalina de 1755 já existia em 1685."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A sequência 1680–1682–1684–1685 organiza as relações causais essenciais do item."
+      "correctOptionId": "D",
+      "explanation": "O governo da junta foi derrotado e seus principais dirigentes punidos, mas comércio, abastecimento e disputas pelo trabalho continuaram questões distintas da restauração da autoridade política."
     },
     {
       "id": "q7238",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Sintetiza corretamente a Revolta de Bequimão a afirmação de que",
+      "prompt": "Um relato de 1684 associa críticas ao estanco à disputa pela obtenção de trabalhadores indígenas e africanos escravizados. Em conjunto com o envio de Tomás Beckman a Lisboa, qual leitura melhor explica o movimento?",
       "options": [
         {
           "id": "A",
-          "text": "moradores de São Luís se rebelaram em 1684 contra o estanco e outras tensões de abastecimento, trabalho e poder local; a Coroa restaurou sua autoridade em 1685."
+          "text": "Tratou-se de rebelião abolicionista que rejeitou a Coroa e todo trabalho compulsório."
         },
         {
           "id": "B",
-          "text": "a Companhia Geral pombalina de 1755 provocou uma revolta republicana em 1684."
+          "text": "A contestação era exclusivamente religiosa e não envolvia interesses de proprietários."
         },
         {
           "id": "C",
-          "text": "o movimento aboliu a escravidão e proclamou a independência do Maranhão."
+          "text": "Foi movimento contra políticas comerciais e mecanismos de controle do trabalho, sem programa separatista demonstrado."
         },
         {
           "id": "D",
-          "text": "os jesuítas lideraram os proprietários na defesa do monopólio."
+          "text": "As reclamações apenas defendiam a ampliação do monopólio e a permanência das autoridades locais."
         },
         {
           "id": "E",
-          "text": "a revolta restaurou o domínio neerlandês e encerrou a presença portuguesa."
+          "text": "A direção do movimento teve como objetivo criar a Companhia Geral de 1755."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A síntese correta reúne cronologia, causas múltiplas, caráter não separatista e restauração régia sem importar o contexto pombalino de 1755."
+      "correctOptionId": "C",
+      "explanation": "A revolta agregou queixas econômicas, disputas por trabalho e contestação de autoridades. A busca de mediação régia é incompatível com assumir sem prova um projeto separatista; a defesa de acesso a trabalhadores impede classificá-la como abolicionista."
     },
     {
       "id": "per-u051-a01",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A criação do Estado do Maranhão em 1621 deve ser entendida como",
       "options": [
         {
           "id": "A",
-          "text": "uma separação administrativa em relação ao Estado do Brasil, com subordinação direta a Lisboa."
+          "text": "a transferência da capital colonial brasileira de Salvador para São Luís."
         },
         {
           "id": "B",
@@ -1826,15 +1826,15 @@
         },
         {
           "id": "E",
-          "text": "a transferência da capital colonial brasileira de Salvador para São Luís."
+          "text": "uma separação administrativa em relação ao Estado do Brasil, com subordinação direta a Lisboa."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A nova unidade administrativa foi criada em 1621 separadamente do Estado do Brasil e ligada diretamente à administração metropolitana."
     },
     {
       "id": "per-u051-a02",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em 1626, Francisco Coelho de Carvalho assumiu no Maranhão como",
       "options": [
@@ -1844,7 +1844,7 @@
         },
         {
           "id": "B",
-          "text": "governador e capitão-general da estrutura administrativa criada no extremo norte."
+          "text": "dirigente da Companhia Geral criada em 1755."
         },
         {
           "id": "C",
@@ -1856,10 +1856,10 @@
         },
         {
           "id": "E",
-          "text": "dirigente da Companhia Geral criada em 1755."
+          "text": "governador e capitão-general da estrutura administrativa criada no extremo norte."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A instalação da chefia superior do Estado levou alguns anos; Francisco Coelho de Carvalho tomou posse em 1626 como governador e capitão-general."
     },
     {
