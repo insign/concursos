@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q7839",
@@ -244,33 +244,33 @@
     },
     {
       "id": "q7847",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Sobre os controles climáticos do Maranhão, é correto afirmar que",
+      "prompt": "Duas estações maranhenses em latitude semelhante apresentam totais médios de chuva diferentes. Para explicar essa diferença sem presumir erro de medição, deve-se considerar",
       "options": [
         {
           "id": "A",
-          "text": "somente a latitude explica todas as diferenças."
+          "text": "apenas a latitude, pois esta impõe precipitação idêntica a todos os pontos do mesmo paralelo."
         },
         {
           "id": "B",
-          "text": "latitude, oceano, circulação, relevo, solo e cobertura interagem."
+          "text": "a circulação atmosférica, a influência oceânica, o relevo e os controles locais, além da latitude."
         },
         {
           "id": "C",
-          "text": "o relevo elimina a influência atmosférica."
+          "text": "exclusivamente a distância da Zona de Convergência Intertropical, sem participação de brisas ou convecção."
         },
         {
           "id": "D",
-          "text": "a vegetação produz sozinha a estação chuvosa."
+          "text": "somente a altitude, independentemente da circulação e da disponibilidade de umidade."
         },
         {
           "id": "E",
-          "text": "anomalias oceânicas não afetam a chuva."
+          "text": "o total de um único temporal, suficiente para definir o clima de ambas as estações."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O clima resulta da interação de controles globais, regionais e locais, não de causa única. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Latitudes semelhantes podem manter condições gerais de insolação, mas não impõem chuvas iguais. Circulação, umidade disponível, maritimidade e controles locais ajudam a explicar contrastes espaciais persistentes; um evento isolado não define o clima."
     },
     {
       "id": "q7848",
@@ -454,93 +454,93 @@
     },
     {
       "id": "q7854",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No setor norte, o calendário aproximado indicado pelo estudo de 2023 é",
+      "prompt": "Em um planejamento hipotético de atividades de campo, uma equipe compara o norte (chuvas aproximadamente de janeiro a julho) e o centro-sul maranhense (de janeiro a abril), segundo o estudo regional de 2023. Qual interpretação é adequada?",
       "options": [
         {
           "id": "A",
-          "text": "chuvoso de janeiro a julho e seco de agosto a dezembro."
+          "text": "A estação chuvosa tende a durar mais no norte; esses intervalos são referências climatológicas, não garantias para cada ano."
         },
         {
           "id": "B",
-          "text": "chuvoso apenas em dezembro."
+          "text": "De maio a julho, é necessariamente impossível chover no norte porque a estação chuvosa centro-sul já diminuiu."
         },
         {
           "id": "C",
-          "text": "seco de janeiro a julho."
+          "text": "A duração da estação chuvosa é idêntica nos dois setores, pois ambos têm temperaturas tropicais."
         },
         {
           "id": "D",
-          "text": "sem sazonalidade."
+          "text": "Todos os meses da estação seca devem ser registrados com zero precipitação."
         },
         {
           "id": "E",
-          "text": "chuvoso somente em agosto e setembro."
+          "text": "O maior número de meses chuvosos comprova que o norte apresenta temperaturas médias sempre inferiores às do centro-sul."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O norte possui estação chuvosa mais prolongada, mas as datas variam entre estações e anos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O estudo sintetiza calendários regionais diferentes: a janela chuvosa do norte tende a ser mais extensa. As datas são aproximadas e não asseguram o comportamento de um mês isolado ou precipitação nula durante a estiagem."
     },
     {
       "id": "q7855",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Para o leste maranhense, o mesmo estudo sintetiza aproximadamente",
+      "prompt": "Uma análise de estações do leste maranhense encontra chuvas mais concentradas de janeiro a maio e menor precipitação de junho a dezembro. Como descrever esse resultado?",
       "options": [
         {
           "id": "A",
-          "text": "chuvas uniformes o ano inteiro."
+          "text": "A estiagem de junho a dezembro significa que a precipitação de todos esses meses é necessariamente zero."
         },
         {
           "id": "B",
-          "text": "seca apenas em janeiro."
+          "text": "A estação de chuvas do leste deve ser estendida automaticamente até julho, como no norte."
         },
         {
           "id": "C",
-          "text": "estação chuvosa de janeiro a maio e seca de junho a dezembro."
+          "text": "O padrão é compatível com a síntese sazonal do leste no estudo de 2023, mas não prevê o comportamento exato de cada ano."
         },
         {
           "id": "D",
-          "text": "estação chuvosa de agosto a dezembro."
+          "text": "A distribuição de uma estação do leste representa, sem tratamento espacial, a média de todo o Maranhão."
         },
         {
           "id": "E",
-          "text": "clima sem meses secos."
+          "text": "Sete meses relativamente secos bastam para comprovar clima semiárido em toda a região, sem analisar critérios climáticos."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A sazonalidade do leste inclui período seco mais longo que o extremo norte. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A síntese do estudo regional aponta maior concentração das chuvas entre janeiro e maio no leste. O intervalo é referência climatológica aproximada; estação seca não exige zero precipitação, e uma série local não representa o estado inteiro."
     },
     {
       "id": "q7856",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No centro e no sul analisados, a síntese sazonal aproxima a estação chuvosa de",
+      "prompt": "Uma visita hipotética a Balsas será feita em fevereiro ou setembro. Considerando a sazonalidade média do centro-sul maranhense, qual expectativa é mais bem fundamentada?",
       "options": [
         {
           "id": "A",
-          "text": "junho a setembro."
+          "text": "Setembro costuma integrar o auge chuvoso e fevereiro, a estação seca."
         },
         {
           "id": "B",
-          "text": "agosto a novembro."
+          "text": "A estação seca de setembro impede qualquer registro de chuva e qualquer formação de nuvens."
         },
         {
           "id": "C",
-          "text": "maio a dezembro."
+          "text": "A temperatura média de setembro será necessariamente inferior à de fevereiro porque há menos nebulosidade."
         },
         {
           "id": "D",
-          "text": "todos os meses igualmente."
+          "text": "Fevereiro e setembro devem ter o mesmo total de chuva, já que ambos pertencem ao clima tropical."
         },
         {
           "id": "E",
-          "text": "janeiro a abril, com seca aproximada de maio a dezembro."
+          "text": "Fevereiro tende a integrar o período chuvoso e setembro a estiagem, quando a menor nebulosidade pode intensificar o aquecimento diurno."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O centro-sul apresenta concentração mais curta no começo do ano e estiagem prolongada, com variação local. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O estudo regional descreve chuvas aproximadamente de janeiro a abril no centro-sul e estiagem mais longa de maio a dezembro. Menor nebulosidade na seca favorece aquecimento diurno, sem determinar o tempo exato de cada dia."
     },
     {
       "id": "q7857",
@@ -634,63 +634,63 @@
     },
     {
       "id": "q7860",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A comparação das normais de Carolina e Imperatriz mostra que",
+      "prompt": "Nas Normais 1991–2020, a precipitação anual de Carolina é 1.772,1 mm, enquanto a de Imperatriz é 1.491,9 mm. Qual conclusão respeita os dados?",
       "options": [
         {
           "id": "A",
-          "text": "Imperatriz tem exatamente o dobro da chuva."
+          "text": "Todos os pontos de Carolina recebem exatamente 280,2 mm a mais que todos os pontos de Imperatriz."
         },
         {
           "id": "B",
-          "text": "as duas possuem totais idênticos."
+          "text": "Como as estações estão no interior, a diferença prova que uma das medições é inválida."
         },
         {
           "id": "C",
-          "text": "Carolina tem 1.772,1 mm e supera os 1.491,9 mm de Imperatriz."
+          "text": "A normal da estação de Carolina supera a de Imperatriz, sem invalidar os gradientes regionais nem autorizar generalização para todo município."
         },
         {
           "id": "D",
-          "text": "Carolina não possui normal de precipitação."
+          "text": "As quantidades correspondem obrigatoriamente às chuvas registradas durante um mesmo ano específico."
         },
         {
           "id": "E",
-          "text": "o total de ambas é inferior a 500 mm."
+          "text": "A estação com maior precipitação deve ter também, necessariamente, menor temperatura média anual."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A diferença demonstra que tendências regionais não eliminam variações entre estações. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A diferença entre as normais é 280,2 mm, referente a estações e período definidos. O contraste entre dois pontos não invalida tendências regionais e não permite inferir a precipitação em todos os pontos dos respectivos municípios."
     },
     {
       "id": "q7861",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O total de 2.117,1 mm da estação de São Luís deve ser interpretado como",
+      "prompt": "Um relatório usa o valor de 2.117,1 mm como precipitação anual normal de São Luís. Antes de empregá-lo para calcular a chuva média de todo o Maranhão, é necessário",
       "options": [
         {
           "id": "A",
-          "text": "média obrigatória de todo o Maranhão."
+          "text": "declarar que toda estação maranhense possui a mesma normal, por se situar no mesmo estado."
         },
         {
           "id": "B",
-          "text": "chuva observada em cada ano sem variação."
+          "text": "tratar 2.117,1 mm como a chuva observada em São Luís em cada ano de 1991 a 2020."
         },
         {
           "id": "C",
-          "text": "valor de qualquer ponto da Ilha do Maranhão."
+          "text": "substituir por esse número as normais ausentes de Balsas e Carolina, evitando lacunas na tabela."
         },
         {
           "id": "D",
-          "text": "recorde diário."
+          "text": "assumir que o valor se aplica uniformemente à Ilha do Maranhão e a todas as regiões estaduais."
         },
         {
           "id": "E",
-          "text": "normal da estação 82280 no período 1991-2020."
+          "text": "reconhecer que é uma normal de estação e definir uma amostragem e método espacial adequados antes de estimar um valor estadual."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Normais pertencem a variável, estação e período definidos e não podem ser generalizadas automaticamente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A normal de 2.117,1 mm pertence a uma estação de São Luís e ao período 1991–2020. Não é um dado de cada ano nem média espacial do estado; extrapolar exige cobertura, representatividade e método próprios."
     },
     {
       "id": "q7862",
@@ -874,63 +874,63 @@
     },
     {
       "id": "q7868",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A máxima normal anual de 31,5 °C em São Luís",
+      "prompt": "Um relatório afirma: 'A temperatura média compensada anual de São Luís é 31,5 °C', citando a planilha da normal anual de temperatura máxima. Qual correção deve ser feita?",
       "options": [
         {
           "id": "A",
-          "text": "é a mesma coisa que precipitação anual."
+          "text": "Registrar 31,5 °C como recorde absoluto de calor na cidade."
         },
         {
           "id": "B",
-          "text": "é recorde absoluto de calor."
+          "text": "Registrar 31,5 °C como mínima normal anual de São Luís."
         },
         {
           "id": "C",
-          "text": "é a média compensada anual."
+          "text": "Interpretar 31,5 °C como a temperatura de cada dia de um ano típico."
         },
         {
           "id": "D",
-          "text": "não deve ser confundida com temperatura média anual."
+          "text": "Identificar 31,5 °C como máxima normal anual, distinta da média compensada anual."
         },
         {
           "id": "E",
-          "text": "significa que todos os dias atingem exatamente 31,5 °C."
+          "text": "Considerar a média e a máxima normais intercambiáveis quando têm a mesma unidade de medida."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Máxima normal, mínima normal e média compensada são parâmetros meteorológicos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As planilhas do INMET separam variáveis. O valor 31,5 °C é a normal anual da temperatura máxima de São Luís; não identifica nem substitui a média compensada ou um recorde."
     },
     {
       "id": "q7869",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A menor amplitude térmica anual no litoral decorre principalmente",
+      "prompt": "Em um exemplo hipotético, uma estação costeira registra, num dia, mínima de 25 °C e máxima de 31 °C; uma estação interiorana registra mínima de 23 °C e máxima de 36 °C. Qual leitura é correta?",
       "options": [
         {
           "id": "A",
-          "text": "da moderação do oceano e da maior umidade/nebulosidade."
+          "text": "As amplitudes diárias são, respectivamente, 6 °C e 13 °C; um dia isolado não determina a amplitude térmica climatológica anual."
         },
         {
           "id": "B",
-          "text": "da maior continentalidade da faixa costeira em relação ao interior."
+          "text": "A amplitude diária do litoral é 56 °C, pois se somam máxima e mínima."
         },
         {
           "id": "C",
-          "text": "da menor disponibilidade de umidade atmosférica junto ao oceano."
+          "text": "As amplitudes anuais das duas localidades ficam definitivamente estabelecidas em 6 °C e 13 °C por esses registros."
         },
         {
           "id": "D",
-          "text": "de altitudes costeiras sistematicamente superiores às do restante do estado."
+          "text": "A maior máxima no interior demonstra que suas médias anuais superam as costeiras em todos os anos."
         },
         {
           "id": "E",
-          "text": "de uma estação seca mais longa no litoral que no sul maranhense."
+          "text": "O contraste diário não pode ser calculado porque amplitudes só existem em períodos de trinta anos."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A água aquece e resfria mais lentamente que a superfície continental, moderando temperaturas costeiras; umidade e nebulosidade também reduzem extremos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Amplitude no intervalo observado é máxima menos mínima: 31 − 25 = 6 °C e 36 − 23 = 13 °C. A observação de um dia, mesmo coerente com a moderação marítima, não basta para concluir amplitudes anuais ou médias climáticas."
     },
     {
       "id": "q7870",
@@ -964,33 +964,33 @@
     },
     {
       "id": "q7871",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "O Mapa de Clima do Brasil do IBGE, atualizado em 2002, classifica o território combinando",
+      "prompt": "Uma equipe compara a legenda do Mapa de Clima do IBGE (2002) com tipos de Köppen atribuídos a estações maranhenses em estudo de 2023. Qual procedimento evita equivalências indevidas?",
       "options": [
         {
           "id": "A",
-          "text": "apenas limites municipais."
+          "text": "Converter cada rótulo de um mapa para uma única letra de Köppen sem consultar metodologia ou escala."
         },
         {
           "id": "B",
-          "text": "somente biomas."
+          "text": "Considerar que o mapa de 2002 já incorpora as séries e as estações analisadas no estudo de 2023."
         },
         {
           "id": "C",
-          "text": "apenas altitude."
+          "text": "Ignorar os diferentes períodos, pois toda classificação climática usa necessariamente a mesma base de dados."
         },
         {
           "id": "D",
-          "text": "produção agrícola e população."
+          "text": "Tomar classes de um ponto de medição como subdivisões administrativas válidas para todo o estado."
         },
         {
           "id": "E",
-          "text": "zonas climáticas, temperatura e umidade/duração da seca."
+          "text": "Comparar critérios, escalas, períodos e recortes: o mapa organiza zona, temperatura e umidade/duração da seca, enquanto Köppen emprega outra metodologia."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O produto em 1:5.000.000 representa tipos térmicos e de umidade dentro de climas zonais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O mapa climático do IBGE e a classificação de Köppen não oferecem tradução automática entre rótulos. O primeiro combina zona climática, temperatura e umidade/duração da seca; o estudo de estações emprega critérios próprios e outro período."
     },
     {
       "id": "q7872",
@@ -1054,33 +1054,33 @@
     },
     {
       "id": "q7874",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A afirmação “todo o Maranhão possui uma única classe climática” é inadequada porque",
+      "prompt": "Um mapa hipotético pinta todo o Maranhão com uma única classe climática porque as temperaturas são elevadas na maior parte do estado. Qual crítica é apropriada?",
       "options": [
         {
           "id": "A",
-          "text": "há gradientes, transições e diferentes durações e calendários da estação seca."
+          "text": "Calor persistente não elimina diferenças espaciais de precipitação, duração da seca e classificações climáticas."
         },
         {
           "id": "B",
-          "text": "o estado não possui clima."
+          "text": "É obrigatório atribuir uma classe exclusiva a cada município, pois municípios vizinhos nunca compartilham clima."
         },
         {
           "id": "C",
-          "text": "nenhum mapa inclui o Maranhão."
+          "text": "Diferenças plurianuais de chuva entre regiões são sempre eventos de tempo, nunca características climáticas."
         },
         {
           "id": "D",
-          "text": "a chuva anual é igual em todas as estações."
+          "text": "A temperatura é o único critério de classificação, de modo que as chuvas não importam para o mapa."
         },
         {
           "id": "E",
-          "text": "a temperatura é sempre inferior a 18 °C."
+          "text": "A presença de estações climáticas dispensa analisar circulação atmosférica e fatores de superfície."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Mapas e estações mostram contrastes entre norte, litoral, interior, leste e sul. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A baixa latitude mantém calor relativamente persistente, mas umidade e duração da estação seca mudam espacialmente. Uma classificação construída apenas a partir de calor elevado apagaria diferenças climáticas relevantes."
     },
     {
       "id": "q7875",

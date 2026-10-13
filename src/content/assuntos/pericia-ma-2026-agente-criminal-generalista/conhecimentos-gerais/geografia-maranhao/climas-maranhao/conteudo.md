@@ -61,13 +61,15 @@ As Normais 1991–2020 do <abbr title="Instituto Nacional de Meteorologia">INMET
 | Carolina | **1.772,1 mm** | supera Imperatriz nessa normal |
 | Balsas | **1.194,7 mm** | julho: **1,0 mm**; agosto: **1,3 mm** |
 
-São Luís reúne total anual maior; Balsas, total menor e meses quase sem precipitação no meio do ano. Isso materializa o gradiente de umidade e a maior duração da estiagem no interior meridional.
+São Luís reúne total anual maior; Balsas, total menor e meses quase sem precipitação no meio do ano. Comparar **março e setembro na mesma estação** revela a sazonalidade; comparar **São Luís e Balsas** revela o contraste espacial. Mas Carolina supera Imperatriz nessa normal: o gradiente regional **não** significa que a chuva diminua continuamente entre quaisquer duas estações.
 
 ## 5. Temperatura: calor persistente, amplitudes diferentes
 
 No estudo de 2023, as temperaturas médias anuais das estações analisadas ficaram aproximadamente entre **26,3 °C e 28,4 °C**. No interior, as maiores médias tendem a ocorrer entre **agosto e dezembro**, quando a estação seca reduz a nebulosidade e favorece aquecimento intenso.
 
 No litoral, o oceano modera as variações; por isso São Luís tende a apresentar **menor amplitude térmica** que estações mais continentais. Menor amplitude não significa pouco calor, mas diferença menor entre valores altos e baixos.
+
+**Amplitude térmica** é a diferença entre a maior e a menor temperatura **no mesmo intervalo de observação**. Em exemplo hipotético, um dia com mínima de 25 °C e máxima de 31 °C tem amplitude **diária** de 6 °C. Esse resultado não informa, sozinho, a amplitude anual nem a variabilidade climatológica da estação.
 
 | Estação | Média compensada anual | Máxima normal anual | Mínima normal anual | Observação |
 |---|---:|---:|---:|---|

@@ -16,7 +16,7 @@
 - **São Luís:** precipitação anual normal **2.117,1 mm**; março **452,8 mm**; setembro **2,9 mm**.
 - **Imperatriz:** **1.491,9 mm**/ano; **Carolina:** **1.772,1 mm**/ano; **Balsas:** **1.194,7 mm**/ano, com julho/agosto quase secos na normal citada.
 - Temperaturas médias anuais do estudo de 2023: aproximadamente **26,3 °C–28,4 °C**.
-- Litoral: menor amplitude térmica relativa; interior: maiores médias tendem a ocorrer na estação seca.
+- **Amplitude = máxima − mínima no mesmo intervalo**: amplitude diária não é anual. Litoral: menor oscilação térmica relativa; interior: maior aquecimento na seca.
 
 ## Classificações e pegadinhas
 
