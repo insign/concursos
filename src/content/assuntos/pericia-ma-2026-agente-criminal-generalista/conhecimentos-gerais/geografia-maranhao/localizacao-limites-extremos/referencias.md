@@ -1,3 +1,5 @@
+# Referências — Localização, superfície, limites e pontos extremos do Maranhão
+
 - SECRETARIA DE ESTADO DE ADMINISTRAÇÃO PENITENCIÁRIA DO MARANHÃO; CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [**Edital nº 1 — SEAP/MA — Inspetor e Monitor, de 21 de julho de 2026**](https://cdn.cebraspe.org.br/concursos/SEAP_MA_26_INSPETOR_MONITOR/arquivos/C71C65D760BE4B840499E08A82681558C961C7A4B0CA9946B042E45A98C59CA9.pdf). Noções de Geografia do Maranhão, item 1: localização, superfície, limites, fronteiras e pontos extremos; visão SEAP na ordem 31. Programa consolidado em `SEAP-P01`; `SEAP-F03` mantém a reconsulta global de atos posteriores.
 - <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. [Maranhão: Cidades e Estados](https://www.ibge.gov.br/cidades-e-estados/ma.html). Área territorial 2025. Acesso em: 14 ago. 2026.
 - <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. [Áreas Territoriais](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios). Malha Municipal Digital 2025. Acesso em: 14 ago. 2026.
@@ -16,3 +18,7 @@
 - **Classificação para PER-U058:** reaproveitamento integral por cópia local. O recorte substantivo coincide com O055; a cópia neutraliza a remissão numérica interna “Assunto 087” e aplica identidade/ordem próprias da Perícia, sem alterar o canônico compartilhado por PC, SEAP e TCE.
 - **Revisão Q:** o doador continha marcação `abbr` herdada em campos JSON de texto puro. Na cópia local, as tags foram removidas preservando o texto visível; somente as questões afetadas tiveram `revision` incrementada, e `questionSetRevision` passou de 3 para 4. Não foram encontradas questões anteriores oficiais suficientemente verificáveis e pertinentes para inclusão adicional nesta busca dirigida.
 - **Revalidação em 05/10/2026:** a página oficial Cidades e Estados do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> mantém área territorial de **329.651,463 km² [2025]**; o Anuário Estatístico lista a tabela 2025 de pontos extremos. Números dependem da edição da malha e não devem ser tratados como invariáveis.
+
+## Reconsulta pontual — 13/10/2026
+
+Página institucional *Maranhão — Cidades e Estados*, do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, consultada para a área territorial **329.651,463 km² [2025]**. O dado observado foi reconfirmado na ficha pública; a tabela de coordenadas dos extremos, baseada na Malha Municipal 2024, permanece referenciada no Anuário acima, sem afirmar reabertura integral do documento em formato PDF nesta sessão. Mantida a distinção entre edição da área e edição dos extremos.
