@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q7779",
@@ -604,33 +604,33 @@
     },
     {
       "id": "q7799",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O inventário contemporâneo tratado no conteúdo reúne quantas APAs estaduais maranhenses?",
+      "prompt": "Um inventário estadual de referência lista Baixada Maranhense, Reentrâncias Maranhenses, Itapiracó, Maracanã, Foz do Preguiças, Upaon-Açu/Miritiba/Alto Preguiças, Nascente do Rio das Balsas e Morros Garapenses. De acordo com esse inventário, qual conclusão é correta?",
       "options": [
         {
           "id": "A",
-          "text": "Oito."
+          "text": "São oito Áreas de Proteção Ambiental estaduais distintas da APA federal Delta do Parnaíba."
         },
         {
           "id": "B",
-          "text": "Três."
+          "text": "São oito Parques Nacionais geridos pelo governo estadual."
         },
         {
           "id": "C",
-          "text": "Uma."
+          "text": "A APA Delta do Parnaíba substituiu juridicamente todas essas unidades estaduais."
         },
         {
           "id": "D",
-          "text": "Vinte e sete."
+          "text": "As áreas listadas têm obrigatoriamente domínio público integral."
         },
         {
           "id": "E",
-          "text": "Nenhuma."
+          "text": "Os nomes distintos representam setores de um único Parque Nacional."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O conjunto inclui Foz, Baixada, Reentrâncias, Maracanã, Upaon-Açu, Nascente Balsas, Itapiracó e Morros Garapenses. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O inventário estadual de referência distingue oito APAs estaduais. O Delta do Parnaíba é uma APA federal adicional, e APAs podem incluir terras públicas e privadas."
     },
     {
       "id": "q7800",
@@ -754,33 +754,33 @@
     },
     {
       "id": "q7804",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "A APA Upaon-Açu/Miritiba/Alto Preguiças deve ser lembrada principalmente como",
+      "prompt": "Em um mapa de conservação, uma área se estende por uma ampla faixa do centro-norte maranhense relacionada à Ilha do Maranhão, Miritiba e alto curso do Preguiças. Qual unidade estadual corresponde a essa localização?",
       "options": [
         {
           "id": "A",
-          "text": "uma pequena APA exclusivamente urbana de São Luís."
+          "text": "APA Upaon-Açu/Miritiba/Alto Preguiças."
         },
         {
           "id": "B",
-          "text": "uma ampla unidade estadual da faixa centro-norte, associada à Ilha do Maranhão, Miritiba e alto Preguiças."
+          "text": "APA de Itapiracó, restrita ao entorno de São Luís."
         },
         {
           "id": "C",
-          "text": "um Parque Nacional do sudoeste."
+          "text": "Parque Nacional da Chapada das Mesas, no sul e sudoeste."
         },
         {
           "id": "D",
-          "text": "uma unidade federal restrita ao Delta do Parnaíba."
+          "text": "APA Delta do Parnaíba, federal e situada em três estados."
         },
         {
           "id": "E",
-          "text": "uma RESEX marinha."
+          "text": "Parque Nacional das Nascentes do Rio Parnaíba, em Alto Parnaíba."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "Para o edital, é mais útil reconhecer a ampla escala regional e a localização centro-norte da unidade do que decorar hectares sujeitos a diferenças documentais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "A",
+      "explanation": "Upaon-Açu/Miritiba/Alto Preguiças é a unidade estadual de grande extensão no centro-norte; as demais alternativas confundem extensão, esfera e localização."
     },
     {
       "id": "q7805",
@@ -994,7 +994,7 @@
     },
     {
       "id": "q7812",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A APA Delta do Parnaíba alcança",
       "options": [
@@ -1004,7 +1004,7 @@
         },
         {
           "id": "B",
-          "text": "Piauí, Maranhão e Ceará."
+          "text": "Maranhão e Tocantins apenas."
         },
         {
           "id": "C",
@@ -1016,41 +1016,41 @@
         },
         {
           "id": "E",
-          "text": "Maranhão e Tocantins apenas."
+          "text": "Piauí, Maranhão e Ceará."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O decreto federal inclui territórios e águas jurisdicionais de PI, MA e CE. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7813",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quantos Parques Nacionais possuem território no Maranhão no corte do conteúdo?",
+      "prompt": "Um levantamento separa as APAs maranhenses dos Parques Nacionais com território no estado: Lençóis Maranhenses, Chapada das Mesas e Nascentes do Rio Parnaíba. Quantos parques federais foram identificados?",
       "options": [
         {
           "id": "A",
-          "text": "Um."
+          "text": "Um, pois a APA da Baixada Maranhense absorve os demais."
         },
         {
           "id": "B",
-          "text": "Dois."
+          "text": "Dois, pois Nascentes do Rio Parnaíba fica apenas no Piauí."
         },
         {
           "id": "C",
-          "text": "Oito."
+          "text": "Oito, número das APAs estaduais no inventário de referência."
         },
         {
           "id": "D",
-          "text": "Três."
+          "text": "Três, com território maranhense e gestão federal."
         },
         {
           "id": "E",
-          "text": "Onze."
+          "text": "Onze, somando unidades estaduais e federais sem distinguir categoria."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "São Lençóis Maranhenses, Chapada das Mesas e Nascentes do Rio Parnaíba. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Há três Parques Nacionais com incidência no Maranhão: Lençóis Maranhenses, Chapada das Mesas e Nascentes do Rio Parnaíba; a incidência interestadual do último não o exclui da contagem."
     },
     {
       "id": "q7814",
@@ -1144,17 +1144,17 @@
     },
     {
       "id": "q7817",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os Lençóis Maranhenses foram inscritos como Patrimônio Mundial em",
       "options": [
         {
           "id": "A",
-          "text": "1981."
+          "text": "2024."
         },
         {
           "id": "B",
-          "text": "2024."
+          "text": "1981."
         },
         {
           "id": "C",
@@ -1169,7 +1169,7 @@
           "text": "2015."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "A inscrição ocorreu na 46ª sessão do Comitê do Patrimônio Mundial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "q7822",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual alternativa associa corretamente o Parque Nacional da Chapada das Mesas à sua localização maranhense?",
       "options": [
@@ -1304,7 +1304,7 @@
         },
         {
           "id": "B",
-          "text": "Carolina, Riachão e Estreito, em paisagens de Cerrado e chapadas do sudoeste/sul."
+          "text": "Alto Parnaíba exclusivamente, como unidade interestadual."
         },
         {
           "id": "C",
@@ -1312,14 +1312,14 @@
         },
         {
           "id": "D",
-          "text": "Alto Parnaíba exclusivamente, como unidade interestadual."
+          "text": "Carolina, Riachão e Estreito, em paisagens de Cerrado e chapadas do sudoeste/sul."
         },
         {
           "id": "E",
           "text": "Araioses e Tutóia, no Delta do Parnaíba."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Chapada das Mesas incide em Carolina, Riachão e Estreito e protege paisagens de Cerrado, chapadas e serras no sudoeste/sul maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "q7827",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A caracterização geográfica correta do Parque Nacional das Nascentes do Rio Parnaíba é",
       "options": [
@@ -1454,7 +1454,7 @@
         },
         {
           "id": "B",
-          "text": "parque interestadual que alcança PI, MA, BA e TO, incidindo em Alto Parnaíba no Maranhão."
+          "text": "unidade federal compartilhada apenas por MA e CE."
         },
         {
           "id": "C",
@@ -1466,10 +1466,10 @@
         },
         {
           "id": "E",
-          "text": "unidade federal compartilhada apenas por MA e CE."
+          "text": "parque interestadual que alcança PI, MA, BA e TO, incidindo em Alto Parnaíba no Maranhão."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O PARNA das Nascentes é uma unidade de quatro estados; no Maranhão, sua incidência está associada a Alto Parnaíba. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "q7832",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Uma unidade da categoria Parque criada pelo Estado chama-se",
       "options": [
@@ -1604,7 +1604,7 @@
         },
         {
           "id": "B",
-          "text": "Parque Estadual."
+          "text": "Ramsar estadual."
         },
         {
           "id": "C",
@@ -1612,14 +1612,14 @@
         },
         {
           "id": "D",
-          "text": "Ramsar estadual."
+          "text": "Parque Estadual."
         },
         {
           "id": "E",
           "text": "Reserva da Biosfera."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A Lei reserva Parque Nacional à esfera federal e usa Parque Estadual ou Parque Natural Municipal nas demais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "q7835",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Um termo de compromisso com comunidades em Parque Nacional",
       "options": [
@@ -1698,18 +1698,18 @@
         },
         {
           "id": "C",
-          "text": "pode disciplinar transitoriamente permanência e usos até a regularização."
+          "text": "revoga o plano de manejo."
         },
         {
           "id": "D",
-          "text": "revoga o plano de manejo."
+          "text": "pode disciplinar transitoriamente permanência e usos até a regularização."
         },
         {
           "id": "E",
           "text": "autoriza qualquer atividade."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "O instrumento busca compatibilização temporária e participativa, sem alterar a categoria da unidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1744,7 +1744,7 @@
     },
     {
       "id": "q7837",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A APA Delta demonstra que",
       "options": [
@@ -1754,7 +1754,7 @@
         },
         {
           "id": "B",
-          "text": "uma UC federal pode pertencer ao grupo de Uso Sustentável."
+          "text": "uso sustentável é designação UNESCO."
         },
         {
           "id": "C",
@@ -1766,41 +1766,41 @@
         },
         {
           "id": "E",
-          "text": "uso sustentável é designação UNESCO."
+          "text": "uma UC federal pode pertencer ao grupo de Uso Sustentável."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A esfera federal e o grupo de manejo são dimensões distintas da classificação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7838",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "A síntese correta é",
+      "prompt": "Uma propriedade particular está inserida em APA, enquanto outra área particular encontra-se no perímetro de um Parque Nacional. Qual consequência distingue os dois regimes de conservação?",
       "options": [
         {
           "id": "A",
-          "text": "APA e PARNA têm o mesmo domínio e o mesmo uso."
+          "text": "Ambas são necessariamente desapropriadas porque toda unidade exige domínio público."
         },
         {
           "id": "B",
-          "text": "Ramsar e UNESCO substituem o SNUC."
+          "text": "As duas permitem exploração livre por serem unidades de Uso Sustentável."
         },
         {
           "id": "C",
-          "text": "todo parque maranhense é nacional."
+          "text": "O reconhecimento Ramsar transfere ambas automaticamente para o patrimônio internacional."
         },
         {
           "id": "D",
-          "text": "APA admite uso disciplinado; PARNA é público e protege com uso indireto; Maranhão tem três PARNAs."
+          "text": "A propriedade pode permanecer na APA sob restrições; no parque, a lei exige domínio público e regularização fundiária, sem proibir toda visitação."
         },
         {
           "id": "E",
-          "text": "ausência de plano extingue qualquer UC."
+          "text": "A ausência de plano de manejo converte o Parque Nacional em APA."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "A alternativa combina corretamente grupo, domínio, uso e inventário federal no estado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "APA admite domínio público ou privado disciplinado; Parque Nacional pertence à Proteção Integral e exige posse/domínio públicos, com desapropriação na forma da lei, mas permite visitação regulamentada."
     },
     {
       "id": "q-u085-turilandia-2024-25",
