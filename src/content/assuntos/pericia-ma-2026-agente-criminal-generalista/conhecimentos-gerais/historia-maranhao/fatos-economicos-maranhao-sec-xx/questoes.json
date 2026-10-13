@@ -1,36 +1,36 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7539",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O recorte principal do assunto econômico é",
+      "prompt": "Uma indústria têxtil maranhense perde mercado enquanto arroz, babaçu e atividades portuárias continuam e novas cadeias minerais surgem. Qual conclusão é compatível com esse quadro?",
       "options": [
         {
           "id": "A",
-          "text": "1951-2000, com antecedentes anteriores apenas quando indispensáveis para explicar as transformações."
+          "text": "Ocorreu mudança gradual da importância relativa dos setores, com atividades tradicionais e novas coexistindo."
         },
         {
           "id": "B",
-          "text": "1822-1889."
+          "text": "Todas as fábricas têxteis fecharam simultaneamente em 1951."
         },
         {
           "id": "C",
-          "text": "somente 1985."
+          "text": "A expansão dos corredores de exportação eliminou a agropecuária tradicional."
         },
         {
           "id": "D",
-          "text": "2004-2026."
+          "text": "A crise têxtil comprova que não havia processamento industrial do babaçu."
         },
         {
           "id": "E",
-          "text": "apenas a economia colonial."
+          "text": "A economia retornou exclusivamente à produção colonial."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O tema cobre os principais fatos econômicos da segunda metade do século XX; antecedentes servem apenas como contexto e fatos posteriores a 2000 ficam fora. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A transformação econômica foi cumulativa: a indústria têxtil perdeu dinamismo, enquanto atividades tradicionais e grandes projetos se combinaram de forma desigual."
     },
     {
       "id": "q7540",
