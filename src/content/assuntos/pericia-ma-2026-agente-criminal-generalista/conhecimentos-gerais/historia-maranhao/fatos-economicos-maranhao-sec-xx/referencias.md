@@ -1,3 +1,5 @@
+# Referências — Fatos econômicos do Maranhão (1951–2000)
+
 - ALCOA. [Alumar celebra 40 anos de implantação em São Luís](https://www.alcoa.com/brasil/pt/news/releases?id=2020%2F07%2Faberta-para-novos-desafios-a-alumar-celebra-40-anos-de-implantacao-em-sao-luis&year=y2020). Histórico institucional. Acesso em: 7 set. 2026.
 - BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL. [Histórico da desestatização](https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/projetos-encerrados/Historico). Privatização da Companhia Vale do Rio Doce. Acesso em: 7 set. 2026.
 - BRASIL. [Lei nº 3.692, de 15 de dezembro de 1959](https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l3692.htm). Institui a Superintendência do Desenvolvimento do Nordeste e inclui o Maranhão em sua área de atuação. Acesso em: 7 set. 2026.
