@@ -1,3 +1,5 @@
+# Referências — Fatos políticos do Maranhão (1951–2000)
+
 - ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf). Promulgada em 5 out. 1989; versão consolidada. Acesso em: 14 ago. 2026.
 - BARBOSA, Zulene Muniz. [As “temporalidades” da política no Maranhão](https://revistas.pucsp.br/index.php/ls/article/view/18970/14130). *Lutas Sociais*, n. 9/10, 2003. Acesso em: 14 ago. 2026.
 - BRASIL. Câmara dos Deputados. [Emenda Constitucional nº 15, de 19 de novembro de 1980](https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-15-19-novembro-1980-363977-publicacaooriginal-1-pl.html). Restabelece o voto direto para governador de estado e senador. Acesso em: 7 set. 2026.
