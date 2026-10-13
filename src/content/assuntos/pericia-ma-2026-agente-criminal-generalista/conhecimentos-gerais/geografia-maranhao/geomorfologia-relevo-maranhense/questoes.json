@@ -1,1 +1,606 @@
-{"schemaVersion":1,"questionSetRevision":1,"questions":[{"id":"u072-a01","revision":1,"origin":"authorial","prompt":"Em geomorfologia, qual sequência organiza melhor a explicação de uma paisagem?","options":[{"id":"A","text":"Forma do relevo → processo → base física, sem interação entre os fatores."},{"id":"B","text":"Base física → processos de modelagem → formas do relevo."},{"id":"C","text":"Clima → fronteira política → altitude absoluta."},{"id":"D","text":"Vegetação → divisão municipal → tipo de rocha."},{"id":"E","text":"Altitude → população → rede urbana."}],"correctOptionId":"B","explanation":"O método da unidade parte da base física, observa os processos atuantes e então interpreta as formas resultantes. A litologia condiciona a paisagem, mas não age sozinha."},{"id":"u072-a02","revision":1,"origin":"authorial","prompt":"Assinale a alternativa que distingue corretamente intemperismo, erosão e sedimentação.","options":[{"id":"A","text":"Intemperismo transporta; erosão deposita; sedimentação fratura tectonicamente."},{"id":"B","text":"Intemperismo e erosão são sinônimos, e sedimentação ocorre apenas no mar."},{"id":"C","text":"Intemperismo altera a rocha no lugar; erosão remove e transporta; sedimentação deposita."},{"id":"D","text":"Erosão altera a rocha sem transporte; sedimentação remove; intemperismo deposita."},{"id":"E","text":"Os três processos são exclusivamente internos à Terra."}],"correctOptionId":"C","explanation":"Intemperismo é alteração/desagregação no próprio local; erosão envolve remoção e transporte; sedimentação é deposição do material transportado."},{"id":"u072-a03","revision":1,"origin":"authorial","prompt":"Quando materiais de resistências diferentes são desgastados em ritmos diferentes, o processo é denominado","options":[{"id":"A","text":"erosão diferencial."},{"id":"B","text":"sedimentação uniforme."},{"id":"C","text":"transgressão política."},{"id":"D","text":"precipitação climática."},{"id":"E","text":"subducção obrigatória."}],"correctOptionId":"A","explanation":"A erosão diferencial ajuda a preservar setores mais resistentes e pode favorecer chapadas, mesas, patamares e rebordos."},{"id":"u072-a04","revision":1,"origin":"authorial","prompt":"A dissecação do relevo corresponde principalmente","options":[{"id":"A","text":"à transformação de toda planície em duna."},{"id":"B","text":"ao entalhamento e recorte da superfície por erosão, especialmente pela drenagem."},{"id":"C","text":"à deposição exclusiva de sedimentos marinhos."},{"id":"D","text":"à definição de limites municipais."},{"id":"E","text":"à medição da altitude absoluta de uma cidade."}],"correctOptionId":"B","explanation":"Dissecação é o recorte do relevo por processos erosivos, com aprofundamento de vales e aumento da compartimentação da superfície."},{"id":"u072-a05","revision":1,"origin":"authorial","prompt":"Segundo a formulação em desenvolvimento no Sistema Brasileiro de Classificação de Relevo, um planalto","options":[{"id":"A","text":"precisa estar sempre acima de 1.000 metros."},{"id":"B","text":"é necessariamente uma superfície perfeitamente plana."},{"id":"C","text":"é elevado em relação a superfícies adjacentes em pelo menos uma de suas bordas, sem altitude mínima universal."},{"id":"D","text":"deve estar abaixo do nível do mar."},{"id":"E","text":"é definido somente pelo tipo de rocha."}],"correctOptionId":"C","explanation":"O critério é relacional: o planalto se eleva perante superfícies vizinhas e pode apresentar altitudes, inclinações, substratos e graus de dissecação variados."},{"id":"u072-a06","revision":1,"origin":"authorial","prompt":"A respeito da definição de planície, assinale a alternativa correta.","options":[{"id":"A","text":"É qualquer terreno abaixo de 200 metros."},{"id":"B","text":"É relevo predominantemente plano desenvolvido sobre depósitos pouco consolidados, com acumulação superior à erosão."},{"id":"C","text":"É forma necessariamente cristalina e sem sedimentos."},{"id":"D","text":"É sinônimo obrigatório de baixada."},{"id":"E","text":"Não pode apresentar erosão em nenhuma circunstância."}],"correctOptionId":"B","explanation":"Planícies são ambientes predominantemente planos e deposicionais; não dependem de um limite universal de altitude e podem apresentar erosão local."},{"id":"u072-a07","revision":1,"origin":"authorial","prompt":"Uma depressão geomorfológica pode ser corretamente entendida como","options":[{"id":"A","text":"um compartimento mais baixo que áreas vizinhas, sem necessidade de estar abaixo do nível do mar."},{"id":"B","text":"qualquer área litorânea com manguezal."},{"id":"C","text":"uma montanha acima de 2.000 metros."},{"id":"D","text":"uma planície obrigatoriamente marinha."},{"id":"E","text":"um campo de dunas."}],"correctOptionId":"A","explanation":"A noção é relativa ao entorno. Rebaixamento geomorfológico não implica altitude negativa em relação ao nível do mar."},{"id":"u072-a08","revision":1,"origin":"authorial","prompt":"No recorte do edital, a expressão “Baixada Maranhense” deve ser interpretada como","options":[{"id":"A","text":"sinônimo técnico universal de uma única planície homogênea."},{"id":"B","text":"nome de toda a faixa costeira do Maranhão."},{"id":"C","text":"região de terras baixas que reúne campos inundáveis, lagos, planícies e outras feições."},{"id":"D","text":"chapada localizada no extremo sul."},{"id":"E","text":"unidade formada exclusivamente por dunas."}],"correctOptionId":"C","explanation":"Baixada é uma denominação regional de terras baixas. A Baixada Maranhense é geomorfologicamente diversa e não equivale a uma única classe de planície."},{"id":"u072-a09","revision":1,"origin":"authorial","prompt":"Qual relação entre processo e forma está correta?","options":[{"id":"A","text":"Deposição eólica — dunas."},{"id":"B","text":"Erosão diferencial — planície marinha obrigatória."},{"id":"C","text":"Dissecação — lagoa interdunar obrigatória."},{"id":"D","text":"Sedimentação fluvial — chapada obrigatória."},{"id":"E","text":"Intemperismo — fronteira estadual."}],"correctOptionId":"A","explanation":"O vento transporta e deposita areia, formando dunas. As demais alternativas transformam relações inexistentes ou condicionais em equivalências obrigatórias."},{"id":"u072-a10","revision":1,"origin":"authorial","prompt":"A respeito dos Lençóis Maranhenses, é correto afirmar que","options":[{"id":"A","text":"são uma chapada cristalina."},{"id":"B","text":"são campos de dunas com lagoas interdunares sazonais."},{"id":"C","text":"constituem prova suficiente de clima desértico."},{"id":"D","text":"correspondem à Depressão Interplanáltica de Balsas."},{"id":"E","text":"são formas produzidas apenas por erosão fluvial."}],"correctOptionId":"B","explanation":"Nos Lençóis, a forma-chave é a duna, produzida por transporte e deposição eólica; as lagoas se instalam entre dunas de modo sazonal."},{"id":"u072-a11","revision":1,"origin":"authorial","prompt":"Sobre o relevo do interior maranhense, a síntese mais adequada é","options":[{"id":"A","text":"o predomínio sedimentar obriga todo o relevo a ser plano."},{"id":"B","text":"superfícies sedimentares podem ser recortadas por erosão e dissecação, originando formas tabulares, vales e patamares."},{"id":"C","text":"chapadas só podem existir em dobramentos modernos."},{"id":"D","text":"não há vales em terrenos sedimentares."},{"id":"E","text":"a sedimentação elimina a atuação dos rios."}],"correctOptionId":"B","explanation":"Sedimentar não significa plano. Camadas sedimentares podem sofrer erosão diferencial e dissecação, produzindo relevo variado."},{"id":"u072-a12","revision":1,"origin":"authorial","prompt":"A Chapada das Mesas associa-se especialmente","options":[{"id":"A","text":"ao sudoeste maranhense, na região de Carolina e Estreito."},{"id":"B","text":"ao centro do Golfão Maranhense."},{"id":"C","text":"à Baixada Maranhense."},{"id":"D","text":"ao litoral ocidental exclusivamente."},{"id":"E","text":"à Ilha de São Luís."}],"correctOptionId":"A","explanation":"A Chapada das Mesas é referência geomorfológica do sudoeste, com formas tabulares e residuais na região de Carolina, Estreito e arredores."},{"id":"u072-a13","revision":1,"origin":"authorial","prompt":"A Chapada das Mangabeiras é uma referência geomorfológica","options":[{"id":"A","text":"do extremo sul do Maranhão."},{"id":"B","text":"da Baixada Maranhense."},{"id":"C","text":"do Golfão Maranhense."},{"id":"D","text":"da Ilha de São Luís."},{"id":"E","text":"do litoral ocidental."}],"correctOptionId":"A","explanation":"A Chapada das Mangabeiras ocupa o extremo sul e funciona como compartimento elevado e divisor regional."},{"id":"u072-a14","revision":1,"origin":"authorial","prompt":"A expressão “Depressão Interplanáltica de Balsas” indica","options":[{"id":"A","text":"área necessariamente abaixo do nível do mar."},{"id":"B","text":"compartimento rebaixado entre áreas mais elevadas."},{"id":"C","text":"planície costeira sujeita a marés."},{"id":"D","text":"campo de dunas litorâneas."},{"id":"E","text":"uma chapada sem vales."}],"correctOptionId":"B","explanation":"“Interplanáltica” indica posição relativa entre compartimentos elevados. Não há exigência de altitude negativa."},{"id":"u072-a15","revision":1,"origin":"authorial","prompt":"Qual alternativa diferencia corretamente chapada, mesa, tabuleiro e duna?","options":[{"id":"A","text":"Chapada e duna são sinônimos; mesa e tabuleiro são rios."},{"id":"B","text":"Chapada é tabular elevada; mesa é remanescente tabular menor; tabuleiro é superfície tabular baixa ou moderada; duna é acumulação de areia pelo vento."},{"id":"C","text":"Todas as quatro formas dependem exclusivamente de altitude absoluta."},{"id":"D","text":"Tabuleiro é sempre uma planície marinha e duna é forma tectônica."},{"id":"E","text":"Mesa e chapada só ocorrem abaixo do nível do mar."}],"correctOptionId":"B","explanation":"A alternativa reúne as características didáticas centrais das quatro formas e separa formas tabulares de acumulações eólicas."},{"id":"u072-a16","revision":1,"origin":"authorial","prompt":"Dois mapas podem apresentar listas diferentes de unidades de relevo sem que um esteja necessariamente errado porque","options":[{"id":"A","text":"escala, método e nível de detalhamento podem variar."},{"id":"B","text":"os nomes geomorfológicos não possuem significado."},{"id":"C","text":"o relevo muda completamente a cada ano."},{"id":"D","text":"todo mapa é arbitrário."},{"id":"E","text":"a geomorfologia dispensa critérios de classificação."}],"correctOptionId":"A","explanation":"Produtos cartográficos podem agrupar ou subdividir formas conforme escala, taxonomia e finalidade. A comparação exige identificar o método adotado."},{"id":"u072-a17","revision":1,"origin":"authorial","prompt":"Qual mapa mental espacial é mais útil para o relevo maranhense?","options":[{"id":"A","text":"Costa = acumulação e terras baixas; interior = superfícies sedimentares recortadas; sudoeste e sul = chapadas de destaque."},{"id":"B","text":"Costa = apenas montanhas; interior = somente dunas; sul = manguezais."},{"id":"C","text":"Todo o estado = uma planície homogênea."},{"id":"D","text":"Baixada Maranhense = todo o território estadual."},{"id":"E","text":"Chapadas = apenas litoral."}],"correctOptionId":"A","explanation":"A síntese espacial organiza as formas de maior rendimento sem impor homogeneidade: acumulação no litoral, superfícies sedimentares recortadas no interior e chapadas marcantes ao sul."},{"id":"u072-a18","revision":1,"origin":"authorial","prompt":"Assinale a alternativa que evita uma explicação monocausal do relevo.","options":[{"id":"A","text":"O tipo de rocha, sozinho, determina toda forma de relevo."},{"id":"B","text":"A altitude absoluta, sozinha, explica qualquer classificação."},{"id":"C","text":"Substrato, estrutura, água, vento, gravidade, clima e tempo podem interagir na modelagem da paisagem."},{"id":"D","text":"A erosão não depende de materiais nem de agentes."},{"id":"E","text":"O relevo não registra processos passados."}],"correctOptionId":"C","explanation":"A geomorfologia é relacional: a base física condiciona, enquanto diferentes processos atuam ao longo do tempo para produzir e transformar as formas."},{"id":"u072-p01","revision":1,"origin":"previous_exam","prompt":"Em prova de 2017 para a Polícia Militar do Maranhão, a banca considerou incorreta uma afirmação segundo a qual a ação dos agentes modeladores revelaria forte controle litológico sobre o relevo estadual. Qual leitura é compatível com esse resultado?","options":[{"id":"A","text":"A litologia é irrelevante para o relevo."},{"id":"B","text":"O tipo de rocha pode influenciar, mas não deve ser tratado como explicação isolada de toda a modelagem do relevo."},{"id":"C","text":"A erosão não atua no Maranhão."},{"id":"D","text":"Todo o estado possui a mesma litologia."},{"id":"E","text":"O relevo maranhense é exclusivamente tectônico."}],"correctOptionId":"B","explanation":"Adaptação não literal do item 43 da prova de conhecimentos gerais de nível superior da Polícia Militar do Maranhão, aplicada em 17/12/2017 pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. O gabarito definitivo marcou o item original como errado. A justificativa didática desta unidade é que a litologia condiciona a resistência dos materiais, mas interage com estrutura e processos de modelagem. Fonte: prova 359_PMMA_CG1_01 e gabarito oficial definitivo, referenciados em referencias.md."},{"id":"u072-p02","revision":1,"origin":"previous_exam","prompt":"Em prova de 2017 para a Polícia Militar do Maranhão, a banca julgou correta a associação entre o relevo maranhense e feições tabulares e subtabulares típicas de bacias sedimentares. Qual alternativa expressa corretamente essa ideia?","options":[{"id":"A","text":"Domínios sedimentares obrigam todo o terreno a ser uma planície sem vales."},{"id":"B","text":"Formas tabulares e subtabulares podem ocorrer em amplo domínio sedimentar, sem excluir erosão, dissecação e outras formas."},{"id":"C","text":"Chapadas e tabuleiros só ocorrem em terrenos cristalinos."},{"id":"D","text":"O predomínio sedimentar elimina a erosão diferencial."},{"id":"E","text":"Bacia sedimentar e bacia hidrográfica são sempre a mesma unidade."}],"correctOptionId":"B","explanation":"Adaptação não literal do item 44 da prova de conhecimentos gerais de nível superior da Polícia Militar do Maranhão, aplicada em 17/12/2017 pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. O gabarito definitivo marcou o item original como certo. Fonte: prova 359_PMMA_CG1_01 e gabarito oficial definitivo, referenciados em referencias.md."}]}
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 2,
+  "questions": [
+    {
+      "id": "u072-a01",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um levantamento hipotético, camadas resistentes permanecem como topos enquanto água corrente aprofunda os vales em materiais menos resistentes. Qual interpretação integra substrato e processos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A diferença entre camadas demonstra que o vento, sozinho, ergueu todos os topos."
+        },
+        {
+          "id": "B",
+          "text": "A presença de camadas elimina a possibilidade de dissecação pela drenagem."
+        },
+        {
+          "id": "C",
+          "text": "O formato do vale define necessariamente o tipo de rocha que existia antes da erosão."
+        },
+        {
+          "id": "D",
+          "text": "A resistência das camadas condiciona a forma, e a erosão fluvial ajuda a remover os materiais menos resistentes."
+        },
+        {
+          "id": "E",
+          "text": "Os vales só poderiam existir se a deposição fosse maior que a remoção de sedimentos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A estrutura e a resistência do substrato condicionam o relevo, mas a retirada de materiais pela erosão e a dissecação pela drenagem também o modelam. Topos remanescentes e vales não são explicados por um fator isolado."
+    },
+    {
+      "id": "u072-a02",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma encosta hipotética, a rocha se fragmenta sem sair do lugar; em seguida, a enxurrada leva os fragmentos, que acabam depositados em uma área baixa. Os processos, na ordem, são",
+      "options": [
+        {
+          "id": "A",
+          "text": "sedimentação, erosão e intemperismo."
+        },
+        {
+          "id": "B",
+          "text": "erosão, intemperismo e sedimentação."
+        },
+        {
+          "id": "C",
+          "text": "erosão, sedimentação e intemperismo."
+        },
+        {
+          "id": "D",
+          "text": "intemperismo, sedimentação e erosão."
+        },
+        {
+          "id": "E",
+          "text": "intemperismo, erosão e sedimentação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Primeiro há alteração/desagregação no lugar (intemperismo); depois remoção e transporte pela enxurrada (erosão); por fim, deposição na área baixa (sedimentação)."
+    },
+    {
+      "id": "u072-a03",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em corte hipotético de rochas sedimentares, uma camada mais resistente permanece elevada enquanto outras são removidas mais rapidamente. O processo que melhor explica o contraste é",
+      "options": [
+        {
+          "id": "A",
+          "text": "compactação, que transforma necessariamente as camadas inferiores em dunas."
+        },
+        {
+          "id": "B",
+          "text": "sedimentação uniforme, que eleva igualmente todas as camadas expostas."
+        },
+        {
+          "id": "C",
+          "text": "erosão diferencial, que desgasta materiais distintos em ritmos diferentes."
+        },
+        {
+          "id": "D",
+          "text": "uma inundação que deposita material na mesma espessura em toda a área."
+        },
+        {
+          "id": "E",
+          "text": "subsidência homogênea, suficiente para criar vales somente por acumulação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A erosão diferencial remove camadas de resistências diferentes em ritmos diversos e pode preservar topos e remanescentes tabulares. A feição observada não exige um processo único, mas o desgaste desigual é a chave do exemplo."
+    },
+    {
+      "id": "u072-a04",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma rede de drenagem aprofunda canais e vales, deixando uma superfície antes pouco recortada dividida em interflúvios. Esse efeito é sobretudo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "dissecação erosiva, que entalha o relevo e aumenta seu recorte."
+        },
+        {
+          "id": "B",
+          "text": "deposição marinha, responsável por cobrir os vales com sedimentos costeiros."
+        },
+        {
+          "id": "C",
+          "text": "acumulação eólica, que deposita areia nos divisores de águas."
+        },
+        {
+          "id": "D",
+          "text": "sedimentação lacustre, que preenche canais até recuperar a superfície original."
+        },
+        {
+          "id": "E",
+          "text": "compactação uniforme, sem remoção de material pelo escoamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Dissecação é o entalhamento e recorte erosivo do terreno, frequentemente associado à drenagem. Interflúvios ficam entre vales/canais; depositar sedimentos não equivale a aprofundá-los."
+    },
+    {
+      "id": "u072-a05",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em situação hipotética, um topo situado a 420 m supera vales adjacentes a 240 m. Um estudante descarta a possibilidade de planalto porque o topo não chega a mil metros. Qual análise é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Qualquer terreno acima de 200 m é obrigatoriamente planalto, independentemente da forma."
+        },
+        {
+          "id": "B",
+          "text": "A altitude não exclui a hipótese de planalto: devem-se examinar a posição elevada relativa, as bordas e a forma do terreno."
+        },
+        {
+          "id": "C",
+          "text": "O limiar de mil metros é indispensável para reconhecer planaltos em qualquer classificação."
+        },
+        {
+          "id": "D",
+          "text": "Como os vales também estão acima do mar, não existe contraste topográfico entre eles e o topo."
+        },
+        {
+          "id": "E",
+          "text": "Um topo só pode ser classificado como planalto se a rocha for cristalina e não sedimentar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O planalto é discutido a partir da elevação relativa às áreas adjacentes, não de altitude mínima universal. A comparação 420 m versus 240 m sugere contraste, mas não comprova sozinha a classe sem avaliar a forma."
+    },
+    {
+      "id": "u072-a06",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma área hipotética próxima a um rio, sucessivas cheias deixam depósitos pouco consolidados sobre terreno predominantemente plano; há erosão localizada em margens. A classificação mais compatível é",
+      "options": [
+        {
+          "id": "A",
+          "text": "planalto, apenas porque o relevo está acima do nível do mar."
+        },
+        {
+          "id": "B",
+          "text": "duna, porque qualquer depósito recente é necessariamente eólico."
+        },
+        {
+          "id": "C",
+          "text": "depressão absoluta, porque o material é recente."
+        },
+        {
+          "id": "D",
+          "text": "chapada, já que sedimentos transportados pelos rios sempre formam bordas escarpadas."
+        },
+        {
+          "id": "E",
+          "text": "planície fluvial, pois predomina deposição, mesmo havendo erosão localizada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Planícies fluviais associam superfícies predominantemente planas a sedimentos pouco consolidados e acumulação predominante. Erosão em margens não impede a caracterização deposicional do conjunto."
+    },
+    {
+      "id": "u072-a07",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Num perfil hipotético, um compartimento a 250 m está entre elevações a 600 m. Qual leitura da expressão 'depressão' nesse caso respeita a altitude e a classificação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A depressão só pode existir se a altitude indicada for um número negativo."
+        },
+        {
+          "id": "B",
+          "text": "Por estar acima do mar, o compartimento obrigatoriamente constitui uma chapada."
+        },
+        {
+          "id": "C",
+          "text": "Qualquer posição inferior a áreas vizinhas deve ser classificada como planície deposicional."
+        },
+        {
+          "id": "D",
+          "text": "O compartimento pode ser relativamente rebaixado mesmo estando 250 m acima do nível do mar."
+        },
+        {
+          "id": "E",
+          "text": "O relevo adjacente mais alto impede qualquer processo erosivo na superfície rebaixada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ideia de depressão nesse uso é relacional: compartimento abaixo das áreas vizinhas, sem exigência de altitude inferior ao nível do mar. Não confundir rebaixamento com deposição ou uma classe automática."
+    },
+    {
+      "id": "u072-a08",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma legenda cartográfica agrupa na Baixada Maranhense campos sazonalmente inundáveis, lagos e diversas superfícies planas e baixas. Qual conclusão é compatível com esse mapeamento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda a área deve ser considerada uma única planície homogênea, sem feições distintas."
+        },
+        {
+          "id": "B",
+          "text": "A denominação prova que toda a costa maranhense pertence à Baixada Maranhense."
+        },
+        {
+          "id": "C",
+          "text": "Baixada é uma referência regional de terras baixas que pode conter várias feições geomorfológicas."
+        },
+        {
+          "id": "D",
+          "text": "Qualquer área inundável constitui, por definição, uma depressão abaixo do nível do mar."
+        },
+        {
+          "id": "E",
+          "text": "A existência de lagos transforma as terras baixas em chapadas de topo tabular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Baixada Maranhense é uma denominação regional e ambiental de terras baixas, campos inundáveis e lagos, mas suas unidades geomorfológicas não precisam ser uma planície única e uniforme."
+    },
+    {
+      "id": "u072-a09",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em uma faixa costeira hipotética, areia solta é transportada e acumulada pelo vento, construindo elevações móveis. Qual par processo–forma corresponde ao observado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deposição eólica — dunas."
+        },
+        {
+          "id": "B",
+          "text": "Sedimentação lacustre — chapadas tabulares."
+        },
+        {
+          "id": "C",
+          "text": "Erosão fluvial — cordões de areia formados somente pela ação do vento."
+        },
+        {
+          "id": "D",
+          "text": "Deposição marinha — mesas residuais no interior."
+        },
+        {
+          "id": "E",
+          "text": "Dissecação por drenagem — planície costeira exclusivamente deposicional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Dunas são formas de acumulação de areia pelo vento; o mesmo agente pode transportar e depositar sedimentos. Outros processos podem atuar na costa, mas não correspondem à sequência descrita."
+    },
+    {
+      "id": "u072-a10",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um registro hipotético dos Lençóis Maranhenses mostra dunas e lagoas que aparecem e desaparecem sazonalmente. O conjunto permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "as dunas são chapadas formadas por erosão de rochas cristalinas."
+        },
+        {
+          "id": "B",
+          "text": "a presença de areia torna a região climaticamente semiárida em todas as classificações."
+        },
+        {
+          "id": "C",
+          "text": "as lagoas devem ser permanentes porque o relevo costeiro impede evaporação e infiltração."
+        },
+        {
+          "id": "D",
+          "text": "o campo de dunas resulta exclusivamente de erosão fluvial, sem participação do vento."
+        },
+        {
+          "id": "E",
+          "text": "há acumulação de areia pelo vento e lagoas entre dunas, sem que isso, por si só, comprove clima desértico."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Nos Lençóis, dunas são formas de acumulação eólica e as lagoas interdunares variam sazonalmente. Campos de areia não bastam para classificar a região como deserto climático."
+    },
+    {
+      "id": "u072-a11",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um mapa de substrato indica domínio sedimentar no interior maranhense; um levantamento do terreno registra chapadas, patamares e vales profundos. Esses dados",
+      "options": [
+        {
+          "id": "A",
+          "text": "são incompatíveis: rochas sedimentares exigem relevo horizontal sem vales."
+        },
+        {
+          "id": "B",
+          "text": "demonstram que chapadas só podem formar-se em maciços cristalinos dobrados."
+        },
+        {
+          "id": "C",
+          "text": "provam que a bacia sedimentar corresponde exatamente à bacia drenada pelo rio mais próximo."
+        },
+        {
+          "id": "D",
+          "text": "são compatíveis, pois camadas sedimentares podem sofrer erosão diferencial e dissecação, gerando relevo recortado."
+        },
+        {
+          "id": "E",
+          "text": "indicam predomínio atual de deposição em todos os vales, sem qualquer desgaste de camadas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Domínio geológico sedimentar não obriga a presença de planícies. Erosão diferencial e dissecação recortam camadas e podem preservar formas tabulares e abrir vales; bacia sedimentar não é bacia hidrográfica."
+    },
+    {
+      "id": "u072-a12",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Chapada das Mesas associa-se especialmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "à Baixada Maranhense."
+        },
+        {
+          "id": "B",
+          "text": "ao centro do Golfão Maranhense."
+        },
+        {
+          "id": "C",
+          "text": "ao sudoeste maranhense, na região de Carolina e Estreito."
+        },
+        {
+          "id": "D",
+          "text": "ao litoral ocidental exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "à Ilha de São Luís."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Chapada das Mesas é referência geomorfológica do sudoeste, com formas tabulares e residuais na região de Carolina, Estreito e arredores."
+    },
+    {
+      "id": "u072-a13",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Chapada das Mangabeiras é uma referência geomorfológica",
+      "options": [
+        {
+          "id": "A",
+          "text": "do extremo sul do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "da Baixada Maranhense."
+        },
+        {
+          "id": "C",
+          "text": "do Golfão Maranhense."
+        },
+        {
+          "id": "D",
+          "text": "da Ilha de São Luís."
+        },
+        {
+          "id": "E",
+          "text": "do litoral ocidental."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Chapada das Mangabeiras ocupa o extremo sul e funciona como compartimento elevado e divisor regional."
+    },
+    {
+      "id": "u072-a14",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão “Depressão Interplanáltica de Balsas” indica",
+      "options": [
+        {
+          "id": "A",
+          "text": "área necessariamente abaixo do nível do mar."
+        },
+        {
+          "id": "B",
+          "text": "campo de dunas litorâneas."
+        },
+        {
+          "id": "C",
+          "text": "planície costeira sujeita a marés."
+        },
+        {
+          "id": "D",
+          "text": "compartimento rebaixado entre áreas mais elevadas."
+        },
+        {
+          "id": "E",
+          "text": "uma chapada sem vales."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Interplanáltica” indica posição relativa entre compartimentos elevados. Não há exigência de altitude negativa."
+    },
+    {
+      "id": "u072-a15",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em um levantamento hipotético, foram descritas: (I) superfície tabular elevada com bordas marcadas; (II) remanescente tabular menor; (III) superfície tabular baixa; (IV) areia acumulada pelo vento. Associe as quatro descrições, nessa ordem.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mesa, chapada, duna e tabuleiro."
+        },
+        {
+          "id": "B",
+          "text": "Chapada, tabuleiro, mesa e duna."
+        },
+        {
+          "id": "C",
+          "text": "Planície, tabuleiro, chapada e duna."
+        },
+        {
+          "id": "D",
+          "text": "Tabuleiro, duna, mesa e chapada."
+        },
+        {
+          "id": "E",
+          "text": "Chapada, mesa, tabuleiro e duna."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Chapada é uma elevação tabular com bordas marcadas; mesa/meseta é remanescente tabular menor; tabuleiro é superfície tabular baixa ou moderada; duna é depósito arenoso eólico."
+    },
+    {
+      "id": "u072-a16",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um mapa nacional de relevo em escala pequena representa um setor por uma única unidade; mapa estadual mais detalhado o subdivide em chapadas, vales e superfícies rebaixadas. A divergência exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "descartar o mapa nacional porque suas unidades devem coincidir exatamente com limites municipais."
+        },
+        {
+          "id": "B",
+          "text": "comparar escala, critérios e nível de detalhe antes de concluir que um dos produtos está errado."
+        },
+        {
+          "id": "C",
+          "text": "entender que o relevo mudou de uma classe para outra em poucas semanas."
+        },
+        {
+          "id": "D",
+          "text": "escolher a classificação mais recente sem verificar sua metodologia ou objetivo."
+        },
+        {
+          "id": "E",
+          "text": "supor que mapa geomorfológico e mapa de divisões hidrográficas usam sempre os mesmos limites."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Escala menor generaliza formas; escala maior pode discriminar compartimentos. Critérios e nível de taxonomia também mudam; discrepância de legendas não é prova automática de erro."
+    },
+    {
+      "id": "u072-a17",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Três trechos hipotéticos de uma rota maranhense registram: I — praias, planícies e dunas; II — superfícies sedimentares recortadas por vales; III — chapadas na região de Carolina. A associação espacial mais provável é",
+      "options": [
+        {
+          "id": "A",
+          "text": "I: costa; II: interior; III: sudoeste."
+        },
+        {
+          "id": "B",
+          "text": "I: extremo sul; II: costa; III: Baixada Maranhense."
+        },
+        {
+          "id": "C",
+          "text": "I: interior; II: extremo sul; III: Golfão Maranhense."
+        },
+        {
+          "id": "D",
+          "text": "I: Baixada Maranhense inteira; II: apenas praias; III: litoral ocidental."
+        },
+        {
+          "id": "E",
+          "text": "I: depressão de Balsas; II: campos de dunas; III: ilha de São Luís."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três descrições articulam o contraste regional da aula: costa deposicional, interior sedimentar recortado, sudoeste de chapadas como as Mesas. São âncoras, não fronteiras rígidas."
+    },
+    {
+      "id": "u072-a18",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em cenário hipotético, rochas resistentes sustentam topos, a água entalha vales e sedimentos se acumulam nas terras baixas. Qual explicação é suficiente sem atribuir o relevo a uma causa exclusiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os topos e vales decorrem somente da rocha, pois o transporte de sedimentos é irrelevante."
+        },
+        {
+          "id": "B",
+          "text": "A água define sozinha a litologia original e elimina a influência das camadas."
+        },
+        {
+          "id": "C",
+          "text": "As características do substrato interagem com intemperismo, erosão, transporte e deposição ao longo do tempo."
+        },
+        {
+          "id": "D",
+          "text": "A simples altitude absoluta explica automaticamente cada forma e o processo que a gerou."
+        },
+        {
+          "id": "E",
+          "text": "Os depósitos nas terras baixas demonstram que todos os compartimentos da área se formaram somente por sedimentação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Substrato e estrutura condicionam resistência e disposição das camadas, enquanto processos exógenos entalham, transportam e depositam materiais ao longo do tempo. A paisagem resulta de interação, não de um único agente."
+    },
+    {
+      "id": "u072-p01",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em prova de 2017 para a Polícia Militar do Maranhão, a banca considerou incorreta uma afirmação segundo a qual a ação dos agentes modeladores revelaria forte controle litológico sobre o relevo estadual. Qual leitura é compatível com esse resultado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A litologia é irrelevante para o relevo."
+        },
+        {
+          "id": "B",
+          "text": "O tipo de rocha pode influenciar, mas não deve ser tratado como explicação isolada de toda a modelagem do relevo."
+        },
+        {
+          "id": "C",
+          "text": "A erosão não atua no Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "Todo o estado possui a mesma litologia."
+        },
+        {
+          "id": "E",
+          "text": "O relevo maranhense é exclusivamente tectônico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 43 da prova de conhecimentos gerais de nível superior da Polícia Militar do Maranhão, aplicada em 17/12/2017 pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. O gabarito definitivo marcou o item original como errado. A justificativa didática desta unidade é que a litologia condiciona a resistência dos materiais, mas interage com estrutura e processos de modelagem. Fonte: prova 359_PMMA_CG1_01 e gabarito oficial definitivo, referenciados em referencias.md."
+    },
+    {
+      "id": "u072-p02",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em prova de 2017 para a Polícia Militar do Maranhão, a banca julgou correta a associação entre o relevo maranhense e feições tabulares e subtabulares típicas de bacias sedimentares. Qual alternativa expressa corretamente essa ideia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Domínios sedimentares obrigam todo o terreno a ser uma planície sem vales."
+        },
+        {
+          "id": "B",
+          "text": "Formas tabulares e subtabulares podem ocorrer em amplo domínio sedimentar, sem excluir erosão, dissecação e outras formas."
+        },
+        {
+          "id": "C",
+          "text": "Chapadas e tabuleiros só ocorrem em terrenos cristalinos."
+        },
+        {
+          "id": "D",
+          "text": "O predomínio sedimentar elimina a erosão diferencial."
+        },
+        {
+          "id": "E",
+          "text": "Bacia sedimentar e bacia hidrográfica são sempre a mesma unidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Adaptação não literal do item 44 da prova de conhecimentos gerais de nível superior da Polícia Militar do Maranhão, aplicada em 17/12/2017 pelo Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. O gabarito definitivo marcou o item original como certo. Fonte: prova 359_PMMA_CG1_01 e gabarito oficial definitivo, referenciados em referencias.md."
+    }
+  ]
+}

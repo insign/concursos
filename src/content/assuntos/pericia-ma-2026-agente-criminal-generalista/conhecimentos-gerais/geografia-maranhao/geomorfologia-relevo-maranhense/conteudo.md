@@ -46,7 +46,7 @@ A tabela mostra relações frequentes, não equivalências automáticas. Uma for
 
 ## 3. Planalto, planície e superfície rebaixada: classifique pela relação, não por um número mágico
 
-O Brasil está construindo um **Sistema Brasileiro de Classificação de Relevo**, coordenado pelo Instituto Brasileiro de Geografia e Estatística com o Serviço Geológico do Brasil e instituições parceiras. Na reconsulta oficial de **5 de outubro de 2026**, o sistema permanece em desenvolvimento; o IBGE havia divulgado em **29 de junho de 2026** o relatório do 4º Workshop, como continuidade da construção e atualização do sistema.
+O Brasil está construindo um **Sistema Brasileiro de Classificação de Relevo**, coordenado pelo Instituto Brasileiro de Geografia e Estatística com o Serviço Geológico do Brasil e instituições parceiras. O comunicado de **29 de maio de 2026** anunciou o relatório do 4º Workshop, e a notícia de **29 de junho de 2026** confirmou sua divulgação. O documento registra a continuidade da construção e atualização do sistema: propostas de classificação **ainda em desenvolvimento** não devem ser apresentadas como taxonomia definitiva. A consulta dirigida a essas publicações foi feita em **13 de outubro de 2026**.
 
 Essa atualização importa porque impede duas decorebas erradas: **planalto não exige altitude mínima universal** e **depressão não significa necessariamente terreno abaixo do nível do mar**.
 
@@ -55,6 +55,8 @@ Essa atualização importa porque impede duas decorebas erradas: **planalto não
 Na formulação discutida no sistema brasileiro, **planaltos são relevos elevados em relação às superfícies adjacentes em pelo menos uma de suas bordas**, podendo apresentar diferentes altitudes, inclinações, substratos e graus de dissecação.
 
 Em materiais escolares tradicionais, também aparece a ideia de que no planalto tende a predominar a **<abbr title="rebaixamento do relevo por intemperismo e erosão">denudação</abbr>** sobre a acumulação. Essa relação é útil para compreender a evolução do relevo, mas não deve ser transformada em definição universal isolada.
+
+**Exemplo hipotético:** um topo está a 420 metros de altitude e os vales vizinhos, a 240 metros. O fato de o topo estar abaixo de mil metros **não impede** classificá-lo como parte de um planalto; já a diferença de altitude, isoladamente, **não basta** para confirmar a classe sem examinar formas e relações com o entorno.
 
 ### Planície
 
@@ -90,7 +92,7 @@ O **Golfão Maranhense** é uma configuração costeiro-estuarina associada sobr
 
 ### 5.2 Interior: superfícies sedimentares recortadas
 
-Grande parte do território maranhense está sobre amplo domínio sedimentar. Isso favorece a presença de superfícies tabulares e subtabulares, mas **sedimentar não significa plano**.
+Grande parte do território maranhense está sobre amplo domínio sedimentar. **Bacia sedimentar** é uma estrutura geológica onde sedimentos se acumularam ao longo do tempo; não é **bacia hidrográfica**, que delimita a área drenada por uma rede de rios. Esse domínio favorece a presença de superfícies tabulares e subtabulares, mas **sedimentar não significa plano**: erosão e rios podem recortar rochas sedimentares e produzir vales.
 
 A erosão diferencial e a dissecação podem recortar essas superfícies em vales, patamares, chapadas e outras formas. Foi exatamente a associação entre domínio sedimentar e formas tabulares/subtabulares que apareceu como correta na prova maranhense de 2017.
 

@@ -20,12 +20,14 @@ A rocha influencia, mas não explica sozinha. Chuva, rios, vento, gravidade, cli
 
 - **planalto:** elevado em relação às superfícies adjacentes em pelo menos uma borda; sem altitude mínima universal;
 - **planície:** predominantemente plana, sobre depósitos pouco consolidados, com acumulação maior que erosão;
-- **depressão/superfície rebaixada:** mais baixa que o entorno; não precisa ficar abaixo do nível do mar;
+- **depressão/superfície rebaixada:** mais baixa que o entorno; não precisa ficar abaixo do nível do mar, e a altitude absoluta, sozinha, não define a classe;
 - **baixada:** região de terras baixas; não é classe universal equivalente a uma única planície.
 
 > A ideia tradicional “planalto = denudação predominante” ajuda a explicar evolução, mas não substitui a definição atual isoladamente.
 
 ## Mapa mental do Maranhão
+
+**Bacia sedimentar ≠ bacia hidrográfica:** uma é geológica (acúmulo de sedimentos); outra reúne terras drenadas por rios.
 
 | Setor | Chave |
 |---|---|
