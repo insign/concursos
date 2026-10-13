@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7299",
@@ -1624,63 +1624,63 @@
     },
     {
       "id": "q7353",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em uma questão que afirma que a crise do algodão foi exclusivamente responsável pela Balaiada, a palavra decisiva para rejeitar a tese é",
+      "prompt": "Uma interpretação sustenta que a crise do algodão explica sozinha a eclosão e a expansão da Balaiada, sem considerar recrutamento militar, disputa de facções ou conflitos pela terra. Qual avaliação é mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "crise, porque não houve dificuldades econômicas."
+          "text": "Correta, pois a crise econômica elimina a relevância de causas sociais e políticas."
         },
         {
           "id": "B",
-          "text": "algodão, porque não era produzido no Maranhão."
+          "text": "Correta, pois a Balaiada começou em uma economia exclusivamente industrial."
         },
         {
           "id": "C",
-          "text": "Balaiada, porque o movimento não existiu."
+          "text": "Incorreta somente porque não existia produção algodoeira no Maranhão."
         },
         {
           "id": "D",
-          "text": "responsável, porque causas nunca produzem efeitos."
+          "text": "Correta, pois a tomada da cadeia ocorreu depois da pacificação."
         },
         {
           "id": "E",
-          "text": "exclusivamente, porque apaga fatores agrários, políticos, sociais e coercitivos."
+          "text": "Insuficiente: a crise agravou tensões, mas não dispensa causas agrárias, políticas e coercitivas nem o estopim de 1838."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A crise integra a explicação, mas a monocausalidade é inadequada. O método de prova deve identificar totalizações que eliminam a interação entre níveis causais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A dificuldade econômica não explica sozinha a revolta: conflitos pela terra, rivalidades políticas, Lei dos Prefeitos e recrutamento atuaram com o estopim na Vila da Manga."
     },
     {
       "id": "q7354",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Assinale a linha do tempo correta.",
+      "prompt": "Um relato registra a tomada da cadeia da Vila da Manga em dezembro de 1838; outro descreve oferta de anistia imperial em 1840; um terceiro trata da execução de Negro Cosme em 1842. Como distinguir esses marcos?",
       "options": [
         {
           "id": "A",
-          "text": "Vila da Manga em 1838; expansão em 1839; anistia em 1840; pacificação declarada em 1841; execução de Cosme em 1842."
+          "text": "Estopim local; instrumento da repressão; consequência posterior ao encerramento convencional do conflito principal."
         },
         {
           "id": "B",
-          "text": "Execução de Cosme em 1838; Manga em 1840; anistia em 1842."
+          "text": "Três registros do mesmo episódio ocorrido em 1838."
         },
         {
           "id": "C",
-          "text": "Anistia em 1838; tomada de Caxias em 1842; início em 1845."
+          "text": "Execução anterior ao estopim; anistia posterior à Proclamação da República."
         },
         {
           "id": "D",
-          "text": "Proclamação da República em 1839; pacificação em 1889."
+          "text": "A anistia iniciou a revolta e a prisão na Manga registrou seu fim."
         },
         {
           "id": "E",
-          "text": "Manga em 1823; Caxias em 1824; Cosme em 1825."
+          "text": "A tomada da cadeia indica a pacificação e a execução foi a causa da revolta."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A sequência separa início, expansão, estratégia repressiva, encerramento convencional e consequência posterior. As demais alternativas misturam períodos e eventos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Ação da Manga em 1838 é o estopim; a anistia em 1840 é recurso de divisão dos rebeldes; a execução em 1842 é posterior ao encerramento convencional da guerra em 1841."
     },
     {
       "id": "q7355",
