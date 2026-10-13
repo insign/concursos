@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q7359",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Sobre a reorganização política após a conturbada adesão do Maranhão à República, assinale a opção correta.",
       "options": [
@@ -30,11 +30,11 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A Junta de 18 de novembro reuniu militares e civis ligados à implantação da nova ordem, e a repressão do dia 17 evidencia a transição conturbada. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr>, cargos de nível superior/2017/item 30/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta."
+      "explanation": "A Junta de 18 de novembro reuniu militares e civis ligados à implantação da nova ordem, e a repressão do dia 17 evidencia a transição conturbada. Fonte: questão adaptada de Cebraspe/PM-MA, cargos de nível superior/2017/item 30/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta."
     },
     {
       "id": "q7360",
-      "revision": 2,
+      "revision": 3,
       "origin": "previous_exam",
       "prompt": "Assinale a opção correta sobre lideranças maranhenses ligadas à Revolução de 1930.",
       "options": [
@@ -60,7 +60,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Reis Perdigão atuou como articulador e chefe civil, enquanto Tarquínio era liderança da corrente oposicionista tarquinista. O item oficial associou ambos ao apoio ao tenentismo e à Revolução. Fonte: questão adaptada de <abbr title=\"Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos\">Cebraspe</abbr>/<abbr title=\"Polícia Militar do Maranhão\">PM-MA</abbr>, cargos de nível superior/2017/item 31/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas com explicitação dos papéis; o item oficial tinha gabarito Certo."
+      "explanation": "Reis Perdigão atuou como articulador e chefe civil, enquanto Tarquínio era liderança da corrente oposicionista tarquinista. O item oficial associou ambos ao apoio ao tenentismo e à Revolução. Fonte: questão adaptada de Cebraspe/PM-MA, cargos de nível superior/2017/item 31/https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG1_01.pdf; adaptação: conversão para cinco alternativas com explicitação dos papéis; o item oficial tinha gabarito Certo."
     },
     {
       "id": "q7361",
@@ -184,7 +184,7 @@
     },
     {
       "id": "q7365",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O Massacre dos Libertos ocorreu",
       "options": [
@@ -198,7 +198,7 @@
         },
         {
           "id": "C",
-          "text": "em 8 de outubro de 1930, no 24º <abbr title=\"Batalhão de Caçadores\">BC</abbr>."
+          "text": "em 8 de outubro de 1930, no 24º BC."
         },
         {
           "id": "D",
@@ -454,9 +454,9 @@
     },
     {
       "id": "q7374",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O ofício da Junta de 18 de novembro exposto pelo <abbr title=\"Arquivo Público do Estado do Maranhão\">APEM</abbr>",
+      "prompt": "O ofício da Junta de 18 de novembro exposto pelo APEM",
       "options": [
         {
           "id": "A",
@@ -814,7 +814,7 @@
     },
     {
       "id": "q7386",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O governador efetivamente deposto em outubro de 1930 foi",
       "options": [
@@ -840,7 +840,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O <abbr title=\"Tribunal Regional Eleitoral do Maranhão\">TRE-MA</abbr> registra Pires Sexto no governo de 1º de março a 8 de outubro de 1930. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O TRE-MA registra Pires Sexto no governo de 1º de março a 8 de outubro de 1930. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7387",
@@ -934,7 +934,7 @@
     },
     {
       "id": "q7390",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A divergência entre 7 e 8 de outubro no Maranhão pode ser resolvida ao",
       "options": [
@@ -956,7 +956,7 @@
         },
         {
           "id": "E",
-          "text": "ignorar o 24º <abbr title=\"Batalhão de Caçadores\">BC</abbr>."
+          "text": "ignorar o 24º BC."
         }
       ],
       "correctOptionId": "B",
@@ -964,7 +964,7 @@
     },
     {
       "id": "q7391",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O núcleo militar do movimento de 1930 em São Luís foi",
       "options": [
@@ -990,7 +990,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A conspiração e a sublevação do 24º <abbr title=\"Batalhão de Caçadores\">BC</abbr> foram decisivas para derrubar Pires Sexto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A conspiração e a sublevação do 24º BC foram decisivas para derrubar Pires Sexto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7392",
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "q7395",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A Junta Revolucionária governou o Maranhão",
       "options": [
@@ -1110,7 +1110,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O Atlas <abbr title=\"Fundação Getulio Vargas\">FGV</abbr> fixa esse período breve, encerrado pela passagem a interventor federal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Atlas FGV fixa esse período breve, encerrado pela passagem a interventor federal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7396",
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "q7403",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A tentativa de reação de Magalhães de Almeida",
       "options": [
@@ -1338,7 +1338,7 @@
         },
         {
           "id": "C",
-          "text": "foi comandada pelo 24º <abbr title=\"Batalhão de Caçadores\">BC</abbr> revolucionário."
+          "text": "foi comandada pelo 24º BC revolucionário."
         },
         {
           "id": "D",
@@ -1504,7 +1504,7 @@
     },
     {
       "id": "q7409",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A afirmação de que a adesão de 1889 foi totalmente pacífica deve ser",
       "options": [
@@ -1518,7 +1518,7 @@
         },
         {
           "id": "C",
-          "text": "aceita, pois o <abbr title=\"Arquivo Público do Estado do Maranhão\">APEM</abbr> não documenta Junta."
+          "text": "aceita, pois o APEM não documenta Junta."
         },
         {
           "id": "D",
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "q7411",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual evidência institucional evita atribuir a Magalhães de Almeida a condição de governador deposto em outubro de 1930?",
       "options": [
@@ -1578,7 +1578,7 @@
         },
         {
           "id": "C",
-          "text": "A cronologia do <abbr title=\"Tribunal Regional Eleitoral do Maranhão\">TRE-MA</abbr>, segundo a qual José Pires Sexto governou de 1º de março a 8 de outubro de 1930."
+          "text": "A cronologia do TRE-MA, segundo a qual José Pires Sexto governou de 1º de março a 8 de outubro de 1930."
         },
         {
           "id": "D",
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "q7415",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A Junta Revolucionária maranhense transferiu o poder ao interventor José Luso Torres em",
       "options": [
@@ -1710,7 +1710,7 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Segundo o Atlas Histórico da <abbr title=\"Fundação Getulio Vargas\">FGV</abbr>, a Junta governou de 8 de outubro a 14 de novembro de 1930, quando transferiu o poder a Luso Torres. As demais datas marcam início da Junta, interinidade de Perdigão, posse de Astolfo Serra e sucessão da Junta de 1889. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Segundo o Atlas Histórico da FGV, a Junta governou de 8 de outubro a 14 de novembro de 1930, quando transferiu o poder a Luso Torres. As demais datas marcam início da Junta, interinidade de Perdigão, posse de Astolfo Serra e sucessão da Junta de 1889. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7416",
@@ -1744,63 +1744,63 @@
     },
     {
       "id": "q7417",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Para avaliar uma afirmação sobre 1889 e 1930, o primeiro passo é",
+      "prompt": "Um relatório oficial descreve a instalação da Junta maranhense em 18 de novembro de 1889 como pacífica, mas uma pesquisa apresenta documentação sobre tiros contra manifestantes negros no dia 17. Como utilizar os dois registros?",
       "options": [
         {
           "id": "A",
-          "text": "presumir que todas as datas são iguais."
+          "text": "Descartar o relatório oficial apenas porque foi escrito por autoridades."
         },
         {
           "id": "B",
-          "text": "ignorar a fonte."
+          "text": "Ignorar a pesquisa porque a Junta afirmou que não houve perturbação."
         },
         {
           "id": "C",
-          "text": "tratar toda mudança como democrática."
+          "text": "Concluir que os documentos se referem obrigatoriamente ao mesmo ato e à mesma hora."
         },
         {
           "id": "D",
-          "text": "separar evento nacional, ato local, conflito social e mudança administrativa."
+          "text": "Distinguir ato administrativo e conflito social, considerando datas, autoria e finalidade antes de avaliar a transição."
         },
         {
           "id": "E",
-          "text": "usar somente memórias dos vencedores."
+          "text": "Presumir que a ocorrência de violência invalida a data de formação da Junta."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Distinguir níveis e momentos evita confundir proclamação, adesão, Junta, repressão e interventoria. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A documentação da Junta trata da instalação formal em 18 de novembro, enquanto o conflito com manifestantes ocorreu no dia anterior. Os relatos mostram recortes diferentes e exigem crítica da fonte, não exclusão arbitrária de um deles."
     },
     {
       "id": "q7418",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Sintetiza corretamente o assunto a afirmação de que",
+      "prompt": "Um resumo equipara as Juntas maranhenses de 1889 e 1930 porque ambas foram governos provisórios. Qual comparação resguarda a principal diferença histórica?",
       "options": [
         {
           "id": "A",
-          "text": "1889 e 1930 foram transições pacíficas e universalmente democráticas."
+          "text": "Em ambos os casos se proclamou a República pela primeira vez."
         },
         {
           "id": "B",
-          "text": "o Maranhão permaneceu monárquico até 1930."
+          "text": "As duas Juntas governaram após a deposição de Pires Sexto."
         },
         {
           "id": "C",
-          "text": "as duas rupturas tiveram os mesmos líderes."
+          "text": "Ambas foram criadas pela Revolução de 1930 e extintas por interventoria."
         },
         {
           "id": "D",
-          "text": "o Massacre dos Libertos ocorreu durante a Junta de 1930."
+          "text": "A Junta de 1889 reuniu somente manifestantes libertos, e a de 1930 aboliu o voto."
         },
         {
           "id": "E",
-          "text": "1889 instalou a ordem republicana sob conflito racial, e 1930 substituiu o governo situacionista por Junta e interventorias."
+          "text": "A de 1889 instalou a República local após a mudança de regime; a de 1930 substituiu um governo estadual republicano, seguida de interventoria federal."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A síntese preserva contexto, agentes e limites de cada ruptura sem tratá-las como democratização completa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A forma colegiada comum não apaga funções distintas: 1889 representa mudança de regime e instalação estadual; 1930 é ruptura de governo dentro da República e transição para interventorias."
     }
   ]
 }
