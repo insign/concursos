@@ -1,3 +1,5 @@
+# Referências — Estado do Maranhão e Revolta de Bequimão
+
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. **Edital nº 1 — Perícia Oficial do Maranhão 2026**, versão consolidada até o Edital nº 3. História do Maranhão, item 7: Estado do Maranhão e Grão-Pará, Revolta de Bequimão e Companhia de Comércio. https://cdn.cebraspe.org.br/concursos/PERICIA_OFICIAL_MA_26/arquivos/4D20E2DA7DBC1641876662EB9AA0D7675004148D54B063FCBFE7EFC58355E6C2.pdf.
 - Universidade Federal Fluminense — Impressões Rebeldes. [Revolta de Beckman](https://www.historia.uff.br/impressoesrebeldes/revolta/revolta-de-beckman/).
 - Universidade Federal Fluminense — Impressões Rebeldes. [Decreto de expulsão dos jesuítas do Maranhão](https://www.historia.uff.br/impressoesrebeldes/documento/decreto-de-expulsao-dos-jesuitas-do-maranhao/).
