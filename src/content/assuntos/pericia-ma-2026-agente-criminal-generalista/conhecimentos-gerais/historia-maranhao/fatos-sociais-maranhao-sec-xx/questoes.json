@@ -1,36 +1,36 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7599",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O recorte principal do assunto social é",
+      "prompt": "Uma área de São Luís recebeu novos serviços e empreendimentos, mas famílias vizinhas continuaram em moradias precárias e com deslocamentos longos. Qual conclusão se sustenta?",
       "options": [
         {
           "id": "A",
-          "text": "1951-2000, com 1951 apenas como transição e sem avançar para a legislação municipal de 2002."
+          "text": "Expansão econômica e urbana pode coexistir com desigualdade de acesso a moradia, transporte e infraestrutura."
         },
         {
           "id": "B",
-          "text": "1822-1889."
+          "text": "O crescimento de serviços garante iguais condições de vida a toda a população."
         },
         {
           "id": "C",
-          "text": "somente 1988."
+          "text": "A ampliação industrial de São Luís eliminou a periferização ainda nos anos 1980."
         },
         {
           "id": "D",
-          "text": "2002-2026."
+          "text": "As dificuldades de habitação comprovam que a cidade não cresceu."
         },
         {
           "id": "E",
-          "text": "apenas a Greve de 1951."
+          "text": "A existência de bairros precários significa ausência total de investimentos públicos."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O tema cobre os principais fatos sociais da segunda metade do século XX; 1951 funciona como transição e fatos posteriores a 2000 ficam fora. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A urbanização e os grandes projetos ampliaram oportunidades, sem garantir a todos os moradores acesso equivalente a infraestrutura ou moradia."
     },
     {
       "id": "q7600",
@@ -124,33 +124,33 @@
     },
     {
       "id": "q7603",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
-      "prompt": "Nesta unidade de fatos sociais, os dados demográficos e migratórios devem ser usados principalmente para",
+      "prompt": "Uma família deixa uma área rural em conflito fundiário e procura trabalho em São Luís, onde enfrenta dificuldade de moradia. O exemplo ilustra principalmente",
       "options": [
         {
           "id": "A",
-          "text": "substituir integralmente o estudo geográfico sistemático da população na unidade própria de Geografia."
+          "text": "mudança de endereço sem efeitos na vida social e no mercado de trabalho."
         },
         {
           "id": "B",
-          "text": "explicar transformações histórico-sociais, sem transformar taxas, densidade e fluxos detalhados no centro do tema."
+          "text": "a conexão entre disputas no campo, migração e pressões urbanas por trabalho e habitação."
         },
         {
           "id": "C",
-          "text": "provar que urbanização e crescimento urbano são sinônimos."
+          "text": "prova de que a migração transforma automaticamente o emigrante em proprietário."
         },
         {
           "id": "D",
-          "text": "eliminar a análise do trabalho e da questão agrária."
+          "text": "efeito exclusivo de uma alteração nas taxas de fecundidade."
         },
         {
           "id": "E",
-          "text": "estudar exclusivamente a fecundidade."
+          "text": "inexistência de relações entre políticas fundiárias e urbanização."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "População e migração entram aqui como contexto dos processos sociais; a leitura geográfica sistemática pertence à unidade própria de Geografia da população. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Transformações territoriais e no trabalho rural podem deslocar famílias para centros urbanos, somando-se a outros fatores de crescimento e de periferização."
     },
     {
       "id": "q7604",
@@ -574,33 +574,33 @@
     },
     {
       "id": "q7618",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Sobre a expansão de São Luís, é correto afirmar que",
+      "prompt": "Uma pesquisa identifica aumento da periferização de São Luís antes da implantação dos grandes projetos e novo crescimento após sua chegada. Qual leitura é mais adequada?",
       "options": [
         {
           "id": "A",
-          "text": "começou apenas com a Alumar."
+          "text": "A periferização começou somente com a instalação da Alumar."
         },
         {
           "id": "B",
-          "text": "foi causada somente pelo PGC."
+          "text": "Os projetos eliminaram ocupações precárias já existentes."
         },
         {
           "id": "C",
-          "text": "não envolveu migração."
+          "text": "A cidade passou a crescer apenas depois de 1990."
         },
         {
           "id": "D",
-          "text": "ocorreu sem políticas habitacionais."
+          "text": "O processo deve ser atribuído somente à construção de conjuntos pelo BNH."
         },
         {
           "id": "E",
-          "text": "já se intensificava desde os anos 1950 e foi reforçada pelos grandes projetos."
+          "text": "Os grandes empreendimentos ampliaram pressões sobre uma expansão urbana que já tinha causas anteriores."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "Migração e ocupação periférica antecederam a implantação industrial dos anos 1980. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Migração, políticas urbanas e crescimento natural influíam antes de 1980; os projetos reforçaram um processo de expansão e pressão habitacional já em curso."
     },
     {
       "id": "q7619",
@@ -1774,33 +1774,33 @@
     },
     {
       "id": "q7658",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A síntese correta das transformações sociais é",
+      "prompt": "Uma pesquisadora encontra, no Maranhão de 2000, mais moradores nas cidades, sindicatos e movimentos rurais ativos e dificuldades de acesso a serviços em bairros periféricos. Como interpretar o conjunto?",
       "options": [
         {
           "id": "A",
-          "text": "crescimento, migrações e urbanização conviveram com desigualdades, conflitos territoriais e novas formas de organização coletiva."
+          "text": "Houve transformações demográficas e organização coletiva junto à persistência de desigualdades territoriais."
         },
         {
           "id": "B",
-          "text": "a maioria urbana eliminou a importância do campo."
+          "text": "A maioria urbana prova que conflitos agrários e extrativismo desapareceram."
         },
         {
           "id": "C",
-          "text": "grandes projetos resolveram moradia e emprego."
+          "text": "A organização social passou a ocorrer apenas nas cidades."
         },
         {
           "id": "D",
-          "text": "movimentos sociais surgiram apenas depois de 2000."
+          "text": "O reconhecimento de direitos em 1988 resolveu automaticamente desigualdades."
         },
         {
           "id": "E",
-          "text": "direitos constitucionais tiveram aplicação automática."
+          "text": "A presença de serviços urbanos eliminou o trabalho informal."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O período combina mudança demográfica e institucional com permanência de desigualdades e resistência social. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Crescimento urbano, lutas sociais e ampliação jurídica de direitos coexistiram com precariedade em infraestrutura, trabalho e acesso à terra."
     },
     {
       "id": "per-u057-fcc-dpema-2026-q93",
