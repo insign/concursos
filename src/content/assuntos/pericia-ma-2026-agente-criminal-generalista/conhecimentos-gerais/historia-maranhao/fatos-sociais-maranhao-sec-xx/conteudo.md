@@ -129,7 +129,7 @@ Não confunda <abbr title="Comunidade Eclesial de Base">CEB</abbr> com sindicato
 
 ## Grandes projetos: emprego e infraestrutura, mas também novas pressões
 
-Nos anos 1980, <abbr title="Programa Grande Carajás">PGC</abbr>, <abbr title="Estrada de Ferro Carajás">EFC</abbr>, Alumar e Distrito Industrial interessam aqui pelos **efeitos sociais**, não pela cronologia econômica detalhada estudada no assunto anterior.
+Nos anos 1980, <abbr title="Programa Grande Carajás">PGC</abbr>, <abbr title="Estrada de Ferro Carajás">EFC</abbr>, <abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr> e Distrito Industrial interessam aqui pelos **efeitos sociais**, não pela cronologia econômica detalhada estudada no assunto anterior.
 
 Eles contribuíram para:
 
