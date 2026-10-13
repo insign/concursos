@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q7659",
@@ -124,13 +124,13 @@
     },
     {
       "id": "q7663",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A leitura correta da posição do Maranhão pelas coordenadas geográficas é",
       "options": [
         {
           "id": "A",
-          "text": "latitudes sul e longitudes oeste confirmam os hemisférios Sul e Ocidental."
+          "text": "a presença de litoral faz o estado cruzar o meridiano de Greenwich."
         },
         {
           "id": "B",
@@ -142,14 +142,14 @@
         },
         {
           "id": "D",
-          "text": "a presença de litoral faz o estado cruzar o meridiano de Greenwich."
+          "text": "latitudes sul e longitudes oeste confirmam os hemisférios Sul e Ocidental."
         },
         {
           "id": "E",
           "text": "a localização tropical exige longitude leste."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O território maranhense apresenta latitudes ao sul do Equador e longitudes a oeste de Greenwich; a interpretação dos sinais é mais útil que decorar um envelope numérico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -274,33 +274,33 @@
     },
     {
       "id": "q7668",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Para a noção de superfície no edital, a informação mais relevante é",
+      "prompt": "Um técnico compara uma tabela que fornece 329.651,463 km² de área territorial (2025) com outra que informa o comprimento da costa maranhense. Qual grandeza a primeira tabela mede?",
       "options": [
         {
           "id": "A",
-          "text": "a área territorial oficial, associada à fonte e ao ano da malha."
+          "text": "A superfície do território estadual, calculada sobre a malha cartográfica indicada."
         },
         {
           "id": "B",
-          "text": "o número de habitantes da capital."
+          "text": "A distância entre São Luís e o extremo oeste por rodovia."
         },
         {
           "id": "C",
-          "text": "o comprimento de uma rodovia federal."
+          "text": "O comprimento do litoral em uma escala obrigatoriamente invariável."
         },
         {
           "id": "D",
-          "text": "uma medida única e invariável do litoral."
+          "text": "A população distribuída pelos municípios costeiros."
         },
         {
           "id": "E",
-          "text": "a soma da área terrestre com o mar territorial."
+          "text": "A soma da área de terra firme e de todo o mar territorial brasileiro."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Superfície, neste item, corresponde à área territorial calculada sobre a malha oficial; percentuais acessórios não são o núcleo da cobrança. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A superfície estadual é uma medida de área obtida pela geometria oficial, expressa em quilômetros quadrados. Comprimento da costa e distância linear medem objetos diferentes."
     },
     {
       "id": "q7669",
@@ -1054,13 +1054,13 @@
     },
     {
       "id": "q7694",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O extremo leste do Maranhão está associado ao município de",
       "options": [
         {
           "id": "A",
-          "text": "Araioses."
+          "text": "São Pedro da Água Branca."
         },
         {
           "id": "B",
@@ -1076,10 +1076,10 @@
         },
         {
           "id": "E",
-          "text": "São Pedro da Água Branca."
+          "text": "Araioses."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Araioses, no sistema do Delta do Parnaíba, está associado ao extremo leste. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1354,13 +1354,13 @@
     },
     {
       "id": "q7704",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A formulação adequada sobre o extremo norte do Maranhão é",
       "options": [
         {
           "id": "A",
-          "text": "associá-lo ao setor de Carutapera e usar a coordenada oficial, sem tratá-lo como coordenada da sede municipal."
+          "text": "confundi-lo com o extremo leste de Araioses."
         },
         {
           "id": "B",
@@ -1372,45 +1372,45 @@
         },
         {
           "id": "D",
-          "text": "confundi-lo com o extremo leste de Araioses."
+          "text": "associá-lo ao setor de Carutapera e usar a coordenada oficial, sem tratá-lo como coordenada da sede municipal."
         },
         {
           "id": "E",
           "text": "localizá-lo 12 milhas mar adentro."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O extremo norte decorre da geometria territorial e é associado ao setor costeiro/insular de Carutapera, não à sede municipal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7705",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Se uma futura publicação oficial revisar os pontos extremos do Maranhão, o material de estudo deve",
+      "prompt": "Um mapa escolar usa uma coordenada do extremo norte do Maranhão sem indicar edição; uma tabela do Anuário a associa à Malha Municipal 2024. Qual procedimento evita a comparação enganosa?",
       "options": [
         {
           "id": "A",
-          "text": "manter para sempre a edição antiga, independentemente da fonte."
+          "text": "Ignorar a edição e presumir que toda publicação cartográfica usa exatamente a mesma geometria."
         },
         {
           "id": "B",
-          "text": "usar notícia sem coordenadas como substituta automática."
+          "text": "Tomar a coordenada da sede de Carutapera como extremo, independentemente do mapa."
         },
         {
           "id": "C",
-          "text": "somar os valores antigos e novos."
+          "text": "Somar as coordenadas das duas fontes e usar a média."
         },
         {
           "id": "D",
-          "text": "priorizar a nova publicação oficial e registrar a edição utilizada."
+          "text": "Identificar a fonte, a edição da malha e a geometria correspondente antes de comparar valores."
         },
         {
           "id": "E",
-          "text": "abandonar toda referência cartográfica."
+          "text": "Substituir a coordenada oficial por estimativa baseada na distância rodoviária de São Luís."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "Atualização cartográfica deve ser incorporada quando houver publicação técnica oficial; fontes transitórias sem resultado final não substituem a referência oficial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Pontos extremos dependem da geometria e da edição cartográfica. Referenciar essas informações permite distinguir revisão metodológica de efetiva mudança do traçado legal."
     },
     {
       "id": "q7706",
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "q7710",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "O meridiano 44° O, relacionado ao recorte da Amazônia Legal no Maranhão, não deve ser confundido com",
       "options": [
@@ -1544,7 +1544,7 @@
         },
         {
           "id": "B",
-          "text": "uma divisa interestadual ou fronteira internacional do Maranhão."
+          "text": "uma referência de longitude oeste."
         },
         {
           "id": "C",
@@ -1552,14 +1552,14 @@
         },
         {
           "id": "D",
-          "text": "uma referência de longitude oeste."
+          "text": "uma divisa interestadual ou fronteira internacional do Maranhão."
         },
         {
           "id": "E",
           "text": "um elemento cartográfico."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O meridiano serve ao recorte jurídico-administrativo da Amazônia Legal; as divisas do Maranhão são com PA, PI e TO, além da costa atlântica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1684,33 +1684,33 @@
     },
     {
       "id": "q7715",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No item do edital, superfície deve ser estudada principalmente como",
+      "prompt": "Uma equipe recebe a área oficial do Maranhão em quilômetros quadrados e a extensão de sua costa em quilômetros. Qual tratamento técnico evita confundir as duas medidas?",
       "options": [
         {
           "id": "A",
-          "text": "número de habitantes."
+          "text": "Converter automaticamente a extensão costeira para quilômetros quadrados sem outra informação."
         },
         {
           "id": "B",
-          "text": "extensão de rodovias."
+          "text": "Acrescentar ao valor de área estadual a superfície do mar territorial brasileiro."
         },
         {
           "id": "C",
-          "text": "área territorial do polígono oficial, com ano e metodologia."
+          "text": "Usar a área para comparar superfícies e o comprimento para comparar traçados lineares, identificando os métodos de medida."
         },
         {
           "id": "D",
-          "text": "comprimento único do litoral."
+          "text": "Interpretar ambas as medidas como estimativas da população litorânea."
         },
         {
           "id": "E",
-          "text": "soma da área terrestre com 12 milhas marítimas."
+          "text": "Usar sempre o mesmo valor numérico para área e comprimento por se referirem ao mesmo estado."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Superfície é a área territorial calculada sobre a malha oficial; população, costa e mar territorial são grandezas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Área territorial e comprimento de costa não são grandezas intercambiáveis. A área depende da malha e o comprimento linear da escala e metodologia."
     },
     {
       "id": "q7716",
@@ -1744,13 +1744,13 @@
     },
     {
       "id": "q7717",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual distinção cartográfica está correta?",
       "options": [
         {
           "id": "A",
-          "text": "superfície é área; linha de costa é traçado/comprimento; divisa interestadual separa estados."
+          "text": "linha de costa é área expressa em km²."
         },
         {
           "id": "B",
@@ -1762,14 +1762,14 @@
         },
         {
           "id": "D",
-          "text": "linha de costa é área expressa em km²."
+          "text": "superfície é área; linha de costa é traçado/comprimento; divisa interestadual separa estados."
         },
         {
           "id": "E",
           "text": "fronteira internacional é sinônimo de litoral."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "As três noções medem ou descrevem objetos diferentes e não devem ser fundidas em uma única grandeza territorial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
