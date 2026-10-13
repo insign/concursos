@@ -58,7 +58,7 @@ No oeste maranhense, **Imperatriz** ganhou importância como centro de produçã
 
 **máquinas + correção e adubação dos solos + crédito + armazenagem + logística**
 
-Nos anos 1990, soja e outros grãos ganharam peso crescente. Aqui basta compreender a transformação histórica; produtos, estatísticas e distribuição atual da agropecuária são matéria do Assunto 089.
+Nos anos 1990, soja e outros grãos ganharam peso crescente. Aqui basta compreender a transformação histórica; produtos, estatísticas e distribuição atual da agropecuária pertencem às unidades específicas de Geografia do Maranhão.
 
 ## Grandes projetos: não confunda programa, ferrovia, terminal e indústria
 
