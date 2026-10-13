@@ -26,8 +26,6 @@ Essa organização ajuda a explicar por que comércio, navegação e abastecimen
 
 ## Antes da revolta: comércio e trabalho formavam um único problema
 
-O Estado do Maranhão tinha administração separada do Estado do Brasil. Correntes e rotas atlânticas favoreciam a ligação marítima com Lisboa e dificultavam certas conexões costeiras com o restante da América portuguesa. Por isso, abastecimento e transporte eram problemas políticos e econômicos centrais.
-
 A produção regional dependia fortemente do trabalho indígena. Parte dos indígenas vivia em <abbr title="Povoados indígenas sob administração missionária ou colonial">aldeamentos</abbr>, nos quais missionários exerciam autoridade e organizavam relações de trabalho. Para muitos moradores, portanto, a disputa com a Companhia de Jesus não era apenas religiosa: envolvia acesso a trabalhadores.
 
 Em **1680**, a Coroa publicou legislação que afirmava a liberdade dos indígenas do Estado e restringia sua escravização. Isso não eliminou tutela, missões, recrutamento e outras coerções coloniais, mas reduziu formas de acesso ao trabalho que os moradores consideravam essenciais.
