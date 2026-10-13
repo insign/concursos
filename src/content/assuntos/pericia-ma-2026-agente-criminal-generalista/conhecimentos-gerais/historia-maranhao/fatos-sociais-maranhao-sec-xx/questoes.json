@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q7599",
@@ -34,7 +34,7 @@
     },
     {
       "id": "q7600",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual transformação social resume melhor o final do período estudado?",
       "options": [
@@ -44,11 +44,11 @@
         },
         {
           "id": "B",
-          "text": "A população urbana passou a ser majoritária, sem que o campo ou as desigualdades sociais perdessem importância."
+          "text": "A urbanização eliminou a informalidade e os conflitos territoriais."
         },
         {
           "id": "C",
-          "text": "A urbanização eliminou a informalidade e os conflitos territoriais."
+          "text": "A população urbana passou a ser majoritária, sem que o campo ou as desigualdades sociais perdessem importância."
         },
         {
           "id": "D",
@@ -59,7 +59,7 @@
           "text": "A migração deixou de existir."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Ao fim do século, a urbanização era uma transformação decisiva, mas coexistia com forte importância social do campo, desigualdades e conflitos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "id": "q7604",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na transição demográfica, em regra,",
       "options": [
@@ -164,11 +164,11 @@
         },
         {
           "id": "B",
-          "text": "a mortalidade cai antes da fecundidade, acelerando temporariamente o crescimento."
+          "text": "a população urbana desaparece."
         },
         {
           "id": "C",
-          "text": "a população urbana desaparece."
+          "text": "a mortalidade cai antes da fecundidade, acelerando temporariamente o crescimento."
         },
         {
           "id": "D",
@@ -179,18 +179,18 @@
           "text": "migração é o único fator."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A defasagem entre as quedas de mortalidade e fecundidade explica a aceleração inicial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7605",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A queda da fecundidade no final do século deve ser interpretada como",
       "options": [
         {
           "id": "A",
-          "text": "um dos componentes da transição demográfica, sem ser a única explicação das transformações sociais."
+          "text": "resultado exclusivo da urbanização de São Luís."
         },
         {
           "id": "B",
@@ -198,7 +198,7 @@
         },
         {
           "id": "C",
-          "text": "resultado exclusivo da urbanização de São Luís."
+          "text": "um dos componentes da transição demográfica, sem ser a única explicação das transformações sociais."
         },
         {
           "id": "D",
@@ -209,18 +209,18 @@
           "text": "causa única das migrações internas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "A redução da fecundidade integra uma transformação demográfica mais ampla e deve ser tratada como contexto, não como explicação isolada dos processos sociais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7606",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Urbanização é",
       "options": [
         {
           "id": "A",
-          "text": "aumento da proporção da população classificada como urbana."
+          "text": "apenas crescimento natural."
         },
         {
           "id": "B",
@@ -232,14 +232,14 @@
         },
         {
           "id": "D",
-          "text": "apenas crescimento natural."
+          "text": "aumento da proporção da população classificada como urbana."
         },
         {
           "id": "E",
           "text": "redução absoluta da população rural."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Urbanização mede participação relativa urbana, não qualidade automática da infraestrutura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "id": "q7609",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "O fato de a população urbana ser majoritária ao final do recorte significa que",
       "options": [
@@ -314,7 +314,7 @@
         },
         {
           "id": "B",
-          "text": "a urbanização se tornou um traço central, mas continuaram importantes o campo, o extrativismo e os conflitos territoriais."
+          "text": "a industrialização absorveu toda a força de trabalho."
         },
         {
           "id": "C",
@@ -326,10 +326,10 @@
         },
         {
           "id": "E",
-          "text": "a industrialização absorveu toda a força de trabalho."
+          "text": "a urbanização se tornou um traço central, mas continuaram importantes o campo, o extrativismo e os conflitos territoriais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A maioria urbana é um marco de transformação social, não prova do desaparecimento do campo nem de universalização de serviços. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -424,13 +424,13 @@
     },
     {
       "id": "q7613",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A dinâmica migratória maranhense deve ser entendida como",
       "options": [
         {
           "id": "A",
-          "text": "combinação de entradas, saídas, deslocamentos internos e retorno."
+          "text": "somente atração."
         },
         {
           "id": "B",
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "somente atração."
+          "text": "combinação de entradas, saídas, deslocamentos internos e retorno."
         },
         {
           "id": "D",
@@ -449,7 +449,7 @@
           "text": "fenômeno encerrado em 1960."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "O estado foi simultaneamente origem, destino e espaço de retorno em diferentes períodos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -544,7 +544,7 @@
     },
     {
       "id": "q7617",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Sobre a relação entre grandes projetos e crescimento de São Luís, é correto afirmar que",
       "options": [
@@ -554,11 +554,11 @@
         },
         {
           "id": "B",
-          "text": "os projetos reforçaram um processo de expansão e periferização que já estava em curso."
+          "text": "os projetos eliminaram a demanda habitacional."
         },
         {
           "id": "C",
-          "text": "os projetos eliminaram a demanda habitacional."
+          "text": "os projetos reforçaram um processo de expansão e periferização que já estava em curso."
         },
         {
           "id": "D",
@@ -569,7 +569,7 @@
           "text": "a industrialização impediu a segregação socioespacial."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "Migração e expansão periférica já se intensificavam antes; os grandes projetos acrescentaram novas pressões e expectativas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -694,13 +694,13 @@
     },
     {
       "id": "q7622",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Periferização deve ser entendida como",
       "options": [
         {
           "id": "A",
-          "text": "produção desigual do espaço e do acesso a terra, transporte e serviços."
+          "text": "ausência de moradores."
         },
         {
           "id": "B",
@@ -712,14 +712,14 @@
         },
         {
           "id": "D",
-          "text": "ausência de moradores."
+          "text": "produção desigual do espaço e do acesso a terra, transporte e serviços."
         },
         {
           "id": "E",
           "text": "fim das desigualdades."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A periferia é relação social e urbana, não mera medida de distância. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -964,13 +964,13 @@
     },
     {
       "id": "q7631",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Sobre a sindicalização rural maranhense no início dos anos 1960, a formulação mais segura é",
       "options": [
         {
           "id": "A",
-          "text": "em 1963, a organização sindical ganhou forma no vale do Pindaré com participação do MEB, sem necessidade de fixar uma data diária controvertida."
+          "text": "não sofreu efeitos após 1964."
         },
         {
           "id": "B",
@@ -986,10 +986,10 @@
         },
         {
           "id": "E",
-          "text": "não sofreu efeitos após 1964."
+          "text": "em 1963, a organização sindical ganhou forma no vale do Pindaré com participação do MEB, sem necessidade de fixar uma data diária controvertida."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "As fontes convergem para a organização sindical rural em 1963 e para a atuação do MEB, enquanto a microcronologia institucional não é necessária para o nível do edital. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "q7642",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O Movimento de Educação de Base atuou principalmente com",
       "options": [
@@ -1304,11 +1304,11 @@
         },
         {
           "id": "B",
-          "text": "educação popular e formação de lideranças."
+          "text": "privatização."
         },
         {
           "id": "C",
-          "text": "privatização."
+          "text": "educação popular e formação de lideranças."
         },
         {
           "id": "D",
@@ -1319,7 +1319,7 @@
           "text": "especulação imobiliária."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "O MEB articulou alfabetização, leitura de problemas sociais e formação sindical rural. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1354,13 +1354,13 @@
     },
     {
       "id": "q7644",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A Comissão Pastoral da Terra (CPT) é relevante para a história social maranhense porque",
       "options": [
         {
           "id": "A",
-          "text": "atuou na questão agrária, apoiando trabalhadores rurais e conflitos relacionados à terra."
+          "text": "substituiu todos os sindicatos rurais."
         },
         {
           "id": "B",
@@ -1376,10 +1376,10 @@
         },
         {
           "id": "E",
-          "text": "substituiu todos os sindicatos rurais."
+          "text": "atuou na questão agrária, apoiando trabalhadores rurais e conflitos relacionados à terra."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O núcleo de sua atuação no tema é a mediação e o apoio a trabalhadores envolvidos na questão agrária, sem necessidade de memorizar microdatas institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1474,13 +1474,13 @@
     },
     {
       "id": "q7648",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A periferização de São Luís",
       "options": [
         {
           "id": "A",
-          "text": "resultou de múltiplos fatores e não pode ser atribuída somente à industrialização."
+          "text": "foi causada exclusivamente pelo crescimento natural."
         },
         {
           "id": "B",
@@ -1488,7 +1488,7 @@
         },
         {
           "id": "C",
-          "text": "foi causada exclusivamente pelo crescimento natural."
+          "text": "resultou de múltiplos fatores e não pode ser atribuída somente à industrialização."
         },
         {
           "id": "D",
@@ -1499,7 +1499,7 @@
           "text": "eliminou a segregação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "C",
       "explanation": "Migração anterior, estrutura fundiária, habitação, renda e projetos interagiram. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "q7651",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ASSEMA foi fundada",
       "options": [
@@ -1574,7 +1574,7 @@
         },
         {
           "id": "B",
-          "text": "em 1989, no contexto das lutas agrárias do Médio Mearim."
+          "text": "em 2002, como sindicato."
         },
         {
           "id": "C",
@@ -1582,14 +1582,14 @@
         },
         {
           "id": "D",
-          "text": "em 2002, como sindicato."
+          "text": "em 1989, no contexto das lutas agrárias do Médio Mearim."
         },
         {
           "id": "E",
           "text": "em 1963, como STR."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A associação atua com agroextrativismo, formação e organização comunitária. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "q7655",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Constituição de 1988 reconheceu",
       "options": [
@@ -1694,7 +1694,7 @@
         },
         {
           "id": "B",
-          "text": "direitos originários indígenas e, no art. 68 do ADCT, propriedade quilombola nas condições previstas."
+          "text": "o fim dos conflitos fundiários."
         },
         {
           "id": "C",
@@ -1706,10 +1706,10 @@
         },
         {
           "id": "E",
-          "text": "o fim dos conflitos fundiários."
+          "text": "direitos originários indígenas e, no art. 68 do ADCT, propriedade quilombola nas condições previstas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Os marcos constitucionais criaram bases jurídicas para reivindicações territoriais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
