@@ -1,66 +1,66 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 5,
+  "questionSetRevision": 6,
   "questions": [
     {
       "id": "q7479",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O recorte principal deste assunto é",
+      "prompt": "Uma liderança estadual vence uma eleição, mas seus adversários ainda conservam prefeituras e alianças federais. Qual conclusão corresponde à ideia de hegemonia política estudada no Maranhão de 1951 a 2000?",
       "options": [
         {
           "id": "A",
-          "text": "de 1951 a 2000, com a Greve de 1951 apenas como transição e sem avançar para a eleição estadual de 2002."
+          "text": "Uma ruptura eleitoral pode modificar a direção do poder sem extinguir instantaneamente todas as redes do grupo derrotado."
         },
         {
           "id": "B",
-          "text": "de 1822 a 1889."
+          "text": "A vitória necessariamente elimina todos os adversários e suas alianças."
         },
         {
           "id": "C",
-          "text": "exclusivamente a Greve de 1951."
+          "text": "A presença de prefeituras oposicionistas prova que nunca houve hegemonia estadual."
         },
         {
           "id": "D",
-          "text": "de 2002 a 2026."
+          "text": "Regras partidárias não influenciam a recomposição de lideranças."
         },
         {
           "id": "E",
-          "text": "apenas o governo José Sarney."
+          "text": "Somente a eleição estadual de 2002 permite definir hegemonia no século XX."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O recorte cobre os principais fatos políticos da segunda metade do século XX, preservando os limites com o assunto anterior e com eventos posteriores a 2000. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A derrota do vitorinismo em 1965 significou ruptura de sua hegemonia eleitoral, mas não desaparecimento imediato de Vitorino e suas redes; novas lideranças também enfrentaram dissidências."
     },
     {
       "id": "q7480",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Qual fato está fora do recorte do Assunto 080?",
+      "prompt": "Um estudante compara a Greve de 1951 e a eleição de Sarney em 1965 e conclui que ambas encerraram o vitorinismo no mesmo sentido. Qual correção é melhor?",
       "options": [
         {
           "id": "A",
-          "text": "A vitória de José Sarney em 1965."
+          "text": "A greve substituiu a eleição e levou Sarney ao governo ainda em 1951."
         },
         {
           "id": "B",
-          "text": "O retorno da eleição direta para governador em 1982."
+          "text": "A greve foi apenas salarial e não teve efeito sobre a política."
         },
         {
           "id": "C",
-          "text": "A promulgação da Constituição estadual em 1989."
+          "text": "A eleição de 1965 devolveu o governo a Eugênio Barros."
         },
         {
           "id": "D",
-          "text": "A reeleição de Roseana Sarney em 1998."
+          "text": "O vitorinismo encerrou sua influência pessoal e municipal em fevereiro de 1951."
         },
         {
           "id": "E",
-          "text": "A eleição estadual de 2002."
+          "text": "A greve desgastou a legitimidade do grupo, mas foi a derrota eleitoral de 1965 que rompeu sua hegemonia de governo."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "O ano 2000 encerra o recorte; a eleição estadual de 2002 pertence ao período posterior. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As duas datas indicam processos diferentes: 1951 produziu crise e desgaste sem derrubar definitivamente Eugênio; 1965 alterou o comando eleitoral, ainda que Vitorino não desaparecesse."
     },
     {
       "id": "q7481",
@@ -304,7 +304,7 @@
     },
     {
       "id": "q7489",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Na eleição de 1965, a vitória de José Sarney representou principalmente",
       "options": [
@@ -314,7 +314,7 @@
         },
         {
           "id": "B",
-          "text": "a ruptura eleitoral da hegemonia vitorinista e a abertura de um novo ciclo político, cuja posse ocorreria em 1966."
+          "text": "a criação do MDB e do PDS no mesmo dia."
         },
         {
           "id": "C",
@@ -322,14 +322,14 @@
         },
         {
           "id": "D",
-          "text": "a criação do MDB e do PDS no mesmo dia."
+          "text": "a ruptura eleitoral da hegemonia vitorinista e a abertura de um novo ciclo político, cuja posse ocorreria em 1966."
         },
         {
           "id": "E",
           "text": "a eleição de Roseana Sarney para o governo."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O pleito de 1965 é o marco da derrota eleitoral do campo vitorinista; a posse do novo governo ocorreu em 1966. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "id": "q7493",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sarneísmo designa",
       "options": [
@@ -438,7 +438,7 @@
         },
         {
           "id": "C",
-          "text": "um dispositivo da Constituição estadual."
+          "text": "corrente e rede de poder formada por liderança, aliados, partidos, municípios e conexões federais."
         },
         {
           "id": "D",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "corrente e rede de poder formada por liderança, aliados, partidos, municípios e conexões federais."
+          "text": "um dispositivo da Constituição estadual."
         }
       ],
-      "correctOptionId": "E",
+      "correctOptionId": "C",
       "explanation": "O conceito é mais amplo que pessoa, mandato ou família e descreve uma rede política duradoura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -784,7 +784,7 @@
     },
     {
       "id": "q7505",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A formulação mais precisa para os chamados governadores “biônicos” é",
       "options": [
@@ -794,7 +794,7 @@
         },
         {
           "id": "B",
-          "text": "escolhidos indiretamente por colégio eleitoral, e não simplesmente nomeados sem procedimento."
+          "text": "prefeitos das capitais."
         },
         {
           "id": "C",
@@ -802,14 +802,14 @@
         },
         {
           "id": "D",
-          "text": "prefeitos das capitais."
+          "text": "escolhidos indiretamente por colégio eleitoral, e não simplesmente nomeados sem procedimento."
         },
         {
           "id": "E",
           "text": "constituintes estaduais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "A expressão jornalística não deve apagar o mecanismo institucional de eleição indireta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1294,17 +1294,17 @@
     },
     {
       "id": "q7522",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A vitória de Epitácio Cafeteira em 1986 demonstra que",
       "options": [
         {
           "id": "A",
-          "text": "o grupo Sarney controlou sem contestação todas as eleições estaduais do período."
+          "text": "a redemocratização abriu espaço para competição e recomposição de alianças, sem apagar as redes políticas anteriores."
         },
         {
           "id": "B",
-          "text": "a redemocratização abriu espaço para competição e recomposição de alianças, sem apagar as redes políticas anteriores."
+          "text": "o grupo Sarney controlou sem contestação todas as eleições estaduais do período."
         },
         {
           "id": "C",
@@ -1319,7 +1319,7 @@
           "text": "a Constituição estadual já havia criado a reeleição."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "A",
       "explanation": "Cafeteira venceu em ambiente de redemocratização e fortalecimento do PMDB, mostrando que hegemonia política não equivale a ausência de competição ou derrotas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1414,7 +1414,7 @@
     },
     {
       "id": "q7526",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A sequência Lobão em 1990 e Roseana em 1994 evidencia",
       "options": [
@@ -1424,7 +1424,7 @@
         },
         {
           "id": "B",
-          "text": "a capacidade do grupo Sarney de se reorganizar sob o PFL e disputar eleições competitivas na ordem democrática."
+          "text": "a restauração da ARENA como partido único."
         },
         {
           "id": "C",
@@ -1432,14 +1432,14 @@
         },
         {
           "id": "D",
-          "text": "a restauração da ARENA como partido único."
+          "text": "a capacidade do grupo Sarney de se reorganizar sob o PFL e disputar eleições competitivas na ordem democrática."
         },
         {
           "id": "E",
           "text": "a substituição da Constituição estadual por decreto."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "Lobão e Roseana venceram eleições diretas em contexto multipartidário, mostrando adaptação de redes políticas às novas regras democráticas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "q7530",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A possibilidade de reeleição de Roseana em 1998 decorreu",
       "options": [
@@ -1544,11 +1544,11 @@
         },
         {
           "id": "B",
-          "text": "da Emenda Constitucional federal nº 16/1997, que permitiu uma recondução consecutiva."
+          "text": "da Constituição estadual de 1947."
         },
         {
           "id": "C",
-          "text": "da Constituição estadual de 1947."
+          "text": "da Emenda Constitucional federal nº 16/1997, que permitiu uma recondução consecutiva."
         },
         {
           "id": "D",
@@ -1559,7 +1559,7 @@
           "text": "da eleição indireta de 1978."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "C",
       "explanation": "A alteração federal mudou a regra para os chefes do Executivo em exercício. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1624,33 +1624,33 @@
     },
     {
       "id": "q7533",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "No Assunto 080, as eleições municipais de 2000 são relevantes principalmente porque",
+      "prompt": "Em 2000, os grupos políticos maranhenses continuavam disputando prefeituras, embora o governo estadual não estivesse em votação. Que função tinha esse nível de competição para as redes de poder?",
       "options": [
         {
           "id": "A",
-          "text": "substituíram Roseana no governo estadual."
+          "text": "Nenhuma, pois chefias municipais não participavam de alianças estaduais."
         },
         {
           "id": "B",
-          "text": "restabeleceram o bipartidarismo."
+          "text": "Substituir automaticamente o governo estadual após cada eleição municipal."
         },
         {
           "id": "C",
-          "text": "marcam o limite cronológico do tema e mostram a continuidade da competição entre redes estaduais nos municípios."
+          "text": "Garantir votos, articulações territoriais e alianças que podiam influir nas disputas estaduais futuras."
         },
         {
           "id": "D",
-          "text": "foram eleições indiretas para governador."
+          "text": "Restaurar a escolha indireta de governadores pelo colégio eleitoral militar."
         },
         {
           "id": "E",
-          "text": "iniciaram o governo José Sarney."
+          "text": "Proibir a circulação de lideranças entre partidos."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "O ano 2000 encerra o recorte; os pleitos municipais ilustram a capilaridade das disputas, sem modificar a chefia do Executivo estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A disputa municipal evidencia a capilaridade das redes que sustentavam projetos estaduais, mas a eleição de prefeitos em 2000 não mudou diretamente a chefia do governo do Maranhão."
     },
     {
       "id": "q7534",
@@ -1774,33 +1774,33 @@
     },
     {
       "id": "q7538",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A síntese correta da política maranhense na segunda metade do século XX é",
+      "prompt": "Depois de 1982, o Maranhão voltou a eleger governadores diretamente, e grupos antes ligados a diferentes siglas formaram alianças novas. O que essa combinação permite concluir?",
       "options": [
         {
           "id": "A",
-          "text": "o vitorinismo acabou em 1951 e não houve novos grupos."
+          "text": "A mudança do regime eleitoral apagou imediatamente a influência de chefias municipais."
         },
         {
           "id": "B",
-          "text": "a ARENA eliminou todos os conflitos internos."
+          "text": "A competição tornou impossível a continuidade de redes políticas anteriores."
         },
         {
           "id": "C",
-          "text": "todos os governadores foram escolhidos diretamente."
+          "text": "A escolha direta restituiu automaticamente o bipartidarismo ARENA-MDB."
         },
         {
           "id": "D",
-          "text": "a redemocratização apagou redes e práticas anteriores."
+          "text": "As novas regras obrigaram cada grupo a permanecer em uma única legenda."
         },
         {
           "id": "E",
-          "text": "mudanças eleitorais, partidárias e constitucionais conviveram com facções, redes municipais e adaptação dos grupos de poder."
+          "text": "Houve mudanças institucionais importantes, mas redes e alianças puderam se reorganizar e permanecer influentes."
         }
       ],
       "correctOptionId": "E",
-      "explanation": "A interpretação integra rupturas institucionais e permanências políticas sem reduzir o período a continuidade ou mudança absolutas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O retorno do voto direto, o pluripartidarismo e a Constituição de 1989 mudaram regras, mas não eliminaram grupos, redes municipais nem suas conexões com o poder federal."
     },
     {
       "id": "prev-nucepe-parnarama-2014-q27",
