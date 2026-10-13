@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 3,
+  "questionSetRevision": 4,
   "questions": [
     {
       "id": "q7119",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A conjuntura política que ajuda a explicar a invasão neerlandesa do Maranhão em 1641 é corretamente sintetizada por",
       "options": [
@@ -18,7 +18,7 @@
         },
         {
           "id": "C",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> surgiu após a Restauração portuguesa exclusivamente para defender São Luís."
+          "text": "a WIC surgiu após a Restauração portuguesa exclusivamente para defender São Luís."
         },
         {
           "id": "D",
@@ -34,9 +34,9 @@
     },
     {
       "id": "q7120",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "No contexto da ocupação do Maranhão, <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> designa",
+      "prompt": "No contexto da ocupação do Maranhão, WIC designa",
       "options": [
         {
           "id": "A",
@@ -60,11 +60,11 @@
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> era a Companhia Neerlandesa das Índias Ocidentais, criada para atuar no espaço atlântico com privilégios comerciais e poderes de guerra e administração."
+      "explanation": "A WIC era a Companhia Neerlandesa das Índias Ocidentais, criada para atuar no espaço atlântico com privilégios comerciais e poderes de guerra e administração."
     },
     {
       "id": "q7121",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A Companhia Neerlandesa das Índias Ocidentais foi criada em",
       "options": [
@@ -90,11 +90,11 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> foi criada em 1621. As demais datas se relacionam a outros marcos da história luso-brasileira e maranhense."
+      "explanation": "A WIC foi criada em 1621. As demais datas se relacionam a outros marcos da história luso-brasileira e maranhense."
     },
     {
       "id": "q7122",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A relação entre União Ibérica e ataques neerlandeses a domínios portugueses decorre do fato de que",
       "options": [
@@ -112,7 +112,7 @@
         },
         {
           "id": "D",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> era subordinada à Coroa portuguesa."
+          "text": "a WIC era subordinada à Coroa portuguesa."
         },
         {
           "id": "E",
@@ -124,13 +124,13 @@
     },
     {
       "id": "q7123",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A Restauração portuguesa de dezembro de 1640 não impediu a invasão do Maranhão em 1641 porque",
       "options": [
         {
           "id": "A",
-          "text": "a mudança dinástica não anulou instantaneamente operações, comunicações e interesses coloniais já em curso."
+          "text": "São Luís permanecia sob governo francês em 1641."
         },
         {
           "id": "B",
@@ -138,29 +138,29 @@
         },
         {
           "id": "C",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> passou a obedecer diretamente a D. João IV."
+          "text": "a WIC passou a obedecer diretamente a D. João IV."
         },
         {
           "id": "D",
-          "text": "São Luís permanecia sob governo francês em 1641."
+          "text": "a mudança dinástica não anulou instantaneamente operações, comunicações e interesses coloniais já em curso."
         },
         {
           "id": "E",
           "text": "a Restauração só ocorreu depois da expulsão dos neerlandeses."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A diplomacia europeia e as mudanças dinásticas não se aplicavam de forma imediata e uniforme no ultramar; forças e interesses da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> continuaram atuando."
+      "correctOptionId": "D",
+      "explanation": "A diplomacia europeia e as mudanças dinásticas não se aplicavam de forma imediata e uniforme no ultramar; forças e interesses da WIC continuaram atuando."
     },
     {
       "id": "q7124",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A presença neerlandesa em Pernambuco antes de 1641 é relevante para compreender a invasão do Maranhão porque",
       "options": [
         {
           "id": "A",
-          "text": "fornecia uma base regional para a projeção militar e marítima da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> pelo litoral norte."
+          "text": "transformava São Luís na capital do Brasil neerlandês."
         },
         {
           "id": "B",
@@ -176,17 +176,17 @@
         },
         {
           "id": "E",
-          "text": "transformava São Luís na capital do Brasil neerlandês."
+          "text": "fornecia uma base regional para a projeção militar e marítima da WIC pelo litoral norte."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O espaço controlado a partir do Nordeste serviu de base à projeção neerlandesa pelo litoral setentrional, inclusive para a operação contra São Luís."
     },
     {
       "id": "q7125",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Entre os interesses da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> no Maranhão estava",
+      "prompt": "Entre os interesses da WIC no Maranhão estava",
       "options": [
         {
           "id": "A",
@@ -214,7 +214,7 @@
     },
     {
       "id": "q7126",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Explicar a invasão do Maranhão exclusivamente pelo açúcar é inadequado porque",
       "options": [
@@ -224,7 +224,7 @@
         },
         {
           "id": "B",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> também buscava portos, fortificações, outros produtos, rios, rotas e alianças locais."
+          "text": "a WIC também buscava portos, fortificações, outros produtos, rios, rotas e alianças locais."
         },
         {
           "id": "C",
@@ -244,17 +244,17 @@
     },
     {
       "id": "q7127",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Ao distinguir projeto econômico de realização efetiva durante a ocupação, deve-se reconhecer que",
       "options": [
         {
           "id": "A",
-          "text": "os planos da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> indicavam expectativas que a ocupação curta e contestada nem sempre permitiu concretizar."
+          "text": "os planos da WIC indicavam expectativas que a ocupação curta e contestada nem sempre permitiu concretizar."
         },
         {
           "id": "B",
-          "text": "todo plano registrado pela <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> foi integralmente executado até 1644."
+          "text": "todo plano registrado pela WIC foi integralmente executado até 1644."
         },
         {
           "id": "C",
@@ -304,7 +304,7 @@
     },
     {
       "id": "q7129",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Koin Anderson aparece na conquista de 1641 como",
       "options": [
@@ -318,18 +318,18 @@
         },
         {
           "id": "C",
-          "text": "oficial associado ao comando militar neerlandês."
+          "text": "capitão-mor da França Equinocial."
         },
         {
           "id": "D",
-          "text": "capitão-mor da França Equinocial."
+          "text": "oficial associado ao comando militar neerlandês."
         },
         {
           "id": "E",
           "text": "autor das consultas do Conselho Ultramarino de 1644."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "D",
       "explanation": "Koin Anderson é associado ao comando militar da operação neerlandesa; Lichthart se destaca no comando naval."
     },
     {
@@ -364,13 +364,13 @@
     },
     {
       "id": "q7131",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Bento Maciel Parente era, em 1641,",
       "options": [
         {
           "id": "A",
-          "text": "o governador português capturado durante a conquista de São Luís."
+          "text": "o governador do Brasil neerlandês em Pernambuco."
         },
         {
           "id": "B",
@@ -382,19 +382,19 @@
         },
         {
           "id": "D",
-          "text": "o governador do Brasil neerlandês em Pernambuco."
+          "text": "o governador português capturado durante a conquista de São Luís."
         },
         {
           "id": "E",
           "text": "o comandante que expulsou os neerlandeses em 1644."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Bento Maciel Parente exercia o governo português e foi preso quando a defesa inicial não conseguiu impedir a tomada de São Luís."
     },
     {
       "id": "q7132",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "O ano da conquista neerlandesa de São Luís é",
       "options": [
@@ -420,7 +420,7 @@
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> conquistou São Luís em 1641. A resistência organizada ganhou força em 1642 e a expulsão ocorreu em 1644."
+      "explanation": "A WIC conquistou São Luís em 1641. A resistência organizada ganhou força em 1642 e a expulsão ocorreu em 1644."
     },
     {
       "id": "q7133",
@@ -454,13 +454,13 @@
     },
     {
       "id": "q7134",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A conquista relativamente rápida de São Luís em 1641",
       "options": [
         {
           "id": "A",
-          "text": "provou que toda a população apoiava permanentemente a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "provou que toda a população apoiava permanentemente a WIC."
         },
         {
           "id": "B",
@@ -484,9 +484,9 @@
     },
     {
       "id": "q7135",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Para manter a ocupação, a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> dependia especialmente de",
+      "prompt": "Para manter a ocupação, a WIC dependia especialmente de",
       "options": [
         {
           "id": "A",
@@ -514,7 +514,7 @@
     },
     {
       "id": "q7136",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Controlar São Luís não equivalia a controlar toda a capitania porque",
       "options": [
@@ -536,7 +536,7 @@
         },
         {
           "id": "E",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> se recusava a manter qualquer guarnição fora de Pernambuco."
+          "text": "a WIC se recusava a manter qualquer guarnição fora de Pernambuco."
         }
       ],
       "correctOptionId": "B",
@@ -544,7 +544,7 @@
     },
     {
       "id": "q7137",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Comparar a economia do Maranhão à de Pernambuco exige cautela porque",
       "options": [
@@ -554,7 +554,7 @@
         },
         {
           "id": "B",
-          "text": "o interesse por açúcar não prova identidade de escala, estrutura e capacidade produtiva entre as regiões."
+          "text": "as duas regiões estavam fora das rotas atlânticas."
         },
         {
           "id": "C",
@@ -562,85 +562,85 @@
         },
         {
           "id": "D",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> só explorava metais preciosos."
+          "text": "a WIC só explorava metais preciosos."
         },
         {
           "id": "E",
-          "text": "as duas regiões estavam fora das rotas atlânticas."
+          "text": "o interesse por açúcar não prova identidade de escala, estrutura e capacidade produtiva entre as regiões."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "O Maranhão tinha combinação própria de lavouras, extração, navegação e trabalho. O açúcar era um interesse, mas não torna as economias idênticas."
     },
     {
       "id": "q7138",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Uma ocupação militar duradoura no Maranhão exigia da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>",
+      "prompt": "Em um cenário hipotético, uma força ocupante mantém São Luís, mas perde acesso seguro a canoas e víveres procedentes do interior. Que inferência histórica melhor explica a fragilidade dessa ocupação?",
       "options": [
         {
           "id": "A",
-          "text": "apenas a posse formal de São Luís, sem controlar abastecimento ou circulação."
+          "text": "A navegação no Itapecuru não tem relação com a defesa de São Luís."
         },
         {
           "id": "B",
-          "text": "capacidade de articular defesa, recursos, comunicações e alianças locais."
+          "text": "A tomada da capital elimina a necessidade de controlar caminhos e propriedades."
         },
         {
           "id": "C",
-          "text": "o retorno de Daniel de La Touche ao governo da ilha."
+          "text": "O problema desaparece automaticamente com a Restauração portuguesa de 1640."
         },
         {
           "id": "D",
-          "text": "a extinção da navegação fluvial."
+          "text": "A posse do centro político não substitui as redes territoriais de abastecimento e circulação."
         },
         {
           "id": "E",
-          "text": "a transferência do governo para Lisboa."
+          "text": "O desabastecimento comprova que os ocupantes nunca conquistaram a capital."
         }
       ],
-      "correctOptionId": "B",
-      "explanation": "A ocupação dependia de mais que a capital: precisava garantir suprimentos, defesa, circulação e cooperação em um território amplo."
+      "correctOptionId": "D",
+      "explanation": "Controlar São Luís era diferente de sustentar a ocupação no território. A pressão sobre rios, caminhos, transporte e víveres desgastava o domínio mesmo sem eliminar imediatamente a guarnição da capital."
     },
     {
       "id": "q7139",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Uma vulnerabilidade estrutural da ocupação neerlandesa era",
+      "prompt": "Considere a hipótese de que, após tomar São Luís, a guarnição invasora concentre todas as suas forças na cidade e deixe de proteger os corredores fluviais que abastecem outras posições. Qual resultado é mais coerente com o conflito descrito?",
       "options": [
         {
           "id": "A",
-          "text": "a dependência de comunicações marítimas, suprimentos externos e posições dispersas."
+          "text": "A defesa da capital passa a ser suficiente para assegurar o abastecimento de todas as posições."
         },
         {
           "id": "B",
-          "text": "a inexistência de rios e portos no Maranhão."
+          "text": "Os resistentes passam a dispor de oportunidades para interromper suprimentos e isolar guarnições fora da capital."
         },
         {
           "id": "C",
-          "text": "o controle português de Pernambuco durante todo o período."
+          "text": "A ausência de patrulhas impede qualquer ação de grupos locais nos rios."
         },
         {
           "id": "D",
-          "text": "a proibição da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> de usar navios."
+          "text": "A expansão militar fica automática porque os caminhos deixam de exigir defesa."
         },
         {
           "id": "E",
-          "text": "a ausência completa de interesses econômicos na região."
+          "text": "O resultado deixa de depender de moradores, navegadores e alianças indígenas."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A dependência logística e territorial dificultava sustentar guarnições e proteger áreas produtivas contra uma resistência capaz de pressionar rotas e abastecimento."
+      "correctOptionId": "B",
+      "explanation": "A estratégia de resistir fora do centro urbano era eficaz justamente porque o domínio de uma capital não protegia, por si só, as rotas de circulação, as posições isoladas e a rede de abastecimento."
     },
     {
       "id": "q7140",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Reconhecer agência indígena no conflito significa afirmar que povos e lideranças",
       "options": [
         {
           "id": "A",
-          "text": "negociavam alianças e agiam segundo interesses e conflitos próprios."
+          "text": "formavam um único bloco político em toda a região."
         },
         {
           "id": "B",
@@ -652,19 +652,19 @@
         },
         {
           "id": "D",
-          "text": "formavam um único bloco político em toda a região."
+          "text": "negociavam alianças e agiam segundo interesses e conflitos próprios."
         },
         {
           "id": "E",
           "text": "atuaram apenas depois da expulsão de 1644."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "As alianças indígenas eram construídas em contextos específicos e podiam mudar; isso afasta a imagem de auxiliares passivos ou homogêneos."
     },
     {
       "id": "q7141",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Entre as funções exercidas por indígenas durante o conflito estavam",
       "options": [
@@ -678,7 +678,7 @@
         },
         {
           "id": "C",
-          "text": "apenas decisões do conselho diretor da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "apenas decisões do conselho diretor da WIC."
         },
         {
           "id": "D",
@@ -724,7 +724,7 @@
     },
     {
       "id": "q7143",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "As alianças indígenas podiam alterar a capacidade militar dos ocupantes porque",
       "options": [
@@ -738,7 +738,7 @@
         },
         {
           "id": "C",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> proibia qualquer contato com populações locais."
+          "text": "a WIC proibia qualquer contato com populações locais."
         },
         {
           "id": "D",
@@ -814,13 +814,13 @@
     },
     {
       "id": "q7146",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Antônio Muniz Barreiros Filho é corretamente associado",
       "options": [
         {
           "id": "A",
-          "text": "ao comando naval da frota da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "ao comando naval da frota da WIC."
         },
         {
           "id": "B",
@@ -832,7 +832,7 @@
         },
         {
           "id": "D",
-          "text": "à fundação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> em 1621."
+          "text": "à fundação da WIC em 1621."
         },
         {
           "id": "E",
@@ -874,13 +874,13 @@
     },
     {
       "id": "q7148",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A morte de Antônio Muniz Barreiros Filho no início de 1643",
       "options": [
         {
           "id": "A",
-          "text": "encerrou imediatamente a resistência e consolidou a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> até 1654."
+          "text": "encerrou imediatamente a resistência e consolidou a WIC até 1654."
         },
         {
           "id": "B",
@@ -904,17 +904,17 @@
     },
     {
       "id": "q7149",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A transformação da ocupação em guerra aberta ocorreu quando",
       "options": [
         {
           "id": "A",
-          "text": "a resistência organizada passou a atacar posições neerlandesas, especialmente a partir do Itapecuru."
+          "text": "o Maranhão retornou ao domínio francês."
         },
         {
           "id": "B",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> abandonou voluntariamente São Luís em 1641."
+          "text": "a WIC abandonou voluntariamente São Luís em 1641."
         },
         {
           "id": "C",
@@ -926,55 +926,55 @@
         },
         {
           "id": "E",
-          "text": "o Maranhão retornou ao domínio francês."
+          "text": "a resistência organizada passou a atacar posições neerlandesas, especialmente a partir do Itapecuru."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Em 1642, a resistência no Itapecuru marcou a passagem de tensões da ocupação para uma guerra regional aberta."
     },
     {
       "id": "q7150",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Qual sequência descreve corretamente os dois primeiros anos do conflito no Maranhão?",
+      "prompt": "Um relato descreve levante armado no vale do Itapecuru em 1642; uma consulta de julho de 1644 trata a recuperação portuguesa como fato já consumado. Ao interpretar as duas fontes, o estudante deve",
       "options": [
         {
           "id": "A",
-          "text": "1641: expulsão; 1642: criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "atribuir a ambas a mesma data e considerá-las versões contraditórias da tomada de São Luís."
         },
         {
           "id": "B",
-          "text": "1641: conquista de São Luís; 1642: sublevação no Itapecuru."
+          "text": "distinguir o início da resistência aberta do desfecho da ocupação, ocorrido depois de uma campanha prolongada."
         },
         {
           "id": "C",
-          "text": "1641: Insurreição Pernambucana; 1642: invasão francesa."
+          "text": "concluir que a guerra somente começou depois da consulta administrativa de 1644."
         },
         {
           "id": "D",
-          "text": "1641: restauração final; 1642: governo de Nassau em Portugal."
+          "text": "datar o início da Insurreição Pernambucana em 1642 com base no relato maranhense."
         },
         {
           "id": "E",
-          "text": "1641: independência do Brasil; 1642: retomada espanhola."
+          "text": "inferir que a resistência não contou com moradores ou comunidades indígenas."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> tomou São Luís em 1641; a resistência organizada contra a ocupação ganhou força no Itapecuru em 1642."
+      "explanation": "O levante de 1642 e a recuperação confirmada documentalmente em 1644 são etapas diferentes. A primeira desencadeia uma guerra regional; a segunda registra seu desfecho."
     },
     {
       "id": "q7151",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Atacar rotas, abastecimento e posições fora do núcleo mais protegido de São Luís favorecia a resistência porque",
       "options": [
         {
           "id": "A",
-          "text": "explorava vulnerabilidades logísticas e territoriais da ocupação."
+          "text": "impedia a participação de moradores e indígenas."
         },
         {
           "id": "B",
-          "text": "garantia reforços automáticos da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "garantia reforços automáticos da WIC."
         },
         {
           "id": "C",
@@ -986,21 +986,21 @@
         },
         {
           "id": "E",
-          "text": "impedia a participação de moradores e indígenas."
+          "text": "explorava vulnerabilidades logísticas e territoriais da ocupação."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> dependia de comunicações, suprimentos e posições dispersas; pressionar essas redes diminuía sua capacidade de sustentar a ocupação."
+      "correctOptionId": "E",
+      "explanation": "A WIC dependia de comunicações, suprimentos e posições dispersas; pressionar essas redes diminuía sua capacidade de sustentar a ocupação."
     },
     {
       "id": "q7152",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "O ano de 1643 deve ser associado principalmente",
       "options": [
         {
           "id": "A",
-          "text": "à criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "à criação da WIC."
         },
         {
           "id": "B",
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "q7153",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A recuperação de áreas em 1643 não significa que a ocupação terminou naquele ano porque",
       "options": [
@@ -1038,7 +1038,7 @@
         },
         {
           "id": "C",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> foi criada em 1643."
+          "text": "a WIC foi criada em 1643."
         },
         {
           "id": "D",
@@ -1054,13 +1054,13 @@
     },
     {
       "id": "q7154",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Antônio Teixeira de Melo é associado principalmente",
       "options": [
         {
           "id": "A",
-          "text": "à fundação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "à fundação da WIC."
         },
         {
           "id": "B",
@@ -1084,13 +1084,13 @@
     },
     {
       "id": "q7155",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A passagem da liderança inicial de Antônio Muniz para a fase decisiva associada a Antônio Teixeira de Melo demonstra que",
       "options": [
         {
           "id": "A",
-          "text": "a resistência atravessou etapas e sobreviveu à perda de uma liderança."
+          "text": "a ocupação foi pacífica até 1644."
         },
         {
           "id": "B",
@@ -1106,10 +1106,10 @@
         },
         {
           "id": "E",
-          "text": "a ocupação foi pacífica até 1644."
+          "text": "a resistência atravessou etapas e sobreviveu à perda de uma liderança."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A resistência foi um processo coletivo e prolongado; a morte de Antônio Muniz não impediu sua reorganização e continuidade."
     },
     {
@@ -1144,17 +1144,17 @@
     },
     {
       "id": "q7157",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A data de 28 de fevereiro de 1644 deve ser entendida no material como",
       "options": [
         {
           "id": "A",
-          "text": "data tradicional da retirada final neerlandesa, sem necessidade de inventar termos de capitulação não comprovados."
+          "text": "início da Insurreição Pernambucana."
         },
         {
           "id": "B",
-          "text": "data da criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "data da criação da WIC."
         },
         {
           "id": "C",
@@ -1166,21 +1166,21 @@
         },
         {
           "id": "E",
-          "text": "início da Insurreição Pernambucana."
+          "text": "data tradicional da retirada final neerlandesa, sem necessidade de inventar termos de capitulação não comprovados."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "28 de fevereiro é a data tradicionalmente associada à retirada final; o essencial para o edital é reconhecer 1644 como o fim do domínio neerlandês."
     },
     {
       "id": "q7158",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Consultas portuguesas de julho de 1644 são relevantes porque",
       "options": [
         {
           "id": "A",
-          "text": "mostram que a administração portuguesa já tratava a expulsão e a recuperação do Maranhão como fatos consumados."
+          "text": "atribuem a invasão a Antônio Teixeira de Melo."
         },
         {
           "id": "B",
@@ -1188,7 +1188,7 @@
         },
         {
           "id": "C",
-          "text": "comprovam que a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> governou São Luís até 1654."
+          "text": "comprovam que a WIC governou São Luís até 1654."
         },
         {
           "id": "D",
@@ -1196,10 +1196,10 @@
         },
         {
           "id": "E",
-          "text": "atribuem a invasão a Antônio Teixeira de Melo."
+          "text": "mostram que a administração portuguesa já tratava a expulsão e a recuperação do Maranhão como fatos consumados."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "Os documentos administrativos de 1644 confirmam o desfecho e vinculam a recuperação da capitania à reorganização do governo português."
     },
     {
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "q7160",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Uma consequência imediata da recuperação portuguesa foi a necessidade de",
       "options": [
@@ -1244,7 +1244,7 @@
         },
         {
           "id": "B",
-          "text": "restaurar a administração da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "restaurar a administração da WIC."
         },
         {
           "id": "C",
@@ -1264,13 +1264,13 @@
     },
     {
       "id": "q7161",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "O fracasso neerlandês no Maranhão representou",
       "options": [
         {
           "id": "A",
-          "text": "limitação da expansão da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> pelo litoral setentrional."
+          "text": "limitação da expansão da WIC pelo litoral setentrional."
         },
         {
           "id": "B",
@@ -1290,7 +1290,7 @@
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A perda do Maranhão limitou a projeção setentrional da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>, embora a guerra prosseguisse em outras áreas do Brasil."
+      "explanation": "A perda do Maranhão limitou a projeção setentrional da WIC, embora a guerra prosseguisse em outras áreas do Brasil."
     },
     {
       "id": "q7162",
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "q7163",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A expulsão dos neerlandeses do Maranhão em 1644",
       "options": [
@@ -1346,7 +1346,7 @@
         },
         {
           "id": "E",
-          "text": "restabeleceu o domínio da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> no Ceará."
+          "text": "restabeleceu o domínio da WIC no Ceará."
         }
       ],
       "correctOptionId": "B",
@@ -1354,13 +1354,13 @@
     },
     {
       "id": "q7164",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "A relação cronológica correta entre Maranhão e Pernambuco é",
       "options": [
         {
           "id": "A",
-          "text": "a resistência maranhense começou em 1642; a Insurreição Pernambucana começou em 1645."
+          "text": "a expulsão do Maranhão ocorreu em 1630, antes da ocupação de Pernambuco."
         },
         {
           "id": "B",
@@ -1376,51 +1376,51 @@
         },
         {
           "id": "E",
-          "text": "a expulsão do Maranhão ocorreu em 1630, antes da ocupação de Pernambuco."
+          "text": "a resistência maranhense começou em 1642; a Insurreição Pernambucana começou em 1645."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A resistência maranhense precedeu a Insurreição Pernambucana; são processos relacionados pela guerra atlântica, mas distintos em espaço e cronologia."
     },
     {
       "id": "q7165",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "É incorreto apresentar a resistência maranhense como simples episódio da Insurreição Pernambucana porque",
+      "prompt": "Uma linha do tempo destaca a resistência no Maranhão em 1642 e a Insurreição Pernambucana em 1645. Qual conclusão conserva a relação histórica entre os dois episódios sem confundi-los?",
       "options": [
         {
           "id": "A",
-          "text": "a sublevação do Maranhão começou em 1642, três anos antes da insurreição pernambucana."
+          "text": "São o mesmo levante, embora os cronistas tenham usado calendários diferentes."
         },
         {
           "id": "B",
-          "text": "Pernambuco não teve presença neerlandesa."
+          "text": "O episódio maranhense começou depois da Insurreição Pernambucana e dela dependeu diretamente."
         },
         {
           "id": "C",
-          "text": "os dois processos ocorreram no século XIX."
+          "text": "Ocorrem no quadro maior da guerra luso-neerlandesa, mas em datas e contextos regionais distintos."
         },
         {
           "id": "D",
-          "text": "o Maranhão estava sob domínio francês em 1645."
+          "text": "A diferença de três anos comprova que só houve domínio neerlandês no Maranhão."
         },
         {
           "id": "E",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> nunca atuou no Nordeste."
+          "text": "O desfecho do Maranhão em 1644 significa que Pernambuco também já estava recuperado naquele ano."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "Os processos pertencem ao mesmo quadro luso-neerlandês, mas a resistência maranhense começou antes e teve dinâmica territorial própria."
+      "correctOptionId": "C",
+      "explanation": "Ambos os conflitos integram o confronto atlântico envolvendo portugueses e neerlandeses, mas a resistência maranhense é anterior à insurreição pernambucana e segue dinâmica territorial própria."
     },
     {
       "id": "q7166",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Quanto aos termos “holandês” e “neerlandês”, é adequado afirmar que",
       "options": [
         {
           "id": "A",
-          "text": "“holandês” é termo consagrado no edital, enquanto “neerlandês” é mais abrangente para as Províncias Unidas."
+          "text": "“neerlandês” é sinônimo de Conselho Ultramarino português."
         },
         {
           "id": "B",
@@ -1428,7 +1428,7 @@
         },
         {
           "id": "C",
-          "text": "“neerlandês” designa apenas portugueses aliados da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "“neerlandês” designa apenas portugueses aliados da WIC."
         },
         {
           "id": "D",
@@ -1436,25 +1436,25 @@
         },
         {
           "id": "E",
-          "text": "“neerlandês” é sinônimo de Conselho Ultramarino português."
+          "text": "“holandês” é termo consagrado no edital, enquanto “neerlandês” é mais abrangente para as Províncias Unidas."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O edital usa a expressão consagrada “holandeses”; “neerlandês” é empregado quando se deseja maior abrangência geográfica para as Províncias Unidas."
     },
     {
       "id": "q7167",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "É incorreto usar <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> e população neerlandesa como sinônimos porque",
+      "prompt": "É incorreto usar WIC e população neerlandesa como sinônimos porque",
       "options": [
         {
           "id": "A",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> era uma companhia privilegiada com organização e interesses institucionais próprios."
+          "text": "a companhia era administrada pelo governador português do Maranhão."
         },
         {
           "id": "B",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> era uma comunidade indígena do Itapecuru."
+          "text": "a WIC era uma comunidade indígena do Itapecuru."
         },
         {
           "id": "C",
@@ -1462,25 +1462,25 @@
         },
         {
           "id": "D",
-          "text": "a companhia era administrada pelo governador português do Maranhão."
+          "text": "a WIC era uma companhia privilegiada com organização e interesses institucionais próprios."
         },
         {
           "id": "E",
-          "text": "<abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> era apenas o nome de um navio."
+          "text": "WIC era apenas o nome de um navio."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "A companhia se articulava ao Estado neerlandês, mas não se confundia com toda a sociedade ou com todos os agentes das Províncias Unidas."
     },
     {
       "id": "q7168",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "No assunto, “restauração” designa principalmente",
       "options": [
         {
           "id": "A",
-          "text": "a recuperação do domínio português sobre o Maranhão."
+          "text": "a implantação do governo de Nassau em Pernambuco."
         },
         {
           "id": "B",
@@ -1488,23 +1488,23 @@
         },
         {
           "id": "C",
-          "text": "a criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "a criação da WIC."
         },
         {
           "id": "D",
-          "text": "a implantação do governo de Nassau em Pernambuco."
+          "text": "a recuperação do domínio português sobre o Maranhão."
         },
         {
           "id": "E",
           "text": "a independência política do Maranhão."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Restauração é o vocabulário da recuperação da soberania portuguesa; não significa retorno francês nem independência regional."
     },
     {
       "id": "q7169",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "No contexto de 1642, “sublevação” refere-se",
       "options": [
@@ -1514,7 +1514,7 @@
         },
         {
           "id": "B",
-          "text": "à fundação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "à fundação da WIC."
         },
         {
           "id": "C",
@@ -1594,7 +1594,7 @@
     },
     {
       "id": "q7172",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Assinale a associação correta",
       "options": [
@@ -1608,29 +1608,29 @@
         },
         {
           "id": "C",
-          "text": "Antônio Muniz Barreiros Filho — liderança inicial da resistência."
+          "text": "Jan Cornelisz Lichthart — governador português capturado na invasão."
         },
         {
           "id": "D",
-          "text": "Antônio Teixeira de Melo — almirante da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> em 1641."
+          "text": "Antônio Teixeira de Melo — almirante da WIC em 1641."
         },
         {
           "id": "E",
-          "text": "Jan Cornelisz Lichthart — governador português capturado na invasão."
+          "text": "Antônio Muniz Barreiros Filho — liderança inicial da resistência."
         }
       ],
-      "correctOptionId": "C",
+      "correctOptionId": "E",
       "explanation": "Antônio Muniz Barreiros Filho liderou a fase inicial da resistência. Os demais pares trocam funções de personagens do conflito."
     },
     {
       "id": "q7173",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "A associação correta entre personagens e fases é",
       "options": [
         {
           "id": "A",
-          "text": "Lichthart — conquista; Antônio Muniz — sublevação inicial; Antônio Teixeira de Melo — fase decisiva da recuperação."
+          "text": "Nassau — governador português; Antônio Muniz — almirante neerlandês; Teixeira de Melo — diretor da WIC."
         },
         {
           "id": "B",
@@ -1638,7 +1638,7 @@
         },
         {
           "id": "C",
-          "text": "Antônio Muniz — governo da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>; Teixeira de Melo — França Equinocial; Nassau — Itapecuru."
+          "text": "Antônio Muniz — governo da WIC; Teixeira de Melo — França Equinocial; Nassau — Itapecuru."
         },
         {
           "id": "D",
@@ -1646,21 +1646,21 @@
         },
         {
           "id": "E",
-          "text": "Nassau — governador português; Antônio Muniz — almirante neerlandês; Teixeira de Melo — diretor da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "Lichthart — conquista; Antônio Muniz — sublevação inicial; Antônio Teixeira de Melo — fase decisiva da recuperação."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A sequência associa corretamente o comando da conquista, a fase inicial da resistência e a fase decisiva da recuperação do Maranhão."
     },
     {
       "id": "q7174",
-      "revision": 3,
+      "revision": 4,
       "origin": "authorial",
       "prompt": "Lichthart e Koin Anderson devem ser lembrados, respectivamente, como",
       "options": [
         {
           "id": "A",
-          "text": "comandante naval e oficial associado ao comando militar da conquista."
+          "text": "missionários franceses da França Equinocial."
         },
         {
           "id": "B",
@@ -1672,21 +1672,21 @@
         },
         {
           "id": "D",
-          "text": "missionários franceses da França Equinocial."
+          "text": "comandante naval e oficial associado ao comando militar da conquista."
         },
         {
           "id": "E",
           "text": "autores de consultas do Conselho Ultramarino."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "Lichthart é ligado ao comando naval, enquanto Koin Anderson aparece associado ao comando militar da operação de 1641."
     },
     {
       "id": "q7175",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Um enunciado afirma que a captura de São Luís garantiu à <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> controle estável do Maranhão até 1654. Essa afirmação é",
+      "prompt": "Um enunciado afirma que a captura de São Luís garantiu à WIC controle estável do Maranhão até 1654. Essa afirmação é",
       "options": [
         {
           "id": "A",
@@ -1706,7 +1706,7 @@
         },
         {
           "id": "E",
-          "text": "correta, porque 1644 foi apenas a data da criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "correta, porque 1644 foi apenas a data da criação da WIC."
         }
       ],
       "correctOptionId": "B",
@@ -1714,43 +1714,43 @@
     },
     {
       "id": "q7176",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
-      "prompt": "Qual associação cronológica está correta?",
+      "prompt": "Um pesquisador encontra projetos comerciais neerlandeses para o Maranhão, redigidos na época da ocupação, e documentos que registram a sua expulsão em 1644. Qual leitura evita confundir intenção com resultado?",
       "options": [
         {
           "id": "A",
-          "text": "1641 — conquista de São Luís; 1642 — sublevação; 1643 — recuperação progressiva; 1644 — expulsão."
+          "text": "Os projetos comprovam que todas as atividades econômicas propostas foram plenamente implantadas."
         },
         {
           "id": "B",
-          "text": "1641 — expulsão; 1642 — criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>; 1643 — União Ibérica; 1644 — invasão."
+          "text": "A derrota militar transforma os relatórios econômicos em documentos necessariamente falsos."
         },
         {
           "id": "C",
-          "text": "1641 — Insurreição Pernambucana; 1642 — França Equinocial; 1643 — conquista de São Luís; 1644 — governo de Nassau."
+          "text": "A posse de São Luís assegurava a execução dos planos econômicos em toda a capitania."
         },
         {
           "id": "D",
-          "text": "1641 — Independência; 1642 — Balaiada; 1643 — invasão francesa; 1644 — Restauração portuguesa."
+          "text": "Os projetos revelam interesses da companhia, mas não bastam para demonstrar o que foi efetivamente concretizado durante a ocupação curta e contestada."
         },
         {
           "id": "E",
-          "text": "1641 — fim da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>; 1642 — domínio francês; 1643 — chegada de Nassau; 1644 — União Ibérica."
+          "text": "O fim da ocupação em 1644 prova que não existiam interesses econômicos na conquista."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "Essa é a linha-mestra do assunto: conquista, sublevação, recuperação progressiva e expulsão."
+      "correctOptionId": "D",
+      "explanation": "A documentação de planos e expectativas é evidência de interesses, não de execução integral. A duração reduzida e a resistência limitam inferências sobre realizações econômicas."
     },
     {
       "id": "q7177",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Julgue a afirmação: “Como a resistência recuperou áreas em 1643, toda presença político-militar neerlandesa terminou naquele ano.” A avaliação correta é",
       "options": [
         {
           "id": "A",
-          "text": "correta, pois 1644 se refere somente à criação da <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr>."
+          "text": "correta, pois 1644 se refere somente à criação da WIC."
         },
         {
           "id": "B",
@@ -1774,7 +1774,7 @@
     },
     {
       "id": "q7178",
-      "revision": 4,
+      "revision": 5,
       "origin": "authorial",
       "prompt": "Sintetiza corretamente a invasão e a expulsão dos holandeses do Maranhão a afirmação de que",
       "options": [
@@ -1784,7 +1784,7 @@
         },
         {
           "id": "B",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> dominou sem resistência o Maranhão até 1654."
+          "text": "a WIC dominou sem resistência o Maranhão até 1654."
         },
         {
           "id": "C",
@@ -1792,7 +1792,7 @@
         },
         {
           "id": "D",
-          "text": "a <abbr title=\"Companhia Neerlandesa das Índias Ocidentais\">WIC</abbr> tomou São Luís em 1641, enfrentou sublevação a partir de 1642, perdeu áreas em 1643 e teve seu domínio encerrado em 1644."
+          "text": "a WIC tomou São Luís em 1641, enfrentou sublevação a partir de 1642, perdeu áreas em 1643 e teve seu domínio encerrado em 1644."
         },
         {
           "id": "E",
