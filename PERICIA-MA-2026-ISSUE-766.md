@@ -2857,9 +2857,9 @@ Para L, o slug é relativo a `src/content/assuntos/pericia-ma-2026-agente-crimin
 
 **Atualização pontual do índice após a fotografia de R05:** Q/R de PER-U002 foram atualizados por `0e1c0fc`/`564178f`, R de PER-U003 por `3f45183`, Q/R de PER-U004 por `a1bf0c9`/`32bb215` e C/H/Q/R de PER-U005 por `f2eba4a`. Os demais blobs permanecem da fotografia estrutural, sem simular varredura geral nem antecipar aceite de F04.
 
-### 5.13 Inspeção PER-F02 — evidência semântica por unidade (10–12/10/2026)
+### 5.13 Inspeção PER-F02 — evidência semântica por unidade (10–13/10/2026)
 
-**Alcance deste registro:** PER-U001–PER-U022, vinte e duas das **98 unidades publicadas** inspecionadas individualmente; PER-U028 ainda não tem pacote físico por depender de esclarecimento fundamentado de E02:6. PER-F02 continua `pending`; presença estrutural e hashes históricos de §5.12 não substituem a inspeção semântica individual das outras 76 unidades publicadas nem solucionam U028. Os estados C/H/Q e totais de §2 permanecem inalterados.
+**Alcance acumulado deste registro:** PER-U001–PER-U027 e PER-U029–PER-U059, **58 das 98 unidades publicadas** inspecionadas individualmente, 40 ainda não examinadas. PER-U028 não tem pacote físico por depender de esclarecimento fundamentado de E02:6. PER-F02 permanece `pending`; estrutura e hashes históricos de §5.12 não substituem a revisão individual. Os aceites C/H/Q e totais de §2 são independentes e permanecem inalterados.
 
 #### PER-U001 — Leitura, interpretação, tipos e gêneros textuais — pacote inspecionado, sem reparo
 
