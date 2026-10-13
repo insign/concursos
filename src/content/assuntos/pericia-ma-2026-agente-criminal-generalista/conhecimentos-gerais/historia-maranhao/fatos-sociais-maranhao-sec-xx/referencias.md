@@ -1,3 +1,5 @@
+# Referências — Fatos sociais do Maranhão (1951–2000)
+
 - ALENCAR, Lara Serra Pinto de. [Arquitetura e urbanismo moderno em conjuntos residenciais: estudo do Cohab-Anil em São Luís - MA](https://repositorio.uema.br/jspui/handle/123456789/3650). Universidade Estadual do Maranhão, 2019. Política habitacional, <abbr title="Companhia de Habitação Popular do Maranhão">COHAB-MA</abbr> e <abbr title="Banco Nacional da Habitação">BNH</abbr> em São Luís. Acesso em: 7 set. 2026.
 - <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr>. [Sobre a ASSEMA](https://assema.org.br/). Fundação em 1989, atuação no Médio Mearim, agroextrativismo e organização comunitária. Acesso em: 7 set. 2026.
 - BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Direitos sociais, art. 231 e art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>. Acesso em: 7 set. 2026.
@@ -11,7 +13,7 @@
 - MOVIMENTO DE EDUCAÇÃO DE BASE. [História](https://meb.org.br/historia/). Fundação e finalidade do <abbr title="Movimento de Educação de Base">MEB</abbr>. Acesso em: 7 set. 2026.
 - NERIS, Wheriston Silva. [Igreja e missão: religiosos e ação política no Brasil](https://ri.ufs.br/jspui/handle/riufs/6245). Tese (Doutorado em Sociologia), Universidade Federal de Sergipe, 2014. Organização camponesa, ATAM e mediação religiosa no Maranhão. Acesso em: 7 set. 2026.
 - <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr>. [Sobre nós](https://miqcb.org.br/sobre-nos/). Encontros de 1991 e 1995 e formação do movimento. Acesso em: 7 set. 2026.
-- MIQCB. [Babaçu Livre para todas: o legado da lei pioneira de Lago do Junco e os caminhos para uma Lei Federal](https://miqcb.org.br/babacu-livre-para-todas-o-legado-da-lei-pioneira-de-lago-do-junco-e-os-caminhos-para-uma-lei-federal/). Lei nº 05/1997 e alterações protetivas de 2002. Acesso em: 7 set. 2026.
+- <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr>. [Babaçu Livre para todas: o legado da lei pioneira de Lago do Junco e os caminhos para uma Lei Federal](https://miqcb.org.br/babacu-livre-para-todas-o-legado-da-lei-pioneira-de-lago-do-junco-e-os-caminhos-para-uma-lei-federal/). Lei nº 05/1997 e alterações protetivas de 2002. Acesso em: 7 set. 2026.
 - SANTOS, Frednan Bezerra dos; TAVARES, João Claudino. [Questão agrária e violência no Maranhão](https://periodicoseletronicos.ufma.br/index.php/rppublica/article/view/5061). <abbr title="Universidade Federal do Maranhão">UFMA</abbr>. Questão agrária, conflitos fundiários e violência. Acesso em: 7 set. 2026.
 
 
