@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 4,
+  "questionSetRevision": 5,
   "questions": [
     {
       "id": "q7539",
@@ -274,33 +274,33 @@
     },
     {
       "id": "q7548",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A integração rodoviária alterou a economia maranhense porque",
+      "prompt": "Uma nova rodovia permite que produtores de arroz do interior vendam a regiões mais distantes, mas também facilita a entrada de alimentos industrializados de fora. Qual conclusão combina os efeitos?",
       "options": [
         {
           "id": "A",
-          "text": "eliminou a circulação de mercadorias com outras regiões."
+          "text": "A estrada elimina a função dos portos e das ferrovias."
         },
         {
           "id": "B",
-          "text": "conectou áreas produtoras e polos comerciais a mercados mais amplos, ao mesmo tempo em que aumentou a concorrência enfrentada por empresas locais."
+          "text": "A rodovia amplia o mercado acessível aos produtores e simultaneamente a concorrência que enfrentam."
         },
         {
           "id": "C",
-          "text": "substituiu imediatamente todos os portos e ferrovias."
+          "text": "O transporte viário só afeta eleições municipais."
         },
         {
           "id": "D",
-          "text": "teve efeito apenas sobre eleições municipais."
+          "text": "A maior circulação impede o crescimento agropecuário."
         },
         {
           "id": "E",
-          "text": "impediu a expansão agropecuária no interior."
+          "text": "O efeito comercial surge somente após a privatização da Vale."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A abertura de eixos viários ampliou mercados e circulação, mas também facilitou a entrada de produtos externos; seu impacto foi simultaneamente integrador e competitivo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Uma via integra mercados nos dois sentidos; ela tanto permite vender para fora quanto amplia o acesso de concorrentes ao mercado local."
     },
     {
       "id": "q7549",
@@ -424,7 +424,7 @@
     },
     {
       "id": "q7553",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A agricultura mecanizada dos cerrados consolidou-se especialmente na área de",
       "options": [
@@ -434,7 +434,7 @@
         },
         {
           "id": "B",
-          "text": "Balsas."
+          "text": "Raposa."
         },
         {
           "id": "C",
@@ -446,10 +446,10 @@
         },
         {
           "id": "E",
-          "text": "Raposa."
+          "text": "Balsas."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "Chapadões, correção de solos, máquinas e capital favoreceram o polo do sul maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "id": "q7556",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A importância econômica do Porto do Itaqui na segunda metade do século XX decorre principalmente de",
       "options": [
@@ -524,7 +524,7 @@
         },
         {
           "id": "B",
-          "text": "ampliar a conexão portuária do Maranhão com cadeias regionais, nacionais e exportadoras."
+          "text": "ser terminal privado exclusivo da Vale."
         },
         {
           "id": "C",
@@ -532,14 +532,14 @@
         },
         {
           "id": "D",
-          "text": "ser terminal privado exclusivo da Vale."
+          "text": "ampliar a conexão portuária do Maranhão com cadeias regionais, nacionais e exportadoras."
         },
         {
           "id": "E",
           "text": "ter funcionado apenas para produtos agrícolas locais."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O Itaqui tornou-se infraestrutura pública estratégica para fluxos de importação e exportação e para cadeias que ultrapassam o território maranhense. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -634,7 +634,7 @@
     },
     {
       "id": "q7560",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O PGC abrangia",
       "options": [
@@ -644,7 +644,7 @@
         },
         {
           "id": "B",
-          "text": "infraestrutura, portos, ferrovia, energia, mineração, agropecuária e madeira."
+          "text": "somente transporte de passageiros."
         },
         {
           "id": "C",
@@ -652,14 +652,14 @@
         },
         {
           "id": "D",
-          "text": "somente transporte de passageiros."
+          "text": "infraestrutura, portos, ferrovia, energia, mineração, agropecuária e madeira."
         },
         {
           "id": "E",
           "text": "apenas alumínio."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "D",
       "explanation": "O texto legal define programa territorial e setorialmente mais amplo que o Projeto Ferro Carajás. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -754,7 +754,7 @@
     },
     {
       "id": "q7564",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Por que a EFC é um marco estrutural da economia maranhense no período?",
       "options": [
@@ -764,7 +764,7 @@
         },
         {
           "id": "B",
-          "text": "Porque integrou o corredor de grande escala entre a produção mineral de Carajás e o litoral de São Luís, ampliando a logística exportadora."
+          "text": "Porque pertence ao complexo da Alumar."
         },
         {
           "id": "C",
@@ -776,10 +776,10 @@
         },
         {
           "id": "E",
-          "text": "Porque pertence ao complexo da Alumar."
+          "text": "Porque integrou o corredor de grande escala entre a produção mineral de Carajás e o litoral de São Luís, ampliando a logística exportadora."
         }
       ],
-      "correctOptionId": "B",
+      "correctOptionId": "E",
       "explanation": "A relevância histórica da EFC está na integração mina-ferrovia-terminal e na mudança de escala da circulação de cargas e exportações. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1414,13 +1414,13 @@
     },
     {
       "id": "q7586",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo Mesquita, os incentivos agropecuários examinados até 1985 favoreceram sobretudo",
       "options": [
         {
           "id": "A",
-          "text": "pecuária de corte."
+          "text": "informática."
         },
         {
           "id": "B",
@@ -1436,10 +1436,10 @@
         },
         {
           "id": "E",
-          "text": "informática."
+          "text": "pecuária de corte."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "O dado é atribuído ao autor e ajuda a explicar a pecuarização, sem ser universalizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1654,13 +1654,13 @@
     },
     {
       "id": "q7594",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "A relação entre EFC e Ponta da Madeira é corretamente descrita como",
       "options": [
         {
           "id": "A",
-          "text": "a ferrovia leva cargas do corredor de Carajás ao terminal marítimo privado em São Luís, formando um sistema logístico integrado."
+          "text": "a EFC termina no Porto de Santos."
         },
         {
           "id": "B",
@@ -1672,14 +1672,14 @@
         },
         {
           "id": "D",
-          "text": "a EFC termina no Porto de Santos."
+          "text": "a ferrovia leva cargas do corredor de Carajás ao terminal marítimo privado em São Luís, formando um sistema logístico integrado."
         },
         {
           "id": "E",
           "text": "Ponta da Madeira é apenas um berço do porto público do Itaqui."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "D",
       "explanation": "O núcleo econômico é a integração mina-ferrovia-terminal; condições naturais específicas do porto não precisam ser memorizadas neste item. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -1744,13 +1744,13 @@
     },
     {
       "id": "q7597",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
       "prompt": "Qual sequência sintetiza melhor as transformações econômicas da segunda metade do século XX no Maranhão?",
       "options": [
         {
           "id": "A",
-          "text": "integração regional e rodoviária → expansão agropecuária → grandes projetos industriais/minerais → corredor exportador → reformas e privatizações dos anos 1990."
+          "text": "CEMAR privatizada antes da SUDENE → Alumar no século XIX → EFC após 2004."
         },
         {
           "id": "B",
@@ -1766,41 +1766,41 @@
         },
         {
           "id": "E",
-          "text": "CEMAR privatizada antes da SUDENE → Alumar no século XIX → EFC após 2004."
+          "text": "integração regional e rodoviária → expansão agropecuária → grandes projetos industriais/minerais → corredor exportador → reformas e privatizações dos anos 1990."
         }
       ],
-      "correctOptionId": "A",
+      "correctOptionId": "E",
       "explanation": "A sequência organiza os grandes ciclos sem depender de microdatas: integração e incentivos, novas frentes produtivas, grandes projetos, logística exportadora e reformas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q7598",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A síntese correta do período econômico é",
+      "prompt": "Uma análise identifica investimentos minerais e industriais nos anos 1980 e manutenção de atividades extrativas e agropecuárias tradicionais. Como compreender esse processo?",
       "options": [
         {
           "id": "A",
-          "text": "atividades tradicionais coexistiram com agropecuária empresarial, grandes indústrias, logística exportadora e reformas estatais."
+          "text": "Grandes projetos coexistiram com atividades anteriores, tornando a estrutura mais diversificada sem distribuir automaticamente os benefícios."
         },
         {
           "id": "B",
-          "text": "rodovias e grandes projetos não alteraram a economia."
+          "text": "A instalação dos terminais tornou toda a economia exclusivamente industrial."
         },
         {
           "id": "C",
-          "text": "a economia tornou-se exclusivamente industrial."
+          "text": "A nova indústria extinguiu a pecuária e a agricultura de pequeno porte."
         },
         {
           "id": "D",
-          "text": "o BEM foi privatizado em 1995."
+          "text": "A exportação de minério impediu qualquer atividade econômica voltada ao mercado interno."
         },
         {
           "id": "E",
-          "text": "as atividades tradicionais desapareceram completamente em 1951."
+          "text": "A privatização da Vale antecedeu a instalação da ferrovia de Carajás."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A transformação foi desigual e combinou permanências com novos setores e corredores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A transformação produtiva coexistiu com atividades tradicionais e desigualdades, em vez de ocorrer como substituição integral e imediata."
     }
   ]
 }
