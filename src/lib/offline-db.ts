@@ -1,10 +1,11 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import { NewerQuestionSetRevisionError } from './document-schema';
+import type { MediaDocument } from './media-state';
 import type { AnswerDocument } from './questionnaire';
 import type { SimuladoDocument } from './simulados';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 7;
+const OFFLINE_DB_VERSION = 8;
 
 export type OutboxState = 'clean' | 'pending';
 
@@ -16,6 +17,25 @@ export interface LocalSimuladoRecord {
   profileId: string;
   current: SimuladoDocument;
   base: SimuladoDocument | null;
+  remoteVersion: number | null;
+  remoteCreatedAt: string | null;
+  outboxState: OutboxState;
+  attempts: number;
+  nextAttemptAt: number | null;
+  lastError: string | null;
+  conflictWarning: string | null;
+  localRevision: number;
+  updatedAt: number;
+}
+
+// Registro local do documento de mídia de um assunto (MÚLTIPLOS por perfil, keyed por
+// documentId), espelhando o store `simulados`. O documento reúne as posições de todas as
+// mídias do assunto e é arbitrado por documento inteiro, sem rastreio de campos sujos.
+export interface LocalMediaRecord {
+  documentId: string;
+  profileId: string;
+  current: MediaDocument;
+  base: MediaDocument | null;
   remoteVersion: number | null;
   remoteCreatedAt: string | null;
   outboxState: OutboxState;
@@ -152,6 +172,14 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: LocalSharedDocumentRecord;
   };
+  midia: {
+    key: string;
+    value: LocalMediaRecord;
+    indexes: {
+      'by-profile': string;
+      'by-profile-outbox': [string, OutboxState];
+    };
+  };
   downloads: {
     key: string;
     value: OfflineContestRecord;
@@ -252,6 +280,12 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       // v5 -> v6: diagnóstico durável dos downloads em segundo plano.
       if (!database.objectStoreNames.contains('downloadDiagnostics')) {
         database.createObjectStore('downloadDiagnostics', { keyPath: 'id' });
+      }
+      // v7 -> v8: documento de mídia por assunto (keyed por documentId, como `simulados`).
+      if (!database.objectStoreNames.contains('midia')) {
+        const midia = database.createObjectStore('midia', { keyPath: 'documentId' });
+        midia.createIndex('by-profile', 'profileId');
+        midia.createIndex('by-profile-outbox', ['profileId', 'outboxState']);
       }
     },
     });
@@ -899,6 +933,167 @@ export function markSimuladoSyncError(
   return trackWrite(write);
 }
 
+// ---- Documento de mídia por assunto (store `midia`, keyed por documentId) ----
+
+export async function getLocalMediaRecord(documentId: string): Promise<LocalMediaRecord | undefined> {
+  return (await openOfflineDb()).get('midia', documentId);
+}
+
+export async function listProfileMediaRecords(profileId: string): Promise<LocalMediaRecord[]> {
+  return (await openOfflineDb()).getAllFromIndex('midia', 'by-profile', profileId);
+}
+
+export async function listPendingMediaRecords(profileId: string): Promise<LocalMediaRecord[]> {
+  return (await openOfflineDb()).getAllFromIndex('midia', 'by-profile-outbox', [profileId, 'pending']);
+}
+
+export interface SaveMediaDocumentInput {
+  profileId: string;
+  documentId: string;
+  // Transforma o documento durável mais recente; recebe undefined quando o registro ainda não existe.
+  updateCurrent: (current: MediaDocument | undefined) => MediaDocument;
+}
+
+// Grava o documento de mídia como pendente. Idempotente e seguro entre abas: opera sobre o
+// registro durável mais recente dentro da transação, nunca sobre um snapshot possivelmente obsoleto.
+export function saveMediaDocument(input: SaveMediaDocumentInput): Promise<LocalMediaRecord> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('midia', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    const current = input.updateCurrent(existing?.current);
+    const record: LocalMediaRecord = {
+      documentId: input.documentId,
+      profileId: input.profileId,
+      current,
+      base: existing?.base ?? null,
+      remoteVersion: existing?.remoteVersion ?? null,
+      remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+      outboxState: 'pending',
+      attempts: existing?.attempts ?? 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: existing?.conflictWarning ?? null,
+      localRevision: (existing?.localRevision ?? 0) + 1,
+      updatedAt: Date.now(),
+    };
+    await transaction.store.put(record);
+    await transaction.done;
+    return record;
+  })();
+
+  return trackWrite(write);
+}
+
+export interface StoreRemoteMediaInput {
+  profileId: string;
+  documentId: string;
+  document: MediaDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning?: string | null;
+}
+
+export function storeRemoteMediaDocument(input: StoreRemoteMediaInput): Promise<boolean> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('midia', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (existing) {
+      await transaction.store.put({
+        ...existing,
+        base: input.document,
+        remoteVersion: input.remoteVersion,
+        remoteCreatedAt: input.remoteCreatedAt,
+        conflictWarning: input.conflictWarning ?? existing.conflictWarning,
+      });
+      await transaction.done;
+      return false;
+    }
+    await transaction.store.put({
+      documentId: input.documentId,
+      profileId: input.profileId,
+      current: input.document,
+      base: input.document,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      outboxState: 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning ?? null,
+      localRevision: 0,
+      updatedAt: Date.now(),
+    });
+    await transaction.done;
+    return true;
+  })();
+
+  return trackWrite(write);
+}
+
+export interface MarkMediaSyncedInput {
+  documentId: string;
+  expectedLocalRevision: number;
+  synchronizedDocument: MediaDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning: string | null;
+}
+
+export function markMediaSynced(input: MarkMediaSyncedInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('midia', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (!existing) {
+      await transaction.done;
+      return;
+    }
+    // Edição concorrente durante o PUT permanece pendente e não é apagada pela confirmação.
+    const changedDuringRequest = existing.localRevision !== input.expectedLocalRevision;
+    await transaction.store.put({
+      ...existing,
+      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
+      base: input.synchronizedDocument,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      outboxState: changedDuringRequest ? 'pending' : 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning,
+      updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function markMediaSyncError(
+  documentId: string,
+  message: string,
+  nextAttemptAt: number | null,
+): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('midia', 'readwrite');
+    const existing = await transaction.store.get(documentId);
+    if (existing) {
+      await transaction.store.put({
+        ...existing,
+        attempts: existing.attempts + 1,
+        nextAttemptAt,
+        lastError: message,
+      });
+    }
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
 export interface ProfileImportAnswer {
   documentId: string;
   document: AnswerDocument;
@@ -1167,20 +1362,31 @@ export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | '
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
   const database = await openOfflineDb();
-  const [answerCount, simuladoCount, preferences, progress, studied, reading, forecast, simuladosIndex] =
-    await Promise.all([
-      database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
-      database.countFromIndex('simulados', 'by-profile-outbox', [profileId, 'pending']),
-      database.get('preferences', profileId),
-      database.get('progress', profileId),
-      database.get('estudados', profileId),
-      database.get('leitura', profileId),
-      database.get('previsoes', profileId),
-      database.get('simuladosIndex', profileId),
-    ]);
+  const [
+    answerCount,
+    simuladoCount,
+    mediaCount,
+    preferences,
+    progress,
+    studied,
+    reading,
+    forecast,
+    simuladosIndex,
+  ] = await Promise.all([
+    database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
+    database.countFromIndex('simulados', 'by-profile-outbox', [profileId, 'pending']),
+    database.countFromIndex('midia', 'by-profile-outbox', [profileId, 'pending']),
+    database.get('preferences', profileId),
+    database.get('progress', profileId),
+    database.get('estudados', profileId),
+    database.get('leitura', profileId),
+    database.get('previsoes', profileId),
+    database.get('simuladosIndex', profileId),
+  ]);
   return (
     answerCount > 0 ||
     simuladoCount > 0 ||
+    mediaCount > 0 ||
     preferences?.outboxState === 'pending' ||
     progress?.outboxState === 'pending' ||
     studied?.outboxState === 'pending' ||
@@ -1239,6 +1445,28 @@ export function discardPendingProfile(profileId: string): Promise<void> {
       });
     }
     await simuladoTransaction.done;
+
+    // Documentos de mídia pendentes: descartar os novos (sem base) e reverter os demais à base.
+    const pendingMedia = await listPendingMediaRecords(profileId);
+    const mediaTransaction = database.transaction('midia', 'readwrite');
+    for (const record of pendingMedia) {
+      if (!record.base) {
+        await mediaTransaction.store.delete(record.documentId);
+        continue;
+      }
+      await mediaTransaction.store.put({
+        ...record,
+        current: record.base,
+        outboxState: 'clean',
+        attempts: 0,
+        nextAttemptAt: null,
+        lastError: null,
+        conflictWarning: null,
+        localRevision: record.localRevision + 1,
+        updatedAt: Date.now(),
+      });
+    }
+    await mediaTransaction.done;
 
     for (const storeName of ['preferences', 'progress', 'estudados', 'leitura', 'previsoes', 'simuladosIndex'] as const) {
       const sharedTransaction = database.transaction(storeName, 'readwrite');

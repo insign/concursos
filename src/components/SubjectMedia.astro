@@ -1,0 +1,488 @@
+---
+import type { SubjectMediaItem } from '../lib/catalog';
+import { studiedSubjectId } from '../lib/studied';
+
+interface Props {
+  items: SubjectMediaItem[];
+  contestStorageId: string;
+  subjectStorageId: string;
+  mediaKey: string;
+}
+
+const { items, contestStorageId, subjectStorageId, mediaKey } = Astro.props;
+const first = items[0];
+if (!first) {
+  throw new Error('SubjectMedia exige ao menos uma mídia');
+}
+const hasMultiple = items.length > 1;
+const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
+---
+
+<section
+  class="subject-media print-hidden"
+  aria-labelledby="subject-media-title"
+  data-subject-media
+  data-subject-media-key={mediaKey}
+  data-subject-media-subject-id={subjectId}
+  data-subject-media-contest-id={contestStorageId}
+  data-subject-media-subject-storage-id={subjectStorageId}
+>
+  <h2 id="subject-media-title" class="subject-media-title">
+    {hasMultiple ? 'Mídias do assunto' : first.kind === 'video' ? 'Vídeo do assunto' : 'Áudio do assunto'}
+  </h2>
+  {
+    hasMultiple && (
+      <p class="subject-media-selector">
+        <label for="subject-media-select">Escolher mídia</label>
+        <select id="subject-media-select" data-subject-media-select>
+          {items.map((item) => (
+            <option
+              value={item.id}
+              data-media-id={item.id}
+              data-media-url={item.url}
+              data-media-kind={item.kind}
+              data-media-label={item.label}
+            >
+              {item.label}
+            </option>
+          ))}
+        </select>
+      </p>
+    )
+  }
+  <div class="subject-media-player">
+    {
+      first.kind === 'video' ? (
+        <video
+          data-subject-media-element
+          data-media-id={first.id}
+          data-media-url={first.url}
+          data-media-kind={first.kind}
+          data-media-label={first.label}
+          controls
+          preload="metadata"
+          playsinline
+          src={first.url}
+        />
+      ) : (
+        <audio
+          data-subject-media-element
+          data-media-id={first.id}
+          data-media-url={first.url}
+          data-media-kind={first.kind}
+          data-media-label={first.label}
+          controls
+          preload="metadata"
+          src={first.url}
+        />
+      )
+    }
+  </div>
+  <p class="subject-media-status" role="status" aria-live="polite" data-subject-media-status />
+  <div class="subject-media-toast" data-subject-media-toast hidden>
+    <p class="subject-media-toast-text" data-subject-media-toast-text />
+    <button type="button" class="subject-media-toast-action" data-subject-media-toast-action />
+    <button
+      type="button"
+      class="subject-media-toast-dismiss"
+      data-subject-media-toast-dismiss
+      aria-label="Fechar aviso"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </svg>
+    </button>
+  </div>
+  <noscript>
+    <ul class="subject-media-noscript">
+      {items.map((item) => (
+        <li>
+          <a href={item.url}>{item.label}</a>
+        </li>
+      ))}
+    </ul>
+  </noscript>
+</section>
+
+<script>
+  import { registerLocalStateFlusher } from '../lib/local-durability';
+  import {
+    loadMediaDocument,
+    loadRemoteMediaDocument,
+    resolveMediaContext,
+    saveMediaPosition,
+    saveMediaSelection,
+  } from '../lib/media-client';
+  import { completionRatioReached, shouldMarkSubjectStudied } from '../lib/media-state';
+  import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
+  import { requestProfileSync } from '../lib/sync';
+
+  interface MediaItem {
+    id: string;
+    url: string;
+    kind: 'audio' | 'video';
+    label: string;
+  }
+
+  const RESUME_MIN_SECONDS = 5;
+  const RESUME_TAIL_SECONDS = 15;
+  const SAVE_INTERVAL_SECONDS = 5;
+  const TOAST_TIMEOUT_MS = 8000;
+
+  function readItem(source: HTMLElement): MediaItem | null {
+    const id = source.dataset.mediaId;
+    const url = source.dataset.mediaUrl;
+    const kind = source.dataset.mediaKind;
+    const label = source.dataset.mediaLabel;
+    if (!id || !url || (kind !== 'audio' && kind !== 'video') || !label) return null;
+    return { id, url, kind, label };
+  }
+
+  function formatTime(seconds: number): string {
+    const total = Math.max(0, Math.floor(seconds));
+    const minutes = Math.floor(total / 60);
+    const rest = total % 60;
+    return `${minutes}:${String(rest).padStart(2, '0')}`;
+  }
+
+  for (const section of document.querySelectorAll<HTMLElement>('[data-subject-media]')) {
+    setupSubjectMedia(section);
+  }
+
+  function setupSubjectMedia(section: HTMLElement): void {
+    const initialElement = section.querySelector<HTMLMediaElement>('[data-subject-media-element]');
+    const state: { element: HTMLMediaElement } = { element: initialElement! };
+    const select = section.querySelector<HTMLSelectElement>('[data-subject-media-select]');
+    const status = section.querySelector<HTMLElement>('[data-subject-media-status]');
+    const toast = section.querySelector<HTMLElement>('[data-subject-media-toast]');
+    const toastText = section.querySelector<HTMLElement>('[data-subject-media-toast-text]');
+    const toastAction = section.querySelector<HTMLButtonElement>('[data-subject-media-toast-action]');
+    const toastDismiss = section.querySelector<HTMLButtonElement>('[data-subject-media-toast-dismiss]');
+    if (!state.element) return;
+
+    const mediaKey = section.dataset.subjectMediaKey ?? '';
+    const subjectId = section.dataset.subjectMediaSubjectId ?? '';
+    const contestStorageId = section.dataset.subjectMediaContestId ?? '';
+    const subjectStorageId = section.dataset.subjectMediaSubjectStorageId ?? '';
+    const context = resolveMediaContext(mediaKey);
+    const profileId = context.profileId;
+
+    const items = new Map<string, MediaItem>();
+    const first = readItem(state.element);
+    if (first) items.set(first.id, first);
+    select?.querySelectorAll('option').forEach((option) => {
+      const item = readItem(option);
+      if (item) items.set(item.id, item);
+    });
+
+    const setStatus = (message: string) => {
+      if (status) status.textContent = message;
+    };
+
+    if (!profileId) {
+      setStatus('A reprodução funciona, mas a posição não é salva sem um alias em Configurações.');
+    }
+
+    let selectedId = first?.id ?? '';
+    let lastSavedSeconds = 0;
+    let completed = new Set<string>();
+    let pendingPosition: number | null = null;
+    let userStarted = false;
+
+    const activeItem = () => items.get(selectedId) ?? first ?? null;
+
+    const persist = async (force: boolean): Promise<void> => {
+      const duration = state.element.duration;
+      const position = state.element.currentTime;
+      if (!Number.isFinite(duration) || duration <= 0) return;
+      if (!Number.isFinite(position) || position < 0) return;
+      if (!force && position - lastSavedSeconds < SAVE_INTERVAL_SECONDS) return;
+      lastSavedSeconds = position;
+      const item = activeItem();
+      if (!item) return;
+      await saveMediaPosition(context, contestStorageId, subjectStorageId, item.id, {
+        positionSeconds: position,
+        durationSeconds: duration,
+        completed: completed.has(item.id),
+      });
+    };
+
+    const showToast = (message: string, actionLabel: string, onAction: () => void) => {
+      if (!toast || !toastText || !toastAction) return;
+      toastText.textContent = message;
+      toastAction.textContent = actionLabel;
+      toastAction.hidden = false;
+      toast.hidden = false;
+      const timer = window.setTimeout(() => {
+        toast.hidden = true;
+      }, TOAST_TIMEOUT_MS);
+      toastAction.onclick = () => {
+        window.clearTimeout(timer);
+        toast.hidden = true;
+        onAction();
+      };
+      toastDismiss?.addEventListener('click', () => {
+        window.clearTimeout(timer);
+        toast.hidden = true;
+      });
+    };
+
+    const announceStudied = (studied: boolean) => {
+      window.dispatchEvent(
+        new CustomEvent('concursos:studied-updated', {
+          detail: { profileId, contestStorageId, subjectStorageId, studied },
+        }),
+      );
+    };
+
+    const markCompleted = async (mediaId: string, duration: number): Promise<void> => {
+      if (completed.has(mediaId)) return;
+      completed.add(mediaId);
+      await saveMediaPosition(context, contestStorageId, subjectStorageId, mediaId, {
+        positionSeconds: duration,
+        durationSeconds: duration,
+        completed: true,
+      });
+      if (!profileId) return;
+
+      const document_ = await loadMediaDocument(context);
+      const completedCount = [...items.keys()].filter(
+        (id) => document_?.positions[id]?.completed === true,
+      ).length;
+      const alreadyStudied = isStudied(await loadStudied(profileId), subjectId);
+      if (!shouldMarkSubjectStudied({ itemCount: items.size, completedCount, alreadyStudied })) return;
+
+      await setSubjectStudied(profileId, subjectId, true);
+      announceStudied(true);
+      showToast('Assunto marcado como concluído.', 'Desfazer', () => {
+        void (async () => {
+          await setSubjectStudied(profileId, subjectId, false);
+          announceStudied(false);
+          window.dispatchEvent(new Event('concursos:subject-unread'));
+          void requestProfileSync(profileId);
+        })();
+      });
+      void requestProfileSync(profileId);
+    };
+
+    const applyItem = (item: MediaItem) => {
+      selectedId = item.id;
+      pendingPosition = null;
+      lastSavedSeconds = 0;
+      if (state.element.dataset.mediaKind !== item.kind) {
+        const replacement = document.createElement(item.kind === 'video' ? 'video' : 'audio');
+        replacement.setAttribute('data-subject-media-element', '');
+        replacement.setAttribute('data-media-id', item.id);
+        replacement.setAttribute('data-media-url', item.url);
+        replacement.setAttribute('data-media-kind', item.kind);
+        replacement.setAttribute('data-media-label', item.label);
+        replacement.setAttribute('controls', '');
+        replacement.setAttribute('preload', 'metadata');
+        if (item.kind === 'video') replacement.setAttribute('playsinline', '');
+        state.element.replaceWith(replacement);
+        state.element = replacement;
+      }
+      state.element.src = item.url;
+      void saveMediaSelection(context, contestStorageId, subjectStorageId, item.id);
+    };
+
+    const restore = () => {
+      if (pendingPosition === null || userStarted) return;
+      const duration = state.element.duration;
+      const position = pendingPosition;
+      pendingPosition = null;
+      if (!Number.isFinite(duration) || duration <= 0) return;
+      if (position < RESUME_MIN_SECONDS || position >= duration - RESUME_TAIL_SECONDS) return;
+      state.element.currentTime = position;
+      setStatus(`Retomando de ${formatTime(position)}.`);
+    };
+
+    section.addEventListener('loadedmetadata', restore);
+    section.addEventListener('play', () => {
+      userStarted = true;
+    });
+    section.addEventListener('timeupdate', () => {
+      void persist(false);
+      const duration = state.element.duration;
+      const position = state.element.currentTime;
+      const item = activeItem();
+      if (!item) return;
+      if (completionRatioReached(position, duration)) {
+        void markCompleted(item.id, duration);
+      }
+    });
+    section.addEventListener('pause', () => {
+      void persist(true);
+    });
+    section.addEventListener('ended', () => {
+      void persist(true);
+      const item = activeItem();
+      const duration = state.element.duration;
+      if (item && Number.isFinite(duration)) {
+        void markCompleted(item.id, duration);
+      }
+    });
+    section.addEventListener('error', () => {
+      setStatus('Mídia indisponível. O arquivo é servido pelo armazenamento de mídia.');
+    });
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') void persist(true);
+    });
+    window.addEventListener('pagehide', () => {
+      void persist(true);
+    });
+
+    registerLocalStateFlusher(() => persist(true));
+
+    select?.addEventListener('change', () => {
+      const option = select.selectedOptions[0];
+      const item = option ? readItem(option) : null;
+      if (!item) return;
+      void persist(true);
+      applyItem(item);
+    });
+
+    void (async () => {
+      const local = await loadMediaDocument(context);
+      if (local) {
+        for (const [id, position] of Object.entries(local.positions)) {
+          if (position.completed) completed.add(id);
+        }
+        const preferred = local.selectedMediaId;
+        if (preferred && items.has(preferred) && preferred !== selectedId) {
+          const item = items.get(preferred);
+          if (item) applyItem(item);
+        }
+        pendingPosition = local.positions[selectedId]?.positionSeconds ?? null;
+        if (pendingPosition !== null) restore();
+      }
+      // O documento do assunto é buscado sob demanda: a ativação de alias em um
+      // aparelho novo não lê nada de mídia.
+      await loadRemoteMediaDocument(context);
+      const refreshed = await loadMediaDocument(context);
+      if (!refreshed) return;
+      for (const [id, position] of Object.entries(refreshed.positions)) {
+        if (position.completed) completed.add(id);
+      }
+      if (userStarted) return;
+      const position = refreshed.positions[selectedId]?.positionSeconds ?? null;
+      if (position === null) return;
+      pendingPosition = position;
+      restore();
+    })();
+  }
+</script>
+
+<style>
+  .subject-media {
+    margin: 0 0 1.75rem;
+    padding: 1rem 1.1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--field-bg);
+  }
+
+  .subject-media-title {
+    margin: 0 0 0.6rem;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+  }
+
+  .subject-media-selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.75rem;
+  }
+
+  .subject-media-selector label {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  .subject-media-selector select {
+    flex: 1 1 12rem;
+    min-width: 0;
+    padding: 0.35rem 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--ground);
+    color: inherit;
+    font: inherit;
+  }
+
+  .subject-media-player audio,
+  .subject-media-player video {
+    width: 100%;
+  }
+
+  .subject-media-player video {
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+
+  .subject-media-status {
+    margin: 0.6rem 0 0;
+    min-height: 1.2em;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .subject-media-toast {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--ground);
+    font-size: 0.9rem;
+  }
+
+  .subject-media-toast[hidden] {
+    display: none;
+  }
+
+  .subject-media-toast-text {
+    margin: 0;
+    flex: 1 1 12rem;
+  }
+
+  .subject-media-toast-action {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--field-bg);
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .subject-media-toast-dismiss {
+    display: inline-flex;
+    padding: 0.2rem;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+
+  .subject-media-toast-dismiss svg {
+    width: 1rem;
+    height: 1rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .subject-media-noscript {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+  }
+</style>

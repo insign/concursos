@@ -75,6 +75,23 @@ export function buildForecastDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--previsoes`);
 }
 
+const MEDIA_DOCUMENT_KEY_PATTERN = /^[a-f0-9]{16}$/;
+
+/**
+ * Documento de mídia (posição de reprodução) por assunto consumidor.
+ *
+ * Fica fora dos documentos globais do perfil para que a ativação de alias em um
+ * aparelho novo não leia nada de mídia, e por isso usa um namespace próprio com
+ * a chave curta do assunto.
+ */
+export function buildMediaDocumentId(alias: string, mediaKey: string): string {
+  const user = validateUserAlias(alias);
+  if (!MEDIA_DOCUMENT_KEY_PATTERN.test(mediaKey)) {
+    throw new IdentityValidationError('Chave de mídia deve ter 16 caracteres hexadecimais');
+  }
+  return assertRemoteIdLength(`concursos--${user}--midia--${mediaKey}`);
+}
+
 export function buildNavigationContestDocumentId(alias: string, contestStorageId: string): string {
   const user = validateUserAlias(alias);
   const contest = validateSegment(contestStorageId, CONTEST_MAX_LENGTH, 'ID de armazenamento do concurso');

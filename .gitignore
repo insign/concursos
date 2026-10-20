@@ -30,3 +30,8 @@ pnpm-debug.log*
 # agent task checkpoint
 /TASK_MEMORY.md
 /.task-memory/
+
+# media binaries: published to Cloudflare R2 by scripts/publish-media.mjs.
+# Only the versioned catalog travels in Git.
+/src/content/**/midia/*
+!/src/content/**/midia/catalogo.json

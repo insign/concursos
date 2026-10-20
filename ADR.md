@@ -236,3 +236,38 @@ Related: ADR-001, ADR-005, and GitHub issues #715, #717, #723, #728, #729, #730.
 - ✅ Keep `email_obfuscation` off and Web Analytics without an alternative injection.
 - ⚠️ The anti-bot challenge (`__CF$cv$params`) only affects bots and fails closed with retry.
 - ❌ No per-subdomain control for Email Obfuscation is introduced.
+
+## ADR-009: Per-subject media with R2 delivery and consumption-based completion (2026-10-20)
+
+**Status**: Accepted
+
+**Context**: Subjects need an optional companion audio or video track as a study alternative, without an administration UI, without new persisted semantics, and without weakening the static architecture, alias preflight cost, or offline integrity contracts. Media binaries cannot live in the repository: Git history is irreversible, the build budget (`scripts/build-budget.json`) caps output at 18,000 files / 524,288,000 bytes, and Cloudflare Pages rejects assets above 25 MiB. Delivery must satisfy iOS Safari, which requires `206 Partial Content` for audio/video playback, while Pages serves static assets with `200` for Range requests. Playback position must be per consumer (canonical media is shared), cheap to fetch on new devices, and mega reviews must remain stateless.
+
+Related: ADR-001, ADR-002, ADR-005, ADR-006.
+
+**Decision**:
+- Discover media by convention, with no administration screen. Each subject may carry a `midia/` folder at its resolved origin: `src/content/assuntos/<concurso>/<grupo...>/<assunto>/midia/` for physical subjects, `src/content/biblioteca/<grupo...>/<assunto>/midia/` for canonical origins. A consumer carrying `vinculo.json` MUST NOT have its own `midia/`; the build fails with an explicit message. Canonical media is shared by all consumers; playback position and completion remain per consumer.
+- Version the contract as `midia/catalogo.json` with strict schema `{schemaVersion: 1, items: [{file, sha256, bytes}]}` (1 to 16 items). MIME and URL are never stored in the catalog; the code derives them as `/media/<sha256>.<ext>`. The SHA-256 digest is the immutable content identity.
+- Keep binaries out of Git and deliver them from R2. The media file stays in the folder as the editorial source (MEGA-synced) but is Git-ignored. `npm run midia:publicar` uploads the bytes to the `concursos-midia` bucket under `media/<sha256>.<ext>` and rewrites the versioned `catalogo.json`. The command is idempotent and supports `--dry-run`.
+- Deliver same-origin through a Pages Function. `functions/media/[[path]].ts` reads the R2 object with a range read (`env.MIDIA.get(key, { range: { offset, length } })`) and answers `206` with `Content-Range`, `Content-Length`, and `Accept-Ranges`. `public/_routes.json` restricts invocations to `/media/*`. The `/media/*` route stays out of the alias preflight and out of the contest offline package.
+- Persist playback state in one KV document per consumer subject. Namespace `concursos--<alias>--midia--<16 hex>`, where the 16 hex characters are the SHA-256 of `<contestStorageId>--<subjectStorageId>` computed at build time; the short key exists because the remote KV ID is limited to 100 characters while the identity pair can occupy up to 53. New IndexedDB store `midia` (v7→v8) keyed by `documentId`, with `by-profile` and `by-profile-outbox` indexes. The document is read on demand when the subject opens, and is excluded from `readProfilePreflight` and `/sync-catalog.json`: joining on a new device costs the same as before.
+- Complete the subject by media consumption, with no new semantics. Reaching 90% of duration (95% for media under two minutes) or the ended event marks the subject as studied automatically, with a discreet notice and an Undo action. Completion state remains the existing `estudados` document; `studiedSchema` does not change. With more than one track, the mark requires every track to complete. Without an active alias the player works but nothing is saved.
+- Out of scope for this decision: administration UI, transcription, captions, HLS/DASH, DRM, media in the cheat sheet, on the questions page, or in mega reviews, media in the offline package or precache, and third-party players.
+- ADR-005 stands: mega reviews receive no stateful player, because their exclusion from any persisted state is explicit.
+
+**Rationale**:
+- Convention-based discovery reuses the proven resolved-origin model (ADR-001): one editorial source, per-consumer views, build-time failure on ambiguity.
+- A content hash as identity makes renames and re-encodes explicit new objects instead of silent mutations, and keeps the catalog free of derivable URLs.
+- Binaries stay out of the repository because Git history cannot be rewritten cheaply, the build budget caps files and bytes, and the 25 MiB Pages asset limit would reject long media; R2 holds bytes while Git versions only the small catalog.
+- A Pages Function is required because static Pages answers Range with `200`, which iOS Safari refuses for media; a same-origin function keeps CSP, offline, and alias contracts untouched while returning correct `206` responses.
+- An on-demand per-consumer document keeps alias activation cost flat (ADR-002): playback position is fetched only when the subject opens, never in the preflight or catalog sync.
+- Reusing the `estudados` document avoids a schema migration and keeps completion meaning identical whether it comes from reading or listening; differentiated thresholds (90%/95%) account for short-track seek noise.
+- Rejected alternatives: Git-LFS or in-repo binaries (irreversible history growth, budget and size limits); static-asset delivery (iOS `206` requirement); storing MIME/URL in the catalog (duplicated derivable data that drifts); a global per-alias playback document (unbounded growth, preflight pollution); new studied semantics (migration cost for identical meaning); stateful mega-review players (contradicts ADR-005).
+
+**Consequences**:
+- ✅ Subjects can ship audio/video companions with one editorial source shared across contests, content-addressed delivery, and correct seeking on iOS Safari.
+- ✅ Repository, build budget, alias preflight, sync catalog, and offline packages are unaffected: binaries bypass Git, catalogs stay small, and media routes and documents are excluded from preflight, sync, and offline flows.
+- ✅ Learners resume playback per consumer and complete subjects by listening or watching, with identical studied meaning and an undo path.
+- ⚠️ Authors must run `npm run midia:publicar` before deploy; catalog entries without uploaded bytes fail delivery, and the folder source must be kept in sync via MEGA outside Git.
+- ⚠️ Every subject open performs an on-demand KV/IndexedDB read for its media document, and multi-track subjects require all tracks to complete before the studied mark.
+- ❌ No administration UI, transcription, captions, adaptive streaming, DRM, offline media, or third-party player is introduced; mega reviews remain media- and state-free.

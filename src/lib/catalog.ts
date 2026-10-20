@@ -10,15 +10,23 @@ import {
   type CatalogTreeNodeIndex,
 } from './catalog-core';
 import { parseBibliotecaResolutionId, parseResolutionId } from './content-paths';
+import { mediaDocumentKey } from './media-identity';
+import { resolveSubjectMedia, type SubjectMediaItem } from './media-catalog';
 
 export * from './catalog-core';
 
 // Obrigatório desde a migração completa dos companions de referências.
 const REQUIRE_REFERENCES = true;
 
+export type { SubjectMediaItem } from './media-catalog';
+
 export interface CatalogSubject extends CatalogSubjectIndex {
   /** Origem canônica resolvida (`vinculo.json`) ou `null` quando o assunto é físico. */
   canonicalId: string | null;
+  /** Mídias do assunto resolvido; vazio quando o assunto não tem mídia. */
+  media: SubjectMediaItem[];
+  /** Chave curta e determinística do documento de mídia deste assunto consumidor. */
+  mediaKey: string;
   contentEntry: CollectionEntry<'conteudos'>;
   cheatSheetEntry: CollectionEntry<'cheatSheets'>;
   questionSetEntry: CollectionEntry<'questoes'>;
@@ -82,6 +90,8 @@ async function loadCatalog(): Promise<Catalog> {
     bibliotecaReferenceEntries,
     bibliotecaMegaReviewEntries,
     vinculoEntries,
+    mediaCatalogEntries,
+    bibliotecaMediaCatalogEntries,
   ] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
@@ -99,6 +109,8 @@ async function loadCatalog(): Promise<Catalog> {
     getCollection('bibliotecaReferencias'),
     getCollection('bibliotecaMegaRevisoes'),
     getCollection('vinculos'),
+    getCollection('midias'),
+    getCollection('bibliotecaMidias'),
   ]);
 
   for (const entry of referenceEntries) {
@@ -131,6 +143,26 @@ async function loadCatalog(): Promise<Catalog> {
     vinculos: vinculoEntries.map(({ id, data }) => ({ id, data })),
   }, { requireReferences: REQUIRE_REFERENCES });
 
+  const knownSubjectIds = new Set(
+    index.contests.flatMap((contest) => contest.subjects.map((subject) => subject.id)),
+  );
+  const knownCanonicalIds = new Set(
+    vinculoEntries.map((entry) => entry.data.canonical as string),
+  );
+
+  for (const entry of mediaCatalogEntries) {
+    if (!knownSubjectIds.has(entry.id)) {
+      throw new Error(`Catálogo de mídia órfão: "${entry.id}" não corresponde a nenhum assunto`);
+    }
+  }
+  for (const entry of bibliotecaMediaCatalogEntries) {
+    if (!knownCanonicalIds.has(entry.id)) {
+      throw new Error(
+        `Catálogo de mídia de biblioteca órfão: "${entry.id}" não é referenciado por nenhum vínculo`,
+      );
+    }
+  }
+
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
   const megaReviewById = new Map(megaReviewEntries.map((entry) => [entry.id, entry]));
   const megaReviewVinculoById = new Map(megaReviewVinculoEntries.map((entry) => [entry.id, entry]));
@@ -139,6 +171,10 @@ async function loadCatalog(): Promise<Catalog> {
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
   const referenceById = new Map(referenceEntries.map((entry) => [entry.id, entry]));
   const vinculoById = new Map(vinculoEntries.map((entry) => [entry.id, entry]));
+  const mediaCatalogBySubjectId = new Map(mediaCatalogEntries.map((entry) => [entry.id, entry]));
+  const bibliotecaMediaCatalogById = new Map(
+    bibliotecaMediaCatalogEntries.map((entry) => [entry.id, entry]),
+  );
   const bibliotecaContentById = new Map(bibliotecaContentEntries.map((entry) => [entry.id, entry]));
   const bibliotecaCheatById = new Map(bibliotecaCheatSheetEntries.map((entry) => [entry.id, entry]));
   const bibliotecaQuestionById = new Map(bibliotecaQuestionSetEntries.map((entry) => [entry.id, entry]));
@@ -197,9 +233,17 @@ async function loadCatalog(): Promise<Catalog> {
         if (!contentEntry || !cheatSheetEntry || !questionSetEntry) {
           throw new Error(`Entradas de catálogo ausentes para o assunto "${subject.id}"`);
         }
+        const { media } = resolveSubjectMedia({
+          subjectId: subject.id,
+          canonicalId: canonical ?? null,
+          ownCatalog: mediaCatalogBySubjectId.get(subject.id)?.data,
+          canonicalCatalog: canonical ? bibliotecaMediaCatalogById.get(canonical)?.data : undefined,
+        });
         return {
           ...subject,
           canonicalId: canonical ?? null,
+          media,
+          mediaKey: mediaDocumentKey(contest.storageId, subject.storageId),
           contentEntry: contentEntry as CollectionEntry<'conteudos'>,
           cheatSheetEntry: cheatSheetEntry as CollectionEntry<'cheatSheets'>,
           questionSetEntry: questionSetEntry as CollectionEntry<'questoes'>,

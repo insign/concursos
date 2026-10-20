@@ -18,6 +18,7 @@
     "build:budget": "node scripts/check-build-budget.mjs",
     "build:estimate": "node scripts/estimate-scale.mjs",
     "report:mega-review-equivalences": "node scripts/report-mega-review-equivalences.mjs",
+    "midia:publicar": "node scripts/publish-media.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

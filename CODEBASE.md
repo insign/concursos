@@ -5,6 +5,9 @@
 ```text
 .
 ├── astro.config.mjs                 # Astro 7 static build, Markdown pipeline, CSP and PWA integration
+├── wrangler.toml                     # Cloudflare Pages project `concursos` with R2 binding `MIDIA`
+├── functions/
+│   └── media/[[path]].ts            # Pages Function serving R2 media objects with partial 206 responses
 ├── package.json                      # npm scripts and runtime/development dependencies
 ├── tsconfig.json                     # Astro strict TypeScript configuration
 ├── vitest.config.ts                  # Unit-test discovery
@@ -20,6 +23,7 @@
 │   ├── build-service-worker.mjs      # Bundles and injects the Workbox precache manifest
 │   ├── migrate-references.mjs        # One-off references migration script (provenance)
 │   ├── generate-icons.mjs            # Generates PWA and favicon assets
+│   ├── publish-media.mjs             # Publishes subject media to R2 and generates `midia/catalogo.json`
 │   └── lib/
 │       ├── build-budget.mjs          # Pure evaluateBuildBudget(metrics, budget) helper
 │       ├── concurrency.mjs           # resolveConcurrency() + mapConcurrent() pool
@@ -29,6 +33,7 @@
 ├── public/
 │   ├── _headers                       # Pages security and cache headers
 │   ├── _redirects                     # Legacy redirects
+│   ├── _routes.json                   # Restricts Functions to `/media/*`
 │   ├── robots.txt                     # Crawler policy
 │   └── icons/                         # PWA, Apple touch and theme icons
 ├── src/
@@ -44,7 +49,8 @@
 │   │           ├── cheat-sheet.md      # Printable quick reference
 │   │           ├── questoes.json       # Editorial question set
 │   │           ├── referencias.md      # Required subject references
-│   │           └── resolucoes/*.md     # Optional question resolutions plus aggregated referencias.md
+│   │           ├── resolucoes/*.md     # Optional question resolutions plus aggregated referencias.md
+│   │           └── midia/catalogo.json # Generated versioned media catalog (binary lives in R2, not Git)
 │   ├── pages/                         # Static UI pages and JSON endpoints
 │   ├── components/                    # Astro UI components and browser runtimes
 │   ├── layouts/                       # BaseLayout and StudyLayout composition
@@ -60,7 +66,8 @@
 ├── tests/
 │   ├── unit/                          # Vitest tests for pure logic and persistence
 │   └── e2e/                           # Playwright Chromium tests against dist
-├── docs/                              # Supporting project documentation
+├── docs/
+│   └── midia.md                       # Subject-media convention, publishing, limits, 206 gate and diagnostics
 └── dist/                              # Generated static output and offline manifests
 ```
 
@@ -82,6 +89,8 @@
 - `src/pages/busca/index.astro`: global search page with Orama headless + checkbox `[ ] Buscar em todos (online)`, `global=1` query, `isOnline` guard, `aria-controls`/`listbox`.
 - `src/pages/offline-inventories/[concurso].json.ts`: exposes each catalog-derived contest inventory, including generated mega-review routes and per-contest `/search/<storageId>.json` assets.
 - `src/service-worker.ts`: Workbox runtime, precache (transitive via `precache-dependencies`), offline navigation, `matchOfflineAsset`/`matchActiveContestCaches`/`matchRuntimePage`, NetworkOnly `https://kv.helio.me` + `NetworkOnly` `/search-global.json` and `matchActiveContestCaches` for `/search/<id>.json` with `cache:'reload'` bypass, navigation-triggered auto-update, Periodic Background Sync.
+- `functions/media/[[path]].ts`: Pages Function serving `/media/<sha256>.<ext>` from the R2 `MIDIA` bucket with `Range`/`206` support, immutable cache headers and `GET`/`HEAD` only.
+- `scripts/publish-media.mjs` (`npm run midia:publicar`): publishes subject-media binaries to R2 and regenerates versioned `midia/catalogo.json` files (`--dry-run` previews without uploading).
 - `scripts/build.mjs`: canonical build orchestrator — `astro build` → `finalize-security.mjs` → `inventories ‖ serviceWorker` in parallel (sequential when `BUILD_SEQUENTIAL=1`); concurrency via `scripts/lib/concurrency.mjs`, metrics to `.build-metrics.json` (`BUILD_METRICS_PATH` override).
 - `tests/unit/**/*.test.ts`: Vitest entrypoint selected by `vitest.config.ts`.
 - `tests/e2e/**/*.spec.ts`: Playwright Chromium entrypoint; its web server builds `dist` and serves it with Wrangler Pages Dev.
@@ -100,6 +109,8 @@
 - `questoes`: `src/content/assuntos/**/questoes.json`, IDs from `subjectIdFromEntry`, validated by `questionSetSchema`.
 - `resolucoes`: `src/content/assuntos/**/resolucoes/*.md` (excluding `**/resolucoes/referencias.md`), IDs from `resolutionIdFromEntry`, validated by `resolutionSchema`.
 - `referencias`: glob `**/referencias.md`, subject, mega-review and aggregated resolution references.
+- `midias`: `src/content/assuntos/**/midia/catalogo.json`, validated by `mediaCatalogSchema`.
+- `bibliotecaMidias`: `src/content/biblioteca/**/midia/catalogo.json`, validated by `mediaCatalogSchema`.
 
 `src/lib/content-paths.ts` defines the canonical editorial identity:
 
@@ -110,6 +121,7 @@
 - Resolution: `<subject-id>/resolucoes/<question-id>`; the question ID uses the stable editorial ID alphabet, and `referencias` is rejected as a question ID.
 - Reference: `referenceIdFromEntry`/`parseReferenceId` derive reference IDs from subject, mega-review and resolution-aggregate paths.
 - `storageId` belongs to contests and subjects and is used for persistence and auxiliary routes; groups do not have storage identity.
+- Subject media lives in `midia/` at the resolved origin (physical subject folder or canonical `biblioteca` origin); a consumer with `vinculo.json` must not have its own `midia/` — `resolveSubjectMedia()` fails closed on mixed origins. `CatalogSubject.media` holds the resolved descriptors and `CatalogSubject.mediaKey` the build-computed 16-hex document key (`mediaDocumentKey(<contestStorageId>--<subjectStorageId>)`); orphan `midia/catalogo.json` files (no matching subject or vinculo) fail the build.
 - Public subject URLs remain short: `/concursos/<concurso-slug>/<assunto-slug>/`, independent of nested group depth.
 
 ### Main static routes and auxiliary data
@@ -130,6 +142,7 @@
 - `/simulados/catalog.json`: contest/subject metadata and counts by question origin.
 - `/simulados/pool/<contestStorageId>.json`: full question pool for a contest, loaded when a simulado is generated.
 - `/offline-inventories/<contestStorageId>.json`: generated package manifest for a contest.
+- `/media/<sha256>.<ext>`: immutable subject-media object served from R2 via the Pages Function (not a static asset, so iOS Safari gets `206`).
 - `/simulados/`, `/configuracoes/`, `/offline/` and `/404`: auxiliary UI routes.
 
 ## Core Modules
@@ -149,9 +162,9 @@
 
 ### Catalog and editorial validation
 
-- `src/lib/catalog.ts`: `getCatalog()` loads the collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, exposes per-contest `examDate` from the contest JSON, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`. Phase 0–3 memoizes by build: module-scoped `catalogPromise` ensures a single `loadCatalog()` per build/SSR instance.
+- `src/lib/catalog.ts`: `getCatalog()` loads the collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, exposes per-contest `examDate` from the contest JSON, indexes resolutions by subject, resolves `CatalogSubject.media`/`mediaKey` via `resolveSubjectMedia()`/`mediaDocumentKey()` with orphan-catalog validation, creates offline inventory metadata and supplies `getSubjectStaticPaths()`. Phase 0–3 memoizes by build: module-scoped `catalogPromise` ensures a single `loadCatalog()` per build/SSR instance.
 - `src/lib/catalog-core.ts`: `buildCatalogIndex()` validates canonical IDs, optional mega-review ownership, contest-local review slugs alongside contest/subject storage IDs, companion files, group ancestry, non-empty groups, contest references, public subject slug uniqueness, orphan resolutions, question existence and exact question revisions; its validation matrix takes a `requireReferences` option (subject references always required; a mega review requires references iff it exists; resolutions require the aggregate iff any resolution exists; orphaned/duplicated/empty-body references fail); it sorts the group tree and flat subject projection, assigns previous/next subject IDs and adds mega-review routes to `createOfflineInventory()`.
-- `src/lib/content-schema.ts`: strict Zod schemas for contests, groups, mega reviews, subjects, resolutions, question sets and synchronization question sets.
+- `src/lib/content-schema.ts`: strict Zod schemas for contests, groups, mega reviews, subjects, resolutions, question sets and synchronization question sets, plus `mediaCatalogSchema` (`schemaVersion: 1`, 1–16 items with unique `file`/`sha256`/`bytes`).
 - `src/lib/content-paths.ts`: path normalization, route-segment checks and parsers for contest, group, mega-review, subject and resolution IDs; also `referenceIdFromEntry`/`parseReferenceId` for reference entries.
 - `src/lib/catalog-groups.ts`: versioned local persistence of collapsed catalog groups.
 - `src/lib/mega-review-routes.ts`: builds encoded public routes in `/revisoes/<contestSlug>/<reviewSlug>/`.
@@ -169,6 +182,18 @@
 - `src/lib/navigation*.ts`, `subject-suggestion.ts`, `studied.ts`, `reading-preferences.ts`: navigation documents, reading-position persistence, study marks, suggestion selection and reading customization.
 - `src/components/DocumentReferences.astro`: collapsed inline `<details>` references block at the end of articles; expanded on print (idempotent beforeprint/afterprint) and hidden in `#focus`.
 - `src/lib/reading-progress.ts`: pure `readingProgressFraction` used by `ReadingFocusRuntime.astro`; ends the fraction at the top of `[data-reading-progress-ignore]`.
+
+### Subject media
+
+- `src/lib/media-paths.ts`: `midia/` convention, accepted extensions (`mp3`, `m4a`, `ogg`, `opus`, `mp4`, `webm`), MIME/kind derived from the filename, immutable URL `/media/<sha256>.<ext>` and humanized labels.
+- `src/lib/media-catalog.ts`: builds `SubjectMediaItem` descriptors from a catalog (MIME/URL derived, never stored) and resolves physical vs canonical origins, failing closed on mixed origins.
+- `src/lib/media-identity.ts`: build-computed 16-hex media document key (`SHA-256(<contestStorageId>--<subjectStorageId>)`).
+- `src/lib/media-state.ts`: strict per-consumer media document schema (selected media + up to 16 positions), completion thresholds (90%; 95% under 2 minutes), oldest-first upsert pruning and the all-items-completed studied decision.
+- `src/lib/media-client.ts`: browser-local position/selection persistence (no alias means play-only) plus on-demand remote document fetch without a write lease.
+- `src/lib/media-sync.ts`: whole-document version arbitration over `readKv`/`writeKv` (adopt-remote vs publish-local vs noop), invalid-remote quarantine, pending-document publishing and on-demand loading.
+- `src/components/SubjectMedia.astro`: native `<audio>`/`<video>` player with a selector for multiple items, position resume, completion toast with undo and studied marking; no Media Session integration.
+- `functions/media/[[path]].ts`: serves R2 `MIDIA` objects at the site origin with `Range`/`206` handling, immutable caching and `GET`/`HEAD` only.
+- `scripts/publish-media.mjs`: idempotent R2 publisher (`media/<sha256>.<ext>`) and `catalogo.json` generator.
 
 ### Questionnaire and question resolutions
 
@@ -201,7 +226,7 @@
 
 ### Offline persistence, synchronization and PWA
 
-- `src/lib/offline-db.ts`: IndexedDB version 7 (`responses`, `preferences`, `progress`, `estudados`, `leitura`, `previsoes`, `simulados`, `simuladosIndex`, `downloads`, `downloadJobs`, `downloadDiagnostics`, `leases` and `quarantine`); stores durable snapshots, outboxes, download records, persisted background-fetch jobs, leases and invalid remote documents; the upgrade is additive and idempotent. `openOfflineDb()` clears the memoized promise when the open rejects so a later call retries; `deleteOfflineDatabase()` still closes/deletes after a failed open.
+- `src/lib/offline-db.ts`: IndexedDB version 8 (`responses`, `preferences`, `progress`, `estudados`, `leitura`, `previsoes`, `simulados`, `simuladosIndex`, `midia`, `downloads`, `downloadJobs`, `downloadDiagnostics`, `leases` and `quarantine`); stores durable snapshots, outboxes, download records, persisted background-fetch jobs, leases and invalid remote documents; the upgrade is additive and idempotent. `openOfflineDb()` clears the memoized promise when the open rejects so a later call retries; `deleteOfflineDatabase()` still closes/deletes after a failed open. The `midia` store (keyed by document ID) holds per-consumer media documents; `hasPendingOutbox` and `discardPendingProfile` cover it.
 - `src/lib/offline-packages.ts`: validates contest manifests, downloads same-origin routes/assets, coordinates operations with Web Locks, stages temporary caches, atomically promotes packages via the exported `activateStagedPackage()` (best-effort post-activation cleanup), exposes `adoptStagedPackageUnderLock()` and `assertStorageCapacity()`, preserves the previous package on failure and removes orphan caches. `hashOfflineResource()` is `sha256(utf8 path + body).hex.slice(0,20)`, matching `resourceHash` in `scripts/lib/offline-inventory-builder.mjs`; downloads with `expectedHash` clone the `Response`, hash the clone and `put` the original (hash skipped when `expectedHash` is `undefined`). The Background Fetch path is unchanged (not hashed). Both strip the injected Cloudflare Web Analytics snippet in mirrored fashion (binaries untouched), and the CSP allows the beacon origins.
 - `src/lib/offline-download-events.ts`: singleton `publishDownloadEvent()` and per-subscriber `subscribeDownloadEvents()` over the `concursos-offline-downloads` BroadcastChannel, with payload validation and close-on-unsubscribe.
 - `src/lib/offline-auto-update.ts`: `maybeUpdateOfflinePackages('navigation' | 'periodic')` auto-update engine with in-memory throttling (30 min navigation / 60 min periodic), `navigator.onLine` guard, manifest-hash comparison per download record and delta downloads with `phase: 'update'`; failures are swallowed. Each manifest fetch times out (default 8s), the injected fetch is passed to `downloadContestPackage`, mismatched `contestStorageId` manifests are skipped, and the throttle timestamp is stamped only after `listOfflineContestRecords()` succeeds.
@@ -210,9 +235,9 @@
 - `src/service-worker.ts`: precaches generated assets (transitive deps via `precache-dependencies`), uses `matchPrecache` + `matchOfflineAsset` (precache → `SHARED_ASSET_CACHE` → contest caches) and `matchRuntimePage` fallback on navigation failure, NetworkFirst navigation with `/offline/` fallback, CacheFirst shared/media/downloaded resources, keeps `https://kv.helio.me` NetworkOnly, handles `/_astro/` + `image` via `matchOfflineAsset`, and `subject-suggestions`/`navigation-catalog` shards via contest-cache-first; forwards Background Sync, triggers `maybeUpdateOfflinePackages('navigation')` on navigations (`waitUntil`, non-blocking), handles `periodicsync` `concursos-offline-updates`.
 - `src/components/OfflineContestButton.astro` and `src/pages/offline.astro`: download/remove controls and the offline-availability page; the button cascades from Background Fetch to the in-page flow when supported, mirrors update-phase download events and renews availability after completions/failures.
 - `src/components/PwaRuntime.astro` and `src/lib/pwa-update.ts`: register the Service Worker, register Periodic Background Sync (`concursos-offline-updates`) in standalone mode when supported, wait for local durability before activation/reload and clean inactive package caches. Code updates use a throttled `registration.update()` scheduler (visibility/focus/online/interval), build stamp in `dist/service-worker.js`, durable-gated reload via warm-fetch plus selective `runtime-pages-v1` eviction with multi-tab `controllerchange` guard, reusing the existing controller and leaving untouched contest downloads intact.
-- `src/lib/sync.ts`: serial KV synchronization for answers and global preferences/progress/studied/reading documents, with schema validation, revision checks, leases, retries, quarantine and last-write-wins arbitration.
+- `src/lib/sync.ts`: serial KV synchronization for answers and global preferences/progress/studied/reading documents, with schema validation, revision checks, leases, retries, quarantine and last-write-wins arbitration. Pending `midia` documents are published via `synchronizePendingMedia()` outside the alias preflight, so activating an alias on a new device reads no media.
 - `src/lib/kv-client.ts`: sole KV client; validates envelopes, applies timeout/429 retry/body limits and sends complete JSON documents without authorization headers.
-- `src/lib/identity.ts`: validates aliases/storage IDs and builds stable local/remote document IDs.
+- `src/lib/identity.ts`: validates aliases/storage IDs and builds stable local/remote document IDs, including `buildMediaDocumentId()` (`concursos--<alias>--midia--<16 hex>`) for per-consumer media documents.
 - `src/lib/profile-backup.ts`, `preferences.ts`, `progress.ts`, `navigation-db.ts`, `navigation-sync.ts` and `local-durability.ts`: profile backup, materialized progress, navigation persistence/synchronization and durability barriers.
 - `src/pages/offline-inventories/[concurso].json.ts`: exposes each catalog-derived contest inventory, including generated mega-review routes.
 - `scripts/generate-offline-inventories.mjs`: scans generated HTML and transitive CSS/JavaScript references, separates shared assets from contest assets and writes manifest hashes/byte estimates for the derived inventories (delegates to `scripts/lib/offline-inventory-builder.mjs`).
@@ -225,7 +250,8 @@
 3. Study pages render content or pass question data to browser controllers; local answer/progress state is stored in IndexedDB and optionally synchronized through `sync.ts` and `kv-client.ts`.
 4. Resolution descriptors are indexed at build time. A corrected question opens the static subject resolution document, checks the requested revision and lazily renders Mermaid in the dialog.
 5. Simulado generation fetches a static contest pool, draws questions into immutable snapshots, stores the detailed attempt locally, then updates the profile index; synchronization publishes details before the index.
-6. The build post-processes generated HTML via `scripts/build.mjs` (Astro → security → inventories ‖ SW), derives offline inventories containing the catalog's mega-review routes with transitive asset hashing, produces the Service Worker with transitive precache deps, shards sync/navigation/subject-suggestions endpoints per contest, and writes `.build-metrics.json` for budget enforcement. Contest downloads stage routes/assets in Cache Storage while IndexedDB records the active package; updates run as hash-based delta downloads triggered by navigation, Periodic Background Sync or the button.
+6. Subject media is published by `scripts/publish-media.mjs` (binary to R2, versioned `midia/catalogo.json` to Git); the catalog resolves descriptors and `mediaKey` at build time, `SubjectMedia.astro` plays `/media/<sha256>.<ext>` via the Pages Function, and playback position lives in a per-consumer `midia` document persisted in IndexedDB and synchronized on demand outside the alias preflight — reaching the completion threshold marks the subject studied through the existing `estudados` document.
+7. The build post-processes generated HTML via `scripts/build.mjs` (Astro → security → inventories ‖ SW), derives offline inventories containing the catalog's mega-review routes with transitive asset hashing, produces the Service Worker with transitive precache deps, shards sync/navigation/subject-suggestions endpoints per contest, and writes `.build-metrics.json` for budget enforcement. Contest downloads stage routes/assets in Cache Storage while IndexedDB records the active package; updates run as hash-based delta downloads triggered by navigation, Periodic Background Sync or the button.
 
 ## Main Commands
 
@@ -239,6 +265,7 @@ npm run test:e2e
 npm run build
 npm run preview
 npm run icons
+npm run midia:publicar
 ```
 
 - `npm run dev`: Astro development server.
@@ -249,13 +276,14 @@ npm run icons
 - `npm run build`: static production build orchestrated by `scripts/build.mjs` (Astro → `finalize-security` → `generate-offline-inventories ‖ build-service-worker` with `BUILD_SEQUENTIAL`/`BUILD_CONCURRENCY`/`BUILD_METRICS_PATH` env overrides); publish directory is `dist`.
 - `npm run preview`: Astro preview server.
 - `npm run icons`: regenerates icons from the icon source/generator.
+- `npm run midia:publicar`: publishes subject-media binaries to R2 (`media/<sha256>.<ext>`) and regenerates `midia/catalogo.json`; `--dry-run` previews without uploading.
 - `node scripts/check-build-budget.mjs`: validates `.build-metrics.json` against `scripts/build-budget.json`.
 - `node scripts/estimate-scale.mjs`: estimates current vs target study-HTML scale (env `TARGET_CONTESTS`/`TARGET_SUBJECTS_PER_CONTEST`).
 - Deployment has no npm deploy script: the existing Cloudflare Pages Git integration builds `main` with `npm run build` and publishes `dist`; Wrangler Pages Dev is used locally by E2E.
 
 ## Testing
 
-- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `reading-progress.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `offline-download-events.test.ts`, `offline-auto-update.test.ts`, `offline-background-fetch.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, `build-scripts.test.ts` (lib/build-budget, lib/concurrency, lib/finalize-security, lib/offline-inventory-builder chunked hashing/cache), `static-catalogs.test.ts` (buildSyncCatalogSubjects, buildNavigationCatalogRoutes), profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
+- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `reading-progress.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `offline-download-events.test.ts`, `offline-auto-update.test.ts`, `offline-background-fetch.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, `media-paths.test.ts`, `media-catalog.test.ts`, `media-state.test.ts`, `build-scripts.test.ts` (lib/build-budget, lib/concurrency, lib/finalize-security, lib/offline-inventory-builder chunked hashing/cache), `static-catalogs.test.ts` (buildSyncCatalogSubjects, buildNavigationCatalogRoutes), profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
 - E2E coverage includes `mega-review.spec.ts` for rich Markdown, catalog links, print behavior and no-JavaScript readability; `catalog-shards.spec.ts` for global vs per-contest sync/navigation/subject-suggestions shards and indices (schemaVersion, same-origin, storageId routing); `pwa.spec.ts` also verifies the mega-review route in the offline inventory and cached navigation. The suite also includes `questionnaire.spec.ts`, `resolutions.spec.ts`, `simulados.spec.ts`, `simulados-result-breakdown.spec.ts`, navigation/offline, background fetch (`offline-background.spec.ts`), catalog groups, subject suggestion/navigation/pagination, reading mode/customizer/resume, identity, sync, profile backup, studied, preferences/progress, security, header, theme, abbreviation and final validation specs.
 - `playwright.config.ts` blocks Service Workers by default; `tests/e2e/pwa.spec.ts` enables them explicitly. E2E runs against the Pages-compatible Wrangler server so `_headers` behavior is exercised.
 
@@ -266,6 +294,7 @@ npm run icons
 - Browser state/PWA: `idb`, Mermaid, `vite-plugin-pwa`, Workbox packages and local fonts/assets.
 - Validation: Zod schemas are used for editorial data, static auxiliary payloads, IndexedDB documents and KV envelopes.
 - Tooling: Vitest, Playwright, Sharp, TypeScript, Vite, Workbox Build and Wrangler.
+- Media delivery: `wrangler.toml` defines the Pages project `concursos` with R2 binding `MIDIA`; `public/_routes.json` restricts Functions to `/media/*`; `docs/midia.md` documents the convention, publishing, limits, 206 verification gate and diagnostics.
 - `astro.config.mjs` keeps the site static, uses local KaTeX/font assets, restricts Mermaid to strict security and permits KV only in `connect-src`.
 
 ## Points of Attention
@@ -279,5 +308,8 @@ npm run icons
 - Questionnaire origin filtering is display-only and is never persisted; submission, progress and synchronization remain scoped to the full question set.
 - Simulado snapshots are historical documents and must not be rebuilt from the current catalog when reviewed.
 - KV traffic is never cached by the Service Worker; remote JSON is validated before adoption and invalid data is quarantined.
+- Subject media is addressed by content hash (`/media/<sha256>.<ext>`) with immutable caching; static Pages asset serving returns `200` for `Range`, so media goes through the Pages Function to guarantee `206` (verify with the `curl Range: bytes=0-1` gate in `docs/midia.md`).
+- Media belongs to the resolved origin only: a `vinculo.json` consumer with its own `midia/` fails the build, as does an orphan `midia/catalogo.json`; media binaries never enter Git, `dist/` or the offline package/precache.
+- Media playback position is a per-consumer `midia` document synchronized on demand outside the alias preflight; without an active alias the player is play-only. Reaching 90% of the duration (95% under 2 minutes) marks the subject studied via the existing `estudados` document (all items when there are several), with an undo toast.
 - Mermaid resolution rendering is lazy, same-origin and strict, with readable source fallback when the runtime or diagram rendering fails.
 - `getCatalog()` is memoized per build process; repeated calls reuse the same promise. Sharded catalogs (`/sync-catalog/<id>.json`, `/navigation-catalog/<id>.json`, `/subject-suggestions/<id>.json`) are the scale path for 30×300 subjects; global endpoints remain for backward compatibility. Service Worker `matchOfflineAsset` and runtime-page fallback preserve offline navigation for sharded routes.

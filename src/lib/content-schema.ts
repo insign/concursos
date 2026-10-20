@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { isValidCalendarDate } from './exam-date';
+import { MEDIA_FILE_NAME_PATTERN } from './media-paths';
 
 const nonEmptyText = z.string().trim().min(1);
 const stableId = z.string().regex(/^[A-Za-z0-9_-]{1,64}$/);
@@ -63,6 +64,34 @@ export const megaReviewVinculoSchema = z
   .strict();
 
 export const cheatSheetSchema = z.object({}).strict();
+
+export const mediaCatalogItemSchema = z
+  .object({
+    file: z.string().regex(MEDIA_FILE_NAME_PATTERN),
+    sha256: z.string().regex(/^[a-f0-9]{64}$/),
+    bytes: z.number().int().positive(),
+  })
+  .strict();
+
+export const mediaCatalogSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    items: z.array(mediaCatalogItemSchema).min(1).max(16),
+  })
+  .strict()
+  .superRefine((catalog, context) => {
+    const seen = new Set<string>();
+    catalog.items.forEach((item, index) => {
+      if (seen.has(item.file)) {
+        context.addIssue({
+          code: 'custom',
+          message: `Arquivo de mídia duplicado: "${item.file}"`,
+          path: ['items', index, 'file'],
+        });
+      }
+      seen.add(item.file);
+    });
+  });
 
 export const referenceSchema = z.object({}).strict();
 
@@ -194,6 +223,8 @@ export type MegaReviewData = z.infer<typeof megaReviewSchema>;
 export type MegaReviewVinculoData = z.infer<typeof megaReviewVinculoSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
 export type ReferenceData = z.infer<typeof referenceSchema>;
+export type MediaCatalogItemData = z.infer<typeof mediaCatalogItemSchema>;
+export type MediaCatalogData = z.infer<typeof mediaCatalogSchema>;
 export type ResolutionData = z.infer<typeof resolutionSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;
 export type QuestionOrigin = z.infer<typeof questionOriginSchema>;

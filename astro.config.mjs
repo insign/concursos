@@ -35,6 +35,8 @@ export default defineConfig({
         "form-action 'self'",
         "frame-src 'none'",
         "img-src 'self'",
+        // A mídia é servida pela própria origem, pela rota /media/*.
+        "media-src 'self'",
         "manifest-src 'self'",
         "object-src 'none'",
         "worker-src 'self'",

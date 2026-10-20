@@ -98,6 +98,19 @@ Cada artefato tem função distinta:
 
 Não transforme `conteudo.md` em cheat sheet expandido, nem o cheat sheet em uma segunda apostila.
 
+### Mídia dos assuntos
+
+Um assunto pode ter áudio ou vídeo próprio, descoberto por convenção, sem tela de administração.
+
+- A pasta `midia/` fica na **origem resolvida** do assunto: `src/content/assuntos/<concurso>/<grupo...>/<assunto>/midia/` para assunto físico e `src/content/biblioteca/<grupo...>/<assunto>/midia/` para origem canônica. Um consumidor com `vinculo.json` não pode ter `midia/` própria; a build falha.
+- O contrato versionado é `midia/catalogo.json`, com `{schemaVersion, items:[{file, sha256, bytes}]}`. MIME e URL são derivados pelo código; o catálogo nunca guarda URL.
+- O binário não entra no Git: `npm run midia:publicar` o envia ao R2 e reescreve o catálogo. O arquivo continua na pasta como fonte editorial.
+- O player usa `<audio>`/`<video>` nativos, com seletor quando há mais de uma mídia. A mídia é alternativa de estudo: `conteudo.md` continua sendo a aula, e nada é escondido.
+- Consumir 90% da mídia (95% em mídia com menos de dois minutos) ou concluí-la marca o assunto como estudado, com aviso discreto e opção de desfazer. O estado de conclusão continua sendo o documento `estudados`; nenhuma semântica nova é criada.
+- A posição de reprodução vive em um documento do KV por assunto consumidor, lido sob demanda e fora do preflight de alias. Mega revisão não recebe mídia: ADR-005 exclui mega revisões de qualquer estado persistido.
+
+Limites, verificação de entrega e diagnóstico estão em `docs/midia.md`.
+
 ## Contrato pedagógico de `conteudo.md`
 
 ### Leitor e objetivo
@@ -335,3 +348,17 @@ Se a auditoria concluir que nenhuma alteração é necessária, não crie commit
 - Funcionalidades interativas devem funcionar por teclado, ter rótulos e estados acessíveis e respeitar foco.
 - Mudanças que afetem PWA, persistência, sincronização, simuladores, impressão ou offline exigem leitura dos ADRs pertinentes e inspeção específica do impacto.
 - Não enfraqueça contratos técnicos para fazer conteúdo “passar”.
+
+## 📐 Referência Rápida de ADRs
+
+| ADR | O quê / Por quê | Linhas |
+|-----|-----------------|--------|
+| 001 | Agrupamentos editoriais desacoplados de rotas e persistência | 3–30 |
+| 002 | Ativação de alias com preflight integral e arbitragem por documento | 31–64 |
+| 003 | Local durability barrier for automatic PWA activation | 65–90 |
+| 004 | Optional complex resolutions as derived editorial content | 91–124 |
+| 005 | Optional mega reviews as derived editorial documents | 125–157 |
+| 006 | Defer custom incremental build cache — keep optimized full-build fallback | 158–185 |
+| 007 | Canonical mega reviews shared across contests via biblioteca links | 186–217 |
+| 008 | Mirrored edge-mutation strip for offline download integrity | 218–239 |
+| 009 | Per-subject media with R2 delivery and consumption-based completion | 240–273 |

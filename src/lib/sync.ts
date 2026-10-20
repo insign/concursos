@@ -16,6 +16,7 @@ import {
   getLocalAnswerRecord,
   getSharedDocumentRecord,
   listPendingAnswerRecords,
+  listPendingMediaRecords,
   markAnswerSynced,
   markAnswerSyncError,
   markSharedDocumentError,
@@ -31,6 +32,7 @@ import {
   type LocalSharedDocumentRecord,
   type SharedStoreName,
 } from './offline-db';
+import { mediaBeforeRequest, synchronizePendingMedia } from './media-sync';
 import {
   DEFAULT_PREFERENCES,
   preferencesSchema,
@@ -1168,6 +1170,22 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
       const previsoesStillPending =
         (await getSharedDocumentRecord('previsoes', profileId))?.outboxState === 'pending';
       if (previsoesStillPending && !previsoesSyncFailed) failures += 1;
+
+      // Mídia: um documento por assunto, publicado só quando há pendência. Fica
+      // fora do preflight de alias para que a entrada em um aparelho novo não
+      // carregue nada de mídia.
+      if ((await listPendingMediaRecords(profileId)).length > 0) {
+        try {
+          const media = await synchronizePendingMedia(profileId, {
+            ensureLease,
+            beforeRequest: mediaBeforeRequest,
+          });
+          failures += media.failures;
+        } catch (error) {
+          if (error instanceof SyncLeaseLostError) throw error;
+          failures += 1;
+        }
+      }
 
       await ensureLease();
       const catalog = await loadSyncCatalog();

@@ -6,6 +6,7 @@ import {
   groupSchema,
   megaReviewSchema,
   megaReviewVinculoSchema,
+  mediaCatalogSchema,
   questionSetSchema,
   referenceSchema,
   resolutionSchema,
@@ -15,10 +16,12 @@ import {
 import {
   bibliotecaIdFromEntry,
   bibliotecaMegaReviewIdFromEntry,
+  bibliotecaMediaCatalogIdFromEntry,
   bibliotecaReferenceIdFromEntry,
   bibliotecaResolutionIdFromEntry,
   contestIdFromEntry,
   groupIdFromEntry,
+  mediaCatalogIdFromEntry,
   megaReviewIdFromEntry,
   megaReviewVinculoIdFromEntry,
   referenceIdFromEntry,
@@ -171,6 +174,24 @@ const vinculos = defineCollection({
   schema: vinculoSchema,
 });
 
+const midias = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/midia/catalogo.json',
+    generateId: ({ entry }) => mediaCatalogIdFromEntry(entry),
+  }),
+  schema: mediaCatalogSchema,
+});
+
+const bibliotecaMidias = defineCollection({
+  loader: glob({
+    base: './src/content/biblioteca',
+    pattern: '**/midia/catalogo.json',
+    generateId: ({ entry }) => bibliotecaMediaCatalogIdFromEntry(entry),
+  }),
+  schema: mediaCatalogSchema,
+});
+
 export const collections = {
   concursos,
   grupos,
@@ -188,4 +209,6 @@ export const collections = {
   bibliotecaResolucoes,
   bibliotecaMegaRevisoes,
   vinculos,
+  midias,
+  bibliotecaMidias,
 };

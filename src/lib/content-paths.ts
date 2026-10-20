@@ -346,3 +346,31 @@ export function vinculoIdFromEntry(entry: string): string {
   parseSubjectId(id);
   return id;
 }
+
+export function mediaCatalogIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/midia/catalogo.json';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de catálogo de mídia deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseSubjectId(id);
+  return id;
+}
+
+export function bibliotecaMediaCatalogIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/midia/catalogo.json';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(
+      `Arquivo de catálogo de mídia de biblioteca deve terminar em "${suffix}": "${entry}"`,
+    );
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseBibliotecaId(id);
+  return id;
+}

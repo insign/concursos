@@ -22,6 +22,9 @@ function outputPath(urlPath, distDirectory) {
 
 export function isInventoryAsset(urlPath) {
   if (urlPath === '/service-worker.js' || urlPath === '/service-worker-source.js') return false;
+  // A mídia é servida pelo R2, na rota /media/*, e não faz parte do pacote
+  // offline do concurso.
+  if (urlPath.startsWith('/media/')) return false;
   return urlPath.startsWith('/_astro/') || ASSET_EXTENSIONS.has(extname(urlPath));
 }
 

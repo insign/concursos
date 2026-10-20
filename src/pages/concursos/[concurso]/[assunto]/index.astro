@@ -4,6 +4,7 @@ import AbbreviationRuntime from '../../../../components/AbbreviationRuntime.astr
 import DocumentReferences from '../../../../components/DocumentReferences.astro';
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
 import StudyLayout from '../../../../layouts/StudyLayout.astro';
+import SubjectMedia from '../../../../components/SubjectMedia.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
 import { displaySubjectTitle } from '../../../../lib/subject-numbering';
 import { hasMermaidCodeFence } from '../../../../lib/resolution-markdown';
@@ -39,6 +40,16 @@ const hasMermaid = hasMermaidCodeFence(body) || hasMermaidCodeFence(referencesBo
   </div>
   <article data-print-hide-leading-h1={contentHasH1 ? '' : undefined}>
     {!contentHasH1 && <h1 class="reading-title">{displayTitle}</h1>}
+    {
+      subject.media.length > 0 && (
+        <SubjectMedia
+          items={subject.media}
+          contestStorageId={contest.storageId}
+          subjectStorageId={subject.storageId}
+          mediaKey={subject.mediaKey}
+        />
+      )
+    }
     <Content />
     {referencesRendered && ReferencesContent && (
       <DocumentReferences>
