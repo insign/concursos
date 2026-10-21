@@ -78,6 +78,20 @@ export const offlineMediaInventorySchema = z
 export type OfflineMediaItem = z.infer<typeof offlineMediaItemSchema>;
 export type OfflineMediaInventory = z.infer<typeof offlineMediaInventorySchema>;
 
+/**
+ * Erro da fase de midias. Distingue a falha do download do audio da falha
+ * do pacote de conteudo, para a interface falar com o usuario a partir do
+ * que de fato deu errado.
+ */
+export class OfflineMediaError extends Error {
+  readonly phase = 'media' as const;
+
+  constructor(message: string, options?: { cause?: unknown }) {
+    super(message, options);
+    this.name = 'OfflineMediaError';
+  }
+}
+
 export interface MediaDownloadProgress {
   completed: number;
   total: number;
@@ -90,6 +104,10 @@ export interface MediaDownloadOutcome {
   urls: string[];
   /** URLs que faltam para o inventario estar completo. */
   missing: string[];
+  /** URLs cuja transferencia falhou nesta operacao. */
+  failed: string[];
+  /** Primeiro erro observado, para a interface explicar a causa. */
+  firstError?: string;
   downloadedBytes: number;
 }
 
@@ -127,8 +145,10 @@ async function sha256Hex(contents: BufferSource): Promise<string> {
  * baixar nada.
  */
 export async function mediaInventoryHash(items: readonly OfflineMediaItem[]): Promise<string> {
+  // A URL entra no hash: a extensao faz parte da identidade servida
+  // (o MIME sai dela) e o mesmo conteudo pode mudar de extensao.
   const lines = [...items]
-    .map((item) => `${item.sha256}\t${item.bytes}`)
+    .map((item) => `${item.url}\t${item.bytes}`)
     .sort()
     .join('\n');
   const digest = await sha256Hex(new TextEncoder().encode(lines));
@@ -209,6 +229,8 @@ export async function downloadOfflineMedia(
   let downloadedBytes = 0;
   onProgress({ completed: reused.length, total: inventory.items.length, downloadedBytes: 0, reused: reused.length });
 
+  const failed: string[] = [];
+  let firstError: string | undefined;
   await runConcurrentPool(missing, resolveMediaConcurrency(), async (item, signal) => {
     if (signal?.aborted) return;
     const request = requestForOfflineMedia(item.url, origin);
@@ -252,6 +274,14 @@ export async function downloadOfflineMedia(
       downloadedBytes,
       reused: reused.length,
     });
+  }, {
+    // Um arquivo indisponivel nao pode travar os demais: a midia e
+    // idempotente e o que falhou fica registrado para retomada.
+    abortOnError: false,
+    onItemError: (error, item) => {
+      failed.push(item.url);
+      firstError ??= error instanceof Error ? error.message : String(error);
+    },
   });
 
   const stored = new Set<string>(reused);
@@ -261,8 +291,26 @@ export async function downloadOfflineMedia(
   return {
     urls: [...stored],
     missing: inventory.items.filter((item) => !stored.has(item.url)).map((item) => item.url),
+    failed,
+    ...(firstError ? { firstError } : {}),
     downloadedBytes,
   };
+}
+
+/** URLs do inventario que ja estao guardadas e verificadas no cache. */
+export async function storedMediaUrls(
+  inventory: OfflineMediaInventory,
+  overrides: MediaEnvironment = {},
+): Promise<string[]> {
+  const { cacheStorage, origin } = mediaEnvironment(overrides);
+  if (!cacheStorage) return [];
+  const cache = await cacheStorage.open(OFFLINE_MEDIA_CACHE);
+  const stored: string[] = [];
+  for (const item of inventory.items) {
+    const request = requestForOfflineMedia(item.url, origin);
+    if (await cache.match(request, { ignoreVary: true })) stored.push(item.url);
+  }
+  return stored;
 }
 
 export interface ByteRange {
@@ -312,32 +360,39 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
   if (!cached) return undefined;
 
   const contentType = cached.headers.get('Content-Type') ?? mediaMimeFromUrl(new URL(request.url).pathname);
-  const range = parseByteRange(request.headers.get('Range'), Number(cached.headers.get('Content-Length') ?? 0));
-  const size = Number(cached.headers.get('Content-Length') ?? 0);
 
   if (request.method === 'HEAD') {
+    const headBlob = await cached.blob();
     return new Response(null, {
       status: 200,
       headers: {
         'Content-Type': contentType,
-        'Content-Length': String(size),
+        'Content-Length': String(headBlob.size),
         'Accept-Ranges': 'bytes',
         'Cache-Control': 'public, max-age=31536000, immutable',
       },
     });
   }
 
+  const rangeHeader = request.headers.get('Range');
+  if (!rangeHeader) {
+    return cached;
+  }
+
+  // O tamanho vem do corpo guardado: o Content-Length pode faltar e uma
+  // faixa valida seria respondida com 416 sem ele.
+  const blob = await cached.blob();
+  const range = parseByteRange(rangeHeader, blob.size);
   if (range === null) {
     return cached;
   }
   if (range === 'unsatisfiable') {
     return new Response(null, {
       status: 416,
-      headers: { 'Content-Range': `bytes */${size}`, 'Accept-Ranges': 'bytes' },
+      headers: { 'Content-Range': `bytes */${blob.size}`, 'Accept-Ranges': 'bytes' },
     });
   }
 
-  const blob = await cached.blob();
   const sliced = blob.slice(range.offset, range.offset + range.length);
   return new Response(sliced, {
     status: 206,

@@ -44,7 +44,6 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 
 <script>
   import {
-    assertStorageCapacity,
     downloadContestPackage,
     getOfflineContestRecord,
     offlinePackageManifestSchema,
@@ -55,6 +54,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
   import { evaluateOfflineAvailability } from '../lib/offline-availability';
   import {
     offlineMediaInventorySchema,
+    OfflineMediaError,
     type OfflineMediaInventory,
   } from '../lib/offline-media';
 
@@ -79,6 +79,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
     let latestManifest: OfflinePackageManifest | undefined;
     let mediaInventory: OfflineMediaInventory | undefined;
     let mediaInventoryPromise: Promise<OfflineMediaInventory | undefined> | undefined;
+    let mediaInventoryFailed = false;
     let mediaChoiceTouched = false;
     let renderSeq = 0;
 
@@ -99,14 +100,30 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         mediaInventoryPromise = (async () => {
           try {
             const response = await fetch(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
-            if (!response.ok) return undefined;
+            if (!response.ok) {
+              // 404 e ausencia de midia (o concurso nao tem audio), nao
+              // falha: o resultado e estavel e pode ser memorizado.
+              if (response.status !== 404 && response.status !== 410) mediaInventoryFailed = true;
+              return undefined;
+            }
             const parsed = offlineMediaInventorySchema.safeParse(await response.json());
-            mediaInventory = parsed.success ? parsed.data : undefined;
+            if (!parsed.success) {
+              mediaInventoryFailed = true;
+              return undefined;
+            }
+            mediaInventory = parsed.data;
+            mediaInventoryFailed = false;
           } catch {
+            mediaInventoryFailed = true;
             mediaInventory = undefined;
           }
           return mediaInventory;
-        })();
+        })().finally(() => {
+          // A falha nao pode ficar memorizada pela vida da pagina: a
+          // proxima renderizacao (online, foco, novo clique) precisa
+          // tentar de novo.
+          if (mediaInventoryFailed) mediaInventoryPromise = undefined;
+        });
       }
       return mediaInventoryPromise;
     };
@@ -266,13 +283,13 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         return;
       }
       downloadButton.disabled = true;
+      removeButton.disabled = true;
       mediaSelect.disabled = true;
       progress.hidden = false;
       message.textContent = 'Preparando o download...';
       try {
         const manifest: OfflinePackageManifest = latestManifest ?? await loadManifest();
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
-        await assertStorageCapacity(manifest, navigator.storage);
         const includeMedia = mediaSelect.value === 'all' && Boolean(mediaInventory && mediaInventory.items.length > 0);
         const media = includeMedia ? mediaInventory : undefined;
         message.textContent = media
@@ -299,13 +316,17 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         await renderAvailability();
       } catch (error) {
         const detail = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
-        const record = await getOfflineContestRecord(contestStorageId);
-        message.textContent = record
-          ? `O conteúdo está disponível offline, mas as mídias não foram concluídas: ${detail}`
-          : detail;
+        // O estado real e repintado antes da mensagem: a renderizacao
+        // reescreve o texto e a causa precisa aparecer por ultimo.
+        await renderAvailability();
+        message.textContent =
+          error instanceof OfflineMediaError
+            ? `As mídias não foram concluídas: ${detail}`
+            : detail;
       } finally {
         mediaSelect.disabled = false;
         downloadButton.disabled = false;
+        removeButton.disabled = false;
         progress.hidden = true;
       }
     });
@@ -353,6 +374,10 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         } else if (event.type === 'failed') {
           progress.hidden = true;
           message.textContent = `As mídias não foram concluídas: ${event.message}`;
+        } else if (event.type === 'completed') {
+          progress.hidden = true;
+          window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+          void renderAvailability();
         }
         return;
       }

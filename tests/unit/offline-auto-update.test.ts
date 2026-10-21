@@ -163,6 +163,77 @@ describe('offline auto update', () => {
     expect(download.mock.calls[0]?.[0]).toMatchObject({ contestStorageId: 'exemplo' });
   });
 
+  it('times out a hanging media inventory fetch and continues', async () => {
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: [], bytes: 0, status: 'complete', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL, init?: RequestInit) => {
+      if (String(input).includes('/offline-media/')) {
+        // A midia travada nao pode segurar a verificacao: o pedido
+        // precisa receber o mesmo sinal de timeout do manifesto.
+        expect(init?.signal).toBeDefined();
+        return await new Promise<Response>((_resolve, reject) => {
+          init?.signal?.addEventListener('abort', () => {
+            reject(Object.assign(new Error('aborted'), { name: 'AbortError' }));
+          });
+        });
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await expect(
+      maybeUpdateOfflinePackages('navigation', {
+        fetch: fetchResource as typeof fetch,
+        now: () => 1_000,
+        timeoutMs: 20,
+      }),
+    ).resolves.toBeUndefined();
+    expect(download).not.toHaveBeenCalled();
+  });
+
+  it('treats an empty media inventory with a new hash as a change', async () => {
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: ['/media/x.mp3'], bytes: 3, status: 'complete', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('/offline-media/')) {
+        return new Response(
+          JSON.stringify({
+            schemaVersion: 1,
+            contestStorageId: 'exemplo',
+            inventoryHash: 'abcdef0123456789abcd',
+            estimatedBytes: 0,
+            items: [],
+          }),
+          { status: 200 },
+        );
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+
+    expect(download).toHaveBeenCalledTimes(1);
+    const [, , , phase, options] = download.mock.calls[0]!;
+    expect(phase).toBe('update');
+    expect(options).toMatchObject({ media: { items: [] } });
+  });
+
   it('does nothing when the device is offline', async () => {
     const originalOnLine = navigator.onLine;
     Object.defineProperty(navigator, 'onLine', { configurable: true, value: false });

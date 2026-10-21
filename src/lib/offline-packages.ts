@@ -17,8 +17,11 @@ import {
 } from './offline-download-pool';
 import {
   downloadOfflineMedia,
+  OfflineMediaError,
   pruneUnreferencedMedia,
+  storedMediaUrls,
   type OfflineMediaInventory,
+  type MediaDownloadOutcome,
 } from './offline-media';
 import {
   CONTEST_CACHE_PREFIX,
@@ -161,7 +164,7 @@ export const ADOPTION_LEASE_WAIT_MS = 300_000;
  * de renovação a cada TTL/3 e falha do trabalho se o lease for perdido.
  */
 async function withOfflinePackageLock<T>(
-  operation: () => Promise<T>,
+  operation: (renew: () => Promise<void>) => Promise<T>,
   options: { waitMs?: number } = {},
 ): Promise<T> {
   const { acquireSyncLease, renewSyncLease, releaseSyncLease } = await import('./offline-db');
@@ -177,16 +180,38 @@ async function withOfflinePackageLock<T>(
 
   let lost = false;
   let renewalInFlight: Promise<void> | null = null;
-  const heartbeat = setInterval(() => {
-    renewalInFlight = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
+  let lastRenewalAt = Date.now();
+
+  const scheduleRenewal = (): Promise<void> => {
+    const pending = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
       .then(() => undefined)
       .catch(() => {
         lost = true;
       });
+    renewalInFlight = pending;
+    lastRenewalAt = Date.now();
+    return pending;
+  };
+
+  const heartbeat = setInterval(() => {
+    void scheduleRenewal();
   }, OFFLINE_PACKAGE_LEASE_TTL / 3);
 
+  /**
+   * Renovacao sob demanda. O heartbeat depende de `setInterval`, que o
+   * navegador reduz em abas ocultas: um download longo de midia pode
+   * perder o lease mesmo com o timer rodando devagar. A operacao renova
+   * o lease por evento (progresso), nao por tempo.
+   */
+  const renew = async (): Promise<void> => {
+    if (Date.now() - lastRenewalAt < OFFLINE_PACKAGE_LEASE_TTL / 3) return;
+    const pending = renewalInFlight as Promise<void> | null;
+    if (pending) await pending.catch(() => undefined);
+    await scheduleRenewal();
+  };
+
   try {
-    const result = await operation();
+    const result = await operation(renew);
     // Barreira: resolve qualquer renovação em voo ANTES do veredito final,
     // para que perda de lease não passe despercebida numa operação bem-sucedida.
     // Cast local: TS não acompanha atribuições dentro do callback do
@@ -310,7 +335,7 @@ export async function downloadContestPackage(
   const storageId = manifest.contestStorageId;
   publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase });
   try {
-    const record = await withOfflinePackageLock(async () => {
+    const record = await withOfflinePackageLock(async (renew) => {
       const packageRecord = await downloadContestPackageLocked(manifest, (progress) => {
         onProgress(progress);
         publishDownloadEvent({
@@ -323,7 +348,12 @@ export async function downloadContestPackage(
         });
       }, overrides, phase);
       if (!options.media) return packageRecord;
-      return downloadContestMediaLocked(packageRecord, options.media, overrides);
+      // Sentinela de atualizacao: o registro vazio significa que o concurso
+      // foi removido enquanto a operacao esperava o lock. Nao ha midia a
+      // baixar e, principalmente, nada deve ser gravado: gravar aqui
+      // ressuscitaria o pacote que o usuario acabou de apagar.
+      if (packageRecord.activeCacheName === '') return packageRecord;
+      return downloadContestMediaLocked(packageRecord, options.media, overrides, renew);
     });
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
     return record;
@@ -347,6 +377,7 @@ async function downloadContestMediaLocked(
   record: OfflineContestRecord,
   inventory: OfflineMediaInventory,
   overrides: PackageEnvironment,
+  renew: () => Promise<void> = () => Promise.resolve(),
 ): Promise<OfflineContestRecord> {
   const { cacheStorage, storage } = environment(overrides);
   if (!cacheStorage) throw new Error('Armazenamento de midia indisponivel neste navegador.');
@@ -357,8 +388,27 @@ async function downloadContestMediaLocked(
     await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
   }
 
+  if (inventory.items.length === 0) {
+    // O concurso ficou sem midia: o estado deixa de valer a midia e a
+    // poda leva embora os arquivos que sobraram.
+    const emptied: OfflineContestRecord = {
+      ...record,
+      media: {
+        included: false,
+        inventoryHash: inventory.inventoryHash,
+        urls: [],
+        bytes: 0,
+        status: 'complete',
+        updatedAt: Date.now(),
+      },
+    };
+    await saveOfflineContestRecord(emptied);
+    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+    return emptied;
+  }
+
   publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase: 'media' });
-  let outcome;
+  let outcome: MediaDownloadOutcome;
   try {
     outcome = await downloadOfflineMedia(inventory, (progress) => {
       publishDownloadEvent({
@@ -369,17 +419,23 @@ async function downloadContestMediaLocked(
         total: progress.total,
         downloadedBytes: progress.downloadedBytes,
       });
+      // Renovacao por evento: o lease nao pode depender so do timer.
+      void renew();
     }, overrides);
   } catch (error) {
+    // Falha fatal da fase: o que ja foi verificado continua guardado e
+    // precisa ficar referenciado, senao a proxima poda o apaga.
+    await savePartialMediaState(record, inventory, overrides);
     publishDownloadEvent({
       type: 'failed',
       contestStorageId: storageId,
       phase: 'media',
       message: error instanceof Error ? error.message : String(error),
     });
-    throw error;
+    throw error instanceof OfflineMediaError
+      ? error
+      : new OfflineMediaError(error instanceof Error ? error.message : String(error), { cause: error });
   }
-  publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
 
   const updated: OfflineContestRecord = {
     ...record,
@@ -387,16 +443,60 @@ async function downloadContestMediaLocked(
       included: true,
       inventoryHash: inventory.inventoryHash,
       urls: outcome.urls,
-      bytes: outcome.urls.reduce((total, url) => {
-        const item = inventory.items.find((candidate) => candidate.url === url);
-        return total + (item?.bytes ?? 0);
-      }, 0),
+      bytes: mediaBytesOf(inventory, outcome.urls),
       status: outcome.missing.length === 0 ? 'complete' : 'partial',
       updatedAt: Date.now(),
     },
   };
   await saveOfflineContestRecord(updated);
+  // A troca do inventario deixa arquivos antigos sem referencia: a poda
+  // roda aqui, ainda sob o lock, para nao deixar midia obsoleta no aparelho.
+  await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+
+  if (outcome.failed.length > 0) {
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId: storageId,
+      phase: 'media',
+      message: `${outcome.failed.length} mídias não puderam ser baixadas.`,
+    });
+    throw new OfflineMediaError(
+      `${outcome.failed.length} de ${inventory.items.length} mídias não puderam ser baixadas` +
+        `${outcome.firstError ? `: ${outcome.firstError}` : ''}. ` +
+        'O conteúdo está disponível offline; tente de novo para completar as mídias.',
+    );
+  }
+  publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
   return updated;
+}
+
+/** Bytes correspondente as URLs de midia guardadas. */
+function mediaBytesOf(inventory: OfflineMediaInventory, urls: readonly string[]): number {
+  const wanted = new Set(urls);
+  return inventory.items.reduce((total, item) => (wanted.has(item.url) ? total + item.bytes : total), 0);
+}
+
+/**
+ * Grava o estado parcial da midia: o que ja foi verificado fica
+ * referenciado pelo concurso, para a retomada e para a poda.
+ */
+async function savePartialMediaState(
+  record: OfflineContestRecord,
+  inventory: OfflineMediaInventory,
+  overrides: PackageEnvironment,
+): Promise<void> {
+  const stored = await storedMediaUrls(inventory, overrides).catch(() => [] as string[]);
+  await saveOfflineContestRecord({
+    ...record,
+    media: {
+      included: true,
+      inventoryHash: inventory.inventoryHash,
+      urls: stored,
+      bytes: mediaBytesOf(inventory, stored),
+      status: 'partial',
+      updatedAt: Date.now(),
+    },
+  });
 }
 
 async function missingMediaBytes(
@@ -630,7 +730,7 @@ export async function removeContestPackage(
     await deleteOfflineContestRecord(contestStorageId);
     await cacheStorage.delete(existing.activeCacheName);
     await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
-  });
+  }, { waitMs: ADOPTION_LEASE_WAIT_MS });
 }
 
 /** URLs de midia referenciadas por algum concurso baixado neste aparelho. */
@@ -663,6 +763,10 @@ export async function cleanupInactiveContestCaches(overrides: PackageEnvironment
     for (const name of orphanCacheNames) {
       await cacheStorage.delete(name);
     }
+
+    // Um registro fantasma era a unica referencia de alguma midia: sem a
+    // poda, o arquivo ficaria no aparelho sem nenhum concurso apontando.
+    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
   });
 }
 

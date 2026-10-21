@@ -100,13 +100,17 @@ describe('offline media download', () => {
     const fetchResource = async (): Promise<Response> =>
       new Response('b'.repeat(32), { status: 200, headers: { 'Content-Length': '32' } });
 
-    await expect(
-      downloadOfflineMedia(inventoryOf([item]), undefined, {
-        cacheStorage: cacheStorage as unknown as CacheStorage,
-        fetch: fetchResource as unknown as typeof fetch,
-        origin: 'https://concursos.helio.me',
-      }),
-    ).rejects.toThrow('Integridade');
+    const outcome = await downloadOfflineMedia(inventoryOf([item]), undefined, {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as unknown as typeof fetch,
+      origin: 'https://concursos.helio.me',
+    });
+
+    // A falha de um arquivo nao interrompe a operacao: o que falhou fica
+    // registrado e o resto da midia continua sendo baixada.
+    expect(outcome.failed).toEqual([item.url]);
+    expect(outcome.firstError).toContain('Integridade');
+    expect(outcome.urls).toEqual([]);
 
     const cache = await cacheStorage.open(OFFLINE_MEDIA_CACHE);
     expect(await cache.match(new Request(`https://concursos.helio.me${item.url}`))).toBeUndefined();
@@ -118,13 +122,38 @@ describe('offline media download', () => {
     const fetchResource = async (): Promise<Response> =>
       new Response('a'.repeat(16), { status: 206, headers: { 'Content-Length': '16' } });
 
-    await expect(
-      downloadOfflineMedia(inventoryOf([item]), undefined, {
-        cacheStorage: cacheStorage as unknown as CacheStorage,
-        fetch: fetchResource as unknown as typeof fetch,
-        origin: 'https://concursos.helio.me',
-      }),
-    ).rejects.toThrow('HTTP 206');
+    const outcome = await downloadOfflineMedia(inventoryOf([item]), undefined, {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as unknown as typeof fetch,
+      origin: 'https://concursos.helio.me',
+    });
+    expect(outcome.failed).toEqual([item.url]);
+    expect(outcome.firstError).toContain('HTTP 206');
+  });
+
+  it('keeps the verified files and downloads the rest when one file fails', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const good = 'a'.repeat(32);
+    const bad = 'b'.repeat(32);
+    const goodItem = mediaItem(0, good);
+    const badItem = mediaItem(1, bad);
+    const fetchResource = async (input: RequestInfo | URL): Promise<Response> => {
+      const pathname = new URL(new Request(input).url).pathname;
+      if (pathname === badItem.url) return new Response('c'.repeat(32), { status: 200 });
+      return new Response(good, { status: 200, headers: { 'Content-Length': String(good.length) } });
+    };
+
+    const outcome = await downloadOfflineMedia(inventoryOf([goodItem, badItem]), undefined, {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as unknown as typeof fetch,
+      origin: 'https://concursos.helio.me',
+    });
+
+    expect(outcome.urls).toEqual([goodItem.url]);
+    expect(outcome.failed).toEqual([badItem.url]);
+    expect(outcome.missing).toEqual([badItem.url]);
+    const cache = await cacheStorage.open(OFFLINE_MEDIA_CACHE);
+    expect(await cache.match(new Request(`https://concursos.helio.me${goodItem.url}`))).toBeDefined();
   });
 
   it('reuses what is already stored instead of downloading again', async () => {

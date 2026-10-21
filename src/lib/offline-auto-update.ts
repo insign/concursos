@@ -33,9 +33,15 @@ function timeoutSignal(timeoutMs: number): AbortSignal {
 async function loadMediaInventory(
   contestStorageId: string,
   fetchResource: typeof fetch,
+  timeoutMs: number,
 ): Promise<OfflineMediaInventory | undefined> {
   try {
-    const response = await fetchResource(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
+    const response = await fetchResource(`/offline-media/${contestStorageId}.json`, {
+      cache: 'no-store',
+      // Sem timeout, uma conexao travada manteria `running` e atrasaria
+      // toda verificacao futura.
+      signal: timeoutSignal(timeoutMs),
+    });
     if (!response.ok) return undefined;
     const parsed = offlineMediaInventorySchema.safeParse(await response.json());
     return parsed.success ? parsed.data : undefined;
@@ -81,12 +87,12 @@ export async function maybeUpdateOfflinePackages(
         // A mídia só é atualizada para quem a.include: quem nunca marcou a
         // opção não recebe transferência automática de áudio.
         const media = record.media?.included
-          ? await loadMediaInventory(record.contestStorageId, fetchResource)
+          ? await loadMediaInventory(record.contestStorageId, fetchResource, timeoutMs)
           : undefined;
-        const mediaChanged =
-          media !== undefined &&
-          media.inventoryHash !== record.media?.inventoryHash &&
-          media.items.length > 0;
+        // Inventario vazio tambem e mudanca: e o caso em que as midias
+        // foram removidas do concurso e os arquivos antigos precisam sair
+        // do aparelho.
+        const mediaChanged = media !== undefined && media.inventoryHash !== record.media?.inventoryHash;
         if (manifest.manifestHash === record.manifestHash && !mediaChanged) continue;
         await downloadContestPackage(manifest, undefined, { fetch: fetchResource }, 'update', mediaChanged ? { media } : {});
       } catch (error) {

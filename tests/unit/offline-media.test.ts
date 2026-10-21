@@ -119,6 +119,14 @@ describe('offline media inventory', () => {
     expect(first).toMatch(/^[a-f0-9]{20}$/);
   });
 
+  it('changes the inventory hash when the extension of the same bytes changes', async () => {
+    const asMp3 = await mediaInventoryHash([{ url: sampleMedia.url, sha256: sampleMedia.id, bytes: 12 }]);
+    const asM4a = await mediaInventoryHash([
+      { url: `/media/${sampleMedia.id}.m4a`, sha256: sampleMedia.id, bytes: 12 },
+    ]);
+    expect(asMp3).not.toBe(asM4a);
+  });
+
   it('dedupes canonical media shared by several subjects', async () => {
     const inventory = await buildOfflineMediaInventory('exemplo', [sampleMedia, sampleMedia]);
     expect(inventory.items).toHaveLength(1);
@@ -138,6 +146,25 @@ describe('media byte ranges', () => {
     expect(parseByteRange('bytes=1000-', 1000)).toBe('unsatisfiable');
     expect(parseByteRange('bytes=0-1,3-4', 1000)).toBeNull();
     expect(parseByteRange(null, 1000)).toBeNull();
+  });
+});
+
+describe('media byte range parity with the edge function', () => {
+  it('parses the same ranges as the function that serves the media online', async () => {
+    const { parseRange } = await import('../../functions/media/[[path]].ts');
+    const headers = [
+      'bytes=0-99',
+      'bytes=900-',
+      'bytes=-50',
+      'bytes=1000-',
+      'bytes=0-1,3-4',
+      'bytes=abc',
+      'bytes=-0',
+      null,
+    ];
+    for (const header of headers) {
+      expect(parseByteRange(header, 1000)).toEqual(parseRange(header, 1000));
+    }
   });
 });
 
@@ -165,6 +192,22 @@ describe('offline media service worker response', () => {
     expect(partial?.headers.get('Content-Range')).toBe(`bytes 2-4/${body.length}`);
     expect(partial?.headers.get('Content-Length')).toBe('3');
     expect(await partial?.text()).toBe('cde');
+  });
+
+  it('answers 206 even when the stored response has no content length', async () => {
+    useCaches();
+    const body = 'abcdefghij';
+    const cache = await caches.open(OFFLINE_MEDIA_CACHE);
+    await cache.put(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`),
+      new Response(body, { status: 200, headers: { 'Content-Type': 'audio/mpeg' } }),
+    );
+    const partial = await matchOfflineMedia(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`, { headers: { Range: 'bytes=0-1' } }),
+    );
+    expect(partial?.status).toBe(206);
+    expect(partial?.headers.get('Content-Range')).toBe(`bytes 0-1/${body.length}`);
+    expect(await partial?.text()).toBe('ab');
   });
 
   it('answers 416 for an unsatisfiable range and undefined without a copy', async () => {

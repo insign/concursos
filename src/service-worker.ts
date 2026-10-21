@@ -116,7 +116,16 @@ registerRoute(
     url.origin === worker.location.origin &&
     url.pathname.startsWith('/media/') &&
     (request.method === 'GET' || request.method === 'HEAD'),
-  async ({ request }) => (await matchOfflineMedia(request)) ?? fetch(request),
+  async ({ request }) => {
+    try {
+      const local = await matchOfflineMedia(request);
+      if (local) return local;
+    } catch {
+      // Cache local indisponivel ou midia corrompida: a rede ainda
+      // entrega o arquivo, e o usuario nao fica sem audio.
+    }
+    return fetch(request);
+  },
 );
 
 registerRoute(

@@ -51,16 +51,29 @@ export function resolveAdaptiveConcurrency(hints: AdaptiveHints = readAdaptiveHi
   return 4;
 }
 
+export interface ConcurrentPoolOptions<T> {
+  /**
+   * Quando `false`, a falha de um item nao interrompe os demais. O pool
+   * continua, avisa por `onItemError` e nao lanca ao final: quem decide o
+   * que fazer com as falhas e o chamador.
+   */
+  abortOnError?: boolean;
+  /** Notificado por item que falhou, quando `abortOnError` e `false`. */
+  onItemError?: (error: unknown, item: T) => void;
+}
+
 /**
  * Executa `worker` sobre `items` com no maximo `concurrency` tarefas em voo.
- * O primeiro erro aborta as demais e e re-lancado ao final.
+ * Por padrao, o primeiro erro aborta as demais e e re-lancado ao final.
  */
 export async function runConcurrentPool<T>(
   items: readonly T[],
   concurrency: number,
   worker: (item: T, signal: AbortSignal | undefined) => Promise<void>,
+  options: ConcurrentPoolOptions<T> = {},
 ): Promise<void> {
   if (items.length === 0) return;
+  const abortOnError = options.abortOnError ?? true;
   const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
   const signal = controller?.signal;
   const poolSize = Math.max(1, Math.min(concurrency, items.length));
@@ -71,13 +84,17 @@ export async function runConcurrentPool<T>(
   const runners = Array.from({ length: poolSize }, async () => {
     while (true) {
       if (signal?.aborted) break;
-      if (hasError) break;
+      if (hasError && abortOnError) break;
       const index = nextIndex++;
       if (index >= items.length) break;
       const item = items[index]!;
       try {
         await worker(item, signal);
       } catch (error) {
+        if (!abortOnError) {
+          options.onItemError?.(error, item);
+          continue;
+        }
         if (!hasError) {
           hasError = true;
           firstError = error;

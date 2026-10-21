@@ -46,7 +46,7 @@ interface MediaEventContext {
 
 type ParsedRange = { offset: number; length: number } | 'unsatisfiable' | null;
 
-function parseRange(header: string | null, size: number): ParsedRange {
+export function parseRange(header: string | null, size: number): ParsedRange {
   if (!header) return null;
   const match = /^bytes=(\d*)-(\d*)$/i.exec(header.trim());
   if (!match) return null;
