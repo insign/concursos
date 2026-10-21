@@ -16,7 +16,9 @@ import {
   stripCloudflareBeacon,
   type OfflinePackageManifest,
 } from '../../src/lib/offline-packages';
-import { SHARED_ASSET_CACHE } from '../../src/lib/pwa-cache';
+import { OFFLINE_MEDIA_CACHE, SHARED_ASSET_CACHE } from '../../src/lib/pwa-cache';
+import type { OfflineMediaInventory } from '../../src/lib/offline-media';
+import { createHash } from 'node:crypto';
 
 class MemoryCache {
   readonly entries = new Map<string, Response>();
@@ -540,5 +542,134 @@ describe('beacon prescan', () => {
       (digest) => [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('').slice(0, 20),
     );
     await expect(hashOfflineResource(resource, bytes)).resolves.toBe(direct);
+  });
+
+  it('downloads the media with the package and records it in the contest record', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+
+    const record = await downloadContestPackage(
+      await hashedManifest('11111111111111111111'),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as typeof fetch,
+        origin: 'https://concursos.test',
+        storage: {
+          persist: () => Promise.resolve(true),
+          estimate: () => Promise.resolve({ quota: 10_000, usage: 0 }),
+        },
+      },
+      'download',
+      { media },
+    );
+
+    expect(record.media?.included).toBe(true);
+    expect(record.media?.status).toBe('complete');
+    expect(record.media?.urls).toEqual([url]);
+    const mediaCache = cacheStorage.caches.get(OFFLINE_MEDIA_CACHE);
+    expect(await mediaCache?.match(`https://concursos.test${url}`)).toBeDefined();
+  });
+
+  it('keeps the downloaded media when the package is updated', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await downloadContestPackage(await hashedManifest('11111111111111111111'), undefined, overrides, 'download', { media });
+
+    const updated = await downloadContestPackage(
+      await hashedManifest('22222222222222222222', ['/concursos/exemplo/', '/concursos/exemplo/questoes/']),
+      undefined,
+      overrides,
+      'update',
+    );
+
+    expect(updated.media?.urls).toEqual([url]);
+    expect(updated.media?.status).toBe('complete');
+  });
+
+  it('removes only the media that no other downloaded contest references', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+    await downloadContestPackage(
+      await hashedManifest('11111111111111111111'),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as typeof fetch,
+        origin: 'https://concursos.test',
+      },
+      'download',
+      { media },
+    );
+
+    await removeContestPackage('exemplo', { cacheStorage: cacheStorage as unknown as CacheStorage });
+
+    const mediaCache = cacheStorage.caches.get(OFFLINE_MEDIA_CACHE);
+    expect(await mediaCache?.match(`https://concursos.test${url}`)).toBeUndefined();
+  });
+
+  it('keeps the offline manifest contract free of media fields', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const withMedia = { ...(await hashedManifest('11111111111111111111')), media: [] };
+    await expect(
+      downloadContestPackage(withMedia, undefined, {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: successfulFetch as typeof fetch,
+        origin: 'https://concursos.test',
+      }),
+    ).rejects.toThrow();
   });
 });

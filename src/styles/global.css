@@ -429,6 +429,39 @@ a:hover {
   color: var(--muted);
 }
 
+.offline-media-choice {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--ground);
+}
+
+.offline-media-choice[hidden] {
+  display: none;
+}
+
+.offline-media-choice label {
+  font-weight: 600;
+}
+
+.offline-media-choice select {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--field-bg);
+  color: inherit;
+  font: inherit;
+}
+
+.offline-media-choice p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
 .contest-resume-reading {
   display: flex;
   gap: 2rem;

@@ -8,12 +8,35 @@ import {
 } from './offline-db';
 import { publishDownloadEvent, type DownloadPhase } from './offline-download-events';
 import {
+  ADAPTIVE_CONCURRENCY_DEFAULT,
+  ADAPTIVE_CONCURRENCY_MAX,
+  ADAPTIVE_CONCURRENCY_MIN,
+  readAdaptiveHints,
+  resolveAdaptiveConcurrency,
+  runConcurrentPool,
+} from './offline-download-pool';
+import {
+  downloadOfflineMedia,
+  pruneUnreferencedMedia,
+  type OfflineMediaInventory,
+} from './offline-media';
+import {
   CONTEST_CACHE_PREFIX,
+  OFFLINE_MEDIA_CACHE,
   RUNTIME_PAGE_CACHE,
   SHARED_ASSET_CACHE,
   contestCacheName,
   normalizeNavigationPath,
 } from './pwa-cache';
+
+export {
+  ADAPTIVE_CONCURRENCY_DEFAULT,
+  ADAPTIVE_CONCURRENCY_MAX,
+  ADAPTIVE_CONCURRENCY_MIN,
+  readAdaptiveHints,
+  resolveAdaptiveConcurrency,
+  runConcurrentPool,
+};
 
 const localPathSchema = z
   .string()
@@ -196,17 +219,19 @@ function readableError(error: unknown): Error {
 }
 
 export async function assertStorageCapacity(
-  manifest: OfflinePackageManifest,
+  manifest: Pick<OfflinePackageManifest, 'estimatedBytes'>,
   storage: Pick<StorageManager, 'estimate' | 'persist'> | undefined,
+  extraBytes = 0,
 ): Promise<void> {
   if (!storage) return;
   if (typeof storage.persist === 'function') await storage.persist().catch(() => false);
-  if (manifest.estimatedBytes === null) return;
+  const required = (manifest.estimatedBytes ?? 0) + Math.max(0, extraBytes);
+  if (required <= 0) return;
 
   if (typeof storage.estimate !== 'function') return;
   const estimate = await storage.estimate().catch((): StorageEstimate => ({}));
   if (estimate.quota === undefined || estimate.usage === undefined) return;
-  if (estimate.quota - estimate.usage < manifest.estimatedBytes) {
+  if (estimate.quota - estimate.usage < required) {
     throw new Error('Não há espaço suficiente para concluir o download. O pacote anterior foi preservado.');
   }
 }
@@ -265,18 +290,28 @@ async function removeVisitedDuplicates(cacheStorage: CacheStorage, routes: strin
   }
 }
 
+export interface ContestDownloadOptions {
+  /**
+   * Midias a incluir no download. Quando presente, o pacote do concurso e
+   * as midias sao baixados na mesma operacao, sob o mesmo lock: primeiro o
+   * conteudo, que e atomico, depois as midias, que sao idempotentes.
+   */
+  media?: OfflineMediaInventory;
+}
+
 export async function downloadContestPackage(
   input: unknown,
   onProgress: (progress: DownloadProgress) => void = () => undefined,
   overrides: PackageEnvironment = {},
   phase: DownloadPhase = 'download',
+  options: ContestDownloadOptions = {},
 ): Promise<OfflineContestRecord> {
   const manifest = offlinePackageManifestSchema.parse(input);
   const storageId = manifest.contestStorageId;
   publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase });
   try {
-    const record = await withOfflinePackageLock(() =>
-      downloadContestPackageLocked(manifest, (progress) => {
+    const record = await withOfflinePackageLock(async () => {
+      const packageRecord = await downloadContestPackageLocked(manifest, (progress) => {
         onProgress(progress);
         publishDownloadEvent({
           type: 'progress',
@@ -286,8 +321,10 @@ export async function downloadContestPackage(
           total: progress.total,
           downloadedBytes: progress.downloadedBytes,
         });
-      }, overrides, phase),
-    );
+      }, overrides, phase);
+      if (!options.media) return packageRecord;
+      return downloadContestMediaLocked(packageRecord, options.media, overrides);
+    });
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
     return record;
   } catch (error) {
@@ -301,88 +338,80 @@ export async function downloadContestPackage(
   }
 }
 
-export const ADAPTIVE_CONCURRENCY_MIN = 2;
-export const ADAPTIVE_CONCURRENCY_DEFAULT = 12;
-export const ADAPTIVE_CONCURRENCY_MAX = 15;
+/**
+ * Fase de midias do download offline. Roda depois da ativacao do pacote:
+ * o conteudo e atomico e a midia e idempotente. Uma falha aqui preserva o
+ * pacote ja ativado e deixa os arquivos verificados para retomada.
+ */
+async function downloadContestMediaLocked(
+  record: OfflineContestRecord,
+  inventory: OfflineMediaInventory,
+  overrides: PackageEnvironment,
+): Promise<OfflineContestRecord> {
+  const { cacheStorage, storage } = environment(overrides);
+  if (!cacheStorage) throw new Error('Armazenamento de midia indisponivel neste navegador.');
+  const storageId = record.contestStorageId;
 
-interface AdaptiveHints {
-  effectiveType?: string;
-  type?: string;
-  deviceMemory?: number;
-  hardwareConcurrency?: number;
-}
+  const missingBytes = await missingMediaBytes(inventory, overrides);
+  if (missingBytes > 0) {
+    await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
+  }
 
-function readAdaptiveHints(): AdaptiveHints {
-  if (typeof navigator === 'undefined') return {};
-  const nav = navigator as unknown as {
-    connection?: { effectiveType?: string; type?: string };
-    deviceMemory?: number;
-    hardwareConcurrency?: number;
+  publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase: 'media' });
+  let outcome;
+  try {
+    outcome = await downloadOfflineMedia(inventory, (progress) => {
+      publishDownloadEvent({
+        type: 'progress',
+        contestStorageId: storageId,
+        phase: 'media',
+        completed: progress.completed,
+        total: progress.total,
+        downloadedBytes: progress.downloadedBytes,
+      });
+    }, overrides);
+  } catch (error) {
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId: storageId,
+      phase: 'media',
+      message: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
+  publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
+
+  const updated: OfflineContestRecord = {
+    ...record,
+    media: {
+      included: true,
+      inventoryHash: inventory.inventoryHash,
+      urls: outcome.urls,
+      bytes: outcome.urls.reduce((total, url) => {
+        const item = inventory.items.find((candidate) => candidate.url === url);
+        return total + (item?.bytes ?? 0);
+      }, 0),
+      status: outcome.missing.length === 0 ? 'complete' : 'partial',
+      updatedAt: Date.now(),
+    },
   };
-  const hints: AdaptiveHints = {};
-  if (nav.connection) {
-    if (typeof nav.connection.effectiveType === 'string') hints.effectiveType = nav.connection.effectiveType;
-    if (typeof nav.connection.type === 'string') hints.type = nav.connection.type;
-  }
-  if (typeof nav.deviceMemory === 'number' && Number.isFinite(nav.deviceMemory)) hints.deviceMemory = nav.deviceMemory;
-  if (typeof nav.hardwareConcurrency === 'number' && Number.isFinite(nav.hardwareConcurrency)) hints.hardwareConcurrency = nav.hardwareConcurrency;
-  return hints;
+  await saveOfflineContestRecord(updated);
+  return updated;
 }
 
-export function resolveAdaptiveConcurrency(hints: AdaptiveHints = readAdaptiveHints()): number {
-  const et = hints.effectiveType;
-  const type = hints.type;
-  const isWifi = type === 'wifi';
-  const isFast = et === '4g' || isWifi;
-  if (et === 'slow-2g' || et === '2g') return 2;
-  if (et === '3g') return 4;
-  if (isWifi && hints.deviceMemory !== undefined && hints.deviceMemory >= 8 && hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 8) return 15;
-  if (isWifi && hints.deviceMemory !== undefined && hints.deviceMemory >= 4 && hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 4) return 12;
-  if (isFast) return 12;
-  if (hints.effectiveType === undefined && hints.type === undefined) {
-    if ((hints.deviceMemory !== undefined && hints.deviceMemory >= 4) || (hints.hardwareConcurrency !== undefined && hints.hardwareConcurrency >= 4)) return 12;
+async function missingMediaBytes(
+  inventory: OfflineMediaInventory,
+  overrides: PackageEnvironment,
+): Promise<number> {
+  const { cacheStorage, origin } = environment(overrides);
+  if (!cacheStorage) return inventory.estimatedBytes;
+  const cache = await cacheStorage.open(OFFLINE_MEDIA_CACHE);
+  let total = 0;
+  for (const item of inventory.items) {
+    const request = new Request(new URL(item.url, origin), { credentials: 'same-origin' });
+    if (!(await cache.match(request, { ignoreVary: true }))) total += item.bytes;
   }
-  return 4;
-}
-
-const OFFLINE_DOWNLOAD_CONCURRENCY = 4;
-
-async function runConcurrentPool<T>(
-  items: readonly T[],
-  concurrency: number,
-  worker: (item: T, signal: AbortSignal | undefined) => Promise<void>,
-): Promise<void> {
-  if (items.length === 0) return;
-  const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-  const signal = controller?.signal;
-  const poolSize = Math.max(1, Math.min(concurrency, items.length));
-  // nextIndex++ é atômico no JS single-thread: incremento síncrono antes de qualquer await distribui sem duplicação
-  let nextIndex = 0;
-  let firstError: unknown = null;
-  let hasError = false;
-  const runners = Array.from({ length: poolSize }, async () => {
-    while (true) {
-      if (signal?.aborted) break;
-      if (hasError) break;
-      const index = nextIndex++;
-      if (index >= items.length) break;
-      const item = items[index]!;
-      try {
-        await worker(item, signal);
-      } catch (error) {
-        if (!hasError) {
-          hasError = true;
-          firstError = error;
-          try {
-            controller?.abort();
-          } catch {}
-        }
-        break;
-      }
-    }
-  });
-  await Promise.all(runners);
-  if (hasError) throw firstError;
+  return total;
 }
 
 async function downloadContestPackageLocked(
@@ -533,6 +562,8 @@ export async function activateStagedPackage(
       resourceCount: resourcesCountOf(manifest),
       resourceHashes: { ...manifest.resources },
       sharedHashes: { ...((manifest as unknown as { sharedResources?: Record<string,string> }).sharedResources ?? {}) },
+      // Atualizar o pacote nao pode apagar as midias ja baixadas.
+      ...(existing?.media ? { media: existing.media } : {}),
     };
     await saveOfflineContestRecord(record);
     activatedRecord = record;
@@ -590,13 +621,26 @@ export async function removeContestPackage(
   contestStorageId: string,
   overrides: PackageEnvironment = {},
 ): Promise<void> {
+  // A espera e maior que a padrao: um download de midia em andamento pode
+  // durar minutos, e remover o pacote logo depois precisa succeed.
   return withOfflinePackageLock(async () => {
     const { cacheStorage } = environment(overrides);
     const existing = await getOfflineContestRecord(contestStorageId);
     if (!existing) return;
     await deleteOfflineContestRecord(contestStorageId);
     await cacheStorage.delete(existing.activeCacheName);
+    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
   });
+}
+
+/** URLs de midia referenciadas por algum concurso baixado neste aparelho. */
+async function referencedMediaUrls(): Promise<Set<string>> {
+  const records = await listOfflineContestRecords();
+  const urls = new Set<string>();
+  for (const record of records) {
+    for (const url of record.media?.urls ?? []) urls.add(url);
+  }
+  return urls;
 }
 
 export async function cleanupInactiveContestCaches(overrides: PackageEnvironment = {}): Promise<void> {

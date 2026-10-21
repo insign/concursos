@@ -10,6 +10,7 @@ import {
   type CatalogTreeNodeIndex,
 } from './catalog-core';
 import { parseBibliotecaResolutionId, parseResolutionId } from './content-paths';
+import { buildOfflineMediaInventory, type OfflineMediaInventory } from './offline-media';
 import { mediaDocumentKey } from './media-identity';
 import { resolveSubjectMedia, type SubjectMediaItem } from './media-catalog';
 
@@ -47,6 +48,8 @@ export interface CatalogContest extends Omit<CatalogContestIndex, 'children' | '
   subjects: CatalogSubject[];
   children: CatalogGroup[];
   offlineInventory: ReturnType<typeof createOfflineInventory>;
+  /** Midias do concurso para o download offline (inventario proprio). */
+  offlineMediaInventory: OfflineMediaInventory;
   examDate: string | null;
 }
 
@@ -209,7 +212,7 @@ async function loadCatalog(): Promise<Catalog> {
   }
 
   return {
-    contests: index.contests.map((contest) => {
+    contests: await Promise.all(index.contests.map(async (contest) => {
       const subjects = contest.subjects.map((subject): CatalogSubject => {
         const vinculo = vinculoById.get(subject.id);
         const canonical = vinculo?.data.canonical as string | undefined;
@@ -293,9 +296,13 @@ async function loadCatalog(): Promise<Catalog> {
         subjects,
         children: contest.children.map(hydrateGroup),
         offlineInventory: createContestOfflineInventory(contest),
+        offlineMediaInventory: await buildOfflineMediaInventory(
+          contest.storageId,
+          subjects.flatMap((subject) => subject.media),
+        ),
         examDate: contest.examDate ?? null,
       };
-    }),
+    })),
   };
 }
 

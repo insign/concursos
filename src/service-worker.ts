@@ -4,6 +4,7 @@ import { registerRoute } from 'workbox-routing';
 import { NetworkOnly } from 'workbox-strategies';
 import { listOfflineContestRecords, withDatabaseTimeout } from './lib/offline-db';
 import { maybeUpdateOfflinePackages } from './lib/offline-auto-update';
+import { matchOfflineMedia } from './lib/offline-media';
 import { normalizeNavigationPath, RUNTIME_PAGE_CACHE, SHARED_ASSET_CACHE } from './lib/pwa-cache';
 
 type WorkerScope = typeof globalThis & {
@@ -103,6 +104,20 @@ async function fetchWithTimeout(request: Request): Promise<Response> {
 }
 
 registerRoute(({ url }) => url.origin === 'https://kv.helio.me', new NetworkOnly());
+
+/**
+ * Midia baixada pelo usuario: primeiro o cache local, com `206` sintetizado
+ * quando a requisicao traz `Range` (o iOS Safari recusa `200` para audio).
+ * Sem copia local, a requisicao segue para a Function, que continua sendo a
+ * dona do delivery online.
+ */
+registerRoute(
+  ({ request, url }) =>
+    url.origin === worker.location.origin &&
+    url.pathname.startsWith('/media/') &&
+    (request.method === 'GET' || request.method === 'HEAD'),
+  async ({ request }) => (await matchOfflineMedia(request)) ?? fetch(request),
+);
 
 registerRoute(
   ({ request, url }) =>

@@ -1,6 +1,6 @@
 export const DOWNLOAD_EVENTS_CHANNEL = 'concursos-offline-downloads';
 
-export type DownloadPhase = 'download' | 'update';
+export type DownloadPhase = 'download' | 'update' | 'media';
 
 export type DownloadEvent =
   | { type: 'started'; contestStorageId: string; phase: DownloadPhase }
@@ -31,7 +31,7 @@ export function publishDownloadEvent(payload: DownloadEvent): void {
   }
 }
 
-const PHASES: readonly DownloadPhase[] = ['download', 'update'];
+const PHASES: readonly DownloadPhase[] = ['download', 'update', 'media'];
 const EVENT_TYPES: readonly DownloadEvent['type'][] = ['started', 'progress', 'completed', 'failed'];
 
 function isDownloadEvent(data: unknown): data is DownloadEvent {

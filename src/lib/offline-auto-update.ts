@@ -1,5 +1,6 @@
 import { listOfflineContestRecords } from './offline-db';
 import { downloadContestPackage, offlinePackageManifestSchema } from './offline-packages';
+import { offlineMediaInventorySchema, type OfflineMediaInventory } from './offline-media';
 
 const NAVIGATION_CHECK_INTERVAL_MS = 30 * 60 * 1000;
 const PERIODIC_CHECK_INTERVAL_MS = 60 * 60 * 1000;
@@ -23,6 +24,24 @@ function timeoutSignal(timeoutMs: number): AbortSignal {
   const controller = new AbortController();
   setTimeout(() => controller.abort(), timeoutMs);
   return controller.signal;
+}
+
+/**
+ * Inventário de mídia do concurso, lido sob demanda. Ausente ou inválido
+ * não impede a atualização do pacote: a mídia é opcional.
+ */
+async function loadMediaInventory(
+  contestStorageId: string,
+  fetchResource: typeof fetch,
+): Promise<OfflineMediaInventory | undefined> {
+  try {
+    const response = await fetchResource(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
+    if (!response.ok) return undefined;
+    const parsed = offlineMediaInventorySchema.safeParse(await response.json());
+    return parsed.success ? parsed.data : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 /**
@@ -59,8 +78,17 @@ export async function maybeUpdateOfflinePackages(
         if (!response.ok) continue;
         const manifest = offlinePackageManifestSchema.parse(await response.json());
         if (manifest.contestStorageId !== record.contestStorageId) continue;
-        if (manifest.manifestHash === record.manifestHash) continue;
-        await downloadContestPackage(manifest, undefined, { fetch: fetchResource }, 'update');
+        // A mídia só é atualizada para quem a.include: quem nunca marcou a
+        // opção não recebe transferência automática de áudio.
+        const media = record.media?.included
+          ? await loadMediaInventory(record.contestStorageId, fetchResource)
+          : undefined;
+        const mediaChanged =
+          media !== undefined &&
+          media.inventoryHash !== record.media?.inventoryHash &&
+          media.items.length > 0;
+        if (manifest.manifestHash === record.manifestHash && !mediaChanged) continue;
+        await downloadContestPackage(manifest, undefined, { fetch: fetchResource }, 'update', mediaChanged ? { media } : {});
       } catch (error) {
         console.warn('[concursos] Atualização automática do pacote falhou.', record.contestStorageId, error);
       }

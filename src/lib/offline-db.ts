@@ -79,6 +79,20 @@ export interface LocalSharedDocumentRecord {
   updatedAt: number;
 }
 
+export interface OfflineContestMediaState {
+  /** O usuario pediu as midias deste concurso no download offline. */
+  included: boolean;
+  /** Identidade do conjunto de midias baixado (hash do inventario). */
+  inventoryHash: string;
+  /** URLs das midias verificadas e guardadas neste dispositivo. */
+  urls: string[];
+  /** Bytes correspondente as URLs guardadas. */
+  bytes: number;
+  /** `partial` quando falta alguma midia do inventario. */
+  status: 'partial' | 'complete';
+  updatedAt: number;
+}
+
 export interface OfflineContestRecord {
   contestStorageId: string;
   manifestHash: string;
@@ -88,6 +102,8 @@ export interface OfflineContestRecord {
   resourceCount: number;
   resourceHashes?: Record<string, string>;
   sharedHashes?: Record<string, string>;
+  /** Estado local das midias baixadas junto com o pacote. */
+  media?: OfflineContestMediaState;
 }
 
 export async function getOfflineContestRecord(

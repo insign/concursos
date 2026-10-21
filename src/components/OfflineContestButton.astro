@@ -6,6 +6,7 @@ interface Props {
 
 const { contestStorageId, contestTitle } = Astro.props;
 const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
+const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 ---
 
 <section
@@ -23,6 +24,18 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
   </div>
   <div class="offline-package-actions">
     <button class="button" type="button" data-offline-download>Baixar concurso</button>
+    <div class="offline-media-choice" data-offline-media-choice hidden>
+      <label for={`offline-media-select-${contestStorageId}`}>Incluir mídias no download</label>
+      <select
+        id={`offline-media-select-${contestStorageId}`}
+        data-offline-media-select
+        aria-describedby={`offline-media-hint-${contestStorageId}`}
+      >
+        <option value="none">Somente o curso</option>
+        <option value="all" data-offline-media-option>Curso + mídias</option>
+      </select>
+      <p id={`offline-media-hint-${contestStorageId}`} data-offline-media-hint></p>
+    </div>
     <button class="button button-secondary" type="button" data-offline-remove hidden>Remover download</button>
     <progress data-offline-progress value="0" max="1" hidden>0%</progress>
     <p data-offline-message role="status" aria-live="polite">Verificando disponibilidade...</p>
@@ -40,6 +53,10 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
   } from '../lib/offline-packages';
   import { subscribeDownloadEvents } from '../lib/offline-download-events';
   import { evaluateOfflineAvailability } from '../lib/offline-availability';
+  import {
+    offlineMediaInventorySchema,
+    type OfflineMediaInventory,
+  } from '../lib/offline-media';
 
   function formatBytes(bytes: number | null): string {
     if (bytes === null) return '';
@@ -55,13 +72,116 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     const removeButton = root.querySelector<HTMLButtonElement>('[data-offline-remove]')!;
     const progress = root.querySelector<HTMLProgressElement>('[data-offline-progress]')!;
     const message = root.querySelector<HTMLElement>('[data-offline-message]')!;
+    const mediaChoice = root.querySelector<HTMLElement>('[data-offline-media-choice]')!;
+    const mediaSelect = root.querySelector<HTMLSelectElement>('[data-offline-media-select]')!;
+    const mediaOption = root.querySelector<HTMLOptionElement>('[data-offline-media-option]')!;
+    const mediaHint = root.querySelector<HTMLElement>('[data-offline-media-hint]')!;
     let latestManifest: OfflinePackageManifest | undefined;
+    let mediaInventory: OfflineMediaInventory | undefined;
+    let mediaInventoryPromise: Promise<OfflineMediaInventory | undefined> | undefined;
+    let mediaChoiceTouched = false;
     let renderSeq = 0;
 
     const loadManifest = async () => {
       const response = await fetch(manifestUrl, { cache: 'no-store' });
       if (!response.ok) throw new Error(`Inventário indisponível: HTTP ${response.status}`);
       return offlinePackageManifestSchema.parse(await response.json());
+    };
+
+    /**
+     * Inventário de mídias do concurso. É opcional: quando não existe (ou
+     * falha), o download do curso continua funcionando sem mídias.
+     */
+    const loadMediaInventory = (): Promise<OfflineMediaInventory | undefined> => {
+      // A promessa e memorizada: renders concorrentes aguardam a mesma
+      // leitura, em vez de uma delas receber um inventario ainda vazio.
+      if (!mediaInventoryPromise) {
+        mediaInventoryPromise = (async () => {
+          try {
+            const response = await fetch(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
+            if (!response.ok) return undefined;
+            const parsed = offlineMediaInventorySchema.safeParse(await response.json());
+            mediaInventory = parsed.success ? parsed.data : undefined;
+          } catch {
+            mediaInventory = undefined;
+          }
+          return mediaInventory;
+        })();
+      }
+      return mediaInventoryPromise;
+    };
+
+    const formatMediaSize = (bytes: number): string => {
+      if (bytes >= 1024 * 1024 * 1024) return `${(bytes / (1024 * 1024 * 1024)).toFixed(1)} GB`;
+      return `${Math.max(1, Math.round(bytes / (1024 * 1024)))} MB`;
+    };
+
+    const renderMediaChoice = (record: Awaited<ReturnType<typeof getOfflineContestRecord>>) => {
+      const hasMedia = Boolean(mediaInventory && mediaInventory.items.length > 0);
+      mediaChoice.hidden = !hasMedia;
+      if (!hasMedia) return;
+      const count = mediaInventory!.items.length;
+      mediaOption.textContent = `Curso + mídias (${count} ${count === 1 ? 'arquivo' : 'arquivos'}, ${formatMediaSize(mediaInventory!.estimatedBytes)})`;
+      const included = record?.media?.included === true;
+      // Depois que o usuario escolhe, a escolha dele manda: uma renderizacao
+      // posterior nao pode voltar o controle para o padrao.
+      if (!mediaChoiceTouched) mediaSelect.value = included ? 'all' : 'none';
+      mediaHint.textContent = included
+        ? 'As mídias ficam no aparelho para tocar sem conexão. O tamanho conta no armazenamento do navegador.'
+        : 'As mídias aumentam o download e o espaço usado no aparelho.';
+    };
+
+    let currentRecord: Awaited<ReturnType<typeof getOfflineContestRecord>>;
+    let currentStatus: 'not-downloaded' | 'downloaded' | 'update-available' | 'ghost-package' = 'not-downloaded';
+
+    /**
+     * Estado dos botoes e da mensagem. A midia e uma segunda etapa do
+     * mesmo download: o conteudo e o pacote, a midia e o que o usuario
+     * marcou no select.
+     */
+    const renderActions = (): void => {
+      const media = currentRecord?.media;
+      const mediaComplete = media?.included === true && media.status === 'complete';
+      const mediaPartial = media?.included === true && media.status === 'partial';
+      const wantsMedia = mediaSelect.value === 'all' && Boolean(mediaInventory && mediaInventory.items.length > 0);
+
+      if (currentStatus === 'not-downloaded') {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Baixar concurso';
+        removeButton.hidden = true;
+        message.textContent = 'Este concurso ainda não foi baixado.';
+        return;
+      }
+      if (currentStatus === 'ghost-package') {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Baixar concurso';
+        removeButton.hidden = true;
+        message.textContent = 'O pacote offline não está mais armazenado neste dispositivo. Baixe novamente.';
+        return;
+      }
+      if (currentStatus === 'update-available') {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Atualizar download';
+        removeButton.hidden = false;
+        message.textContent = 'Há uma atualização disponível. O pacote atual será preservado até o novo ficar pronto.';
+        return;
+      }
+
+      if (mediaPartial || (wantsMedia && !mediaComplete)) {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Baixar mídias';
+        removeButton.hidden = false;
+        message.textContent = mediaPartial
+          ? 'O conteúdo está disponível offline, mas as mídias não foram concluídas. Toque em Baixar mídias para tentar de novo.'
+          : 'O conteúdo está disponível offline. Marque a opção de mídias para baixá-las também.';
+        return;
+      }
+
+      downloadButton.hidden = true;
+      removeButton.hidden = false;
+      message.textContent = mediaComplete
+        ? `Disponível offline com mídias desde ${new Date(currentRecord!.downloadedAt).toLocaleDateString('pt-BR')}.`
+        : `Disponível offline desde ${new Date(currentRecord!.downloadedAt).toLocaleDateString('pt-BR')}.`;
     };
 
     const renderAvailability = async () => {
@@ -90,31 +210,31 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         latestManifest = undefined;
       }
 
+      await loadMediaInventory();
+
       if (seq !== renderSeq) return;
+      currentRecord = record;
+      renderMediaChoice(record);
+
       if (!record) {
-        const avail = evaluateOfflineAvailability({ hasRecord: false, cachePresent: false });
-        downloadButton.textContent = 'Baixar concurso';
-        downloadButton.hidden = false;
-        removeButton.hidden = true;
+        currentStatus = 'not-downloaded';
         downloadButton.disabled = false;
-        message.textContent = 'Este concurso ainda não foi baixado.';
+        renderActions();
         return;
       }
 
       if (!cachePresent) {
-        downloadButton.textContent = 'Baixar concurso';
-        downloadButton.hidden = false;
-        removeButton.hidden = true;
+        currentStatus = 'ghost-package';
         downloadButton.disabled = false;
-        message.textContent = 'O pacote offline não está mais armazenado neste dispositivo. Baixe novamente.';
+        renderActions();
         return;
       }
 
       if (loadError) {
-        downloadButton.textContent = 'Baixar concurso';
+        currentStatus = 'downloaded';
+        downloadButton.disabled = false;
         downloadButton.hidden = true;
         removeButton.hidden = false;
-        downloadButton.disabled = false;
         message.textContent = `Disponível offline desde ${new Date(record.downloadedAt).toLocaleDateString('pt-BR')}.`;
         return;
       }
@@ -125,22 +245,20 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         currentManifestHash: currentHash,
         cachePresent,
       });
+      currentStatus =
+        avail.status === 'update-available'
+          ? 'update-available'
+          : avail.status === 'ghost-package'
+            ? 'ghost-package'
+            : 'downloaded';
       downloadButton.disabled = false;
-      if (avail.status === 'update-available') {
-        downloadButton.hidden = false;
-        downloadButton.textContent = 'Atualizar download';
-        removeButton.hidden = false;
-        message.textContent = 'Há uma atualização disponível. O pacote atual será preservado até o novo ficar pronto.';
-      } else if (avail.status === 'ghost-package') {
-        downloadButton.hidden = false;
-        removeButton.hidden = true;
-        message.textContent = 'O pacote offline não está mais armazenado neste dispositivo. Baixe novamente.';
-      } else {
-        downloadButton.hidden = true;
-        removeButton.hidden = false;
-        message.textContent = `Disponível offline desde ${new Date(record.downloadedAt).toLocaleDateString('pt-BR')}.`;
-      }
+      renderActions();
     };
+
+    mediaSelect.addEventListener('change', () => {
+      mediaChoiceTouched = true;
+      renderActions();
+    });
 
     downloadButton.addEventListener('click', async () => {
       if (typeof navigator !== 'undefined' && navigator.onLine === false) {
@@ -148,28 +266,45 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         return;
       }
       downloadButton.disabled = true;
+      mediaSelect.disabled = true;
       progress.hidden = false;
       message.textContent = 'Preparando o download...';
       try {
         const manifest: OfflinePackageManifest = latestManifest ?? await loadManifest();
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
         await assertStorageCapacity(manifest, navigator.storage);
-        message.textContent = size ? `Baixando aproximadamente ${size}...` : 'Baixando concurso...';
-        await downloadContestPackage(manifest, ({ completed, total, fetched, copied }) => {
-          progress.max = total;
-          progress.value = completed;
-          if (fetched !== undefined && copied !== undefined && copied > 0) {
-            message.textContent = `Atualizando ${fetched} novos de ${total} (${copied} copiados)${size ? `, cerca de ${size}` : ''}...`;
-          } else {
-            message.textContent = `Baixando ${completed} de ${total} recursos${size ? `, cerca de ${size}` : ''}...`;
-          }
-        });
-        message.textContent = `${contestTitle} está disponível offline.`;
+        const includeMedia = mediaSelect.value === 'all' && Boolean(mediaInventory && mediaInventory.items.length > 0);
+        const media = includeMedia ? mediaInventory : undefined;
+        message.textContent = media
+          ? `Baixando o curso e ${media!.items.length} mídias...`
+          : size
+            ? `Baixando aproximadamente ${size}...`
+            : 'Baixando concurso...';
+        await downloadContestPackage(
+          manifest,
+          ({ completed, total, fetched, copied }) => {
+            progress.max = total;
+            progress.value = completed;
+            if (fetched !== undefined && copied !== undefined && copied > 0) {
+              message.textContent = `Atualizando ${fetched} novos de ${total} (${copied} copiados)${size ? `, cerca de ${size}` : ''}...`;
+            } else {
+              message.textContent = `Baixando ${completed} de ${total} recursos${size ? `, cerca de ${size}` : ''}...`;
+            }
+          },
+          undefined,
+          'download',
+          media ? { media } : {},
+        );
         window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
         await renderAvailability();
       } catch (error) {
-        message.textContent = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
+        const detail = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
+        const record = await getOfflineContestRecord(contestStorageId);
+        message.textContent = record
+          ? `O conteúdo está disponível offline, mas as mídias não foram concluídas: ${detail}`
+          : detail;
       } finally {
+        mediaSelect.disabled = false;
         downloadButton.disabled = false;
         progress.hidden = true;
       }
@@ -207,6 +342,20 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
 
     subscribeDownloadEvents((event) => {
       if (event.contestStorageId !== contestStorageId) return;
+      if (event.phase === 'media') {
+        if (event.type === 'started') {
+          message.textContent = 'Baixando mídias...';
+        } else if (event.type === 'progress') {
+          progress.hidden = false;
+          progress.max = event.total;
+          progress.value = event.completed;
+          message.textContent = `Baixando ${event.completed} de ${event.total} mídias...`;
+        } else if (event.type === 'failed') {
+          progress.hidden = true;
+          message.textContent = `As mídias não foram concluídas: ${event.message}`;
+        }
+        return;
+      }
       if (event.phase === 'download') {
         if (event.type === 'started') {
           downloadButton.disabled = true;
