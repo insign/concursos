@@ -89,8 +89,24 @@ mudam devagar, mas mudam.
 | Documento no KV | 1.850.000 bytes | O documento de mídia de um assunto é pequeno (dezenas de KB). |
 | ID remoto no KV | 100 caracteres | A posição de mídia usa `concursos--<alias>--midia--<16 hex>`. |
 | Build local | 18.000 arquivos e 524.288.000 bytes (`scripts/build-budget.json`) | `npm run build:budget` falha acima disso. A mídia não entra em `dist/`, então não consome esse orçamento. |
-| Duração por arquivo (áudio) | ~90 min com MP3 mono 32 kbps | 32 kbps ≈ 14,4 MB por hora. Passando disso, use R2 (já é o caso) ou reencode. |
+| Duração por arquivo (áudio) | ~90 min no perfil adotado (MP3 mono 64 kb/s ABR) | O perfil gasta ≈ 30 MB por hora; a 90 min, ≈ 45 MB. Acima disso, use R2 (já é o caso) ou reencode. |
 | ITP do iOS Safari | 7 dias sem interação | Fora da Tela de Início, o Safari apaga todo o armazenamento do site. A posição volta do KV; o cache local não. |
+
+## Perfil de codificação
+
+O áudio publicado usa MP3 (`libmp3lame`) a 64 kb/s ABR, mono, 44,1 kHz, com
+ID3v2.3. O `title` segue `G<código> — <assunto>`, o `artist` traz a disciplina e
+o `album` o concurso e o cargo. O perfil gasta ≈ 30 MB por hora; o maior arquivo
+publicado em `tce-ma-2026-analista-administracao` tem 15,4 MB.
+
+```bash
+ffmpeg -i fonte.m4a -map 0:a:0 -vn -ac 1 -ar 44100 \
+  -c:a libmp3lame -b:a 64k -abr 1 \
+  -metadata title="G8-05 — Gestão de processos" \
+  -metadata artist="Administração Pública" \
+  -metadata album="TCE/MA 2026 — Analista de Administração" \
+  -id3v2_version 3 midia/gestao-processos.mp3
+```
 
 ## Verificação de entrega
 
