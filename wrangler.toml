@@ -6,13 +6,12 @@
 # responde 200 para HTTP Range em assets estáticos, e o iOS Safari exige 206
 # para tocar áudio e vídeo.
 name = "concursos"
-account_id = "792cdd8dd982975da04155cf8b4d9403"
 pages_build_output_dir = "dist"
 compatibility_date = "2026-07-13"
-
-[env.production]
 
 # Bucket privado: a mídia só é servida pela rota `/media/*`, na mesma origem.
 [[r2_buckets]]
 binding = "MIDIA"
 bucket_name = "concursos-midia"
+
+[env.production]
