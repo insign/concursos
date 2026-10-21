@@ -3,6 +3,9 @@ import {
   completionRatioReached,
   createEmptyMediaDocument,
   isSameMediaPosition,
+  resolveResumePosition,
+  shouldPersistPosition,
+  shouldWriteSelection,
   mediaDocumentSchema,
   MEDIA_MAX_POSITIONS,
   MEDIA_SHORT_COMPLETION_RATIO,
@@ -115,8 +118,7 @@ describe('media selection', () => {
   });
 });
 
-describe('media position equality', () => {
-  it('trata posição equivalente como inalterada', () => {
+describe('media position equality', () => {  it('trata posição equivalente como inalterada', () => {
     const current = {
       positionSeconds: 30.4,
       durationSeconds: 100,
@@ -164,5 +166,37 @@ describe('media version arbitration', () => {
   it('não faz nada sem registro local e sem documento remoto', () => {
     expect(resolveMediaVersionAction(null, null)).toBe('noop');
     expect(resolveMediaVersionAction(null, 1)).toBe('adopt-remote');
+  });
+});
+
+describe('session decisions', () => {
+  it('persiste o retrocesso assim como o avanço', () => {
+    expect(shouldPersistPosition(30, 30, 5)).toBe(false);
+    expect(shouldPersistPosition(35, 30, 5)).toBe(true);
+    expect(shouldPersistPosition(25, 30, 5)).toBe(true);
+  });
+
+  it('retoma apenas fora do começo e do fim', () => {
+    expect(
+      resolveResumePosition({ positionSeconds: 120, durationSeconds: 600, minSeconds: 5, tailSeconds: 15 }),
+    ).toBe(120);
+    expect(
+      resolveResumePosition({ positionSeconds: 3, durationSeconds: 600, minSeconds: 5, tailSeconds: 15 }),
+    ).toBeNull();
+    expect(
+      resolveResumePosition({ positionSeconds: 590, durationSeconds: 600, minSeconds: 5, tailSeconds: 15 }),
+    ).toBeNull();
+    expect(
+      resolveResumePosition({ positionSeconds: 120, durationSeconds: 0, minSeconds: 5, tailSeconds: 15 }),
+    ).toBeNull();
+    expect(
+      resolveResumePosition({ positionSeconds: null, durationSeconds: 600, minSeconds: 5, tailSeconds: 15 }),
+    ).toBeNull();
+  });
+
+  it('so grava a selecao quando ela muda', () => {
+    expect(shouldWriteSelection(sha256, sha256)).toBe(false);
+    expect(shouldWriteSelection(otherSha, sha256)).toBe(true);
+    expect(shouldWriteSelection(null, sha256)).toBe(true);
   });
 });

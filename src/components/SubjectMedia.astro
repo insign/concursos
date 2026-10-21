@@ -113,7 +113,12 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     saveMediaPosition,
     saveMediaSelection,
   } from '../lib/media-client';
-  import { completionRatioReached, shouldMarkSubjectStudied } from '../lib/media-state';
+  import {
+    completionRatioReached,
+    resolveResumePosition,
+    shouldMarkSubjectStudied,
+    shouldPersistPosition,
+  } from '../lib/media-state';
   import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
   import { requestProfileSync } from '../lib/sync';
 
@@ -128,6 +133,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
   const RESUME_TAIL_SECONDS = 15;
   const SAVE_INTERVAL_SECONDS = 5;
   const SYNC_INTERVAL_MS = 60_000;
+  const INITIAL_LOAD_TIMEOUT_MS = 1500;
   const TOAST_TIMEOUT_MS = 8000;
 
   function readItem(source: HTMLElement): MediaItem | null {
@@ -188,9 +194,13 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     let lastSavedSeconds = 0;
     let lastSyncAt = 0;
     let completed = new Set<string>();
+    /** Posições conhecidas nesta sessão, por mídia. */
+    const positions = new Map<string, number>();
     let pendingPosition: number | null = null;
+    /** O usuário interagiu com a faixa atual: impede que uma resposta tardia pule a reprodução. */
     let userStarted = false;
-    let currentDocument: Awaited<ReturnType<typeof loadMediaDocument>> = null;
+    let firstWriteDone = false;
+    let toastTimer: number | null = null;
 
     const activeItem = () => items.get(selectedId) ?? first ?? null;
 
@@ -202,25 +212,46 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       void requestProfileSync(profileId);
     };
 
+    /**
+     * Leitura remota inicial do documento do assunto. É feita uma única vez e
+     * nunca rejeita: sem linhagem remota conhecida, publicar um documento
+     * quase vazio apagaria as posições dos outros aparelhos.
+     */
+    let initialLoad: Promise<void> | null = null;
+    const ensureInitialLoad = (): Promise<void> => {
+      if (!initialLoad) {
+        initialLoad = loadRemoteMediaDocument(context).catch(() => undefined);
+      }
+      return initialLoad;
+    };
+
     const persist = async (force: boolean): Promise<void> => {
       const duration = state.element.duration;
       const position = state.element.currentTime;
       if (!Number.isFinite(duration) || duration <= 0) return;
       if (!Number.isFinite(position) || position < 0) return;
-      if (!force && position - lastSavedSeconds < SAVE_INTERVAL_SECONDS) return;
-      lastSavedSeconds = position;
+      if (!force && !shouldPersistPosition(position, lastSavedSeconds, SAVE_INTERVAL_SECONDS)) return;
       const item = activeItem();
       if (!item) return;
+      if (!firstWriteDone) {
+        await Promise.race([
+          ensureInitialLoad(),
+          new Promise((resolve) => window.setTimeout(resolve, INITIAL_LOAD_TIMEOUT_MS)),
+        ]);
+        firstWriteDone = true;
+      }
       try {
         await saveMediaPosition(context, contestStorageId, subjectStorageId, item.id, {
           positionSeconds: position,
           durationSeconds: duration,
           completed: completed.has(item.id),
         });
+        lastSavedSeconds = position;
+        positions.set(item.id, position);
         requestSync();
       } catch {
-        // Falha local não interrompe a reprodução; a posição volta a ser salva
-        // na próxima tentativa.
+        // Falha local não interrompe a reprodução: `lastSavedSeconds` fica no
+        // valor anterior para que a próxima tentativa ocorra em breve.
       }
     };
 
@@ -230,18 +261,24 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       toastAction.textContent = actionLabel;
       toastAction.hidden = false;
       toast.hidden = false;
-      const timer = window.setTimeout(() => {
+      if (toastTimer !== null) window.clearTimeout(toastTimer);
+      toastTimer = window.setTimeout(() => {
         toast.hidden = true;
+        toastTimer = null;
       }, TOAST_TIMEOUT_MS);
       toastAction.onclick = () => {
-        window.clearTimeout(timer);
+        if (toastTimer !== null) window.clearTimeout(toastTimer);
+        toastTimer = null;
         toast.hidden = true;
         onAction();
       };
-      toastDismiss?.addEventListener('click', () => {
-        window.clearTimeout(timer);
-        toast.hidden = true;
-      });
+      if (toastDismiss) {
+        toastDismiss.onclick = () => {
+          if (toastTimer !== null) window.clearTimeout(toastTimer);
+          toastTimer = null;
+          toast.hidden = true;
+        };
+      }
     };
 
     const announceStudied = (studied: boolean) => {
@@ -254,13 +291,14 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 
     const markCompleted = async (mediaId: string, duration: number): Promise<void> => {
       if (completed.has(mediaId)) return;
-      completed.add(mediaId);
       try {
         await saveMediaPosition(context, contestStorageId, subjectStorageId, mediaId, {
           positionSeconds: duration,
           durationSeconds: duration,
           completed: true,
         });
+        completed.add(mediaId);
+        positions.set(mediaId, duration);
         if (!profileId) return;
 
         const document_ = await loadMediaDocument(context);
@@ -283,12 +321,16 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         void requestProfileSync(profileId);
       } catch {
         // A marcação de conclusão é uma cortesia: se a gravação falhar, o
-        // assunto continua estudável pelo botão manual.
+        // assunto continua estudável pelo botão manual e a próxima
+        // atualização tenta de novo.
       }
     };
 
     const applyItem = (item: MediaItem): void => {
       selectedId = item.id;
+      // A guarda de retomada vale para a faixa atual: ao trocar de faixa, a
+      // nova pode e deve ser retomada do ponto salvo.
+      userStarted = false;
       if (select) select.value = item.id;
       if (state.element.dataset.mediaKind !== item.kind) {
         const replacement = document.createElement(item.kind === 'video' ? 'video' : 'audio');
@@ -305,7 +347,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       }
       state.element.src = item.url;
       lastSavedSeconds = 0;
-      pendingPosition = currentDocument?.positions[item.id]?.positionSeconds ?? null;
+      pendingPosition = positions.get(item.id) ?? null;
       void saveMediaSelection(context, contestStorageId, subjectStorageId, item.id);
     };
 
@@ -315,9 +357,14 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       // Sem metadados carregados ainda, a posição fica pendente: o
       // `loadedmetadata` tenta de novo.
       if (!Number.isFinite(duration) || duration <= 0) return;
-      const position = pendingPosition;
+      const position = resolveResumePosition({
+        positionSeconds: pendingPosition,
+        durationSeconds: duration,
+        minSeconds: RESUME_MIN_SECONDS,
+        tailSeconds: RESUME_TAIL_SECONDS,
+      });
       pendingPosition = null;
-      if (position < RESUME_MIN_SECONDS || position >= duration - RESUME_TAIL_SECONDS) return;
+      if (position === null) return;
       state.element.currentTime = position;
       setStatus(`Retomando de ${formatTime(position)}.`);
     };
@@ -398,9 +445,9 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       try {
         const local = await loadMediaDocument(context);
         if (local) {
-          currentDocument = local;
           for (const [id, position] of Object.entries(local.positions)) {
             if (position.completed) completed.add(id);
+            positions.set(id, position.positionSeconds);
           }
           const preferred = local.selectedMediaId;
           if (preferred && items.has(preferred) && preferred !== selectedId) {
@@ -413,12 +460,12 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         }
         // O documento do assunto é buscado sob demanda: a ativação de alias em
         // um aparelho novo não lê nada de mídia.
-        await loadRemoteMediaDocument(context);
+        await ensureInitialLoad();
         const refreshed = await loadMediaDocument(context);
         if (!refreshed) return;
-        currentDocument = refreshed;
         for (const [id, position] of Object.entries(refreshed.positions)) {
           if (position.completed) completed.add(id);
+          positions.set(id, position.positionSeconds);
         }
         if (userStarted) return;
         const remoteSelected = refreshed.selectedMediaId;

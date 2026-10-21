@@ -134,5 +134,10 @@ export async function onRequest(context: MediaEventContext): Promise<Response> {
 
   headers.set('Content-Range', `bytes ${range.offset}-${range.offset + range.length - 1}/${metadata.size}`);
   headers.set('Content-Length', String(range.length));
+  if (request.method === 'HEAD') {
+    // Cabeçalho de intervalo sem ler o corpo: uma sondagem HEAD não deve
+    // custar uma operação de leitura do R2.
+    return new Response(null, { status: 206, headers });
+  }
   return new Response(object.body, { status: 206, headers });
 }

@@ -30,6 +30,23 @@ export interface MediaSyncResult {
 type VersionedLocal = Pick<LocalMediaRecord, 'remoteVersion' | 'outboxState'>;
 export type MediaVersionResolution = 'adopt-remote' | 'publish-local' | 'noop';
 
+/**
+ * Aviso de conflito exigido pelo ADR-002: uma pendência local sem linhagem
+ * remota conhecida que substitui um documento existente precisa ser visível.
+ */
+export function mediaConflictWarning(
+  record: VersionedLocal,
+  remoteVersion: number | null,
+): string | null {
+  if (record.remoteVersion === null && record.outboxState === 'pending' && remoteVersion !== null) {
+    return 'Havia um documento remoto sem linhagem local conhecida; a pendência deste dispositivo prevaleceu.';
+  }
+  if (record.remoteVersion !== null && remoteVersion !== null && remoteVersion < record.remoteVersion) {
+    return 'A versão remota regrediu; o registro pode ter sido excluído e recriado.';
+  }
+  return null;
+}
+
 let lastRequestAt = 0;
 
 /**
@@ -138,13 +155,14 @@ export async function synchronizeMediaDocument(
     },
   });
   await hooks.ensureLease();
+  const warnings = mediaConflictWarning(record, remote?.version ?? null);
   await markMediaSynced({
     documentId,
     expectedLocalRevision: record.localRevision,
     synchronizedDocument: local,
     remoteVersion: written.version,
     remoteCreatedAt: written.created_at,
-    conflictWarning: null,
+    conflictWarning: warnings,
   });
 }
 
@@ -186,6 +204,12 @@ export async function ensureMediaDocumentLoaded(
   if (!remote) return;
   const action = resolveMediaVersionAction(record ?? null, remote.version);
   if (action === 'adopt-remote') {
+    if (record && record.outboxState === 'pending') {
+      // Uma publicação local está em curso. A arbitragem pertence ao caminho de
+      // sincronização, que lê o remoto antes de decidir; esta leitura sob
+      // demanda não substitui o que está pendente.
+      return;
+    }
     if (!record) {
       await storeRemoteMediaDocument({
         profileId,

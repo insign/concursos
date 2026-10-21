@@ -3,13 +3,13 @@
   "items": [
     {
       "file": "exemplo-principal.mp3",
-      "sha256": "137fdaf8889d264810fe5864d3386f42e48170cc2cbe43d54c009b3af648f65e",
-      "bytes": 12452
+      "sha256": "25ef018285ff8fb50167f38571893412b8015be8f783ed3e830c88457acf7304",
+      "bytes": 120495
     },
     {
       "file": "exemplo-revisao.mp3",
-      "sha256": "3e540ff10e1c25f3d6bd87b1d54e1e298753755b81bb1485c01b0e1efa834125",
-      "bytes": 12452
+      "sha256": "48c496329186047ca4ade8c61ad82b87dcc938c88e65e06d43ef5d294016139c",
+      "bytes": 120495
     }
   ]
 }

@@ -10,8 +10,8 @@ const mediaFolder = path.join(
 );
 
 const mediaFiles = {
-  'exemplo-principal.mp3': '137fdaf8889d264810fe5864d3386f42e48170cc2cbe43d54c009b3af648f65e.mp3',
-  'exemplo-revisao.mp3': '3e540ff10e1c25f3d6bd87b1d54e1e298753755b81bb1485c01b0e1efa834125.mp3',
+  'exemplo-principal.mp3': '25ef018285ff8fb50167f38571893412b8015be8f783ed3e830c88457acf7304.mp3',
+  'exemplo-revisao.mp3': '48c496329186047ca4ade8c61ad82b87dcc938c88e65e06d43ef5d294016139c.mp3',
 };
 
 /**
@@ -182,4 +182,49 @@ test('undoes the automatic completion of the subject', async ({ page }) => {
   await expect(page.getByText('Assunto marcado como concluído.')).toBeVisible();
   await page.getByRole('button', { name: 'Desfazer', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Marcar como concluído' })).toBeVisible();
+});
+
+test('resumes a track from the position saved in this session when switching back', async ({
+  page,
+}) => {
+  await page.goto(subjectUrl);
+
+  const firstDuration = await page.evaluate(async () => {
+    const audio = document.querySelector<HTMLAudioElement>('[data-subject-media-element]');
+    if (!audio) return 0;
+    await new Promise<void>((resolve) => {
+      if (audio.readyState >= 1) {
+        resolve();
+        return;
+      }
+      audio.addEventListener('loadedmetadata', () => resolve(), { once: true });
+    });
+    audio.currentTime = audio.duration * 0.4;
+    audio.dispatchEvent(new Event('timeupdate'));
+    // A pausa forca a gravacao da posicao, como no uso real.
+    audio.dispatchEvent(new Event('pause'));
+    return audio.duration;
+  });
+  expect(firstDuration).toBeGreaterThan(0);
+
+  // A troca de faixa não pode apagar o ponto da faixa anterior.
+  await page.locator('[data-subject-media-select]').selectOption({ index: 1 });
+  await completeCurrentTrack(page);
+  await page.locator('[data-subject-media-select]').selectOption({ index: 0 });
+
+  const resumed = await page.evaluate(async () => {
+    const audio = document.querySelector<HTMLAudioElement>('[data-subject-media-element]');
+    if (!audio) return 0;
+    await new Promise<void>((resolve) => {
+      if (audio.readyState >= 1) {
+        resolve();
+        return;
+      }
+      audio.addEventListener('loadedmetadata', () => resolve(), { once: true });
+    });
+    return audio.currentTime;
+  });
+
+  expect(resumed).toBeGreaterThan(0);
+  expect(resumed).toBeGreaterThan(firstDuration * 0.3);
 });

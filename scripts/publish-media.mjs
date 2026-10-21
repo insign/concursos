@@ -36,6 +36,7 @@ const EXTENSIONS = new Map([
 ]);
 
 const FILE_NAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:mp3|m4a|ogg|opus|mp4|webm)$/;
+const MAX_ITEMS = 16;
 
 function parseArgs(argv) {
   const args = { dryRun: false, force: false };
@@ -157,7 +158,14 @@ async function publish() {
       continue;
     }
 
+    if (files.length > MAX_ITEMS) {
+      throw new Error(
+        `A pasta ${path.relative(ROOT, directory)} tem ${files.length} mídias e o limite é ${MAX_ITEMS}.`,
+      );
+    }
+
     const items = [];
+    const digests = new Map();
     for (const name of files) {
       const extension = name.slice(name.lastIndexOf('.') + 1);
       const mime = EXTENSIONS.get(extension);
@@ -168,6 +176,16 @@ async function publish() {
       const digest = await sha256Of(file);
       const { size } = await stat(file);
       const key = `media/${digest}.${extension}`;
+
+      const previousName = digests.get(digest);
+      if (previousName) {
+        // O mesmo conteúdo em dois arquivos quebraria o catálogo: o build
+        // recusa digest duplicado.
+        throw new Error(
+          `Conteúdo de mídia duplicado em ${path.relative(ROOT, directory)}: "${previousName}" e "${name}" são o mesmo arquivo.`,
+        );
+      }
+      digests.set(digest, name);
 
       if (publishedDigests.has(digest)) {
         // O objeto já está no bucket sob a mesma chave de conteúdo.

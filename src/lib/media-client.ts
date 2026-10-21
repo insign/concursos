@@ -4,6 +4,7 @@ import {
   createEmptyMediaDocument,
   isSameMediaPosition,
   selectMedia,
+  shouldWriteSelection,
   upsertMediaPosition,
   type MediaDocument,
   type MediaPosition,
@@ -64,6 +65,8 @@ export async function saveMediaSelection(
   mediaId: string,
 ): Promise<void> {
   if (!context.profileId || !context.documentId) return;
+  const record = await getLocalMediaRecord(context.documentId);
+  if (!shouldWriteSelection(record?.current.selectedMediaId ?? null, mediaId)) return;
   await saveMediaDocument({
     profileId: context.profileId,
     documentId: context.documentId,

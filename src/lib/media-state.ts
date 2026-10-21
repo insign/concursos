@@ -112,6 +112,46 @@ export function selectMedia(document: MediaDocument, mediaId: string | null): Me
 }
 
 /**
+ * Verdadeiro quando vale gravar a posição agora. O intervalo é medido em
+ * módulo: voltar a posição anterior também precisa ser persistido, senão o
+ * retrocesso fica só na memória.
+ */
+export function shouldPersistPosition(
+  positionSeconds: number,
+  lastSavedSeconds: number,
+  intervalSeconds: number,
+): boolean {
+  return Math.abs(positionSeconds - lastSavedSeconds) >= intervalSeconds;
+}
+
+/**
+ * Posição a retomar, ou `null` quando não há retomada possível. Um ponto
+ * muito próximo do início ou muito perto do fim não é retomado.
+ */
+export function resolveResumePosition(input: {
+  positionSeconds: number | null | undefined;
+  durationSeconds: number;
+  minSeconds: number;
+  tailSeconds: number;
+}): number | null {
+  const position = input.positionSeconds;
+  if (position === null || position === undefined) return null;
+  if (!Number.isFinite(position) || !Number.isFinite(input.durationSeconds)) return null;
+  if (input.durationSeconds <= 0) return null;
+  if (position < input.minSeconds) return null;
+  if (position >= input.durationSeconds - input.tailSeconds) return null;
+  return position;
+}
+
+/**
+ * Verdadeiro quando a seleção precisa ser gravada. Gravar a mesma seleção
+ * suja a outbox e dispara uma publicação sem motivo.
+ */
+export function shouldWriteSelection(currentMediaId: string | null, targetMediaId: string): boolean {
+  return currentMediaId !== targetMediaId;
+}
+
+/**
  * Verdadeiro quando a posição proposta é equivalente à já registrada.
  *
  * Gravar o mesmo estado repetiria a atividade de durabilidade a cada flush e a
