@@ -1094,6 +1094,29 @@ export function markMediaSyncError(
   return trackWrite(write);
 }
 
+/**
+ * Marca o documento como pendente sem alterar o conteúdo, para republicar um
+ * registro local cujo documento remoto sumiu ou regrediu.
+ */
+export function markMediaPending(documentId: string): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('midia', 'readwrite');
+    const existing = await transaction.store.get(documentId);
+    if (existing && existing.outboxState !== 'pending') {
+      await transaction.store.put({
+        ...existing,
+        outboxState: 'pending',
+        nextAttemptAt: null,
+        updatedAt: Date.now(),
+      });
+    }
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
 export interface ProfileImportAnswer {
   documentId: string;
   document: AnswerDocument;

@@ -2,6 +2,7 @@ import { buildMediaDocumentId, getActiveAlias } from './identity';
 import { markLocalStatePending } from './local-durability';
 import {
   createEmptyMediaDocument,
+  isSameMediaPosition,
   selectMedia,
   upsertMediaPosition,
   type MediaDocument,
@@ -41,12 +42,15 @@ export async function saveMediaPosition(
   position: Omit<MediaPosition, 'updatedAt'>,
 ): Promise<void> {
   if (!context.profileId || !context.documentId) return;
+  const record = await getLocalMediaRecord(context.documentId);
+  const current = record?.current.positions[mediaId] ?? null;
+  if (isSameMediaPosition(current, position)) return;
   const updatedAt = new Date().toISOString();
   await saveMediaDocument({
     profileId: context.profileId,
     documentId: context.documentId,
-    updateCurrent: (current) => {
-      const base = current ?? createEmptyMediaDocument(contestStorageId, subjectStorageId);
+    updateCurrent: (existing) => {
+      const base = existing ?? createEmptyMediaDocument(contestStorageId, subjectStorageId);
       return upsertMediaPosition(base, mediaId, position, updatedAt);
     },
   });

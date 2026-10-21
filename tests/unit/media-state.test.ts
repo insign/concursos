@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   completionRatioReached,
   createEmptyMediaDocument,
+  isSameMediaPosition,
   mediaDocumentSchema,
   MEDIA_MAX_POSITIONS,
   MEDIA_SHORT_COMPLETION_RATIO,
@@ -111,6 +112,32 @@ describe('media selection', () => {
   it('registra a mídia selecionada', () => {
     const selected = selectMedia(createEmptyMediaDocument('concurso-exemplo', 'assunto-exemplo'), sha256);
     expect(selected.selectedMediaId).toBe(sha256);
+  });
+});
+
+describe('media position equality', () => {
+  it('trata posição equivalente como inalterada', () => {
+    const current = {
+      positionSeconds: 30.4,
+      durationSeconds: 100,
+      completed: false,
+      updatedAt: '2026-01-01T00:00:00.000Z',
+    };
+    expect(
+      isSameMediaPosition(current, { positionSeconds: 30.2, durationSeconds: 100, completed: false }),
+    ).toBe(true);
+    expect(
+      isSameMediaPosition(current, { positionSeconds: 31, durationSeconds: 100, completed: false }),
+    ).toBe(false);
+    expect(
+      isSameMediaPosition(current, { positionSeconds: 30, durationSeconds: 101, completed: false }),
+    ).toBe(false);
+    expect(
+      isSameMediaPosition(current, { positionSeconds: 30, durationSeconds: 100, completed: true }),
+    ).toBe(false);
+    expect(isSameMediaPosition(null, { positionSeconds: 0, durationSeconds: 0, completed: false })).toBe(
+      false,
+    );
   });
 });
 

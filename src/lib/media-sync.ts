@@ -2,6 +2,7 @@ import { readKv, writeKv } from './kv-client';
 import {
   getLocalMediaRecord,
   listPendingMediaRecords,
+  markMediaPending,
   markMediaSynced,
   markMediaSyncError,
   quarantineRemoteDocument,
@@ -184,23 +185,30 @@ export async function ensureMediaDocumentLoaded(
   const remote = await readRemoteMediaDocument(profileId, documentId, hooks);
   if (!remote) return;
   const action = resolveMediaVersionAction(record ?? null, remote.version);
-  if (action !== 'adopt-remote') return;
-  if (!record) {
-    await storeRemoteMediaDocument({
-      profileId,
+  if (action === 'adopt-remote') {
+    if (!record) {
+      await storeRemoteMediaDocument({
+        profileId,
+        documentId,
+        document: remote.document,
+        remoteVersion: remote.version,
+        remoteCreatedAt: remote.createdAt,
+      });
+      return;
+    }
+    await markMediaSynced({
       documentId,
-      document: remote.document,
+      expectedLocalRevision: record.localRevision,
+      synchronizedDocument: remote.document,
       remoteVersion: remote.version,
       remoteCreatedAt: remote.createdAt,
+      conflictWarning: null,
     });
     return;
   }
-  await markMediaSynced({
-    documentId,
-    expectedLocalRevision: record.localRevision,
-    synchronizedDocument: remote.document,
-    remoteVersion: remote.version,
-    remoteCreatedAt: remote.createdAt,
-    conflictWarning: null,
-  });
+  if (action === 'publish-local' && record && record.outboxState === 'clean') {
+    // O documento remoto sumiu ou regrediu: a posição local precisa voltar a
+    // ser publicada para sincronizar com os outros aparelhos.
+    await markMediaPending(documentId);
+  }
 }

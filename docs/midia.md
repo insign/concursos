@@ -55,10 +55,18 @@ npm run midia:publicar                # envia ao R2 e reescreve os catálogos
 
 O publicador envia cada arquivo para `media/<sha256>.<ext>` no bucket
 `concursos-midia` e reescreve o `catalogo.json` da origem. É idempotente:
-reexecutar não reenvia o que já está no bucket com o mesmo conteúdo.
+arquivos cujo conteúdo já está no bucket não são reenviados, e um catálogo
+igual ao anterior não é reescrito.
+
+Se o `catalogo.json` referencia um arquivo que não está mais na pasta, o
+publicador **recusa** o assunto: restaure o binário ou use `--force` para
+remover a entrada. Sem essa trava, um clone sem os binários apagaria o
+catálogo versionado.
 
 O binário **não** entra no Git (`.gitignore`), e sim no R2. Ele continua no
-MEGA, que é a fonte editorial de trabalho.
+MEGA, que é a fonte editorial de trabalho. A única exceção é o concurso
+fictício `concurso-exemplo`, cujo áudio de teste é minúsculo e fica versionado
+para que a suíte end-to-end exercite o player sem depender da nuvem.
 
 ## Limites
 
@@ -139,6 +147,7 @@ marcação só acontece quando todas forem concluídas.
 | Build falha no orçamento | `dist/` acima de 18.000 arquivos ou 524 MB. | Rodar `npm run build:budget` e conferir o relatório. |
 | "possui vínculo canônico e catálogo de mídia próprio" | Um consumidor tem `vinculo.json` e `midia/` ao mesmo tempo. | Apagar a pasta `midia/` do consumidor; a mídia fica só na origem canônica. |
 | "Catálogo de mídia órfão" | Há `midia/catalogo.json` em uma pasta que não é assunto. | Apagar a pasta. |
+| O publicador recusa o assunto | O `catalogo.json` referencia um arquivo que não está na pasta. | Restaurar o binário ou rodar com `--force` para remover a entrada. |
 | A posição não passa para outro aparelho | O KV é last-write-wins e sem compare-and-set. | Abrir o assunto no outro aparelho: o documento é buscado sob demanda. |
 | A mídia some no iPhone depois de uns dias | Regra de 7 dias do Safari para sites não instalados. | Instalar o PWA na Tela de Início; o armazenamento deixa de ser descartado. |
 

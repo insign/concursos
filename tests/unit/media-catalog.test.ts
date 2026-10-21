@@ -112,14 +112,26 @@ describe('media catalog schema', () => {
   it('aceita até dezesseis itens e recusa mais', () => {
     const many = Array.from({ length: 16 }, (_, index) => ({
       file: `aula-${index}.mp3`,
-      sha256,
+      sha256: index.toString(16).padStart(2, '0').repeat(32),
       bytes: 10,
     }));
     expect(mediaCatalogSchema.safeParse({ schemaVersion: 1, items: many }).success).toBe(true);
     expect(
       mediaCatalogSchema.safeParse({
         schemaVersion: 1,
-        items: [...many, { file: 'aula-16.mp3', sha256, bytes: 10 }],
+        items: [...many, { file: 'aula-16.mp3', sha256: 'f'.repeat(64), bytes: 10 }],
+      }).success,
+    ).toBe(false);
+  });
+
+  it('recusa o mesmo conteúdo em dois arquivos diferentes', () => {
+    expect(
+      mediaCatalogSchema.safeParse({
+        schemaVersion: 1,
+        items: [
+          { file: 'aula.mp3', sha256, bytes: 10 },
+          { file: 'aula-copia.mp3', sha256, bytes: 10 },
+        ],
       }).success,
     ).toBe(false);
   });

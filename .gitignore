@@ -35,3 +35,6 @@ pnpm-debug.log*
 # Only the versioned catalog travels in Git.
 /src/content/**/midia/*
 !/src/content/**/midia/catalogo.json
+# The fictional example contest keeps its tiny fixture media in Git, so the
+# end-to-end suite can exercise the player without depending on the cloud.
+!/src/content/assuntos/concurso-exemplo/**/midia/*

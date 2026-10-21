@@ -14,7 +14,7 @@
  * mesmo conteúdo.
  */
 import { createHash } from 'node:crypto';
-import { readdir, readFile, stat, writeFile, mkdir } from 'node:fs/promises';
+import { readdir, readFile, stat, writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
@@ -38,9 +38,10 @@ const EXTENSIONS = new Map([
 const FILE_NAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:mp3|m4a|ogg|opus|mp4|webm)$/;
 
 function parseArgs(argv) {
-  const args = { dryRun: false };
+  const args = { dryRun: false, force: false };
   for (const value of argv) {
     if (value === '--dry-run') args.dryRun = true;
+    else if (value === '--force') args.force = true;
     else if (value === '--help' || value === '-h') args.help = true;
     else throw new Error(`Argumento desconhecido: ${value}`);
   }
@@ -73,6 +74,20 @@ async function sha256Of(file) {
   return hash.digest('hex');
 }
 
+async function publishedItems(catalogPath) {
+  if (!existsSync(catalogPath)) return [];
+  try {
+    const parsed = JSON.parse(await readFile(catalogPath, 'utf8'));
+    if (!Array.isArray(parsed?.items)) return [];
+    return parsed.items.filter(
+      (item) => typeof item?.file === 'string' && typeof item?.sha256 === 'string',
+    );
+  } catch {
+    console.warn(`catálogo ilegível, será reescrito: ${path.relative(ROOT, catalogPath)}`);
+    return [];
+  }
+}
+
 async function runWrangler(args) {
   const { spawn } = await import('node:child_process');
   return new Promise((resolve, reject) => {
@@ -91,7 +106,9 @@ async function runWrangler(args) {
 async function publish() {
   const args = parseArgs(process.argv.slice(2));
   if (args.help) {
-    console.log('Uso: node scripts/publish-media.mjs [--dry-run]');
+    console.log('Uso: node scripts/publish-media.mjs [--dry-run] [--force]');
+    console.log('  --dry-run  mostra o que seria enviado, sem alterar nada');
+    console.log('  --force    remove do catálogo as entradas cujo arquivo não está na pasta');
     return;
   }
 
@@ -104,15 +121,41 @@ async function publish() {
   let uploaded = 0;
   let reused = 0;
   let skipped = 0;
+  let removed = 0;
 
   for (const directory of directories) {
+    const catalogPath = path.join(directory, CATALOG_FILE);
+    const previousItems = await publishedItems(catalogPath);
+    const publishedDigests = new Set(previousItems.map((item) => item.sha256));
     const files = (await readdir(directory, { withFileTypes: true }))
       .filter((entry) => entry.isFile())
       .map((entry) => entry.name)
       .filter((name) => name !== CATALOG_FILE)
       .sort();
 
-    if (files.length === 0) continue;
+    const missing = previousItems.filter((item) => !files.includes(item.file));
+    if (missing.length > 0 && !args.force) {
+      throw new Error(
+        `O catálogo de ${path.relative(ROOT, directory)} referencia arquivo(s) ausente(s): ${missing
+          .map((item) => item.file)
+          .join(', ')}. Restaure o binário ou use --force para remover a(s) entrada(s).`,
+      );
+    }
+
+    if (files.length === 0) {
+      // Sem mídia na pasta, o catálogo versionado sai: ele descreve a mídia
+      // existente e deixá-lo aponta para objetos ausentes gera 404 no site.
+      if (existsSync(catalogPath)) {
+        if (args.dryRun) {
+          console.log(`[dry-run] removeria ${path.relative(ROOT, catalogPath)}`);
+        } else {
+          await rm(catalogPath);
+          console.log(`removido ${path.relative(ROOT, catalogPath)}`);
+        }
+        removed += 1;
+      }
+      continue;
+    }
 
     const items = [];
     for (const name of files) {
@@ -126,7 +169,10 @@ async function publish() {
       const { size } = await stat(file);
       const key = `media/${digest}.${extension}`;
 
-      if (args.dryRun) {
+      if (publishedDigests.has(digest)) {
+        // O objeto já está no bucket sob a mesma chave de conteúdo.
+        reused += 1;
+      } else if (args.dryRun) {
         console.log(`[dry-run] enviaria ${path.relative(ROOT, file)} -> ${BUCKET}/${key}`);
       } else {
         await runWrangler([
@@ -145,17 +191,15 @@ async function publish() {
         uploaded += 1;
       }
       items.push({ file: name, sha256: digest, bytes: size });
+      skipped += 1;
     }
 
-    const catalogPath = path.join(directory, CATALOG_FILE);
     const catalog = { schemaVersion: 1, items };
     if (args.dryRun) {
       console.log(`[dry-run] escreveria ${path.relative(ROOT, catalogPath)}`);
       continue;
     }
-    const previous = existsSync(catalogPath)
-      ? await readFile(catalogPath, 'utf8')
-      : null;
+    const previous = existsSync(catalogPath) ? await readFile(catalogPath, 'utf8') : null;
     const next = `${JSON.stringify(catalog, null, 2)}\n`;
     if (previous === next) {
       reused += 1;
@@ -164,13 +208,12 @@ async function publish() {
       await writeFile(catalogPath, next, 'utf8');
       console.log(`atualizado ${path.relative(ROOT, catalogPath)}`);
     }
-    skipped += items.length;
   }
 
   console.log(
     args.dryRun
-      ? `dry-run concluído: ${skipped} arquivo(s) em ${directories.length} pasta(s).`
-      : `publicação concluída: ${uploaded} enviado(s), ${reused} catálogo(s) inalterado(s).`,
+      ? `dry-run concluído: ${skipped} arquivo(s) em ${directories.length} pasta(s), ${removed} catálogo(s) a remover.`
+      : `publicação concluída: ${uploaded} enviado(s), ${reused} reaproveitado(s), ${removed} catálogo(s) removido(s).`,
   );
 }
 

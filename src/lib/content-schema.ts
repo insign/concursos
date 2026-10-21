@@ -80,16 +80,25 @@ export const mediaCatalogSchema = z
   })
   .strict()
   .superRefine((catalog, context) => {
-    const seen = new Set<string>();
+    const seenFiles = new Set<string>();
+    const seenDigests = new Set<string>();
     catalog.items.forEach((item, index) => {
-      if (seen.has(item.file)) {
+      if (seenFiles.has(item.file)) {
         context.addIssue({
           code: 'custom',
           message: `Arquivo de mídia duplicado: "${item.file}"`,
           path: ['items', index, 'file'],
         });
       }
-      seen.add(item.file);
+      seenFiles.add(item.file);
+      if (seenDigests.has(item.sha256)) {
+        context.addIssue({
+          code: 'custom',
+          message: `Conteúdo de mídia duplicado: "${item.sha256}" já aparece em outro arquivo`,
+          path: ['items', index, 'sha256'],
+        });
+      }
+      seenDigests.add(item.sha256);
     });
   });
 

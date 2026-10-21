@@ -112,6 +112,25 @@ export function selectMedia(document: MediaDocument, mediaId: string | null): Me
 }
 
 /**
+ * Verdadeiro quando a posição proposta é equivalente à já registrada.
+ *
+ * Gravar o mesmo estado repetiria a atividade de durabilidade a cada flush e a
+ * barreira de atualização da PWA (ADR-003) esperaria uma revisão que nunca
+ * estabiliza. Por isso a gravação só acontece quando algo muda de fato.
+ */
+export function isSameMediaPosition(
+  current: MediaPosition | null,
+  next: { positionSeconds: number; durationSeconds: number; completed: boolean },
+): boolean {
+  if (!current) return false;
+  return (
+    current.completed === next.completed &&
+    Math.round(current.positionSeconds) === Math.round(next.positionSeconds) &&
+    Math.round(current.durationSeconds) === Math.round(next.durationSeconds)
+  );
+}
+
+/**
  * Verdadeiro quando a mídia foi percorrida o suficiente para contar como concluída.
  * Mídias curtas exigem um limiar maior, para não concluir por um salto breve.
  */

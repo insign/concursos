@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "file": "exemplo-principal.mp3",
+      "sha256": "137fdaf8889d264810fe5864d3386f42e48170cc2cbe43d54c009b3af648f65e",
+      "bytes": 12452
+    },
+    {
+      "file": "exemplo-revisao.mp3",
+      "sha256": "3e540ff10e1c25f3d6bd87b1d54e1e298753755b81bb1485c01b0e1efa834125",
+      "bytes": 12452
+    }
+  ]
+}

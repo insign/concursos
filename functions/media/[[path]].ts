@@ -85,8 +85,12 @@ export async function onRequest(context: MediaEventContext): Promise<Response> {
   }
 
   const key = mediaKey(params);
-  if (!key || !env.MIDIA) {
+  if (!key) {
     return new Response('Mídia não encontrada', { status: 404 });
+  }
+  if (!env.MIDIA) {
+    // Binding ausente é erro de configuração do projeto, não mídia inexistente.
+    return new Response('Armazenamento de mídia indisponível', { status: 500 });
   }
 
   const metadata = await env.MIDIA.head(key);
