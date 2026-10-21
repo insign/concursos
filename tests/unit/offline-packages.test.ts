@@ -918,10 +918,11 @@ describe('beacon prescan', () => {
       const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
         const request = new Request(input);
         if (new URL(request.url).pathname.startsWith('/media/')) {
-          // O tempo avanca durante a midia: com o timer virtual, o
-          // heartbeat nao roda e a unica renovacao possivel e a do
-          // progresso.
-          vi.setSystemTime(Date.now() + 6_000);
+          // O tempo avancia durante a midia: com o timer virtual, o
+          // heartbeat nao roda e a unica renovacao possivel e a da
+          // leitura do corpo. A janela de renovacao e um terco do lease
+          // da fase de midias (60 s), entao o avanco precisa passa-la.
+          vi.setSystemTime(Date.now() + 25_000);
           return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
         }
         return successfulFetch(request);
@@ -940,6 +941,164 @@ describe('beacon prescan', () => {
       );
 
       expect(renewSpy.mock.calls.length).toBeGreaterThan(0);
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('keeps the media already downloaded when a new media file fails', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const firstBody = 'a'.repeat(32);
+    const firstSha = createHash('sha256').update(firstBody).digest('hex');
+    const firstUrl = `/media/${firstSha}.mp3`;
+    const inventory = (url: string, sha: string, body: string, hash: string): OfflineMediaInventory => ({
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: hash,
+      estimatedBytes: body.length,
+      items: [{ url, sha256: sha, bytes: body.length }],
+    });
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      const pathname = new URL(request.url).pathname;
+      if (pathname === firstUrl) {
+        return new Response(firstBody, { status: 200, headers: { 'Content-Length': String(firstBody.length) } });
+      }
+      if (pathname.startsWith('/media/')) {
+        // O segundo arquivo volta com conteudo invalido: a integridade falha.
+        return new Response('z'.repeat(32), { status: 200, headers: { 'Content-Length': '32' } });
+      }
+      return successfulFetch(request);
+    });
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await downloadContestPackage(
+      await hashedManifest('11111111111111111111'),
+      undefined,
+      overrides,
+      'download',
+      { media: inventory(firstUrl, firstSha, firstBody, '0123456789abcdef0123') },
+    );
+
+    // O mesmo inventario, agora com um arquivo a mais: o arquivo novo
+    // falha e o antigo precisa continuar referenciado.
+    const secondBody = 'b'.repeat(32);
+    const secondSha = createHash('sha256').update(secondBody).digest('hex');
+    const secondUrl = `/media/${secondSha}.mp3`;
+    const grown: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: 'abcdef0123456789abcd',
+      estimatedBytes: firstBody.length + secondBody.length,
+      items: [
+        { url: firstUrl, sha256: firstSha, bytes: firstBody.length },
+        { url: secondUrl, sha256: secondSha, bytes: secondBody.length },
+      ],
+    };
+    await expect(
+      downloadContestPackage(
+        await hashedManifest('22222222222222222222'),
+        undefined,
+        overrides,
+        'update',
+        { media: grown },
+      ),
+    ).rejects.toThrow(/mídias/);
+
+    // A midia que o usuario ja tinha continua referenciada.
+    const record = await getOfflineContestRecord('exemplo');
+    expect(record?.media?.status).toBe('partial');
+    expect(record?.media?.urls).toContain(firstUrl);
+    const mediaCache = cacheStorage.caches.get(OFFLINE_MEDIA_CACHE);
+    expect(await mediaCache?.match(`https://concursos.test${firstUrl}`)).toBeDefined();
+  });
+
+  it('reports a media quota failure as a media failure', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    const manifest = await hashedManifest('11111111111111111111');
+    await downloadContestPackage(manifest, undefined, {
+      ...overrides,
+      storage: { persist: () => Promise.resolve(true), estimate: () => Promise.resolve({ quota: 10_000, usage: 0 }) },
+    }, 'download');
+
+    // O pacote ja esta completo: so a fase de midia roda, e ela nao cabe
+    // no espaco restante.
+    await expect(
+      downloadContestPackage(manifest, undefined, {
+        ...overrides,
+        storage: { persist: () => Promise.resolve(true), estimate: () => Promise.resolve({ quota: 10, usage: 0 }) },
+      }, 'update', { media }),
+    ).rejects.toThrow(/mídias não puderam|espaço/);
+  });
+
+  it('stops the media phase when the coordination is lost', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    vi.useFakeTimers({ toFake: ['Date', 'setTimeout', 'clearTimeout', 'setInterval', 'clearInterval'] });
+    try {
+      const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+        const request = new Request(input);
+        if (new URL(request.url).pathname.startsWith('/media/')) {
+          // O lease expira durante a transferencia.
+          vi.setSystemTime(Date.now() + 120_000);
+          return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+        }
+        return successfulFetch(request);
+      });
+
+      await expect(
+        downloadContestPackage(
+          await hashedManifest('11111111111111111111'),
+          undefined,
+          {
+            cacheStorage: cacheStorage as unknown as CacheStorage,
+            fetch: fetchResource as typeof fetch,
+            origin: 'https://concursos.test',
+          },
+          'download',
+          { media },
+        ),
+      ).rejects.toThrow(/coordenação|coordena/);
+
+      const record = await getOfflineContestRecord('exemplo');
+      // O conteudo continua disponivel e a midia ficou marcada como
+      // parcial para a retomada.
+      expect(record?.activeCacheName).not.toBe('');
+      expect(record?.media?.status).toBe('partial');
     } finally {
       vi.useRealTimers();
     }

@@ -17,11 +17,10 @@ import {
 } from './offline-download-pool';
 import {
   downloadOfflineMedia,
+  mediaUrlsInCache,
   OfflineMediaError,
   pruneUnreferencedMedia,
-  storedMediaUrls,
   type OfflineMediaInventory,
-  type MediaDownloadOutcome,
 } from './offline-media';
 import {
   CONTEST_CACHE_PREFIX,
@@ -157,6 +156,11 @@ export function stripCloudflareBeacon(html: string): string {
 const OFFLINE_PACKAGE_LEASE_TTL = 15_000;
 const OFFLINE_PACKAGE_LEASE_WAIT_MS = 60_000;
 export const ADOPTION_LEASE_WAIT_MS = 300_000;
+/**
+ * Lease maior durante a fase de midias: um arquivo unico pode demorar
+ * minutos e o heartbeat do navegador e estrangulado em aba oculta.
+ */
+const MEDIA_LEASE_TTL_MS = 60_000;
 
 /**
  * Serialização única via lease IndexedDB (funciona em página E Service
@@ -165,13 +169,14 @@ export const ADOPTION_LEASE_WAIT_MS = 300_000;
  */
 async function withOfflinePackageLock<T>(
   operation: (renew: () => Promise<void>) => Promise<T>,
-  options: { waitMs?: number } = {},
+  options: { waitMs?: number; leaseTtlMs?: number } = {},
 ): Promise<T> {
   const { acquireSyncLease, renewSyncLease, releaseSyncLease } = await import('./offline-db');
   const ownerId =
     typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+  const leaseTtlMs = options.leaseTtlMs ?? OFFLINE_PACKAGE_LEASE_TTL;
   const deadline = Date.now() + (options.waitMs ?? OFFLINE_PACKAGE_LEASE_WAIT_MS);
-  while (!(await acquireSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL))) {
+  while (!(await acquireSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, leaseTtlMs))) {
     if (Date.now() >= deadline) {
       throw new Error('Outro download está em andamento; aguarde alguns instantes.');
     }
@@ -182,11 +187,12 @@ async function withOfflinePackageLock<T>(
   let renewalInFlight: Promise<void> | null = null;
   let lastRenewalAt = Date.now();
 
-  const scheduleRenewal = (): Promise<void> => {
-    const pending = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, OFFLINE_PACKAGE_LEASE_TTL)
+  const renewLease = (): Promise<void> => {
+    const pending = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, leaseTtlMs)
       .then(() => undefined)
-      .catch(() => {
+      .catch((error: unknown) => {
         lost = true;
+        throw error;
       });
     renewalInFlight = pending;
     lastRenewalAt = Date.now();
@@ -194,20 +200,22 @@ async function withOfflinePackageLock<T>(
   };
 
   const heartbeat = setInterval(() => {
-    void scheduleRenewal();
-  }, OFFLINE_PACKAGE_LEASE_TTL / 3);
+    void renewLease().catch(() => undefined);
+  }, leaseTtlMs / 3);
 
   /**
    * Renovacao sob demanda. O heartbeat depende de `setInterval`, que o
    * navegador reduz em abas ocultas: um download longo de midia pode
    * perder o lease mesmo com o timer rodando devagar. A operacao renova
-   * o lease por evento (progresso), nao por tempo.
+   * o lease por evento (progresso e leitura do corpo), nao por tempo.
+   * A perda do lease e propagada: quem chamou decide o que fazer.
    */
   const renew = async (): Promise<void> => {
-    if (Date.now() - lastRenewalAt < OFFLINE_PACKAGE_LEASE_TTL / 3) return;
+    if (Date.now() - lastRenewalAt < leaseTtlMs / 3) return;
     const pending = renewalInFlight as Promise<void> | null;
     if (pending) await pending.catch(() => undefined);
-    await scheduleRenewal();
+    if (Date.now() - lastRenewalAt < leaseTtlMs / 3) return;
+    await renewLease();
   };
 
   try {
@@ -225,7 +233,13 @@ async function withOfflinePackageLock<T>(
   } catch (error) {
     const pendingOnErr = renewalInFlight as Promise<void> | null;
     if (pendingOnErr) await pendingOnErr.catch(() => undefined);
-    if (lost && !(error instanceof Error && error.message.startsWith('Coordenação de download perdida'))) {
+    // A fase de midia ja trata a perda de lease: o estado parcial foi
+    // gravado e o erro que chega aqui e o da midia.
+    if (
+      lost &&
+      !(error instanceof OfflineMediaError) &&
+      !(error instanceof Error && error.message.startsWith('Coordenação de download perdida'))
+    ) {
       throw new Error('Coordenação de download perdida durante a operação; tente novamente.', { cause: error });
     }
     throw error;
@@ -354,16 +368,20 @@ export async function downloadContestPackage(
       // ressuscitaria o pacote que o usuario acabou de apagar.
       if (packageRecord.activeCacheName === '') return packageRecord;
       return downloadContestMediaLocked(packageRecord, options.media, overrides, renew);
-    });
+    }, options.media ? { leaseTtlMs: MEDIA_LEASE_TTL_MS } : {});
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
     return record;
   } catch (error) {
-    publishDownloadEvent({
-      type: 'failed',
-      contestStorageId: storageId,
-      phase,
-      message: error instanceof Error ? error.message : String(error),
-    });
+    // A fase de midia publica o proprio evento de falha: publicar aqui
+    // tambem faria a interface pintar a causa errada.
+    if (!(error instanceof OfflineMediaError)) {
+      publishDownloadEvent({
+        type: 'failed',
+        contestStorageId: storageId,
+        phase,
+        message: error instanceof Error ? error.message : String(error),
+      });
+    }
     throw error;
   }
 }
@@ -372,6 +390,10 @@ export async function downloadContestPackage(
  * Fase de midias do download offline. Roda depois da ativacao do pacote:
  * o conteudo e atomico e a midia e idempotente. Uma falha aqui preserva o
  * pacote ja ativado e deixa os arquivos verificados para retomada.
+ *
+ * Todo erro da fase e classificado como `OfflineMediaError`: a interface
+ * precisa distinguir "o conteudo falhou" de "o audio falhou", porque o
+ * pacote continua valendo nos dois casos.
  */
 async function downloadContestMediaLocked(
   record: OfflineContestRecord,
@@ -380,52 +402,127 @@ async function downloadContestMediaLocked(
   renew: () => Promise<void> = () => Promise.resolve(),
 ): Promise<OfflineContestRecord> {
   const { cacheStorage, storage } = environment(overrides);
-  if (!cacheStorage) throw new Error('Armazenamento de midia indisponivel neste navegador.');
   const storageId = record.contestStorageId;
+  const controller = new AbortController();
+  let leaseLost = false;
 
-  const missingBytes = await missingMediaBytes(inventory, overrides);
-  if (missingBytes > 0) {
-    await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
-  }
+  /**
+   * Renovacao da coordenacao. A perda do lease interrompe o trabalho em
+   * andamento: ninguem mais deve gravar estado por conta propria.
+   */
+  const renewMedia = async (): Promise<void> => {
+    try {
+      await renew();
+    } catch (error) {
+      leaseLost = true;
+      controller.abort();
+      throw error;
+    }
+  };
 
-  if (inventory.items.length === 0) {
-    // O concurso ficou sem midia: o estado deixa de valer a midia e a
-    // poda leva embora os arquivos que sobraram.
-    const emptied: OfflineContestRecord = {
+  try {
+    if (!cacheStorage) throw new Error('Armazenamento de midia indisponivel neste navegador.');
+
+    if (inventory.items.length === 0) {
+      // O concurso ficou sem midia: o estado deixa de valer a midia e a
+      // poda leva embora os arquivos que sobraram.
+      const emptied: OfflineContestRecord = {
+        ...record,
+        media: {
+          included: false,
+          inventoryHash: inventory.inventoryHash,
+          urls: [],
+          bytes: 0,
+          status: 'complete',
+          updatedAt: Date.now(),
+        },
+      };
+      await saveOfflineContestRecord(emptied);
+      await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+      return emptied;
+    }
+
+    const missingBytes = await missingMediaBytes(inventory, overrides);
+    if (missingBytes > 0) {
+      await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
+    }
+
+    // A coordenacao e renovada antes da primeira transferencia: um
+    // arquivo unico pode demorar mais que o intervalo do heartbeat.
+    await renewMedia();
+
+    publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase: 'media' });
+    const outcome = await downloadOfflineMedia(
+      inventory,
+      (progress) => {
+        publishDownloadEvent({
+          type: 'progress',
+          contestStorageId: storageId,
+          phase: 'media',
+          completed: progress.completed,
+          total: progress.total,
+          downloadedBytes: progress.downloadedBytes,
+        });
+      },
+      overrides,
+      { renew: renewMedia, signal: controller.signal },
+    );
+
+    if (leaseLost) {
+      throw new OfflineMediaError(
+        'A coordenação do download foi perdida durante as mídias. O conteúdo está disponível offline; tente de novo.',
+      );
+    }
+
+    // O registro pode ter mudado enquanto a fase rodava (o concurso foi
+    // removido ou o pacote foi atualizado): gravar aqui ressuscitaria um
+    // estado obsoleto.
+    const current = await getOfflineContestRecord(storageId);
+    if (!current || current.activeCacheName !== record.activeCacheName) {
+      throw new OfflineMediaError(
+        'O download deste concurso mudou durante as mídias. O conteúdo está disponível offline; tente de novo.',
+      );
+    }
+
+    // A midia que ja estava no aparelho e continua no inventario entra no
+    // estado: uma falha parcial nao pode fazer o usuario perder o audio.
+    // O que saiu do inventario nao entra, e a poda o remove.
+    const inventoryUrls = new Set(inventory.items.map((item) => item.url));
+    const previousUrls = (record.media?.urls ?? []).filter((url) => inventoryUrls.has(url));
+    const urls = [...new Set([...previousUrls, ...outcome.urls])];
+    const complete = inventory.items.every((item) => urls.includes(item.url));
+
+    const updated: OfflineContestRecord = {
       ...record,
       media: {
-        included: false,
+        included: true,
         inventoryHash: inventory.inventoryHash,
-        urls: [],
-        bytes: 0,
-        status: 'complete',
+        urls,
+        bytes: mediaBytesOf(inventory, urls),
+        status: complete ? 'complete' : 'partial',
         updatedAt: Date.now(),
       },
     };
-    await saveOfflineContestRecord(emptied);
+    await saveOfflineContestRecord(updated);
+    // A troca do inventario deixa arquivos antigos sem referencia: a poda
+    // roda aqui, ainda sob o lock, para nao deixar midia obsoleta no aparelho.
     await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
-    return emptied;
-  }
 
-  publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase: 'media' });
-  let outcome: MediaDownloadOutcome;
-  try {
-    outcome = await downloadOfflineMedia(inventory, (progress) => {
-      publishDownloadEvent({
-        type: 'progress',
-        contestStorageId: storageId,
-        phase: 'media',
-        completed: progress.completed,
-        total: progress.total,
-        downloadedBytes: progress.downloadedBytes,
-      });
-      // Renovacao por evento: o lease nao pode depender so do timer.
-      void renew();
-    }, overrides);
+    if (outcome.failed.length > 0) {
+      throw new OfflineMediaError(
+        `${outcome.failed.length} de ${inventory.items.length} mídias não puderam ser baixadas` +
+          `${outcome.firstError ? `: ${outcome.firstError}` : ''}. ` +
+          'O conteúdo está disponível offline; tente de novo para completar as mídias.',
+      );
+    }
+    publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
+    return updated;
   } catch (error) {
-    // Falha fatal da fase: o que ja foi verificado continua guardado e
-    // precisa ficar referenciado, senao a proxima poda o apaga.
-    await savePartialMediaState(record, inventory, overrides);
+    // O que ja foi verificado continua guardado e referenciado, senao a
+    // proxima poda o apaga. A gravacao do estado parcial e best-effort: uma
+    // falha aqui nao pode substituir o erro original.
+    await savePartialMediaState(record, inventory, overrides).catch(() => undefined);
+    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides).catch(() => undefined);
     publishDownloadEvent({
       type: 'failed',
       contestStorageId: storageId,
@@ -436,38 +533,6 @@ async function downloadContestMediaLocked(
       ? error
       : new OfflineMediaError(error instanceof Error ? error.message : String(error), { cause: error });
   }
-
-  const updated: OfflineContestRecord = {
-    ...record,
-    media: {
-      included: true,
-      inventoryHash: inventory.inventoryHash,
-      urls: outcome.urls,
-      bytes: mediaBytesOf(inventory, outcome.urls),
-      status: outcome.missing.length === 0 ? 'complete' : 'partial',
-      updatedAt: Date.now(),
-    },
-  };
-  await saveOfflineContestRecord(updated);
-  // A troca do inventario deixa arquivos antigos sem referencia: a poda
-  // roda aqui, ainda sob o lock, para nao deixar midia obsoleta no aparelho.
-  await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
-
-  if (outcome.failed.length > 0) {
-    publishDownloadEvent({
-      type: 'failed',
-      contestStorageId: storageId,
-      phase: 'media',
-      message: `${outcome.failed.length} mídias não puderam ser baixadas.`,
-    });
-    throw new OfflineMediaError(
-      `${outcome.failed.length} de ${inventory.items.length} mídias não puderam ser baixadas` +
-        `${outcome.firstError ? `: ${outcome.firstError}` : ''}. ` +
-        'O conteúdo está disponível offline; tente de novo para completar as mídias.',
-    );
-  }
-  publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
-  return updated;
 }
 
 /** Bytes correspondente as URLs de midia guardadas. */
@@ -477,22 +542,36 @@ function mediaBytesOf(inventory: OfflineMediaInventory, urls: readonly string[])
 }
 
 /**
- * Grava o estado parcial da midia: o que ja foi verificado fica
+ * Grava o estado parcial da midia: o que ja foi verificado continua
  * referenciado pelo concurso, para a retomada e para a poda.
+ *
+ * A midia do inventario anterior tambem entra, quando ainda esta no
+ * aparelho: uma falha no meio de uma atualizacao nao pode fazer o usuario
+ * perder o audio que ja tinha.
  */
 async function savePartialMediaState(
   record: OfflineContestRecord,
   inventory: OfflineMediaInventory,
   overrides: PackageEnvironment,
 ): Promise<void> {
-  const stored = await storedMediaUrls(inventory, overrides).catch(() => [] as string[]);
+  const inventoryUrls = new Set(inventory.items.map((item) => item.url));
+  // A midia do inventario anterior so vale se ainda estiver no inventario:
+  // o que saiu dele e obsoleto e deve sair do aparelho.
+  const previousCandidates = (record.media?.urls ?? []).filter((url) => inventoryUrls.has(url));
+  const previous = await mediaUrlsInCache(previousCandidates, overrides).catch(() => [] as string[]);
+  const current = await mediaUrlsInCache(
+    inventory.items.map((item) => item.url),
+    overrides,
+  ).catch(() => [] as string[]);
+  const urls = [...new Set([...previous, ...current])];
+  const bytes = mediaBytesOf(inventory, urls);
   await saveOfflineContestRecord({
     ...record,
     media: {
       included: true,
       inventoryHash: inventory.inventoryHash,
-      urls: stored,
-      bytes: mediaBytesOf(inventory, stored),
+      urls,
+      bytes,
       status: 'partial',
       updatedAt: Date.now(),
     },

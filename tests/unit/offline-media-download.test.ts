@@ -156,6 +156,35 @@ describe('offline media download', () => {
     expect(await cache.match(new Request(`https://concursos.helio.me${goodItem.url}`))).toBeDefined();
   });
 
+  it('stops the pool when the coordination is aborted', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const bodies = ['a'.repeat(32), 'b'.repeat(32), 'c'.repeat(32), 'd'.repeat(32)];
+    const items = bodies.map((body) => mediaItem(0, body));
+    const controller = new AbortController();
+    let started = 0;
+    const fetchResource = async (input: RequestInfo | URL): Promise<Response> => {
+      started += 1;
+      controller.abort();
+      const body = bodies[0]!;
+      return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+    };
+
+    const outcome = await downloadOfflineMedia(
+      inventoryOf(items),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as unknown as typeof fetch,
+        origin: 'https://concursos.helio.me',
+      },
+      { signal: controller.signal },
+    );
+
+    // O abortamento impede que novas transferencias comecem.
+    expect(started).toBeLessThan(items.length);
+    expect(outcome.urls.length).toBeLessThan(items.length);
+  });
+
   it('reuses what is already stored instead of downloading again', async () => {
     const cacheStorage = new MemoryCacheStorage();
     const body = 'a'.repeat(32);

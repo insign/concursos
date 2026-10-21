@@ -44,7 +44,10 @@ async function loadMediaInventory(
     });
     if (!response.ok) return undefined;
     const parsed = offlineMediaInventorySchema.safeParse(await response.json());
-    return parsed.success ? parsed.data : undefined;
+    if (!parsed.success) return undefined;
+    // O inventario tem que ser deste concurso: um arquivo obsoleto ou
+    // roteado errado misturaria midias de outro conjunto.
+    return parsed.data.contestStorageId === contestStorageId ? parsed.data : undefined;
   } catch {
     return undefined;
   }
@@ -92,7 +95,12 @@ export async function maybeUpdateOfflinePackages(
         // Inventario vazio tambem e mudanca: e o caso em que as midias
         // foram removidas do concurso e os arquivos antigos precisam sair
         // do aparelho.
-        const mediaChanged = media !== undefined && media.inventoryHash !== record.media?.inventoryHash;
+        // Midia parcial tambem: uma falha no download deixa arquivos
+        // faltando e o auto-update precisa retomarlos, mesmo com o hash
+        // do inventario ja atualizado.
+        const mediaChanged =
+          media !== undefined &&
+          (media.inventoryHash !== record.media?.inventoryHash || record.media?.status === 'partial');
         if (manifest.manifestHash === record.manifestHash && !mediaChanged) continue;
         await downloadContestPackage(manifest, undefined, { fetch: fetchResource }, 'update', mediaChanged ? { media } : {});
       } catch (error) {

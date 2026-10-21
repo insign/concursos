@@ -210,6 +210,44 @@ describe('offline media service worker response', () => {
     expect(await partial?.text()).toBe('ab');
   });
 
+  it('answers the whole file for an invalid or multiple range', async () => {
+    useCaches();
+    const body = 'abcdefghij';
+    const cache = await caches.open(OFFLINE_MEDIA_CACHE);
+    await cache.put(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`),
+      new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } }),
+    );
+    const invalid = await matchOfflineMedia(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`, { headers: { Range: 'bytes=0-1,3-4' } }),
+    );
+    expect(invalid?.status).toBe(200);
+    expect(await invalid?.text()).toBe(body);
+  });
+
+  it('answers HEAD with the headers only', async () => {
+    useCaches();
+    const body = 'abcdefghij';
+    const cache = await caches.open(OFFLINE_MEDIA_CACHE);
+    await cache.put(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`),
+      new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } }),
+    );
+    const head = await matchOfflineMedia(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`, { method: 'HEAD' }),
+    );
+    expect(head?.status).toBe(200);
+    expect(head?.headers.get('Content-Length')).toBe(String(body.length));
+    expect(await head?.text()).toBe('');
+
+    const headRange = await matchOfflineMedia(
+      new Request(`https://concursos.helio.me${sampleMedia.url}`, { method: 'HEAD', headers: { Range: 'bytes=0-1' } }),
+    );
+    expect(headRange?.status).toBe(206);
+    expect(headRange?.headers.get('Content-Range')).toBe(`bytes 0-1/${body.length}`);
+    expect(await headRange?.text()).toBe('');
+  });
+
   it('answers 416 for an unsatisfiable range and undefined without a copy', async () => {
     useCaches();
     const cache = await caches.open(OFFLINE_MEDIA_CACHE);

@@ -60,6 +60,12 @@ export interface ConcurrentPoolOptions<T> {
   abortOnError?: boolean;
   /** Notificado por item que falhou, quando `abortOnError` e `false`. */
   onItemError?: (error: unknown, item: T) => void;
+  /**
+   * Sinal externo de abortamento. Quando abortado, o pool para de iniciar
+   * itens e o sinal interno tambem e abortado, para as transferencias em
+   * andamento desistirem.
+   */
+  signal?: AbortSignal;
 }
 
 /**
@@ -76,6 +82,16 @@ export async function runConcurrentPool<T>(
   const abortOnError = options.abortOnError ?? true;
   const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
   const signal = controller?.signal;
+  const externalSignal = options.signal;
+  const onExternalAbort = () => {
+    try {
+      controller?.abort();
+    } catch {
+      // O abortamento externo ja e sinal de parada; nada a fazer.
+    }
+  };
+  if (externalSignal?.aborted) onExternalAbort();
+  else externalSignal?.addEventListener('abort', onExternalAbort, { once: true });
   const poolSize = Math.max(1, Math.min(concurrency, items.length));
   // nextIndex++ é atômico no JS single-thread: incremento síncrono antes de qualquer await distribui sem duplicação
   let nextIndex = 0;
@@ -106,6 +122,10 @@ export async function runConcurrentPool<T>(
       }
     }
   });
-  await Promise.all(runners);
+  try {
+    await Promise.all(runners);
+  } finally {
+    externalSignal?.removeEventListener('abort', onExternalAbort);
+  }
   if (hasError) throw firstError;
 }

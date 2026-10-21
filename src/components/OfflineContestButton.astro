@@ -52,7 +52,9 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
   } from '../lib/offline-packages';
   import { subscribeDownloadEvents } from '../lib/offline-download-events';
   import { evaluateOfflineAvailability } from '../lib/offline-availability';
+  import { saveOfflineContestRecord } from '../lib/offline-db';
   import {
+    mediaUrlsInCache,
     offlineMediaInventorySchema,
     OfflineMediaError,
     type OfflineMediaInventory,
@@ -98,6 +100,9 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
       // leitura, em vez de uma delas receber um inventario ainda vazio.
       if (!mediaInventoryPromise) {
         mediaInventoryPromise = (async () => {
+          // A falha e avaliada por tentativa: uma falha antiga nao pode
+          // impedir que um 404 posterior seja memorizado.
+          mediaInventoryFailed = false;
           try {
             const response = await fetch(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
             if (!response.ok) {
@@ -111,8 +116,12 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
               mediaInventoryFailed = true;
               return undefined;
             }
+            if (parsed.data.contestStorageId !== contestStorageId) {
+              // O inventario tem que ser deste concurso.
+              mediaInventoryFailed = true;
+              return undefined;
+            }
             mediaInventory = parsed.data;
-            mediaInventoryFailed = false;
           } catch {
             mediaInventoryFailed = true;
             mediaInventory = undefined;
@@ -150,6 +159,8 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 
     let currentRecord: Awaited<ReturnType<typeof getOfflineContestRecord>>;
     let currentStatus: 'not-downloaded' | 'downloaded' | 'update-available' | 'ghost-package' = 'not-downloaded';
+    /** Midia do registro que nao esta mais no cache do aparelho. */
+    let mediaMissingFiles = 0;
 
     /**
      * Estado dos botoes e da mensagem. A midia e uma segunda etapa do
@@ -184,21 +195,45 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         return;
       }
 
-      if (mediaPartial || (wantsMedia && !mediaComplete)) {
+      // O inventario carregado difere do registrado: há mídia nova a
+      // baixar.
+      const mediaOutdated = Boolean(
+        media?.included === true && mediaInventory && mediaInventory.inventoryHash !== media.inventoryHash,
+      );
+      // O navegador pode expulsar o cache: a mídia precisa ser rebaixada
+      // para que o reparo volte a ser oferecido.
+      const mediaIncomplete = mediaPartial || mediaOutdated || mediaMissingFiles > 0;
+
+      if (wantsMedia && (!mediaComplete || mediaIncomplete)) {
         downloadButton.hidden = false;
         downloadButton.textContent = 'Baixar mídias';
         removeButton.hidden = false;
-        message.textContent = mediaPartial
-          ? 'O conteúdo está disponível offline, mas as mídias não foram concluídas. Toque em Baixar mídias para tentar de novo.'
-          : 'O conteúdo está disponível offline. Marque a opção de mídias para baixá-las também.';
+        message.textContent = mediaIncomplete
+          ? 'O conteúdo está disponível offline, mas as mídias precisam ser completadas. Toque em Baixar mídias para tentar de novo.'
+          : 'O conteúdo está disponível offline. Toque em Baixar mídias para baixar os arquivos de áudio.';
         return;
       }
 
       downloadButton.hidden = true;
       removeButton.hidden = false;
+      if (mediaIncomplete) {
+        message.textContent =
+          'O conteúdo está disponível offline, mas as mídias não foram concluídas. Marque a opção de mídias para tentá-las de novo.';
+        return;
+      }
       message.textContent = mediaComplete
         ? `Disponível offline com mídias desde ${new Date(currentRecord!.downloadedAt).toLocaleDateString('pt-BR')}.`
         : `Disponível offline desde ${new Date(currentRecord!.downloadedAt).toLocaleDateString('pt-BR')}.`;
+    };
+
+    /**
+     * Mostra a causa da falha depois de repintar o estado real: a
+     * renderizacao reescreve a mensagem e o diagnostico precisa vir por
+     * ultimo.
+     */
+    const showFailure = async (detail: string): Promise<void> => {
+      await renderAvailability();
+      message.textContent = detail;
     };
 
     const renderAvailability = async () => {
@@ -231,7 +266,25 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 
       if (seq !== renderSeq) return;
       currentRecord = record;
-      renderMediaChoice(record);
+      mediaMissingFiles = 0;
+      if (record?.media?.included && record.media.urls.length > 0) {
+        const stored = await mediaUrlsInCache(record.media.urls).catch(() => record.media!.urls);
+        const missing = record.media.urls.length - stored.length;
+        if (missing > 0) {
+          mediaMissingFiles = missing;
+          if (record.media.status === 'complete') {
+            // O cache pode ser expulso pelo navegador: o estado honesto é
+            // parcial e o reparo precisa continuar disponível.
+            const repaired = {
+              ...record,
+              media: { ...record.media, status: 'partial' as const, updatedAt: Date.now() },
+            };
+            await saveOfflineContestRecord(repaired).catch(() => undefined);
+            currentRecord = repaired;
+          }
+        }
+      }
+      renderMediaChoice(currentRecord);
 
       if (!record) {
         currentStatus = 'not-downloaded';
@@ -316,13 +369,9 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         await renderAvailability();
       } catch (error) {
         const detail = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
-        // O estado real e repintado antes da mensagem: a renderizacao
-        // reescreve o texto e a causa precisa aparecer por ultimo.
-        await renderAvailability();
-        message.textContent =
-          error instanceof OfflineMediaError
-            ? `As mídias não foram concluídas: ${detail}`
-            : detail;
+        await showFailure(
+          error instanceof OfflineMediaError ? `As mídias não foram concluídas: ${detail}` : detail,
+        );
       } finally {
         mediaSelect.disabled = false;
         downloadButton.disabled = false;
@@ -373,7 +422,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
           message.textContent = `Baixando ${event.completed} de ${event.total} mídias...`;
         } else if (event.type === 'failed') {
           progress.hidden = true;
-          message.textContent = `As mídias não foram concluídas: ${event.message}`;
+          void showFailure(`As mídias não foram concluídas: ${event.message}`);
         } else if (event.type === 'completed') {
           progress.hidden = true;
           window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
@@ -391,8 +440,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         } else if (event.type === 'failed') {
           downloadButton.disabled = false;
           progress.hidden = true;
-          message.textContent = event.message;
-          void renderAvailability();
+          void showFailure(event.message);
         } else if (event.type === 'progress') {
           progress.hidden = false;
           progress.max = event.total;

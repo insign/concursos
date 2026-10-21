@@ -234,6 +234,75 @@ describe('offline auto update', () => {
     expect(options).toMatchObject({ media: { items: [] } });
   });
 
+  it('retries the media of a partial download even with the same inventory hash', async () => {
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: [], bytes: 0, status: 'partial', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('/offline-media/')) {
+        return new Response(
+          JSON.stringify({
+            schemaVersion: 1,
+            contestStorageId: 'exemplo',
+            inventoryHash: '0123456789abcdef0123',
+            estimatedBytes: 0,
+            items: [],
+          }),
+          { status: 200 },
+        );
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+
+    // O manifesto nao mudou, mas a midia esta parcial: ela precisa ser
+    // retomada.
+    expect(download).toHaveBeenCalledTimes(1);
+    expect(download.mock.calls[0]?.[4]).toMatchObject({ media: { inventoryHash: '0123456789abcdef0123' } });
+  });
+
+  it('ignores a media inventory of another contest', async () => {
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: [], bytes: 0, status: 'complete', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('/offline-media/')) {
+        return new Response(
+          JSON.stringify({
+            schemaVersion: 1,
+            contestStorageId: 'outro',
+            inventoryHash: '99999999999999999999',
+            estimatedBytes: 0,
+            items: [],
+          }),
+          { status: 200 },
+        );
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+
+    expect(download).not.toHaveBeenCalled();
+  });
+
   it('does nothing when the device is offline', async () => {
     const originalOnLine = navigator.onLine;
     Object.defineProperty(navigator, 'onLine', { configurable: true, value: false });

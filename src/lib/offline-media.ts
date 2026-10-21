@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { runConcurrentPool, resolveAdaptiveConcurrency } from './offline-download-pool';
+import { readAdaptiveHints, runConcurrentPool, resolveAdaptiveConcurrency } from './offline-download-pool';
 import { OFFLINE_MEDIA_CACHE } from './pwa-cache';
 
 /**
@@ -184,10 +184,17 @@ export function mediaInventoryUrl(contestStorageId: string): string {
   return `/offline-media/${contestStorageId}.json`;
 }
 
-/** Concorrencia das midias: adaptativa, limitada pelo teto de memoria. */
+/**
+ * Concorrencia das midias: adaptativa, limitada pelo teto de memoria. Cada
+ * transferencia segura o arquivo inteiro em memoria para conferir o
+ * SHA-256, entao um aparelho com pouca memoria baixa para 2.
+ */
 export function resolveMediaConcurrency(): number {
-  const adaptive = resolveAdaptiveConcurrency();
-  return Math.max(2, Math.min(MEDIA_CONCURRENCY_MAX, adaptive));
+  const hints = readAdaptiveHints();
+  const adaptive = resolveAdaptiveConcurrency(hints);
+  const lowMemory = typeof hints.deviceMemory === 'number' && hints.deviceMemory > 0 && hints.deviceMemory <= 4;
+  const cap = lowMemory ? 2 : MEDIA_CONCURRENCY_MAX;
+  return Math.max(2, Math.min(cap, adaptive));
 }
 
 function requestForOfflineMedia(url: string, origin: string): Request {
@@ -204,10 +211,53 @@ function requestForOfflineMedia(url: string, origin: string): Request {
  * reaproveitados, o que evita repetir a transferencia da midia canonica
  * compartilhada entre concursos.
  */
+export interface MediaDownloadOptions {
+  /**
+   * Chamado durante a leitura de cada parte do corpo. Mantem a coordenacao
+   * do download viva mesmo quando um arquivo unico demora mais que o
+   * intervalo de renovacao.
+   */
+  renew?: () => Promise<void>;
+  /** Aborta o trabalho em andamento quando a coordenacao e perdida. */
+  signal?: AbortSignal;
+}
+
+/**
+ * Le o corpo em partes, renovando a coordenacao a cada parte. Uma
+ * transferencia so e concluida quando o arquivo inteiro chegou.
+ */
+async function readMediaBody(
+  response: Response,
+  renew?: () => Promise<void>,
+): Promise<ArrayBuffer> {
+  const body = response.body;
+  if (!body) return response.arrayBuffer();
+  const reader = body.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    if (value) {
+      chunks.push(value);
+      total += value.byteLength;
+    }
+    if (renew) await renew();
+  }
+  const contents = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    contents.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return contents.buffer;
+}
+
 export async function downloadOfflineMedia(
   inventory: OfflineMediaInventory,
   onProgress: (progress: MediaDownloadProgress) => void = () => undefined,
   overrides: MediaEnvironment = {},
+  options: MediaDownloadOptions = {},
 ): Promise<MediaDownloadOutcome> {
   const { cacheStorage, fetch: fetchResource, origin } = mediaEnvironment(overrides);
   if (!cacheStorage) throw new Error('Armazenamento de midia indisponivel neste navegador.');
@@ -246,7 +296,7 @@ export async function downloadOfflineMedia(
       // pode ser gravado no cache e indicaria integridade comprometida.
       throw new Error(`Resposta inesperada para midia ${item.url}: HTTP ${response.status}`);
     }
-    const buffer = await response.arrayBuffer();
+    const buffer = await readMediaBody(response, options.renew);
     if (buffer.byteLength !== item.bytes) {
       throw new Error(`Tamanho invalido para midia ${item.url}`);
     }
@@ -278,6 +328,7 @@ export async function downloadOfflineMedia(
     // Um arquivo indisponivel nao pode travar os demais: a midia e
     // idempotente e o que falhou fica registrado para retomada.
     abortOnError: false,
+    ...(options.signal ? { signal: options.signal } : {}),
     onItemError: (error, item) => {
       failed.push(item.url);
       firstError ??= error instanceof Error ? error.message : String(error);
@@ -302,13 +353,24 @@ export async function storedMediaUrls(
   inventory: OfflineMediaInventory,
   overrides: MediaEnvironment = {},
 ): Promise<string[]> {
+  return mediaUrlsInCache(
+    inventory.items.map((item) => item.url),
+    overrides,
+  );
+}
+
+/** URLs que ainda estao guardadas no cache de midia. */
+export async function mediaUrlsInCache(
+  urls: readonly string[],
+  overrides: MediaEnvironment = {},
+): Promise<string[]> {
   const { cacheStorage, origin } = mediaEnvironment(overrides);
   if (!cacheStorage) return [];
   const cache = await cacheStorage.open(OFFLINE_MEDIA_CACHE);
   const stored: string[] = [];
-  for (const item of inventory.items) {
-    const request = requestForOfflineMedia(item.url, origin);
-    if (await cache.match(request, { ignoreVary: true })) stored.push(item.url);
+  for (const url of urls) {
+    const request = requestForOfflineMedia(url, origin);
+    if (await cache.match(request, { ignoreVary: true })) stored.push(url);
   }
   return stored;
 }
@@ -360,22 +422,23 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
   if (!cached) return undefined;
 
   const contentType = cached.headers.get('Content-Type') ?? mediaMimeFromUrl(new URL(request.url).pathname);
-
-  if (request.method === 'HEAD') {
-    const headBlob = await cached.blob();
-    return new Response(null, {
-      status: 200,
-      headers: {
-        'Content-Type': contentType,
-        'Content-Length': String(headBlob.size),
-        'Accept-Ranges': 'bytes',
-        'Cache-Control': 'public, max-age=31536000, immutable',
-      },
-    });
-  }
+  const immutable = { 'Cache-Control': 'public, max-age=31536000, immutable' };
 
   const rangeHeader = request.headers.get('Range');
   if (!rangeHeader) {
+    if (request.method === 'HEAD') {
+      const declared = Number(cached.headers.get('Content-Length'));
+      const size = Number.isFinite(declared) && declared > 0 ? declared : (await cached.blob()).size;
+      return new Response(null, {
+        status: 200,
+        headers: {
+          'Content-Type': contentType,
+          'Content-Length': String(size),
+          'Accept-Ranges': 'bytes',
+          ...immutable,
+        },
+      });
+    }
     return cached;
   }
 
@@ -384,7 +447,17 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
   const blob = await cached.blob();
   const range = parseByteRange(rangeHeader, blob.size);
   if (range === null) {
-    return cached;
+    // Faixa invalida ou multipla: responde o arquivo inteiro. O corpo da
+    // resposta em cache ja foi consumido, entao a resposta e recriada.
+    return new Response(blob, {
+      status: 200,
+      headers: {
+        'Content-Type': contentType,
+        'Content-Length': String(blob.size),
+        'Accept-Ranges': 'bytes',
+        ...immutable,
+      },
+    });
   }
   if (range === 'unsatisfiable') {
     return new Response(null, {
@@ -393,17 +466,18 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
     });
   }
 
-  const sliced = blob.slice(range.offset, range.offset + range.length);
-  return new Response(sliced, {
-    status: 206,
-    headers: {
-      'Content-Type': contentType,
-      'Content-Length': String(range.length),
-      'Content-Range': `bytes ${range.offset}-${range.offset + range.length - 1}/${blob.size}`,
-      'Accept-Ranges': 'bytes',
-      'Cache-Control': 'public, max-age=31536000, immutable',
-    },
-  });
+  const headers = {
+    'Content-Type': contentType,
+    'Content-Length': String(range.length),
+    'Content-Range': `bytes ${range.offset}-${range.offset + range.length - 1}/${blob.size}`,
+    'Accept-Ranges': 'bytes',
+    ...immutable,
+  };
+  // Uma sondagem HEAD nao deve custar o corpo do arquivo.
+  if (request.method === 'HEAD') {
+    return new Response(null, { status: 206, headers });
+  }
+  return new Response(blob.slice(range.offset, range.offset + range.length), { status: 206, headers });
 }
 
 /**
