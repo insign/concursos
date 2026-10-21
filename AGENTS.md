@@ -361,4 +361,4 @@ Se a auditoria concluir que nenhuma alteração é necessária, não crie commit
 | 006 | Defer custom incremental build cache — keep optimized full-build fallback | 158–185 |
 | 007 | Canonical mega reviews shared across contests via biblioteca links | 186–217 |
 | 008 | Mirrored edge-mutation strip for offline download integrity | 218–239 |
-| 009 | Per-subject media with R2 delivery and consumption-based completion | 240–273 |
+| 009 | Per-subject media with R2 delivery and consumption-based completion | 240–286 |
