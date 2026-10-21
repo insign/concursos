@@ -142,7 +142,8 @@ marcação só acontece quando todas forem concluídas.
 | 404 em `/media/<sha256>.mp3` | O catálogo referencia um objeto que não foi enviado. | Republicar o assunto. |
 | 416 na requisição | Intervalo pedido além do tamanho do arquivo. | Recarregar a página; o player refaz a requisição. |
 | O iPhone não toca | A rota está respondendo 200 em vez de 206. | Rodar o gate de 206 e conferir se `functions/` foi publicado no deploy. |
-| Erro 500 nas Functions | Binding `MIDIA` ausente no projeto Pages. | Criar o binding R2 no projeto Pages ou em `wrangler.toml`. |
+| Erro 500 nas Functions | Binding `MIDIA` ausente no deployment. | No Cloudflare Pages, o binding precisa estar na configuração do projeto (Settings → Bindings → R2, nome da variável `MIDIA`) **e** no `wrangler.toml`, que o build do Git lê. O `wrangler.toml` sozinho não basta: sem a configuração do projeto, o `env.MIDIA` chega `undefined` e a rota `/media/*` responde 500. |
+| O build do Pages falha com "does not support account_id" | O `wrangler.toml` tem `account_id`. | Remover a linha: arquivos de configuração de Pages não aceitam `account_id`. |
 | Build falha com "file too large" | Um asset acima de 25 MiB foi parar em `dist/`. | A mídia não deve estar no build; se estiver, removê-la do `public/`. |
 | Build falha no orçamento | `dist/` acima de 18.000 arquivos ou 524 MB. | Rodar `npm run build:budget` e conferir o relatório. |
 | "possui vínculo canônico e catálogo de mídia próprio" | Um consumidor tem `vinculo.json` e `midia/` ao mesmo tempo. | Apagar a pasta `midia/` do consumidor; a mídia fica só na origem canônica. |
