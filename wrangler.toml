@@ -10,8 +10,14 @@ pages_build_output_dir = "dist"
 compatibility_date = "2026-07-13"
 
 # Bucket privado: a mídia só é servida pela rota `/media/*`, na mesma origem.
+# O nível superior cobre o ambiente de preview; a seção de produção declara
+# o mesmo binding, porque o build do Git não herda chaves de binding.
 [[r2_buckets]]
 binding = "MIDIA"
 bucket_name = "concursos-midia"
 
 [env.production]
+
+[[env.production.r2_buckets]]
+binding = "MIDIA"
+bucket_name = "concursos-midia"
