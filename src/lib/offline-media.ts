@@ -228,28 +228,30 @@ export interface MediaDownloadOptions {
  */
 async function readMediaBody(
   response: Response,
+  expectedBytes: number,
   renew?: () => Promise<void>,
 ): Promise<ArrayBuffer> {
   const body = response.body;
   if (!body) return response.arrayBuffer();
   const reader = body.getReader();
-  const chunks: Uint8Array[] = [];
+  // O tamanho vem do catalogo: um unico buffer evita manter duas copias
+  // do arquivo em memoria com ate seis transferencias em voo.
+  const contents = new Uint8Array(expectedBytes);
   let total = 0;
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
     if (value) {
-      chunks.push(value);
+      if (total + value.byteLength > expectedBytes) {
+        await reader.cancel().catch(() => undefined);
+        throw new Error('Tamanho invalido para midia');
+      }
+      contents.set(value, total);
       total += value.byteLength;
     }
     if (renew) await renew();
   }
-  const contents = new Uint8Array(total);
-  let offset = 0;
-  for (const chunk of chunks) {
-    contents.set(chunk, offset);
-    offset += chunk.byteLength;
-  }
+  if (total !== expectedBytes) throw new Error('Tamanho invalido para midia');
   return contents.buffer;
 }
 
@@ -296,7 +298,7 @@ export async function downloadOfflineMedia(
       // pode ser gravado no cache e indicaria integridade comprometida.
       throw new Error(`Resposta inesperada para midia ${item.url}: HTTP ${response.status}`);
     }
-    const buffer = await readMediaBody(response, options.renew);
+    const buffer = await readMediaBody(response, item.bytes, options.renew);
     if (buffer.byteLength !== item.bytes) {
       throw new Error(`Tamanho invalido para midia ${item.url}`);
     }
@@ -424,11 +426,12 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
   const contentType = cached.headers.get('Content-Type') ?? mediaMimeFromUrl(new URL(request.url).pathname);
   const immutable = { 'Cache-Control': 'public, max-age=31536000, immutable' };
 
+  const declared = Number(cached.headers.get('Content-Length'));
+  const declaredSize = Number.isFinite(declared) && declared > 0 ? declared : undefined;
   const rangeHeader = request.headers.get('Range');
   if (!rangeHeader) {
     if (request.method === 'HEAD') {
-      const declared = Number(cached.headers.get('Content-Length'));
-      const size = Number.isFinite(declared) && declared > 0 ? declared : (await cached.blob()).size;
+      const size = declaredSize ?? (await cached.blob()).size;
       return new Response(null, {
         status: 200,
         headers: {
@@ -440,6 +443,39 @@ export async function matchOfflineMedia(request: Request): Promise<Response | un
       });
     }
     return cached;
+  }
+
+  // Uma sondagem HEAD nao deve custar o corpo do arquivo: o tamanho
+  // guardado no cabecalho basta para montar a resposta.
+  if (request.method === 'HEAD' && declaredSize !== undefined) {
+    const headRange = parseByteRange(rangeHeader, declaredSize);
+    if (headRange === null) {
+      return new Response(null, {
+        status: 200,
+        headers: {
+          'Content-Type': contentType,
+          'Content-Length': String(declaredSize),
+          'Accept-Ranges': 'bytes',
+          ...immutable,
+        },
+      });
+    }
+    if (headRange === 'unsatisfiable') {
+      return new Response(null, {
+        status: 416,
+        headers: { 'Content-Range': `bytes */${declaredSize}`, 'Accept-Ranges': 'bytes' },
+      });
+    }
+    return new Response(null, {
+      status: 206,
+      headers: {
+        'Content-Type': contentType,
+        'Content-Length': String(headRange.length),
+        'Content-Range': `bytes ${headRange.offset}-${headRange.offset + headRange.length - 1}/${declaredSize}`,
+        'Accept-Ranges': 'bytes',
+        ...immutable,
+      },
+    });
   }
 
   // O tamanho vem do corpo guardado: o Content-Length pode faltar e uma

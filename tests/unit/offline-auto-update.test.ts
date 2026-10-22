@@ -270,6 +270,42 @@ describe('offline auto update', () => {
     expect(download.mock.calls[0]?.[4]).toMatchObject({ media: { inventoryHash: '0123456789abcdef0123' } });
   });
 
+  it('repairs the media that the browser evicted from the cache', async () => {
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: [`/media/${'a'.repeat(64)}.mp3`], bytes: 3, status: 'complete', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('/offline-media/')) {
+        return new Response(
+          JSON.stringify({
+            schemaVersion: 1,
+            contestStorageId: 'exemplo',
+            inventoryHash: '0123456789abcdef0123',
+            estimatedBytes: 3,
+            items: [{ url: `/media/${'a'.repeat(64)}.mp3`, sha256: 'a'.repeat(64), bytes: 3 }],
+          }),
+          { status: 200 },
+        );
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+
+    // O hash do inventario nao mudou, mas o arquivo sumiu do cache: a
+    // midia precisa ser baixada de novo.
+    expect(download).toHaveBeenCalledTimes(1);
+    expect(download.mock.calls[0]?.[4]).toMatchObject({ media: { items: expect.any(Array) } });
+  });
+
   it('ignores a media inventory of another contest', async () => {
     const record = {
       contestStorageId: 'exemplo',

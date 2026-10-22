@@ -161,6 +161,11 @@ export const ADOPTION_LEASE_WAIT_MS = 300_000;
  * minutos e o heartbeat do navegador e estrangulado em aba oculta.
  */
 const MEDIA_LEASE_TTL_MS = 60_000;
+/**
+ * Espera curta do lock para o rebaixamento do estado da midia: e uma
+ * dica de reparo, e nao pode disputar espaco com um download em curso.
+ */
+const MEDIA_REPAIR_LOCK_WAIT_MS = 2_000;
 
 /**
  * Serialização única via lease IndexedDB (funciona em página E Service
@@ -190,12 +195,14 @@ async function withOfflinePackageLock<T>(
   const renewLease = (): Promise<void> => {
     const pending = renewSyncLease(OFFLINE_PACKAGE_LOCK, ownerId, leaseTtlMs)
       .then(() => undefined)
+      .then(() => {
+        lastRenewalAt = Date.now();
+      })
       .catch((error: unknown) => {
         lost = true;
         throw error;
       });
     renewalInFlight = pending;
-    lastRenewalAt = Date.now();
     return pending;
   };
 
@@ -211,9 +218,13 @@ async function withOfflinePackageLock<T>(
    * A perda do lease e propagada: quem chamou decide o que fazer.
    */
   const renew = async (): Promise<void> => {
+    // A perda ja registrada pelo heartbeat precisa chegar a quem renovou:
+    // sem isso, a fase de midia continua gravando sem coordenar.
+    if (lost) throw new Error('Coordenação de download perdida durante a operação; tente novamente.');
     if (Date.now() - lastRenewalAt < leaseTtlMs / 3) return;
     const pending = renewalInFlight as Promise<void> | null;
     if (pending) await pending.catch(() => undefined);
+    if (lost) throw new Error('Coordenação de download perdida durante a operação; tente novamente.');
     if (Date.now() - lastRenewalAt < leaseTtlMs / 3) return;
     await renewLease();
   };
@@ -437,6 +448,7 @@ async function downloadContestMediaLocked(
           updatedAt: Date.now(),
         },
       };
+      if (!(await mediaStateStillCurrent(record))) return record;
       await saveOfflineContestRecord(emptied);
       await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
       return emptied;
@@ -444,7 +456,15 @@ async function downloadContestMediaLocked(
 
     const missingBytes = await missingMediaBytes(inventory, overrides);
     if (missingBytes > 0) {
-      await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
+      try {
+        await assertStorageCapacity({ estimatedBytes: 0 }, storage, missingBytes);
+      } catch {
+        // A mensagem de cota do pacote fala do pacote anterior, que nao
+        // e mais o caso aqui: o conteudo novo ja esta ativo.
+        throw new OfflineMediaError(
+          'Não há espaço suficiente no aparelho para as mídias. O conteúdo do curso está disponível offline.',
+        );
+      }
     }
 
     // A coordenacao e renovada antes da primeira transferencia: um
@@ -477,8 +497,7 @@ async function downloadContestMediaLocked(
     // O registro pode ter mudado enquanto a fase rodava (o concurso foi
     // removido ou o pacote foi atualizado): gravar aqui ressuscitaria um
     // estado obsoleto.
-    const current = await getOfflineContestRecord(storageId);
-    if (!current || current.activeCacheName !== record.activeCacheName) {
+    if (!(await mediaStateStillCurrent(record))) {
       throw new OfflineMediaError(
         'O download deste concurso mudou durante as mídias. O conteúdo está disponível offline; tente de novo.',
       );
@@ -486,9 +505,12 @@ async function downloadContestMediaLocked(
 
     // A midia que ja estava no aparelho e continua no inventario entra no
     // estado: uma falha parcial nao pode fazer o usuario perder o audio.
-    // O que saiu do inventario nao entra, e a poda o remove.
+    // O que saiu do inventario nao entra, e a poda o remove. E o que o
+    // navegador despejou do cache tambem nao entra: o registro nao pode
+    // dizer que o audio esta completo quando os arquivos sumiram.
     const inventoryUrls = new Set(inventory.items.map((item) => item.url));
-    const previousUrls = (record.media?.urls ?? []).filter((url) => inventoryUrls.has(url));
+    const previousCandidates = (record.media?.urls ?? []).filter((url) => inventoryUrls.has(url));
+    const previousUrls = await mediaUrlsInCache(previousCandidates, overrides);
     const urls = [...new Set([...previousUrls, ...outcome.urls])];
     const complete = inventory.items.every((item) => urls.includes(item.url));
 
@@ -518,11 +540,20 @@ async function downloadContestMediaLocked(
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase: 'media' });
     return updated;
   } catch (error) {
-    // O que ja foi verificado continua guardado e referenciado, senao a
-    // proxima poda o apaga. A gravacao do estado parcial e best-effort: uma
-    // falha aqui nao pode substituir o erro original.
-    await savePartialMediaState(record, inventory, overrides).catch(() => undefined);
-    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides).catch(() => undefined);
+    // Sem coordenacao, nada e gravado: outra operacao pode ter removido
+    // o concurso ou ativado um pacote novo, e escrever aqui voltaria a
+    // ressuscitar um estado obsoleto.
+    if (!leaseLost) {
+      // O que ja foi verificado continua guardado e referenciado, senao a
+      // proxima poda o apaga. A gravacao e best-effort: uma falha aqui
+      // nao pode substituir o erro original.
+      await savePartialMediaState(record, inventory, overrides).catch(() => undefined);
+      try {
+        await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+      } catch {
+        // A poda e best-effort: o proximo ciclo de limpeza faz o ajuste.
+      }
+    }
     publishDownloadEvent({
       type: 'failed',
       contestStorageId: storageId,
@@ -533,6 +564,16 @@ async function downloadContestMediaLocked(
       ? error
       : new OfflineMediaError(error instanceof Error ? error.message : String(error), { cause: error });
   }
+}
+
+/**
+ * O registro do concurso ainda e o mesmo que a fase de midia capturou?
+ * Enquanto nao for, nada pode ser gravado: o concurso pode ter sido
+ * removido ou o pacote pode ter sido trocado por outra operacao.
+ */
+async function mediaStateStillCurrent(record: OfflineContestRecord): Promise<boolean> {
+  const current = await getOfflineContestRecord(record.contestStorageId);
+  return Boolean(current) && current!.activeCacheName === record.activeCacheName;
 }
 
 /** Bytes correspondente as URLs de midia guardadas. */
@@ -554,6 +595,9 @@ async function savePartialMediaState(
   inventory: OfflineMediaInventory,
   overrides: PackageEnvironment,
 ): Promise<void> {
+  // O registro pode ter mudado desde a fase: sem a mesma origem, gravar
+  // aqui recriaria um concurso removido.
+  if (!(await mediaStateStillCurrent(record))) return;
   const inventoryUrls = new Set(inventory.items.map((item) => item.url));
   // A midia do inventario anterior so vale se ainda estiver no inventario:
   // o que saiu dele e obsoleto e deve sair do aparelho.
@@ -880,6 +924,30 @@ async function listInactiveContestCaches(overrides: PackageEnvironment = {}): Pr
   const records = await listOfflineContestRecords();
   const cacheNames = new Set(await cacheStorage.keys());
   return classifyInactiveContestCaches(records, cacheNames);
+}
+
+/**
+ * Rebaixa o estado da midia para parcial quando os arquivos sairam do
+ * cache do aparelho (o navegador pode despejar o cache apos alguns
+ * dias). A gravacao acontece sob o lock global e so quando o registro
+ * continua o mesmo: a interface nunca escreve o registro de downloads
+ * por fora da serializacao.
+ */
+export async function markOfflineMediaIncomplete(
+  contestStorageId: string,
+  overrides: PackageEnvironment = {},
+): Promise<void> {
+  await withOfflinePackageLock(async () => {
+    const record = await getOfflineContestRecord(contestStorageId);
+    if (!record?.media?.included || record.media.status !== 'complete') return;
+    if (record.media.urls.length === 0) return;
+    const stored = await mediaUrlsInCache(record.media.urls, overrides);
+    if (stored.length === record.media.urls.length) return;
+    await saveOfflineContestRecord({
+      ...record,
+      media: { ...record.media, status: 'partial', updatedAt: Date.now() },
+    });
+  }, { waitMs: MEDIA_REPAIR_LOCK_WAIT_MS });
 }
 
 export { getOfflineContestRecord, listOfflineContestRecords };

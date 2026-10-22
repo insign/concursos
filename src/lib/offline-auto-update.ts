@@ -1,6 +1,10 @@
 import { listOfflineContestRecords } from './offline-db';
 import { downloadContestPackage, offlinePackageManifestSchema } from './offline-packages';
-import { offlineMediaInventorySchema, type OfflineMediaInventory } from './offline-media';
+import {
+  mediaUrlsInCache,
+  offlineMediaInventorySchema,
+  type OfflineMediaInventory,
+} from './offline-media';
 
 const NAVIGATION_CHECK_INTERVAL_MS = 30 * 60 * 1000;
 const PERIODIC_CHECK_INTERVAL_MS = 60 * 60 * 1000;
@@ -92,6 +96,15 @@ export async function maybeUpdateOfflinePackages(
         const media = record.media?.included
           ? await loadMediaInventory(record.contestStorageId, fetchResource, timeoutMs)
           : undefined;
+        // O navegador pode despejar o cache da midia depois de alguns
+        // dias: o registro ainda diz que esta completo, mas o audio
+        // sumiu do aparelho. A verificacao acontece aqui, na navegacao,
+        // e nao apenas na pagina do concurso.
+        const mediaEvicted =
+          record.media?.included === true && record.media.urls.length > 0
+            ? (await mediaUrlsInCache(record.media.urls).catch(() => record.media!.urls)).length <
+              record.media.urls.length
+            : false;
         // Inventario vazio tambem e mudanca: e o caso em que as midias
         // foram removidas do concurso e os arquivos antigos precisam sair
         // do aparelho.
@@ -100,7 +113,9 @@ export async function maybeUpdateOfflinePackages(
         // do inventario ja atualizado.
         const mediaChanged =
           media !== undefined &&
-          (media.inventoryHash !== record.media?.inventoryHash || record.media?.status === 'partial');
+          (media.inventoryHash !== record.media?.inventoryHash ||
+            record.media?.status === 'partial' ||
+            mediaEvicted);
         if (manifest.manifestHash === record.manifestHash && !mediaChanged) continue;
         await downloadContestPackage(manifest, undefined, { fetch: fetchResource }, 'update', mediaChanged ? { media } : {});
       } catch (error) {

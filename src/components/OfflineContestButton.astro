@@ -46,13 +46,13 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
   import {
     downloadContestPackage,
     getOfflineContestRecord,
+    markOfflineMediaIncomplete,
     offlinePackageManifestSchema,
     removeContestPackage,
     type OfflinePackageManifest,
   } from '../lib/offline-packages';
   import { subscribeDownloadEvents } from '../lib/offline-download-events';
   import { evaluateOfflineAvailability } from '../lib/offline-availability';
-  import { saveOfflineContestRecord } from '../lib/offline-db';
   import {
     mediaUrlsInCache,
     offlineMediaInventorySchema,
@@ -274,13 +274,10 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
           mediaMissingFiles = missing;
           if (record.media.status === 'complete') {
             // O cache pode ser expulso pelo navegador: o estado honesto é
-            // parcial e o reparo precisa continuar disponível.
-            const repaired = {
-              ...record,
-              media: { ...record.media, status: 'partial' as const, updatedAt: Date.now() },
-            };
-            await saveOfflineContestRecord(repaired).catch(() => undefined);
-            currentRecord = repaired;
+            // parcial. A gravacao acontece sob o lock global, com
+            // releitura do registro; a interface so reflete o estado.
+            currentRecord = { ...record, media: { ...record.media, status: 'partial' as const } };
+            void markOfflineMediaIncomplete(contestStorageId).catch(() => undefined);
           }
         }
       }

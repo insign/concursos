@@ -1095,13 +1095,56 @@ describe('beacon prescan', () => {
       ).rejects.toThrow(/coordenação|coordena/);
 
       const record = await getOfflineContestRecord('exemplo');
-      // O conteudo continua disponivel e a midia ficou marcada como
-      // parcial para a retomada.
+      // O conteudo continua disponivel, mas a midia nao e gravada sem
+      // coordenacao: escrever aqui ressuscitaria um estado obsoleto.
       expect(record?.activeCacheName).not.toBe('');
-      expect(record?.media?.status).toBe('partial');
+      expect(record?.media?.status).toBeUndefined();
     } finally {
       vi.useRealTimers();
     }
+  });
+
+  it('does not write the media state when the record changed during the media phase', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        // Enquanto a midia baixa, outra operacao troca o registro.
+        const current = await getOfflineContestRecord('exemplo');
+        await saveOfflineContestRecord({ ...current!, activeCacheName: 'outro-cache' });
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+
+    await expect(
+      downloadContestPackage(
+        await hashedManifest('11111111111111111111'),
+        undefined,
+        {
+          cacheStorage: cacheStorage as unknown as CacheStorage,
+          fetch: fetchResource as typeof fetch,
+          origin: 'https://concursos.test',
+        },
+        'download',
+        { media },
+      ),
+    ).rejects.toThrow(/mudou durante/);
+
+    const record = await getOfflineContestRecord('exemplo');
+    // O registro novo nao foi sobrescrito com o estado de midia.
+    expect(record?.activeCacheName).toBe('outro-cache');
+    expect(record?.media?.status).toBeUndefined();
   });
 
   it('keeps the offline manifest contract free of media fields', async () => {
