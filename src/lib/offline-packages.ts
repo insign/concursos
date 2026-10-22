@@ -478,6 +478,41 @@ async function downloadContestMediaLocked(
     // arquivo unico pode demorar mais que o intervalo do heartbeat.
     await renewMedia();
 
+    // A escolha do usuario vira estado ANTES da primeira transferencia. Se
+    // o download for interrompido (recarga da pagina, troca de rede, app em
+    // segundo plano), o registro continua dizendo que a midia foi pedida:
+    // ao voltar, a interface mantem a opcao marcada e oferece a retomada,
+    // em vez de parecer que o usuario escolheu "somente o curso".
+    if (!(await mediaStateStillCurrent(record))) {
+      throw new OfflineMediaError(
+        'O download deste concurso mudou durante as mídias. O conteúdo está disponível offline; tente de novo.',
+      );
+    }
+    const requestUrls = new Set(inventory.items.map((item) => item.url));
+    const requestPrevious = (record.media?.urls ?? []).filter((url) => requestUrls.has(url));
+    const requestUrlsStored = await mediaUrlsInCache(requestPrevious, overrides);
+    // A leitura do cache e assincrona: entre a checagem acima e este ponto a
+    // aba pode ter sido suspensa e outro dono pode ter assumido o lease ou
+    // trocado o registro. Renovar e revalidar agora evita gravar uma
+    // intencao sobre um estado que ja nao e o vigente.
+    await renewMedia();
+    if (!(await mediaStateStillCurrent(record))) {
+      throw new OfflineMediaError(
+        'O download deste concurso mudou durante as mídias. O conteúdo está disponível offline; tente de novo.',
+      );
+    }
+    await saveOfflineContestRecord({
+      ...record,
+      media: {
+        included: true,
+        inventoryHash: inventory.inventoryHash,
+        urls: requestUrlsStored,
+        bytes: mediaBytesOf(inventory, requestUrlsStored),
+        status: 'partial',
+        updatedAt: Date.now(),
+      },
+    });
+
     publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase: 'media' });
     const outcome = await downloadOfflineMedia(
       inventory,
@@ -489,6 +524,7 @@ async function downloadContestMediaLocked(
           completed: progress.completed,
           total: progress.total,
           downloadedBytes: progress.downloadedBytes,
+          totalBytes: progress.totalBytes,
         });
       },
       overrides,

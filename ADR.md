@@ -291,10 +291,10 @@ Related: ADR-001, ADR-002, ADR-005, ADR-006. Amended by ADR-010 (opt-in offline 
 
 **Context**: ADR-009 explicitly excludes media from the contest offline package and the service-worker precache ("media in the offline package or precache" is out of scope). Learners asked for subject audio (ADR-009) to be downloadable together with the offline course. Any solution must not break already installed clients, must not force media storage on every device, must preserve the atomicity and integrity guarantees of offline packages (ADR-008), and must keep playback working on iOS Safari, which refuses `200` responses for audio and requires `206 Partial Content`.
 
-Related: ADR-005, ADR-008, ADR-009. Implemented and reviewed in commits `bb51915b`, `4e955cc6`, `7ecc6af7`, `cbd5b10a`, `f9738e6f`.
+Related: ADR-005, ADR-008, ADR-009. Implemented and reviewed in commits `bb51915b`, `4e955cc6`, `7ecc6af7`, `cbd5b10a`, `f9738e6f`, `963964c8`, `38711856`, `15a8e0e5`.
 
 **Decision**:
-- Offer media as an explicit opt-in second phase of the same contest download. Beside the "Baixar concurso" button, a `select` offers "Somente o curso" (default) and "Curso + midias". Without the choice, nothing changes. The `select` is not persisted: the choice applies only to the triggered download.
+- Offer media as an explicit opt-in second phase of the same contest download. Beside the "Baixar concurso" button, a `select` offers "Somente o curso" (default) and "Curso + midias". Without the choice, nothing changes. The `select` itself is not a persisted preference, but the media intent is written to the contest record before the first transfer (status `partial`, only URLs already in the cache), under the lease and revalidated against the current record, so a reload keeps the option marked and offers the resumption instead of reverting to course-only.
 - Keep the package manifest intact. `offlinePackageManifestSchema` (strict Zod) does not change, so installed clients keep working. The media list lives in its own static endpoint `/offline-media/<concurso>.json` (strict schema v1, generated at build time from the resolved catalog).
 - Run two phases under a single lock. Content is downloaded and promoted atomically, as before; media follows inside the SAME `withOfflinePackageLock` acquisition (IndexedDB lease, non-reentrant). A media failure preserves the already activated package and the verified files.
 - Reuse the existing parallelism. The same pool and adaptive policy (2..15) apply, with a cap of 6 concurrent media transfers (2 on low-memory devices), because each transfer holds the whole file in memory to verify its SHA-256.
@@ -302,6 +302,7 @@ Related: ADR-005, ADR-008, ADR-009. Implemented and reviewed in commits `bb51915
 - Store media in a dedicated content-addressed cache. Cache Storage `offline-media-v1` is keyed by the immutable URL `/media/<sha256>.<ext>`. Canonical media shared across contests is downloaded only once. Removal deletes only URLs no longer referenced by any contest.
 - Serve media offline with seeking. The service worker gains a `/media/*` route: cache-first with a synthesized `206 Partial Content` from the `Range` requested by the player (iOS Safari refuses `200` for audio), with network fallback and `416` for unsatisfiable ranges.
 - Coordinate the long download. The lease is renewed while reading response bodies, not only by timer (which the browser throttles in hidden tabs), and the media phase uses a longer TTL. Nothing is written without re-reading the record: if the contest was removed or the package replaced, the write is aborted.
+- Report byte-level progress and bound idle time. Progress combines verified bytes with bytes in flight (throttled to 250 ms) so the first large file already moves the indicator; any 45 s gap without bytes, including while waiting for response headers, aborts the request with an explicit error instead of leaving the phase pending.
 - Repair evicted media. The auto-update checks the cached media on every navigation and repairs entries the browser expelled, even when the inventory hash has not changed.
 
 **Rationale**:
@@ -321,6 +322,6 @@ Related: ADR-005, ADR-008, ADR-009. Implemented and reviewed in commits `bb51915
 - ✅ Installed clients, the manifest schema, the precache, and the atomic content promotion are unaffected.
 - ✅ Shared canonical media is stored once, verified per file, resumable after partial failure, and playable offline with seeking on iOS Safari.
 - ✅ The single non-reentrant lock plus re-read-before-write keeps media work consistent with package removal and replacement, including in hidden tabs.
-- ⚠️ Media never enters the precache; the choice is local and does not survive a page reload; the UI must distinguish content failure from media failure.
+- ⚠️ Media never enters the precache; the recorded intent survives a reload only as resumption state, not as a preference for future downloads; the UI must distinguish content failure from media failure.
 - ⚠️ Media downloads hold whole files in memory for hashing, hence the concurrency cap, and evicted entries are re-fetched on navigation even without inventory changes.
 - ❌ No per-subject media selection, no media fields in the package manifest, no second lock, and no new IndexedDB store are introduced.

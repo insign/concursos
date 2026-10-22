@@ -595,6 +595,57 @@ describe('beacon prescan', () => {
     expect(await mediaCache?.match(`https://concursos.test${url}`)).toBeDefined();
   });
 
+  it('records the media choice before the first transfer so an interrupted download can be resumed', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    let releaseMedia: (() => void) | undefined;
+    const gate = new Promise<void>((resolve) => {
+      releaseMedia = resolve;
+    });
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        await gate;
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+
+    const pending = downloadContestPackage(
+      await hashedManifest('11111111111111111111'),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as typeof fetch,
+        origin: 'https://concursos.test',
+      },
+      'download',
+      { media },
+    );
+
+    // Enquanto a midia ainda nao chegou, o registro ja diz que ela foi
+    // pedida: recarregar a pagina preserva a escolha e oferece a retomada.
+    await vi.waitFor(async () => {
+      const during = await getOfflineContestRecord('exemplo');
+      expect(during?.media?.included).toBe(true);
+      expect(during?.media?.status).toBe('partial');
+    });
+
+    releaseMedia?.();
+    const record = await pending;
+    expect(record.media?.status).toBe('complete');
+    expect(record.media?.urls).toEqual([url]);
+  });
+
   it('keeps the downloaded media when the package is updated', async () => {
     const cacheStorage = new MemoryCacheStorage();
     const body = 'a'.repeat(32);
@@ -1096,10 +1147,12 @@ describe('beacon prescan', () => {
       ).rejects.toThrow(/coordenação|coordena/);
 
       const record = await getOfflineContestRecord('exemplo');
-      // O conteudo continua disponivel, mas a midia nao e gravada sem
-      // coordenacao: escrever aqui ressuscitaria um estado obsoleto.
+      // O conteudo continua disponivel e a escolha do usuario permanece
+      // registrada (foi gravada com coordenacao, antes da transferencia).
+      // O que nao pode acontecer e registrar arquivos sem coordenacao.
       expect(record?.activeCacheName).not.toBe('');
-      expect(record?.media?.status).toBeUndefined();
+      expect(record?.media?.status).toBe('partial');
+      expect(record?.media?.urls).toEqual([]);
     } finally {
       vi.useRealTimers();
     }
@@ -1143,9 +1196,11 @@ describe('beacon prescan', () => {
     ).rejects.toThrow(/mudou durante/);
 
     const record = await getOfflineContestRecord('exemplo');
-    // O registro novo nao foi sobrescrito com o estado de midia.
+    // O registro novo nao foi sobrescrito com o estado de midia: a midia
+    // segue apenas como intencao (gravada antes da troca), sem arquivos.
     expect(record?.activeCacheName).toBe('outro-cache');
-    expect(record?.media?.status).toBeUndefined();
+    expect(record?.media?.status).toBe('partial');
+    expect(record?.media?.urls).toEqual([]);
   });
 
   it('downgrades the media state under the lock when the files are gone', async () => {

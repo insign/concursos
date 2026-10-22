@@ -82,8 +82,12 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
     let mediaInventory: OfflineMediaInventory | undefined;
     let mediaInventoryPromise: Promise<OfflineMediaInventory | undefined> | undefined;
     let mediaInventoryFailed = false;
+    /** 404/410: ausencia definitiva, que nao justifica oferecer retomada. */
+    let mediaInventoryAbsent = false;
     let mediaChoiceTouched = false;
     let renderSeq = 0;
+    let lastMediaCompleted = -1;
+    let lastMediaAnnouncementAt = 0;
 
     const loadManifest = async () => {
       const response = await fetch(manifestUrl, { cache: 'no-store' });
@@ -103,12 +107,14 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
           // A falha e avaliada por tentativa: uma falha antiga nao pode
           // impedir que um 404 posterior seja memorizado.
           mediaInventoryFailed = false;
+          mediaInventoryAbsent = false;
           try {
             const response = await fetch(`/offline-media/${contestStorageId}.json`, { cache: 'no-store' });
             if (!response.ok) {
               // 404 e ausencia de midia (o concurso nao tem audio), nao
               // falha: o resultado e estavel e pode ser memorizado.
-              if (response.status !== 404 && response.status !== 410) mediaInventoryFailed = true;
+              if (response.status === 404 || response.status === 410) mediaInventoryAbsent = true;
+              else mediaInventoryFailed = true;
               return undefined;
             }
             const parsed = offlineMediaInventorySchema.safeParse(await response.json());
@@ -144,14 +150,16 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 
     const renderMediaChoice = (record: Awaited<ReturnType<typeof getOfflineContestRecord>>) => {
       const hasMedia = Boolean(mediaInventory && mediaInventory.items.length > 0);
+      const included = record?.media?.included === true;
+      // Depois que o usuario escolhe, a escolha dele manda: uma renderizacao
+      // posterior nao pode voltar o controle para o padrao. O valor tambem e
+      // mantido quando o inventario ainda nao carregou, porque a retomada
+      // depende de saber que a midia foi pedida.
+      if (!mediaChoiceTouched) mediaSelect.value = included ? 'all' : 'none';
       mediaChoice.hidden = !hasMedia;
       if (!hasMedia) return;
       const count = mediaInventory!.items.length;
       mediaOption.textContent = `Curso + mídias (${count} ${count === 1 ? 'arquivo' : 'arquivos'}, ${formatMediaSize(mediaInventory!.estimatedBytes)})`;
-      const included = record?.media?.included === true;
-      // Depois que o usuario escolhe, a escolha dele manda: uma renderizacao
-      // posterior nao pode voltar o controle para o padrao.
-      if (!mediaChoiceTouched) mediaSelect.value = included ? 'all' : 'none';
       mediaHint.textContent = included
         ? 'As mídias ficam no aparelho para tocar sem conexão. O tamanho conta no armazenamento do navegador.'
         : 'As mídias aumentam o download e o espaço usado no aparelho.';
@@ -195,6 +203,19 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         return;
       }
 
+      // O registro diz que a midia foi pedida, mas o inventario falhou
+      // agora: esconder o botao deixaria a retomada sem nenhuma acao. Uma
+      // midia ja completa segue o caminho normal, e 404/410 e ausencia
+      // definitiva, nao uma retomada possivel.
+      if (media?.included === true && !mediaInventory && !mediaInventoryAbsent && media.status !== 'complete') {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Baixar mídias';
+        removeButton.hidden = false;
+        message.textContent =
+          'O conteúdo está disponível offline, mas a lista de mídias não carregou. Toque em Baixar mídias para tentar de novo.';
+        return;
+      }
+
       // O inventario carregado difere do registrado: há mídia nova a
       // baixar.
       const mediaOutdated = Boolean(
@@ -217,8 +238,9 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
       downloadButton.hidden = true;
       removeButton.hidden = false;
       if (mediaIncomplete) {
-        message.textContent =
-          'O conteúdo está disponível offline, mas as mídias não foram concluídas. Marque a opção de mídias para tentá-las de novo.';
+        message.textContent = mediaInventoryAbsent
+          ? 'O conteúdo está disponível offline. A lista de mídias deste concurso não está disponível no servidor.'
+          : 'O conteúdo está disponível offline, mas as mídias não foram concluídas. Marque a opção de mídias para tentá-las de novo.';
         return;
       }
       message.textContent = mediaComplete
@@ -340,7 +362,23 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
       try {
         const manifest: OfflinePackageManifest = latestManifest ?? await loadManifest();
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
-        const includeMedia = mediaSelect.value === 'all' && Boolean(mediaInventory && mediaInventory.items.length > 0);
+        let includeMedia = mediaSelect.value === 'all' && Boolean(mediaInventory && mediaInventory.items.length > 0);
+        if (!includeMedia && mediaSelect.value === 'all' && !mediaInventory && !mediaInventoryAbsent) {
+          // O inventario pode ter falhado na renderizacao: tentar de novo
+          // aqui e o caminho de retomada que o usuario tem na tela. Se a
+          // lista continuar indisponivel, nao iniciar um download apenas
+          // do curso como se a midia tivesse sido incluida. Uma ausencia
+          // definitiva (404/410) nao entra aqui: a midia nao existe e o
+          // pacote precisa poder ser baixado ou atualizado sozinho.
+          const loaded = await loadMediaInventory();
+          includeMedia = Boolean(loaded && loaded.items.length > 0);
+          if (!includeMedia) {
+            message.textContent = mediaInventoryAbsent
+              ? 'A lista de mídias deste concurso não está disponível no servidor.'
+              : 'Não foi possível carregar a lista de mídias. Tente de novo quando a conexão melhorar.';
+            return;
+          }
+        }
         const media = includeMedia ? mediaInventory : undefined;
         message.textContent = media
           ? `Baixando o curso e ${media!.items.length} mídias...`
@@ -414,9 +452,25 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
           message.textContent = 'Baixando mídias...';
         } else if (event.type === 'progress') {
           progress.hidden = false;
-          progress.max = event.total;
-          progress.value = event.completed;
-          message.textContent = `Baixando ${event.completed} de ${event.total} mídias...`;
+          // A barra anda por byte: medir por arquivo deixava o primeiro
+          // audio de 10 MB parado em 0% por muito tempo em rede movel.
+          const totalBytes = event.totalBytes ?? 0;
+          if (totalBytes > 0) {
+            progress.max = totalBytes;
+            progress.value = Math.min(event.downloadedBytes, totalBytes);
+          } else {
+            progress.max = Math.max(1, event.total);
+            progress.value = event.completed;
+          }
+          // O texto vive numa regiao `aria-live`: reescrever a cada evento
+          // inundaria o leitor de tela. A barra acompanha todos os eventos;
+          // o anuncio muda ao concluir um arquivo ou a cada 2 s.
+          const now = Date.now();
+          if (event.completed !== lastMediaCompleted || now - lastMediaAnnouncementAt >= 2_000) {
+            lastMediaCompleted = event.completed;
+            lastMediaAnnouncementAt = now;
+            message.textContent = `Baixando ${event.completed} de ${event.total} mídias (${formatBytes(event.downloadedBytes)})...`;
+          }
         } else if (event.type === 'failed') {
           progress.hidden = true;
           void showFailure(`As mídias não foram concluídas: ${event.message}`);

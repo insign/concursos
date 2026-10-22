@@ -207,4 +207,97 @@ describe('offline media download', () => {
     expect(outcome.missing).toEqual([]);
     expect(outcome.downloadedBytes).toBe(0);
   });
+
+  it('reports progress by bytes while a file is still transferring', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(200);
+    const item = mediaItem(0, body);
+    const chunks = [body.slice(0, 80), body.slice(80, 160), body.slice(160)];
+    const fetchResource = async (): Promise<Response> => {
+      const stream = new ReadableStream<Uint8Array>({
+        async start(controller) {
+          for (const chunk of chunks) {
+            controller.enqueue(new TextEncoder().encode(chunk));
+            // Intervalo maior que a janela de estrangulamento do progresso:
+            // cada parte precisa aparecer na barra, e nao so o fim do arquivo.
+            await new Promise((resolve) => setTimeout(resolve, 300));
+          }
+          controller.close();
+        },
+      });
+      return new Response(stream, { status: 200, headers: { 'Content-Length': String(body.length) } });
+    };
+
+    const progress: { downloadedBytes: number; totalBytes: number }[] = [];
+    const outcome = await downloadOfflineMedia(inventoryOf([item]), (state) => progress.push(state), {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as unknown as typeof fetch,
+      origin: 'https://concursos.helio.me',
+    });
+
+    expect(outcome.urls).toEqual([item.url]);
+    // A barra acompanha os bytes recebidos, e nao apenas o fim do arquivo.
+    expect(progress.every((state) => state.totalBytes === body.length)).toBe(true);
+    expect(progress.some((state) => state.downloadedBytes > 0 && state.downloadedBytes < body.length)).toBe(true);
+    expect(progress.at(-1)?.downloadedBytes).toBe(body.length);
+  });
+
+  it('aborts a stalled transfer instead of waiting forever', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(64);
+    const item = mediaItem(0, body);
+    const fetchResource = async (): Promise<Response> => {
+      const stream = new ReadableStream<Uint8Array>({
+        start(controller) {
+          controller.enqueue(new TextEncoder().encode(body.slice(0, 10)));
+          // O corpo nunca termina: simula conexao pendurada.
+        },
+      });
+      return new Response(stream, { status: 200, headers: { 'Content-Length': String(body.length) } });
+    };
+
+    const outcome = await downloadOfflineMedia(
+      inventoryOf([item]),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as unknown as typeof fetch,
+        origin: 'https://concursos.helio.me',
+      },
+      { idleTimeoutMs: 30 },
+    );
+
+    expect(outcome.failed).toEqual([item.url]);
+    expect(outcome.firstError).toContain('parou de responder');
+    expect(outcome.urls).toEqual([]);
+  });
+
+  it('aborts a request that never delivers the response headers', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(64);
+    const item = mediaItem(0, body);
+    // A conexao troca de rede antes dos cabecalhos: o `fetch` fica
+    // pendente para sempre e so o sinal o interrompe.
+    const fetchResource = (_input: RequestInfo | URL, init?: RequestInit): Promise<Response> =>
+      new Promise((_resolve, reject) => {
+        init?.signal?.addEventListener('abort', () => {
+          reject(new DOMException('aborted', 'AbortError'));
+        });
+      });
+
+    const outcome = await downloadOfflineMedia(
+      inventoryOf([item]),
+      undefined,
+      {
+        cacheStorage: cacheStorage as unknown as CacheStorage,
+        fetch: fetchResource as unknown as typeof fetch,
+        origin: 'https://concursos.helio.me',
+      },
+      { idleTimeoutMs: 30 },
+    );
+
+    expect(outcome.failed).toEqual([item.url]);
+    expect(outcome.firstError).toContain('parou de responder');
+    expect(outcome.urls).toEqual([]);
+  });
 });

@@ -4,7 +4,7 @@ export type DownloadPhase = 'download' | 'update' | 'media';
 
 export type DownloadEvent =
   | { type: 'started'; contestStorageId: string; phase: DownloadPhase }
-  | { type: 'progress'; contestStorageId: string; phase: DownloadPhase; completed: number; total: number; downloadedBytes: number }
+  | { type: 'progress'; contestStorageId: string; phase: DownloadPhase; completed: number; total: number; downloadedBytes: number; totalBytes?: number }
   | { type: 'completed'; contestStorageId: string; phase: DownloadPhase; reason?: string }
   | { type: 'failed'; contestStorageId: string; phase: DownloadPhase; message: string; reason?: string };
 

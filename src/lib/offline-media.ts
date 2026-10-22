@@ -34,6 +34,15 @@ const MEDIA_MIME_BY_EXTENSION: Record<string, string> = {
  */
 export const MEDIA_CONCURRENCY_MAX = 6;
 
+/**
+ * Tempo maximo, em milissegundos, sem nenhum byte recebido antes de a
+ * transferencia ser considerada travada. Em rede movel a conexao pode
+ * ficar pendurada (troca de rede, tela bloqueada, portal cativo) e o
+ * `fetch` nunca falha: sem este limite, a fase de midia ficaria parada
+ * indefinidamente, sem erro e sem retomada.
+ */
+export const MEDIA_IDLE_TIMEOUT_MS = 45_000;
+
 export const offlineMediaItemSchema = z
   .object({
     url: z.string().regex(MEDIA_URL_PATTERN),
@@ -93,9 +102,13 @@ export class OfflineMediaError extends Error {
 }
 
 export interface MediaDownloadProgress {
+  /** Arquivos concluidos (reusados entram na contagem). */
   completed: number;
   total: number;
+  /** Bytes ja verificados somados aos bytes em transferencia. */
   downloadedBytes: number;
+  /** Bytes do inventario inteiro, para a barra de progresso por byte. */
+  totalBytes: number;
   reused: number;
 }
 
@@ -228,37 +241,82 @@ export interface MediaDownloadOptions {
   renew?: () => Promise<void>;
   /** Aborta o trabalho em andamento quando a coordenacao e perdida. */
   signal?: AbortSignal;
+  /**
+   * Silencio maximo, em milissegundos, antes de a transferencia ser
+   * abortada. Sobrescreve `MEDIA_IDLE_TIMEOUT_MS` (usado em testes).
+   */
+  idleTimeoutMs?: number;
+}
+
+interface ReadMediaBodyOptions {
+  /** Notificado a cada parte recebida, para o progresso por byte. */
+  onBytes?: (bytes: number) => void;
+  /** Aborta a requisicao quando o corpo para de chegar. */
+  onStall?: () => void;
+  idleTimeoutMs?: number;
 }
 
 /**
- * Le o corpo em partes, renovando a coordenacao a cada parte. Uma
- * transferencia so e concluida quando o arquivo inteiro chegou.
+ * Le o corpo em partes, renovando a coordenacao a cada parte e vigiando o
+ * silencio da conexao. Uma transferencia so e concluida quando o arquivo
+ * inteiro chegou.
  */
 async function readMediaBody(
   response: Response,
   expectedBytes: number,
   url: string,
   renew?: () => Promise<void>,
+  options: ReadMediaBodyOptions = {},
 ): Promise<ArrayBuffer> {
   const body = response.body;
-  if (!body) return response.arrayBuffer();
+  if (!body) {
+    const buffer = await response.arrayBuffer();
+    options.onBytes?.(buffer.byteLength);
+    return buffer;
+  }
   const reader = body.getReader();
   // O tamanho vem do catalogo: um unico buffer evita manter duas copias
   // do arquivo em memoria com ate seis transferencias em voo.
   const contents = new Uint8Array(expectedBytes);
   let total = 0;
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    if (value) {
-      if (total + value.byteLength > expectedBytes) {
-        await reader.cancel().catch(() => undefined);
-        throw new Error(`Tamanho invalido para midia ${url}`);
+  let stalled = false;
+  const idleTimeoutMs = options.idleTimeoutMs ?? MEDIA_IDLE_TIMEOUT_MS;
+  let idleTimer: ReturnType<typeof setTimeout> | undefined;
+  const armIdle = (): void => {
+    if (idleTimeoutMs <= 0) return;
+    if (idleTimer) clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+      stalled = true;
+      options.onStall?.();
+      void reader.cancel().catch(() => undefined);
+    }, idleTimeoutMs);
+  };
+  const stallError = (): Error =>
+    new Error(`A conexão parou de responder ao baixar a mídia ${url}`);
+
+  try {
+    armIdle();
+    while (true) {
+      const { done, value } = await reader.read().catch((error: unknown) => {
+        if (stalled) throw stallError();
+        throw error;
+      });
+      if (done) break;
+      if (value) {
+        if (total + value.byteLength > expectedBytes) {
+          await reader.cancel().catch(() => undefined);
+          throw new Error(`Tamanho invalido para midia ${url}`);
+        }
+        contents.set(value, total);
+        total += value.byteLength;
+        options.onBytes?.(value.byteLength);
       }
-      contents.set(value, total);
-      total += value.byteLength;
+      armIdle();
+      if (renew) await renew();
     }
-    if (renew) await renew();
+    if (stalled) throw stallError();
+  } finally {
+    if (idleTimer) clearTimeout(idleTimer);
   }
   if (total !== expectedBytes) throw new Error(`Tamanho invalido para midia ${url}`);
   return contents.buffer;
@@ -286,55 +344,133 @@ export async function downloadOfflineMedia(
     missing.push(item);
   }
 
+  const totalBytes = inventory.estimatedBytes > 0
+    ? inventory.estimatedBytes
+    : inventory.items.reduce((total, item) => total + item.bytes, 0);
+  const reusedBytes = inventory.items.reduce(
+    (total, item) => (reused.includes(item.url) ? total + item.bytes : total),
+    0,
+  );
   let completed = 0;
-  let downloadedBytes = 0;
-  onProgress({ completed: reused.length, total: inventory.items.length, downloadedBytes: 0, reused: reused.length });
+  // Os bytes verificados so entram depois do SHA-256; os bytes em
+  // transferencia entram durante a leitura. A barra de progresso usa a
+  // soma, para se mover dentro do primeiro arquivo em vez de esperar que
+  // ele termine inteiro (o que parecia "parado em 0%").
+  let verifiedBytes = reusedBytes;
+  let liveBytes = 0;
+  let lastReportAt = 0;
+  const report = (force = false): void => {
+    const now = Date.now();
+    if (!force && now - lastReportAt < 250) return;
+    lastReportAt = now;
+    onProgress({
+      completed: reused.length + completed,
+      total: inventory.items.length,
+      downloadedBytes: Math.min(totalBytes, verifiedBytes + liveBytes),
+      totalBytes,
+      reused: reused.length,
+    });
+  };
+  report(true);
 
   const failed: string[] = [];
   let firstError: string | undefined;
   await runConcurrentPool(missing, resolveMediaConcurrency(), async (item, signal) => {
     if (signal?.aborted) return;
     const request = requestForOfflineMedia(item.url, origin);
-    const response = await fetchResource(
-      new Request(request, { headers: { 'X-PWA-Offline': '1' } }),
-      { cache: 'reload', credentials: 'same-origin', ...(signal ? { signal } : {}) },
-    );
-    if (!response.ok || response.type === 'opaque') {
-      throw new Error(`Falha ao baixar midia ${item.url}: HTTP ${response.status}`);
-    }
-    if (response.status !== 200) {
-      // A Function devolve 206 quando a requisicao leva Range; um 206 nao
-      // pode ser gravado no cache e indicaria integridade comprometida.
-      throw new Error(`Resposta inesperada para midia ${item.url}: HTTP ${response.status}`);
-    }
-    const buffer = await readMediaBody(response, item.bytes, item.url, options.renew);
-    if (buffer.byteLength !== item.bytes) {
-      throw new Error(`Tamanho invalido para midia ${item.url}`);
-    }
-    const digest = await sha256Hex(buffer);
-    if (digest !== item.sha256) {
-      throw new Error(`Integridade invalida para midia ${item.url}`);
-    }
-    await cache.put(
-      requestForOfflineMedia(item.url, origin),
-      new Response(buffer, {
-        status: 200,
-        headers: {
-          'Content-Type': mediaMimeFromUrl(item.url),
-          'Content-Length': String(item.bytes),
-          'Accept-Ranges': 'bytes',
-          'Cache-Control': 'public, max-age=31536000, immutable',
+    // O sinal externo (coordenacao perdida) e o silencio da conexao
+    // precisam abortar a mesma requisicao, cada um pela sua causa.
+    const local = new AbortController();
+    const abortLocal = (): void => {
+      try {
+        local.abort();
+      } catch {
+        // Ja abortado: nada a fazer.
+      }
+    };
+    signal?.addEventListener('abort', abortLocal, { once: true });
+    // O limite de silencio tambem vale antes dos cabecalhos: uma conexao
+    // trocada, um portal cativo ou a aba suspensa deixam o `fetch`
+    // pendente para sempre, e sem este temporizador a fase de midia
+    // ficaria parada sem erro (o mesmo sintoma de "0%").
+    const idleTimeoutMs = options.idleTimeoutMs ?? MEDIA_IDLE_TIMEOUT_MS;
+    let stalledBeforeHeaders = false;
+    const headerTimer =
+      idleTimeoutMs > 0
+        ? setTimeout(() => {
+            stalledBeforeHeaders = true;
+            abortLocal();
+          }, idleTimeoutMs)
+        : undefined;
+    const clearHeaderTimer = (): void => {
+      if (headerTimer !== undefined) clearTimeout(headerTimer);
+    };
+    let itemBytes = 0;
+    try {
+      let response: Response;
+      try {
+        response = await fetchResource(
+          new Request(request, { headers: { 'X-PWA-Offline': '1' } }),
+          { cache: 'reload', credentials: 'same-origin', signal: local.signal },
+        );
+      } catch (error) {
+        if (stalledBeforeHeaders) {
+          throw new Error(`A conexão parou de responder ao baixar a mídia ${item.url}`);
+        }
+        throw error;
+      }
+      // A resposta chegou: a leitura do corpo passa a ter o proprio
+      // temporizador, renovado a cada parte recebida.
+      clearHeaderTimer();
+      stalledBeforeHeaders = false;
+      if (!response.ok || response.type === 'opaque') {
+        throw new Error(`Falha ao baixar midia ${item.url}: HTTP ${response.status}`);
+      }
+      if (response.status !== 200) {
+        // A Function devolve 206 quando a requisicao leva Range; um 206 nao
+        // pode ser gravado no cache e indicaria integridade comprometida.
+        throw new Error(`Resposta inesperada para midia ${item.url}: HTTP ${response.status}`);
+      }
+      const buffer = await readMediaBody(response, item.bytes, item.url, options.renew, {
+        onBytes: (bytes) => {
+          itemBytes += bytes;
+          liveBytes += bytes;
+          report();
         },
-      }),
-    );
-    downloadedBytes += item.bytes;
-    completed += 1;
-    onProgress({
-      completed: reused.length + completed,
-      total: inventory.items.length,
-      downloadedBytes,
-      reused: reused.length,
-    });
+        onStall: abortLocal,
+        ...(options.idleTimeoutMs !== undefined ? { idleTimeoutMs: options.idleTimeoutMs } : {}),
+      });
+      if (buffer.byteLength !== item.bytes) {
+        throw new Error(`Tamanho invalido para midia ${item.url}`);
+      }
+      const digest = await sha256Hex(buffer);
+      if (digest !== item.sha256) {
+        throw new Error(`Integridade invalida para midia ${item.url}`);
+      }
+      await cache.put(
+        requestForOfflineMedia(item.url, origin),
+        new Response(buffer, {
+          status: 200,
+          headers: {
+            'Content-Type': mediaMimeFromUrl(item.url),
+            'Content-Length': String(item.bytes),
+            'Accept-Ranges': 'bytes',
+            'Cache-Control': 'public, max-age=31536000, immutable',
+          },
+        }),
+      );
+      // Sai dos bytes em voo antes de entrar nos verificados: a soma nao
+      // pode contar o mesmo arquivo duas vezes.
+      liveBytes -= itemBytes;
+      itemBytes = 0;
+      verifiedBytes += item.bytes;
+      completed += 1;
+      report(true);
+    } finally {
+      clearHeaderTimer();
+      liveBytes -= itemBytes;
+      signal?.removeEventListener('abort', abortLocal);
+    }
   }, {
     // Um arquivo indisponivel nao pode travar os demais: a midia e
     // idempotente e o que falhou fica registrado para retomada.
@@ -343,6 +479,9 @@ export async function downloadOfflineMedia(
     onItemError: (error, item) => {
       failed.push(item.url);
       firstError ??= error instanceof Error ? error.message : String(error);
+      // O arquivo que falhou saiu dos bytes em voo: a barra precisa
+      // voltar ao total real antes de seguir.
+      report(true);
     },
   });
 
@@ -350,12 +489,16 @@ export async function downloadOfflineMedia(
   for (const item of missing) {
     if (await cache.match(requestForOfflineMedia(item.url, origin), { ignoreVary: true })) stored.add(item.url);
   }
+  const storedBytes = inventory.items.reduce(
+    (total, item) => (stored.has(item.url) ? total + item.bytes : total),
+    0,
+  );
   return {
     urls: [...stored],
     missing: inventory.items.filter((item) => !stored.has(item.url)).map((item) => item.url),
     failed,
     ...(firstError ? { firstError } : {}),
-    downloadedBytes,
+    downloadedBytes: storedBytes - reusedBytes,
   };
 }
 

@@ -100,10 +100,15 @@ export function startOfflineDownloadIndicator(
   subscribeDownloadEvents((event) => {
     if (event.type === 'started') applyFor(event.contestStorageId, { type: 'started' });
     else if (event.type === 'progress') {
-      applyFor(event.contestStorageId, {
-        type: 'progress',
-        percent: event.total > 0 ? (event.completed / event.total) * 100 : 0,
-      });
+      // A midia reporta bytes: medir por arquivo concluido deixaria o
+      // primeiro audio grande parado em 0% tambem neste indicador.
+      const percent =
+        event.totalBytes !== undefined && event.totalBytes > 0
+          ? Math.min(100, (event.downloadedBytes / event.totalBytes) * 100)
+          : event.total > 0
+            ? (event.completed / event.total) * 100
+            : 0;
+      applyFor(event.contestStorageId, { type: 'progress', percent });
     } else if (event.type === 'completed') applyFor(event.contestStorageId, { type: 'completed' });
     else if (event.type === 'failed') {
       applyFor(event.contestStorageId, { type: 'failed', message: event.message });

@@ -132,15 +132,23 @@ Um `200` reprova o caminho.
 
 A mídia do concurso pode ser baixada junto com o curso offline. A opção é
 explícita: ao lado do botão **Baixar concurso** há um `select` com *Somente o
-curso* (padrão) e *Curso + mídias*. A escolha vale para o download disparado
-naquele momento.
+curso* (padrão) e *Curso + mídias*. O `select` não guarda preferência: o que
+fica registrado é a intenção daquele download, gravada no registro do
+concurso antes da primeira transferência. Por isso uma recarga no meio do
+processo mantém a opção marcada e oferece a retomada.
 
 - **Inventário próprio.** A lista de arquivos do concurso mora em
   `/offline-media/<concurso>.json` (schema v1, estrito). O manifesto do
   pacote offline (ADR-008) não muda, e os clientes já instalados continuam
   valendo.
 - **Uma operação, um lock.** O conteúdo vem primeiro, com a promoção
-  atômica; a mídia vem depois, sob a mesma aquisição do lock global.
+  atômica; a mídia vem depois, sob a mesma aquisição do lock global. A
+  intenção é revalidada contra o lease e o registro imediatamente antes de
+  ser gravada.
+- **Progresso por byte.** A barra avança com os bytes recebidos, não apenas
+  com arquivos concluídos: o primeiro áudio grande já move o indicador. O
+  anúncio em `aria-live` muda ao concluir um arquivo ou a cada dois
+  segundos, para não inundar o leitor de tela.
 - **Paralelismo.** A mesma política adaptativa já usada no conteúdo (2 a 15
   transferências), limitada a 6 pela memória: cada arquivo é conferido por
   SHA-256 em memória antes de ser gravado.
@@ -154,13 +162,17 @@ naquele momento.
 - **Falha parcial.** Um arquivo que falha não derruba os outros: o que foi
   conferido fica guardado e referenciado, e o botão **Baixar mídias** retoma
   só o que falta. O conteúdo do curso permanece disponível.
+- **Conexão travada.** Um silêncio de 45 segundos — antes ou depois dos
+  cabeçalhos — aborta a requisição com erro explícito. Sem isso, a troca de
+  rede, a tela bloqueada ou um portal cativo deixariam a fase de mídia
+  pendente, sem erro e sem retomada.
 - **O que sai.** Ao trocar o inventário, os arquivos que saíram do conjunto
   são apagados do aparelho, junto com a mídia que sobrou sem referência
   depois da limpeza de um pacote.
 
 Diagnóstico: a mensagem "As mídias não foram concluídas" indica arquivo
-indisponível no servidor; o conteúdo do curso segue offline e a ação é
-repetir o download das mídias.
+indisponível no servidor ou conexão travada; o conteúdo do curso segue
+offline e a ação é repetir o download das mídias.
 
 ## Posição de reprodução
 
