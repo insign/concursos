@@ -12,6 +12,7 @@ import {
   downloadContestPackage,
   getOfflineContestRecord,
   hashOfflineResource,
+  markOfflineMediaIncomplete,
   removeContestPackage,
   stripCloudflareBeacon,
   type OfflinePackageManifest,
@@ -1145,6 +1146,46 @@ describe('beacon prescan', () => {
     // O registro novo nao foi sobrescrito com o estado de midia.
     expect(record?.activeCacheName).toBe('outro-cache');
     expect(record?.media?.status).toBeUndefined();
+  });
+
+  it('downgrades the media state under the lock when the files are gone', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const body = 'a'.repeat(32);
+    const sha256 = createHash('sha256').update(body).digest('hex');
+    const url = `/media/${sha256}.mp3`;
+    const media: OfflineMediaInventory = {
+      schemaVersion: 1,
+      contestStorageId: 'exemplo',
+      inventoryHash: '0123456789abcdef0123',
+      estimatedBytes: body.length,
+      items: [{ url, sha256, bytes: body.length }],
+    };
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      const request = new Request(input);
+      if (new URL(request.url).pathname.startsWith('/media/')) {
+        return new Response(body, { status: 200, headers: { 'Content-Length': String(body.length) } });
+      }
+      return successfulFetch(request);
+    });
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: fetchResource as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await downloadContestPackage(await hashedManifest('11111111111111111111'), undefined, overrides, 'download', { media });
+    expect((await getOfflineContestRecord('exemplo'))?.media?.status).toBe('complete');
+
+    // O navegador despejou o cache: o estado tem de ficar parcial.
+    const mediaCache = cacheStorage.caches.get(OFFLINE_MEDIA_CACHE);
+    await mediaCache?.delete(new Request(`https://concursos.test${url}`));
+
+    await markOfflineMediaIncomplete('exemplo', overrides);
+    expect((await getOfflineContestRecord('exemplo'))?.media?.status).toBe('partial');
+
+    // Este helper so rebaixa: quem completa de novo e a fase de midia.
+    await mediaCache?.put(new Request(`https://concursos.test${url}`), new Response(body, { status: 200 }));
+    await markOfflineMediaIncomplete('exemplo', overrides);
+    expect((await getOfflineContestRecord('exemplo'))?.media?.status).toBe('partial');
   });
 
   it('keeps the offline manifest contract free of media fields', async () => {

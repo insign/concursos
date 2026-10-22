@@ -416,6 +416,8 @@ async function downloadContestMediaLocked(
   const storageId = record.contestStorageId;
   const controller = new AbortController();
   let leaseLost = false;
+  /** O estado da midia ja foi gravado: uma falha depois nao o rebaixa. */
+  let stateWritten = false;
 
   /**
    * Renovacao da coordenacao. A perda do lease interrompe o trabalho em
@@ -450,7 +452,12 @@ async function downloadContestMediaLocked(
       };
       if (!(await mediaStateStillCurrent(record))) return record;
       await saveOfflineContestRecord(emptied);
-      await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+      stateWritten = true;
+      try {
+        await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+      } catch {
+        // A poda e best-effort: o proximo ciclo de limpeza faz o ajuste.
+      }
       return emptied;
     }
 
@@ -526,9 +533,16 @@ async function downloadContestMediaLocked(
       },
     };
     await saveOfflineContestRecord(updated);
+    stateWritten = true;
     // A troca do inventario deixa arquivos antigos sem referencia: a poda
     // roda aqui, ainda sob o lock, para nao deixar midia obsoleta no aparelho.
-    await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+    // A limpeza e best-effort: um erro dela nao pode rebaixar um estado
+    // que ja foi gravado.
+    try {
+      await pruneUnreferencedMedia(await referencedMediaUrls(), overrides);
+    } catch {
+      // O proximo ciclo de limpeza faz o ajuste.
+    }
 
     if (outcome.failed.length > 0) {
       throw new OfflineMediaError(
@@ -543,7 +557,7 @@ async function downloadContestMediaLocked(
     // Sem coordenacao, nada e gravado: outra operacao pode ter removido
     // o concurso ou ativado um pacote novo, e escrever aqui voltaria a
     // ressuscitar um estado obsoleto.
-    if (!leaseLost) {
+    if (!leaseLost && !stateWritten) {
       // O que ja foi verificado continua guardado e referenciado, senao a
       // proxima poda o apaga. A gravacao e best-effort: uma falha aqui
       // nao pode substituir o erro original.

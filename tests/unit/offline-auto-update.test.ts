@@ -36,7 +36,63 @@ async function loadModule() {
   return import('../../src/lib/offline-auto-update');
 }
 
+class MemoryMediaCache {
+  readonly entries = new Map<string, Response>();
+
+  async put(request: RequestInfo | URL, response: Response): Promise<void> {
+    this.entries.set(new Request(request).url, response.clone());
+  }
+
+  async match(request: RequestInfo | URL): Promise<Response | undefined> {
+    return this.entries.get(new Request(request).url)?.clone();
+  }
+
+  async keys(): Promise<readonly Request[]> {
+    return [...this.entries.keys()].map((url) => new Request(url));
+  }
+
+  async delete(request: RequestInfo | URL): Promise<boolean> {
+    return this.entries.delete(new Request(request).url);
+  }
+}
+
+class MemoryMediaCacheStorage {
+  readonly caches = new Map<string, MemoryMediaCache>();
+
+  async open(name: string): Promise<Cache> {
+    const cache = this.caches.get(name) ?? new MemoryMediaCache();
+    this.caches.set(name, cache);
+    return cache as unknown as Cache;
+  }
+
+  async has(name: string): Promise<boolean> {
+    return this.caches.has(name);
+  }
+
+  async delete(name: string): Promise<boolean> {
+    return this.caches.delete(name);
+  }
+
+  async keys(): Promise<string[]> {
+    return [...this.caches.keys()];
+  }
+}
+
+const originalCaches = globalThis.caches;
+
+function useMediaCache(urls: string[]): MemoryMediaCacheStorage {
+  const storage = new MemoryMediaCacheStorage();
+  Object.defineProperty(globalThis, 'caches', { value: storage, configurable: true, writable: true });
+  const cache = new MemoryMediaCache();
+  for (const url of urls) {
+    void cache.put(new Request(`http://localhost${url}`), new Response('a'));
+  }
+  storage.caches.set('offline-media-v1', cache);
+  return storage;
+}
+
 beforeEach(() => {
+  Object.defineProperty(globalThis, 'caches', { value: originalCaches, configurable: true, writable: true });
   vi.resetModules();
   listRecords.mockReset();
   download.mockReset();
@@ -304,6 +360,41 @@ describe('offline auto update', () => {
     // midia precisa ser baixada de novo.
     expect(download).toHaveBeenCalledTimes(1);
     expect(download.mock.calls[0]?.[4]).toMatchObject({ media: { items: expect.any(Array) } });
+  });
+
+  it('keeps the media when every file is still cached', async () => {
+    const url = `/media/${'a'.repeat(64)}.mp3`;
+    useMediaCache([url]);
+    const record = {
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'c',
+      downloadedAt: 1,
+      resourceCount: 2,
+      media: { included: true, inventoryHash: '0123456789abcdef0123', urls: [url], bytes: 1, status: 'complete', updatedAt: 1 },
+    };
+    listRecords.mockResolvedValue([record]);
+    const fetchResource = vi.fn(async (input: RequestInfo | URL) => {
+      if (String(input).includes('/offline-media/')) {
+        return new Response(
+          JSON.stringify({
+            schemaVersion: 1,
+            contestStorageId: 'exemplo',
+            inventoryHash: '0123456789abcdef0123',
+            estimatedBytes: 1,
+            items: [{ url, sha256: 'a'.repeat(64), bytes: 1 }],
+          }),
+          { status: 200 },
+        );
+      }
+      return new Response(JSON.stringify(manifest('11111111111111111111')), { status: 200 });
+    });
+    download.mockResolvedValue({ contestStorageId: 'exemplo' });
+
+    const { maybeUpdateOfflinePackages } = await loadModule();
+    await maybeUpdateOfflinePackages('navigation', { fetch: fetchResource as typeof fetch, now: () => 1_000 });
+
+    expect(download).not.toHaveBeenCalled();
   });
 
   it('ignores a media inventory of another contest', async () => {

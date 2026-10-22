@@ -192,8 +192,16 @@ export function mediaInventoryUrl(contestStorageId: string): string {
 export function resolveMediaConcurrency(): number {
   const hints = readAdaptiveHints();
   const adaptive = resolveAdaptiveConcurrency(hints);
-  const lowMemory = typeof hints.deviceMemory === 'number' && hints.deviceMemory > 0 && hints.deviceMemory <= 4;
-  const cap = lowMemory ? 2 : MEDIA_CONCURRENCY_MAX;
+  const memory = hints.deviceMemory;
+  const cap =
+    typeof memory === 'number' && memory > 0
+      ? memory <= 4
+        ? 2
+        : MEDIA_CONCURRENCY_MAX
+      : // Sem a API de memoria do aparelho (iOS Safari), o numero de
+        // nucleos e o melhor sinal disponivel: um aparelho com poucos
+        // nucleos costuma ter pouca memoria.
+        Math.max(2, Math.min(MEDIA_CONCURRENCY_MAX, hints.hardwareConcurrency ?? 4));
   return Math.max(2, Math.min(cap, adaptive));
 }
 
@@ -229,6 +237,7 @@ export interface MediaDownloadOptions {
 async function readMediaBody(
   response: Response,
   expectedBytes: number,
+  url: string,
   renew?: () => Promise<void>,
 ): Promise<ArrayBuffer> {
   const body = response.body;
@@ -244,14 +253,14 @@ async function readMediaBody(
     if (value) {
       if (total + value.byteLength > expectedBytes) {
         await reader.cancel().catch(() => undefined);
-        throw new Error('Tamanho invalido para midia');
+        throw new Error(`Tamanho invalido para midia ${url}`);
       }
       contents.set(value, total);
       total += value.byteLength;
     }
     if (renew) await renew();
   }
-  if (total !== expectedBytes) throw new Error('Tamanho invalido para midia');
+  if (total !== expectedBytes) throw new Error(`Tamanho invalido para midia ${url}`);
   return contents.buffer;
 }
 
@@ -298,7 +307,7 @@ export async function downloadOfflineMedia(
       // pode ser gravado no cache e indicaria integridade comprometida.
       throw new Error(`Resposta inesperada para midia ${item.url}: HTTP ${response.status}`);
     }
-    const buffer = await readMediaBody(response, item.bytes, options.renew);
+    const buffer = await readMediaBody(response, item.bytes, item.url, options.renew);
     if (buffer.byteLength !== item.bytes) {
       throw new Error(`Tamanho invalido para midia ${item.url}`);
     }
