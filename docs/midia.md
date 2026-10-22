@@ -128,6 +128,40 @@ Esperado: `HTTP/2 206`, `content-range: bytes 0-1/<total>`,
 `content-length: 2`, `accept-ranges: bytes` e exatamente dois bytes no corpo.
 Um `200` reprova o caminho.
 
+## Download offline da mídia
+
+A mídia do concurso pode ser baixada junto com o curso offline. A opção é
+explícita: ao lado do botão **Baixar concurso** há um `select` com *Somente o
+curso* (padrão) e *Curso + mídias*. A escolha vale para o download disparado
+naquele momento.
+
+- **Inventário próprio.** A lista de arquivos do concurso mora em
+  `/offline-media/<concurso>.json` (schema v1, estrito). O manifesto do
+  pacote offline (ADR-008) não muda, e os clientes já instalados continuam
+  valendo.
+- **Uma operação, um lock.** O conteúdo vem primeiro, com a promoção
+  atômica; a mídia vem depois, sob a mesma aquisição do lock global.
+- **Paralelismo.** A mesma política adaptativa já usada no conteúdo (2 a 15
+  transferências), limitada a 6 pela memória: cada arquivo é conferido por
+  SHA-256 em memória antes de ser gravado.
+- **Cache próprio.** `offline-media-v1`, com a URL imutável
+  `/media/<sha256>.<ext>` como chave. O arquivo canônico compartilhado entre
+  concursos é baixado uma vez só e sobrevive à remoção de qualquer um
+  deles, por referência.
+- **Offline com busca.** O service worker serve a cópia local e sintetiza
+  `206 Partial Content` a partir do `Range` pedido pelo player; sem cópia
+  local, a requisição segue para a rota `/media/*`.
+- **Falha parcial.** Um arquivo que falha não derruba os outros: o que foi
+  conferido fica guardado e referenciado, e o botão **Baixar mídias** retoma
+  só o que falta. O conteúdo do curso permanece disponível.
+- **O que sai.** Ao trocar o inventário, os arquivos que saíram do conjunto
+  são apagados do aparelho, junto com a mídia que sobrou sem referência
+  depois da limpeza de um pacote.
+
+Diagnóstico: a mensagem "As mídias não foram concluídas" indica arquivo
+indisponível no servidor; o conteúdo do curso segue offline e a ação é
+repetir o download das mídias.
+
 ## Posição de reprodução
 
 A posição fica em um documento do KV **por assunto consumidor**, no namespace
@@ -173,6 +207,7 @@ marcação só acontece quando todas forem concluídas.
 - Tela de administração, upload pelo site e edição de metadados pela interface.
 - Transcrição, legendas, capítulos e busca dentro da mídia.
 - Mídia no cheat sheet, na página de questões e na mega revisão.
-- Mídia no pacote offline do concurso e no precache do service worker.
+- Mídia no precache do service worker e download automático sem escolha do
+  usuário.
 - Streaming adaptativo (HLS/DASH), DRM e playlists.
 - Reprodutor de terceiros: o player usa `<audio>`/`<video>` nativos.

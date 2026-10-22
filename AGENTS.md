@@ -362,3 +362,4 @@ Se a auditoria concluir que nenhuma alteração é necessária, não crie commit
 | 007 | Canonical mega reviews shared across contests via biblioteca links | 186–217 |
 | 008 | Mirrored edge-mutation strip for offline download integrity | 218–239 |
 | 009 | Per-subject media with R2 delivery and consumption-based completion | 240–286 |
+| 010 | Opt-in offline media download as second phase of contest download | 288–326 |

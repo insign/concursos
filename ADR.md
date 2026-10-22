@@ -243,7 +243,7 @@ Related: ADR-001, ADR-005, and GitHub issues #715, #717, #723, #728, #729, #730.
 
 **Context**: Subjects need an optional companion audio or video track as a study alternative, without an administration UI, without new persisted semantics, and without weakening the static architecture, alias preflight cost, or offline integrity contracts. Media binaries cannot live in the repository: Git history is irreversible, the build budget (`scripts/build-budget.json`) caps output at 18,000 files / 524,288,000 bytes, and Cloudflare Pages rejects assets above 25 MiB. Delivery must satisfy iOS Safari, which requires `206 Partial Content` for audio/video playback, while Pages serves static assets with `200` for Range requests. Playback position must be per consumer (canonical media is shared), cheap to fetch on new devices, and mega reviews must remain stateless.
 
-Related: ADR-001, ADR-002, ADR-005, ADR-006.
+Related: ADR-001, ADR-002, ADR-005, ADR-006. Amended by ADR-010 (opt-in offline media download).
 
 **Decision**:
 - Discover media by convention, with no administration screen. Each subject may carry a `midia/` folder at its resolved origin: `src/content/assuntos/<concurso>/<grupo...>/<assunto>/midia/` for physical subjects, `src/content/biblioteca/<grupo...>/<assunto>/midia/` for canonical origins. A consumer carrying `vinculo.json` MUST NOT have its own `midia/`; the build fails with an explicit message. Canonical media is shared by all consumers; playback position and completion remain per consumer.
@@ -283,4 +283,44 @@ Related: ADR-001, ADR-002, ADR-005, ADR-006.
 - ⚠️ Authors must run `npm run midia:publicar` before deploy; catalog entries without uploaded bytes fail delivery, and the folder source must be kept in sync via MEGA outside Git.
 - ⚠️ Every subject open performs an on-demand KV/IndexedDB read for its media document, and multi-track subjects require all tracks to complete before the studied mark.
 - ⚠️ The publisher refuses repeated digests and more than 16 media items per folder, removes the catalog with the last media file, and requires `--force` to delete entries whose file is missing; the player must not introduce paragraphs inside the subject `<article>`.
-- ❌ No administration UI, transcription, captions, adaptive streaming, DRM, offline media, or third-party player is introduced; mega reviews remain media- and state-free.
+ - ❌ No administration UI, transcription, captions, adaptive streaming, DRM, offline media, or third-party player is introduced; mega reviews remain media- and state-free.
+
+## ADR-010: Opt-in offline media download as second phase of contest download (2026-10-22)
+
+**Status**: Accepted
+
+**Context**: ADR-009 explicitly excludes media from the contest offline package and the service-worker precache ("media in the offline package or precache" is out of scope). Learners asked for subject audio (ADR-009) to be downloadable together with the offline course. Any solution must not break already installed clients, must not force media storage on every device, must preserve the atomicity and integrity guarantees of offline packages (ADR-008), and must keep playback working on iOS Safari, which refuses `200` responses for audio and requires `206 Partial Content`.
+
+Related: ADR-005, ADR-008, ADR-009. Implemented and reviewed in commits `bb51915b`, `4e955cc6`, `7ecc6af7`, `cbd5b10a`, `f9738e6f`.
+
+**Decision**:
+- Offer media as an explicit opt-in second phase of the same contest download. Beside the "Baixar concurso" button, a `select` offers "Somente o curso" (default) and "Curso + midias". Without the choice, nothing changes. The `select` is not persisted: the choice applies only to the triggered download.
+- Keep the package manifest intact. `offlinePackageManifestSchema` (strict Zod) does not change, so installed clients keep working. The media list lives in its own static endpoint `/offline-media/<concurso>.json` (strict schema v1, generated at build time from the resolved catalog).
+- Run two phases under a single lock. Content is downloaded and promoted atomically, as before; media follows inside the SAME `withOfflinePackageLock` acquisition (IndexedDB lease, non-reentrant). A media failure preserves the already activated package and the verified files.
+- Reuse the existing parallelism. The same pool and adaptive policy (2..15) apply, with a cap of 6 concurrent media transfers (2 on low-memory devices), because each transfer holds the whole file in memory to verify its SHA-256.
+- Verify integrity per media file. Each file is checked against the 64-hex SHA-256 from the media catalog, separate from the 20-hex package hash (ADR-008). The media pool collects per-item failures instead of aborting: one unavailable file does not take down the others, and the state stays `partial` for resumption.
+- Store media in a dedicated content-addressed cache. Cache Storage `offline-media-v1` is keyed by the immutable URL `/media/<sha256>.<ext>`. Canonical media shared across contests is downloaded only once. Removal deletes only URLs no longer referenced by any contest.
+- Serve media offline with seeking. The service worker gains a `/media/*` route: cache-first with a synthesized `206 Partial Content` from the `Range` requested by the player (iOS Safari refuses `200` for audio), with network fallback and `416` for unsatisfiable ranges.
+- Coordinate the long download. The lease is renewed while reading response bodies, not only by timer (which the browser throttles in hidden tabs), and the media phase uses a longer TTL. Nothing is written without re-reading the record: if the contest was removed or the package replaced, the write is aborted.
+- Repair evicted media. The auto-update checks the cached media on every navigation and repairs entries the browser expelled, even when the inventory hash has not changed.
+
+**Rationale**:
+- An explicit per-download opt-in keeps the default behavior byte-for-byte identical while making the storage cost of media a conscious user choice.
+- A separate static endpoint keeps the package manifest contract frozen, so old clients never see unknown fields.
+- One lock for both phases serializes media work against package removal or replacement; a second media-only lock would allow a removal race.
+- Capping media concurrency by memory (6, or 2 on constrained devices) bounds peak RAM, since hashing requires the complete file in memory.
+- Per-item failure collection with a `partial` state matches the resumable nature of large media sets better than all-or-nothing semantics.
+- Content-addressed cache keys make canonical sharing automatic and make removal reference-counted by URL instead of by contest copy.
+- Synthesizing `206` in the service worker is required because static hosting answers Range with `200`, which iOS Safari rejects for media.
+- Renewing the lease during body reads protects hidden-tab downloads from timer throttling, and re-reading the record before writes closes the remove/replace race.
+- Navigation-time repair handles silent browser cache eviction without requiring any manifest or inventory change.
+- Rejected alternatives: (a) adding media fields to the package manifest, because it breaks installed clients; (b) precaching media, because it spends storage on every device; (c) a second media-only lock, because it permits concurrency with package removal; (d) a new IndexedDB store, because it requires a version migration; (e) per-subject download with individual selection, because it exceeds the requested scope.
+
+**Consequences**:
+- ✅ Learners can take subject audio offline together with the course through one explicit choice, without changing the default download.
+- ✅ Installed clients, the manifest schema, the precache, and the atomic content promotion are unaffected.
+- ✅ Shared canonical media is stored once, verified per file, resumable after partial failure, and playable offline with seeking on iOS Safari.
+- ✅ The single non-reentrant lock plus re-read-before-write keeps media work consistent with package removal and replacement, including in hidden tabs.
+- ⚠️ Media never enters the precache; the choice is local and does not survive a page reload; the UI must distinguish content failure from media failure.
+- ⚠️ Media downloads hold whole files in memory for hashing, hence the concurrency cap, and evicted entries are re-fetched on navigation even without inventory changes.
+- ❌ No per-subject media selection, no media fields in the package manifest, no second lock, and no new IndexedDB store are introduced.
