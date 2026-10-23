@@ -174,6 +174,29 @@ Diagnóstico: a mensagem "As mídias não foram concluídas" indica arquivo
 indisponível no servidor ou conexão travada; o conteúdo do curso segue
 offline e a ação é repetir o download das mídias.
 
+## Player persistente e navegação
+
+O assunto oferece o botão de reprodução e, quando há várias faixas, um seletor.
+Os elementos nativos de áudio e vídeo ficam no player global, persistido entre
+as navegações internas pelo `ClientRouter` (ADR-011). Visitar outro assunto
+não troca a faixa: a troca exige usar o botão de reprodução ou o seletor desse
+assunto. A sessão mantém o consumidor e o perfil de origem para salvar a
+posição e marcar a conclusão corretamente.
+
+A barra inferior oferece reprodução/pausa, avanço e recuo de 15 segundos,
+velocidade e busca na faixa. Depois de pausar, permanece disponível por cinco
+minutos; fechar a barra pausa a reprodução. Rolar para baixo recolhe a barra
+sem interromper a mídia; rolar para cima ou tocar em uma área vazia a revela.
+Controles com foco permanecem visíveis. O modo de leitura e a tela cheia
+incluem o player, e os controles flutuantes se deslocam pela altura visível
+da barra.
+
+Downloads e sincronização continuam durante as navegações internas. A
+atualização do aplicativo aguarda um momento sem atividade e a gravação local
+pendente antes de ativar ou recarregar, para preservar a sessão em andamento.
+Uma recarga completa ou o fechamento da aba encerra a reprodução; a posição
+salva continua disponível para retomada.
+
 ## Posição de reprodução
 
 A posição fica em um documento do KV **por assunto consumidor**, no namespace
