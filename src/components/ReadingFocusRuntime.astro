@@ -1,6 +1,9 @@
 <script>
   import { readingProgressFraction } from '../lib/reading-progress';
+  import { onPageMount } from '../lib/page-lifecycle';
+  import { setFocusPopstateHandler } from '../lib/focus-history';
 
+  onPageMount((scope) => {
   const root = document.querySelector<HTMLElement>('[data-reading-focus]');
   const openers = root
     ? Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-reading-focus-open]'))
@@ -11,6 +14,9 @@
   const readingArticle = root?.querySelector<HTMLElement>('.reading-surface > article') ?? null;
 
   if (root && defaultOpener && close) {
+    const modalRoot = document.getElementById('app-shell') ?? root;
+    const player = document.getElementById('global-media-player');
+    let renderedURL = new URL(location.href);
     const HISTORY_KEY = 'concursosReadingFocus';
     const FOCUSABLE = [
       'a[href]',
@@ -85,6 +91,15 @@
         typeof fullscreenTarget.requestFullscreen !== 'function'
       ) return;
       fullscreenDesired = true;
+      if (fullscreenExit) {
+        // Fechar e reabrir em sequência pode colidir com a saída em curso.
+        // Espera-a terminar em vez de descartar o pedido de fullscreen.
+        const pendingExit = fullscreenExit;
+        void pendingExit.finally(() => {
+          if (fullscreenDesired) requestReadingFullscreen();
+        });
+        return;
+      }
       if (document.fullscreenElement === fullscreenTarget || fullscreenRequest) return;
 
       const token = Symbol('reading-fullscreen-request');
@@ -111,7 +126,9 @@
     };
 
     const visibleLayoutAnchor = (): HTMLElement => {
-      const anchorLine = window.innerHeight / 2;
+      // Preserve o ponto lido no início da viewport; o centro pode cair em
+      // outro parágrafo que reflui de modo diferente ao mudar a largura.
+      const anchorLine = Math.min(96, window.innerHeight / 3);
       const hit = document.elementFromPoint(window.innerWidth / 2, anchorLine);
       const hitAnchor = hit instanceof Element ? hit.closest<HTMLElement>(CONTENT_ANCHORS) : null;
       if (hitAnchor && layoutAnchor.contains(hitAnchor)) return hitAnchor;
@@ -141,21 +158,25 @@
       if (!previous) return;
       const anchor = previous.anchor.isConnected ? previous.anchor : layoutAnchor;
       const delta = anchor.getBoundingClientRect().top - previous.anchorTop;
-      if (delta !== 0) window.scrollTo({ top: window.scrollY + delta });
+      // Reancorar é correção de layout, não navegação: o `scroll-behavior:
+      // smooth` global transformaria o ajuste em animação e os eventos de
+      // scroll seguintes seriam lidos como rolagem do usuário (escondendo a
+      // barra de ações recém-exibida).
+      if (delta !== 0) window.scrollTo({ top: window.scrollY + delta, behavior: 'instant' });
     };
 
     const outsideElements = (): HTMLElement[] => {
-      const main = root.parentElement;
-      if (!main) return [];
-      const bodySiblings = Array.from(document.body.children).filter(
-        (element): element is HTMLElement =>
-          element instanceof HTMLElement && element !== main && element.tagName !== 'SCRIPT',
-      );
-      const mainSiblings = Array.from(main.children).filter(
-        (element): element is HTMLElement =>
-          element instanceof HTMLElement && element !== root && element.tagName !== 'SCRIPT',
-      );
-      return [...bodySiblings, ...mainSiblings];
+      const outside: HTMLElement[] = [];
+      let branch: HTMLElement = root;
+      while (branch.parentElement) {
+        for (const sibling of branch.parentElement.children) {
+          if (sibling instanceof HTMLElement && sibling !== branch && sibling.tagName !== 'SCRIPT' &&
+            sibling !== player && !sibling.contains(player)) outside.push(sibling);
+        }
+        if (branch.parentElement === document.body) break;
+        branch = branch.parentElement;
+      }
+      return outside;
     };
 
     const hideOutside = () => {
@@ -180,12 +201,13 @@
     };
 
     const focusableElements = () =>
-      Array.from(root.querySelectorAll<HTMLElement>(FOCUSABLE)).filter(
+      [...Array.from(root.querySelectorAll<HTMLElement>(FOCUSABLE)), ...Array.from(player?.querySelectorAll<HTMLElement>(FOCUSABLE) ?? [])].filter(
         (element) => !element.hidden && element.getClientRects().length > 0,
       );
 
     const setActive = (next: boolean, layout?: LayoutState): boolean => {
       if (active === next) return false;
+      const wasActive = active === true;
       active = next;
       root.toggleAttribute('data-reading-focus-active', next);
       document.body.classList.toggle('reading-focus-active', next);
@@ -195,22 +217,34 @@
           previousScrollRestoration = history.scrollRestoration;
           history.scrollRestoration = 'manual';
         }
-        root.setAttribute('role', 'dialog');
-        root.setAttribute('aria-modal', 'true');
+        modalRoot.setAttribute('role', 'dialog');
+        modalRoot.setAttribute('aria-modal', 'true');
+        modalRoot.setAttribute('aria-label', 'Modo de leitura sem distrações');
+        modalRoot.setAttribute('tabindex', '-1');
         hideOutside();
       } else {
-        void leaveReadingFullscreen();
-        root.removeAttribute('role');
-        root.removeAttribute('aria-modal');
+        // Só encerra o fullscreen se este ciclo chegou a ativá-lo. Uma montagem
+        // inicial (active ainda nulo) não pode disparar uma saída espúria.
+        if (wasActive) void leaveReadingFullscreen();
+        modalRoot.removeAttribute('role');
+        modalRoot.removeAttribute('aria-modal');
+        modalRoot.removeAttribute('aria-label');
+        modalRoot.removeAttribute('tabindex');
         restoreOutside();
       }
 
       preserveLayout(layout);
-      window.dispatchEvent(new CustomEvent('concursos:reading-focus-change', { detail: { active: next } }));
 
       requestAnimationFrame(() => {
-        if (next) root.focus({ preventScroll: true });
+        if (scope.signal.aborted) return;
+        preserveLayout(layout);
+        if (next) modalRoot.focus({ preventScroll: true });
         else (opener?.isConnected ? opener : defaultOpener).focus({ preventScroll: true });
+        // Anunciar só depois de reancorar o layout: a barra de ações reage ao
+        // evento resetando a direção do scroll, e o scroll de reancoragem não
+        // pode ser interpretado como rolagem do usuário (esconderia os controles
+        // recém-exibidos, inclusive o de fechar a leitura).
+        window.dispatchEvent(new CustomEvent('concursos:reading-focus-change', { detail: { active: next } }));
       });
       if (!next && previousScrollRestoration !== null) {
         const restoration = previousScrollRestoration;
@@ -224,6 +258,7 @@
     };
 
     const syncFromLocation = () => {
+      renderedURL = new URL(location.href);
       const pending = pendingTraversal;
       pendingTraversal = null;
       const layout = pending?.layout ?? captureLayout();
@@ -249,6 +284,7 @@
       const url = new URL(location.href);
       url.hash = '';
       history.replaceState(history.state, '', `${url.pathname}${url.search}`);
+      renderedURL = new URL(location.href);
       setActive(false, layout);
     };
 
@@ -286,12 +322,23 @@
         ? new ResizeObserver(scheduleReadingProgress)
         : null;
     if (progressResizeObserver && articleForObserver) progressResizeObserver.observe(articleForObserver);
+    scope.defer(() => {
+      progressResizeObserver?.disconnect();
+      cancelAnimationFrame(progressFrame);
+      restoreOutside();
+      modalRoot.removeAttribute('role');
+      modalRoot.removeAttribute('aria-modal');
+      modalRoot.removeAttribute('aria-label');
+      modalRoot.removeAttribute('tabindex');
+      if (previousScrollRestoration !== null) history.scrollRestoration = previousScrollRestoration;
+      document.body.classList.remove('reading-focus-active');
+      void leaveReadingFullscreen();
+    });
 
     for (const open of openers) {
       open.addEventListener('click', (event) => {
         if (isFocusHash()) return;
         event.preventDefault();
-        if (fullscreenExit) return;
         opener = open;
         const layout = captureLayout();
         const state =
@@ -300,6 +347,7 @@
         const url = new URL(location.href);
         url.hash = 'focus';
         history.pushState(state, '', `${url.pathname}${url.search}${url.hash}`);
+        renderedURL = new URL(location.href);
         setActive(true, layout);
         requestReadingFullscreen();
       });
@@ -310,7 +358,7 @@
       closeFocus();
     });
 
-    document.addEventListener('keydown', (event) => {
+    scope.on(document, 'keydown', (event) => {
       if (!active) return;
       if (event.key === 'Escape') {
         if (event.defaultPrevented || root.querySelector('.reading-customizer-panel:not([hidden])')) return;
@@ -323,7 +371,7 @@
       const focusable = focusableElements();
       if (focusable.length === 0) {
         event.preventDefault();
-        root.focus({ preventScroll: true });
+        modalRoot.focus({ preventScroll: true });
         return;
       }
 
@@ -333,7 +381,7 @@
         event.shiftKey &&
         (document.activeElement === root ||
           document.activeElement === first ||
-          !root.contains(document.activeElement))
+           (!root.contains(document.activeElement) && !player?.contains(document.activeElement)))
       ) {
         event.preventDefault();
         last.focus();
@@ -343,17 +391,33 @@
       }
     });
 
-    window.addEventListener('popstate', syncFromLocation);
-    window.addEventListener('hashchange', syncFromLocation);
-    window.addEventListener('scroll', scheduleReadingProgress, { passive: true });
-    window.addEventListener('resize', scheduleReadingProgress, { passive: true });
-    window.addEventListener('concursos:reading-focus-change', scheduleReadingProgress);
-    document.addEventListener('fullscreenchange', () => {
-      if (document.fullscreenElement !== fullscreenTarget && !fullscreenRequest) {
+    // #focus é estado desta tela. O guard instalado no <head> intercepta o
+    // popstate antes do router para que o subpasso de histórico local não troque
+    // o documento; aqui só tratamos a navegação já interceptada.
+    const handleFocusPopstate = (): boolean => {
+      const to = new URL(location.href);
+      if (renderedURL.origin !== to.origin || renderedURL.pathname !== to.pathname ||
+        renderedURL.search !== to.search || renderedURL.hash === to.hash ||
+        (renderedURL.hash !== '#focus' && to.hash !== '#focus')) return false;
+      if (!pendingTraversal) pendingTraversal = { layout: captureLayout() };
+      syncFromLocation();
+      return true;
+    };
+    setFocusPopstateHandler(handleFocusPopstate);
+    scope.defer(() => setFocusPopstateHandler(null));
+    scope.on(window, 'hashchange', syncFromLocation);
+    scope.on(window, 'scroll', scheduleReadingProgress, { passive: true });
+    scope.on(window, 'resize', scheduleReadingProgress, { passive: true });
+    scope.on(window, 'concursos:reading-focus-change', scheduleReadingProgress);
+    scope.on(document, 'fullscreenchange', () => {
+      // Uma saída que nós mesmos iniciamos (e que pode estar apenas aguardando
+      // o retorno do modo) não pode descartar o desejo de fullscreen; só uma
+      // saída nativa, sem operação nossa em curso, encerra a intenção.
+      if (document.fullscreenElement !== fullscreenTarget && !fullscreenRequest && !fullscreenExit) {
         fullscreenDesired = false;
       }
     });
-    window.addEventListener('concursos:subject-unread', () => {
+    scope.on(window, 'concursos:subject-unread', () => {
       void leaveReadingFullscreen();
     });
 
@@ -361,4 +425,5 @@
     root.setAttribute('data-reading-focus-ready', '');
     scheduleReadingProgress();
   }
+  });
 </script>

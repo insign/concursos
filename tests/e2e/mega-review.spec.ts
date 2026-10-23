@@ -38,10 +38,7 @@ test('links and renders an optional mega review with rich Markdown', async ({ pa
   await expect(page.locator('pre.mermaid')).toHaveAttribute('data-render-status', 'success', { timeout: 20_000 });
   await expect(page.locator('[data-navigation-root]')).toHaveCount(0);
   await expect(page.locator('.subject-tabs')).toHaveCount(0);
-  await expect(page.locator('meta[http-equiv="content-security-policy"]')).toHaveAttribute(
-    'content',
-    /script-src 'self' [^;]*'sha256-/,
-  );
+  expect(response?.headers()['content-security-policy']).toMatch(/script-src 'self' [^;]*'sha256-/);
   expect((await request.get(reviewPath)).status()).toBe(200);
 
   await page.emulateMedia({ media: 'print' });

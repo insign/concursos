@@ -5,7 +5,7 @@ export interface PwaReloadEnvironment {
   fetchCurrent(url: string): Promise<{ ok: boolean }>;
   deleteRuntimePageEntry(url: string): Promise<unknown>;
   settleWrites(): Promise<void>;
-  reloadPage(): void;
+  reloadPage(): void | Promise<void>;
 }
 
 const WARM_FETCH_TIMEOUT_MS = 4000;
@@ -37,7 +37,7 @@ export async function reloadBypassingCache(
       // Evicção best-effort; nunca bloqueia o reload.
     }
   }
-  environment.reloadPage();
+  await environment.reloadPage();
 }
 
 export function browserPwaReloadEnvironment(): PwaReloadEnvironment {
@@ -48,6 +48,7 @@ export function browserPwaReloadEnvironment(): PwaReloadEnvironment {
       const timeout = setTimeout(() => controller.abort(), WARM_FETCH_TIMEOUT_MS);
       try {
         return await fetch(url, {
+          headers: { 'X-PWA-Offline': '1' },
           cache: 'reload',
           credentials: 'same-origin',
           signal: controller.signal,

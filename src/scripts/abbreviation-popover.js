@@ -1,5 +1,7 @@
 // @ts-check
 
+/** @param {AbortSignal} signal */
+export function mountAbbreviationPopover(signal) {
 const triggers = Array.from(
   document.querySelectorAll('.reading-surface article abbr[title]'),
 ).filter((trigger) => trigger instanceof HTMLElement);
@@ -161,15 +163,22 @@ if (triggers.length > 0) {
         event.composedPath().includes(active.tooltip)
       ) return;
       close(active);
-    }, { capture: true });
+    }, { capture: true, signal });
     window.addEventListener('keydown', (event) => {
       if (event.key !== 'Escape' || !active) return;
       event.preventDefault();
       event.stopImmediatePropagation();
       dismissed = active;
       close(active);
-    }, { capture: true });
-    window.addEventListener('scroll', schedulePosition, { capture: true, passive: true });
-    window.addEventListener('resize', schedulePosition, { passive: true });
+    }, { capture: true, signal });
+    window.addEventListener('scroll', schedulePosition, { capture: true, passive: true, signal });
+    window.addEventListener('resize', schedulePosition, { passive: true, signal });
   }
+  return () => {
+    cancelClose();
+    if (positionFrame) cancelAnimationFrame(positionFrame);
+    for (const { tooltip } of popovers) tooltip.remove();
+  };
+}
+return () => {};
 }

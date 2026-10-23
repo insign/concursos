@@ -23,6 +23,8 @@ const { contestStorageId } = Astro.props;
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  import { navigate } from 'astro:transitions/client';
   import { getActiveAlias } from '../lib/identity';
   import { getNavigationContestRecord } from '../lib/navigation-db';
   import { whenNavigationReady } from '../lib/navigation-runtime';
@@ -31,6 +33,7 @@ const { contestStorageId } = Astro.props;
     newestContestPoint,
   } from '../lib/navigation';
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLElement>('[data-contest-resume-reading]').forEach((root) => {
     const contestStorageId = root.dataset.contestStorageId!;
     const button = root.querySelector<HTMLButtonElement>('[data-resume-reading]')!;
@@ -58,7 +61,7 @@ const { contestStorageId } = Astro.props;
       const profileId = getActiveAlias();
       if (!profileId) return;
       sessionStorage.setItem(navigationPendingRouteKey(profileId), route);
-      location.assign(`${route}#focus`);
+      void navigate(`${route}#focus`);
     };
 
     const refresh = async (hideWhileLoading = false) => {
@@ -140,12 +143,13 @@ const { contestStorageId } = Astro.props;
       }
     });
 
-    window.addEventListener('concursos:navigation-ready', refreshFromEvent);
-    window.addEventListener('concursos:navigation-updated', refreshFromEvent);
-    window.addEventListener('concursos:navigation-synced', refreshFromEvent);
-    window.addEventListener('concursos:profile-changed', refreshFromEvent);
-    window.addEventListener('focus', refreshFromEvent);
-    window.addEventListener('pageshow', refreshFromEvent);
+    scope.on(window, 'concursos:navigation-ready', refreshFromEvent);
+    scope.on(window, 'concursos:navigation-updated', refreshFromEvent);
+    scope.on(window, 'concursos:navigation-synced', refreshFromEvent);
+    scope.on(window, 'concursos:profile-changed', refreshFromEvent);
+    scope.on(window, 'focus', refreshFromEvent);
+    scope.on(window, 'pageshow', refreshFromEvent);
     void refresh(true);
+  });
   });
 </script>

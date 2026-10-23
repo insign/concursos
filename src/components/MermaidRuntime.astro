@@ -1,10 +1,12 @@
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   declare global {
     interface Window {
       mermaidReady: Promise<void>;
     }
   }
 
+  onPageMount((scope) => {
   const diagrams = Array.from(document.querySelectorAll<HTMLElement>('pre.mermaid'));
 
   function waitForDiagram(diagram: HTMLElement): Promise<void> {
@@ -50,11 +52,12 @@
       const timeout = window.setTimeout(() => {
         finish('error');
       }, 15_000);
+      scope.defer(() => { observer.disconnect(); clearTimeout(timeout); resolve(); });
 
       inspect();
     });
   }
 
   window.mermaidReady = Promise.all(diagrams.map(waitForDiagram)).then(() => undefined);
-
+  });
 </script>

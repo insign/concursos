@@ -28,6 +28,7 @@ import {
 import { requestCompleteProfileSync } from './simulados-profile-sync';
 import { createResolutionDialog } from './resolutions';
 import { loadResolutionCatalog } from './resolution-catalog';
+import { onPageMount, type PageScope } from './page-lifecycle';
 
 function query<T extends Element>(selector: string): T | null {
   return document.querySelector<T>(selector);
@@ -40,7 +41,7 @@ function formatDate(value: string): string {
   }).format(new Date(value));
 }
 
-function initializeSimulados(): void {
+function initializeSimulados(scope: PageScope): void {
   const alias = getActiveAlias();
   const form = query<HTMLFormElement>('[data-simulado-form]');
   const aliasWarning = query<HTMLElement>('[data-alias-warning]');
@@ -492,7 +493,7 @@ function initializeSimulados(): void {
       );
       activeDocument = saved;
       await saveSummaryAndScheduleSync(saved);
-      history.pushState(null, '', `/simulados/?id=${encodeURIComponent(simulationId)}`);
+      history.pushState(history.state, '', `/simulados/?id=${encodeURIComponent(simulationId)}`);
       await renderRecent();
       renderDocument(saved, documentId);
       setStatus('Simulado criado e salvo localmente.');
@@ -554,14 +555,14 @@ function initializeSimulados(): void {
       updateConfigurationState();
     });
   });
-  window.addEventListener('popstate', () => void loadRequestedDocument());
-  window.addEventListener('concursos:profile-changed', () => location.reload());
-  window.addEventListener('concursos:simulados-updated', (event) => {
+  scope.on(window, 'popstate', () => void loadRequestedDocument());
+  scope.on(window, 'concursos:profile-changed', () => location.reload());
+  scope.on(window, 'concursos:simulados-updated', (event) => {
     if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) {
       void renderRecent();
     }
   });
-  window.addEventListener('concursos:simulados-synced', (event) => {
+  scope.on(window, 'concursos:simulados-synced', (event) => {
     if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) {
       void renderRecent();
     }
@@ -585,4 +586,4 @@ function initializeSimulados(): void {
   })();
 }
 
-if (typeof document !== 'undefined') initializeSimulados();
+onPageMount(initializeSimulados);

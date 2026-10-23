@@ -43,8 +43,9 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  import { startContestDownload } from '../lib/offline-download-runtime';
   import {
-    downloadContestPackage,
     getOfflineContestRecord,
     markOfflineMediaIncomplete,
     offlinePackageManifestSchema,
@@ -66,6 +67,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
   }
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLElement>('[data-offline-package]').forEach((root) => {
     const contestStorageId = root.dataset.contestStorageId!;
     const contestTitle = root.dataset.contestTitle!;
@@ -385,9 +387,10 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
           : size
             ? `Baixando aproximadamente ${size}...`
             : 'Baixando concurso...';
-        await downloadContestPackage(
+        await startContestDownload(
           manifest,
           ({ completed, total, fetched, copied }) => {
+            if (scope.signal.aborted) return;
             progress.max = total;
             progress.value = completed;
             if (fetched !== undefined && copied !== undefined && copied > 0) {
@@ -438,14 +441,14 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
       const refreshOnVisible = () => {
         if (document.visibilityState === 'visible') void renderAvailability();
       };
-      document.addEventListener('visibilitychange', refreshOnVisible);
-      window.addEventListener('online', () => void renderAvailability());
-      window.addEventListener('offline', () => void renderAvailability());
-      window.addEventListener('pageshow', () => void renderAvailability());
-      window.addEventListener('concursos:offline-packages-changed', () => void renderAvailability());
+      scope.on(document, 'visibilitychange', refreshOnVisible);
+      scope.on(window, 'online', () => void renderAvailability());
+      scope.on(window, 'offline', () => void renderAvailability());
+      scope.on(window, 'pageshow', () => void renderAvailability());
+      scope.on(window, 'concursos:offline-packages-changed', () => void renderAvailability());
     }
 
-    subscribeDownloadEvents((event) => {
+    scope.defer(subscribeDownloadEvents((event) => {
       if (event.contestStorageId !== contestStorageId) return;
       if (event.phase === 'media') {
         if (event.type === 'started') {
@@ -518,6 +521,7 @@ const mediaInventoryUrl = `/offline-media/${contestStorageId}.json`;
         window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
       }
       void renderAvailability();
-    });
+    }));
+  });
   });
 </script>

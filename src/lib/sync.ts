@@ -1065,6 +1065,10 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
   }
 
   const operation = enqueue(() =>
+    // A sincronização de navegação/simulados usa o mesmo lease. Esperar um pouco
+    // em vez de desistir na primeira tentativa evita perder um pedido legítimo
+    // (por exemplo, uma preferência recém-editada) quando outra sincronização
+    // ainda está finalizando.
     runWithLease(async (ensureLease) => {
       announce('syncing', 'Sincronizando alterações pendentes...', profileId);
       let failures = 0;
@@ -1337,7 +1341,7 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
         failures === 0 ? 'Alterações sincronizadas.' : `${failures} documento(s) continuam pendentes.`,
         profileId,
       );
-    }),
+    }, 10, 500),
   );
   activeProfileSyncs.set(profileId, operation);
   void operation.finally(() => {

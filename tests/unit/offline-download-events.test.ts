@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import {
   DOWNLOAD_EVENTS_CHANNEL,
   publishDownloadEvent,
@@ -6,6 +6,25 @@ import {
 } from '../../src/lib/offline-download-events';
 
 describe('offline download events', () => {
+  it('replays an active job after remount without BroadcastChannel and drops terminal snapshots', async () => {
+    vi.resetModules();
+    vi.stubGlobal('BroadcastChannel', undefined);
+    try {
+      const events = await import('../../src/lib/offline-download-events');
+      events.publishDownloadEvent({ type: 'progress', contestStorageId: 'remount', phase: 'media', completed: 0, total: 2, downloadedBytes: 100 });
+      const received: string[] = [];
+      const unsubscribe = events.subscribeDownloadEvents((event) => received.push(event.type));
+      expect(received).toEqual(['progress']);
+      events.publishDownloadEvent({ type: 'completed', contestStorageId: 'remount', phase: 'media' });
+      expect(received).toEqual(['progress', 'completed']);
+      unsubscribe();
+      const fresh = vi.fn();
+      events.subscribeDownloadEvents(fresh)();
+      expect(fresh).not.toHaveBeenCalled();
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
   it('delivers published events to subscribers', async () => {
     const received: unknown[] = [];
     const unsubscribe = subscribeDownloadEvents((event) => received.push(event));

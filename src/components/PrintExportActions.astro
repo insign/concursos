@@ -107,6 +107,7 @@ const config = JSON.stringify({
 </div>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { PRINT_SECTIONS, SECTION_LABELS, activeToSection, scopeLabel } from '../lib/print-export';
   import { loadPrintPreferences, savePrintPreferences } from '../lib/print-preferences';
   import {
@@ -279,6 +280,7 @@ const config = JSON.stringify({
     return response.text();
   }
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLElement>('[data-print-export]').forEach((root) => {
     const configScript = root.querySelector<HTMLScriptElement>('[data-print-config]');
     if (!configScript?.textContent) return;
@@ -499,9 +501,10 @@ const config = JSON.stringify({
           dialog.close();
           setStatus('');
           const done = () => cleanupBundle(previousTitle);
-          window.addEventListener('afterprint', done, { once: true });
-          window.addEventListener('pagehide', done, { once: true });
-          window.setTimeout(done, 60_000);
+          scope.on(window, 'afterprint', done, { once: true });
+          scope.on(window, 'pagehide', done, { once: true });
+          const cleanupTimer = window.setTimeout(done, 60_000);
+          scope.defer(() => { clearTimeout(cleanupTimer); done(); });
           window.print();
         } catch {
           setStatus('Não foi possível preparar a impressão. Tente de novo.');
@@ -510,6 +513,7 @@ const config = JSON.stringify({
         }
       })();
     });
+  });
   });
 </script>
 

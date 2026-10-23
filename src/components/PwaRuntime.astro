@@ -6,6 +6,7 @@
   import { createPwaUpdateCheckScheduler } from '../lib/pwa-update-check';
   import { createPwaUpdateController, runAfterLocalWritesSettled, type PwaStatusDetail } from '../lib/pwa-update';
   import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
+  import { waitForRuntimeIdle, getRuntimeActivityRevision, hasRuntimeActivity, runAfterRuntimeIdle } from '../lib/runtime-activity';
 
   const emit = (detail: PwaStatusDetail) => {
     window.dispatchEvent(new CustomEvent('concursos:pwa-status', { detail }));
@@ -14,8 +15,10 @@
   const reloadEnvironment: PwaReloadEnvironment = {
     ...browserPwaReloadEnvironment(),
     settleWrites: () => runAfterLocalWritesSettled(() => undefined),
+    reloadPage: () => runAfterRuntimeIdle(() => window.location.reload()),
   };
   const controller = createPwaUpdateController({
+    activity: { waitUntilIdle: waitForRuntimeIdle, revision: getRuntimeActivityRevision, isActive: hasRuntimeActivity },
     activate: () => updateServiceWorker(true),
     reload: () => reloadBypassingCache(reloadEnvironment, window.location.href),
     emit,

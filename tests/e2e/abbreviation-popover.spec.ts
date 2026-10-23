@@ -13,7 +13,7 @@ async function installFixture(
   title = 'Tribunal de Contas do Estado',
 ): Promise<void> {
   await page.route('**/__tests__/abbreviation-popover.js', (route) =>
-    route.fulfill({ body: runtimeSource, contentType: 'application/javascript' }),
+    route.fulfill({ body: `${runtimeSource}\nmountAbbreviationPopover(new AbortController().signal);`, contentType: 'application/javascript' }),
   );
   await page.locator('.reading-surface article p').first().evaluate((paragraph, options) => {
     const abbreviation = document.createElement('abbr');

@@ -24,6 +24,10 @@ const { examDate } = Astro.props;
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  onPageMount((scope) => {
+  let midnightTimer = 0;
+  scope.defer(() => clearTimeout(midnightTimer));
   function calendarDateToEpochDays(isoDate: string): number {
     const year = Number(isoDate.slice(0, 4));
     const month = Number(isoDate.slice(5, 7));
@@ -64,7 +68,7 @@ const { examDate } = Astro.props;
     }
   }
 
-  document.addEventListener('visibilitychange', () => {
+  scope.on(document, 'visibilitychange', () => {
     if (!document.hidden) updateAllCountdowns();
   });
 
@@ -72,11 +76,12 @@ const { examDate } = Astro.props;
     const now = new Date();
     const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
     const delay = Math.max(0, nextMidnight.getTime() - now.getTime());
-    window.setTimeout(() => {
+    midnightTimer = window.setTimeout(() => {
       updateAllCountdowns();
       scheduleMidnightRefresh();
     }, delay);
   }
 
   scheduleMidnightRefresh();
+  });
 </script>

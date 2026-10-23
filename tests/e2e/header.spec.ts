@@ -144,8 +144,15 @@ test('routes a PWA status retry back to the PWA controller', async ({ page }) =>
   const status = page.locator('[data-application-status]');
   await expect(status).toHaveAttribute('data-source', 'pwa');
   await status.getByRole('button', { name: 'Tentar novamente' }).click();
-  await expect.poll(() => page.evaluate(() =>
-    Number(localStorage.getItem('test:pwa-retries')))).toBe(1);
+  // Sem Service Worker registrado, o retry da falha de registro recarrega a
+  // página; o contador vive no localStorage e sobrevive à navegação.
+  await expect.poll(async () => {
+    try {
+      return await page.evaluate(() => Number(localStorage.getItem('test:pwa-retries')));
+    } catch {
+      return -1;
+    }
+  }).toBe(1);
 });
 
 test('preserves the deferred install prompt behavior in the icon control', async ({ page }) => {

@@ -41,6 +41,7 @@ export async function saveMediaPosition(
   subjectStorageId: string,
   mediaId: string,
   position: Omit<MediaPosition, 'updatedAt'>,
+  trackActivity = true,
 ): Promise<void> {
   if (!context.profileId || !context.documentId) return;
   const record = await getLocalMediaRecord(context.documentId);
@@ -52,10 +53,14 @@ export async function saveMediaPosition(
     documentId: context.documentId,
     updateCurrent: (existing) => {
       const base = existing ?? createEmptyMediaDocument(contestStorageId, subjectStorageId);
-      return upsertMediaPosition(base, mediaId, position, updatedAt);
+      return upsertMediaPosition(base, mediaId, {
+        ...position,
+        // Um snapshot iniciado antes da conclusão não pode desmarcá-la ao chegar depois.
+        completed: position.completed || base.positions[mediaId]?.completed === true,
+      }, updatedAt);
     },
   });
-  markLocalStatePending();
+  if (trackActivity) markLocalStatePending();
 }
 
 export async function saveMediaSelection(

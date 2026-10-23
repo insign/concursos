@@ -139,6 +139,7 @@ function formatPerWeek(value: number): string {
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { daysUntilExam, formatExamDatePtBr, getLocalTodayIso } from '../lib/exam-date';
   import { getActiveAlias } from '../lib/identity';
   import { loadStudied } from '../lib/studied';
@@ -173,6 +174,9 @@ function formatPerWeek(value: number): string {
     return Number.isInteger(value) ? String(value) : value.toFixed(1).replace('.', ',');
   }
 
+  onPageMount((scope) => {
+  let midnightTimer = 0;
+  scope.defer(() => clearTimeout(midnightTimer));
   const roots = Array.from(
     document.querySelectorAll<HTMLElement>('[data-study-forecast]:not([data-forecast-ready])'),
   ).flatMap((root) => {
@@ -399,15 +403,15 @@ function formatPerWeek(value: number): string {
       const now = new Date();
       const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
       const delay = Math.max(0, nextMidnight.getTime() - now.getTime());
-      window.setTimeout(() => {
+      midnightTimer = window.setTimeout(() => {
         refresh();
         scheduleMidnightRefresh();
       }, delay);
     };
 
-    window.addEventListener('concursos:studied-updated', () => refresh());
-    window.addEventListener('concursos:profile-changed', () => refresh());
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:studied-updated', () => refresh());
+    scope.on(window, 'concursos:profile-changed', () => refresh());
+    scope.on(window, 'concursos:sync-status', (event) => {
       const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
       if (
         (!detail?.profileId || detail.profileId === getActiveAlias()) &&
@@ -415,15 +419,16 @@ function formatPerWeek(value: number): string {
       )
         refresh();
     });
-    window.addEventListener('storage', (event) => {
+    scope.on(window, 'storage', (event) => {
       if (event.key === 'concursos:active-alias') refresh();
     });
-    window.addEventListener('pageshow', () => refresh());
-    window.addEventListener('focus', () => refresh());
-    document.addEventListener('visibilitychange', () => {
+    scope.on(window, 'pageshow', () => refresh());
+    scope.on(window, 'focus', () => refresh());
+    scope.on(document, 'visibilitychange', () => {
       if (document.visibilityState === 'visible') refresh();
     });
     refresh();
     scheduleMidnightRefresh();
   }
+  });
 </script>

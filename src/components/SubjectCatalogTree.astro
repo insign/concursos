@@ -103,12 +103,14 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
 </ol>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import {
     CATALOG_GROUPS_STORAGE_KEY,
     parseCollapsedGroups,
     serializeCollapsedGroups,
   } from '../lib/catalog-groups';
 
+  onPageMount(() => {
   document
     .querySelectorAll<HTMLElement>('[data-subject-tree-controls]:not([data-subject-tree-ready])')
     .forEach((controls) => {
@@ -183,9 +185,11 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
       controls.hidden = false;
       controls.dataset.subjectTreeReady = '';
     });
+  });
 </script>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import { getNavigationContestRecord } from '../lib/navigation-db';
   import { whenNavigationReady } from '../lib/navigation-runtime';
@@ -200,6 +204,7 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
   }
 
   // Coletado uma vez; o estado (rótulo/rota) é recalculado a cada evento.
+  onPageMount((scope) => {
   const resumeLinks: ResumeLink[] = Array.from(
     document.querySelectorAll<HTMLAnchorElement>('.subject-reading-link'),
   ).flatMap((link) => {
@@ -280,12 +285,13 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
       if (entry.defaultHref) entry.link.setAttribute('href', entry.defaultHref);
     }
 
-    window.addEventListener('concursos:navigation-ready', () => void enhanceResumeLinks());
-    window.addEventListener('concursos:navigation-updated', () => void enhanceResumeLinks());
-    window.addEventListener('concursos:navigation-synced', () => void enhanceResumeLinks());
-    window.addEventListener('concursos:profile-changed', () => void enhanceResumeLinks());
-    window.addEventListener('focus', () => void enhanceResumeLinks());
-    window.addEventListener('pageshow', () => void enhanceResumeLinks());
+    scope.on(window, 'concursos:navigation-ready', () => void enhanceResumeLinks());
+    scope.on(window, 'concursos:navigation-updated', () => void enhanceResumeLinks());
+    scope.on(window, 'concursos:navigation-synced', () => void enhanceResumeLinks());
+    scope.on(window, 'concursos:profile-changed', () => void enhanceResumeLinks());
+    scope.on(window, 'focus', () => void enhanceResumeLinks());
+    scope.on(window, 'pageshow', () => void enhanceResumeLinks());
     if (getActiveAlias()) void enhanceResumeLinks();
   }
+  });
 </script>

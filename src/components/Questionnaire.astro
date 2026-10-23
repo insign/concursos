@@ -90,12 +90,14 @@ const serializedConfig = JSON.stringify({
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { mountQuestionnaire, type QuestionnaireConfig } from '../lib/questionnaire-controller';
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
     const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
     if (data) {
-      void mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig)
+      void mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig, scope)
         .then(() => {
           root.dataset.navigationReady = 'true';
           root.dispatchEvent(new CustomEvent('concursos:questionnaire-ready', { bubbles: true }));
@@ -106,15 +108,19 @@ const serializedConfig = JSON.stringify({
         });
     }
   });
+  });
 </script>
 
 {resolutions.length > 0 && (
   <script>
+    import { onPageMount } from '../lib/page-lifecycle';
     import { mountQuestionnaireResolutions } from '../lib/questionnaire-resolutions';
 
+    onPageMount(() => {
     document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
       const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
       if (data) mountQuestionnaireResolutions(root, JSON.parse(data));
+    });
     });
   </script>
 )}

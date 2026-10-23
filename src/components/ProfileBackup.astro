@@ -32,6 +32,7 @@
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import {
     createProfileBackup,
@@ -41,6 +42,7 @@
   } from '../lib/profile-backup';
   import { requestProfileSync } from '../lib/sync';
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLFormElement>('[data-backup-form]').forEach((form) => {
     let profileId = getActiveAlias();
     const exportButton = form.querySelector<HTMLButtonElement>('[data-export-backup]')!;
@@ -160,9 +162,10 @@
       }
     });
 
-    window.addEventListener('storage', (event) => {
+    scope.on(window, 'storage', (event) => {
       if (event.key === 'concursos:active-alias') window.location.reload();
     });
-    window.addEventListener('concursos:profile-changed', () => window.location.reload());
+    scope.on(window, 'concursos:profile-changed', () => window.location.reload());
+  });
   });
 </script>

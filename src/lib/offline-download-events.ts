@@ -11,12 +11,25 @@ export type DownloadEvent =
 type Publish = (payload: DownloadEvent) => void;
 
 let publisher: BroadcastChannel | null = null;
+const listeners = new Set<Publish>();
+const latest = new Map<string, DownloadEvent>();
+
+function deliver(payload: DownloadEvent): void {
+  if (payload.type === 'started' || payload.type === 'progress') latest.set(payload.contestStorageId, payload);
+  else latest.delete(payload.contestStorageId);
+  for (const listener of listeners) {
+    try { listener(payload); } catch { /* A interface não governa a transferência. */ }
+  }
+}
 
 function channel(): BroadcastChannel | null {
   if (publisher) return publisher;
   if (typeof BroadcastChannel === 'undefined') return null;
   try {
     publisher = new BroadcastChannel(DOWNLOAD_EVENTS_CHANNEL);
+    publisher.addEventListener('message', (event: MessageEvent<unknown>) => {
+      if (isDownloadEvent(event.data)) deliver(event.data);
+    });
     return publisher;
   } catch {
     return null;
@@ -24,6 +37,7 @@ function channel(): BroadcastChannel | null {
 }
 
 export function publishDownloadEvent(payload: DownloadEvent): void {
+  deliver(payload);
   try {
     channel()?.postMessage(payload);
   } catch {
@@ -52,18 +66,8 @@ function isDownloadEvent(data: unknown): data is DownloadEvent {
 }
 
 export function subscribeDownloadEvents(handler: Publish): () => void {
-  // Instância própria: BroadcastChannel não entrega mensagens ao próprio
-  // emissor, e o emissor deste contexto usa o singleton de publicação.
-  if (typeof BroadcastChannel === 'undefined') return () => undefined;
-  const bus = new BroadcastChannel(DOWNLOAD_EVENTS_CHANNEL);
-  const listener = (event: MessageEvent) => {
-    const data = event.data as unknown;
-    if (!isDownloadEvent(data)) return;
-    handler(data);
-  };
-  bus.addEventListener('message', listener);
-  return () => {
-    bus.removeEventListener('message', listener);
-    bus.close();
-  };
+  channel();
+  listeners.add(handler);
+  for (const event of latest.values()) handler(event);
+  return () => { listeners.delete(handler); };
 }

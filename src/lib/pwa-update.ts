@@ -29,6 +29,7 @@ export type PwaErrorPhase = 'registration' | 'durability' | 'activation' | 'relo
 export type PwaStatusPayload =
   | { state: 'idle' }
   | { state: 'update-found' }
+  | { state: 'waiting-for-activity' }
   | { state: 'waiting-for-durability' }
   | { state: 'activating' }
   | { state: 'reloading' }
@@ -43,6 +44,11 @@ export type PwaStatusDetail = PwaStatusPayload & { revision?: number };
 
 interface PwaUpdateControllerOptions {
   waitForWrites?: () => Promise<void>;
+  activity?: {
+    waitUntilIdle: () => Promise<void>;
+    isActive: () => boolean;
+    revision: () => number;
+  };
   activate: () => void | Promise<void>;
   reload: () => void | Promise<void>;
   emit: (detail: PwaStatusDetail) => void;
@@ -91,7 +97,17 @@ export function createPwaUpdateController(
       if (request === 'activation') lastActivationSucceeded = null;
       if (request === 'reload' && requiresActivation && lastActivationSucceeded !== true) return;
       emit({ state: 'waiting-for-durability' }, operationStatusRevision);
-      await waitForWrites();
+      // A atividade pode recomeçar durante o flush; só ativar após ambos
+      // os gates estabilizarem na mesma revisão, sem timeout que corte áudio.
+      while (true) {
+        if (options.activity) {
+          if (options.activity.isActive()) emit({ state: 'waiting-for-activity' }, operationStatusRevision);
+          await options.activity.waitUntilIdle();
+        }
+        const activityRevision = options.activity?.revision();
+        await waitForWrites();
+        if (!options.activity?.isActive() && activityRevision === options.activity?.revision()) break;
+      }
       phase = request;
       emit({ state: request === 'activation' ? 'activating' : 'reloading' }, operationStatusRevision);
       await (request === 'activation' ? options.activate() : options.reload());

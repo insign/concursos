@@ -23,15 +23,18 @@ const { contestStorageId, subjectStorageId } = Astro.props;
 </button>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
   import { requestProfileSync } from '../lib/sync';
 
+  onPageMount((scope) => {
   const button = document.querySelector<HTMLButtonElement>('[data-studied-toggle]');
   const alias = getActiveAlias();
   const label = button?.querySelector<HTMLElement>('.studied-toggle-label') ?? null;
   const studiedBroadcast =
     'BroadcastChannel' in window ? new BroadcastChannel('concursos-studied') : null;
+  scope.defer(() => studiedBroadcast?.close());
 
   if (button && label && alias) {
     const subjectId = button.dataset.subjectId!;
@@ -79,12 +82,12 @@ const { contestStorageId, subjectStorageId } = Astro.props;
       }
     });
 
-    window.addEventListener('concursos:studied-updated', (event) => {
+    scope.on(window, 'concursos:studied-updated', (event) => {
       if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) {
         void applyFromStore();
       }
     });
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:sync-status', (event) => {
       const state = (event as CustomEvent<{ state?: string }>).detail?.state;
       if (state === 'synced' || state === 'error') void applyFromStore();
     });
@@ -93,4 +96,5 @@ const { contestStorageId, subjectStorageId } = Astro.props;
     // em modo de leitura de leitores de tela), não em `title` (que um botão disabled não expõe).
     label.textContent = 'Marcar como concluído (defina um alias em Configurações)';
   }
+  });
 </script>

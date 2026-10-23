@@ -29,8 +29,10 @@ const contestLookup = Object.fromEntries(
 </BaseLayout>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { listOfflineContestRecords } from '../lib/offline-packages';
 
+  onPageMount((scope) => {
   const root = document.querySelector<HTMLElement>('[data-offline-page]');
   if (root) {
     const contests = JSON.parse(root.dataset.contests ?? '{}') as Record<string, { title: string; href: string }>;
@@ -68,10 +70,11 @@ const contestLookup = Object.fromEntries(
       }
     };
 
-    window.addEventListener('online', renderConnection);
-    window.addEventListener('offline', renderConnection);
-    window.addEventListener('concursos:offline-packages-changed', () => void renderDownloads());
+    scope.on(window, 'online', renderConnection);
+    scope.on(window, 'offline', renderConnection);
+    scope.on(window, 'concursos:offline-packages-changed', () => void renderDownloads());
     renderConnection();
     void renderDownloads();
   }
+  });
 </script>

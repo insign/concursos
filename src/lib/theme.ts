@@ -40,3 +40,15 @@ export function resolveTheme(
   if (preference === 'auto') return systemPrefersDark ? 'dark' : 'light';
   return preference;
 }
+
+export function applyStoredTheme(): void {
+  let preference = DEFAULT_THEME_PREFERENCE;
+  try {
+    preference = readThemePreference(localStorage.getItem(THEME_STORAGE_KEY));
+  } catch {
+    // A preferência do sistema continua disponível sem armazenamento local.
+  }
+  const theme = resolveTheme(preference, matchMedia('(prefers-color-scheme: dark)').matches);
+  document.documentElement.dataset.theme = theme;
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', THEME_COLORS[theme]);
+}

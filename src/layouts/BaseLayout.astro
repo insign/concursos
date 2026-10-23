@@ -3,6 +3,8 @@ import Header from '../components/Header.astro';
 import NavigationRuntime from '../components/NavigationRuntime.astro';
 import PwaRuntime from '../components/PwaRuntime.astro';
 import SimuladosSyncRuntime from '../components/SimuladosSyncRuntime.astro';
+import GlobalMediaPlayer from '../components/GlobalMediaPlayer.astro';
+import { ClientRouter } from 'astro:transitions';
 import '../styles/fonts.css';
 import '../styles/global.css';
 import '../styles/print.css';
@@ -43,10 +45,20 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <title>{pageTitle}</title>
+    {/* Precisa ser registrado antes do ClientRouter: ver src/lib/focus-history.ts. */}
+    <script>
+      import { installFocusHistoryGuard } from '../lib/focus-history';
+      installFocusHistoryGuard();
+    </script>
+    <ClientRouter fallback="swap" />
   </head>
   <body class={pageClass || undefined}>
-    {!hideHeader && <Header />}
-    <slot />
+    <div id="app-shell">
+      {!hideHeader && <Header />}
+      <slot />
+      <GlobalMediaPlayer />
+      <p id="navigation-status" role="status" hidden></p>
+    </div>
     {/* Na rota de simulados, o runtime recupera o histórico remoto completo; nas demais rotas,
         ele só acorda quando há uma outbox de simulados pendente. A ordem preserva a recuperação
         detalhada antes da sincronização periódica e mais leve da navegação. */}
@@ -55,3 +67,14 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
     <PwaRuntime />
   </body>
 </html>
+
+<script>
+  import { applyStoredTheme } from '../lib/theme';
+  document.addEventListener('astro:after-swap', applyStoredTheme);
+  window.addEventListener('concursos:navigation-error', (event) => {
+    const status = document.getElementById('navigation-status');
+    if (!status) return;
+    status.hidden = false;
+    status.textContent = (event as CustomEvent<Error>).detail?.message ?? 'Não foi possível abrir a página. Tente novamente.';
+  });
+</script>

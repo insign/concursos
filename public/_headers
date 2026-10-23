@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: base-uri 'self'; connect-src 'self' https://kv.helio.me https://cloudflareinsights.com; font-src 'self' data:; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; img-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; worker-src 'self'
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; script-src 'self' https://static.cloudflareinsights.com 'sha256-qa3TD4AFh7EcKG3WZ9Lk74qsmjRyiQVM3662eOB1ifQ='; script-src-attr 'none'; connect-src 'self' https://kv.helio.me https://cloudflareinsights.com; font-src 'self' data:; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; img-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; worker-src 'self'
   Permissions-Policy: camera=(), geolocation=(), microphone=()
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff

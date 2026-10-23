@@ -18,10 +18,12 @@ const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
 ></span>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import { loadProgress } from '../lib/progress';
   import { formatProgressBadge } from '../lib/progress-badge';
 
+  onPageMount((scope) => {
   const profileId = getActiveAlias();
   if (profileId) {
     const renderProgress = async () => {
@@ -45,14 +47,15 @@ const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
     };
 
     void renderProgress();
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:sync-status', (event) => {
       const state = (event as CustomEvent<{ state?: string }>).detail?.state;
       if (state === 'synced' || state === 'error') void renderProgress();
     });
-    window.addEventListener('concursos:preferences-updated', (event) => {
+    scope.on(window, 'concursos:preferences-updated', (event) => {
       if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === profileId) {
         void renderProgress();
       }
     });
   }
+  });
 </script>

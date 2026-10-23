@@ -22,6 +22,27 @@ const tabLinks = [
 const tabs = (page: Page) => page.getByRole('navigation', { name: 'Navegação do assunto' });
 const actions = (page: Page) => page.getByRole('group', { name: 'Ações do assunto' });
 
+// O router restaura a posição de recargas da mesma entrada com `scroll-behavior: smooth`,
+// então uma rolagem programática disparada durante a animação pode ser parcialmente consumida
+// por ela. Esperar a animação parar evita que o teste meça uma posição intermediária.
+const waitForScrollToSettle = (page: Page) =>
+  page.evaluate(
+    () =>
+      new Promise<void>((resolve) => {
+        let last = -1;
+        let quiet = 0;
+        const timer = setInterval(() => {
+          const current = window.scrollY;
+          quiet = current === last ? quiet + 1 : 0;
+          last = current;
+          if (quiet >= 3) {
+            clearInterval(timer);
+            resolve();
+          }
+        }, 100);
+      }),
+  );
+
 test('keeps the three study modes centered between category navigation controls', async ({ page }) => {
   for (const route of routes) {
     await page.goto(route.path);
@@ -108,6 +129,13 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
   ]) {
     await page.setViewportSize(viewport);
     await page.goto(`${base}/`);
+    // O router preserva o scroll de recargas da mesma entrada de histórico.
+    await waitForScrollToSettle(page);
+    await page.evaluate(() => {
+      document.documentElement.style.scrollBehavior = 'auto';
+      window.scrollTo(0, 0);
+    });
+    await waitForScrollToSettle(page);
     if (viewport.width === 844) {
       await page.locator('[data-reading-focus]').evaluate((element: HTMLElement) => {
         element.style.setProperty('--reading', '92ch');

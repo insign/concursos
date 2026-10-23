@@ -22,6 +22,13 @@ type WorkerScope = typeof globalThis & {
 
 const worker = self as unknown as WorkerScope;
 
+// Este contrato deve preceder até o precache: atualizadores verificam a rede.
+registerRoute(
+  ({ request, url }) => url.origin === worker.location.origin && request.method === 'GET' &&
+    request.headers.get('X-PWA-Offline') === '1',
+  new NetworkOnly(),
+);
+
 precacheAndRoute((self as unknown as WorkerScope).__WB_MANIFEST);
 clientsClaim();
 
@@ -135,7 +142,7 @@ registerRoute(
     (url.pathname === '/navigation-catalog.json' ||
       url.pathname === '/simulados/catalog.json' ||
       url.pathname.startsWith('/simulados/pool/') ||
-      url.pathname.startsWith('/resolucoes/')),
+      (url.pathname.startsWith('/resolucoes/') && url.pathname.endsWith('.json'))),
   async ({ request }) => (await matchActiveContestCaches([request])) ?? fetch(request),
 );
 
@@ -179,14 +186,16 @@ registerRoute(
 );
 
 registerRoute(
-  ({ request, url }) => url.origin === worker.location.origin && request.mode === 'navigate',
+  ({ request, url }) => url.origin === worker.location.origin && request.method === 'GET' &&
+    (request.mode === 'navigate' ||
+      /^\/(?:$|(?:configuracoes|offline|busca|simulados)\/?$|concursos\/[a-z0-9-]+(?:\/[a-z0-9-]+(?:\/(?:questoes|cheat-sheet))?)?\/?$|(?:revisoes|resolucoes)\/[a-z0-9-]+\/[a-z0-9-]+\/?$)/.test(url.pathname)),
   async ({ request, event }) => {
     event.waitUntil(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
     const downloaded = await Promise.race([
       matchDownloadedContest(request),
       new Promise<undefined>((resolve) => setTimeout(() => resolve(undefined), 2000)),
     ]).catch(() => undefined);
-    if (downloaded) {
+    if (downloaded && request.cache !== 'reload') {
       void fetchWithTimeout(request).catch(() => undefined);
       return downloaded;
     }
@@ -195,6 +204,7 @@ registerRoute(
       event.waitUntil(cacheRuntimePage(request, response.clone()).catch(() => undefined));
       return response;
     } catch (error) {
+      if (downloaded) return downloaded;
       const runtime = await matchRuntimePage(request);
       if (runtime) return runtime;
       const offline =

@@ -157,7 +157,7 @@ test('exits after a pending fullscreen request resolves during close', async ({ 
   await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
 });
 
-test('blocks re-entry until a pending fullscreen exit completes', async ({ page }) => {
+test('queues the fullscreen re-entry until a pending exit completes', async ({ page }) => {
   await installFullscreenMock(page, 'exit-pending');
   await page.goto(`${base}/`);
   const open = page.getByRole('link', { name: 'Ler sem distrações' });
@@ -166,16 +166,15 @@ test('blocks re-entry until a pending fullscreen exit completes', async ({ page 
   await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: true });
 
+  // Reabrir durante a saída pendente não descarta o clique: o modo abre na
+  // hora e o fullscreen é re-solicitado quando a saída termina.
   await open.click();
-  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
   expect(await fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: true });
   await page.evaluate(() => {
     (window as typeof window & { __fullscreenTest?: { resolveExit?: () => void } })
       .__fullscreenTest?.resolveExit?.();
   });
-  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
-
-  await open.click();
   await expect.poll(() => fullscreenState(page)).toEqual({ requests: 2, exits: 1, active: true });
 });
 

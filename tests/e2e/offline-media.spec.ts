@@ -94,6 +94,34 @@ test('downloads the media with the contest when the user chooses it', async ({ p
   expect(await cachedMediaPaths(page)).toEqual(Object.values(mediaFiles).map((key) => `/media/${key}`).sort());
 });
 
+test('finishes a media download across internal navigation without BroadcastChannel', async ({ page, context }) => {
+  await context.addInitScript(() => { Reflect.deleteProperty(window, 'BroadcastChannel'); });
+  await installMediaRoute(context);
+  let requested = false;
+  let release = () => {};
+  const held = new Promise<void>((resolve) => { release = resolve; });
+  await context.route(`**/media/${mediaFiles['exemplo-principal.mp3']}`, async (route) => {
+    requested = true;
+    await held;
+    await route.fallback();
+  });
+  try {
+    await page.goto(contestUrl);
+    await waitForServiceWorker(page);
+    await page.locator('[data-offline-media-select]').selectOption('all');
+    await page.getByRole('button', { name: 'Baixar concurso' }).click();
+    await expect.poll(() => requested, { timeout: 30_000 }).toBe(true);
+    await page.locator('a[href="/"]').first().click();
+    await expect(page).toHaveURL('/');
+    release();
+    await page.getByRole('link', { name: 'Concurso Exemplo', exact: true }).click();
+    await expect(page.getByText('Disponível offline com mídias desde')).toBeVisible({ timeout: 30_000 });
+    expect(await cachedMediaPaths(page)).toHaveLength(2);
+  } finally {
+    release();
+  }
+});
+
 test('keeps the media out of the download when the option is not chosen', async ({ page, context }) => {
   await installMediaRoute(context);
   await page.goto(contestUrl);

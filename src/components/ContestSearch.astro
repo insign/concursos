@@ -37,8 +37,11 @@ const inputId = `search-${contestStorageId}`;
 </noscript>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  import { navigate } from 'astro:transitions/client';
   import { searchContest, isOnline } from '../lib/orama-client.ts';
 
+  onPageMount((scope) => {
   const roots = document.querySelectorAll('[data-contest-search]');
   for (const root of roots) {
     const storageId = (root as HTMLElement).dataset.storageId!;
@@ -53,6 +56,7 @@ const inputId = `search-${contestStorageId}`;
     (root as HTMLElement).hidden = false;
 
     let debounce: number | undefined;
+    scope.defer(() => { if (debounce) clearTimeout(debounce); });
     let seq = 0;
     let lastResults: Array<{ slug: string; title: string; excerpt: string; highlightedTitle: string; highlightedExcerpt: string }> = [];
 
@@ -101,7 +105,7 @@ const inputId = `search-${contestStorageId}`;
         // Global checkbox marcado -> redirect para /busca/ em modo global
         const q = encodeURIComponent(term.trim());
         if (q.length < 2) return;
-        window.location.href = `/busca/?q=${q}&concurso=${storageId}&global=1`;
+        void navigate(`/busca/?q=${q}&concurso=${storageId}&global=1`);
         return;
       }
       if (term.trim().length < 2) {
@@ -156,8 +160,8 @@ const inputId = `search-${contestStorageId}`;
       }
     }
     syncGlobalToggle();
-    window.addEventListener('online', syncGlobalToggle);
-    window.addEventListener('offline', syncGlobalToggle);
+    scope.on(window, 'online', syncGlobalToggle);
+    scope.on(window, 'offline', syncGlobalToggle);
 
     globalToggle?.addEventListener('change', () => {
       if (globalToggle.checked && !isOnline()) {
@@ -168,7 +172,7 @@ const inputId = `search-${contestStorageId}`;
       // Se já há termo, redirect imediato para global
       if (globalToggle.checked && input.value.trim().length >= 2) {
         const q = encodeURIComponent(input.value.trim());
-        window.location.href = `/busca/?q=${q}&concurso=${storageId}&global=1`;
+        void navigate(`/busca/?q=${q}&concurso=${storageId}&global=1`);
       }
     });
 
@@ -176,6 +180,7 @@ const inputId = `search-${contestStorageId}`;
     root.setAttribute('data-pagefind-ignore', '');
     root.setAttribute('data-orama-ignore', '');
   }
+  });
 </script>
 
 <style>

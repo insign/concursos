@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import { evaluateBuildBudget } from '../../scripts/lib/build-budget.mjs';
 import { mapConcurrent, resolveConcurrency } from '../../scripts/lib/concurrency.mjs';
 import { isMegaReviewRouteFile, isSubjectMarkerFile } from '../../scripts/lib/estimate-counting.mjs';
-import { finalizeSecurityHtml } from '../../scripts/lib/finalize-security.mjs';
+import { finalizeSecurityHtml, validateSecurityHeaders } from '../../scripts/lib/finalize-security.mjs';
 import { buildOfflineManifest, isInventoryAsset, resourceHash } from '../../scripts/lib/offline-inventory-builder.mjs';
 import { appendBuildStamp, resolveBuildId, stampServiceWorker } from '../../scripts/lib/build-stamp.mjs';
 import { scriptReferences } from '../../scripts/lib/precache-dependencies.mjs';
@@ -18,26 +18,35 @@ describe('build scripts', () => {
     expect(resolveConcurrency('500')).toBe(64);
   });
 
-  it('finalizes style-src without weakening script-src', () => {
-    const script = "localStorage.getItem('concursos:theme')";
-    const hash = createHash('sha256').update(script).digest('base64');
-    const source = `<meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-${hash}'; style-src 'self';"><script>${script}</script>`;
-    const result = finalizeSecurityHtml(source, 'dist/index.html');
+  const layout = readFileSync(new URL('../../src/layouts/BaseLayout.astro', import.meta.url), 'utf8');
+  const theme = layout.match(/<script is:inline>([\s\S]*?)<\/script>/)![1];
+  const html = `<script>${theme}</script><script type="module" src="/_astro/app.js"></script>`;
+  const headers = readFileSync(new URL('../../public/_headers', import.meta.url), 'utf8');
+
+  it('validates the fixed HTTP policy and the exact approved theme', () => {
+    expect(validateSecurityHeaders(headers)).toContain("script-src 'self'");
+    const result = finalizeSecurityHtml(html, 'dist/index.html');
     expect(result.themeHashVerified).toBe(true);
-    expect(result.html).toContain("style-src 'self' 'unsafe-inline';");
-    expect(result.html).not.toContain("script-src 'self' 'unsafe-inline'");
+    expect(result.html).toBe(html);
   });
 
-  it('fails closed for unsafe script policies', () => {
-    const source = `<meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-x' 'unsafe-eval'; style-src 'self';">`;
-    expect(() => finalizeSecurityHtml(source, 'dist/index.html')).toThrow('execução insegura');
+  it('rejects relaxed script policies rather than generating more hashes', () => {
+    for (const extra of ["'unsafe-eval'", "'unsafe-inline'", 'data:', 'blob:', 'https://example.com']) {
+      expect(() => validateSecurityHeaders(headers.replace("script-src 'self'", `script-src 'self' ${extra}`))).toThrow();
+    }
   });
 
-  it('accepts allowlisted hosts between self and hashes without weakening', () => {
-    const source = `<meta http-equiv="content-security-policy" content="script-src 'self' https://static.cloudflareinsights.com 'sha256-x'; style-src 'self';">`;
-    expect(() => finalizeSecurityHtml(source, 'dist/index.html')).not.toThrow();
-    const missing = `<meta http-equiv="content-security-policy" content="script-src 'self' https://static.cloudflareinsights.com; style-src 'self';">`;
-    expect(() => finalizeSecurityHtml(missing, 'dist/index.html')).toThrow('sem hashes');
+  it('rejects inline modules, unknown scripts, external sources and CSP metas', () => {
+    for (const script of [
+      '<script type="module">console.log(1)</script>',
+      '<script>console.log(1)</script>',
+      '<script src="data:application/javascript,"></script>',
+      '<script src="//example.com/a.js"></script>',
+      '<meta http-equiv="content-security-policy" content="default-src *">',
+    ]) {
+      expect(() => finalizeSecurityHtml(html + script, 'dist/index.html')).toThrow();
+    }
+    expect(() => finalizeSecurityHtml(html + '<script type="application/json">{"a":1}</script>', 'dist/index.html')).not.toThrow();
   });
 
   it('hashes resources deterministically and enforces budgets', () => {

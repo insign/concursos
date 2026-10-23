@@ -11,6 +11,8 @@ const { label = 'Imprimir cheat sheet' } = Astro.props;
 </button>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  onPageMount(() => {
   document.querySelectorAll<HTMLButtonElement>('[data-print-button]').forEach((button) => {
     button.addEventListener('click', async () => {
       button.disabled = true;
@@ -20,5 +22,6 @@ const { label = 'Imprimir cheat sheet' } = Astro.props;
       button.disabled = false;
       window.print();
     });
+  });
   });
 </script>

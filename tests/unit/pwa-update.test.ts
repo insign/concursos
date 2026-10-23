@@ -10,6 +10,33 @@ import {
 } from '../../src/lib/pwa-update';
 
 describe('PWA updates', () => {
+  it('rechecks activity after durability and waits instead of interrupting a new playback', async () => {
+    let active = false;
+    let revision = 0;
+    let release = () => {};
+    const idle = new Promise<void>((resolve) => { release = resolve; });
+    const waitForWrites = vi.fn(async () => {
+      if (waitForWrites.mock.calls.length === 1) { active = true; revision++; }
+    });
+    const activate = vi.fn();
+    const controller = createPwaUpdateController({
+      waitForWrites, activate, reload: vi.fn(), emit: vi.fn(),
+      activity: {
+        waitUntilIdle: () => active ? idle : Promise.resolve(),
+        isActive: () => active,
+        revision: () => revision,
+      },
+    });
+    const operation = controller.requestActivation();
+    await vi.waitFor(() => expect(waitForWrites).toHaveBeenCalledOnce());
+    expect(activate).not.toHaveBeenCalled();
+    active = false;
+    revision++;
+    release();
+    await operation;
+    expect(waitForWrites).toHaveBeenCalledTimes(2);
+    expect(activate).toHaveBeenCalledOnce();
+  });
   it('flushes debounced local state before activating a waiting worker', async () => {
     let releaseFlush: () => void = () => undefined;
     const pendingFlush = new Promise<void>((resolve) => {

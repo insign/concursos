@@ -23,6 +23,7 @@
 </button>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import {
     THEME_STORAGE_KEY,
     THEME_COLORS,
@@ -32,6 +33,7 @@
     type ThemePreference,
   } from '../lib/theme';
 
+  onPageMount((scope) => {
   const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
   const media = window.matchMedia('(prefers-color-scheme: dark)');
   const labels: Record<ThemePreference, string> = {
@@ -87,8 +89,9 @@
     });
 
     // No modo automático, acompanha a mudança da preferência do sistema em tempo real.
-    media.addEventListener('change', () => {
+    scope.on(media, 'change', () => {
       if (preference === 'auto') applyPreference('auto');
     });
   }
+  });
 </script>

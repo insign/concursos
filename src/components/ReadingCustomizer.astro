@@ -149,6 +149,7 @@ const d = DEFAULT_READING_PREFERENCES;
 </div>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import {
     markLocalStatePending,
@@ -166,6 +167,7 @@ const d = DEFAULT_READING_PREFERENCES;
   } from '../lib/reading-preferences';
   import { requestProfileSync } from '../lib/sync';
 
+  onPageMount((scope) => {
   const root = document.querySelector<HTMLElement>('[data-reading-customizer]');
   const shell = root?.closest<HTMLElement>('[data-reading-focus]') ?? null;
   const focusShell = shell?.matches('[data-reading-focus]') ? shell : null;
@@ -265,7 +267,8 @@ const d = DEFAULT_READING_PREFERENCES;
       }, 400);
     };
 
-    registerLocalStateFlusher(async () => {
+    scope.defer(() => { if (persistTimer) clearTimeout(persistTimer); });
+    scope.defer(registerLocalStateFlusher(async () => {
       while (persistTimer !== undefined || pendingFields.size > 0 || pendingWrites.size > 0) {
         if (persistTimer) clearTimeout(persistTimer);
         persistTimer = undefined;
@@ -273,7 +276,7 @@ const d = DEFAULT_READING_PREFERENCES;
         const writes = [...pendingWrites];
         if (writes.length > 0) await Promise.all(writes);
       }
-    });
+    }));
 
     const PERSISTABLE_FIELDS: ReadingPreferenceField[] = [
       'fontFamily',
@@ -331,10 +334,10 @@ const d = DEFAULT_READING_PREFERENCES;
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     };
     toggle.addEventListener('click', () => setOpen(panel.hasAttribute('hidden')));
-    document.addEventListener('click', (event) => {
+    scope.on(document, 'click', (event) => {
       if (!panel.hidden && !root.contains(event.target as Node)) setOpen(false);
     });
-    document.addEventListener('keydown', (event) => {
+    scope.on(document, 'keydown', (event) => {
       if (event.key === 'Escape' && !panel.hidden) {
         event.preventDefault();
         setOpen(false);
@@ -342,7 +345,7 @@ const d = DEFAULT_READING_PREFERENCES;
       }
     });
 
-    window.addEventListener('concursos:reading-focus-change', () => {
+    scope.on(window, 'concursos:reading-focus-change', () => {
       setOpen(false);
       apply(current);
     });
@@ -350,7 +353,7 @@ const d = DEFAULT_READING_PREFERENCES;
     if (!alias) root.querySelector<HTMLElement>('[data-reading-hint]')?.removeAttribute('hidden');
 
     void reloadFromStore();
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:sync-status', (event) => {
       const state = (event as CustomEvent<{ state?: string }>).detail?.state;
       // Só recarrega quando não há edição local pendente, para não descartar um ajuste ainda
       // dentro da janela de debounce (o reload leria o valor durável antigo e o reverteria).
@@ -359,4 +362,5 @@ const d = DEFAULT_READING_PREFERENCES;
       }
     });
   }
+  });
 </script>

@@ -36,6 +36,7 @@
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import {
     loadPreferences,
@@ -47,6 +48,7 @@
   import { recalculateProgress } from '../lib/progress';
   import { requestProfileSync } from '../lib/sync';
 
+  onPageMount((scope) => {
   document.querySelectorAll<HTMLFormElement>('[data-preferences-form]').forEach(async (form) => {
     const status = form.querySelector<HTMLElement>('[data-preferences-status]')!;
     const repair = form.querySelector<HTMLButtonElement>('[data-repair-progress]')!;
@@ -70,7 +72,7 @@
       (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
     };
     await applyStoredPreferences();
-    window.addEventListener('concursos:preferences-updated', (event) => {
+    scope.on(window, 'concursos:preferences-updated', (event) => {
       const updatedProfileId = (event as CustomEvent<{ profileId: string }>).detail.profileId;
       if (updatedProfileId === profileId) void applyStoredPreferences();
     });
@@ -118,5 +120,6 @@
         repair.disabled = false;
       }
     });
+  });
   });
 </script>

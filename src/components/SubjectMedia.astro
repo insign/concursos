@@ -51,29 +51,28 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     )
   }
   <div class="subject-media-player">
+    <button type="button" class="button" data-subject-media-play>Reproduzir no player</button>
     {
       first.kind === 'video' ? (
         <video
-          data-subject-media-element
+          data-subject-media-source
           data-media-id={first.id}
           data-media-url={first.url}
           data-media-kind={first.kind}
           data-media-label={first.label}
-          controls
-          preload="metadata"
+          hidden
+          preload="none"
           playsinline
-          src={first.url}
         />
       ) : (
         <audio
-          data-subject-media-element
+          data-subject-media-source
           data-media-id={first.id}
           data-media-url={first.url}
           data-media-kind={first.kind}
           data-media-label={first.label}
-          controls
-          preload="metadata"
-          src={first.url}
+          hidden
+          preload="none"
         />
       )
     }
@@ -105,6 +104,8 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 </section>
 
 <script>
+  import { onPageMount, PageScope } from '../lib/page-lifecycle';
+  import { selectGlobalMedia, revealGlobalMedia } from '../lib/global-media-player';
   import { registerLocalStateFlusher } from '../lib/local-durability';
   import {
     loadMediaDocument,
@@ -152,20 +153,45 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     return `${minutes}:${String(rest).padStart(2, '0')}`;
   }
 
-  for (const section of document.querySelectorAll<HTMLElement>('[data-subject-media]')) {
-    setupSubjectMedia(section);
-  }
+  let session: { key: string; selected: () => string; select: (id: string) => void; play: () => void; dispose: () => void } | null = null;
+  onPageMount((scope) => {
+    for (const section of document.querySelectorAll<HTMLElement>('[data-subject-media]')) {
+      const key = section.dataset.subjectMediaKey ?? '';
+      const activate = () => {
+        if (session?.key !== key) {
+          session?.dispose();
+          session = setupSubjectMedia(section);
+        }
+        return session;
+      };
+      if (!session) activate();
+      const select = section.querySelector<HTMLSelectElement>('[data-subject-media-select]');
+      if (select && session?.key === key) select.value = session.selected();
+      scope.on(section.querySelector<HTMLButtonElement>('[data-subject-media-play]')!, 'click', () => {
+        const current = activate();
+        if (select) current?.select(select.value);
+        current?.play();
+      });
+      if (select) scope.on(select, 'change', () => { activate()?.select(select.value); });
+    }
+  });
 
-  function setupSubjectMedia(section: HTMLElement): void {
-    const initialElement = section.querySelector<HTMLMediaElement>('[data-subject-media-element]');
-    const state: { element: HTMLMediaElement } = { element: initialElement! };
+  function setupSubjectMedia(section: HTMLElement): typeof session {
+    const scope = new PageScope();
+    const host = document.getElementById('global-media-player')!;
+    const initialElement = section.querySelector<HTMLMediaElement>('[data-subject-media-source]');
+    if (!initialElement) return null;
+    const title = document.querySelector('.subject-title, h1')?.textContent?.trim() ?? 'Mídia do assunto';
+    const href = location.pathname;
+    const state = { element: selectGlobalMedia(initialElement.dataset.mediaKind === 'video' ? 'video' : 'audio', title, href) };
     const select = section.querySelector<HTMLSelectElement>('[data-subject-media-select]');
-    const status = section.querySelector<HTMLElement>('[data-subject-media-status]');
-    const toast = section.querySelector<HTMLElement>('[data-subject-media-toast]');
-    const toastText = section.querySelector<HTMLElement>('[data-subject-media-toast-text]');
-    const toastAction = section.querySelector<HTMLButtonElement>('[data-subject-media-toast-action]');
-    const toastDismiss = section.querySelector<HTMLButtonElement>('[data-subject-media-toast-dismiss]');
-    if (!initialElement) return;
+    const status = host.querySelector<HTMLElement>('[data-subject-media-status]');
+    const toast = host.querySelector<HTMLElement>('[data-subject-media-toast]');
+    const toastText = host.querySelector<HTMLElement>('[data-subject-media-toast-text]');
+    const toastAction = host.querySelector<HTMLButtonElement>('[data-subject-media-toast-action]');
+    const toastDismiss = host.querySelector<HTMLButtonElement>('[data-subject-media-toast-dismiss]');
+    if (status) status.textContent = '';
+    if (toast) toast.hidden = true;
 
     const mediaKey = section.dataset.subjectMediaKey ?? '';
     const subjectId = section.dataset.subjectMediaSubjectId ?? '';
@@ -175,7 +201,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     const profileId = context.profileId;
 
     const items = new Map<string, MediaItem>();
-    const first = readItem(state.element);
+    const first = readItem(initialElement);
     if (first) items.set(first.id, first);
     select?.querySelectorAll('option').forEach((option) => {
       const item = readItem(option);
@@ -183,7 +209,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     });
 
     const setStatus = (message: string) => {
-      if (status) status.textContent = message;
+      if (!scope.signal.aborted && status) status.textContent = message;
     };
 
     if (!profileId) {
@@ -194,6 +220,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     let lastSavedSeconds = 0;
     let lastSyncAt = 0;
     let completed = new Set<string>();
+    const completing = new Set<string>();
     /** Posições conhecidas nesta sessão, por mídia. */
     const positions = new Map<string, number>();
     let pendingPosition: number | null = null;
@@ -201,6 +228,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     let userStarted = false;
     let firstWriteDone = false;
     let toastTimer: number | null = null;
+    scope.defer(() => { if (toastTimer !== null) clearTimeout(toastTimer); });
 
     const activeItem = () => items.get(selectedId) ?? first ?? null;
 
@@ -225,7 +253,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       return initialLoad;
     };
 
-    const persist = async (force: boolean): Promise<void> => {
+    const persist = async (force: boolean, trackActivity = true): Promise<void> => {
       const duration = state.element.duration;
       const position = state.element.currentTime;
       if (!Number.isFinite(duration) || duration <= 0) return;
@@ -245,18 +273,20 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
           positionSeconds: position,
           durationSeconds: duration,
           completed: completed.has(item.id),
-        });
-        lastSavedSeconds = position;
+        }, trackActivity);
+        if (selectedId === item.id) lastSavedSeconds = position;
         positions.set(item.id, position);
         requestSync();
-      } catch {
+      } catch (error) {
         // Falha local não interrompe a reprodução: `lastSavedSeconds` fica no
         // valor anterior para que a próxima tentativa ocorra em breve.
+        if (force) throw error;
       }
     };
 
     const showToast = (message: string, actionLabel: string, onAction: () => void) => {
-      if (!toast || !toastText || !toastAction) return;
+      if (scope.signal.aborted || !toast || !toastText || !toastAction) return;
+      revealGlobalMedia();
       toastText.textContent = message;
       toastAction.textContent = actionLabel;
       toastAction.hidden = false;
@@ -290,7 +320,8 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     };
 
     const markCompleted = async (mediaId: string, duration: number): Promise<void> => {
-      if (completed.has(mediaId)) return;
+      if (completed.has(mediaId) || completing.has(mediaId)) return;
+      completing.add(mediaId);
       try {
         await saveMediaPosition(context, contestStorageId, subjectStorageId, mediaId, {
           positionSeconds: duration,
@@ -323,7 +354,15 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         // A marcação de conclusão é uma cortesia: se a gravação falhar, o
         // assunto continua estudável pelo botão manual e a próxima
         // atualização tenta de novo.
+      } finally {
+        completing.delete(mediaId);
       }
+    };
+
+    const saveSelection = (id: string) => {
+      void ensureInitialLoad().then(() => {
+        if (!scope.signal.aborted && selectedId === id) return saveMediaSelection(context, contestStorageId, subjectStorageId, id);
+      }).catch(() => setStatus('Não foi possível salvar a seleção da mídia.'));
     };
 
     const applyItem = (item: MediaItem): void => {
@@ -331,28 +370,24 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       // A guarda de retomada vale para a faixa atual: ao trocar de faixa, a
       // nova pode e deve ser retomada do ponto salvo.
       userStarted = false;
-      if (select) select.value = item.id;
-      if (state.element.dataset.mediaKind !== item.kind) {
-        const replacement = document.createElement(item.kind === 'video' ? 'video' : 'audio');
-        replacement.setAttribute('data-subject-media-element', '');
-        replacement.setAttribute('data-media-id', item.id);
-        replacement.setAttribute('data-media-url', item.url);
-        replacement.setAttribute('data-media-kind', item.kind);
-        replacement.setAttribute('data-media-label', item.label);
-        replacement.setAttribute('controls', '');
-        replacement.setAttribute('preload', 'metadata');
-        if (item.kind === 'video') replacement.setAttribute('playsinline', '');
-        state.element.replaceWith(replacement);
-        state.element = replacement;
+      for (const currentSection of document.querySelectorAll<HTMLElement>('[data-subject-media]')) {
+        if (currentSection.dataset.subjectMediaKey !== mediaKey) continue;
+        const currentSelect = currentSection.querySelector<HTMLSelectElement>('[data-subject-media-select]');
+        if (currentSelect) currentSelect.value = item.id;
       }
+      state.element.pause();
+      state.element.removeAttribute('data-subject-media-element');
+      state.element = selectGlobalMedia(item.kind, `${title} — ${item.label}`, href);
+      state.element.setAttribute('data-subject-media-element', '');
+      state.element.dataset.mediaKind = item.kind;
+      state.element.dataset.mediaId = item.id;
       state.element.src = item.url;
       lastSavedSeconds = 0;
       pendingPosition = positions.get(item.id) ?? null;
-      void saveMediaSelection(context, contestStorageId, subjectStorageId, item.id);
     };
 
     const restore = (): void => {
-      if (pendingPosition === null || userStarted) return;
+      if (scope.signal.aborted || pendingPosition === null || userStarted) return;
       const duration = state.element.duration;
       // Sem metadados carregados ainda, a posição fica pendente: o
       // `loadedmetadata` tenta de novo.
@@ -371,16 +406,16 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 
     // Os eventos de HTMLMediaElement não borbulham; a fase de captura os
     // alcança no elemento de mídia mesmo quando o listener está na section.
-    section.addEventListener('loadedmetadata', restore, true);
-    section.addEventListener('durationchange', restore, true);
-    section.addEventListener(
+    scope.on(host, 'loadedmetadata', restore, { capture: true });
+    scope.on(host, 'durationchange', restore, { capture: true });
+    scope.on(host,
       'play',
       () => {
         userStarted = true;
       },
-      true,
+      { capture: true },
     );
-    section.addEventListener(
+    scope.on(host,
       'timeupdate',
       () => {
         void persist(false);
@@ -392,58 +427,54 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
           void markCompleted(item.id, duration);
         }
       },
-      true,
+      { capture: true },
     );
-    section.addEventListener(
+    scope.on(host,
       'pause',
       () => {
-        void persist(true);
+        void persist(true).catch(() => setStatus('Não foi possível salvar a posição.'));
         requestSync();
       },
-      true,
+      { capture: true },
     );
-    section.addEventListener(
+    scope.on(host,
       'ended',
       () => {
-        void persist(true);
+        void persist(true).catch(() => setStatus('Não foi possível salvar a posição.'));
         const item = activeItem();
         const duration = state.element.duration;
         if (item && Number.isFinite(duration)) {
           void markCompleted(item.id, duration);
         }
       },
-      true,
+      { capture: true },
     );
-    section.addEventListener(
+    scope.on(host,
       'error',
       () => {
         setStatus('Mídia indisponível. O arquivo é servido pelo armazenamento de mídia.');
       },
-      true,
+      { capture: true },
     );
 
-    document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'hidden') void persist(true);
+    scope.on(document, 'visibilitychange', () => {
+      if (document.visibilityState === 'hidden') void persist(true).catch(() => undefined);
     });
-    window.addEventListener('pagehide', () => {
-      void persist(true);
+    scope.on(window, 'pagehide', () => {
+      void persist(true).catch(() => undefined);
     });
 
     // O flusher grava apenas o que mudou de fato: a barreira de atualização da
     // PWA (ADR-003) espera a revisão de atividade estabilizar.
-    registerLocalStateFlusher(() => persist(true));
-
-    select?.addEventListener('change', () => {
-      const option = select.selectedOptions[0];
-      const item = option ? readItem(option) : null;
-      if (!item) return;
-      void persist(true);
-      applyItem(item);
-    });
+    // O motor sobrevive ao swap: seus snapshots de flush não geram nova revisão
+    // a cada avanço do relógio, que impediria a barreira de estabilizar tocando.
+    scope.defer(registerLocalStateFlusher(() => persist(true, false)));
+    if (first) applyItem(first);
 
     void (async () => {
       try {
         const local = await loadMediaDocument(context);
+        if (scope.signal.aborted || userStarted) return;
         if (local) {
           for (const [id, position] of Object.entries(local.positions)) {
             if (position.completed) completed.add(id);
@@ -462,7 +493,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         // um aparelho novo não lê nada de mídia.
         await ensureInitialLoad();
         const refreshed = await loadMediaDocument(context);
-        if (!refreshed) return;
+        if (scope.signal.aborted || !refreshed) return;
         for (const [id, position] of Object.entries(refreshed.positions)) {
           if (position.completed) completed.add(id);
           positions.set(id, position.positionSeconds);
@@ -483,6 +514,30 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         // reproduzindo com o estado local.
       }
     })();
+    return {
+      key: mediaKey,
+      selected: () => selectedId,
+      select(id) {
+        if (id === selectedId) return;
+        const item = items.get(id);
+        if (!item) return;
+        // Snapshot antes de trocar src; a escrita mantém o consumidor original.
+        void persist(true).catch(() => setStatus('Não foi possível salvar a posição anterior.'));
+        applyItem(item);
+        saveSelection(item.id);
+      },
+      play() {
+        saveSelection(selectedId);
+        revealGlobalMedia();
+        if (!state.element.paused) state.element.pause();
+        else void state.element.play().catch(() => setStatus('Não foi possível reproduzir a mídia. Tente novamente.'));
+      },
+      dispose() {
+        void persist(true).catch(() => undefined);
+        state.element.pause();
+        scope.dispose();
+      },
+    };
   }
 </script>
 

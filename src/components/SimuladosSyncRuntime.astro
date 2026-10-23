@@ -41,5 +41,6 @@
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') void synchronize();
   });
+  document.addEventListener('astro:page-load', () => void synchronize());
   void synchronize();
 </script>

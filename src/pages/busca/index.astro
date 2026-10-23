@@ -20,8 +20,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <script>
+  import { onPageMount } from '../../lib/page-lifecycle';
   import { searchContest, searchGlobal, isOnline } from '../../lib/orama-client.ts';
 
+  onPageMount((scope) => {
   const root = document.querySelector('[data-busca-root]') as HTMLElement | null;
   if (root) {
     const input = root.querySelector('[data-busca-input]') as HTMLInputElement;
@@ -41,6 +43,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     let seq = 0;
     let debounce: number | undefined;
+    scope.defer(() => { if (debounce) clearTimeout(debounce); });
 
     function setStatus(t: string) { statusEl.textContent = t; }
     function render(hits: Array<{ document: { slug: string; title: string; contestSlug: string }; highlightedTitle: string; highlightedExcerpt: string }>) {
@@ -53,7 +56,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     async function doSearch(term: string) {
       const mySeq = ++seq;
-      if (term.trim().length < 2) { render([]); setStatus(''); history.replaceState(null,'', term?`?q=${encodeURIComponent(term)}`:'/busca/'); return; }
+      if (term.trim().length < 2) { render([]); setStatus(''); history.replaceState(history.state,'', term?`?q=${encodeURIComponent(term)}`:'/busca/'); return; }
       const useGlobal = globalToggle.checked;
       if (useGlobal && !isOnline()) { setStatus('Busca global requer conexão. Você está offline.'); render([]); return; }
       if (!useGlobal && !initialConcurso) { setStatus('Selecione um concurso ou marque busca global.'); render([]); return; }
@@ -68,7 +71,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         else url.searchParams.delete('concurso');
         if (useGlobal) url.searchParams.set('global', '1');
         else url.searchParams.delete('global');
-        history.replaceState(null,'', url.toString());
+        history.replaceState(history.state,'', url.toString());
         if (hits.length===0) { setStatus('Nenhum resultado'); render([]);}
         else { setStatus(`${hits.length} resultado(s)`); // @ts-ignore
           render(hits as unknown as Array<{document:{slug:string;title:string;contestSlug:string};highlightedTitle:string;highlightedExcerpt:string}>); }
@@ -94,10 +97,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       globalToggle.disabled=!online;
       globalToggle.title=online?'':'Disponível apenas com conexão';
     }
-    syncToggle(); window.addEventListener('online',syncToggle); window.addEventListener('offline',syncToggle);
+    syncToggle(); scope.on(window,'online',syncToggle); scope.on(window,'offline',syncToggle);
 
     if (initialQ) doSearch(initialQ);
   }
+  });
 </script>
 
 <style>

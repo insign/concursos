@@ -11,38 +11,9 @@ import { remarkMarkdownFeatures } from './src/lib/remark-markdown-features.mjs';
 export default defineConfig({
   output: 'static',
   site: 'https://concursos.helio.me',
-  security: {
-    csp: {
-      scriptDirective: {
-        resources: [
-          "'self'",
-          // Beacon do Cloudflare Web Analytics (injetado no serve).
-          "https://static.cloudflareinsights.com",
-          // Hash do script inline anti-flash de tema (BaseLayout.astro). Astro não
-          // hasheia <script is:inline> clássico automaticamente; renderiza verbatim.
-          // Se o conteúdo do script mudar, recomputar: extrair do dist e sha256 base64.
-          "'sha256-qa3TD4AFh7EcKG3WZ9Lk74qsmjRyiQVM3662eOB1ifQ='",
-        ],
-      },
-      styleDirective: {
-        resources: ["'self'", "'unsafe-inline'"],
-      },
-      directives: [
-        "default-src 'self'",
-        "base-uri 'self'",
-        "connect-src 'self' https://kv.helio.me https://cloudflareinsights.com",
-        "font-src 'self' data:",
-        "form-action 'self'",
-        "frame-src 'none'",
-        "img-src 'self'",
-        // A mídia é servida pela própria origem, pela rota /media/*.
-        "media-src 'self'",
-        "manifest-src 'self'",
-        "object-src 'none'",
-        "worker-src 'self'",
-      ],
-    },
-  },
+  // A política HTTP em public/_headers governa toda a sessão do ClientRouter.
+  // O finalizador valida a política e cada script emitido, sem metas por rota.
+  security: { csp: false },
   integrations: [
     astroMermaid({
       autoTheme: false,
@@ -62,6 +33,7 @@ export default defineConfig({
     syntaxHighlight: 'shiki',
   },
   vite: {
+    build: { assetsInlineLimit: 0 },
     plugins: [
       VitePWA({
         strategies: 'injectManifest',

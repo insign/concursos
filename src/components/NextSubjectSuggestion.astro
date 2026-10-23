@@ -57,6 +57,7 @@ const serializedConfig = JSON.stringify({
 </aside>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import { loadStudied, studiedSubjectId } from '../lib/studied';
   import { listNavigationContestRecords } from '../lib/navigation-db';
@@ -102,6 +103,7 @@ const serializedConfig = JSON.stringify({
     return request;
   }
 
+  onPageMount((scope) => {
   const instances = Array.from(
     document.querySelectorAll<HTMLElement>('[data-subject-suggestion]:not([data-suggestion-ready])'),
   ).flatMap((root) => {
@@ -180,23 +182,24 @@ const serializedConfig = JSON.stringify({
       const profileId = (event as CustomEvent<{ profileId?: string }>).detail?.profileId;
       if (!profileId || profileId === getActiveAlias()) void refresh();
     };
-    window.addEventListener('concursos:studied-updated', refreshForProfile);
-    window.addEventListener('concursos:profile-changed', () => void refresh());
-    window.addEventListener('concursos:navigation-ready', refreshForProfile);
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:studied-updated', refreshForProfile);
+    scope.on(window, 'concursos:profile-changed', () => void refresh());
+    scope.on(window, 'concursos:navigation-ready', refreshForProfile);
+    scope.on(window, 'concursos:sync-status', (event) => {
       const detail = (event as CustomEvent<{ profileId?: string; state?: string }>).detail;
       if (
         (!detail?.profileId || detail.profileId === getActiveAlias()) &&
         (detail?.state === 'synced' || detail?.state === 'error')
       ) void refresh();
     });
-    window.addEventListener('concursos:navigation-updated', () => void refresh());
-    window.addEventListener('concursos:navigation-synced', () => void refresh());
-    window.addEventListener('storage', (event) => {
+    scope.on(window, 'concursos:navigation-updated', () => void refresh());
+    scope.on(window, 'concursos:navigation-synced', () => void refresh());
+    scope.on(window, 'storage', (event) => {
       if (event.key === 'concursos:active-alias') void refresh();
     });
-    window.addEventListener('pageshow', () => void refresh());
-    window.addEventListener('focus', () => void refresh());
+    scope.on(window, 'pageshow', () => void refresh());
+    scope.on(window, 'focus', () => void refresh());
     if (getActiveAlias()) void refresh();
   }
+  });
 </script>

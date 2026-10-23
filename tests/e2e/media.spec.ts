@@ -116,10 +116,12 @@ test.beforeEach(async ({ page }) => {
 
 test('embeds the media of a subject and offers a selector for multiple tracks', async ({ page }) => {
   await page.goto(subjectUrl);
+  await page.locator('[data-subject-media-play]').click();
 
   const player = page.locator('[data-subject-media-element]');
-  await expect(player).toBeVisible();
-  await expect(player).toHaveAttribute('controls', '');
+  await expect(page.locator('#global-media-player')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Pausar', exact: true })).toBeVisible();
+  expect(await player.evaluate((element: HTMLMediaElement) => element.paused)).toBe(false);
 
   const select = page.locator('[data-subject-media-select]');
   await expect(select).toBeVisible();
@@ -131,6 +133,7 @@ test('embeds the media of a subject and offers a selector for multiple tracks', 
 });
 
 async function completeCurrentTrack(page: import('@playwright/test').Page): Promise<number> {
+  if (await page.locator('#global-media-player').isHidden()) await page.locator('[data-subject-media-play]').click();
   return page.evaluate(async () => {
     const audio = document.querySelector<HTMLAudioElement>('[data-subject-media-element]');
     if (!audio) return 0;
@@ -188,6 +191,7 @@ test('resumes a track from the position saved in this session when switching bac
   page,
 }) => {
   await page.goto(subjectUrl);
+  await page.locator('[data-subject-media-play]').click();
 
   const firstDuration = await page.evaluate(async () => {
     const audio = document.querySelector<HTMLAudioElement>('[data-subject-media-element]');

@@ -120,9 +120,7 @@ test('restores once and preserves explicit navigation after an offline restart',
   await expect(resumedPage.getByRole('button', { name: 'Retomar ponto mais recente' })).toBeVisible({ timeout: 30_000 });
   await resumedPage.getByRole('button', { name: 'Retomar ponto mais recente' }).click();
   await expect(resumedPage).toHaveURL(new RegExp(`${contentRoute.replaceAll('/', '\\/')}#focus$`), { timeout: 30_000 });
-  // O modo de leitura sem distrações depende de chunks _astro que não entram no
-  // precache offline do SW (falha pré-existente, reproduzida no baseline); a
-  // restauração é verificada pelo scroll aplicado via pending-route abaixo.
+  // A restauração semântica é verificada pelo scroll aplicado via pending-route.
   await expect.poll(() => resumedPage.evaluate(() => window.scrollY), { timeout: 30_000 }).toBeGreaterThan(100);
   await expect.poll(() =>
     resumedPage.evaluate(
@@ -138,7 +136,9 @@ test('restores once and preserves explicit navigation after an offline restart',
     await resumedPage.evaluate(
       () => (window as typeof window & { __navigationScrollCalls: number }).__navigationScrollCalls,
     ),
-  ).toBe(0);
+  // O ClientRouter restaura scrollX/scrollY uma vez no bootstrap. Não deve
+  // reaplicar também a restauração semântica consumida no primeiro acesso.
+  ).toBe(1);
   await resumedPage.close();
 
   const explicitPage = await context.newPage();

@@ -1110,7 +1110,7 @@ a.subject-reading-link:hover {
 .subject-action-bar {
   position: fixed;
   right: calc(0.75rem + env(safe-area-inset-right));
-  bottom: calc(0.75rem + env(safe-area-inset-bottom));
+  bottom: calc(0.75rem + env(safe-area-inset-bottom) + var(--media-dock-height, 0px));
   z-index: 30;
   display: flex;
   flex-direction: column;

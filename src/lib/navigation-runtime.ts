@@ -1,4 +1,6 @@
 import { getActiveAlias } from './identity';
+import { navigate } from 'astro:transitions/client';
+import type { PageScope } from './page-lifecycle';
 import {
   markLocalStatePending,
   registerLocalStateFlusher,
@@ -394,10 +396,12 @@ function offerElements(): NavigationOfferElements | null {
   return root && message && resume && stay ? { root, message, resume, stay } : null;
 }
 
-export function startNavigationRuntime(): void {
+export function startNavigationRuntime(scope: PageScope): void {
   if (started || typeof window === 'undefined') return;
   started = true;
+  scope.defer(() => { started = false; });
   const profileId = getActiveAlias();
+  if (profileId) readyProfiles.delete(profileId);
   setRuntimeProfile(profileId);
   if (!profileId) return;
 
@@ -439,6 +443,10 @@ export function startNavigationRuntime(): void {
   let studiedClearPendingBeforeReady = false;
   let topNavigationPhase: TopNavigationPhase = 'idle';
   let topNavigationTimer: ReturnType<typeof setTimeout> | undefined;
+  scope.defer(() => {
+    if (captureTimer) clearTimeout(captureTimer);
+    if (topNavigationTimer) clearTimeout(topNavigationTimer);
+  });
   let topNavigationObservedScroll = false;
   let topNavigationInterrupted = false;
   let topNavigationAllowsProgrammaticInterruption = false;
@@ -466,6 +474,7 @@ export function startNavigationRuntime(): void {
     ignoreSuppression = false,
     preservedReadingPosition?: ReadingPosition,
   ): Promise<void> => {
+    if (scope.signal.aborted) return;
     if (
       topNavigationPhase !== 'idle' ||
       !ready ||
@@ -657,7 +666,7 @@ export function startNavigationRuntime(): void {
     return restore;
   };
 
-  registerLocalStateFlusher(async () => {
+  scope.defer(registerLocalStateFlusher(async () => {
     if (initialization) await initialization;
     while (true) {
       if (navigationRedirectPending) {
@@ -688,9 +697,10 @@ export function startNavigationRuntime(): void {
         pendingCaptures.size === 0
       ) return;
     }
-  });
+  }));
 
   const synchronize = (force = false): Promise<boolean> => {
+    if (scope.signal.aborted) return Promise.resolve(false);
     if (!ready || !navigator.onLine || (!force && Date.now() < automaticSyncAfter)) {
       return Promise.resolve(false);
     }
@@ -750,6 +760,7 @@ export function startNavigationRuntime(): void {
   };
 
   const inspectRemoteChange = async () => {
+    if (scope.signal.aborted) return;
     try {
       if (!ready) return;
       await clearStudiedHistory();
@@ -821,12 +832,12 @@ export function startNavigationRuntime(): void {
       if (contestStorageId) lastFingerprints.delete(contestStorageId);
       if (document.route !== currentRoute()) {
         sessionStorage.setItem(pendingRouteKey, document.route);
-        navigationRedirectPending = true;
+        navigationRedirectPending = false;
         markNavigationPending();
-        location.assign(destination);
+        void navigate(destination);
         return;
       }
-      location.assign(destination);
+      void navigate(destination);
       void runRestoreCurrentDocument(document);
       return;
     }
@@ -843,7 +854,7 @@ export function startNavigationRuntime(): void {
     void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
-  window.addEventListener('scroll', () => {
+  scope.on(window, 'scroll', () => {
     if (topNavigationPhase === 'settling') {
       topNavigationObservedScroll = true;
       if (
@@ -859,24 +870,24 @@ export function startNavigationRuntime(): void {
     }
     scheduleCapture();
   }, { passive: true });
-  window.addEventListener('scrollend', () => {
+  scope.on(window, 'scrollend', () => {
     if (topNavigationPhase === 'settling' && topNavigationObservedScroll) finishTopNavigation();
   });
   const markTopNavigationInterrupted = () => {
     if (topNavigationPhase === 'settling') topNavigationInterrupted = true;
   };
-  window.addEventListener('wheel', markTopNavigationInterrupted, { passive: true });
-  window.addEventListener('touchstart', markTopNavigationInterrupted, { passive: true });
-  window.addEventListener('pointerdown', markTopNavigationInterrupted, { passive: true });
-  document.addEventListener('keydown', (event) => {
+  scope.on(window, 'wheel', markTopNavigationInterrupted, { passive: true });
+  scope.on(window, 'touchstart', markTopNavigationInterrupted, { passive: true });
+  scope.on(window, 'pointerdown', markTopNavigationInterrupted, { passive: true });
+  scope.on(document, 'keydown', (event) => {
     if (
       ['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(event.key)
     ) {
       markTopNavigationInterrupted();
     }
   });
-  window.addEventListener('resize', () => scheduleCapture(1_200), { passive: true });
-  document.addEventListener('change', (event) => {
+  scope.on(window, 'resize', () => scheduleCapture(1_200), { passive: true });
+  scope.on(document, 'change', (event) => {
     const input = event.target;
     if (!(input instanceof HTMLInputElement)) return;
     if (
@@ -887,7 +898,7 @@ export function startNavigationRuntime(): void {
       scheduleCapture(250);
     }
   });
-  document.addEventListener('click', (event) => {
+  scope.on(document, 'click', (event) => {
     const target = event.target;
     if (!(target instanceof Element)) return;
     const link = target.closest<HTMLAnchorElement>('a[href]');
@@ -932,11 +943,11 @@ export function startNavigationRuntime(): void {
       scheduleCapture(400);
     }
   });
-  document.addEventListener('submit', () => {
+  scope.on(document, 'submit', () => {
     explicitNavigation = true;
     markSessionStarted();
   });
-  window.addEventListener('pagehide', () => {
+  scope.on(window, 'pagehide', () => {
     if ((explicitNavigation || semanticCaptureRequested) && suppressedCaptureRequested) {
       if (captureTimer) clearTimeout(captureTimer);
       captureTimer = undefined;
@@ -948,14 +959,14 @@ export function startNavigationRuntime(): void {
     explicitNavigation = true;
     void runSaveCurrent(false);
   });
-  window.addEventListener('online', () => void synchronize().then(inspectRemoteChange));
-  window.addEventListener('focus', () => void synchronize().then(inspectRemoteChange));
-  document.addEventListener('visibilitychange', () => {
+  scope.on(window, 'online', () => void synchronize().then(inspectRemoteChange));
+  scope.on(window, 'focus', () => void synchronize().then(inspectRemoteChange));
+  scope.on(document, 'visibilitychange', () => {
     if (document.visibilityState === 'hidden') void runSaveCurrent(false);
     else void synchronize().then(inspectRemoteChange);
   });
-  window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
-  window.addEventListener('concursos:navigation-updated', () => void synchronize(true));
+  scope.on(window, 'concursos:navigation-synced', () => void inspectRemoteChange());
+  scope.on(window, 'concursos:navigation-updated', () => void synchronize(true));
   const handleStudiedUpdate = async (detail: {
     profileId?: unknown;
     contestStorageId?: unknown;
@@ -991,7 +1002,7 @@ export function startNavigationRuntime(): void {
     await clearSubjectReadingPosition(detail.contestStorageId, detail.subjectStorageId);
   };
 
-  window.addEventListener('concursos:studied-updated', (event) => {
+  scope.on(window, 'concursos:studied-updated', (event) => {
     void handleStudiedUpdate((event as CustomEvent<{
       profileId?: unknown;
       contestStorageId?: unknown;
@@ -999,33 +1010,35 @@ export function startNavigationRuntime(): void {
       studied?: unknown;
     }>).detail ?? {}).catch(() => undefined);
   });
-  window.addEventListener('concursos:subject-unread', () => {
+  scope.on(window, 'concursos:subject-unread', () => {
     beginTopNavigation(true);
     window.scrollTo({ top: 0 });
   });
   if ('BroadcastChannel' in window) {
     const studiedBroadcast = new BroadcastChannel('concursos-studied');
+    scope.defer(() => studiedBroadcast.close());
     studiedBroadcast.addEventListener('message', (event) => {
       void handleStudiedUpdate(
         (event.data as Parameters<typeof handleStudiedUpdate>[0]) ?? {},
       ).catch(() => undefined);
     });
   }
-  window.addEventListener('concursos:sync-status', (event) => {
+  scope.on(window, 'concursos:sync-status', (event) => {
     const detail = (event as CustomEvent<{ profileId?: unknown; state?: unknown }>).detail;
     if (detail?.profileId === profileId && detail.state === 'synced') {
       void inspectRemoteChange();
     }
   });
-  window.addEventListener('concursos:reading-focus-change', () => {
+  scope.on(window, 'concursos:reading-focus-change', () => {
     semanticCaptureRequested = true;
     scheduleCapture(0, 'semantic');
   });
 
-  window.setInterval(() => {
+  const periodicTimer = window.setInterval(() => {
     if (document.visibilityState !== 'visible') return;
     void runSaveCurrent().then(() => synchronize()).then(inspectRemoteChange);
   }, PERIODIC_SYNC_MS);
+  scope.defer(() => clearInterval(periodicTimer));
 
   initialization = (async () => {
     const catalog = await catalogPromise;

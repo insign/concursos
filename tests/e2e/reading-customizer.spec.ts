@@ -336,7 +336,20 @@ test('does not revert an in-flight edit when a sync-status event fires', async (
     .poll(() => (kvStore.get(leituraDocId)?.json as { fontSize?: number })?.fontSize, {
       timeout: 15_000,
     })
-    .toBe(24);
+    .toBe(24).catch(async (error: unknown) => {
+      const state = await page.evaluate(() => new Promise((resolve, reject) => {
+        const request = indexedDB.open('concursos-offline');
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const read = database.transaction('leitura').objectStore('leitura').getAll();
+          read.onsuccess = () => { database.close(); resolve(read.result); };
+          read.onerror = () => { database.close(); reject(read.error); };
+        };
+      }));
+      await test.info().attach('reading-preferences-local-state', { body: JSON.stringify(state), contentType: 'application/json' });
+      throw error;
+    });
 });
 
 test('publishes reading preferences to the KV without Authorization', async ({ page, kvStore }) => {

@@ -18,6 +18,7 @@ import {
 } from './questionnaire';
 import { markLocalStatePending, registerLocalStateFlusher } from './local-durability';
 import { requestProfileSync, synchronizeAnswerDocument } from './sync';
+import { PageScope } from './page-lifecycle';
 
 export interface QuestionnaireConfig {
   questionSet: QuestionSet;
@@ -27,12 +28,13 @@ export interface QuestionnaireConfig {
   userId?: string;
 }
 
-export function bindAnswerWriteDurability(): {
+export function bindAnswerWriteDurability(scope?: PageScope): {
   enqueue<T>(work: () => Promise<T>): Promise<T>;
 } {
   let writeQueue: Promise<void> = Promise.resolve();
   let durability: Promise<void> = Promise.resolve();
-  registerLocalStateFlusher(() => durability);
+  const unregister = registerLocalStateFlusher(() => durability);
+  scope?.defer(() => { void writeQueue.finally(unregister).catch(() => undefined); });
   return {
     enqueue(work) {
       markLocalStatePending();
@@ -53,7 +55,7 @@ function requiredElement<T extends Element>(root: ParentNode, selector: string):
   return element;
 }
 
-export async function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfig): Promise<void> {
+export async function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfig, scope = new PageScope()): Promise<void> {
   if (root.dataset.mounted === 'true') return;
   root.dataset.mounted = 'true';
 
@@ -90,7 +92,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   root.dataset.profileId = profileId;
   const documentId = buildAnswerDocumentId(profileId, config.contestStorageId, config.subjectStorageId);
   let documentState: AnswerDocument = createEmptyAnswerDocument(config.questionSet.questionSetRevision);
-  const writes = bindAnswerWriteDurability();
+  const writes = bindAnswerWriteDurability(scope);
   let preferences: Preferences = await loadPreferences(profileId);
   let layout: QuestionLayout = preferences.questionLayout;
   let correctionMode: CorrectionMode = preferences.correctionMode;
@@ -590,7 +592,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
 
   render();
 
-  window.addEventListener('concursos:answer-synced', (event) => {
+  scope.on(window, 'concursos:answer-synced', (event) => {
     const syncedDocumentId = (event as CustomEvent<{ documentId: string }>).detail.documentId;
     if (syncedDocumentId !== documentId) return;
 
@@ -618,7 +620,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     });
   });
 
-  window.addEventListener('concursos:answer-revision-unsupported', (event) => {
+  scope.on(window, 'concursos:answer-revision-unsupported', (event) => {
     const unsupportedDocumentId = (event as CustomEvent<{ documentId: string }>).detail.documentId;
     if (unsupportedDocumentId === documentId) showNewerRevision();
   });

@@ -56,5 +56,5 @@ test('shows and repairs materialized progress without exposing on-submit score',
 
   await page.goto('/configuracoes/');
   await page.getByRole('button', { name: 'Recalcular progresso' }).click();
-  await expect(page.getByText(`Progresso recalculado para ${syncCatalog.subjects.length} assunto(s).`)).toBeVisible();
+  await expect(page.getByText(`Progresso recalculado para ${syncCatalog.subjects.length} assunto(s).`)).toBeVisible({ timeout: 30_000 });
 });

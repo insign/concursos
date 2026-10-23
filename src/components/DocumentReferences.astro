@@ -16,6 +16,8 @@ const { label = 'Referências' } = Astro.props;
 </section>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
+  onPageMount((scope) => {
   const printSelector = 'details[data-references-print]';
   const openStates = new Map<HTMLDetailsElement, boolean>();
   let printing = false;
@@ -41,14 +43,17 @@ const { label = 'Referências' } = Astro.props;
     openStates.clear();
   };
 
-  window.addEventListener('beforeprint', expandForPrint);
-  window.addEventListener('afterprint', restoreAfterPrint);
+  scope.on(window, 'beforeprint', expandForPrint);
+  scope.on(window, 'afterprint', restoreAfterPrint);
 
   const media = window.matchMedia('print');
   const mediaHandler = (event: MediaQueryListEvent) => (event.matches ? expandForPrint() : restoreAfterPrint());
   if (typeof media.addEventListener === 'function') {
-    media.addEventListener('change', mediaHandler);
+    scope.on(media, 'change', mediaHandler);
   } else if (typeof media.addListener === 'function') {
     media.addListener(mediaHandler);
+    scope.defer(() => media.removeListener(mediaHandler));
   }
+  scope.defer(restoreAfterPrint);
+  });
 </script>

@@ -50,7 +50,7 @@ export function reduceOfflineDownload(
 
 export function startOfflineDownloadIndicator(
   dispatch: (snapshot: OfflineDownloadSnapshot) => void = () => undefined,
-): void {
+): () => void {
   const perContest = new Map<string, OfflineDownloadState>();
   let idleTimer: ReturnType<typeof setTimeout> | null = null;
 
@@ -97,7 +97,7 @@ export function startOfflineDownloadIndicator(
     emit();
   };
 
-  subscribeDownloadEvents((event) => {
+  const unsubscribe = subscribeDownloadEvents((event) => {
     if (event.type === 'started') applyFor(event.contestStorageId, { type: 'started' });
     else if (event.type === 'progress') {
       // A midia reporta bytes: medir por arquivo concluido deixaria o
@@ -114,4 +114,8 @@ export function startOfflineDownloadIndicator(
       applyFor(event.contestStorageId, { type: 'failed', message: event.message });
     }
   });
+  return () => {
+    unsubscribe();
+    if (idleTimer) clearTimeout(idleTimer);
+  };
 }

@@ -30,6 +30,7 @@
 </div>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import {
     createApplicationStatusState,
     deriveApplicationStatus,
@@ -46,6 +47,7 @@
   import { requestProfileSync, startSyncCoordinator } from '../lib/sync';
   import { startOfflineDownloadIndicator } from '../lib/offline-download-indicator';
 
+  onPageMount((scope) => {
   const root = document.querySelector<HTMLElement>('[data-application-status]');
 
   if (root) {
@@ -77,31 +79,31 @@
       render();
     };
 
-    window.addEventListener('online', () => update({ type: 'connectivity', online: true }));
-    window.addEventListener('offline', () => update({ type: 'connectivity', online: false }));
-    window.addEventListener('concursos:profile-changed', (event) => {
+    scope.on(window, 'online', () => update({ type: 'connectivity', online: true }));
+    scope.on(window, 'offline', () => update({ type: 'connectivity', online: false }));
+    scope.on(window, 'concursos:profile-changed', (event) => {
       const detail = (event as CustomEvent<{ current: string }>).detail;
       update({ type: 'profile', profileId: detail.current });
     });
-    window.addEventListener('concursos:sync-status', (event) => {
+    scope.on(window, 'concursos:sync-status', (event) => {
       update({ type: 'sync', detail: (event as CustomEvent<SyncStatusDetail>).detail });
     });
-    window.addEventListener('concursos:simulados-synced', (event) => {
+    scope.on(window, 'concursos:simulados-synced', (event) => {
       const detail = (event as CustomEvent<{ profileId: string; failures: number }>).detail;
       update({ type: 'profile-sync-result', source: 'simulados', ...detail });
     });
-    window.addEventListener('concursos:navigation-synced', (event) => {
+    scope.on(window, 'concursos:navigation-synced', (event) => {
       const detail = (event as CustomEvent<{ profileId: string; failures: number }>).detail;
       update({ type: 'profile-sync-result', source: 'navigation', ...detail });
     });
-    window.addEventListener('concursos:pwa-status', (event) => {
+    scope.on(window, 'concursos:pwa-status', (event) => {
       update({ type: 'pwa', detail: (event as CustomEvent<PwaStatusDetail>).detail });
     });
 
     // Camada de downloads offline no mesmo botão: em andamento, concluído
     // (flash) ou falha — unindo canal de eventos e progresso nativo do
     // navegador numa única fonte de verdade para o usuário.
-    startOfflineDownloadIndicator((snapshot) => {
+    scope.defer(startOfflineDownloadIndicator((snapshot) => {
       if (snapshot.state === 'idle') {
         update({ type: 'download', detail: { state: 'idle' } });
         return;
@@ -121,7 +123,7 @@
         type: 'download',
         detail: { state: 'failed', message: snapshot.message },
       });
-    });
+    }));
 
     retry?.addEventListener('click', () => {
       if (retryIntent === 'sync') void requestProfileSync();
@@ -133,4 +135,5 @@
     render();
     void startSyncCoordinator();
   }
+  });
 </script>

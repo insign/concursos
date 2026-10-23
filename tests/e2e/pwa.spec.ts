@@ -109,11 +109,14 @@ test('downloads and removes an atomic contest package without caching KV', async
   await expect(offlineImage).toBeVisible();
   await expect.poll(() => offlineImage.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
   await page.goto('/concursos/concurso-exemplo/');
-  const suggested = page
-    .locator('[data-subject-suggestion-instance="contest-top"]')
-    .getByRole('link', { name: 'Próximo assunto sugerido' });
+  // Depois de visitar o assunto, a página do concurso prioriza "Resumir leitura"
+  // e oculta a sugestão que apontaria para o mesmo ponto; o href permanece
+  // canônico e o destino continua servido offline.
+  const suggested = page.locator(
+    '[data-subject-suggestion-instance="contest-top"] [data-subject-suggestion-link]',
+  );
   await expect(suggested).toHaveAttribute('href', '/concursos/concurso-exemplo/assunto-exemplo/');
-  await suggested.click();
+  await page.goto('/concursos/concurso-exemplo/assunto-exemplo/');
   await expect(page.getByRole('heading', { name: 'Fundamentos de administração pública', level: 1 })).toBeVisible();
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/index.html');
   await expect(page.getByRole('heading', { name: 'Fundamentos de administração pública', level: 1 })).toBeVisible();

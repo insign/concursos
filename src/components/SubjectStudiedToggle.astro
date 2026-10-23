@@ -24,17 +24,20 @@ const { contestStorageId, subjectStorageId } = Astro.props;
 </button>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import { getActiveAlias } from '../lib/identity';
   import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
   import { requestProfileSync } from '../lib/sync';
   import { listNavigationContestRecords } from '../lib/navigation-db';
   import { whenNavigationReady } from '../lib/navigation-runtime';
 
+  onPageMount((scope) => {
   const buttons = Array.from(
     document.querySelectorAll<HTMLButtonElement>('[data-subject-studied-toggle]'),
   );
   const studiedBroadcast =
     'BroadcastChannel' in window ? new BroadcastChannel('concursos-studied') : null;
+  scope.defer(() => studiedBroadcast?.close());
 
   // Rótulo de AÇÃO descreve o que o clique fará (mesma convenção do StudiedToggle das
   // páginas de estudo: sem aria-pressed, que contradiria o rótulo da ação inversa).
@@ -160,18 +163,19 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   const initialAlias = getActiveAlias();
   if (initialAlias) void requestProfileSync(initialAlias);
 
-  window.addEventListener('concursos:studied-updated', (event) => {
+   scope.on(window, 'concursos:studied-updated', (event) => {
     const detail = (event as CustomEvent<{ profileId?: string }>).detail;
     if (detail && detail.profileId === getActiveAlias()) refresh();
   });
-  window.addEventListener('concursos:sync-status', (event) => {
+  scope.on(window, 'concursos:sync-status', (event) => {
     const state = (event as CustomEvent<{ state?: string }>).detail?.state;
     if (state === 'synced' || state === 'error') void applyFromStore();
   });
-  window.addEventListener('concursos:navigation-updated', refreshProgress);
-  window.addEventListener('concursos:navigation-synced', refreshProgress);
-  window.addEventListener('concursos:profile-changed', refresh);
+  scope.on(window, 'concursos:navigation-updated', refreshProgress);
+  scope.on(window, 'concursos:navigation-synced', refreshProgress);
+  scope.on(window, 'concursos:profile-changed', refresh);
   // Volta de outra aba pode ter mudado o alias (sem evento): reavalie tudo.
-  window.addEventListener('focus', refresh);
-  window.addEventListener('pageshow', refresh);
+  scope.on(window, 'focus', refresh);
+  scope.on(window, 'pageshow', refresh);
+  });
 </script>

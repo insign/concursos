@@ -8,7 +8,8 @@
 
 <script>
   import { startNavigationRuntime } from '../lib/navigation-runtime';
-  startNavigationRuntime();
+  import { onPageMount } from '../lib/page-lifecycle';
+  onPageMount(startNavigationRuntime);
 </script>
 
 <style>
@@ -16,7 +17,7 @@
     position: fixed;
     z-index: 60;
     right: max(1rem, env(safe-area-inset-right));
-    bottom: max(1rem, env(safe-area-inset-bottom));
+    bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--media-dock-height, 0px));
     width: min(32rem, calc(100vw - 2rem));
     padding: 1rem;
     border: 1px solid var(--line);

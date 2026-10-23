@@ -94,6 +94,7 @@ function pwaActivityMessage(detail: Exclude<PwaStatusDetail, { state: 'error' }>
   if (detail.state === 'idle') return null;
   if (detail.state === 'update-found') return 'Atualização do aplicativo encontrada.';
   if (detail.state === 'waiting-for-durability') return 'Aguardando o salvamento dos dados locais.';
+  if (detail.state === 'waiting-for-activity') return 'Atualização pronta. Aguardando o player e os downloads terminarem.';
   if (detail.state === 'activating') return 'Atualizando o aplicativo.';
   return 'Recarregando o aplicativo.';
 }

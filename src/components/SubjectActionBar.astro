@@ -85,12 +85,14 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
 </div>
 
 <script>
+  import { onPageMount } from '../lib/page-lifecycle';
   import {
     createSubjectActionVisibilityState,
     resetSubjectActionVisibility,
     updateSubjectActionVisibility,
   } from '../lib/subject-action-visibility';
 
+  onPageMount((scope) => {
   const bar = document.querySelector<HTMLElement>(
     '[data-subject-action-bar]:not([data-subject-action-ready])',
   );
@@ -149,6 +151,7 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
     let state = createSubjectActionVisibilityState(window.scrollY, maxScrollY());
     let frame = 0;
     let hideTimer = 0;
+    scope.defer(() => { cancelAnimationFrame(frame); clearTimeout(hideTimer); });
     let pointerStart: { id: number; x: number; y: number } | null = null;
 
     const render = () => {
@@ -233,17 +236,17 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
 
     bar.dataset.subjectActionReady = '';
     render();
-    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    scope.on(window, 'scroll', scheduleUpdate, { passive: true });
     bar.addEventListener('focusin', reset);
     bar.addEventListener('pointerdown', clearHideTimer, { passive: true });
-    document.addEventListener('pointerdown', handlePointerDown, { passive: true });
-    document.addEventListener('pointermove', handlePointerMove, { passive: true });
-    document.addEventListener('pointerup', handlePointerUp, { passive: true });
-    document.addEventListener('pointercancel', () => {
+    scope.on(document, 'pointerdown', handlePointerDown, { passive: true });
+    scope.on(document, 'pointermove', handlePointerMove, { passive: true });
+    scope.on(document, 'pointerup', handlePointerUp, { passive: true });
+    scope.on(document, 'pointercancel', () => {
       pointerStart = null;
     }, { passive: true });
-    window.addEventListener('concursos:reading-focus-change', reset);
-    window.addEventListener('pagehide', () => {
+    scope.on(window, 'concursos:reading-focus-change', reset);
+    scope.on(window, 'pagehide', () => {
       const wasTemporarilyVisible = Boolean(hideTimer);
       if (frame) cancelAnimationFrame(frame);
       frame = 0;
@@ -252,4 +255,5 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
       if (wasTemporarilyVisible) setVisibility('hidden');
     });
   }
+  });
 </script>
