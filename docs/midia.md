@@ -176,7 +176,10 @@ offline e a ação é repetir o download das mídias.
 
 ## Player persistente e navegação
 
-O assunto oferece o botão de reprodução e, quando há várias faixas, um seletor.
+O assunto oferece uma ação compacta com aparência de link, **Ouvir áudio do
+assunto**, ao lado de **Ler sem distrações** e, quando há várias faixas, um
+seletor. A ação e o seletor continuam acessíveis no modo de leitura. O texto
+da ação se adapta a vídeo ou a um catálogo com tipos de mídia diferentes.
 Os elementos nativos de áudio e vídeo ficam no player global, persistido entre
 as navegações internas pelo `ClientRouter` (ADR-011). Visitar outro assunto
 não troca a faixa: a troca exige usar o botão de reprodução ou o seletor desse
@@ -196,6 +199,8 @@ atualização do aplicativo aguarda um momento sem atividade e a gravação loca
 pendente antes de ativar ou recarregar, para preservar a sessão em andamento.
 Uma recarga completa ou o fechamento da aba encerra a reprodução; a posição
 salva continua disponível para retomada.
+O aviso com a posição retomada desaparece após dez segundos, sem apagar um
+aviso de erro mais recente.
 
 ## Posição de reprodução
 
