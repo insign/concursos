@@ -814,6 +814,10 @@ a.subject-reading-link:hover {
 /* Entrada do modo de leitura, mantida no fluxo normal fora da barra fixa. */
 .reading-entry {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
   margin-bottom: 1.5rem;
 }
 
@@ -880,8 +884,10 @@ a.subject-reading-link:hover {
 .study-page:has(#focus:target:not([data-reading-focus-ready])) .navigation-offer,
 .study-page.reading-focus-active .study-shell > :not(.reading-focus),
 .study-page:has(#focus:target:not([data-reading-focus-ready])) .study-shell > :not(.reading-focus),
-.reading-focus[data-reading-focus-active] .reading-entry,
-.reading-focus:target:not([data-reading-focus-ready]) .reading-entry,
+.reading-focus[data-reading-focus-active] .reading-entry:not(:has([data-subject-media])),
+.reading-focus:target:not([data-reading-focus-ready]) .reading-entry:not(:has([data-subject-media])),
+.reading-focus[data-reading-focus-active] .reading-entry > .reading-entry-link,
+.reading-focus:target:not([data-reading-focus-ready]) .reading-entry > .reading-entry-link,
 .reading-focus[data-reading-focus-active] [data-subject-action-normal],
 .reading-focus:target:not([data-reading-focus-ready]) [data-subject-action-normal] {
   display: none;

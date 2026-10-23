@@ -15,43 +15,23 @@ if (!first) {
   throw new Error('SubjectMedia exige ao menos uma mídia');
 }
 const hasMultiple = items.length > 1;
+const hasMixedKinds = items.some((item) => item.kind !== first.kind);
 const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 ---
 
 <section
   class="subject-media print-hidden"
-  aria-labelledby="subject-media-title"
+  aria-label={hasMultiple ? 'Mídias do assunto' : first.kind === 'video' ? 'Vídeo do assunto' : 'Áudio do assunto'}
   data-subject-media
   data-subject-media-key={mediaKey}
   data-subject-media-subject-id={subjectId}
   data-subject-media-contest-id={contestStorageId}
   data-subject-media-subject-storage-id={subjectStorageId}
 >
-  <h2 id="subject-media-title" class="subject-media-title">
-    {hasMultiple ? 'Mídias do assunto' : first.kind === 'video' ? 'Vídeo do assunto' : 'Áudio do assunto'}
-  </h2>
-  {
-    hasMultiple && (
-      <div class="subject-media-selector">
-        <label for="subject-media-select">Escolher mídia</label>
-        <select id="subject-media-select" data-subject-media-select>
-          {items.map((item) => (
-            <option
-              value={item.id}
-              data-media-id={item.id}
-              data-media-url={item.url}
-              data-media-kind={item.kind}
-              data-media-label={item.label}
-            >
-              {item.label}
-            </option>
-          ))}
-        </select>
-      </div>
-    )
-  }
   <div class="subject-media-player">
-    <button type="button" class="button" data-subject-media-play>Reproduzir no player</button>
+    <button type="button" class="subject-media-play" data-subject-media-play>
+      {hasMixedKinds ? 'Reproduzir mídia do assunto' : first.kind === 'video' ? 'Assistir vídeo do assunto' : 'Ouvir áudio do assunto'}
+    </button>
     {
       first.kind === 'video' ? (
         <video
@@ -77,6 +57,26 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       )
     }
   </div>
+  {
+    hasMultiple && (
+      <div class="subject-media-selector">
+        <label for="subject-media-select">Escolher mídia</label>
+        <select id="subject-media-select" data-subject-media-select>
+          {items.map((item) => (
+            <option
+              value={item.id}
+              data-media-id={item.id}
+              data-media-url={item.url}
+              data-media-kind={item.kind}
+              data-media-label={item.label}
+            >
+              {item.label}
+            </option>
+          ))}
+        </select>
+      </div>
+    )
+  }
   <div class="subject-media-status" role="status" aria-live="polite" data-subject-media-status />
   <div class="subject-media-toast" data-subject-media-toast hidden>
     <div class="subject-media-toast-text" data-subject-media-toast-text />
@@ -208,8 +208,17 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       if (item) items.set(item.id, item);
     });
 
-    const setStatus = (message: string) => {
-      if (!scope.signal.aborted && status) status.textContent = message;
+    let statusTimer: ReturnType<typeof setTimeout> | undefined;
+    scope.defer(() => clearTimeout(statusTimer));
+    const setStatus = (message: string, clearAfterMs = 0) => {
+      clearTimeout(statusTimer);
+      if (scope.signal.aborted || !status) return;
+      status.textContent = message;
+      if (clearAfterMs > 0) {
+        statusTimer = setTimeout(() => {
+          if (status.textContent === message) status.textContent = '';
+        }, clearAfterMs);
+      }
     };
 
     if (!profileId) {
@@ -401,7 +410,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       pendingPosition = null;
       if (position === null) return;
       state.element.currentTime = position;
-      setStatus(`Retomando de ${formatTime(position)}.`);
+      setStatus(`Retomando de ${formatTime(position)}.`, 10_000);
     };
 
     // Os eventos de HTMLMediaElement não borbulham; a fase de captura os
@@ -543,17 +552,29 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 
 <style>
   .subject-media {
-    margin: 0 0 1.75rem;
-    padding: 1rem 1.1rem 1.1rem;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--field-bg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
   }
 
-  .subject-media-title {
-    margin: 0 0 0.6rem;
-    font-size: 1rem;
-    letter-spacing: 0.01em;
+  .subject-media-play {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--accent-strong);
+    font: inherit;
+    font-family: var(--sans);
+    font-weight: 700;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+    cursor: pointer;
+  }
+
+  .subject-media-play:hover {
+    color: var(--signal);
   }
 
   .subject-media-selector {
@@ -561,7 +582,6 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
-    margin: 0 0 0.75rem;
   }
 
   .subject-media-selector label {
@@ -595,6 +615,10 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     min-height: 1.2em;
     font-size: 0.85rem;
     color: var(--muted);
+  }
+
+  .subject-media-status:empty {
+    display: none;
   }
 
   .subject-media-toast {

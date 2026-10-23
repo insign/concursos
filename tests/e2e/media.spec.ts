@@ -130,6 +130,12 @@ test('embeds the media of a subject and offers a selector for multiple tracks', 
     'data-subject-media-subject-id',
     'exemplo--fundamentos',
   );
+
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect(page.locator('[data-subject-media-play]')).toBeVisible();
+  await expect(select).toBeVisible();
+  await select.selectOption({ index: 1 });
+  await expect(player).toHaveAttribute('data-media-id', await select.inputValue());
 });
 
 async function completeCurrentTrack(page: import('@playwright/test').Page): Promise<number> {
@@ -190,7 +196,9 @@ test('undoes the automatic completion of the subject', async ({ page }) => {
 test('resumes a track from the position saved in this session when switching back', async ({
   page,
 }) => {
+  await page.clock.install({ time: new Date('2026-01-01T08:00:00Z') });
   await page.goto(subjectUrl);
+  await page.clock.pauseAt(new Date('2026-01-01T10:00:00Z'));
   await page.locator('[data-subject-media-play]').click();
 
   const firstDuration = await page.evaluate(async () => {
@@ -231,4 +239,11 @@ test('resumes a track from the position saved in this session when switching bac
 
   expect(resumed).toBeGreaterThan(0);
   expect(resumed).toBeGreaterThan(firstDuration * 0.3);
+
+  const status = page.locator('#global-media-player [data-subject-media-status]');
+  await expect(status).toHaveText(/^Retomando de /);
+  await page.clock.runFor(9_999);
+  await expect(status).toHaveText(/^Retomando de /);
+  await page.clock.runFor(1);
+  await expect(status).toBeEmpty();
 });

@@ -294,7 +294,9 @@ test('supports Back, Forward and Escape in the integrated reading mode', async (
   await page.evaluate(() => {
     document.documentElement.style.scrollBehavior = 'auto';
   });
-  await heading.evaluate((element) => element.scrollIntoView({ behavior: 'auto', block: 'center' }));
+  await heading.evaluate((element) => {
+    window.scrollBy(0, element.getBoundingClientRect().top - 96);
+  });
   const beforeBack = await heading.evaluate((element) => element.getBoundingClientRect().top);
 
   await page.goBack();
@@ -328,7 +330,9 @@ test('preserves the visible reading position and supports repeated open-close cy
   await page.evaluate(() => {
     document.documentElement.style.scrollBehavior = 'auto';
   });
-  await heading.evaluate((element) => element.scrollIntoView({ behavior: 'auto', block: 'center' }));
+  await heading.evaluate((element) => {
+    window.scrollBy(0, element.getBoundingClientRect().top - 96);
+  });
   const before = await heading.evaluate((element) => element.getBoundingClientRect().top);
   await page.locator('[data-reading-focus-close]').evaluate((element: HTMLAnchorElement) => element.click());
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));

@@ -37,9 +37,6 @@ const hasMermaid = hasMermaidCodeFence(body) || hasMermaidCodeFence(referencesBo
     <a class="reading-entry-link" href="#focus" data-reading-focus-open>
       Ler sem distrações
     </a>
-  </div>
-  <article data-print-hide-leading-h1={contentHasH1 ? '' : undefined}>
-    {!contentHasH1 && <h1 class="reading-title">{displayTitle}</h1>}
     {
       subject.media.length > 0 && (
         <SubjectMedia
@@ -50,6 +47,9 @@ const hasMermaid = hasMermaidCodeFence(body) || hasMermaidCodeFence(referencesBo
         />
       )
     }
+  </div>
+  <article data-print-hide-leading-h1={contentHasH1 ? '' : undefined}>
+    {!contentHasH1 && <h1 class="reading-title">{displayTitle}</h1>}
     <Content />
     {referencesRendered && ReferencesContent && (
       <DocumentReferences>
