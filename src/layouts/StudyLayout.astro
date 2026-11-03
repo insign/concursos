@@ -2,6 +2,7 @@
 import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import SubjectActionBar from '../components/SubjectActionBar.astro';
+import SubjectMedia from '../components/SubjectMedia.astro';
 import ContestSearch from '../components/ContestSearch.astro';
 import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
 import ReadingFocusRuntime from '../components/ReadingFocusRuntime.astro';
@@ -21,6 +22,7 @@ const displayTitle = displaySubjectTitle(contest, subject);
 const groupId = subject.groupPath.at(-1)?.slug ?? null;
 const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
 const currentSubjectId = studiedSubjectId(contest.storageId, subject.storageId);
+const hasAudio = subject.media.some((item) => item.kind === 'audio');
 const contestMiddleTruncated = contest.title.length > 32;
 const contestLastWord = contest.title.split(/\s+/).at(-1) ?? '';
 const contestTitleEnd = contestMiddleTruncated ? contestLastWord.slice(-16) : '';
@@ -113,6 +115,7 @@ const contestTitleStart = contestMiddleTruncated
             subjectHref={subjectHref}
             questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
             active={active}
+            hasAudio={hasAudio}
           />
         </div>
       ) : (
@@ -131,6 +134,17 @@ const contestTitleStart = contestMiddleTruncated
     <SubjectPagination contest={contest} subject={subject} />
 
     {
+      active !== 'content' && hasAudio && (
+        <SubjectMedia
+          launcher={false}
+          items={subject.media}
+          contestStorageId={contest.storageId}
+          subjectStorageId={subject.storageId}
+          mediaKey={subject.mediaKey}
+        />
+      )
+    }
+    {
       active !== 'content' && (
         <SubjectActionBar
           contestSlug={contest.slug}
@@ -143,6 +157,7 @@ const contestTitleStart = contestMiddleTruncated
           subjectHref={subjectHref}
           questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
           active={active}
+          hasAudio={hasAudio}
         />
       )
     }

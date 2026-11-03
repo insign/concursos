@@ -4,6 +4,16 @@ let engine: HTMLMediaElement | null = null;
 let initialized = false;
 let reveal = () => {};
 
+const STATE_EVENT = 'concursos:media-player-state';
+const publishState = () => window.dispatchEvent(new Event(STATE_EVENT));
+
+// Consulta usada pelos botões laterais do assunto: o dock visível e tocando
+// oculta o atalho de reprodução.
+export function isGlobalMediaVisibleAndPlaying(): boolean {
+  const host = document.getElementById('global-media-player');
+  return Boolean(host && !host.hidden && engine && !engine.paused);
+}
+
 export function selectGlobalMedia(kind: 'audio' | 'video', title: string, href: string): HTMLMediaElement {
   const host = document.getElementById('global-media-player')!;
   const next = host.querySelector<HTMLMediaElement>(kind === 'video' ? '[data-global-media-video]' : '[data-global-media-audio]')!;
@@ -27,7 +37,6 @@ export function startGlobalMediaPlayer(): void {
   const time = host.querySelector<HTMLOutputElement>('[data-media-time]')!;
   const speed = host.querySelector<HTMLSelectElement>('[data-media-speed]')!;
   let eligible = false;
-  let pauseTimer = 0;
   let previousY = window.scrollY;
   let reservedHeight = 0;
   // Um toque para revelar pode acontecer no meio de uma rolagem suave ou de
@@ -43,10 +52,11 @@ export function startGlobalMediaPlayer(): void {
     // interpretar a revelação como scroll para baixo e esconder a barra de novo.
     document.documentElement.style.setProperty('--media-dock-space', `${eligible ? reservedHeight : 0}px`);
   };
-  const activity = () => setRuntimeActivity('media', Boolean(engine && !engine.paused) || eligible || hasFocus());
+  // Dock pausado e aberto não é atividade: sem expiração, contá-lo bloquearia a atualização do PWA indefinidamente.
+  const activity = () => { setRuntimeActivity('media', Boolean(engine && !engine.paused) || hasFocus()); publishState(); };
   const show = () => { if (!eligible) return; host.hidden = false; measure(); activity(); };
   reveal = show;
-  const hide = () => { if (hasFocus()) return; host.hidden = true; measure(); };
+  const hide = () => { if (hasFocus()) return; host.hidden = true; measure(); publishState(); };
   const format = (value: number) => { const n = Number.isFinite(value) ? Math.max(0, Math.floor(value)) : 0; return `${Math.floor(n / 60)}:${String(n % 60).padStart(2, '0')}`; };
   const render = () => {
     if (!engine) return;
@@ -60,22 +70,12 @@ export function startGlobalMediaPlayer(): void {
     seek.setAttribute('aria-valuetext', time.value);
     speed.value = String(engine.playbackRate);
   };
-  const linger = () => {
-    clearTimeout(pauseTimer);
-    if (!eligible) return;
-    pauseTimer = window.setTimeout(() => {
-      if (hasFocus()) { linger(); return; }
-      eligible = false;
-      hide();
-      activity();
-    }, 5 * 60_000);
-  };
   host.addEventListener('play', (event) => {
     if (event.target !== engine) return;
-    clearTimeout(pauseTimer); eligible = true; show(); render(); activity();
+    eligible = true; show(); render(); activity();
   }, true);
-  host.addEventListener('pause', () => { render(); linger(); activity(); }, true);
-  host.addEventListener('ended', () => { render(); linger(); activity(); }, true);
+  host.addEventListener('pause', () => { render(); activity(); }, true);
+  host.addEventListener('ended', () => { render(); activity(); }, true);
   for (const type of ['timeupdate', 'durationchange', 'loadedmetadata', 'ratechange', 'seeked']) host.addEventListener(type, render, true);
   toggle.addEventListener('click', () => {
     if (!engine) return;
@@ -88,12 +88,12 @@ export function startGlobalMediaPlayer(): void {
   seek.addEventListener('input', () => { if (engine && !seek.disabled) engine.currentTime = Number(seek.value); });
   speed.addEventListener('change', () => { if (engine) engine.playbackRate = Number(speed.value); });
   host.querySelector('[data-media-close]')!.addEventListener('click', () => {
-    engine?.pause(); clearTimeout(pauseTimer); eligible = false;
+    engine?.pause(); eligible = false;
     (document.activeElement as HTMLElement | null)?.blur();
     hide(); activity();
   });
   host.addEventListener('focusin', () => { show(); activity(); });
-  host.addEventListener('focusout', () => { queueMicrotask(() => { if (engine?.paused) linger(); activity(); }); });
+  host.addEventListener('focusout', () => { queueMicrotask(activity); });
   window.addEventListener('scroll', () => {
     const y = window.scrollY;
     if (Math.abs(y - previousY) < 12) return;

@@ -29,7 +29,7 @@ test('keeps the subject session, controls and floating offset across routes and 
   })).toBe(true);
 });
 
-test('keeps the paused dock for five minutes then releases its space', async ({ page }) => {
+test('keeps the paused dock visible past five minutes until it is closed', async ({ page }) => {
   const media = await readFile('src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/midia/exemplo-principal.mp3');
   await page.route('**/media/**', (route) => route.fulfill({ body: media, contentType: 'audio/mpeg' }));
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/');
@@ -37,9 +37,10 @@ test('keeps the paused dock for five minutes then releases its space', async ({ 
   await page.clock.install();
   await page.getByRole('button', { name: 'Pausar', exact: true }).click();
   await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur());
-  await page.clock.fastForward(299_000);
+  await page.clock.fastForward(301_000);
   await expect(page.locator('#global-media-player')).toBeVisible();
-  await page.clock.fastForward(2_000);
+  await expect.poll(() => page.evaluate(() => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--media-dock-height')))).toBeGreaterThan(0);
+  await page.getByRole('button', { name: 'Fechar player', exact: true }).click();
   await expect(page.locator('#global-media-player')).toBeHidden();
   await expect.poll(() => page.evaluate(() => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--media-dock-height')))).toBe(0);
 });

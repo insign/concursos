@@ -7,9 +7,11 @@ interface Props {
   contestStorageId: string;
   subjectStorageId: string;
   mediaKey: string;
+  // Sem launcher, a seção fica oculta e só mantém a sessão e o catálogo completo para os botões laterais.
+  launcher?: boolean;
 }
 
-const { items, contestStorageId, subjectStorageId, mediaKey } = Astro.props;
+const { items, contestStorageId, subjectStorageId, mediaKey, launcher = true } = Astro.props;
 const first = items[0];
 if (!first) {
   throw new Error('SubjectMedia exige ao menos uma mídia');
@@ -21,6 +23,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
 
 <section
   class="subject-media print-hidden"
+  hidden={!launcher}
   aria-label={hasMultiple ? 'Mídias do assunto' : first.kind === 'video' ? 'Vídeo do assunto' : 'Áudio do assunto'}
   data-subject-media
   data-subject-media-key={mediaKey}
@@ -29,9 +32,11 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
   data-subject-media-subject-storage-id={subjectStorageId}
 >
   <div class="subject-media-player">
-    <button type="button" class="subject-media-play" data-subject-media-play>
-      {hasMixedKinds ? 'Reproduzir mídia do assunto' : first.kind === 'video' ? 'Assistir vídeo do assunto' : 'Ouvir áudio do assunto'}
-    </button>
+    {launcher && (
+      <button type="button" class="subject-media-play" data-subject-media-play>
+        {hasMixedKinds ? 'Reproduzir mídia do assunto' : first.kind === 'video' ? 'Assistir vídeo do assunto' : 'Ouvir áudio do assunto'}
+      </button>
+    )}
     {
       first.kind === 'video' ? (
         <video
@@ -59,7 +64,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
   </div>
   {
     hasMultiple && (
-      <div class="subject-media-selector">
+      <div class="subject-media-selector" hidden={!launcher}>
         <label for="subject-media-select">Escolher mídia</label>
         <select id="subject-media-select" data-subject-media-select>
           {items.map((item) => (
@@ -153,7 +158,7 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     return `${minutes}:${String(rest).padStart(2, '0')}`;
   }
 
-  let session: { key: string; selected: () => string; select: (id: string) => void; play: () => void; dispose: () => void } | null = null;
+  let session: { key: string; selected: () => string; select: (id: string) => void; play: () => void; start: () => void; dispose: () => void } | null = null;
   onPageMount((scope) => {
     for (const section of document.querySelectorAll<HTMLElement>('[data-subject-media]')) {
       const key = section.dataset.subjectMediaKey ?? '';
@@ -167,12 +172,15 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
       if (!session) activate();
       const select = section.querySelector<HTMLSelectElement>('[data-subject-media-select]');
       if (select && session?.key === key) select.value = session.selected();
-      scope.on(section.querySelector<HTMLButtonElement>('[data-subject-media-play]')!, 'click', () => {
+      const playButton = section.querySelector<HTMLButtonElement>('[data-subject-media-play]');
+      if (playButton) scope.on(playButton, 'click', () => {
         const current = activate();
         if (select) current?.select(select.value);
         current?.play();
       });
       if (select) scope.on(select, 'change', () => { activate()?.select(select.value); });
+      // Atalho dos botões laterais do assunto: ação explícita que só inicia; nunca alterna pausa.
+      scope.on(window, 'concursos:subject-audio-start', () => { activate()?.start(); });
     }
   });
 
@@ -396,7 +404,9 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
     };
 
     const restore = (): void => {
-      if (scope.signal.aborted || pendingPosition === null || userStarted) return;
+      // A posição pendente é da faixa atual e vale mesmo se o play já começou: a reprodução
+      // sai do zero e pula para o ponto salvo quando os metadados chegam.
+      if (scope.signal.aborted || pendingPosition === null) return;
       const duration = state.element.duration;
       // Sem metadados carregados ainda, a posição fica pendente: o
       // `loadedmetadata` tenta de novo.
@@ -523,17 +533,31 @@ const subjectId = studiedSubjectId(contestStorageId, subjectStorageId);
         // reproduzindo com o estado local.
       }
     })();
+    const selectItem = (id: string): void => {
+      if (id === selectedId) return;
+      const item = items.get(id);
+      if (!item) return;
+      // Snapshot antes de trocar src; a escrita mantém o consumidor original.
+      void persist(true).catch(() => setStatus('Não foi possível salvar a posição anterior.'));
+      applyItem(item);
+      saveSelection(item.id);
+    };
     return {
       key: mediaKey,
       selected: () => selectedId,
-      select(id) {
-        if (id === selectedId) return;
-        const item = items.get(id);
-        if (!item) return;
-        // Snapshot antes de trocar src; a escrita mantém o consumidor original.
-        void persist(true).catch(() => setStatus('Não foi possível salvar a posição anterior.'));
-        applyItem(item);
-        saveSelection(item.id);
+      select: selectItem,
+      start() {
+        if (items.get(selectedId)?.kind !== 'audio') {
+          const firstAudio = [...items.values()].find((item) => item.kind === 'audio');
+          if (!firstAudio) return;
+          selectItem(firstAudio.id);
+        }
+        saveSelection(selectedId);
+        revealGlobalMedia();
+        const element = state.element;
+        if (!element.paused) return;
+        const play = () => void element.play().catch(() => setStatus('Não foi possível reproduzir a mídia. Tente novamente.'));
+        play();
       },
       play() {
         saveSelection(selectedId);

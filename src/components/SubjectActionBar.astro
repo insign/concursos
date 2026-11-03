@@ -14,13 +14,30 @@ interface Props {
   subjectHref: string;
   questionSetRevision: number;
   active: 'content' | 'cheat-sheet' | 'questions';
+  hasAudio: boolean;
 }
 
-const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, subjectTitleRaw, subjectStorageId, subjectHref, questionSetRevision, active } = Astro.props;
+const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, subjectTitleRaw, subjectStorageId, subjectHref, questionSetRevision, active, hasAudio } = Astro.props;
 ---
 
 <div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
   <StudiedToggle contestStorageId={contestStorageId} subjectStorageId={subjectStorageId} />
+  {
+    hasAudio && (
+      <button
+        type="button"
+        class="subject-action-control subject-action-play"
+        data-subject-action-play
+        aria-label="Ouvir áudio do assunto"
+        hidden
+      >
+        <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+        <span class="subject-action-label">Ouvir áudio</span>
+      </button>
+    )
+  }
   {
     active === 'content' && (
       <div class="subject-action-reading" data-subject-action-reading>
@@ -86,11 +103,27 @@ const { contestSlug, contestStorageId, contestTitle, subjectSlug, subjectTitle, 
 
 <script>
   import { onPageMount } from '../lib/page-lifecycle';
+  import { isGlobalMediaVisibleAndPlaying } from '../lib/global-media-player';
   import {
     createSubjectActionVisibilityState,
     resetSubjectActionVisibility,
     updateSubjectActionVisibility,
   } from '../lib/subject-action-visibility';
+
+  // Atalho de áudio: oculto enquanto o dock estiver visível e tocando; o clique só inicia o assunto.
+  onPageMount((scope) => {
+    const button = document.querySelector<HTMLButtonElement>('[data-subject-action-play]');
+    if (!button) return;
+    const sync = () => {
+      const playing = isGlobalMediaVisibleAndPlaying();
+      // O foco precisa sair antes de ocultar, senão se perde da página.
+      if (playing && document.activeElement === button) document.querySelector<HTMLButtonElement>('[data-media-toggle]')?.focus();
+      button.hidden = playing;
+    };
+    sync();
+    scope.on(window, 'concursos:media-player-state', sync);
+    scope.on(button, 'click', () => window.dispatchEvent(new CustomEvent('concursos:subject-audio-start')));
+  });
 
   onPageMount((scope) => {
   const bar = document.querySelector<HTMLElement>(
