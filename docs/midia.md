@@ -187,10 +187,15 @@ assunto. A sessão mantém o consumidor e o perfil de origem para salvar a
 posição e marcar a conclusão corretamente.
 
 A barra inferior oferece reprodução/pausa, avanço e recuo de 15 segundos,
-velocidade e busca na faixa. Depois de pausar, permanece disponível por cinco
-minutos; fechar a barra pausa a reprodução. Rolar para baixo recolhe a barra
-sem interromper a mídia; rolar para cima ou tocar em uma área vazia a revela.
-Controles com foco permanecem visíveis. O modo de leitura e a tela cheia
+velocidade e busca na faixa. Depois de pausar ou terminar a faixa, a barra
+permanece exibida até o botão fechar, que pausa a reprodução e a oculta. Rolar
+para baixo recolhe a barra sem interromper a mídia; rolar para cima ou tocar em
+uma área vazia a revela. Controles com foco permanecem visíveis.
+
+Quando o assunto tem áudio, a barra de ações do assunto oferece o botão
+"Ouvir áudio" nas abas de conteúdo, cheat-sheet e questões. Ele inicia o áudio
+do assunto a partir da posição salva e nunca alterna pausa; enquanto a barra
+inferior estiver visível e tocando, o botão fica oculto. O modo de leitura e a tela cheia
 incluem o player, e os controles flutuantes se deslocam pela altura visível
 da barra.
 
