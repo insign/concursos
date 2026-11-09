@@ -73,12 +73,6 @@
     display: none !important;
   }
 
-  /* Reserva de canto do botão copiar (oculto na impressão) volta ao
-     base no papel para não deixar espaço morto. */
-  .question-prompt {
-    padding-right: 0;
-  }
-
   /* Siglas e microglossário no impresso/PDF: expansão inline logo após o
      termo — "SIGLA (significado)" — com o parentético em itálico discreto.
      Participa do fluxo normal (pode quebrar linha em parágrafos, listas,

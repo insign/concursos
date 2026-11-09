@@ -1988,9 +1988,12 @@ a.subject-pagination-link:hover {
 }
 
 .question-copy-prompt {
-  position: absolute;
-  top: 0.6rem;
-  right: 0.6rem;
+  /* Flutua no canto: o enunciado usa a largura toda e só as primeiras linhas
+     contornam o botão. A largura mínima mantém o canto estável quando o rótulo
+     vira "Copiado!" durante o retorno de cópia. */
+  float: right;
+  min-width: 8rem;
+  margin: 0 0 0.4rem 0.6rem;
 }
 
 .question-clear {
@@ -2039,8 +2042,6 @@ a.subject-pagination-link:hover {
 .question-prompt {
   display: block;
   margin-bottom: 1rem;
-  /* Reserva à direita para o botão copiar absoluto do canto superior. */
-  padding-right: 7.5rem;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -2419,6 +2420,16 @@ a.subject-pagination-link:hover {
 
   .pwa-controls:has(.install-button:not([hidden])) .application-status-details {
     top: calc(100% + 3.5rem);
+  }
+}
+
+/* Telas muito estreitas: o botão copiar flutuante deixaria as primeiras linhas
+   do enunciado numa coluna apertada, então ele passa a ocupar a própria linha. */
+@media (max-width: 21rem) {
+  .question-copy-prompt {
+    float: none;
+    display: block;
+    margin: 0 0 0.5rem auto;
   }
 }
 

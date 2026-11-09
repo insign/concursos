@@ -368,7 +368,9 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     copyPromptButton.dataset.copyLabel = 'Copiar questão';
     copyPromptButton.addEventListener('click', () => void copyText(copyPromptButton, question.prompt));
 
-    fieldset.append(copyPromptButton);
+    // Antes do enunciado: o botão flutua no canto e só encurta as primeiras
+    // linhas, sem reservar a coluna inteira à direita do texto.
+    fieldset.insertBefore(copyPromptButton, prompt);
 
     const options = document.createElement('div');
     options.className = 'question-options';
