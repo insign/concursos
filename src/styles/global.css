@@ -1994,6 +1994,9 @@ a.subject-pagination-link:hover {
   float: right;
   min-width: 8rem;
   margin: 0 0 0.4rem 0.6rem;
+  /* Rótulo curto de ação: nunca quebra em duas linhas, o que aumentaria a
+     altura do flutuante e poderia invadir as alternativas. */
+  white-space: nowrap;
 }
 
 .question-clear {
