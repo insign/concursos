@@ -172,6 +172,23 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
 3. `artist` da tag ID3: usar o título da disciplina (como em `docs/midia.md`) ou o slug
    sem acento usado nos 153 áudios existentes.
 
+## Supervisao automatica
+
+- **Execucao:** `/tmp/opencode/supervisor2.sh` (destacado com `setsid`) encadeia os
+  concursos, prepara `sources.json` e a fila, roda `run-fila2.sh`, commita/pusha os
+  catalogos e avisa por `hey` no fim. Backoff: cota 4h/8h/12h, lock 30min, erro
+  generico 10min, 12 tentativas por concurso.
+- **Runner:** `/tmp/opencode/run-fila2.sh` retoma por `content_id` salvo, baixa com
+  retry, codifica em temporario fora da `midia/`, valida decodificacao, publica a
+  cada 5 itens e pausa com `exit 9` em `QUOTA_EXHAUSTED`.
+- **Supervisao com julgamento:** um subagente `general` dorme 20 minutos e devolve
+  um retrato factual (PIDs, ultima linha do log e minutos decorridos, item atual,
+  contagens, commit, erros e sinal `STALL` acima de 35 min). O orquestrador julga e
+  reenvia na mesma sessao. Vale apenas com a sessao aberta; o bash sobrevive ao fim
+  da conversa, nao a reboot.
+- **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor2.sh"`,
+  `tail /tmp/opencode/fila/supervisor.log` e reiniciar o que faltar.
+
 ## Fila
 
 Ordem de execução: Técnico → PC/MA → SEAP/MA → Perícia/MA. Dentro de cada concurso,
