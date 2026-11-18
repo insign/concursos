@@ -33,6 +33,25 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
+## Status da execucao (2026-11-18 00:30 UTC)
+
+- **Publicados**: G08-01 (14min), G08-02 (19min42), G08-03 (13min23). Os tres respondem `206`.
+- **Convertido**: G08-04 (18min45) — catalogo/publicacao entram no lote de 5.
+- **Em geracao**: G08-05 Licitações.
+- **Fila**: processo destacado `bash run-fila.sh tce-ma-2026-tecnico-administrativa`
+  (PIDs 2601583/2601586), log em `/tmp/opencode/fila/tce-ma-2026-tecnico-administrativa/run.log`.
+  Publica no R2 e grava catalogo a cada 5 itens; falha de item nao derruba a fila.
+- **Git**: indice normalizado (`git restore --staged .`); commit `c688e6ce` na `main`
+  com o roadmap e os 3 catalogos.
+- **Prompt vigente**: `audio_length: "long"`, concurso variavel, sem codigo de grupo,
+  sem reflexoes e sem alegar incidencia na prova sem base nas fontes.
+- **Pendente**: publicar/commitar cada lote de 5; PC/MA (141), SEAP/MA (98) e
+  Pericia/MA (92) usam o mesmo runner; o assunto de redacao da Pericia
+  (`preparacao-discursiva`) nao tem fonte no notebook e precisa ser adicionado.
+
+Retomada sem conversa: ler esta secao, conferir o processo pelo `ps`/log, reconciliar
+o Studio do notebook do concurso e seguir a primeira linha sem `midia/catalogo.json`.
+
 ## Regras de operação
 
 - **Uma geração por assunto**; nunca regenerar após falha de conexão ou download.
