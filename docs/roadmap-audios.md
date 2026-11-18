@@ -158,8 +158,9 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
    Mitigação: P1 primeiro, teto de 2 pendentes, pausa disciplinada.
 3. **Perfil exclusivo / exit 75**: qualquer `opencode run` pode tomar o lock.
    Mitigação: um runtime, espera e retomada, nunca segundo Chrome.
-4. **Assunto sem fonte no notebook**: a Perícia tem 1 assunto (redação) no bloco
-   `preparacao-discursiva` que não foi enviado ao notebook. Adicionar antes do P4.
+4. **Assunto sem fonte no notebook**: resolvido em 18/11 — as fontes `G12 - Preparação
+   discursiva` e `G12-01 - Redação` foram enviadas ao notebook da Perícia, e o
+   `build-queue.py` passou a ler blocos na raiz (Perícia = 92 itens).
 5. **Catálogo órfão**: publicador recusa sem `--force`. Mitigação: manter o binário até
    publicar; nunca usar `--force` às cegas.
 6. **Perfil de áudio divergente**: o default do skill é Telegram (32 kb/s). Mitigação:
