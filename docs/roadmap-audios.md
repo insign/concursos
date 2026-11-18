@@ -188,6 +188,9 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   da conversa, nao a reboot.
 - **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor2.sh"`,
   `tail /tmp/opencode/fila/supervisor.log` e reiniciar o que faltar.
+- **Cadencia adaptativa da batida:** 20 min no normal; ao encontrar erro ou `STALL`,
+  corrigir e reduzir para 5 min; dois retornos limpos seguidos sobem para 10 min e
+  mais dois para 20 min; durante pausa por cota, 60 min.
 
 ## Fila
 
