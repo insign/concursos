@@ -197,6 +197,22 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   corrigir e reduzir para 5 min; dois retornos limpos seguidos sobem para 10 min e
   mais dois para 20 min; durante pausa por cota, 60 min.
 
+## Submissao sem espera e agendamento
+
+- **`submit_only` (na imagem do MCP):** `content_generate` com `submit_only: true`
+  cria o audio e devolve o `contentId` na hora, sem polling e sem repetir o
+  CREATE_STUDIO. E o motor da janela imediata de dois pedidos.
+- **Agendamento (`--later`):** nao esta no MCP; usa o cliente nao oficial
+  `notebooklm-py==0.8.6` (`generate audio --later`, status `scheduled`) e guarda
+  o orcamento do Google (hoje 6 agendamentos por conta). Guias:
+  `audios-lm/references/agendamento.md` e `downloadfix/README.md`.
+- **Achado de 19/11:** lote de 6 agendados nao executou em duas janelas; lotes
+  anteriores rodaram 10-30 min apos a janela. Agendado e reserva: nao ocupa vaga
+  imediata, e pulado ate o Google executar e e baixado em passagem posterior pelo
+  ID. Nunca reenviar.
+- **Estado:** os 6 `G12-03..G12-08` seguem `scheduled` com IDs preservados; o
+  orcamento agendavel fica zerado enquanto existirem.
+
 ## Fila
 
 Ordem de execução: Técnico → PC/MA → SEAP/MA → Perícia/MA. Dentro de cada concurso,
