@@ -33,19 +33,19 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-20 18:45 UTC)
+## Status da execucao (2026-11-20 19:01 UTC)
 
 - **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
-  141/141; SEAP/MA Inspetor 13/98; Pericia/MA Agente Criminal 0/92. Total:
-  **196/373 audios** da campanha.
+  141/141; SEAP/MA Inspetor 19/98; Pericia/MA Agente Criminal 0/92. Total:
+  **202/373 audios** da campanha.
 - **Fila corrente**: supervisor `981762`, fila do SEAP/MA pausada por cota em
   18:34:37 UTC (pausa #7). Restam 8 IDs preservados — `G01-14`, `G01-15` e
-  `G12-13..G12-18` — e 77 itens sem ID.
+  `G12-07..G12-12` — e 71 itens sem ID.
 - **Cota**: janela de 5 h em 93,91%, reposicao em 22:13:11 UTC (19:13 BRT);
-  semanal em 55,34%, reposicao em 24/11 17:13:11 UTC (14:13 BRT); orcamento
-  diferido ainda marcado como 6 ate a coleta dos artefatos `G12-13..G12-18`.
-- **Ultimo lote**: commit `c4d94a85` em 20/11 18:34:45 UTC, apos publicar os
-  audios colhidos antes da pausa.
+  semanal em 55,34%, reposicao em 24/11 17:13:11 UTC (14:13 BRT); o orcamento
+  diferido foi consumido por `G12-07..G12-12` e voltou a zero.
+- **Ultimo lote**: commit `a06ec4c2` em 20/11, com os seis audios diferidos
+  `G12-13..G12-18`; as seis URLs responderam HTTP `206`.
 - **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
   `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
   imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
@@ -230,10 +230,11 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   anteriores rodaram 10-30 min apos a janela. Agendado e reserva: nao ocupa vaga
   imediata, e pulado ate o Google executar e e baixado em passagem posterior pelo
   ID. Nunca reenviar.
-- **Estado:** o lote `G12-13..G12-18` do SEAP/MA foi executado pelo Google e
-  mantem os IDs preservados (`572d8323`, `687681a4`, `ac7c523e`, `574e3c1d`,
-  `480b089b`, `839eb22b`); deve ser colhido por ID, sem novo envio. O orcamento
-  agendavel permanece reservado ate a coleta.
+- **Estado:** o lote `G12-13..G12-18` do SEAP/MA foi executado, publicado e
+  verificado com HTTP `206`. Um novo lote `G12-07..G12-12` foi agendado com
+  IDs preservados (`fc740390`, `f1a9d674`, `47fa6c12`, `d8266f8a`, `e848e0ca`,
+  `125556a7`); deve ser colhido por ID, sem novo envio. O orcamento agendavel
+  voltou a zero.
 
 ## Fila
 
