@@ -179,9 +179,17 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   concursos, prepara `sources.json` e a fila, roda `run-fila2.sh`, commita/pusha os
   catalogos e avisa por `hey` no fim. Backoff: cota 4h/8h/12h, lock 30min, erro
   generico 10min, 12 tentativas por concurso.
-- **Runner:** `/tmp/opencode/run-fila2.sh` retoma por `content_id` salvo, baixa com
-  retry, codifica em temporario fora da `midia/`, valida decodificacao, publica a
-  cada 5 itens e pausa com `exit 9` em `QUOTA_EXHAUSTED`.
+- **Runner:** `/tmp/opencode/run-fila2.sh` retoma por `content_id` salvo antes de
+  qualquer nova submissao, baixa com retry, codifica em temporario fora da
+  `midia/`, valida decodificacao, publica a cada 5 itens e tambem publica o lote
+  pendente antes de pausar com `exit 9` em `QUOTA_EXHAUSTED`. Para item
+  `scheduled`, tenta a coleta uma vez e segue se o Google ainda nao o concluiu.
+- **Persistencia da imagem:** imagem ativa validada em
+  `notebooklm-mcp:3.2.0-mercury` (`499892733a64`), com copia compactada em
+  `~/.local/share/notebooklm-mcp/images/notebooklm-mcp-3.2.0-mercury-499892733a64.tar.gz`
+  e checksum proprio. O container parado `notebooklm-mercury-image-anchor`
+  mantem a referencia; `ensure-mcp-image.js` recarrega o tarball automaticamente
+  se uma limpeza do daemon remover as tags.
 - **Supervisao com julgamento:** um subagente `general` dorme 20 minutos e devolve
   um retrato factual (PIDs, ultima linha do log e minutos decorridos, item atual,
   contagens, commit, erros e sinal `STALL` acima de 35 min). O orquestrador julga e
@@ -210,8 +218,9 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   anteriores rodaram 10-30 min apos a janela. Agendado e reserva: nao ocupa vaga
   imediata, e pulado ate o Google executar e e baixado em passagem posterior pelo
   ID. Nunca reenviar.
-- **Estado:** os 6 `G12-03..G12-08` seguem `scheduled` com IDs preservados; o
-  orcamento agendavel fica zerado enquanto existirem.
+- **Estado:** os 6 `G16-05..G17-03` do PC/MA seguem `scheduled` com IDs
+  preservados (`b296b0a7`, `58916ccf`, `091d3ae8`, `ecf27ff3`, `230cff49`,
+  `bc8228c2`); o orcamento agendavel fica zerado enquanto existirem.
 
 ## Fila
 
