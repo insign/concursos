@@ -33,26 +33,34 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-18 00:30 UTC)
+## Status da execucao (2026-11-20 18:45 UTC)
 
-- **Publicados**: G08-01 a G08-08 (8 audios), todos com catalogo e `206` verificado.
-- **Em geracao**: G08-09 Desapropriação.
-- **Fila**: processo destacado `bash run-fila2.sh tce-ma-2026-tecnico-administrativa`
-  (PIDs 2601583/2601586), log em `/tmp/opencode/fila/tce-ma-2026-tecnico-administrativa/run.log`.
-  Publica no R2 e grava catalogo a cada 5 itens; falha de item nao derruba a fila.
-- **Git**: indice normalizado; commits `c688e6ce`, `b66c0171` e `c0270a47` na `main`.
+- **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
+  141/141; SEAP/MA Inspetor 13/98; Pericia/MA Agente Criminal 0/92. Total:
+  **196/373 audios** da campanha.
+- **Fila corrente**: supervisor `981762`, fila do SEAP/MA pausada por cota em
+  18:34:37 UTC (pausa #7). Restam 8 IDs preservados — `G01-14`, `G01-15` e
+  `G12-13..G12-18` — e 77 itens sem ID.
+- **Cota**: janela de 5 h em 93,91%, reposicao em 22:13:11 UTC (19:13 BRT);
+  semanal em 55,34%, reposicao em 24/11 17:13:11 UTC (14:13 BRT); orcamento
+  diferido ainda marcado como 6 ate a coleta dos artefatos `G12-13..G12-18`.
+- **Ultimo lote**: commit `c4d94a85` em 20/11 18:34:45 UTC, apos publicar os
+  audios colhidos antes da pausa.
+- **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
+  `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
+  imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
+  reenvia por timeout ou resultado ambiguo.
 - **Prompt vigente**: `audio_length: "long"`, concurso variavel, sem codigo de grupo,
   sem reflexoes e sem alegar incidencia na prova sem base nas fontes.
-- **Pendente**: publicar/commitar cada lote de 5; PC/MA (141), SEAP/MA (98) e
-  Pericia/MA (92) usam o mesmo runner; o assunto de redacao da Pericia
-  (`preparacao-discursiva`) nao tem fonte no notebook e precisa ser adicionado.
 
 Retomada sem conversa: ler esta secao, conferir o processo pelo `ps`/log, reconciliar
 o Studio do notebook do concurso e seguir a primeira linha sem `midia/catalogo.json`.
 
 ## Regras de operação
 
-- **Uma geração por assunto**; nunca regenerar após falha de conexão ou download.
+- **Uma geração por assunto**; nunca regenerar após timeout, falha de conexão ou
+  download ambiguo. Somente um artefato explicitamente `failed` permite uma
+  unica reconciliacao com novo envio, com o ID falho preservado no historico.
 - **No máximo 2 gerações pendentes** no NotebookLM; reconciliar a cada 30–60 s;
   teto de 20 min por áudio (timeout não libera vaga nem autoriza nova geração).
 - **Cota esgotada** (`RESOURCE_EXHAUSTED` / RPC 8): parar a fila inteira, preservar
@@ -180,16 +188,19 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   catalogos e avisa por `hey` no fim. Backoff: cota 4h/8h/12h, lock 30min, erro
   generico 10min, 12 tentativas por concurso.
 - **Runner:** `/tmp/opencode/run-fila2.sh` retoma por `content_id` salvo antes de
-  qualquer nova submissao, baixa com retry, codifica em temporario fora da
+  qualquer nova submissao, consulta o status exato do artefato, baixa com no
+  maximo 20 reconciliacoes espacadas por 60 s, codifica em temporario fora da
   `midia/`, valida decodificacao, publica a cada 5 itens e tambem publica o lote
   pendente antes de pausar com `exit 9` em `QUOTA_EXHAUSTED`. Para item
   `scheduled`, tenta a coleta uma vez e segue se o Google ainda nao o concluiu.
+  `failed` e terminal: o ID falho e arquivado e a fila para sem reenvio automatico
+  indefinido; uma segunda falha terminal exige reconciliacao manual.
 - **Persistencia da imagem:** imagem ativa validada em
-  `notebooklm-mcp:3.2.0-mercury` (`499892733a64`), com copia compactada em
-  `~/.local/share/notebooklm-mcp/images/notebooklm-mcp-3.2.0-mercury-499892733a64.tar.gz`
-  e checksum proprio. O container parado `notebooklm-mercury-image-anchor`
-  mantem a referencia; `ensure-mcp-image.js` recarrega o tarball automaticamente
-  se uma limpeza do daemon remover as tags.
+  `notebooklm-mcp:3.2.0-mercury` (`6c54ab15bbd6`), com copia compactada em
+  `~/.local/share/notebooklm-mcp/images/notebooklm-mcp-3.2.0-mercury-6c54ab15bbd6.tar.gz`
+  e checksum proprio. A suite offline passou 49/49 testes. O container parado
+  `notebooklm-mercury-image-anchor` mantem a referencia; `ensure-mcp-image.js`
+  recarrega o tarball automaticamente se uma limpeza do daemon remover as tags.
 - **Supervisao com julgamento:** um subagente `general` dorme 20 minutos e devolve
   um retrato factual (PIDs, ultima linha do log e minutos decorridos, item atual,
   contagens, commit, erros e sinal `STALL` acima de 35 min). O orquestrador julga e
@@ -203,24 +214,26 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   `opencode reload`; a campanha nao depende dele.
 - **Cadencia adaptativa da batida:** 20 min no normal; ao encontrar erro ou `STALL`,
   corrigir e reduzir para 5 min; dois retornos limpos seguidos sobem para 10 min e
-  mais dois para 20 min; durante pausa por cota, 60 min.
+  mais dois para 20 min; durante pausa por cota, no maximo 40 min.
 
 ## Submissao sem espera e agendamento
 
 - **`submit_only` (na imagem do MCP):** `content_generate` com `submit_only: true`
   cria o audio e devolve o `contentId` na hora, sem polling e sem repetir o
   CREATE_STUDIO. E o motor da janela imediata de dois pedidos.
-- **Agendamento (`--later`):** nao esta no MCP; usa o cliente nao oficial
-  `notebooklm-py==0.8.6` (`generate audio --later`, status `scheduled`) e guarda
-  o orcamento do Google (hoje 6 agendamentos por conta). Guias:
+- **Agendamento:** o MCP ativo aceita `schedule: true` para audio e devolve o
+  `contentId` com status `scheduled`, sem repetir o CREATE_STUDIO. A campanha
+  tambem usa `notebooklm-py==0.8.6` (`generate audio --later`) para lotes
+  diferidos, mantendo o orcamento do Google (6 agendamentos por conta). Guias:
   `audios-lm/references/agendamento.md` e `downloadfix/README.md`.
 - **Achado de 19/11:** lote de 6 agendados nao executou em duas janelas; lotes
   anteriores rodaram 10-30 min apos a janela. Agendado e reserva: nao ocupa vaga
   imediata, e pulado ate o Google executar e e baixado em passagem posterior pelo
   ID. Nunca reenviar.
-- **Estado:** os 6 `G16-05..G17-03` do PC/MA seguem `scheduled` com IDs
-  preservados (`b296b0a7`, `58916ccf`, `091d3ae8`, `ecf27ff3`, `230cff49`,
-  `bc8228c2`); o orcamento agendavel fica zerado enquanto existirem.
+- **Estado:** o lote `G12-13..G12-18` do SEAP/MA foi executado pelo Google e
+  mantem os IDs preservados (`572d8323`, `687681a4`, `ac7c523e`, `574e3c1d`,
+  `480b089b`, `839eb22b`); deve ser colhido por ID, sem novo envio. O orcamento
+  agendavel permanece reservado ate a coleta.
 
 ## Fila
 
