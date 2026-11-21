@@ -33,19 +33,19 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-21 09:55 UTC)
+## Status da execucao (2026-11-21 14:50 UTC)
 
 - **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
-  141/141; SEAP/MA Inspetor 56/98; Pericia/MA Agente Criminal 0/92. Total:
-  **239/373 audios** da campanha.
+  141/141; SEAP/MA Inspetor 67/98; Pericia/MA Agente Criminal 0/92. Total:
+  **250/373 audios** da campanha.
 - **Fila corrente**: supervisor corrigido `3404079`, fila do SEAP/MA pausada
-  por cota em 08:42:50 UTC (pausa #1 do supervisor novo). Restam 6 IDs
-  preservados — `G05-02`, `G05-06` e `G07-03..G07-06` — e 36 itens sem ID.
-- **Cota**: janela de 5 h em 93,47%, reposicao em 21/11 13:13:11 UTC
-  (10:13 BRT); semanal em 68,98%, reposicao em 24/11 17:13:11 UTC
+  por cota em 14:05:58 UTC (pausa #2 do supervisor novo). Restam 6 IDs
+  preservados — `G05-02`, `G05-06` e `G07-03..G07-06` — e 25 itens sem ID.
+- **Cota**: janela de 5 h em 98,46%, reposicao em 21/11 18:13:11 UTC
+  (15:13 BRT); semanal em 73,67%, reposicao em 24/11 17:13:11 UTC
   (14:13 BRT); o orcamento diferido esta em zero.
-- **Ultimo lote**: commit `2c9050ad` em 21/11, com seis audios ja concluidos
-  do SEAP/MA; as seis URLs responderam HTTP `206`.
+- **Ultimo lote**: commit `8734a735` em 21/11, com `G09-01` publicado e
+  verificado por HTTP `206`.
 - **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
   `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
   imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
@@ -232,10 +232,10 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   ID. Nunca reenviar.
 - **Estado:** os lotes `G12-13..G12-18`, `G12-07..G12-12` e `G12-01..G12-06`
   do SEAP/MA foram executados, publicados e verificados com HTTP `206`.
-  `G05-01`, `G05-03..G05-05` e `G07-01..G07-02` tambem foram publicados e
-  verificados. Restam os IDs `G05-02`, `G05-06` e `G07-03..G07-06`, que
-  devem ser colhidos por ID, sem novo envio. O orcamento agendavel esta em
-  zero.
+  `G05-01`, `G05-03..G05-05`, `G07-01..G07-02` e `G09-01` tambem foram
+  publicados e verificados. Restam os IDs `G05-02`, `G05-06` e
+  `G07-03..G07-06`, que devem ser colhidos por ID, sem novo envio. O
+  orcamento agendavel esta em zero.
 
 ## Fila
 
