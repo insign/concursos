@@ -33,19 +33,25 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-21 14:50 UTC)
+## Status da execucao (2026-11-21 19:54 UTC)
 
 - **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
-  141/141; SEAP/MA Inspetor 67/98; Pericia/MA Agente Criminal 0/92. Total:
-  **250/373 audios** da campanha.
-- **Fila corrente**: supervisor corrigido `3404079`, fila do SEAP/MA pausada
-  por cota em 14:05:58 UTC (pausa #2 do supervisor novo). Restam 6 IDs
-  preservados — `G05-02`, `G05-06` e `G07-03..G07-06` — e 25 itens sem ID.
-- **Cota**: janela de 5 h em 98,46%, reposicao em 21/11 18:13:11 UTC
-  (15:13 BRT); semanal em 73,67%, reposicao em 24/11 17:13:11 UTC
-  (14:13 BRT); o orcamento diferido esta em zero.
-- **Ultimo lote**: commit `8734a735` em 21/11, com `G09-01` publicado e
-  verificado por HTTP `206`.
+  141/141; SEAP/MA Inspetor 77/98; Pericia/MA Agente Criminal 0/92. Total:
+  **260/373 audios** da campanha.
+- **Fila corrente**: supervisor e runner do SEAP/MA foram pausados manualmente
+  apos a sessao Google do MCP expirar. Estao preservados os IDs imediatos
+  `G09-06=2024fac0-ccaf-4ba5-a0ba-0992767c1bb2` e
+  `G09-07=6c011fea-504f-42ed-a7a7-8553f8df82ff`; restam 19 itens sem ID.
+  Nenhum ID foi reenviado.
+- **Cota**: ultima medicao valida as 18:54 UTC — janela de 5 h em 40,18%, com
+  reposicao em 21/11 23:13:11 UTC (20:13 BRT); semanal em 75,51%, com reposicao
+  em 24/11 17:13:11 UTC (14:13 BRT); orcamento diferido em 6. A cota nao estava
+  esgotada; a expiracao da autenticacao impediu a reconciliacao ao vivo.
+- **Ultimo lote**: commit `06f74518` em 21/11, com 10 catalogos do SEAP/MA.
+  As 77 midias ja publicadas do SEAP/MA foram reconferidas por HTTP `206` em
+  21/11 19:53 UTC.
+- **Proximo passo**: reautenticar o MCP em uma sessao VNC isolada, reconciliar
+  `G09-06` e `G09-07` pelos IDs salvos e continuar sem nova submissao desses IDs.
 - **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
   `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
   imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
@@ -183,10 +189,11 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
 
 ## Supervisao automatica
 
-- **Execucao:** `/tmp/opencode/supervisor2.sh` (destacado com `setsid`) encadeia os
+- **Execucao:** `/tmp/opencode/supervisor3.sh` (destacado com `setsid`) encadeia os
   concursos, prepara `sources.json` e a fila, roda `run-fila2.sh`, commita/pusha os
-  catalogos e avisa por `hey` no fim. Backoff: cota 4h/8h/12h, lock 30min, erro
-  generico 10min, 12 tentativas por concurso.
+  catalogos e avisa por `hey` no fim. A versao corrigida nao avanca de concurso
+  enquanto a fila corrente estiver pendente. Backoff: cota 6h, lock 30min e erro
+  generico 10min.
 - **Runner:** `/tmp/opencode/run-fila2.sh` retoma por `content_id` salvo antes de
   qualquer nova submissao, consulta o status exato do artefato, baixa com no
   maximo 20 reconciliacoes espacadas por 60 s, codifica em temporario fora da
@@ -201,20 +208,19 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   e checksum proprio. A suite offline passou 49/49 testes. O container parado
   `notebooklm-mercury-image-anchor` mantem a referencia; `ensure-mcp-image.js`
   recarrega o tarball automaticamente se uma limpeza do daemon remover as tags.
-- **Supervisao com julgamento:** um subagente `general` dorme 20 minutos e devolve
-  um retrato factual (PIDs, ultima linha do log e minutos decorridos, item atual,
-  contagens, commit, erros e sinal `STALL` acima de 35 min). O orquestrador julga e
-  reenvia na mesma sessao. Vale apenas com a sessao aberta; o bash sobrevive ao fim
-  da conversa, nao a reboot.
-- **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor2.sh"`,
+- **Supervisao com julgamento:** exatamente um subagente `general` por batida
+  dorme ate 40 minutos e devolve um retrato factual (PIDs, ultima linha do log e
+  minutos decorridos, item atual, contagens, commit, erros e sinal `STALL` acima
+  de 35 min). O orquestrador julga e reenvia na mesma sessao. Vale apenas com a
+  sessao aberta; o bash sobrevive ao fim da conversa, nao a reboot.
+- **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor3.sh"`,
   `tail /tmp/opencode/fila/supervisor.log` e reiniciar o que faltar.
 - **Perfil exclusivo:** o MCP `notebooklm` do OpenCode fica **desligado** durante a
   campanha (`disabled: true` em `opencode.json`), porque ele segura o perfil do Chrome
   mesmo ocioso e bloqueia os drivers. Para usar as ferramentas do MCP, reative e rode
   `opencode reload`; a campanha nao depende dele.
-- **Cadencia adaptativa da batida:** 20 min no normal; ao encontrar erro ou `STALL`,
-  corrigir e reduzir para 5 min; dois retornos limpos seguidos sobem para 10 min e
-  mais dois para 20 min; durante pausa por cota, no maximo 40 min.
+- **Cadencia da batida:** uma unica batida pendente por vez, com intervalo maximo
+  de 40 min; durante pausa por cota, pode permanecer no limite maximo.
 
 ## Submissao sem espera e agendamento
 
@@ -232,10 +238,11 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   ID. Nunca reenviar.
 - **Estado:** os lotes `G12-13..G12-18`, `G12-07..G12-12` e `G12-01..G12-06`
   do SEAP/MA foram executados, publicados e verificados com HTTP `206`.
-  `G05-01`, `G05-03..G05-05`, `G07-01..G07-02` e `G09-01` tambem foram
-  publicados e verificados. Restam os IDs `G05-02`, `G05-06` e
-  `G07-03..G07-06`, que devem ser colhidos por ID, sem novo envio. O
-  orcamento agendavel esta em zero.
+  `G05-01`, `G05-03..G05-05`, `G07-01..G07-02` e `G09-01..G09-05` tambem foram
+  publicados e verificados. Os IDs diferidos `G05-02`, `G05-06` e
+  `G07-03..G07-06` foram colhidos e publicados no commit `06f74518`, sem novo
+  envio. Restam somente os IDs imediatos `G09-06` e `G09-07`; a ultima medicao
+  do orcamento diferido, as 18:54 UTC, indicava 6 vagas.
 
 ## Fila
 
