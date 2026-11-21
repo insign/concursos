@@ -33,20 +33,20 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-21 04:55 UTC)
+## Status da execucao (2026-11-21 09:05 UTC)
 
 - **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
-  141/141; SEAP/MA Inspetor 46/98; Pericia/MA Agente Criminal 0/92. Total:
-  **229/373 audios** da campanha.
-- **Fila corrente**: supervisor `981762`, fila do SEAP/MA pausada por cota em
-  04:31:30 UTC (pausa #9). Restam 6 IDs preservados — `G05-01..G05-06` — e
-  46 itens sem ID.
-- **Cota**: janela de 5 h em 94,05%, reposicao em 21/11 08:13:11 UTC
-  (05:13 BRT); semanal em 64,53%, reposicao em 24/11 17:13:11 UTC
-  (14:13 BRT); o orcamento diferido foi consumido por `G05-01..G05-06` e
+  141/141; SEAP/MA Inspetor 50/98; Pericia/MA Agente Criminal 0/92. Total:
+  **233/373 audios** da campanha.
+- **Fila corrente**: supervisor corrigido `3404079`, fila do SEAP/MA pausada
+  por cota em 08:42:50 UTC (pausa #1 do supervisor novo). Restam 12 IDs
+  preservados — `G05-01..G05-06` e `G07-01..G07-06` — e 36 itens sem ID.
+- **Cota**: janela de 5 h em 93,47%, reposicao em 21/11 13:13:11 UTC
+  (10:13 BRT); semanal em 68,98%, reposicao em 24/11 17:13:11 UTC
+  (14:13 BRT); o orcamento diferido foi consumido por `G07-03..G07-06` e
   voltou a zero.
-- **Ultimo lote**: commit `fe8bc61b` em 21/11, com os seis audios diferidos
-  `G12-01..G12-06`; as seis URLs responderam HTTP `206`.
+- **Ultimo lote**: commit `5f4e26d8` em 21/11, com o lote automatico do
+  SEAP/MA publicado antes da pausa.
 - **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
   `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
   imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
@@ -232,10 +232,11 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   imediata, e pulado ate o Google executar e e baixado em passagem posterior pelo
   ID. Nunca reenviar.
 - **Estado:** os lotes `G12-13..G12-18`, `G12-07..G12-12` e `G12-01..G12-06`
-  do SEAP/MA foram executados, publicados e verificados com HTTP `206`. Um novo
-  lote `G05-01..G05-06` foi agendado com IDs preservados (`30aae7b2`,
-  `06600d9f`, `8fd4fa84`, `ddf47237`, `0337ee03`, `0d4767bf`); deve ser colhido
-  por ID, sem novo envio. O orcamento agendavel voltou a zero.
+  do SEAP/MA foram executados, publicados e verificados com HTTP `206`. Os
+  seis IDs de `G05-01..G05-06` permanecem `scheduled`. `G07-01..G07-02` sao
+  submissoes imediatas ja salvas, e `G07-03..G07-06` foi agendado com IDs
+  preservados (`b1a3b639`, `fbb23bd1`, `f19a696f`, `79fb3428`). Todos devem
+  ser colhidos por ID, sem novo envio. O orcamento agendavel voltou a zero.
 
 ## Fila
 
