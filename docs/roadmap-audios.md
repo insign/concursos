@@ -208,11 +208,15 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   e checksum proprio. A suite offline passou 49/49 testes. O container parado
   `notebooklm-mercury-image-anchor` mantem a referencia; `ensure-mcp-image.js`
   recarrega o tarball automaticamente se uma limpeza do daemon remover as tags.
-- **Supervisao com julgamento:** exatamente um subagente `general` por batida
-  dorme ate 40 minutos e devolve um retrato factual (PIDs, ultima linha do log e
-  minutos decorridos, item atual, contagens, commit, erros e sinal `STALL` acima
-  de 35 min). O orquestrador julga e reenvia na mesma sessao. Vale apenas com a
-  sessao aberta; o bash sobrevive ao fim da conversa, nao a reboot.
+- **Supervisao com julgamento:** exatamente um subagente nativo do OpenCode
+  (`general`) por batida, visivel na interface, dorme ate 40 minutos e devolve um
+  retrato factual (PIDs, ultima linha do log e minutos decorridos, item atual,
+  contagens, commit, erros e sinal `STALL` acima de 35 min). A batida deve usar
+  caminhos absolutos e executar o `sleep` de forma sincrona, com timeout maior
+  que 2400 s; nao substitua o subagente por shell/`nohup` e nao aceite contagem
+  feita antes do fim do sleep. O orquestrador julga e reenvia na mesma sessao.
+  Vale apenas com a sessao aberta; o bash sobrevive ao fim da conversa, nao a
+  reboot.
 - **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor3.sh"`,
   `tail /tmp/opencode/fila/supervisor.log` e reiniciar o que faltar.
 - **Perfil exclusivo:** o MCP `notebooklm` do OpenCode fica **desligado** durante a
