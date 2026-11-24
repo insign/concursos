@@ -218,7 +218,13 @@ A tabela da fila abaixo é o cursor. Uma sessão nova:
   Vale apenas com a sessao aberta; o bash sobrevive ao fim da conversa, nao a
   reboot.
 - **Retomada sem conversa:** conferir `pgrep -af "run-fila2.sh|supervisor3.sh"`,
-  `tail /tmp/opencode/fila/supervisor.log` e reiniciar o que faltar.
+  `tail ~/.local/share/filas-audio/<concurso>/run.log` e reiniciar o que faltar.
+  Desde 24/11 o estado persistente mora em `~/.local/share/filas-audio/`
+  (ver `README.md` lá): `/tmp` é `tmpfs` e o reboot de 24/11 às 00:54:48 UTC
+  apagou scripts, fila, IDs e logs. A retomada pós-reboot reconstruiu a fila
+  do SEAP/MA a partir da tabela abaixo + H1 dos `conteudo.md` (91/98,
+  pendentes G10-10, G10-11, G11-01..G11-05); o volume Docker
+  `notebooklm-mercury-data` preservou auth de 23/11 e `audio-*.media`.
 - **Perfil exclusivo:** o MCP `notebooklm` do OpenCode fica **desligado** durante a
   campanha (`disabled: true` em `opencode.json`), porque ele segura o perfil do Chrome
   mesmo ocioso e bloqueia os drivers. Para usar as ferramentas do MCP, reative e rode
