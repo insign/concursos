@@ -33,34 +33,25 @@ Critérios de conclusão:
 | SEAP/MA 2026 — Inspetor de Polícia Penal | 13/12/2026 | 98 |
 | Perícia/MA 2026 — Agente Criminal Generalista | 10/01/2027 | 92 |
 
-## Status da execucao (2026-11-21 19:54 UTC)
+## Status da execucao (2026-11-25 15:10 BRT)
 
-- **Publicados e commitados**: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador
-  141/141; SEAP/MA Inspetor 77/98; Pericia/MA Agente Criminal 0/92. Total:
-  **260/373 audios** da campanha.
-- **Fila corrente**: supervisor e runner do SEAP/MA foram pausados manualmente
-  apos a sessao Google do MCP expirar. Estao preservados os IDs imediatos
-  `G09-06=2024fac0-ccaf-4ba5-a0ba-0992767c1bb2` e
-  `G09-07=6c011fea-504f-42ed-a7a7-8553f8df82ff`; restam 19 itens sem ID.
-  Nenhum ID foi reenviado.
-- **Cota**: ultima medicao valida as 18:54 UTC — janela de 5 h em 40,18%, com
-  reposicao em 21/11 23:13:11 UTC (20:13 BRT); semanal em 75,51%, com reposicao
-  em 24/11 17:13:11 UTC (14:13 BRT); orcamento diferido em 6. A cota nao estava
-  esgotada; a expiracao da autenticacao impediu a reconciliacao ao vivo.
-- **Ultimo lote**: commit `06f74518` em 21/11, com 10 catalogos do SEAP/MA.
-  As 77 midias ja publicadas do SEAP/MA foram reconferidas por HTTP `206` em
-  21/11 19:53 UTC.
-- **Proximo passo**: reautenticar o MCP em uma sessao VNC isolada, reconciliar
-  `G09-06` e `G09-07` pelos IDs salvos e continuar sem nova submissao desses IDs.
-- **Robustez do downloader**: a imagem MCP ativa agora informa o status exato do
-  `content_id` (`failed`, `in_progress`, `scheduled`, `not_found`); o runner para
-  imediatamente em falha terminal, aguarda 60 s entre reconciliacoes e nunca
-  reenvia por timeout ou resultado ambiguo.
-- **Prompt vigente**: `audio_length: "long"`, concurso variavel, sem codigo de grupo,
-  sem reflexoes e sem alegar incidencia na prova sem base nas fontes.
-
-Retomada sem conversa: ler esta secao, conferir o processo pelo `ps`/log, reconciliar
-o Studio do notebook do concurso e seguir a primeira linha sem `midia/catalogo.json`.
+- **Campanha concluida: 373/373 audios publicados e commitados.**
+- Por concurso: TCE/MA Tecnico 42/42; PC/MA Oficial Investigador 141/141;
+  SEAP/MA Inspetor 98/98; Pericia/MA Agente Criminal 92/92.
+- **Ultimo commit:** `46946452`, com os catalogos de G11-06 e G12-01 da
+  Pericia/MA. Arvore limpa e sincronizada com `origin/main`.
+- **Validacao final:** 373 MP3 locais aprovados por `ffprobe` (MP3, mono,
+  44,1 kHz, duracao positiva); 373/373 URLs responderam HTTP `206` em
+  verificacao sequencial; `midia:publicar -- --dry-run` com 0 catalogos
+  orfaos; `npm run check`, `npm run build` e `npm run build:budget` verdes.
+- **Integridade:** nenhum dos 153 audios preexistentes foi regerado e nenhum
+  arquivo editorial foi alterado. Os IDs preservados foram reconciliados sem
+  reenvio; timeout, ambiguidade e recusa de cota nunca autorizaram repeticao.
+- **Persistencia pos-reboot:** scripts e filas vivem em
+  `~/.local/share/filas-audio/`; `/tmp/opencode` permanece apenas como area
+  efemera de trabalho.
+- **Proximo passo:** nenhum. A campanha foi encerrada apos a confirmacao dos
+  373 catalogos, MP3 e URLs.
 
 ## Regras de operação
 
